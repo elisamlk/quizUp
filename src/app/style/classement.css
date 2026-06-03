@@ -1,0 +1,307 @@
+.classementBoard {
+  margin-top: 18px;
+}
+
+.classementList {
+  display: grid;
+
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+
+  gap: 10px;
+}
+
+.classementStats {
+  display: flex;
+
+  align-items: center;
+
+  gap: 8px;
+}
+
+.classementMoves {
+  display: inline-flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  min-width: 72px;
+
+  height: 30px;
+
+  padding: 0 12px;
+
+  border-radius: 999px;
+
+  background: #eef2ff;
+
+  color: #3055ff;
+
+  font-size: 0.76rem;
+
+  font-weight: 900;
+
+  box-shadow: 0 8px 18px rgba(48, 85, 255, 0.08);
+}
+
+.classementMoves--danger {
+  background: #fee2e2;
+
+  color: #dc2626;
+}
+
+.classementCard {
+  position: relative;
+
+  display: flex;
+
+  flex-direction: column;
+
+  overflow: hidden;
+
+  aspect-ratio: 1 / 0.72;
+
+  border-radius: 18px;
+
+  background:
+    radial-gradient(
+      circle at top left,
+      rgba(48, 85, 255, 0.08),
+      transparent 40%
+    ),
+    linear-gradient(180deg, #ffffff, #f8fbff);
+
+  border: 1px solid rgba(48, 85, 255, 0.1);
+
+  box-shadow:
+    0 12px 28px rgba(15, 23, 42, 0.06),
+    inset 0 1px 0 rgba(255, 255, 255, 0.8);
+
+  cursor: grab;
+
+  user-select: none;
+  touch-action: none;
+  -webkit-tap-highlight-color: transparent;
+
+  transition:
+    transform 0.15s ease,
+    box-shadow 0.15s ease,
+    border-color 0.15s ease,
+    background 0.15s ease;
+}
+
+.classementCard:hover {
+  transform: translateY(-2px);
+
+  border-color: rgba(48, 85, 255, 0.22);
+
+  box-shadow: 0 18px 36px rgba(15, 23, 42, 0.1);
+}
+
+.classementCard:active {
+  cursor: grabbing;
+}
+
+.classementCard--dragging {
+  transform: scale(1.02);
+
+  z-index: 20;
+
+  box-shadow: 0 24px 44px rgba(15, 23, 42, 0.16);
+}
+
+.classementCard--locked {
+  border-color: #22c55e;
+
+  background:
+    radial-gradient(
+      circle at top left,
+      rgba(34, 197, 94, 0.1),
+      transparent 40%
+    ),
+    linear-gradient(180deg, #ffffff, #f6fff8);
+
+  box-shadow: 0 16px 34px rgba(34, 197, 94, 0.14);
+}
+
+.classementPos {
+  position: absolute;
+
+  top: 8px;
+  left: 8px;
+
+  z-index: 5;
+
+  width: 28px;
+  height: 28px;
+
+  border-radius: 999px;
+
+  background: rgba(15, 23, 42, 0.82);
+
+  backdrop-filter: blur(10px);
+
+  color: white;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  font-size: 0.68rem;
+
+  font-weight: 900;
+
+  box-shadow: 0 8px 18px rgba(15, 23, 42, 0.22);
+}
+
+.classementThumb {
+  position: relative;
+
+  width: 100%;
+
+  height: 72%;
+
+  overflow: hidden;
+
+  background: #eef2ff;
+}
+
+.classementThumb img {
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+
+  display: block;
+
+  transition: transform 0.25s ease;
+}
+
+.classementCard:hover .classementThumb img {
+  transform: scale(1.03);
+}
+
+.classementBody {
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  gap: 8px;
+
+  flex: 1;
+
+  padding: 10px 12px;
+}
+
+.classementLabel {
+  color: #0f172a;
+
+  font-size: 0.78rem;
+
+  line-height: 1.12;
+
+  font-weight: 850;
+
+  letter-spacing: -0.02em;
+}
+
+.classementDrag {
+  flex-shrink: 0;
+
+  color: #94a3b8;
+
+  font-size: 0.92rem;
+
+  font-weight: 900;
+}
+
+.classementCheck {
+  width: 22px;
+  height: 22px;
+
+  border-radius: 999px;
+
+  background: #22c55e;
+
+  color: white;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  font-size: 0.66rem;
+
+  font-weight: 900;
+
+  flex-shrink: 0;
+
+  box-shadow: 0 8px 16px rgba(34, 197, 94, 0.24);
+}
+
+.classementExplain {
+  margin-top: 16px;
+}
+
+@media (max-width: 768px) {
+  .classementTop {
+    gap: 8px;
+
+    align-items: flex-start;
+
+    flex-direction: column;
+  }
+
+  .classementList {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+
+    gap: 8px;
+  }
+
+  .classementCard {
+    aspect-ratio: 1 / 1.08;
+
+    border-radius: 14px;
+  }
+
+  .classementThumb {
+    height: 74%;
+  }
+
+  .classementBody {
+    padding: 8px;
+  }
+
+  .classementLabel {
+    font-size: 0.68rem;
+
+    line-height: 1.08;
+  }
+
+  .classementPos {
+    width: 22px;
+    height: 22px;
+
+    font-size: 0.54rem;
+  }
+
+  .classementCheck {
+    width: 18px;
+    height: 18px;
+
+    font-size: 0.56rem;
+  }
+
+  .classementMoves {
+    height: 26px;
+
+    min-width: 60px;
+
+    font-size: 0.66rem;
+  }
+}

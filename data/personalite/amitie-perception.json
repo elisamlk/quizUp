@@ -1,0 +1,130 @@
+{
+  "slug": "test-comment-tes-amis-te-percoivent",
+  "title": "Test amitié - Comment tes amis te perçoivent vraiment ?",
+  "description": "Tes comportements révèlent l’image que tu renvoies aux autres.",
+  "descriptionSeo": "Réponses aux messages, attitude en groupe, gestion des moments importants ou des silences… ce test analyse tes comportements concrets pour révéler l’image que tu renvoies réellement à tes amis. Es-tu perçu(e) comme fiable, dynamique ou difficile à cerner ? À travers des situations du quotidien, découvre comment les autres te voient vraiment et ce que ton attitude dit de ta place dans leurs relations.",
+  "category": {
+    "name": "Amitié",
+    "slug": "amitie"
+  },
+  "createdAt": "2026-04-27",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777725802/cover_hkcaw3.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777725802/cover_hkcaw3.jpg",
+    "alt": "Test perception amis"
+  },
+  "profiles": [
+    {
+      "key": "fiable",
+      "title": "La personne fiable",
+      "description": "Tes amis te voient comme quelqu’un de solide et de constant. Tu es présent(e), tu réponds, tu tiens tes engagements et tu es une valeur sûre dans leur vie. On sait qu’on peut compter sur toi sans hésiter. Tu inspires confiance et stabilité, même si tu n’es pas toujours le/la plus démonstratif(ve).",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777726110/fiable_mvjsd5.jpg"
+    },
+    {
+      "key": "energie",
+      "title": "La personne qui apporte de l’énergie",
+      "description": "Tu es perçu(e) comme quelqu’un de vivant, spontané et agréable à avoir autour. Tu apportes du mouvement, de l’humour ou de la légèreté. Tes amis associent ta présence à des moments dynamiques et positifs. Tu es souvent celui/celle qui rend les moments plus mémorables.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777726112/energetic_tvacfv.jpg"
+    },
+    {
+      "key": "complexe",
+      "title": "La personne difficile à cerner",
+      "description": "Tes amis peuvent parfois avoir du mal à te situer. Tu peux être très présent(e) à certains moments, puis plus distant(e) à d’autres. Ton comportement n’est pas toujours prévisible. Cela peut créer une forme de flou dans la manière dont les autres te perçoivent.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777726113/complex_xsuie5.jpg"
+    }
+  ],
+  "questions": [
+    {
+      "id": "1",
+      "question": "Un ami t’écrit pour te proposer un plan dans la semaine…",
+      "answers": [
+        { "label": "Je réponds rapidement et clairement", "scores": { "fiable": 3 } },
+        { "label": "Je réponds mais sans trop m’engager", "scores": { "energie": 3 } },
+        { "label": "Je mets du temps ou j’oublie", "scores": { "complexe": 3 } }
+      ]
+    },
+    {
+      "id": "2",
+      "question": "Tu arrives à une soirée où il y a ton groupe…",
+      "answers": [
+        { "label": "Je salue tout le monde et m’intègre", "scores": { "fiable": 3 } },
+        { "label": "Je mets rapidement de l’ambiance", "scores": { "energie": 3 } },
+        { "label": "Je reste plus discret(e) au début", "scores": { "complexe": 3 } }
+      ]
+    },
+    {
+      "id": "3",
+      "question": "Quelqu’un te confie un problème important…",
+      "answers": [
+        { "label": "Je suis vraiment présent(e) pour écouter", "scores": { "fiable": 3 } },
+        { "label": "J’essaie de remonter le moral", "scores": { "energie": 3 } },
+        { "label": "Je ne sais pas toujours comment réagir", "scores": { "complexe": 3 } }
+      ]
+    },
+    {
+      "id": "4",
+      "question": "Tu dis que tu vas faire quelque chose pour un ami…",
+      "answers": [
+        { "label": "Je le fais réellement", "scores": { "fiable": 3 } },
+        { "label": "Je le fais si je suis motivé(e)", "scores": { "energie": 3 } },
+        { "label": "J’oublie parfois", "scores": { "complexe": 3 } }
+      ]
+    },
+    {
+      "id": "5",
+      "question": "Dans une discussion de groupe…",
+      "answers": [
+        { "label": "Je participe de manière posée", "scores": { "fiable": 3 } },
+        { "label": "Je fais réagir les autres", "scores": { "energie": 3 } },
+        { "label": "Je parle peu ou par moments", "scores": { "complexe": 3 } }
+      ]
+    },
+    {
+      "id": "6",
+      "question": "Un ami n’a plus de nouvelles de toi pendant quelques jours…",
+      "answers": [
+        { "label": "C’est rare", "scores": { "fiable": 3 } },
+        { "label": "Ça peut arriver", "scores": { "energie": 3 } },
+        { "label": "C’est assez fréquent", "scores": { "complexe": 3 } }
+      ]
+    },
+    {
+      "id": "7",
+      "question": "On te propose un plan spontané…",
+      "answers": [
+        { "label": "Je vérifie et je confirme", "scores": { "fiable": 3 } },
+        { "label": "Je suis souvent partant(e)", "scores": { "energie": 3 } },
+        { "label": "Je reste hésitant(e)", "scores": { "complexe": 3 } }
+      ]
+    },
+    {
+      "id": "8",
+      "question": "Tu es dans un moment de groupe un peu calme…",
+      "answers": [
+        { "label": "Je maintiens la discussion", "scores": { "fiable": 3 } },
+        { "label": "Je lance quelque chose de fun", "scores": { "energie": 3 } },
+        { "label": "Je laisse faire", "scores": { "complexe": 3 } }
+      ]
+    },
+    {
+      "id": "9",
+      "question": "Un ami te décrit à quelqu’un…",
+      "answers": [
+        { "label": "Fiable et présent(e)", "scores": { "fiable": 3 } },
+        { "label": "Fun et dynamique", "scores": { "energie": 3 } },
+        { "label": "Un peu imprévisible", "scores": { "complexe": 3 } }
+      ]
+    },
+    {
+      "id": "10",
+      "question": "Quand tu quittes un moment avec tes amis…",
+      "answers": [
+        { "label": "Tout est fluide et naturel", "scores": { "fiable": 3 } },
+        { "label": "On garde une bonne énergie", "scores": { "energie": 3 } },
+        { "label": "Ça dépend des moments", "scores": { "complexe": 3 } }
+      ]
+    }
+  ]
+}

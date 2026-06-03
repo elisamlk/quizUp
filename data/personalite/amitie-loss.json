@@ -1,0 +1,130 @@
+{
+  "slug": "test-peur-perdre-amis",
+  "title": "Test amitié - As-tu peur de perdre tes amis ?",
+  "description": "Tes réactions montrent-elles une peur de perdre tes relations ?",
+  "descriptionSeo": "Silences, réponses tardives, changements d’attitude… ce test analyse tes réactions concrètes pour savoir si tu as peur de perdre tes amis. Ressens-tu parfois de l’inquiétude face à la distance ou aux variations dans tes relations ? À travers des situations réalistes, découvre si tu es serein(e), sensible ou anxieux(se) dans tes liens et ce que cela révèle sur ta manière de vivre l’amitié.",
+  "category": {
+    "name": "Amitié",
+    "slug": "amitie"
+  },
+  "createdAt": "2026-04-27",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777754040/cover_xqi5hh.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777754040/cover_xqi5hh.jpg",
+    "alt": "Test peur perdre amis"
+  },
+  "profiles": [
+    {
+      "key": "secure",
+      "title": "Tu es plutôt serein(e)",
+      "description": "Tu ne vis pas tes relations dans la peur de les perdre. Tu sais que les liens évoluent naturellement et tu fais confiance à la solidité de tes amitiés. Tu n’as pas besoin de signes constants pour te sentir en sécurité. Cette stabilité émotionnelle te permet d’avoir des relations plus fluides et équilibrées.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777466236/apaise_srcy3y.jpg"
+    },
+    {
+      "key": "sensible",
+      "title": "Tu es sensible au lien",
+      "description": "Tu tiens à tes relations et tu peux parfois ressentir une certaine inquiétude quand elles changent. Tu remarques les silences, les distances ou les variations dans les échanges. Sans être envahi(e) par la peur, tu restes attentif(ve) à ce qui pourrait fragiliser le lien.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777754406/sensitive_qvvhpj.jpg"
+    },
+    {
+      "key": "anxieux",
+      "title": "Tu as peur de perdre tes amis",
+      "description": "Tu ressens facilement une inquiétude face à la distance, au silence ou aux changements dans tes relations. Tu peux interpréter certains comportements comme des signes de désintérêt ou d’éloignement. Cette peur peut parfois influencer ta manière d’agir ou de réagir dans tes amitiés.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777754516/anxious_uyzqhs.jpg"
+    }
+  ],
+  "questions": [
+    {
+      "id": "1",
+      "question": "Un ami met plus de temps que d’habitude à répondre…",
+      "answers": [
+        { "label": "Je n’y pense pas plus que ça", "scores": { "secure": 3 } },
+        { "label": "Je me pose un peu la question", "scores": { "sensible": 3 } },
+        { "label": "Je me demande si quelque chose ne va pas", "scores": { "anxieux": 3 } }
+      ]
+    },
+    {
+      "id": "2",
+      "question": "Tu vois ton ami(e) passer du temps avec d’autres personnes…",
+      "answers": [
+        { "label": "Ça ne change rien pour moi", "scores": { "secure": 3 } },
+        { "label": "Je remarque un peu", "scores": { "sensible": 3 } },
+        { "label": "Je me sens mis(e) de côté", "scores": { "anxieux": 3 } }
+      ]
+    },
+    {
+      "id": "3",
+      "question": "Une conversation devient moins régulière…",
+      "answers": [
+        { "label": "Je laisse évoluer naturellement", "scores": { "secure": 3 } },
+        { "label": "Je remarque le changement", "scores": { "sensible": 3 } },
+        { "label": "Je me demande si le lien se perd", "scores": { "anxieux": 3 } }
+      ]
+    },
+    {
+      "id": "4",
+      "question": "Un ami annule un plan…",
+      "answers": [
+        { "label": "Je comprends sans problème", "scores": { "secure": 3 } },
+        { "label": "Je suis un peu déçu(e)", "scores": { "sensible": 3 } },
+        { "label": "Je le prends personnellement", "scores": { "anxieux": 3 } }
+      ]
+    },
+    {
+      "id": "5",
+      "question": "Tu n’as pas de nouvelles pendant quelques jours…",
+      "answers": [
+        { "label": "Ça ne m’inquiète pas", "scores": { "secure": 3 } },
+        { "label": "Je me pose des questions", "scores": { "sensible": 3 } },
+        { "label": "Je me sens mal ou inquiet(e)", "scores": { "anxieux": 3 } }
+      ]
+    },
+    {
+      "id": "6",
+      "question": "Une relation change de rythme…",
+      "answers": [
+        { "label": "Je m’adapte facilement", "scores": { "secure": 3 } },
+        { "label": "Je mets du temps à m’adapter", "scores": { "sensible": 3 } },
+        { "label": "Ça me perturbe beaucoup", "scores": { "anxieux": 3 } }
+      ]
+    },
+    {
+      "id": "7",
+      "question": "Tu hésites à envoyer un message…",
+      "answers": [
+        { "label": "Je l’envoie sans réfléchir", "scores": { "secure": 3 } },
+        { "label": "Je réfléchis un peu", "scores": { "sensible": 3 } },
+        { "label": "Je me demande comment ça sera perçu", "scores": { "anxieux": 3 } }
+      ]
+    },
+    {
+      "id": "8",
+      "question": "Tu sens une distance dans une relation…",
+      "answers": [
+        { "label": "Je laisse de l’espace", "scores": { "secure": 3 } },
+        { "label": "J’essaie de comprendre", "scores": { "sensible": 3 } },
+        { "label": "Je me sens inquiet(e)", "scores": { "anxieux": 3 } }
+      ]
+    },
+    {
+      "id": "9",
+      "question": "Tu repenses à une interaction récente…",
+      "answers": [
+        { "label": "Je n’analyse pas plus", "scores": { "secure": 3 } },
+        { "label": "Je me pose quelques questions", "scores": { "sensible": 3 } },
+        { "label": "Je suranalyse beaucoup", "scores": { "anxieux": 3 } }
+      ]
+    },
+    {
+      "id": "10",
+      "question": "Un ami semble un peu plus distant que d’habitude…",
+      "answers": [
+        { "label": "Je ne dramatise pas", "scores": { "secure": 3 } },
+        { "label": "Je remarque et j’y pense", "scores": { "sensible": 3 } },
+        { "label": "Je crains de perdre la relation", "scores": { "anxieux": 3 } }
+      ]
+    }
+  ]
+}

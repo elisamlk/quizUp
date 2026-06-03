@@ -1,0 +1,130 @@
+{
+  "slug": "test-depensier-ou-econome",
+  "title": "Test argent - Es-tu dépensier(ère) ou économe sans le savoir ?",
+  "description": "Tes réflexes du quotidien révèlent-ils un profil dépensier ou économe ?",
+  "descriptionSeo": "Analyse tes réflexes face à l’argent à travers des situations concrètes du quotidien : achats en ligne, abonnements oubliés, petites dépenses répétées ou décisions impulsives. Ce test révèle si tu es naturellement dépensier(ère), économe ou entre les deux, sans que tu t’en rendes forcément compte. Une façon simple de mieux comprendre tes habitudes financières et d’identifier ce qui influence vraiment ta manière de gérer ton argent.",
+  "category": {
+    "name": "Argent",
+    "slug": "argent"
+  },
+  "createdAt": "2026-04-27",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777582915/cover_o4khoe.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777582915/cover_o4khoe.jpg",
+    "alt": "Test dépensier ou économe"
+  },
+  "profiles": [
+    {
+      "key": "econome",
+      "title": "Plutôt économe",
+      "description": "Tu as des réflexes d’économie très ancrés. Tu réfléchis avant d’acheter, tu limites les dépenses inutiles et tu fais attention aux détails qui font la différence sur le long terme. Tu préfères éviter les regrets plutôt que céder à l’impulsion. Ton rapport à l’argent est basé sur le contrôle et l’anticipation.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777582928/econome_nlxr2y.jpg"
+    },
+    {
+      "key": "equilibre",
+      "title": "Entre les deux",
+      "description": "Tu alternes entre raison et envie. Tu peux être très réfléchi(e) sur certaines dépenses et beaucoup plus spontané(e) sur d’autres. Tu n’es ni strictement économe, ni vraiment dépensier(ère). Ton rapport à l’argent dépend surtout du contexte et de ton état du moment.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777582927/balance_iozbo0.jpg"
+    },
+    {
+      "key": "depensier",
+      "title": "Plutôt dépensier(ère)",
+      "description": "Tu as des réflexes de dépense assez rapides. Tu peux acheter sans trop réfléchir, te laisser tenter facilement ou minimiser l’impact des petites dépenses. Tu privilégies le plaisir immédiat, ce qui peut parfois déséquilibrer ton budget sans que tu t’en rendes compte.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777582914/spending-money_j5gvpb.jpg"
+    }
+  ],
+  "questions": [
+    {
+      "id": "1",
+      "question": "Tu remplis un panier en ligne puis tu arrives au paiement…",
+      "answers": [
+        { "label": "Je reviens en arrière pour supprimer des articles", "scores": { "econome": 3 } },
+        { "label": "Je regarde vite si ça reste raisonnable", "scores": { "equilibre": 3 } },
+        { "label": "Je valide sans trop réfléchir", "scores": { "depensier": 3 } }
+      ]
+    },
+    {
+      "id": "2",
+      "question": "Tu oublies un abonnement mensuel que tu n’utilises plus…",
+      "answers": [
+        { "label": "Je le résilie dès que je m’en rends compte", "scores": { "econome": 3 } },
+        { "label": "Je me dis que je vais le faire", "scores": { "equilibre": 3 } },
+        { "label": "Je laisse courir pendant des mois", "scores": { "depensier": 3 } }
+      ]
+    },
+    {
+      "id": "3",
+      "question": "Tu prends un café/snack à emporter…",
+      "answers": [
+        { "label": "C’est occasionnel", "scores": { "econome": 3 } },
+        { "label": "Quelques fois par semaine", "scores": { "equilibre": 3 } },
+        { "label": "Presque tous les jours", "scores": { "depensier": 3 } }
+      ]
+    },
+    {
+      "id": "4",
+      "question": "Tu vois un objet sympa mais pas nécessaire…",
+      "answers": [
+        { "label": "Je ne l’achète pas", "scores": { "econome": 3 } },
+        { "label": "J’hésite puis parfois je craque", "scores": { "equilibre": 3 } },
+        { "label": "Je l’achète sur le moment", "scores": { "depensier": 3 } }
+      ]
+    },
+    {
+      "id": "5",
+      "question": "Tu regardes ton historique de dépenses…",
+      "answers": [
+        { "label": "Je l’analyse pour comprendre", "scores": { "econome": 3 } },
+        { "label": "Je jette un œil rapide", "scores": { "equilibre": 3 } },
+        { "label": "Je préfère éviter", "scores": { "depensier": 3 } }
+      ]
+    },
+    {
+      "id": "6",
+      "question": "Tu paies en sans contact plusieurs fois dans la journée…",
+      "answers": [
+        { "label": "Je garde une idée du total", "scores": { "econome": 3 } },
+        { "label": "Je m’en rends compte après coup", "scores": { "equilibre": 3 } },
+        { "label": "Je ne calcule pas du tout", "scores": { "depensier": 3 } }
+      ]
+    },
+    {
+      "id": "7",
+      "question": "Un article est dans ton panier depuis plusieurs jours…",
+      "answers": [
+        { "label": "Je finis souvent par ne pas l’acheter", "scores": { "econome": 3 } },
+        { "label": "Ça dépend de mon envie", "scores": { "equilibre": 3 } },
+        { "label": "Je finis par le prendre", "scores": { "depensier": 3 } }
+      ]
+    },
+    {
+      "id": "8",
+      "question": "Tu dépenses un peu trop un jour…",
+      "answers": [
+        { "label": "Je compense les jours suivants", "scores": { "econome": 3 } },
+        { "label": "J’y pense mais sans trop changer", "scores": { "equilibre": 3 } },
+        { "label": "Je continue normalement", "scores": { "depensier": 3 } }
+      ]
+    },
+    {
+      "id": "9",
+      "question": "Tu vois un prix légèrement plus élevé que prévu…",
+      "answers": [
+        { "label": "Je repose l’article", "scores": { "econome": 3 } },
+        { "label": "J’hésite un peu", "scores": { "equilibre": 3 } },
+        { "label": "Ça ne change rien", "scores": { "depensier": 3 } }
+      ]
+    },
+    {
+      "id": "10",
+      "question": "Tu fais un achat que tu regrettes un peu…",
+      "answers": [
+        { "label": "Ça m’arrive rarement", "scores": { "econome": 3 } },
+        { "label": "Ça arrive de temps en temps", "scores": { "equilibre": 3 } },
+        { "label": "C’est assez fréquent", "scores": { "depensier": 3 } }
+      ]
+    }
+  ]
+}

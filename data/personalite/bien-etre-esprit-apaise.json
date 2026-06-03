@@ -1,0 +1,130 @@
+{
+  "slug": "test-esprit-apaise",
+  "title": "Test bien-être - Ton esprit est-il apaisé ?",
+  "description": "Ton mental est-il calme ou constamment sollicité ?",
+  "descriptionSeo": "Pensées en boucle, stress, calme intérieur… ce test t’aide à comprendre si ton esprit est réellement apaisé. À travers des situations concrètes du quotidien, découvre ton niveau de calme mental et ce qui influence ton état intérieur.",
+  "category": {
+    "name": "Bien-être",
+    "slug": "bien-etre"
+  },
+  "createdAt": "2026-04-27",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777466236/cover_cg6wui.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777466236/cover_cg6wui.jpg",
+    "alt": "Test esprit apaisé"
+  },
+  "profiles": [
+    {
+      "key": "apaise",
+      "title": "Esprit apaisé",
+      "description": "Ton esprit est globalement calme et stable. Tu arrives à prendre du recul sur tes pensées et à ne pas te laisser envahir par le stress ou les préoccupations. Même quand des difficultés apparaissent, tu sais retrouver un certain équilibre intérieur. Tu n’es pas dans le contrôle permanent, mais plutôt dans une forme de lâcher-prise. Tu es capable de te recentrer et de profiter des moments présents sans être constamment absorbé(e) par des pensées parasites. Cet apaisement te permet d’avancer avec plus de clarté et de sérénité au quotidien.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777466236/apaise_srcy3y.jpg"
+    },
+    {
+      "key": "agite",
+      "title": "Esprit agité",
+      "description": "Ton esprit est souvent occupé, voire envahi par des pensées. Tu réfléchis beaucoup, parfois trop, et il peut être difficile pour toi de faire une pause mentale. Tu peux te sentir dispersé(e), préoccupé(e) ou stressé(e) sans raison immédiate. Ce n’est pas forcément constant, mais ton mental a du mal à vraiment se poser. Tu pourrais gagner à créer plus d’espaces de calme, à ralentir et à apprendre à relâcher un peu la pression mentale.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777464308/fatigue-mentale_cl9fr8.jpg"
+    },
+    {
+      "key": "sature",
+      "title": "Esprit saturé",
+      "description": "Ton esprit semble en surcharge. Les pensées s’enchaînent, tu peux avoir du mal à décrocher et à te sentir vraiment tranquille. Même dans les moments calmes, ton mental continue de tourner. Tu peux ressentir de la fatigue mentale, de la tension ou une difficulté à te concentrer. Cette saturation peut venir d’un stress accumulé, d’un trop-plein d’informations ou d’un manque de pause. Ton esprit a besoin de repos, de déconnexion et de respiration.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777466236/sature_kgvimh.jpg"
+    }
+  ],
+"questions": [
+  {
+    "id": "1",
+    "question": "Tu es dans ton lit, lumière éteinte, sans téléphone…",
+    "answers": [
+      { "label": "Je m’endors rapidement", "scores": { "apaise": 3 } },
+      { "label": "Je repense à ma journée", "scores": { "agite": 3 } },
+      { "label": "Mon cerveau part dans tous les sens", "scores": { "sature": 3 } }
+    ]
+  },
+  {
+    "id": "2",
+    "question": "Tu attends seul(e) sans distraction (file, transport)…",
+    "answers": [
+      { "label": "Je reste tranquille", "scores": { "apaise": 3 } },
+      { "label": "Je réfléchis un peu", "scores": { "agite": 3 } },
+      { "label": "Je ne supporte pas le vide mental", "scores": { "sature": 3 } }
+    ]
+  },
+  {
+    "id": "3",
+    "question": "Tu poses ton téléphone après avoir scrollé…",
+    "answers": [
+      { "label": "Je passe à autre chose facilement", "scores": { "apaise": 3 } },
+      { "label": "Je continue à penser à ce que j’ai vu", "scores": { "agite": 3 } },
+      { "label": "Mon esprit reste agité et dispersé", "scores": { "sature": 3 } }
+    ]
+  },
+  {
+    "id": "4",
+    "question": "Quelqu’un te fait une remarque un peu négative…",
+    "answers": [
+      { "label": "Je laisse passer", "scores": { "apaise": 3 } },
+      { "label": "J’y repense un moment", "scores": { "agite": 3 } },
+      { "label": "Ça tourne en boucle longtemps", "scores": { "sature": 3 } }
+    ]
+  },
+  {
+    "id": "5",
+    "question": "Tu dois rester 10 minutes sans rien faire…",
+    "answers": [
+      { "label": "Ça me fait du bien", "scores": { "apaise": 3 } },
+      { "label": "Je commence à penser à plein de choses", "scores": { "agite": 3 } },
+      { "label": "C’est inconfortable mentalement", "scores": { "sature": 3 } }
+    ]
+  },
+  {
+    "id": "6",
+    "question": "Tu termines ta journée et tu te poses enfin…",
+    "answers": [
+      { "label": "Je relâche vraiment", "scores": { "apaise": 3 } },
+      { "label": "Je repense à ce que j’ai fait", "scores": { "agite": 3 } },
+      { "label": "Mon cerveau continue sans s’arrêter", "scores": { "sature": 3 } }
+    ]
+  },
+  {
+    "id": "7",
+    "question": "Tu fais une activité calme (lecture, série)…",
+    "answers": [
+      { "label": "Je suis totalement dedans", "scores": { "apaise": 3 } },
+      { "label": "Je décroche parfois", "scores": { "agite": 3 } },
+      { "label": "Je n’arrive pas à rester concentré(e)", "scores": { "sature": 3 } }
+    ]
+  },
+  {
+    "id": "8",
+    "question": "Tu penses à quelque chose d’important…",
+    "answers": [
+      { "label": "Je réfléchis puis je lâche", "scores": { "apaise": 3 } },
+      { "label": "J’y reviens plusieurs fois", "scores": { "agite": 3 } },
+      { "label": "Ça m’obsède", "scores": { "sature": 3 } }
+    ]
+  },
+  {
+    "id": "9",
+    "question": "Tu es seul(e) chez toi, sans bruit…",
+    "answers": [
+      { "label": "Je me sens bien", "scores": { "apaise": 3 } },
+      { "label": "Je remplis le silence mentalement", "scores": { "agite": 3 } },
+      { "label": "Le silence me met mal à l’aise", "scores": { "sature": 3 } }
+    ]
+  },
+  {
+    "id": "10",
+    "question": "Juste avant de t’endormir, ton esprit…",
+    "answers": [
+      { "label": "Se calme naturellement", "scores": { "apaise": 3 } },
+      { "label": "Continue à réfléchir", "scores": { "agite": 3 } },
+      { "label": "S’emballe complètement", "scores": { "sature": 3 } }
+    ]
+  }
+]
+}

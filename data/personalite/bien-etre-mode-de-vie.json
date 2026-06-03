@@ -1,0 +1,130 @@
+{
+  "slug": "test-mode-de-vie-sain",
+  "title": "Test bien-être - Ton mode de vie est-il sain ?",
+  "description": "Tes habitudes du quotidien soutiennent-elles vraiment ton bien-être ?",
+  "descriptionSeo": "Sommeil, alimentation, stress, mouvement, équilibre personnel… ce test bien-être analyse ton mode de vie à travers des situations concrètes du quotidien. Découvre si tes habitudes sont plutôt saines, déséquilibrées ou à améliorer pour mieux comprendre ton rapport à ton énergie, ton rythme et ton bien-être global.",
+  "category": {
+    "name": "Bien-être",
+    "slug": "bien-etre"
+  },
+  "createdAt": "2026-04-27",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777465670/cover_vhek0z.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777465670/cover_vhek0z.jpg",
+    "alt": "Test mode de vie sain"
+  },
+  "profiles": [
+    {
+      "key": "sain",
+      "title": "Mode de vie plutôt sain",
+      "description": "Ton mode de vie semble globalement équilibré. Tu prends soin de toi sans forcément chercher la perfection. Tu arrives à écouter ton corps, à respecter tes besoins et à garder une certaine régularité dans ton quotidien. Sommeil, alimentation, mouvement, repos : tu fais généralement des choix qui soutiennent ton bien-être. Tu sais aussi te faire plaisir sans culpabiliser, ce qui rend ton équilibre plus durable. Tu n’es pas dans le contrôle permanent, mais dans une forme de cohérence. Ton énergie vient surtout de tes habitudes simples, régulières et réalistes.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777465671/healthy_ewm4wi.jpg"
+    },
+    {
+      "key": "desequilibre",
+      "title": "Mode de vie déséquilibré",
+      "description": "Ton mode de vie semble assez irrégulier. Tu peux avoir de bonnes intentions, mais ton quotidien te pousse souvent à négliger ton sommeil, ton alimentation, ton repos ou ton niveau de stress. Tu alternes peut-être entre des périodes où tu fais attention et d’autres où tu lâches complètement. Ce n’est pas forcément grave, mais ton équilibre dépend beaucoup de ton énergie du moment. Tu gagnerais à installer quelques habitudes simples, sans pression, pour retrouver une base plus stable. Le but n’est pas de tout changer, mais de reprendre un peu de contrôle sur ton rythme.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777465670/desequilibre_go3ffu.jpg"
+    },
+    {
+      "key": "a_ameliorer",
+      "title": "Mode de vie à améliorer",
+      "description": "Ton mode de vie semble avoir besoin de plus d’attention. Tu tires peut-être beaucoup sur ton énergie, tu repousses tes besoins ou tu fonctionnes souvent en mode automatique. Le repos, l’alimentation, le mouvement ou la gestion du stress passent parfois au second plan. Tu peux avoir l’impression de tenir, mais ton corps et ton mental pourraient réclamer plus de stabilité. Ce résultat n’est pas un jugement : il indique surtout qu’il serait utile de ralentir, d’écouter tes signaux et de remettre ton bien-être au centre, petit à petit.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777465670/struggle_hs00oc.jpg"
+    }
+  ],
+  "questions": [
+    {
+      "id": "1",
+      "question": "Tu te réveilles un jour de semaine…",
+      "answers": [
+        { "label": "J’ai globalement récupéré", "scores": { "sain": 3 } },
+        { "label": "Ça dépend vraiment des nuits", "scores": { "desequilibre": 3 } },
+        { "label": "Je me sens déjà fatigué(e)", "scores": { "a_ameliorer": 3 } }
+      ]
+    },
+    {
+      "id": "2",
+      "question": "À midi, quand tu dois manger rapidement…",
+      "answers": [
+        { "label": "Je prends quand même quelque chose d’équilibré", "scores": { "sain": 3 } },
+        { "label": "Je fais au mieux selon ce que j’ai", "scores": { "desequilibre": 3 } },
+        { "label": "Je saute le repas ou je mange n’importe quoi", "scores": { "a_ameliorer": 3 } }
+      ]
+    },
+    {
+      "id": "3",
+      "question": "Après plusieurs heures assis(e)…",
+      "answers": [
+        { "label": "Je pense à bouger ou m’étirer", "scores": { "sain": 3 } },
+        { "label": "J’y pense parfois, mais pas toujours", "scores": { "desequilibre": 3 } },
+        { "label": "Je reste comme ça jusqu’à être raide ou épuisé(e)", "scores": { "a_ameliorer": 3 } }
+      ]
+    },
+    {
+      "id": "4",
+      "question": "Quand ta journée devient très chargée…",
+      "answers": [
+        { "label": "Je garde au moins une pause pour souffler", "scores": { "sain": 3 } },
+        { "label": "Je repousse mes pauses si besoin", "scores": { "desequilibre": 3 } },
+        { "label": "Je fonce jusqu’à être vidé(e)", "scores": { "a_ameliorer": 3 } }
+      ]
+    },
+    {
+      "id": "5",
+      "question": "Le soir, après une journée longue…",
+      "answers": [
+        { "label": "Je ralentis vraiment pour récupérer", "scores": { "sain": 3 } },
+        { "label": "Je me pose, mais je reste souvent sur écran", "scores": { "desequilibre": 3 } },
+        { "label": "Je traîne tard même si je suis épuisé(e)", "scores": { "a_ameliorer": 3 } }
+      ]
+    },
+    {
+      "id": "6",
+      "question": "Ton rapport au stress au quotidien…",
+      "answers": [
+        { "label": "Je trouve des moyens de le réguler", "scores": { "sain": 3 } },
+        { "label": "Je le gère comme je peux", "scores": { "desequilibre": 3 } },
+        { "label": "Je l’accumule sans vraiment relâcher", "scores": { "a_ameliorer": 3 } }
+      ]
+    },
+    {
+      "id": "7",
+      "question": "Quand tu sens que ton corps tire la sonnette d’alarme…",
+      "answers": [
+        { "label": "J’écoute et j’adapte mon rythme", "scores": { "sain": 3 } },
+        { "label": "Je ralentis un peu si je peux", "scores": { "desequilibre": 3 } },
+        { "label": "Je continue comme si de rien n’était", "scores": { "a_ameliorer": 3 } }
+      ]
+    },
+    {
+      "id": "8",
+      "question": "Une semaine sans activité physique…",
+      "answers": [
+        { "label": "Ça arrive rarement, je bouge un minimum", "scores": { "sain": 3 } },
+        { "label": "Ça arrive quand je suis débordé(e)", "scores": { "desequilibre": 3 } },
+        { "label": "C’est plutôt habituel pour moi", "scores": { "a_ameliorer": 3 } }
+      ]
+    },
+    {
+      "id": "9",
+      "question": "Quand tu as besoin de récupérer…",
+      "answers": [
+        { "label": "Je m’autorise à lever le pied", "scores": { "sain": 3 } },
+        { "label": "J’essaie, mais je culpabilise un peu", "scores": { "desequilibre": 3 } },
+        { "label": "Je repousse toujours le repos à plus tard", "scores": { "a_ameliorer": 3 } }
+      ]
+    },
+  {
+  "id": "10",
+  "question": "Un dimanche soir, en pensant à la semaine qui arrive…",
+  "answers": [
+    { "label": "Je me sens prêt(e) ou plutôt serein(e)", "scores": { "sain": 3 } },
+    { "label": "Je sais que ça va être irrégulier", "scores": { "desequilibre": 3 } },
+    { "label": "Je me sens déjà fatigué(e) ou dépassé(e)", "scores": { "a_ameliorer": 3 } }
+  ]
+}
+  ]
+}

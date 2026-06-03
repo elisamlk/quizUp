@@ -1,0 +1,130 @@
+{
+  "slug": "test-fiabilite-amitie",
+  "title": "Test amitié - Tes amis peuvent-ils vraiment compter sur toi ?",
+  "description": "Dans les faits, es-tu vraiment fiable pour tes amis ?",
+  "descriptionSeo": "Promesses tenues, réponses aux messages, ponctualité ou présence dans les moments importants… ce test analyse tes comportements concrets pour déterminer si tes amis peuvent vraiment compter sur toi. Es-tu fiable au quotidien ou seulement dans certaines situations ? À travers des scénarios réalistes, découvre ce que ton attitude révèle sur ton sens de l’engagement et la confiance que les autres peuvent t’accorder.",
+  "category": {
+    "name": "Amitié",
+    "slug": "amitie"
+  },
+  "createdAt": "2026-04-27",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777726674/cover_cicgsb.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777726674/cover_cicgsb.jpg",
+    "alt": "Test fiabilité amitié"
+  },
+  "profiles": [
+    {
+      "key": "fiable",
+      "title": "Totalement fiable",
+      "description": "Tes amis peuvent vraiment compter sur toi. Tu es constant(e), tu réponds, tu tiens tes engagements et tu es présent(e) quand ça compte. Tu ne promets pas à la légère et, quand tu le fais, tu assures derrière. Tu es un repère solide dans les relations.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777726374/cover_xmksk5.jpg"
+    },
+    {
+      "key": "variable",
+      "title": "Fiable… mais pas toujours",
+      "description": "Tu es capable d’être présent(e), mais ton implication varie selon les moments. Tu peux être très fiable dans certaines situations, et moins dans d’autres. Tes amis peuvent compter sur toi, mais pas de manière totalement constante.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777724220/moteur_ukbxqy.jpg"
+    },
+    {
+      "key": "peu_fiable",
+      "title": "Difficile de compter sur toi",
+      "description": "Tu n’es pas toujours constant(e) dans tes engagements. Tu peux oublier, repousser ou ne pas être disponible quand les autres comptent sur toi. Ce n’est pas forcément intentionnel, mais cela peut donner l’impression que tu n’es pas fiable.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777724219/discrete_wwm1yd.jpg"
+    }
+  ],
+  "questions": [
+    {
+      "id": "1",
+      "question": "Un ami t’envoie un message important à 23h…",
+      "answers": [
+        { "label": "Je réponds ou je préviens rapidement", "scores": { "fiable": 3 } },
+        { "label": "Je réponds le lendemain", "scores": { "variable": 3 } },
+        { "label": "Je peux oublier ou répondre tard", "scores": { "peu_fiable": 3 } }
+      ]
+    },
+    {
+      "id": "2",
+      "question": "Tu confirmes ta présence à un plan plusieurs jours avant…",
+      "answers": [
+        { "label": "Je m’organise pour y être", "scores": { "fiable": 3 } },
+        { "label": "Je peux changer d’avis", "scores": { "variable": 3 } },
+        { "label": "J’annule parfois au dernier moment", "scores": { "peu_fiable": 3 } }
+      ]
+    },
+    {
+      "id": "3",
+      "question": "Un ami compte sur toi pour quelque chose de précis…",
+      "answers": [
+        { "label": "Je le fais sans faute", "scores": { "fiable": 3 } },
+        { "label": "Je le fais si j’y pense", "scores": { "variable": 3 } },
+        { "label": "Je peux oublier", "scores": { "peu_fiable": 3 } }
+      ]
+    },
+    {
+      "id": "4",
+      "question": "Tu dis “je te rappelle” ou “je t’écris”…",
+      "answers": [
+        { "label": "Je le fais réellement", "scores": { "fiable": 3 } },
+        { "label": "Parfois oui, parfois non", "scores": { "variable": 3 } },
+        { "label": "Je ne le fais pas souvent", "scores": { "peu_fiable": 3 } }
+      ]
+    },
+    {
+      "id": "5",
+      "question": "Un ami traverse un moment compliqué…",
+      "answers": [
+        { "label": "Je suis présent(e) activement", "scores": { "fiable": 3 } },
+        { "label": "Je prends des nouvelles", "scores": { "variable": 3 } },
+        { "label": "Je suis plus distant(e)", "scores": { "peu_fiable": 3 } }
+      ]
+    },
+    {
+      "id": "6",
+      "question": "Tu dois être à l’heure à un rendez-vous important…",
+      "answers": [
+        { "label": "Je fais en sorte d’être ponctuel(le)", "scores": { "fiable": 3 } },
+        { "label": "Je peux être un peu en retard", "scores": { "variable": 3 } },
+        { "label": "Je suis souvent en retard", "scores": { "peu_fiable": 3 } }
+      ]
+    },
+    {
+      "id": "7",
+      "question": "Une conversation s’arrête et c’est à toi de répondre…",
+      "answers": [
+        { "label": "Je réponds rapidement", "scores": { "fiable": 3 } },
+        { "label": "Je réponds quand j’y pense", "scores": { "variable": 3 } },
+        { "label": "Je peux laisser sans réponse", "scores": { "peu_fiable": 3 } }
+      ]
+    },
+    {
+      "id": "8",
+      "question": "Tu promets quelque chose sans grande importance…",
+      "answers": [
+        { "label": "Je tiens quand même", "scores": { "fiable": 3 } },
+        { "label": "Ça dépend", "scores": { "variable": 3 } },
+        { "label": "Je n’y fais pas trop attention", "scores": { "peu_fiable": 3 } }
+      ]
+    },
+    {
+      "id": "9",
+      "question": "Un ami attend une réponse de ta part pour avancer…",
+      "answers": [
+        { "label": "Je réponds rapidement", "scores": { "fiable": 3 } },
+        { "label": "Je prends un peu de temps", "scores": { "variable": 3 } },
+        { "label": "Je peux bloquer sans faire exprès", "scores": { "peu_fiable": 3 } }
+      ]
+    },
+    {
+      "id": "10",
+      "question": "Tu réalises que tu as oublié quelque chose d’important pour un ami…",
+      "answers": [
+        { "label": "Je réagis immédiatement pour réparer", "scores": { "fiable": 3 } },
+        { "label": "Je m’excuse mais sans forcément corriger", "scores": { "variable": 3 } },
+        { "label": "Je laisse passer", "scores": { "peu_fiable": 3 } }
+      ]
+    }
+  ]
+}

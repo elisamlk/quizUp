@@ -1,0 +1,161 @@
+{
+  "slug": "quiz-sciences-lune-secrets",
+  "title": "Quiz Sciences - La Lune - Connaissez-vous ses secrets ?",
+  "description": "Teste tes connaissances sur la Lune, ses phases, ses cratères, ses éclipses, son origine et son rôle autour de la Terre.",
+  "descriptionSeo": "Découvre les secrets de la Lune avec ce quiz de 20 questions captivantes. Phases lunaires, éclipses, marées, cratères, missions Apollo et origine de notre satellite naturel : teste tes connaissances et approfondis ta compréhension de cet astre fascinant. Accessible à tous, ce quiz de sciences permet d’apprendre en s’amusant tout en explorant le rôle essentiel de la Lune dans le système Terre-Lune.",
+  "category": {
+    "name": "Sciences",
+    "slug": "sciences"
+  },
+  "createdAt": "2026-05-05",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777980683/moon_d4cyah.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777980683/moon_d4cyah.jpg",
+    "alt": "Quiz Lune secrets"
+  },
+  "questions": [
+   {
+
+  "id": "1",
+  "question": "Pourquoi la durée entre deux pleines lunes est-elle d’environ 29,5 jours et non 27 jours ?",
+  "answers": ["Parce que la Lune ralentit en tournant", "Parce que la Terre avance autour du Soleil pendant ce temps", "Parce que la Lune change de vitesse", "Parce que le Soleil tourne autour de la Terre"],
+  "correctIndex": 1,
+  "explanation": "La Lune met environ 27,3 jours pour faire un tour complet autour de la Terre (période sidérale). Mais pendant ce temps, la Terre avance sur son orbite autour du Soleil. La Lune doit donc parcourir un peu plus de chemin pour retrouver le même alignement avec le Soleil, ce qui explique les 29,5 jours du cycle des phases."
+},
+    {
+      "id": "2",
+      "question": "Pourquoi voit-on la Lune briller dans le ciel ?",
+      "answers": ["Elle produit sa propre lumière", "Elle est chauffée par la Terre", "Elle réfléchit la lumière du Soleil", "Elle est composée de glace lumineuse"],
+      "correctIndex": 2,
+      "explanation": "La Lune ne produit pas de lumière : elle réfléchit celle du Soleil. Sa surface, recouverte de poussière et de roches, renvoie environ 12 % de la lumière reçue, ce qui explique son éclat visible depuis la Terre."
+    },
+    {
+      "id": "3",
+      "question": "Comment appelle-t-on les différentes apparences de la Lune vues depuis la Terre ?",
+      "answers": ["Les saisons lunaires", "Les orbites lunaires", "Les phases lunaires", "Les vents lunaires"],
+      "correctIndex": 2,
+      "explanation": "Les phases lunaires correspondent à la portion éclairée de la Lune visible depuis la Terre. Elles dépendent de la position relative du Soleil, de la Terre et de la Lune, et se répètent sur un cycle d’environ 29,5 jours."
+    },
+    {
+      "id": "4",
+      "question": "Quelle phase lunaire se produit quand toute la face visible de la Lune est éclairée ?",
+      "answers": ["Nouvelle Lune", "Premier quartier", "Dernier quartier", "Pleine Lune"],
+      "correctIndex": 3,
+      "explanation": "La pleine Lune se produit lorsque la Terre est située entre le Soleil et la Lune. La face visible est alors totalement éclairée, ce qui la rend particulièrement brillante dans le ciel nocturne."
+    },
+    {
+      "id": "5",
+      "question": "Quelle phase lunaire se produit quand la Lune est presque invisible depuis la Terre ?",
+      "answers": ["Nouvelle Lune", "Pleine Lune", "Dernier quartier", "Lune gibbeuse"],
+      "correctIndex": 0,
+      "explanation": "Lors de la nouvelle Lune, la Lune se situe entre la Terre et le Soleil. Sa face éclairée est tournée vers le Soleil, donc invisible depuis la Terre, sauf lors d’une éclipse solaire."
+    },
+    {
+      "id": "6",
+      "question": "Quelle force explique principalement l’effet de la Lune sur les marées ?",
+      "answers": ["Le magnétisme", "Le vent solaire", "La gravité", "La lumière"],
+      "correctIndex": 2,
+      "explanation": "La gravité de la Lune attire les masses d’eau terrestres, créant des renflements océaniques. En combinant cet effet avec la rotation de la Terre, cela produit les marées hautes et basses observées quotidiennement."
+    },
+    {
+      "id": "7",
+      "question": "Comment appelle-t-on les grands trous visibles à la surface de la Lune ?",
+      "answers": ["Des volcans bleus", "Des cratères", "Des océans liquides", "Des nuages"],
+      "correctIndex": 1,
+      "explanation": "Les cratères lunaires sont formés par des impacts de météorites. Comme la Lune n’a presque pas d’atmosphère pour freiner ces objets, les impacts sont fréquents et les traces restent visibles pendant des millions d’années."
+    },
+    {
+      "id": "8",
+      "question": "Pourquoi voit-on toujours presque la même face de la Lune depuis la Terre ?",
+      "answers": ["Parce qu’elle ne tourne pas du tout", "Parce que sa rotation est synchronisée avec son orbite", "Parce qu’elle tourne très vite", "Parce que la Terre cache l’autre moitié"],
+      "correctIndex": 1,
+      "explanation": "La Lune est en rotation synchrone : elle met autant de temps à tourner sur elle-même qu’à faire le tour de la Terre. Ce phénomène, appelé verrouillage gravitationnel, est dû aux forces de marée exercées par la Terre."
+    },
+    {
+      "id": "9",
+      "question": "Comment appelle-t-on la face de la Lune que l’on ne voit presque jamais ?",
+      "answers": ["La face solaire", "La face cachée", "La face noire", "La face polaire"],
+      "correctIndex": 1,
+      "explanation": "La face cachée n’est pas toujours sombre : elle reçoit aussi la lumière du Soleil. Elle est simplement invisible depuis la Terre car elle est orientée à l’opposé en raison de la rotation synchrone."
+    },
+    {
+      "id": "10",
+      "question": "Quelle mission a permis aux premiers humains de marcher sur la Lune ?",
+      "answers": ["Voyager 1", "Spoutnik 1", "Apollo 11", "Curiosity"],
+      "correctIndex": 2,
+      "explanation": "Apollo 11, en 1969, a permis à Neil Armstrong et Buzz Aldrin de marcher sur la Lune. Cette mission a été un exploit technologique majeur dans le contexte de la course à l’espace entre les États-Unis et l’URSS."
+    },
+    {
+      "id": "11",
+      "question": "Quel astronaute a été le premier à poser le pied sur la Lune ?",
+      "answers": ["Buzz Aldrin", "Youri Gagarine", "Michael Collins", "Neil Armstrong"],
+      "correctIndex": 3,
+      "explanation": "Neil Armstrong est le premier humain à avoir marché sur la Lune. Il a prononcé la célèbre phrase marquant cet événement historique retransmis dans le monde entier."
+    },
+    {
+      "id": "12",
+      "question": "Qu’est-ce qu’une éclipse lunaire ?",
+      "answers": ["La Terre passe dans l’ombre de la Lune", "Le Soleil disparaît", "La Lune cesse de tourner", "La Lune passe dans l’ombre de la Terre"],
+      "correctIndex": 3,
+      "explanation": "Une éclipse lunaire se produit lorsque la Terre se place entre le Soleil et la Lune. La lumière solaire est alors filtrée par l’atmosphère terrestre, ce qui peut donner à la Lune une teinte rougeâtre."
+    },
+    {
+      "id": "13",
+      "question": "Qu’est-ce qu’une éclipse solaire ?",
+      "answers": ["La Lune passe entre le Soleil et la Terre", "Mars cache le Soleil", "Le Soleil s’éteint", "La Terre bloque la Lune"],
+      "correctIndex": 0,
+      "explanation": "Une éclipse solaire se produit lorsque la Lune masque le Soleil. Selon l’alignement, elle peut être totale, partielle ou annulaire, et n’est visible que depuis certaines régions de la Terre."
+    },
+    {
+      "id": "14",
+      "question": "En combien de temps la Lune fait-elle le tour de la Terre ?",
+      "answers": ["365 jours", "27 jours", "24 heures", "7 jours"],
+      "correctIndex": 1,
+      "explanation": "La Lune met environ 27,3 jours pour faire un tour complet autour de la Terre (période sidérale). Mais le cycle des phases, appelé mois synodique, dure environ 29,5 jours."
+    },
+    {
+      "id": "15",
+      "question": "Quelle est l’origine la plus probable de la Lune ?",
+      "answers": ["Un astéroïde capturé", "Un impact géant avec la Terre", "Elle vient du Soleil", "Une comète"],
+      "correctIndex": 1,
+      "explanation": "La théorie dominante est celle de l’impact géant : un objet de la taille de Mars aurait percuté la jeune Terre. Les débris projetés se seraient ensuite assemblés pour former la Lune."
+    },
+    {
+      "id": "16",
+      "question": "Pourquoi les empreintes restent-elles longtemps sur la Lune ?",
+      "answers": ["Pas d’atmosphère ni météo", "Le sol est magique", "La Lune est métallique", "Le Soleil grave les traces"],
+      "correctIndex": 0,
+      "explanation": "Sans atmosphère, il n’y a ni vent ni pluie pour effacer les traces. Les empreintes peuvent donc rester visibles pendant des millions d’années, sauf si elles sont altérées par des micrométéorites."
+    },
+    {
+      "id": "17",
+      "question": "Comment appelle-t-on les zones sombres de la Lune ?",
+      "answers": ["Des forêts", "Des tempêtes", "Des mers lunaires", "Des océans"],
+      "correctIndex": 2,
+      "explanation": "Les mers lunaires sont d’anciennes plaines de lave solidifiée. Elles apparaissent sombres car leur composition est différente des régions plus claires, riches en roches plus anciennes."
+    },
+    {
+      "id": "18",
+      "question": "Quelle est la particularité des températures sur la Lune ?",
+      "answers": ["Toujours douces", "Toujours glaciales", "Très variables", "Identiques à la Terre"],
+      "correctIndex": 2,
+      "explanation": "Les températures sur la Lune peuvent varier de +120°C en plein jour à -170°C la nuit. Cette différence extrême est due à l’absence d’atmosphère pour retenir la chaleur."
+    },
+    {
+      "id": "19",
+      "question": "Quel programme vise à ramener des astronautes sur la Lune ?",
+      "answers": ["Artemis", "Viking", "Galileo", "Pioneer"],
+      "correctIndex": 0,
+      "explanation": "Le programme Artemis vise à ramener des humains sur la Lune et à y établir une présence durable. Il inclut également des collaborations internationales et prépare de futures missions vers Mars."
+    },
+    {
+      "id": "20",
+      "question": "Pourquoi la Lune est-elle importante pour la Terre ?",
+      "answers": ["Elle influence les marées", "Elle remplace le Soleil", "Elle crée l’atmosphère", "Elle contrôle les saisons"],
+      "correctIndex": 0,
+      "explanation": "La Lune stabilise l’axe de rotation de la Terre, ce qui limite les variations climatiques extrêmes. Elle influence aussi les marées, qui jouent un rôle important dans les écosystèmes marins."
+    }
+  ]
+}

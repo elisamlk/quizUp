@@ -1,0 +1,200 @@
+{
+  "slug": "quiz-zones-cycloniques-monde",
+  "title": "Quiz Géographie - Zones cycloniques",
+  "description": "Teste tes connaissances sur les régions du monde touchées par les cyclones, ouragans et typhons.",
+  "descriptionSeo": "Où se forment les cyclones, ouragans et typhons ? Ce quiz de géographie explore les principales zones cycloniques du monde, de l’Atlantique aux océans Indien et Pacifique. À travers 20 questions, découvre les mécanismes climatiques, les régions les plus exposées et les différences de vocabulaire selon les zones. Chaque réponse est accompagnée d’explications détaillées pour mieux comprendre ces phénomènes extrêmes.",
+  "category": {
+    "name": "Géographie",
+    "slug": "geographie"
+  },
+  "createdAt": "2026-03-30",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1774871487/cover_fbkpd9.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1774871487/cover_fbkpd9.jpg",
+    "alt": "Quiz zones cycloniques"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "question": "Dans quel océan parle-t-on principalement d’ouragans ?",
+      "image": null,
+      "imagePrompt": "Atlantic hurricane satellite",
+      "answers": ["Océan Indien", "Océan Atlantique", "Océan Pacifique Sud", "Mer Méditerranée"],
+      "correctIndex": 1,
+      "explanation": "Le terme 'ouragan' est utilisé pour les cyclones tropicaux de l’Atlantique Nord et du Pacifique Nord-Est. Ce sont les mêmes phénomènes que les typhons ou cyclones, mais nommés différemment selon les régions."
+    },
+    {
+      "id": "2",
+      "question": "Comment appelle-t-on les cyclones dans le Pacifique Nord-Ouest ?",
+      "image": null,
+      "imagePrompt": "Typhoon Asia map",
+      "answers": ["Ouragans", "Tempêtes tropicales", "Typhons", "Tornades"],
+      "correctIndex": 2,
+      "explanation": "Dans le Pacifique Nord-Ouest (Japon, Philippines, Chine), on parle de typhons. Cette zone est la plus active au monde en nombre de cyclones tropicaux chaque année."
+    },
+    {
+      "id": "3",
+      "question": "Quelle zone est la plus active au monde pour les cyclones tropicaux ?",
+      "image": null,
+      "imagePrompt": "Western Pacific typhoon map",
+      "answers": ["Atlantique Nord", "Pacifique Nord-Ouest", "Océan Indien Sud", "Pacifique Sud"],
+      "correctIndex": 1,
+      "explanation": "Le Pacifique Nord-Ouest est la zone la plus active en raison de ses eaux très chaudes et de vastes surfaces océaniques favorables à la formation des tempêtes."
+    },
+    {
+      "id": "4",
+      "question": "Pourquoi les cyclones se forment-ils principalement dans les zones tropicales ?",
+      "image": null,
+      "imagePrompt": "Warm ocean cyclone formation",
+      "answers": ["Présence de montagnes", "Températures froides", "Eaux chaudes", "Vent faible"],
+      "correctIndex": 2,
+      "explanation": "Les cyclones ont besoin d’eaux chaudes (environ 26-27°C minimum) pour se former. La chaleur de l’océan alimente le système en énergie, ce qui explique leur concentration dans les régions tropicales."
+    },
+    {
+      "id": "5",
+      "question": "Quelle mer est rarement touchée par des cyclones tropicaux ?",
+      "image": null,
+      "imagePrompt": "Mediterranean sea map",
+      "answers": ["Mer des Caraïbes", "Golfe du Mexique", "Mer Méditerranée", "Mer de Chine"],
+      "correctIndex": 2,
+      "explanation": "La Méditerranée est trop petite et ses eaux sont rarement assez chaudes pour générer de véritables cyclones. On y observe parfois des phénomènes similaires appelés 'medicanes', mais ils restent beaucoup plus faibles."
+    },
+    {
+      "id": "6",
+      "question": "Quelle région est particulièrement exposée aux ouragans dans l’Atlantique ?",
+      "image": null,
+      "imagePrompt": "Caribbean hurricane map",
+      "answers": ["Caraïbes", "Scandinavie", "Europe centrale", "Moyen-Orient"],
+      "correctIndex": 0,
+      "explanation": "Les Caraïbes sont situées sur la trajectoire principale des ouragans. Leur position entre océan chaud et masses d’air instables les rend très vulnérables."
+    },
+    {
+      "id": "7",
+      "question": "Pourquoi n’y a-t-il presque pas de cyclones à l’équateur ?",
+      "image": null,
+      "imagePrompt": "Coriolis effect map",
+      "answers": ["Manque de vent", "Absence d’humidité", "Effet de Coriolis insuffisant", "Température basse"],
+      "correctIndex": 2,
+      "explanation": "L’effet de Coriolis, qui permet la rotation des cyclones, est nul à l’équateur. Sans cette force, les systèmes ne peuvent pas s’organiser en spirale."
+    },
+    {
+      "id": "8",
+      "question": "Quelle zone est appelée 'couloir des ouragans' dans l’Atlantique ?",
+      "image": null,
+      "imagePrompt": "Hurricane alley map",
+      "answers": ["Golfe de Guinée", "Caraïbes", "Mer Rouge", "Mer Noire"],
+      "correctIndex": 1,
+      "explanation": "Le 'Hurricane Alley' désigne la zone des Caraïbes et du Golfe du Mexique, où les ouragans sont particulièrement fréquents et puissants."
+    },
+    {
+      "id": "9",
+      "question": "Dans quel océan parle-t-on simplement de 'cyclones' ?",
+      "image": null,
+      "imagePrompt": "Indian Ocean cyclone",
+      "answers": ["Océan Indien", "Atlantique Nord", "Pacifique Nord", "Arctique"],
+      "correctIndex": 0,
+      "explanation": "Dans l’océan Indien et le Pacifique Sud, le terme utilisé est 'cyclone'. Cela montre que le phénomène est global mais que le vocabulaire varie selon les régions."
+    },
+    {
+      "id": "10",
+      "question": "Quelle région d’Asie est fortement touchée par les typhons ?",
+      "image": null,
+      "imagePrompt": "Philippines typhoon",
+      "answers": ["Mongolie", "Philippines", "Iran", "Turquie"],
+      "correctIndex": 1,
+      "explanation": "Les Philippines sont l’un des pays les plus exposés au monde, car elles se situent directement sur les trajectoires des typhons venant du Pacifique."
+    },
+    {
+      "id": "11",
+      "question": "Quelle condition est nécessaire à la formation d’un cyclone ?",
+      "image": null,
+      "imagePrompt": "Cyclone formation diagram",
+      "answers": ["Eaux chaudes", "Air sec", "Montagnes", "Glace"],
+      "correctIndex": 0,
+      "explanation": "Les cyclones tirent leur énergie de l’évaporation de l’eau chaude. Sans cette source d’énergie, ils ne peuvent ni se former ni se maintenir."
+    },
+    {
+      "id": "12",
+      "question": "Quelle zone de l’océan Indien est particulièrement touchée ?",
+      "image": null,
+      "imagePrompt": "Bay of Bengal cyclone",
+      "answers": ["Mer Rouge", "Golfe Persique", "Baie du Bengale", "Mer Caspienne"],
+      "correctIndex": 2,
+      "explanation": "La baie du Bengale est une zone très vulnérable car elle combine eaux chaudes et forte densité de population, ce qui rend les cyclones particulièrement meurtriers."
+    },
+    {
+      "id": "13",
+      "question": "Pourquoi les cyclones s’affaiblissent-ils sur les continents ?",
+      "image": null,
+      "imagePrompt": "Cyclone landfall",
+      "answers": ["Manque d’eau chaude", "Vent faible", "Altitude", "Froid"],
+      "correctIndex": 0,
+      "explanation": "Une fois sur terre, les cyclones perdent leur source d’énergie (l’eau chaude) et se dissipent rapidement."
+    },
+    {
+      "id": "14",
+      "question": "Quelle région est rarement touchée par les cyclones tropicaux ?",
+      "image": null,
+      "imagePrompt": "South Atlantic map",
+      "answers": ["Atlantique Sud", "Caraïbes", "Pacifique Ouest", "Océan Indien"],
+      "correctIndex": 0,
+      "explanation": "L’Atlantique Sud est presque exempt de cyclones en raison de conditions atmosphériques défavorables, notamment des vents trop forts en altitude."
+    },
+    {
+      "id": "15",
+      "question": "Quel nom est utilisé dans le Pacifique Sud ?",
+      "image": null,
+      "imagePrompt": "Pacific cyclone",
+      "answers": ["Ouragan", "Typhon", "Cyclone", "Tempête"],
+      "correctIndex": 2,
+      "explanation": "Dans le Pacifique Sud, comme dans l’océan Indien, on utilise le terme 'cyclone'."
+    },
+    {
+      "id": "16",
+      "question": "Quelle zone africaine est touchée par des cyclones ?",
+      "image": null,
+      "imagePrompt": "Madagascar cyclone",
+      "answers": ["Sahara", "Madagascar", "Atlas", "Nil"],
+      "correctIndex": 1,
+      "explanation": "Madagascar est régulièrement touchée par des cyclones venant de l’océan Indien, causant souvent d’importants dégâts."
+    },
+    {
+      "id": "17",
+      "question": "Quel facteur influence la trajectoire des cyclones ?",
+      "image": null,
+      "imagePrompt": "Cyclone path map",
+      "answers": ["Vents dominants", "Montagnes", "Température du sol", "Latitude"],
+      "correctIndex": 0,
+      "explanation": "Les vents dominants et les systèmes de pression orientent les cyclones, ce qui explique leurs trajectoires souvent courbes."
+    },
+    {
+      "id": "18",
+      "question": "Quelle zone américaine est très exposée aux ouragans ?",
+      "image": null,
+      "imagePrompt": "Florida hurricane",
+      "answers": ["Californie", "Texas", "Floride", "Alaska"],
+      "correctIndex": 2,
+      "explanation": "La Floride est particulièrement exposée car elle s’avance dans l’océan et se situe sur la trajectoire des ouragans atlantiques."
+    },
+    {
+      "id": "19",
+      "question": "Quelle condition atmosphérique favorise la formation des cyclones ?",
+      "image": null,
+      "imagePrompt": "Low pressure cyclone",
+      "answers": ["Haute pression", "Basse pression", "Air froid", "Neige"],
+      "correctIndex": 1,
+      "explanation": "Les cyclones se développent dans des zones de basse pression où l’air chaud monte et crée une rotation."
+    },
+    {
+      "id": "20",
+      "question": "Quelle région du monde est la moins touchée par les cyclones ?",
+      "image": null,
+      "imagePrompt": "Polar regions map",
+      "answers": ["Tropiques", "Caraïbes", "Asie du Sud-Est", "Régions polaires"],
+      "correctIndex": 3,
+      "explanation": "Les régions polaires sont trop froides pour permettre la formation de cyclones tropicaux, qui nécessitent des eaux chaudes."
+    }
+  ]
+}

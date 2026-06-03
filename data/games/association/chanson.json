@@ -1,0 +1,48 @@
+{
+  "slug": "trouve-les-paires-chanteurs-chansons-celebres",
+  "title": "Trouve les paires - Chanteurs et chansons célèbres",
+  "description": "Associe chaque chanteur à sa chanson culte dans ce jeu musical fun et rapide.",
+  "descriptionSeo": "Trouve les bonnes paires entre les chanteurs célèbres et leurs chansons cultes dans ce jeu musical gratuit. Associe Michael Jackson à Billie Jean, Céline Dion à My Heart Will Go On ou encore Queen à Bohemian Rhapsody. Un mini-jeu parfait pour tester sa culture musicale, reconnaître les plus grands artistes et retrouver les hits les plus célèbres de tous les temps.",
+  "type": "association",
+  "category": {
+    "name": "Musique",
+    "slug": "musique"
+  },
+  "createdAt": "2026-05-21",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1779359708/association-chanson_hdgvrr.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1779359708/association-chanson_hdgvrr.jpg",
+    "alt": "Trouve les paires entre chanteurs célèbres et chansons cultes"
+  },
+  "data": {
+    "pairs": [
+      {
+        "id": "pair-1",
+        "left": "Michael Jackson",
+        "right": "Billie Jean"
+      },
+      {
+        "id": "pair-2",
+        "left": "Céline Dion",
+        "right": "My Heart Will Go On"
+      },
+      {
+        "id": "pair-3",
+        "left": "Queen",
+        "right": "Bohemian Rhapsody"
+      },
+      {
+        "id": "pair-4",
+        "left": "Adele",
+        "right": "Hello"
+      },
+      {
+        "id": "pair-5",
+        "left": "Eminem",
+        "right": "Lose Yourself"
+      }
+    ]
+  }
+}

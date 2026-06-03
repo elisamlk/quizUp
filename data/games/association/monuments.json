@@ -1,0 +1,48 @@
+{
+  "slug": "trouve-les-paires-monuments-villes",
+  "title": "Trouve les paires - Monuments célèbres et villes",
+  "description": "Associe chaque monument célèbre à la bonne ville dans ce jeu de culture générale et géographie.",
+  "descriptionSeo": "De Paris à New York en passant par Rome ou Londres, retrouve les villes associées aux monuments les plus célèbres du monde. Ce jeu de mémoire et de culture générale te plonge dans un voyage à travers les lieux emblématiques de la planète. Idéal pour les amateurs de voyages, d’histoire et de géographie.",
+  "type": "association",
+  "category": {
+    "name": "Géographie",
+    "slug": "geographie"
+  },
+  "createdAt": "2026-05-21",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1779361958/arc_lchcpk.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1779361958/arc_lchcpk.jpg",
+    "alt": "Trouve les paires entre monuments célèbres et villes"
+  },
+  "data": {
+    "pairs": [
+      {
+        "id": "pair-1",
+        "left": "Tour Eiffel",
+        "right": "Paris"
+      },
+      {
+        "id": "pair-2",
+        "left": "Colisée",
+        "right": "Rome"
+      },
+      {
+        "id": "pair-3",
+        "left": "Big Ben",
+        "right": "Londres"
+      },
+      {
+        "id": "pair-4",
+        "left": "Statue de la Liberté",
+        "right": "New York"
+      },
+      {
+        "id": "pair-5",
+        "left": "Sagrada Família",
+        "right": "Barcelone"
+      }
+    ]
+  }
+}

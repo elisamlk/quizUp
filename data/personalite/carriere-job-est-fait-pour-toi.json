@@ -1,0 +1,162 @@
+{
+  "slug": "test-metier-quel-job-est-fait-pour-toi",
+  "title": "Test métier - Quel job est fait pour toi ?",
+  "description": "Identifie le type de métier qui correspond le mieux à ta manière de travailler et à tes motivations.",
+  "descriptionSeo": "Identifie le métier qui correspond le mieux à ta personnalité, à tes motivations et à ta manière de travailler. À travers des situations concrètes, ce test t’aide à comprendre si tu es plus à l’aise dans un environnement créatif, analytique, social, structuré ou entrepreneurial. Une approche claire et immersive pour mieux t’orienter, valoriser tes points forts et trouver un cadre professionnel qui te correspond réellement.",
+  "category": {
+    "name": "Carrière",
+    "slug": "carriere"
+  },
+  "createdAt": "2026-04-20",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776944596/cover_jivtd9.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776944596/cover_jivtd9.jpg",
+    "alt": "Test métier quel job est fait pour toi"
+  },
+  "profiles": [
+    {
+      "key": "creatif",
+      "title": "Le Créatif",
+      "description": "Tu t’épanouis dans les environnements où l’expression, l’innovation et la liberté d’idées sont centrales. Tu as tendance à penser différemment, à imaginer des alternatives et à apporter une touche originale dans ce que tu fais. Les tâches trop répétitives ou les cadres trop stricts peuvent rapidement te démotiver. Tu as besoin de stimulation, de variété et d’un espace pour t’exprimer. Ce profil correspond souvent à des métiers liés au design, à la communication, au contenu ou à la création de concepts. Cependant, ton défi est de canaliser tes idées et de les concrétiser dans la durée. En développant plus de structure, tu peux transformer ton imagination en véritable force professionnelle durable. Ta valeur réside dans ta capacité à apporter du nouveau et à voir ce que les autres ne voient pas.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776771397/creative_s5mdep.jpg"
+    },
+    {
+      "key": "analytique",
+      "title": "L'Analytique",
+      "description": "Tu es naturellement attiré par les environnements où la réflexion, la logique et la compréhension sont essentielles. Tu aimes analyser, décortiquer et trouver des solutions cohérentes aux problèmes complexes. Tu prends rarement des décisions au hasard et tu préfères comprendre avant d’agir. Cette capacité te rend fiable, pertinent et souvent très précis dans ton travail. Tu es à l’aise dans des domaines comme la tech, la finance, la stratégie ou l’ingénierie. Cependant, tu peux parfois rester trop longtemps dans l’analyse et hésiter à passer à l’action. Ton défi est d’oser agir même sans avoir toutes les réponses. Ta force réside dans ta capacité à structurer la pensée et à prendre des décisions solides basées sur des faits.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776771826/analytic_ofwghg.jpg"
+    },
+    {
+      "key": "social",
+      "title": "Le Relationnel",
+      "description": "Tu t’épanouis dans les interactions humaines. Tu aimes comprendre, échanger, accompagner et créer du lien avec les autres. Tu es sensible aux dynamiques sociales et tu sais souvent mettre les gens à l’aise. Les environnements trop isolés ou techniques peuvent te frustrer, car tu as besoin de contact et de sens dans tes relations. Ce profil correspond bien à des métiers comme le management, le commerce, le coaching, l’enseignement ou les ressources humaines. Tu apportes de la fluidité et de l’énergie dans les échanges. Ton défi est de ne pas trop t’adapter aux autres au point de t’oublier. Ta force réside dans ta capacité à connecter les personnes et à créer un climat de confiance.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776944765/social_dhhg2c.jpg"
+    },
+    {
+      "key": "entrepreneur",
+      "title": "L'Entrepreneur",
+      "description": "Tu es attiré par l’action, les défis et la création de projets. Tu as une tendance naturelle à prendre des initiatives, à tester des idées et à avancer même sans cadre clair. Tu es motivé par la progression, l’autonomie et la possibilité de construire quelque chose par toi-même. Tu n’as pas peur de sortir des sentiers battus et tu es à l’aise avec une certaine prise de risque. Ce profil correspond à l’entrepreneuriat, mais aussi à des rôles dynamiques dans des environnements en évolution. Ton défi est de maintenir une discipline et une constance dans tes efforts. Ta force réside dans ta capacité à transformer une idée en action et à créer des opportunités.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776944836/entrepreneur_nwol9u.jpg"
+    },
+    {
+      "key": "structure",
+      "title": "Le Structuré",
+      "description": "Tu es à l’aise dans les environnements organisés, clairs et stables. Tu apprécies les processus, les méthodes et le fait de savoir où tu vas. Tu es fiable, rigoureux et tu sais gérer les responsabilités sur la durée. Tu aimes quand les choses sont bien définies et tu es efficace pour structurer, planifier et organiser. Ce profil correspond à des métiers liés à la gestion, à l’administration, à la logistique ou à l’organisation de projets. Cependant, tu peux parfois avoir du mal à gérer l’imprévu ou à sortir de ton cadre. Ton défi est d’accepter davantage de flexibilité. Ta force réside dans ta constance, ta discipline et ta capacité à rendre les choses efficaces et organisées.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776776808/surpasse_aufmlo.jpg"
+    }
+  ],
+  "questions": [
+    {
+      "id": "1",
+      "question": "On te confie un nouveau projet sans consignes précises. Tu fais quoi en premier ?",
+      "answers": [
+        { "label": "Je réfléchis à différentes idées possibles", "scores": { "creatif": 3, "analytique": 1 } },
+        { "label": "Je cherche à comprendre le contexte en détail", "scores": { "analytique": 3 } },
+        { "label": "J’échange avec d’autres pour clarifier", "scores": { "social": 3 } },
+        { "label": "Je commence rapidement pour voir où ça mène", "scores": { "entrepreneur": 3 } },
+        { "label": "Je structure les premières étapes", "scores": { "structure": 3, "analytique": 1 } }
+      ]
+    },
+    {
+      "id": "2",
+      "question": "Dans ton travail idéal, ce qui compte le plus pour toi…",
+      "answers": [
+        { "label": "Pouvoir proposer des idées", "scores": { "creatif": 3 } },
+        { "label": "Comprendre et résoudre des problèmes", "scores": { "analytique": 3 } },
+        { "label": "Travailler avec des gens", "scores": { "social": 3 } },
+        { "label": "Avoir de la liberté d’action", "scores": { "entrepreneur": 3 } },
+        { "label": "Avoir un cadre clair", "scores": { "structure": 3 } }
+      ]
+    },
+    {
+      "id": "3",
+      "question": "Quand quelque chose ne se passe pas comme prévu…",
+      "answers": [
+        { "label": "Je cherche une alternative originale", "scores": { "creatif": 3 } },
+        { "label": "J’analyse ce qui n’a pas fonctionné", "scores": { "analytique": 3 } },
+        { "label": "Je demande un avis extérieur", "scores": { "social": 3 } },
+        { "label": "Je rebondis rapidement", "scores": { "entrepreneur": 3 } },
+        { "label": "Je reprends étape par étape", "scores": { "structure": 3 } }
+      ]
+    },
+    {
+      "id": "4",
+      "question": "Tu te sens le plus à l’aise quand…",
+      "answers": [
+        { "label": "Tu peux imaginer librement", "scores": { "creatif": 3 } },
+        { "label": "Tu comprends parfaitement ce que tu fais", "scores": { "analytique": 3 } },
+        { "label": "Tu échanges avec les autres", "scores": { "social": 3 } },
+        { "label": "Tu prends des initiatives", "scores": { "entrepreneur": 3 } },
+        { "label": "Tout est bien organisé", "scores": { "structure": 3 } }
+      ]
+    },
+    {
+      "id": "5",
+      "question": "Dans une équipe, on compte sur toi pour…",
+      "answers": [
+        { "label": "Apporter des idées nouvelles", "scores": { "creatif": 3 } },
+        { "label": "Analyser et structurer", "scores": { "analytique": 3 } },
+        { "label": "Maintenir une bonne dynamique", "scores": { "social": 3 } },
+        { "label": "Faire avancer les choses", "scores": { "entrepreneur": 3 } },
+        { "label": "Organiser le travail", "scores": { "structure": 3 } }
+      ]
+    },
+    {
+      "id": "6",
+      "question": "Ce qui te fatigue le plus dans un travail…",
+      "answers": [
+        { "label": "Faire toujours la même chose", "scores": { "creatif": 3 } },
+        { "label": "Manquer de logique", "scores": { "analytique": 3 } },
+        { "label": "Être isolé", "scores": { "social": 3 } },
+        { "label": "Ne pas pouvoir agir librement", "scores": { "entrepreneur": 3 } },
+        { "label": "Le manque d’organisation", "scores": { "structure": 3 } }
+      ]
+    },
+    {
+      "id": "7",
+      "question": "Quand tu dois apprendre quelque chose de nouveau…",
+      "answers": [
+        { "label": "Je teste et j’expérimente", "scores": { "creatif": 3 } },
+        { "label": "Je comprends le fonctionnement", "scores": { "analytique": 3 } },
+        { "label": "J’échange avec quelqu’un", "scores": { "social": 3 } },
+        { "label": "Je me lance directement", "scores": { "entrepreneur": 3 } },
+        { "label": "Je suis une méthode", "scores": { "structure": 3 } }
+      ]
+    },
+    {
+      "id": "8",
+      "question": "Ce qui te motive vraiment…",
+      "answers": [
+        { "label": "Créer quelque chose de nouveau", "scores": { "creatif": 3 } },
+        { "label": "Comprendre et maîtriser", "scores": { "analytique": 3 } },
+        { "label": "Aider ou accompagner", "scores": { "social": 3 } },
+        { "label": "Construire un projet", "scores": { "entrepreneur": 3 } },
+        { "label": "Organiser et stabiliser", "scores": { "structure": 3 } }
+      ]
+    },
+    {
+      "id": "9",
+      "question": "Tu préfères un environnement…",
+      "answers": [
+        { "label": "Libre et créatif", "scores": { "creatif": 3 } },
+        { "label": "Logique et structuré", "scores": { "analytique": 3 } },
+        { "label": "Dynamique et humain", "scores": { "social": 3 } },
+        { "label": "Ambitieux et stimulant", "scores": { "entrepreneur": 3 } },
+        { "label": "Stable et organisé", "scores": { "structure": 3 } }
+      ]
+    },
+    {
+      "id": "10",
+      "question": "Ce qui te correspond le mieux…",
+      "answers": [
+        { "label": "Imaginer", "scores": { "creatif": 3 } },
+        { "label": "Comprendre", "scores": { "analytique": 3 } },
+        { "label": "Relier les gens", "scores": { "social": 3 } },
+        { "label": "Construire", "scores": { "entrepreneur": 3 } },
+        { "label": "Organiser", "scores": { "structure": 3 } }
+      ]
+    }
+  ]
+}

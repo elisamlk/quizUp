@@ -1,0 +1,42 @@
+{
+  "slug": "chrono-quiz-culture-generale-facile",
+  "title": "Chrono Quiz - Culture Générale Facile",
+  "description": "Réponds au maximum de questions avant la fin du chrono.",
+  "descriptionSeo": "Teste ta rapidité avec ce Chrono Quiz Culture Générale gratuit. Réponds au maximum de questions en temps limité et tente d’améliorer ton score.",
+  "type": "chrono-quiz",
+  "category": {
+    "name": "Culture générale",
+    "slug": "culture-generale"
+  },
+  "createdAt": "2026-05-14",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1779963799/puzzle_ia5tpp.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1779963799/puzzle_ia5tpp.jpg",
+    "alt": "Chrono Quiz Culture Générale"
+  },
+  "data": {
+    "durationSeconds": 60,
+    "items": [
+      {
+        "id": "chrono-1",
+        "question": "Quelle est la capitale de l’Italie ?",
+        "answers": ["Madrid", "Rome", "Athènes", "Lisbonne"],
+        "correctIndex": 1
+      },
+      {
+        "id": "chrono-2",
+        "question": "Combien font 7 x 8 ?",
+        "answers": ["54", "56", "64", "58"],
+        "correctIndex": 1
+      },
+      {
+        "id": "chrono-3",
+        "question": "Quel océan borde la côte ouest de la France ?",
+        "answers": ["Pacifique", "Indien", "Atlantique", "Arctique"],
+        "correctIndex": 2
+      }
+    ]
+  }
+}

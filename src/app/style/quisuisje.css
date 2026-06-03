@@ -1,0 +1,118 @@
+.quiHints {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  
+}
+
+.quiHint {
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+  padding: 16px;
+  border-radius: 18px;
+  background: linear-gradient(180deg, #ffffff, #f8faff);
+  border: 1px solid #dfe6ff;
+}
+
+.quiHintIndex {
+  flex-shrink: 0;
+  width: 34px;
+  height: 34px;
+  display: grid;
+  place-items: center;
+  border-radius: 999px;
+  background: #3055ff;
+  color: #fff;
+  font-weight: 900;
+  font-size: 0.95rem;
+}
+
+.quiHint p {
+  margin: 0;
+  color: #1e293b;
+  line-height: 1.55;
+  font-weight: 600;
+}
+
+.quiInputWrap {
+  display: flex;
+  gap: 12px;
+}
+
+.quiInput {
+  width: 80%;
+  height: 54px;
+  border-radius: 16px;
+  border: 1px solid #d7def7;
+  padding: 0 18px;
+  font-size: 1rem;
+  font-weight: 700;
+  background: #fff;
+}
+
+.quiInput:focus {
+  outline: none;
+  border-color: #3055ff;
+  box-shadow: 0 0 0 4px rgba(48, 85, 255, 0.12);
+}
+
+.quiBtn {
+  width: 20%;
+}
+
+@media (max-width: 640px) {
+  .quiInputWrap {
+    flex-direction: column;
+  }
+
+  .quiInput {
+    height: 50px;
+  }
+  .quiInput {
+    width: 100%;
+  }
+  .quiBtn {
+    width: 100%;
+  }
+}
+
+
+.toastQui {
+  position: fixed;
+  top: 20px;
+  top:50%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 99999;
+
+  padding: 14px 18px;
+  border-radius: 16px;
+
+  background: rgba(15, 23, 42, 0.96);
+  color: #ffffff;
+
+  font-size: 0.95rem;
+  font-weight: 800;
+  text-align: center;
+
+  box-shadow:
+    0 18px 40px rgba(15, 23, 42, 0.22),
+    0 0 0 1px rgba(255,255,255,0.06);
+
+  backdrop-filter: blur(10px);
+
+  animation: toastQuiIn 0.22s ease;
+}
+
+@keyframes toastQuiIn {
+  from {
+    opacity: 0;
+    transform: translateX(-50%) translateY(-10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+  }
+}

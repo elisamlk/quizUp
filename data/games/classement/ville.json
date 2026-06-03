@@ -1,0 +1,238 @@
+{
+  "slug": "classement-villes-population",
+  "title": "Classement - Sauras-tu classer les villes correctement ?",
+  "description": "Replace les villes dans le bon ordre selon leur population et tente de réussir chaque classement avec seulement 4 coups.",
+  "descriptionSeo": "Teste tes connaissances sur les plus grandes villes du monde avec ce jeu de classement stratégique. Replace les villes dans le bon ordre selon leur population mondiale avec seulement 4 coups disponibles. Chaque bonne position se verrouille automatiquement pour créer un mini-jeu rapide, addictif et compétitif.",
+  "type": "classement",
+  "category": {
+    "name": "Classements",
+    "slug": "classements"
+  },
+  "createdAt": "2026-05-18",
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777297021/tokyo_k44fck.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777297021/tokyo_k44fck.jpg",
+    "alt": "Classement des villes les plus peuplées"
+  },
+  "data": {
+    "moves": 4,
+    "items": [
+      {
+        "id": "q1",
+        "question": "Classe ces villes de la plus peuplée à la moins peuplée",
+        "explanation": "Tokyo reste la ville la plus peuplée du monde devant Delhi et Shanghai.",
+        "items": [
+          {
+            "id": "tokyo",
+            "label": "Tokyo",
+            "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777297021/tokyo_k44fck.jpg",
+            "rank": 1
+          },
+          {
+            "id": "delhi",
+            "label": "Delhi",
+            "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1779368744/dehli_xwr1rp.jpg",
+            "rank": 2
+          },
+          {
+            "id": "shanghai",
+            "label": "Shanghai",
+            "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1779368849/shangai_pktyw3.jpg",
+            "rank": 3
+          },
+          {
+            "id": "sao-paulo",
+            "label": "São Paulo",
+            "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1779368934/Sa%CC%83o-Paulo_eoafv6.jpg",
+            "rank": 4
+          },
+          {
+            "id": "mexico",
+            "label": "Mexico",
+            "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1779369090/mexico_dw0qqr.jpg",
+            "rank": 5
+          },
+          {
+            "id": "caire",
+            "label": "Le Caire",
+            "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1779369093/cairo_tlzwpe.jpg",
+            "rank": 6
+          }
+        ]
+      },
+      {
+        "id": "q2",
+        "question": "Classe ces villes européennes de la plus peuplée à la moins peuplée",
+        "explanation": "Moscou domine largement les villes européennes.",
+        "items": [
+          {
+            "id": "moscow",
+            "label": "Moscou",
+            "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1779369434/moscow_ofvbd1.jpg",
+            "rank": 1
+          },
+          {
+            "id": "london",
+            "label": "Londres",
+            "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1779369578/londres_wp2iqe.jpg",
+            "rank": 2
+          },
+          {
+            "id": "paris",
+            "label": "Paris",
+            "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777297026/paris_klidei.jpg",
+            "rank": 3
+          },
+          {
+            "id": "madrid",
+            "label": "Madrid",
+            "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1779369431/madrid_s0udel.jpg",
+            "rank": 4
+          },
+          {
+            "id": "rome",
+            "label": "Rome",
+            "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1779015679/colisee_z3beb7.jpg",
+            "rank": 5
+          },
+          {
+            "id": "berlin",
+            "label": "Berlin",
+            "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1779369427/berlin_p6120p.jpg",
+            "rank": 6
+          }
+        ]
+      },
+      {
+        "id": "q3",
+        "question": "Classe ces villes américaines de la plus peuplée à la moins peuplée",
+        "explanation": "New York reste devant Los Angeles et Chicago.",
+        "items": [
+          {
+            "id": "new-york",
+            "label": "New York",
+            "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777297024/newyork_h9flfd.jpg",
+            "rank": 1
+          },
+          {
+            "id": "los-angeles",
+            "label": "Los Angeles",
+            "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1779369810/los-angeles_b5j5gt.jpg",
+            "rank": 2
+          },
+          {
+            "id": "chicago",
+            "label": "Chicago",
+            "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1779369854/chicago_huvazy.jpg",
+            "rank": 3
+          },
+          {
+            "id": "houston",
+            "label": "Houston",
+            "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1779369984/houston_uzxtto.jpg",
+            "rank": 4
+          },
+          {
+            "id": "phoenix",
+            "label": "Phoenix",
+            "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1779370055/phoenix_fk2vgm.jpg",
+            "rank": 5
+          },
+          {
+            "id": "philadelphia",
+            "label": "Philadelphie",
+            "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1779370126/philadelphia_rfbltk.jpg",
+            "rank": 6
+          }
+        ]
+      },
+      {
+        "id": "q4",
+        "question": "Classe ces villes françaises de la plus peuplée à la moins peuplée",
+        "explanation": "Paris domine largement devant Marseille et Lyon.",
+        "items": [
+          {
+            "id": "paris-fr",
+            "label": "Paris",
+            "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777297026/paris_klidei.jpg",
+            "rank": 1
+          },
+          {
+            "id": "marseille",
+            "label": "Marseille",
+            "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1779370544/marseille_rgdsju.jpg",
+            "rank": 2
+          },
+          {
+            "id": "lyon",
+            "label": "Lyon",
+            "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1779370541/lyon_bqdhn2.jpg",
+            "rank": 3
+          },
+          {
+            "id": "toulouse",
+            "label": "Toulouse",
+            "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1779370538/toulouse_oh0j8p.jpg",
+            "rank": 4
+          },
+          {
+            "id": "nice",
+            "label": "Nice",
+            "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1779370554/nice_rfyih9.jpg",
+            "rank": 5
+          },
+          {
+            "id": "nantes",
+            "label": "Nantes",
+            "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1779370550/nantes_fmlelt.jpg",
+            "rank": 6
+          }
+        ]
+      },
+      {
+        "id": "q5",
+        "question": "Classe ces mégalopoles asiatiques de la plus peuplée à la moins peuplée",
+        "explanation": "Tokyo et Delhi dominent les mégalopoles asiatiques.",
+        "items": [
+          {
+            "id": "tokyo-2",
+            "label": "Tokyo",
+            "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777297021/tokyo_k44fck.jpg",
+            "rank": 1
+          },
+          {
+            "id": "delhi-2",
+            "label": "Delhi",
+            "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1779368744/dehli_xwr1rp.jpg",
+            "rank": 2
+          },
+          {
+            "id": "dhaka",
+            "label": "Dhaka",
+            "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1779371235/dhaka_x2gxen.jpg",
+            "rank": 3
+          },
+          {
+            "id": "beijing",
+            "label": "Pékin",
+            "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1779371141/pekin_oticxf.jpg",
+            "rank": 4
+          },
+          {
+            "id": "bangkok",
+            "label": "Bangkok",
+            "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1779371026/bangkok_ntuhdn.jpg",
+            "rank": 5
+          },
+          {
+            "id": "seoul",
+            "label": "Séoul",
+            "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1779370954/seoul_ijqxzz.jpg",
+            "rank": 6
+          }
+        ]
+      }
+    ]
+  }
+}

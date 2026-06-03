@@ -1,0 +1,146 @@
+{
+  "slug": "test-equilibre-familial-sain",
+  "title": "Test famille - Ton équilibre familial est-il sain ?",
+  "description": "Ta relation familiale est-elle équilibrée ou déséquilibrée ?",
+  "descriptionSeo": "Communication, limites, émotions… ce test analyse ton équilibre familial à travers des situations concrètes. Découvre si ton environnement est sain, instable ou trop impliquant.",
+  "category": {
+    "name": "Famille",
+    "slug": "famille"
+  },
+  "createdAt": "2026-04-27",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777379882/cover_wfqbqu.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777379882/cover_wfqbqu.jpg",
+    "alt": "Test équilibre familial"
+  },
+  "profiles": [
+    {
+      "key": "sain",
+      "title": "Équilibre sain",
+      "description": "Ta relation familiale semble globalement saine et équilibrée. Il y a du respect, de la communication et une certaine liberté. Tu peux être proche de ta famille sans te sentir envahi(e), et tu gardes ton indépendance. Les échanges sont possibles, même en cas de désaccord. Tu sais poser des limites et tu te sens respecté(e). Cet équilibre te permet d’évoluer sereinement tout en gardant des liens solides.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777379945/sain_refsjc.jpg"
+    },
+    {
+      "key": "implique",
+      "title": "Trop impliqué(e)",
+      "description": "Ta famille prend une place importante dans ta vie, parfois un peu trop. Tu peux te sentir responsable, impliqué(e) ou très lié(e) émotionnellement. Il peut être difficile pour toi de prendre du recul ou de faire des choix totalement indépendants. Cette proximité est forte, mais elle peut parfois devenir pesante. Tu peux avoir du mal à poser des limites ou à te détacher.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777377327/fusion_ryzyvu.jpg"
+    },
+    {
+      "key": "desequilibre",
+      "title": "Équilibre fragile",
+      "description": "Ton équilibre familial semble instable. Il peut y avoir des tensions, des incompréhensions ou des moments difficiles. La communication n’est pas toujours fluide et tu peux te sentir tiraillé(e). Tu peux osciller entre proximité et distance selon les situations. Cet équilibre demande de l’attention et peut parfois être source de stress émotionnel.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777031501/cover_xqw0dr.jpg"
+    },
+    {
+      "key": "distant",
+      "title": "Distance marquée",
+      "description": "Tu as pris une certaine distance avec ta famille, volontairement ou non. Tu es autonome et tu préfères garder une séparation claire. Tu n’as pas forcément besoin d’un lien constant ou très proche. Cette distance peut te protéger, mais elle peut aussi créer un manque de connexion. Ton équilibre repose davantage sur ton indépendance que sur le lien familial.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777032251/uncertain_vsnb2s.jpg"
+    }
+  ],
+"questions": [
+  {
+    "id": "1",
+    "question": "Tu ne réponds pas à un message familial pendant quelques heures…",
+    "answers": [
+      { "label": "Aucun souci pour moi", "scores": { "sain": 3 } },
+      { "label": "Je culpabilise un peu", "scores": { "implique": 3 } },
+      { "label": "Ça dépend de qui c’est", "scores": { "desequilibre": 3 } },
+      { "label": "Je réponds quand je veux", "scores": { "distant": 3 } }
+    ]
+  },
+  {
+    "id": "2",
+    "question": "Un proche insiste pour savoir des détails de ta vie…",
+    "answers": [
+      { "label": "Je partage ce que je veux", "scores": { "sain": 3 } },
+      { "label": "Je finis par tout dire", "scores": { "implique": 3 } },
+      { "label": "Je suis mal à l’aise", "scores": { "desequilibre": 3 } },
+      { "label": "Je coupe court", "scores": { "distant": 3 } }
+    ]
+  },
+  {
+    "id": "3",
+    "question": "Tu veux faire un choix important qui ne va pas leur plaire…",
+    "answers": [
+      { "label": "Je le fais quand même", "scores": { "sain": 3 } },
+      { "label": "J’hésite beaucoup", "scores": { "implique": 3 } },
+      { "label": "Je stresse de leur réaction", "scores": { "desequilibre": 3 } },
+      { "label": "Je ne leur en parle pas", "scores": { "distant": 3 } }
+    ]
+  },
+  {
+    "id": "4",
+    "question": "Un repas de famille est prévu mais tu es fatigué(e)…",
+    "answers": [
+      { "label": "Je dis que je ne viens pas", "scores": { "sain": 3 } },
+      { "label": "Je viens quand même", "scores": { "implique": 3 } },
+      { "label": "J’hésite jusqu’au dernier moment", "scores": { "desequilibre": 3 } },
+      { "label": "Je refuse sans me justifier", "scores": { "distant": 3 } }
+    ]
+  },
+  {
+    "id": "5",
+    "question": "Quelqu’un entre dans ton espace perso sans prévenir…",
+    "answers": [
+      { "label": "Je pose une limite calmement", "scores": { "sain": 3 } },
+      { "label": "Je laisse passer", "scores": { "implique": 3 } },
+      { "label": "Ça m’énerve mais je ne dis rien", "scores": { "desequilibre": 3 } },
+      { "label": "Je réagis direct", "scores": { "distant": 3 } }
+    ]
+  },
+  {
+    "id": "6",
+    "question": "Un proche attend beaucoup de toi (aide, présence…)…",
+    "answers": [
+      { "label": "Je fixe mes limites", "scores": { "sain": 3 } },
+      { "label": "Je me sens obligé(e)", "scores": { "implique": 3 } },
+      { "label": "Je suis partagé(e)", "scores": { "desequilibre": 3 } },
+      { "label": "Je prends de la distance", "scores": { "distant": 3 } }
+    ]
+  },
+  {
+    "id": "7",
+    "question": "Après avoir passé du temps en famille…",
+    "answers": [
+      { "label": "Je me sens bien", "scores": { "sain": 3 } },
+      { "label": "Je suis un peu vidé(e)", "scores": { "implique": 3 } },
+      { "label": "Ça dépend de l’ambiance", "scores": { "desequilibre": 3 } },
+      { "label": "Je suis soulagé(e) de partir", "scores": { "distant": 3 } }
+    ]
+  },
+  {
+    "id": "8",
+    "question": "Tu ne partages pas quelque chose d’important…",
+    "answers": [
+      { "label": "C’est normal, j’ai mon jardin secret", "scores": { "sain": 3 } },
+      { "label": "Je finis toujours par le dire", "scores": { "implique": 3 } },
+      { "label": "Je culpabilise un peu", "scores": { "desequilibre": 3 } },
+      { "label": "Je garde pour moi sans problème", "scores": { "distant": 3 } }
+    ]
+  },
+  {
+    "id": "9",
+    "question": "Un désaccord arrive…",
+    "answers": [
+      { "label": "On en parle calmement", "scores": { "sain": 3 } },
+      { "label": "Je cède souvent", "scores": { "implique": 3 } },
+      { "label": "Ça devient tendu", "scores": { "desequilibre": 3 } },
+      { "label": "J’évite ou je coupe", "scores": { "distant": 3 } }
+    ]
+  },
+  {
+    "id": "10",
+    "question": "Tu te sens libre de dire non à ta famille…",
+    "answers": [
+      { "label": "Oui, sans problème", "scores": { "sain": 3 } },
+      { "label": "Difficilement", "scores": { "implique": 3 } },
+      { "label": "Ça dépend des situations", "scores": { "desequilibre": 3 } },
+      { "label": "Oui, mais en prenant de la distance", "scores": { "distant": 3 } }
+    ]
+  }
+]
+}

@@ -1,0 +1,114 @@
+{
+  "slug": "chrono-quiz-deduction",
+  "title": "Chrono Quiz - Déduction - Trouve la bonne réponse vite",
+  "description": "Utilise ta logique et ton sens de la déduction pour répondre avant la fin du chrono.",
+  "descriptionSeo": "Teste ton esprit logique avec ce Chrono Quiz Déduction où tu dois trouver la bonne réponse le plus vite possible. Suites logiques, pièges, réflexion rapide et déduction mentale s’enchaînent dans un défi chronométré addictif. Ce mini-jeu est parfait pour entraîner son cerveau, améliorer sa rapidité de réflexion et relever un challenge stimulant sur mobile, tablette ou ordinateur.",
+  "type": "chrono-quiz",
+  "category": {
+    "name": "Logique",
+    "slug": "logique"
+  },
+  "createdAt": "2026-05-21",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1779367753/thinking_wz5zgz.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1779367753/thinking_wz5zgz.jpg",
+    "alt": "Chrono Quiz Déduction"
+  },
+  "data": {
+    "durationSeconds": 30,
+    "items": [
+      {
+        "id": "chrono-1",
+        "question": "Quel nombre complète la suite : 2, 4, 6, 8, ... ?",
+        "answers": ["9", "10", "12", "14"],
+        "correctIndex": 1
+      },
+      {
+        "id": "chrono-2",
+        "question": "Si tous les roses sont des fleurs et que certaines fleurs fanent vite, alors les roses sont... ?",
+        "answers": ["Toujours rouges", "Des arbres", "Des fleurs", "Des légumes"],
+        "correctIndex": 2
+      },
+      {
+        "id": "chrono-3",
+        "question": "Quel mot est l’intrus : pomme, banane, carotte, orange ?",
+        "answers": ["Banane", "Orange", "Pomme", "Carotte"],
+        "correctIndex": 3
+      },
+      {
+        "id": "chrono-4",
+        "question": "Quel nombre complète la suite : 5, 10, 15, 20, ... ?",
+        "answers": ["30", "25", "35", "40"],
+        "correctIndex": 1
+      },
+      {
+        "id": "chrono-5",
+        "question": "Si Paul est plus grand que Léa et que Léa est plus grande que Tom, qui est le plus petit ?",
+        "answers": ["Paul", "Tom", "Léa", "Impossible à savoir"],
+        "correctIndex": 1
+      },
+      {
+        "id": "chrono-6",
+        "question": "Quel nombre complète la suite : 1, 3, 6, 10, ... ?",
+        "answers": ["12", "14", "15", "16"],
+        "correctIndex": 2
+      },
+      {
+        "id": "chrono-7",
+        "question": "Le matin j’ai 4 jambes, le midi 2 et le soir 3. Qui suis-je ?",
+        "answers": ["Un chien", "Un humain", "Une araignée", "Une chaise"],
+        "correctIndex": 1
+      },
+      {
+        "id": "chrono-8",
+        "question": "Quel nombre complète la suite : 3, 9, 27, ... ?",
+        "answers": ["54", "72", "81", "63"],
+        "correctIndex": 2
+      },
+      {
+        "id": "chrono-9",
+        "question": "Quel mot ne va pas avec les autres : carré, triangle, cercle, piano ?",
+        "answers": ["Carré", "Piano", "Triangle", "Cercle"],
+        "correctIndex": 1
+      },
+      {
+        "id": "chrono-10",
+        "question": "Si aujourd’hui est lundi, quel jour sera-t-on dans 3 jours ?",
+        "answers": ["Mercredi", "Jeudi", "Vendredi", "Samedi"],
+        "correctIndex": 1
+      },
+      {
+        "id": "chrono-11",
+        "question": "Quel nombre complète la suite : 100, 90, 80, ... ?",
+        "answers": ["60", "50", "70", "75"],
+        "correctIndex": 2
+      },
+      {
+        "id": "chrono-12",
+        "question": "Quel objet est généralement utilisé pour écrire ?",
+        "answers": ["Stylo", "Assiette", "Oreiller", "Chaussure"],
+        "correctIndex": 0
+      },
+      {
+        "id": "chrono-13",
+        "question": "Si un vélo a 2 roues, combien de roues ont 3 vélos ?",
+        "answers": ["4", "5", "6", "8"],
+        "correctIndex": 2
+      },
+      {
+        "id": "chrono-14",
+        "question": "Quel nombre complète la suite : 7, 14, 21, 28, ... ?",
+        "answers": ["42", "49", "35", "56"],
+        "correctIndex": 2
+      },
+      {
+        "id": "chrono-15",
+        "question": "Quel mot est un animal ?",
+        "answers": ["Table", "Lion", "Voiture", "Fenêtre"],
+        "correctIndex": 1
+      }
+    ]
+  }
+}

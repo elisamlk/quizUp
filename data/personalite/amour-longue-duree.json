@@ -1,0 +1,362 @@
+{
+  "slug": "test-relation-es-tu-fait-pour-une-relation-longue-duree",
+  "title": "Test relation - Es-tu fait(e) pour une relation longue durée ?",
+  "description": "Évalue ta capacité à construire une relation stable, saine et durable dans le temps.",
+  "descriptionSeo": "Analyse ta manière de vivre l’amour, l’engagement et les difficultés du quotidien pour savoir si tu es prêt à construire une relation longue durée. À travers des situations concrètes, ce test explore ta stabilité émotionnelle, ta communication, ta patience et ta vision du couple. Une approche réaliste pour mieux comprendre si tu es fait pour une relation durable ou encore en phase d’apprentissage.",
+  "category": {
+    "name": "Amour",
+    "slug": "amour"
+  },
+  "createdAt": "2026-04-20",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777030071/cover_sw4hyr.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777030071/cover_sw4hyr.jpg",
+    "alt": "Test relation longue durée"
+  },
+  "profiles": [
+    {
+      "key": "pret_durable",
+      "title": "Prêt(e) pour une relation durable",
+      "description": "Tu sembles avoir une vraie capacité à construire une relation longue durée. Tu comprends qu’un couple solide ne repose pas seulement sur l’attirance ou les débuts passionnés, mais aussi sur la communication, la patience, la confiance et les efforts réciproques. Tu sais que les désaccords font partie d’une relation et tu cherches davantage à comprendre qu’à fuir dès que les choses deviennent compliquées. Tu es capable de t’investir sans forcément te perdre, et tu accordes de l’importance à la stabilité émotionnelle. Cela ne veut pas dire que tu es parfait, mais tu as une approche mature de l’amour. Ton défi est de ne pas tomber dans une routine trop confortable ou de trop porter la relation seul. Ta force réside dans ta capacité à aimer avec constance, à construire dans le temps et à créer un lien profond, sain et durable.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776951649/cover_dmjvzv.jpg"
+    },
+    {
+      "key": "potentiel_durable",
+      "title": "Potentiel durable",
+      "description": "Tu as un vrai potentiel pour vivre une relation longue durée, mais certains points restent encore à stabiliser. Tu peux avoir envie de construire quelque chose de sérieux, tout en étant parfois freiné par tes doutes, tes habitudes émotionnelles ou ton besoin de liberté. Tu sais t’investir quand la relation compte vraiment, mais tu peux encore hésiter face aux compromis, aux conflits ou aux périodes moins intenses. Cette position n’est pas négative : elle montre que tu es en évolution. Tu as déjà des bases intéressantes, mais tu dois encore apprendre à mieux communiquer, à clarifier tes attentes et à rester constant même quand la relation traverse des moments plus ordinaires. Ton défi est de ne pas confondre inconfort passager et incompatibilité. Ta force réside dans ta capacité à progresser, à te remettre en question et à apprendre à construire une relation plus solide avec le temps.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776950547/protective_yljsnm.jpg"
+    },
+    {
+      "key": "besoin_liberte",
+      "title": "Besoin de liberté",
+      "description": "Tu peux aimer sincèrement, mais une relation longue durée peut parfois te sembler lourde si elle menace ton espace personnel. Tu as besoin de respirer, de garder ton indépendance et de sentir que le couple ne t’enferme pas. Ce besoin de liberté n’est pas un défaut : il peut même rendre tes relations plus saines si tu sais l’exprimer clairement. Le problème apparaît surtout lorsque tu prends de la distance dès qu’une relation devient plus sérieuse ou demande plus d’engagement. Tu peux alors donner l’impression d’être difficile à suivre ou de ne jamais vraiment te poser. Ton défi est d’apprendre à distinguer une relation étouffante d’une relation simplement engagée. Ta force réside dans ton autonomie, ta lucidité et ta capacité à ne pas te perdre dans l’autre. Avec le bon équilibre, tu peux construire durablement sans renoncer à toi-même.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777030072/freedom_ley4k9.jpg"
+    },
+    {
+      "key": "pas_encore_pret",
+      "title": "Pas encore prêt(e)",
+      "description": "Tu n’es peut-être pas encore totalement prêt pour une relation longue durée. Cela ne signifie pas que tu ne sais pas aimer, mais plutôt que ton fonctionnement actuel peut rendre la stabilité difficile. Tu peux être attiré par l’intensité du début, mais moins à l’aise avec les efforts du quotidien, les compromis ou les moments plus calmes. Tu peux aussi avoir tendance à fuir les discussions difficiles, à te lasser vite ou à ne pas savoir exactement ce que tu attends d’une relation. Ce résultat n’est pas un jugement : c’est une indication sur ton moment de vie actuel. Ton défi est de mieux comprendre tes besoins avant de t’engager profondément. Une relation durable demande de la disponibilité émotionnelle, de la patience et une certaine constance. Ta force réside dans ta possibilité d’évoluer : en gagnant en clarté et en maturité affective, tu pourras construire quelque chose de plus stable plus tard.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776950438/alone_r3bx4q.jpg"
+    }
+  ],
+  "questions": [
+    {
+      "id": "1",
+      "question": "Après plusieurs mois de relation, l’intensité du début diminue. Comment tu réagis ?",
+      "image": null,
+      "answers": [
+        {
+          "label": "Je trouve normal que la relation devienne plus calme et profonde",
+          "scores": {
+            "pret_durable": 3,
+            "potentiel_durable": 1
+          }
+        },
+        {
+          "label": "Je me demande si quelque chose manque, mais j’essaie de comprendre",
+          "scores": {
+            "potentiel_durable": 2,
+            "pret_durable": 1
+          }
+        },
+        {
+          "label": "Je ressens vite le besoin de retrouver de l’espace ou de la nouveauté",
+          "scores": {
+            "besoin_liberte": 3,
+            "pas_encore_pret": 1
+          }
+        },
+        {
+          "label": "Je commence à douter fortement de la relation",
+          "scores": {
+            "pas_encore_pret": 3,
+            "potentiel_durable": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "question": "Ton ou ta partenaire traverse une période difficile et demande plus de présence.",
+      "answers": [
+        {
+          "label": "Je fais de mon mieux pour être présent sans m’oublier",
+          "scores": {
+            "pret_durable": 3
+          }
+        },
+        {
+          "label": "Je veux aider, mais j’ai parfois du mal à trouver la bonne place",
+          "scores": {
+            "potentiel_durable": 3
+          }
+        },
+        {
+          "label": "Je peux me sentir vite envahi si ça devient trop lourd",
+          "scores": {
+            "besoin_liberte": 3
+          }
+        },
+        {
+          "label": "Je préfère prendre mes distances quand ça devient trop compliqué",
+          "scores": {
+            "pas_encore_pret": 3,
+            "besoin_liberte": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "question": "Dans une dispute importante, ton réflexe le plus naturel est…",
+      "answers": [
+        {
+          "label": "Essayer de comprendre le fond du problème pour réparer",
+          "scores": {
+            "pret_durable": 3,
+            "potentiel_durable": 1
+          }
+        },
+        {
+          "label": "Avoir besoin d’un moment avant de revenir discuter",
+          "scores": {
+            "potentiel_durable": 2,
+            "besoin_liberte": 1
+          }
+        },
+        {
+          "label": "Me fermer si je sens que la discussion devient trop émotionnelle",
+          "scores": {
+            "besoin_liberte": 2,
+            "pas_encore_pret": 1
+          }
+        },
+        {
+          "label": "Penser rapidement que la relation devient trop compliquée",
+          "scores": {
+            "pas_encore_pret": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "question": "Quand tu imagines une relation dans plusieurs années, tu vois surtout…",
+      "answers": [
+        {
+          "label": "Une construction solide avec des projets communs",
+          "scores": {
+            "pret_durable": 3
+          }
+        },
+        {
+          "label": "Une relation sérieuse, mais avec des ajustements réguliers",
+          "scores": {
+            "potentiel_durable": 3,
+            "pret_durable": 1
+          }
+        },
+        {
+          "label": "Une relation où chacun garde beaucoup d’indépendance",
+          "scores": {
+            "besoin_liberte": 3
+          }
+        },
+        {
+          "label": "J’ai du mal à me projeter aussi loin",
+          "scores": {
+            "pas_encore_pret": 3,
+            "potentiel_durable": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "question": "Ton rapport aux compromis en couple ressemble plutôt à quoi ?",
+      "answers": [
+        {
+          "label": "J’en fais si c’est juste et réciproque",
+          "scores": {
+            "pret_durable": 3
+          }
+        },
+        {
+          "label": "J’essaie, mais ce n’est pas toujours simple",
+          "scores": {
+            "potentiel_durable": 3
+          }
+        },
+        {
+          "label": "Je peux vite avoir peur de perdre ma liberté",
+          "scores": {
+            "besoin_liberte": 3
+          }
+        },
+        {
+          "label": "J’ai tendance à éviter les concessions qui me demandent trop",
+          "scores": {
+            "pas_encore_pret": 3,
+            "besoin_liberte": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "question": "Quand la routine s’installe dans le couple, tu as tendance à…",
+      "answers": [
+        {
+          "label": "Chercher à nourrir la relation autrement",
+          "scores": {
+            "pret_durable": 3,
+            "potentiel_durable": 1
+          }
+        },
+        {
+          "label": "Avoir besoin d’en parler pour retrouver un élan",
+          "scores": {
+            "potentiel_durable": 3
+          }
+        },
+        {
+          "label": "Ressentir un besoin de changement ou de respiration",
+          "scores": {
+            "besoin_liberte": 3
+          }
+        },
+        {
+          "label": "Me lasser rapidement si tout devient trop prévisible",
+          "scores": {
+            "pas_encore_pret": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "question": "Ton ou ta partenaire te parle d’un projet commun important.",
+      "answers": [
+        {
+          "label": "Je prends la discussion au sérieux et j’écoute vraiment",
+          "scores": {
+            "pret_durable": 3
+          }
+        },
+        {
+          "label": "Ça m’intéresse, mais j’ai besoin de temps pour me positionner",
+          "scores": {
+            "potentiel_durable": 3
+          }
+        },
+        {
+          "label": "Je me sens un peu sous pression si ça engage trop vite",
+          "scores": {
+            "besoin_liberte": 3,
+            "pas_encore_pret": 1
+          }
+        },
+        {
+          "label": "Je préfère éviter ce genre de discussion trop engageante",
+          "scores": {
+            "pas_encore_pret": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "question": "Ce qui te semble indispensable pour durer en amour, c’est…",
+      "answers": [
+        {
+          "label": "La confiance, la communication et les efforts mutuels",
+          "scores": {
+            "pret_durable": 3
+          }
+        },
+        {
+          "label": "L’envie de progresser ensemble sans tout contrôler",
+          "scores": {
+            "potentiel_durable": 3,
+            "pret_durable": 1
+          }
+        },
+        {
+          "label": "Le respect de l’espace personnel de chacun",
+          "scores": {
+            "besoin_liberte": 3
+          }
+        },
+        {
+          "label": "Le fait que ça reste simple, fluide et sans trop d’obligations",
+          "scores": {
+            "pas_encore_pret": 3,
+            "besoin_liberte": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "question": "Quand tu sens que la relation demande plus d’efforts que prévu…",
+      "answers": [
+        {
+          "label": "Je reste impliqué si la relation en vaut la peine",
+          "scores": {
+            "pret_durable": 3
+          }
+        },
+        {
+          "label": "Je me remets en question, mais je peux douter",
+          "scores": {
+            "potentiel_durable": 3
+          }
+        },
+        {
+          "label": "Je cherche à récupérer de l’espace pour respirer",
+          "scores": {
+            "besoin_liberte": 3
+          }
+        },
+        {
+          "label": "Je me demande si je ne devrais pas partir",
+          "scores": {
+            "pas_encore_pret": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "question": "Au fond, ta manière d’aimer sur la durée ressemble plutôt à…",
+      "answers": [
+        {
+          "label": "Je construis avec patience, même quand ce n’est pas parfait",
+          "scores": {
+            "pret_durable": 3
+          }
+        },
+        {
+          "label": "Je veux construire, mais j’ai encore des choses à clarifier",
+          "scores": {
+            "potentiel_durable": 3
+          }
+        },
+        {
+          "label": "J’aime profondément, mais j’ai besoin de beaucoup d’air",
+          "scores": {
+            "besoin_liberte": 3
+          }
+        },
+        {
+          "label": "Je ne sais pas encore si je suis fait pour du long terme",
+          "scores": {
+            "pas_encore_pret": 3
+          }
+        }
+      ]
+    }
+  ]
+}

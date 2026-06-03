@@ -1,0 +1,31 @@
+{
+  "slug": "memory-fruits",
+  "title": "Memory Fruits - Défi pour les gourmands",
+  "description": "Retourne les cartes, mémorise les fruits et retrouve toutes les paires le plus rapidement possible.",
+  "descriptionSeo": "Teste ta mémoire avec ce jeu Memory Fruits gratuit et amusant. Retrouve les paires de fruits le plus vite possible et améliore ton score à chaque partie. Pomme, banane, fraise, raisin et bien d’autres fruits t’attendent dans ce mini-jeu rapide et accessible sur mobile comme sur ordinateur. Un jeu de mémoire coloré et relaxant, parfait pour les enfants comme pour les adultes.",
+  "type": "memory",
+  "category": {
+    "name": "Cuisine",
+    "slug": "cuisine"
+  },
+  "createdAt": "2026-05-26",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1779799109/fruits_l4grcd.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1779799109/fruits_l4grcd.jpg",
+    "alt": "Memory Fruits"
+  },
+  "data": {
+    "cards": [
+      { "id": "pomme", "label": "Pomme", "emoji": "🍎" },
+      { "id": "banane", "label": "Banane", "emoji": "🍌" },
+      { "id": "fraise", "label": "Fraise", "emoji": "🍓" },
+      { "id": "raisin", "label": "Raisin", "emoji": "🍇" },
+      { "id": "pasteque", "label": "Pastèque", "emoji": "🍉" },
+      { "id": "ananas", "label": "Ananas", "emoji": "🍍" },
+      { "id": "cerise", "label": "Cerise", "emoji": "🍒" },
+      { "id": "peche", "label": "Pêche", "emoji": "🍑" }
+    ]
+  }
+}

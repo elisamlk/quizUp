@@ -1,0 +1,130 @@
+{
+  "slug": "test-ville-ou-nature",
+  "title": "Test lifestyle - Ville ou nature, que te faut-il vraiment ?",
+  "description": "Ville ou nature : où te sens-tu vraiment à ta place ?",
+  "descriptionSeo": "Rythme de vie, environnement, énergie… ce test révèle si tu es fait(e) pour la vie urbaine, la nature ou un équilibre entre les deux. À travers des situations concrètes, découvre l’environnement qui correspond vraiment à ta personnalité.",
+  "category": {
+    "name": "Lifestyle",
+    "slug": "lifestyle"
+  },
+  "createdAt": "2026-04-27",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777373251/cover_sitclp.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777373251/cover_sitclp.jpg",
+    "alt": "Test ville ou nature personnalité"
+  },
+  "profiles": [
+    {
+      "key": "ville",
+      "title": "Ville",
+      "description": "Tu es clairement fait(e) pour la vie urbaine. Tu aimes le mouvement, l’énergie, les opportunités et le fait que tout soit accessible rapidement. Les cafés, les sorties, les gens, l’ambiance… tout ça te stimule. Tu te sens vivant(e) dans un environnement dynamique, même si c’est parfois bruyant ou intense. Tu as besoin d’activités, de contacts et de variété dans ton quotidien. Le calme absolu peut vite te lasser. Pour toi, la ville n’est pas stressante : elle est stimulante. C’est là que tu te sens le plus connecté(e) au monde.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777297024/newyork_h9flfd.jpg"
+    },
+    {
+      "key": "equilibre",
+      "title": "Entre ville et nature",
+      "description": "Tu es quelqu’un d’équilibré. Tu apprécies l’énergie de la ville, mais tu as aussi besoin de moments de calme et de nature pour te ressourcer. Tu peux vivre en ville à condition de pouvoir t’échapper régulièrement. Tu aimes avoir le choix : sortir quand tu veux, mais aussi te poser quand tu en as besoin. Tu n’es pas extrême dans tes préférences. Ton idéal, c’est un mode de vie flexible qui combine stimulation et tranquillité. Tu cherches un équilibre entre activité et repos.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776775562/balanced_bukayi.jpg"
+    },
+    {
+      "key": "nature",
+      "title": "Nature",
+      "description": "Tu es profondément attiré(e) par le calme, l’espace et la simplicité. Tu te sens mieux loin du bruit, de la foule et du rythme intense des villes. La nature t’apaise, te recharge et te permet de te reconnecter à toi-même. Tu préfères les environnements simples, authentiques et moins stimulants visuellement ou socialement. Tu n’as pas besoin de beaucoup pour te sentir bien, tant que tu as de la tranquillité. Pour toi, le vrai luxe, c’est le silence, l’air pur et le temps qui ralentit.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777299733/simple-life_pgal2h.jpg"
+    }
+  ],
+"questions": [
+  {
+    "id": "1",
+    "question": "Tu sors de chez toi, il est 18h…",
+    "answers": [
+      { "label": "J’aime voir les rues pleines et animées", "scores": { "ville": 3 } },
+      { "label": "Ça dépend de mon humeur", "scores": { "equilibre": 3 } },
+      { "label": "Je préfère le calme et peu de monde", "scores": { "nature": 3 } }
+    ]
+  },
+  {
+    "id": "2",
+    "question": "Ton voisin fait du bruit presque tous les soirs…",
+    "answers": [
+      { "label": "Je m’y habitue", "scores": { "ville": 3 } },
+      { "label": "Ça dépend des jours", "scores": { "equilibre": 3 } },
+      { "label": "Ça me rend fou/folle", "scores": { "nature": 3 } }
+    ]
+  },
+  {
+    "id": "3",
+    "question": "Tu dois marcher 20 minutes pour acheter un truc…",
+    "answers": [
+      { "label": "Trop long, je veux tout à côté", "scores": { "ville": 3 } },
+      { "label": "Ça va si c’est occasionnel", "scores": { "equilibre": 3 } },
+      { "label": "Ça ne me dérange pas du tout", "scores": { "nature": 3 } }
+    ]
+  },
+  {
+    "id": "4",
+    "question": "Tu passes une journée sans voir personne…",
+    "answers": [
+      { "label": "Ça me pèse vite", "scores": { "ville": 3 } },
+      { "label": "Ça dépend du moment", "scores": { "equilibre": 3 } },
+      { "label": "Ça me fait du bien", "scores": { "nature": 3 } }
+    ]
+  },
+  {
+    "id": "5",
+    "question": "Tu entends des voitures, sirènes, bruit constant…",
+    "answers": [
+      { "label": "C’est normal pour moi", "scores": { "ville": 3 } },
+      { "label": "Je tolère mais pas tout le temps", "scores": { "equilibre": 3 } },
+      { "label": "Ça m’épuise rapidement", "scores": { "nature": 3 } }
+    ]
+  },
+  {
+    "id": "6",
+    "question": "Ton dimanche idéal…",
+    "answers": [
+      { "label": "Brunch + balade en ville", "scores": { "ville": 3 } },
+      { "label": "Un peu des deux", "scores": { "equilibre": 3 } },
+      { "label": "Nature, silence, extérieur", "scores": { "nature": 3 } }
+    ]
+  },
+  {
+    "id": "7",
+    "question": "Tu dois prendre les transports bondés…",
+    "answers": [
+      { "label": "Je gère", "scores": { "ville": 3 } },
+      { "label": "Ça dépend de mon mood", "scores": { "equilibre": 3 } },
+      { "label": "Je déteste ça", "scores": { "nature": 3 } }
+    ]
+  },
+  {
+    "id": "8",
+    "question": "Tu regardes par la fenêtre chez toi…",
+    "answers": [
+      { "label": "J’aime voir du mouvement", "scores": { "ville": 3 } },
+      { "label": "Peu importe", "scores": { "equilibre": 3 } },
+      { "label": "Je veux du calme / de la verdure", "scores": { "nature": 3 } }
+    ]
+  },
+  {
+    "id": "9",
+    "question": "Tu dois choisir entre deux logements…",
+    "answers": [
+      { "label": "Petit mais en plein centre", "scores": { "ville": 3 } },
+      { "label": "Moyen, bien situé", "scores": { "equilibre": 3 } },
+      { "label": "Grand mais isolé", "scores": { "nature": 3 } }
+    ]
+  },
+  {
+    "id": "10",
+    "question": "Après une journée chargée…",
+    "answers": [
+      { "label": "J’ai encore envie de voir du monde", "scores": { "ville": 3 } },
+      { "label": "Je fais selon mon énergie", "scores": { "equilibre": 3 } },
+      { "label": "Je veux juste du silence", "scores": { "nature": 3 } }
+    ]
+  }
+]
+}

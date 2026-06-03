@@ -1,0 +1,114 @@
+{
+  "slug": "chrono-quiz-reflexes",
+  "title": "Chrono Quiz - Réflexes - Réponds avant même d’hésiter",
+  "description": "Réponds le plus vite possible à une série de questions rapides et pièges avant la fin du chrono.",
+  "descriptionSeo": "Teste ta vitesse de réflexion avec ce Chrono Quiz Réflexes où chaque seconde compte. Questions rapides, pièges visuels, logique simple et culture générale s’enchaînent dans un défi ultra dynamique. Réponds avant même d’hésiter pour battre ton record et entraîner tes réflexes mentaux. Un mini-jeu rapide et addictif parfait pour améliorer sa concentration et sa rapidité de décision sur mobile, tablette ou ordinateur.",
+  "type": "chrono-quiz",
+  "category": {
+    "name": "Logique",
+    "slug": "logique"
+  },
+  "createdAt": "2026-05-21",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1779367417/fast_jow5s3.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1779367417/fast_jow5s3.jpg",
+    "alt": "Chrono Quiz Réflexes"
+  },
+  "data": {
+    "durationSeconds": 30,
+    "items": [
+      {
+        "id": "chrono-1",
+        "question": "Combien font 5 + 7 ?",
+        "answers": ["10", "12", "13", "14"],
+        "correctIndex": 1
+      },
+      {
+        "id": "chrono-2",
+        "question": "Quelle couleur obtient-on en mélangeant bleu et jaune ?",
+        "answers": ["Vert", "Orange", "Rouge", "Violet"],
+        "correctIndex": 0
+      },
+      {
+        "id": "chrono-3",
+        "question": "Quel mois vient juste après juin ?",
+        "answers": ["Août", "Mai", "Juillet", "Septembre"],
+        "correctIndex": 2
+      },
+      {
+        "id": "chrono-4",
+        "question": "Combien de jours y a-t-il dans une semaine ?",
+        "answers": ["5", "6", "8", "7"],
+        "correctIndex": 3
+      },
+      {
+        "id": "chrono-5",
+        "question": "Quel animal dit “miaou” ?",
+        "answers": ["Chat", "Chien", "Vache", "Cheval"],
+        "correctIndex": 0
+      },
+      {
+        "id": "chrono-6",
+        "question": "Quelle est la première lettre de l’alphabet ?",
+        "answers": ["B", "C", "A", "D"],
+        "correctIndex": 2
+      },
+      {
+        "id": "chrono-7",
+        "question": "Combien font 9 - 3 ?",
+        "answers": ["5", "7", "8", "6"],
+        "correctIndex": 3
+      },
+      {
+        "id": "chrono-8",
+        "question": "Quel est l’opposé de “chaud” ?",
+        "answers": ["Grand", "Rapide", "Froid", "Lourd"],
+        "correctIndex": 2
+      },
+      {
+        "id": "chrono-9",
+        "question": "Quel fruit est jaune ?",
+        "answers": ["Banane", "Fraise", "Cerise", "Framboise"],
+        "correctIndex": 0
+      },
+      {
+        "id": "chrono-10",
+        "question": "Combien font 3 × 4 ?",
+        "answers": ["7", "10", "12", "14"],
+        "correctIndex": 2
+      },
+      {
+        "id": "chrono-11",
+        "question": "Quelle planète est la plus proche du Soleil ?",
+        "answers": ["Mars", "Mercure", "Vénus", "Jupiter"],
+        "correctIndex": 1
+      },
+      {
+        "id": "chrono-12",
+        "question": "Quel est le contraire de “monter” ?",
+        "answers": ["Avancer", "Descendre", "Courir", "Tourner"],
+        "correctIndex": 1
+      },
+      {
+        "id": "chrono-13",
+        "question": "Combien y a-t-il de minutes dans une heure ?",
+        "answers": ["30", "45", "90", "60"],
+        "correctIndex": 3
+      },
+      {
+        "id": "chrono-14",
+        "question": "Quel animal peut voler ?",
+        "answers": ["Poisson", "Oiseau", "Tigre", "Éléphant"],
+        "correctIndex": 1
+      },
+      {
+        "id": "chrono-15",
+        "question": "Quelle saison vient après le printemps ?",
+        "answers": ["Automne", "Été", "Hiver", "Saison des pluies"],
+        "correctIndex": 1
+      }
+    ]
+  }
+}

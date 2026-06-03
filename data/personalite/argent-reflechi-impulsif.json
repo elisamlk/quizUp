@@ -1,0 +1,130 @@
+{
+  "slug": "test-depenses-reflechi-ou-impulsif",
+  "title": "Test argent - Tes dépenses disent si tu es réfléchi(e)… ou impulsif(ve)",
+  "description": "Tes réflexes d’achat révèlent-ils un vrai contrôle ou de l’impulsion ?",
+  "descriptionSeo": "Scroll tardif, paiements rapides, notifications, paniers abandonnés… ce test analyse tes micro-comportements d’achat pour révéler si tu es réfléchi(e) ou impulsif(ve) sans t’en rendre compte.",
+  "category": {
+    "name": "Argent",
+    "slug": "argent"
+  },
+  "createdAt": "2026-04-27",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777670056/cover_dxq52b.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777670056/cover_dxq52b.jpg",
+    "alt": "Test dépenses impulsives ou réfléchies"
+  },
+  "profiles": [
+    {
+      "key": "reflechi",
+      "title": "Plutôt réfléchi(e)",
+      "description": "Tu as des réflexes d’achat très posés. Même dans des situations rapides ou tentantes, tu gardes une distance. Tu laisses passer l’impulsion, tu reviens plus tard, et souvent… tu n’achètes même plus. Tu ne te bases pas sur l’émotion du moment mais sur l’utilité réelle. Ce fonctionnement te permet d’éviter les dépenses inutiles sans te frustrer.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777581576/money-tension_fhwqma.jpg"
+    },
+    {
+      "key": "equilibre",
+      "title": "Entre contrôle et impulsion",
+      "description": "Tu oscilles entre réflexion et spontanéité. Certains contextes te rendent très rationnel(le), d’autres te font craquer plus facilement. Tu peux laisser passer une envie… ou cliquer sans trop réfléchir. Ton comportement dépend beaucoup du moment, de ton humeur ou de la situation.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777577299/careful_wjsw89.jpg"
+    },
+    {
+      "key": "impulsif",
+      "title": "Plutôt impulsif(ve)",
+      "description": "Tes décisions d’achat sont souvent immédiates. Tu réagis vite aux envies, aux notifications ou aux opportunités. L’acte d’achat est rapide, parfois presque automatique. Tu réfléchis souvent après, pas avant. Cette spontanéité peut être agréable, mais elle te fait aussi accumuler des dépenses que tu n’avais pas vraiment prévues.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777577452/spender_gkgxmq.jpg"
+    }
+  ],
+  "questions": [
+    {
+      "id": "1",
+      "question": "Il est 23h, tu scrolles et vois un produit qui te plaît…",
+      "answers": [
+        { "label": "Je ferme et j’y repense le lendemain", "scores": { "reflechi": 3 } },
+        { "label": "Je le garde en tête sans acheter", "scores": { "equilibre": 3 } },
+        { "label": "Je clique et j’achète directement", "scores": { "impulsif": 3 } }
+      ]
+    },
+    {
+      "id": "2",
+      "question": "Tu reçois une notif “plus que 2 en stock”…",
+      "answers": [
+        { "label": "Ça ne change rien pour moi", "scores": { "reflechi": 3 } },
+        { "label": "Ça me fait hésiter", "scores": { "equilibre": 3 } },
+        { "label": "Ça me pousse à acheter vite", "scores": { "impulsif": 3 } }
+      ]
+    },
+    {
+      "id": "3",
+      "question": "Tu utilises Apple Pay / sans contact plusieurs fois d’affilée…",
+      "answers": [
+        { "label": "Je reste conscient(e) de chaque paiement", "scores": { "reflechi": 3 } },
+        { "label": "Je réalise après coup", "scores": { "equilibre": 3 } },
+        { "label": "Je ne pense même plus aux montants", "scores": { "impulsif": 3 } }
+      ]
+    },
+    {
+      "id": "4",
+      "question": "Tu ajoutes un produit à ton panier puis tu quittes le site…",
+      "answers": [
+        { "label": "Je n’y retourne presque jamais", "scores": { "reflechi": 3 } },
+        { "label": "Ça dépend des cas", "scores": { "equilibre": 3 } },
+        { "label": "Je reviens souvent pour finaliser", "scores": { "impulsif": 3 } }
+      ]
+    },
+    {
+      "id": "5",
+      "question": "Tu vois un produit sponsorisé qui correspond exactement à toi…",
+      "answers": [
+        { "label": "Je reste méfiant(e)", "scores": { "reflechi": 3 } },
+        { "label": "Je clique par curiosité", "scores": { "equilibre": 3 } },
+        { "label": "Je me laisse facilement convaincre", "scores": { "impulsif": 3 } }
+      ]
+    },
+    {
+      "id": "6",
+      "question": "Tu achètes quelque chose et reçois un email “vous pourriez aussi aimer”…",
+      "answers": [
+        { "label": "Je n’y fais pas attention", "scores": { "reflechi": 3 } },
+        { "label": "Je regarde sans forcément acheter", "scores": { "equilibre": 3 } },
+        { "label": "Je rajoute souvent un autre produit", "scores": { "impulsif": 3 } }
+      ]
+    },
+    {
+      "id": "7",
+      "question": "Tu vois un prix barré -40%…",
+      "answers": [
+        { "label": "Je vérifie si j’en ai besoin", "scores": { "reflechi": 3 } },
+        { "label": "Je me laisse tenter parfois", "scores": { "equilibre": 3 } },
+        { "label": "Je saute sur l’occasion", "scores": { "impulsif": 3 } }
+      ]
+    },
+    {
+      "id": "8",
+      "question": "Tu ajoutes un article puis les frais de livraison apparaissent…",
+      "answers": [
+        { "label": "Je ferme la page", "scores": { "reflechi": 3 } },
+        { "label": "J’hésite encore", "scores": { "equilibre": 3 } },
+        { "label": "Je valide quand même", "scores": { "impulsif": 3 } }
+      ]
+    },
+    {
+      "id": "9",
+      "question": "Tu fais un achat et vois ton compte juste après…",
+      "answers": [
+        { "label": "Je reste neutre, c’était prévu", "scores": { "reflechi": 3 } },
+        { "label": "Je me dis “bon, ça va”", "scores": { "equilibre": 3 } },
+        { "label": "Je réalise un peu après coup", "scores": { "impulsif": 3 } }
+      ]
+    },
+    {
+      "id": "10",
+      "question": "Une envie d’achat apparaît sans raison particulière…",
+      "answers": [
+        { "label": "Je l’ignore facilement", "scores": { "reflechi": 3 } },
+        { "label": "Je la garde en tête", "scores": { "equilibre": 3 } },
+        { "label": "Je cherche directement quoi acheter", "scores": { "impulsif": 3 } }
+      ]
+    }
+  ]
+}

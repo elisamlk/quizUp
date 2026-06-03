@@ -1,0 +1,160 @@
+{
+  "slug": "quiz-sciences-forces-mouvements-niveau-college",
+  "title": "Quiz Sciences - Forces et mouvements - Niveau collège",
+  "description": "Quiz éducatif sur les forces et mouvements avec 20 questions clés.",
+  "descriptionSeo": "Ce quiz de sciences niveau collège propose 20 questions sur les forces et les mouvements. Vitesse, trajectoire, accélération, poids, gravité, frottements et interactions : révise les notions essentielles pour comprendre comment les objets se déplacent et réagissent aux forces. Idéal pour consolider ses bases en physique, ce quiz pédagogique et accessible permet de mieux maîtriser les concepts clés et de progresser efficacement.",
+  "category": {
+    "name": "Sciences",
+    "slug": "sciences"
+  },
+  "createdAt": "2026-05-05",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777979197/sciences-college_z6xlnf.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777979197/sciences-college_z6xlnf.jpg",
+    "alt": "Quiz forces et mouvements niveau collège"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "question": "Comment appelle-t-on le chemin suivi par un objet en mouvement ?",
+      "answers": ["La trajectoire", "La masse", "La pression", "La résistance"],
+      "correctIndex": 0,
+      "explanation": "La trajectoire correspond à l’ensemble des positions occupées par un objet au cours de son mouvement. Elle peut être droite, courbe ou circulaire."
+    },
+    {
+      "id": "2",
+      "question": "Quel mouvement décrit un objet qui avance en ligne droite ?",
+      "answers": ["Un mouvement circulaire", "Un mouvement rectiligne", "Un mouvement aléatoire", "Un mouvement oscillant"],
+      "correctIndex": 1,
+      "explanation": "Un mouvement rectiligne se fait selon une ligne droite. Par exemple, une voiture roulant sur une route parfaitement droite suit un mouvement rectiligne."
+    },
+    {
+      "id": "3",
+      "question": "Que signifie dire qu’un objet est immobile ?",
+      "answers": ["Il change de direction", "Il accélère", "Sa position ne change pas par rapport à un repère", "Il est toujours sans force"],
+      "correctIndex": 2,
+      "explanation": "Un objet est immobile seulement par rapport à un repère choisi. Un passager assis est immobile par rapport au bus, mais en mouvement par rapport à la route."
+    },
+    {
+      "id": "4",
+      "question": "Quelle grandeur indique si un objet se déplace rapidement ou lentement ?",
+      "answers": ["La masse", "Le volume", "La température", "La vitesse"],
+      "correctIndex": 3,
+      "explanation": "La vitesse indique la distance parcourue pendant une durée donnée. Plus un objet parcourt une grande distance en peu de temps, plus sa vitesse est élevée."
+    },
+    {
+      "id": "5",
+      "question": "Quelle formule permet de calculer une vitesse moyenne ?",
+      "answers": ["Vitesse = distance ÷ temps", "Vitesse = masse × volume", "Vitesse = force ÷ surface", "Vitesse = énergie × temps"],
+      "correctIndex": 0,
+      "explanation": "La vitesse moyenne se calcule en divisant la distance parcourue par la durée du déplacement. Il faut toujours utiliser des unités cohérentes."
+    },
+    {
+      "id": "6",
+      "question": "Qu’est-ce qu’une force peut faire à un objet ?",
+      "answers": ["Changer sa couleur uniquement", "Modifier son mouvement ou le déformer", "Supprimer sa masse", "Créer de la matière"],
+      "correctIndex": 1,
+      "explanation": "Une force peut mettre un objet en mouvement, le ralentir, changer sa direction ou le déformer. Par exemple, tirer sur un ressort le déforme."
+    },
+    {
+      "id": "7",
+      "question": "Quelle unité mesure une force dans le système international ?",
+      "answers": ["Le joule", "Le watt", "Le newton", "Le volt"],
+      "correctIndex": 2,
+      "explanation": "Une force se mesure en newtons, notés N. Cette unité porte le nom d’Isaac Newton, connu pour ses travaux sur le mouvement et la gravitation."
+    },
+    {
+      "id": "8",
+      "question": "Comment représente-t-on souvent une force sur un schéma ?",
+      "answers": ["Par un cercle", "Par une couleur", "Par une formule uniquement", "Par une flèche"],
+      "correctIndex": 3,
+      "explanation": "Une force est représentée par une flèche qui indique son point d’application, sa direction, son sens et parfois son intensité."
+    },
+    {
+      "id": "9",
+      "question": "Quelle force s’oppose généralement au mouvement entre deux surfaces en contact ?",
+      "answers": ["Les frottements", "La poussée", "La tension", "La luminosité"],
+      "correctIndex": 0,
+      "explanation": "Les frottements s’opposent souvent au mouvement. Ils expliquent par exemple pourquoi un objet lancé sur le sol finit par ralentir."
+    },
+    {
+      "id": "10",
+      "question": "Qu’est-ce que le poids d’un objet ?",
+      "answers": ["Sa quantité de matière", "La force d’attraction exercée par un astre", "Son volume", "Sa température"],
+      "correctIndex": 1,
+      "explanation": "Le poids est une force due à l’attraction gravitationnelle d’un astre. Sur Terre, il attire les objets vers le centre de la planète."
+    },
+    {
+      "id": "11",
+      "question": "Quelle est l’unité de la masse ?",
+      "answers": ["Le newton", "Le mètre", "Le kilogramme", "La seconde"],
+      "correctIndex": 2,
+      "explanation": "La masse se mesure en kilogrammes. Contrairement au poids, elle ne dépend pas du lieu : un objet garde la même masse sur Terre et sur la Lune."
+    },
+    {
+      "id": "12",
+      "question": "Pourquoi le poids d’un objet est-il plus faible sur la Lune que sur Terre ?",
+      "answers": ["Parce que sa masse disparaît", "Parce qu’il n’y a aucune matière", "Parce qu’il devient plus petit", "Parce que la gravité lunaire est plus faible"],
+      "correctIndex": 3,
+      "explanation": "Le poids dépend de la gravité. Comme la Lune attire moins fortement les objets que la Terre, le poids y est plus faible, même si la masse reste identique."
+    },
+    {
+      "id": "13",
+      "question": "Que signifie accélérer en physique ?",
+      "answers": ["Changer de vitesse", "Rester immobile", "Avoir une masse plus grande", "Suivre toujours une ligne droite"],
+      "correctIndex": 0,
+      "explanation": "Accélérer signifie que la vitesse change. Cela peut vouloir dire aller plus vite, ralentir ou changer de direction."
+    },
+    {
+      "id": "14",
+      "question": "Quel objet est en mouvement circulaire ?",
+      "answers": ["Une règle posée sur une table", "Une roue qui tourne", "Un livre fermé", "Une lampe éteinte"],
+      "correctIndex": 1,
+      "explanation": "Un mouvement circulaire suit une trajectoire en cercle. Une roue, une aiguille d’horloge ou une grande roue en sont des exemples."
+    },
+    {
+      "id": "15",
+      "question": "Quand dit-on qu’un mouvement est uniforme ?",
+      "answers": ["Quand l’objet change de forme", "Quand l’objet tombe", "Quand la vitesse reste constante", "Quand la masse augmente"],
+      "correctIndex": 2,
+      "explanation": "Un mouvement est uniforme lorsque la vitesse ne change pas. L’objet parcourt alors des distances égales pendant des durées égales."
+    },
+    {
+      "id": "16",
+      "question": "Quelle force agit sur un parachutiste pendant sa chute, en plus de son poids ?",
+      "answers": ["La force magnétique", "La force électrique", "La poussée d’Archimède uniquement", "La résistance de l’air"],
+      "correctIndex": 3,
+      "explanation": "L’air exerce une force de résistance qui s’oppose au mouvement du parachutiste. Le parachute augmente cette résistance et ralentit la chute."
+    },
+    {
+      "id": "17",
+      "question": "Que se passe-t-il si les forces qui agissent sur un objet se compensent ?",
+      "answers": ["Son mouvement ne change pas", "Il explose", "Sa masse devient nulle", "Il disparaît"],
+      "correctIndex": 0,
+      "explanation": "Si les forces se compensent, l’objet reste au repos ou continue son mouvement rectiligne uniforme. Son état de mouvement ne change pas."
+    },
+    {
+      "id": "18",
+      "question": "Quel instrument peut mesurer une force ?",
+      "answers": ["Un thermomètre", "Un dynamomètre", "Un chronomètre", "Une éprouvette"],
+      "correctIndex": 1,
+      "explanation": "Le dynamomètre mesure une force grâce à la déformation d’un ressort. Il donne généralement une valeur en newtons."
+    },
+    {
+      "id": "19",
+      "question": "Quelle information donne le sens d’une force ?",
+      "answers": ["Le point où la force s’applique", "La valeur de la force", "Vers où la force agit", "La matière de l’objet"],
+      "correctIndex": 2,
+      "explanation": "Le sens indique de quel côté la force agit sur sa direction. Par exemple, une force verticale peut être orientée vers le haut ou vers le bas."
+    },
+    {
+      "id": "20",
+      "question": "Pourquoi une ceinture de sécurité est-elle utile lors d’un freinage brusque ?",
+      "answers": ["Elle augmente la vitesse", "Elle supprime la gravité", "Elle rend la voiture plus légère", "Elle retient le passager qui tend à continuer son mouvement"],
+      "correctIndex": 3,
+      "explanation": "Lors d’un freinage, le corps du passager tend à continuer son mouvement vers l’avant par inertie. La ceinture exerce une force qui le retient."
+    }
+  ]
+}

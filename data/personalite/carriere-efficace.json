@@ -1,0 +1,140 @@
+{
+  "slug": "test-travail-es-tu-efficace",
+  "title": "Test travail - Es-tu efficace ?",
+  "description": "Analyse ton efficacité au travail et ta manière de gérer ton temps et tes priorités.",
+  "descriptionSeo": "Analyse ton niveau d’efficacité au travail à travers ta gestion du temps, ton organisation et ta capacité à rester concentré. Ce test explore ta manière de prioriser, de gérer les distractions et d’avancer sur tes tâches. Découvre si tu es réellement productif, en progression ou freiné par certaines habitudes. Une approche concrète pour mieux comprendre ton fonctionnement et améliorer ton efficacité au quotidien.",
+  "category": {
+    "name": "Carrière",
+    "slug": "carriere"
+  },
+  "createdAt": "2026-04-20",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776950027/cover_cktzek.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776950027/cover_cktzek.jpg",
+    "alt": "Test travail es tu efficace"
+  },
+  "profiles": [
+    {
+      "key": "efficace",
+      "title": "Très efficace",
+      "description": "Tu es une personne particulièrement efficace dans ton travail. Tu sais organiser ton temps, prioriser les tâches importantes et rester concentré jusqu’au bout. Tu évites les distractions et tu avances de manière structurée. Tu n’as pas besoin de travailler plus longtemps pour produire de meilleurs résultats : tu optimises ton énergie et ton attention. Cette capacité te permet d’être performant sans t’épuiser inutilement. Cependant, ton défi est de ne pas tomber dans une recherche excessive de productivité. Ta force réside dans ta discipline, ta clarté et ta capacité à faire avancer les choses concrètement.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776947197/boss_sirl1g.jpg"
+    },
+    {
+      "key": "progression",
+      "title": "Efficace en progression",
+      "description": "Tu es globalement efficace, mais tu peux encore t’améliorer. Tu sais travailler et avancer, mais certaines habitudes ou distractions peuvent parfois ralentir ton rythme. Tu as des phases très productives, mais aussi des moments moins organisés. Tu es conscient de tes points d’amélioration et tu essaies de progresser. Ton potentiel est réel : avec plus de régularité et une meilleure gestion des priorités, tu peux devenir très performant. Ton défi est de structurer davantage ton travail. Ta force réside dans ta capacité à évoluer et à ajuster ton fonctionnement.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776943774/resilience_pdbr11.jpg"
+    },
+    {
+      "key": "inefficace",
+      "title": "Manque d’efficacité",
+      "description": "Ton efficacité peut être freinée par certaines habitudes. Tu peux avoir du mal à te concentrer, à prioriser ou à rester constant dans ton travail. Les distractions, le manque d’organisation ou la procrastination peuvent impacter tes résultats. Cela ne veut pas dire que tu es incapable d’être efficace, mais que ton système actuel ne fonctionne pas encore bien. Prendre conscience de ces points est déjà une étape importante. Ton défi est de mettre en place des méthodes simples et régulières. Ta force réside dans ton potentiel d’amélioration : avec les bons ajustements, tu peux rapidement gagner en efficacité.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776948575/cover_hzzal3.jpg"
+    }
+  ],
+  "questions": [
+    {
+      "id": "1",
+      "question": "Quand tu commences ta journée de travail…",
+      "answers": [
+        { "label": "Je sais exactement quoi faire", "scores": { "efficace": 3 } },
+        { "label": "J’ai une idée globale", "scores": { "progression": 2 } },
+        { "label": "Je vois au fur et à mesure", "scores": { "inefficace": 3 } },
+        { "label": "Je commence sans plan précis", "scores": { "inefficace": 2, "progression": 1 } }
+      ]
+    },
+    {
+      "id": "2",
+      "question": "Face à plusieurs tâches…",
+      "answers": [
+        { "label": "Je priorise", "scores": { "efficace": 3 } },
+        { "label": "Je fais ce qui me semble urgent", "scores": { "progression": 2 } },
+        { "label": "Je fais ce qui me motive", "scores": { "inefficace": 3 } },
+        { "label": "Je change souvent de tâche", "scores": { "inefficace": 2 } }
+      ]
+    },
+    {
+      "id": "3",
+      "question": "Ton niveau de concentration…",
+      "answers": [
+        { "label": "Élevé", "scores": { "efficace": 3 } },
+        { "label": "Variable", "scores": { "progression": 2 } },
+        { "label": "Faible", "scores": { "inefficace": 3 } },
+        { "label": "Dépend du contexte", "scores": { "progression": 2, "inefficace": 1 } }
+      ]
+    },
+    {
+      "id": "4",
+      "question": "Les distractions…",
+      "answers": [
+        { "label": "Je les limite", "scores": { "efficace": 3 } },
+        { "label": "J’essaie de les gérer", "scores": { "progression": 2 } },
+        { "label": "Elles me ralentissent", "scores": { "inefficace": 3 } },
+        { "label": "J’y cède parfois", "scores": { "progression": 2, "inefficace": 1 } }
+      ]
+    },
+    {
+      "id": "5",
+      "question": "Quand tu travailles…",
+      "answers": [
+        { "label": "Je reste focus", "scores": { "efficace": 3 } },
+        { "label": "Je fais des pauses régulières", "scores": { "progression": 2 } },
+        { "label": "Je me disperse", "scores": { "inefficace": 3 } },
+        { "label": "Je change souvent d’activité", "scores": { "inefficace": 2 } }
+      ]
+    },
+    {
+      "id": "6",
+      "question": "Tu termines tes tâches…",
+      "answers": [
+        { "label": "Toujours", "scores": { "efficace": 3 } },
+        { "label": "Souvent", "scores": { "progression": 2 } },
+        { "label": "Pas toujours", "scores": { "inefficace": 3 } },
+        { "label": "Difficilement", "scores": { "inefficace": 2 } }
+      ]
+    },
+    {
+      "id": "7",
+      "question": "Ton organisation…",
+      "answers": [
+        { "label": "Claire", "scores": { "efficace": 3 } },
+        { "label": "Correcte", "scores": { "progression": 2 } },
+        { "label": "Floue", "scores": { "inefficace": 3 } },
+        { "label": "Variable", "scores": { "progression": 2, "inefficace": 1 } }
+      ]
+    },
+    {
+      "id": "8",
+      "question": "Face à une tâche difficile…",
+      "answers": [
+        { "label": "Je m’y attaque directement", "scores": { "efficace": 3 } },
+        { "label": "Je prends un peu de temps", "scores": { "progression": 2 } },
+        { "label": "Je repousse", "scores": { "inefficace": 3 } },
+        { "label": "J’hésite", "scores": { "inefficace": 2 } }
+      ]
+    },
+    {
+      "id": "9",
+      "question": "Ton rythme de travail…",
+      "answers": [
+        { "label": "Régulier", "scores": { "efficace": 3 } },
+        { "label": "Variable", "scores": { "progression": 2 } },
+        { "label": "Irrégulier", "scores": { "inefficace": 3 } },
+        { "label": "Dépend du moment", "scores": { "progression": 2 } }
+      ]
+    },
+    {
+      "id": "10",
+      "question": "Globalement…",
+      "answers": [
+        { "label": "Je suis productif", "scores": { "efficace": 3 } },
+        { "label": "Je progresse", "scores": { "progression": 2 } },
+        { "label": "Je peux faire mieux", "scores": { "inefficace": 3 } },
+        { "label": "Je manque de méthode", "scores": { "inefficace": 2 } }
+      ]
+    }
+  ]
+}

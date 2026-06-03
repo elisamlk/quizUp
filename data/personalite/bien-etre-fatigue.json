@@ -1,0 +1,130 @@
+{
+  "slug": "test-fatigue-physique-ou-mentale",
+  "title": "Test bien-être - Ta fatigue est-elle physique ou mentale ?",
+  "description": "Ton épuisement vient-il de ton corps ou de ton esprit ?",
+  "descriptionSeo": "Fatigue physique ou mentale ? À travers des situations concrètes du quotidien, ce test t’aide à comprendre l’origine de ton épuisement. Difficulté à te concentrer, corps lourd, surcharge mentale… découvre ce qui impacte réellement ton énergie.",
+  "category": {
+    "name": "Bien-être",
+    "slug": "bien-etre"
+  },
+  "createdAt": "2026-04-27",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777464609/cover_volbba.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777464609/cover_volbba.jpg",
+    "alt": "Test fatigue physique ou mentale"
+  },
+  "profiles": [
+    {
+      "key": "physique",
+      "title": "Fatigue physique",
+      "description": "Ton corps semble être le principal signal d’alerte. Tu ressens une lourdeur, un manque d’énergie physique et parfois une sensation d’épuisement même sans effort intense. Tu peux avoir du mal à te lever, à bouger ou à enchaîner les tâches. Cette fatigue est souvent liée au manque de repos, au stress accumulé ou à un rythme trop soutenu. Ton corps te demande clairement de ralentir et de récupérer.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777464371/fatigue-physique_i7ab4z.jpg"
+    },
+    {
+      "key": "mentale",
+      "title": "Fatigue mentale",
+      "description": "C’est ton esprit qui est saturé. Tu peux te sentir débordé(e), avoir du mal à te concentrer ou à prendre des décisions simples. Ton cerveau tourne en boucle et tu peux ressentir une forme de surcharge mentale. Même sans effort physique, tu te sens épuisé(e). Tu as besoin de déconnecter, de ralentir le flux d’informations et de retrouver du calme mental.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777464308/fatigue-mentale_cl9fr8.jpg"
+    },
+    {
+      "key": "mixte",
+      "title": "Fatigue globale",
+      "description": "Tu ressens à la fois une fatigue physique et mentale. Ton corps est fatigué, mais ton esprit l’est aussi. Tu peux te sentir vidé(e), sans énergie et parfois dépassé(e). Cette fatigue globale peut venir d’un cumul : stress, manque de repos, surcharge mentale… Tu as besoin de ralentir sur tous les plans et de prendre du temps pour récupérer en profondeur.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777464610/mixed_bprzj5.jpg"
+    }
+  ],
+  "questions": [
+    {
+      "id": "1",
+      "question": "Le matin, au réveil…",
+      "answers": [
+        { "label": "Mon corps est lourd, difficile de bouger", "scores": { "physique": 3 } },
+        { "label": "Je pense déjà à tout ce que je dois faire", "scores": { "mentale": 3 } },
+        { "label": "Les deux", "scores": { "mixte": 3 } }
+      ]
+    },
+    {
+      "id": "2",
+      "question": "Tu dois faire une tâche simple…",
+      "answers": [
+        { "label": "Je manque d’énergie physique", "scores": { "physique": 3 } },
+        { "label": "Je n’arrive pas à me concentrer", "scores": { "mentale": 3 } },
+        { "label": "Les deux", "scores": { "mixte": 3 } }
+      ]
+    },
+    {
+      "id": "3",
+      "question": "Après une journée classique…",
+      "answers": [
+        { "label": "Je suis physiquement épuisé(e)", "scores": { "physique": 3 } },
+        { "label": "Mon cerveau est saturé", "scores": { "mentale": 3 } },
+        { "label": "Je suis vidé(e) globalement", "scores": { "mixte": 3 } }
+      ]
+    },
+    {
+      "id": "4",
+      "question": "Tu dois te concentrer…",
+      "answers": [
+        { "label": "Je n’ai pas l’énergie physique", "scores": { "physique": 3 } },
+        { "label": "Mon esprit part dans tous les sens", "scores": { "mentale": 3 } },
+        { "label": "Les deux", "scores": { "mixte": 3 } }
+      ]
+    },
+    {
+      "id": "5",
+      "question": "Même après du repos…",
+      "answers": [
+        { "label": "Je suis encore fatigué(e) physiquement", "scores": { "physique": 3 } },
+        { "label": "Je me sens toujours chargé(e) mentalement", "scores": { "mentale": 3 } },
+        { "label": "Ça ne change pas grand-chose", "scores": { "mixte": 3 } }
+      ]
+    },
+    {
+      "id": "6",
+      "question": "Ton principal ressenti…",
+      "answers": [
+        { "label": "Lourdeur physique", "scores": { "physique": 3 } },
+        { "label": "Surcharge mentale", "scores": { "mentale": 3 } },
+        { "label": "Les deux", "scores": { "mixte": 3 } }
+      ]
+    },
+    {
+      "id": "7",
+      "question": "Quand tu te poses…",
+      "answers": [
+        { "label": "Mon corps reste fatigué", "scores": { "physique": 3 } },
+        { "label": "Mon esprit continue de tourner", "scores": { "mentale": 3 } },
+        { "label": "Impossible de vraiment récupérer", "scores": { "mixte": 3 } }
+      ]
+    },
+    {
+      "id": "8",
+      "question": "Face à une journée chargée…",
+      "answers": [
+        { "label": "Je manque d’énergie physique", "scores": { "physique": 3 } },
+        { "label": "Je me sens débordé(e)", "scores": { "mentale": 3 } },
+        { "label": "Je me sens dépassé(e) globalement", "scores": { "mixte": 3 } }
+      ]
+    },
+    {
+      "id": "9",
+      "question": "Quand tu fais un effort…",
+      "answers": [
+        { "label": "Mon corps lâche vite", "scores": { "physique": 3 } },
+        { "label": "Mon cerveau sature", "scores": { "mentale": 3 } },
+        { "label": "Les deux", "scores": { "mixte": 3 } }
+      ]
+    },
+ {
+  "id": "10",
+  "question": "Quand tu as enfin un moment libre…",
+  "answers": [
+    { "label": "Je m’allonge ou je cherche à me reposer physiquement", "scores": { "physique": 3 } },
+    { "label": "Je prends mon téléphone mais mon esprit ne se calme pas", "scores": { "mentale": 3 } },
+    { "label": "Je n’arrive ni à me reposer ni à déconnecter", "scores": { "mixte": 3 } }
+  ]
+}
+  ]
+}

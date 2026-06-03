@@ -1,0 +1,130 @@
+{
+  "slug": "test-equilibre-mental-stable",
+  "title": "Test bien-être - Ton équilibre mental est-il stable ?",
+  "description": "Ton état mental est-il stable ou facilement perturbé au quotidien ?",
+  "descriptionSeo": "Stress, réactions, émotions, charge mentale… ce test analyse la stabilité de ton équilibre mental à travers des situations concrètes du quotidien. Découvre si ton mental est stable, fluctuant ou fragile.",
+  "category": {
+    "name": "Bien-être",
+    "slug": "bien-etre"
+  },
+  "createdAt": "2026-04-27",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777575105/cover_phye12.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777575105/cover_phye12.jpg",
+    "alt": "Test équilibre mental"
+  },
+  "profiles": [
+    {
+      "key": "stable",
+      "title": "Équilibre stable",
+      "description": "Ton état mental est globalement stable. Tu arrives à garder une certaine constance émotionnelle même face aux imprévus. Tu prends du recul rapidement et tu ne restes pas bloqué(e) dans tes pensées ou tes émotions. Tu peux ressentir du stress, mais il ne t’envahit pas durablement. Tu sais revenir à un état de calme assez naturellement. Cette stabilité te permet d’avancer avec plus de clarté et de régularité dans ton quotidien.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777466236/apaise_srcy3y.jpg"
+    },
+    {
+      "key": "fluctuant",
+      "title": "Équilibre fluctuant",
+      "description": "Ton équilibre mental varie selon les situations et les périodes. Tu peux être très bien un jour, puis plus stressé(e) ou perturbé(e) le lendemain. Tu es sensible à ton environnement, à ta fatigue ou à ce que tu vis. Tu n’es pas constamment en difficulté, mais ton état intérieur peut changer rapidement. Tu pourrais gagner en stabilité en identifiant ce qui influence ces variations.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777464610/mixed_bprzj5.jpg"
+    },
+    {
+      "key": "fragile",
+      "title": "Équilibre fragile",
+      "description": "Ton équilibre mental semble fragile en ce moment. Tu peux te sentir rapidement submergé(e), stressé(e) ou affecté(e) par les situations du quotidien. Les pensées restent, les émotions durent, et il peut être difficile de retrouver un état de calme. Tu accumules peut-être de la pression ou de la fatigue mentale. Ton esprit a besoin de ralentir, de souffler et de retrouver de la stabilité progressivement.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777466236/sature_kgvimh.jpg"
+    }
+  ],
+  "questions": [
+    {
+      "id": "1",
+      "question": "Tu reçois un message stressant, tu ne peux pas répondre tout de suite…",
+      "answers": [
+        { "label": "Je l’oublie en attendant", "scores": { "stable": 3 } },
+        { "label": "J’y pense de temps en temps", "scores": { "fluctuant": 3 } },
+        { "label": "Je ne pense qu’à ça", "scores": { "fragile": 3 } }
+      ]
+    },
+    {
+      "id": "2",
+      "question": "Tu fais une erreur devant quelqu’un…",
+      "answers": [
+        { "label": "Je passe vite à autre chose", "scores": { "stable": 3 } },
+        { "label": "J’y repense un moment", "scores": { "fluctuant": 3 } },
+        { "label": "Je repense à la scène encore longtemps", "scores": { "fragile": 3 } }
+      ]
+    },
+    {
+      "id": "3",
+      "question": "Le soir, tu repenses à ta journée…",
+      "answers": [
+        { "label": "Je lâche facilement prise", "scores": { "stable": 3 } },
+        { "label": "Je repense à quelques moments", "scores": { "fluctuant": 3 } },
+        { "label": "Je rejoue plein de scènes dans ma tête", "scores": { "fragile": 3 } }
+      ]
+    },
+    {
+      "id": "4",
+      "question": "Quelqu’un change un plan au dernier moment…",
+      "answers": [
+        { "label": "Je m’adapte facilement", "scores": { "stable": 3 } },
+        { "label": "Ça me perturbe un peu", "scores": { "fluctuant": 3 } },
+        { "label": "Ça me met vraiment mal", "scores": { "fragile": 3 } }
+      ]
+    },
+    {
+      "id": "5",
+      "question": "Tu dois attendre une réponse importante…",
+      "answers": [
+        { "label": "Je passe à autre chose", "scores": { "stable": 3 } },
+        { "label": "J’y pense régulièrement", "scores": { "fluctuant": 3 } },
+        { "label": "Je suis obsédé(e) par ça", "scores": { "fragile": 3 } }
+      ]
+    },
+    {
+      "id": "6",
+      "question": "Tu es fatigué(e) mentalement mais tu dois continuer…",
+      "answers": [
+        { "label": "Je gère sans trop me disperser", "scores": { "stable": 3 } },
+        { "label": "Je perds un peu en efficacité", "scores": { "fluctuant": 3 } },
+        { "label": "Je me sens dépassé(e)", "scores": { "fragile": 3 } }
+      ]
+    },
+    {
+      "id": "7",
+      "question": "Tu es seul(e) sans distraction…",
+      "answers": [
+        { "label": "Je suis tranquille", "scores": { "stable": 3 } },
+        { "label": "Je pense à pas mal de choses", "scores": { "fluctuant": 3 } },
+        { "label": "Mon esprit s’emballe", "scores": { "fragile": 3 } }
+      ]
+    },
+    {
+      "id": "8",
+      "question": "Une petite critique te revient en tête plus tard…",
+      "answers": [
+        { "label": "Je n’y repense pas", "scores": { "stable": 3 } },
+        { "label": "Ça me revient parfois", "scores": { "fluctuant": 3 } },
+        { "label": "Je la repasse encore et encore", "scores": { "fragile": 3 } }
+      ]
+    },
+    {
+      "id": "9",
+      "question": "Tu dois prendre une décision importante rapidement…",
+      "answers": [
+        { "label": "Je décide sans trop stresser", "scores": { "stable": 3 } },
+        { "label": "J’hésite mais j’avance", "scores": { "fluctuant": 3 } },
+        { "label": "Je bloque ou je panique", "scores": { "fragile": 3 } }
+      ]
+    },
+    {
+      "id": "10",
+      "question": "Juste avant de dormir, sans écran…",
+      "answers": [
+        { "label": "Mon esprit se calme vite", "scores": { "stable": 3 } },
+        { "label": "Je pense encore un peu", "scores": { "fluctuant": 3 } },
+        { "label": "Je rumine longtemps", "scores": { "fragile": 3 } }
+      ]
+    }
+  ]
+}

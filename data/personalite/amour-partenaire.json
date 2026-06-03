@@ -1,0 +1,162 @@
+{
+  "slug": "test-amour-quel-type-de-partenaire-es-tu-vraiment",
+  "title": "Test amour - Quel type de partenaire es-tu vraiment ?",
+  "description": "Analyse ton comportement en couple et la manière dont tu vis tes relations.",
+  "descriptionSeo": "Analyse ton comportement amoureux et ta manière de vivre une relation à travers ce test de personnalité. À partir de situations concrètes, identifie si tu es plutôt un partenaire engagé, indépendant, passionné, protecteur ou en recherche d’équilibre. Une approche réaliste pour mieux comprendre tes réactions, ton rapport à l’amour et la façon dont tu construis tes relations au quotidien.",
+  "category": {
+    "name": "Amour",
+    "slug": "amour"
+  },
+  "createdAt": "2026-04-20",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776950377/cover_telwzm.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776950377/cover_telwzm.jpg",
+    "alt": "Test amour type de partenaire"
+  },
+  "profiles": [
+    {
+      "key": "engage",
+      "title": "Le Partenaire Engagé",
+      "description": "Tu es une personne investie et fiable en amour. Quand tu t’engages, ce n’est pas à moitié. Tu accordes de l’importance à la stabilité, à la confiance et à la construction sur le long terme. Tu es présent, attentif et prêt à faire des efforts pour que la relation fonctionne. Tu privilégies la communication et la sincérité. Cependant, tu peux parfois avoir peur de perdre la relation ou en faire trop. Ton défi est de garder ton équilibre personnel. Ta force réside dans ta capacité à construire quelque chose de solide et durable.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776950777/engage_csyexh.jpg"
+    },
+    {
+      "key": "independant",
+      "title": "Le Partenaire Indépendant",
+      "description": "Tu tiens à ton espace et à ta liberté, même en couple. Tu n’as pas besoin d’être constamment avec l’autre pour te sentir bien. Tu apprécies les relations où chacun garde son identité. Tu es souvent honnête, direct et cohérent dans tes choix. Tu refuses les relations étouffantes ou trop dépendantes. Cependant, tu peux parfois paraître distant ou difficile à cerner. Ton défi est de trouver le bon équilibre entre liberté et connexion. Ta force réside dans ton autonomie et ta capacité à rester fidèle à toi-même.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776950438/alone_r3bx4q.jpg"
+    },
+    {
+      "key": "passionne",
+      "title": "Le Partenaire Passionné",
+      "description": "Tu vis tes relations avec intensité. Tu ressens les émotions fortement et tu t’investis pleinement dans ce que tu vis. Tu es expressif, spontané et tu aimes créer des moments forts. Tu apportes de l’énergie et de la profondeur dans tes relations. Cependant, cette intensité peut parfois te rendre impulsif ou instable. Tu peux passer par des hauts et des bas émotionnels. Ton défi est de stabiliser cette énergie. Ta force réside dans ta capacité à aimer intensément et à faire vibrer une relation.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776950614/passionate_ztwvio.jpg"
+    },
+    {
+      "key": "protecteur",
+      "title": "Le Partenaire Protecteur",
+      "description": "Tu es quelqu’un de rassurant et de présent. Tu aimes prendre soin de ton partenaire et créer un cadre sécurisant. Tu es attentif, loyal et tu fais en sorte que l’autre se sente bien. Tu as tendance à anticiper les besoins et à être très impliqué. Cependant, tu peux parfois être trop protecteur ou vouloir trop contrôler certaines situations. Ton défi est de laisser plus d’espace à l’autre. Ta force réside dans ta capacité à créer une relation stable et sécurisante.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776950547/protective_yljsnm.jpg"
+    },
+    {
+      "key": "equilibre",
+      "title": "Le Partenaire Équilibré",
+      "description": "Tu cherches avant tout une relation saine et équilibrée. Tu sais donner sans t’oublier et recevoir sans dépendre. Tu es capable de t’adapter, de communiquer et de trouver des compromis. Tu n’es ni dans l’excès ni dans le retrait, ce qui rend tes relations généralement stables. Tu comprends l’importance du respect, de l’espace et du lien. Cependant, tu peux parfois hésiter ou manquer de prise de position. Ton défi est d’affirmer davantage tes besoins. Ta force réside dans ta capacité à construire des relations harmonieuses et durables.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776778847/balanced_e70dki.jpg"
+    }
+  ],
+  "questions": [
+    {
+      "id": "1",
+      "question": "Dans une relation, ce qui compte le plus pour toi…",
+      "answers": [
+        { "label": "La stabilité", "scores": { "engage": 3 } },
+        { "label": "La liberté", "scores": { "independant": 3 } },
+        { "label": "L’intensité", "scores": { "passionne": 3 } },
+        { "label": "La sécurité", "scores": { "protecteur": 3 } },
+        { "label": "L’équilibre", "scores": { "equilibre": 3 } }
+      ]
+    },
+    {
+      "id": "2",
+      "question": "Quand tu es en couple…",
+      "answers": [
+        { "label": "Je m’investis beaucoup", "scores": { "engage": 3 } },
+        { "label": "Je garde mon espace", "scores": { "independant": 3 } },
+        { "label": "Je vis tout intensément", "scores": { "passionne": 3 } },
+        { "label": "Je prends soin de l’autre", "scores": { "protecteur": 3 } },
+        { "label": "Je cherche l’équilibre", "scores": { "equilibre": 3 } }
+      ]
+    },
+    {
+      "id": "3",
+      "question": "Face à un conflit…",
+      "answers": [
+        { "label": "Je veux régler rapidement", "scores": { "engage": 3 } },
+        { "label": "Je prends du recul", "scores": { "independant": 3 } },
+        { "label": "Je réagis émotionnellement", "scores": { "passionne": 3 } },
+        { "label": "Je cherche à apaiser", "scores": { "protecteur": 3 } },
+        { "label": "Je discute calmement", "scores": { "equilibre": 3 } }
+      ]
+    },
+    {
+      "id": "4",
+      "question": "Ton comportement amoureux…",
+      "answers": [
+        { "label": "Stable", "scores": { "engage": 3 } },
+        { "label": "Libre", "scores": { "independant": 3 } },
+        { "label": "Intense", "scores": { "passionne": 3 } },
+        { "label": "Protecteur", "scores": { "protecteur": 3 } },
+        { "label": "Équilibré", "scores": { "equilibre": 3 } }
+      ]
+    },
+    {
+      "id": "5",
+      "question": "Tu te décrirais comme…",
+      "answers": [
+        { "label": "Fiable", "scores": { "engage": 3 } },
+        { "label": "Autonome", "scores": { "independant": 3 } },
+        { "label": "Passionné", "scores": { "passionne": 3 } },
+        { "label": "Attentionné", "scores": { "protecteur": 3 } },
+        { "label": "Posé", "scores": { "equilibre": 3 } }
+      ]
+    },
+    {
+      "id": "6",
+      "question": "Dans une relation idéale…",
+      "answers": [
+        { "label": "On construit ensemble", "scores": { "engage": 3 } },
+        { "label": "On reste libre", "scores": { "independant": 3 } },
+        { "label": "On vit intensément", "scores": { "passionne": 3 } },
+        { "label": "On se protège", "scores": { "protecteur": 3 } },
+        { "label": "On trouve un équilibre", "scores": { "equilibre": 3 } }
+      ]
+    },
+    {
+      "id": "7",
+      "question": "Ce qui te fait peur en amour…",
+      "answers": [
+        { "label": "Perdre la relation", "scores": { "engage": 3 } },
+        { "label": "Perdre ma liberté", "scores": { "independant": 3 } },
+        { "label": "Perdre l’intensité", "scores": { "passionne": 3 } },
+        { "label": "Que l’autre souffre", "scores": { "protecteur": 3 } },
+        { "label": "Perdre l’équilibre", "scores": { "equilibre": 3 } }
+      ]
+    },
+    {
+      "id": "8",
+      "question": "Ton rapport à l’autre…",
+      "answers": [
+        { "label": "Fusionnel", "scores": { "engage": 3 } },
+        { "label": "Indépendant", "scores": { "independant": 3 } },
+        { "label": "Intense", "scores": { "passionne": 3 } },
+        { "label": "Protecteur", "scores": { "protecteur": 3 } },
+        { "label": "Équilibré", "scores": { "equilibre": 3 } }
+      ]
+    },
+    {
+      "id": "9",
+      "question": "Quand tu aimes…",
+      "answers": [
+        { "label": "Je m’engage pleinement", "scores": { "engage": 3 } },
+        { "label": "Je reste moi-même", "scores": { "independant": 3 } },
+        { "label": "Je vis à fond", "scores": { "passionne": 3 } },
+        { "label": "Je protège", "scores": { "protecteur": 3 } },
+        { "label": "Je m’adapte", "scores": { "equilibre": 3 } }
+      ]
+    },
+    {
+      "id": "10",
+      "question": "Globalement…",
+      "answers": [
+        { "label": "Je suis fiable", "scores": { "engage": 3 } },
+        { "label": "Je suis libre", "scores": { "independant": 3 } },
+        { "label": "Je suis intense", "scores": { "passionne": 3 } },
+        { "label": "Je suis protecteur", "scores": { "protecteur": 3 } },
+        { "label": "Je suis équilibré", "scores": { "equilibre": 3 } }
+      ]
+    }
+  ]
+}

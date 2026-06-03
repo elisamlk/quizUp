@@ -1,0 +1,178 @@
+{
+  "slug": "test-quel-personnage-harry-potter-es-tu",
+  "title": "Test fun - Quel personnage de Harry Potter es-tu vraiment ?",
+  "description": "Plonge dans des situations à Poudlard et découvre quel personnage te correspond vraiment.",
+  "descriptionSeo": "À travers des situations immersives dans l’univers de Harry Potter, ce test révèle le personnage qui te correspond réellement. Tes choix face aux décisions, aux relations et aux défis permettent d’identifier ton profil : courageux, stratégique, loyal, mystérieux ou indépendant. Une approche plus subtile et réaliste pour découvrir ton alter ego à Poudlard.",
+  "category": {
+    "name": "Fun",
+    "slug": "fun"
+  },
+  "createdAt": "2026-04-20",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777056872/cover_kuqwc9.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777056872/cover_kuqwc9.jpg",
+    "alt": "Test personnage Harry Potter"
+  },
+  "profiles": [
+    {
+      "key": "harry",
+      "title": "Harry Potter",
+      "description": "Tu es guidé(e) par ton instinct et ton sens du juste. Tu n’es pas parfait(e), tu peux hésiter ou douter, mais quand quelque chose est important, tu passes à l’action. Tu es courageux(se) sans forcément le chercher, et tu avances même quand tu ne maîtrises pas tout. Tu fais confiance à ton ressenti et tu es prêt(e) à prendre des risques pour les autres. Ton point fort, c’est ta capacité à agir malgré l’incertitude.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777057176/harry-potter-baguette1_khprtt.jpg"
+    },
+    {
+      "key": "hermione",
+      "title": "Hermione Granger",
+      "description": "Tu es analytique, rigoureux(se) et extrêmement fiable. Tu préfères comprendre avant d’agir et tu cherches toujours à maîtriser une situation. Tu es souvent celui ou celle qui trouve la solution quand les autres sont perdus. Ton intelligence n’est pas seulement académique : tu sais aussi l’utiliser concrètement. Ton défi est parfois de lâcher prise quand tout ne peut pas être contrôlé.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777057230/Hermione-Granger_qf57uf.jpg"
+    },
+    {
+      "key": "ron",
+      "title": "Ron Weasley",
+      "description": "Tu es profondément humain(e), loyal(e) et attaché(e) aux personnes qui comptent pour toi. Tu peux douter de toi, mais dans les moments importants, tu es toujours là. Tu apportes du soutien, de la sincérité et une vraie présence émotionnelle. Tu es quelqu’un sur qui on peut compter, même si tu ne te vois pas toujours comme quelqu’un de fort.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777057176/Ron-Weasley_crlno9.jpg"
+    },
+    {
+      "key": "drago",
+      "title": "Drago Malefoy",
+      "description": "Tu es conscient(e) de ton image et de ta place. Tu observes beaucoup les rapports de force et tu sais t’adapter pour garder le contrôle. Tu peux paraître sûr(e) de toi, mais tu es aussi influencé(e) par ton environnement. Tu avances avec stratégie et prudence. Ton défi est d’assumer pleinement tes choix, même quand ils te mettent en difficulté.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777057176/vf_draco_harry_potter_1469_uwyhfs.jpg"
+    },
+    {
+      "key": "rogue",
+      "title": "Severus Rogue",
+      "description": "Tu es réservé(e), intense et difficile à lire. Tu n’exprimes pas facilement tes émotions, mais elles sont bien présentes. Tu observes, tu analyses et tu agis souvent dans l’ombre. Tu ne cherches pas la reconnaissance, mais ce que tu fais a du sens pour toi. Ta force réside dans ta profondeur et ta capacité à rester fidèle à ce que tu ressens, même en silence.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777057176/severus_qljivn.jpg"
+    },
+    {
+      "key": "luna",
+      "title": "Luna Lovegood",
+      "description": "Tu es libre dans ta manière de penser et tu ne ressens pas le besoin de te conformer. Tu vois des choses que les autres ne remarquent pas et tu as une perception différente du monde. Tu es calme, détaché(e) du regard des autres et profondément authentique. Ta force réside dans ton originalité et ta capacité à rester toi-même.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777057176/LUNA_m1r3gp.jpg"
+    }
+  ],
+  "questions": [
+    {
+      "id": "1",
+      "question": "Tu arrives à Poudlard et tu entends parler d’un passage secret interdit. Tu fais quoi ?",
+      "answers": [
+        { "label": "Je vais voir par moi-même", "scores": { "harry": 3, "ron": 1 } },
+        { "label": "Je cherche des infos avant", "scores": { "hermione": 3 } },
+        { "label": "J’y vais avec quelqu’un", "scores": { "ron": 3 } },
+        { "label": "Je me demande pourquoi c’est interdit", "scores": { "drago": 3 } },
+        { "label": "J’observe sans intervenir", "scores": { "rogue": 3 } },
+        { "label": "Je suis mon intuition", "scores": { "luna": 3 } }
+      ]
+    },
+    {
+      "id": "2",
+      "question": "Un professeur te semble injuste. Tu réagis comment ?",
+      "answers": [
+        { "label": "Je m’oppose si nécessaire", "scores": { "harry": 3 } },
+        { "label": "Je cherche une solution intelligente", "scores": { "hermione": 3 } },
+        { "label": "Je râle mais je reste prudent(e)", "scores": { "ron": 3 } },
+        { "label": "Je m’adapte à la situation", "scores": { "drago": 3 } },
+        { "label": "Je garde ça pour moi", "scores": { "rogue": 3 } },
+        { "label": "Je prends du recul", "scores": { "luna": 3 } }
+      ]
+    },
+    {
+      "id": "3",
+      "question": "Un ami est en difficulté. Ton premier réflexe ?",
+      "answers": [
+        { "label": "J’agis immédiatement", "scores": { "harry": 3 } },
+        { "label": "Je réfléchis à la meilleure solution", "scores": { "hermione": 3 } },
+        { "label": "Je reste avec lui/elle", "scores": { "ron": 3 } },
+        { "label": "J’évalue les conséquences", "scores": { "drago": 3 } },
+        { "label": "Je l’aide discrètement", "scores": { "rogue": 3 } },
+        { "label": "Je l’écoute", "scores": { "luna": 3 } }
+      ]
+    },
+    {
+      "id": "4",
+      "question": "Tu dois prendre une décision risquée.",
+      "answers": [
+        { "label": "Je me lance", "scores": { "harry": 3 } },
+        { "label": "Je calcule tout", "scores": { "hermione": 3 } },
+        { "label": "Je demande conseil", "scores": { "ron": 3 } },
+        { "label": "Je choisis ce qui me protège le plus", "scores": { "drago": 3 } },
+        { "label": "Je prends du recul", "scores": { "rogue": 3 } },
+        { "label": "Je fais confiance à mon ressenti", "scores": { "luna": 3 } }
+      ]
+    },
+    {
+      "id": "5",
+      "question": "Dans un groupe, ton rôle naturel…",
+      "answers": [
+        { "label": "Celui qui agit", "scores": { "harry": 3 } },
+        { "label": "Celui qui réfléchit", "scores": { "hermione": 3 } },
+        { "label": "Celui qui soutient", "scores": { "ron": 3 } },
+        { "label": "Celui qui se positionne", "scores": { "drago": 3 } },
+        { "label": "Celui qui observe", "scores": { "rogue": 3 } },
+        { "label": "Celui qui fait différemment", "scores": { "luna": 3 } }
+      ]
+    },
+    {
+      "id": "6",
+      "question": "Ce qui te met le plus en difficulté…",
+      "answers": [
+        { "label": "L’hésitation", "scores": { "harry": 3 } },
+        { "label": "L’imprévu", "scores": { "hermione": 3 } },
+        { "label": "Le manque de confiance", "scores": { "ron": 3 } },
+        { "label": "La perte de contrôle", "scores": { "drago": 3 } },
+        { "label": "Exprimer mes émotions", "scores": { "rogue": 3 } },
+        { "label": "Être compris(e)", "scores": { "luna": 3 } }
+      ]
+    },
+    {
+      "id": "7",
+      "question": "Face à quelque chose d’inconnu…",
+      "answers": [
+        { "label": "Je fonce", "scores": { "harry": 3 } },
+        { "label": "J’analyse", "scores": { "hermione": 3 } },
+        { "label": "Je suis quelqu’un", "scores": { "ron": 3 } },
+        { "label": "Je reste prudent(e)", "scores": { "drago": 3 } },
+        { "label": "Je garde mes distances", "scores": { "rogue": 3 } },
+        { "label": "Je suis curieux(se)", "scores": { "luna": 3 } }
+      ]
+    },
+    {
+      "id": "8",
+      "question": "Ton rapport aux règles…",
+      "answers": [
+        { "label": "Je les contourne", "scores": { "harry": 3 } },
+        { "label": "Je les respecte", "scores": { "hermione": 3 } },
+        { "label": "Je les suis… à peu près", "scores": { "ron": 3 } },
+        { "label": "Je les utilise à mon avantage", "scores": { "drago": 3 } },
+        { "label": "Je les applique strictement", "scores": { "rogue": 3 } },
+        { "label": "Je m’en détache", "scores": { "luna": 3 } }
+      ]
+    },
+    {
+      "id": "9",
+      "question": "Ce que les autres remarquent chez toi…",
+      "answers": [
+        { "label": "Mon courage", "scores": { "harry": 3 } },
+        { "label": "Mon intelligence", "scores": { "hermione": 3 } },
+        { "label": "Ma gentillesse", "scores": { "ron": 3 } },
+        { "label": "Mon assurance", "scores": { "drago": 3 } },
+        { "label": "Mon mystère", "scores": { "rogue": 3 } },
+        { "label": "Mon originalité", "scores": { "luna": 3 } }
+      ]
+    },
+    {
+      "id": "10",
+      "question": "Au fond, tu fonctionnes surtout avec…",
+      "answers": [
+        { "label": "L’instinct", "scores": { "harry": 3 } },
+        { "label": "La logique", "scores": { "hermione": 3 } },
+        { "label": "Les émotions", "scores": { "ron": 3 } },
+        { "label": "La stratégie", "scores": { "drago": 3 } },
+        { "label": "La réflexion intérieure", "scores": { "rogue": 3 } },
+        { "label": "L’intuition", "scores": { "luna": 3 } }
+      ]
+    }
+  ]
+}

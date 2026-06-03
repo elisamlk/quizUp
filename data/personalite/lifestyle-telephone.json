@@ -1,0 +1,146 @@
+{
+  "slug": "test-es-tu-accro-a-ton-telephone",
+  "title": "Test lifestyle - Es-tu accro à ton téléphone ?",
+  "description": "Ton téléphone prend-il trop de place dans ta vie ?",
+  "descriptionSeo": "Notifications, réseaux sociaux, réflexe de regarder ton écran… ce test analyse tes habitudes pour savoir si tu es vraiment accro à ton téléphone. Découvre ton niveau de dépendance et ton rapport au digital à travers des situations concrètes du quotidien.",
+  "category": {
+    "name": "Lifestyle",
+    "slug": "lifestyle"
+  },
+  "createdAt": "2026-04-27",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777298079/cover_wemh5b.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777298079/cover_wemh5b.jpg",
+    "alt": "Test addiction téléphone"
+  },
+  "profiles": [
+    {
+      "key": "detache",
+      "title": "Plutôt détaché(e)",
+      "description": "Tu as un rapport sain et équilibré avec ton téléphone. Tu sais l’utiliser quand c’est utile, mais tu n’en dépends pas au quotidien. Tu es capable de passer du temps sans écran sans ressentir de manque particulier, ce qui montre une vraie autonomie. Tu privilégies les interactions réelles, les moments présents et les activités qui ne nécessitent pas d’être connecté(e). Ton téléphone reste un outil, pas une extension de toi-même. Tu peux parfois rater une notification ou répondre plus tard, mais cela ne te dérange pas. Tu as su trouver une forme d’équilibre qui te permet de rester connecté(e) sans être envahi(e).",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777298483/detached_j5fec2.jpg"
+    },
+    {
+      "key": "equilibre",
+      "title": "Plutôt équilibré(e)",
+      "description": "Tu utilises beaucoup ton téléphone, mais tu gardes encore le contrôle. Tu es présent(e) sur les réseaux, tu réponds rapidement et tu as souvent ton téléphone à portée de main, mais tu sais aussi décrocher quand c’est nécessaire. Tu peux passer du temps sans ton téléphone, même si tu ressens parfois une petite envie de vérifier ce qu’il se passe. Tu es dans un équilibre fragile : tout dépend des périodes. Si tu n’y fais pas attention, ton usage peut facilement augmenter. Mais pour l’instant, tu arrives encore à gérer ton temps et à garder une certaine distance.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777298486/balance_suerzn.jpg"
+    },
+    {
+      "key": "connecte",
+      "title": "Très connecté(e)",
+      "description": "Ton téléphone fait clairement partie de ton quotidien. Tu le consultes souvent, parfois sans même t’en rendre compte. Notifications, messages, réseaux… tu es rarement totalement déconnecté(e). Tu as tendance à remplir les moments de vide avec ton écran, que ce soit par habitude ou par réflexe. Tu n’es pas forcément dépendant(e), mais ton usage est bien ancré dans tes routines. Tu peux avoir du mal à te concentrer sans jeter un œil à ton téléphone. Tu es connecté(e), informé(e), mais parfois un peu trop sollicité(e).",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777298481/connected_h94lvg.jpg"
+    },
+    {
+      "key": "accro",
+      "title": "Complètement accro",
+      "description": "Ton téléphone est quasiment une extension de toi. Tu le consultes très souvent, parfois sans raison précise, et il t’accompagne dans presque tous les moments de ta journée. Tu peux avoir du mal à t’en détacher, même pendant des activités importantes ou des moments avec d’autres personnes. Les notifications attirent immédiatement ton attention et tu ressens souvent le besoin de vérifier ce qu’il se passe. Ton usage est devenu automatique, presque réflexe. Tu es hyper connecté(e), mais cela peut parfois te couper du moment présent. Il pourrait être intéressant de prendre un peu de recul pour retrouver un meilleur équilibre.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777298231/addict_r6ncad.jpg"
+    }
+  ],
+"questions": [
+  {
+    "id": "1",
+    "question": "Tu prends ton téléphone \"juste pour vérifier un truc\"…",
+    "answers": [
+      { "label": "Je fais ce que j’avais prévu puis je repose", "scores": { "detache": 3 } },
+      { "label": "Je reste 2-3 minutes de plus", "scores": { "equilibre": 3 } },
+      { "label": "Je finis par scroller sans m’en rendre compte", "scores": { "connecte": 3 } },
+      { "label": "Je me retrouve 20 min après sans savoir pourquoi", "scores": { "accro": 3 } }
+    ]
+  },
+  {
+    "id": "2",
+    "question": "Tu regardes un film ou une série…",
+    "answers": [
+      { "label": "Je ne touche pas à mon téléphone", "scores": { "detache": 3 } },
+      { "label": "Je regarde vite fait de temps en temps", "scores": { "equilibre": 3 } },
+      { "label": "Je check régulièrement", "scores": { "connecte": 3 } },
+      { "label": "Je suis autant sur mon téléphone que sur l’écran", "scores": { "accro": 3 } }
+    ]
+  },
+  {
+    "id": "3",
+    "question": "Tu es avec quelqu’un mais il/elle va aux toilettes 2 minutes…",
+    "answers": [
+      { "label": "Je reste tranquille", "scores": { "detache": 3 } },
+      { "label": "Je regarde mon téléphone vite fait", "scores": { "equilibre": 3 } },
+      { "label": "Je le prends direct", "scores": { "connecte": 3 } },
+      { "label": "Je scrolle automatiquement sans réfléchir", "scores": { "accro": 3 } }
+    ]
+  },
+  {
+    "id": "4",
+    "question": "Tu te réveilles en pleine nuit…",
+    "answers": [
+      { "label": "Je me rendors sans toucher à rien", "scores": { "detache": 3 } },
+      { "label": "Je regarde l’heure et basta", "scores": { "equilibre": 3 } },
+      { "label": "Je check mes notifications", "scores": { "connecte": 3 } },
+      { "label": "Je commence à scroller dans mon lit", "scores": { "accro": 3 } }
+    ]
+  },
+  {
+    "id": "5",
+    "question": "Tu poses ton téléphone quelque part…",
+    "answers": [
+      { "label": "Je peux l’oublier un moment", "scores": { "detache": 3 } },
+      { "label": "Je vérifie de temps en temps", "scores": { "equilibre": 3 } },
+      { "label": "Je pense souvent à le reprendre", "scores": { "connecte": 3 } },
+      { "label": "Je le reprends quasi immédiatement", "scores": { "accro": 3 } }
+    ]
+  },
+  {
+    "id": "6",
+    "question": "Tu reçois un message pendant que tu fais quelque chose d’important…",
+    "answers": [
+      { "label": "Je réponds plus tard", "scores": { "detache": 3 } },
+      { "label": "Je jette un œil rapidement", "scores": { "equilibre": 3 } },
+      { "label": "Je lis direct", "scores": { "connecte": 3 } },
+      { "label": "Je m’arrête pour répondre", "scores": { "accro": 3 } }
+    ]
+  },
+  {
+    "id": "7",
+    "question": "Tu ouvres Instagram / TikTok sans raison précise…",
+    "answers": [
+      { "label": "Ça m’arrive rarement", "scores": { "detache": 3 } },
+      { "label": "De temps en temps", "scores": { "equilibre": 3 } },
+      { "label": "Assez souvent", "scores": { "connecte": 3 } },
+      { "label": "Plusieurs fois par heure", "scores": { "accro": 3 } }
+    ]
+  },
+  {
+    "id": "8",
+    "question": "Tu es en train de discuter avec quelqu’un…",
+    "answers": [
+      { "label": "Je reste concentré(e)", "scores": { "detache": 3 } },
+      { "label": "Je regarde mon téléphone parfois", "scores": { "equilibre": 3 } },
+      { "label": "Je suis souvent distrait(e)", "scores": { "connecte": 3 } },
+      { "label": "Je regarde mon écran même en parlant", "scores": { "accro": 3 } }
+    ]
+  },
+  {
+    "id": "9",
+    "question": "Tu lances une app et tu ne sais plus pourquoi…",
+    "answers": [
+      { "label": "Ça ne m’arrive jamais", "scores": { "detache": 3 } },
+      { "label": "Rarement", "scores": { "equilibre": 3 } },
+      { "label": "Parfois", "scores": { "connecte": 3 } },
+      { "label": "Très souvent", "scores": { "accro": 3 } }
+    ]
+  },
+  {
+    "id": "10",
+    "question": "Tu quittes chez toi sans ton téléphone…",
+    "answers": [
+      { "label": "Je continue ma journée", "scores": { "detache": 3 } },
+      { "label": "Ça me dérange un peu", "scores": { "equilibre": 3 } },
+      { "label": "Je fais demi-tour si possible", "scores": { "connecte": 3 } },
+      { "label": "Impossible, je reviens direct", "scores": { "accro": 3 } }
+    ]
+  }
+]
+}

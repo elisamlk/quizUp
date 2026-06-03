@@ -1,0 +1,130 @@
+{
+  "slug": "test-vie-famille-active-ou-tranquille",
+  "title": "Test famille - Es-tu fait(e) pour une vie de famille active ou tranquille ?",
+  "description": "Plutôt rythme intense ou quotidien posé en famille ?",
+  "descriptionSeo": "Organisation, énergie, rythme de vie… ce test révèle si tu es fait(e) pour une vie de famille active, équilibrée ou tranquille. À travers des situations concrètes, découvre le mode de vie familial qui te correspond vraiment.",
+  "category": {
+    "name": "Famille",
+    "slug": "famille"
+  },
+  "createdAt": "2026-04-27",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777377937/cover_rok7wm.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777377937/cover_rok7wm.jpg",
+    "alt": "Test vie de famille"
+  },
+  "profiles": [
+    {
+      "key": "active",
+      "title": "Vie de famille active",
+      "description": "Tu es clairement fait(e) pour une vie de famille dynamique. Tu aimes quand ça bouge, quand les journées sont remplies et qu’il y a toujours quelque chose à faire. Activités, sorties, organisation… tu es à l’aise dans un rythme soutenu. Tu as de l’énergie à revendre et tu apprécies voir ta famille évoluer dans un environnement stimulant. Tu peux parfois être un peu débordé(e), mais tu préfères ça à l’ennui. Pour toi, une famille, ça vit, ça bouge et ça crée des souvenirs en continu.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777378081/crazy-time_xd6ods.jpg"
+    },
+    {
+      "key": "equilibre",
+      "title": "Vie de famille équilibrée",
+      "description": "Tu es entre les deux. Tu apprécies les moments actifs, les sorties et les activités, mais tu as aussi besoin de calme et de temps posé. Tu sais alterner entre périodes dynamiques et moments tranquilles. Tu cherches un équilibre entre stimulation et repos, pour toi comme pour ta famille. Tu n’aimes ni le chaos permanent ni la routine trop plate. Ton idéal, c’est une vie de famille flexible, où chacun trouve son rythme sans pression.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777378080/balanced_bdfbzj.jpg"
+    },
+    {
+      "key": "tranquille",
+      "title": "Vie de famille tranquille",
+      "description": "Tu es fait(e) pour une vie de famille calme et posée. Tu apprécies les routines, les moments simples à la maison et les journées sans stress. Tu n’as pas besoin de multiplier les activités pour te sentir bien. Au contraire, tu préfères prendre le temps, créer une ambiance apaisante et stable. Trop de mouvement ou d’organisation peut vite te fatiguer. Pour toi, le bonheur en famille passe par la tranquillité, la présence et les petits moments du quotidien.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777378082/quiet-time_vjlnkq.jpg"
+    }
+  ],
+ "questions": [
+  {
+    "id": "1",
+    "question": "Samedi matin, tout le monde est réveillé à 8h…",
+    "answers": [
+      { "label": "Je lance direct une sortie ou une activité", "scores": { "active": 3 } },
+      { "label": "Je propose quelque chose après un petit moment tranquille", "scores": { "equilibre": 3 } },
+      { "label": "Je garde la matinée douce, sans pression", "scores": { "tranquille": 3 } }
+    ]
+  },
+  {
+    "id": "2",
+    "question": "Il pleut tout le week-end…",
+    "answers": [
+      { "label": "Je trouve une activité indoor pour ne pas rester enfermés", "scores": { "active": 3 } },
+      { "label": "Je prévois un jeu, un film et un peu de rangement", "scores": { "equilibre": 3 } },
+      { "label": "Parfait : plaids, calme et journée maison", "scores": { "tranquille": 3 } }
+    ]
+  },
+  {
+    "id": "3",
+    "question": "Les enfants veulent inviter des copains à la maison…",
+    "answers": [
+      { "label": "Oui, plus on est nombreux, plus c’est vivant", "scores": { "active": 3 } },
+      { "label": "Oui, mais avec une heure de fin claire", "scores": { "equilibre": 3 } },
+      { "label": "Pas trop souvent, j’ai besoin de calme chez moi", "scores": { "tranquille": 3 } }
+    ]
+  },
+  {
+    "id": "4",
+    "question": "Après l’école, il y a devoirs, douche, repas et fatigue…",
+    "answers": [
+      { "label": "Je garde le rythme et j’enchaîne efficacement", "scores": { "active": 3 } },
+      { "label": "Je structure, mais je laisse des pauses", "scores": { "equilibre": 3 } },
+      { "label": "Je simplifie au maximum pour éviter la pression", "scores": { "tranquille": 3 } }
+    ]
+  },
+  {
+    "id": "5",
+    "question": "Tu dois choisir les activités extrascolaires…",
+    "answers": [
+      { "label": "Sport, musique, sorties : j’aime quand c’est riche", "scores": { "active": 3 } },
+      { "label": "Une ou deux activités, pas plus", "scores": { "equilibre": 3 } },
+      { "label": "Je préfère garder beaucoup de temps libre", "scores": { "tranquille": 3 } }
+    ]
+  },
+  {
+    "id": "6",
+    "question": "Dimanche soir, la maison est en bazar…",
+    "answers": [
+      { "label": "On range tous ensemble rapidement et on repart", "scores": { "active": 3 } },
+      { "label": "Je range l’essentiel et je garde le reste pour plus tard", "scores": { "equilibre": 3 } },
+      { "label": "Je laisse un peu vivre, tant que l’ambiance reste paisible", "scores": { "tranquille": 3 } }
+    ]
+  },
+  {
+    "id": "7",
+    "question": "Une fête de famille dure plus longtemps que prévu…",
+    "answers": [
+      { "label": "Aucun souci, j’aime les grandes journées animées", "scores": { "active": 3 } },
+      { "label": "Ça va, tant qu’on peut rentrer avant l’épuisement total", "scores": { "equilibre": 3 } },
+      { "label": "Je fatigue vite et j’ai envie de rentrer au calme", "scores": { "tranquille": 3 } }
+    ]
+  },
+  {
+    "id": "8",
+    "question": "Pendant les vacances, tu imagines plutôt…",
+    "answers": [
+      { "label": "Des visites, des activités et des journées bien remplies", "scores": { "active": 3 } },
+      { "label": "Quelques sorties fortes, puis des jours plus calmes", "scores": { "equilibre": 3 } },
+      { "label": "Du repos, peu de planning et beaucoup de lenteur", "scores": { "tranquille": 3 } }
+    ]
+  },
+  {
+    "id": "9",
+    "question": "Un enfant dit : “Je m’ennuie”…",
+    "answers": [
+      { "label": "Je propose tout de suite une idée", "scores": { "active": 3 } },
+      { "label": "Je donne quelques options et il/elle choisit", "scores": { "equilibre": 3 } },
+      { "label": "Je laisse l’ennui faire son travail", "scores": { "tranquille": 3 } }
+    ]
+  },
+  {
+    "id": "10",
+    "question": "Le soir, quand tout le monde dort enfin…",
+    "answers": [
+      { "label": "Je prépare déjà le programme du lendemain", "scores": { "active": 3 } },
+      { "label": "Je souffle un peu puis j’anticipe l’essentiel", "scores": { "equilibre": 3 } },
+      { "label": "Je savoure le silence sans penser à demain", "scores": { "tranquille": 3 } }
+    ]
+  }
+]
+}

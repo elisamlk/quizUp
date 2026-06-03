@@ -1,0 +1,417 @@
+{
+    "slug": "test-psychologie-quelle-est-ta-plus-grande-peur-en-amour",
+    "title": "Test psychologie - Quelle est ta plus grande peur en amour ?",
+    "description": "Identifie ce qui influence vraiment tes réactions et tes blocages en amour.",
+    "descriptionSeo": "Analyse tes réactions dans des situations amoureuses concrètes pour identifier ta plus grande peur inconsciente. Ce test explore ton rapport à l’abandon, au rejet, à la trahison, à la liberté et à l’évolution des sentiments. Une approche nuancée et réaliste pour mieux comprendre tes comportements amoureux et ce qui peut inconsciemment freiner tes relations.",
+    "category": {
+        "name": "Amour",
+        "slug": "amour"
+    },
+    "createdAt": "2026-04-20",
+    "isNew": true,
+    "isPopular": true,
+    "images": {
+        "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777031501/cover_xqw0dr.jpg",
+        "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777031501/cover_xqw0dr.jpg",
+        "alt": "Test peur en amour"
+    },
+    "profiles": [
+        {
+            "key": "abandon",
+            "title": "La peur de l’abandon",
+            "description": "Tu as une sensibilité forte à la distance émotionnelle. Quand quelqu’un prend du recul, même temporairement, cela peut créer chez toi une forme d’insécurité. Tu peux anticiper une perte, te poser beaucoup de questions ou chercher à rétablir rapidement le lien. Cette peur ne signifie pas que tu manques de force, mais que ton attachement est profond. Ton défi est de ne pas interpréter trop vite certaines situations comme une rupture du lien.",
+            "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776778852/cover_pxn5rl.jpg"
+        },
+        {
+            "key": "rejet",
+            "title": "La peur du rejet",
+            "description": "Tu es particulièrement attentif à la manière dont l’autre te perçoit. Tu peux parfois filtrer ce que tu dis, ajuster ton comportement ou hésiter à te dévoiler pleinement. Cette peur peut te pousser à chercher de la validation ou à éviter certaines situations où tu pourrais être jugé. Ton défi est d’accepter que tu ne peux pas plaire à tout le monde, et que ton authenticité est ta vraie force.",
+            "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776891309/peu-influencable_uc3xtr.jpg"
+        },
+        {
+            "key": "trahison",
+            "title": "La peur de la trahison",
+            "description": "Tu attaches beaucoup d’importance à la confiance et à la cohérence. Tu peux observer, analyser et rester prudent avant de te livrer complètement. Cette vigilance te protège, mais elle peut aussi freiner certaines relations. Ton défi est d’apprendre à faire confiance progressivement sans rester constamment sur la défensive.",
+            "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776778855/hyper_fnqmr9.jpg"
+        },
+        {
+            "key": "liberte",
+            "title": "La peur de perdre ta liberté",
+            "description": "Tu tiens à ton indépendance et tu peux ressentir une forme de pression quand une relation devient trop engageante. Tu aimes les liens, mais tu as besoin d’espace pour rester toi-même. Ton défi est de trouver un équilibre entre engagement et liberté, sans fuir dès que la relation devient sérieuse.",
+            "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777030072/freedom_ley4k9.jpg"
+        },
+        {
+            "key": "sentiments",
+            "title": "La peur de ne plus ressentir",
+            "description": "Tu es sensible à l’intensité émotionnelle et tu peux douter quand les choses deviennent plus calmes. Tu peux associer la stabilité à une perte de sentiments. Ton défi est de comprendre que l’amour évolue et ne disparaît pas simplement parce qu’il change de forme.",
+            "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776951269/transition_vsz8zq.jpg"
+        }
+    ],
+    "questions": [
+        {
+            "id": "1",
+            "question": "Quelqu’un que tu apprécies met plus de distance sans explication pendant quelques jours.",
+            "answers": [
+                {
+                    "label": "Je me demande ce que j’ai fait de travers",
+                    "scores": {
+                        "rejet": 2,
+                        "abandon": 1
+                    }
+                },
+                {
+                    "label": "Je commence à imaginer le pire",
+                    "scores": {
+                        "abandon": 3
+                    }
+                },
+                {
+                    "label": "Je me dis qu’il y a peut-être quelque chose qu’on me cache",
+                    "scores": {
+                        "trahison": 3
+                    }
+                },
+                {
+                    "label": "Je prends aussi de la distance",
+                    "scores": {
+                        "liberte": 3
+                    }
+                },
+                {
+                    "label": "Je ressens un décalage dans mes émotions",
+                    "scores": {
+                        "sentiments": 3
+                    }
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "question": "La relation devient plus sérieuse et ton/ta partenaire parle de projets à long terme.",
+            "answers": [
+                {
+                    "label": "Ça me rassure mais je me mets la pression",
+                    "scores": {
+                        "rejet": 2,
+                        "abandon": 1
+                    }
+                },
+                {
+                    "label": "J’ai peur que ça change la relation",
+                    "scores": {
+                        "sentiments": 3
+                    }
+                },
+                {
+                    "label": "Je me demande si je peux vraiment faire confiance",
+                    "scores": {
+                        "trahison": 3
+                    }
+                },
+                {
+                    "label": "Je me sens un peu enfermé",
+                    "scores": {
+                        "liberte": 3
+                    }
+                },
+                {
+                    "label": "Je crains que tout s’arrête un jour",
+                    "scores": {
+                        "abandon": 3
+                    }
+                }
+            ]
+        },
+        {
+            "id": "3",
+            "question": "Tu hésites à dire ce que tu ressens vraiment.",
+            "answers": [
+                {
+                    "label": "Peur que ça ne soit pas bien reçu",
+                    "scores": {
+                        "rejet": 3
+                    }
+                },
+                {
+                    "label": "Peur que ça change la relation",
+                    "scores": {
+                        "sentiments": 2,
+                        "abandon": 1
+                    }
+                },
+                {
+                    "label": "Peur que ça soit utilisé contre moi",
+                    "scores": {
+                        "trahison": 3
+                    }
+                },
+                {
+                    "label": "Je préfère garder mon indépendance émotionnelle",
+                    "scores": {
+                        "liberte": 3
+                    }
+                },
+                {
+                    "label": "Peur de m’attacher encore plus",
+                    "scores": {
+                        "abandon": 3
+                    }
+                }
+            ]
+        },
+        {
+            "id": "4",
+            "question": "Ton/ta partenaire agit différemment sans raison claire.",
+            "answers": [
+                {
+                    "label": "Je me remets en question",
+                    "scores": {
+                        "rejet": 3
+                    }
+                },
+                {
+                    "label": "Je me dis que ça cache quelque chose",
+                    "scores": {
+                        "trahison": 3
+                    }
+                },
+                {
+                    "label": "Je ressens vite de l’insécurité",
+                    "scores": {
+                        "abandon": 3
+                    }
+                },
+                {
+                    "label": "Je prends du recul pour ne pas dépendre",
+                    "scores": {
+                        "liberte": 3
+                    }
+                },
+                {
+                    "label": "Je me demande si mes sentiments changent",
+                    "scores": {
+                        "sentiments": 3
+                    }
+                }
+            ]
+        },
+        {
+            "id": "5",
+            "question": "Une relation commence à devenir plus calme après une période intense.",
+            "answers": [
+                {
+                    "label": "Je me demande si quelque chose ne va pas",
+                    "scores": {
+                        "abandon": 2,
+                        "sentiments": 1
+                    }
+                },
+                {
+                    "label": "Je me dis que ça perd en intérêt",
+                    "scores": {
+                        "sentiments": 3
+                    }
+                },
+                {
+                    "label": "Je me méfie d’un changement caché",
+                    "scores": {
+                        "trahison": 3
+                    }
+                },
+                {
+                    "label": "Je profite de retrouver mon espace",
+                    "scores": {
+                        "liberte": 3
+                    }
+                },
+                {
+                    "label": "Je me demande si je suis toujours à la hauteur",
+                    "scores": {
+                        "rejet": 3
+                    }
+                }
+            ]
+        },
+        {
+            "id": "6",
+            "question": "Tu ressens un fort attachement envers quelqu’un.",
+            "answers": [
+                {
+                    "label": "Je crains de trop dépendre",
+                    "scores": {
+                        "liberte": 3
+                    }
+                },
+                {
+                    "label": "Je me demande si ça va durer",
+                    "scores": {
+                        "abandon": 3
+                    }
+                },
+                {
+                    "label": "Je me demande si c’est réciproque",
+                    "scores": {
+                        "rejet": 3
+                    }
+                },
+                {
+                    "label": "Je reste prudent malgré tout",
+                    "scores": {
+                        "trahison": 3
+                    }
+                },
+                {
+                    "label": "Je me demande si ça restera aussi intense",
+                    "scores": {
+                        "sentiments": 3
+                    }
+                }
+            ]
+        },
+        {
+            "id": "7",
+            "question": "Ton/ta partenaire te fait une remarque un peu critique.",
+            "answers": [
+                {
+                    "label": "Je le prends personnellement",
+                    "scores": {
+                        "rejet": 3
+                    }
+                },
+                {
+                    "label": "Je me demande si ça cache autre chose",
+                    "scores": {
+                        "trahison": 2,
+                        "rejet": 1
+                    }
+                },
+                {
+                    "label": "Je me sens fragilisé",
+                    "scores": {
+                        "abandon": 2
+                    }
+                },
+                {
+                    "label": "Je prends de la distance",
+                    "scores": {
+                        "liberte": 3
+                    }
+                },
+                {
+                    "label": "Je doute de mes sentiments ou des siens",
+                    "scores": {
+                        "sentiments": 3
+                    }
+                }
+            ]
+        },
+        {
+            "id": "8",
+            "question": "Tu sens que la relation évolue.",
+            "answers": [
+                {
+                    "label": "Je me demande dans quel sens ça va aller",
+                    "scores": {
+                        "abandon": 3
+                    }
+                },
+                {
+                    "label": "Je réfléchis à ce que ça implique pour moi",
+                    "scores": {
+                        "liberte": 3
+                    }
+                },
+                {
+                    "label": "Je me demande si je suis à la hauteur",
+                    "scores": {
+                        "rejet": 3
+                    }
+                },
+                {
+                    "label": "Je cherche les incohérences",
+                    "scores": {
+                        "trahison": 3
+                    }
+                },
+                {
+                    "label": "Je me demande si je ressens toujours pareil",
+                    "scores": {
+                        "sentiments": 3
+                    }
+                }
+            ]
+        },
+        {
+            "id": "9",
+            "question": "Quelque chose te semble incohérent chez l’autre.",
+            "answers": [
+                {
+                    "label": "Je doute immédiatement",
+                    "scores": {
+                        "trahison": 3
+                    }
+                },
+                {
+                    "label": "Je me demande si ça me concerne",
+                    "scores": {
+                        "rejet": 2
+                    }
+                },
+                {
+                    "label": "Je me sens insécure",
+                    "scores": {
+                        "abandon": 2
+                    }
+                },
+                {
+                    "label": "Je prends du recul",
+                    "scores": {
+                        "liberte": 3
+                    }
+                },
+                {
+                    "label": "Je remets en question la relation",
+                    "scores": {
+                        "sentiments": 3
+                    }
+                }
+            ]
+        },
+        {
+            "id": "10",
+            "question": "Au fond, ce qui te perturbe le plus en amour…",
+            "answers": [
+                {
+                    "label": "Ne pas être assez pour l’autre",
+                    "scores": {
+                        "rejet": 3
+                    }
+                },
+                {
+                    "label": "Perdre quelqu’un important",
+                    "scores": {
+                        "abandon": 3
+                    }
+                },
+                {
+                    "label": "Être trompé ou manipulé",
+                    "scores": {
+                        "trahison": 3
+                    }
+                },
+                {
+                    "label": "Ne plus être libre",
+                    "scores": {
+                        "liberte": 3
+                    }
+                },
+                {
+                    "label": "Ne plus ressentir la même chose",
+                    "scores": {
+                        "sentiments": 3
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,130 @@
+{
+  "slug": "test-pression-constante",
+  "title": "Test bien-être - Es-tu sous pression constante ?",
+  "description": "Ton quotidien est-il marqué par une pression permanente ?",
+  "descriptionSeo": "Stress, charge mentale, pression quotidienne… ce test t’aide à savoir si tu vis sous une pression constante. À travers des situations concrètes, découvre si tu es détendu(e), parfois sous tension ou en surcharge permanente.",
+  "category": {
+    "name": "Bien-être",
+    "slug": "bien-etre"
+  },
+  "createdAt": "2026-04-27",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777465102/cover_oxanlo.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777465102/cover_oxanlo.jpg",
+    "alt": "Test pression stress"
+  },
+  "profiles": [
+    {
+      "key": "detendu",
+      "title": "Plutôt détendu(e)",
+      "description": "Tu ne sembles pas vivre sous une pression constante. Tu sais prendre du recul, relâcher la pression et ne pas te laisser envahir par les contraintes. Même si tu peux avoir des moments de stress, ils restent ponctuels. Tu arrives globalement à gérer ton rythme et à garder un équilibre entre obligations et respiration.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777465102/relaxed_amwfta.jpg"
+    },
+    {
+      "key": "pression_moderee",
+      "title": "Pression modérée",
+      "description": "Tu ressens régulièrement de la pression, mais elle reste gérable. Certaines périodes sont plus intenses que d’autres. Tu peux te sentir stressé(e), mais tu arrives encore à souffler par moments. Ton équilibre est fragile : tu tiens, mais sans toujours réussir à vraiment relâcher.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777465102/moderate_stxxhp.jpg"
+    },
+    {
+      "key": "pression_constante",
+      "title": "Sous pression constante",
+      "description": "Tu vis avec une pression quasi permanente. Ton esprit est souvent occupé, ton corps peut être tendu, et tu as du mal à vraiment déconnecter. Même dans les moments calmes, une forme de tension reste présente. Tu es probablement en surcharge mentale ou émotionnelle. Il est important de trouver des moments de pause et de relâchement pour éviter l’épuisement.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777465102/stressedout_c3rvvo.jpg"
+    }
+  ],
+  "questions": [
+    {
+      "id": "1",
+      "question": "Tu termines une tâche importante…",
+      "answers": [
+        { "label": "Je souffle et je passe à autre chose", "scores": { "detendu": 3 } },
+        { "label": "Je pense déjà à la suivante", "scores": { "pression_moderee": 3 } },
+        { "label": "Je ressens encore de la tension", "scores": { "pression_constante": 3 } }
+      ]
+    },
+    {
+      "id": "2",
+      "question": "Tu es censé(e) te reposer…",
+      "answers": [
+        { "label": "J’y arrive facilement", "scores": { "detendu": 3 } },
+        { "label": "J’ai encore des pensées en tête", "scores": { "pression_moderee": 3 } },
+        { "label": "Impossible de décrocher", "scores": { "pression_constante": 3 } }
+      ]
+    },
+    {
+      "id": "3",
+      "question": "Ton esprit au quotidien…",
+      "answers": [
+        { "label": "Plutôt calme", "scores": { "detendu": 3 } },
+        { "label": "Souvent occupé", "scores": { "pression_moderee": 3 } },
+        { "label": "Toujours en alerte", "scores": { "pression_constante": 3 } }
+      ]
+    },
+    {
+      "id": "4",
+      "question": "Quand tu n’as rien de prévu…",
+      "answers": [
+        { "label": "Je profite du moment", "scores": { "detendu": 3 } },
+        { "label": "Je pense à ce que je dois faire", "scores": { "pression_moderee": 3 } },
+        { "label": "Je me sens mal de ne rien faire", "scores": { "pression_constante": 3 } }
+      ]
+    },
+    {
+      "id": "5",
+      "question": "Ton corps…",
+      "answers": [
+        { "label": "Détendu", "scores": { "detendu": 3 } },
+        { "label": "Parfois tendu", "scores": { "pression_moderee": 3 } },
+        { "label": "Souvent contracté ou fatigué", "scores": { "pression_constante": 3 } }
+      ]
+    },
+    {
+      "id": "6",
+      "question": "Une journée chargée t’attend…",
+      "answers": [
+        { "label": "Je gère", "scores": { "detendu": 3 } },
+        { "label": "Je ressens un peu de stress", "scores": { "pression_moderee": 3 } },
+        { "label": "Je me sens déjà sous pression", "scores": { "pression_constante": 3 } }
+      ]
+    },
+    {
+      "id": "7",
+      "question": "Ton niveau de stress global…",
+      "answers": [
+        { "label": "Plutôt bas", "scores": { "detendu": 3 } },
+        { "label": "Variable", "scores": { "pression_moderee": 3 } },
+        { "label": "Élevé", "scores": { "pression_constante": 3 } }
+      ]
+    },
+    {
+      "id": "8",
+      "question": "Quand tu es au calme…",
+      "answers": [
+        { "label": "Je me détends vraiment", "scores": { "detendu": 3 } },
+        { "label": "Je reste un peu tendu(e)", "scores": { "pression_moderee": 3 } },
+        { "label": "Je ne décroche pas", "scores": { "pression_constante": 3 } }
+      ]
+    },
+    {
+      "id": "9",
+      "question": "Tu penses à tes obligations…",
+      "answers": [
+        { "label": "Sans stress particulier", "scores": { "detendu": 3 } },
+        { "label": "Avec une légère pression", "scores": { "pression_moderee": 3 } },
+        { "label": "Avec une forte pression", "scores": { "pression_constante": 3 } }
+      ]
+    },
+    {
+      "id": "10",
+      "question": "Le soir, avant de dormir…",
+      "answers": [
+        { "label": "Je me détends facilement", "scores": { "detendu": 3 } },
+        { "label": "Je repense à ma journée", "scores": { "pression_moderee": 3 } },
+        { "label": "Mon cerveau tourne sans s’arrêter", "scores": { "pression_constante": 3 } }
+      ]
+    }
+  ]
+}

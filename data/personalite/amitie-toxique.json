@@ -1,0 +1,130 @@
+{
+  "slug": "test-ami-toxique",
+  "title": "Test amitié - Es-tu un(e) ami(e) toxique sans le savoir ?",
+  "description": "Certains de tes comportements peuvent-ils nuire à tes relations ?",
+  "descriptionSeo": "Jalousie, réactions aux silences, gestion des conflits ou attentes implicites… ce test analyse tes comportements concrets pour déterminer si certaines de tes attitudes peuvent être perçues comme toxiques en amitié. Sans jugement, découvre si tu entretiens des relations saines ou si certains réflexes impactent tes liens sans que tu t’en rendes compte. Une façon utile de mieux comprendre ton rôle dans tes relations.",
+  "category": {
+    "name": "Amitié",
+    "slug": "amitie"
+  },
+  "createdAt": "2026-04-27",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777727167/cover_xv46d9.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777727167/cover_xv46d9.jpg",
+    "alt": "Test ami toxique"
+  },
+  "profiles": [
+    {
+      "key": "sain",
+      "title": "Relation saine",
+      "description": "Tes comportements sont globalement équilibrés et respectueux. Tu sais écouter, laisser de l’espace et éviter les dynamiques négatives. Tu peux avoir des réactions humaines, mais tu ne t’inscris pas dans des schémas toxiques. Tes relations reposent sur une base saine.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777726110/fiable_mvjsd5.jpg"
+    },
+    {
+      "key": "a_travailler",
+      "title": "Quelques comportements à revoir",
+      "description": "Tu peux parfois adopter des réactions qui impactent tes relations sans t’en rendre compte : jalousie, reproches, attentes implicites… Rien de grave, mais certains réflexes pourraient être ajustés pour éviter de créer des tensions.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777727323/atravailer_a70lga.jpg"
+    },
+    {
+      "key": "toxique",
+      "title": "Tendance toxique",
+      "description": "Certains de tes comportements peuvent être vécus comme envahissants, contrôlants ou négatifs par tes amis. Tu peux créer des tensions ou un déséquilibre dans la relation sans forcément le vouloir. Prendre conscience de ces mécanismes est une première étape importante.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777727391/toxic_utucv9.jpg"
+    }
+  ],
+  "questions": [
+    {
+      "id": "1",
+      "question": "Un ami sort sans toi et tu le vois en story…",
+      "answers": [
+        { "label": "Je suis content(e) pour lui/elle", "scores": { "sain": 3 } },
+        { "label": "Ça me fait un peu quelque chose", "scores": { "a_travailler": 3 } },
+        { "label": "Je me sens mis(e) de côté", "scores": { "toxique": 3 } }
+      ]
+    },
+    {
+      "id": "2",
+      "question": "Un ami met du temps à répondre…",
+      "answers": [
+        { "label": "Je comprends qu’il/elle soit occupé(e)", "scores": { "sain": 3 } },
+        { "label": "Ça m’agace un peu", "scores": { "a_travailler": 3 } },
+        { "label": "Je le prends personnellement", "scores": { "toxique": 3 } }
+      ]
+    },
+    {
+      "id": "3",
+      "question": "Tu n’es pas invité(e) à quelque chose…",
+      "answers": [
+        { "label": "Je n’en fais pas une affaire", "scores": { "sain": 3 } },
+        { "label": "Je me pose des questions", "scores": { "a_travailler": 3 } },
+        { "label": "Je ressens du ressentiment", "scores": { "toxique": 3 } }
+      ]
+    },
+    {
+      "id": "4",
+      "question": "Un ami te dit non à une proposition…",
+      "answers": [
+        { "label": "Je respecte sans problème", "scores": { "sain": 3 } },
+        { "label": "Je suis un peu déçu(e)", "scores": { "a_travailler": 3 } },
+        { "label": "Je le prends mal", "scores": { "toxique": 3 } }
+      ]
+    },
+    {
+      "id": "5",
+      "question": "Tu racontes un problème personnel…",
+      "answers": [
+        { "label": "J’écoute aussi l’autre", "scores": { "sain": 3 } },
+        { "label": "Je parle surtout de moi", "scores": { "a_travailler": 3 } },
+        { "label": "Je monopolise la discussion", "scores": { "toxique": 3 } }
+      ]
+    },
+    {
+      "id": "6",
+      "question": "Un ami réussit quelque chose…",
+      "answers": [
+        { "label": "Je suis sincèrement content(e)", "scores": { "sain": 3 } },
+        { "label": "Je compare un peu", "scores": { "a_travailler": 3 } },
+        { "label": "Ça me dérange intérieurement", "scores": { "toxique": 3 } }
+      ]
+    },
+    {
+      "id": "7",
+      "question": "Tu es contrarié(e) par un ami…",
+      "answers": [
+        { "label": "Je communique calmement", "scores": { "sain": 3 } },
+        { "label": "Je fais des remarques indirectes", "scores": { "a_travailler": 3 } },
+        { "label": "Je garde pour moi ou j’explose", "scores": { "toxique": 3 } }
+      ]
+    },
+    {
+      "id": "8",
+      "question": "Tu attends quelque chose d’un ami…",
+      "answers": [
+        { "label": "Je l’exprime clairement", "scores": { "sain": 3 } },
+        { "label": "J’espère qu’il/elle comprenne", "scores": { "a_travailler": 3 } },
+        { "label": "Je me frustre s’il/elle ne devine pas", "scores": { "toxique": 3 } }
+      ]
+    },
+    {
+      "id": "9",
+      "question": "Tu sens une distance dans une relation…",
+      "answers": [
+        { "label": "Je laisse de l’espace", "scores": { "sain": 3 } },
+        { "label": "J’essaie de comprendre", "scores": { "a_travailler": 3 } },
+        { "label": "Je deviens insistant(e)", "scores": { "toxique": 3 } }
+      ]
+    },
+    {
+      "id": "10",
+      "question": "Quand tu es blessé(e)…",
+      "answers": [
+        { "label": "Je prends du recul", "scores": { "sain": 3 } },
+        { "label": "Je réagis émotionnellement", "scores": { "a_travailler": 3 } },
+        { "label": "Je fais ressentir à l’autre", "scores": { "toxique": 3 } }
+      ]
+    }
+  ]
+}

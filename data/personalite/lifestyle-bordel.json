@@ -1,0 +1,130 @@
+{
+  "slug": "test-espace-rempli-ou-epure",
+  "title": "Test lifestyle - Ton espace idéal est-il rempli ou épuré ?",
+  "description": "Un espace chargé te stimule ou te fatigue ? Ce test révèle l’environnement dans lequel tu te sens vraiment bien au quotidien.",
+  "descriptionSeo": "Décoration, organisation, rapport aux objets… ce test révèle si tu es fait(e) pour un espace rempli, équilibré ou épuré. À travers des situations concrètes, découvre l’environnement qui te correspond vraiment au quotidien.",
+  "category": {
+    "name": "Lifestyle",
+    "slug": "lifestyle"
+  },
+  "createdAt": "2026-04-27",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777374488/cover_xhpbzl.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777374488/cover_xhpbzl.jpg",
+    "alt": "Test espace rempli ou épuré"
+  },
+  "profiles": [
+    {
+      "key": "epure",
+      "title": "Épuré",
+      "description": "Tu es attiré(e) par les espaces simples, calmes et minimalistes. Tu n’aimes pas l’encombrement visuel ou les objets inutiles. Pour toi, moins il y a de choses, plus tu te sens bien. Tu apprécies les ambiances claires, organisées et respirantes. Tu as besoin d’espace pour te concentrer, te détendre et te sentir aligné(e). Le désordre peut vite te fatiguer ou t’agacer. Tu privilégies la qualité à la quantité et tu fais attention à ce que tu gardes autour de toi. Ton environnement reflète ton besoin de clarté mentale et de tranquillité.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777374606/epure_audk6y.jpg"
+    },
+    {
+      "key": "equilibre",
+      "title": "Équilibré",
+      "description": "Tu es entre les deux. Tu aimes les espaces agréables, vivants, mais sans excès. Tu apprécies la décoration, les objets personnels et une certaine chaleur, tout en gardant une organisation globale. Tu peux tolérer un peu de désordre, mais pas trop. Tu cherches un équilibre entre esthétique et fonctionnalité. Ton espace doit être à la fois pratique et accueillant. Tu n’es ni dans le minimalisme strict, ni dans l’accumulation. Tu sais créer un environnement qui te ressemble sans te surcharger.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777374812/mi-epure_tmlwgz.jpg"
+    },
+    {
+      "key": "rempli",
+      "title": "Rempli",
+      "description": "Tu aimes les espaces vivants, remplis d’objets, de souvenirs et de personnalité. Tu te sens mieux dans un environnement riche, avec des détails, des couleurs et des éléments qui racontent une histoire. Le vide peut te sembler froid ou impersonnel. Tu aimes accumuler ce qui te plaît et créer une ambiance chaleureuse et expressive. Ton espace est souvent un reflet direct de ta personnalité et de tes expériences. Tu n’as pas peur du désordre tant qu’il a du sens pour toi. Pour toi, vivre, c’est aussi s’entourer de choses qui comptent.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777374741/rempli_qijrwi.jpg"
+    }
+  ],
+  "questions": [
+    {
+      "id": "1",
+      "question": "Tu arrives dans une chambre d’hôtel très vide…",
+      "answers": [
+        { "label": "J’adore, ça respire", "scores": { "epure": 3 } },
+        { "label": "C’est correct mais un peu froid", "scores": { "equilibre": 3 } },
+        { "label": "Ça manque de vie", "scores": { "rempli": 3 } }
+      ]
+    },
+    {
+      "id": "2",
+      "question": "Ton bureau après une journée…",
+      "answers": [
+        { "label": "Rangé immédiatement", "scores": { "epure": 3 } },
+        { "label": "Un peu en désordre mais ok", "scores": { "equilibre": 3 } },
+        { "label": "Rempli de choses", "scores": { "rempli": 3 } }
+      ]
+    },
+    {
+      "id": "3",
+      "question": "Tu dois décorer un salon…",
+      "answers": [
+        { "label": "Peu d’objets, bien choisis", "scores": { "epure": 3 } },
+        { "label": "Quelques éléments pour donner du style", "scores": { "equilibre": 3 } },
+        { "label": "Beaucoup d’éléments, ambiance riche", "scores": { "rempli": 3 } }
+      ]
+    },
+    {
+      "id": "4",
+      "question": "Tu fais du tri dans tes affaires…",
+      "answers": [
+        { "label": "Je jette facilement", "scores": { "epure": 3 } },
+        { "label": "Je garde l’essentiel", "scores": { "equilibre": 3 } },
+        { "label": "Je garde beaucoup de choses", "scores": { "rempli": 3 } }
+      ]
+    },
+    {
+      "id": "5",
+      "question": "Un espace trop chargé…",
+      "answers": [
+        { "label": "Ça m’étouffe", "scores": { "epure": 3 } },
+        { "label": "Ça dépend du style", "scores": { "equilibre": 3 } },
+        { "label": "J’aime bien", "scores": { "rempli": 3 } }
+      ]
+    },
+    {
+      "id": "6",
+      "question": "Ton écran de téléphone…",
+      "answers": [
+        { "label": "Très clean", "scores": { "epure": 3 } },
+        { "label": "Un peu organisé", "scores": { "equilibre": 3 } },
+        { "label": "Plein d’apps partout", "scores": { "rempli": 3 } }
+      ]
+    },
+    {
+      "id": "7",
+      "question": "Tu rentres chez toi…",
+      "answers": [
+        { "label": "Je veux du calme visuel", "scores": { "epure": 3 } },
+        { "label": "Je veux un espace agréable", "scores": { "equilibre": 3 } },
+        { "label": "Je veux un espace vivant", "scores": { "rempli": 3 } }
+      ]
+    },
+    {
+      "id": "8",
+      "question": "Ton rapport aux objets…",
+      "answers": [
+        { "label": "Je garde peu de choses", "scores": { "epure": 3 } },
+        { "label": "Je garde ce qui compte", "scores": { "equilibre": 3 } },
+        { "label": "J’aime accumuler", "scores": { "rempli": 3 } }
+      ]
+    },
+    {
+      "id": "9",
+      "question": "Tu vois une étagère vide…",
+      "answers": [
+        { "label": "Je la laisse comme ça", "scores": { "epure": 3 } },
+        { "label": "J’ajoute quelques éléments", "scores": { "equilibre": 3 } },
+        { "label": "Je la remplis", "scores": { "rempli": 3 } }
+      ]
+    },
+    {
+      "id": "10",
+      "question": "Ce qui te fait te sentir bien chez toi…",
+      "answers": [
+        { "label": "L’espace et le vide", "scores": { "epure": 3 } },
+        { "label": "Un bon équilibre", "scores": { "equilibre": 3 } },
+        { "label": "Les objets et l’ambiance", "scores": { "rempli": 3 } }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "slug": "test-pilier-ou-fantome-groupe",
+  "title": "Test amitié - Es-tu le pilier ou le fantôme de ton groupe ?",
+  "description": "Dans les faits, es-tu vraiment central(e) ou invisible ?",
+  "descriptionSeo": "Messages ignorés, relances, absence remarquée ou non… ce test analyse des situations concrètes pour révéler si tu es un pilier du groupe ou quelqu’un qui passe facilement inaperçu.",
+  "category": {
+    "name": "Amitié",
+    "slug": "amitie"
+  },
+  "createdAt": "2026-04-27",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777724650/cover_ihhi4u.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777724650/cover_ihhi4u.jpg",
+    "alt": "Test pilier ou fantôme groupe"
+  },
+  "profiles": [
+    {
+      "key": "pilier",
+      "title": "Le/La pilier",
+      "description": "Tu es clairement un point central. Les discussions passent souvent par toi, les plans existent parce que tu es là, et ton absence se remarque immédiatement. Tu es impliqué(e), actif(ve) et visible dans la dynamique du groupe.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777724925/important_cpug8u.jpg"
+    },
+    {
+      "key": "present",
+      "title": "Présent(e) mais secondaire",
+      "description": "Tu fais partie du groupe, tu es là, mais tu n’es pas au centre. Tu participes, mais sans vraiment influencer la dynamique. On te remarque, mais tu n’es pas indispensable au fonctionnement global.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777724924/secondaire_v35kwq.jpg"
+    },
+    {
+      "key": "fantome",
+      "title": "Le/La fantôme",
+      "description": "Tu es souvent en arrière-plan. Tu peux être présent(e) sans vraiment être impliqué(e) ou visible. Tes interactions sont limitées et il arrive que ton absence ne soit pas immédiatement remarquée.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777724925/fantome_sd8xuy.jpg"
+    }
+  ],
+  "questions": [
+    {
+      "id": "1",
+      "question": "Tu envoies un message dans le groupe et personne ne répond…",
+      "answers": [
+        { "label": "Ça relance ensuite avec moi", "scores": { "pilier": 3 } },
+        { "label": "Une ou deux personnes répondent plus tard", "scores": { "present": 3 } },
+        { "label": "Le message est totalement ignoré", "scores": { "fantome": 3 } }
+      ]
+    },
+    {
+      "id": "2",
+      "question": "Tu ne parles plus dans le groupe pendant 5 jours…",
+      "answers": [
+        { "label": "On me demande ce que je deviens", "scores": { "pilier": 3 } },
+        { "label": "Quelqu’un remarque au bout d’un moment", "scores": { "present": 3 } },
+        { "label": "Personne ne réagit", "scores": { "fantome": 3 } }
+      ]
+    },
+    {
+      "id": "3",
+      "question": "Un plan se fait sans toi…",
+      "answers": [
+        { "label": "On me propose de me rajouter", "scores": { "pilier": 3 } },
+        { "label": "On m’en parle après", "scores": { "present": 3 } },
+        { "label": "Je l’apprends par hasard", "scores": { "fantome": 3 } }
+      ]
+    },
+    {
+      "id": "4",
+      "question": "Tu proposes une sortie précise (date + lieu)…",
+      "answers": [
+        { "label": "Les gens s’organisent autour", "scores": { "pilier": 3 } },
+        { "label": "Ça discute mais ça reste flou", "scores": { "present": 3 } },
+        { "label": "Ça ne prend pas", "scores": { "fantome": 3 } }
+      ]
+    },
+    {
+      "id": "5",
+      "question": "En soirée de groupe…",
+      "answers": [
+        { "label": "Les gens viennent naturellement vers moi", "scores": { "pilier": 3 } },
+        { "label": "Je parle avec quelques personnes", "scores": { "present": 3 } },
+        { "label": "Je peux rester seul(e) sans que ça se voie", "scores": { "fantome": 3 } }
+      ]
+    },
+    {
+      "id": "6",
+      "question": "Une blague est faite dans le groupe…",
+      "answers": [
+        { "label": "Je rebondis et ça repart", "scores": { "pilier": 3 } },
+        { "label": "Je réagis comme les autres", "scores": { "present": 3 } },
+        { "label": "Je ne réagis pas", "scores": { "fantome": 3 } }
+      ]
+    },
+    {
+      "id": "7",
+      "question": "Quelqu’un organise un anniversaire…",
+      "answers": [
+        { "label": "On me demande d’aider ou de gérer", "scores": { "pilier": 3 } },
+        { "label": "Je suis invité(e) comme les autres", "scores": { "present": 3 } },
+        { "label": "Je suis prévenu(e) tard ou indirectement", "scores": { "fantome": 3 } }
+      ]
+    },
+    {
+      "id": "8",
+      "question": "Tu envoies un vocal dans le groupe…",
+      "answers": [
+        { "label": "Il est écouté et commenté", "scores": { "pilier": 3 } },
+        { "label": "Quelques réactions", "scores": { "present": 3 } },
+        { "label": "Aucune réaction", "scores": { "fantome": 3 } }
+      ]
+    },
+    {
+      "id": "9",
+      "question": "Tu arrives en retard à un rendez-vous de groupe…",
+      "answers": [
+        { "label": "On m’attend vraiment", "scores": { "pilier": 3 } },
+        { "label": "Ça ne change pas grand-chose", "scores": { "present": 3 } },
+        { "label": "Personne ne remarque vraiment", "scores": { "fantome": 3 } }
+      ]
+    },
+    {
+      "id": "10",
+      "question": "Une conversation privée démarre entre plusieurs membres…",
+      "answers": [
+        { "label": "Je suis dedans dès le début", "scores": { "pilier": 3 } },
+        { "label": "Je suis ajouté(e) après", "scores": { "present": 3 } },
+        { "label": "Je ne suis pas inclus(e)", "scores": { "fantome": 3 } }
+      ]
+    }
+  ]
+}

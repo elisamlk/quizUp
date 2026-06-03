@@ -1,0 +1,48 @@
+{
+    "slug": "trouve-les-paires-animaux-continents",
+    "title": "Trouve les paires - Animaux et continents",
+    "description": "Associe chaque animal à son continent dans ce jeu de géographie et culture générale.",
+    "descriptionSeo": "Teste tes connaissances avec ce jeu de géographie où tu dois retrouver les bonnes paires entre les animaux et les continents. Un mini-jeu éducatif et amusant pour découvrir les espèces du monde, travailler sa mémoire et enrichir sa culture générale. Parfait pour les enfants comme les adultes, ce défi rapide permet d’apprendre la répartition des animaux sur la planète tout en s’amusant sur mobile, tablette ou ordinateur.",
+    "type": "association",
+    "category": {
+        "name": "Animaux",
+        "slug": "animaux"
+    },
+    "createdAt": "2026-05-21",
+    "isNew": true,
+    "isPopular": true,
+    "images": {
+        "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1779361409/panda_m5jd4g.jpg",
+        "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1779361409/panda_m5jd4g.jpg",
+        "alt": "Trouve les paires entre animaux et continents"
+    },
+    "data": {
+        "pairs": [
+            {
+                "id": "pair-1",
+                "left": "Kangourou",
+                "right": "Océanie"
+            },
+            {
+                "id": "pair-2",
+                "left": "Panda",
+                "right": "Asie"
+            },
+            {
+                "id": "pair-3",
+                "left": "Lion",
+                "right": "Afrique"
+            },
+            {
+                "id": "pair-4",
+                "left": "Ours polaire",
+                "right": "Amérique du Nord"
+            },
+            {
+                "id": "pair-5",
+                "left": "Lama",
+                "right": "Amérique du Sud"
+            }
+        ]
+    }
+}

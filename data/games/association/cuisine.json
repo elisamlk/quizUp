@@ -1,0 +1,48 @@
+{
+  "slug": "trouve-les-paires-plats-et-pays",
+  "title": "Trouve les paires - Plats du monde et pays",
+  "description": "Associe chaque spécialité culinaire à son pays d’origine dans ce jeu gourmand et culturel.",
+  "descriptionSeo": "Explore les saveurs du monde avec ce jeu de culture générale autour des spécialités culinaires internationales. Retrouve les pays associés aux plats les plus célèbres et teste tes connaissances sur la gastronomie mondiale. Un mini-jeu parfait pour les passionnés de cuisine, de voyages et de découvertes culinaires, idéal pour apprendre en s’amusant.",
+  "type": "association",
+  "category": {
+    "name": "Cuisine",
+    "slug": "cuisine"
+  },
+  "createdAt": "2026-05-21",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1779362268/cuisine_kultuk.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1779362268/cuisine_kultuk.jpg",
+    "alt": "Trouve les paires entre plats du monde et pays"
+  },
+  "data": {
+    "pairs": [
+      {
+        "id": "pair-1",
+        "left": "Bibimbap",
+        "right": "Corée du Sud"
+      },
+      {
+        "id": "pair-2",
+        "left": "Poutine",
+        "right": "Canada"
+      },
+      {
+        "id": "pair-3",
+        "left": "Paella",
+        "right": "Espagne"
+      },
+      {
+        "id": "pair-4",
+        "left": "Pad Thaï",
+        "right": "Thaïlande"
+      },
+      {
+        "id": "pair-5",
+        "left": "Couscous",
+        "right": "Maroc"
+      }
+    ]
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "slug": "test-mer-montagne-ou-ville",
+  "title": "Test lifestyle - Es-tu mer, montagne ou ville ?",
+  "description": "Mer, montagne ou ville : où te sens-tu vraiment à ta place ?",
+  "descriptionSeo": "Préférences, rythme de vie, environnement… ce test révèle si tu es fait(e) pour la mer, la montagne ou la ville. À travers des situations concrètes, découvre l’univers qui correspond vraiment à ta personnalité et à ton énergie.",
+  "category": {
+    "name": "Lifestyle",
+    "slug": "lifestyle"
+  },
+  "createdAt": "2026-04-27",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777373576/cover_caloon.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777373576/cover_caloon.jpg",
+    "alt": "Test mer montagne ville personnalité"
+  },
+  "profiles": [
+    {
+      "key": "mer",
+      "title": "Mer",
+      "description": "Tu es quelqu’un de libre, spontané(e) et connecté(e) à tes émotions. La mer t’attire naturellement parce qu’elle représente l’évasion, le lâcher-prise et le mouvement. Tu aimes profiter du moment, ressentir, respirer et te laisser porter. Tu n’as pas besoin de tout contrôler pour te sentir bien. Tu es souvent attiré(e) par la lumière, les ambiances ouvertes et les moments simples mais intenses. Tu peux être changeant(e), comme les vagues, mais c’est aussi ce qui fait ta richesse. Tu es quelqu’un de vivant(e), sensible et tourné(e) vers l’instant présent.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777373757/mer_x1ck4w.jpg"
+    },
+    {
+      "key": "montagne",
+      "title": "Montagne",
+      "description": "Tu es une personne calme, solide et profondément ancrée. Tu apprécies les environnements naturels, le silence et les moments où tu peux te retrouver. Tu n’as pas besoin d’agitation constante pour te sentir vivant(e). Au contraire, tu te ressourc es dans la simplicité, l’effort et la stabilité. Tu es quelqu’un de fiable, de posé et souvent très réfléchi. Tu avances à ton rythme, sans te comparer aux autres. Comme la montagne, tu es stable, résistant(e) et authentique. Tu privilégies la profondeur à la superficialité.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777373928/montagne_svte1h.jpg"
+    },
+    {
+      "key": "ville",
+      "title": "Ville",
+      "description": "Tu es une personne dynamique, curieuse et stimulée par ton environnement. Tu aimes quand ça bouge, quand il y a des choses à faire, à voir, à vivre. La ville te correspond parce qu’elle t’offre de l’énergie, des opportunités et du rythme. Tu es sociable, adaptable et souvent attiré(e) par les nouveautés. Tu n’as pas peur de la foule ni du mouvement, au contraire. Tu as besoin d’être connecté(e), actif(ve) et stimulé(e). Comme la ville, tu es vivant(e), rapide et toujours en mouvement.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777297021/tokyo_k44fck.jpg"
+    }
+  ],
+"questions": [
+  {
+    "id": "1",
+    "question": "Tu ouvres la fenêtre le matin…",
+    "answers": [
+      { "label": "Air marin + odeur de sel", "scores": { "mer": 3 } },
+      { "label": "Air frais + silence total", "scores": { "montagne": 3 } },
+      { "label": "Bruit de la ville qui se réveille", "scores": { "ville": 3 } }
+    ]
+  },
+  {
+    "id": "2",
+    "question": "Tu marches 1h sans objectif précis…",
+    "answers": [
+      { "label": "Le long de l’eau", "scores": { "mer": 3 } },
+      { "label": "Sur un sentier nature", "scores": { "montagne": 3 } },
+      { "label": "Dans des rues animées", "scores": { "ville": 3 } }
+    ]
+  },
+  {
+    "id": "3",
+    "question": "Ton téléphone n’a plus de réseau…",
+    "answers": [
+      { "label": "Ça ne me dérange pas si je suis au bord de l’eau", "scores": { "mer": 3 } },
+      { "label": "Parfait, je décroche totalement", "scores": { "montagne": 3 } },
+      { "label": "Ça me saoule vite", "scores": { "ville": 3 } }
+    ]
+  },
+  {
+    "id": "4",
+    "question": "Tu dois passer 2h seul(e)…",
+    "answers": [
+      { "label": "Face à la mer à regarder l’horizon", "scores": { "mer": 3 } },
+      { "label": "Dans un coin calme en pleine nature", "scores": { "montagne": 3 } },
+      { "label": "Dans un café ou un lieu vivant", "scores": { "ville": 3 } }
+    ]
+  },
+  {
+    "id": "5",
+    "question": "Il fait très chaud…",
+    "answers": [
+      { "label": "Je veux être près de l’eau", "scores": { "mer": 3 } },
+      { "label": "Je cherche de la fraîcheur en altitude", "scores": { "montagne": 3 } },
+      { "label": "Je reste actif malgré tout", "scores": { "ville": 3 } }
+    ]
+  },
+  {
+    "id": "6",
+    "question": "Un dimanche sans plan…",
+    "answers": [
+      { "label": "Marcher pieds nus, chill", "scores": { "mer": 3 } },
+      { "label": "Sortir prendre l’air au calme", "scores": { "montagne": 3 } },
+      { "label": "Sortir, voir du monde, bouger", "scores": { "ville": 3 } }
+    ]
+  },
+  {
+    "id": "7",
+    "question": "Ton niveau d’énergie en fin de journée…",
+    "answers": [
+      { "label": "Je ralentis et je profite", "scores": { "mer": 3 } },
+      { "label": "Je me pose au calme", "scores": { "montagne": 3 } },
+      { "label": "J’ai encore envie de faire des choses", "scores": { "ville": 3 } }
+    ]
+  },
+  {
+    "id": "8",
+    "question": "Tu entends du bruit constant autour de toi…",
+    "answers": [
+      { "label": "Si c’est des vagues, j’adore", "scores": { "mer": 3 } },
+      { "label": "Je préfère le silence", "scores": { "montagne": 3 } },
+      { "label": "Ça ne me dérange pas", "scores": { "ville": 3 } }
+    ]
+  },
+  {
+    "id": "9",
+    "question": "Tu dois choisir un logement…",
+    "answers": [
+      { "label": "Petit mais vue mer", "scores": { "mer": 3 } },
+      { "label": "Isolé avec de l’espace", "scores": { "montagne": 3 } },
+      { "label": "Central même si c’est petit", "scores": { "ville": 3 } }
+    ]
+  },
+  {
+    "id": "10",
+    "question": "Ce qui te recharge vraiment…",
+    "answers": [
+      { "label": "Regarder l’horizon, respirer", "scores": { "mer": 3 } },
+      { "label": "Le calme profond et l’air pur", "scores": { "montagne": 3 } },
+      { "label": "Le mouvement et les stimulations", "scores": { "ville": 3 } }
+    ]
+  }
+]
+}

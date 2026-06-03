@@ -1,0 +1,146 @@
+{
+  "slug": "test-quel-element-es-tu",
+  "title": "Test fun - Ton élément dominant va te surprendre... fais le test !",
+  "description": "Découvre quel élément naturel reflète le mieux ta personnalité et ton énergie.",
+  "descriptionSeo": "À travers tes réactions, tes émotions et ta manière d’agir, ce test révèle l’élément qui te correspond le mieux : feu, eau, air ou terre. Chaque élément symbolise une énergie particulière, entre intensité, sensibilité, liberté ou stabilité. Une approche à la fois fun et symbolique pour mieux comprendre ton fonctionnement et ce qui te définit au quotidien.",
+  "category": {
+    "name": "Fun",
+    "slug": "fun"
+  },
+  "createdAt": "2026-04-20",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777034126/water_oiv91w.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777034126/water_oiv91w.jpg",
+    "alt": "Test quel élément es tu"
+  },
+  "profiles": [
+    {
+      "key": "feu",
+      "title": "Le Feu",
+      "description": "Tu es une personne intense, passionnée et pleine d’énergie. Tu ressens les choses fortement et tu agis souvent avec instinct et détermination. Tu aimes avancer, relever des défis et vivre des expériences marquantes. Tu n’as pas peur de prendre des initiatives et tu es souvent perçu(e) comme quelqu’un de dynamique et affirmé. Ton énergie peut être communicative, mais aussi parfois difficile à canaliser. Tu peux vite t’ennuyer si rien ne te stimule. Ton défi est de trouver un équilibre entre impulsivité et réflexion. Ta force réside dans ta capacité à créer du mouvement, à inspirer les autres et à transformer ton énergie en action.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777034128/fire_yfa5c6.jpg"
+    },
+    {
+      "key": "eau",
+      "title": "L’Eau",
+      "description": "Tu es sensible, intuitif(ve) et profondément connecté(e) à tes émotions. Tu ressens facilement les ambiances, les énergies et les personnes autour de toi. Tu accordes de l’importance aux relations et à l’authenticité. Tu es capable d’une grande empathie et tu sais écouter et comprendre les autres. Tu peux parfois te laisser submerger par tes émotions ou avoir du mal à prendre du recul. Ton défi est de te protéger émotionnellement sans te fermer. Ta force réside dans ta capacité à ressentir, à créer du lien et à comprendre les autres avec finesse.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777034111/watter_r0ypd7.jpg"
+    },
+    {
+      "key": "air",
+      "title": "L’Air",
+      "description": "Tu es curieux(se), libre et tourné(e) vers le mouvement. Tu aimes comprendre, apprendre, échanger et explorer de nouvelles idées. Ton esprit est souvent en activité et tu as besoin de variété pour te sentir stimulé(e). Tu n’aimes pas les contraintes trop rigides et tu préfères garder une certaine légèreté dans ta manière de vivre. Tu es adaptable et ouvert(e), mais tu peux parfois te disperser ou manquer de stabilité. Ton défi est de canaliser ton énergie mentale pour aller plus loin. Ta force réside dans ta capacité à t’adapter, à communiquer et à voir les choses sous différents angles.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777034126/air_dnm5pp.jpg"
+    },
+    {
+      "key": "terre",
+      "title": "La Terre",
+      "description": "Tu es stable, fiable et ancré(e). Tu aimes construire, sécuriser et avancer de manière concrète. Tu es quelqu’un de posé, réfléchi et souvent très constant dans ce que tu fais. Tu privilégies la stabilité, la cohérence et les bases solides. Tu peux être perçu(e) comme quelqu’un de rassurant sur qui on peut compter. Tu n’aimes pas l’imprévu excessif et tu préfères garder un certain contrôle sur les choses. Ton défi est de ne pas rester trop dans ta zone de confort. Ta force réside dans ta capacité à construire sur le long terme et à apporter de la stabilité autour de toi.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777034126/terre_pdc6tu.jpg"
+    }
+  ],
+  "questions": [
+    {
+      "id": "1",
+      "question": "Face à une situation imprévue, tu réagis plutôt…",
+      "answers": [
+        { "label": "Je fonce sans trop réfléchir", "scores": { "feu": 3 } },
+        { "label": "Je ressens beaucoup avant d’agir", "scores": { "eau": 3 } },
+        { "label": "J’improvise et je m’adapte", "scores": { "air": 3 } },
+        { "label": "Je prends le temps d’analyser", "scores": { "terre": 3 } }
+      ]
+    },
+    {
+      "id": "2",
+      "question": "Ce qui te définit le plus…",
+      "answers": [
+        { "label": "L’intensité", "scores": { "feu": 3 } },
+        { "label": "La sensibilité", "scores": { "eau": 3 } },
+        { "label": "La liberté", "scores": { "air": 3 } },
+        { "label": "La stabilité", "scores": { "terre": 3 } }
+      ]
+    },
+    {
+      "id": "3",
+      "question": "Ton environnement idéal…",
+      "answers": [
+        { "label": "Dynamique et stimulant", "scores": { "feu": 3 } },
+        { "label": "Calme et apaisant", "scores": { "eau": 3 } },
+        { "label": "Ouvert et changeant", "scores": { "air": 3 } },
+        { "label": "Stable et organisé", "scores": { "terre": 3 } }
+      ]
+    },
+    {
+      "id": "4",
+      "question": "Quand tu prends une décision importante…",
+      "answers": [
+        { "label": "Je me fie à mon instinct", "scores": { "feu": 3 } },
+        { "label": "Je me base sur mes ressentis", "scores": { "eau": 3 } },
+        { "label": "Je réfléchis à plusieurs options", "scores": { "air": 3 } },
+        { "label": "J’analyse en profondeur", "scores": { "terre": 3 } }
+      ]
+    },
+    {
+      "id": "5",
+      "question": "Ce qui te fatigue le plus…",
+      "answers": [
+        { "label": "L’ennui", "scores": { "feu": 3 } },
+        { "label": "Les tensions émotionnelles", "scores": { "eau": 3 } },
+        { "label": "La routine", "scores": { "air": 3 } },
+        { "label": "Le chaos", "scores": { "terre": 3 } }
+      ]
+    },
+    {
+      "id": "6",
+      "question": "Dans un groupe, tu es plutôt…",
+      "answers": [
+        { "label": "Leader naturel", "scores": { "feu": 3 } },
+        { "label": "À l’écoute des autres", "scores": { "eau": 3 } },
+        { "label": "Celui qui échange et propose", "scores": { "air": 3 } },
+        { "label": "Celui qui structure", "scores": { "terre": 3 } }
+      ]
+    },
+    {
+      "id": "7",
+      "question": "Quand tu es stressé(e)…",
+      "answers": [
+        { "label": "Je réagis rapidement", "scores": { "feu": 3 } },
+        { "label": "Je ressens tout intensément", "scores": { "eau": 3 } },
+        { "label": "Je me change les idées", "scores": { "air": 3 } },
+        { "label": "Je me recentre", "scores": { "terre": 3 } }
+      ]
+    },
+    {
+      "id": "8",
+      "question": "Ce qui te motive le plus…",
+      "answers": [
+        { "label": "Les défis", "scores": { "feu": 3 } },
+        { "label": "Les relations", "scores": { "eau": 3 } },
+        { "label": "La découverte", "scores": { "air": 3 } },
+        { "label": "La sécurité", "scores": { "terre": 3 } }
+      ]
+    },
+    {
+      "id": "9",
+      "question": "Ton rythme idéal…",
+      "answers": [
+        { "label": "Intense", "scores": { "feu": 3 } },
+        { "label": "Émotionnel", "scores": { "eau": 3 } },
+        { "label": "Flexible", "scores": { "air": 3 } },
+        { "label": "Régulier", "scores": { "terre": 3 } }
+      ]
+    },
+    {
+      "id": "10",
+      "question": "Au fond, tu es quelqu’un de…",
+      "answers": [
+        { "label": "Passionné(e)", "scores": { "feu": 3 } },
+        { "label": "Sensible", "scores": { "eau": 3 } },
+        { "label": "Curieux(se)", "scores": { "air": 3 } },
+        { "label": "Posé(e)", "scores": { "terre": 3 } }
+      ]
+    }
+  ]
+}

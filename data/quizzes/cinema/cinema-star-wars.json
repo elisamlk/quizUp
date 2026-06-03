@@ -1,0 +1,164 @@
+{
+  "slug": "quiz-cinema-star-wars-etes-vous-un-jedi",
+  "title": "Quiz Cinéma - Star Wars - Êtes-vous un Jedi ?",
+  "description": "Testez vos connaissances sur la saga Star Wars et découvrez si vous êtes digne de la Force.",
+  "descriptionSeo": "Star Wars est une saga incontournable du cinéma mêlant aventure spatiale, mythologie et combats épiques. À travers ses personnages emblématiques, ses planètes mythiques et ses conflits entre Jedi et Sith, cet univers a marqué plusieurs générations. Ce quiz cinéma vous propose 20 questions pour tester votre connaissance des films, de leur narration et de leurs thèmes profonds. Saurez-vous reconnaître les éléments clés et comprendre les enjeux qui font toute la richesse de cette saga légendaire ?",
+  "category": {
+    "name": "Cinéma",
+    "slug": "cinema"
+  },
+  "createdAt": "2026-04-07",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1775733235/cover_jigoq9.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1775733235/cover_jigoq9.jpg",
+    "alt": "Quiz cinéma Star Wars Jedi"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "question": "Qui est le père de Luke Skywalker ?",
+      "answers": ["Anakin Skywalker", "Yoda", "Obi-Wan", "Han Solo"],
+      "correctIndex": 0,
+      "explanation": "La révélation qu’Anakin est Dark Vador redéfinit toute la saga en introduisant une tragédie familiale au cœur du récit. Ce twist transforme Star Wars en une histoire de transmission, de chute et de possible rédemption plutôt qu’un simple affrontement entre héros et méchant."
+    },
+    {
+      "id": "2",
+      "question": "Quelle arme emblématique utilisent les Jedi ?",
+      "answers": ["Blaster", "Sabre laser", "Arc plasma", "Fusil ionique"],
+      "correctIndex": 1,
+      "explanation": "Le sabre laser est un symbole spirituel autant qu’une arme. Sa construction est un rite initiatique pour les Jedi, et sa couleur reflète souvent leur identité et leur rapport à la Force."
+    },
+    {
+      "id": "3",
+      "question": "Sur quelle planète vit Luke au début ?",
+      "answers": ["Naboo", "Hoth", "Tatooine", "Endor"],
+      "correctIndex": 2,
+      "explanation": "Tatooine est un archétype narratif : un monde désertique isolé, typique du 'monde ordinaire' dans le parcours du héros. C’est de cet environnement banal que Luke est appelé à une destinée extraordinaire."
+    },
+    {
+      "id": "4",
+      "question": "Qui est le maître de Luke Skywalker ?",
+      "answers": ["Anakin", "Mace Windu", "Palpatine", "Yoda"],
+      "correctIndex": 3,
+      "explanation": "Yoda incarne la philosophie Jedi : patience, détachement et maîtrise intérieure. Son enseignement met l’accent sur la perception plutôt que la force brute, ce qui oppose directement les Jedi aux Sith."
+    },
+
+    {
+      "id": "5",
+      "question": "Quel est le vrai nom de Dark Vador ?",
+      "answers": ["Anakin Skywalker", "Ben Solo", "Rey", "Qui-Gon"],
+      "correctIndex": 3,
+      "explanation": "Même si la bonne réponse est Anakin, sa transformation en Vador est une tragédie construite sur la peur de perdre et la manipulation. Cela montre que le mal dans Star Wars naît souvent d’émotions humaines mal maîtrisées."
+    },
+    {
+      "id": "6",
+      "question": "Qui dirige l’Empire galactique ?",
+      "answers": ["Vador", "Snoke", "Palpatine", "Thrawn"],
+      "correctIndex": 2,
+      "explanation": "Palpatine est un exemple classique de tyran qui accède au pouvoir par manipulation politique. La saga montre comment une démocratie peut basculer vers une dictature avec l’accord implicite de la population."
+    },
+    {
+      "id": "7",
+      "question": "Quel vaisseau pilote Han Solo ?",
+      "answers": ["X-Wing", "TIE Fighter", "Faucon Millenium", "Destroyer"],
+      "correctIndex": 1,
+      "explanation": "Le Faucon Millenium est volontairement imparfait, ce qui renforce son côté attachant. Il symbolise un univers plus 'sale' et réaliste, loin de la science-fiction aseptisée classique."
+    },
+    {
+      "id": "8",
+      "question": "Quelle princesse est capturée dans l’épisode IV ?",
+      "answers": ["Leia", "Padmé", "Rey", "Jyn"],
+      "correctIndex": 0,
+      "explanation": "Leia est l’un des premiers personnages féminins forts dans un blockbuster. Elle renverse les codes en étant à la fois captive et stratège, et non une simple figure à sauver."
+    },
+
+    {
+      "id": "9",
+      "question": "Quel ordre protège la paix dans la galaxie ?",
+      "answers": ["Sith", "Jedi", "Mandaloriens", "Clones"],
+      "correctIndex": 1,
+      "explanation": "Les Jedi incarnent l’équilibre, mais leur rigidité et leur éloignement du réel contribuent à leur chute. La saga montre que même les gardiens du bien peuvent échouer."
+    },
+    {
+      "id": "10",
+      "question": "Quelle planète glacée apparaît dans L’Empire contre-attaque ?",
+      "answers": ["Endor", "Mustafar", "Dagobah", "Hoth"],
+      "correctIndex": 3,
+      "explanation": "Hoth est une démonstration de mise en scène spectaculaire, notamment avec la bataille contre les AT-AT. Elle montre aussi la vulnérabilité de la Rébellion face à l’Empire."
+    },
+    {
+      "id": "11",
+      "question": "Qui est le fils de Leia et Han Solo ?",
+      "answers": ["Ben Solo", "Luke", "Finn", "Anakin"],
+      "correctIndex": 0,
+      "explanation": "Ben Solo reprend le thème central de la saga : la tentation du côté obscur. Il montre que l’héritage familial n’empêche pas les erreurs, mais laisse toujours place à la rédemption."
+    },
+    {
+      "id": "12",
+      "question": "Quel robot accompagne Luke ?",
+      "answers": ["R2-D2", "BB-8", "C-3PO", "K-2SO"],
+      "correctIndex": 2,
+      "explanation": "R2-D2 est un personnage discret mais essentiel : il est souvent le déclencheur de l’action, notamment en transportant des informations cruciales."
+    },
+
+    {
+      "id": "13",
+      "question": "Quelle arme détruit Alderaan ?",
+      "answers": ["Death Star", "Destroyer", "Canon orbital", "Sith canon"],
+      "correctIndex": 2,
+      "explanation": "La destruction d’Alderaan sert à montrer la brutalité absolue de l’Empire. C’est un moment clé qui établit les enjeux à grande échelle de la saga."
+    },
+    {
+      "id": "14",
+      "question": "Qui forme Obi-Wan Kenobi ?",
+      "answers": ["Qui-Gon", "Yoda", "Windu", "Dooku"],
+      "correctIndex": 0,
+      "explanation": "Qui-Gon Jinn est un Jedi atypique, plus instinctif et moins attaché aux règles. Il représente une autre voie possible que celle du Conseil Jedi."
+    },
+    {
+      "id": "15",
+      "question": "Quel est le nom de l’énergie mystique ?",
+      "answers": ["Force", "Flux", "Éther", "Ki"],
+      "correctIndex": 3,
+      "explanation": "La Force est une métaphore spirituelle inspirée de philosophies orientales. Elle structure tout l’univers et les choix des personnages."
+    },
+    {
+      "id": "16",
+      "question": "Quel peuple vit sur Endor ?",
+      "answers": ["Ewoks", "Wookiees", "Jawas", "Tusken"],
+      "correctIndex": 1,
+      "explanation": "Les Ewoks illustrent un thème récurrent : la technologie et la puissance brute ne garantissent pas la victoire face à l’ingéniosité et à la solidarité."
+    },
+
+    {
+      "id": "17",
+      "question": "Quel chasseur de primes est devenu culte ?",
+      "answers": ["Boba Fett", "Lando", "Poe", "Hux"],
+      "correctIndex": 0,
+      "explanation": "Boba Fett est un exemple parfait de personnage culte avec peu de présence à l’écran, grâce à son design et au mystère qui l’entoure."
+    },
+    {
+      "id": "18",
+      "question": "Quelle couleur est associée aux Sith ?",
+      "answers": ["Bleu", "Vert", "Rouge", "Violet"],
+      "correctIndex": 2,
+      "explanation": "Le rouge symbolise la colère, la domination et l’agressivité, valeurs liées au côté obscur de la Force."
+    },
+    {
+      "id": "19",
+      "question": "Qui est Dark Vador à l’origine ?",
+      "answers": ["Luke", "Anakin", "Ben", "Rey"],
+      "correctIndex": 1,
+      "explanation": "L’identité de Vador est essentielle pour comprendre la saga comme une tragédie familiale et non seulement une lutte entre bien et mal."
+    },
+    {
+      "id": "20",
+      "question": "Quel est le thème central de Star Wars ?",
+      "answers": ["Richesse", "Pouvoir", "Technologie", "Équilibre entre bien et mal"],
+      "correctIndex": 3,
+      "explanation": "Star Wars repose sur une dualité morale : chaque personnage est confronté à des choix. La saga insiste sur le fait que l’équilibre dépend des décisions individuelles."
+    }
+  ]
+}

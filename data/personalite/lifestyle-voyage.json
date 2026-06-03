@@ -1,0 +1,130 @@
+{
+  "slug": "test-es-tu-fait-pour-voyager",
+  "title": "Test lifestyle - Es-tu fait(e) pour voyager ?",
+  "description": "Le voyage est-il vraiment fait pour toi ?",
+  "descriptionSeo": "Organisation, imprévus, découverte, confort… ce test analyse ton rapport au voyage pour révéler si tu es vraiment fait(e) pour partir à l’aventure. À travers des situations concrètes, découvre si tu es un(e) vrai(e) explorateur(trice), un(e) voyageur(se) occasionnel(le) ou quelqu’un qui préfère la stabilité.",
+  "category": {
+    "name": "Lifestyle",
+    "slug": "lifestyle"
+  },
+  "createdAt": "2026-04-27",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777372764/cover_nfvxws.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777372764/cover_nfvxws.jpg",
+    "alt": "Test voyager personnalité"
+  },
+  "profiles": [
+    {
+      "key": "aventurier",
+      "title": "Explorateur(trice) dans l’âme",
+      "description": "Tu es clairement fait(e) pour voyager. L’inconnu ne te fait pas peur, au contraire : il t’attire. Tu aimes sortir de ta zone de confort, découvrir de nouvelles cultures, tester des choses différentes et vivre des expériences uniques. Tu t’adaptes facilement, même quand tout ne se passe pas comme prévu. Pour toi, voyager, ce n’est pas juste partir en vacances, c’est une manière de vivre, d’apprendre et de grandir. Tu es curieux(se), ouvert(e) et prêt(e) à t’immerger dans l’inconnu. Peu importe le confort, l’essentiel est l’expérience.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776949673/cover_arucbu.jpg"
+    },
+    {
+      "key": "equilibre",
+      "title": "Voyageur(se) équilibré(e)",
+      "description": "Tu aimes voyager, mais avec un certain cadre. Tu apprécies découvrir de nouveaux endroits, mais tu as besoin d’un minimum d’organisation et de confort pour te sentir bien. Tu es ouvert(e) à l’expérience, mais tu préfères quand les choses sont un peu planifiées. Tu peux sortir de ta zone de confort, mais pas trop longtemps. Tu trouves ton équilibre entre aventure et sécurité. Pour toi, le voyage doit rester agréable, sans trop de stress ni d’imprévus.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776778847/balanced_e70dki.jpg"
+    },
+    {
+      "key": "casanier",
+      "title": "Pas vraiment fait(e) pour voyager",
+      "description": "Tu n’es pas forcément attiré(e) par le voyage. Tu préfères ton confort, tes repères et ton environnement habituel. L’idée de partir loin, de changer de routine ou de gérer des imprévus peut vite te fatiguer. Tu peux apprécier certains déplacements, mais ce n’est pas ce qui te fait vibrer. Tu te sens mieux dans un cadre stable, maîtrisé, où tu sais à quoi t’attendre. Pour toi, le bien-être passe plus par la tranquillité que par l’aventure.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777373055/staying-in_noizua.jpg"
+    }
+  ],
+  "questions": [
+    {
+      "id": "1",
+      "question": "Ton vol est retardé de 4 heures…",
+      "answers": [
+        { "label": "Je prends ça comme une aventure", "scores": { "aventurier": 3 } },
+        { "label": "Ça m’agace mais je m’adapte", "scores": { "equilibre": 3 } },
+        { "label": "Ça me stresse énormément", "scores": { "casanier": 3 } }
+      ]
+    },
+    {
+      "id": "2",
+      "question": "Tu arrives dans un pays où tu ne comprends rien à la langue…",
+      "answers": [
+        { "label": "Parfait, ça rend le voyage encore plus intéressant", "scores": { "aventurier": 3 } },
+        { "label": "Je me débrouille comme je peux", "scores": { "equilibre": 3 } },
+        { "label": "Je suis complètement perdu(e)", "scores": { "casanier": 3 } }
+      ]
+    },
+    {
+      "id": "3",
+      "question": "Ton logement n’est pas du tout comme prévu…",
+      "answers": [
+        { "label": "Je m’adapte et je fais avec", "scores": { "aventurier": 3 } },
+        { "label": "Je cherche une solution", "scores": { "equilibre": 3 } },
+        { "label": "Ça gâche mon voyage", "scores": { "casanier": 3 } }
+      ]
+    },
+    {
+      "id": "4",
+      "question": "Tu dois organiser un voyage…",
+      "answers": [
+        { "label": "Je pars presque sans plan", "scores": { "aventurier": 3 } },
+        { "label": "Je prépare un minimum", "scores": { "equilibre": 3 } },
+        { "label": "Je veux tout prévoir", "scores": { "casanier": 3 } }
+      ]
+    },
+    {
+      "id": "5",
+      "question": "Dormir dans un endroit inconfortable…",
+      "answers": [
+        { "label": "Ça fait partie de l’expérience", "scores": { "aventurier": 3 } },
+        { "label": "Ça passe pour une nuit", "scores": { "equilibre": 3 } },
+        { "label": "Impossible pour moi", "scores": { "casanier": 3 } }
+      ]
+    },
+    {
+      "id": "6",
+      "question": "Goûter une nourriture totalement inconnue…",
+      "answers": [
+        { "label": "J’adore tester", "scores": { "aventurier": 3 } },
+        { "label": "Je goûte mais prudemment", "scores": { "equilibre": 3 } },
+        { "label": "Je préfère éviter", "scores": { "casanier": 3 } }
+      ]
+    },
+    {
+      "id": "7",
+      "question": "Tu es perdu(e) dans une ville étrangère…",
+      "answers": [
+        { "label": "Je continue d’explorer", "scores": { "aventurier": 3 } },
+        { "label": "Je cherche mon chemin calmement", "scores": { "equilibre": 3 } },
+        { "label": "Je panique un peu", "scores": { "casanier": 3 } }
+      ]
+    },
+    {
+      "id": "8",
+      "question": "Partir seul(e) à l’étranger…",
+      "answers": [
+        { "label": "Ça me motive", "scores": { "aventurier": 3 } },
+        { "label": "Pourquoi pas, mais pas trop longtemps", "scores": { "equilibre": 3 } },
+        { "label": "Je n’oserais pas", "scores": { "casanier": 3 } }
+      ]
+    },
+    {
+      "id": "9",
+      "question": "Ton sac est perdu à l’aéroport…",
+      "answers": [
+        { "label": "Je relativise", "scores": { "aventurier": 3 } },
+        { "label": "Je gère la situation", "scores": { "equilibre": 3 } },
+        { "label": "C’est la catastrophe", "scores": { "casanier": 3 } }
+      ]
+    },
+    {
+      "id": "10",
+      "question": "Au fond, voyager pour toi c’est…",
+      "answers": [
+        { "label": "Essentiel", "scores": { "aventurier": 3 } },
+        { "label": "Important mais pas indispensable", "scores": { "equilibre": 3 } },
+        { "label": "Pas une priorité", "scores": { "casanier": 3 } }
+      ]
+    }
+  ]
+}

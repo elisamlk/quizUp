@@ -1,0 +1,300 @@
+{
+    "slug": "quiz-culture-generale-france-20-questions",
+    "title": "Quiz Culture Générale France – 20 Questions",
+    "description": "Un quiz de culture générale sur la France avec 20 questions mêlant histoire, géographie, culture et faits incontournables.",
+    "descriptionSeo": "Testez vos connaissances avec ce quiz de culture générale spécial France. De l’histoire aux régions, en passant par la culture, les monuments et les grandes figures françaises, ces 20 questions vous plongent au cœur de l’Hexagone. Chaque réponse est accompagnée d’une explication enrichissante pour mieux comprendre les particularités, les traditions et l’héritage de la France.",
+    "category": {
+        "name": "Culture générale",
+        "slug": "culture-generale"
+    },
+    "createdAt": "2026-03-30",
+    "isNew": true,
+    "isPopular": false,
+    "images": {
+        "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1773913710/cover_ii4tqd.jpg",
+        "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1773913710/cover_ii4tqd.jpg",
+        "alt": "Quiz culture générale France 20 questions"
+    },
+    "questions": [
+        {
+            "id": "france-1",
+            "question": "Quel département français est le plus peuplé ?",
+            "image": null,
+            "imagePrompt": "paris skyline dense population city france",
+            "answers": [
+                "Bouches-du-Rhône",
+                "Nord",
+                "Paris",
+                "Seine-Saint-Denis"
+            ],
+            "correctIndex": 2,
+            "explanation": "Le département de Paris (75) est le plus peuplé de France en termes de densité et de population intra-muros. Bien que d'autres départements soient plus vastes, Paris concentre une population très importante sur un territoire réduit."
+        },
+        {
+            "id": "france-2",
+            "question": "Quel fleuve traverse Paris ?",
+            "image": null,
+            "imagePrompt": "seine river paris bridges city",
+            "answers": [
+                "Loire",
+                "Seine",
+                "Garonne",
+                "Rhône"
+            ],
+            "correctIndex": 1,
+            "explanation": "La Seine traverse Paris d’est en ouest et structure la ville depuis l’Antiquité. Elle a joué un rôle majeur dans le commerce, le transport et le développement historique de la capitale."
+        },
+        {
+            "id": "france-3",
+            "question": "Quel roi est surnommé le « Roi Soleil » ?",
+            "image": null,
+            "imagePrompt": "louis xiv versailles palace portrait",
+            "answers": [
+                "Louis XIII",
+                "Louis XV",
+                "Louis XIV",
+                "Henri IV"
+            ],
+            "correctIndex": 2,
+            "explanation": "Louis XIV est surnommé le « Roi Soleil » en raison de son pouvoir absolu et de son rayonnement. Il a centralisé l’État et fait du château de Versailles le symbole de la monarchie française."
+        },
+        {
+            "id": "france-4",
+            "question": "Quelle ville française est surnommée « la ville rose » ?",
+            "image": null,
+            "imagePrompt": "toulouse city pink buildings sunset brick architecture",
+            "answers": [
+                "Bordeaux",
+                "Lyon",
+                "Toulouse",
+                "Nice"
+            ],
+            "correctIndex": 2,
+            "explanation": "Toulouse est surnommée « la ville rose » en raison de la couleur de ses bâtiments en briques de terre cuite. Cette particularité architecturale lui donne une teinte chaleureuse unique, surtout au coucher du soleil."
+        },
+        {
+            "id": "france-5",
+            "question": "Quel est le plus long fleuve de France ?",
+            "image": null,
+            "imagePrompt": "loire river castles france landscape",
+            "answers": [
+                "Seine",
+                "Rhône",
+                "Loire",
+                "Garonne"
+            ],
+            "correctIndex": 2,
+            "explanation": "La Loire est le plus long fleuve de France. Elle est célèbre pour ses châteaux et ses paysages classés au patrimoine mondial de l’UNESCO."
+        },
+        {
+            "id": "france-6",
+            "question": "Quelle ville est connue pour être la capitale de la gastronomie française ?",
+            "image": null,
+            "imagePrompt": "lyon old town food gastronomy france",
+            "answers": [
+                "Paris",
+                "Bordeaux",
+                "Lyon",
+                "Nice"
+            ],
+            "correctIndex": 2,
+            "explanation": "Lyon est souvent considérée comme la capitale de la gastronomie française, notamment grâce à ses bouchons traditionnels et à des chefs célèbres comme Paul Bocuse."
+        },
+        {
+            "id": "france-7",
+            "question": "Quel monument emblématique se trouve à Paris et a été construit pour l’Exposition universelle de 1889 ?",
+            "image": null,
+            "imagePrompt": "eiffel tower paris night lights",
+            "answers": [
+                "Arc de Triomphe",
+                "Tour Eiffel",
+                "Panthéon",
+                "Notre-Dame"
+            ],
+            "correctIndex": 1,
+            "explanation": "La Tour Eiffel a été construite par Gustave Eiffel pour l’Exposition universelle de 1889. Elle est aujourd’hui l’un des symboles les plus connus de la France."
+        },
+        {
+            "id": "france-8",
+            "question": "Quel général français est devenu empereur en 1804 ?",
+            "image": null,
+            "imagePrompt": "napoleon bonaparte emperor portrait france",
+            "answers": [
+                "Charles de Gaulle",
+                "Napoléon Bonaparte",
+                "Louis XVI",
+                "François Ier"
+            ],
+            "correctIndex": 1,
+            "explanation": "Napoléon Bonaparte se proclame empereur en 1804. Il marque durablement la France et l’Europe par ses réformes et ses conquêtes."
+        },
+        {
+            "id": "france-9",
+            "question": "Quelle chaîne de montagnes sépare la France de l’Espagne ?",
+            "image": null,
+            "imagePrompt": "pyrenees mountains france spain border",
+            "answers": [
+                "Alpes",
+                "Vosges",
+                "Massif central",
+                "Pyrénées"
+            ],
+            "correctIndex": 3,
+            "explanation": "Les Pyrénées forment une frontière naturelle entre la France et l’Espagne et constituent une barrière géographique importante."
+        },
+        {
+            "id": "france-10",
+            "question": "Quel est le plus haut sommet de France ?",
+            "image": null,
+            "imagePrompt": "mont blanc alps snow peak france",
+            "answers": [
+                "Mont Blanc",
+                "Pic du Midi",
+                "Puy de Dôme",
+                "Aiguille du Midi"
+            ],
+            "correctIndex": 0,
+            "explanation": "Le Mont Blanc, situé dans les Alpes, est le plus haut sommet de France et d’Europe occidentale, culminant à environ 4 800 mètres."
+        },
+        {
+            "id": "france-11",
+            "question": "Quel vin célèbre est produit dans la région de Bordeaux ?",
+            "image": null,
+            "imagePrompt": "bordeaux vineyard wine france grapes",
+            "answers": [
+                "Champagne",
+                "Bordeaux",
+                "Beaujolais",
+                "Cognac"
+            ],
+            "correctIndex": 1,
+            "explanation": "La région de Bordeaux est mondialement réputée pour ses vins rouges et blancs, considérés parmi les meilleurs au monde."
+        },
+        {
+            "id": "france-12",
+            "question": "Quel écrivain français a écrit « Les Misérables » ?",
+            "image": null,
+            "imagePrompt": "victor hugo portrait french writer",
+            "answers": [
+                "Émile Zola",
+                "Victor Hugo",
+                "Molière",
+                "Balzac"
+            ],
+            "correctIndex": 1,
+            "explanation": "Victor Hugo est l’auteur de « Les Misérables », une œuvre majeure qui aborde les injustices sociales du XIXe siècle en France."
+        },
+        {
+            "id": "france-13",
+            "question": "Quelle mer borde le sud de la France ?",
+            "image": null,
+            "imagePrompt": "mediterranean coast france riviera",
+            "answers": [
+                "Mer du Nord",
+                "Mer Baltique",
+                "Mer Méditerranée",
+                "Océan Atlantique"
+            ],
+            "correctIndex": 2,
+            "explanation": "La mer Méditerranée borde le sud de la France et influence fortement le climat et la culture des régions comme la Provence et la Côte d’Azur."
+        },
+        {
+            "id": "france-14",
+            "question": "Quel est le symbole national de la République française ?",
+            "image": null,
+            "imagePrompt": "french rooster symbol emblem france",
+            "answers": [
+                "Aigle",
+                "Lion",
+                "Coq",
+                "Cheval"
+            ],
+            "correctIndex": 2,
+            "explanation": "Le coq gaulois est un symbole historique de la France, associé à la fierté nationale et à l’identité du pays."
+        },
+        {
+            "id": "france-15",
+            "question": "Quelle ville est connue pour son festival de cinéma international ?",
+            "image": null,
+            "imagePrompt": "cannes film festival red carpet france",
+            "answers": [
+                "Nice",
+                "Cannes",
+                "Marseille",
+                "Lille"
+            ],
+            "correctIndex": 1,
+            "explanation": "Le Festival de Cannes est l’un des plus prestigieux festivals de cinéma au monde, attirant chaque année des réalisateurs et acteurs internationaux."
+        },
+        {
+            "id": "france-16",
+            "question": "Quel président français a fondé la Ve République en 1958 ?",
+            "image": null,
+            "imagePrompt": "charles de gaulle portrait france president",
+            "answers": [
+                "François Mitterrand",
+                "Jacques Chirac",
+                "Charles de Gaulle",
+                "Valéry Giscard d’Estaing"
+            ],
+            "correctIndex": 2,
+            "explanation": "Charles de Gaulle a fondé la Ve République en 1958, instaurant un régime politique encore en vigueur aujourd’hui en France."
+        },
+        {
+            "id": "france-17",
+            "question": "Quelle région est célèbre pour le Mont-Saint-Michel ?",
+            "image": null,
+            "imagePrompt": "mont saint michel normandy island abbey france",
+            "answers": [
+                "Bretagne",
+                "Normandie",
+                "Pays de la Loire",
+                "Aquitaine"
+            ],
+            "correctIndex": 1,
+            "explanation": "Le Mont-Saint-Michel se situe en Normandie et est l’un des sites touristiques les plus visités de France, célèbre pour son abbaye et ses marées spectaculaires."
+        },
+        {
+            "id": "france-18",
+            "question": "Quel fleuve passe par Lyon avant de se jeter dans la mer Méditerranée ?",
+            "image": null,
+            "imagePrompt": "rhone river lyon france city",
+            "answers": [
+                "Rhône",
+                "Loire",
+                "Seine",
+                "Garonne"
+            ],
+            "correctIndex": 0,
+            "explanation": "Le Rhône traverse Lyon et se jette dans la mer Méditerranée. Il est un axe économique majeur reliant le nord et le sud de la France."
+        },
+        {
+            "id": "france-19",
+            "question": "Quelle célèbre grotte ornée se trouve en France et date de la préhistoire ?",
+            "image": null,
+            "imagePrompt": "lascaux cave paintings prehistoric france",
+            "answers": [
+                "Altamira",
+                "Lascaux",
+                "Chauvet",
+                "Cosquer"
+            ],
+            "correctIndex": 1,
+            "explanation": "La grotte de Lascaux est célèbre pour ses peintures préhistoriques remarquablement conservées, offrant un aperçu fascinant de l’art des premiers humains."
+        },
+        {
+            "id": "france-20",
+            "question": "Quelle devise est associée à la République française ?",
+            "image": null,
+            "imagePrompt": "liberte egalite fraternite france motto flag",
+            "answers": [
+                "Unité et force",
+                "Liberté, Égalité, Fraternité",
+                "Honneur et Patrie",
+                "Justice et Paix"
+            ],
+            "correctIndex": 1,
+            "explanation": "La devise « Liberté, Égalité, Fraternité » est héritée de la Révolution française et incarne les valeurs fondamentales de la République."
+        }
+    ]
+}

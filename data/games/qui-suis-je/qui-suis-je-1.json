@@ -1,0 +1,68 @@
+{
+  "slug": "qui-suis-je-celebrites",
+  "title": "Qui suis-je ? Célébrités",
+  "description": "Découvre les célébrités cachées derrière des indices progressifs et tente de deviner la bonne réponse avant le dernier indice.",
+  "descriptionSeo": "Teste ta culture générale avec ce jeu Qui suis-je ? spécial célébrités. Devine des personnages célèbres grâce à plusieurs indices progressifs et tente de trouver la réponse le plus rapidement possible. Figures historiques, scientifiques, artistes et personnalités emblématiques t’attendent dans ce mini-jeu gratuit, amusant et accessible sur mobile comme sur ordinateur. Un défi parfait pour les amateurs de culture générale et de jeux de réflexion.",
+  "type": "qui-suis-je",
+  "category": {
+    "name": "Célébrités",
+    "slug": "celebrites"
+  },
+  "createdAt": "2026-05-15",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1779802816/celebrity_eyhkow.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1779802816/celebrity_eyhkow.jpg",
+    "alt": "Qui suis-je ?"
+  },
+  "data": {
+    "items": [
+      {
+        "id": "napoleon",
+        "answer": "Napoléon",
+        "hints": [
+          "Mon nom est lié à de nombreuses batailles européennes.",
+          "J’ai dirigé la France au début du XIXe siècle.",
+          "Ma défaite la plus célèbre a eu lieu à Waterloo."
+        ]
+      },
+      {
+        "id": "einstein",
+        "answer": "Albert Einstein",
+        "hints": [
+          "Je suis considéré comme l’un des plus grands scientifiques du XXe siècle.",
+          "Mes travaux ont profondément changé notre compréhension de l’univers.",
+          "On me connaît notamment pour la formule E = mc²."
+        ]
+      },
+      {
+        "id": "marilyn-monroe",
+        "answer": "Marilyn Monroe",
+        "hints": [
+          "Je suis devenue une icône du cinéma hollywoodien.",
+          "Mon image est associée au glamour des années 1950.",
+          "L’une de mes scènes les plus célèbres implique une robe blanche au-dessus d’une bouche de métro."
+        ]
+      },
+      {
+        "id": "michael-jackson",
+        "answer": "Michael Jackson",
+        "hints": [
+          "Je suis l’un des artistes les plus vendus de tous les temps.",
+          "J’ai popularisé des chorégraphies devenues cultes.",
+          "On me surnomme souvent le Roi de la Pop."
+        ]
+      },
+      {
+        "id": "cleopatre",
+        "answer": "Cléopâtre",
+        "hints": [
+          "Je suis une figure célèbre de l’Antiquité.",
+          "Mon histoire est liée à l’Égypte et à Rome.",
+          "Je suis considérée comme la dernière grande souveraine de l’Égypte antique."
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "slug": "emoji-quiz-series",
+  "title": "Emoji Quiz - Peux-tu reconnaître cette série grâce aux emojis ?",
+  "description": "Devine les séries à partir des emojis dans ce mini-jeu fun et rapide.",
+  "descriptionSeo": "Plonge dans un défi spécial séries TV où chaque suite d’emojis cache une série culte à retrouver. Analyse les indices, fais appel à ta mémoire et tente de reconnaître des univers incontournables comme Friends, Lost, Breaking Bad ou Stranger Things. Ce quiz emoji mélange humour, réflexion et références pop culture dans un format rapide et addictif. Plus tu avances, plus les énigmes deviennent difficiles. Alors, combien de séries arriveras-tu vraiment à identifier ?",
+  "type": "emoji-quiz",
+
+  "category": {
+    "name": "Séries TV",
+    "slug": "series-tv"
+  },
+
+  "createdAt": "2026-05-12",
+  "isNew": true,
+  "isPopular": true,
+
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1778615934/serie_zupykl.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1778615934/serie_zupykl.jpg",
+    "alt": "Quiz Emoji Séries TV"
+  },
+
+  "data": {
+    "items": [
+      {
+        "id": "emoji-serie-1",
+        "emoji": "👫 ☕ 🛋️",
+        "question": "Peux-tu reconnaître cette série grâce aux emojis ?",
+        "answers": [
+          "How I Met Your Mother",
+          "Friends",
+          "The Big Bang Theory",
+          "New Girl"
+        ],
+        "correctIndex": 1,
+        "explanation": "Friends est devenue l’une des sitcoms les plus populaires au monde. Le canapé du Central Perk est l’un des décors les plus reconnaissables de la série."
+      },
+      {
+        "id": "emoji-serie-2",
+        "emoji": "🧪 💊 🚐",
+        "question": "Quelle série culte se cache derrière ces emojis ?",
+        "answers": [
+          "Breaking Bad",
+          "Narcos",
+          "Ozark",
+          "Better Call Saul"
+        ],
+        "correctIndex": 0,
+        "explanation": "Breaking Bad a transformé Bryan Cranston, surtout connu pour Malcolm, en icône dramatique. La série est souvent citée parmi les meilleures de l’histoire de la télévision."
+      },
+      {
+        "id": "emoji-serie-3",
+        "emoji": "🐉 ⚔️ 👑",
+        "question": "Reconnais-tu cette série avec les emojis ?",
+        "answers": [
+          "The Witcher",
+          "Vikings",
+          "Game of Thrones",
+          "The Last Kingdom"
+        ],
+        "correctIndex": 2,
+        "explanation": "Game of Thrones est adaptée des romans de George R. R. Martin. La série a marqué la télévision par ses batailles géantes et ses nombreux retournements de situation."
+      },
+      {
+        "id": "emoji-serie-4",
+        "emoji": "👹 🚲 🔦",
+        "question": "Quelle série est représentée par ces emojis ?",
+        "answers": [
+          "Dark",
+          "Stranger Things",
+          "The Boys",
+          "Lost"
+        ],
+        "correctIndex": 1,
+        "explanation": "Stranger Things rend hommage au cinéma fantastique des années 80, notamment aux œuvres de Steven Spielberg et Stephen King. Son ambiance rétro a beaucoup contribué à son succès."
+      },
+      {
+        "id": "emoji-serie-5",
+        "emoji": "🏦 🎭 💰",
+        "question": "Quelle série se cache derrière ces emojis ?",
+        "answers": [
+          "Prison Break",
+          "La Casa de Papel",
+          "Elite",
+          "Lupin"
+        ],
+        "correctIndex": 1,
+        "explanation": "La Casa de Papel est devenue un phénomène mondial après son arrivée sur Netflix. Les masques de Dalí et la combinaison rouge sont devenus des symboles de la série."
+      },
+      {
+        "id": "emoji-serie-6",
+        "emoji": "🏥 🩺 ❤️",
+        "question": "Peux-tu retrouver cette série médicale ?",
+        "answers": [
+          "Dr House",
+          "Grey's Anatomy",
+          "The Good Doctor",
+          "Urgences"
+        ],
+        "correctIndex": 1,
+        "explanation": "Grey's Anatomy est l’une des séries médicales les plus longues de la télévision américaine. Elle a lancé ou renforcé la carrière de plusieurs acteurs très populaires."
+      },
+      {
+        "id": "emoji-serie-7",
+        "emoji": "🔍 🧠 🧥",
+        "question": "Quelle série d’enquête est cachée ici ?",
+        "answers": [
+          "Sherlock",
+          "Mentalist",
+          "True Detective",
+          "Elementary"
+        ],
+        "correctIndex": 0,
+        "explanation": "Sherlock modernise les aventures du détective créé par Arthur Conan Doyle. Benedict Cumberbatch y joue une version contemporaine de Sherlock Holmes."
+      },
+      {
+        "id": "emoji-serie-8",
+        "emoji": "🏝️ ✈️ ❓",
+        "question": "Quelle série mystérieuse est représentée par ces emojis ?",
+        "answers": [
+          "The 100",
+          "Lost",
+          "Manifest",
+          "Under the Dome"
+        ],
+        "correctIndex": 1,
+        "explanation": "Lost a marqué les années 2000 avec ses mystères, ses flashbacks et ses théories de fans. La série a beaucoup influencé la manière de suivre une fiction épisode après épisode."
+      },
+      {
+        "id": "emoji-serie-9",
+        "emoji": "👑 🇬🇧 📜",
+        "question": "Quelle série historique se cache derrière ces emojis ?",
+        "answers": [
+          "The Crown",
+          "Downton Abbey",
+          "Victoria",
+          "The Tudors"
+        ],
+        "correctIndex": 0,
+        "explanation": "The Crown retrace le règne d’Élisabeth II avec plusieurs actrices pour représenter les différentes périodes de sa vie. La série est connue pour ses décors et costumes très soignés."
+      },
+      {
+        "id": "emoji-serie-10",
+        "emoji": "🚔 🔬 🧬",
+        "question": "Quelle série policière est résumée par ces emojis ?",
+        "answers": [
+          "Esprits criminels",
+          "NCIS",
+          "Les Experts",
+          "Brooklyn Nine-Nine"
+        ],
+        "correctIndex": 2,
+        "explanation": "Les Experts a popularisé les enquêtes scientifiques à la télévision. La série a même inspiré plusieurs spin-offs situés dans d’autres villes comme Miami et Manhattan."
+      }
+    ]
+  }
+}

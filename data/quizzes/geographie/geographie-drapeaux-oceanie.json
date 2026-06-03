@@ -1,0 +1,220 @@
+{
+  "slug": "quiz-geographie-drapeaux-oceanie",
+  "title": "Quiz Géographie Drapeaux d’Océanie - Saura-tu éviter les pièges du Pacifique ?",
+  "description": "Teste ton œil avec les drapeaux d’Océanie et apprends à distinguer ceux qui se ressemblent le plus.",
+  "descriptionSeo": "Ce quiz de géographie propose 20 questions pour reconnaître les drapeaux d’Océanie. Entre héritage britannique, Union Jack, étoiles du Pacifique et symboles culturels, apprenez à distinguer les drapeaux souvent confondus grâce à des explications détaillées et pédagogiques.",
+  "category": {
+    "name": "Géographie",
+    "slug": "geographie"
+  },
+  "createdAt": "2026-03-30",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1774715743/pexels-anvesh-431226582-15259391_ml7yzc.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1774715743/pexels-anvesh-431226582-15259391_ml7yzc.jpg",
+    "alt": "Quiz drapeaux Océanie"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "question": "À quel pays appartient ce drapeau ?",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1774561435/australie_ihgdlo.png",
+      "alt": "Drapeau de l’Australie",
+      "imagePrompt": "Australia flag",
+      "answers": ["Nouvelle-Zélande", "Fidji", "Tuvalu", "Australie"],
+      "correctIndex": 3,
+      "explanation": "L’Australie se distingue par la grande étoile du Commonwealth + plusieurs étoiles blanches. Astuce : beaucoup d’étoiles blanches bien réparties → Australie."
+    },
+    {
+      "id": "2",
+      "question": "À quel pays appartient ce drapeau ?",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1774562081/nouvelle-zelande_zncccr.png",
+      "alt": "Drapeau de la Nouvelle-Zélande",
+      "imagePrompt": "New Zealand flag",
+      "answers": ["Nouvelle-Zélande", "Australie", "Tuvalu", "Fidji"],
+      "correctIndex": 0,
+      "explanation": "Très proche de l’Australie, mais les étoiles sont rouges avec contour blanc. Astuce : étoiles rouges → Nouvelle-Zélande."
+    },
+    {
+      "id": "3",
+      "question": "À quel pays appartient ce drapeau ?",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1774561655/fidji_pwfngp.png",
+      "alt": "Drapeau des Fidji",
+      "imagePrompt": "Fiji flag",
+      "answers": ["Australie", "Fidji", "Nouvelle-Zélande", "Tuvalu"],
+      "correctIndex": 1,
+      "explanation": "Fond bleu clair + blason colonial. Astuce : Union Jack + armoiries détaillées → Fidji."
+    },
+    {
+      "id": "4",
+      "question": "À quel pays appartient ce drapeau ?",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1774562204/tuvalu_q3t3l0.png",
+      "alt": "Drapeau de Tuvalu",
+      "imagePrompt": "Tuvalu flag",
+      "answers": ["Australie", "Nouvelle-Zélande", "Tuvalu", "Fidji"],
+      "correctIndex": 2,
+      "explanation": "Les étoiles représentent les îles du pays. Astuce : étoiles dispersées + fond bleu clair → Tuvalu."
+    },
+    {
+      "id": "5",
+      "question": "À quel pays appartient ce drapeau ?",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1774562144/samoa_ukft00.png",
+      "alt": "Drapeau des Samoa",
+      "imagePrompt": "Samoa flag",
+      "answers": ["Samoa", "Tonga", "Vanuatu", "Kiribati"],
+      "correctIndex": 0,
+      "explanation": "Coin bleu avec étoiles → rappel du ciel austral. Astuce : carré bleu + étoiles → Samoa."
+    },
+    {
+      "id": "6",
+      "question": "À quel pays appartient ce drapeau ?",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1774562195/tonga_dxapxz.png",
+      "alt": "Drapeau des Tonga",
+      "imagePrompt": "Tonga flag",
+      "answers": ["Fidji", "Samoa", "Tonga", "Nauru"],
+      "correctIndex": 2,
+      "explanation": "Croix chrétienne bien visible. Astuce : carré blanc + croix rouge → Tonga."
+    },
+    {
+      "id": "7",
+      "question": "À quel pays appartient ce drapeau ?",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1774562209/vanuatu_xoqail.png",
+      "alt": "Drapeau du Vanuatu",
+      "imagePrompt": "Vanuatu flag",
+      "answers": ["Îles Salomon", "Papouasie", "Vanuatu", "Fidji"],
+      "correctIndex": 2,
+      "explanation": "Forme en Y + symbole tribal. C’est un des rares drapeaux avec un symbole culturel non occidental."
+    },
+    {
+      "id": "8",
+      "question": "À quel pays appartient ce drapeau ?",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1774561860/iles-salomon_vre3h8.png",
+      "alt": "Drapeau des Îles Salomon",
+      "imagePrompt": "Solomon Islands flag",
+      "answers": ["Kiribati", "Tuvalu", "Vanuatu", "Îles Salomon"],
+      "correctIndex": 3,
+      "explanation": "Diagonale + étoiles regroupées. Astuce : ligne diagonale + étoiles → Salomon."
+    },
+    {
+      "id": "9",
+      "question": "À quel pays appartient ce drapeau ?",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1774562010/kiribati_qd35wf.png",
+      "alt": "Drapeau de Kiribati",
+      "imagePrompt": "Kiribati flag",
+      "answers": ["Kiribati", "Fidji", "Samoa", "Nauru"],
+      "correctIndex": 0,
+      "explanation": "Soleil + oiseau + vagues = représentation directe du Pacifique. Unique au monde."
+    },
+    {
+      "id": "10",
+      "question": "À quel pays appartient ce drapeau ?",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1774562067/nauru_czvjwz.png",
+      "alt": "Drapeau de Nauru",
+      "imagePrompt": "Nauru flag",
+      "answers": ["Tuvalu", "Nauru", "Micronésie", "Fidji"],
+      "correctIndex": 1,
+      "explanation": "Étoile isolée sous une ligne → position géographique par rapport à l’équateur."
+    },
+    {
+      "id": "11",
+      "question": "À quel pays appartient ce drapeau ?",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1774562094/papouasie-nouvelle-guinee_pqtqg0.png",
+      "alt": "Drapeau de la Papouasie-Nouvelle-Guinée",
+      "imagePrompt": "Papua New Guinea flag",
+      "answers": ["Australie", "Vanuatu", "Papouasie", "Fidji"],
+      "correctIndex": 2,
+      "explanation": "Oiseau du paradis stylisé. Astuce : animal exotique → Papouasie."
+    },
+    {
+      "id": "12",
+      "question": "À quel pays appartient ce drapeau ?",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1774562054/micronesie_wyhsfd.png",
+      "alt": "Drapeau de la Micronésie",
+      "imagePrompt": "Micronesia flag",
+      "answers": ["Micronésie", "Tuvalu", "Îles Marshall", "Nauru"],
+      "correctIndex": 0,
+      "explanation": "4 étoiles = 4 États. Astuce : fond bleu clair + 4 étoiles → Micronésie."
+    },
+    {
+      "id": "13",
+      "question": "À quel pays appartient ce drapeau ?",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1774561852/iles-marshall_nqqtu4.png",
+      "alt": "Drapeau des Îles Marshall",
+      "imagePrompt": "Marshall Islands flag",
+      "answers": ["Nauru", "Kiribati", "Îles Marshall", "Tuvalu"],
+      "correctIndex": 2,
+      "explanation": "Bandes diagonales + étoile brillante → symbolise la trajectoire solaire."
+    },
+    {
+      "id": "14",
+      "question": "À quel pays appartient ce drapeau ?",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1774562089/palaos-palau_uateoj.png",
+      "alt": "Drapeau de Palaos",
+      "imagePrompt": "Palau flag",
+      "answers": ["Japon", "Micronésie", "Nauru", "Palaos"],
+      "correctIndex": 3,
+      "explanation": "Ressemble au Japon mais fond bleu et disque décalé. Astuce : soleil décentré → Palaos."
+    },
+    {
+      "id": "15",
+      "question": "À quel pays appartient ce drapeau ?",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1774562079/nouvelle-caledonie_ev7ang.png",
+      "alt": "Drapeau de la Nouvelle-Calédonie",
+      "imagePrompt": "New Caledonia flag",
+      "answers": ["Nouvelle-Calédonie", "Polynésie", "Fidji", "Wallis"],
+      "correctIndex": 0,
+      "explanation": "Symbole kanak très identifiable. Astuce : motif tribal circulaire → Nouvelle-Calédonie."
+    },
+    {
+      "id": "16",
+      "question": "À quel pays appartient ce drapeau ?",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1774562107/polynesie-francaise_qewy7y.png",
+      "alt": "Drapeau de la Polynésie française",
+      "imagePrompt": "French Polynesia flag",
+      "answers": ["Nouvelle-Calédonie", "Tonga", "Samoa", "Polynésie française"],
+      "correctIndex": 3,
+      "explanation": "Pirogue + soleil = identité maritime forte. Très narratif visuellement."
+    },
+    {
+      "id": "17",
+      "question": "À quel pays appartient ce drapeau ?",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1774561691/guam_zr0uq1.png",
+      "alt": "Drapeau de Guam",
+      "imagePrompt": "Guam flag",
+      "answers": ["Guam", "Hawaï", "Fidji", "Kiribati"],
+      "correctIndex": 0,
+      "explanation": "Blason ovale unique. Astuce : sceau central entouré → Guam."
+    },
+    {
+      "id": "18",
+      "question": "À quel pays appartient ce drapeau ?",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1774716880/hawai.svg_pkdedn.png",
+      "alt": "Drapeau d’Hawaï",
+      "imagePrompt": "Hawaii flag",
+      "answers": ["Australie", "Hawaï", "Nouvelle-Zélande", "Fidji"],
+      "correctIndex": 1,
+      "explanation": "Seul drapeau avec Union Jack + bandes US. Mélange culturel unique."
+    },
+    {
+      "id": "19",
+      "question": "À quel pays appartient ce drapeau ?",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1774561835/iles-cook_t8liiq.png",
+      "alt": "Drapeau des Îles Cook",
+      "imagePrompt": "Cook Islands flag",
+      "answers": ["Tuvalu", "Fidji", "Îles Cook", "Nouvelle-Zélande"],
+      "correctIndex": 2,
+      "explanation": "Cercle d’étoiles. Astuce : étoiles en rond → Îles Cook."
+    },
+    {
+      "id": "20",
+      "question": "À quel pays appartient ce drapeau ?",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1774562142/samoa-americaines_oxd9da.png",
+      "alt": "Drapeau des Samoa américaines",
+      "imagePrompt": "American Samoa flag",
+      "answers": ["Guam", "Hawaï", "Samoa", "Samoa américaines"],
+      "correctIndex": 3,
+      "explanation": "Triangle + aigle tenant des symboles traditionnels. Très distinctif visuellement."
+    }
+  ]
+}

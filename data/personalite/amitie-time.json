@@ -1,0 +1,130 @@
+{
+  "slug": "test-garder-amis-longtemps",
+  "title": "Test amitié - Es-tu fait(e) pour garder tes amis longtemps ?",
+  "description": "Tes comportements permettent-ils aux relations de durer ?",
+  "descriptionSeo": "Gestion des silences, évolution des relations, efforts dans le temps… ce test analyse tes comportements concrets pour savoir si tu es capable de maintenir des amitiés sur la durée.",
+  "category": {
+    "name": "Amitié",
+    "slug": "amitie"
+  },
+  "createdAt": "2026-04-27",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777727673/cover_hsxbjm.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777727673/cover_hsxbjm.jpg",
+    "alt": "Test amitiés durables"
+  },
+  "profiles": [
+    {
+      "key": "durable",
+      "title": "Tu construis des amitiés durables",
+      "description": "Tu as les réflexes qui permettent aux relations de tenir dans le temps. Tu sais accepter les phases plus calmes, relancer sans forcer et maintenir un lien même à distance. Tu comprends que les amitiés évoluent et tu sais t’adapter sans tout remettre en question. Cette stabilité fait que tes relations ont de grandes chances de durer.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777727809/durable_mjt9dz.jpg"
+    },
+    {
+      "key": "variable",
+      "title": "Des relations qui dépendent des moments",
+      "description": "Tes amitiés peuvent durer… mais pas toujours. Tu peux être très présent(e) à certains moments, puis laisser les liens s’éteindre sans vraiment agir. Tu n’es pas incapable de garder des relations, mais cela dépend beaucoup de ton implication sur la durée.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777727924/unsure_ph1wgk.jpg"
+    },
+    {
+      "key": "instable",
+      "title": "Des relations qui s’éteignent facilement",
+      "description": "Tu as tendance à laisser les relations se perdre avec le temps. Les silences, les distances ou les changements prennent rapidement le dessus. Tu peux passer à autre chose sans vraiment chercher à maintenir le lien. Cela rend tes amitiés plus difficiles à garder sur le long terme.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777728039/relation_leli4x.jpg"
+    }
+  ],
+  "questions": [
+    {
+      "id": "1",
+      "question": "Une discussion devient moins fréquente avec le temps…",
+      "answers": [
+        { "label": "Je relance naturellement de temps en temps", "scores": { "durable": 3 } },
+        { "label": "Je remarque mais je fais peu", "scores": { "variable": 3 } },
+        { "label": "Je laisse disparaître", "scores": { "instable": 3 } }
+      ]
+    },
+    {
+      "id": "2",
+      "question": "Tu n’as pas vu un ami depuis plusieurs mois…",
+      "answers": [
+        { "label": "Je propose de le revoir", "scores": { "durable": 3 } },
+        { "label": "J’y pense sans agir", "scores": { "variable": 3 } },
+        { "label": "Je passe à autre chose", "scores": { "instable": 3 } }
+      ]
+    },
+    {
+      "id": "3",
+      "question": "Une relation change (moins intense qu’avant)…",
+      "answers": [
+        { "label": "Je m’adapte sans dramatiser", "scores": { "durable": 3 } },
+        { "label": "Ça me perturbe un peu", "scores": { "variable": 3 } },
+        { "label": "Je décroche", "scores": { "instable": 3 } }
+      ]
+    },
+    {
+      "id": "4",
+      "question": "Un ami change de rythme de vie…",
+      "answers": [
+        { "label": "Je m’ajuste pour garder le lien", "scores": { "durable": 3 } },
+        { "label": "Je garde contact mais moins", "scores": { "variable": 3 } },
+        { "label": "On se perd rapidement", "scores": { "instable": 3 } }
+      ]
+    },
+    {
+      "id": "5",
+      "question": "Après un désaccord léger…",
+      "answers": [
+        { "label": "Je fais en sorte que ça n’impacte pas le lien", "scores": { "durable": 3 } },
+        { "label": "Ça crée une petite distance", "scores": { "variable": 3 } },
+        { "label": "Je m’éloigne", "scores": { "instable": 3 } }
+      ]
+    },
+    {
+      "id": "6",
+      "question": "Une relation devient moins spontanée…",
+      "answers": [
+        { "label": "Je recrée du lien volontairement", "scores": { "durable": 3 } },
+        { "label": "Je laisse faire", "scores": { "variable": 3 } },
+        { "label": "Je ne fais rien", "scores": { "instable": 3 } }
+      ]
+    },
+    {
+      "id": "7",
+      "question": "Tu regardes une ancienne conversation importante…",
+      "answers": [
+        { "label": "Je relance la personne", "scores": { "durable": 3 } },
+        { "label": "Je réfléchis à le faire", "scores": { "variable": 3 } },
+        { "label": "Je referme", "scores": { "instable": 3 } }
+      ]
+    },
+    {
+      "id": "8",
+      "question": "Tu dois maintenir une amitié à distance…",
+      "answers": [
+        { "label": "Je fais l’effort régulièrement", "scores": { "durable": 3 } },
+        { "label": "J’essaie mais pas toujours", "scores": { "variable": 3 } },
+        { "label": "Ça ne tient pas", "scores": { "instable": 3 } }
+      ]
+    },
+    {
+      "id": "9",
+      "question": "Une relation devient moins prioritaire dans ta vie…",
+      "answers": [
+        { "label": "Je garde quand même un lien", "scores": { "durable": 3 } },
+        { "label": "Je m’en éloigne progressivement", "scores": { "variable": 3 } },
+        { "label": "Je coupe sans vraiment m’en rendre compte", "scores": { "instable": 3 } }
+      ]
+    },
+    {
+      "id": "10",
+      "question": "Quand un lien commence à s’effacer…",
+      "answers": [
+        { "label": "Je fais un geste pour le maintenir", "scores": { "durable": 3 } },
+        { "label": "Je vois ce que ça donne", "scores": { "variable": 3 } },
+        { "label": "Je laisse disparaître", "scores": { "instable": 3 } }
+      ]
+    }
+  ]
+}

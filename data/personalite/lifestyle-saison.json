@@ -1,0 +1,146 @@
+{
+  "slug": "test-quelle-saison-represente-ta-personnalite",
+  "title": "Test lifestyle - Quelle saison représente ta personnalité ?",
+  "description": "Ta personnalité est-elle plutôt printemps, été, automne ou hiver ?",
+  "descriptionSeo": "Découvre quelle saison correspond vraiment à ta personnalité à travers ce test immersif et introspectif. En fonction de tes émotions, de ton énergie, de tes réactions et de ta façon de vivre au quotidien, révèle si tu es plutôt printemps, été, automne ou hiver. Un test lifestyle complet pour mieux te comprendre, explorer ton caractère et identifier la saison qui reflète le mieux ton état d’esprit.",
+  "category": {
+    "name": "Lifestyle",
+    "slug": "lifestyle"
+  },
+  "createdAt": "2026-04-27",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777295033/cover_r6hcyk.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777295033/cover_r6hcyk.jpg",
+    "alt": "Test saison personnalité"
+  },
+  "profiles": [
+    {
+      "key": "printemps",
+      "title": "Printemps",
+      "description": "Tu es une personne lumineuse, pleine d’énergie et tournée vers le renouveau. Tu aimes les débuts, les nouvelles idées et les moments où tout semble possible. Tu as une capacité naturelle à voir le positif, même après des périodes difficiles. Tu es souvent dans une dynamique de croissance, que ce soit dans tes projets ou dans tes relations. Tu inspires les autres par ton enthousiasme et ta fraîcheur. Tu peux parfois te disperser ou t’emballer rapidement, mais cela fait aussi partie de ton charme. Tu es quelqu’un qui avance avec espoir, curiosité et une vraie envie d’évoluer. Ta présence apporte souvent une sensation de légèreté et de nouveauté.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777295026/spring_nzzwj1.jpg"
+    },
+    {
+      "key": "ete",
+      "title": "Été",
+      "description": "Tu es une personne solaire, expressive et tournée vers les autres. Tu aimes profiter du moment présent, partager, rire et vivre pleinement ce que la vie t’offre. Tu es souvent entouré(e), car ton énergie attire naturellement les gens. Tu es spontané(e), chaleureux(se) et tu n’as pas peur de montrer qui tu es. Tu peux parfois être impulsif(ve) ou avoir du mal à ralentir, mais ton intensité fait aussi ta force. Tu es quelqu’un qui vit à fond, qui ressent intensément et qui cherche à créer des souvenirs forts. Avec toi, tout est plus vivant, plus vibrant, plus intense.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777295028/summer_h4qhtj.jpg"
+    },
+    {
+      "key": "automne",
+      "title": "Automne",
+      "description": "Tu es une personne posée, réfléchie et profondément authentique. Tu apprécies les ambiances calmes, les moments simples et les relations sincères. Tu es souvent dans l’observation et l’introspection, ce qui te permet de bien comprendre les autres et toi-même. Tu n’es pas dans le superficiel : tu cherches du sens, de la profondeur et de la stabilité. Tu peux paraître discret(e), mais tu es très présent(e) émotionnellement. Tu aimes prendre le temps, savourer les choses et évoluer à ton rythme. Tu es quelqu’un de fiable, de sincère et d’apaisant pour ton entourage.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777295036/autumn_kg8yku.jpg"
+    },
+    {
+      "key": "hiver",
+      "title": "Hiver",
+      "description": "Tu es une personne intérieure, calme et très connectée à ton monde personnel. Tu as besoin de solitude pour te retrouver, réfléchir et recharger ton énergie. Tu n’aimes pas forcément le bruit ou l’agitation constante. Tu observes beaucoup et tu analyses en profondeur ce qui t’entoure. Tu peux paraître distant(e), mais tu es en réalité très sensible. Tu choisis avec soin les personnes à qui tu te confies. Tu es indépendant(e), lucide et souvent très résilient(e). Tu avances avec discrétion, mais avec une vraie force intérieure. Tu es quelqu’un de stable, profond et difficile à déstabiliser.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777295030/winter_x8jpvv.jpg"
+    }
+  ],
+  "questions": [
+    {
+      "id": "1",
+      "question": "Ton week-end idéal ressemble à…",
+      "answers": [
+        { "label": "Tester quelque chose de nouveau", "scores": { "printemps": 3 } },
+        { "label": "Sortir avec du monde", "scores": { "ete": 3 } },
+        { "label": "Un moment calme et cosy", "scores": { "automne": 3 } },
+        { "label": "Rester seul(e) et tranquille", "scores": { "hiver": 3 } }
+      ]
+    },
+    {
+      "id": "2",
+      "question": "Ton énergie au quotidien…",
+      "answers": [
+        { "label": "Changeante mais enthousiaste", "scores": { "printemps": 3 } },
+        { "label": "Intense et communicative", "scores": { "ete": 3 } },
+        { "label": "Stable et posée", "scores": { "automne": 3 } },
+        { "label": "Calme et intérieure", "scores": { "hiver": 3 } }
+      ]
+    },
+    {
+      "id": "3",
+      "question": "Face à un changement important…",
+      "answers": [
+        { "label": "Je suis excité(e)", "scores": { "printemps": 3 } },
+        { "label": "Je fonce", "scores": { "ete": 3 } },
+        { "label": "Je prends le temps d’y réfléchir", "scores": { "automne": 3 } },
+        { "label": "Je suis d’abord réservé(e)", "scores": { "hiver": 3 } }
+      ]
+    },
+    {
+      "id": "4",
+      "question": "Ce qui compte le plus pour toi…",
+      "answers": [
+        { "label": "Évoluer", "scores": { "printemps": 3 } },
+        { "label": "Profiter", "scores": { "ete": 3 } },
+        { "label": "Se sentir bien", "scores": { "automne": 3 } },
+        { "label": "Être en paix", "scores": { "hiver": 3 } }
+      ]
+    },
+    {
+      "id": "5",
+      "question": "Ton rapport aux autres…",
+      "answers": [
+        { "label": "Ouvert(e) et curieux(se)", "scores": { "printemps": 3 } },
+        { "label": "Très sociable", "scores": { "ete": 3 } },
+        { "label": "Sélectif(ve)", "scores": { "automne": 3 } },
+        { "label": "Réservé(e)", "scores": { "hiver": 3 } }
+      ]
+    },
+    {
+      "id": "6",
+      "question": "Quand tu es stressé(e)…",
+      "answers": [
+        { "label": "Je change d’air", "scores": { "printemps": 3 } },
+        { "label": "Je me change les idées", "scores": { "ete": 3 } },
+        { "label": "Je me pose et je réfléchis", "scores": { "automne": 3 } },
+        { "label": "Je m’isole", "scores": { "hiver": 3 } }
+      ]
+    },
+    {
+      "id": "7",
+      "question": "Ton défaut principal…",
+      "answers": [
+        { "label": "Je me disperse", "scores": { "printemps": 3 } },
+        { "label": "Je suis impulsif(ve)", "scores": { "ete": 3 } },
+        { "label": "Je réfléchis trop", "scores": { "automne": 3 } },
+        { "label": "Je me ferme", "scores": { "hiver": 3 } }
+      ]
+    },
+    {
+      "id": "8",
+      "question": "Ce qui te recharge le plus…",
+      "answers": [
+        { "label": "Le renouveau", "scores": { "printemps": 3 } },
+        { "label": "Les gens", "scores": { "ete": 3 } },
+        { "label": "Le calme", "scores": { "automne": 3 } },
+        { "label": "La solitude", "scores": { "hiver": 3 } }
+      ]
+    },
+    {
+      "id": "9",
+      "question": "Ton rythme idéal…",
+      "answers": [
+        { "label": "Dynamique et changeant", "scores": { "printemps": 3 } },
+        { "label": "Rapide et intense", "scores": { "ete": 3 } },
+        { "label": "Lent et régulier", "scores": { "automne": 3 } },
+        { "label": "Calme et stable", "scores": { "hiver": 3 } }
+      ]
+    },
+    {
+      "id": "10",
+      "question": "Au fond, tu es surtout…",
+      "answers": [
+        { "label": "Optimiste", "scores": { "printemps": 3 } },
+        { "label": "Passionné(e)", "scores": { "ete": 3 } },
+        { "label": "Authentique", "scores": { "automne": 3 } },
+        { "label": "Introspectif(ve)", "scores": { "hiver": 3 } }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "slug": "test-besoin-de-faire-une-pause",
+  "title": "Test bien-être - As-tu besoin de faire une pause ?",
+  "description": "Ton rythme actuel est-il trop intense pour toi ?",
+  "descriptionSeo": "Fatigue, surcharge, perte d’énergie… ce test t’aide à savoir si tu as vraiment besoin de faire une pause. À travers des situations concrètes du quotidien, découvre si tu es encore en équilibre ou proche de la saturation.",
+  "category": {
+    "name": "Bien-être",
+    "slug": "bien-etre"
+  },
+  "createdAt": "2026-04-27",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777575430/cover_kclypa.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777575430/cover_kclypa.jpg",
+    "alt": "Test besoin de pause"
+  },
+  "profiles": [
+    {
+      "key": "equilibre",
+      "title": "Tu tiens encore le rythme",
+      "description": "Ton rythme est soutenu, mais tu tiens encore l’équilibre. Tu arrives à gérer ton énergie sans te sentir complètement dépassé(e). Tu peux ressentir de la fatigue, mais elle reste gérable et tu arrives à récupérer. Tu n’as pas forcément besoin d’une pause immédiate, mais tu gagnerais à continuer à t’écouter pour éviter de basculer dans la surcharge. Garder des moments de récupération réguliers sera essentiel pour maintenir cet équilibre.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777575572/busy_e7p43w.jpg"
+    },
+    {
+      "key": "pause_necessaire",
+      "title": "Tu devrais ralentir",
+      "description": "Tu commences à accumuler de la fatigue et ton rythme devient difficile à tenir sur la durée. Tu peux te sentir un peu débordé(e), moins concentré(e) ou moins motivé(e). Tu tiens encore, mais ça devient fragile. Une vraie pause ou un ralentissement te ferait du bien pour éviter d’aller plus loin dans la fatigue. Ton corps et ton mental commencent à t’envoyer des signaux qu’il serait bon d’écouter.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777575638/slow_zltgwj.jpg"
+    },
+    {
+      "key": "pause_urgente",
+      "title": "Tu as besoin d’une vraie pause",
+      "description": "Ton niveau de fatigue semble élevé. Tu accumules probablement du stress, de la charge mentale ou un manque de repos. Tu peux te sentir vidé(e), irrité(e) ou avoir du mal à suivre ton rythme habituel. Ton corps et ton esprit sont clairement en demande de récupération. Une vraie pause, même courte, pourrait t’aider à retrouver de l’énergie et éviter un épuisement plus profond.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777575740/broken_yg94tn.jpg"
+    }
+  ],
+  "questions": [
+    {
+      "id": "1",
+      "question": "Ton réveil sonne un jour classique…",
+      "answers": [
+        { "label": "Je me lève sans trop de difficulté", "scores": { "equilibre": 3 } },
+        { "label": "C’est un peu dur", "scores": { "pause_necessaire": 3 } },
+        { "label": "Je suis déjà épuisé(e)", "scores": { "pause_urgente": 3 } }
+      ]
+    },
+    {
+      "id": "2",
+      "question": "Tu enchaînes plusieurs jours chargés…",
+      "answers": [
+        { "label": "Je tiens le rythme", "scores": { "equilibre": 3 } },
+        { "label": "Je commence à fatiguer", "scores": { "pause_necessaire": 3 } },
+        { "label": "Je me sens dépassé(e)", "scores": { "pause_urgente": 3 } }
+      ]
+    },
+    {
+      "id": "3",
+      "question": "Tu dois faire une tâche simple…",
+      "answers": [
+        { "label": "Je la fais normalement", "scores": { "equilibre": 3 } },
+        { "label": "Je traîne un peu", "scores": { "pause_necessaire": 3 } },
+        { "label": "Même ça me demande trop d’effort", "scores": { "pause_urgente": 3 } }
+      ]
+    },
+    {
+      "id": "4",
+      "question": "Tu as un moment libre…",
+      "answers": [
+        { "label": "J’en profite vraiment", "scores": { "equilibre": 3 } },
+        { "label": "Je reste un peu fatigué(e)", "scores": { "pause_necessaire": 3 } },
+        { "label": "Je ne récupère pas", "scores": { "pause_urgente": 3 } }
+      ]
+    },
+    {
+      "id": "5",
+      "question": "Ton niveau d’énergie global…",
+      "answers": [
+        { "label": "Stable", "scores": { "equilibre": 3 } },
+        { "label": "En baisse", "scores": { "pause_necessaire": 3 } },
+        { "label": "Très bas", "scores": { "pause_urgente": 3 } }
+      ]
+    },
+    {
+      "id": "6",
+      "question": "Tu dois te concentrer…",
+      "answers": [
+        { "label": "Ça va", "scores": { "equilibre": 3 } },
+        { "label": "C’est plus difficile", "scores": { "pause_necessaire": 3 } },
+        { "label": "Je n’y arrive presque pas", "scores": { "pause_urgente": 3 } }
+      ]
+    },
+    {
+      "id": "7",
+      "question": "Quand quelqu’un te sollicite…",
+      "answers": [
+        { "label": "Je réponds normalement", "scores": { "equilibre": 3 } },
+        { "label": "Ça me fatigue un peu", "scores": { "pause_necessaire": 3 } },
+        { "label": "Ça m’épuise", "scores": { "pause_urgente": 3 } }
+      ]
+    },
+    {
+      "id": "8",
+      "question": "Le soir, ton état…",
+      "answers": [
+        { "label": "Je suis fatigué(e) mais ça va", "scores": { "equilibre": 3 } },
+        { "label": "Je suis vraiment fatigué(e)", "scores": { "pause_necessaire": 3 } },
+        { "label": "Je suis vidé(e)", "scores": { "pause_urgente": 3 } }
+      ]
+    },
+    {
+      "id": "9",
+      "question": "Tu penses à ta journée du lendemain…",
+      "answers": [
+        { "label": "Je me sens prêt(e)", "scores": { "equilibre": 3 } },
+        { "label": "Je sens que ça va être dur", "scores": { "pause_necessaire": 3 } },
+        { "label": "Ça me fatigue d’avance", "scores": { "pause_urgente": 3 } }
+      ]
+    },
+    {
+      "id": "10",
+      "question": "Tu as enfin du temps pour toi…",
+      "answers": [
+        { "label": "Je me ressource", "scores": { "equilibre": 3 } },
+        { "label": "Je récupère un peu", "scores": { "pause_necessaire": 3 } },
+        { "label": "Je reste épuisé(e)", "scores": { "pause_urgente": 3 } }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "slug": "test-management-quel-type-de-boss-es-tu",
+  "title": "Test management - Quel type de boss es-tu ?",
+  "description": "Analyse ton style de management et la manière dont tu diriges les autres.",
+  "descriptionSeo": "Analyse ton style de management à travers ta manière de prendre des décisions, de gérer une équipe et de réagir face aux situations professionnelles. Ce test permet d’identifier si tu es plutôt un leader inspirant, un manager structuré, un coach bienveillant, un dirigeant exigeant ou un profil hybride. Une approche concrète pour mieux comprendre ton impact sur les autres et ton fonctionnement en tant que boss.",
+  "category": {
+    "name": "Carrière",
+    "slug": "carriere"
+  },
+  "createdAt": "2026-04-20",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776947197/boss_sirl1g.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776947197/boss_sirl1g.jpg",
+    "alt": "Test management quel type de boss es tu"
+  },
+  "profiles": [
+    {
+      "key": "leader",
+      "title": "Le Leader Inspirant",
+      "description": "Tu es un leader qui inspire et donne une vision. Tu ne te contentes pas de gérer, tu cherches à embarquer ton équipe autour d’un objectif commun. Tu sais motiver, donner du sens et créer une dynamique positive. Tu fais confiance et tu encourages l’initiative. Ton management repose sur la vision et l’énergie collective. Cependant, tu peux parfois manquer de suivi ou de structure. Ton défi est d’ancrer tes idées dans du concret. Ta force réside dans ta capacité à mobiliser et à faire grandir les autres.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776775125/leader_oqikrz.jpg"
+    },
+    {
+      "key": "structure",
+      "title": "Le Manager Structuré",
+      "description": "Tu es un manager organisé et rigoureux. Tu aimes quand les choses sont claires, planifiées et bien définies. Tu apportes de la stabilité et tu sais structurer le travail efficacement. Ton équipe sait où elle va et ce qu’elle doit faire. Tu es fiable et constant. Cependant, tu peux parfois manquer de flexibilité ou être perçu comme trop cadré. Ton défi est de laisser plus de place à l’initiative. Ta force réside dans ta capacité à organiser et à sécuriser les projets.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776771826/analytic_ofwghg.jpg"
+    },
+    {
+      "key": "coach",
+      "title": "Le Manager Coach",
+      "description": "Tu es un manager humain et attentif. Tu accordes une grande importance aux personnes, à leur évolution et à leur bien-être. Tu prends le temps d’écouter, de comprendre et d’accompagner. Ton management repose sur la confiance et le développement individuel. Tu aides les autres à progresser et à gagner en autonomie. Cependant, tu peux parfois éviter les conflits ou manquer de fermeté. Ton défi est d’assumer pleinement ton rôle de décision. Ta force réside dans ta capacité à faire grandir les autres.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776947515/coach_ug28fy.jpg"
+    },
+    {
+      "key": "exigeant",
+      "title": "Le Manager Exigeant",
+      "description": "Tu es un manager orienté performance. Tu attends des résultats et tu pousses ton équipe à se dépasser. Tu es direct, efficace et tu n’as pas peur de dire les choses. Tu es souvent très impliqué et tu veux que les choses avancent vite. Cette exigence peut tirer ton équipe vers le haut. Cependant, elle peut aussi créer de la pression ou de la distance. Ton défi est d’équilibrer exigence et reconnaissance. Ta force réside dans ta capacité à obtenir des résultats et à maintenir un haut niveau d’exigence.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776947684/exigent_pea8k7.jpg"
+    },
+    {
+      "key": "adaptatif",
+      "title": "Le Manager Adaptatif",
+      "description": "Tu es un manager flexible et intelligent dans ta manière de diriger. Tu sais t’adapter aux personnes, aux situations et aux enjeux. Tu n’as pas un seul style, tu ajustes ton approche selon le contexte. Cette capacité te rend très efficace dans des environnements changeants. Tu sais quand être direct, quand écouter et quand laisser de l’autonomie. Cependant, tu peux parfois manquer de ligne claire ou hésiter. Ton défi est de renforcer ta cohérence. Ta force réside dans ton adaptabilité et ta lecture des situations.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776947616/adaptatif_eeiy7v.jpg"
+    }
+  ],
+  "questions": [
+    {
+      "id": "1",
+      "question": "Un collaborateur ne respecte pas une échéance importante. Tu réagis comment ?",
+      "answers": [
+        { "label": "Je cherche à comprendre avant de réagir", "scores": { "coach": 3, "adaptatif": 1 } },
+        { "label": "Je rappelle clairement les attentes", "scores": { "exigeant": 3 } },
+        { "label": "Je recadre et réorganise le travail", "scores": { "structure": 3 } },
+        { "label": "Je motive pour repartir sur de bonnes bases", "scores": { "leader": 3 } },
+        { "label": "Je m’adapte selon la situation", "scores": { "adaptatif": 3 } }
+      ]
+    },
+    {
+      "id": "2",
+      "question": "Ton rôle principal en tant que manager…",
+      "answers": [
+        { "label": "Donner une vision", "scores": { "leader": 3 } },
+        { "label": "Organiser le travail", "scores": { "structure": 3 } },
+        { "label": "Accompagner les personnes", "scores": { "coach": 3 } },
+        { "label": "Obtenir des résultats", "scores": { "exigeant": 3 } },
+        { "label": "S’adapter aux situations", "scores": { "adaptatif": 3 } }
+      ]
+    },
+    {
+      "id": "3",
+      "question": "Dans une équipe, tu valorises surtout…",
+      "answers": [
+        { "label": "L’engagement", "scores": { "leader": 3 } },
+        { "label": "La rigueur", "scores": { "structure": 3 } },
+        { "label": "L’évolution personnelle", "scores": { "coach": 3 } },
+        { "label": "La performance", "scores": { "exigeant": 3 } },
+        { "label": "La capacité d’adaptation", "scores": { "adaptatif": 3 } }
+      ]
+    },
+    {
+      "id": "4",
+      "question": "Quand il faut prendre une décision difficile…",
+      "answers": [
+        { "label": "Je réfléchis à l’impact global", "scores": { "leader": 3 } },
+        { "label": "Je m’appuie sur des faits", "scores": { "structure": 3 } },
+        { "label": "Je prends en compte les personnes", "scores": { "coach": 3 } },
+        { "label": "Je tranche rapidement", "scores": { "exigeant": 3 } },
+        { "label": "J’adapte selon le contexte", "scores": { "adaptatif": 3 } }
+      ]
+    },
+    {
+      "id": "5",
+      "question": "Face à une équipe démotivée…",
+      "answers": [
+        { "label": "Je redonne du sens", "scores": { "leader": 3 } },
+        { "label": "Je réorganise", "scores": { "structure": 3 } },
+        { "label": "Je prends le temps d’écouter", "scores": { "coach": 3 } },
+        { "label": "Je remets de la pression", "scores": { "exigeant": 3 } },
+        { "label": "Je change d’approche", "scores": { "adaptatif": 3 } }
+      ]
+    },
+    {
+      "id": "6",
+      "question": "Tu préfères une équipe…",
+      "answers": [
+        { "label": "Engagée et motivée", "scores": { "leader": 3 } },
+        { "label": "Organisée", "scores": { "structure": 3 } },
+        { "label": "Solidaire", "scores": { "coach": 3 } },
+        { "label": "Performante", "scores": { "exigeant": 3 } },
+        { "label": "Flexible", "scores": { "adaptatif": 3 } }
+      ]
+    },
+    {
+      "id": "7",
+      "question": "Ton style naturel…",
+      "answers": [
+        { "label": "Inspirer", "scores": { "leader": 3 } },
+        { "label": "Structurer", "scores": { "structure": 3 } },
+        { "label": "Accompagner", "scores": { "coach": 3 } },
+        { "label": "Exiger", "scores": { "exigeant": 3 } },
+        { "label": "Adapter", "scores": { "adaptatif": 3 } }
+      ]
+    },
+    {
+      "id": "8",
+      "question": "Ce qui te définit le mieux…",
+      "answers": [
+        { "label": "Vision", "scores": { "leader": 3 } },
+        { "label": "Organisation", "scores": { "structure": 3 } },
+        { "label": "Humain", "scores": { "coach": 3 } },
+        { "label": "Résultat", "scores": { "exigeant": 3 } },
+        { "label": "Flexibilité", "scores": { "adaptatif": 3 } }
+      ]
+    },
+    {
+      "id": "9",
+      "question": "Dans un conflit…",
+      "answers": [
+        { "label": "Je cherche à rassembler", "scores": { "leader": 3 } },
+        { "label": "Je pose un cadre", "scores": { "structure": 3 } },
+        { "label": "J’écoute les deux parties", "scores": { "coach": 3 } },
+        { "label": "Je tranche", "scores": { "exigeant": 3 } },
+        { "label": "J’ajuste selon les personnes", "scores": { "adaptatif": 3 } }
+      ]
+    },
+    {
+      "id": "10",
+      "question": "Ton objectif principal…",
+      "answers": [
+        { "label": "Inspirer", "scores": { "leader": 3 } },
+        { "label": "Structurer", "scores": { "structure": 3 } },
+        { "label": "Faire grandir", "scores": { "coach": 3 } },
+        { "label": "Performancer", "scores": { "exigeant": 3 } },
+        { "label": "S’adapter", "scores": { "adaptatif": 3 } }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "slug": "test-quel-personnage-disney-es-tu-vraiment",
+  "title": "Test fun - Quel personnage Disney es-tu vraiment ?",
+  "description": "Découvre quel personnage Disney te ressemble vraiment à travers tes choix, tes rêves et ta façon de réagir.",
+  "descriptionSeo": "À travers tes émotions, tes rêves, tes réactions et ta manière d’avancer dans la vie, ce test révèle quel personnage Disney correspond vraiment à ta personnalité. Es-tu courageux comme Simba, rêveuse comme Belle, libre comme Vaiana, ambitieuse comme Tiana, sensible comme Elsa ou optimiste comme Anna ?",
+  "category": {
+    "name": "Fun",
+    "slug": "fun"
+  },
+  "createdAt": "2026-04-27",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777293772/cover_qwd7ax.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777293772/cover_qwd7ax.jpg",
+    "alt": "Test personnage Disney"
+  },
+  "profiles": [
+    {
+      "key": "simba",
+      "title": "Simba",
+      "description": "Tu es une personne courageuse, sensible et en pleine évolution. Tu peux parfois douter de toi ou fuir certaines responsabilités, surtout quand la pression devient trop forte, mais au fond tu possèdes une vraie force intérieure. Tu apprends beaucoup de tes erreurs et tu grandis à travers les épreuves. Tu es attaché(e) à tes proches, à tes racines et à ce qui donne du sens à ta vie. Même si tu peux avoir besoin de temps pour trouver ta place, tu finis toujours par revenir à ce qui compte vraiment. Tu n’es pas parfait(e), mais tu avances avec sincérité. Ta force vient de ta capacité à te relever, à accepter ton histoire et à devenir la personne que tu es censé(e) être.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777294037/simba_qj991u.webp"
+    },
+    {
+      "key": "belle",
+      "title": "Belle",
+      "description": "Tu es une personne curieuse, intelligente et profondément sensible. Tu ne te contentes pas des apparences : tu cherches toujours à comprendre ce qu’il y a derrière les gens, les situations et les histoires. Tu as un monde intérieur très riche, nourri par tes rêves, tes idées et ton envie d’ailleurs. Tu peux parfois te sentir en décalage avec ceux qui t’entourent, mais cela ne t’empêche pas de rester fidèle à toi-même. Tu es indépendant(e), réfléchi(e) et tu refuses de suivre un chemin simplement parce qu’on l’attend de toi. Tu crois en la beauté cachée des choses et en la possibilité de changer. Ton regard sur le monde est à la fois lucide, doux et profondément humain.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777294107/belle_nhn2h3.jpg"
+    },
+    {
+      "key": "vaiana",
+      "title": "Vaiana",
+      "description": "Tu es une personne libre, déterminée et guidée par un fort appel intérieur. Tu as besoin d’explorer, de comprendre et de dépasser les limites qu’on te fixe. Quand quelque chose te semble important, tu es capable d’aller très loin pour le défendre. Tu n’aimes pas rester enfermé(e) dans un rôle ou une routine qui ne te ressemble pas. Tu écoutes ton instinct, même quand les autres ne comprennent pas toujours tes choix. Tu es courageux(se), mais aussi profondément connecté(e) à tes émotions, à ton histoire et aux personnes qui comptent pour toi. Tu avances avec une énergie sincère, portée par le besoin de trouver ta voie. Ton vrai pouvoir, c’est ta capacité à suivre ton propre chemin.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777294176/vaiana_zzue0s.webp"
+    },
+    {
+      "key": "tiana",
+      "title": "Tiana",
+      "description": "Tu es une personne ambitieuse, travailleuse et extrêmement déterminée. Tu sais que les rêves ne se réalisent pas seuls, alors tu avances avec discipline, patience et persévérance. Tu as une vision claire de ce que tu veux construire, et tu es prêt(e) à faire des efforts pour y arriver. Tu n’aimes pas dépendre des autres et tu préfères prouver ta valeur par tes actions. Tu peux parfois oublier de souffler ou de profiter du moment présent, car tu es très concentré(e) sur tes objectifs. Mais derrière ton sérieux se cache aussi un grand cœur et une vraie générosité. Tu crois au mérite, à la constance et à la force du travail. Tu es quelqu’un qui transforme ses rêves en réalité.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777294246/tiana_mwmwcp.jpg"
+    },
+    {
+      "key": "elsa",
+      "title": "Elsa",
+      "description": "Tu es une personne intense, sensible et profondément intérieure. Tu ressens les choses avec beaucoup de force, même si tu ne les montres pas toujours. Tu peux avoir tendance à te protéger en gardant tes distances, surtout quand tu as peur de blesser les autres ou d’être mal compris(e). Tu as besoin de temps, d’espace et de confiance pour révéler qui tu es vraiment. Derrière ton calme apparent, il y a une puissance émotionnelle immense et une grande richesse personnelle. Tu apprends peu à peu à accepter toutes les parties de toi, même celles qui te semblent difficiles à maîtriser. Ton chemin est celui de l’acceptation, de la liberté intérieure et de la confiance en ta propre force.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777294299/elsa_prnybm.jpg"
+    },
+    {
+      "key": "anna",
+      "title": "Anna",
+      "description": "Tu es une personne chaleureuse, spontanée et pleine de cœur. Tu avances souvent avec enthousiasme, même quand tout n’est pas parfaitement clair autour de toi. Tu crois beaucoup aux liens humains, à l’amour, à l’amitié et à la sincérité. Tu peux parfois agir trop vite ou te laisser guider par tes émotions, mais c’est aussi ce qui te rend authentique et attachant(e). Tu n’aimes pas rester seul(e) face aux problèmes : tu préfères parler, partager, réparer et créer du lien. Tu as une grande capacité à pardonner, à espérer et à voir le bon chez les autres. Ta force vient de ton optimisme, de ta loyauté et de ton envie profonde de rapprocher les gens.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777294463/anna_dvwxa7.jpg"
+    }
+  ],
+  "questions": [
+    {
+      "id": "1",
+      "question": "Tu sens que ta vie ne te ressemble plus vraiment…",
+      "answers": [
+        { "label": "Je pars chercher ma vraie place", "scores": { "simba": 3 } },
+        { "label": "Je rêve d’un ailleurs plus grand", "scores": { "belle": 3 } },
+        { "label": "Je suis mon instinct, même si ça fait peur", "scores": { "vaiana": 3 } },
+        { "label": "Je travaille encore plus pour changer les choses", "scores": { "tiana": 3 } },
+        { "label": "Je m’isole pour comprendre ce que je ressens", "scores": { "elsa": 3 } },
+        { "label": "Je cherche quelqu’un à qui parler", "scores": { "anna": 3 } }
+      ]
+    },
+    {
+      "id": "2",
+      "question": "On te dit que ton rêve est impossible…",
+      "answers": [
+        { "label": "Je doute, mais je finis par me relever", "scores": { "simba": 3 } },
+        { "label": "Je refuse qu’on décide à ma place", "scores": { "belle": 3 } },
+        { "label": "Je pars le prouver par moi-même", "scores": { "vaiana": 3 } },
+        { "label": "Je redouble d’efforts", "scores": { "tiana": 3 } },
+        { "label": "Je garde ça pour moi", "scores": { "elsa": 3 } },
+        { "label": "Je reste optimiste coûte que coûte", "scores": { "anna": 3 } }
+      ]
+    },
+    {
+      "id": "3",
+      "question": "Face à un grand danger…",
+      "answers": [
+        { "label": "Je protège ceux qui comptent", "scores": { "simba": 3 } },
+        { "label": "J’essaie de comprendre avant d’agir", "scores": { "belle": 3 } },
+        { "label": "Je fonce, même sans certitude", "scores": { "vaiana": 3 } },
+        { "label": "Je garde la tête froide", "scores": { "tiana": 3 } },
+        { "label": "Je retiens mes émotions pour ne pas exploser", "scores": { "elsa": 3 } },
+        { "label": "Je rassemble les autres", "scores": { "anna": 3 } }
+      ]
+    },
+    {
+      "id": "4",
+      "question": "Ton entourage ne comprend pas tes choix…",
+      "answers": [
+        { "label": "Je prends du recul avant de revenir plus fort(e)", "scores": { "simba": 3 } },
+        { "label": "Je reste fidèle à ma vision", "scores": { "belle": 3 } },
+        { "label": "Je continue mon chemin quand même", "scores": { "vaiana": 3 } },
+        { "label": "Je prouve ma valeur par mes actes", "scores": { "tiana": 3 } },
+        { "label": "Je me ferme pour me protéger", "scores": { "elsa": 3 } },
+        { "label": "J’essaie de recréer le dialogue", "scores": { "anna": 3 } }
+      ]
+    },
+    {
+      "id": "5",
+      "question": "Tu découvres une partie de toi que tu ne maîtrises pas…",
+      "answers": [
+        { "label": "Je dois apprendre à l’accepter", "scores": { "simba": 3 } },
+        { "label": "Je cherche à la comprendre", "scores": { "belle": 3 } },
+        { "label": "Je l’utilise pour avancer", "scores": { "vaiana": 3 } },
+        { "label": "Je la canalise avec discipline", "scores": { "tiana": 3 } },
+        { "label": "J’ai peur de ce que ça peut provoquer", "scores": { "elsa": 3 } },
+        { "label": "J’en parle à quelqu’un de confiance", "scores": { "anna": 3 } }
+      ]
+    },
+    {
+      "id": "6",
+      "question": "Dans une aventure, ton rôle naturel serait…",
+      "answers": [
+        { "label": "Celui/celle qui retrouve son courage", "scores": { "simba": 3 } },
+        { "label": "Celui/celle qui observe et comprend", "scores": { "belle": 3 } },
+        { "label": "Celui/celle qui ose partir en premier", "scores": { "vaiana": 3 } },
+        { "label": "Celui/celle qui garde le cap", "scores": { "tiana": 3 } },
+        { "label": "Celui/celle qui cache une grande puissance", "scores": { "elsa": 3 } },
+        { "label": "Celui/celle qui garde le groupe uni", "scores": { "anna": 3 } }
+      ]
+    },
+    {
+      "id": "7",
+      "question": "Quand tu es perdu(e), ce qui t’aide le plus…",
+      "answers": [
+        { "label": "Me souvenir d’où je viens", "scores": { "simba": 3 } },
+        { "label": "Lire, apprendre ou réfléchir", "scores": { "belle": 3 } },
+        { "label": "Écouter mon instinct", "scores": { "vaiana": 3 } },
+        { "label": "Me fixer un objectif clair", "scores": { "tiana": 3 } },
+        { "label": "Avoir du silence et de l’espace", "scores": { "elsa": 3 } },
+        { "label": "Retrouver les gens que j’aime", "scores": { "anna": 3 } }
+      ]
+    },
+    {
+      "id": "8",
+      "question": "Quel défaut te ressemble le plus ?",
+      "answers": [
+        { "label": "Je fuis parfois mes responsabilités", "scores": { "simba": 3 } },
+        { "label": "Je me sens souvent en décalage", "scores": { "belle": 3 } },
+        { "label": "Je prends des risques sans tout prévoir", "scores": { "vaiana": 3 } },
+        { "label": "Je travaille trop et je lâche peu prise", "scores": { "tiana": 3 } },
+        { "label": "Je garde trop de choses pour moi", "scores": { "elsa": 3 } },
+        { "label": "Je fais parfois confiance trop vite", "scores": { "anna": 3 } }
+      ]
+    },
+    {
+      "id": "9",
+      "question": "Ton plus grand moteur dans la vie…",
+      "answers": [
+        { "label": "Trouver ma place", "scores": { "simba": 3 } },
+        { "label": "Découvrir plus que ce qu’on me montre", "scores": { "belle": 3 } },
+        { "label": "Me sentir libre", "scores": { "vaiana": 3 } },
+        { "label": "Réaliser mes rêves par moi-même", "scores": { "tiana": 3 } },
+        { "label": "Être enfin moi sans peur", "scores": { "elsa": 3 } },
+        { "label": "Aimer et être entouré(e)", "scores": { "anna": 3 } }
+      ]
+    },
+    {
+      "id": "10",
+      "question": "À la fin d’une grande épreuve, tu veux surtout…",
+      "answers": [
+        { "label": "Assumer qui je suis devenu(e)", "scores": { "simba": 3 } },
+        { "label": "Avoir découvert une vérité plus profonde", "scores": { "belle": 3 } },
+        { "label": "Avoir suivi ma propre voie", "scores": { "vaiana": 3 } },
+        { "label": "Avoir construit quelque chose de solide", "scores": { "tiana": 3 } },
+        { "label": "Ne plus avoir à me cacher", "scores": { "elsa": 3 } },
+        { "label": "Avoir gardé les liens qui comptent", "scores": { "anna": 3 } }
+      ]
+    }
+  ]
+}

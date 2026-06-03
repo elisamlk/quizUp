@@ -1,0 +1,200 @@
+{
+  "slug": "quiz-culture-generale-faits-scientifiques-etranges",
+  "title": "Quiz Culture Générale - Les faits scientifiques étranges",
+  "description": "20 faits scientifiques bizarres… mais certains sont faux. À toi de ne pas te faire piéger.",
+  "descriptionSeo": "Ce quiz de culture générale mélange vrais faits scientifiques surprenants et affirmations trompeuses. Entre physique, biologie et phénomènes étranges, teste ton esprit critique et découvre ce qui est réellement vrai.",
+  "category": {
+    "name": "Culture générale",
+    "slug": "culture-generale"
+  },
+  "createdAt": "2026-03-30",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1773931500/cover_ihhmby.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1773931500/cover_ihhmby.jpg",
+    "alt": "Quiz science étrange vrai ou faux"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "question": "Dans certaines conditions, l’eau chaude peut geler plus vite que l’eau froide.",
+      "image": null,
+      "imagePrompt": "mpemba effect",
+      "answers": ["Vrai", "Faux", "Très rare", "Impossible"],
+      "correctIndex": 0,
+      "explanation": "C’est l’effet Mpemba. Il dépend de nombreux paramètres comme l’évaporation et la convection."
+    },
+    {
+      "id": "2",
+      "question": "Le vide de l’espace est totalement froid partout.",
+      "image": null,
+      "imagePrompt": "space temperature",
+      "answers": ["Vrai", "Faux", "Partiellement", "Toujours"],
+      "correctIndex": 2,
+      "explanation": "Le vide n’a pas de température en soi. Tout dépend de l’exposition au rayonnement solaire."
+    },
+    {
+      "id": "3",
+      "question": "Un humain peut survivre quelques secondes dans le vide spatial sans exploser.",
+      "image": null,
+      "imagePrompt": "space exposure human",
+      "answers": ["Faux", "Vrai", "Impossible", "Toujours"],
+      "correctIndex": 1,
+      "explanation": "Contrairement aux idées reçues, le corps ne \"explose\" pas. Mais les effets sont rapidement dangereux."
+    },
+    {
+      "id": "4",
+      "question": "Les plantes peuvent produire de la chaleur.",
+      "image": null,
+      "imagePrompt": "thermogenic plants",
+      "answers": ["Vrai", "Faux", "Rarement", "Impossible"],
+      "correctIndex": 0,
+      "explanation": "Certaines plantes (comme l’arum titan) produisent de la chaleur pour attirer les insectes."
+    },
+    {
+      "id": "5",
+      "question": "Le cerveau humain peut survivre sans oxygène pendant plusieurs minutes sans dommage.",
+      "image": null,
+      "imagePrompt": "brain oxygen",
+      "answers": ["Vrai", "Faux", "Parfois", "Toujours"],
+      "correctIndex": 1,
+      "explanation": "Après quelques minutes sans oxygène, des dommages irréversibles apparaissent."
+    },
+    {
+      "id": "6",
+      "question": "Un métal peut fondre dans ta main.",
+      "image": null,
+      "imagePrompt": "gallium melting",
+      "answers": ["Faux", "Vrai", "Rarement", "Impossible"],
+      "correctIndex": 1,
+      "explanation": "Le gallium fond à environ 30°C, donc dans la main humaine."
+    },
+    {
+      "id": "7",
+      "question": "Les étoiles scintillent parce qu’elles changent de luminosité.",
+      "image": null,
+      "imagePrompt": "stars twinkling",
+      "answers": ["Vrai", "Faux", "Partiellement", "Souvent"],
+      "correctIndex": 1,
+      "explanation": "C’est l’atmosphère terrestre qui déforme la lumière."
+    },
+    {
+      "id": "8",
+      "question": "Il existe des bactéries capables de survivre dans le vide spatial.",
+      "image": null,
+      "imagePrompt": "space bacteria",
+      "answers": ["Faux", "Vrai", "Partiellement", "Impossible"],
+      "correctIndex": 1,
+      "explanation": "Certaines bactéries extrêmophiles peuvent survivre à des conditions extrêmes."
+    },
+    {
+      "id": "9",
+      "question": "Un objet peut être invisible à cause de la lumière.",
+      "image": null,
+      "imagePrompt": "refraction invisibility",
+      "answers": ["Vrai", "Faux", "Partiellement", "Rarement"],
+      "correctIndex": 2,
+      "explanation": "Si la lumière contourne un objet ou que son indice de réfraction correspond, il peut devenir difficile à voir."
+    },
+    {
+      "id": "10",
+      "question": "Le son peut voyager dans l’espace si le volume est suffisant.",
+      "image": null,
+      "imagePrompt": "sound space",
+      "answers": ["Vrai", "Faux", "Parfois", "Souvent"],
+      "correctIndex": 1,
+      "explanation": "Le son a besoin d’un milieu. Dans le vide, il ne se propage pas."
+    },
+    {
+      "id": "11",
+      "question": "Une ombre peut sembler se déplacer plus vite que la lumière.",
+      "image": null,
+      "imagePrompt": "shadow speed",
+      "answers": ["Vrai", "Faux", "Impossible", "Rarement"],
+      "correctIndex": 0,
+      "explanation": "L’ombre peut donner cette impression, mais aucune information ne dépasse la vitesse de la lumière."
+    },
+    {
+      "id": "12",
+      "question": "Les humains émettent une lumière visible à l’œil nu.",
+      "image": null,
+      "imagePrompt": "human light emission",
+      "answers": ["Vrai", "Faux", "Très faible", "Rarement"],
+      "correctIndex": 2,
+      "explanation": "Le corps émet une lumière extrêmement faible, invisible à l’œil humain."
+    },
+    {
+      "id": "13",
+      "question": "Le temps passe plus vite en altitude qu’au niveau de la mer.",
+      "image": null,
+      "imagePrompt": "time relativity earth",
+      "answers": ["Vrai", "Faux", "Partiellement", "Imperceptible"],
+      "correctIndex": 3,
+      "explanation": "C’est vrai selon la relativité, mais l’effet est extrêmement faible."
+    },
+    {
+      "id": "14",
+      "question": "Le sang humain est bleu dans le corps.",
+      "image": null,
+      "imagePrompt": "blood color",
+      "answers": ["Vrai", "Faux", "Partiellement", "Souvent"],
+      "correctIndex": 1,
+      "explanation": "Le sang est toujours rouge. Les veines paraissent bleues à cause de la lumière."
+    },
+    {
+      "id": "15",
+      "question": "Il est possible de marcher sur un liquide sans couler.",
+      "image": null,
+      "imagePrompt": "non newtonian walking",
+      "answers": ["Faux", "Vrai", "Parfois", "Impossible"],
+      "correctIndex": 1,
+      "explanation": "Avec un fluide non newtonien, un mouvement rapide peut le rendre solide temporairement."
+    },
+    {
+      "id": "16",
+      "question": "Un trou noir aspire tout ce qui l’entoure comme un aspirateur.",
+      "image": null,
+      "imagePrompt": "black hole myth",
+      "answers": ["Vrai", "Faux", "Partiellement", "Toujours"],
+      "correctIndex": 1,
+      "explanation": "Il agit comme toute masse. Ce n’est que très proche qu’il devient dangereux."
+    },
+    {
+      "id": "17",
+      "question": "Le corps humain peut produire du courant électrique.",
+      "image": null,
+      "imagePrompt": "bioelectric signals",
+      "answers": ["Faux", "Vrai", "Très faible", "Partiellement"],
+      "correctIndex": 1,
+      "explanation": "Les neurones fonctionnent avec des signaux électriques mesurables."
+    },
+    {
+      "id": "18",
+      "question": "Les objets lourds tombent plus vite que les objets légers dans le vide.",
+      "image": null,
+      "imagePrompt": "gravity vacuum",
+      "answers": ["Vrai", "Faux", "Parfois", "Toujours"],
+      "correctIndex": 1,
+      "explanation": "Sans air, tous les objets tombent à la même vitesse."
+    },
+    {
+      "id": "19",
+      "question": "Une particule peut exister dans plusieurs états en même temps.",
+      "image": null,
+      "imagePrompt": "quantum superposition",
+      "answers": ["Faux", "Vrai", "Théorique", "Impossible"],
+      "correctIndex": 1,
+      "explanation": "C’est le principe de superposition en mécanique quantique."
+    },
+    {
+      "id": "20",
+      "question": "Le vide peut \"bouillir\" à température ambiante.",
+      "image": null,
+      "imagePrompt": "vacuum boiling",
+      "answers": ["Vrai", "Faux", "Partiellement", "Rarement"],
+      "correctIndex": 0,
+      "explanation": "Sans pression, les liquides bouillent à des températures bien plus basses."
+    }
+  ]
+}

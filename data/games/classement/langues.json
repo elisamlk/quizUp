@@ -1,0 +1,195 @@
+{
+  "slug": "classement-langues-les-plus-parlees",
+  "title": "Classement - Sauras-tu classer les langues les plus parlées au monde ?",
+  "description": "Replace les langues dans le bon ordre selon leur nombre de locuteurs et tente de réussir chaque classement avec seulement 4 coups.",
+  "descriptionSeo": "Teste tes connaissances sur les langues les plus parlées au monde avec ce jeu de classement stratégique. Replace correctement différentes langues selon leur nombre de locuteurs natifs ou totaux avec seulement 4 coups disponibles. Chaque bonne position se verrouille automatiquement pour créer un mini-jeu rapide, éducatif et addictif autour des langues et de la culture mondiale.",
+  "type": "classement",
+  "category": {
+    "name": "Classements",
+    "slug": "classements"
+  },
+  "createdAt": "2026-05-21",
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1779792021/language_u4wetm.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1779792021/language_u4wetm.jpg",
+    "alt": "Classement des langues les plus parlées au monde"
+  },
+  "data": {
+    "moves": 4,
+    "items": [
+      {
+        "id": "q1",
+        "question": "Classe ces langues selon leur nombre total de locuteurs",
+        "explanation": "L’anglais domine largement grâce à son statut de langue internationale et à son utilisation dans les affaires, internet et l’éducation. Le mandarin reste cependant la langue avec le plus grand nombre de locuteurs natifs au monde.",
+        "items": [
+          {
+            "id": "anglais",
+            "label": "Anglais",
+            "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1779790353/english_eame7x.jpg",
+            "rank": 1
+          },
+          {
+            "id": "mandarin",
+            "label": "Mandarin",
+            "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1779790549/mandarin_cebbnc.jpg",
+            "rank": 2
+          },
+          {
+            "id": "hindi",
+            "label": "Hindi",
+            "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1779790816/hindi_eafzzw.webp",
+            "rank": 3
+          },
+          {
+            "id": "espagnol",
+            "label": "Espagnol",
+            "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1779790408/espagne_qkcpek.jpg",
+            "rank": 4
+          },
+          {
+            "id": "francais",
+            "label": "Français",
+            "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1779790285/france_a2cifa.jpg",
+            "rank": 5
+          },
+          {
+            "id": "russe",
+            "label": "Russe",
+            "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1779369434/moscow_ofvbd1.jpg",
+            "rank": 6
+          }
+        ]
+      },
+      {
+        "id": "q2",
+        "question": "Classe ces langues européennes selon leur nombre de locuteurs",
+        "explanation": "L’anglais reste la langue la plus utilisée en Europe grâce à son apprentissage massif comme langue seconde. L’allemand est la langue maternelle la plus parlée de l’Union européenne.",
+        "items": [
+          {
+            "id": "anglais-eu",
+            "label": "Anglais",
+            "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1779790353/english_eame7x.jpg",
+            "rank": 1
+          },
+          {
+            "id": "allemand",
+            "label": "Allemand",
+            "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1779790886/german_q9jroc.jpg",
+            "rank": 2
+          },
+          {
+            "id": "francais-eu",
+            "label": "Français",
+            "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1779790285/france_a2cifa.jpg",
+            "rank": 3
+          },
+          {
+            "id": "italien",
+            "label": "Italien",
+            "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1779790607/italian_uud2s9.jpg",
+            "rank": 4
+          },
+          {
+            "id": "polonais",
+            "label": "Polonais",
+            "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1779790729/polish_pckech.jpg",
+            "rank": 5
+          },
+          {
+            "id": "grec",
+            "label": "Grec",
+            "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1779790656/greek_y7gwsy.jpg",
+            "rank": 6
+          }
+        ]
+      },
+      {
+        "id": "q3",
+        "question": "Classe ces langues asiatiques selon leur nombre de locuteurs",
+        "explanation": "Le mandarin domine très largement grâce à la population chinoise. Le bengali possède plus de locuteurs que le japonais malgré une visibilité internationale plus faible.",
+        "items": [
+          {
+            "id": "mandarin-asie",
+            "label": "Mandarin",
+            "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1779790549/mandarin_cebbnc.jpg",
+            "rank": 1
+          },
+          {
+            "id": "hindi-asie",
+            "label": "Hindi",
+            "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1779790816/hindi_eafzzw.webp",
+            "rank": 2
+          },
+          {
+            "id": "bengali",
+            "label": "Bengali",
+            "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1779790953/bengali_dt1vgn.jpg",
+            "rank": 3
+          },
+          {
+            "id": "japonais",
+            "label": "Japonais",
+            "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1779791049/japan_enjjpr.jpg",
+            "rank": 4
+          },
+          {
+            "id": "coreen",
+            "label": "Coréen",
+            "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1779791154/coree_zuxhzz.jpg",
+            "rank": 5
+          },
+          {
+            "id": "thai",
+            "label": "Thaï",
+            "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1779791209/thai_gdgo2q.jpg",
+            "rank": 6
+          }
+        ]
+      },
+      {
+        "id": "q4",
+        "question": "Classe ces langues selon leur nombre de pays où elles sont parlées officiellement",
+        "explanation": "L’anglais est langue officielle dans plus de pays que toute autre langue grâce à l’héritage de l’Empire britannique. Le français reste très présent en Afrique et dans les organisations internationales.",
+        "items": [
+          {
+            "id": "anglais-off",
+            "label": "Anglais",
+            "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1779790353/english_eame7x.jpg",
+            "rank": 1
+          },
+          {
+            "id": "francais-off",
+            "label": "Français",
+            "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1779790285/france_a2cifa.jpg",
+            "rank": 2
+          },
+          {
+            "id": "arabe",
+            "label": "Arabe",
+            "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1779790287/arabe_bpirng.webp",
+            "rank": 3
+          },
+          {
+            "id": "espagnol-off",
+            "label": "Espagnol",
+            "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1779790408/espagne_qkcpek.jpg",
+            "rank": 4
+          },
+          {
+            "id": "portugais",
+            "label": "Portugais",
+            "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1779790459/portugal_huhwlr.jpg",
+            "rank": 5
+          },
+          {
+            "id": "allemand-off",
+            "label": "Allemand",
+            "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1779790886/german_q9jroc.jpg",
+            "rank": 6
+          }
+        ]
+      }
+    ]
+  }
+}

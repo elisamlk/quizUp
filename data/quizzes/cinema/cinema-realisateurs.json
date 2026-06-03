@@ -1,0 +1,300 @@
+{
+  "slug": "quiz-cinema-realisateurs-reconnaissez-leur-style",
+  "title": "Quiz Cinéma - Réalisateurs - Reconnaissez leur style",
+  "description": "Saurez-vous reconnaître les plus grands réalisateurs uniquement à travers leur style, leurs thèmes et leurs signatures visuelles ?",
+  "descriptionSeo": "Chaque grand réalisateur possède une signature unique, reconnaissable à travers ses choix de mise en scène, ses thèmes récurrents, ses cadrages ou encore son univers visuel. Ce quiz cinéma vous propose 20 questions pour tester votre capacité à identifier les réalisateurs à partir de leur style, de leurs films ou de leurs caractéristiques emblématiques. Entre auteurs cultes, maîtres du suspense, visionnaires de la science-fiction ou spécialistes du blockbuster, ce défi mettra à l’épreuve votre culture cinématographique et votre sens de l’observation. Saurez-vous reconnaître ces cinéastes incontournables ?",
+  "category": {
+    "name": "Cinéma",
+    "slug": "cinema"
+  },
+  "createdAt": "2026-04-07",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1775571306/cover_h1jxzq.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1775571306/cover_h1jxzq.jpg",
+    "alt": "Quiz cinéma réalisateurs style signature"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "question": "Quel réalisateur est connu pour ses films aux récits non linéaires, ses dialogues marquants et son goût pour la violence stylisée ?",
+      "image": null,
+      "imagePrompt": "stylized violence nonlinear storytelling retro diner",
+      "answers": [
+        "Christopher Nolan",
+        "Quentin Tarantino",
+        "David Fincher",
+        "Guy Ritchie"
+      ],
+      "correctIndex": 1,
+      "explanation": "Quentin Tarantino est célèbre pour ses structures narratives éclatées (comme dans Pulp Fiction), ses dialogues percutants et ses nombreuses références à la culture pop et au cinéma de genre."
+    },
+    {
+      "id": "2",
+      "question": "Quel réalisateur est reconnu pour ses films complexes autour du temps, des rêves et des structures narratives imbriquées ?",
+      "image": null,
+      "imagePrompt": "dream layers time bending architecture",
+      "answers": [
+        "Denis Villeneuve",
+        "Christopher Nolan",
+        "Ridley Scott",
+        "James Cameron"
+      ],
+      "correctIndex": 1,
+      "explanation": "Christopher Nolan explore régulièrement le temps et la perception (Inception, Interstellar, Tenet) avec des structures narratives sophistiquées qui demandent une attention particulière du spectateur."
+    },
+    {
+      "id": "3",
+      "question": "Quel réalisateur est surnommé le maître du suspense, notamment grâce à ses films mettant en scène tension et manipulation du spectateur ?",
+      "image": null,
+      "imagePrompt": "suspense thriller shower scene black and white",
+      "answers": [
+        "Stanley Kubrick",
+        "Alfred Hitchcock",
+        "Brian De Palma",
+        "Roman Polanski"
+      ],
+      "correctIndex": 1,
+      "explanation": "Alfred Hitchcock a révolutionné le suspense en jouant avec les attentes du spectateur. Il utilisait des techniques visuelles et narratives pour créer une tension constante."
+    },
+    {
+      "id": "4",
+      "question": "Quel réalisateur est connu pour ses univers sombres, gothiques et ses personnages marginaux ?",
+      "image": null,
+      "imagePrompt": "gothic fantasy dark whimsical characters striped suit",
+      "answers": [
+        "Guillermo del Toro",
+        "Tim Burton",
+        "Sam Raimi",
+        "Terry Gilliam"
+      ],
+      "correctIndex": 1,
+      "explanation": "Tim Burton développe un style visuel très reconnaissable, mêlant esthétique gothique, humour noir et personnages atypiques comme Edward aux mains d’argent ou Beetlejuice."
+    },
+    {
+      "id": "5",
+      "question": "Quel réalisateur est célèbre pour ses films violents, sombres et souvent centrés sur des personnages psychologiquement instables ?",
+      "image": null,
+      "imagePrompt": "dark thriller urban rain psychological character",
+      "answers": [
+        "David Fincher",
+        "Martin Scorsese",
+        "Oliver Stone",
+        "Michael Mann"
+      ],
+      "correctIndex": 0,
+      "explanation": "David Fincher est reconnu pour son style visuel sombre et précis (Seven, Fight Club, Zodiac), avec des thématiques autour de l’obsession, du chaos et de la psychologie humaine."
+    },
+    {
+      "id": "6",
+      "question": "Quel réalisateur est associé aux films de gangsters, à la violence réaliste et aux récits de montée et de chute ?",
+      "image": null,
+      "imagePrompt": "mafia gangster rise fall italian american",
+      "answers": [
+        "Francis Ford Coppola",
+        "Martin Scorsese",
+        "Brian De Palma",
+        "Sergio Leone"
+      ],
+      "correctIndex": 1,
+      "explanation": "Martin Scorsese explore souvent le monde du crime organisé (Goodfellas, Casino) avec une mise en scène dynamique et une narration immersive centrée sur les personnages."
+    },
+    {
+      "id": "7",
+      "question": "Quel réalisateur est connu pour ses films spectaculaires mêlant science-fiction, effets spéciaux et blockbusters à grand budget ?",
+      "image": null,
+      "imagePrompt": "epic sci fi blockbuster blue aliens space",
+      "answers": [
+        "James Cameron",
+        "Ridley Scott",
+        "J.J. Abrams",
+        "Zack Snyder"
+      ],
+      "correctIndex": 0,
+      "explanation": "James Cameron est un pionnier des effets spéciaux (Terminator 2, Titanic, Avatar) et repousse constamment les limites technologiques du cinéma."
+    },
+    {
+      "id": "8",
+      "question": "Quel réalisateur est connu pour ses films à l’esthétique symétrique, ses couleurs pastel et son style très visuel ?",
+      "image": null,
+      "imagePrompt": "symmetrical pastel hotel aesthetic quirky characters",
+      "answers": [
+        "Wes Anderson",
+        "Sofia Coppola",
+        "Greta Gerwig",
+        "Michel Gondry"
+      ],
+      "correctIndex": 0,
+      "explanation": "Wes Anderson possède un style immédiatement reconnaissable : plans symétriques, décors très travaillés, palettes de couleurs spécifiques et narration décalée."
+    },
+    {
+      "id": "9",
+      "question": "Quel réalisateur mexicain est connu pour ses films mêlant fantastique, monstres et poésie visuelle ?",
+      "image": null,
+      "imagePrompt": "fantasy creature poetic dark fairy tale",
+      "answers": [
+        "Alejandro González Iñárritu",
+        "Alfonso Cuarón",
+        "Guillermo del Toro",
+        "Pedro Almodóvar"
+      ],
+      "correctIndex": 2,
+      "explanation": "Guillermo del Toro mélange horreur, conte et émotion (Le Labyrinthe de Pan, La Forme de l’eau), avec des créatures très travaillées et une forte dimension poétique."
+    },
+    {
+      "id": "10",
+      "question": "Quel réalisateur est célèbre pour ses longs plans, son sens du détail et ses films souvent énigmatiques ?",
+      "image": null,
+      "imagePrompt": "slow cinema mysterious symbolism candlelight",
+      "answers": [
+        "Stanley Kubrick",
+        "Terrence Malick",
+        "Andrei Tarkovsky",
+        "David Lynch"
+      ],
+      "correctIndex": 0,
+      "explanation": "Stanley Kubrick est connu pour son perfectionnisme extrême, ses compositions visuelles rigoureuses et ses films ouverts à l’interprétation (2001, Shining)."
+    },
+    {
+      "id": "11",
+      "question": "Quel réalisateur est connu pour ses films mêlant rêve, inconscient et narration étrange difficile à interpréter ?",
+      "image": null,
+      "imagePrompt": "surreal dream red curtains mysterious room",
+      "answers": [
+        "David Lynch",
+        "Darren Aronofsky",
+        "Gaspar Noé",
+        "Nicolas Winding Refn"
+      ],
+      "correctIndex": 0,
+      "explanation": "David Lynch explore l’inconscient et les rêves avec des récits souvent déroutants (Mulholland Drive, Twin Peaks), où logique et réalité sont constamment brouillées."
+    },
+    {
+      "id": "12",
+      "question": "Quel réalisateur français est connu pour ses films visuellement inventifs et poétiques comme Le Fabuleux Destin d’Amélie Poulain ?",
+      "image": null,
+      "imagePrompt": "paris whimsical colorful romantic quirky",
+      "answers": [
+        "Luc Besson",
+        "Jean-Pierre Jeunet",
+        "François Ozon",
+        "Jacques Audiard"
+      ],
+      "correctIndex": 1,
+      "explanation": "Jean-Pierre Jeunet développe un univers visuel unique, coloré et poétique, souvent accompagné de personnages originaux et d’un ton tendre et décalé."
+    },
+    {
+      "id": "13",
+      "question": "Quel réalisateur est associé aux films d’action stylisés avec ralenti et esthétique visuelle marquée comme 300 ?",
+      "image": null,
+      "imagePrompt": "slow motion battle stylized warriors epic",
+      "answers": [
+        "Zack Snyder",
+        "Michael Bay",
+        "Roland Emmerich",
+        "Guy Ritchie"
+      ],
+      "correctIndex": 0,
+      "explanation": "Zack Snyder est connu pour ses ralentis, ses compositions visuelles très stylisées et son esthétique proche du comic book."
+    },
+    {
+      "id": "14",
+      "question": "Quel réalisateur est célèbre pour ses explosions spectaculaires, ses scènes d’action rapides et son style très énergique ?",
+      "image": null,
+      "imagePrompt": "explosions action helicopters fire blockbuster",
+      "answers": [
+        "Michael Bay",
+        "Tony Scott",
+        "Antoine Fuqua",
+        "John Woo"
+      ],
+      "correctIndex": 0,
+      "explanation": "Michael Bay est associé aux blockbusters explosifs (Transformers, Armageddon), caractérisés par un montage rapide, des effets visuels intenses et une action omniprésente."
+    },
+    {
+      "id": "15",
+      "question": "Quel réalisateur est connu pour ses films d’horreur modernes centrés sur la tension psychologique plutôt que sur les jump scares ?",
+      "image": null,
+      "imagePrompt": "slow horror tension family house dark atmosphere",
+      "answers": [
+        "James Wan",
+        "Ari Aster",
+        "Eli Roth",
+        "Rob Zombie"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ari Aster (Hérédité, Midsommar) privilégie une horreur lente et dérangeante, basée sur le malaise, la psychologie et des images marquantes plutôt que sur des effets faciles."
+    },
+    {
+      "id": "16",
+      "question": "Quel réalisateur italien est célèbre pour ses westerns spaghetti comme Le Bon, la Brute et le Truand ?",
+      "image": null,
+      "imagePrompt": "western desert duel close up eyes",
+      "answers": [
+        "Federico Fellini",
+        "Sergio Leone",
+        "Dario Argento",
+        "Bernardo Bertolucci"
+      ],
+      "correctIndex": 1,
+      "explanation": "Sergio Leone a redéfini le western avec ses gros plans, ses silences tendus et ses musiques d’Ennio Morricone, créant une atmosphère unique."
+    },
+    {
+      "id": "17",
+      "question": "Quel réalisateur est connu pour ses films sociaux britanniques réalistes et engagés ?",
+      "image": null,
+      "imagePrompt": "british social realism working class drama",
+      "answers": [
+        "Danny Boyle",
+        "Ken Loach",
+        "Stephen Frears",
+        "Guy Ritchie"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ken Loach est reconnu pour son cinéma engagé, centré sur les classes populaires et les injustices sociales, avec un style réaliste et souvent poignant."
+    },
+    {
+      "id": "18",
+      "question": "Quel réalisateur est célèbre pour ses films de science-fiction visuellement soignés et contemplatifs comme Blade Runner 2049 ?",
+      "image": null,
+      "imagePrompt": "futuristic city neon rain contemplative sci fi",
+      "answers": [
+        "Ridley Scott",
+        "Denis Villeneuve",
+        "Christopher Nolan",
+        "Alex Garland"
+      ],
+      "correctIndex": 1,
+      "explanation": "Denis Villeneuve privilégie une science-fiction immersive et réfléchie, avec une grande attention à l’ambiance, au rythme et à la profondeur thématique."
+    },
+    {
+      "id": "19",
+      "question": "Quel réalisateur est connu pour ses films d’animation japonais poétiques et liés à la nature comme Le Voyage de Chihiro ?",
+      "image": null,
+      "imagePrompt": "japanese animation nature spirits fantasy",
+      "answers": [
+        "Mamoru Hosoda",
+        "Makoto Shinkai",
+        "Hayao Miyazaki",
+        "Satoshi Kon"
+      ],
+      "correctIndex": 2,
+      "explanation": "Hayao Miyazaki crée des œuvres profondément poétiques, mêlant écologie, spiritualité et imagination, avec des univers riches et intemporels."
+    },
+    {
+      "id": "20",
+      "question": "Quel réalisateur est connu pour ses comédies absurdes et visuellement créatives comme Eternal Sunshine of the Spotless Mind ?",
+      "image": null,
+      "imagePrompt": "surreal romance memory erasing visual tricks",
+      "answers": [
+        "Spike Jonze",
+        "Michel Gondry",
+        "Charlie Kaufman",
+        "Wes Anderson"
+      ],
+      "correctIndex": 1,
+      "explanation": "Michel Gondry se distingue par son inventivité visuelle artisanale et son approche poétique des émotions et des souvenirs, notamment dans Eternal Sunshine."
+    }
+  ]
+}

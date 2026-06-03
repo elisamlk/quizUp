@@ -1,0 +1,130 @@
+{
+  "slug": "test-gestion-emotions",
+  "title": "Test bien-être - Sais-tu gérer tes émotions ?",
+  "description": "Tes émotions te contrôlent-elles ou sais-tu les gérer ?",
+  "descriptionSeo": "Colère, stress, tristesse, réactions… ce test t’aide à comprendre comment tu gères tes émotions au quotidien. À travers des situations concrètes, découvre si tu es dans le contrôle, l’équilibre ou le débordement émotionnel.",
+  "category": {
+    "name": "Bien-être",
+    "slug": "bien-etre"
+  },
+  "createdAt": "2026-04-27",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777576093/cover_z9iq8w.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777576093/cover_z9iq8w.jpg",
+    "alt": "Test gestion émotions"
+  },
+  "profiles": [
+    {
+      "key": "equilibre",
+      "title": "Équilibre émotionnel",
+      "description": "Tu as une bonne gestion de tes émotions. Tu ressens les choses, mais tu ne te laisses pas submerger. Tu arrives à prendre du recul, à comprendre ce que tu ressens et à réagir de manière mesurée. Tu n’es pas dans le contrôle rigide, mais dans une forme d’équilibre. Tes émotions passent, tu les écoutes sans qu’elles dirigent complètement tes actions. Cette capacité te permet d’avoir des réactions plus justes et de mieux gérer les situations du quotidien.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776778847/balanced_e70dki.jpg"
+    },
+    {
+      "key": "variable",
+      "title": "Gestion variable",
+      "description": "Ta gestion émotionnelle dépend beaucoup des situations. Parfois tu arrives à prendre du recul, parfois tes émotions prennent le dessus. Tu peux te sentir stable à certains moments et plus réactif(ve) à d’autres. Tu n’es pas dépassé(e) en permanence, mais tu peux être influencé(e) par ton état du moment. Avec un peu plus de conscience et d’outils, tu pourrais gagner en stabilité émotionnelle.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777464610/mixed_bprzj5.jpg"
+    },
+    {
+      "key": "deborde",
+      "title": "Débordement émotionnel",
+      "description": "Tes émotions prennent souvent beaucoup de place. Tu peux réagir rapidement, intensément, et parfois sans recul. Il peut être difficile pour toi de canaliser ce que tu ressens sur le moment. Tes émotions ne sont pas un problème en soi, mais elles peuvent te submerger ou influencer fortement tes réactions. Apprendre à les reconnaître et à les réguler pourrait t’aider à retrouver plus de calme et de stabilité.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777464308/fatigue-mentale_cl9fr8.jpg"
+    }
+  ],
+  "questions": [
+    {
+      "id": "1",
+      "question": "Quelqu’un te fait une remarque qui t’agace…",
+      "answers": [
+        { "label": "Je garde mon calme", "scores": { "equilibre": 3 } },
+        { "label": "Je réagis un peu", "scores": { "variable": 3 } },
+        { "label": "Je réagis immédiatement", "scores": { "deborde": 3 } }
+      ]
+    },
+    {
+      "id": "2",
+      "question": "Tu ressens une forte émotion…",
+      "answers": [
+        { "label": "Je prends du recul", "scores": { "equilibre": 3 } },
+        { "label": "Ça dépend du moment", "scores": { "variable": 3 } },
+        { "label": "Ça prend le dessus", "scores": { "deborde": 3 } }
+      ]
+    },
+    {
+      "id": "3",
+      "question": "Après une dispute…",
+      "answers": [
+        { "label": "Je me calme vite", "scores": { "equilibre": 3 } },
+        { "label": "Ça met du temps", "scores": { "variable": 3 } },
+        { "label": "Je reste affecté(e) longtemps", "scores": { "deborde": 3 } }
+      ]
+    },
+    {
+      "id": "4",
+      "question": "Tu es stressé(e)…",
+      "answers": [
+        { "label": "Je gère assez bien", "scores": { "equilibre": 3 } },
+        { "label": "Ça dépend des situations", "scores": { "variable": 3 } },
+        { "label": "Ça m’envahit", "scores": { "deborde": 3 } }
+      ]
+    },
+    {
+      "id": "5",
+      "question": "Quelqu’un te blesse…",
+      "answers": [
+        { "label": "Je prends du recul", "scores": { "equilibre": 3 } },
+        { "label": "Je suis touché(e)", "scores": { "variable": 3 } },
+        { "label": "Je réagis fortement", "scores": { "deborde": 3 } }
+      ]
+    },
+    {
+      "id": "6",
+      "question": "Ton humeur…",
+      "answers": [
+        { "label": "Plutôt stable", "scores": { "equilibre": 3 } },
+        { "label": "Variable", "scores": { "variable": 3 } },
+        { "label": "Très changeante", "scores": { "deborde": 3 } }
+      ]
+    },
+    {
+      "id": "7",
+      "question": "Quand tu ressens de la colère…",
+      "answers": [
+        { "label": "Je la canalise", "scores": { "equilibre": 3 } },
+        { "label": "Je réagis un peu", "scores": { "variable": 3 } },
+        { "label": "Je l’exprime directement", "scores": { "deborde": 3 } }
+      ]
+    },
+    {
+      "id": "8",
+      "question": "Tu dois gérer une situation tendue…",
+      "answers": [
+        { "label": "Je reste posé(e)", "scores": { "equilibre": 3 } },
+        { "label": "Je suis un peu affecté(e)", "scores": { "variable": 3 } },
+        { "label": "Je perds mon calme", "scores": { "deborde": 3 } }
+      ]
+    },
+    {
+      "id": "9",
+      "question": "Tu repenses à une émotion forte…",
+      "answers": [
+        { "label": "Je prends du recul", "scores": { "equilibre": 3 } },
+        { "label": "Ça revient parfois", "scores": { "variable": 3 } },
+        { "label": "Ça reste très présent", "scores": { "deborde": 3 } }
+      ]
+    },
+    {
+      "id": "10",
+      "question": "Dans un moment intense…",
+      "answers": [
+        { "label": "Je garde le contrôle", "scores": { "equilibre": 3 } },
+        { "label": "Ça dépend", "scores": { "variable": 3 } },
+        { "label": "Je me laisse emporter", "scores": { "deborde": 3 } }
+      ]
+    }
+  ]
+}

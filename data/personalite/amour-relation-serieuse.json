@@ -1,0 +1,140 @@
+{
+  "slug": "test-amour-es-tu-pret-pour-une-relation-serieuse",
+  "title": "Test amour - Es-tu prêt(e) pour une relation sérieuse ?",
+  "description": "Analyse si tu es réellement prêt à t’investir dans une relation stable et durable.",
+  "descriptionSeo": "Évalue ton état d’esprit amoureux et ta capacité à t’engager dans une relation sérieuse. À travers des situations concrètes, ce test analyse ton rapport à l’engagement, à la liberté et à tes attentes en couple. Identifie si tu es prêt à construire une relation stable, encore en phase d’évolution ou pas encore aligné avec cette idée. Une approche claire pour mieux comprendre ta position actuelle en amour.",
+  "category": {
+    "name": "Amour",
+    "slug": "amour"
+  },
+  "createdAt": "2026-04-20",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776951185/cover_siniil.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776951185/cover_siniil.jpg",
+    "alt": "Test amour pret pour relation serieuse"
+  },
+  "profiles": [
+    {
+      "key": "pret",
+      "title": "Prêt(e) pour une relation sérieuse",
+      "description": "Tu es clairement prêt à t’investir dans une relation sérieuse. Tu as une vision assez claire de ce que tu veux et tu es capable de t’engager émotionnellement. Tu comprends l’importance de la communication, du respect et de la construction sur le long terme. Tu es prêt à faire des efforts, à t’adapter et à construire quelque chose de stable. Tu as probablement déjà appris de tes expériences passées, ce qui te rend plus mature dans ta manière d’aimer. Cependant, ton défi est de ne pas idéaliser la relation. Ta force réside dans ta capacité à t’investir de manière saine et durable.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776950377/cover_telwzm.jpg"
+    },
+    {
+      "key": "transition",
+      "title": "En phase de transition",
+      "description": "Tu es dans une phase intermédiaire. Une partie de toi est prête à s’engager, mais une autre hésite encore. Tu peux avoir envie de construire quelque chose de stable, tout en gardant une certaine liberté ou en ayant des doutes. Tes expériences passées peuvent encore influencer ta manière de voir les relations. Tu es en train d’évoluer, mais tu n’es pas totalement aligné. Cette phase est normale et importante. Ton défi est de clarifier ce que tu veux vraiment. Ta force réside dans ta prise de conscience et ta capacité à évoluer.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776951269/transition_vsz8zq.jpg"
+    },
+    {
+      "key": "pas_pret",
+      "title": "Pas encore prêt(e)",
+      "description": "Tu n’es pas encore réellement prêt à t’engager dans une relation sérieuse. Tu peux ressentir un besoin de liberté, avoir des doutes ou ne pas être aligné avec l’idée d’une relation stable. Tu peux aussi être encore marqué par certaines expériences ou ne pas avoir envie de faire les efforts qu’une relation demande. Cela ne veut pas dire que tu ne le seras jamais, mais simplement que ce n’est pas le bon moment. Ton défi est de comprendre tes besoins actuels sans te forcer. Ta force réside dans ta lucidité et ton respect de ton rythme.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776775124/introvert_xgy9oy.jpg"
+    }
+  ],
+  "questions": [
+    {
+      "id": "1",
+      "question": "Quand tu penses à une relation sérieuse…",
+      "answers": [
+        { "label": "Ça me motive", "scores": { "pret": 3 } },
+        { "label": "Ça m’attire mais j’hésite", "scores": { "transition": 2 } },
+        { "label": "Je ne suis pas sûr", "scores": { "pas_pret": 3 } },
+        { "label": "Ça dépend de la personne", "scores": { "transition": 2, "pret": 1 } }
+      ]
+    },
+    {
+      "id": "2",
+      "question": "Ton rapport à l’engagement…",
+      "answers": [
+        { "label": "Je suis prêt", "scores": { "pret": 3 } },
+        { "label": "J’y pense", "scores": { "transition": 2 } },
+        { "label": "Je préfère éviter", "scores": { "pas_pret": 3 } },
+        { "label": "Je prends mon temps", "scores": { "transition": 2 } }
+      ]
+    },
+    {
+      "id": "3",
+      "question": "Dans une relation, tu es plutôt…",
+      "answers": [
+        { "label": "Investi", "scores": { "pret": 3 } },
+        { "label": "Variable", "scores": { "transition": 2 } },
+        { "label": "Distant", "scores": { "pas_pret": 3 } },
+        { "label": "Prudent", "scores": { "transition": 2 } }
+      ]
+    },
+    {
+      "id": "4",
+      "question": "Ton besoin de liberté…",
+      "answers": [
+        { "label": "Équilibré", "scores": { "pret": 3 } },
+        { "label": "Important", "scores": { "transition": 2 } },
+        { "label": "Très important", "scores": { "pas_pret": 3 } },
+        { "label": "Variable", "scores": { "transition": 2 } }
+      ]
+    },
+    {
+      "id": "5",
+      "question": "Quand une relation devient sérieuse…",
+      "answers": [
+        { "label": "Je m’investis", "scores": { "pret": 3 } },
+        { "label": "Je réfléchis", "scores": { "transition": 2 } },
+        { "label": "Je prends mes distances", "scores": { "pas_pret": 3 } },
+        { "label": "Je doute", "scores": { "transition": 2, "pas_pret": 1 } }
+      ]
+    },
+    {
+      "id": "6",
+      "question": "Tes expériences passées…",
+      "answers": [
+        { "label": "M’ont fait évoluer", "scores": { "pret": 3 } },
+        { "label": "M’influencent encore", "scores": { "transition": 2 } },
+        { "label": "Me freinent", "scores": { "pas_pret": 3 } },
+        { "label": "Sont mitigées", "scores": { "transition": 2 } }
+      ]
+    },
+    {
+      "id": "7",
+      "question": "Tu te sens prêt à faire des efforts en couple ?",
+      "answers": [
+        { "label": "Oui", "scores": { "pret": 3 } },
+        { "label": "Ça dépend", "scores": { "transition": 2 } },
+        { "label": "Pas vraiment", "scores": { "pas_pret": 3 } },
+        { "label": "Je ne sais pas", "scores": { "transition": 2 } }
+      ]
+    },
+    {
+      "id": "8",
+      "question": "Ton envie actuelle…",
+      "answers": [
+        { "label": "Construire", "scores": { "pret": 3 } },
+        { "label": "Explorer", "scores": { "transition": 2 } },
+        { "label": "Rester libre", "scores": { "pas_pret": 3 } },
+        { "label": "Voir ce qui se passe", "scores": { "transition": 2 } }
+      ]
+    },
+    {
+      "id": "9",
+      "question": "Face à un engagement…",
+      "answers": [
+        { "label": "Je m’implique", "scores": { "pret": 3 } },
+        { "label": "J’hésite", "scores": { "transition": 2 } },
+        { "label": "Je recule", "scores": { "pas_pret": 3 } },
+        { "label": "Je prends mon temps", "scores": { "transition": 2 } }
+      ]
+    },
+    {
+      "id": "10",
+      "question": "Globalement…",
+      "answers": [
+        { "label": "Je suis prêt", "scores": { "pret": 3 } },
+        { "label": "Je progresse", "scores": { "transition": 2 } },
+        { "label": "Ce n’est pas le moment", "scores": { "pas_pret": 3 } },
+        { "label": "Je suis encore en réflexion", "scores": { "transition": 2 } }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "slug": "quiz-culture-generale-fausses-verites-scientifiques",
+  "title": "Quiz Culture Générale - Fausses vérités scientifiques – 90% se trompent",
+  "description": "Un quiz de culture générale basé sur les idées reçues scientifiques que tout le monde croit vraies.",
+  "descriptionSeo": "Penses-tu bien comprendre la science ? Ce quiz de culture générale met à l’épreuve tes connaissances avec 20 idées reçues scientifiques. Entre mythes populaires, erreurs fréquentes et intuitions trompeuses, découvre ce qui est réellement vrai. Un défi amusant et instructif pour corriger tes croyances et enrichir ta culture scientifique.",
+  "category": {
+    "name": "Culture générale",
+    "slug": "culture-generale"
+  },
+  "createdAt": "2026-03-30",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1774259783/cover_o5jtaq.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1774259783/cover_o5jtaq.jpg",
+    "alt": "Quiz fausses vérités scientifiques"
+  },
+  "questions": [
+    {
+      "id": "sci-myth-1",
+      "question": "Les humains n’utilisent que 10 % de leur cerveau.",
+      "answers": ["Vrai", "Faux"],
+      "correctIndex": 1,
+      "explanation": "C’est un mythe : presque toutes les zones du cerveau sont actives selon les activités. L’imagerie cérébrale l’a largement démontré."
+    },
+    {
+      "id": "sci-myth-2",
+      "question": "On perd la majorité de notre chaleur corporelle par la tête.",
+      "answers": ["Faux", "Vrai"],
+      "correctIndex": 0,
+      "explanation": "La perte de chaleur dépend de la surface exposée. La tête n’est pas une zone spéciale."
+    },
+    {
+      "id": "sci-myth-3",
+      "question": "Les éclairs ne frappent jamais deux fois au même endroit.",
+      "answers": ["Vrai", "Faux"],
+      "correctIndex": 1,
+      "explanation": "C’est faux : certains endroits comme les gratte-ciel sont frappés régulièrement."
+    },
+    {
+      "id": "sci-myth-4",
+      "question": "Le sucre rend les enfants hyperactifs.",
+      "answers": ["Vrai", "Faux"],
+      "correctIndex": 1,
+      "explanation": "Les études montrent qu’il n’y a pas de lien direct. C’est souvent un biais de perception."
+    },
+    {
+      "id": "sci-myth-5",
+      "question": "Les chauves-souris sont aveugles.",
+      "answers": ["Faux", "Vrai"],
+      "correctIndex": 0,
+      "explanation": "Elles voient très bien, mais utilisent aussi l’écholocation pour se déplacer."
+    },
+    {
+      "id": "sci-myth-6",
+      "question": "L’eau conduit toujours l’électricité.",
+      "answers": ["Vrai", "Faux"],
+      "correctIndex": 1,
+      "explanation": "L’eau pure ne conduit pas. Ce sont les minéraux dissous qui rendent l’eau conductrice."
+    },
+    {
+      "id": "sci-myth-7",
+      "question": "Les saisons sont dues à la distance entre la Terre et le Soleil.",
+      "answers": ["Faux", "Vrai"],
+      "correctIndex": 0,
+      "explanation": "Elles sont causées par l’inclinaison de l’axe terrestre, pas par la distance."
+    },
+    {
+      "id": "sci-myth-8",
+      "question": "Les ongles et les cheveux continuent de pousser après la mort.",
+      "answers": ["Vrai", "Faux"],
+      "correctIndex": 1,
+      "explanation": "C’est une illusion due à la rétraction de la peau après la mort."
+    },
+    {
+      "id": "sci-myth-9",
+      "question": "Le sang dans les veines est bleu.",
+      "answers": ["Faux", "Vrai"],
+      "correctIndex": 0,
+      "explanation": "Le sang est toujours rouge. Les veines paraissent bleues à cause de la lumière et de la peau."
+    },
+    {
+      "id": "sci-myth-10",
+      "question": "Les humains ont 5 sens.",
+      "answers": ["Vrai", "Faux"],
+      "correctIndex": 1,
+      "explanation": "On en a bien plus : équilibre, température, douleur, etc."
+    },
+    {
+      "id": "sci-myth-11",
+      "question": "Le froid donne un rhume.",
+      "answers": ["Faux", "Vrai"],
+      "correctIndex": 0,
+      "explanation": "Le rhume est causé par des virus, pas par la température."
+    },
+    {
+      "id": "sci-myth-12",
+      "question": "On avale des araignées pendant son sommeil.",
+      "answers": ["Vrai", "Faux"],
+      "correctIndex": 1,
+      "explanation": "C’est une légende urbaine sans base scientifique."
+    },
+    {
+      "id": "sci-myth-13",
+      "question": "L’alcool réchauffe le corps.",
+      "answers": ["Vrai", "Faux"],
+      "correctIndex": 1,
+      "explanation": "Il donne une sensation de chaleur mais fait en réalité baisser la température corporelle."
+    },
+    {
+      "id": "sci-myth-14",
+      "question": "Les plantes produisent de l’oxygène uniquement le jour.",
+      "answers": ["Vrai", "Faux"],
+      "correctIndex": 0,
+      "explanation": "La photosynthèse nécessite la lumière, donc l’oxygène est produit principalement le jour."
+    },
+    {
+      "id": "sci-myth-15",
+      "question": "Le cerveau est l’organe qui consomme le plus d’énergie.",
+      "answers": ["Faux", "Vrai"],
+      "correctIndex": 1,
+      "explanation": "Il consomme environ 20 % de l’énergie du corps, ce qui est énorme pour sa taille."
+    },
+    {
+      "id": "sci-myth-16",
+      "question": "Les poissons rouges ont une mémoire de 3 secondes.",
+      "answers": ["Vrai", "Faux"],
+      "correctIndex": 1,
+      "explanation": "Ils peuvent se souvenir d’informations pendant des semaines."
+    },
+    {
+      "id": "sci-myth-17",
+      "question": "Les vaccins causent l’autisme.",
+      "answers": ["Vrai", "Faux"],
+      "correctIndex": 1,
+      "explanation": "Aucune étude sérieuse n’a démontré de lien. C’est un mythe dangereux."
+    },
+    {
+      "id": "sci-myth-18",
+      "question": "Le corps humain possède plus de bactéries que de cellules humaines.",
+      "answers": ["Faux", "Vrai"],
+      "correctIndex": 1,
+      "explanation": "Les estimations récentes indiquent un nombre comparable, parfois légèrement supérieur en bactéries."
+    },
+    {
+      "id": "sci-myth-19",
+      "question": "Les éclipses sont dangereuses pour les yeux.",
+      "answers": ["Faux", "Vrai"],
+      "correctIndex": 1,
+      "explanation": "Regarder une éclipse sans protection peut endommager la rétine."
+    },
+    {
+      "id": "sci-myth-20",
+      "question": "Les dinosaures et les humains ont coexisté.",
+      "answers": ["Vrai", "Faux"],
+      "correctIndex": 1,
+      "explanation": "Les dinosaures ont disparu environ 65 millions d’années avant les humains."
+    }
+  ]
+}

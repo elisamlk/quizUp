@@ -1,0 +1,195 @@
+{
+  "slug": "classement-animaux-les-plus-rapides",
+  "title": "Classement - Sauras-tu classer les animaux les plus rapides ?",
+  "description": "Replace les animaux dans le bon ordre selon leur vitesse et tente de réussir chaque classement avec seulement 4 coups.",
+  "descriptionSeo": "Teste tes connaissances sur les animaux les plus rapides du monde avec ce jeu de classement stratégique. Replace correctement différentes espèces selon leur vitesse maximale avec seulement 4 coups disponibles. Chaque bonne position se verrouille automatiquement pour créer un mini-jeu rapide, addictif et compétitif autour des records impressionnants du règne animal.",
+  "type": "classement",
+  "category": {
+    "name": "Classements",
+    "slug": "classements"
+  },
+  "createdAt": "2026-05-21",
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1779452880/classement_gzxqz8.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1779452880/classement_gzxqz8.jpg",
+    "alt": "Classement des animaux les plus rapides"
+  },
+  "data": {
+    "moves": 4,
+    "items": [
+      {
+        "id": "q1",
+        "question": "Classe ces félins du plus rapide au moins rapide",
+        "explanation": "Le guépard peut atteindre environ 110 à 120 km/h grâce à sa colonne vertébrale extrêmement flexible et ses griffes semi-rétractiles qui améliorent l’adhérence. Le puma est plus rapide que le lion et le tigre malgré sa taille plus légère, tandis que le lynx est le moins rapide de cette liste mais reste très agile en forêt.",
+        "items": [
+          {
+            "id": "guepard",
+            "label": "Guépard",
+            "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1779393478/guepard_tydrsz.jpg",
+            "rank": 1
+          },
+          {
+            "id": "puma",
+            "label": "Puma",
+            "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1779393478/puma_vvjx3s.jpg",
+            "rank": 2
+          },
+          {
+            "id": "lion",
+            "label": "Lion",
+            "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1779393531/lion_mrhong.jpg",
+            "rank": 3
+          },
+          {
+            "id": "tigre",
+            "label": "Tigre",
+            "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1779393584/tigre_gudyfl.jpg",
+            "rank": 4
+          },
+          {
+            "id": "leopard",
+            "label": "Léopard",
+            "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1779393831/leopard_mveuwn.jpg",
+            "rank": 5
+          },
+          {
+            "id": "lynx",
+            "label": "Lynx",
+            "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1779393884/lynx_ur21je.jpg",
+            "rank": 6
+          }
+        ]
+      },
+      {
+        "id": "q2",
+        "question": "Classe ces animaux marins du plus rapide au moins rapide",
+        "explanation": "Le voilier est souvent considéré comme le poisson le plus rapide du monde avec des pointes proches de 110 km/h. Le marlin noir rivalise avec lui sur de courtes distances. L’orque peut dépasser les 55 km/h grâce à sa puissance musculaire, alors que le dauphin mise davantage sur son endurance et son hydrodynamisme.",
+        "items": [
+          {
+            "id": "voilier",
+            "label": "Voilier",
+            "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1779395309/SAILFISH_ewgrcr.jpg",
+            "rank": 1
+          },
+          {
+            "id": "marlin",
+            "label": "Marlin noir",
+            "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1779395497/MARLIN-NOIR_lmpvpa.jpg",
+            "rank": 2
+          },
+          {
+            "id": "orque",
+            "label": "Orque",
+            "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1779395597/ORQUE_xyhgfn.jpg",
+            "rank": 3
+          },
+          {
+            "id": "thon",
+            "label": "Thon rouge",
+            "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1779395859/tuna_mtuhxd.jpg",
+            "rank": 4
+          },
+          {
+            "id": "requin-mako",
+            "label": "Requin mako",
+            "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1779395972/requin_eobokk.jpg",
+            "rank": 5
+          },
+          {
+            "id": "dauphin",
+            "label": "Dauphin",
+            "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1779396068/dolphin_m6syat.jpg",
+            "rank": 6
+          }
+        ]
+      },
+      {
+        "id": "q3",
+        "question": "Classe ces oiseaux du plus rapide au moins rapide",
+        "explanation": "Le faucon pèlerin détient le record absolu de vitesse animale avec des piqués dépassant parfois 350 km/h. Le martinet noir est l’un des oiseaux capables de voler le plus longtemps sans se poser. L’autruche, malgré son incapacité à voler, peut courir à plus de 70 km/h grâce à ses longues pattes puissantes.",
+        "items": [
+          {
+            "id": "faucon",
+            "label": "Faucon pèlerin",
+            "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1779396181/faucon_rfkaza.jpg",
+            "rank": 1
+          },
+          {
+            "id": "martinet",
+            "label": "Martinet noir",
+            "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1779396277/martinet_ilqh2w.jpg",
+            "rank": 2
+          },
+          {
+            "id": "aigle",
+            "label": "Aigle royal",
+            "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1779396348/aigle_keaz6x.jpg",
+            "rank": 3
+          },
+          {
+            "id": "autruche",
+            "label": "Autruche",
+            "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1779396437/autruche_dkc5ms.jpg",
+            "rank": 4
+          },
+          {
+            "id": "hibou",
+            "label": "Hibou",
+            "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1779396534/hibou_vyucaz.jpg",
+            "rank": 5
+          },
+          {
+            "id": "poule",
+            "label": "Poule",
+            "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1779396601/poule_knp1bu.jpg",
+            "rank": 6
+          }
+        ]
+      },
+      {
+        "id": "q4",
+        "question": "Classe ces animaux terrestres du plus rapide au moins rapide",
+        "explanation": "Le springbok peut dépasser les 90 km/h et effectuer d’immenses bonds appelés “pronking” pour échapper aux prédateurs. Le gnou est étonnamment rapide malgré sa taille. Le wombat paraît lent mais peut atteindre près de 40 km/h sur courte distance, tandis que le paresseux descend rarement des arbres et se déplace à peine plus vite qu’un humain qui marche très lentement.",
+        "items": [
+          {
+            "id": "springbok",
+            "label": "Springbok",
+            "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1779397219/Springbok_xwn6pk.jpg",
+            "rank": 1
+          },
+          {
+            "id": "gnu",
+            "label": "Gnou",
+            "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1779397076/Gnou_lx9xzg.jpg",
+            "rank": 2
+          },
+          {
+            "id": "hyene",
+            "label": "Hyène",
+            "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1779396956/hyene_v5zpid.jpg",
+            "rank": 3
+          },
+          {
+            "id": "wombat",
+            "label": "Wombat",
+            "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1779396868/Wombat_bd9hzr.jpg",
+            "rank": 4
+          },
+          {
+            "id": "koala",
+            "label": "Koala",
+            "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1779396763/koala_qu7c64.jpg",
+            "rank": 5
+          },
+          {
+            "id": "paresseux",
+            "label": "Paresseux",
+            "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1779397389/Paresseux_ppbbxv.jpg",
+            "rank": 6
+          }
+        ]
+      }
+    ]
+  }
+}

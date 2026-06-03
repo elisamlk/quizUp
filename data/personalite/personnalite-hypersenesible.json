@@ -1,0 +1,266 @@
+{
+  "slug": "test-hypersensibilite-es-tu-hypersensible",
+  "title": "Test personnalité - Es-tu hypersensible ?",
+  "description": "Analyse ta sensibilité émotionnelle et ta façon de réagir aux stimuli.",
+  "descriptionSeo": "Ce test d’hypersensibilité t’aide à comprendre ton rapport aux émotions et à ton environnement. À travers des questions sur tes réactions, ton empathie et ta sensibilité aux stimuli, identifie si tu es fortement hypersensible ou simplement sensible. Un test simple et introspectif pour mieux cerner ton fonctionnement émotionnel, reconnaître tes forces et apprendre à gérer ton intensité au quotidien avec plus de sérénité.",
+  "category": {
+    "name": "Psychologie",
+    "slug": "psychologie"
+  },
+  "createdAt": "2026-04-20",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776778495/cover_hzcaf3.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776778495/cover_hzcaf3.jpg",
+    "alt": "Test hypersensibilité"
+  },
+  "profiles": [
+    {
+      "key": "hypersensible",
+      "title": "Fortement hypersensible",
+      "description": "Tu es très probablement hypersensible. Tu ressens les émotions de manière intense, que ce soit les tiennes ou celles des autres. Tu es particulièrement attentif aux détails, aux ambiances et aux changements subtils dans ton environnement. Cette sensibilité te permet d’avoir une grande empathie et une compréhension fine des situations humaines. Tu peux être profondément touché par des choses que d’autres remarquent à peine. Cependant, cette intensité peut aussi être difficile à gérer au quotidien. Tu peux te sentir rapidement submergé, fatigué émotionnellement ou affecté par des situations qui semblent anodines pour les autres. Apprendre à poser des limites et à te protéger est essentiel pour ton équilibre. Ton hypersensibilité est une vraie force : elle te rend humain, intuitif et profondément connecté au monde qui t’entoure.",
+      "image":"https://res.cloudinary.com/dsv7oziap/image/upload/v1776778855/hyper_fnqmr9.jpg"
+    },
+    {
+      "key": "sensible",
+      "title": "Sensible",
+      "description": "Tu es sensible, avec une bonne capacité à ressentir et comprendre les émotions, sans pour autant être submergé en permanence. Tu fais preuve d’empathie, tu es attentif aux autres et tu sais percevoir les nuances émotionnelles dans les situations. Tu peux être touché par certaines ambiances ou événements, mais tu arrives généralement à garder un certain équilibre. Tu es capable de prendre du recul quand c’est nécessaire, ce qui te permet de ne pas être dépassé par tes émotions. Cette sensibilité est une qualité qui enrichit tes relations et ta perception du monde. Ton défi est de continuer à écouter tes émotions sans les laisser prendre toute la place. Ta force réside dans cet équilibre entre ressenti et stabilité.",
+      "image":"https://res.cloudinary.com/dsv7oziap/image/upload/v1776778860/sensitive_hreod2.jpg"
+    },
+    {
+      "key": "equilibre",
+      "title": "Équilibré émotionnellement",
+      "description": "Tu as un bon équilibre émotionnel. Tu ressens les choses, mais sans être débordé. Tu es capable de comprendre les émotions, les tiennes comme celles des autres, tout en gardant une certaine distance quand c’est nécessaire. Tu ne te laisses pas facilement envahir par les ambiances ou les situations stressantes. Cette stabilité te permet d’avancer avec sérénité et de gérer les difficultés avec recul. Tu es souvent perçu comme quelqu’un de posé et de fiable. Cela ne veut pas dire que tu es insensible, mais plutôt que tu as une bonne régulation émotionnelle. Ta force réside dans ta capacité à rester stable tout en restant connecté à tes ressentis.",
+      "image":"https://res.cloudinary.com/dsv7oziap/image/upload/v1776778847/balanced_e70dki.jpg"
+    },
+    {
+      "key": "rationnel",
+      "title": "Plutôt rationnel",
+      "description": "Tu es plutôt rationnel dans ta manière de fonctionner. Tu te laisses rarement submerger par les émotions et tu privilégies la logique, le recul et l’analyse. Tu observes les situations avec distance et tu prends des décisions en te basant davantage sur les faits que sur les ressentis. Cela peut te rendre très efficace dans certaines situations, notamment quand il faut garder la tête froide. Tu n’es pas forcément insensible, mais tu exprimes moins tes émotions ou tu les mets en second plan. Ton défi est parfois de te reconnecter à ton ressenti pour ne pas passer à côté de certaines dimensions humaines. Ta force réside dans ta stabilité, ta lucidité et ta capacité à ne pas te laisser emporter par l’émotion.",
+      "image":"https://res.cloudinary.com/dsv7oziap/image/upload/v1776778858/rationnal_aic0eq.jpg"
+    }
+  ],
+  "questions": [
+    {
+      "id": "1",
+      "question": "Les émotions des autres t’affectent souvent…",
+      "answers": [
+        {
+          "label": "Très fortement, je les ressens presque comme les miennes",
+          "scores": { "hypersensible": 3 }
+        },
+        {
+          "label": "Assez souvent, surtout avec les proches",
+          "scores": { "sensible": 3 }
+        },
+        {
+          "label": "Parfois, mais je garde du recul",
+          "scores": { "equilibre": 3 }
+        },
+        {
+          "label": "Rarement, je reste assez détaché",
+          "scores": { "rationnel": 3 }
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "question": "Dans un environnement bruyant ou stressant…",
+      "answers": [
+        {
+          "label": "Je me sens vite submergé",
+          "scores": { "hypersensible": 3 }
+        },
+        {
+          "label": "Ça me fatigue mais je gère",
+          "scores": { "sensible": 3 }
+        },
+        {
+          "label": "Je m’adapte assez bien",
+          "scores": { "equilibre": 3 }
+        },
+        {
+          "label": "Ça ne m’affecte presque pas",
+          "scores": { "rationnel": 3 }
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "question": "Quand tu regardes un film émouvant…",
+      "answers": [
+        {
+          "label": "Je ressens tout très intensément",
+          "scores": { "hypersensible": 3 }
+        },
+        {
+          "label": "Je suis touché facilement",
+          "scores": { "sensible": 3 }
+        },
+        {
+          "label": "Je peux être ému selon le contexte",
+          "scores": { "equilibre": 3 }
+        },
+        {
+          "label": "Je reste assez neutre",
+          "scores": { "rationnel": 3 }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "question": "Quand quelque chose te contrarie…",
+      "answers": [
+        {
+          "label": "Ça peut me toucher longtemps",
+          "scores": { "hypersensible": 3 }
+        },
+        {
+          "label": "Ça m’affecte mais je passe à autre chose",
+          "scores": { "sensible": 3 }
+        },
+        {
+          "label": "Je relativise assez vite",
+          "scores": { "equilibre": 3 }
+        },
+        {
+          "label": "Je reste détaché",
+          "scores": { "rationnel": 3 }
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "question": "Ton rapport aux émotions…",
+      "answers": [
+        {
+          "label": "Très intense et parfois difficile à gérer",
+          "scores": { "hypersensible": 3 }
+        },
+        {
+          "label": "Présent mais globalement équilibré",
+          "scores": { "sensible": 3 }
+        },
+        {
+          "label": "Stable et maîtrisé",
+          "scores": { "equilibre": 3 }
+        },
+        {
+          "label": "Plutôt contrôlé et secondaire",
+          "scores": { "rationnel": 3 }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "question": "Tu remarques facilement…",
+      "answers": [
+        {
+          "label": "Les moindres détails et changements",
+          "scores": { "hypersensible": 3 }
+        },
+        {
+          "label": "Les émotions des autres",
+          "scores": { "sensible": 3 }
+        },
+        {
+          "label": "Les grandes tendances",
+          "scores": { "equilibre": 3 }
+        },
+        {
+          "label": "Les faits concrets",
+          "scores": { "rationnel": 3 }
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "question": "Quand tu es fatigué émotionnellement…",
+      "answers": [
+        {
+          "label": "J’ai besoin de m’isoler longtemps",
+          "scores": { "hypersensible": 3 }
+        },
+        {
+          "label": "Je prends du temps pour moi",
+          "scores": { "sensible": 3 }
+        },
+        {
+          "label": "Je récupère assez vite",
+          "scores": { "equilibre": 3 }
+        },
+        {
+          "label": "Ça m’arrive rarement",
+          "scores": { "rationnel": 3 }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "question": "Ton entourage te voit comme…",
+      "answers": [
+        {
+          "label": "Très sensible",
+          "scores": { "hypersensible": 3 }
+        },
+        {
+          "label": "À l’écoute",
+          "scores": { "sensible": 3 }
+        },
+        {
+          "label": "Posé",
+          "scores": { "equilibre": 3 }
+        },
+        {
+          "label": "Rationnel",
+          "scores": { "rationnel": 3 }
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "question": "Dans une situation tendue…",
+      "answers": [
+        {
+          "label": "Je ressens tout très intensément",
+          "scores": { "hypersensible": 3 }
+        },
+        {
+          "label": "Je suis affecté mais je gère",
+          "scores": { "sensible": 3 }
+        },
+        {
+          "label": "Je garde mon calme",
+          "scores": { "equilibre": 3 }
+        },
+        {
+          "label": "Je reste détaché",
+          "scores": { "rationnel": 3 }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "question": "Ce qui te correspond le plus…",
+      "answers": [
+        {
+          "label": "Je ressens tout très fort",
+          "scores": { "hypersensible": 3 }
+        },
+        {
+          "label": "Je ressens mais je gère",
+          "scores": { "sensible": 3 }
+        },
+        {
+          "label": "Je garde un bon équilibre",
+          "scores": { "equilibre": 3 }
+        },
+        {
+          "label": "Je privilégie la logique",
+          "scores": { "rationnel": 3 }
+        }
+      ]
+    }
+  ]
+}

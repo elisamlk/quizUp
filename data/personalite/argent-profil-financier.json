@@ -1,0 +1,146 @@
+{
+  "slug": "test-profil-financier-selon-tes-habitudes",
+  "title": "Test argent - Quel est ton profil financier selon tes habitudes ?",
+  "description": "Tes habitudes révèlent-elles un profil prudent, dépensier ou équilibré ?",
+  "descriptionSeo": "Dépenses, économies, achats impulsifs, budget… ce test argent analyse tes habitudes financières du quotidien pour révéler ton profil financier. Découvre si tu es plutôt prudent(e), équilibré(e), dépensier(ère) ou investisseur(se) dans ta manière de gérer ton argent.",
+  "category": {
+    "name": "Argent",
+    "slug": "argent"
+  },
+  "createdAt": "2026-04-27",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777577150/cover_bgc95x.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777577150/cover_bgc95x.jpg",
+    "alt": "Test profil financier"
+  },
+  "profiles": [
+    {
+      "key": "prudent",
+      "title": "Le profil prudent",
+      "description": "Tu fais attention à ton argent et tu préfères anticiper plutôt que prendre des risques. Avant d’acheter, tu réfléchis, tu compares et tu te demandes si la dépense est vraiment utile. Tu aimes avoir une marge de sécurité et tu te sens plus serein(e) quand tes finances sont sous contrôle. Tu n’es pas forcément radin(e), mais tu évites les dépenses inutiles. Ton rapport à l’argent est basé sur la stabilité, la prévoyance et le besoin de sécurité. Cette prudence te protège, même si elle peut parfois t’empêcher de te faire plaisir spontanément.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777577299/careful_wjsw89.jpg"
+    },
+    {
+      "key": "equilibre",
+      "title": "Le profil équilibré",
+      "description": "Tu as une relation plutôt saine avec l’argent. Tu sais te faire plaisir, mais tu gardes aussi une certaine maîtrise de tes dépenses. Tu n’es ni dans la privation, ni dans l’excès. Tu peux craquer de temps en temps, mais tu essaies de rester raisonnable sur l’ensemble. Tu comprends que l’argent sert à sécuriser l’avenir, mais aussi à profiter du présent. Ton équilibre vient de ta capacité à ajuster tes choix selon les situations. Tu n’es pas parfait(e), mais tu as une gestion globalement cohérente.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776778847/balanced_e70dki.jpg"
+    },
+    {
+      "key": "depensier",
+      "title": "Le profil dépensier",
+      "description": "Tu as tendance à utiliser l’argent comme un moyen de plaisir, de confort ou de compensation. Tu peux acheter sur un coup de tête, te laisser tenter facilement ou repousser le moment de regarder tes comptes. Tu aimes profiter, vivre le moment présent et ne pas trop te limiter. Cette spontanéité peut rendre ton quotidien plus agréable, mais elle peut aussi créer du stress financier si elle n’est pas maîtrisée. Tu n’as pas forcément un mauvais rapport à l’argent, mais tu gagnerais à mieux suivre tes habitudes pour éviter les mauvaises surprises.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777577452/spender_gkgxmq.jpg"
+    },
+    {
+      "key": "investisseur",
+      "title": "Le profil investisseur",
+      "description": "Tu vois l’argent comme un outil pour construire quelque chose. Tu ne dépenses pas seulement pour consommer : tu penses aussi au futur, aux opportunités et à la manière de faire grandir tes ressources. Tu peux être stratégique, curieux(se) et attentif(ve) à tes choix financiers. Tu aimes comprendre où va ton argent et comment il peut travailler pour toi. Tu es capable de différer certains plaisirs si cela sert un objectif plus grand. Ton profil est tourné vers la progression, l’optimisation et la vision à long terme.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777577540/invest_sfe1c1.jpg"
+    }
+  ],
+  "questions": [
+    {
+      "id": "1",
+      "question": "Tu reçois ton salaire ou ton argent du mois…",
+      "answers": [
+        { "label": "Je mets d’abord une partie de côté", "scores": { "prudent": 3 } },
+        { "label": "Je répartis entre dépenses, plaisir et économies", "scores": { "equilibre": 3 } },
+        { "label": "Je pense surtout à ce que je vais pouvoir m’acheter", "scores": { "depensier": 3 } },
+        { "label": "Je regarde comment l’utiliser pour avancer financièrement", "scores": { "investisseur": 3 } }
+      ]
+    },
+    {
+      "id": "2",
+      "question": "Tu vois une promo sur un produit qui te plaît…",
+      "answers": [
+        { "label": "Je vérifie si j’en ai vraiment besoin", "scores": { "prudent": 3 } },
+        { "label": "Je réfléchis rapidement avant de décider", "scores": { "equilibre": 3 } },
+        { "label": "Je l’achète avant que ça parte", "scores": { "depensier": 3 } },
+        { "label": "Je me demande si cet argent serait mieux utilisé ailleurs", "scores": { "investisseur": 3 } }
+      ]
+    },
+    {
+      "id": "3",
+      "question": "Ton appli bancaire affiche une dépense imprévue…",
+      "answers": [
+        { "label": "Je vérifie immédiatement d’où ça vient", "scores": { "prudent": 3 } },
+        { "label": "Je regarde si ça impacte mon budget", "scores": { "equilibre": 3 } },
+        { "label": "Je préfère ne pas trop regarder", "scores": { "depensier": 3 } },
+        { "label": "J’analyse comment éviter ce genre de perte à l’avenir", "scores": { "investisseur": 3 } }
+      ]
+    },
+    {
+      "id": "4",
+      "question": "Un ami propose un resto un peu cher à la dernière minute…",
+      "answers": [
+        { "label": "Je refuse si ce n’était pas prévu", "scores": { "prudent": 3 } },
+        { "label": "J’accepte si mon budget le permet", "scores": { "equilibre": 3 } },
+        { "label": "J’y vais, on verra plus tard", "scores": { "depensier": 3 } },
+        { "label": "J’arbitre selon mes priorités financières du moment", "scores": { "investisseur": 3 } }
+      ]
+    },
+    {
+      "id": "5",
+      "question": "Tu veux acheter un objet assez cher…",
+      "answers": [
+        { "label": "J’attends, je compare et je réfléchis longtemps", "scores": { "prudent": 3 } },
+        { "label": "Je me laisse un délai avant de décider", "scores": { "equilibre": 3 } },
+        { "label": "Si j’en ai envie, je le prends", "scores": { "depensier": 3 } },
+        { "label": "Je vérifie si c’est un achat utile ou rentable à long terme", "scores": { "investisseur": 3 } }
+      ]
+    },
+    {
+      "id": "6",
+      "question": "À la fin du mois, il reste moins que prévu sur ton compte…",
+      "answers": [
+        { "label": "Ça me stresse beaucoup", "scores": { "prudent": 3 } },
+        { "label": "Je réajuste le mois suivant", "scores": { "equilibre": 3 } },
+        { "label": "Ça m’arrive souvent", "scores": { "depensier": 3 } },
+        { "label": "Je cherche exactement ce qui a réduit ma marge", "scores": { "investisseur": 3 } }
+      ]
+    },
+    {
+      "id": "7",
+      "question": "Tu reçois une somme d’argent inattendue…",
+      "answers": [
+        { "label": "Je la mets de côté directement", "scores": { "prudent": 3 } },
+        { "label": "J’en garde une partie et je me fais un petit plaisir", "scores": { "equilibre": 3 } },
+        { "label": "Je me fais plaisir sans trop réfléchir", "scores": { "depensier": 3 } },
+        { "label": "Je cherche comment la faire fructifier", "scores": { "investisseur": 3 } }
+      ]
+    },
+    {
+      "id": "8",
+      "question": "Quand tu fais les courses…",
+      "answers": [
+        { "label": "Je regarde les prix et je reste sur ma liste", "scores": { "prudent": 3 } },
+        { "label": "Je respecte globalement mon budget", "scores": { "equilibre": 3 } },
+        { "label": "Je rajoute souvent des extras", "scores": { "depensier": 3 } },
+        { "label": "Je cherche le meilleur rapport qualité/prix sur la durée", "scores": { "investisseur": 3 } }
+      ]
+    },
+    {
+      "id": "9",
+      "question": "Tu penses à ton avenir financier…",
+      "answers": [
+        { "label": "Je veux surtout éviter les problèmes", "scores": { "prudent": 3 } },
+        { "label": "Je veux être à l’aise sans me priver", "scores": { "equilibre": 3 } },
+        { "label": "Je préfère ne pas trop y penser", "scores": { "depensier": 3 } },
+        { "label": "Je veux construire une vraie sécurité sur le long terme", "scores": { "investisseur": 3 } }
+      ]
+    },
+    {
+      "id": "10",
+      "question": "Avant de valider un panier en ligne…",
+      "answers": [
+        { "label": "Je retire souvent des articles", "scores": { "prudent": 3 } },
+        { "label": "Je vérifie si l’achat reste raisonnable", "scores": { "equilibre": 3 } },
+        { "label": "Je valide vite pour ne pas hésiter", "scores": { "depensier": 3 } },
+        { "label": "Je me demande si cette dépense sert mes objectifs", "scores": { "investisseur": 3 } }
+      ]
+    }
+  ]
+}

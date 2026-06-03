@@ -1,0 +1,200 @@
+{
+  "slug": "quiz-zones-volcaniques-monde",
+  "title": "Quiz Géographie - Zones volcaniques",
+  "description": "Teste tes connaissances sur les zones volcaniques du monde et comprends où et pourquoi les volcans se forment.",
+  "descriptionSeo": "Où se trouvent les principales zones volcaniques du monde ? De la ceinture de feu du Pacifique aux points chauds comme Hawaï ou l’Islande, ce quiz de géographie te propose 20 questions pour comprendre le volcanisme. Découvre les liens entre plaques tectoniques, subduction et activité volcanique, avec des explications détaillées pour mieux saisir ces phénomènes naturels spectaculaires.",
+  "category": {
+    "name": "Géographie",
+    "slug": "geographie"
+  },
+  "createdAt": "2026-03-30",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1774872174/cover_xxwc62.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1774872174/cover_xxwc62.jpg",
+    "alt": "Quiz zones volcaniques"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "question": "Quelle zone concentre la majorité des volcans actifs sur Terre ?",
+      "image": null,
+      "imagePrompt": "Pacific Ring of Fire volcano map",
+      "answers": ["Ceinture de feu du Pacifique", "Atlantique Nord", "Afrique centrale", "Europe de l’Est"],
+      "correctIndex": 0,
+      "explanation": "La ceinture de feu du Pacifique regroupe environ 75 % des volcans actifs. Elle correspond à des zones de subduction où une plaque tectonique plonge sous une autre, générant du magma et donc des éruptions fréquentes."
+    },
+    {
+      "id": "2",
+      "question": "Quel pays compte l’un des plus grands nombres de volcans actifs au monde ?",
+      "image": null,
+      "imagePrompt": "Indonesia volcanoes map",
+      "answers": ["Indonésie", "Canada", "France", "Égypte"],
+      "correctIndex": 0,
+      "explanation": "L’Indonésie se situe sur la ceinture de feu et possède plus d’une centaine de volcans actifs. Cette situation résulte de la convergence de plusieurs plaques tectoniques dans la région."
+    },
+    {
+      "id": "3",
+      "question": "Quel type de limite de plaques est le plus associé au volcanisme explosif ?",
+      "image": null,
+      "imagePrompt": "subduction volcano diagram",
+      "answers": ["Divergente", "Transformante", "Subduction", "Passive"],
+      "correctIndex": 2,
+      "explanation": "Les zones de subduction produisent des volcans explosifs car le magma y est visqueux et riche en gaz. Cela provoque des éruptions violentes, comme celles du mont Saint Helens ou du Vésuve."
+    },
+    {
+      "id": "4",
+      "question": "Quel pays européen est célèbre pour ses volcans comme l’Etna et le Vésuve ?",
+      "image": null,
+      "imagePrompt": "Etna volcano eruption",
+      "answers": ["Grèce", "Italie", "Espagne", "Allemagne"],
+      "correctIndex": 1,
+      "explanation": "L’Italie est située sur une zone de convergence entre plaques africaine et eurasienne. Cela explique la présence de volcans actifs majeurs, souvent proches de zones densément peuplées."
+    },
+    {
+      "id": "5",
+      "question": "Quel type de volcan est typique des points chauds comme Hawaï ?",
+      "image": null,
+      "imagePrompt": "shield volcano Hawaii",
+      "answers": ["Volcan bouclier", "Stratovolcan", "Caldeira explosive", "Dôme de lave"],
+      "correctIndex": 0,
+      "explanation": "Les volcans boucliers, comme à Hawaï, produisent des laves fluides qui s’écoulent facilement. Ils forment de vastes reliefs peu pentus, contrairement aux volcans explosifs."
+    },
+    {
+      "id": "6",
+      "question": "Pourquoi l’Islande est-elle très volcanique ?",
+      "image": null,
+      "imagePrompt": "Iceland volcano rift",
+      "answers": ["Climat froid", "Présence d’un désert", "Dorsale océanique", "Relief montagneux"],
+      "correctIndex": 2,
+      "explanation": "L’Islande se situe sur la dorsale médio-atlantique, une zone où les plaques s’écartent. Le magma remonte alors facilement, créant une activité volcanique intense."
+    },
+    {
+      "id": "7",
+      "question": "Quel volcan célèbre a détruit la ville de Pompéi en 79 ?",
+      "image": null,
+      "imagePrompt": "Vesuvius Pompeii",
+      "answers": ["Etna", "Vésuve", "Stromboli", "Fuji"],
+      "correctIndex": 1,
+      "explanation": "L’éruption du Vésuve a enseveli Pompéi sous les cendres. Cet événement est un exemple majeur de volcanisme explosif en zone densément peuplée."
+    },
+    {
+      "id": "8",
+      "question": "Quelle région d’Afrique est liée à une activité volcanique due à l’ouverture d’un continent ?",
+      "image": null,
+      "imagePrompt": "East African Rift volcano",
+      "answers": ["Atlas", "Sahara", "Rift est-africain", "Sahel"],
+      "correctIndex": 2,
+      "explanation": "Le Rift est-africain est une zone où la croûte terrestre se fracture. Ce phénomène crée des volcans et pourrait à long terme former un nouvel océan."
+    },
+    {
+      "id": "9",
+      "question": "Quel pays abrite le volcan Fuji ?",
+      "image": null,
+      "imagePrompt": "Mount Fuji",
+      "answers": ["Chine", "Corée", "Japon", "Vietnam"],
+      "correctIndex": 2,
+      "explanation": "Le mont Fuji est un stratovolcan emblématique situé au Japon, pays fortement marqué par l’activité volcanique liée à la subduction."
+    },
+    {
+      "id": "10",
+      "question": "Quel océan est entouré par la principale zone volcanique mondiale ?",
+      "image": null,
+      "imagePrompt": "Pacific volcanoes",
+      "answers": ["Atlantique", "Indien", "Arctique", "Pacifique"],
+      "correctIndex": 3,
+      "explanation": "Le Pacifique est bordé par la ceinture de feu, ce qui en fait l’océan le plus actif volcanique et sismiquement."
+    },
+    {
+      "id": "11",
+      "question": "Pourquoi les volcans sont-ils rares au centre des continents ?",
+      "image": null,
+      "imagePrompt": "tectonic plate interior",
+      "answers": ["Climat sec", "Absence de magma", "Éloignement des limites de plaques", "Altitude"],
+      "correctIndex": 2,
+      "explanation": "Les volcans se forment principalement aux frontières des plaques tectoniques. Les centres continentaux sont généralement stables."
+    },
+    {
+      "id": "12",
+      "question": "Quel pays d’Amérique du Sud est célèbre pour ses volcans dans les Andes ?",
+      "image": null,
+      "imagePrompt": "Chile Andes volcano",
+      "answers": ["Brésil", "Chili", "Argentine", "Uruguay"],
+      "correctIndex": 1,
+      "explanation": "Le Chili possède de nombreux volcans actifs liés à la subduction de la plaque de Nazca sous la plaque sud-américaine."
+    },
+    {
+      "id": "13",
+      "question": "Quel phénomène géologique est directement lié à la formation des volcans ?",
+      "image": null,
+      "imagePrompt": "tectonic plates movement",
+      "answers": ["Érosion", "Tectonique des plaques", "Climat", "Sédimentation"],
+      "correctIndex": 1,
+      "explanation": "La tectonique des plaques est le moteur du volcanisme : elle crée des zones de subduction, divergence ou points chauds où le magma remonte."
+    },
+    {
+      "id": "14",
+      "question": "Quelle île volcanique est située sur un point chaud au milieu de l’océan Pacifique ?",
+      "image": null,
+      "imagePrompt": "Hawaii volcano",
+      "answers": ["Islande", "Hawaï", "Madagascar", "Sri Lanka"],
+      "correctIndex": 1,
+      "explanation": "Hawaï est formé par un point chaud fixe sous la plaque pacifique. Les îles se forment successivement à mesure que la plaque se déplace."
+    },
+    {
+      "id": "15",
+      "question": "Quel type de volcan est le plus dangereux pour les populations ?",
+      "image": null,
+      "imagePrompt": "explosive volcano eruption",
+      "answers": ["Volcan bouclier", "Stratovolcan", "Volcan sous-marin", "Volcan fissural"],
+      "correctIndex": 1,
+      "explanation": "Les stratovolcans produisent des éruptions explosives, avec nuées ardentes et cendres, ce qui les rend particulièrement dangereux."
+    },
+    {
+      "id": "16",
+      "question": "Quelle région est connue pour ses volcans actifs en Méditerranée ?",
+      "image": null,
+      "imagePrompt": "Stromboli volcano",
+      "answers": ["France", "Italie", "Turquie", "Grèce"],
+      "correctIndex": 1,
+      "explanation": "L’Italie possède plusieurs volcans actifs en Méditerranée, notamment Stromboli, Etna et Vésuve."
+    },
+    {
+      "id": "17",
+      "question": "Quel pays possède le volcan Eyjafjallajökull ?",
+      "image": null,
+      "imagePrompt": "Eyjafjallajokull eruption",
+      "answers": ["Norvège", "Islande", "Finlande", "Suède"],
+      "correctIndex": 1,
+      "explanation": "L’éruption de ce volcan en 2010 a perturbé le trafic aérien européen, montrant l’impact global des volcans."
+    },
+    {
+      "id": "18",
+      "question": "Quel type de limite tectonique crée des volcans sous-marins ?",
+      "image": null,
+      "imagePrompt": "mid ocean ridge",
+      "answers": ["Divergente", "Subduction", "Transformante", "Passive"],
+      "correctIndex": 0,
+      "explanation": "Aux limites divergentes, les plaques s’écartent et le magma remonte, formant des volcans sous-marins."
+    },
+    {
+      "id": "19",
+      "question": "Quelle région du monde est très volcanique en raison de la subduction ?",
+      "image": null,
+      "imagePrompt": "Andes volcano",
+      "answers": ["Andes", "Sahara", "Europe du Nord", "Sibérie"],
+      "correctIndex": 0,
+      "explanation": "Les Andes sont une chaîne volcanique liée à la subduction, avec de nombreux volcans actifs."
+    },
+    {
+      "id": "20",
+      "question": "Quelle zone est la moins volcanique ?",
+      "image": null,
+      "imagePrompt": "continental interior stable",
+      "answers": ["Ceinture de feu", "Rift", "Points chauds", "Intérieur des plaques"],
+      "correctIndex": 3,
+      "explanation": "Les zones internes des plaques tectoniques sont généralement stables et peu sujettes au volcanisme."
+    }
+  ]
+}

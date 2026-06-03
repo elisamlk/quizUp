@@ -1,0 +1,162 @@
+{
+  "slug": "test-crush-quel-type-de-personne-te-correspond-vraiment",
+  "title": "Test crush - Quel type de personne te correspond vraiment ?",
+  "description": "Identifie le type de personne avec qui tu pourrais vraiment être compatible.",
+  "descriptionSeo": "Analyse tes attentes en amour et ton fonctionnement relationnel pour découvrir quel type de personne te correspond vraiment. À travers des situations concrètes, ce test explore ton rapport aux émotions, à la communication et à l’attirance. Identifie si tu es fait pour quelqu’un de stable, passionné, indépendant, protecteur ou spontané. Une approche fun et révélatrice pour mieux comprendre tes compatibilités amoureuses.",
+  "category": {
+    "name": "Amour",
+    "slug": "amour"
+  },
+  "createdAt": "2026-04-20",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776951649/cover_dmjvzv.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776951649/cover_dmjvzv.jpg",
+    "alt": "Test crush compatibilite amoureuse"
+  },
+  "profiles": [
+    {
+      "key": "stable",
+      "title": "Une personne stable",
+      "description": "Tu as besoin de sécurité et de constance dans une relation. Tu recherches quelqu’un de fiable, posé et sincère, capable de construire sur le long terme. Les relations instables ou trop intenses peuvent te fatiguer. Tu apprécies les personnes qui savent où elles vont et qui sont cohérentes dans leurs actes. Ce type de partenaire t’apporte un cadre rassurant et te permet de t’investir pleinement. Ton défi est de ne pas tomber dans une routine trop confortable. Ta compatibilité repose sur la confiance et la stabilité.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776776806/calm_oixx0l.jpg"
+    },
+    {
+      "key": "passionne",
+      "title": "Une personne passionnée",
+      "description": "Tu es attiré par les relations intenses, pleines d’émotions et de moments forts. Tu aimes vibrer, ressentir et vivre des expériences marquantes. Tu recherches quelqu’un qui exprime ses émotions et qui ne laisse pas la relation devenir monotone. Les liens trop calmes ou prévisibles peuvent t’ennuyer. Une personne passionnée correspond à ton besoin d’intensité et de connexion forte. Ton défi est de gérer les hauts et les bas émotionnels. Ta compatibilité repose sur l’énergie et la profondeur.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776950614/passionate_ztwvio.jpg"
+    },
+    {
+      "key": "independant",
+      "title": "Une personne indépendante",
+      "description": "Tu es attiré par des personnes qui ont leur propre vie, leurs projets et leur liberté. Tu apprécies les relations où chacun peut exister sans dépendre totalement de l’autre. Tu n’as pas besoin d’une présence constante pour te sentir bien. Ce type de partenaire te permet de garder ton équilibre et ton espace. Tu valorises l’autonomie, la confiance et le respect mutuel. Ton défi est de maintenir une vraie connexion émotionnelle. Ta compatibilité repose sur l’équilibre entre liberté et lien.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776949673/cover_arucbu.jpg"
+    },
+    {
+      "key": "protecteur",
+      "title": "Une personne protectrice",
+      "description": "Tu es attiré par des personnes rassurantes, attentives et impliquées. Tu apprécies quelqu’un qui prend soin de toi, qui te soutient et qui crée un cadre sécurisant. Tu recherches une relation stable où tu peux te sentir en confiance. Ce type de partenaire correspond à ton besoin de sécurité émotionnelle. Tu aimes les personnes présentes et fiables. Ton défi est de ne pas devenir trop dépendant de cette protection. Ta compatibilité repose sur le soutien et la stabilité.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776951269/transition_vsz8zq.jpg"
+    },
+    {
+      "key": "spontane",
+      "title": "Une personne spontanée",
+      "description": "Tu es attiré par les personnes imprévisibles, dynamiques et pleines d’énergie. Tu aimes les relations qui bougent, qui surprennent et qui sortent de la routine. Tu recherches quelqu’un qui te pousse à vivre des expériences nouvelles et à sortir de ta zone de confort. Ce type de partenaire apporte du fun et du mouvement dans ta vie. Ton défi est de garder un minimum de stabilité. Ta compatibilité repose sur la nouveauté et l’énergie.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776891389/pas-influencable_aqukt5.jpg"
+    }
+  ],
+  "questions": [
+    {
+      "id": "1",
+      "question": "Ce qui t’attire le plus chez quelqu’un…",
+      "answers": [
+        { "label": "Sa fiabilité", "scores": { "stable": 3 } },
+        { "label": "Son intensité", "scores": { "passionne": 3 } },
+        { "label": "Son indépendance", "scores": { "independant": 3 } },
+        { "label": "Son côté rassurant", "scores": { "protecteur": 3 } },
+        { "label": "Son énergie", "scores": { "spontane": 3 } }
+      ]
+    },
+    {
+      "id": "2",
+      "question": "Dans une relation, tu préfères…",
+      "answers": [
+        { "label": "Construire sur le long terme", "scores": { "stable": 3 } },
+        { "label": "Vivre intensément", "scores": { "passionne": 3 } },
+        { "label": "Garder ton espace", "scores": { "independant": 3 } },
+        { "label": "Te sentir en sécurité", "scores": { "protecteur": 3 } },
+        { "label": "T’amuser", "scores": { "spontane": 3 } }
+      ]
+    },
+    {
+      "id": "3",
+      "question": "Ton idéal amoureux…",
+      "answers": [
+        { "label": "Stable", "scores": { "stable": 3 } },
+        { "label": "Passionné", "scores": { "passionne": 3 } },
+        { "label": "Libre", "scores": { "independant": 3 } },
+        { "label": "Rassurant", "scores": { "protecteur": 3 } },
+        { "label": "Fun", "scores": { "spontane": 3 } }
+      ]
+    },
+    {
+      "id": "4",
+      "question": "Ce qui te fait fuir…",
+      "answers": [
+        { "label": "L’instabilité", "scores": { "stable": 3 } },
+        { "label": "L’ennui", "scores": { "passionne": 3 } },
+        { "label": "La dépendance", "scores": { "independant": 3 } },
+        { "label": "Le manque d’attention", "scores": { "protecteur": 3 } },
+        { "label": "La routine", "scores": { "spontane": 3 } }
+      ]
+    },
+    {
+      "id": "5",
+      "question": "Quand tu es attiré par quelqu’un…",
+      "answers": [
+        { "label": "Je prends mon temps", "scores": { "stable": 3 } },
+        { "label": "Je m’emballe", "scores": { "passionne": 3 } },
+        { "label": "Je reste libre", "scores": { "independant": 3 } },
+        { "label": "Je m’attache vite", "scores": { "protecteur": 3 } },
+        { "label": "Je profite du moment", "scores": { "spontane": 3 } }
+      ]
+    },
+    {
+      "id": "6",
+      "question": "Ce que tu recherches vraiment…",
+      "answers": [
+        { "label": "La stabilité", "scores": { "stable": 3 } },
+        { "label": "L’intensité", "scores": { "passionne": 3 } },
+        { "label": "La liberté", "scores": { "independant": 3 } },
+        { "label": "La sécurité", "scores": { "protecteur": 3 } },
+        { "label": "L’aventure", "scores": { "spontane": 3 } }
+      ]
+    },
+    {
+      "id": "7",
+      "question": "Ton type de relation…",
+      "answers": [
+        { "label": "Sérieuse", "scores": { "stable": 3 } },
+        { "label": "Intense", "scores": { "passionne": 3 } },
+        { "label": "Libre", "scores": { "independant": 3 } },
+        { "label": "Protectrice", "scores": { "protecteur": 3 } },
+        { "label": "Spontanée", "scores": { "spontane": 3 } }
+      ]
+    },
+    {
+      "id": "8",
+      "question": "Tu te sens le mieux avec quelqu’un qui…",
+      "answers": [
+        { "label": "Est fiable", "scores": { "stable": 3 } },
+        { "label": "Est intense", "scores": { "passionne": 3 } },
+        { "label": "Est autonome", "scores": { "independant": 3 } },
+        { "label": "Est attentionné", "scores": { "protecteur": 3 } },
+        { "label": "Est spontané", "scores": { "spontane": 3 } }
+      ]
+    },
+    {
+      "id": "9",
+      "question": "Ton rythme en amour…",
+      "answers": [
+        { "label": "Progressif", "scores": { "stable": 3 } },
+        { "label": "Rapide", "scores": { "passionne": 3 } },
+        { "label": "Flexible", "scores": { "independant": 3 } },
+        { "label": "Fusionnel", "scores": { "protecteur": 3 } },
+        { "label": "Variable", "scores": { "spontane": 3 } }
+      ]
+    },
+    {
+      "id": "10",
+      "question": "Globalement…",
+      "answers": [
+        { "label": "Je veux du stable", "scores": { "stable": 3 } },
+        { "label": "Je veux vibrer", "scores": { "passionne": 3 } },
+        { "label": "Je veux rester libre", "scores": { "independant": 3 } },
+        { "label": "Je veux être rassuré", "scores": { "protecteur": 3 } },
+        { "label": "Je veux du fun", "scores": { "spontane": 3 } }
+      ]
+    }
+  ]
+}

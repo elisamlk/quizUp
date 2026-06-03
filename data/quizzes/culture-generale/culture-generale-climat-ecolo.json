@@ -1,0 +1,200 @@
+{
+  "slug": "quiz-climat-ecologie",
+  "title": "Quiz Culture Générale Climat et Écologie - 20 questions pour comprendre la planète",
+  "description": "Réchauffement climatique, biodiversité, pollution et solutions : teste ta culture générale.",
+  "descriptionSeo": "Teste ta culture générale sur le climat et l’écologie avec ce quiz de 20 questions. Réchauffement climatique, biodiversité, pollution, énergies renouvelables et enjeux environnementaux : découvre les mécanismes clés et les solutions pour mieux comprendre et agir face aux défis écologiques actuels.",
+  "category": {
+    "name": "Culture générale",
+    "slug": "culture-generale"
+  },
+  "createdAt": "2026-03-20",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1774016770/cover_wa3l5w.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1774016770/cover_wa3l5w.jpg",
+    "alt": "Quiz climat et écologie"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "question": "Quel gaz est le principal responsable du réchauffement climatique ?",
+      "image": null,
+      "imagePrompt": "co2 greenhouse effect",
+      "answers": ["Oxygène", "Dioxyde de carbone", "Azote", "Hydrogène"],
+      "correctIndex": 1,
+      "explanation": "Le CO2 est le principal gaz à effet de serre d’origine humaine. Il est produit notamment par la combustion des énergies fossiles et s’accumule dans l’atmosphère."
+    },
+    {
+      "id": "2",
+      "question": "Quel phénomène correspond à l’augmentation globale des températures ?",
+      "image": null,
+      "imagePrompt": "global warming earth",
+      "answers": ["Pollution", "Réchauffement climatique", "Déforestation", "Érosion"],
+      "correctIndex": 1,
+      "explanation": "Le réchauffement climatique est causé par l’augmentation des gaz à effet de serre, modifiant les équilibres climatiques à long terme."
+    },
+    {
+      "id": "3",
+      "question": "Quelle énergie est renouvelable ?",
+      "image": null,
+      "imagePrompt": "solar wind energy",
+      "answers": ["Charbon", "Pétrole", "Gaz", "Solaire"],
+      "correctIndex": 3,
+      "explanation": "L’énergie solaire est renouvelable car elle provient du Soleil, une source inépuisable à l’échelle humaine."
+    },
+    {
+      "id": "4",
+      "question": "Quel écosystème abrite la plus grande biodiversité terrestre ?",
+      "image": null,
+      "imagePrompt": "amazon rainforest biodiversity",
+      "answers": ["Désert", "Forêt tropicale", "Toundra", "Montagne"],
+      "correctIndex": 1,
+      "explanation": "Les forêts tropicales, comme l’Amazonie, abritent une biodiversité exceptionnelle grâce à leur climat chaud et humide."
+    },
+    {
+      "id": "5",
+      "question": "Quel est le principal rôle des océans dans le climat ?",
+      "image": null,
+      "imagePrompt": "ocean climate regulation",
+      "answers": ["Produire du pétrole", "Absorber le CO2", "Créer du vent", "Refroidir les volcans"],
+      "correctIndex": 1,
+      "explanation": "Les océans absorbent une grande partie du CO2 et de la chaleur, jouant un rôle clé dans la régulation climatique."
+    },
+    {
+      "id": "6",
+      "question": "Quel phénomène correspond à la disparition d’espèces ?",
+      "image": null,
+      "imagePrompt": "animal extinction",
+      "answers": ["Pollution", "Déforestation", "Extinction", "Migration"],
+      "correctIndex": 2,
+      "explanation": "L’extinction désigne la disparition définitive d’une espèce. Aujourd’hui, elle est fortement accélérée par les activités humaines."
+    },
+    {
+      "id": "7",
+      "question": "Quel est le principal gaz de l’atmosphère ?",
+      "image": null,
+      "imagePrompt": "earth atmosphere",
+      "answers": ["Oxygène", "CO2", "Argon", "Azote"],
+      "correctIndex": 3,
+      "explanation": "L’azote représente environ 78 % de l’atmosphère terrestre, bien plus que l’oxygène."
+    },
+    {
+      "id": "8",
+      "question": "Quel phénomène transforme des terres fertiles en désert ?",
+      "image": null,
+      "imagePrompt": "desertification land",
+      "answers": ["Pollution", "Érosion", "Désertification", "Urbanisation"],
+      "correctIndex": 2,
+      "explanation": "La désertification est liée à la dégradation des sols, souvent aggravée par le climat et les activités humaines."
+    },
+    {
+      "id": "9",
+      "question": "Quel est le principal gaz produit par les voitures ?",
+      "image": null,
+      "imagePrompt": "car emissions pollution",
+      "answers": ["CO2", "Oxygène", "Hydrogène", "Azote"],
+      "correctIndex": 0,
+      "explanation": "Les voitures produisent du CO2 en brûlant du carburant. C’est une source majeure de pollution et de réchauffement climatique."
+    },
+    {
+      "id": "10",
+      "question": "Quel élément est essentiel à la vie sur Terre ?",
+      "image": null,
+      "imagePrompt": "water river nature",
+      "answers": ["Pétrole", "Gaz", "Eau", "Charbon"],
+      "correctIndex": 2,
+      "explanation": "L’eau est indispensable à tous les êtres vivants et joue un rôle central dans les écosystèmes."
+    },
+    {
+      "id": "11",
+      "question": "Quel phénomène correspond à la montée du niveau des mers ?",
+      "image": null,
+      "imagePrompt": "sea level rise",
+      "answers": ["Réchauffement climatique", "Fonte des glaces", "Érosion", "Pollution"],
+      "correctIndex": 1,
+      "explanation": "La fonte des glaciers et calottes glaciaires contribue directement à l’élévation du niveau des mers."
+    },
+    {
+      "id": "12",
+      "question": "Quel type d’énergie utilise le vent ?",
+      "image": null,
+      "imagePrompt": "wind turbines",
+      "answers": ["Nucléaire", "Hydraulique", "Éolienne", "Thermique"],
+      "correctIndex": 2,
+      "explanation": "L’énergie éolienne transforme la force du vent en électricité grâce aux éoliennes."
+    },
+    {
+      "id": "13",
+      "question": "Quel phénomène est lié à l’accumulation de déchets plastiques dans les océans ?",
+      "image": null,
+      "imagePrompt": "plastic ocean pollution",
+      "answers": ["Pollution marine", "Réchauffement", "Érosion", "Déforestation"],
+      "correctIndex": 0,
+      "explanation": "La pollution plastique menace les écosystèmes marins et peut entrer dans la chaîne alimentaire."
+    },
+    {
+      "id": "14",
+      "question": "Quel est le principal rôle des arbres ?",
+      "image": null,
+      "imagePrompt": "forest trees oxygen",
+      "answers": ["Produire du CO2", "Absorber le CO2", "Créer du pétrole", "Produire du métal"],
+      "correctIndex": 1,
+      "explanation": "Les arbres absorbent le CO2 et produisent de l’oxygène grâce à la photosynthèse."
+    },
+    {
+      "id": "15",
+      "question": "Quel phénomène rend les océans plus acides ?",
+      "image": null,
+      "imagePrompt": "ocean acidification coral",
+      "answers": ["Pollution plastique", "Réchauffement", "Absorption du CO2", "Marées"],
+      "correctIndex": 2,
+      "explanation": "Les océans absorbent le CO2, ce qui modifie leur pH et perturbe les écosystèmes marins."
+    },
+    {
+      "id": "16",
+      "question": "Quel type d’énergie provient de l’eau en mouvement ?",
+      "image": null,
+      "imagePrompt": "hydroelectric dam",
+      "answers": ["Éolienne", "Solaire", "Hydraulique", "Nucléaire"],
+      "correctIndex": 2,
+      "explanation": "L’énergie hydraulique utilise la force de l’eau pour produire de l’électricité."
+    },
+    {
+      "id": "17",
+      "question": "Quel phénomène climatique provoque des périodes de sécheresse et d’inondations extrêmes ?",
+      "image": null,
+      "imagePrompt": "climate extreme weather",
+      "answers": ["Réchauffement climatique", "Vent", "Marées", "Érosion"],
+      "correctIndex": 0,
+      "explanation": "Le réchauffement climatique intensifie les événements extrêmes comme les sécheresses et les inondations."
+    },
+    {
+      "id": "18",
+      "question": "Quel gaz protège la Terre des rayons UV ?",
+      "image": null,
+      "imagePrompt": "ozone layer earth",
+      "answers": ["CO2", "Oxygène", "Ozone", "Hydrogène"],
+      "correctIndex": 2,
+      "explanation": "La couche d’ozone filtre les rayons ultraviolets nocifs pour les êtres vivants."
+    },
+    {
+      "id": "19",
+      "question": "Quel phénomène correspond à la coupe massive des forêts ?",
+      "image": null,
+      "imagePrompt": "deforestation aerial",
+      "answers": ["Urbanisation", "Déforestation", "Érosion", "Pollution"],
+      "correctIndex": 1,
+      "explanation": "La déforestation détruit les habitats naturels et contribue au changement climatique."
+    },
+    {
+      "id": "20",
+      "question": "Quel geste aide à réduire son impact environnemental ?",
+      "image": null,
+      "imagePrompt": "recycling eco lifestyle",
+      "answers": ["Jeter plus", "Recycler", "Consommer plus", "Brûler des déchets"],
+      "correctIndex": 1,
+      "explanation": "Recycler permet de réduire les déchets et d’économiser des ressources naturelles."
+    }
+  ]
+}

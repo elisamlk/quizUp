@@ -1,0 +1,535 @@
+.home {
+  width: min(1200px, 100%);
+  margin: 0 auto;
+  padding: 32px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+/* 
+.heroLandingSection {
+  background:
+    linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.2)),
+    url("/images/hero/hero.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 40px;
+  border-radius: 28px;
+}
+
+
+.heroLandingHead {
+  display: flex;
+  align-items: center;
+}
+
+
+.heroLandingTitle {
+  margin: 0;
+  max-width: 800px;
+  font-size: clamp(2.2rem, 4vw, 3.2rem);
+  line-height: 1.05;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+.heroIntro {
+  margin: 0;
+  max-width: 720px;
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: black;
+  font-weight: bold;
+}
+
+
+.heroCtas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 8px;
+}
+
+
+.homeBtnPrimary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 14px 20px;
+  border-radius: 999px;
+  background: #3055ff;
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.95rem;
+  transition: all 0.2s ease;
+  text-decoration: none;
+}
+
+.homeBtnPrimary:hover {
+  background: #2244dd;
+  transform: translateY(-1px);
+} */
+
+/* 
+@media (max-width: 768px) {
+  .heroLandingSection {
+    padding: 28px 20px;
+  }
+
+  .heroLandingTitle {
+    font-size: clamp(1.9rem, 7vw, 2.6rem);
+  }
+
+  .heroCtas {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .homeBtnPrimary {
+    width: 100%;
+  }
+} */
+
+.heroLandingSection {
+  position: relative;
+  overflow: hidden;
+
+  min-height: 520px;
+
+  border-radius: 36px;
+
+  display: flex;
+  align-items: center;
+
+  background:
+    linear-gradient(
+      90deg,
+      rgba(10, 16, 36, 0.82) 0%,
+      rgba(10, 16, 36, 0.52) 35%,
+      rgba(10, 16, 36, 0.12) 100%
+    ),
+    url("https://res.cloudinary.com/dsv7oziap/image/upload/v1780062448/ACCUEIL_t7gykv.webp");
+
+  background-size: cover;
+  background-position: center;
+
+  box-shadow: 0 24px 60px rgba(15, 23, 42, 0.12);
+}
+
+.heroLandingContent {
+  width: min(720px, 100%);
+  padding: 56px;
+}
+
+.heroLandingTitle {
+  margin: 0;
+
+  color: #fff;
+
+  font-size: clamp(3.5rem, 7vw, 6.5rem);
+  line-height: 0.85;
+
+  font-weight: 950;
+
+  letter-spacing: -0.09em;
+
+  text-shadow: 0 10px 30px rgba(0, 0, 0, 0.28);
+}
+
+.heroLandingSub {
+  margin: 24px 0 0;
+
+  max-width: 560px;
+
+  color: rgba(255, 255, 255, 0.88);
+
+  font-size: 1.08rem;
+  line-height: 1.7;
+}
+
+.heroCtas {
+  display: flex;
+  gap: 14px;
+
+  margin-top: 34px;
+}
+
+.homeBtnPrimary,
+.homeBtnSecondary {
+  height: 54px;
+
+  padding: 0 24px;
+
+  border-radius: 999px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  text-decoration: none;
+
+  font-size: 0.95rem;
+  font-weight: 850;
+}
+
+.homeBtnPrimary {
+  background: #fff;
+  color: #121826;
+}
+
+.homeBtnSecondary {
+  background: rgba(255, 255, 255, 0.14);
+
+  color: #fff;
+
+  border: 1px solid rgba(255, 255, 255, 0.18);
+
+  backdrop-filter: blur(10px);
+}
+
+@media (max-width: 768px) {
+  .heroLandingSection {
+    min-height: 420px;
+
+    border-radius: 24px;
+
+    align-items: flex-end;
+  }
+
+  .heroLandingContent {
+    padding: 28px;
+  }
+
+  .heroLandingTitle {
+    font-size: 2.5rem;
+  }
+
+  .heroLandingSub {
+    font-size: 0.95rem;
+  }
+
+  .heroCtas {
+    flex-direction: column;
+  }
+
+  .homeBtnPrimary,
+  .homeBtnSecondary {
+    width: 100%;
+  }
+}
+.homeSection {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.sectionHead {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.sectionTitle {
+  margin: 0;
+  font-size: 1.5rem;
+  line-height: 1.1;
+}
+
+.sectionLink {
+  color: #3055ff;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.row {
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding-bottom: 8px;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: thin;
+}
+
+.rowTrack {
+  display: flex;
+  gap: 16px;
+  width: max-content;
+}
+
+.quizCard {
+  position: relative;
+  flex: 0 0 clamp(260px, 32vw, 420px);
+  aspect-ratio: 16 / 9;
+  border-radius: 24px;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: block;
+  min-height: 0;
+}
+
+.quizCardOverlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to top,
+    rgba(10, 16, 36, 0.78) 0%,
+    rgba(10, 16, 36, 0.24) 45%,
+    rgba(10, 16, 36, 0.08) 100%
+  );
+}
+
+.quizBadge {
+  position: absolute;
+  top: 14px;
+  left: 14px;
+  z-index: 2;
+  padding: 8px 12px;
+  border-radius: 999px;
+  background: #3055ff;
+  color: #fff;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.quizCategory {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  z-index: 2;
+  padding: 8px 12px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.9);
+  color: #121826;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.quizCardTitle {
+  position: absolute;
+  left: 18px;
+  right: 18px;
+  bottom: 18px;
+  z-index: 2;
+  color: #fff;
+  font-size: 1.15rem;
+  line-height: 1.25;
+  font-weight: 800;
+}
+
+.emptyState {
+  margin: 0;
+  color: #667085;
+}
+
+@media (max-width: 768px) {
+  .quizCard {
+    flex: 0 0 82vw;
+    border-radius: 20px;
+  }
+
+  .quizCardTitle {
+    font-size: 1rem;
+  }
+
+  .sectionHead {
+    align-items: flex-start;
+  }
+}
+
+.rowTrack--categories {
+  display: flex;
+  gap: 16px;
+  width: max-content;
+}
+
+.catCard {
+  position: relative;
+  flex: 0 0 clamp(160px, 16vw, 220px);
+  aspect-ratio: 3 / 4;
+
+  border-radius: 22px;
+  overflow: hidden;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: block;
+}
+
+.catCardOverlay {
+  position: absolute;
+  inset: 0;
+
+  background: linear-gradient(
+    to top,
+    rgba(10, 16, 36, 0.75) 0%,
+    rgba(10, 16, 36, 0.35) 40%,
+    rgba(10, 16, 36, 0.05) 100%
+  );
+}
+
+.catCardName {
+  position: absolute;
+  left: 14px;
+  right: 14px;
+  bottom: 14px;
+
+  color: white;
+  font-size: 1rem;
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+@media (max-width: 768px) {
+  .catCard {
+    flex: 0 0 45vw;
+  }
+}
+
+.homeSeo {
+  padding: 36px;
+  border-radius: 28px;
+
+  background: linear-gradient(
+    135deg,
+    rgba(48, 85, 255, 0.06),
+    rgba(255, 255, 255, 0.9)
+  );
+
+  border: 1px solid rgba(48, 85, 255, 0.08);
+
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.homeSeoTitle {
+  margin: 0;
+  font-size: 1.6rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+.homeSeoText {
+  margin: 0;
+
+  font-size: 1rem;
+  line-height: 1.7;
+
+  color: #667085;
+}
+
+.gamesTypesGrid {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(clamp(160px, 16vw, 220px), 1fr)
+  );
+  gap: 16px;
+}
+
+.gamesTypesGrid .catCard {
+  width: 100%;
+  min-width: 0;
+  flex: unset;
+}
+
+@media (max-width: 768px) {
+  .gamesTypesGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .gamesTypesGrid {
+    gap: 12px;
+  }
+}
+
+/* responsive */
+
+@media (max-width: 768px) {
+  .homeSeo {
+    padding: 28px 20px;
+  }
+
+  .homeSeoTitle {
+    font-size: 1.35rem;
+  }
+}
+@media (max-width: 768px) {
+  .gamesTypesGrid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 12px;
+  }
+
+  .gamesTypesGrid .catCard {
+    border-radius: 18px;
+  }
+
+  .gamesTypesGrid .catCardName {
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    font-size: 0.82rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .gamesTypesGrid {
+    gap: 10px;
+  }
+
+  .gamesTypesGrid .catCardName {
+    font-size: 0.76rem;
+  }
+}
+
+.heroLandingSection.personalityHeroSection {
+  background:
+    linear-gradient(
+      90deg,
+      rgba(10, 16, 36, 0.82) 0%,
+      rgba(10, 16, 36, 0.52) 35%,
+      rgba(10, 16, 36, 0.12) 100%
+    ),
+    url("https://res.cloudinary.com/dsv7oziap/image/upload/v1780349834/perso-list_xnxfbk.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.heroLandingSectionGame {
+  position: relative;
+  overflow: hidden;
+
+  min-height: 520px;
+
+  border-radius: 36px;
+
+  display: flex;
+  align-items: center;
+  background:
+    linear-gradient(
+      90deg,
+      rgba(10, 16, 36, 0.82) 0%,
+      rgba(10, 16, 36, 0.52) 35%,
+      rgba(10, 16, 36, 0.12) 100%
+    ),
+    url("https://res.cloudinary.com/dsv7oziap/image/upload/v1780415192/hero-games_g0dbyj.jpg");
+  background-size: cover;
+  background-position: center;
+
+  box-shadow: 0 24px 60px rgba(15, 23, 42, 0.12);
+}

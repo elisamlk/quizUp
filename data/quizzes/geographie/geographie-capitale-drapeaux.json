@@ -1,0 +1,220 @@
+{
+  "slug": "quiz-geographie-drapeaux-capitales",
+  "title": "Quiz Géographie - Retrouve la capitale grâce au drapeau",
+  "description": "Observe chaque drapeau et retrouve la capitale du pays. Attention aux pièges !",
+"descriptionSeo": "Testez vos connaissances en géographie avec ce quiz original qui combine reconnaissance des drapeaux et identification des capitales. À travers 20 questions variées, mettez à l’épreuve votre mémoire visuelle et votre culture générale. Des capitales évidentes aux pièges les plus fréquents, chaque question est accompagnée d’explications détaillées pour progresser efficacement. Un quiz idéal pour apprendre en s’amusant et améliorer rapidement son niveau en géographie mondiale.",
+  "category": {
+    "name": "Géographie",
+    "slug": "geographie"
+  },
+  "createdAt": "2026-03-30",
+  "isNew": true,
+  "isPopular": true,
+    "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1774726503/cover_cznbvr.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1774726503/cover_cznbvr.jpg",
+    "alt": "Quiz Capitales Pays"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "question": "Quelle est la capitale de ce pays ?",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1774561660/france_bwtd61.png",
+      "alt": "Drapeau de la France",
+      "imagePrompt": "France flag",
+      "answers": ["Lyon", "Paris", "Marseille", "Bruxelles"],
+      "correctIndex": 1,
+      "explanation": "Paris est la capitale politique et historique. Astuce : en France, aucune autre ville n’a un rôle central comparable."
+    },
+    {
+      "id": "2",
+      "question": "Quelle est la capitale de ce pays ?",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1774561410/allemagne_r7ujj3.png",
+      "alt": "Drapeau de l’Allemagne",
+      "imagePrompt": "Germany flag",
+      "answers": ["Munich", "Francfort", "Berlin", "Hambourg"],
+      "correctIndex": 2,
+      "explanation": "Berlin est redevenue capitale après la réunification en 1990. Astuce : beaucoup pensent encore à Bonn, ancienne capitale."
+    },
+    {
+      "id": "3",
+      "question": "Quelle est la capitale de ce pays ?",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1774561489/bresil_inykz6.png",
+      "alt": "Drapeau du Brésil",
+      "imagePrompt": "Brazil flag",
+      "answers": ["Rio de Janeiro", "São Paulo", "Brasília", "Salvador"],
+      "correctIndex": 2,
+      "explanation": "Brasília a été construite spécialement pour être capitale. Piège classique : beaucoup répondent Rio."
+    },
+    {
+      "id": "4",
+      "question": "Quelle est la capitale de ce pays ?",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1774561507/canada_ztqzxb.png",
+      "alt": "Drapeau du Canada",
+      "imagePrompt": "Canada flag",
+      "answers": ["Toronto", "Vancouver", "Montréal", "Ottawa"],
+      "correctIndex": 3,
+      "explanation": "Ottawa est souvent oubliée car Toronto est plus connue. Astuce : capitale ≠ plus grande ville."
+    },
+    {
+      "id": "5",
+      "question": "Quelle est la capitale de ce pays ?",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1774561435/australie_ihgdlo.png",
+      "alt": "Drapeau de l’Australie",
+      "imagePrompt": "Australia flag",
+      "answers": ["Sydney", "Melbourne", "Canberra", "Brisbane"],
+      "correctIndex": 2,
+      "explanation": "Canberra a été choisie pour trancher entre Sydney et Melbourne. Piège classique."
+    },
+    {
+      "id": "6",
+      "question": "Quelle est la capitale de ce pays ?",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1774561999/japon_l2gmuo.png",
+      "alt": "Drapeau du Japon",
+      "imagePrompt": "Japan flag",
+      "answers": ["Kyoto", "Tokyo", "Osaka", "Hiroshima"],
+      "correctIndex": 1,
+      "explanation": "Tokyo signifie littéralement « capitale de l’Est ». Kyoto était l’ancienne capitale impériale."
+    },
+    {
+      "id": "7",
+      "question": "Quelle est la capitale de ce pays ?",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1774562202/turquie_oj7onh.png",
+      "alt": "Drapeau de la Turquie",
+      "imagePrompt": "Turkey flag",
+      "answers": ["Istanbul", "Ankara", "Izmir", "Bursa"],
+      "correctIndex": 1,
+      "explanation": "Ankara est la capitale administrative. Piège : Istanbul est la ville la plus connue mais pas la capitale."
+    },
+    {
+      "id": "8",
+      "question": "Quelle est la capitale de ce pays ?",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1774561650/etats-unis_y7nccd.png",
+      "alt": "Drapeau des États-Unis",
+      "imagePrompt": "USA flag",
+      "answers": ["New York", "Los Angeles", "Washington D.C.", "Chicago"],
+      "correctIndex": 2,
+      "explanation": "Washington D.C. est une ville créée spécialement pour être capitale, indépendante des États."
+    },
+    {
+      "id": "9",
+      "question": "Quelle est la capitale de ce pays ?",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1774562045/maroc_tuoe2k.png",
+      "alt": "Drapeau du Maroc",
+      "imagePrompt": "Morocco flag",
+      "answers": ["Casablanca", "Rabat", "Marrakech", "Fès"],
+      "correctIndex": 1,
+      "explanation": "Rabat est la capitale politique, même si Casablanca est la plus grande ville."
+    },
+    {
+      "id": "10",
+      "question": "Quelle est la capitale de ce pays ?",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1774561994/italie_ilw2wt.png",
+      "alt": "Drapeau de l’Italie",
+      "imagePrompt": "Italy flag",
+      "answers": ["Milan", "Naples", "Florence", "Rome"],
+      "correctIndex": 3,
+      "explanation": "Rome est la capitale depuis l’unification italienne. Centre historique et politique majeur."
+    },
+    {
+      "id": "11",
+      "question": "Quelle est la capitale de ce pays ?",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1774561426/argentine_xyfqtr.png",
+      "alt": "Drapeau de l’Argentine",
+      "imagePrompt": "Argentina flag",
+      "answers": ["Buenos Aires", "Cordoba", "Rosario", "Mendoza"],
+      "correctIndex": 0,
+      "explanation": "Buenos Aires concentre le pouvoir politique et économique du pays."
+    },
+    {
+      "id": "12",
+      "question": "Quelle est la capitale de ce pays ?",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1774561558/egypte_qtak9j.png",
+      "alt": "Drapeau de l’Égypte",
+      "imagePrompt": "Egypt flag",
+      "answers": ["Alexandrie", "Le Caire", "Gizeh", "Louxor"],
+      "correctIndex": 1,
+      "explanation": "Le Caire est l’une des plus grandes métropoles d’Afrique et du monde arabe."
+    },
+    {
+      "id": "13",
+      "question": "Quelle est la capitale de ce pays ?",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1774562122/russie_l9lceb.png",
+      "alt": "Drapeau de la Russie",
+      "imagePrompt": "Russia flag",
+      "answers": ["Saint-Pétersbourg", "Moscou", "Kazan", "Sotchi"],
+      "correctIndex": 1,
+      "explanation": "Moscou est le centre politique. Saint-Pétersbourg fut la capitale impériale."
+    },
+    {
+      "id": "14",
+      "question": "Quelle est la capitale de ce pays ?",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1774561644/espagne_z5zqim.png",
+      "alt": "Drapeau de l’Espagne",
+      "imagePrompt": "Spain flag",
+      "answers": ["Barcelone", "Madrid", "Valence", "Séville"],
+      "correctIndex": 1,
+      "explanation": "Madrid est au centre du pays, ce qui en fait une capitale stratégique."
+    },
+    {
+      "id": "15",
+      "question": "Quelle est la capitale de ce pays ?",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1774561533/coree-du-sud_ixfflz.png",
+      "alt": "Drapeau de la Corée du Sud",
+      "imagePrompt": "South Korea flag",
+      "answers": ["Busan", "Incheon", "Séoul", "Daegu"],
+      "correctIndex": 2,
+      "explanation": "Séoul est une mégalopole et le cœur économique du pays."
+    },
+    {
+      "id": "16",
+      "question": "Quelle est la capitale de ce pays ?",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1774562168/suisse_bj0asg.png",
+      "alt": "Drapeau de la Suisse",
+      "imagePrompt": "Switzerland flag",
+      "answers": ["Zurich", "Genève", "Berne", "Lausanne"],
+      "correctIndex": 2,
+      "explanation": "Berne est une capitale discrète. Beaucoup pensent à Zurich ou Genève à tort."
+    },
+    {
+      "id": "17",
+      "question": "Quelle est la capitale de ce pays ?",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1774562110/portugal_mkvax4.png",
+      "alt": "Drapeau du Portugal",
+      "imagePrompt": "Portugal flag",
+      "answers": ["Lisbonne", "Porto", "Coimbra", "Braga"],
+      "correctIndex": 0,
+      "explanation": "Lisbonne est la capitale historique et économique."
+    },
+    {
+      "id": "18",
+      "question": "Quelle est la capitale de ce pays ?",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1774562188/thailande_rezhgp.png",
+      "alt": "Drapeau de la Thaïlande",
+      "imagePrompt": "Thailand flag",
+      "answers": ["Phuket", "Chiang Mai", "Bangkok", "Pattaya"],
+      "correctIndex": 2,
+      "explanation": "Bangkok est une des capitales les plus dynamiques d’Asie."
+    },
+    {
+      "id": "19",
+      "question": "Quelle est la capitale de ce pays ?",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1774562166/suede_qugva1.png",
+      "alt": "Drapeau de la Suède",
+      "imagePrompt": "Sweden flag",
+      "answers": ["Göteborg", "Stockholm", "Malmö", "Uppsala"],
+      "correctIndex": 1,
+      "explanation": "Stockholm est construite sur plusieurs îles, ce qui la rend unique."
+    },
+    {
+      "id": "20",
+      "question": "Quelle est la capitale de ce pays ?",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1774561874/indonesie_d6k8gl.png",
+      "alt": "Drapeau de l’Indonésie",
+      "imagePrompt": "Indonesia flag",
+      "answers": ["Jakarta", "Bali", "Surabaya", "Bandung"],
+      "correctIndex": 0,
+      "explanation": "Jakarta est la capitale actuelle, mais elle va être déplacée (nouvelle capitale en construction)."
+    }
+  ]
+}

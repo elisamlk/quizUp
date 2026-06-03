@@ -1,0 +1,131 @@
+{
+  "slug": "test-maintien-liens-amitie",
+  "title": "Test amitié - Es-tu celui/celle qui maintient les liens ?",
+  "description": "Dans la réalité, es-tu vraiment celui/celle qui fait durer les relations ?",
+  "descriptionSeo": "Relances, silences, initiatives ou absence d’effort… ce test analyse tes comportements concrets pour comprendre ton rôle dans la durée des relations. Es-tu celui ou celle qui maintient activement le lien, qui répond sans initier, ou qui laisse les relations évoluer seules ? À travers des situations réalistes, identifie ta manière d’entretenir (ou non) tes amitiés et ce que cela révèle de ton implication.",
+  "category": {
+    "name": "Amitié",
+    "slug": "amitie"
+  },
+  "createdAt": "2026-04-27",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777725457/cover_qciv0r.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777725457/cover_qciv0r.jpg",
+    "alt": "Test maintien des liens"
+  },
+  "profiles": [
+    {
+      "key": "moteur",
+      "title": "Tu maintiens activement les liens",
+      "description": "Tu es clairement la personne qui fait vivre les relations sur la durée. Tu ne te contentes pas d’attendre : tu relances au bon moment, tu recrées du lien même après des silences et tu fais l’effort quand tu sens que ça s’éloigne. Tu comprends que les relations demandent de l’attention et tu agis concrètement pour qu’elles ne disparaissent pas.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777029244/attachement_po9g11.jpg"
+    },
+    {
+      "key": "reactif",
+      "title": "Tu entretiens les liens sans les porter",
+      "description": "Tu es présent(e), impliqué(e), mais surtout en réaction. Tu réponds, tu échanges, tu es sincère… mais tu prends rarement l’initiative de relancer ou de reconstruire le lien. Les relations tiennent, mais souvent parce que l’autre fait une partie du travail.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776948860/change_eh2t7c.jpg"
+    },
+    {
+      "key": "detache",
+      "title": "Tu laisses les liens vivre ou s’éteindre",
+      "description": "Tu n’es pas dans une logique d’entretien actif des relations. Tu peux tenir à certaines personnes, mais tu ne fais pas forcément l’effort de relancer ou de maintenir le lien dans le temps. Si ça continue, tant mieux. Sinon, tu passes à autre chose sans trop intervenir.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777029144/cover_nif6h2.jpg"
+    }
+  ],
+  "questions": [
+    {
+      "id": "1",
+      "question": "Une conversation s’arrête après ton dernier message (sans réponse)…",
+      "answers": [
+        { "label": "Je relance quelques jours après avec un nouveau sujet", "scores": { "moteur": 3 } },
+        { "label": "J’attends que l’autre relance", "scores": { "reactif": 3 } },
+        { "label": "Je considère que la discussion est terminée", "scores": { "detache": 3 } }
+      ]
+    },
+    {
+      "id": "2",
+      "question": "Tu penses à quelqu’un que tu n’as pas vu depuis longtemps…",
+      "answers": [
+        { "label": "Je lui écris directement", "scores": { "moteur": 3 } },
+        { "label": "Je me dis que je devrais le faire", "scores": { "reactif": 3 } },
+        { "label": "Je passe à autre chose", "scores": { "detache": 3 } }
+      ]
+    },
+    {
+      "id": "3",
+      "question": "Un ami met beaucoup de temps à répondre régulièrement…",
+      "answers": [
+        { "label": "Je continue à maintenir le lien malgré ça", "scores": { "moteur": 3 } },
+        { "label": "Je m’adapte et je réduis un peu mes messages", "scores": { "reactif": 3 } },
+        { "label": "Je prends de la distance", "scores": { "detache": 3 } }
+      ]
+    },
+    {
+      "id": "4",
+      "question": "Un plan n’aboutit pas et personne ne relance…",
+      "answers": [
+        { "label": "Je repropose moi-même plus tard", "scores": { "moteur": 3 } },
+        { "label": "J’attends qu’un autre le fasse", "scores": { "reactif": 3 } },
+        { "label": "Je laisse tomber l’idée", "scores": { "detache": 3 } }
+      ]
+    },
+    {
+      "id": "5",
+      "question": "Tu remarques qu’une relation devient moins naturelle qu’avant…",
+      "answers": [
+        { "label": "Je fais un effort pour recréer du lien", "scores": { "moteur": 3 } },
+        { "label": "Je laisse évoluer sans trop intervenir", "scores": { "reactif": 3 } },
+        { "label": "Je laisse la relation s’éteindre", "scores": { "detache": 3 } }
+      ]
+    },
+    {
+      "id": "6",
+      "question": "Après un long silence (1 mois+), tu rouvres une conversation…",
+      "answers": [
+        { "label": "Je lance naturellement une discussion", "scores": { "moteur": 3 } },
+        { "label": "J’hésite puis parfois je le fais", "scores": { "reactif": 3 } },
+        { "label": "Je referme sans écrire", "scores": { "detache": 3 } }
+      ]
+    },
+    {
+      "id": "7",
+      "question": "Quelqu’un te répond brièvement sans relancer…",
+      "answers": [
+        { "label": "Je continue la discussion malgré tout", "scores": { "moteur": 3 } },
+        { "label": "Je laisse la conversation s’arrêter", "scores": { "reactif": 3 } },
+        { "label": "Je ne réponds plus du tout", "scores": { "detache": 3 } }
+      ]
+    },
+    {
+      "id": "8",
+      "question": "Tu vois que tu es toujours celui/celle qui écrit en premier…",
+      "answers": [
+        { "label": "Je continue si la relation compte", "scores": { "moteur": 3 } },
+        { "label": "Je ralentis pour voir", "scores": { "reactif": 3 } },
+        { "label": "J’arrête complètement", "scores": { "detache": 3 } }
+      ]
+    },
+    {
+      "id": "9",
+      "question": "Une relation importante s’éloigne doucement…",
+      "answers": [
+        { "label": "Je prends l’initiative d’en parler ou d’agir", "scores": { "moteur": 3 } },
+        { "label": "J’attends de voir comment ça évolue", "scores": { "reactif": 3 } },
+        { "label": "Je laisse faire sans intervenir", "scores": { "detache": 3 } }
+      ]
+    },
+    {
+  "id": "10",
+  "question": "Une relation devient plus distante (moins de messages, moins d’initiatives des deux côtés)…",
+  "answers": [
+    { "label": "Je recrée activement un moment (proposition concrète, appel, plan)", "scores": { "moteur": 3 } },
+    { "label": "J’envoie un message léger pour tester si le lien est toujours là", "scores": { "reactif": 3 } },
+    { "label": "Je laisse la distance s’installer sans intervenir", "scores": { "detache": 3 } }
+  ]
+}
+
+  ]
+}

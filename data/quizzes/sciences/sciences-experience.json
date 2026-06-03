@@ -1,0 +1,260 @@
+{
+  "slug": "quiz-sciences-experiences-etonnantes",
+  "title": "Quiz Sciences - Expériences étonnantes - Saurez-vous expliquer ces phénomènes ?",
+  "description": "Découvre des expériences scientifiques surprenantes et comprends les phénomènes qui les expliquent.",
+  "descriptionSeo": "Plonge dans ce quiz sciences sur les expériences étonnantes. À travers 20 questions, explore des phénomènes surprenants de physique et de chimie : réactions inattendues, illusions scientifiques, propriétés étonnantes de la matière et expériences du quotidien. Un quiz ludique et pédagogique pour comprendre la science derrière des expériences fascinantes.",
+  "category": {
+    "name": "Sciences",
+    "slug": "sciences"
+  },
+  "createdAt": "2026-05-05",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777988005/experiment_wy76rt.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777988005/experiment_wy76rt.jpg",
+    "alt": "Quiz expériences scientifiques étonnantes"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "question": "Pourquoi un œuf peut-il flotter dans de l’eau salée mais pas dans de l’eau douce ?",
+      "answers": [
+        "Parce que le sel rend l’eau plus chaude",
+        "Parce que l’eau salée est plus dense",
+        "Parce que l’œuf devient plus léger",
+        "Parce que le sel attire l’œuf"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ajouter du sel augmente la densité de l’eau. Quand l’eau devient plus dense que l’œuf, la poussée d’Archimède le fait flotter."
+    },
+    {
+      "id": "2",
+      "question": "Pourquoi un ballon gonflé se colle-t-il parfois à un mur après avoir été frotté ?",
+      "answers": [
+        "À cause de l’électricité statique",
+        "À cause de la chaleur",
+        "À cause du vent",
+        "À cause de la gravité"
+      ],
+      "correctIndex": 0,
+      "explanation": "Le frottement transfère des charges électriques au ballon. Il attire alors les charges opposées présentes sur le mur."
+    },
+    {
+      "id": "3",
+      "question": "Pourquoi du vinaigre et du bicarbonate produisent-ils des bulles ?",
+      "answers": [
+        "Ils produisent de l’oxygène",
+        "Ils créent une réaction chimique produisant du dioxyde de carbone",
+        "Ils chauffent l’air",
+        "Ils transforment l’eau en gaz"
+      ],
+      "correctIndex": 1,
+      "explanation": "La réaction entre un acide (vinaigre) et une base (bicarbonate) libère du CO₂, visible sous forme de bulles."
+    },
+    {
+      "id": "4",
+      "question": "Pourquoi une bougie s’éteint-elle lorsqu’on met un verre dessus ?",
+      "answers": [
+        "Parce que la cire fond trop vite",
+        "Parce que la chaleur disparaît",
+        "Parce que l’oxygène est consommé",
+        "Parce que la lumière s’éteint"
+      ],
+      "correctIndex": 2,
+      "explanation": "La combustion a besoin d’oxygène. Le verre limite l’air disponible, la flamme s’éteint donc rapidement."
+    },
+    {
+      "id": "5",
+      "question": "Pourquoi une feuille de papier peut-elle tenir un verre d’eau retourné ?",
+      "answers": [
+        "À cause de la pression de l’air",
+        "À cause de la gravité",
+        "À cause de la température",
+        "À cause de la masse de l’eau"
+      ],
+      "correctIndex": 0,
+      "explanation": "La pression de l’air extérieur est plus forte que celle exercée par l’eau vers le bas, ce qui maintient la feuille en place."
+    },
+    {
+      "id": "6",
+      "question": "Pourquoi un glaçon fond-il plus vite dans de l’eau que dans l’air ?",
+      "answers": [
+        "Parce que l’eau est toujours chaude",
+        "Parce que l’air est plus froid",
+        "Parce que l’eau transfère mieux la chaleur",
+        "Parce que la glace disparaît"
+      ],
+      "correctIndex": 2,
+      "explanation": "L’eau transfère mieux la chaleur que l’air, et elle est souvent à une température plus élevée, ce qui accélère la fonte."
+    },
+    {
+      "id": "7",
+      "question": "Pourquoi le poivre se disperse-t-il lorsqu’on touche l’eau avec du savon ?",
+      "answers": [
+        "À cause du vent",
+        "À cause de la gravité",
+        "Parce que le savon modifie la tension de surface",
+        "Parce que le poivre fond"
+      ],
+      "correctIndex": 2,
+      "explanation": "Le savon réduit la tension de surface de l’eau, ce qui crée un mouvement qui repousse les particules de poivre."
+    },
+    {
+      "id": "8",
+      "question": "Pourquoi un objet paraît-il brisé dans un verre d’eau ?",
+      "answers": [
+        "À cause de la gravité",
+        "À cause de la réflexion",
+        "À cause de la réfraction de la lumière",
+        "À cause de la chaleur"
+      ],
+      "correctIndex": 2,
+      "explanation": "La lumière change de direction en passant de l’air à l’eau : c’est la réfraction, qui donne cette illusion."
+    },
+    {
+      "id": "9",
+      "question": "Pourquoi un aimant attire-t-il certains objets ?",
+      "answers": [
+        "À cause de la chaleur",
+        "À cause d’un champ magnétique",
+        "À cause de la lumière",
+        "À cause de la masse"
+      ],
+      "correctIndex": 1,
+      "explanation": "Les aimants créent un champ magnétique qui agit sur certains métaux comme le fer."
+    },
+    {
+      "id": "10",
+      "question": "Pourquoi les bulles de savon sont-elles rondes ?",
+      "answers": [
+        "Parce qu’elles sont lourdes",
+        "Parce que l’air est rond",
+        "Parce que la surface se minimise",
+        "Parce qu’elles tournent"
+      ],
+      "correctIndex": 2,
+      "explanation": "La forme sphérique minimise la surface pour un volume donné, ce qui est énergétiquement favorable."
+    },
+    {
+      "id": "11",
+      "question": "Pourquoi un objet chaud refroidit-il ?",
+      "answers": [
+        "Parce qu’il perd de l’énergie thermique",
+        "Parce qu’il perd sa masse",
+        "Parce qu’il devient invisible",
+        "Parce qu’il change de couleur"
+      ],
+      "correctIndex": 0,
+      "explanation": "L’objet transfère de la chaleur vers son environnement plus froid jusqu’à équilibre."
+    },
+    {
+      "id": "12",
+      "question": "Pourquoi une balle rebondit-elle ?",
+      "answers": [
+        "À cause de la gravité",
+        "À cause de la déformation et restitution d’énergie",
+        "À cause de la chaleur",
+        "À cause du vent"
+      ],
+      "correctIndex": 1,
+      "explanation": "La balle se déforme à l’impact puis reprend sa forme en restituant de l’énergie."
+    },
+    {
+      "id": "13",
+      "question": "Pourquoi voit-on un arc-en-ciel ?",
+      "answers": [
+        "À cause du vent",
+        "À cause de la réflexion seule",
+        "À cause de la décomposition de la lumière",
+        "À cause de la chaleur"
+      ],
+      "correctIndex": 2,
+      "explanation": "Les gouttes d’eau décomposent la lumière blanche en différentes couleurs par réfraction et réflexion."
+    },
+    {
+      "id": "14",
+      "question": "Pourquoi le métal semble-t-il plus froid que le bois ?",
+      "answers": [
+        "Parce qu’il est toujours plus froid",
+        "Parce qu’il conduit mieux la chaleur",
+        "Parce qu’il est plus lourd",
+        "Parce qu’il est plus sombre"
+      ],
+      "correctIndex": 1,
+      "explanation": "Le métal retire plus rapidement la chaleur de la peau, ce qui donne une sensation de froid."
+    },
+    {
+      "id": "15",
+      "question": "Pourquoi un ballon gonflé grossit-il quand il fait chaud ?",
+      "answers": [
+        "Parce que l’air se dilate",
+        "Parce que l’air devient liquide",
+        "Parce que le ballon change de masse",
+        "Parce que l’air disparaît"
+      ],
+      "correctIndex": 0,
+      "explanation": "Quand la température augmente, les gaz se dilatent : les particules s’agitent davantage et prennent plus de place."
+    },
+    {
+      "id": "16",
+      "question": "Pourquoi un glaçon flotte-t-il sur l’eau ?",
+      "answers": [
+        "Parce qu’il est plus dense",
+        "Parce qu’il est plus léger",
+        "Parce qu’il est moins dense que l’eau liquide",
+        "Parce qu’il attire l’eau"
+      ],
+      "correctIndex": 2,
+      "explanation": "La glace est moins dense que l’eau liquide car ses molécules s’organisent différemment en gelant, prenant plus de place."
+    },
+    {
+      "id": "17",
+      "question": "Pourquoi une ombre se forme-t-elle ?",
+      "answers": [
+        "Parce que la lumière ne peut pas traverser un objet opaque",
+        "Parce que l’air bloque la lumière",
+        "Parce que la chaleur disparaît",
+        "Parce que la gravité agit"
+      ],
+      "correctIndex": 0,
+      "explanation": "Un objet opaque bloque la lumière, créant une zone sombre derrière lui."
+    },
+    {
+      "id": "18",
+      "question": "Pourquoi le sucre disparaît-il dans l’eau ?",
+      "answers": [
+        "Il s’évapore",
+        "Il fond",
+        "Il se dissout",
+        "Il disparaît totalement"
+      ],
+      "correctIndex": 2,
+      "explanation": "Le sucre se dissout : ses molécules se dispersent dans l’eau sans disparaître."
+    },
+    {
+      "id": "19",
+      "question": "Pourquoi les cheveux peuvent-ils se dresser après frottement ?",
+      "answers": [
+        "À cause du vent",
+        "À cause de la chaleur",
+        "À cause de l’électricité statique",
+        "À cause de la gravité"
+      ],
+      "correctIndex": 2,
+      "explanation": "Le frottement transfère des charges électriques qui provoquent une répulsion entre les cheveux."
+    },
+    {
+      "id": "20",
+      "question": "Pourquoi une bouteille fermée se déforme parfois quand elle refroidit ?",
+      "answers": [
+        "Parce que l’air se contracte",
+        "Parce que l’air disparaît",
+        "Parce que l’eau chauffe",
+        "Parce que la pression extérieure augmente"
+      ],
+      "correctIndex": 0,
+      "explanation": "Quand l’air à l’intérieur refroidit, il se contracte et la pression interne diminue. La pression extérieure devient alors plus forte et peut déformer la bouteille."
+    }
+  ]
+}

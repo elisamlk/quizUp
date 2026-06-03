@@ -1,0 +1,200 @@
+{
+  "slug": "quiz-corps-humain",
+  "title": "Quiz Culture Générale Corps Humain - 20 questions",
+  "description": "Organes, os, cerveau, sang et fonctions vitales : teste ta culture générale sur le corps humain.",
+  "descriptionSeo": "Teste ta culture générale sur le corps humain avec ce quiz de 20 questions. Organes, squelette, muscles, cerveau, circulation sanguine, sens et fonctions vitales : découvre des faits essentiels et des explications claires pour mieux comprendre le fonctionnement du corps humain tout en enrichissant tes connaissances.",
+  "category": {
+    "name": "Culture générale",
+    "slug": "culture-generale"
+  },
+  "createdAt": "2026-03-20",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1774011559/cover_tuqopl.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1774011559/cover_tuqopl.jpg",
+    "alt": "Quiz corps humain"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "question": "Quel est le plus grand organe du corps humain ?",
+      "image": null,
+      "imagePrompt": "human skin anatomy",
+      "answers": ["Le foie", "La peau", "Le cerveau", "Les poumons"],
+      "correctIndex": 1,
+      "explanation": "La peau est le plus grand organe du corps humain en surface et en poids. Elle ne sert pas seulement d’enveloppe : elle protège contre les microbes, régule la température et transmet des informations sensorielles comme la chaleur, le froid ou la douleur."
+    },
+    {
+      "id": "2",
+      "question": "Combien de chambres possède le cœur humain ?",
+      "image": null,
+      "imagePrompt": "human heart diagram",
+      "answers": ["2", "3", "4", "5"],
+      "correctIndex": 2,
+      "explanation": "Le cœur humain possède 4 cavités : 2 oreillettes et 2 ventricules. Cette organisation permet de séparer le sang pauvre en oxygène du sang riche en oxygène, ce qui rend la circulation beaucoup plus efficace."
+    },
+    {
+      "id": "3",
+      "question": "Quel organe filtre le sang et produit l’urine ?",
+      "image": null,
+      "imagePrompt": "human kidneys anatomy",
+      "answers": ["Le foie", "Le rein", "La rate", "Le pancréas"],
+      "correctIndex": 1,
+      "explanation": "Les reins filtrent le sang pour éliminer les déchets et maintenir l’équilibre en eau, en sels minéraux et en certaines substances chimiques. Ils jouent donc un rôle majeur dans la régulation interne du corps, pas seulement dans la production d’urine."
+    },
+    {
+      "id": "4",
+      "question": "Quel est l’os le plus long du corps humain ?",
+      "image": null,
+      "imagePrompt": "femur bone anatomy",
+      "answers": ["Le tibia", "L’humérus", "Le fémur", "Le péroné"],
+      "correctIndex": 2,
+      "explanation": "Le fémur, situé dans la cuisse, est l’os le plus long et le plus solide du corps humain. Il supporte une grande partie du poids du corps et joue un rôle central dans la marche, la course et la stabilité."
+    },
+    {
+      "id": "5",
+      "question": "Quel organe est principalement responsable de la respiration ?",
+      "image": null,
+      "imagePrompt": "human lungs anatomy",
+      "answers": ["Le foie", "Le cœur", "Les reins", "Les poumons"],
+      "correctIndex": 3,
+      "explanation": "Les poumons permettent les échanges gazeux entre l’air et le sang : ils apportent l’oxygène nécessaire aux cellules et éliminent le dioxyde de carbone. Sans cet échange permanent, les organes ne peuvent pas fonctionner correctement."
+    },
+    {
+      "id": "6",
+      "question": "Quelle partie du corps contient le plus grand nombre d’os à la naissance ?",
+      "image": null,
+      "imagePrompt": "baby skeleton anatomy",
+      "answers": ["Le crâne", "Les mains", "La colonne vertébrale", "Les pieds"],
+      "correctIndex": 0,
+      "explanation": "Le crâne du nouveau-né est composé de plusieurs pièces osseuses séparées, qui ne sont pas encore totalement soudées. Cela facilite le passage lors de la naissance et permet aussi au cerveau de continuer à se développer rapidement après les premiers mois de vie."
+    },
+    {
+      "id": "7",
+      "question": "Quel muscle est le plus volumineux du corps humain ?",
+      "image": null,
+      "imagePrompt": "gluteus maximus anatomy",
+      "answers": ["Le biceps", "Le quadriceps", "Le grand fessier", "Le mollet"],
+      "correctIndex": 2,
+      "explanation": "Le grand fessier est le muscle le plus volumineux du corps humain. Il joue un rôle essentiel dans la station debout, la montée des escaliers, la course et le maintien de la posture."
+    },
+    {
+      "id": "8",
+      "question": "Quel organe produit l’insuline ?",
+      "image": null,
+      "imagePrompt": "pancreas anatomy",
+      "answers": ["Le pancréas", "Le foie", "La thyroïde", "L’estomac"],
+      "correctIndex": 0,
+      "explanation": "Le pancréas produit l’insuline, une hormone essentielle pour réguler le taux de sucre dans le sang. Quand cette régulation fonctionne mal, cela peut conduire à un diabète."
+    },
+    {
+      "id": "9",
+      "question": "Combien de paires de côtes possède généralement un être humain ?",
+      "image": null,
+      "imagePrompt": "human rib cage anatomy",
+      "answers": ["10", "11", "12", "13"],
+      "correctIndex": 2,
+      "explanation": "Un être humain possède généralement 12 paires de côtes. Elles protègent des organes vitaux comme le cœur et les poumons, tout en participant aux mouvements respiratoires grâce à leur souplesse relative."
+    },
+    {
+      "id": "10",
+      "question": "Quel est le principal organe du système nerveux ?",
+      "image": null,
+      "imagePrompt": "human brain anatomy",
+      "answers": ["Le cerveau", "Le cervelet", "La moelle osseuse", "Le nerf optique"],
+      "correctIndex": 0,
+      "explanation": "Le cerveau est le centre de commande du système nerveux. Il traite les informations, coordonne les mouvements, gère la mémoire, les émotions, le langage et de nombreuses fonctions automatiques indispensables à la vie."
+    },
+    {
+      "id": "11",
+      "question": "Quelle partie du sang transporte principalement l’oxygène ?",
+      "image": null,
+      "imagePrompt": "red blood cells microscope",
+      "answers": ["Les globules blancs", "Les plaquettes", "Le plasma", "Les globules rouges"],
+      "correctIndex": 3,
+      "explanation": "Les globules rouges transportent l’oxygène grâce à l’hémoglobine, une protéine contenant du fer. C’est elle qui donne aussi au sang sa couleur rouge caractéristique."
+    },
+    {
+      "id": "12",
+      "question": "Quel organe est chargé de détoxifier une grande partie des substances circulant dans le corps ?",
+      "image": null,
+      "imagePrompt": "human liver anatomy",
+      "answers": ["Le foie", "La rate", "Le côlon", "La vésicule biliaire"],
+      "correctIndex": 0,
+      "explanation": "Le foie est un organe majeur du métabolisme. Il transforme, stocke et élimine de nombreuses substances, participe à la digestion via la bile et joue un rôle vital dans la gestion de l’énergie."
+    },
+    {
+      "id": "13",
+      "question": "Quel est le plus petit os du corps humain ?",
+      "image": null,
+      "imagePrompt": "middle ear bones anatomy",
+      "answers": ["L’étrier", "Le marteau", "Le scaphoïde", "La rotule"],
+      "correctIndex": 0,
+      "explanation": "L’étrier, situé dans l’oreille moyenne, est le plus petit os du corps humain. Malgré sa taille minuscule, il transmet les vibrations sonores et joue donc un rôle important dans l’audition."
+    },
+    {
+      "id": "14",
+      "question": "Quelle partie de l’œil contrôle la quantité de lumière qui entre ?",
+      "image": null,
+      "imagePrompt": "eye iris pupil anatomy",
+      "answers": ["La cornée", "La rétine", "L’iris", "Le cristallin"],
+      "correctIndex": 2,
+      "explanation": "L’iris règle la taille de la pupille, ce qui permet de contrôler la quantité de lumière entrant dans l’œil. C’est un mécanisme comparable à l’ouverture d’un appareil photo."
+    },
+    {
+      "id": "15",
+      "question": "Combien de dents possède normalement un adulte, dents de sagesse comprises ?",
+      "image": null,
+      "imagePrompt": "adult teeth anatomy",
+      "answers": ["28", "30", "32", "34"],
+      "correctIndex": 2,
+      "explanation": "Un adulte possède normalement 32 dents, y compris les 4 dents de sagesse. En pratique, certaines personnes n’en développent pas toutes, ou doivent les faire retirer par manque de place."
+    },
+    {
+      "id": "16",
+      "question": "Quel organe permet principalement l’équilibre en lien avec l’oreille interne ?",
+      "image": null,
+      "imagePrompt": "inner ear balance anatomy",
+      "answers": ["Le tympan", "Le vestibule", "La trompe d’Eustache", "Le pavillon"],
+      "correctIndex": 1,
+      "explanation": "Le vestibule, dans l’oreille interne, participe au sens de l’équilibre avec les canaux semi-circulaires. Il détecte les mouvements de la tête et aide le cerveau à maintenir la stabilité du corps."
+    },
+    {
+      "id": "17",
+      "question": "Quel est l’organe principal de la digestion chimique des aliments après l’estomac ?",
+      "image": null,
+      "imagePrompt": "small intestine anatomy",
+      "answers": ["Le côlon", "L’œsophage", "L’intestin grêle", "L’appendice"],
+      "correctIndex": 2,
+      "explanation": "L’intestin grêle est essentiel à la digestion et surtout à l’absorption des nutriments. C’est là que les aliments, déjà transformés, passent dans le sang pour nourrir l’organisme."
+    },
+    {
+      "id": "18",
+      "question": "Quelle substance donne leur rigidité aux os ?",
+      "image": null,
+      "imagePrompt": "bone mineral structure",
+      "answers": ["La kératine", "Le collagène", "Le calcium", "L’hémoglobine"],
+      "correctIndex": 2,
+      "explanation": "Les os doivent leur rigidité principalement aux sels minéraux, notamment au calcium et au phosphore. Le collagène, lui, apporte davantage de souplesse, ce qui évite qu’ils soient complètement cassants."
+    },
+    {
+      "id": "19",
+      "question": "Quel organe stocke principalement la bile produite par le foie ?",
+      "image": null,
+      "imagePrompt": "gallbladder anatomy",
+      "answers": ["La vésicule biliaire", "Le pancréas", "La rate", "Le duodénum"],
+      "correctIndex": 0,
+      "explanation": "La vésicule biliaire stocke la bile fabriquée par le foie avant de la libérer dans l’intestin pour faciliter la digestion des graisses. Elle agit donc comme un petit réservoir digestif."
+    },
+    {
+      "id": "20",
+      "question": "Quel est le nombre approximatif d’os dans le corps humain adulte ?",
+      "image": null,
+      "imagePrompt": "human skeleton full body",
+      "answers": ["186", "206", "226", "246"],
+      "correctIndex": 1,
+      "explanation": "Le squelette humain adulte compte généralement 206 os. Ce nombre est inférieur à celui du nourrisson, car plusieurs os séparés à la naissance fusionnent progressivement au cours de la croissance."
+    }
+  ]
+}

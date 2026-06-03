@@ -1,0 +1,146 @@
+{
+  "slug": "test-quel-type-de-meteo-es-tu",
+  "title": "Test lifestyle - Quel type de météo es-tu ?",
+  "description": "Quelle météo reflète vraiment ta personnalité ?",
+  "descriptionSeo": "À travers tes émotions, ton énergie et ta manière de réagir, ce test révèle quel type de météo te correspond vraiment. Es-tu solaire, orageux(se), nuageux(se) ou pluvieux(se) ? Un test lifestyle pour mieux comprendre ton état d’esprit et ton fonctionnement au quotidien.",
+  "category": {
+    "name": "Lifestyle",
+    "slug": "lifestyle"
+  },
+  "createdAt": "2026-04-27",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777296186/cover_omgix3.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777296186/cover_omgix3.jpg",
+    "alt": "Test type de météo personnalité"
+  },
+  "profiles": [
+    {
+      "key": "soleil",
+      "title": "Soleil",
+      "description": "Tu es une personne lumineuse, positive et pleine d’énergie. Tu apportes de la chaleur autour de toi, souvent sans même t’en rendre compte. Tu aimes les moments simples, les échanges sincères et tout ce qui te permet de profiter pleinement de la vie. Tu es naturellement attiré(e) par les ambiances joyeuses et tu fais souvent en sorte que les autres se sentent bien. Tu peux parfois éviter les situations trop lourdes ou compliquées, préférant garder une certaine légèreté. Mais derrière ton optimisme, il y a aussi une vraie force émotionnelle. Tu es quelqu’un de généreux(se), spontané(e) et très agréable à vivre. Avec toi, tout paraît plus simple et plus doux.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777296181/sun_emvdm8.jpg"
+    },
+    {
+      "key": "orage",
+      "title": "Orage",
+      "description": "Tu es une personne intense, passionnée et parfois imprévisible. Tu ressens les choses avec force et tu ne fais jamais semblant. Quand tu vis quelque chose, c’est toujours à fond. Tu peux passer d’un état à un autre rapidement, ce qui peut déstabiliser ton entourage, mais cela fait aussi partie de ton authenticité. Tu n’aimes pas la superficialité : tu préfères les émotions vraies, même quand elles sont fortes. Tu peux être impulsif(ve), mais aussi extrêmement loyal(e) et engagé(e). Tu es quelqu’un de puissant émotionnellement, avec une énergie qui marque les autres. Avec toi, rien n’est tiède.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777296179/storm_qcehdu.jpg"
+    },
+    {
+      "key": "nuageux",
+      "title": "Nuageux",
+      "description": "Tu es une personne calme, réfléchie et nuancée. Tu observes beaucoup et tu prends rarement les choses de manière extrême. Tu es capable de voir plusieurs points de vue et tu évites les jugements trop rapides. Tu apprécies les moments tranquilles, les ambiances posées et les discussions profondes. Tu peux parfois paraître distant(e) ou difficile à lire, mais c’est simplement que tu prends le temps de comprendre avant de t’exprimer. Tu es stable, discret(e) et souvent très apaisant(e) pour les autres. Tu n’as pas besoin de briller pour exister : ta présence suffit.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777296183/cloudy_tt8gzp.jpg"
+    },
+    {
+      "key": "pluie",
+      "title": "Pluie",
+      "description": "Tu es une personne sensible, introspective et profondément connectée à tes émotions. Tu ressens les choses en profondeur et tu as besoin de moments calmes pour te retrouver. Tu es attentif(ve) aux détails, aux ambiances et aux non-dits. Tu peux parfois te sentir submergé(e), mais cela fait aussi de toi quelqu’un de très humain et empathique. Tu comprends les autres facilement et tu sais être présent(e) quand il le faut. Tu n’es pas dans le superficiel : tu cherches du sens, de la sincérité et de la profondeur. Tu es quelqu’un de doux, sincère et profondément authentique.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777296188/rain_whw2ar.jpg"
+    }
+  ],
+"questions": [
+  {
+    "id": "1",
+    "question": "Tu ouvres les rideaux le matin, il fait gris…",
+    "answers": [
+      { "label": "Je m’en fiche, je garde mon énergie", "scores": { "soleil": 3 } },
+      { "label": "Ça me donne une vibe intense", "scores": { "orage": 3 } },
+      { "label": "J’aime bien cette ambiance calme", "scores": { "nuageux": 3 } },
+      { "label": "Ça influence clairement mon humeur", "scores": { "pluie": 3 } }
+    ]
+  },
+  {
+    "id": "2",
+    "question": "Une pluie soudaine te surprend dehors…",
+    "answers": [
+      { "label": "Je rigole et je continue", "scores": { "soleil": 3 } },
+      { "label": "Je cours mais j’adore le moment", "scores": { "orage": 3 } },
+      { "label": "Je m’abrite tranquillement", "scores": { "nuageux": 3 } },
+      { "label": "Je ralentis et j’observe", "scores": { "pluie": 3 } }
+    ]
+  },
+  {
+    "id": "3",
+    "question": "Il fait très chaud, ambiance été lourd…",
+    "answers": [
+      { "label": "Je suis au max de ma vibe", "scores": { "soleil": 3 } },
+      { "label": "Je deviens un peu électrique", "scores": { "orage": 3 } },
+      { "label": "Je cherche de l’ombre", "scores": { "nuageux": 3 } },
+      { "label": "Je me sens vite fatigué(e)", "scores": { "pluie": 3 } }
+    ]
+  },
+  {
+    "id": "4",
+    "question": "Un silence lourd s’installe dans une pièce…",
+    "answers": [
+      { "label": "Je relance l’ambiance", "scores": { "soleil": 3 } },
+      { "label": "Je fais une remarque qui casse tout", "scores": { "orage": 3 } },
+      { "label": "Je laisse le moment exister", "scores": { "nuageux": 3 } },
+      { "label": "Je ressens tout très fort", "scores": { "pluie": 3 } }
+    ]
+  },
+  {
+    "id": "5",
+    "question": "Ton mood un dimanche soir…",
+    "answers": [
+      { "label": "Toujours positif", "scores": { "soleil": 3 } },
+      { "label": "Un peu intense / nostalgique", "scores": { "orage": 3 } },
+      { "label": "Calme, posé", "scores": { "nuageux": 3 } },
+      { "label": "Très introspectif", "scores": { "pluie": 3 } }
+    ]
+  },
+  {
+    "id": "6",
+    "question": "On te décrit le plus souvent comme…",
+    "answers": [
+      { "label": "Rayonnant(e)", "scores": { "soleil": 3 } },
+      { "label": "Imprévisible", "scores": { "orage": 3 } },
+      { "label": "Stable", "scores": { "nuageux": 3 } },
+      { "label": "Profond(e)", "scores": { "pluie": 3 } }
+    ]
+  },
+  {
+    "id": "7",
+    "question": "Un changement de plan à la dernière minute…",
+    "answers": [
+      { "label": "Je m’adapte direct", "scores": { "soleil": 3 } },
+      { "label": "Ça me chauffe", "scores": { "orage": 3 } },
+      { "label": "Je prends ça comme ça vient", "scores": { "nuageux": 3 } },
+      { "label": "Ça me perturbe un peu", "scores": { "pluie": 3 } }
+    ]
+  },
+  {
+    "id": "8",
+    "question": "Ton rapport aux émotions…",
+    "answers": [
+      { "label": "Je les garde légères", "scores": { "soleil": 3 } },
+      { "label": "Je les vis à fond", "scores": { "orage": 3 } },
+      { "label": "Je les comprends", "scores": { "nuageux": 3 } },
+      { "label": "Je les ressens profondément", "scores": { "pluie": 3 } }
+    ]
+  },
+  {
+    "id": "9",
+    "question": "Tu regardes le ciel pendant quelques secondes…",
+    "answers": [
+      { "label": "Je pense à autre chose", "scores": { "soleil": 3 } },
+      { "label": "Je me sens inspiré(e)", "scores": { "orage": 3 } },
+      { "label": "Ça m’apaise", "scores": { "nuageux": 3 } },
+      { "label": "Je pars dans mes pensées", "scores": { "pluie": 3 } }
+    ]
+  },
+  {
+    "id": "10",
+    "question": "Ton énergie dans un groupe…",
+    "answers": [
+      { "label": "Je réchauffe l’ambiance", "scores": { "soleil": 3 } },
+      { "label": "Je fais bouger les choses", "scores": { "orage": 3 } },
+      { "label": "J’équilibre", "scores": { "nuageux": 3 } },
+      { "label": "J’absorbe tout", "scores": { "pluie": 3 } }
+    ]
+  }
+]
+}

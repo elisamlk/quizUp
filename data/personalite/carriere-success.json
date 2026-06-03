@@ -1,0 +1,140 @@
+{
+  "slug": "test-reussite-as-tu-le-mindset-du-succes",
+  "title": "Test réussite - As-tu le mindset du succès ?",
+  "description": "Analyse si ton état d’esprit est aligné avec la réussite et la progression.",
+  "descriptionSeo": "Analyse ton état d’esprit face aux défis, à la discipline et à la réussite. Ce test explore ta capacité à persévérer, à sortir de ta zone de confort et à garder une vision claire malgré les obstacles. Découvre si tu possèdes déjà un mindset orienté succès, si tu es en progression ou si certains freins t’empêchent encore d’avancer pleinement. Une approche concrète pour mieux comprendre ton fonctionnement et évoluer.",
+  "category": {
+    "name": "Carrière",
+    "slug": "carriere"
+  },
+  "createdAt": "2026-04-20",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776949673/cover_arucbu.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776949673/cover_arucbu.jpg",
+    "alt": "Test mindset du succes"
+  },
+  "profiles": [
+    {
+      "key": "mindset_succes",
+      "title": "Le Mindset du Succès",
+      "description": "Tu as un état d’esprit clairement orienté vers la réussite. Tu es capable de te fixer des objectifs, de rester discipliné et de continuer même lorsque les choses deviennent difficiles. Tu ne te laisses pas facilement décourager et tu vois les obstacles comme des opportunités d’apprentissage. Tu es prêt à sortir de ta zone de confort et à investir du temps et de l’énergie pour progresser. Cette mentalité te permet d’avancer de manière constante et de construire quelque chose sur le long terme. Cependant, ton défi est de ne pas t’épuiser en cherchant toujours à aller plus loin. Ta force réside dans ta persévérance, ta discipline et ta capacité à rester focalisé.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776944596/cover_jivtd9.jpg"
+    },
+    {
+      "key": "mindset_progression",
+      "title": "Le Mindset en Construction",
+      "description": "Tu es en train de développer un mindset orienté vers la réussite. Tu as déjà certaines bonnes habitudes et tu es conscient de l’importance de progresser. Tu fais des efforts, tu essaies de t’améliorer et tu commences à sortir de ta zone de confort. Cependant, tu peux encore être freiné par le doute, le manque de régularité ou certaines peurs. Tu es dans une phase d’évolution où tout peut basculer si tu continues à travailler sur toi. Ton défi est de gagner en constance et en discipline. Ta force réside dans ta volonté d’évoluer et ton ouverture au changement.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776942923/stratege-instinct_esjf1b.jpg"
+    },
+    {
+      "key": "mindset_limite",
+      "title": "Le Mindset à Débloquer",
+      "description": "Ton état d’esprit actuel peut freiner ta progression. Tu peux avoir tendance à douter, à procrastiner ou à éviter certaines situations inconfortables. Tu préfères souvent rester dans ta zone de confort, ce qui limite ton évolution. Cela ne signifie pas que tu ne peux pas réussir, mais que tu as encore des blocages à dépasser. Prendre conscience de ces freins est déjà une première étape importante. Ton défi est de changer progressivement ta manière de penser et d’agir. Ta force réside dans ton potentiel encore inexploité. Avec du travail et une prise de conscience, tu peux évoluer vers un mindset beaucoup plus positif et orienté réussite.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776776804/cover_n6aryk.jpg"
+    }
+  ],
+  "questions": [
+    {
+      "id": "1",
+      "question": "Face à un objectif difficile…",
+      "answers": [
+        { "label": "Je m’organise pour l’atteindre", "scores": { "mindset_succes": 3 } },
+        { "label": "Je tente mais sans régularité", "scores": { "mindset_progression": 2 } },
+        { "label": "Je doute rapidement", "scores": { "mindset_limite": 3 } },
+        { "label": "Je fais des efforts mais j’abandonne parfois", "scores": { "mindset_progression": 2, "mindset_limite": 1 } }
+      ]
+    },
+    {
+      "id": "2",
+      "question": "Quand tu échoues…",
+      "answers": [
+        { "label": "Je recommence autrement", "scores": { "mindset_succes": 3 } },
+        { "label": "J’essaie de comprendre", "scores": { "mindset_progression": 2 } },
+        { "label": "Je perds confiance", "scores": { "mindset_limite": 3 } },
+        { "label": "Je prends du recul avant de repartir", "scores": { "mindset_progression": 2, "mindset_succes": 1 } }
+      ]
+    },
+    {
+      "id": "3",
+      "question": "Ta discipline…",
+      "answers": [
+        { "label": "Elle est solide", "scores": { "mindset_succes": 3 } },
+        { "label": "Elle dépend de ma motivation", "scores": { "mindset_progression": 2 } },
+        { "label": "Elle est difficile à maintenir", "scores": { "mindset_limite": 3 } },
+        { "label": "J’essaie de m’améliorer", "scores": { "mindset_progression": 2 } }
+      ]
+    },
+    {
+      "id": "4",
+      "question": "Sortir de ta zone de confort…",
+      "answers": [
+        { "label": "C’est nécessaire pour avancer", "scores": { "mindset_succes": 3 } },
+        { "label": "Je le fais parfois", "scores": { "mindset_progression": 2 } },
+        { "label": "J’évite au maximum", "scores": { "mindset_limite": 3 } },
+        { "label": "Ça dépend des situations", "scores": { "mindset_progression": 2, "mindset_limite": 1 } }
+      ]
+    },
+    {
+      "id": "5",
+      "question": "Quand tu manques de motivation…",
+      "answers": [
+        { "label": "J’agis quand même", "scores": { "mindset_succes": 3 } },
+        { "label": "Je fais le minimum", "scores": { "mindset_progression": 2 } },
+        { "label": "Je reporte", "scores": { "mindset_limite": 3 } },
+        { "label": "Je me relance progressivement", "scores": { "mindset_progression": 2, "mindset_succes": 1 } }
+      ]
+    },
+    {
+      "id": "6",
+      "question": "Ton rapport à l’échec…",
+      "answers": [
+        { "label": "C’est un apprentissage", "scores": { "mindset_succes": 3 } },
+        { "label": "Ça dépend des situations", "scores": { "mindset_progression": 2 } },
+        { "label": "Je le vis mal", "scores": { "mindset_limite": 3 } },
+        { "label": "J’essaie d’en tirer quelque chose", "scores": { "mindset_progression": 2, "mindset_succes": 1 } }
+      ]
+    },
+    {
+      "id": "7",
+      "question": "Ta vision du futur…",
+      "answers": [
+        { "label": "Claire et motivante", "scores": { "mindset_succes": 3 } },
+        { "label": "En construction", "scores": { "mindset_progression": 2 } },
+        { "label": "Floue", "scores": { "mindset_limite": 3 } },
+        { "label": "Variable", "scores": { "mindset_progression": 2 } }
+      ]
+    },
+    {
+      "id": "8",
+      "question": "Face aux obstacles…",
+      "answers": [
+        { "label": "Je persévère", "scores": { "mindset_succes": 3 } },
+        { "label": "Je cherche des solutions", "scores": { "mindset_progression": 2 } },
+        { "label": "Je bloque", "scores": { "mindset_limite": 3 } },
+        { "label": "J’avance petit à petit", "scores": { "mindset_progression": 2, "mindset_succes": 1 } }
+      ]
+    },
+    {
+      "id": "9",
+      "question": "Ton engagement…",
+      "answers": [
+        { "label": "Constant", "scores": { "mindset_succes": 3 } },
+        { "label": "Irrégulier", "scores": { "mindset_progression": 2 } },
+        { "label": "Faible", "scores": { "mindset_limite": 3 } },
+        { "label": "En progression", "scores": { "mindset_progression": 2 } }
+      ]
+    },
+    {
+      "id": "10",
+      "question": "Globalement…",
+      "answers": [
+        { "label": "Je suis orienté action", "scores": { "mindset_succes": 3 } },
+        { "label": "Je progresse", "scores": { "mindset_progression": 2 } },
+        { "label": "Je suis souvent bloqué", "scores": { "mindset_limite": 3 } },
+        { "label": "Je fais de mon mieux", "scores": { "mindset_progression": 2 } }
+      ]
+    }
+  ]
+}

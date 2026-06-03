@@ -1,0 +1,146 @@
+{
+  "slug": "test-reaction-critiques-familiales",
+  "title": "Test famille - Comment réagis-tu aux critiques familiales ?",
+  "description": "Face aux remarques de ta famille, comment réagis-tu vraiment ?",
+  "descriptionSeo": "Remarques, jugements, petites piques… ce test révèle comment tu réagis aux critiques familiales. À travers des situations concrètes, découvre si tu es détaché(e), sur la défensive, sensible ou posé(e).",
+  "category": {
+    "name": "Famille",
+    "slug": "famille"
+  },
+  "createdAt": "2026-04-27",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777379359/cover_ola9hw.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777379359/cover_ola9hw.jpg",
+    "alt": "Test critiques familiales"
+  },
+  "profiles": [
+    {
+      "key": "detache",
+      "title": "Détaché(e)",
+      "description": "Tu prends beaucoup de recul face aux critiques familiales. Tu ne te laisses pas facilement atteindre et tu sais faire la part des choses. Tu écoutes, mais tu ne prends pas tout pour toi. Tu es capable de relativiser et de ne pas laisser ces remarques impacter ton humeur ou tes décisions. Cette distance te protège, même si tu peux parfois sembler un peu froid(e) ou indifférent(e).",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777035875/comic_cbv5vs.jpg"
+    },
+    {
+      "key": "defensif",
+      "title": "Sur la défensive",
+      "description": "Tu réagis rapidement face aux critiques. Tu ressens le besoin de te justifier, d’expliquer ou de répondre. Tu n’aimes pas être jugé(e) et tu peux prendre les remarques comme une attaque. Tu es quelqu’un qui se protège activement. Même si ça peut créer des tensions, c’est aussi parce que tu tiens à ton image et à tes choix.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777028509/dependancy_ypefnj.jpg"
+    },
+    {
+      "key": "sensible",
+      "title": "Sensible",
+      "description": "Les critiques familiales te touchent facilement. Même si tu ne le montres pas toujours, tu ressens les choses intensément. Une remarque peut rester dans ta tête longtemps. Tu es attentif(ve) au regard des autres et tu peux douter de toi. Cette sensibilité te rend humain(e), mais elle peut aussi te fragiliser dans certaines situations.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777376408/sensitive_vis2is.jpg"
+    },
+    {
+      "key": "pose",
+      "title": "Posé(e)",
+      "description": "Tu réagis avec calme et recul. Tu es capable d’écouter une critique, de prendre ce qui est utile et de laisser le reste. Tu ne te sens pas obligé(e) de réagir immédiatement. Tu privilégies la réflexion et la communication posée. Tu as une certaine maturité émotionnelle qui t’aide à gérer ces situations sans les amplifier.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776947515/coach_ug28fy.jpg"
+    }
+  ],
+"questions": [
+  {
+    "id": "1",
+    "question": "Un parent te dit : “Tu devrais faire autrement dans ta vie”…",
+    "answers": [
+      { "label": "Je laisse couler", "scores": { "detache": 3 } },
+      { "label": "Je me justifie direct", "scores": { "defensif": 3 } },
+      { "label": "Ça me touche plus que je ne le montre", "scores": { "sensible": 3 } },
+      { "label": "Je réponds calmement", "scores": { "pose": 3 } }
+    ]
+  },
+  {
+    "id": "2",
+    "question": "Pendant un repas, quelqu’un critique tes choix devant tout le monde…",
+    "answers": [
+      { "label": "Je fais comme si je n’avais pas entendu", "scores": { "detache": 3 } },
+      { "label": "Je réponds sur le moment", "scores": { "defensif": 3 } },
+      { "label": "Je me sens mal à l’aise", "scores": { "sensible": 3 } },
+      { "label": "Je garde mon calme et je recadre", "scores": { "pose": 3 } }
+    ]
+  },
+  {
+    "id": "3",
+    "question": "On te fait une remarque sur ton physique ou ton mode de vie…",
+    "answers": [
+      { "label": "Je m’en fiche vraiment", "scores": { "detache": 3 } },
+      { "label": "Je réponds pour me défendre", "scores": { "defensif": 3 } },
+      { "label": "Ça reste dans ma tête", "scores": { "sensible": 3 } },
+      { "label": "Je prends du recul", "scores": { "pose": 3 } }
+    ]
+  },
+  {
+    "id": "4",
+    "question": "Une critique revient encore et encore…",
+    "answers": [
+      { "label": "Je finis par l’ignorer complètement", "scores": { "detache": 3 } },
+      { "label": "Je craque et je réponds", "scores": { "defensif": 3 } },
+      { "label": "Ça m’affecte de plus en plus", "scores": { "sensible": 3 } },
+      { "label": "Je pose une limite calmement", "scores": { "pose": 3 } }
+    ]
+  },
+  {
+    "id": "5",
+    "question": "Après une remarque blessante, tu rentres chez toi…",
+    "answers": [
+      { "label": "Je passe vite à autre chose", "scores": { "detache": 3 } },
+      { "label": "Je repense à ce que j’aurais dû dire", "scores": { "defensif": 3 } },
+      { "label": "Je rumine longtemps", "scores": { "sensible": 3 } },
+      { "label": "Je prends du recul sur la situation", "scores": { "pose": 3 } }
+    ]
+  },
+  {
+    "id": "6",
+    "question": "Quelqu’un te compare à un autre membre de la famille…",
+    "answers": [
+      { "label": "Je ne me sens pas concerné(e)", "scores": { "detache": 3 } },
+      { "label": "Je réagis immédiatement", "scores": { "defensif": 3 } },
+      { "label": "Ça me touche profondément", "scores": { "sensible": 3 } },
+      { "label": "Je garde du recul", "scores": { "pose": 3 } }
+    ]
+  },
+  {
+    "id": "7",
+    "question": "Tu sens qu’une remarque va arriver…",
+    "answers": [
+      { "label": "Je m’en détache déjà", "scores": { "detache": 3 } },
+      { "label": "Je me prépare à répondre", "scores": { "defensif": 3 } },
+      { "label": "Je stresse un peu", "scores": { "sensible": 3 } },
+      { "label": "Je reste calme intérieurement", "scores": { "pose": 3 } }
+    ]
+  },
+  {
+    "id": "8",
+    "question": "On te critique sur un choix important (travail, couple, etc.)…",
+    "answers": [
+      { "label": "Je fais ma vie sans écouter", "scores": { "detache": 3 } },
+      { "label": "Je défends mon choix", "scores": { "defensif": 3 } },
+      { "label": "Je doute après coup", "scores": { "sensible": 3 } },
+      { "label": "J’écoute mais je décide moi-même", "scores": { "pose": 3 } }
+    ]
+  },
+  {
+    "id": "9",
+    "question": "Une petite pique est lancée sur toi…",
+    "answers": [
+      { "label": "Je laisse passer", "scores": { "detache": 3 } },
+      { "label": "Je réponds du tac au tac", "scores": { "defensif": 3 } },
+      { "label": "Je suis touché(e) intérieurement", "scores": { "sensible": 3 } },
+      { "label": "Je réponds avec calme", "scores": { "pose": 3 } }
+    ]
+  },
+  {
+    "id": "10",
+    "question": "Quelques heures après une critique…",
+    "answers": [
+      { "label": "Je n’y pense plus", "scores": { "detache": 3 } },
+      { "label": "Je rejoue la scène dans ma tête", "scores": { "defensif": 3 } },
+      { "label": "Je ressens encore l’émotion", "scores": { "sensible": 3 } },
+      { "label": "Je prends du recul et je relativise", "scores": { "pose": 3 } }
+    ]
+  }
+]
+}

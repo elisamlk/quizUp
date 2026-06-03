@@ -1,0 +1,8 @@
+.emojiGameBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 220px;
+  font-size: clamp(3.8rem, 9vw, 7rem);
+  background: linear-gradient(135deg, #f4f0ff, #fff4fb);
+}

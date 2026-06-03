@@ -1,0 +1,200 @@
+{
+  "slug": "quiz-routes-ferroviaires-majeures-monde",
+  "title": "Quiz Géographie - Routes ferroviaires majeures",
+  "description": "Teste tes connaissances sur les grandes lignes ferroviaires du monde et leur importance stratégique.",
+  "descriptionSeo": "Des lignes mythiques comme le Transsibérien ou l’Orient-Express aux réseaux modernes à grande vitesse, ce quiz de géographie t’emmène au cœur des routes ferroviaires majeures du monde. À travers 20 questions variées, découvre leur rôle stratégique, économique et historique dans l’organisation des territoires. Chaque réponse est accompagnée d’explications détaillées pour mieux comprendre comment le rail a façonné les échanges, les mobilités et le développement des grandes puissances.",
+  "category": {
+    "name": "Géographie",
+    "slug": "geographie"
+  },
+  "createdAt": "2026-03-30",
+  "isNew": true,
+  "isPopular": false,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1774868438/cover_vrkn8s.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1774868438/cover_vrkn8s.jpg",
+    "alt": "Quiz routes ferroviaires majeures"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "question": "Quelle ligne relie Moscou à Vladivostok sur plus de 9 000 km ?",
+      "image": null,
+      "imagePrompt": "Trans-Siberian Railway map",
+      "answers": ["Orient-Express", "Canadian Pacific", "Qinghai-Tibet Railway", "Transsibérien"],
+      "correctIndex": 3,
+      "explanation": "Le Transsibérien est essentiel à l’intégration du territoire russe. Il traverse plusieurs fuseaux horaires et a permis de développer économiquement des régions isolées de Sibérie."
+    },
+    {
+      "id": "2",
+      "question": "Quel train reliait Paris à Istanbul dans un contexte de luxe et de diplomatie ?",
+      "image": null,
+      "imagePrompt": "Orient Express train",
+      "answers": ["Eurostar", "Orient-Express", "ICE", "Shinkansen"],
+      "correctIndex": 1,
+      "explanation": "L’Orient-Express est devenu un symbole du voyage ferroviaire de prestige, reliant l’Europe occidentale à l’Orient dans un contexte géopolitique stratégique."
+    },
+    {
+      "id": "3",
+      "question": "Quelle ligne japonaise a lancé la grande vitesse moderne ?",
+      "image": null,
+      "imagePrompt": "Shinkansen",
+      "answers": ["Eurostar", "Tokaido Shinkansen", "ICE", "AVE"],
+      "correctIndex": 1,
+      "explanation": "Le Shinkansen japonais a révolutionné le transport ferroviaire dès 1964 en combinant vitesse, sécurité et ponctualité exceptionnelle."
+    },
+    {
+      "id": "4",
+      "question": "Quelle liaison ferroviaire passe sous la Manche ?",
+      "image": null,
+      "imagePrompt": "Channel Tunnel train",
+      "answers": ["Rail Baltica", "Thalys", "Nightjet", "Eurostar"],
+      "correctIndex": 3,
+      "explanation": "L’Eurostar utilise le tunnel sous la Manche, une infrastructure majeure reliant le Royaume-Uni au continent européen."
+    },
+    {
+      "id": "5",
+      "question": "Quelle ligne relie Pékin à Lhassa à très haute altitude ?",
+      "image": null,
+      "imagePrompt": "Tibet railway",
+      "answers": ["Transmongolien", "Qinghai-Tibet Railway", "Transsibérien", "Silk Rail"],
+      "correctIndex": 1,
+      "explanation": "Cette ligne est un exploit technique traversant des zones de pergélisol et des altitudes extrêmes dépassant 5 000 mètres."
+    },
+    {
+      "id": "6",
+      "question": "Quel réseau ferroviaire a contribué à unifier le Canada ?",
+      "image": null,
+      "imagePrompt": "Canadian Pacific Railway",
+      "answers": ["Amtrak", "Canadian Pacific Railway", "Eurostar", "Indian Pacific"],
+      "correctIndex": 1,
+      "explanation": "Le Canadian Pacific Railway a joué un rôle clé dans l’unification territoriale et économique du Canada au XIXe siècle."
+    },
+    {
+      "id": "7",
+      "question": "Quelle ligne traverse les Rocheuses entre Chicago et San Francisco ?",
+      "image": null,
+      "imagePrompt": "California Zephyr",
+      "answers": ["Empire Builder", "California Zephyr", "Acela", "Sunset Limited"],
+      "correctIndex": 1,
+      "explanation": "Le California Zephyr est célèbre pour ses paysages spectaculaires à travers les montagnes et les plaines américaines."
+    },
+    {
+      "id": "8",
+      "question": "Quel train de luxe traverse l’Afrique du Sud ?",
+      "image": null,
+      "imagePrompt": "Blue Train",
+      "answers": ["Maharajas Express", "Blue Train", "Nightjet", "Bernina Express"],
+      "correctIndex": 1,
+      "explanation": "Le Blue Train est connu pour ses services de luxe et ses longues distances reliant les grandes villes sud-africaines."
+    },
+    {
+      "id": "9",
+      "question": "Quelle ligne traverse l’Australie d’est en ouest ?",
+      "image": null,
+      "imagePrompt": "Indian Pacific",
+      "answers": ["The Ghan", "Overland", "Indian Pacific", "Spirit of Queensland"],
+      "correctIndex": 2,
+      "explanation": "L’Indian Pacific relie deux océans et traverse des zones désertiques extrêmement isolées."
+    },
+    {
+      "id": "10",
+      "question": "Quelle ligne relie Moscou à Pékin via la Mongolie ?",
+      "image": null,
+      "imagePrompt": "Trans Mongolian",
+      "answers": ["Transsibérien", "Transmandchourien", "Silk Rail", "Transmongolien"],
+      "correctIndex": 3,
+      "explanation": "Le Transmongolien est un axe stratégique reliant la Russie, la Mongolie et la Chine."
+    },
+    {
+      "id": "11",
+      "question": "Quelle ligne française a lancé le TGV ?",
+      "image": null,
+      "imagePrompt": "TGV",
+      "answers": ["TGV Sud-Est", "ICE", "AVE", "Railjet"],
+      "correctIndex": 0,
+      "explanation": "Le TGV Sud-Est a marqué le début de la grande vitesse en Europe et a transformé les mobilités nationales."
+    },
+    {
+      "id": "12",
+      "question": "Quel corridor ferroviaire relie Boston à Washington ?",
+      "image": null,
+      "imagePrompt": "Northeast Corridor",
+      "answers": ["Empire Builder", "Coast Starlight", "Northeast Corridor", "Sunset Limited"],
+      "correctIndex": 2,
+      "explanation": "Le Northeast Corridor est le plus fréquenté des États-Unis grâce à la forte densité urbaine de la côte Est."
+    },
+    {
+      "id": "13",
+      "question": "Quelle ligne mène au Machu Picchu ?",
+      "image": null,
+      "imagePrompt": "Peru train Machu Picchu",
+      "answers": ["Transandin", "Hiram Bingham route", "Andean Rail", "Qhapaq Rail"],
+      "correctIndex": 1,
+      "explanation": "Cette ligne permet d’accéder à un site isolé en pleine montagne, démontrant l’importance du rail dans le tourisme."
+    },
+    {
+      "id": "14",
+      "question": "Quel train traverse les Alpes avec des viaducs spectaculaires ?",
+      "image": null,
+      "imagePrompt": "Bernina Express",
+      "answers": ["Glacier Express", "Nightjet", "EuroCity", "Bernina Express"],
+      "correctIndex": 3,
+      "explanation": "Le Bernina Express est classé à l’UNESCO pour ses ouvrages d’art et ses paysages alpins."
+    },
+    {
+      "id": "15",
+      "question": "Quel train relie Adélaïde à Darwin ?",
+      "image": null,
+      "imagePrompt": "The Ghan",
+      "answers": ["Indian Pacific", "Overland", "Spirit of Outback", "The Ghan"],
+      "correctIndex": 3,
+      "explanation": "The Ghan traverse le cœur désertique de l’Australie, reliant le nord et le sud du pays."
+    },
+    {
+      "id": "16",
+      "question": "Quel projet relie les États baltes au réseau européen ?",
+      "image": null,
+      "imagePrompt": "Rail Baltica",
+      "answers": ["Baltic Express", "Rail Baltica", "Nord Rail", "EuroBaltic"],
+      "correctIndex": 1,
+      "explanation": "Rail Baltica vise à intégrer les pays baltes au réseau ferroviaire européen standard."
+    },
+    {
+      "id": "17",
+      "question": "Quelle ligne a lancé la grande vitesse en Espagne ?",
+      "image": null,
+      "imagePrompt": "AVE Spain",
+      "answers": ["Madrid-Séville", "Madrid-Barcelone", "Séville-Malaga", "Valence-Madrid"],
+      "correctIndex": 0,
+      "explanation": "La ligne Madrid-Séville a été inaugurée en 1992 et a lancé le réseau AVE."
+    },
+    {
+      "id": "18",
+      "question": "Quel réseau relie les grandes villes indiennes en quadrilatère ?",
+      "image": null,
+      "imagePrompt": "India rail network",
+      "answers": ["Konkan Railway", "Golden Quadrilateral", "Palace on Wheels", "Mountain Rail"],
+      "correctIndex": 1,
+      "explanation": "Ce réseau relie Delhi, Mumbai, Chennai et Kolkata, structurant l’économie indienne."
+    },
+    {
+      "id": "19",
+      "question": "Quel train relie Zermatt à Saint-Moritz ?",
+      "image": null,
+      "imagePrompt": "Glacier Express",
+      "answers": ["Bernina Express", "EuroCity", "Nightjet", "Glacier Express"],
+      "correctIndex": 3,
+      "explanation": "Le Glacier Express traverse les Alpes suisses et relie plusieurs vallées isolées."
+    },
+    {
+      "id": "20",
+      "question": "Quel corridor relie la Chine à l’Europe pour le fret ferroviaire ?",
+      "image": null,
+      "imagePrompt": "China Europe rail",
+      "answers": ["Transsibérien", "Silk Rail", "Belt Rail", "China-Europe Railway Express"],
+      "correctIndex": 3,
+      "explanation": "Ce corridor est devenu un axe clé du commerce eurasiatique, plus rapide que le maritime et moins coûteux que l’aérien."
+    }
+  ]
+}

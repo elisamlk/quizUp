@@ -1,0 +1,130 @@
+{
+  "slug": "test-mode-de-vie-perte-argent",
+  "title": "Test argent - Ton mode de vie te fait-il perdre de l’argent sans t’en rendre compte ?",
+  "description": "Tes habitudes quotidiennes te coûtent-elles plus que tu ne le penses ?",
+  "descriptionSeo": "Abonnements oubliés, achats rapides, dépenses de confort ou petites habitudes du quotidien… ce test t’aide à repérer les fuites d’argent invisibles liées à ton mode de vie. À travers des situations concrètes, découvre si tu maîtrises vraiment tes dépenses ou si certaines habitudes te coûtent plus que tu ne le penses. Une manière simple d’identifier ce qui impacte ton budget sans t’en rendre compte.",
+  "category": {
+    "name": "Argent",
+    "slug": "argent"
+  },
+  "createdAt": "2026-04-27",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777668847/cover_kwn0tg.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777668847/cover_kwn0tg.jpg",
+    "alt": "Test perte d'argent habitudes"
+  },
+  "profiles": [
+    {
+      "key": "maitrise",
+      "title": "Tu maîtrises tes dépenses",
+      "description": "Ton mode de vie est plutôt optimisé. Tu fais attention aux petites dépenses et tu évites les pertes invisibles. Tu as des réflexes qui te permettent de garder le contrôle sans forcément être strict(e). Tu sais où part ton argent et tu limites les fuites inutiles. Cette maîtrise te permet de garder un budget plus équilibré sur le long terme.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777582123/maistrise_cvdcgx.jpg"
+    },
+    {
+      "key": "fuites_moderees",
+      "title": "Quelques fuites invisibles",
+      "description": "Ton mode de vie laisse passer certaines dépenses que tu ne contrôles pas totalement. Rien de dramatique, mais des petites habitudes s’accumulent et peuvent peser sur ton budget sans que tu t’en rendes vraiment compte. Tu pourrais facilement améliorer ta situation avec quelques ajustements ciblés.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777577150/cover_bgc95x.jpg"
+    },
+    {
+      "key": "fuites_importantes",
+      "title": "Beaucoup de pertes invisibles",
+      "description": "Ton mode de vie te fait perdre de l’argent régulièrement sans que tu le réalises pleinement. Abonnements, achats impulsifs, petites dépenses répétées… ces habitudes s’accumulent et créent un vrai impact. Tu pourrais récupérer une partie importante de ton budget en prenant conscience de ces réflexes.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777581577/desorganize_hbhlkn.jpg"
+    }
+  ],
+  "questions": [
+    {
+      "id": "1",
+      "question": "Tu regardes tes abonnements mensuels (streaming, apps, etc.)…",
+      "answers": [
+        { "label": "Je sais exactement ce que je paie", "scores": { "maitrise": 3 } },
+        { "label": "J’en oublie parfois", "scores": { "fuites_moderees": 3 } },
+        { "label": "Je ne sais pas vraiment combien j’en ai", "scores": { "fuites_importantes": 3 } }
+      ]
+    },
+    {
+      "id": "2",
+      "question": "Tu commandes à manger ou à boire…",
+      "answers": [
+        { "label": "Occasionnellement", "scores": { "maitrise": 3 } },
+        { "label": "Régulièrement", "scores": { "fuites_moderees": 3 } },
+        { "label": "Très souvent", "scores": { "fuites_importantes": 3 } }
+      ]
+    },
+    {
+      "id": "3",
+      "question": "Tu oublies de résilier un service après un essai gratuit…",
+      "answers": [
+        { "label": "Ça ne m’arrive presque jamais", "scores": { "maitrise": 3 } },
+        { "label": "Ça m’est déjà arrivé", "scores": { "fuites_moderees": 3 } },
+        { "label": "Ça m’arrive souvent", "scores": { "fuites_importantes": 3 } }
+      ]
+    },
+    {
+      "id": "4",
+      "question": "Tu prends un transport plus cher par facilité…",
+      "answers": [
+        { "label": "Rarement", "scores": { "maitrise": 3 } },
+        { "label": "Parfois", "scores": { "fuites_moderees": 3 } },
+        { "label": "Très souvent", "scores": { "fuites_importantes": 3 } }
+      ]
+    },
+    {
+      "id": "5",
+      "question": "Tu fais des achats “rapides” sans comparer…",
+      "answers": [
+        { "label": "Presque jamais", "scores": { "maitrise": 3 } },
+        { "label": "De temps en temps", "scores": { "fuites_moderees": 3 } },
+        { "label": "Souvent", "scores": { "fuites_importantes": 3 } }
+      ]
+    },
+    {
+      "id": "6",
+      "question": "Tu laisses traîner des petites dépenses (apps, frais, etc.)…",
+      "answers": [
+        { "label": "Je fais attention", "scores": { "maitrise": 3 } },
+        { "label": "J’en laisse passer quelques-unes", "scores": { "fuites_moderees": 3 } },
+        { "label": "Je n’y fais pas attention", "scores": { "fuites_importantes": 3 } }
+      ]
+    },
+    {
+      "id": "7",
+      "question": "Tu utilises des services pratiques mais coûteux (livraison, etc.)…",
+      "answers": [
+        { "label": "Avec modération", "scores": { "maitrise": 3 } },
+        { "label": "Régulièrement", "scores": { "fuites_moderees": 3 } },
+        { "label": "Très souvent", "scores": { "fuites_importantes": 3 } }
+      ]
+    },
+    {
+      "id": "8",
+      "question": "Tu oublies de profiter d’une offre ou d’un remboursement…",
+      "answers": [
+        { "label": "Rarement", "scores": { "maitrise": 3 } },
+        { "label": "Parfois", "scores": { "fuites_moderees": 3 } },
+        { "label": "Souvent", "scores": { "fuites_importantes": 3 } }
+      ]
+    },
+    {
+      "id": "9",
+      "question": "Tu dépenses plus pour gagner du temps…",
+      "answers": [
+        { "label": "Uniquement quand c’est utile", "scores": { "maitrise": 3 } },
+        { "label": "Assez souvent", "scores": { "fuites_moderees": 3 } },
+        { "label": "Presque systématiquement", "scores": { "fuites_importantes": 3 } }
+      ]
+    },
+    {
+      "id": "10",
+      "question": "Quand tu regardes ton mois, certaines dépenses te surprennent…",
+      "answers": [
+        { "label": "Rarement", "scores": { "maitrise": 3 } },
+        { "label": "De temps en temps", "scores": { "fuites_moderees": 3 } },
+        { "label": "Souvent", "scores": { "fuites_importantes": 3 } }
+      ]
+    }
+  ]
+}

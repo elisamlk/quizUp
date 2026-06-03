@@ -1,0 +1,146 @@
+{
+  "slug": "test-es-tu-du-matin-ou-du-soir",
+  "title": "Test lifestyle - Es-tu du matin ou du soir ?",
+  "description": "Ton énergie est-elle plutôt du matin ou du soir ?",
+  "descriptionSeo": "Rythme de sommeil, énergie dans la journée, habitudes… ce test analyse ton fonctionnement pour révéler si tu es plutôt du matin ou du soir. Découvre ton rythme naturel et la période de la journée où tu es vraiment au top.",
+  "category": {
+    "name": "Lifestyle",
+    "slug": "lifestyle"
+  },
+  "createdAt": "2026-04-27",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777299092/cover_acezpf.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777299092/cover_acezpf.jpg",
+    "alt": "Test matin ou soir personnalité"
+  },
+  "profiles": [
+    {
+      "key": "matin",
+      "title": "Clairement du matin",
+      "description": "Tu es une personne qui fonctionne naturellement tôt dans la journée. Ton énergie est au maximum dès le réveil ou peu après, et tu es souvent plus efficace le matin que le reste du temps. Tu aimes avoir du temps devant toi, commencer tôt et avancer rapidement dans tes tâches. Tu es généralement plus concentré(e), plus motivé(e) et plus organisé(e) en début de journée. Le soir, ton énergie baisse naturellement et tu préfères ralentir. Tu apprécies les routines matinales, le calme du début de journée et la sensation d’avoir déjà accompli des choses pendant que les autres commencent à peine. Ton rythme est clair : matin = performance, soir = récupération.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777299094/early_s2bxvi.jpg"
+    },
+    {
+      "key": "plutot_matin",
+      "title": "Plutôt du matin",
+      "description": "Tu as une tendance matinale, même si tu peux t’adapter. Tu es souvent plus productif(ve) et concentré(e) en première partie de journée, mais tu peux rester actif(ve) plus tard si nécessaire. Tu aimes les matinées efficaces, les débuts de journée organisés et le sentiment d’avancer tôt. Tu peux parfois traîner un peu le soir, mais ton pic d’énergie reste plutôt le matin. Tu es quelqu’un de relativement équilibré, avec une légère préférence pour les horaires matinaux. Tu sais profiter des deux moments de la journée, mais tu donnes clairement ton meilleur au réveil ou peu après.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777299101/midday_zewblw.jpg"
+    },
+    {
+      "key": "plutot_soir",
+      "title": "Plutôt du soir",
+      "description": "Tu n’es pas forcément à ton maximum dès le matin, mais tu montes progressivement en énergie au fil de la journée. Tu peux être un peu lent(e) au réveil, mais une fois lancé(e), tu deviens plus productif(ve) et concentré(e), surtout en fin d’après-midi ou en soirée. Tu apprécies les moments calmes du soir, quand il y a moins de pression et que tu peux te concentrer à ton rythme. Tu es capable de fonctionner tôt, mais ce n’est pas là que tu es le plus performant(e). Ton vrai potentiel s’exprime quand la journée avance.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777299097/soir_on5zjk.jpg"
+    },
+    {
+      "key": "soir",
+      "title": "Clairement du soir",
+      "description": "Tu es une personne nocturne. Le matin est souvent difficile pour toi, et tu as besoin de temps pour te mettre en route. En revanche, plus la journée avance, plus ton énergie augmente. Tu es souvent plus créatif(ve), concentré(e) et efficace le soir, voire tard dans la nuit. Tu aimes les ambiances calmes, les moments où tout ralentit et où tu peux te concentrer sans interruption. Tu peux facilement perdre la notion du temps une fois lancé(e) le soir. Ton rythme naturel est inversé par rapport à beaucoup de gens, mais c’est là que tu es vraiment au top.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777299104/night_o2xjtr.jpg"
+    }
+  ],
+  "questions": [
+    {
+      "id": "1",
+      "question": "Ton réveil sonne…",
+      "answers": [
+        { "label": "Je me lève direct", "scores": { "matin": 3 } },
+        { "label": "Je mets un snooze", "scores": { "plutot_matin": 3 } },
+        { "label": "Je lutte un peu", "scores": { "plutot_soir": 3 } },
+        { "label": "C’est une souffrance", "scores": { "soir": 3 } }
+      ]
+    },
+    {
+      "id": "2",
+      "question": "À quel moment tu es le plus efficace ?",
+      "answers": [
+        { "label": "Tôt le matin", "scores": { "matin": 3 } },
+        { "label": "En matinée", "scores": { "plutot_matin": 3 } },
+        { "label": "En fin de journée", "scores": { "plutot_soir": 3 } },
+        { "label": "Le soir / la nuit", "scores": { "soir": 3 } }
+      ]
+    },
+    {
+      "id": "3",
+      "question": "Le week-end sans contrainte…",
+      "answers": [
+        { "label": "Je me réveille tôt naturellement", "scores": { "matin": 3 } },
+        { "label": "Je dors un peu plus mais pas trop", "scores": { "plutot_matin": 3 } },
+        { "label": "Je traîne le matin", "scores": { "plutot_soir": 3 } },
+        { "label": "Je me lève très tard", "scores": { "soir": 3 } }
+      ]
+    },
+    {
+      "id": "4",
+      "question": "Un rendez-vous important à 8h…",
+      "answers": [
+        { "label": "Parfait pour moi", "scores": { "matin": 3 } },
+        { "label": "Ça va", "scores": { "plutot_matin": 3 } },
+        { "label": "C’est tôt quand même", "scores": { "plutot_soir": 3 } },
+        { "label": "C’est une torture", "scores": { "soir": 3 } }
+      ]
+    },
+    {
+      "id": "5",
+      "question": "Ton énergie vers 22h…",
+      "answers": [
+        { "label": "Je suis KO", "scores": { "matin": 3 } },
+        { "label": "Je commence à fatiguer", "scores": { "plutot_matin": 3 } },
+        { "label": "Je suis bien", "scores": { "plutot_soir": 3 } },
+        { "label": "Je suis en pleine forme", "scores": { "soir": 3 } }
+      ]
+    },
+    {
+      "id": "6",
+      "question": "Quand tu dois travailler tard…",
+      "answers": [
+        { "label": "C’est difficile", "scores": { "matin": 3 } },
+        { "label": "Ça passe mais pas idéal", "scores": { "plutot_matin": 3 } },
+        { "label": "Je deviens plus efficace", "scores": { "plutot_soir": 3 } },
+        { "label": "C’est là que je suis le meilleur", "scores": { "soir": 3 } }
+      ]
+    },
+    {
+      "id": "7",
+      "question": "Ton moment préféré de la journée…",
+      "answers": [
+        { "label": "Le matin tôt", "scores": { "matin": 3 } },
+        { "label": "La fin de matinée", "scores": { "plutot_matin": 3 } },
+        { "label": "La fin d’après-midi", "scores": { "plutot_soir": 3 } },
+        { "label": "Le soir / la nuit", "scores": { "soir": 3 } }
+      ]
+    },
+    {
+      "id": "8",
+      "question": "Ton rythme naturel…",
+      "answers": [
+        { "label": "Je me couche tôt et me lève tôt", "scores": { "matin": 3 } },
+        { "label": "Plutôt tôt que tard", "scores": { "plutot_matin": 3 } },
+        { "label": "Plutôt tard que tôt", "scores": { "plutot_soir": 3 } },
+        { "label": "Je me couche très tard", "scores": { "soir": 3 } }
+      ]
+    },
+    {
+      "id": "9",
+      "question": "Ton niveau de concentration le matin…",
+      "answers": [
+        { "label": "Très élevé", "scores": { "matin": 3 } },
+        { "label": "Correct", "scores": { "plutot_matin": 3 } },
+        { "label": "Moyen", "scores": { "plutot_soir": 3 } },
+        { "label": "Très faible", "scores": { "soir": 3 } }
+      ]
+    },
+    {
+      "id": "10",
+      "question": "Au fond, ton rythme idéal…",
+      "answers": [
+        { "label": "Commencer tôt et finir tôt", "scores": { "matin": 3 } },
+        { "label": "Commencer assez tôt", "scores": { "plutot_matin": 3 } },
+        { "label": "Commencer plus tard", "scores": { "plutot_soir": 3 } },
+        { "label": "Vivre surtout la nuit", "scores": { "soir": 3 } }
+      ]
+    }
+  ]
+}

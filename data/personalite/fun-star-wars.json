@@ -1,0 +1,483 @@
+{
+  "slug": "test-quel-personnage-de-star-wars-es-tu",
+  "title": "Test fun - Quel personnage de Star Wars es-tu ?",
+  "description": "Plonge dans l’univers Star Wars et découvre quel personnage te correspond vraiment.",
+  "descriptionSeo": "À travers des situations inspirées de l’univers Star Wars, ce test révèle quel personnage te correspond le mieux. Tes choix face au danger, au pouvoir, à la loyauté et aux décisions difficiles permettent d’identifier ton profil : héros idéaliste, stratège, rebelle, mentor, âme sombre ou esprit libre. Un test fun et immersif pour découvrir ton alter ego galactique.",
+  "category": {
+    "name": "Fun",
+    "slug": "fun"
+  },
+  "createdAt": "2026-04-20",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777060437/cover_zmhthf.webp",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777060437/cover_zmhthf.webp",
+    "alt": "Test personnage Star Wars"
+  },
+  "profiles": [
+    {
+      "key": "luke",
+      "title": "Luke Skywalker",
+      "description": "Tu ressembles à Luke Skywalker : idéaliste, courageux et guidé par une forte envie de faire ce qui est juste. Tu n’as pas forcément toutes les réponses au départ, mais tu avances avec sincérité et tu apprends au fil des épreuves. Tu crois au potentiel des autres, même quand tout semble perdu. Tu peux parfois douter de toi, mais tu finis souvent par écouter ton cœur et ton sens moral. Ton énergie est celle d’un héros en construction : humain, imparfait, mais profondément lumineux. Ton défi est de ne pas porter seul le poids du monde. Ta force réside dans ton espoir, ta loyauté et ta capacité à rester fidèle à tes valeurs.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777060489/luke_h51pqn.jpg"
+    },
+    {
+      "key": "leia",
+      "title": "Leia Organa",
+      "description": "Tu ressembles à Leia Organa : déterminé(e), courageux(se) et naturellement tourné(e) vers l’action. Tu sais prendre des décisions sous pression et tu n’as pas peur de défendre ce qui compte pour toi. Tu peux être direct(e), exigeant(e), parfois difficile à impressionner, mais toujours animé(e) par une vraie force intérieure. Tu n’attends pas qu’on vienne sauver la situation : tu participes, tu organises, tu motives et tu tiens bon. Ton énergie est celle d’un leader qui agit avec conviction. Ton défi est parfois de ne pas tout contrôler ou tout porter. Ta force réside dans ton courage, ta lucidité et ta capacité à inspirer les autres.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777060438/leia_gz827y.jpg"
+    },
+    {
+      "key": "han",
+      "title": "Han Solo",
+      "description": "Tu ressembles à Han Solo : indépendant(e), débrouillard(e) et un peu allergique aux règles trop strictes. Tu préfères agir à ta manière plutôt que suivre un plan imposé. Tu peux donner l’impression de ne pas trop t’attacher, mais quand quelqu’un compte vraiment pour toi, ta loyauté est bien réelle. Tu as de l’humour, du répondant et une capacité naturelle à improviser dans les situations compliquées. Tu n’aimes pas qu’on te dise quoi faire, mais tu finis souvent par faire ce qu’il faut, même si tu prétends le contraire. Ton défi est d’assumer davantage tes émotions. Ta force réside dans ton instinct, ton audace et ton cœur caché derrière ton attitude détachée.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777060438/han_solo_9307_cdzuos.webp"
+    },
+    {
+      "key": "yoda",
+      "title": "Yoda",
+      "description": "Tu ressembles à Yoda : sage, observateur(trice) et capable de voir au-delà de l’évidence. Tu ne réagis pas toujours immédiatement, car tu préfères comprendre le fond des choses. Tu as une forme de calme intérieur, même si tu peux être plus exigeant(e) qu’on ne l’imagine. Tu crois à l’apprentissage, à la patience et à la maîtrise de soi. Les autres peuvent venir vers toi pour obtenir du recul, des conseils ou une vision plus profonde. Tu n’as pas besoin d’être au centre de l’action pour avoir un impact énorme. Ton défi est parfois de ne pas trop rester dans l’observation. Ta force réside dans ta sagesse, ta patience et ta capacité à guider les autres.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777060438/yoda_xr0a7y.jpg"
+    },
+    {
+      "key": "vador",
+      "title": "Dark Vador",
+      "description": "Tu ressembles à Dark Vador dans son côté intense, puissant et marqué par des émotions profondes. Tu ressens les choses avec force, même si tu ne les montres pas toujours. Tu peux être déterminé(e), exigeant(e), parfois dur(e) avec toi-même ou avec les autres. Tu as une grande énergie intérieure, mais elle peut devenir pesante si elle est guidée par la colère, la peur ou le besoin de contrôle. Ton profil n’est pas négatif : il montre surtout une personnalité forte, complexe et capable de transformation. Ton défi est de ne pas laisser tes blessures diriger tes choix. Ta force réside dans ta puissance, ta profondeur et ta capacité à évoluer quand tu acceptes de regarder ce qui se passe en toi.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777060438/darth_gfemn1.jpg"
+    },
+    {
+      "key": "rey",
+      "title": "Rey",
+      "description": "Tu ressembles à Rey : autonome, instinctif(ve) et porté(e) par une grande force intérieure. Tu as appris à avancer par toi-même, à t’adapter et à faire confiance à ton ressenti. Tu peux parfois te sentir entre deux mondes, comme si tu cherchais ta place ou ton identité profonde. Pourtant, tu possèdes une vraie capacité à te relever, à apprendre vite et à suivre ta propre voie. Tu n’as pas besoin qu’on te donne toutes les réponses pour avancer. Ton énergie est celle d’une personne indépendante, sensible et puissante à la fois. Ton défi est de ne pas douter de ta légitimité. Ta force réside dans ta résilience, ton intuition et ta capacité à transformer ton histoire en puissance.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777060438/rey_hblavo.jpg"
+    }
+  ],
+  "questions": [
+    {
+      "id": "1",
+      "question": "Tu découvres qu’une mission dangereuse peut aider beaucoup de personnes. Que fais-tu ?",
+      "answers": [
+        {
+          "label": "J’accepte, même si je ne me sens pas totalement prêt(e)",
+          "scores": {
+            "luke": 3,
+            "rey": 1
+          }
+        },
+        {
+          "label": "J’organise un plan clair avant d’envoyer qui que ce soit",
+          "scores": {
+            "leia": 3,
+            "yoda": 1
+          }
+        },
+        {
+          "label": "Je négocie d’abord les risques et les conditions",
+          "scores": {
+            "han": 3
+          }
+        },
+        {
+          "label": "Je prends du recul pour comprendre les conséquences",
+          "scores": {
+            "yoda": 3
+          }
+        },
+        {
+          "label": "Je veux contrôler la situation avant qu’elle ne m’échappe",
+          "scores": {
+            "vador": 3
+          }
+        },
+        {
+          "label": "Je me lance si mon instinct me dit que c’est la bonne voie",
+          "scores": {
+            "rey": 3,
+            "luke": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "question": "Un allié fait une erreur qui met tout le groupe en danger. Ta réaction ?",
+      "answers": [
+        {
+          "label": "Je lui laisse une chance de se rattraper",
+          "scores": {
+            "luke": 3
+          }
+        },
+        {
+          "label": "Je recadre fermement, puis je cherche une solution",
+          "scores": {
+            "leia": 3
+          }
+        },
+        {
+          "label": "Je râle, mais je l’aide quand même",
+          "scores": {
+            "han": 3
+          }
+        },
+        {
+          "label": "Je cherche ce que cette erreur peut lui apprendre",
+          "scores": {
+            "yoda": 3
+          }
+        },
+        {
+          "label": "J’ai du mal à accepter une erreur aussi lourde",
+          "scores": {
+            "vador": 3
+          }
+        },
+        {
+          "label": "J’agis vite pour réparer avant de parler du reste",
+          "scores": {
+            "rey": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "question": "Face à une autorité injuste, tu as tendance à…",
+      "answers": [
+        {
+          "label": "Faire ce qui est juste, même si ça me met en difficulté",
+          "scores": {
+            "luke": 3,
+            "leia": 1
+          }
+        },
+        {
+          "label": "Résister clairement et mobiliser les autres",
+          "scores": {
+            "leia": 3
+          }
+        },
+        {
+          "label": "Contourner les règles à ma manière",
+          "scores": {
+            "han": 3
+          }
+        },
+        {
+          "label": "Choisir le moment le plus sage pour agir",
+          "scores": {
+            "yoda": 3
+          }
+        },
+        {
+          "label": "Prendre le pouvoir pour imposer ma propre vision",
+          "scores": {
+            "vador": 3
+          }
+        },
+        {
+          "label": "Refuser de me laisser définir par cette autorité",
+          "scores": {
+            "rey": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "question": "Tu te retrouves seul(e) face à une décision importante. Qu’est-ce qui guide ton choix ?",
+      "answers": [
+        {
+          "label": "Mon sens du bien et du mal",
+          "scores": {
+            "luke": 3
+          }
+        },
+        {
+          "label": "L’impact sur les autres",
+          "scores": {
+            "leia": 3
+          }
+        },
+        {
+          "label": "Mon instinct de survie et mon expérience",
+          "scores": {
+            "han": 3
+          }
+        },
+        {
+          "label": "La patience et la vision à long terme",
+          "scores": {
+            "yoda": 3
+          }
+        },
+        {
+          "label": "Ma peur de perdre le contrôle",
+          "scores": {
+            "vador": 3
+          }
+        },
+        {
+          "label": "Ce que je ressens au plus profond de moi",
+          "scores": {
+            "rey": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "question": "Dans une équipe, on te remarque surtout pour…",
+      "answers": [
+        {
+          "label": "Ton courage même quand tu doutes",
+          "scores": {
+            "luke": 3
+          }
+        },
+        {
+          "label": "Ta capacité à diriger sans perdre ton sang-froid",
+          "scores": {
+            "leia": 3
+          }
+        },
+        {
+          "label": "Ton humour et ta débrouillardise",
+          "scores": {
+            "han": 3
+          }
+        },
+        {
+          "label": "Ton recul et tes conseils",
+          "scores": {
+            "yoda": 3
+          }
+        },
+        {
+          "label": "Ton intensité et ton autorité naturelle",
+          "scores": {
+            "vador": 3
+          }
+        },
+        {
+          "label": "Ton autonomie et ta capacité à apprendre vite",
+          "scores": {
+            "rey": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "question": "Tu sens monter une émotion forte en toi. Comment tu la gères ?",
+      "answers": [
+        {
+          "label": "J’essaie de rester fidèle à mes valeurs malgré tout",
+          "scores": {
+            "luke": 3
+          }
+        },
+        {
+          "label": "Je la transforme en action utile",
+          "scores": {
+            "leia": 3
+          }
+        },
+        {
+          "label": "Je fais une remarque pour alléger la tension",
+          "scores": {
+            "han": 3
+          }
+        },
+        {
+          "label": "Je prends du recul avant de répondre",
+          "scores": {
+            "yoda": 3
+          }
+        },
+        {
+          "label": "Je peux devenir dur(e) ou fermé(e)",
+          "scores": {
+            "vador": 3
+          }
+        },
+        {
+          "label": "Je l’écoute, puis j’avance avec elle",
+          "scores": {
+            "rey": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "question": "Un secret sur ton passé change ta vision de toi-même. Ta réaction ?",
+      "answers": [
+        {
+          "label": "Je cherche à comprendre ce que cela signifie pour mon avenir",
+          "scores": {
+            "luke": 3,
+            "rey": 1
+          }
+        },
+        {
+          "label": "Je reste concentré(e) sur ce que je dois faire maintenant",
+          "scores": {
+            "leia": 3
+          }
+        },
+        {
+          "label": "Je fais comme si ça ne m’atteignait pas vraiment",
+          "scores": {
+            "han": 3
+          }
+        },
+        {
+          "label": "J’accepte que la vérité demande du temps",
+          "scores": {
+            "yoda": 3
+          }
+        },
+        {
+          "label": "Je ressens le besoin de reprendre le contrôle de mon histoire",
+          "scores": {
+            "vador": 3
+          }
+        },
+        {
+          "label": "Je veux découvrir qui je suis vraiment par moi-même",
+          "scores": {
+            "rey": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "question": "Ton plus grand défaut dans une galaxie en guerre serait sûrement…",
+      "answers": [
+        {
+          "label": "Vouloir sauver tout le monde",
+          "scores": {
+            "luke": 3
+          }
+        },
+        {
+          "label": "Porter trop de responsabilités",
+          "scores": {
+            "leia": 3
+          }
+        },
+        {
+          "label": "Faire semblant de ne pas être touché(e)",
+          "scores": {
+            "han": 3
+          }
+        },
+        {
+          "label": "Trop attendre le bon moment",
+          "scores": {
+            "yoda": 3
+          }
+        },
+        {
+          "label": "Laisser mes peurs influencer mes choix",
+          "scores": {
+            "vador": 3
+          }
+        },
+        {
+          "label": "Douter de ma place ou de ma légitimité",
+          "scores": {
+            "rey": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "question": "Si tu possédais la Force, tu l’utiliserais surtout pour…",
+      "answers": [
+        {
+          "label": "Protéger ceux qui en ont besoin",
+          "scores": {
+            "luke": 3
+          }
+        },
+        {
+          "label": "Défendre une cause plus grande que moi",
+          "scores": {
+            "leia": 3
+          }
+        },
+        {
+          "label": "Me sortir des situations impossibles",
+          "scores": {
+            "han": 3
+          }
+        },
+        {
+          "label": "Comprendre l’équilibre des choses",
+          "scores": {
+            "yoda": 3
+          }
+        },
+        {
+          "label": "Ne plus jamais me sentir vulnérable",
+          "scores": {
+            "vador": 3
+          }
+        },
+        {
+          "label": "Trouver ma voie et révéler mon potentiel",
+          "scores": {
+            "rey": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "question": "À la fin de ton aventure galactique, ce que tu aurais le plus appris serait…",
+      "answers": [
+        {
+          "label": "Que l’espoir peut survivre même dans l’obscurité",
+          "scores": {
+            "luke": 3
+          }
+        },
+        {
+          "label": "Qu’un vrai leader continue même quand c’est difficile",
+          "scores": {
+            "leia": 3
+          }
+        },
+        {
+          "label": "Que l’on peut changer sans perdre sa liberté",
+          "scores": {
+            "han": 3
+          }
+        },
+        {
+          "label": "Que la sagesse demande patience et humilité",
+          "scores": {
+            "yoda": 3
+          }
+        },
+        {
+          "label": "Que la puissance sans paix intérieure peut détruire",
+          "scores": {
+            "vador": 3
+          }
+        },
+        {
+          "label": "Que ton origine ne décide pas de ton destin",
+          "scores": {
+            "rey": 3
+          }
+        }
+      ]
+    }
+  ]
+}

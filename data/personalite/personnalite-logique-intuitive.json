@@ -1,0 +1,260 @@
+{
+  "slug": "test-cerveau-es-tu-logique-ou-intuitif",
+  "title": "Test personnalité - Es-tu logique ou intuitif(ve) ?",
+  "description": "Ton cerveau suit-il la logique ou ton intuition ? Fais le test pour le découvrir.",
+  "descriptionSeo": "Fais ce test cerveau pour découvrir si tu es plutôt logique ou intuitif(ve). À travers des questions basées sur des situations du quotidien, analyse ta manière de réfléchir, de prendre des décisions et de réagir face aux problèmes. Ce test de personnalité simple et révélateur t’aide à mieux comprendre ton fonctionnement mental et à identifier si tu te fies davantage à la raison, à ton instinct ou à un équilibre entre les deux.",
+  "category": {
+    "name": "Psychologie",
+    "slug": "psychologie"
+  },
+  "createdAt": "2026-04-20",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776775489/cover_lslvyd.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776775489/cover_lslvyd.jpg",
+    "alt": "Test cerveau logique ou intuitif"
+  },
+  "profiles": [
+    {
+      "key": "logique",
+      "title": "Le Logique",
+      "description": "Ton fonctionnement est principalement logique. Tu prends tes décisions en t’appuyant sur des faits, des analyses et des raisonnements structurés. Tu aimes comprendre, comparer et vérifier avant d’agir. Tu privilégies la cohérence, la clarté et la précision dans tes choix. Face à une situation complexe, tu prends du recul et tu cherches à construire une réponse rationnelle plutôt que de te fier à une impression. Cette approche te permet d’éviter de nombreuses erreurs et de garder une certaine stabilité dans tes décisions. Tu es souvent perçu comme quelqu’un de réfléchi, fiable et méthodique. Cependant, tu peux parfois trop analyser ou hésiter à agir rapidement. Ton défi est de faire confiance à ton ressenti quand c’est nécessaire. Ta force réside dans ta capacité à structurer, comprendre et décider avec lucidité.",
+      "image":"https://res.cloudinary.com/dsv7oziap/image/upload/v1776775660/logical_plqmmc.jpg"
+    },
+    {
+      "key": "intuitif",
+      "title": "L'Intuitif",
+      "description": "Ton fonctionnement est principalement intuitif. Tu te fies beaucoup à ton ressenti, à tes impressions et à ta perception globale des situations. Tu captes rapidement les ambiances, les émotions et les signaux subtils sans forcément passer par une analyse détaillée. Tu prends souvent des décisions rapides, guidé par une sensation intérieure qui te semble juste. Cette intuition te permet d’être spontané, créatif et souvent très pertinent dans des contextes humains ou imprévisibles. Tu es à l’aise avec l’incertitude et tu sais t’adapter facilement. Cependant, tu peux parfois manquer de structure ou prendre des décisions trop rapides sans vérifier certains éléments. Ton défi est d’équilibrer intuition et réflexion. Ta force réside dans ta capacité à ressentir, anticiper et saisir les opportunités rapidement.",
+      "image":"https://res.cloudinary.com/dsv7oziap/image/upload/v1776775736/intuition_bhqspj.jpg"
+    },
+    {
+      "key": "equilibre",
+      "title": "L'Équilibré",
+      "description": "Ton fonctionnement est un équilibre entre logique et intuition. Tu es capable d’analyser une situation de manière rationnelle tout en restant à l’écoute de ton ressenti. Tu sais adapter ton approche selon le contexte : parfois tu réfléchis en profondeur, parfois tu fais confiance à ton instinct. Cette flexibilité est une vraie force, car elle te permet d’être à la fois réfléchi et réactif. Tu peux comprendre des situations complexes tout en gardant une vision globale et humaine. Tu n’es pas enfermé dans un seul mode de pensée, ce qui te rend adaptable et pertinent dans de nombreux contextes. Cependant, tu peux parfois hésiter entre analyser et agir. Ton défi est de faire confiance à ton premier élan. Ta force réside dans ton équilibre et ta capacité à combiner raison et intuition.",
+      "image":"https://res.cloudinary.com/dsv7oziap/image/upload/v1776775562/balanced_bukayi.jpg"
+    }
+  ],
+  "questions": [
+    {
+      "id": "1",
+      "question": "Quand tu dois prendre une décision importante…",
+      "answers": [
+        {
+          "label": "Je pèse le pour et le contre",
+          "scores": { "logique": 3 }
+        },
+        {
+          "label": "Je me fie à mon instinct",
+          "scores": { "intuitif": 3 }
+        },
+        {
+          "label": "Je mélange réflexion et ressenti",
+          "scores": { "equilibre": 3 }
+        },
+        {
+          "label": "Je demande des avis avant de décider",
+          "scores": { "logique": 2, "equilibre": 1 }
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "question": "Face à un problème complexe…",
+      "answers": [
+        {
+          "label": "Je l’analyse étape par étape",
+          "scores": { "logique": 3 }
+        },
+        {
+          "label": "Je trouve une solution instinctive",
+          "scores": { "intuitif": 3 }
+        },
+        {
+          "label": "Je combine réflexion et intuition",
+          "scores": { "equilibre": 3 }
+        },
+        {
+          "label": "Je teste et j’ajuste au fur et à mesure",
+          "scores": { "intuitif": 2, "equilibre": 1 }
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "question": "Dans ton quotidien…",
+      "answers": [
+        {
+          "label": "J’aime que tout soit organisé",
+          "scores": { "logique": 3 }
+        },
+        {
+          "label": "Je préfère improviser",
+          "scores": { "intuitif": 3 }
+        },
+        {
+          "label": "Je m’adapte selon la situation",
+          "scores": { "equilibre": 3 }
+        },
+        {
+          "label": "J’alterne entre structure et liberté",
+          "scores": { "equilibre": 2, "logique": 1 }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "question": "Quand quelque chose te semble étrange…",
+      "answers": [
+        {
+          "label": "Je cherche une explication rationnelle",
+          "scores": { "logique": 3 }
+        },
+        {
+          "label": "Je fais confiance à mon ressenti",
+          "scores": { "intuitif": 3 }
+        },
+        {
+          "label": "Je vérifie puis j’écoute mon instinct",
+          "scores": { "equilibre": 3 }
+        },
+        {
+          "label": "Je laisse passer sans trop analyser",
+          "scores": { "intuitif": 2 }
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "question": "Dans une discussion…",
+      "answers": [
+        {
+          "label": "Je m’appuie sur des faits",
+          "scores": { "logique": 3 }
+        },
+        {
+          "label": "Je parle selon mon ressenti",
+          "scores": { "intuitif": 3 }
+        },
+        {
+          "label": "Je combine arguments et intuition",
+          "scores": { "equilibre": 3 }
+        },
+        {
+          "label": "Je m’adapte à la personne en face",
+          "scores": { "intuitif": 2, "equilibre": 1 }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "question": "Ce qui te rassure le plus…",
+      "answers": [
+        {
+          "label": "Comprendre parfaitement une situation",
+          "scores": { "logique": 3 }
+        },
+        {
+          "label": "Suivre ton intuition",
+          "scores": { "intuitif": 3 }
+        },
+        {
+          "label": "Avoir les deux",
+          "scores": { "equilibre": 3 }
+        },
+        {
+          "label": "Sentir que c’est la bonne décision",
+          "scores": { "intuitif": 2 }
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "question": "Quand tu fais une erreur…",
+      "answers": [
+        {
+          "label": "Je l’analyse pour comprendre",
+          "scores": { "logique": 3 }
+        },
+        {
+          "label": "Je passe à autre chose",
+          "scores": { "intuitif": 3 }
+        },
+        {
+          "label": "Je tire une leçon globale",
+          "scores": { "equilibre": 3 }
+        },
+        {
+          "label": "Je ressens d’abord puis je réfléchis",
+          "scores": { "intuitif": 2, "equilibre": 1 }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "question": "Dans un choix rapide…",
+      "answers": [
+        {
+          "label": "Je réfléchis quand même un minimum",
+          "scores": { "logique": 3 }
+        },
+        {
+          "label": "Je décide instinctivement",
+          "scores": { "intuitif": 3 }
+        },
+        {
+          "label": "Je fais confiance à mon expérience",
+          "scores": { "equilibre": 3 }
+        },
+        {
+          "label": "Je choisis ce qui me semble juste",
+          "scores": { "intuitif": 2 }
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "question": "Ton point fort principal…",
+      "answers": [
+        {
+          "label": "Ma logique",
+          "scores": { "logique": 3 }
+        },
+        {
+          "label": "Mon intuition",
+          "scores": { "intuitif": 3 }
+        },
+        {
+          "label": "Mon équilibre",
+          "scores": { "equilibre": 3 }
+        },
+        {
+          "label": "Ma capacité à m’adapter",
+          "scores": { "equilibre": 2 }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "question": "Ce qui te correspond le plus…",
+      "answers": [
+        {
+          "label": "Je réfléchis avant d’agir",
+          "scores": { "logique": 3 }
+        },
+        {
+          "label": "Je ressens avant de décider",
+          "scores": { "intuitif": 3 }
+        },
+        {
+          "label": "Je combine les deux",
+          "scores": { "equilibre": 3 }
+        },
+        {
+          "label": "Je m’adapte selon la situation",
+          "scores": { "equilibre": 2 }
+        }
+      ]
+    }
+  ]
+}

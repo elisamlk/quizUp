@@ -1,0 +1,130 @@
+{
+  "slug": "test-fatigue-ou-demotivation",
+  "title": "Test bien-être - Es-tu vraiment fatigué(e) ou juste démotivé(e) ?",
+  "description": "Ta baisse d’énergie vient-elle de la fatigue ou d’un manque de motivation ?",
+  "descriptionSeo": "Manque d’énergie, procrastination, fatigue mentale… ce test t’aide à comprendre si tu es réellement épuisé(e) ou simplement démotivé(e). À travers des situations concrètes, découvre ce qui influence vraiment ton énergie au quotidien.",
+  "category": {
+    "name": "Bien-être",
+    "slug": "bien-etre"
+  },
+  "createdAt": "2026-04-27",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777381614/cover_gdxqqz.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777381614/cover_gdxqqz.jpg",
+    "alt": "Test fatigue ou motivation"
+  },
+  "profiles": [
+    {
+      "key": "fatigue",
+      "title": "Vraiment fatigué(e)",
+      "description": "Ton manque d’énergie semble réel. Tu ressens une fatigue physique ou mentale qui ne disparaît pas simplement avec un peu de motivation. Tu peux te sentir vidé(e), lent(e) ou avoir du mal à te concentrer. Même les choses que tu aimes demandent un effort. Ton corps ou ton esprit te demandent du repos. Il est important de ralentir, de récupérer et de prendre soin de toi sans culpabiliser.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777381618/tired_v2xbko.jpg"
+    },
+    {
+      "key": "demotivation",
+      "title": "Plutôt démotivé(e)",
+      "description": "Ton énergie est là, mais elle ne s’active pas facilement. Tu peux procrastiner, repousser ou manquer d’envie, surtout face à certaines tâches. Pourtant, quand quelque chose te motive vraiment, tu retrouves de l’énergie rapidement. Ce n’est pas une fatigue profonde, mais plutôt un manque d’engagement ou de stimulation. Tu as surtout besoin de retrouver du sens, du plaisir ou un objectif clair.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777381613/demotivation_goipxv.jpg"
+    },
+    {
+      "key": "mixte",
+      "title": "Entre fatigue et démotivation",
+      "description": "Tu es dans un entre-deux. Tu ressens à la fois de la fatigue et un manque de motivation. Parfois tu manques d’énergie réelle, parfois c’est surtout mental. Tu peux osciller entre des moments où tu n’as pas la force et d’autres où tu pourrais agir mais tu n’en as pas envie. Ton état varie selon les périodes. Il te faut à la fois du repos et un regain de motivation.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777381721/mixte_adqs4c.jpg"
+    }
+  ],
+"questions": [
+  {
+    "id": "1",
+    "question": "Ton réveil sonne, tu dois te lever…",
+    "answers": [
+      { "label": "Mon corps est lourd, j’ai du mal physiquement", "scores": { "fatigue": 3 } },
+      { "label": "Je pourrais me lever mais j’ai zéro envie", "scores": { "demotivation": 3 } },
+      { "label": "Ça dépend vraiment des jours", "scores": { "mixte": 3 } }
+    ]
+  },
+  {
+    "id": "2",
+    "question": "Tu dois faire une tâche simple (mail, rangement)…",
+    "answers": [
+      { "label": "Même ça me demande un effort énorme", "scores": { "fatigue": 3 } },
+      { "label": "Je procrastine sans raison", "scores": { "demotivation": 3 } },
+      { "label": "Parfois facile, parfois non", "scores": { "mixte": 3 } }
+    ]
+  },
+  {
+    "id": "3",
+    "question": "Quelqu’un te propose une activité que tu aimes…",
+    "answers": [
+      { "label": "Je refuse car je suis trop fatigué(e)", "scores": { "fatigue": 3 } },
+      { "label": "Je dis oui et je retrouve de l’énergie", "scores": { "demotivation": 3 } },
+      { "label": "Ça dépend de mon état du moment", "scores": { "mixte": 3 } }
+    ]
+  },
+  {
+    "id": "4",
+    "question": "Tu scrolles sur ton téléphone sans t’arrêter…",
+    "answers": [
+      { "label": "Parce que je n’ai pas l’énergie de faire autre chose", "scores": { "fatigue": 3 } },
+      { "label": "Parce que je fuis ce que je dois faire", "scores": { "demotivation": 3 } },
+      { "label": "Un peu des deux", "scores": { "mixte": 3 } }
+    ]
+  },
+  {
+    "id": "5",
+    "question": "Après une bonne nuit de sommeil…",
+    "answers": [
+      { "label": "Je suis encore fatigué(e)", "scores": { "fatigue": 3 } },
+      { "label": "Je me sens mieux mais pas motivé(e)", "scores": { "demotivation": 3 } },
+      { "label": "Ça change selon les jours", "scores": { "mixte": 3 } }
+    ]
+  },
+  {
+    "id": "6",
+    "question": "Tu dois te concentrer 30 minutes sur quelque chose…",
+    "answers": [
+      { "label": "Je décroche à cause de la fatigue", "scores": { "fatigue": 3 } },
+      { "label": "Je n’arrive pas à m’y mettre", "scores": { "demotivation": 3 } },
+      { "label": "Ça dépend du moment", "scores": { "mixte": 3 } }
+    ]
+  },
+  {
+    "id": "7",
+    "question": "Tu annules un plan au dernier moment…",
+    "answers": [
+      { "label": "Parce que je suis épuisé(e)", "scores": { "fatigue": 3 } },
+      { "label": "Parce que je n’ai plus envie", "scores": { "demotivation": 3 } },
+      { "label": "Ça dépend du contexte", "scores": { "mixte": 3 } }
+    ]
+  },
+  {
+    "id": "8",
+    "question": "Quand tu penses à ta journée…",
+    "answers": [
+      { "label": "Je me sens vidé(e) d’avance", "scores": { "fatigue": 3 } },
+      { "label": "Rien ne me donne envie", "scores": { "demotivation": 3 } },
+      { "label": "C’est variable", "scores": { "mixte": 3 } }
+    ]
+  },
+  {
+    "id": "9",
+    "question": "Tu te forces à faire quelque chose…",
+    "answers": [
+      { "label": "Je suis vite épuisé(e)", "scores": { "fatigue": 3 } },
+      { "label": "Une fois lancé(e), ça va", "scores": { "demotivation": 3 } },
+      { "label": "Ça dépend des moments", "scores": { "mixte": 3 } }
+    ]
+  },
+  {
+    "id": "10",
+    "question": "Ton ressenti le plus fréquent en ce moment…",
+    "answers": [
+      { "label": "Manque d’énergie physique", "scores": { "fatigue": 3 } },
+      { "label": "Manque d’envie", "scores": { "demotivation": 3 } },
+      { "label": "Un mélange des deux", "scores": { "mixte": 3 } }
+    ]
+  }
+]
+}

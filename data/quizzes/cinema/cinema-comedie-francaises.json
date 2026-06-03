@@ -1,0 +1,200 @@
+{
+  "slug": "quiz-cinema-comedies-francaises-test-ultime-classiques",
+  "title": "Quiz Cinéma - Comédies françaises - Test ultime des classiques",
+  "description": "Des Bronzés à Intouchables, teste ta connaissance des plus grandes comédies françaises.",
+  "descriptionSeo": "Les comédies françaises ont marqué des générations avec leurs répliques cultes, leurs personnages inoubliables et leurs situations hilarantes. Ce quiz cinéma vous propose 20 questions pour tester votre connaissance des grands classiques du genre, des films des années 70 aux succès plus récents. Entre humour populaire, satire sociale et duos légendaires, chaque question vous replonge dans l’univers unique du cinéma comique français. Saurez-vous reconnaître ces films incontournables et prouver que vous êtes un véritable expert des comédies françaises ?",
+  "category": {
+    "name": "Cinéma",
+    "slug": "cinema"
+  },
+  "createdAt": "2026-04-07",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1775575584/cover_jf3c50.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1775575584/cover_jf3c50.jpg",
+    "alt": "Quiz cinéma comédies françaises classiques"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "question": "« On ne sait jamais, sur un malentendu ça peut marcher » vient de quel film ?",
+      "image": null,
+      "imagePrompt": "ski comedy french cult scene",
+      "answers": ["Les Visiteurs", "Le Dîner de cons", "Les Bronzés font du ski", "Camping"],
+      "correctIndex": 2,
+      "explanation": "Cette réplique est devenue culte car elle incarne parfaitement l’humour absurde et l’autodérision des Bronzés. Le film repose sur des personnages profondément imparfaits et des situations embarrassantes, ce qui a contribué à en faire un classique intergénérationnel souvent cité dans la vie quotidienne."
+    },
+    {
+      "id": "2",
+      "question": "Quel duo d’acteurs est au cœur d’Intouchables ?",
+      "image": null,
+      "imagePrompt": "wheelchair friendship paris",
+      "answers": ["Omar Sy et François Cluzet", "Kad Merad et Dany Boon", "Jean Reno et Christian Clavier", "Gad Elmaleh et Dubosc"],
+      "correctIndex": 0,
+      "explanation": "Le succès d’Intouchables repose sur l’opposition entre deux mondes : un aristocrate paralysé et un jeune homme issu des quartiers populaires. Le duo fonctionne car il dépasse les clichés pour créer une relation humaine authentique, mêlant humour spontané et émotion profonde."
+    },
+    {
+      "id": "3",
+      "question": "Dans quel film trouve-t-on François Pignon ?",
+      "image": null,
+      "imagePrompt": "awkward dinner comedy",
+      "answers": ["La Cité de la peur", "Le Dîner de cons", "Didier", "Les Visiteurs"],
+      "correctIndex": 1,
+      "explanation": "François Pignon est un personnage emblématique du cinéma de Francis Veber. Dans Le Dîner de cons, il incarne la naïveté apparente qui finit par révéler l’absurdité et la cruauté des autres personnages, inversant complètement le rapport de force comique."
+    },
+    {
+      "id": "4",
+      "question": "Quel film met en scène des voyageurs du Moyen Âge dans le présent ?",
+      "image": null,
+      "imagePrompt": "medieval knight modern comedy",
+      "answers": ["Ridicule", "Astérix", "Les Visiteurs", "Kaamelott"],
+      "correctIndex": 2,
+      "explanation": "Les Visiteurs utilise le décalage temporel comme moteur comique principal. Le langage, les comportements et les valeurs médiévales confrontés au monde moderne créent des situations absurdes qui ont marqué durablement la culture populaire."
+    },
+    {
+      "id": "5",
+      "question": "Quel film se déroule dans un club de vacances ?",
+      "image": null,
+      "imagePrompt": "club med beach comedy",
+      "answers": ["Les Tuche", "Camping", "Les Bronzés", "Bienvenue chez les Ch’tis"],
+      "correctIndex": 2,
+      "explanation": "Les Bronzés est une satire des vacances organisées et des interactions sociales superficielles. Chaque personnage représente un archétype, ce qui rend le film universel et facilement identifiable, même des décennies après sa sortie."
+    },
+    {
+      "id": "6",
+      "question": "Quel film met en scène un postier dans le Nord ?",
+      "image": null,
+      "imagePrompt": "north france postman accent",
+      "answers": ["Taxi", "Bienvenue chez les Ch’tis", "La Ch’tite famille", "Rien à déclarer"],
+      "correctIndex": 1,
+      "explanation": "Bienvenue chez les Ch’tis joue sur les préjugés régionaux pour mieux les déconstruire. L’humour repose sur le choc culturel initial, suivi d’une transformation du regard du personnage principal, ce qui donne au film une dimension humaine en plus de son aspect comique."
+    },
+    {
+      "id": "7",
+      "question": "Dans quel film suit-on la famille Tuche ?",
+      "image": null,
+      "imagePrompt": "rich poor family comedy",
+      "answers": ["Les Tuche", "Camping", "Case départ", "Qu’est-ce qu’on a fait au Bon Dieu"],
+      "correctIndex": 0,
+      "explanation": "Les Tuche repose sur un principe comique simple mais efficace : placer une famille populaire dans un environnement ultra-riche. L’humour vient du contraste entre leurs habitudes et les codes du luxe, créant un décalage constant."
+    },
+    {
+      "id": "8",
+      "question": "Dans quel film un chien devient un humain ?",
+      "image": null,
+      "imagePrompt": "man behaves like dog",
+      "answers": ["Didier", "Le Placard", "OSS 117", "RRRrrrr!!!"],
+      "correctIndex": 0,
+      "explanation": "Didier exploite un concept absurde mais cohérent : un chien dans un corps humain. L’humour repose sur les comportements animaux transposés dans un contexte humain, ce qui crée des situations inattendues et mémorables."
+    },
+    {
+      "id": "9",
+      "question": "Quel film parodie les films d’espionnage ?",
+      "image": null,
+      "imagePrompt": "spy parody french",
+      "answers": ["OSS 117", "Taxi", "Le Dîner de cons", "Les Visiteurs"],
+      "correctIndex": 0,
+      "explanation": "OSS 117 ne se contente pas de parodier James Bond : il critique aussi les mentalités d’une autre époque. Le personnage est volontairement rétrograde, ce qui crée un second niveau de lecture comique."
+    },
+    {
+      "id": "10",
+      "question": "Quel film met en scène un chauffeur de taxi surdoué ?",
+      "image": null,
+      "imagePrompt": "fast taxi marseille",
+      "answers": ["Taxi", "Banlieue 13", "Wasabi", "Le Transporteur"],
+      "correctIndex": 0,
+      "explanation": "Taxi a marqué les années 90 en mélangeant comédie et action. Le film se distingue par son rythme rapide, ses poursuites spectaculaires et un humour très accessible."
+    },
+    {
+      "id": "11",
+      "question": "Quel film traite des différences culturelles dans une famille ?",
+      "image": null,
+      "imagePrompt": "family dinner clash",
+      "answers": ["Camping", "Les Tuche", "Qu’est-ce qu’on a fait au Bon Dieu ?", "Intouchables"],
+      "correctIndex": 2,
+      "explanation": "Le film repose sur la confrontation de cultures différentes au sein d’une même famille. L’intérêt comique vient du choc des traditions, mais aussi de l’évolution progressive des personnages vers plus de tolérance."
+    },
+    {
+      "id": "12",
+      "question": "Quel film se déroule dans un camping du sud ?",
+      "image": null,
+      "imagePrompt": "camping south france",
+      "answers": ["Les Bronzés", "Camping", "Les Tuche", "Rien à déclarer"],
+      "correctIndex": 1,
+      "explanation": "Camping fonctionne grâce à ses personnages récurrents et très identifiables. Le film capture une ambiance typiquement française des vacances populaires, ce qui explique son succès durable."
+    },
+    {
+      "id": "13",
+      "question": "Quel film met en scène des hommes préhistoriques absurdes ?",
+      "image": null,
+      "imagePrompt": "prehistoric comedy absurd",
+      "answers": ["Astérix", "RRRrrrr!!!", "Didier", "La Cité de la peur"],
+      "correctIndex": 1,
+      "explanation": "RRRrrrr!!! pousse l’absurde à l’extrême avec des dialogues volontairement ridicules et des situations incohérentes. C’est précisément ce non-sens qui fait sa force comique."
+    },
+    {
+      "id": "14",
+      "question": "Quel film parodie le monde du cinéma ?",
+      "image": null,
+      "imagePrompt": "film set parody chaos",
+      "answers": ["OSS 117", "Le Placard", "Didier", "La Cité de la peur"],
+      "correctIndex": 3,
+      "explanation": "La Cité de la peur est une satire du milieu du cinéma et du festival de Cannes. Son humour repose sur les références, les jeux de mots et les situations absurdes devenues cultes."
+    },
+    {
+      "id": "15",
+      "question": "Quel film met en scène un mensonge pour éviter un licenciement ?",
+      "image": null,
+      "imagePrompt": "office comedy disguise",
+      "answers": ["Le Placard", "OSS 117", "Didier", "Le Dîner de cons"],
+      "correctIndex": 0,
+      "explanation": "Le Placard utilise un mensonge comme point de départ pour critiquer les préjugés en entreprise. Le film montre comment une situation absurde peut révéler les comportements opportunistes."
+    },
+    {
+      "id": "16",
+      "question": "Quel film met en scène des douaniers français et belges ?",
+      "image": null,
+      "imagePrompt": "border police comedy",
+      "answers": ["Taxi", "Camping", "Les Tuche", "Rien à déclarer"],
+      "correctIndex": 3,
+      "explanation": "Rien à déclarer joue sur les tensions historiques et culturelles entre deux pays. L’humour vient du contraste entre rivalité et collaboration forcée."
+    },
+    {
+      "id": "17",
+      "question": "Quel film se déroule à la montagne avec des amis ?",
+      "image": null,
+      "imagePrompt": "ski friends comedy",
+      "answers": ["Les Bronzés font du ski", "Camping", "Taxi", "Les Tuche"],
+      "correctIndex": 0,
+      "explanation": "Suite des Bronzés, ce film est encore plus culte grâce à ses situations absurdes et ses dialogues devenus incontournables dans la culture française."
+    },
+    {
+      "id": "18",
+      "question": "Quel film parle de préjugés dans une famille française ?",
+      "image": null,
+      "imagePrompt": "family prejudice comedy",
+      "answers": ["Les Tuche", "Qu’est-ce qu’on a fait au Bon Dieu ?", "Camping", "Didier"],
+      "correctIndex": 1,
+      "explanation": "Le film utilise les stéréotypes comme point de départ pour mieux les déconstruire. Il met en lumière les tensions sociales tout en restant accessible et comique."
+    },
+    {
+      "id": "19",
+      "question": "Quel film raconte l’amitié entre un homme riche handicapé et son aide ?",
+      "image": null,
+      "imagePrompt": "wheelchair friendship",
+      "answers": ["Le Placard", "Taxi", "Intouchables", "OSS 117"],
+      "correctIndex": 2,
+      "explanation": "Intouchables fonctionne grâce à un équilibre rare entre humour et émotion. Le film montre que la différence peut devenir une force dans une relation humaine."
+    },
+    {
+      "id": "20",
+      "question": "Quel film met en scène un agent secret caricatural ?",
+      "image": null,
+      "imagePrompt": "spy parody 50s",
+      "answers": ["Taxi", "Didier", "Le Dîner de cons", "OSS 117"],
+      "correctIndex": 3,
+      "explanation": "OSS 117 détourne les codes du film d’espionnage en caricaturant un héros dépassé. L’humour repose autant sur l’action que sur le second degré et la satire."
+    }
+  ]
+}

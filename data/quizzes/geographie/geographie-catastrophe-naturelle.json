@@ -1,0 +1,200 @@
+{
+  "slug": "quiz-geographie-catastrophes-naturelles",
+  "title": "Quiz Géographie Catastrophes Naturelles - 20 questions pour tester tes connaissances",
+  "description": "Teste tes connaissances sur les catastrophes naturelles les plus marquantes du monde avec 20 questions.",
+  "descriptionSeo": "Les catastrophes naturelles marquent l’histoire et façonnent les territoires à travers le monde. Ce quiz de géographie vous propose 20 questions pour tester vos connaissances sur les séismes, volcans, tsunamis, ouragans et autres phénomènes extrêmes. Découvrez leurs causes, leurs conséquences et les régions les plus exposées. Chaque question est accompagnée d’une explication détaillée pour mieux comprendre ces événements majeurs et enrichir votre culture générale.",
+  "category": {
+    "name": "Géographie",
+    "slug": "geographie"
+  },
+  "createdAt": "2026-03-30",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1774522746/cover_hzyxql.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1774522746/cover_hzyxql.jpg",
+    "alt": "Quiz catastrophes naturelles"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "question": "Quel phénomène est à l’origine des tsunamis ?",
+      "image": null,
+      "imagePrompt": "tsunami wave",
+      "answers": ["Éruptions volcaniques", "Séismes sous-marins", "Tempêtes", "Glissements de terrain"],
+      "correctIndex": 1,
+      "explanation": "La majorité des tsunamis sont causés par des séismes sous-marins qui déplacent brutalement une grande masse d’eau. Certains peuvent traverser des océans entiers à plus de 700 km/h."
+    },
+    {
+      "id": "2",
+      "question": "Quelle région est la plus exposée aux séismes ?",
+      "image": null,
+      "imagePrompt": "ring of fire map",
+      "answers": ["Europe de l’Ouest", "Afrique centrale", "Ceinture de feu du Pacifique", "Moyen-Orient"],
+      "correctIndex": 2,
+      "explanation": "La ceinture de feu du Pacifique concentre environ 75 % des volcans actifs et la majorité des séismes, en raison des nombreuses plaques tectoniques qui s’y rencontrent."
+    },
+    {
+      "id": "3",
+      "question": "Quel pays a été frappé par un tsunami majeur en 2011 ?",
+      "image": null,
+      "imagePrompt": "Japan tsunami 2011",
+      "answers": ["Indonésie", "Japon", "Chili", "Philippines"],
+      "correctIndex": 1,
+      "explanation": "Le tsunami de 2011 au Japon, déclenché par un séisme de magnitude 9, a causé plus de 18 000 morts et provoqué la catastrophe nucléaire de Fukushima."
+    },
+    {
+      "id": "4",
+      "question": "Quel type de catastrophe est un ouragan ?",
+      "image": null,
+      "imagePrompt": "hurricane satellite",
+      "answers": ["Séisme", "Volcan", "Phénomène climatique", "Glissement de terrain"],
+      "correctIndex": 2,
+      "explanation": "Un ouragan est un cyclone tropical caractérisé par des vents violents et de fortes pluies. Il se forme au-dessus des eaux chaudes des océans."
+    },
+    {
+      "id": "5",
+      "question": "Quel volcan a détruit Pompéi en 79 apr. J.-C. ?",
+      "image": null,
+      "imagePrompt": "Vesuvius eruption",
+      "answers": ["Etna", "Vésuve", "Stromboli", "Krakatoa"],
+      "correctIndex": 1,
+      "explanation": "L’éruption du Vésuve a enseveli Pompéi sous des cendres volcaniques, conservant la ville presque intacte pendant des siècles."
+    },
+    {
+      "id": "6",
+      "question": "Quelle catastrophe est liée à un mouvement de terrain rapide ?",
+      "image": null,
+      "imagePrompt": "landslide mountain",
+      "answers": ["Tsunami", "Ouragan", "Glissement de terrain", "Séisme"],
+      "correctIndex": 2,
+      "explanation": "Les glissements de terrain surviennent souvent après de fortes pluies ou des séismes, et peuvent ensevelir des villages entiers en quelques secondes."
+    },
+    {
+      "id": "7",
+      "question": "Quel pays est particulièrement touché par les cyclones dans l’océan Indien ?",
+      "image": null,
+      "imagePrompt": "Bangladesh cyclone",
+      "answers": ["Égypte", "Bangladesh", "Turquie", "Iran"],
+      "correctIndex": 1,
+      "explanation": "Le Bangladesh est très vulnérable aux cyclones en raison de sa faible altitude et de sa forte densité de population."
+    },
+    {
+      "id": "8",
+      "question": "Quelle catastrophe naturelle est mesurée sur l’échelle de Richter ?",
+      "image": null,
+      "imagePrompt": "seismograph",
+      "answers": ["Ouragan", "Séisme", "Tsunami", "Volcan"],
+      "correctIndex": 1,
+      "explanation": "L’échelle de Richter mesure la magnitude des séismes. Une augmentation d’un point correspond à une énergie libérée environ 30 fois supérieure."
+    },
+    {
+      "id": "9",
+      "question": "Quel pays est le plus touché par les tremblements de terre en Europe ?",
+      "image": null,
+      "imagePrompt": "Italy earthquake",
+      "answers": ["France", "Allemagne", "Italie", "Suède"],
+      "correctIndex": 2,
+      "explanation": "L’Italie est située à la convergence de plaques tectoniques, ce qui explique sa forte activité sismique."
+    },
+    {
+      "id": "10",
+      "question": "Quel phénomène correspond à une longue période sans pluie ?",
+      "image": null,
+      "imagePrompt": "drought cracked earth",
+      "answers": ["Inondation", "Séisme", "Tempête", "Sécheresse"],
+      "correctIndex": 3,
+      "explanation": "La sécheresse peut avoir des conséquences majeures sur l’agriculture, l’eau potable et les écosystèmes."
+    },
+    {
+      "id": "11",
+      "question": "Quel volcan indonésien a provoqué une explosion majeure en 1883 ?",
+      "image": null,
+      "imagePrompt": "Krakatoa eruption",
+      "answers": ["Merapi", "Krakatoa", "Tambora", "Agung"],
+      "correctIndex": 1,
+      "explanation": "L’éruption du Krakatoa a été entendue à des milliers de kilomètres et a provoqué des tsunamis dévastateurs."
+    },
+    {
+      "id": "12",
+      "question": "Quel phénomène est une montée brutale des eaux ?",
+      "image": null,
+      "imagePrompt": "flood city",
+      "answers": ["Séisme", "Sécheresse", "Inondation", "Volcan"],
+      "correctIndex": 2,
+      "explanation": "Les inondations peuvent être causées par des pluies intenses, des crues de fleuves ou des tempêtes marines."
+    },
+    {
+      "id": "13",
+      "question": "Quel continent est le moins touché par les catastrophes naturelles majeures ?",
+      "image": null,
+      "imagePrompt": "Antarctica landscape",
+      "answers": ["Europe", "Afrique", "Antarctique", "Asie"],
+      "correctIndex": 2,
+      "explanation": "L’Antarctique est peu touché en raison de l’absence de population et de phénomènes climatiques extrêmes de type cyclones."
+    },
+    {
+      "id": "14",
+      "question": "Quel phénomène est lié à une accumulation de neige ?",
+      "image": null,
+      "imagePrompt": "avalanche mountain",
+      "answers": ["Avalanche", "Séisme", "Ouragan", "Tsunami"],
+      "correctIndex": 0,
+      "explanation": "Les avalanches peuvent atteindre des vitesses supérieures à 200 km/h et sont très destructrices en montagne."
+    },
+    {
+      "id": "15",
+      "question": "Quel pays a subi le séisme le plus puissant jamais enregistré ?",
+      "image": null,
+      "imagePrompt": "Chile earthquake 1960",
+      "answers": ["Japon", "Indonésie", "Chili", "États-Unis"],
+      "correctIndex": 2,
+      "explanation": "Le séisme de Valdivia au Chili en 1960 a atteint une magnitude de 9,5, le plus puissant jamais mesuré."
+    },
+    {
+      "id": "16",
+      "question": "Quel phénomène est lié au vent violent en mer ?",
+      "image": null,
+      "imagePrompt": "cyclone satellite",
+      "answers": ["Cyclone", "Séisme", "Volcan", "Avalanche"],
+      "correctIndex": 0,
+      "explanation": "Les cyclones se forment au-dessus des eaux chaudes et peuvent provoquer des dégâts considérables sur les côtes."
+    },
+    {
+      "id": "17",
+      "question": "Quelle catastrophe peut être déclenchée par la fonte du permafrost ?",
+      "image": null,
+      "imagePrompt": "permafrost collapse",
+      "answers": ["Glissement de terrain", "Ouragan", "Tsunami", "Volcan"],
+      "correctIndex": 0,
+      "explanation": "La fonte du permafrost déstabilise les sols et peut provoquer des effondrements ou glissements de terrain."
+    },
+    {
+      "id": "18",
+      "question": "Quel phénomène est une tempête tropicale dans l’Atlantique ?",
+      "image": null,
+      "imagePrompt": "hurricane atlantic",
+      "answers": ["Typhon", "Ouragan", "Cyclone", "Tornade"],
+      "correctIndex": 1,
+      "explanation": "Le terme 'ouragan' est utilisé dans l’Atlantique, tandis que 'typhon' est utilisé en Asie."
+    },
+    {
+      "id": "19",
+      "question": "Quel type de catastrophe est une tornade ?",
+      "image": null,
+      "imagePrompt": "tornado funnel",
+      "answers": ["Climatique", "Sismique", "Volcanique", "Marine"],
+      "correctIndex": 0,
+      "explanation": "Les tornades sont des phénomènes atmosphériques violents avec des vents pouvant dépasser 400 km/h."
+    },
+    {
+      "id": "20",
+      "question": "Quel phénomène naturel peut provoquer un 'hiver volcanique' ?",
+      "image": null,
+      "imagePrompt": "volcanic ash cloud",
+      "answers": ["Séisme", "Éruption volcanique", "Tsunami", "Cyclone"],
+      "correctIndex": 1,
+      "explanation": "Certaines éruptions projettent des cendres dans l’atmosphère, bloquant la lumière solaire et refroidissant temporairement le climat global."
+    }
+  ]
+}

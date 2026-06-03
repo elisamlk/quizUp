@@ -1,0 +1,200 @@
+{
+  "slug": "quiz-espace-planetes",
+  "title": "Quiz Culture Générale Espace et Planètes - 20 questions pour explorer l’univers",
+  "description": "Planètes, étoiles, galaxies et phénomènes spatiaux : teste ta culture générale sur l’univers.",
+  "descriptionSeo": "Teste ta culture générale sur l’espace et les planètes avec ce quiz de 20 questions. Système solaire, étoiles, galaxies, trous noirs, astronautes et découvertes spatiales : apprends des faits fascinants et enrichis tes connaissances sur l’univers grâce à des explications claires, instructives et faciles à mémoriser.",
+  "category": {
+    "name": "Culture générale",
+    "slug": "culture-generale"
+  },
+  "createdAt": "2026-03-20",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1774012200/cover_dejbxi.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1774012200/cover_dejbxi.jpg",
+    "alt": "Quiz espace et planètes"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "question": "Quelle est la plus grande planète du système solaire ?",
+      "image": null,
+      "imagePrompt": "jupiter planet surface storm",
+      "answers": ["Saturne", "Neptune", "Jupiter", "Uranus"],
+      "correctIndex": 2,
+      "explanation": "Jupiter est la plus grande planète du système solaire. C’est une géante gazeuse composée surtout d’hydrogène et d’hélium. Sa masse est si importante qu’elle influence fortement les autres corps du système solaire, et sa Grande Tache Rouge est une tempête observée depuis des siècles."
+    },
+    {
+      "id": "2",
+      "question": "Quelle planète est la plus proche du Soleil ?",
+      "image": null,
+      "imagePrompt": "mercury planet surface",
+      "answers": ["Vénus", "Mercure", "Mars", "Terre"],
+      "correctIndex": 1,
+      "explanation": "Mercure est la planète la plus proche du Soleil. Pourtant, ce n’est pas la plus chaude, car son atmosphère est presque inexistante et ne retient pas la chaleur. Cela provoque des écarts extrêmes entre le jour et la nuit."
+    },
+    {
+      "id": "3",
+      "question": "Quelle planète est connue pour ses anneaux spectaculaires ?",
+      "image": null,
+      "imagePrompt": "saturn rings close",
+      "answers": ["Jupiter", "Neptune", "Uranus", "Saturne"],
+      "correctIndex": 3,
+      "explanation": "Saturne est la planète la plus célèbre pour ses anneaux, composés principalement de glace, de poussières et de roches. D’autres planètes géantes en possèdent aussi, mais ceux de Saturne sont de loin les plus visibles et les plus étendus."
+    },
+    {
+      "id": "4",
+      "question": "Quel est le nom de notre galaxie ?",
+      "image": null,
+      "imagePrompt": "milky way galaxy night sky",
+      "answers": ["Andromède", "Voie lactée", "Orion", "Sombrero"],
+      "correctIndex": 1,
+      "explanation": "Notre galaxie s’appelle la Voie lactée. C’est une galaxie spirale contenant des centaines de milliards d’étoiles. Le Soleil se trouve dans un bras spiralé, loin du centre galactique, ce qui rappelle à quel point notre place dans l’univers est périphérique."
+    },
+    {
+      "id": "5",
+      "question": "Quelle planète est surnommée la planète rouge ?",
+      "image": null,
+      "imagePrompt": "mars red planet",
+      "answers": ["Vénus", "Jupiter", "Mars", "Mercure"],
+      "correctIndex": 2,
+      "explanation": "Mars est surnommée la planète rouge à cause de l’oxyde de fer présent à sa surface. Cette couleur a nourri de nombreux mythes dans l’histoire humaine, et aujourd’hui encore Mars est la planète la plus étudiée dans la perspective d’une future exploration habitée."
+    },
+    {
+      "id": "6",
+      "question": "Quelle est l’étoile la plus proche de la Terre ?",
+      "image": null,
+      "imagePrompt": "sun star surface",
+      "answers": ["Proxima Centauri", "Sirius", "Vega", "Le Soleil"],
+      "correctIndex": 3,
+      "explanation": "L’étoile la plus proche de la Terre est le Soleil. Cela peut sembler évident, mais on oublie souvent qu’il s’agit d’une étoile comme les autres. Sa proximité explique pourquoi il domine complètement notre ciel et rend la vie possible sur Terre."
+    },
+    {
+      "id": "7",
+      "question": "Combien de planètes compte le système solaire ?",
+      "image": null,
+      "imagePrompt": "solar system planets lineup",
+      "answers": ["7", "8", "9", "10"],
+      "correctIndex": 1,
+      "explanation": "Le système solaire compte 8 planètes. Pluton a été reclassée en planète naine en 2006, car elle ne remplit pas tous les critères définis par l’Union astronomique internationale, notamment celui d’avoir “nettoyé” son voisinage orbital."
+    },
+    {
+      "id": "8",
+      "question": "Quelle planète est la plus chaude du système solaire ?",
+      "image": null,
+      "imagePrompt": "venus thick atmosphere",
+      "answers": ["Mercure", "Mars", "Jupiter", "Vénus"],
+      "correctIndex": 3,
+      "explanation": "Vénus est la planète la plus chaude du système solaire, avec des températures de surface supérieures à 460°C. Son atmosphère très dense, riche en dioxyde de carbone, produit un effet de serre extrême, bien plus puissant que celui observé sur Terre."
+    },
+    {
+      "id": "9",
+      "question": "Quel satellite naturel orbite autour de la Terre ?",
+      "image": null,
+      "imagePrompt": "moon surface earth view",
+      "answers": ["Europa", "Titan", "La Lune", "Io"],
+      "correctIndex": 2,
+      "explanation": "La Lune est le satellite naturel de la Terre. Elle joue un rôle bien plus important qu’on ne l’imagine : elle influence les marées, stabilise l’axe de rotation terrestre et a probablement contribué à rendre le climat de notre planète plus stable sur le long terme."
+    },
+    {
+      "id": "10",
+      "question": "Quel est le nom du premier homme à avoir marché sur la Lune ?",
+      "image": null,
+      "imagePrompt": "apollo 11 moon landing",
+      "answers": ["Buzz Aldrin", "Neil Armstrong", "Yuri Gagarine", "Michael Collins"],
+      "correctIndex": 1,
+      "explanation": "Neil Armstrong est devenu le premier homme à marcher sur la Lune le 20 juillet 1969 lors de la mission Apollo 11. Cet événement a marqué l’histoire scientifique, technologique et politique, en pleine course spatiale entre les États-Unis et l’URSS."
+    },
+    {
+      "id": "11",
+      "question": "Quelle planète possède la journée la plus courte ?",
+      "image": null,
+      "imagePrompt": "jupiter rotation fast",
+      "answers": ["Mars", "Saturne", "Neptune", "Jupiter"],
+      "correctIndex": 3,
+      "explanation": "Jupiter possède la journée la plus courte des planètes du système solaire : elle tourne sur elle-même en environ 10 heures. Cette rotation extrêmement rapide contribue à sa forme légèrement aplatie et à la violence de sa météorologie."
+    },
+    {
+      "id": "12",
+      "question": "Qu’est-ce qu’un trou noir ?",
+      "image": null,
+      "imagePrompt": "black hole space",
+      "answers": ["Une étoile froide", "Une planète invisible", "Une zone où la gravité est extrêmement forte", "Un nuage de gaz"],
+      "correctIndex": 2,
+      "explanation": "Un trou noir est une région de l’espace où la gravité est si intense que même la lumière ne peut pas s’en échapper. Ils se forment souvent après l’effondrement d’étoiles massives, et leur étude aide à mieux comprendre les limites actuelles de la physique."
+    },
+    {
+      "id": "13",
+      "question": "Quelle planète est la plus éloignée du Soleil ?",
+      "image": null,
+      "imagePrompt": "neptune blue planet",
+      "answers": ["Uranus", "Neptune", "Saturne", "Jupiter"],
+      "correctIndex": 1,
+      "explanation": "Neptune est la planète la plus éloignée du Soleil parmi les 8 planètes reconnues. Elle est célèbre pour ses vents extrêmement rapides, qui comptent parmi les plus puissants observés dans tout le système solaire."
+    },
+    {
+      "id": "14",
+      "question": "Qu’est-ce qu’une année-lumière ?",
+      "image": null,
+      "imagePrompt": "light travel space concept",
+      "answers": ["Une durée", "Une vitesse", "Une distance", "Une étoile"],
+      "correctIndex": 2,
+      "explanation": "Une année-lumière est une unité de distance, pas de temps. Elle correspond à la distance parcourue par la lumière en une année, soit environ 9 460 milliards de kilomètres. Cette unité est utile car les distances dans l’univers sont tellement immenses que les kilomètres deviennent peu pratiques."
+    },
+    {
+      "id": "15",
+      "question": "Quelle planète a une rotation rétrograde (elle tourne à l’envers) ?",
+      "image": null,
+      "imagePrompt": "venus rotation concept",
+      "answers": ["Mars", "Saturne", "Mercure", "Vénus"],
+      "correctIndex": 3,
+      "explanation": "Vénus tourne sur elle-même dans le sens inverse de la plupart des autres planètes. Cela signifie que le Soleil s’y lève à l’ouest et se couche à l’est. Cette particularité intrigue encore les scientifiques, qui l’expliquent possiblement par d’anciens chocs majeurs."
+    },
+    {
+      "id": "16",
+      "question": "Quel est le nom du télescope spatial lancé en 1990 qui a révolutionné l’astronomie ?",
+      "image": null,
+      "imagePrompt": "hubble telescope space",
+      "answers": ["James Webb", "Kepler", "Spitzer", "Hubble"],
+      "correctIndex": 3,
+      "explanation": "Le télescope spatial Hubble, lancé en 1990, a transformé notre vision de l’univers. Il a permis de capturer des images d’une précision exceptionnelle, d’affiner l’estimation de l’âge de l’univers et d’observer des galaxies très lointaines."
+    },
+    {
+      "id": "17",
+      "question": "Quelle planète est principalement composée de gaz ?",
+      "image": null,
+      "imagePrompt": "gas giant planet",
+      "answers": ["Mars", "Terre", "Jupiter", "Mercure"],
+      "correctIndex": 2,
+      "explanation": "Jupiter est principalement composée de gaz, surtout d’hydrogène et d’hélium. Contrairement aux planètes rocheuses comme la Terre ou Mars, elle ne possède pas de surface solide nette sur laquelle on pourrait se poser."
+    },
+    {
+      "id": "18",
+      "question": "Quel phénomène provoque les saisons sur Terre ?",
+      "image": null,
+      "imagePrompt": "earth tilt seasons diagram",
+      "answers": ["La distance au Soleil", "La rotation de la Terre", "La vitesse orbitale", "L’inclinaison de l’axe terrestre"],
+      "correctIndex": 3,
+      "explanation": "Les saisons sont dues à l’inclinaison de l’axe de la Terre par rapport à son orbite autour du Soleil. Ce n’est donc pas la distance au Soleil qui change les saisons, mais l’angle avec lequel les rayons solaires frappent chaque hémisphère."
+    },
+    {
+      "id": "19",
+      "question": "Quel est le nom du premier satellite artificiel lancé dans l’espace ?",
+      "image": null,
+      "imagePrompt": "sputnik satellite",
+      "answers": ["Apollo 1", "Sputnik 1", "Voyager 1", "Explorer 1"],
+      "correctIndex": 1,
+      "explanation": "Sputnik 1, lancé par l’URSS en 1957, est le premier satellite artificiel de l’histoire. Son lancement a marqué le début de l’ère spatiale et a profondément accéléré la compétition scientifique et technologique entre grandes puissances."
+    },
+    {
+      "id": "20",
+      "question": "Qu’est-ce qu’une supernova ?",
+      "image": null,
+      "imagePrompt": "supernova explosion space",
+      "answers": ["Une planète qui explose", "Une comète", "Un trou noir", "Une explosion d’étoile"],
+      "correctIndex": 3,
+      "explanation": "Une supernova est l’explosion spectaculaire d’une étoile en fin de vie. Ces événements sont essentiels à l’histoire de l’univers, car ils dispersent dans l’espace des éléments lourds comme le fer ou le calcium, indispensables à la formation des planètes et même des êtres vivants."
+    }
+  ]
+}

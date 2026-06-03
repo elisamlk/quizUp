@@ -1,0 +1,130 @@
+{
+  "slug": "test-gestion-budget-quotidien",
+  "title": "Test argent - Sais-tu vraiment gérer ton budget au quotidien ?",
+  "description": "Tes habitudes financières sont-elles vraiment maîtrisées ?",
+  "descriptionSeo": "Dépenses, suivi, imprévus, organisation… ce test t’aide à savoir si tu gères vraiment ton budget au quotidien. À travers des situations concrètes, découvre si tu es organisé(e), approximatif(ve) ou dépassé(e) dans ta gestion financière.",
+  "category": {
+    "name": "Argent",
+    "slug": "argent"
+  },
+  "createdAt": "2026-04-27",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777582120/cover_noj5ld.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777582120/cover_noj5ld.jpg",
+    "alt": "Test gestion budget"
+  },
+  "profiles": [
+    {
+      "key": "organise",
+      "title": "Gestion organisée",
+      "description": "Tu as une bonne maîtrise de ton budget au quotidien. Tu sais globalement où va ton argent et tu anticipes tes dépenses. Tu n’as pas besoin d’un contrôle extrême, mais tu gardes une vision claire de ta situation. Tu sais t’adapter en cas d’imprévu et tu évites les mauvaises surprises. Cette organisation te permet d’être plus serein(e) et de garder un bon équilibre entre dépenses et sécurité financière.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777582123/maistrise_cvdcgx.jpg"
+    },
+    {
+      "key": "approximatif",
+      "title": "Gestion approximative",
+      "description": "Tu gères ton budget de manière globale, mais sans vraiment de précision. Tu sais à peu près où tu en es, mais tu ne suis pas toujours tes dépenses en détail. Tu peux parfois être surpris(e) en fin de mois ou devoir t’adapter rapidement. Tu n’es pas totalement dépassé(e), mais tu manques de structure. Avec un peu plus de suivi, tu pourrais gagner en confort et en visibilité.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777582180/approx_uqxjht.jpg"
+    },
+    {
+      "key": "depasse",
+      "title": "Gestion dépassée",
+      "description": "Tu as du mal à suivre ton budget au quotidien. Tu peux dépenser sans vraiment anticiper ou éviter de regarder tes comptes. Les imprévus ou les dépenses accumulées peuvent te mettre en difficulté. Tu peux te sentir dépassé(e) ou perdre le contrôle sur ta gestion financière. Reprendre une vision simple de tes dépenses pourrait t’aider à retrouver de la stabilité.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777582136/mess_dxkotp.jpg"
+    }
+  ],
+  "questions": [
+    {
+      "id": "1",
+      "question": "Tu fais un achat du quotidien (courses, café, etc.)…",
+      "answers": [
+        { "label": "Je sais déjà si c’est dans mon budget", "scores": { "organise": 3 } },
+        { "label": "Je fais attention sans calculer", "scores": { "approximatif": 3 } },
+        { "label": "Je ne réfléchis pas vraiment", "scores": { "depasse": 3 } }
+      ]
+    },
+    {
+      "id": "2",
+      "question": "Tu ouvres ton appli bancaire en semaine…",
+      "answers": [
+        { "label": "Je sais déjà à quoi m’attendre", "scores": { "organise": 3 } },
+        { "label": "Je vérifie de temps en temps", "scores": { "approximatif": 3 } },
+        { "label": "Je découvre souvent la situation", "scores": { "depasse": 3 } }
+      ]
+    },
+    {
+      "id": "3",
+      "question": "Une dépense imprévue arrive…",
+      "answers": [
+        { "label": "Je l’absorbe sans problème", "scores": { "organise": 3 } },
+        { "label": "Je m’adapte comme je peux", "scores": { "approximatif": 3 } },
+        { "label": "Ça me met en difficulté", "scores": { "depasse": 3 } }
+      ]
+    },
+    {
+      "id": "4",
+      "question": "En milieu de mois…",
+      "answers": [
+        { "label": "Je sais où j’en suis précisément", "scores": { "organise": 3 } },
+        { "label": "J’ai une idée globale", "scores": { "approximatif": 3 } },
+        { "label": "Je ne sais pas vraiment", "scores": { "depasse": 3 } }
+      ]
+    },
+    {
+      "id": "5",
+      "question": "Tu ajoutes un article à ton panier en ligne…",
+      "answers": [
+        { "label": "Je vérifie si ça rentre dans mon budget", "scores": { "organise": 3 } },
+        { "label": "Je réfléchis rapidement", "scores": { "approximatif": 3 } },
+        { "label": "Je valide sans trop réfléchir", "scores": { "depasse": 3 } }
+      ]
+    },
+    {
+      "id": "6",
+      "question": "À la fin du mois…",
+      "answers": [
+        { "label": "Je n’ai pas de surprise", "scores": { "organise": 3 } },
+        { "label": "Parfois ça dépasse un peu", "scores": { "approximatif": 3 } },
+        { "label": "Je suis souvent surpris(e)", "scores": { "depasse": 3 } }
+      ]
+    },
+    {
+      "id": "7",
+      "question": "Tu veux te faire plaisir (resto, achat)…",
+      "answers": [
+        { "label": "Je planifie ou j’anticipe", "scores": { "organise": 3 } },
+        { "label": "Je vois sur le moment", "scores": { "approximatif": 3 } },
+        { "label": "Je le fais sans trop regarder", "scores": { "depasse": 3 } }
+      ]
+    },
+    {
+      "id": "8",
+      "question": "Tu penses à tes dépenses fixes…",
+      "answers": [
+        { "label": "Je les connais précisément", "scores": { "organise": 3 } },
+        { "label": "Je les connais à peu près", "scores": { "approximatif": 3 } },
+        { "label": "Je n’y pense pas vraiment", "scores": { "depasse": 3 } }
+      ]
+    },
+    {
+      "id": "9",
+      "question": "Tu regardes ton compte après plusieurs jours…",
+      "answers": [
+        { "label": "Rien de surprenant", "scores": { "organise": 3 } },
+        { "label": "Quelques surprises", "scores": { "approximatif": 3 } },
+        { "label": "Beaucoup de surprises", "scores": { "depasse": 3 } }
+      ]
+    },
+    {
+      "id": "10",
+      "question": "Avant une dépense importante…",
+      "answers": [
+        { "label": "Je vérifie mon budget global", "scores": { "organise": 3 } },
+        { "label": "Je fais une estimation rapide", "scores": { "approximatif": 3 } },
+        { "label": "Je décide sur le moment", "scores": { "depasse": 3 } }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,200 @@
+{
+  "slug": "quiz-regions-sismiques-monde",
+  "title": "Quiz Géographie - Régions sismiques",
+  "description": "Teste tes connaissances sur les zones sismiques du monde et comprends où et pourquoi les tremblements de terre se produisent.",
+  "descriptionSeo": "Pourquoi certaines régions du monde sont-elles plus exposées aux séismes ? Ce quiz de géographie explore les grandes zones sismiques, des failles californiennes à la ceinture de feu du Pacifique. À travers 20 questions, découvre les liens entre tectonique des plaques, volcans et tremblements de terre. Chaque réponse est accompagnée d’explications détaillées pour mieux comprendre les risques sismiques mondiaux.",
+  "category": {
+    "name": "Géographie",
+    "slug": "geographie"
+  },
+  "createdAt": "2026-03-30",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1774871738/cover_zrl2r7.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1774871738/cover_zrl2r7.jpg",
+    "alt": "Quiz régions sismiques"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "question": "Quelle région concentre la majorité des séismes mondiaux ?",
+      "image": null,
+      "imagePrompt": "Pacific Ring of Fire map",
+      "answers": ["Ceinture de feu du Pacifique", "Europe centrale", "Sahara", "Amazonie"],
+      "correctIndex": 0,
+      "explanation": "La ceinture de feu du Pacifique concentre environ 75 % des volcans actifs et une grande majorité des séismes. Cela s’explique par la présence de nombreuses limites de plaques tectoniques, notamment des zones de subduction où une plaque plonge sous une autre."
+    },
+    {
+      "id": "2",
+      "question": "Quel pays est fortement exposé aux séismes en raison de sa position sur plusieurs plaques tectoniques ?",
+      "image": null,
+      "imagePrompt": "Japan earthquake map",
+      "answers": ["Australie", "Brésil", "Japon", "Égypte"],
+      "correctIndex": 2,
+      "explanation": "Le Japon se situe à la jonction de plusieurs plaques (pacifique, philippine, eurasienne). Cette configuration crée une activité sismique intense et explique la fréquence des tremblements de terre et des tsunamis."
+    },
+    {
+      "id": "3",
+      "question": "Quelle faille célèbre traverse la Californie ?",
+      "image": null,
+      "imagePrompt": "San Andreas Fault map",
+      "answers": ["Faille alpine", "Faille de San Andreas", "Faille himalayenne", "Faille du Rift"],
+      "correctIndex": 1,
+      "explanation": "La faille de San Andreas est une limite de plaques transformantes où deux plaques glissent l’une contre l’autre. Ce type de mouvement accumule des tensions qui se libèrent brutalement sous forme de séismes."
+    },
+    {
+      "id": "4",
+      "question": "Quel type de limite de plaques est le plus souvent à l’origine des séismes puissants ?",
+      "image": null,
+      "imagePrompt": "Subduction zone diagram",
+      "answers": ["Divergente", "Passive", "Subduction", "Stable"],
+      "correctIndex": 2,
+      "explanation": "Les zones de subduction sont les plus dangereuses car une plaque plonge sous une autre, accumulant une énorme énergie. Lorsqu’elle se libère, cela peut provoquer des séismes majeurs et des tsunamis."
+    },
+    {
+      "id": "5",
+      "question": "Quelle chaîne de montagnes est liée à une forte activité sismique due à la collision de plaques ?",
+      "image": null,
+      "imagePrompt": "Himalaya tectonic collision",
+      "answers": ["Alpes", "Andes", "Himalaya", "Appalaches"],
+      "correctIndex": 2,
+      "explanation": "L’Himalaya est formé par la collision entre la plaque indienne et la plaque eurasienne. Ce processus est toujours actif, ce qui provoque des séismes fréquents et parfois très puissants."
+    },
+    {
+      "id": "6",
+      "question": "Quel continent est globalement le moins exposé aux séismes ?",
+      "image": null,
+      "imagePrompt": "Africa tectonic stability map",
+      "answers": ["Asie", "Amérique", "Afrique", "Océanie"],
+      "correctIndex": 2,
+      "explanation": "L’Afrique est relativement stable car elle est majoritairement située au centre d’une plaque tectonique. Les zones les plus actives se trouvent généralement aux frontières des plaques."
+    },
+    {
+      "id": "7",
+      "question": "Quelle région d’Europe est la plus sismique ?",
+      "image": null,
+      "imagePrompt": "Italy earthquake zone",
+      "answers": ["Scandinavie", "Italie", "France", "Royaume-Uni"],
+      "correctIndex": 1,
+      "explanation": "L’Italie est située sur une zone complexe de convergence entre plaques africaine et eurasienne, ce qui explique sa forte activité sismique et volcanique."
+    },
+    {
+      "id": "8",
+      "question": "Quel phénomène est souvent lié aux séismes sous-marins ?",
+      "image": null,
+      "imagePrompt": "Tsunami wave diagram",
+      "answers": ["Cyclone", "Tsunami", "Tornade", "Sécheresse"],
+      "correctIndex": 1,
+      "explanation": "Les séismes sous-marins peuvent déplacer de grandes masses d’eau, provoquant des tsunamis capables de traverser des océans entiers et de causer des dégâts massifs."
+    },
+    {
+      "id": "9",
+      "question": "Quelle région d’Amérique du Sud est fortement sismique ?",
+      "image": null,
+      "imagePrompt": "Chile Andes earthquake",
+      "answers": ["Amazonie", "Andes", "Patagonie", "Guyanes"],
+      "correctIndex": 1,
+      "explanation": "La cordillère des Andes est située sur une zone de subduction où la plaque de Nazca plonge sous la plaque sud-américaine, générant des séismes fréquents et puissants."
+    },
+    {
+      "id": "10",
+      "question": "Pourquoi les séismes sont-ils rares au centre des continents ?",
+      "image": null,
+      "imagePrompt": "tectonic plate interior map",
+      "answers": ["Manque de relief", "Faible population", "Absence de plaques", "Stabilité tectonique"],
+      "correctIndex": 3,
+      "explanation": "Les zones centrales des plaques sont plus stables car elles sont éloignées des frontières tectoniques où les mouvements sont les plus intenses."
+    },
+    {
+      "id": "11",
+      "question": "Quel pays a connu le séisme le plus puissant jamais enregistré (1960) ?",
+      "image": null,
+      "imagePrompt": "Chile earthquake 1960",
+      "answers": ["Chili", "Japon", "Indonésie", "États-Unis"],
+      "correctIndex": 0,
+      "explanation": "Le séisme de Valdivia au Chili (1960) a atteint une magnitude de 9,5. Il illustre la puissance des zones de subduction le long de la ceinture de feu du Pacifique."
+    },
+    {
+      "id": "12",
+      "question": "Quel pays d’Asie du Sud-Est est particulièrement exposé aux séismes et volcans ?",
+      "image": null,
+      "imagePrompt": "Indonesia volcano map",
+      "answers": ["Thaïlande", "Indonésie", "Vietnam", "Cambodge"],
+      "correctIndex": 1,
+      "explanation": "L’Indonésie est située sur la ceinture de feu du Pacifique et compte des centaines de volcans actifs. Sa position tectonique la rend extrêmement vulnérable."
+    },
+    {
+      "id": "13",
+      "question": "Quel type de mouvement de plaques provoque des séismes sans création ni destruction de croûte ?",
+      "image": null,
+      "imagePrompt": "transform fault diagram",
+      "answers": ["Subduction", "Collision", "Transformant", "Divergent"],
+      "correctIndex": 2,
+      "explanation": "Les failles transformantes correspondent à un glissement horizontal entre plaques. Elles ne créent ni ne détruisent de croûte mais génèrent des séismes importants."
+    },
+    {
+      "id": "14",
+      "question": "Quelle zone africaine montre une activité sismique liée à une ouverture de plaque ?",
+      "image": null,
+      "imagePrompt": "East African Rift map",
+      "answers": ["Sahara", "Atlas", "Rift est-africain", "Sahel"],
+      "correctIndex": 2,
+      "explanation": "Le Rift est-africain est une zone où le continent africain est en train de se fracturer. À terme, cela pourrait créer un nouvel océan."
+    },
+    {
+      "id": "15",
+      "question": "Quel océan est bordé par la zone sismique la plus active du monde ?",
+      "image": null,
+      "imagePrompt": "Pacific Ocean map",
+      "answers": ["Atlantique", "Pacifique", "Indien", "Arctique"],
+      "correctIndex": 1,
+      "explanation": "L’océan Pacifique est entouré par la ceinture de feu, ce qui en fait la zone la plus active sismiquement et volcaniquement."
+    },
+    {
+      "id": "16",
+      "question": "Quelle ville américaine est particulièrement surveillée pour un risque sismique majeur ?",
+      "image": null,
+      "imagePrompt": "San Francisco earthquake risk",
+      "answers": ["New York", "San Francisco", "Chicago", "Miami"],
+      "correctIndex": 1,
+      "explanation": "San Francisco est située près de la faille de San Andreas, ce qui en fait une zone à haut risque de séisme majeur."
+    },
+    {
+      "id": "17",
+      "question": "Quel pays européen a connu un séisme dévastateur en 1755 ?",
+      "image": null,
+      "imagePrompt": "Lisbon earthquake 1755",
+      "answers": ["Portugal", "Italie", "Grèce", "Espagne"],
+      "correctIndex": 0,
+      "explanation": "Le séisme de Lisbonne en 1755 a profondément marqué l’Europe, tant par ses destructions que par ses conséquences philosophiques et scientifiques."
+    },
+    {
+      "id": "18",
+      "question": "Quelle région est située à la jonction de plusieurs plaques en Méditerranée ?",
+      "image": null,
+      "imagePrompt": "Greece tectonic map",
+      "answers": ["France", "Grèce", "Allemagne", "Pays-Bas"],
+      "correctIndex": 1,
+      "explanation": "La Grèce se situe à la rencontre de plaques tectoniques, ce qui explique son activité sismique fréquente."
+    },
+    {
+      "id": "19",
+      "question": "Quel facteur augmente les dégâts lors d’un séisme ?",
+      "image": null,
+      "imagePrompt": "earthquake damage city",
+      "answers": ["Faible population", "Urbanisation dense", "Climat chaud", "Altitude"],
+      "correctIndex": 1,
+      "explanation": "Les zones densément peuplées avec des constructions fragiles subissent des dégâts beaucoup plus importants lors d’un séisme."
+    },
+    {
+      "id": "20",
+      "question": "Quelle zone est la moins sismique ?",
+      "image": null,
+      "imagePrompt": "stable continental interior",
+      "answers": ["Bord des plaques", "Ceinture de feu", "Zones volcaniques", "Intérieur des plaques"],
+      "correctIndex": 3,
+      "explanation": "Les zones situées au centre des plaques tectoniques sont les plus stables et connaissent peu d’activité sismique."
+    }
+  ]
+}

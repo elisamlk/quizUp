@@ -1,0 +1,200 @@
+{
+  "slug": "quiz-culture-generale-college",
+  "title": "Quiz Culture Générale Niveau Collège - 20 questions pour te tester",
+  "description": "Un quiz accessible mais stimulant pour tester tes connaissances générales niveau collège.",
+  "descriptionSeo": "Teste tes connaissances avec ce quiz de culture générale niveau collège composé de 20 questions variées. Histoire, géographie, sciences, littérature et culture générale : un quiz accessible, pédagogique et enrichissant pour réviser ou s’amuser tout en apprenant.",
+  "category": {
+    "name": "Culture générale",
+    "slug": "culture-generale"
+  },
+  "createdAt": "2026-03-20",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1774015490/cover_kexwb6.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1774015490/cover_kexwb6.jpg",
+    "alt": "Quiz culture générale collège"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "question": "Quelle est la capitale de la France ?",
+      "image": null,
+      "imagePrompt": "paris eiffel tower",
+      "answers": ["Lyon", "Marseille", "Nice", "Paris"],
+      "correctIndex": 3,
+      "explanation": "Paris est la capitale de la France et le centre politique, économique et culturel du pays."
+    },
+    {
+      "id": "2",
+      "question": "Combien y a-t-il de continents sur Terre ?",
+      "image": null,
+      "imagePrompt": "world map continents",
+      "answers": ["5", "6", "7", "8"],
+      "correctIndex": 2,
+      "explanation": "On compte généralement 7 continents : Afrique, Amérique du Nord, Amérique du Sud, Antarctique, Asie, Europe et Océanie."
+    },
+    {
+      "id": "3",
+      "question": "Quel est l’animal terrestre le plus rapide ?",
+      "image": null,
+      "imagePrompt": "cheetah running",
+      "answers": ["Lion", "Cheval", "Guépard", "Tigre"],
+      "correctIndex": 2,
+      "explanation": "Le guépard peut atteindre environ 110 km/h sur de courtes distances, ce qui en fait l’animal terrestre le plus rapide."
+    },
+    {
+      "id": "4",
+      "question": "Quel est le résultat de 8 × 7 ?",
+      "image": null,
+      "imagePrompt": "math multiplication",
+      "answers": ["48", "54", "64", "56"],
+      "correctIndex": 3,
+      "explanation": "8 × 7 = 56. Les tables de multiplication sont essentielles pour progresser en mathématiques."
+    },
+    {
+      "id": "5",
+      "question": "Qui a écrit « Le Petit Prince » ?",
+      "image": null,
+      "imagePrompt": "little prince",
+      "answers": ["Victor Hugo", "Molière", "Zola", "Saint-Exupéry"],
+      "correctIndex": 3,
+      "explanation": "Antoine de Saint-Exupéry est l’auteur de ce conte philosophique célèbre dans le monde entier."
+    },
+    {
+      "id": "6",
+      "question": "Quelle planète est la plus proche du Soleil ?",
+      "image": null,
+      "imagePrompt": "mercury planet",
+      "answers": ["Mercure", "Vénus", "Mars", "Terre"],
+      "correctIndex": 0,
+      "explanation": "Mercure est la planète la plus proche du Soleil et connaît de fortes variations de température."
+    },
+    {
+      "id": "7",
+      "question": "Quel est le plus grand océan ?",
+      "image": null,
+      "imagePrompt": "pacific ocean",
+      "answers": ["Atlantique", "Indien", "Arctique", "Pacifique"],
+      "correctIndex": 3,
+      "explanation": "Le Pacifique est le plus grand océan, couvrant environ un tiers de la surface de la Terre."
+    },
+    {
+      "id": "8",
+      "question": "En quelle année a commencé la Révolution française ?",
+      "image": null,
+      "imagePrompt": "french revolution",
+      "answers": ["1789", "1776", "1804", "1815"],
+      "correctIndex": 0,
+      "explanation": "La Révolution française débute en 1789 avec la prise de la Bastille."
+    },
+    {
+      "id": "9",
+      "question": "Quel est le plus grand organe du corps humain ?",
+      "image": null,
+      "imagePrompt": "human skin",
+      "answers": ["Cerveau", "Foie", "Peau", "Cœur"],
+      "correctIndex": 2,
+      "explanation": "La peau est le plus grand organe du corps humain, jouant un rôle essentiel de protection."
+    },
+    {
+      "id": "10",
+      "question": "Quel est le symbole chimique de l’eau ?",
+      "image": null,
+      "imagePrompt": "water molecule",
+      "answers": ["CO2", "NaCl", "O2", "H2O"],
+      "correctIndex": 3,
+      "explanation": "H2O correspond à deux atomes d’hydrogène et un atome d’oxygène."
+    },
+    {
+      "id": "11",
+      "question": "Quel pays est célèbre pour les pyramides ?",
+      "image": null,
+      "imagePrompt": "pyramids egypt",
+      "answers": ["Égypte", "Mexique", "Inde", "Chine"],
+      "correctIndex": 0,
+      "explanation": "Les pyramides les plus célèbres se trouvent en Égypte, notamment celles de Gizeh."
+    },
+    {
+      "id": "12",
+      "question": "Combien de côtés a un triangle ?",
+      "image": null,
+      "imagePrompt": "triangle",
+      "answers": ["2", "3", "4", "5"],
+      "correctIndex": 1,
+      "explanation": "Un triangle possède 3 côtés et 3 angles."
+    },
+    {
+      "id": "13",
+      "question": "Quel est le verbe dans « Le chat dort » ?",
+      "image": null,
+      "imagePrompt": "cat sleeping",
+      "answers": ["chat", "le", "dort", "est"],
+      "correctIndex": 2,
+      "explanation": "« Dort » est le verbe, car il exprime l’action."
+    },
+    {
+      "id": "14",
+      "question": "Quel est le plus grand désert chaud du monde ?",
+      "image": null,
+      "imagePrompt": "sahara desert",
+      "answers": ["Gobi", "Kalahari", "Atacama", "Sahara"],
+      "correctIndex": 3,
+      "explanation": "Le Sahara est le plus grand désert chaud du monde."
+    },
+    {
+      "id": "15",
+      "question": "Qui était Napoléon Bonaparte ?",
+      "image": null,
+      "imagePrompt": "napoleon",
+      "answers": ["Un roi", "Un empereur", "Un écrivain", "Un scientifique"],
+      "correctIndex": 1,
+      "explanation": "Napoléon fut empereur des Français et a marqué l’histoire européenne."
+    },
+    {
+      "id": "16",
+      "question": "Quelle langue parle-t-on principalement en Espagne ?",
+      "image": null,
+      "imagePrompt": "spain flag",
+      "answers": ["Italien", "Portugais", "Espagnol", "Français"],
+      "correctIndex": 2,
+      "explanation": "La langue officielle est l’espagnol, aussi appelé castillan."
+    },
+    {
+      "id": "17",
+      "question": "Quel instrument mesure la température ?",
+      "image": null,
+      "imagePrompt": "thermometer",
+      "answers": ["Baromètre", "Thermomètre", "Anémomètre", "Altimètre"],
+      "correctIndex": 1,
+      "explanation": "Le thermomètre mesure la température."
+    },
+    {
+      "id": "18",
+      "question": "Combien de jours y a-t-il dans une semaine ?",
+      "image": null,
+      "imagePrompt": "calendar",
+      "answers": ["5", "6", "7", "8"],
+      "correctIndex": 2,
+      "explanation": "Une semaine compte 7 jours."
+    },
+    {
+      "id": "19",
+      "question": "Quel est le plus long fleuve du monde ?",
+      "image": null,
+      "imagePrompt": "nile river",
+      "answers": ["Amazon", "Nil", "Yangtsé", "Mississippi"],
+      "correctIndex": 1,
+      "explanation": "Le Nil est souvent considéré comme le plus long fleuve du monde."
+    },
+    {
+      "id": "20",
+      "question": "Comment calcule-t-on le carré d’un nombre ?",
+      "image": null,
+      "imagePrompt": "math square",
+      "answers": ["n + n", "2n", "n - n", "n × n"],
+      "correctIndex": 3,
+      "explanation": "Le carré d’un nombre correspond à ce nombre multiplié par lui-même."
+    }
+  ]
+}

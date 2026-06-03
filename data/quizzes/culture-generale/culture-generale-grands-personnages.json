@@ -1,0 +1,200 @@
+{
+  "slug": "quiz-culture-generale-special-grands-personnages",
+  "title": "Quiz Culture Générale Spécial Grands Personnages – 20 Questions",
+  "description": "Un quiz de culture générale consacré aux grands personnages de l’histoire, avec 20 questions captivantes sur leurs vies, leurs exploits et leurs héritages.",
+  "descriptionSeo": "Testez vos connaissances avec ce quiz de culture générale spécial grands personnages. De Cléopâtre à Napoléon, de Marie Curie à Nelson Mandela, ces 20 questions vous plongent dans les destins fascinants de figures historiques, scientifiques, politiques et artistiques qui ont marqué le monde. Chaque réponse est accompagnée d’une explication intéressante pour apprendre des anecdotes, des faits marquants et enrichir votre culture générale tout en découvrant l’héritage exceptionnel de ces personnalités incontournables.",
+  "category": {
+    "name": "Culture générale",
+    "slug": "culture-generale"
+  },
+  "createdAt": "2026-03-30",
+  "isNew": true,
+  "isPopular": false,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1773911011/cover_aigvlp.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1773911011/cover_aigvlp.jpg",
+    "alt": "Quiz culture générale spécial grands personnages"
+  },
+  "questions": [
+    {
+      "id": "gperso-1",
+      "question": "Quel chef militaire français est devenu empereur en 1804 ?",
+      "image": null,
+      "imagePrompt": "napoleon bonaparte emperor french history portrait",
+      "answers": ["Louis XIV", "Napoléon Bonaparte", "Charles de Gaulle", "Louis XVI"],
+      "correctIndex": 1,
+      "explanation": "Napoléon Bonaparte s’est proclamé empereur des Français en 1804, marquant durablement l’histoire de l’Europe par ses réformes et ses conquêtes."
+    },
+    {
+      "id": "gperso-2",
+      "question": "Quelle reine d’Égypte est célèbre pour son alliance avec Jules César puis Marc Antoine ?",
+      "image": null,
+      "imagePrompt": "cleopatra queen egypt ancient portrait",
+      "answers": ["Nefertiti", "Hatchepsout", "Cléopâtre", "Bérénice"],
+      "correctIndex": 2,
+      "explanation": "Cléopâtre VII est l’une des figures les plus fascinantes de l’Antiquité, connue autant pour son intelligence politique que pour son destin tragique."
+    },
+    {
+      "id": "gperso-3",
+      "question": "Quel génie de la Renaissance a peint la Joconde ?",
+      "image": null,
+      "imagePrompt": "leonardo da vinci renaissance painter inventor portrait",
+      "answers": ["Michel-Ange", "Raphaël", "Donatello", "Léonard de Vinci"],
+      "correctIndex": 3,
+      "explanation": "Léonard de Vinci n’était pas seulement peintre : il fut aussi inventeur, ingénieur et observateur passionné du monde, incarnant l’idéal de l’homme universel."
+    },
+    {
+      "id": "gperso-4",
+      "question": "Quel scientifique a formulé la théorie de la relativité ?",
+      "image": null,
+      "imagePrompt": "albert einstein scientist portrait relativity",
+      "answers": ["Isaac Newton", "Albert Einstein", "Galilée", "Niels Bohr"],
+      "correctIndex": 1,
+      "explanation": "Albert Einstein a révolutionné la physique moderne avec ses théories de la relativité, qui ont changé notre compréhension de l’espace, du temps et de la gravité."
+    },
+    {
+      "id": "gperso-5",
+      "question": "Quelle femme scientifique a remporté deux prix Nobel dans deux disciplines différentes ?",
+      "image": null,
+      "imagePrompt": "marie curie laboratory science portrait nobel",
+      "answers": ["Rosalind Franklin", "Ada Lovelace", "Irène Joliot-Curie", "Marie Curie"],
+      "correctIndex": 3,
+      "explanation": "Marie Curie a obtenu le prix Nobel de physique puis celui de chimie, un exploit exceptionnel qui témoigne de l’ampleur de ses découvertes."
+    },
+    {
+      "id": "gperso-6",
+      "question": "Quel leader indien a défendu l’indépendance par la non-violence ?",
+      "image": null,
+      "imagePrompt": "mahatma gandhi india leader portrait peace",
+      "answers": ["Jawaharlal Nehru", "Mahatma Gandhi", "Indira Gandhi", "Rabindranath Tagore"],
+      "correctIndex": 1,
+      "explanation": "Mahatma Gandhi a fait de la non-violence une arme politique redoutable, inspirant de nombreux mouvements pour les droits civiques dans le monde."
+    },
+    {
+      "id": "gperso-7",
+      "question": "Quel président sud-africain a passé 27 ans en prison avant de devenir un symbole de réconciliation ?",
+      "image": null,
+      "imagePrompt": "nelson mandela south africa portrait freedom",
+      "answers": ["Desmond Tutu", "Thabo Mbeki", "Nelson Mandela", "F. W. de Klerk"],
+      "correctIndex": 2,
+      "explanation": "Nelson Mandela est devenu une figure mondiale de la lutte contre l’apartheid et de la réconciliation nationale après sa libération."
+    },
+    {
+      "id": "gperso-8",
+      "question": "Quelle héroïne française du XVe siècle a affirmé entendre des voix divines ?",
+      "image": null,
+      "imagePrompt": "joan of arc medieval armor france portrait",
+      "answers": ["Aliénor d’Aquitaine", "Jeanne d’Arc", "Christine de Pizan", "Marguerite de Navarre"],
+      "correctIndex": 1,
+      "explanation": "Jeanne d’Arc a joué un rôle décisif pendant la guerre de Cent Ans et reste une figure majeure de courage et de foi dans l’histoire de France."
+    },
+    {
+      "id": "gperso-9",
+      "question": "Quel conquérant macédonien a bâti un immense empire avant l’âge de 33 ans ?",
+      "image": null,
+      "imagePrompt": "alexander the great ancient conqueror portrait battlefield",
+      "answers": ["Jules César", "Auguste", "Alexandre le Grand", "Hannibal"],
+      "correctIndex": 2,
+      "explanation": "Alexandre le Grand a conquis un territoire immense, de la Grèce jusqu’à l’Inde, en un temps remarquablement court."
+    },
+    {
+      "id": "gperso-10",
+      "question": "Quel empereur romain est célèbre pour avoir été assassiné aux Ides de mars ?",
+      "image": null,
+      "imagePrompt": "julius caesar roman emperor senate portrait",
+      "answers": ["Néron", "Jules César", "Trajan", "Caligula"],
+      "correctIndex": 1,
+      "explanation": "Jules César fut assassiné le 15 mars 44 av. J.-C., un événement devenu l’un des épisodes les plus célèbres de l’histoire romaine."
+    },
+    {
+      "id": "gperso-11",
+      "question": "Quel président américain a aboli l’esclavage durant la guerre de Sécession ?",
+      "image": null,
+      "imagePrompt": "abraham lincoln portrait american history",
+      "answers": ["George Washington", "Theodore Roosevelt", "Abraham Lincoln", "Thomas Jefferson"],
+      "correctIndex": 2,
+      "explanation": "Abraham Lincoln est resté dans l’histoire pour son rôle crucial dans la préservation de l’Union et l’abolition de l’esclavage."
+    },
+    {
+      "id": "gperso-12",
+      "question": "Quel compositeur prodige autrichien a écrit dès son plus jeune âge des œuvres majeures ?",
+      "image": null,
+      "imagePrompt": "mozart composer classical music portrait",
+      "answers": ["Beethoven", "Bach", "Chopin", "Mozart"],
+      "correctIndex": 3,
+      "explanation": "Wolfgang Amadeus Mozart composait déjà enfant et demeure l’un des symboles les plus impressionnants du génie musical."
+    },
+    {
+      "id": "gperso-13",
+      "question": "Quel célèbre chef britannique a dirigé le Royaume-Uni durant une grande partie de la Seconde Guerre mondiale ?",
+      "image": null,
+      "imagePrompt": "winston churchill portrait world war ii leader",
+      "answers": ["Winston Churchill", "Neville Chamberlain", "Tony Blair", "Margaret Thatcher"],
+      "correctIndex": 0,
+      "explanation": "Winston Churchill est resté célèbre pour ses discours puissants et sa détermination face à l’Allemagne nazie."
+    },
+    {
+      "id": "gperso-14",
+      "question": "Quel militant américain est associé au discours « I Have a Dream » ?",
+      "image": null,
+      "imagePrompt": "martin luther king jr civil rights speech portrait",
+      "answers": ["Malcolm X", "Barack Obama", "Martin Luther King Jr.", "Frederick Douglass"],
+      "correctIndex": 2,
+      "explanation": "Martin Luther King Jr. est devenu l’un des plus grands symboles de la lutte pacifique pour les droits civiques aux États-Unis."
+    },
+    {
+      "id": "gperso-15",
+      "question": "Quel naturaliste britannique est l’auteur de « L’Origine des espèces » ?",
+      "image": null,
+      "imagePrompt": "charles darwin naturalist portrait evolution",
+      "answers": ["Gregor Mendel", "Charles Darwin", "Louis Pasteur", "Jean-Baptiste Lamarck"],
+      "correctIndex": 1,
+      "explanation": "Charles Darwin a profondément transformé la biologie en proposant une explication cohérente de l’évolution par sélection naturelle."
+    },
+    {
+      "id": "gperso-16",
+      "question": "Quelle artiste mexicaine est connue pour ses autoportraits marquants et sa vie hors du commun ?",
+      "image": null,
+      "imagePrompt": "frida kahlo portrait art mexico colorful",
+      "answers": ["Georgia O’Keeffe", "Frida Kahlo", "Tamara de Lempicka", "Leonora Carrington"],
+      "correctIndex": 1,
+      "explanation": "Frida Kahlo a transformé sa douleur, son identité et son histoire personnelle en une œuvre puissante et immédiatement reconnaissable."
+    },
+    {
+      "id": "gperso-17",
+      "question": "Quel écrivain français est l’auteur de « Les Misérables » ?",
+      "image": null,
+      "imagePrompt": "victor hugo french writer portrait literature",
+      "answers": ["Émile Zola", "Victor Hugo", "Honoré de Balzac", "Gustave Flaubert"],
+      "correctIndex": 1,
+      "explanation": "Victor Hugo a marqué la littérature française par l’ampleur de son œuvre, son engagement politique et son influence culturelle durable."
+    },
+    {
+      "id": "gperso-18",
+      "question": "Quel philosophe grec condamnée à mort a marqué l’histoire par sa méthode de questionnement ?",
+      "image": null,
+      "imagePrompt": "socrates ancient greek philosopher statue athens",
+      "answers": ["Platon", "Aristote", "Socrate", "Épicure"],
+      "correctIndex": 2,
+      "explanation": "Socrate n’a laissé aucun écrit, mais son art du dialogue et du questionnement a profondément influencé toute la philosophie occidentale."
+    },
+    {
+      "id": "gperso-19",
+      "question": "Quel chef mongol a fondé l’un des plus vastes empires de l’histoire ?",
+      "image": null,
+      "imagePrompt": "genghis khan mongol empire warrior portrait",
+      "answers": ["Tamerlan", "Gengis Khan", "Kubilaï Khan", "Attila"],
+      "correctIndex": 1,
+      "explanation": "Gengis Khan a unifié les tribus mongoles et lancé une expansion fulgurante qui a redessiné l’histoire de l’Asie et de l’Europe."
+    },
+    {
+      "id": "gperso-20",
+      "question": "Quelle femme politique française est devenue la première présidente du Parlement européen élue au suffrage universel ?",
+      "image": null,
+      "imagePrompt": "simone veil portrait european parliament france",
+      "answers": ["Édith Cresson", "Simone Signoret", "Simone Veil", "Marguerite Yourcenar"],
+      "correctIndex": 2,
+      "explanation": "Simone Veil est une figure majeure de la vie politique française et européenne, admirée pour son courage, sa dignité et son engagement."
+    }
+  ]
+}

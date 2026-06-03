@@ -1,0 +1,160 @@
+{
+  "slug": "quiz-sciences-cellules-bases-vie",
+  "title": "Quiz Sciences - Cellules - Plonge au cœur du vivant",
+  "description": "Teste tes connaissances sur les cellules, leur structure, leur fonctionnement et leur rôle dans le vivant.",
+  "descriptionSeo": "Plonge au cœur de la biologie cellulaire avec ce quiz de 20 questions dédié aux bases du vivant. Structure des cellules, ADN, organites, division cellulaire et différences entre cellules animales et végétales : révise les notions essentielles pour comprendre leur fonctionnement. Accessible et pédagogique, ce quiz permet d’apprendre efficacement tout en consolidant ses connaissances en sciences de la vie.",
+  "category": {
+    "name": "Sciences",
+    "slug": "sciences"
+  },
+  "createdAt": "2026-05-05",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777981745/cells_as7lzw.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777981745/cells_as7lzw.jpg",
+    "alt": "Quiz cellules bases de la vie"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "question": "Qu’est-ce qu’une cellule ?",
+      "answers": ["Une molécule", "Un organe", "La plus petite unité du vivant", "Un tissu"],
+      "correctIndex": 2,
+      "explanation": "La cellule est la plus petite unité capable de réaliser toutes les fonctions du vivant. Elle peut se nourrir, produire de l’énergie, interagir avec son environnement et se reproduire, ce qui en fait la base de tous les êtres vivants."
+    },
+    {
+      "id": "2",
+      "question": "Quel élément contient l’information génétique dans la cellule ?",
+      "answers": ["Le cytoplasme", "Les mitochondries", "Le noyau", "La membrane"],
+      "correctIndex": 2,
+      "explanation": "Le noyau contient l’ADN organisé en chromosomes. Cet ADN porte les instructions nécessaires à la fabrication des protéines et au fonctionnement global de la cellule."
+    },
+    {
+      "id": "3",
+      "question": "Qu’est-ce que l’ADN ?",
+      "answers": ["Une molécule contenant l’information génétique", "Un organe", "Une source d’énergie", "Un type de cellule"],
+      "correctIndex": 0,
+      "explanation": "L’ADN est une longue molécule en forme de double hélice qui contient les gènes. Ces gènes sont des instructions permettant de fabriquer les protéines nécessaires au fonctionnement du vivant."
+    },
+    {
+      "id": "4",
+      "question": "Quel est le rôle de la membrane cellulaire ?",
+      "answers": ["Stocker l’ADN", "Diviser la cellule", "Produire de l’énergie", "Protéger et contrôler les échanges"],
+      "correctIndex": 3,
+      "explanation": "La membrane cellulaire agit comme une barrière sélective. Elle laisse entrer les nutriments nécessaires et évacue les déchets, tout en protégeant la cellule de son environnement extérieur."
+    },
+    {
+      "id": "5",
+      "question": "Qu’est-ce que le cytoplasme ?",
+      "answers": ["Une membrane", "Un liquide contenant les organites", "Une structure rigide", "Un type d’ADN"],
+      "correctIndex": 1,
+      "explanation": "Le cytoplasme est un milieu gélatineux dans lequel se trouvent les organites. Il est le lieu de nombreuses réactions chimiques indispensables à la vie cellulaire."
+    },
+    {
+      "id": "6",
+      "question": "Quel organite est responsable de la production d’énergie dans la cellule ?",
+      "answers": ["Le ribosome", "Le noyau", "Le chloroplaste", "Les mitochondries"],
+      "correctIndex": 3,
+      "explanation": "Les mitochondries produisent l’ATP, une molécule énergétique essentielle. Elles utilisent les nutriments et l’oxygène pour libérer de l’énergie utilisable par la cellule."
+    },
+    {
+      "id": "7",
+      "question": "Quelle différence principale existe entre une cellule animale et végétale ?",
+      "answers": ["La cellule animale a une paroi rigide", "La cellule végétale possède une paroi et des chloroplastes", "La cellule animale contient de la chlorophylle", "La cellule végétale n’a pas de noyau"],
+      "correctIndex": 1,
+      "explanation": "Les cellules végétales possèdent une paroi cellulaire rigide et des chloroplastes qui permettent la photosynthèse. Les cellules animales, elles, n’ont ni paroi ni chloroplastes."
+    },
+    {
+      "id": "8",
+      "question": "Quel organite permet la photosynthèse chez les plantes ?",
+      "answers": ["Le chloroplaste", "Le noyau", "La mitochondrie", "Le ribosome"],
+      "correctIndex": 0,
+      "explanation": "Les chloroplastes contiennent la chlorophylle, un pigment capable de capter l’énergie lumineuse et de la transformer en énergie chimique lors de la photosynthèse."
+    },
+    {
+      "id": "9",
+      "question": "Qu’est-ce que la division cellulaire ?",
+      "answers": ["Une fusion de cellules", "Une digestion", "Une mort cellulaire", "La multiplication des cellules"],
+      "correctIndex": 3,
+      "explanation": "La division cellulaire permet à une cellule de donner naissance à deux cellules filles. Ce processus est essentiel pour la croissance, la réparation des tissus et la reproduction."
+    },
+    {
+      "id": "10",
+      "question": "Quel type de cellule ne possède pas de noyau ?",
+      "answers": ["Cellule musculaire", "Cellule végétale", "Cellule animale", "Bactérie"],
+      "correctIndex": 3,
+      "explanation": "Les bactéries sont des cellules procaryotes. Leur ADN n’est pas contenu dans un noyau mais libre dans le cytoplasme, ce qui les distingue des cellules eucaryotes."
+    },
+    {
+      "id": "11",
+      "question": "Quel est le rôle des ribosomes ?",
+      "answers": ["Synthétiser des protéines", "Produire de l’énergie", "Transporter l’oxygène", "Stocker l’ADN"],
+      "correctIndex": 0,
+      "explanation": "Les ribosomes lisent les instructions de l’ADN et fabriquent les protéines. Ces protéines sont indispensables pour la structure et le fonctionnement de la cellule."
+    },
+    {
+      "id": "12",
+      "question": "Qu’est-ce qu’un organite ?",
+      "answers": ["Une cellule entière", "Un virus", "Une structure spécialisée dans la cellule", "Un type d’ADN"],
+      "correctIndex": 2,
+      "explanation": "Un organite est une structure interne à la cellule qui remplit une fonction spécifique, comme la production d’énergie ou la synthèse de molécules."
+    },
+    {
+      "id": "13",
+      "question": "Quel est le rôle principal de l’ADN ?",
+      "answers": ["Transporter les nutriments", "Contenir les instructions du vivant", "Protéger la cellule", "Produire de l’énergie"],
+      "correctIndex": 1,
+      "explanation": "L’ADN contient les gènes, qui sont les instructions permettant à la cellule de fabriquer des protéines et de fonctionner correctement."
+    },
+    {
+      "id": "14",
+      "question": "Qu’est-ce que la mitose ?",
+      "answers": ["Une fusion cellulaire", "Une mutation", "Une division donnant deux cellules identiques", "Une digestion cellulaire"],
+      "correctIndex": 2,
+      "explanation": "La mitose est une division cellulaire qui produit deux cellules identiques à la cellule d’origine, avec le même matériel génétique."
+    },
+    {
+      "id": "15",
+      "question": "Quelle structure donne sa rigidité à la cellule végétale ?",
+      "answers": ["Le cytoplasme", "La membrane", "Le noyau", "La paroi cellulaire"],
+      "correctIndex": 3,
+      "explanation": "La paroi cellulaire, composée notamment de cellulose, renforce la cellule végétale et lui permet de conserver sa forme."
+    },
+    {
+      "id": "16",
+      "question": "Qu’est-ce que la photosynthèse ?",
+      "answers": ["Une division cellulaire", "Une digestion", "Une transformation de la lumière en énergie chimique", "Une respiration cellulaire"],
+      "correctIndex": 2,
+      "explanation": "La photosynthèse permet aux plantes de produire du glucose à partir de la lumière, du dioxyde de carbone et de l’eau, tout en libérant de l’oxygène."
+    },
+    {
+      "id": "17",
+      "question": "Quelle est la fonction principale des mitochondries ?",
+      "answers": ["Produire de l’énergie", "Synthétiser les protéines", "Protéger la cellule", "Stocker l’ADN"],
+      "correctIndex": 0,
+      "explanation": "Les mitochondries sont souvent appelées les “centrales énergétiques” de la cellule car elles produisent l’ATP utilisé pour les activités cellulaires."
+    },
+    {
+      "id": "18",
+      "question": "Qu’est-ce qu’une cellule procaryote ?",
+      "answers": ["Une cellule avec noyau", "Une cellule végétale", "Une cellule animale", "Une cellule sans noyau"],
+      "correctIndex": 3,
+      "explanation": "Les cellules procaryotes, comme les bactéries, ne possèdent pas de noyau. Leur ADN est libre dans le cytoplasme."
+    },
+    {
+      "id": "19",
+      "question": "Qu’est-ce qu’une cellule eucaryote ?",
+      "answers": ["Une cellule uniquement végétale", "Une cellule sans ADN", "Une cellule avec noyau", "Une cellule uniquement animale"],
+      "correctIndex": 2,
+      "explanation": "Les cellules eucaryotes possèdent un noyau contenant l’ADN. Elles incluent les cellules animales, végétales et fongiques."
+    },
+    {
+      "id": "20",
+      "question": "Pourquoi les cellules sont-elles essentielles à la vie ?",
+      "answers": ["Elles remplacent les organes", "Elles produisent la lumière", "Elles remplacent l’eau", "Elles constituent tous les êtres vivants"],
+      "correctIndex": 3,
+      "explanation": "Tous les êtres vivants sont constitués de cellules. Elles assurent toutes les fonctions vitales, de la production d’énergie à la reproduction."
+    }
+  ]
+}

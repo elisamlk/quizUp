@@ -1,0 +1,130 @@
+{
+  "slug": "test-quel-type-de-parent-serais-tu",
+  "title": "Test famille - Quel type de parent serais-tu ?",
+  "description": "Quel parent serais-tu face aux situations du quotidien ?",
+  "descriptionSeo": "Autorité, bienveillance, organisation… ce test révèle quel type de parent tu serais vraiment. À travers des situations concrètes, découvre ton style éducatif et ta manière de gérer les enfants au quotidien.",
+  "category": {
+    "name": "Famille",
+    "slug": "famille"
+  },
+  "createdAt": "2026-04-27",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777375273/cover_odaqgl.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777375273/cover_odaqgl.jpg",
+    "alt": "Test type de parent"
+  },
+  "profiles": [
+    {
+      "key": "cool",
+      "title": "Le parent cool",
+      "description": "Tu serais un parent détendu, à l’écoute et proche de ton enfant. Tu privilégies le dialogue, la confiance et la liberté. Tu n’aimes pas imposer trop de règles et tu préfères expliquer plutôt que punir. Tu veux que ton enfant se sente compris et libre d’être lui-même. Tu peux parfois manquer de cadre, mais tu compenses avec beaucoup d’affection et de présence. Tu es le type de parent avec qui on se sent à l’aise, en sécurité émotionnelle, et avec qui la relation est fluide et naturelle.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777375671/cool-parent_ya6qle.jpg"
+    },
+    {
+      "key": "equilibre",
+      "title": "Le parent équilibré",
+      "description": "Tu serais un parent juste et équilibré. Tu sais poser des limites quand c’est nécessaire, mais tu restes à l’écoute et bienveillant(e). Tu cherches à comprendre ton enfant tout en gardant un cadre clair. Tu sais dire non sans culpabiliser, et oui quand c’est mérité. Tu privilégies une éducation basée sur le respect, la communication et la cohérence. Tu es capable de t’adapter selon les situations. Ton objectif : accompagner ton enfant tout en lui donnant des repères solides.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777375671/equilibre_tgolvz.jpg"
+    },
+    {
+      "key": "strict",
+      "title": "Le parent strict",
+      "description": "Tu serais un parent structuré, exigeant et attentif au cadre. Tu considères que les règles sont essentielles pour bien grandir. Tu veux transmettre des valeurs, du respect et une certaine discipline. Tu peux parfois être ferme, voire rigide, mais c’est parce que tu veux le meilleur pour ton enfant. Tu privilégies la stabilité, la rigueur et les limites claires. Tu es un parent sur qui on peut compter, même si tu peux parfois manquer de souplesse. Ton objectif est de préparer ton enfant à la réalité.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777375671/strict_rxijhh.jpg"
+    }
+  ],
+  "questions": [
+    {
+      "id": "1",
+      "question": "Ton enfant refuse de mettre ses chaussures pour sortir…",
+      "answers": [
+        { "label": "Je discute pour comprendre", "scores": { "cool": 3 } },
+        { "label": "Je négocie un peu puis je tranche", "scores": { "equilibre": 3 } },
+        { "label": "Je dis que c’est non négociable", "scores": { "strict": 3 } }
+      ]
+    },
+    {
+      "id": "2",
+      "question": "Il/elle veut regarder un écran en plus…",
+      "answers": [
+        { "label": "Je laisse faire", "scores": { "cool": 3 } },
+        { "label": "Je limite", "scores": { "equilibre": 3 } },
+        { "label": "Je refuse", "scores": { "strict": 3 } }
+      ]
+    },
+    {
+      "id": "3",
+      "question": "Ton enfant fait une crise en public…",
+      "answers": [
+        { "label": "Je reste calme et je parle", "scores": { "cool": 3 } },
+        { "label": "Je gère rapidement", "scores": { "equilibre": 3 } },
+        { "label": "Je recadre fermement", "scores": { "strict": 3 } }
+      ]
+    },
+    {
+      "id": "4",
+      "question": "Les devoirs ne sont pas faits…",
+      "answers": [
+        { "label": "Je comprends pourquoi", "scores": { "cool": 3 } },
+        { "label": "Je fais refaire", "scores": { "equilibre": 3 } },
+        { "label": "Je sanctionne", "scores": { "strict": 3 } }
+      ]
+    },
+    {
+      "id": "5",
+      "question": "Ton enfant te ment…",
+      "answers": [
+        { "label": "Je discute pour comprendre", "scores": { "cool": 3 } },
+        { "label": "Je fais comprendre que ce n’est pas ok", "scores": { "equilibre": 3 } },
+        { "label": "Je punis directement", "scores": { "strict": 3 } }
+      ]
+    },
+    {
+      "id": "6",
+      "question": "Heure du coucher…",
+      "answers": [
+        { "label": "Flexible", "scores": { "cool": 3 } },
+        { "label": "Adaptée mais cadrée", "scores": { "equilibre": 3 } },
+        { "label": "Fixe et non négociable", "scores": { "strict": 3 } }
+      ]
+    },
+    {
+      "id": "7",
+      "question": "Ton enfant veut abandonner une activité…",
+      "answers": [
+        { "label": "Je le laisse choisir", "scores": { "cool": 3 } },
+        { "label": "J’en discute avant", "scores": { "equilibre": 3 } },
+        { "label": "Je refuse d’abandonner", "scores": { "strict": 3 } }
+      ]
+    },
+    {
+      "id": "8",
+      "question": "Un caprice en magasin…",
+      "answers": [
+        { "label": "Je cède parfois", "scores": { "cool": 3 } },
+        { "label": "Je reste ferme mais calme", "scores": { "equilibre": 3 } },
+        { "label": "Je dis non clairement", "scores": { "strict": 3 } }
+      ]
+    },
+    {
+      "id": "9",
+      "question": "Ton enfant ne range pas…",
+      "answers": [
+        { "label": "Je le fais avec lui/elle", "scores": { "cool": 3 } },
+        { "label": "Je rappelle la règle", "scores": { "equilibre": 3 } },
+        { "label": "Je l’oblige", "scores": { "strict": 3 } }
+      ]
+    },
+    {
+      "id": "10",
+      "question": "Au fond, être parent pour toi c’est…",
+      "answers": [
+        { "label": "Accompagner", "scores": { "cool": 3 } },
+        { "label": "Guider", "scores": { "equilibre": 3 } },
+        { "label": "Encadrer", "scores": { "strict": 3 } }
+      ]
+    }
+  ]
+}

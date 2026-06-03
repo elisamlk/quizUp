@@ -1,0 +1,200 @@
+{
+  "slug": "quiz-culture-generale-top-5-pourcent",
+  "title": "Quiz Culture Générale - Fais-tu partie du Top 5% ?",
+  "description": "Teste ton niveau avec 20 questions difficiles et découvre si tu fais partie des 5% les plus cultivés.",
+ "descriptionSeo": "Pensez-vous vraiment avoir une excellente culture générale ? Ce quiz difficile vous met au défi avec 20 questions pointues mêlant histoire, sciences, géographie, philosophie et culture mondiale. Conçu pour tester les esprits les plus affûtés, il permet de mesurer votre niveau réel et de découvrir si vous faites partie du top 5% des personnes les plus cultivées. Chaque question est accompagnée d’explications détaillées pour apprendre, comprendre et retenir des faits marquants. Idéal pour les passionnés de quiz, de connaissances et de défis intellectuels.",
+  "category": {
+    "name": "Culture générale",
+    "slug": "culture-generale"
+  },
+  "createdAt": "2026-03-30",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1773920482/cover_zyhwov.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1773920482/cover_zyhwov.jpg",
+    "alt": "Quiz culture générale top 5%"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "question": "Quel traité met officiellement fin à la guerre de Trente Ans en 1648 ?",
+      "image": null,
+      "imagePrompt": "Treaty of Westphalia map",
+      "answers": ["Traité de Tordesillas", "Paix de Westphalie", "Traité de Versailles", "Traité d'Utrecht"],
+      "correctIndex": 1,
+      "explanation": "La Paix de Westphalie (1648) redessine profondément l’Europe et marque la naissance du système moderne des États souverains, fondé sur la non-ingérence."
+    },
+    {
+      "id": "2",
+      "question": "Quel mathématicien a formalisé les bases de la théorie des ensembles ?",
+      "image": null,
+      "imagePrompt": "Georg Cantor portrait",
+      "answers": ["Hilbert", "Cantor", "Gödel", "Euler"],
+      "correctIndex": 2,
+      "explanation": "Georg Cantor introduit la notion d’infini dénombrable et indénombrable, révolutionnant les mathématiques en montrant que tous les infinis ne sont pas équivalents."
+    },
+    {
+      "id": "3",
+      "question": "Quelle est la capitale historique de l’Empire byzantin ?",
+      "image": null,
+      "imagePrompt": "Constantinople Hagia Sophia",
+      "answers": ["Athènes", "Rome", "Constantinople", "Alexandrie"],
+      "correctIndex": 3,
+      "explanation": "Constantinople, aujourd’hui Istanbul, fut le centre politique, économique et religieux de l’Empire byzantin pendant plus de 1000 ans."
+    },
+    {
+      "id": "4",
+      "question": "Quel physicien est à l’origine du principe d’incertitude ?",
+      "image": null,
+      "imagePrompt": "Heisenberg portrait",
+      "answers": ["Einstein", "Bohr", "Heisenberg", "Planck"],
+      "correctIndex": 2,
+      "explanation": "Werner Heisenberg démontre qu’on ne peut connaître simultanément avec précision la position et la vitesse d’une particule, une limite fondamentale de la physique quantique."
+    },
+    {
+      "id": "5",
+      "question": "Quel philosophe est l’auteur de 'Critique de la raison pure' ?",
+      "image": null,
+      "imagePrompt": "Kant portrait",
+      "answers": ["Descartes", "Hegel", "Kant", "Spinoza"],
+      "correctIndex": 2,
+      "explanation": "Immanuel Kant y développe une réflexion majeure sur les limites de la connaissance humaine, distinguant ce que nous pouvons connaître de ce qui nous échappe."
+    },
+    {
+      "id": "6",
+      "question": "Quel est le nom de la couche atmosphérique où se situe la couche d’ozone ?",
+      "image": null,
+      "imagePrompt": "stratosphere layers",
+      "answers": ["Troposphère", "Stratosphère", "Mésosphère", "Thermosphère"],
+      "correctIndex": 1,
+      "explanation": "La couche d’ozone se trouve dans la stratosphère et joue un rôle crucial en filtrant les rayons ultraviolets nocifs du Soleil."
+    },
+    {
+      "id": "7",
+      "question": "Quel empereur romain a légalisé le christianisme avec l’édit de Milan ?",
+      "image": null,
+      "imagePrompt": "Constantine statue",
+      "answers": ["Néron", "Auguste", "Constantin", "Trajan"],
+      "correctIndex": 2,
+      "explanation": "Constantin Ier promulgue l’édit de Milan en 313, mettant fin aux persécutions contre les chrétiens et amorçant leur ascension dans l’Empire."
+    },
+    {
+      "id": "8",
+      "question": "Quelle est la langue officielle la plus parlée en Afrique ?",
+      "image": null,
+      "imagePrompt": "Swahili map",
+      "answers": ["Français", "Arabe", "Swahili", "Anglais"],
+      "correctIndex": 2,
+      "explanation": "Le swahili est une langue véhiculaire majeure en Afrique de l’Est, utilisée par des dizaines de millions de locuteurs comme langue commune."
+    },
+    {
+      "id": "9",
+      "question": "Quel scientifique a proposé les lois du mouvement planétaire avant Newton ?",
+      "image": null,
+      "imagePrompt": "Kepler orbit diagram",
+      "answers": ["Copernic", "Galilée", "Kepler", "Tycho Brahe"],
+      "correctIndex": 2,
+      "explanation": "Johannes Kepler a décrit les orbites elliptiques des planètes, préparant le terrain aux lois de la gravitation de Newton."
+    },
+    {
+      "id": "10",
+      "question": "Quel pays possède le plus grand nombre de fuseaux horaires ?",
+      "image": null,
+      "imagePrompt": "France overseas map",
+      "answers": ["Russie", "États-Unis", "France", "Chine"],
+      "correctIndex": 2,
+      "explanation": "Grâce à ses territoires d’outre-mer, la France couvre 12 fuseaux horaires, ce qui en fait le pays le plus étendu en termes de temps."
+    },
+    {
+      "id": "11",
+      "question": "Quel est le plus petit os du corps humain ?",
+      "image": null,
+      "imagePrompt": "stapes ear bone",
+      "answers": ["Rotule", "Étrier", "Radius", "Cubitus"],
+      "correctIndex": 1,
+      "explanation": "L’étrier, situé dans l’oreille moyenne, mesure environ 3 mm et joue un rôle essentiel dans la transmission des vibrations sonores."
+    },
+    {
+      "id": "12",
+      "question": "Quel écrivain est à l’origine du courant naturaliste ?",
+      "image": null,
+      "imagePrompt": "Emile Zola portrait",
+      "answers": ["Balzac", "Zola", "Flaubert", "Maupassant"],
+      "correctIndex": 1,
+      "explanation": "Émile Zola applique une méthode quasi scientifique à la littérature, cherchant à décrire les déterminismes sociaux et biologiques."
+    },
+    {
+      "id": "13",
+      "question": "Quel est le nombre d’os dans le corps humain adulte ?",
+      "image": null,
+      "imagePrompt": "human skeleton labeled",
+      "answers": ["206", "210", "198", "220"],
+      "correctIndex": 0,
+      "explanation": "Le corps humain compte 206 os à l’âge adulte, certains os s’étant soudés après l’enfance."
+    },
+    {
+      "id": "14",
+      "question": "Quelle civilisation a inventé l’écriture cunéiforme ?",
+      "image": null,
+      "imagePrompt": "cuneiform tablets",
+      "answers": ["Égyptiens", "Sumériens", "Mayas", "Grecs"],
+      "correctIndex": 1,
+      "explanation": "Les Sumériens, en Mésopotamie, ont développé l’écriture cunéiforme vers 3200 av. J.-C., marquant le début de l’histoire écrite."
+    },
+    {
+      "id": "15",
+      "question": "Quel est le nom du plus grand satellite naturel de Saturne ?",
+      "image": null,
+      "imagePrompt": "Titan moon",
+      "answers": ["Europa", "Titan", "Ganymède", "Io"],
+      "correctIndex": 1,
+      "explanation": "Titan possède une atmosphère dense et des lacs d’hydrocarbures, ce qui en fait un objet d’étude majeur pour l’astrobiologie."
+    },
+    {
+      "id": "16",
+      "question": "Quelle bataille marque la fin de Napoléon en 1815 ?",
+      "image": null,
+      "imagePrompt": "Waterloo battle painting",
+      "answers": ["Austerlitz", "Waterloo", "Iéna", "Trafalgar"],
+      "correctIndex": 1,
+      "explanation": "La défaite de Waterloo face aux forces alliées entraîne l’abdication définitive de Napoléon et son exil à Sainte-Hélène."
+    },
+    {
+      "id": "17",
+      "question": "Quel gaz est le plus abondant dans l’atmosphère terrestre ?",
+      "image": null,
+      "imagePrompt": "nitrogen atmosphere",
+      "answers": ["Oxygène", "Azote", "CO2", "Argon"],
+      "correctIndex": 1,
+      "explanation": "L’azote représente environ 78% de l’atmosphère, loin devant l’oxygène (~21%)."
+    },
+    {
+      "id": "18",
+      "question": "Quel philosophe a théorisé le 'contrat social' en 1762 ?",
+      "image": null,
+      "imagePrompt": "Rousseau portrait",
+      "answers": ["Locke", "Rousseau", "Hobbes", "Voltaire"],
+      "correctIndex": 1,
+      "explanation": "Jean-Jacques Rousseau développe l’idée que la souveraineté appartient au peuple, influençant profondément les révolutions modernes."
+    },
+    {
+      "id": "19",
+      "question": "Quel est le plus grand organe interne du corps humain ?",
+      "image": null,
+      "imagePrompt": "liver anatomy",
+      "answers": ["Cerveau", "Foie", "Poumon", "Rein"],
+      "correctIndex": 3,
+      "explanation": "Le foie est l’organe interne le plus volumineux et remplit des fonctions vitales : détoxification, production de bile et stockage de nutriments."
+    },
+    {
+      "id": "20",
+      "question": "Quel scientifique a démontré que la Terre tourne autour du Soleil ?",
+      "image": null,
+      "imagePrompt": "Copernicus heliocentric model",
+      "answers": ["Ptolémée", "Copernic", "Galilée", "Newton"],
+      "correctIndex": 0,
+      "explanation": "Nicolas Copernic propose le modèle héliocentrique au XVIe siècle, remettant en cause la vision géocentrique dominante depuis l’Antiquité."
+    }
+  ]
+}

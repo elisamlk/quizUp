@@ -1,0 +1,63 @@
+{
+  "slug": "memory-animaux",
+  "title": "Memory Animaux - Retrouve toutes les paires",
+  "description": "Retourne les cartes, mémorise les positions et retrouve toutes les paires d’animaux.",
+  "descriptionSeo": "Teste ta mémoire avec ce jeu Memory Animaux gratuit et amusant. Retourne les cartes, retrouve les paires d’animaux le plus rapidement possible et améliore ton score à chaque partie. Lion, panda, koala, tigre et bien d’autres t’attendent dans ce mini-jeu simple, rapide et accessible sur mobile comme sur ordinateur. Un excellent jeu de mémoire pour enfants et adultes qui aiment les défis ludiques et les animaux mignons.",
+  "type": "memory",
+  "category": {
+    "name": "Animaux",
+    "slug": "animaux"
+  },
+  "createdAt": "2026-05-15",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1779798349/animaux_pakt1f.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1779798349/animaux_pakt1f.jpg",
+    "alt": "Memory Animaux"
+  },
+  "data": {
+    "cards": [
+      {
+        "id": "lion",
+        "label": "Lion",
+        "emoji": "🦁"
+      },
+      {
+        "id": "tigre",
+        "label": "Tigre",
+        "emoji": "🐯"
+      },
+      {
+        "id": "singe",
+        "label": "Singe",
+        "emoji": "🐵"
+      },
+      {
+        "id": "chien",
+        "label": "Chien",
+        "emoji": "🐶"
+      },
+      {
+        "id": "chat",
+        "label": "Chat",
+        "emoji": "🐱"
+      },
+      {
+        "id": "renard",
+        "label": "Renard",
+        "emoji": "🦊"
+      },
+      {
+        "id": "panda",
+        "label": "Panda",
+        "emoji": "🐼"
+      },
+      {
+        "id": "koala",
+        "label": "Koala",
+        "emoji": "🐨"
+      }
+    ]
+  }
+}

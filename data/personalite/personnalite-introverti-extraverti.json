@@ -1,0 +1,359 @@
+{
+  "slug": "test-personnalite-introverti-extraverti-ou-ambiverti",
+  "title": "Test personnalité - Introverti, extraverti ou ambiverti ?",
+  "description": "Es-tu plutôt réservé, sociable ou entre les deux ? Fais le test pour le savoir.",
+  "descriptionSeo": "Ce test de personnalité permet d’identifier si ton fonctionnement est plutôt introverti, extraverti ou ambiverti. À travers des questions sur tes habitudes, ton énergie et ta manière d’interagir avec les autres, analyse ce qui te correspond le mieux. Un test simple et révélateur pour mieux comprendre ton rapport aux relations, aux environnements sociaux et aux moments de solitude dans ton quotidien.",
+  "category": {
+    "name": "Psychologie",
+    "slug": "psychologie"
+  },
+  "createdAt": "2026-04-20",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776775124/introvert_xgy9oy.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776775124/introvert_xgy9oy.jpg",
+    "alt": "Test de personnalité introverti extraverti ou ambiverti"
+  },
+  "profiles": [
+    {
+      "key": "introverti",
+      "title": "L'Introverti",
+      "description": "Tu es plutôt introverti. Tu te ressourves avant tout dans le calme, la solitude choisie et les environnements apaisants. Tu apprécies les échanges profonds plus que les discussions superficielles, et tu préfères souvent observer avant de t’exprimer. Tu n’es pas forcément timide ni distant : tu as simplement besoin de protéger ton énergie et de prendre du recul pour te sentir bien. Les grands groupes ou les ambiances trop intenses peuvent vite te fatiguer, alors que les moments seuls ou avec quelques personnes de confiance te font du bien. Tu réfléchis souvent avant d’agir et tu accordes de l’importance à la qualité des relations plutôt qu’à la quantité. Ton défi est de ne pas trop t’isoler ou de te faire oublier dans certains contextes plus bruyants. Ta force réside dans ta profondeur, ton écoute, ta sensibilité et ta capacité à créer des liens sincères et authentiques.",
+      "image":"https://res.cloudinary.com/dsv7oziap/image/upload/v1776777703/intro_qq7wpy.jpg"
+    },
+    {
+      "key": "extraverti",
+      "title": "L'Extraverti",
+      "description": "Tu es plutôt extraverti. Tu tires ton énergie du contact avec les autres, de l’action, du mouvement et des environnements vivants. Tu aimes échanger, partager, découvrir et vivre pleinement les situations. Les discussions, les rencontres et les moments de groupe te stimulent souvent plus qu’ils ne t’épuisent. Tu es généralement spontané, à l’aise pour t’exprimer et assez naturel dans les interactions sociales. Tu peux facilement créer du lien, mettre de l’ambiance ou entraîner les autres avec toi. Tu apprécies la nouveauté, le rythme et les expériences qui te sortent de la routine. En revanche, tu peux parfois agir trop vite, parler avant d’avoir tout réfléchi ou avoir du mal avec les temps calmes prolongés. Ton défi est de garder des moments de recentrage pour ne pas te disperser. Ta force réside dans ton énergie, ton aisance relationnelle et ta capacité à dynamiser ton entourage.",
+      "image":"https://res.cloudinary.com/dsv7oziap/image/upload/v1776775123/extravert_ufqgpj.jpg"
+    },
+    {
+      "key": "ambiverti",
+      "title": "L'Ambiverti",
+      "description": "Tu es plutôt ambiverti, c’est-à-dire à l’équilibre entre introversion et extraversion. Selon les moments, les personnes ou le contexte, tu peux aimer être entouré et très à l’aise socialement, puis ressentir ensuite un vrai besoin de calme et de retour à toi. Tu n’es pas enfermé dans une seule manière d’être : tu sais apprécier les échanges, les sorties et les environnements stimulants, tout en ayant aussi besoin de profondeur, de solitude et d’espace mental. Cette flexibilité fait de toi quelqu’un d’adaptable, nuancé et souvent facile à comprendre pour les autres. Tu peux te montrer sociable sans chercher constamment l’attention, et réfléchi sans être coupé du monde. Ton défi est parfois de te sentir entre deux fonctionnements sans toujours savoir lequel te définit le mieux. Pourtant, c’est justement cette souplesse qui fait ta richesse. Ta force réside dans ton équilibre, ta capacité d’adaptation et ta compréhension fine des différentes dynamiques sociales.",
+      "image":"https://res.cloudinary.com/dsv7oziap/image/upload/v1776775562/balanced_bukayi.jpg"
+    }
+  ],
+  "questions": [
+    {
+      "id": "1",
+      "question": "Après une longue semaine, ce qui te recharge le plus est…",
+      "image": null,
+      "answers": [
+        {
+          "label": "Passer du temps seul dans le calme",
+          "scores": {
+            "introverti": 3
+          }
+        },
+        {
+          "label": "Sortir, voir du monde ou faire quelque chose d’animé",
+          "scores": {
+            "extraverti": 3
+          }
+        },
+        {
+          "label": "Alterner entre moment seul et moment avec d’autres",
+          "scores": {
+            "ambiverti": 3
+          }
+        },
+        {
+          "label": "Voir seulement quelques proches dans un cadre tranquille",
+          "scores": {
+            "introverti": 2,
+            "ambiverti": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "question": "Dans un groupe que tu ne connais pas bien, tu es plutôt…",
+      "image": null,
+      "answers": [
+        {
+          "label": "Réservé au début, j’observe avant de parler",
+          "scores": {
+            "introverti": 3
+          }
+        },
+        {
+          "label": "À l’aise, je vais facilement vers les autres",
+          "scores": {
+            "extraverti": 3
+          }
+        },
+        {
+          "label": "Sociable si l’ambiance me plaît, sinon plus discret",
+          "scores": {
+            "ambiverti": 3
+          }
+        },
+        {
+          "label": "Plutôt à l’aise avec une ou deux personnes seulement",
+          "scores": {
+            "introverti": 2,
+            "ambiverti": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "question": "Quand tu as une bonne nouvelle, ton premier réflexe est…",
+      "image": null,
+      "answers": [
+        {
+          "label": "La garder un peu pour moi avant d’en parler",
+          "scores": {
+            "introverti": 3
+          }
+        },
+        {
+          "label": "La partager immédiatement avec d’autres",
+          "scores": {
+            "extraverti": 3
+          }
+        },
+        {
+          "label": "La partager avec quelques personnes choisies",
+          "scores": {
+            "ambiverti": 3
+          }
+        },
+        {
+          "label": "Attendre le bon moment selon la situation",
+          "scores": {
+            "ambiverti": 2,
+            "introverti": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "question": "Les grandes soirées ou les événements très animés te font plutôt…",
+      "image": null,
+      "answers": [
+        {
+          "label": "Vite fatiguer, même si ça peut être sympa un moment",
+          "scores": {
+            "introverti": 3
+          }
+        },
+        {
+          "label": "Me donner de l’énergie et de l’enthousiasme",
+          "scores": {
+            "extraverti": 3
+          }
+        },
+        {
+          "label": "Me plaire selon mon humeur et les gens présents",
+          "scores": {
+            "ambiverti": 3
+          }
+        },
+        {
+          "label": "Me convenir si je peux aussi avoir des temps calmes",
+          "scores": {
+            "ambiverti": 2,
+            "introverti": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "question": "Dans une discussion, tu as tendance à…",
+      "image": null,
+      "answers": [
+        {
+          "label": "Écouter beaucoup avant de prendre la parole",
+          "scores": {
+            "introverti": 3
+          }
+        },
+        {
+          "label": "Parler spontanément et rebondir facilement",
+          "scores": {
+            "extraverti": 3
+          }
+        },
+        {
+          "label": "M’adapter selon les personnes et le sujet",
+          "scores": {
+            "ambiverti": 3
+          }
+        },
+        {
+          "label": "Préférer les échanges en petit comité",
+          "scores": {
+            "introverti": 2,
+            "ambiverti": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "question": "Quand tu passes trop de temps seul…",
+      "image": null,
+      "answers": [
+        {
+          "label": "Ça me convient assez bien, j’en ai souvent besoin",
+          "scores": {
+            "introverti": 3
+          }
+        },
+        {
+          "label": "Je finis par avoir envie de voir du monde rapidement",
+          "scores": {
+            "extraverti": 3
+          }
+        },
+        {
+          "label": "Ça dépend vraiment de mon énergie du moment",
+          "scores": {
+            "ambiverti": 3
+          }
+        },
+        {
+          "label": "J’apprécie un temps, puis j’ai besoin de lien",
+          "scores": {
+            "ambiverti": 2,
+            "introverti": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "question": "Ce qui te correspond le mieux au quotidien…",
+      "image": null,
+      "answers": [
+        {
+          "label": "J’ai besoin de calme pour me sentir bien",
+          "scores": {
+            "introverti": 3
+          }
+        },
+        {
+          "label": "J’ai besoin de stimulation et d’échanges",
+          "scores": {
+            "extraverti": 3
+          }
+        },
+        {
+          "label": "J’ai besoin d’un équilibre entre les deux",
+          "scores": {
+            "ambiverti": 3
+          }
+        },
+        {
+          "label": "Je peux être très sociable puis avoir besoin de me couper",
+          "scores": {
+            "ambiverti": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "question": "Quand tu rencontres quelqu’un de nouveau, tu…",
+      "image": null,
+      "answers": [
+        {
+          "label": "Prends ton temps avant d’être vraiment à l’aise",
+          "scores": {
+            "introverti": 3
+          }
+        },
+        {
+          "label": "Engages facilement la conversation",
+          "scores": {
+            "extraverti": 3
+          }
+        },
+        {
+          "label": "Peux être très ouvert ou plus réservé selon le feeling",
+          "scores": {
+            "ambiverti": 3
+          }
+        },
+        {
+          "label": "Préfères d’abord observer sa personnalité",
+          "scores": {
+            "introverti": 2,
+            "ambiverti": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "question": "Dans ton cercle social idéal, tu préfères…",
+      "image": null,
+      "answers": [
+        {
+          "label": "Peu de personnes, mais des liens profonds",
+          "scores": {
+            "introverti": 3
+          }
+        },
+        {
+          "label": "Beaucoup d’échanges et un cercle assez large",
+          "scores": {
+            "extraverti": 3
+          }
+        },
+        {
+          "label": "Un mélange entre proches et relations variées",
+          "scores": {
+            "ambiverti": 3
+          }
+        },
+        {
+          "label": "Des relations sincères, avec aussi un peu de nouveauté",
+          "scores": {
+            "ambiverti": 2,
+            "introverti": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "question": "La phrase qui te correspond le plus est…",
+      "image": null,
+      "answers": [
+        {
+          "label": "Je me ressource surtout dans la solitude",
+          "scores": {
+            "introverti": 3
+          }
+        },
+        {
+          "label": "Je me ressource surtout au contact des autres",
+          "scores": {
+            "extraverti": 3
+          }
+        },
+        {
+          "label": "Mon énergie dépend du contexte et de mon humeur",
+          "scores": {
+            "ambiverti": 3
+          }
+        },
+        {
+          "label": "J’aime les autres, mais j’ai besoin de vrais moments à moi",
+          "scores": {
+            "ambiverti": 2,
+            "introverti": 1
+          }
+        }
+      ]
+    }
+  ]
+}

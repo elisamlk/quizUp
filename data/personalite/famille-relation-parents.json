@@ -1,0 +1,146 @@
+{
+  "slug": "test-relation-avec-tes-parents",
+  "title": "Test famille - Quelle est ta relation avec tes parents ?",
+  "description": "Comment te situes-tu vraiment dans ta relation avec tes parents ?",
+  "descriptionSeo": "Communication, distance, émotions… ce test analyse ta relation avec tes parents à travers des situations concrètes. Découvre si ton lien est fusionnel, équilibré, distant ou conflictuel.",
+  "category": {
+    "name": "Famille",
+    "slug": "famille"
+  },
+  "createdAt": "2026-04-27",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777377070/cover_x6fvdz.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777377070/cover_x6fvdz.jpg",
+    "alt": "Test relation parents"
+  },
+  "profiles": [
+    {
+      "key": "fusionnelle",
+      "title": "Relation fusionnelle",
+      "description": "Tu es très proche de tes parents, parfois même très lié(e) émotionnellement. Vous partagez beaucoup, vous communiquez facilement et tu ressens souvent le besoin de les avoir dans ta vie au quotidien. Leur avis compte beaucoup pour toi, et il t’arrive de te tourner vers eux instinctivement. Cette relation est forte, rassurante et pleine d’attachement. Elle peut parfois manquer de distance, mais elle repose sur un lien sincère et profond. Tu as grandi avec une présence forte, et cela continue encore aujourd’hui.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777377327/fusion_ryzyvu.jpg"
+    },
+    {
+      "key": "equilibree",
+      "title": "Relation équilibrée",
+      "description": "Ta relation avec tes parents est saine et stable. Tu es proche d’eux, mais tu as aussi ta propre vie, tes choix et ton indépendance. Vous communiquez quand c’est nécessaire, sans dépendance ni distance excessive. Tu peux demander leur avis, mais tu sais aussi décider seul(e). Il y a du respect, de la compréhension et un bon équilibre entre attachement et autonomie. C’est une relation mature, qui évolue naturellement avec le temps.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776778847/balanced_e70dki.jpg"
+    },
+    {
+      "key": "distante",
+      "title": "Relation distante",
+      "description": "Tu gardes une certaine distance avec tes parents. Ce n’est pas forcément négatif, mais tu n’as pas besoin d’un contact fréquent ou d’une grande proximité émotionnelle. Tu es indépendant(e) et tu préfères gérer ta vie sans trop les impliquer. Il peut y avoir du respect, mais aussi une forme de retenue dans la communication. Tu ne ressens pas forcément le besoin de partager tout ce que tu vis. Cette distance peut être choisie ou naturelle selon ton parcours.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777377327/distance_pzlgzd.jpg"
+    },
+    {
+      "key": "complexe",
+      "title": "Relation complexe",
+      "description": "Ta relation avec tes parents est chargée d’émotions, parfois contradictoires. Il peut y avoir de l’attachement, mais aussi des tensions, des incompréhensions ou des blessures. Tu peux passer par des phases de proximité puis de distance. Ce lien n’est pas simple, et il te demande souvent de l’énergie émotionnelle. Tu réfléchis beaucoup à cette relation et à ce qu’elle représente pour toi. Elle fait partie de ton histoire, avec ses hauts et ses bas.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777377070/complicated_gaoazc.jpg"
+    }
+  ],
+  "questions": [
+    {
+      "id": "1",
+      "question": "Tu reçois une bonne nouvelle importante…",
+      "answers": [
+        { "label": "Je leur dis direct", "scores": { "fusionnelle": 3 } },
+        { "label": "Je leur en parle plus tard", "scores": { "equilibree": 3 } },
+        { "label": "Je ne pense pas forcément à leur dire", "scores": { "distante": 3 } },
+        { "label": "Ça dépend de la situation", "scores": { "complexe": 3 } }
+      ]
+    },
+    {
+      "id": "2",
+      "question": "Un désaccord avec eux…",
+      "answers": [
+        { "label": "On en parle facilement", "scores": { "fusionnelle": 3 } },
+        { "label": "On échange calmement", "scores": { "equilibree": 3 } },
+        { "label": "On évite le sujet", "scores": { "distante": 3 } },
+        { "label": "Ça peut vite devenir tendu", "scores": { "complexe": 3 } }
+      ]
+    },
+    {
+      "id": "3",
+      "question": "À quelle fréquence tu les contactes ?",
+      "answers": [
+        { "label": "Très souvent", "scores": { "fusionnelle": 3 } },
+        { "label": "Régulièrement", "scores": { "equilibree": 3 } },
+        { "label": "Rarement", "scores": { "distante": 3 } },
+        { "label": "De manière irrégulière", "scores": { "complexe": 3 } }
+      ]
+    },
+    {
+      "id": "4",
+      "question": "Leur avis sur ta vie…",
+      "answers": [
+        { "label": "Très important", "scores": { "fusionnelle": 3 } },
+        { "label": "Je l’écoute mais je décide", "scores": { "equilibree": 3 } },
+        { "label": "Peu important", "scores": { "distante": 3 } },
+        { "label": "Ça dépend du sujet", "scores": { "complexe": 3 } }
+      ]
+    },
+    {
+      "id": "5",
+      "question": "Tu passes du temps avec eux…",
+      "answers": [
+        { "label": "Avec plaisir", "scores": { "fusionnelle": 3 } },
+        { "label": "Ça me fait plaisir sans excès", "scores": { "equilibree": 3 } },
+        { "label": "C’est rare", "scores": { "distante": 3 } },
+        { "label": "C’est parfois compliqué", "scores": { "complexe": 3 } }
+      ]
+    },
+    {
+      "id": "6",
+      "question": "Quand ça ne va pas…",
+      "answers": [
+        { "label": "Je me tourne vers eux", "scores": { "fusionnelle": 3 } },
+        { "label": "Je peux leur en parler", "scores": { "equilibree": 3 } },
+        { "label": "Je garde ça pour moi", "scores": { "distante": 3 } },
+        { "label": "J’hésite à leur en parler", "scores": { "complexe": 3 } }
+      ]
+    },
+    {
+      "id": "7",
+      "question": "Ton indépendance vis-à-vis d’eux…",
+      "answers": [
+        { "label": "Relative", "scores": { "fusionnelle": 3 } },
+        { "label": "Clair mais équilibré", "scores": { "equilibree": 3 } },
+        { "label": "Très forte", "scores": { "distante": 3 } },
+        { "label": "Variable", "scores": { "complexe": 3 } }
+      ]
+    },
+    {
+      "id": "8",
+      "question": "Les discussions avec eux…",
+      "answers": [
+        { "label": "Faciles et naturelles", "scores": { "fusionnelle": 3 } },
+        { "label": "Posées et respectueuses", "scores": { "equilibree": 3 } },
+        { "label": "Superficielles", "scores": { "distante": 3 } },
+        { "label": "Parfois tendues", "scores": { "complexe": 3 } }
+      ]
+    },
+    {
+      "id": "9",
+      "question": "Quand tu penses à eux…",
+      "answers": [
+        { "label": "Beaucoup d’attachement", "scores": { "fusionnelle": 3 } },
+        { "label": "De l’affection", "scores": { "equilibree": 3 } },
+        { "label": "Peu d’émotion", "scores": { "distante": 3 } },
+        { "label": "Des émotions mixtes", "scores": { "complexe": 3 } }
+      ]
+    },
+  {
+  "id": "10",
+  "question": "Quand tu quittes tes parents après les avoir vus…",
+  "answers": [
+    { "label": "Je ressens un vrai manque", "scores": { "fusionnelle": 3 } },
+    { "label": "Je suis bien, sans trop y penser", "scores": { "equilibree": 3 } },
+    { "label": "Je reprends ma vie sans émotion particulière", "scores": { "distante": 3 } },
+    { "label": "Je reste avec des émotions mélangées", "scores": { "complexe": 3 } }
+  ]
+}
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "slug": "test-vie-simple-ou-luxueuse",
+  "title": "Test lifestyle - Es-tu fait(e) pour une vie simple ou luxueuse ?",
+  "description": "Ton style de vie idéal est-il simple ou plutôt luxueux ?",
+  "descriptionSeo": "Préférences, habitudes, rapport à l’argent et au confort… ce test révèle si tu es fait(e) pour une vie simple, équilibrée ou luxueuse. À travers des situations concrètes, découvre le style de vie qui correspond vraiment à ta personnalité.",
+  "category": {
+    "name": "Lifestyle",
+    "slug": "lifestyle"
+  },
+  "createdAt": "2026-04-27",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777299727/luxury_gxsh3w.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777299727/luxury_gxsh3w.jpg",
+    "alt": "Test vie simple ou luxueuse"
+  },
+  "profiles": [
+    {
+      "key": "simple",
+      "title": "Vie simple",
+      "description": "Tu es quelqu’un qui privilégie l’essentiel. Tu n’as pas besoin de luxe ou de superflu pour te sentir bien : ce qui compte pour toi, c’est la tranquillité, les relations sincères et les moments simples. Tu apprécies les choses naturelles, les ambiances calmes et les plaisirs accessibles. Tu n’es pas dans la démonstration ou la recherche de statut. Tu préfères une vie stable, équilibrée, où tu peux être toi-même sans pression. Le confort, pour toi, passe plus par l’état d’esprit que par les objets. Tu sais profiter de ce que tu as et tu trouves du bonheur dans des choses que beaucoup négligent.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777299733/simple-life_pgal2h.jpg"
+    },
+    {
+      "key": "equilibre",
+      "title": "Entre les deux",
+      "description": "Tu es dans un équilibre entre simplicité et confort. Tu apprécies les belles choses, les expériences de qualité et un certain niveau de confort, mais tu n’en fais pas une obsession. Tu sais aussi profiter de moments simples sans ressentir le besoin d’en faire trop. Tu aimes te faire plaisir, mais de manière réfléchie. Ton idéal, c’est une vie où tu peux alterner entre moments chill et petits luxes. Tu n’es ni dans l’excès, ni dans le minimalisme total. Tu cherches un juste milieu qui te permet de te sentir bien sans te perdre dans le superficiel.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777299725/mid_qkpduz.jpg"
+    },
+    {
+      "key": "luxe",
+      "title": "Vie luxueuse",
+      "description": "Tu es attiré(e) par le confort, l’esthétique et les expériences haut de gamme. Tu aimes te faire plaisir, profiter de belles choses et vivre dans un environnement qui te stimule. Pour toi, le luxe n’est pas forcément superficiel : c’est une manière d’exprimer ton goût pour la qualité, le détail et le plaisir. Tu es sensible aux ambiances, aux lieux, aux objets et à ce qu’ils transmettent. Tu peux avoir une certaine exigence, car tu sais ce que tu veux. Tu cherches une vie qui te ressemble, avec du style, du confort et une vraie sensation de bien-être au quotidien.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777299730/cover_ckjwxy.jpg"
+    }
+  ],
+"questions": [
+  {
+    "id": "1",
+    "question": "Tu choisis un café pour travailler ou te poser…",
+    "answers": [
+      { "label": "Un petit café simple, tranquille", "scores": { "simple": 3 } },
+      { "label": "Un endroit sympa, bien noté", "scores": { "equilibre": 3 } },
+      { "label": "Un coffee shop stylé, esthétique", "scores": { "luxe": 3 } }
+    ]
+  },
+  {
+    "id": "2",
+    "question": "Tu fais une valise pour 3 jours…",
+    "answers": [
+      { "label": "Le strict minimum", "scores": { "simple": 3 } },
+      { "label": "Juste ce qu’il faut + un peu de confort", "scores": { "equilibre": 3 } },
+      { "label": "Tenues, accessoires, options", "scores": { "luxe": 3 } }
+    ]
+  },
+  {
+    "id": "3",
+    "question": "Tu dois choisir un resto…",
+    "answers": [
+      { "label": "Un endroit simple mais bon", "scores": { "simple": 3 } },
+      { "label": "Un resto sympa avec bonne ambiance", "scores": { "equilibre": 3 } },
+      { "label": "Un resto chic ou tendance", "scores": { "luxe": 3 } }
+    ]
+  },
+  {
+    "id": "4",
+    "question": "Ton téléphone casse…",
+    "answers": [
+      { "label": "Je prends un modèle basique", "scores": { "simple": 3 } },
+      { "label": "Je prends un bon rapport qualité/prix", "scores": { "equilibre": 3 } },
+      { "label": "Je prends le dernier modèle", "scores": { "luxe": 3 } }
+    ]
+  },
+  {
+    "id": "5",
+    "question": "Tu rentres chez toi après une longue journée…",
+    "answers": [
+      { "label": "Je veux juste être au calme", "scores": { "simple": 3 } },
+      { "label": "Je me fais un petit moment confort", "scores": { "equilibre": 3 } },
+      { "label": "Je veux un environnement clean, beau, parfait", "scores": { "luxe": 3 } }
+    ]
+  },
+  {
+    "id": "6",
+    "question": "Tu fais du shopping…",
+    "answers": [
+      { "label": "Je prends ce dont j’ai besoin", "scores": { "simple": 3 } },
+      { "label": "Je me fais plaisir raisonnablement", "scores": { "equilibre": 3 } },
+      { "label": "Je veux quelque chose qui se démarque", "scores": { "luxe": 3 } }
+    ]
+  },
+  {
+    "id": "7",
+    "question": "Un ami te propose un week-end improvisé…",
+    "answers": [
+      { "label": "Peu importe le confort, j’y vais", "scores": { "simple": 3 } },
+      { "label": "Oui, mais avec un minimum d’organisation", "scores": { "equilibre": 3 } },
+      { "label": "Oui, mais dans un bel endroit", "scores": { "luxe": 3 } }
+    ]
+  },
+  {
+    "id": "8",
+    "question": "Ton logement idéal…",
+    "answers": [
+      { "label": "Petit, simple, fonctionnel", "scores": { "simple": 3 } },
+      { "label": "Confortable, bien agencé", "scores": { "equilibre": 3 } },
+      { "label": "Grand, design, bien décoré", "scores": { "luxe": 3 } }
+    ]
+  },
+  {
+    "id": "9",
+    "question": "Tu reçois de l’argent inattendu…",
+    "answers": [
+      { "label": "Je l’économise", "scores": { "simple": 3 } },
+      { "label": "Je me fais un petit plaisir", "scores": { "equilibre": 3 } },
+      { "label": "Je me fais une grosse expérience", "scores": { "luxe": 3 } }
+    ]
+  },
+  {
+    "id": "10",
+    "question": "Ce qui te met vraiment bien dans la vie…",
+    "answers": [
+      { "label": "La tranquillité", "scores": { "simple": 3 } },
+      { "label": "Le confort", "scores": { "equilibre": 3 } },
+      { "label": "Le niveau de vie élevé", "scores": { "luxe": 3 } }
+    ]
+  }
+]
+}

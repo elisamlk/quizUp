@@ -1,0 +1,140 @@
+{
+  "slug": "test-carriere-dois-tu-changer-de-job",
+  "title": "Test carrière - Dois-tu changer de job ?",
+  "description": "Analyse ta situation actuelle pour savoir s’il est temps de changer de travail.",
+  "descriptionSeo": "Analyse ta situation professionnelle actuelle pour savoir s’il est temps de changer de job. À travers des questions sur ta motivation, ton évolution, ton bien-être et ton environnement de travail, ce test t’aide à identifier si tu es encore à ta place, en phase de transition ou prêt à évoluer ailleurs. Une approche concrète pour faire le point sur ta carrière et prendre du recul sur tes choix professionnels.",
+  "category": {
+    "name": "Carrière",
+    "slug": "carriere"
+  },
+  "createdAt": "2026-04-20",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776948575/cover_hzzal3.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776948575/cover_hzzal3.jpg",
+    "alt": "Test carrière dois tu changer de job"
+  },
+  "profiles": [
+    {
+      "key": "alignement",
+      "title": "Tu es à ta place",
+      "description": "Tu sembles globalement aligné avec ton travail actuel. Tu trouves du sens dans ce que tu fais, même s’il y a parfois des moments de doute ou de fatigue. Ton environnement, tes missions ou ton évolution te conviennent encore suffisamment pour que tu t’y projettes. Cela ne veut pas dire que tout est parfait, mais que les bases sont solides. Tu peux encore évoluer dans ton poste actuel, développer de nouvelles compétences ou ajuster certains aspects pour améliorer ton quotidien. Ton défi est de ne pas rester dans une routine confortable sans chercher à progresser. Ta situation actuelle est plutôt stable et cohérente avec ton fonctionnement.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776948480/aligne%CC%81_svtdx7.jpg"
+    },
+    {
+      "key": "transition",
+      "title": "Tu es en phase de transition",
+      "description": "Tu es dans une zone intermédiaire. Ton travail ne te correspond plus totalement, mais tu n’es pas encore prêt à partir ou à tout changer. Tu ressens probablement une forme de lassitude, un manque de motivation ou un besoin d’évolution. Tu peux encore trouver de l’intérêt dans certaines missions, mais quelque chose ne te satisfait plus pleinement. Cette phase est importante, car elle te pousse à réfléchir à ce que tu veux vraiment. Ton défi est de ne pas ignorer ces signaux et de commencer à explorer des pistes. Tu es à un moment clé où une évolution est possible, mais elle demande encore de la réflexion.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776947616/adaptatif_eeiy7v.jpg"
+    },
+    {
+      "key": "changement",
+      "title": "Il est temps de changer",
+      "description": "Ton travail actuel ne te correspond plus vraiment. Tu ressens un manque de motivation, de sens ou d’énergie au quotidien. Tu peux avoir l’impression de stagner, de subir ou de ne plus être à ta place. Cette situation peut impacter ton bien-être et ta motivation globale. Les signaux sont clairs : tu as probablement besoin de changement. Cela ne veut pas forcément dire tout quitter immédiatement, mais il est important d’agir. Ton défi est de passer à l’action et de ne pas rester bloqué dans une situation qui ne te convient plus. Une évolution ou un nouveau projet pourrait t’apporter un vrai renouveau.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776948860/change_eh2t7c.jpg"
+    }
+  ],
+  "questions": [
+    {
+      "id": "1",
+      "question": "Le matin, aller travailler te fait plutôt ressentir…",
+      "answers": [
+        { "label": "De la motivation", "scores": { "alignement": 3 } },
+        { "label": "Ça dépend des jours", "scores": { "transition": 2, "alignement": 1 } },
+        { "label": "De la lassitude", "scores": { "changement": 3 } },
+        { "label": "Une forme de fatigue mentale", "scores": { "changement": 2, "transition": 1 } }
+      ]
+    },
+    {
+      "id": "2",
+      "question": "Ton travail actuel te permet-il d’évoluer ?",
+      "answers": [
+        { "label": "Oui clairement", "scores": { "alignement": 3 } },
+        { "label": "Un peu, mais limité", "scores": { "transition": 2 } },
+        { "label": "Pas vraiment", "scores": { "changement": 3 } },
+        { "label": "Je ne sais plus trop", "scores": { "transition": 2, "alignement": 1 } }
+      ]
+    },
+    {
+      "id": "3",
+      "question": "Tu te projettes dans ce job dans 2 ans ?",
+      "answers": [
+        { "label": "Oui sans problème", "scores": { "alignement": 3 } },
+        { "label": "Peut-être", "scores": { "transition": 2 } },
+        { "label": "Non clairement", "scores": { "changement": 3 } },
+        { "label": "Difficile à dire", "scores": { "transition": 2, "alignement": 1 } }
+      ]
+    },
+    {
+      "id": "4",
+      "question": "Ton niveau de motivation…",
+      "answers": [
+        { "label": "Stable", "scores": { "alignement": 3 } },
+        { "label": "Variable", "scores": { "transition": 2 } },
+        { "label": "En baisse", "scores": { "changement": 3 } },
+        { "label": "Très irrégulier", "scores": { "transition": 2, "changement": 1 } }
+      ]
+    },
+    {
+      "id": "5",
+      "question": "Ton travail a du sens pour toi ?",
+      "answers": [
+        { "label": "Oui", "scores": { "alignement": 3 } },
+        { "label": "Parfois", "scores": { "transition": 2 } },
+        { "label": "Non", "scores": { "changement": 3 } },
+        { "label": "De moins en moins", "scores": { "changement": 2, "transition": 1 } }
+      ]
+    },
+    {
+      "id": "6",
+      "question": "Quand tu penses à changer de job…",
+      "answers": [
+        { "label": "Ce n’est pas une priorité", "scores": { "alignement": 3 } },
+        { "label": "J’y pense de temps en temps", "scores": { "transition": 2 } },
+        { "label": "Souvent", "scores": { "changement": 3 } },
+        { "label": "De plus en plus", "scores": { "changement": 2, "transition": 1 } }
+      ]
+    },
+    {
+      "id": "7",
+      "question": "Ton niveau d’énergie au travail…",
+      "answers": [
+        { "label": "Bon", "scores": { "alignement": 3 } },
+        { "label": "Correct", "scores": { "transition": 2 } },
+        { "label": "Faible", "scores": { "changement": 3 } },
+        { "label": "Variable", "scores": { "transition": 2, "alignement": 1 } }
+      ]
+    },
+    {
+      "id": "8",
+      "question": "Tu te sens reconnu dans ton travail ?",
+      "answers": [
+        { "label": "Oui", "scores": { "alignement": 3 } },
+        { "label": "Pas toujours", "scores": { "transition": 2 } },
+        { "label": "Non", "scores": { "changement": 3 } },
+        { "label": "De moins en moins", "scores": { "changement": 2, "transition": 1 } }
+      ]
+    },
+    {
+      "id": "9",
+      "question": "Tu ressens du stress lié à ton job ?",
+      "answers": [
+        { "label": "Peu", "scores": { "alignement": 3 } },
+        { "label": "Modéré", "scores": { "transition": 2 } },
+        { "label": "Élevé", "scores": { "changement": 3 } },
+        { "label": "Variable", "scores": { "transition": 2, "changement": 1 } }
+      ]
+    },
+    {
+      "id": "10",
+      "question": "Globalement, ton travail actuel…",
+      "answers": [
+        { "label": "Me correspond", "scores": { "alignement": 3 } },
+        { "label": "Me correspond partiellement", "scores": { "transition": 2 } },
+        { "label": "Ne me correspond plus", "scores": { "changement": 3 } },
+        { "label": "Me convient de moins en moins", "scores": { "changement": 2, "transition": 1 } }
+      ]
+    }
+  ]
+}

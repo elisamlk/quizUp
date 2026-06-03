@@ -1,0 +1,146 @@
+{
+  "slug": "test-attachement-quel-est-ton-style-emotionnel-en-amour",
+  "title": "Test attachement - Quel est ton style émotionnel en amour ?",
+  "description": "Plonge dans tes réactions émotionnelles et découvre ton véritable style d’attachement en amour.",
+  "descriptionSeo": "Analyse ton style d’attachement en amour à travers des situations réalistes et des réactions émotionnelles précises. Ce test explore ton rapport à la proximité, à la distance, à l’engagement et à la sécurité affective. Identifie si ton fonctionnement est sécurisant, anxieux, évitant ou ambivalent. Une approche approfondie et nuancée pour mieux comprendre tes comportements amoureux et améliorer tes relations.",
+  "category": {
+    "name": "Amour",
+    "slug": "amour"
+  },
+  "createdAt": "2026-04-20",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777029144/cover_nif6h2.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777029144/cover_nif6h2.jpg",
+    "alt": "Test attachement style emotionnel amour"
+  },
+  "profiles": [
+    {
+      "key": "secure",
+      "title": "Attachement sécurisant",
+      "description": "Ton style émotionnel est globalement sécurisant. Tu es capable de créer des liens stables sans te sentir envahi ni abandonné. Tu gères assez bien la distance comme la proximité, et tu arrives à communiquer sans tomber dans l’excès émotionnel. Tu fais confiance sans naïveté et tu es capable de poser tes limites. Cela te permet de construire des relations équilibrées et durables. Ton principal défi est de ne pas trop t’adapter aux autres au point d’oublier certains de tes besoins. Ta force réside dans ta stabilité émotionnelle et ta capacité à construire des relations saines.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777029244/attachement_po9g11.jpg"
+    },
+    {
+      "key": "anxieux",
+      "title": "Attachement anxieux",
+      "description": "Ton style émotionnel est marqué par une forte sensibilité à la relation. Tu t’investis sincèrement, mais tu peux rapidement douter ou chercher des signes qui te rassurent. Tu es attentif aux variations de comportement et tu peux interpréter certains détails comme des signaux négatifs. Cela peut te rendre plus dépendant émotionnellement et te pousser à chercher de la validation. Ton défi est de développer une sécurité intérieure qui ne dépend pas uniquement de l’autre. Ta force réside dans ton implication et ta capacité à aimer profondément.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777028509/dependancy_ypefnj.jpg"
+    },
+    {
+      "key": "evitant",
+      "title": "Attachement évitant",
+      "description": "Ton style émotionnel est plutôt tourné vers la protection de ton indépendance. Tu peux ressentir un inconfort face à une proximité trop forte ou à des attentes émotionnelles élevées. Tu as tendance à prendre du recul ou à te refermer quand la relation devient trop engageante. Cela ne signifie pas un manque de sentiments, mais une manière différente de les gérer. Ton défi est d’accepter de te montrer plus vulnérable sans te sentir en danger. Ta force réside dans ton autonomie et ta capacité à garder du recul.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777028333/fuite_btf4dz.jpg"
+    },
+    {
+      "key": "ambivalent",
+      "title": "Attachement ambivalent",
+      "description": "Ton style émotionnel oscille entre proximité et distance. Tu peux être très investi à certains moments, puis ressentir un besoin de recul ou de doute. Cette variation peut créer une dynamique instable dans tes relations. Tu ressens les choses intensément, mais tu peux avoir du mal à maintenir une constance émotionnelle. Ton défi est de mieux comprendre tes réactions et d’apprendre à stabiliser ton fonctionnement. Ta force réside dans ta sensibilité et ta capacité à créer des liens profonds.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776777703/intro_qq7wpy.jpg"
+    }
+  ],
+  "questions": [
+    {
+      "id": "1",
+      "question": "Tu envoies un message important, mais la réponse tarde. Que se passe-t-il intérieurement ?",
+      "answers": [
+        { "label": "Je reste serein et j’attends", "scores": { "secure": 3 } },
+        { "label": "Je commence à analyser ce que ça peut vouloir dire", "scores": { "anxieux": 3 } },
+        { "label": "Je me détache rapidement de l’attente", "scores": { "evitant": 3 } },
+        { "label": "Je passe du calme à l’agacement ou au doute", "scores": { "ambivalent": 3 } }
+      ]
+    },
+    {
+      "id": "2",
+      "question": "Quand quelqu’un se montre très investi émotionnellement…",
+      "answers": [
+        { "label": "Je suis à l’aise avec ça", "scores": { "secure": 3 } },
+        { "label": "Ça me rassure beaucoup", "scores": { "anxieux": 3 } },
+        { "label": "Ça me met un peu de pression", "scores": { "evitant": 3 } },
+        { "label": "Ça me plaît puis ça me perturbe", "scores": { "ambivalent": 3 } }
+      ]
+    },
+    {
+      "id": "3",
+      "question": "Dans une période de distance dans la relation…",
+      "answers": [
+        { "label": "Je laisse de l’espace sans m’inquiéter", "scores": { "secure": 3 } },
+        { "label": "Je ressens rapidement de l’insécurité", "scores": { "anxieux": 3 } },
+        { "label": "Je me sens plutôt soulagé", "scores": { "evitant": 3 } },
+        { "label": "Je suis partagé entre manque et besoin de recul", "scores": { "ambivalent": 3 } }
+      ]
+    },
+    {
+      "id": "4",
+      "question": "Quand tu dois exprimer un besoin émotionnel…",
+      "answers": [
+        { "label": "Je le fais assez facilement", "scores": { "secure": 3 } },
+        { "label": "J’ai besoin d’être entendu rapidement", "scores": { "anxieux": 3 } },
+        { "label": "J’évite ou je minimise", "scores": { "evitant": 3 } },
+        { "label": "Je peux hésiter ou changer d’avis", "scores": { "ambivalent": 3 } }
+      ]
+    },
+    {
+      "id": "5",
+      "question": "Quand tu te sens attaché à quelqu’un…",
+      "answers": [
+        { "label": "Je reste stable dans mon comportement", "scores": { "secure": 3 } },
+        { "label": "Je deviens plus sensible à ses réactions", "scores": { "anxieux": 3 } },
+        { "label": "Je garde une certaine distance", "scores": { "evitant": 3 } },
+        { "label": "Je peux alterner entre proximité et retrait", "scores": { "ambivalent": 3 } }
+      ]
+    },
+    {
+      "id": "6",
+      "question": "Face à un conflit non résolu…",
+      "answers": [
+        { "label": "Je cherche à clarifier calmement", "scores": { "secure": 3 } },
+        { "label": "Je rumine beaucoup", "scores": { "anxieux": 3 } },
+        { "label": "Je préfère éviter d’y revenir", "scores": { "evitant": 3 } },
+        { "label": "Je change d’état émotionnel rapidement", "scores": { "ambivalent": 3 } }
+      ]
+    },
+    {
+      "id": "7",
+      "question": "Ton rapport à l’engagement est plutôt…",
+      "answers": [
+        { "label": "Naturel et progressif", "scores": { "secure": 3 } },
+        { "label": "Important mais parfois stressant", "scores": { "anxieux": 3 } },
+        { "label": "Difficile ou contraignant", "scores": { "evitant": 3 } },
+        { "label": "Changeant selon mes émotions", "scores": { "ambivalent": 3 } }
+      ]
+    },
+    {
+      "id": "8",
+      "question": "Quand la relation devient très proche…",
+      "answers": [
+        { "label": "Je me sens bien", "scores": { "secure": 3 } },
+        { "label": "Je m’y accroche beaucoup", "scores": { "anxieux": 3 } },
+        { "label": "Je ressens un besoin de recul", "scores": { "evitant": 3 } },
+        { "label": "Je peux me sentir partagé", "scores": { "ambivalent": 3 } }
+      ]
+    },
+    {
+      "id": "9",
+      "question": "Ton ressenti face à l’incertitude en amour…",
+      "answers": [
+        { "label": "Je l’accepte assez bien", "scores": { "secure": 3 } },
+        { "label": "Elle me fait douter", "scores": { "anxieux": 3 } },
+        { "label": "Je m’en détache", "scores": { "evitant": 3 } },
+        { "label": "Elle me perturbe fortement", "scores": { "ambivalent": 3 } }
+      ]
+    },
+    {
+      "id": "10",
+      "question": "Dans ta manière d’aimer…",
+      "answers": [
+        { "label": "Je suis constant", "scores": { "secure": 3 } },
+        { "label": "Je suis très impliqué", "scores": { "anxieux": 3 } },
+        { "label": "Je garde du contrôle", "scores": { "evitant": 3 } },
+        { "label": "Je suis changeant", "scores": { "ambivalent": 3 } }
+      ]
+    }
+  ]
+}

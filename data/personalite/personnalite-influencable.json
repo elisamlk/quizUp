@@ -1,0 +1,346 @@
+{
+    "slug": "test-personnalite-es-tu-influencable",
+    "title": "Test personnalité - Es-tu influençable ?",
+    "description": "Découvre si tu te laisses facilement influencer ou si tu sais rester fidèle à toi-même.",
+    "descriptionSeo": "Ce test de personnalité permet d’évaluer ton niveau d’influence face aux opinions, aux tendances et au regard des autres. À travers des questions sur tes choix, tes réactions et ta confiance en toi, identifie si tu es facilement influençable ou si tu gardes ton propre cap. Un test simple et révélateur pour mieux comprendre ton rapport à l’affirmation de soi et à l’environnement social.",
+    "category": {
+        "name": "Psychologie",
+        "slug": "psychologie"
+    },
+    "createdAt": "2026-04-20",
+    "isNew": true,
+    "isPopular": true,
+    "images": {
+        "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776891060/cover_mjd6xu.jpg",
+        "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776891060/cover_mjd6xu.jpg",
+        "alt": "Test de personnalité sur le fait d'être influençable"
+    },
+    "profiles": [
+        {
+            "key": "tres_influencable",
+            "title": "Très influençable",
+            "description": "Tu es assez sensible à l’influence extérieure. Le regard des autres, les avis forts ou les tendances peuvent facilement orienter tes choix, parfois sans que tu t’en rendes compte. Tu accordes de l’importance à l’approbation, à l’ambiance du groupe et à ce qui semble socialement valorisé. Cela ne veut pas dire que tu manques totalement de personnalité, mais plutôt que tu peux douter rapidement de toi face à des personnes affirmées ou à des opinions dominantes. Tu préfères souvent éviter le conflit ou la remise en question sociale, ce qui peut te pousser à suivre plutôt qu’à t’affirmer. Ton défi est de développer davantage ta confiance en toi et d’apprendre à distinguer ce que tu veux vraiment de ce que les autres attendent de toi. Ta force réside dans ta capacité d’adaptation, à condition qu’elle ne te fasse pas perdre ta propre voix.",
+            "image":"https://res.cloudinary.com/dsv7oziap/image/upload/v1776891507/tres-influencable_xjomto.jpg"
+        },
+        {
+            "key": "moderement_influencable",
+            "title": "Modérément influençable",
+            "description": "Tu peux être influencé dans certaines situations, mais tu gardes tout de même une part importante de recul. Tu écoutes les autres, tu tiens compte des avis extérieurs et tu peux ajuster ton point de vue quand cela te semble pertinent. Cette ouverture est une qualité, car elle montre que tu n’es pas fermé et que tu sais remettre certaines choses en perspective. Cependant, selon le contexte, ton niveau de confiance ou la force de la personne en face, il peut t’arriver de douter ou de suivre un mouvement plus que nécessaire. Tu n’es pas du genre à te laisser porter en permanence, mais tu peux parfois hésiter entre ton ressenti personnel et l’influence du groupe. Ton défi est d’apprendre à faire plus confiance à ton jugement lorsque tu sais déjà ce qui te correspond. Ta force réside dans ton équilibre entre écoute, adaptabilité et réflexion.",
+            "image":"https://res.cloudinary.com/dsv7oziap/image/upload/v1776891309/modere_u95bfz.jpg"
+        },
+        {
+            "key": "peu_influencable",
+            "title": "Peu influençable",
+            "description": "Tu es peu influençable. Tu écoutes les autres, mais tu gardes généralement ton propre cap. Tu es capable d’entendre des avis différents sans forcément remettre immédiatement en question ce que tu penses ou ce que tu ressens. Cette stabilité montre que tu as une certaine confiance en toi et une bonne capacité de discernement. Tu n’as pas besoin de l’approbation permanente des autres pour faire tes choix, et tu sais rester cohérent avec tes valeurs. Cela ne t’empêche pas d’évoluer ou de changer d’avis, mais quand tu le fais, c’est souvent parce que tu l’as réellement décidé. Ton défi est de rester ouvert aux conseils utiles sans te fermer par principe. Ta force réside dans ton autonomie mentale, ta lucidité et ta capacité à rester fidèle à toi-même même lorsque l’environnement pousse dans une autre direction.",
+            "image":"https://res.cloudinary.com/dsv7oziap/image/upload/v1776891309/peu-influencable_uc3xtr.jpg"
+        },
+        {
+            "key": "tres_affirme",
+            "title": "Très affirmé",
+            "description": "Tu es très affirmé et difficilement influençable. Tu sais ce que tu veux, ce que tu penses et ce qui compte vraiment pour toi. Le regard des autres ou les tendances du moment ont peu d’impact sur tes décisions lorsque tu es convaincu d’une direction. Tu as une forte indépendance d’esprit et une vraie capacité à rester aligné avec tes valeurs. Cette assurance peut être une grande force dans les environnements où beaucoup se laissent porter par la pression sociale. Tu es capable de prendre du recul, de faire tes propres choix et de ne pas céder facilement aux opinions dominantes. Cependant, ton défi est parfois de rester suffisamment souple pour entendre des points de vue différents sans les rejeter trop vite. Ta force réside dans ton affirmation, ton autonomie et ta capacité à ne pas te perdre dans les attentes extérieures.",
+            "image":"https://res.cloudinary.com/dsv7oziap/image/upload/v1776891389/pas-influencable_aqukt5.jpg"
+        }
+    ],
+    "questions": [
+        {
+            "id": "1",
+            "question": "Quand plusieurs personnes ont un avis différent du tien…",
+            "answers": [
+                {
+                    "label": "Je finis souvent par douter de mon opinion",
+                    "scores": {
+                        "tres_influencable": 3
+                    }
+                },
+                {
+                    "label": "Je me remets en question, mais pas systématiquement",
+                    "scores": {
+                        "moderement_influencable": 3
+                    }
+                },
+                {
+                    "label": "J’écoute, puis je garde mon avis si je le trouve juste",
+                    "scores": {
+                        "peu_influencable": 3
+                    }
+                },
+                {
+                    "label": "Je reste très sûr de moi, même face à la majorité",
+                    "scores": {
+                        "tres_affirme": 3
+                    }
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "question": "Quand une tendance devient populaire…",
+            "answers": [
+                {
+                    "label": "J’ai envie de suivre pour ne pas être à part",
+                    "scores": {
+                        "tres_influencable": 3
+                    }
+                },
+                {
+                    "label": "Ça m’influence un peu, selon le contexte",
+                    "scores": {
+                        "moderement_influencable": 3
+                    }
+                },
+                {
+                    "label": "Je regarde si ça me correspond vraiment",
+                    "scores": {
+                        "peu_influencable": 3
+                    }
+                },
+                {
+                    "label": "Je m’en fiche si ça ne me parle pas",
+                    "scores": {
+                        "tres_affirme": 3
+                    }
+                }
+            ]
+        },
+        {
+            "id": "3",
+            "question": "Dans un groupe, tu prends souvent tes décisions…",
+            "answers": [
+                {
+                    "label": "En fonction de l’avis général",
+                    "scores": {
+                        "tres_influencable": 3
+                    }
+                },
+                {
+                    "label": "En mélangeant mon envie et celle des autres",
+                    "scores": {
+                        "moderement_influencable": 3
+                    }
+                },
+                {
+                    "label": "Selon ce qui me semble juste pour moi",
+                    "scores": {
+                        "peu_influencable": 3
+                    }
+                },
+                {
+                    "label": "Sans me laisser détourner par la pression du groupe",
+                    "scores": {
+                        "tres_affirme": 3
+                    }
+                }
+            ]
+        },
+        {
+            "id": "4",
+            "question": "Quand quelqu’un de très sûr de lui te contredit…",
+            "answers": [
+                {
+                    "label": "Je suis vite déstabilisé",
+                    "scores": {
+                        "tres_influencable": 3
+                    }
+                },
+                {
+                    "label": "Je doute un peu, surtout s’il insiste",
+                    "scores": {
+                        "moderement_influencable": 3
+                    }
+                },
+                {
+                    "label": "J’écoute, mais je garde mon recul",
+                    "scores": {
+                        "peu_influencable": 3
+                    }
+                },
+                {
+                    "label": "Ça ne change pas ma position si je suis convaincu",
+                    "scores": {
+                        "tres_affirme": 3
+                    }
+                }
+            ]
+        },
+        {
+            "id": "5",
+            "question": "Le regard des autres influence tes choix…",
+            "answers": [
+                {
+                    "label": "Très souvent",
+                    "scores": {
+                        "tres_influencable": 3
+                    }
+                },
+                {
+                    "label": "Parfois, selon les situations",
+                    "scores": {
+                        "moderement_influencable": 3
+                    }
+                },
+                {
+                    "label": "Peu, en général",
+                    "scores": {
+                        "peu_influencable": 3
+                    }
+                },
+                {
+                    "label": "Presque jamais",
+                    "scores": {
+                        "tres_affirme": 3
+                    }
+                }
+            ]
+        },
+        {
+            "id": "6",
+            "question": "Quand tu hésites entre deux choix…",
+            "answers": [
+                {
+                    "label": "Je me fie surtout à ce que les autres me conseillent",
+                    "scores": {
+                        "tres_influencable": 3
+                    }
+                },
+                {
+                    "label": "Je demande plusieurs avis avant de me décider",
+                    "scores": {
+                        "moderement_influencable": 3
+                    }
+                },
+                {
+                    "label": "J’écoute des avis, puis je tranche moi-même",
+                    "scores": {
+                        "peu_influencable": 3
+                    }
+                },
+                {
+                    "label": "Je décide seul selon ce que je pense juste",
+                    "scores": {
+                        "tres_affirme": 3
+                    }
+                }
+            ]
+        },
+        {
+            "id": "7",
+            "question": "Quand tu changes d’avis, c’est surtout parce que…",
+            "answers": [
+                {
+                    "label": "Les autres m’ont fait douter",
+                    "scores": {
+                        "tres_influencable": 3
+                    }
+                },
+                {
+                    "label": "Je me laisse convaincre si l’argument est fort",
+                    "scores": {
+                        "moderement_influencable": 3
+                    }
+                },
+                {
+                    "label": "J’ai vraiment réfléchi et revu ma position",
+                    "scores": {
+                        "peu_influencable": 3
+                    }
+                },
+                {
+                    "label": "C’est rare, sauf si je décide moi-même d’évoluer",
+                    "scores": {
+                        "tres_affirme": 3
+                    }
+                }
+            ]
+        },
+        {
+            "id": "8",
+            "question": "Dans une discussion animée…",
+            "answers": [
+                {
+                    "label": "Je préfère suivre pour éviter le conflit",
+                    "scores": {
+                        "tres_influencable": 3
+                    }
+                },
+                {
+                    "label": "Je peux céder si l’ambiance devient trop tendue",
+                    "scores": {
+                        "moderement_influencable": 3
+                    }
+                },
+                {
+                    "label": "Je reste posé et j’exprime mon point de vue",
+                    "scores": {
+                        "peu_influencable": 3
+                    }
+                },
+                {
+                    "label": "Je défends clairement ma position",
+                    "scores": {
+                        "tres_affirme": 3
+                    }
+                }
+            ]
+        },
+        {
+            "id": "9",
+            "question": "Quand on te donne un conseil non demandé…",
+            "answers": [
+                {
+                    "label": "Je l’applique souvent, même si je n’étais pas sûr d’en avoir envie",
+                    "scores": {
+                        "tres_influencable": 3
+                    }
+                },
+                {
+                    "label": "Je le prends en compte assez facilement",
+                    "scores": {
+                        "moderement_influencable": 3
+                    }
+                },
+                {
+                    "label": "Je le considère, mais je fais ensuite mon propre choix",
+                    "scores": {
+                        "peu_influencable": 3
+                    }
+                },
+                {
+                    "label": "Je ne le suis que s’il me semble vraiment pertinent",
+                    "scores": {
+                        "tres_affirme": 3
+                    }
+                }
+            ]
+        },
+        {
+            "id": "10",
+            "question": "La phrase qui te correspond le mieux est…",
+            "answers": [
+                {
+                    "label": "Je me laisse facilement orienter par les autres",
+                    "scores": {
+                        "tres_influencable": 3
+                    }
+                },
+                {
+                    "label": "Je peux être influencé selon les personnes ou les contextes",
+                    "scores": {
+                        "moderement_influencable": 3
+                    }
+                },
+                {
+                    "label": "J’écoute, mais je garde généralement ma ligne",
+                    "scores": {
+                        "peu_influencable": 3
+                    }
+                },
+                {
+                    "label": "Je sais rester fidèle à moi-même",
+                    "scores": {
+                        "tres_affirme": 3
+                    }
+                }
+            ]
+        }
+    ]
+}

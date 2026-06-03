@@ -1,0 +1,130 @@
+{
+  "slug": "test-type-amitie",
+  "title": "Test amitié - Quel type d’amitié te correspond ?",
+  "description": "Tes réflexes en amitié révèlent ton vrai type de relation.",
+  "descriptionSeo": "Messages laissés en vu, réponses tardives, plans annulés ou moments partagés… ce test analyse tes réactions concrètes en amitié pour révéler le type de relation qui te correspond vraiment. Es-tu plutôt fusionnel(le), équilibré(e) ou indépendant(e) dans tes liens ? À travers des situations du quotidien, découvre ce que tes comportements disent de ta manière de vivre l’amitié et ce dont tu as réellement besoin.",
+  "category": {
+    "name": "Amitié",
+    "slug": "amitie"
+  },
+  "createdAt": "2026-04-27",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777670873/cover_qnizor.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777670873/cover_qnizor.jpg",
+    "alt": "Test type d'amitié"
+  },
+  "profiles": [
+    {
+      "key": "fusionnelle",
+      "title": "Amitié fusionnelle",
+      "description": "Tu fonctionnes avec une forte intensité émotionnelle en amitié. Tu aimes être présent(e), échanger souvent et te sentir proche des gens qui comptent pour toi. Tu peux rapidement ressentir un manque ou une distance si le lien n’est pas entretenu régulièrement. Pour toi, une vraie amitié se vit au quotidien, dans les échanges, le soutien et la présence.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777671140/fusion_u3grun.jpg"
+    },
+    {
+      "key": "equilibree",
+      "title": "Amitié équilibrée",
+      "description": "Tu sais être présent(e) sans être envahissant(e). Tu apprécies les échanges et les moments partagés, mais sans dépendance. Tu peux t’adapter facilement au rythme de l’autre. Tu valorises les relations sincères, sans pression. Ton équilibre te permet de garder des liens solides sans te sentir contraint(e).",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776948480/aligne%CC%81_svtdx7.jpg"
+    },
+    {
+      "key": "independante",
+      "title": "Amitié indépendante",
+      "description": "Tu vis l’amitié de manière libre. Tu n’as pas besoin d’échanger souvent pour te sentir proche de quelqu’un. Tu peux passer du temps sans nouvelles sans que cela remette en question le lien. Tu privilégies des relations simples, sans attente forte. Ton attachement est réel, mais discret et autonome.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777030072/freedom_ley4k9.jpg"
+    }
+  ],
+  "questions": [
+    {
+      "id": "1",
+      "question": "Tu envoies un message important et ton ami(e) le laisse en “vu”…",
+      "answers": [
+        { "label": "Je relance assez vite", "scores": { "fusionnelle": 3 } },
+        { "label": "J’attends un peu", "scores": { "equilibree": 3 } },
+        { "label": "Je n’y pense plus", "scores": { "independante": 3 } }
+      ]
+    },
+    {
+      "id": "2",
+      "question": "Un ami te raconte un problème tard le soir…",
+      "answers": [
+        { "label": "Je reste dispo longtemps", "scores": { "fusionnelle": 3 } },
+        { "label": "Je réponds mais je pose des limites", "scores": { "equilibree": 3 } },
+        { "label": "Je réponds plus tard", "scores": { "independante": 3 } }
+      ]
+    },
+    {
+      "id": "3",
+      "question": "Tu vois que ton ami sort sans t’inviter…",
+      "answers": [
+        { "label": "Ça me touche", "scores": { "fusionnelle": 3 } },
+        { "label": "Je me pose un peu la question", "scores": { "equilibree": 3 } },
+        { "label": "Ça ne me dérange pas", "scores": { "independante": 3 } }
+      ]
+    },
+    {
+      "id": "4",
+      "question": "Un ami met plusieurs jours à répondre à une conversation…",
+      "answers": [
+        { "label": "Je le remarque et ça m’agace", "scores": { "fusionnelle": 3 } },
+        { "label": "Je m’adapte", "scores": { "equilibree": 3 } },
+        { "label": "Je fais pareil", "scores": { "independante": 3 } }
+      ]
+    },
+    {
+      "id": "5",
+      "question": "Tu proposes un plan et il est refusé…",
+      "answers": [
+        { "label": "Je suis déçu(e)", "scores": { "fusionnelle": 3 } },
+        { "label": "Je propose autre chose", "scores": { "equilibree": 3 } },
+        { "label": "Je passe à autre chose", "scores": { "independante": 3 } }
+      ]
+    },
+    {
+      "id": "6",
+      "question": "Tu as une bonne nouvelle…",
+      "answers": [
+        { "label": "Je l’envoie direct à mes amis proches", "scores": { "fusionnelle": 3 } },
+        { "label": "Je la partage plus tard", "scores": { "equilibree": 3 } },
+        { "label": "Je garde ça pour moi", "scores": { "independante": 3 } }
+      ]
+    },
+    {
+      "id": "7",
+      "question": "Tu passes plusieurs jours sans parler à un ami…",
+      "answers": [
+        { "label": "Je relance rapidement", "scores": { "fusionnelle": 3 } },
+        { "label": "Je reprends naturellement", "scores": { "equilibree": 3 } },
+        { "label": "Ça ne change rien pour moi", "scores": { "independante": 3 } }
+      ]
+    },
+    {
+      "id": "8",
+      "question": "Un ami annule au dernier moment…",
+      "answers": [
+        { "label": "Ça m’affecte vraiment", "scores": { "fusionnelle": 3 } },
+        { "label": "Je comprends", "scores": { "equilibree": 3 } },
+        { "label": "Je m’adapte sans problème", "scores": { "independante": 3 } }
+      ]
+    },
+    {
+      "id": "9",
+      "question": "Tu vois que ton ami parle beaucoup avec quelqu’un d’autre…",
+      "answers": [
+        { "label": "Ça me fait quelque chose", "scores": { "fusionnelle": 3 } },
+        { "label": "Je le remarque sans plus", "scores": { "equilibree": 3 } },
+        { "label": "Je n’y fais pas attention", "scores": { "independante": 3 } }
+      ]
+    },
+    {
+      "id": "10",
+      "question": "Tu dois choisir entre un moment seul ou voir un ami…",
+      "answers": [
+        { "label": "Je privilégie mon ami", "scores": { "fusionnelle": 3 } },
+        { "label": "Ça dépend de mon état", "scores": { "equilibree": 3 } },
+        { "label": "Je garde mon moment seul", "scores": { "independante": 3 } }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,298 @@
+.penduBox {
+  position: relative;
+  overflow: hidden;
+
+  display: grid;
+  gap: 24px;
+  justify-items: center;
+
+  margin: 24px 0;
+  padding: 32px 26px;
+
+  border-radius: 30px;
+
+  background:
+    radial-gradient(circle at top right, rgba(48, 85, 255, 0.12), transparent 28%),
+    linear-gradient(135deg, rgba(48, 85, 255, 0.05), rgba(255, 255, 255, 0.98));
+
+  border: 1px solid rgba(48, 85, 255, 0.1);
+  box-shadow: 0 18px 40px rgba(48, 85, 255, 0.08);
+}
+
+.penduDrawing {
+  position: relative;
+  width: 190px;
+  height: 220px;
+
+  transform: rotate(-1deg);
+  animation: penduSoftFloat 4s ease-in-out infinite;
+}
+
+/* Traits dessinés à la main */
+.penduBase,
+.penduPole,
+.penduTop,
+.penduRope,
+.penduBody,
+.penduArm,
+.penduLeg {
+  position: absolute;
+
+  background: #121826;
+  border-radius: 999px;
+
+  box-shadow: 0 1px 0 rgba(48, 85, 255, 0.18);
+}
+
+/* petites irrégularités pour effet main levée */
+.penduBase::after,
+.penduPole::after,
+.penduTop::after,
+.penduRope::after,
+.penduBody::after,
+.penduArm::after,
+.penduLeg::after {
+  content: "";
+  position: absolute;
+  inset: 1px -1px -1px 1px;
+  border-radius: inherit;
+  background: rgba(48, 85, 255, 0.16);
+  transform: rotate(1.5deg);
+}
+
+.penduBase {
+  left: 20px;
+  bottom: 0;
+  width: 145px;
+  height: 7px;
+  transform: rotate(1deg);
+}
+
+.penduPole {
+  left: 48px;
+  bottom: 0;
+  width: 7px;
+  height: 190px;
+  transform: rotate(-0.8deg);
+}
+
+.penduTop {
+  left: 48px;
+  top: 14px;
+  width: 98px;
+  height: 7px;
+  transform: rotate(0.8deg);
+}
+
+.penduRope {
+  left: 139px;
+  top: 14px;
+  width: 5px;
+  height: 36px;
+  transform: rotate(-1.5deg);
+  background: #3055ff;
+}
+
+.penduHead {
+  position: absolute;
+  left: 118px;
+  top: 48px;
+  width: 46px;
+  height: 46px;
+
+  border: 6px solid #121826;
+  border-radius: 48% 52% 50% 47%;
+
+  background: rgba(255, 255, 255, 0.75);
+
+  box-shadow:
+    2px 2px 0 rgba(48, 85, 255, 0.12),
+    0 8px 18px rgba(18, 24, 38, 0.06);
+
+  transform: rotate(3deg);
+  animation: penduDrawIn 0.28s ease both;
+}
+
+.penduBody {
+  left: 140px;
+  top: 94px;
+  width: 6px;
+  height: 62px;
+  transform: rotate(1deg);
+}
+
+.penduArm {
+  top: 112px;
+  width: 48px;
+  height: 6px;
+}
+
+.penduArm--left {
+  left: 101px;
+  transform: rotate(-31deg);
+}
+
+.penduArm--right {
+  left: 139px;
+  transform: rotate(28deg);
+}
+
+.penduLeg {
+  top: 154px;
+  width: 48px;
+  height: 6px;
+}
+
+.penduLeg--left {
+  left: 101px;
+  transform: rotate(-45deg);
+}
+
+.penduLeg--right {
+  left: 137px;
+  transform: rotate(43deg);
+}
+
+.penduFace {
+  position: absolute;
+  left: 130px;
+  top: 68px;
+  width: 22px;
+  height: 10px;
+
+  border-top: 3px solid #3055ff;
+  border-radius: 999px;
+
+  transform: rotate(9deg);
+}
+
+/* Mot */
+.penduWord {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 9px;
+}
+
+.penduWord--result {
+  margin: 18px 0;
+}
+
+.penduLetter {
+  width: 42px;
+  height: 52px;
+
+  display: grid;
+  place-items: center;
+
+  border-radius: 14px;
+  border: 1px solid rgba(48, 85, 255, 0.12);
+  border-bottom: 4px solid #3055ff;
+
+  background: rgba(255, 255, 255, 0.84);
+
+  color: #121826;
+
+  font-size: 1.35rem;
+  font-weight: 900;
+  letter-spacing: -0.03em;
+
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.9),
+    0 8px 18px rgba(48, 85, 255, 0.08);
+
+  transition: 0.2s ease;
+}
+
+.penduLetter.isVisible {
+  color: #3055ff;
+  border-bottom-color: #121826;
+  background: #ffffff;
+  animation: penduLetterPop 0.26s ease both;
+}
+
+.penduSpace {
+  width: 18px;
+}
+
+.penduWrong {
+  padding: 12px 16px;
+  border-radius: 999px;
+
+  background: rgba(255, 255, 255, 0.78);
+  border: 1px solid rgba(48, 85, 255, 0.1);
+
+  color: #667085;
+
+  text-align: center;
+  font-size: 0.92rem;
+  font-weight: 800;
+
+  box-shadow: 0 10px 22px rgba(48, 85, 255, 0.06);
+}
+
+/* Animations */
+@keyframes penduSoftFloat {
+  0%,
+  100% {
+    transform: translateY(0) rotate(-1deg);
+  }
+
+  50% {
+    transform: translateY(-4px) rotate(0.5deg);
+  }
+}
+
+@keyframes penduDrawIn {
+  from {
+    opacity: 0;
+    transform: scale(0.85) rotate(-5deg);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1) rotate(3deg);
+  }
+}
+
+@keyframes penduLetterPop {
+  from {
+    opacity: 0;
+    transform: translateY(6px) scale(0.92);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@media (max-width: 520px) {
+  .penduBox {
+    padding: 24px 16px;
+    gap: 20px;
+    border-radius: 24px;
+  }
+
+  .penduDrawing {
+    transform: scale(0.9);
+    margin: -10px 0;
+    animation: none;
+  }
+
+  .penduLetter {
+    width: 34px;
+    height: 44px;
+    border-radius: 12px;
+    font-size: 1.08rem;
+  }
+
+  .penduWord {
+    gap: 7px;
+  }
+
+  .penduWrong {
+    border-radius: 16px;
+    font-size: 0.88rem;
+  }
+}

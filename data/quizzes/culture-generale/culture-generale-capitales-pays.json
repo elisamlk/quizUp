@@ -1,0 +1,200 @@
+{
+  "slug": "quiz-culture-generale-pays-ou-capitales",
+  "title": "Quiz Culture Générale - Pays ou capitales ?",
+  "description": "20 questions pour tester si tu sais vraiment reconnaître les pays et leurs capitales.",
+  "descriptionSeo": "Ce quiz de culture générale met à l’épreuve ta connaissance des pays et des capitales du monde. Entre confusions fréquentes, capitales peu connues et pièges géographiques, découvre si tu maîtrises vraiment la carte du monde.",
+  "category": {
+    "name": "Culture générale",
+    "slug": "culture-generale"
+  },
+  "createdAt": "2026-03-30",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1774003467/cover_vf9cye.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1774003467/cover_vf9cye.jpg",
+    "alt": "Quiz pays ou capitales"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "question": "Quelle est la capitale de l’Australie ?",
+      "image": null,
+      "imagePrompt": "canberra city",
+      "answers": ["Sydney", "Melbourne", "Canberra", "Brisbane"],
+      "correctIndex": 2,
+      "explanation": "Canberra a été choisie comme compromis entre Sydney et Melbourne, les deux grandes villes rivales."
+    },
+    {
+      "id": "2",
+      "question": "Quelle est la capitale du Canada ?",
+      "image": null,
+      "imagePrompt": "ottawa parliament",
+      "answers": ["Toronto", "Ottawa", "Montréal", "Vancouver"],
+      "correctIndex": 1,
+      "explanation": "Ottawa est la capitale politique, même si Toronto et Montréal sont plus connues."
+    },
+    {
+      "id": "3",
+      "question": "Quelle est la capitale du Brésil ?",
+      "image": null,
+      "imagePrompt": "brasilia architecture",
+      "answers": ["Rio de Janeiro", "São Paulo", "Salvador", "Brasília"],
+      "correctIndex": 3,
+      "explanation": "Brasília a été construite en 1960 pour déplacer le centre politique vers l’intérieur du pays."
+    },
+    {
+      "id": "4",
+      "question": "Quelle est la capitale de la Turquie ?",
+      "image": null,
+      "imagePrompt": "ankara city",
+      "answers": ["Ankara", "Istanbul", "Izmir", "Bursa"],
+      "correctIndex": 0,
+      "explanation": "Istanbul est la plus grande ville, mais Ankara est la capitale administrative."
+    },
+    {
+      "id": "5",
+      "question": "Quelle est la capitale de la Suisse ?",
+      "image": null,
+      "imagePrompt": "bern city",
+      "answers": ["Zurich", "Genève", "Berne", "Lausanne"],
+      "correctIndex": 2,
+      "explanation": "Berne est la capitale fédérale, bien que Zurich soit la plus grande ville."
+    },
+    {
+      "id": "6",
+      "question": "Quel pays a pour capitale Wellington ?",
+      "image": null,
+      "imagePrompt": "wellington new zealand",
+      "answers": ["Australie", "Nouvelle-Zélande", "Irlande", "Canada"],
+      "correctIndex": 1,
+      "explanation": "Wellington est la capitale de la Nouvelle-Zélande, souvent confondue avec l’Australie."
+    },
+    {
+      "id": "7",
+      "question": "Quel pays a pour capitale Abuja ?",
+      "image": null,
+      "imagePrompt": "abuja nigeria",
+      "answers": ["Nigéria", "Kenya", "Ghana", "Éthiopie"],
+      "correctIndex": 0,
+      "explanation": "Abuja a remplacé Lagos pour des raisons géographiques et politiques."
+    },
+    {
+      "id": "8",
+      "question": "Quel pays a pour capitale Astana ?",
+      "image": null,
+      "imagePrompt": "astana kazakhstan",
+      "answers": ["Ouzbékistan", "Turkménistan", "Mongolie", "Kazakhstan"],
+      "correctIndex": 3,
+      "explanation": "Astana est la capitale du Kazakhstan. Le pays a brièvement renommé la ville Nur-Sultan avant de revenir à Astana."
+    },
+    {
+      "id": "9",
+      "question": "Quel pays a pour capitale Rabat ?",
+      "image": null,
+      "imagePrompt": "rabat morocco",
+      "answers": ["Algérie", "Maroc", "Tunisie", "Égypte"],
+      "correctIndex": 1,
+      "explanation": "Rabat est la capitale politique du Maroc, alors que Casablanca est la ville la plus connue et la plus peuplée."
+    },
+    {
+      "id": "10",
+      "question": "Quel pays a pour capitale Oslo ?",
+      "image": null,
+      "imagePrompt": "oslo norway",
+      "answers": ["Suède", "Danemark", "Norvège", "Finlande"],
+      "correctIndex": 2,
+      "explanation": "Oslo est la capitale de la Norvège, souvent confondue avec Stockholm ou Copenhague."
+    },
+    {
+      "id": "11",
+      "question": "Quelle est la capitale de l’Afrique du Sud ?",
+      "image": null,
+      "imagePrompt": "pretoria cape town",
+      "answers": ["Pretoria", "Johannesburg", "Le Cap", "Durban"],
+      "correctIndex": 0,
+      "explanation": "Pretoria est la capitale administrative. L’Afrique du Sud a aussi Le Cap comme capitale législative et Bloemfontein comme capitale judiciaire."
+    },
+    {
+      "id": "12",
+      "question": "Quelle est la capitale d’Israël ?",
+      "image": null,
+      "imagePrompt": "jerusalem city",
+      "answers": ["Tel Aviv", "Haïfa", "Ramallah", "Jérusalem"],
+      "correctIndex": 3,
+      "explanation": "Jérusalem est considérée comme capitale par Israël, mais son statut international reste sensible et disputé."
+    },
+    {
+      "id": "13",
+      "question": "Quelle est la capitale des Pays-Bas ?",
+      "image": null,
+      "imagePrompt": "amsterdam hague",
+      "answers": ["La Haye", "Amsterdam", "Rotterdam", "Utrecht"],
+      "correctIndex": 1,
+      "explanation": "Amsterdam est la capitale officielle, mais le gouvernement, le parlement et la cour suprême siègent à La Haye."
+    },
+    {
+      "id": "14",
+      "question": "Quelle est la capitale du Myanmar ?",
+      "image": null,
+      "imagePrompt": "naypyidaw",
+      "answers": ["Yangon", "Mandalay", "Naypyidaw", "Bangkok"],
+      "correctIndex": 2,
+      "explanation": "Naypyidaw est la capitale depuis 2005. Yangon reste pourtant la ville la plus connue à l’international."
+    },
+    {
+      "id": "15",
+      "question": "Quelle est la capitale du Kazakhstan ?",
+      "image": null,
+      "imagePrompt": "astana city",
+      "answers": ["Astana", "Almaty", "Bichkek", "Tachkent"],
+      "correctIndex": 0,
+      "explanation": "Astana est la capitale actuelle. Almaty a longtemps occupé ce rôle, ce qui explique la confusion fréquente."
+    },
+    {
+      "id": "16",
+      "question": "Quel pays a pour capitale Lima ?",
+      "image": null,
+      "imagePrompt": "lima peru",
+      "answers": ["Chili", "Bolivie", "Colombie", "Pérou"],
+      "correctIndex": 3,
+      "explanation": "Lima est la capitale du Pérou et l’un des grands centres politiques et économiques d’Amérique du Sud."
+    },
+    {
+      "id": "17",
+      "question": "Quel pays a pour capitale Budapest ?",
+      "image": null,
+      "imagePrompt": "budapest hungary",
+      "answers": ["Roumanie", "Slovaquie", "Hongrie", "Croatie"],
+      "correctIndex": 2,
+      "explanation": "Budapest est la capitale de la Hongrie. Son nom vient de la réunion historique de Buda, Pest et Óbuda."
+    },
+    {
+      "id": "18",
+      "question": "Quel pays a pour capitale Athènes ?",
+      "image": null,
+      "imagePrompt": "athens greece",
+      "answers": ["Grèce", "Italie", "Chypre", "Turquie"],
+      "correctIndex": 0,
+      "explanation": "Athènes est la capitale de la Grèce et un symbole majeur de l’Antiquité classique et de la démocratie antique."
+    },
+    {
+      "id": "19",
+      "question": "Quel pays a pour capitale Hanoï ?",
+      "image": null,
+      "imagePrompt": "hanoi vietnam",
+      "answers": ["Thaïlande", "Cambodge", "Laos", "Vietnam"],
+      "correctIndex": 3,
+      "explanation": "Hanoï est la capitale du Vietnam, tandis que Hô Chi Minh-Ville est la ville la plus grande et la plus dynamique économiquement."
+    },
+    {
+      "id": "20",
+      "question": "Quel pays a pour capitale Reykjavik ?",
+      "image": null,
+      "imagePrompt": "reykjavik iceland",
+      "answers": ["Finlande", "Islande", "Norvège", "Suède"],
+      "correctIndex": 1,
+      "explanation": "Reykjavik est la capitale de l’Islande et l’une des capitales les plus septentrionales du monde."
+    }
+  ]
+}

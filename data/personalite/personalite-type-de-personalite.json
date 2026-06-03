@@ -1,0 +1,507 @@
+{
+  "slug": "test-psychologique-quel-est-ton-type-de-personnalite",
+  "title": "Test psychologique - Quel est ton type de personnalité ?",
+  "description": "Découvre le type de personnalité qui te correspond le mieux à travers un test complet, clair et révélateur.",
+  "descriptionSeo": "Fais ce test psychologique pour découvrir ton type de personnalité parmi plusieurs grands profils. À travers des questions sur tes habitudes, tes réactions et ta façon d’interagir avec les autres, identifie ce qui te définit le mieux. Un test accessible et révélateur pour mieux comprendre ton fonctionnement, tes forces naturelles et la manière dont tu abordes les situations du quotidien.",
+  "category": {
+    "name": "Psychologie",
+    "slug": "psychologie"
+  },
+  "createdAt": "2026-04-20",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776773776/cover_geypwr.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776773776/cover_geypwr.jpg",
+    "alt": "Test psychologique sur le type de personnalité"
+  },
+  "profiles": [
+    {
+      "key": "introverti",
+      "title": "L'Introverti réfléchi",
+      "description": "Ton type de personnalité est marqué par l’introspection, la profondeur et la réflexion. Tu n’es pas forcément réservé par timidité, mais tu préfères souvent les échanges sincères aux interactions superficielles. Tu te sens mieux dans les environnements calmes, où tu peux observer, penser et avancer à ton rythme. Tu prends généralement le temps de réfléchir avant de parler ou d’agir, ce qui te rend souvent pertinent, nuancé et lucide. Tu apprécies les moments seuls, non pas parce que tu rejettes les autres, mais parce qu’ils te permettent de te recentrer et de recharger ton énergie. Tu es souvent attentif aux détails, aux ambiances et à ce qui se joue en profondeur. En revanche, tu peux parfois trop intérioriser ou avoir du mal à t’imposer dans des contextes très bruyants ou rapides. Ta force réside dans ta richesse intérieure, ta capacité d’analyse et ton authenticité.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776775124/introvert_xgy9oy.jpg"
+    },
+    {
+      "key": "extraverti",
+      "title": "L'Extraverti dynamique",
+      "description": "Ton type de personnalité est tourné vers l’action, le contact et l’énergie du monde extérieur. Tu prends souvent plaisir à échanger, partager, bouger et vivre des expériences stimulantes. Tu te nourris du lien social, des discussions et des environnements vivants. Tu as souvent une présence naturelle, une spontanéité qui attire les autres et une facilité à créer du mouvement autour de toi. Tu aimes avancer, tester, rencontrer et t’impliquer. Cette énergie fait de toi une personne chaleureuse, motivante et souvent enthousiaste. Tu n’as généralement pas peur de t’exprimer ou d’aller vers les autres, ce qui te rend à l’aise dans de nombreux contextes. En revanche, tu peux parfois agir trop vite, manquer de recul ou te disperser. Ton défi est de garder des temps de recentrage pour ne pas t’épuiser. Ta force réside dans ton élan, ton aisance relationnelle et ta capacité à entraîner les autres avec toi.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776775123/extravert_ufqgpj.jpg"
+    },
+    {
+      "key": "analytique",
+      "title": "L'Analytique",
+      "description": "Ton type de personnalité repose sur la logique, l’observation et la compréhension fine des situations. Tu aimes réfléchir avant d’agir et tu accordes de l’importance à la cohérence, aux faits et à la clarté. Tu prends souvent du recul pour analyser ce qui se passe, comparer les options et anticiper les conséquences. Cette façon de fonctionner fait de toi une personne lucide, structurée et souvent très pertinente dans tes jugements. Tu apprécies les environnements où l’on peut penser clairement, organiser les choses et approfondir les sujets. Tu n’aimes pas forcément l’improvisation totale ou les décisions prises dans la précipitation. En revanche, tu peux parfois suranalyser, hésiter ou avoir du mal à lâcher prise quand tout n’est pas parfaitement clair. Ton défi est d’accepter qu’on ne maîtrise pas tout. Ta force réside dans ton discernement, ton esprit critique et ta capacité à apporter de la stabilité intellectuelle dans des situations complexes.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776771826/analytic_ofwghg.jpg"
+    },
+    {
+      "key": "creatif",
+      "title": "Le Créatif intuitif",
+      "description": "Ton type de personnalité est guidé par l’imagination, l’intuition et la spontanéité. Tu aimes explorer des idées nouvelles, sortir des cadres classiques et envisager les choses sous un angle différent. Ton esprit est souvent en mouvement, curieux et inspiré, ce qui te permet de proposer des solutions originales ou des visions inédites. Tu es attiré par tout ce qui stimule ton expression personnelle, ton inventivité et ton besoin de liberté. Cette créativité peut se retrouver dans tes projets, ta façon de parler, de penser ou même de vivre. Tu apportes du renouveau et de l’inspiration autour de toi. En revanche, tu peux parfois te disperser, t’ennuyer dans la routine ou avoir du mal à structurer tes idées dans la durée. Ton défi est de canaliser ton inspiration sans l’étouffer. Ta force réside dans ton originalité, ta sensibilité imaginative et ta capacité à voir des possibilités là où d’autres voient des limites.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776771397/creative_s5mdep.jpg"
+    },
+    {
+      "key": "empathique",
+      "title": "L'Empathique relationnel",
+      "description": "Ton type de personnalité est profondément tourné vers l’humain, les émotions et la qualité des relations. Tu ressens facilement ce que vivent les autres et tu fais souvent preuve d’écoute, de douceur et de compréhension. Tu attaches beaucoup d’importance aux liens sincères, à l’harmonie et à la confiance. Ton intuition émotionnelle te permet de capter les ambiances, les non-dits et les besoins des personnes qui t’entourent. Tu es souvent celui ou celle vers qui les autres se tournent quand ils ont besoin de soutien ou de réconfort. Cette sensibilité est une vraie force, car elle te permet de créer des relations profondes et authentiques. En revanche, tu peux parfois trop absorber les émotions des autres ou avoir du mal à poser des limites. Ton défi est d’apprendre à te préserver sans perdre cette qualité. Ta force réside dans ta bienveillance, ta finesse émotionnelle et ton sens du lien humain.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776771398/empathy_mvzut0.jpg"
+    },
+    {
+      "key": "leader",
+      "title": "Le Leader affirmé",
+      "description": "Ton type de personnalité est marqué par l’assurance, l’initiative et la capacité à entraîner les autres. Tu prends naturellement les choses en main quand une situation demande de la décision, de la clarté ou de l’élan. Tu as souvent une vision assez nette de ce que tu veux et tu n’hésites pas à avancer, à proposer ou à guider. Cette posture fait de toi une personne solide, engagée et rassurante dans les moments où il faut trancher ou structurer. Tu aimes sentir que tu peux agir concrètement sur les choses, faire avancer un projet ou impulser une dynamique. En revanche, tu peux parfois paraître trop direct, impatient ou exigeant si les autres ne suivent pas ton rythme. Ton défi est d’équilibrer affirmation et écoute. Ta force réside dans ton courage, ton sens des responsabilités et ta capacité à donner une direction quand tout semble hésitant.",
+      "image": ""
+    }
+  ],
+  "questions": [
+    {
+      "id": "1",
+      "question": "Dans un nouveau groupe, tu es plutôt…",
+      "image": null,
+      "answers": [
+        {
+          "label": "Discret au début, j’observe avant de m’ouvrir",
+          "scores": {
+            "introverti": 3,
+            "analytique": 1
+          }
+        },
+        {
+          "label": "À l’aise, je vais facilement vers les autres",
+          "scores": {
+            "extraverti": 3,
+            "leader": 1
+          }
+        },
+        {
+          "label": "Attentif aux dynamiques et aux personnalités",
+          "scores": {
+            "analytique": 3,
+            "empathique": 1
+          }
+        },
+        {
+          "label": "Original, je me fais remarquer par ma spontanéité",
+          "scores": {
+            "creatif": 3,
+            "extraverti": 1
+          }
+        },
+        {
+          "label": "Bienveillant, je mets les autres à l’aise",
+          "scores": {
+            "empathique": 3,
+            "extraverti": 1
+          }
+        },
+        {
+          "label": "Naturellement moteur, je prends vite ma place",
+          "scores": {
+            "leader": 3,
+            "extraverti": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "question": "Quand tu dois prendre une décision importante…",
+      "image": null,
+      "answers": [
+        {
+          "label": "Je réfléchis longtemps avant de me positionner",
+          "scores": {
+            "introverti": 3,
+            "analytique": 1
+          }
+        },
+        {
+          "label": "Je tranche assez vite et j’avance",
+          "scores": {
+            "leader": 3,
+            "determine": 1
+          }
+        },
+        {
+          "label": "Je compare toutes les options",
+          "scores": {
+            "analytique": 3
+          }
+        },
+        {
+          "label": "Je me fie à mon intuition",
+          "scores": {
+            "creatif": 3,
+            "empathique": 1
+          }
+        },
+        {
+          "label": "Je pense d’abord à l’impact sur les autres",
+          "scores": {
+            "empathique": 3
+          }
+        },
+        {
+          "label": "Je choisis ce qui me semble le plus stimulant",
+          "scores": {
+            "extraverti": 3,
+            "creatif": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "question": "Ce qui te fatigue le plus…",
+      "image": null,
+      "answers": [
+        {
+          "label": "Le bruit constant et trop de sollicitations",
+          "scores": {
+            "introverti": 3
+          }
+        },
+        {
+          "label": "L’ennui et le manque d’action",
+          "scores": {
+            "extraverti": 3,
+            "leader": 1
+          }
+        },
+        {
+          "label": "Le désordre ou le manque de logique",
+          "scores": {
+            "analytique": 3
+          }
+        },
+        {
+          "label": "La routine répétitive",
+          "scores": {
+            "creatif": 3
+          }
+        },
+        {
+          "label": "Les tensions humaines ou les conflits froids",
+          "scores": {
+            "empathique": 3
+          }
+        },
+        {
+          "label": "Les gens qui n’avancent pas ou hésitent trop",
+          "scores": {
+            "leader": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "question": "Dans ton temps libre, tu préfères…",
+      "image": null,
+      "answers": [
+        {
+          "label": "Être seul pour lire, réfléchir ou me recentrer",
+          "scores": {
+            "introverti": 3
+          }
+        },
+        {
+          "label": "Voir du monde, sortir ou vivre quelque chose",
+          "scores": {
+            "extraverti": 3
+          }
+        },
+        {
+          "label": "Apprendre, comprendre ou creuser un sujet",
+          "scores": {
+            "analytique": 3,
+            "introverti": 1
+          }
+        },
+        {
+          "label": "Créer, imaginer ou expérimenter",
+          "scores": {
+            "creatif": 3
+          }
+        },
+        {
+          "label": "Partager un moment sincère avec des proches",
+          "scores": {
+            "empathique": 3
+          }
+        },
+        {
+          "label": "Organiser un projet ou lancer une idée",
+          "scores": {
+            "leader": 3,
+            "creatif": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "question": "Dans un conflit, tu as tendance à…",
+      "image": null,
+      "answers": [
+        {
+          "label": "Prendre du recul avant de parler",
+          "scores": {
+            "introverti": 3,
+            "analytique": 1
+          }
+        },
+        {
+          "label": "Dire rapidement ce que tu penses",
+          "scores": {
+            "extraverti": 3,
+            "leader": 1
+          }
+        },
+        {
+          "label": "Analyser les faits objectivement",
+          "scores": {
+            "analytique": 3
+          }
+        },
+        {
+          "label": "Chercher une sortie originale ou apaisante",
+          "scores": {
+            "creatif": 3,
+            "empathique": 1
+          }
+        },
+        {
+          "label": "Vouloir comprendre chacun pour rétablir l’équilibre",
+          "scores": {
+            "empathique": 3
+          }
+        },
+        {
+          "label": "Prendre les choses en main pour résoudre vite",
+          "scores": {
+            "leader": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "question": "Ton entourage te voit souvent comme…",
+      "image": null,
+      "answers": [
+        {
+          "label": "Quelqu’un de calme et profond",
+          "scores": {
+            "introverti": 3
+          }
+        },
+        {
+          "label": "Quelqu’un de sociable et énergique",
+          "scores": {
+            "extraverti": 3
+          }
+        },
+        {
+          "label": "Quelqu’un de logique et réfléchi",
+          "scores": {
+            "analytique": 3
+          }
+        },
+        {
+          "label": "Quelqu’un d’original et inspiré",
+          "scores": {
+            "creatif": 3
+          }
+        },
+        {
+          "label": "Quelqu’un de doux et à l’écoute",
+          "scores": {
+            "empathique": 3
+          }
+        },
+        {
+          "label": "Quelqu’un de fort et affirmé",
+          "scores": {
+            "leader": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "question": "Ce qui compte le plus pour toi dans la vie…",
+      "image": null,
+      "answers": [
+        {
+          "label": "Avoir du sens et de la profondeur",
+          "scores": {
+            "introverti": 3,
+            "empathique": 1
+          }
+        },
+        {
+          "label": "Vivre pleinement et intensément",
+          "scores": {
+            "extraverti": 3
+          }
+        },
+        {
+          "label": "Comprendre et faire les bons choix",
+          "scores": {
+            "analytique": 3
+          }
+        },
+        {
+          "label": "Pouvoir créer et rester libre",
+          "scores": {
+            "creatif": 3
+          }
+        },
+        {
+          "label": "Aimer et être entouré de liens sincères",
+          "scores": {
+            "empathique": 3
+          }
+        },
+        {
+          "label": "Avancer, construire et guider",
+          "scores": {
+            "leader": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "question": "Quand quelque chose ne se passe pas comme prévu…",
+      "image": null,
+      "answers": [
+        {
+          "label": "Je me replie un peu pour réfléchir",
+          "scores": {
+            "introverti": 3
+          }
+        },
+        {
+          "label": "Je rebondis vite et passe à autre chose",
+          "scores": {
+            "extraverti": 3,
+            "leader": 1
+          }
+        },
+        {
+          "label": "Je cherche à comprendre précisément pourquoi",
+          "scores": {
+            "analytique": 3
+          }
+        },
+        {
+          "label": "Je tente une autre approche plus inventive",
+          "scores": {
+            "creatif": 3
+          }
+        },
+        {
+          "label": "Je ressens fortement l’ambiance autour",
+          "scores": {
+            "empathique": 3
+          }
+        },
+        {
+          "label": "Je reprends la main pour remettre de l’ordre",
+          "scores": {
+            "leader": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "question": "Dans un environnement idéal, tu as besoin de…",
+      "image": null,
+      "answers": [
+        {
+          "label": "Calme, espace et temps pour toi",
+          "scores": {
+            "introverti": 3
+          }
+        },
+        {
+          "label": "Mouvement, échanges et stimulation",
+          "scores": {
+            "extraverti": 3
+          }
+        },
+        {
+          "label": "Clarté, structure et cohérence",
+          "scores": {
+            "analytique": 3
+          }
+        },
+        {
+          "label": "Liberté, imagination et nouveauté",
+          "scores": {
+            "creatif": 3
+          }
+        },
+        {
+          "label": "Confiance, chaleur et harmonie",
+          "scores": {
+            "empathique": 3
+          }
+        },
+        {
+          "label": "Objectifs, direction et autonomie",
+          "scores": {
+            "leader": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "question": "Ce qui te ressemble le plus…",
+      "image": null,
+      "answers": [
+        {
+          "label": "Je pense beaucoup et je parle peu",
+          "scores": {
+            "introverti": 3
+          }
+        },
+        {
+          "label": "J’agis d’abord et je réfléchis ensuite",
+          "scores": {
+            "extraverti": 3,
+            "leader": 1
+          }
+        },
+        {
+          "label": "J’observe, je comprends, puis je décide",
+          "scores": {
+            "analytique": 3
+          }
+        },
+        {
+          "label": "J’imagine toujours autre chose",
+          "scores": {
+            "creatif": 3
+          }
+        },
+        {
+          "label": "Je ressens beaucoup ce que vivent les autres",
+          "scores": {
+            "empathique": 3
+          }
+        },
+        {
+          "label": "Je prends naturellement les choses en main",
+          "scores": {
+            "leader": 3
+          }
+        }
+      ]
+    }
+  ]
+}

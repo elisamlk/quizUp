@@ -1,0 +1,200 @@
+{
+  "slug": "quiz-geographie-sites-unesco",
+  "title": "Quiz Géographie Sites UNESCO - 20 questions immersives",
+  "description": "Explore les plus grands trésors du patrimoine mondial et teste tes connaissances avec ce quiz immersif.",
+  "descriptionSeo": "Les sites classés au patrimoine mondial de l’UNESCO représentent les trésors culturels et naturels les plus précieux de la planète. Ce quiz de géographie vous propose 20 questions pour tester vos connaissances sur des lieux emblématiques comme le Machu Picchu, la Grande Muraille de Chine ou les pyramides d’Égypte. Découvrez leur histoire, leur importance et les raisons de leur classement grâce à des explications détaillées et enrichissantes.",
+  "category": {
+    "name": "Géographie",
+    "slug": "geographie"
+  },
+  "createdAt": "2026-03-30",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1774526195/cover_yuxdqn.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1774526195/cover_yuxdqn.jpg",
+    "alt": "Quiz sites UNESCO"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "question": "Dans quel pays se trouve le Machu Picchu ?",
+      "image": null,
+      "imagePrompt": "Machu Picchu Peru",
+      "answers": ["Chili", "Bolivie", "Pérou", "Équateur"],
+      "correctIndex": 2,
+      "explanation": "Le Machu Picchu, construit au XVe siècle par les Incas, est un chef-d'œuvre d’ingénierie en altitude. Son isolement et sa parfaite intégration dans le paysage andin expliquent en partie sa remarquable conservation et son inscription à l’UNESCO."
+    },
+    {
+      "id": "2",
+      "question": "La Grande Muraille est située dans quel pays ?",
+      "image": null,
+      "imagePrompt": "Great Wall China",
+      "answers": ["Mongolie", "Chine", "Corée du Nord", "Japon"],
+      "correctIndex": 1,
+      "explanation": "La Grande Muraille s’étend sur plus de 20 000 km. Elle illustre la capacité d’organisation des empires chinois et leur volonté de contrôler les frontières face aux invasions nomades."
+    },
+    {
+      "id": "3",
+      "question": "Les pyramides de Gizeh se trouvent dans quel pays ?",
+      "image": null,
+      "imagePrompt": "Pyramids Egypt",
+      "answers": ["Égypte", "Soudan", "Maroc", "Libye"],
+      "correctIndex": 0,
+      "explanation": "Les pyramides sont les seules merveilles du monde antique encore debout. Elles témoignent du niveau avancé de connaissances en mathématiques, en architecture et en organisation sociale de l’Égypte ancienne."
+    },
+    {
+      "id": "4",
+      "question": "Dans quel pays se situe le Taj Mahal ?",
+      "image": null,
+      "imagePrompt": "Taj Mahal India",
+      "answers": ["Pakistan", "Turquie", "Iran", "Inde"],
+      "correctIndex": 3,
+      "explanation": "Construit au XVIIe siècle, le Taj Mahal est un symbole d’amour mais aussi une prouesse architecturale moghole, combinant influences persanes, islamiques et indiennes."
+    },
+    {
+      "id": "5",
+      "question": "Dans quel pays se trouve Petra ?",
+      "image": null,
+      "imagePrompt": "Petra Jordan",
+      "answers": ["Arabie saoudite", "Israël", "Égypte", "Jordanie"],
+      "correctIndex": 3,
+      "explanation": "Petra était une cité caravanière stratégique reliant les routes commerciales entre Orient et Occident. Son architecture creusée dans la roche est unique au monde."
+    },
+    {
+      "id": "6",
+      "question": "Le Mont-Saint-Michel se situe dans quel pays ?",
+      "image": null,
+      "imagePrompt": "Mont Saint Michel France",
+      "answers": ["Belgique", "Espagne", "France", "Italie"],
+      "correctIndex": 2,
+      "explanation": "Le Mont-Saint-Michel illustre la relation entre l’homme et un environnement contraignant. Son isolement périodique par les marées en fait un site exceptionnel."
+    },
+    {
+      "id": "7",
+      "question": "Dans quel pays se trouve Angkor ?",
+      "image": null,
+      "imagePrompt": "Angkor Wat Cambodia",
+      "answers": ["Laos", "Vietnam", "Cambodge", "Thaïlande"],
+      "correctIndex": 2,
+      "explanation": "Angkor représente l’apogée de l’empire khmer. L’ampleur du site et la sophistication de ses systèmes hydrauliques témoignent d’une civilisation extrêmement avancée."
+    },
+    {
+      "id": "8",
+      "question": "Dans quel pays se trouve le parc de Yellowstone ?",
+      "image": null,
+      "imagePrompt": "Yellowstone geysers",
+      "answers": ["Canada", "États-Unis", "Islande", "Norvège"],
+      "correctIndex": 1,
+      "explanation": "Yellowstone est un laboratoire naturel unique au monde, avec geysers, sources chaudes et activité volcanique. Il a joué un rôle pionnier dans la création des parcs nationaux."
+    },
+    {
+      "id": "9",
+      "question": "La ville de Venise est située dans quel pays ?",
+      "image": null,
+      "imagePrompt": "Venice canals",
+      "answers": ["Espagne", "Italie", "Croatie", "Grèce"],
+      "correctIndex": 1,
+      "explanation": "Venise est un exemple exceptionnel d’adaptation humaine à un environnement lagunaire. Sa fragilité face au tourisme et à la montée des eaux en fait un site particulièrement surveillé."
+    },
+    {
+      "id": "10",
+      "question": "Dans quel pays se trouve le Serengeti ?",
+      "image": null,
+      "imagePrompt": "Serengeti migration",
+      "answers": ["Kenya", "Tanzanie", "Namibie", "Botswana"],
+      "correctIndex": 1,
+      "explanation": "Le Serengeti est un des écosystèmes les plus complets au monde. La migration annuelle illustre parfaitement les dynamiques naturelles des chaînes alimentaires."
+    },
+    {
+      "id": "11",
+      "question": "Stonehenge est situé dans quel pays ?",
+      "image": null,
+      "imagePrompt": "Stonehenge UK",
+      "answers": ["Irlande", "France", "Pays-Bas", "Royaume-Uni"],
+      "correctIndex": 3,
+      "explanation": "Stonehenge reste un mystère archéologique. Il pourrait avoir servi de site cérémoniel ou astronomique, démontrant les connaissances avancées des sociétés néolithiques."
+    },
+    {
+      "id": "12",
+      "question": "Dans quel pays se trouve le parc de Komodo ?",
+      "image": null,
+      "imagePrompt": "Komodo dragon",
+      "answers": ["Philippines", "Malaisie", "Indonésie", "Australie"],
+      "correctIndex": 2,
+      "explanation": "Le parc protège le dragon de Komodo, plus grand lézard vivant. Ce site illustre l’importance de la conservation d’espèces uniques et endémiques."
+    },
+    {
+      "id": "13",
+      "question": "Dubrovnik se situe dans quel pays ?",
+      "image": null,
+      "imagePrompt": "Dubrovnik old town",
+      "answers": ["Monténégro", "Croatie", "Grèce", "Italie"],
+      "correctIndex": 1,
+      "explanation": "Dubrovnik est un exemple remarquable de ville médiévale fortifiée ayant conservé son intégrité malgré les conflits modernes."
+    },
+    {
+      "id": "14",
+      "question": "Dans quel pays se trouve le parc de Fiordland ?",
+      "image": null,
+      "imagePrompt": "Fiordland New Zealand",
+      "answers": ["Canada", "Norvège", "Australie", "Nouvelle-Zélande"],
+      "correctIndex": 3,
+      "explanation": "Fiordland est un paysage glaciaire spectaculaire. Son isolement a permis la préservation d’écosystèmes uniques au monde."
+    },
+    {
+      "id": "15",
+      "question": "Teotihuacan se situe dans quel pays ?",
+      "image": null,
+      "imagePrompt": "Teotihuacan pyramids",
+      "answers": ["Guatemala", "Mexique", "Pérou", "Bolivie"],
+      "correctIndex": 1,
+      "explanation": "Teotihuacan fut l’une des plus grandes villes du monde antique. Son urbanisme structuré influence encore les civilisations mésoaméricaines ultérieures."
+    },
+    {
+      "id": "16",
+      "question": "Le Kilimandjaro se situe dans quel pays ?",
+      "image": null,
+      "imagePrompt": "Kilimanjaro",
+      "answers": ["Kenya", "Éthiopie", "Tanzanie", "Ouganda"],
+      "correctIndex": 2,
+      "explanation": "Le Kilimandjaro est un stratovolcan isolé. Sa diversité climatique, du savane aux glaciers, en fait un site scientifique exceptionnel."
+    },
+    {
+      "id": "17",
+      "question": "Uluru se situe dans quel pays ?",
+      "image": null,
+      "imagePrompt": "Uluru",
+      "answers": ["Nouvelle-Zélande", "Australie", "Indonésie", "Papouasie"],
+      "correctIndex": 1,
+      "explanation": "Uluru est un site sacré pour les Aborigènes. Il incarne la dimension spirituelle du patrimoine, au-delà de sa valeur géologique."
+    },
+    {
+      "id": "18",
+      "question": "Prague est située dans quel pays ?",
+      "image": null,
+      "imagePrompt": "Prague old town",
+      "answers": ["Autriche", "Hongrie", "République tchèque", "Pologne"],
+      "correctIndex": 2,
+      "explanation": "Prague est un exemple exceptionnel de continuité architecturale, mêlant styles gothique, baroque et moderne."
+    },
+    {
+      "id": "19",
+      "question": "La vallée de la Loire est située dans quel pays ?",
+      "image": null,
+      "imagePrompt": "Loire castles",
+      "answers": ["Italie", "France", "Espagne", "Portugal"],
+      "correctIndex": 1,
+      "explanation": "La vallée de la Loire illustre l’influence de la Renaissance en France à travers ses châteaux et paysages culturels."
+    },
+    {
+      "id": "20",
+      "question": "Dans quel pays se trouve le parc des Galápagos ?",
+      "image": null,
+      "imagePrompt": "Galapagos islands",
+      "answers": ["Chili", "Mexique", "Pérou", "Équateur"],
+      "correctIndex": 3,
+      "explanation": "Les Galápagos ont joué un rôle clé dans la théorie de l’évolution de Darwin. Leur biodiversité unique en fait un site scientifique majeur."
+    }
+  ]
+}

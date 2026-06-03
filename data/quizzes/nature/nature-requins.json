@@ -1,0 +1,160 @@
+{
+  "slug": "quiz-nature-requins-mythes-ou-realites",
+  "title": "Quiz Nature - Que sais-tu vraiment sur les requins ?",
+  "description": "Démêle le vrai du faux sur les requins, leurs comportements et leur rôle dans les océans.",
+  "descriptionSeo": "Ce quiz nature de 20 questions explore les requins à travers mythes et réalités. Attaques, comportement, espèces, sens développés et rôle dans les océans : découvre ce qui est vrai ou faux sur ces prédateurs marins. Comprends leur importance dans l’équilibre des écosystèmes et les dangers réels. Un quiz éducatif et surprenant pour mieux connaître les requins et dépasser les idées reçues.",
+  "category": {
+    "name": "Nature",
+    "slug": "nature"
+  },
+  "createdAt": "2026-05-04",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777896445/shark_kwk9tt.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777896445/shark_kwk9tt.jpg",
+    "alt": "Quiz requins mythes et réalités"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "question": "Les requins attaquent-ils souvent les humains ?",
+      "answers": ["Oui, tous les jours", "Oui, dès qu’ils voient un humain", "Non, les attaques sont rares", "Uniquement la nuit"],
+      "correctIndex": 2,
+      "explanation": "Les attaques de requins restent rares, car l’humain ne fait pas partie de leurs proies habituelles."
+    },
+    {
+      "id": "2",
+      "question": "Quel rôle les requins jouent-ils dans les océans ?",
+      "answers": ["Ils régulent les populations marines", "Ils détruisent tous les poissons", "Ils polluent les récifs", "Ils empêchent les marées"],
+      "correctIndex": 0,
+      "explanation": "En éliminant souvent les animaux faibles ou malades, les requins contribuent à l’équilibre des écosystèmes marins."
+    },
+    {
+      "id": "3",
+      "question": "Tous les requins sont-ils de grands prédateurs dangereux ?",
+      "answers": ["Oui, sans exception", "Seulement en eau froide", "Seulement les jeunes requins", "Non, beaucoup sont inoffensifs pour l’homme"],
+      "correctIndex": 3,
+      "explanation": "Il existe de nombreuses espèces de requins, dont certaines sont petites, discrètes ou se nourrissent de plancton."
+    },
+    {
+      "id": "4",
+      "question": "Quel requin est connu pour se nourrir principalement de plancton ?",
+      "answers": ["Le grand requin blanc", "Le requin-baleine", "Le requin-tigre", "Le requin-marteau"],
+      "correctIndex": 1,
+      "explanation": "Le requin-baleine est le plus grand poisson du monde, mais il filtre surtout du plancton et de petits organismes."
+    },
+    {
+      "id": "5",
+      "question": "Les requins peuvent-ils sentir de très faibles traces d’odeurs dans l’eau ?",
+      "answers": ["Oui, leur odorat est très développé", "Non, ils n’ont pas d’odorat", "Seulement hors de l’eau", "Uniquement les requins blancs"],
+      "correctIndex": 0,
+      "explanation": "Leur odorat très sensible leur permet de détecter des substances dissoutes dans l’eau sur de longues distances."
+    },
+    {
+      "id": "6",
+      "question": "Pourquoi certains requins nagent-ils presque en permanence ?",
+      "answers": ["Pour éviter la lumière", "Pour dormir plus vite", "Pour faire circuler l’eau sur leurs branchies", "Pour changer de couleur"],
+      "correctIndex": 2,
+      "explanation": "Chez certaines espèces, nager aide l’eau riche en oxygène à passer sur les branchies pour respirer."
+    },
+    {
+      "id": "7",
+      "question": "Les requins sont-ils des mammifères marins ?",
+      "answers": ["Oui, comme les dauphins", "Non, ce sont des poissons cartilagineux", "Oui, car ils vivent dans l’eau", "Seulement les grands requins"],
+      "correctIndex": 1,
+      "explanation": "Les requins sont des poissons dont le squelette est fait de cartilage, contrairement aux mammifères qui respirent avec des poumons."
+    },
+    {
+      "id": "8",
+      "question": "Quel sens particulier aide les requins à détecter les champs électriques ?",
+      "answers": ["Les nageoires dorsales", "Les dents", "Les écailles", "Les ampoules de Lorenzini"],
+      "correctIndex": 3,
+      "explanation": "Les ampoules de Lorenzini détectent de faibles signaux électriques produits par les muscles des proies."
+    },
+    {
+      "id": "9",
+      "question": "Un requin peut-il perdre et remplacer ses dents ?",
+      "answers": ["Non, jamais", "Oui, tout au long de sa vie", "Seulement une fois", "Seulement en captivité"],
+      "correctIndex": 1,
+      "explanation": "Les requins remplacent régulièrement leurs dents, ce qui leur permet de conserver une mâchoire efficace."
+    },
+    {
+      "id": "10",
+      "question": "Quelle idée reçue sur les requins est fausse ?",
+      "answers": ["Ils sont tous des mangeurs d’hommes", "Ils vivent dans les océans", "Ils ont des dents", "Certains sont menacés"],
+      "correctIndex": 0,
+      "explanation": "La majorité des requins évitent les humains et les attaques sont souvent liées à une confusion ou une situation particulière."
+    },
+    {
+      "id": "11",
+      "question": "Pourquoi les requins sont-ils menacés dans plusieurs régions du monde ?",
+      "answers": ["À cause des marées", "À cause des coraux", "À cause du sable", "À cause de la pêche excessive"],
+      "correctIndex": 3,
+      "explanation": "La surpêche, les captures accidentelles et le commerce des ailerons font fortement baisser certaines populations."
+    },
+    {
+      "id": "12",
+      "question": "Les requins existaient-ils avant les dinosaures ?",
+      "answers": ["Non, ils sont récents", "Seulement certaines espèces tropicales", "Oui, leur lignée est très ancienne", "Seulement après les mammifères"],
+      "correctIndex": 2,
+      "explanation": "Les ancêtres des requins existaient déjà il y a plusieurs centaines de millions d’années."
+    },
+    {
+      "id": "13",
+      "question": "Quel comportement humain augmente le risque de rencontre dangereuse avec un requin ?",
+      "answers": ["Nager près d’appâts ou de poissons blessés", "Observer depuis la plage", "Lire un panneau d’information", "Éviter les zones signalées"],
+      "correctIndex": 0,
+      "explanation": "Le sang, les vibrations et la présence de proies peuvent attirer les requins dans une zone."
+    },
+    {
+      "id": "14",
+      "question": "Les requins ont-ils des os comme les humains ?",
+      "answers": ["Oui, exactement les mêmes", "Oui, mais seulement dans la queue", "Oui, uniquement dans les dents", "Non, leur squelette est surtout cartilagineux"],
+      "correctIndex": 3,
+      "explanation": "Le cartilage rend leur corps plus léger et flexible, ce qui favorise la nage."
+    },
+    {
+      "id": "15",
+      "question": "Quel requin est célèbre pour la forme particulière de sa tête ?",
+      "answers": ["Le requin-baleine", "Le requin-marteau", "Le requin pèlerin", "Le requin-renard"],
+      "correctIndex": 1,
+      "explanation": "La tête élargie du requin-marteau améliore son champ de vision et l’aide à détecter ses proies."
+    },
+    {
+      "id": "16",
+      "question": "Pourquoi protéger les requins est-il important ?",
+      "answers": ["Pour augmenter les attaques", "Pour supprimer les poissons", "Pour préserver l’équilibre des océans", "Pour bloquer les courants marins"],
+      "correctIndex": 2,
+      "explanation": "La disparition des grands prédateurs peut provoquer des déséquilibres en cascade dans les chaînes alimentaires marines."
+    },
+    {
+      "id": "17",
+      "question": "Les requins voient-ils uniquement grâce à leur odorat ?",
+      "answers": ["Oui, ils sont aveugles", "Oui, sauf la nuit", "Oui, seulement en surface", "Non, ils utilisent plusieurs sens"],
+      "correctIndex": 3,
+      "explanation": "Les requins combinent vision, odorat, vibrations et détection électrique pour comprendre leur environnement."
+    },
+    {
+      "id": "18",
+      "question": "Quel animal est statistiquement bien plus dangereux pour l’homme que le requin ?",
+      "answers": ["Le dauphin", "Le moustique", "L’étoile de mer", "La sardine"],
+      "correctIndex": 1,
+      "explanation": "Le moustique transmet des maladies graves et cause beaucoup plus de morts humaines que les requins."
+    },
+    {
+      "id": "19",
+      "question": "Que signifie le mot “prédateur” pour un requin ?",
+      "answers": ["Un animal qui produit des plantes", "Un animal qui fabrique du corail", "Un animal qui chasse d’autres animaux", "Un animal qui ne mange jamais"],
+      "correctIndex": 2,
+      "explanation": "Un prédateur capture des proies pour se nourrir, mais cela ne signifie pas qu’il attaque tout ce qu’il rencontre."
+    },
+    {
+      "id": "20",
+      "question": "Quel comportement est le plus responsable face aux requins ?",
+      "answers": ["Respecter les consignes locales et éviter les zones à risque", "Les nourrir pour les calmer", "Les poursuivre en bateau", "Les toucher pour les identifier"],
+      "correctIndex": 0,
+      "explanation": "Le respect des consignes réduit les risques tout en évitant de perturber ces animaux sauvages."
+    }
+  ]
+}

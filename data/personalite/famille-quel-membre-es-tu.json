@@ -1,0 +1,146 @@
+{
+  "slug": "test-quel-membre-de-famille-es-tu",
+  "title": "Test famille - Quel membre de famille es-tu vraiment ?",
+  "description": "Dans ta famille, quel rôle prends-tu naturellement ?",
+  "descriptionSeo": "Protecteur, médiateur, indépendant ou moteur… ce test révèle le rôle que tu joues vraiment dans ta famille. À travers des situations concrètes, découvre ta place naturelle dans la dynamique familiale.",
+  "category": {
+    "name": "Famille",
+    "slug": "famille"
+  },
+  "createdAt": "2026-04-27",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777380490/cover_mpfzxc.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777380490/cover_mpfzxc.jpg",
+    "alt": "Test rôle famille"
+  },
+  "profiles": [
+    {
+      "key": "protecteur",
+      "title": "Le/la protecteur(trice)",
+      "description": "Tu es celui ou celle sur qui les autres peuvent compter. Tu ressens souvent le besoin de protéger, d’aider et de veiller sur les membres de ta famille. Tu es attentif(ve), impliqué(e) et prêt(e) à prendre des responsabilités. Tu peux parfois en faire beaucoup pour les autres, mais c’est parce que tu tiens profondément à eux. Tu es une présence rassurante et stable dans ton cercle familial.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777380769/protection_uwcywl.jpg"
+    },
+    {
+      "key": "mediateur",
+      "title": "Le/la médiateur(trice)",
+      "description": "Tu es celui ou celle qui apaise les tensions. Tu cherches à comprendre tout le monde et à maintenir une bonne ambiance. Tu évites les conflits inutiles et tu essaies de trouver des solutions équilibrées. Tu es souvent au milieu, à faire le lien entre les autres. Tu privilégies l’harmonie et la communication.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777380771/mediation_hxhq91.jpg"
+    },
+    {
+      "key": "independant",
+      "title": "L’indépendant(e)",
+      "description": "Tu es quelqu’un d’autonome qui garde une certaine distance avec la dynamique familiale. Tu fais ta vie, à ton rythme, sans dépendre des autres. Tu es présent(e), mais sans te sentir obligé(e) de t’impliquer constamment. Tu privilégies ton espace personnel et ton indépendance.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777376406/independant-child_mxqppm.jpg"
+    },
+    {
+      "key": "moteur",
+      "title": "Le moteur",
+      "description": "Tu es celui ou celle qui fait bouger les choses. Tu proposes, tu organises, tu prends des initiatives. Tu aimes quand il y a de la vie, des moments partagés et du mouvement. Tu es souvent à l’origine des réunions, des projets ou des activités familiales. Tu apportes de l’énergie et du dynamisme.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776952684/cover_uhkyrv.jpg"
+    }
+  ],
+"questions": [
+  {
+    "id": "1",
+    "question": "Un groupe WhatsApp familial devient tendu…",
+    "answers": [
+      { "label": "Je prends des nouvelles en privé pour calmer", "scores": { "protecteur": 3 } },
+      { "label": "Je tente de désamorcer dans la discussion", "scores": { "mediateur": 3 } },
+      { "label": "Je ne réponds pas", "scores": { "independant": 3 } },
+      { "label": "Je recadre directement", "scores": { "moteur": 3 } }
+    ]
+  },
+  {
+    "id": "2",
+    "question": "Un repas de famille s’organise mais personne ne se bouge…",
+    "answers": [
+      { "label": "Je vérifie que tout le monde va bien venir", "scores": { "protecteur": 3 } },
+      { "label": "Je relance pour que ça reste fluide", "scores": { "mediateur": 3 } },
+      { "label": "Je viens si ça se fait", "scores": { "independant": 3 } },
+      { "label": "Je prends l’organisation en main", "scores": { "moteur": 3 } }
+    ]
+  },
+  {
+    "id": "3",
+    "question": "Quelqu’un ne va pas bien dans ta famille…",
+    "answers": [
+      { "label": "Je vais vers lui/elle directement", "scores": { "protecteur": 3 } },
+      { "label": "J’essaie de comprendre sans brusquer", "scores": { "mediateur": 3 } },
+      { "label": "Je laisse de l’espace", "scores": { "independant": 3 } },
+      { "label": "Je propose des solutions concrètes", "scores": { "moteur": 3 } }
+    ]
+  },
+  {
+    "id": "4",
+    "question": "Deux proches se clashent devant toi…",
+    "answers": [
+      { "label": "Je protège celui/celle qui semble le plus touché", "scores": { "protecteur": 3 } },
+      { "label": "Je tente de calmer les deux", "scores": { "mediateur": 3 } },
+      { "label": "Je me retire de la situation", "scores": { "independant": 3 } },
+      { "label": "Je dis les choses clairement", "scores": { "moteur": 3 } }
+    ]
+  },
+  {
+    "id": "5",
+    "question": "On attend quelque chose de toi (organisation, aide…)…",
+    "answers": [
+      { "label": "Je le fais sans hésiter", "scores": { "protecteur": 3 } },
+      { "label": "Je le fais en essayant d’équilibrer", "scores": { "mediateur": 3 } },
+      { "label": "Je vois si ça me concerne vraiment", "scores": { "independant": 3 } },
+      { "label": "Je prends ça comme un rôle à gérer", "scores": { "moteur": 3 } }
+    ]
+  },
+  {
+    "id": "6",
+    "question": "Pendant un repas, un silence gênant s’installe…",
+    "answers": [
+      { "label": "Je vérifie que tout le monde est à l’aise", "scores": { "protecteur": 3 } },
+      { "label": "Je relance la discussion", "scores": { "mediateur": 3 } },
+      { "label": "Je reste tranquille", "scores": { "independant": 3 } },
+      { "label": "Je change complètement le sujet", "scores": { "moteur": 3 } }
+    ]
+  },
+  {
+    "id": "7",
+    "question": "Tu dois annoncer une décision personnelle importante…",
+    "answers": [
+      { "label": "Je fais attention à comment ça va impacter les autres", "scores": { "protecteur": 3 } },
+      { "label": "Je choisis le bon moment pour éviter les tensions", "scores": { "mediateur": 3 } },
+      { "label": "Je le dis sans attendre leur validation", "scores": { "independant": 3 } },
+      { "label": "Je l’annonce clairement, sans détour", "scores": { "moteur": 3 } }
+    ]
+  },
+  {
+    "id": "8",
+    "question": "Un événement familial doit être organisé à la dernière minute…",
+    "answers": [
+      { "label": "Je m’assure que personne n’est oublié", "scores": { "protecteur": 3 } },
+      { "label": "Je coordonne un minimum", "scores": { "mediateur": 3 } },
+      { "label": "Je m’adapte sans trop m’impliquer", "scores": { "independant": 3 } },
+      { "label": "Je prends le lead direct", "scores": { "moteur": 3 } }
+    ]
+  },
+  {
+    "id": "9",
+    "question": "Après un moment en famille un peu lourd…",
+    "answers": [
+      { "label": "Je vérifie que tout le monde va bien", "scores": { "protecteur": 3 } },
+      { "label": "Je réfléchis à comment améliorer les choses", "scores": { "mediateur": 3 } },
+      { "label": "Je passe à autre chose", "scores": { "independant": 3 } },
+      { "label": "Je pense à ce qu’il faudrait changer", "scores": { "moteur": 3 } }
+    ]
+  },
+  {
+    "id": "10",
+    "question": "Dans ta famille, quand rien n’avance…",
+    "answers": [
+      { "label": "Je soutiens les autres", "scores": { "protecteur": 3 } },
+      { "label": "J’essaie de rééquilibrer", "scores": { "mediateur": 3 } },
+      { "label": "Je me concentre sur moi", "scores": { "independant": 3 } },
+      { "label": "Je fais bouger les choses", "scores": { "moteur": 3 } }
+    ]
+  }
+]
+}

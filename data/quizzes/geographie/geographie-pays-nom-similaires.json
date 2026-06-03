@@ -1,0 +1,200 @@
+{
+  "slug": "quiz-pays-noms-similaires-monde",
+  "title": "Quiz Géographie - Pays aux noms similaires",
+  "description": "Teste tes connaissances sur les pays aux noms proches et évite les pièges les plus courants.",
+  "descriptionSeo": "Congo, Corée, Guinée, Niger… saurez-vous distinguer les pays aux noms similaires ? Ce quiz de géographie propose 20 questions piégeuses pour comprendre les différences entre États souvent confondus. Grâce à des explications détaillées mêlant histoire, géopolitique et linguistique, vous apprendrez pourquoi ces confusions existent et comment les éviter définitivement.",
+  "category": {
+    "name": "Géographie",
+    "slug": "geographie"
+  },
+  "createdAt": "2026-03-30",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1774869996/cover_btehjd.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1774869996/cover_btehjd.jpg",
+    "alt": "Quiz pays noms similaires"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "question": "Quel pays a pour capitale Brazzaville ?",
+      "image": null,
+      "imagePrompt": "Brazzaville city",
+      "answers": ["RDC", "Congo", "Gabon", "Angola"],
+      "correctIndex": 1,
+      "explanation": "Le Congo (Brazzaville) et la RDC (Kinshasa) tirent leur nom du fleuve Congo. La confusion est fréquente car ils partagent une histoire coloniale différente (française vs belge) mais sont séparés uniquement par un fleuve, leurs capitales étant parmi les plus proches du monde."
+    },
+    {
+      "id": "2",
+      "question": "Quel pays a pour capitale Kinshasa ?",
+      "image": null,
+      "imagePrompt": "Kinshasa skyline",
+      "answers": ["Congo", "Angola", "RDC", "Zambie"],
+      "correctIndex": 2,
+      "explanation": "La République démocratique du Congo est environ 5 fois plus grande que le Congo voisin. Le terme 'démocratique' sert justement à les différencier, mais en pratique cela ne suffit pas à éviter les confusions."
+    },
+    {
+      "id": "3",
+      "question": "Quelle Guinée a pour capitale Conakry ?",
+      "image": null,
+      "imagePrompt": "Conakry",
+      "answers": ["Guinée", "Guinée-Bissau", "Guinée équatoriale", "Liberia"],
+      "correctIndex": 0,
+      "explanation": "Le mot 'Guinée' désignait historiquement toute une région côtière d’Afrique de l’Ouest. Les différentes colonies européennes ont ensuite fragmenté cet espace, donnant naissance à plusieurs États portant le même nom."
+    },
+    {
+      "id": "4",
+      "question": "Quelle Guinée est hispanophone ?",
+      "image": null,
+      "imagePrompt": "Malabo",
+      "answers": ["Guinée", "Guinée-Bissau", "Gabon", "Guinée équatoriale"],
+      "correctIndex": 3,
+      "explanation": "La Guinée équatoriale est un cas unique en Afrique : elle a été colonisée par l’Espagne. C’est ce passé colonial qui explique sa langue officielle, contrairement aux autres Guinées francophones ou lusophones."
+    },
+    {
+      "id": "5",
+      "question": "Quel pays est en Europe : Autriche ou Australie ?",
+      "image": null,
+      "imagePrompt": "Austria Alps",
+      "answers": ["Autriche", "Australie", "Les deux", "Aucun"],
+      "correctIndex": 0,
+      "explanation": "La confusion vient surtout de l’anglais ('Austria' vs 'Australia'). Pourtant, l’un est un petit pays alpin enclavé, l’autre un continent entier situé dans l’hémisphère sud."
+    },
+    {
+      "id": "6",
+      "question": "Quel pays est le plus peuplé : Niger ou Nigeria ?",
+      "image": null,
+      "imagePrompt": "Nigeria Lagos",
+      "answers": ["Niger", "Nigeria", "Les deux", "Aucun"],
+      "correctIndex": 1,
+      "explanation": "Le Nigeria compte plus de 200 millions d’habitants, contre environ 25 millions pour le Niger. La différence est énorme malgré la similarité des noms, qui vient du fleuve Niger commun."
+    },
+    {
+      "id": "7",
+      "question": "Quel pays a pour capitale Niamey ?",
+      "image": null,
+      "imagePrompt": "Niamey",
+      "answers": ["Nigeria", "Niger", "Tchad", "Mali"],
+      "correctIndex": 1,
+      "explanation": "Niamey est située sur le fleuve Niger. Le pays du même nom est enclavé et sahélien, contrairement au Nigeria voisin qui possède un accès à l’océan Atlantique."
+    },
+    {
+      "id": "8",
+      "question": "Quelle Corée est une puissance technologique mondiale ?",
+      "image": null,
+      "imagePrompt": "Seoul skyline",
+      "answers": ["Corée du Nord", "Corée du Sud", "Les deux", "Aucune"],
+      "correctIndex": 1,
+      "explanation": "La division de la Corée après la guerre froide a créé deux systèmes opposés : une économie de marché ultra-développée au sud, et un régime fermé au nord. C’est un des contrastes les plus marqués au monde."
+    },
+    {
+      "id": "9",
+      "question": "Quel pays est enclavé : Bolivie ou Paraguay ?",
+      "image": null,
+      "imagePrompt": "Bolivia map",
+      "answers": ["Bolivie", "Paraguay", "Les deux", "Aucun"],
+      "correctIndex": 2,
+      "explanation": "Les deux pays ont perdu ou n’ont jamais eu d’accès direct à la mer. La Bolivie, en particulier, revendique encore aujourd’hui un accès maritime perdu face au Chili."
+    },
+    {
+      "id": "10",
+      "question": "Quel pays a pour capitale Montevideo ?",
+      "image": null,
+      "imagePrompt": "Montevideo",
+      "answers": ["Paraguay", "Argentine", "Uruguay", "Bolivie"],
+      "correctIndex": 2,
+      "explanation": "L’Uruguay est souvent éclipsé par ses grands voisins. Pourtant, il possède l’un des systèmes politiques les plus stables et développés d’Amérique du Sud."
+    },
+    {
+      "id": "11",
+      "question": "Quel pays n’est PAS une île : Islande ou Irlande ?",
+      "image": null,
+      "imagePrompt": "Ireland map",
+      "answers": ["Islande", "Irlande", "Les deux sont des îles", "Aucun"],
+      "correctIndex": 2,
+      "explanation": "Les deux sont des îles, mais leur nom similaire trompe souvent. L’Islande est volcanique et arctique, tandis que l’Irlande est tempérée et agricole."
+    },
+    {
+      "id": "12",
+      "question": "Quel pays est en Amérique centrale : Honduras ou Hongrie ?",
+      "image": null,
+      "imagePrompt": "Honduras map",
+      "answers": ["Honduras", "Hongrie", "Les deux", "Aucun"],
+      "correctIndex": 0,
+      "explanation": "La confusion vient uniquement de la sonorité. La Hongrie est en Europe centrale, tandis que le Honduras se situe entre le Guatemala et le Nicaragua."
+    },
+    {
+      "id": "13",
+      "question": "Quelle capitale appartient à la Slovaquie ?",
+      "image": null,
+      "imagePrompt": "Bratislava",
+      "answers": ["Ljubljana", "Bratislava", "Zagreb", "Budapest"],
+      "correctIndex": 1,
+      "explanation": "Slovénie et Slovaquie sont régulièrement confondues, y compris en diplomatie. Bratislava est située près de Vienne, ce qui renforce son importance stratégique."
+    },
+    {
+      "id": "14",
+      "question": "Quelle capitale appartient à la Slovénie ?",
+      "image": null,
+      "imagePrompt": "Ljubljana",
+      "answers": ["Ljubljana", "Bratislava", "Zagreb", "Sarajevo"],
+      "correctIndex": 0,
+      "explanation": "La Slovénie est plus alpine et tournée vers l’Italie, tandis que la Slovaquie est plus continentale et orientée vers l’Europe centrale."
+    },
+    {
+      "id": "15",
+      "question": "Quel pays est en Afrique : Mali ou Maldives ?",
+      "image": null,
+      "imagePrompt": "Mali desert",
+      "answers": ["Mali", "Maldives", "Les deux", "Aucun"],
+      "correctIndex": 0,
+      "explanation": "Le Mali est un pays sahélien enclavé, alors que les Maldives sont un archipel tropical. La confusion vient uniquement de la similarité phonétique."
+    },
+    {
+      "id": "16",
+      "question": "Quel pays est un archipel : Maldives ou Mali ?",
+      "image": null,
+      "imagePrompt": "Maldives islands",
+      "answers": ["Mali", "Les deux", "Aucun", "Maldives"],
+      "correctIndex": 3,
+      "explanation": "Les Maldives comptent plus de 1 000 îles coralliennes. Elles sont aussi l’un des pays les plus menacés par la montée du niveau de la mer."
+    },
+    {
+      "id": "17",
+      "question": "Quel pays est en Europe : Slovénie ou Slovaquie ?",
+      "image": null,
+      "imagePrompt": "Slovakia map",
+      "answers": ["Slovénie", "Slovaquie", "Les deux", "Aucun"],
+      "correctIndex": 2,
+      "explanation": "Les deux pays sont issus de l’ancien bloc communiste mais ont évolué différemment, notamment dans leur intégration économique européenne."
+    },
+    {
+      "id": "18",
+      "question": "Quel pays est au Moyen-Orient : Oman ou Roumanie ?",
+      "image": null,
+      "imagePrompt": "Oman desert",
+      "answers": ["Oman", "Roumanie", "Les deux", "Aucun"],
+      "correctIndex": 0,
+      "explanation": "La confusion repose uniquement sur la sonorité. Oman est une monarchie du Golfe, tandis que la Roumanie est un pays d’Europe de l’Est."
+    },
+    {
+      "id": "19",
+      "question": "Quel pays est en Asie : Iran ou Irak ?",
+      "image": null,
+      "imagePrompt": "Iran map",
+      "answers": ["Iran", "Irak", "Les deux", "Aucun"],
+      "correctIndex": 2,
+      "explanation": "Les deux pays sont voisins mais très différents culturellement : l’Iran est majoritairement perse et chiite, l’Irak est arabe avec une diversité religieuse plus complexe."
+    },
+    {
+      "id": "20",
+      "question": "Quel pays a pour capitale Bagdad : Iran ou Irak ?",
+      "image": null,
+      "imagePrompt": "Baghdad city",
+      "answers": ["Iran", "Les deux", "Aucun", "Irak"],
+      "correctIndex": 3,
+      "explanation": "Bagdad est historiquement un centre majeur du monde arabe, notamment durant l’âge d’or abbasside. Elle n’a aucun lien avec l’Iran malgré la proximité géographique."
+    }
+  ]
+}

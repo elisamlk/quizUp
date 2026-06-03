@@ -1,0 +1,340 @@
+{
+    "slug": "test-quel-animal-correspond-a-ta-personnalite",
+    "title": "Test fun - Quel animal es-tu vraiment ? Fais le test !",
+    "description": "Découvre quel animal reflète vraiment ta personnalité à travers tes réactions et ton mode de vie.",
+    "descriptionSeo": "À travers tes habitudes, tes réactions et ta manière d’interagir avec les autres, ce test fun révèle l’animal qui correspond le mieux à ta personnalité. Es-tu plutôt indépendant comme un chat, loyal comme un chien, discret comme un loup ou libre comme un oiseau ? Un test ludique et révélateur pour mieux comprendre ton caractère tout en t’amusant.",
+    "category": {
+        "name": "Fun",
+        "slug": "fun"
+    },
+    "createdAt": "2026-04-20",
+    "isNew": true,
+    "isPopular": true,
+    "images": {
+        "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777033145/cover_hmgkrr.jpg",
+        "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777033145/cover_hmgkrr.jpg",
+        "alt": "Test animal personnalité"
+    },
+    "profiles": [
+        {
+            "key": "chat",
+            "title": "Le Chat",
+            "description": "Tu es indépendant(e), observateur(trice) et sélectif(ve) dans tes relations. Tu apprécies les moments de calme et tu as besoin de ton espace pour te sentir bien. Tu n’es pas du genre à t’imposer, mais tu sais exactement ce que tu veux. Tu peux paraître discret(ète), mais tu es en réalité très attentif(ve) à ton environnement. Tu choisis les personnes avec qui tu te sens vraiment à l’aise. Ton équilibre repose sur la liberté et le confort. Ta force réside dans ta capacité à rester toi-même sans dépendre des autres.",
+            "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777033355/cat_pcuf8t.jpg"
+        },
+        {
+            "key": "chien",
+            "title": "Le Chien",
+            "description": "Tu es loyal(e), sociable et attaché(e) aux personnes que tu aimes. Tu apprécies la compagnie, les moments partagés et les relations sincères. Tu es quelqu’un de fiable sur qui on peut compter, et tu donnes beaucoup dans tes relations. Tu as besoin de lien et d’interactions pour te sentir bien. Tu apportes de la chaleur et de la stabilité autour de toi. Ton énergie est communicative et tu es souvent apprécié(e) pour ta présence. Ta force réside dans ton engagement et ta capacité à créer du lien.",
+            "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777033356/dog_cwbr2a.jpg"
+        },
+        {
+            "key": "loup",
+            "title": "Le Loup",
+            "description": "Tu es à la fois indépendant(e) et profondément connecté(e) à ton cercle proche. Tu n’as pas besoin de beaucoup de monde, mais tu accordes une grande importance aux relations authentiques. Tu es instinctif(ve), observateur(trice) et tu avances à ton rythme. Tu peux être discret(ète), mais tu es très présent(e) quand cela compte vraiment. Tu sais te protéger tout en restant fidèle à tes valeurs. Ta force réside dans ton équilibre entre solitude et attachement.",
+            "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777033541/wolf_fuyvn7.jpg"
+        },
+        {
+            "key": "lion",
+            "title": "Le Lion",
+            "description": "Tu es affirmé(e), charismatique et naturellement tourné(e) vers l’action. Tu n’as pas peur de prendre des décisions et tu sais t’imposer quand c’est nécessaire. Tu es souvent perçu(e) comme une personne forte et confiante. Tu aimes avancer, diriger et atteindre tes objectifs. Tu peux parfois être exigeant(e), mais c’est aussi ce qui te permet d’aller loin. Ta force réside dans ton leadership et ta capacité à prendre les choses en main.",
+            "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777033472/lion_sm5ny1.jpg"
+        },
+        {
+            "key": "oiseau",
+            "title": "L’Oiseau",
+            "description": "Tu es libre, spontané(e) et attiré(e) par le mouvement. Tu aimes explorer, changer, découvrir et ne pas rester enfermé(e) dans une routine. Tu es curieux(se), adaptable et souvent créatif(ve). Tu as besoin de nouveauté pour te sentir vivant(e). Tu peux t’ennuyer rapidement si tout devient trop prévisible. Ton énergie te pousse à aller vers ce qui t’inspire. Ta force réside dans ta capacité à t’adapter et à suivre ton propre chemin.",
+            "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777033421/bird_zfwqxq.jpg"
+        }
+    ],
+    "questions": [
+        {
+            "id": "1",
+            "question": "Ton week-end idéal ressemble plutôt à…",
+            "answers": [
+                {
+                    "label": "Rester tranquille chez moi",
+                    "scores": {
+                        "chat": 3
+                    }
+                },
+                {
+                    "label": "Voir des proches",
+                    "scores": {
+                        "chien": 3
+                    }
+                },
+                {
+                    "label": "Passer du temps avec peu de personnes choisies",
+                    "scores": {
+                        "loup": 3
+                    }
+                },
+                {
+                    "label": "Faire quelque chose de dynamique",
+                    "scores": {
+                        "lion": 3
+                    }
+                },
+                {
+                    "label": "Sortir ou découvrir quelque chose de nouveau",
+                    "scores": {
+                        "oiseau": 3
+                    }
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "question": "Dans un groupe, tu es plutôt…",
+            "answers": [
+                {
+                    "label": "Discret(ète)",
+                    "scores": {
+                        "chat": 3
+                    }
+                },
+                {
+                    "label": "Sociable",
+                    "scores": {
+                        "chien": 3
+                    }
+                },
+                {
+                    "label": "Sélectif(ve)",
+                    "scores": {
+                        "loup": 3
+                    }
+                },
+                {
+                    "label": "Leader",
+                    "scores": {
+                        "lion": 3
+                    }
+                },
+                {
+                    "label": "Libre et spontané(e)",
+                    "scores": {
+                        "oiseau": 3
+                    }
+                }
+            ]
+        },
+        {
+            "id": "3",
+            "question": "Ce qui est le plus important pour toi…",
+            "answers": [
+                {
+                    "label": "La tranquillité",
+                    "scores": {
+                        "chat": 3
+                    }
+                },
+                {
+                    "label": "Les relations",
+                    "scores": {
+                        "chien": 3
+                    }
+                },
+                {
+                    "label": "La loyauté",
+                    "scores": {
+                        "loup": 3
+                    }
+                },
+                {
+                    "label": "La réussite",
+                    "scores": {
+                        "lion": 3
+                    }
+                },
+                {
+                    "label": "La liberté",
+                    "scores": {
+                        "oiseau": 3
+                    }
+                }
+            ]
+        },
+        {
+            "id": "4",
+            "question": "Face à un problème…",
+            "answers": [
+                {
+                    "label": "Je prends du recul",
+                    "scores": {
+                        "chat": 3
+                    }
+                },
+                {
+                    "label": "Je demande de l’aide",
+                    "scores": {
+                        "chien": 3
+                    }
+                },
+                {
+                    "label": "Je réfléchis seul(e)",
+                    "scores": {
+                        "loup": 3
+                    }
+                },
+                {
+                    "label": "J’agis rapidement",
+                    "scores": {
+                        "lion": 3
+                    }
+                },
+                {
+                    "label": "J’improvise",
+                    "scores": {
+                        "oiseau": 3
+                    }
+                }
+            ]
+        },
+        {
+            "id": "5",
+            "question": "Ton énergie au quotidien…",
+            "answers": [
+                {
+                    "label": "Calme",
+                    "scores": {
+                        "chat": 3
+                    }
+                },
+                {
+                    "label": "Chaleureuse",
+                    "scores": {
+                        "chien": 3
+                    }
+                },
+                {
+                    "label": "Stable",
+                    "scores": {
+                        "loup": 3
+                    }
+                },
+                {
+                    "label": "Puissante",
+                    "scores": {
+                        "lion": 3
+                    }
+                },
+                {
+                    "label": "Changeante",
+                    "scores": {
+                        "oiseau": 3
+                    }
+                }
+            ]
+        },
+        {
+            "id": "6",
+            "question": "Tu préfères…",
+            "answers": [
+                {
+                    "label": "Ton espace personnel",
+                    "scores": {
+                        "chat": 3
+                    }
+                },
+                {
+                    "label": "Être entouré(e)",
+                    "scores": {
+                        "chien": 3
+                    }
+                },
+                {
+                    "label": "Un cercle restreint",
+                    "scores": {
+                        "loup": 3
+                    }
+                },
+                {
+                    "label": "Être actif(ve)",
+                    "scores": {
+                        "lion": 3
+                    }
+                },
+                {
+                    "label": "Être libre",
+                    "scores": {
+                        "oiseau": 3
+                    }
+                }
+            ]
+        },
+        {
+            "id": "7",
+            "question": "Quand tu prends une décision…",
+            "answers": [
+                {
+                    "label": "Je réfléchis tranquillement",
+                    "scores": {
+                        "chat": 3
+                    }
+                },
+                {
+                    "label": "Je demande conseil",
+                    "scores": {
+                        "chien": 3
+                    }
+                },
+                {
+                    "label": "Je me fie à mon instinct",
+                    "scores": {
+                        "loup": 3
+                    }
+                },
+                {
+                    "label": "Je décide vite",
+                    "scores": {
+                        "lion": 3
+                    }
+                },
+                {
+                    "label": "Je suis mon envie du moment",
+                    "scores": {
+                        "oiseau": 3
+                    }
+                }
+            ]
+        },
+        {
+            "id": "8",
+            "question": "Ton rythme idéal…",
+            "answers": [
+                {
+                    "label": "Posé",
+                    "scores": {
+                        "chat": 3
+                    }
+                },
+                {
+                    "label": "Social",
+                    "scores": {
+                        "chien": 3
+                    }
+                },
+                {
+                    "label": "Équilibré",
+                    "scores": {
+                        "loup": 3
+                    }
+                },
+                {
+                    "label": "Intense",
+                    "scores": {
+                        "lion": 3
+                    }
+                },
+                {
+                    "label": "Flexible",
+                    "scores": {
+                        "oiseau": 3
+                    }
+                }
+            ]
+        }
+    ]
+}

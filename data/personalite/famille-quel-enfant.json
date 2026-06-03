@@ -1,0 +1,146 @@
+{
+  "slug": "test-quelle-version-de-toi-enfant-es-tu-encore",
+  "title": "Test famille - Quelle version de toi enfant es-tu encore ?",
+  "description": "Quelle part de ton enfant intérieur est toujours là aujourd’hui ?",
+  "descriptionSeo": "Habitudes, réactions, émotions… ce test révèle quelle version de toi enfant est encore présente aujourd’hui. Es-tu rêveur(se), joueur(se), sensible ou indépendant(e) ? À travers des situations concrètes, reconnecte-toi à ton enfant intérieur.",
+  "category": {
+    "name": "Famille",
+    "slug": "famille"
+  },
+  "createdAt": "2026-04-27",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777375965/cover_xihi70.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777375965/cover_xihi70.jpg",
+    "alt": "Test enfant intérieur personnalité"
+  },
+  "profiles": [
+    {
+      "key": "reveur",
+      "title": "L’enfant rêveur",
+      "description": "Une partie de toi est toujours tournée vers l’imaginaire. Tu as gardé cette capacité à rêver, à te projeter, à créer des histoires dans ta tête. Tu peux facilement t’évader, te perdre dans tes pensées ou idéaliser certaines choses. Tu ressens le monde avec une certaine douceur et une sensibilité particulière. Même adulte, tu gardes une vision parfois naïve mais belle des choses. Tu es attiré(e) par ce qui fait sens, par l’émotion et par l’imaginaire. Cette part de toi t’aide à rester créatif(ve), inspiré(e) et connecté(e) à tes envies profondes.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777376407/dreamer-child_lkn5ff.jpg"
+    },
+    {
+      "key": "joueur",
+      "title": "L’enfant joueur",
+      "description": "Tu as gardé ton côté joueur et spontané. Tu aimes rire, t’amuser, tester, ne pas toujours te prendre au sérieux. Tu es capable de retrouver facilement une énergie légère, même dans des situations adultes. Tu apprécies les moments simples, les défis, les jeux, et tout ce qui te permet de te sentir vivant(e). Tu peux parfois manquer de sérieux, mais tu apportes aussi beaucoup de fraîcheur autour de toi. Cette part de toi te rend accessible, fun et agréable à vivre. Tu n’as pas totalement quitté l’insouciance de l’enfance.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777376200/playfull_oy6t6r.jpg"
+    },
+    {
+      "key": "sensible",
+      "title": "L’enfant sensible",
+      "description": "Tu es resté(e) profondément connecté(e) à tes émotions. Tu ressens les choses intensément, comme un enfant, parfois sans filtre. Tu peux être touché(e) facilement, que ce soit par une situation, une parole ou une ambiance. Tu es attentif(ve) aux autres et très empathique. Cette sensibilité peut parfois te rendre vulnérable, mais elle est aussi une grande force. Elle te permet de comprendre, de ressentir et de créer des liens sincères. Tu n’as pas complètement construit de barrière entre toi et le monde, et c’est ce qui te rend authentique.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777376408/sensitive_vis2is.jpg"
+    },
+    {
+      "key": "independant",
+      "title": "L’enfant indépendant",
+      "description": "Tu as développé très tôt une forme d’autonomie, et cette version de toi est toujours présente. Tu n’aimes pas dépendre des autres et tu préfères gérer les choses par toi-même. Tu es souvent discret(ète) sur tes émotions et tu gardes une certaine distance. Tu as appris à te débrouiller seul(e), ce qui t’a rendu fort(e), mais parfois un peu fermé(e). Tu peux avoir du mal à demander de l’aide ou à te montrer vulnérable. Cette version de toi t’aide à avancer, à tenir et à rester solide face aux difficultés.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777376406/independant-child_mxqppm.jpg"
+    }
+  ],
+  "questions": [
+    {
+      "id": "1",
+      "question": "Tu es seul(e) sans distraction pendant 20 minutes…",
+      "answers": [
+        { "label": "Je pars dans mes pensées", "scores": { "reveur": 3 } },
+        { "label": "Je trouve un truc à faire", "scores": { "joueur": 3 } },
+        { "label": "Je ressens plein de choses", "scores": { "sensible": 3 } },
+        { "label": "Je reste posé(e)", "scores": { "independant": 3 } }
+      ]
+    },
+    {
+      "id": "2",
+      "question": "Tu regardes un vieux dessin animé…",
+      "answers": [
+        { "label": "Je replonge dedans à fond", "scores": { "reveur": 3 } },
+        { "label": "Je rigole comme avant", "scores": { "joueur": 3 } },
+        { "label": "Ça me touche émotionnellement", "scores": { "sensible": 3 } },
+        { "label": "Je regarde sans trop m’attacher", "scores": { "independant": 3 } }
+      ]
+    },
+    {
+      "id": "3",
+      "question": "Quelqu’un te critique…",
+      "answers": [
+        { "label": "Je me remets en question", "scores": { "reveur": 3 } },
+        { "label": "Je le prends à la légère", "scores": { "joueur": 3 } },
+        { "label": "Ça me touche beaucoup", "scores": { "sensible": 3 } },
+        { "label": "Je prends du recul", "scores": { "independant": 3 } }
+      ]
+    },
+    {
+      "id": "4",
+      "question": "Tu dois attendre longtemps quelque part…",
+      "answers": [
+        { "label": "Je m’évade dans mes pensées", "scores": { "reveur": 3 } },
+        { "label": "Je m’occupe comme je peux", "scores": { "joueur": 3 } },
+        { "label": "Je ressens l’ennui ou l’agacement", "scores": { "sensible": 3 } },
+        { "label": "Je reste tranquille", "scores": { "independant": 3 } }
+      ]
+    },
+    {
+      "id": "5",
+      "question": "Tu te rappelles un souvenir d’enfance…",
+      "answers": [
+        { "label": "Je le revis dans ma tête", "scores": { "reveur": 3 } },
+        { "label": "Je souris", "scores": { "joueur": 3 } },
+        { "label": "Je ressens une émotion forte", "scores": { "sensible": 3 } },
+        { "label": "Je reste détaché(e)", "scores": { "independant": 3 } }
+      ]
+    },
+    {
+      "id": "6",
+      "question": "Tu es face à quelque chose de nouveau…",
+      "answers": [
+        { "label": "Je suis curieux(se)", "scores": { "reveur": 3 } },
+        { "label": "Je teste direct", "scores": { "joueur": 3 } },
+        { "label": "Je ressens beaucoup de choses", "scores": { "sensible": 3 } },
+        { "label": "Je prends le temps d’observer", "scores": { "independant": 3 } }
+      ]
+    },
+    {
+      "id": "7",
+      "question": "Tu passes du temps avec des enfants…",
+      "answers": [
+        { "label": "Je rentre dans leur monde", "scores": { "reveur": 3 } },
+        { "label": "Je joue avec eux", "scores": { "joueur": 3 } },
+        { "label": "Je suis touché(e) par eux", "scores": { "sensible": 3 } },
+        { "label": "Je reste un peu en retrait", "scores": { "independant": 3 } }
+      ]
+    },
+    {
+      "id": "8",
+      "question": "Quand tu es stressé(e)…",
+      "answers": [
+        { "label": "Je m’évade", "scores": { "reveur": 3 } },
+        { "label": "Je cherche à me changer les idées", "scores": { "joueur": 3 } },
+        { "label": "Je ressens tout intensément", "scores": { "sensible": 3 } },
+        { "label": "Je garde ça pour moi", "scores": { "independant": 3 } }
+      ]
+    },
+    {
+      "id": "9",
+      "question": "Ton rapport aux émotions…",
+      "answers": [
+        { "label": "Je les transforme en pensées", "scores": { "reveur": 3 } },
+        { "label": "Je les prends à la légère", "scores": { "joueur": 3 } },
+        { "label": "Je les vis à fond", "scores": { "sensible": 3 } },
+        { "label": "Je les contrôle", "scores": { "independant": 3 } }
+      ]
+    },
+    {
+      "id": "10",
+      "question": "Au fond, tu es encore…",
+      "answers": [
+        { "label": "Dans ton imaginaire", "scores": { "reveur": 3 } },
+        { "label": "Dans le jeu", "scores": { "joueur": 3 } },
+        { "label": "Dans l’émotion", "scores": { "sensible": 3 } },
+        { "label": "Dans l’autonomie", "scores": { "independant": 3 } }
+      ]
+    }
+  ]
+}

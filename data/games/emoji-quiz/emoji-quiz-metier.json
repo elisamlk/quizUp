@@ -1,0 +1,166 @@
+{
+  "slug": "emoji-quiz-metiers",
+  "title": "Emoji Quiz - Devine ce métier grâce aux emojis",
+  "description": "Devine les métiers cachés derrière des suites d’emojis.",
+  "descriptionSeo": "Observe attentivement les emojis et tente de retrouver les métiers qu’ils représentent dans ce quiz original et amusant. Médecin, pompier, pilote, journaliste ou chef cuisinier : chaque énigme repose sur des indices visuels à décoder rapidement. Ce Quiz Emoji Métiers mélange logique, observation et culture générale dans un format rapide et addictif. Certains métiers seront faciles à reconnaître, d’autres beaucoup plus piégeux. Arriveras-tu à identifier toutes les professions sans faire d’erreur ?",
+  "type": "emoji-quiz",
+
+  "category": {
+    "name": "Métiers",
+    "slug": "metiers"
+  },
+
+  "createdAt": "2026-05-12",
+  "isNew": true,
+  "isPopular": true,
+
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1778618498/metier_pbc2pk.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1778618498/metier_pbc2pk.jpg",
+    "alt": "Quiz Emoji Métiers"
+  },
+
+  "data": {
+    "items": [
+      {
+        "id": "emoji-metier-1",
+        "emoji": "👨‍⚕️ 🩺 💊",
+        "question": "Devine ce métier grâce aux emojis.",
+        "answers": [
+          "Pharmacien",
+          "Médecin",
+          "Vétérinaire",
+          "Infirmier"
+        ],
+        "correctIndex": 1,
+        "explanation": "Le médecin diagnostique et soigne les patients. Le stéthoscope reste l’un des symboles les plus connus du monde médical, même si les outils modernes sont aujourd’hui bien plus technologiques."
+      },
+
+      {
+        "id": "emoji-metier-2",
+        "emoji": "👩‍🚒 🔥 🚒",
+        "question": "Quel métier se cache derrière ces emojis ?",
+        "answers": [
+          "Militaire",
+          "Ambulancier",
+          "Policier",
+          "Pompier"
+        ],
+        "correctIndex": 3,
+        "explanation": "Les pompiers interviennent sur les incendies mais aussi lors d’accidents, d’inondations ou de secours médicaux. Dans de nombreux pays, ils réalisent des milliers d’interventions chaque jour."
+      },
+
+      {
+        "id": "emoji-metier-3",
+        "emoji": "👨‍🍳 🍳 🍽️",
+        "question": "Reconnais-tu ce métier avec les emojis ?",
+        "answers": [
+          "Chef cuisinier",
+          "Serveur",
+          "Traiteur",
+          "Boulanger"
+        ],
+        "correctIndex": 0,
+        "explanation": "Le chef cuisinier dirige souvent une brigade complète en cuisine. Dans les restaurants gastronomiques, chaque poste possède un rôle très précis."
+      },
+
+      {
+        "id": "emoji-metier-4",
+        "emoji": "👩‍🏫 📚 ✏️",
+        "question": "Quel métier est représenté ici ?",
+        "answers": [
+          "Bibliothécaire",
+          "Journaliste",
+          "Professeure",
+          "Écrivaine"
+        ],
+        "correctIndex": 2,
+        "explanation": "Le métier de professeur demande autant de préparation que de transmission. Les enseignants doivent adapter leurs méthodes selon les élèves et les matières."
+      },
+
+      {
+        "id": "emoji-metier-5",
+        "emoji": "👮‍♂️ 🚓 🚨",
+        "question": "Quel métier est caché derrière ces emojis ?",
+        "answers": [
+          "Policier",
+          "Détective",
+          "Agent de sécurité",
+          "Pompier"
+        ],
+        "correctIndex": 0,
+        "explanation": "Le policier peut travailler dans des domaines très différents : enquête criminelle, circulation, sécurité publique ou police scientifique."
+      },
+
+      {
+        "id": "emoji-metier-6",
+        "emoji": "👨‍✈️ ✈️ 🌍",
+        "question": "Quel métier peux-tu reconnaître ici ?",
+        "answers": [
+          "Steward",
+          "Pilote",
+          "Contrôleur aérien",
+          "Mécanicien avion"
+        ],
+        "correctIndex": 1,
+        "explanation": "Les pilotes de ligne suivent une formation très exigeante. Ils doivent gérer navigation, météo, sécurité et communication avec les tours de contrôle."
+      },
+
+      {
+        "id": "emoji-metier-7",
+        "emoji": "👩‍🎨 🎨 🖼️",
+        "question": "Quelle profession est illustrée par ces emojis ?",
+        "answers": [
+          "Architecte",
+          "Graphiste",
+          "Peintre",
+          "Décoratrice"
+        ],
+        "correctIndex": 2,
+        "explanation": "Le métier de peintre artistique existe depuis des milliers d’années. Certaines œuvres mondialement célèbres valent aujourd’hui plusieurs dizaines de millions d’euros."
+      },
+
+      {
+        "id": "emoji-metier-8",
+        "emoji": "👨‍🔧 🔧 🚗",
+        "question": "Quel métier est résumé par ces emojis ?",
+        "answers": [
+          "Ingénieur",
+          "Carrossier",
+          "Chauffeur",
+          "Garagiste"
+        ],
+        "correctIndex": 3,
+        "explanation": "Le garagiste entretient et répare les véhicules. Avec l’arrivée des voitures électriques, les compétences électroniques sont devenues essentielles."
+      },
+
+      {
+        "id": "emoji-metier-9",
+        "emoji": "👩‍⚖️ ⚖️ 📜",
+        "question": "Quel métier se cache ici ?",
+        "answers": [
+          "Juge",
+          "Notaire",
+          "Greffière",
+          "Avocate"
+        ],
+        "correctIndex": 0,
+        "explanation": "Le juge rend des décisions de justice en appliquant la loi. Ce métier demande impartialité, concentration et une excellente maîtrise du droit."
+      },
+
+      {
+        "id": "emoji-metier-10",
+        "emoji": "📸 📰 🎤",
+        "question": "Quelle profession est cachée derrière ces emojis ?",
+        "answers": [
+          "Influenceur",
+          "Réalisateur",
+          "Journaliste",
+          "Photographe"
+        ],
+        "correctIndex": 2,
+        "explanation": "Le journaliste collecte et vérifie des informations avant leur diffusion. Certains reportages demandent des enquêtes qui peuvent durer plusieurs mois."
+      }
+    ]
+  }
+}

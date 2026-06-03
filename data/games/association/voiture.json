@@ -1,0 +1,48 @@
+{
+  "slug": "trouve-les-paires-marques-voitures-pays",
+  "title": "Trouve les paires - Marques de voitures et pays d’origine",
+  "description": "Associe chaque marque automobile à son pays d’origine dans ce jeu de culture générale.",
+  "descriptionSeo": "Retrouve les pays associés aux plus grandes marques automobiles du monde dans ce mini-jeu de culture générale et de mémoire. Entre constructeurs européens, asiatiques et américains, ce défi met à l’épreuve tes connaissances sur l’univers automobile et les marques les plus célèbres. Un jeu idéal pour les passionnés de voitures, de voyages et d’automobile.",
+  "type": "association",
+  "category": {
+    "name": "Automobile",
+    "slug": "automobile"
+  },
+  "createdAt": "2026-05-21",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1779363873/voiture_brgdah.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1779363873/voiture_brgdah.jpg",
+    "alt": "Trouve les paires entre marques de voitures et pays d’origine"
+  },
+  "data": {
+    "pairs": [
+      {
+        "id": "pair-1",
+        "left": "Volvo",
+        "right": "Suède"
+      },
+      {
+        "id": "pair-2",
+        "left": "Hyundai",
+        "right": "Corée du Sud"
+      },
+      {
+        "id": "pair-3",
+        "left": "Ferrari",
+        "right": "Italie"
+      },
+      {
+        "id": "pair-4",
+        "left": "Škoda",
+        "right": "République tchèque"
+      },
+      {
+        "id": "pair-5",
+        "left": "Subaru",
+        "right": "Japon"
+      }
+    ]
+  }
+}

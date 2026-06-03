@@ -1,0 +1,178 @@
+{
+  "slug": "test-quel-role-jouerais-tu-dans-un-film",
+  "title": "Test fun - Quel rôle jouerais-tu dans un film ? ",
+  "description": "Réponds à ces questions et découvre le personnage que tu incarnerais à l’écran.",
+  "descriptionSeo": "Plonge dans des situations inspirées du cinéma et découvre quel rôle tu jouerais dans un film. Héros, rebelle, stratège, personnage drôle, mentor ou mystérieux : ce test fun et immersif révèle le personnage qui correspond le mieux à ta personnalité et à ta manière de réagir.",
+  "category": {
+    "name": "Fun",
+    "slug": "fun"
+  },
+  "createdAt": "2026-04-20",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777034521/cover_ijrzsb.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777034521/cover_ijrzsb.jpg",
+    "alt": "Test rôle film"
+  },
+  "profiles": [
+    {
+      "key": "heros",
+      "title": "Le Héros",
+      "description": "Tu es clairement le personnage central. Pas parce que tout est facile, mais parce que tu continues même quand ça devient compliqué. Tu prends des décisions, tu avances, tu te relèves. Tu n’as pas besoin d’être parfait pour être le héros, juste d’être présent quand ça compte. Les autres gravitent souvent autour de toi dans les moments importants. Ton énergie : avancer coûte que coûte.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777035877/super-hero_pcwxk9.jpg"
+    },
+    {
+      "key": "stratege",
+      "title": "Le Stratège",
+      "description": "Dans le film, tu es celui ou celle qui comprend tout avant les autres. Tu vois les détails, tu anticipes, tu fais les liens. Tu n’es pas forcément au centre de l’action, mais sans toi, rien ne tient. Tu es le cerveau derrière les décisions importantes. Ton énergie : réfléchir avant d’agir.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776942924/cover_hghhdr.jpg"
+    },
+    {
+      "key": "rebelle",
+      "title": "Le Rebelle",
+      "description": "Tu es celui ou celle qui casse les codes. Tu refuses de suivre le script quand il ne te correspond pas. Tu fais bouger les choses, parfois en créant du chaos, mais toujours avec une vraie intensité. Tu es imprévisible, libre et impossible à enfermer. Ton énergie : tout remettre en question.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777035876/rebel_napbrv.jpg"
+    },
+    {
+      "key": "comique",
+      "title": "Le Personnage drôle",
+      "description": "Sans toi, le film serait trop lourd. Tu apportes du rythme, des répliques, de la légèreté. Tu sais exactement quand détendre l’ambiance. Mais derrière l’humour, il y a souvent beaucoup de lucidité. Tu comprends les situations… et tu choisis d’en rire. Ton énergie : alléger tout ce qui devient trop sérieux.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777035875/comic_cbv5vs.jpg"
+    },
+    {
+      "key": "mentor",
+      "title": "Le Mentor",
+      "description": "Tu es celui ou celle qui aide les autres à avancer. Tu observes, tu comprends, tu guides. Tu n’as pas besoin d’être au centre pour avoir un impact énorme. Ton rôle est subtil mais essentiel : tu fais évoluer les autres personnages. Ton énergie : apporter du sens et du recul.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777035876/mentor_lk95ci.jpg"
+    },
+    {
+      "key": "mysterieux",
+      "title": "Le Personnage mystérieux",
+      "description": "Tu es le personnage qu’on n’arrive jamais totalement à cerner. Tu ne dis pas tout, tu observes beaucoup, et tu choisis tes moments. Tu crées de l’intrigue sans effort. Les autres veulent comprendre… mais tu gardes toujours une part de mystère. Ton énergie : intriguer sans te dévoiler.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777035876/mystere_ngbba0.jpg"
+    }
+  ],
+  "questions": [
+    {
+      "id": "1",
+      "question": "Une scène chaotique commence. Tu fais quoi ?",
+      "answers": [
+        { "label": "J’interviens direct", "scores": { "heros": 3 } },
+        { "label": "J’analyse ce qui se passe", "scores": { "stratege": 3 } },
+        { "label": "Je fais ma propre version des choses", "scores": { "rebelle": 3 } },
+        { "label": "Je lâche une remarque", "scores": { "comique": 3 } },
+        { "label": "Je calme les autres", "scores": { "mentor": 3 } },
+        { "label": "Je regarde en silence", "scores": { "mysterieux": 3 } }
+      ]
+    },
+    {
+      "id": "2",
+      "question": "Ton rôle dans un groupe ressemble à…",
+      "answers": [
+        { "label": "Celui/celle qui agit", "scores": { "heros": 3 } },
+        { "label": "Celui/celle qui réfléchit", "scores": { "stratege": 3 } },
+        { "label": "Celui/celle qui dérange", "scores": { "rebelle": 3 } },
+        { "label": "Celui/celle qui fait rire", "scores": { "comique": 3 } },
+        { "label": "Celui/celle qui aide", "scores": { "mentor": 3 } },
+        { "label": "Celui/celle qu’on observe", "scores": { "mysterieux": 3 } }
+      ]
+    },
+    {
+      "id": "3",
+      "question": "Une décision rapide doit être prise.",
+      "answers": [
+        { "label": "Je tranche", "scores": { "heros": 3 } },
+        { "label": "Je réfléchis vite", "scores": { "stratege": 3 } },
+        { "label": "Je fais différemment", "scores": { "rebelle": 3 } },
+        { "label": "Je dédramatise", "scores": { "comique": 3 } },
+        { "label": "Je prends du recul", "scores": { "mentor": 3 } },
+        { "label": "Je ne dis rien", "scores": { "mysterieux": 3 } }
+      ]
+    },
+    {
+      "id": "4",
+      "question": "Une scène émotionnelle arrive…",
+      "answers": [
+        { "label": "Je reste fort(e)", "scores": { "heros": 3 } },
+        { "label": "J’analyse la situation", "scores": { "stratege": 3 } },
+        { "label": "Je réagis spontanément", "scores": { "rebelle": 3 } },
+        { "label": "Je détourne avec humour", "scores": { "comique": 3 } },
+        { "label": "J’écoute et j’accompagne", "scores": { "mentor": 3 } },
+        { "label": "Je reste en retrait", "scores": { "mysterieux": 3 } }
+      ]
+    },
+    {
+      "id": "5",
+      "question": "Ton énergie principale dans l’histoire…",
+      "answers": [
+        { "label": "Agir", "scores": { "heros": 3 } },
+        { "label": "Comprendre", "scores": { "stratege": 3 } },
+        { "label": "Bousculer", "scores": { "rebelle": 3 } },
+        { "label": "Amuser", "scores": { "comique": 3 } },
+        { "label": "Guider", "scores": { "mentor": 3 } },
+        { "label": "Intriguer", "scores": { "mysterieux": 3 } }
+      ]
+    },
+    {
+      "id": "6",
+      "question": "Si tu avais une “signature” dans le film…",
+      "answers": [
+        { "label": "Mes actions", "scores": { "heros": 3 } },
+        { "label": "Mes idées", "scores": { "stratege": 3 } },
+        { "label": "Mes décisions inattendues", "scores": { "rebelle": 3 } },
+        { "label": "Mes répliques", "scores": { "comique": 3 } },
+        { "label": "Mes conseils", "scores": { "mentor": 3 } },
+        { "label": "Mon silence", "scores": { "mysterieux": 3 } }
+      ]
+    },
+    {
+      "id": "7",
+      "question": "Le moment où tu brilles le plus…",
+      "answers": [
+        { "label": "Quand il faut agir vite", "scores": { "heros": 3 } },
+        { "label": "Quand tout devient complexe", "scores": { "stratege": 3 } },
+        { "label": "Quand il faut casser les règles", "scores": { "rebelle": 3 } },
+        { "label": "Quand l’ambiance est tendue", "scores": { "comique": 3 } },
+        { "label": "Quand quelqu’un est perdu", "scores": { "mentor": 3 } },
+        { "label": "Quand personne ne comprend", "scores": { "mysterieux": 3 } }
+      ]
+    },
+    {
+      "id": "8",
+      "question": "Ton défaut “cinématographique”…",
+      "answers": [
+        { "label": "Je fonce trop", "scores": { "heros": 3 } },
+        { "label": "Je réfléchis trop", "scores": { "stratege": 3 } },
+        { "label": "Je suis imprévisible", "scores": { "rebelle": 3 } },
+        { "label": "Je ne prends rien au sérieux", "scores": { "comique": 3 } },
+        { "label": "Je m’oublie parfois", "scores": { "mentor": 3 } },
+        { "label": "Je garde tout pour moi", "scores": { "mysterieux": 3 } }
+      ]
+    },
+    {
+      "id": "9",
+      "question": "Dans une scène finale…",
+      "answers": [
+        { "label": "Je suis au cœur de l’action", "scores": { "heros": 3 } },
+        { "label": "Je comprends tout", "scores": { "stratege": 3 } },
+        { "label": "Je change le cours des choses", "scores": { "rebelle": 3 } },
+        { "label": "Je lâche la meilleure réplique", "scores": { "comique": 3 } },
+        { "label": "Je soutiens les autres", "scores": { "mentor": 3 } },
+        { "label": "Je révèle quelque chose", "scores": { "mysterieux": 3 } }
+      ]
+    },
+    {
+      "id": "10",
+      "question": "Ton film serait plutôt…",
+      "answers": [
+        { "label": "Un film d’action", "scores": { "heros": 3 } },
+        { "label": "Un thriller", "scores": { "stratege": 3 } },
+        { "label": "Un film rebelle", "scores": { "rebelle": 3 } },
+        { "label": "Une comédie", "scores": { "comique": 3 } },
+        { "label": "Un film profond", "scores": { "mentor": 3 } },
+        { "label": "Un film mystérieux", "scores": { "mysterieux": 3 } }
+      ]
+    }
+  ]
+}

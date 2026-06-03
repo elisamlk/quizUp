@@ -1,0 +1,146 @@
+{
+  "slug": "test-personnalite-amoureuse-es-tu-trop-exigeant-en-amour",
+  "title": "Test personnalité amoureuse - Es-tu trop exigeant(e) en amour ?",
+  "description": "Analyse ton niveau d’exigence en amour et la manière dont tu perçois les relations.",
+  "descriptionSeo": "Analyse ton niveau d’exigence en amour à travers ta manière de choisir, d’attendre et d’interagir dans une relation. Ce test explore ton rapport aux attentes, à la tolérance et à l’idéal amoureux. Identifie si tu es juste exigeant, équilibré ou parfois trop strict dans tes critères. Une approche réaliste pour mieux comprendre ton fonctionnement amoureux et ajuster ta vision des relations.",
+  "category": {
+    "name": "Amour",
+    "slug": "amour"
+  },
+  "createdAt": "2026-04-20",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776952144/cover_usiqoo.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776952144/cover_usiqoo.jpg",
+    "alt": "Test amour exigence relation"
+  },
+  "profiles": [
+    {
+      "key": "equilibre",
+      "title": "Exigeant(e) mais équilibré(e)",
+      "description": "Tu as des standards, mais ils restent réalistes. Tu sais ce que tu veux et tu ne te contentes pas de moins, ce qui est une bonne chose. Tu recherches une relation de qualité, basée sur le respect, la compatibilité et une vraie connexion. Tu es capable de faire des compromis sans te perdre, ce qui te permet de construire des relations saines. Tu n’idéalises pas trop et tu acceptes les imperfections de l’autre. Ton défi est de rester ouvert tout en gardant tes limites. Ta force réside dans ton équilibre entre exigence et réalisme.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776778847/balanced_e70dki.jpg"
+    },
+    {
+      "key": "tres_exigeant",
+      "title": "Très exigeant(e)",
+      "description": "Tu as des attentes élevées en amour. Tu recherches une personne qui correspond presque parfaitement à tes critères. Tu veux une relation forte, stable et sans compromis sur certains points importants. Cette exigence peut être une force, car elle t’évite de t’engager dans des relations qui ne te correspondent pas. Cependant, elle peut aussi te fermer certaines opportunités ou te pousser à rejeter des personnes compatibles. Ton défi est de différencier l’essentiel du secondaire. Ta force réside dans ta lucidité et ta capacité à ne pas te contenter de moins que ce que tu estimes mériter.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776773208/reject_rkkh7n.jpg"
+    },
+    {
+      "key": "trop_exigeant",
+      "title": "Trop exigeant(e)",
+      "description": "Tes attentes en amour peuvent être trop élevées ou trop rigides. Tu peux idéaliser la relation parfaite ou attendre que tout corresponde exactement à ce que tu imagines. Cela peut te conduire à être souvent déçu ou à ne pas laisser suffisamment de place à la réalité. Tu peux avoir du mal à accepter les imperfections ou à t’adapter à l’autre. Ton exigence peut devenir un frein à des relations pourtant prometteuses. Ton défi est d’assouplir certains critères et d’accepter qu’une relation se construit dans le temps. Ta force réside dans ton désir d’une relation de qualité, mais elle doit être mieux équilibrée.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776952299/exigent_tjspox.jpg"
+    },
+    {
+      "key": "peu_exigeant",
+      "title": "Pas assez exigeant(e)",
+      "description": "Tu as tendance à être assez tolérant en amour, parfois au point de ne pas assez affirmer tes attentes. Tu peux accepter des situations ou des comportements qui ne te correspondent pas vraiment, par peur de perdre la relation ou par manque de clarté sur ce que tu veux. Cette ouverture est une qualité, mais elle peut aussi te desservir. Tu risques de t’adapter trop facilement et de t’oublier dans la relation. Ton défi est de définir tes limites et de les respecter. Ta force réside dans ta capacité à accepter l’autre, mais tu dois apprendre à te valoriser davantage.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776947515/coach_ug28fy.jpg"
+    }
+  ],
+  "questions": [
+    {
+      "id": "1",
+      "question": "Quand tu rencontres quelqu’un…",
+      "answers": [
+        { "label": "Je sais vite si ça peut marcher", "scores": { "tres_exigeant": 2, "trop_exigeant": 1 } },
+        { "label": "Je laisse le temps faire", "scores": { "equilibre": 3 } },
+        { "label": "Je m’adapte facilement", "scores": { "peu_exigeant": 3 } },
+        { "label": "Je cherche rapidement les défauts", "scores": { "trop_exigeant": 3 } }
+      ]
+    },
+    {
+      "id": "2",
+      "question": "Tes attentes en amour…",
+      "answers": [
+        { "label": "Sont claires et réalistes", "scores": { "equilibre": 3 } },
+        { "label": "Sont élevées", "scores": { "tres_exigeant": 3 } },
+        { "label": "Sont très précises", "scores": { "trop_exigeant": 3 } },
+        { "label": "Sont floues", "scores": { "peu_exigeant": 3 } }
+      ]
+    },
+    {
+      "id": "3",
+      "question": "Face aux défauts de l’autre…",
+      "answers": [
+        { "label": "Je les accepte", "scores": { "equilibre": 3 } },
+        { "label": "Je les tolère peu", "scores": { "tres_exigeant": 2, "trop_exigeant": 1 } },
+        { "label": "Je les refuse", "scores": { "trop_exigeant": 3 } },
+        { "label": "Je m’adapte", "scores": { "peu_exigeant": 3 } }
+      ]
+    },
+    {
+      "id": "4",
+      "question": "Tu pourrais rester avec quelqu’un imparfait ?",
+      "answers": [
+        { "label": "Oui, bien sûr", "scores": { "equilibre": 3 } },
+        { "label": "Oui, mais pas trop", "scores": { "tres_exigeant": 2 } },
+        { "label": "Difficilement", "scores": { "trop_exigeant": 3 } },
+        { "label": "Oui sans problème", "scores": { "peu_exigeant": 3 } }
+      ]
+    },
+    {
+      "id": "5",
+      "question": "Ton idéal amoureux…",
+      "answers": [
+        { "label": "Réaliste", "scores": { "equilibre": 3 } },
+        { "label": "Élevé", "scores": { "tres_exigeant": 3 } },
+        { "label": "Parfait", "scores": { "trop_exigeant": 3 } },
+        { "label": "Peu défini", "scores": { "peu_exigeant": 3 } }
+      ]
+    },
+    {
+      "id": "6",
+      "question": "Quand une relation ne te convient pas totalement…",
+      "answers": [
+        { "label": "Je communique", "scores": { "equilibre": 3 } },
+        { "label": "Je remets en question", "scores": { "tres_exigeant": 2 } },
+        { "label": "Je préfère partir", "scores": { "trop_exigeant": 3 } },
+        { "label": "Je reste", "scores": { "peu_exigeant": 3 } }
+      ]
+    },
+    {
+      "id": "7",
+      "question": "Tu es satisfait en amour ?",
+      "answers": [
+        { "label": "Globalement oui", "scores": { "equilibre": 3 } },
+        { "label": "Pas toujours", "scores": { "tres_exigeant": 2 } },
+        { "label": "Rarement", "scores": { "trop_exigeant": 3 } },
+        { "label": "Ça dépend", "scores": { "peu_exigeant": 2 } }
+      ]
+    },
+    {
+      "id": "8",
+      "question": "Tu pourrais faire des compromis ?",
+      "answers": [
+        { "label": "Oui", "scores": { "equilibre": 3 } },
+        { "label": "Certains", "scores": { "tres_exigeant": 2 } },
+        { "label": "Difficilement", "scores": { "trop_exigeant": 3 } },
+        { "label": "Trop facilement", "scores": { "peu_exigeant": 3 } }
+      ]
+    },
+    {
+      "id": "9",
+      "question": "Ton rapport aux relations…",
+      "answers": [
+        { "label": "Équilibré", "scores": { "equilibre": 3 } },
+        { "label": "Exigeant", "scores": { "tres_exigeant": 3 } },
+        { "label": "Strict", "scores": { "trop_exigeant": 3 } },
+        { "label": "Flexible", "scores": { "peu_exigeant": 3 } }
+      ]
+    },
+    {
+      "id": "10",
+      "question": "Globalement…",
+      "answers": [
+        { "label": "Je suis réaliste", "scores": { "equilibre": 3 } },
+        { "label": "Je suis exigeant", "scores": { "tres_exigeant": 3 } },
+        { "label": "Je suis très exigeant", "scores": { "trop_exigeant": 3 } },
+        { "label": "Je suis trop tolérant", "scores": { "peu_exigeant": 3 } }
+      ]
+    }
+  ]
+}

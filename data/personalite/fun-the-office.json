@@ -1,0 +1,478 @@
+{
+    "slug": "test-quel-personnage-de-the-office-es-tu",
+    "title": "Test fun - Quel personnage de The Office es-tu ?",
+    "description": "Révèle le personnage de The Office qui reflète ta vraie personnalité.",
+    "descriptionSeo": "Entre réunions absurdes, collègues improbables et situations gênantes, ce test révèle quel personnage de The Office te correspond vraiment. Es-tu charismatique comme Michael, ambitieux comme Dwight, posé comme Jim, sensible comme Pam, intense comme Angela ou relax comme Kevin ?",
+    "category": {
+        "name": "Fun",
+        "slug": "fun"
+    },
+    "createdAt": "2026-04-27",
+    "isNew": true,
+    "isPopular": true,
+    "images": {
+        "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777283964/theoffice_e3bryx.jpg",
+        "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777283964/theoffice_e3bryx.jpg",
+        "alt": "Test personnage The Office"
+    },
+    "profiles": [
+        {
+            "key": "michael",
+            "title": "Michael Scott",
+            "description": "Tu es une personne expressive, spontanée et profondément attachée aux autres. Tu aimes être au centre de l’attention, non pas par ego pur, mais parce que tu cherches à créer du lien et à être apprécié(e). Tu peux parfois être maladroit(e), dire des choses inattendues ou aller trop loin, mais ton intention est presque toujours positive. Tu fonctionnes beaucoup à l’émotion et tu as besoin de reconnaissance. Tu es aussi capable de moments de sincérité surprenants, où ton authenticité touche vraiment les autres. Tu veux être aimé(e), respecté(e), et surtout ne pas être seul(e). Derrière ton humour et ton côté imprévisible, il y a une vraie générosité et un besoin profond de connexion humaine.",
+            "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777284173/michael_yjetgo.webp"
+        },
+        {
+            "key": "dwight",
+            "title": "Dwight Schrute",
+            "description": "Tu es déterminé(e), rigoureux(se) et extrêmement investi(e) dans ce que tu fais. Tu prends les choses très au sérieux et tu aimes que tout soit structuré, clair et efficace. Tu peux paraître intense ou un peu à part, mais tu es surtout quelqu’un de très engagé et loyal. Tu crois en la discipline, en le travail bien fait et en le respect des règles. Tu n’as pas peur de dire ce que tu penses, même si cela surprend ou dérange. Tu es aussi très compétitif(ve) et tu cherches constamment à prouver ta valeur. Derrière ton côté strict, il y a une vraie constance et une fiabilité que peu de gens peuvent égaler.",
+            "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777284237/Dwight_Schrute_tahghx.webp"
+        },
+        {
+            "key": "jim",
+            "title": "Jim Halpert",
+            "description": "Tu es quelqu’un de calme, observateur(trice) et doté(e) d’un humour subtil. Tu préfères analyser les situations plutôt que d’y réagir frontalement. Tu es souvent en retrait, mais toujours très présent(e) dans ta manière de comprendre les gens. Tu aimes désamorcer les tensions avec humour, parfois même en taquinant ton entourage. Tu n’es pas du genre à chercher le conflit, mais tu sais exactement comment réagir quand il le faut. Tu es aussi quelqu’un de sincère, qui accorde beaucoup d’importance aux relations authentiques. Tu avances tranquillement, sans te presser, mais avec une vraie lucidité sur ce qui t’entoure.",
+            "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777284298/jim_enmmg9.webp"
+        },
+        {
+            "key": "pam",
+            "title": "Pam Beesly",
+            "description": "Tu es une personne douce, sensible et très attentive aux autres. Tu observes beaucoup et tu ressens les choses en profondeur. Tu peux parfois manquer de confiance en toi, mais tu évolues avec le temps et tu apprends à t’affirmer. Tu es créatif(ve), sincère et attaché(e) aux relations humaines. Tu cherches un équilibre entre ce que tu es et ce que tu veux devenir. Tu évites les conflits, mais tu sais te positionner quand c’est important pour toi. Tu es quelqu’un de profondément humain, avec une vraie capacité à comprendre les autres et à créer du lien.",
+            "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777284399/pam_y91uer.webp"
+        },
+        {
+            "key": "angela",
+            "title": "Angela Martin",
+            "description": "Tu es exigeant(e), rigoureux(se) et très attaché(e) à tes principes. Tu sais exactement ce que tu veux et surtout ce que tu refuses. Tu n’aimes pas le désordre, ni dans ton environnement ni dans les relations. Tu peux paraître froid(e) ou distant(e), mais c’est souvent une manière de garder le contrôle. Tu observes beaucoup et tu juges rapidement, car tu as des standards élevés. Tu es discret(e), mais déterminé(e), et tu ne laisses pas facilement les autres entrer dans ton monde. Derrière cette façade stricte, il y a aussi une sensibilité que tu ne montres qu’à très peu de personnes.",
+            "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777284467/angela_jxrwca.webp"
+        },
+        {
+            "key": "kevin",
+            "title": "Kevin Malone",
+            "description": "Tu es quelqu’un de simple, détendu(e) et naturel(le). Tu ne te prends pas la tête et tu préfères profiter du moment présent. Tu peux paraître un peu à côté, mais tu es souvent plus lucide qu’on ne le pense. Tu apportes une forme de légèreté dans les situations, même sans le vouloir. Tu aimes les plaisirs simples et tu ne cherches pas à compliquer les choses. Tu es sincère, spontané(e) et facile à vivre. Tu n’es pas dans la performance ou l’ambition à tout prix, mais tu sais apprécier ce que tu as. Et c’est souvent ce qui te rend attachant(e).",
+            "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777284532/kevin_qrigtj.jpg"
+        }
+    ],
+    "questions": [
+        {
+            "id": "1",
+            "question": "Ton boss lance une réunion inutile…",
+            "answers": [
+                {
+                    "label": "Je prends la parole sans filtre",
+                    "scores": {
+                        "michael": 3
+                    }
+                },
+                {
+                    "label": "Je prends ça très au sérieux",
+                    "scores": {
+                        "dwight": 3
+                    }
+                },
+                {
+                    "label": "Je lance des regards complices",
+                    "scores": {
+                        "jim": 3
+                    }
+                },
+                {
+                    "label": "J’écoute discrètement",
+                    "scores": {
+                        "pam": 3
+                    }
+                },
+                {
+                    "label": "Je juge intérieurement",
+                    "scores": {
+                        "angela": 3
+                    }
+                },
+                {
+                    "label": "Je pense à manger",
+                    "scores": {
+                        "kevin": 3
+                    }
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "question": "Un collègue fait quelque chose de gênant…",
+            "answers": [
+                {
+                    "label": "Je surenchéris",
+                    "scores": {
+                        "michael": 3
+                    }
+                },
+                {
+                    "label": "Je le recadre",
+                    "scores": {
+                        "dwight": 3
+                    }
+                },
+                {
+                    "label": "Je fais une blague discrète",
+                    "scores": {
+                        "jim": 3
+                    }
+                },
+                {
+                    "label": "Je suis mal à l’aise",
+                    "scores": {
+                        "pam": 3
+                    }
+                },
+                {
+                    "label": "Je désapprouve clairement",
+                    "scores": {
+                        "angela": 3
+                    }
+                },
+                {
+                    "label": "Je rigole",
+                    "scores": {
+                        "kevin": 3
+                    }
+                }
+            ]
+        },
+        {
+            "id": "3",
+            "question": "On te confie une tâche importante à la dernière minute…",
+            "answers": [
+                {
+                    "label": "Je veux briller",
+                    "scores": {
+                        "michael": 3
+                    }
+                },
+                {
+                    "label": "Je m’y mets immédiatement",
+                    "scores": {
+                        "dwight": 3
+                    }
+                },
+                {
+                    "label": "Je gère ça tranquillement",
+                    "scores": {
+                        "jim": 3
+                    }
+                },
+                {
+                    "label": "Je stresse un peu mais je fais",
+                    "scores": {
+                        "pam": 3
+                    }
+                },
+                {
+                    "label": "Je fais parfaitement",
+                    "scores": {
+                        "angela": 3
+                    }
+                },
+                {
+                    "label": "Je fais à ma manière",
+                    "scores": {
+                        "kevin": 3
+                    }
+                }
+            ]
+        },
+        {
+            "id": "4",
+            "question": "Ambiance tendue au bureau…",
+            "answers": [
+                {
+                    "label": "Je fais une blague gênante",
+                    "scores": {
+                        "michael": 3
+                    }
+                },
+                {
+                    "label": "Je prends le contrôle",
+                    "scores": {
+                        "dwight": 3
+                    }
+                },
+                {
+                    "label": "Je désamorce subtilement",
+                    "scores": {
+                        "jim": 3
+                    }
+                },
+                {
+                    "label": "Je ressens le malaise",
+                    "scores": {
+                        "pam": 3
+                    }
+                },
+                {
+                    "label": "Je reste froide",
+                    "scores": {
+                        "angela": 3
+                    }
+                },
+                {
+                    "label": "Je m’en fiche un peu",
+                    "scores": {
+                        "kevin": 3
+                    }
+                }
+            ]
+        },
+        {
+            "id": "5",
+            "question": "Un collègue te vole une idée…",
+            "answers": [
+                {
+                    "label": "Je fais un scandale",
+                    "scores": {
+                        "michael": 3
+                    }
+                },
+                {
+                    "label": "Je le confronte immédiatement",
+                    "scores": {
+                        "dwight": 3
+                    }
+                },
+                {
+                    "label": "Je me venge subtilement",
+                    "scores": {
+                        "jim": 3
+                    }
+                },
+                {
+                    "label": "Je suis blessé(e)",
+                    "scores": {
+                        "pam": 3
+                    }
+                },
+                {
+                    "label": "Je note ça quelque part",
+                    "scores": {
+                        "angela": 3
+                    }
+                },
+                {
+                    "label": "Je laisse couler",
+                    "scores": {
+                        "kevin": 3
+                    }
+                }
+            ]
+        },
+        {
+            "id": "6",
+            "question": "Tu dois travailler en équipe avec quelqu’un que tu n’aimes pas…",
+            "answers": [
+                {
+                    "label": "Je fais semblant que tout va bien",
+                    "scores": {
+                        "michael": 3
+                    }
+                },
+                {
+                    "label": "Je reste professionnel(le)",
+                    "scores": {
+                        "dwight": 3
+                    }
+                },
+                {
+                    "label": "Je m’amuse de la situation",
+                    "scores": {
+                        "jim": 3
+                    }
+                },
+                {
+                    "label": "Je fais des efforts",
+                    "scores": {
+                        "pam": 3
+                    }
+                },
+                {
+                    "label": "Je garde mes distances",
+                    "scores": {
+                        "angela": 3
+                    }
+                },
+                {
+                    "label": "Je fais le minimum",
+                    "scores": {
+                        "kevin": 3
+                    }
+                }
+            ]
+        },
+        {
+            "id": "7",
+            "question": "Ton boss te demande ton avis devant tout le monde…",
+            "answers": [
+                {
+                    "label": "Je parle longtemps",
+                    "scores": {
+                        "michael": 3
+                    }
+                },
+                {
+                    "label": "Je donne un avis précis",
+                    "scores": {
+                        "dwight": 3
+                    }
+                },
+                {
+                    "label": "Je fais une remarque ironique",
+                    "scores": {
+                        "jim": 3
+                    }
+                },
+                {
+                    "label": "Je suis un peu timide",
+                    "scores": {
+                        "pam": 3
+                    }
+                },
+                {
+                    "label": "Je réponds sèchement",
+                    "scores": {
+                        "angela": 3
+                    }
+                },
+                {
+                    "label": "Je dis un truc random",
+                    "scores": {
+                        "kevin": 3
+                    }
+                }
+            ]
+        },
+        {
+            "id": "8",
+            "question": "Un moment gênant s’installe dans la pièce…",
+            "answers": [
+                {
+                    "label": "Je l’aggrave",
+                    "scores": {
+                        "michael": 3
+                    }
+                },
+                {
+                    "label": "Je reste sérieux(se)",
+                    "scores": {
+                        "dwight": 3
+                    }
+                },
+                {
+                    "label": "Je fais un regard caméra imaginaire",
+                    "scores": {
+                        "jim": 3
+                    }
+                },
+                {
+                    "label": "Je baisse les yeux",
+                    "scores": {
+                        "pam": 3
+                    }
+                },
+                {
+                    "label": "Je juge intérieurement",
+                    "scores": {
+                        "angela": 3
+                    }
+                },
+                {
+                    "label": "Je mange un truc",
+                    "scores": {
+                        "kevin": 3
+                    }
+                }
+            ]
+        },
+        {
+            "id": "9",
+            "question": "Ton style au travail, c’est plutôt…",
+            "answers": [
+                {
+                    "label": "Imprévisible",
+                    "scores": {
+                        "michael": 3
+                    }
+                },
+                {
+                    "label": "Ultra discipliné",
+                    "scores": {
+                        "dwight": 3
+                    }
+                },
+                {
+                    "label": "Détendu et malin",
+                    "scores": {
+                        "jim": 3
+                    }
+                },
+                {
+                    "label": "Discret mais efficace",
+                    "scores": {
+                        "pam": 3
+                    }
+                },
+                {
+                    "label": "Strict et organisé",
+                    "scores": {
+                        "angela": 3
+                    }
+                },
+                {
+                    "label": "Relax total",
+                    "scores": {
+                        "kevin": 3
+                    }
+                }
+            ]
+        },
+        {
+            "id": "10",
+            "question": "Au fond, au bureau, tu cherches surtout…",
+            "answers": [
+                {
+                    "label": "Être aimé(e)",
+                    "scores": {
+                        "michael": 3
+                    }
+                },
+                {
+                    "label": "Être le/la meilleur(e)",
+                    "scores": {
+                        "dwight": 3
+                    }
+                },
+                {
+                    "label": "Ne pas trop se prendre la tête",
+                    "scores": {
+                        "jim": 3
+                    }
+                },
+                {
+                    "label": "Être à l’aise",
+                    "scores": {
+                        "pam": 3
+                    }
+                },
+                {
+                    "label": "Que tout soit parfait",
+                    "scores": {
+                        "angela": 3
+                    }
+                },
+                {
+                    "label": "Être tranquille",
+                    "scores": {
+                        "kevin": 3
+                    }
+                }
+            ]
+        }
+    ]
+}

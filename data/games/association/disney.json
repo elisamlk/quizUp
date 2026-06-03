@@ -1,0 +1,48 @@
+{
+  "slug": "trouve-les-paires-disney-personnages",
+  "title": "Trouve les paires - Films Disney et personnages",
+  "description": "Associe chaque personnage au bon film Disney dans ce jeu magique et amusant.",
+  "descriptionSeo": "Retrouve les bonnes associations entre les personnages emblématiques et les films Disney les plus célèbres. Princesses, héros, animaux cultes et aventures magiques t’attendent dans ce mini-jeu de mémoire et de culture pop. Un défi parfait pour les fans de Disney, les amateurs d’animation et tous ceux qui veulent tester leurs souvenirs des grands classiques.",
+  "type": "association",
+  "category": {
+    "name": "Cinéma",
+    "slug": "cinema"
+  },
+  "createdAt": "2026-05-21",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1779363308/disney_gpnsdt.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1779363308/disney_gpnsdt.jpg",
+    "alt": "Trouve les paires entre films Disney et personnages"
+  },
+  "data": {
+    "pairs": [
+      {
+        "id": "pair-1",
+        "left": "Simba",
+        "right": "Le Roi Lion"
+      },
+      {
+        "id": "pair-2",
+        "left": "Rémy",
+        "right": "Ratatouille"
+      },
+      {
+        "id": "pair-3",
+        "left": "Buzz l’Éclair",
+        "right": "Toy Story"
+      },
+      {
+        "id": "pair-4",
+        "left": "Baymax",
+        "right": "Les Nouveaux Héros"
+      },
+      {
+        "id": "pair-5",
+        "left": "Elsa",
+        "right": "La Reine des Neiges"
+      }
+    ]
+  }
+}

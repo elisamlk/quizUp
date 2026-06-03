@@ -1,0 +1,48 @@
+{
+  "slug": "trouve-les-paires-cocktails-ingredients",
+  "title": "Trouve les paires - Cocktails et ingrédients",
+  "description": "Associe chaque cocktail à son ingrédient emblématique dans ce jeu fun et rafraîchissant.",
+  "descriptionSeo": "Teste tes connaissances sur les cocktails célèbres avec ce jeu de mémoire original autour des ingrédients emblématiques. Retrouve les bonnes associations entre recettes iconiques, saveurs du monde et mixologie dans un mini-jeu amusant et rapide. Un défi parfait pour les passionnés de cocktails, de cuisine et de culture générale qui veulent reconnaître les grands classiques de la mixologie.",
+  "type": "association",
+  "category": {
+    "name": "Cuisine",
+    "slug": "cuisine"
+  },
+  "createdAt": "2026-05-21",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1779363586/cocktail_dqjcew.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1779363586/cocktail_dqjcew.jpg",
+    "alt": "Trouve les paires entre cocktails et ingrédients"
+  },
+  "data": {
+    "pairs": [
+      {
+        "id": "pair-1",
+        "left": "Mojito",
+        "right": "Menthe"
+      },
+      {
+        "id": "pair-2",
+        "left": "Piña Colada",
+        "right": "Lait de coco"
+      },
+      {
+        "id": "pair-3",
+        "left": "Margarita",
+        "right": "Tequila"
+      },
+      {
+        "id": "pair-4",
+        "left": "Bloody Mary",
+        "right": "Jus de tomate"
+      },
+      {
+        "id": "pair-5",
+        "left": "Cosmopolitan",
+        "right": "Cranberry"
+      }
+    ]
+  }
+}

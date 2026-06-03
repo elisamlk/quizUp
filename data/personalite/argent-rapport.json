@@ -1,0 +1,130 @@
+{
+  "slug": "test-rapport-argent-sain",
+  "title": "Test argent - Ton rapport à l’argent est-il sain ?",
+  "description": "Ta relation à l’argent est-elle équilibrée ou source de stress ?",
+  "descriptionSeo": "Stress, contrôle, dépenses, peur de manquer… ce test analyse ton rapport à l’argent à travers des situations concrètes. Découvre si ta relation à l’argent est saine, déséquilibrée ou sous tension.",
+  "category": {
+    "name": "Argent",
+    "slug": "argent"
+  },
+  "createdAt": "2026-04-27",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777577887/cover_sdu8zk.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777577887/cover_sdu8zk.jpg",
+    "alt": "Test rapport à l'argent"
+  },
+  "profiles": [
+    {
+      "key": "sain",
+      "title": "Rapport sain",
+      "description": "Tu as une relation équilibrée avec l’argent. Tu arrives à en profiter sans culpabilité tout en gardant une certaine maîtrise. Tu n’es ni dans l’excès de contrôle, ni dans le lâcher-prise total. L’argent est pour toi un outil, pas une source constante de stress. Tu sais gérer, anticiper et t’adapter sans te mettre une pression excessive. Cette stabilité te permet d’être à la fois serein(e) et responsable dans tes choix financiers.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777581575/healthy-money_vxwhqv.jpg"
+    },
+    {
+      "key": "tendu",
+      "title": "Rapport sous tension",
+      "description": "Ton rapport à l’argent est chargé émotionnellement. Tu peux ressentir du stress, de la peur ou une pression liée à tes finances. Tu fais attention, parfois beaucoup, mais cela peut te peser mentalement. L’argent peut être une source d’inquiétude ou de contrôle. Tu n’es pas dans un déséquilibre extrême, mais ta relation à l’argent n’est pas totalement apaisée.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777581576/money-tension_fhwqma.jpg"
+    },
+    {
+      "key": "desorganise",
+      "title": "Rapport désorganisé",
+      "description": "Tu as tendance à éviter ou à ne pas vraiment structurer ta relation à l’argent. Tu peux dépenser sans trop suivre, repousser la gestion ou ne pas vraiment savoir où tu en es. L’argent n’est pas forcément une source de stress constant, mais plutôt quelque chose que tu gères au jour le jour. Ce manque de cadre peut créer des déséquilibres sans que tu t’en rendes compte immédiatement.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777581577/desorganize_hbhlkn.jpg"
+    }
+  ],
+  "questions": [
+    {
+      "id": "1",
+      "question": "Tu ouvres ton appli bancaire sans raison précise…",
+      "answers": [
+        { "label": "Juste pour vérifier, sans stress", "scores": { "sain": 3 } },
+        { "label": "Avec une petite tension", "scores": { "tendu": 3 } },
+        { "label": "J’évite de regarder", "scores": { "desorganise": 3 } }
+      ]
+    },
+    {
+      "id": "2",
+      "question": "Tu fais un achat un peu impulsif…",
+      "answers": [
+        { "label": "Je relativise", "scores": { "sain": 3 } },
+        { "label": "Je culpabilise", "scores": { "tendu": 3 } },
+        { "label": "Ça m’arrive souvent", "scores": { "desorganise": 3 } }
+      ]
+    },
+    {
+      "id": "3",
+      "question": "Tu dois payer une dépense imprévue…",
+      "answers": [
+        { "label": "Je gère sans panique", "scores": { "sain": 3 } },
+        { "label": "Ça me stresse", "scores": { "tendu": 3 } },
+        { "label": "Je n’avais pas anticipé", "scores": { "desorganise": 3 } }
+      ]
+    },
+    {
+      "id": "4",
+      "question": "Quand tu penses à ton argent…",
+      "answers": [
+        { "label": "C’est assez neutre", "scores": { "sain": 3 } },
+        { "label": "Ça me met une pression", "scores": { "tendu": 3 } },
+        { "label": "Je préfère ne pas y penser", "scores": { "desorganise": 3 } }
+      ]
+    },
+    {
+      "id": "5",
+      "question": "À la fin du mois…",
+      "answers": [
+        { "label": "Je sais globalement où j’en suis", "scores": { "sain": 3 } },
+        { "label": "Je vérifie souvent", "scores": { "tendu": 3 } },
+        { "label": "Je découvre parfois la situation", "scores": { "desorganise": 3 } }
+      ]
+    },
+    {
+      "id": "6",
+      "question": "Tu te fais plaisir avec ton argent…",
+      "answers": [
+        { "label": "Sans culpabiliser", "scores": { "sain": 3 } },
+        { "label": "Avec une hésitation", "scores": { "tendu": 3 } },
+        { "label": "Souvent sans réfléchir", "scores": { "desorganise": 3 } }
+      ]
+    },
+    {
+      "id": "7",
+      "question": "Tu dois parler d’argent avec quelqu’un…",
+      "answers": [
+        { "label": "Je suis à l’aise", "scores": { "sain": 3 } },
+        { "label": "Ça me met mal à l’aise", "scores": { "tendu": 3 } },
+        { "label": "Je préfère éviter", "scores": { "desorganise": 3 } }
+      ]
+    },
+    {
+      "id": "8",
+      "question": "Une dépense importante arrive…",
+      "answers": [
+        { "label": "Je réfléchis calmement", "scores": { "sain": 3 } },
+        { "label": "Je stresse un peu", "scores": { "tendu": 3 } },
+        { "label": "Je décide sur le moment", "scores": { "desorganise": 3 } }
+      ]
+    },
+    {
+      "id": "9",
+      "question": "Ton rapport global à l’argent…",
+      "answers": [
+        { "label": "Équilibré", "scores": { "sain": 3 } },
+        { "label": "Sous tension", "scores": { "tendu": 3 } },
+        { "label": "Flou", "scores": { "desorganise": 3 } }
+      ]
+    },
+    {
+      "id": "10",
+      "question": "Après une dépense importante…",
+      "answers": [
+        { "label": "Je passe à autre chose", "scores": { "sain": 3 } },
+        { "label": "J’y repense plusieurs fois", "scores": { "tendu": 3 } },
+        { "label": "Je ne fais pas vraiment attention", "scores": { "desorganise": 3 } }
+      ]
+    }
+  ]
+}

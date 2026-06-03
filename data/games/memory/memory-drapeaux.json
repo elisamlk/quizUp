@@ -1,0 +1,31 @@
+{
+  "slug": "memory-drapeaux",
+  "title": "Memory des Drapeaux - Le grand défi des pays",
+  "description": "Retourne les cartes, mémorise les drapeaux et retrouve toutes les paires le plus rapidement possible.",
+  "descriptionSeo": "Teste ta mémoire avec ce jeu Memory spécial drapeaux du monde. Retrouve les paires de drapeaux célèbres, améliore ton temps et entraîne ta mémoire dans ce mini-jeu gratuit, rapide et amusant. France, Japon, Brésil, Italie et bien d’autres pays t’attendent dans ce défi accessible sur mobile et ordinateur, parfait pour les amateurs de géographie et de jeux de mémoire.",
+  "type": "memory",
+  "category": {
+    "name": "Géographie",
+    "slug": "geographie"
+  },
+  "createdAt": "2026-05-26",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1779798889/flags_ifswzo.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1779798889/flags_ifswzo.jpg",
+    "alt": "Memory Drapeaux du monde"
+  },
+  "data": {
+    "cards": [
+      { "id": "france", "label": "France", "emoji": "🇫🇷" },
+      { "id": "japon", "label": "Japon", "emoji": "🇯🇵" },
+      { "id": "bresil", "label": "Brésil", "emoji": "🇧🇷" },
+      { "id": "italie", "label": "Italie", "emoji": "🇮🇹" },
+      { "id": "canada", "label": "Canada", "emoji": "🇨🇦" },
+      { "id": "espagne", "label": "Espagne", "emoji": "🇪🇸" },
+      { "id": "royaume-uni", "label": "Royaume-Uni", "emoji": "🇬🇧" },
+      { "id": "allemagne", "label": "Allemagne", "emoji": "🇩🇪" }
+    ]
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "slug": "test-capacite-epargne",
+  "title": "Test argent - Peux-tu vraiment économiser ou pas du tout ?",
+  "description": "Tes réflexes du quotidien te permettent-ils réellement d’épargner ?",
+  "descriptionSeo": "Arrondis, virements automatiques, paniers abandonnés, tentations du quotidien… ce test analyse ta capacité réelle à économiser à travers des situations précises. Découvre si tu arrives à mettre de côté naturellement, de manière irrégulière ou si c’est presque impossible pour toi.",
+  "category": {
+    "name": "Argent",
+    "slug": "argent"
+  },
+  "createdAt": "2026-04-27",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777583604/cover_rgwveg.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777583604/cover_rgwveg.jpg",
+    "alt": "Test capacité d'épargne"
+  },
+  "profiles": [
+    {
+      "key": "facile",
+      "title": "Tu économises facilement",
+      "description": "Tu as des réflexes d’épargne très ancrés. Tu sais mettre de côté sans que cela te demande un effort constant. Tu anticipes, tu ajustes et tu trouves naturellement des moyens de préserver une partie de ton argent. Même dans les petites décisions, tu gardes une logique d’économie. Cette capacité te permet de construire une sécurité financière progressivement et sans pression excessive.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777583839/success_sqvuie.jpg"
+    },
+    {
+      "key": "variable",
+      "title": "Tu économises de manière irrégulière",
+      "description": "Tu arrives à économiser… mais pas tout le temps. Tes intentions sont là, mais elles dépendent beaucoup de ton contexte, de tes envies ou de ton énergie du moment. Tu peux avoir des périodes très disciplinées, puis tout relâcher. Tu n’es pas loin d’un vrai équilibre, mais il te manque surtout de la régularité dans tes habitudes.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777583938/mix_wwgjc9.jpg"
+    },
+    {
+      "key": "difficile",
+      "title": "Tu as du mal à économiser",
+      "description": "Tes habitudes rendent l’épargne difficile. Les petites dépenses s’accumulent, les décisions se prennent sur le moment et il reste peu de marge pour mettre de côté. Ce n’est pas forcément un manque de volonté, mais plutôt des réflexes qui ne favorisent pas l’économie. Revoir certains automatismes pourrait vraiment changer ta capacité à épargner.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777583837/defeat_m7mjwy.jpg"
+    }
+  ],
+  "questions": [
+    {
+      "id": "1",
+      "question": "Tu actives un virement automatique vers une épargne…",
+      "answers": [
+        { "label": "Je le laisse tourner sans y toucher", "scores": { "facile": 3 } },
+        { "label": "Je le modifie ou l’arrête parfois", "scores": { "variable": 3 } },
+        { "label": "Je le désactive rapidement", "scores": { "difficile": 3 } }
+      ]
+    },
+    {
+      "id": "2",
+      "question": "Ton panier en ligne reste ouvert plusieurs jours…",
+      "answers": [
+        { "label": "Je finis souvent par ne rien acheter", "scores": { "facile": 3 } },
+        { "label": "Ça dépend de mon envie", "scores": { "variable": 3 } },
+        { "label": "Je reviens pour valider l’achat", "scores": { "difficile": 3 } }
+      ]
+    },
+    {
+      "id": "3",
+      "question": "Une app te propose d’arrondir tes paiements pour épargner…",
+      "answers": [
+        { "label": "Je trouve ça utile et je l’utilise", "scores": { "facile": 3 } },
+        { "label": "Je teste mais pas sur la durée", "scores": { "variable": 3 } },
+        { "label": "Je n’y vois pas l’intérêt", "scores": { "difficile": 3 } }
+      ]
+    },
+    {
+      "id": "4",
+      "question": "Tu hésites entre deux versions d’un produit (une moins chère)…",
+      "answers": [
+        { "label": "Je prends la moins chère sans hésiter", "scores": { "facile": 3 } },
+        { "label": "Je compare un peu", "scores": { "variable": 3 } },
+        { "label": "Je prends celle qui me fait le plus envie", "scores": { "difficile": 3 } }
+      ]
+    },
+    {
+      "id": "5",
+      "question": "Tu reçois une notification de paiement réussi…",
+      "answers": [
+        { "label": "Je note mentalement l’impact", "scores": { "facile": 3 } },
+        { "label": "Je regarde vite fait", "scores": { "variable": 3 } },
+        { "label": "Je swipe sans regarder", "scores": { "difficile": 3 } }
+      ]
+    },
+    {
+      "id": "6",
+      "question": "Tu annules un achat après réflexion…",
+      "answers": [
+        { "label": "Ça m’arrive souvent", "scores": { "facile": 3 } },
+        { "label": "Parfois", "scores": { "variable": 3 } },
+        { "label": "Très rarement", "scores": { "difficile": 3 } }
+      ]
+    },
+    {
+      "id": "7",
+      "question": "Tu vois plusieurs petites dépenses sur 2-3 jours…",
+      "answers": [
+        { "label": "Je ralentis immédiatement", "scores": { "facile": 3 } },
+        { "label": "Je fais un peu attention ensuite", "scores": { "variable": 3 } },
+        { "label": "Je ne change rien", "scores": { "difficile": 3 } }
+      ]
+    },
+    {
+      "id": "8",
+      "question": "Tu compares deux prix pour le même produit…",
+      "answers": [
+        { "label": "Je prends toujours le meilleur prix", "scores": { "facile": 3 } },
+        { "label": "Je regarde mais pas toujours", "scores": { "variable": 3 } },
+        { "label": "Je ne compare presque jamais", "scores": { "difficile": 3 } }
+      ]
+    },
+    {
+      "id": "9",
+      "question": "Tu reçois une offre “dernière chance -24h”…",
+      "answers": [
+        { "label": "Je laisse passer sans regret", "scores": { "facile": 3 } },
+        { "label": "Je réfléchis rapidement", "scores": { "variable": 3 } },
+        { "label": "Ça me pousse à acheter", "scores": { "difficile": 3 } }
+      ]
+    },
+    {
+      "id": "10",
+      "question": "Tu te fixes un objectif d’épargne…",
+      "answers": [
+        { "label": "Je mets en place un système pour y arriver", "scores": { "facile": 3 } },
+        { "label": "J’essaie mais sans méthode", "scores": { "variable": 3 } },
+        { "label": "Je compte sur le hasard", "scores": { "difficile": 3 } }
+      ]
+    }
+  ]
+}

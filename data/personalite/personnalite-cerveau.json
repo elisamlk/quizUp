@@ -1,0 +1,424 @@
+{
+    "slug": "test-personnalite-quel-type-de-cerveau-as-tu",
+    "title": "Test personnalité - Quel type de cerveau as-tu ?",
+    "description": "Découvre comment ton cerveau fonctionne et la manière dont tu réfléchis au quotidien.",
+    "descriptionSeo": "Ce test de personnalité explore ton fonctionnement mental pour déterminer quel type de cerveau te correspond le mieux. À travers des questions sur ta logique, ton intuition, ta créativité et ton sens de l’organisation, identifie ton mode de réflexion dominant. Un test clair et immersif pour mieux comprendre tes mécanismes de décision, tes points forts cognitifs et la façon dont tu appréhendes les situations du quotidien.",
+    "category": {
+        "name": "Psychologie",
+        "slug": "psychologie"
+    },
+    "createdAt": "2026-04-20",
+    "isNew": true,
+    "isPopular": true,
+    "images": {
+        "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776941015/cover_dt6a0c.jpg",
+        "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776941015/cover_dt6a0c.jpg",
+        "alt": "Test type de cerveau"
+    },
+    "profiles": [
+        {
+            "key": "analytique",
+            "title": "Le Cerveau Analytique",
+            "description": "Ton cerveau fonctionne principalement de manière analytique. Tu as besoin de comprendre les choses en profondeur avant d’agir, et tu privilégies toujours la logique, la cohérence et les faits concrets. Tu prends le temps d’observer, de comparer et d’évaluer les différentes options avant de prendre une décision. Cette capacité te permet d’éviter les erreurs impulsives et de construire des raisonnements solides. Tu es souvent perçu comme quelqu’un de réfléchi, pertinent et fiable. Tu aimes les environnements structurés où tout a du sens. Cependant, cette tendance à analyser peut parfois te ralentir ou te faire hésiter lorsque des décisions rapides sont nécessaires. Ton défi est d’apprendre à faire confiance à ton instinct dans certaines situations. Ta force réside dans ta lucidité, ton sens du détail et ta capacité à comprendre les mécanismes complexes.",
+            "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776771826/analytic_ofwghg.jpg"
+        },
+        {
+            "key": "intuitif",
+            "title": "Le Cerveau Intuitif",
+            "description": "Ton cerveau fonctionne principalement à l’intuition. Tu ressens les choses rapidement et tu te fies souvent à ton instinct pour prendre des décisions. Tu captes facilement les ambiances, les émotions et les signaux subtils sans avoir besoin de tout analyser en détail. Cette capacité te permet d’être réactif, adaptable et souvent très juste dans tes choix, surtout dans des situations humaines ou imprévisibles. Tu es à l’aise avec l’incertitude et tu sais improviser quand il le faut. Cependant, cette spontanéité peut parfois te pousser à agir trop vite ou à négliger certains aspects importants. Ton défi est de prendre parfois un peu de recul avant d’agir. Ta force réside dans ta rapidité de perception, ta flexibilité et ta capacité à ressentir ce que d’autres ne voient pas immédiatement.",
+            "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776775736/intuition_bhqspj.jpg"
+        },
+        {
+            "key": "creatif",
+            "title": "Le Cerveau Créatif",
+            "description": "Ton cerveau est fortement orienté vers la créativité. Tu as une imagination riche et une manière originale de voir le monde. Tu aimes explorer de nouvelles idées, sortir des schémas classiques et proposer des solutions différentes. Ton esprit fonctionne souvent de façon intuitive et associative, ce qui te permet de faire des liens inattendus et d’innover facilement. Tu es attiré par tout ce qui stimule ton imagination et te permet de t’exprimer librement. Cette créativité est une vraie force, car elle te rend unique et apporte une valeur différente autour de toi. Cependant, tu peux parfois te disperser ou avoir du mal à structurer tes idées dans la durée. Ton défi est de canaliser ton énergie créative. Ta force réside dans ton originalité, ta vision et ta capacité à transformer les idées en possibilités.",
+            "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776771397/creative_s5mdep.jpg"
+        },
+        {
+            "key": "structure",
+            "title": "Le Cerveau Structuré",
+            "description": "Ton cerveau est structuré et organisé. Tu aimes planifier, anticiper et avancer avec méthode. Tu te sens à l’aise lorsque les choses sont claires, cadrées et logiques. Tu as une capacité naturelle à organiser les idées, gérer les priorités et construire des plans efficaces. Cette approche te permet d’être fiable, constant et performant dans de nombreuses situations. Tu préfères souvent suivre une stratégie plutôt que d’improviser, ce qui te donne une grande stabilité. Cependant, tu peux parfois avoir du mal à gérer l’imprévu ou à sortir de ta zone de confort lorsque les choses deviennent floues. Ton défi est d’accepter davantage la flexibilité. Ta force réside dans ta rigueur, ta discipline et ta capacité à structurer efficacement ton environnement et tes actions.",
+            "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776775660/logical_plqmmc.jpg"
+        },
+        {
+            "key": "equilibre",
+            "title": "Le Cerveau Équilibré",
+            "description": "Ton cerveau est équilibré. Tu es capable de combiner logique, intuition, créativité et organisation selon les situations. Tu n’es pas enfermé dans un seul mode de fonctionnement, ce qui te rend adaptable et polyvalent. Tu sais analyser quand c’est nécessaire, suivre ton instinct dans certaines situations et faire preuve de créativité quand il faut innover. Cette flexibilité est une grande force, car elle te permet de t’ajuster rapidement aux différents contextes. Tu comprends facilement les différentes façons de penser et tu peux naviguer entre elles avec aisance. Cependant, tu peux parfois hésiter entre plusieurs approches ou manquer de direction claire. Ton défi est de faire confiance à ton premier choix. Ta force réside dans ton adaptabilité, ta vision globale et ta capacité à trouver un équilibre entre réflexion et action.",
+            "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776778847/balanced_e70dki.jpg"
+        }
+    ],
+    "questions": [
+        {
+            "id": "1",
+            "question": "Quand tu dois résoudre un problème important…",
+            "answers": [
+                {
+                    "label": "Je décortique chaque détail",
+                    "scores": {
+                        "analytique": 3,
+                        "structure": 1
+                    }
+                },
+                {
+                    "label": "Je me fie à mon instinct",
+                    "scores": {
+                        "intuitif": 3,
+                        "creatif": 1
+                    }
+                },
+                {
+                    "label": "Je cherche une idée originale",
+                    "scores": {
+                        "creatif": 3,
+                        "intuitif": 1
+                    }
+                },
+                {
+                    "label": "Je suis une méthode claire",
+                    "scores": {
+                        "structure": 3,
+                        "analytique": 1
+                    }
+                },
+                {
+                    "label": "Je combine réflexion et rapidité",
+                    "scores": {
+                        "equilibre": 2,
+                        "analytique": 1
+                    }
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "question": "Dans ton quotidien…",
+            "answers": [
+                {
+                    "label": "J’observe avant d’agir",
+                    "scores": {
+                        "analytique": 3
+                    }
+                },
+                {
+                    "label": "Je fonctionne au feeling",
+                    "scores": {
+                        "intuitif": 3
+                    }
+                },
+                {
+                    "label": "J’imagine souvent autre chose",
+                    "scores": {
+                        "creatif": 3
+                    }
+                },
+                {
+                    "label": "J’organise et planifie",
+                    "scores": {
+                        "structure": 3
+                    }
+                },
+                {
+                    "label": "Je m’adapte selon la situation",
+                    "scores": {
+                        "equilibre": 2,
+                        "intuitif": 1
+                    }
+                }
+            ]
+        },
+        {
+            "id": "3",
+            "question": "Quand tu prends une décision…",
+            "answers": [
+                {
+                    "label": "Je réfléchis longuement",
+                    "scores": {
+                        "analytique": 3
+                    }
+                },
+                {
+                    "label": "Je décide rapidement",
+                    "scores": {
+                        "intuitif": 3
+                    }
+                },
+                {
+                    "label": "Je choisis une option originale",
+                    "scores": {
+                        "creatif": 3
+                    }
+                },
+                {
+                    "label": "Je suis un plan logique",
+                    "scores": {
+                        "structure": 3
+                    }
+                },
+                {
+                    "label": "Je mélange logique et intuition",
+                    "scores": {
+                        "equilibre": 2,
+                        "analytique": 1
+                    }
+                }
+            ]
+        },
+        {
+            "id": "4",
+            "question": "Face à une situation imprévue…",
+            "answers": [
+                {
+                    "label": "J’analyse ce qui se passe",
+                    "scores": {
+                        "analytique": 3
+                    }
+                },
+                {
+                    "label": "Je réagis instinctivement",
+                    "scores": {
+                        "intuitif": 3
+                    }
+                },
+                {
+                    "label": "Je trouve une solution créative",
+                    "scores": {
+                        "creatif": 3
+                    }
+                },
+                {
+                    "label": "Je remets de l’ordre",
+                    "scores": {
+                        "structure": 3
+                    }
+                },
+                {
+                    "label": "Je m’adapte rapidement",
+                    "scores": {
+                        "equilibre": 2,
+                        "intuitif": 1
+                    }
+                }
+            ]
+        },
+        {
+            "id": "5",
+            "question": "Ton point fort principal…",
+            "answers": [
+                {
+                    "label": "Ma logique",
+                    "scores": {
+                        "analytique": 3
+                    }
+                },
+                {
+                    "label": "Mon intuition",
+                    "scores": {
+                        "intuitif": 3
+                    }
+                },
+                {
+                    "label": "Mon imagination",
+                    "scores": {
+                        "creatif": 3
+                    }
+                },
+                {
+                    "label": "Mon organisation",
+                    "scores": {
+                        "structure": 3
+                    }
+                },
+                {
+                    "label": "Ma capacité d’adaptation",
+                    "scores": {
+                        "equilibre": 2
+                    }
+                }
+            ]
+        },
+        {
+            "id": "6",
+            "question": "Quand tu fais une erreur…",
+            "answers": [
+                {
+                    "label": "Je cherche à comprendre",
+                    "scores": {
+                        "analytique": 3
+                    }
+                },
+                {
+                    "label": "Je passe à autre chose",
+                    "scores": {
+                        "intuitif": 3
+                    }
+                },
+                {
+                    "label": "Je teste une autre idée",
+                    "scores": {
+                        "creatif": 3
+                    }
+                },
+                {
+                    "label": "Je corrige méthodiquement",
+                    "scores": {
+                        "structure": 3
+                    }
+                },
+                {
+                    "label": "Je prends du recul global",
+                    "scores": {
+                        "equilibre": 2,
+                        "analytique": 1
+                    }
+                }
+            ]
+        },
+        {
+            "id": "7",
+            "question": "Quand tu apprends quelque chose de nouveau…",
+            "answers": [
+                {
+                    "label": "Je veux comprendre en profondeur",
+                    "scores": {
+                        "analytique": 3
+                    }
+                },
+                {
+                    "label": "Je teste directement",
+                    "scores": {
+                        "intuitif": 3
+                    }
+                },
+                {
+                    "label": "Je trouve des méthodes originales",
+                    "scores": {
+                        "creatif": 3
+                    }
+                },
+                {
+                    "label": "Je suis une méthode claire",
+                    "scores": {
+                        "structure": 3
+                    }
+                },
+                {
+                    "label": "Je mélange plusieurs approches",
+                    "scores": {
+                        "equilibre": 2,
+                        "analytique": 1
+                    }
+                }
+            ]
+        },
+        {
+            "id": "8",
+            "question": "Dans une discussion importante…",
+            "answers": [
+                {
+                    "label": "Je m’appuie sur des faits",
+                    "scores": {
+                        "analytique": 3
+                    }
+                },
+                {
+                    "label": "Je parle selon mon ressenti",
+                    "scores": {
+                        "intuitif": 3
+                    }
+                },
+                {
+                    "label": "Je propose des idées différentes",
+                    "scores": {
+                        "creatif": 3
+                    }
+                },
+                {
+                    "label": "Je structure mes arguments",
+                    "scores": {
+                        "structure": 3
+                    }
+                },
+                {
+                    "label": "Je m’adapte à la personne",
+                    "scores": {
+                        "equilibre": 2,
+                        "intuitif": 1
+                    }
+                }
+            ]
+        },
+        {
+            "id": "9",
+            "question": "Quand tu dois organiser quelque chose…",
+            "answers": [
+                {
+                    "label": "Je réfléchis à la meilleure stratégie",
+                    "scores": {
+                        "analytique": 3
+                    }
+                },
+                {
+                    "label": "Je fais au feeling",
+                    "scores": {
+                        "intuitif": 3
+                    }
+                },
+                {
+                    "label": "Je trouve des idées originales",
+                    "scores": {
+                        "creatif": 3
+                    }
+                },
+                {
+                    "label": "Je planifie chaque étape",
+                    "scores": {
+                        "structure": 3
+                    }
+                },
+                {
+                    "label": "Je m’adapte aux imprévus",
+                    "scores": {
+                        "equilibre": 2,
+                        "structure": 1
+                    }
+                }
+            ]
+        },
+        {
+            "id": "10",
+            "question": "Ce qui te correspond le plus…",
+            "answers": [
+                {
+                    "label": "Je réfléchis avant d’agir",
+                    "scores": {
+                        "analytique": 3
+                    }
+                },
+                {
+                    "label": "Je ressens avant de décider",
+                    "scores": {
+                        "intuitif": 3
+                    }
+                },
+                {
+                    "label": "Je pense différemment",
+                    "scores": {
+                        "creatif": 3
+                    }
+                },
+                {
+                    "label": "Je structure les choses",
+                    "scores": {
+                        "structure": 3
+                    }
+                },
+                {
+                    "label": "Je combine plusieurs approches",
+                    "scores": {
+                        "equilibre": 2
+                    }
+                }
+            ]
+        }
+    ]
+}

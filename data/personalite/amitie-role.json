@@ -1,0 +1,146 @@
+{
+  "slug": "test-role-dans-groupe-amis",
+  "title": "Test amitié - Quel rôle joues-tu vraiment dans ton groupe d’amis ?",
+  "description": "Dans ton groupe, es-tu leader, soutien, discret ou moteur ?",
+  "descriptionSeo": "Organisation des sorties, gestion des tensions, messages dans le groupe ou réactions en soirée… ce test analyse tes comportements concrets pour révéler le rôle que tu occupes vraiment dans ton groupe d’amis. Es-tu celui ou celle qui mène, soutient, met l’ambiance ou observe ? À travers des situations du quotidien, découvre la place que tu prends naturellement et ce que ta présence apporte aux autres.",
+  "category": {
+    "name": "Amitié",
+    "slug": "amitie"
+  },
+  "createdAt": "2026-04-27",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777723695/cover_vwr2cy.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777723695/cover_vwr2cy.jpg",
+    "alt": "Test rôle groupe d'amis"
+  },
+  "profiles": [
+    {
+      "key": "leader",
+      "title": "Le/La leader",
+      "description": "Tu es souvent à l’initiative dans ton groupe. C’est toi qui proposes, qui organise et qui donne le ton. Les autres comptent naturellement sur toi pour lancer les idées ou structurer les moments. Tu aimes que les choses avancent et tu prends facilement des décisions. Sans forcément le chercher, tu occupes une place centrale dans la dynamique du groupe.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777724220/leader-friend_diqqvu.jpg"
+    },
+    {
+      "key": "soutien",
+      "title": "Le/La soutien",
+      "description": "Tu es la personne sur qui on peut compter. Tu écoutes, tu conseilles et tu es présent(e) quand quelqu’un en a besoin. Tu ne cherches pas forcément à diriger, mais tu apportes une stabilité essentielle au groupe. Tu es souvent celui ou celle qui apaise, comprend et soutient les autres.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777724219/friend-support_kdpsbv.jpg"
+    },
+    {
+      "key": "fun",
+      "title": "Le/La moteur fun",
+      "description": "Tu es celui ou celle qui met de l’énergie dans le groupe. Tu apportes de la légèreté, des idées spontanées et une bonne ambiance. Tu n’es pas forcément dans l’organisation, mais tu rends les moments vivants. Ta présence dynamise le groupe et crée des souvenirs.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777724219/fun-friend_vovtxp.jpg"
+    },
+    {
+      "key": "discret",
+      "title": "Le/La discret(e)",
+      "description": "Tu es plus en retrait, mais tout aussi important(e). Tu observes, tu participes à ta manière et tu n’as pas besoin d’être au centre pour te sentir bien. Tu es souvent attentif(ve) aux autres sans forcément le montrer. Ta présence est calme, mais essentielle à l’équilibre du groupe.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777724219/discrete_wwm1yd.jpg"
+    }
+  ],
+  "questions": [
+    {
+      "id": "1",
+      "question": "Un groupe WhatsApp est silencieux depuis plusieurs jours…",
+      "answers": [
+        { "label": "Je relance avec une idée de sortie", "scores": { "leader": 3 } },
+        { "label": "J’envoie un message pour prendre des nouvelles", "scores": { "soutien": 3 } },
+        { "label": "J’envoie un truc drôle ou un meme", "scores": { "fun": 3 } },
+        { "label": "Je lis sans intervenir", "scores": { "discret": 3 } }
+      ]
+    },
+    {
+      "id": "2",
+      "question": "Il faut organiser une soirée…",
+      "answers": [
+        { "label": "Je prends les choses en main", "scores": { "leader": 3 } },
+        { "label": "J’aide à organiser", "scores": { "soutien": 3 } },
+        { "label": "Je suis surtout là pour l’ambiance", "scores": { "fun": 3 } },
+        { "label": "Je suis ce que les autres décident", "scores": { "discret": 3 } }
+      ]
+    },
+    {
+      "id": "3",
+      "question": "Deux amis ont un petit conflit…",
+      "answers": [
+        { "label": "J’essaie de régler le problème", "scores": { "leader": 3 } },
+        { "label": "Je parle avec chacun pour comprendre", "scores": { "soutien": 3 } },
+        { "label": "Je détends l’atmosphère", "scores": { "fun": 3 } },
+        { "label": "Je reste en retrait", "scores": { "discret": 3 } }
+      ]
+    },
+    {
+      "id": "4",
+      "question": "En soirée avec ton groupe…",
+      "answers": [
+        { "label": "Je gère un peu tout", "scores": { "leader": 3 } },
+        { "label": "Je fais attention à tout le monde", "scores": { "soutien": 3 } },
+        { "label": "Je fais rire et bouge", "scores": { "fun": 3 } },
+        { "label": "Je reste plus posé(e)", "scores": { "discret": 3 } }
+      ]
+    },
+    {
+      "id": "5",
+      "question": "Un plan de groupe tombe à l’eau…",
+      "answers": [
+        { "label": "Je propose une alternative", "scores": { "leader": 3 } },
+        { "label": "Je vois comment chacun se sent", "scores": { "soutien": 3 } },
+        { "label": "Je lance une idée spontanée", "scores": { "fun": 3 } },
+        { "label": "Je m’adapte sans rien dire", "scores": { "discret": 3 } }
+      ]
+    },
+    {
+      "id": "6",
+      "question": "Dans une discussion de groupe…",
+      "answers": [
+        { "label": "Je mène souvent le sujet", "scores": { "leader": 3 } },
+        { "label": "J’écoute beaucoup", "scores": { "soutien": 3 } },
+        { "label": "Je fais rebondir avec humour", "scores": { "fun": 3 } },
+        { "label": "Je parle peu", "scores": { "discret": 3 } }
+      ]
+    },
+    {
+      "id": "7",
+      "question": "Un ami ne va pas bien…",
+      "answers": [
+        { "label": "Je prends les devants", "scores": { "leader": 3 } },
+        { "label": "Je suis très présent(e) pour lui", "scores": { "soutien": 3 } },
+        { "label": "J’essaie de lui changer les idées", "scores": { "fun": 3 } },
+        { "label": "Je reste discret mais présent", "scores": { "discret": 3 } }
+      ]
+    },
+    {
+      "id": "8",
+      "question": "Tu dois proposer une idée de sortie…",
+      "answers": [
+        { "label": "Je décide assez vite", "scores": { "leader": 3 } },
+        { "label": "Je demande l’avis des autres", "scores": { "soutien": 3 } },
+        { "label": "Je propose un truc original", "scores": { "fun": 3 } },
+        { "label": "Je préfère ne pas proposer", "scores": { "discret": 3 } }
+      ]
+    },
+    {
+      "id": "9",
+      "question": "Ton groupe te décrit comme…",
+      "answers": [
+        { "label": "Celui/celle qui gère", "scores": { "leader": 3 } },
+        { "label": "Celui/celle sur qui on peut compter", "scores": { "soutien": 3 } },
+        { "label": "Celui/celle qui met l’ambiance", "scores": { "fun": 3 } },
+        { "label": "Celui/celle plus discret(e)", "scores": { "discret": 3 } }
+      ]
+    },
+    {
+      "id": "10",
+      "question": "Sans toi dans le groupe…",
+      "answers": [
+        { "label": "Il manquerait de structure", "scores": { "leader": 3 } },
+        { "label": "Il manquerait de soutien", "scores": { "soutien": 3 } },
+        { "label": "Il manquerait d’énergie", "scores": { "fun": 3 } },
+        { "label": "Il serait différent sans qu’on sache pourquoi", "scores": { "discret": 3 } }
+      ]
+    }
+  ]
+}

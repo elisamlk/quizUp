@@ -1,0 +1,140 @@
+{
+  "slug": "test-entrepreneur-es-tu-fait-pour-entreprendre",
+  "title": "Test entrepreneur - Es-tu fait(e) pour entreprendre ?",
+  "description": "Analyse si ton état d’esprit correspond vraiment aux exigences de l’entrepreneuriat.",
+  "descriptionSeo": "Analyse ton potentiel entrepreneurial à travers ta manière de prendre des décisions, de gérer le risque et de réagir face aux défis. Ce test explore ton autonomie, ta capacité à agir, ta résilience et ton rapport à l’incertitude. Découvre si tu es fait pour entreprendre, si tu as besoin d’un cadre ou si tu te situes entre les deux. Une approche concrète pour mieux comprendre ton profil face au monde entrepreneurial.",
+  "category": {
+    "name": "Carrière",
+    "slug": "carriere"
+  },
+  "createdAt": "2026-04-20",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776944836/entrepreneur_nwol9u.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776944836/entrepreneur_nwol9u.jpg",
+    "alt": "Test entrepreneur es tu fait pour entreprendre"
+  },
+  "profiles": [
+    {
+      "key": "entrepreneur",
+      "title": "L'Entrepreneur Né",
+      "description": "Tu as clairement une mentalité entrepreneuriale. Tu es à l’aise avec l’incertitude, tu sais prendre des décisions rapidement et tu n’as pas peur de sortir des sentiers battus. Tu ressens probablement un besoin d’indépendance et de création. Tu préfères construire quelque chose par toi-même plutôt que suivre un cadre déjà établi. Tu es capable de prendre des risques, d’assumer tes choix et de rebondir après un échec. Cette capacité à avancer malgré l’inconnu est une vraie force. Cependant, ton défi est de garder une discipline et une constance dans la durée. L’entrepreneuriat demande autant de rigueur que d’audace. Si tu arrives à structurer ton énergie, tu peux réellement construire des projets solides et ambitieux.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776775125/leader_oqikrz.jpg"
+    },
+    {
+      "key": "entrepreneur_potentiel",
+      "title": "Le Potentiel Entrepreneur",
+      "description": "Tu as des qualités entrepreneuriales, mais elles ne sont pas encore totalement exploitées. Tu es capable de prendre des initiatives, tu as des idées et tu ressens parfois l’envie de créer quelque chose par toi-même. Cependant, tu peux encore hésiter face au risque ou avoir besoin de plus de sécurité avant de te lancer. Tu es dans une phase intermédiaire où tu peux évoluer rapidement si tu développes ta confiance et ton passage à l’action. Ton potentiel est réel, mais il demande à être activé. En sortant progressivement de ta zone de confort, tu pourrais découvrir une vraie capacité à entreprendre.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776771826/analytic_ofwghg.jpg"
+    },
+    {
+      "key": "profil_securite",
+      "title": "Le Profil Sécuritaire",
+      "description": "Tu es plutôt à l’aise dans des environnements stables et structurés. Tu préfères avoir de la visibilité, un cadre clair et des règles définies. Tu es fiable, rigoureux et capable de t’investir dans la durée, ce qui est une grande force. L’incertitude, le risque et l’instabilité peuvent te freiner, ce qui rend l’entrepreneuriat plus difficile pour toi à ce stade. Cela ne veut pas dire que tu ne peux pas entreprendre, mais que tu as besoin d’un cadre plus rassurant pour évoluer. Ton défi est de développer progressivement ta tolérance à l’incertitude. Ta force réside dans ta constance et ton sérieux.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776777703/intro_qq7wpy.jpg"
+    }
+  ],
+  "questions": [
+    {
+      "id": "1",
+      "question": "Tu as une idée de projet, mais rien n’est encore sûr. Que fais-tu ?",
+      "answers": [
+        { "label": "Je commence rapidement à tester", "scores": { "entrepreneur": 3 } },
+        { "label": "Je réfléchis longtemps avant de me lancer", "scores": { "profil_securite": 3 } },
+        { "label": "Je fais quelques tests sans trop m’exposer", "scores": { "entrepreneur_potentiel": 2, "entrepreneur": 1 } },
+        { "label": "Je préfère attendre d’être sûr à 100%", "scores": { "profil_securite": 2, "entrepreneur_potentiel": 1 } }
+      ]
+    },
+    {
+      "id": "2",
+      "question": "Face à l’incertitude…",
+      "answers": [
+        { "label": "Ça me stimule", "scores": { "entrepreneur": 3 } },
+        { "label": "Je m’y adapte progressivement", "scores": { "entrepreneur_potentiel": 2 } },
+        { "label": "Je préfère l’éviter", "scores": { "profil_securite": 3 } },
+        { "label": "Je cherche à la réduire au maximum", "scores": { "profil_securite": 2, "entrepreneur_potentiel": 1 } }
+      ]
+    },
+    {
+      "id": "3",
+      "question": "Quand quelque chose échoue…",
+      "answers": [
+        { "label": "Je recommence autrement", "scores": { "entrepreneur": 3 } },
+        { "label": "J’analyse avant de repartir", "scores": { "entrepreneur_potentiel": 2, "entrepreneur": 1 } },
+        { "label": "Je prends du recul avant d’agir", "scores": { "profil_securite": 2 } },
+        { "label": "Ça me freine beaucoup", "scores": { "profil_securite": 3 } }
+      ]
+    },
+    {
+      "id": "4",
+      "question": "Dans un travail, tu préfères…",
+      "answers": [
+        { "label": "Créer ton propre cadre", "scores": { "entrepreneur": 3 } },
+        { "label": "Avoir une certaine liberté", "scores": { "entrepreneur_potentiel": 2 } },
+        { "label": "Avoir des repères clairs", "scores": { "profil_securite": 3 } },
+        { "label": "Suivre une structure définie", "scores": { "profil_securite": 2, "entrepreneur_potentiel": 1 } }
+      ]
+    },
+    {
+      "id": "5",
+      "question": "Le risque pour toi…",
+      "answers": [
+        { "label": "Fait partie du jeu", "scores": { "entrepreneur": 3 } },
+        { "label": "Peut être maîtrisé", "scores": { "entrepreneur_potentiel": 2 } },
+        { "label": "Est à éviter", "scores": { "profil_securite": 3 } },
+        { "label": "Doit être très limité", "scores": { "profil_securite": 2 } }
+      ]
+    },
+    {
+      "id": "6",
+      "question": "Tu dois prendre une décision rapide…",
+      "answers": [
+        { "label": "Je décide vite", "scores": { "entrepreneur": 3 } },
+        { "label": "Je prends un court temps de réflexion", "scores": { "entrepreneur_potentiel": 2 } },
+        { "label": "Je préfère analyser", "scores": { "profil_securite": 3 } },
+        { "label": "Je demande conseil", "scores": { "profil_securite": 2, "entrepreneur_potentiel": 1 } }
+      ]
+    },
+    {
+      "id": "7",
+      "question": "Ce qui te motive le plus…",
+      "answers": [
+        { "label": "Créer quelque chose", "scores": { "entrepreneur": 3 } },
+        { "label": "Évoluer progressivement", "scores": { "entrepreneur_potentiel": 2 } },
+        { "label": "Avoir de la stabilité", "scores": { "profil_securite": 3 } },
+        { "label": "Avoir des repères clairs", "scores": { "profil_securite": 2 } }
+      ]
+    },
+    {
+      "id": "8",
+      "question": "Ton rapport au travail…",
+      "answers": [
+        { "label": "Autonome et indépendant", "scores": { "entrepreneur": 3 } },
+        { "label": "Flexible", "scores": { "entrepreneur_potentiel": 2 } },
+        { "label": "Stable et structuré", "scores": { "profil_securite": 3 } },
+        { "label": "Encadré", "scores": { "profil_securite": 2 } }
+      ]
+    },
+    {
+      "id": "9",
+      "question": "Tu préfères…",
+      "answers": [
+        { "label": "Construire ton projet", "scores": { "entrepreneur": 3 } },
+        { "label": "Tester des idées", "scores": { "entrepreneur_potentiel": 2 } },
+        { "label": "Suivre un cadre", "scores": { "profil_securite": 3 } },
+        { "label": "Avoir un plan clair", "scores": { "profil_securite": 2 } }
+      ]
+    },
+    {
+      "id": "10",
+      "question": "Face à une opportunité…",
+      "answers": [
+        { "label": "Je fonce", "scores": { "entrepreneur": 3 } },
+        { "label": "Je réfléchis rapidement", "scores": { "entrepreneur_potentiel": 2 } },
+        { "label": "Je prends le temps d’analyser", "scores": { "profil_securite": 3 } },
+        { "label": "Je préfère attendre", "scores": { "profil_securite": 2 } }
+      ]
+    }
+  ]
+}

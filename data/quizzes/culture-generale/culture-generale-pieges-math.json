@@ -1,0 +1,200 @@
+{
+  "slug": "quiz-culture-generale-pieges-mathematiques",
+  "title": "Quiz Culture Générale - Les pièges mathématiques",
+  "description": "20 questions où les maths vont tromper ton intuition.",
+  "descriptionSeo": "Ce quiz de culture générale explore 20 pièges mathématiques classiques qui trompent même les esprits logiques. Entre probabilités contre-intuitives, erreurs de raisonnement et illusions numériques, teste ta capacité à éviter les pièges et découvre les bonnes explications.",
+  "category": {
+    "name": "Culture générale",
+    "slug": "culture-generale"
+  },
+  "createdAt": "2026-03-30",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1773930579/pexels-karola-g-6256066_rklmol.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1773930579/pexels-karola-g-6256066_rklmol.jpg",
+    "alt": "Quiz pièges mathématiques"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "question": "Une batte et une balle coûtent 1,10€. La batte coûte 1€ de plus que la balle. Combien coûte la balle ?",
+      "image": null,
+      "imagePrompt": "bat ball math puzzle",
+      "answers": ["0,10€", "0,05€", "0,01€", "0,50€"],
+      "correctIndex": 1,
+      "explanation": "L’intuition donne 0,10€, mais c’est faux. Si la balle coûtait 0,05€, la batte coûterait 1,05€, soit 1,10€ au total."
+    },
+    {
+      "id": "2",
+      "question": "Tu augmentes un prix de 20%, puis tu le diminues de 20%. Le prix final est identique.",
+      "image": null,
+      "imagePrompt": "percentage trap",
+      "answers": ["Vrai", "Faux", "Parfois", "Toujours"],
+      "correctIndex": 1,
+      "explanation": "Après +20% puis -20%, le prix est plus bas. Les pourcentages ne sont pas symétriques."
+    },
+    {
+      "id": "3",
+      "question": "Un étang double de taille chaque jour. Il est plein au bout de 30 jours. Quand est-il à moitié plein ?",
+      "image": null,
+      "imagePrompt": "exponential growth",
+      "answers": ["15 jours", "29 jours", "20 jours", "25 jours"],
+      "correctIndex": 1,
+      "explanation": "La croissance est exponentielle. La moitié est atteinte le jour juste avant : 29."
+    },
+    {
+      "id": "4",
+      "question": "Tu lances une pièce 5 fois et obtiens 5 piles. Le prochain lancer a plus de chances d’être face.",
+      "image": null,
+      "imagePrompt": "coin probability",
+      "answers": ["Vrai", "Faux", "Parfois", "Souvent"],
+      "correctIndex": 1,
+      "explanation": "Chaque lancer est indépendant. La probabilité reste 50%."
+    },
+    {
+      "id": "5",
+      "question": "Une moyenne élevée signifie que la majorité des valeurs sont élevées.",
+      "image": null,
+      "imagePrompt": "average distribution",
+      "answers": ["Vrai", "Faux", "Parfois", "Souvent"],
+      "correctIndex": 1,
+      "explanation": "Quelques valeurs extrêmes peuvent tirer la moyenne vers le haut."
+    },
+    {
+      "id": "6",
+      "question": "Si tu doubles tes chances de gagner (1% → 2%), ton gain potentiel double réellement.",
+      "image": null,
+      "imagePrompt": "probability misunderstanding",
+      "answers": ["Vrai", "Faux", "Mathématiquement oui", "Parfois"],
+      "correctIndex": 2,
+      "explanation": "Mathématiquement oui, mais ton cerveau surestime fortement l’impact réel (2% reste très faible)."
+    },
+    {
+      "id": "7",
+      "question": "Dans un groupe de 23 personnes, il y a plus de 50% de chances que deux aient la même date de naissance.",
+      "image": null,
+      "imagePrompt": "birthday paradox",
+      "answers": ["Faux", "Vrai", "Parfois", "Impossible"],
+      "correctIndex": 1,
+      "explanation": "C’est le paradoxe des anniversaires. La probabilité dépasse 50% dès 23 personnes."
+    },
+    {
+      "id": "8",
+      "question": "1/3 + 1/3 + 1/3 = 1 exactement.",
+      "image": null,
+      "imagePrompt": "fraction precision",
+      "answers": ["Vrai", "Faux", "En théorie oui", "Parfois"],
+      "correctIndex": 2,
+      "explanation": "Mathématiquement oui, mais en décimal (0,333…), il y a une approximation."
+    },
+    {
+      "id": "9",
+      "question": "Un nombre multiplié par 0,5 puis par 2 revient toujours à sa valeur initiale.",
+      "image": null,
+      "imagePrompt": "multiplication trap",
+      "answers": ["Vrai", "Faux", "Parfois", "Toujours"],
+      "correctIndex": 0,
+      "explanation": "Multiplier par 0,5 puis par 2 annule l’effet. Le piège est de penser que l’ordre change le résultat."
+    },
+    {
+      "id": "10",
+      "question": "Si une probabilité est faible, elle ne se produira probablement pas.",
+      "image": null,
+      "imagePrompt": "rare events probability",
+      "answers": ["Vrai", "Faux", "Parfois", "Souvent"],
+      "correctIndex": 2,
+      "explanation": "Une probabilité faible peut quand même se produire, surtout si répétée."
+    },
+    {
+      "id": "11",
+      "question": "Dans le problème des 3 portes (Monty Hall), changer de porte augmente tes chances.",
+      "image": null,
+      "imagePrompt": "monty hall problem",
+      "answers": ["Faux", "Vrai", "Parfois", "Impossible"],
+      "correctIndex": 1,
+      "explanation": "Changer passe de 1/3 à 2/3 de chances, même si cela paraît contre-intuitif."
+    },
+    {
+      "id": "12",
+      "question": "10% de 50 est égal à 5, donc 50% de 10 est aussi 5.",
+      "image": null,
+      "imagePrompt": "percentage symmetry",
+      "answers": ["Vrai", "Faux", "Parfois", "Souvent"],
+      "correctIndex": 0,
+      "explanation": "Les deux calculs donnent bien 5. Le piège est de croire que ce n’est pas symétrique."
+    },
+    {
+      "id": "13",
+      "question": "Un nombre très grand est forcément difficile à atteindre.",
+      "image": null,
+      "imagePrompt": "large numbers",
+      "answers": ["Vrai", "Faux", "Parfois", "Souvent"],
+      "correctIndex": 2,
+      "explanation": "Tout dépend du contexte. Certains processus atteignent rapidement de grands nombres."
+    },
+    {
+      "id": "14",
+      "question": "Si tu gagnes 100€, puis perds 100€, tu es revenu à ton point de départ en pourcentage.",
+      "image": null,
+      "imagePrompt": "percentage gain loss",
+      "answers": ["Vrai", "Faux", "Parfois", "Toujours"],
+      "correctIndex": 1,
+      "explanation": "Les pourcentages ne sont pas symétriques. Une perte après un gain ne s’annule pas parfaitement."
+    },
+    {
+      "id": "15",
+      "question": "Plus il y a de choix, plus tu as de chances de tomber sur la bonne réponse.",
+      "image": null,
+      "imagePrompt": "multiple choice trap",
+      "answers": ["Vrai", "Faux", "Parfois", "Toujours"],
+      "correctIndex": 1,
+      "explanation": "Plus de choix augmente surtout la difficulté et le risque d’erreur."
+    },
+    {
+      "id": "16",
+      "question": "Si un événement a 1% de chance, il arrivera environ 1 fois sur 100 essais.",
+      "image": null,
+      "imagePrompt": "probability expectation",
+      "answers": ["Vrai", "Faux", "En moyenne", "Toujours"],
+      "correctIndex": 2,
+      "explanation": "C’est une moyenne théorique, pas une garantie sur une série donnée."
+    },
+    {
+      "id": "17",
+      "question": "Multiplier un nombre par 1,1 puis par 0,9 revient au nombre initial.",
+      "image": null,
+      "imagePrompt": "percentage multiplication",
+      "answers": ["Vrai", "Faux", "Parfois", "Souvent"],
+      "correctIndex": 1,
+      "explanation": "1,1 × 0,9 = 0,99 → il y a une perte de 1%."
+    },
+    {
+      "id": "18",
+      "question": "Un échantillon de 10 personnes peut représenter fidèlement une population.",
+      "image": null,
+      "imagePrompt": "sample size bias",
+      "answers": ["Vrai", "Faux", "Parfois", "Souvent"],
+      "correctIndex": 2,
+      "explanation": "C’est possible mais peu fiable. Les petits échantillons sont très instables."
+    },
+    {
+      "id": "19",
+      "question": "Additionner des probabilités donne toujours une probabilité correcte.",
+      "image": null,
+      "imagePrompt": "probability addition",
+      "answers": ["Vrai", "Faux", "Parfois", "Toujours"],
+      "correctIndex": 1,
+      "explanation": "On ne peut additionner que des événements exclusifs. Sinon, il faut ajuster."
+    },
+    {
+      "id": "20",
+      "question": "Un événement improbable est forcément surprenant.",
+      "image": null,
+      "imagePrompt": "probability surprise",
+      "answers": ["Vrai", "Faux", "Parfois", "Souvent"],
+      "correctIndex": 2,
+      "explanation": "Certains événements improbables passent inaperçus, tout dépend du contexte."
+    }
+  ]
+}

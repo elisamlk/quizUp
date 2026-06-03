@@ -1,0 +1,300 @@
+{
+  "slug": "quiz-culture-generale-films-cultes-americains-20-questions",
+  "title": "Quiz Culture Générale - Films Cultes Américains",
+  "description": "Un quiz de culture générale pour tester vos connaissances sur les films cultes américains et leurs réalisateurs, acteurs et répliques.",
+  "descriptionSeo": "Plongez dans l’univers du cinéma avec ce quiz de culture générale consacré aux films cultes américains. De Forrest Gump à Pulp Fiction, en passant par Titanic et Le Parrain, testez vos connaissances à travers 20 questions sur les œuvres emblématiques d’Hollywood. Chaque question propose une explication enrichissante pour mieux comprendre l’impact culturel et historique de ces films incontournables.",
+  "category": {
+    "name": "Culture générale",
+    "slug": "culture-generale"
+  },
+  "createdAt": "2026-03-23",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1774297363/cover_c4tudh.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1774297363/cover_c4tudh.jpg",
+    "alt": "Quiz films cultes américains"
+  },
+  "questions": [
+    {
+      "id": "film-1",
+      "question": "Quel film met en scène Forrest Gump ?",
+      "image": null,
+      "imagePrompt": "forrest gump bench feather tom hanks scene",
+      "answers": [
+        "Cast Away",
+        "Forrest Gump",
+        "Big",
+        "Philadelphia"
+      ],
+      "correctIndex": 1,
+      "explanation": "Forrest Gump (1994) retrace la vie d’un homme simple traversant l’histoire américaine. Le film est devenu culte pour sa narration, ses effets visuels innovants et sa célèbre réplique sur la vie et les chocolats."
+    },
+    {
+      "id": "film-2",
+      "question": "Quel réalisateur est à l’origine de Pulp Fiction ?",
+      "image": null,
+      "imagePrompt": "pulp fiction dance scene tarantino movie",
+      "answers": [
+        "Martin Scorsese",
+        "Steven Spielberg",
+        "Christopher Nolan",
+        "Quentin Tarantino"
+      ],
+      "correctIndex": 3,
+      "explanation": "Quentin Tarantino réalise Pulp Fiction en 1994. Le film révolutionne la narration avec sa structure non linéaire et ses dialogues marquants."
+    },
+    {
+      "id": "film-3",
+      "question": "Quel film raconte l’histoire de la mafia Corleone ?",
+      "image": null,
+      "imagePrompt": "the godfather marlon brando vito corleone",
+      "answers": [
+        "Le Parrain",
+        "Scarface",
+        "Casino",
+        "Les Affranchis"
+      ],
+      "correctIndex": 0,
+      "explanation": "Le Parrain est considéré comme l’un des plus grands films de tous les temps. Il explore le pouvoir, la famille et la criminalité organisée."
+    },
+    {
+      "id": "film-4",
+      "question": "Quel film met en scène un naufrage célèbre avec Leonardo DiCaprio ?",
+      "image": null,
+      "imagePrompt": "titanic ship sinking jack rose scene",
+      "answers": [
+        "Inception",
+        "The Revenant",
+        "Titanic",
+        "Roméo + Juliette"
+      ],
+      "correctIndex": 2,
+      "explanation": "Titanic (1997) de James Cameron est un immense succès mondial, mêlant romance et catastrophe historique."
+    },
+    {
+      "id": "film-5",
+      "question": "Quel film met en scène un parc de dinosaures ?",
+      "image": null,
+      "imagePrompt": "jurassic park t rex jeep rain scene",
+      "answers": [
+        "King Kong",
+        "Godzilla",
+        "Jurassic Park",
+        "Avatar"
+      ],
+      "correctIndex": 2,
+      "explanation": "Jurassic Park (1993) révolutionne les effets spéciaux et relance l’intérêt pour les dinosaures au cinéma."
+    },
+    {
+      "id": "film-6",
+      "question": "Quel film raconte l’histoire d’un boxeur nommé Rocky ?",
+      "image": null,
+      "imagePrompt": "rocky balboa training stairs philadelphia",
+      "answers": [
+        "Rocky",
+        "Raging Bull",
+        "Million Dollar Baby",
+        "Creed"
+      ],
+      "correctIndex": 0,
+      "explanation": "Rocky (1976) devient un symbole de persévérance et de réussite. Le film a marqué la culture populaire mondiale."
+    },
+    {
+      "id": "film-7",
+      "question": "Quel film de science-fiction met en scène Neo ?",
+      "image": null,
+      "imagePrompt": "matrix neo bullet time scene",
+      "answers": [
+        "Inception",
+        "Blade Runner",
+        "Interstellar",
+        "Matrix"
+      ],
+      "correctIndex": 3,
+      "explanation": "Matrix (1999) a profondément influencé la science-fiction avec ses concepts philosophiques et ses effets visuels innovants."
+    },
+    {
+      "id": "film-8",
+      "question": "Quel film se déroule dans une prison avec Andy Dufresne ?",
+      "image": null,
+      "imagePrompt": "shawshank redemption prison rain freedom scene",
+      "answers": [
+        "Le Parrain",
+        "Les Évadés",
+        "Prison Break",
+        "Heat"
+      ],
+      "correctIndex": 1,
+      "explanation": "Les Évadés est considéré comme un chef-d’œuvre sur l’espoir et la liberté, avec une narration marquante."
+    },
+    {
+      "id": "film-9",
+      "question": "Quel film met en scène un requin géant terrorisant une plage ?",
+      "image": null,
+      "imagePrompt": "jaws shark attack beach suspense",
+      "answers": [
+        "Les Dents de la mer",
+        "Titanic",
+        "King Kong",
+        "Alien"
+      ],
+      "correctIndex": 0,
+      "explanation": "Les Dents de la mer (1975) de Spielberg est souvent considéré comme le premier blockbuster moderne."
+    },
+    {
+      "id": "film-10",
+      "question": "Quel film met en scène un voyage dans les rêves ?",
+      "image": null,
+      "imagePrompt": "inception dream folding city scene",
+      "answers": [
+        "Matrix",
+        "Avatar",
+        "Inception",
+        "Tenet"
+      ],
+      "correctIndex": 2,
+      "explanation": "Inception (2010) joue avec les niveaux de réalité et propose une narration complexe devenue culte."
+    },
+    {
+      "id": "film-11",
+      "question": "Quel acteur joue Iron Man dans l’univers Marvel ?",
+      "image": null,
+      "imagePrompt": "iron man robert downey jr suit marvel",
+      "answers": [
+        "Chris Evans",
+        "Robert Downey Jr.",
+        "Chris Hemsworth",
+        "Mark Ruffalo"
+      ],
+      "correctIndex": 1,
+      "explanation": "Robert Downey Jr. incarne Iron Man et relance l’univers Marvel au cinéma."
+    },
+    {
+      "id": "film-12",
+      "question": "Quel film met en scène un extraterrestre ami d’un enfant ?",
+      "image": null,
+      "imagePrompt": "et movie bicycle moon scene",
+      "answers": [
+        "Alien",
+        "Avatar",
+        "Star Wars",
+        "E.T."
+      ],
+      "correctIndex": 3,
+      "explanation": "E.T. est un classique de Spielberg qui touche par son émotion et son message universel."
+    },
+    {
+      "id": "film-13",
+      "question": "Quel film raconte la création de Facebook ?",
+      "image": null,
+      "imagePrompt": "social network movie mark zuckerberg scene",
+      "answers": [
+        "Steve Jobs",
+        "The Founder",
+        "The Social Network",
+        "Jobs"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Social Network explore la création de Facebook et les tensions derrière son succès."
+    },
+    {
+      "id": "film-14",
+      "question": "Quel film met en scène un clown terrifiant nommé Pennywise ?",
+      "image": null,
+      "imagePrompt": "it movie pennywise clown horror",
+      "answers": [
+        "Annabelle",
+        "Ça (It)",
+        "The Conjuring",
+        "Scream"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ça est adapté de Stephen King et est devenu un classique de l’horreur moderne."
+    },
+    {
+      "id": "film-15",
+      "question": "Quel film met en scène un braquage de casino à Las Vegas ?",
+      "image": null,
+      "imagePrompt": "oceans eleven casino heist las vegas",
+      "answers": [
+        "Heat",
+        "Casino",
+        "Now You See Me",
+        "Ocean's Eleven"
+      ],
+      "correctIndex": 3,
+      "explanation": "Ocean’s Eleven est un film culte de braquage avec un casting prestigieux."
+    },
+    {
+      "id": "film-16",
+      "question": "Quel film met en scène un robot nommé Terminator ?",
+      "image": null,
+      "imagePrompt": "terminator arnold schwarzenegger red eye robot",
+      "answers": [
+        "Terminator",
+        "Robocop",
+        "Matrix",
+        "Blade Runner"
+      ],
+      "correctIndex": 0,
+      "explanation": "Terminator est une référence majeure de la science-fiction et du cinéma d’action."
+    },
+    {
+      "id": "film-17",
+      "question": "Quel film met en scène un clown tueur dans un ballon rouge ?",
+      "image": null,
+      "imagePrompt": "it movie balloon sewer horror",
+      "answers": [
+        "Ça",
+        "Annabelle",
+        "Halloween",
+        "Saw"
+      ],
+      "correctIndex": 1,
+      "explanation": "Le ballon rouge est devenu un symbole iconique du film Ça."
+    },
+    {
+      "id": "film-18",
+      "question": "Quel film raconte l’histoire d’un homme coincé sur Mars ?",
+      "image": null,
+      "imagePrompt": "the martian matt damon mars survival",
+      "answers": [
+        "Interstellar",
+        "Gravity",
+        "Alien",
+        "Seul sur Mars"
+      ],
+      "correctIndex": 3,
+      "explanation": "Seul sur Mars met en avant la science et la survie dans un environnement hostile."
+    },
+    {
+      "id": "film-19",
+      "question": "Quel film met en scène un parc futuriste avec des robots ?",
+      "image": null,
+      "imagePrompt": "westworld robots park futuristic desert",
+      "answers": [
+        "Westworld",
+        "Blade Runner",
+        "Ex Machina",
+        "AI Intelligence"
+      ],
+      "correctIndex": 0,
+      "explanation": "Westworld explore les limites entre humains et machines dans un parc futuriste."
+    },
+    {
+      "id": "film-20",
+      "question": "Quel film met en scène Batman dans une trilogie de Nolan ?",
+      "image": null,
+      "imagePrompt": "dark knight batman joker scene nolan",
+      "answers": [
+        "Batman Forever",
+        "Batman Returns",
+        "The Dark Knight",
+        "Justice League"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Dark Knight est souvent considéré comme le meilleur film de super-héros jamais réalisé."
+    }
+  ]
+}
