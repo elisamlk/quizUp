@@ -2,11 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 
-import {
-  getAllGames,
-  getGameBySlug,
-  getGameTypes,
-} from "@/lib/games";
+import { getAllGames, getGameBySlug, getGameTypes } from "@/lib/games";
 
 import { GameDisplay } from "@/components/GameDisplay";
 
@@ -46,7 +42,7 @@ export async function generateMetadata({
     };
   }
 
-  const title = `${game.title} | Jeu gratuit`;
+  const title = `${game.title} | Jeu gratuit en ligne | QuizUp`;
 
   const description =
     game.descriptionSeo ??
@@ -64,13 +60,13 @@ export async function generateMetadata({
     openGraph: {
       title,
       description,
-      url: `/jeux/${game.slug}`,
+      url: `https://quizup.fr/jeux/${game.slug}`,
       type: "website",
 
       images: game.images?.cover
         ? [
             {
-              url: game.images.cover,
+              url: `https://quizup.fr${game.images.cover}`,
               alt: game.images.alt ?? game.title,
             },
           ]
@@ -96,26 +92,15 @@ export default async function GamePage({
 
   // Jeux similaires
   const sameTypeGames = allGames
-    .filter(
-      (g) =>
-        g.slug !== game.slug &&
-        g.type === game.type,
-    )
+    .filter((g) => g.slug !== game.slug && g.type === game.type)
     .slice(0, 8);
 
   // Jeux populaires
   const popularGames = allGames
-    .filter(
-      (g) =>
-        g.slug !== game.slug &&
-        g.isPopular,
-    )
+    .filter((g) => g.slug !== game.slug && g.isPopular)
     .slice(0, 8);
 
-  const relatedGames =
-    sameTypeGames.length > 0
-      ? sameTypeGames
-      : popularGames;
+  const relatedGames = sameTypeGames.length > 0 ? sameTypeGames : popularGames;
 
   // Next game
   const nextGame = relatedGames[0]
@@ -144,49 +129,29 @@ export default async function GamePage({
           />
         ) : null}
 
-        <div
-          className="quizHeroOverlay"
-          aria-hidden="true"
-        />
+        <div className="quizHeroOverlay" aria-hidden="true" />
 
         <div className="quizHeroContent">
-          <h1 className="quizTitle">
-            {game.title}
-          </h1>
+          <h1 className="quizTitle">{game.title}</h1>
 
           <div className="quizMetaRow">
-            <Link
-              className="quizMetaChip"
-              href="/jeux"
-            >
+            <Link className="quizMetaChip" href="/jeux">
               Jeux
             </Link>
 
-            <span className="quizMetaChip">
-              {game.category.name}
-            </span>
+            <span className="quizMetaChip">{game.category.name}</span>
 
-            <span className="quizMetaChip">
-              Jeu gratuit
-            </span>
+            <span className="quizMetaChip">Jeu gratuit</span>
           </div>
 
-          <p className="quizIntro">
-            {seoIntro}
-          </p>
+          <p className="quizIntro">{seoIntro}</p>
 
           <div className="quizCtas">
-            <a
-              className="quizStartBtn"
-              href="#jouer"
-            >
+            <a className="quizStartBtn" href="#jouer">
               Commencer le jeu
             </a>
 
-            <Link
-              className="quizAltBtn"
-              href="/jeux"
-            >
+            <Link className="quizAltBtn" href="/jeux">
               Voir tous les jeux
             </Link>
           </div>
@@ -195,124 +160,66 @@ export default async function GamePage({
 
       <div className="quizPageLayout">
         {/* Breadcrumbs */}
-        <nav
-          className="breadcrumbs"
-          aria-label="Fil d’Ariane"
-        >
+        <nav className="breadcrumbs" aria-label="Fil d’Ariane">
           <Link href="/">Accueil</Link>
 
-          <span aria-hidden="true">
-            ›
-          </span>
+          <span aria-hidden="true">›</span>
 
-          <Link href="/jeux">
-            Jeux
-          </Link>
+          <Link href="/jeux">Jeux</Link>
 
-          <span aria-hidden="true">
-            ›
-          </span>
+          <span aria-hidden="true">›</span>
 
-          <span className="crumbCurrent">
-            {game.title}
-          </span>
+          <span className="crumbCurrent">{game.title}</span>
         </nav>
 
         {/* GAME */}
-        <section
-          id="jouer"
-          className="quizPlay"
-        >
-          <GameDisplay
-            gameTypes={gameTypes}
-          >
+        <section id="jouer" className="quizPlay">
+          <GameDisplay gameTypes={gameTypes}>
             {game.type === "emoji-quiz" ? (
-              <EmojiQuizPlayer
-                game={game}
-              />
+              <EmojiQuizPlayer game={game} />
             ) : null}
 
-            {game.type === "pendu" ? (
-              <PenduPlayer game={game} />
+            {game.type === "pendu" ? <PenduPlayer game={game} /> : null}
+
+            {game.type === "wordle" ? <MotMysterePlayer game={game} /> : null}
+
+            {game.type === "association" ? (
+              <AssociationPlayer game={game} />
             ) : null}
 
-            {game.type === "wordle" ? (
-              <MotMysterePlayer
-                game={game}
-              />
-            ) : null}
-
-            {game.type ===
-            "association" ? (
-              <AssociationPlayer
-                game={game}
-              />
-            ) : null}
-
-            {game.type ===
-            "chrono-quiz" ? (
-              <ChronoQuizPlayer
-                game={game}
-                nextGame={nextGame}
-              />
+            {game.type === "chrono-quiz" ? (
+              <ChronoQuizPlayer game={game} nextGame={nextGame} />
             ) : null}
 
             {game.type === "memory" ? (
-              <MemoryPlayer
-                game={game}
-                nextGame={nextGame}
-              />
+              <MemoryPlayer game={game} nextGame={nextGame} />
             ) : null}
 
-            {game.type ===
-            "qui-suis-je" ? (
-              <QuiSuisJePlayer
-                game={game}
-                nextGame={nextGame}
-              />
+            {game.type === "qui-suis-je" ? (
+              <QuiSuisJePlayer game={game} nextGame={nextGame} />
             ) : null}
 
-            {game.type ===
-            "plus-ou-moins" ? (
-              <PlusOuMoinsPlayer
-                game={game}
-                nextGame={nextGame}
-              />
+            {game.type === "plus-ou-moins" ? (
+              <PlusOuMoinsPlayer game={game} nextGame={nextGame} />
             ) : null}
 
-            {game.type ===
-            "image-mystere" ? (
-              <ImageMysterePlayer
-                game={game}
-                nextGame={nextGame}
-              />
+            {game.type === "image-mystere" ? (
+              <ImageMysterePlayer game={game} nextGame={nextGame} />
             ) : null}
 
-            {game.type ===
-            "classement" ? (
-              <ClassementPlayer
-                game={game}
-                nextGame={nextGame}
-              />
+            {game.type === "classement" ? (
+              <ClassementPlayer game={game} nextGame={nextGame} />
             ) : null}
 
-            {game.type ===
-            "drapeaux" ? (
+            {game.type === "drapeaux" ? (
               <div className="quizPanel">
-                <p>
-                  Jeu des drapeaux bientôt
-                  connecté ici.
-                </p>
+                <p>Jeu des drapeaux bientôt connecté ici.</p>
               </div>
             ) : null}
 
-            {game.type ===
-            "mots-croises" ? (
+            {game.type === "mots-croises" ? (
               <div className="quizPanel">
-                <p>
-                  Mots croisés bientôt
-                  connecté ici.
-                </p>
+                <p>Mots croisés bientôt connecté ici.</p>
               </div>
             ) : null}
           </GameDisplay>
@@ -320,42 +227,26 @@ export default async function GamePage({
 
         {/* SEO */}
         <section className="quizSeoText">
-          <h2 className="sectionTitle">
-            Pourquoi jouer à ce mini-jeu ?
-          </h2>
+          <h2 className="sectionTitle">Pourquoi jouer à ce mini-jeu ?</h2>
 
           <ul className="seoList">
-            <li>
-              Jeu gratuit et rapide à
-              lancer
-            </li>
+            <li>Jeu gratuit et rapide à lancer</li>
 
-            <li>
-              Parfait pour tester tes
-              réflexes et tes
-              connaissances
-            </li>
+            <li>Parfait pour tester tes réflexes et tes connaissances</li>
 
-            <li>
-              Format court, idéal sur
-              mobile comme sur ordinateur
-            </li>
+            <li>Format court, idéal sur mobile comme sur ordinateur</li>
           </ul>
 
           <p className="seoP">
-            Astuce : rejoue plusieurs
-            fois pour améliorer ton score
-            et découvrir d’autres
-            mini-jeux du même style.
+            Astuce : rejoue plusieurs fois pour améliorer ton score et découvrir
+            d’autres mini-jeux du même style.
           </p>
         </section>
 
         {/* POPULAIRES */}
         {popularGames.length > 0 ? (
           <section className="relatedPopular">
-            <h2 className="sectionTitle">
-              Les jeux populaires
-            </h2>
+            <h2 className="sectionTitle">Les jeux populaires</h2>
 
             <div className="quizList">
               {popularGames.map((g) => {
@@ -366,8 +257,8 @@ export default async function GamePage({
 
                 return (
                   <Link
-                    key={g.type}
-                    href={`/jeux/${g.type}`}
+                    key={g.slug}
+                    href={`/jeux/${g.slug}`}
                     className="quizRow"
                   >
                     <div
@@ -380,23 +271,15 @@ export default async function GamePage({
 
                     <div className="quizRowContent">
                       <div className="quizRowTop">
-                        <span className="quizRowCategory">
-                          {g.type}
-                        </span>
+                        <span className="quizRowCategory">{g.type}</span>
 
-                        <span className="quizRowMeta">
-                          Jeu gratuit
-                        </span>
+                        <span className="quizRowMeta">Jeu gratuit</span>
                       </div>
 
-                      <h3 className="quizRowTitle">
-                        {g.title}
-                      </h3>
+                      <h3 className="quizRowTitle">{g.title}</h3>
 
                       {g.description ? (
-                        <p className="quizRowDesc">
-                          {g.description}
-                        </p>
+                        <p className="quizRowDesc">{g.description}</p>
                       ) : null}
                     </div>
                   </Link>
@@ -405,9 +288,7 @@ export default async function GamePage({
             </div>
 
             <p className="relatedMore">
-              <Link href="/jeux">
-                Voir tous les jeux →
-              </Link>
+              <Link href="/jeux">Voir tous les jeux →</Link>
             </p>
           </section>
         ) : null}
