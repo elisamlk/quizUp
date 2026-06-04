@@ -5,11 +5,34 @@ import {
   formatGameType,
   type Game,
 } from "@/lib/games";
+import type { Metadata } from "next";
 
-export const metadata = {
-  title: "Jeux gratuits | Mini-jeux, quiz emoji, pendu et défis",
+
+export const metadata: Metadata = {
+  title: "Jeux gratuits en ligne | Mini-jeux, quiz emoji, pendu et défis | QuizUp",
   description:
-    "Découvre nos jeux gratuits : Emoji Quiz, Pendu, Mot mystère, Drapeaux, Plus ou moins et autres mini-jeux rapides à jouer en ligne.",
+    "Joue gratuitement à des mini-jeux en ligne sur QuizUp : Emoji Quiz, Pendu, Mot mystère, Image mystère, Plus ou moins, jeux de mémoire, logique et culture générale.",
+
+  alternates: {
+    canonical: "/jeux",
+  },
+
+  openGraph: {
+    title: "Jeux gratuits en ligne | QuizUp",
+    description:
+      "Découvre des mini-jeux gratuits, rapides et amusants : quiz emoji, pendu, mot mystère, jeux de mémoire, logique et culture générale.",
+    url: "https://quizup.fr/jeux",
+    siteName: "QuizUp",
+    type: "website",
+    locale: "fr_FR",
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Jeux gratuits en ligne | QuizUp",
+    description:
+      "Joue à des mini-jeux gratuits en ligne : quiz emoji, pendu, mot mystère, défis de logique et jeux de culture générale.",
+  },
 };
 
 function shuffleArray<T>(items: T[]): T[] {
