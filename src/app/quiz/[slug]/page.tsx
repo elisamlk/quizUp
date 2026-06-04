@@ -4,7 +4,7 @@ import type { Metadata } from "next";
 import { getAllQuizzes, getQuizBySlug } from "@/lib/quizzes";
 import { QuizDisplay } from "@/components/QuizDisplay";
 import { QuizPlayer } from "@/components/QuizPlayer";
-import { AdSlot } from "@/components/AdSlot";
+// import { AdSlot } from "@/components/AdSlot";
 
 const SITE_URL = "https://quizup.fr";
 const siteUrl = (path: string) => `${SITE_URL}${path}`;
@@ -28,10 +28,10 @@ export async function generateMetadata({
     };
   }
 
-  const title = `${quiz.title} | Quiz gratuit`;
+  const title = `${quiz.title} | Quiz gratuit en ligne | QuizUp`;
   const description =
     quiz.description ??
-    `Fais ce quiz ${quiz.category.name} en ${quiz.questions.length} questions. Résultat immédiat et explications.`;
+      `Fais ce quiz ${quiz.category.name} gratuit en ligne en ${quiz.questions.length} questions. Découvre ton score immédiatement et progresse grâce aux explications.`;
 
   return {
     title,
@@ -40,11 +40,11 @@ export async function generateMetadata({
     openGraph: {
       title,
       description,
-      url: `/quiz/${quiz.slug}`,
+      url: siteUrl(`/quiz/${quiz.slug}`),
       type: "website",
-      images: quiz.images?.cover
-        ? [{ url: quiz.images.cover, alt: quiz.images.alt ?? quiz.title }]
-        : undefined,
+   images: quiz.images?.cover
+  ? [{ url: siteUrl(quiz.images.cover), alt: quiz.images.alt ?? quiz.title }]
+  : undefined,
     },
   };
 }
