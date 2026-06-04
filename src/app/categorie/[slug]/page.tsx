@@ -79,9 +79,10 @@ export async function generateMetadata({
   const totalPages = Math.max(1, Math.ceil(quizzesCount / PAGE_SIZE));
   const p = toInt(sp.p, 1);
   const pageTooHigh = p > totalPages;
+  const safePage = pageTooHigh ? totalPages : p;
 
   const titleBase =
-    category.seoTitle ?? `Quiz ${category.name} | Mon site de quiz`;
+    category.seoTitle ?? `Quiz ${category.name} gratuits en ligne | QuizUp`;
 
   const title = p > 1 ? `${titleBase} – Page ${p}` : titleBase;
 
@@ -89,7 +90,7 @@ export async function generateMetadata({
     category.seoDescription ??
     `Découvre tous nos quiz de ${category.name} en 20 questions.`;
 
-  const canonical = buildCategoryUrl(slug, p);
+  const canonical = buildCategoryUrl(slug, safePage);
 
   return {
     title,
@@ -103,7 +104,9 @@ export async function generateMetadata({
       description,
       url: canonical,
       type: "website",
-      images: category.image ? [{ url: category.image }] : undefined,
+      images: category.image
+        ? [{ url: `${SITE_URL}${category.image}` }]
+        : undefined,
     },
   };
 }
@@ -217,7 +220,7 @@ export default async function CategoryPage({
           }}
         />
       ) : null}
-{/* 
+      {/* 
       <header className="categorySeoHero">
         <div
           className="categorySeoHeroImg"
@@ -239,32 +242,28 @@ export default async function CategoryPage({
       </header> */}
 
       <section
-  className="heroLandingSection"
-  style={{
-    backgroundImage: `
+        className="heroLandingSection"
+        style={{
+          backgroundImage: `
       linear-gradient(
         rgba(0,0,0,.45),
         rgba(0,0,0,.55)
       ),
       url("${heroImage}")
     `,
-  }}
->
-  <div className="heroLandingContent">
-    <h1 className="heroLandingTitle">
-      Quiz {category.name}
-    </h1>
+        }}
+      >
+        <div className="heroLandingContent">
+          <h1 className="heroLandingTitle">Quiz {category.name}</h1>
 
-    <p className="heroLandingSub">
-      {category.intro ??
-        `Découvre nos quiz de ${category.name} en 20 questions.`}
-    </p>
+          <p className="heroLandingSub">
+            {category.intro ??
+              `Découvre nos quiz de ${category.name} en 20 questions.`}
+          </p>
 
-    <p className="pageSubtitle">
-      {allQuizzes.length} quiz disponibles
-    </p>
-  </div>
-</section>
+          <p className="pageSubtitle">{allQuizzes.length} quiz disponibles</p>
+        </div>
+      </section>
 
       <div className="categoryPageLayout">
         <nav className="breadcrumbs">
