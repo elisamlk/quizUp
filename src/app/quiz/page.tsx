@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { getAllCategories, getAllQuizzes } from "@/lib/quizzes";
 import type { Metadata } from "next";
-import { AdSlot } from "@/components/AdSlot";
+// import { AdSlot } from "@/components/AdSlot";
 
 function toInt(v: string | undefined, fallback = 1) {
   const n = Number.parseInt(v ?? "", 10);
@@ -190,23 +190,16 @@ export default async function QuizIndexPage({
       {total} quiz • Page {currentPage} / {totalPages}
     </p>
 
-    <div className="heroCtas">
-      <Link
-        className="homeBtnPrimary"
-        href="/quiz"
-      >
-        Voir tous les quiz
-      </Link>
-
-      {categories[0] ? (
-        <Link
-          className="homeBtnSecondary"
-          href={`/categorie/${categories[0].slug}`}
-        >
-          Explorer une catégorie
-        </Link>
-      ) : null}
-    </div>
+<div className="heroCtas">
+  {categories[0] ? (
+    <Link
+      className="homeBtnSecondary"
+      href={`/categorie/${categories[0].slug}`}
+    >
+      Explorer une catégorie
+    </Link>
+  ) : null}
+</div>
   </div>
 </section>
       <div className="quizListSection">
