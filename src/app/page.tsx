@@ -30,8 +30,6 @@ export const metadata: Metadata = {
   },
 };
 
-export const dynamic = "force-dynamic";
-
 const ONE_MONTH_MS = 30 * 24 * 60 * 60 * 1000;
 
 function getComputedIsNew(item: { isNew?: boolean; createdAt?: string }) {
@@ -45,17 +43,30 @@ function getComputedIsNew(item: { isNew?: boolean; createdAt?: string }) {
   return Date.now() - createdAtTime < ONE_MONTH_MS;
 }
 
-function shuffleArray<T>(items: T[]): T[] {
-  return [...items].sort(() => Math.random() - 0.5);
+function sortBySlug<T extends { slug: string }>(items: T[]) {
+  return [...items].sort((a, b) => a.slug.localeCompare(b.slug));
 }
 
-function pickBalancedByCategory<T extends { category: { slug: string } }>(
+function sortByNewest<T extends { createdAt?: string; slug: string }>(
+  items: T[],
+) {
+  return [...items].sort((a, b) => {
+    const dateA = a.createdAt ? new Date(a.createdAt).getTime() : 0;
+    const dateB = b.createdAt ? new Date(b.createdAt).getTime() : 0;
+
+    if (dateA !== dateB) return dateB - dateA;
+
+    return a.slug.localeCompare(b.slug);
+  });
+}
+
+function pickBalancedByCategory<T extends { category: { slug: string }; slug: string }>(
   items: T[],
   limit = 16,
 ): T[] {
   const byCategory = new Map<string, T[]>();
 
-  for (const item of shuffleArray(items)) {
+  for (const item of sortBySlug(items)) {
     const slug = item.category.slug;
 
     if (!byCategory.has(slug)) {
@@ -65,8 +76,7 @@ function pickBalancedByCategory<T extends { category: { slug: string } }>(
     byCategory.get(slug)!.push(item);
   }
 
-  const categorySlugs = shuffleArray(Array.from(byCategory.keys()));
-
+  const categorySlugs = Array.from(byCategory.keys()).sort();
   const result: T[] = [];
 
   let index = 0;
@@ -93,46 +103,67 @@ function pickBalancedByCategory<T extends { category: { slug: string } }>(
   return result;
 }
 
+function removeAlreadyUsed<T extends { slug: string }>(
+  items: T[],
+  usedSlugs: Set<string>,
+) {
+  return items.filter((item) => !usedSlugs.has(item.slug));
+}
+
 export default function HomePage() {
   const quizzes = getAllQuizzes();
   const categories = getAllCategories();
   const personalityTests = getAllPersonalityTests();
   const gameTypes = getGameTypes();
 
-  const homeCategories = shuffleArray(categories);
+  const homeCategories = sortBySlug(categories);
 
-  // NOUVEAUX QUIZ
-  const newQuizzesRaw = quizzes.filter((q) => getComputedIsNew(q));
+  const usedQuizSlugs = new Set<string>();
+
+  const newQuizzesRaw = sortByNewest(
+    quizzes.filter((q) => getComputedIsNew(q)),
+  );
 
   const newQuizzes = pickBalancedByCategory(
-    newQuizzesRaw.length ? newQuizzesRaw : quizzes,
+    newQuizzesRaw.length ? newQuizzesRaw : sortByNewest(quizzes),
     16,
   );
 
-  // QUIZ POPULAIRES
-  const popularQuizzesRaw = quizzes.filter((q) => q.isPopular);
+  newQuizzes.forEach((q) => usedQuizSlugs.add(q.slug));
+
+  const popularQuizzesRaw = sortBySlug(
+    quizzes.filter((q) => q.isPopular),
+  );
 
   const popularQuizzes = pickBalancedByCategory(
-    popularQuizzesRaw.length ? popularQuizzesRaw : quizzes,
+    removeAlreadyUsed(
+      popularQuizzesRaw.length ? popularQuizzesRaw : quizzes,
+      usedQuizSlugs,
+    ),
     16,
   );
 
-  // À LA UNE = CULTURE GÉNÉRALE
+  popularQuizzes.forEach((q) => usedQuizSlugs.add(q.slug));
+
   const featuredCategory =
     categories.find((c) => c.slug === "culture-generale") ?? categories[0];
 
   const featuredQuizzes = featuredCategory
-    ? shuffleArray(
-        quizzes.filter((q) => q.category.slug === featuredCategory.slug),
+    ? sortBySlug(
+        removeAlreadyUsed(
+          quizzes.filter((q) => q.category.slug === featuredCategory.slug),
+          usedQuizSlugs,
+        ),
       ).slice(0, 16)
     : [];
 
-  // TESTS DE PERSONNALITÉ
-  const personalityTestsHome = pickBalancedByCategory(personalityTests, 16);
+  const personalityTestsHome = pickBalancedByCategory(
+    sortByNewest(personalityTests),
+    16,
+  );
 
   return (
     <main className="home">
-      {/* HERO SEO */}
       <section className="heroLandingSection">
         <div className="heroLandingContent">
           <h1 className="heroLandingTitle">
@@ -163,7 +194,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* NOUVEAUX QUIZ */}
       <section className="homeSection homePart">
         <div className="sectionHead">
           <h2 className="sectionTitle">Nouveaux quiz</h2>
@@ -186,14 +216,12 @@ export default function HomePage() {
                   }}
                   aria-label={`Lancer le quiz ${q.title}`}
                 >
-                  {getComputedIsNew(q) && (
+                  {getComputedIsNew(q) ? (
                     <span className="quizBadge">Nouveau</span>
-                  )}
+                  ) : null}
 
                   <span className="quizCategory">{q.category.name}</span>
-
                   <span className="quizCardOverlay" />
-
                   <span className="quizCardTitle">{q.title}</span>
                 </Link>
               ))}
@@ -204,13 +232,12 @@ export default function HomePage() {
         )}
       </section>
 
-      {/* QUIZ POPULAIRES */}
       <section className="homeSection homePart">
         <div className="sectionHead">
           <h2 className="sectionTitle">Quiz populaires</h2>
 
-          <Link className="sectionLink" href="/quiz?sort=popular">
-            Top
+          <Link className="sectionLink" href="/quiz">
+            Voir la liste
           </Link>
         </div>
 
@@ -228,9 +255,7 @@ export default function HomePage() {
                   aria-label={`Lancer le quiz ${q.title}`}
                 >
                   <span className="quizCategory">{q.category.name}</span>
-
                   <span className="quizCardOverlay" />
-
                   <span className="quizCardTitle">{q.title}</span>
                 </Link>
               ))}
@@ -244,7 +269,6 @@ export default function HomePage() {
         )}
       </section>
 
-      {/* CATÉGORIES */}
       <section className="homeSection homePart">
         <div className="sectionHead">
           <h2 className="sectionTitle">Catégories</h2>
@@ -267,7 +291,6 @@ export default function HomePage() {
                 aria-label={`Voir la catégorie ${cat.name}`}
               >
                 <span className="catCardOverlay" />
-
                 <span className="catCardName">{cat.name}</span>
               </Link>
             ))}
@@ -275,7 +298,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* À LA UNE */}
       {featuredCategory && featuredQuizzes.length > 0 ? (
         <section className="homeSection homePart">
           <div className="sectionHead">
@@ -302,9 +324,7 @@ export default function HomePage() {
                   aria-label={`Lancer le quiz ${q.title}`}
                 >
                   <span className="quizCategory">{q.category.name}</span>
-
                   <span className="quizCardOverlay" />
-
                   <span className="quizCardTitle">{q.title}</span>
                 </Link>
               ))}
@@ -313,7 +333,6 @@ export default function HomePage() {
         </section>
       ) : null}
 
-      {/* TEXTE SEO */}
       <section className="homeSection homePart homeSeo">
         <h2 className="homeSeoTitle">Des quiz rapides, fun et éducatifs</h2>
 
@@ -327,7 +346,6 @@ export default function HomePage() {
         </p>
       </section>
 
-      {/* TESTS DE PERSONNALITÉ */}
       <section className="homeSection homePart">
         <div className="sectionHead">
           <h2 className="sectionTitle">Tests de personnalité</h2>
@@ -352,14 +370,12 @@ export default function HomePage() {
                   }}
                   aria-label={`Faire le test ${test.title}`}
                 >
-                  {getComputedIsNew(test) && (
+                  {getComputedIsNew(test) ? (
                     <span className="quizBadge">Nouveau</span>
-                  )}
+                  ) : null}
 
                   <span className="quizCategory">{test.category.name}</span>
-
                   <span className="quizCardOverlay" />
-
                   <span className="quizCardTitle">{test.title}</span>
                 </Link>
               ))}
@@ -372,12 +388,10 @@ export default function HomePage() {
         )}
       </section>
 
-      {/* PUB HOME */}
       <section className="homeSection homePart" aria-label="Publicité">
         {/* <AdSlot slot="4444444444" /> */}
       </section>
 
-      {/* TOUS NOS JEUX */}
       <section className="homeSection homePart">
         <div className="sectionHead">
           <h2 className="sectionTitle">Tous nos jeux</h2>
@@ -401,7 +415,6 @@ export default function HomePage() {
                   aria-label={`Voir le jeu ${game.title}`}
                 >
                   <span className="catCardOverlay" />
-
                   <span className="catCardName">{game.title}</span>
                 </Link>
               ))}
