@@ -16,7 +16,7 @@ export default function PolitiqueConfidentialitePage() {
 
       <p>
         La présente politique de confidentialité explique comment le site{" "}
-        <strong>[Nom du site]</strong> traite certaines données dans le cadre de
+        <strong>QuizUp</strong> traite certaines données dans le cadre de
         la navigation sur le site.
       </p>
 
@@ -25,9 +25,9 @@ export default function PolitiqueConfidentialitePage() {
       <p>
         Le responsable du traitement des données est :
         <br />
-        <strong>[Nom ou société]</strong>
-        <br />
-        Adresse : [Adresse]
+        <strong>E. Malek</strong>
+        {/* <br />
+        Adresse : [Adresse] */}
         <br />
         Email : <a href="mailto:contact@quizup.fr">contact@quizup.fr</a>
       </p>
@@ -149,7 +149,7 @@ export default function PolitiqueConfidentialitePage() {
       <p>
         Pour exercer vos droits :
         <br />
-        <a href="mailto:contact@quizup.fr">email@tonsite.fr</a>
+        <a href="mailto:contact@quizup.fr">contact@quizup.fr</a>
       </p>
 
       <h2>11. Cookies</h2>
