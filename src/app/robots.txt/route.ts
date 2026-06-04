@@ -3,9 +3,13 @@ export function GET() {
 Allow: /
 
 Sitemap: https://quizup.fr/sitemap.xml
+
+Host: https://quizup.fr
 `;
 
   return new Response(content, {
-    headers: { "Content-Type": "text/plain" },
+    headers: {
+      "Content-Type": "text/plain; charset=utf-8",
+    },
   });
 }
