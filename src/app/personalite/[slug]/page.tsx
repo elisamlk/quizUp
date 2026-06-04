@@ -31,10 +31,10 @@ export async function generateMetadata({
     };
   }
 
-  const title = `${test.title} | Test de personnalité`;
+  const title = `${test.title} | Test de personnalité gratuit | QuizUp`;
   const description =
     test.description ??
-    `Fais ce test de personnalité ${test.category.name} et découvre ton profil.`;
+      `Fais ce test de personnalité ${test.category.name} gratuit en ligne et découvre ton profil dominant grâce à un résultat immédiat.`;
 
   return {
     title,
@@ -43,11 +43,11 @@ export async function generateMetadata({
     openGraph: {
       title,
       description,
-      url: `/personalite/${test.slug}`,
+      url: siteUrl(`/personalite/${test.slug}`),
       type: "website",
-      images: test.images?.cover
-        ? [{ url: test.images.cover, alt: test.images.alt ?? test.title }]
-        : undefined,
+  images: test.images?.cover
+  ? [{ url: siteUrl(test.images.cover), alt: test.images.alt ?? test.title }]
+  : undefined,
     },
   };
 }
@@ -92,7 +92,7 @@ export default async function PersonalityPage({
         "@type": "ListItem",
         position: 3,
         name: test.category.name,
-        item: siteUrl(`/categorie-test/${test.category.slug}`),
+        item: siteUrl(`/personalite/categorie/${test.category.slug}`),
       },
       {
         "@type": "ListItem",
@@ -110,7 +110,7 @@ export default async function PersonalityPage({
     description: test.description,
     url: siteUrl(`/personalite/${test.slug}`),
     about: test.category.name,
-    image: test.images?.cover ? [test.images.cover] : undefined,
+    image: test.images?.cover ? [siteUrl(test.images.cover)] : undefined,
   };
 
   const seoIntro =
@@ -146,7 +146,7 @@ export default async function PersonalityPage({
           <div className="quizMetaRow">
             <Link
               className="quizMetaChip"
-              href={`/categorie-test/${test.category.slug}`}
+              href={`/personalite/categorie/${test.category.slug}`}
             >
               {test.category.name}
             </Link>
@@ -164,7 +164,7 @@ export default async function PersonalityPage({
             </a>
             <Link
               className="quizAltBtn"
-              href={`/categorie-test/${test.category.slug}`}
+              href={`/personalite/categorie/${test.category.slug}`}
             >
               Voir la catégorie
             </Link>
@@ -178,7 +178,7 @@ export default async function PersonalityPage({
           <span aria-hidden="true">›</span>
           <Link href="/personalite">Tests</Link>
           <span aria-hidden="true">›</span>
-          <Link href={`/categorie-test/${test.category.slug}`}>
+          <Link href={`/personalite/categorie/${test.category.slug}`}>
             {test.category.name}
           </Link>
           <span aria-hidden="true">›</span>

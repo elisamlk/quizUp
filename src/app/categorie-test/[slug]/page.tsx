@@ -69,12 +69,13 @@ export async function generateMetadata({
   const p = toInt(sp.p, 1);
   const pageTooHigh = p > totalPages;
 
-  const titleBase = `Tests de personnalité ${category.name}`;
+ const titleBase = `Tests de personnalité ${category.name} gratuits | QuizUp`;
   const title = p > 1 ? `${titleBase} – Page ${p}` : titleBase;
 
   const description = `Découvre tous nos tests de personnalité sur ${category.name}.`;
 
-  const canonical = buildCategoryUrl(slug, p);
+const safePage = pageTooHigh ? totalPages : p;
+const canonical = buildCategoryUrl(slug, safePage);
 
   return {
     title,
@@ -86,7 +87,9 @@ export async function generateMetadata({
     openGraph: {
       title,
       description,
-      url: canonical,
+    url: url(canonical),
+siteName: "QuizUp",
+locale: "fr_FR",
       type: "website",
     },
   };
