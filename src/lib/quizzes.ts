@@ -7,6 +7,7 @@ export type Quiz = {
   slug: string;
   title: string;
   description?: string;
+  publishedAt?: string;
   category: { name: string; slug: string };
   isNew?: boolean;
   isPopular?: boolean;
@@ -41,17 +42,21 @@ let _cache: Quiz[] | null = null;
 
 function walkJsonFiles(dir: string): string[] {
   if (!fs.existsSync(dir)) return [];
+
   const entries = fs.readdirSync(dir, { withFileTypes: true });
 
   const files: string[] = [];
+
   for (const e of entries) {
     const full = path.join(dir, e.name);
+
     if (e.isDirectory()) {
       files.push(...walkJsonFiles(full));
     } else if (e.isFile() && e.name.endsWith(".json")) {
       files.push(full);
     }
   }
+
   return files;
 }
 
@@ -69,26 +74,50 @@ function loadAllQuizzes(): Quiz[] {
     return data;
   });
 
-  // Vérifie unicité des slugs
   const seen = new Set<string>();
+
   for (const q of quizzes) {
     if (seen.has(q.slug)) {
       throw new Error(`Slug dupliqué détecté : ${q.slug}`);
     }
+
     seen.add(q.slug);
   }
 
   return quizzes;
 }
 
-export function getAllQuizzes(): Quiz[] {
+export function isQuizPublished(quiz: Quiz): boolean {
+  if (!quiz.publishedAt) return true;
+
+  const publishedTime = new Date(`${quiz.publishedAt}T00:00:00+02:00`).getTime();
+
+  if (Number.isNaN(publishedTime)) return false;
+
+  return publishedTime <= Date.now();
+}
+
+export function getAllQuizzesIncludingScheduled(): Quiz[] {
   if (_cache) return _cache;
+
   _cache = loadAllQuizzes();
+
   return _cache;
 }
 
+export function getAllQuizzes(): Quiz[] {
+  return getAllQuizzesIncludingScheduled().filter(isQuizPublished);
+}
+
 export function getQuizBySlug(slug: string): Quiz | null {
-  return getAllQuizzes().find((q) => q.slug === slug) ?? null;
+  const quiz =
+    getAllQuizzesIncludingScheduled().find((q) => q.slug === slug) ?? null;
+
+  if (!quiz) return null;
+
+  if (!isQuizPublished(quiz)) return null;
+
+  return quiz;
 }
 
 export function getAllCategories(): Category[] {
