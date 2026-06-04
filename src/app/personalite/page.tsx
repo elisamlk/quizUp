@@ -71,7 +71,7 @@ export async function generateMetadata({
     openGraph: {
       title,
       description,
-      url: canonical,
+     url: `https://quizup.fr${canonical}`,
       siteName: "QuizUp",
       type: "website",
       locale: "fr_FR",
@@ -414,9 +414,13 @@ export default async function PersonalityIndexPage({
           <section className="pageSeo">
             <h2 className="pageSeoTitle">Tous nos tests de personnalité</h2>
             <p className="pageSeoText">
-              Explore nos tests de personnalité par catégories : cinéma,
-              culture, styles de vie et plus encore. Chaque test te propose
-              plusieurs questions pour révéler ton profil dominant.
+          <p className="pageSeoText">
+  Explore nos tests de personnalité gratuits par catégories : cinéma, culture,
+  goûts, styles de vie et profils originaux. Chaque test propose plusieurs
+  questions simples pour analyser tes réponses, révéler ton profil dominant et
+  obtenir un résultat immédiat à partager. Choisis un thème, réponds
+  naturellement et découvre quel profil te correspond le mieux.
+</p>
             </p>
           </section>
         ) : null}
