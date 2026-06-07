@@ -177,10 +177,10 @@ export default async function PersonalityPage({
           <Link href="/">Accueil</Link>
           <span aria-hidden="true">›</span>
           <Link href="/personalite">Tests</Link>
-          <span aria-hidden="true">›</span>
-          <Link href={`/personalite/categorie/${test.category.slug}`}>
+          {/* <span aria-hidden="true">›</span> */}
+          {/* <Link href={`/personalite/categorie/${test.category.slug}`}>
             {test.category.name}
-          </Link>
+          </Link> */}
           <span aria-hidden="true">›</span>
           <span className="crumbCurrent">{test.title}</span>
         </nav>
