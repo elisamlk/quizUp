@@ -383,17 +383,17 @@
 
 @media (max-width: 768px) {
   .quizRow {
-    gap: 14px;
+    gap: 8px;
     padding: 12px;
   }
 
   .quizRowImg {
-    flex: 0 0 120px; /* image plus petite sur mobile */
+    flex: 0 0 90px; /* image plus petite sur mobile */
     border-radius: 12px;
   }
 
   .quizRowTitle {
-    font-size: 14px;
+    font-size: 12px;
   }
 
   .quizRowDesc {
