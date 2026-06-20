@@ -5,13 +5,14 @@
 }
 
 .heroLandingSection.quizPageHero {
-  background:  
+  background:
     linear-gradient(
       90deg,
       rgba(10, 16, 36, 0.82) 0%,
       rgba(10, 16, 36, 0.52) 35%,
       rgba(10, 16, 36, 0.12) 100%
-    ), url("/images/hero/hero-quiz-list.jpg");
+    ),
+    url("/images/hero/hero-quiz-list.jpg");
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
@@ -554,5 +555,17 @@
 
   .pageSeoTitle {
     font-size: 1.35rem;
+  }
+}
+
+@media (max-width: 520px) {
+  .quizRow {
+    padding: 6px;
+  }
+  .quizRowCategory {
+    font-size: 11px;
+  }
+  .quizRowMeta {
+    font-size: 11px;
   }
 }
