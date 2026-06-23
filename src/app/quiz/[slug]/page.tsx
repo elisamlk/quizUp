@@ -6,8 +6,18 @@ import { QuizDisplay } from "@/components/QuizDisplay";
 import { QuizPlayer } from "@/components/QuizPlayer";
 // import { AdSlot } from "@/components/AdSlot";
 
+
 const SITE_URL = "https://quizup.fr";
 const siteUrl = (path: string) => `${SITE_URL}${path}`;
+
+function absoluteUrl(url: string) {
+  if (url.startsWith("http://") || url.startsWith("https://")) {
+    return url;
+  }
+
+  return `${SITE_URL}${url}`;
+}
+
 
 export function generateStaticParams() {
   return getAllQuizzes().map((q) => ({ slug: q.slug }));
@@ -28,7 +38,7 @@ export async function generateMetadata({
     };
   }
 
-  const title = `${quiz.title} | Quiz gratuit en ligne | QuizUp`;
+const title = `${quiz.title} | Quiz gratuit en ligne`;
   const description =
     quiz.description ??
       `Fais ce quiz ${quiz.category.name} gratuit en ligne en ${quiz.questions.length} questions. Découvre ton score immédiatement et progresse grâce aux explications.`;
@@ -42,8 +52,11 @@ export async function generateMetadata({
       description,
       url: siteUrl(`/quiz/${quiz.slug}`),
       type: "website",
-   images: quiz.images?.cover
-  ? [{ url: siteUrl(quiz.images.cover), alt: quiz.images.alt ?? quiz.title }]
+images: quiz.images?.cover
+  ? [{
+      url: absoluteUrl(quiz.images.cover),
+      alt: quiz.images.alt ?? quiz.title
+    }]
   : undefined,
     },
   };
@@ -115,7 +128,9 @@ export default async function QuizPage({
     educationalLevel: "beginner",
     learningResourceType: "quiz",
     about: quiz.category.name,
-    image: quiz.images?.cover ? [siteUrl(quiz.images.cover)] : undefined,
+   image: quiz.images?.cover
+  ? [absoluteUrl(quiz.images.cover)]
+  : undefined,
     hasPart: quiz.questions.map((qq) => ({
       "@type": "Question",
       name: qq.question,
