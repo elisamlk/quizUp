@@ -134,6 +134,7 @@ export default async function QuizPage({
     hasPart: quiz.questions.map((qq) => ({
       "@type": "Question",
       name: qq.question,
+      text: qq.question,
       eduQuestionType: "Multiple choice",
       acceptedAnswer: {
         "@type": "Answer",
