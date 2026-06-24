@@ -469,9 +469,9 @@ export function QuizPlayer({
     </div>
   ) : null}
 </div>
-          <div style={{ marginTop: 14, marginBottom: 14 }}>
+          {/* <div style={{ marginTop: 14, marginBottom: 14 }}>
             <AdSlot slot="3333333333" />
-          </div>
+          </div> */}
 
           <div className="resultActions">
             <button className="quizBtnPrimary" onClick={restart}>
