@@ -2,9 +2,9 @@ export function GET() {
   const content = `User-agent: *
 Allow: /
 
-Sitemap: https://quizup.fr/sitemap.xml
+Sitemap: https://www.quizup.fr/sitemap.xml
 
-Host: https://quizup.fr
+Host: https://www.quizup.fr
 `;
 
   return new Response(content, {

@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     title: "QuizUp | Quiz gratuits en ligne",
     description:
       "Teste tes connaissances avec des quiz gratuits en culture générale, histoire, géographie, sciences, sport, cinéma, musique et plus encore.",
-    url: "https://quizup.fr",
+    url: "https://www.quizup.fr",
     siteName: "QuizUp",
     type: "website",
     locale: "fr_FR",

@@ -7,7 +7,7 @@ import { QuizPlayer } from "@/components/QuizPlayer";
 // import { AdSlot } from "@/components/AdSlot";
 
 
-const SITE_URL = "https://quizup.fr";
+const SITE_URL = "https://www.quizup.fr";
 const siteUrl = (path: string) => `${SITE_URL}${path}`;
 
 function absoluteUrl(url: string) {

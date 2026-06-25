@@ -3,7 +3,7 @@ import { getAllGames } from "@/lib/games";
 import { getAllPersonalityTests } from "@/lib/personalite";
 
 export function GET() {
-  const base = "https://quizup.fr";
+  const base = "https://www.quizup.fr";
 
   const urls = [
     {

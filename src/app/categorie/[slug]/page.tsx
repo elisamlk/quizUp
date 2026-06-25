@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { getAllCategories, getAllQuizzes } from "@/lib/quizzes";
 
-const SITE_URL = "https://quizup.fr";
+const SITE_URL = "https://www.quizup.fr";
 const PAGE_SIZE = 10;
 
 function url(path: string) {

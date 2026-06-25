@@ -71,7 +71,7 @@ export async function generateMetadata({
     openGraph: {
       title,
       description,
-     url: `https://quizup.fr${canonical}`,
+     url: `https://www.quizup.fr${canonical}`,
       siteName: "QuizUp",
       type: "website",
       locale: "fr_FR",

@@ -60,13 +60,13 @@ export async function generateMetadata({
     openGraph: {
       title,
       description,
-      url: `https://quizup.fr/jeux/${game.slug}`,
+      url: `https://www.quizup.fr/jeux/${game.slug}`,
       type: "website",
 
       images: game.images?.cover
         ? [
             {
-              url: `https://quizup.fr${game.images.cover}`,
+              url: `https://www.quizup.fr${game.images.cover}`,
               alt: game.images.alt ?? game.title,
             },
           ]

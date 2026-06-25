@@ -9,7 +9,7 @@ import { QuizDisplay } from "@/components/QuizDisplay";
 import { PersonalityPlayer } from "@/components/PersonalityPlayer";
 import { AdSlot } from "@/components/AdSlot";
 
-const SITE_URL = "https://quizup.fr";
+const SITE_URL = "https://www.quizup.fr";
 const siteUrl = (path: string) => `${SITE_URL}${path}`;
 
 export function generateStaticParams() {

@@ -20,7 +20,7 @@ const interTight = Inter_Tight({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://quizup.fr"),
+  metadataBase: new URL("https://www.quizup.fr"),
 
   title: {
     default: "QuizUp | Quiz gratuits en ligne et jeux de culture générale",

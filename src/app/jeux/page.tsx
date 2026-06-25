@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     title: "Jeux gratuits en ligne | QuizUp",
     description:
       "Découvre des mini-jeux gratuits, rapides et amusants : quiz emoji, pendu, mot mystère, jeux de mémoire, logique et culture générale.",
-    url: "https://quizup.fr/jeux",
+    url: "https://www.quizup.fr/jeux",
     siteName: "QuizUp",
     type: "website",
     locale: "fr_FR",
