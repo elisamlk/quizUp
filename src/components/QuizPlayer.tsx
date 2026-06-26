@@ -371,7 +371,7 @@ export function QuizPlayer({
 
     try {
       const url = window.location.href;
-      const brand = "QuizMania"; // change si tu veux
+      const brand = "QuizUp"; // change si tu veux
       const coverUrl = quiz.images?.cover ? quiz.images.cover : undefined;
 
       const blob = await generateShareImage({
