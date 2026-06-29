@@ -85,8 +85,7 @@ export async function generateMetadata({
 const PAGE_SIZE = 10;
 
 function getPageItems(current: number, total: number): Array<number | "…"> {
-  // Toujours afficher: 1, dernière, et une fenêtre autour de current
-  const windowSize = 1; // pages de chaque côté
+  const windowSize = 1;
   const pages = new Set<number>();
 
   pages.add(1);
@@ -96,7 +95,6 @@ function getPageItems(current: number, total: number): Array<number | "…"> {
     if (p >= 1 && p <= total) pages.add(p);
   }
 
-  // Si total petit, on affiche tout
   if (total <= 7) {
     return Array.from({ length: total }, (_, i) => i + 1);
   }
@@ -119,9 +117,50 @@ function buildQuizUrl({ cat, q, p }: { cat?: string; q?: string; p?: number }) {
   const params = new URLSearchParams();
   if (cat) params.set("cat", cat);
   if (q) params.set("q", q);
-  if (p && p > 1) params.set("p", String(p)); // on n’affiche pas p=1
+  if (p && p > 1) params.set("p", String(p));
   const qs = params.toString();
   return qs ? `/quiz?${qs}` : "/quiz";
+}
+
+function mixByCategory<T extends { category: { slug: string } }>(
+  items: T[],
+  categoryOrder: string[]
+) {
+  const groups = new Map<string, T[]>();
+
+  for (const item of items) {
+    const slug = item.category.slug;
+
+    if (!groups.has(slug)) {
+      groups.set(slug, []);
+    }
+
+    groups.get(slug)!.push(item);
+  }
+
+  const orderedSlugs = [
+    ...categoryOrder.filter((slug) => groups.has(slug)),
+    ...Array.from(groups.keys()).filter((slug) => !categoryOrder.includes(slug)),
+  ];
+
+  const result: T[] = [];
+  let added = true;
+
+  while (added) {
+    added = false;
+
+    for (const slug of orderedSlugs) {
+      const group = groups.get(slug);
+      const item = group?.shift();
+
+      if (item) {
+        result.push(item);
+        added = true;
+      }
+    }
+  }
+
+  return result;
 }
 
 export default async function QuizIndexPage({
@@ -138,18 +177,23 @@ export default async function QuizIndexPage({
   const qRaw = (sp.q ?? "").trim();
   const q = qRaw.toLowerCase();
 
-  // Filtrage
   const filtered = quizzes.filter((quiz) => {
     const okCat = !selectedCat || quiz.category.slug === selectedCat;
+
     const okQ =
       !q ||
       quiz.title.toLowerCase().includes(q) ||
       (quiz.description ?? "").toLowerCase().includes(q);
+
     return okCat && okQ;
   });
 
-  // Pagination
-  const total = filtered.length;
+  const mixedFiltered = mixByCategory(
+    filtered,
+    categories.map((cat) => cat.slug)
+  );
+
+  const total = mixedFiltered.length;
   const totalPages = Math.max(1, Math.ceil(total / PAGE_SIZE));
 
   let currentPage = Number.parseInt(sp.p ?? "1", 10);
@@ -158,145 +202,132 @@ export default async function QuizIndexPage({
 
   const start = (currentPage - 1) * PAGE_SIZE;
   const end = start + PAGE_SIZE;
-  const pageItems = filtered.slice(start, end);
+  const pageItems = mixedFiltered.slice(start, end);
 
   return (
     <main className="page">
-      {/* <section className="pageSection">
-        <div className="sectionHead">
-          <h1 className="pageTitle">Tous les quiz</h1>
+      <section className="heroLandingSection quizPageHero">
+        <div className="heroLandingContent">
+          <h1 className="heroLandingTitle">
+            Tous les quiz gratuits
+          </h1>
+
+          <p className="heroLandingSub">
+            Découvrez des centaines de quiz gratuits en culture générale,
+            histoire, géographie, sciences, sport, cinéma, musique,
+            nature, séries TV et bien plus encore.
+          </p>
+
           <p className="pageSubtitle">
             {total} quiz • Page {currentPage} / {totalPages}
           </p>
+
+          <div className="heroCtas">
+            {categories[0] ? (
+              <Link
+                className="homeBtnSecondary"
+                href={`/categorie/${categories[0].slug}`}
+              >
+                Explorer une catégorie
+              </Link>
+            ) : null}
+          </div>
         </div>
+      </section>
 
-        <p className="homeIntro">
-   Découvrez des centaines de quiz gratuits pour tester vos connaissances sur de nombreux thèmes. Culture générale, histoire, géographie, sciences, sport, cinéma, musique, nature ou séries TV : trouvez facilement un quiz adapté à vos envies. Chaque quiz comprend 20 questions variées et vous permet d'obtenir un score immédiat à la fin de la partie. Certains quiz proposent également des explications pour apprendre de nouvelles informations tout en vous amusant. Explorez nos différentes catégories, découvrez les quiz les plus populaires et relevez de nouveaux défis pour enrichir vos connaissances jour après jour.
-        </p>
-      </section> */}
-<section className="heroLandingSection quizPageHero">
-  <div className="heroLandingContent">
-    <h1 className="heroLandingTitle">
-      Tous les quiz gratuits
-    </h1>
-
-    <p className="heroLandingSub">
-      Découvrez des centaines de quiz gratuits en culture générale,
-      histoire, géographie, sciences, sport, cinéma, musique,
-      nature, séries TV et bien plus encore.
-    </p>
-
-    <p className="pageSubtitle">
-      {total} quiz • Page {currentPage} / {totalPages}
-    </p>
-
-<div className="heroCtas">
-  {categories[0] ? (
-    <Link
-      className="homeBtnSecondary"
-      href={`/categorie/${categories[0].slug}`}
-    >
-      Explorer une catégorie
-    </Link>
-  ) : null}
-</div>
-  </div>
-</section>
       <div className="quizListSection">
-        {/* Recherche */}
-     <section className="filters">
-  <form className="searchBar" action="/quiz">
-    {selectedCat ? (
-      <input type="hidden" name="cat" value={selectedCat} />
-    ) : null}
+        <section className="filters">
+          <form className="searchBar" action="/quiz">
+            {selectedCat ? (
+              <input type="hidden" name="cat" value={selectedCat} />
+            ) : null}
 
-    <input type="hidden" name="p" value="1" />
+            <input type="hidden" name="p" value="1" />
 
-    <input
-      className="searchInput"
-      type="search"
-      name="q"
-      placeholder="Rechercher un quiz…"
-      defaultValue={qRaw}
-    />
-
-    <button className="searchBtn" type="submit">
-      <span className="btnText">Rechercher</span>
-      <span className="btnIcon" aria-hidden="true">
-        <svg viewBox="0 0 24 24" width="20" height="20" fill="none">
-          <circle
-            cx="11"
-            cy="11"
-            r="7"
-            stroke="currentColor"
-            strokeWidth="2"
-          />
-          <line
-            x1="16.65"
-            y1="16.65"
-            x2="21"
-            y2="21"
-            stroke="currentColor"
-            strokeWidth="2"
-            strokeLinecap="round"
-          />
-        </svg>
-      </span>
-    </button>
-
-    {selectedCat || qRaw ? (
-      <Link className="clearBtn" href="/quiz" aria-label="Réinitialiser">
-        <span className="btnText">Réinitialiser</span>
-        <span className="btnIcon" aria-hidden="true">
-          <svg viewBox="0 0 24 24" width="20" height="20" fill="none">
-            <path
-              d="M3 12a9 9 0 1 0 3-6.7"
-              stroke="currentColor"
-              strokeWidth="2"
-              strokeLinecap="round"
+            <input
+              className="searchInput"
+              type="search"
+              name="q"
+              placeholder="Rechercher un quiz…"
+              defaultValue={qRaw}
             />
-            <polyline
-              points="3 4 3 10 9 10"
-              stroke="currentColor"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-          </svg>
-        </span>
-      </Link>
-    ) : null}
-  </form>
 
-  <div className="row">
-    <div className="rowTrack rowTrack--categories">
-      <Link
-        href={buildQuizUrl({ q: qRaw, p: 1 })}
-        className={`catChip ${!selectedCat ? "catChip--active" : ""}`}
-      >
-        Toutes
-      </Link>
+            <button className="searchBtn" type="submit">
+              <span className="btnText">Rechercher</span>
+              <span className="btnIcon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none">
+                  <circle
+                    cx="11"
+                    cy="11"
+                    r="7"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                  />
+                  <line
+                    x1="16.65"
+                    y1="16.65"
+                    x2="21"
+                    y2="21"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                  />
+                </svg>
+              </span>
+            </button>
 
-      {categories.map((cat) => {
-        const active = selectedCat === cat.slug;
-        return (
-          <Link
-            key={cat.slug}
-            href={buildQuizUrl({ cat: cat.slug, q: qRaw, p: 1 })}
-            className={`catChip ${active ? "catChip--active" : ""}`}
-          >
-            {cat.name}
-          </Link>
-        );
-      })}
-    </div>
-  </div>
-</section>
+            {selectedCat || qRaw ? (
+              <Link className="clearBtn" href="/quiz" aria-label="Réinitialiser">
+                <span className="btnText">Réinitialiser</span>
+                <span className="btnIcon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none">
+                    <path
+                      d="M3 12a9 9 0 1 0 3-6.7"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                    />
+                    <polyline
+                      points="3 4 3 10 9 10"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    />
+                  </svg>
+                </span>
+              </Link>
+            ) : null}
+          </form>
 
-        {/* PUB TOP (hors de la liste pour ne pas casser le layout) */}
+          <div className="row">
+            <div className="rowTrack rowTrack--categories">
+              <Link
+                href={buildQuizUrl({ q: qRaw, p: 1 })}
+                className={`catChip ${!selectedCat ? "catChip--active" : ""}`}
+              >
+                Toutes
+              </Link>
+
+              {categories.map((cat) => {
+                const active = selectedCat === cat.slug;
+
+                return (
+                  <Link
+                    key={cat.slug}
+                    href={buildQuizUrl({ cat: cat.slug, q: qRaw, p: 1 })}
+                    className={`catChip ${active ? "catChip--active" : ""}`}
+                  >
+                    {cat.name}
+                  </Link>
+                );
+              })}
+            </div>
+          </div>
+        </section>
+
         {/* <AdSlot slot="1111111111" /> */}
 
-        {/* LISTE (10 par page) */}
         <section className="quizList">
           {pageItems.map((quiz, idx) => {
             const img =
@@ -317,10 +348,10 @@ export default async function QuizIndexPage({
 
                   <div className="quizRowContent">
                     <div className="quizRowTop">
-                      {/* {quiz.isNew ? <span className="quizBadge">Nouveau</span> : null} */}
                       <span className="quizRowCategory">
                         {quiz.category.name}
                       </span>
+
                       <span className="quizRowMeta">
                         {quiz.questions.length} questions
                       </span>
@@ -334,7 +365,6 @@ export default async function QuizIndexPage({
                   </div>
                 </Link>
 
-                {/* PUB IN-FEED après le 3e item */}
                 {idx === 2 ? (
                   <div style={{ marginTop: 14, marginBottom: 14 }}>
                     {/* <AdSlot slot="5555555555" /> */}
@@ -351,10 +381,8 @@ export default async function QuizIndexPage({
           ) : null}
         </section>
 
-        {/* Pagination UI */}
         {totalPages > 1 ? (
           <nav className="pager" aria-label="Pagination">
-            {/* Prev */}
             <Link
               className={`pagerBtn ${currentPage === 1 ? "isDisabled" : ""}`}
               href={buildQuizUrl({
@@ -369,7 +397,6 @@ export default async function QuizIndexPage({
               ‹
             </Link>
 
-            {/* Numbers with ellipsis */}
             <div className="pagerNums" aria-label="Pages">
               {getPageItems(currentPage, totalPages).map((item, idx) => {
                 if (item === "…") {
@@ -385,6 +412,7 @@ export default async function QuizIndexPage({
                 }
 
                 const page = item;
+
                 const href = buildQuizUrl({
                   cat: selectedCat || undefined,
                   q: qRaw || undefined,
@@ -405,9 +433,10 @@ export default async function QuizIndexPage({
               })}
             </div>
 
-            {/* Next */}
             <Link
-              className={`pagerBtn ${currentPage === totalPages ? "isDisabled" : ""}`}
+              className={`pagerBtn ${
+                currentPage === totalPages ? "isDisabled" : ""
+              }`}
               href={buildQuizUrl({
                 cat: selectedCat || undefined,
                 q: qRaw || undefined,
@@ -422,12 +451,21 @@ export default async function QuizIndexPage({
           </nav>
         ) : null}
 
-        {/* SEO discret seulement sur la liste complète (pas sur filtres) */}
         {!selectedCat && !qRaw ? (
           <section className="pageSeo">
             <h2 className="pageSeoTitle">Tous nos quiz</h2>
+
             <p className="pageSeoText">
-        Découvrez des centaines de quiz gratuits pour tester vos connaissances et apprendre tout en vous amusant. Culture générale, histoire, géographie, sciences, sport, cinéma, musique, nature ou encore séries TV : explorez de nombreux thèmes adaptés à tous les niveaux. Chaque quiz comprend 20 questions variées avec un score immédiat à la fin de la partie et, selon les quiz, des explications pour approfondir vos connaissances. Que vous souhaitiez relever un défi rapide, réviser un sujet précis ou simplement vous divertir, parcourez nos catégories, découvrez les quiz les plus populaires et trouvez votre prochain challenge.
+              Découvrez des centaines de quiz gratuits pour tester vos
+              connaissances et apprendre tout en vous amusant. Culture générale,
+              histoire, géographie, sciences, sport, cinéma, musique, nature ou
+              encore séries TV : explorez de nombreux thèmes adaptés à tous les
+              niveaux. Chaque quiz comprend 20 questions variées avec un score
+              immédiat à la fin de la partie et, selon les quiz, des explications
+              pour approfondir vos connaissances. Que vous souhaitiez relever un
+              défi rapide, réviser un sujet précis ou simplement vous divertir,
+              parcourez nos catégories, découvrez les quiz les plus populaires et
+              trouvez votre prochain challenge.
             </p>
           </section>
         ) : null}
