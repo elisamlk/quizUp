@@ -96,9 +96,10 @@ export async function generateMetadata({
     title,
     description,
     alternates: { canonical },
-    robots: pageTooHigh
-      ? { index: false, follow: true }
-      : { index: true, follow: true },
+  robots:
+  pageTooHigh || p > 1
+    ? { index: false, follow: true }
+    : { index: true, follow: true },
     openGraph: {
       title,
       description,

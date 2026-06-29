@@ -3,56 +3,65 @@ import { getAllGames } from "@/lib/games";
 import { getAllPersonalityTests } from "@/lib/personalite";
 
 export function GET() {
-  const base = "https://www.quizup.fr";
+  const BASE_URL = "https://www.quizup.fr";
+
+  // Format recommandé : YYYY-MM-DD
+  const today = new Date().toISOString().split("T")[0];
 
   const urls = [
     {
-      url: `${base}/`,
+      loc: `${BASE_URL}/`,
       priority: "1.0",
       changefreq: "daily",
+      lastmod: today,
     },
     {
-      url: `${base}/quiz`,
+      loc: `${BASE_URL}/quiz`,
       priority: "0.9",
       changefreq: "daily",
+      lastmod: today,
     },
     {
-      url: `${base}/jeux`,
+      loc: `${BASE_URL}/jeux`,
       priority: "0.9",
       changefreq: "weekly",
+      lastmod: today,
     },
     {
-      url: `${base}/personalite`,
+      loc: `${BASE_URL}/personalite`,
       priority: "0.9",
       changefreq: "weekly",
+      lastmod: today,
     },
 
-    ...getAllCategories().map((c) => ({
-      url: `${base}/categorie/${c.slug}`,
+    ...getAllCategories().map((category) => ({
+      loc: `${BASE_URL}/categorie/${category.slug}`,
       priority: "0.8",
       changefreq: "weekly",
+      lastmod: today,
     })),
 
-    ...getAllQuizzes().map((q) => ({
-      url: `${base}/quiz/${q.slug}`,
+    ...getAllQuizzes().map((quiz) => ({
+      loc: `${BASE_URL}/quiz/${quiz.slug}`,
       priority: "0.7",
       changefreq: "monthly",
+      lastmod: today,
     })),
 
     ...getAllGames().map((game) => ({
-      url: `${base}/jeux/${game.slug}`,
+      loc: `${BASE_URL}/jeux/${game.slug}`,
       priority: "0.7",
       changefreq: "monthly",
+      lastmod: today,
     })),
 
     ...getAllPersonalityTests().map((test) => ({
-      url: `${base}/personalite/${test.slug}`,
+      loc: `${BASE_URL}/personalite/${test.slug}`,
       priority: "0.7",
       changefreq: "monthly",
+      lastmod: today,
     })),
   ];
-
-  const today = new Date().toISOString();
 
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
@@ -60,8 +69,8 @@ ${urls
   .map(
     (item) => `
   <url>
-    <loc>${item.url}</loc>
-    <lastmod>${today}</lastmod>
+    <loc>${item.loc}</loc>
+    <lastmod>${item.lastmod}</lastmod>
     <changefreq>${item.changefreq}</changefreq>
     <priority>${item.priority}</priority>
   </url>`
@@ -71,7 +80,8 @@ ${urls
 
   return new Response(xml, {
     headers: {
-      "Content-Type": "application/xml",
+      "Content-Type": "application/xml; charset=utf-8",
+      "Cache-Control": "public, max-age=3600",
     },
   });
 }

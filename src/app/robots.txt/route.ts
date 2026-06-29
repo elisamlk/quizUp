@@ -3,8 +3,6 @@ export function GET() {
 Allow: /
 
 Sitemap: https://www.quizup.fr/sitemap.xml
-
-Host: https://www.quizup.fr
 `;
 
   return new Response(content, {
