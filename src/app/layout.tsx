@@ -70,6 +70,12 @@ export default function RootLayout({
     <html lang="fr">
       <body className={`${inter.variable} ${interTight.variable}`}>
         <Header />
+        <Script
+  id="funding-choices"
+  async
+  strategy="beforeInteractive"
+  src="https://fundingchoicesmessages.google.com/i/pub-3338476341292980?ers=1"
+/>
 
         {adsClient ? (
           <Script
