@@ -69,13 +69,14 @@ export default function RootLayout({
   return (
     <html lang="fr">
       <body className={`${inter.variable} ${interTight.variable}`}>
-        <Header />
+        {/* Google Funding Choices (cookies / consentement) */}
         <Script
-  id="funding-choices"
-  async
-  strategy="beforeInteractive"
-  src="https://fundingchoicesmessages.google.com/i/pub-3338476341292980?ers=1"
-/>
+          id="funding-choices"
+          src="https://fundingchoicesmessages.google.com/i/pub-3338476341292980?ers=1"
+          strategy="beforeInteractive"
+        />
+
+        <Header />
 
         {adsClient ? (
           <Script
@@ -88,6 +89,7 @@ export default function RootLayout({
         ) : null}
 
         {children}
+
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-9LZ8NWQBGG"
           strategy="afterInteractive"
@@ -95,12 +97,12 @@ export default function RootLayout({
 
         <Script id="google-analytics" strategy="afterInteractive">
           {`
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-    gtag('config', 'G-9LZ8NWQBGG');
-  `}
+            gtag('config', 'G-9LZ8NWQBGG');
+          `}
         </Script>
 
         <SiteFooter />
