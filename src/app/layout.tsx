@@ -68,14 +68,17 @@ export default function RootLayout({
 
   return (
     <html lang="fr">
-      <body className={`${inter.variable} ${interTight.variable}`}>
-        {/* Google Funding Choices (cookies / consentement) */}
+      <head>
         <Script
           id="funding-choices"
+          async
           src="https://fundingchoicesmessages.google.com/i/pub-3338476341292980?ers=1"
           strategy="beforeInteractive"
+          crossOrigin="anonymous"
         />
+      </head>
 
+      <body className={`${inter.variable} ${interTight.variable}`}>
         <Header />
 
         {adsClient ? (
@@ -101,7 +104,9 @@ export default function RootLayout({
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
 
-            gtag('config', 'G-9LZ8NWQBGG');
+            gtag('config', 'G-9LZ8NWQBGG', {
+              anonymize_ip: true
+            });
           `}
         </Script>
 
