@@ -21,72 +21,71 @@
       "question": "Quel est le synonyme le plus proche de « rapide » ?",
       "image": null,
       "imagePrompt": "speed fast motion blur concept",
-      "answers": ["Vif","Lent","Calme","Stable"],
+      "answers": ["Vif", "Agile", "Calme", "Stable"],
       "correctIndex": 0,
-      "explanation": "« Vif » est un synonyme de « rapide », mais avec une nuance de dynamisme ou d’énergie. « Lent » est l’opposé, tandis que les autres termes ne concernent pas la vitesse."
+      "explanation": "« Vif » est un synonyme de « rapide », avec une nuance de dynamisme. « Agile » est un piège fréquent : ce mot renvoie à la souplesse des mouvements plutôt qu'à la vitesse pure. « Calme » et « stable » ne concernent pas la vitesse."
     },
     {
       "id": "syn-2",
       "question": "Quel mot est un synonyme de « heureux » ?",
       "image": null,
       "imagePrompt": "happy smiling person joy emotion",
-      "answers": ["Triste","Joyeux","Froid","Dur"],
+      "answers": ["Chanceux", "Joyeux", "Froid", "Dur"],
       "correctIndex": 1,
-      "explanation": "« Joyeux » est un synonyme direct de « heureux ». Il insiste davantage sur une manifestation visible de la joie."
+      "explanation": "« Joyeux » est un synonyme direct de « heureux ». « Chanceux » est un piège fréquent : avoir de la chance peut rendre heureux, mais n'est pas synonyme du sentiment lui-même."
     },
     {
       "id": "syn-3",
       "question": "Quel est le synonyme le plus proche de « difficile » ?",
       "image": null,
       "imagePrompt": "challenge obstacle climbing difficulty",
-      "answers": ["Simple","Complexe","Clair","Facile"],
-      "correctIndex": 1,
-      "explanation": "« Complexe » est un synonyme de « difficile » dans le sens intellectuel. Il implique plusieurs éléments à comprendre ou à résoudre."
+      "answers": ["Rigide", "Facile", "Ardu", "Sérieux"],
+      "correctIndex": 2,
+      "explanation": "« Ardu » est un synonyme précis de « difficile », insistant sur l'effort important à fournir pour surmonter un obstacle intellectuel ou physique — plus rigoureux que « complexe », qui renvoie davantage à la présence de nombreux éléments interconnectés qu'à la difficulté elle-même. « Rigide » et « sérieux » ne sont pas des synonymes de difficulté."
     },
     {
       "id": "syn-4",
       "question": "Quel mot est un synonyme de « parler » ?",
       "image": null,
       "imagePrompt": "conversation speaking communication",
-      "answers": ["Écouter","Observer","Discuter","Dormir"],
-      "correctIndex": 2,
-      "explanation": "« Discuter » est un synonyme de « parler », mais implique souvent un échange entre plusieurs personnes."
+      "answers": ["Écouter", "Observer", "Dormir", "Converser"],
+      "correctIndex": 3,
+      "explanation": "« Converser » est un synonyme précis de « parler », impliquant un échange verbal réciproque entre au moins deux personnes — plus rigoureux que « discuter », qui suggère souvent un débat ou une confrontation d'opinions."
     },
     {
       "id": "syn-5",
       "question": "Quel est le synonyme de « maison » ?",
       "image": null,
       "imagePrompt": "house home building exterior",
-      "answers": ["Voiture","Arbre","Immeuble","Domicile"],
-      "correctIndex": 3,
-      "explanation": "« Domicile » est un synonyme plus formel de « maison ». Il est souvent utilisé dans un contexte administratif."
+      "answers": ["Habitation", "Voiture", "Arbre", "Immeuble"],
+      "correctIndex": 0,
+      "explanation": "« Habitation » est un synonyme précis de « maison », désignant tout lieu où l'on vit — plus rigoureux que « domicile », qui renvoie spécifiquement à l'adresse légale et administrative d'une personne, et pas nécessairement au bâtiment physique lui-même. « Immeuble » est un piège : il désigne un bâtiment comportant plusieurs logements, pas une maison individuelle."
     },
-
     {
       "id": "syn-6",
       "question": "Quel mot est un synonyme de « commencer » ?",
       "image": null,
       "imagePrompt": "start beginning new project",
-      "answers": ["Débuter","Finir","Arrêter","Suspendre"],
-      "correctIndex": 0,
-      "explanation": "« Débuter » signifie commencer. Les autres termes expriment l’arrêt ou la fin."
+      "answers": ["Reprendre", "Débuter", "Arrêter", "Suspendre"],
+      "correctIndex": 1,
+      "explanation": "« Débuter » signifie commencer. « Reprendre » est un piège fréquent : cela signifie recommencer une action déjà entamée, pas la démarrer pour la première fois. « Arrêter » et « suspendre » expriment l'interruption."
     },
     {
       "id": "syn-7",
       "question": "Quel est le synonyme de « intelligent » ?",
       "image": null,
       "imagePrompt": "brain intelligence thinking concept",
-      "answers": ["Bête","Brillant","Fatigué","Lent"],
-      "correctIndex": 1,
-      "explanation": "« Brillant » est un synonyme courant de « intelligent », avec une nuance de vivacité d’esprit."
+      "answers": ["Rusé", "Fatigué", "Brillant", "Lent"],
+      "correctIndex": 2,
+      "explanation": "« Brillant » est un synonyme courant de « intelligent », avec une nuance de vivacité d'esprit. « Rusé » est un piège : la ruse relève davantage de l'habileté à tromper que de l'intelligence générale."
     },
     {
       "id": "syn-8",
       "question": "Quel mot est un synonyme de « regarder » ?",
       "image": null,
       "imagePrompt": "looking observing watching eyes",
-      "answers": ["Écouter","Observer","Toucher","Courir"],
-      "correctIndex": 1,
+      "answers": ["Écouter", "Toucher", "Courir", "Observer"],
+      "correctIndex": 3,
       "explanation": "« Observer » est un synonyme précis de « regarder », souvent avec une attention plus soutenue."
     },
     {
@@ -94,110 +93,108 @@
       "question": "Quel est le synonyme de « grand » (taille) ?",
       "image": null,
       "imagePrompt": "tall person height comparison",
-      "answers": ["Immense","Petit","Court","Faible"],
+      "answers": ["Immense", "Ample", "Petit", "Court"],
       "correctIndex": 0,
-      "explanation": "« Immense » est un synonyme renforcé de « grand », indiquant une très grande taille."
+      "explanation": "« Immense » est un synonyme renforcé de « grand », indiquant une très grande taille. « Ample » est un piège fréquent : il qualifie plutôt la largeur ou le volume (un vêtement ample) que la hauteur."
     },
     {
       "id": "syn-10",
       "question": "Quel mot est un synonyme de « peur » ?",
       "image": null,
       "imagePrompt": "fear anxiety emotion dark",
-      "answers": ["Joie","Crainte","Calme","Confiance"],
+      "answers": ["Prudence", "Crainte", "Joie", "Confiance"],
       "correctIndex": 1,
-      "explanation": "« Crainte » est un synonyme de « peur », souvent avec une nuance plus modérée ou anticipée."
+      "explanation": "« Crainte » est un synonyme de « peur », souvent avec une nuance plus modérée ou anticipée. « Prudence » est un piège fréquent : elle peut découler de la peur, mais désigne une attitude de précaution, pas l'émotion elle-même."
     },
-
     {
       "id": "syn-11",
       "question": "Quel est le synonyme de « beau » ?",
       "image": null,
       "imagePrompt": "beautiful landscape aesthetic",
-      "answers": ["Joli","Sale","Laid","Triste"],
-      "correctIndex": 0,
-      "explanation": "« Joli » est un synonyme courant de « beau », mais avec une intensité parfois plus légère."
+      "answers": ["Impressionnant", "Laid", "Joli", "Triste"],
+      "correctIndex": 2,
+      "explanation": "« Joli » est un synonyme courant de « beau », mais avec une intensité parfois plus légère. « Impressionnant » est un piège : une chose peut impressionner sans être esthétiquement belle."
     },
     {
       "id": "syn-12",
       "question": "Quel mot est un synonyme de « travail » ?",
       "image": null,
       "imagePrompt": "work office productivity",
-      "answers": ["Repos","Emploi","Vacances","Jeu"],
-      "correctIndex": 1,
-      "explanation": "« Emploi » est un synonyme de « travail » dans le sens d’activité professionnelle."
+      "answers": ["Mission", "Repos", "Jeu", "Labeur"],
+      "correctIndex": 3,
+      "explanation": "« Labeur » est un synonyme de « travail », dans un registre plus soutenu et littéraire, insistant sur la pénibilité de l'effort fourni — plus rigoureux, dans ce sens précis, que « emploi », qui désigne spécifiquement une situation professionnelle rémunérée plutôt que l'activité de travail elle-même."
     },
     {
       "id": "syn-13",
       "question": "Quel est le synonyme de « riche » ?",
       "image": null,
       "imagePrompt": "wealth luxury money concept",
-      "answers": ["Pauvre","Fortuné","Simple","Modeste"],
-      "correctIndex": 1,
-      "explanation": "« Fortuné » est un synonyme direct de « riche », souvent utilisé dans un registre plus soutenu."
+      "answers": ["Fortuné", "Généreux", "Pauvre", "Modeste"],
+      "correctIndex": 0,
+      "explanation": "« Fortuné » est un synonyme direct de « riche », souvent utilisé dans un registre plus soutenu. « Généreux » est un piège fréquent : la générosité concerne le comportement, pas le niveau de richesse — on peut être riche et avare, ou pauvre et généreux."
     },
     {
       "id": "syn-14",
       "question": "Quel mot est un synonyme de « fin » (terminaison) ?",
       "image": null,
       "imagePrompt": "end finish conclusion concept",
-      "answers": ["Début","Arrivée","Conclusion","Origine"],
-      "correctIndex": 2,
-      "explanation": "« Conclusion » est un synonyme de « fin » dans le sens d’aboutissement d’un raisonnement ou d’un processus."
+      "answers": ["Début", "Terme", "Arrivée", "Origine"],
+      "correctIndex": 1,
+      "explanation": "« Terme » est un synonyme courant et précis de « fin », comme dans l'expression « mettre un terme à quelque chose » — plus rigoureux que « conclusion », qui désigne plus spécifiquement l'aboutissement d'un raisonnement ou d'un texte argumentatif."
     },
     {
       "id": "syn-15",
       "question": "Quel est le synonyme de « content » ?",
       "image": null,
       "imagePrompt": "happy satisfied emotion smile",
-      "answers": ["Satisfait","En colère","Triste","Inquiet"],
-      "correctIndex": 0,
-      "explanation": "« Satisfait » est un synonyme de « content », avec une nuance de satisfaction personnelle."
+      "answers": ["Rassuré", "En colère", "Satisfait", "Triste"],
+      "correctIndex": 2,
+      "explanation": "« Satisfait » est un synonyme de « content », avec une nuance de satisfaction personnelle. « Rassuré » est un piège fréquent : se sentir rassuré soulage une inquiétude, mais n'équivaut pas exactement à être content."
     },
-
     {
       "id": "syn-16",
       "question": "Quel mot est un synonyme de « froid » ?",
       "image": null,
       "imagePrompt": "cold winter snow temperature",
-      "answers": ["Chaud","Glacial","Tiède","Brûlant"],
-      "correctIndex": 1,
-      "explanation": "« Glacial » est un synonyme de « froid » avec une intensité plus forte."
+      "answers": ["Frais", "Tiède", "Brûlant", "Glacial"],
+      "correctIndex": 3,
+      "explanation": "« Glacial » est un synonyme renforcé de « froid », désignant une intensité particulièrement forte. On pourrait être tenté d'utiliser « frigorifique », mais ce terme reste un piège : il qualifie presque exclusivement un équipement conçu pour produire du froid (un camion frigorifique, une chambre frigorifique), et non une sensation de froid elle-même — on ne dit pas qu'il fait « frigorifique » dehors. « Frais » est un autre piège fréquent : il désigne une température légèrement basse et agréable, bien en deçà du froid intense qu'exprime « glacial »."
     },
     {
       "id": "syn-17",
       "question": "Quel est le synonyme de « facile » ?",
       "image": null,
       "imagePrompt": "easy simple task concept",
-      "answers": ["Complexe","Simple","Difficile","Lourd"],
-      "correctIndex": 1,
-      "explanation": "« Simple » est un synonyme de « facile », indiquant une absence de difficulté."
+      "answers": ["Simple", "Complexe", "Difficile", "Lourd"],
+      "correctIndex": 0,
+      "explanation": "« Simple » est un synonyme de « facile », indiquant une absence de difficulté. « Lourd » est un piège fréquent, souvent employé au sens figuré pour une tâche pénible, mais qui n'est pas un vrai synonyme de « facile »."
     },
     {
       "id": "syn-18",
-      "question": "Quel mot est un synonyme de « vite » ?",
+      "question": "Quel mot est un synonyme de « gentil » ?",
       "image": null,
-      "imagePrompt": "speed fast running motion",
-      "answers": ["Lentement","Rapidement","Doucement","Calmement"],
+      "imagePrompt": "kindness friendly warm gesture",
+      "answers": ["Discret", "Aimable", "Timide", "Calme"],
       "correctIndex": 1,
-      "explanation": "« Rapidement » est un synonyme direct de « vite », utilisé dans un registre plus soutenu."
+      "explanation": "« Aimable » est un synonyme de « gentil », mettant l'accent sur des manières agréables envers autrui. « Discret », « timide » et « calme » décrivent d'autres traits de caractère, souvent confondus à tort avec la gentillesse alors qu'ils n'impliquent pas nécessairement de bienveillance."
     },
     {
       "id": "syn-19",
       "question": "Quel est le synonyme de « colère » ?",
       "image": null,
       "imagePrompt": "anger emotion face expression",
-      "answers": ["Rage","Joie","Peur","Calme"],
-      "correctIndex": 0,
-      "explanation": "« Rage » est un synonyme fort de « colère », exprimant une émotion plus intense."
+      "answers": ["Frustration", "Joie", "Rage", "Calme"],
+      "correctIndex": 2,
+      "explanation": "« Rage » est un synonyme fort de « colère ». « Frustration » est un piège fréquent : ce sentiment de contrariété peut mener à la colère, mais n'en est pas un synonyme direct — on peut être frustré sans être en colère."
     },
     {
       "id": "syn-20",
-      "question": "Quel mot est un synonyme de « voir » ?",
+      "question": "Quel mot est un synonyme de « aider » ?",
       "image": null,
-      "imagePrompt": "vision eyes seeing perception",
-      "answers": ["Toucher","Entendre","Observer","Dormir"],
-      "correctIndex": 2,
-      "explanation": "« Observer » est un synonyme de « voir », impliquant une attention plus soutenue et consciente."
+      "imagePrompt": "helping hand support assistance",
+      "answers": ["Remplacer", "Diriger", "Surveiller", "Soutenir"],
+      "correctIndex": 3,
+      "explanation": "« Soutenir » est un synonyme de « aider », avec une nuance d'accompagnement dans la durée. « Remplacer » est un piège fréquent : cela signifie prendre la place de quelqu'un, pas l'assister ; « diriger » et « surveiller » impliquent un rapport d'autorité différent de l'entraide."
     }
   ]
 }

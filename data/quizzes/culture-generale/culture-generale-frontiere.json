@@ -18,17 +18,17 @@
   "questions": [
     {
       "id": "geo-1",
-      "question": "Quel pays NE partage PAS de frontière avec la France ?",
-      "answers": ["Italie", "Espagne", "Pays-Bas", "Suisse"],
-      "correctIndex": 2,
-      "explanation": "La France partage une frontière avec les Pays-Bas via Saint-Martin, mais beaucoup l’ignorent. Piège classique."
+      "question": "Quel pays partage, de façon surprenante, une frontière terrestre avec la France ?",
+      "answers": ["Portugal", "Pays-Bas", "Autriche", "Danemark"],
+      "correctIndex": 1,
+      "explanation": "La France métropolitaine ne touche pas les Pays-Bas, mais grâce à son territoire d'outre-mer de Saint-Martin, dans les Caraïbes, elle partage bien une frontière terrestre avec les Pays-Bas via Sint Maarten, la partie néerlandaise de l'île. Un piège méconnu de la géographie française : aucun des trois autres pays proposés ne partage de frontière avec la France, ni en métropole ni outre-mer."
     },
     {
       "id": "geo-2",
-      "question": "Quel pays a le plus de frontières avec d’autres pays ?",
-      "answers": ["Brésil", "Chine", "Russie", "Allemagne"],
+      "question": "Quel pays partage, à égalité avec la Russie (14 voisins chacun), le record du monde du plus grand nombre de pays frontaliers ?",
+      "answers": ["Brésil", "Chine", "Inde", "Allemagne"],
       "correctIndex": 1,
-      "explanation": "La Chine partage des frontières avec 14 pays, un record mondial."
+      "explanation": "La Chine et la Russie sont à égalité avec 14 pays voisins chacune, un record mondial partagé par ces deux immenses territoires. L'Inde, à titre de comparaison, n'a que 6 voisins terrestres malgré sa taille."
     },
     {
       "id": "geo-3",
@@ -39,17 +39,17 @@
     },
     {
       "id": "geo-4",
-      "question": "Quel pays européen n’a AUCUNE frontière terrestre ?",
+      "question": "Parmi ces pays européens à forte identité insulaire, lequel possède malgré tout une frontière terrestre avec un autre pays ?",
       "answers": ["Islande", "Irlande", "Malte", "Chypre"],
-      "correctIndex": 2,
-      "explanation": "Malte est une île sans frontières terrestres, contrairement à l’Irlande qui partage une frontière avec le Royaume-Uni."
+      "correctIndex": 1,
+      "explanation": "L'Irlande partage une frontière terrestre avec le Royaume-Uni, via l'Irlande du Nord. C'est le seul cas parmi ces quatre pays : l'Islande, Malte et Chypre sont des États insulaires totalement dépourvus de frontière terrestre avec un autre pays."
     },
     {
       "id": "geo-5",
       "question": "Quel pays partage une frontière avec le Canada ?",
       "answers": ["Mexique", "Russie", "États-Unis", "Groenland"],
       "correctIndex": 2,
-      "explanation": "Le Canada partage une seule frontière terrestre : avec les États-Unis."
+      "explanation": "Le Canada partage sa frontière terrestre historique, et de loin la plus longue, avec les États-Unis sur près de 8 900 km. Depuis un accord signé en juin 2022, le Canada partage aussi, de façon anecdotique, une toute petite frontière terrestre avec le Danemark sur l'île Hans (Tartupaluk), dans l'Arctique, désormais divisée entre les deux pays."
     },
     {
       "id": "geo-6",
@@ -60,10 +60,10 @@
     },
     {
       "id": "geo-7",
-      "question": "Quel pays est une enclave à l’intérieur de l’Italie ?",
+      "question": "Quel micro-État, considéré comme la plus ancienne république encore existante au monde, est une enclave entièrement entourée par l'Italie ?",
       "answers": ["Monaco", "Vatican", "Andorre", "Saint-Marin"],
       "correctIndex": 3,
-      "explanation": "Saint-Marin est entièrement enclavé dans l’Italie. Le Vatican aussi, mais ici un seul choix était attendu."
+      "explanation": "Saint-Marin, fondé selon la tradition en 301 apr. J.-C., est considéré comme la plus ancienne république encore existante au monde. Contrairement au Vatican, qui est lui aussi une enclave entourée par l'Italie mais constitue une monarchie théocratique dirigée par le pape, Saint-Marin est une véritable république, ce qui permet de lever toute ambiguïté entre ces deux micro-États italiens."
     },
     {
       "id": "geo-8",
@@ -98,14 +98,14 @@
       "question": "Quel pays est une enclave dans la France ?",
       "answers": ["Monaco", "Luxembourg", "Belgique", "Andorre"],
       "correctIndex": 0,
-      "explanation": "Monaco est entièrement entouré par la France."
+      "explanation": "Monaco est entièrement entouré par la France, à l'exception de sa façade maritime sur la Méditerranée."
     },
     {
       "id": "geo-13",
       "question": "Quel pays partage une frontière avec la Chine ?",
-      "answers": ["Inde", "Thaïlande", "Vietnam", "Japon"],
+      "answers": ["Inde", "Thaïlande", "Indonésie", "Japon"],
       "correctIndex": 0,
-      "explanation": "L’Inde partage une longue frontière avec la Chine."
+      "explanation": "L’Inde partage une longue frontière avec la Chine. La Thaïlande, l'Indonésie et le Japon n'ont, elles, aucune frontière terrestre commune avec la Chine."
     },
     {
       "id": "geo-14",
@@ -151,10 +151,10 @@
     },
     {
       "id": "geo-20",
-      "question": "Quel pays est enclavé entre l’Espagne et la France ?",
-      "answers": ["Andorre", "Monaco", "Portugal", "Luxembourg"],
+      "question": "Quel territoire britannique d'outre-mer partage une frontière terrestre avec l'Espagne ?",
+      "answers": ["Gibraltar", "Malte", "Chypre", "Les Bermudes"],
       "correctIndex": 0,
-      "explanation": "Andorre est situé entre la France et l’Espagne."
+      "explanation": "Gibraltar, territoire britannique d'outre-mer situé à la pointe sud de la péninsule Ibérique, partage une frontière terrestre longue d'environ 1,2 km avec l'Espagne — l'une des plus petites frontières internationales du monde."
     }
   ]
 }

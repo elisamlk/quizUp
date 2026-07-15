@@ -18,30 +18,20 @@
   "questions": [
     {
       "id": "cgsn-1",
-      "question": "Quelle planète du système solaire est connue pour ses anneaux spectaculaires ?",
+      "question": "Quelle est la planète la plus chaude du système solaire ?",
       "image": null,
-      "imagePrompt": "saturn rings planet space astronomy illustration",
-      "answers": [
-        "Jupiter",
-        "Saturne",
-        "Neptune",
-        "Uranus"
-      ],
-      "correctIndex": 1,
-      "explanation": "Saturne est la planète la plus célèbre pour ses anneaux, constitués principalement de glace, de poussière et de roches. D’autres planètes géantes en possèdent aussi, mais ceux de Saturne sont de loin les plus visibles et les plus impressionnants."
+      "imagePrompt": "venus planet surface heat greenhouse effect space",
+      "answers": ["Vénus", "Mercure", "Mars", "Jupiter"],
+      "correctIndex": 0,
+      "explanation": "Bien que Mercure soit la planète la plus proche du Soleil, c'est Vénus qui détient le record de température avec environ 465°C en surface, en permanence, de jour comme de nuit. Ce chiffre s'explique par un effet de serre extrême dû à son atmosphère dense, composée à 96 % de dioxyde de carbone, qui piège la chaleur bien plus efficacement que sur Mercure, pourtant plus proche du Soleil mais dépourvue d'atmosphère significative."
     },
     {
       "id": "cgsn-2",
       "question": "Quel gaz les plantes absorbent-elles principalement pour réaliser la photosynthèse ?",
       "image": null,
       "imagePrompt": "photosynthesis plant sunlight carbon dioxide diagram",
-      "answers": [
-        "Le dioxyde de carbone",
-        "L’oxygène",
-        "L’azote",
-        "L’hydrogène"
-      ],
-      "correctIndex": 0,
+      "answers": ["L’oxygène", "Le dioxyde de carbone", "L’azote", "L’hydrogène"],
+      "correctIndex": 1,
       "explanation": "Les plantes absorbent principalement du dioxyde de carbone pour la photosynthèse. Grâce à l’énergie du Soleil, elles transforment ce gaz et l’eau en matière organique, tout en rejetant de l’oxygène dans l’atmosphère."
     },
     {
@@ -49,138 +39,88 @@
       "question": "Quel est l’organe principal de la respiration chez les poissons ?",
       "image": null,
       "imagePrompt": "fish gills underwater anatomy educational illustration",
-      "answers": [
-        "Les poumons",
-        "Les branchies",
-        "La peau",
-        "Les nageoires"
-      ],
-      "correctIndex": 1,
+      "answers": ["Les poumons", "La peau", "Les branchies", "Les nageoires"],
+      "correctIndex": 2,
       "explanation": "Les poissons respirent grâce à leurs branchies, qui extraient l’oxygène dissous dans l’eau. Ce système est parfaitement adapté à la vie aquatique et très différent de la respiration pulmonaire des mammifères."
     },
     {
       "id": "cgsn-4",
-      "question": "Quel est le plus grand organe du corps humain ?",
+      "question": "Quel organe du corps humain consomme le plus d'énergie au repos, proportionnellement à sa taille ?",
       "image": null,
-      "imagePrompt": "human skin anatomy medical illustration",
-      "answers": [
-        "Le foie",
-        "Le cerveau",
-        "Le cœur",
-        "La peau"
-      ],
+      "imagePrompt": "human brain energy consumption anatomy illustration",
+      "answers": ["Le cœur", "Le foie", "Les reins", "Le cerveau"],
       "correctIndex": 3,
-      "explanation": "La peau est le plus grand organe du corps humain. Elle protège l’organisme contre les agressions extérieures, participe à la régulation de la température et joue aussi un rôle essentiel dans la sensation du toucher."
+      "explanation": "Bien qu'il ne représente qu'environ 2 % du poids corporel total, le cerveau consomme à lui seul près de 20 % de l'énergie totale dépensée par l'organisme au repos, principalement pour maintenir l'activité électrique constante des neurones. C'est de loin le rapport consommation/poids le plus élevé de tous les organes du corps humain."
     },
     {
       "id": "cgsn-5",
       "question": "Quel scientifique a formulé la loi de la gravitation universelle ?",
       "image": null,
       "imagePrompt": "isaac newton gravity apple science portrait",
-      "answers": [
-        "Isaac Newton",
-        "Albert Einstein",
-        "Galilée",
-        "Nicolas Copernic"
-      ],
+      "answers": ["Isaac Newton", "Albert Einstein", "Galilée", "Nicolas Copernic"],
       "correctIndex": 0,
       "explanation": "Isaac Newton a formulé la loi de la gravitation universelle au XVIIe siècle. Elle explique comment deux corps s’attirent mutuellement, depuis la chute d’un objet sur Terre jusqu’au mouvement des planètes autour du Soleil."
     },
     {
       "id": "cgsn-6",
-      "question": "Quel est le nom du satellite naturel de la Terre ?",
+      "question": "Pourquoi voit-on toujours la même face de la Lune depuis la Terre ?",
       "image": null,
-      "imagePrompt": "moon earth space night sky astronomy",
-      "answers": [
-        "Titan",
-        "La Lune",
-        "Europe",
-        "Phobos"
-      ],
+      "imagePrompt": "moon tidal locking rotation earth astronomy",
+      "answers": ["La Lune ne tourne pas sur elle-même", "Sa rotation sur elle-même dure exactement le temps d'une orbite autour de la Terre", "La Terre l'empêche de tourner par gravité", "C'est une illusion d'optique due à la distance"],
       "correctIndex": 1,
-      "explanation": "La Lune est le seul satellite naturel de la Terre. Elle influence notamment les marées et a joué un rôle majeur dans l’exploration spatiale, en devenant le premier astre visité par l’être humain."
+      "explanation": "La Lune est en rotation synchrone avec la Terre : sa période de rotation sur elle-même (environ 27,3 jours) est exactement égale à sa période de révolution autour de la Terre. Ce phénomène, appelé verrouillage gravitationnel, résulte des forces de marée exercées par la Terre sur la Lune au fil de milliards d'années, et explique pourquoi la « face cachée » de la Lune n'a été photographiée pour la première fois qu'en 1959, par une sonde soviétique."
     },
     {
       "id": "cgsn-7",
-      "question": "Quel métal liquide à température ambiante est longtemps entré dans la composition des thermomètres ?",
+      "question": "Que se passe-t-il si un objet franchit l'horizon des événements d'un trou noir ?",
       "image": null,
-      "imagePrompt": "mercury liquid metal thermometer laboratory",
-      "answers": [
-        "Le plomb",
-        "Le fer",
-        "Le mercure",
-        "L’aluminium"
-      ],
+      "imagePrompt": "black hole event horizon space physics illustration",
+      "answers": ["Il peut encore s'échapper avec suffisamment de vitesse", "Il est immédiatement détruit par la chaleur", "Il ne peut plus s'échapper, même à la vitesse de la lumière", "Il ralentit puis repart en sens inverse"],
       "correctIndex": 2,
-      "explanation": "Le mercure est un métal particulier car il est liquide à température ambiante. Il a longtemps été utilisé dans les thermomètres, mais son usage a fortement reculé en raison de sa toxicité."
+      "explanation": "L'horizon des événements est la limite au-delà de laquelle la vitesse de libération dépasse celle de la lumière : rien, pas même la lumière, ne peut donc s'en échapper une fois cette frontière franchie, ce qui rend les trous noirs littéralement invisibles à l'observation directe. La toute première image d'un trou noir (M87*) n'a été obtenue qu'en 2019, grâce à un réseau mondial de radiotélescopes formant l'Event Horizon Telescope."
     },
     {
       "id": "cgsn-8",
       "question": "Quel est le nom de la couche atmosphérique qui protège la Terre d’une partie des rayons ultraviolets du Soleil ?",
       "image": null,
       "imagePrompt": "ozone layer earth atmosphere sun ultraviolet diagram",
-      "answers": [
-        "La troposphère",
-        "La magnétosphère",
-        "L’ionosphère",
-        "La couche d’ozone"
-      ],
+      "answers": ["La troposphère", "La magnétosphère", "L’ionosphère", "La couche d’ozone"],
       "correctIndex": 3,
       "explanation": "La couche d’ozone absorbe une grande partie des rayons ultraviolets nocifs du Soleil. Elle joue donc un rôle essentiel dans la protection du vivant à la surface de la Terre."
     },
     {
       "id": "cgsn-9",
-      "question": "Quel est l’animal terrestre le plus rapide du monde ?",
+      "question": "Quel est l'animal le plus rapide du monde, toutes catégories confondues ?",
       "image": null,
-      "imagePrompt": "cheetah sprint savannah wildlife speed",
-      "answers": [
-        "Le guépard",
-        "Le lion",
-        "L’antilope",
-        "Le cheval"
-      ],
+      "imagePrompt": "peregrine falcon diving speed flight wildlife",
+      "answers": ["Le faucon pèlerin", "Le guépard", "L’espadon", "L’aigle royal"],
       "correctIndex": 0,
-      "explanation": "Le guépard est l’animal terrestre le plus rapide, capable d’atteindre plus de 100 km/h sur de très courtes distances. Sa vitesse exceptionnelle en fait un prédateur redoutable dans la savane."
+      "explanation": "Le faucon pèlerin détient le record de vitesse absolu du règne animal : lors de ses piqués en chasse, il peut dépasser 300 km/h, largement devant le guépard qui plafonne à environ 110 km/h. Cette vitesse extrême n'est cependant atteinte qu'en vol plongeant, et non en vol horizontal."
     },
     {
       "id": "cgsn-10",
       "question": "Quel phénomène naturel mesure-t-on avec l’échelle de Richter ou d’autres échelles sismiques modernes ?",
       "image": null,
       "imagePrompt": "earthquake seismograph natural disaster science",
-      "answers": [
-        "Les tempêtes",
-        "Les séismes",
-        "Les marées",
-        "Les éruptions solaires"
-      ],
+      "answers": ["Les tempêtes", "Les séismes", "Les marées", "Les éruptions solaires"],
       "correctIndex": 1,
       "explanation": "Les séismes sont mesurés grâce à des instruments appelés sismographes. L’échelle de Richter a longtemps été utilisée pour quantifier leur magnitude, même si des méthodes plus précises sont aujourd’hui souvent privilégiées."
     },
     {
       "id": "cgsn-11",
-      "question": "Quel est le principal gaz présent dans l’atmosphère terrestre ?",
+      "question": "Pourquoi le ciel nous paraît-il bleu en journée ?",
       "image": null,
-      "imagePrompt": "earth atmosphere nitrogen oxygen infographic",
-      "answers": [
-        "L’oxygène",
-        "Le dioxyde de carbone",
-        "L’azote",
-        "L’hydrogène"
-      ],
+      "imagePrompt": "blue sky rayleigh scattering light physics",
+      "answers": ["Les océans reflètent leur couleur sur l'atmosphère", "L'azote de l'air est naturellement bleu", "L'atmosphère diffuse davantage la lumière bleue que les autres couleurs", "C'est une illusion causée par nos yeux"],
       "correctIndex": 2,
-      "explanation": "L’azote représente environ 78 % de l’atmosphère terrestre. L’oxygène arrive en seconde position, mais c’est bien l’azote qui domine largement la composition de l’air que nous respirons."
+      "explanation": "La lumière du Soleil contient toutes les couleurs, mais l'atmosphère terrestre diffuse beaucoup plus fortement les longueurs d'onde courtes, comme le bleu, que les longueurs d'onde plus longues comme le rouge — un phénomène appelé diffusion de Rayleigh. C'est cette diffusion préférentielle de la lumière bleue dans toutes les directions du ciel qui lui donne sa couleur caractéristique, alors qu'au lever et au coucher du soleil, la lumière traverse une épaisseur d'atmosphère plus grande, ce qui filtre le bleu et laisse dominer les teintes rouge-orangé."
     },
     {
       "id": "cgsn-12",
       "question": "Comment appelle-t-on la transformation de l’eau liquide en vapeur ?",
       "image": null,
       "imagePrompt": "water evaporation science cycle diagram",
-      "answers": [
-        "La condensation",
-        "La fusion",
-        "La solidification",
-        "L’évaporation"
-      ],
+      "answers": ["La condensation", "La fusion", "La solidification", "L’évaporation"],
       "correctIndex": 3,
       "explanation": "L’évaporation est le passage de l’eau liquide à l’état gazeux. Ce phénomène est essentiel dans le cycle de l’eau, car il permet notamment la formation des nuages après condensation."
     },
@@ -189,12 +129,7 @@
       "question": "Quel est l’astre situé au centre du système solaire ?",
       "image": null,
       "imagePrompt": "sun center solar system astronomy educational",
-      "answers": [
-        "Le Soleil",
-        "La Terre",
-        "Jupiter",
-        "La Lune"
-      ],
+      "answers": ["Le Soleil", "La Terre", "Jupiter", "La Lune"],
       "correctIndex": 0,
       "explanation": "Le Soleil est l’étoile au centre du système solaire. Il concentre l’immense majorité de sa masse et fournit l’énergie indispensable à la vie sur Terre sous forme de lumière et de chaleur."
     },
@@ -203,12 +138,7 @@
       "question": "Quel organe du corps humain filtre le sang et produit l’urine ?",
       "image": null,
       "imagePrompt": "kidneys human anatomy medical diagram",
-      "answers": [
-        "Le foie",
-        "Le rein",
-        "Le pancréas",
-        "L’intestin"
-      ],
+      "answers": ["Le foie", "Le rein", "Le pancréas", "L’intestin"],
       "correctIndex": 1,
       "explanation": "Les reins filtrent le sang pour éliminer les déchets et l’excès d’eau, qui sont ensuite évacués sous forme d’urine. Ils jouent aussi un rôle important dans l’équilibre des sels minéraux et de la pression artérielle."
     },
@@ -217,13 +147,8 @@
       "question": "Quel phénomène explique principalement l’alternance du jour et de la nuit sur Terre ?",
       "image": null,
       "imagePrompt": "earth rotation day night cycle space illustration",
-      "answers": [
-        "La révolution de la Terre autour du Soleil",
-        "La rotation de la Terre sur elle-même",
-        "L’inclinaison de l’axe terrestre",
-        "Le mouvement de la Lune"
-      ],
-      "correctIndex": 1,
+      "answers": ["La révolution de la Terre autour du Soleil", "L’inclinaison de l’axe terrestre", "La rotation de la Terre sur elle-même", "Le mouvement de la Lune"],
+      "correctIndex": 2,
       "explanation": "Le jour et la nuit sont dus à la rotation de la Terre sur elle-même en environ 24 heures. À mesure que la planète tourne, chaque région passe successivement face au Soleil puis dans l’ombre."
     },
     {
@@ -231,13 +156,8 @@
       "question": "Quel animal est capable de respirer à la fois dans l’eau et sur terre au cours de sa vie ?",
       "image": null,
       "imagePrompt": "frog amphibian pond nature lifecycle",
-      "answers": [
-        "Le dauphin",
-        "La grenouille",
-        "Le crocodile",
-        "Le requin"
-      ],
-      "correctIndex": 1,
+      "answers": ["Le dauphin", "Le crocodile", "Le requin", "La grenouille"],
+      "correctIndex": 3,
       "explanation": "La grenouille est un amphibien. Elle passe généralement par un stade larvaire aquatique sous forme de têtard, puis mène une vie adulte pouvant alterner entre l’eau et la terre."
     },
     {
@@ -245,12 +165,7 @@
       "question": "Quel est le nom du phénomène par lequel les continents se déplacent lentement à la surface de la Terre ?",
       "image": null,
       "imagePrompt": "plate tectonics continents drift earth geology map",
-      "answers": [
-        "La tectonique des plaques",
-        "L’érosion continentale",
-        "La submersion marine",
-        "La sédimentation"
-      ],
+      "answers": ["La tectonique des plaques", "L’érosion continentale", "La submersion marine", "La sédimentation"],
       "correctIndex": 0,
       "explanation": "La tectonique des plaques explique le déplacement lent des continents et des fonds océaniques. Ce phénomène est à l’origine des séismes, de la formation de chaînes de montagnes et de l’activité volcanique."
     },
@@ -259,12 +174,7 @@
       "question": "Quelle planète est la plus proche du Soleil ?",
       "image": null,
       "imagePrompt": "mercury planet space astronomy surface",
-      "answers": [
-        "Vénus",
-        "Mercure",
-        "Mars",
-        "Jupiter"
-      ],
+      "answers": ["Vénus", "Mercure", "Mars", "Jupiter"],
       "correctIndex": 1,
       "explanation": "Mercure est la planète la plus proche du Soleil. Malgré cela, ce n’est pas la plus chaude du système solaire : ce record revient à Vénus, à cause de son effet de serre extrême."
     },
@@ -273,12 +183,7 @@
       "question": "Quel groupe sanguin est souvent appelé donneur universel pour les globules rouges ?",
       "image": null,
       "imagePrompt": "blood type medical transfusion healthcare",
-      "answers": [
-        "AB+",
-        "A-",
-        "O-",
-        "B+"
-      ],
+      "answers": ["AB+", "A-", "O-", "B+"],
       "correctIndex": 2,
       "explanation": "Le groupe O négatif est souvent qualifié de donneur universel pour les globules rouges. Il peut être transfusé dans des situations d’urgence lorsqu’on ne connaît pas immédiatement le groupe sanguin du patient."
     },
@@ -287,12 +192,7 @@
       "question": "Quel type de roche se forme à partir du refroidissement du magma ou de la lave ?",
       "image": null,
       "imagePrompt": "volcanic rock magma cooling geology nature",
-      "answers": [
-        "Roche sédimentaire",
-        "Roche métamorphique",
-        "Roche calcaire",
-        "Roche magmatique"
-      ],
+      "answers": ["Roche sédimentaire", "Roche métamorphique", "Roche calcaire", "Roche magmatique"],
       "correctIndex": 3,
       "explanation": "Les roches magmatiques se forment lorsque le magma ou la lave refroidissent puis se solidifient. Elles peuvent se former en profondeur, comme le granite, ou en surface, comme le basalte."
     }

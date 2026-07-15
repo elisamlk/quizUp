@@ -23,7 +23,7 @@
       "imagePrompt": "blue whale ocean giant animal",
       "answers": ["Requin-baleine", "Éléphant", "Baleine bleue", "Orque"],
       "correctIndex": 2,
-      "explanation": "La baleine bleue peut dépasser 30 mètres de long et peser jusqu’à 180 tonnes."
+      "explanation": "La baleine bleue peut dépasser 30 mètres de long et peser jusqu'à 180 tonnes, ce qui en fait non seulement le plus grand animal vivant, mais aussi le plus grand ayant jamais existé, surpassant même les plus grands dinosaures connus."
     },
     {
       "id": "cgan-2",
@@ -32,7 +32,7 @@
       "imagePrompt": "cheetah running savannah wildlife speed",
       "answers": ["Guépard", "Lion", "Antilope", "Léopard"],
       "correctIndex": 0,
-      "explanation": "Le guépard peut atteindre environ 110 km/h sur de courtes distances."
+      "explanation": "Le guépard peut atteindre environ 110 km/h sur de courtes distances, mais seulement pendant quelques secondes : cet effort intense l'épuise très vite, et il doit renoncer s'il ne capture pas sa proie en moins d'une minute."
     },
     {
       "id": "cgan-3",
@@ -41,7 +41,7 @@
       "imagePrompt": "bat flying night wildlife",
       "answers": ["Écureuil volant", "Chauve-souris", "Colibri", "Pigeon"],
       "correctIndex": 1,
-      "explanation": "La chauve-souris est le seul mammifère capable de voler activement."
+      "explanation": "La chauve-souris est le seul mammifère capable de voler activement grâce à un vol battu. D'autres mammifères, comme l'écureuil volant, ne font que planer sur de courtes distances sans jamais réellement voler."
     },
     {
       "id": "cgan-4",
@@ -50,7 +50,7 @@
       "imagePrompt": "elephant herd wildlife africa",
       "answers": ["Girafe", "Rhinocéros", "Éléphant", "Hippopotame"],
       "correctIndex": 2,
-      "explanation": "La gestation de l’éléphant dure environ 22 mois."
+      "explanation": "La gestation de l'éléphant dure environ 22 mois, la plus longue parmi les mammifères terrestres. Cette longue durée permet au petit de naître avec un cerveau déjà bien développé et de savoir marcher presque immédiatement."
     },
     {
       "id": "cgan-5",
@@ -59,7 +59,7 @@
       "imagePrompt": "parrot colorful bird talking mimic",
       "answers": ["Perroquet", "Hibou", "Corbeau", "Aigle"],
       "correctIndex": 0,
-      "explanation": "Les perroquets sont capables d’imiter des sons complexes et même des mots."
+      "explanation": "Les perroquets sont capables d'imiter des sons complexes et même des mots grâce à un organe vocal appelé syrinx. Certains individus, comme le célèbre perroquet gris du Gabon Alex, ont démontré une compréhension partielle du vocabulaire employé, au-delà de la simple répétition."
     },
     {
       "id": "cgan-6",
@@ -68,7 +68,7 @@
       "imagePrompt": "tiger wildlife jungle portrait",
       "answers": ["Lion", "Jaguar", "Léopard", "Tigre"],
       "correctIndex": 3,
-      "explanation": "Le tigre de Sibérie est le plus grand félin existant."
+      "explanation": "Le tigre de Sibérie (ou tigre de l'Amour) est le plus grand félin existant : les mâles peuvent peser jusqu'à 300 kg et mesurer plus de 3 mètres de long, queue comprise."
     },
     {
       "id": "cgan-7",
@@ -77,7 +77,7 @@
       "imagePrompt": "chameleon colorful reptile branch",
       "answers": ["Caméléon", "Gecko", "Iguane", "Serpent"],
       "correctIndex": 0,
-      "explanation": "Le caméléon change de couleur grâce à des cellules appelées chromatophores."
+      "explanation": "Le caméléon change de couleur grâce à des cellules appelées chromatophores, situées sous sa peau. Contrairement à une idée reçue, ce changement sert surtout à communiquer ou à réguler sa température plutôt qu'à se camoufler."
     },
     {
       "id": "cgan-8",
@@ -86,7 +86,7 @@
       "imagePrompt": "whale shark ocean giant fish",
       "answers": ["Raie manta", "Requin-baleine", "Requin blanc", "Espadon"],
       "correctIndex": 1,
-      "explanation": "Le requin-baleine peut atteindre plus de 12 mètres de long."
+      "explanation": "Le requin-baleine peut atteindre plus de 12 mètres de long, ce qui en fait le plus grand poisson (la baleine bleue, elle, est un mammifère). Malgré sa taille impressionnante, il se nourrit presque exclusivement de plancton et de petits poissons qu'il filtre en nageant bouche ouverte."
     },
     {
       "id": "cgan-9",
@@ -95,7 +95,7 @@
       "imagePrompt": "elephant trunk wildlife africa",
       "answers": ["Tapir", "Morse", "Rhinocéros", "Éléphant"],
       "correctIndex": 3,
-      "explanation": "La trompe de l’éléphant contient des milliers de muscles."
+      "explanation": "La trompe de l'éléphant contient environ 40 000 muscles, contre environ 650 pour tout le corps humain, ce qui lui permet à la fois une force impressionnante et une extrême précision, comme ramasser une petite noisette au sol."
     },
     {
       "id": "cgan-10",
@@ -104,7 +104,7 @@
       "imagePrompt": "octopus underwater ocean animal",
       "answers": ["Pieuvre", "Calmar", "Seiche", "Méduse"],
       "correctIndex": 0,
-      "explanation": "La pieuvre possède huit bras munis de ventouses."
+      "explanation": "La pieuvre possède huit bras munis de ventouses, chacun contenant son propre réseau de neurones, ce qui lui permet d'agir de façon quasi autonome par rapport au cerveau central. Le calmar et la seiche, eux, possèdent en plus deux longs tentacules, soit dix appendices au total."
     },
     {
       "id": "cgan-11",
@@ -113,7 +113,7 @@
       "imagePrompt": "beaver dam river wildlife",
       "answers": ["Castor", "Loutre", "Rat musqué", "Blaireau"],
       "correctIndex": 0,
-      "explanation": "Les castors construisent des barrages pour créer des étangs."
+      "explanation": "Les castors construisent des barrages pour créer des étangs qui protègent l'entrée de leur hutte des prédateurs. Ce sont, avec l'être humain, l'une des rares espèces capables de modifier durablement leur environnement à cette échelle."
     },
     {
       "id": "cgan-12",
@@ -122,7 +122,7 @@
       "imagePrompt": "giraffe long neck savannah",
       "answers": ["Girafe", "Chameau", "Autruche", "Élan"],
       "correctIndex": 0,
-      "explanation": "La girafe possède un cou pouvant dépasser deux mètres."
+      "explanation": "La girafe possède un cou pouvant dépasser deux mètres, mais celui-ci ne compte, comme chez la plupart des mammifères (y compris l'humain), que sept vertèbres cervicales, chacune étant simplement beaucoup plus allongée."
     },
     {
       "id": "cgan-13",
@@ -131,7 +131,7 @@
       "imagePrompt": "bat hanging cave wildlife",
       "answers": ["Paresseux", "Chauve-souris", "Koala", "Opossum"],
       "correctIndex": 1,
-      "explanation": "Les chauves-souris dorment suspendues dans les grottes ou les arbres."
+      "explanation": "Les chauves-souris dorment suspendues la tête en bas dans les grottes ou les arbres : un mécanisme tendineux se verrouille sous leur propre poids, ce qui leur permet de rester accrochées sans le moindre effort musculaire."
     },
     {
       "id": "cgan-14",
@@ -140,7 +140,7 @@
       "imagePrompt": "ostrich bird savannah wildlife",
       "answers": ["Condor", "Aigle", "Autruche", "Albatros"],
       "correctIndex": 2,
-      "explanation": "L’autruche peut mesurer plus de 2,5 mètres."
+      "explanation": "L'autruche peut mesurer plus de 2,5 mètres et peser jusqu'à 150 kg, ce qui en fait aussi le plus lourd oiseau vivant. Incapable de voler, elle peut néanmoins courir à plus de 70 km/h."
     },
     {
       "id": "cgan-15",
@@ -149,16 +149,16 @@
       "imagePrompt": "sloth hanging tree jungle",
       "answers": ["Koala", "Paresseux", "Escargot", "Tortue"],
       "correctIndex": 1,
-      "explanation": "Le paresseux se déplace extrêmement lentement."
+      "explanation": "Le paresseux se déplace extrêmement lentement, à environ 2 mètres par minute au sol, et peut passer 15 à 20 heures par jour à dormir ou se reposer, un rythme métabolique très économe en énergie."
     },
     {
       "id": "cgan-16",
-      "question": "Quel animal peut produire de l’encre pour se défendre ?",
+      "question": "Lequel de ces céphalopodes produit de l'encre pour se défendre et possède dix appendices (huit bras et deux longs tentacules) ?",
       "image": null,
       "imagePrompt": "squid underwater ink defense",
       "answers": ["Pieuvre", "Calmar", "Méduse", "Crabe"],
       "correctIndex": 1,
-      "explanation": "Les calmars libèrent de l’encre pour échapper aux prédateurs."
+      "explanation": "Le calmar libère un nuage d'encre pour échapper aux prédateurs, tout comme la pieuvre d'ailleurs. Ce qui le distingue, c'est qu'il possède dix appendices (huit bras plus deux longs tentacules munis de ventouses), contre huit bras seulement chez la pieuvre, qui n'a pas de tentacules."
     },
     {
       "id": "cgan-17",
@@ -167,7 +167,7 @@
       "imagePrompt": "giant tortoise wildlife island",
       "answers": ["Escargot", "Tortue", "Crabe", "Tatou"],
       "correctIndex": 1,
-      "explanation": "Certaines tortues géantes peuvent vivre plus d’un siècle."
+      "explanation": "Certaines tortues géantes, comme celles des Galápagos ou des Seychelles, peuvent vivre plus d'un siècle. Jonathan, une tortue des Seychelles née vers 1832, est considérée comme le plus vieil animal terrestre vivant connu."
     },
     {
       "id": "cgan-18",
@@ -176,25 +176,25 @@
       "imagePrompt": "giant panda bamboo forest",
       "answers": ["Panda", "Dragon de Komodo", "Ours brun", "Tigre"],
       "correctIndex": 0,
-      "explanation": "Le panda géant est un symbole national de la Chine."
+      "explanation": "Le panda géant est largement considéré comme un symbole national de la Chine, notamment à travers la « panda diplomatie », bien qu'il ne s'agisse pas d'un emblème officiellement légiféré. Le dragon reste, lui, le symbole mythologique traditionnel du pays."
     },
     {
       "id": "cgan-19",
-      "question": "Quel animal peut régénérer certains de ses membres ?",
+      "question": "Chez certaines espèces, quel animal peut régénérer un individu entier à partir d'un seul bras sectionné ?",
       "image": null,
       "imagePrompt": "starfish ocean regeneration marine life",
       "answers": ["Crabe", "Homard", "Étoile de mer", "Crevette"],
       "correctIndex": 2,
-      "explanation": "Les étoiles de mer peuvent régénérer un bras perdu."
+      "explanation": "Certaines espèces d'étoiles de mer (comme celles du genre Linckia) peuvent régénérer un individu complet à partir d'un seul bras sectionné, à condition qu'un fragment du disque central y soit attaché. Le homard régénère lui aussi ses pattes et pinces perdues après une mue, mais il ne peut pas reconstituer un individu entier à partir d'un seul membre."
     },
     {
       "id": "cgan-20",
-      "question": "Quel animal peut dormir debout ?",
+      "question": "Quel animal marin pratique un sommeil unihémisphérique, une moitié du cerveau restant éveillée pendant que l'autre se repose ?",
       "image": null,
-      "imagePrompt": "horse standing field animal",
-      "answers": ["Zèbre", "Vache", "Bison", "Cheval"],
-      "correctIndex": 3,
-      "explanation": "Les chevaux peuvent dormir debout grâce à un mécanisme musculaire spécial."
+      "imagePrompt": "dolphin swimming ocean marine mammal",
+      "answers": ["Requin", "Poisson-lune", "Dauphin", "Thon"],
+      "correctIndex": 2,
+      "explanation": "Le dauphin pratique un sommeil unihémisphérique : une moitié de son cerveau reste éveillée pendant que l'autre se repose, ce qui lui permet de continuer à nager et à remonter régulièrement à la surface pour respirer, sans jamais perdre totalement conscience."
     }
   ]
 }

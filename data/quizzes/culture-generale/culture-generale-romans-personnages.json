@@ -18,29 +18,19 @@
   "questions": [
     {
       "id": "pr-1",
-      "question": "Dans quel roman apparaît le détective Sherlock Holmes ?",
+      "question": "Quel auteur a créé le personnage de Sherlock Holmes ?",
       "image": null,
       "imagePrompt": "sherlock holmes detective london fog pipe",
-      "answers": [
-        "Le Chien des Baskerville",
-        "Dracula",
-        "Frankenstein",
-        "Le Horla"
-      ],
+      "answers": ["Arthur Conan Doyle", "Agatha Christie", "Wilkie Collins", "G. K. Chesterton"],
       "correctIndex": 0,
-      "explanation": "Sherlock Holmes est le célèbre détective créé par Arthur Conan Doyle. Il apparaît dans plusieurs récits, dont Le Chien des Baskerville, considéré comme l’un des plus emblématiques."
+      "explanation": "Arthur Conan Doyle crée Sherlock Holmes en 1887 dans « Une étude en rouge ». Le personnage, doté d'un sens de l'observation et d'une logique déductive hors norme, devient l'un des détectives les plus adaptés au cinéma et à la télévision de toute l'histoire de la littérature."
     },
     {
       "id": "pr-2",
       "question": "Emma Bovary est l’héroïne de quel roman ?",
       "image": null,
       "imagePrompt": "emma bovary romantic countryside france",
-      "answers": [
-        "Le Rouge et le Noir",
-        "Madame Bovary",
-        "Bel-Ami",
-        "Germinal"
-      ],
+      "answers": ["Le Rouge et le Noir", "Madame Bovary", "Bel-Ami", "Germinal"],
       "correctIndex": 1,
       "explanation": "Emma Bovary est le personnage central du roman de Flaubert. Elle incarne les frustrations et les illusions de la petite bourgeoisie du XIXe siècle."
     },
@@ -49,12 +39,7 @@
       "question": "Dans quelle œuvre suit-on le destin de Jean Valjean ?",
       "image": null,
       "imagePrompt": "jean valjean paris revolution poor man",
-      "answers": [
-        "Notre-Dame de Paris",
-        "Germinal",
-        "Les Misérables",
-        "Le Père Goriot"
-      ],
+      "answers": ["Notre-Dame de Paris", "Germinal", "Les Misérables", "Le Père Goriot"],
       "correctIndex": 2,
       "explanation": "Jean Valjean est le personnage central des Misérables de Victor Hugo. Son parcours illustre les thèmes de justice, de rédemption et de misère sociale."
     },
@@ -63,13 +48,8 @@
       "question": "Dans quel roman rencontre-t-on le comte Dracula ?",
       "image": null,
       "imagePrompt": "dracula gothic castle night vampire",
-      "answers": [
-        "Frankenstein",
-        "Dracula",
-        "Le Horla",
-        "Faust"
-      ],
-      "correctIndex": 1,
+      "answers": ["Frankenstein", "Le Horla", "Faust", "Dracula"],
+      "correctIndex": 3,
       "explanation": "Le personnage de Dracula, créé par Bram Stoker, est devenu une figure majeure de la littérature gothique et du mythe du vampire moderne."
     },
     {
@@ -77,12 +57,7 @@
       "question": "Dans quel roman suit-on les aventures d’un chevalier errant combattant des moulins ?",
       "image": null,
       "imagePrompt": "knight windmills don quixote horse landscape",
-      "answers": [
-        "Don Quichotte",
-        "Candide",
-        "Lazarillo de Tormes",
-        "La Chartreuse de Parme"
-      ],
+      "answers": ["Don Quichotte", "Candide", "Lazarillo de Tormes", "La Chartreuse de Parme"],
       "correctIndex": 0,
       "explanation": "Don Quichotte, imaginé par Cervantes, est une satire des romans de chevalerie et l’un des premiers grands romans modernes."
     },
@@ -91,12 +66,7 @@
       "question": "Quel roman met en scène un mystérieux millionnaire nommé Gatsby ?",
       "image": null,
       "imagePrompt": "gatsby party 1920s luxury suit champagne",
-      "answers": [
-        "Moby Dick",
-        "Gatsby le Magnifique",
-        "Sur la route",
-        "Les Raisins de la colère"
-      ],
+      "answers": ["Moby Dick", "Gatsby le Magnifique", "Sur la route", "Les Raisins de la colère"],
       "correctIndex": 1,
       "explanation": "Jay Gatsby est au cœur du roman de Fitzgerald. Il incarne le rêve américain, mais aussi ses illusions et ses dérives."
     },
@@ -105,13 +75,8 @@
       "question": "Dans quel roman suit-on un homme nommé Meursault, indifférent face au monde ?",
       "image": null,
       "imagePrompt": "alger sun existential loneliness camus",
-      "answers": [
-        "La Peste",
-        "L’Étranger",
-        "La Chute",
-        "Noces"
-      ],
-      "correctIndex": 1,
+      "answers": ["La Peste", "La Chute", "L’Étranger", "Noces"],
+      "correctIndex": 2,
       "explanation": "Meursault est le narrateur de L’Étranger de Camus. Il incarne la philosophie de l’absurde et le détachement émotionnel."
     },
     {
@@ -119,13 +84,8 @@
       "question": "Dans quelle saga suit-on un jeune sorcier marqué par une cicatrice en forme d’éclair ?",
       "image": null,
       "imagePrompt": "young wizard lightning scar magic school castle",
-      "answers": [
-        "Le Seigneur des Anneaux",
-        "Narnia",
-        "Harry Potter",
-        "Eragon"
-      ],
-      "correctIndex": 2,
+      "answers": ["Le Seigneur des Anneaux", "Narnia", "Eragon", "Harry Potter"],
+      "correctIndex": 3,
       "explanation": "Ce personnage est Harry Potter, héros d’une saga mondiale. Son parcours mélange apprentissage, lutte contre le mal et construction identitaire."
     },
     {
@@ -133,13 +93,8 @@
       "question": "Dans quel roman un homme se réveille-t-il transformé en insecte ?",
       "image": null,
       "imagePrompt": "man insect room kafka surreal dark",
-      "answers": [
-        "Le Procès",
-        "La Métamorphose",
-        "Le Château",
-        "Amerika"
-      ],
-      "correctIndex": 1,
+      "answers": ["La Métamorphose", "Le Procès", "Le Château", "Amerika"],
+      "correctIndex": 0,
       "explanation": "La Métamorphose de Kafka met en scène Gregor Samsa. Cette transformation symbolise l’aliénation et la perte d’identité."
     },
     {
@@ -147,12 +102,7 @@
       "question": "Dans quel roman suit-on un étudiant commettant un meurtre pour des raisons philosophiques ?",
       "image": null,
       "imagePrompt": "dark room guilt russian novel psychological",
-      "answers": [
-        "Anna Karénine",
-        "Crime et Châtiment",
-        "Guerre et Paix",
-        "Les Démons"
-      ],
+      "answers": ["Anna Karénine", "Crime et Châtiment", "Guerre et Paix", "Les Démons"],
       "correctIndex": 1,
       "explanation": "Raskolnikov, dans Crime et Châtiment, incarne les conflits moraux et la culpabilité dans une réflexion profonde sur le bien et le mal."
     },
@@ -161,13 +111,8 @@
       "question": "Dans quel roman un scientifique donne-t-il vie à une créature artificielle ?",
       "image": null,
       "imagePrompt": "mad scientist laboratory lightning creature gothic",
-      "answers": [
-        "Frankenstein",
-        "Dracula",
-        "Faust",
-        "Le Horla"
-      ],
-      "correctIndex": 0,
+      "answers": ["Dracula", "Faust", "Frankenstein", "Le Horla"],
+      "correctIndex": 2,
       "explanation": "Le roman de Mary Shelley explore les limites de la science et la responsabilité du créateur envers sa création."
     },
     {
@@ -175,41 +120,26 @@
       "question": "Dans quel roman un avocat défend-il un homme noir dans une affaire de racisme ?",
       "image": null,
       "imagePrompt": "courtroom justice southern usa lawyer trial",
-      "answers": [
-        "Sur la route",
-        "Ne tirez pas sur l’oiseau moqueur",
-        "1984",
-        "Les Raisins de la colère"
-      ],
-      "correctIndex": 1,
+      "answers": ["Sur la route", "1984", "Les Raisins de la colère", "Ne tirez pas sur l’oiseau moqueur"],
+      "correctIndex": 3,
       "explanation": "Atticus Finch est un symbole de justice et de courage moral dans un contexte de ségrégation raciale."
     },
     {
       "id": "pr-13",
-      "question": "Dans quel roman vit un homme sous surveillance constante d’un régime totalitaire ?",
+      "question": "« Big Brother vous regarde » est une citation tirée de quel roman ?",
       "image": null,
       "imagePrompt": "big brother surveillance dystopia dark city",
-      "answers": [
-        "1984",
-        "Le Meilleur des mondes",
-        "Fahrenheit 451",
-        "Nous autres"
-      ],
+      "answers": ["1984", "Le Meilleur des mondes", "Fahrenheit 451", "Nous autres"],
       "correctIndex": 0,
-      "explanation": "Winston Smith vit sous le contrôle de Big Brother dans 1984. Le roman explore la manipulation, la surveillance et le pouvoir."
+      "explanation": "Cette phrase, omniprésente dans « 1984 » de George Orwell (1949), résume l'atmosphère de surveillance permanente imposée par le régime totalitaire d'Océania, où même les pensées des citoyens sont scrutées par la Police de la Pensée."
     },
     {
       "id": "pr-14",
       "question": "Dans quel roman un homme conserve sa jeunesse grâce à un portrait qui vieillit à sa place ?",
       "image": null,
       "imagePrompt": "young man mirror portrait aging gothic",
-      "answers": [
-        "Le Portrait de Dorian Gray",
-        "Dracula",
-        "Frankenstein",
-        "Jane Eyre"
-      ],
-      "correctIndex": 0,
+      "answers": ["Dracula", "Le Portrait de Dorian Gray", "Frankenstein", "Jane Eyre"],
+      "correctIndex": 1,
       "explanation": "Dorian Gray incarne la quête de jeunesse éternelle et les conséquences morales de l’hédonisme."
     },
     {
@@ -217,41 +147,26 @@
       "question": "Dans quel roman suit-on Elizabeth Bennet et ses relations sociales et amoureuses ?",
       "image": null,
       "imagePrompt": "regency england dress ballroom romance",
-      "answers": [
-        "Emma",
-        "Orgueil et Préjugés",
-        "Jane Eyre",
-        "Les Hauts de Hurlevent"
-      ],
-      "correctIndex": 1,
+      "answers": ["Emma", "Jane Eyre", "Orgueil et Préjugés", "Les Hauts de Hurlevent"],
+      "correctIndex": 2,
       "explanation": "Elizabeth Bennet est une héroïne moderne par son intelligence et son indépendance dans un cadre social très codifié."
     },
     {
       "id": "pr-16",
-      "question": "Dans quel roman un capitaine poursuit-il obsessionnellement une baleine blanche ?",
+      "question": "Comment s'appelle le capitaine obsédé par la baleine blanche dans Moby Dick ?",
       "image": null,
       "imagePrompt": "whale storm ship ocean obsession captain",
-      "answers": [
-        "L’Île au trésor",
-        "Moby Dick",
-        "Robinson Crusoé",
-        "Vingt mille lieues sous les mers"
-      ],
-      "correctIndex": 1,
-      "explanation": "Le capitaine Ahab incarne l’obsession destructrice face à une force naturelle insaisissable."
+      "answers": ["Ismaël", "Starbuck", "Queequeg", "Achab"],
+      "correctIndex": 3,
+      "explanation": "Le capitaine Achab, marqué dans sa chair après avoir perdu une jambe lors d'une précédente rencontre avec la baleine blanche, consacre toute son énergie et celle de son équipage à une vengeance obsessionnelle qui finira par causer sa perte. Le roman est narré par Ismaël, l'un des rares survivants du naufrage final."
     },
     {
       "id": "pr-17",
       "question": "Dans quel roman suit-on un adolescent en crise rejetant la société adulte ?",
       "image": null,
       "imagePrompt": "teenager city alienation new york lonely",
-      "answers": [
-        "Sur la route",
-        "L’Attrape-cœurs",
-        "Fight Club",
-        "American Psycho"
-      ],
-      "correctIndex": 1,
+      "answers": ["L’Attrape-cœurs", "Sur la route", "Fight Club", "American Psycho"],
+      "correctIndex": 0,
       "explanation": "Holden Caulfield est devenu une figure emblématique du malaise adolescent et de la critique sociale."
     },
     {
@@ -259,42 +174,27 @@
       "question": "Dans quelle saga une jeune femme participe-t-elle à des jeux mortels organisés par un pouvoir autoritaire ?",
       "image": null,
       "imagePrompt": "girl bow arena dystopia fire survival",
-      "answers": [
-        "Divergente",
-        "Hunger Games",
-        "Maze Runner",
-        "Twilight"
-      ],
+      "answers": ["Divergente", "Hunger Games", "Maze Runner", "Twilight"],
       "correctIndex": 1,
       "explanation": "Katniss Everdeen incarne la résistance et la révolte face à un système oppressif."
     },
     {
       "id": "pr-19",
-      "question": "Dans quel roman suit-on un marin obsédé par une créature gigantesque ?",
+      "question": "Dans quel roman un naufragé survit-il seul sur une île déserte pendant près de 28 ans ?",
       "image": null,
-      "imagePrompt": "ship ocean obsession captain storm dark",
-      "answers": [
-        "Moby Dick",
-        "L’Île au trésor",
-        "Robinson Crusoé",
-        "Le Comte de Monte-Cristo"
-      ],
-      "correctIndex": 0,
-      "explanation": "L’obsession du capitaine Ahab pour la baleine devient une métaphore de la folie humaine et de la quête impossible."
+      "imagePrompt": "shipwreck deserted island survival robinson crusoe",
+      "answers": ["L’Île au trésor", "Sa Majesté des Mouches", "Robinson Crusoé", "Vingt mille lieues sous les mers"],
+      "correctIndex": 2,
+      "explanation": "Robinson Crusoé, roman de Daniel Defoe publié en 1719, raconte la survie d'un naufragé anglais sur une île déserte, où il doit reconstruire seul les bases d'une civilisation avant de rencontrer son compagnon Vendredi. Considéré comme l'un des premiers romans anglais modernes, il a donné naissance au terme « robinsonnade » pour désigner ce type de récit de survie insulaire."
     },
     {
       "id": "pr-20",
-      "question": "Dans quelle œuvre un petit hobbit doit-il détruire un anneau maléfique ?",
+      "question": "Quel objet Frodon doit-il détruire dans les flammes de la Montagne du Destin pour vaincre Sauron ?",
       "image": null,
       "imagePrompt": "hobbit ring volcano fantasy journey",
-      "answers": [
-        "Le Hobbit",
-        "Narnia",
-        "Le Seigneur des Anneaux",
-        "Harry Potter"
-      ],
-      "correctIndex": 2,
-      "explanation": "Frodon incarne le héros ordinaire confronté à une mission extraordinaire dans un univers riche et complexe."
+      "answers": ["Une épée maudite", "Un miroir magique", "Une couronne noire", "L’Anneau unique"],
+      "correctIndex": 3,
+      "explanation": "L'Anneau unique, forgé par Sauron pour dominer tous les autres anneaux de pouvoir, doit être détruit dans le seul endroit où il a été créé : les forges de la Montagne du Destin, au cœur du Mordor. Cette quête constitue le fil conducteur du « Seigneur des Anneaux » de J.R.R. Tolkien."
     }
   ]
 }

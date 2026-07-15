@@ -21,43 +21,43 @@
       "question": "Quelle est la bonne orthographe ?",
       "image": null,
       "imagePrompt": "french spelling quiz word",
-      "answers": ["Acceuil", "Accueille", "Accueil", "Aceuill"],
-      "correctIndex": 2,
+      "answers": ["Accueil", "Acceuil", "Accueille", "Aceuill"],
+      "correctIndex": 0,
       "explanation": "« Accueil » vient du verbe « accueillir » mais perd le double L final. Astuce : pense à « cueillir » → un seul L."
     },
     {
       "id": "spell-2",
       "question": "Quelle est la bonne orthographe ?",
-      "answers": ["Parmis", "Parmie", "Parmi", "Parmies"],
-      "correctIndex": 2,
+      "answers": ["Parmis", "Parmi", "Parmie", "Parmies"],
+      "correctIndex": 1,
       "explanation": "« Parmi » ne prend jamais de S. Contrairement à « mis », il reste invariable."
     },
     {
       "id": "spell-3",
-      "question": "Quelle est la bonne orthographe ?",
-      "answers": ["Connaitre", "Connaître", "Conaitre", "Connaitre"],
-      "correctIndex": 1,
-      "explanation": "L’accent circonflexe rappelle l’ancien « s » (connaistre). Il aide à distinguer le mot."
+      "question": "Quelle est la graphie traditionnelle de ce verbe (« savoir », « être familier avec ») ?",
+      "answers": ["Connaitre", "Conaître", "Connaître", "Connaîttre"],
+      "correctIndex": 2,
+      "explanation": "« Connaître » est la graphie traditionnelle. Depuis les rectifications de 1990, « connaitre » est également admis, sur le même principe que « paraître »/« paraitre » : l'accent circonflexe sur le i devient facultatif dans de nombreux mots où il ne change pas la prononciation. En revanche, « conaître » (un seul N) et « connaîttre » (deux T) restent de vraies fautes, dans un cas comme dans l'autre."
     },
     {
       "id": "spell-4",
       "question": "Quelle est la bonne orthographe ?",
-      "answers": ["Definitivement", "Définitivement", "Déffinitivement", "Définitivment"],
-      "correctIndex": 1,
+      "answers": ["Definitivement", "Déffinitivement", "Définitivment", "Définitivement"],
+      "correctIndex": 3,
       "explanation": "Le mot vient de « définitif » → un seul F et tous les accents doivent être conservés."
     },
     {
       "id": "spell-5",
       "question": "Quelle est la bonne orthographe ?",
-      "answers": ["Apparement", "Apparemment", "Aparament", "Apparament"],
-      "correctIndex": 1,
+      "answers": ["Apparemment", "Apparement", "Aparament", "Apparament"],
+      "correctIndex": 0,
       "explanation": "« Apparemment » contient deux M car il vient de « apparent »."
     },
     {
       "id": "spell-6",
       "question": "Quelle est la bonne orthographe ?",
-      "answers": ["Raisonnement", "Raisonement", "Raisonnment", "Raisonemment"],
-      "correctIndex": 0,
+      "answers": ["Raisonement", "Raisonnement", "Raisonnment", "Raisonemment"],
+      "correctIndex": 1,
       "explanation": "On double le N car il vient de « raisonner ». Astuce : pense au verbe."
     },
     {
@@ -70,8 +70,8 @@
     {
       "id": "spell-8",
       "question": "Quelle est la bonne orthographe ?",
-      "answers": ["Agressif", "Aggressif", "Agresif", "Aggréssif"],
-      "correctIndex": 0,
+      "answers": ["Aggressif", "Agresif", "Aggréssif", "Agressif"],
+      "correctIndex": 3,
       "explanation": "« Agressif » contient deux S et un seul G. Astuce : pense à « agresser »."
     },
     {
@@ -98,50 +98,50 @@
     {
       "id": "spell-12",
       "question": "Quelle est la bonne orthographe ?",
-      "answers": ["Exsistence", "Existance", "Existence", "Existancee"],
-      "correctIndex": 2,
+      "answers": ["Exsistence", "Existance", "Existancee", "Existence"],
+      "correctIndex": 3,
       "explanation": "Le mot vient du latin « existere », donc « existence » avec un E."
     },
     {
       "id": "spell-13",
       "question": "Quelle est la bonne orthographe ?",
-      "answers": ["Deja", "Déja", "Déjà", "Déjàh"],
-      "correctIndex": 2,
-      "explanation": "« Déjà » prend un accent grave sur le A. Sans lui, le mot est incorrect."
+      "answers": ["Déjà", "Deja", "Déja", "Déjàh"],
+      "correctIndex": 0,
+      "explanation": "« Déjà » comporte deux accents : un accent aigu sur le É et un accent grave sur le À. Omettre l'un ou l'autre rend l'orthographe du mot incorrecte."
     },
     {
       "id": "spell-14",
       "question": "Quelle est la bonne orthographe ?",
       "answers": ["Enorme", "Énorme", "Énnorme", "Ennorme"],
       "correctIndex": 1,
-      "explanation": "Tous les mots commençant par É doivent garder l’accent en français."
+      "explanation": "« Énorme » s'écrit avec un accent aigu sur le premier E. En français, les accents doivent toujours être conservés à l'écrit, y compris sur les lettres majuscules (« Énorme », et non « Enorme ») : les omettre est considéré comme une faute, même si l'usage courant les néglige parfois par simplicité typographique."
     },
     {
       "id": "spell-15",
       "question": "Quelle est la bonne orthographe ?",
-      "answers": ["Succes", "Succès", "Sucess", "Succé"],
-      "correctIndex": 1,
+      "answers": ["Succes", "Sucess", "Succès", "Succé"],
+      "correctIndex": 2,
       "explanation": "Le mot prend un accent grave sur le È pour respecter la prononciation."
     },
     {
       "id": "spell-16",
-      "question": "Quelle est la bonne orthographe ?",
-      "answers": ["Événement", "Evènement", "Evenement", "Évenement"],
-      "correctIndex": 0,
-      "explanation": "La forme recommandée moderne est « événement ». L’autre existe mais est moins utilisée."
+      "question": "Quelle est la graphie rectifiée proposée en 1990 pour ce mot ?",
+      "answers": ["Événement", "Evenement", "Évenement", "Évènement"],
+      "correctIndex": 3,
+      "explanation": "« Évènement » est la graphie rectifiée proposée en 1990, avec un accent grave correspondant à la prononciation réelle du mot. La graphie traditionnelle « événement » (deux accents aigus) reste entièrement correcte : les deux formes sont admises par l'Académie française, qui les présente comme des variantes et non comme une opposition entre une forme correcte et une forme fautive. En revanche, « evenement » (sans accent) et « évenement » (accent manquant sur le second E) restent de vraies fautes."
     },
     {
       "id": "spell-17",
       "question": "Quelle est la bonne orthographe ?",
-      "answers": ["Developpement", "Dévellopement", "Développement", "Dévelloppement"],
-      "correctIndex": 2,
+      "answers": ["Développement", "Developpement", "Dévellopement", "Dévelloppement"],
+      "correctIndex": 0,
       "explanation": "Deux P mais un seul L. Astuce : développe → développement."
     },
     {
       "id": "spell-18",
       "question": "Quelle est la bonne orthographe ?",
-      "answers": ["Immédiatement", "Imediatement", "Immediatement", "Immédiatment"],
-      "correctIndex": 0,
+      "answers": ["Imediatement", "Immédiatement", "Immediatement", "Immédiatment"],
+      "correctIndex": 1,
       "explanation": "Deux M car le mot vient de « immédiat »."
     },
     {
@@ -154,9 +154,9 @@
     {
       "id": "spell-20",
       "question": "Quelle est la bonne orthographe ?",
-      "answers": ["Malgrè", "Malgré", "Malgrès", "Malgréh"],
-      "correctIndex": 1,
-      "explanation": "« Malgré » ne prend jamais de S et garde un accent grave."
+      "answers": ["Malgrè", "Malgrès", "Malgréh", "Malgré"],
+      "correctIndex": 3,
+      "explanation": "« Malgré » ne prend jamais de S et garde un accent aigu."
     }
   ]
 }

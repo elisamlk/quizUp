@@ -23,7 +23,7 @@
       "imagePrompt": "frozen vegetables nutrition",
       "answers": ["Oui", "Non", "Seulement légumes", "Oui sauf viande"],
       "correctIndex": 1,
-      "explanation": "Ils sont souvent congelés rapidement après récolte, ce qui préserve les nutriments."
+      "explanation": "Les légumes surgelés sont généralement récoltés à pleine maturité puis congelés très rapidement, ce qui limite la dégradation des vitamines. À l'inverse, des légumes « frais » ayant passé plusieurs jours en transport et en rayon peuvent parfois avoir perdu davantage de nutriments."
     },
     {
       "id": "2",
@@ -31,17 +31,17 @@
       "image": null,
       "imagePrompt": "orange juice sugar",
       "answers": ["Oui", "Non", "Seulement frais", "Oui toujours"],
-      "correctIndex": 3,
-      "explanation": "Il contient beaucoup de sucre et peu de fibres comparé au fruit entier."
+      "correctIndex": 1,
+      "explanation": "Le jus d'orange contient presque autant de sucre qu'un soda pour un apport en fibres bien moindre que celui du fruit entier, la pulpe étant en grande partie éliminée lors de l'extraction. Il est préférable de consommer l'orange entière plutôt que son jus au quotidien."
     },
     {
       "id": "3",
-      "question": "Les humains respirent-ils uniquement avec leurs poumons ?",
+      "question": "La respiration humaine repose-t-elle uniquement sur les poumons, sans intervention d'autres organes ou muscles ?",
       "image": null,
       "imagePrompt": "breathing diaphragm",
       "answers": ["Oui", "Non", "Principalement", "Oui sauf sport"],
-      "correctIndex": 2,
-      "explanation": "Le diaphragme et les muscles jouent un rôle essentiel dans la respiration."
+      "correctIndex": 1,
+      "explanation": "Le diaphragme et les muscles intercostaux jouent un rôle mécanique essentiel : ce sont eux qui font entrer et sortir l'air des poumons en modifiant le volume de la cage thoracique. Les poumons restent le seul organe où s'effectuent les échanges gazeux, mais le processus de respiration dans son ensemble mobilise bien plus que les poumons seuls."
     },
     {
       "id": "4",
@@ -49,8 +49,8 @@
       "image": null,
       "imagePrompt": "organic food",
       "answers": ["Oui", "Non", "Souvent", "Toujours"],
-      "correctIndex": 0,
-      "explanation": "Ils réduisent certains pesticides mais ne sont pas automatiquement plus nutritifs."
+      "correctIndex": 1,
+      "explanation": "Les aliments bio réduisent l'exposition à certains pesticides de synthèse et respectent des cahiers des charges environnementaux plus stricts, mais les études scientifiques n'ont pas démontré qu'ils étaient systématiquement plus nutritifs ou meilleurs pour la santé que leurs équivalents non biologiques."
     },
     {
       "id": "5",
@@ -59,7 +59,7 @@
       "imagePrompt": "screen eyes",
       "answers": ["Oui", "Non", "Oui long terme", "Seulement enfants"],
       "correctIndex": 1,
-      "explanation": "Ils causent surtout de la fatigue visuelle, pas de dommages permanents."
+      "explanation": "Les écrans provoquent surtout une fatigue visuelle numérique (yeux secs, tension, maux de tête), liée notamment à une réduction du clignement des paupières, mais aucune étude sérieuse n'a démontré de dommage oculaire permanent lié à leur usage."
     },
     {
       "id": "6",
@@ -68,7 +68,7 @@
       "imagePrompt": "water excess health",
       "answers": ["Non", "Oui", "Rarement", "Seulement sport"],
       "correctIndex": 1,
-      "explanation": "Un excès peut provoquer une hyponatrémie, dangereuse pour l’organisme."
+      "explanation": "Boire une quantité d'eau largement supérieure aux besoins de l'organisme, en particulier sur une courte période, peut diluer dangereusement le taux de sodium dans le sang (hyponatrémie), avec des conséquences potentiellement graves, voire mortelles dans de rares cas extrêmes."
     },
     {
       "id": "7",
@@ -77,7 +77,7 @@
       "imagePrompt": "body temperature variation",
       "answers": ["Oui", "Non", "Seulement nuit", "Oui repos"],
       "correctIndex": 1,
-      "explanation": "Elle varie selon l’heure, l’activité et les individus."
+      "explanation": "La température corporelle varie selon l'heure de la journée (plus basse le matin, plus élevée en fin d'après-midi), l'activité physique et les individus. La référence de 37°C n'est qu'une moyenne, la plage normale s'étendant généralement de 36,1°C à 37,2°C."
     },
     {
       "id": "8",
@@ -86,16 +86,16 @@
       "imagePrompt": "brain plasticity",
       "answers": ["Non", "Oui", "Rarement", "Seulement enfants"],
       "correctIndex": 1,
-      "explanation": "La plasticité cérébrale permet d’apprendre toute la vie."
+      "explanation": "La neuroplasticité, découverte plus récemment qu'on ne le pensait autrefois, permet au cerveau de créer de nouvelles connexions neuronales tout au long de la vie, ce qui rend possible l'apprentissage de nouvelles compétences même à un âge avancé."
     },
     {
       "id": "9",
-      "question": "Les plantes produisent-elles de l’oxygène uniquement le jour ?",
+      "question": "Les plantes produisent-elles de l'oxygène par photosynthèse aussi bien la nuit que le jour ?",
       "image": null,
       "imagePrompt": "plants oxygen night",
-      "answers": ["Oui", "Non", "Principalement", "Seulement été"],
-      "correctIndex": 2,
-      "explanation": "Elles produisent surtout le jour mais respirent en permanence."
+      "answers": ["Oui", "Non", "Principalement le jour", "Seulement en été"],
+      "correctIndex": 1,
+      "explanation": "La photosynthèse, qui produit de l'oxygène, nécessite de la lumière et ne se produit donc que le jour. La nuit, les plantes continuent de respirer comme tout organisme vivant, un processus qui consomme de l'oxygène et rejette du CO2, sans production d'oxygène associée."
     },
     {
       "id": "10",
@@ -103,8 +103,8 @@
       "image": null,
       "imagePrompt": "stress performance",
       "answers": ["Oui", "Non", "Toujours", "Oui chronique"],
-      "correctIndex": 3,
-      "explanation": "Le stress chronique est nocif, mais un stress ponctuel peut être utile."
+      "correctIndex": 1,
+      "explanation": "Le stress chronique, prolongé dans le temps, use l'organisme et affecte le système immunitaire, cardiovasculaire et mental. Un stress ponctuel et modéré, en revanche, peut améliorer la concentration et la performance à court terme, un phénomène parfois appelé « eustress ». Le stress n'est donc pas toujours mauvais : tout dépend de son intensité et de sa durée."
     },
     {
       "id": "11",
@@ -113,7 +113,7 @@
       "imagePrompt": "fat food calories",
       "answers": ["Oui", "Non", "Souvent", "Toujours"],
       "correctIndex": 1,
-      "explanation": "Tout dépend de l’équilibre calorique global."
+      "explanation": "Ce n'est pas la présence de graisses en elle-même qui fait grossir, mais un excès calorique global par rapport aux besoins de l'organisme. Certaines graisses, comme celles des poissons gras ou de l'huile d'olive, sont même essentielles à une bonne santé."
     },
     {
       "id": "12",
@@ -122,7 +122,7 @@
       "imagePrompt": "digestion thermic effect",
       "answers": ["Oui", "Non", "Très peu", "Seulement protéines"],
       "correctIndex": 0,
-      "explanation": "C’est l’effet thermique des aliments, notamment élevé pour les protéines."
+      "explanation": "C'est ce qu'on appelle l'effet thermique des aliments : le corps dépense de l'énergie pour digérer, absorber et métaboliser ce qu'il ingère. Cet effet est particulièrement marqué pour les protéines, qui peuvent nécessiter jusqu'à 20 à 30 % de leur valeur calorique rien que pour être digérées."
     },
     {
       "id": "13",
@@ -130,8 +130,8 @@
       "image": null,
       "imagePrompt": "lie detection",
       "answers": ["Oui", "Non", "Souvent", "Oui intuitif"],
-      "correctIndex": 2,
-      "explanation": "Nous pensons être bons, mais les études montrent l’inverse."
+      "correctIndex": 1,
+      "explanation": "De nombreuses études en psychologie montrent que les humains ne détectent les mensonges qu'à un taux proche du hasard, autour de 54 % de réussite en moyenne, malgré une confiance excessive dans leur propre capacité à repérer les menteurs."
     },
     {
       "id": "14",
@@ -140,7 +140,7 @@
       "imagePrompt": "brain energy",
       "answers": ["Non", "Oui", "Très peu", "Seulement activité"],
       "correctIndex": 1,
-      "explanation": "Il consomme environ 20% de l’énergie totale."
+      "explanation": "Bien qu'il ne représente qu'environ 2 % du poids corporel, le cerveau consomme environ 20 % de l'énergie totale de l'organisme au repos, principalement pour maintenir l'activité électrique des neurones."
     },
     {
       "id": "15",
@@ -149,7 +149,7 @@
       "imagePrompt": "memory distortion",
       "answers": ["Oui", "Non", "Souvent", "Oui précis"],
       "correctIndex": 1,
-      "explanation": "La mémoire est reconstructive et peut être déformée."
+      "explanation": "Chaque fois qu'un souvenir est rappelé, il peut être légèrement modifié avant d'être de nouveau stocké, un phénomène appelé reconsolidation. Cela explique l'apparition possible de faux souvenirs avec le temps, ou pourquoi plusieurs témoins d'un même événement en gardent des versions différentes."
     },
     {
       "id": "16",
@@ -158,7 +158,7 @@
       "imagePrompt": "multitasking",
       "answers": ["Oui", "Non", "Souvent", "Oui travail"],
       "correctIndex": 1,
-      "explanation": "Il diminue l’efficacité et augmente les erreurs."
+      "explanation": "Ce que l'on appelle multitâche est en réalité un basculement rapide entre plusieurs tâches, et non un traitement simultané. Ce va-et-vient mental a un coût cognitif réel, qui ralentit l'exécution globale et augmente le taux d'erreurs."
     },
     {
       "id": "17",
@@ -167,7 +167,7 @@
       "imagePrompt": "decision bias",
       "answers": ["Oui", "Non", "Souvent", "Oui logique"],
       "correctIndex": 1,
-      "explanation": "Les biais cognitifs influencent fortement nos choix."
+      "explanation": "Les travaux du psychologue Daniel Kahneman, entre autres, ont mis en évidence de nombreux biais cognitifs (biais de confirmation, aversion à la perte, effet d'ancrage...) qui influencent systématiquement nos décisions, souvent à notre insu."
     },
     {
       "id": "18",
@@ -175,8 +175,8 @@
       "image": null,
       "imagePrompt": "sugar free",
       "answers": ["Oui", "Non", "Souvent", "Oui régime"],
-      "correctIndex": 2,
-      "explanation": "Ils peuvent contenir d’autres ingrédients peu sains."
+      "correctIndex": 1,
+      "explanation": "Un produit « sans sucre » peut contenir des édulcorants, des graisses en excès ou d'autres additifs qui en font un choix tout aussi peu recommandable qu'un produit sucré, selon sa composition globale."
     },
     {
       "id": "19",
@@ -185,7 +185,7 @@
       "imagePrompt": "habit formation",
       "answers": ["Oui", "Non", "Souvent", "Minimum"],
       "correctIndex": 1,
-      "explanation": "Cela peut prendre de quelques semaines à plusieurs mois."
+      "explanation": "L'idée des « 21 jours » provient d'une interprétation approximative d'observations du chirurgien Maxwell Maltz dans les années 1960. Une étude plus rigoureuse menée en 2009 par la chercheuse Phillippa Lally a montré que la formation d'une habitude prend en moyenne 66 jours, avec une fourchette allant de 18 à 254 jours selon les personnes et les habitudes concernées."
     },
     {
       "id": "20",
@@ -193,8 +193,8 @@
       "image": null,
       "imagePrompt": "reading dark",
       "answers": ["Oui", "Non", "Oui long terme", "Seulement enfants"],
-      "correctIndex": 0,
-      "explanation": "Cela fatigue les yeux mais ne cause pas de dommages permanents."
+      "correctIndex": 1,
+      "explanation": "Lire dans le noir peut provoquer une fatigue oculaire temporaire (picotements, maux de tête, difficulté à faire la mise au point), mais aucune étude scientifique n'a démontré de dommage permanent à la vision lié à cette pratique."
     }
   ]
 }

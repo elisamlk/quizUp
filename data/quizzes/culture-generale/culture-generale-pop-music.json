@@ -1,8 +1,8 @@
 {
   "slug": "quiz-pop-culture-musique",
   "title": "Quiz Culture Générale Pop Culture Musique - 20 questions",
-  "description": "Artistes, hits, albums cultes et moments marquants : teste ta culture musicale.",
-  "descriptionSeo": "Teste ta culture générale avec ce quiz pop culture musique de 20 questions. Artistes célèbres, chansons cultes, albums iconiques et moments marquants de l’histoire de la musique : découvre ou redécouvre les références incontournables avec des explications enrichissantes.",
+  "description": "Artistes, albums, records, festivals et anecdotes : teste ta culture musicale sous toutes ses formes.",
+  "descriptionSeo": "Teste ta culture générale avec ce quiz pop culture musique de 20 questions. Albums cultes, records historiques, anecdotes méconnues, collaborations mythiques, grands festivals et genres du jazz au reggae en passant par le classique : découvre ou redécouvre les références incontournables de la musique, avec des explications enrichissantes.",
   "category": {
     "name": "Culture générale",
     "slug": "culture-generale"
@@ -21,90 +21,90 @@
       "question": "Quel artiste est surnommé le « King of Pop » ?",
       "image": null,
       "imagePrompt": "michael jackson stage performance",
-      "answers": ["Elvis Presley", "Michael Jackson", "Prince", "Justin Timberlake"],
-      "correctIndex": 1,
+      "answers": ["Michael Jackson", "Elvis Presley", "Prince", "Justin Timberlake"],
+      "correctIndex": 0,
       "explanation": "Michael Jackson a révolutionné la pop mondiale avec ses performances, ses chorégraphies et des albums comme « Thriller ». Son influence dépasse la musique et touche aussi la danse, la mode et le clip vidéo."
     },
     {
       "id": "2",
-      "question": "Quel groupe a chanté « Bohemian Rhapsody » ?",
+      "question": "Sur quel album de Queen figure le titre « Bohemian Rhapsody » ?",
       "image": null,
-      "imagePrompt": "queen band freddie mercury",
-      "answers": ["The Beatles", "U2", "Queen", "Coldplay"],
-      "correctIndex": 2,
-      "explanation": "Queen a rendu cette chanson culte grâce à sa structure très inhabituelle, mêlant ballade, opéra et rock. C’est l’un des meilleurs exemples de liberté créative dans la musique populaire."
+      "imagePrompt": "queen a night at the opera album",
+      "answers": ["A Day at the Races", "A Night at the Opera", "Jazz", "News of the World"],
+      "correctIndex": 1,
+      "explanation": "« A Night at the Opera » (1975) est l'album qui contient « Bohemian Rhapsody », dont la structure inhabituelle mêlant ballade, opéra et rock a marqué durablement l'histoire du rock progressif."
     },
     {
       "id": "3",
-      "question": "Quel artiste est derrière l’album « 21 » sorti en 2011 ?",
+      "question": "Quel artiste est derrière l’album « Back to Black » sorti en 2006 ?",
       "image": null,
-      "imagePrompt": "adele singer portrait",
-      "answers": ["Taylor Swift", "Beyoncé", "Rihanna", "Adele"],
-      "correctIndex": 3,
-      "explanation": "Avec « 21 », Adele s’est imposée comme une voix majeure de la pop mondiale. L’album a marqué son époque par son intensité émotionnelle et ses ventes exceptionnelles."
+      "imagePrompt": "amy winehouse singer portrait",
+      "answers": ["Duffy", "Adele", "Amy Winehouse", "Lily Allen"],
+      "correctIndex": 2,
+      "explanation": "Amy Winehouse marque la pop et la soul britannique avec « Back to Black », un album au son rétro assumé, influencé par la Motown et les girl groups des années 1960, qui la révèle au grand public malgré une carrière tragiquement écourtée par sa mort en 2011."
     },
     {
       "id": "4",
-      "question": "Quel groupe britannique est célèbre pour « Hey Jude » ?",
+      "question": "Quel groupe emblématique du rock est originaire de Liverpool ?",
       "image": null,
-      "imagePrompt": "beatles band 1960s",
-      "answers": ["The Beatles", "The Rolling Stones", "Oasis", "Blur"],
-      "correctIndex": 0,
-      "explanation": "Les Beatles ont profondément transformé la musique populaire au XXe siècle. « Hey Jude » est restée célèbre pour sa mélodie simple, son refrain fédérateur et sa longueur inhabituelle pour un tube radio."
+      "imagePrompt": "beatles liverpool origin",
+      "answers": ["The Rolling Stones", "The Who", "Led Zeppelin", "The Beatles"],
+      "correctIndex": 3,
+      "explanation": "Les Beatles se forment à Liverpool à la fin des années 1950, où ils font notamment leurs débuts au célèbre Cavern Club, avant de conquérir le monde et de transformer durablement la musique populaire du XXe siècle."
     },
     {
       "id": "5",
-      "question": "Quel artiste a chanté « Shape of You » ?",
+      "question": "Quelle légende du jazz est surnommée « Lady Day » ?",
       "image": null,
-      "imagePrompt": "ed sheeran concert",
-      "answers": ["Bruno Mars", "Ed Sheeran", "Shawn Mendes", "Drake"],
-      "correctIndex": 1,
-      "explanation": "« Shape of You » est l’un des plus gros succès d’Ed Sheeran. Le titre montre comment un artiste venu de la pop acoustique a su s’imposer dans une pop beaucoup plus rythmée et mondiale."
+      "imagePrompt": "billie holiday jazz singer portrait",
+      "answers": ["Billie Holiday", "Ella Fitzgerald", "Nina Simone", "Sarah Vaughan"],
+      "correctIndex": 0,
+      "explanation": "Billie Holiday, surnommée « Lady Day » par son ami et partenaire musical Lester Young, reste l'une des voix les plus bouleversantes du jazz du XXe siècle, notamment pour son interprétation poignante de « Strange Fruit », dénonçant le lynchage des Afro-Américains dans le sud des États-Unis."
     },
     {
       "id": "6",
-      "question": "Quel groupe est connu pour « Smells Like Teen Spirit » ?",
+      "question": "Sur quel album de Nirvana figure « Smells Like Teen Spirit » ?",
       "image": null,
-      "imagePrompt": "nirvana band grunge",
-      "answers": ["Metallica", "Green Day", "Nirvana", "Radiohead"],
-      "correctIndex": 2,
-      "explanation": "Nirvana a fait exploser le grunge sur la scène internationale avec ce morceau. La chanson est devenue un symbole de la jeunesse des années 1990 et d’un son plus brut que la pop dominante de l’époque."
+      "imagePrompt": "nirvana nevermind album cover",
+      "answers": ["In Utero", "Nevermind", "Bleach", "Unplugged in New York"],
+      "correctIndex": 1,
+      "explanation": "« Nevermind » (1991) propulse Nirvana et le grunge sur la scène internationale, porté par « Smells Like Teen Spirit », devenu l'hymne d'une génération et l'un des morceaux les plus marquants du rock des années 1990."
     },
     {
       "id": "7",
-      "question": "Quel artiste français est célèbre pour « Je te promets » ?",
+      "question": "Quel est le véritable nom de naissance de Johnny Hallyday ?",
       "image": null,
-      "imagePrompt": "johnny hallyday stage",
-      "answers": ["Florent Pagny", "Jean-Jacques Goldman", "Calogero", "Johnny Hallyday"],
-      "correctIndex": 3,
-      "explanation": "Johnny Hallyday a marqué durablement la chanson française en adaptant l’énergie du rock à un très large public. « Je te promets » reste l’un de ses titres les plus emblématiques."
+      "imagePrompt": "johnny hallyday young birth name",
+      "answers": ["Jean-Claude Dupont", "Philippe Léotard", "Jean-Philippe Smet", "Michel Sardou"],
+      "correctIndex": 2,
+      "explanation": "Johnny Hallyday est né Jean-Philippe Smet en 1943 à Paris. Son nom de scène lui vient de son beau-frère par alliance, l'acteur américain Lee Halliday, dont le patronyme sera légèrement modifié."
     },
     {
       "id": "8",
-      "question": "Quel groupe a chanté « Viva la Vida » ?",
+      "question": "Quel artiste jamaïcain a fait connaître le reggae au monde entier avec l'album « Exodus » ?",
       "image": null,
-      "imagePrompt": "coldplay concert",
-      "answers": ["Coldplay", "Muse", "Imagine Dragons", "OneRepublic"],
-      "correctIndex": 0,
-      "explanation": "Coldplay a trouvé avec « Viva la Vida » un équilibre entre pop accessible et ambition musicale. Le morceau se distingue par ses arrangements orchestraux et son style immédiatement reconnaissable."
+      "imagePrompt": "bob marley exodus reggae",
+      "answers": ["Peter Tosh", "Jimmy Cliff", "Toots Hibbert", "Bob Marley"],
+      "correctIndex": 3,
+      "explanation": "Bob Marley, avec son groupe The Wailers, impose le reggae comme genre musical mondial. Le magazine Time a désigné « Exodus » (1977) meilleur album du XXe siècle, saluant son message d'unité porté par des titres comme « One Love » ou « Jamming »."
     },
     {
       "id": "9",
-      "question": "Quel artiste est connu pour « Bad Guy » ?",
+      "question": "Quelle chanteuse interprète le refrain de « Empire State of Mind » aux côtés de Jay-Z ?",
       "image": null,
-      "imagePrompt": "billie eilish portrait",
-      "answers": ["Dua Lipa", "Billie Eilish", "Lorde", "Ariana Grande"],
-      "correctIndex": 1,
-      "explanation": "Billie Eilish a imposé une esthétique très différente de la pop classique, plus minimaliste et plus sombre. « Bad Guy » a joué un rôle central dans cette percée internationale."
+      "imagePrompt": "alicia keys jay z empire state of mind",
+      "answers": ["Alicia Keys", "Beyoncé", "Rihanna", "Mary J. Blige"],
+      "correctIndex": 0,
+      "explanation": "Alicia Keys prête sa voix au refrain de « Empire State of Mind » (2009), hymne à New York devenu l'une des collaborations hip-hop/pop les plus célèbres, régulièrement reprise lors d'événements sportifs et de cérémonies dans la ville."
     },
     {
       "id": "10",
-      "question": "Qui chante « Rolling in the Deep » ?",
+      "question": "Quel compositeur autrichien du XVIIIe siècle est l'auteur de la Symphonie n°40 et de l'opéra « La Flûte enchantée » ?",
       "image": null,
-      "imagePrompt": "adele microphone",
-      "answers": ["Sia", "Lana Del Rey", "Adele", "Amy Winehouse"],
-      "correctIndex": 2,
-      "explanation": "Ce morceau a confirmé la capacité d’Adele à mêler puissance vocale, émotion et efficacité pop. Il a aussi fortement contribué au succès mondial de l’album « 21 »."
+      "imagePrompt": "mozart classical composer portrait",
+      "answers": ["Beethoven", "Mozart", "Bach", "Haydn"],
+      "correctIndex": 1,
+      "explanation": "Wolfgang Amadeus Mozart, enfant prodige devenu l'un des plus grands compositeurs de l'histoire, laisse une œuvre immense malgré sa mort précoce à 35 ans, influençant profondément la musique classique occidentale bien au-delà de son époque."
     },
     {
       "id": "11",
@@ -117,84 +117,84 @@
     },
     {
       "id": "12",
-      "question": "Quel groupe est derrière « Seven Nation Army » ?",
+      "question": "Quel festival mythique s'est tenu pour la première fois en 1969 dans l'État de New York, réunissant environ 400 000 personnes ?",
       "image": null,
-      "imagePrompt": "white stripes band",
-      "answers": ["Blur", "The White Stripes", "Arctic Monkeys", "The Strokes"],
-      "correctIndex": 1,
-      "explanation": "Le riff de « Seven Nation Army » est devenu universel, au point d’être repris dans les stades du monde entier. C’est rare pour une chanson rock relativement minimaliste."
+      "imagePrompt": "woodstock 1969 festival crowd",
+      "answers": ["Coachella", "Glastonbury", "Lollapalooza", "Woodstock"],
+      "correctIndex": 3,
+      "explanation": "Woodstock, organisé du 15 au 18 août 1969, est devenu le symbole de la contre-culture des années 1960, réunissant des artistes comme Jimi Hendrix, Janis Joplin ou Santana devant une foule bien plus nombreuse que prévu, malgré la pluie et le manque de moyens."
     },
     {
       "id": "13",
-      "question": "Quel artiste a sorti « Thriller » ?",
+      "question": "Quel artiste a sorti l’album « Purple Rain » en 1984 ?",
       "image": null,
-      "imagePrompt": "thriller michael jackson",
-      "answers": ["Prince", "Stevie Wonder", "James Brown", "Michael Jackson"],
-      "correctIndex": 3,
-      "explanation": "« Thriller » n’est pas seulement un album culte : c’est un tournant de l’industrie musicale. Il a imposé une nouvelle norme pour les clips, la production pop et la portée mondiale des artistes."
+      "imagePrompt": "prince purple rain album",
+      "answers": ["Prince", "Michael Jackson", "Stevie Wonder", "James Brown"],
+      "correctIndex": 0,
+      "explanation": "Prince franchit une étape majeure de sa carrière avec « Purple Rain », à la fois bande originale de son film homonyme et l’un des albums les plus emblématiques des années 1980, mêlant rock, funk et pop avec une identité artistique unique."
     },
     {
       "id": "14",
-      "question": "Quel groupe est associé à « Wonderwall » ?",
+      "question": "Quelle chanteuse colombienne est surnommée la « reine du pop latino », notamment pour son tube « Hips Don't Lie » ?",
       "image": null,
-      "imagePrompt": "oasis band 90s",
-      "answers": ["Blur", "Radiohead", "U2", "Oasis"],
-      "correctIndex": 3,
-      "explanation": "Oasis a incarné la britpop des années 1990 avec des morceaux devenus très fédérateurs. « Wonderwall » reste l’un des titres les plus immédiatement reconnaissables de cette époque."
+      "imagePrompt": "shakira latino pop singer",
+      "answers": ["Thalía", "Shakira", "Gloria Estefan", "Selena"],
+      "correctIndex": 1,
+      "explanation": "Shakira mêle pop, rock latino et sonorités du Moyen-Orient héritées de ses origines libanaises. Avec des tubes mondiaux comme « Hips Don't Lie » ou « Waka Waka », hymne officiel de la Coupe du monde 2010, elle est devenue l'une des artistes latino-américaines les plus vendues au monde."
     },
     {
       "id": "15",
-      "question": "Quel artiste a chanté « Umbrella » ?",
+      "question": "Quel groupe suédois a dominé la pop disco des années 1970 avec des titres comme « Dancing Queen » ?",
       "image": null,
-      "imagePrompt": "rihanna umbrella performance",
-      "answers": ["Rihanna", "Beyoncé", "Alicia Keys", "SZA"],
-      "correctIndex": 0,
-      "explanation": "« Umbrella » a été un moment décisif dans la carrière de Rihanna. Le morceau l’a fait passer d’étoile montante à superstar mondiale durable."
+      "imagePrompt": "abba disco band 70s",
+      "answers": ["Boney M", "Bee Gees", "ABBA", "Earth, Wind & Fire"],
+      "correctIndex": 2,
+      "explanation": "ABBA, formé à Stockholm, devient l'un des groupes les plus vendus de l'histoire avec des tubes disco-pop comme « Dancing Queen » ou « Mamma Mia », qui ont inspiré une comédie musicale puis deux films à succès des décennies plus tard."
     },
     {
       "id": "16",
-      "question": "Quel groupe a popularisé « Radioactive » ?",
+      "question": "Quel rappeur américain a sorti le titre « Lose Yourself », bande originale du film 8 Mile ?",
       "image": null,
-      "imagePrompt": "imagine dragons concert",
-      "answers": ["Coldplay", "Muse", "Imagine Dragons", "Linkin Park"],
-      "correctIndex": 2,
-      "explanation": "Imagine Dragons a bâti une grande partie de sa notoriété internationale sur ce titre. Son mélange de rock, d’électronique et d’énergie hymnique a très bien fonctionné à l’échelle mondiale."
+      "imagePrompt": "eminem lose yourself performance",
+      "answers": ["Jay-Z", "Kanye West", "50 Cent", "Eminem"],
+      "correctIndex": 3,
+      "explanation": "« Lose Yourself » vaut à Eminem l’Oscar de la meilleure chanson originale en 2003, une première pour un morceau de hip-hop. Le titre reste l’un des symboles les plus universels de la culture rap, bien au-delà des amateurs du genre."
     },
     {
       "id": "17",
-      "question": "Quel artiste est connu pour « Blinding Lights » ?",
+      "question": "Quel duo français a marqué la musique électronique mondiale avec des albums comme « Discovery » et « Random Access Memories » ?",
       "image": null,
-      "imagePrompt": "the weeknd performance",
-      "answers": ["The Weeknd", "Drake", "Post Malone", "Travis Scott"],
+      "imagePrompt": "daft punk electronic duo helmets",
+      "answers": ["Daft Punk", "Justice", "David Guetta", "Air"],
       "correctIndex": 0,
-      "explanation": "Avec « Blinding Lights », The Weeknd a remis au goût du jour des sonorités inspirées des années 1980. Le titre a été un immense succès de streaming et de diffusion radio."
+      "explanation": "Daft Punk, duo composé de Thomas Bangalter et Guy-Manuel de Homem-Christo, reconnaissable à ses casques robotiques, a profondément influencé la musique électronique mondiale avant de se séparer en 2021, laissant une empreinte durable sur la French Touch."
     },
     {
       "id": "18",
-      "question": "Quel groupe est associé à « Nothing Else Matters » ?",
+      "question": "Quel chanteur de musique country est surnommé « The Man in Black » ?",
       "image": null,
-      "imagePrompt": "metallica concert",
-      "answers": ["Nirvana", "Metallica", "AC/DC", "Guns N Roses"],
+      "imagePrompt": "johnny cash man in black country",
+      "answers": ["Willie Nelson", "Johnny Cash", "Kenny Rogers", "Merle Haggard"],
       "correctIndex": 1,
-      "explanation": "Metallica est surtout connu pour son metal puissant, mais cette ballade a montré une autre facette du groupe. C’est aussi l’une des chansons qui a élargi son public."
+      "explanation": "Johnny Cash doit son surnom à son habitude de se produire presque exclusivement vêtu de noir, un choix qu'il expliquait comme un symbole de solidarité envers les pauvres, les prisonniers et les laissés-pour-compte, thèmes récurrents de ses chansons country."
     },
     {
       "id": "19",
-      "question": "Quel artiste a chanté « Poker Face » ?",
+      "question": "Quelle chanteuse est surnommée la « Queen of Soul », célèbre pour son interprétation de « Respect » ?",
       "image": null,
-      "imagePrompt": "lady gaga stage",
-      "answers": ["Katy Perry", "Britney Spears", "Madonna", "Lady Gaga"],
-      "correctIndex": 3,
-      "explanation": "Lady Gaga s’est imposée très vite comme une figure majeure de la pop avec des titres accrocheurs, une forte identité visuelle et une capacité rare à transformer chaque sortie en événement culturel."
+      "imagePrompt": "aretha franklin queen of soul",
+      "answers": ["Diana Ross", "Whitney Houston", "Aretha Franklin", "Tina Turner"],
+      "correctIndex": 2,
+      "explanation": "Aretha Franklin transforme « Respect », initialement écrite et interprétée par Otis Redding, en hymne féministe et symbole du mouvement des droits civiques. Elle reste l'une des voix les plus influentes de la soul américaine."
     },
     {
       "id": "20",
-      "question": "Quel groupe est connu pour « Believer » ?",
+      "question": "Quelle chanson détient le record du plus grand nombre de semaines consécutives numéro 1 du Billboard Hot 100 américain ?",
       "image": null,
-      "imagePrompt": "imagine dragons believer",
-      "answers": ["OneRepublic", "Imagine Dragons", "Coldplay", "Maroon 5"],
-      "correctIndex": 1,
-      "explanation": "« Believer » fait partie des titres qui ont confirmé la place d’Imagine Dragons dans la pop-rock mondiale. Le morceau est conçu comme un hymne, ce qui explique sa très forte mémorisation."
+      "imagePrompt": "old town road chart record",
+      "answers": ["Despacito", "One Sweet Day", "Blinding Lights", "Old Town Road"],
+      "correctIndex": 3,
+      "explanation": "« Old Town Road » de Lil Nas X (avec Billy Ray Cyrus) est restée 19 semaines consécutives numéro 1 du Billboard Hot 100 en 2019, dépassant les 16 semaines de « One Sweet Day » (Mariah Carey et Boyz II Men) et de « Despacito », un record toujours en vigueur."
     }
   ]
 }

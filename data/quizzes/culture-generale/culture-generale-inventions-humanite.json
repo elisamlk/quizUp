@@ -21,12 +21,7 @@
       "question": "Quelle invention est attribuée à Gutenberg au XVe siècle ?",
       "image": null,
       "imagePrompt": "gutenberg printing press medieval books",
-      "answers": [
-        "La boussole",
-        "Le papier",
-        "L’imprimerie",
-        "Le télescope"
-      ],
+      "answers": ["La boussole", "Le papier", "L’imprimerie", "Le télescope"],
       "correctIndex": 2,
       "explanation": "L’imprimerie à caractères mobiles de Gutenberg a permis la diffusion massive du savoir en Europe, contribuant à la Renaissance et à la Réforme."
     },
@@ -35,12 +30,7 @@
       "question": "Quelle invention est essentielle au développement des transports modernes ?",
       "image": null,
       "imagePrompt": "wheel ancient invention cart transport",
-      "answers": [
-        "La roue",
-        "La machine à vapeur",
-        "Le moteur électrique",
-        "Le train"
-      ],
+      "answers": ["La roue", "La machine à vapeur", "Le moteur électrique", "Le train"],
       "correctIndex": 0,
       "explanation": "La roue est une invention fondamentale qui a transformé le transport et les échanges commerciaux dès l’Antiquité."
     },
@@ -49,26 +39,16 @@
       "question": "Quel scientifique est associé à l’invention du téléphone ?",
       "image": null,
       "imagePrompt": "alexander graham bell telephone invention",
-      "answers": [
-        "Thomas Edison",
-        "Nikola Tesla",
-        "James Watt",
-        "Alexander Graham Bell"
-      ],
+      "answers": ["Thomas Edison", "Nikola Tesla", "James Watt", "Alexander Graham Bell"],
       "correctIndex": 3,
-      "explanation": "Alexander Graham Bell est crédité de l’invention du téléphone, qui a révolutionné la communication à distance."
+      "explanation": "Alexander Graham Bell est généralement crédité de l'invention du téléphone grâce au brevet déposé en 1876, même si Antonio Meucci et d'autres inventeurs ont également contribué à son développement, ce qui a d'ailleurs donné lieu à des litiges de paternité historiques."
     },
     {
       "id": "inv-4",
       "question": "Quelle invention a permis la révolution industrielle au XVIIIe siècle ?",
       "image": null,
       "imagePrompt": "steam engine industrial revolution factory",
-      "answers": [
-        "L’électricité",
-        "La machine à vapeur",
-        "Le télégraphe",
-        "Le moteur diesel"
-      ],
+      "answers": ["L’électricité", "La machine à vapeur", "Le télégraphe", "Le moteur diesel"],
       "correctIndex": 1,
       "explanation": "La machine à vapeur a permis l’industrialisation en fournissant une nouvelle source d’énergie pour les machines et les transports."
     },
@@ -77,54 +57,34 @@
       "question": "Quelle invention a permis l’accès rapide à l’information à l’échelle mondiale ?",
       "image": null,
       "imagePrompt": "internet global network digital world",
-      "answers": [
-        "La télévision",
-        "Internet",
-        "Le téléphone",
-        "Le satellite"
-      ],
+      "answers": ["La télévision", "Internet", "Le téléphone", "Le satellite"],
       "correctIndex": 1,
       "explanation": "Internet a transformé la société en facilitant l’accès à l’information, la communication et l’économie mondiale."
     },
     {
       "id": "inv-6",
-      "question": "Quelle invention est à l’origine de la photographie ?",
+      "question": "Quel procédé, mis au point par Nicéphore Niépce puis perfectionné par Louis Daguerre, est à l'origine de la photographie ?",
       "image": null,
       "imagePrompt": "early camera daguerreotype invention",
-      "answers": [
-        "Le microscope",
-        "La radio",
-        "Le cinéma",
-        "L’appareil photo"
-      ],
-      "correctIndex": 3,
-      "explanation": "L’appareil photo a permis de capturer des images du réel, transformant l’art, la science et la mémoire collective."
+      "answers": ["Le daguerréotype", "Le cinéma", "La lanterne magique", "Le zootrope"],
+      "correctIndex": 0,
+      "explanation": "Nicéphore Niépce réalise vers 1826-1827 la première photographie permanente connue, grâce à un procédé qu'il nomme héliographie. Son associé Louis Daguerre perfectionne ensuite la technique et présente en 1839 le daguerréotype, premier procédé photographique réellement viable, qui donne à la photographie son véritable essor."
     },
     {
       "id": "inv-7",
-      "question": "Quelle invention permet de produire de l’électricité à grande échelle ?",
+      "question": "Quelle invention permet de convertir l'énergie mécanique en électricité à grande échelle ?",
       "image": null,
       "imagePrompt": "power plant electricity generation turbines",
-      "answers": [
-        "La centrale électrique",
-        "La pile",
-        "Le moteur",
-        "Le transformateur"
-      ],
+      "answers": ["La dynamo", "La pile électrique", "Le transformateur", "Le condensateur"],
       "correctIndex": 0,
-      "explanation": "Les centrales électriques ont permis la production massive d’électricité, indispensable à la société moderne."
+      "explanation": "La dynamo, perfectionnée notamment par Zénobe Gramme dans les années 1870, convertit l'énergie mécanique en courant électrique continu. C'est cette brique technologique, une fois couplée à des turbines, qui a permis la production d'électricité à grande échelle dans les centrales."
     },
     {
       "id": "inv-8",
       "question": "Quelle invention a permis la navigation maritime longue distance ?",
       "image": null,
       "imagePrompt": "compass navigation ocean ships exploration",
-      "answers": [
-        "Le radar",
-        "La carte",
-        "La boussole",
-        "Le sonar"
-      ],
+      "answers": ["Le radar", "La carte", "La boussole", "Le sonar"],
       "correctIndex": 2,
       "explanation": "La boussole a été essentielle pour les grandes explorations, permettant aux navigateurs de se repérer en mer."
     },
@@ -133,68 +93,43 @@
       "question": "Quelle invention est liée à Louis Pasteur ?",
       "image": null,
       "imagePrompt": "pasteur laboratory vaccine science",
-      "answers": [
-        "Le vaccin",
-        "Le microscope",
-        "L’antibiotique",
-        "Le scanner"
-      ],
-      "correctIndex": 3,
-      "explanation": "Pasteur a joué un rôle clé dans le développement des vaccins, révolutionnant la médecine et la prévention des maladies."
+      "answers": ["Le vaccin", "Le microscope", "L’antibiotique", "Le scanner"],
+      "correctIndex": 0,
+      "explanation": "Pasteur a joué un rôle clé dans le développement des vaccins, notamment celui contre la rage en 1885, révolutionnant la médecine et la prévention des maladies. Le premier vaccin de l'histoire (contre la variole) avait été mis au point plus tôt par Edward Jenner, mais Pasteur généralise le principe et lui donne son nom scientifique."
     },
     {
       "id": "inv-10",
       "question": "Quelle invention a transformé les communications avant Internet ?",
       "image": null,
       "imagePrompt": "telegraph morse code wires communication",
-      "answers": [
-        "Le téléphone",
-        "Le télégraphe",
-        "La radio",
-        "La télévision"
-      ],
+      "answers": ["Le téléphone", "Le télégraphe", "La radio", "La télévision"],
       "correctIndex": 1,
       "explanation": "Le télégraphe a permis de transmettre des messages sur de longues distances presque instantanément, une révolution pour son époque."
     },
     {
       "id": "inv-11",
-      "question": "Quelle invention permet de conserver les aliments sur le long terme ?",
+      "question": "Quelle invention a révolutionné la conservation des aliments dans les foyers ?",
       "image": null,
       "imagePrompt": "refrigerator food preservation cold storage",
-      "answers": [
-        "Le réfrigérateur",
-        "Le four",
-        "Le micro-ondes",
-        "Le congélateur"
-      ],
+      "answers": ["Le réfrigérateur", "Le four", "Le micro-ondes", "Le congélateur"],
       "correctIndex": 0,
-      "explanation": "Le réfrigérateur a profondément modifié les habitudes alimentaires et la conservation des aliments."
+      "explanation": "Le réfrigérateur a profondément modifié les habitudes alimentaires dès son adoption domestique au début du XXe siècle, précédant l'apparition du congélateur, plus tardif et davantage associé à une conservation de très longue durée par congélation."
     },
     {
       "id": "inv-12",
       "question": "Quelle invention a permis l’essor du cinéma ?",
       "image": null,
       "imagePrompt": "cinema projector early film reel",
-      "answers": [
-        "La télévision",
-        "Le projecteur",
-        "La radio",
-        "Le magnétoscope"
-      ],
-      "correctIndex": 2,
-      "explanation": "Le développement des techniques de projection a permis la naissance du cinéma et d’une nouvelle forme d’art et d’industrie."
+      "answers": ["La télévision", "Le projecteur", "La radio", "Le magnétoscope"],
+      "correctIndex": 1,
+      "explanation": "Le développement des techniques de projection, notamment grâce aux frères Lumière en 1895, a permis la naissance du cinéma et d’une nouvelle forme d’art et d’industrie."
     },
     {
       "id": "inv-13",
       "question": "Quelle invention est liée à l’informatique moderne ?",
       "image": null,
       "imagePrompt": "computer early machine digital revolution",
-      "answers": [
-        "La calculatrice",
-        "Le transistor",
-        "L’ordinateur",
-        "Le téléphone"
-      ],
+      "answers": ["La calculatrice", "Le transistor", "L’ordinateur", "Le téléphone"],
       "correctIndex": 2,
       "explanation": "L’ordinateur est au cœur de la révolution numérique et permet le traitement rapide de l’information."
     },
@@ -203,12 +138,7 @@
       "question": "Quelle invention permet de se déplacer dans les airs ?",
       "image": null,
       "imagePrompt": "airplane flight sky aviation history",
-      "answers": [
-        "L’avion",
-        "Le train",
-        "Le bateau",
-        "La fusée"
-      ],
+      "answers": ["L’avion", "Le train", "Le bateau", "La fusée"],
       "correctIndex": 0,
       "explanation": "L’avion a révolutionné les transports en réduisant considérablement les distances et les temps de voyage."
     },
@@ -217,12 +147,7 @@
       "question": "Quelle invention a permis l’éclairage moderne ?",
       "image": null,
       "imagePrompt": "light bulb edison invention glow",
-      "answers": [
-        "La bougie",
-        "La lampe à huile",
-        "Le néon",
-        "L’ampoule électrique"
-      ],
+      "answers": ["La bougie", "La lampe à huile", "Le néon", "L’ampoule électrique"],
       "correctIndex": 3,
       "explanation": "L’ampoule électrique a transformé la vie quotidienne en permettant un éclairage fiable et accessible."
     },
@@ -231,54 +156,34 @@
       "question": "Quelle invention est liée à la transmission sans fil des sons ?",
       "image": null,
       "imagePrompt": "radio waves transmission communication device",
-      "answers": [
-        "Le téléphone",
-        "La radio",
-        "La télévision",
-        "Le satellite"
-      ],
+      "answers": ["Le téléphone", "La radio", "La télévision", "Le satellite"],
       "correctIndex": 1,
       "explanation": "La radio permet de transmettre des informations à distance sans fil, ouvrant la voie aux médias modernes."
     },
     {
       "id": "inv-17",
-      "question": "Quelle invention a permis les calculs automatisés ?",
+      "question": "Quelle machine, conçue par Blaise Pascal en 1642, est considérée comme l'une des premières calculatrices mécaniques de l'histoire ?",
       "image": null,
       "imagePrompt": "early calculator machine mechanical computing",
-      "answers": [
-        "La calculatrice",
-        "Le livre",
-        "Le téléphone",
-        "La radio"
-      ],
+      "answers": ["La Pascaline", "La machine de Turing", "Le boulier", "La règle à calcul"],
       "correctIndex": 0,
-      "explanation": "La calculatrice a facilité les calculs complexes et ouvert la voie à l’informatique moderne."
+      "explanation": "La Pascaline, inventée par Blaise Pascal en 1642 pour aider son père percepteur d'impôts, est l'une des premières machines à calculer mécaniques de l'histoire, capable d'effectuer additions et soustractions grâce à un système d'engrenages. Elle ouvre la voie aux calculateurs mécaniques, puis bien plus tard à l'informatique."
     },
     {
       "id": "inv-18",
-      "question": "Quelle invention permet de visualiser l’intérieur du corps humain ?",
+      "question": "Quelle invention, découverte par Wilhelm Röntgen en 1895, a permis pour la première fois de visualiser l'intérieur du corps humain sans chirurgie ?",
       "image": null,
       "imagePrompt": "x ray medical imaging bones scan",
-      "answers": [
-        "Le stéthoscope",
-        "L’IRM",
-        "Le scanner",
-        "La radiographie"
-      ],
+      "answers": ["Le stéthoscope", "L’IRM", "Le scanner", "La radiographie"],
       "correctIndex": 3,
-      "explanation": "La radiographie a permis une avancée majeure en médecine en rendant visible l’intérieur du corps sans chirurgie."
+      "explanation": "La radiographie (rayons X) a permis une avancée majeure en médecine dès 1895. L'IRM et le scanner permettent eux aussi de visualiser l'intérieur du corps, mais ce sont des technologies bien plus tardives, développées dans les années 1970."
     },
     {
       "id": "inv-19",
       "question": "Quelle invention est essentielle aux satellites modernes ?",
       "image": null,
       "imagePrompt": "satellite space orbit technology communication",
-      "answers": [
-        "La fusée",
-        "Le radar",
-        "Le GPS",
-        "Le téléphone"
-      ],
+      "answers": ["La fusée", "Le radar", "Le GPS", "Le téléphone"],
       "correctIndex": 0,
       "explanation": "La fusée permet d’envoyer des objets dans l’espace, rendant possibles les satellites et l’exploration spatiale."
     },
@@ -287,12 +192,7 @@
       "question": "Quelle invention a permis la diffusion massive du son enregistré ?",
       "image": null,
       "imagePrompt": "phonograph vinyl record music history",
-      "answers": [
-        "Le piano",
-        "La guitare",
-        "Le phonographe",
-        "Le micro"
-      ],
+      "answers": ["Le piano", "La guitare", "Le phonographe", "Le micro"],
       "correctIndex": 2,
       "explanation": "Le phonographe a permis d’enregistrer et de reproduire le son, transformant l’industrie musicale et la diffusion culturelle."
     }

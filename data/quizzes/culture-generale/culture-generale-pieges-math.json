@@ -21,8 +21,8 @@
       "question": "Une batte et une balle coûtent 1,10€. La batte coûte 1€ de plus que la balle. Combien coûte la balle ?",
       "image": null,
       "imagePrompt": "bat ball math puzzle",
-      "answers": ["0,10€", "0,05€", "0,01€", "0,50€"],
-      "correctIndex": 1,
+      "answers": ["0,05€", "0,10€", "0,01€", "0,50€"],
+      "correctIndex": 0,
       "explanation": "L’intuition donne 0,10€, mais c’est faux. Si la balle coûtait 0,05€, la batte coûterait 1,05€, soit 1,10€ au total."
     },
     {
@@ -39,8 +39,8 @@
       "question": "Un étang double de taille chaque jour. Il est plein au bout de 30 jours. Quand est-il à moitié plein ?",
       "image": null,
       "imagePrompt": "exponential growth",
-      "answers": ["15 jours", "29 jours", "20 jours", "25 jours"],
-      "correctIndex": 1,
+      "answers": ["15 jours", "20 jours", "29 jours", "25 jours"],
+      "correctIndex": 2,
       "explanation": "La croissance est exponentielle. La moitié est atteinte le jour juste avant : 29."
     },
     {
@@ -48,8 +48,8 @@
       "question": "Tu lances une pièce 5 fois et obtiens 5 piles. Le prochain lancer a plus de chances d’être face.",
       "image": null,
       "imagePrompt": "coin probability",
-      "answers": ["Vrai", "Faux", "Parfois", "Souvent"],
-      "correctIndex": 1,
+      "answers": ["Vrai", "Parfois", "Souvent", "Faux"],
+      "correctIndex": 3,
       "explanation": "Chaque lancer est indépendant. La probabilité reste 50%."
     },
     {
@@ -57,26 +57,26 @@
       "question": "Une moyenne élevée signifie que la majorité des valeurs sont élevées.",
       "image": null,
       "imagePrompt": "average distribution",
-      "answers": ["Vrai", "Faux", "Parfois", "Souvent"],
-      "correctIndex": 1,
+      "answers": ["Faux", "Vrai", "Parfois", "Souvent"],
+      "correctIndex": 0,
       "explanation": "Quelques valeurs extrêmes peuvent tirer la moyenne vers le haut."
     },
     {
       "id": "6",
-      "question": "Si tu doubles tes chances de gagner (1% → 2%), ton gain potentiel double réellement.",
+      "question": "Si tu doubles tes chances de gagner à un jeu (1% → 2%), sans changer le montant du gain, ton espérance de gain (le montant moyen que tu peux espérer sur un grand nombre d'essais) double également.",
       "image": null,
       "imagePrompt": "probability misunderstanding",
-      "answers": ["Vrai", "Faux", "Mathématiquement oui", "Parfois"],
-      "correctIndex": 2,
-      "explanation": "Mathématiquement oui, mais ton cerveau surestime fortement l’impact réel (2% reste très faible)."
+      "answers": ["Faux", "Vrai", "Seulement si le montant du gain augmente aussi", "Parfois, selon le contexte"],
+      "correctIndex": 1,
+      "explanation": "L'espérance de gain correspond à la probabilité de gagner multipliée par le gain obtenu. Si le gain reste identique, doubler la probabilité (de 1 % à 2 %) double donc automatiquement l'espérance de gain. Notre intuition sous-estime souvent cette différence, car 1 % et 2 % paraissent tous deux très faibles."
     },
     {
       "id": "7",
       "question": "Dans un groupe de 23 personnes, il y a plus de 50% de chances que deux aient la même date de naissance.",
       "image": null,
       "imagePrompt": "birthday paradox",
-      "answers": ["Faux", "Vrai", "Parfois", "Impossible"],
-      "correctIndex": 1,
+      "answers": ["Faux", "Parfois", "Vrai", "Impossible"],
+      "correctIndex": 2,
       "explanation": "C’est le paradoxe des anniversaires. La probabilité dépasse 50% dès 23 personnes."
     },
     {
@@ -84,9 +84,9 @@
       "question": "1/3 + 1/3 + 1/3 = 1 exactement.",
       "image": null,
       "imagePrompt": "fraction precision",
-      "answers": ["Vrai", "Faux", "En théorie oui", "Parfois"],
-      "correctIndex": 2,
-      "explanation": "Mathématiquement oui, mais en décimal (0,333…), il y a une approximation."
+      "answers": ["Faux", "En théorie oui", "Parfois", "Vrai"],
+      "correctIndex": 3,
+      "explanation": "C'est exactement vrai : en tant que fractions, 1/3 + 1/3 + 1/3 = 3/3 = 1, sans la moindre approximation. Le piège vient de la différence entre une fraction exacte et son écriture décimale arrondie : 0,33 + 0,33 + 0,33 = 0,99 seulement, à cause de la troncature."
     },
     {
       "id": "9",
@@ -99,20 +99,20 @@
     },
     {
       "id": "10",
-      "question": "Si une probabilité est faible, elle ne se produira probablement pas.",
+      "question": "Si un événement a seulement 1% de chance de se produire à chaque tentative, il ne se produira presque jamais, même répété des centaines de fois.",
       "image": null,
       "imagePrompt": "rare events probability",
       "answers": ["Vrai", "Faux", "Parfois", "Souvent"],
-      "correctIndex": 2,
-      "explanation": "Une probabilité faible peut quand même se produire, surtout si répétée."
+      "correctIndex": 1,
+      "explanation": "Même avec une probabilité de seulement 1% par tentative, répéter l'événement suffisamment de fois change la donne : après une centaine d'essais, il devient même plus probable que l'événement se produise au moins une fois que l'inverse. Chaque tentative supplémentaire, même peu probable individuellement, augmente donc les chances cumulées."
     },
     {
       "id": "11",
       "question": "Dans le problème des 3 portes (Monty Hall), changer de porte augmente tes chances.",
       "image": null,
       "imagePrompt": "monty hall problem",
-      "answers": ["Faux", "Vrai", "Parfois", "Impossible"],
-      "correctIndex": 1,
+      "answers": ["Faux", "Parfois", "Vrai", "Impossible"],
+      "correctIndex": 2,
       "explanation": "Changer passe de 1/3 à 2/3 de chances, même si cela paraît contre-intuitif."
     },
     {
@@ -120,44 +120,44 @@
       "question": "10% de 50 est égal à 5, donc 50% de 10 est aussi 5.",
       "image": null,
       "imagePrompt": "percentage symmetry",
-      "answers": ["Vrai", "Faux", "Parfois", "Souvent"],
-      "correctIndex": 0,
+      "answers": ["Faux", "Parfois", "Souvent", "Vrai"],
+      "correctIndex": 3,
       "explanation": "Les deux calculs donnent bien 5. Le piège est de croire que ce n’est pas symétrique."
     },
     {
       "id": "13",
-      "question": "Un nombre très grand est forcément difficile à atteindre.",
+      "question": "Un nombre écrit avec 100 chiffres est toujours plus grand que 2 puissance 100 (2¹⁰⁰).",
       "image": null,
-      "imagePrompt": "large numbers",
-      "answers": ["Vrai", "Faux", "Parfois", "Souvent"],
-      "correctIndex": 2,
-      "explanation": "Tout dépend du contexte. Certains processus atteignent rapidement de grands nombres."
+      "imagePrompt": "large numbers exponential comparison",
+      "answers": ["Vrai", "Faux", "Parfois", "Impossible à dire"],
+      "correctIndex": 0,
+      "explanation": "2¹⁰⁰ vaut environ 1,27 × 10³⁰, soit un nombre à seulement 31 chiffres. On imagine souvent qu'une puissance comme 2¹⁰⁰ est gigantesque, alors qu'un simple nombre à 100 chiffres est en réalité immensément plus grand."
     },
     {
       "id": "14",
-      "question": "Si tu gagnes 100€, puis perds 100€, tu es revenu à ton point de départ en pourcentage.",
+      "question": "Si tu gagnes 50% sur ton capital, puis tu perds 50%, tu retrouves exactement ton capital de départ.",
       "image": null,
       "imagePrompt": "percentage gain loss",
       "answers": ["Vrai", "Faux", "Parfois", "Toujours"],
       "correctIndex": 1,
-      "explanation": "Les pourcentages ne sont pas symétriques. Une perte après un gain ne s’annule pas parfaitement."
+      "explanation": "Si tu pars de 100€ et gagnes 50%, tu obtiens 150€. Perdre ensuite 50% de ces 150€ te fait perdre 75€, et non 50€ : il te reste donc 75€, pas 100€. Comme pour tous les pourcentages appliqués successivement, une hausse et une baisse de même taux ne s'annulent jamais exactement, car elles s'appliquent à des bases différentes."
     },
     {
       "id": "15",
-      "question": "Plus il y a de choix, plus tu as de chances de tomber sur la bonne réponse.",
+      "question": "Si tu réponds totalement au hasard, plus un QCM propose de choix, plus tu as de chances de tomber sur la bonne réponse.",
       "image": null,
       "imagePrompt": "multiple choice trap",
-      "answers": ["Vrai", "Faux", "Parfois", "Toujours"],
-      "correctIndex": 1,
-      "explanation": "Plus de choix augmente surtout la difficulté et le risque d’erreur."
+      "answers": ["Vrai", "Toujours", "Faux", "Parfois"],
+      "correctIndex": 2,
+      "explanation": "En devinant totalement au hasard, la probabilité de tomber sur la bonne réponse est de 1 divisé par le nombre de choix proposés : elle diminue donc à mesure que le nombre d'options augmente (1/2 pour deux choix, 1/4 pour quatre choix, etc.). Plus de choix rend le hasard moins favorable, pas plus."
     },
     {
       "id": "16",
       "question": "Si un événement a 1% de chance, il arrivera environ 1 fois sur 100 essais.",
       "image": null,
       "imagePrompt": "probability expectation",
-      "answers": ["Vrai", "Faux", "En moyenne", "Toujours"],
-      "correctIndex": 2,
+      "answers": ["Vrai", "Faux", "Toujours", "En moyenne"],
+      "correctIndex": 3,
       "explanation": "C’est une moyenne théorique, pas une garantie sur une série donnée."
     },
     {
@@ -165,36 +165,36 @@
       "question": "Multiplier un nombre par 1,1 puis par 0,9 revient au nombre initial.",
       "image": null,
       "imagePrompt": "percentage multiplication",
-      "answers": ["Vrai", "Faux", "Parfois", "Souvent"],
-      "correctIndex": 1,
+      "answers": ["Faux", "Vrai", "Parfois", "Souvent"],
+      "correctIndex": 0,
       "explanation": "1,1 × 0,9 = 0,99 → il y a une perte de 1%."
     },
     {
       "id": "18",
-      "question": "Un échantillon de 10 personnes peut représenter fidèlement une population.",
+      "question": "Un sondage réalisé auprès de seulement 10 personnes peut donner une estimation fiable de l'opinion de plusieurs millions de personnes.",
       "image": null,
-      "imagePrompt": "sample size bias",
-      "answers": ["Vrai", "Faux", "Parfois", "Souvent"],
-      "correctIndex": 2,
-      "explanation": "C’est possible mais peu fiable. Les petits échantillons sont très instables."
+      "imagePrompt": "sample size bias survey",
+      "answers": ["Vrai", "Faux", "Parfois", "Cela dépend uniquement de la qualité des questions posées"],
+      "correctIndex": 1,
+      "explanation": "Avec seulement 10 personnes interrogées, la marge d'erreur statistique dépasse généralement 30 %, ce qui limite fortement la fiabilité d'une estimation à l'échelle de plusieurs millions de personnes. Les instituts de sondage sérieux interrogent généralement au moins 1000 personnes pour ramener cette marge autour de 3 %, un seuil plus couramment jugé acceptable — même si la méthode d'échantillonnage compte, elle aussi, énormément."
     },
     {
       "id": "19",
       "question": "Additionner des probabilités donne toujours une probabilité correcte.",
       "image": null,
       "imagePrompt": "probability addition",
-      "answers": ["Vrai", "Faux", "Parfois", "Toujours"],
-      "correctIndex": 1,
-      "explanation": "On ne peut additionner que des événements exclusifs. Sinon, il faut ajuster."
+      "answers": ["Vrai", "Parfois", "Faux", "Toujours"],
+      "correctIndex": 2,
+      "explanation": "On peut additionner les probabilités uniquement si les événements ne peuvent pas se produire en même temps. Sinon, on compte certaines situations deux fois et il faut corriger le calcul."
     },
     {
       "id": "20",
-      "question": "Un événement improbable est forcément surprenant.",
+      "question": "Dans un tirage de loterie, la combinaison 1-2-3-4-5-6 a exactement la même probabilité de sortir que n'importe quelle autre combinaison de 6 numéros, même si elle semblerait bien plus surprenante si elle sortait réellement.",
       "image": null,
-      "imagePrompt": "probability surprise",
-      "answers": ["Vrai", "Faux", "Parfois", "Souvent"],
-      "correctIndex": 2,
-      "explanation": "Certains événements improbables passent inaperçus, tout dépend du contexte."
+      "imagePrompt": "lottery probability surprise pattern",
+      "answers": ["Faux", "Parfois", "Cela dépend du tirage", "Vrai"],
+      "correctIndex": 3,
+      "explanation": "Chaque combinaison précise de numéros a mathématiquement exactement la même probabilité de sortir que n'importe quelle autre, y compris une suite comme 1-2-3-4-5-6. Pourtant, si cette suite sortait réellement, elle paraîtrait bien plus « surprenante » qu'une combinaison à l'apparence aléatoire, simplement parce que notre cerveau reconnaît les motifs (patterns) et non les probabilités : la sensation de surprise est donc psychologique, pas mathématique."
     }
   ]
 }

@@ -1,8 +1,8 @@
 {
   "slug": "quiz-histoire-chronologie-pieges",
-  "title": "Quiz Culture Générale - Remets ces événements dans le bon ordre",
-  "description": "Attention, ton cerveau va te piéger : ces événements historiques sont plus proches que tu ne le penses.",
-  "descriptionSeo": "Teste ta culture générale avec ce quiz de chronologie historique. Révolution française, Empire romain, découvertes, guerres et inventions : 20 questions pour remettre les événements dans le bon ordre et éviter les pièges classiques de la mémoire.",
+  "title": "Quiz Culture Générale - Chronologie : quel événement est le plus ancien ou le plus récent ?",
+  "description": "Attention, ton cerveau va te piéger : sauras-tu repérer, parmi quatre propositions, l'événement historique le plus ancien ou le plus récent ?",
+  "descriptionSeo": "Teste ta culture générale avec ce quiz de chronologie historique. Révolution industrielle, Empire romain, inventions chinoises, découvertes et guerres mondiales : 20 questions pour identifier l'événement le plus ancien ou le plus récent parmi quatre propositions, et éviter les pièges classiques de la mémoire.",
   "category": {
     "name": "Culture générale",
     "slug": "culture-generale"
@@ -19,142 +19,242 @@
     {
       "id": "1",
       "question": "Quel événement est le PLUS ANCIEN ?",
-      "answers": ["Chute de Rome", "Découverte de l’Amérique", "Révolution française", "Construction des pyramides"],
+      "answers": [
+        "Chute de Rome",
+        "Découverte de l’Amérique",
+        "Indépendance des États-Unis",
+        "Construction des pyramides"
+      ],
       "correctIndex": 3,
-      "explanation": "Les pyramides datent d’environ 2500 av. J.-C., bien avant Rome (476), Colomb (1492) et la Révolution française (1789)."
+      "explanation": "Les pyramides datent d’environ 2500 av. J.-C., bien avant la chute de Rome (476), la découverte de l’Amérique par Colomb (1492) et l’indépendance des États-Unis (1776)."
     },
     {
       "id": "2",
       "question": "Quel événement est le PLUS RÉCENT ?",
-      "answers": ["Révolution française", "Première Guerre mondiale", "Chute de Rome", "Seconde Guerre mondiale"],
+      "answers": [
+        "Révolution française",
+        "Première Guerre mondiale",
+        "Chute de Rome",
+        "Seconde Guerre mondiale"
+      ],
       "correctIndex": 3,
-      "explanation": "La Seconde Guerre mondiale (1939–1945) est le plus récent événement de cette liste."
+      "explanation": "La Seconde Guerre mondiale (1939-1945) est l'événement le plus récent de cette liste. Avec plusieurs dizaines de millions de morts, elle est généralement considérée comme le conflit le plus meurtrier de l'histoire."
     },
     {
       "id": "3",
       "question": "Quel événement arrive en PREMIER ?",
-      "answers": ["Invention de l’imprimerie", "Découverte de l’Amérique", "Révolution française", "Chute de Constantinople"],
+      "answers": [
+        "Invention de l’imprimerie",
+        "Découverte de l’Amérique",
+        "Sacre de Napoléon",
+        "Chute de Constantinople"
+      ],
       "correctIndex": 0,
-      "explanation": "L’imprimerie apparaît vers 1450, avant Constantinople (1453) et Colomb (1492). Les dates sont très proches, d’où le piège."
+      "explanation": "L’imprimerie apparaît vers 1450 grâce à Gutenberg, avant la chute de Constantinople (1453), la découverte de l'Amérique par Colomb (1492) et le sacre de Napoléon (1804). Les deux premières dates sont très proches, d’où le piège."
     },
     {
       "id": "4",
-      "question": "Quel événement est le plus ancien ?",
-      "answers": ["Conquête de la Gaule par César", "Baptême de Clovis", "Sacre de Charlemagne", "Sacre de Napoléon"],
+      "question": "Quel événement est le PLUS ANCIEN ?",
+      "answers": [
+        "Conquête de la Gaule par César",
+        "Baptême de Clovis",
+        "Sacre de Charlemagne",
+        "Sacre de Napoléon"
+      ],
       "correctIndex": 0,
       "explanation": "César conquiert la Gaule au Ier siècle av. J.-C., bien avant Clovis (Ve siècle), Charlemagne (800) et Napoléon (1804)."
     },
     {
       "id": "5",
       "question": "Quel événement arrive en DERNIER ?",
-      "answers": ["Indépendance des États-Unis", "Révolution française", "Sacre de Napoléon", "Première Guerre mondiale"],
+      "answers": [
+        "Indépendance des États-Unis",
+        "Congrès de Vienne",
+        "Sacre de Napoléon",
+        "Première Guerre mondiale"
+      ],
       "correctIndex": 3,
-      "explanation": "La Première Guerre mondiale (1914) est bien plus récente que les événements du XVIIIe siècle."
+      "explanation": "La Première Guerre mondiale (1914) est bien plus récente que l'indépendance des États-Unis (1776), le sacre de Napoléon (1804) ou le congrès de Vienne (1815), qui redessine les frontières de l'Europe après la chute de l'empereur."
     },
     {
       "id": "6",
       "question": "Quel événement est le PLUS ANCIEN ?",
-      "answers": ["Début du Moyen Âge", "Début de l’Antiquité", "Début de la Renaissance", "Début des Temps modernes"],
-      "correctIndex": 1,
-      "explanation": "L’Antiquité commence bien avant le Moyen Âge. Le cerveau inverse souvent ces grandes périodes."
+      "answers": [
+        "Chute de Rome",
+        "Prise de Constantinople",
+        "Invention de l’écriture",
+        "Découverte de l’Amérique"
+      ],
+      "correctIndex": 2,
+      "explanation": "L'invention de l'écriture, vers 3300 av. J.-C. en Mésopotamie, précède de très loin la chute de Rome (476), la prise de Constantinople (1453) et la découverte de l'Amérique (1492). Le cerveau a souvent du mal à mesurer l'immense écart entre l'Antiquité la plus reculée et le reste de l'histoire."
     },
     {
       "id": "7",
       "question": "Quel événement arrive en PREMIER ?",
-      "answers": ["Révolution industrielle", "Révolution française", "Première Guerre mondiale", "Seconde Guerre mondiale"],
-      "correctIndex": 1,
-      "explanation": "La Révolution française (1789) précède les grandes transformations industrielles du XIXe siècle."
+      "answers": [
+        "Révolution industrielle",
+        "Révolution française",
+        "Première Guerre mondiale",
+        "Seconde Guerre mondiale"
+      ],
+      "correctIndex": 0,
+      "explanation": "Piège classique : la révolution industrielle démarre en Angleterre dès les années 1760-1780, avant même la Révolution française (1789). Ses transformations se poursuivent et s'intensifient tout au long du XIXe siècle, ce qui explique la confusion fréquente avec la Révolution française."
     },
     {
       "id": "8",
-      "question": "Quel événement est le plus ancien ?",
-      "answers": ["Découverte de l’Amérique", "Invention de l’imprimerie", "Naissance de Léonard de Vinci", "Naissance de Galilée"],
+      "question": "Quel événement est le PLUS ANCIEN ?",
+      "answers": [
+        "Découverte de l’Amérique",
+        "Invention de l’imprimerie",
+        "Naissance de Léonard de Vinci",
+        "Naissance de Galilée"
+      ],
       "correctIndex": 1,
-      "explanation": "L’imprimerie apparaît vers 1450, avant Colomb (1492), Léonard (1452) et Galilée (1564). Les dates proches piègent facilement."
+      "explanation": "L’imprimerie apparaît vers 1450, avant Colomb (1492), Léonard de Vinci (1452) et Galilée (1564). Les dates proches piègent facilement : l'imprimerie précède la naissance de Léonard de Vinci de seulement deux ans."
     },
     {
       "id": "9",
-      "question": "Quel événement est le plus récent ?",
-      "answers": ["Chute du mur de Berlin", "Seconde Guerre mondiale", "Première Guerre mondiale", "Révolution française"],
+      "question": "Quel événement est le PLUS RÉCENT ?",
+      "answers": [
+        "Chute du mur de Berlin",
+        "Seconde Guerre mondiale",
+        "Première Guerre mondiale",
+        "Unification de l’Allemagne"
+      ],
       "correctIndex": 0,
-      "explanation": "Le mur de Berlin tombe en 1989, bien après les guerres mondiales."
+      "explanation": "Le mur de Berlin tombe en 1989, bien après l'unification de l'Allemagne sous Bismarck (1871) et les deux guerres mondiales."
     },
     {
       "id": "10",
       "question": "Quel événement arrive en PREMIER ?",
-      "answers": ["Apogée de l’Empire romain", "Début du Moyen Âge", "Début de la Renaissance", "Révolution française"],
+      "answers": [
+        "Apogée de l’Empire romain",
+        "Chute de Rome",
+        "Prise de Constantinople",
+        "Découverte de l’Amérique"
+      ],
       "correctIndex": 0,
-      "explanation": "L’Empire romain appartient à l’Antiquité, bien avant toutes les autres périodes."
+      "explanation": "L’apogée de l’Empire romain (IIe siècle) précède largement sa chute (476), la prise de Constantinople (1453) et la découverte de l’Amérique par Colomb (1492)."
     },
     {
       "id": "11",
-      "question": "Quel événement est le plus ancien ?",
-      "answers": ["Expéditions vikings", "Époque des chevaliers", "Début des samouraïs", "Apogée de l’Empire romain"],
+      "question": "Quel événement est le PLUS ANCIEN ?",
+      "answers": [
+        "Raid viking de Lindisfarne",
+        "Bataille de Hastings",
+        "Fondation du shogunat de Kamakura",
+        "Apogée de l’Empire romain"
+      ],
       "correctIndex": 3,
-      "explanation": "L’Empire romain est bien plus ancien que les Vikings ou les samouraïs."
+      "explanation": "L’apogée de l’Empire romain (IIe siècle) est bien antérieure au raid viking de Lindisfarne, souvent considéré comme le début de l'ère viking (793), à la bataille de Hastings qui marque l'essor de la chevalerie normande (1066), et à la fondation du shogunat de Kamakura, qui inaugure l'ère des samouraïs au pouvoir au Japon : généralement datée de 1185, année de la victoire décisive de Minamoto no Yoritomo, bien que le titre officiel de shogun ne lui ait été accordé qu'en 1192."
     },
     {
       "id": "12",
-      "question": "Quel événement arrive en DERNIER ?",
-      "answers": ["Invention de l’imprimerie", "Découverte de l’Amérique", "Révolution française", "Chute de Rome"],
+      "question": "Quel événement est le PLUS ANCIEN ?",
+      "answers": [
+        "Fondation de l’Empire ottoman",
+        "Chute de Tenochtitlan",
+        "Invention du papier en Chine",
+        "Indépendance de l’Inde"
+      ],
       "correctIndex": 2,
-      "explanation": "La Révolution française est le plus récent de ces événements."
+      "explanation": "La tradition chinoise attribue à Cai Lun la mise au point du papier en l'an 105 apr. J.-C., mais des fragments retrouvés par les archéologues montrent qu'un papier rudimentaire existait déjà en Chine au moins deux siècles plus tôt. Dans tous les cas, cette invention précède largement la fondation de l'Empire ottoman (vers 1299), la chute de Tenochtitlan face aux conquistadors espagnols (1521) et l'indépendance de l'Inde (1947)."
     },
     {
       "id": "13",
-      "question": "Quel événement est le plus ancien ?",
-      "answers": ["Règne de Louis XIV", "Sacre de Napoléon", "Règne de Louis XVI", "Sacre de Charlemagne"],
+      "question": "Quel événement est le PLUS ANCIEN ?",
+      "answers": [
+        "Règne de Louis XIV",
+        "Sacre de Napoléon",
+        "Règne de Louis XVI",
+        "Sacre de Charlemagne"
+      ],
       "correctIndex": 3,
-      "explanation": "Charlemagne est sacré en 800, bien avant les rois modernes."
+      "explanation": "Charlemagne est sacré empereur par le pape en l'an 800, bien avant Louis XIV (XVIIe siècle), Louis XVI (XVIIIe siècle) et Napoléon (1804). Près de mille ans séparent ces deux sacres impériaux."
     },
     {
       "id": "14",
-      "question": "Quel événement est le plus récent ?",
-      "answers": ["Révolution française", "Sacre de Napoléon", "Première Guerre mondiale", "Seconde Guerre mondiale"],
-      "correctIndex": 3,
-      "explanation": "La Seconde Guerre mondiale est la plus récente."
+      "question": "Quel événement est le PLUS ANCIEN ?",
+      "answers": [
+        "Invention de la poudre à canon en Chine",
+        "Début des croisades",
+        "Peste noire en Europe",
+        "Invention de l’imprimerie"
+      ],
+      "correctIndex": 0,
+      "explanation": "La poudre à canon est inventée en Chine dès le IXe siècle, sous la dynastie Tang, bien avant les croisades (1096), la peste noire en Europe (1347) et l'invention de l'imprimerie (1450)."
     },
     {
       "id": "15",
       "question": "Quel événement arrive en PREMIER ?",
-      "answers": ["Découverte de l’Amérique", "Invention de l’imprimerie", "Début de la Renaissance", "Révolution française"],
-      "correctIndex": 1,
-      "explanation": "Encore un piège classique : l’imprimerie précède Colomb."
+      "answers": [
+        "Fondation de Rome",
+        "Naissance de Bouddha",
+        "Début des Jeux olympiques antiques",
+        "Fondation de Carthage"
+      ],
+      "correctIndex": 3,
+      "explanation": "Selon la tradition, Carthage est fondée en 814 av. J.-C. par la reine Didon, soit avant les premiers Jeux olympiques antiques (776 av. J.-C.), la fondation légendaire de Rome (753 av. J.-C.) et la naissance de Bouddha (généralement située au VIe siècle av. J.-C., même si des recherches plus récentes évoquent plutôt le Ve siècle). Ces dates très anciennes restent en grande partie légendaires ou débattues par les historiens, mais leur ordre relatif fait consensus."
     },
     {
       "id": "16",
-      "question": "Quel événement est le plus ancien ?",
-      "answers": ["Naissance de la démocratie athénienne", "Apogée de l’Empire romain", "Début du Moyen Âge", "Début de la Renaissance"],
+      "question": "Quel événement est le PLUS ANCIEN ?",
+      "answers": [
+        "Naissance de la démocratie athénienne",
+        "Apogée de l’Empire romain",
+        "Chute de Rome",
+        "Prise de Constantinople"
+      ],
       "correctIndex": 0,
-      "explanation": "La démocratie athénienne apparaît bien avant Rome. Beaucoup inversent ces deux repères."
+      "explanation": "La démocratie athénienne (Ve siècle av. J.-C.) apparaît bien avant l'apogée de l'Empire romain, sa chute (476) et la prise de Constantinople (1453). Beaucoup inversent ces repères."
     },
     {
       "id": "17",
       "question": "Quel événement arrive en DERNIER ?",
-      "answers": ["Révolution française", "Sacre de Napoléon", "Première Guerre mondiale", "Seconde Guerre mondiale"],
+      "answers": [
+        "Premier vol des frères Wright",
+        "Découverte de la pénicilline",
+        "Assassinat de l'archiduc François-Ferdinand",
+        "Premier pas sur la Lune"
+      ],
       "correctIndex": 3,
-      "explanation": "Encore une fois, la Seconde Guerre mondiale est la plus récente."
+      "explanation": "Le premier pas sur la Lune (1969) est bien postérieur au premier vol des frères Wright (1903), à l'assassinat de l'archiduc François-Ferdinand à Sarajevo (1914) — élément déclencheur immédiat de la Première Guerre mondiale, dont les causes profondes (alliances militaires, rivalités impérialistes, course aux armements) couvaient depuis plusieurs années — et à la découverte de la pénicilline par Fleming (1928)."
     },
     {
       "id": "18",
-      "question": "Quel événement est le plus ancien ?",
-      "answers": ["Conquêtes d’Alexandre le Grand", "Conquête de la Gaule par César", "Sacre de Napoléon", "Règne de Louis XIV"],
-      "correctIndex": 0,
-      "explanation": "Alexandre le Grand (IVe siècle av. J.-C.) précède César. C’est une confusion très fréquente."
+      "question": "Quel événement est le PLUS ANCIEN ?",
+      "answers": [
+        "Conquête de la Gaule par César",
+        "Sacre de Napoléon",
+        "Conquêtes d’Alexandre le Grand",
+        "Règne de Louis XIV"
+      ],
+      "correctIndex": 2,
+      "explanation": "Alexandre le Grand (IVe siècle av. J.-C.) précède César de plus de deux siècles. C'est une confusion très fréquente, les deux conquérants étant souvent associés dans l'imaginaire collectif."
     },
     {
       "id": "19",
-      "question": "Quel événement est le plus récent ?",
-      "answers": ["Chute de Rome", "Début du Moyen Âge", "Début de la Renaissance", "Révolution française"],
+      "question": "Quel événement est le PLUS RÉCENT ?",
+      "answers": [
+        "Chute de Rome",
+        "Sacre de Charlemagne",
+        "Prise de Constantinople",
+        "Indépendance de l’Inde"
+      ],
       "correctIndex": 3,
-      "explanation": "La Révolution française marque la fin des Temps modernes."
+      "explanation": "L'indépendance de l'Inde (1947) est bien postérieure à la chute de Rome (476), au sacre de Charlemagne (800) et à la prise de Constantinople (1453)."
     },
     {
       "id": "20",
-      "question": "Quel événement arrive en PREMIER ?",
-      "answers": ["Première Guerre mondiale", "Seconde Guerre mondiale", "Révolution française", "Apogée de l’Empire romain"],
+      "question": "Quel événement arrive en DERNIER ?",
+      "answers": [
+        "Signature de la Magna Carta",
+        "Publication de L’Origine des espèces de Darwin",
+        "Invention du téléphone",
+        "Premier vol spatial habité"
+      ],
       "correctIndex": 3,
-      "explanation": "L’Empire romain est de loin le plus ancien événement ici."
+      "explanation": "Le premier vol spatial habité, réalisé par Youri Gagarine en 1961, est bien postérieur à la signature de la Magna Carta (1215), à la publication de L'Origine des espèces de Darwin (1859) et à l'invention du téléphone par Graham Bell (1876)."
     }
   ]
 }

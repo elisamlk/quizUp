@@ -27,12 +27,12 @@
     },
     {
       "id": "cgsc-2",
-      "question": "Quel scandale financier est lié à l’effondrement d’Enron ?",
+      "question": "Quelle entreprise énergétique américaine a fait faillite en 2001 après avoir dissimulé ses pertes grâce à des montages comptables complexes ?",
       "image": null,
       "imagePrompt": "enron corporate scandal accounting fraud",
-      "answers": ["Crise des subprimes","Fraude comptable massive","Délit d’initié","Blanchiment"],
+      "answers": ["WorldCom","Enron","Lehman Brothers","Tyco International"],
       "correctIndex": 1,
-      "explanation": "Enron utilisait des montages financiers complexes pour masquer ses pertes. Ce scandale révèle les failles du contrôle comptable et conduit à des réformes majeures aux États-Unis."
+      "explanation": "Enron dissimule ses pertes à l'aide de sociétés-écrans et de montages comptables complexes conçus avec la complicité de son cabinet d'audit, Arthur Andersen. Sa faillite en décembre 2001, l'une des plus importantes de l'histoire américaine à l'époque, entraîne des réformes majeures du contrôle comptable des entreprises cotées."
     },
     {
       "id": "cgsc-3",
@@ -54,12 +54,12 @@
     },
     {
       "id": "cgsc-5",
-      "question": "Quel scandale financier est lié à Bernie Madoff ?",
+      "question": "Quel financier américain a orchestré la plus grande fraude de type pyramide de Ponzi de l'histoire, démantelée en 2008 ?",
       "image": null,
       "imagePrompt": "madoff ponzi scheme wall street",
-      "answers": ["Pyramide de Ponzi","Fraude fiscale","Corruption politique","Crise bancaire"],
+      "answers": ["Bernie Madoff","Allen Stanford","Jordan Belfort","Charles Ponzi"],
       "correctIndex": 0,
-      "explanation": "Madoff a orchestré l’une des plus grandes fraudes financières de l’histoire, reposant sur un système de Ponzi qui a ruiné des milliers d’investisseurs."
+      "explanation": "Bernie Madoff a orchestré, pendant des décennies, l'une des plus grandes fraudes financières de l'histoire, reposant sur un système de Ponzi qui rémunérait les anciens investisseurs avec l'argent des nouveaux. Sa chute en 2008, en pleine crise financière, ruine des milliers d'investisseurs, dont de nombreuses fondations caritatives."
     },
     {
       "id": "cgsc-6",
@@ -81,48 +81,48 @@
     },
     {
       "id": "cgsc-8",
-      "question": "Quel scandale a impliqué des matchs truqués dans le football international ?",
+      "question": "Quel scandale de matchs truqués et d'arbitres corrompus a secoué le football italien en 2006, entraînant la relégation de la Juventus en Serie B ?",
       "image": null,
-      "imagePrompt": "football match fixing scandal investigation",
-      "answers": ["Dopage","Blanchiment","Corruption politique","Matchs truqués"],
+      "imagePrompt": "football match fixing scandal investigation italy",
+      "answers": ["Football Leaks","L'affaire Hoyzer","Le scandale des paris asiatiques","Calciopoli"],
       "correctIndex": 3,
-      "explanation": "Les affaires de matchs truqués révèlent des réseaux criminels influençant les résultats sportifs pour des gains financiers."
+      "explanation": "Le scandale du Calciopoli éclate en 2006 en Italie, révélant un système d'influence sur la désignation des arbitres impliquant plusieurs grands clubs, dont la Juventus, sanctionnée d'une rétrogradation en Serie B et d'un retrait de titres."
     },
     {
       "id": "cgsc-9",
-      "question": "Quel scandale a touché la FIFA en 2015 ?",
+      "question": "Comment est parfois surnommé le scandale de corruption qui a secoué la FIFA en 2015, avec l'arrestation de plusieurs dirigeants à Zurich ?",
       "image": null,
       "imagePrompt": "fifa corruption scandal arrests 2015",
-      "answers": ["Corruption","Fraude bancaire","Dopage","Espionnage"],
+      "answers": ["Fifagate","Footballgate","Soccergate","Ballongate"],
       "correctIndex": 0,
-      "explanation": "Le scandale de la FIFA révèle un système de corruption impliquant des dirigeants du football mondial, notamment dans l’attribution des compétitions."
+      "explanation": "Surnommé « Fifagate » par la presse, ce scandale éclate le 27 mai 2015 lorsque plusieurs hauts dirigeants de la FIFA sont arrêtés à Zurich sur demande du FBI, pour des soupçons de corruption, blanchiment d'argent et fraude électronique liés à l'attribution de droits marketing et de compétitions."
     },
     {
       "id": "cgsc-10",
-      "question": "Quel scandale concerne les Pentagon Papers ?",
+      "question": "Qui a divulgué les Pentagon Papers à la presse en 1971, révélant les mensonges du gouvernement américain sur la guerre du Vietnam ?",
       "image": null,
-      "imagePrompt": "pentagon papers vietnam war documents",
-      "answers": ["Espionnage","Documents secrets sur la guerre du Vietnam","Fraude fiscale","Crise financière"],
+      "imagePrompt": "pentagon papers vietnam war documents daniel ellsberg",
+      "answers": ["Edward Snowden","Daniel Ellsberg","Chelsea Manning","Mark Felt"],
       "correctIndex": 1,
-      "explanation": "Les Pentagon Papers révèlent que le gouvernement américain a dissimulé des informations sur la guerre du Vietnam, renforçant la méfiance publique."
+      "explanation": "Daniel Ellsberg, analyste militaire ayant travaillé sur une étude classifiée du Pentagone, transmet les Pentagon Papers au New York Times en 1971. Ce document révèle que plusieurs administrations américaines ont sciemment trompé le Congrès et l'opinion publique sur les chances réelles de victoire au Vietnam."
     },
     {
       "id": "cgsc-11",
-      "question": "Quel scandale concerne l’affaire Iran-Contra ?",
+      "question": "Sous quelle présidence américaine éclate l'affaire Iran-Contra, révélant la vente secrète d'armes à l'Iran pour financer des rebelles au Nicaragua ?",
       "image": null,
-      "imagePrompt": "iran contra scandal weapons deal",
-      "answers": ["Blanchiment","Corruption","Vente illégale d’armes","Espionnage"],
+      "imagePrompt": "iran contra scandal weapons deal reagan",
+      "answers": ["Jimmy Carter","George H. W. Bush","Ronald Reagan","Bill Clinton"],
       "correctIndex": 2,
-      "explanation": "L’affaire Iran-Contra révèle des ventes d’armes secrètes pour financer des opérations clandestines, contournant le Congrès américain."
+      "explanation": "L'affaire Iran-Contra éclate en 1986 sous la présidence de Ronald Reagan. Des responsables de son administration organisent la vente secrète d'armes à l'Iran, alors sous embargo, afin de financer illégalement la guérilla anticommuniste des Contras au Nicaragua, contournant une interdiction votée par le Congrès."
     },
     {
       "id": "cgsc-12",
-      "question": "Quel scandale concerne LuxLeaks ?",
+      "question": "Quel pays européen, réputé pour sa fiscalité avantageuse, est au cœur du scandale LuxLeaks révélé en 2014 ?",
       "image": null,
-      "imagePrompt": "luxleaks tax avoidance europe documents",
-      "answers": ["Corruption","Espionnage","Fraude sportive","Accords fiscaux secrets"],
+      "imagePrompt": "luxleaks tax avoidance europe documents luxembourg",
+      "answers": ["La Suisse","Les Pays-Bas","L'Irlande","Le Luxembourg"],
       "correctIndex": 3,
-      "explanation": "LuxLeaks expose des accords fiscaux permettant à des multinationales de réduire fortement leurs impôts en Europe."
+      "explanation": "LuxLeaks, révélé en novembre 2014 par un consortium de journalistes, dévoile des centaines d'accords fiscaux secrets négociés entre l'administration luxembourgeoise et de grandes multinationales, leur permettant de réduire drastiquement leurs impôts en Europe."
     },
     {
       "id": "cgsc-13",
@@ -144,21 +144,21 @@
     },
     {
       "id": "cgsc-15",
-      "question": "Quel scandale est lié à WikiLeaks ?",
+      "question": "Qui a fondé WikiLeaks, plateforme à l'origine de la publication de nombreux câbles diplomatiques et documents militaires confidentiels à partir de 2010 ?",
       "image": null,
-      "imagePrompt": "wikileaks cables leak diplomacy",
-      "answers": ["Fraude","Corruption","Fuite de documents confidentiels","Dopage"],
+      "imagePrompt": "wikileaks cables leak diplomacy julian assange",
+      "answers": ["Edward Snowden","Chelsea Manning","Julian Assange","Glenn Greenwald"],
       "correctIndex": 2,
-      "explanation": "WikiLeaks publie des documents diplomatiques et militaires confidentiels, révélant les coulisses de la politique internationale."
+      "explanation": "Julian Assange fonde WikiLeaks en 2006. La plateforme acquiert une notoriété mondiale en 2010 en publiant, notamment grâce aux documents transmis par la lanceuse d'alerte Chelsea Manning, des centaines de milliers de câbles diplomatiques et rapports militaires américains classifiés."
     },
     {
       "id": "cgsc-16",
-      "question": "Quel scandale concerne les Paradise Papers ?",
+      "question": "Quel cabinet d'avocats offshore est à l'origine de la fuite de documents ayant donné naissance au scandale des Paradise Papers en 2017 ?",
       "image": null,
-      "imagePrompt": "paradise papers offshore finance",
-      "answers": ["Espionnage","Fraude sportive","Corruption","Évasion fiscale mondiale"],
+      "imagePrompt": "paradise papers offshore finance appleby",
+      "answers": ["Mossack Fonseca","Deloitte","PwC","Appleby"],
       "correctIndex": 3,
-      "explanation": "Les Paradise Papers révèlent des stratégies d’optimisation fiscale utilisées par de grandes fortunes et entreprises."
+      "explanation": "Les Paradise Papers proviennent principalement d'une fuite de documents du cabinet d'avocats offshore Appleby, basé aux Bermudes, révélant les montages financiers utilisés par de grandes fortunes et multinationales pour réduire leur imposition — à ne pas confondre avec le cabinet panaméen Mossack Fonseca, à l'origine des Panama Papers un an plus tôt."
     },
     {
       "id": "cgsc-17",
@@ -171,21 +171,21 @@
     },
     {
       "id": "cgsc-18",
-      "question": "Quel scandale concerne le dopage systémique en Russie ?",
+      "question": "Quels Jeux olympiques d'hiver sont au cœur du scandale de dopage d'État russe révélé notamment par le documentaire Icarus ?",
       "image": null,
-      "imagePrompt": "russia doping scandal olympics",
-      "answers": ["Match truqué","Dopage russe","Corruption","Espionnage"],
+      "imagePrompt": "russia doping scandal sochi olympics",
+      "answers": ["Vancouver 2010","Sotchi 2014","PyeongChang 2018","Turin 2006"],
       "correctIndex": 1,
-      "explanation": "Le scandale du dopage russe révèle un système organisé impliquant institutions sportives et autorités nationales."
+      "explanation": "Le scandale de dopage organisé par l'État russe est révélé à propos des Jeux olympiques d'hiver de Sotchi 2014, où des échantillons d'urine positifs d'athlètes russes auraient été substitués par du personnel du FSB via un trou percé dans le mur du laboratoire antidopage, selon les révélations du docteur Grigori Rodtchenkov, rapportées dans le documentaire « Icarus »."
     },
     {
       "id": "cgsc-19",
-      "question": "Quel scandale concerne une manipulation du taux Libor ?",
+      "question": "Quelle banque britannique a été la première à être lourdement sanctionnée, en 2012, pour sa participation à la manipulation du taux Libor ?",
       "image": null,
-      "imagePrompt": "libor scandal banking manipulation",
-      "answers": ["Fraude sportive","Espionnage","Manipulation financière","Corruption politique"],
+      "imagePrompt": "libor scandal banking manipulation barclays",
+      "answers": ["HSBC","Deutsche Bank","Barclays","UBS"],
       "correctIndex": 2,
-      "explanation": "Le scandale du Libor révèle que certaines banques ont manipulé un taux clé du système financier mondial."
+      "explanation": "Barclays est la première grande banque à être sanctionnée, en juin 2012, avec une amende de 290 millions de livres sterling pour avoir manipulé le taux Libor, un indice de référence utilisé pour fixer les taux d'intérêt de milliers de milliards de dollars de produits financiers dans le monde."
     },
     {
       "id": "cgsc-20",

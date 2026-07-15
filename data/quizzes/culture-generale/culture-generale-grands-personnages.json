@@ -21,8 +21,8 @@
       "question": "Quel chef militaire français est devenu empereur en 1804 ?",
       "image": null,
       "imagePrompt": "napoleon bonaparte emperor french history portrait",
-      "answers": ["Louis XIV", "Napoléon Bonaparte", "Charles de Gaulle", "Louis XVI"],
-      "correctIndex": 1,
+      "answers": ["Napoléon Bonaparte", "Louis XIV", "Charles de Gaulle", "Louis XVI"],
+      "correctIndex": 0,
       "explanation": "Napoléon Bonaparte s’est proclamé empereur des Français en 1804, marquant durablement l’histoire de l’Europe par ses réformes et ses conquêtes."
     },
     {
@@ -30,8 +30,8 @@
       "question": "Quelle reine d’Égypte est célèbre pour son alliance avec Jules César puis Marc Antoine ?",
       "image": null,
       "imagePrompt": "cleopatra queen egypt ancient portrait",
-      "answers": ["Nefertiti", "Hatchepsout", "Cléopâtre", "Bérénice"],
-      "correctIndex": 2,
+      "answers": ["Nefertiti", "Cléopâtre", "Hatchepsout", "Bérénice"],
+      "correctIndex": 1,
       "explanation": "Cléopâtre VII est l’une des figures les plus fascinantes de l’Antiquité, connue autant pour son intelligence politique que pour son destin tragique."
     },
     {
@@ -39,8 +39,8 @@
       "question": "Quel génie de la Renaissance a peint la Joconde ?",
       "image": null,
       "imagePrompt": "leonardo da vinci renaissance painter inventor portrait",
-      "answers": ["Michel-Ange", "Raphaël", "Donatello", "Léonard de Vinci"],
-      "correctIndex": 3,
+      "answers": ["Michel-Ange", "Raphaël", "Léonard de Vinci", "Donatello"],
+      "correctIndex": 2,
       "explanation": "Léonard de Vinci n’était pas seulement peintre : il fut aussi inventeur, ingénieur et observateur passionné du monde, incarnant l’idéal de l’homme universel."
     },
     {
@@ -48,8 +48,8 @@
       "question": "Quel scientifique a formulé la théorie de la relativité ?",
       "image": null,
       "imagePrompt": "albert einstein scientist portrait relativity",
-      "answers": ["Isaac Newton", "Albert Einstein", "Galilée", "Niels Bohr"],
-      "correctIndex": 1,
+      "answers": ["Isaac Newton", "Galilée", "Niels Bohr", "Albert Einstein"],
+      "correctIndex": 3,
       "explanation": "Albert Einstein a révolutionné la physique moderne avec ses théories de la relativité, qui ont changé notre compréhension de l’espace, du temps et de la gravité."
     },
     {
@@ -57,8 +57,8 @@
       "question": "Quelle femme scientifique a remporté deux prix Nobel dans deux disciplines différentes ?",
       "image": null,
       "imagePrompt": "marie curie laboratory science portrait nobel",
-      "answers": ["Rosalind Franklin", "Ada Lovelace", "Irène Joliot-Curie", "Marie Curie"],
-      "correctIndex": 3,
+      "answers": ["Marie Curie", "Rosalind Franklin", "Ada Lovelace", "Irène Joliot-Curie"],
+      "correctIndex": 0,
       "explanation": "Marie Curie a obtenu le prix Nobel de physique puis celui de chimie, un exploit exceptionnel qui témoigne de l’ampleur de ses découvertes."
     },
     {
@@ -84,8 +84,8 @@
       "question": "Quelle héroïne française du XVe siècle a affirmé entendre des voix divines ?",
       "image": null,
       "imagePrompt": "joan of arc medieval armor france portrait",
-      "answers": ["Aliénor d’Aquitaine", "Jeanne d’Arc", "Christine de Pizan", "Marguerite de Navarre"],
-      "correctIndex": 1,
+      "answers": ["Aliénor d’Aquitaine", "Christine de Pizan", "Marguerite de Navarre", "Jeanne d’Arc"],
+      "correctIndex": 3,
       "explanation": "Jeanne d’Arc a joué un rôle décisif pendant la guerre de Cent Ans et reste une figure majeure de courage et de foi dans l’histoire de France."
     },
     {
@@ -93,18 +93,18 @@
       "question": "Quel conquérant macédonien a bâti un immense empire avant l’âge de 33 ans ?",
       "image": null,
       "imagePrompt": "alexander the great ancient conqueror portrait battlefield",
-      "answers": ["Jules César", "Auguste", "Alexandre le Grand", "Hannibal"],
-      "correctIndex": 2,
+      "answers": ["Alexandre le Grand", "Jules César", "Auguste", "Hannibal"],
+      "correctIndex": 0,
       "explanation": "Alexandre le Grand a conquis un territoire immense, de la Grèce jusqu’à l’Inde, en un temps remarquablement court."
     },
     {
       "id": "gperso-10",
-      "question": "Quel empereur romain est célèbre pour avoir été assassiné aux Ides de mars ?",
+      "question": "Quel dirigeant romain est célèbre pour avoir été assassiné aux Ides de mars ?",
       "image": null,
-      "imagePrompt": "julius caesar roman emperor senate portrait",
+      "imagePrompt": "julius caesar roman senate portrait assassination",
       "answers": ["Néron", "Jules César", "Trajan", "Caligula"],
       "correctIndex": 1,
-      "explanation": "Jules César fut assassiné le 15 mars 44 av. J.-C., un événement devenu l’un des épisodes les plus célèbres de l’histoire romaine."
+      "explanation": "Jules César fut assassiné le 15 mars 44 av. J.-C., un événement devenu l’un des épisodes les plus célèbres de l’histoire romaine. Contrairement à une idée reçue, César n'a jamais porté le titre d'empereur : celui-ci n'apparaît qu'avec son héritier Auguste, plusieurs années après sa mort. César exerçait le pouvoir en tant que dictateur, nommé « dictator perpetuo » (dictateur à vie) peu avant son assassinat."
     },
     {
       "id": "gperso-11",
@@ -138,8 +138,8 @@
       "question": "Quel militant américain est associé au discours « I Have a Dream » ?",
       "image": null,
       "imagePrompt": "martin luther king jr civil rights speech portrait",
-      "answers": ["Malcolm X", "Barack Obama", "Martin Luther King Jr.", "Frederick Douglass"],
-      "correctIndex": 2,
+      "answers": ["Malcolm X", "Martin Luther King Jr.", "Barack Obama", "Frederick Douglass"],
+      "correctIndex": 1,
       "explanation": "Martin Luther King Jr. est devenu l’un des plus grands symboles de la lutte pacifique pour les droits civiques aux États-Unis."
     },
     {
@@ -147,8 +147,8 @@
       "question": "Quel naturaliste britannique est l’auteur de « L’Origine des espèces » ?",
       "image": null,
       "imagePrompt": "charles darwin naturalist portrait evolution",
-      "answers": ["Gregor Mendel", "Charles Darwin", "Louis Pasteur", "Jean-Baptiste Lamarck"],
-      "correctIndex": 1,
+      "answers": ["Gregor Mendel", "Louis Pasteur", "Charles Darwin", "Jean-Baptiste Lamarck"],
+      "correctIndex": 2,
       "explanation": "Charles Darwin a profondément transformé la biologie en proposant une explication cohérente de l’évolution par sélection naturelle."
     },
     {
@@ -156,8 +156,8 @@
       "question": "Quelle artiste mexicaine est connue pour ses autoportraits marquants et sa vie hors du commun ?",
       "image": null,
       "imagePrompt": "frida kahlo portrait art mexico colorful",
-      "answers": ["Georgia O’Keeffe", "Frida Kahlo", "Tamara de Lempicka", "Leonora Carrington"],
-      "correctIndex": 1,
+      "answers": ["Georgia O’Keeffe", "Tamara de Lempicka", "Leonora Carrington", "Frida Kahlo"],
+      "correctIndex": 3,
       "explanation": "Frida Kahlo a transformé sa douleur, son identité et son histoire personnelle en une œuvre puissante et immédiatement reconnaissable."
     },
     {
@@ -165,17 +165,17 @@
       "question": "Quel écrivain français est l’auteur de « Les Misérables » ?",
       "image": null,
       "imagePrompt": "victor hugo french writer portrait literature",
-      "answers": ["Émile Zola", "Victor Hugo", "Honoré de Balzac", "Gustave Flaubert"],
-      "correctIndex": 1,
+      "answers": ["Victor Hugo", "Émile Zola", "Honoré de Balzac", "Gustave Flaubert"],
+      "correctIndex": 0,
       "explanation": "Victor Hugo a marqué la littérature française par l’ampleur de son œuvre, son engagement politique et son influence culturelle durable."
     },
     {
       "id": "gperso-18",
-      "question": "Quel philosophe grec condamnée à mort a marqué l’histoire par sa méthode de questionnement ?",
+      "question": "Quel philosophe grec condamné à mort a marqué l’histoire par sa méthode de questionnement ?",
       "image": null,
       "imagePrompt": "socrates ancient greek philosopher statue athens",
-      "answers": ["Platon", "Aristote", "Socrate", "Épicure"],
-      "correctIndex": 2,
+      "answers": ["Platon", "Socrate", "Aristote", "Épicure"],
+      "correctIndex": 1,
       "explanation": "Socrate n’a laissé aucun écrit, mais son art du dialogue et du questionnement a profondément influencé toute la philosophie occidentale."
     },
     {
@@ -183,8 +183,8 @@
       "question": "Quel chef mongol a fondé l’un des plus vastes empires de l’histoire ?",
       "image": null,
       "imagePrompt": "genghis khan mongol empire warrior portrait",
-      "answers": ["Tamerlan", "Gengis Khan", "Kubilaï Khan", "Attila"],
-      "correctIndex": 1,
+      "answers": ["Tamerlan", "Kubilaï Khan", "Gengis Khan", "Attila"],
+      "correctIndex": 2,
       "explanation": "Gengis Khan a unifié les tribus mongoles et lancé une expansion fulgurante qui a redessiné l’histoire de l’Asie et de l’Europe."
     },
     {
@@ -192,8 +192,8 @@
       "question": "Quelle femme politique française est devenue la première présidente du Parlement européen élue au suffrage universel ?",
       "image": null,
       "imagePrompt": "simone veil portrait european parliament france",
-      "answers": ["Édith Cresson", "Simone Signoret", "Simone Veil", "Marguerite Yourcenar"],
-      "correctIndex": 2,
+      "answers": ["Édith Cresson", "Simone Signoret", "Marguerite Yourcenar", "Simone Veil"],
+      "correctIndex": 3,
       "explanation": "Simone Veil est une figure majeure de la vie politique française et européenne, admirée pour son courage, sa dignité et son engagement."
     }
   ]
