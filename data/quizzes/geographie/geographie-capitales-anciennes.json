@@ -1,6 +1,6 @@
 {
   "slug": "quiz-geographie-capitales-anciennes",
-  "title": "Quiz Géographie - Capitales Anciennes : Les plus vieilles villes du monde",
+  "title": "Quiz Géographie - Capitales Anciennes - Les plus vieilles villes du monde",
   "description": "Découvre les capitales les plus anciennes du monde et teste tes connaissances historiques et géographiques.",
   "descriptionSeo": "Certaines capitales du monde existent depuis des millénaires et ont vu naître de grandes civilisations. Ce quiz de géographie propose 20 questions pour tester vos connaissances sur les capitales les plus anciennes encore habitées aujourd’hui. De Damas à Athènes en passant par Rome ou Jérusalem, explorez leur histoire fascinante et leur rôle dans le développement des sociétés humaines.",
   "category": {
@@ -43,24 +43,34 @@
       "correctIndex": 2,
       "explanation": "Rome fut le centre de l’Empire romain, l’un des plus vastes de l’histoire. Elle reste aujourd’hui un symbole majeur de continuité historique."
     },
-    {
-      "id": "4",
-      "question": "Quelle capitale égyptienne est proche des vestiges des pyramides ?",
-      "image": null,
-      "imagePrompt": "Cairo pyramids",
-      "answers": ["Alexandrie", "Le Caire", "Louxor", "Assouan"],
-      "correctIndex": 1,
-      "explanation": "Le Caire, bien que plus récent que certaines villes antiques, est situé près de Gizeh, cœur de l’Égypte antique, reliant passé et présent."
-    },
-    {
-      "id": "5",
-      "question": "Quelle capitale est associée aux civilisations mésopotamiennes ?",
-      "image": null,
-      "imagePrompt": "Baghdad old city",
-      "answers": ["Téhéran", "Bagdad", "Damas", "Ankara"],
-      "correctIndex": 1,
-      "explanation": "Bagdad est proche des anciennes civilisations de Mésopotamie et a été un centre intellectuel majeur pendant l’âge d’or islamique."
-    },
+  {
+  "id": "4",
+  "question": "Quelle capitale est bâtie à proximité de l'ancienne cité de Memphis, l'une des premières capitales de l'Égypte antique ?",
+  "image": null,
+  "imagePrompt": "Cairo Giza pyramids aerial view",
+  "answers": [
+    "Le Caire",
+    "Alexandrie",
+    "Khartoum",
+    "Tripoli"
+  ],
+  "correctIndex": 0,
+  "explanation": "Fondé au Xe siècle, Le Caire est situé près de Memphis et du plateau de Gizeh. Bien qu'il ne soit pas lui-même une ville antique, il est aujourd'hui la capitale de l'Égypte et se trouve au cœur de l'un des plus anciens foyers de civilisation."
+},
+ {
+  "id": "5",
+  "question": "Quelle capitale actuelle se situe non loin des ruines de Babylone, l'une des villes les plus célèbres de l'Antiquité ?",
+  "image": null,
+  "imagePrompt": "Babylon ruins near Baghdad",
+  "answers": [
+    "Damas",
+    "Bagdad",
+    "Amman",
+    "Téhéran"
+  ],
+  "correctIndex": 1,
+  "explanation": "Bagdad a été fondée au VIIIe siècle mais se trouve à proximité de Babylone, ancienne capitale de l'Empire babylonien. Elle est devenue un immense centre scientifique et culturel durant l'âge d'or islamique."
+},
     {
       "id": "6",
       "question": "Quelle capitale est un centre religieux majeur depuis l’Antiquité ?",
@@ -70,15 +80,20 @@
       "correctIndex": 0,
       "explanation": "Jérusalem est une ville sainte pour trois grandes religions monothéistes, ce qui lui confère une importance historique et spirituelle unique."
     },
-    {
-      "id": "7",
-      "question": "Quelle capitale chinoise possède une histoire impériale millénaire ?",
-      "image": null,
-      "imagePrompt": "Beijing forbidden city",
-      "answers": ["Shanghai", "Pékin", "Canton", "Xi’an"],
-      "correctIndex": 1,
-      "explanation": "Pékin a été capitale de plusieurs dynasties et reste un centre politique majeur depuis des siècles."
-    },
+  {
+  "id": "7",
+  "question": "Quelle capitale asiatique est le siège du pouvoir impérial chinois depuis plusieurs grandes dynasties ?",
+  "image": null,
+  "imagePrompt": "Forbidden City Beijing",
+  "answers": [
+    "Séoul",
+    "Pékin",
+    "Hanoï",
+    "Tokyo"
+  ],
+  "correctIndex": 1,
+  "explanation": "Pékin est devenue la capitale de plusieurs dynasties, notamment les Yuan, les Ming et les Qing. La Cité interdite témoigne encore aujourd'hui de son prestigieux passé impérial."
+},
     {
       "id": "8",
       "question": "Quelle capitale indienne est liée à plusieurs empires anciens ?",
@@ -88,42 +103,62 @@
       "correctIndex": 1,
       "explanation": "Delhi a été la capitale de nombreux empires, notamment les sultanats et l’Empire moghol, ce qui explique sa richesse historique."
     },
-    {
-      "id": "9",
-      "question": "Quelle capitale européenne est connue pour son héritage byzantin ?",
-      "image": null,
-      "imagePrompt": "Istanbul Hagia Sophia",
-      "answers": ["Athènes", "Sofia", "Istanbul", "Belgrade"],
-      "correctIndex": 2,
-      "explanation": "Istanbul, anciennement Constantinople, fut la capitale de l’Empire byzantin pendant plus de 1000 ans."
-    },
-    {
-      "id": "10",
-      "question": "Quelle capitale japonaise possède une histoire impériale ancienne ?",
-      "image": null,
-      "imagePrompt": "Kyoto temples",
-      "answers": ["Tokyo", "Kyoto", "Osaka", "Nara"],
-      "correctIndex": 1,
-      "explanation": "Kyoto a été la capitale impériale du Japon pendant plus de 1000 ans avant le transfert à Tokyo."
-    },
-    {
-      "id": "11",
-      "question": "Quelle capitale iranienne est proche de l’ancienne Perse ?",
-      "image": null,
-      "imagePrompt": "Tehran skyline",
-      "answers": ["Téhéran", "Ispahan", "Shiraz", "Tabriz"],
-      "correctIndex": 0,
-      "explanation": "Téhéran est aujourd’hui la capitale moderne de l’Iran, héritier direct de la civilisation perse antique."
-    },
-    {
-      "id": "12",
-      "question": "Quelle capitale éthiopienne est liée à une histoire ancienne africaine ?",
-      "image": null,
-      "imagePrompt": "Addis Ababa city",
-      "answers": ["Addis-Abeba", "Nairobi", "Khartoum", "Kampala"],
-      "correctIndex": 0,
-      "explanation": "L’Éthiopie possède une histoire ancienne unique en Afrique, avec des racines remontant au royaume d’Aksoum."
-    },
+ {
+  "id": "9",
+  "question": "Quelle ancienne capitale impériale était autrefois connue sous le nom de Constantinople ?",
+  "image": null,
+  "imagePrompt": "Hagia Sophia Istanbul",
+  "answers": [
+    "Sofia",
+    "Belgrade",
+    "Istanbul",
+    "Athènes"
+  ],
+  "correctIndex": 2,
+  "explanation": "Fondée sous le nom de Byzance puis rebaptisée Constantinople en 330, Istanbul fut la capitale des empires byzantin puis ottoman pendant plus de quinze siècles."
+},
+   {
+  "id": "10",
+  "question": "Quelle ville fut la capitale impériale du Japon pendant plus de mille ans avant Tokyo ?",
+  "image": null,
+  "imagePrompt": "Kyoto Kinkaku-ji temple",
+  "answers": [
+    "Osaka",
+    "Kyoto",
+    "Nagoya",
+    "Nara"
+  ],
+  "correctIndex": 1,
+  "explanation": "Kyoto fut la capitale impériale du Japon de 794 à 1868. Elle conserve aujourd'hui un patrimoine exceptionnel avec des centaines de temples, de sanctuaires et de palais historiques."
+},
+  {
+  "id": "11",
+  "question": "Quelle capitale actuelle est située dans un pays héritier de l'ancienne civilisation perse ?",
+  "image": null,
+  "imagePrompt": "Tehran Alborz mountains",
+  "answers": [
+    "Ankara",
+    "Kaboul",
+    "Téhéran",
+    "Bakou"
+  ],
+  "correctIndex": 2,
+  "explanation": "Même si Téhéran est devenue capitale seulement à la fin du XVIIIe siècle, elle est aujourd'hui le centre politique de l'Iran, héritier de l'une des plus grandes civilisations de l'Antiquité."
+},
+   {
+  "id": "12",
+  "question": "Quelle capitale est l'une des plus anciennes villes continuellement habitées du monde arabe ?",
+  "image": null,
+  "imagePrompt": "Sanaa old city Yemen",
+  "answers": [
+    "Mascate",
+    "Sanaa",
+    "Doha",
+    "Abou Dhabi"
+  ],
+  "correctIndex": 1,
+  "explanation": "Sanaa, capitale du Yémen, est habitée depuis plus de 2 500 ans. Sa vieille ville, classée au patrimoine mondial de l'UNESCO, est célèbre pour ses maisons-tours en briques décorées."
+},
     {
       "id": "13",
       "question": "Quelle capitale britannique possède une histoire remontant à l’époque romaine ?",
@@ -142,27 +177,37 @@
       "correctIndex": 2,
       "explanation": "Mexico est construite sur les ruines de Tenochtitlan, capitale de l’Empire aztèque."
     },
-    {
-      "id": "15",
-      "question": "Quelle capitale thaïlandaise possède une histoire ancienne ?",
-      "image": null,
-      "imagePrompt": "Bangkok temples",
-      "answers": ["Bangkok", "Chiang Mai", "Phuket", "Ayutthaya"],
-      "correctIndex": 0,
-      "explanation": "Bangkok est relativement récente comme capitale, mais s’inscrit dans une longue histoire royale thaïlandaise."
-    },
-    {
-      "id": "16",
-      "question": "Quelle capitale européenne a été au cœur de l’Empire ottoman ?",
-      "image": null,
-      "imagePrompt": "Istanbul ottoman",
-      "answers": ["Ankara", "Istanbul", "Athènes", "Sofia"],
-      "correctIndex": 1,
-      "explanation": "Istanbul fut la capitale de l’Empire ottoman après la chute de Constantinople en 1453."
-    },
+   {
+  "id": "15",
+  "question": "Quelle capitale du Moyen-Orient est l'une des plus anciennes villes continuellement habitées au monde ?",
+  "image": null,
+  "imagePrompt": "Beirut old city coastline",
+  "answers": [
+    "Doha",
+    "Beyrouth",
+    "Koweït",
+    "Manama"
+  ],
+  "correctIndex": 1,
+  "explanation": "Beyrouth est habitée depuis plus de 5 000 ans. Mentionnée dans des textes égyptiens datant du IIe millénaire avant notre ère, elle est aujourd'hui la capitale du Liban."
+},
+  {
+  "id": "16",
+  "question": "Quelle ville fut la capitale de l'Empire ottoman pendant près de cinq siècles ?",
+  "image": null,
+  "imagePrompt": "Topkapi Palace Istanbul",
+  "answers": [
+    "Ankara",
+    "Istanbul",
+    "Sofia",
+    "Athènes"
+  ],
+  "correctIndex": 1,
+  "explanation": "Après la prise de Constantinople en 1453, Istanbul devint la capitale de l'Empire ottoman jusqu'à la création de la République de Turquie en 1923, lorsque la capitale fut transférée à Ankara."
+},
     {
       "id": "17",
-      "question": "Quelle capitale nord-africaine possède une histoire antique importante ?",
+      "question": "Quelle capitale est située à proximité des ruines de Carthage, grande puissance de l'Antiquité ?",
       "image": null,
       "imagePrompt": "Tunis ruins Carthage",
       "answers": ["Tunis", "Alger", "Tripoli", "Rabat"],

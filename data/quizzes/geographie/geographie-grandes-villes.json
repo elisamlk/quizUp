@@ -1,12 +1,10 @@
 {
   "slug": "quiz-geographie-grandes-villes-du-monde-20-questions",
   "title": "Quiz Géographie - Grandes villes du monde",
-  "description": "Teste tes connaissances avec 20 questions sur les grandes villes du monde et leurs particularités.",
-  "descriptionSeo": "Connais-tu vraiment les grandes villes du monde ? Ce quiz de géographie te propose 20 questions pour tester tes connaissances sur les métropoles les plus célèbres de la planète. Entre capitales, mégapoles et villes emblématiques, découvre leurs caractéristiques, leur localisation et leur importance mondiale. Idéal pour les passionnés de voyage, les étudiants ou toute personne souhaitant améliorer sa culture générale en géographie.",
-  "category": {
-    "name": "Géographie",
-    "slug": "geographie"
-  },
+  "description": "Teste tes connaissances avec 20 questions sur les grandes villes du monde : capitales, mégapoles, monuments emblématiques et records urbains.",
+  "publishedAt": "2026-03-30",
+  "descriptionSeo": "Connais-tu vraiment les grandes villes du monde ? Ce quiz de géographie te propose 20 questions pour tester tes connaissances sur les métropoles les plus célèbres de la planète.",
+  "category": { "name": "Géographie", "slug": "geographie" },
   "createdAt": "2026-03-30",
   "isNew": true,
   "isPopular": true,
@@ -18,183 +16,163 @@
   "questions": [
     {
       "id": "1",
-      "question": "Dans quel pays se trouve la ville de New York ?",
-      "image": null,
-      "imagePrompt": "New York skyline Manhattan",
-      "answers": ["Canada", "États-Unis", "Royaume-Uni", "Australie"],
-      "correctIndex": 1,
-      "explanation": "New York se situe sur la côte est des États-Unis, à l’embouchure de l’Hudson. Plus qu’une grande ville, c’est un centre mondial de la finance (Wall Street), de la culture et des médias, souvent considéré comme l’une des capitales du monde globalisé."
+      "question": "Dans quel pays se trouve Mumbai (anciennement Bombay), capitale mondiale de l'industrie cinématographique de Bollywood ?",
+      "image": null, "imagePrompt": "Mumbai Bollywood skyline India",
+      "answers": ["Inde", "Pakistan", "Bangladesh", "Sri Lanka"],
+      "correctIndex": 0,
+      "explanation": "Mumbai est la plus grande ville de l'Inde avec environ 21 millions d'habitants. Elle concentre la Bourse de Bombay, l'industrie cinématographique de Bollywood (qui produit plus de films par an qu'Hollywood) et les plus grands bidonvilles d'Asie aux côtés des quartiers d'affaires les plus luxueux du pays."
     },
     {
       "id": "2",
-      "question": "Quelle ville est la capitale du Japon ?",
-      "image": null,
-      "imagePrompt": "Tokyo skyline night",
-      "answers": ["Osaka", "Kyoto", "Tokyo", "Hiroshima"],
-      "correctIndex": 2,
-      "explanation": "Tokyo est la capitale du Japon depuis 1868, après avoir remplacé Kyoto. Elle forme aujourd’hui l’une des plus grandes aires urbaines du monde, mêlant technologie de pointe, traditions et influence culturelle globale."
+      "question": "Quelle ville est la capitale du Japon et forme la plus grande agglomération urbaine du monde avec plus de 37 millions d'habitants ?",
+      "image": null, "imagePrompt": "Tokyo skyline night Mount Fuji",
+      "answers": ["Osaka", "Tokyo", "Hiroshima", "Kyoto"],
+      "correctIndex": 1,
+      "explanation": "Tokyo est la capitale du Japon depuis 1868, après avoir remplacé Kyoto. Elle forme l'aire urbaine la plus peuplée du monde. Mêlant technologie de pointe, culture millénaire et gastronomie, Tokyo illustre comment une mégalopole peut allier densité extrême et qualité de vie élevée."
     },
     {
       "id": "3",
-      "question": "Dans quel pays se trouve la ville de São Paulo ?",
-      "image": null,
-      "imagePrompt": "Sao Paulo skyline Brazil",
-      "answers": ["Argentine", "Chili", "Mexique", "Brésil"],
-      "correctIndex": 3,
-      "explanation": "São Paulo est située au Brésil et constitue le principal moteur économique de toute l’Amérique du Sud. C’est une mégapole industrielle et financière, bien plus influente économiquement que la capitale politique Brasília."
+      "question": "Dans quel pays se trouve São Paulo, l'une des dix plus grandes métropoles du monde et principal moteur économique de l'hémisphère sud ?",
+      "image": null, "imagePrompt": "Sao Paulo skyline helicopters Brazil",
+      "answers": ["Argentine", "Chili", "Brésil", "Mexique"],
+      "correctIndex": 2,
+      "explanation": "São Paulo est située au Brésil et concentre environ 22 millions d'habitants dans son agglomération. C'est le principal moteur économique de toute l'Amérique latine. Fait peu connu : São Paulo dispose du plus grand parc d'hélicoptères privés au monde, les embouteillages permanents poussant ses élites à voyager par les airs."
     },
     {
       "id": "4",
-      "question": "Quelle ville est connue pour la Tour Eiffel ?",
-      "image": null,
-      "imagePrompt": "Paris Eiffel Tower",
-      "answers": ["Rome", "Berlin", "Paris", "Londres"],
-      "correctIndex": 2,
-      "explanation": "Paris est célèbre pour la Tour Eiffel, construite pour l’Exposition universelle de 1889. Aujourd’hui, la ville est un symbole mondial du tourisme, de la culture et du patrimoine architectural."
+      "question": "Dans quelle ville espagnole se trouve la Sagrada Família, cathédrale de Gaudí dont la construction dure depuis 1882 ?",
+      "image": null, "imagePrompt": "Sagrada Familia Barcelona Gaudi",
+      "answers": ["Madrid", "Valence", "Séville", "Barcelone"],
+      "correctIndex": 3,
+      "explanation": "Barcelone abrite la Sagrada Família, chef-d'œuvre inachevé d'Antoni Gaudí dont la construction a débuté en 1882 et continue à ce jour. L'église, inscrite à l'UNESCO, est le monument le plus visité d'Espagne. Barcelone est aussi la capitale de la Catalogne et la deuxième ville du pays, rivale économique de Madrid."
     },
     {
       "id": "5",
-      "question": "Dans quel pays se trouve la ville de Sydney ?",
-      "image": null,
-      "imagePrompt": "Sydney Opera House harbor",
-      "answers": ["Australie", "Nouvelle-Zélande", "Afrique du Sud", "Canada"],
+      "question": "Quelle grande ville australienne, connue pour son opéra iconique, n'est pas la capitale du pays (qui est Canberra) ?",
+      "image": null, "imagePrompt": "Sydney Opera House harbor bridge",
+      "answers": ["Sydney", "Melbourne", "Brisbane", "Perth"],
       "correctIndex": 0,
-      "explanation": "Sydney est située en Australie et constitue l’une des villes les plus emblématiques du pays. Bien qu’elle ne soit pas la capitale, elle est connue pour son opéra, son port naturel spectaculaire et son rôle économique majeur."
+      "explanation": "Sydney est la plus grande ville d'Australie mais n'est pas sa capitale — c'est Canberra. Ce choix fut une décision politique pour départager Sydney et Melbourne, les deux plus grandes villes rivales. Sydney est connue dans le monde entier pour son Opéra et son Harbour Bridge, deux des structures architecturales les plus photographiées de la planète."
     },
     {
       "id": "6",
-      "question": "Quelle ville est la capitale du Royaume-Uni ?",
-      "image": null,
-      "imagePrompt": "London Big Ben Thames",
-      "answers": ["Manchester", "Liverpool", "Londres", "Birmingham"],
-      "correctIndex": 2,
-      "explanation": "Londres est la capitale du Royaume-Uni et un centre financier mondial. Elle abrite des institutions majeures comme le Parlement britannique et la City, l’un des principaux pôles financiers de la planète."
+      "question": "Quelle ville est la capitale du Royaume-Uni, abritant à la fois la Couronne britannique et l'un des premiers centres financiers mondiaux ?",
+      "image": null, "imagePrompt": "London Big Ben Thames Tower Bridge",
+      "answers": ["Manchester", "Londres", "Birmingham", "Glasgow"],
+      "correctIndex": 1,
+      "explanation": "Londres est la capitale du Royaume-Uni et l'une des trois plus importantes places financières mondiales avec New York et Tokyo (le « Big Three »). La City de Londres — distinct du Grand Londres — est l'un des carrés financiers d'un kilomètre carré les plus puissants du monde."
     },
     {
       "id": "7",
-      "question": "Dans quel pays se trouve la ville de Dubaï ?",
-      "image": null,
-      "imagePrompt": "Dubai skyline Burj Khalifa",
-      "answers": ["Qatar", "Koweït", "Émirats arabes unis", "Arabie saoudite"],
+      "question": "Dans quel pays se trouve Dubaï, ville qui abrite le Burj Khalifa, le bâtiment le plus haut du monde ?",
+      "image": null, "imagePrompt": "Dubai Burj Khalifa skyline desert",
+      "answers": ["Qatar", "Arabie saoudite", "Émirats arabes unis", "Bahreïn"],
       "correctIndex": 2,
-      "explanation": "Dubaï fait partie des Émirats arabes unis. En quelques décennies, la ville est devenue un symbole de modernité et de démesure architecturale, avec notamment le Burj Khalifa, le plus haut bâtiment du monde."
+      "explanation": "Dubaï fait partie des Émirats arabes unis (EAU), une fédération de sept émirats. En moins de 50 ans, Dubaï a transformé un village de pêcheurs en métropole mondiale. Le Burj Khalifa (828 m) en est le symbole. Attention au piège : le Qatar est un pays voisin distinct, dont la capitale Doha a accueilli la Coupe du Monde 2022."
     },
     {
       "id": "8",
-      "question": "Quelle ville est la capitale de l’Espagne ?",
-      "image": null,
-      "imagePrompt": "Madrid city plaza",
-      "answers": ["Séville", "Madrid", "Valence", "Barcelone"],
-      "correctIndex": 1,
-      "explanation": "Madrid est la capitale de l’Espagne et le centre politique du pays. Contrairement à Barcelone, plus touristique, Madrid joue un rôle clé dans l’administration et les institutions nationales."
+      "question": "Quelle ville est la vraie capitale de la Turquie, souvent confondue avec Istanbul qui est bien plus peuplée et connue ?",
+      "image": null, "imagePrompt": "Ankara Turkey parliament",
+      "answers": ["Istanbul", "Izmir", "Antalya", "Ankara"],
+      "correctIndex": 3,
+      "explanation": "Ankara est la capitale de la Turquie depuis 1923, quand Mustafa Kemal Atatürk décida de déplacer la capitale de l'ancienne Constantinople (Istanbul) vers une ville plus centrale, symbole de la nouvelle République. Istanbul reste cependant la ville la plus peuplée (15 millions) et la plus connue internationalement."
     },
     {
       "id": "9",
-      "question": "Dans quel pays se trouve la ville de Moscou ?",
-      "image": null,
-      "imagePrompt": "Moscow Kremlin Red Square",
-      "answers": ["Russie", "Ukraine", "Biélorussie", "Pologne"],
+      "question": "Quelle grande capitale est connue pour le Kremlin et la place Rouge, symboles de l'histoire et du pouvoir politique russe ?",
+      "image": null, "imagePrompt": "Moscow Kremlin Red Square night",
+      "answers": ["Moscou", "Pékin", "Varsovie", "Budapest"],
       "correctIndex": 0,
-      "explanation": "Moscou est la capitale de la Russie et l’une des plus grandes villes d’Europe. Elle concentre le pouvoir politique et symbolise l’histoire russe, notamment avec le Kremlin et la place Rouge."
+      "explanation": "Moscou est la capitale de la Russie et l'une des villes les plus peuplées d'Europe (12 millions d'habitants). Le Kremlin — qui signifie « forteresse » en russe — abrite la résidence officielle du président russe. La place Rouge jouxte le Kremlin et accueille notamment le tombeau de Lénine et la cathédrale Saint-Basile."
     },
     {
       "id": "10",
-      "question": "Quelle ville est célèbre pour le Colisée ?",
-      "image": null,
-      "imagePrompt": "Rome Colosseum ancient",
-      "answers": ["Florence", "Rome", "Athènes", "Naples"],
+      "question": "Quelle ville italienne est connue pour son Colisée, le plus grand amphithéâtre antique du monde encore debout ?",
+      "image": null, "imagePrompt": "Rome Colosseum ancient sunset",
+      "answers": ["Florence", "Rome", "Naples", "Venise"],
       "correctIndex": 1,
-      "explanation": "Rome abrite le Colisée, un amphithéâtre antique emblématique de l’Empire romain. La ville est un véritable musée à ciel ouvert, mêlant vestiges antiques et institutions modernes."
+      "explanation": "Rome abrite le Colisée, construit entre 70 et 80 après J.-C., qui pouvait accueillir jusqu'à 80 000 spectateurs. C'est l'une des structures en béton les plus complexes de l'Antiquité. Rome est aussi le siège de l'État du Vatican, le plus petit État souverain du monde, enclavé dans la ville."
     },
     {
       "id": "11",
-      "question": "Dans quel pays se trouve la ville du Caire ?",
-      "image": null,
-      "imagePrompt": "Cairo pyramids skyline",
-      "answers": ["Tunisie", "Égypte", "Maroc", "Algérie"],
-      "correctIndex": 1,
-      "explanation": "Le Caire est la capitale de l’Égypte et l’une des plus grandes villes d’Afrique. Située près du Nil, elle est proche des pyramides de Gizeh, vestiges majeurs de l’Antiquité."
+      "question": "Dans quel pays se trouve Le Caire, l'une des plus grandes villes d'Afrique, proche des pyramides de Gizeh ?",
+      "image": null, "imagePrompt": "Cairo pyramids Nile Egypt",
+      "answers": ["Tunisie", "Maroc", "Égypte", "Algérie"],
+      "correctIndex": 2,
+      "explanation": "Le Caire est la capitale de l'Égypte et abrite environ 21 millions d'habitants dans son agglomération. Les pyramides de Gizeh — dont la Grande Pyramide est l'unique Merveille du monde antique encore debout — se trouvent en réalité dans la banlieue du Caire. La ville est aussi traversée par le Nil, axe vital de l'Égypte depuis l'Antiquité."
     },
     {
       "id": "12",
-      "question": "Quelle ville est la capitale de l’Allemagne ?",
-      "image": null,
-      "imagePrompt": "Berlin Brandenburg Gate",
+      "question": "Quelle ville est la capitale de l'Allemagne depuis la réunification de 1990, après que Bonn l'avait été pendant 40 ans ?",
+      "image": null, "imagePrompt": "Berlin Brandenburg Gate reunification",
       "answers": ["Francfort", "Hambourg", "Munich", "Berlin"],
       "correctIndex": 3,
-      "explanation": "Berlin est la capitale de l’Allemagne depuis la réunification en 1990. La ville symbolise l’histoire européenne contemporaine, notamment avec la chute du mur de Berlin."
+      "explanation": "Berlin est redevenue la capitale de l'Allemagne en 1990 après la réunification. Pendant la guerre froide, Bonn était la capitale de l'Allemagne de l'Ouest, et Berlin-Est celle de la RDA. La chute du mur le 9 novembre 1989 est l'un des événements les plus marquants de l'histoire européenne contemporaine."
     },
     {
       "id": "13",
-      "question": "Dans quel pays se trouve la ville de Bangkok ?",
-      "image": null,
-      "imagePrompt": "Bangkok skyline temples river",
-      "answers": ["Malaisie", "Thaïlande", "Vietnam", "Indonésie"],
-      "correctIndex": 1,
-      "explanation": "Bangkok est la capitale de la Thaïlande et un carrefour majeur en Asie du Sud-Est. Elle combine modernité urbaine et patrimoine religieux avec ses nombreux temples bouddhistes."
+      "question": "Dans quel pays se trouve Los Angeles, ville du cinéma mondial dont le quartier d'Hollywood est synonyme de l'industrie cinématographique ?",
+      "image": null, "imagePrompt": "Los Angeles Hollywood skyline California",
+      "answers": ["États-Unis", "Canada", "Mexique", "Brésil"],
+      "correctIndex": 0,
+      "explanation": "Los Angeles est la deuxième plus grande ville des États-Unis après New York. Hollywood, quartier de L.A., est devenu synonyme de l'industrie cinématographique mondiale. L.A. abrite aussi le Musée Getty, Venice Beach et est la porte d'entrée vers la Silicon Valley. La ville accueillera les Jeux Olympiques d'été de 2028."
     },
     {
       "id": "14",
-      "question": "Quelle ville est la capitale de la Turquie ?",
-      "image": null,
-      "imagePrompt": "Ankara city skyline",
-      "answers": ["Istanbul", "Izmir", "Ankara", "Antalya"],
-      "correctIndex": 2,
-      "explanation": "Ankara est la capitale de la Turquie depuis 1923. Bien qu’Istanbul soit plus connue historiquement, Ankara est le centre politique et administratif du pays moderne."
+      "question": "Quelle est la capitale officielle du Canada, souvent confondue avec Toronto ou Montréal qui sont bien plus grandes ?",
+      "image": null, "imagePrompt": "Ottawa Parliament Hill Canada",
+      "answers": ["Toronto", "Ottawa", "Montréal", "Vancouver"],
+      "correctIndex": 1,
+      "explanation": "Ottawa est la capitale du Canada depuis 1857, choisie par la reine Victoria pour sa position stratégique sur la rivière des Outaouais, à la frontière des provinces anglophone (Ontario) et francophone (Québec). Toronto est la plus grande ville canadienne, et Montréal la plus grande ville francophone des Amériques, mais aucune des deux n'est la capitale."
     },
     {
       "id": "15",
-      "question": "Dans quel pays se trouve la ville de Mexico ?",
-      "image": null,
-      "imagePrompt": "Mexico City skyline",
-      "answers": ["Colombie", "Mexique", "Pérou", "Argentine"],
-      "correctIndex": 1,
-      "explanation": "Mexico est la capitale du Mexique et l’une des plus grandes métropoles du monde. Construite sur l’ancien site de Tenochtitlan, elle possède une histoire précolombienne unique."
+      "question": "Dans quelle ville brésilienne se déroule le célèbre carnaval du Sambadrome, avec ses grandioses défilés d'écoles de samba ?",
+      "image": null, "imagePrompt": "Rio de Janeiro carnival samba",
+      "answers": ["São Paulo", "Salvador", "Rio de Janeiro", "Recife"],
+      "correctIndex": 2,
+      "explanation": "Rio de Janeiro accueille chaque année le carnaval le plus célèbre du monde. Le Sambadrome (Sambódromo da Marquês de Sapucaí), conçu par Oscar Niemeyer et inauguré en 1984, est une avenue-stade de 700 m spécialement construite pour les défilés. Rio, ancienne capitale du Brésil, est aussi connue pour le Christ Rédempteur et la plage de Copacabana."
     },
     {
       "id": "16",
-      "question": "Quelle ville est la capitale de la Corée du Sud ?",
-      "image": null,
-      "imagePrompt": "Seoul skyline night",
-      "answers": ["Busan", "Incheon", "Séoul", "Daegu"],
-      "correctIndex": 2,
-      "explanation": "Séoul est la capitale de la Corée du Sud. Elle est aujourd’hui un centre technologique majeur et un pôle culturel influent grâce à la vague coréenne (K-pop, cinéma, séries)."
+      "question": "Quelle ville est la capitale de la Corée du Sud, hub technologique mondial et berceau du phénomène culturel de la K-pop ?",
+      "image": null, "imagePrompt": "Seoul skyline night Han river",
+      "answers": ["Busan", "Incheon", "Gwangju", "Séoul"],
+      "correctIndex": 3,
+      "explanation": "Séoul est la capitale de la Corée du Sud avec environ 10 millions d'habitants dans la ville et 25 millions dans l'agglomération. Entièrement reconstruite après la guerre de Corée (1950-1953), elle est aujourd'hui l'une des villes les plus connectées du monde. La vague culturelle coréenne (Hallyu) — K-pop, K-drama, cinéma — s'exporte sur tous les continents."
     },
     {
       "id": "17",
-      "question": "Dans quel pays se trouve la ville de Buenos Aires ?",
-      "image": null,
-      "imagePrompt": "Buenos Aires city center",
-      "answers": ["Uruguay", "Chili", "Paraguay", "Argentine"],
-      "correctIndex": 3,
-      "explanation": "Buenos Aires est la capitale de l’Argentine. Située sur l’estuaire du Río de la Plata, elle est connue pour son architecture européenne et sa culture du tango."
+      "question": "Dans quel pays se trouve Buenos Aires, capitale connue pour le tango et son architecture d'influence européenne ?",
+      "image": null, "imagePrompt": "Buenos Aires tango city center",
+      "answers": ["Argentine", "Uruguay", "Chili", "Paraguay"],
+      "correctIndex": 0,
+      "explanation": "Buenos Aires est la capitale de l'Argentine et l'une des plus grandes villes d'Amérique latine. Fondée par des colons espagnols, elle a connu une vague massive d'immigration européenne (italienne, espagnole) au XIXe et XXe siècles, expliquant son surnom de « Paris d'Amérique du Sud ». Le tango y est né dans les quartiers populaires de La Boca et San Telmo."
     },
     {
       "id": "18",
-      "question": "Quelle ville est la capitale du Canada ?",
-      "image": null,
-      "imagePrompt": "Ottawa parliament river",
-      "answers": ["Toronto", "Montréal", "Ottawa", "Vancouver"],
-      "correctIndex": 2,
-      "explanation": "Ottawa est la capitale du Canada. Le choix de cette ville, située entre Toronto et Montréal, visait à équilibrer les influences anglophones et francophones du pays."
+      "question": "Quelle capitale africaine est l'une des rares villes au monde à partager ses limites urbaines avec un parc national où vivent lions, girafes et zèbres ?",
+      "image": null, "imagePrompt": "Nairobi skyline national park Kenya",
+      "answers": ["Johannesburg", "Nairobi", "Addis-Abeba", "Dakar"],
+      "correctIndex": 1,
+      "explanation": "Nairobi est la capitale du Kenya et abrite l'unique parc national jouxtant directement une capitale mondiale. On peut y observer des lions, des girafes et des rhinocéros avec les gratte-ciel de Nairobi en arrière-plan. La ville est aussi un hub régional pour les affaires, le tourisme et le siège du Programme des Nations Unies pour l'Environnement (PNUE)."
     },
     {
       "id": "19",
-      "question": "Dans quel pays se trouve la ville de Nairobi ?",
-      "image": null,
-      "imagePrompt": "Nairobi skyline Kenya",
-      "answers": ["Kenya", "Éthiopie", "Ouganda", "Tanzanie"],
-      "correctIndex": 0,
-      "explanation": "Nairobi est la capitale du Kenya. Elle se distingue par la proximité d’un parc national où l’on peut observer des animaux sauvages aux portes d’une grande métropole."
+      "question": "Dans quel pays se trouve Ciudad de México (Mexico), construite sur les ruines de l'ancienne cité aztèque de Tenochtitlan ?",
+      "image": null, "imagePrompt": "Mexico City skyline cathedral ancient",
+      "answers": ["Colombie", "Pérou", "Mexique", "Argentine"],
+      "correctIndex": 2,
+      "explanation": "Mexico est la capitale du Mexique et l'une des plus grandes agglomérations du monde (22 millions d'habitants). Elle est construite sur l'île lacustre où se trouvait Tenochtitlan, capitale de l'Empire aztèque, asséchée par les conquistadors espagnols au XVIe siècle. Ce passé explique les fréquents problèmes d'affaissements de terrain dans la ville."
     },
     {
       "id": "20",
-      "question": "Quelle ville est la capitale de la Grèce ?",
-      "image": null,
-      "imagePrompt": "Athens Acropolis city",
+      "question": "Quelle ville est la capitale de la Grèce et le berceau de la démocratie occidentale, dominée par l'Acropole et le Parthénon ?",
+      "image": null, "imagePrompt": "Athens Acropolis Parthenon city",
       "answers": ["Héraklion", "Patras", "Thessalonique", "Athènes"],
       "correctIndex": 3,
-      "explanation": "Athènes est la capitale de la Grèce et l’un des berceaux de la civilisation occidentale. Elle est célèbre pour ses monuments antiques comme l’Acropole et pour son rôle dans la naissance de la démocratie."
+      "explanation": "Athènes est la capitale de la Grèce et l'une des plus anciennes villes continuellement habitées de la planète. L'Acropole, dominant la ville à 156 m d'altitude, abrite le Parthénon, temple dédié à la déesse Athéna. Athènes fut le berceau de la philosophie (Socrate, Platon, Aristote) et de la première démocratie au Ve siècle avant J.-C."
     }
   ]
 }

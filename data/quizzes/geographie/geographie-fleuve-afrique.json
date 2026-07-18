@@ -1,260 +1,161 @@
 {
-    "slug": "quiz-geographie-fleuves-afrique",
-    "title": "Quiz Géographie Fleuves d’Afrique - 20 questions pour comprendre le continent",
-    "description": "Teste tes connaissances avec 20 questions sur les grands fleuves d’Afrique.",
-    "descriptionSeo": "Teste tes connaissances avec ce quiz géographie sur les fleuves d’Afrique. Nil, Congo, Niger, Zambèze, Sénégal… sauras-tu identifier leur parcours, les pays traversés et leur rôle dans l’histoire et l’économie du continent ? Ce quiz de 20 questions te permet de comprendre l’importance stratégique des fleuves africains : ressources en eau, agriculture, énergie, transport et organisation des populations. Chaque question est accompagnée d’explications détaillées pour apprendre en profondeur et mieux saisir les enjeux géographiques africains.",
-    "category": {
-        "name": "Géographie",
-        "slug": "geographie"
+  "slug": "quiz-geographie-fleuves-afrique",
+  "title": "Quiz Géographie - Les grands fleuves d'Afrique",
+  "description": "Teste tes connaissances avec 20 questions sur les grands fleuves d'Afrique : Nil, Congo, Niger, Zambèze, Sénégal et bien d'autres.",
+  "publishedAt": "2026-03-30",
+  "descriptionSeo": "Teste tes connaissances avec ce quiz géographie sur les fleuves d'Afrique. Nil, Congo, Niger, Zambèze, Sénégal… sauras-tu identifier leur parcours, les pays traversés et leur rôle dans l'histoire et l'économie du continent ? Ce quiz de 20 questions te permet de comprendre l'importance stratégique des fleuves africains.",
+  "category": {
+    "name": "Géographie",
+    "slug": "geographie"
+  },
+  "createdAt": "2026-03-30",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1774382242/cover_n6r0a8.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1774382242/cover_n6r0a8.jpg",
+    "alt": "Quiz fleuves Afrique"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "question": "Quel est le plus long fleuve d'Afrique ?",
+      "answers": ["Congo", "Niger", "Zambèze", "Nil"],
+      "correctIndex": 3,
+      "explanation": "Le Nil est le plus long fleuve d'Afrique (et probablement du monde) avec environ 6 650 km. Il traverse dix pays avant de se jeter dans la Méditerranée en Égypte, où il constitue une source de vie dans un environnement quasi entièrement désertique."
     },
-    "createdAt": "2026-03-30",
-    "isNew": true,
-    "isPopular": true,
-    "images": {
-        "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1774382242/cover_n6r0a8.jpg",
-        "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1774382242/cover_n6r0a8.jpg",
-        "alt": "Quiz fleuves Afrique"
+    {
+      "id": "2",
+      "question": "Quel fleuve africain a le débit le plus puissant du continent ?",
+      "answers": ["Congo", "Nil", "Niger", "Orange"],
+      "correctIndex": 0,
+      "explanation": "Le fleuve Congo est le deuxième fleuve le plus puissant du monde après l'Amazone, grâce aux fortes pluies équatoriales qui alimentent son immense bassin versant de plus de 3,7 millions de km². Son débit moyen dépasse 41 000 m³/s."
     },
-    "questions": [
-        {
-            "id": "1",
-            "question": "Quel est le plus long fleuve d’Afrique ?",
-            "answers": [
-                "Congo",
-                "Nil",
-                "Niger",
-                "Zambèze"
-            ],
-            "correctIndex": 1,
-            "explanation": "Le Nil est le plus long fleuve du monde, traversant des régions désertiques où il constitue une source vitale pour des millions de personnes, notamment en Égypte."
-        },
-        {
-            "id": "2",
-            "question": "Quel fleuve a le débit le plus puissant d’Afrique ?",
-            "answers": [
-                "Nil",
-                "Niger",
-                "Congo",
-                "Orange"
-            ],
-            "correctIndex": 2,
-            "explanation": "Le fleuve Congo est le deuxième plus puissant au monde après l’Amazone, grâce aux fortes pluies équatoriales qui alimentent son bassin."
-        },
-        {
-            "id": "3",
-            "question": "Quel fleuve traverse l’Égypte ?",
-            "answers": [
-                "Nil",
-                "Niger",
-                "Sénégal",
-                "Zambèze"
-            ],
-            "correctIndex": 0,
-            "explanation": "Le Nil est essentiel à l’Égypte, où plus de 90% de la population vit sur ses rives dans un environnement désertique."
-        },
-        {
-            "id": "4",
-            "question": "Quel fleuve traverse le Mali et le Nigeria ?",
-            "answers": [
-                "Congo",
-                "Zambèze",
-                "Niger",
-                "Nil"
-            ],
-            "correctIndex": 2,
-            "explanation": "Le Niger décrit une grande boucle caractéristique, ce qui en fait un fleuve unique en termes de tracé en Afrique."
-        },
-        {
-            "id": "5",
-            "question": "Quel fleuve est célèbre pour les chutes Victoria ?",
-            "answers": [
-                "Nil",
-                "Zambèze",
-                "Congo",
-                "Orange"
-            ],
-            "correctIndex": 1,
-            "explanation": "Les chutes Victoria sur le Zambèze sont parmi les plus impressionnantes du monde, attirant tourisme et production hydroélectrique."
-        },
-        {
-            "id": "6",
-            "question": "Quel fleuve traverse Kinshasa et Brazzaville ?",
-            "answers": [
-                "Congo",
-                "Niger",
-                "Nil",
-                "Zambèze"
-            ],
-            "correctIndex": 0,
-            "explanation": "Le fleuve Congo sépare deux capitales, un cas rare dans le monde, illustrant son importance géopolitique."
-        },
-        {
-            "id": "7",
-            "question": "Quel fleuve traverse le Sénégal et donne son nom au pays ?",
-            "answers": [
-                "Gambie",
-                "Sénégal",
-                "Niger",
-                "Volta"
-            ],
-            "correctIndex": 1,
-            "explanation": "Le fleuve Sénégal est un axe vital pour l’irrigation et les échanges en Afrique de l’Ouest."
-        },
-        {
-            "id": "8",
-            "question": "Quel fleuve se jette dans l’océan Atlantique au Nigeria ?",
-            "answers": [
-                "Nil",
-                "Niger",
-                "Congo",
-                "Zambèze"
-            ],
-            "correctIndex": 1,
-            "explanation": "Le delta du Niger est l’un des plus riches en ressources pétrolières, mais aussi très fragile écologiquement."
-        },
-        {
-            "id": "9",
-            "question": "Quel fleuve traverse l’Afrique australe et forme une frontière naturelle ?",
-            "answers": [
-                "Orange",
-                "Zambèze",
-                "Limpopo",
-                "Congo"
-            ],
-            "correctIndex": 0,
-            "explanation": "Le fleuve Orange marque une frontière entre plusieurs pays et joue un rôle clé dans l’irrigation."
-        },
-        {
-            "id": "10",
-            "question": "Quel fleuve traverse l’Angola et la Zambie ?",
-            "answers": [
-                "Nil",
-                "Niger",
-                "Zambèze",
-                "Sénégal"
-            ],
-            "correctIndex": 2,
-            "explanation": "Le Zambèze est un fleuve majeur d’Afrique australe, utilisé pour l’énergie et le transport."
-        },
-        {
-            "id": "11",
-            "question": "Quel fleuve prend sa source en Éthiopie et alimente le Nil ?",
-            "answers": [
-                "Nil Blanc",
-                "Nil Bleu",
-                "Congo",
-                "Niger"
-            ],
-            "correctIndex": 1,
-            "explanation": "Le Nil Bleu fournit la majorité des eaux du Nil, ce qui explique les tensions géopolitiques autour de son utilisation."
-        },
-        {
-            "id": "12",
-            "question": "Quel fleuve traverse la Namibie et l’Afrique du Sud ?",
-            "answers": [
-                "Orange",
-                "Zambèze",
-                "Limpopo",
-                "Okavango"
-            ],
-            "correctIndex": 0,
-            "explanation": "Le fleuve Orange est essentiel pour l’agriculture dans des régions arides."
-        },
-        {
-            "id": "13",
-            "question": "Quel fleuve alimente le delta intérieur du Mali ?",
-            "answers": [
-                "Nil",
-                "Congo",
-                "Niger",
-                "Sénégal"
-            ],
-            "correctIndex": 2,
-            "explanation": "Le delta intérieur du Niger est une zone humide unique, essentielle pour la biodiversité et l’agriculture."
-        },
-        {
-            "id": "14",
-            "question": "Quel fleuve traverse la République démocratique du Congo ?",
-            "answers": [
-                "Congo",
-                "Nil",
-                "Niger",
-                "Orange"
-            ],
-            "correctIndex": 0,
-            "explanation": "Le fleuve Congo structure tout le pays et constitue un axe de transport vital dans un territoire immense."
-        },
-        {
-            "id": "15",
-            "question": "Quel fleuve est connu pour ne jamais atteindre la mer ?",
-            "answers": [
-                "Nil",
-                "Okavango",
-                "Congo",
-                "Niger"
-            ],
-            "correctIndex": 1,
-            "explanation": "L’Okavango forme un delta intérieur dans le désert du Kalahari, un phénomène géographique rare."
-        },
-        {
-            "id": "16",
-            "question": "Quel fleuve traverse l’Afrique du Sud et le Botswana ?",
-            "answers": [
-                "Orange",
-                "Limpopo",
-                "Zambèze",
-                "Niger"
-            ],
-            "correctIndex": 1,
-            "explanation": "Le Limpopo est connu pour ses variations saisonnières, influençant agriculture et écosystèmes."
-        },
-        {
-            "id": "17",
-            "question": "Quel fleuve traverse le lac Victoria ?",
-            "answers": [
-                "Nil",
-                "Congo",
-                "Niger",
-                "Zambèze"
-            ],
-            "correctIndex": 0,
-            "explanation": "Le Nil Blanc prend sa source dans le lac Victoria, ce qui en fait une région clé pour l’approvisionnement en eau."
-        },
-        {
-            "id": "18",
-            "question": "Quel fleuve traverse le Gabon et le Congo ?",
-            "answers": [
-                "Congo",
-                "Ogooué",
-                "Niger",
-                "Volta"
-            ],
-            "correctIndex": 1,
-            "explanation": "L’Ogooué est un fleuve important d’Afrique centrale, moins connu mais essentiel pour les écosystèmes locaux."
-        },
-        {
-            "id": "19",
-            "question": "Quel fleuve est essentiel pour l’agriculture en Égypte ?",
-            "answers": [
-                "Nil",
-                "Niger",
-                "Zambèze",
-                "Orange"
-            ],
-            "correctIndex": 0,
-            "explanation": "Sans le Nil, l’Égypte serait presque entièrement inhabitable. Il permet irrigation et agriculture dans un environnement désertique."
-        },
-        {
-            "id": "20",
-            "question": "Quel fleuve forme une grande boucle en Afrique de l’Ouest ?",
-            "answers": [
-                "Nil",
-                "Congo",
-                "Zambèze",
-                "Niger"
-            ],
-            "correctIndex": 3,
-            "explanation": "Le Niger forme une boucle spectaculaire, preuve de l’influence des reliefs et des anciens climats sur le tracé des fleuves."
-        }
-    ]
+    {
+      "id": "3",
+      "question": "Quel fleuve d'Afrique de l'Ouest traverse le Mali, le Niger et le Nigeria en formant une grande boucle caractéristique ?",
+      "answers": ["Sénégal", "Niger", "Gambie", "Volta"],
+      "correctIndex": 1,
+      "explanation": "Le Niger décrit une trajectoire en forme de boomerang sur plus de 4 200 km. Il naît en Guinée, remonte vers le nord jusqu'au Mali, effectue sa grande boucle dans le Sahel, puis descend vers le Nigeria où il forme un vaste delta pétrolifère avant d'atteindre l'Atlantique."
+    },
+    {
+      "id": "4",
+      "question": "Quel fleuve est à l'origine des chutes Victoria, à la frontière entre la Zambie et le Zimbabwe ?",
+      "answers": ["Nil", "Orange", "Zambèze", "Congo"],
+      "correctIndex": 2,
+      "explanation": "Les chutes Victoria (Mosi-oa-Tunya) sur le Zambèze sont parmi les plus larges et spectaculaires du monde, avec un rideau d'eau de 1 700 m de large. Elles alimentent également le barrage de Kariba, l'un des plus grands réservoirs artificiels d'Afrique."
+    },
+    {
+      "id": "5",
+      "question": "Quel fleuve d'Afrique de l'Ouest donne son nom à un pays qu'il traverse de part en part ?",
+      "answers": ["Volta", "Orange", "Casamance", "Sénégal"],
+      "correctIndex": 3,
+      "explanation": "Le fleuve Sénégal (environ 1 700 km) naît en Guinée, sert de frontière entre la Mauritanie et le Sénégal, avant de se jeter dans l'Atlantique à Saint-Louis. Le pays Sénégal doit son nom à ce fleuve, pilier de l'agriculture et des échanges de la région depuis des siècles."
+    },
+    {
+      "id": "6",
+      "question": "Quel fleuve africain est célèbre pour ne jamais atteindre la mer, formant un delta intérieur dans le désert du Kalahari ?",
+      "answers": ["Okavango", "Orange", "Limpopo", "Cunene"],
+      "correctIndex": 0,
+      "explanation": "L'Okavango naît en Angola et s'évanouit dans les sables du Botswana, formant un delta intérieur de 15 000 km² — véritable oasis de biodiversité inscrite au patrimoine mondial de l'UNESCO. C'est l'un des rares grands systèmes fluviaux au monde qui ne rejoint pas l'océan."
+    },
+    {
+      "id": "7",
+      "question": "Quel fleuve marque en grande partie la frontière entre l'Afrique du Sud et la Namibie, traversant des zones semi-arides essentielles à l'agriculture ?",
+      "answers": ["Limpopo", "Zambèze", "Orange", "Okavango"],
+      "correctIndex": 2,
+      "explanation": "Le fleuve Orange (environ 2 200 km) est le plus long d'Afrique du Sud. Il prend sa source dans les monts du Drakensberg, forme la frontière entre l'Afrique du Sud et la Namibie, et constitue un axe d'irrigation vital dans des régions parmi les plus sèches du continent."
+    },
+    {
+      "id": "8",
+      "question": "Quel bras du Nil prend sa source dans le lac Victoria et constitue la branche septentrionale du fleuve ?",
+      "answers": ["Nil Bleu", "Nil Blanc", "Kagera", "Atbara"],
+      "correctIndex": 1,
+      "explanation": "Le Nil Blanc prend sa source dans la région du lac Victoria en Ouganda (via le lac Albert). Il représente la branche la plus longue du Nil mais fournit seulement environ 15 % de son eau. C'est sur ce bras que se posait la question historique de la « source du Nil » qui a fasciné les explorateurs du XIXe siècle."
+    },
+    {
+      "id": "9",
+      "question": "Quel tributaire du Nil prend sa source en Éthiopie et fournit environ 85 % des eaux du fleuve en crue ?",
+      "answers": ["Nil Bleu", "Nil Blanc", "Atbara", "Sobat"],
+      "correctIndex": 0,
+      "explanation": "Le Nil Bleu naît dans les hauts plateaux éthiopiens, près du lac Tana. Malgré sa plus courte longueur, il fournit l'essentiel des eaux et des limons fertiles du Nil — ce qui explique pourquoi la construction du Grand Barrage de la Renaissance éthiopienne (GERD) a provoqué de vives tensions diplomatiques avec l'Égypte et le Soudan."
+    },
+    {
+      "id": "10",
+      "question": "Quel fleuve sépare les deux capitales africaines de Kinshasa et Brazzaville, situées face à face sur ses rives ?",
+      "answers": ["Niger", "Nil", "Sénégal", "Congo"],
+      "correctIndex": 3,
+      "explanation": "Le fleuve Congo sépare directement Kinshasa (RDC) et Brazzaville (République du Congo), situées face à face sur ses rives. C'est l'une des très rares situations au monde où deux capitales nationales distinctes se font face de part et d'autre d'un fleuve international, illustrant le rôle géopolitique majeur de ce fleuve en Afrique centrale."
+    },
+    {
+      "id": "11",
+      "question": "Quel est le principal fleuve du Gabon, traversant le pays de l'est à l'ouest avant de se jeter dans l'Atlantique ?",
+      "answers": ["Congo", "Ogooué", "Volta", "Sénégal"],
+      "correctIndex": 1,
+      "explanation": "L'Ogooué (environ 1 200 km) est le fleuve majeur du Gabon et l'un des plus importants d'Afrique centrale, moins connu que le Congo mais essentiel à l'écologie et à l'économie gabonaises. Il draine un immense bassin forestier et a longtemps servi de voie de pénétration vers l'intérieur du continent."
+    },
+    {
+      "id": "12",
+      "question": "Quel fleuve du Ghana a été barré dans les années 1960 pour former le lac Volta, l'un des plus grands réservoirs artificiels du monde ?",
+      "answers": ["Niger", "Gambie", "Volta", "Sénégal"],
+      "correctIndex": 2,
+      "explanation": "Le barrage d'Akosombo, construit sur la Volta en 1965, a créé le lac Volta — l'un des plus grands réservoirs artificiels du monde par superficie (environ 8 500 km²). Il fournit la quasi-totalité de l'électricité du Ghana et alimente même des pays voisins comme le Togo et le Bénin."
+    },
+    {
+      "id": "13",
+      "question": "Quel fleuve traverse un pays qui porte son nom et forme une quasi-enclave entourée de tous côtés par le Sénégal ?",
+      "answers": ["Gambie", "Sénégal", "Casamance", "Volta"],
+      "correctIndex": 0,
+      "explanation": "La rivière Gambie (environ 1 120 km) traverse la Gambie, le pays le plus petit d'Afrique continentale, qui forme une enclave dans le territoire sénégalais. Ce fleuve étroit a délimité les frontières coloniales britanniques dans un espace dominé par l'empire colonial français, créant une anomalie géographique persistante."
+    },
+    {
+      "id": "14",
+      "question": "Quel fleuve forme la frontière naturelle entre l'Angola et la Namibie dans leur partie nord ?",
+      "answers": ["Okavango", "Orange", "Zambèze", "Cunene"],
+      "correctIndex": 3,
+      "explanation": "Le Cunene (environ 1 050 km) naît dans les hauts plateaux d'Angola, coule vers le sud-ouest et marque la frontière entre l'Angola et la Namibie avant de se jeter dans l'Atlantique. Il est essentiel pour l'approvisionnement en eau et l'hydroélectricité des deux pays, notamment via le barrage de Ruacaná."
+    },
+    {
+      "id": "15",
+      "question": "Quel fleuve forme la frontière naturelle entre la République démocratique du Congo et la République centrafricaine ?",
+      "answers": ["Congo", "Niger", "Ubangi", "Nil"],
+      "correctIndex": 2,
+      "explanation": "L'Ubangi (environ 1 060 km) est le principal affluent droit du fleuve Congo. Il constitue la frontière entre la RDC et la République centrafricaine sur une grande partie de son cours, avant de rejoindre le Congo. Son importance géopolitique et son rôle dans la navigation fluviale d'Afrique centrale en font un fleuve stratégique méconnu."
+    },
+    {
+      "id": "16",
+      "question": "Quel est le principal affluent du Niger au Nigeria, prenant sa source au Cameroun et rejoignant le Niger à Lokoja ?",
+      "answers": ["Volta", "Bénoué", "Ogooué", "Sanaga"],
+      "correctIndex": 1,
+      "explanation": "La Bénoué (Benue, environ 1 400 km) est le plus grand affluent du Niger. Elle prend sa source dans les hauts plateaux de l'Adamaoua au Cameroun, traverse le nord du Nigeria et se jette dans le Niger à Lokoja. Elle constitue une voie navigable et une ressource agricole majeure pour toute la région."
+    },
+    {
+      "id": "17",
+      "question": "Quel est le seul grand fleuve africain à traverser le Sahara du sud vers le nord pour rejoindre la Méditerranée ?",
+      "answers": ["Nil", "Niger", "Congo", "Sénégal"],
+      "correctIndex": 0,
+      "explanation": "Le Nil est le seul grand fleuve africain à traverser le Sahara sur des centaines de kilomètres, alimenté uniquement par ses sources tropicales lointaines. En Égypte, il coule dans un désert où il ne reçoit quasiment aucun apport latéral, ce qui rend sa gestion et ses eaux encore plus précieuses pour les 100 millions d'Égyptiens."
+    },
+    {
+      "id": "18",
+      "question": "Quel fleuve d'Afrique australe traverse l'Afrique du Sud, le Botswana, le Zimbabwe et le Mozambique avant de se jeter dans l'océan Indien ?",
+      "answers": ["Orange", "Cunene", "Limpopo", "Zambèze"],
+      "correctIndex": 2,
+      "explanation": "Le Limpopo (environ 1 750 km) est un fleuve emblématique d'Afrique australe, rendu célèbre notamment par Rudyard Kipling. Il sert de frontière entre l'Afrique du Sud et le Botswana, puis entre l'Afrique du Sud et le Zimbabwe, avant de traverser le Mozambique pour atteindre l'océan Indien."
+    },
+    {
+      "id": "19",
+      "question": "Quel fleuve d'Afrique de l'Est forme la frontière naturelle entre la Tanzanie et le Mozambique avant de rejoindre l'océan Indien ?",
+      "answers": ["Tana", "Rufiji", "Jubba", "Ruvuma"],
+      "correctIndex": 3,
+      "explanation": "Le Ruvuma (environ 800 km) marque la frontière entre la Tanzanie et le Mozambique sur presque toute sa longueur. Moins connu que le Nil ou le Congo, il incarne le rôle fondamental des fleuves africains comme frontières naturelles héritées des découpages coloniaux du XIXe siècle."
+    },
+    {
+      "id": "20",
+      "question": "Quel est le principal fleuve du Cameroun, long de plus de 900 km, qui se jette dans le golfe de Guinée ?",
+      "answers": ["Volta", "Sanaga", "Bénoué", "Ogooué"],
+      "correctIndex": 1,
+      "explanation": "La Sanaga (environ 920 km) est le plus long fleuve entièrement situé au Cameroun. Elle draine une grande partie du centre du pays et alimente le barrage de Song Loulou, l'un des principaux ouvrages hydroélectriques du Cameroun. Elle se jette dans l'Atlantique à l'ouest du pays, dans le golfe de Guinée."
+    }
+  ]
 }

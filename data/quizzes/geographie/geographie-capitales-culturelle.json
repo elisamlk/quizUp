@@ -16,15 +16,15 @@
     "alt": "Quiz capitales culturelles"
   },
   "questions": [
-    {
-      "id": "1",
-      "question": "Quelle ville est souvent considérée comme la capitale mondiale de l’art et de la culture ?",
-      "image": null,
-      "imagePrompt": "Paris Eiffel Louvre",
-      "answers": ["Rome", "Paris", "Berlin", "Madrid"],
-      "correctIndex": 1,
-      "explanation": "Paris est mondialement reconnue pour ses musées, son patrimoine architectural et son influence artistique depuis des siècles."
-    },
+  {
+  "id": "1",
+  "question": "Quelle ville abrite le musée du Louvre, le musée d’Orsay et le Centre Pompidou ?",
+  "image": null,
+  "imagePrompt": "Paris cultural landmarks museum district",
+  "answers": ["Rome", "Paris", "Berlin", "Madrid"],
+  "correctIndex": 1,
+  "explanation": "Paris réunit plusieurs institutions artistiques parmi les plus célèbres au monde. Le Louvre conserve notamment la Joconde et la Vénus de Milo, le musée d’Orsay est consacré en grande partie à l’art du XIXe siècle, tandis que le Centre Pompidou possède une importante collection d’art moderne et contemporain."
+},
     {
       "id": "2",
       "question": "Quelle ville italienne est un centre majeur de la Renaissance ?",
@@ -32,7 +32,7 @@
       "imagePrompt": "Florence Duomo",
       "answers": ["Milan", "Naples", "Florence", "Venise"],
       "correctIndex": 2,
-      "explanation": "Florence est le berceau de la Renaissance, avec des artistes comme Léonard de Vinci et Michel-Ange."
+      "explanation": "Florence est considérée comme le berceau de la Renaissance grâce au mécénat des Médicis. Michel-Ange, Botticelli, Brunelleschi ou encore Léonard de Vinci y ont développé une partie de leur œuvre."
     },
     {
       "id": "3",
@@ -45,7 +45,7 @@
     },
     {
       "id": "4",
-      "question": "Quelle ville japonaise est célèbre pour ses traditions et temples ?",
+      "question": "Quelle ancienne capitale impériale japonaise est célèbre pour le Kinkaku-ji et le sanctuaire Fushimi Inari ?",
       "image": null,
       "imagePrompt": "Kyoto temples",
       "answers": ["Tokyo", "Osaka", "Kyoto", "Nagoya"],
@@ -61,15 +61,15 @@
       "correctIndex": 1,
       "explanation": "Rome est une capitale culturelle majeure, marquée par l’héritage de l’Empire romain."
     },
-    {
-      "id": "6",
-      "question": "Quelle ville est un centre culturel important en Espagne ?",
-      "image": null,
-      "imagePrompt": "Madrid museums",
-      "answers": ["Barcelone", "Madrid", "Valence", "Séville"],
-      "correctIndex": 1,
-      "explanation": "Madrid abrite des musées prestigieux comme le Prado et joue un rôle central dans la culture espagnole."
-    },
+  {
+  "id": "6",
+  "question": "Quelle ville espagnole abrite le musée du Prado, le musée Reina Sofía et le musée Thyssen-Bornemisza ?",
+  "image": null,
+  "imagePrompt": "Madrid Prado museum exterior",
+  "answers": ["Barcelone", "Madrid", "Valence", "Séville"],
+  "correctIndex": 1,
+  "explanation": "Madrid possède un ensemble exceptionnel de musées surnommé le Triangle d’or de l’art. Le Prado expose notamment des œuvres de Velázquez et de Goya, tandis que le musée Reina Sofía conserve Guernica, le célèbre tableau de Pablo Picasso."
+},
     {
       "id": "7",
       "question": "Quelle ville allemande est réputée pour sa scène artistique contemporaine ?",
@@ -106,15 +106,15 @@
       "correctIndex": 3,
       "explanation": "Londres est une capitale culturelle mondiale avec de nombreux musées et institutions artistiques."
     },
-    {
-      "id": "11",
-      "question": "Quelle ville est célèbre pour le festival de Cannes ?",
-      "image": null,
-      "imagePrompt": "Cannes festival",
-      "answers": ["Nice", "Marseille", "Cannes", "Lyon"],
-      "correctIndex": 2,
-      "explanation": "Cannes accueille l’un des festivals de cinéma les plus prestigieux au monde."
-    },
+   {
+  "id": "11",
+  "question": "Dans quelle ville française la Palme d’or est-elle remise chaque année lors d’un célèbre festival international de cinéma ?",
+  "image": null,
+  "imagePrompt": "French Riviera film festival red carpet",
+  "answers": ["Nice", "Marseille", "Cannes", "Lyon"],
+  "correctIndex": 2,
+  "explanation": "La Palme d’or est la principale récompense du Festival de Cannes, organisé chaque année sur la Côte d’Azur. Créé après la Seconde Guerre mondiale, cet événement est devenu l’un des rendez-vous les plus prestigieux du cinéma international."
+},
     {
       "id": "12",
       "question": "Quelle ville italienne est célèbre pour ses canaux et son patrimoine artistique ?",
@@ -124,15 +124,15 @@
       "correctIndex": 0,
       "explanation": "Venise est une ville unique au monde, célèbre pour son architecture et son histoire artistique."
     },
-    {
-      "id": "13",
-      "question": "Quelle ville est un centre culturel important en Turquie ?",
-      "image": null,
-      "imagePrompt": "Istanbul Hagia Sophia",
-      "answers": ["Ankara", "Istanbul", "Izmir", "Antalya"],
-      "correctIndex": 1,
-      "explanation": "Istanbul est un carrefour culturel entre Europe et Asie avec une histoire riche et diverse."
-    },
+  {
+  "id": "13",
+  "question": "Quelle ville turque abrite Sainte-Sophie, le palais de Topkapı et la Mosquée bleue ?",
+  "image": null,
+  "imagePrompt": "Istanbul Bosphorus historic skyline",
+  "answers": ["Ankara", "Istanbul", "Izmir", "Antalya"],
+  "correctIndex": 1,
+  "explanation": "Istanbul possède un patrimoine exceptionnel hérité des empires byzantin et ottoman. Sainte-Sophie, le palais de Topkapı et la Mosquée bleue témoignent de son rôle historique de carrefour politique, religieux et culturel entre l’Europe et l’Asie."
+},
     {
       "id": "14",
       "question": "Quelle ville est connue pour Hollywood et l’industrie du cinéma ?",
@@ -142,15 +142,15 @@
       "correctIndex": 1,
       "explanation": "Los Angeles est la capitale mondiale du cinéma grâce à Hollywood."
     },
-    {
-      "id": "15",
-      "question": "Quelle ville est célèbre pour ses temples et sa culture en Thaïlande ?",
-      "image": null,
-      "imagePrompt": "Bangkok temples",
-      "answers": ["Bangkok", "Phuket", "Chiang Mai", "Pattaya"],
-      "correctIndex": 0,
-      "explanation": "Bangkok est une capitale culturelle majeure en Asie du Sud-Est, riche en temples et traditions."
-    },
+   {
+  "id": "15",
+  "question": "Quelle capitale thaïlandaise abrite le Grand Palais et le temple Wat Pho ?",
+  "image": null,
+  "imagePrompt": "Bangkok Chao Phraya river temples",
+  "answers": ["Bangkok", "Phuket", "Chiang Mai", "Pattaya"],
+  "correctIndex": 0,
+  "explanation": "Bangkok abrite le Grand Palais, ancienne résidence royale, ainsi que Wat Pho, célèbre pour son immense statue de Bouddha couché. La ville compte des centaines de temples et demeure un centre majeur de la vie politique, religieuse et culturelle thaïlandaise."
+},
     {
       "id": "16",
       "question": "Quelle ville est un centre culturel en Russie avec le musée de l’Ermitage ?",
@@ -178,15 +178,15 @@
       "correctIndex": 3,
       "explanation": "Édimbourg accueille de nombreux festivals culturels, dont le célèbre Edinburgh Festival Fringe."
     },
-    {
-      "id": "19",
-      "question": "Quelle ville est un centre culturel en Amérique du Sud avec de nombreux musées ?",
-      "image": null,
-      "imagePrompt": "Buenos Aires culture",
-      "answers": ["Buenos Aires", "Lima", "Bogota", "Santiago"],
-      "correctIndex": 0,
-      "explanation": "Buenos Aires est une capitale culturelle majeure, connue pour le tango et ses institutions artistiques."
-    },
+  {
+  "id": "19",
+  "question": "Quelle capitale sud-américaine est particulièrement associée au tango et au quartier historique de San Telmo ?",
+  "image": null,
+  "imagePrompt": "Buenos Aires San Telmo tango street",
+  "answers": ["Buenos Aires", "Lima", "Bogota", "Santiago"],
+  "correctIndex": 0,
+  "explanation": "Buenos Aires est considérée comme l’un des berceaux du tango, né à la fin du XIXe siècle dans les quartiers populaires de la région du Río de la Plata. San Telmo reste célèbre pour ses bâtiments anciens, ses marchés, ses spectacles de rue et ses salles de danse."
+},
     {
       "id": "20",
       "question": "Quelle ville est célèbre pour ses palais impériaux et son histoire en Chine ?",

@@ -2,11 +2,9 @@
   "slug": "quiz-geographie-iles-paradisiaques",
   "title": "Quiz Géographie Îles Paradisiaques - 20 questions pour tester vos connaissances sur des destinations mythiques",
   "description": "Évade-toi à travers les plus belles îles du monde et teste tes connaissances avec ce quiz ensoleillé.",
-  "descriptionSeo": "Les îles paradisiaques font rêver par leurs plages de sable fin, leurs lagons turquoise et leurs paysages spectaculaires. Ce quiz de géographie vous propose 20 questions pour tester vos connaissances sur des destinations mythiques comme Bora Bora, les Maldives, les Seychelles ou Hawaï. Découvrez où se trouvent ces îles de rêve, ce qui les rend uniques et pourquoi elles fascinent autant les voyageurs grâce à des explications détaillées et enrichissantes.",
-  "category": {
-    "name": "Géographie",
-    "slug": "geographie"
-  },
+  "publishedAt": "2026-03-30",
+  "descriptionSeo": "Les îles paradisiaques font rêver par leurs plages, leurs lagons turquoise et leurs paysages spectaculaires. Ce quiz de géographie vous propose 20 questions sur Bora Bora, les Maldives, les Seychelles, Hawaï et bien d'autres.",
+  "category": { "name": "Géographie", "slug": "geographie" },
   "createdAt": "2026-03-30",
   "isNew": true,
   "isPopular": true,
@@ -19,182 +17,162 @@
     {
       "id": "1",
       "question": "Dans quel océan se situent les Maldives ?",
-      "image": null,
-      "imagePrompt": "Maldives turquoise atolls aerial view",
+      "image": null, "imagePrompt": "Maldives turquoise atolls aerial view",
       "answers": ["Océan Pacifique", "Océan Indien", "Océan Atlantique", "Mer Méditerranée"],
       "correctIndex": 1,
-      "explanation": "Les Maldives se trouvent dans l’océan Indien, au sud-ouest de l’Inde et du Sri Lanka. Cet archipel est célèbre pour ses atolls coralliens très bas, ce qui en fait à la fois une destination de rêve et un territoire particulièrement vulnérable à la montée du niveau de la mer."
+      "explanation": "Les Maldives se trouvent dans l'océan Indien, au sud-ouest de l'Inde et du Sri Lanka. Cet archipel de 1 200 îlots coralliens est célèbre pour ses atolls très peu élevés — la quasi-totalité du territoire se situe à moins d'un mètre au-dessus du niveau de la mer, faisant des Maldives l'un des pays les plus menacés par la montée des eaux liée au changement climatique."
     },
     {
       "id": "2",
-      "question": "Bora Bora appartient à quel territoire ?",
-      "image": null,
-      "imagePrompt": "Bora Bora lagoon overwater bungalows",
+      "question": "Bora Bora appartient à quel territoire français du Pacifique ?",
+      "image": null, "imagePrompt": "Bora Bora lagoon overwater bungalows",
       "answers": ["Nouvelle-Calédonie", "Fidji", "Polynésie française", "Vanuatu"],
       "correctIndex": 2,
-      "explanation": "Bora Bora fait partie de la Polynésie française, en plein Pacifique Sud. Son lagon, protégé par un récif corallien, et son ancien volcan central en font l’un des paysages insulaires les plus emblématiques du monde."
+      "explanation": "Bora Bora fait partie de la Polynésie française, collectivité d'outre-mer au cœur du Pacifique Sud. Son lagon d'un bleu turquoise exceptionnel, cerné par un récif corallien, et son ancien volcan central (mont Otemanu) en font l'un des paysages insulaires les plus reproduits au monde. Elle a largement contribué à populariser l'image des bungalows sur pilotis."
     },
     {
       "id": "3",
-      "question": "Quel archipel africain est réputé pour ses plages de granit et ses eaux turquoise ?",
-      "image": null,
-      "imagePrompt": "Seychelles granite boulders beach",
+      "question": "Quel archipel africain est réputé pour ses plages de rochers granitiques et ses eaux turquoise uniques au monde ?",
+      "image": null, "imagePrompt": "Seychelles granite boulders beach",
       "answers": ["Canaries", "Seychelles", "Cap-Vert", "Comores"],
       "correctIndex": 1,
-      "explanation": "Les Seychelles se distinguent par leurs rochers granitiques spectaculaires, bien différents des paysages purement coralliens d’autres archipels tropicaux. Leur biodiversité et leur relatif isolement leur donnent une identité naturelle très forte."
+      "explanation": "Les Seychelles se distinguent par leurs spectaculaires formations granitiques millénaires, très différentes des paysages coralliens d'autres archipels tropicaux. L'île de La Digue, avec la plage d'Anse Source d'Argent, est l'un des sites les plus photographiés du monde. Les Seychelles abritent aussi la plus grande population de tortues géantes au monde."
     },
     {
       "id": "4",
-      "question": "Quelle île est mondialement connue pour ses volcans et ses plages de sable noir ?",
-      "image": null,
-      "imagePrompt": "Hawaii volcanic beach dramatic landscape",
+      "question": "Quelle île est mondialement connue pour ses volcans actifs et ses plages de sable noir d'origine volcanique ?",
+      "image": null, "imagePrompt": "Hawaii volcanic black sand beach dramatic",
       "answers": ["Hawaï", "Madère", "Majorque", "La Réunion"],
       "correctIndex": 0,
-      "explanation": "Hawaï est célèbre pour son origine volcanique et pour ses paysages très variés : plages de sable noir, falaises, forêts tropicales et volcans encore actifs. L’archipel illustre parfaitement la formation d’îles au-dessus d’un point chaud océanique."
+      "explanation": "Hawaï (la « grande île ») est l'une des régions volcaniques les plus actives au monde, avec le Kilauea en éruption quasi permanente. Ses plages de sable noir ou vert résultent de l'érosion de la lave basaltique ou de minéraux olivine. L'archipel d'Hawaï se forme au-dessus d'un point chaud magmatique fixe, la plaque Pacifique se déplaçant au-dessus de lui."
     },
     {
       "id": "5",
-      "question": "Dans quel pays se trouve l’île de Phuket ?",
-      "image": null,
-      "imagePrompt": "Phuket Thailand tropical beach",
+      "question": "Dans quel pays se trouve l'île de Phuket, plus grande île de son pays et principale destination balnéaire d'Asie du Sud-Est ?",
+      "image": null, "imagePrompt": "Phuket Thailand tropical beach limestone",
       "answers": ["Indonésie", "Philippines", "Thaïlande", "Malaisie"],
       "correctIndex": 2,
-      "explanation": "Phuket se situe en Thaïlande, dans la mer d’Andaman. Son succès touristique vient de la combinaison entre plages tropicales, accès facile, infrastructures développées et proximité avec d’autres paysages karstiques spectaculaires du sud thaïlandais."
+      "explanation": "Phuket se situe en Thaïlande, dans la mer d'Andaman. Avec 6 000 km² et plus de 8 millions de touristes annuels, c'est l'une des destinations balnéaires les plus fréquentées d'Asie. L'île est une base idéale pour explorer les paysages karstiques spectaculaires de la baie de Phang Nga et des îles Phi Phi."
     },
     {
       "id": "6",
-      "question": "L’île Maurice se situe dans quelle partie du monde ?",
-      "image": null,
-      "imagePrompt": "Mauritius island lagoon aerial",
+      "question": "L'île Maurice se situe dans quelle partie du monde, à l'est de Madagascar ?",
+      "image": null, "imagePrompt": "Mauritius island lagoon aerial",
       "answers": ["Caraïbes", "Océan Indien", "Pacifique Sud", "Atlantique Nord"],
       "correctIndex": 1,
-      "explanation": "L’île Maurice se trouve dans l’océan Indien, à l’est de Madagascar. Elle est réputée pour la beauté de ses lagons, mais aussi pour le mélange culturel issu des influences africaines, indiennes, européennes et chinoises."
+      "explanation": "L'île Maurice se trouve dans l'océan Indien, à environ 900 km à l'est de Madagascar. Elle est réputée pour ses lagons, mais aussi pour son remarquable melting-pot culturel : hindouisme, islam, catholicisme et traditions africaines y coexistent harmonieusement, héritage de son histoire coloniale et de l'immigration de travailleurs depuis plusieurs continents."
     },
     {
       "id": "7",
-      "question": "Quelle île espagnole est particulièrement célèbre pour ses criques et son ambiance méditerranéenne ?",
-      "image": null,
-      "imagePrompt": "Ibiza cove Mediterranean sunset",
+      "question": "Quelle île espagnole des Baléares est célèbre pour ses criques secrètes et ses eaux méditerranéennes cristallines ?",
+      "image": null, "imagePrompt": "Ibiza cove Mediterranean sunset crystal water",
       "answers": ["Ibiza", "Corfou", "Sardaigne", "Malte"],
       "correctIndex": 0,
-      "explanation": "Ibiza est souvent associée à sa vie nocturne, mais l’île est aussi connue pour ses criques, ses eaux limpides et son environnement méditerranéen. Elle montre qu’une île paradisiaque n’est pas forcément tropicale : le mythe du paradis insulaire existe aussi en Méditerranée."
+      "explanation": "Ibiza est souvent réduite à sa vie nocturne, mais l'île possède aussi des criques protégées et des eaux parmi les plus transparentes de Méditerranée. Son centre historique (Dalt Vila), ses remparts et ses vestiges phéniciens sont classés à l'UNESCO, illustrant que le « paradis insulaire » méditerranéen est aussi un trésor patrimonial."
     },
     {
       "id": "8",
-      "question": "Quelle île caribéenne est célèbre pour ses plages et appartient à la République dominicaine ?",
-      "image": null,
-      "imagePrompt": "Punta Cana Dominican Republic beach",
-      "answers": ["Aruba", "Punta Cana", "Barbade", "Curaçao"],
-      "correctIndex": 1,
-      "explanation": "Punta Cana n’est pas une île mais une région balnéaire de la République dominicaine, située sur l’île d’Hispaniola. La question piège souvent, car on l’associe directement à une destination insulaire autonome, alors qu’il s’agit d’un littoral célèbre au sein d’une grande île caribéenne."
+      "question": "Quelle île des Caraïbes est célèbre pour ses Pitons, deux cônes volcaniques spectaculaires classés au patrimoine mondial de l'UNESCO ?",
+      "image": null, "imagePrompt": "Saint Lucia Pitons volcanic peaks Caribbean",
+      "answers": ["Aruba", "Martinique", "Barbade", "Sainte-Lucie"],
+      "correctIndex": 3,
+      "explanation": "Sainte-Lucie (Saint Lucia) est une île des Petites Antilles connue pour les Gros et Petit Piton, deux pics volcaniques dominant l'océan jusqu'à 770 m. Classés à l'UNESCO en 2004, ils constituent l'emblème national du pays. L'île est aussi réputée pour ses plantations de cacao, ses sources thermales et ses forêts tropicales luxuriantes."
     },
     {
       "id": "9",
-      "question": "Dans quel océan se trouve Tahiti ?",
-      "image": null,
-      "imagePrompt": "Tahiti French Polynesia lagoon mountains",
-      "answers": ["Océan Arctique", "Océan Pacifique", "Océan Atlantique", "Océan Indien"],
-      "correctIndex": 1,
-      "explanation": "Tahiti se situe dans l’océan Pacifique et constitue l’île principale de la Polynésie française. Elle a longtemps nourri l’imaginaire européen du paradis tropical, notamment à travers les récits de voyages et la peinture."
+      "question": "Dans quel océan se trouve Tahiti, île principale de la Polynésie française ?",
+      "image": null, "imagePrompt": "Tahiti French Polynesia lagoon mountains",
+      "answers": ["Océan Arctique", "Océan Atlantique", "Océan Pacifique", "Océan Indien"],
+      "correctIndex": 2,
+      "explanation": "Tahiti se situe dans l'océan Pacifique sud, à plus de 17 000 km de la métropole française. Elle a longtemps nourri l'imaginaire européen du paradis tropical, notamment à travers les récits de Bougainville et les toiles du peintre Gauguin, qui y passa les dernières années de sa vie. Sa voisine Moorea est réputée encore plus sauvage."
     },
     {
       "id": "10",
-      "question": "Quelle île volcanique française de l’océan Indien est surnommée l’île intense ?",
-      "image": null,
-      "imagePrompt": "Reunion island volcanic cirques waterfall",
+      "question": "Quelle île volcanique française de l'océan Indien est surnommée « l'île intense » pour ses reliefs et son volcan actif ?",
+      "image": null, "imagePrompt": "Reunion island volcanic cirques waterfall Piton",
       "answers": ["Mayotte", "La Réunion", "Madagascar", "Corse"],
       "correctIndex": 1,
-      "explanation": "La Réunion est surnommée l’île intense en raison de ses reliefs abrupts, de ses cirques spectaculaires et de son volcan actif, le Piton de la Fournaise. Elle offre un autre visage de l’île paradisiaque, davantage tourné vers la nature sauvage que vers les seuls lagons."
+      "explanation": "La Réunion est surnommée « l'île intense » pour ses paysages montagneux spectaculaires, ses cirques naturels (Mafate, Cilaos, Salazie) et son Piton de la Fournaise, l'un des volcans les plus actifs de la planète. Ses cirques et remparts sont inscrits à l'UNESCO. C'est un autre visage de l'île de rêve : non plus le lagon calme, mais la nature sauvage et verticale."
     },
     {
       "id": "11",
-      "question": "Quelle île est célèbre pour ses célèbres bungalows sur pilotis dans le Pacifique ?",
-      "image": null,
-      "imagePrompt": "Overwater bungalows Bora Bora luxury resort",
+      "question": "Quelle île du Pacifique a popularisé à l'échelle mondiale le concept de bungalows sur pilotis en plein lagon ?",
+      "image": null, "imagePrompt": "Overwater bungalows Bora Bora luxury resort lagoon",
       "answers": ["Bora Bora", "Sicile", "Rhodes", "Zanzibar"],
       "correctIndex": 0,
-      "explanation": "Bora Bora a largement contribué à populariser l’image des bungalows sur pilotis à l’échelle mondiale. Ce type d’hébergement renforce l’idée d’immersion dans le lagon, devenue l’un des symboles du tourisme de luxe tropical."
+      "explanation": "Bora Bora est généralement créditée d'avoir popularisé les bungalows sur pilotis dans les années 1970. Le premier hôtel à les avoir proposés fut le Bora Bora Hotel en 1961. Désormais, ce type d'hébergement s'est exporté jusqu'aux Maldives, aux Seychelles et à Tahiti, devenant l'un des symboles du tourisme de luxe tropical."
     },
     {
       "id": "12",
-      "question": "Zanzibar est rattachée à quel pays africain ?",
-      "image": null,
-      "imagePrompt": "Zanzibar Stone Town beach dhow",
+      "question": "Zanzibar, archipel connu pour ses plages et son architecture swahilie, est rattaché à quel pays africain ?",
+      "image": null, "imagePrompt": "Zanzibar Stone Town beach dhow harbor",
       "answers": ["Kenya", "Tanzanie", "Mozambique", "Somalie"],
       "correctIndex": 1,
-      "explanation": "Zanzibar appartient à la Tanzanie, même si l’archipel conserve une forte identité historique et culturelle. Son importance ne tient pas seulement à ses plages, mais aussi à son passé commercial dans l’océan Indien et à l’héritage swahili visible à Stone Town."
+      "explanation": "Zanzibar est une région semi-autonome de Tanzanie. Son importance historique ne tient pas seulement à ses plages : Stone Town, sa vieille ville classée à l'UNESCO, témoigne de son rôle de carrefour commercial entre l'Afrique, l'Arabie et l'Asie. Zanzibar fut aussi un centre majeur du commerce des esclaves jusqu'au XIXe siècle."
     },
     {
       "id": "13",
-      "question": "Quelle île grecque est souvent associée à ses maisons blanches et à sa mer bleu profond ?",
-      "image": null,
-      "imagePrompt": "Santorini white houses blue sea",
+      "question": "Quelle île grecque est mondialement reconnaissable pour ses maisons blanches perchées sur une caldeira volcanique ?",
+      "image": null, "imagePrompt": "Santorini white houses blue domes sea",
       "answers": ["Corfou", "Crète", "Santorin", "Chypre"],
       "correctIndex": 2,
-      "explanation": "Santorin est l’une des îles les plus reconnaissables au monde grâce à ses villages blancs perchés sur une caldeira volcanique. Son paysage spectaculaire résulte d’une immense éruption antique qui a profondément remodelé l’île."
+      "explanation": "Santorin (Thira) est une caldeira, soit le reste d'un volcan effondré après une éruption gigantesque vers 1600 av. J.-C. — l'une des plus puissantes de l'histoire humaine. Ses villages d'Oia et de Fira, suspendus au-dessus de la mer, sont parmi les plus photographiés du monde. Certains historiens y voient l'origine du mythe de l'Atlantide."
     },
     {
       "id": "14",
-      "question": "Dans quel archipel se trouve l’île de Maui ?",
-      "image": null,
-      "imagePrompt": "Maui Hawaii tropical coast",
-      "answers": ["Baléares", "Hawaï", "Bahamas", "Canaries"],
-      "correctIndex": 1,
-      "explanation": "Maui fait partie de l’archipel d’Hawaï. Elle est appréciée pour ses plages, ses vallées luxuriantes et sa route panoramique vers Hana, qui montre que le charme d’une île paradisiaque tient aussi à la diversité de ses paysages intérieurs."
+      "question": "L'île de Maui, réputée pour sa route panoramique vers Hana et ses baleines, fait partie de quel archipel ?",
+      "image": null, "imagePrompt": "Maui Hawaii tropical coast road",
+      "answers": ["Baléares", "Bahamas", "Canaries", "Hawaï"],
+      "correctIndex": 3,
+      "explanation": "Maui est la deuxième plus grande île de l'archipel d'Hawaï. Elle est appréciée pour la route de Hana (52 ponts, paysages luxuriants), les baleines à bosse qui viennent y mettre bas en hiver, et le cratère du Haleakalā (3 055 m), visible au lever du soleil depuis le sommet. Elle illustre qu'une île paradisiaque peut offrir autant de nature intérieure que de littoral."
     },
     {
       "id": "15",
-      "question": "Quelle île d’Indonésie est célèbre pour ses rizières, ses temples et son tourisme balnéaire ?",
-      "image": null,
-      "imagePrompt": "Bali rice terraces temple tropical beach",
+      "question": "Quelle île d'Indonésie, à dominante hindoue, associe rizières en terrasses classées à l'UNESCO et tourisme balnéaire ?",
+      "image": null, "imagePrompt": "Bali rice terraces Tanah Lot temple tropical",
       "answers": ["Bali", "Java", "Sumatra", "Bornéo"],
       "correctIndex": 0,
-      "explanation": "Bali est souvent perçue comme une simple destination de plage, mais son attrait tient aussi à sa culture hindoue, à ses temples et à ses rizières en terrasses. C’est l’exemple d’une île où patrimoine culturel et paysages tropicaux se complètent."
+      "explanation": "Bali est la seule île indonésienne à majorité hindoue (95 %) dans un pays à 87 % musulman. Ses rizières en terrasses de Jatiluwih et son système d'irrigation Subak (datant du IXe siècle) sont classés à l'UNESCO. Le temple de Tanah Lot, perché sur un rocher en mer, est l'un des sites les plus emblématiques de l'Asie du Sud-Est."
     },
     {
       "id": "16",
-      "question": "Quelle île des Caraïbes est connue pour ses eaux cristallines et appartient aux Bahamas ?",
-      "image": null,
-      "imagePrompt": "Bahamas Exuma sandbar turquoise water",
-      "answers": ["Exuma", "Jamaïque", "Trinité", "Martinique"],
-      "correctIndex": 0,
-      "explanation": "Les Exumas, aux Bahamas, sont réputées pour leurs bancs de sable, leurs eaux translucides et leurs îlots dispersés. Elles incarnent l’image classique du paradis caribéen, où l’espace marin compte autant que les terres émergées."
+      "question": "Quel archipel des Bahamas est réputé pour ses eaux d'un turquoise translucide et ses bancs de sable blanc apparaissant à marée basse ?",
+      "image": null, "imagePrompt": "Bahamas Exuma sandbar turquoise crystal water",
+      "answers": ["Abaco", "Andros", "Long Island", "Exumas"],
+      "correctIndex": 3,
+      "explanation": "Les Exumas forment un chapelet de 365 îles et îlots aux Bahamas, réputées pour la qualité et la transparence de leurs eaux peu profondes. Le Great Exuma Sound, vaste lagon naturel, est l'une des zones marines les plus préservées des Caraïbes. Les requins nourrices et les cochons sauvages qui nagent dans leurs eaux y sont devenus une attraction touristique insolite."
     },
     {
       "id": "17",
-      "question": "Quelle île est située au large de la Tanzanie et est connue pour ses épices ?",
-      "image": null,
-      "imagePrompt": "Zanzibar spice island tropical market",
-      "answers": ["Madère", "Zanzibar", "Sokotra", "Malte"],
-      "correctIndex": 1,
-      "explanation": "Zanzibar est souvent surnommée l’île aux épices, car elle a longtemps produit et exporté clous de girofle, cannelle et autres épices tropicales. Cela rappelle qu’une île paradisiaque peut aussi être un ancien carrefour commercial majeur."
+      "question": "Quelle île de l'océan Indien, surnommée « l'île aux épices », exporte depuis des siècles clous de girofle et cannelle ?",
+      "image": null, "imagePrompt": "Zanzibar spice island cloves cinnamon market",
+      "answers": ["Madère", "Sokotra", "Malte", "Zanzibar"],
+      "correctIndex": 3,
+      "explanation": "Zanzibar est surnommée « l'île aux épices » car elle fut pendant des siècles la principale source mondiale de clous de girofle, de cannelle et de poivre noir. Ces épices en firent une escale stratégique des routes commerciales entre l'Arabie, l'Inde et l'Afrique orientale. La culture des épices est encore aujourd'hui une activité économique majeure de l'archipel."
     },
     {
       "id": "18",
-      "question": "Quelle île méditerranéenne italienne est connue pour ses falaises, ses criques et son tourisme haut de gamme ?",
-      "image": null,
-      "imagePrompt": "Capri Italy cliffs blue sea",
+      "question": "Quelle petite île italienne, accessible depuis Naples, est célèbre pour ses falaises, la Grotte Bleue et son tourisme d'exception ?",
+      "image": null, "imagePrompt": "Capri Italy cliffs blue grotto sea",
       "answers": ["Capri", "Sardaigne", "Elbe", "Ischia"],
       "correctIndex": 0,
-      "explanation": "Capri est une petite île italienne à forte notoriété internationale. Son image de raffinement repose autant sur ses paysages côtiers spectaculaires que sur son histoire mondaine et artistique depuis le XIXe siècle."
+      "explanation": "Capri est une île de 10 km² dans le golfe de Naples, connue pour la Grotta Azzurra (Grotte Bleue) où la lumière se réfléchit de façon spectaculaire, et pour ses Faraglioni, trois rochers emblématiques surgissant de la mer. L'île fut la résidence de l'Empereur Tibère et est restée une destination d'élite depuis le XIXe siècle."
     },
     {
       "id": "19",
-      "question": "Quelle île est célèbre pour la plage d’Anse Source d’Argent ?",
-      "image": null,
-      "imagePrompt": "Anse Source d'Argent Seychelles beach",
-      "answers": ["Lanzarote", "La Digue", "Malte", "Ko Samui"],
-      "correctIndex": 1,
-      "explanation": "La Digue, aux Seychelles, est célèbre pour Anse Source d’Argent, souvent considérée comme l’une des plages les plus photogéniques du monde. Ses blocs granitiques sculptés et ses eaux peu profondes en font un paysage iconique du tourisme tropical."
+      "question": "Quelle île des Seychelles abrite la plage d'Anse Source d'Argent, souvent classée parmi les plus belles du monde ?",
+      "image": null, "imagePrompt": "Anse Source d'Argent La Digue Seychelles granite beach",
+      "answers": ["Lanzarote", "Malte", "Ko Samui", "La Digue"],
+      "correctIndex": 3,
+      "explanation": "La Digue est la troisième plus grande île habitée des Seychelles. Anse Source d'Argent, avec ses blocs granitiques roses sculptés par l'érosion, ses eaux peu profondes et ses palmiers, est l'une des plages les plus photographiées au monde. La Digue est accessible uniquement par bateau ou hélicoptère depuis Mahé, ce qui lui a permis de rester relativement préservée."
     },
     {
       "id": "20",
-      "question": "Dans quel pays se situe l’île de Palawan, réputée pour ses lagons et ses falaises calcaires ?",
-      "image": null,
-      "imagePrompt": "Palawan Philippines limestone cliffs lagoon",
+      "question": "Dans quel pays se situe l'île de Palawan, réputée pour ses lagons, ses falaises karstiques et sa richesse marine ?",
+      "image": null, "imagePrompt": "Palawan Philippines limestone cliffs lagoon",
       "answers": ["Malaisie", "Thaïlande", "Philippines", "Vietnam"],
       "correctIndex": 2,
-      "explanation": "Palawan se trouve aux Philippines et se distingue par ses lagons, ses falaises karstiques et sa grande richesse marine. Elle montre que l’idée d’île paradisiaque est aussi liée à la qualité des fonds marins, essentielle pour la plongée et les écosystèmes côtiers."
+      "explanation": "Palawan se trouve aux Philippines et est régulièrement élue « meilleure île du monde » par les magazines de voyage. Le lagon souterrain de Puerto Princesa, accessible par barque dans des grottes, est classé à l'UNESCO et l'une des merveilles naturelles du monde. L'Archipel de Bacuit, avec ses 45 îles karstiques, est l'une des zones de plongée les plus riches de la planète."
     }
   ]
 }

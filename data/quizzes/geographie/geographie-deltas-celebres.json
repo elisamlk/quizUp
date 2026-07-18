@@ -115,15 +115,20 @@
       "correctIndex": 1,
       "explanation": "Les deltas se forment lorsque les fleuves déposent des sédiments en arrivant dans une mer ou un océan, créant progressivement de nouvelles terres."
     },
-    {
-      "id": "12",
-      "question": "Quel delta européen est lié au Rhin et à la Meuse aux Pays-Bas ?",
-      "image": null,
-      "imagePrompt": "Netherlands delta map",
-      "answers": ["Delta du Rhin", "Delta du Danube", "Delta du Pô", "Delta de la Seine"],
-      "correctIndex": 0,
-      "explanation": "Le delta Rhin-Meuse est fortement aménagé avec digues et barrages. Il illustre la maîtrise humaine des deltas pour se protéger contre les inondations."
-    },
+  {
+  "id": "12",
+  "question": "Quel grand système deltaïque protège une partie des Pays-Bas contre les inondations ?",
+  "image": null,
+  "imagePrompt": "Rhine Meuse Scheldt delta Netherlands map",
+  "answers": [
+    "Le delta Rhin-Meuse-Escaut",
+    "Le delta du Danube",
+    "Le delta du Pô",
+    "Le delta de la Seine"
+  ],
+  "correctIndex": 0,
+  "explanation": "Le delta Rhin-Meuse-Escaut est l'un des systèmes deltaïques les plus aménagés au monde. Les Pays-Bas y ont construit un vaste réseau de digues, barrages et ouvrages hydrauliques afin de limiter les risques d'inondation."
+},
     {
       "id": "13",
       "question": "Quel delta italien est formé par le fleuve Pô ?",
@@ -160,15 +165,20 @@
       "correctIndex": 2,
       "explanation": "Le delta du Zambèze dépend fortement des variations climatiques et des barrages, ce qui influence sa biodiversité et ses crues."
     },
-    {
-      "id": "17",
-      "question": "Quel delta asiatique est fortement urbanisé autour de Shanghai ?",
-      "image": null,
-      "imagePrompt": "Yangtze delta megacity",
-      "answers": ["Yangtsé", "Mékong", "Gange", "Indus"],
-      "correctIndex": 0,
-      "explanation": "Le delta du Yangtsé est l’un des espaces les plus urbanisés et industrialisés du monde, illustrant la transformation des deltas en mégarégions."
-    },
+   {
+  "id": "17",
+  "question": "Quel aménagement humain peut empêcher un delta de continuer à s'agrandir naturellement ?",
+  "image": null,
+  "imagePrompt": "large dam blocking sediment river",
+  "answers": [
+    "Les barrages construits en amont",
+    "Les marées",
+    "Les vents dominants",
+    "Les courants marins"
+  ],
+  "correctIndex": 0,
+  "explanation": "Les barrages retiennent une grande partie des sédiments transportés par les fleuves. Les deltas reçoivent alors moins de matériaux pour compenser l'érosion, ce qui accélère parfois leur recul face à la mer."
+},
     {
       "id": "18",
       "question": "Quel delta est particulièrement riche en biodiversité en Europe ?",

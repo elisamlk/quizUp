@@ -21,8 +21,8 @@
       "question": "Quelle ville est considérée comme la capitale économique des États-Unis ?",
       "image": null,
       "imagePrompt": "New York skyline",
-      "answers": ["Chicago", "Los Angeles", "Washington D.C.", "New York"],
-      "correctIndex": 3,
+      "answers": ["New York", "Chicago", "Los Angeles", "Washington D.C."],
+      "correctIndex": 0,
       "explanation": "New York concentre Wall Street et les grandes institutions financières mondiales, ce qui en fait la véritable capitale économique des États-Unis."
     },
     {
@@ -30,8 +30,8 @@
       "question": "Quelle ville joue un rôle politique majeur aux Pays-Bas ?",
       "image": null,
       "imagePrompt": "The Hague government",
-      "answers": ["Amsterdam", "Rotterdam", "La Haye", "Utrecht"],
-      "correctIndex": 2,
+      "answers": ["Amsterdam", "La Haye", "Rotterdam", "Utrecht"],
+      "correctIndex": 1,
       "explanation": "La Haye abrite le gouvernement et les institutions internationales, contrairement à Amsterdam qui est la capitale officielle."
     },
     {
@@ -39,8 +39,8 @@
       "question": "Quelle ville est la capitale économique de la Côte d’Ivoire ?",
       "image": null,
       "imagePrompt": "Abidjan skyline",
-      "answers": ["Bouaké", "Yamoussoukro", "San-Pédro", "Abidjan"],
-      "correctIndex": 3,
+      "answers": ["Bouaké", "Yamoussoukro", "Abidjan", "San-Pédro"],
+      "correctIndex": 2,
       "explanation": "Abidjan reste le centre économique et urbain du pays, malgré la capitale officielle située à Yamoussoukro."
     },
     {
@@ -48,8 +48,8 @@
       "question": "Quelle ville australienne domine économiquement le pays ?",
       "image": null,
       "imagePrompt": "Sydney harbor",
-      "answers": ["Sydney", "Perth", "Adelaide", "Darwin"],
-      "correctIndex": 0,
+      "answers": ["Perth", "Adelaide", "Darwin", "Sydney"],
+      "correctIndex": 3,
       "explanation": "Sydney est la plus grande ville et le centre économique majeur, alors que Canberra est la capitale politique."
     },
     {
@@ -57,17 +57,17 @@
       "question": "Quelle ville sud-africaine est la capitale économique ?",
       "image": null,
       "imagePrompt": "Johannesburg skyline",
-      "answers": ["Le Cap", "Pretoria", "Durban", "Johannesburg"],
-      "correctIndex": 3,
-      "explanation": "Johannesburg est le cœur économique, dans un pays qui possède trois capitales distinctes."
+      "answers": ["Johannesburg", "Le Cap", "Pretoria", "Durban"],
+      "correctIndex": 0,
+      "explanation": "Johannesburg est le cœur économique, dans un pays qui possède trois capitales distinctes : Pretoria (administrative), Le Cap (législative) et Bloemfontein (judiciaire)."
     },
     {
       "id": "6",
       "question": "Quelle ville suisse est le centre financier du pays ?",
       "image": null,
       "imagePrompt": "Zurich skyline",
-      "answers": ["Genève", "Berne", "Bâle", "Zurich"],
-      "correctIndex": 3,
+      "answers": ["Genève", "Zurich", "Berne", "Bâle"],
+      "correctIndex": 1,
       "explanation": "Zurich domine le secteur bancaire et financier, contrairement à Berne qui est la capitale politique."
     },
     {
@@ -75,8 +75,8 @@
       "question": "Quelle ville est le cœur économique du Canada ?",
       "image": null,
       "imagePrompt": "Toronto skyline",
-      "answers": ["Toronto", "Montréal", "Ottawa", "Vancouver"],
-      "correctIndex": 0,
+      "answers": ["Montréal", "Ottawa", "Toronto", "Vancouver"],
+      "correctIndex": 2,
       "explanation": "Toronto concentre les activités financières, alors qu’Ottawa est la capitale politique."
     },
     {
@@ -108,12 +108,12 @@
     },
     {
       "id": "11",
-      "question": "Quelle ville japonaise est un grand centre économique secondaire ?",
+      "question": "Quelle ville bolivienne abrite le siège du gouvernement, bien que Sucre reste la capitale constitutionnelle du pays ?",
       "image": null,
-      "imagePrompt": "Osaka skyline",
-      "answers": ["Tokyo", "Osaka", "Kyoto", "Nagoya"],
-      "correctIndex": 1,
-      "explanation": "Osaka est un pôle économique majeur, même si Tokyo domine largement."
+      "imagePrompt": "La Paz Bolivia government",
+      "answers": ["Santa Cruz de la Sierra", "Cochabamba", "La Paz", "Sucre"],
+      "correctIndex": 2,
+      "explanation": "La Bolivie possède une organisation institutionnelle unique en Amérique latine : Sucre est la capitale constitutionnelle et abrite la Cour suprême, tandis que La Paz concentre le siège du gouvernement, le Parlement et la présidence, ce qui en fait de facto la capitale politique du pays."
     },
     {
       "id": "12",
@@ -129,26 +129,26 @@
       "question": "Quelle ville italienne est la capitale économique ?",
       "image": null,
       "imagePrompt": "Milan skyline",
-      "answers": ["Naples", "Turin", "Milan", "Rome"],
-      "correctIndex": 2,
+      "answers": ["Milan", "Naples", "Turin", "Rome"],
+      "correctIndex": 0,
       "explanation": "Milan concentre les activités économiques, financières et industrielles."
     },
     {
       "id": "14",
-      "question": "Quelle ville espagnole rivalise économiquement avec Madrid ?",
+      "question": "Quelle ville est la capitale commerciale du Sri Lanka, bien que Sri Jayawardenepura Kotte en soit la capitale officielle ?",
       "image": null,
-      "imagePrompt": "Barcelona skyline",
-      "answers": ["Séville", "Valence", "Barcelone", "Bilbao"],
-      "correctIndex": 2,
-      "explanation": "Barcelone est un centre économique majeur, notamment dans le commerce et le tourisme."
+      "imagePrompt": "Colombo Sri Lanka skyline",
+      "answers": ["Kandy", "Colombo", "Galle", "Jaffna"],
+      "correctIndex": 1,
+      "explanation": "Colombo est la capitale économique, commerciale et la plus grande ville du Sri Lanka, tandis que Sri Jayawardenepura Kotte, une banlieue de Colombo, est devenue la capitale officielle en 1985 et abrite le Parlement du pays."
     },
     {
       "id": "15",
       "question": "Quelle ville est la capitale économique de l’Inde ?",
       "image": null,
       "imagePrompt": "Mumbai skyline",
-      "answers": ["Mumbai", "Delhi", "Chennai", "Bangalore"],
-      "correctIndex": 0,
+      "answers": ["Delhi", "Chennai", "Mumbai", "Bangalore"],
+      "correctIndex": 2,
       "explanation": "Mumbai est le cœur financier et économique du pays."
     },
     {
@@ -156,45 +156,45 @@
       "question": "Quelle ville chinoise domine économiquement le pays ?",
       "image": null,
       "imagePrompt": "Shanghai skyline",
-      "answers": ["Pékin", "Shanghai", "Shenzhen", "Canton"],
-      "correctIndex": 1,
+      "answers": ["Pékin", "Shenzhen", "Canton", "Shanghai"],
+      "correctIndex": 3,
       "explanation": "Shanghai est le principal centre économique et financier de la Chine."
     },
     {
       "id": "17",
-      "question": "Quelle ville russe est le centre économique principal ?",
+      "question": "Quelle ville russe abrite la Cour constitutionnelle depuis 2008, bien que Moscou reste la capitale politique du pays ?",
       "image": null,
-      "imagePrompt": "Moscow skyline",
-      "answers": ["Saint-Pétersbourg", "Moscou", "Kazan", "Novossibirsk"],
-      "correctIndex": 1,
-      "explanation": "Moscou domine à la fois politiquement et économiquement la Russie."
+      "imagePrompt": "Saint Petersburg Russia constitutional court",
+      "answers": ["Saint-Pétersbourg", "Ekaterinbourg", "Novossibirsk", "Kazan"],
+      "correctIndex": 0,
+      "explanation": "Saint-Pétersbourg, capitale historique de la Russie impériale jusqu'en 1918, conserve un rôle institutionnel particulier : la Cour constitutionnelle russe y a été transférée en 2008, une décision symbolique renforçant le statut de la ville comme « capitale culturelle et juridique » du pays, aux côtés de Moscou, capitale politique."
     },
     {
       "id": "18",
-      "question": "Quelle ville sud-coréenne est un grand port économique ?",
+      "question": "Quelle ville malaisienne, construite dans les années 1990, est devenue le siège administratif du gouvernement, bien que Kuala Lumpur reste la capitale officielle ?",
       "image": null,
-      "imagePrompt": "Busan port",
-      "answers": ["Séoul", "Busan", "Incheon", "Daegu"],
+      "imagePrompt": "Putrajaya Malaysia government city",
+      "answers": ["Johor Bahru", "Putrajaya", "George Town", "Ipoh"],
       "correctIndex": 1,
-      "explanation": "Busan est un centre portuaire et économique majeur."
+      "explanation": "Putrajaya, ville nouvelle construite à partir de 1995 à une trentaine de kilomètres de Kuala Lumpur, abrite depuis 1999 le siège du gouvernement fédéral malaisien et la plupart des ministères, tandis que Kuala Lumpur demeure la capitale officielle du pays et son cœur économique et parlementaire."
     },
     {
       "id": "19",
-      "question": "Quelle ville argentine est le centre économique ?",
+      "question": "Quelle ville béninoise est le siège du gouvernement et la plus grande ville du pays, bien que Porto-Novo en soit la capitale officielle ?",
       "image": null,
-      "imagePrompt": "Buenos Aires skyline",
-      "answers": ["Mendoza", "Cordoba", "Rosario", "Buenos Aires"],
-      "correctIndex": 3,
-      "explanation": "Buenos Aires domine largement l’économie nationale."
+      "imagePrompt": "Cotonou Benin port city",
+      "answers": ["Parakou", "Abomey", "Cotonou", "Natitingou"],
+      "correctIndex": 2,
+      "explanation": "Au Bénin, Porto-Novo est la capitale officielle inscrite dans la Constitution, mais Cotonou concentre le siège du gouvernement, les ambassades, le port principal et l'essentiel de l'activité économique du pays, en faisant la véritable capitale de facto."
     },
     {
       "id": "20",
-      "question": "Quelle ville égyptienne concentre l’économie du pays ?",
+      "question": "Quelle ville tanzanienne concentre l'essentiel de l'activité économique, bien que Dodoma soit la capitale officielle depuis 1996 ?",
       "image": null,
-      "imagePrompt": "Cairo skyline",
-      "answers": ["Le Caire", "Alexandrie", "Gizeh", "Louxor"],
-      "correctIndex": 0,
-      "explanation": "Le Caire concentre la majorité des activités économiques et politiques."
+      "imagePrompt": "Dar es Salaam Tanzania economic hub",
+      "answers": ["Zanzibar City", "Arusha", "Mwanza", "Dar es Salaam"],
+      "correctIndex": 3,
+      "explanation": "La Tanzanie a officiellement transféré sa capitale à Dodoma en 1996 pour des raisons de centralité géographique, mais Dar es Salaam demeure la ville la plus peuplée du pays, son principal port et son cœur économique, et continue d'abriter dans les faits de nombreuses institutions gouvernementales."
     }
   ]
 }

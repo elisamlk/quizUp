@@ -19,142 +19,254 @@
     {
       "id": "1",
       "question": "Quel détroit relie l’océan Atlantique à la mer Méditerranée ?",
-      "answers": ["Bosphore", "Ormuz", "Malacca", "Gibraltar"],
+      "answers": [
+        "Bosphore",
+        "Ormuz",
+        "Malacca",
+        "Gibraltar"
+      ],
       "correctIndex": 3,
       "explanation": "Le détroit de Gibraltar est un passage stratégique entre l’Europe et l’Afrique. Il est essentiel pour les échanges entre l’Atlantique et la Méditerranée."
     },
     {
       "id": "2",
       "question": "Quel détroit est l’un des plus fréquentés au monde en Asie ?",
-      "answers": ["Malacca", "Béring", "Gibraltar", "Magellan"],
+      "answers": [
+        "Malacca",
+        "Béring",
+        "Gibraltar",
+        "Magellan"
+      ],
       "correctIndex": 0,
       "explanation": "Le détroit de Malacca est crucial pour le commerce entre l’Asie et l’Europe, notamment pour le transport de pétrole."
     },
     {
       "id": "3",
       "question": "Quel détroit sépare l’Europe de l’Asie à Istanbul ?",
-      "answers": ["Bosphore", "Dardanelles", "Ormuz", "Bab el-Mandeb"],
+      "answers": [
+        "Bosphore",
+        "Dardanelles",
+        "Ormuz",
+        "Bab el-Mandeb"
+      ],
       "correctIndex": 0,
       "explanation": "Le Bosphore traverse Istanbul et relie la mer Noire à la mer de Marmara, constituant un point stratégique majeur."
     },
     {
       "id": "4",
       "question": "Quel passage relie la mer Rouge à la mer Méditerranée ?",
-      "answers": ["Canal de Panama", "Canal de Suez", "Détroit d’Ormuz", "Détroit de Malacca"],
+      "answers": [
+        "Canal de Panama",
+        "Canal de Suez",
+        "Détroit d’Ormuz",
+        "Détroit de Malacca"
+      ],
       "correctIndex": 1,
       "explanation": "Le canal de Suez évite le contournement de l’Afrique et est vital pour le commerce entre l’Europe et l’Asie."
     },
     {
       "id": "5",
       "question": "Quel détroit relie le golfe Persique à l’océan Indien ?",
-      "answers": ["Ormuz", "Gibraltar", "Malacca", "Bosphore"],
+      "answers": [
+        "Ormuz",
+        "Gibraltar",
+        "Malacca",
+        "Bosphore"
+      ],
       "correctIndex": 0,
       "explanation": "Le détroit d’Ormuz est stratégique pour le pétrole mondial : une grande partie des exportations y transite."
     },
     {
       "id": "6",
       "question": "Quel canal relie l’océan Atlantique à l’océan Pacifique ?",
-      "answers": ["Suez", "Panama", "Kiel", "Corinthe"],
+      "answers": [
+        "Suez",
+        "Panama",
+        "Kiel",
+        "Corinthe"
+      ],
       "correctIndex": 1,
       "explanation": "Le canal de Panama permet d’éviter le contournement de l’Amérique du Sud, réduisant considérablement les distances maritimes."
     },
     {
       "id": "7",
       "question": "Quel détroit sépare la Russie de l’Alaska ?",
-      "answers": ["Malacca", "Béring", "Magellan", "Gibraltar"],
+      "answers": [
+        "Malacca",
+        "Béring",
+        "Magellan",
+        "Gibraltar"
+      ],
       "correctIndex": 1,
       "explanation": "Le détroit de Béring marque la frontière entre l’Asie et l’Amérique et joue un rôle important dans les migrations historiques."
     },
     {
       "id": "8",
-      "question": "Quel détroit relie la mer Noire à la mer Égée ?",
-      "answers": ["Bosphore", "Dardanelles", "Ormuz", "Bab el-Mandeb"],
+      "question": "Quel détroit relie la mer de Marmara à la mer Égée ?",
+      "image": null,
+      "imagePrompt": "Dardanelles map Turkey",
+      "answers": [
+        "Bosphore",
+        "Dardanelles",
+        "Ormuz",
+        "Bab el-Mandeb"
+      ],
       "correctIndex": 1,
-      "explanation": "Les Dardanelles, avec le Bosphore, forment un système de passages stratégiques contrôlés par la Turquie."
+      "explanation": "Les Dardanelles relient la mer de Marmara à la mer Égée. Associées au Bosphore, elles permettent aux navires de rejoindre la mer Noire depuis la Méditerranée."
     },
     {
       "id": "9",
       "question": "Quel détroit est situé entre le Yémen et Djibouti ?",
-      "answers": ["Ormuz", "Bab el-Mandeb", "Malacca", "Béring"],
+      "answers": [
+        "Ormuz",
+        "Bab el-Mandeb",
+        "Malacca",
+        "Béring"
+      ],
       "correctIndex": 1,
       "explanation": "Bab el-Mandeb est un point clé reliant la mer Rouge à l’océan Indien, essentiel pour le commerce mondial."
     },
     {
-      "id": "10",
-      "question": "Quel détroit sépare la Malaisie de l’Indonésie ?",
-      "answers": ["Ormuz", "Gibraltar", "Malacca", "Bosphore"],
-      "correctIndex": 2,
-      "explanation": "Le détroit de Malacca est un passage incontournable pour les flux commerciaux entre l’Asie et l’Europe."
-    },
+  "id": "10",
+  "question": "Quel détroit sépare Taïwan de la Chine continentale ?",
+  "image": null,
+  "imagePrompt": "Taiwan Strait map East Asia",
+  "answers": [
+    "Détroit de Taïwan",
+    "Détroit de Malacca",
+    "Détroit de Corée",
+    "Détroit de Lombok"
+  ],
+  "correctIndex": 0,
+  "explanation": "Le détroit de Taïwan sépare l'île de Taïwan de la Chine continentale. Large d'environ 180 kilomètres en moyenne, il constitue aujourd'hui l'un des espaces maritimes les plus sensibles sur le plan géopolitique."
+},
     {
       "id": "11",
       "question": "Quel détroit se situe à l’extrémité sud de l’Amérique du Sud ?",
-      "answers": ["Magellan", "Drake", "Béring", "Malacca"],
+      "answers": [
+        "Magellan",
+        "Drake",
+        "Béring",
+        "Malacca"
+      ],
       "correctIndex": 0,
       "explanation": "Le détroit de Magellan permet d’éviter le cap Horn, réputé dangereux pour la navigation."
     },
     {
       "id": "12",
       "question": "Quel détroit sépare la Sicile de l’Italie continentale ?",
-      "answers": ["Messine", "Gibraltar", "Ormuz", "Malacca"],
+      "answers": [
+        "Messine",
+        "Gibraltar",
+        "Ormuz",
+        "Malacca"
+      ],
       "correctIndex": 0,
       "explanation": "Le détroit de Messine est étroit et soumis à de forts courants, ce qui complique la navigation."
     },
     {
       "id": "13",
-      "question": "Quel détroit relie la mer d’Arabie au golfe d’Oman ?",
-      "answers": ["Ormuz", "Bab el-Mandeb", "Malacca", "Dardanelles"],
+      "question": "Quel détroit est considéré comme l'un des points de passage les plus sensibles pour les exportations mondiales de pétrole ?",
+      "image": null,
+      "imagePrompt": "Strait of Hormuz oil tankers map",
+      "answers": [
+        "Ormuz",
+        "Malacca",
+        "Gibraltar",
+        "Béring"
+      ],
       "correctIndex": 0,
-      "explanation": "Le détroit d’Ormuz est un point de passage stratégique pour l’énergie mondiale."
+      "explanation": "Le détroit d'Ormuz voit transiter une part considérable du pétrole exporté dans le monde. Toute perturbation dans cette zone a des répercussions immédiates sur les marchés énergétiques."
     },
     {
       "id": "14",
       "question": "Quel passage est essentiel pour le commerce entre l’Europe et l’Asie sans contourner l’Afrique ?",
-      "answers": ["Panama", "Suez", "Malacca", "Gibraltar"],
+      "answers": [
+        "Panama",
+        "Suez",
+        "Malacca",
+        "Gibraltar"
+      ],
       "correctIndex": 1,
       "explanation": "Le canal de Suez réduit considérablement les distances et est crucial pour les échanges internationaux."
     },
     {
       "id": "15",
       "question": "Quel détroit est connu pour ses conditions maritimes très dangereuses au sud de l’Amérique ?",
-      "answers": ["Drake", "Magellan", "Béring", "Malacca"],
+      "answers": [
+        "Drake",
+        "Magellan",
+        "Béring",
+        "Malacca"
+      ],
       "correctIndex": 0,
       "explanation": "Le passage de Drake est l’un des plus dangereux au monde, avec des vents violents et des courants puissants."
     },
     {
       "id": "16",
       "question": "Quel détroit sépare la Grande-Bretagne de la France ?",
-      "answers": ["Gibraltar", "Pas-de-Calais", "Béring", "Messine"],
+      "answers": [
+        "Gibraltar",
+        "Pas-de-Calais",
+        "Béring",
+        "Messine"
+      ],
       "correctIndex": 1,
       "explanation": "Le détroit du Pas-de-Calais est l’un des plus fréquentés au monde, reliant la Manche à la mer du Nord."
     },
-    {
-      "id": "17",
-      "question": "Quel détroit est stratégique pour l’accès à la mer Noire ?",
-      "answers": ["Bosphore", "Malacca", "Ormuz", "Gibraltar"],
-      "correctIndex": 0,
-      "explanation": "Le Bosphore contrôle l’accès à la mer Noire, ce qui en fait un point clé pour les pays riverains."
-    },
+ {
+  "id": "17",
+  "question": "Quel détroit sépare les îles indonésiennes de Bali et de Lombok ?",
+  "image": null,
+  "imagePrompt": "Lombok Strait Indonesia map",
+  "answers": [
+    "Détroit de Lombok",
+    "Détroit de la Sonde",
+    "Détroit de Malacca",
+    "Détroit d'Ormuz"
+  ],
+  "correctIndex": 0,
+  "explanation": "Le détroit de Lombok sépare les îles de Bali et de Lombok. Il constitue une importante route maritime internationale, souvent empruntée par les grands navires qui ne peuvent pas toujours passer par le détroit de Malacca."
+},
     {
       "id": "18",
       "question": "Quel canal traverse l’Allemagne et relie la mer du Nord à la mer Baltique ?",
-      "answers": ["Kiel", "Panama", "Suez", "Corinthe"],
+      "answers": [
+        "Kiel",
+        "Panama",
+        "Suez",
+        "Corinthe"
+      ],
       "correctIndex": 0,
       "explanation": "Le canal de Kiel est l’un des plus fréquentés au monde, permettant d’éviter le contournement du Danemark."
     },
     {
       "id": "19",
-      "question": "Quel détroit est situé entre l’Iran et Oman ?",
-      "answers": ["Bab el-Mandeb", "Ormuz", "Malacca", "Bosphore"],
+      "question": "Quel détroit sépare les îles indonésiennes de Java et de Sumatra ?",
+      "image": null,
+      "imagePrompt": "Sunda Strait Indonesia map",
+      "answers": [
+        "Malacca",
+        "Sonde",
+        "Lombok",
+        "Torres"
+      ],
       "correctIndex": 1,
-      "explanation": "Le détroit d’Ormuz est crucial pour le transport du pétrole, ce qui en fait une zone géopolitique sensible."
+      "explanation": "Le détroit de la Sonde sépare Java de Sumatra. Il est notamment connu pour l'éruption du volcan Krakatoa en 1883 et constitue une importante voie de navigation régionale."
     },
     {
       "id": "20",
-      "question": "Quel détroit sépare l’Afrique de l’Europe ?",
-      "answers": ["Malacca", "Ormuz", "Béring", "Gibraltar"],
-      "correctIndex": 3,
-      "explanation": "Le détroit de Gibraltar est un point de passage majeur entre deux continents, stratégique pour le commerce et les migrations."
+      "question": "Quel détroit sépare le Danemark de la Suède ?",
+      "image": null,
+      "imagePrompt": "Oresund bridge map Denmark Sweden",
+      "answers": [
+        "Skagerrak",
+        "Kattegat",
+        "Øresund",
+        "Pas-de-Calais"
+      ],
+      "correctIndex": 2,
+      "explanation": "Le détroit de l'Øresund sépare le Danemark de la Suède. Il est franchi par le célèbre pont-tunnel de l'Øresund qui relie Copenhague à Malmö et constitue un axe majeur de communication en Europe du Nord."
     }
   ]
 }

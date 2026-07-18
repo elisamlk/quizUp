@@ -2,11 +2,9 @@
   "slug": "quiz-geographie-frontieres-des-pays",
   "title": "Quiz Géographie Frontières des pays - Qui est voisin de qui ?",
   "description": "Teste tes connaissances avec 20 questions sur les frontières des pays et leurs voisins.",
-  "descriptionSeo": "Teste tes connaissances avec ce quiz géographie sur les frontières des pays. Sais-tu quels pays sont voisins ? Qui partage une frontière avec qui ? Ce quiz de 20 questions te permet de découvrir les relations géographiques entre les États du monde, d’améliorer ta mémoire des cartes et de mieux comprendre la géopolitique mondiale grâce à des explications détaillées et enrichissantes.",
-  "category": {
-    "name": "Géographie",
-    "slug": "geographie"
-  },
+  "publishedAt": "2026-03-30",
+  "descriptionSeo": "Teste tes connaissances avec ce quiz géographie sur les frontières des pays. Sais-tu quels pays sont voisins ? Qui partage une frontière avec qui ? Ce quiz de 20 questions te permet de découvrir les relations géographiques entre les États du monde.",
+  "category": { "name": "Géographie", "slug": "geographie" },
   "createdAt": "2026-03-30",
   "isNew": true,
   "isPopular": true,
@@ -18,183 +16,163 @@
   "questions": [
     {
       "id": "1",
-      "question": "Quel pays partage une frontière avec la France ?",
-      "image": null,
-      "imagePrompt": "France borders map Europe",
-      "answers": ["Italie", "Suède", "Pologne", "Danemark"],
+      "question": "Quel pays partage une frontière terrestre avec la France ?",
+      "image": null, "imagePrompt": "France borders map Europe",
+      "answers": ["Espagne", "Suède", "Pologne", "Danemark"],
       "correctIndex": 0,
-      "explanation": "La France possède de nombreuses frontières terrestres en Europe, dont l’Italie. Ces frontières ont une importance historique et économique, notamment dans la construction européenne et la libre circulation."
+      "explanation": "La France partage des frontières terrestres avec 6 pays : l'Espagne, Andorre, Monaco, l'Italie, la Suisse, l'Allemagne, le Luxembourg et la Belgique. Cette position centrale en Europe occidentale en fait l'un des carrefours géopolitiques et économiques du continent. Elle est aussi le pays de l'UE avec le plus de voisins."
     },
     {
       "id": "2",
-      "question": "Quel pays est voisin de l’Allemagne ?",
-      "image": null,
-      "imagePrompt": "Germany borders map",
+      "question": "Quel pays est voisin de l'Allemagne ?",
+      "image": null, "imagePrompt": "Germany borders map",
       "answers": ["Portugal", "Pologne", "Grèce", "Irlande"],
       "correctIndex": 1,
-      "explanation": "L’Allemagne est un pays central en Europe avec 9 voisins, dont la Pologne. Cette position géographique en fait un carrefour économique et politique majeur."
+      "explanation": "L'Allemagne est un pays central en Europe avec 9 voisins : la France, le Luxembourg, la Belgique, les Pays-Bas, le Danemark, la Pologne, la Tchéquie, l'Autriche et la Suisse. Cette position géographique unique au cœur du continent en fait le principal moteur économique de l'Union Européenne."
     },
     {
       "id": "3",
-      "question": "Quel pays ne partage PAS de frontière avec l’Espagne ?",
-      "image": null,
-      "imagePrompt": "Spain borders map",
+      "question": "Quel pays ne partage PAS de frontière terrestre avec l'Espagne ?",
+      "image": null, "imagePrompt": "Spain borders map",
       "answers": ["France", "Portugal", "Italie", "Andorre"],
       "correctIndex": 2,
-      "explanation": "L’Espagne partage ses frontières avec la France, le Portugal et Andorre, mais pas avec l’Italie. Cette question permet de visualiser la péninsule Ibérique et ses limites naturelles."
+      "explanation": "L'Espagne partage ses frontières terrestres avec la France (Pyrénées), le Portugal, Andorre et le Maroc (Ceuta et Melilla), mais pas avec l'Italie. Ces deux pays méditerranéens sont séparés par la mer Tyrrhénienne et la mer Méditerranée — une frontière maritime, et non terrestre."
     },
     {
       "id": "4",
       "question": "Quel pays est voisin du Brésil ?",
-      "image": null,
-      "imagePrompt": "Brazil borders map South America",
-      "answers": ["Chili", "Équateur", "Pérou", "Mexique"],
-      "correctIndex": 2,
-      "explanation": "Le Brésil partage des frontières avec presque tous les pays d’Amérique du Sud, dont le Pérou. Il est le pays ayant le plus de voisins sur ce continent."
+      "image": null, "imagePrompt": "Brazil borders map South America",
+      "answers": ["Chili", "Équateur", "Mexique", "Pérou"],
+      "correctIndex": 3,
+      "explanation": "Le Brésil partage des frontières avec 10 pays d'Amérique du Sud, dont le Pérou. Seuls l'Équateur et le Chili ne lui sont pas voisins. Cette immense façade terrestre de plus de 16 000 km en fait l'un des pays aux frontières les plus étendues du monde."
     },
     {
       "id": "5",
-      "question": "Quel pays partage une frontière avec la Chine ?",
-      "image": null,
-      "imagePrompt": "China borders map Asia",
+      "question": "Quel pays partage une frontière terrestre avec la Chine ?",
+      "image": null, "imagePrompt": "China borders map Asia",
       "answers": ["Inde", "Japon", "Philippines", "Corée du Sud"],
       "correctIndex": 0,
-      "explanation": "La Chine possède le plus grand nombre de voisins terrestres au monde, dont l’Inde. Cette situation géographique influence fortement ses relations géopolitiques."
+      "explanation": "La Chine est l'un des pays ayant le plus grand nombre de voisins terrestres au monde, avec 14 frontières — un chiffre qu'elle partage avec la Russie. L'Inde en fait partie. La frontière sino-indienne, principalement dans l'Himalaya, est une zone de tensions géopolitiques récurrentes depuis 1962."
     },
     {
       "id": "6",
-      "question": "Quel pays est voisin de l’Italie ?",
-      "image": null,
-      "imagePrompt": "Italy borders map",
-      "answers": ["Autriche", "Pays-Bas", "Belgique", "Suède"],
-      "correctIndex": 0,
-      "explanation": "L’Italie partage des frontières avec plusieurs pays alpins, dont l’Autriche. Les Alpes constituent une frontière naturelle importante en Europe."
+      "question": "Quel pays est voisin de l'Italie ?",
+      "image": null, "imagePrompt": "Italy borders map",
+      "answers": ["Pays-Bas", "Autriche", "Belgique", "Suède"],
+      "correctIndex": 1,
+      "explanation": "L'Italie partage ses frontières terrestres avec 4 pays : la France, Monaco, la Suisse, l'Autriche et la Slovénie. Les Alpes constituent une barrière naturelle au nord, qui a longtemps structuré les échanges politiques et économiques entre la péninsule italienne et le reste de l'Europe continentale."
     },
     {
       "id": "7",
       "question": "Quel pays est voisin des États-Unis ?",
-      "image": null,
-      "imagePrompt": "USA borders map",
-      "answers": ["Brésil", "Canada", "Argentine", "Chili"],
-      "correctIndex": 1,
-      "explanation": "Le Canada est le principal voisin des États-Unis au nord. Leur frontière est la plus longue frontière terrestre non militarisée du monde."
+      "image": null, "imagePrompt": "USA borders map",
+      "answers": ["Brésil", "Argentine", "Canada", "Chili"],
+      "correctIndex": 2,
+      "explanation": "Les États-Unis partagent leurs frontières terrestres avec le Canada au nord et le Mexique au sud. La frontière canado-américaine, longue d'environ 8 890 km, est la plus longue frontière terrestre non militarisée du monde. Elle symbolise l'une des relations bilatérales économiques les plus intenses de la planète."
     },
     {
       "id": "8",
-      "question": "Quel pays partage une frontière avec l’Argentine ?",
-      "image": null,
-      "imagePrompt": "Argentina borders map",
-      "answers": ["Colombie", "Venezuela", "Chili", "Panama"],
-      "correctIndex": 2,
-      "explanation": "L’Argentine partage une longue frontière avec le Chili le long de la cordillère des Andes, une barrière naturelle majeure."
+      "question": "Quel pays partage une frontière avec l'Argentine ?",
+      "image": null, "imagePrompt": "Argentina borders map",
+      "answers": ["Colombie", "Venezuela", "Panama", "Chili"],
+      "correctIndex": 3,
+      "explanation": "L'Argentine partage une longue frontière avec le Chili le long de la cordillère des Andes, sur environ 5 300 km. C'est l'une des frontières les plus longues du monde. Elle est aussi partagée avec le Brésil, la Bolivie, le Paraguay et l'Uruguay. Les deux pays andins ont eu des différends territoriaux réglés pacifiquement par arbitrage."
     },
     {
       "id": "9",
       "question": "Quel pays est voisin de la Russie ?",
-      "image": null,
-      "imagePrompt": "Russia borders map",
-      "answers": ["Norvège", "Espagne", "France", "Portugal"],
-      "correctIndex": 0,
-      "explanation": "La Russie partage des frontières avec de nombreux pays, dont la Norvège. C’est le pays avec le plus grand nombre de frontières terrestres au monde."
+      "image": null, "imagePrompt": "Russia borders map",
+      "answers": ["Espagne", "Norvège", "France", "Portugal"],
+      "correctIndex": 1,
+      "explanation": "La Russie fait partie des pays ayant le plus grand nombre de voisins terrestres au monde, avec 14 frontières terrestres — un chiffre qu'elle partage avec la Chine. La Norvège en fait partie, avec une frontière commune de 196 km en Arctique. Cette proximité avec l'OTAN est l'un des enjeux géopolitiques les plus sensibles de la région."
     },
     {
       "id": "10",
-      "question": "Quel pays ne partage PAS de frontière avec l’Allemagne ?",
-      "image": null,
-      "imagePrompt": "Germany neighbors map",
-      "answers": ["France", "Pologne", "Italie", "Autriche"],
-      "correctIndex": 2,
-      "explanation": "L’Allemagne ne partage pas de frontière avec l’Italie. Les Alpes constituent une séparation naturelle entre les deux pays."
+      "question": "Quel pays ne partage PAS de frontière terrestre avec l'Allemagne ?",
+      "image": null, "imagePrompt": "Germany neighbors map",
+      "answers": ["Italie", "France", "Pologne", "Autriche"],
+      "correctIndex": 0,
+      "explanation": "L'Allemagne ne partage pas de frontière terrestre avec l'Italie. Les deux pays sont séparés par l'Autriche et la Suisse. Leurs 9 voisins respectifs ne se recoupent pas directement, et une traversée terrestre de l'un à l'autre nécessite de passer par un pays tiers comme l'Autriche."
     },
     {
       "id": "11",
-      "question": "Quel pays est voisin de l’Inde ?",
-      "image": null,
-      "imagePrompt": "India borders map",
-      "answers": ["Pakistan", "Japon", "Indonésie", "Philippines"],
-      "correctIndex": 0,
-      "explanation": "L’Inde partage une frontière importante avec le Pakistan, marquée par des tensions géopolitiques historiques."
+      "question": "Quel pays est voisin de l'Inde ?",
+      "image": null, "imagePrompt": "India borders map",
+      "answers": ["Japon", "Indonésie", "Philippines", "Pakistan"],
+      "correctIndex": 3,
+      "explanation": "L'Inde partage une frontière avec le Pakistan à l'ouest — une des lignes de tension géopolitique les plus instables du monde depuis la partition de 1947. Elle est également voisine du Bangladesh, du Népal, du Bhoutan, de la Chine et du Myanmar. L'Inde a mené plusieurs conflits armés avec le Pakistan et la Chine."
     },
     {
       "id": "12",
       "question": "Quel pays est voisin de la Turquie ?",
-      "image": null,
-      "imagePrompt": "Turkey borders map",
-      "answers": ["Grèce", "Italie", "Espagne", "Portugal"],
-      "correctIndex": 0,
-      "explanation": "La Turquie est à la croisée de l’Europe et de l’Asie. Elle partage notamment une frontière avec la Grèce, ce qui en fait un pays stratégique."
+      "image": null, "imagePrompt": "Turkey borders map",
+      "answers": ["Italie", "Espagne", "Grèce", "Portugal"],
+      "correctIndex": 2,
+      "explanation": "La Turquie partage une frontière terrestre avec la Grèce à l'ouest — une frontière à la fois européenne et symbolique pour la construction continentale. Elle est également voisine de la Bulgarie, de la Géorgie, de l'Arménie, de l'Azerbaïdjan, de l'Iran, de l'Irak et de la Syrie, ce qui en fait un carrefour géopolitique majeur entre Europe, Moyen-Orient et Caucase."
     },
     {
       "id": "13",
-      "question": "Quel pays partage une frontière avec l’Égypte ?",
-      "image": null,
-      "imagePrompt": "Egypt borders map",
+      "question": "Quel pays partage une frontière terrestre avec l'Égypte ?",
+      "image": null, "imagePrompt": "Egypt borders map",
       "answers": ["Libye", "France", "Espagne", "Italie"],
       "correctIndex": 0,
-      "explanation": "L’Égypte partage une frontière avec la Libye. Cette région est marquée par des enjeux géopolitiques et désertiques importants."
+      "explanation": "L'Égypte partage des frontières terrestres avec la Libye à l'ouest, le Soudan au sud et Israël à l'est. La frontière égypto-libyenne, longue d'environ 1 115 km, traverse le désert de Libye et est difficile à surveiller. Elle est aujourd'hui au cœur des enjeux de sécurité régionale liés à la déstabilisation de la Libye depuis 2011."
     },
     {
       "id": "14",
       "question": "Quel pays est voisin du Mexique ?",
-      "image": null,
-      "imagePrompt": "Mexico borders map",
+      "image": null, "imagePrompt": "Mexico borders map",
       "answers": ["Brésil", "États-Unis", "Argentine", "Pérou"],
       "correctIndex": 1,
-      "explanation": "Le Mexique partage une frontière avec les États-Unis, l’une des plus traversées au monde, avec des enjeux économiques et migratoires majeurs."
+      "explanation": "Le Mexique partage une frontière avec les États-Unis au nord, l'une des plus traversées au monde. Longue d'environ 3 200 km, elle concentre des enjeux économiques (USMCA), migratoires et sécuritaires considérables. Le Mexique est également voisin du Guatemala et du Belize au sud."
     },
     {
       "id": "15",
       "question": "Quel pays est voisin de la Pologne ?",
-      "image": null,
-      "imagePrompt": "Poland borders map",
-      "answers": ["Allemagne", "Espagne", "Italie", "Portugal"],
-      "correctIndex": 0,
-      "explanation": "La Pologne partage une frontière avec l’Allemagne, une relation clé dans l’histoire européenne contemporaine."
+      "image": null, "imagePrompt": "Poland borders map",
+      "answers": ["Espagne", "Italie", "Allemagne", "Portugal"],
+      "correctIndex": 2,
+      "explanation": "La Pologne partage une frontière avec l'Allemagne à l'ouest — une relation clé dans l'histoire européenne. Elle est également voisine de la Biélorussie, de la Russie (enclave de Kaliningrad), de la Lituanie, de l'Ukraine, de la Slovaquie et de la Tchéquie. La frontière germano-polonaise, longtemps disputée, est devenue un symbole de la réconciliation européenne."
     },
     {
       "id": "16",
-      "question": "Quel pays partage une frontière avec le Chili ?",
-      "image": null,
-      "imagePrompt": "Chile borders map",
-      "answers": ["Argentine", "Mexique", "Canada", "États-Unis"],
-      "correctIndex": 0,
-      "explanation": "Le Chili partage une longue frontière avec l’Argentine le long des Andes, une frontière naturelle emblématique."
+      "question": "Quel pays ne partage PAS de frontière terrestre avec la Chine ?",
+      "image": null, "imagePrompt": "China neighbors map",
+      "answers": ["Inde", "Russie", "Mongolie", "Japon"],
+      "correctIndex": 3,
+      "explanation": "La Chine partage 14 frontières terrestres, mais pas avec le Japon, qui est un archipel insulaire séparé par la mer de Chine orientale et la mer du Japon. Cette absence de frontière commune n'empêche pas des tensions importantes autour des îles Senkaku/Diaoyu, revendiquées par les deux pays."
     },
     {
       "id": "17",
-      "question": "Quel pays est voisin de l’Iran ?",
-      "image": null,
-      "imagePrompt": "Iran borders map",
+      "question": "Quel pays est voisin de l'Iran ?",
+      "image": null, "imagePrompt": "Iran borders map",
       "answers": ["Irak", "France", "Italie", "Espagne"],
       "correctIndex": 0,
-      "explanation": "L’Iran partage une frontière avec l’Irak, une zone marquée par des conflits historiques et des enjeux énergétiques."
+      "explanation": "L'Iran partage une frontière avec l'Irak à l'ouest, une zone marquée par la guerre Iran-Irak (1980-1988), l'un des conflits les plus meurtriers du XXe siècle. L'Iran est également voisin de la Turquie, de l'Azerbaïdjan, de l'Arménie, du Turkménistan, de l'Afghanistan et du Pakistan — soit 7 voisins terrestres au total."
     },
     {
       "id": "18",
-      "question": "Quel pays ne partage PAS de frontière avec la Chine ?",
-      "image": null,
-      "imagePrompt": "China neighbors map",
-      "answers": ["Inde", "Russie", "Japon", "Mongolie"],
-      "correctIndex": 2,
-      "explanation": "La Chine partage des frontières avec de nombreux pays, mais pas avec le Japon, qui est une île. Cette distinction souligne l’importance de la géographie physique."
+      "question": "Quel pays himalayen partage des frontières terrestres avec l'Inde au sud et la Chine au nord ?",
+      "image": null, "imagePrompt": "Nepal Himalaya map India China",
+      "answers": ["Indonésie", "Népal", "Bangladesh", "Sri Lanka"],
+      "correctIndex": 1,
+      "explanation": "Le Népal est enclavé entre l'Inde et la Chine, deux des pays les plus peuplés du monde. Cette position géographique en fait un État tampon stratégique dans l'Himalaya. Le Népal abrite l'Everest (8 849 m), point culminant de la planète, sur sa frontière avec la Chine (Tibet). Ses relations économiques dépendent largement de ses deux grands voisins."
     },
     {
       "id": "19",
-      "question": "Quel pays est voisin du Canada ?",
-      "image": null,
-      "imagePrompt": "Canada borders map",
-      "answers": ["États-Unis", "Mexique", "Brésil", "Argentine"],
-      "correctIndex": 0,
-      "explanation": "Le Canada partage sa seule frontière terrestre avec les États-Unis, ce qui renforce leurs relations économiques étroites."
+      "question": "Quel est le seul petit État d'Europe dont la seule frontière terrestre est partagée avec la France ?",
+      "image": null, "imagePrompt": "Monaco France border map",
+      "answers": ["Saint-Marin", "Andorre", "Monaco", "Liechtenstein"],
+      "correctIndex": 2,
+      "explanation": "Monaco, la plus petite monarchie du monde (2,08 km²), n'a qu'une seule frontière terrestre : celle avec la France. Andorre borde la France ET l'Espagne, Saint-Marin borde uniquement l'Italie, et le Liechtenstein borde la Suisse et l'Autriche. Monaco constitue donc un cas unique en Europe : un État souverain entouré sur terre par un seul pays."
     },
     {
       "id": "20",
-      "question": "Quel pays est voisin de la Belgique ?",
-      "image": null,
-      "imagePrompt": "Belgium borders map",
-      "answers": ["France", "Italie", "Espagne", "Portugal"],
-      "correctIndex": 0,
-      "explanation": "La Belgique partage une frontière avec la France. Cette proximité a favorisé de nombreux échanges économiques et culturels."
+      "question": "Quel pays d'Asie du Sud-Est partage des frontières terrestres avec la Chine, la Thaïlande et le Vietnam ?",
+      "image": null, "imagePrompt": "Laos map Southeast Asia borders",
+      "answers": ["Myanmar", "Cambodge", "Malaisie", "Laos"],
+      "correctIndex": 3,
+      "explanation": "Le Laos est l'unique pays d'Asie du Sud-Est à ne pas avoir accès à la mer et à border à la fois la Chine (nord), le Myanmar (nord-ouest), la Thaïlande (ouest), le Cambodge (sud) et le Vietnam (est). Cette position de carrefour enclavé en fait un pays stratégique dans la région, notamment depuis le développement des nouvelles routes commerciales chinoises (Belt and Road Initiative)."
     }
   ]
 }

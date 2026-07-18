@@ -1,8 +1,9 @@
 {
     "slug": "quiz-geographie-fleuves-europe",
-    "title": "Quiz Géographie Fleuves d’Europe - 20 questions pour maîtriser les grands axes fluviaux",
-    "description": "Teste tes connaissances avec 20 questions sur les principaux fleuves d’Europe.",
-    "descriptionSeo": "Teste tes connaissances avec ce quiz géographie sur les fleuves d’Europe. Danube, Rhin, Volga, Seine, Loire, Elbe… sauras-tu identifier leur parcours, les pays traversés et leur importance économique et historique ? Ce quiz de 20 questions te permet de comprendre le rôle fondamental des fleuves dans l’organisation du territoire européen, les échanges commerciaux, les frontières naturelles et le développement des grandes villes. Chaque question est accompagnée d’explications détaillées pour approfondir ta compréhension et renforcer ta mémoire.",
+    "title": "Quiz Géographie Fleuves d'Europe - 20 questions pour maîtriser les grands axes fluviaux",
+    "description": "Teste tes connaissances avec 20 questions sur les principaux fleuves d'Europe.",
+    "publishedAt": "2026-03-30",
+    "descriptionSeo": "Teste tes connaissances avec ce quiz géographie sur les fleuves d'Europe. Danube, Rhin, Volga, Seine, Loire, Elbe… sauras-tu identifier leur parcours, les pays traversés et leur importance économique et historique ?",
     "category": {
         "name": "Géographie",
         "slug": "geographie"
@@ -18,7 +19,7 @@
     "questions": [
         {
             "id": "1",
-            "question": "Quel est le plus long fleuve d’Europe ?",
+            "question": "Quel est le plus long fleuve d'Europe ?",
             "answers": [
                 "Danube",
                 "Volga",
@@ -26,11 +27,11 @@
                 "Dniepr"
             ],
             "correctIndex": 1,
-            "explanation": "La Volga est le plus long fleuve d’Europe et traverse la Russie sur plus de 3500 km. Elle joue un rôle crucial dans le transport, l’énergie et l’organisation du territoire russe."
+            "explanation": "La Volga est le plus long fleuve d'Europe avec plus de 3 500 km. Elle traverse la Russie du nord au sud, joue un rôle crucial dans le transport, l'énergie et l'organisation du territoire russe, et se jette dans la mer Caspienne."
         },
         {
             "id": "2",
-            "question": "Quel fleuve traverse le plus de pays en Europe ?",
+            "question": "Quel fleuve traverse ou borde le plus grand nombre de pays en Europe ?",
             "answers": [
                 "Rhin",
                 "Seine",
@@ -38,7 +39,7 @@
                 "Elbe"
             ],
             "correctIndex": 2,
-            "explanation": "Le Danube traverse ou borde 10 pays, ce qui en fait un axe stratégique majeur reliant l’Europe centrale à la mer Noire."
+            "explanation": "Le Danube traverse ou longe 10 pays — Allemagne, Autriche, Slovaquie, Hongrie, Croatie, Serbie, Roumanie, Bulgarie, Moldavie et Ukraine — ce qui en fait le fleuve international le plus partagé d'Europe et un axe stratégique majeur reliant l'Europe centrale à la mer Noire."
         },
         {
             "id": "3",
@@ -50,23 +51,23 @@
                 "Garonne"
             ],
             "correctIndex": 1,
-            "explanation": "La Seine structure Paris depuis l’Antiquité, facilitant commerce, transport et développement urbain."
+            "explanation": "La Seine structure Paris depuis l'Antiquité, facilitant commerce, transport et développement urbain. Longue d'environ 775 km, elle prend sa source en Bourgogne et se jette dans la Manche au Havre."
         },
         {
             "id": "4",
-            "question": "Quel fleuve traverse l’Allemagne et les Pays-Bas et se jette dans la mer du Nord ?",
+            "question": "Quel fleuve traverse l'Allemagne et les Pays-Bas avant de se jeter dans la mer du Nord ?",
             "answers": [
-                "Danube",
                 "Rhin",
+                "Danube",
                 "Elbe",
                 "Oder"
             ],
-            "correctIndex": 1,
-            "explanation": "Le Rhin est l’un des axes commerciaux les plus importants d’Europe, reliant les zones industrielles à la mer du Nord."
+            "correctIndex": 0,
+            "explanation": "Le Rhin (environ 1 230 km) est l'un des axes commerciaux les plus importants d'Europe, reliant les zones industrielles de la Ruhr aux grands ports de Rotterdam et d'Amsterdam. Il constitue également une frontière naturelle entre la France et l'Allemagne dans sa partie rhénane."
         },
         {
             "id": "5",
-            "question": "Quel fleuve traverse Budapest ?",
+            "question": "Quel fleuve divise Budapest en deux parties historiques, Buda et Pest ?",
             "answers": [
                 "Danube",
                 "Volga",
@@ -74,7 +75,7 @@
                 "Pô"
             ],
             "correctIndex": 0,
-            "explanation": "Le Danube divise Budapest en deux parties historiques, Buda et Pest, illustrant le rôle structurant des fleuves dans les villes."
+            "explanation": "Le Danube divise Budapest en deux parties historiquement distinctes : Buda à l'ouest, sur les collines, et Pest à l'est, sur la plaine. Leur fusion en 1873 donna naissance à l'une des plus belles capitales européennes, traversée par neuf ponts emblématiques."
         },
         {
             "id": "6",
@@ -86,11 +87,11 @@
                 "Rhin"
             ],
             "correctIndex": 1,
-            "explanation": "La Tamise a permis le développement de Londres comme port majeur et centre économique mondial."
+            "explanation": "La Tamise (environ 346 km) a permis le développement de Londres comme port majeur dès l'époque romaine. Elle reste aujourd'hui un axe symbolique de la capitale britannique, longeant le Parlement, la Tour de Londres et de nombreux monuments emblématiques."
         },
         {
             "id": "7",
-            "question": "Quel fleuve est le plus long de France ?",
+            "question": "Quel est le plus long fleuve de France ?",
             "answers": [
                 "Seine",
                 "Rhône",
@@ -98,23 +99,23 @@
                 "Garonne"
             ],
             "correctIndex": 2,
-            "explanation": "La Loire est le plus long fleuve français, traversant des régions agricoles et historiques majeures."
+            "explanation": "La Loire est le plus long fleuve de France avec environ 1 006 km. Elle prend sa source dans le Massif central et se jette dans l'Atlantique à Saint-Nazaire. Son Val de la Loire est inscrit au patrimoine mondial de l'UNESCO pour ses châteaux de la Renaissance."
         },
         {
             "id": "8",
             "question": "Quel fleuve traverse Rome ?",
             "answers": [
                 "Pô",
-                "Tibre",
                 "Arno",
-                "Danube"
+                "Tibre",
+                "Adige"
             ],
-            "correctIndex": 1,
-            "explanation": "Le Tibre est lié à la fondation mythique de Rome et a joué un rôle central dans son expansion."
+            "correctIndex": 2,
+            "explanation": "Le Tibre (environ 405 km) est lié à la fondation mythique de Rome : selon la légende, Romulus et Rémus y furent abandonnés. Il a joué un rôle central dans l'expansion de Rome en permettant le commerce avec la mer Tyrrhénienne, à environ 25 km en aval."
         },
         {
             "id": "9",
-            "question": "Quel fleuve traverse l’Espagne et le Portugal avant de se jeter dans l’Atlantique ?",
+            "question": "Quel fleuve traverse l'Espagne et le Portugal avant de se jeter dans l'Atlantique ?",
             "answers": [
                 "Ebre",
                 "Tage",
@@ -122,7 +123,7 @@
                 "Douro"
             ],
             "correctIndex": 1,
-            "explanation": "Le Tage est le plus long fleuve de la péninsule Ibérique et traverse Madrid et Lisbonne, deux capitales majeures."
+            "explanation": "Le Tage (Tejo en portugais) est le plus long fleuve de la péninsule Ibérique avec environ 1 007 km. Il prend sa source en Espagne, passe notamment par Tolède, avant de traverser le Portugal où il se jette dans l'Atlantique à Lisbonne. Il ne traverse pas Madrid, qui est arrosée par le Manzanares."
         },
         {
             "id": "10",
@@ -134,11 +135,11 @@
                 "Dniepr"
             ],
             "correctIndex": 2,
-            "explanation": "Le Danube relie plusieurs capitales européennes, ce qui en fait un axe politique et économique majeur."
+            "explanation": "Le Danube relie plusieurs capitales européennes — Vienne, Bratislava, Budapest et Belgrade — ce qui en fait un axe politique, économique et touristique unique en Europe. Aucun autre fleuve du monde ne traverse autant de capitales nationales distinctes."
         },
         {
             "id": "11",
-            "question": "Quel fleuve est le principal fleuve d’Italie du Nord ?",
+            "question": "Quel est le principal fleuve d'Italie du Nord ?",
             "answers": [
                 "Pô",
                 "Tibre",
@@ -146,11 +147,11 @@
                 "Adige"
             ],
             "correctIndex": 0,
-            "explanation": "Le Pô irrigue la plaine la plus fertile d’Italie, essentielle pour l’agriculture et l’économie."
+            "explanation": "Le Pô (environ 682 km) est le plus long fleuve entièrement situé en Italie. Il irrigue la plaine padane, la plus fertile du pays, essentielle pour l'agriculture et l'économie industrielle du nord de l'Italie. Il prend sa source dans les Alpes et se jette dans l'Adriatique."
         },
         {
             "id": "12",
-            "question": "Quel fleuve traverse Hambourg ?",
+            "question": "Quel fleuve traverse Hambourg avant de rejoindre la mer du Nord ?",
             "answers": [
                 "Rhin",
                 "Elbe",
@@ -158,11 +159,11 @@
                 "Vistule"
             ],
             "correctIndex": 1,
-            "explanation": "L’Elbe permet à Hambourg d’être un grand port malgré sa position intérieure."
+            "explanation": "L'Elbe (environ 1 091 km) permet à Hambourg d'être l'un des plus grands ports d'Europe malgré sa position à 100 km des côtes. Elle prend sa source en Tchéquie dans les monts des Géants, traverse l'Allemagne et se jette dans la mer du Nord."
         },
         {
             "id": "13",
-            "question": "Quel fleuve traverse Kiev ?",
+            "question": "Quel fleuve traverse Kiev, capitale de l'Ukraine ?",
             "answers": [
                 "Dniepr",
                 "Volga",
@@ -170,11 +171,11 @@
                 "Don"
             ],
             "correctIndex": 0,
-            "explanation": "Le Dniepr est un axe majeur en Europe de l’Est, reliant la Russie, la Biélorussie et l’Ukraine."
+            "explanation": "Le Dniepr (environ 2 285 km) est le troisième plus long fleuve d'Europe. Il traverse la Biélorussie et l'Ukraine, où Kiev est bâtie sur ses rives depuis le IXe siècle. Son bassin versant couvre une grande partie de l'Europe orientale et son rôle stratégique est crucial, notamment dans le conflit actuel."
         },
         {
             "id": "14",
-            "question": "Quel fleuve forme en partie la frontière entre la France et l’Allemagne ?",
+            "question": "Quel fleuve forme en partie la frontière naturelle entre la France et l'Allemagne ?",
             "answers": [
                 "Seine",
                 "Loire",
@@ -182,35 +183,35 @@
                 "Rhin"
             ],
             "correctIndex": 3,
-            "explanation": "Le Rhin est une frontière naturelle importante, mais aussi un axe de coopération économique."
+            "explanation": "Le Rhin constitue une frontière naturelle entre la France (Alsace) et l'Allemagne (Bade-Wurtemberg) sur environ 190 km. Longtemps source de conflits, il est devenu un symbole de la réconciliation franco-allemande et de la construction européenne."
         },
         {
             "id": "15",
-            "question": "Quel fleuve traverse Lyon ?",
+            "question": "Quel fleuve relie les Alpes à la Méditerranée en traversant notamment Lyon ?",
             "answers": [
                 "Seine",
-                "Rhône",
                 "Loire",
-                "Garonne"
+                "Garonne",
+                "Rhône"
             ],
-            "correctIndex": 1,
-            "explanation": "Le Rhône est un axe majeur reliant les Alpes à la Méditerranée, favorisant échanges et énergie hydraulique."
+            "correctIndex": 3,
+            "explanation": "Le Rhône (environ 812 km) naît dans le glacier du Rhône en Suisse, traverse le lac Léman, entre en France et traverse Lyon avant de se jeter dans la Méditerranée en Camargue. C'est un axe majeur pour l'énergie hydraulique et nucléaire, le transport fluvial et l'agriculture."
         },
         {
             "id": "16",
-            "question": "Quel fleuve traverse Prague ?",
+            "question": "Quel fleuve traverse Prague, en Tchéquie ?",
             "answers": [
                 "Elbe",
-                "Vltava",
                 "Danube",
+                "Vltava",
                 "Oder"
             ],
-            "correctIndex": 1,
-            "explanation": "La Vltava structure Prague et se jette ensuite dans l’Elbe, illustrant les réseaux fluviaux interconnectés."
+            "correctIndex": 2,
+            "explanation": "La Vltava (environ 430 km) est le plus long fleuve de Tchéquie. Elle structure Prague et est enjambée par le célèbre pont Charles. Elle se jette ensuite dans l'Elbe près de Mělník, illustrant comment les réseaux fluviaux européens s'interconnectent."
         },
         {
             "id": "17",
-            "question": "Quel fleuve traverse Varsovie ?",
+            "question": "Quel fleuve traverse Varsovie, capitale de la Pologne ?",
             "answers": [
                 "Vistule",
                 "Oder",
@@ -218,43 +219,43 @@
                 "Elbe"
             ],
             "correctIndex": 0,
-            "explanation": "La Vistule est le principal fleuve de Pologne et un axe historique de développement."
+            "explanation": "La Vistule (environ 1 047 km) est le plus long fleuve de Pologne. Elle traverse Varsovie et Cracovie, les deux plus grandes villes du pays, et se jette dans la Baltique à Gdańsk. Elle est un axe historique fondamental de la Pologne depuis des siècles."
         },
         {
             "id": "18",
-            "question": "Quel fleuve traverse Bordeaux ?",
+            "question": "Quel fleuve traverse Bordeaux et permet son accès à l'Atlantique ?",
             "answers": [
                 "Loire",
-                "Garonne",
                 "Rhône",
-                "Seine"
+                "Seine",
+                "Garonne"
             ],
-            "correctIndex": 1,
-            "explanation": "La Garonne permet l’accès maritime à Bordeaux, expliquant son importance historique dans le commerce du vin."
+            "correctIndex": 3,
+            "explanation": "La Garonne (environ 575 km) permet à Bordeaux d'être un port accessible depuis l'Atlantique grâce à son estuaire, la Gironde. Ce fleuve explique l'importance historique de Bordeaux dans le commerce du vin, du bois et de l'armement depuis l'Antiquité."
         },
         {
             "id": "19",
-            "question": "Quel fleuve traverse Amsterdam ?",
+            "question": "Quel cours d'eau a donné son nom à Amsterdam ?",
             "answers": [
                 "Rhin",
-                "Amstel",
                 "Meuse",
-                "Escaut"
+                "Escaut",
+                "Amstel"
             ],
-            "correctIndex": 1,
-            "explanation": "L’Amstel donne son nom à Amsterdam et montre l’importance des réseaux fluviaux dans les Pays-Bas."
+            "correctIndex": 3,
+            "explanation": "L'Amstel est la rivière qui a donné son nom à Amsterdam (littéralement « barrage sur l'Amstel »). Elle se jette dans l'IJ, bras de mer qui relie la ville à la mer du Nord. Les Pays-Bas sont traversés par un réseau dense de fleuves (Rhin, Meuse, Escaut) et de canaux qui ont façonné toute leur géographie humaine."
         },
         {
             "id": "20",
-            "question": "Quel fleuve se jette dans la mer Caspienne ?",
+            "question": "Dans quelle mer la Volga se jette-t-elle, contrairement à la plupart des grands fleuves européens ?",
             "answers": [
-                "Danube",
-                "Volga",
-                "Don",
-                "Dniepr"
+                "Mer Noire",
+                "Mer Baltique",
+                "Mer du Nord",
+                "Mer Caspienne"
             ],
-            "correctIndex": 1,
-            "explanation": "La Volga se jette dans la mer Caspienne, une mer fermée, ce qui influence fortement les échanges régionaux."
+            "correctIndex": 3,
+            "explanation": "La Volga se jette dans la mer Caspienne — une mer fermée, sans accès aux océans — ce qui distingue son bassin hydrographique de celui de la majorité des fleuves européens. Cette particularité a longtemps limité les échanges commerciaux par cette voie et influence encore aujourd'hui l'économie régionale russe."
         }
     ]
 }

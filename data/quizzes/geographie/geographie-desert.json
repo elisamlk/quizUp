@@ -59,7 +59,7 @@
       "imagePrompt": "Atacama desert dry landscape",
       "answers": ["Sahara", "Atacama", "Gobi", "Namib"],
       "correctIndex": 1,
-      "explanation": "Le désert d’Atacama est l’un des endroits les plus secs de la planète, avec certaines zones sans pluie pendant des décennies."
+      "explanation": "Le désert d'Atacama est généralement considéré comme le désert non polaire le plus aride du monde. Certaines régions n'ont pratiquement reçu aucune pluie mesurable depuis plusieurs décennies, voire davantage."
     },
     {
       "id": "6",
@@ -115,15 +115,20 @@
       "correctIndex": 1,
       "explanation": "Le désert du Namib est influencé par le courant de Benguela, créant des conditions arides malgré la proximité de l’océan."
     },
-    {
-      "id": "12",
-      "question": "Quel désert est le plus chaud du monde ?",
-      "image": null,
-      "imagePrompt": "Sahara extreme heat",
-      "answers": ["Gobi", "Atacama", "Sahara", "Arctique"],
-      "correctIndex": 2,
-      "explanation": "Le Sahara détient certains des records de température les plus élevés enregistrés sur Terre."
-    },
+   {
+  "id": "12",
+  "question": "Quel est le plus grand désert chaud du monde ?",
+  "image": null,
+  "imagePrompt": "Sahara aerial dunes",
+  "answers": [
+    "Gobi",
+    "Atacama",
+    "Sahara",
+    "Namib"
+  ],
+  "correctIndex": 2,
+  "explanation": "Le Sahara est le plus grand désert chaud du monde avec une superficie d'environ 9,2 millions de km². Il s'étend sur une grande partie de l'Afrique du Nord et couvre une superficie comparable à celle des États-Unis."
+},
     {
       "id": "13",
       "question": "Quel désert polaire se situe dans l’hémisphère nord ?",
@@ -169,15 +174,20 @@
       "correctIndex": 0,
       "explanation": "La Patagonie est un désert froid balayé par les vents, avec des températures basses."
     },
-    {
-      "id": "18",
-      "question": "Quel désert est souvent considéré comme le plus sec au monde ?",
-      "image": null,
-      "imagePrompt": "Atacama cracked ground",
-      "answers": ["Namib", "Sahara", "Atacama", "Gobi"],
-      "correctIndex": 2,
-      "explanation": "Certaines zones de l’Atacama n’ont pas enregistré de pluie depuis des siècles."
-    },
+   {
+  "id": "18",
+  "question": "Quel désert est principalement constitué de vastes plaines rocheuses plutôt que de grandes dunes de sable ?",
+  "image": null,
+  "imagePrompt": "Gobi rocky desert landscape",
+  "answers": [
+    "Namib",
+    "Sahara",
+    "Gobi",
+    "Kalahari"
+  ],
+  "correctIndex": 2,
+  "explanation": "Contrairement à l'image classique des déserts de sable, le désert de Gobi est composé en grande partie de plaines pierreuses, de graviers et de plateaux rocheux. Les dunes n'y occupent qu'une faible partie de sa superficie."
+},
     {
       "id": "19",
       "question": "Quel désert est caractérisé par des dunes rouges spectaculaires ?",
@@ -187,14 +197,19 @@
       "correctIndex": 1,
       "explanation": "Les dunes du Namib doivent leur couleur rouge à l’oxydation du fer."
     },
-    {
-      "id": "20",
-      "question": "Quel désert est un désert froid situé au pôle Sud ?",
-      "image": null,
-      "imagePrompt": "Antarctica ice plateau",
-      "answers": ["Arctique", "Gobi", "Patagonie", "Antarctique"],
-      "correctIndex": 3,
-      "explanation": "L’Antarctique est un désert froid extrême, avec très peu de précipitations malgré son immense couverture de glace."
-    }
+  {
+  "id": "20",
+  "question": "Quel désert reçoit une grande partie de son humidité grâce au brouillard venu de l'océan ?",
+  "image": null,
+  "imagePrompt": "Namib coast fog desert",
+  "answers": [
+    "Sahara",
+    "Atacama",
+    "Gobi",
+    "Namib"
+  ],
+  "correctIndex": 3,
+  "explanation": "Le désert du Namib est influencé par le courant froid de Benguela. Celui-ci génère d'épais brouillards côtiers dont de nombreuses plantes et espèces animales tirent l'humidité nécessaire à leur survie, malgré des précipitations très faibles."
+}
   ]
 }

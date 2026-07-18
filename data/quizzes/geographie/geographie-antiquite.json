@@ -21,7 +21,12 @@
       "question": "Quelle ville italienne aurait été fondée selon la légende par Romulus et Rémus ?",
       "image": null,
       "imagePrompt": "Rome ancient ruins colosseum",
-      "answers": ["Naples", "Rome", "Milan", "Florence"],
+      "answers": [
+        "Naples",
+        "Rome",
+        "Milan",
+        "Florence"
+      ],
       "correctIndex": 1,
       "explanation": "Selon la mythologie romaine, Rome est fondée en 753 av. J.-C. par Romulus. Cette légende renforce l’identité de la ville comme berceau d’une civilisation qui a marqué durablement le droit, la politique et l’urbanisme occidentaux."
     },
@@ -30,7 +35,12 @@
       "question": "Quelle ville grecque est considérée comme le berceau de la démocratie ?",
       "image": null,
       "imagePrompt": "Athens Acropolis",
-      "answers": ["Sparte", "Corinthe", "Athènes", "Thèbes"],
+      "answers": [
+        "Sparte",
+        "Corinthe",
+        "Athènes",
+        "Thèbes"
+      ],
       "correctIndex": 2,
       "explanation": "Athènes développe au Ve siècle av. J.-C. un système politique inédit : la démocratie directe. Cette innovation influence encore aujourd’hui les systèmes politiques modernes."
     },
@@ -39,43 +49,68 @@
       "question": "Babylone se situait dans l’actuel :",
       "image": null,
       "imagePrompt": "Babylon ruins Iraq",
-      "answers": ["Iran", "Égypte", "Syrie", "Irak"],
+      "answers": [
+        "Iran",
+        "Égypte",
+        "Syrie",
+        "Irak"
+      ],
       "correctIndex": 3,
-      "explanation": "Babylone, située en Mésopotamie (actuel Irak), fut l’une des plus grandes villes de l’Antiquité et un centre majeur du savoir, notamment avec le code d’Hammurabi."
+      "explanation": "Babylone fut l'une des plus puissantes villes de Mésopotamie et la capitale du royaume d'Hammurabi, célèbre pour l'un des premiers grands codes de lois de l'histoire."
     },
     {
       "id": "4",
-      "question": "Quelle ville égyptienne était une capitale importante de l’Antiquité ?",
+      "question": "Quelle ville fut l’une des premières capitales de l’Égypte unifiée ?",
       "image": null,
-      "imagePrompt": "Memphis Egypt ruins",
-      "answers": ["Memphis", "Le Caire", "Alexandrie", "Gizeh"],
+      "imagePrompt": "Memphis ancient Egypt ruins",
+      "answers": [
+        "Memphis",
+        "Alexandrie",
+        "Thèbes",
+        "Le Caire"
+      ],
       "correctIndex": 0,
-      "explanation": "Memphis fut l’une des premières capitales de l’Égypte antique et un centre politique et religieux majeur pendant plusieurs millénaires."
+      "explanation": "Memphis fut l’une des premières capitales de l’Égypte unifiée. Située près de l’actuelle ville du Caire, elle constitua pendant des siècles un important centre politique, religieux et administratif."
     },
     {
       "id": "5",
-      "question": "Quelle ville antique était célèbre pour ses jardins suspendus ?",
+      "question": "À quelle ville antique les célèbres jardins suspendus sont-ils traditionnellement associés ?",
       "image": null,
-      "imagePrompt": "Hanging gardens Babylon illustration",
-      "answers": ["Athènes", "Babylone", "Rome", "Carthage"],
+      "imagePrompt": "Hanging Gardens of Babylon ancient illustration",
+      "answers": [
+        "Ninive",
+        "Babylone",
+        "Persépolis",
+        "Alexandrie"
+      ],
       "correctIndex": 1,
-      "explanation": "Les jardins suspendus de Babylone sont considérés comme l’une des sept merveilles du monde antique, symbolisant la puissance et l’ingéniosité de cette civilisation."
+      "explanation": "Les jardins suspendus sont traditionnellement associés à Babylone et figurent parmi les sept merveilles du monde antique. Leur existence réelle et leur emplacement exact restent toutefois débattus, car aucune preuve archéologique définitive n’a permis de les identifier."
     },
     {
       "id": "6",
       "question": "Carthage était située dans l’actuel :",
       "image": null,
       "imagePrompt": "Carthage ruins Tunisia",
-      "answers": ["Maroc", "Algérie", "Tunisie", "Libye"],
+      "answers": [
+        "Maroc",
+        "Algérie",
+        "Tunisie",
+        "Libye"
+      ],
       "correctIndex": 2,
       "explanation": "Fondée par les Phéniciens, Carthage est devenue une grande puissance maritime avant d’être détruite par Rome lors des guerres puniques."
     },
     {
       "id": "7",
-      "question": "Quelle ville antique est aujourd’hui Istanbul ?",
+      "question": "Sous quel nom grec antique la ville actuelle d'Istanbul était-elle connue ?",
       "image": null,
       "imagePrompt": "Constantinople Hagia Sophia",
-      "answers": ["Byzance", "Athènes", "Rome", "Alexandrie"],
+      "answers": [
+        "Byzance",
+        "Athènes",
+        "Rome",
+        "Alexandrie"
+      ],
       "correctIndex": 0,
       "explanation": "Istanbul s’appelait Byzance puis Constantinople. Elle a été au cœur des empires romain, byzantin et ottoman, illustrant une continuité urbaine exceptionnelle."
     },
@@ -84,7 +119,12 @@
       "question": "Quelle ville fut fondée par Alexandre le Grand en Égypte ?",
       "image": null,
       "imagePrompt": "Alexandria lighthouse ancient",
-      "answers": ["Memphis", "Thèbes", "Alexandrie", "Carthage"],
+      "answers": [
+        "Memphis",
+        "Thèbes",
+        "Alexandrie",
+        "Carthage"
+      ],
       "correctIndex": 2,
       "explanation": "Alexandrie devient un centre intellectuel majeur avec sa célèbre bibliothèque, attirant savants et philosophes du monde antique."
     },
@@ -93,108 +133,168 @@
       "question": "Quelle ville antique est liée à la civilisation maya ?",
       "image": null,
       "imagePrompt": "Tikal ruins Guatemala",
-      "answers": ["Tikal", "Cusco", "Machu Picchu", "Teotihuacan"],
+      "answers": [
+        "Tikal",
+        "Cusco",
+        "Machu Picchu",
+        "Teotihuacan"
+      ],
       "correctIndex": 0,
       "explanation": "Tikal, au Guatemala, était une grande cité maya. Elle témoigne d’une civilisation avancée en astronomie, mathématiques et architecture."
     },
     {
       "id": "10",
-      "question": "Quelle ville antique était la capitale de l’Empire inca ?",
+      "question": "Dans quel pays actuel se trouvent les ruines de la cité antique de Mohenjo-daro ?",
       "image": null,
-      "imagePrompt": "Cusco Peru ruins",
-      "answers": ["Lima", "Cusco", "Quito", "Bogota"],
-      "correctIndex": 1,
-      "explanation": "Cusco était le centre politique et religieux de l’Empire inca, structuré autour d’un réseau routier impressionnant à travers les Andes."
+      "imagePrompt": "Mohenjo-daro ancient Indus Valley ruins Pakistan",
+      "answers": [
+        "Inde",
+        "Iran",
+        "Afghanistan",
+        "Pakistan"
+      ],
+      "correctIndex": 3,
+      "explanation": "Mohenjo-daro se trouve dans l’actuel Pakistan. Cette grande cité de la civilisation de la vallée de l’Indus fut construite au IIIe millénaire av. J.-C. et possédait un urbanisme remarquablement organisé, avec des rues régulières et un système d’évacuation des eaux."
     },
     {
       "id": "11",
-      "question": "Quelle ville antique était située sur le Nil et célèbre pour ses temples ?",
+      "question": "Quelle grande ville de l’Égypte antique se trouvait à l’emplacement de l’actuelle Louxor ?",
       "image": null,
-      "imagePrompt": "Luxor temples Egypt",
-      "answers": ["Louxor", "Alexandrie", "Le Caire", "Assouan"],
-      "correctIndex": 0,
-      "explanation": "Louxor, anciennement Thèbes, est un site majeur de l’Égypte antique, connu pour ses temples monumentaux et ses nécropoles royales."
+      "imagePrompt": "Thebes ancient Egypt Luxor temples",
+      "answers": [
+        "Memphis",
+        "Alexandrie",
+        "Thèbes",
+        "Saïs"
+      ],
+      "correctIndex": 2,
+      "explanation": "Thèbes fut l’une des principales capitales de l’Égypte antique. Ses vestiges se trouvent dans la région de l’actuelle Louxor, où se dressent notamment les temples de Karnak et de Louxor ainsi que les grandes nécropoles de la rive occidentale du Nil."
     },
     {
       "id": "12",
       "question": "Quelle ville antique grecque était réputée pour sa puissance militaire ?",
       "image": null,
       "imagePrompt": "Sparta warriors",
-      "answers": ["Athènes", "Corinthe", "Sparte", "Delphes"],
+      "answers": [
+        "Athènes",
+        "Corinthe",
+        "Sparte",
+        "Delphes"
+      ],
       "correctIndex": 2,
       "explanation": "Sparte était une cité militarisée où toute la société était organisée autour de la guerre et de la discipline."
     },
     {
       "id": "13",
-      "question": "Quelle ville antique était un centre religieux majeur pour les Grecs avec son oracle ?",
+      "question": "Quel sanctuaire grec était célèbre pour son oracle ?",
       "image": null,
       "imagePrompt": "Delphi oracle ruins",
-      "answers": ["Delphes", "Athènes", "Thèbes", "Olympie"],
+      "answers": [
+        "Delphes",
+        "Athènes",
+        "Thèbes",
+        "Olympie"
+      ],
       "correctIndex": 0,
       "explanation": "Delphes abritait l’oracle d’Apollon, consulté par les dirigeants pour prendre des décisions importantes."
     },
     {
       "id": "14",
-      "question": "Quelle ville antique est associée à la légende de Troie ?",
+      "question": "Dans quel pays actuel se trouve le site archéologique généralement identifié à l’ancienne Troie ?",
       "image": null,
-      "imagePrompt": "Troy ruins Turkey",
-      "answers": ["Troie", "Athènes", "Sparte", "Pergame"],
-      "correctIndex": 0,
-      "explanation": "Troie est rendue célèbre par l’Iliade d’Homère. Elle symbolise les conflits entre civilisations et les récits fondateurs de la culture grecque."
+      "imagePrompt": "Troy archaeological ruins Turkey",
+      "answers": [
+        "Grèce",
+        "Turquie",
+        "Italie",
+        "Chypre"
+      ],
+      "correctIndex": 1,
+      "explanation": "Le site d’Hisarlık, situé dans le nord-ouest de l’actuelle Turquie, est généralement identifié à l’ancienne Troie. Les fouilles y ont révélé plusieurs villes successives construites les unes au-dessus des autres pendant des millénaires."
     },
     {
       "id": "15",
-      "question": "Quelle ville antique était un grand port phénicien ?",
+      "question": "Quelle cité phénicienne résista pendant plusieurs mois au siège d’Alexandre le Grand en 332 av. J.-C. ?",
       "image": null,
-      "imagePrompt": "Tyre Lebanon ruins",
-      "answers": ["Sidon", "Tyr", "Carthage", "Byblos"],
-      "correctIndex": 1,
-      "explanation": "Tyr était un centre commercial majeur de la Méditerranée, contribuant à diffuser l’alphabet phénicien."
+      "imagePrompt": "Ancient Tyre Lebanon Alexander the Great siege",
+      "answers": [
+        "Byblos",
+        "Sidon",
+        "Carthage",
+        "Tyr"
+      ],
+      "correctIndex": 3,
+      "explanation": "Tyr était l’une des plus puissantes cités phéniciennes et un grand centre commercial de Méditerranée. Construite en partie sur une île, elle résista plusieurs mois à Alexandre le Grand, qui fit édifier une chaussée pour atteindre ses fortifications."
     },
     {
       "id": "16",
       "question": "Quelle ville antique est liée aux Jeux olympiques originels ?",
       "image": null,
       "imagePrompt": "Olympia ruins Greece",
-      "answers": ["Athènes", "Olympie", "Sparte", "Corinthe"],
+      "answers": [
+        "Athènes",
+        "Olympie",
+        "Sparte",
+        "Corinthe"
+      ],
       "correctIndex": 1,
       "explanation": "Olympie accueillait les Jeux olympiques antiques, célébrant le sport et l’unité du monde grec."
     },
     {
       "id": "17",
-      "question": "Quelle ville antique mésopotamienne est connue pour ses ziggourats ?",
+      "question": "Quelle cité sumérienne abrite la célèbre grande ziggourat dédiée au dieu Nanna ?",
       "image": null,
-      "imagePrompt": "Ur ziggurat",
-      "answers": ["Ur", "Babylone", "Ninive", "Assur"],
+      "imagePrompt": "Great Ziggurat of Ur Iraq",
+      "answers": [
+        "Ur",
+        "Babylone",
+        "Ninive",
+        "Assur"
+      ],
       "correctIndex": 0,
-      "explanation": "Ur est célèbre pour ses ziggourats, structures religieuses monumentales illustrant la puissance des premières cités-États."
+      "explanation": "Ur fut l’une des principales cités sumériennes de Mésopotamie. Sa grande ziggourat, dédiée au dieu lunaire Nanna, témoigne de l’importance politique, économique et religieuse de la ville au IIIe millénaire av. J.-C."
     },
     {
       "id": "18",
-      "question": "Quelle ville antique était un centre majeur de la civilisation perse ?",
+      "question": "Quelle cité fut la grande capitale cérémonielle de l’Empire perse achéménide ?",
       "image": null,
-      "imagePrompt": "Persepolis ruins Iran",
-      "answers": ["Persépolis", "Babylone", "Suse", "Téhéran"],
-      "correctIndex": 0,
-      "explanation": "Persépolis était la capitale cérémonielle de l’Empire perse, symbole de sa richesse et de son organisation administrative avancée."
+      "imagePrompt": "Persepolis ancient Persian ruins Iran",
+      "answers": [
+        "Babylone",
+        "Suse",
+        "Ecbatane",
+        "Persépolis"
+      ],
+      "correctIndex": 3,
+      "explanation": "Persépolis fut fondée par Darius Ier à la fin du VIe siècle av. J.-C. Elle servait de capitale cérémonielle à l’Empire achéménide et accueillait notamment les délégations venues rendre hommage au souverain perse."
     },
     {
       "id": "19",
-      "question": "Quelle ville antique est associée à l’Empire romain d’Orient ?",
+      "question": "Quelle ville antique fut le centre politique et religieux du royaume de Juda ?",
       "image": null,
-      "imagePrompt": "Constantinople map",
-      "answers": ["Rome", "Byzance", "Athènes", "Alexandrie"],
+      "imagePrompt": "Ancient Jerusalem historical reconstruction",
+      "answers": [
+        "Damas",
+        "Jérusalem",
+        "Tyr",
+        "Ninive"
+      ],
       "correctIndex": 1,
-      "explanation": "Byzance, devenue Constantinople, fut la capitale de l’Empire romain d’Orient, un centre politique et religieux majeur pendant des siècles."
+      "explanation": "Jérusalem devint le centre politique et religieux du royaume de Juda. Son histoire antique est étroitement liée au judaïsme, puis au christianisme, et la ville conserve aujourd’hui une importance religieuse exceptionnelle."
     },
     {
       "id": "20",
-      "question": "Quelle ville antique est aujourd’hui située au Pérou et célèbre pour ses ruines en altitude ?",
+      "question": "Quelle cité romaine fut ensevelie lors de l’éruption du Vésuve en 79 apr. J.-C. ?",
       "image": null,
-      "imagePrompt": "Machu Picchu",
-      "answers": ["Cusco", "Lima", "Machu Picchu", "Arequipa"],
-      "correctIndex": 2,
-      "explanation": "Machu Picchu est une cité inca emblématique, révélant l’ingéniosité architecturale et l’adaptation à un environnement montagneux extrême."
+      "imagePrompt": "Pompeii ruins Mount Vesuvius",
+      "answers": [
+        "Ostie",
+        "Ravenne",
+        "Capoue",
+        "Pompéi"
+      ],
+      "correctIndex": 3,
+      "explanation": "Pompéi fut ensevelie sous les matériaux volcaniques lors de l’éruption du Vésuve en 79 apr. J.-C. Cette catastrophe a exceptionnellement préservé les rues, les maisons, les fresques et de nombreux objets de la vie quotidienne romaine."
     }
   ]
 }

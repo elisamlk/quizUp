@@ -2,7 +2,8 @@
   "slug": "quiz-geographie-fleuves-du-monde",
   "title": "Quiz Géographie - Fleuves du monde",
   "description": "Teste tes connaissances avec 20 questions sur les grands fleuves du monde et leur importance géographique.",
-  "descriptionSeo": "Pensez-vous bien connaître les grands fleuves du monde ? Ce quiz de géographie vous propose 20 questions pour tester vos connaissances sur les fleuves majeurs de la planète, leur localisation, leur longueur et leur rôle historique et économique. Du Nil à l’Amazone en passant par le Yangtsé, découvrez des informations essentielles et enrichissez votre culture générale grâce à des explications détaillées et instructives.",
+  "publishedAt": "2026-03-30",
+  "descriptionSeo": "Connaissez-vous bien les grands fleuves du monde ? Ce quiz de géographie vous propose 20 questions pour tester vos connaissances sur les fleuves majeurs de la planète, leur localisation, leur longueur et leur rôle historique et économique. Du Nil à l'Amazone en passant par le Yangtsé, découvrez des informations essentielles sur tous les continents.",
   "category": {
     "name": "Géographie",
     "slug": "geographie"
@@ -21,180 +22,280 @@
       "question": "Quel fleuve est généralement considéré comme le plus long du monde ?",
       "image": null,
       "imagePrompt": "Nile river map Africa",
-      "answers": ["Amazone", "Yangtsé", "Nil", "Mississippi"],
+      "answers": [
+        "Amazone",
+        "Yangtsé",
+        "Nil",
+        "Mississippi"
+      ],
       "correctIndex": 2,
-      "explanation": "Le Nil est traditionnellement considéré comme le plus long fleuve du monde, traversant plusieurs pays d’Afrique du Nord-Est. Il a permis le développement de l’une des plus anciennes civilisations humaines grâce à ses crues régulières."
+      "explanation": "Le Nil est traditionnellement considéré comme le plus long fleuve du monde avec environ 6 650 km, bien que la question soit encore débattue avec l'Amazone selon les méthodes de mesure. Il a permis le développement de l'une des plus anciennes civilisations humaines grâce à ses crues régulières fertilisant les rives."
     },
     {
       "id": "2",
       "question": "Quel fleuve possède le débit le plus important au monde ?",
       "image": null,
       "imagePrompt": "Amazon river rainforest aerial",
-      "answers": ["Nil", "Amazone", "Congo", "Gange"],
+      "answers": [
+        "Nil",
+        "Amazone",
+        "Congo",
+        "Gange"
+      ],
       "correctIndex": 1,
-      "explanation": "L’Amazone transporte à lui seul environ 20% de l’eau douce fluviale mondiale vers les océans. Son bassin est le plus vaste du globe et abrite une biodiversité exceptionnelle."
+      "explanation": "L'Amazone transporte à lui seul environ 20 % de l'eau douce fluviale mondiale vers les océans. Son bassin versant est le plus vaste du globe et abrite une biodiversité exceptionnelle, représentant environ 10 % de toutes les espèces terrestres connues."
     },
     {
       "id": "3",
       "question": "Quel fleuve traverse Paris ?",
       "image": null,
       "imagePrompt": "Seine river Paris bridges",
-      "answers": ["Loire", "Seine", "Rhône", "Garonne"],
+      "answers": [
+        "Loire",
+        "Seine",
+        "Rhône",
+        "Garonne"
+      ],
       "correctIndex": 1,
-      "explanation": "La Seine traverse Paris et structure l’organisation de la ville depuis l’Antiquité. Elle a longtemps été une voie essentielle pour le commerce et le transport en France."
+      "explanation": "La Seine traverse Paris et structure l'organisation de la ville depuis l'Antiquité. Longue d'environ 775 km, elle prend sa source en Bourgogne et se jette dans la Manche au Havre, ayant longtemps constitué la principale voie de commerce et de transport du nord de la France."
     },
     {
       "id": "4",
-      "question": "Quel fleuve traverse l’Égypte et se jette dans la Méditerranée ?",
+      "question": "Quel fleuve, prenant sa source dans le Tibet, traverse le Pakistan avant de se jeter dans la mer d'Arabie ?",
       "image": null,
-      "imagePrompt": "Nile delta Egypt map",
-      "answers": ["Nil", "Tigre", "Euphrate", "Jourdain"],
+      "imagePrompt": "Indus river Pakistan map",
+      "answers": [
+        "Indus",
+        "Tigre",
+        "Gange",
+        "Brahmapoutre"
+      ],
       "correctIndex": 0,
-      "explanation": "Le Nil traverse toute l’Égypte et forme un delta fertile avant de se jeter dans la Méditerranée. Ce fleuve a rendu possible l’agriculture dans une région désertique."
+      "explanation": "L'Indus (environ 3 180 km) prend sa source dans le Tibet, traverse le Cachemire et le Pakistan avant de rejoindre la mer d'Arabie. Il est à l'origine de l'une des plus anciennes civilisations du monde, la civilisation de l'Indus (3000-1500 av. J.-C.), et reste vital pour l'agriculture pakistanaise."
     },
     {
       "id": "5",
-      "question": "Quel fleuve est le plus long d’Amérique du Sud ?",
+      "question": "Quel fleuve forme une grande partie de la frontière entre la Russie et la Chine et est l'un des plus longs d'Asie ?",
       "image": null,
-      "imagePrompt": "Amazon river basin map",
-      "answers": ["Orénoque", "Paraná", "Amazone", "Magdalena"],
+      "imagePrompt": "Amur river Russia China border map",
+      "answers": [
+        "Ob",
+        "Ienisseï",
+        "Amour",
+        "Léna"
+      ],
       "correctIndex": 2,
-      "explanation": "L’Amazone est non seulement le plus long fleuve d’Amérique du Sud, mais aussi celui qui possède le plus grand bassin hydrographique au monde."
+      "explanation": "L'Amour (Heilong Jiang en chinois, environ 4 440 km) forme la frontière entre la Russie et la Chine sur plusieurs centaines de kilomètres. Il se jette dans le détroit de Tartarie, entre l'île de Sakhaline et le continent. Ce fleuve méconnu est l'un des dix plus longs du monde."
     },
     {
       "id": "6",
       "question": "Quel fleuve traverse Londres ?",
       "image": null,
       "imagePrompt": "Thames river London skyline",
-      "answers": ["Severn", "Tamise", "Trent", "Tyne"],
+      "answers": [
+        "Severn",
+        "Tamise",
+        "Trent",
+        "Tyne"
+      ],
       "correctIndex": 1,
-      "explanation": "La Tamise traverse Londres et a joué un rôle central dans le développement de la capitale britannique, notamment pendant la révolution industrielle."
+      "explanation": "La Tamise (environ 346 km) traverse Londres et a joué un rôle central dans le développement de la capitale britannique, notamment comme port majeur dès l'époque romaine et pendant la révolution industrielle. Elle longe aujourd'hui le Parlement, la Tour de Londres et de nombreux monuments emblématiques."
     },
     {
       "id": "7",
-      "question": "Quel fleuve traverse plusieurs pays d’Europe centrale et se jette dans la mer Noire ?",
+      "question": "Quel fleuve traverse ou longe 10 pays européens avant de rejoindre la mer Noire ?",
       "image": null,
       "imagePrompt": "Danube river Europe map",
-      "answers": ["Danube", "Rhin", "Elbe", "Vistule"],
+      "answers": [
+        "Danube",
+        "Rhin",
+        "Elbe",
+        "Vistule"
+      ],
       "correctIndex": 0,
-      "explanation": "Le Danube traverse 10 pays européens, ce qui en fait l’un des fleuves les plus internationaux au monde. Il est un axe économique et culturel majeur en Europe."
+      "explanation": "Le Danube traverse ou longe 10 pays — de l'Allemagne à l'Ukraine — ce qui en fait l'un des fleuves les plus internationaux au monde. Il est un axe économique, culturel et historique majeur en Europe, reliant l'Europe centrale à la mer Noire via son delta en Roumanie."
     },
     {
       "id": "8",
-      "question": "Quel fleuve traverse l’Irak et rejoint le Tigre avant de se jeter dans le golfe Persique ?",
+      "question": "Quel fleuve traverse l'Irak et rejoint le Tigre avant de se jeter dans le golfe Persique ?",
       "image": null,
-      "imagePrompt": "Euphrates Tigris map",
-      "answers": ["Nil", "Indus", "Euphrate", "Amou-Daria"],
+      "imagePrompt": "Euphrates Tigris Mesopotamia map",
+      "answers": [
+        "Nil",
+        "Indus",
+        "Euphrate",
+        "Amou-Daria"
+      ],
       "correctIndex": 2,
-      "explanation": "L’Euphrate rejoint le Tigre pour former le Chatt-el-Arab. Ces fleuves sont à l’origine des premières grandes civilisations de Mésopotamie."
+      "explanation": "L'Euphrate rejoint le Tigre pour former le Chatt-el-Arab avant de se jeter dans le golfe Persique. Ces deux fleuves ont bercé les premières grandes civilisations de Mésopotamie (Sumer, Akkad, Babylone) il y a plus de 5 000 ans, faisant de cette région le « croissant fertile »."
     },
     {
       "id": "9",
-      "question": "Quel fleuve traverse la Chine et est le plus long d’Asie ?",
+      "question": "Quel fleuve de Chine est le plus long d'Asie ?",
       "image": null,
       "imagePrompt": "Yangtze river China map",
-      "answers": ["Mékong", "Yangtsé", "Huang He", "Amour"],
+      "answers": [
+        "Mékong",
+        "Yangtsé",
+        "Huang He",
+        "Amour"
+      ],
       "correctIndex": 1,
-      "explanation": "Le Yangtsé est le plus long fleuve d’Asie. Il joue un rôle économique crucial en Chine, notamment grâce au transport fluvial et à l’énergie hydroélectrique."
+      "explanation": "Le Yangtsé (environ 6 300 km) est le plus long fleuve d'Asie et le troisième du monde. Il joue un rôle économique crucial en Chine, notamment grâce au barrage des Trois-Gorges, la plus grande centrale hydroélectrique du monde, et au transport fluvial qui dessert des centaines de millions de personnes."
     },
     {
       "id": "10",
-      "question": "Quel fleuve traverse l’Allemagne et se jette dans la mer du Nord aux Pays-Bas ?",
+      "question": "Quel fleuve relie les régions industrielles d'Europe centrale aux ports de la mer du Nord ?",
       "image": null,
       "imagePrompt": "Rhine river Europe map",
-      "answers": ["Rhin", "Danube", "Elbe", "Oder"],
+      "answers": [
+        "Rhin",
+        "Danube",
+        "Elbe",
+        "Oder"
+      ],
       "correctIndex": 0,
-      "explanation": "Le Rhin est l’un des fleuves les plus importants d’Europe pour le commerce. Il relie les régions industrielles d’Europe centrale aux ports maritimes."
+      "explanation": "Le Rhin (environ 1 230 km) est l'un des axes commerciaux les plus importants d'Europe. Il relie les régions industrielles de la Ruhr aux grands ports maritimes de Rotterdam et Amsterdam, et constitue également une frontière naturelle entre la France et l'Allemagne dans sa partie rhénane."
     },
     {
       "id": "11",
-      "question": "Quel fleuve traverse l’Inde et est considéré comme sacré dans l’hindouisme ?",
+      "question": "Quel fleuve est considéré comme sacré dans l'hindouisme et irrigue une grande partie de l'Inde ?",
       "image": null,
       "imagePrompt": "Ganges river India rituals",
-      "answers": ["Indus", "Gange", "Brahmapoutre", "Godavari"],
-      "correctIndex": 1,
-      "explanation": "Le Gange est un fleuve sacré pour des millions d’hindous. Il est associé à des rituels religieux et joue aussi un rôle essentiel dans l’agriculture."
+      "answers": [
+        "Indus",
+        "Brahmapoutre",
+        "Godavari",
+        "Gange"
+      ],
+      "correctIndex": 3,
+      "explanation": "Le Gange (environ 2 510 km) est le fleuve sacré de l'hindouisme. Des millions d'hindous se baignent dans ses eaux lors de rituels religieux, notamment à Varanasi. Il prend sa source dans l'Himalaya et se jette dans le golfe du Bengale, irriguant au passage l'une des plaines agricoles les plus fertiles et peuplées du monde."
     },
     {
       "id": "12",
-      "question": "Quel fleuve traverse les États-Unis et forme un delta en Louisiane ?",
+      "question": "Quel fleuve traverse les États-Unis du nord au sud et forme un vaste delta en Louisiane ?",
       "image": null,
       "imagePrompt": "Mississippi river delta map",
-      "answers": ["Colorado", "Missouri", "Mississippi", "Columbia"],
-      "correctIndex": 2,
-      "explanation": "Le Mississippi est l’un des plus grands fleuves d’Amérique du Nord. Il constitue une voie de transport majeure reliant l’intérieur du continent au golfe du Mexique."
+      "answers": [
+        "Colorado",
+        "Missouri",
+        "Columbia",
+        "Mississippi"
+      ],
+      "correctIndex": 3,
+      "explanation": "Le Mississippi (environ 3 730 km, ou 6 275 km avec le Missouri) est l'un des plus grands systèmes fluviaux d'Amérique du Nord. Il constitue une voie de transport majeure reliant l'intérieur du continent au golfe du Mexique et a joué un rôle fondamental dans le développement économique des États-Unis."
     },
     {
       "id": "13",
-      "question": "Quel fleuve traverse le Brésil et une grande partie de la forêt amazonienne ?",
+      "question": "Quel est le plus long fleuve d'Australie, formant avec son principal affluent le plus grand bassin hydrographique du continent ?",
       "image": null,
-      "imagePrompt": "Amazon river rainforest aerial",
-      "answers": ["Paraná", "Amazone", "Orénoque", "São Francisco"],
-      "correctIndex": 1,
-      "explanation": "L’Amazone traverse la plus grande forêt tropicale du monde. Son bassin est crucial pour la régulation du climat mondial et la biodiversité."
+      "imagePrompt": "Murray river Australia map",
+      "answers": [
+        "Darling",
+        "Swan",
+        "Murray",
+        "Cooper"
+      ],
+      "correctIndex": 2,
+      "explanation": "Le Murray (environ 2 508 km) est le plus long fleuve d'Australie. Avec son principal affluent, le Darling, il forme le bassin Murray-Darling, qui couvre environ 14 % du continent et constitue la principale zone agricole d'Australie. Il se jette dans l'océan Austral en Australie-Méridionale."
     },
     {
       "id": "14",
-      "question": "Quel fleuve traverse la Russie et se jette dans la mer Caspienne ?",
+      "question": "Quel fleuve traverse la Russie du nord-ouest au sud-est et se jette dans la mer Caspienne ?",
       "image": null,
       "imagePrompt": "Volga river Russia map",
-      "answers": ["Volga", "Don", "Ob", "Ienisseï"],
+      "answers": [
+        "Volga",
+        "Don",
+        "Ob",
+        "Ienisseï"
+      ],
       "correctIndex": 0,
-      "explanation": "La Volga est le plus long fleuve d’Europe. Elle joue un rôle essentiel dans le transport, l’énergie et l’économie russe."
+      "explanation": "La Volga est le plus long fleuve d'Europe avec environ 3 530 km. Elle traverse une grande partie de la Russie européenne et se jette dans la mer Caspienne — une mer fermée sans accès à l'océan. Elle joue un rôle essentiel dans le transport, l'énergie hydroélectrique et l'économie russe."
     },
     {
       "id": "15",
-      "question": "Quel fleuve traverse le Vietnam et forme un delta très fertile au sud du pays ?",
+      "question": "Quel fleuve forme un delta très fertile au Vietnam, essentiel pour la production rizicole de toute la région ?",
       "image": null,
-      "imagePrompt": "Mekong delta Vietnam",
-      "answers": ["Mékong", "Yangtsé", "Salouen", "Irrawaddy"],
+      "imagePrompt": "Mekong delta Vietnam aerial",
+      "answers": [
+        "Mékong",
+        "Yangtsé",
+        "Salouen",
+        "Irrawaddy"
+      ],
       "correctIndex": 0,
-      "explanation": "Le Mékong traverse plusieurs pays d’Asie du Sud-Est et forme un delta extrêmement fertile au Vietnam, essentiel pour la production de riz."
+      "explanation": "Le Mékong (environ 4 500 km) prend sa source dans le Tibet et traverse la Chine, la Birmanie, le Laos, la Thaïlande et le Cambodge avant de former un delta extrêmement fertile au Vietnam, essentiel pour la production de riz. Il est vital pour environ 70 millions de personnes vivant dans son bassin versant."
     },
     {
       "id": "16",
-      "question": "Quel fleuve traverse l’Espagne et le Portugal avant de se jeter dans l’Atlantique ?",
+      "question": "Quel est le plus long fleuve de la péninsule Ibérique, traversant l'Espagne et le Portugal ?",
       "image": null,
       "imagePrompt": "Tagus river Iberian peninsula",
-      "answers": ["Ebre", "Douro", "Tage", "Guadalquivir"],
-      "correctIndex": 2,
-      "explanation": "Le Tage est le plus long fleuve de la péninsule Ibérique. Il traverse notamment Madrid et Lisbonne, deux capitales majeures."
+      "answers": [
+        "Ebre",
+        "Douro",
+        "Guadalquivir",
+        "Tage"
+      ],
+      "correctIndex": 3,
+      "explanation": "Le Tage (Tejo en portugais, environ 1 007 km) est le plus long fleuve de la péninsule Ibérique. Il prend sa source en Espagne, passe notamment par Tolède, avant de traverser le Portugal et de se jeter dans l'Atlantique à Lisbonne. Il ne traverse pas Madrid, qui est arrosée par le Manzanares."
     },
     {
       "id": "17",
-      "question": "Quel fleuve africain est le deuxième plus long du continent après le Nil ?",
+      "question": "Quel fleuve africain possède le débit le plus puissant du continent, après le Nil en terme de longueur ?",
       "image": null,
       "imagePrompt": "Congo river basin map",
-      "answers": ["Niger", "Zambèze", "Congo", "Orange"],
+      "answers": [
+        "Niger",
+        "Zambèze",
+        "Congo",
+        "Orange"
+      ],
       "correctIndex": 2,
-      "explanation": "Le fleuve Congo est le deuxième plus long d’Afrique mais surtout l’un des plus puissants au monde en débit. Il traverse une région équatoriale dense et difficile d’accès."
+      "explanation": "Le fleuve Congo (environ 4 700 km) est l'un des plus longs d'Afrique et de loin le plus puissant du continent en débit — le deuxième mondial après l'Amazone. Il traverse une région équatoriale dense et son bassin abrite la deuxième plus grande forêt tropicale du monde."
     },
     {
       "id": "18",
-      "question": "Quel fleuve traverse la Chine du nord et est surnommé 'le fleuve Jaune' ?",
+      "question": "Quel fleuve de Chine est surnommé 'le fleuve Jaune' en raison des sédiments qu'il transporte ?",
       "image": null,
-      "imagePrompt": "Yellow River China map",
-      "answers": ["Yangtsé", "Huang He", "Mékong", "Amour"],
+      "imagePrompt": "Yellow River China loess plateau",
+      "answers": [
+        "Yangtsé",
+        "Huang He",
+        "Mékong",
+        "Amour"
+      ],
       "correctIndex": 1,
-      "explanation": "Le Huang He, ou fleuve Jaune, tire son nom des sédiments qu’il transporte. Il est considéré comme le berceau de la civilisation chinoise, malgré ses crues parfois dévastatrices."
+      "explanation": "Le Huang He (environ 5 464 km) tire son nom des lœss jaunâtres qu'il charrie depuis le plateau de Lœss. Considéré comme le berceau de la civilisation chinoise, il est aussi connu pour ses crues dévastatrices qui lui valent le surnom de « fléau de la Chine ». Son bassin a accueilli les premières dynasties chinoises."
     },
     {
       "id": "19",
-      "question": "Quel fleuve traverse l’Afrique de l’Ouest et se jette dans le golfe de Guinée ?",
+      "question": "Quel fleuve traverse plusieurs pays d'Afrique de l'Ouest et se jette dans le golfe de Guinée au Nigeria ?",
       "image": null,
       "imagePrompt": "Niger river map West Africa",
-      "answers": ["Nil", "Niger", "Sénégal", "Congo"],
-      "correctIndex": 1,
-      "explanation": "Le Niger est un fleuve essentiel pour l’Afrique de l’Ouest. Il traverse plusieurs pays et soutient des millions de personnes grâce à l’agriculture et la pêche."
+      "answers": [
+        "Nil",
+        "Sénégal",
+        "Congo",
+        "Niger"
+      ],
+      "correctIndex": 3,
+      "explanation": "Le Niger (environ 4 200 km) est le troisième plus long fleuve d'Afrique. Il traverse la Guinée, le Mali, le Niger et le Nigeria en formant une grande boucle caractéristique dans le Sahel. Son delta, dans le golfe de Guinée, est l'une des plus grandes zones pétrolières du monde."
     },
     {
       "id": "20",
-      "question": "Quel fleuve traverse l’Argentine et l’Uruguay et se jette dans l’Atlantique ?",
+      "question": "Quel vaste estuaire, formé par la confluence de plusieurs fleuves, sépare l'Argentine et l'Uruguay ?",
       "image": null,
-      "imagePrompt": "Rio de la Plata map",
-      "answers": ["Paraná", "Uruguay", "Río de la Plata", "Orénoque"],
-      "correctIndex": 2,
-      "explanation": "Le Río de la Plata est en réalité un vaste estuaire formé par la confluence de plusieurs fleuves. Il constitue une zone économique majeure pour l’Argentine et l’Uruguay."
+      "imagePrompt": "Rio de la Plata estuary map",
+      "answers": [
+        "Paraná",
+        "Uruguay",
+        "Orénoque",
+        "Río de la Plata"
+      ],
+      "correctIndex": 3,
+      "explanation": "Le Río de la Plata est en réalité l'un des plus vastes estuaires du monde, formé par la confluence du Paraná et de l'Uruguay. Large de 220 km à son embouchure dans l'Atlantique, il constitue une zone économique majeure pour l'Argentine (Buenos Aires) et l'Uruguay (Montevideo)."
     }
   ]
 }

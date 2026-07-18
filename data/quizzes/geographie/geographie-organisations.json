@@ -2,7 +2,7 @@
   "slug": "quiz-geographie-organisations-internationales",
   "title": "Quiz Géographie Organisations Internationales - 20 questions instructives",
   "description": "Teste tes connaissances sur les principales organisations internationales avec 20 questions instructives.",
-  "descriptionSeo": "Les organisations internationales jouent un rôle essentiel dans la coopération entre États et la gestion des enjeux mondiaux. Ce quiz de géographie vous propose 20 questions pour tester vos connaissances sur des institutions majeures comme l’ONU, l’Union européenne, l’OTAN ou encore le FMI. Découvrez leurs missions, leur fonctionnement et leur influence dans le monde contemporain. Chaque question est accompagnée d’explications détaillées pour enrichir votre culture générale.",
+  "descriptionSeo": "Les organisations internationales jouent un rôle essentiel dans la coopération entre États et la gestion des enjeux mondiaux. Ce quiz de géographie vous propose 20 questions pour tester vos connaissances sur des institutions majeures comme l'ONU, l'Union européenne, l'OTAN ou encore le FMI. Découvrez leurs missions, leur fonctionnement et leur influence dans le monde contemporain. Chaque question est accompagnée d'explications détaillées pour enrichir votre culture générale.",
   "category": {
     "name": "Géographie",
     "slug": "geographie"
@@ -23,178 +23,178 @@
       "imagePrompt": "United Nations headquarters",
       "answers": ["OTAN", "ONU", "FMI", "OMC"],
       "correctIndex": 1,
-      "explanation": "L’ONU a été fondée après la Seconde Guerre mondiale pour éviter de nouveaux conflits mondiaux. Elle compte aujourd’hui presque tous les États du monde et agit dans les domaines de la paix, de l’humanitaire et du développement."
+      "explanation": "L'ONU a été fondée après la Seconde Guerre mondiale pour éviter de nouveaux conflits mondiaux. Elle compte 193 États membres et agit dans les domaines de la paix, de l'humanitaire et du développement. Son siège principal est à New York."
     },
     {
       "id": "2",
-      "question": "Quelle organisation gère la coopération économique entre pays développés ?",
+      "question": "Quelle organisation gère les règles du commerce international ?",
       "image": null,
-      "imagePrompt": "OECD building",
-      "answers": ["OCDE", "OTAN", "UNESCO", "OMS"],
-      "correctIndex": 0,
-      "explanation": "L’OCDE regroupe des pays développés et produit des analyses économiques pour orienter les politiques publiques."
+      "imagePrompt": "WTO building Geneva",
+      "answers": ["FMI", "Banque mondiale", "OMC", "OCDE"],
+      "correctIndex": 2,
+      "explanation": "L'OMC, fondée en 1995 et dont le siège est à Genève, fixe les règles du commerce mondial et arbitre les conflits commerciaux entre États. Elle a succédé au GATT et compte plus de 160 membres."
     },
     {
       "id": "3",
-      "question": "Quelle organisation militaire regroupe des pays d’Amérique du Nord et d’Europe ?",
+      "question": "Quelle organisation militaire regroupe des pays d'Amérique du Nord et d'Europe ?",
       "image": null,
-      "imagePrompt": "NATO headquarters",
+      "imagePrompt": "NATO headquarters Brussels",
       "answers": ["ONU", "UE", "OTAN", "ASEAN"],
       "correctIndex": 2,
-      "explanation": "L’OTAN est une alliance militaire fondée en 1949 pour assurer la défense collective de ses membres."
+      "explanation": "L'OTAN, fondée en 1949, est une alliance militaire dont l'article 5 stipule qu'une attaque contre un membre est une attaque contre tous. Son siège est à Bruxelles. Elle compte aujourd'hui 32 membres depuis l'adhésion de la Suède en 2024."
     },
     {
       "id": "4",
-      "question": "Quelle organisation gère les règles du commerce international ?",
+      "question": "Quelle organisation prête de l'argent aux pays en difficulté financière ?",
       "image": null,
-      "imagePrompt": "WTO building",
-      "answers": ["FMI", "Banque mondiale", "OMC", "ONU"],
-      "correctIndex": 2,
-      "explanation": "L’OMC fixe les règles du commerce mondial et arbitre les conflits commerciaux entre États."
+      "imagePrompt": "IMF headquarters Washington",
+      "answers": ["OMS", "FMI", "UNESCO", "OCDE"],
+      "correctIndex": 1,
+      "explanation": "Le FMI, dont le siège est à Washington, aide les pays confrontés à des crises financières en leur accordant des prêts sous conditions. Il joue aussi un rôle de surveillance macroéconomique mondiale."
     },
     {
       "id": "5",
-      "question": "Quelle organisation prête de l’argent aux pays en difficulté ?",
+      "question": "Quelle organisation s'occupe de la santé mondiale ?",
       "image": null,
-      "imagePrompt": "IMF headquarters",
-      "answers": ["OMS", "FMI", "UNESCO", "OCDE"],
-      "correctIndex": 1,
-      "explanation": "Le FMI aide les pays confrontés à des crises financières en leur accordant des prêts sous conditions."
+      "imagePrompt": "WHO building Geneva",
+      "answers": ["OMS", "OMC", "OTAN", "UNICEF"],
+      "correctIndex": 0,
+      "explanation": "L'OMS, fondée en 1948 et dont le siège est à Genève, coordonne les réponses internationales aux crises sanitaires. Elle a piloté la réponse mondiale face à la pandémie de Covid-19 et à des épidémies comme Ebola."
     },
     {
       "id": "6",
-      "question": "Quelle organisation s’occupe de la santé mondiale ?",
+      "question": "Quelle organisation favorise l'intégration politique et économique en Europe ?",
       "image": null,
-      "imagePrompt": "WHO building",
-      "answers": ["OMS", "OMC", "OTAN", "UNICEF"],
-      "correctIndex": 0,
-      "explanation": "L’OMS coordonne les réponses internationales aux crises sanitaires, comme les pandémies."
+      "imagePrompt": "EU parliament Strasbourg",
+      "answers": ["OTAN", "UE", "OCDE", "Conseil de l'Europe"],
+      "correctIndex": 1,
+      "explanation": "L'Union européenne est une organisation unique combinant marché unique, monnaie commune (l'euro pour 20 membres), et institutions politiques supranationales comme le Parlement européen et la Commission européenne."
     },
     {
       "id": "7",
-      "question": "Quelle organisation européenne favorise l’intégration politique et économique ?",
+      "question": "Quelle organisation s'occupe de l'éducation, de la science et de la culture ?",
       "image": null,
-      "imagePrompt": "EU parliament",
-      "answers": ["OTAN", "UE", "OCDE", "ONU"],
-      "correctIndex": 1,
-      "explanation": "L’Union européenne est une organisation unique combinant coopération économique et politique entre États membres."
+      "imagePrompt": "UNESCO building Paris",
+      "answers": ["UNESCO", "OMS", "FMI", "OMC"],
+      "correctIndex": 0,
+      "explanation": "L'UNESCO, dont le siège est à Paris, protège le patrimoine mondial et promeut l'éducation et la culture. Elle classe des sites comme patrimoine mondial de l'humanité — plus de 1 100 sites dans 167 pays."
     },
     {
       "id": "8",
-      "question": "Quelle organisation s’occupe de l’éducation, de la science et de la culture ?",
+      "question": "Quelle organisation régionale regroupe des pays d'Asie du Sud-Est ?",
       "image": null,
-      "imagePrompt": "UNESCO building",
-      "answers": ["UNESCO", "OMS", "FMI", "OMC"],
+      "imagePrompt": "ASEAN summit meeting",
+      "answers": ["ASEAN", "UE", "OTAN", "OPEP"],
       "correctIndex": 0,
-      "explanation": "L’UNESCO protège le patrimoine mondial et promeut l’éducation et la culture."
+      "explanation": "L'ASEAN, fondée en 1967, regroupe 10 pays d'Asie du Sud-Est (dont la Thaïlande, l'Indonésie et le Vietnam). Elle favorise la coopération économique, politique et sécuritaire dans une région de 680 millions d'habitants."
     },
     {
       "id": "9",
-      "question": "Quelle organisation régionale regroupe des pays d’Asie du Sud-Est ?",
+      "question": "Quelle organisation contrôle la production de pétrole de ses membres ?",
       "image": null,
-      "imagePrompt": "ASEAN meeting",
-      "answers": ["ASEAN", "UE", "OTAN", "OPEP"],
-      "correctIndex": 0,
-      "explanation": "L’ASEAN favorise la coopération économique et politique entre les pays d’Asie du Sud-Est."
+      "imagePrompt": "OPEC meeting Vienna",
+      "answers": ["OMC", "FMI", "ONU", "OPEP"],
+      "correctIndex": 3,
+      "explanation": "L'OPEP, fondée en 1960 et dont le siège est à Vienne, influence les prix mondiaux du pétrole en ajustant les quotas de production de ses membres. Elle regroupe 12 pays, dont l'Arabie saoudite, l'Irak et le Venezuela."
     },
     {
       "id": "10",
-      "question": "Quelle organisation contrôle la production de pétrole de ses membres ?",
+      "question": "Quelle organisation aide les enfants dans les zones de crise ?",
       "image": null,
-      "imagePrompt": "OPEC meeting",
-      "answers": ["OMC", "FMI", "ONU", "OPEP"],
-      "correctIndex": 3,
-      "explanation": "L’OPEP influence les prix mondiaux du pétrole en ajustant la production de ses membres."
+      "imagePrompt": "UNICEF aid children",
+      "answers": ["OMS", "UNICEF", "UNESCO", "OMC"],
+      "correctIndex": 1,
+      "explanation": "L'UNICEF, créée en 1946, intervient dans les domaines de la santé, de l'éducation et de la protection des enfants dans plus de 190 pays. Elle est notamment connue pour ses programmes de vaccination et de lutte contre la malnutrition."
     },
     {
       "id": "11",
-      "question": "Quelle organisation aide les enfants dans le monde ?",
+      "question": "Quelle organisation finance des projets d'infrastructure dans les pays en développement ?",
       "image": null,
-      "imagePrompt": "UNICEF aid",
-      "answers": ["OMS", "UNICEF", "UNESCO", "OMC"],
-      "correctIndex": 1,
-      "explanation": "L’UNICEF intervient dans les domaines de la santé, de l’éducation et de la protection des enfants."
+      "imagePrompt": "World Bank building Washington",
+      "answers": ["Banque mondiale", "OTAN", "OMS", "OPEP"],
+      "correctIndex": 0,
+      "explanation": "La Banque mondiale, dont le siège est à Washington, finance des projets d'infrastructure, d'éducation et de lutte contre la pauvreté. Elle accorde des prêts à faible taux aux pays en développement et publie chaque année le rapport sur le développement mondial."
     },
     {
       "id": "12",
-      "question": "Quelle organisation finance des projets de développement ?",
+      "question": "Quelle organisation regroupe les 55 États du continent africain ?",
       "image": null,
-      "imagePrompt": "World Bank building",
-      "answers": ["Banque mondiale", "OTAN", "OMS", "OPEP"],
-      "correctIndex": 0,
-      "explanation": "La Banque mondiale finance des projets d’infrastructures et de lutte contre la pauvreté."
+      "imagePrompt": "African Union headquarters Addis Ababa",
+      "answers": ["CEDEAO", "Union africaine", "Commonwealth", "OPEP"],
+      "correctIndex": 1,
+      "explanation": "L'Union africaine, fondée en 2002 et dont le siège est à Addis-Abeba (Éthiopie), a succédé à l'Organisation de l'unité africaine. Elle promeut l'intégration du continent et intervient dans la gestion des conflits régionaux."
     },
     {
       "id": "13",
-      "question": "Quelle organisation regroupe des pays exportateurs de pétrole ?",
+      "question": "Quel forum réunit les 20 principales économies mondiales pour coordonner leurs politiques ?",
       "image": null,
-      "imagePrompt": "OPEC oil",
-      "answers": ["OCDE", "OPEP", "ONU", "ASEAN"],
+      "imagePrompt": "G20 summit leaders",
+      "answers": ["G7", "G20", "OCDE", "ONU"],
       "correctIndex": 1,
-      "explanation": "L’OPEP coordonne les politiques pétrolières de ses membres pour stabiliser les marchés."
+      "explanation": "Le G20, créé en 1999, regroupe les 19 plus grandes économies mondiales plus l'Union européenne. Il représente environ 85 % du PIB mondial. Il est devenu le principal forum de coordination économique mondiale depuis la crise de 2008."
     },
     {
       "id": "14",
-      "question": "Quelle organisation a son siège à New York ?",
+      "question": "Quelle organisation internationale juge les crimes contre l'humanité et les génocides ?",
       "image": null,
-      "imagePrompt": "UN headquarters NYC",
-      "answers": ["ONU", "UE", "OTAN", "OCDE"],
-      "correctIndex": 0,
-      "explanation": "Le siège principal de l’ONU est à New York, symbole de la diplomatie internationale."
+      "imagePrompt": "International Criminal Court The Hague",
+      "answers": ["ONU", "CPI", "OTAN", "Interpol"],
+      "correctIndex": 1,
+      "explanation": "La CPI, dont le siège est à La Haye, est le premier tribunal pénal international permanent. Créée en 2002, elle juge des individus accusés de génocide, crimes contre l'humanité et crimes de guerre. Elle compte 124 États membres."
     },
     {
       "id": "15",
-      "question": "Quelle organisation militaire inclut une clause de défense collective ?",
+      "question": "Quelle organisation surveille le développement des armes nucléaires dans le monde ?",
       "image": null,
-      "imagePrompt": "NATO soldiers",
-      "answers": ["ONU", "OTAN", "UE", "ASEAN"],
-      "correctIndex": 1,
-      "explanation": "L’article 5 de l’OTAN stipule qu’une attaque contre un membre est une attaque contre tous."
+      "imagePrompt": "IAEA headquarters Vienna",
+      "answers": ["OTAN", "ONU", "AIEA", "OMC"],
+      "correctIndex": 2,
+      "explanation": "L'AIEA, fondée en 1957 et dont le siège est à Vienne, supervise l'utilisation pacifique de l'énergie nucléaire et vérifie que les États ne détournent pas leurs programmes à des fins militaires. Elle a reçu le prix Nobel de la paix en 2005."
     },
     {
       "id": "16",
-      "question": "Quelle organisation européenne utilise l’euro ?",
+      "question": "Quelle organisation internationale défend les droits des travailleurs ?",
       "image": null,
-      "imagePrompt": "euro currency",
-      "answers": ["OTAN", "UE", "OCDE", "ONU"],
+      "imagePrompt": "ILO headquarters Geneva",
+      "answers": ["UNICEF", "OIT", "OCDE", "FMI"],
       "correctIndex": 1,
-      "explanation": "La zone euro regroupe les pays de l’Union européenne ayant adopté la monnaie unique."
+      "explanation": "L'OIT, fondée en 1919 et dont le siège est à Genève, est la seule organisation tripartite de l'ONU associant gouvernements, employeurs et syndicats. Elle fixe des normes internationales du travail et a reçu le prix Nobel de la paix en 1969."
     },
     {
       "id": "17",
-      "question": "Quelle organisation agit contre la pauvreté mondiale ?",
+      "question": "Quelle organisation régionale regroupe des pays d'Afrique de l'Ouest ?",
       "image": null,
-      "imagePrompt": "world bank project",
-      "answers": ["Banque mondiale", "OTAN", "OMC", "OPEP"],
-      "correctIndex": 0,
-      "explanation": "La Banque mondiale finance des projets visant à améliorer les conditions de vie dans les pays en développement."
+      "imagePrompt": "ECOWAS meeting West Africa",
+      "answers": ["Union africaine", "ASEAN", "CEDEAO", "MERCOSUR"],
+      "correctIndex": 2,
+      "explanation": "La CEDEAO, fondée en 1975 et dont le siège est à Abuja (Nigeria), regroupe 15 pays d'Afrique de l'Ouest. Elle favorise l'intégration économique régionale et intervient dans la gestion des crises politiques, comme au Mali ou en Guinée."
     },
     {
       "id": "18",
-      "question": "Quelle organisation gère les échanges commerciaux mondiaux ?",
+      "question": "Quel bloc économique regroupe les principaux pays d'Amérique du Sud ?",
       "image": null,
-      "imagePrompt": "WTO trade",
-      "answers": ["FMI", "OMC", "OMS", "UNESCO"],
-      "correctIndex": 1,
-      "explanation": "L’OMC établit les règles du commerce international et facilite les négociations entre États."
+      "imagePrompt": "MERCOSUR South America map",
+      "answers": ["ASEAN", "ALENA", "MERCOSUR", "OPEP"],
+      "correctIndex": 2,
+      "explanation": "Le MERCOSUR, fondé en 1991, regroupe le Brésil, l'Argentine, l'Uruguay, le Paraguay et la Bolivie. C'est le quatrième bloc économique mondial en termes de PIB. Il a signé un accord historique avec l'Union européenne en 2024 après 25 ans de négociations."
     },
     {
       "id": "19",
-      "question": "Quelle organisation intervient lors des crises sanitaires mondiales ?",
+      "question": "Quelle organisation regroupe 54 pays partageant un héritage de l'Empire britannique ?",
       "image": null,
-      "imagePrompt": "WHO pandemic response",
-      "answers": ["OMS", "OTAN", "UE", "OCDE"],
-      "correctIndex": 0,
-      "explanation": "L’OMS coordonne la réponse mondiale face aux pandémies et crises sanitaires."
+      "imagePrompt": "Commonwealth summit",
+      "answers": ["OTAN", "G20", "Francophonie", "Commonwealth"],
+      "correctIndex": 3,
+      "explanation": "Le Commonwealth of Nations, fondé en 1931, regroupe 54 États, dont beaucoup sont d'anciennes colonies britanniques. Il compte 2,5 milliards d'habitants. Son chef symbolique est le monarque britannique, actuellement le roi Charles III."
     },
     {
       "id": "20",
-      "question": "Quelle organisation promeut la coopération culturelle mondiale ?",
+      "question": "Quelle organisation défend les droits de l'homme en Europe et compte plus de membres que l'UE ?",
       "image": null,
-      "imagePrompt": "UNESCO heritage",
-      "answers": ["UNESCO", "FMI", "OMC", "OPEP"],
-      "correctIndex": 0,
-      "explanation": "L’UNESCO protège le patrimoine culturel et favorise les échanges éducatifs et scientifiques."
+      "imagePrompt": "Council of Europe Strasbourg",
+      "answers": ["Union européenne", "OTAN", "Conseil de l'Europe", "OCDE"],
+      "correctIndex": 2,
+      "explanation": "Le Conseil de l'Europe, fondé en 1949 et dont le siège est à Strasbourg, regroupe 46 États membres — bien plus que l'UE. Il est à l'origine de la Convention européenne des droits de l'homme et de la Cour européenne des droits de l'homme (CEDH), à ne pas confondre avec les institutions de l'UE."
     }
   ]
 }

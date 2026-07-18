@@ -1,8 +1,9 @@
 {
   "slug": "quiz-capitales-europe-retrouve-le-pays",
-  "title": "Quiz Géographie Capitales d’Europe : retrouve le pays - 20 questions pour tester ta mémoire",
-  "description": "Teste tes connaissances avec 20 questions où tu dois retrouver le pays européen à partir de sa capitale.",
-  "descriptionSeo": "Teste tes connaissances avec ce quiz sur les capitales d’Europe et retrouve le pays correspondant à chaque ville. Berlin, Lisbonne, Varsovie, Athènes, Stockholm… sauras-tu associer correctement chaque capitale à son État ? Ce quiz géographie de 20 questions permet de réviser la carte politique de l’Europe de manière ludique, tout en renforçant la mémorisation des capitales, des régions et des grands repères continentaux. Chaque question est accompagnée d’une explication utile pour mieux comprendre la place de ces capitales dans l’histoire, la géographie et l’organisation politique européenne.",
+  "title": "Quiz Géographie Capitales d'Europe : retrouve le pays - 20 questions pour tester ta mémoire",
+  "description": "Teste tes connaissances avec 20 questions variées sur les capitales d'Europe : retrouve le pays, identifie la capitale, situe-la sur un fleuve ou un point cardinal.",
+  "publishedAt": "2026-03-30",
+  "descriptionSeo": "Teste tes connaissances avec ce quiz sur les capitales d'Europe et retrouve le pays correspondant à chaque ville. Berlin, Lisbonne, Varsovie, Athènes, Stockholm… sauras-tu associer correctement chaque capitale à son État ? Ce quiz géographie de 20 questions permet de réviser la carte politique de l'Europe de manière ludique, tout en renforçant la mémorisation des capitales, des régions et des grands repères continentaux.",
   "category": {
     "name": "Géographie",
     "slug": "geographie"
@@ -13,7 +14,7 @@
   "images": {
     "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1774464764/cover_a8ankm.jpg",
     "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1774464764/cover_a8ankm.jpg",
-    "alt": "Quiz capitales d’Europe retrouve le pays"
+    "alt": "Quiz capitales d'Europe retrouve le pays"
   },
   "questions": [
     {
@@ -23,16 +24,16 @@
       "imagePrompt": "Berlin Brandenburg Gate skyline",
       "answers": ["Autriche", "Suisse", "Allemagne", "Pologne"],
       "correctIndex": 2,
-      "explanation": "Berlin est la capitale de l’Allemagne depuis la réunification. C’est une ville-clé pour comprendre l’histoire contemporaine de l’Europe, notamment à travers le mur de Berlin, la guerre froide et la reconstruction politique du continent après 1989."
+      "explanation": "Berlin est la capitale de l'Allemagne depuis la réunification de 1990. C'est une ville-clé pour comprendre l'histoire contemporaine de l'Europe, notamment à travers le mur de Berlin, la guerre froide et la reconstruction politique du continent après 1989."
     },
     {
       "id": "2",
-      "question": "Lisbonne est la capitale de quel pays ?",
+      "question": "Quel pays a pour capitale Lisbonne ?",
       "image": null,
       "imagePrompt": "Lisbon tram Portugal city",
       "answers": ["Portugal", "Espagne", "Italie", "Andorre"],
       "correctIndex": 0,
-      "explanation": "Lisbonne est la capitale du Portugal, située à l’embouchure du Tage. Son emplacement sur l’Atlantique explique son rôle historique majeur pendant les grandes explorations maritimes portugaises des XVe et XVIe siècles."
+      "explanation": "Lisbonne est la capitale du Portugal, située à l'embouchure du Tage. Son emplacement sur l'Atlantique explique son rôle historique majeur pendant les grandes explorations maritimes portugaises des XVe et XVIe siècles."
     },
     {
       "id": "3",
@@ -41,25 +42,25 @@
       "imagePrompt": "Warsaw skyline Poland",
       "answers": ["Hongrie", "Pologne", "Tchéquie", "Slovaquie"],
       "correctIndex": 1,
-      "explanation": "Varsovie est la capitale de la Pologne. Sa reconstruction presque totale après la Seconde Guerre mondiale en fait un symbole fort de résilience nationale et un bon repère pour comprendre l’Europe centrale et orientale."
+      "explanation": "Varsovie est la capitale de la Pologne. Sa reconstruction presque totale après la Seconde Guerre mondiale en fait un symbole fort de résilience nationale et un bon repère pour comprendre l'Europe centrale et orientale."
     },
     {
       "id": "4",
       "question": "Athènes est la capitale de quel pays ?",
       "image": null,
       "imagePrompt": "Athens Acropolis Greece",
-      "answers": ["Chypre", "Grèce", "Albanie", "Bulgarie"],
-      "correctIndex": 1,
-      "explanation": "Athènes est la capitale de la Grèce. Elle est l’un des grands berceaux de la civilisation européenne, notamment pour la philosophie, le théâtre et les premières formes de démocratie dans l’Antiquité."
+      "answers": ["Albanie", "Bulgarie", "Chypre", "Grèce"],
+      "correctIndex": 3,
+      "explanation": "Athènes est la capitale de la Grèce. Elle est l'un des grands berceaux de la civilisation européenne, notamment pour la philosophie, le théâtre et les premières formes de démocratie dans l'Antiquité."
     },
     {
       "id": "5",
-      "question": "Stockholm est la capitale de quel pays ?",
+      "question": "Quelle est la capitale de la Suède ?",
       "image": null,
       "imagePrompt": "Stockholm old town Sweden",
-      "answers": ["Norvège", "Finlande", "Danemark", "Suède"],
-      "correctIndex": 3,
-      "explanation": "Stockholm est la capitale de la Suède. Construite sur plusieurs îles, elle illustre bien la relation étroite entre les capitales nordiques, l’eau, le commerce maritime et la qualité de l’aménagement urbain."
+      "answers": ["Oslo", "Copenhague", "Stockholm", "Helsinki"],
+      "correctIndex": 2,
+      "explanation": "Stockholm est la capitale de la Suède. Construite sur plusieurs îles à la jonction du lac Mälar et de la Baltique, elle illustre la relation étroite des capitales nordiques avec l'eau, le commerce maritime et l'aménagement du territoire."
     },
     {
       "id": "6",
@@ -68,25 +69,25 @@
       "imagePrompt": "Dublin Ireland river city",
       "answers": ["Irlande", "Royaume-Uni", "Islande", "Malte"],
       "correctIndex": 0,
-      "explanation": "Dublin est la capitale de l’Irlande. Elle occupe une place importante dans la culture européenne grâce à sa tradition littéraire, mais aussi dans l’économie actuelle avec la présence de nombreuses entreprises internationales."
+      "explanation": "Dublin est la capitale de l'Irlande. Elle occupe une place importante dans la culture européenne grâce à sa tradition littéraire (Joyce, Beckett, Yeats), mais aussi dans l'économie actuelle avec la présence de nombreuses entreprises technologiques internationales."
     },
     {
       "id": "7",
-      "question": "Prague est la capitale de quel pays ?",
+      "question": "Quel pays a pour capitale Prague ?",
       "image": null,
       "imagePrompt": "Prague Charles Bridge city",
-      "answers": ["Autriche", "Croatie", "Tchéquie", "Slovénie"],
-      "correctIndex": 2,
-      "explanation": "Prague est la capitale de la Tchéquie. Elle constitue un excellent repère pour distinguer les pays d’Europe centrale, souvent confondus, et reste l’une des villes les mieux préservées architecturalement du continent."
+      "answers": ["Autriche", "Tchéquie", "Slovénie", "Croatie"],
+      "correctIndex": 1,
+      "explanation": "Prague est la capitale de la Tchéquie. Elle constitue un excellent repère pour distinguer les pays d'Europe centrale, souvent confondus, et reste l'une des villes les mieux préservées architecturalement du continent."
     },
     {
       "id": "8",
       "question": "Sofia est la capitale de quel pays ?",
       "image": null,
       "imagePrompt": "Sofia Bulgaria cathedral skyline",
-      "answers": ["Roumanie", "Serbie", "Bulgarie", "Moldavie"],
-      "correctIndex": 2,
-      "explanation": "Sofia est la capitale de la Bulgarie. Sa position dans les Balkans en fait un bon repère pour une région européenne souvent complexe à mémoriser, à la croisée d’influences slaves, balkaniques et méditerranéennes."
+      "answers": ["Roumanie", "Serbie", "Hongrie", "Bulgarie"],
+      "correctIndex": 3,
+      "explanation": "Sofia est la capitale de la Bulgarie. Sa position dans les Balkans en fait un bon repère pour une région européenne souvent complexe à mémoriser, à la croisée d'influences slaves, balkaniques et méditerranéennes."
     },
     {
       "id": "9",
@@ -95,88 +96,88 @@
       "imagePrompt": "Vienna Austria palace city",
       "answers": ["Autriche", "Hongrie", "Allemagne", "Suisse"],
       "correctIndex": 0,
-      "explanation": "Vienne est la capitale de l’Autriche. Ancien centre de l’Empire austro-hongrois, elle aide à comprendre pourquoi cette ville a longtemps exercé une influence politique et culturelle bien au-delà des frontières autrichiennes actuelles."
+      "explanation": "Vienne est la capitale de l'Autriche. Ancien centre de l'Empire austro-hongrois, elle aide à comprendre pourquoi cette ville a longtemps exercé une influence politique et culturelle bien au-delà des frontières autrichiennes actuelles."
     },
     {
       "id": "10",
-      "question": "Copenhague est la capitale de quel pays ?",
+      "question": "Quelle capitale européenne est divisée par le Danube en deux parties historiquement distinctes, Buda et Pest ?",
       "image": null,
-      "imagePrompt": "Copenhagen Denmark colorful harbor",
-      "answers": ["Suède", "Danemark", "Norvège", "Finlande"],
-      "correctIndex": 1,
-      "explanation": "Copenhague est la capitale du Danemark. Située entre mer Baltique et mer du Nord, elle montre bien l’importance stratégique des détroits scandinaves dans les échanges maritimes européens."
+      "imagePrompt": "Budapest Hungary parliament Danube",
+      "answers": ["Vienne", "Belgrade", "Budapest", "Bratislava"],
+      "correctIndex": 2,
+      "explanation": "Budapest, capitale de la Hongrie, est née de la fusion de Buda (côté ouest, sur les collines) et de Pest (côté est, plat et commercial) en 1873. Le Danube les sépare et les unit à la fois, formant l'un des panoramas urbains les plus spectaculaires d'Europe centrale."
     },
     {
       "id": "11",
       "question": "Bucarest est la capitale de quel pays ?",
       "image": null,
       "imagePrompt": "Bucharest Romania parliament",
-      "answers": ["Roumanie", "Bulgarie", "Serbie", "Hongrie"],
-      "correctIndex": 0,
-      "explanation": "Bucarest est la capitale de la Roumanie. Elle constitue un repère essentiel pour distinguer les pays des Balkans de ceux d’Europe centrale, et pour mieux comprendre l’espace compris entre Danube, Carpates et mer Noire."
+      "answers": ["Bulgarie", "Roumanie", "Serbie", "Hongrie"],
+      "correctIndex": 1,
+      "explanation": "Bucarest est la capitale de la Roumanie. Elle constitue un repère essentiel pour distinguer les pays des Balkans de ceux d'Europe centrale, et pour mieux comprendre l'espace compris entre le Danube, les Carpates et la mer Noire."
     },
     {
       "id": "12",
       "question": "Oslo est la capitale de quel pays ?",
       "image": null,
       "imagePrompt": "Oslo Norway waterfront city",
-      "answers": ["Suède", "Danemark", "Norvège", "Islande"],
-      "correctIndex": 2,
-      "explanation": "Oslo est la capitale de la Norvège. Son cadre entre fjord, collines et mer rappelle à quel point la géographie physique a façonné l’histoire économique du pays, tournée vers la mer, la pêche et aujourd’hui l’énergie."
+      "answers": ["Suède", "Danemark", "Islande", "Norvège"],
+      "correctIndex": 3,
+      "explanation": "Oslo est la capitale de la Norvège. Son cadre entre fjord, collines et mer rappelle à quel point la géographie physique a façonné l'histoire économique du pays, tournée vers la mer, la pêche et aujourd'hui le pétrole et l'énergie."
     },
     {
       "id": "13",
-      "question": "Belgrade est la capitale de quel pays ?",
+      "question": "Parmi ces quatre villes, laquelle est une capitale nationale ?",
       "image": null,
-      "imagePrompt": "Belgrade Serbia confluence river city",
-      "answers": ["Croatie", "Bosnie-Herzégovine", "Serbie", "Monténégro"],
-      "correctIndex": 2,
-      "explanation": "Belgrade est la capitale de la Serbie. Sa position au confluent de la Save et du Danube en fait un carrefour historique majeur dans les Balkans, région où les questions de frontières et d’identités restent très importantes."
+      "imagePrompt": "European city map capitals",
+      "answers": ["Belgrade", "Milan", "Barcelone", "Lyon"],
+      "correctIndex": 0,
+      "explanation": "Belgrade est la capitale de la Serbie, au confluent de la Save et du Danube. Milan est la capitale économique de l'Italie, mais Rome est sa capitale officielle. Barcelone est la capitale de la Catalogne, mais Madrid est celle de l'Espagne. Lyon est la troisième ville de France, Paris en est la capitale."
     },
     {
       "id": "14",
-      "question": "Bratislava est la capitale de quel pays ?",
+      "question": "Quelle est la capitale de la Slovaquie ?",
       "image": null,
       "imagePrompt": "Bratislava Slovakia castle skyline",
-      "answers": ["Slovénie", "Slovaquie", "Croatie", "Hongrie"],
-      "correctIndex": 1,
-      "explanation": "Bratislava est la capitale de la Slovaquie. Elle est souvent confondue avec Ljubljana, capitale de la Slovénie, ce qui en fait une question classique mais très utile pour affiner sa connaissance de l’Europe centrale."
+      "answers": ["Ljubljana", "Zagreb", "Bratislava", "Varsovie"],
+      "correctIndex": 2,
+      "explanation": "Bratislava est la capitale de la Slovaquie. Elle est souvent confondue avec Ljubljana, capitale de la Slovénie, en raison de la ressemblance phonétique. Retenir la différence est l'un des classiques de la géographie européenne."
     },
     {
       "id": "15",
-      "question": "Helsinki est la capitale de quel pays ?",
+      "question": "Quelle capitale européenne est la plus au nord ?",
       "image": null,
-      "imagePrompt": "Helsinki Finland cathedral harbor",
-      "answers": ["Estonie", "Finlande", "Suède", "Norvège"],
-      "correctIndex": 1,
-      "explanation": "Helsinki est la capitale de la Finlande. Située sur le golfe de Finlande, elle rappelle la proximité géographique et historique entre la Finlande, la Baltique et le monde russe."
+      "imagePrompt": "Reykjavik Iceland colorful city",
+      "answers": ["Helsinki", "Oslo", "Stockholm", "Reykjavik"],
+      "correctIndex": 3,
+      "explanation": "Reykjavik, capitale de l'Islande, est la capitale nationale la plus septentrionale du monde, située à environ 64° de latitude nord. Elle devance Helsinki (60°N), Stockholm (59°N) et Oslo (59°N). Son isolement dans l'Atlantique Nord en fait un cas géographique unique parmi les capitales européennes."
     },
     {
       "id": "16",
       "question": "Budapest est la capitale de quel pays ?",
       "image": null,
-      "imagePrompt": "Budapest Hungary parliament Danube",
-      "answers": ["Autriche", "Roumanie", "Hongrie", "Serbie"],
-      "correctIndex": 2,
-      "explanation": "Budapest est la capitale de la Hongrie. Traversée par le Danube, elle illustre parfaitement le rôle des grands fleuves européens dans le développement des capitales et des échanges régionaux."
+      "imagePrompt": "Budapest Hungary city lights",
+      "answers": ["Autriche", "Hongrie", "Roumanie", "Serbie"],
+      "correctIndex": 1,
+      "explanation": "Budapest est la capitale de la Hongrie. Elle est souvent confondue avec Bucarest (Roumanie) en raison de la similarité de leurs noms. Un bon moyen de les distinguer : la lettre 'P' dans Budapest renvoie à 'Pest', la partie orientale de la ville, tandis que Bucarest est en Roumanie, pays latin."
     },
     {
       "id": "17",
-      "question": "Reykjavik est la capitale de quel pays ?",
+      "question": "Quel pays a pour capitale Reykjavik ?",
       "image": null,
-      "imagePrompt": "Reykjavik Iceland colorful city",
-      "answers": ["Irlande", "Norvège", "Islande", "Finlande"],
-      "correctIndex": 2,
-      "explanation": "Reykjavik est la capitale de l’Islande. Son isolement dans l’Atlantique Nord en fait un cas intéressant pour comprendre la singularité géographique des capitales insulaires européennes."
+      "imagePrompt": "Reykjavik Iceland aurora city",
+      "answers": ["Islande", "Irlande", "Norvège", "Finlande"],
+      "correctIndex": 0,
+      "explanation": "Reykjavik est la capitale de l'Islande, île volcanique de l'Atlantique Nord. Son nom signifie « baie de vapeurs » en vieux norrois, en référence aux geysers et sources chaudes qui caractérisent le paysage islandais."
     },
     {
       "id": "18",
       "question": "Zagreb est la capitale de quel pays ?",
       "image": null,
       "imagePrompt": "Zagreb Croatia old town",
-      "answers": ["Croatie", "Serbie", "Bosnie-Herzégovine", "Slovénie"],
-      "correctIndex": 0,
-      "explanation": "Zagreb est la capitale de la Croatie. Contrairement à Dubrovnik ou Split, très connues pour le tourisme, Zagreb est avant tout le centre politique et administratif du pays."
+      "answers": ["Serbie", "Bosnie-Herzégovine", "Croatie", "Slovénie"],
+      "correctIndex": 2,
+      "explanation": "Zagreb est la capitale de la Croatie. Contrairement à Dubrovnik ou Split, très connues pour le tourisme adriatique, Zagreb est avant tout le centre politique, économique et culturel du pays, situé à l'intérieur des terres."
     },
     {
       "id": "19",
@@ -185,16 +186,16 @@
       "imagePrompt": "Vilnius Lithuania historic center",
       "answers": ["Lettonie", "Lituanie", "Estonie", "Biélorussie"],
       "correctIndex": 1,
-      "explanation": "Vilnius est la capitale de la Lituanie. Bien distinguer Vilnius, Riga et Tallinn est essentiel pour mémoriser les États baltes, un ensemble régional compact mais historiquement très important."
+      "explanation": "Vilnius est la capitale de la Lituanie. Bien distinguer Vilnius (Lituanie), Riga (Lettonie) et Tallinn (Estonie) est essentiel pour mémoriser les États baltes, un ensemble régional compact mais historiquement très important, surtout depuis leur adhésion à l'UE et à l'OTAN."
     },
     {
       "id": "20",
-      "question": "Ljubljana est la capitale de quel pays ?",
+      "question": "Quelle est la capitale de la Slovénie ?",
       "image": null,
-      "imagePrompt": "Ljubljana Slovenia river city",
-      "answers": ["Slovaquie", "Croatie", "Slovénie", "Autriche"],
-      "correctIndex": 2,
-      "explanation": "Ljubljana est la capitale de la Slovénie. Sa confusion fréquente avec Bratislava montre combien les ressemblances de noms peuvent compliquer l’apprentissage géographique, d’où l’intérêt de quiz basés sur les capitales."
+      "imagePrompt": "Ljubljana Slovenia river castle",
+      "answers": ["Zagreb", "Bratislava", "Sarajevo", "Ljubljana"],
+      "correctIndex": 3,
+      "explanation": "Ljubljana est la capitale de la Slovénie. Sa confusion fréquente avec Bratislava (Slovaquie) montre combien les ressemblances de noms peuvent compliquer l'apprentissage géographique. Un repère utile : Ljubljana commence par 'L' comme Lovénie… et il faut juste changer la première lettre de Slovénie."
     }
   ]
 }

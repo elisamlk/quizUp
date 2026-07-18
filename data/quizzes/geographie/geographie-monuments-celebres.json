@@ -1,160 +1,158 @@
 {
-  "slug": "quiz-geographie-villes-et-monuments-celebres",
-  "title": "Quiz Géographie Villes et monuments célèbres - 20 questions incontournables",
-  "description": "Teste tes connaissances avec 20 questions sur les villes et monuments emblématiques du monde.",
-  "descriptionSeo": "Teste tes connaissances avec ce quiz géographie sur les villes et monuments célèbres du monde. Tour Eiffel, Colisée, Taj Mahal, Statue de la Liberté, Machu Picchu… sauras-tu associer chaque monument à sa ville et comprendre son importance historique et culturelle ? Ce quiz de 20 questions te permet d’explorer les grandes destinations touristiques mondiales tout en découvrant leur contexte géographique, leur histoire et leur rôle dans le rayonnement international des villes. Chaque question est accompagnée d’explications détaillées pour enrichir ta culture générale.",
-  "category": {
-    "name": "Géographie",
-    "slug": "geographie"
-  },
+  "slug": "quiz-geographie-monuments-du-monde",
+  "title": "Quiz Géographie Monuments du monde - 20 questions pour tester ton niveau",
+  "description": "Teste tes connaissances avec 20 questions sur les monuments les plus célèbres du monde.",
+  "publishedAt": "2026-03-30",
+  "descriptionSeo": "Tour Eiffel, Machu Picchu, Sagrada Família, Angkor Wat, Kremlin, Burj Khalifa… Ce quiz de géographie te propose 20 questions variées sur les monuments les plus célèbres du monde, leur localisation, leur histoire et leurs particularités.",
+  "category": { "name": "Géographie", "slug": "geographie" },
   "createdAt": "2026-03-30",
   "isNew": true,
   "isPopular": true,
   "images": {
-    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1774381594/cover_htt1cb.jpg",
-    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1774381594/cover_htt1cb.jpg",
-    "alt": "Quiz villes et monuments célèbres"
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1779795917/london_hvjdxu.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1779795917/london_hvjdxu.jpg",
+    "alt": "Quiz monuments du monde"
   },
   "questions": [
     {
       "id": "1",
-      "question": "Dans quelle ville se trouve la Tour Eiffel ?",
-      "answers": ["Londres", "Paris", "Rome", "Berlin"],
-      "correctIndex": 1,
-      "explanation": "La Tour Eiffel est le symbole de Paris et de la France. Construite pour l’Exposition universelle de 1889, elle illustre le rayonnement industriel et culturel du pays à cette époque."
+      "question": "Quel monument de fer, construit pour l'Exposition universelle de 1889, est devenu le symbole incontesté de Paris ?",
+      "answers": ["Arc de Triomphe", "Sacré-Cœur", "Tour Eiffel", "Notre-Dame"],
+      "correctIndex": 2,
+      "explanation": "La Tour Eiffel (324 m) fut construite par Gustave Eiffel entre 1887 et 1889. Critiquée à l'époque comme une « verrue de fer », elle devait être démolie après l'Exposition universelle. Elle fut finalement conservée car son antenne servait d'émetteur radio. Elle reste à ce jour le monument payant le plus visité au monde avec environ 7 millions de visiteurs par an."
     },
     {
       "id": "2",
-      "question": "Dans quelle ville se trouve le Colisée ?",
-      "answers": ["Athènes", "Naples", "Rome", "Milan"],
-      "correctIndex": 2,
-      "explanation": "Le Colisée est un vestige majeur de l’Empire romain, montrant la puissance politique et les pratiques sociales de l’époque (jeux, spectacles)."
+      "question": "Dans quel pays se déroule la Grande Muraille, ouvrage de fortification s'étendant sur plus de 20 000 km de long ?",
+      "answers": ["Chine", "Mongolie", "Corée du Nord", "Japon"],
+      "correctIndex": 0,
+      "explanation": "La Grande Muraille de Chine est un ensemble de fortifications construites sur plusieurs dynasties, surtout sous les Ming (XIVe-XVIIe siècles). Elle ne forme pas une ligne continue unique mais un réseau de murs, tours et forteresses. Contrairement à une idée reçue, elle n'est pas visible à l'œil nu depuis la Lune — un mythe persistant démenti par tous les astronautes."
     },
     {
       "id": "3",
-      "question": "Le Taj Mahal est situé dans quelle ville ?",
-      "answers": ["Delhi", "Jaipur", "Mumbai", "Agra"],
+      "question": "Quel site archéologique inca, perché à 2 430 m dans les Andes péruviennes, fut présenté au monde par l'explorateur américain Hiram Bingham en 1911 ?",
+      "answers": ["Tiahuanaco (Bolivie)", "Teotihuacan (Mexique)", "Chan Chan (Pérou)", "Machu Picchu (Pérou)"],
       "correctIndex": 3,
-      "explanation": "Le Taj Mahal est un mausolée construit au XVIIe siècle, symbole de l’architecture moghole et de l’influence culturelle indo-persane."
+      "explanation": "Machu Picchu n'est pas « dans » une ville mais est un site archéologique isolé dans les Andes péruviennes, à environ 80 km de Cusco. Construit au XVe siècle pour l'Inca Pachacútec, il fut abandonné après la conquête espagnole et resta méconnu du monde extérieur jusqu'en 1911. Classé à l'UNESCO, il accueille près de 5 000 visiteurs par jour — un chiffre souvent jugé trop élevé pour sa conservation."
     },
     {
       "id": "4",
-      "question": "Dans quelle ville se trouve la Statue de la Liberté ?",
-      "answers": ["New York", "Washington", "Boston", "Chicago"],
-      "correctIndex": 0,
-      "explanation": "La Statue de la Liberté est un symbole d’immigration et de liberté, offerte par la France aux États-Unis en 1886."
+      "question": "Dans quelle ville italienne se trouve le Colisée, amphithéâtre pouvant accueillir jusqu'à 80 000 spectateurs dans l'Antiquité ?",
+      "answers": ["Florence", "Naples", "Rome", "Milan"],
+      "correctIndex": 2,
+      "explanation": "Le Colisée de Rome, achevé en 80 après J.-C. sous l'Empire flavien, est le plus grand amphithéâtre jamais construit. Il accueillit gladiateurs, chasses d'animaux et exécutions publiques. Plus d'un tiers de ses pierres furent pillées au Moyen Âge pour construire des palais romains. Il reste le monument le plus visité d'Italie avec environ 7 millions de visiteurs annuels."
     },
     {
       "id": "5",
-      "question": "Le Machu Picchu est proche de quelle ville ?",
-      "answers": ["Lima", "Cusco", "Arequipa", "Quito"],
-      "correctIndex": 1,
-      "explanation": "Le Machu Picchu est lié à Cusco, ancienne capitale de l’Empire inca, illustrant l’organisation avancée de cette civilisation."
+      "question": "Le Taj Mahal, mausolée en marbre blanc commandé par l'empereur moghol Shah Jahan pour sa femme, se trouve dans quelle ville indienne ?",
+      "answers": ["Delhi", "Mumbai", "Agra", "Jaipur"],
+      "correctIndex": 2,
+      "explanation": "Le Taj Mahal se trouve à Agra, dans l'État de l'Uttar Pradesh, à environ 200 km au sud de Delhi. Construit entre 1632 et 1653, il est considéré comme le chef-d'œuvre de l'architecture moghole. Shah Jahan le fit bâtir en hommage à son épouse Mumtaz Mahal, morte en accouchant. Ironie du sort, Shah Jahan finit sa vie emprisonné par son fils dans le fort d'Agra, face à son chef-d'œuvre."
     },
     {
       "id": "6",
-      "question": "Dans quelle ville se trouve Big Ben ?",
-      "answers": ["Dublin", "Manchester", "Londres", "Édimbourg"],
-      "correctIndex": 2,
-      "explanation": "Big Ben est associé au Parlement britannique, symbole de la stabilité politique et institutionnelle du Royaume-Uni."
+      "question": "À quelle période remonte la construction de Stonehenge, cercle mégalithique situé dans le Wiltshire en Angleterre ?",
+      "answers": ["Préhistoire (vers 3 000-1 500 av. J.-C.)", "Époque romaine (Ier siècle av. J.-C.)", "Moyen Âge (XIIe siècle)", "Époque celtique (Ve siècle av. J.-C.)"],
+      "correctIndex": 0,
+      "explanation": "Stonehenge a été construit en plusieurs phases entre environ 3 000 et 1 500 avant J.-C., soit à la Préhistoire (Néolithique et Âge du Bronze). Il est antérieur aux Celtes de plusieurs millénaires, contrairement à une idée populaire souvent liée aux druides. Les pierres bleues (bluestones) proviennent du Pays de Galles, à plus de 200 km — comment furent-elles transportées reste partiellement inexpliqué."
     },
     {
       "id": "7",
-      "question": "Le Christ Rédempteur se trouve dans quelle ville ?",
-      "answers": ["São Paulo", "Rio de Janeiro", "Brasilia", "Salvador"],
-      "correctIndex": 1,
-      "explanation": "Cette statue domine Rio de Janeiro et symbolise l’identité religieuse et culturelle du Brésil."
+      "question": "Dans quelle capitale européenne se trouve l'Acropole, rocher dominant la ville sur lequel fut érigé le Parthénon ?",
+      "answers": ["Sparte", "Corinthe", "Héraklion", "Athènes"],
+      "correctIndex": 3,
+      "explanation": "L'Acropole d'Athènes (« haute ville » en grec) est le site emblématique de la Grèce antique. Le Parthénon, construit entre 447 et 432 av. J.-C. sous Périclès, était dédié à la déesse Athéna. Ses sculptures et frises (les « marbres d'Elgin ») sont en partie conservées au British Museum à Londres, au cœur d'un contentieux diplomatique entre la Grèce et le Royaume-Uni depuis des décennies."
     },
     {
       "id": "8",
-      "question": "Dans quelle ville se trouve la Sagrada Família ?",
-      "answers": ["Madrid", "Valence", "Séville", "Barcelone"],
-      "correctIndex": 3,
-      "explanation": "La Sagrada Família, œuvre de Gaudí, illustre un style architectural unique mêlant religion et modernisme catalan."
+      "question": "L'Alhambra, ensemble palatial de la dynastie nasride du XIVe siècle, se trouve dans quelle ville d'Andalousie ?",
+      "answers": ["Madrid", "Grenade", "Séville", "Tolède"],
+      "correctIndex": 1,
+      "explanation": "L'Alhambra se trouve à Grenade, en Espagne. Palais-forteresse construit par les souverains nasrides, il est le monument le plus visité d'Espagne avec environ 2,7 millions de visiteurs par an. Sa dernière chute marqua la fin de la Reconquista en 1492 — la même année où Christophe Colomb appareillait pour les Amériques, financé par Isabelle de Castille qui venait de récupérer Grenade."
     },
     {
       "id": "9",
-      "question": "Les pyramides de Gizeh sont proches de quelle ville ?",
-      "answers": ["Le Caire", "Alexandrie", "Louxor", "Assouan"],
-      "correctIndex": 0,
-      "explanation": "Situées près du Caire, elles témoignent de la puissance et de l’organisation de l’Égypte antique."
+      "question": "Quelle est la particularité la plus remarquable de la Sagrada Família, cathédrale de Barcelone conçue par Antoni Gaudí ?",
+      "answers": ["Elle est la plus grande cathédrale gothique du monde", "Elle a été entièrement financée par des dons privés sans subvention publique depuis 1882 et reste inachevée", "Gaudí l'a construite seul en moins de 30 ans", "Elle a été détruite pendant la Guerre civile et entièrement reconstruite"],
+      "correctIndex": 1,
+      "explanation": "La Sagrada Família est en construction depuis 1882 — soit plus de 140 ans — et demeure inachevée. Elle est entièrement financée par les droits d'entrée des visiteurs et des dons, sans subvention publique. Gaudí, qui y consacra les 40 dernières années de sa vie, mourut renversé par un tramway en 1926. L'achèvement est prévu pour 2033, centenaire de sa mort."
     },
     {
       "id": "10",
-      "question": "Dans quelle ville se trouve l’Opéra de Sydney ?",
-      "answers": ["Melbourne", "Brisbane", "Perth", "Sydney"],
-      "correctIndex": 3,
-      "explanation": "L’Opéra de Sydney est un symbole architectural moderne et un repère mondial du design contemporain."
+      "question": "Dans quel pays d'Asie du Sud-Est se trouve Angkor Wat, le plus grand complexe religieux du monde par sa superficie ?",
+      "answers": ["Cambodge", "Thaïlande", "Myanmar", "Vietnam"],
+      "correctIndex": 0,
+      "explanation": "Angkor Wat se trouve au Cambodge, près de la ville de Siem Reap. Construit au XIIe siècle par le roi Suryavarman II de l'Empire khmer, il était initialement dédié au dieu hindou Vishnu avant d'être transformé en temple bouddhiste. Avec ses 400 km² de temples, canaux et réservoirs, le complexe d'Angkor est le site archéologique le plus vaste du monde."
     },
     {
       "id": "11",
-      "question": "La Tour de Pise se situe dans quelle ville ?",
-      "answers": ["Florence", "Rome", "Pise", "Venise"],
-      "correctIndex": 2,
-      "explanation": "La Tour de Pise est célèbre pour son inclinaison, due à un sol instable, ce qui en fait un cas d’étude en ingénierie."
+      "question": "Quelle civilisation mésoaméricaine est principalement responsable de la construction de Chichén Itzá, souvent confondue avec les Aztèques ?",
+      "answers": ["Aztèque", "Olmèque", "Inca", "Maya (avec influences toltèques)"],
+      "correctIndex": 3,
+      "explanation": "Chichén Itzá a été construite par les Mayas, avec une influence toltèque probable aux alentours du Xe siècle. La confusion avec les Aztèques est très répandue : ces derniers, basés à Tenochtitlan (Mexico), n'ont jamais occupé le Yucatán. La pyramide El Castillo possède un escalier de 91 marches sur chacune de ses 4 faces, plus la plateforme du sommet, soit 365 marches en tout — le nombre de jours dans une année."
     },
     {
       "id": "12",
-      "question": "Dans quelle ville se trouve le Kremlin ?",
-      "answers": ["Saint-Pétersbourg", "Moscou", "Kiev", "Minsk"],
+      "question": "Dans quel pays africain se trouve le complexe des Pyramides de Gizeh, dont la Grande Pyramide est l'unique Merveille du monde antique encore debout ?",
+      "answers": ["Soudan", "Égypte", "Tunisie", "Libye"],
       "correctIndex": 1,
-      "explanation": "Le Kremlin est le centre politique de la Russie, symbole du pouvoir depuis des siècles."
+      "explanation": "Les Pyramides de Gizeh se trouvent en Égypte, sur le plateau de Gizeh en banlieue du Caire. La Grande Pyramide (145 m à l'origine) fut la plus haute structure humaine pendant environ 3 800 ans. Les pyramides ne se trouvent pas « dans le désert » comme souvent imaginé : elles sont en réalité à quelques kilomètres de la banlieue du Caire, visible depuis leur sommet."
     },
     {
       "id": "13",
-      "question": "Le Burj Khalifa se trouve dans quelle ville ?",
-      "answers": ["Abu Dhabi", "Doha", "Dubaï", "Riyad"],
+      "question": "Quel architecte danois conçut l'Opéra de Sydney, construit dans les années 1960 en dépassant largement le budget et les délais prévus ?",
+      "answers": ["Frank Lloyd Wright", "Le Corbusier", "Jørn Utzon", "Renzo Piano"],
       "correctIndex": 2,
-      "explanation": "Dubaï utilise l’architecture spectaculaire pour affirmer sa place dans la mondialisation."
+      "explanation": "Jørn Utzon (1918-2008), architecte danois, remporta le concours pour l'Opéra de Sydney en 1957. Le chantier, initialement budgété à 7 millions de dollars, coûta finalement 102 millions et dura 14 ans (1959-1973). Utzon démissionna en 1966 après des conflits avec les autorités et ne revit jamais le bâtiment achevé. Il reçut le prix Pritzker en 2003 pour cette œuvre, entre autres."
     },
     {
       "id": "14",
-      "question": "Dans quelle ville se trouve le Parthénon ?",
-      "answers": ["Athènes", "Rome", "Istanbul", "Sofia"],
+      "question": "Dans quelle ville brésilienne se dresse le Christ Rédempteur, statue de 38 mètres dominant la baie depuis le sommet du mont Corcovado ?",
+      "answers": ["Rio de Janeiro", "São Paulo", "Brasilia", "Salvador"],
       "correctIndex": 0,
-      "explanation": "Le Parthénon est un symbole de la civilisation grecque antique et de la naissance de la démocratie."
+      "explanation": "Le Christ Rédempteur se trouve à Rio de Janeiro, sur le mont Corcovado (710 m). Inaugurée en 1931, la statue de soapstone a été conçue par le sculpteur franco-brésilien Paul Landowski et construite sous la supervision de l'ingénieur Heitor da Silva Costa. Classée parmi les nouvelles Sept Merveilles du monde en 2007, elle est frappée par la foudre environ six fois par an."
     },
     {
       "id": "15",
-      "question": "Le Mont Fuji est proche de quelle ville ?",
-      "answers": ["Osaka", "Tokyo", "Kyoto", "Nagoya"],
+      "question": "Quel monument new-yorkais détint le titre de plus haute structure du monde pendant environ 40 ans, de son inauguration en 1931 jusqu'aux années 1970 ?",
+      "answers": ["Chrysler Building", "Empire State Building", "Rockefeller Center", "Flatiron Building"],
       "correctIndex": 1,
-      "explanation": "Le Mont Fuji est un symbole culturel japonais, visible depuis Tokyo et profondément lié à l’identité nationale."
+      "explanation": "L'Empire State Building (443 m, antenne incluse) fut le plus haut bâtiment du monde de 1931 à 1972, date à laquelle la tour nord du World Trade Center l'éclipsa. Sa construction fut phénoménale : 3 400 ouvriers, 410 jours de travaux, à un rythme moyen d'un étage par jour. Il est aujourd'hui le 6e plus haut bâtiment de New York."
     },
     {
       "id": "16",
-      "question": "Dans quelle ville se trouve le Golden Gate Bridge ?",
-      "answers": ["Los Angeles", "San Francisco", "Seattle", "Portland"],
-      "correctIndex": 1,
-      "explanation": "Ce pont est un symbole de la côte ouest américaine et de l’ingénierie du XXe siècle."
+      "question": "Le château de Neuschwanstein, qui inspira les châteaux de Disney, est situé dans quelle région allemande, non loin de la ville de Füssen ?",
+      "answers": ["Rhénanie", "Saxe", "Prusse rhénane", "Bavière"],
+      "correctIndex": 3,
+      "explanation": "Neuschwanstein se trouve en Bavière, en Allemagne, perché dans les Alpes bavaroises près de Füssen — et non à Munich comme on l'imagine parfois. Il fut commandé par le roi Louis II de Bavière (« le roi fou ») et construit à partir de 1869. Ludwig mourut mystérieusement en 1886 avant de l'achever. La vue du château enneigé a directement inspiré Walt Disney pour le château de La Belle au Bois Dormant."
     },
     {
       "id": "17",
-      "question": "Dans quelle ville se trouve la Basilique Saint-Pierre ?",
-      "answers": ["Rome", "Florence", "Milan", "Naples"],
+      "question": "Dans quel État souverain — distinct de la ville de Rome — se trouve la chapelle Sixtine, dont le plafond fut peint par Michel-Ange entre 1508 et 1512 ?",
+      "answers": ["Vatican", "Italie", "Saint-Marin", "Monaco"],
       "correctIndex": 0,
-      "explanation": "Située au Vatican, elle est un centre religieux mondial et un chef-d’œuvre de la Renaissance."
+      "explanation": "La chapelle Sixtine se trouve au Vatican — État souverain enclavé dans Rome mais juridiquement distinct de l'Italie. Michel-Ange y peignit le plafond en 4 ans, souvent couché sur le dos sur un échafaudage (contrairement à l'image populaire d'un peintre debout). La célèbre scène de la Création d'Adam n'occupe qu'une petite partie du plafond parmi une cinquantaine de scènes tirées de la Genèse."
     },
     {
       "id": "18",
-      "question": "La Grande Muraille est proche de quelle ville majeure ?",
-      "answers": ["Shanghai", "Pékin", "Xi’an", "Chengdu"],
-      "correctIndex": 1,
-      "explanation": "La Grande Muraille près de Pékin montre l’importance stratégique historique de la capitale chinoise."
+      "question": "Quelle est la véritable nature géologique du mont Fuji, souvent perçu comme une montagne classique dans l'art traditionnel japonais ?",
+      "answers": ["Un massif granitique érodé par les glaciers", "Une falaise côtière d'origine sédimentaire", "Un stratovolcan actif (en sommeil depuis 1707)", "Un dôme volcanique éteint depuis l'ère tertiaire"],
+      "correctIndex": 2,
+      "explanation": "Le mont Fuji (3 776 m) est un stratovolcan actif, classé en « sommeil » depuis sa dernière éruption en 1707 (l'éruption Hōei). Il n'est pas « éteint ». Les autorités japonaises considèrent une future éruption comme un scénario réel. Une éruption majeure pourrait envoyer des cendres sur Tokyo, à 100 km. Inscrit à l'UNESCO en 2013, son ascension est réglementée pour préserver l'environnement."
     },
     {
       "id": "19",
-      "question": "Dans quelle ville se trouve Times Square ?",
-      "answers": ["New York", "Chicago", "Los Angeles", "Boston"],
-      "correctIndex": 0,
-      "explanation": "Times Square est un centre médiatique mondial, symbole du dynamisme urbain américain."
+      "question": "Qu'est-ce que le Kremlin de Moscou contient réellement, contrairement à l'image d'un simple palais présidentiel ?",
+      "answers": ["Uniquement les bureaux de la présidence russe", "Un stade militaire et des casernes d'entraînement", "Une prison d'État construite sous Ivan le Terrible", "Plusieurs palais, cathédrales, musées et bureaux gouvernementaux"],
+      "correctIndex": 3,
+      "explanation": "Le Kremlin (« forteresse » en russe) est un complexe de 27 hectares entouré de remparts, contenant plusieurs palais (Palais du Grand Kremlin), cinq cathédrales orthodoxes, des musées, des arsenaux et les bureaux présidentiels. C'est à la fois le cœur spirituel historique de la Russie et son centre de pouvoir politique. L'Armurerie y abrite les trésors impériaux russes."
     },
     {
       "id": "20",
-      "question": "Dans quelle ville se trouve le château de Neuschwanstein ?",
-      "answers": ["Berlin", "Munich", "Francfort", "Hambourg"],
+      "question": "Quelle est la hauteur officielle du Burj Khalifa de Dubaï, plus haut bâtiment du monde depuis son inauguration en 2010 ?",
+      "answers": ["620 m", "828 m", "1 000 m", "723 m"],
       "correctIndex": 1,
-      "explanation": "Ce château bavarois a inspiré les contes de fées et l’univers Disney, illustrant l’influence culturelle européenne."
+      "explanation": "Le Burj Khalifa (828 m) se trouve à Dubaï, aux Émirats arabes unis. Il dépasse de loin son concurrent le plus proche lors de son inauguration. Sa construction dura 6 ans (2004-2010) pour 160 étages utilisables. Par vent fort, le sommet peut osciller de 1,5 m. Pour les touristes, l'ascenseur vers l'observatoire (124e étage) est l'un des plus rapides du monde : 10 m/s."
     }
   ]
 }

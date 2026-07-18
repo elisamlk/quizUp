@@ -106,15 +106,20 @@
       "correctIndex": 3,
       "explanation": "Islamabad a été conçue comme une ville moderne, planifiée et moins congestionnée. Le déplacement visait à mieux organiser le pouvoir administratif et à réduire les pressions urbaines."
     },
-    {
-      "id": "11",
-      "question": "Quelle capitale indonésienne est en cours de remplacement ?",
-      "image": null,
-      "imagePrompt": "Jakarta",
-      "answers": ["Jakarta", "Surabaya", "Bandung", "Medan"],
-      "correctIndex": 0,
-      "explanation": "Jakarta s’enfonce progressivement à cause de l’affaissement du sol et de la montée des eaux. Le projet de Nusantara illustre un cas moderne où le changement de capitale est motivé par des enjeux environnementaux."
-    },
+   {
+  "id": "11",
+  "question": "Quelle capitale est progressivement remplacée par la nouvelle ville de Nusantara ?",
+  "image": null,
+  "imagePrompt": "Jakarta skyline",
+  "answers": [
+    "Jakarta",
+    "Surabaya",
+    "Bandung",
+    "Medan"
+  ],
+  "correctIndex": 0,
+  "explanation": "Jakarta reste aujourd'hui la capitale de l'Indonésie, mais le gouvernement a lancé la construction de Nusantara sur l'île de Bornéo. Ce transfert est motivé par l'affaissement des sols, les risques d'inondation et la volonté de mieux répartir le développement du pays."
+},
     {
       "id": "12",
       "question": "Quelle ville fut une capitale américaine avant Washington ?",
@@ -160,15 +165,20 @@
       "correctIndex": 2,
       "explanation": "Le changement de nom d’Astana reflète des enjeux politiques internes. Les capitales ne sont pas seulement des lieux, elles sont aussi des symboles du pouvoir."
     },
-    {
-      "id": "17",
-      "question": "Quelle capitale administrative du Sri Lanka complète Colombo ?",
-      "image": null,
-      "imagePrompt": "Sri Lanka parliament",
-      "answers": ["Colombo", "Kandy", "Galle", "Jaffna"],
-      "correctIndex": 0,
-      "explanation": "Le Sri Lanka a déplacé ses fonctions administratives pour désengorger Colombo. Ce modèle de double capitale est fréquent dans les pays en forte croissance urbaine."
-    },
+   {
+  "id": "17",
+  "question": "Quelle capitale administrative a remplacé Colombo pour accueillir le Parlement du Sri Lanka ?",
+  "image": null,
+  "imagePrompt": "Sri Jayawardenepura Kotte parliament",
+  "answers": [
+    "Kandy",
+    "Sri Jayawardenepura Kotte",
+    "Galle",
+    "Jaffna"
+  ],
+  "correctIndex": 1,
+  "explanation": "Depuis les années 1980, Sri Jayawardenepura Kotte accueille le Parlement et constitue la capitale administrative du Sri Lanka. Colombo demeure toutefois le principal centre économique et la plus grande ville du pays."
+},
     {
       "id": "18",
       "question": "Quelle capitale sud-coréenne n’a finalement pas été déplacée ?",
@@ -178,23 +188,33 @@
       "correctIndex": 3,
       "explanation": "Malgré des projets de décentralisation, Séoul reste dominante. Cela montre qu’il est très difficile de déplacer une capitale déjà très intégrée économiquement et politiquement."
     },
-    {
-      "id": "19",
-      "question": "Quelle capitale nigériane a été choisie pour sa neutralité ethnique ?",
-      "image": null,
-      "imagePrompt": "Abuja",
-      "answers": ["Abuja", "Lagos", "Kano", "Ibadan"],
-      "correctIndex": 0,
-      "explanation": "Abuja illustre parfaitement la logique de neutralité : éviter qu’un groupe ethnique ou régional domine les institutions nationales."
-    },
-    {
-      "id": "20",
-      "question": "Quelle capitale tanzanienne a remplacé Dar es Salaam ?",
-      "image": null,
-      "imagePrompt": "Dodoma city",
-      "answers": ["Arusha", "Dodoma", "Mwanza", "Zanzibar"],
-      "correctIndex": 1,
-      "explanation": "Le choix de Dodoma montre une volonté de recentrage politique vers l’intérieur du pays, loin du littoral historiquement privilégié."
-    }
+  {
+  "id": "19",
+  "question": "Quel est le nom de la nouvelle capitale actuellement construite pour remplacer progressivement Jakarta ?",
+  "image": null,
+  "imagePrompt": "Nusantara construction Indonesia",
+  "answers": [
+    "Bandung",
+    "Nusantara",
+    "Surabaya",
+    "Yogyakarta"
+  ],
+  "correctIndex": 1,
+  "explanation": "L'Indonésie construit actuellement Nusantara sur l'île de Bornéo afin de remplacer progressivement Jakarta. Ce projet vise notamment à réduire les risques liés à l'affaissement des sols, aux inondations et à mieux répartir le développement du pays."
+},
+  {
+  "id": "20",
+  "question": "Quelle ville allemande a servi de capitale de l'Allemagne de l'Ouest avant le retour à Berlin en 1990 ?",
+  "image": null,
+  "imagePrompt": "Bonn government district",
+  "answers": [
+    "Munich",
+    "Hambourg",
+    "Francfort",
+    "Bonn"
+  ],
+  "correctIndex": 3,
+  "explanation": "Après la Seconde Guerre mondiale, Bonn est devenue la capitale de la République fédérale d'Allemagne. À la réunification en 1990, Berlin a retrouvé son statut de capitale, même si plusieurs ministères sont restés implantés à Bonn."
+}
   ]
 }

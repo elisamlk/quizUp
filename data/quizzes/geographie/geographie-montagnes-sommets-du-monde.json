@@ -1,200 +1,158 @@
 {
-  "slug": "quiz-geographie-montagnes-et-sommets-celebres",
-  "title": "Quiz Géographie Montagnes et Sommets célèbres du monde - Niveau complet",
-  "description": "Teste tes connaissances avec 20 questions sur les montagnes et sommets les plus célèbres du monde.",
-  "descriptionSeo": "Testez vos connaissances avec ce quiz géographie sur les montagnes et sommets célèbres du monde. Everest, Kilimandjaro, Mont Blanc, Andes, Himalaya… 20 questions variées pour découvrir les plus hauts reliefs de la planète, leur localisation, leur formation et leur importance géographique. Idéal pour progresser en géographie tout en apprenant des informations passionnantes et utiles.",
-  "category": {
-    "name": "Géographie",
-    "slug": "geographie"
-  },
+  "slug": "quiz-geographie-grandes-montagnes-du-monde",
+  "title": "Quiz Géographie Grandes montagnes du monde - 20 questions pour tester ton niveau",
+  "description": "Teste tes connaissances avec 20 questions sur les plus grandes montagnes du monde.",
+  "publishedAt": "2026-03-30",
+  "descriptionSeo": "Teste tes connaissances avec ce quiz géographie sur les grandes montagnes du monde. Everest, K2, Mont Blanc, Kilimanjaro, Aconcagua, Denali, Vinson, Annapurna, Matterhorn… sauras-tu identifier les plus hauts sommets de chaque continent et leurs caractéristiques ?",
+  "category": { "name": "Géographie", "slug": "geographie" },
   "createdAt": "2026-03-30",
   "isNew": true,
   "isPopular": true,
   "images": {
-    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1774360044/cover_quaqic.jpg",
-    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1774360044/cover_quaqic.jpg",
-    "alt": "Quiz montagnes et sommets célèbres"
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777373928/montagne_svte1h.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777373928/montagne_svte1h.jpg",
+    "alt": "Quiz grandes montagnes du monde"
   },
   "questions": [
     {
       "id": "1",
-      "question": "Quel est le plus haut sommet du monde ?",
-      "image": null,
-      "imagePrompt": "Mount Everest summit Himalaya",
-      "answers": ["Everest", "K2", "Kangchenjunga", "Lhotse"],
-      "correctIndex": 0,
-      "explanation": "L’Everest est le point culminant de la planète avec 8 848 mètres. Il se situe dans l’Himalaya et symbolise les défis extrêmes de l’alpinisme, notamment à cause du manque d’oxygène en altitude."
+      "question": "Quel est le plus haut sommet du monde, culminant à 8 849 m dans l'Himalaya ?",
+      "answers": ["K2", "Everest", "Kangchenjunga", "Lhotse"],
+      "correctIndex": 1,
+      "explanation": "L'Everest (8 849 m) est le toit du monde. En 1953, Edmund Hillary et Tenzing Norgay réalisèrent la première ascension confirmée. Il fait l'objet d'une controverse : en 1924, Mallory et Irvine disparurent à quelques centaines de mètres du sommet. La mesure officielle a été révisée en 2020 de 8 848 m à 8 849 m grâce à des techniques GPS plus précises."
     },
     {
       "id": "2",
-      "question": "Dans quelle chaîne de montagnes se trouve le Mont Blanc ?",
-      "image": null,
-      "imagePrompt": "Mont Blanc Alps snow peak",
-      "answers": ["Pyrénées", "Alpes", "Carpates", "Apennins"],
-      "correctIndex": 1,
-      "explanation": "Le Mont Blanc appartient aux Alpes, une chaîne jeune formée par la collision des plaques tectoniques africaine et européenne. C’est un haut lieu de tourisme et d’alpinisme."
+      "question": "Quel est le plus haut sommet d'Amérique du Nord, culminant à 6 190 m en Alaska ?",
+      "answers": ["Denali", "Mont Logan", "Pico de Orizaba", "Mont Saint Elias"],
+      "correctIndex": 0,
+      "explanation": "Denali (anciennement Mont McKinley) est le plus haut sommet d'Amérique du Nord à 6 190 m. Situé en Alaska, il est connu pour ses conditions météorologiques extrêmes et les variations de température brutales. Sa première ascension certaine date de 1913. En dépit de son altitude modeste comparée à l'Everest, ses conditions arctiques en font l'un des défis alpinistiques les plus redoutables."
     },
     {
       "id": "3",
-      "question": "Quel sommet est le plus haut d’Afrique ?",
-      "image": null,
-      "imagePrompt": "Kilimanjaro summit Africa",
-      "answers": ["Mont Kenya", "Ruwenzori", "Kilimandjaro", "Atlas"],
+      "question": "Quel est le plus haut sommet d'Amérique du Sud, situé dans les Andes argentines à 6 961 m ?",
+      "answers": ["Ojos del Salado", "Huascarán", "Aconcagua", "Chimborazo"],
       "correctIndex": 2,
-      "explanation": "Le Kilimandjaro est un volcan isolé en Tanzanie. Il est remarquable car il s’élève au-dessus de plaines sans chaîne montagneuse autour, ce qui accentue son impression de hauteur."
+      "explanation": "L'Aconcagua est le plus haut sommet des deux hémisphères (occidental et austral) à 6 961 m. Situé en Argentine près de la frontière chilienne, il est accessible sans équipement de haute altitude spécialisé, faisant de lui l'une des montagnes les plus tentées par les amateurs de trekking. Paradoxalement, le Chimborazo en Équateur est le point le plus éloigné du centre de la Terre en raison du renflement équatorial."
     },
     {
       "id": "4",
-      "question": "Quelle est la plus longue chaîne de montagnes du monde ?",
-      "image": null,
-      "imagePrompt": "Andes mountains map",
-      "answers": ["Himalaya", "Rocheuses", "Alpes", "Andes"],
+      "question": "Quel est le deuxième plus haut sommet du monde à 8 611 m, au Pakistan, réputé pour être l'un des plus techniques et meurtriers à gravir ?",
+      "answers": ["Lhotse", "Makalu", "Kangchenjunga", "K2"],
       "correctIndex": 3,
-      "explanation": "Les Andes s’étendent sur toute la côte ouest de l’Amérique du Sud. Elles influencent fortement le climat, notamment en bloquant les masses d’air humides venant de l’océan."
+      "explanation": "Le K2 est le deuxième plus haut sommet du monde (8 611 m) et l'un des plus dangereux : environ 1 grimpeur sur 4 qui atteint le sommet n'en revient pas vivant. Situé à la frontière entre le Pakistan et la Chine, sa première ascension n'eut lieu qu'en 1954. Il n'a été gravi pour la première fois en hiver qu'en janvier 2021, par une équipe népalaise."
     },
     {
       "id": "5",
-      "question": "Quel sommet est réputé plus dangereux que l’Everest ?",
-      "image": null,
-      "imagePrompt": "K2 mountain Pakistan",
-      "answers": ["K2", "Makalu", "Lhotse", "Everest"],
-      "correctIndex": 0,
-      "explanation": "Le K2 est considéré comme l’un des sommets les plus difficiles au monde. Son taux de mortalité est élevé en raison de conditions extrêmes et de pentes très techniques."
+      "question": "Quel volcan japonais, symbole national du pays, est le plus haut sommet de l'archipel avec 3 776 m ?",
+      "answers": ["Mont Asama", "Mont Fuji", "Tateyama", "Mont Ibuki"],
+      "correctIndex": 1,
+      "explanation": "Le mont Fuji est un stratovolcan actif (dormant depuis 1707) et le symbole national du Japon. Inscrit à l'UNESCO, il est représenté dans d'innombrables estampes, notamment par Hokusai dans ses « 36 vues du mont Fuji ». Chaque été, environ 300 000 personnes l'escaladent. La dernière grande éruption, en 1707, fit pleuvoir des cendres jusqu'à Edo (Tokyo)."
     },
     {
       "id": "6",
-      "question": "Dans quel pays se trouve le mont Fuji ?",
-      "image": null,
-      "imagePrompt": "Mount Fuji Japan sunrise",
-      "answers": ["Chine", "Corée du Sud", "Japon", "Mongolie"],
-      "correctIndex": 2,
-      "explanation": "Le mont Fuji est un volcan sacré du Japon. Il est profondément ancré dans la culture japonaise et représente l’harmonie entre nature et spiritualité."
+      "question": "Quel est le plus haut sommet d'Afrique, volcan éteint situé en Tanzanie à 5 895 m ?",
+      "answers": ["Kilimandjaro", "Mont Kenya", "Ras Dashan", "Mont Cameroun"],
+      "correctIndex": 0,
+      "explanation": "Le Kilimandjaro (5 895 m) est un stratovolcan constitué de trois cônes volcaniques dont le Uhuru Peak, son point culminant. Ses glaciers sommitaux ont perdu plus de 85 % de leur volume depuis 1912 — un indicateur dramatique du réchauffement climatique en Afrique équatoriale. Sa première ascension fut réalisée en 1889 par Hans Meyer, un géographe allemand."
     },
     {
       "id": "7",
-      "question": "Quelle chaîne sépare l’Europe de l’Asie ?",
-      "image": null,
-      "imagePrompt": "Ural mountains map",
-      "answers": ["Oural", "Caucase", "Alpes", "Carpates"],
-      "correctIndex": 0,
-      "explanation": "L’Oural sert de limite conventionnelle entre Europe et Asie. Cette frontière est géographique mais aussi culturelle et historique."
+      "question": "Quel sommet de 8 126 m est surnommé « la Montagne Tueuse » en raison de l'un des taux de mortalité les plus élevés parmi les 8 000 m ?",
+      "answers": ["K2", "Annapurna", "Nanga Parbat", "Kangchenjunga"],
+      "correctIndex": 2,
+      "explanation": "Le Nanga Parbat (8 126 m) au Pakistan est surnommé « la Montagne Tueuse » (Killer Mountain) : des dizaines d'alpinistes y périrent avant sa première ascension par Hermann Buhl en 1953, en solo et sans oxygène — l'une des grandes épopées de l'alpinisme. Sa face Rupal (4 600 m de dénivelé) est la plus haute face de montagne du monde."
     },
     {
       "id": "8",
-      "question": "Quel sommet est à la frontière franco-italienne ?",
-      "image": null,
-      "imagePrompt": "Mont Blanc border",
-      "answers": ["Matterhorn", "Mont Blanc", "Eiger", "Gran Paradiso"],
-      "correctIndex": 1,
-      "explanation": "Le Mont Blanc est partagé entre la France et l’Italie. Il est au cœur de débats historiques sur sa localisation exacte."
+      "question": "Quel est le plus haut sommet de l'Antarctique, culminant à 4 892 m dans la chaîne Sentinel de la Terre de l'Ellsworth ?",
+      "answers": ["Mont Erebus", "Mont Sidley", "Mont Kirkpatrick", "Mont Vinson"],
+      "correctIndex": 3,
+      "explanation": "Le mont Vinson (4 892 m) est le plus haut sommet de l'Antarctique et figure dans la liste des « Seven Summits » (plus hauts sommets de chaque continent). Identifié seulement en 1958 et gravi pour la première fois en 1966, il est situé dans l'une des régions les plus isolées et froides de la planète. Son ascension nécessite un vol spécial depuis Punta Arenas au Chili."
     },
     {
       "id": "9",
-      "question": "Quelle chaîne se situe en Amérique du Nord ?",
-      "image": null,
-      "imagePrompt": "Rocky Mountains map",
-      "answers": ["Himalaya", "Rocheuses", "Andes", "Alpes"],
-      "correctIndex": 1,
-      "explanation": "Les Rocheuses forment une immense barrière naturelle influençant les climats et les écosystèmes nord-américains."
+      "question": "Quel est le plus haut sommet de l'île de Nouvelle-Guinée (Océanie), situé en Papouasie indonésienne à 4 884 m ?",
+      "answers": ["Puncak Jaya", "Aoraki / Mont Cook", "Mont Wilhelm", "Mont Giluwe"],
+      "correctIndex": 0,
+      "explanation": "Le Puncak Jaya (4 884 m) en Indonésie (Papouasie occidentale) est le plus haut sommet d'Océanie selon la définition qui inclut la Nouvelle-Guinée. Il est aussi le plus haut sommet entre l'Himalaya et les Andes. Ses glaciers (Carstensz) sont parmi les rares glaciers tropicaux du monde — et fondent rapidement. Son ascension nécessite une autorisation spéciale des autorités indonésiennes."
     },
     {
       "id": "10",
-      "question": "Quel est le plus haut sommet d’Europe ?",
-      "image": null,
-      "imagePrompt": "Mount Elbrus Caucasus",
-      "answers": ["Mont Blanc", "Mont Rose", "Elbrouz", "Matterhorn"],
-      "correctIndex": 2,
-      "explanation": "L’Elbrouz est situé dans le Caucase et dépasse le Mont Blanc en altitude. Il fait partie des 'Seven Summits', les plus hauts sommets de chaque continent."
+      "question": "Quel est le plus haut sommet d'Europe selon la définition plaçant la frontière au cœur du Caucase, culminant à 5 642 m en Russie ?",
+      "answers": ["Mont Blanc", "Elbrouz", "Grand Paradis", "Matterhorn"],
+      "correctIndex": 1,
+      "explanation": "L'Elbrouz (5 642 m) est un volcan éteint du Caucase (Russie). Si la frontière Europe-Asie est tracée à la ligne de partage des eaux du Grand Caucase, l'Elbrouz est en Europe et surpasse le Mont Blanc (4 808 m). Ce débat géographique structure le classement des Seven Summits : Edmund Hillary incluait le Mont Blanc, d'autres alpinistes préfèrent l'Elbrouz."
     },
     {
       "id": "11",
-      "question": "Dans quelle chaîne se trouve l’Everest ?",
-      "image": null,
-      "imagePrompt": "Himalaya Everest range",
-      "answers": ["Alpes", "Andes", "Rocheuses", "Himalaya"],
+      "question": "Quel est le plus haut sommet d'Europe occidentale, à la frontière franco-italienne, culminant à 4 808 m ?",
+      "answers": ["Grand Paradis", "Piz Bernina", "Dufourspitze", "Mont Blanc"],
       "correctIndex": 3,
-      "explanation": "L’Himalaya s’est formé par la collision de plaques tectoniques. Cette chaîne continue encore de s’élever aujourd’hui."
+      "explanation": "Le Mont Blanc (4 808 m) est le plus haut sommet des Alpes et d'Europe occidentale, à cheval entre la France (Haute-Savoie) et l'Italie (Val d'Aoste). Sa première ascension, en 1786 par Balmat et Paccard, marque le début de l'alpinisme moderne. Il attire annuellement 20 000 à 30 000 tentatives d'ascension, dont certaines sont mortelles en raison des mauvaises conditions météorologiques."
     },
     {
       "id": "12",
-      "question": "Quel sommet suisse a une forme pyramidale emblématique ?",
-      "image": null,
-      "imagePrompt": "Matterhorn peak",
-      "answers": ["Eiger", "Jungfrau", "Matterhorn", "Mont Blanc"],
+      "question": "Quel sommet népalais de 8 091 m affiche statistiquement le taux de mortalité le plus élevé parmi tous les 8 000 m du monde ?",
+      "answers": ["K2", "Dhaulagiri", "Annapurna", "Nanga Parbat"],
       "correctIndex": 2,
-      "explanation": "Le Matterhorn est célèbre pour sa forme unique. Il est devenu un symbole de l’alpinisme et de la Suisse."
+      "explanation": "L'Annapurna (8 091 m) au Népal affiche historiquement le taux de mortalité le plus élevé parmi les 8 000 m : environ 30 % avant les années 2000, stabilisé depuis à environ 17 %. Il fut pourtant le premier 8 000 m à être gravi, en 1950 par Maurice Herzog et Louis Lachenal, dans ce qui reste l'une des épopées les plus dramatiques de l'alpinisme (Herzog perdit ses doigts au froid)."
     },
     {
       "id": "13",
-      "question": "Quelle chaîne traverse l’Asie du Sud ?",
-      "image": null,
-      "imagePrompt": "Himalaya map Asia",
-      "answers": ["Atlas", "Himalaya", "Alpes", "Carpates"],
-      "correctIndex": 1,
-      "explanation": "L’Himalaya influence les moussons en Asie et constitue une barrière climatique majeure entre le nord et le sud du continent."
+      "question": "Quel est le plus haut sommet d'Australie continentale, souvent cité parmi les Seven Summits dans la version de Bass/Wells, à seulement 2 228 m ?",
+      "answers": ["Mont Kosciuszko", "Mont Bogong", "Mont Baw Baw", "Mont Feathertop"],
+      "correctIndex": 0,
+      "explanation": "Le mont Kosciuszko (2 228 m), dans la Nouvelle-Galles du Sud en Australie, est le plus haut sommet du continent australien. Sa faible altitude en fait le plus accessible des Seven Summits — une randonnée bien équipée y suffit. Il est nommé en hommage à Tadeusz Kościuszko, héros polonais de la guerre d'indépendance américaine, dont le nom est souvent mal orthographié."
     },
     {
       "id": "14",
-      "question": "Quel est le plus haut sommet d’Amérique du Nord ?",
-      "image": null,
-      "imagePrompt": "Denali Alaska",
-      "answers": ["Mont Logan", "Denali", "Rainier", "Whitney"],
-      "correctIndex": 1,
-      "explanation": "Denali est remarquable par son isolement et son dénivelé. Il représente un défi physique bien plus important que son altitude seule."
+      "question": "Quel est le plus haut sommet de Nouvelle-Zélande, connu sous son nom māori signifiant « nuage perceur du ciel » ?",
+      "answers": ["Mount Taranaki", "Ruapehu", "Tongariro", "Aoraki / Mont Cook"],
+      "correctIndex": 3,
+      "explanation": "Aoraki / Mont Cook (3 724 m) est le plus haut sommet de Nouvelle-Zélande. Son nom māori Aoraki signifie approximativement « nuage perceur de ciel ». Il est situé dans le parc national du même nom, sur l'île du Sud. Sir Edmund Hillary, conquérant de l'Everest, s'y entraîna avant son ascension historique de 1953. Son glacier Tasman est le plus long de l'hémisphère sud."
     },
     {
       "id": "15",
-      "question": "Quelle chaîne se situe en Afrique du Nord ?",
-      "image": null,
-      "imagePrompt": "Atlas mountains",
-      "answers": ["Atlas", "Rocheuses", "Andes", "Himalaya"],
-      "correctIndex": 0,
-      "explanation": "L’Atlas joue un rôle de barrière climatique entre les zones humides du nord et le désert du Sahara."
+      "question": "Quel stratovolcan iranien, plus haut sommet du Moyen-Orient à 5 671 m, domine la plaine de Téhéran depuis le nord ?",
+      "answers": ["Ararat", "Damavand", "Sabalan", "Alamkuh"],
+      "correctIndex": 1,
+      "explanation": "Le Damavand (5 671 m) dans la chaîne de l'Alborz est le plus haut volcan d'Asie et le plus haut sommet du Moyen-Orient. Il est visible depuis Téhéran par temps clair et est profondément enraciné dans la mythologie iranienne. Selon la légende, le monstre Zahhak y serait enchaîné dans les profondeurs du volcan. C'est aussi le 12e plus haut sommet du monde en dénivelé relatif."
     },
     {
       "id": "16",
-      "question": "Quel volcan actif se trouve en Italie ?",
-      "image": null,
-      "imagePrompt": "Etna eruption",
-      "answers": ["Vésuve", "Stromboli", "Mont Blanc", "Etna"],
-      "correctIndex": 3,
-      "explanation": "L’Etna est l’un des volcans les plus actifs au monde. Il est étudié pour mieux comprendre les phénomènes volcaniques."
+      "question": "Quel massif montagneux de Turquie (5 137 m) est considéré comme le lieu de repos de l'arche de Noé et reste le symbole national de l'Arménie voisine ?",
+      "answers": ["Erciyes", "Süphan", "Ararat", "Nemrut"],
+      "correctIndex": 2,
+      "explanation": "L'Ararat (5 137 m) est le plus haut sommet de Turquie. Bien qu'il soit situé sur le territoire turc depuis 1921, il reste le symbole national et l'emblème officiel de l'Arménie — une blessure géopolitique vive. Selon la Genèse, l'arche de Noé s'y serait échouée après le Déluge. Des expéditions archéologiques cherchent encore à en trouver des vestiges dans les glaces sommitales."
     },
     {
       "id": "17",
-      "question": "Quelle chaîne sépare la France et l’Espagne ?",
-      "image": null,
-      "imagePrompt": "Pyrenees mountains",
-      "answers": ["Alpes", "Carpates", "Pyrénées", "Apennins"],
-      "correctIndex": 2,
-      "explanation": "Les Pyrénées ont longtemps constitué une frontière naturelle limitant les échanges entre les deux pays."
+      "question": "Quel est le plus haut sommet du Canada, culminant à 5 959 m au Yukon, deuxième d'Amérique du Nord après le Denali ?",
+      "answers": ["Mont Logan", "Mont Fairweather", "Mont Saint Elias", "Mont Columbia"],
+      "correctIndex": 0,
+      "explanation": "Le mont Logan (5 959 m) est le plus haut sommet du Canada et le deuxième d'Amérique du Nord. Situé dans le parc national Kluane au Yukon, il détient un record original : son plateau sommital est si vaste qu'il possède l'une des plus grandes circonférences de base de toute montagne terrestre. Les conditions météorologiques y sont parmi les plus rudes du globe."
     },
     {
       "id": "18",
-      "question": "Quel est le plus haut sommet d’Amérique du Sud ?",
-      "image": null,
-      "imagePrompt": "Aconcagua Andes",
-      "answers": ["Chimborazo", "Huascarán", "Aconcagua", "Illimani"],
-      "correctIndex": 2,
-      "explanation": "L’Aconcagua est le plus haut sommet hors Asie. Il attire de nombreux alpinistes car il est accessible sans techniques extrêmes."
+      "question": "Quel est le deuxième plus haut sommet d'Afrique, situé au Kenya à 5 199 m et deuxième plus haut volcan du continent ?",
+      "answers": ["Ras Dashan", "Mont Stanley", "Batian", "Mont Kenya"],
+      "correctIndex": 3,
+      "explanation": "Le mont Kenya (5 199 m) est le deuxième plus haut sommet d'Afrique. Son pic principal Batian est l'un des sommets les plus techniques du continent. Ancienne demeure des dieux dans la mythologie kikuyu, il est classé au patrimoine mondial de l'UNESCO. Ses glaciers, qui recouvraient 70 km² en 1900, n'occupent plus que 0,4 km² aujourd'hui — une catastrophe glaciologique en direct."
     },
     {
       "id": "19",
-      "question": "Quelle chaîne traverse l’Italie ?",
-      "image": null,
-      "imagePrompt": "Apennines Italy",
-      "answers": ["Apennins", "Alpes", "Atlas", "Carpates"],
-      "correctIndex": 0,
-      "explanation": "Les Apennins structurent toute la péninsule italienne et influencent fortement son relief et son climat."
+      "question": "Quel est le plus haut sommet du Venezuela, culminant à 4 978 m dans la Sierra Nevada de Mérida ?",
+      "answers": ["Pico Naiguatá", "Pico Bolívar", "Pico Humboldt", "Pico La Corona"],
+      "correctIndex": 1,
+      "explanation": "Le Pico Bolívar (4 978 m) est le plus haut sommet du Venezuela, nommé en hommage au Libertador Simón Bolívar. Il est accessible depuis la ville de Mérida via l'un des plus hauts téléphériques du monde (inauguré en 1958, remplacé en 2016). Son glacier sommital, l'un des rares glaciers tropicaux, est aujourd'hui presque entièrement disparu, victime du réchauffement climatique."
     },
     {
       "id": "20",
-      "question": "Quel sommet attire le plus d’alpinistes chaque année ?",
-      "image": null,
-      "imagePrompt": "Everest climbers",
-      "answers": ["Makalu", "Lhotse", "Everest", "K2"],
+      "question": "Quel sommet alpin de 4 478 m, à la frontière entre la Suisse et l'Italie, est reconnaissable à son profil pyramidal unique ?",
+      "answers": ["Eiger", "Jungfrau", "Matterhorn", "Monte Rosa"],
       "correctIndex": 2,
-      "explanation": "L’Everest reste le sommet le plus convoité au monde. Malgré sa popularité, les risques restent élevés, notamment en raison des embouteillages en altitude et des conditions extrêmes."
+      "explanation": "Le Matterhorn (Cervin en français, 4 478 m) est l'une des montagnes les plus reconnaissables du monde, à la frontière entre la Suisse (Zermatt) et l'Italie (Breuil-Cervinia). Sa forme pyramidale parfaite en a fait l'emblème par excellence des Alpes, reproduit sur des milliers de chocolats et affiches touristiques. Sa première ascension en 1865 coûta la vie à 4 des 7 grimpeurs lors de la descente — un drame qui secoua l'Europe entière."
     }
   ]
 }

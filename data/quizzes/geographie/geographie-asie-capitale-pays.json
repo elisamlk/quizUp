@@ -19,140 +19,240 @@
     {
       "id": "1",
       "question": "Tokyo est la capitale de quel pays ?",
-      "answers": ["Chine", "Corée du Sud", "Thaïlande", "Japon"],
+      "answers": [
+        "Chine",
+        "Corée du Sud",
+        "Thaïlande",
+        "Japon"
+      ],
       "correctIndex": 3,
       "explanation": "Tokyo est la plus grande métropole du monde. Sa position insulaire influence fortement l’économie japonaise, tournée vers le commerce maritime et l’innovation."
     },
     {
       "id": "2",
       "question": "Pékin est la capitale de quel pays ?",
-      "answers": ["Japon", "Vietnam", "Corée du Nord", "Chine"],
+      "answers": [
+        "Japon",
+        "Vietnam",
+        "Corée du Nord",
+        "Chine"
+      ],
       "correctIndex": 3,
       "explanation": "Pékin est le centre politique de la Chine, tandis que Shanghai est davantage économique. Cela illustre la distinction fréquente entre capitales politiques et économiques."
     },
     {
       "id": "3",
       "question": "New Delhi est la capitale de quel pays ?",
-      "answers": ["Pakistan", "Inde", "Bangladesh", "Népal"],
+      "answers": [
+        "Pakistan",
+        "Inde",
+        "Bangladesh",
+        "Népal"
+      ],
       "correctIndex": 1,
       "explanation": "New Delhi est la capitale administrative de l’Inde, intégrée dans la mégapole de Delhi, l’une des plus peuplées au monde."
     },
     {
       "id": "4",
       "question": "Bangkok est la capitale de quel pays ?",
-      "answers": ["Thaïlande", "Cambodge", "Laos", "Vietnam"],
+      "answers": [
+        "Thaïlande",
+        "Cambodge",
+        "Laos",
+        "Vietnam"
+      ],
       "correctIndex": 0,
-      "explanation": "Bangkok est une ville traversée par de nombreux canaux, ce qui lui vaut le surnom de “Venise de l’Asie”."
+      "explanation": "Bangkok s'est développée autour d'un vaste réseau de canaux, appelés khlongs, qui ont longtemps constitué les principales voies de transport et de commerce de la ville. Aujourd'hui encore, ils témoignent de son riche héritage historique."
     },
     {
       "id": "5",
       "question": "Séoul est la capitale de quel pays ?",
-      "answers": ["Japon", "Corée du Sud", "Corée du Nord", "Chine"],
+      "answers": [
+        "Japon",
+        "Corée du Sud",
+        "Corée du Nord",
+        "Chine"
+      ],
       "correctIndex": 1,
       "explanation": "Séoul est située près de la frontière nord-coréenne, ce qui souligne les tensions géopolitiques de la péninsule coréenne."
     },
     {
       "id": "6",
       "question": "Jakarta est la capitale de quel pays ?",
-      "answers": ["Malaisie", "Philippines", "Indonésie", "Thaïlande"],
+      "answers": [
+        "Malaisie",
+        "Philippines",
+        "Indonésie",
+        "Thaïlande"
+      ],
       "correctIndex": 2,
-      "explanation": "Jakarta est située sur l’île de Java, l’une des zones les plus densément peuplées du monde."
+      "explanation": "Jakarta est située sur l'île de Java, l'une des régions les plus densément peuplées du monde. L'Indonésie a toutefois engagé le transfert progressif de sa capitale vers Nusantara, sur l'île de Bornéo."
     },
     {
       "id": "7",
       "question": "Manille est la capitale de quel pays ?",
-      "answers": ["Indonésie", "Vietnam", "Malaisie", "Philippines"],
+      "answers": [
+        "Indonésie",
+        "Vietnam",
+        "Malaisie",
+        "Philippines"
+      ],
       "correctIndex": 3,
       "explanation": "Manille est une capitale insulaire, ce qui illustre la fragmentation géographique des Philippines en milliers d’îles."
     },
     {
       "id": "8",
       "question": "Hanoï est la capitale de quel pays ?",
-      "answers": ["Vietnam", "Laos", "Cambodge", "Thaïlande"],
+      "answers": [
+        "Vietnam",
+        "Laos",
+        "Cambodge",
+        "Thaïlande"
+      ],
       "correctIndex": 0,
       "explanation": "Hanoï est située au nord du Vietnam, contrairement à Ho Chi Minh-Ville qui est le centre économique du sud."
     },
     {
       "id": "9",
       "question": "Kuala Lumpur est la capitale de quel pays ?",
-      "answers": ["Indonésie", "Malaisie", "Singapour", "Brunei"],
+      "answers": [
+        "Indonésie",
+        "Malaisie",
+        "Singapour",
+        "Brunei"
+      ],
       "correctIndex": 1,
       "explanation": "Kuala Lumpur est la capitale économique, mais Putrajaya est la capitale administrative, ce qui est souvent méconnu."
     },
     {
       "id": "10",
       "question": "Islamabad est la capitale de quel pays ?",
-      "answers": ["Inde", "Afghanistan", "Iran", "Pakistan"],
+      "answers": [
+        "Inde",
+        "Afghanistan",
+        "Iran",
+        "Pakistan"
+      ],
       "correctIndex": 3,
-      "explanation": "Islamabad a été construite pour remplacer Karachi, afin de mieux répartir le pouvoir politique."
+      "explanation": "Islamabad est devenue la capitale du Pakistan dans les années 1960 afin de remplacer Karachi, jugée trop excentrée et trop exposée aux enjeux du littoral. Sa position plus centrale devait favoriser un meilleur équilibre administratif."
     },
     {
       "id": "11",
       "question": "Riyad est la capitale de quel pays ?",
-      "answers": ["Arabie saoudite", "Qatar", "Koweït", "Oman"],
+      "answers": [
+        "Arabie saoudite",
+        "Qatar",
+        "Koweït",
+        "Oman"
+      ],
       "correctIndex": 0,
-      "explanation": "Riyad est située dans le désert, illustrant l’importance du pétrole dans le développement urbain du pays."
+      "explanation": "Riyad est située au cœur du désert d'Arabie. Son développement spectaculaire au XXᵉ siècle a accompagné l'essor économique de l'Arabie saoudite, largement soutenu par les revenus issus du pétrole."
     },
     {
       "id": "12",
       "question": "Ankara est la capitale de quel pays ?",
-      "answers": ["Grèce", "Iran", "Turquie", "Bulgarie"],
+      "answers": [
+        "Grèce",
+        "Iran",
+        "Turquie",
+        "Bulgarie"
+      ],
       "correctIndex": 2,
       "explanation": "Ankara est devenue capitale pour des raisons stratégiques, plus centrale que l’ancienne capitale Istanbul."
     },
     {
       "id": "13",
       "question": "Kaboul est la capitale de quel pays ?",
-      "answers": ["Afghanistan", "Pakistan", "Iran", "Tadjikistan"],
+      "answers": [
+        "Afghanistan",
+        "Pakistan",
+        "Iran",
+        "Tadjikistan"
+      ],
       "correctIndex": 0,
       "explanation": "Kaboul est située dans une région montagneuse, ce qui a fortement influencé son histoire et ses difficultés d’accès."
     },
     {
       "id": "14",
       "question": "Téhéran est la capitale de quel pays ?",
-      "answers": ["Irak", "Iran", "Syrie", "Turquie"],
+      "answers": [
+        "Irak",
+        "Iran",
+        "Syrie",
+        "Turquie"
+      ],
       "correctIndex": 1,
       "explanation": "Téhéran est située au pied des montagnes de l’Elbourz, ce qui influence son climat et son expansion urbaine."
     },
     {
       "id": "15",
       "question": "Doha est la capitale de quel pays ?",
-      "answers": ["Émirats arabes unis", "Koweït", "Bahreïn", "Qatar"],
-      "correctIndex": 3,
-      "explanation": "Doha est une ville en pleine expansion, symbole du développement rapide des États du Golfe grâce aux hydrocarbures."
+      "answers": [
+        "Qatar",
+        "Bahreïn",
+        "Émirats arabes unis",
+        "Koweït"
+      ],
+      "correctIndex": 0,
+      "explanation": "Doha est la capitale du Qatar et concentre l'essentiel de la population du pays. Son développement spectaculaire s'explique en grande partie par l'exploitation du gaz naturel et du pétrole, qui ont profondément transformé son économie."
     },
     {
       "id": "16",
       "question": "Damas est la capitale de quel pays ?",
-      "answers": ["Liban", "Jordanie", "Syrie", "Irak"],
+      "answers": [
+        "Liban",
+        "Jordanie",
+        "Syrie",
+        "Irak"
+      ],
       "correctIndex": 2,
       "explanation": "Damas est l’une des plus anciennes villes habitées en continu au monde, ce qui en fait un repère historique majeur."
     },
     {
       "id": "17",
       "question": "Amman est la capitale de quel pays ?",
-      "answers": ["Jordanie", "Liban", "Irak", "Israël"],
+      "answers": [
+        "Jordanie",
+        "Liban",
+        "Irak",
+        "Israël"
+      ],
       "correctIndex": 0,
-      "explanation": "Amman est une capitale stable dans une région géopolitiquement instable, ce qui en fait un point stratégique."
+      "explanation": "Construite sur plusieurs collines, Amman est aujourd'hui le principal centre politique, économique et culturel de la Jordanie. Son emplacement en fait un carrefour important entre le Levant et la péninsule Arabique."
     },
     {
       "id": "18",
       "question": "Oulan-Bator est la capitale de quel pays ?",
-      "answers": ["Kazakhstan", "Mongolie", "Kirghizistan", "Chine"],
+      "answers": [
+        "Kazakhstan",
+        "Mongolie",
+        "Kirghizistan",
+        "Chine"
+      ],
       "correctIndex": 1,
       "explanation": "Oulan-Bator est la capitale la plus froide du monde, illustrant les conditions climatiques extrêmes de la Mongolie."
     },
     {
       "id": "19",
       "question": "Katmandou est la capitale de quel pays ?",
-      "answers": ["Bhoutan", "Népal", "Inde", "Bangladesh"],
+      "answers": [
+        "Bhoutan",
+        "Népal",
+        "Inde",
+        "Bangladesh"
+      ],
       "correctIndex": 1,
-      "explanation": "Katmandou est située dans une vallée de l’Himalaya, ce qui explique son isolement relatif et son importance culturelle."
+      "explanation": "Katmandou est située dans une vallée au cœur de l'Himalaya. Son emplacement a favorisé le développement d'une riche culture et d'un patrimoine remarquable, tout en limitant longtemps les échanges avec les régions voisines."
     },
     {
       "id": "20",
       "question": "Vientiane est la capitale de quel pays ?",
-      "answers": ["Cambodge", "Thaïlande", "Vietnam", "Laos"],
+      "answers": [
+        "Cambodge",
+        "Thaïlande",
+        "Vietnam",
+        "Laos"
+      ],
       "correctIndex": 3,
       "explanation": "Vientiane est située sur le Mékong, un fleuve majeur d’Asie du Sud-Est qui structure les échanges régionaux."
     }

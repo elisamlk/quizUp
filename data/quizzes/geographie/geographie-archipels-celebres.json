@@ -23,7 +23,7 @@
       "imagePrompt": "Maldives aerial islands",
       "answers": ["Océan Atlantique", "Océan Pacifique", "Océan Indien", "Océan Arctique"],
       "correctIndex": 2,
-      "explanation": "Les Maldives sont un archipel corallien extrêmement bas, menacé par la montée des eaux. Leur formation en atolls est un exemple classique de construction récifale tropicale."
+      "explanation": "Les Maldives forment un archipel corallien particulièrement bas, dont une grande partie du territoire est vulnérable à l’élévation du niveau de la mer. Leurs îles sont regroupées en atolls formés autour d’anciens édifices volcaniques."
     },
     {
       "id": "2",
@@ -32,47 +32,47 @@
       "imagePrompt": "Galapagos wildlife",
       "answers": ["Canaries", "Fidji", "Hawaï", "Galápagos"],
       "correctIndex": 3,
-      "explanation": "Les Galápagos ont permis à Darwin d’observer des espèces évoluant différemment selon les îles, fondement de sa théorie de l’évolution."
+      "explanation": "Lors de son voyage à bord du Beagle, Charles Darwin observa aux Galápagos des variations entre des espèces vivant sur différentes îles. Ces observations contribuèrent ensuite à sa réflexion sur l’évolution par sélection naturelle."
     },
-    {
-      "id": "3",
-      "question": "Quel est le plus grand archipel du monde ?",
-      "image": null,
-      "imagePrompt": "Indonesia map islands",
-      "answers": ["Indonésie", "Philippines", "Japon", "Grèce"],
-      "correctIndex": 0,
-      "explanation": "Avec plus de 17 000 îles, l’Indonésie est le plus vaste archipel et se situe sur une zone volcanique très active."
-    },
-    {
-      "id": "4",
-      "question": "Quel archipel est célèbre pour ses volcans actifs ?",
-      "image": null,
-      "imagePrompt": "Hawaii volcano lava",
-      "answers": ["Seychelles", "Bahamas", "Madagascar", "Hawaï"],
-      "correctIndex": 3,
-      "explanation": "Hawaï s’est formé au-dessus d’un point chaud. Certaines îles continuent encore aujourd’hui de se former."
-    },
+  {
+  "id": "3",
+  "question": "Quel pays est généralement considéré comme le plus grand État archipélagique du monde ?",
+  "image": null,
+  "imagePrompt": "Indonesia archipelago aerial islands and volcanoes",
+  "answers": ["Indonésie", "Philippines", "Japon", "Grèce"],
+  "correctIndex": 0,
+  "explanation": "L’Indonésie est généralement considérée comme le plus grand État archipélagique du monde. Elle s’étend sur environ 17 000 îles entre les océans Indien et Pacifique et se trouve en grande partie sur la ceinture de feu du Pacifique."
+},
+{
+  "id": "4",
+  "question": "Quel archipel américain s’est formé au-dessus d’un point chaud volcanique du Pacifique ?",
+  "image": null,
+  "imagePrompt": "Hawaii active volcano lava ocean",
+  "answers": ["Aléoutiennes", "Mariannes", "Hawaï", "Galápagos"],
+  "correctIndex": 2,
+  "explanation": "Les îles hawaïennes se sont formées successivement au-dessus d’un point chaud volcanique, tandis que la plaque pacifique se déplaçait. La Grande Île abrite encore plusieurs volcans actifs, notamment le Kīlauea et le Mauna Loa."
+},
     {
       "id": "5",
-      "question": "Quel archipel européen se situe au large du Maroc ?",
+      "question": "Quel archipel espagnol se situe au large des côtes du nord-ouest de l’Afrique ?",
       "image": null,
       "imagePrompt": "Canary islands coast",
       "answers": ["Baléares", "Canaries", "Açores", "Cyclades"],
       "correctIndex": 1,
       "explanation": "Les Canaries appartiennent à l’Espagne mais sont géographiquement proches de l’Afrique, avec un climat subtropical unique."
     },
-    {
-      "id": "6",
-      "question": "Quel archipel est connu pour Bora Bora ?",
-      "image": null,
-      "imagePrompt": "Bora Bora lagoon",
-      "answers": ["Philippines", "Caraïbes", "Polynésie française", "Japon"],
-      "correctIndex": 2,
-      "explanation": "Bora Bora est un ancien volcan entouré d’un lagon, typique des archipels volcaniques tropicaux."
-    },
+  {
+  "id": "6",
+  "question": "Dans quel archipel de Polynésie française se trouve Bora Bora ?",
+  "image": null,
+  "imagePrompt": "Bora Bora lagoon Society Islands aerial",
+  "answers": ["Îles Marquises", "Îles Australes", "Îles de la Société", "Îles Tuamotu"],
+  "correctIndex": 2,
+  "explanation": "Bora Bora appartient aux îles Sous-le-Vent, elles-mêmes intégrées à l’archipel de la Société en Polynésie française. Son lagon entoure les vestiges d’un ancien volcan dominé par le mont Otemanu."
+},
     {
       "id": "7",
-      "question": "Quel archipel volcanique se trouve dans l’Atlantique nord ?",
+      "question": "Quel archipel portugais de l'Atlantique Nord se situe près de la jonction de plusieurs plaques tectoniques ?",
       "image": null,
       "imagePrompt": "Azores landscape",
       "answers": ["Maldives", "Fidji", "Galápagos", "Açores"],
@@ -81,58 +81,58 @@
     },
     {
       "id": "8",
-      "question": "Quel archipel est composé de plus de 7000 îles en Asie ?",
+      "question": "Quel pays d'Asie du Sud-Est est un archipel composé de plus de 7600 îles ?",
       "image": null,
       "imagePrompt": "Philippines islands",
       "answers": ["Japon", "Philippines", "Malaisie", "Sri Lanka"],
       "correctIndex": 1,
       "explanation": "Les Philippines ont une diversité culturelle exceptionnelle liée à leur fragmentation insulaire."
     },
-    {
-      "id": "9",
-      "question": "Quel archipel est célèbre pour les statues Moaï ?",
-      "image": null,
-      "imagePrompt": "Easter island moai",
-      "answers": ["Île de Pâques", "Samoa", "Fidji", "Tonga"],
-      "correctIndex": 0,
-      "explanation": "Les Moaï représentent probablement des ancêtres et sont tournés vers les terres habitées."
-    },
-    {
-      "id": "10",
-      "question": "Quel archipel est un pays du Pacifique Sud ?",
-      "image": null,
-      "imagePrompt": "Fiji islands",
-      "answers": ["Canaries", "Açores", "Baléares", "Fidji"],
-      "correctIndex": 3,
-      "explanation": "Les Fidji sont un État indépendant avec plus de 300 îles et une riche biodiversité marine."
-    },
+ {
+  "id": "9",
+  "question": "Quel archipel micronésien est célèbre pour ses Rock Islands et son lagon parsemé d’îlots calcaires ?",
+  "image": null,
+  "imagePrompt": "Palau Rock Islands aerial lagoon",
+  "answers": ["Palaos", "Samoa", "Tonga", "Vanuatu"],
+  "correctIndex": 0,
+  "explanation": "Les Palaos forment un archipel de Micronésie célèbre pour les Rock Islands, un ensemble spectaculaire d’îlots calcaires couverts de végétation. Leur lagon abrite une biodiversité marine exceptionnelle."
+},
+{
+  "id": "10",
+  "question": "Quel État insulaire du Pacifique Sud a pour capitale Suva ?",
+  "image": null,
+  "imagePrompt": "Fiji islands tropical aerial",
+  "answers": ["Samoa", "Tonga", "Vanuatu", "Fidji"],
+  "correctIndex": 3,
+  "explanation": "Les Fidji sont un État insulaire du Pacifique Sud formé de plus de 300 îles. Les deux principales, Viti Levu et Vanua Levu, concentrent la majorité de la population, et Suva se trouve sur Viti Levu."
+},
     {
       "id": "11",
-      "question": "Quelle est la plus grande île du Japon ?",
+      "question": "Sur quelle île de l'archipel japonais se trouvent Tokyo, Kyoto et Osaka ?",
       "image": null,
       "imagePrompt": "Japan Honshu map",
       "answers": ["Kyushu", "Honshu", "Hokkaido", "Shikoku"],
       "correctIndex": 1,
       "explanation": "Honshu est le centre économique et politique du Japon, regroupant les principales métropoles."
     },
-    {
-      "id": "12",
-      "question": "Quel archipel est célèbre pour ses plages roses ?",
-      "image": null,
-      "imagePrompt": "Pink sand Bahamas",
-      "answers": ["Bahamas", "Seychelles", "Maldives", "Hawaï"],
-      "correctIndex": 0,
-      "explanation": "Les plages roses proviennent de micro-organismes marins mélangés au sable."
-    },
-    {
-      "id": "13",
-      "question": "Quel archipel se situe dans l’océan Indien près de l’Afrique ?",
-      "image": null,
-      "imagePrompt": "Seychelles aerial",
-      "answers": ["Canaries", "Seychelles", "Galápagos", "Fidji"],
-      "correctIndex": 1,
-      "explanation": "Les Seychelles combinent îles coralliennes et granitiques, un cas rare au monde."
-    },
+  {
+  "id": "12",
+  "question": "Dans quel archipel se trouve la célèbre Pink Sands Beach de Harbour Island ?",
+  "image": null,
+  "imagePrompt": "Pink Sands Beach Harbour Island Bahamas",
+  "answers": ["Bahamas", "Seychelles", "Bermudes", "Maldives"],
+  "correctIndex": 0,
+  "explanation": "Pink Sands Beach se trouve à Harbour Island, dans les Bahamas. La teinte rosée du sable provient notamment de minuscules fragments d’organismes marins à coquille rouge ou rose mélangés au sable blanc."
+},
+{
+  "id": "13",
+  "question": "Quel archipel de l’océan Indien comprend les îles de Mahé, Praslin et La Digue ?",
+  "image": null,
+  "imagePrompt": "Seychelles Mahé Praslin La Digue aerial",
+  "answers": ["Comores", "Seychelles", "Maldives", "Mascareignes"],
+  "correctIndex": 1,
+  "explanation": "Les Seychelles comprennent des îles granitiques, comme Mahé, Praslin et La Digue, ainsi que des îles coralliennes plus éloignées. Cette combinaison géologique est relativement rare parmi les archipels tropicaux."
+},
     {
       "id": "14",
       "question": "Quel archipel grec est célèbre pour Santorin ?",
@@ -140,7 +140,7 @@
       "imagePrompt": "Santorini domes",
       "answers": ["Cyclades", "Ioniennes", "Sporades", "Dodécanèse"],
       "correctIndex": 0,
-      "explanation": "Santorin est une caldeira volcanique spectaculaire formée après une éruption majeure."
+      "explanation": "Santorin appartient aux Cyclades. Son paysage actuel s'organise autour d'une vaste caldeira volcanique façonnée notamment par une éruption majeure durant l'âge du Bronze."
     },
     {
       "id": "15",
@@ -149,52 +149,57 @@
       "imagePrompt": "Svalbard ice",
       "answers": ["Groenland", "Islande", "Féroé", "Svalbard"],
       "correctIndex": 3,
-      "explanation": "Le Svalbard est un territoire clé pour l’étude du climat arctique et de la faune polaire."
+      "explanation": "Le Svalbard est un archipel norvégien situé dans l'océan Arctique. Il abrite notamment des ours polaires, de vastes glaciers et plusieurs stations scientifiques consacrées à l'étude du climat."
     },
-    {
-      "id": "16",
-      "question": "Quel archipel est l’un des plus isolés du monde ?",
-      "image": null,
-      "imagePrompt": "Tristan da Cunha",
-      "answers": ["Tristan da Cunha", "Maldives", "Japon", "Philippines"],
-      "correctIndex": 0,
-      "explanation": "Tristan da Cunha est accessible uniquement par bateau après plusieurs jours de navigation."
-    },
-    {
-      "id": "17",
-      "question": "Quel archipel portugais est connu pour ses paysages montagneux ?",
-      "image": null,
-      "imagePrompt": "Madeira cliffs",
-      "answers": ["Madère", "Açores", "Canaries", "Baléares"],
-      "correctIndex": 0,
-      "explanation": "Madère est réputée pour ses reliefs abrupts et ses levadas, canaux d’irrigation historiques."
-    },
-    {
-      "id": "18",
-      "question": "Quel archipel appartient à l’Espagne en Méditerranée ?",
-      "image": null,
-      "imagePrompt": "Balearic islands",
-      "answers": ["Cyclades", "Baléares", "Malte", "Corse"],
-      "correctIndex": 1,
-      "explanation": "Les Baléares sont une destination touristique majeure avec une riche histoire méditerranéenne."
-    },
-    {
-      "id": "19",
-      "question": "Quel archipel est célèbre pour ses récifs coralliens ?",
-      "image": null,
-      "imagePrompt": "Maldives coral reef",
-      "answers": ["Australie", "Fidji", "Maldives", "Seychelles"],
-      "correctIndex": 2,
-      "explanation": "Les récifs coralliens des Maldives protègent les îles et abritent une biodiversité exceptionnelle."
-    },
-    {
-      "id": "20",
-      "question": "Quel archipel du Pacifique est français ?",
-      "image": null,
-      "imagePrompt": "New Caledonia lagoon",
-      "answers": ["Samoa", "Fidji", "Nouvelle-Calédonie", "Tonga"],
-      "correctIndex": 2,
-      "explanation": "La Nouvelle-Calédonie possède l’un des plus grands lagons du monde, classé à l’UNESCO."
-    }
+  {
+  "id": "16",
+  "question": "Quel archipel britannique de l’Atlantique Sud abrite l’une des communautés les plus isolées du monde ?",
+  "image": null,
+  "imagePrompt": "Tristan da Cunha island settlement aerial",
+  "answers": ["Tristan da Cunha", "Sainte-Hélène", "Falkland", "Géorgie du Sud"],
+  "correctIndex": 0,
+  "explanation": "Tristan da Cunha est un groupe d’îles volcaniques de l’Atlantique Sud. Son unique localité permanente, Edinburgh of the Seven Seas, n’est accessible que par bateau après plusieurs jours de navigation."
+},
+{
+  "id": "17",
+  "question": "Quel archipel portugais est célèbre pour ses levadas et ses falaises dominant l’Atlantique ?",
+  "image": null,
+  "imagePrompt": "Madeira levadas cliffs Atlantic",
+  "answers": ["Madère", "Açores", "Canaries", "Cap-Vert"],
+  "correctIndex": 0,
+  "explanation": "Madère est réputée pour ses reliefs abrupts, ses falaises et ses levadas, des canaux d’irrigation historiques qui parcourent l’île principale et permettent aujourd’hui de nombreux itinéraires de randonnée."
+},
+  {
+  "id": "18",
+  "question": "Quel archipel espagnol de la Méditerranée comprend Majorque, Minorque, Ibiza et Formentera ?",
+  "image": null,
+  "imagePrompt": "Balearic Islands Mallorca Menorca Ibiza Formentera aerial",
+  "answers": [
+    "Cyclades",
+    "Baléares",
+    "Sporades",
+    "Îles Ioniennes"
+  ],
+  "correctIndex": 1,
+  "explanation": "Les Baléares forment un archipel espagnol situé en Méditerranée occidentale. Les quatre principales îles sont Majorque, Minorque, Ibiza et Formentera. Leur position stratégique leur a valu une histoire riche, marquée par les Phéniciens, les Romains, les Arabes et la Couronne d'Aragon."
+},
+  {
+  "id": "19",
+  "question": "Quel archipel d’Alaska forme une longue chaîne d’îles volcaniques entre l’Amérique du Nord et l’Asie ?",
+  "image": null,
+  "imagePrompt": "Aleutian Islands Alaska volcanic chain aerial",
+  "answers": ["Aléoutiennes", "Kouriles", "Mariannes", "Salomon"],
+  "correctIndex": 0,
+  "explanation": "Les îles Aléoutiennes s’étendent à l’ouest de l’Alaska en une longue chaîne volcanique séparant la mer de Béring de l’océan Pacifique. Elles se trouvent sur une zone tectonique particulièrement active."
+},
+{
+  "id": "20",
+  "question": "Quel archipel français du Pacifique possède Nouméa pour principale ville ?",
+  "image": null,
+  "imagePrompt": "New Caledonia lagoon Noumea aerial coral reef",
+  "answers": ["Wallis-et-Futuna", "Polynésie française", "Nouvelle-Calédonie", "Îles Marquises"],
+  "correctIndex": 2,
+  "explanation": "La Nouvelle-Calédonie est un archipel français du Pacifique Sud dont Nouméa est la principale ville. Elle est entourée par un vaste ensemble de lagons et de récifs coralliens, dont plusieurs zones sont inscrites au patrimoine mondial de l’UNESCO."
+}
   ]
 }

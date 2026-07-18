@@ -23,7 +23,7 @@
       "imagePrompt": "world map seven continents",
       "answers": ["5", "6", "7", "8"],
       "correctIndex": 2,
-      "explanation": "Dans le modèle le plus répandu à l’échelle internationale, on compte 7 continents : Afrique, Antarctique, Asie, Europe, Amérique du Nord, Amérique du Sud et Océanie."
+      "explanation": "Le modèle à sept continents est aujourd'hui le plus largement utilisé dans le monde. Toutefois, certains systèmes éducatifs utilisent des classifications à six ou cinq continents, selon les conventions géographiques retenues."
     },
     {
       "id": "2",
@@ -52,15 +52,20 @@
       "correctIndex": 1,
       "explanation": "Le Sahara se trouve en Afrique. C’est le plus grand désert chaud du monde."
     },
-    {
-      "id": "5",
-      "question": "Sur quel continent se situe la France ?",
-      "image": null,
-      "imagePrompt": "Europe political map France",
-      "answers": ["Asie", "Europe", "Afrique", "Amérique du Nord"],
-      "correctIndex": 1,
-      "explanation": "La France se situe en Europe. Elle fait partie de l’Europe occidentale."
-    },
+   {
+  "id": "5",
+  "question": "Quel continent possède le plus haut sommet du monde ?",
+  "image": null,
+  "imagePrompt": "Mount Everest Himalayas",
+  "answers": [
+    "Europe",
+    "Asie",
+    "Amérique du Sud",
+    "Afrique"
+  ],
+  "correctIndex": 1,
+  "explanation": "L'Asie abrite le mont Everest, situé dans l'Himalaya à la frontière entre le Népal et la Chine. Avec ses 8 848,86 mètres d'altitude, il est le plus haut sommet de la planète."
+},
     {
       "id": "6",
       "question": "Quel continent abrite le plus grand nombre de pays ?",
@@ -70,15 +75,20 @@
       "correctIndex": 0,
       "explanation": "L’Afrique est le continent qui compte le plus de pays reconnus internationalement. Elle en regroupe plus de 50."
     },
-    {
-      "id": "7",
-      "question": "Sur quel continent se trouve le Brésil ?",
-      "image": null,
-      "imagePrompt": "South America map Brazil",
-      "answers": ["Amérique du Nord", "Europe", "Amérique du Sud", "Afrique"],
-      "correctIndex": 2,
-      "explanation": "Le Brésil se trouve en Amérique du Sud. C’est le plus grand pays de ce continent."
-    },
+   {
+  "id": "7",
+  "question": "Quel continent possède la plus haute altitude moyenne ?",
+  "image": null,
+  "imagePrompt": "Antarctica ice plateau",
+  "answers": [
+    "Asie",
+    "Antarctique",
+    "Amérique du Sud",
+    "Europe"
+  ],
+  "correctIndex": 1,
+  "explanation": "Grâce à son immense calotte glaciaire, l'Antarctique est le continent dont l'altitude moyenne est la plus élevée, dépassant largement celle des autres continents."
+},
     {
       "id": "8",
       "question": "Quel continent est presque entièrement recouvert de glace ?",
@@ -142,15 +152,20 @@
       "correctIndex": 2,
       "explanation": "L’Asie est le continent le plus peuplé du monde. Elle regroupe plus de la moitié de la population mondiale."
     },
-    {
-      "id": "15",
-      "question": "Sur quel continent se trouve le Canada ?",
-      "image": null,
-      "imagePrompt": "North America map Canada highlighted",
-      "answers": ["Europe", "Océanie", "Amérique du Nord", "Asie"],
-      "correctIndex": 2,
-      "explanation": "Le Canada se situe en Amérique du Nord. C’est l’un des plus vastes pays du monde."
-    },
+   {
+  "id": "15",
+  "question": "Quel continent est le plus sec de la planète ?",
+  "image": null,
+  "imagePrompt": "Antarctica dry valleys",
+  "answers": [
+    "Afrique",
+    "Océanie",
+    "Antarctique",
+    "Asie"
+  ],
+  "correctIndex": 2,
+  "explanation": "Malgré son immense couverture de glace, l'Antarctique est considéré comme le continent le plus sec du monde. Certaines régions, comme les vallées sèches de McMurdo, reçoivent très peu de précipitations."
+},
     {
       "id": "16",
       "question": "Quel continent est entouré par l’océan Austral ?",
@@ -178,15 +193,20 @@
       "correctIndex": 0,
       "explanation": "L’Afrique est traversée par ces trois lignes imaginaires, ce qui explique la diversité de ses climats."
     },
-    {
-      "id": "19",
-      "question": "Sur quel continent se trouve l’Argentine ?",
-      "image": null,
-      "imagePrompt": "South America map Argentina highlighted",
-      "answers": ["Afrique", "Amérique du Sud", "Europe", "Asie"],
-      "correctIndex": 1,
-      "explanation": "L’Argentine se trouve en Amérique du Sud. C’est l’un des plus grands pays du continent."
-    },
+   {
+  "id": "19",
+  "question": "Quel continent compte le plus faible nombre d'États souverains ?",
+  "image": null,
+  "imagePrompt": "South America political map",
+  "answers": [
+    "Europe",
+    "Amérique du Sud",
+    "Afrique",
+    "Asie"
+  ],
+  "correctIndex": 1,
+  "explanation": "L'Amérique du Sud compte seulement 12 États souverains, soit moins que les autres continents habités. Cela en fait le continent habité qui possède le plus petit nombre de pays indépendants."
+},
     {
       "id": "20",
       "question": "Quel continent ne possède pas de population permanente indigène ou nationale importante ?",

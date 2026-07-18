@@ -1,8 +1,8 @@
 {
   "slug": "quiz-geographie-pays-langues-rares",
   "title": "Quiz Géographie Pays et Langues Rares - 20 questions pour découvrir des langues rares",
-  "description": "Découvre des langues méconnues et teste ta capacité à les associer à leur pays d’origine.",
-  "descriptionSeo": "Le monde compte des milliers de langues, dont certaines sont peu connues ou parlées par des minorités. Ce quiz de géographie vous propose 20 questions pour découvrir des langues rares et les associer à leur pays d’origine. De l’euskara basque au kalaallisut du Groenland, explorez la diversité linguistique mondiale et comprenez les enjeux culturels liés à leur préservation grâce à des explications détaillées.",
+  "description": "Découvre des langues méconnues et teste ta capacité à les associer à leur pays d'origine.",
+  "descriptionSeo": "Le monde compte des milliers de langues, dont certaines sont peu connues ou parlées par des minorités. Ce quiz de géographie vous propose 20 questions pour découvrir des langues rares et les associer à leur pays d'origine. De l'euskara basque au kalaallisut du Groenland, explorez la diversité linguistique mondiale et comprenez les enjeux culturels liés à leur préservation grâce à des explications détaillées.",
   "category": {
     "name": "Géographie",
     "slug": "geographie"
@@ -18,183 +18,183 @@
   "questions": [
     {
       "id": "1",
-      "question": "L’euskara est une langue parlée dans quel pays ?",
+      "question": "L'euskara (basque) est une langue parlée dans quelle zone géographique ?",
       "image": null,
-      "imagePrompt": "Basque country mountains",
-      "answers": ["Italie", "France et Espagne", "Portugal", "Roumanie"],
+      "imagePrompt": "Basque country Pyrenees mountains",
+      "answers": ["Italie et Suisse", "France et Espagne", "Portugal et Galice", "Roumanie et Moldavie"],
       "correctIndex": 1,
-      "explanation": "L’euskara est une langue unique en Europe, sans lien connu avec les autres langues indo-européennes, ce qui en fait un cas exceptionnel pour les linguistes."
+      "explanation": "L'euskara est parlé par environ 750 000 personnes à cheval sur le Pays basque espagnol et français. C'est une langue dite « isolée » : elle ne partage aucun ancêtre connu avec les langues indo-européennes voisines (espagnol, français, gascon). Son origine reste l'un des plus grands mystères de la linguistique mondiale."
     },
     {
       "id": "2",
-      "question": "Le kalaallisut est la langue principale de quel territoire ?",
+      "question": "Le kalaallisut est la langue officielle de quel territoire autonome ?",
       "image": null,
-      "imagePrompt": "Greenland village",
-      "answers": ["Canada", "Norvège", "Groenland", "Islande"],
+      "imagePrompt": "Greenland village ice fjord",
+      "answers": ["Îles Féroé", "Norvège", "Groenland", "Islande"],
       "correctIndex": 2,
-      "explanation": "Le kalaallisut est la langue principale du Groenland et reflète la culture inuit et son adaptation à un environnement extrême."
+      "explanation": "Le kalaallisut est co-officiel avec le danois au Groenland et parlé par environ 50 000 personnes. C'est une langue polysynthétique : un seul mot peut exprimer ce qu'une phrase entière dirait en français. Par exemple, « Suliassarsiorfigineqarsinnaanngillanga » signifie approximativement « Je ne peux pas être embauché pour ce travail »."
     },
     {
       "id": "3",
-      "question": "Le quechua est parlé principalement dans quelle région ?",
+      "question": "Le quechua, héritage de l'Empire inca, est principalement parlé dans quelle région du monde ?",
       "image": null,
-      "imagePrompt": "Andes mountains",
-      "answers": ["Afrique de l’Ouest", "Europe", "Asie centrale", "Andes"],
+      "imagePrompt": "Andes mountains Peru Bolivia",
+      "answers": ["Afrique de l'Ouest", "Asie du Sud-Est", "Asie centrale", "Andes (Pérou, Bolivie, Équateur)"],
       "correctIndex": 3,
-      "explanation": "Le quechua était la langue de l’empire inca et reste aujourd’hui largement utilisé dans les Andes."
+      "explanation": "Le quechua est parlé par 8 à 10 millions de personnes dans les Andes, principalement au Pérou, en Bolivie et en Équateur. C'est la langue indigène d'Amérique du Sud la plus parlée. Il est co-officiel au Pérou et en Bolivie, et des mots quechuas ont intégré l'espagnol puis le français : coca, condor, lama, puma."
     },
     {
       "id": "4",
-      "question": "Le sami est une langue parlée dans quelle zone ?",
+      "question": "Les langues sami sont parlées par un peuple autochtone de quelle région d'Europe ?",
       "image": null,
-      "imagePrompt": "Lapland reindeer",
-      "answers": ["Sibérie", "Scandinavie", "Alpes", "Balkans"],
-      "correctIndex": 1,
-      "explanation": "Les langues sami sont parlées dans le nord de l’Europe et témoignent d’une culture autochtone ancienne."
+      "imagePrompt": "Lapland reindeer Sami people",
+      "answers": ["Scandinavie et Russie du Nord-Ouest", "Balkans", "Alpes", "Péninsule ibérique"],
+      "correctIndex": 0,
+      "explanation": "Les Sami, peuple autochtone de Laponie, parlent une dizaine de langues sami à travers la Norvège, la Suède, la Finlande et la péninsule de Kola en Russie. Certaines de ces langues comptent moins de 30 locuteurs et sont en danger critique d'extinction. Leur vocabulaire reflète une culture nomade liée à l'élevage du renne."
     },
     {
       "id": "5",
-      "question": "Le maltais est une langue officielle de quel pays ?",
+      "question": "Le maltais est la seule langue sémitique à s'écrire en alphabet latin. De quel pays est-il la langue officielle ?",
       "image": null,
-      "imagePrompt": "Malta harbor",
+      "imagePrompt": "Malta Valletta harbor",
       "answers": ["Italie", "Chypre", "Malte", "Grèce"],
       "correctIndex": 2,
-      "explanation": "Le maltais est une langue sémitique écrite en alphabet latin, influencée par plusieurs cultures méditerranéennes."
+      "explanation": "Le maltais descend de l'arabe sicilien médiéval, fortement influencé par le sicilien, l'italien et l'anglais. C'est la seule langue sémitique (comme l'arabe ou l'hébreu) écrite en alphabet latin et langue officielle de l'Union européenne. Il est parlé par environ 520 000 personnes à Malte et dans la diaspora."
     },
     {
       "id": "6",
-      "question": "Le breton est parlé dans quel pays ?",
+      "question": "Le breton, langue celtique parlée en France, est concentré dans quelle région ?",
       "image": null,
-      "imagePrompt": "Brittany coast",
-      "answers": ["Royaume-Uni", "Belgique", "France", "Irlande"],
-      "correctIndex": 2,
-      "explanation": "Le breton est une langue celtique encore enseignée aujourd’hui, bien que son usage reste minoritaire."
+      "imagePrompt": "Brittany coast France",
+      "answers": ["Bretagne", "Normandie", "Alsace", "Occitanie"],
+      "correctIndex": 0,
+      "explanation": "Le breton est parlé par environ 200 000 personnes, essentiellement dans le Finistère et les Côtes-d'Armor. Issu des migrations bretonnes depuis l'actuel Pays de Galles aux Ve-VIe siècles, il appartient à la même famille celtique que le gallois et le cornique. Son enseignement dans les écoles Diwan (fondées en 1977) a contribué à une légère revitalisation."
     },
     {
       "id": "7",
-      "question": "Le guarani est une langue officielle dans quel pays ?",
+      "question": "Le guarani est co-officiel avec l'espagnol dans quel pays d'Amérique du Sud, où il est parlé par la majorité de la population ?",
       "image": null,
-      "imagePrompt": "Paraguay countryside",
-      "answers": ["Mexique", "Paraguay", "Chili", "Cuba"],
+      "imagePrompt": "Paraguay countryside river",
+      "answers": ["Mexique", "Paraguay", "Chili", "Uruguay"],
       "correctIndex": 1,
-      "explanation": "Le guarani est remarquable car il est encore largement utilisé dans la vie quotidienne au Paraguay."
+      "explanation": "Le Paraguay est l'un des rares pays bilingues au monde où la langue indigène (le guarani) est réellement dominante dans la vie quotidienne, parlée par environ 90 % de la population. Contrairement à la plupart des langues indigènes d'Amérique, le guarani n'a pas été marginalisé par la colonisation espagnole et s'est même diffusé à travers les classes sociales."
     },
     {
       "id": "8",
-      "question": "Le dzongkha est la langue officielle de quel pays ?",
+      "question": "Le dzongkha est la langue officielle de quel royaume bouddhiste himalayen, connu pour son concept de « bonheur national brut » ?",
       "image": null,
-      "imagePrompt": "Bhutan monastery",
-      "answers": ["Laos", "Bhoutan", "Népal", "Tibet"],
-      "correctIndex": 1,
-      "explanation": "Le Bhoutan protège activement sa langue pour préserver son identité culturelle."
+      "imagePrompt": "Bhutan monastery Tiger Nest",
+      "answers": ["Laos", "Népal", "Myanmar", "Bhoutan"],
+      "correctIndex": 3,
+      "explanation": "Le dzongkha est parlé par environ 170 000 personnes au Bhoutan, où il est la langue de l'administration et de l'éducation. Proche du tibétain classique, il s'écrit en écriture tibétaine. Le Bhoutan protège activement sa langue et sa culture comme piliers de son identité nationale, dans un pays qui a longtemps limité le tourisme de masse."
     },
     {
       "id": "9",
-      "question": "Le kalaallisut appartient à quelle famille linguistique ?",
+      "question": "L'occitan, langue romane du sud de la France, est aussi parlé dans deux autres pays. Lesquels ?",
       "image": null,
-      "imagePrompt": "Arctic Inuit",
-      "answers": ["Sémitique", "Altaïque", "Inuite", "Indo-européenne"],
-      "correctIndex": 2,
-      "explanation": "Les langues inuit sont adaptées à leur environnement et possèdent une structure très différente des langues européennes."
+      "imagePrompt": "Occitanie Provence village France",
+      "answers": ["Espagne et Italie", "Portugal et Belgique", "Suisse et Allemagne", "Andorre et Maroc"],
+      "correctIndex": 0,
+      "explanation": "L'occitan est parlé par 100 000 à 800 000 personnes selon les estimations, dans le sud de la France, dans la Val d'Aran (Espagne) — où il est co-officiel — et dans quelques vallées du Piémont (Italie). C'était la grande langue de la poésie médiévale des troubadours. Aujourd'hui classée « sérieusement en danger » par l'UNESCO, sa transmission intergénérationnelle reste fragile."
     },
     {
       "id": "10",
-      "question": "Le basque est une langue isolée car :",
+      "question": "Le cornique, langue celtique cousine du breton, a été déclarée éteinte au XVIIIe siècle puis ressuscitée. Dans quelle région du Royaume-Uni ?",
       "image": null,
-      "imagePrompt": "Basque culture",
-      "answers": ["Elle n’a pas d’écriture", "Elle n’a aucun lien connu avec d’autres langues", "Elle est récente", "Elle est morte"],
-      "correctIndex": 1,
-      "explanation": "Le basque fascine les linguistes car il ne correspond à aucune famille connue."
+      "imagePrompt": "Cornwall coast England UK",
+      "answers": ["Écosse", "Pays de Galles", "Île de Man", "Cornouailles (Cornwall)"],
+      "correctIndex": 3,
+      "explanation": "Le cornique, parlé en Cornouailles (extrême sud-ouest de l'Angleterre), s'est éteint vers 1800 avec la mort de sa dernière locutrice native, Dolly Pentreath. Il a été reconstruit à partir de textes médiévaux et compte aujourd'hui quelques centaines de locuteurs courants. C'est l'un des rares cas de résurrection complète d'une langue morte."
     },
     {
       "id": "11",
-      "question": "Le kalaallisut est parlé sur quel continent ?",
+      "question": "Le nahuatl, langue des Aztèques, est encore parlé aujourd'hui par environ 1,7 million de personnes. Dans quel pays ?",
       "image": null,
-      "imagePrompt": "Greenland map",
-      "answers": ["Asie", "Europe", "Océanie", "Amérique du Nord"],
-      "correctIndex": 3,
-      "explanation": "Le Groenland est géographiquement en Amérique du Nord malgré ses liens politiques avec l’Europe."
+      "imagePrompt": "Mexico Aztec ruins Teotihuacan",
+      "answers": ["Guatemala", "Mexique", "Colombie", "Pérou"],
+      "correctIndex": 1,
+      "explanation": "Le nahuatl est la langue indigène la plus parlée du Mexique. Il a légué de nombreux mots à l'espagnol puis au français : chocolat, tomate, avocat, cacao, chili. Malgré plus de 1,7 million de locuteurs, il est fragmenté en dizaines de variantes dialectales et classé « vulnérable » à « en danger » selon les régions."
     },
     {
       "id": "12",
-      "question": "Le nahuatl était la langue de quelle civilisation ?",
+      "question": "Le gallois (cymraeg) est une langue celtique en cours de revitalisation. Dans quelle nation du Royaume-Uni est-il officiel ?",
       "image": null,
-      "imagePrompt": "Aztec ruins",
-      "answers": ["Incas", "Aztèques", "Mayas", "Olmèques"],
-      "correctIndex": 1,
-      "explanation": "Le nahuatl est encore parlé aujourd’hui, preuve de la continuité culturelle des peuples indigènes."
+      "imagePrompt": "Wales landscape Snowdonia castle",
+      "answers": ["Angleterre", "Écosse", "Pays de Galles", "Irlande du Nord"],
+      "correctIndex": 2,
+      "explanation": "Le gallois est parlé par environ 900 000 personnes au Pays de Galles et co-officiel avec l'anglais depuis 2011. C'est l'une des langues celtiques les plus vivantes : il est enseigné à tous les élèves gallois jusqu'à 16 ans, diffusé sur la chaîne de télévision S4C et utilisé dans toute l'administration. Sa revitalisation est souvent citée en exemple."
     },
     {
       "id": "13",
-      "question": "Le kalaallisut est menacé principalement par :",
+      "question": "Le mapuche (mapudungun) est la langue indigène la plus parlée de quel pays d'Amérique du Sud ?",
       "image": null,
-      "imagePrompt": "Modern Greenland society",
-      "answers": ["Le climat", "La mondialisation linguistique", "La géographie", "Le tourisme"],
-      "correctIndex": 1,
-      "explanation": "La pression des langues dominantes réduit l’usage des langues minoritaires."
+      "imagePrompt": "Mapuche people Chile Patagonia",
+      "answers": ["Chili", "Argentine", "Bolivie", "Équateur"],
+      "correctIndex": 0,
+      "explanation": "Le mapudungun est parlé par environ 250 000 personnes au Chili, principalement dans la région de l'Araucanie. Les Mapuches sont le seul peuple indigène d'Amérique à avoir résisté militairement à la colonisation espagnole pendant plus de trois siècles, puis à l'État chilien jusqu'en 1883. La langue reste au cœur de leurs revendications identitaires contemporaines."
     },
     {
       "id": "14",
-      "question": "Le gallois est parlé dans quelle région ?",
+      "question": "Le romanche est l'une des quatre langues officielles d'un pays alpin. Lequel ?",
       "image": null,
-      "imagePrompt": "Wales landscape",
-      "answers": ["Angleterre", "Écosse", "Pays de Galles", "Irlande"],
-      "correctIndex": 2,
-      "explanation": "Le gallois est une langue celtique qui connaît aujourd’hui une revitalisation importante."
+      "imagePrompt": "Swiss Alps Graubunden valley",
+      "answers": ["Italie", "Autriche", "Liechtenstein", "Suisse"],
+      "correctIndex": 3,
+      "explanation": "Le romanche est parlé par environ 60 000 personnes dans le canton des Grisons (Graubünden), en Suisse. C'est une langue romane héritée du latin populaire parlé par les soldats romains qui colonisèrent les Alpes. La Suisse est le seul pays au monde à avoir quatre langues officielles : allemand, français, italien et romanche."
     },
     {
       "id": "15",
-      "question": "Le kalaallisut a quelle particularité ?",
+      "question": "Le catalan est parlé par environ 10 millions de personnes, principalement dans quelle région d'Espagne ?",
       "image": null,
-      "imagePrompt": "Inuit language structure",
-      "answers": ["Alphabet grec", "Pas de grammaire", "Structure polysynthétique", "Alphabet latin simple"],
+      "imagePrompt": "Barcelona Sagrada Familia Catalonia",
+      "answers": ["Pays basque", "Andalousie", "Catalogne", "Galice"],
       "correctIndex": 2,
-      "explanation": "Un seul mot peut contenir beaucoup d’informations, équivalentes à une phrase entière."
+      "explanation": "Le catalan est parlé en Catalogne, aux Îles Baléares, dans la Communauté valencienne (où il est appelé valencien), en Andorre (où il est la seule langue officielle), dans le Roussillon (France) et à l'Alguer (Sardaigne). Avec 10 millions de locuteurs, c'est l'une des langues minoritaires les plus parlées d'Europe, portée par un fort mouvement identitaire."
     },
     {
       "id": "16",
-      "question": "Le romanche est parlé dans quel pays ?",
+      "question": "Le gaélique irlandais (gaeilge) est la première langue officielle de quel pays, bien qu'il ne soit parlé quotidiennement que par une minorité ?",
       "image": null,
-      "imagePrompt": "Swiss Alps",
-      "answers": ["Italie", "France", "Suisse", "Autriche"],
-      "correctIndex": 2,
-      "explanation": "Le romanche est une langue officielle suisse malgré un nombre réduit de locuteurs."
+      "imagePrompt": "Ireland Gaeltacht west coast Connemara",
+      "answers": ["Écosse", "Pays de Galles", "Islande", "Irlande"],
+      "correctIndex": 3,
+      "explanation": "Le gaélique irlandais est constitutionnellement la première langue officielle de l'Irlande, avant l'anglais. Pourtant, seuls 2 % de la population l'utilisent quotidiennement, principalement dans les zones côtières de l'ouest appelées Gaeltacht. Son enseignement est obligatoire dans toutes les écoles irlandaises. C'est un paradoxe linguistique rare : une langue officielle numéro 1 qui reste minoritaire dans la pratique."
     },
     {
       "id": "17",
-      "question": "Le kalaallisut est adapté à quel environnement ?",
+      "question": "Le tibétain est parlé par environ 6 millions de personnes, principalement dans quelle région autonome de Chine ?",
       "image": null,
-      "imagePrompt": "Arctic ice",
-      "answers": ["Désertique", "Tropical", "Arctique", "Montagneux"],
-      "correctIndex": 2,
-      "explanation": "Le vocabulaire reflète les réalités climatiques extrêmes du Groenland."
+      "imagePrompt": "Tibet monastery Potala Palace Lhasa",
+      "answers": ["Région autonome du Tibet", "Xinjiang", "Mongolie-Intérieure", "Yunnan"],
+      "correctIndex": 0,
+      "explanation": "Le tibétain est parlé dans la Région autonome du Tibet et dans plusieurs provinces chinoises voisines (Qinghai, Sichuan, Yunnan). C'est aussi la langue de la diaspora tibétaine en Inde (Dharamsala) et au Népal. Depuis l'annexion de 1950, son enseignement a été progressivement restreint en Chine, soulevant des inquiétudes sur sa transmission aux jeunes générations."
     },
     {
       "id": "18",
-      "question": "Le catalan est parlé principalement dans quel pays ?",
+      "question": "L'aroumain est une langue romane méconnue, cousine du roumain, parlée dans les Balkans par un peuple nomade. Dans quels pays ?",
       "image": null,
-      "imagePrompt": "Barcelona street",
-      "answers": ["Portugal", "France", "Espagne", "Italie"],
-      "correctIndex": 2,
-      "explanation": "Le catalan est très utilisé en Catalogne et constitue un marqueur fort d’identité régionale."
+      "imagePrompt": "Balkans mountains Greece Macedonia",
+      "answers": ["Pologne et Ukraine", "Grèce, Albanie, Macédoine du Nord et Roumanie", "Turquie et Bulgarie", "Serbie et Croatie"],
+      "correctIndex": 1,
+      "explanation": "L'aroumain est parlé par les Valaques ou Aroumains, un peuple dispersé dans les Balkans (Grèce, Albanie, Macédoine du Nord, Roumanie, Bulgarie). Héritier direct du latin populaire parlé dans les Balkans, il n'a aucun État qui le reconnaisse comme langue officielle. Il est classé « sérieusement en danger » par l'UNESCO, avec moins de 300 000 locuteurs."
     },
     {
       "id": "19",
-      "question": "Une langue rare est menacée car :",
+      "question": "L'inuktitut est une langue officielle de quel territoire canadien, créé en 1999 pour les populations inuit ?",
       "image": null,
-      "imagePrompt": "language extinction concept",
-      "answers": ["Peu de locuteurs", "Climat difficile", "Absence d’écriture", "Isolement"],
-      "correctIndex": 0,
-      "explanation": "La disparition d’une langue entraîne la perte d’une vision du monde unique."
+      "imagePrompt": "Nunavut Canada Arctic Inuit",
+      "answers": ["Yukon", "Nunavut", "Terre-Neuve", "Manitoba"],
+      "correctIndex": 1,
+      "explanation": "L'inuktitut est co-officiel dans le Nunavut, vaste territoire arctique créé en 1999 et représentant 20 % de la superficie du Canada. Il est parlé par environ 40 000 personnes et s'écrit en syllabaire inuit (caractères syllabiques canadiens) ou en alphabet latin selon les communautés. C'est l'une des langues polysynthétiques les plus étudiées au monde."
     },
     {
       "id": "20",
-      "question": "Le swahili est parlé principalement où ?",
+      "question": "Le féroïen est la langue officielle des Îles Féroé, territoire autonome rattaché à quel pays ?",
       "image": null,
-      "imagePrompt": "East Africa coast",
-      "answers": ["Afrique du Nord", "Afrique centrale", "Afrique de l’Est", "Afrique de l’Ouest"],
-      "correctIndex": 2,
-      "explanation": "Le swahili est une langue véhiculaire majeure reliant de nombreuses cultures en Afrique de l’Est."
+      "imagePrompt": "Faroe Islands cliffs Atlantic ocean",
+      "answers": ["Norvège", "Islande", "Royaume-Uni", "Danemark"],
+      "correctIndex": 3,
+      "explanation": "Le féroïen est parlé par environ 75 000 personnes aux Îles Féroé, archipel autonome sous souveraineté danoise dans l'Atlantique Nord. Proche du vieux norrois, il a été standardisé à l'écrit seulement en 1890. C'est l'une des langues germaniques les plus isolées géographiquement, qui a survécu malgré des siècles de domination danoise et l'interdiction scolaire levée seulement en 1938."
     }
   ]
 }

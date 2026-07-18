@@ -2,7 +2,7 @@
   "slug": "quiz-geographie-pays-enclaves-du-monde",
   "title": "Quiz Géographie Pays enclavés du monde - 20 questions pour tester ton niveau",
   "description": "Teste tes connaissances avec 20 questions sur les pays enclavés du monde et leurs spécificités géographiques.",
-  "descriptionSeo": "Découvre ce quiz géographie sur les pays enclavés du monde. Quels pays n’ont aucun accès à la mer ? Quels sont leurs défis économiques et géopolitiques ? Avec 20 questions variées, apprends à identifier les pays enclavés en Europe, en Afrique, en Asie et en Amérique, tout en comprenant leur rôle dans la mondialisation.",
+  "descriptionSeo": "Découvre ce quiz géographie sur les pays enclavés du monde. Quels pays n'ont aucun accès à la mer ? Quels sont leurs défis économiques et géopolitiques ? Avec 20 questions variées, apprends à identifier les pays enclavés en Europe, en Afrique, en Asie et en Amérique, tout en comprenant leur rôle dans la mondialisation.",
   "category": {
     "name": "Géographie",
     "slug": "geographie"
@@ -18,143 +18,143 @@
   "questions": [
     {
       "id": "1",
-      "question": "Qu’est-ce qu’un pays enclavé ?",
-      "answers": ["Un pays montagneux", "Un pays très peu peuplé", "Un pays insulaire", "Un pays sans accès à la mer"],
-      "correctIndex": 3,
-      "explanation": "Un pays enclavé est un État sans accès direct à la mer. Cette contrainte géographique limite souvent ses échanges commerciaux et le rend dépendant de ses voisins pour accéder aux ports internationaux."
+      "question": "Qu'est-ce qu'un pays enclavé ?",
+      "answers": ["Un pays sans accès à la mer", "Un pays très peu peuplé", "Un pays montagneux", "Un pays insulaire"],
+      "correctIndex": 0,
+      "explanation": "Un pays enclavé est un État sans accès direct à la mer. Il doit nécessairement traverser au moins un pays voisin pour atteindre un port international. On compte environ 44 pays enclavés dans le monde, concentrés principalement en Afrique (16), en Asie (12) et en Europe (14)."
     },
     {
       "id": "2",
-      "question": "Quel pays européen est enclavé ?",
-      "answers": ["Portugal", "Italie", "Espagne", "Suisse"],
-      "correctIndex": 3,
-      "explanation": "La Suisse est enclavée mais a compensé cette contrainte par des infrastructures efficaces et une forte intégration économique en Europe."
+      "question": "Quel pays européen enclavé abrite le siège de nombreuses organisations internationales comme la Croix-Rouge ou l'OMC ?",
+      "answers": ["Autriche", "Hongrie", "Suisse", "Tchéquie"],
+      "correctIndex": 2,
+      "explanation": "La Suisse est enclavée entre la France, l'Allemagne, l'Autriche, le Liechtenstein et l'Italie. Malgré cela, elle est l'une des économies les plus prospères du monde grâce à sa neutralité historique, son secteur financier et sa politique d'accueil des institutions internationales. Genève accueille à elle seule plus de 40 organisations internationales."
     },
     {
       "id": "3",
-      "question": "Quel pays africain est enclavé ?",
-      "answers": ["Maroc", "Égypte", "Tunisie", "Niger"],
-      "correctIndex": 3,
-      "explanation": "Le Niger est enclavé en Afrique de l’Ouest. Il dépend fortement des infrastructures de ses voisins pour exporter et importer des marchandises."
+      "question": "Quel pays d'Afrique de l'Ouest enclavé est le premier exportateur mondial d'uranium, qu'il achemine via ses voisins côtiers ?",
+      "answers": ["Mali", "Niger", "Burkina Faso", "Tchad"],
+      "correctIndex": 1,
+      "explanation": "Le Niger, enclavé entre sept pays, est l'un des principaux producteurs mondiaux d'uranium. Sans accès à la mer, il dépend des routes traversant le Bénin, le Togo ou le Nigeria pour exporter ses ressources. Cette contrainte alourdit considérablement ses coûts logistiques et fragilise son économie."
     },
     {
       "id": "4",
-      "question": "Quel pays d’Amérique du Sud est enclavé ?",
-      "answers": ["Chili", "Brésil", "Bolivie", "Pérou"],
+      "question": "Quel pays d'Amérique du Sud a perdu son accès à la mer après une guerre au XIXe siècle et réclame toujours un corridor maritime au Chili ?",
+      "answers": ["Paraguay", "Brésil", "Bolivie", "Pérou"],
       "correctIndex": 2,
-      "explanation": "La Bolivie a perdu son accès à la mer au XIXe siècle, ce qui reste aujourd’hui un enjeu politique majeur dans ses relations avec le Chili."
+      "explanation": "La Bolivie a perdu sa côte Pacifique lors de la Guerre du Pacifique (1879-1884) contre le Chili. Depuis, la revendication d'un accès souverain à la mer est au cœur de la politique étrangère bolivienne. En 2018, la Cour internationale de justice a rejeté la demande bolivienne d'obliger le Chili à négocier un accès maritime."
     },
     {
       "id": "5",
-      "question": "Quel pays asiatique est enclavé ?",
-      "answers": ["Thaïlande", "Japon", "Philippines", "Mongolie"],
+      "question": "Quel pays enclavé entre la Chine et la Russie possède la plus faible densité de population au monde ?",
+      "answers": ["Thaïlande", "Kazakhstan", "Philippines", "Mongolie"],
       "correctIndex": 3,
-      "explanation": "La Mongolie est enclavée entre la Chine et la Russie. Cette position influence fortement ses relations diplomatiques et économiques."
+      "explanation": "La Mongolie est enclavée entre ses deux grands voisins et affiche une densité de moins de 2 habitants par km² — la plus faible du monde. Son économie repose sur l'élevage nomade et l'exploitation minière. Pour exporter ses ressources (charbon, cuivre), elle dépend quasi exclusivement des infrastructures chinoises."
     },
     {
       "id": "6",
-      "question": "Quel pays n’est PAS enclavé ?",
-      "answers": ["Autriche", "Hongrie", "Tchéquie", "Italie"],
-      "correctIndex": 3,
-      "explanation": "L’Italie possède un long littoral maritime, contrairement aux autres pays proposés qui sont enclavés."
+      "question": "Parmi ces quatre pays d'Europe centrale, lequel est le seul à posséder un accès à la mer Adriatique ?",
+      "answers": ["Autriche", "Hongrie", "Slovénie", "Tchéquie"],
+      "correctIndex": 2,
+      "explanation": "La Slovénie possède un court littoral de 46 km sur la mer Adriatique, autour du port de Koper — son unique débouché maritime. Les trois autres pays sont tous enclavés : l'Autriche, la Hongrie et la Tchéquie n'ont aucun accès à la mer. Avant 1918, l'Autriche-Hongrie possédait un large accès à l'Adriatique, perdu après la Première Guerre mondiale."
     },
     {
       "id": "7",
-      "question": "Quel pays africain est entièrement enclavé dans un autre pays ?",
-      "answers": ["Botswana", "Zimbabwe", "Namibie", "Lesotho"],
-      "correctIndex": 3,
-      "explanation": "Le Lesotho est totalement entouré par l’Afrique du Sud. Ce type de pays est appelé une enclave."
+      "question": "Quel pays africain est entièrement enclavé à l'intérieur d'un seul autre pays, formant ce qu'on appelle une enclave totale ?",
+      "answers": ["Botswana", "Lesotho", "Eswatini", "Zimbabwe"],
+      "correctIndex": 1,
+      "explanation": "Le Lesotho est l'un des trois seuls pays au monde entièrement entourés par un seul autre État — l'Afrique du Sud. Les deux autres sont le Vatican et Saint-Marin, tous deux enclavés dans l'Italie. Le Lesotho est aussi remarquable par son altitude : aucun point du pays n'est en dessous de 1 000 mètres."
     },
     {
       "id": "8",
-      "question": "Quel pays enclavé est traversé par le Danube ?",
-      "answers": ["Espagne", "Norvège", "Grèce", "Hongrie"],
+      "question": "Quel pays enclavé d'Europe centrale est traversé par le Danube, son principal axe commercial ?",
+      "answers": ["Tchéquie", "Autriche", "Slovaquie", "Hongrie"],
       "correctIndex": 3,
-      "explanation": "La Hongrie est enclavée mais bénéficie du Danube, un axe fluvial majeur facilitant le commerce."
+      "explanation": "La Hongrie est enclavée mais bénéficie du Danube, qui la traverse sur 417 km. Ce fleuve constitue un axe commercial vital reliant l'Europe centrale à la mer Noire via la Roumanie. Budapest, sa capitale, est construite sur ses deux rives et doit son développement historique à cette position fluviale stratégique."
     },
     {
       "id": "9",
-      "question": "Quel pays enclavé se situe entre la France et l’Espagne ?",
-      "answers": ["Andorre", "Belgique", "Italie", "Portugal"],
+      "question": "Quel micro-État enclavé entre la France et l'Espagne vit principalement du tourisme et de la vente de produits détaxés ?",
+      "answers": ["Andorre", "Monaco", "Liechtenstein", "Saint-Marin"],
       "correctIndex": 0,
-      "explanation": "Andorre est un petit État enclavé dans les Pyrénées, qui vit en grande partie du tourisme et du commerce transfrontalier."
+      "explanation": "Andorre, niché dans les Pyrénées, est l'un des États les moins peuplés d'Europe (environ 80 000 habitants). Il n'a pas de monnaie propre (il utilise l'euro) et tire l'essentiel de ses revenus du tourisme de ski et du commerce de produits détaxés (alcool, tabac, électronique), attirant plus de 8 millions de visiteurs par an."
     },
     {
       "id": "10",
-      "question": "Quel pays enclavé est situé en Afrique de l’Est ?",
-      "answers": ["Kenya", "Somalie", "Ouganda", "Madagascar"],
-      "correctIndex": 2,
-      "explanation": "L’Ouganda est enclavé mais possède des lacs importants comme le lac Victoria, ce qui influence son économie locale."
+      "question": "Quel pays enclavé d'Afrique de l'Est borde le lac Victoria, le plus grand lac d'Afrique ?",
+      "answers": ["Ouganda", "Kenya", "Somalie", "Madagascar"],
+      "correctIndex": 0,
+      "explanation": "L'Ouganda est enclavé mais borde le lac Victoria (68 800 km²), le plus grand lac d'Afrique et deuxième lac d'eau douce du monde. Ce lac constitue une ressource économique majeure (pêche, eau douce) et un axe de transport régional. Le Nil Blanc prend sa source en Ouganda, au lac Victoria."
     },
     {
       "id": "11",
-      "question": "Quel pays enclavé dépend fortement de l’Inde pour accéder à la mer ?",
-      "answers": ["Japon", "Népal", "Indonésie", "Royaume-Uni"],
+      "question": "Quel pays enclavé de l'Himalaya dépend quasi exclusivement de l'Inde pour son commerce extérieur, via un unique corridor routier ?",
+      "answers": ["Japon", "Népal", "Indonésie", "Bhoutan"],
       "correctIndex": 1,
-      "explanation": "Le Népal dépend des infrastructures indiennes pour son commerce extérieur, illustrant les contraintes géopolitiques de l’enclavement."
+      "explanation": "Le Népal est enclavé entre l'Inde au sud et la Chine (Tibet) au nord. Il dépend principalement de l'Inde pour ses importations, acheminées par un réseau routier limité. Le blocus indien de 2015-2016, qui a paralysé les livraisons de carburant et de médicaments après le tremblement de terre, a mis en évidence la vulnérabilité extrême du pays."
     },
     {
       "id": "12",
-      "question": "Quel pays enclavé est connu pour sa neutralité ?",
-      "answers": ["Italie", "Espagne", "France", "Suisse"],
-      "correctIndex": 3,
-      "explanation": "La Suisse est un exemple de pays enclavé ayant réussi à développer une forte influence internationale malgré sa position géographique."
+      "question": "Quel est le seul pays doublement enclavé d'Asie, c'est-à-dire entouré uniquement par d'autres pays eux-mêmes enclavés ?",
+      "answers": ["Tadjikistan", "Ouzbékistan", "Afghanistan", "Kirghizistan"],
+      "correctIndex": 1,
+      "explanation": "L'Ouzbékistan est l'un des deux seuls pays doublement enclavés au monde (avec le Liechtenstein) : pour atteindre la mer, il faut traverser au moins deux pays, tous eux-mêmes sans accès maritime. Cette contrainte est exceptionnelle et alourdit considérablement les coûts de transport de ce pays pourtant riche en gaz et en coton."
     },
     {
       "id": "13",
-      "question": "Quel autre pays enclavé se trouve en Amérique du Sud ?",
+      "question": "Quel pays d'Amérique du Sud, avec la Bolivie, est l'un des deux seuls États du continent sans accès à la mer ?",
       "answers": ["Paraguay", "Chili", "Colombie", "Venezuela"],
       "correctIndex": 0,
-      "explanation": "Le Paraguay est, avec la Bolivie, l’un des deux pays enclavés d’Amérique du Sud. Il utilise les fleuves pour accéder indirectement à l’océan."
+      "explanation": "Le Paraguay est enclavé entre l'Argentine, le Brésil et la Bolivie. Pour exporter, il utilise le réseau fluvial du río Paraguay et du río Paraná, qui lui permettent d'atteindre indirectement l'Atlantique via l'Argentine. C'est l'un des principaux exportateurs mondiaux de soja et d'électricité (grâce au barrage d'Itaipú, colossal)."
     },
     {
       "id": "14",
-      "question": "Quel pays enclavé est situé dans l’Himalaya ?",
-      "answers": ["Bangladesh", "Vietnam", "Corée", "Népal"],
-      "correctIndex": 3,
-      "explanation": "Le Népal combine enclavement et relief montagneux extrême, ce qui complique encore davantage les échanges et les infrastructures."
+      "question": "Quel pays enclavé d'Asie centrale, sans accès à la mer, est le 9e plus grand pays du monde par sa superficie ?",
+      "answers": ["Kazakhstan", "Bangladesh", "Mongolie", "Ouzbékistan"],
+      "correctIndex": 0,
+      "explanation": "Le Kazakhstan (2,7 millions de km²) est le plus grand pays enclavé du monde et le 9e plus grand pays du monde. Il borde la mer Caspienne, qui est en réalité un lac salé sans connexion avec les océans — ce qui confirme son statut de pays enclavé. Il est riche en pétrole, gaz naturel et uranium."
     },
     {
       "id": "15",
-      "question": "Quel pays enclavé est voisin de la Pologne ?",
+      "question": "Quel pays enclavé d'Europe centrale, voisin de la Pologne, de l'Allemagne et de l'Autriche, a rejoint l'UE en 2004 ?",
       "answers": ["Italie", "Portugal", "Tchéquie", "Grèce"],
       "correctIndex": 2,
-      "explanation": "La Tchéquie est enclavée mais bénéficie d’une position centrale en Europe, facilitant ses échanges économiques."
+      "explanation": "La Tchéquie (ou République tchèque) est enclavée entre l'Allemagne, la Pologne, la Slovaquie et l'Autriche. Malgré l'absence d'accès maritime, elle affiche l'un des PIB par habitant les plus élevés d'Europe centrale. Elle a rejoint l'Union européenne en 2004 et bénéficie de sa position au cœur du marché unique."
     },
     {
       "id": "16",
-      "question": "Quel pays enclavé se situe en Asie centrale ?",
-      "answers": ["Japon", "Kazakhstan", "Philippines", "Indonésie"],
-      "correctIndex": 1,
-      "explanation": "Le Kazakhstan est enclavé mais riche en ressources naturelles, ce qui compense partiellement son isolement maritime."
+      "question": "Quel micro-État enclavé dans les Alpes entre la Suisse et l'Autriche est l'un des deux seuls pays doublement enclavés du monde ?",
+      "answers": ["Andorre", "Monaco", "Liechtenstein", "Saint-Marin"],
+      "correctIndex": 2,
+      "explanation": "Le Liechtenstein est enclavé entre la Suisse et l'Autriche, deux pays eux-mêmes enclavés — ce qui en fait l'un des deux seuls pays doublement enclavés au monde avec l'Ouzbékistan. Avec 160 km², c'est l'un des plus petits États du monde, mais l'un des plus riches par habitant grâce à sa place financière et son industrie de précision."
     },
     {
       "id": "17",
-      "question": "Quel micro-État enclavé est entouré par l’Italie ?",
-      "answers": ["Suisse", "Autriche", "Slovénie", "Saint-Marin"],
+      "question": "Quel micro-État enclavé dans l'Italie se revendique comme la plus ancienne république du monde, fondée au IVe siècle ?",
+      "answers": ["Suisse", "Autriche", "Andorre", "Saint-Marin"],
       "correctIndex": 3,
-      "explanation": "Saint-Marin est l’un des plus anciens États du monde et totalement enclavé dans l’Italie."
+      "explanation": "Saint-Marin, perché sur le mont Titano, se présente comme la plus ancienne république encore existante, fondée selon la tradition en 301 après J.-C. Avec seulement 61 km², c'est le cinquième plus petit État du monde. Il est totalement enclavé dans l'Italie et utilise l'euro sans être membre de l'Union européenne."
     },
     {
       "id": "18",
-      "question": "Quel pays enclavé d’Afrique centrale dépend fortement de ses voisins ?",
+      "question": "Quel pays enclavé d'Afrique centrale, sans accès à la mer, est l'un des plus pauvres du monde malgré ses ressources pétrolières ?",
       "answers": ["Maroc", "Algérie", "Égypte", "Tchad"],
       "correctIndex": 3,
-      "explanation": "Le Tchad dépend des infrastructures des pays voisins pour accéder aux ports, ce qui ralentit son développement économique."
+      "explanation": "Le Tchad est enclavé au cœur de l'Afrique, à plus de 1 700 km du golfe de Guinée le plus proche. Malgré des ressources pétrolières découvertes dans les années 2000, il reste l'un des pays les plus pauvres du monde. Le coût du transport de son pétrole via l'oléoduc traversant le Cameroun jusqu'à la côte atlantique illustre le poids de l'enclavement."
     },
     {
       "id": "19",
-      "question": "Quel pays enclavé se situe entre l’Allemagne et l’Italie ?",
+      "question": "Quel pays enclavé situé entre l'Allemagne, l'Italie, la Slovénie et la Hongrie est traversé par les Alpes ?",
       "answers": ["Autriche", "Espagne", "Portugal", "Grèce"],
       "correctIndex": 0,
-      "explanation": "L’Autriche est enclavée mais bénéficie d’une position stratégique au cœur de l’Europe."
+      "explanation": "L'Autriche est enclavée par huit pays voisins et traversée par les Alpes sur les deux tiers de son territoire. Malgré cela, elle occupe une position stratégique au cœur de l'Europe et bénéficie d'un réseau de tunnels alpins qui facilitent les échanges. Vienne fut pendant des siècles la capitale d'un empire s'étendant jusqu'à la mer Adriatique."
     },
     {
       "id": "20",
-      "question": "Quel pays enclavé se situe en Afrique australe ?",
-      "answers": ["Madagascar", "Zambie", "Somalie", "Maroc"],
+      "question": "Quel pays enclavé d'Afrique australe, riche en cuivre et cobalt, est traversé par la rivière Zambèze ?",
+      "answers": ["Madagascar", "Zambie", "Somalie", "Malawi"],
       "correctIndex": 1,
-      "explanation": "La Zambie est enclavée mais riche en ressources minières. Elle dépend cependant de ses voisins pour exporter ses produits."
+      "explanation": "La Zambie est enclavée entre huit pays voisins et dépend de corridors de transport complexes pour exporter son cuivre — sa ressource principale — ainsi que son cobalt, produit en moindres quantités mais stratégique pour la fabrication de batteries électriques. Elle est traversée par le Zambèze, fleuve qui alimente les chutes Victoria à sa frontière avec le Zimbabwe, classées parmi les plus grandes du monde."
     }
   ]
 }

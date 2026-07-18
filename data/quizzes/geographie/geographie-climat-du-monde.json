@@ -86,13 +86,20 @@
       "correctIndex": 3,
       "explanation": "Les hautes latitudes reçoivent peu d’énergie solaire, ce qui explique les températures très basses."
     },
-    {
-      "id": "11",
-      "question": "Quel climat est influencé par les océans et réduit les écarts de température ?",
-      "answers": ["Climat océanique", "Climat désertique", "Climat continental", "Climat polaire"],
-      "correctIndex": 0,
-      "explanation": "Les océans agissent comme des régulateurs thermiques, limitant les variations extrêmes de température."
-    },
+  {
+  "id": "11",
+  "question": "Quel courant marin contribue à adoucir le climat de l'Europe occidentale ?",
+  "image": null,
+  "imagePrompt": "Gulf Stream Atlantic ocean map",
+  "answers": [
+    "Le Gulf Stream",
+    "Le courant de Humboldt",
+    "Le courant de Californie",
+    "Le courant circumpolaire antarctique"
+  ],
+  "correctIndex": 0,
+  "explanation": "Le Gulf Stream transporte des eaux chaudes depuis le golfe du Mexique vers l'Atlantique Nord. Il contribue à rendre les hivers beaucoup plus doux en Europe occidentale qu'à des latitudes comparables en Amérique du Nord."
+},
     {
       "id": "12",
       "question": "Quel climat est associé aux steppes ?",
@@ -100,27 +107,48 @@
       "correctIndex": 1,
       "explanation": "Le climat semi-aride est une transition entre désert et zones plus humides, souvent propice à l’élevage."
     },
-    {
-      "id": "13",
-      "question": "Quel facteur influence le climat en altitude ?",
-      "answers": ["Altitude", "Population", "Langue", "Culture"],
-      "correctIndex": 0,
-      "explanation": "Plus l’altitude augmente, plus la température diminue, ce qui crée des climats montagnards spécifiques."
-    },
-    {
-      "id": "14",
-      "question": "Quel climat est caractérisé par une forte sécheresse et peu de végétation ?",
-      "answers": ["Climat désertique", "Climat océanique", "Climat tropical", "Climat continental"],
-      "correctIndex": 0,
-      "explanation": "Les zones désertiques sont souvent liées aux zones subtropicales de haute pression où les précipitations sont rares."
-    },
-    {
-      "id": "15",
-      "question": "Quel climat est présent dans les régions proches des tropiques avec alternance sèche/humide ?",
-      "answers": ["Climat tropical", "Climat polaire", "Climat océanique", "Climat continental"],
-      "correctIndex": 0,
-      "explanation": "Le climat tropical présente des saisons marquées par les pluies, essentielles pour l’agriculture."
-    },
+  {
+  "id": "13",
+  "question": "Pourquoi fait-il généralement plus froid au sommet des montagnes qu'en plaine ?",
+  "image": null,
+  "imagePrompt": "snowy mountain elevation",
+  "answers": [
+    "Parce que la température diminue avec l'altitude",
+    "Parce que le Soleil est plus éloigné",
+    "Parce qu'il pleut davantage",
+    "Parce que les montagnes produisent du froid"
+  ],
+  "correctIndex": 0,
+  "explanation": "En moyenne, la température diminue d'environ 6,5 °C tous les 1 000 mètres d'altitude. C'est pourquoi les sommets restent souvent enneigés même lorsque les vallées connaissent des températures élevées."
+},
+   {
+  "id": "14",
+  "question": "Quel phénomène climatique réchauffe périodiquement les eaux de l'océan Pacifique tropical ?",
+  "image": null,
+  "imagePrompt": "El Nino Pacific ocean map",
+  "answers": [
+    "La Niña",
+    "El Niño",
+    "Le Gulf Stream",
+    "La mousson"
+  ],
+  "correctIndex": 1,
+  "explanation": "El Niño correspond à un réchauffement anormal des eaux du Pacifique équatorial. Ce phénomène perturbe les régimes de pluie et de température dans de nombreuses régions du monde."
+},
+   {
+  "id": "15",
+  "question": "Quel phénomène provoque des pluies abondantes lorsqu'un relief bloque une masse d'air humide ?",
+  "image": null,
+  "imagePrompt": "mountain rainfall relief diagram",
+  "answers": [
+    "L'effet de foehn",
+    "L'ombre pluviométrique",
+    "Les précipitations orographiques",
+    "L'inversion thermique"
+  ],
+  "correctIndex": 2,
+  "explanation": "Lorsque de l'air humide rencontre une montagne, il s'élève, se refroidit et provoque d'importantes précipitations sur le versant exposé. Ce phénomène est appelé précipitation orographique."
+},
     {
       "id": "16",
       "question": "Quel climat est typique du Canada intérieur ?",
@@ -128,20 +156,34 @@
       "correctIndex": 0,
       "explanation": "Le Canada intérieur subit des hivers très froids et des étés chauds, typiques du climat continental."
     },
-    {
-      "id": "17",
-      "question": "Quel climat est influencé par les courants marins ?",
-      "answers": ["Climat océanique", "Climat désertique", "Climat continental", "Climat polaire"],
-      "correctIndex": 0,
-      "explanation": "Les courants marins comme le Gulf Stream réchauffent certaines régions, modifiant leur climat."
-    },
-    {
-      "id": "18",
-      "question": "Quel climat est dominant en Australie intérieure ?",
-      "answers": ["Climat désertique", "Climat océanique", "Climat tropical", "Climat polaire"],
-      "correctIndex": 0,
-      "explanation": "L’intérieur de l’Australie est aride, avec des températures élevées et peu de précipitations."
-    },
+   {
+  "id": "17",
+  "question": "Quel phénomène climatique correspond au refroidissement des eaux du Pacifique équatorial ?",
+  "image": null,
+  "imagePrompt": "La Nina Pacific ocean map",
+  "answers": [
+    "El Niño",
+    "La Niña",
+    "La mousson",
+    "Le Gulf Stream"
+  ],
+  "correctIndex": 1,
+  "explanation": "La Niña est la phase opposée à El Niño. Le refroidissement des eaux du Pacifique modifie les précipitations, les températures et l'activité cyclonique dans de nombreuses régions du monde."
+},
+   {
+  "id": "18",
+  "question": "Quel type de climat est le plus souvent associé aux hautes montagnes comme l'Himalaya ou les Andes ?",
+  "image": null,
+  "imagePrompt": "Himalaya snowy peaks",
+  "answers": [
+    "Climat méditerranéen",
+    "Climat montagnard",
+    "Climat tropical",
+    "Climat désertique"
+  ],
+  "correctIndex": 1,
+  "explanation": "Le climat montagnard se caractérise par une baisse progressive des températures avec l'altitude et par des conditions météorologiques très variables selon l'exposition des versants."
+},
     {
       "id": "19",
       "question": "Quel climat favorise les forêts tempérées ?",

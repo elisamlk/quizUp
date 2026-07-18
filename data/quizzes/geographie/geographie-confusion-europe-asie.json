@@ -43,15 +43,20 @@
       "correctIndex": 2,
       "explanation": "Le Kazakhstan est majoritairement en Asie, mais une petite portion de son territoire s’étend en Europe, ce qui en fait un pays transcontinental."
     },
-    {
-      "id": "4",
-      "question": "Le Caucase (Géorgie, Arménie, Azerbaïdjan) est généralement considéré comme :",
-      "image": null,
-      "imagePrompt": "Caucasus mountains map",
-      "answers": ["Europe uniquement", "Asie uniquement", "Entre les deux", "Afrique"],
-      "correctIndex": 2,
-      "explanation": "Le Caucase est une zone de transition. Selon les définitions, ces pays peuvent être considérés comme européens ou asiatiques."
-    },
+   {
+  "id": "4",
+  "question": "Pourquoi le Caucase est-il souvent au cœur des débats sur la frontière entre l'Europe et l'Asie ?",
+  "image": null,
+  "imagePrompt": "Caucasus mountains map",
+  "answers": [
+    "Parce qu'il est entièrement situé en Europe",
+    "Parce qu'il est entièrement situé en Asie",
+    "Parce que plusieurs conventions géographiques y font passer la frontière entre les deux continents",
+    "Parce qu'il sépare l'Europe de l'Afrique"
+  ],
+  "correctIndex": 2,
+  "explanation": "Le Caucase est une région de transition. Selon les conventions géographiques retenues, la frontière entre l'Europe et l'Asie passe au nord ou à travers cette chaîne de montagnes, ce qui explique les débats concernant plusieurs pays de la région."
+},
     {
       "id": "5",
       "question": "Istanbul est une ville située :",
@@ -86,7 +91,7 @@
       "imagePrompt": "Bosphorus map strait",
       "answers": ["Mer Rouge et Méditerranée", "Mer Noire et Méditerranée", "Atlantique et Pacifique", "Baltique et Arctique"],
       "correctIndex": 1,
-      "explanation": "Le Bosphore relie la mer Noire à la mer de Marmara, elle-même connectée à la Méditerranée, et constitue une frontière naturelle entre continents."
+    "explanation": "Le Bosphore relie directement la mer Noire à la mer de Marmara. Les Dardanelles prolongent ensuite cette voie maritime jusqu'à la mer Égée puis à la Méditerranée. Ensemble, ces deux détroits constituent un axe stratégique majeur entre l'Europe et l'Asie."
     },
     {
       "id": "9",
@@ -104,17 +109,22 @@
       "imagePrompt": "Mount Elbrus Caucasus",
       "answers": ["Asie", "Europe", "Afrique", "Océanie"],
       "correctIndex": 1,
-      "explanation": "Le mont Elbrouz est considéré comme le point culminant de l’Europe selon la définition incluant le Caucase."
+     "explanation": "Le mont Elbrouz est généralement considéré comme le point culminant de l'Europe selon la convention géographique qui fait passer la frontière Europe-Asie au nord du Grand Caucase. D'autres définitions placent toutefois cette frontière ailleurs, ce qui explique certains débats."
     },
-    {
-      "id": "11",
-      "question": "La mer Caspienne se situe :",
-      "image": null,
-      "imagePrompt": "Caspian Sea map",
-      "answers": ["En Europe", "En Asie", "Entre Europe et Asie", "En Afrique"],
-      "correctIndex": 2,
-      "explanation": "La mer Caspienne est bordée par plusieurs pays et se situe à la frontière entre les deux continents."
-    },
+   {
+  "id": "11",
+  "question": "Quel fleuve est le plus souvent utilisé comme limite conventionnelle entre l'Europe et l'Asie ?",
+  "image": null,
+  "imagePrompt": "Ural river map satellite",
+  "answers": [
+    "Le Danube",
+    "Le Rhin",
+    "Le fleuve Oural",
+    "La Volga"
+  ],
+  "correctIndex": 2,
+  "explanation": "Avec les montagnes de l'Oural, le fleuve Oural constitue l'une des limites conventionnelles les plus largement admises entre l'Europe et l'Asie. Cette frontière reste toutefois une convention géographique et non une limite naturelle universellement reconnue."
+},
     {
       "id": "12",
       "question": "L’Arménie est généralement classée :",
@@ -151,15 +161,20 @@
       "correctIndex": 1,
       "explanation": "La partie européenne de la Turquie est très réduite, mais stratégiquement importante."
     },
-    {
-      "id": "16",
-      "question": "Le Caucase est souvent considéré comme une frontière :",
-      "image": null,
-      "imagePrompt": "Caucasus range map",
-      "answers": ["Politique", "Climatique", "Continentale", "Religieuse"],
-      "correctIndex": 2,
-      "explanation": "Le Caucase sert souvent de frontière naturelle entre Europe et Asie selon certaines définitions géographiques."
-    },
+  {
+  "id": "16",
+  "question": "Quel détroit marque traditionnellement la séparation entre la partie européenne et la partie asiatique d'Istanbul ?",
+  "image": null,
+  "imagePrompt": "Bosphorus aerial view",
+  "answers": [
+    "Les Dardanelles",
+    "Le Bosphore",
+    "Le canal de Suez",
+    "Le détroit de Gibraltar"
+  ],
+  "correctIndex": 1,
+  "explanation": "Le Bosphore traverse Istanbul et sépare la ville entre sa partie européenne et sa partie asiatique. Il constitue également l'un des détroits les plus stratégiques du monde."
+},
     {
       "id": "17",
       "question": "Le détroit des Dardanelles relie :",

@@ -70,15 +70,20 @@
       "correctIndex": 2,
       "explanation": "Les glissements de terrain surviennent souvent après de fortes pluies ou des séismes, et peuvent ensevelir des villages entiers en quelques secondes."
     },
-    {
-      "id": "7",
-      "question": "Quel pays est particulièrement touché par les cyclones dans l’océan Indien ?",
-      "image": null,
-      "imagePrompt": "Bangladesh cyclone",
-      "answers": ["Égypte", "Bangladesh", "Turquie", "Iran"],
-      "correctIndex": 1,
-      "explanation": "Le Bangladesh est très vulnérable aux cyclones en raison de sa faible altitude et de sa forte densité de population."
-    },
+  {
+  "id": "7",
+  "question": "Quel pays est particulièrement vulnérable aux cyclones qui se forment dans le golfe du Bengale ?",
+  "image": null,
+  "imagePrompt": "Bangladesh cyclone coastal flooding",
+  "answers": [
+    "Égypte",
+    "Bangladesh",
+    "Turquie",
+    "Iran"
+  ],
+  "correctIndex": 1,
+  "explanation": "Le Bangladesh est l'un des pays les plus exposés aux cyclones du golfe du Bengale. Sa faible altitude, son vaste delta et sa forte densité de population rendent ces phénomènes particulièrement meurtriers malgré les importants progrès réalisés en matière d'alerte et d'évacuation."
+},
     {
       "id": "8",
       "question": "Quelle catastrophe naturelle est mesurée sur l’échelle de Richter ?",
@@ -86,17 +91,22 @@
       "imagePrompt": "seismograph",
       "answers": ["Ouragan", "Séisme", "Tsunami", "Volcan"],
       "correctIndex": 1,
-      "explanation": "L’échelle de Richter mesure la magnitude des séismes. Une augmentation d’un point correspond à une énergie libérée environ 30 fois supérieure."
+      "explanation": "Historiquement mesurés avec l'échelle de Richter, les grands séismes sont aujourd'hui évalués principalement grâce à la magnitude de moment (Mw), plus précise."
     },
-    {
-      "id": "9",
-      "question": "Quel pays est le plus touché par les tremblements de terre en Europe ?",
-      "image": null,
-      "imagePrompt": "Italy earthquake",
-      "answers": ["France", "Allemagne", "Italie", "Suède"],
-      "correctIndex": 2,
-      "explanation": "L’Italie est située à la convergence de plaques tectoniques, ce qui explique sa forte activité sismique."
-    },
+   {
+  "id": "9",
+  "question": "Quel pays d'Europe occidentale est régulièrement frappé par des séismes destructeurs ?",
+  "image": null,
+  "imagePrompt": "Italy earthquake ruins",
+  "answers": [
+    "France",
+    "Allemagne",
+    "Italie",
+    "Suède"
+  ],
+  "correctIndex": 2,
+  "explanation": "L'Italie est située à la rencontre de la plaque africaine et de la plaque eurasienne. Cette position géologique explique les nombreux séismes qui touchent régulièrement la péninsule, notamment dans les Apennins et le sud du pays."
+},
     {
       "id": "10",
       "question": "Quel phénomène correspond à une longue période sans pluie ?",
@@ -124,15 +134,20 @@
       "correctIndex": 2,
       "explanation": "Les inondations peuvent être causées par des pluies intenses, des crues de fleuves ou des tempêtes marines."
     },
-    {
-      "id": "13",
-      "question": "Quel continent est le moins touché par les catastrophes naturelles majeures ?",
-      "image": null,
-      "imagePrompt": "Antarctica landscape",
-      "answers": ["Europe", "Afrique", "Antarctique", "Asie"],
-      "correctIndex": 2,
-      "explanation": "L’Antarctique est peu touché en raison de l’absence de population et de phénomènes climatiques extrêmes de type cyclones."
-    },
+  {
+  "id": "13",
+  "question": "Quelle région du monde est surnommée la « ceinture de feu » en raison de sa forte activité volcanique et sismique ?",
+  "image": null,
+  "imagePrompt": "Pacific Ring of Fire map volcanoes",
+  "answers": [
+    "Océan Atlantique",
+    "Océan Indien",
+    "Ceinture de feu du Pacifique",
+    "Mer Méditerranée"
+  ],
+  "correctIndex": 2,
+  "explanation": "La ceinture de feu du Pacifique entoure l'océan Pacifique et concentre environ 75 % des volcans actifs de la planète ainsi qu'une très grande partie des séismes. Cette activité est liée aux nombreuses limites entre plaques tectoniques."
+},
     {
       "id": "14",
       "question": "Quel phénomène est lié à une accumulation de neige ?",
@@ -151,15 +166,20 @@
       "correctIndex": 2,
       "explanation": "Le séisme de Valdivia au Chili en 1960 a atteint une magnitude de 9,5, le plus puissant jamais mesuré."
     },
-    {
-      "id": "16",
-      "question": "Quel phénomène est lié au vent violent en mer ?",
-      "image": null,
-      "imagePrompt": "cyclone satellite",
-      "answers": ["Cyclone", "Séisme", "Volcan", "Avalanche"],
-      "correctIndex": 0,
-      "explanation": "Les cyclones se forment au-dessus des eaux chaudes et peuvent provoquer des dégâts considérables sur les côtes."
-    },
+   {
+  "id": "16",
+  "question": "Quel phénomène météorologique tropical se forme au-dessus des eaux chaudes des océans ?",
+  "image": null,
+  "imagePrompt": "tropical cyclone satellite",
+  "answers": [
+    "Cyclone",
+    "Séisme",
+    "Volcan",
+    "Avalanche"
+  ],
+  "correctIndex": 0,
+  "explanation": "Les cyclones tropicaux naissent au-dessus d'eaux océaniques très chaudes, généralement supérieures à 26,5 °C. Ils associent des vents violents, des pluies torrentielles et une forte houle pouvant provoquer d'importantes submersions côtières."
+},
     {
       "id": "17",
       "question": "Quelle catastrophe peut être déclenchée par la fonte du permafrost ?",

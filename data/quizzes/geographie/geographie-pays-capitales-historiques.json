@@ -1,8 +1,8 @@
 {
   "slug": "quiz-capitales-historiques-monde",
   "title": "Quiz Géographie - Capitales historiques du monde",
-  "description": "Teste tes connaissances sur les anciennes capitales et découvre si tu maîtrises l’histoire géographique des nations.",
-  "descriptionSeo": "Connais-tu les anciennes capitales des grandes civilisations et des pays modernes ? Ce quiz de géographie te propose 20 questions captivantes sur les capitales historiques du monde. De Kyoto à Bonn, de Rio de Janeiro à Almaty, mets à l’épreuve ta culture géographique et historique. Chaque question est accompagnée d’explications détaillées pour mieux comprendre l’évolution politique et territoriale des États à travers le temps.",
+  "description": "Teste tes connaissances sur les anciennes capitales et découvre si tu maîtrises l'histoire géographique des nations.",
+  "descriptionSeo": "Connais-tu les anciennes capitales des grandes civilisations et des pays modernes ? Ce quiz de géographie te propose 20 questions captivantes sur les capitales historiques du monde. De Kyoto à Bonn, de Rio de Janeiro à Almaty, mets à l'épreuve ta culture géographique et historique. Chaque question est accompagnée d'explications détaillées pour mieux comprendre l'évolution politique et territoriale des États à travers le temps.",
   "category": {
     "name": "Géographie",
     "slug": "geographie"
@@ -18,183 +18,183 @@
   "questions": [
     {
       "id": "1",
-      "question": "Quelle ancienne capitale du Japon a précédé Tokyo ?",
+      "question": "Quelle ancienne capitale du Japon a précédé Tokyo comme siège de la cour impériale pendant plus d'un millénaire ?",
       "image": null,
-      "imagePrompt": "Kyoto temples",
+      "imagePrompt": "Kyoto temples imperial",
       "answers": ["Osaka", "Kyoto", "Nara", "Nagoya"],
       "correctIndex": 1,
-      "explanation": "Kyoto a été la capitale impériale du Japon pendant plus d’un millénaire, jusqu’au transfert du pouvoir à Tokyo en 1868 lors de la restauration de Meiji."
+      "explanation": "Kyoto a été la capitale impériale du Japon de 794 à 1868, soit plus d'un millénaire. Le transfert du pouvoir à Tokyo intervint lors de la restauration de Meiji, quand l'empereur quitta définitivement Kyoto pour s'installer dans l'ancienne ville d'Edo, rebaptisée Tokyo (« capitale de l'Est »)."
     },
     {
       "id": "2",
-      "question": "Quelle ville était la capitale de l’Allemagne de l’Ouest avant Berlin réunifiée ?",
+      "question": "Quelle ville était la capitale de l'Allemagne de l'Ouest de 1949 à la réunification ?",
       "image": null,
-      "imagePrompt": "Bonn Germany city",
-      "answers": ["Francfort", "Munich", "Bonn", "Hambourg"],
-      "correctIndex": 2,
-      "explanation": "Bonn fut la capitale de la République fédérale d’Allemagne de 1949 jusqu’au retour officiel du gouvernement à Berlin après la réunification."
+      "imagePrompt": "Bonn Germany Bundestag city",
+      "answers": ["Francfort", "Bonn", "Munich", "Hambourg"],
+      "correctIndex": 1,
+      "explanation": "Bonn fut choisie comme capitale provisoire de la République fédérale d'Allemagne en 1949, en partie parce qu'elle était petite et modeste — signe que la division du pays était censée être temporaire. Après la réunification en 1990, Berlin redevint officiellement capitale en 1991, mais certains ministères restèrent à Bonn jusqu'en 1999."
     },
     {
       "id": "3",
       "question": "Avant Brasília, quelle ville était la capitale du Brésil ?",
       "image": null,
-      "imagePrompt": "Rio de Janeiro skyline",
+      "imagePrompt": "Rio de Janeiro skyline Christ Redeemer",
       "answers": ["Rio de Janeiro", "São Paulo", "Salvador", "Recife"],
       "correctIndex": 0,
-      "explanation": "Rio de Janeiro a été la capitale du Brésil jusqu’en 1960, année de l’inauguration de Brasília, conçue pour rééquilibrer le développement du pays vers l’intérieur."
+      "explanation": "Rio de Janeiro a été la capitale du Brésil de 1763 à 1960, et même brièvement capitale du Portugal (1808-1821) lorsque la famille royale s'y réfugia pour fuir Napoléon. Brasília fut inaugurée en 1960, conçue par Lúcio Costa et Oscar Niemeyer pour rééquilibrer le développement vers l'intérieur du pays."
     },
     {
       "id": "4",
-      "question": "Quelle ville fut la capitale de la Turquie ottomane avant Ankara ?",
+      "question": "Quelle ville fut la capitale ottomane pendant près de cinq siècles avant qu'Ankara ne devienne capitale de la République turque ?",
       "image": null,
-      "imagePrompt": "Istanbul Hagia Sophia",
+      "imagePrompt": "Istanbul Hagia Sophia Ottoman",
       "answers": ["Bursa", "Edirne", "Izmir", "Istanbul"],
       "correctIndex": 3,
-      "explanation": "Istanbul, autrefois Constantinople, fut la capitale de l’Empire ottoman pendant des siècles avant qu’Ankara ne devienne la capitale de la République en 1923."
+      "explanation": "Istanbul (anciennement Constantinople, puis Byzance) fut la capitale de l'Empire ottoman de 1453 à 1922. Mustafa Kemal Atatürk choisit Ankara comme capitale de la nouvelle République turque en 1923, pour marquer la rupture avec l'empire et ancrer le pays dans l'Anatolie."
     },
     {
       "id": "5",
-      "question": "Quelle ancienne capitale impériale de la Russie a précédé Moscou dans les temps modernes ?",
+      "question": "Quelle ville fut la capitale de l'Empire russe de 1712 à 1918, avant le retour du pouvoir à Moscou ?",
       "image": null,
-      "imagePrompt": "Saint Petersburg palace",
-      "answers": ["Kazan", "Saint-Pétersbourg", "Novgorod", "Sotchi"],
-      "correctIndex": 1,
-      "explanation": "Saint-Pétersbourg fut la capitale de l’Empire russe de 1712 à 1918, avant que le pouvoir ne soit transféré à Moscou après la révolution."
+      "imagePrompt": "Saint Petersburg Winter Palace Russia",
+      "answers": ["Kazan", "Novgorod", "Saint-Pétersbourg", "Sotchi"],
+      "correctIndex": 2,
+      "explanation": "Saint-Pétersbourg fut fondée par Pierre le Grand en 1703 et devint capitale en 1712. Elle fut rebaptisée Petrograd en 1914 (à cause des consonances allemandes), puis Léningrad en 1924. Le gouvernement bolchevique transféra le pouvoir à Moscou en mars 1918, craignant une offensive allemande."
     },
     {
       "id": "6",
-      "question": "Quelle ville a servi de capitale provisoire de l’Australie avant Canberra ?",
+      "question": "Quelle ville a exercé le rôle de capitale provisoire de l'Australie entre 1901 et 1927, avant l'achèvement de Canberra ?",
       "image": null,
-      "imagePrompt": "Melbourne city",
+      "imagePrompt": "Melbourne Federation Square city Australia",
       "answers": ["Sydney", "Brisbane", "Perth", "Melbourne"],
       "correctIndex": 3,
-      "explanation": "Melbourne a accueilli le siège du gouvernement fédéral australien de façon provisoire jusqu’à la montée en puissance de Canberra comme capitale officielle."
+      "explanation": "Melbourne accueillit le Parlement fédéral australien de 1901 à 1927. Le choix de Canberra comme capitale fut un compromis entre Sydney et Melbourne, les deux grandes rivales. Canberra fut inaugurée en 1913 mais le Parlement n'y siégea officiellement qu'en 1927."
     },
     {
       "id": "7",
-      "question": "Avant Yamoussoukro, quelle ville était la capitale de la Côte d’Ivoire ?",
+      "question": "Avant Yamoussoukro, quelle ville exerçait de facto les fonctions de capitale de la Côte d'Ivoire ?",
       "image": null,
-      "imagePrompt": "Abidjan skyline",
+      "imagePrompt": "Abidjan skyline Ivory Coast",
       "answers": ["Bouaké", "Abidjan", "Korhogo", "San Pedro"],
       "correctIndex": 1,
-      "explanation": "Abidjan a longtemps été la capitale politique et économique du pays avant le transfert officiel de la capitale à Yamoussoukro en 1983."
+      "explanation": "Abidjan a longtemps été la capitale politique et économique du pays. Le transfert officiel à Yamoussoukro, ville natale du président Houphouët-Boigny, fut décrété en 1983 — mais Abidjan reste aujourd'hui encore le siège de la plupart des institutions et ambassades."
     },
     {
       "id": "8",
-      "question": "Quelle ville a précédé Dodoma comme capitale de la Tanzanie ?",
+      "question": "Quelle ville côtière a précédé Dodoma comme capitale de la Tanzanie ?",
       "image": null,
-      "imagePrompt": "Dar es Salaam port",
+      "imagePrompt": "Dar es Salaam port Tanzania",
       "answers": ["Arusha", "Mwanza", "Dar es Salaam", "Zanzibar"],
       "correctIndex": 2,
-      "explanation": "Dar es Salaam a longtemps exercé les fonctions de capitale avant le transfert progressif des institutions vers Dodoma."
+      "explanation": "Dar es Salaam, principal port et plus grande ville du pays, a longtemps exercé les fonctions de capitale. Le transfert vers Dodoma, plus centrale, fut décidé en 1974 mais reste inachevé : plusieurs ministères et le corps diplomatique sont encore à Dar es Salaam."
     },
     {
       "id": "9",
-      "question": "Avant Abuja, quelle ville était la capitale du Nigeria ?",
+      "question": "Avant Abuja, quelle mégalopole côtière était la capitale du Nigeria jusqu'en 1991 ?",
       "image": null,
-      "imagePrompt": "Lagos city",
+      "imagePrompt": "Lagos Nigeria skyline city",
       "answers": ["Lagos", "Ibadan", "Kano", "Kaduna"],
       "correctIndex": 0,
-      "explanation": "Lagos fut la capitale du Nigeria jusqu’en 1991, date à laquelle Abuja est devenue la nouvelle capitale fédérale, plus centrale géographiquement."
+      "explanation": "Lagos fut la capitale du Nigeria de l'indépendance (1960) jusqu'en 1991. Abuja fut choisie pour sa position centrale et sa neutralité ethnique dans un pays aux multiples groupes. Lagos reste aujourd'hui la plus grande ville d'Afrique, avec plus de 15 millions d'habitants."
     },
     {
       "id": "10",
-      "question": "Quelle ancienne capitale du Kazakhstan a été remplacée par Astana ?",
+      "question": "Quelle ancienne capitale du Kazakhstan, toujours sa plus grande ville, fut remplacée par Astana en 1997 ?",
       "image": null,
-      "imagePrompt": "Almaty mountains",
+      "imagePrompt": "Almaty mountains Kazakhstan city",
       "answers": ["Shymkent", "Karaganda", "Aktobe", "Almaty"],
       "correctIndex": 3,
-      "explanation": "Almaty a été la capitale du Kazakhstan jusqu’en 1997 avant le transfert à Astana, ensuite renommée temporairement Nur-Sultan puis redevenue Astana."
+      "explanation": "Almaty, nichée au pied des montagnes du Tian Shan, fut la capitale du Kazakhstan jusqu'en 1997. Astana lui succéda, puis fut rebaptisée Nur-Sultan en 2019 en l'honneur du président Nazarbaïev, avant de reprendre son nom d'Astana en 2022 après sa disgrâce."
     },
     {
       "id": "11",
-      "question": "Avant Naypyidaw, quelle ville était la capitale de la Birmanie (Myanmar) ?",
+      "question": "Avant Naypyidaw, quelle ville était la capitale du Myanmar (Birmanie) jusqu'en 2006 ?",
       "image": null,
-      "imagePrompt": "Yangon city",
+      "imagePrompt": "Yangon Shwedagon Pagoda Myanmar",
       "answers": ["Yangon", "Mandalay", "Bagan", "Mawlamyine"],
       "correctIndex": 0,
-      "explanation": "Yangon a été la capitale jusqu’au transfert du centre politique à Naypyidaw au milieu des années 2000."
+      "explanation": "Yangon (anciennement Rangoun) fut la capitale jusqu'au transfert soudain et controversé à Naypyidaw en 2006, décidé par la junte militaire. La construction de Naypyidaw fut gardée secrète ; la ville, entièrement planifiée, abrite aujourd'hui les administrations mais reste peu peuplée comparée à Yangon."
     },
     {
       "id": "12",
-      "question": "Quelle ville fut la capitale du Pakistan avant Islamabad ?",
+      "question": "Quelle ville portuaire fut la première capitale du Pakistan après l'indépendance de 1947, avant Islamabad ?",
       "image": null,
-      "imagePrompt": "Karachi skyline",
+      "imagePrompt": "Karachi skyline Pakistan port",
       "answers": ["Lahore", "Peshawar", "Karachi", "Quetta"],
       "correctIndex": 2,
-      "explanation": "Karachi fut la première capitale du Pakistan après l’indépendance, avant la création et l’officialisation d’Islamabad."
+      "explanation": "Karachi fut la première capitale du Pakistan de 1947 à 1958, puis Rawalpindi assura une transition, avant l'inauguration officielle d'Islamabad en 1966. Islamabad fut construite ex nihilo pour offrir une capitale plus centrale et moins vulnérable stratégiquement."
     },
     {
       "id": "13",
-      "question": "Quelle ville historique du Maroc a longtemps exercé le rôle de capitale avant Rabat ?",
+      "question": "Quelle cité impériale du Maroc fut capitale pendant des siècles avant que le protectorat français n'impose Rabat ?",
       "image": null,
-      "imagePrompt": "Fez medina",
+      "imagePrompt": "Fez medina Morocco ancient",
       "answers": ["Casablanca", "Fès", "Agadir", "Tanger"],
       "correctIndex": 1,
-      "explanation": "Fès a été l’une des grandes capitales impériales du Maroc et demeure un centre historique, religieux et culturel majeur."
+      "explanation": "Fès, fondée en 789, fut à plusieurs reprises la capitale du Maroc et reste l'un des plus grands foyers de l'islam sunnite en Afrique. Son université Al-Qarawiyyine, fondée en 859, est souvent citée comme l'une des plus anciennes universités au monde. Rabat devint capitale administrative sous le protectorat en 1912."
     },
     {
       "id": "14",
-      "question": "Quelle ville était la capitale de l’Inde britannique avant New Delhi ?",
+      "question": "Quelle ville fut la capitale de l'Inde britannique pendant plus d'un siècle, avant le transfert à Delhi en 1911 ?",
       "image": null,
-      "imagePrompt": "Kolkata colonial buildings",
+      "imagePrompt": "Kolkata Victoria Memorial colonial India",
       "answers": ["Mumbai", "Chennai", "Kolkata", "Lucknow"],
       "correctIndex": 2,
-      "explanation": "Kolkata, autrefois Calcutta, fut la capitale du Raj britannique jusqu’au transfert à Delhi annoncé en 1911."
+      "explanation": "Kolkata (anciennement Calcutta) fut la capitale du Raj britannique de 1772 à 1911. Le transfert à Delhi fut annoncé par le roi George V lors du Delhi Durbar de 1911. New Delhi, la nouvelle capitale planifiée par Edwin Lutyens, fut officiellement inaugurée en 1931."
     },
     {
       "id": "15",
-      "question": "Quelle ancienne capitale royale de la Pologne a précédé Varsovie ?",
+      "question": "Quelle ville royale de Pologne a été la capitale du royaume pendant plus de cinq siècles avant Varsovie ?",
       "image": null,
-      "imagePrompt": "Krakow old town",
+      "imagePrompt": "Krakow Wawel Castle Poland",
       "answers": ["Gdańsk", "Poznań", "Lublin", "Kraków"],
       "correctIndex": 3,
-      "explanation": "Kraków a longtemps été la capitale royale de la Pologne avant que Varsovie ne s’impose comme centre politique du pays."
+      "explanation": "Kraków fut la capitale royale de la Pologne de 1038 à 1596, date à laquelle Sigismond III Vasa transféra la cour à Varsovie. Le château du Wawel, résidence des rois, et la cathédrale où ils étaient couronnés font de Kraków un haut lieu de l'identité nationale polonaise."
     },
     {
       "id": "16",
-      "question": "Avant Washington D.C., quelle ville a exercé le rôle de capitale fédérale des États-Unis ?",
+      "question": "Avant Washington D.C., deux villes ont été capitales fédérales des États-Unis. Laquelle en fut la toute première, en 1789 ?",
       "image": null,
-      "imagePrompt": "Philadelphia independence hall",
-      "answers": ["Philadelphie", "Boston", "Chicago", "New York"],
-      "correctIndex": 0,
-      "explanation": "Philadelphie a accueilli le gouvernement fédéral à plusieurs reprises et a joué un rôle fondamental dans les débuts politiques des États-Unis."
+      "imagePrompt": "New York Federal Hall Wall Street",
+      "answers": ["Philadelphie", "Boston", "New York", "Baltimore"],
+      "correctIndex": 2,
+      "explanation": "New York fut la première capitale fédérale des États-Unis (1789-1790), où George Washington prêta serment à Federal Hall. Philadelphie lui succéda de 1790 à 1800, avant l'inauguration de Washington D.C. comme capitale permanente — un compromis entre les États du Nord et du Sud."
     },
     {
       "id": "17",
-      "question": "Quelle ancienne capitale de l’Égypte antique est souvent citée parmi les premières avant Le Caire ?",
+      "question": "Quelle cité de l'Égypte antique, aujourd'hui en ruines près du Caire, fut la première grande capitale de l'Ancien Empire ?",
       "image": null,
-      "imagePrompt": "Memphis ruins Egypt",
+      "imagePrompt": "Memphis ruins Egypt ancient",
       "answers": ["Alexandrie", "Gizeh", "Memphis", "Port-Saïd"],
       "correctIndex": 2,
-      "explanation": "Memphis fut l’une des premières grandes capitales de l’Égypte antique et un centre politique essentiel durant l’Ancien Empire."
+      "explanation": "Memphis, fondée vers 3100 av. J.-C. par le pharaon Narmer (ou Ménès), fut la capitale de l'Égypte pendant l'Ancien Empire. Ses ruines, situées à 20 km au sud du Caire, sont classées au patrimoine mondial de l'UNESCO. Alexandrie ne fut fondée qu'en 331 av. J.-C. par Alexandre le Grand."
     },
     {
       "id": "18",
-      "question": "Quel ancien nom de Xi’an désignait une capitale majeure de la Chine impériale ?",
+      "question": "Quel ancien nom de Xi'an désignait la capitale de plusieurs dynasties chinoises, dont la Tang, l'une des plus brillantes ?",
       "image": null,
-      "imagePrompt": "Xian ancient city wall",
+      "imagePrompt": "Xian ancient city wall Tang dynasty",
       "answers": ["Luoyang", "Pékin", "Nankin", "Chang'an"],
       "correctIndex": 3,
-      "explanation": "Chang'an, l’actuelle Xi’an, fut la capitale de plusieurs dynasties chinoises et l’un des grands foyers urbains du monde ancien."
+      "explanation": "Chang'an, l'actuelle Xi'an, fut la capitale de dynasties majeures dont les Han et les Tang. Sous les Tang (618-907), elle était l'une des plus grandes villes du monde, avec plus d'un million d'habitants, et le point de départ de la Route de la Soie vers l'Occident."
     },
     {
       "id": "19",
-      "question": "Quelle ville fut la capitale historique du Nigeria colonial avant Lagos domine politiquement ?",
+      "question": "Quelle ville, aujourd'hui située en Corée du Nord, fut la capitale du royaume de Goryeo pendant près de cinq siècles ?",
       "image": null,
-      "imagePrompt": "Calabar Nigeria old colonial city",
-      "answers": ["Calabar", "Jos", "Enugu", "Abeokuta"],
-      "correctIndex": 0,
-      "explanation": "Calabar a occupé une place administrative importante à l’époque coloniale britannique, avant que Lagos ne s’impose durablement comme capitale."
+      "imagePrompt": "Kaesong Koryo ancient capital Korea",
+      "answers": ["Pyongyang", "Kaesong", "Incheon", "Busan"],
+      "correctIndex": 1,
+      "explanation": "Kaesong (ou Gaeseong) fut la capitale du royaume de Goryeo (918-1392), qui donna son nom à la Corée. C'est aujourd'hui une ville nord-coréenne à quelques kilomètres de la frontière avec le Sud. Elle abrita jusqu'en 2016 une zone industrielle intercoréenne symbole d'une coopération fragile."
     },
     {
       "id": "20",
-      "question": "Quelle ancienne capitale du Japon a aussi précédé Kyoto dans l’histoire impériale ?",
+      "question": "Quelle ville andine fut la capitale de l'Empire inca, le plus vaste d'Amérique précolombienne ?",
       "image": null,
-      "imagePrompt": "Nara temple Japan",
-      "answers": ["Nagasaki", "Kobe", "Sapporo", "Nara"],
+      "imagePrompt": "Cusco Inca Peru ancient city",
+      "answers": ["Lima", "Quito", "La Paz", "Cusco"],
       "correctIndex": 3,
-      "explanation": "Nara fut l’une des premières capitales permanentes du Japon au VIIIe siècle, avant que la cour impériale ne soit transférée à Kyoto."
+      "explanation": "Cusco (Qosqo en quechua, « nombril du monde ») fut la capitale de l'Empire inca du XIIIe siècle jusqu'à la conquête espagnole en 1533. À son apogée, l'empire Tawantinsuyu s'étendait sur 4 000 km du nord au sud, de la Colombie actuelle au Chili. Lima, la capitale actuelle du Pérou, fut fondée par Pizarro en 1535."
     }
   ]
 }

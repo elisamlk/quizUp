@@ -1,12 +1,10 @@
 {
   "slug": "quiz-geographie-pays-hymnes",
   "title": "Quiz Géographie - 20 questions sur les hymnes nationaux du monde",
-  "description": "Associe les hymnes nationaux aux bons pays et découvre leur histoire et leur signification.",
-  "descriptionSeo": "Les hymnes nationaux racontent l’histoire, les luttes et l’identité des pays. Ce quiz de géographie vous propose 20 questions pour associer des hymnes célèbres ou méconnus à leur nation. De la Marseillaise à God Save the King, explorez les origines, les symboles et les messages de ces chants officiels grâce à des explications détaillées et enrichissantes.",
-  "category": {
-    "name": "Géographie",
-    "slug": "geographie"
-  },
+  "description": "Associe les hymnes nationaux aux bons pays, découvre leurs auteurs, leurs particularités et leur histoire.",
+  "publishedAt": "2026-03-30",
+  "descriptionSeo": "Les hymnes nationaux racontent l'histoire, les luttes et l'identité des pays. Ce quiz de géographie vous propose 20 questions variées pour associer des hymnes célèbres à leur nation, découvrir leurs auteurs, leur signification et leurs particularités.",
+  "category": { "name": "Géographie", "slug": "geographie" },
   "createdAt": "2026-03-30",
   "isNew": true,
   "isPopular": true,
@@ -18,183 +16,163 @@
   "questions": [
     {
       "id": "1",
-      "question": "“La Marseillaise” est l’hymne de quel pays ?",
-      "image": null,
-      "imagePrompt": "French revolution flag",
-      "answers": ["France", "Belgique", "Italie", "Suisse"],
-      "correctIndex": 0,
-      "explanation": "Composée en 1792, La Marseillaise est un chant révolutionnaire devenu symbole de liberté et de résistance face à l’oppression."
+      "question": "\"La Marseillaise\" est l'hymne de quel pays ?",
+      "image": null, "imagePrompt": "French revolution flag Marseillaise",
+      "answers": ["Belgique", "Italie", "Suisse", "France"],
+      "correctIndex": 3,
+      "explanation": "Composée en 1792 par Rouget de Lisle à Strasbourg, La Marseillaise était à l'origine un chant de guerre pour l'armée du Rhin. Elle doit son nom aux volontaires marseillais qui la popularisèrent à Paris. Devenue symbole de liberté et de résistance, elle est aujourd'hui l'hymne national le plus connu au monde."
     },
     {
       "id": "2",
-      "question": "“God Save the King” est l’hymne de quel pays ?",
-      "image": null,
-      "imagePrompt": "UK royal flag",
-      "answers": ["Canada", "Australie", "Irlande", "Royaume-Uni"],
-      "correctIndex": 3,
-      "explanation": "Cet hymne reflète la monarchie britannique et change de nom selon le souverain (King ou Queen)."
+      "question": "Quel est l'hymne national officiel du Royaume-Uni, dont le titre change selon le souverain au pouvoir ?",
+      "image": null, "imagePrompt": "UK royal flag Buckingham Palace",
+      "answers": ["God Save the King", "O Canada", "Advance Australia Fair", "Rule Britannia"],
+      "correctIndex": 0,
+      "explanation": "\"God Save the King\" (ou \"God Save the Queen\" selon le monarque régnant) est l'hymne du Royaume-Uni. Cette particularité unique au monde reflète la monarchie constitutionnelle britannique. L'hymne est attesté dès le XVIIIe siècle et a inspiré de nombreuses nations à adopter la même mélodie pour leurs propres chants patriotiques."
     },
     {
       "id": "3",
-      "question": "“The Star-Spangled Banner” est l’hymne de quel pays ?",
-      "image": null,
-      "imagePrompt": "US flag",
-      "answers": ["États-Unis", "Canada", "Australie", "Nouvelle-Zélande"],
-      "correctIndex": 0,
-      "explanation": "Inspiré d’un poème écrit pendant la guerre de 1812, il célèbre la résistance américaine face aux Britanniques."
+      "question": "\"The Star-Spangled Banner\" est l'hymne de quel pays, inspiré d'un poème écrit pendant la guerre de 1812 ?",
+      "image": null, "imagePrompt": "US flag stars stripes",
+      "answers": ["Canada", "États-Unis", "Australie", "Nouvelle-Zélande"],
+      "correctIndex": 1,
+      "explanation": "\"The Star-Spangled Banner\" fut composé par Francis Scott Key pendant le bombardement britannique de Fort McHenry en 1814. Il ne devint hymne officiel des États-Unis qu'en 1931. Sa tessiture très étendue (une octave et demie) en fait l'un des hymnes les plus difficiles à chanter, ce qui donne lieu à de nombreuses interprétations mémorables (ou désastreuses)."
     },
     {
       "id": "4",
-      "question": "“Deutschlandlied” est l’hymne de quel pays ?",
-      "image": null,
-      "imagePrompt": "Germany flag",
-      "answers": ["Autriche", "Allemagne", "Pays-Bas", "Suisse"],
-      "correctIndex": 1,
-      "explanation": "Seule la troisième strophe est utilisée aujourd’hui, symbole d’unité et de démocratie."
+      "question": "L'hymne national de quel grand pays sportif est unique car il n'a aucune parole officielle, contrairement à presque tous les autres hymnes nationaux ?",
+      "image": null, "imagePrompt": "Spain flag Royal march",
+      "answers": ["Japon", "Australie", "Espagne", "Pays-Bas"],
+      "correctIndex": 2,
+      "explanation": "La \"Marcha Real\" espagnole est l'un des rares hymnes nationaux au monde sans paroles officielles. Plusieurs tentatives d'en écrire ont échoué, notamment en 2008 lorsqu'un concours organisé par le Comité olympique espagnol fut annulé après que les paroles proposées firent polémique. Les sportifs espagnols fredonnent donc simplement la mélodie lors des cérémonies."
     },
     {
       "id": "5",
-      "question": "“Fratelli d’Italia” est l’hymne de quel pays ?",
-      "image": null,
-      "imagePrompt": "Italy flag",
-      "answers": ["Portugal", "Espagne", "Italie", "Grèce"],
-      "correctIndex": 2,
-      "explanation": "Cet hymne est lié au mouvement d’unification italienne du XIXe siècle."
+      "question": "\"Deutschlandlied\" est l'hymne de quel pays, dont seule la troisième strophe est utilisée officiellement aujourd'hui ?",
+      "image": null, "imagePrompt": "Germany flag Berlin Brandenburg Gate",
+      "answers": ["Autriche", "Suisse", "Pays-Bas", "Allemagne"],
+      "correctIndex": 3,
+      "explanation": "Le \"Deutschlandlied\" fut composé en 1841. Après la Seconde Guerre mondiale, seule la troisième strophe (\"Einigkeit und Recht und Freiheit\" — Unité, Droit et Liberté) fut retenue comme hymne officiel de la République fédérale, les deux premières strophes étant associées au nationalisme exacerbé du IIIe Reich."
     },
     {
       "id": "6",
-      "question": "“Kimigayo” est l’hymne de quel pays ?",
-      "image": null,
-      "imagePrompt": "Japan flag",
-      "answers": ["Corée du Sud", "Chine", "Japon", "Vietnam"],
-      "correctIndex": 2,
-      "explanation": "L’un des hymnes les plus courts au monde, il évoque la longévité de l’empereur."
+      "question": "\"Fratelli d'Italia\" est l'hymne de quel pays, lié au mouvement d'unification nationale du XIXe siècle ?",
+      "image": null, "imagePrompt": "Italy flag Risorgimento",
+      "answers": ["Italie", "Portugal", "Espagne", "Grèce"],
+      "correctIndex": 0,
+      "explanation": "\"Fratelli d'Italia\" (aussi appelé \"Il Canto degli Italiani\") fut écrit en 1847 par Goffredo Mameli, à seulement 20 ans. Il est lié au Risorgimento, le mouvement d'unification de l'Italie. Il ne devint hymne officiel qu'en 2017 (provisoirement depuis 1946). Mameli mourut à 21 ans lors de la défense de Rome."
     },
     {
       "id": "7",
-      "question": "“Advance Australia Fair” est l’hymne de quel pays ?",
-      "image": null,
-      "imagePrompt": "Australia flag",
-      "answers": ["Australie", "Canada", "Royaume-Uni", "Nouvelle-Zélande"],
-      "correctIndex": 0,
-      "explanation": "Adopté en 1984, il symbolise une identité australienne indépendante."
+      "question": "\"Kimigayo\" est l'hymne de quel pays, connu pour être l'un des plus courts du monde avec seulement 5 mesures ?",
+      "image": null, "imagePrompt": "Japan flag sakura cherry blossoms",
+      "answers": ["Corée du Sud", "Japon", "Vietnam", "Chine"],
+      "correctIndex": 1,
+      "explanation": "\"Kimigayo\" est l'un des hymnes nationaux les plus courts au monde avec 32 syllabes et environ 45 secondes. Le texte est tiré d'un poème du Xe siècle et évoque la longévité de l'ère impériale. Il est aussi l'un des plus anciens hymnes du monde par son texte, même si la musique actuelle date de 1880."
     },
     {
       "id": "8",
-      "question": "“O Canada” est l’hymne de quel pays ?",
-      "image": null,
-      "imagePrompt": "Canada flag",
-      "answers": ["États-Unis", "Canada", "Australie", "Irlande"],
-      "correctIndex": 1,
-      "explanation": "Existe en français et en anglais, reflétant la dualité linguistique du pays."
+      "question": "Quel est l'hymne national du Canada, officiellement disponible en français et en anglais depuis 1980 ?",
+      "image": null, "imagePrompt": "Canada flag maple leaf Ottawa",
+      "answers": ["Maple Leaf Forever", "True North Strong", "O Canada", "God Save the King"],
+      "correctIndex": 2,
+      "explanation": "\"O Canada\" fut composé en 1880 pour la Saint-Jean-Baptiste à Québec, en français, par Calixa Lavallée. Une version anglaise fut ajoutée plus tard. Il ne devint hymne officiel qu'en 1980. La dualité française-anglaise de l'hymne reflète les deux peuples fondateurs du Canada et reste un symbole de l'identité biculturelle du pays."
     },
     {
       "id": "9",
-      "question": "“Marcha Real” est l’hymne de quel pays ?",
-      "image": null,
-      "imagePrompt": "Spain flag",
-      "answers": ["Italie", "Mexique", "Espagne", "Portugal"],
-      "correctIndex": 2,
-      "explanation": "Particularité : cet hymne n’a pas de paroles officielles."
+      "question": "\"Advance Australia Fair\" est l'hymne de quel pays, adopté en 1984 après un référendum ?",
+      "image": null, "imagePrompt": "Australia flag Opera House",
+      "answers": ["Australie", "Canada", "Royaume-Uni", "Nouvelle-Zélande"],
+      "correctIndex": 0,
+      "explanation": "L'Australie a adopté \"Advance Australia Fair\" en 1984 lors d'un vote populaire, remplaçant \"God Save the Queen\". Ce choix symbolisait une volonté d'affirmer une identité australienne indépendante. En 2021, une ligne du texte fut modifiée (\"young and free\" → \"one and free\") pour mieux reconnaître les peuples autochtones."
     },
     {
       "id": "10",
-      "question": "“Jana Gana Mana” est l’hymne de quel pays ?",
-      "image": null,
-      "imagePrompt": "India flag",
-      "answers": ["Inde", "Pakistan", "Bangladesh", "Sri Lanka"],
-      "correctIndex": 0,
-      "explanation": "Écrit par Rabindranath Tagore, il reflète la diversité culturelle indienne."
+      "question": "Que signifie \"Hatikvah\", l'hymne national d'Israël, dans sa traduction en français ?",
+      "image": null, "imagePrompt": "Israel flag Star of David",
+      "answers": ["La liberté", "La paix", "La victoire", "L'espoir"],
+      "correctIndex": 3,
+      "explanation": "\"Hatikvah\" signifie \"l'espoir\" en hébreu. Ce poème, écrit en 1878 par Naftali Herz Imber, exprime l'aspiration millénaire du peuple juif à retourner en Terre d'Israël. Il fut adopté comme hymne sioniste en 1897 et devint l'hymne officiel de l'État d'Israël lors de sa fondation en 1948."
     },
     {
       "id": "11",
-      "question": "“Nkosi Sikelel’ iAfrika” fait partie de l’hymne de quel pays ?",
-      "image": null,
-      "imagePrompt": "South Africa flag",
-      "answers": ["Kenya", "Nigeria", "Afrique du Sud", "Ghana"],
-      "correctIndex": 2,
-      "explanation": "L’hymne sud-africain mélange plusieurs langues et symbolise la réconciliation post-apartheid."
+      "question": "Quel grand écrivain et prix Nobel de littérature a composé \"Jana Gana Mana\", l'hymne national de l'Inde ?",
+      "image": null, "imagePrompt": "India flag Tagore portrait",
+      "answers": ["Mahatma Gandhi", "Rabindranath Tagore", "Jawaharlal Nehru", "Subhas Chandra Bose"],
+      "correctIndex": 1,
+      "explanation": "Rabindranath Tagore, premier Asiatique prix Nobel de littérature (1913), écrivit \"Jana Gana Mana\" en bengali en 1911. L'hymne célèbre la diversité culturelle et géographique de l'Inde. Il fut adopté à l'indépendance en 1950. Tagore est aussi l'auteur de l'hymne national du Bangladesh."
     },
     {
       "id": "12",
-      "question": "“Himno Nacional Mexicano” est l’hymne de quel pays ?",
-      "image": null,
-      "imagePrompt": "Mexico flag",
-      "answers": ["Colombie", "Mexique", "Pérou", "Argentine"],
-      "correctIndex": 1,
-      "explanation": "Cet hymne met fortement l’accent sur la défense nationale et la souveraineté."
+      "question": "En combien de langues différentes l'hymne national de l'Afrique du Sud est-il officiellement chanté, symbole de réconciliation post-apartheid ?",
+      "image": null, "imagePrompt": "South Africa flag Mandela",
+      "answers": ["2 langues", "3 langues", "5 langues", "11 langues"],
+      "correctIndex": 2,
+      "explanation": "L'hymne sud-africain combine 5 des 11 langues officielles du pays : le xhosa, le zulu, le sotho, l'afrikaans et l'anglais. Il fusionne deux hymnes — \"Nkosi Sikelel' iAfrika\" (chant de résistance anti-apartheid) et \"Die Stem van Suid-Afrika\" (ancien hymne du régime de ségrégation) — en un seul, symbolisant la réconciliation voulue par Nelson Mandela."
     },
     {
       "id": "13",
-      "question": "“Il Canto degli Italiani” correspond à quel pays ?",
-      "image": null,
-      "imagePrompt": "Italy culture",
-      "answers": ["France", "Portugal", "Italie", "Espagne"],
-      "correctIndex": 2,
-      "explanation": "C’est le nom officiel de l’hymne italien, souvent appelé Fratelli d’Italia."
+      "question": "\"Himno Nacional Mexicano\" est l'hymne de quel pays, connu pour ses accents martiaux et guerriers ?",
+      "image": null, "imagePrompt": "Mexico flag eagle serpent",
+      "answers": ["Mexique", "Colombie", "Pérou", "Argentine"],
+      "correctIndex": 0,
+      "explanation": "L'hymne national mexicain, adopté en 1854, met fortement l'accent sur la défense de la patrie et la souveraineté nationale. Son texte évoque les guerres d'indépendance mexicaines. C'est l'un des hymnes les plus longs du monde (10 strophes), même si seuls le chœur et la première strophe sont généralement chantés lors des cérémonies officielles."
     },
     {
       "id": "14",
-      "question": "“God Defend New Zealand” est l’hymne de quel pays ?",
-      "image": null,
-      "imagePrompt": "New Zealand flag",
-      "answers": ["Nouvelle-Zélande", "Australie", "Canada", "Irlande"],
-      "correctIndex": 0,
-      "explanation": "La Nouvelle-Zélande possède deux hymnes officiels, un cas rare."
+      "question": "L'hymne \"Wilhelmus\" est l'un des plus anciens encore utilisés au monde. Quel pays en est le fier détenteur depuis le XVIe siècle ?",
+      "image": null, "imagePrompt": "Netherlands flag windmill tulips",
+      "answers": ["Belgique", "Autriche", "Luxembourg", "Pays-Bas"],
+      "correctIndex": 3,
+      "explanation": "\"Wilhelmus van Nassouwe\" date de la décennie 1570, pendant la révolte des Pays-Bas contre la domination espagnole. C'est l'un des hymnes nationaux les plus anciens encore en usage dans le monde. Il est aussi unique en ce que ses 15 strophes forment un acrostiche : les premières lettres de chaque strophe épellent le nom WILLEM VAN NASSOV."
     },
     {
       "id": "15",
-      "question": "“Aegukga” est l’hymne de quel pays ?",
-      "image": null,
-      "imagePrompt": "South Korea flag",
-      "answers": ["Corée du Nord", "Corée du Sud", "Japon", "Chine"],
-      "correctIndex": 1,
-      "explanation": "Signifie “chant patriotique” et reflète l’identité moderne sud-coréenne."
+      "question": "\"Aegukga\", qui signifie \"chant patriotique\", est l'hymne de quel pays d'Asie de l'Est ?",
+      "image": null, "imagePrompt": "South Korea flag Taegukgi",
+      "answers": ["Corée du Nord", "Japon", "Corée du Sud", "Chine"],
+      "correctIndex": 2,
+      "explanation": "\"Aegukga\" est l'hymne national de la Corée du Sud. Ironiquement, la Corée du Nord utilise exactement le même nom pour son propre hymne (mais avec une mélodie et des paroles différentes). L'hymne sud-coréen évoque la nature coréenne — les montagnes, le pin et la chrysanthème — et la fierté nationale."
     },
     {
       "id": "16",
-      "question": "“Du gamla, Du fria” est l’hymne de quel pays ?",
-      "image": null,
-      "imagePrompt": "Sweden flag",
-      "answers": ["Norvège", "Danemark", "Suède", "Finlande"],
-      "correctIndex": 2,
-      "explanation": "Contrairement à beaucoup d’hymnes, il met en avant la nature plutôt que la guerre."
+      "question": "Quelle est la particularité de l'hymne suédois \"Du gamla, Du fria\" qui le distingue de la plupart des hymnes nationaux européens ?",
+      "image": null, "imagePrompt": "Sweden flag nature landscape",
+      "answers": ["Il est chanté en 3 langues officielles", "Il célèbre la nature et les paysages plutôt que la guerre ou les batailles", "Il n'a pas de mélodie fixe", "Il est le plus long hymne d'Europe"],
+      "correctIndex": 1,
+      "explanation": "\"Du gamla, Du fria\" (\"Tu ancienne, tu libre\") est l'hymne suédois depuis 1844. Contrairement à la majorité des hymnes qui évoquent des batailles, des héros militaires ou des révolutions, il met en avant la nature, les paysages et la beauté de la Suède. C'est l'un des rares hymnes nationaux à être apolitique et à mettre en valeur l'environnement naturel."
     },
     {
       "id": "17",
-      "question": "“Wilhelmus” est l’hymne de quel pays ?",
-      "image": null,
-      "imagePrompt": "Netherlands flag",
-      "answers": ["Belgique", "Pays-Bas", "Autriche", "Luxembourg"],
-      "correctIndex": 1,
-      "explanation": "C’est l’un des hymnes nationaux les plus anciens encore utilisés."
+      "question": "Quel est l'hymne national de l'Autriche, dont le titre signifie littéralement \"pays des montagnes, pays sur le bord du fleuve\" ?",
+      "image": null, "imagePrompt": "Austria Alps mountains landscape",
+      "answers": ["Land der Berge, Land am Strome", "Wilhelmus", "Kimigayo", "Hatikvah"],
+      "correctIndex": 0,
+      "explanation": "\"Land der Berge, Land am Strome\" est l'hymne national de l'Autriche depuis 1947. Ses paroles furent écrites par Paula von Preradović sur une mélodie attribuée (de façon discutée) à Mozart ou Haydn. L'hymne met en avant les montagnes (Alpes) et le fleuve (Danube), deux éléments constitutifs du paysage et de l'identité autrichienne."
     },
     {
       "id": "18",
-      "question": "“Hatikvah” est l’hymne de quel pays ?",
-      "image": null,
-      "imagePrompt": "Israel flag",
-      "answers": ["Turquie", "Égypte", "Iran", "Israël"],
-      "correctIndex": 3,
-      "explanation": "Signifie “l’espoir” et reflète l’histoire du peuple juif."
+      "question": "\"God Defend New Zealand\" est l'hymne de quel pays qui a l'originalité d'avoir deux hymnes nationaux officiels ?",
+      "image": null, "imagePrompt": "New Zealand flag Maori kiwi",
+      "answers": ["Australie", "Irlande", "Nouvelle-Zélande", "Canada"],
+      "correctIndex": 2,
+      "explanation": "La Nouvelle-Zélande est l'un des très rares pays au monde à posséder deux hymnes nationaux d'égal statut officiel : \"God Defend New Zealand\" et \"God Save the King\". De plus, \"God Defend New Zealand\" est lui-même chanté en deux langues — le maori (Te Atua e, ārahina) et l'anglais — reflétant l'identité biculturelle du pays."
     },
     {
       "id": "19",
-      "question": "“Land der Berge, Land am Strome” est l’hymne de quel pays ?",
-      "image": null,
-      "imagePrompt": "Austria mountains",
-      "answers": ["Autriche", "Allemagne", "Suisse", "Slovénie"],
-      "correctIndex": 0,
-      "explanation": "L’hymne met en avant la nature alpine et l’identité autrichienne."
+      "question": "\"A Portuguesa\" est l'hymne de quel pays, composé en 1890 lors d'une crise diplomatique avec le Royaume-Uni ?",
+      "image": null, "imagePrompt": "Portugal flag Lisbon Fado",
+      "answers": ["Brésil", "Angola", "Espagne", "Portugal"],
+      "correctIndex": 3,
+      "explanation": "\"A Portuguesa\" fut composée en 1890 lors de l'Ultimatum anglais, une crise diplomatique majeure où le Royaume-Uni contraignit le Portugal à renoncer à ses ambitions en Afrique australe. L'hymne, d'abord chant de protestation anti-britannique, exhorte les Portugais à prendre les armes (\"Às armas, às armas !\"). Il devint hymne officiel après la révolution républicaine de 1910."
     },
     {
       "id": "20",
-      "question": "“Hino Nacional Brasileiro” est l’hymne de quel pays ?",
-      "image": null,
-      "imagePrompt": "Brazil flag",
-      "answers": ["Portugal", "Angola", "Mozambique", "Brésil"],
-      "correctIndex": 3,
-      "explanation": "L’hymne brésilien est connu pour sa richesse musicale et son langage poétique complexe."
+      "question": "\"Hino Nacional Brasileiro\" est l'hymne de quel pays, réputé pour sa richesse musicale et son texte poétique en langue lusophone ?",
+      "image": null, "imagePrompt": "Brazil flag Carnival Rio",
+      "answers": ["Portugal", "Brésil", "Angola", "Mozambique"],
+      "correctIndex": 1,
+      "explanation": "L'hymne national brésilien, adopté en 1909 avec ses paroles actuelles, est composé par Francisco Manuel da Silva sur un texte de Joaquim Osório Duque-Estrada. Reconnaissable à ses accents lyriques et sa mélodie complexe, il dure environ 3 minutes et demie. Les Brésiliens le chantent avec une ferveur particulièrement intense lors des matchs de la Seleção."
     }
   ]
 }
