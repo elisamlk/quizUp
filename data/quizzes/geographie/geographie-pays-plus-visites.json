@@ -1,6 +1,6 @@
 {
   "slug": "quiz-geographie-pays-les-plus-visites",
-  "title": "Quiz Géographie Pays les plus visités - 20 questions pour tester ta culture du tourisme mondial",
+  "title": "Quiz Géographie – Les pays les plus visités du monde",
   "description": "Teste tes connaissances avec 20 questions sur les pays les plus visités du monde et leurs grands atouts touristiques.",
   "descriptionSeo": "Teste tes connaissances avec ce quiz géographie sur les pays les plus visités du monde. France, Espagne, États-Unis, Italie, Turquie, Mexique, Thaïlande… sauras-tu reconnaître les grandes destinations touristiques internationales et comprendre pourquoi elles attirent autant de voyageurs ? Ce quiz de 20 questions te permet d’explorer les logiques du tourisme mondial : patrimoine, climat, littoraux, accessibilité, grandes villes et sites culturels. Chaque question est accompagnée d’une explication enrichissante pour mieux comprendre la puissance touristique de ces pays et retenir les grands repères géographiques.",
   "category": {
@@ -21,7 +21,12 @@
       "question": "Quel pays est mondialement célèbre pour Paris, la Côte d’Azur, les Alpes et son patrimoine exceptionnel ?",
       "image": null,
       "imagePrompt": "France tourism Eiffel Tower Riviera Alps collage",
-      "answers": ["Italie", "France", "Espagne", "États-Unis"],
+      "answers": [
+        "Italie",
+        "France",
+        "Espagne",
+        "États-Unis"
+      ],
       "correctIndex": 1,
       "explanation": "La France attire des visiteurs pour une raison rare en géographie touristique : elle combine une capitale mondiale, des littoraux variés, des montagnes, un patrimoine historique très dense et une excellente accessibilité. Peu de pays concentrent autant de formes de tourisme sur un même territoire."
     },
@@ -30,25 +35,40 @@
       "question": "Quel pays attire massivement les touristes grâce à Barcelone, Madrid, l’Andalousie et ses plages méditerranéennes ?",
       "image": null,
       "imagePrompt": "Spain tourism Barcelona Madrid Andalusia beaches collage",
-      "answers": ["Portugal", "Italie", "Grèce", "Espagne"],
+      "answers": [
+        "Portugal",
+        "Italie",
+        "Grèce",
+        "Espagne"
+      ],
       "correctIndex": 3,
       "explanation": "L’Espagne est une grande puissance touristique car elle associe climat ensoleillé, littoraux très aménagés, grandes villes culturelles et forte spécialisation dans le tourisme balnéaire. Son succès montre combien la combinaison climat + infrastructures + patrimoine est décisive."
     },
     {
       "id": "3",
-      "question": "Quel pays est particulièrement visité pour New York, la Floride, les parcs nationaux et les grandes métropoles ?",
+      "question": "Quel parc national est le plus visité des États-Unis ?",
       "image": null,
-      "imagePrompt": "USA tourism New York Florida national parks collage",
-      "answers": ["Canada", "États-Unis", "Mexique", "Brésil"],
-      "correctIndex": 1,
-      "explanation": "Les États-Unis attirent par la diversité extrême de leurs paysages et de leurs villes. Ce pays illustre une logique essentielle : plus un territoire offre des expériences très différentes — urbaines, naturelles, culturelles, balnéaires — plus il peut capter des profils variés de voyageurs."
+      "imagePrompt": "Great Smoky Mountains National Park landscape",
+      "answers": [
+        "Yellowstone",
+        "Grand Canyon",
+        "Great Smoky Mountains",
+        "Yosemite"
+      ],
+      "correctIndex": 2,
+      "explanation": "Le parc national des Great Smoky Mountains, situé entre le Tennessee et la Caroline du Nord, est le plus fréquenté des États-Unis. Son accès gratuit, sa biodiversité exceptionnelle et ses nombreux sentiers expliquent son immense popularité."
     },
     {
       "id": "4",
       "question": "Quel pays séduit des millions de visiteurs avec Rome, Venise, Florence et la côte amalfitaine ?",
       "image": null,
       "imagePrompt": "Italy tourism Rome Venice Florence Amalfi collage",
-      "answers": ["Italie", "Grèce", "Croatie", "France"],
+      "answers": [
+        "Italie",
+        "Grèce",
+        "Croatie",
+        "France"
+      ],
       "correctIndex": 0,
       "explanation": "L’Italie bénéficie d’une concentration exceptionnelle de villes d’art. C’est un bon exemple de tourisme patrimonial : le voyage ne repose pas seulement sur le climat ou les plages, mais sur l’accumulation de sites historiques connus à l’échelle mondiale."
     },
@@ -57,7 +77,12 @@
       "question": "Quel pays est à la fois une grande destination balnéaire et un carrefour entre Europe et Asie, avec Istanbul et Antalya ?",
       "image": null,
       "imagePrompt": "Turkey tourism Istanbul Antalya Cappadocia collage",
-      "answers": ["Grèce", "Turquie", "Égypte", "Croatie"],
+      "answers": [
+        "Grèce",
+        "Turquie",
+        "Égypte",
+        "Croatie"
+      ],
       "correctIndex": 1,
       "explanation": "La Turquie attire parce qu’elle relie plusieurs mondes : Europe, Méditerranée, Anatolie et Proche-Orient. Son succès touristique repose sur une géographie de carrefour, enrichie par de longues côtes, un patrimoine antique et une grande ville mondiale, Istanbul."
     },
@@ -66,7 +91,12 @@
       "question": "Quel pays d’Amérique latine attire énormément de visiteurs grâce à Cancún, Mexico, les plages et les sites mayas ?",
       "image": null,
       "imagePrompt": "Mexico tourism Cancun Mexico City Maya ruins collage",
-      "answers": ["Pérou", "Colombie", "Mexique", "Argentine"],
+      "answers": [
+        "Pérou",
+        "Colombie",
+        "Mexique",
+        "Argentine"
+      ],
       "correctIndex": 2,
       "explanation": "Le Mexique combine trois moteurs touristiques très puissants : le littoral caribéen, les grandes métropoles culturelles et les civilisations précolombiennes. C’est un exemple parfait de destination où nature, histoire et tourisme balnéaire se renforcent mutuellement."
     },
@@ -75,34 +105,54 @@
       "question": "Quel pays asiatique est très visité pour Bangkok, Phuket, ses temples et ses plages tropicales ?",
       "image": null,
       "imagePrompt": "Thailand tourism Bangkok Phuket temples collage",
-      "answers": ["Thaïlande", "Vietnam", "Malaisie", "Indonésie"],
+      "answers": [
+        "Thaïlande",
+        "Vietnam",
+        "Malaisie",
+        "Indonésie"
+      ],
       "correctIndex": 0,
       "explanation": "La Thaïlande illustre le poids du tourisme tropical en Asie du Sud-Est. Elle attire à la fois pour son coût relativement accessible, son climat, ses îles et son identité culturelle forte, visible dans les temples, la cuisine et les paysages."
     },
     {
       "id": "8",
-      "question": "Quel pays est très recherché par les touristes pour Londres, ses musées, ses monuments royaux et son rayonnement culturel ?",
+      "question": "Quel musée, l'un des plus visités au monde, est situé à Londres ?",
       "image": null,
-      "imagePrompt": "United Kingdom tourism London landmarks collage",
-      "answers": ["Irlande", "Allemagne", "Royaume-Uni", "Pays-Bas"],
-      "correctIndex": 2,
-      "explanation": "Le Royaume-Uni montre qu’un pays peut être une grande destination touristique même sans climat balnéaire dominant. Ici, c’est la force urbaine, historique et culturelle, surtout autour de Londres, qui explique l’attractivité."
+      "imagePrompt": "British Museum London exterior",
+      "answers": [
+        "British Museum",
+        "Musée du Prado",
+        "Musée de l'Ermitage",
+        "Rijksmuseum"
+      ],
+      "correctIndex": 0,
+      "explanation": "Le British Museum est l'un des musées les plus célèbres au monde. Gratuit depuis 2001, il attire chaque année des millions de visiteurs grâce à ses collections couvrant l'histoire de nombreuses civilisations."
     },
-    {
-      "id": "9",
-      "question": "Quel pays d’Europe centrale attire de nombreux visiteurs grâce à Berlin, Munich, ses châteaux et ses marchés de Noël ?",
-      "image": null,
-      "imagePrompt": "Germany tourism Berlin Munich castles Christmas markets collage",
-      "answers": ["Autriche", "Allemagne", "Suisse", "Belgique"],
-      "correctIndex": 1,
-      "explanation": "L’Allemagne attire par sa diversité régionale, son patrimoine urbain et sa facilité de circulation. C’est une destination où le tourisme culturel, événementiel et urbain se combine très bien avec la qualité des infrastructures."
-    },
+  {
+  "id": "9",
+  "question": "Quelle fête populaire organisée à Munich attire chaque année des millions de visiteurs du monde entier ?",
+  "image": null,
+  "imagePrompt": "Oktoberfest Munich festival",
+  "answers": [
+    "Oktoberfest",
+    "Carnaval de Cologne",
+    "Festival de Bayreuth",
+    "Marché de Noël de Nuremberg"
+  ],
+  "correctIndex": 0,
+  "explanation": "L'Oktoberfest est la plus grande fête populaire au monde. Organisée chaque automne à Munich depuis le XIXᵉ siècle, elle accueille plusieurs millions de visiteurs venus de tous les continents."
+},
     {
       "id": "10",
       "question": "Quel pays est une grande destination du Moyen-Orient, notamment grâce à Dubaï et Abu Dhabi ?",
       "image": null,
       "imagePrompt": "UAE tourism Dubai Abu Dhabi skyline collage",
-      "answers": ["Qatar", "Émirats arabes unis", "Arabie saoudite", "Oman"],
+      "answers": [
+        "Qatar",
+        "Émirats arabes unis",
+        "Arabie saoudite",
+        "Oman"
+      ],
       "correctIndex": 1,
       "explanation": "Les Émirats arabes unis illustrent un modèle touristique fondé sur l’investissement massif, l’image internationale et le transport aérien. Le tourisme y est moins ancien que dans les grandes destinations patrimoniales, mais extrêmement efficace."
     },
@@ -111,7 +161,12 @@
       "question": "Quel pays d’Asie de l’Est est très visité pour Tokyo, Kyoto, Osaka et le contraste entre tradition et modernité ?",
       "image": null,
       "imagePrompt": "Japan tourism Tokyo Kyoto Osaka collage",
-      "answers": ["Corée du Sud", "Japon", "Chine", "Taïwan"],
+      "answers": [
+        "Corée du Sud",
+        "Japon",
+        "Chine",
+        "Taïwan"
+      ],
       "correctIndex": 1,
       "explanation": "Le Japon attire parce qu’il propose une forte identité culturelle, une image de sécurité, une grande qualité de transport et un patrimoine à la fois ancien et ultra-moderne. C’est une destination où l’expérience urbaine compte autant que les monuments."
     },
@@ -120,7 +175,12 @@
       "question": "Quel pays méditerranéen attire de nombreux visiteurs avec Athènes, Santorin, la Crète et ses îles ?",
       "image": null,
       "imagePrompt": "Greece tourism Athens Santorini Crete collage",
-      "answers": ["Croatie", "Chypre", "Grèce", "Malte"],
+      "answers": [
+        "Croatie",
+        "Chypre",
+        "Grèce",
+        "Malte"
+      ],
       "correctIndex": 2,
       "explanation": "La Grèce est un exemple classique de destination où les îles structurent fortement l’attractivité. Le tourisme n’y dépend pas d’une seule ville mais d’un archipel entier, combinant paysages, patrimoine antique et saison estivale."
     },
@@ -129,72 +189,112 @@
       "question": "Quel pays du Maghreb est très visité pour Marrakech, Fès, le désert et ses littoraux atlantiques et méditerranéens ?",
       "image": null,
       "imagePrompt": "Morocco tourism Marrakech Fes desert coast collage",
-      "answers": ["Maroc", "Tunisie", "Algérie", "Égypte"],
+      "answers": [
+        "Maroc",
+        "Tunisie",
+        "Algérie",
+        "Égypte"
+      ],
       "correctIndex": 0,
       "explanation": "Le Maroc attire parce qu’il offre sur un espace relativement proche une grande diversité de paysages : médinas, montagnes, désert et littoraux. Cette variété géographique renforce fortement son attractivité touristique."
     },
     {
       "id": "14",
-      "question": "Quel pays alpin attire massivement pour ses paysages, ses lacs, ses stations de ski et ses villes comme Zurich ou Lucerne ?",
+      "question": "Quelle chaîne de montagnes constitue le principal atout touristique naturel de la Suisse ?",
       "image": null,
-      "imagePrompt": "Switzerland tourism Alps lakes Zurich Lucerne collage",
-      "answers": ["Autriche", "Slovénie", "Suisse", "France"],
+      "imagePrompt": "Swiss Alps Matterhorn panorama",
+      "answers": [
+        "Pyrénées",
+        "Carpates",
+        "Alpes",
+        "Apennins"
+      ],
       "correctIndex": 2,
-      "explanation": "La Suisse montre la puissance touristique de la montagne. Dans son cas, le relief n’est pas un obstacle mais une ressource majeure, grâce au ski, à la randonnée et à l’image de paysages très bien préservés."
+      "explanation": "Les Alpes couvrent une grande partie de la Suisse et expliquent son succès touristique, aussi bien en hiver avec les stations de ski qu'en été grâce à la randonnée, aux lacs alpins et aux panoramas de haute montagne."
     },
     {
       "id": "15",
       "question": "Quel pays d’Asie du Sud-Est est particulièrement visité pour Bali, ses volcans, ses temples et ses plages ?",
       "image": null,
       "imagePrompt": "Indonesia tourism Bali volcano temples beaches collage",
-      "answers": ["Philippines", "Indonésie", "Malaisie", "Thaïlande"],
+      "answers": [
+        "Philippines",
+        "Indonésie",
+        "Malaisie",
+        "Thaïlande"
+      ],
       "correctIndex": 1,
       "explanation": "L’Indonésie bénéficie d’un tourisme fortement concentré sur certaines îles, surtout Bali. C’est un bon exemple d’inégalité touristique interne : un pays immense peut être connu mondialement à travers un territoire beaucoup plus restreint."
     },
     {
       "id": "16",
-      "question": "Quel pays attire énormément grâce à Lisbonne, Porto, l’Algarve et ses façades atlantiques ?",
+      "question": "Comment s'appelle la région la plus réputée du sud du Portugal pour ses plages et ses stations balnéaires ?",
       "image": null,
-      "imagePrompt": "Portugal tourism Lisbon Porto Algarve collage",
-      "answers": ["Espagne", "Portugal", "Italie", "Grèce"],
-      "correctIndex": 1,
-      "explanation": "Le Portugal combine une forte accessibilité européenne, des villes patrimoniales et un littoral très attractif. Son succès montre qu’un pays de taille moyenne peut devenir une destination majeure grâce à la cohérence de son offre touristique."
+      "imagePrompt": "Algarve cliffs beaches Portugal",
+      "answers": [
+        "Algarve",
+        "Alentejo",
+        "Galice",
+        "Asturies"
+      ],
+      "correctIndex": 0,
+      "explanation": "L'Algarve est la principale région touristique du Portugal. Son littoral spectaculaire, ses falaises, ses plages et son climat ensoleillé attirent des millions de visiteurs chaque année."
     },
     {
       "id": "17",
       "question": "Quel pays d’Europe du Sud-Est attire beaucoup de visiteurs pour Dubrovnik, Split, ses îles et sa côte adriatique ?",
       "image": null,
       "imagePrompt": "Croatia tourism Dubrovnik Split Adriatic coast collage",
-      "answers": ["Croatie", "Monténégro", "Slovénie", "Albanie"],
+      "answers": [
+        "Croatie",
+        "Monténégro",
+        "Slovénie",
+        "Albanie"
+      ],
       "correctIndex": 0,
       "explanation": "La Croatie s’est imposée grâce à son littoral très découpé, ses villes historiques et son image méditerranéenne. C’est un bon exemple de montée rapide d’une destination après recomposition politique et intégration européenne."
     },
     {
       "id": "18",
-      "question": "Quel pays attire énormément de touristes grâce à ses littoraux, ses sites antiques et ses stations balnéaires de la mer Rouge ?",
+      "question": "Quel pays est généralement considéré comme la première destination touristique mondiale en nombre de visiteurs internationaux ?",
       "image": null,
-      "imagePrompt": "Egypt tourism Cairo pyramids Red Sea collage",
-      "answers": ["Turquie", "Tunisie", "Maroc", "Égypte"],
-      "correctIndex": 3,
-      "explanation": "L’Égypte repose sur un modèle touristique multiple : antiquité pharaonique, croisières sur le Nil et mer Rouge. Peu de pays associent à ce point tourisme culturel mondial et tourisme balnéaire international."
+      "imagePrompt": "Eiffel Tower international tourism",
+      "answers": [
+        "Espagne",
+        "France",
+        "États-Unis",
+        "Italie"
+      ],
+      "correctIndex": 1,
+      "explanation": "Selon les statistiques internationales les plus récentes, la France figure régulièrement au premier rang mondial en nombre de visiteurs internationaux, grâce à la diversité de son patrimoine, de ses paysages et de ses infrastructures touristiques."
     },
     {
       "id": "19",
       "question": "Quel pays d’Asie orientale est aussi une grande destination grâce à ses mégapoles, sa gastronomie et ses sites historiques comme la Grande Muraille ?",
       "image": null,
       "imagePrompt": "China tourism Beijing Shanghai Great Wall collage",
-      "answers": ["Japon", "Corée du Sud", "Chine", "Vietnam"],
+      "answers": [
+        "Japon",
+        "Corée du Sud",
+        "Chine",
+        "Vietnam"
+      ],
       "correctIndex": 2,
       "explanation": "La Chine attire par l’ampleur de son patrimoine et la puissance de ses grandes villes. Elle illustre un tourisme à très grande échelle, fondé autant sur les métropoles que sur les paysages et les sites historiques majeurs."
     },
-    {
-      "id": "20",
-      "question": "Quel pays d’Amérique du Nord reçoit un grand nombre de visiteurs grâce à Toronto, Vancouver, Montréal et ses grands espaces ?",
-      "image": null,
-      "imagePrompt": "Canada tourism Toronto Vancouver Montreal nature collage",
-      "answers": ["États-Unis", "Mexique", "Canada", "Islande"],
-      "correctIndex": 2,
-      "explanation": "Le Canada attire moins par la densité patrimoniale que par la combinaison entre grandes villes bien connectées et immensité naturelle. C’est une destination où le tourisme urbain complète fortement le tourisme de nature."
-    }
+  {
+  "id": "20",
+  "question": "Quel parc national canadien est célèbre pour ses lacs turquoise et les montagnes Rocheuses ?",
+  "image": null,
+  "imagePrompt": "Banff National Park Lake Louise",
+  "answers": [
+    "Banff",
+    "Yellowstone",
+    "Jasper Highlands",
+    "Yosemite"
+  ],
+  "correctIndex": 0,
+  "explanation": "Le parc national de Banff, dans les Rocheuses canadiennes, est l'un des sites naturels les plus emblématiques du pays. Ses paysages spectaculaires, notamment le lac Louise et le lac Moraine, attirent des millions de visiteurs chaque année."
+}
   ]
 }

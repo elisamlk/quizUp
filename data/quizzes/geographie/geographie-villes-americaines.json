@@ -2,7 +2,7 @@
   "slug": "quiz-geographie-grandes-villes-americaines",
   "title": "Quiz Géographie Grandes villes américaines - 20 questions pour comprendre les États-Unis",
   "description": "Teste tes connaissances avec 20 questions sur les grandes villes des États-Unis.",
-  "descriptionSeo": "Teste tes connaissances avec ce quiz géographie sur les grandes villes américaines. New York, Los Angeles, Chicago, Houston, Miami… sauras-tu situer ces métropoles et comprendre leur rôle économique, culturel et géographique ? Ce quiz de 20 questions ne se limite pas à la mémorisation : il t’aide à comprendre l’organisation du territoire américain, les grandes régions, les pôles d’influence et les dynamiques urbaines grâce à des explications détaillées et enrichissantes.",
+  "descriptionSeo": "Teste tes connaissances avec ce quiz géographie sur les grandes villes américaines. New York, Los Angeles, Chicago, Houston, Miami… sauras-tu situer ces métropoles et comprendre leur rôle économique, culturel et géographique ? Ce quiz de 20 questions ne se limite pas à la mémorisation : il t'aide à comprendre l'organisation du territoire américain, les grandes régions, les pôles d'influence et les dynamiques urbaines grâce à des explications détaillées et enrichissantes.",
   "category": {
     "name": "Géographie",
     "slug": "geographie"
@@ -18,143 +18,183 @@
   "questions": [
     {
       "id": "1",
-      "question": "Quelle est la plus grande ville des États-Unis en population ?",
-      "answers": ["Los Angeles", "Chicago", "New York", "Houston"],
-      "correctIndex": 2,
-      "explanation": "New York n’est pas seulement la plus grande ville, c’est aussi une ville globale : finance (Wall Street), diplomatie (ONU) et culture. Elle concentre des fonctions que peu de villes cumulent à cette échelle mondiale."
+      "question": "New York est la plus grande ville des États-Unis. Sur combien d'États son agglomération métropolitaine s'étend-elle ?",
+      "image": null,
+      "imagePrompt": "New York City five boroughs aerial skyline",
+      "answers": ["Trois États (New York, New Jersey et Connecticut)", "Un seul État (New York)", "Deux États (New York et New Jersey)", "Quatre États"],
+      "correctIndex": 0,
+      "explanation": "L'aire métropolitaine de New York s'étend sur trois États : New York, New Jersey et Connecticut. Les cinq arrondissements (boroughs) de la ville elle-même sont tous dans l'État de New York. Avec environ 20 millions d'habitants dans son aire urbaine, c'est la plus grande métropole des États-Unis et l'une des premières mondiales par son poids financier, diplomatique et culturel."
     },
     {
       "id": "2",
-      "question": "Dans quel État se situe Los Angeles ?",
-      "answers": ["Texas", "Floride", "Californie", "Arizona"],
-      "correctIndex": 2,
-      "explanation": "La Californie est l’État le plus peuplé et l’un des plus puissants économiquement au monde. Los Angeles en est un pilier culturel, tandis que la Silicon Valley domine la technologie."
+      "question": "Los Angeles est la deuxième ville des États-Unis. Quel surnom reflète à la fois son nom espagnol et son image mondiale ?",
+      "image": null,
+      "imagePrompt": "Los Angeles Hollywood sign skyline aerial",
+      "answers": ["The Big Apple", "The City of Angels", "The Golden City", "The City That Never Sleeps"],
+      "correctIndex": 1,
+      "explanation": "Los Angeles signifie « les anges » en espagnol — d'où son surnom « City of Angels ». Fondée par les Espagnols en 1781, la ville est aujourd'hui le premier centre mondial de l'industrie du divertissement (cinéma, musique, télévision) et le deuxième port de conteneurs des États-Unis. Sa région métropolitaine produit un PIB supérieur à celui de nombreux pays."
     },
     {
       "id": "3",
-      "question": "Quelle ville est connue comme la capitale financière mondiale ?",
-      "answers": ["Chicago", "New York", "San Francisco", "Boston"],
-      "correctIndex": 1,
-      "explanation": "Wall Street à New York influence les marchés mondiaux. Les décisions prises dans cette ville peuvent impacter l’économie globale, ce qui en fait un centre financier unique."
+      "question": "Wall Street, à New York, est le symbole de la finance mondiale. Quelle est l'origine la plus communément citée de son nom ?",
+      "image": null,
+      "imagePrompt": "Wall Street New York Stock Exchange financial district",
+      "answers": ["Un mur construit par les colons hollandais au XVIIe siècle", "Le surnom d'un banquier fondateur nommé Wall", "Une muraille anti-incendie imposée par les Britanniques", "La rangée de façades en marbre blanc des premières banques"],
+      "correctIndex": 0,
+      "explanation": "L'explication la plus répandue est qu'un mur défensif aurait été érigé par les colons hollandais de la Nouvelle-Amsterdam vers 1653, donnant son nom à la rue. Les historiens nuancent cette version — les preuves documentaires sont limitées — mais elle reste la plus citée. La Bourse de New York (NYSE), fondée en 1792, est aujourd'hui la plus grande bourse du monde."
     },
     {
       "id": "4",
-      "question": "Quelle ville est située au bord du lac Michigan ?",
-      "answers": ["Detroit", "Chicago", "Cleveland", "Milwaukee"],
+      "question": "Chicago est construite au bord du lac Michigan. Quel surnom lui a été donné en raison de ses vents caractéristiques ?",
+      "image": null,
+      "imagePrompt": "Chicago Lake Michigan skyline Windy City",
+      "answers": ["The Foggy City", "The Windy City", "The Great Lakes City", "The Steel City"],
       "correctIndex": 1,
-      "explanation": "Chicago est un carrefour logistique majeur entre les Grands Lacs et le Mississippi, ce qui explique son développement industriel historique."
+      "explanation": "Chicago est surnommée « The Windy City » — bien que ce surnom soit parfois attribué à ses politiciens bavards plutôt qu'à son vent. Carrefour entre les Grands Lacs et le Mississippi, elle fut rebâtie de zéro après le grand incendie de 1871 et inventa l'architecture des gratte-ciels modernes. Son réseau ferroviaire en fait encore aujourd'hui le nœud logistique central des États-Unis."
     },
     {
       "id": "5",
-      "question": "Quelle ville est la plus grande du Texas ?",
-      "answers": ["Dallas", "Austin", "San Antonio", "Houston"],
-      "correctIndex": 3,
-      "explanation": "Houston est un hub énergétique mondial (pétrole, gaz) et abrite le centre spatial de la NASA. Elle illustre la puissance économique du Texas."
+      "question": "Houston abrite le Johnson Space Center de la NASA. Quelle mission spatiale a rendu la ville célèbre avec la phrase « Houston, nous avons un problème » ?",
+      "image": null,
+      "imagePrompt": "Houston Texas NASA Johnson Space Center skyline",
+      "answers": ["Apollo 13, en 1970", "Apollo 11, en 1969", "La mission Gemini 8, en 1966", "La navette Challenger, en 1986"],
+      "correctIndex": 0,
+      "explanation": "C'est lors de la mission Apollo 13, en avril 1970, que l'astronaute Jack Swigert a transmis au centre de contrôle de Houston : « Houston, we've had a problem » (légèrement reformulé au cinéma). Houston est aussi la capitale mondiale du pétrole et du gaz, avec plus de 5 000 entreprises énergétiques dans son agglomération, ce qui en fait l'une des métropoles économiques les plus puissantes des États-Unis."
     },
     {
       "id": "6",
-      "question": "Quelle ville est célèbre pour Hollywood ?",
-      "answers": ["San Diego", "Los Angeles", "Las Vegas", "San Francisco"],
+      "question": "Hollywood est le cœur de l'industrie cinématographique mondiale. Pourquoi les studios ont-ils migré vers la Californie au début du XXe siècle ?",
+      "image": null,
+      "imagePrompt": "Hollywood Los Angeles film studios sign hills",
+      "answers": ["Pour fuir les impôts de l'État de New York", "Pour bénéficier du soleil et s'éloigner des brevets d'Edison", "En raison d'une loi californienne favorable aux studios", "Pour être plus proches des studios européens"],
       "correctIndex": 1,
-      "explanation": "Hollywood est le cœur de l’industrie cinématographique mondiale. Cela montre comment une ville peut dominer un secteur culturel global."
+      "explanation": "Plusieurs facteurs ont poussé les cinéastes vers la Californie : un ensoleillement quasi permanent (indispensable pour les tournages en lumière naturelle de l'époque), des paysages variés, et un éloignement pratique de New York, où Thomas Edison faisait appliquer ses brevets sur les équipements de tournage. La combinaison de ces facteurs — plus que l'un d'eux seul — explique l'installation durable de l'industrie à Hollywood."
     },
     {
       "id": "7",
-      "question": "Quelle ville est connue pour le Golden Gate Bridge ?",
-      "answers": ["Seattle", "Los Angeles", "San Francisco", "Portland"],
-      "correctIndex": 2,
-      "explanation": "San Francisco est aussi au cœur de l’innovation technologique mondiale via sa proximité avec la Silicon Valley."
+      "question": "Le Golden Gate Bridge de San Francisco est l'un des ponts les plus photographiés du monde. Combien de temps a duré sa construction ?",
+      "image": null,
+      "imagePrompt": "Golden Gate Bridge San Francisco fog bay",
+      "answers": ["Moins d'un an", "4 ans (1933–1937)", "8 ans (1929–1937)", "12 ans (1925–1937)"],
+      "correctIndex": 1,
+      "explanation": "Le Golden Gate a été construit en 4 ans (1933–1937), un exploit pour l'époque compte tenu des courants violents, du brouillard permanent et des séismes fréquents. À son inauguration, il était le plus long pont suspendu du monde (2 737 m). Son orange caractéristique — officiellement « International Orange » — a été choisi pour sa visibilité dans le brouillard de la baie."
     },
     {
       "id": "8",
-      "question": "Quelle ville est la capitale des États-Unis ?",
-      "answers": ["New York", "Washington D.C.", "Boston", "Philadelphie"],
-      "correctIndex": 1,
-      "explanation": "Washington D.C. n’est pas un État mais un district fédéral, créé pour garantir une neutralité politique entre les États."
+      "question": "Washington D.C. est la capitale des États-Unis, mais elle n'est pas dans un État. Pourquoi ce choix unique en 1790 ?",
+      "image": null,
+      "imagePrompt": "Washington DC Capitol building Mall aerial",
+      "answers": ["Pour des raisons de sécurité militaire, loin des côtes", "Parce qu'aucun État ne voulait accueillir la capitale", "Pour éviter qu'un seul État n'exerce une influence sur le gouvernement fédéral", "Parce que c'était le centre géographique exact du pays à l'époque"],
+      "correctIndex": 2,
+      "explanation": "Les Pères fondateurs ont créé un district fédéral indépendant pour qu'aucun État ne puisse exercer de contrôle sur la capitale nationale. Le site, choisi par George Washington, était aussi un compromis géographique entre les États du Nord et du Sud. Paradoxalement, les habitants de D.C. n'ont obtenu le droit de vote aux élections présidentielles qu'en 1964, avec le 23e amendement."
     },
     {
       "id": "9",
-      "question": "Quelle ville est connue pour ses casinos et le Strip ?",
-      "answers": ["Las Vegas", "Reno", "Atlantic City", "Phoenix"],
-      "correctIndex": 0,
-      "explanation": "Las Vegas est un exemple de ville artificielle créée dans le désert grâce au tourisme et au divertissement."
+      "question": "Las Vegas est construite dans le désert du Nevada. Quelle infrastructure des années 1930 a joué un rôle clé dans son développement en fournissant électricité et eau ?",
+      "image": null,
+      "imagePrompt": "Las Vegas Strip Nevada desert night aerial",
+      "answers": ["Le pipeline transcontinental du Nevada", "Le barrage Hoover sur le fleuve Colorado", "Le canal d'irrigation de la Sierra Nevada", "La centrale géothermique de Boulder City"],
+      "correctIndex": 1,
+      "explanation": "Le barrage Hoover, inauguré en 1936 sur le fleuve Colorado, a fourni électricité et eau à la région, contribuant au développement de Las Vegas. Les casinos y étaient déjà légaux depuis 1931. Si le barrage n'est pas la cause unique de l'essor de la ville, il en a été une condition infrastructure essentielle. Il reste l'un des plus grands ouvrages de génie civil du XXe siècle."
     },
     {
       "id": "10",
-      "question": "Quelle ville est située en Floride et influencée par l’Amérique latine ?",
-      "answers": ["Miami", "Orlando", "Tampa", "Jacksonville"],
-      "correctIndex": 0,
-      "explanation": "Miami est un pont culturel et économique entre les États-Unis et l’Amérique latine, avec une forte population hispanophone."
+      "question": "Miami est surnommée « la capitale de l'Amérique latine ». Quelle communauté, arrivée massivement après 1959, a le plus marqué son identité culturelle ?",
+      "image": null,
+      "imagePrompt": "Miami Florida skyline South Beach Art Deco",
+      "answers": ["La communauté mexicaine", "La communauté cubaine", "La communauté brésilienne", "La communauté porto-ricaine"],
+      "correctIndex": 1,
+      "explanation": "L'exode cubain après la révolution de 1959 a profondément transformé Miami, qui comptait alors moins de 500 000 habitants. Little Havana en est le symbole le plus visible. Cette immigration a été suivie par des vagues vénézuéliennes, colombiennes et haïtiennes, faisant de Miami une métropole multilatine unique aux États-Unis et le principal hub financier entre les États-Unis et l'Amérique latine."
     },
     {
       "id": "11",
-      "question": "Quelle ville est connue comme berceau de l’indépendance américaine ?",
-      "answers": ["Boston", "New York", "Philadelphie", "Baltimore"],
-      "correctIndex": 2,
-      "explanation": "Philadelphie est un lieu fondateur des États-Unis : Déclaration d’indépendance et Constitution y ont été signées."
+      "question": "Philadelphie est le berceau de l'indépendance américaine. Quel document historique y a été adopté le 4 juillet 1776 ?",
+      "image": null,
+      "imagePrompt": "Philadelphia Independence Hall Liberty Bell historic",
+      "answers": ["La Constitution des États-Unis", "La Déclaration d'indépendance", "Le traité de Paris mettant fin à la guerre d'indépendance", "La Charte des droits (Bill of Rights)"],
+      "correctIndex": 1,
+      "explanation": "La Déclaration d'indépendance a été adoptée à Philadelphie le 4 juillet 1776, dans l'Independence Hall — aujourd'hui classé à l'UNESCO. La Constitution y fut également rédigée en 1787. Philadelphie fut la capitale provisoire des États-Unis de 1790 à 1800, avant que Washington D.C. ne soit prête. La Liberty Bell, fissurée, en est le symbole le plus iconique."
     },
     {
       "id": "12",
-      "question": "Quelle ville est la capitale de la Californie ?",
-      "answers": ["Los Angeles", "San Diego", "San Francisco", "Sacramento"],
-      "correctIndex": 3,
-      "explanation": "Sacramento montre qu’une capitale politique n’est pas forcément la ville la plus importante économiquement."
+      "question": "Sacramento est la capitale de la Californie, et non Los Angeles ou San Francisco. Pourquoi Sacramento a-t-elle été choisie comme capitale en 1854 ?",
+      "image": null,
+      "imagePrompt": "Sacramento California State Capitol Gold Rush",
+      "answers": ["C'était la ville la plus peuplée de Californie à l'époque", "Elle était au cœur de la ruée vers l'or et du réseau fluvial californien", "C'est là que la Californie a déclaré son indépendance du Mexique", "Elle avait été désignée capitale par le traité de Guadalupe Hidalgo"],
+      "correctIndex": 1,
+      "explanation": "Sacramento était le principal point d'approvisionnement de la ruée vers l'or de 1848–1855 et un nœud central du réseau fluvial californien. Sa position géographique en faisait un compromis acceptable entre le nord et le sud de l'État. Aujourd'hui, malgré son statut politique, elle reste éclipsée économiquement par Los Angeles et San Francisco."
     },
     {
       "id": "13",
-      "question": "Quelle ville est au cœur de la Silicon Valley ?",
-      "answers": ["San Francisco", "San José", "Seattle", "Austin"],
-      "correctIndex": 1,
-      "explanation": "San José est le centre de la Silicon Valley, où se concentrent les géants de la tech, illustrant la spécialisation territoriale."
+      "question": "La Silicon Valley est le berceau mondial de la tech. Quelle université est considérée comme son moteur intellectuel depuis les origines ?",
+      "image": null,
+      "imagePrompt": "Silicon Valley Stanford University tech companies aerial",
+      "answers": ["UC Berkeley", "Caltech", "MIT (antenne californienne)", "Stanford University"],
+      "correctIndex": 3,
+      "explanation": "Stanford University, fondée à Palo Alto en 1885, est au cœur de l'écosystème de la Silicon Valley. Ses diplômés ont fondé Google, Yahoo, Netflix, Hewlett-Packard et des centaines d'autres entreprises. Le département d'ingénierie a activement encouragé ses étudiants à entreprendre depuis les années 1950, créant une culture du risque et de l'innovation qui a profondément influencé le développement de la région."
     },
     {
       "id": "14",
-      "question": "Quelle ville domine le Midwest américain ?",
-      "answers": ["Springfield", "Peoria", "Chicago", "Naperville"],
+      "question": "Detroit est le berceau de l'industrie automobile américaine. Quel constructeur y a généralisé la chaîne de montage en 1913, révolutionnant la production industrielle mondiale ?",
+      "image": null,
+      "imagePrompt": "Detroit Michigan Ford automobile factory River",
+      "answers": ["General Motors", "Chrysler", "Ford", "Packard"],
       "correctIndex": 2,
-      "explanation": "Chicago est le principal pôle économique du Midwest, une région historiquement industrielle."
+      "explanation": "Henry Ford a généralisé la chaîne de montage mobile dans son usine de Highland Park (Detroit) en 1913, permettant de produire une Ford T en une fraction du temps auparavant nécessaire. Cette révolution a rendu l'automobile accessible aux classes moyennes et transformé le travail industriel mondial. Detroit a depuis connu un déclin brutal : sa population est passée de 1,8 million en 1950 à moins de 700 000 aujourd'hui."
     },
     {
       "id": "15",
-      "question": "Quelle ville est associée à Times Square ?",
-      "answers": ["Los Angeles", "Chicago", "New York", "Boston"],
-      "correctIndex": 2,
-      "explanation": "Times Square symbolise la puissance médiatique et touristique de New York, avec ses écrans géants et son activité permanente."
+      "question": "Times Square, à New York, est surnommé « le carrefour du monde ». Depuis quelle année le célèbre décompte du Nouvel An y est-il organisé ?",
+      "image": null,
+      "imagePrompt": "Times Square New York City lights billboards night",
+      "answers": ["Depuis 1907", "Depuis 1929", "Depuis 1945", "Depuis 1960"],
+      "correctIndex": 0,
+      "explanation": "Le décompte du Nouvel An à Times Square est organisé depuis 1907, un an après l'inauguration de la tour du New York Times qui a donné son nom au quartier. La tradition de la « ball drop » — une sphère lumineuse qui descend le long d'un mât à minuit — est devenue l'un des événements télévisés les plus suivis au monde, attirant chaque année plus d'un million de personnes sur place."
     },
     {
       "id": "16",
-      "question": "Quelle ville est située dans l’État de Washington ?",
-      "answers": ["Portland", "Seattle", "San Francisco", "Denver"],
+      "question": "Seattle, dans l'État de Washington, est associée à deux géants technologiques mondiaux. Lequel d'entre eux y a été fondé ?",
+      "image": null,
+      "imagePrompt": "Seattle Washington Space Needle Amazon skyline",
+      "answers": ["Google", "Amazon", "Microsoft", "Adobe"],
       "correctIndex": 1,
-      "explanation": "Seattle est un pôle technologique majeur avec Amazon et Microsoft, montrant le poids croissant du nord-ouest américain."
+      "explanation": "Amazon a été fondé à Seattle en 1994 par Jeff Bezos, dans son garage. Microsoft, souvent associé à Seattle, a en réalité été fondé à Albuquerque (Nouveau-Mexique) en 1975 avant de s'installer à Redmond, en banlieue de Seattle, en 1979. La région de Seattle est aussi le berceau de Boeing et de Starbucks, dont le premier café a ouvert au marché Pike Place en 1971."
     },
     {
       "id": "17",
-      "question": "Quelle ville est historiquement liée à l’automobile ?",
-      "answers": ["Detroit", "Chicago", "Houston", "Dallas"],
-      "correctIndex": 0,
-      "explanation": "Detroit est le berceau de l’industrie automobile américaine (Ford), illustrant la montée puis le déclin industriel."
+      "question": "Austin est la capitale du Texas et connaît l'une des croissances démographiques les plus rapides des États-Unis. Quel festival mondial y est né en 1987 ?",
+      "image": null,
+      "imagePrompt": "Austin Texas SXSW music festival Capitol city",
+      "answers": ["Coachella", "South by Southwest (SXSW)", "Lollapalooza", "Austin City Limits Festival"],
+      "correctIndex": 1,
+      "explanation": "South by Southwest (SXSW), né à Austin en 1987, est devenu l'un des festivals les plus influents au monde pour la musique, le cinéma et les nouvelles technologies. Il a révélé des artistes comme Arctic Monkeys et The xx. Austin attire aussi Tesla, Apple et Google, qui y ont installé des campus, renforçant son surnom de « Silicon Hills »."
     },
     {
       "id": "18",
-      "question": "Quelle ville est la capitale du Texas ?",
-      "answers": ["Dallas", "Houston", "Austin", "San Antonio"],
-      "correctIndex": 2,
-      "explanation": "Austin est aujourd’hui un pôle technologique en forte croissance, attirant entreprises et population."
+      "question": "La Nouvelle-Orléans est une ville américaine profondément marquée par son histoire française et créole. Quel désastre de 2005 a failli effacer la ville ?",
+      "image": null,
+      "imagePrompt": "New Orleans Louisiana French Quarter jazz bayou",
+      "answers": ["Un tremblement de terre sur la faille du Mississippi", "L'ouragan Katrina et la rupture des digues", "Une inondation saisonnière exceptionnelle du bayou", "Un incendie industriel massif dans le port"],
+      "correctIndex": 1,
+      "explanation": "L'ouragan Katrina (août 2005) et surtout la rupture des digues qui ont suivi ont inondé 80 % de La Nouvelle-Orléans, causant plus de 1 800 morts. La ville, construite en partie sous le niveau de la mer dans le delta du Mississippi, reste vulnérable aux événements climatiques extrêmes. Sa culture unique — jazz, cuisine créole, carnaval Mardi Gras — en fait l'une des villes les plus singulières des États-Unis."
     },
     {
       "id": "19",
-      "question": "Quelle ville possède l’un des ports les plus stratégiques de la côte Est ?",
-      "answers": ["Boston", "New York", "Miami", "Charleston"],
-      "correctIndex": 1,
-      "explanation": "Le port de New York est une porte d’entrée majeure du commerce international depuis le XIXe siècle."
+      "question": "Boston est l'un des plus grands pôles universitaires des États-Unis. Quelle est la plus ancienne université américaine, fondée dans sa banlieue en 1636 ?",
+      "image": null,
+      "imagePrompt": "Boston Massachusetts Harvard MIT campus skyline",
+      "answers": ["Le MIT", "Yale University", "Harvard University", "Tufts University"],
+      "correctIndex": 2,
+      "explanation": "Harvard, fondée à Cambridge (banlieue de Boston) en 1636, est la plus ancienne université des États-Unis. Le MIT (1861), également à Cambridge, en est le pendant scientifique et technique. Cette concentration académique exceptionnelle — Boston compte des dizaines d'universités et colleges — a fait de la région le premier pôle mondial de biotechnologies et de sciences de la vie."
     },
     {
       "id": "20",
-      "question": "Quelle ville abrite Disneyland en Californie ?",
-      "answers": ["Orlando", "Los Angeles", "San Diego", "Phoenix"],
+      "question": "Phoenix, en Arizona, est l'une des villes américaines à la croissance la plus rapide. Quel défi environnemental majeur concentre l'attention des urbanistes et des climatologues ?",
+      "image": null,
+      "imagePrompt": "Phoenix Arizona desert heat sprawl aerial",
+      "answers": ["Les tremblements de terre fréquents dans la région", "La gestion de l'eau dans un désert sous pression climatique", "La montée des eaux due à sa position côtière basse", "Les éruptions volcaniques du plateau Colorado"],
       "correctIndex": 1,
-      "explanation": "Disneyland près de Los Angeles illustre le rôle du divertissement dans l’économie américaine."
+      "explanation": "Phoenix est une métropole de plusieurs millions d'habitants construite dans le désert de Sonora, dépendante du fleuve Colorado dont les réservoirs ont atteint des niveaux historiquement bas ces dernières années. Les étés y sont parmi les plus chauds des États-Unis, et la combinaison de la croissance urbaine, de la chaleur et de la pression sur les ressources en eau en fait un cas d'étude majeur pour les villes arides face au changement climatique."
     }
   ]
 }

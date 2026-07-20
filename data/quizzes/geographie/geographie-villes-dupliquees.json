@@ -2,7 +2,7 @@
   "slug": "quiz-villes-dupliquees-memes-noms-monde",
   "title": "Quiz Géographie - Villes dupliquées (mêmes noms)",
   "description": "Teste tes connaissances sur les villes qui partagent le même nom à travers le monde et découvre les pièges les plus fréquents.",
-  "descriptionSeo": "Paris, Melbourne, Cambridge, Kingston ou San José : de nombreuses villes du monde portent exactement le même nom sans se trouver dans le même pays ni sur le même continent. Ce quiz de géographie te propose 20 questions sur ces villes dupliquées, leurs localisations et leurs différences. Chaque réponse est accompagnée d’explications détaillées pour mieux comprendre l’histoire des noms, des colonisations et des héritages culturels.",
+  "descriptionSeo": "Paris, Melbourne, Cambridge, Kingston ou San José : de nombreuses villes du monde portent exactement le même nom sans se trouver dans le même pays ni sur le même continent. Ce quiz de géographie te propose 20 questions sur ces villes dupliquées, leurs localisations et leurs différences. Chaque réponse est accompagnée d'explications détaillées pour mieux comprendre l'histoire des noms, des colonisations et des héritages culturels.",
   "category": {
     "name": "Géographie",
     "slug": "geographie"
@@ -18,183 +18,183 @@
   "questions": [
     {
       "id": "1",
-      "question": "Quelle ville appelée Paris est la plus célèbre et se trouve sur la Seine ?",
+      "question": "Paris, Texas, est célèbre pour sa réplique de la tour Eiffel… coiffée d'un chapeau de cowboy. Quelle hauteur fait cette copie texane ?",
       "image": null,
-      "imagePrompt": "Paris France Seine aerial",
-      "answers": ["Paris, France", "Paris, Texas", "Paris, Ontario", "Paris, Kentucky"],
+      "imagePrompt": "Paris Texas Eiffel Tower cowboy hat replica",
+      "answers": ["19 mètres", "52 mètres", "120 mètres", "324 mètres (identique à l'originale)"],
       "correctIndex": 0,
-      "explanation": "Paris est un excellent exemple de nom urbain exporté. La ville française a servi de référence symbolique et culturelle à de nombreuses autres localités dans le monde anglophone. Quand un nom est reproduit ailleurs, cela reflète souvent l’influence d’un centre historique ou le prestige associé à une grande capitale."
+      "explanation": "La tour Eiffel de Paris, Texas, ne mesure que 19 mètres — contre 330 m pour l'originale. Elle a été coiffée d'un chapeau de cowboy rouge en 1998, après qu'une ville de Paris, Tennessee, avait érigé sa propre réplique légèrement plus haute. Ce duel texano-tennessien illustre comment les villes homonymes jouent avec leur ressemblance pour construire une identité touristique propre. Paris, Texas, compte environ 25 000 habitants."
     },
     {
       "id": "2",
-      "question": "Dans quel pays se trouve la ville de Melbourne la plus connue à l’échelle mondiale ?",
+      "question": "Melbourne, en Australie, est la deuxième ville du pays. À quel Premier ministre britannique doit-elle son nom, donné en 1837 ?",
       "image": null,
-      "imagePrompt": "Melbourne Australia skyline",
-      "answers": ["Royaume-Uni", "Australie", "Canada", "États-Unis"],
-      "correctIndex": 1,
-      "explanation": "Melbourne, en Australie, doit son nom à un ancien Premier ministre britannique. Ce type de duplication est fréquent dans les pays de colonisation britannique, où de nouvelles villes reprenaient des noms de personnalités, de lieux d’origine ou de références impériales afin d’affirmer une continuité politique et culturelle."
+      "imagePrompt": "Melbourne Australia skyline Yarra River",
+      "answers": ["William Lamb, vicomte de Melbourne", "Robert Peel", "Benjamin Disraeli", "William Gladstone"],
+      "correctIndex": 0,
+      "explanation": "Melbourne a été nommée en 1837 en hommage à William Lamb, 2e vicomte de Melbourne, Premier ministre britannique de l'époque. Ce type de toponymie honorifique est caractéristique de la colonisation britannique, qui baptisait les nouvelles implantations d'après des personnalités politiques pour affirmer une appartenance à l'Empire. Il existe aussi des Melbourne en Angleterre (Derbyshire), d'où le vicomte tirait son titre."
     },
     {
       "id": "3",
-      "question": "Quel État américain possède une ville nommée Paris particulièrement connue pour sa réplique de tour Eiffel ?",
+      "question": "Cambridge en Angleterre abrite l'une des plus vieilles universités du monde. En quelle année a-t-elle été fondée ?",
       "image": null,
-      "imagePrompt": "Paris Texas Eiffel Tower",
-      "answers": ["Californie", "Texas", "Floride", "Nevada"],
+      "imagePrompt": "Cambridge England King's College punting river",
+      "answers": ["En 1096", "En 1209", "En 1348", "En 1440"],
       "correctIndex": 1,
-      "explanation": "Paris au Texas montre bien comment une ville homonyme peut jouer avec l’image de son modèle célèbre pour construire sa propre identité touristique. Les noms dupliqués ne sont donc pas seulement un héritage historique : ils peuvent aussi devenir un outil local de visibilité et de marketing territorial."
+      "explanation": "L'université de Cambridge a été fondée en 1209 par des étudiants qui avaient fui Oxford après un conflit avec les habitants de la ville. Elle est la deuxième plus ancienne université du monde anglophone (après Oxford, 1096) et a formé Newton, Darwin, Stephen Hawking ou encore Alan Turing. Son nom a été transposé à Cambridge, Massachusetts, en 1638 — un an après la fondation de Harvard à ses portes."
     },
     {
       "id": "4",
-      "question": "Quelle ville nommée Cambridge est célèbre pour son université historique au Royaume-Uni ?",
+      "question": "San José est la capitale du Costa Rica. Mais une autre ville nommée San Jose est au cœur de la Silicon Valley. Dans quel État américain se trouve-t-elle ?",
       "image": null,
-      "imagePrompt": "Cambridge UK college",
-      "answers": ["Cambridge, Massachusetts", "Cambridge, Ontario", "Cambridge, Nouvelle-Zélande", "Cambridge, Angleterre"],
-      "correctIndex": 3,
-      "explanation": "Cambridge en Angleterre est l’original le plus prestigieux du nom, ce qui explique que d’autres Cambridge soient souvent comparées à elle. Les villes universitaires dupliquées illustrent comment un nom peut transmettre une réputation intellectuelle, même lorsque les lieux diffèrent fortement par leur taille ou leur fonction."
+      "imagePrompt": "San Jose California Silicon Valley tech skyline",
+      "answers": ["Nevada", "Arizona", "Californie", "Texas"],
+      "correctIndex": 2,
+      "explanation": "San Jose, Californie, est aujourd'hui l'une des villes les plus riches du monde grâce à sa position au cœur de la Silicon Valley, abritant les sièges sociaux de Cisco, Adobe ou eBay. Son nom espagnol rappelle que la Californie était territoire mexicain jusqu'en 1848. San José, Costa Rica, et San Jose, Californie, partagent un nom catholique (saint Joseph) mais des destins radicalement différents."
     },
     {
       "id": "5",
-      "question": "Dans quel pays se trouve San José, capitale la plus connue portant ce nom ?",
+      "question": "Alexandrie, en Égypte, fut fondée par Alexandre le Grand en 331 av. J.-C. Combien de villes Alexandre aurait-il baptisées « Alexandrie » au cours de ses conquêtes ?",
       "image": null,
-      "imagePrompt": "San Jose Costa Rica skyline",
-      "answers": ["Costa Rica", "Mexique", "Espagne", "Colombie"],
-      "correctIndex": 0,
-      "explanation": "San José est la capitale du Costa Rica, mais le nom est très répandu dans le monde hispanique. Cette répétition s’explique en grande partie par l’influence du catholicisme : beaucoup de villes ont été baptisées d’après des saints, ce qui a produit des noms extrêmement fréquents dans tout l’espace hispanophone."
+      "imagePrompt": "Alexandria Egypt Bibliotheca Alexandrina Mediterranean",
+      "answers": ["3 villes", "9 villes", "Plus de 20 villes", "Plus de 70 villes"],
+      "correctIndex": 2,
+      "explanation": "Alexandre le Grand aurait fondé plus de 20 villes portant son nom entre l'Égypte et l'Inde actuelle — les historiens en recensent entre 20 et 70 selon les critères retenus. Alexandrie d'Égypte est la seule à avoir survécu comme grande métropole (5 millions d'habitants). Cette pratique de nommer des villes d'après soi-même est l'un des actes de duplication toponymique les plus anciens de l'histoire."
     },
     {
       "id": "6",
-      "question": "Quelle ville nommée San Jose est au cœur de la Silicon Valley ?",
+      "question": "Córdoba en Espagne était la plus grande ville d'Europe occidentale au Xe siècle. Quelle civilisation en avait fait sa capitale et y bâtit la Grande Mosquée (Mezquita) ?",
       "image": null,
-      "imagePrompt": "San Jose California skyline",
-      "answers": ["San José, Costa Rica", "San Jose, Californie", "San Jose, Philippines", "San José, Uruguay"],
+      "imagePrompt": "Cordoba Spain Mezquita interior Umayyad",
+      "answers": ["L'Empire romain", "Le califat omeyyade d'Al-Andalus", "L'Empire wisigoth", "Le royaume de Castille"],
       "correctIndex": 1,
-      "explanation": "San Jose en Californie illustre la superposition de plusieurs héritages : un nom espagnol issu de la colonisation, puis une transformation complète en métropole technologique mondiale. Deux villes de même nom peuvent donc évoquer des réalités géographiques, économiques et culturelles radicalement différentes."
+      "explanation": "Sous le califat omeyyade d'Al-Andalus (IXe–Xe siècles), Córdoba comptait peut-être 500 000 habitants, une bibliothèque de 400 000 volumes et des infrastructures sans équivalent en Europe chrétienne. La Mezquita, commencée en 785, est l'un des chefs-d'œuvre de l'architecture islamique. Les conquistadors ont ensuite exporté ce nom vers l'Amérique : Córdoba d'Argentine, Córdoba du Mexique, etc."
     },
     {
       "id": "7",
-      "question": "Quelle Alexandria est la plus célèbre pour son passé antique et sa bibliothèque historique ?",
+      "question": "Córdoba est la deuxième ville d'Argentine. Pour quelle raison est-elle particulièrement réputée dans le pays ?",
       "image": null,
-      "imagePrompt": "Alexandria Egypt coast",
-      "answers": ["Alexandria, Louisiane", "Alexandria, Virginie", "Alexandrie, Égypte", "Alexandria, Roumanie"],
-      "correctIndex": 2,
-      "explanation": "Alexandrie en Égypte fait partie des noms urbains les plus exportés depuis l’Antiquité. Beaucoup de villes appelées Alexandria ou Alexandrie rappellent l’héritage d’Alexandre le Grand. C’est un bon exemple de diffusion toponymique très ancienne, bien antérieure aux colonisations modernes."
+      "imagePrompt": "Cordoba Argentina university jesuit block UNESCO",
+      "answers": ["Son carnaval, le plus grand d'Amérique du Sud après Rio", "Son université, la plus ancienne d'Argentine, fondée en 1613", "Sa production pétrolière, la première du pays", "Son port fluvial, le plus actif de la région"],
+      "correctIndex": 1,
+      "explanation": "L'université nationale de Córdoba, fondée en 1613 par les Jésuites, est la plus ancienne d'Argentine et l'une des plus vieilles d'Amérique latine. Le « bloc jésuite » de Córdoba est classé au patrimoine mondial de l'UNESCO. La ville est aujourd'hui un centre industriel (automobile) et universitaire majeur — un destin bien distinct de son homonyme espagnole, pourtant à l'origine de son nom."
     },
     {
       "id": "8",
-      "question": "Dans quel pays se trouve la ville de Córdoba la plus célèbre d’Europe ?",
+      "question": "Kingston est la capitale de la Jamaïque. Cette ville est mondialement connue pour avoir vu naître le reggae. Quel artiste jamaïcain, né près de Kingston, a fait rayonner ce genre musical à l'échelle planétaire ?",
       "image": null,
-      "imagePrompt": "Cordoba Spain mezquita",
-      "answers": ["Argentine", "Mexique", "Espagne", "Pérou"],
-      "correctIndex": 2,
-      "explanation": "Córdoba en Espagne a donné son nom à plusieurs villes d’Amérique latine, notamment durant la période coloniale. Les villes du Nouveau Monde reprenaient souvent des noms de villes espagnoles pour inscrire les territoires conquis dans une continuité symbolique avec la métropole."
+      "imagePrompt": "Kingston Jamaica Bob Marley music reggae harbor",
+      "answers": ["Jimmy Cliff", "Bob Marley", "Toots Hibbert", "Burning Spear"],
+      "correctIndex": 1,
+      "explanation": "Bob Marley, né à Nine Mile (à 100 km de Kingston), a grandi dans le quartier de Trenchtown à Kingston, berceau du reggae. Kingston est l'une des rares capitales caribéennes à avoir généré un genre musical d'influence mondiale. Le nom Kingston (« ville du roi ») est typique de la toponymie britannique : il existe des Kingston en Ontario, en Angleterre, en Jamaïque, en Australie et dans plusieurs autres pays."
     },
     {
       "id": "9",
-      "question": "Quelle Córdoba est une grande ville d’Argentine, importante sur le plan universitaire et industriel ?",
+      "question": "Victoria est la capitale de la Colombie-Britannique, au Canada. En quelle reine britannique ce nom de ville a-t-il été donné à de nombreuses villes à travers l'Empire ?",
       "image": null,
-      "imagePrompt": "Cordoba Argentina skyline",
-      "answers": ["Córdoba, Argentine", "Córdoba, Espagne", "Córdoba, Colombie", "Córdoba, Mexique"],
-      "correctIndex": 0,
-      "explanation": "Córdoba en Argentine montre que les noms hérités d’Europe n’ont pas empêché l’émergence d’identités urbaines autonomes. Avec le temps, certaines villes dupliquées deviennent si importantes qu’elles rivalisent en notoriété avec leur homonyme d’origine."
+      "imagePrompt": "Victoria British Columbia Canada harbor parliament",
+      "answers": ["La reine Élisabeth Ire", "La reine Anne", "La reine Victoria", "La reine Mary II"],
+      "correctIndex": 2,
+      "explanation": "La reine Victoria (règne 1837–1901) a donné son nom à un nombre impressionnant de lieux dans l'Empire britannique : la province de Victoria en Australie, le lac Victoria en Afrique, Victoria au Canada, des villes à Hong Kong, aux Seychelles, en Inde... Ce phénomène de toponymie impériale reflète la puissance symbolique de la monarchie britannique sur ses territoires coloniaux."
     },
     {
       "id": "10",
-      "question": "Quelle ville nommée Kingston est la capitale d’un pays caribéen ?",
+      "question": "Perth, en Australie occidentale, est l'une des grandes villes les plus isolées du monde. À quelle ville du continent le plus proche est-elle reliée directement par avion, à plus de 2 700 km ?",
       "image": null,
-      "imagePrompt": "Kingston Jamaica harbor",
-      "answers": ["Kingston upon Hull", "Kingston, Ontario", "Kingston, Jamaïque", "Kingston, Tasmanie"],
-      "correctIndex": 2,
-      "explanation": "Kingston, capitale de la Jamaïque, illustre bien le poids de l’héritage britannique dans la toponymie. Le même nom peut désigner une capitale nationale, une ville moyenne ou un simple district ailleurs, ce qui montre qu’un nom identique ne dit rien, à lui seul, du rang urbain du lieu."
+      "imagePrompt": "Perth Australia isolated western skyline Indian Ocean",
+      "answers": ["Sydney", "Singapour", "Adélaïde", "Jakarta"],
+      "correctIndex": 1,
+      "explanation": "Perth est souvent décrite comme la grande ville la plus isolée du monde : Singapour (2 700 km) est en réalité plus proche qu'Adelaide (2 130 km par la route, mais Singapour est plus proche par les grandes routes aériennes directes). Son nom vient de Perth, en Écosse, donné en 1829 par un gouverneur colonial écossais. Cette ville australienne de 2 millions d'habitants est tournée vers l'océan Indien plus que vers le reste de l'Australie."
     },
     {
       "id": "11",
-      "question": "Dans quel pays se trouve la ville de Victoria qui est la capitale de la Colombie-Britannique ?",
+      "question": "Grenade (Granada) en Espagne abrite l'Alhambra. Quelle est l'étymologie la plus répandue de ce nom de palais en arabe ?",
       "image": null,
-      "imagePrompt": "Victoria BC harbor",
-      "answers": ["Australie", "Nouvelle-Zélande", "Canada", "Royaume-Uni"],
+      "imagePrompt": "Granada Spain Alhambra palace fortress red",
+      "answers": ["« La forteresse blanche »", "« Le palais des rois »", "« La forteresse rouge »", "« Le jardin des sultans »"],
       "correctIndex": 2,
-      "explanation": "Victoria est un nom très répandu dans l’ancien monde britannique, en hommage à la reine Victoria. Quand un même nom apparaît sur plusieurs continents, il témoigne souvent d’un moment historique précis : ici, l’expansion impériale et la volonté de marquer les territoires par des références communes."
+      "explanation": "« Al-Hamra » signifie « la rouge » en arabe, en référence à la couleur ocre-rouge de ses remparts en terre cuite. Construit aux XIIIe–XIVe siècles par les sultans nasrides, l'Alhambra est le palais islamique le mieux préservé du monde. Le nom Granada lui-même viendrait soit de l'arabe « Gharnata », soit d'une comparaison avec une grenade (le fruit) — les deux étymologies sont débattues."
     },
     {
       "id": "12",
-      "question": "Quelle ville appelée Perth est la plus connue comme grande métropole d’Australie occidentale ?",
+      "question": "Granada, au Nicaragua, est souvent présentée comme la plus ancienne ville européenne fondée en Amérique continentale. En quelle année a-t-elle été établie par les Espagnols ?",
       "image": null,
-      "imagePrompt": "Perth Australia skyline",
-      "answers": ["Perth, Écosse", "Perth, Australie", "Perth, Canada", "Perth, Afrique du Sud"],
+      "imagePrompt": "Granada Nicaragua colonial cathedral lake",
+      "answers": ["En 1492", "En 1524", "En 1580", "En 1621"],
       "correctIndex": 1,
-      "explanation": "Perth en Australie doit son nom à Perth en Écosse. Ce transfert de nom rappelle que les colons donnaient souvent aux nouvelles implantations des noms familiers, soit pour conserver un lien émotionnel avec leur origine, soit pour ancrer symboliquement le territoire dans une culture déjà connue."
+      "explanation": "Granada du Nicaragua a été fondée en 1524 par le conquistador Francisco Hernández de Córdoba — qui a aussi donné son nom à la monnaie nicaraguayenne, le córdoba. Construite sur les rives du lac Nicaragua, c'est l'une des premières villes coloniales permanentes d'Amérique continentale. Son architecture baroque coloniale en fait aujourd'hui l'une des villes les mieux préservées d'Amérique centrale."
     },
     {
       "id": "13",
-      "question": "Dans quel pays se trouve la ville de Granada mondialement connue pour l’Alhambra ?",
+      "question": "Valence (Valencia) en Espagne est connue pour la paella et les Fallas. Combien de villes dans le monde portent le nom Valencia ou Valence ?",
       "image": null,
-      "imagePrompt": "Granada Spain Alhambra",
-      "answers": ["Nicaragua", "Espagne", "Colombie", "Mexique"],
-      "correctIndex": 1,
-      "explanation": "Grenade en Espagne est l’un des grands noms historiques exportés vers l’Amérique latine. Cette duplication permet de lire l’histoire coloniale dans la carte elle-même : les noms urbains deviennent des traces durables des circulations culturelles, politiques et religieuses."
+      "imagePrompt": "Valencia Spain Fallas fireworks City of Arts Sciences",
+      "answers": ["Moins de 5", "Une dizaine", "Plus de 50", "Plus de 200"],
+      "correctIndex": 2,
+      "explanation": "On recense plus de 50 localités dans le monde portant le nom Valencia ou Valence, principalement dans les pays hispanophones (Venezuela, Philippines, Mexique, Colombie...) mais aussi en France (Valence dans la Drôme). Ce foisonnement illustre à la fois l'étendue de l'empire colonial espagnol et la pratique systématique de transposition des noms ibériques vers les nouveaux territoires."
     },
     {
       "id": "14",
-      "question": "Quelle Granada est une ville importante du Nicaragua, héritière directe des noms hispaniques exportés ?",
+      "question": "Valencia au Venezuela est la troisième ville du pays. Sur quel lac est-elle située, l'un des plus grands lacs d'eau douce d'Amérique du Sud ?",
       "image": null,
-      "imagePrompt": "Granada Nicaragua cathedral",
-      "answers": ["Granada, Nicaragua", "Granada, Espagne", "Granada, Honduras", "Granada, Chili"],
-      "correctIndex": 0,
-      "explanation": "Granada au Nicaragua montre comment un nom importé peut finir par prendre une forte identité propre. Dans beaucoup d’anciennes colonies espagnoles, les toponymes européens ont été conservés, mais leur histoire locale a produit des significations nouvelles, indépendantes du lieu d’origine."
+      "imagePrompt": "Valencia Venezuela Lake Valencia industrial city",
+      "answers": ["Le lac Titicaca", "Le lac Maracaibo", "Le lac Valencia", "Le lac Gatun"],
+      "correctIndex": 2,
+      "explanation": "Valencia du Venezuela est bordée par le lac Valencia (lac de Tacarigua), un lac endoréique — c'est-à-dire sans exutoire vers la mer. Ce lac a vu son niveau fluctuer considérablement en raison de l'agriculture et de l'industrie environnantes. Valencia vénézuélienne est un centre industriel majeur, abritant des usines automobiles et pétrochimiques — un profil radicalement différent de son homonyme espagnole."
     },
     {
       "id": "15",
-      "question": "Quelle ville nommée Valencia est la plus connue en Espagne, sur la côte méditerranéenne ?",
+      "question": "Springfield est l'une des villes dont le nom est le plus répandu aux États-Unis. Quelle série télévisée animée a rendu ce nom mondialement célèbre en gardant volontairement secret l'État où se situe sa Springfield fictive ?",
       "image": null,
-      "imagePrompt": "Valencia Spain skyline",
-      "answers": ["Valencia, Venezuela", "Valencia, Philippines", "Valence, Espagne", "Valencia, Californie"],
+      "imagePrompt": "Springfield USA generic American town sign",
+      "answers": ["South Park", "Futurama", "Les Simpson", "Family Guy"],
       "correctIndex": 2,
-      "explanation": "Valence en Espagne a donné son nom à d’autres villes, notamment en Amérique latine. Les noms dupliqués montrent souvent la direction des anciennes influences : ici, de la péninsule Ibérique vers les espaces coloniaux, où la toponymie servait à reproduire symboliquement la géographie de la métropole."
+      "explanation": "Les Simpson, créée en 1989 par Matt Groening, se déroule dans une Springfield dont l'État n'a jamais été officiellement révélé — un gag entretenu pendant des décennies. Groening a finalement dit en 2012 que Springfield était inspirée de Springfield, Oregon. Le nom Springfield (« champ à la source ») est l'un des plus communs des États-Unis : on en recense plus de 30 dans autant d'États différents."
     },
     {
       "id": "16",
-      "question": "Quelle ville nommée Valencia est une grande ville du Venezuela ?",
+      "question": "Cambridge, Massachusetts, abrite Harvard et le MIT. Pourquoi ses fondateurs puritains ont-ils choisi ce nom en 1638 ?",
       "image": null,
-      "imagePrompt": "Valencia Venezuela skyline",
-      "answers": ["Valencia, Venezuela", "Valence, Espagne", "Valencia, Philippines", "Valencia, Mexique"],
-      "correctIndex": 0,
-      "explanation": "Valencia au Venezuela rappelle qu’un même nom peut exister dans des espaces linguistiques différents tout en renvoyant à une même matrice culturelle. Ce phénomène aide à comprendre la diffusion du monde hispanique et la manière dont la colonisation a redessiné les cartes nominales."
+      "imagePrompt": "Cambridge Massachusetts Harvard MIT Charles River",
+      "answers": ["En hommage au duc de Cambridge, bienfaiteur de la colonie", "En souvenir de Cambridge en Angleterre, où plusieurs fondateurs avaient étudié", "Parce que le site ressemblait géographiquement à Cambridge anglaise", "Par décision du roi Charles Ier qui voulait honorer la ville anglaise"],
+      "correctIndex": 1,
+      "explanation": "Cambridge, Massachusetts, a été rebaptisée ainsi en 1638 car plusieurs de ses fondateurs puritains avaient étudié à Cambridge en Angleterre. La fondation de Harvard un an plus tôt (1636) voulait reproduire un modèle universitaire anglais dans le Nouveau Monde. Ce transfert de nom reflète une volonté consciente de transposer une culture intellectuelle — et pas seulement une nostalgie géographique."
     },
     {
       "id": "17",
-      "question": "Quel nom de ville est particulièrement célèbre pour avoir été donné à de nombreuses localités américaines, au point de devenir un cliché toponymique ?",
+      "question": "Sydney, en Nouvelle-Écosse (Canada), partage son nom avec la grande métropole australienne. Laquelle des deux a été nommée en premier ?",
       "image": null,
-      "imagePrompt": "Springfield USA sign",
-      "answers": ["Springfield", "Reykjavik", "Prague", "Athènes"],
-      "correctIndex": 0,
-      "explanation": "Springfield est presque devenu un symbole des noms urbains répétitifs aux États-Unis. Son succès vient de sa simplicité descriptive en anglais : un champ, une source. Les noms génériques ou liés au paysage ont souvent été reproduits indépendamment dans de nombreuses régions, sans référence à une ville-modèle unique."
+      "imagePrompt": "Sydney Nova Scotia Cape Breton harbor Canada",
+      "answers": ["Sydney, Australie (1788)", "Sydney, Nouvelle-Écosse (1785)", "Les deux ont été fondées la même année", "Sydney, Nouvelle-Écosse (1749)"],
+      "correctIndex": 1,
+      "explanation": "Sydney, Nouvelle-Écosse, a été nommée en 1785, trois ans avant Sydney, Australie (1788). Les deux ont été baptisées en hommage à Thomas Townshend, 1er vicomte Sydney, secrétaire d'État britannique de l'époque. Sydney australienne a depuis éclipsé son aînée canadienne dans la mémoire collective — un exemple parfait de comment la taille et le rayonnement d'une ville peuvent effacer la chronologie réelle de la toponymie."
     },
     {
       "id": "18",
-      "question": "Quelle ville appelée Cambridge se trouve aux États-Unis, près de Boston, et accueille l’université Harvard voisine ainsi que le MIT ?",
+      "question": "León au Mexique est une grande ville industrielle de l'État de Guanajuato. Pour quelle industrie est-elle surnommée « la capitale mondiale » ?",
       "image": null,
-      "imagePrompt": "Cambridge Massachusetts river",
-      "answers": ["Cambridge, Ontario", "Cambridge, Angleterre", "Cambridge, Massachusetts", "Cambridge, Nouvelle-Zélande"],
-      "correctIndex": 2,
-      "explanation": "Cambridge, Massachusetts, montre qu’un nom importé peut acquérir une renommée mondiale propre. La coexistence de Cambridge au Royaume-Uni et de Cambridge aux États-Unis illustre la circulation de la culture universitaire anglophone de part et d’autre de l’Atlantique."
+      "imagePrompt": "Leon Mexico leather shoes industry Guanajuato",
+      "answers": ["La tequila", "La chaussure et le cuir", "L'argent et la joaillerie", "L'automobile"],
+      "correctIndex": 1,
+      "explanation": "León du Mexique est surnommée « la capitale mondiale de la chaussure » : elle produit environ 250 millions de paires par an et concentre la majeure partie de l'industrie mexicaine du cuir et de la chaussure. Ce destin industriel n'a aucun rapport avec León d'Espagne (ville médiévale du nord ibérique) ni avec León du Nicaragua (ville universitaire et culturelle) — trois villes de même nom, trois histoires totalement distinctes."
     },
     {
       "id": "19",
-      "question": "Quel pays possède une ville nommée Sydney, moins connue que la grande métropole australienne mais bien réelle en Nouvelle-Écosse ?",
+      "question": "Athènes donne son nom à de nombreuses villes américaines. Laquelle est connue comme « l'Athènes du Sud » en raison de ses universités ?",
       "image": null,
-      "imagePrompt": "Sydney Nova Scotia harbor",
-      "answers": ["Canada", "Nouvelle-Zélande", "Irlande", "Afrique du Sud"],
-      "correctIndex": 0,
-      "explanation": "La ville de Sydney en Nouvelle-Écosse rappelle qu’un nom mondialement associé à une métropole peut exister ailleurs dans un cadre beaucoup plus modeste. Cela montre un biais fréquent de perception : nous avons tendance à croire qu’un nom célèbre n’existe qu’en un seul lieu, alors que la toponymie est souvent bien plus redondante."
+      "imagePrompt": "Athens Georgia USA university town classic architecture",
+      "answers": ["Athens, Ohio", "Athens, Tennessee", "Athens, Géorgie", "Athens, Texas"],
+      "correctIndex": 2,
+      "explanation": "Athens, Géorgie, abrite l'université de Géorgie (fondée en 1785, la plus ancienne université publique des États-Unis) et est surnommée « l'Athènes du Sud ». Elle est aussi connue pour sa scène musicale alternative — le groupe R.E.M. y a été fondé en 1980. Il existe des Athens dans au moins 20 États américains, tous en référence à la capitale grecque, symbole de démocratie et de culture dans la tradition occidentale."
     },
     {
       "id": "20",
-      "question": "Quelle grande ville nommée León se trouve au Mexique, et non en Espagne ?",
+      "question": "Rome a donné son nom à de nombreuses villes dans le monde. Quelle ville américaine nommée Rome revendique fièrement d'être bâtie sur sept collines, comme l'originale ?",
       "image": null,
-      "imagePrompt": "Leon Mexico skyline",
-      "answers": ["León, Espagne", "León, Argentine", "León, Nicaragua", "León, Mexique"],
-      "correctIndex": 3,
-      "explanation": "León au Mexique montre comment un nom espagnol a pu être transplanté puis devenir celui d’un grand pôle industriel et urbain du continent américain. Les villes dupliquées ne sont donc pas de simples copies : elles peuvent devenir, avec le temps, des centres majeurs possédant une trajectoire historique entièrement distincte."
+      "imagePrompt": "Rome New York seven hills city sign",
+      "answers": ["Rome, Géorgie", "Rome, New York", "Rome, Texas", "Rome, Ohio"],
+      "correctIndex": 1,
+      "explanation": "Rome, New York, se targue d'être construite sur sept collines, tout comme la Rome antique — un clin d'œil toponymique assumé. Fondée en 1819 dans l'État de New York, elle fut un nœud stratégique du canal Érié. Il existe des Rome dans au moins 18 États américains. Cette multiplication illustre comment le prestige d'une ville antique peut traverser les siècles et les continents pour irriguer la toponymie du Nouveau Monde."
     }
   ]
 }

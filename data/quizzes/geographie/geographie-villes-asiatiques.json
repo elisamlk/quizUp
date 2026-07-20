@@ -1,8 +1,8 @@
 {
   "slug": "quiz-geographie-grandes-villes-asiatiques",
-  "title": "Quiz Géographie Grandes villes asiatiques - 20 questions pour comprendre l’Asie urbaine",
-  "description": "Teste tes connaissances avec 20 questions sur les grandes villes d’Asie et leur importance.",
-  "descriptionSeo": "Teste tes connaissances avec ce quiz géographie sur les grandes villes asiatiques. Tokyo, Shanghai, Mumbai, Bangkok, Séoul, Jakarta… sauras-tu situer ces métropoles et comprendre leur rôle économique, culturel et stratégique ? Ce quiz de 20 questions ne se limite pas à la mémorisation : il permet de mieux comprendre l’organisation urbaine de l’Asie, les dynamiques de croissance, les mégalopoles et les centres de pouvoir régionaux. Chaque question est accompagnée d’explications détaillées pour apprendre, comparer et approfondir ta culture géographique.",
+  "title": "Quiz Géographie Grandes villes asiatiques - 20 questions pour comprendre l'Asie urbaine",
+  "description": "Teste tes connaissances avec 20 questions sur les grandes villes d'Asie et leur importance.",
+  "descriptionSeo": "Teste tes connaissances avec ce quiz géographie sur les grandes villes asiatiques. Tokyo, Shanghai, Mumbai, Bangkok, Séoul, Jakarta… sauras-tu situer ces métropoles et comprendre leur rôle économique, culturel et stratégique ? Ce quiz de 20 questions ne se limite pas à la mémorisation : il permet de mieux comprendre l'organisation urbaine de l'Asie, les dynamiques de croissance, les mégalopoles et les centres de pouvoir régionaux. Chaque question est accompagnée d'explications détaillées pour apprendre, comparer et approfondir ta culture géographique.",
   "category": {
     "name": "Géographie",
     "slug": "geographie"
@@ -18,143 +18,183 @@
   "questions": [
     {
       "id": "1",
-      "question": "Quelle est la plus grande agglomération du monde ?",
-      "answers": ["Shanghai", "Delhi", "Tokyo", "Jakarta"],
+      "question": "Tokyo est généralement citée comme la plus grande aire urbaine du monde. Combien de personnes vivent dans son agglomération ?",
+      "image": null,
+      "imagePrompt": "Tokyo Japan aerial megalopolis night lights",
+      "answers": ["Environ 20 millions", "Environ 25 millions", "Environ 37 millions", "Environ 50 millions"],
       "correctIndex": 2,
-      "explanation": "Tokyo est la plus grande aire urbaine au monde. Ce n’est pas seulement une ville mais une mégalopole structurée, illustrant l’efficacité japonaise en matière d’organisation urbaine et de transport."
+      "explanation": "L'aire métropolitaine de Tokyo compte environ 37 millions d'habitants, ce qui en fait la plus grande agglomération urbaine du monde. Cette concentration colossale fonctionne grâce à l'un des réseaux de transport en commun les plus denses et les plus ponctuels au monde : le réseau ferroviaire de Tokyo transporte chaque jour plus de 40 millions de passagers."
     },
     {
       "id": "2",
-      "question": "Quelle ville est le principal centre économique de la Chine ?",
-      "answers": ["Pékin", "Shanghai", "Shenzhen", "Guangzhou"],
-      "correctIndex": 1,
-      "explanation": "Shanghai est la capitale économique de la Chine, avec un port parmi les plus actifs au monde. Pékin reste politique, mais Shanghai domine en finance et commerce."
+      "question": "Shanghai est la capitale économique de la Chine et abrite le port le plus fréquenté du monde. Dans quel delta fluvial est-elle construite ?",
+      "image": null,
+      "imagePrompt": "Shanghai Pudong skyline Huangpu River port",
+      "answers": ["Le delta du fleuve Jaune", "Le delta du Mékong", "Le delta du Yangtsé", "Le delta de la rivière des Perles"],
+      "correctIndex": 2,
+      "explanation": "Shanghai est bâtie à l'embouchure du Yangtsé, le plus long fleuve de Chine. Cette position lui a permis de devenir la porte d'entrée du commerce vers l'immense intérieur chinois. Le port de Shanghai est le premier mondial en volume de conteneurs depuis 2010. Le quartier de Pudong, qui n'était que des champs agricoles en 1990, concentre aujourd'hui certains des gratte-ciels les plus emblématiques d'Asie."
     },
     {
       "id": "3",
-      "question": "Quelle ville est la capitale de l’Inde ?",
-      "answers": ["Mumbai", "New Delhi", "Bangalore", "Chennai"],
-      "correctIndex": 1,
-      "explanation": "New Delhi est la capitale politique, tandis que Mumbai est le centre économique. Cette distinction est essentielle pour comprendre l’organisation territoriale indienne."
+      "question": "New Delhi est la capitale politique de l'Inde. Quelle puissance coloniale l'a construite de toutes pièces au début du XXe siècle pour en faire sa capitale des Indes ?",
+      "image": null,
+      "imagePrompt": "New Delhi India Rajpath colonial architecture",
+      "answers": ["La France", "Le Portugal", "Les Pays-Bas", "Le Royaume-Uni"],
+      "correctIndex": 3,
+      "explanation": "New Delhi a été construite par les Britanniques et inaugurée en 1931 pour remplacer Calcutta comme capitale de l'Empire des Indes. L'architecte Edwin Lutyens en a dessiné les grands axes et bâtiments officiels. Cette ville planifiée coexiste avec le Delhi historique (Old Delhi), fondé au XVIIe siècle par l'empereur moghol Shah Jahan, créant une métropole à deux visages."
     },
     {
       "id": "4",
-      "question": "Quelle ville est connue comme le centre financier de l’Inde ?",
-      "answers": ["Delhi", "Mumbai", "Kolkata", "Hyderabad"],
-      "correctIndex": 1,
-      "explanation": "Mumbai est le cœur financier du pays, abritant la bourse et de grandes entreprises. Elle illustre le rôle des métropoles littorales dans la mondialisation."
+      "question": "Mumbai est le centre financier de l'Inde et abrite Bollywood. Combien de films l'industrie cinématographique indienne produit-elle par an, faisant d'elle la plus prolifique du monde ?",
+      "image": null,
+      "imagePrompt": "Mumbai India Bollywood skyline Marine Drive",
+      "answers": ["Environ 200 films", "Environ 500 films", "Environ 1 000 films", "Plus de 1 500 films"],
+      "correctIndex": 3,
+      "explanation": "L'industrie cinématographique indienne produit plus de 1 500 films par an — largement devant Hollywood. Bollywood (Mumbai) n'en est qu'une composante : chaque région linguistique possède sa propre industrie (Tollywood, Kollywood...). Mumbai abrite aussi la Bourse de Bombay (BSE), l'une des plus anciennes d'Asie, fondée en 1875."
     },
     {
       "id": "5",
-      "question": "Quelle ville est la capitale de la Corée du Sud ?",
-      "answers": ["Busan", "Incheon", "Daegu", "Séoul"],
-      "correctIndex": 3,
-      "explanation": "Séoul est une mégapole technologique et culturelle, symbole du développement rapide de la Corée du Sud en quelques décennies."
+      "question": "Séoul, capitale de la Corée du Sud, a été dévastée par la guerre de Corée dans les années 1950. Quel terme désigne le miracle économique qui a transformé le pays en puissance mondiale en une génération ?",
+      "image": null,
+      "imagePrompt": "Seoul South Korea Han River skyline night",
+      "answers": ["Le miracle du Mékong", "Le miracle du Han", "Le tigre coréen", "Le bond en avant coréen"],
+      "correctIndex": 1,
+      "explanation": "Le « miracle du Han » — du nom du fleuve qui traverse Séoul — désigne la transformation spectaculaire de la Corée du Sud, passée de l'un des pays les plus pauvres du monde en 1953 à une économie du G20 en moins de 50 ans. Séoul en est le symbole : ses entreprises (Samsung, Hyundai, LG) dominent des secteurs industriels mondiaux entiers, et sa culture (K-pop, K-dramas) rayonne désormais à l'échelle planétaire."
     },
     {
       "id": "6",
-      "question": "Quelle ville est connue pour être proche de la Silicon Valley asiatique ?",
-      "answers": ["Tokyo", "Shenzhen", "Bangkok", "Manille"],
+      "question": "Shenzhen est passée d'un village de pêcheurs à une mégalopole de 18 millions d'habitants en moins de 40 ans. Quelle décision politique a déclenché cette transformation spectaculaire ?",
+      "image": null,
+      "imagePrompt": "Shenzhen China tech skyline innovation zone",
+      "answers": ["Son choix comme capitale de la province du Guangdong", "Sa désignation comme première zone économique spéciale de Chine en 1980", "La construction du pont reliant Hong Kong à Shenzhen en 1979", "L'implantation forcée de 100 grandes entreprises d'État par Pékin"],
       "correctIndex": 1,
-      "explanation": "Shenzhen est passée de village à métropole en quelques décennies et est aujourd’hui un centre mondial de l’innovation technologique."
+      "explanation": "En 1980, Deng Xiaoping a désigné Shenzhen comme première zone économique spéciale de Chine, juste en face de Hong Kong. Ce laboratoire du capitalisme à la chinoise a attiré des investissements massifs et des millions de travailleurs migrants. Aujourd'hui, Shenzhen est le centre mondial de l'électronique et de l'innovation hardware, abritant Huawei, Tencent, DJI et des milliers de fabricants technologiques."
     },
     {
       "id": "7",
-      "question": "Quelle ville est la capitale de la Thaïlande ?",
-      "answers": ["Bangkok", "Chiang Mai", "Phuket", "Pattaya"],
-      "correctIndex": 0,
-      "explanation": "Bangkok est une métropole stratégique d’Asie du Sud-Est, combinant tourisme, industrie et commerce régional."
+      "question": "Bangkok, capitale de la Thaïlande, est connue sous un autre nom — le plus long nom officiel de capitale au monde. Combien de mots compte-t-il en thaï ?",
+      "image": null,
+      "imagePrompt": "Bangkok Thailand temples Chao Phraya skyline",
+      "answers": ["4 mots", "12 mots", "21 mots", "Près de 40 mots"],
+      "correctIndex": 2,
+      "explanation": "Le nom officiel complet de Bangkok en thaï compte 21 mots et 169 caractères — inscrit au Livre Guinness des records comme le nom de ville le plus long du monde. Il se traduit approximativement par « grande ville des anges, résidence du Bouddha d'Émeraude... ». Les Thaïlandais eux-mêmes l'abrègent en « Krung Thep » (ville des anges). Bangkok accueille plus de 20 millions de touristes par an."
     },
     {
       "id": "8",
-      "question": "Quelle ville est connue pour ses gratte-ciel et son rôle financier mondial en Asie ?",
-      "answers": ["Singapour", "Hong Kong", "Tokyo", "Séoul"],
+      "question": "Hong Kong est l'un des centres financiers les plus ouverts du monde. Quel statut particulier lui permet de maintenir un système économique distinct du reste de la Chine ?",
+      "image": null,
+      "imagePrompt": "Hong Kong skyline Victoria Harbour financial district",
+      "answers": ["Le statut de territoire sous tutelle de l'ONU", "Le principe « un pays, deux systèmes »", "Un traité d'extraterritorialité permanent avec le Royaume-Uni", "Le statut de zone franche reconnue par l'OMC"],
       "correctIndex": 1,
-      "explanation": "Hong Kong est un centre financier international majeur, avec un système économique très ouvert, distinct du reste de la Chine."
+      "explanation": "Hong Kong bénéficie du principe « un pays, deux systèmes », négocié lors de la rétrocession à la Chine en 1997 pour une durée de 50 ans (jusqu'en 2047). Ce cadre lui garantit sa propre monnaie, son système juridique de common law britannique et ses libertés économiques. Ces dernières années, les tensions politiques autour de l'autonomie de Hong Kong ont alimenté un vif débat international."
     },
     {
       "id": "9",
-      "question": "Quelle ville est la capitale de l’Indonésie ?",
-      "answers": ["Jakarta", "Bali", "Surabaya", "Bandung"],
-      "correctIndex": 0,
-      "explanation": "Jakarta est une mégapole confrontée à de graves problèmes environnementaux, ce qui a poussé l’Indonésie à envisager une nouvelle capitale."
+      "question": "Jakarta, capitale de l'Indonésie, est l'une des villes qui s'enfonce le plus vite dans le monde. Pour quelle raison l'Indonésie a-t-elle décidé de construire une toute nouvelle capitale, Nusantara, sur l'île de Bornéo ?",
+      "image": null,
+      "imagePrompt": "Jakarta Indonesia sinking flooding aerial",
+      "answers": ["Pour rapprocher la capitale du centre géographique de l'archipel", "Pour fuir la surpopulation, la pollution et l'affaissement du sol de Jakarta", "Pour développer économiquement l'île de Bornéo, longtemps négligée", "Pour toutes ces raisons à la fois"],
+      "correctIndex": 3,
+      "explanation": "Le transfert de capitale vers Nusantara répond à plusieurs crises simultanées : Jakarta s'enfonce de 1 à 25 cm par an selon les quartiers (surpompage des nappes), souffre d'embouteillages chroniques, d'une pollution sévère et de risques d'inondation croissants. La nouvelle capitale sur Bornéo vise aussi à rééquilibrer le développement d'un archipel de 17 000 îles trop concentré sur Java."
     },
     {
       "id": "10",
-      "question": "Quelle ville est la capitale du Japon ?",
-      "answers": ["Osaka", "Kyoto", "Nagoya", "Tokyo"],
-      "correctIndex": 3,
-      "explanation": "Tokyo concentre le pouvoir politique et économique, mais aussi une culture urbaine unique mêlant tradition et modernité."
+      "question": "Tokyo est la capitale du Japon depuis 1869. Comment s'appelait-elle avant, lorsqu'elle était la résidence des shoguns Tokugawa ?",
+      "image": null,
+      "imagePrompt": "Tokyo Japan Edo castle imperial palace history",
+      "answers": ["Kyoto", "Osaka", "Edo", "Nara"],
+      "correctIndex": 2,
+      "explanation": "Tokyo s'appelait Edo jusqu'en 1869, quand l'empereur Meiji y transféra sa résidence depuis Kyoto et la rebaptisa Tokyo (« capitale de l'Est »). Sous les shoguns Tokugawa (1603–1868), Edo était déjà l'une des plus grandes villes du monde avec plus d'un million d'habitants. Kyoto, ancienne capitale impériale pendant plus de mille ans, reste le cœur culturel et patrimonial du Japon."
     },
     {
       "id": "11",
-      "question": "Quelle ville est un hub mondial du transport aérien en Asie ?",
-      "answers": ["Bangkok", "Singapour", "Manille", "Hanoï"],
+      "question": "Singapour est l'un des aéroports les plus primés du monde. Comment s'appelle cet aéroport, régulièrement élu meilleur aéroport mondial ?",
+      "image": null,
+      "imagePrompt": "Singapore Changi Airport Jewel waterfall hub",
+      "answers": ["L'aéroport de Paya Lebar", "L'aéroport de Changi", "L'aéroport de Seletar", "L'aéroport de Tengah"],
       "correctIndex": 1,
-      "explanation": "Singapour est un carrefour mondial stratégique, reliant l’Asie à l’Europe et à l’Océanie."
+      "explanation": "L'aéroport de Changi a été élu meilleur aéroport mondial à de nombreuses reprises par Skytrax. Il abrite le Jewel, une structure intérieure avec la plus haute cascade d'intérieur du monde (40 m). Singapour est aussi le deuxième port mondial en tonnage et l'un des principaux centres financiers d'Asie, concentrant toutes ces fonctions sur un territoire de seulement 720 km²."
     },
     {
       "id": "12",
-      "question": "Quelle ville est la capitale du Vietnam ?",
-      "answers": ["Hanoï", "Hô Chi Minh-Ville", "Da Nang", "Hue"],
+      "question": "Hanoï est la capitale politique du Vietnam, mais Hô Chi Minh-Ville en est la capitale économique. Quel nom portait Hô Chi Minh-Ville avant 1975 ?",
+      "image": null,
+      "imagePrompt": "Ho Chi Minh City Saigon Vietnam skyline modern",
+      "answers": ["Saigon", "Huế", "Da Nang", "Vientiane"],
       "correctIndex": 0,
-      "explanation": "Hanoï est le centre politique, tandis que Hô Chi Minh-Ville domine économiquement, montrant une dualité fréquente en Asie."
+      "explanation": "Hô Chi Minh-Ville s'appelait Saigon jusqu'à la réunification du Vietnam en 1975, après la chute du régime sud-vietnamien. Elle a été rebaptisée en hommage au fondateur de la République démocratique du Vietnam. Dans la pratique, beaucoup de Vietnamiens continuent d'appeler la ville Saigon au quotidien. Avec plus de 9 millions d'habitants, elle est aujourd'hui la locomotive économique du pays."
     },
     {
       "id": "13",
-      "question": "Quelle ville est située sur le Bosphore, entre Europe et Asie ?",
-      "answers": ["Athènes", "Istanbul", "Ankara", "Izmir"],
-      "correctIndex": 1,
-      "explanation": "Istanbul est une ville unique au monde, à cheval sur deux continents, ce qui en fait un carrefour historique et stratégique."
+      "question": "Istanbul est la seule grande ville au monde à s'étendre sur deux continents. Sur lesquels ?",
+      "image": null,
+      "imagePrompt": "Istanbul Turkey Bosphorus bridge Europe Asia",
+      "answers": ["L'Europe et l'Afrique", "L'Asie et l'Afrique", "L'Europe et l'Asie", "L'Europe et le Moyen-Orient"],
+      "correctIndex": 2,
+      "explanation": "Istanbul est coupée en deux par le détroit du Bosphore : la rive européenne (Thrace) et la rive asiatique (Anatolie). Ancienne Constantinople, capitale de l'Empire byzantin puis ottoman, elle a été le centre du monde méditerranéen pendant plus d'un millénaire. Bien que la capitale de la Turquie soit Ankara depuis 1923, Istanbul reste de loin la métropole dominante du pays avec plus de 15 millions d'habitants."
     },
     {
       "id": "14",
-      "question": "Quelle ville est la capitale de la Malaisie ?",
-      "answers": ["Kuala Lumpur", "Putrajaya", "Penang", "Johor Bahru"],
-      "correctIndex": 0,
-      "explanation": "Kuala Lumpur est la capitale économique, tandis que Putrajaya est administrative, illustrant une organisation duale."
+      "question": "La Malaisie a deux capitales aux fonctions distinctes : Kuala Lumpur et Putrajaya. Pourquoi cette séparation a-t-elle été décidée dans les années 1990 ?",
+      "image": null,
+      "imagePrompt": "Kuala Lumpur Malaysia Petronas Towers skyline",
+      "answers": ["Pour des raisons ethniques — séparer les communautés malaise et chinoise", "Pour désengorger Kuala Lumpur en déplaçant les fonctions administratives", "Pour rapprocher le gouvernement de la frontière avec Singapour", "Pour créer une vitrine touristique distincte de la capitale économique"],
+      "correctIndex": 1,
+      "explanation": "Putrajaya a été construite ex nihilo dans les années 1990 pour accueillir les ministères et administrations fédérales, soulagant Kuala Lumpur de ses fonctions gouvernementales. Kuala Lumpur reste la capitale officielle et économique, dominée par les tours Petronas (452 m), les plus hautes du monde de 1998 à 2004. Cette configuration à deux pôles reflète une stratégie de développement territorial planifié."
     },
     {
       "id": "15",
-      "question": "Quelle ville est connue pour sa croissance démographique extrêmement rapide ?",
-      "answers": ["Tokyo", "Séoul", "Delhi", "Singapour"],
-      "correctIndex": 2,
-      "explanation": "Delhi connaît une croissance rapide, liée à l’exode rural et à la démographie élevée de l’Inde."
+      "question": "Delhi est la deuxième agglomération du monde et pourrait dépasser Tokyo dans les prochaines décennies. Quelle part de la population indienne vit déjà en ville aujourd'hui ?",
+      "image": null,
+      "imagePrompt": "Delhi India urban growth population density aerial",
+      "answers": ["Environ 20 %", "Environ 36 %", "Environ 55 %", "Environ 70 %"],
+      "correctIndex": 1,
+      "explanation": "Environ 36 % de la population indienne est urbanisée aujourd'hui — un taux encore relativement bas comparé à la Chine (65 %) ou aux pays développés. Cela signifie que l'Inde a encore devant elle une vague d'urbanisation massive : des centaines de millions de personnes pourraient rejoindre les villes dans les prochaines décennies, faisant de Delhi, Mumbai et d'autres métropoles indiennes des mégalopoles sans précédent."
     },
     {
       "id": "16",
-      "question": "Quelle ville est la capitale des Philippines ?",
-      "answers": ["Cebu", "Manille", "Davao", "Quezon City"],
-      "correctIndex": 1,
-      "explanation": "Manille est une métropole dense et étendue, illustrant les défis urbains des pays émergents."
+      "question": "Manille, capitale des Philippines, est l'une des métropoles les plus denses au monde. Quel pays a colonisé l'archipel pendant plus de 300 ans, laissant une empreinte profonde sur la langue et la religion ?",
+      "image": null,
+      "imagePrompt": "Manila Philippines Intramuros colonial skyline bay",
+      "answers": ["Le Portugal", "Les Pays-Bas", "L'Espagne", "Le Royaume-Uni"],
+      "correctIndex": 2,
+      "explanation": "L'Espagne a colonisé les Philippines de 1565 à 1898, laissant une empreinte durable : le christianisme catholique (les Philippines sont le seul pays majoritairement catholique d'Asie), des centaines de mots espagnols dans le tagalog, et Intramuros — la vieille ville fortifiée de Manille. Les États-Unis ont ensuite pris le contrôle jusqu'à l'indépendance en 1946, ajoutant l'anglais comme langue officielle."
     },
     {
       "id": "17",
-      "question": "Quelle ville est un centre majeur du textile et de l’industrie en Inde ?",
-      "answers": ["Mumbai", "Ahmedabad", "Delhi", "Bangalore"],
+      "question": "Bangalore (Bengaluru) est la « Silicon Valley indienne ». Quel secteur y domine, lui valant ce surnom ?",
+      "image": null,
+      "imagePrompt": "Bangalore India tech park IT companies startup",
+      "answers": ["L'industrie pharmaceutique", "Les technologies de l'information et l'externalisation (IT/BPO)", "L'aérospatiale et la défense", "L'industrie textile de luxe"],
       "correctIndex": 1,
-      "explanation": "Ahmedabad est un pôle industriel historique, moins connu que Mumbai mais très important économiquement."
+      "explanation": "Bangalore concentre les plus grands centres de services informatiques et d'externalisation du monde (Infosys, Wipro, TCS), ainsi que les filiales indiennes de Google, Microsoft et Amazon. La ville doit en partie ce positionnement à son altitude (920 m), qui lui confère un climat plus frais que le reste de l'Inde — un atout historiquement apprécié par les entreprises britanniques, puis par les multinationales."
     },
     {
       "id": "18",
-      "question": "Quelle ville est la capitale de la Chine ?",
-      "answers": ["Shanghai", "Pékin", "Chengdu", "Wuhan"],
+      "question": "Pékin, capitale de la Chine, abrite la Cité interdite — l'un des plus grands palais du monde. Combien de pièces compte-t-elle, selon les estimations ?",
+      "image": null,
+      "imagePrompt": "Beijing China Forbidden City Tiananmen aerial",
+      "answers": ["Environ 500 pièces", "Environ 9 999 pièces", "Environ 3 000 pièces", "Environ 15 000 pièces"],
       "correctIndex": 1,
-      "explanation": "Pékin est le centre politique du pays, abritant le gouvernement et les institutions nationales."
+      "explanation": "La Cité interdite est traditionnellement décrite comme comptant 9 999 pièces — le chiffre 9 étant associé à l'empereur en Chine (le nombre maximal accordé aux mortels, un de moins que les 10 000 du paradis). Les décomptes modernes donnent des chiffres variables selon la définition de « pièce », mais l'ordre de grandeur reste juste. Construite entre 1406 et 1420, elle est classée à l'UNESCO depuis 1987."
     },
     {
       "id": "19",
-      "question": "Quelle ville est un centre technologique majeur en Inde ?",
-      "answers": ["Chennai", "Hyderabad", "Bangalore", "Kolkata"],
-      "correctIndex": 2,
-      "explanation": "Bangalore est souvent appelée la Silicon Valley indienne, spécialisée dans les technologies de l’information."
+      "question": "Karachi, au Pakistan, est l'une des mégalopoles les moins connues du monde occidental alors qu'elle dépasse 15 millions d'habitants. Quelle fonction a-t-elle perdue en 1958, accentuant son profil de métropole sans pouvoir politique ?",
+      "image": null,
+      "imagePrompt": "Karachi Pakistan port city Arabian Sea skyline",
+      "answers": ["Son rôle de premier port militaire pakistanais", "Son statut de capitale du Pakistan, transféré à Islamabad", "Son statut de capitale de la province du Sind", "Sa fonction de siège de la banque centrale pakistanaise"],
+      "correctIndex": 1,
+      "explanation": "Karachi a été la première capitale du Pakistan à l'indépendance en 1947, avant que la capitale ne soit transférée à la ville planifiée d'Islamabad en 1958 (officiellement inaugurée en 1967). Malgré cette perte, Karachi reste le moteur économique du pays, générant environ 25 % du PIB pakistanais, et son port sur la mer d'Arabie est le plus actif de la région."
     },
     {
       "id": "20",
-      "question": "Quelle ville est connue pour être un hub commercial mondial en Asie du Sud-Est ?",
-      "answers": ["Jakarta", "Bangkok", "Singapour", "Hanoï"],
-      "correctIndex": 2,
-      "explanation": "Singapour est l’un des ports les plus actifs au monde et un centre financier global malgré sa petite taille."
+      "question": "Singapour est l'un des États les plus petits et les plus riches du monde. Comment ce micro-État sans ressources naturelles est-il devenu l'un des PIB par habitant les plus élevés au monde ?",
+      "image": null,
+      "imagePrompt": "Singapore Gardens by the Bay financial hub aerial",
+      "answers": ["Grâce à ses importantes réserves de pétrole offshore", "Par sa position géographique stratégique, sa gouvernance rigoureuse et sa spécialisation dans le commerce et la finance", "Grâce à un plan Marshall américain accordé pendant la guerre froide", "Par l'exploitation de ses importantes ressources en terres rares"],
+      "correctIndex": 1,
+      "explanation": "Singapour n'a ni pétrole, ni terres agricoles, ni eau douce suffisante (elle en importe de Malaisie). Son succès repose sur sa position au carrefour des routes maritimes entre l'Inde et la Chine, une gouvernance autoritaire mais efficace sous Lee Kuan Yew, une fiscalité attractive pour les multinationales et une spécialisation dans la finance, la logistique et la chimie. C'est l'un des exemples les plus cités en économie du développement."
     }
   ]
 }

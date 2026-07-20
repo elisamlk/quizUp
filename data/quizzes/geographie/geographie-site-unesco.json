@@ -16,15 +16,20 @@
     "alt": "Quiz sites UNESCO"
   },
   "questions": [
-    {
-      "id": "1",
-      "question": "Dans quel pays se trouve le Machu Picchu ?",
-      "image": null,
-      "imagePrompt": "Machu Picchu Peru",
-      "answers": ["Chili", "Bolivie", "Pérou", "Équateur"],
-      "correctIndex": 2,
-      "explanation": "Le Machu Picchu, construit au XVe siècle par les Incas, est un chef-d'œuvre d’ingénierie en altitude. Son isolement et sa parfaite intégration dans le paysage andin expliquent en partie sa remarquable conservation et son inscription à l’UNESCO."
-    },
+  {
+  "id": "1",
+  "question": "Quelle ancienne cité inca, perchée à plus de 2 400 mètres d'altitude dans les Andes, est inscrite au patrimoine mondial de l'UNESCO ?",
+  "image": null,
+  "imagePrompt": "Machu Picchu Peru",
+  "answers": [
+    "Chichén Itzá",
+    "Teotihuacan",
+    "Machu Picchu",
+    "Petra"
+  ],
+  "correctIndex": 2,
+  "explanation": "Construit au XVe siècle par les Incas, le Machu Picchu est un chef-d'œuvre d’ingénierie en altitude. Son isolement et sa parfaite intégration dans le paysage andin expliquent en partie sa remarquable conservation et son inscription à l’UNESCO."
+},
     {
       "id": "2",
       "question": "La Grande Muraille est située dans quel pays ?",
@@ -43,24 +48,34 @@
       "correctIndex": 0,
       "explanation": "Les pyramides sont les seules merveilles du monde antique encore debout. Elles témoignent du niveau avancé de connaissances en mathématiques, en architecture et en organisation sociale de l’Égypte ancienne."
     },
-    {
-      "id": "4",
-      "question": "Dans quel pays se situe le Taj Mahal ?",
-      "image": null,
-      "imagePrompt": "Taj Mahal India",
-      "answers": ["Pakistan", "Turquie", "Iran", "Inde"],
-      "correctIndex": 3,
-      "explanation": "Construit au XVIIe siècle, le Taj Mahal est un symbole d’amour mais aussi une prouesse architecturale moghole, combinant influences persanes, islamiques et indiennes."
-    },
-    {
-      "id": "5",
-      "question": "Dans quel pays se trouve Petra ?",
-      "image": null,
-      "imagePrompt": "Petra Jordan",
-      "answers": ["Arabie saoudite", "Israël", "Égypte", "Jordanie"],
-      "correctIndex": 3,
-      "explanation": "Petra était une cité caravanière stratégique reliant les routes commerciales entre Orient et Occident. Son architecture creusée dans la roche est unique au monde."
-    },
+   {
+  "id": "4",
+  "question": "Quel monument, construit par l'empereur moghol Shah Jahan, est devenu l'un des symboles universels de l'amour ?",
+  "image": null,
+  "imagePrompt": "Taj Mahal India",
+  "answers": [
+    "Le Temple d'Or",
+    "Le Palais des Vents",
+    "Le Fort Rouge",
+    "Le Taj Mahal"
+  ],
+  "correctIndex": 3,
+  "explanation": "Construit au XVIIe siècle, le Taj Mahal est un symbole d’amour mais aussi une prouesse architecturale moghole, combinant influences persanes, islamiques et indiennes."
+},
+   {
+  "id": "5",
+  "question": "Quelle cité antique est célèbre pour ses monuments monumentaux directement sculptés dans des falaises de grès rose ?",
+  "image": null,
+  "imagePrompt": "Petra Jordan",
+  "answers": [
+    "Persépolis",
+    "Palmyre",
+    "Machu Picchu",
+    "Petra"
+  ],
+  "correctIndex": 3,
+  "explanation": "Petra était une cité caravanière stratégique reliant les routes commerciales entre Orient et Occident. Son architecture creusée dans la roche est unique au monde."
+},
     {
       "id": "6",
       "question": "Le Mont-Saint-Michel se situe dans quel pays ?",
@@ -79,15 +94,20 @@
       "correctIndex": 2,
       "explanation": "Angkor représente l’apogée de l’empire khmer. L’ampleur du site et la sophistication de ses systèmes hydrauliques témoignent d’une civilisation extrêmement avancée."
     },
-    {
-      "id": "8",
-      "question": "Dans quel pays se trouve le parc de Yellowstone ?",
-      "image": null,
-      "imagePrompt": "Yellowstone geysers",
-      "answers": ["Canada", "États-Unis", "Islande", "Norvège"],
-      "correctIndex": 1,
-      "explanation": "Yellowstone est un laboratoire naturel unique au monde, avec geysers, sources chaudes et activité volcanique. Il a joué un rôle pionnier dans la création des parcs nationaux."
-    },
+   {
+  "id": "8",
+  "question": "Quel parc national est célèbre pour ses geysers, ses sources chaudes et son immense supervolcan ?",
+  "image": null,
+  "imagePrompt": "Yellowstone geysers",
+  "answers": [
+    "Banff",
+    "Yellowstone",
+    "Yosemite",
+    "Jasper"
+  ],
+  "correctIndex": 1,
+  "explanation": "Yellowstone est un laboratoire naturel unique au monde, avec geysers, sources chaudes et activité volcanique. Il a joué un rôle pionnier dans la création des parcs nationaux."
+},
     {
       "id": "9",
       "question": "La ville de Venise est située dans quel pays ?",
@@ -97,24 +117,34 @@
       "correctIndex": 1,
       "explanation": "Venise est un exemple exceptionnel d’adaptation humaine à un environnement lagunaire. Sa fragilité face au tourisme et à la montée des eaux en fait un site particulièrement surveillé."
     },
-    {
-      "id": "10",
-      "question": "Dans quel pays se trouve le Serengeti ?",
-      "image": null,
-      "imagePrompt": "Serengeti migration",
-      "answers": ["Kenya", "Tanzanie", "Namibie", "Botswana"],
-      "correctIndex": 1,
-      "explanation": "Le Serengeti est un des écosystèmes les plus complets au monde. La migration annuelle illustre parfaitement les dynamiques naturelles des chaînes alimentaires."
-    },
-    {
-      "id": "11",
-      "question": "Stonehenge est situé dans quel pays ?",
-      "image": null,
-      "imagePrompt": "Stonehenge UK",
-      "answers": ["Irlande", "France", "Pays-Bas", "Royaume-Uni"],
-      "correctIndex": 3,
-      "explanation": "Stonehenge reste un mystère archéologique. Il pourrait avoir servi de site cérémoniel ou astronomique, démontrant les connaissances avancées des sociétés néolithiques."
-    },
+  {
+  "id": "10",
+  "question": "Quel site naturel est mondialement connu pour la plus grande migration annuelle de gnous et de zèbres ?",
+  "image": null,
+  "imagePrompt": "Serengeti migration",
+  "answers": [
+    "Le Masai Mara",
+    "Le Serengeti",
+    "Le delta de l'Okavango",
+    "Le parc Kruger"
+  ],
+  "correctIndex": 1,
+  "explanation": "Le Serengeti est l'un des écosystèmes les plus complets au monde. La migration annuelle de plusieurs millions d'animaux illustre parfaitement les dynamiques naturelles des chaînes alimentaires."
+},
+ {
+  "id": "11",
+  "question": "Quel monument préhistorique est constitué d'un cercle de gigantesques blocs de pierre dont la fonction exacte reste encore débattue ?",
+  "image": null,
+  "imagePrompt": "Stonehenge UK",
+  "answers": [
+    "Carnac",
+    "Avebury",
+    "Newgrange",
+    "Stonehenge"
+  ],
+  "correctIndex": 3,
+  "explanation": "Stonehenge reste un mystère archéologique. Il pourrait avoir servi de site cérémoniel ou astronomique, démontrant les connaissances avancées des sociétés néolithiques."
+},
     {
       "id": "12",
       "question": "Dans quel pays se trouve le parc de Komodo ?",
@@ -151,24 +181,34 @@
       "correctIndex": 1,
       "explanation": "Teotihuacan fut l’une des plus grandes villes du monde antique. Son urbanisme structuré influence encore les civilisations mésoaméricaines ultérieures."
     },
-    {
-      "id": "16",
-      "question": "Le Kilimandjaro se situe dans quel pays ?",
-      "image": null,
-      "imagePrompt": "Kilimanjaro",
-      "answers": ["Kenya", "Éthiopie", "Tanzanie", "Ouganda"],
-      "correctIndex": 2,
-      "explanation": "Le Kilimandjaro est un stratovolcan isolé. Sa diversité climatique, du savane aux glaciers, en fait un site scientifique exceptionnel."
-    },
-    {
-      "id": "17",
-      "question": "Uluru se situe dans quel pays ?",
-      "image": null,
-      "imagePrompt": "Uluru",
-      "answers": ["Nouvelle-Zélande", "Australie", "Indonésie", "Papouasie"],
-      "correctIndex": 1,
-      "explanation": "Uluru est un site sacré pour les Aborigènes. Il incarne la dimension spirituelle du patrimoine, au-delà de sa valeur géologique."
-    },
+  {
+  "id": "16",
+  "question": "Quel sommet africain, culminant à 5 895 mètres, est le plus haut du continent et figure au patrimoine mondial de l'UNESCO ?",
+  "image": null,
+  "imagePrompt": "Kilimanjaro",
+  "answers": [
+    "Le mont Kenya",
+    "Le Ras Dashen",
+    "Le Kilimandjaro",
+    "Le mont Elgon"
+  ],
+  "correctIndex": 2,
+  "explanation": "Le Kilimandjaro est un stratovolcan isolé. Sa diversité climatique, de la savane aux glaciers, en fait un site scientifique exceptionnel."
+},
+{
+  "id": "17",
+  "question": "Quel immense monolithe de grès est considéré comme un lieu sacré par les peuples aborigènes d'Australie ?",
+  "image": null,
+  "imagePrompt": "Uluru",
+  "answers": [
+    "Le mont Augustus",
+    "Uluru",
+    "Les Twelve Apostles",
+    "Wave Rock"
+  ],
+  "correctIndex": 1,
+  "explanation": "Uluru est un site sacré pour les Aborigènes. Il incarne la dimension spirituelle du patrimoine, au-delà de sa valeur géologique."
+},
     {
       "id": "18",
       "question": "Prague est située dans quel pays ?",
@@ -187,14 +227,19 @@
       "correctIndex": 1,
       "explanation": "La vallée de la Loire illustre l’influence de la Renaissance en France à travers ses châteaux et paysages culturels."
     },
-    {
-      "id": "20",
-      "question": "Dans quel pays se trouve le parc des Galápagos ?",
-      "image": null,
-      "imagePrompt": "Galapagos islands",
-      "answers": ["Chili", "Mexique", "Pérou", "Équateur"],
-      "correctIndex": 3,
-      "explanation": "Les Galápagos ont joué un rôle clé dans la théorie de l’évolution de Darwin. Leur biodiversité unique en fait un site scientifique majeur."
-    }
+{
+  "id": "20",
+  "question": "Quel archipel a inspiré Charles Darwin dans l'élaboration de sa théorie de l'évolution ?",
+  "image": null,
+  "imagePrompt": "Galapagos islands",
+  "answers": [
+    "Les Açores",
+    "Les Canaries",
+    "Les îles Falkland",
+    "Les Galápagos"
+  ],
+  "correctIndex": 3,
+  "explanation": "Les Galápagos ont joué un rôle clé dans la théorie de l'évolution de Darwin. Leur biodiversité unique en fait un site scientifique majeur."
+}
   ]
 }

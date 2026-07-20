@@ -2,7 +2,7 @@
   "slug": "quiz-geographie-villes-altitude",
   "title": "Quiz Géographie Villes en Altitude Les plus hautes du monde - 20 questions",
   "description": "Teste tes connaissances sur les villes les plus élevées du monde et leurs particularités géographiques.",
-  "descriptionSeo": "Certaines villes du monde sont situées à des altitudes extrêmes, parfois au-delà de 3000 mètres. Ce quiz de géographie propose 20 questions pour tester vos connaissances sur ces villes en altitude comme La Paz, Quito ou Lhassa. Découvrez comment les populations s’adaptent à ces environnements exigeants et les enjeux climatiques et géographiques liés à l’altitude.",
+  "descriptionSeo": "Certaines villes du monde sont situées à des altitudes extrêmes, parfois au-delà de 3000 mètres. Ce quiz de géographie propose 20 questions pour tester vos connaissances sur ces villes en altitude comme La Paz, Quito ou Lhassa. Découvrez comment les populations s'adaptent à ces environnements exigeants et les enjeux climatiques et géographiques liés à l'altitude.",
   "category": {
     "name": "Géographie",
     "slug": "geographie"
@@ -18,183 +18,183 @@
   "questions": [
     {
       "id": "1",
-      "question": "Quelle ville bolivienne est considérée comme la capitale la plus haute du monde ?",
+      "question": "La Paz est considérée comme la capitale gouvernementale la plus haute du monde, à 3 640 mètres. Mais quelle est la capitale constitutionnelle officielle de la Bolivie, plus basse en altitude ?",
       "image": null,
-      "imagePrompt": "La Paz Bolivia",
-      "answers": ["Quito", "Cusco", "Bogota", "La Paz"],
-      "correctIndex": 3,
-      "explanation": "La Paz est située à plus de 3600 mètres. Son altitude influence fortement la santé, les infrastructures et les transports."
+      "imagePrompt": "La Paz Bolivia aerial city",
+      "answers": ["Cochabamba", "Oruro", "Sucre", "Santa Cruz"],
+      "correctIndex": 2,
+      "explanation": "La Bolivie a deux capitales : La Paz, siège du gouvernement et du parlement (3 640 m), et Sucre, capitale constitutionnelle et siège de la Cour suprême (2 750 m). Cette particularité est un héritage de la guerre civile de 1899. La Paz reste la plus haute capitale gouvernementale du monde."
     },
     {
       "id": "2",
-      "question": "Quelle ville équatorienne est située en altitude près de l’équateur ?",
+      "question": "Quito, capitale de l'Équateur, est située à 2 850 mètres d'altitude et à seulement 25 km de l'équateur. Quel phénomène climatique ce mariage altitude-équateur produit-il ?",
       "image": null,
-      "imagePrompt": "Quito Andes",
-      "answers": ["Quito", "Lima", "Bogota", "Caracas"],
-      "correctIndex": 0,
-      "explanation": "Quito combine altitude élevée et position équatoriale, ce qui donne un climat tempéré unique."
+      "imagePrompt": "Quito Ecuador Andes colonial city",
+      "answers": ["Des hivers polaires et des étés torrides", "Un printemps éternel avec peu de variation saisonnière", "Des pluies tropicales toute l'année", "Un désert froid en toutes saisons"],
+      "correctIndex": 1,
+      "explanation": "Quito jouit d'un « printemps éternel » : les températures oscillent entre 7 °C la nuit et 22 °C le jour toute l'année, sans vraie saison chaude ni froide. L'altitude neutralise la chaleur équatoriale, tandis que la latitude équatoriale évite les grands écarts saisonniers. Son centre historique est classé au patrimoine mondial de l'UNESCO depuis 1978."
     },
     {
       "id": "3",
-      "question": "Quelle ville péruvienne est une ancienne capitale inca ?",
+      "question": "Cusco, ancienne capitale inca à 3 400 mètres, est bâtie selon un plan en forme d'animal sacré. Lequel ?",
       "image": null,
-      "imagePrompt": "Cusco Andes",
-      "answers": ["Lima", "Arequipa", "La Paz", "Cusco"],
-      "correctIndex": 3,
-      "explanation": "Cusco était le cœur politique et religieux de l’Empire inca, adapté à la haute altitude."
+      "imagePrompt": "Cusco Peru Inca aerial view",
+      "answers": ["Un condor", "Un jaguar", "Un puma", "Un serpent"],
+      "correctIndex": 2,
+      "explanation": "Les Incas ont conçu Cusco en forme de puma, animal sacré symbolisant la force et la puissance. La tête du puma correspond à la forteresse de Sacsayhuamán, et le corps au centre-ville. Cette organisation urbaine rituelle reflète la vision cosmologique des Incas."
     },
     {
       "id": "4",
-      "question": "Quelle capitale tibétaine est située à plus de 3600 mètres ?",
+      "question": "Lhassa, capitale du Tibet, est à 3 650 mètres d'altitude. Quel palais emblématique, ancienne résidence du Dalaï-Lama, domine la ville depuis le VIIe siècle ?",
       "image": null,
-      "imagePrompt": "Lhasa Tibet",
-      "answers": ["Katmandou", "Thimphou", "Lhassa", "Ulaanbaatar"],
-      "correctIndex": 2,
-      "explanation": "Lhassa est l’une des capitales les plus élevées au monde, sur le plateau tibétain."
+      "imagePrompt": "Lhasa Tibet Potala Palace",
+      "answers": ["Le palais de Norbulingka", "Le palais du Potala", "Le palais de Jokhang", "Le palais de Sera"],
+      "correctIndex": 1,
+      "explanation": "Le palais du Potala, inscrit à l'UNESCO, culmine à 3 767 mètres et compte 13 étages et plus de 1 000 pièces. Ancienne résidence d'hiver des Dalaï-Lamas, il est aujourd'hui un musée depuis l'exil du 14e Dalaï-Lama en 1959. Sa construction a débuté au VIIe siècle sous le roi Songtsen Gampo."
     },
     {
       "id": "5",
-      "question": "Quelle ville colombienne est située à plus de 2600 mètres ?",
+      "question": "Bogota, capitale de la Colombie à 2 600 mètres, accueille le plus grand musée de son type au monde. Lequel ?",
       "image": null,
-      "imagePrompt": "Bogota skyline",
-      "answers": ["Medellin", "Bogota", "Quito", "Lima"],
+      "imagePrompt": "Bogota Colombia skyline Andes",
+      "answers": ["Le musée du chocolat", "Le musée de l'or (Museo del Oro)", "Le musée des émeraudes", "Le musée du café"],
       "correctIndex": 1,
-      "explanation": "Bogota bénéficie d’un climat tempéré malgré sa latitude tropicale grâce à son altitude."
+      "explanation": "Le Museo del Oro de Bogota abrite plus de 55 000 pièces en or précolombien, la plus grande collection au monde. Les civilisations comme les Muiscas y fondaient leur identité spirituelle sur l'or — c'est de leurs rituels que naît le mythe d'El Dorado, le « roi doré »."
     },
     {
       "id": "6",
-      "question": "Quelle capitale du Népal est située dans une vallée himalayenne ?",
+      "question": "Katmandou, capitale du Népal à 1 400 mètres, est entourée de 8 des 14 sommets de plus de 8 000 mètres. Combien de sites classés à l'UNESCO compte la seule vallée de Katmandou ?",
       "image": null,
-      "imagePrompt": "Kathmandu valley",
-      "answers": ["Katmandou", "Delhi", "Islamabad", "Thimphou"],
-      "correctIndex": 0,
-      "explanation": "Katmandou est entourée de montagnes, ce qui influence son climat et son urbanisme."
+      "imagePrompt": "Kathmandu Nepal temples UNESCO",
+      "answers": ["2 sites", "4 sites", "7 sites", "12 sites"],
+      "correctIndex": 2,
+      "explanation": "La vallée de Katmandou concentre 7 sites classés à l'UNESCO — dont les temples de Pashupatinath, Boudhanath et Swayambhunath — dans un rayon de quelques kilomètres seulement. Cette densité patrimoniale est exceptionnelle. Le séisme de 2015 (magnitude 7,8) a gravement endommagé plusieurs de ces sites."
     },
     {
       "id": "7",
-      "question": "Quelle ville bolivienne dépasse souvent les 4000 mètres ?",
+      "question": "El Alto, en Bolivie, dépasse 4 000 mètres d'altitude et est l'une des villes les plus hautes du monde. Quel réseau de transport urbain inédit y relie les quartiers depuis 2014 ?",
       "image": null,
-      "imagePrompt": "El Alto city",
-      "answers": ["Potosi", "El Alto", "Oruro", "Sucre"],
-      "correctIndex": 1,
-      "explanation": "El Alto est l’une des villes les plus hautes du monde, avec des conditions de vie extrêmes."
+      "imagePrompt": "El Alto Bolivia cable car teleférico",
+      "answers": ["Un réseau de funiculaires souterrains", "Un métro aérien sur pilotis", "Un téléphérique urbain (Mi Teleférico)", "Un monorail solaire"],
+      "correctIndex": 2,
+      "explanation": "Mi Teleférico est le plus long réseau de téléphériques urbains au monde, reliant El Alto à La Paz sur plusieurs lignes. Ce système ingénieux surmonte les dénivelés extrêmes entre les deux villes (jusqu'à 400 m de dénivelé) à moindre coût qu'un métro, tout en offrant des vues spectaculaires sur les Andes."
     },
     {
       "id": "8",
-      "question": "Quelle ville marocaine est située en altitude dans le Moyen Atlas ?",
+      "question": "Ifrane, ville marocaine du Moyen Atlas à 1 665 mètres, a enregistré la température la plus basse jamais mesurée en Afrique. Laquelle ?",
       "image": null,
-      "imagePrompt": "Ifrane Morocco",
-      "answers": ["Fès", "Marrakech", "Casablanca", "Ifrane"],
-      "correctIndex": 3,
-      "explanation": "Ifrane connaît des hivers froids et neigeux, rares en Afrique du Nord."
+      "imagePrompt": "Ifrane Morocco snow winter Atlas",
+      "answers": ["-11 °C", "-17 °C", "-24 °C", "-33 °C"],
+      "correctIndex": 2,
+      "explanation": "Ifrane a enregistré -24 °C en février 1935, record absolu de froid en Afrique. Surnommée « la Suisse du Maroc » pour son architecture européenne et ses neiges hivernales, elle abrite aussi la forêt de cèdres de l'Atlas où vivent les derniers macaques de Barbarie du Maroc."
     },
     {
       "id": "9",
-      "question": "Quelle ville mexicaine est située à plus de 2200 mètres ?",
+      "question": "Mexico, à 2 240 mètres d'altitude, est construite sur l'ancien lac Texcoco asséché. Quelle conséquence géologique majeure ce sol meuble entraîne-t-il aujourd'hui ?",
       "image": null,
-      "imagePrompt": "Mexico city",
-      "answers": ["Mexico", "Monterrey", "Guadalajara", "Cancun"],
-      "correctIndex": 0,
-      "explanation": "Mexico est construite dans une vallée d’altitude, ce qui accentue les problèmes de pollution."
+      "imagePrompt": "Mexico City sinking buildings",
+      "answers": ["Des éruptions volcaniques fréquentes", "Un enfoncement progressif de la ville dans le sol", "Des inondations permanentes des rues", "Une activité sismique amplifiée par le granite"],
+      "correctIndex": 1,
+      "explanation": "Mexico s'enfonce dans les sédiments lacustres à raison de 5 à 30 cm par an selon les quartiers — un phénomène de subsidence accéléré par le pompage des eaux souterraines. Certains bâtiments s'inclinent visiblement. De plus, les sédiments mous amplifient les ondes sismiques, rendant la ville particulièrement vulnérable aux tremblements de terre."
     },
     {
       "id": "10",
-      "question": "Quelle ville est proche du lac Titicaca ?",
+      "question": "Puno, ville péruvienne au bord du lac Titicaca à 3 827 mètres, est proche d'une île artificielle unique. De quoi sont faites ces îles habitées depuis des siècles ?",
       "image": null,
-      "imagePrompt": "Puno lake",
-      "answers": ["Cusco", "La Paz", "Arequipa", "Puno"],
-      "correctIndex": 3,
-      "explanation": "Puno est située à près de 3800 mètres, près du plus haut lac navigable du monde."
+      "imagePrompt": "Puno Peru Titicaca Uros floating islands",
+      "answers": ["De bambou tressé et de terre", "De roseaux totora flottants", "De pierres volcaniques assemblées", "De bois de balsa flotté"],
+      "correctIndex": 1,
+      "explanation": "Les îles Uros sont construites et entretenues avec des roseaux totora, une plante aquatique qui pousse dans le lac Titicaca. Le peuple Uros y vit depuis des siècles, renouvelant constamment la surface de ces îles flottantes. Le lac Titicaca (3 812 m) est le plus haut lac navigable du monde."
     },
     {
       "id": "11",
-      "question": "Quelle ville chilienne est située au pied des Andes ?",
+      "question": "Santiago du Chili, à 520 mètres d'altitude seulement, jouit pourtant d'une vue sur des sommets enneigés toute l'année. Quel sommet andin, à moins de 100 km, culmine à plus de 6 500 mètres ?",
       "image": null,
-      "imagePrompt": "Santiago Andes",
-      "answers": ["Valparaiso", "Lima", "Santiago", "Quito"],
-      "correctIndex": 2,
-      "explanation": "Santiago est entourée de montagnes, ce qui influence son climat et sa pollution."
+      "imagePrompt": "Santiago Chile Andes mountains skyline",
+      "answers": ["L'Aconcagua", "Le Tupungato", "L'Ojos del Salado", "Le Mercedario"],
+      "correctIndex": 1,
+      "explanation": "Le Tupungato (6 570 m) domine Santiago depuis les Andes toutes proches. L'Aconcagua (6 961 m), point culminant des Amériques, est lui aussi visible par temps clair mais se trouve dans la province de Mendoza en Argentine. Cette proximité avec les Andes cause aussi des épisodes de smog hivernaux piégeant la pollution dans la ville."
     },
     {
       "id": "12",
-      "question": "Quelle capitale du Bhoutan est située en altitude ?",
+      "question": "Thimphou, capitale du Bhoutan à 2 334 mètres, est l'une des rares capitales mondiales sans feux de circulation. Qu'est-ce qui dirige la circulation à la place ?",
       "image": null,
-      "imagePrompt": "Thimphu Bhutan",
-      "answers": ["Delhi", "Lhassa", "Katmandou", "Thimphou"],
-      "correctIndex": 3,
-      "explanation": "Thimphou est une capitale unique, située à plus de 2300 mètres."
+      "imagePrompt": "Thimphu Bhutan capital city traditional",
+      "answers": ["Des drones de surveillance automatisés", "Des agents de la circulation en gants blancs", "Un système de panneaux lumineux solaires", "Les citoyens eux-mêmes par rotation"],
+      "correctIndex": 1,
+      "explanation": "Thimphou est célèbre pour ses agents de la circulation en gants blancs qui dirigent manuellement les véhicules — une tradition qui reflète la philosophie bouddhiste du Bhoutan, pays qui mesure son développement au Bonheur National Brut plutôt qu'au PIB. Un feu de circulation avait été installé en 2009, puis retiré rapidement car jugé impersonnel."
     },
     {
       "id": "13",
-      "question": "Quelle ville est un point d’accès au Machu Picchu ?",
+      "question": "Potosí, en Bolivie, était au XVIe siècle l'une des plus grandes villes du monde grâce à ses mines. À quelle altitude se situe-t-elle, en faisant l'une des plus hautes cités historiques majeures ?",
       "image": null,
-      "imagePrompt": "Cusco Machu Picchu",
-      "answers": ["Cusco", "Lima", "Puno", "Arequipa"],
-      "correctIndex": 0,
-      "explanation": "Cusco est une ville stratégique pour le tourisme et l’histoire inca."
+      "imagePrompt": "Potosi Bolivia silver mines Cerro Rico",
+      "answers": ["2 800 mètres", "3 400 mètres", "4 090 mètres", "4 800 mètres"],
+      "correctIndex": 2,
+      "explanation": "Potosí est à 4 090 mètres d'altitude, au pied du Cerro Rico (« montagne riche »). Au XVIe siècle, elle comptait 200 000 habitants — autant que Londres ou Paris — grâce à ses mines d'argent qui ont financé l'empire espagnol pendant deux siècles. On estime que 8 millions de personnes, dont de nombreux esclaves africains et indigènes, y sont morts dans les mines."
     },
     {
       "id": "14",
-      "question": "Quelle ville sud-américaine est souvent citée comme la plus haute capitale ?",
+      "question": "Shimla, ancienne capitale d'été des Indes britanniques à 2 200 mètres, est aujourd'hui confrontée à une crise de quel type qui menace son existence ?",
       "image": null,
-      "imagePrompt": "La Paz skyline",
-      "answers": ["Bogota", "Quito", "Caracas", "La Paz"],
-      "correctIndex": 3,
-      "explanation": "La Paz est une référence mondiale en termes d’altitude urbaine."
+      "imagePrompt": "Shimla India Himalaya colonial hill station",
+      "answers": ["Une crise volcanique imminente", "Une pénurie d'eau chronique aggravée par le réchauffement", "Un exode massif de la population vers les plaines", "Une déforestation totale de ses forêts de pins"],
+      "correctIndex": 1,
+      "explanation": "Shimla souffre d'une pénurie d'eau sévère : ses sources et glaciers se réduisent sous l'effet du réchauffement climatique, tandis que la population et le tourisme explosent. En 2018, la ville a failli manquer totalement d'eau. Ce cas est étudié comme exemple critique des villes de montagne vulnérables au changement climatique."
     },
     {
-      "id": "15",
-      "question": "Quelle ville indienne est située en altitude dans l’Himalaya ?",
-      "image": null,
-      "imagePrompt": "Shimla mountains",
-      "answers": ["Delhi", "Shimla", "Mumbai", "Chennai"],
-      "correctIndex": 1,
-      "explanation": "Shimla était une station coloniale britannique en altitude pour échapper à la chaleur."
-    },
+  "id": "15",
+  "question": "Addis-Abeba, capitale de l'Éthiopie à 2 355 mètres, est le siège de l'Union africaine. Elle a aussi donné son nom à un type de fleur utilisé en horticulture mondiale. Laquelle ?",
+  "image": null,
+  "imagePrompt": "Addis Ababa Ethiopia city skyline",
+  "answers": ["Le lys d'Abyssinie", "La rose d'Éthiopie", "L'abyssin violet", "Le freesia africain"],
+  "correctIndex": 0,
+  "explanation": "Le lys d'Abyssinie (Zantedeschia aethiopica) porte le nom de l'ancien nom de l'Éthiopie, bien que son origine botanique réelle soit l'Afrique australe — un exemple courant de dénomination historique imprécise. Addis-Abeba, fondée en 1886 par l'empereur Ménélik II, est l'une des plus importantes capitales diplomatiques du continent, accueillant plus de 100 ambassades."
+},
     {
       "id": "16",
-      "question": "Quelle ville bolivienne est célèbre pour ses mines d’argent ?",
+      "question": "Johannesburg, en Afrique du Sud, est souvent ignorée dans les quiz sur l'altitude. Pourtant, à combien de mètres se trouve-t-elle, sur le plateau du Highveld ?",
       "image": null,
-      "imagePrompt": "Potosi mines",
-      "answers": ["La Paz", "El Alto", "Sucre", "Potosi"],
-      "correctIndex": 3,
-      "explanation": "Potosi fut une des villes les plus riches du monde au XVIe siècle grâce à l’argent."
+      "imagePrompt": "Johannesburg South Africa skyline highveld",
+      "answers": ["380 mètres", "900 mètres", "1 753 mètres", "2 400 mètres"],
+      "correctIndex": 2,
+      "explanation": "Johannesburg est à 1 753 mètres d'altitude, sur le plateau du Highveld. Cette altitude lui confère un climat plus doux que sa latitude subtropicale ne le laisserait supposer, avec des étés chauds mais sans humidité tropicale. C'est l'une des grandes métropoles mondiales les plus élevées, souvent négligée dans les listes."
     },
     {
       "id": "17",
-      "question": "Quelle ville colombienne est située en altitude ?",
+      "question": "Medellín, en Colombie, est à 1 495 mètres d'altitude dans une vallée andine. Quelle transformation urbaine spectaculaire lui a valu le prix Lee Kuan Yew World City Prize en 2016 ?",
       "image": null,
-      "imagePrompt": "Bogota Andes",
-      "answers": ["Bogota", "Medellin", "Cali", "Cartagena"],
-      "correctIndex": 0,
-      "explanation": "Bogota bénéficie d’un climat tempéré grâce à son altitude élevée."
+      "imagePrompt": "Medellin Colombia cable car urban transformation",
+      "answers": ["La construction du plus grand stade d'Amérique du Sud", "La reconversion des bidonvilles par téléphériques et escalators urbains", "L'installation du premier réseau de bus hydrogène d'Amérique latine", "La création d'une forêt verticale au centre-ville"],
+      "correctIndex": 1,
+      "explanation": "Medellín a transformé ses quartiers défavorisés perchés sur les pentes abruptes en les reliant par des téléphériques et des escalators électriques publics, brisant l'isolement géographique des plus pauvres. Cette ville, autrefois la plus dangereuse du monde dans les années 1990, est devenue un modèle mondial d'urbanisme inclusif et d'innovation sociale."
     },
     {
       "id": "18",
-      "question": "Quelle ville asiatique est située sur le plateau tibétain ?",
+      "question": "Nairobi, capitale du Kenya à 1 795 mètres, abrite un parc national unique au monde. Quelle est sa particularité exceptionnelle ?",
       "image": null,
-      "imagePrompt": "Lhasa plateau",
-      "answers": ["Delhi", "Bangkok", "Tokyo", "Lhassa"],
-      "correctIndex": 3,
-      "explanation": "Le plateau tibétain est surnommé le toit du monde."
+      "imagePrompt": "Nairobi Kenya national park city skyline giraffes",
+      "answers": ["Il est entièrement souterrain", "Il est situé en plein centre-ville et visible depuis les gratte-ciels", "Il est le seul parc africain réservé aux espèces nocturnes", "Il flotte sur un lac artificiel"],
+      "correctIndex": 1,
+      "explanation": "Le parc national de Nairobi est le seul parc naturel au monde situé dans les limites d'une capitale : lions, rhinocéros noirs, buffles et girafes y évoluent avec la skyline de Nairobi en arrière-plan. L'altitude de Nairobi lui vaut un climat tempéré malgré sa position à 1° de l'équateur."
     },
     {
       "id": "19",
-      "question": "Quelle ville est située dans une vallée andine en altitude ?",
+      "question": "Cuzco et Quito ont toutes deux été inscrites au patrimoine mondial de l'UNESCO la même année, en 1978. Pour quelle raison commune ont-elles reçu cette distinction ?",
       "image": null,
-      "imagePrompt": "Quito valley",
-      "answers": ["Lima", "Santiago", "Quito", "Caracas"],
-      "correctIndex": 2,
-      "explanation": "Quito est entourée de montagnes volcaniques."
+      "imagePrompt": "Quito colonial center UNESCO heritage",
+      "answers": ["Leur position géographique unique à l'équateur", "Leur centre historique colonial exceptionnel", "Leur réseau de canaux précolombiens préservés", "Leur architecture inca intacte"],
+      "correctIndex": 1,
+      "explanation": "Quito et Cusco ont été parmi les premiers sites inscrits à l'UNESCO en 1978, pour leurs centres historiques coloniaux construits sur des fondations incas. Quito possède le centre historique colonial le mieux préservé d'Amérique latine. À Cusco, on peut encore voir les murs incas en pierre taillée servir de base aux bâtiments espagnols."
     },
     {
       "id": "20",
-      "question": "Quelle ville est construite dans une cuvette andine avec des quartiers en altitude variable ?",
+      "question": "La Paz présente un urbanisme inversé par rapport à la plupart des villes : les quartiers riches sont en bas et les quartiers pauvres en haut. À quelle altitude se trouvent les quartiers populaires les plus élevés ?",
       "image": null,
-      "imagePrompt": "La Paz valley",
-      "answers": ["Rio", "Lima", "Buenos Aires", "La Paz"],
-      "correctIndex": 3,
-      "explanation": "La Paz présente un urbanisme unique où les quartiers riches sont en altitude plus basse."
+      "imagePrompt": "La Paz Bolivia rich poor neighborhoods altitude",
+      "answers": ["Autour de 2 800 mètres", "Autour de 3 200 mètres", "Autour de 4 000 mètres", "Au-delà de 4 500 mètres"],
+      "correctIndex": 2,
+      "explanation": "Les quartiers populaires de La Paz, dont beaucoup font partie de la ville d'El Alto, culminent autour de 4 000 mètres. Cette inversion sociale est un héritage colonial : les Espagnols occupaient les fonds de vallée au climat plus doux, laissant les hauteurs aux populations indigènes. Aujourd'hui, l'essor du téléphérique Mi Teleférico tend progressivement à rééquilibrer cette fracture urbaine."
     }
   ]
 }

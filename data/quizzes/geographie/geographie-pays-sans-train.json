@@ -52,42 +52,57 @@
       "correctIndex": 1,
       "explanation": "L’Islande n’a jamais développé de véritable réseau national, en grande partie à cause de sa faible densité de population, de ses distances intérieures limitées et de la priorité donnée à la route. C’est un excellent exemple de pays développé sans train interurbain."
     },
-    {
-      "id": "5",
-      "question": "Quel pays du Golfe ne possède pas de réseau ferroviaire national ?",
-      "image": null,
-      "imagePrompt": "Kuwait highways desert no railway",
-      "answers": ["Bahreïn", "Koweït", "Arabie saoudite", "Émirats arabes unis"],
-      "correctIndex": 1,
-      "explanation": "Le Koweït fait partie des États rentiers du Golfe où la voiture et la route ont longtemps dominé l’aménagement. Dans ce type de pays, l’absence de rail résulte moins d’un manque de moyens que d’un modèle territorial construit autour de l’automobile et des hydrocarbures."
-    },
+{
+  "id": "5",
+  "question": "Quel pays du Golfe ne possède actuellement pas de réseau ferroviaire national ?",
+  "image": null,
+  "imagePrompt": "Oman desert highway mountains",
+  "answers": [
+    "Oman",
+    "Émirats arabes unis",
+    "Arabie saoudite",
+    "Qatar"
+  ],
+  "correctIndex": 0,
+  "explanation": "Oman ne dispose pas encore de réseau ferroviaire national. Malgré plusieurs projets envisagés au fil des années, le pays continue de s'appuyer principalement sur un réseau routier moderne reliant ses principales villes et ses ports."
+},
     {
       "id": "6",
-      "question": "Quel grand pays d’Afrique du Nord est aujourd’hui sans réseau ferroviaire national fonctionnel au sens du quiz ?",
+      "question": "Quel grand pays d'Afrique du Nord ne dispose plus aujourd'hui d'un réseau ferroviaire national exploité ?",
       "image": null,
       "imagePrompt": "Libya desert roads no rail service",
       "answers": ["Égypte", "Algérie", "Tunisie", "Libye"],
       "correctIndex": 3,
       "explanation": "La Libye est un cas marquant, car sa taille pourrait laisser penser l’inverse. Ici, l’absence de réseau exploitable s’explique surtout par l’histoire politique, les conflits et l’interruption de projets ferroviaires qui auraient pu structurer le pays."
     },
-    {
-      "id": "7",
-      "question": "Quel pays de la péninsule Arabique n’a pas de réseau ferroviaire national ?",
-      "image": null,
-      "imagePrompt": "Oman mountains desert highways no railway",
-      "answers": ["Oman", "Qatar", "Arabie saoudite", "Jordanie"],
-      "correctIndex": 0,
-      "explanation": "Oman combine longues distances, faible densité sur de vastes espaces désertiques et priorité historique aux routes. C’est un bon exemple de pays où l’absence de train ne signifie pas isolement, mais plutôt un autre choix d’infrastructure."
-    },
-    {
-      "id": "8",
-      "question": "Quel micro-État européen enclavé en Italie ne dispose pas de réseau ferroviaire national ?",
-      "image": null,
-      "imagePrompt": "San Marino hills roads no railway",
-      "answers": ["Liechtenstein", "Monaco", "Saint-Marin", "Malte"],
-      "correctIndex": 2,
-      "explanation": "Saint-Marin est trop petit pour justifier un réseau ferré national moderne. Comme pour d’autres micro-États, la proximité immédiate d’infrastructures étrangères rend économiquement peu pertinent l’investissement dans le rail."
-    },
+ {
+  "id": "7",
+  "question": "Pourquoi certains pays ne construisent-ils jamais de réseau ferroviaire national ?",
+  "image": null,
+  "imagePrompt": "Remote desert highway transportation",
+  "answers": [
+    "Le coût est disproportionné par rapport aux besoins",
+    "Les trains y sont interdits",
+    "Ils ne possèdent pas de relief",
+    "Ils ne disposent pas d'électricité"
+  ],
+  "correctIndex": 0,
+  "explanation": "Dans plusieurs pays peu peuplés, montagneux ou de petite superficie, la construction d'un réseau ferroviaire coûterait beaucoup plus cher que les bénéfices attendus. Les gouvernements privilégient donc la route, les ports ou les liaisons aériennes."
+},
+{
+  "id": "8",
+  "question": "Quel micro-État européen sans train est entièrement enclavé en Italie ?",
+  "image": null,
+  "imagePrompt": "San Marino aerial view",
+  "answers": [
+    "Monaco",
+    "Saint-Marin",
+    "Andorre",
+    "Liechtenstein"
+  ],
+  "correctIndex": 1,
+  "explanation": "Saint-Marin est totalement entouré par l'Italie. Sa très petite superficie et sa proximité avec le réseau ferroviaire italien expliquent l'absence de chemin de fer sur son territoire."
+},
     {
       "id": "9",
       "question": "Quel pays du Proche-Orient est sans réseau ferroviaire national dans ce type de classement ?",
@@ -115,15 +130,20 @@
       "correctIndex": 2,
       "explanation": "Le Rwanda est souvent cité parmi les pays sans train, malgré sa forte densité. Son relief très vallonné, son enclavement et l’importance prise par la route expliquent ce retard ferroviaire, même si des projets régionaux existent depuis longtemps."
     },
-    {
-      "id": "12",
-      "question": "Quel autre pays des Grands Lacs, voisin du Rwanda, est lui aussi sans réseau ferroviaire national ?",
-      "image": null,
-      "imagePrompt": "Burundi hills roads no railway",
-      "answers": ["Burundi", "Kenya", "Zambie", "Mozambique"],
-      "correctIndex": 0,
-      "explanation": "Le Burundi partage avec le Rwanda des contraintes comparables : enclavement, relief, faibles marges budgétaires et dépendance aux corridors routiers régionaux. C’est un bon duo géographique à mémoriser ensemble."
-    },
+{
+  "id": "12",
+  "question": "Quel pays africain enclavé ne possède pas de réseau ferroviaire national ?",
+  "image": null,
+  "imagePrompt": "Burundi East Africa map roads",
+  "answers": [
+    "Burundi",
+    "Kenya",
+    "Tanzanie",
+    "Mozambique"
+  ],
+  "correctIndex": 0,
+  "explanation": "Le Burundi ne possède toujours pas de réseau ferroviaire national. Plusieurs projets de liaison avec les pays voisins ont été étudiés, mais le transport routier demeure aujourd'hui le principal moyen d'acheminer les marchandises et les voyageurs."
+},
     {
       "id": "13",
       "question": "Quel petit pays d’Amérique centrale ne dispose pas de réseau ferroviaire national ?",
@@ -169,15 +189,20 @@
       "correctIndex": 0,
       "explanation": "La République centrafricaine souffre d’un isolement logistique ancien. Ici, l’absence de train révèle surtout une faiblesse structurelle des infrastructures nationales et une difficulté à connecter durablement les régions entre elles."
     },
-    {
-      "id": "18",
-      "question": "Quel État insulaire méditerranéen n’a pas de réseau ferroviaire national aujourd’hui ?",
-      "image": null,
-      "imagePrompt": "Malta roads urban no railway",
-      "answers": ["Chypre", "Sicile", "Malte", "Crète"],
-      "correctIndex": 2,
-      "explanation": "Malte est trop petite pour qu’un train national apparaisse indispensable. Son cas montre qu’au-delà d’une certaine échelle territoriale, la route et les transports urbains suffisent souvent à absorber l’essentiel des mobilités."
-    },
+  {
+  "id": "18",
+  "question": "Quel État insulaire européen a déjà possédé un chemin de fer aujourd'hui disparu ?",
+  "image": null,
+  "imagePrompt": "Historic Malta railway illustration",
+  "answers": [
+    "Malte",
+    "Islande",
+    "Cap-Vert",
+    "Bahreïn"
+  ],
+  "correctIndex": 0,
+  "explanation": "Malte a exploité une ligne de chemin de fer entre La Valette et Mdina de 1883 à 1931. Elle a ensuite été abandonnée au profit du transport routier, faisant de Malte un pays sans réseau ferroviaire actuel malgré son passé ferroviaire."
+},
     {
       "id": "19",
       "question": "Quel État insulaire lusophone de l’Atlantique n’a pas de réseau ferroviaire national ?",

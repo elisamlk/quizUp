@@ -2,7 +2,7 @@
   "slug": "quiz-zones-cycloniques-monde",
   "title": "Quiz Géographie - Zones cycloniques",
   "description": "Teste tes connaissances sur les régions du monde touchées par les cyclones, ouragans et typhons.",
-  "descriptionSeo": "Où se forment les cyclones, ouragans et typhons ? Ce quiz de géographie explore les principales zones cycloniques du monde, de l’Atlantique aux océans Indien et Pacifique. À travers 20 questions, découvre les mécanismes climatiques, les régions les plus exposées et les différences de vocabulaire selon les zones. Chaque réponse est accompagnée d’explications détaillées pour mieux comprendre ces phénomènes extrêmes.",
+  "descriptionSeo": "Où se forment les cyclones, ouragans et typhons ? Ce quiz de géographie explore les principales zones cycloniques du monde, de l'Atlantique aux océans Indien et Pacifique. À travers 20 questions, découvre les mécanismes climatiques, les régions les plus exposées et les différences de vocabulaire selon les zones. Chaque réponse est accompagnée d'explications détaillées pour mieux comprendre ces phénomènes extrêmes.",
   "category": {
     "name": "Géographie",
     "slug": "geographie"
@@ -18,183 +18,183 @@
   "questions": [
     {
       "id": "1",
-      "question": "Dans quel océan parle-t-on principalement d’ouragans ?",
+      "question": "Ouragan, typhon, cyclone : ces trois mots désignent le même phénomène météorologique. Quel est le critère qui détermine le nom utilisé ?",
       "image": null,
-      "imagePrompt": "Atlantic hurricane satellite",
-      "answers": ["Océan Indien", "Océan Atlantique", "Océan Pacifique Sud", "Mer Méditerranée"],
+      "imagePrompt": "Atlantic hurricane satellite view from space",
+      "answers": ["L'intensité du vent : ouragan pour les plus forts, cyclone pour les plus faibles", "La zone géographique où le phénomène se produit", "La saison : ouragan en été, typhon en automne, cyclone en hiver", "La direction de rotation : sens horaire ou antihoraire"],
       "correctIndex": 1,
-      "explanation": "Le terme 'ouragan' est utilisé pour les cyclones tropicaux de l’Atlantique Nord et du Pacifique Nord-Est. Ce sont les mêmes phénomènes que les typhons ou cyclones, mais nommés différemment selon les régions."
+      "explanation": "C'est uniquement la zone géographique qui détermine le nom : on parle d'ouragan dans l'Atlantique Nord et le Pacifique Nord-Est, de typhon dans le Pacifique Nord-Ouest, et de cyclone dans l'océan Indien et le Pacifique Sud. Le phénomène physique est identique dans les trois cas : un système de basses pressions tropicales organisé en spirale avec des vents supérieurs à 118 km/h."
     },
     {
       "id": "2",
-      "question": "Comment appelle-t-on les cyclones dans le Pacifique Nord-Ouest ?",
+      "question": "Le Pacifique Nord-Ouest est la zone cyclonique la plus active du monde. Combien de typhons s'y forment en moyenne chaque année ?",
       "image": null,
-      "imagePrompt": "Typhoon Asia map",
-      "answers": ["Ouragans", "Tempêtes tropicales", "Typhons", "Tornades"],
+      "imagePrompt": "Western Pacific typhoon track map Japan Philippines China",
+      "answers": ["Environ 5 à 8 typhons par an", "Environ 15 à 20 typhons par an", "Environ 25 à 30 typhons par an", "Plus de 50 typhons par an"],
       "correctIndex": 2,
-      "explanation": "Dans le Pacifique Nord-Ouest (Japon, Philippines, Chine), on parle de typhons. Cette zone est la plus active au monde en nombre de cyclones tropicaux chaque année."
+      "explanation": "Le Pacifique Nord-Ouest génère en moyenne 25 à 30 typhons par an — soit environ un tiers de tous les cyclones tropicaux mondiaux. Cette hyperactivité s'explique par la taille colossale de l'océan Pacifique, ses eaux particulièrement chaudes et la faiblesse du cisaillement des vents en altitude dans cette région. Le typhon Haiyan (2013), qui a ravagé les Philippines avec des vents de 315 km/h, reste l'un des cyclones les plus puissants jamais enregistrés."
     },
     {
       "id": "3",
-      "question": "Quelle zone est la plus active au monde pour les cyclones tropicaux ?",
+      "question": "Les cyclones tropicaux se forment exclusivement au-dessus d'eaux chaudes. Quelle température de surface océanique est généralement considérée comme le seuil minimal nécessaire ?",
       "image": null,
-      "imagePrompt": "Western Pacific typhoon map",
-      "answers": ["Atlantique Nord", "Pacifique Nord-Ouest", "Océan Indien Sud", "Pacifique Sud"],
+      "imagePrompt": "Warm ocean tropical cyclone formation sea surface temperature",
+      "answers": ["Au moins 20 °C", "Au moins 26 °C", "Au moins 30 °C", "Au moins 35 °C"],
       "correctIndex": 1,
-      "explanation": "Le Pacifique Nord-Ouest est la zone la plus active en raison de ses eaux très chaudes et de vastes surfaces océaniques favorables à la formation des tempêtes."
+      "explanation": "Une température de surface océanique d'au moins 26 à 27 °C sur une profondeur suffisante (environ 50 m) est nécessaire pour qu'un cyclone tropical se forme et s'intensifie. L'eau chaude s'évapore, l'air humide monte, se refroidit et libère sa chaleur latente de condensation — c'est ce moteur thermique qui alimente le système. Le réchauffement climatique, en élevant les températures océaniques, tend à créer des conditions favorables sur des zones géographiques plus étendues."
     },
     {
       "id": "4",
-      "question": "Pourquoi les cyclones se forment-ils principalement dans les zones tropicales ?",
+      "question": "La mer Méditerranée produit parfois des phénomènes proches des cyclones tropicaux, appelés « medicanes ». En quoi diffèrent-ils des vrais cyclones tropicaux ?",
       "image": null,
-      "imagePrompt": "Warm ocean cyclone formation",
-      "answers": ["Présence de montagnes", "Températures froides", "Eaux chaudes", "Vent faible"],
-      "correctIndex": 2,
-      "explanation": "Les cyclones ont besoin d’eaux chaudes (environ 26-27°C minimum) pour se former. La chaleur de l’océan alimente le système en énergie, ce qui explique leur concentration dans les régions tropicales."
+      "imagePrompt": "Mediterranean medicane satellite cyclone-like storm",
+      "answers": ["Ils tournent dans le sens des aiguilles d'une montre, contrairement aux cyclones tropicaux", "Ils sont généralement moins intenses et de plus petite taille que les cyclones tropicaux", "Ils se forment uniquement en hiver, quand la Méditerranée est la plus froide", "Ils ne produisent pas de précipitations, contrairement aux cyclones tropicaux"],
+      "correctIndex": 1,
+      "explanation": "Les medicanes (contraction de Mediterranean hurricanes) sont des cyclones subtropicaux ou quasi-tropicaux qui se forment en Méditerranée. Ils sont généralement moins intenses et plus petits que les cyclones tropicaux car la Méditerranée est trop petite et ses eaux rarement assez chaudes sur une épaisseur suffisante. Ils restent dangereux : le medicane Ianos (2020) et Daniel (2023) ont causé des dégâts considérables en Grèce et en Libye."
     },
     {
       "id": "5",
-      "question": "Quelle mer est rarement touchée par des cyclones tropicaux ?",
+      "question": "Les Caraïbes sont situées sur la trajectoire principale des ouragans atlantiques. Quelle période de l'année concentre l'essentiel de l'activité cyclonique dans l'Atlantique ?",
       "image": null,
-      "imagePrompt": "Mediterranean sea map",
-      "answers": ["Mer des Caraïbes", "Golfe du Mexique", "Mer Méditerranée", "Mer de Chine"],
+      "imagePrompt": "Caribbean hurricane season map Atlantic track",
+      "answers": ["De janvier à mars", "De mai à juillet", "De juin à novembre", "D'octobre à février"],
       "correctIndex": 2,
-      "explanation": "La Méditerranée est trop petite et ses eaux sont rarement assez chaudes pour générer de véritables cyclones. On y observe parfois des phénomènes similaires appelés 'medicanes', mais ils restent beaucoup plus faibles."
+      "explanation": "La saison des ouragans atlantiques s'étend officiellement du 1er juin au 30 novembre, avec un pic en septembre. Cette période correspond au réchauffement maximal des eaux de l'Atlantique tropical et à des conditions atmosphériques favorables. La saison 2020 a été exceptionnelle avec 30 tempêtes nommées, épuisant l'alphabet latin pour la deuxième fois de l'histoire. Les Caraïbes sont exposées tout au long de cette fenêtre, mais le pic de risque se situe en août-septembre."
     },
     {
       "id": "6",
-      "question": "Quelle région est particulièrement exposée aux ouragans dans l’Atlantique ?",
+      "question": "Pourquoi l'effet de Coriolis est-il indispensable à la formation des cyclones, et pourquoi est-il quasi nul à l'équateur ?",
       "image": null,
-      "imagePrompt": "Caribbean hurricane map",
-      "answers": ["Caraïbes", "Scandinavie", "Europe centrale", "Moyen-Orient"],
-      "correctIndex": 0,
-      "explanation": "Les Caraïbes sont situées sur la trajectoire principale des ouragans. Leur position entre océan chaud et masses d’air instables les rend très vulnérables."
+      "imagePrompt": "Coriolis effect Earth rotation cyclone spin hemisphere",
+      "answers": ["Il réchauffe l'eau de mer en concentrant l'énergie solaire près des tropiques", "Il crée la rotation en spirale du système en déviant les vents selon l'hémisphère", "Il génère les vents alizés qui alimentent le cyclone en air chaud et humide", "Il maintient la structure du cyclone en équilibrant pression et température"],
+      "correctIndex": 1,
+      "explanation": "L'effet de Coriolis est une force apparente due à la rotation terrestre qui dévie les masses d'air vers la droite dans l'hémisphère Nord et vers la gauche dans l'hémisphère Sud. C'est cette déviation qui organise les vents convergents en spirale autour du centre dépressionnaire — sans elle, l'air se précipiterait en ligne droite vers le centre sans créer de rotation. À l'équateur, cette force est nulle, ce qui explique pourquoi les cyclones ne se forment pas à moins de 5° de latitude."
     },
     {
       "id": "7",
-      "question": "Pourquoi n’y a-t-il presque pas de cyclones à l’équateur ?",
+      "question": "Le « Hurricane Alley » désigne la zone des Caraïbes et du Golfe du Mexique. Quel ouragan, en 2005, a illustré de façon dramatique la vulnérabilité de cette région en ravageant La Nouvelle-Orléans ?",
       "image": null,
-      "imagePrompt": "Coriolis effect map",
-      "answers": ["Manque de vent", "Absence d’humidité", "Effet de Coriolis insuffisant", "Température basse"],
-      "correctIndex": 2,
-      "explanation": "L’effet de Coriolis, qui permet la rotation des cyclones, est nul à l’équateur. Sans cette force, les systèmes ne peuvent pas s’organiser en spirale."
+      "imagePrompt": "Hurricane Katrina New Orleans flooding 2005 satellite",
+      "answers": ["L'ouragan Andrew", "L'ouragan Katrina", "L'ouragan Maria", "L'ouragan Harvey"],
+      "correctIndex": 1,
+      "explanation": "L'ouragan Katrina (août 2005) a causé la mort de plus de 1 800 personnes et des dégâts estimés à 125 milliards de dollars — la catastrophe naturelle la plus coûteuse de l'histoire américaine jusqu'à Harvey (2017). La rupture des digues protégeant La Nouvelle-Orléans, construite sous le niveau de la mer, a inondé 80 % de la ville. Katrina a révélé les failles systémiques des infrastructures de protection et la vulnérabilité particulière des populations les plus pauvres face aux catastrophes naturelles."
     },
     {
       "id": "8",
-      "question": "Quelle zone est appelée 'couloir des ouragans' dans l’Atlantique ?",
+      "question": "Dans l'océan Indien, la baie du Bengale est l'une des zones cycloniques les plus meurtrières au monde. Quel pays riverain a subi en 1970 le cyclone le plus meurtrier de l'histoire moderne ?",
       "image": null,
-      "imagePrompt": "Hurricane alley map",
-      "answers": ["Golfe de Guinée", "Caraïbes", "Mer Rouge", "Mer Noire"],
-      "correctIndex": 1,
-      "explanation": "Le 'Hurricane Alley' désigne la zone des Caraïbes et du Golfe du Mexique, où les ouragans sont particulièrement fréquents et puissants."
+      "imagePrompt": "Bay of Bengal cyclone Bangladesh storm surge flooding",
+      "answers": ["L'Inde", "La Birmanie (Myanmar)", "Le Bangladesh (alors Pakistan oriental)", "Le Sri Lanka"],
+      "correctIndex": 2,
+      "explanation": "Le cyclone Bhola de novembre 1970 a frappé le Pakistan oriental (devenu le Bangladesh en 1971) et causé entre 300 000 et 500 000 morts — le bilan le plus lourd jamais enregistré pour un cyclone. La combinaison d'une densité de population extrême, d'un territoire de delta très plat et d'une onde de tempête dévastatrice a produit cette catastrophe sans précédent. Ce drame a aussi contribué à alimenter les tensions politiques qui ont abouti à l'indépendance du Bangladesh."
     },
     {
       "id": "9",
-      "question": "Dans quel océan parle-t-on simplement de 'cyclones' ?",
+      "question": "Les cyclones s'affaiblissent rapidement après avoir touché terre. Mais certains peuvent se « réintensifier » en mer. Quel phénomène océanique peut provoquer une intensification explosive en quelques heures ?",
       "image": null,
-      "imagePrompt": "Indian Ocean cyclone",
-      "answers": ["Océan Indien", "Atlantique Nord", "Pacifique Nord", "Arctique"],
+      "imagePrompt": "Rapid intensification cyclone warm ocean core deep water",
+      "answers": ["Le passage au-dessus d'un courant océanique chaud comme le Gulf Stream ou le Kuroshio", "La rencontre avec un front polaire qui injecte de l'énergie supplémentaire", "Le passage au-dessus d'une dorsale sous-marine qui ralentit le cyclone", "La collision avec un autre cyclone qui transfère son énergie rotationnelle"],
       "correctIndex": 0,
-      "explanation": "Dans l’océan Indien et le Pacifique Sud, le terme utilisé est 'cyclone'. Cela montre que le phénomène est global mais que le vocabulaire varie selon les régions."
+      "explanation": "Quand un cyclone passe au-dessus d'eaux particulièrement chaudes en profondeur — comme certaines poches d'eau chaude du Golfe du Mexique ou du Pacifique occidental — il peut s'intensifier de façon explosive, gagnant plusieurs catégories en moins de 24 heures. Ce phénomène d'intensification rapide est de plus en plus fréquent avec le réchauffement climatique. Le réchauffement des océans en profondeur crée des situations difficiles à prévoir, comme l'a illustré l'ouragan Michael (2018) qui est passé en catégorie 5 en moins de 24 heures."
     },
     {
       "id": "10",
-      "question": "Quelle région d’Asie est fortement touchée par les typhons ?",
+      "question": "Les Philippines sont l'un des pays les plus exposés aux typhons au monde. Combien de typhons frappent ou longent en moyenne le pays chaque année ?",
       "image": null,
-      "imagePrompt": "Philippines typhoon",
-      "answers": ["Mongolie", "Philippines", "Iran", "Turquie"],
+      "imagePrompt": "Philippines typhoon Haiyan destruction track Pacific",
+      "answers": ["Environ 3 à 5 typhons par an", "Environ 8 à 10 typhons par an", "Environ 20 typhons par an", "Plus de 30 typhons par an"],
       "correctIndex": 1,
-      "explanation": "Les Philippines sont l’un des pays les plus exposés au monde, car elles se situent directement sur les trajectoires des typhons venant du Pacifique."
+      "explanation": "Les Philippines sont concernées par environ 20 tempêtes tropicales par an, dont 8 à 10 atteignent l'intensité de typhon et touchent effectivement le territoire ou ses abords immédiats. L'archipel se situe directement sur les trajectoires des typhons qui se forment dans le Pacifique tropical. Le typhon Haiyan (Yolanda aux Philippines) de novembre 2013 a été l'un des plus dévastateurs : des vents de 315 km/h et une onde de tempête de 6 mètres ont tué plus de 6 300 personnes, principalement dans la ville de Tacloban."
     },
     {
       "id": "11",
-      "question": "Quelle condition est nécessaire à la formation d’un cyclone ?",
+      "question": "L'Atlantique Sud est presque totalement exempt de cyclones tropicaux, une anomalie mondiale. Quel facteur atmosphérique en est principalement responsable ?",
       "image": null,
-      "imagePrompt": "Cyclone formation diagram",
-      "answers": ["Eaux chaudes", "Air sec", "Montagnes", "Glace"],
-      "correctIndex": 0,
-      "explanation": "Les cyclones tirent leur énergie de l’évaporation de l’eau chaude. Sans cette source d’énergie, ils ne peuvent ni se former ni se maintenir."
+      "imagePrompt": "South Atlantic no hurricane zone map climate anomaly",
+      "answers": ["Les eaux de l'Atlantique Sud sont trop froides toute l'année", "Un cisaillement vertical des vents trop important détruit les systèmes en formation", "La présence permanente d'un anticyclone bloquant toute formation cyclonique", "L'absence de vents alizés dans cet hémisphère"],
+      "correctIndex": 1,
+      "explanation": "L'Atlantique Sud est presque exempt de cyclones tropicaux principalement en raison d'un fort cisaillement vertical des vents — une différence de vitesse et de direction du vent entre les basses et les hautes altitudes qui « décapite » les systèmes en formation avant qu'ils ne s'organisent. En mars 2004, l'ouragan Catarina a néanmoins frappé le Brésil — le premier cyclone tropical avéré de l'Atlantique Sud de l'histoire moderne — surprenant les météorologues du monde entier."
     },
     {
       "id": "12",
-      "question": "Quelle zone de l’océan Indien est particulièrement touchée ?",
+      "question": "Madagascar est régulièrement frappée par des cyclones venant de l'océan Indien. Quelle partie de l'île est la plus exposée, et pourquoi ?",
       "image": null,
-      "imagePrompt": "Bay of Bengal cyclone",
-      "answers": ["Mer Rouge", "Golfe Persique", "Baie du Bengale", "Mer Caspienne"],
-      "correctIndex": 2,
-      "explanation": "La baie du Bengale est une zone très vulnérable car elle combine eaux chaudes et forte densité de population, ce qui rend les cyclones particulièrement meurtriers."
+      "imagePrompt": "Madagascar Indian Ocean cyclone track east coast impact",
+      "answers": ["La côte ouest, car les cyclones viennent du canal du Mozambique", "La côte est, car les cyclones se forment dans l'océan Indien et se déplacent vers l'ouest", "Le centre de l'île, car les hauts plateaux concentrent les précipitations cycloniques", "La côte nord, car c'est la plus proche de la zone de formation des cyclones"],
+      "correctIndex": 1,
+      "explanation": "La côte est de Madagascar est la plus exposée car les cyclones de l'océan Indien Sud-Ouest se forment à l'est de l'île et se déplacent généralement vers l'ouest-sud-ouest. Ils frappent d'abord la côte est avant de traverser l'île (en s'affaiblissant) et parfois de ressortir dans le canal du Mozambique. Madagascar est l'un des pays les plus touchés au monde par les cyclones, avec en moyenne deux à trois impacts significatifs par saison (novembre-avril)."
     },
     {
       "id": "13",
-      "question": "Pourquoi les cyclones s’affaiblissent-ils sur les continents ?",
+      "question": "Le changement climatique influence-t-il l'activité cyclonique mondiale ? Quel effet est le plus solidement établi par la communauté scientifique ?",
       "image": null,
-      "imagePrompt": "Cyclone landfall",
-      "answers": ["Manque d’eau chaude", "Vent faible", "Altitude", "Froid"],
-      "correctIndex": 0,
-      "explanation": "Une fois sur terre, les cyclones perdent leur source d’énergie (l’eau chaude) et se dissipent rapidement."
+      "imagePrompt": "Climate change cyclone intensity future projection warming ocean",
+      "answers": ["Une augmentation du nombre total de cyclones dans le monde", "Une intensification des cyclones les plus forts et une augmentation des précipitations associées", "Un déplacement de tous les cyclones vers les pôles où ils deviennent inoffensifs", "Une diminution globale de l'activité cyclonique grâce à une meilleure circulation atmosphérique"],
+      "correctIndex": 1,
+      "explanation": "Le consensus scientifique actuel est que le changement climatique ne devrait pas nécessairement augmenter le nombre total de cyclones, mais intensifier les plus puissants et augmenter significativement les précipitations associées (jusqu'à 20-30 % de plus). Des eaux plus chaudes alimentent des cyclones plus intenses, et une atmosphère plus humide produit des pluies plus abondantes. La proportion de cyclones de catégorie 4 et 5 devrait augmenter, comme l'illustrent plusieurs événements récents."
     },
     {
       "id": "14",
-      "question": "Quelle région est rarement touchée par les cyclones tropicaux ?",
+      "question": "La Floride est l'État américain le plus exposé aux ouragans. Quel ouragan de 1992, de catégorie 5, a rasé des quartiers entiers du sud de Miami et reste une référence dans l'histoire des catastrophes américaines ?",
       "image": null,
-      "imagePrompt": "South Atlantic map",
-      "answers": ["Atlantique Sud", "Caraïbes", "Pacifique Ouest", "Océan Indien"],
-      "correctIndex": 0,
-      "explanation": "L’Atlantique Sud est presque exempt de cyclones en raison de conditions atmosphériques défavorables, notamment des vents trop forts en altitude."
+      "imagePrompt": "Florida hurricane Andrew 1992 destruction Homestead aerial",
+      "answers": ["L'ouragan Hugo", "L'ouragan Andrew", "L'ouragan Irma", "L'ouragan Wilma"],
+      "correctIndex": 1,
+      "explanation": "L'ouragan Andrew (août 1992) a frappé le sud de la Floride avec des vents de 265 km/h, rasant des dizaines de milliers de maisons et causant 26,5 milliards de dollars de dégâts (en valeur 1992). Il a tué 65 personnes et rendu 175 000 personnes sans abri. Andrew a révolutionné les normes de construction en Floride et transformé l'industrie des assurances américaine. Plusieurs assureurs ont fait faillite à sa suite, entraînant une refonte complète du marché de l'assurance catastrophe."
     },
     {
       "id": "15",
-      "question": "Quel nom est utilisé dans le Pacifique Sud ?",
+      "question": "Les cyclones du Pacifique Sud sont moins connus mais frappent régulièrement des îles très vulnérables. Quel archipel a été dévasté par le cyclone Winston en 2016, le plus intense jamais enregistré dans l'hémisphère Sud ?",
       "image": null,
-      "imagePrompt": "Pacific cyclone",
-      "answers": ["Ouragan", "Typhon", "Cyclone", "Tempête"],
+      "imagePrompt": "Fiji cyclone Winston Pacific South tropical island devastation",
+      "answers": ["Les îles Samoa", "La Nouvelle-Calédonie", "Les Fidji", "Vanuatu"],
       "correctIndex": 2,
-      "explanation": "Dans le Pacifique Sud, comme dans l’océan Indien, on utilise le terme 'cyclone'."
+      "explanation": "Le cyclone Winston (février 2016) a frappé les Fidji avec des vents de 295 km/h — le cyclone tropical le plus intense jamais enregistré dans l'hémisphère Sud. Il a tué 44 personnes et détruit des milliers de maisons, principalement sur les îles de Koro et Viti Levu. Les petits États insulaires du Pacifique sont particulièrement vulnérables : peu de ressources pour se préparer, territoires plats exposés aux ondes de tempête, et dépendance au tourisme interrompue après chaque catastrophe."
     },
     {
       "id": "16",
-      "question": "Quelle zone africaine est touchée par des cyclones ?",
+      "question": "Cyclone Idai (2019), Freddy (2023) : l'Afrique australe est régulièrement frappée. Quel pays continental de la région a subi des dégâts catastrophiques lors de ces deux événements ?",
       "image": null,
-      "imagePrompt": "Madagascar cyclone",
-      "answers": ["Sahara", "Madagascar", "Atlas", "Nil"],
-      "correctIndex": 1,
-      "explanation": "Madagascar est régulièrement touchée par des cyclones venant de l’océan Indien, causant souvent d’importants dégâts."
+      "imagePrompt": "Mozambique cyclone Idai Beira flooding Indian Ocean",
+      "answers": ["L'Afrique du Sud", "La Tanzanie", "Le Mozambique", "Le Zimbabwe"],
+      "correctIndex": 2,
+      "explanation": "Le Mozambique a été frappé de plein fouet par le cyclone Idai en mars 2019 (plus de 1 300 morts, la ville de Beira détruite à 90 %) puis par le cyclone Freddy en 2023 — le cyclone tropical à la durée de vie la plus longue jamais enregistrée (36 jours), qui a tué plus de 1 400 personnes. Le Mozambique cumule une exposition géographique maximale, une grande pauvreté et des infrastructures fragiles, ce qui en fait l'un des pays les plus vulnérables au monde aux cyclones."
     },
     {
       "id": "17",
-      "question": "Quel facteur influence la trajectoire des cyclones ?",
+      "question": "Les trajectoires des cyclones sont influencées par plusieurs facteurs. Quel système de haute pression semi-permanent oriente la plupart des ouragans atlantiques vers les Caraïbes et la côte est américaine ?",
       "image": null,
-      "imagePrompt": "Cyclone path map",
-      "answers": ["Vents dominants", "Montagnes", "Température du sol", "Latitude"],
+      "imagePrompt": "Bermuda High Atlantic hurricane track steering flow",
+      "answers": ["L'anticyclone des Açores (ou des Bermudes)", "Le front polaire arctique", "La dépression d'Islande", "Le courant-jet subtropical"],
       "correctIndex": 0,
-      "explanation": "Les vents dominants et les systèmes de pression orientent les cyclones, ce qui explique leurs trajectoires souvent courbes."
+      "explanation": "L'anticyclone des Bermudes (ou des Açores) est un système de haute pression semi-permanent qui s'installe sur l'Atlantique subtropical. Les ouragans contournent sa périphérie dans le sens antihoraire, ce qui les dirige d'abord vers les Caraïbes et le Golfe du Mexique, puis vers le nord-est le long de la côte américaine. L'intensité et la position de cet anticyclone varient d'une année à l'autre, influençant directement les trajectoires et donc les zones menacées."
     },
     {
       "id": "18",
-      "question": "Quelle zone américaine est très exposée aux ouragans ?",
+      "question": "L'échelle de Saffir-Simpson classe les ouragans de catégorie 1 à 5. À partir de quelle vitesse de vent (en km/h) un cyclone tropical est-il officiellement classé en catégorie 5, la plus dévastatrice ?",
       "image": null,
-      "imagePrompt": "Florida hurricane",
-      "answers": ["Californie", "Texas", "Floride", "Alaska"],
+      "imagePrompt": "Saffir-Simpson scale category 5 hurricane wind speed destruction",
+      "answers": ["À partir de 150 km/h", "À partir de 200 km/h", "À partir de 252 km/h", "À partir de 300 km/h"],
       "correctIndex": 2,
-      "explanation": "La Floride est particulièrement exposée car elle s’avance dans l’océan et se situe sur la trajectoire des ouragans atlantiques."
+      "explanation": "Un cyclone est classé catégorie 5 sur l'échelle de Saffir-Simpson à partir de 252 km/h de vents soutenus. À cette intensité, les destructions sont catastrophiques : la quasi-totalité des bâtiments non renforcés est détruite, les arbres sont arrachés et les zones concernées peuvent être inhabitables pendant des semaines ou des mois. Des cyclones comme le typhon Haiyan (315 km/h), l'ouragan Patricia (345 km/h, record absolu en 2015) ou Dorian (295 km/h en 2019) illustrent les extrêmes possibles."
     },
     {
       "id": "19",
-      "question": "Quelle condition atmosphérique favorise la formation des cyclones ?",
+      "question": "Les zones de basse pression sont indispensables à la formation des cyclones. Mais d'où vient l'énergie initiale qui déclenche l'organisation d'un cyclone tropical dans l'Atlantique ?",
       "image": null,
-      "imagePrompt": "Low pressure cyclone",
-      "answers": ["Haute pression", "Basse pression", "Air froid", "Neige"],
-      "correctIndex": 1,
-      "explanation": "Les cyclones se développent dans des zones de basse pression où l’air chaud monte et crée une rotation."
+      "imagePrompt": "African easterly waves cyclone genesis Atlantic tropical disturbance",
+      "answers": ["Des ondes d'est africaines : des perturbations atmosphériques qui traversent l'Afrique et entrent dans l'Atlantique", "Des éruptions volcaniques sous-marines qui réchauffent localement l'eau de mer", "Du refroidissement brutal de l'air polaire qui entre en contact avec les tropiques", "Des courants marins froids qui créent des instabilités thermiques à la surface de l'océan"],
+      "correctIndex": 0,
+      "explanation": "La plupart des ouragans atlantiques naissent de « ondes d'est africaines » — des ondulations atmosphériques qui se forment au-dessus du Sahel et de l'Afrique de l'Ouest, traversent la côte africaine et entrent dans l'Atlantique tropical. Ces perturbations, combinées aux eaux chaudes de l'Atlantique et à des conditions atmosphériques favorables, peuvent progressivement s'organiser en dépression tropicale, puis en tempête, puis en ouragan. Environ 60 % des ouragans atlantiques ont pour origine ces ondes africaines."
     },
     {
       "id": "20",
-      "question": "Quelle région du monde est la moins touchée par les cyclones ?",
+      "question": "Les régions polaires sont épargnées par les cyclones tropicaux. Mais un autre type de tempête circulaire intense peut s'y former. Lequel ?",
       "image": null,
-      "imagePrompt": "Polar regions map",
-      "answers": ["Tropiques", "Caraïbes", "Asie du Sud-Est", "Régions polaires"],
-      "correctIndex": 3,
-      "explanation": "Les régions polaires sont trop froides pour permettre la formation de cyclones tropicaux, qui nécessitent des eaux chaudes."
+      "imagePrompt": "Polar low Arctic Norway cyclone cold winter storm",
+      "answers": ["Les dépressions polaires (polar lows), de petits cyclones intenses formés sur des mers froides", "Les blizzards rotatifs, formés par les vents catabatiques des calottes glaciaires", "Les tornades polaires, similaires aux tornades tropicales mais de courte durée", "Les tempêtes de neige tourbillonnantes, alimentées par la vapeur d'eau des mers arctiques"],
+      "correctIndex": 0,
+      "explanation": "Les dépressions polaires (polar lows) sont de petits cyclones intenses qui se forment au-dessus des mers arctiques (mer de Norvège, mer de Barents) et subarctiques en hiver. Bien que beaucoup plus petits que les cyclones tropicaux (100 à 500 km de diamètre), ils peuvent produire des vents de plus de 150 km/h et des conditions météorologiques extrêmes en quelques heures. Ils constituent un danger sérieux pour la navigation et les installations pétrolières en mer du Nord et sont étudiés avec attention dans le contexte du réchauffement arctique."
     }
   ]
 }

@@ -21,7 +21,12 @@
       "question": "Le Lesotho est enclavé à l’intérieur de quel pays ?",
       "image": null,
       "imagePrompt": "Lesotho mountains map",
-      "answers": ["Namibie", "Afrique du Sud", "Botswana", "Zimbabwe"],
+      "answers": [
+        "Namibie",
+        "Afrique du Sud",
+        "Botswana",
+        "Zimbabwe"
+      ],
       "correctIndex": 1,
       "explanation": "Le Lesotho est un cas unique : il est entièrement enclavé à l’intérieur de l’Afrique du Sud. C’est aussi l’un des rares pays dont tout le territoire se situe en altitude."
     },
@@ -30,34 +35,54 @@
       "question": "Le Bhoutan se situe entre quels deux grands pays ?",
       "image": null,
       "imagePrompt": "Bhutan Himalaya map",
-      "answers": ["Inde et Chine", "Inde et Pakistan", "Chine et Mongolie", "Népal et Bangladesh"],
+      "answers": [
+        "Inde et Chine",
+        "Inde et Pakistan",
+        "Chine et Mongolie",
+        "Népal et Bangladesh"
+      ],
       "correctIndex": 0,
       "explanation": "Le Bhoutan est coincé entre l’Inde et la Chine. Il est connu pour sa politique de “bonheur national brut”, privilégiant le bien-être à la croissance économique."
     },
     {
       "id": "3",
-      "question": "Le Kirghizistan se trouve sur quel continent ?",
+      "question": "Quelle grande chaîne de montagnes traverse une grande partie du Kirghizistan ?",
       "image": null,
-      "imagePrompt": "Kyrgyzstan mountains map",
-      "answers": ["Europe", "Afrique", "Asie", "Océanie"],
+      "imagePrompt": "Tian Shan mountains Kyrgyzstan",
+      "answers": [
+        "Atlas",
+        "Alpes",
+        "Tian Shan",
+        "Andes"
+      ],
       "correctIndex": 2,
-      "explanation": "Le Kirghizistan est un pays d’Asie centrale, très montagneux, marqué par une forte tradition nomade encore visible aujourd’hui."
+      "explanation": "Le Kirghizistan est dominé par les montagnes du Tian Shan, qui couvrent près de 90 % de son territoire. Ces reliefs façonnent son climat, ses paysages et son mode de vie traditionnel."
     },
     {
       "id": "4",
-      "question": "Le Suriname se situe sur quel continent ?",
+      "question": "Quelle langue officielle distingue le Suriname de la plupart des autres pays d’Amérique du Sud ?",
       "image": null,
-      "imagePrompt": "Suriname jungle map",
-      "answers": ["Afrique", "Asie", "Amérique du Sud", "Océanie"],
-      "correctIndex": 2,
-      "explanation": "Le Suriname est le plus petit pays d’Amérique du Sud. Son histoire coloniale néerlandaise le distingue de ses voisins hispanophones."
+      "imagePrompt": "Paramaribo Dutch colonial buildings",
+      "answers": [
+        "Le néerlandais",
+        "L’espagnol",
+        "Le portugais",
+        "L’anglais"
+      ],
+      "correctIndex": 0,
+      "explanation": "Le Suriname est le seul État indépendant d’Amérique du Sud dont la langue officielle est le néerlandais, un héritage de la colonisation des Pays-Bas."
     },
     {
       "id": "5",
       "question": "La capitale de la Mongolie est :",
       "image": null,
       "imagePrompt": "Ulaanbaatar city skyline",
-      "answers": ["Astana", "Oulan-Bator", "Bichkek", "Tachkent"],
+      "answers": [
+        "Astana",
+        "Oulan-Bator",
+        "Bichkek",
+        "Tachkent"
+      ],
       "correctIndex": 1,
       "explanation": "Oulan-Bator est l’une des capitales les plus froides du monde et concentre une grande partie de la population mongole."
     },
@@ -66,7 +91,12 @@
       "question": "Le Timor oriental se situe dans quelle région du monde ?",
       "image": null,
       "imagePrompt": "East Timor island map",
-      "answers": ["Europe de l’Est", "Asie du Sud-Est", "Afrique centrale", "Amérique centrale"],
+      "answers": [
+        "Europe de l’Est",
+        "Asie du Sud-Est",
+        "Afrique centrale",
+        "Amérique centrale"
+      ],
       "correctIndex": 1,
       "explanation": "Le Timor oriental est un jeune État indépendant situé en Asie du Sud-Est, après une longue période de colonisation et de conflits."
     },
@@ -75,7 +105,12 @@
       "question": "Le Tadjikistan est caractérisé par :",
       "image": null,
       "imagePrompt": "Tajikistan mountains",
-      "answers": ["Déserts côtiers", "Reliefs montagneux", "Forêts tropicales", "Plaines maritimes"],
+      "answers": [
+        "Déserts côtiers",
+        "Reliefs montagneux",
+        "Forêts tropicales",
+        "Plaines maritimes"
+      ],
       "correctIndex": 1,
       "explanation": "Le Tadjikistan est l’un des pays les plus montagneux du monde, avec une grande partie de son territoire située dans le massif du Pamir."
     },
@@ -84,7 +119,12 @@
       "question": "Le Cap-Vert est un pays situé :",
       "image": null,
       "imagePrompt": "Cape Verde islands ocean",
-      "answers": ["En Méditerranée", "Dans l’océan Atlantique", "Dans le Pacifique", "Dans l’océan Indien"],
+      "answers": [
+        "En Méditerranée",
+        "Dans l’océan Atlantique",
+        "Dans le Pacifique",
+        "Dans l’océan Indien"
+      ],
       "correctIndex": 1,
       "explanation": "Le Cap-Vert est un archipel au large de l’Afrique de l’Ouest. Son isolement a influencé son développement culturel et linguistique."
     },
@@ -93,7 +133,12 @@
       "question": "Le Laos est un pays :",
       "image": null,
       "imagePrompt": "Laos Mekong river",
-      "answers": ["Côtier", "Insulaire", "Enclavé", "Arctique"],
+      "answers": [
+        "Côtier",
+        "Insulaire",
+        "Enclavé",
+        "Arctique"
+      ],
       "correctIndex": 2,
       "explanation": "Le Laos est l’un des rares pays d’Asie du Sud-Est sans accès à la mer, ce qui influence fortement son économie et ses échanges."
     },
@@ -102,7 +147,12 @@
       "question": "La capitale du Liechtenstein est :",
       "image": null,
       "imagePrompt": "Vaduz castle",
-      "answers": ["Vaduz", "Zurich", "Innsbruck", "Bern"],
+      "answers": [
+        "Vaduz",
+        "Zurich",
+        "Innsbruck",
+        "Bern"
+      ],
       "correctIndex": 0,
       "explanation": "Vaduz est une petite capitale européenne située dans une principauté entre la Suisse et l’Autriche."
     },
@@ -111,61 +161,96 @@
       "question": "Le Malawi est situé :",
       "image": null,
       "imagePrompt": "Lake Malawi map",
-      "answers": ["En Afrique de l’Est", "En Afrique du Nord", "En Afrique centrale", "En Afrique australe"],
+      "answers": [
+        "En Afrique de l’Est",
+        "En Afrique du Nord",
+        "En Afrique centrale",
+        "En Afrique australe"
+      ],
       "correctIndex": 3,
       "explanation": "Le Malawi est souvent classé en Afrique australe et est célèbre pour le lac Malawi, l’un des plus grands d’Afrique."
     },
     {
       "id": "12",
-      "question": "Le Brunei est un pays :",
+      "question": "Grâce à quelle ressource naturelle le Brunei possède-t-il l'un des revenus par habitant les plus élevés d'Asie ?",
       "image": null,
-      "imagePrompt": "Brunei mosque skyline",
-      "answers": ["D’Afrique", "D’Europe", "D’Asie", "D’Amérique"],
-      "correctIndex": 2,
-      "explanation": "Le Brunei est un petit État riche en pétrole situé sur l’île de Bornéo, en Asie du Sud-Est."
+      "imagePrompt": "Brunei offshore oil and gas",
+      "answers": [
+        "Le pétrole et le gaz",
+        "Le café",
+        "Le tourisme",
+        "Le caoutchouc"
+      ],
+      "correctIndex": 0,
+      "explanation": "Le Brunei tire l'essentiel de sa richesse de l'exploitation du pétrole et du gaz naturel. Ces ressources lui permettent d'offrir un niveau de vie élevé à sa population malgré sa petite taille."
     },
     {
       "id": "13",
-      "question": "Le Vanuatu est situé :",
+      "question": "Le Vanuatu est particulièrement exposé à quel phénomène naturel ?",
       "image": null,
-      "imagePrompt": "Vanuatu islands map",
-      "answers": ["En Europe", "En Océanie", "En Asie", "En Amérique"],
-      "correctIndex": 1,
-      "explanation": "Le Vanuatu est un archipel volcanique du Pacifique Sud, connu pour sa diversité culturelle exceptionnelle."
+      "imagePrompt": "Vanuatu active volcano Yasur",
+      "answers": [
+        "Les volcans et les cyclones",
+        "Les avalanches",
+        "Les tempêtes de sable",
+        "Les glaciers"
+      ],
+      "correctIndex": 0,
+      "explanation": "Situé sur la ceinture de feu du Pacifique, le Vanuatu connaît une forte activité volcanique et est régulièrement touché par des cyclones tropicaux."
     },
     {
       "id": "14",
       "question": "La capitale du Kirghizistan est :",
       "image": null,
       "imagePrompt": "Bishkek city",
-      "answers": ["Douchanbé", "Bichkek", "Almaty", "Achgabat"],
+      "answers": [
+        "Douchanbé",
+        "Bichkek",
+        "Almaty",
+        "Achgabat"
+      ],
       "correctIndex": 1,
       "explanation": "Bichkek est la capitale du Kirghizistan, héritière de l’époque soviétique dans son urbanisme."
     },
     {
       "id": "15",
-      "question": "Le Guyana est un pays :",
+      "question": "Quelle est la langue officielle du Guyana, contrairement à la plupart des pays d'Amérique du Sud ?",
       "image": null,
-      "imagePrompt": "Guyana rainforest",
-      "answers": ["D’Afrique", "D’Asie", "D’Amérique du Sud", "D’Europe"],
-      "correctIndex": 2,
-      "explanation": "Le Guyana est le seul pays d’Amérique du Sud où l’anglais est la langue officielle, héritage de la colonisation britannique."
+      "imagePrompt": "Guyana Georgetown colonial architecture",
+      "answers": [
+        "Anglais",
+        "Espagnol",
+        "Portugais",
+        "Français"
+      ],
+      "correctIndex": 0,
+      "explanation": "Le Guyana est le seul État souverain d'Amérique du Sud dont la langue officielle est l'anglais, un héritage de la colonisation britannique."
     },
     {
       "id": "16",
-      "question": "Le Népal est connu pour :",
+      "question": "Quel sommet situé au Népal est le plus élevé du monde ?",
       "image": null,
-      "imagePrompt": "Nepal Himalaya Everest",
-      "answers": ["Ses déserts", "Ses volcans", "Ses montagnes", "Ses fjords"],
+      "imagePrompt": "Mount Everest Nepal",
+      "answers": [
+        "K2",
+        "Kangchenjunga",
+        "Mont Everest",
+        "Lhotse"
+      ],
       "correctIndex": 2,
-      "explanation": "Le Népal abrite l’Himalaya et le mont Everest, point culminant du monde."
+      "explanation": "Avec ses 8 849 mètres, le mont Everest est le plus haut sommet de la planète. Il se situe à la frontière entre le Népal et la Chine."
     },
     {
       "id": "17",
       "question": "La capitale du Tadjikistan est :",
       "image": null,
       "imagePrompt": "Dushanbe city",
-      "answers": ["Douchanbé", "Tachkent", "Bichkek", "Almaty"],
+      "answers": [
+        "Douchanbé",
+        "Tachkent",
+        "Bichkek",
+        "Almaty"
+      ],
       "correctIndex": 0,
       "explanation": "Douchanbé est la capitale du Tadjikistan, un pays fortement marqué par son héritage soviétique."
     },
@@ -174,7 +259,12 @@
       "question": "Le Botswana est connu pour :",
       "image": null,
       "imagePrompt": "Okavango delta",
-      "answers": ["Ses glaciers", "Ses forêts tropicales", "Ses déserts et safaris", "Ses volcans"],
+      "answers": [
+        "Ses glaciers",
+        "Ses forêts tropicales",
+        "Ses déserts et safaris",
+        "Ses volcans"
+      ],
       "correctIndex": 2,
       "explanation": "Le Botswana abrite le delta de l’Okavango, un écosystème unique au monde en plein désert."
     },
@@ -183,18 +273,28 @@
       "question": "Le Bhoutan est célèbre pour :",
       "image": null,
       "imagePrompt": "Bhutan monastery happiness",
-      "answers": ["Son industrie", "Son tourisme de masse", "Son bonheur national brut", "Ses mégalopoles"],
+      "answers": [
+        "Son industrie",
+        "Son tourisme de masse",
+        "Son bonheur national brut",
+        "Ses mégalopoles"
+      ],
       "correctIndex": 2,
       "explanation": "Le Bhoutan privilégie le bonheur national brut, une approche alternative du développement."
     },
     {
       "id": "20",
-      "question": "Le Kiribati est un pays situé :",
+      "question": "Pourquoi le Kiribati est-il souvent cité comme l'un des pays les plus vulnérables au changement climatique ?",
       "image": null,
-      "imagePrompt": "Kiribati atolls ocean",
-      "answers": ["Dans l’océan Indien", "Dans l’océan Atlantique", "Dans le Pacifique", "En mer Baltique"],
-      "correctIndex": 2,
-      "explanation": "Kiribati est un État insulaire du Pacifique, particulièrement menacé par la montée du niveau de la mer."
+      "imagePrompt": "Kiribati low islands rising sea level",
+      "answers": [
+        "Il est menacé par la montée du niveau de la mer",
+        "Il est situé sur une faille sismique majeure",
+        "Il subit de fréquentes éruptions volcaniques",
+        "Il est recouvert en grande partie par un désert"
+      ],
+      "correctIndex": 0,
+      "explanation": "Composé d'atolls très bas, le Kiribati est particulièrement exposé à la montée du niveau des océans. Ce phénomène menace directement certaines de ses îles habitées et en fait un symbole des conséquences du changement climatique."
     }
   ]
 }

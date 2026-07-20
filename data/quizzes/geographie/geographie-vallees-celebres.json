@@ -18,183 +18,183 @@
   "questions": [
     {
       "id": "1",
-      "question": "Dans quel pays se trouve la vallée du Nil ?",
+      "question": "La vallée du Nil traverse plusieurs pays africains. Lequel en est l'embouchure, là où le fleuve se jette dans la Méditerranée ?",
       "image": null,
-      "imagePrompt": "Nile valley Egypt",
-      "answers": ["Égypte", "Soudan", "Éthiopie", "Ouganda"],
-      "correctIndex": 0,
-      "explanation": "La vallée du Nil est bien plus qu’une région géographique : elle a permis la naissance de l’une des premières grandes civilisations humaines. Grâce aux crues annuelles du fleuve, les terres étaient fertilisées naturellement, rendant possible une agriculture stable dans un environnement désertique."
+      "imagePrompt": "Nile valley delta Egypt aerial",
+      "answers": ["Soudan", "Éthiopie", "Égypte", "Ouganda"],
+      "correctIndex": 2,
+      "explanation": "Le Nil se jette en Méditerranée via son delta en Égypte, formant l'une des terres agricoles les plus fertiles du monde. Sa source principale, le lac Victoria, se trouve en Ouganda — mais c'est l'Égypte qui a bâti l'une des premières grandes civilisations grâce à ses crues annuelles fertilisantes."
     },
     {
       "id": "2",
-      "question": "Quelle vallée est le centre mondial de la technologie ?",
+      "question": "La Silicon Valley doit son surnom au silicium des semi-conducteurs. Dans quelle région de Californie se trouve-t-elle exactement ?",
       "image": null,
-      "imagePrompt": "Silicon Valley tech",
-      "answers": ["Central Valley", "Silicon Valley", "Napa Valley", "Death Valley"],
-      "correctIndex": 1,
-      "explanation": "La Silicon Valley ne doit pas son nom à une caractéristique naturelle, mais au silicium utilisé dans les semi-conducteurs. Elle concentre universités, capital-risque et entreprises innovantes, créant un écosystème unique au monde."
+      "imagePrompt": "Silicon Valley San Jose aerial tech campus",
+      "answers": ["Autour de Los Angeles", "Autour de San Diego", "Autour de la baie de San Francisco", "Autour de Sacramento"],
+      "correctIndex": 2,
+      "explanation": "La Silicon Valley s'étend principalement autour de la baie de San Francisco, entre San Jose et Palo Alto. L'université de Stanford y a joué un rôle fondateur : ses diplômés ont fondé Google, Netflix, Hewlett-Packard et des centaines d'autres entreprises technologiques."
     },
     {
       "id": "3",
-      "question": "Quelle vallée est célèbre pour ses vins en Californie ?",
+      "question": "La Napa Valley est célèbre pour ses vins. Quel événement de 1976 a propulsé ses vins au rang mondial, humiliant les producteurs français ?",
       "image": null,
-      "imagePrompt": "Napa Valley vineyards",
-      "answers": ["Sonoma Valley", "Central Valley", "Napa Valley", "Hudson Valley"],
-      "correctIndex": 2,
-      "explanation": "La Napa Valley bénéficie d’un climat méditerranéen et de sols variés, idéaux pour la viticulture. Elle rivalise aujourd’hui avec les grandes régions viticoles européennes en termes de qualité et de prestige."
+      "imagePrompt": "Napa Valley vineyards California wine",
+      "answers": ["La grande gelée de Bordeaux", "Le jugement de Paris", "L'exposition universelle de Chicago", "Le traité de Versailles du vin"],
+      "correctIndex": 1,
+      "explanation": "Lors du « Jugement de Paris » en 1976, une dégustation à l'aveugle organisée par le critique britannique Steven Spurrier, les vins de la Napa Valley ont battu les grands crus français. Ce choc a révolutionné le monde viticole et lancé la réputation internationale de la Californie."
     },
     {
       "id": "4",
-      "question": "Dans quelle chaîne se situe la vallée de Katmandou ?",
+      "question": "La vallée de Katmandou est entourée de l'Himalaya. Pourquoi est-elle géologiquement une cuvette, alors qu'elle se trouve à 1 400 mètres d'altitude ?",
       "image": null,
-      "imagePrompt": "Kathmandu valley",
-      "answers": ["Alpes", "Andes", "Rocheuses", "Himalaya"],
-      "correctIndex": 3,
-      "explanation": "La vallée de Katmandou est une cuvette tectonique entourée de montagnes himalayennes. Elle a été un carrefour commercial et culturel majeur entre l’Inde et le Tibet pendant des siècles."
+      "imagePrompt": "Kathmandu valley Nepal Himalaya aerial",
+      "answers": ["Elle a été creusée par un glacier géant", "Elle était autrefois un lac qui s'est drainé", "Elle résulte d'un effondrement volcanique", "Elle a été sculptée par le vent"],
+      "correctIndex": 1,
+      "explanation": "La vallée de Katmandou était autrefois un lac préhistorique. Selon la légende bouddhiste, le bodhisattva Manjushri aurait fendu les montagnes environnantes pour drainer l'eau — une métaphore poétique d'un processus géologique réel. Des sédiments lacustres y ont été retrouvés."
     },
     {
       "id": "5",
-      "question": "Quelle vallée africaine est liée à l’évolution humaine ?",
+      "question": "Le Great Rift Valley est une fracture géologique qui s'étire sur 6 000 km. Quels deux continents sépare-t-elle progressivement ?",
       "image": null,
-      "imagePrompt": "Great Rift Valley",
-      "answers": ["Great Rift Valley", "Vallée du Congo", "Vallée du Niger", "Vallée du Zambèze"],
-      "correctIndex": 0,
-      "explanation": "Le Great Rift Valley est une immense fracture géologique visible depuis l’espace. C’est aussi un site majeur de découvertes paléontologiques, où ont été retrouvés certains des plus anciens fossiles d’hominidés."
+      "imagePrompt": "Great Rift Valley aerial Ethiopia geology",
+      "answers": ["L'Afrique et l'Asie", "Deux futures plaques africaines distinctes", "L'Afrique et l'Europe", "L'Antarctique et l'Afrique"],
+      "correctIndex": 1,
+      "explanation": "Le Great Rift Valley est une zone de divergence tectonique : la plaque africaine se scinde lentement en deux. Dans des millions d'années, la Corne de l'Afrique et l'Afrique de l'Est se sépareront, formant un nouvel océan. C'est aussi là qu'ont été découverts certains des plus anciens fossiles d'hominidés."
     },
     {
       "id": "6",
-      "question": "Quelle vallée française est célèbre pour ses châteaux ?",
+      "question": "La vallée de la Loire abrite plus de 300 châteaux Renaissance. Quelle raison principale a poussé les rois de France à s'y installer au XVe siècle ?",
       "image": null,
-      "imagePrompt": "Loire valley castles",
-      "answers": ["Vallée du Rhône", "Vallée de la Loire", "Vallée du Tarn", "Vallée de la Garonne"],
+      "imagePrompt": "Loire valley chateau Chambord France",
+      "answers": ["La présence de gisements d'or", "La fuite de Paris pendant la guerre de Cent Ans", "Un décret royal ordonnant de quitter Versailles", "La proximité avec l'Espagne alliée"],
       "correctIndex": 1,
-      "explanation": "La vallée de la Loire est surnommée le 'jardin de la France'. Les rois y ont fait construire de nombreux châteaux à la Renaissance, profitant d’un climat doux et d’un paysage fertile."
+      "explanation": "Pendant la guerre de Cent Ans, la cour royale fuyant Paris s'est réfugiée en Val de Loire, région plus sûre et fertile. Les rois y ont ensuite fait construire des résidences fastueuses, attirés par le doux climat et la chasse abondante. La vallée est inscrite au patrimoine mondial de l'UNESCO depuis 2000."
     },
     {
       "id": "7",
-      "question": "Quelle vallée est la plus chaude du monde ?",
+      "question": "La Death Valley est la vallée la plus chaude du monde. Quelle température record y a été enregistrée, l'une des plus élevées jamais mesurées de manière fiable sur Terre ?",
       "image": null,
-      "imagePrompt": "Death Valley desert",
-      "answers": ["Danakil", "Death Valley", "Atacama", "Jordan Valley"],
+      "imagePrompt": "Death Valley desert heat Badwater Basin",
+      "answers": ["47,2 °C", "54,4 °C", "61,7 °C", "58,1 °C"],
       "correctIndex": 1,
-      "explanation": "La Death Valley se situe sous le niveau de la mer et est entourée de montagnes qui piègent la chaleur. Cette configuration crée des conditions extrêmes avec des températures dépassant régulièrement 50°C."
+      "explanation": "La Death Valley a enregistré 54,4 °C en août 2020, l'une des températures de l'air les plus élevées jamais mesurées de manière fiable sur Terre (un record de 56,7 °C en 1913 est aujourd'hui contesté). Badwater Basin, à 86 m sous le niveau de la mer, est le point le plus bas d'Amérique du Nord."
     },
     {
       "id": "8",
-      "question": "Quelle vallée est située autour du fleuve Jourdain ?",
+      "question": "La vallée du Jourdain est l'une des plus anciennes régions habitées en continu. Quelle ville, fondée il y a plus de 10 000 ans, est considérée comme la plus ancienne ville du monde ?",
       "image": null,
-      "imagePrompt": "Jordan Valley",
-      "answers": ["Vallée du Nil", "Vallée du Tigre", "Vallée du Jourdain", "Vallée de l’Euphrate"],
-      "correctIndex": 2,
-      "explanation": "La vallée du Jourdain est l’une des régions les plus anciennes habitées en continu. Elle joue un rôle central dans les traditions religieuses juives, chrétiennes et musulmanes."
+      "imagePrompt": "Jordan Valley Jericho ancient city",
+      "answers": ["Jérusalem", "Jéricho", "Damas", "Petra"],
+      "correctIndex": 1,
+      "explanation": "Jéricho, située dans la vallée du Jourdain, est considérée comme la plus ancienne ville habitée en continu, avec des traces d'occupation datant de plus de 10 000 ans. La vallée du Jourdain est aussi la région terrestre la plus basse du monde, à environ 430 m sous le niveau de la mer."
     },
     {
       "id": "9",
-      "question": "Quelle vallée alpine se situe en Italie ?",
+      "question": "La Vallée d'Aoste est la plus petite région autonome d'Italie. Quel massif montagneux, le plus haut d'Europe occidentale, la domine ?",
       "image": null,
-      "imagePrompt": "Aosta valley",
-      "answers": ["Vallée d’Aoste", "Vallée du Pô", "Vallée de l’Arno", "Vallée de l’Adige"],
-      "correctIndex": 0,
-      "explanation": "La Vallée d’Aoste est entourée de certains des plus hauts sommets d’Europe, dont le Mont Blanc. Elle est aussi une zone stratégique entre l’Italie, la France et la Suisse."
+      "imagePrompt": "Aosta Valley Mont Blanc Italy Alps",
+      "answers": ["Le Cervin", "Le Mont Rose", "Le Mont Blanc", "Le Grand Paradis"],
+      "correctIndex": 2,
+      "explanation": "Le Mont Blanc (4 808 m), point culminant des Alpes et de l'Europe occidentale, domine la Vallée d'Aoste côté italien. Le tunnel du Mont Blanc, qui traverse la montagne jusqu'à Chamonix en France, est l'un des axes routiers stratégiques entre les deux pays."
     },
     {
       "id": "10",
-      "question": "Quelle vallée se trouve dans le parc Yosemite ?",
+      "question": "La Yosemite Valley est sculptée dans le granit par d'anciens glaciers. Quelle falaise, haute de 900 mètres, est devenue le symbole mondial de l'escalade en solo ?",
       "image": null,
-      "imagePrompt": "Yosemite Valley",
-      "answers": ["Hudson Valley", "Snake River Valley", "Yosemite Valley", "Great Valley"],
-      "correctIndex": 2,
-      "explanation": "La Yosemite Valley a été façonnée par des glaciers il y a des millions d’années. Ses falaises de granit, comme El Capitan, en font un site emblématique pour les grimpeurs du monde entier."
+      "imagePrompt": "Yosemite Valley El Capitan granite wall",
+      "answers": ["Half Dome", "El Capitan", "Sentinel Rock", "Cathedral Peak"],
+      "correctIndex": 1,
+      "explanation": "El Capitan (900 m de granit vertical) est la falaise la plus célèbre au monde pour l'escalade. En 2017, Alex Honnold l'a gravie en solo intégral (sans corde) en 3h56min, exploit filmé dans le documentaire « Free Solo » qui a remporté l'Oscar du meilleur documentaire."
     },
     {
       "id": "11",
-      "question": "Quelle vallée correspond à la grande plaine italienne ?",
+      "question": "La vallée du Pô est la plus grande plaine d'Italie. Quelle région gastronomique, au cœur de cette vallée, est surnommée « Food Valley » pour ses produits AOP ?",
       "image": null,
-      "imagePrompt": "Po valley",
-      "answers": ["Vallée du Rhône", "Vallée du Pô", "Vallée du Danube", "Vallée du Rhin"],
-      "correctIndex": 1,
-      "explanation": "La vallée du Pô est le cœur économique et agricole de l’Italie. Elle concentre une grande partie de la population et des industries du pays."
+      "imagePrompt": "Po Valley Emilia Romagna food Italy",
+      "answers": ["La Toscane", "La Vénétie", "L'Émilie-Romagne", "La Lombardie"],
+      "correctIndex": 2,
+      "explanation": "L'Émilie-Romagne, au cœur de la vallée du Pô, concentre un nombre exceptionnel de produits AOP : parmesan (Parmigiano-Reggiano), jambon de Parme, vinaigre balsamique de Modène, mortadelle de Bologne... C'est l'une des régions gastronomiques les plus denses du monde."
     },
     {
       "id": "12",
-      "question": "Quelle vallée suisse est célèbre pour ses cascades ?",
+      "question": "La vallée de Lauterbrunnen, en Suisse, est réputée pour ses cascades. Quel célèbre auteur britannique aurait été inspiré par ses paysages pour créer une Terre du Milieu fictive ?",
       "image": null,
-      "imagePrompt": "Lauterbrunnen valley",
-      "answers": ["Engadine", "Zermatt", "Interlaken", "Lauterbrunnen"],
-      "correctIndex": 3,
-      "explanation": "La vallée de Lauterbrunnen compte plus de 70 cascades, dont certaines chutent de plus de 300 mètres. Elle aurait inspiré Tolkien pour ses paysages fantastiques."
+      "imagePrompt": "Lauterbrunnen valley waterfalls Switzerland",
+      "answers": ["C.S. Lewis", "J.R.R. Tolkien", "Arthur Conan Doyle", "Rudyard Kipling"],
+      "correctIndex": 1,
+      "explanation": "J.R.R. Tolkien a visité la vallée de Lauterbrunnen en 1911 et ses carnets de voyage contiennent des croquis de ses cascades et de ses falaises vertigineuses. Beaucoup de spécialistes y voient une source d'inspiration pour Rivendell, la cité elfique du Seigneur des Anneaux."
     },
     {
       "id": "13",
-      "question": "Quelle vallée chilienne est idéale pour l’astronomie ?",
+      "question": "La vallée d'Elqui, au Chili, est idéale pour l'astronomie. Combien d'observatoires internationaux majeurs le Chili abrite-t-il au total, faisant de lui la capitale mondiale de l'astronomie ?",
       "image": null,
-      "imagePrompt": "Elqui valley",
-      "answers": ["Colchagua", "Elqui", "Maipo", "Casablanca"],
-      "correctIndex": 1,
-      "explanation": "Grâce à son altitude et à l’absence quasi totale de pollution lumineuse, la vallée d’Elqui est l’un des meilleurs endroits au monde pour observer les étoiles."
+      "imagePrompt": "Elqui valley Chile stargazing observatory",
+      "answers": ["3 observatoires", "7 observatoires", "Plus de 20 observatoires", "Un seul très grand observatoire"],
+      "correctIndex": 2,
+      "explanation": "Le Chili héberge plus de 20 observatoires internationaux majeurs et concentre environ 40 % de la capacité d'observation astronomique mondiale. Son ciel désertique, son altitude et sa faible pollution lumineuse en font un site incomparable. L'ELT (Extremely Large Telescope), en construction dans l'Atacama, sera le plus grand télescope du monde."
     },
     {
       "id": "14",
-      "question": "Quelle vallée allemande est célèbre pour ses vignobles ?",
+      "question": "La vallée du Rhin est célèbre pour ses vignobles en terrasses. Quel type de roche volcanique particulier rend ses coteaux si propices à la vigne ?",
       "image": null,
-      "imagePrompt": "Rhine valley",
-      "answers": ["Vallée du Rhin", "Vallée du Main", "Vallée de l’Elbe", "Vallée de la Moselle"],
-      "correctIndex": 0,
-      "explanation": "La vallée du Rhin est non seulement un axe commercial majeur en Europe, mais aussi une région viticole historique, avec des vignobles en terrasses sur des pentes abruptes."
+      "imagePrompt": "Rhine valley Lorelei vineyards Germany",
+      "answers": ["Le granite rose", "Le schiste ardoisier", "Le calcaire blanc", "Le basalte noir"],
+      "correctIndex": 1,
+      "explanation": "Le schiste ardoisier des coteaux rhénans absorbe et restitue la chaleur solaire la nuit, permettant à la vigne de mûrir malgré un climat nordique. Le Riesling allemand, cépage emblématique de la vallée, doit en partie sa complexité à ces sols particuliers. La section Rhin romantique est inscrite à l'UNESCO depuis 2002."
     },
     {
       "id": "15",
-      "question": "Quelle vallée indienne est surnommée le paradis sur Terre ?",
+      "question": "La vallée du Kashmir est surnommée « paradis sur Terre ». Entre quels pays ce territoire est-il disputé depuis la partition de 1947 ?",
       "image": null,
-      "imagePrompt": "Kashmir valley",
-      "answers": ["Gange", "Kashmir", "Deccan", "Brahmapoutre"],
+      "imagePrompt": "Kashmir valley Dal Lake mountains India",
+      "answers": ["Inde et Chine", "Inde, Pakistan et Chine", "Pakistan et Afghanistan", "Inde et Bangladesh"],
       "correctIndex": 1,
-      "explanation": "La vallée du Kashmir est réputée pour ses paysages alpins, ses lacs et ses jardins moghols. Elle est aussi une région géopolitiquement sensible entre l’Inde et le Pakistan."
+      "explanation": "Le Kashmir est revendiqué par l'Inde, le Pakistan et partiellement par la Chine — l'un des conflits territoriaux les plus anciens et les plus dangereux du monde, entre trois puissances nucléaires. La vallée proprement dite est administrée par l'Inde, qui en a révoqué le statut d'autonomie spéciale en 2019."
     },
     {
       "id": "16",
-      "question": "Quelle vallée suit le Rhône en France ?",
+      "question": "La vallée du Rhône est un corridor naturel nord-sud en France. Quelle ville, à sa confluence avec la Saône, en est la métropole principale ?",
       "image": null,
-      "imagePrompt": "Rhone valley",
-      "answers": ["Vallée du Rhône", "Vallée de la Loire", "Vallée de la Seine", "Vallée du Doubs"],
-      "correctIndex": 0,
-      "explanation": "La vallée du Rhône est un corridor naturel entre le nord et le sud de l’Europe, utilisé depuis l’Antiquité pour le commerce et les échanges culturels."
+      "imagePrompt": "Rhone valley Lyon France river",
+      "answers": ["Grenoble", "Avignon", "Lyon", "Valence"],
+      "correctIndex": 2,
+      "explanation": "Lyon, au confluent du Rhône et de la Saône, est la métropole incontournable de la vallée du Rhône. Capitale mondiale de la gastronomie selon Paul Bocuse, elle est aussi un nœud ferroviaire et autoroutier majeur sur l'axe Europe du Nord–Méditerranée."
     },
     {
       "id": "17",
-      "question": "Quelle vallée marocaine est connue pour ses oasis ?",
+      "question": "La vallée du Drâa est la plus longue vallée du Maroc, avec ses oasis de palmiers-dattiers. Vers quel désert se prolonge-t-elle au sud ?",
       "image": null,
-      "imagePrompt": "Draa valley",
-      "answers": ["Drâa", "Nil", "Niger", "Sénégal"],
-      "correctIndex": 0,
-      "explanation": "La vallée du Drâa est une longue oasis qui traverse le sud du Maroc. Elle est essentielle pour l’agriculture dans une région désertique."
+      "imagePrompt": "Draa valley Morocco oasis palm trees",
+      "answers": ["Le désert de Libye", "Le désert du Sahara", "Le désert du Namib", "Le désert de Nubie"],
+      "correctIndex": 1,
+      "explanation": "La vallée du Drâa s'étire sur plus de 1 000 km depuis le Haut Atlas jusqu'aux portes du Sahara. Ses oasis à palmiers-dattiers ont permis des échanges caravaniers entre l'Afrique subsaharienne et le Maghreb pendant des siècles. Elle produit certaines des meilleures dattes du monde."
     },
     {
       "id": "18",
-      "question": "Quelle vallée agricole majeure est en Californie ?",
+      "question": "La Central Valley californienne est l'une des zones agricoles les plus productives du monde. Quel problème environnemental majeur menace aujourd'hui son modèle ?",
       "image": null,
-      "imagePrompt": "Central Valley",
-      "answers": ["Central Valley", "Silicon Valley", "Napa Valley", "Death Valley"],
-      "correctIndex": 0,
-      "explanation": "La Central Valley produit une grande partie des fruits et légumes consommés aux États-Unis grâce à son irrigation intensive."
+      "imagePrompt": "Central Valley California agriculture irrigation",
+      "answers": ["La déforestation massive", "L'épuisement des nappes phréatiques", "La salinisation des côtes", "Les pluies acides industrielles"],
+      "correctIndex": 1,
+      "explanation": "La Central Valley pompe massivement les eaux souterraines pour irriguer ses cultures, épuisant des aquifères fossiles qui mettent des millénaires à se reconstituer. Ce surpompage entraîne même un affaissement des sols (subsidence) mesurable par satellite — jusqu'à 30 cm par an dans certaines zones."
     },
     {
       "id": "19",
-      "question": "Quelle vallée correspond au bassin amazonien ?",
+      "question": "La vallée de l'Amazone abrite la plus grande forêt tropicale du monde. Quel pourcentage de la biodiversité terrestre mondiale y est estimé ?",
       "image": null,
-      "imagePrompt": "Amazon basin",
-      "answers": ["Orénoque", "Paraná", "Amazone", "Rio Negro"],
-      "correctIndex": 2,
-      "explanation": "La vallée de l’Amazone abrite la plus grande forêt tropicale du monde et joue un rôle crucial dans la régulation du climat global."
+      "imagePrompt": "Amazon valley rainforest Brazil aerial",
+      "answers": ["Environ 5 %", "Environ 10 %", "Environ 25 %", "Environ 40 %"],
+      "correctIndex": 1,
+      "explanation": "La forêt amazonienne abrite environ 10 % de toutes les espèces vivantes sur Terre — dont beaucoup ne sont pas encore répertoriées. Elle joue un rôle essentiel dans le stockage du carbone et la régulation du cycle de l'eau à l'échelle continentale."
     },
     {
       "id": "20",
-      "question": "Quelle vallée éthiopienne est connue pour sa diversité culturelle ?",
+      "question": "La vallée de l'Omo, en Éthiopie, est un trésor anthropologique. Quel grand projet infrastructurel menace aujourd'hui ses populations traditionnelles ?",
       "image": null,
-      "imagePrompt": "Omo valley",
-      "answers": ["Rift", "Nil Bleu", "Tana", "Omo"],
-      "correctIndex": 3,
-      "explanation": "La vallée de l’Omo est célèbre pour ses nombreuses ethnies aux traditions uniques, étudiées par les anthropologues du monde entier."
+      "imagePrompt": "Omo valley Ethiopia tribes indigenous",
+      "answers": ["La construction d'une autoroute transafricaine", "Un barrage hydroélectrique géant modifiant le fleuve", "L'exploitation minière intensive de la région", "Un projet d'irrigation pour l'agriculture intensive"],
+      "correctIndex": 1,
+      "explanation": "Le barrage Gibe III, mis en service en 2016 sur le fleuve Omo, a radicalement modifié les crues saisonnières dont dépendaient les populations locales (Mursi, Karo, Hamar...) pour leur agriculture de décrue. Des ONG dénoncent une menace existentielle pour ces cultures millénaires."
     }
   ]
 }

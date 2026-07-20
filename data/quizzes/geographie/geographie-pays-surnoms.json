@@ -2,7 +2,7 @@
   "slug": "quiz-geographie-pays-surnoms",
   "title": "Quiz Géographie Pays et leurs surnoms - sauras-tu les reconnaître ?",
   "description": "Teste tes connaissances avec 20 questions sur les surnoms célèbres des pays.",
-  "descriptionSeo": "Teste tes connaissances avec ce quiz géographie sur les surnoms des pays. Pays du Soleil-Levant, Pays de l’Oncle Sam, Pays des Mille Lacs, Pays du Dragon… sauras-tu associer chaque surnom au bon pays ? Ce quiz de 20 questions te permet de découvrir l’origine historique, culturelle et géographique de ces surnoms célèbres à travers le monde. Chaque question propose une explication enrichissante pour mieux comprendre ces appellations uniques.",
+  "descriptionSeo": "Découvre les surnoms les plus célèbres des pays du monde : Pays du Soleil-Levant, Pays de l'Oncle Sam, Pays du Matin Calme, Pays des Mille Lacs, Pays des Mille Éléphants, Nation Arc-en-ciel et bien d'autres. Teste tes connaissances grâce à 20 questions enrichissantes et découvre l'origine historique, culturelle ou géographique de ces appellations emblématiques.",
   "category": {
     "name": "Géographie",
     "slug": "geographie"
@@ -19,142 +19,242 @@
     {
       "id": "1",
       "question": "Quel pays est surnommé le « Pays du Soleil-Levant » ?",
-      "answers": ["Chine", "Corée du Sud", "Japon", "Thaïlande"],
+      "answers": [
+        "Chine",
+        "Corée du Sud",
+        "Japon",
+        "Thaïlande"
+      ],
       "correctIndex": 2,
       "explanation": "Le Japon est situé à l’est de l’Asie, là où le soleil se lève. Son nom japonais 'Nihon' signifie littéralement 'origine du soleil'."
     },
     {
       "id": "2",
       "question": "Quel pays est appelé le « Pays de l’Oncle Sam » ?",
-      "answers": ["Canada", "États-Unis", "Australie", "Royaume-Uni"],
+      "answers": [
+        "Canada",
+        "États-Unis",
+        "Australie",
+        "Royaume-Uni"
+      ],
       "correctIndex": 1,
       "explanation": "L’Oncle Sam est une figure symbolique représentant le gouvernement américain depuis le XIXe siècle."
     },
     {
       "id": "3",
       "question": "Quel pays est surnommé le « Pays des Mille Lacs » ?",
-      "answers": ["Suède", "Finlande", "Norvège", "Canada"],
+      "answers": [
+        "Suède",
+        "Finlande",
+        "Norvège",
+        "Canada"
+      ],
       "correctIndex": 1,
       "explanation": "La Finlande compte en réalité plus de 180 000 lacs, ce qui explique ce surnom largement utilisé."
     },
     {
       "id": "4",
-      "question": "Quel pays est appelé le « Pays du Dragon » ?",
-      "answers": ["Chine", "Vietnam", "Bhoutan", "Corée"],
+      "question": "Quel pays est surnommé le « Pays du Dragon Tonnerre » ?",
+      "answers": [
+        "Bhoutan",
+        "Chine",
+        "Mongolie",
+        "Népal"
+      ],
       "correctIndex": 0,
-      "explanation": "Le dragon est un symbole central de la culture chinoise, associé à la puissance et à la chance."
+      "explanation": "Le Bhoutan est connu sous le nom de « Druk Yul », qui signifie « Pays du Dragon Tonnerre ». Le dragon occupe une place centrale dans la culture et sur le drapeau national."
     },
     {
       "id": "5",
       "question": "Quel pays est surnommé le « Pays du Matin Calme » ?",
-      "answers": ["Japon", "Chine", "Corée du Sud", "Thaïlande"],
+      "answers": [
+        "Japon",
+        "Chine",
+        "Corée du Sud",
+        "Thaïlande"
+      ],
       "correctIndex": 2,
       "explanation": "Ce surnom poétique vient d’une ancienne appellation de la Corée, reflétant une image paisible et harmonieuse."
     },
     {
       "id": "6",
-      "question": "Quel pays est appelé le « Pays des Kangourous » ?",
-      "answers": ["Nouvelle-Zélande", "Australie", "Afrique du Sud", "Inde"],
+      "question": "Quel pays est surnommé le « Pays de Feu et de Glace » ?",
+      "answers": [
+        "Norvège",
+        "Islande",
+        "Canada",
+        "Russie"
+      ],
       "correctIndex": 1,
-      "explanation": "Le kangourou est un animal emblématique unique à l’Australie, présent même sur son blason."
+      "explanation": "L'Islande est surnommée le « Pays de Feu et de Glace » en raison de la coexistence de nombreux volcans actifs et de vastes glaciers sur son territoire."
     },
     {
       "id": "7",
-      "question": "Quel pays est surnommé le « Pays du Cèdre » ?",
-      "answers": ["Turquie", "Liban", "Grèce", "Iran"],
+      "question": "Quel pays est surnommé la « Terre du Long Nuage Blanc » ?",
+      "answers": [
+        "Australie",
+        "Nouvelle-Zélande",
+        "Canada",
+        "Islande"
+      ],
       "correctIndex": 1,
-      "explanation": "Le cèdre est un symbole national du Liban, présent sur son drapeau et lié à son histoire millénaire."
+      "explanation": "« Aotearoa », souvent traduit par « Terre du Long Nuage Blanc », est le nom maori de la Nouvelle-Zélande. Cette appellation est aujourd'hui largement utilisée dans le pays."
     },
     {
       "id": "8",
-      "question": "Quel pays est appelé le « Pays des Tulipes » ?",
-      "answers": ["Belgique", "Danemark", "Pays-Bas", "France"],
-      "correctIndex": 2,
-      "explanation": "Les Pays-Bas sont mondialement connus pour leurs champs de tulipes et leur production florale."
+      "question": "Quel pays est souvent surnommé le « Pays des Érables » ?",
+      "answers": [
+        "Canada",
+        "Suède",
+        "Finlande",
+        "États-Unis"
+      ],
+      "correctIndex": 0,
+      "explanation": "La feuille d'érable est le symbole national du Canada et figure au centre de son drapeau depuis 1965."
     },
     {
       "id": "9",
-      "question": "Quel pays est surnommé le « Pays du Nil » ?",
-      "answers": ["Égypte", "Soudan", "Éthiopie", "Kenya"],
+      "question": "Quel pays est surnommé le « Pays des Cèdres » ?",
+      "answers": [
+        "Liban",
+        "Turquie",
+        "Grèce",
+        "Chypre"
+      ],
       "correctIndex": 0,
-      "explanation": "L’Égypte dépend fortement du Nil, qui structure son agriculture et son peuplement."
+      "explanation": "Les célèbres cèdres du Liban sont un symbole national depuis l'Antiquité. Ils figurent au centre du drapeau libanais."
     },
     {
       "id": "10",
-      "question": "Quel pays est appelé le « Pays du Soleil de Minuit » ?",
-      "answers": ["Suède", "Norvège", "Finlande", "Islande"],
+      "question": "Quel pays est surnommé le « Pays des Mille Éléphants » ?",
+      "answers": [
+        "Thaïlande",
+        "Laos",
+        "Cambodge",
+        "Myanmar"
+      ],
       "correctIndex": 1,
-      "explanation": "En Norvège, le soleil ne se couche pas en été dans les régions proches du cercle polaire."
+      "explanation": "Le Laos est historiquement surnommé le « Pays des Mille Éléphants », en référence à l'ancien royaume de Lan Xang, fondé au XIVe siècle."
     },
     {
       "id": "11",
       "question": "Quel pays est surnommé le « Pays des Incas » ?",
-      "answers": ["Chili", "Bolivie", "Pérou", "Équateur"],
+      "answers": [
+        "Chili",
+        "Bolivie",
+        "Pérou",
+        "Équateur"
+      ],
       "correctIndex": 2,
       "explanation": "Le Pérou abrite le Machu Picchu, vestige majeur de la civilisation inca."
     },
-    {
-      "id": "12",
-      "question": "Quel pays est appelé le « Pays du Milieu » ?",
-      "answers": ["Japon", "Chine", "Corée", "Vietnam"],
-      "correctIndex": 1,
-      "explanation": "La Chine se considère historiquement comme le centre du monde, d’où ce surnom."
-    },
+   {
+  "id": "12",
+  "question": "Quel pays est surnommé la « Suisse de l'Amérique centrale » ?",
+  "answers": [
+    "Costa Rica",
+    "Panama",
+    "Guatemala",
+    "Belize"
+  ],
+  "correctIndex": 0,
+  "explanation": "Le Costa Rica est parfois surnommé la « Suisse de l'Amérique centrale » en raison de sa stabilité politique, de son niveau de vie relativement élevé et de l'absence d'armée depuis 1948."
+},
     {
       "id": "13",
       "question": "Quel pays est surnommé le « Pays des Mille Collines » ?",
-      "answers": ["Rwanda", "Burundi", "Kenya", "Ouganda"],
+      "answers": [
+        "Rwanda",
+        "Burundi",
+        "Kenya",
+        "Ouganda"
+      ],
       "correctIndex": 0,
       "explanation": "Le Rwanda possède un relief vallonné, ce qui lui vaut ce surnom très évocateur."
     },
     {
       "id": "14",
       "question": "Quel pays est appelé le « Pays du Tango » ?",
-      "answers": ["Espagne", "Mexique", "Argentine", "Brésil"],
+      "answers": [
+        "Espagne",
+        "Mexique",
+        "Argentine",
+        "Brésil"
+      ],
       "correctIndex": 2,
       "explanation": "Le tango est né à Buenos Aires et fait partie intégrante de la culture argentine."
     },
     {
       "id": "15",
       "question": "Quel pays est surnommé le « Pays de la Teranga » ?",
-      "answers": ["Mali", "Sénégal", "Côte d’Ivoire", "Guinée"],
+      "answers": [
+        "Mali",
+        "Sénégal",
+        "Côte d’Ivoire",
+        "Guinée"
+      ],
       "correctIndex": 1,
       "explanation": "La 'Teranga' signifie hospitalité en wolof, une valeur culturelle forte au Sénégal."
     },
     {
       "id": "16",
-      "question": "Quel pays est appelé le « Pays du Rugby » ?",
-      "answers": ["Nouvelle-Zélande", "Australie", "Afrique du Sud", "Angleterre"],
+      "question": "Quel pays est surnommé le « Pays du Sourire » ?",
+      "answers": [
+        "Thaïlande",
+        "Vietnam",
+        "Philippines",
+        "Malaisie"
+      ],
       "correctIndex": 0,
-      "explanation": "La Nouvelle-Zélande est célèbre pour son équipe des All Blacks et sa domination mondiale en rugby."
+      "explanation": "La Thaïlande est mondialement connue sous le surnom de « Pays du Sourire », qui fait référence à l'accueil chaleureux traditionnel de sa population."
     },
     {
       "id": "17",
       "question": "Quel pays est surnommé le « Pays des Fjords » ?",
-      "answers": ["Suède", "Norvège", "Islande", "Danemark"],
+      "answers": [
+        "Suède",
+        "Norvège",
+        "Islande",
+        "Danemark"
+      ],
       "correctIndex": 1,
       "explanation": "Les fjords norvégiens sont parmi les plus spectaculaires au monde, formés par les glaciers."
     },
-    {
-      "id": "18",
-      "question": "Quel pays est appelé le « Pays du Lotus » ?",
-      "answers": ["Inde", "Vietnam", "Thaïlande", "Cambodge"],
-      "correctIndex": 1,
-      "explanation": "Le lotus est un symbole national du Vietnam, représentant pureté et renaissance."
-    },
+{
+  "id": "18",
+  "question": "Quel pays est surnommé le « Pays du Café » ?",
+  "answers": [
+    "Colombie",
+    "Brésil",
+    "Éthiopie",
+    "Costa Rica"
+  ],
+  "correctIndex": 0,
+  "explanation": "La Colombie est mondialement connue pour la qualité de son café et est souvent surnommée le « Pays du Café ». La culture du café joue un rôle majeur dans son économie et son identité."
+},
     {
       "id": "19",
       "question": "Quel pays est surnommé le « Pays des Pharaons » ?",
-      "answers": ["Égypte", "Soudan", "Maroc", "Libye"],
+      "answers": [
+        "Égypte",
+        "Soudan",
+        "Maroc",
+        "Libye"
+      ],
       "correctIndex": 0,
       "explanation": "Les pharaons étaient les souverains de l’Égypte antique, une des civilisations les plus anciennes."
     },
     {
       "id": "20",
-      "question": "Quel pays est appelé le « Pays du Dragon Rouge » ?",
-      "answers": ["Chine", "Pays de Galles", "Bhoutan", "Mongolie"],
-      "correctIndex": 1,
-      "explanation": "Le dragon rouge est le symbole du Pays de Galles, présent sur son drapeau."
+      "question": "Quel pays est surnommé la « Nation Arc-en-ciel » ?",
+      "answers": [
+        "Afrique du Sud",
+        "Brésil",
+        "Australie",
+        "Canada"
+      ],
+      "correctIndex": 0,
+      "explanation": "L'Afrique du Sud est surnommée la « Nation Arc-en-ciel », une expression popularisée après la fin de l'apartheid pour mettre en avant la diversité culturelle et ethnique du pays."
     }
   ]
 }

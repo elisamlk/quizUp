@@ -25,24 +25,34 @@
       "correctIndex": 2,
       "explanation": "Le Vatican, avec moins d’un km², est trop petit pour toute infrastructure lourde. Il s’insère entièrement dans la ville de Rome, ce qui rend inutile la construction d’un aéroport propre."
     },
-    {
-      "id": "2",
-      "question": "Quel pays enclavé entre la Suisse et l’Autriche n’a pas d’aéroport ?",
-      "image": null,
-      "imagePrompt": "Liechtenstein mountains",
-      "answers": ["Andorre", "Luxembourg", "Slovénie", "Liechtenstein"],
-      "correctIndex": 3,
-      "explanation": "Le Liechtenstein combine deux contraintes majeures : une superficie très réduite et un relief alpin. Les habitants utilisent Zurich, illustrant l’intégration fonctionnelle transfrontalière en Europe."
-    },
-    {
-      "id": "3",
-      "question": "Quel pays utilise principalement les aéroports de Barcelone et Toulouse ?",
-      "image": null,
-      "imagePrompt": "Andorra mountains",
-      "answers": ["Andorre", "Monaco", "San Marin", "Malte"],
-      "correctIndex": 0,
-      "explanation": "Andorre est enclavée dans les Pyrénées. Le relief montagneux rend la construction d’un aéroport complexe et coûteuse, d’où une dépendance aux grandes villes voisines."
-    },
+ {
+  "id": "2",
+  "question": "Quel pays enclavé entre la Suisse et l’Autriche n’a pas d’aéroport ?",
+  "image": null,
+  "imagePrompt": "Liechtenstein mountains",
+  "answers": [
+    "Andorre",
+    "Luxembourg",
+    "Slovénie",
+    "Liechtenstein"
+  ],
+  "correctIndex": 3,
+  "explanation": "Le Liechtenstein est trop petit et trop montagneux pour accueillir un aéroport. Les voyageurs utilisent principalement l'aéroport international de Zurich, situé à moins de 120 km, même si l'aéroport régional de Saint-Gall-Altenrhein est plus proche."
+},
+   {
+  "id": "3",
+  "question": "Quel micro-État est aujourd'hui desservi par l'aéroport de La Seu d'Urgell–Andorra situé en Espagne ?",
+  "image": null,
+  "imagePrompt": "La Seu d'Urgell airport Andorra mountains",
+  "answers": [
+    "Andorre",
+    "Monaco",
+    "Saint-Marin",
+    "Liechtenstein"
+  ],
+  "correctIndex": 0,
+  "explanation": "La principauté d'Andorre ne possède toujours pas d'aéroport sur son territoire. Depuis 2022, l'aéroport de La Seu d'Urgell–Andorra, situé en Catalogne, assure toutefois une desserte aérienne dédiée à proximité de la frontière."
+},
     {
       "id": "4",
       "question": "Quel micro-État méditerranéen dépend de Nice pour ses vols ?",
@@ -56,8 +66,8 @@
       "id": "5",
       "question": "Quel pays dépend principalement de l’Italie pour ses vols internationaux ?",
       "image": null,
-      "imagePrompt": "San Marino hills",
-      "answers": ["San Marin", "Croatie", "Slovénie", "Albanie"],
+      "imagePrompt": "Saint-Marino hills",
+      "answers": ["Saint-Marin", "Croatie", "Slovénie", "Albanie"],
       "correctIndex": 0,
       "explanation": "Saint-Marin est totalement enclavé en Italie. Il fonctionne comme un territoire intégré aux infrastructures italiennes, notamment aériennes."
     },
@@ -79,8 +89,8 @@
       "id": "7",
       "question": "Quel pays est entièrement enclavé dans l’Italie ?",
       "image": null,
-      "imagePrompt": "San Marino map",
-      "answers": ["Monaco", "Vatican", "Andorre", "San Marin"],
+      "imagePrompt": "Saint-Marino map",
+      "answers": ["Monaco", "Vatican", "Andorre", "Saint-Marin"],
       "correctIndex": 3,
       "explanation": "Saint-Marin est un exemple typique d’État enclavé dont les flux économiques et logistiques dépendent entièrement d’un pays voisin."
     },
@@ -93,47 +103,57 @@
       "correctIndex": 1,
       "explanation": "L’aéroport de Nice joue un rôle de hub régional pour Monaco, illustrant la spécialisation des infrastructures à l’échelle transfrontalière."
     },
-    {
-      "id": "9",
-      "question": "Quel type de pays n’a généralement pas d’aéroport ?",
-      "image": null,
-      "imagePrompt": "microstate europe",
-      "answers": [
-        "Pays désertique",
-        "Pays insulaire",
-        "Micro-État",
-        "Grande puissance"
-      ],
-      "correctIndex": 2,
-      "explanation": "Les micro-États mutualisent souvent les infrastructures avec leurs voisins, ce qui reflète une forte intégration régionale."
-    },
-    {
-      "id": "10",
-      "question": "Quel pays alpin n’a pas d’aéroport ?",
-      "image": null,
-      "imagePrompt": "Liechtenstein Alps",
-      "answers": ["Italie", "Autriche", "Suisse", "Liechtenstein"],
-      "correctIndex": 3,
-      "explanation": "Le relief montagneux limite fortement les possibilités d’aménagement, surtout dans un territoire aussi restreint."
-    },
+ {
+  "id": "9",
+  "question": "Quel est le principal avantage pour un micro-État d'utiliser les aéroports de ses pays voisins ?",
+  "image": null,
+  "imagePrompt": "European airport transport network",
+  "answers": [
+    "Éviter le coût de construction et d'entretien d'un aéroport",
+    "Réduire les contrôles aux frontières",
+    "Accueillir davantage de compagnies aériennes",
+    "Éviter les taxes sur le carburant"
+  ],
+  "correctIndex": 0,
+  "explanation": "Construire un aéroport représente un investissement considérable. Pour des États très petits comme Monaco, le Vatican ou le Liechtenstein, il est plus efficace d'utiliser les infrastructures déjà présentes dans les pays voisins."
+},
+{
+  "id": "10",
+  "question": "Quel micro-État européen possède un héliport mais aucun aéroport ?",
+  "image": null,
+  "imagePrompt": "Monaco heliport coastline",
+  "answers": [
+    "Monaco",
+    "Vatican",
+    "Andorre",
+    "Liechtenstein"
+  ],
+  "correctIndex": 0,
+  "explanation": "Monaco ne dispose pas d'aéroport mais possède un héliport reliant notamment l'aéroport de Nice en quelques minutes. Cette solution compense le manque d'espace disponible pour une piste d'atterrissage."
+},
     {
       "id": "11",
       "question": "Quel pays dépend directement de Rome pour ses vols ?",
       "image": null,
       "imagePrompt": "Rome Vatican",
-      "answers": ["San Marin", "Monaco", "Vatican", "Andorre"],
+      "answers": ["Saint-Marin", "Monaco", "Vatican", "Andorre"],
       "correctIndex": 2,
       "explanation": "Le Vatican n’a aucune autonomie territoriale en matière d’infrastructures lourdes, ce qui renforce sa dépendance à l’Italie."
     },
-    {
-      "id": "12",
-      "question": "Quel pays sans aéroport est situé dans les Pyrénées ?",
-      "image": null,
-      "imagePrompt": "Andorra Pyrenees",
-      "answers": ["Andorre", "Liechtenstein", "Monaco", "San Marin"],
-      "correctIndex": 0,
-      "explanation": "Le cas d’Andorre montre comment le relief peut conditionner les infrastructures de transport."
-    },
+   {
+  "id": "12",
+  "question": "Quel aéroport espagnol est spécialement utilisé pour desservir la principauté d'Andorre ?",
+  "image": null,
+  "imagePrompt": "La Seu d'Urgell Andorra Airport",
+  "answers": [
+    "La Seu d'Urgell–Andorra",
+    "Barcelone-El Prat",
+    "Gérone-Costa Brava",
+    "Saragosse"
+  ],
+  "correctIndex": 0,
+  "explanation": "Ouvert aux vols commerciaux régionaux, l'aéroport de La Seu d'Urgell–Andorra est situé en Espagne, à proximité immédiate de la principauté. Il facilite désormais l'accès aérien à Andorre sans qu'un aéroport soit construit sur son territoire."
+},
     {
       "id": "13",
       "question": "Quel pays dépend de la Suisse pour ses transports aériens ?",
@@ -148,7 +168,7 @@
       "question": "Quel pays sans aéroport est situé sur la côte méditerranéenne ?",
       "image": null,
       "imagePrompt": "Monaco coast",
-      "answers": ["Andorre", "Monaco", "San Marin", "Liechtenstein"],
+      "answers": ["Andorre", "Monaco", "Saint-Marin", "Liechtenstein"],
       "correctIndex": 1,
       "explanation": "Monaco est un exemple extrême de densité urbaine où chaque mètre carré est optimisé, excluant toute grande infrastructure."
     },
@@ -157,59 +177,79 @@
       "question": "Quel est le plus petit pays du monde sans aéroport ?",
       "image": null,
       "imagePrompt": "Vatican aerial",
-      "answers": ["Liechtenstein", "San Marin", "Vatican", "Monaco"],
+      "answers": ["Liechtenstein", "Saint-Marin", "Vatican", "Monaco"],
       "correctIndex": 2,
       "explanation": "Avec moins de 1 km², le Vatican illustre parfaitement les limites physiques du développement d’infrastructures."
     },
-    {
-      "id": "16",
-      "question": "Quel pays dépend de Toulouse et Barcelone ?",
-      "image": null,
-      "imagePrompt": "Andorra map",
-      "answers": ["Andorre", "Monaco", "Liechtenstein", "Vatican"],
-      "correctIndex": 0,
-      "explanation": "Andorre dépend de deux grandes métropoles, ce qui montre l’importance des réseaux urbains régionaux."
-    },
-    {
-      "id": "17",
-      "question": "Quel pays est enclavé dans la France ?",
-      "image": null,
-      "imagePrompt": "Monaco France border",
-      "answers": ["Monaco", "Andorre", "Liechtenstein", "San Marin"],
-      "correctIndex": 0,
-      "explanation": "Monaco est entièrement entouré par la France, ce qui renforce son intégration logistique."
-    },
-    {
-      "id": "18",
-      "question": "Quel pays est totalement entouré par l’Italie ?",
-      "image": null,
-      "imagePrompt": "San Marino Italy",
-      "answers": ["Vatican", "San Marin", "Monaco", "Andorre"],
-      "correctIndex": 1,
-      "explanation": "Saint-Marin dépend des infrastructures italiennes pour ses connexions internationales."
-    },
-    {
-      "id": "19",
-      "question": "Quel pays est situé entre la Suisse et l’Autriche ?",
-      "image": null,
-      "imagePrompt": "Liechtenstein Alps",
-      "answers": ["Liechtenstein", "Monaco", "Andorre", "Vatican"],
-      "correctIndex": 0,
-      "explanation": "Sa position stratégique en Europe centrale facilite l’accès aux infrastructures voisines."
-    },
-    {
-      "id": "20",
-      "question": "Quel est le principal facteur expliquant l’absence d’aéroport ?",
-      "image": null,
-      "imagePrompt": "small country map",
-      "answers": [
-        "Climat",
-        "Population",
-        "Superficie trop réduite",
-        "Relief uniquement"
-      ],
-      "correctIndex": 2,
-      "explanation": "La taille du territoire reste le facteur déterminant, car elle conditionne la rentabilité et la faisabilité technique."
-    }
+   {
+  "id": "16",
+  "question": "Quel est le principal obstacle à la construction d'un aéroport en Andorre ?",
+  "image": null,
+  "imagePrompt": "Andorra steep Pyrenees valley",
+  "answers": [
+    "Le relief montagneux",
+    "Le climat désertique",
+    "Le manque d'électricité",
+    "L'absence de tourisme"
+  ],
+  "correctIndex": 0,
+  "explanation": "Située au cœur des Pyrénées, Andorre présente un relief très escarpé laissant peu d'espace pour aménager une piste d'atterrissage conforme aux normes de sécurité."
+},
+  {
+  "id": "17",
+  "question": "Quel est le principal aéroport international utilisé par les habitants du Liechtenstein ?",
+  "image": null,
+  "imagePrompt": "Zurich Airport terminal",
+  "answers": [
+    "Zurich",
+    "Munich",
+    "Innsbruck",
+    "Vienne"
+  ],
+  "correctIndex": 0,
+  "explanation": "Même si un petit aéroport régional existe à proximité, l'aéroport international de Zurich constitue la principale porte d'entrée aérienne pour les habitants du Liechtenstein."
+},
+  {
+  "id": "18",
+  "question": "Quel micro-État européen est considéré comme l'une des plus anciennes républiques encore existantes et ne possède aucun aéroport ?",
+  "image": null,
+  "imagePrompt": "Saint-Marino historic center",
+  "answers": [
+    "Vatican",
+    "Saint-Marin",
+    "Monaco",
+    "Andorre"
+  ],
+  "correctIndex": 1,
+  "explanation": "Fondé selon la tradition au IVᵉ siècle, Saint-Marin est souvent présenté comme la plus ancienne république du monde encore en activité. Faute d'espace et en raison de son relief, il ne possède aucun aéroport et dépend des infrastructures italiennes."
+},
+  {
+  "id": "19",
+  "question": "Pourquoi les micro-États européens construisent-ils rarement leur propre aéroport ?",
+  "image": null,
+  "imagePrompt": "European microstates map transport",
+  "answers": [
+    "Les infrastructures voisines répondent déjà aux besoins",
+    "Les avions y sont interdits",
+    "Ils n'ont pas d'espace aérien",
+    "Ils sont uniquement accessibles par bateau"
+  ],
+  "correctIndex": 0,
+  "explanation": "Pour des États très petits comme Monaco, le Vatican ou le Liechtenstein, construire un aéroport représenterait un coût considérable alors que des infrastructures performantes existent à quelques kilomètres seulement."
+},
+ {
+  "id": "20",
+  "question": "Parmi ces États européens, lequel possède un aéroport sur son propre territoire ?",
+  "image": null,
+  "imagePrompt": "Luxembourg Airport runway",
+  "answers": [
+    "Luxembourg",
+    "Monaco",
+    "Andorre",
+    "Liechtenstein"
+  ],
+  "correctIndex": 0,
+  "explanation": "Contrairement aux micro-États voisins, le Luxembourg dispose de l'aéroport international de Luxembourg-Findel. Sa superficie plus importante lui permet d'accueillir cette infrastructure stratégique."
+}
   ]
 }

@@ -1,6 +1,6 @@
 {
   "slug": "quiz-geographie-pays-producteurs-petrole",
-  "title": "Quiz Géographie Pays Producteurs de Pétrole - 20 questions enrichissantes",
+  "title": "Quiz Géographie – Pays producteurs de pétrole et enjeux énergétiques",
   "description": "Teste tes connaissances sur les principaux pays producteurs de pétrole avec 20 questions enrichissantes.",
   "descriptionSeo": "Les pays producteurs de pétrole jouent un rôle central dans l’économie mondiale et les équilibres géopolitiques. Ce quiz de géographie vous propose 20 questions pour tester vos connaissances sur les plus grands producteurs comme l’Arabie saoudite, les États-Unis, la Russie ou encore le Venezuela. Découvrez les zones de production, les enjeux énergétiques et les impacts économiques. Chaque question est accompagnée d’une explication détaillée pour enrichir votre culture générale.",
   "category": {
@@ -21,7 +21,12 @@
       "question": "Quel pays est l’un des plus grands producteurs de pétrole au monde ?",
       "image": null,
       "imagePrompt": "oil production USA rigs",
-      "answers": ["France", "États-Unis", "Japon", "Espagne"],
+      "answers": [
+        "France",
+        "États-Unis",
+        "Japon",
+        "Espagne"
+      ],
       "correctIndex": 1,
       "explanation": "Les États-Unis sont devenus l’un des premiers producteurs mondiaux grâce à l’exploitation du pétrole de schiste, transformant profondément le marché énergétique mondial."
     },
@@ -30,7 +35,12 @@
       "question": "Quel pays du Moyen-Orient est célèbre pour ses vastes réserves de pétrole ?",
       "image": null,
       "imagePrompt": "Saudi oil fields",
-      "answers": ["Arabie saoudite", "Turquie", "Liban", "Jordanie"],
+      "answers": [
+        "Arabie saoudite",
+        "Turquie",
+        "Liban",
+        "Jordanie"
+      ],
       "correctIndex": 0,
       "explanation": "L’Arabie saoudite possède certaines des plus grandes réserves de pétrole au monde et joue un rôle clé au sein de l’OPEP."
     },
@@ -39,7 +49,12 @@
       "question": "Quel pays est un grand producteur de pétrole en Amérique du Sud ?",
       "image": null,
       "imagePrompt": "Venezuela oil",
-      "answers": ["Chili", "Pérou", "Venezuela", "Bolivie"],
+      "answers": [
+        "Chili",
+        "Pérou",
+        "Venezuela",
+        "Bolivie"
+      ],
       "correctIndex": 2,
       "explanation": "Le Venezuela possède les plus grandes réserves prouvées de pétrole au monde, bien que sa production ait fortement chuté ces dernières années."
     },
@@ -48,16 +63,26 @@
       "question": "Quel pays africain est un important producteur de pétrole ?",
       "image": null,
       "imagePrompt": "Nigeria oil industry",
-      "answers": ["Kenya", "Maroc", "Nigéria", "Éthiopie"],
+      "answers": [
+        "Kenya",
+        "Maroc",
+        "Nigéria",
+        "Éthiopie"
+      ],
       "correctIndex": 2,
-      "explanation": "Le Nigéria est le premier producteur de pétrole en Afrique, avec une économie fortement dépendante de cette ressource."
+      "explanation": "Le Nigéria figure parmi les principaux producteurs de pétrole d'Afrique. Son économie dépend largement des exportations d'hydrocarbures, notamment issues du delta du Niger."
     },
     {
       "id": "5",
       "question": "Quel pays est un grand exportateur de pétrole en Europe ?",
       "image": null,
       "imagePrompt": "Norway oil platform",
-      "answers": ["Allemagne", "Norvège", "Italie", "Pologne"],
+      "answers": [
+        "Allemagne",
+        "Norvège",
+        "Italie",
+        "Pologne"
+      ],
       "correctIndex": 1,
       "explanation": "La Norvège exploite les ressources de la mer du Nord et est l’un des principaux exportateurs de pétrole et de gaz en Europe."
     },
@@ -66,7 +91,12 @@
       "question": "Quel pays est l’un des principaux producteurs de pétrole en Eurasie ?",
       "image": null,
       "imagePrompt": "Russia oil fields",
-      "answers": ["Russie", "Ukraine", "Kazakhstan", "Turquie"],
+      "answers": [
+        "Russie",
+        "Ukraine",
+        "Kazakhstan",
+        "Turquie"
+      ],
       "correctIndex": 0,
       "explanation": "La Russie est l’un des plus grands producteurs mondiaux et utilise ses ressources énergétiques comme levier géopolitique."
     },
@@ -75,7 +105,12 @@
       "question": "Quel pays du Golfe possède une grande richesse pétrolière ?",
       "image": null,
       "imagePrompt": "UAE oil",
-      "answers": ["Émirats arabes unis", "Yémen", "Oman", "Syrie"],
+      "answers": [
+        "Émirats arabes unis",
+        "Yémen",
+        "Oman",
+        "Syrie"
+      ],
       "correctIndex": 0,
       "explanation": "Les Émirats arabes unis disposent de vastes réserves et ont diversifié leur économie grâce aux revenus pétroliers."
     },
@@ -84,7 +119,12 @@
       "question": "Quel pays est un producteur majeur de pétrole en Amérique du Nord ?",
       "image": null,
       "imagePrompt": "Canada oil sands",
-      "answers": ["Mexique", "Canada", "Cuba", "Panama"],
+      "answers": [
+        "Mexique",
+        "Canada",
+        "Cuba",
+        "Panama"
+      ],
       "correctIndex": 1,
       "explanation": "Le Canada exploite notamment les sables bitumineux, une source importante mais controversée pour son impact environnemental."
     },
@@ -93,7 +133,12 @@
       "question": "Quel pays du Moyen-Orient possède d’importantes réserves pétrolières ?",
       "image": null,
       "imagePrompt": "Iraq oil fields",
-      "answers": ["Irak", "Liban", "Israël", "Jordanie"],
+      "answers": [
+        "Irak",
+        "Liban",
+        "Israël",
+        "Jordanie"
+      ],
       "correctIndex": 0,
       "explanation": "L’Irak possède d’importantes réserves de pétrole, principalement dans le sud du pays, et joue un rôle clé dans l’OPEP."
     },
@@ -102,7 +147,12 @@
       "question": "Quel pays d’Afrique du Nord est un grand producteur de pétrole ?",
       "image": null,
       "imagePrompt": "Algeria oil desert",
-      "answers": ["Tunisie", "Maroc", "Égypte", "Algérie"],
+      "answers": [
+        "Tunisie",
+        "Maroc",
+        "Égypte",
+        "Algérie"
+      ],
       "correctIndex": 3,
       "explanation": "L’Algérie est un acteur majeur de l’énergie en Afrique du Nord, exportant pétrole et gaz vers l’Europe."
     },
@@ -111,7 +161,12 @@
       "question": "Quel pays est membre de l’OPEP et grand producteur de pétrole ?",
       "image": null,
       "imagePrompt": "Kuwait oil",
-      "answers": ["Koweït", "Grèce", "Portugal", "Autriche"],
+      "answers": [
+        "Koweït",
+        "Grèce",
+        "Portugal",
+        "Autriche"
+      ],
       "correctIndex": 0,
       "explanation": "Le Koweït possède une économie largement basée sur le pétrole, avec une production importante rapportée à sa population."
     },
@@ -120,43 +175,68 @@
       "question": "Quel pays d’Amérique latine produit du pétrole offshore ?",
       "image": null,
       "imagePrompt": "Brazil offshore oil",
-      "answers": ["Argentine", "Brésil", "Uruguay", "Paraguay"],
+      "answers": [
+        "Argentine",
+        "Brésil",
+        "Uruguay",
+        "Paraguay"
+      ],
       "correctIndex": 1,
       "explanation": "Le Brésil exploite d’importants gisements offshore, notamment dans les zones pré-salifères profondes."
     },
     {
       "id": "13",
-      "question": "Quel pays est un grand producteur en Afrique centrale ?",
+      "question": "Quel pays d’Afrique australe est un important producteur de pétrole offshore ?",
       "image": null,
-      "imagePrompt": "Angola oil",
-      "answers": ["Angola", "Cameroun", "Gabon", "Congo"],
+      "imagePrompt": "Angola offshore oil platform",
+      "answers": [
+        "Angola",
+        "Botswana",
+        "Lesotho",
+        "Zimbabwe"
+      ],
       "correctIndex": 0,
-      "explanation": "L’Angola est l’un des principaux producteurs africains et dépend fortement de ses exportations pétrolières."
+      "explanation": "L’Angola figure parmi les principaux producteurs de pétrole d’Afrique. Une grande partie de ses gisements est exploitée en mer, au large de sa façade atlantique."
     },
     {
       "id": "14",
       "question": "Quel pays d’Asie centrale produit du pétrole ?",
       "image": null,
       "imagePrompt": "Kazakhstan oil",
-      "answers": ["Kazakhstan", "Afghanistan", "Népal", "Bhoutan"],
+      "answers": [
+        "Kazakhstan",
+        "Afghanistan",
+        "Népal",
+        "Bhoutan"
+      ],
       "correctIndex": 0,
       "explanation": "Le Kazakhstan possède d’importantes réserves et joue un rôle stratégique entre Europe et Asie."
     },
     {
       "id": "15",
-      "question": "Quel pays est un grand producteur en mer du Nord ?",
+      "question": "Dans quel pays se trouvent les vastes sables bitumineux de l’Alberta ?",
       "image": null,
-      "imagePrompt": "North Sea oil rigs",
-      "answers": ["Norvège", "Suède", "Finlande", "Danemark"],
+      "imagePrompt": "Alberta oil sands Canada",
+      "answers": [
+        "Canada",
+        "Norvège",
+        "Russie",
+        "Mexique"
+      ],
       "correctIndex": 0,
-      "explanation": "La Norvège tire une grande partie de sa richesse de l’exploitation pétrolière offshore en mer du Nord."
+      "explanation": "Les sables bitumineux de l’Alberta constituent une part majeure des réserves pétrolières du Canada. Leur exploitation nécessite toutefois beaucoup d’énergie et soulève d’importantes préoccupations environnementales."
     },
     {
       "id": "16",
       "question": "Quel pays du Golfe est riche en pétrole et gaz ?",
       "image": null,
       "imagePrompt": "Qatar gas oil",
-      "answers": ["Qatar", "Yémen", "Liban", "Syrie"],
+      "answers": [
+        "Qatar",
+        "Yémen",
+        "Liban",
+        "Syrie"
+      ],
       "correctIndex": 0,
       "explanation": "Le Qatar est particulièrement riche en gaz naturel mais possède aussi des ressources pétrolières importantes."
     },
@@ -165,25 +245,40 @@
       "question": "Quel pays africain exporte du pétrole depuis le golfe de Guinée ?",
       "image": null,
       "imagePrompt": "Gabon oil",
-      "answers": ["Gabon", "Mali", "Niger", "Tchad"],
+      "answers": [
+        "Gabon",
+        "Mali",
+        "Niger",
+        "Tchad"
+      ],
       "correctIndex": 0,
-      "explanation": "Le Gabon est un producteur de pétrole important à l’échelle africaine, avec une économie fortement dépendante de cette ressource."
+      "explanation": "Le Gabon est l'un des principaux producteurs de pétrole par habitant en Afrique. Les hydrocarbures représentent une part importante de ses exportations et de son économie."
     },
     {
       "id": "18",
-      "question": "Quel pays est un producteur majeur en Amérique du Nord avec le pétrole de schiste ?",
+      "question": "Quel détroit stratégique voit transiter une part importante du pétrole exporté par les pays du Golfe ?",
       "image": null,
-      "imagePrompt": "USA shale oil",
-      "answers": ["Canada", "États-Unis", "Mexique", "Cuba"],
+      "imagePrompt": "Strait of Hormuz oil tanker map",
+      "answers": [
+        "Détroit de Gibraltar",
+        "Détroit d’Ormuz",
+        "Détroit de Béring",
+        "Bosphore"
+      ],
       "correctIndex": 1,
-      "explanation": "Les États-Unis ont révolutionné le marché grâce au pétrole de schiste, devenant un leader mondial."
+      "explanation": "Le détroit d’Ormuz relie le golfe Persique au golfe d’Oman. Il constitue l’un des passages maritimes les plus stratégiques pour le transport mondial de pétrole."
     },
     {
       "id": "19",
       "question": "Quel pays d’Afrique est membre de l’OPEP ?",
       "image": null,
       "imagePrompt": "Libya oil desert",
-      "answers": ["Libye", "Maroc", "Kenya", "Sénégal"],
+      "answers": [
+        "Libye",
+        "Maroc",
+        "Kenya",
+        "Sénégal"
+      ],
       "correctIndex": 0,
       "explanation": "La Libye possède d’importantes réserves pétrolières, bien que sa production soit instable en raison de conflits politiques."
     },
@@ -192,7 +287,12 @@
       "question": "Quel pays du Moyen-Orient est un grand exportateur de pétrole ?",
       "image": null,
       "imagePrompt": "Iran oil fields",
-      "answers": ["Iran", "Israël", "Liban", "Jordanie"],
+      "answers": [
+        "Iran",
+        "Israël",
+        "Liban",
+        "Jordanie"
+      ],
       "correctIndex": 0,
       "explanation": "L’Iran dispose de vastes réserves de pétrole et de gaz, mais son exportation est souvent affectée par les sanctions internationales."
     }

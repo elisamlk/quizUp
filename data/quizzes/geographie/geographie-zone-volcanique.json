@@ -2,7 +2,7 @@
   "slug": "quiz-zones-volcaniques-monde",
   "title": "Quiz Géographie - Zones volcaniques",
   "description": "Teste tes connaissances sur les zones volcaniques du monde et comprends où et pourquoi les volcans se forment.",
-  "descriptionSeo": "Où se trouvent les principales zones volcaniques du monde ? De la ceinture de feu du Pacifique aux points chauds comme Hawaï ou l’Islande, ce quiz de géographie te propose 20 questions pour comprendre le volcanisme. Découvre les liens entre plaques tectoniques, subduction et activité volcanique, avec des explications détaillées pour mieux saisir ces phénomènes naturels spectaculaires.",
+  "descriptionSeo": "Où se trouvent les principales zones volcaniques du monde ? De la ceinture de feu du Pacifique aux points chauds comme Hawaï ou l'Islande, ce quiz de géographie te propose 20 questions pour comprendre le volcanisme. Découvre les liens entre plaques tectoniques, subduction et activité volcanique, avec des explications détaillées pour mieux saisir ces phénomènes naturels spectaculaires.",
   "category": {
     "name": "Géographie",
     "slug": "geographie"
@@ -18,183 +18,183 @@
   "questions": [
     {
       "id": "1",
-      "question": "Quelle zone concentre la majorité des volcans actifs sur Terre ?",
+      "question": "La ceinture de feu du Pacifique concentre environ 75 % des volcans actifs de la planète. Sur quelle longueur s'étire-t-elle autour de l'océan Pacifique ?",
       "image": null,
-      "imagePrompt": "Pacific Ring of Fire volcano map",
-      "answers": ["Ceinture de feu du Pacifique", "Atlantique Nord", "Afrique centrale", "Europe de l’Est"],
-      "correctIndex": 0,
-      "explanation": "La ceinture de feu du Pacifique regroupe environ 75 % des volcans actifs. Elle correspond à des zones de subduction où une plaque tectonique plonge sous une autre, générant du magma et donc des éruptions fréquentes."
+      "imagePrompt": "Pacific Ring of Fire volcano map arc subduction",
+      "answers": ["Environ 5 000 km", "Environ 15 000 km", "Environ 40 000 km", "Plus de 80 000 km"],
+      "correctIndex": 2,
+      "explanation": "La ceinture de feu du Pacifique s'étend sur environ 40 000 km en forme de fer à cheval, des Andes à l'Amérique du Sud jusqu'au Japon, aux Philippines et à la Nouvelle-Zélande. Elle correspond à une succession de zones de subduction où des plaques océaniques plongent sous des plaques continentales, générant du magma riche en silice et en gaz — source des éruptions les plus explosives et des séismes les plus puissants."
     },
     {
       "id": "2",
-      "question": "Quel pays compte l’un des plus grands nombres de volcans actifs au monde ?",
+      "question": "L'Indonésie abrite environ 130 volcans actifs. Quelle configuration tectonique unique explique cette concentration exceptionnelle ?",
       "image": null,
-      "imagePrompt": "Indonesia volcanoes map",
-      "answers": ["Indonésie", "Canada", "France", "Égypte"],
-      "correctIndex": 0,
-      "explanation": "L’Indonésie se situe sur la ceinture de feu et possède plus d’une centaine de volcans actifs. Cette situation résulte de la convergence de plusieurs plaques tectoniques dans la région."
+      "imagePrompt": "Indonesia tectonic plates volcanoes Java Sumatra Sulawesi",
+      "answers": ["L'Indonésie est entièrement construite sur un point chaud, comme Hawaï mais à plus grande échelle", "L'Indonésie se trouve à la confluence de trois grandes plaques tectoniques générant de multiples zones de subduction", "L'Indonésie repose sur une dorsale océanique en expansion rapide", "L'Indonésie est traversée par la plus longue faille transformante du monde"],
+      "correctIndex": 1,
+      "explanation": "L'Indonésie se trouve à la jonction de trois plaques majeures — eurasienne, australienne et pacifique — créant plusieurs zones de subduction simultanées. Cet archipel de 17 000 îles est en réalité le produit direct de cette activité volcanique et sismique intense. L'éruption du Tambora (1815), la plus puissante de l'histoire humaine enregistrée, et celle du Krakatoa (1883) illustrent l'extrême dangerosité de ce contexte géologique."
     },
     {
       "id": "3",
-      "question": "Quel type de limite de plaques est le plus associé au volcanisme explosif ?",
+      "question": "Les zones de subduction produisent les volcans les plus explosifs. Pourquoi le magma y est-il plus visqueux et plus dangereux que dans d'autres contextes volcaniques ?",
       "image": null,
-      "imagePrompt": "subduction volcano diagram",
-      "answers": ["Divergente", "Transformante", "Subduction", "Passive"],
-      "correctIndex": 2,
-      "explanation": "Les zones de subduction produisent des volcans explosifs car le magma y est visqueux et riche en gaz. Cela provoque des éruptions violentes, comme celles du mont Saint Helens ou du Vésuve."
+      "imagePrompt": "subduction volcano diagram explosive eruption andesite magma",
+      "answers": ["Parce qu'il est beaucoup plus chaud que le magma des dorsales océaniques", "Parce qu'il est enrichi en eau et en silice, piégée dans la croûte océanique subduite", "Parce qu'il provient directement du noyau terrestre, plus dense", "Parce qu'il se refroidit rapidement au contact de l'eau de mer avant d'atteindre la surface"],
+      "correctIndex": 1,
+      "explanation": "Quand une plaque océanique plonge dans le manteau, elle libère l'eau contenue dans ses sédiments et minéraux. Cette eau abaisse le point de fusion des roches du manteau sus-jacent, créant un magma particulièrement riche en silice et en eau dissoute. Ce magma visqueux piège les gaz qui s'expansent brutalement lors de l'éruption — comme un bouchon de champagne. C'est ce mécanisme qui produit les éruptions explosives des stratovolcans (Vésuve, mont Saint Helens, Pinatubo)."
     },
     {
       "id": "4",
-      "question": "Quel pays européen est célèbre pour ses volcans comme l’Etna et le Vésuve ?",
+      "question": "L'Italie abrite l'Etna, le Vésuve et le Stromboli. Lequel de ces trois volcans est en activité quasi permanente depuis environ 2 000 ans, lui valant le surnom de « phare de la Méditerranée » ?",
       "image": null,
-      "imagePrompt": "Etna volcano eruption",
-      "answers": ["Grèce", "Italie", "Espagne", "Allemagne"],
-      "correctIndex": 1,
-      "explanation": "L’Italie est située sur une zone de convergence entre plaques africaine et eurasienne. Cela explique la présence de volcans actifs majeurs, souvent proches de zones densément peuplées."
+      "imagePrompt": "Stromboli Italy night eruption lava Aeolian Islands Mediterranean",
+      "answers": ["L'Etna, le plus grand volcan d'Europe", "Le Vésuve, qui menace Naples depuis l'Antiquité", "Le Stromboli, dont les explosions rythmiques sont visibles depuis la mer", "Les trois volcans sont également actifs en permanence"],
+      "correctIndex": 2,
+      "explanation": "Le Stromboli, dans les îles Éoliennes, est en éruption quasi continue depuis au moins 2 000 ans — projetant des bombes de lave incandescentes toutes les 15 à 20 minutes en moyenne. Ses lueurs nocturnes ont guidé les navigateurs antiques, lui valant le surnom de « phare de la Méditerranée ». Ce type d'activité modérée mais constante a même donné son nom à un style éruptif scientifique : le « strombolisme »."
     },
     {
       "id": "5",
-      "question": "Quel type de volcan est typique des points chauds comme Hawaï ?",
+      "question": "Les volcans boucliers d'Hawaï produisent des laves très fluides. Quelle est la principale différence de composition chimique entre leur magma et celui des stratovolcans explosifs ?",
       "image": null,
-      "imagePrompt": "shield volcano Hawaii",
-      "answers": ["Volcan bouclier", "Stratovolcan", "Caldeira explosive", "Dôme de lave"],
-      "correctIndex": 0,
-      "explanation": "Les volcans boucliers, comme à Hawaï, produisent des laves fluides qui s’écoulent facilement. Ils forment de vastes reliefs peu pentus, contrairement aux volcans explosifs."
+      "imagePrompt": "Hawaii shield volcano Kilauea lava flow basalt fluid",
+      "answers": ["Le magma hawaïen est plus riche en silice, ce qui le rend plus fluide", "Le magma hawaïen est basaltique, pauvre en silice et peu chargé en gaz dissous", "Le magma hawaïen est plus froid que celui des stratovolcans, ce qui réduit les explosions", "Le magma hawaïen contient du soufre pur qui brûle sans exploser"],
+      "correctIndex": 1,
+      "explanation": "Le magma basaltique hawaïen est pauvre en silice (environ 50 %) et peu visqueux — il s'écoule comme du miel chaud plutôt que comme de la pâte à modeler. Les gaz s'échappent facilement sans accumuler de pression, produisant des fontaines de lave spectaculaires mais rarement mortelles. À l'opposé, le magma andésitique ou rhyolitique des stratovolcans contient 60 à 75 % de silice, piège les gaz et produit des explosions cataclysmiques."
     },
     {
       "id": "6",
-      "question": "Pourquoi l’Islande est-elle très volcanique ?",
+      "question": "L'Islande est l'une des zones les plus volcaniques du monde. Elle bénéficie d'une double singularité géologique. Laquelle ?",
       "image": null,
-      "imagePrompt": "Iceland volcano rift",
-      "answers": ["Climat froid", "Présence d’un désert", "Dorsale océanique", "Relief montagneux"],
-      "correctIndex": 2,
-      "explanation": "L’Islande se situe sur la dorsale médio-atlantique, une zone où les plaques s’écartent. Le magma remonte alors facilement, créant une activité volcanique intense."
+      "imagePrompt": "Iceland volcano rift mid-Atlantic ridge hotspot lava field",
+      "answers": ["Elle est la seule île construite entièrement sur une faille transformante et un point chaud simultanément", "Elle se trouve à la fois sur la dorsale médio-atlantique et au-dessus d'un point chaud mantellique", "Elle repose sur la plus ancienne croûte océanique du monde, qui se réchauffe par accumulation radioactive", "Elle est traversée par une zone de subduction unique dans l'Atlantique Nord"],
+      "correctIndex": 1,
+      "explanation": "L'Islande cumule deux sources d'activité volcanique : la dorsale médio-atlantique (les plaques eurasienne et nord-américaine s'écartent de 2 cm/an) ET un point chaud mantellique qui fournit un surplus de magma. Cette double alimentation explique pourquoi l'Islande est émergée alors que le reste de la dorsale est sous-marin. Elle aurait produit environ un tiers de toute la lave émise à la surface de la Terre depuis 1500."
     },
     {
       "id": "7",
-      "question": "Quel volcan célèbre a détruit la ville de Pompéi en 79 ?",
+      "question": "Le Vésuve a détruit Pompéi en 79 ap. J.-C. Combien de personnes vivent aujourd'hui dans la zone rouge d'évacuation prioritaire autour de ce volcan, en faisant l'un des scénarios de risque volcanique les plus préoccupants au monde ?",
       "image": null,
-      "imagePrompt": "Vesuvius Pompeii",
-      "answers": ["Etna", "Vésuve", "Stromboli", "Fuji"],
-      "correctIndex": 1,
-      "explanation": "L’éruption du Vésuve a enseveli Pompéi sous les cendres. Cet événement est un exemple majeur de volcanisme explosif en zone densément peuplée."
+      "imagePrompt": "Vesuvius Naples eruption risk zone population density",
+      "answers": ["Environ 50 000 personnes", "Environ 200 000 personnes", "Environ 700 000 personnes", "Plus de 3 millions de personnes"],
+      "correctIndex": 2,
+      "explanation": "Environ 700 000 personnes vivent dans la zone rouge du Vésuve — la zone d'évacuation prioritaire en cas d'éruption imminente. Le plan d'urgence italien prévoit de les déplacer en 72 heures, un défi logistique colossal. En sommeil depuis sa dernière éruption en 1944, le Vésuve reste un volcan potentiellement actif : les modèles géologiques suggèrent qu'une future éruption pourrait être plus violente que celle de 79, car la pression dans le réservoir magmatique s'accumule depuis 80 ans."
     },
     {
       "id": "8",
-      "question": "Quelle région d’Afrique est liée à une activité volcanique due à l’ouverture d’un continent ?",
+      "question": "Le Rift est-africain est une zone volcanique liée à la fracturation du continent africain. Dans combien de millions d'années ce processus pourrait-il aboutir à la formation d'un nouvel océan ?",
       "image": null,
-      "imagePrompt": "East African Rift volcano",
-      "answers": ["Atlas", "Sahara", "Rift est-africain", "Sahel"],
+      "imagePrompt": "East African Rift Valley volcano Ethiopia Kenya fracture new ocean",
+      "answers": ["Dans environ 1 million d'années", "Dans environ 10 millions d'années", "Dans environ 50 millions d'années", "Dans environ 500 millions d'années"],
       "correctIndex": 2,
-      "explanation": "Le Rift est-africain est une zone où la croûte terrestre se fracture. Ce phénomène crée des volcans et pourrait à long terme former un nouvel océan."
+      "explanation": "Les géologues estiment qu'il faudra environ 50 millions d'années pour que la Corne de l'Afrique se sépare complètement du reste du continent et qu'un nouvel océan se forme. Le processus est déjà visible : en 2005, une fissure de 60 km s'est ouverte en quelques jours en Éthiopie. Le lac Assal (Djibouti), à 155 m sous le niveau de la mer, est l'endroit où le futur océan commencera à envahir la terre. Les volcans du Kilimanjaro, du Nyiragongo et de l'Erta Ale marquent cette déchirure continentale en cours."
     },
     {
       "id": "9",
-      "question": "Quel pays abrite le volcan Fuji ?",
+      "question": "Le mont Fuji est le point culminant du Japon à 3 776 m. Quel type de volcan est-il, et quelle caractéristique morphologique lui vaut sa silhouette si reconnaissable ?",
       "image": null,
-      "imagePrompt": "Mount Fuji",
-      "answers": ["Chine", "Corée", "Japon", "Vietnam"],
-      "correctIndex": 2,
-      "explanation": "Le mont Fuji est un stratovolcan emblématique situé au Japon, pays fortement marqué par l’activité volcanique liée à la subduction."
+      "imagePrompt": "Mount Fuji Japan stratovolcano perfect cone snow symmetric",
+      "answers": ["Un volcan bouclier, dont la lave fluide a construit progressivement un cône large et peu pentu", "Un stratovolcan, dont les alternances de lave et de cendres ont construit un cône symétrique aux pentes raides", "Un volcan de point chaud, similaire aux volcans hawaïens mais en milieu continental", "Une caldeira effondrée, dont les bords érodés forment un cône apparent"],
+      "correctIndex": 1,
+      "explanation": "Le Fuji est un stratovolcan — aussi appelé volcan composite — construit par l'alternance de coulées de lave solidifiées et de dépôts de cendres et de téphras. Ces couches successives créent une structure solide aux pentes raides et un cône quasi parfaitement symétrique. Cette morphologie élégante en a fait le symbole national japonais et l'un des sujets les plus représentés dans l'art mondial, notamment dans les 36 estampes d'Hokusai."
     },
     {
       "id": "10",
-      "question": "Quel océan est entouré par la principale zone volcanique mondiale ?",
+      "question": "Le point chaud d'Hawaï produit une chaîne d'îles en déplacement. Pourquoi les îles les plus anciennes se trouvent-elles au nord-ouest de l'archipel, alors que l'activité volcanique est maximale au sud-est ?",
       "image": null,
-      "imagePrompt": "Pacific volcanoes",
-      "answers": ["Atlantique", "Indien", "Arctique", "Pacifique"],
-      "correctIndex": 3,
-      "explanation": "Le Pacifique est bordé par la ceinture de feu, ce qui en fait l’océan le plus actif volcanique et sismiquement."
+      "imagePrompt": "Hawaii hotspot chain islands aging northwest Pacific plate movement",
+      "answers": ["Les vents dominants déplacent les cendres et les laves vers le nord-ouest, construisant de nouvelles îles à distance", "La plaque pacifique se déplace vers le nord-ouest au-dessus du point chaud fixe, déplaçant les îles au fil du temps", "Les courants marins érodent préférentiellement le côté nord-ouest des îles, les faisant migrer en apparence", "Le point chaud lui-même se déplace vers le sud-est, abandonnant les anciennes îles au nord-ouest"],
+      "correctIndex": 1,
+      "explanation": "Le point chaud hawaïen est une anomalie thermique fixe dans le manteau. C'est la plaque pacifique qui se déplace par-dessus lui, vers le nord-ouest, à environ 7 cm par an. Les îles les plus jeunes (Hawaï, Maui) sont directement au-dessus du point chaud et volcaniquement actives ; les plus anciennes (Kauai, Niihau) en sont éloignées et érodées. Plus au nord-ouest encore, la chaîne des monts sous-marins de l'Empereur prolonge cette logique sur des dizaines de millions d'années."
     },
     {
       "id": "11",
-      "question": "Pourquoi les volcans sont-ils rares au centre des continents ?",
+      "question": "Les stratovolcans sont considérés comme les plus dangereux pour les populations. Quel phénomène associé à leur éruption est souvent plus meurtrier que la lave elle-même ?",
       "image": null,
-      "imagePrompt": "tectonic plate interior",
-      "answers": ["Climat sec", "Absence de magma", "Éloignement des limites de plaques", "Altitude"],
-      "correctIndex": 2,
-      "explanation": "Les volcans se forment principalement aux frontières des plaques tectoniques. Les centres continentaux sont généralement stables."
+      "imagePrompt": "pyroclastic flow nuée ardente stratovolcano eruption deadly",
+      "answers": ["Les tremblements de terre précurseurs qui détruisent les bâtiments avant l'éruption", "Les nuées ardentes (coulées pyroclastiques) — mélanges de gaz brûlants, de cendres et de débris à 700 °C", "Les pluies de cendres qui s'accumulent sur les toits et provoquent leur effondrement", "Les tsunamis générés par l'effondrement du flanc du volcan dans la mer"],
+      "correctIndex": 1,
+      "explanation": "Les nuées ardentes (ou coulées pyroclastiques) sont des avalanches de gaz brûlants, de cendres et de fragments de roche dévalant les pentes à 200–700 km/h, à des températures de 300 à 800 °C. Elles sont quasi impossibles à fuir et ont causé les éruptions les plus meurtrières : la destruction de Saint-Pierre (Martinique) par la montagne Pelée en 1902 (30 000 morts en quelques minutes) en est l'exemple le plus tragique. C'est ce phénomène qui a tué les habitants de Pompéi en 79 ap. J.-C."
     },
     {
       "id": "12",
-      "question": "Quel pays d’Amérique du Sud est célèbre pour ses volcans dans les Andes ?",
+      "question": "Le Chili est l'un des pays les plus volcaniques des Andes. Combien de volcans actifs son territoire abrite-t-il environ ?",
       "image": null,
-      "imagePrompt": "Chile Andes volcano",
-      "answers": ["Brésil", "Chili", "Argentine", "Uruguay"],
-      "correctIndex": 1,
-      "explanation": "Le Chili possède de nombreux volcans actifs liés à la subduction de la plaque de Nazca sous la plaque sud-américaine."
+      "imagePrompt": "Chile Andes volcanoes active map Villarrica Calbuco",
+      "answers": ["Environ 10 volcans actifs", "Environ 50 volcans actifs", "Environ 90 volcans actifs", "Plus de 500 volcans actifs"],
+      "correctIndex": 2,
+      "explanation": "Le Chili abrite environ 90 volcans actifs — le deuxième pays au monde après l'Indonésie. Cette concentration résulte de la subduction de la plaque de Nazca sous la plaque sud-américaine à environ 7 cm par an. Les volcans Villarrica, Calbuco et Llaima sont parmi les plus actifs. L'éruption du Calbuco en 2015 a forcé l'évacuation de 4 000 personnes et illustre la nécessité d'une surveillance volcanique permanente dans cette région."
     },
     {
       "id": "13",
-      "question": "Quel phénomène géologique est directement lié à la formation des volcans ?",
+      "question": "Les dorsales océaniques sont des zones de divergence où le magma remonte en permanence. Pourquoi le volcanisme y est-il généralement moins spectaculaire que dans les zones de subduction ?",
       "image": null,
-      "imagePrompt": "tectonic plates movement",
-      "answers": ["Érosion", "Tectonique des plaques", "Climat", "Sédimentation"],
+      "imagePrompt": "mid ocean ridge divergent boundary underwater lava pillow basalt",
+      "answers": ["Parce que la pression de l'eau de mer empêche toute éruption en profondeur", "Parce que le magma basaltique, fluide et pauvre en gaz, s'écoule sans exploser sous plusieurs kilomètres d'eau", "Parce que les dorsales produisent très peu de magma, insuffisant pour former des volcans visibles", "Parce que les eruptions y sont absorbées par les sédiments océaniques qui agissent comme un filtre"],
       "correctIndex": 1,
-      "explanation": "La tectonique des plaques est le moteur du volcanisme : elle crée des zones de subduction, divergence ou points chauds où le magma remonte."
+      "explanation": "Le long des dorsales océaniques, le magma basaltique (pauvre en silice, fluide, peu chargé en gaz) s'écoule sous 2 000 à 3 000 m d'eau. La pression hydrostatique empêche les gaz de s'expanser brutalement, produisant des « laves en coussins » (pillow lavas) qui se solidifient en contact avec l'eau froide — un volcanisme discret mais permanent et colossal en volume. C'est ainsi que la quasi-totalité des fonds océaniques est créée, à raison de plusieurs km² de croûte nouvelle chaque année."
     },
     {
       "id": "14",
-      "question": "Quelle île volcanique est située sur un point chaud au milieu de l’océan Pacifique ?",
+      "question": "Hawaï se forme au-dessus d'un point chaud. Une nouvelle île est en train de naître au sud-est de l'archipel, actuellement sous-marine. Comment s'appelle-t-elle ?",
       "image": null,
-      "imagePrompt": "Hawaii volcano",
-      "answers": ["Islande", "Hawaï", "Madagascar", "Sri Lanka"],
-      "correctIndex": 1,
-      "explanation": "Hawaï est formé par un point chaud fixe sous la plaque pacifique. Les îles se forment successivement à mesure que la plaque se déplace."
+      "imagePrompt": "Loihi seamount Hawaii new island underwater formation",
+      "answers": ["Loihi (ou Lō'ihi)", "Mauna Kea Junior", "Hilo Deep", "Pele's Cradle"],
+      "correctIndex": 0,
+      "explanation": "Loihi (Lō'ihi en hawaïen) est un volcan sous-marin situé à environ 35 km au sud-est de l'île d'Hawaï, dont le sommet se trouve à environ 975 m sous la surface de l'océan. Il est en éruption active et croît progressivement. Selon les estimations géologiques, Loihi pourrait émerger au-dessus de l'océan dans 10 000 à 100 000 ans pour devenir la prochaine île de l'archipel hawaïen — un exemple fascinant de la tectonique des plaques en action en temps quasi réel."
     },
     {
       "id": "15",
-      "question": "Quel type de volcan est le plus dangereux pour les populations ?",
+      "question": "Le supervolcan de Yellowstone, aux États-Unis, est l'un des plus surveillés au monde. Quelle serait l'ampleur d'une éruption majeure de ce système, dont la dernière remonte à 640 000 ans ?",
       "image": null,
-      "imagePrompt": "explosive volcano eruption",
-      "answers": ["Volcan bouclier", "Stratovolcan", "Volcan sous-marin", "Volcan fissural"],
-      "correctIndex": 1,
-      "explanation": "Les stratovolcans produisent des éruptions explosives, avec nuées ardentes et cendres, ce qui les rend particulièrement dangereux."
+      "imagePrompt": "Yellowstone supervolcano caldera geyser magma chamber",
+      "answers": ["Une éruption comparable au mont Saint Helens (1980), localement dévastatrice", "Une éruption régionale affectant plusieurs États américains", "Une éruption capable d'affecter le climat mondial pendant des années et de recouvrir une grande partie des États-Unis de cendres", "Une éruption sous-marine produisant un tsunami dans le golfe du Mexique"],
+      "correctIndex": 2,
+      "explanation": "Une éruption majeure de Yellowstone (indice VEI 8) projeterait des milliers de km³ de matière dans l'atmosphère — 1 000 fois plus que le mont Saint Helens. Les cendres recouvriraient une grande partie des États-Unis, paralysant l'agriculture pendant des années. Le refroidissement climatique mondial durerait plusieurs années. Cependant, les sismologues précisent que la probabilité d'une telle éruption dans un futur proche est extrêmement faible — Yellowstone est surveillé 24h/24 et ne montre pas de signe d'activité inhabituelle."
     },
     {
       "id": "16",
-      "question": "Quelle région est connue pour ses volcans actifs en Méditerranée ?",
+      "question": "La Grèce et l'arc égéen abritent des volcans actifs, dont Santorin. Quelle éruption préhistorique de ce volcan, vers 1600 av. J.-C., a été l'une des plus puissantes de l'Holocène ?",
       "image": null,
-      "imagePrompt": "Stromboli volcano",
-      "answers": ["France", "Italie", "Turquie", "Grèce"],
-      "correctIndex": 1,
-      "explanation": "L’Italie possède plusieurs volcans actifs en Méditerranée, notamment Stromboli, Etna et Vésuve."
+      "imagePrompt": "Santorini Greece caldera Aegean volcanic arc eruption Bronze Age",
+      "answers": ["L'éruption minoenne, qui aurait affaibli la civilisation de Crète et inspiré le mythe de l'Atlantide", "L'éruption dorienne, qui a détruit la flotte mycénienne en mer Égée", "L'éruption hellénique, qui a créé l'archipel des Cyclades par effondrement de la croûte", "L'éruption péloponnésienne, qui a refroidi le climat méditerranéen pendant un siècle"],
+      "correctIndex": 0,
+      "explanation": "L'éruption minoenne de Santorin (vers 1600 av. J.-C.) a projeté environ 60 km³ de matière — l'une des plus puissantes de l'Holocène. La caldeira actuelle, immergée au centre de l'archipel, témoigne de l'effondrement du volcan après l'éruption. Le tsunami et les retombées de cendres auraient dévaste les côtes minoennes de Crète. Platon, sept siècles plus tard, a peut-être transformé ce souvenir en mythe de l'Atlantide — une île civilisée engloutie par la mer."
     },
     {
       "id": "17",
-      "question": "Quel pays possède le volcan Eyjafjallajökull ?",
+      "question": "L'éruption de l'Eyjafjallajökull islandais en 2010 a paralysé le trafic aérien européen. Pourquoi les cendres volcaniques sont-elles si dangereuses pour les réacteurs d'avion ?",
       "image": null,
-      "imagePrompt": "Eyjafjallajokull eruption",
-      "answers": ["Norvège", "Islande", "Finlande", "Suède"],
+      "imagePrompt": "Eyjafjallajokull Iceland eruption 2010 ash cloud aviation jet engine",
+      "answers": ["Les cendres sont radioactives et perturbent les instruments de navigation électronique", "Les particules de verre volcanique fondent dans les réacteurs et se resolidifient, bloquant les pièces mobiles", "Les cendres contiennent du soufre qui corrode immédiatement les ailes des avions", "Les cendres réduisent la visibilité à zéro, rendant tout atterrissage impossible"],
       "correctIndex": 1,
-      "explanation": "L’éruption de ce volcan en 2010 a perturbé le trafic aérien européen, montrant l’impact global des volcans."
+      "explanation": "Les cendres volcaniques sont composées de minuscules fragments de verre et de roches. Dans un réacteur à haute température (plus de 1 000 °C), ces particules fondent et se resolidifient sur les aubes de turbine, pouvant les bloquer et provoquer une panne moteur. Plusieurs avions ont failli s'écraser après avoir traversé des nuages de cendres. L'éruption de l'Eyjafjallajökull en 2010 a conduit à l'annulation d'environ 100 000 vols et à une révision complète des protocoles de sécurité aérienne en présence de cendres."
     },
     {
       "id": "18",
-      "question": "Quel type de limite tectonique crée des volcans sous-marins ?",
+      "question": "Les dorsales océaniques produisent un volcanisme sous-marin continu. Quelle dorsale, partiellement émergée en Islande, est la plus étudiée car accessible directement aux chercheurs ?",
       "image": null,
-      "imagePrompt": "mid ocean ridge",
-      "answers": ["Divergente", "Subduction", "Transformante", "Passive"],
-      "correctIndex": 0,
-      "explanation": "Aux limites divergentes, les plaques s’écartent et le magma remonte, formant des volcans sous-marins."
+      "imagePrompt": "Mid-Atlantic Ridge Iceland rift valley divergent boundary geology",
+      "answers": ["La dorsale indo-pacifique", "La dorsale médio-atlantique", "La dorsale du Pacifique Est", "La dorsale de Gakkel (Arctique)"],
+      "correctIndex": 1,
+      "explanation": "La dorsale médio-atlantique s'étend sur 16 000 km du pôle Nord à l'extrémité sud de l'Atlantique, séparant les plaques américaines des plaques eurasienne et africaine. En Islande, elle est émergée sur environ 300 km, permettant aux géologues d'observer directement les processus de création de croûte océanique — fissures, éruptions fissurales, rifts — qui se déroulent habituellement à 2 000 m de profondeur. Le parc national de Þingvellir, en Islande, est l'un des seuls endroits au monde où l'on peut marcher entre deux plaques tectoniques."
     },
     {
       "id": "19",
-      "question": "Quelle région du monde est très volcanique en raison de la subduction ?",
+      "question": "Le Piton de la Fournaise, sur l'île de La Réunion, est l'un des volcans les plus actifs du monde avec en moyenne une éruption par an. À quel type de volcanisme appartient-il ?",
       "image": null,
-      "imagePrompt": "Andes volcano",
-      "answers": ["Andes", "Sahara", "Europe du Nord", "Sibérie"],
-      "correctIndex": 0,
-      "explanation": "Les Andes sont une chaîne volcanique liée à la subduction, avec de nombreux volcans actifs."
+      "imagePrompt": "Piton de la Fournaise Reunion Island shield volcano lava flow Indian Ocean",
+      "answers": ["Volcanisme de subduction, similaire au Vésuve ou au mont Saint Helens", "Volcanisme de point chaud, similaire aux volcans hawaïens, avec laves fluides basaltiques", "Volcanisme de rift, lié à l'écartement des plaques africaine et antarctique", "Volcanisme fissural, similaire aux grandes éruptions islandaises"],
+      "correctIndex": 1,
+      "explanation": "Le Piton de la Fournaise est un volcan bouclier de point chaud, comme le Kilauea à Hawaï. Ses éruptions sont généralement effusives — des coulées de basalte fluide parfois spectaculaires qui atteignent l'océan Indien, créant de nouvelles terres. Ces éruptions sont rarement mortelles mais très fréquentes. C'est l'un des volcans les mieux instrumentés au monde, géré par l'Observatoire Volcanologique du Piton de la Fournaise (OVPF), qui permet une surveillance et une prévision remarquablement précises."
     },
     {
       "id": "20",
-      "question": "Quelle zone est la moins volcanique ?",
+      "question": "Les zones intérieures des plaques tectoniques sont généralement stables et peu volcaniques. Mais certains volcans continentaux existent loin de tout bord de plaque. Quel mécanisme les explique ?",
       "image": null,
-      "imagePrompt": "continental interior stable",
-      "answers": ["Ceinture de feu", "Rift", "Points chauds", "Intérieur des plaques"],
-      "correctIndex": 3,
-      "explanation": "Les zones internes des plaques tectoniques sont généralement stables et peu sujettes au volcanisme."
+      "imagePrompt": "hotspot intraplate volcano continental Yellowstone Auvergne mantle plume",
+      "answers": ["Des fractures héritées d'anciennes tectoniques qui se réactivent sous l'effet de la chaleur interne", "Des points chauds mantelliques — panaches de roche chaude remontant du manteau — indépendants des bords de plaques", "La radioactivité naturelle de certains granites continentaux qui génère localement assez de chaleur pour fondre la croûte", "Des intrusions d'eau souterraine sous pression qui dissolvent la croûte et permettent au magma profond de remonter"],
+      "correctIndex": 1,
+      "explanation": "Les points chauds sont des anomalies thermiques dans le manteau — des panaches de roche partiellement fondue remontant du manteau profond, indépendamment de la tectonique des plaques. Ils peuvent percer la croûte continentale ou océanique n'importe où. Yellowstone, le Massif central en France (volcans d'Auvergne, actifs il y a moins de 10 000 ans), les îles Canaries ou La Réunion sont des exemples de volcanisme intraplaques lié à des points chauds. Une cinquantaine de points chauds actifs sont recensés sur la planète."
     }
   ]
 }

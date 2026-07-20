@@ -2,7 +2,7 @@
   "slug": "quiz-geographie-pays-les-plus-peuples-du-monde",
   "title": "Quiz Géographie Pays les plus peuplés du monde - 20 questions pour comprendre la démographie",
   "description": "Teste tes connaissances avec 20 questions sur les pays les plus peuplés du monde.",
-  "descriptionSeo": "Teste tes connaissances avec ce quiz géographie sur les pays les plus peuplés du monde. Inde, Chine, États-Unis, Indonésie, Pakistan… sauras-tu classer les nations les plus peuplées et comprendre les enjeux démographiques mondiaux ? Ce quiz de 20 questions te permet d’explorer la répartition de la population mondiale, les facteurs de croissance, les densités et les défis liés à l’urbanisation, aux ressources et au développement. Chaque question est accompagnée d’explications détaillées pour enrichir ta compréhension et ta culture géographique.",
+  "descriptionSeo": "Teste tes connaissances avec ce quiz géographie sur les pays les plus peuplés du monde. Inde, Chine, États-Unis, Indonésie, Pakistan… sauras-tu classer les nations les plus peuplées et comprendre les enjeux démographiques mondiaux ? Ce quiz de 20 questions te permet d'explorer la répartition de la population mondiale, les facteurs de croissance, les densités et les défis liés à l'urbanisation, aux ressources et au développement. Chaque question est accompagnée d'explications détaillées pour enrichir ta compréhension et ta culture géographique.",
   "category": {
     "name": "Géographie",
     "slug": "geographie"
@@ -18,143 +18,183 @@
   "questions": [
     {
       "id": "1",
-      "question": "Quel est le pays le plus peuplé du monde ?",
-      "answers": ["Chine", "États-Unis", "Inde", "Indonésie"],
+      "question": "L'Inde a dépassé la Chine pour devenir le pays le plus peuplé du monde. En quelle année ce basculement historique a-t-il été officiellement constaté ?",
+      "image": null,
+      "imagePrompt": "India population density crowd Mumbai street aerial",
+      "answers": ["En 2019", "En 2021", "En 2023", "En 2025"],
       "correctIndex": 2,
-      "explanation": "L’Inde est devenue le pays le plus peuplé du monde, dépassant la Chine. Cette croissance rapide pose des défis majeurs en matière d’infrastructures, d’éducation et d’emploi."
+      "explanation": "L'ONU a officiellement annoncé en 2023 que l'Inde avait dépassé la Chine avec plus de 1,4 milliard d'habitants. Ce basculement marque un tournant démographique mondial : l'Inde a une population très jeune (âge médian d'environ 28 ans), ce qui représente un potentiel économique considérable, mais aussi un défi majeur en matière d'emploi, d'éducation et d'infrastructures."
     },
     {
       "id": "2",
-      "question": "Quel pays est le deuxième plus peuplé du monde ?",
-      "answers": ["Chine", "Inde", "États-Unis", "Pakistan"],
-      "correctIndex": 0,
-      "explanation": "La Chine reste l’un des pays les plus peuplés, mais sa population commence à diminuer en raison du vieillissement et des politiques passées."
+      "question": "La Chine est désormais le deuxième pays le plus peuplé du monde. Sa population a commencé à diminuer en 2022 — une première depuis les années 1960. Quelle politique démographique, abandonnée en 2015, avait freiné sa natalité pendant des décennies ?",
+      "image": null,
+      "imagePrompt": "China one child policy aging population demographic",
+      "answers": ["La politique des deux enfants", "La politique de l'enfant unique", "Le programme de stérilisation volontaire", "La loi sur le mariage tardif obligatoire"],
+      "correctIndex": 1,
+      "explanation": "La politique de l'enfant unique, instaurée en 1980 et assouplie en 2015 puis abandonnée en 2021, a évité selon Pékin 400 millions de naissances. Elle a aussi produit des effets non voulus : vieillissement accéléré, déséquilibre hommes-femmes (préférence pour les garçons), et pénurie de main-d'œuvre annoncée. La Chine encourage aujourd'hui les familles à avoir trois enfants, sans grand succès."
     },
     {
       "id": "3",
-      "question": "Quel pays est le troisième plus peuplé du monde ?",
-      "answers": ["Indonésie", "États-Unis", "Brésil", "Pakistan"],
+      "question": "Les États-Unis sont le troisième pays le plus peuplé du monde avec environ 340 millions d'habitants. Quel facteur explique principalement que leur population continue de croître, contrairement à de nombreux pays riches ?",
+      "image": null,
+      "imagePrompt": "United States immigration diversity population growth",
+      "answers": ["Un taux de natalité parmi les plus élevés des pays développés", "Une immigration nette parmi les plus importantes du monde", "Un recul significatif de la mortalité infantile depuis 2010", "Une politique de natalité avec allocations familiales très généreuses"],
       "correctIndex": 1,
-      "explanation": "Les États-Unis combinent une population importante et une immigration élevée, ce qui soutient leur croissance démographique."
+      "explanation": "Les États-Unis accueillent environ 1 million d'immigrants légaux par an — l'un des flux les plus importants au monde — auxquels s'ajoutent des centaines de milliers d'immigrants sans papiers. Cette immigration compense un taux de fécondité qui est tombé sous le seuil de renouvellement des générations (2,1 enfants par femme). Sans immigration, la population américaine serait déjà en déclin."
     },
     {
       "id": "4",
-      "question": "Quel pays est le plus peuplé d’Afrique ?",
-      "answers": ["Égypte", "Éthiopie", "Nigeria", "RDC"],
+      "question": "Le Nigeria est le pays le plus peuplé d'Afrique avec environ 220 millions d'habitants. À quel rang mondial pourrait-il se hisser d'ici 2100 selon les projections de l'ONU ?",
+      "image": null,
+      "imagePrompt": "Nigeria Lagos population growth Africa demographic",
+      "answers": ["10e rang mondial", "5e rang mondial", "3e rang mondial", "Il restera dans son rang actuel (6e)"],
       "correctIndex": 2,
-      "explanation": "Le Nigeria est le pays le plus peuplé d’Afrique et devrait devenir l’un des plus peuplés du monde, avec une forte croissance démographique."
+      "explanation": "Selon les projections médianes de l'ONU, le Nigeria pourrait devenir le 3e pays le plus peuplé du monde d'ici 2100, avec une population pouvant dépasser 500 millions d'habitants. Son taux de fécondité actuel (environ 5,2 enfants par femme) est l'un des plus élevés du monde. Cette croissance démographique colossale représente à la fois un défi (emploi, éducation, santé) et un potentiel économique considérable."
     },
     {
       "id": "5",
-      "question": "Quel pays est le plus peuplé d’Amérique du Sud ?",
-      "answers": ["Argentine", "Colombie", "Brésil", "Pérou"],
+      "question": "Le Brésil est le pays le plus peuplé d'Amérique du Sud avec environ 215 millions d'habitants. Quelle proportion de sa population vit en zone urbaine, faisant de lui l'un des pays les plus urbanisés du monde en développement ?",
+      "image": null,
+      "imagePrompt": "Brazil Sao Paulo urbanization favela metropolis aerial",
+      "answers": ["Environ 40 %", "Environ 60 %", "Environ 87 %", "Environ 97 %"],
       "correctIndex": 2,
-      "explanation": "Le Brésil concentre près de la moitié de la population sud-américaine, notamment dans les grandes métropoles comme São Paulo."
+      "explanation": "Environ 87 % de la population brésilienne vit en zone urbaine — un taux comparable à celui de la France ou du Royaume-Uni. São Paulo (22 millions d'habitants dans son agglomération) et Rio de Janeiro concentrent une part importante de cette population urbaine. Cette urbanisation massive, souvent non planifiée, a produit de grandes métropoles aux inégalités criantes, où favelas et quartiers aisés coexistent à quelques centaines de mètres."
     },
     {
       "id": "6",
-      "question": "Quel pays est le plus peuplé d’Europe ?",
-      "answers": ["France", "Allemagne", "Royaume-Uni", "Russie"],
-      "correctIndex": 3,
-      "explanation": "La Russie est le pays le plus peuplé d’Europe, bien que sa population soit très dispersée sur un immense territoire."
+      "question": "La Russie est le pays le plus peuplé d'Europe avec environ 145 millions d'habitants. Malgré cette population importante, elle fait face à un défi démographique grave. Lequel ?",
+      "image": null,
+      "imagePrompt": "Russia population decline aging demographic crisis",
+      "answers": ["Une immigration massive qui modifie l'équilibre ethnique", "Un déclin naturel de la population depuis les années 1990", "Une urbanisation trop rapide qui vide les campagnes", "Un excédent de naissances non compensé par les infrastructures"],
+      "correctIndex": 1,
+      "explanation": "La Russie connaît un déclin naturel de sa population depuis l'effondrement de l'URSS : mortalité élevée (alcoolisme, maladies cardiovasculaires, espérance de vie masculine d'environ 65 ans), natalité insuffisante. La guerre en Ukraine a aggravé cette situation avec des centaines de milliers de morts et l'exil de plusieurs centaines de milliers de Russes depuis 2022. La population russe pourrait tomber sous 130 millions d'habitants d'ici 2050."
     },
     {
       "id": "7",
-      "question": "Quel pays est le quatrième plus peuplé du monde ?",
-      "answers": ["Pakistan", "Indonésie", "Nigeria", "Bangladesh"],
-      "correctIndex": 1,
-      "explanation": "L’Indonésie est le pays le plus peuplé d’Asie du Sud-Est, avec une forte densité sur l’île de Java."
+      "question": "L'Indonésie est le 4e pays le plus peuplé du monde avec environ 275 millions d'habitants. Sur quelle île vit la moitié de la population, alors qu'elle ne représente que 7 % du territoire national ?",
+      "image": null,
+      "imagePrompt": "Java Indonesia population density rice fields aerial",
+      "answers": ["Sumatra", "Bornéo (Kalimantan)", "Java", "Sulawesi"],
+      "correctIndex": 2,
+      "explanation": "Java concentre environ 145 millions d'habitants sur 7 % du territoire indonésien, en faisant l'une des îles les plus densément peuplées au monde (plus de 1 000 habitants/km²). Jakarta, sa capitale (en cours de transfert vers Nusantara), accueille à elle seule plus de 10 millions d'habitants intra-muros. Cette concentration extrême est l'une des raisons du projet de nouvelle capitale sur l'île de Bornéo."
     },
     {
       "id": "8",
-      "question": "Quel pays d’Asie du Sud est parmi les plus densément peuplés ?",
-      "answers": ["Inde", "Pakistan", "Bangladesh", "Népal"],
+      "question": "Le Bangladesh est l'un des pays les plus densément peuplés du monde avec 170 millions d'habitants sur 147 000 km². Quelle densité de population cela représente-t-il environ ?",
+      "image": null,
+      "imagePrompt": "Bangladesh population density Dhaka river delta crowd",
+      "answers": ["Environ 300 habitants/km²", "Environ 600 habitants/km²", "Environ 1 150 habitants/km²", "Environ 2 500 habitants/km²"],
       "correctIndex": 2,
-      "explanation": "Le Bangladesh est l’un des pays les plus densément peuplés du monde, avec une pression importante sur les ressources."
+      "explanation": "Le Bangladesh affiche une densité d'environ 1 150 habitants/km² — comparable à celle d'une grande ville européenne étendue à tout un pays. À titre de comparaison, la France compte environ 120 habitants/km². Cette densité extrême, combinée à un territoire de delta très vulnérable aux inondations et à la montée des eaux, en fait l'un des pays les plus exposés au changement climatique au monde."
     },
     {
       "id": "9",
-      "question": "Quel pays est le plus peuplé du monde arabe ?",
-      "answers": ["Arabie saoudite", "Irak", "Égypte", "Maroc"],
-      "correctIndex": 2,
-      "explanation": "L’Égypte concentre sa population le long du Nil, ce qui montre l’importance des ressources en eau."
+      "question": "L'Égypte est le pays le plus peuplé du monde arabe avec environ 105 millions d'habitants. Quelle proportion de son territoire est réellement habitée, le reste étant désertique ?",
+      "image": null,
+      "imagePrompt": "Egypt Nile valley population density desert aerial",
+      "answers": ["Environ 50 %", "Environ 25 %", "Environ 10 %", "Moins de 5 %"],
+      "correctIndex": 3,
+      "explanation": "Moins de 5 % du territoire égyptien est habité — essentiellement la vallée et le delta du Nil. Le reste est désert du Sahara. Cette concentration extrême crée une densité réelle de population parmi les plus élevées du monde dans les zones habitées. Le Caire et son agglomération concentrent à eux seuls plus de 20 millions d'habitants dans cet espace riverain étroit."
     },
     {
       "id": "10",
-      "question": "Quel pays dépasse 200 millions d’habitants en Afrique ?",
-      "answers": ["Nigeria", "Égypte", "Éthiopie", "Kenya"],
-      "correctIndex": 0,
-      "explanation": "Le Nigeria dépasse les 200 millions d’habitants, avec une croissance rapide qui pose des défis urbains et économiques."
+      "question": "Le Nigeria dépasse 220 millions d'habitants. Combien de langues différentes y sont parlées, faisant de ce pays l'un des plus diversifiés linguistiquement au monde ?",
+      "image": null,
+      "imagePrompt": "Nigeria ethnic diversity languages map population",
+      "answers": ["Environ 30 langues", "Environ 100 langues", "Plus de 500 langues", "Plus de 700 langues"],
+      "correctIndex": 2,
+      "explanation": "Le Nigeria compte plus de 500 langues recensées, dont trois dominantes — le haoussa, le yoruba et l'igbo — parlées par les trois grandes ethnies du pays. L'anglais est la langue officielle, héritage colonial. Cette diversité linguistique et ethnique est à la fois une richesse culturelle et une source de tensions politiques récurrentes dans ce pays fédéral de 36 États."
     },
     {
       "id": "11",
-      "question": "Quel pays est le plus peuplé d’Amérique du Nord ?",
-      "answers": ["Canada", "Mexique", "États-Unis", "Cuba"],
-      "correctIndex": 2,
-      "explanation": "Les États-Unis dominent la région avec une population importante et une forte attractivité migratoire."
+      "question": "Les États-Unis sont le pays le plus peuplé d'Amérique du Nord. Quel État américain est le plus peuplé, concentrant à lui seul plus de 12 % de la population nationale ?",
+      "image": null,
+      "imagePrompt": "California USA most populous state Los Angeles aerial",
+      "answers": ["Texas", "Floride", "New York", "Californie"],
+      "correctIndex": 3,
+      "explanation": "La Californie est l'État le plus peuplé des États-Unis avec environ 39 millions d'habitants — plus que le Canada tout entier. Si elle était un pays indépendant, elle serait la 5e économie mondiale. Le Texas (30 millions) et la Floride (22 millions) suivent, et leur croissance rapide reflète les migrations internes américaines vers le Sud et le Sud-Ouest, attirées par le climat, la fiscalité et le coût de la vie."
     },
     {
       "id": "12",
-      "question": "Quel pays est parmi les plus peuplés d’Afrique après le Nigeria ?",
-      "answers": ["Éthiopie", "Algérie", "Maroc", "Ghana"],
-      "correctIndex": 0,
-      "explanation": "L’Éthiopie connaît une croissance démographique rapide, ce qui influence son développement économique."
+      "question": "L'Éthiopie est le deuxième pays le plus peuplé d'Afrique avec environ 125 millions d'habitants. À quel rang continental pourrait-elle accéder d'ici 2050 selon les projections démographiques ?",
+      "image": null,
+      "imagePrompt": "Ethiopia population growth Addis Ababa demographic Africa",
+      "answers": ["Elle restera 2e derrière le Nigeria", "Elle pourrait devenir le 1er pays le plus peuplé d'Afrique", "Elle sera dépassée par la RDC et tombera au 3e rang", "Elle sera dépassée par la Tanzanie et tombera au 4e rang"],
+      "correctIndex": 2,
+      "explanation": "Selon les projections de l'ONU, la République démocratique du Congo (RDC) pourrait dépasser l'Éthiopie d'ici 2050 pour s'installer au 2e rang africain derrière le Nigeria. La RDC affiche l'un des taux de fécondité les plus élevés au monde (environ 6 enfants par femme). L'Éthiopie, avec un taux en baisse progressive, devrait tomber au 3e rang africain tout en restant une puissance démographique majeure."
     },
     {
       "id": "13",
-      "question": "Quel pays a une densité de population très élevée malgré sa petite taille ?",
-      "answers": ["Russie", "Canada", "Bangladesh", "Australie"],
-      "correctIndex": 2,
-      "explanation": "Le Bangladesh combine une forte population et un territoire limité, ce qui crée une densité extrême."
+      "question": "Le Bangladesh affiche une densité de population extrême. Quel phénomène climatique, aggravé par le changement climatique, menace directement des millions de ses habitants vivant dans le delta du Gange ?",
+      "image": null,
+      "imagePrompt": "Bangladesh flooding delta climate change sea level rise",
+      "answers": ["Des sécheresses prolongées qui assèchent les rizières", "La montée des eaux et les inondations cycloniques", "Des vagues de froid extrêmes venues de l'Himalaya", "Des tempêtes de sable sahariennes de plus en plus fréquentes"],
+      "correctIndex": 1,
+      "explanation": "Le Bangladesh est l'un des pays les plus vulnérables au changement climatique : plus d'un tiers de son territoire est inondable, et la montée des eaux marines menace directement ses zones côtières basses. Les cyclones du golfe du Bengale gagnent en intensité. Selon certaines projections, 20 à 30 millions de Bangladais pourraient devenir des « réfugiés climatiques » d'ici 2050 si la montée des eaux se poursuit au rythme actuel."
     },
     {
       "id": "14",
-      "question": "Quel pays est le plus peuplé d’Océanie ?",
-      "answers": ["Nouvelle-Zélande", "Papouasie-Nouvelle-Guinée", "Australie", "Fidji"],
-      "correctIndex": 2,
-      "explanation": "L’Australie est le pays le plus peuplé d’Océanie, mais avec une densité très faible."
+      "question": "L'Australie est le pays le plus peuplé d'Océanie avec environ 26 millions d'habitants. Sa densité de population est l'une des plus faibles du monde. Pourquoi la population est-elle aussi concentrée sur la côte est ?",
+      "image": null,
+      "imagePrompt": "Australia population coastal concentration outback empty interior",
+      "answers": ["Les terres intérieures sont exploitées par l'armée et interdites au public", "L'intérieur (outback) est un désert aride quasi inhabitable", "La majorité des ressources naturelles se trouve sur la côte est", "Une loi coloniale britannique interdisait de s'installer à plus de 200 km de la côte"],
+      "correctIndex": 1,
+      "explanation": "L'intérieur australien (outback) est un vaste désert où les températures extrêmes, l'absence d'eau et la faible fertilité des sols rendent la vie permanente très difficile. Plus de 85 % de la population australienne vit dans les villes côtières, principalement sur la côte est (Sydney, Melbourne, Brisbane). L'Australie a une densité nationale d'environ 3 habitants/km² — l'une des plus faibles du monde pour un pays développé."
     },
     {
       "id": "15",
-      "question": "Quel pays d’Asie du Sud-Est dépasse les 100 millions d’habitants ?",
-      "answers": ["Vietnam", "Philippines", "Thaïlande", "Malaisie"],
-      "correctIndex": 1,
-      "explanation": "Les Philippines ont une forte croissance démographique et une population jeune."
+      "question": "Les Philippines comptent plus de 115 millions d'habitants et sont le deuxième pays le plus peuplé d'Asie du Sud-Est. Sur combien d'îles cet archipel s'étend-il ?",
+      "image": null,
+      "imagePrompt": "Philippines archipelago islands aerial population",
+      "answers": ["Environ 500 îles", "Environ 2 000 îles", "Plus de 7 600 îles", "Plus de 17 000 îles"],
+      "correctIndex": 2,
+      "explanation": "L'archipel philippin compte plus de 7 600 îles, dont seulement environ 2 000 sont habitées. Cette géographie fragmentée pose des défis considérables en matière de transport, de gouvernance et d'accès aux services. Luçon (où se trouve Manille) et Mindanao concentrent à elles deux plus de 70 % de la population. Les Philippines sont aussi l'un des pays les plus exposés aux typhons au monde."
     },
     {
       "id": "16",
-      "question": "Quel pays est connu pour son vieillissement rapide de la population ?",
-      "answers": ["Inde", "Japon", "Nigeria", "Brésil"],
-      "correctIndex": 1,
-      "explanation": "Le Japon est l’un des pays les plus vieillissants, ce qui pose des défis économiques et sociaux."
+      "question": "Le Japon est confronté à un vieillissement accéléré de sa population. Quelle proportion de Japonais a aujourd'hui plus de 65 ans, un record mondial ?",
+      "image": null,
+      "imagePrompt": "Japan aging population elderly senior citizens demographic",
+      "answers": ["Environ 15 %", "Environ 20 %", "Environ 29 %", "Plus de 40 %"],
+      "correctIndex": 2,
+      "explanation": "Environ 29 % de la population japonaise a plus de 65 ans — la proportion la plus élevée au monde. Le Japon compte aussi plus de 90 000 centenaires. Ce vieillissement, combiné à un taux de fécondité de seulement 1,2 enfant par femme et à une immigration quasi nulle, se traduit par une population en déclin (- 800 000 personnes par an). Le Japon est souvent cité comme un laboratoire des défis que d'autres pays développés affronteront bientôt."
     },
     {
       "id": "17",
-      "question": "Quel pays combine grande superficie et faible densité ?",
-      "answers": ["Inde", "Chine", "Canada", "Bangladesh"],
-      "correctIndex": 2,
-      "explanation": "Le Canada a une population faible par rapport à sa taille, concentrée au sud près de la frontière américaine."
+      "question": "Le Canada est le 2e plus grand pays du monde par la superficie mais n'a que 40 millions d'habitants. Où vit la grande majorité de sa population ?",
+      "image": null,
+      "imagePrompt": "Canada population distribution southern border US aerial",
+      "answers": ["Dans les provinces des Prairies (Alberta, Saskatchewan, Manitoba)", "Dans une bande d'environ 300 km longeant la frontière américaine", "Répartie de façon homogène sur l'ensemble du territoire", "Principalement dans le Grand Nord, proche des ressources naturelles"],
+      "correctIndex": 1,
+      "explanation": "Environ 90 % de la population canadienne vit dans une bande d'environ 300 km le long de la frontière américaine — soit moins de 10 % du territoire national. Le reste du Canada, notamment le Grand Nord (Territoires du Nord-Ouest, Yukon, Nunavut), est quasi désert avec moins de 100 000 habitants sur des millions de km². Le Nunavut, le plus grand territoire canadien, a une densité d'environ 0,02 habitant/km²."
     },
     {
       "id": "18",
-      "question": "Quel continent regroupe la majorité de la population mondiale ?",
-      "answers": ["Afrique", "Europe", "Asie", "Amérique"],
+      "question": "L'Asie abrite plus de la moitié de la population mondiale. Quelle proportion exacte de l'humanité vit sur ce continent ?",
+      "image": null,
+      "imagePrompt": "Asia population world map demographic share",
+      "answers": ["Environ 45 %", "Environ 52 %", "Environ 60 %", "Environ 70 %"],
       "correctIndex": 2,
-      "explanation": "L’Asie abrite plus de la moitié de la population mondiale, notamment grâce à l’Inde et la Chine."
+      "explanation": "L'Asie concentre environ 60 % de la population mondiale — soit près de 4,7 milliards de personnes sur 8 milliards. L'Inde et la Chine représentent à elles seules environ 35 % de l'humanité. L'Afrique, avec environ 18 % de la population mondiale, est le continent à la croissance la plus rapide et devrait représenter 40 % de la population mondiale d'ici 2100 selon les projections médianes de l'ONU."
     },
     {
       "id": "19",
-      "question": "Quel pays a une population supérieure à 1 milliard d’habitants ?",
-      "answers": ["États-Unis", "Inde", "Indonésie", "Pakistan"],
-      "correctIndex": 1,
-      "explanation": "Seuls l’Inde et la Chine dépassent le milliard d’habitants, ce qui influence fortement la démographie mondiale."
+      "question": "Seuls deux pays dépassent aujourd'hui le milliard d'habitants. Quel troisième pays est le plus proche de ce seuil et pourrait l'atteindre en premier ?",
+      "image": null,
+      "imagePrompt": "USA Nigeria population billion threshold demographic projection",
+      "answers": ["Les États-Unis (340 millions)", "L'Indonésie (275 millions)", "Le Pakistan (240 millions)", "Le Nigeria (220 millions)"],
+      "correctIndex": 3,
+      "explanation": "Le Nigeria, avec son taux de fécondité exceptionnel (environ 5,2 enfants par femme), est le pays qui se rapproche le plus vite du milliard d'habitants selon les projections de l'ONU. Certains scénarios lui prêtent une population de 400 à 500 millions d'habitants dès 2050. Les États-Unis, l'Indonésie et le Pakistan progressent aussi, mais à un rythme bien moins soutenu que le Nigeria."
     },
     {
       "id": "20",
-      "question": "Quel facteur explique une forte croissance démographique ?",
-      "answers": ["Faible natalité", "Vieillissement", "Fort taux de natalité", "Climat froid"],
-      "correctIndex": 2,
-      "explanation": "Un fort taux de natalité entraîne une croissance rapide, souvent observée dans les pays en développement."
+      "question": "La transition démographique désigne le passage d'une forte natalité/forte mortalité à une faible natalité/faible mortalité. Quel continent est aujourd'hui le seul à ne pas encore avoir amorcé cette transition de façon généralisée ?",
+      "image": null,
+      "imagePrompt": "Africa demographic transition birth rate fertility map",
+      "answers": ["L'Océanie", "L'Amérique du Sud", "L'Asie du Sud-Est", "L'Afrique subsaharienne"],
+      "correctIndex": 3,
+      "explanation": "L'Afrique subsaharienne est la seule grande région du monde où la transition démographique n'est pas encore bien engagée dans l'ensemble des pays : le taux de fécondité y reste en moyenne autour de 4,5 enfants par femme. C'est pourquoi l'Afrique va porter l'essentiel de la croissance démographique mondiale au XXIe siècle : elle devrait passer de 1,4 milliard d'habitants aujourd'hui à 3,9 milliards en 2100 selon le scénario médian de l'ONU."
     }
   ]
 }

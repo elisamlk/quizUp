@@ -169,15 +169,18 @@
       "correctIndex": 2,
       "explanation": "Le plateau du Colorado est remarquable par ses mesas, buttes et canyons, façonnés par l’érosion dans un climat sec. L’aridité limite la végétation dense et rend les formes géologiques particulièrement lisibles, ce qui explique la beauté spectaculaire de ses paysages."
     },
-    {
-      "id": "18",
-      "question": "Quel ensemble géologique ancien illustre le mieux l’idée d’un socle continental très vieux, riche en minerais et longtemps érodé ?",
-      "image": null,
-      "imagePrompt": "ancient craton geology canada",
-      "answers": ["Plateau du Tibet", "Bouclier canadien", "Plateau andin", "Plateau du Deccan"],
-      "correctIndex": 1,
-      "explanation": "Le bouclier canadien est un craton, c’est-à-dire un noyau très ancien de la croûte continentale. Sa richesse minérale vient de cette longue histoire géologique. C’est un bon rappel que les grands reliefs ne sont pas seulement décrits par leur forme actuelle, mais aussi par leur profondeur temporelle."
-    },
+   {
+  "id": "18",
+  "question": "Quel plateau d'Afrique centrale est traversé par de nombreux cours d'eau et couvert en grande partie de forêts tropicales ?",
+  "answers": [
+    "Plateau du Congo",
+    "Plateau du Kalahari",
+    "Plateau éthiopien",
+    "Plateau atlasique"
+  ],
+  "correctIndex": 0,
+  "explanation": "Le plateau du Congo domine une grande partie de l'Afrique centrale. Couvert en grande partie par la forêt équatoriale, il est parcouru par le bassin du fleuve Congo, l'un des plus vastes réseaux hydrographiques de la planète."
+},
     {
       "id": "19",
       "question": "Quel grand processus explique la formation d’un grand nombre de plateaux dans le monde ?",

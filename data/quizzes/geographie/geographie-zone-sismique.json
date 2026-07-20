@@ -2,7 +2,7 @@
   "slug": "quiz-regions-sismiques-monde",
   "title": "Quiz Géographie - Régions sismiques",
   "description": "Teste tes connaissances sur les zones sismiques du monde et comprends où et pourquoi les tremblements de terre se produisent.",
-  "descriptionSeo": "Pourquoi certaines régions du monde sont-elles plus exposées aux séismes ? Ce quiz de géographie explore les grandes zones sismiques, des failles californiennes à la ceinture de feu du Pacifique. À travers 20 questions, découvre les liens entre tectonique des plaques, volcans et tremblements de terre. Chaque réponse est accompagnée d’explications détaillées pour mieux comprendre les risques sismiques mondiaux.",
+  "descriptionSeo": "Pourquoi certaines régions du monde sont-elles plus exposées aux séismes ? Ce quiz de géographie explore les grandes zones sismiques, des failles californiennes à la ceinture de feu du Pacifique. À travers 20 questions, découvre les liens entre tectonique des plaques, volcans et tremblements de terre. Chaque réponse est accompagnée d'explications détaillées pour mieux comprendre les risques sismiques mondiaux.",
   "category": {
     "name": "Géographie",
     "slug": "geographie"
@@ -18,183 +18,183 @@
   "questions": [
     {
       "id": "1",
-      "question": "Quelle région concentre la majorité des séismes mondiaux ?",
+      "question": "La ceinture de feu du Pacifique concentre la majorité des séismes mondiaux. Quelle proportion des séismes les plus puissants de la planète s'y produit ?",
       "image": null,
-      "imagePrompt": "Pacific Ring of Fire map",
-      "answers": ["Ceinture de feu du Pacifique", "Europe centrale", "Sahara", "Amazonie"],
-      "correctIndex": 0,
-      "explanation": "La ceinture de feu du Pacifique concentre environ 75 % des volcans actifs et une grande majorité des séismes. Cela s’explique par la présence de nombreuses limites de plaques tectoniques, notamment des zones de subduction où une plaque plonge sous une autre."
+      "imagePrompt": "Pacific Ring of Fire map volcanoes earthquakes",
+      "answers": ["Environ 25 %", "Environ 50 %", "Environ 75 %", "Près de 90 %"],
+      "correctIndex": 3,
+      "explanation": "Environ 90 % des séismes les plus puissants de la planète se produisent dans la ceinture de feu du Pacifique, qui s'étend sur 40 000 km en forme de fer à cheval autour de l'océan Pacifique. Cette zone concentre aussi environ 75 % des volcans actifs du monde. Sa forte activité s'explique par la présence de nombreuses zones de subduction où des plaques océaniques plongent sous des plaques continentales, accumulant des contraintes colossales."
     },
     {
       "id": "2",
-      "question": "Quel pays est fortement exposé aux séismes en raison de sa position sur plusieurs plaques tectoniques ?",
+      "question": "Le Japon est l'un des pays les plus sismiques du monde. Sur combien de plaques tectoniques majeures son territoire est-il positionné ?",
       "image": null,
-      "imagePrompt": "Japan earthquake map",
-      "answers": ["Australie", "Brésil", "Japon", "Égypte"],
-      "correctIndex": 2,
-      "explanation": "Le Japon se situe à la jonction de plusieurs plaques (pacifique, philippine, eurasienne). Cette configuration crée une activité sismique intense et explique la fréquence des tremblements de terre et des tsunamis."
+      "imagePrompt": "Japan tectonic plates earthquake fault map",
+      "answers": ["Sur une seule plaque (eurasienne)", "À la jonction de deux plaques", "À la jonction de trois plaques", "À la jonction de quatre plaques"],
+      "correctIndex": 3,
+      "explanation": "Le Japon se situe à la jonction de quatre plaques tectoniques : la plaque pacifique, la plaque philippine, la plaque eurasienne et la plaque nord-américaine. Cette configuration unique explique pourquoi le Japon enregistre environ 20 % des séismes de magnitude supérieure à 6 dans le monde. Le séisme et tsunami du 11 mars 2011 (magnitude 9,0) au large de Tōhoku, qui a causé la catastrophe nucléaire de Fukushima, illustre tragiquement cette réalité."
     },
     {
       "id": "3",
-      "question": "Quelle faille célèbre traverse la Californie ?",
+      "question": "La faille de San Andreas traverse la Californie sur environ 1 300 km. Quel type de mouvement s'y produit entre les deux plaques, qui la distingue des zones de subduction ?",
       "image": null,
-      "imagePrompt": "San Andreas Fault map",
-      "answers": ["Faille alpine", "Faille de San Andreas", "Faille himalayenne", "Faille du Rift"],
-      "correctIndex": 1,
-      "explanation": "La faille de San Andreas est une limite de plaques transformantes où deux plaques glissent l’une contre l’autre. Ce type de mouvement accumule des tensions qui se libèrent brutalement sous forme de séismes."
+      "imagePrompt": "San Andreas Fault California aerial view transform boundary",
+      "answers": ["Une plaque plonge sous l'autre (subduction)", "Les deux plaques s'écartent (divergence)", "Les deux plaques glissent horizontalement l'une contre l'autre (coulissage)", "Les deux plaques entrent en collision frontale"],
+      "correctIndex": 2,
+      "explanation": "La faille de San Andreas est une faille transformante : la plaque pacifique glisse vers le nord-ouest par rapport à la plaque nord-américaine, à une vitesse d'environ 5 cm par an. Ce mouvement de coulissage horizontal accumule des contraintes qui se libèrent brutalement en séismes. Le grand séisme de San Francisco de 1906 (magnitude estimée à 7,9) a tué entre 3 000 et 6 000 personnes et détruit 80 % de la ville — le plus meurtrier de l'histoire américaine."
     },
     {
       "id": "4",
-      "question": "Quel type de limite de plaques est le plus souvent à l’origine des séismes puissants ?",
+      "question": "Les zones de subduction génèrent les séismes les plus puissants. Que se passe-t-il exactement dans une zone de subduction qui provoque ces séismes extrêmes ?",
       "image": null,
-      "imagePrompt": "Subduction zone diagram",
-      "answers": ["Divergente", "Passive", "Subduction", "Stable"],
-      "correctIndex": 2,
-      "explanation": "Les zones de subduction sont les plus dangereuses car une plaque plonge sous une autre, accumulant une énorme énergie. Lorsqu’elle se libère, cela peut provoquer des séismes majeurs et des tsunamis."
+      "imagePrompt": "Subduction zone cross-section diagram megathrust earthquake",
+      "answers": ["Deux plaques s'écartent, créant un vide que remplit le magma", "Une plaque océanique plonge sous une plaque continentale, accumulant des contraintes libérées brutalement", "Deux plaques continentales entrent en collision et forment des montagnes sans séisme", "Une plaque se fracture en deux sous l'effet de la chaleur du manteau"],
+      "correctIndex": 1,
+      "explanation": "Dans une zone de subduction, une plaque océanique (plus dense) plonge sous une plaque continentale (moins dense) à un angle de 30 à 60°. L'interface entre les deux plaques est verrouillée par frottement pendant des décennies ou des siècles, accumulant une énergie élastique considérable. Quand ce verrou cède, c'est un séisme de chevauchement (megathrust) — le type le plus énergétique qui existe. Les séismes de magnitude 9+ sont exclusivement de ce type."
     },
     {
       "id": "5",
-      "question": "Quelle chaîne de montagnes est liée à une forte activité sismique due à la collision de plaques ?",
+      "question": "L'Himalaya est une zone sismique active liée à une collision continentale. À quelle vitesse la plaque indienne continue-t-elle de pousser vers le nord contre la plaque eurasienne ?",
       "image": null,
-      "imagePrompt": "Himalaya tectonic collision",
-      "answers": ["Alpes", "Andes", "Himalaya", "Appalaches"],
-      "correctIndex": 2,
-      "explanation": "L’Himalaya est formé par la collision entre la plaque indienne et la plaque eurasienne. Ce processus est toujours actif, ce qui provoque des séismes fréquents et parfois très puissants."
+      "imagePrompt": "Himalaya tectonic collision India Eurasia plate convergence",
+      "answers": ["Environ 0,5 cm par an", "Environ 5 cm par an", "Environ 20 cm par an", "Environ 50 cm par an"],
+      "correctIndex": 1,
+      "explanation": "La plaque indienne converge vers la plaque eurasienne à environ 5 cm par an — l'une des collisions continentales les plus rapides du monde. Cette collision, amorcée il y a environ 50 millions d'années, a créé l'Himalaya et le plateau tibétain. Elle est toujours active : le séisme du Népal de 2015 (magnitude 7,8) a tué près de 9 000 personnes et résultait directement de cette compression tectonique continue."
     },
     {
       "id": "6",
-      "question": "Quel continent est globalement le moins exposé aux séismes ?",
+      "question": "L'Afrique est globalement moins sismique que les autres continents. Mais une zone africaine connaît une activité croissante liée à une fracture continentale en cours. Laquelle ?",
       "image": null,
-      "imagePrompt": "Africa tectonic stability map",
-      "answers": ["Asie", "Amérique", "Afrique", "Océanie"],
-      "correctIndex": 2,
-      "explanation": "L’Afrique est relativement stable car elle est majoritairement située au centre d’une plaque tectonique. Les zones les plus actives se trouvent généralement aux frontières des plaques."
+      "imagePrompt": "East African Rift Valley tectonic divergence Ethiopia Kenya",
+      "answers": ["La dorsale médio-atlantique au large des côtes ouest-africaines", "Le Rift est-africain, de l'Éthiopie au Mozambique", "La chaîne de l'Atlas, au Maghreb", "Le bassin du Congo, au centre du continent"],
+      "correctIndex": 1,
+      "explanation": "Le Rift est-africain est une zone de divergence où la plaque africaine se fissure en deux — la plaque nubienne à l'ouest et la plaque somalienne à l'est — à une vitesse d'environ 6 à 7 mm par an. Dans des millions d'années, la Corne de l'Afrique se séparera du reste du continent, formant un nouvel océan. En 2005, une fissure de 60 km s'est ouverte en quelques jours en Éthiopie, donnant un aperçu spectaculaire de ce processus géologique."
     },
     {
       "id": "7",
-      "question": "Quelle région d’Europe est la plus sismique ?",
+      "question": "L'Italie est la région la plus sismique d'Europe occidentale. Quel séisme du XXe siècle, dans le sud du pays, a été le plus meurtrier de l'histoire italienne moderne ?",
       "image": null,
-      "imagePrompt": "Italy earthquake zone",
-      "answers": ["Scandinavie", "Italie", "France", "Royaume-Uni"],
-      "correctIndex": 1,
-      "explanation": "L’Italie est située sur une zone complexe de convergence entre plaques africaine et eurasienne, ce qui explique sa forte activité sismique et volcanique."
+      "imagePrompt": "Italy earthquake Messina 1908 Southern Italy seismic zone",
+      "answers": ["Le séisme de Messine en 1908", "Le séisme du Frioul en 1976", "Le séisme d'Irpinia en 1980", "Le séisme de L'Aquila en 2009"],
+      "correctIndex": 0,
+      "explanation": "Le séisme de Messine du 28 décembre 1908 (magnitude 7,1) a tué entre 75 000 et 200 000 personnes en Sicile et en Calabre — le séisme le plus meurtrier de l'histoire européenne moderne. La ville de Messine a été détruite à 90 %. L'Italie se situe sur la zone de convergence entre les plaques africaine et eurasienne, ce qui explique son activité sismique et volcanique permanente (Vésuve, Etna, Stromboli)."
     },
     {
       "id": "8",
-      "question": "Quel phénomène est souvent lié aux séismes sous-marins ?",
+      "question": "Le tsunami de l'océan Indien du 26 décembre 2004 a été déclenché par un séisme sous-marin colossal. Quelle magnitude a-t-il atteint, faisant de lui le troisième plus puissant jamais enregistré ?",
       "image": null,
-      "imagePrompt": "Tsunami wave diagram",
-      "answers": ["Cyclone", "Tsunami", "Tornade", "Sécheresse"],
-      "correctIndex": 1,
-      "explanation": "Les séismes sous-marins peuvent déplacer de grandes masses d’eau, provoquant des tsunamis capables de traverser des océans entiers et de causer des dégâts massifs."
+      "imagePrompt": "Indian Ocean tsunami 2004 Sumatra earthquake wave destruction",
+      "answers": ["Magnitude 7,5", "Magnitude 8,2", "Magnitude 9,1", "Magnitude 9,5"],
+      "correctIndex": 2,
+      "explanation": "Le séisme de Sumatra du 26 décembre 2004 a atteint une magnitude de 9,1 — le troisième plus puissant jamais enregistré — et a duré entre 8 et 10 minutes, libérant autant d'énergie que plusieurs milliers de bombes atomiques. Le tsunami généré a tué environ 230 000 personnes dans 14 pays riverains de l'océan Indien, dont l'Indonésie, le Sri Lanka, l'Inde et la Thaïlande. Cet événement a conduit à la création du système d'alerte aux tsunamis de l'océan Indien."
     },
     {
       "id": "9",
-      "question": "Quelle région d’Amérique du Sud est fortement sismique ?",
+      "question": "La cordillère des Andes est l'une des zones sismiques les plus actives d'Amérique du Sud. Quelle plaque océanique plonge sous la plaque sud-américaine pour générer cette activité ?",
       "image": null,
-      "imagePrompt": "Chile Andes earthquake",
-      "answers": ["Amazonie", "Andes", "Patagonie", "Guyanes"],
+      "imagePrompt": "Andes subduction Nazca plate South America cross-section",
+      "answers": ["La plaque caraïbe", "La plaque de Nazca", "La plaque antarctique", "La plaque de Cocos"],
       "correctIndex": 1,
-      "explanation": "La cordillère des Andes est située sur une zone de subduction où la plaque de Nazca plonge sous la plaque sud-américaine, générant des séismes fréquents et puissants."
+      "explanation": "La plaque de Nazca plonge sous la plaque sud-américaine à une vitesse d'environ 7 cm par an — l'une des subductions les plus rapides du monde. Cette convergence a créé les Andes (les plus longues chaînes de montagnes du monde) et génère une activité sismique et volcanique intense. Le Chili, l'Équateur, le Pérou et la Bolivie sont parmi les pays les plus exposés aux séismes majeurs sur Terre."
     },
     {
       "id": "10",
-      "question": "Pourquoi les séismes sont-ils rares au centre des continents ?",
+      "question": "Les séismes sont rares au centre des continents, mais pas inexistants. Quel séisme historique, survenu au cœur des États-Unis au XIXe siècle, a modifié le cours du Mississippi et sonné les cloches d'église jusqu'à Washington D.C. ?",
       "image": null,
-      "imagePrompt": "tectonic plate interior map",
-      "answers": ["Manque de relief", "Faible population", "Absence de plaques", "Stabilité tectonique"],
-      "correctIndex": 3,
-      "explanation": "Les zones centrales des plaques sont plus stables car elles sont éloignées des frontières tectoniques où les mouvements sont les plus intenses."
+      "imagePrompt": "New Madrid seismic zone Mississippi earthquake historical",
+      "answers": ["Le séisme de Charleston (1886)", "Les séismes de New Madrid (1811–1812)", "Le séisme de Saint Louis (1895)", "Le séisme de Memphis (1843)"],
+      "correctIndex": 1,
+      "explanation": "Les séismes de New Madrid (Missouri) de 1811–1812 constituent la séquence sismique la plus puissante de l'histoire américaine continentale, avec trois séismes estimés à magnitude 7 à 8. Ils ont modifié le cours du Mississippi, créé des lacs et été ressentis jusqu'à Washington D.C. La zone sismique de New Madrid reste active et représente un risque méconnu pour des villes comme Memphis et Saint Louis, construites sur des sédiments meubles amplificateurs."
     },
     {
       "id": "11",
-      "question": "Quel pays a connu le séisme le plus puissant jamais enregistré (1960) ?",
+      "question": "Le séisme de Valdivia (Chili, 1960) reste le plus puissant jamais enregistré avec une magnitude de 9,5. Quelle superficie a-t-il affectée, illustrant l'échelle des megathrust earthquakes ?",
       "image": null,
-      "imagePrompt": "Chile earthquake 1960",
-      "answers": ["Chili", "Japon", "Indonésie", "États-Unis"],
-      "correctIndex": 0,
-      "explanation": "Le séisme de Valdivia au Chili (1960) a atteint une magnitude de 9,5. Il illustre la puissance des zones de subduction le long de la ceinture de feu du Pacifique."
+      "imagePrompt": "Chile Valdivia 1960 earthquake magnitude 9.5 epicenter map",
+      "answers": ["Une zone de 100 km² autour de l'épicentre", "Une zone d'environ 1 000 km de côtes chiliennes", "L'ensemble de l'Amérique du Sud", "Le bassin entier de l'océan Pacifique, avec tsunami jusqu'au Japon"],
+      "correctIndex": 3,
+      "explanation": "Le séisme de Valdivia du 22 mai 1960 (magnitude 9,5) a généré un tsunami qui a traversé l'ensemble du Pacifique : les vagues ont tué 61 personnes à Hawaï (15 000 km de l'épicentre), 138 au Japon et 32 aux Philippines. Au Chili, le bilan s'élève à environ 2 000 morts. La zone de rupture couvrait une longueur de 800 km le long de la côte chilienne — une fracture géologique d'une ampleur sans précédent dans l'histoire instrumentale."
     },
     {
       "id": "12",
-      "question": "Quel pays d’Asie du Sud-Est est particulièrement exposé aux séismes et volcans ?",
+      "question": "L'Indonésie est l'un des pays les plus vulnérables aux séismes et tsunamis. Combien de volcans actifs son territoire abrite-t-il ?",
       "image": null,
-      "imagePrompt": "Indonesia volcano map",
-      "answers": ["Thaïlande", "Indonésie", "Vietnam", "Cambodge"],
-      "correctIndex": 1,
-      "explanation": "L’Indonésie est située sur la ceinture de feu du Pacifique et compte des centaines de volcans actifs. Sa position tectonique la rend extrêmement vulnérable."
+      "imagePrompt": "Indonesia volcanoes map Ring of Fire Java Sumatra",
+      "answers": ["Environ 20 volcans actifs", "Environ 50 volcans actifs", "Environ 130 volcans actifs", "Plus de 500 volcans actifs"],
+      "correctIndex": 2,
+      "explanation": "L'Indonésie abrite environ 130 volcans actifs — plus que tout autre pays au monde — et se trouve à la confluence de trois grandes plaques tectoniques (eurasienne, australienne et pacifique). Cette position la rend extrêmement vulnérable : le pays subit en moyenne plusieurs séismes de magnitude supérieure à 7 chaque année. Le séisme et tsunami de Palu (Sulawesi, 2018) a tué plus de 4 300 personnes et illustre la rapidité dévastatrice de ces phénomènes en milieu côtier."
     },
     {
       "id": "13",
-      "question": "Quel type de mouvement de plaques provoque des séismes sans création ni destruction de croûte ?",
+      "question": "Les failles transformantes génèrent des séismes puissants par glissement horizontal. Outre la faille de San Andreas, quelle autre faille transformante majeure menace une grande métropole en Turquie ?",
       "image": null,
-      "imagePrompt": "transform fault diagram",
-      "answers": ["Subduction", "Collision", "Transformant", "Divergent"],
-      "correctIndex": 2,
-      "explanation": "Les failles transformantes correspondent à un glissement horizontal entre plaques. Elles ne créent ni ne détruisent de croûte mais génèrent des séismes importants."
+      "imagePrompt": "North Anatolian Fault Turkey Istanbul earthquake risk",
+      "answers": ["La faille anatolienne du Sud", "La faille nord-anatolienne", "La faille de la mer Égée", "La faille du Bosphore"],
+      "correctIndex": 1,
+      "explanation": "La faille nord-anatolienne est l'une des failles transformantes les plus actives du monde. Elle longe le nord de la Turquie d'est en ouest et a produit une série de séismes meurtriers au XXe siècle (Erzincan 1939 : 33 000 morts ; Izmit 1999 : 17 000 morts). Les sismologues estiment qu'Istanbul, mégapole de 15 millions d'habitants, a plus de 60 % de probabilité de subir un séisme de magnitude 7+ dans les 30 prochaines années — l'une des menaces sismiques urbaines les plus documentées au monde."
     },
     {
       "id": "14",
-      "question": "Quelle zone africaine montre une activité sismique liée à une ouverture de plaque ?",
+      "question": "Le séisme de Lisbonne du 1er novembre 1755 a profondément choqué l'Europe des Lumières. Pour quelle raison philosophique cet événement a-t-il eu un impact au-delà de ses seules destructions physiques ?",
       "image": null,
-      "imagePrompt": "East African Rift map",
-      "answers": ["Sahara", "Atlas", "Rift est-africain", "Sahel"],
-      "correctIndex": 2,
-      "explanation": "Le Rift est-africain est une zone où le continent africain est en train de se fracturer. À terme, cela pourrait créer un nouvel océan."
+      "imagePrompt": "Lisbon earthquake 1755 destruction tsunami fire Portugal",
+      "answers": ["Il a prouvé que la science pouvait prédire les tremblements de terre", "Il s'est produit le jour de la Toussaint, remettant en question la Providence divine chez les philosophes", "Il a inspiré la création de la première carte sismique mondiale", "Il a conduit directement à la Révolution française en ruinant l'économie européenne"],
+      "correctIndex": 1,
+      "explanation": "Le séisme de Lisbonne (magnitude estimée à 8,5–9) a frappé le jour de la Toussaint alors que les habitants étaient à la messe. La destruction d'une ville catholique exemplaire un jour saint a profondément ébranlé la théologie de la Providence. Voltaire en a fait le sujet de son Poème sur le désastre de Lisbonne (1756) et de Candide (1759), questionnant l'idée d'un monde créé par un Dieu bon. Ce séisme marque un tournant dans la pensée des Lumières et l'émergence d'une conception laïque des catastrophes naturelles."
     },
     {
       "id": "15",
-      "question": "Quel océan est bordé par la zone sismique la plus active du monde ?",
+      "question": "La Grèce est la région la plus sismique d'Europe. Quelle configuration tectonique particulière explique son activité sismique intense ?",
       "image": null,
-      "imagePrompt": "Pacific Ocean map",
-      "answers": ["Atlantique", "Pacifique", "Indien", "Arctique"],
+      "imagePrompt": "Greece tectonic map Hellenic subduction zone Aegean",
+      "answers": ["La Grèce est traversée par une dorsale océanique en expansion", "La plaque africaine plonge sous la plaque égéenne le long de la zone de subduction hellénique", "La Grèce est coincée entre les plaques eurasienne et arabique en collision frontale", "La Grèce repose sur un point chaud mantellique similaire à celui d'Hawaï"],
       "correctIndex": 1,
-      "explanation": "L’océan Pacifique est entouré par la ceinture de feu, ce qui en fait la zone la plus active sismiquement et volcaniquement."
+      "explanation": "La zone de subduction hellénique, où la plaque africaine plonge sous la plaque égéenne, est l'une des plus actives d'Europe. La Grèce enregistre plus de séismes de magnitude supérieure à 5 que tout autre pays européen. L'arc volcanique des Cyclades (Santorin) en est la manifestation en surface. Le séisme de Céphalonie de 1953 (magnitude 7,2) avait détruit 85 % des bâtiments de l'île — un rappel que le risque sismique grec est très concret."
     },
     {
       "id": "16",
-      "question": "Quelle ville américaine est particulièrement surveillée pour un risque sismique majeur ?",
+      "question": "San Francisco est menacée par la faille de San Andreas. Mais les sismologues identifient une autre menace : la « grande rupture » attendue sur cette faille. Quelle magnitude est généralement prévue pour ce scénario catastrophe ?",
       "image": null,
-      "imagePrompt": "San Francisco earthquake risk",
-      "answers": ["New York", "San Francisco", "Chicago", "Miami"],
-      "correctIndex": 1,
-      "explanation": "San Francisco est située près de la faille de San Andreas, ce qui en fait une zone à haut risque de séisme majeur."
+      "imagePrompt": "San Francisco earthquake risk Golden Gate fault prediction",
+      "answers": ["Magnitude 6,0 — comparable au séisme de 1989", "Magnitude 7,0 — comparable au séisme de 1906", "Magnitude 7,8 ou plus — le « Big One »", "Magnitude 9,0 ou plus — comparable au séisme de Tōhoku"],
+      "correctIndex": 2,
+      "explanation": "Les sismologues anticipent un séisme de magnitude 7,8 ou plus — le « Big One » — sur la faille de San Andreas dans les 30 prochaines années, avec une probabilité estimée à 60 %. Une telle secousse pourrait causer des milliers de morts et des centaines de milliards de dollars de dégâts dans la région de la Baie. La dernière grande rupture de ce segment remonte au séisme de 1906 ; depuis, les contraintes tectoniques s'accumulent inexorablement à la même vitesse."
     },
     {
       "id": "17",
-      "question": "Quel pays européen a connu un séisme dévastateur en 1755 ?",
+      "question": "Le séisme d'Haïti du 12 janvier 2010 (magnitude 7,0) a causé entre 100 000 et 300 000 morts. Pourquoi un séisme de cette magnitude — modérée à l'échelle mondiale — a-t-il été aussi meurtrier ?",
       "image": null,
-      "imagePrompt": "Lisbon earthquake 1755",
-      "answers": ["Portugal", "Italie", "Grèce", "Espagne"],
+      "imagePrompt": "Haiti earthquake 2010 Port-au-Prince destruction vulnerability",
+      "answers": ["L'épicentre était directement sous Port-au-Prince et les constructions n'étaient pas parasismiques", "La magnitude réelle était sous-estimée et atteignait en réalité 8,5", "Un tsunami secondaire a amplifié les destructions sur tout le littoral caribéen", "La population avait refusé d'évacuer malgré les alertes préalables des sismologues"],
       "correctIndex": 0,
-      "explanation": "Le séisme de Lisbonne en 1755 a profondément marqué l’Europe, tant par ses destructions que par ses conséquences philosophiques et scientifiques."
+      "explanation": "Le séisme haïtien illustre que la vulnérabilité humaine détermine le bilan autant que la magnitude géologique. L'épicentre se trouvait à seulement 25 km de Port-au-Prince et à 13 km de profondeur seulement (séisme très superficiel). Dans un pays où 90 % des constructions ne respectaient aucune norme parasismique et où la pauvreté rendait toute préparation impossible, un séisme de magnitude 7,0 a produit une catastrophe que des villes comme Tokyo auraient absorbée avec des dégâts bien moindres."
     },
     {
       "id": "18",
-      "question": "Quelle région est située à la jonction de plusieurs plaques en Méditerranée ?",
+      "question": "L'urbanisation dense amplifie les dégâts sismiques. Mais un autre facteur géologique local peut multiplier les destructions dans une ville : lequel ?",
       "image": null,
-      "imagePrompt": "Greece tectonic map",
-      "answers": ["France", "Grèce", "Allemagne", "Pays-Bas"],
+      "imagePrompt": "Mexico City 1985 earthquake soft lake sediment amplification",
+      "answers": ["La présence de nappes phréatiques profondes qui lubrifient les failles", "La construction sur des sédiments meubles ou des sols saturés d'eau qui amplifient les ondes sismiques", "L'altitude élevée de la ville qui rapproche les bâtiments de l'épicentre", "La présence de mines souterraines qui créent des cavités d'effondrement"],
       "correctIndex": 1,
-      "explanation": "La Grèce se situe à la rencontre de plaques tectoniques, ce qui explique son activité sismique fréquente."
+      "explanation": "Les sols meubles (sédiments alluviaux, argiles, remblais) amplifient considérablement les ondes sismiques — parfois par un facteur 10 à 50 par rapport à la roche dure. Mexico en est l'exemple emblématique : lors du séisme de 1985 (magnitude 8,1), les quartiers bâtis sur les anciens sédiments du lac Texcoco ont subi des destructions bien supérieures aux quartiers sur roche. Ce phénomène d'amplification locale, appelé « effet de site », explique pourquoi deux quartiers d'une même ville peuvent connaître des niveaux de destruction radicalement différents."
     },
     {
       "id": "19",
-      "question": "Quel facteur augmente les dégâts lors d’un séisme ?",
+      "question": "Les séismes sont mesurés par plusieurs échelles. Quelle est la différence fondamentale entre l'échelle de Richter (souvent citée) et l'échelle de magnitude de moment (Mw) utilisée par les sismologues aujourd'hui ?",
       "image": null,
-      "imagePrompt": "earthquake damage city",
-      "answers": ["Faible population", "Urbanisation dense", "Climat chaud", "Altitude"],
+      "imagePrompt": "Seismograph earthquake magnitude scale measurement",
+      "answers": ["Richter mesure les dégâts en surface, Mw mesure l'énergie libérée en profondeur", "Richter n'est plus utilisée pour les grands séismes car elle sature ; Mw mesure l'énergie totale libérée sans saturation", "Richter est logarithmique, Mw est linéaire — un séisme Mw 8 est deux fois plus puissant qu'un Mw 7", "Richter mesure la durée du séisme, Mw mesure son intensité maximale"],
       "correctIndex": 1,
-      "explanation": "Les zones densément peuplées avec des constructions fragiles subissent des dégâts beaucoup plus importants lors d’un séisme."
+      "explanation": "L'échelle de Richter (1935) sature à partir de magnitude 7 environ — elle ne distingue plus correctement les très grands séismes entre eux. L'échelle Mw (magnitude de moment), développée dans les années 1970, mesure l'énergie totale libérée par la rupture et ne sature pas. Les deux sont logarithmiques : chaque unité correspond à une énergie environ 31,6 fois plus grande. Un séisme de magnitude 9 libère environ 1 000 fois plus d'énergie qu'un séisme de magnitude 7. Depuis les années 1990, les sismologues utilisent quasi exclusivement la Mw pour les séismes significatifs."
     },
     {
       "id": "20",
-      "question": "Quelle zone est la moins sismique ?",
+      "question": "L'intérieur des plaques tectoniques est généralement stable, mais certaines zones intraplaques présentent un risque sismique résiduel. Quelle en est la principale cause ?",
       "image": null,
-      "imagePrompt": "stable continental interior",
-      "answers": ["Bord des plaques", "Ceinture de feu", "Zones volcaniques", "Intérieur des plaques"],
-      "correctIndex": 3,
-      "explanation": "Les zones situées au centre des plaques tectoniques sont les plus stables et connaissent peu d’activité sismique."
+      "imagePrompt": "Intraplate earthquake stable continental interior ancient fault",
+      "answers": ["Des failles anciennes réactivées par les contraintes transmises depuis les bords de plaques", "La présence de ressources pétrolières qui lubrifient les roches et provoquent des glissements", "Le poids des glaciers qui comprime la croûte et génère des fractures", "Des poches de magma superficielles non liées à des points chauds connus"],
+      "correctIndex": 0,
+      "explanation": "Les séismes intraplaques se produisent généralement sur des failles anciennes — héritées de configurations tectoniques passées — qui peuvent être réactivées par les contraintes transmises depuis les bords de plaques actifs, par des phénomènes de rebond isostatique (soulèvement de la croûte après la fonte des glaciers) ou par des activités humaines (exploitation de gaz de schiste, remplissage de barrages). La zone sismique de New Madrid, l'est du Canada ou la péninsule scandinave illustrent ce risque souvent sous-estimé."
     }
   ]
 }

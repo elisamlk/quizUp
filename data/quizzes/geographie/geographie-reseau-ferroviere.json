@@ -43,24 +43,34 @@
       "correctIndex": 1,
       "explanation": "Le Shinkansen japonais a révolutionné le transport ferroviaire dès 1964 en combinant vitesse, sécurité et ponctualité exceptionnelle."
     },
-    {
-      "id": "4",
-      "question": "Quelle liaison ferroviaire passe sous la Manche ?",
-      "image": null,
-      "imagePrompt": "Channel Tunnel train",
-      "answers": ["Rail Baltica", "Thalys", "Nightjet", "Eurostar"],
-      "correctIndex": 3,
-      "explanation": "L’Eurostar utilise le tunnel sous la Manche, une infrastructure majeure reliant le Royaume-Uni au continent européen."
-    },
-    {
-      "id": "5",
-      "question": "Quelle ligne relie Pékin à Lhassa à très haute altitude ?",
-      "image": null,
-      "imagePrompt": "Tibet railway",
-      "answers": ["Transmongolien", "Qinghai-Tibet Railway", "Transsibérien", "Silk Rail"],
-      "correctIndex": 1,
-      "explanation": "Cette ligne est un exploit technique traversant des zones de pergélisol et des altitudes extrêmes dépassant 5 000 mètres."
-    },
+  {
+  "id": "4",
+  "question": "Quel service ferroviaire emprunte le tunnel sous la Manche pour relier Londres au continent européen ?",
+  "image": null,
+  "imagePrompt": "Channel Tunnel Eurostar train",
+  "answers": [
+    "Rail Baltica",
+    "Thalys",
+    "Nightjet",
+    "Eurostar"
+  ],
+  "correctIndex": 3,
+  "explanation": "L’Eurostar est un service ferroviaire international qui emprunte le tunnel sous la Manche pour relier Londres à plusieurs grandes villes européennes, notamment Paris, Bruxelles et Amsterdam."
+},
+   {
+  "id": "5",
+  "question": "Quelle ligne ferroviaire relie Xining à Lhassa en traversant le plateau tibétain à très haute altitude ?",
+  "image": null,
+  "imagePrompt": "Qinghai Tibet Railway high altitude",
+  "answers": [
+    "Transmongolien",
+    "Qinghai-Tibet Railway",
+    "Transsibérien",
+    "Silk Rail"
+  ],
+  "correctIndex": 1,
+  "explanation": "Le chemin de fer Qinghai-Tibet relie Xining à Lhassa en traversant le plateau tibétain. Cette infrastructure spectaculaire franchit des zones de pergélisol et atteint plus de 5 000 mètres d’altitude, ce qui en fait l’une des lignes ferroviaires les plus élevées du monde."
+},
     {
       "id": "6",
       "question": "Quel réseau ferroviaire a contribué à unifier le Canada ?",
@@ -70,15 +80,20 @@
       "correctIndex": 1,
       "explanation": "Le Canadian Pacific Railway a joué un rôle clé dans l’unification territoriale et économique du Canada au XIXe siècle."
     },
-    {
-      "id": "7",
-      "question": "Quelle ligne traverse les Rocheuses entre Chicago et San Francisco ?",
-      "image": null,
-      "imagePrompt": "California Zephyr",
-      "answers": ["Empire Builder", "California Zephyr", "Acela", "Sunset Limited"],
-      "correctIndex": 1,
-      "explanation": "Le California Zephyr est célèbre pour ses paysages spectaculaires à travers les montagnes et les plaines américaines."
-    },
+  {
+  "id": "7",
+  "question": "Quel train relie Chicago à Emeryville, près de San Francisco, en traversant les montagnes Rocheuses ?",
+  "image": null,
+  "imagePrompt": "California Zephyr Rocky Mountains",
+  "answers": [
+    "Empire Builder",
+    "California Zephyr",
+    "Acela",
+    "Sunset Limited"
+  ],
+  "correctIndex": 1,
+  "explanation": "Le California Zephyr relie Chicago à Emeryville, dans la baie de San Francisco. Son parcours traverse les plaines américaines, les montagnes Rocheuses et la Sierra Nevada, offrant certains des paysages ferroviaires les plus spectaculaires des États-Unis."
+},
     {
       "id": "8",
       "question": "Quel train de luxe traverse l’Afrique du Sud ?",
@@ -106,15 +121,20 @@
       "correctIndex": 3,
       "explanation": "Le Transmongolien est un axe stratégique reliant la Russie, la Mongolie et la Chine."
     },
-    {
-      "id": "11",
-      "question": "Quelle ligne française a lancé le TGV ?",
-      "image": null,
-      "imagePrompt": "TGV",
-      "answers": ["TGV Sud-Est", "ICE", "AVE", "Railjet"],
-      "correctIndex": 0,
-      "explanation": "Le TGV Sud-Est a marqué le début de la grande vitesse en Europe et a transformé les mobilités nationales."
-    },
+   {
+  "id": "11",
+  "question": "Quelle ligne à grande vitesse, ouverte entre Paris et Lyon, a marqué le lancement du TGV en France ?",
+  "image": null,
+  "imagePrompt": "TGV Sud Est Paris Lyon",
+  "answers": [
+    "LGV Sud-Est",
+    "LGV Atlantique",
+    "LGV Nord",
+    "LGV Méditerranée"
+  ],
+  "correctIndex": 0,
+  "explanation": "La LGV Sud-Est, mise en service progressivement à partir de 1981 entre Paris et Lyon, a marqué le lancement commercial du TGV. Elle a fortement réduit les temps de trajet et transformé les mobilités ferroviaires en France."
+},
     {
       "id": "12",
       "question": "Quel corridor ferroviaire relie Boston à Washington ?",
@@ -124,24 +144,34 @@
       "correctIndex": 2,
       "explanation": "Le Northeast Corridor est le plus fréquenté des États-Unis grâce à la forte densité urbaine de la côte Est."
     },
-    {
-      "id": "13",
-      "question": "Quelle ligne mène au Machu Picchu ?",
-      "image": null,
-      "imagePrompt": "Peru train Machu Picchu",
-      "answers": ["Transandin", "Hiram Bingham route", "Andean Rail", "Qhapaq Rail"],
-      "correctIndex": 1,
-      "explanation": "Cette ligne permet d’accéder à un site isolé en pleine montagne, démontrant l’importance du rail dans le tourisme."
-    },
-    {
-      "id": "14",
-      "question": "Quel train traverse les Alpes avec des viaducs spectaculaires ?",
-      "image": null,
-      "imagePrompt": "Bernina Express",
-      "answers": ["Glacier Express", "Nightjet", "EuroCity", "Bernina Express"],
-      "correctIndex": 3,
-      "explanation": "Le Bernina Express est classé à l’UNESCO pour ses ouvrages d’art et ses paysages alpins."
-    },
+{
+  "id": "13",
+  "question": "Quel train touristique de luxe permet de voyager depuis la région de Cusco jusqu’à Machu Picchu en traversant la vallée de l’Urubamba ?",
+  "image": null,
+  "imagePrompt": "Belmond Hiram Bingham Machu Picchu train",
+  "answers": [
+    "Belmond Hiram Bingham",
+    "Transandin",
+    "Andean Rail",
+    "Peru Express"
+  ],
+  "correctIndex": 0,
+  "explanation": "Le Belmond Hiram Bingham est un train touristique de luxe qui permet de rejoindre Machu Picchu depuis la région de Cusco. Il emprunte la ligne ferroviaire desservant Aguas Calientes, principal point d’accès au célèbre site inca."
+},
+  {
+  "id": "14",
+  "question": "Quel train traverse les Alpes suisses en empruntant des lignes célèbres pour leurs viaducs et leurs paysages spectaculaires ?",
+  "image": null,
+  "imagePrompt": "Bernina Express",
+  "answers": [
+    "Glacier Express",
+    "Nightjet",
+    "EuroCity",
+    "Bernina Express"
+  ],
+  "correctIndex": 3,
+  "explanation": "Le Bernina Express traverse les Alpes suisses sur des lignes remarquables par leurs viaducs, leurs tunnels et leurs paysages. Une partie de son parcours emprunte le chemin de fer rhétique dans les paysages de l’Albula et de la Bernina, inscrit au patrimoine mondial de l’UNESCO."
+},
     {
       "id": "15",
       "question": "Quel train relie Adélaïde à Darwin ?",
@@ -169,15 +199,20 @@
       "correctIndex": 0,
       "explanation": "La ligne Madrid-Séville a été inaugurée en 1992 et a lancé le réseau AVE."
     },
-    {
-      "id": "18",
-      "question": "Quel réseau relie les grandes villes indiennes en quadrilatère ?",
-      "image": null,
-      "imagePrompt": "India rail network",
-      "answers": ["Konkan Railway", "Golden Quadrilateral", "Palace on Wheels", "Mountain Rail"],
-      "correctIndex": 1,
-      "explanation": "Ce réseau relie Delhi, Mumbai, Chennai et Kolkata, structurant l’économie indienne."
-    },
+{
+  "id": "18",
+  "question": "Quel réseau ferroviaire transporte chaque année plusieurs milliards de voyageurs ?",
+  "image": null,
+  "imagePrompt": "Indian Railways passenger train",
+  "answers": [
+    "Indian Railways",
+    "JR East",
+    "Deutsche Bahn",
+    "SNCF"
+  ],
+  "correctIndex": 0,
+  "explanation": "Indian Railways est l’un des plus grands réseaux ferroviaires de la planète. Il transporte chaque année plusieurs milliards de voyageurs et constitue un élément essentiel de la mobilité et de l’économie de l’Inde."
+},
     {
       "id": "19",
       "question": "Quel train relie Zermatt à Saint-Moritz ?",

@@ -1,9 +1,8 @@
-
 {
   "slug": "quiz-geographie-villes-les-plus-etendues",
   "title": "Quiz Géographie Les Villes les Plus Étendues du Monde - 20 questions",
   "description": "Explore les villes les plus vastes de la planète et teste tes connaissances sur leurs dimensions hors normes.",
-  "descriptionSeo": "Certaines villes du monde impressionnent par leur superficie immense, bien au-delà de l’image que l’on se fait d’un simple centre urbain. Ce quiz de géographie vous propose 20 questions pour tester vos connaissances sur les villes les plus étendues, de Chongqing à New York en passant par Kinshasa ou Sydney. Découvrez les écarts entre ville, agglomération et aire administrative grâce à des explications détaillées et enrichissantes.",
+  "descriptionSeo": "Certaines villes du monde impressionnent par leur superficie immense, bien au-delà de l'image que l'on se fait d'un simple centre urbain. Ce quiz de géographie vous propose 20 questions pour tester vos connaissances sur les villes les plus étendues, de Chongqing à New York en passant par Kinshasa ou Sydney. Découvrez les écarts entre ville, agglomération et aire administrative grâce à des explications détaillées et enrichissantes.",
   "category": {
     "name": "Géographie",
     "slug": "geographie"
@@ -19,183 +18,183 @@
   "questions": [
     {
       "id": "1",
-      "question": "Quelle municipalité chinoise est souvent citée parmi les plus vastes du monde en superficie administrative ?",
+      "question": "Chongqing est souvent présentée comme la plus grande ville du monde en superficie administrative. Quelle est la particularité de ce territoire qui rend cette comparaison trompeuse ?",
       "image": null,
-      "imagePrompt": "Chongqing skyline mountains Yangtze aerial",
-      "answers": ["Shanghai", "Pékin", "Chongqing", "Wuhan"],
-      "correctIndex": 2,
-      "explanation": "Chongqing est gigantesque non seulement par sa population, mais surtout par son territoire administratif, qui inclut de vastes espaces ruraux et montagneux. Cela rappelle qu’une “ville” peut parfois désigner une entité administrative bien plus large qu’un espace purement urbanisé."
+      "imagePrompt": "Chongqing skyline mountains Yangtze aerial rural",
+      "answers": ["Il est entièrement couvert de gratte-ciels sur 82 000 km²", "Il inclut de vastes zones rurales et montagneuses peu urbanisées", "Il est divisé en deux par le fleuve Yangtsé, ce qui double sa surface comptabilisée", "Il englobe administrativement trois provinces voisines"],
+      "correctIndex": 1,
+      "explanation": "La municipalité de Chongqing couvre environ 82 000 km² — plus que l'Autriche — mais une grande partie de ce territoire est rural, montagneux et peu dense. Comparer sa « superficie » à celle de Paris ou New York revient à comparer des choses incomparables. C'est un exemple typique de la confusion entre limite administrative et espace réellement urbanisé, un piège fréquent dans les classements de villes."
     },
     {
       "id": "2",
-      "question": "Quelle ville australienne est connue pour son immense superficie métropolitaine et ses marges naturelles très étendues ?",
+      "question": "Sydney est souvent présentée comme l'une des villes les plus étalées du monde. Sur combien de kilomètres s'étire son aire métropolitaine d'est en ouest ?",
       "image": null,
-      "imagePrompt": "Sydney aerial coastline sprawling suburbs",
-      "answers": ["Sydney", "Melbourne", "Perth", "Adélaïde"],
-      "correctIndex": 0,
-      "explanation": "Sydney s’étend sur une surface urbaine très large, avec des banlieues qui se prolongent loin du centre historique. Son expansion reflète un modèle urbain marqué par l’automobile, les maisons individuelles et l’étalement le long du littoral."
+      "imagePrompt": "Sydney aerial coastline sprawling suburbs Blue Mountains",
+      "answers": ["Environ 20 km", "Environ 60 km", "Environ 100 km", "Environ 200 km"],
+      "correctIndex": 2,
+      "explanation": "L'aire métropolitaine de Sydney s'étend sur environ 100 km d'est en ouest, coincée entre l'océan Pacifique à l'est et les Montagnes Bleues à l'ouest. Ce modèle d'étalement est typique des grandes villes australiennes : maisons individuelles avec jardin, forte dépendance à la voiture, densité beaucoup plus faible que les métropoles européennes ou asiatiques de taille comparable."
     },
     {
       "id": "3",
-      "question": "Quelle grande ville nord-américaine est célèbre pour son étalement urbain horizontal et sa dépendance à la voiture ?",
+      "question": "Los Angeles est l'archétype de la ville étalée. Combien de kilomètres de voies express (freeways) son réseau autoroutier compte-t-il, faisant de lui l'un des plus denses du monde ?",
       "image": null,
-      "imagePrompt": "Los Angeles sprawl aerial freeway",
-      "answers": ["Chicago", "New York", "Toronto", "Los Angeles"],
-      "correctIndex": 3,
-      "explanation": "Los Angeles incarne l’étalement urbain moderne : une métropole immense, polycentrique, où les distances sont considérables. Elle illustre le développement d’une ville pensée autour de l’automobile plutôt que d’un centre compact."
+      "imagePrompt": "Los Angeles freeway interchange aerial sprawl smog",
+      "answers": ["Environ 200 km", "Environ 600 km", "Environ 1 400 km", "Plus de 3 000 km"],
+      "correctIndex": 2,
+      "explanation": "Le réseau de freeways du Grand Los Angeles s'étend sur environ 1 400 km — l'un des plus denses du monde. Cette infrastructure colossale a façonné la métropole : sans réseau ferroviaire structurant jusqu'aux années 1990, Los Angeles s'est développée autour de l'automobile, produisant une ville polycentrique où le « centre » n'existe pas vraiment. Son aire urbaine couvre plus de 12 000 km²."
     },
     {
       "id": "4",
-      "question": "Quelle ville d’Afrique centrale se distingue par l’immensité de son extension urbaine et sa croissance rapide ?",
+      "question": "Kinshasa est l'une des métropoles africaines à la croissance la plus rapide. À quel rythme sa population a-t-elle augmenté depuis l'indépendance du Congo en 1960 ?",
       "image": null,
-      "imagePrompt": "Kinshasa aerial urban sprawl Congo",
-      "answers": ["Kinshasa", "Libreville", "Brazzaville", "Kampala"],
-      "correctIndex": 0,
-      "explanation": "Kinshasa s’est développée à une vitesse spectaculaire, avec une urbanisation parfois peu planifiée. Son extension reflète la croissance démographique africaine et les défis liés aux infrastructures, aux transports et aux services urbains."
+      "imagePrompt": "Kinshasa aerial urban sprawl Congo River",
+      "answers": ["Elle a doublé (de 500 000 à 1 million)", "Elle a quintuplé (de 1 à 5 millions)", "Elle a été multipliée par plus de 30 (de 400 000 à plus de 15 millions)", "Elle a triplé (de 2 à 6 millions)"],
+      "correctIndex": 2,
+      "explanation": "Kinshasa comptait environ 400 000 habitants à l'indépendance en 1960 ; elle en compte aujourd'hui plus de 15 millions, soit une multiplication par plus de 30 en soixante ans. Cette croissance explosive, portée par l'exode rural et une démographie élevée, a produit une ville immense où les infrastructures peinent à suivre. Kinshasa pourrait devenir l'une des trois plus grandes villes du monde d'ici 2075."
     },
     {
       "id": "5",
-      "question": "Quelle ville russe est très vaste mais reste dominée par un centre puissant autour du Kremlin ?",
+      "question": "Moscou est organisée en anneaux concentriques autour du Kremlin. Combien de rocades (boulevards périphériques circulaires) structurent son territoire ?",
       "image": null,
-      "imagePrompt": "Moscow aerial ring roads skyline",
-      "answers": ["Saint-Pétersbourg", "Moscou", "Kazan", "Novossibirsk"],
-      "correctIndex": 1,
-      "explanation": "Moscou combine deux logiques : un centre historique très fort et une extension périphérique continue, organisée autour de grands axes et de rocades. Sa taille traduit à la fois son poids politique et son rôle économique dominant en Russie."
+      "imagePrompt": "Moscow aerial ring roads concentric circles Kremlin",
+      "answers": ["2 rocades", "4 rocades", "Environ 8 rocades", "Plus de 15 rocades"],
+      "correctIndex": 2,
+      "explanation": "Moscou est structurée par une série d'anneaux routiers concentriques : le Garden Ring, le Third Ring Road, l'anneau autoroutier MKAD (périphérique extérieur) et plusieurs autres. On en recense environ 8 selon les définitions. Ce modèle radio-concentrique est caractéristique de nombreuses capitales européennes continentales, mais Moscou en a poussé la logique à une échelle exceptionnelle : son aire urbaine couvre plus de 2 500 km²."
     },
     {
       "id": "6",
-      "question": "Quelle mégapole japonaise s’inscrit dans une vaste continuité urbaine autour de la baie de Tokyo ?",
+      "question": "L'agglomération de Tokyo s'inscrit dans une mégalopole continue. Comment les géographes désignent-ils cette zone urbaine quasi ininterrompue qui s'étend de Tokyo à Osaka ?",
       "image": null,
-      "imagePrompt": "Tokyo bay megalopolis aerial night",
-      "answers": ["Osaka", "Nagoya", "Tokyo", "Sapporo"],
-      "correctIndex": 2,
-      "explanation": "Tokyo est souvent perçue comme une ville dense, mais son extension réelle est immense lorsqu’on considère l’agglomération et la mégalopole japonaise. Elle illustre parfaitement la différence entre ville-centre, aire urbaine et région métropolitaine."
+      "imagePrompt": "Tokyo Osaka Tokaido megalopolis night lights aerial",
+      "answers": ["La Ceinture du Pacifique", "Le Tokaido Megalopolis", "Le Grand Corridor Japonais", "La Mégapole de l'Est"],
+      "correctIndex": 1,
+      "explanation": "Le Tokaido Megalopolis désigne la zone urbaine quasi continue qui s'étire sur 500 km entre Tokyo et Osaka–Kobe, longeant l'ancienne route du Tōkaidō. Elle concentre environ 80 millions d'habitants — les deux tiers de la population japonaise — sur moins de 20 % du territoire national. Ce concept, théorisé par le géographe Jean Gottmann dans les années 1960, a été appliqué à d'autres corridors urbains dans le monde."
     },
     {
       "id": "7",
-      "question": "Quelle ville américaine est très vaste à l’échelle municipale, avec plusieurs arrondissements aux fonctions très différentes ?",
+      "question": "New York est structurée en cinq arrondissements (boroughs). Lequel est le plus grand en superficie, souvent surprenant pour ceux qui imaginent la ville comme synonyme de Manhattan ?",
       "image": null,
-      "imagePrompt": "New York aerial boroughs skyline",
-      "answers": ["New York", "Boston", "Philadelphie", "Washington"],
-      "correctIndex": 0,
-      "explanation": "New York couvre une superficie importante à travers ses cinq boroughs, qui combinent densité extrême, zones résidentielles et espaces plus périphériques. Sa structure montre qu’une ville étendue peut aussi être très verticale et très centrale."
+      "imagePrompt": "New York Staten Island aerial boroughs map",
+      "answers": ["Manhattan", "Brooklyn", "Queens", "Staten Island"],
+      "correctIndex": 2,
+      "explanation": "Queens est le plus grand borough de New York en superficie (280 km²), devant Staten Island (151 km²) et Brooklyn (183 km²). Manhattan, l'île la plus connue, n'est qu'en quatrième position (59 km²). Queens est aussi le borough le plus diversifié linguistiquement : on y parle plus de 160 langues, ce qui en fait l'un des espaces les plus multiculturels au monde."
     },
     {
       "id": "8",
-      "question": "Quelle ville mexicaine est connue pour son immense étalement dans une haute vallée entourée de montagnes ?",
+      "question": "Mexico est construite sur le site de l'ancien lac Texcoco, asséché au fil des siècles. Quelle superficie approximative couvre aujourd'hui son aire métropolitaine ?",
       "image": null,
-      "imagePrompt": "Mexico city aerial basin mountains sprawl",
-      "answers": ["Monterrey", "Puebla", "Guadalajara", "Mexico"],
-      "correctIndex": 3,
-      "explanation": "Mexico s’étend dans une cuvette d’altitude, ce qui concentre pollution, pression foncière et densité sur une aire immense. Son développement illustre les effets conjoints de la topographie et de la croissance démographique."
+      "imagePrompt": "Mexico City aerial basin mountains sprawl valley",
+      "answers": ["Environ 500 km²", "Environ 1 500 km²", "Environ 7 900 km²", "Environ 20 000 km²"],
+      "correctIndex": 2,
+      "explanation": "L'aire métropolitaine de Mexico (Zona Metropolitana del Valle de México) s'étend sur environ 7 900 km² et déborde largement sur les États voisins de l'État de Mexico et Hidalgo. Enfermée dans une cuvette d'altitude à 2 240 m, entourée de volcans, cette agglomération de plus de 21 millions d'habitants souffre d'une pollution atmosphérique sévère, car les montagnes environnantes piègent les émissions."
     },
     {
       "id": "9",
-      "question": "Quelle ville brésilienne est souvent citée comme l’une des plus étendues d’Amérique du Sud ?",
+      "question": "São Paulo est la plus grande agglomération d'Amérique du Sud. Quelle métaphore géographique les urbanistes utilisent-ils pour décrire son expansion périphérique incontrôlée ?",
       "image": null,
-      "imagePrompt": "Sao Paulo endless urban sprawl aerial",
-      "answers": ["São Paulo", "Rio de Janeiro", "Brasília", "Salvador"],
-      "correctIndex": 0,
-      "explanation": "São Paulo est un géant urbain dont l’expansion dépasse largement l’image du centre financier moderne. Sa superficie fonctionnelle immense traduit un développement industriel, migratoire et métropolitain intense au XXe siècle."
+      "imagePrompt": "Sao Paulo endless urban sprawl aerial favelas towers",
+      "answers": ["« L'océan de béton »", "« La pieuvre »", "« La tache d'huile »", "« Le labyrinthe »"],
+      "correctIndex": 2,
+      "explanation": "Les urbanistes brésiliens parlent de « mancha urbana » (tache d'huile) pour décrire l'expansion de São Paulo : une croissance diffuse, sans limite nette, qui s'étire dans toutes les directions. L'agglomération couvre plus de 7 700 km² et accueille plus de 21 millions d'habitants. Elle a absorbé des dizaines de villes voisines au point de former une région métropolitaine quasi continue."
     },
     {
       "id": "10",
-      "question": "Quelle ville chinoise est très vaste mais davantage connue pour sa densité économique que pour son centre historique ancien ?",
+      "question": "Shanghai a vu naître l'un des quartiers d'affaires les plus spectaculaires du monde en très peu de temps. Quel district, simple zone agricole en 1990, concentre aujourd'hui certains des gratte-ciels les plus hauts d'Asie ?",
       "image": null,
-      "imagePrompt": "Shanghai aerial sprawling districts river",
-      "answers": ["Xi'an", "Nankin", "Shanghai", "Lhassa"],
-      "correctIndex": 2,
-      "explanation": "Shanghai s’est étendue très rapidement avec l’industrialisation, l’ouverture économique et le développement de nouveaux quartiers. Son immensité traduit autant sa puissance portuaire que son rôle de vitrine économique de la Chine contemporaine."
+      "imagePrompt": "Shanghai Pudong Lujiazui skyline towers financial district",
+      "answers": ["Huangpu", "Pudong", "Jing'an", "Hongkou"],
+      "correctIndex": 1,
+      "explanation": "Pudong, rive est du Huangpu, était majoritairement agricole en 1990. En trente ans, il est devenu l'un des skylines les plus reconnaissables du monde, abritant la Shanghai Tower (632 m, 2e plus haute tour du monde), la Jin Mao Tower et le Shanghai World Financial Center. Cette transformation illustre la vitesse et l'échelle de l'urbanisation chinoise contemporaine."
     },
     {
       "id": "11",
-      "question": "Quelle ville canadienne se distingue par une aire métropolitaine très large malgré une densité plus faible que certaines villes européennes ?",
+      "question": "Toronto est la ville la plus peuplée du Canada. Pourquoi son aire urbaine est-elle parfois surnommée « le fer à cheval d'or » (Golden Horseshoe) ?",
       "image": null,
-      "imagePrompt": "Toronto aerial suburbs skyline lake ontario",
-      "answers": ["Vancouver", "Montréal", "Toronto", "Ottawa"],
-      "correctIndex": 2,
-      "explanation": "Toronto s’étend largement autour du lac Ontario, avec une forte suburbanisation. Son cas montre bien qu’une grande étendue urbaine ne signifie pas toujours une densité extrême, mais souvent une expansion périphérique continue."
+      "imagePrompt": "Toronto Golden Horseshoe aerial Lake Ontario suburbs",
+      "answers": ["En raison de la forme en arc de cercle de son littoral sur le lac Ontario", "Parce que la région produit la majorité du PIB canadien, comme de l'or", "En référence à la forme du fer à cheval que dessinent ses autoroutes", "Parce que ses banlieues sont célèbres pour leurs maisons dorées"],
+      "correctIndex": 0,
+      "explanation": "Le « Golden Horseshoe » désigne la région urbaine qui s'arc-boute autour de l'extrémité ouest du lac Ontario, de Niagara Falls à Oshawa en passant par Toronto et Hamilton. Sa forme rappelle un fer à cheval. Cette zone concentre environ 9 millions d'habitants (un quart de la population canadienne) et génère environ 20 % du PIB du pays — d'où l'adjectif « golden »."
     },
     {
       "id": "12",
-      "question": "Quelle ville sud-africaine est connue pour son extension éclatée et son urbanisation héritée de séparations historiques ?",
+      "question": "Johannesburg présente un étalement urbain marqué par l'apartheid. Quel dispositif légal imposait la séparation géographique des populations et a durablement façonné la forme de la ville ?",
       "image": null,
-      "imagePrompt": "Johannesburg aerial suburbs township sprawl",
-      "answers": ["Le Cap", "Johannesburg", "Pretoria", "Durban"],
+      "imagePrompt": "Johannesburg aerial Soweto township suburb sprawl",
+      "answers": ["Le Pass System", "Le Group Areas Act", "Le Separate Amenities Act", "Le Population Registration Act"],
       "correctIndex": 1,
-      "explanation": "Johannesburg présente un étalement marqué par l’histoire de l’apartheid, avec des espaces urbains longtemps séparés socialement et spatialement. Son organisation actuelle révèle combien l’histoire politique peut modeler durablement la forme d’une ville."
+      "explanation": "Le Group Areas Act (1950) imposait une séparation géographique stricte des populations selon leur classification raciale, assignant chaque groupe à des zones de résidence distinctes. À Johannesburg, cela a produit des townships comme Soweto (South Western Townships), éloignés du centre blanc et reliés par de longs trajets quotidiens. Ces fractures spatiales persistent largement aujourd'hui, trente ans après la fin de l'apartheid."
     },
     {
       "id": "13",
-      "question": "Quelle ville du Moyen-Orient s’est énormément étendue sous l’effet de la croissance démographique et de la centralisation nationale ?",
+      "question": "Le Caire déborde aujourd'hui largement sur le désert. Quelle nouvelle capitale administrative l'Égypte construit-elle depuis 2015 à l'est du Caire pour désengorger la métropole ?",
       "image": null,
-      "imagePrompt": "Cairo urban sprawl nile desert aerial",
-      "answers": ["Le Caire", "Amman", "Doha", "Beyrouth"],
-      "correctIndex": 0,
-      "explanation": "Le Caire s’est déployé bien au-delà de son noyau historique le long du Nil. Son extension met en lumière la pression démographique, les mobilités quotidiennes et la difficulté de maîtriser la croissance d’une très grande métropole."
+      "imagePrompt": "Cairo new administrative capital Egypt desert construction",
+      "answers": ["Alexandrie Nouvelle", "Capitale Administrative Nouvelle (CAN)", "New Cairo City", "Héliopolis-Est"],
+      "correctIndex": 1,
+      "explanation": "L'Égypte construit depuis 2015 une nouvelle capitale administrative sans nom officiel définitif, souvent désignée sous le sigle CAN (Capitale Administrative Nouvelle), à environ 45 km à l'est du Caire. Ce projet pharaonique vise à accueillir 6 millions d'habitants et à décongestionner Le Caire, qui concentre plus de 20 millions de personnes sur les rives du Nil. Le transfert des ministères a débuté en 2023."
     },
     {
       "id": "14",
-      "question": "Quelle ville pakistanaise est l’une des plus vastes du pays et un grand centre économique côtier ?",
+      "question": "Karachi, grande métropole côtière du Pakistan, a été la capitale du pays jusqu'en 1958. Quelle ville planifiée a pris le relais, construite de toutes pièces dans les années 1960 ?",
       "image": null,
-      "imagePrompt": "Karachi aerial coast vast city",
-      "answers": ["Lahore", "Islamabad", "Karachi", "Peshawar"],
+      "imagePrompt": "Karachi aerial port coast vast megacity Pakistan",
+      "answers": ["Lahore", "Peshawar", "Islamabad", "Rawalpindi"],
       "correctIndex": 2,
-      "explanation": "Karachi est une métropole immense, structurée par son port, ses industries et une croissance rapide. Son étendue reflète à la fois son rôle économique national et une urbanisation souvent plus rapide que les capacités d’aménagement."
+      "explanation": "Islamabad a été construite ex nihilo à partir de 1960 pour devenir la nouvelle capitale du Pakistan, officiellement inaugurée en 1967. Ce choix visait à rééquilibrer le territoire national en éloignant le pouvoir politique de Karachi, trop concentrée sur la côte. Karachi reste néanmoins le moteur économique du pays, générant environ 25 % du PIB, et continue de s'étaler sur des dizaines de kilomètres le long de la mer d'Arabie."
     },
     {
       "id": "15",
-      "question": "Quelle ville argentine domine une vaste aire urbaine autour du Rio de la Plata ?",
+      "question": "Buenos Aires et sa banlieue forment le Grand Buenos Aires. Quelle proportion de la population argentine vit dans cette seule agglomération ?",
       "image": null,
-      "imagePrompt": "Buenos Aires aerial sprawl river plate",
-      "answers": ["Córdoba", "Mendoza", "Rosario", "Buenos Aires"],
-      "correctIndex": 3,
-      "explanation": "Buenos Aires ne se limite pas à son centre historique : son agglomération s’étire largement dans la plaine pampéenne. Cette extension témoigne du poids démographique et économique de la capitale dans l’organisation du territoire argentin."
+      "imagePrompt": "Buenos Aires aerial sprawl Rio de la Plata suburbs",
+      "answers": ["Environ 15 %", "Environ 25 %", "Environ 38 %", "Plus de 55 %"],
+      "correctIndex": 2,
+      "explanation": "Environ 38 % de la population argentine — soit près de 17 millions de personnes sur 46 millions — vit dans l'agglomération du Grand Buenos Aires. Cette hypertrophie de la capitale est un phénomène typique d'Amérique latine, appelé « macrocéphalie urbaine » : une seule ville concentre une part démesurée de la population, des richesses et des pouvoirs, au détriment du reste du territoire."
     },
     {
       "id": "16",
-      "question": "Quelle ville indienne est connue pour son immense superficie urbaine dans une région très peuplée du nord du pays ?",
+      "question": "Delhi est la deuxième agglomération du monde. Combien de villes satellites planifiées ont été créées autour d'elle pour tenter de maîtriser sa croissance ?",
       "image": null,
-      "imagePrompt": "Delhi megacity aerial expressways",
-      "answers": ["Delhi", "Jaipur", "Lucknow", "Hyderabad"],
-      "correctIndex": 0,
-      "explanation": "Delhi s’est transformée en gigantesque ensemble urbain mêlant capitale politique, nouvelles villes satellites et périphéries densément habitées. Son extension illustre les dynamiques métropolitaines de l’Inde contemporaine."
+      "imagePrompt": "Delhi NCR satellite cities Gurgaon Noida Faridabad aerial",
+      "answers": ["2 villes satellites", "5 villes satellites", "Plus de 10 villes satellites", "Aucune — la croissance est entièrement non planifiée"],
+      "correctIndex": 2,
+      "explanation": "La Région de la Capitale Nationale (NCR) de Delhi comprend plus de 10 villes satellites planifiées — Gurgaon (Gurugram), Noida, Faridabad, Ghaziabad, Greater Noida, Manesar... — réparties sur trois États. Malgré cette planification, Delhi continue de croître de façon souvent non maîtrisée, absorbant villages et terres agricoles. Son aire urbaine fonctionnelle pourrait dépasser 30 millions d'habitants."
     },
     {
       "id": "17",
-      "question": "Quelle ville australienne, plus isolée que Sydney ou Melbourne, s’étale largement le long de la côte ouest ?",
+      "question": "Perth, en Australie occidentale, est l'une des grandes villes les plus isolées du monde. À quelle distance se trouve sa voisine la plus proche de taille comparable ?",
       "image": null,
-      "imagePrompt": "Perth aerial coastline suburbs",
-      "answers": ["Canberra", "Perth", "Hobart", "Darwin"],
-      "correctIndex": 1,
-      "explanation": "Perth se développe sur une grande longueur littorale, avec un modèle urbain étalé typique de nombreuses villes australiennes. Son isolement renforce encore l’importance de sa propre aire métropolitaine."
+      "imagePrompt": "Perth aerial coastline suburbs Indian Ocean isolated",
+      "answers": ["Environ 200 km (Albany)", "Environ 800 km (Darwin)", "Environ 2 100 km (Adélaïde)", "Environ 3 500 km (Sydney)"],
+      "correctIndex": 2,
+      "explanation": "Adélaïde, la ville australienne la plus proche de Perth en taille comparable, se trouve à environ 2 100 km par la route — soit plus que la distance Paris–Moscou. Cette isolation extrême explique que Perth ait développé une économie et une identité très autonomes, tournées vers l'Asie et l'océan Indien plutôt que vers le reste de l'Australie. Son étalement linéaire le long de la côte résulte directement de cette géographie contrainte."
     },
     {
       "id": "18",
-      "question": "Quelle ville d’Afrique de l’Ouest présente une extension urbaine spectaculaire sur le littoral du golfe de Guinée ?",
+      "question": "Lagos est la plus grande ville d'Afrique et s'étend sur les rives d'un lagon. Combien de personnes y naissent chaque jour, alimentant une croissance urbaine parmi les plus rapides du monde ?",
       "image": null,
-      "imagePrompt": "Lagos aerial lagoon megacity sprawl",
-      "answers": ["Abidjan", "Accra", "Dakar", "Lagos"],
-      "correctIndex": 3,
-      "explanation": "Lagos est l’un des exemples les plus frappants de mégapole en expansion rapide. Son étendue résulte d’une forte croissance démographique, d’une attractivité économique considérable et d’un urbanisme souvent en rattrapage."
+      "imagePrompt": "Lagos aerial lagoon megacity sprawl Nigeria",
+      "answers": ["Environ 100 naissances par jour", "Environ 500 naissances par jour", "Environ 2 000 naissances par jour", "Plus de 5 000 naissances par jour"],
+      "correctIndex": 2,
+      "explanation": "Lagos enregistre environ 2 000 naissances par jour selon les estimations, auxquelles s'ajoutent des milliers de nouveaux migrants ruraux. La ville, qui comptait 300 000 habitants en 1950, pourrait atteindre 30 à 40 millions d'habitants d'ici 2050, devenant potentiellement la plus grande ville du monde. Son étalement sur le lagon et les terres environnantes pose des défis colossaux en matière d'eau, d'assainissement et de transport."
     },
-    {
-      "id": "19",
-      "question": "Quelle ville européenne est très vaste administrativement tout en restant moins étalée que certaines métropoles américaines ?",
-      "image": null,
-      "imagePrompt": "Berlin aerial broad urban footprint",
-      "answers": ["Madrid", "Berlin", "Prague", "Vienne"],
-      "correctIndex": 1,
-      "explanation": "Berlin couvre une grande superficie municipale, avec beaucoup d’espaces verts, de quartiers résidentiels et d’anciens secteurs périphériques intégrés. Elle montre qu’une grande ville peut être étendue sans adopter le même modèle d’étalement que les métropoles nord-américaines."
-    },
+   {
+  "id": "19",
+  "question": "Berlin est l'une des capitales européennes les plus étendues avec 892 km². Quelle proportion de son territoire est couverte par des forêts, des lacs et des espaces verts ?",
+  "image": null,
+  "imagePrompt": "Berlin aerial Grunewald forest lakes green spaces",
+  "answers": ["Environ 5 %", "Environ 15 %", "Environ 30 %", "Plus de 40 %"],
+  "correctIndex": 2,
+  "explanation": "Environ 30 % du territoire de Berlin est couvert de forêts, de lacs, de parcs et d'espaces verts — une proportion exceptionnelle pour une capitale de 3,7 millions d'habitants. La forêt de Grunewald (3 000 hectares) et les lacs de Wannsee et Müggelsee s'inscrivent dans les limites administratives de la ville. Cette densité de nature urbaine fait de Berlin l'une des capitales les plus vertes d'Europe, bien loin de l'image compacte que l'on associe souvent aux grandes métropoles européennes."
+},
     {
       "id": "20",
-      "question": "Quelle ville est souvent citée comme l’une des plus vastes du monde si l’on considère sa superficie administrative exceptionnelle plutôt que sa seule zone bâtie ?",
+      "question": "Pékin est souvent citée parmi les villes les plus étendues du monde. Quelle est sa superficie administrative officielle, qui en fait l'une des plus grandes municipalités de la planète ?",
       "image": null,
-      "imagePrompt": "Beijing vast municipality map urban rural",
-      "answers": ["Pékin", "Séoul", "Bangkok", "Manille"],
-      "correctIndex": 0,
-      "explanation": "Pékin illustre parfaitement la confusion fréquente entre ville dense, agglomération et municipalité. Sa superficie administrative englobe à la fois des espaces urbains puissants et de vastes territoires non entièrement urbanisés, ce qui gonfle fortement sa taille officielle."
+      "imagePrompt": "Beijing vast municipality map urban rural Great Wall",
+      "answers": ["Environ 700 km² (comparable à Paris intra-muros)", "Environ 2 500 km² (comparable à Londres)", "Environ 16 800 km²", "Environ 82 000 km² (comparable à Chongqing)"],
+      "correctIndex": 2,
+      "explanation": "La municipalité de Pékin couvre environ 16 800 km² — plus de 15 fois Paris intra-muros — tout en étant beaucoup plus petite que Chongqing. Elle inclut des zones urbaines denses (le centre historique, les hutongs, les nouvelles banlieues), mais aussi des espaces ruraux, des zones montagneuses et même une portion de la Grande Muraille de Chine. Cette configuration illustre la distinction essentielle entre superficie administrative et empreinte réellement urbanisée."
     }
   ]
 }

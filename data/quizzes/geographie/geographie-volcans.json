@@ -2,7 +2,7 @@
   "slug": "quiz-geographie-volcans-celebres-du-monde",
   "title": "Quiz Géographie Volcans célèbres du monde - 20 questions avancées",
   "description": "Teste tes connaissances avec 20 questions sur les volcans célèbres du monde et leurs impacts.",
-  "descriptionSeo": "Découvre ce quiz géographie sur les volcans célèbres du monde. Teste tes connaissances sur le Vésuve, l’Etna, le Fuji, le Krakatoa, le Mauna Loa et bien d’autres. Apprends leur fonctionnement, leurs éruptions historiques et leur impact sur le climat et les populations avec 20 questions enrichissantes.",
+  "descriptionSeo": "Découvre ce quiz géographie sur les volcans célèbres du monde. Teste tes connaissances sur le Vésuve, l'Etna, le Fuji, le Krakatoa, le Mauna Loa et bien d'autres. Apprends leur fonctionnement, leurs éruptions historiques et leur impact sur le climat et les populations avec 20 questions enrichissantes.",
   "category": {
     "name": "Géographie",
     "slug": "geographie"
@@ -18,145 +18,183 @@
   "questions": [
     {
       "id": "1",
-      "question": "Quel volcan a détruit Pompéi ?",
+      "question": "Le Vésuve a détruit Pompéi en 79 ap. J.-C. Quelle particularité de cette éruption a permis de conserver les corps des victimes dans des poses figées, visibles encore aujourd'hui ?",
       "image": null,
-      "imagePrompt": "Vesuvius Pompeii ruins",
-      "answers": ["Etna", "Vésuve", "Stromboli", "Vulcano"],
+      "imagePrompt": "Pompeii plaster cast victim Vesuvius eruption ruins",
+      "answers": ["Une coulée de lave qui a recouvert et momifié les corps", "Une pluie de cendres et de gaz brûlants qui ont fossilisé les corps dans leurs positions", "Un séisme qui a effondré les bâtiments sur les habitants", "Un tsunami provoqué par l'éruption qui a noyé la ville"],
       "correctIndex": 1,
-      "explanation": "Le Vésuve est un exemple majeur de volcan explosif. Il rappelle que les volcans proches des zones habitées représentent un risque majeur pour les sociétés humaines."
+      "explanation": "L'éruption du Vésuve a projeté des nuées ardentes (surges pyroclastiques) et une pluie de cendres qui ont enseveli Pompéi sous plusieurs mètres de lapilli et de cendres en quelques heures. Les corps ont laissé des cavités dans la roche volcanique durcie. L'archéologue Giuseppe Fiorelli a eu l'idée en 1863 d'y injecter du plâtre, révélant des moulages saisissants de victimes figées dans leurs derniers instants."
     },
     {
       "id": "2",
-      "question": "Quel volcan est le symbole du Japon ?",
-      "answers": ["Aso", "Sakurajima", "Fuji", "Ontake"],
-      "correctIndex": 2,
-      "explanation": "Le mont Fuji est un volcan emblématique, mais aussi un symbole culturel et artistique profondément ancré dans la société japonaise."
+      "question": "Le mont Fuji est le symbole du Japon et son point culminant à 3 776 mètres. Quand a-t-il connu sa dernière éruption ?",
+      "image": null,
+      "imagePrompt": "Mount Fuji Japan snow capped iconic reflection",
+      "answers": ["En 1707, il y a plus de 300 ans", "En 1854, après le grand séisme de Tōkai", "En 1923, lors du grand séisme de Tokyo", "En 1945, pendant la Seconde Guerre mondiale"],
+      "correctIndex": 0,
+      "explanation": "La dernière éruption du Fuji remonte à 1707 — l'éruption Hōei — déclenchée 49 jours après un séisme majeur. Elle a duré 16 jours et projeté des cendres jusqu'à Edo (Tokyo), à 100 km. Aujourd'hui considéré comme « potentiellement actif », le Fuji fait l'objet d'une surveillance sismique permanente. Une nouvelle éruption, jugée possible, menacerait directement une région de 30 millions d'habitants."
     },
     {
       "id": "3",
-      "question": "Quel volcan actif se situe en Sicile ?",
-      "answers": ["Etna", "Vésuve", "Stromboli", "Olympus"],
-      "correctIndex": 0,
-      "explanation": "L’Etna est l’un des volcans les plus actifs d’Europe. Il montre que volcanisme et présence humaine peuvent coexister."
+      "question": "L'Etna, en Sicile, est l'un des volcans les plus actifs d'Europe. Quelle est son altitude approximative, qui varie après chaque éruption majeure ?",
+      "image": null,
+      "imagePrompt": "Etna Sicily eruption lava night active volcano",
+      "answers": ["Environ 1 500 mètres", "Environ 2 200 mètres", "Environ 3 350 mètres", "Environ 4 900 mètres"],
+      "correctIndex": 2,
+      "explanation": "L'Etna culmine à environ 3 350 mètres — une altitude qui fluctue réellement après chaque éruption, car les dépôts de lave modifient le sommet. C'est le volcan le plus haut d'Europe et l'un des plus actifs : il entre en éruption presque chaque année. Malgré cela, ses pentes sont densément peuplées et cultivées (vignes, agrumes) car ses sols volcaniques sont exceptionnellement fertiles. Il est classé au patrimoine mondial de l'UNESCO depuis 2013."
     },
     {
       "id": "4",
-      "question": "Quel volcan d’Hawaï est gigantesque ?",
-      "answers": ["Krakatoa", "Fuji", "Mauna Loa", "Etna"],
-      "correctIndex": 2,
-      "explanation": "Le Mauna Loa est un volcan bouclier massif. Sa taille réelle inclut sa partie sous-marine, ce qui en fait un géant caché."
+      "question": "Le Mauna Loa, à Hawaï, est souvent présenté comme le plus grand volcan du monde. En quoi est-il « grand » si l'Everest est plus haut ?",
+      "image": null,
+      "imagePrompt": "Mauna Loa Hawaii shield volcano aerial lava field",
+      "answers": ["Il a le cratère le plus large du monde, de 600 km de diamètre", "Mesuré depuis sa base sous-marine, c'est le plus grand volcan en volume et en hauteur totale", "Il est le plus ancien volcan en activité continue, depuis 700 000 ans", "Il produit le plus grand volume de lave par éruption de tous les volcans actifs"],
+      "correctIndex": 1,
+      "explanation": "Mesuré depuis sa base sur le fond marin, le Mauna Loa s'élève à environ 9 170 mètres — plus que l'Everest. Sa hauteur émergée n'est que de 4 169 mètres au-dessus du niveau de la mer, mais son volume total (environ 75 000 km³) en fait le plus grand volcan de la planète. C'est un volcan bouclier typique des points chauds : ses éruptions sont effusives (laves fluides) plutôt qu'explosives, ce qui les rend moins mortelles mais très étendues."
     },
     {
       "id": "5",
-      "question": "Quel volcan a explosé en 1883 ?",
-      "answers": ["Merapi", "Tambora", "Agung", "Krakatoa"],
+      "question": "L'éruption du Krakatoa en 1883 est l'une des plus puissantes de l'histoire moderne. Quelle est la distance à laquelle son explosion a été entendue ?",
+      "image": null,
+      "imagePrompt": "Krakatoa Indonesia eruption 1883 tsunami explosion",
+      "answers": ["Environ 500 km (jusqu'à Java et Sumatra)", "Environ 1 500 km (jusqu'à Singapour)", "Environ 4 800 km (jusqu'en Australie)", "Jusqu'à 4 800 km — l'un des sons les plus forts jamais enregistrés"],
       "correctIndex": 3,
-      "explanation": "Le Krakatoa est célèbre pour son explosion cataclysmique, qui a eu des effets planétaires."
+      "explanation": "L'explosion du Krakatoa le 27 août 1883 a été entendue jusqu'à 4 800 km de distance — en Australie et à Rodrigues (près de Madagascar) — ce qui en fait l'un des sons les plus puissants jamais documentés. Le tsunami généré a tué plus de 36 000 personnes. Les cendres projetées dans la stratosphère ont refroidi le climat mondial d'environ 0,5 °C pendant plusieurs années et produit des couchers de soleil rougeoyants dans le monde entier."
     },
     {
       "id": "6",
-      "question": "Quel volcan est le plus haut d’Afrique ?",
-      "answers": ["Kilimandjaro", "Meru", "Nyiragongo", "Mont Kenya"],
-      "correctIndex": 0,
-      "explanation": "Le Kilimandjaro est un volcan éteint, mais reste un indicateur du changement climatique avec la fonte de ses glaciers."
+      "question": "Le Kilimandjaro est le plus haut sommet d'Afrique à 5 895 mètres. Bien qu'il soit souvent présenté comme un volcan éteint, quel phénomène inquiète les scientifiques depuis les années 1990 ?",
+      "image": null,
+      "imagePrompt": "Kilimanjaro Africa glacier ice cap melting aerial",
+      "answers": ["Une reprise d'activité sismique suggérant une éruption possible", "La disparition accélérée de ses glaciers sommitaux sous l'effet du réchauffement climatique", "L'effondrement progressif de son cratère principal", "La montée d'un dôme de lave dans sa caldeira centrale"],
+      "correctIndex": 1,
+      "explanation": "Les glaciers du Kilimandjaro ont perdu plus de 85 % de leur superficie depuis 1912 et pourraient disparaître entièrement d'ici 2040 selon certaines projections. Ce recul glaciaire est devenu un symbole mondial du changement climatique, bien que les scientifiques précisent que la déforestation des pentes et la réduction des précipitations locales jouent aussi un rôle, en plus du réchauffement global."
     },
     {
       "id": "7",
-      "question": "Quel volcan est en activité permanente en Italie ?",
-      "answers": ["Stromboli", "Etna", "Vésuve", "Vulcano"],
-      "correctIndex": 0,
-      "explanation": "Le Stromboli est connu pour son activité régulière, idéale pour observer les mécanismes volcaniques."
+      "question": "Le Stromboli, dans les îles Éoliennes (Italie), est en éruption quasi permanente depuis environ 2 000 ans. Quel surnom lui a valu cette activité continue ?",
+      "image": null,
+      "imagePrompt": "Stromboli Italy eruption night lava Aeolian Islands",
+      "answers": ["\"Le volcan de feu\"", "\"Le phare de la Méditerranée\"", "\"La torche de l'Europe\"", "\"L'étoile de Sicile\""],
+      "correctIndex": 1,
+      "explanation": "Le Stromboli est surnommé « le phare de la Méditerranée » car ses éruptions régulières — toutes les 15 à 20 minutes en moyenne — projetaient des lueurs visibles depuis la mer, guidant les navigateurs antiques. Ce type d'activité volcanique modérée mais constante a même donné son nom à un style éruptif : le « strombolisme », caractérisé par des explosions rythmiques éjectant des bombes de lave incandescente."
     },
     {
       "id": "8",
-      "question": "Quel volcan a causé une année sans été ?",
-      "answers": ["Krakatoa", "Tambora", "Etna", "Fuji"],
+      "question": "L'éruption du Tambora en 1815 est la plus puissante éruption volcanique de l'histoire humaine enregistrée. Quel phénomène climatique mondial a-t-elle provoqué en 1816 ?",
+      "image": null,
+      "imagePrompt": "Tambora Indonesia 1815 eruption climate year without summer",
+      "answers": ["Un réchauffement global temporaire de 2 °C", "Une \"année sans été\" avec des famines dans l'hémisphère Nord", "Un refroidissement limité à l'Asie du Sud-Est pendant six mois", "Des pluies acides qui ont détruit les récoltes en Europe centrale"],
       "correctIndex": 1,
-      "explanation": "Le Tambora a provoqué un refroidissement global, montrant que les volcans peuvent influencer le climat mondial."
+      "explanation": "L'éruption du Tambora (indice VEI 7) a projeté environ 150 km³ de matière dans l'atmosphère, créant un voile de soufre qui a réduit l'ensoleillement mondial. En 1816 — « l'année sans été » — les températures ont chuté de 0,5 à 1 °C en moyenne mondiale, causant des gelées estivales en Europe et en Amérique du Nord, des famines généralisées et environ 90 000 morts. L'écrivaine Mary Shelley, bloquée par le mauvais temps en Suisse cet été-là, y a écrit Frankenstein."
     },
-    {
-      "id": "9",
-      "question": "Quel volcan islandais a bloqué les avions en 2010 ?",
-      "answers": ["Katla", "Eyjafjallajökull", "Hekla", "Askja"],
-      "correctIndex": 1,
-      "explanation": "Cet événement a révélé la dépendance des sociétés modernes aux transports aériens."
-    },
+   {
+  "id": "9",
+  "question": "L'éruption de l'Eyjafjallajökull islandais en 2010 a paralysé le trafic aérien européen. Combien de vols ont été annulés en une semaine ?",
+  "image": null,
+  "imagePrompt": "Eyjafjallajokull Iceland eruption ash cloud aviation",
+  "answers": ["Environ 5 000 vols", "Environ 20 000 vols", "Environ 100 000 vols", "Environ 500 000 vols"],
+  "correctIndex": 2,
+  "explanation": "Environ 100 000 vols ont été annulés en une semaine en avril 2010, affectant 10 millions de passagers et coûtant environ 1,3 milliard d'euros aux compagnies aériennes. Le nuage de cendres volcaniques, invisible à l'œil mais dévastateur pour les réacteurs d'avion, avait fermé l'espace aérien de 20 pays européens. Cet événement a révélé la vulnérabilité des économies modernes face aux aléas volcaniques et conduit à une révision des protocoles de gestion des cendres."
+},
     {
       "id": "10",
-      "question": "Quel volcan est proche de Mexico ?",
-      "answers": ["Colima", "Popocatépetl", "Orizaba", "Paricutin"],
-      "correctIndex": 1,
-      "explanation": "Le Popocatépetl est surveillé en permanence en raison de sa proximité avec une population dense."
+      "question": "Le Popocatépetl est l'un des volcans les plus surveillés du monde. Quelle est la population vivant dans un rayon de 100 km de ce volcan mexicain ?",
+      "image": null,
+      "imagePrompt": "Popocatepetl Mexico City eruption smoke skyline",
+      "answers": ["Environ 1 million de personnes", "Environ 5 millions de personnes", "Environ 25 millions de personnes", "Environ 50 millions de personnes"],
+      "correctIndex": 2,
+      "explanation": "Environ 25 millions de personnes — dont les habitants de Mexico, Puebla et Tlaxcala — vivent dans un rayon de 100 km du Popocatépetl (« montagne qui fume » en nahuatl). C'est l'un des volcans les plus dangereux du monde non pas par son intensité, mais par la densité de population exposée. Il est en activité quasi permanente depuis 1994 et surveiller ses nuées de cendres fait partie du quotidien des habitants de la région."
     },
     {
       "id": "11",
-      "question": "Quel volcan a explosé en 1980 aux USA ?",
-      "answers": ["Rainier", "St Helens", "Hood", "Shasta"],
+      "question": "Le mont St. Helens a explosé le 18 mai 1980 dans l'État de Washington. Quelle a été la particularité mécanique de cette éruption, rarement observée à cette échelle ?",
+      "image": null,
+      "imagePrompt": "Mount St Helens 1980 eruption lateral blast before after",
+      "answers": ["Une éruption sous-marine qui a créé une nouvelle île", "Un effondrement du flanc nord suivi d'une explosion latérale dévastatrice", "Une coulée pyroclastique qui a atteint l'océan Pacifique", "Une éruption à travers une faille tectonique, sans cratère central"],
       "correctIndex": 1,
-      "explanation": "Le mont St Helens a transformé la compréhension des éruptions volcaniques modernes."
+      "explanation": "L'éruption du St. Helens a débuté par un effondrement catastrophique du flanc nord de la montagne — le plus grand glissement de terrain de l'histoire récente — qui a déclenché une explosion latérale (blast) projetant des gaz et des débris à 480 km/h sur 600 km². 57 personnes ont été tuées, dont le volcanologue David Johnston. L'altitude du sommet a diminué de 400 mètres en quelques secondes. Cette éruption a révolutionné la compréhension des volcans de subduction."
     },
     {
       "id": "12",
-      "question": "Quel volcan est lié à l’Atlantide ?",
-      "answers": ["Santorin", "Olympus", "Etna", "Vésuve"],
-      "correctIndex": 0,
-      "explanation": "Santorin illustre le lien entre catastrophes naturelles et mythes anciens."
+      "question": "La caldeira de Santorin (Grèce) résulte d'une éruption colossale vers 1600 av. J.-C. Quelle civilisation florissante de l'Égée aurait été dévastée par ce cataclysme ?",
+      "image": null,
+      "imagePrompt": "Santorini Greece caldera Aegean sea volcanic island",
+      "answers": ["La civilisation mycénienne", "La civilisation minoenne (de Crète)", "La civilisation cycladique", "L'Empire grec archaïque"],
+      "correctIndex": 1,
+      "explanation": "L'éruption de Santorin vers 1600 av. J.-C. (éruption minoenne) est l'une des plus puissantes de l'Holocène. Elle aurait gravement affaibli la civilisation minoenne de Crète, située à 110 km au sud : le tsunami et les retombées de cendres auraient détruit ses ports et récoltes. Certains chercheurs y voient l'origine du mythe de l'Atlantide de Platon. La caldeira actuelle, immergée au centre de l'archipel, témoigne de l'ampleur de l'effondrement."
     },
     {
       "id": "13",
-      "question": "Quel volcan possède un lac de lave ?",
-      "answers": ["Nyiragongo", "Meru", "Elgon", "Kilimandjaro"],
-      "correctIndex": 0,
-      "explanation": "Le Nyiragongo est extrêmement dangereux à cause de la fluidité de sa lave."
+      "question": "Le Nyiragongo, en République démocratique du Congo, possède le plus grand lac de lave permanente du monde. Quelle caractéristique exceptionnelle de sa lave le rend particulièrement dangereux ?",
+      "image": null,
+      "imagePrompt": "Nyiragongo lava lake Congo DRC eruption Goma",
+      "answers": ["Sa température extrêmement élevée de plus de 2 000 °C", "Sa fluidité exceptionnelle qui lui permet d'atteindre 100 km/h sur les pentes", "Sa composition en soufre qui génère des nuages toxiques à grande distance", "Sa radioactivité naturelle due à des minéraux uranifères"],
+      "correctIndex": 1,
+      "explanation": "La lave du Nyiragongo est exceptionnellement fluide en raison de sa faible teneur en silice (lave ultrabasique de type néphélinite). Lors de l'éruption de 1977, elle a dévalé les pentes à des vitesses estimées à 60–100 km/h — impossibles à fuir — tuant entre 600 et 2 000 personnes. En 2002, une coulée a traversé la ville de Goma, détruisant des quartiers entiers. Le lac de lave actif, visible depuis le bord du cratère, est l'un des spectacles géologiques les plus impressionnants de la planète."
     },
     {
       "id": "14",
-      "question": "Quel volcan indonésien est très actif ?",
-      "answers": ["Agung", "Merapi", "Tambora", "Krakatoa"],
-      "correctIndex": 1,
-      "explanation": "Le Merapi est l’un des volcans les plus surveillés en raison des populations proches."
+      "question": "Le Merapi, en Indonésie, est l'un des volcans les plus actifs et les plus dangereux du monde. À quelle ville importante est-il particulièrement proche, plaçant des millions de personnes en danger ?",
+      "image": null,
+      "imagePrompt": "Merapi Indonesia Yogyakarta eruption pyroclastic flow",
+      "answers": ["Jakarta", "Surabaya", "Yogyakarta", "Denpasar (Bali)"],
+      "correctIndex": 2,
+      "explanation": "Le Merapi (« montagne de feu » en javanais) se trouve à seulement 28 km au nord de Yogyakarta, ville de 400 000 habitants et capitale culturelle de Java. Son éruption de 2010 a tué 353 personnes malgré des évacuations massives et projeté des nuées ardentes à plus de 15 km. Malgré le danger, les pentes du Merapi sont densément cultivées car ses sols volcaniques fertiles sont indispensables à l'agriculture locale — une illustration tragique du dilemme entre risque et ressources."
     },
     {
       "id": "15",
-      "question": "Quel volcan est le point culminant du Japon ?",
-      "answers": ["Fuji", "Aso", "Ontake", "Sakurajima"],
-      "correctIndex": 0,
-      "explanation": "Le mont Fuji est à la fois un sommet et un symbole national."
+      "question": "Le mont Fuji est au cœur de la culture japonaise. Quel célèbre artiste japonais lui a consacré une série de 36 estampes emblématiques au XIXe siècle ?",
+      "image": null,
+      "imagePrompt": "Mount Fuji Hokusai Great Wave Japanese art ukiyo-e",
+      "answers": ["Hiroshige", "Hokusai", "Utamaro", "Kuniyoshi"],
+      "correctIndex": 1,
+      "explanation": "Katsushika Hokusai a publié entre 1830 et 1833 la série « Trente-six vues du mont Fuji », dont « La Grande Vague de Kanagawa » est devenue l'une des œuvres d'art les plus reproduites au monde. Cette série d'estampes ukiyo-e a profondément influencé les impressionnistes européens (Monet, Van Gogh) et contribué à la japonisme. Le Fuji y apparaît sous toutes les saisons et à toutes les distances, toujours reconnaissable — reflet de sa place centrale dans l'identité japonaise."
     },
     {
       "id": "16",
-      "question": "Quel volcan a donné son nom au mot volcan ?",
-      "answers": ["Etna", "Vulcano", "Vésuve", "Stromboli"],
-      "correctIndex": 1,
-      "explanation": "Le terme vient du dieu Vulcain, associé au feu et aux forges."
+      "question": "L'île de Vulcano, dans les îles Éoliennes, a donné son nom au mot « volcan ». À quel dieu romain était-elle consacrée dans l'Antiquité ?",
+      "image": null,
+      "imagePrompt": "Vulcano island Aeolian Italy crater sulfur fumaroles",
+      "answers": ["Mars, dieu de la guerre", "Pluton, dieu des enfers", "Vulcain, dieu du feu et des forges", "Neptune, dieu de la mer"],
+      "correctIndex": 2,
+      "explanation": "Les Romains croyaient que l'île de Vulcano était la cheminée de la forge de Vulcain (Héphaïstos chez les Grecs), dieu du feu, de la métallurgie et des forgerons. Les fumées et les flammes qui s'en échappaient étaient interprétées comme les soufflets de sa forge souterraine où il fabriquait les armes des dieux et les éclairs de Jupiter. De « Vulcano » est né le terme latin « vulcanus », puis le français « volcan »."
     },
     {
       "id": "17",
-      "question": "Quel volcan islandais est très actif ?",
-      "answers": ["Hekla", "Katla", "Askja", "Eyjafjallajökull"],
-      "correctIndex": 0,
-      "explanation": "L’Islande est un laboratoire volcanique unique lié à la tectonique des plaques."
+      "question": "L'Islande est l'un des territoires les plus volcaniquement actifs du monde. Quelle configuration géologique unique explique cette activité exceptionnelle ?",
+      "image": null,
+      "imagePrompt": "Iceland volcanic activity mid-ocean ridge hotspot Reykjanes",
+      "answers": ["L'Islande est entièrement construite sur une zone de subduction océanique", "L'Islande se trouve à la fois sur une dorsale médio-atlantique et au-dessus d'un point chaud", "L'Islande est le vestige émergé d'un ancien supervolcan de type Yellowstone", "L'Islande est soumise à une activité volcanique uniquement liée à la fonte du pergélisol"],
+      "correctIndex": 1,
+      "explanation": "L'Islande bénéficie d'une double singularité géologique : elle se trouve sur la dorsale médio-atlantique (la frontière entre les plaques eurasiatique et nord-américaine qui s'écartent de 2 cm/an) ET au-dessus d'un point chaud mantellique. Cette combinaison unique produit une activité volcanique exceptionnellement intense : l'Islande compte plus de 30 systèmes volcaniques actifs et a produit environ un tiers de toute la lave émise sur Terre depuis 1500."
     },
     {
       "id": "18",
-      "question": "Quel volcan africain produit des coulées rapides ?",
-      "answers": ["Kilimandjaro", "Nyiragongo", "Meru", "Elgon"],
-      "correctIndex": 1,
-      "explanation": "La lave du Nyiragongo est extrêmement fluide, ce qui la rend très dangereuse."
+      "question": "Le Nyiragongo a connu une éruption majeure en 2021. Quelle grande ville congolaise, construite au pied du volcan, a dû être partiellement évacuée ?",
+      "image": null,
+      "imagePrompt": "Goma Congo DRC Nyiragongo eruption 2021 lava street",
+      "answers": ["Bukavu", "Butembo", "Goma", "Kinshasa"],
+      "correctIndex": 2,
+      "explanation": "L'éruption de mai 2021 a forcé l'évacuation partielle de Goma, ville d'environ 2 millions d'habitants construite sur les coulées de lave solidifiées des éruptions précédentes. La coulée s'est arrêtée à quelques kilomètres du centre-ville, mais a détruit des centaines de maisons dans les faubourgs. Goma est une ville particulièrement vulnérable : construite sur un lac (le lac Kivu, riche en gaz méthane et CO₂), entourée par deux volcans actifs (Nyiragongo et Nyamulagira), elle est considérée comme l'une des villes les plus exposées au risque volcanique au monde."
     },
     {
       "id": "19",
-      "question": "Quel volcan actif est en Sicile ?",
-      "answers": ["Etna", "Vésuve", "Stromboli", "Vulcano"],
-      "correctIndex": 0,
-      "explanation": "L’Etna est un volcan actif surveillé en continu."
+      "question": "Le Piton de la Fournaise, sur l'île de La Réunion, est l'un des volcans les plus actifs du monde. À quel type de volcanisme appartient-il, similaire à celui d'Hawaï ?",
+      "image": null,
+      "imagePrompt": "Piton de la Fournaise Reunion Island shield volcano lava ocean",
+      "answers": ["Volcanisme de subduction, avec éruptions explosives et nuées ardentes", "Volcanisme de point chaud, avec laves fluides basaltiques et éruptions effusives", "Volcanisme de rift, lié à l'écartement des plaques africaine et antarctique", "Volcanisme explosif de caldeira, similaire au Yellowstone"],
+      "correctIndex": 1,
+      "explanation": "Le Piton de la Fournaise est un volcan bouclier de point chaud, comme le Mauna Loa ou le Kilauea à Hawaï. Ses éruptions sont généralement effusives (coulées de basalte fluide) plutôt qu'explosives, ce qui les rend spectaculaires mais moins mortelles. Il entre en éruption en moyenne une fois par an et ses coulées atteignent parfois l'océan, créant de nouvelles terres. C'est l'un des volcans les mieux instrumentés du monde, géré par l'Observatoire Volcanologique du Piton de la Fournaise."
     },
     {
       "id": "20",
-      "question": "Quel volcan menace Naples ?",
-      "answers": ["Etna", "Stromboli", "Vésuve", "Vulcano"],
+      "question": "Le Vésuve menace toujours Naples et sa région. Combien de personnes vivent dans la « zone rouge » d'évacuation prioritaire autour du volcan ?",
+      "image": null,
+      "imagePrompt": "Vesuvius Naples Italy eruption risk zone urban population",
+      "answers": ["Environ 50 000 personnes", "Environ 200 000 personnes", "Environ 700 000 personnes", "Plus de 3 millions de personnes"],
       "correctIndex": 2,
-      "explanation": "Le Vésuve reste l’un des volcans les plus dangereux du monde en raison de la densité de population."
+      "explanation": "Environ 700 000 personnes vivent dans la « zone rouge » du Vésuve — la zone d'évacuation prioritaire en cas d'éruption imminente — et plus de 3 millions dans l'ensemble de la région métropolitaine de Naples exposée. Le plan d'évacuation italien prévoit de déplacer ces 700 000 personnes en 72 heures, un défi logistique colossal. Le Vésuve est en sommeil depuis 1944 (sa dernière éruption) mais reste l'un des volcans les plus surveillés et les plus dangereux du monde."
     }
   ]
 }
