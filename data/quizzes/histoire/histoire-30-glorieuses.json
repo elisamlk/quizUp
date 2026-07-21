@@ -2,7 +2,7 @@
   "slug": "quiz-trente-glorieuses-france-histoire",
   "title": "Quiz Histoire - Trente Glorieuses - Croissance, société et transformations en France",
   "description": "Économie, consommation et modernisation : teste tes connaissances sur les Trente Glorieuses.",
-  "descriptionSeo": "Teste tes connaissances sur les Trente Glorieuses avec ce quiz d’histoire consacré à une période clé de la France d’après-guerre. Croissance économique, consommation de masse, urbanisation et transformations sociales : connais-tu vraiment cette époque ? 20 questions avec réponses et explications pour comprendre les mutations économiques, sociales et culturelles entre 1945 et 1975.",
+  "descriptionSeo": "Teste tes connaissances sur les Trente Glorieuses avec ce quiz d'histoire consacré à une période clé de la France d'après-guerre. Croissance économique, consommation de masse, urbanisation et transformations sociales : connais-tu vraiment cette époque ? 20 questions avec réponses et explications pour comprendre les mutations économiques, sociales et culturelles entre 1945 et 1975.",
   "category": {
     "name": "Histoire",
     "slug": "histoire"
@@ -18,143 +18,179 @@
   "questions": [
     {
       "id": "1",
-      "question": "À quelle période correspondent les Trente Glorieuses ?",
-      "answers": ["1914-1945", "1975-2000", "1945-1975", "1800-1830"],
-      "correctIndex": 2,
-      "explanation": "Les Trente Glorieuses désignent la période 1945-1975, marquée par une croissance économique exceptionnelle après la Seconde Guerre mondiale."
+      "question": "L'expression « Trente Glorieuses » a été inventée par un économiste français dans un livre publié en 1979. Qui est-il ?",
+      "image": null,
+      "imagePrompt": "Jean Fourastie economist France postwar growth book",
+      "answers": ["Raymond Aron", "Jean Fourastié", "Alfred Sauvy", "Pierre Mendès France"],
+      "correctIndex": 1,
+      "explanation": "C'est l'économiste Jean Fourastié qui a inventé l'expression dans son ouvrage « Les Trente Glorieuses, ou la Révolution invisible de 1946 à 1975 », publié en 1979. Il y comparait deux villages français — l'un avant-guerre, l'autre en 1975 — pour mesurer l'ampleur des transformations. Le titre était un clin d'œil aux « Trois Glorieuses », les trois journées révolutionnaires de juillet 1830. L'expression a depuis été adoptée dans la plupart des pays pour désigner leur propre période de forte croissance d'après-guerre."
     },
     {
       "id": "2",
-      "question": "Quel phénomène économique caractérise cette période ?",
-      "answers": ["Forte croissance", "Crise économique", "Déclin industriel", "Stagnation"],
-      "correctIndex": 0,
-      "explanation": "La croissance économique est soutenue, avec une augmentation de la production, de l’emploi et du niveau de vie."
+      "question": "Quel taux de croissance annuel moyen du PIB la France a-t-elle enregistré pendant les Trente Glorieuses, un niveau jamais retrouvé depuis ?",
+      "image": null,
+      "imagePrompt": "France economic growth GDP postwar boom 1950s 1960s",
+      "answers": ["Environ 1 % par an", "Environ 3 % par an", "Environ 5 % par an", "Environ 10 % par an"],
+      "correctIndex": 2,
+      "explanation": "La France a enregistré une croissance annuelle moyenne du PIB d'environ 5 % pendant les Trente Glorieuses — un rythme que le pays n'a plus jamais connu durablement depuis. À titre de comparaison, la croissance française tourne autour de 1 à 2 % depuis les années 1980. Cette performance s'explique par la reconstruction, la modernisation industrielle, le baby-boom et l'intégration européenne, dans un contexte de reconstruction d'après-guerre qui rendait chaque investissement très productif."
     },
     {
       "id": "3",
-      "question": "Quel type de consommation se développe ?",
-      "answers": ["Locale", "Limitée", "Traditionnelle", "Consommation de masse"],
-      "correctIndex": 3,
-      "explanation": "La consommation de masse se développe grâce à la hausse des salaires et à la production industrielle."
+      "question": "La consommation de masse se développe massivement pendant les Trente Glorieuses. Quel objet du quotidien symbolise le mieux cette révolution des modes de vie pour les Français des années 1950-1960 ?",
+      "image": null,
+      "imagePrompt": "Citroën 2CV Renault 4CV automobile France popular car 1950s",
+      "answers": ["Le téléphone fixe", "L'automobile populaire", "La machine à écrire", "Le poste de radio à lampes"],
+      "correctIndex": 1,
+      "explanation": "L'automobile populaire — la 2CV de Citroën (1948), la 4CV de Renault (1946) puis la Dauphine — symbolise par excellence la démocratisation de la consommation. Le taux d'équipement automobile des ménages français passe de moins de 20 % en 1950 à plus de 60 % en 1975. Cette diffusion de la voiture transforme profondément le territoire, les modes de vie, les vacances et l'urbanisme, tout en entraînant un essor considérable de l'industrie pétrolière et de la grande distribution."
     },
     {
       "id": "4",
-      "question": "Quel secteur connaît un fort développement ?",
-      "answers": ["Agriculture uniquement", "Industrie", "Artisanat", "Religion"],
+      "question": "La France met en place des plans quinquennaux pour organiser sa reconstruction et sa modernisation. Quel commissaire général au Plan, nommé en 1946, incarne cette politique de planification indicative ?",
+      "image": null,
+      "imagePrompt": "Jean Monnet French Planning Commission postwar reconstruction modernization",
+      "answers": ["Charles de Gaulle", "Jean Monnet", "Georges Pompidou", "Michel Debré"],
       "correctIndex": 1,
-      "explanation": "L’industrie se modernise et devient un moteur central de l’économie française."
+      "explanation": "Jean Monnet, nommé commissaire général au Plan en 1946, est le père de la planification indicative française. Contrairement à la planification soviétique contraignante, le Plan français fixait des objectifs de modernisation négociés entre l'État, le patronat et les syndicats. Le premier Plan Monnet (1947–1952) a ciblé six secteurs clés : charbon, électricité, acier, ciment, tracteurs et transports. Monnet est aussi à l'origine de la CECA (1951), premier pas vers la construction européenne."
     },
     {
       "id": "5",
-      "question": "Quel phénomène social accompagne cette croissance ?",
-      "answers": ["Déclin urbain", "Urbanisation", "Isolement rural", "Nomadisme"],
-      "correctIndex": 1,
-      "explanation": "La population migre vers les villes pour travailler dans l’industrie, transformant profondément le paysage urbain."
+      "question": "L'urbanisation s'accélère spectaculairement pendant les Trente Glorieuses. Quelle proportion de la population française vivait en ville en 1975, contre environ 50 % en 1945 ?",
+      "image": null,
+      "imagePrompt": "France urbanization HLM grands ensembles suburban growth 1960s",
+      "answers": ["Environ 55 %", "Environ 65 %", "Environ 73 %", "Plus de 85 %"],
+      "correctIndex": 2,
+      "explanation": "En 1975, environ 73 % de la population française vivait en zone urbaine, contre environ 50 % en 1945 — un basculement démographique majeur en trente ans. Cet exode rural massif a nécessité la construction rapide de logements, produisant les grands ensembles et les HLM qui structurent encore le paysage de nombreuses villes françaises. Des villes comme Sarcelles, Massy ou La Courneuve incarnent cette urbanisation rapide, portée par une demande de logements qui dépassait les capacités d'un parc immobilier largement détruit ou vétuste."
     },
     {
       "id": "6",
-      "question": "Quel type d’habitat se développe ?",
-      "answers": ["Châteaux", "Maisons rurales", "HLM et grands ensembles", "Temples"],
-      "correctIndex": 3,
-      "explanation": "Les grands ensembles sont construits pour répondre à la forte demande de logements en ville."
+      "question": "Les grands ensembles et HLM sont construits en masse pour loger les nouveaux urbains. Dans quelle ville a été inauguré en 1956 le premier grand ensemble emblématique de la banlieue parisienne, devenu symbole de cette politique du logement ?",
+      "image": null,
+      "imagePrompt": "Sarcelles grand ensemble HLM France 1956 suburban housing project",
+      "answers": ["Nanterre", "Sarcelles", "Créteil", "Bobigny"],
+      "correctIndex": 1,
+      "explanation": "Sarcelles (Val-d'Oise) est le symbole par excellence du grand ensemble français : inauguré en 1956, il a accueilli jusqu'à 40 000 habitants dans des barres et tours standardisées. Le mot « sarcellite » a même été inventé pour désigner le mal-être des habitants de ces ensembles — sentiment d'isolement, manque de services, monotonie architecturale. Cette expérience a progressivement conduit à reconsidérer le modèle du grand ensemble à partir des années 1970, avant sa condamnation officielle."
     },
     {
       "id": "7",
-      "question": "Quel rôle joue l’État dans l’économie ?",
-      "answers": ["Intervention forte", "Aucun rôle", "Privatisation totale", "Isolement"],
-      "correctIndex": 0,
-      "explanation": "L’État intervient activement, notamment avec la planification et les nationalisations."
+      "question": "L'État joue un rôle central dans l'économie des Trente Glorieuses. Quelle loi de 1945-1946, adoptée à la Libération, a nationalisé de grands secteurs de l'économie française ?",
+      "image": null,
+      "imagePrompt": "Renault nationalization postwar France Liberation state ownership",
+      "answers": ["La loi nationalisait uniquement les banques et les assurances", "Une série de nationalisations a touché énergie, banques, transports et Renault", "Seul le secteur minier a été nationalisé pour garantir l'approvisionnement en charbon", "Les nationalisations n'ont concerné que les entreprises ayant collaboré avec l'occupant"],
+      "correctIndex": 1,
+      "explanation": "La Libération a vu une vague de nationalisations touchant les Houillères (mines de charbon), EDF-GDF (énergie), la Banque de France, les grandes banques de dépôt, Air France, les Charbonnages de France et Renault — confisquée à Louis Renault accusé de collaboration. Ce « capitalisme d'État » a permis à l'État d'orienter les investissements vers les secteurs prioritaires et d'assurer un service public à tarif accessible, piliers du modèle social français issu du programme du Conseil national de la Résistance."
     },
     {
       "id": "8",
-      "question": "Quel modèle économique domine ?",
-      "answers": ["Féodal", "Capitalisme régulé", "Autarcie", "Socialisme pur"],
+      "question": "Le modèle économique des Trente Glorieuses est souvent qualifié de « fordiste ». Qu'est-ce que le fordisme appliqué à la France d'après-guerre ?",
+      "image": null,
+      "imagePrompt": "Fordism Taylorism assembly line mass production France Renault Billancourt",
+      "answers": ["Un modèle où Ford Motor Company contrôlait directement les usines françaises", "Un système combinant production de masse standardisée, salaires élevés et consommation de masse", "Une méthode d'organisation agricole basée sur le remembrement des terres", "Un accord commercial exclusif entre la France et les États-Unis pour l'importation de voitures"],
       "correctIndex": 1,
-      "explanation": "L’économie repose sur un capitalisme encadré par l’État, favorisant la croissance et la stabilité."
+      "explanation": "Le fordisme désigne un modèle économique combinant production industrielle de masse (organisation taylorienne du travail à la chaîne), salaires suffisamment élevés pour que les ouvriers deviennent eux-mêmes consommateurs des produits qu'ils fabriquent, et État-providence garantissant une demande solvable stable. En France, l'usine Renault de Billancourt en est le symbole : des dizaines de milliers d'ouvriers produisent des voitures accessibles à leurs propres collègues. Ce modèle vertueux explique la croissance soutenue de la période."
     },
     {
       "id": "9",
-      "question": "Quel secteur décline pendant cette période ?",
-      "answers": ["Industrie", "Agriculture traditionnelle", "Commerce", "Services"],
-      "correctIndex": 1,
-      "explanation": "L’agriculture se modernise, mais le nombre d’agriculteurs diminue fortement."
+      "question": "L'agriculture traditionnelle recule massivement pendant les Trente Glorieuses. Combien d'agriculteurs la France compte-t-elle en 1975, contre environ 5 millions en 1945 ?",
+      "image": null,
+      "imagePrompt": "French agriculture mechanization tractor rural exodus 1960s decline",
+      "answers": ["Environ 4 millions", "Environ 3 millions", "Environ 2 millions", "Environ 1,5 million"],
+      "correctIndex": 2,
+      "explanation": "Le nombre d'agriculteurs passe d'environ 5 millions en 1945 à moins de 2 millions en 1975 — une division par plus de deux en trente ans. Cette révolution agricole silencieuse résulte de la mécanisation (le nombre de tracteurs passe de 35 000 en 1945 à 1,3 million en 1975), de l'utilisation d'engrais chimiques, du remembrement des terres et de la politique agricole commune européenne. La productivité agricole explose, mais au prix d'un exode rural massif qui vide les campagnes et alimente l'urbanisation."
     },
     {
       "id": "10",
-      "question": "Quel progrès technologique transforme le quotidien ?",
-      "answers": ["Internet", "Électroménager", "Télégraphe", "Machine à vapeur"],
-      "correctIndex": 1,
-      "explanation": "Les appareils électroménagers améliorent le confort de vie et symbolisent la modernité."
+      "question": "L'électroménager révolutionne le quotidien des Français. Quel taux d'équipement en réfrigérateurs les ménages français atteignent-ils en 1975, contre seulement 5 % en 1954 ?",
+      "image": null,
+      "imagePrompt": "French household appliances refrigerator washing machine television 1960s consumer society",
+      "answers": ["Environ 40 %", "Environ 60 %", "Environ 80 %", "Plus de 95 %"],
+      "correctIndex": 2,
+      "explanation": "Le taux d'équipement en réfrigérateurs passe de 5 % des ménages en 1954 à plus de 80 % en 1975 — une transformation du quotidien en vingt ans. La même dynamique touche la machine à laver (de 8 % à 72 %), le téléviseur (de 1 % à 86 %) et l'automobile. Cette diffusion massive de l'électroménager transforme profondément le travail domestique, libère du temps (notamment pour les femmes), modifie les habitudes alimentaires et crée de nouveaux désirs de consommation — alimentant à son tour la croissance industrielle."
     },
-    {
-      "id": "11",
-      "question": "Quel impact sur le niveau de vie ?",
-      "answers": ["Hausse", "Baisse", "Stagnation", "Inégalité totale"],
-      "correctIndex": 0,
-      "explanation": "Le niveau de vie augmente, avec un accès élargi à la consommation et aux services."
-    },
+   {
+  "id": "11",
+  "question": "Le niveau de vie des Français augmente massivement. Le pouvoir d'achat des salaires a-t-il réellement doublé pendant les Trente Glorieuses ?",
+  "answers": ["Non, il n'a augmenté que d'environ 20 %", "Oui, il a augmenté d'environ 50 %", "Oui, il a plus que doublé, avec une hausse estimée aux alentours de 150 à 170 %", "Il a doublé, mais uniquement pour les cadres"],
+  "correctIndex": 2,
+  "explanation": "Le pouvoir d'achat des salaires français progresse d'environ 150 à 170 % entre 1945 et 1975 selon les estimations — un ordre de grandeur qui correspond à une multiplication par 2,5 à 2,7. Cette hausse sans précédent résulte de la conjonction de plusieurs facteurs : forte croissance économique, montée en puissance des conventions collectives, création du SMIG (salaire minimum garanti, 1950), progression des droits sociaux et partage des gains de productivité entre capital et travail. C'est cette hausse durable du pouvoir d'achat qui transforme les ouvriers en consommateurs et permet le développement de la société de consommation."
+},
     {
       "id": "12",
-      "question": "Quel phénomène accompagne la croissance ?",
-      "answers": ["Chômage massif", "Crises politiques", "Guerre", "Plein emploi"],
-      "correctIndex": 3,
-      "explanation": "Le plein emploi caractérise cette période, avec peu de chômage."
+      "question": "Le plein emploi caractérise les Trente Glorieuses. Quel taux de chômage la France enregistre-t-elle en moyenne durant cette période ?",
+      "image": null,
+      "imagePrompt": "France full employment postwar workforce industry factories workers",
+      "answers": ["Moins de 2 %", "Environ 5 %", "Environ 8 %", "Environ 12 %"],
+      "correctIndex": 0,
+      "explanation": "Le chômage tourne autour de 1 à 2 % pendant les Trente Glorieuses — ce que les économistes appellent le « chômage frictionnel », c'est-à-dire le temps normal de transition entre deux emplois. Ce plein emploi quasi total contraste radicalement avec les 10 % de chômage que la France connaîtra dans les années 1990-2000. Il explique aussi pourquoi la France a massivement fait appel à l'immigration de travail (Portugais, Algériens, Espagnols, Marocains) pour satisfaire une demande de main-d'œuvre que la population nationale ne pouvait plus couvrir."
     },
     {
       "id": "13",
-      "question": "Quel mouvement social marque la fin de la période ?",
-      "answers": ["Révolution industrielle", "Mai 68", "Guerre", "Empire"],
+      "question": "Mai 68 ébranle la France. Quels accords, signés le 27 mai 1968 entre gouvernement, patronat et syndicats, ont mis fin à la grève générale en accordant des hausses de salaires importantes ?",
+      "image": null,
+      "imagePrompt": "May 1968 France general strike Grenelle agreements workers protest",
+      "answers": ["Les accords de Matignon", "Les accords de Grenelle", "Les accords de l'Élysée", "Les accords de Pompidou"],
       "correctIndex": 1,
-      "explanation": "Mai 68 exprime des revendications sociales et culturelles face aux limites du modèle."
+      "explanation": "Les accords de Grenelle (du nom du ministère du Travail, rue de Grenelle) ont été négociés les 25-27 mai 1968 entre Georges Pompidou, le patronat et les syndicats. Ils prévoyaient une hausse du SMIG de 35 %, une augmentation moyenne des salaires de 10 %, et des avancées sur les droits syndicaux. Initialement rejetés par les grévistes de base réunis à Billancourt, ils ont finalement été acceptés, mettant fin à la plus grande grève générale de l'histoire française. Mai 68 a révélé les limites sociales et culturelles du modèle des Trente Glorieuses."
     },
-    {
-      "id": "14",
-      "question": "Quel type de société se développe ?",
-      "answers": ["Société de consommation", "Société rurale", "Société féodale", "Société militaire"],
-      "correctIndex": 0,
-      "explanation": "La société de consommation se caractérise par l’accès aux biens et aux loisirs."
-    },
+   {
+  "id": "14",
+  "question": "La société de consommation transforme les pratiques culturelles. Quelle grande surface, concept importé des États-Unis, ouvre son premier hypermarché en France en 1963 à Sainte-Geneviève-des-Bois ?",
+  "answers": ["Carrefour", "Auchan", "Casino", "Leclerc"],
+  "correctIndex": 0,
+  "explanation": "Le premier hypermarché Carrefour ouvre le 15 juin 1963 à Sainte-Geneviève-des-Bois (Essonne), révolutionnant les habitudes de consommation françaises. Ce concept américain du « tout sous le même toit » — alimentation, vêtements, électroménager, bricolage — avec stationnement gratuit et prix bas s'impose rapidement. En 1975, la France compte déjà plus de 200 hypermarchés. Cette révolution commerciale transforme profondément les centres-villes, les habitudes alimentaires et les rapports au commerce de proximité."
+},
     {
       "id": "15",
-      "question": "Quel impact sur les femmes ?",
-      "answers": ["Aucun changement", "Retour au foyer", "Exclusion", "Accès progressif au travail"],
-      "correctIndex": 3,
-      "explanation": "Les femmes accèdent davantage au marché du travail, modifiant les structures sociales."
+      "question": "Le statut des femmes évolue pendant les Trente Glorieuses. Quelle loi de 1965, souvent méconnue, constitue une révolution juridique majeure pour les femmes mariées ?",
+      "image": null,
+      "imagePrompt": "French women rights 1965 law married women bank account work autonomy",
+      "answers": ["La loi autorisant les femmes à voter (accordé en 1944, appliqué en 1945)", "La loi permettant aux femmes mariées d'ouvrir un compte bancaire et de travailler sans l'autorisation de leur mari", "La loi créant le congé maternité rémunéré de 14 semaines", "La loi instaurant l'égalité de salaire entre hommes et femmes dans la fonction publique"],
+      "correctIndex": 1,
+      "explanation": "La loi du 13 juillet 1965 réformant les régimes matrimoniaux permet aux femmes mariées d'ouvrir un compte en banque, d'exercer une profession et de gérer leurs biens sans l'autorisation de leur mari — une incapacité juridique héritée du Code Napoléon de 1804. Avant cette loi, une femme mariée avait légalement le statut d'une mineure dans ces domaines. Cette réforme, combinée à l'augmentation des emplois dans le secteur tertiaire, accélère la féminisation du marché du travail : le taux d'activité des femmes passe de 34 % en 1962 à 42 % en 1975."
     },
     {
       "id": "16",
-      "question": "Quel phénomène migratoire accompagne cette période ?",
-      "answers": ["Départ massif", "Immigration de travail", "Isolement", "Colonisation"],
+      "question": "La France fait massivement appel à l'immigration de travail. De quel pays vient le plus grand flux d'immigrés dans les années 1960-1970, dépassant même l'immigration algérienne ?",
+      "image": null,
+      "imagePrompt": "Portuguese immigration France 1960s 1970s workers construction industry",
+      "answers": ["L'Espagne", "Le Portugal", "Le Maroc", "L'Italie"],
       "correctIndex": 1,
-      "explanation": "La France fait appel à une main-d’œuvre étrangère pour soutenir la croissance économique."
+      "explanation": "Le Portugal fournit le plus grand flux migratoire en France dans les années 1960-1970, surpassant même l'Algérie à certaines périodes. Fuyant la dictature de Salazar et la pauvreté, des centaines de milliers de Portugais arrivent en France, souvent clandestinement à pied à travers les Pyrénées (les « galopins »). En 1975, la communauté portugaise en France compte environ 760 000 personnes. Ces travailleurs — construction, industrie, services — sont indispensables à la croissance française mais vivent souvent dans des bidonvilles comme celui de Champigny-sur-Marne."
     },
     {
       "id": "17",
-      "question": "Quel impact sur les infrastructures ?",
-      "answers": ["Déclin", "Stagnation", "Modernisation", "Destruction"],
-      "correctIndex": 2,
-      "explanation": "Routes, transports et équipements publics se développent rapidement."
+      "question": "Les infrastructures se modernisent massivement. Quel programme autoroutier ambitieux est lancé dans les années 1960, transformant la géographie des déplacements français ?",
+      "image": null,
+      "imagePrompt": "French autoroute highway construction 1960s modernization infrastructure",
+      "answers": ["La France ne construit que des routes nationales, refusant le modèle autoroutier américain", "Un programme d'autoroutes à péage dont le réseau passe de 200 km en 1960 à plus de 3 000 km en 1975", "La construction du réseau TGV, priorité absolue du Plan de modernisation", "Un programme de voies express urbaines remplaçant les tramways dans toutes les grandes villes"],
+      "correctIndex": 1,
+      "explanation": "Le réseau autoroutier français passe de 200 km en 1960 à plus de 3 000 km en 1975, grâce à un système de concessions à des sociétés privées qui financent la construction via les péages. Parallèlement, le parc automobile explose, nécessitant ces nouvelles infrastructures. Cette période voit aussi la construction du RER parisien (1969), la modernisation des aéroports (Roissy en 1974) et l'électrification du réseau ferré. Ces investissements massifs témoignent d'une foi absolue dans le progrès technique et la modernisation comme moteurs du bien-être collectif."
     },
     {
       "id": "18",
-      "question": "Quel facteur soutient la croissance ?",
-      "answers": ["Production industrielle", "Isolement", "Faible population", "Tradition"],
-      "correctIndex": 0,
-      "explanation": "L’augmentation de la production industrielle est un moteur clé de la croissance."
+      "question": "Le baby-boom est l'un des moteurs démographiques des Trente Glorieuses. Combien d'enfants par femme la France enregistre-t-elle en moyenne au pic du baby-boom, vers 1964 ?",
+      "image": null,
+      "imagePrompt": "France baby boom postwar birth rate demographic growth family",
+      "answers": ["Environ 1,8 enfant par femme", "Environ 2,3 enfants par femme", "Environ 2,9 enfants par femme", "Plus de 4 enfants par femme"],
+      "correctIndex": 2,
+      "explanation": "Le taux de fécondité français atteint environ 2,9 enfants par femme au pic du baby-boom (1964), bien au-dessus du seuil de renouvellement de 2,1. Ce dynamisme démographique fournit une main-d'œuvre abondante, une demande de consommation soutenue (école, logement, équipements) et une base fiscale solide pour l'État-providence. La génération du baby-boom — ceux nés entre 1945 et 1965 — a été la principale bénéficiaire des Trente Glorieuses avant d'en constituer, vieillissant, l'un des défis pour les systèmes de retraite contemporains."
     },
     {
       "id": "19",
-      "question": "Quel type de société remplace progressivement la société rurale ?",
-      "answers": ["Industrielle et urbaine", "Féodale", "Nomade", "Agricole"],
+      "question": "La France des Trente Glorieuses s'inscrit dans la construction européenne. Quel traité fondateur, signé en 1957, crée le Marché commun qui amplifie la croissance française ?",
+      "image": null,
+      "imagePrompt": "Treaty of Rome 1957 European Economic Community Common Market France founding",
+      "answers": ["Le traité de Paris (1951), qui créait la CECA", "Le traité de Rome (1957), qui crée la Communauté économique européenne", "Le traité de Maastricht (1992), qui crée l'Union européenne", "L'accord de Bretton Woods (1944), qui fixe les règles monétaires mondiales"],
       "correctIndex": 1,
-      "explanation": "La société devient majoritairement urbaine et industrielle, avec de nouveaux modes de vie."
+      "explanation": "Le traité de Rome (25 mars 1957) crée la Communauté économique européenne (CEE) entre la France, l'Allemagne de l'Ouest, l'Italie et les trois pays du Benelux. L'ouverture du Marché commun — libre circulation des marchandises, des capitaux et des personnes — élargit considérablement les débouchés pour l'industrie française et stimule la modernisation. La PAC (Politique agricole commune, 1962) garantit des débouchés et des prix aux agriculteurs français, contribuant à la modernisation agricole. L'Europe amplifie ainsi les Trente Glorieuses autant qu'elle en bénéficie."
     },
     {
       "id": "20",
-      "question": "Pourquoi les Trente Glorieuses sont-elles un tournant majeur ?",
-      "answers": ["Pour leur durée", "Pour leur isolement", "Pour leur lenteur", "Pour les transformations économiques et sociales durables"],
-      "correctIndex": 3,
-      "explanation": "Cette période transforme durablement la France, en posant les bases de la société moderne."
+      "question": "Les Trente Glorieuses s'achèvent avec le premier choc pétrolier. En quelle année et dans quel contexte géopolitique ce choc survient-il, mettant fin brutalement au modèle de croissance ?",
+      "image": null,
+      "imagePrompt": "1973 oil shock OPEC embargo petrol crisis France end Thirty Glorious Years",
+      "answers": ["En 1968, lié aux troubles de Mai 68 qui effondrent la production industrielle française", "En 1971, lié à la fin du système monétaire de Bretton Woods par Nixon", "En 1973, lié à la guerre du Kippour et à l'embargo pétrolier de l'OPEP contre les pays occidentaux", "En 1975, lié à la faillite simultanée de plusieurs grandes banques européennes"],
+      "correctIndex": 2,
+      "explanation": "Le premier choc pétrolier d'octobre 1973 est déclenché par la guerre du Kippour : les pays arabes de l'OPEP imposent un embargo pétrolier aux pays occidentaux ayant soutenu Israël, quadruplant le prix du pétrole en quelques semaines. La France, qui tire 75 % de son énergie du pétrole et importe la quasi-totalité de sa consommation, est durement touchée. La croissance s'effondre, le chômage dépasse le million en 1975 pour la première fois depuis la guerre, et l'inflation s'emballe — marquant la fin des Trente Glorieuses et l'entrée dans les « Trente Piteuses »."
     }
   ]
 }

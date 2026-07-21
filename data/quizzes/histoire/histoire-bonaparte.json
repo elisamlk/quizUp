@@ -2,7 +2,7 @@
   "slug": "quiz-histoire-napoleon-bonaparte",
   "title": "Quiz Histoire - Es-tu incollable sur Napoléon Bonaparte ?",
   "description": "Batailles, Empire, exil, réformes : teste tes connaissances sur Napoléon Bonaparte.",
-  "descriptionSeo": "Teste tes connaissances sur Napoléon Bonaparte avec ce quiz d’histoire complet. De son ascension au pouvoir avec le 18 Brumaire à son sacre impérial, en passant par ses grandes victoires comme Austerlitz et ses défaites comme Waterloo, replonge dans une période clé de l’histoire européenne. Réformes, batailles, exils : 20 questions pour vérifier si tu maîtrises vraiment l’épopée napoléonienne et ses enjeux politiques et militaires.",
+  "descriptionSeo": "Teste tes connaissances sur Napoléon Bonaparte avec ce quiz d'histoire complet. De son ascension au pouvoir avec le 18 Brumaire à son sacre impérial, en passant par ses grandes victoires comme Austerlitz et ses défaites comme Waterloo, replonge dans une période clé de l'histoire européenne. Réformes, batailles, exils : 20 questions pour vérifier si tu maîtrises vraiment l'épopée napoléonienne et ses enjeux politiques et militaires.",
   "category": {
     "name": "Histoire",
     "slug": "histoire"
@@ -18,143 +18,183 @@
   "questions": [
     {
       "id": "1",
-      "question": "En quelle année Napoléon devient-il empereur ?",
-      "answers": ["1804", "1799", "1815", "1800"],
-      "correctIndex": 0,
-      "explanation": "Napoléon se fait sacrer empereur en 1804 à Notre-Dame de Paris. Fait marquant : il se couronne lui-même devant le pape, ce qui symbolise que son pouvoir ne dépend d’aucune autorité religieuse mais de lui seul."
+      "question": "Napoléon Bonaparte naît en 1769 à Ajaccio. Quel détail de calendrier a rendu possible sa carrière française, puisqu'il aurait été étranger sans cet événement survenu l'année précédente ?",
+      "image": null,
+      "imagePrompt": "Corsica France cession 1768 Napoleon birthplace Ajaccio map",
+      "answers": ["La Corse avait été achetée à l'Espagne par la France en 1768", "La Corse avait déclaré son rattachement volontaire à la France en 1768", "La Corse avait été cédée à la France par Gênes en 1768", "La Corse avait été conquise militairement par Louis XV en 1768"],
+      "correctIndex": 2,
+      "explanation": "La République de Gênes cède la Corse à la France par le traité de Versailles du 15 mai 1768 — un an avant la naissance de Napoléon à Ajaccio. Sans cette cession, Napoléon serait né citoyen génois et n'aurait jamais pu intégrer l'École militaire royale de Paris ni faire carrière dans l'armée française. Son père Carlo Bonaparte, d'abord partisan de l'indépendance corse aux côtés de Pasquale Paoli, se rallia rapidement à la France pour préserver ses intérêts et permettre l'éducation de ses enfants."
     },
     {
       "id": "2",
-      "question": "Quel événement lui permet de prendre le pouvoir ?",
-      "answers": ["Révolution de 1789", "18 Brumaire", "Waterloo", "Congrès de Vienne"],
-      "correctIndex": 1,
-      "explanation": "Le coup d’État du 18 Brumaire (1799) met fin au Directoire. Napoléon ne prend pas immédiatement le titre d’empereur : il devient d’abord Premier consul, concentrant progressivement tous les pouvoirs."
+      "question": "La campagne d'Égypte (1798–1799) révèle l'ambition de Napoléon bien avant le 18 Brumaire. Quel événement scientifique majeur, fruit de cette expédition, a transformé notre connaissance de l'Antiquité ?",
+      "image": null,
+      "imagePrompt": "Rosetta Stone Egypt Napoleon expedition hieroglyphics discovery 1799",
+      "answers": ["La découverte de la pierre de Rosette, clé du déchiffrement des hiéroglyphes", "La découverte de la tombe de Ramsès II dans la Vallée des Rois", "La cartographie complète du Nil depuis sa source jusqu'à son delta", "La découverte des premiers papyrus médicaux de l'Égypte ancienne"],
+      "correctIndex": 0,
+      "explanation": "La pierre de Rosette est découverte en juillet 1799 par des soldats français près de Rosette (Rachid) dans le delta du Nil. Ce décret trilingue (hiéroglyphes, démotique et grec) permettra à Champollion de déchiffrer les hiéroglyphes en 1822, ouvrant l'égyptologie moderne. Napoléon avait emmené avec lui 167 savants — la Commission des sciences et des arts — dont les travaux seront publiés dans la monumentale Description de l'Égypte (1809–1828). Militairement, la campagne s'achève en échec, mais scientifiquement elle est révolutionnaire."
     },
     {
       "id": "3",
-      "question": "Quelle bataille est considérée comme son chef-d'œuvre militaire ?",
-      "answers": ["Waterloo", "Trafalgar", "Austerlitz", "Leipzig"],
-      "correctIndex": 2,
-      "explanation": "Austerlitz (1805), dite 'bataille des trois empereurs', est un modèle de stratégie. Napoléon attire ses ennemis sur un terrain qu’il a choisi et les piège, illustrant parfaitement son génie tactique."
+      "question": "Le coup d'État du 18 Brumaire (9 novembre 1799) renverse le Directoire. Où se déroule la séquence décisive, et pourquoi Napoléon y frôle-t-il l'échec ?",
+      "image": null,
+      "imagePrompt": "18 Brumaire coup d'état Saint-Cloud Napoleon grenadiers Council Five Hundred",
+      "answers": ["À l'Assemblée nationale à Paris, où les députés l'acclament spontanément", "À Versailles, où il convoque les assemblées sous prétexte d'un complot jacobin", "À Notre-Dame de Paris, lors d'une cérémonie qu'il détourne à son profit", "Au château de Saint-Cloud, où il est hué par le Conseil des Cinq-Cents et doit être sauvé par ses grenadiers"],
+      "correctIndex": 3,
+      "explanation": "Les assemblées sont transférées au château de Saint-Cloud sous prétexte d'un complot jacobin. Mais au Conseil des Cinq-Cents, Napoléon est hué, bousculé et risque d'être mis hors la loi. Son frère Lucien Bonaparte, président de l'assemblée, sauve la situation en faisant intervenir les grenadiers qui dispersent les députés. Napoléon devient Premier consul — chef d'un Consulat provisoire à trois têtes, dont il prend rapidement le contrôle total. Ce coup d'État met fin à dix ans de Révolution."
     },
     {
       "id": "4",
-      "question": "Sur quelle île est-il exilé en 1814 ?",
-      "answers": ["Sainte-Hélène", "Corse", "Malte", "Île d’Elbe"],
-      "correctIndex": 3,
-      "explanation": "Après sa première abdication, Napoléon est envoyé sur l’île d’Elbe… mais avec un statut relativement confortable. Il y conserve même un petit pouvoir, ce qui facilite son retour spectaculaire en France en 1815."
+      "question": "Le sacre de Napoléon a lieu à Notre-Dame de Paris le 2 décembre 1804. Quel geste iconique — immortalisé par le tableau de David — choque l'étiquette et symbolise sa conception du pouvoir ?",
+      "image": null,
+      "imagePrompt": "Napoleon coronation David painting Notre-Dame crown self-coronation Pope Pius VII",
+      "answers": ["Il se couronne lui-même, sans laisser le pape poser la couronne sur sa tête", "Il arrive une heure en retard, faisant attendre le pape Pie VII dans la cathédrale froide", "Il invite l'impératrice Joséphine à le couronner en premier, rompant le protocole impérial", "Il prononce ses vœux en latin, refusant l'usage du français pour sa cérémonie"],
+      "correctIndex": 0,
+      "explanation": "Napoléon saisit la couronne des mains du pape Pie VII et la pose lui-même sur sa tête, avant de couronner Joséphine. Ce geste — immortalisé par Jacques-Louis David dans Le Sacre (1807) — signifie que son pouvoir ne vient pas de Dieu ni de l'Église, mais de lui-même et de la nation. Le pape, humilié, n'intervient pas. Napoléon avait pourtant signé le Concordat de 1801 pour réconcilier la France avec l'Église après la Révolution — mais ce sacre montre clairement qui tient les rênes."
     },
     {
       "id": "5",
-      "question": "Quelle réforme majeure Napoléon met-il en place ?",
-      "answers": ["Code civil", "Code royal", "Code féodal", "Code militaire"],
-      "correctIndex": 0,
-      "explanation": "Le Code civil (1804) unifie les lois en France et garantit l’égalité devant la loi. C’est une œuvre durable de Napoléon, encore au cœur du droit français aujourd’hui."
+      "question": "Le Code civil de 1804 est l'œuvre législative la plus durable de Napoléon. Quel principe révolutionnaire y est consacré, mais quel droit fondamental en est simultanément exclu ?",
+      "image": null,
+      "imagePrompt": "Napoleonic Code civil 1804 law equality property family rights France",
+      "answers": ["Le Code garantit la liberté de la presse, mais exclut le droit de grève des travailleurs", "Le Code établit la propriété privée, mais interdit aux non-catholiques d'hériter de biens immobiliers", "Le Code garantit la liberté de conscience, mais exclut les protestants des fonctions publiques", "Le Code consacre l'égalité civile des hommes devant la loi, mais maintient l'incapacité juridique des femmes mariées"],
+      "correctIndex": 3,
+      "explanation": "Le Code civil consacre l'égalité civile entre hommes, la liberté individuelle, la propriété privée et la laïcité de l'état civil — des acquis révolutionnaires considérables. Mais il instaure simultanément la puissance maritale : la femme mariée est juridiquement incapable, soumise à l'autorité de son mari pour tout acte civil, commercial ou patrimonial. Cette incapacité ne sera pleinement abolie en France qu'en 1965. Exporté dans une grande partie de l'Europe et du monde, le Code civil reste l'une des influences juridiques les plus durables de l'histoire."
     },
     {
       "id": "6",
-      "question": "Quelle bataille marque sa défaite finale ?",
-      "answers": ["Austerlitz", "Waterloo", "Wagram", "Iéna"],
+      "question": "Napoléon crée en 1801 le Concordat avec le pape Pie VII. Quelle situation explosive ce traité vise-t-il à résoudre, héritée directement de la Révolution française ?",
+      "image": null,
+      "imagePrompt": "Concordat 1801 Napoleon Pope Pius VII Church France Revolutionary schism",
+      "answers": ["Le refus du pape de reconnaître la légitimité du gouvernement français depuis 1792", "Le schisme entre l'Église constitutionnelle jurante et l'Église réfractaire créé par la Révolution", "La querelle entre catholiques et protestants depuis les guerres de Religion du XVIe siècle", "La confiscation des biens du Vatican par les armées révolutionnaires lors de la campagne d'Italie"],
       "correctIndex": 1,
-      "explanation": "Waterloo (1815) met fin définitivement à son pouvoir. Contrairement à ses victoires précédentes, Napoléon est ici dépassé par la coordination de ses ennemis et ses erreurs stratégiques."
+      "explanation": "La Constitution civile du clergé (1790) avait scindé le clergé français en deux : les prêtres « jureurs » qui avaient prêté serment à la République et les « réfractaires » qui avaient refusé. Ce schisme avait déchiré les paroisses et alimenté des guerres civiles comme celle de Vendée. Le Concordat de 1801 réconcilie l'État français et Rome : Napoléon reconnaît le catholicisme comme « religion de la grande majorité des Français » (et non religion d'État), les évêques sont nommés par lui mais investis par le pape, et l'État verse leurs salaires. Un équilibre qui durera jusqu'en 1905."
     },
     {
       "id": "7",
-      "question": "Où Napoléon est-il né ?",
-      "answers": ["France", "Italie", "Corse", "Espagne"],
+      "question": "La bataille d'Austerlitz (2 décembre 1805) est le chef-d'œuvre tactique de Napoléon. Quelle manœuvre précise lui permet de vaincre des forces austro-russes pourtant supérieures en nombre ?",
+      "image": null,
+      "imagePrompt": "Battle Austerlitz 1805 Pratzen Heights Napoleon tactics three emperors",
+      "answers": ["Il encercle complètement les armées alliées pendant la nuit et les contraint à se rendre sans combat", "Il utilise une artillerie de 600 canons pour pilonner les positions ennemies avant toute attaque d'infanterie", "Il feint la faiblesse sur son aile droite pour attirer l'ennemi, puis reprend le plateau de Pratzen pour couper l'armée en deux", "Il lance une charge frontale massive de sa Garde impériale au centre de la ligne ennemie"],
       "correctIndex": 2,
-      "explanation": "Napoléon naît en Corse en 1769, juste après que l’île soit devenue française. Il grandit dans une culture à la fois italienne et française, ce qui influence son parcours."
+      "explanation": "Napoléon feint délibérément la faiblesse sur son aile droite pour attirer les Austro-Russes à l'attaquer là, dégarnissant leur centre. Quand l'ennemi s'y précipite, Napoléon lance le maréchal Soult reprendre le plateau de Pratzen avec une rapidité foudroyante — « vingt minutes de travail » dit-il — coupant l'armée alliée en deux. Les fuyards austro-russes sont alors pourchassés jusqu'aux étangs glacés de Satschan, où certains se noient. En quelques heures, Napoléon pulvérise deux empires et dissout la troisième coalition."
     },
     {
       "id": "8",
-      "question": "Quel titre porte-t-il avant l’Empire ?",
-      "answers": ["Roi", "Premier consul", "Empereur", "Maréchal"],
-      "correctIndex": 1,
-      "explanation": "Le Consulat (1799-1804) est une période clé : Napoléon y consolide son pouvoir tout en conservant une apparence républicaine avant de basculer vers l’Empire."
+      "question": "Le blocus continental, décrété par Napoléon en 1806, vise à ruiner l'économie britannique. Pourquoi ce système se retourne-t-il finalement contre lui ?",
+      "image": null,
+      "imagePrompt": "Continental System blockade Napoleon Britain economic warfare smuggling Europe",
+      "answers": ["Le blocus provoque une inflation incontrôlable en France, ruinant les finances impériales", "L'Angleterre riposte par un contre-blocus qui empêche les exportations françaises vers les Amériques", "Le blocus est immédiatement rejeté par la Russie, qui rompt l'alliance de Tilsit dès 1807", "Les États européens contournent le blocus par la contrebande et certains le violent ouvertement, poussant Napoléon à des guerres ruineuses pour l'imposer"],
+      "correctIndex": 3,
+      "explanation": "Le blocus continental est théoriquement dévastateur pour la Grande-Bretagne, mais il se révèle quasi impossible à appliquer : la contrebande prolifère, les États alliés ou vassaux le violent discrètement, et la Russie finit par l'abandonner officiellement en 1810. Pour l'imposer, Napoléon est contraint d'occuper le Portugal (1807), de renverser la monarchie espagnole (1808) et de déclencher la guerre contre la Russie (1812) — trois conflits qui l'épuisent et précipitent sa chute. Le remède se révèle plus mortel que le mal."
     },
     {
       "id": "9",
-      "question": "Quelle coalition bat Napoléon à Waterloo ?",
-      "answers": ["Russie", "Espagne", "Angleterre et Prusse", "Autriche"],
-      "correctIndex": 2,
-      "explanation": "À Waterloo, Napoléon affronte les Britanniques de Wellington et les Prussiens de Blücher. L’arrivée des renforts prussiens est décisive dans sa défaite."
+      "question": "La guerre d'Espagne (1808–1814), que Napoléon appellera son « ulcère espagnol », est un tournant dans son déclin. Pourquoi cette guerre est-elle si différente de ses autres campagnes ?",
+      "image": null,
+      "imagePrompt": "Peninsular War Spain guerrilla warfare Napoleon Joseph Bonaparte 1808 Goya",
+      "answers": ["C'est une guerre de guérilla populaire — terme né dans ce conflit — combinée à l'intervention britannique, sans front fixe ni armée à vaincre décisivement", "C'est la première guerre où Napoléon affronte une puissance navale sur ses propres côtes", "C'est la première guerre où Napoléon est contraint de combattre sur deux fronts simultanés", "C'est la seule guerre où Napoléon délègue entièrement le commandement sans s'y rendre personnellement"],
+      "correctIndex": 0,
+      "explanation": "Le mot « guérilla » (petite guerre) naît précisément dans ce conflit pour désigner la résistance populaire espagnole. Contrairement aux guerres classiques où l'on cherche à vaincre l'armée ennemie en bataille rangée, la guérilla espagnole est diffuse, insaisissable et inépuisable : chaque victoire française crée de nouveaux combattants. Combinée aux armées régulières britanniques de Wellington en Portugal, elle immobilise 300 000 soldats français pendant six ans. Les tableaux de Goya immortalisent la brutalité de cette guerre totale, préfiguration des conflits du XXe siècle."
     },
     {
       "id": "10",
-      "question": "Où est-il exilé après Waterloo ?",
-      "answers": ["Île d’Elbe", "Malte", "Corse", "Sainte-Hélène"],
-      "correctIndex": 3,
-      "explanation": "Sainte-Hélène est une île très isolée de l’Atlantique sud. Cette fois, aucun retour n’est possible : l’exil est conçu pour être définitif."
+      "question": "La campagne de Russie (1812) détruit la Grande Armée. Napoléon entre à Moscou en septembre, mais la ville est en feu. Qui a ordonné l'incendie ?",
+      "image": null,
+      "imagePrompt": "Moscow fire 1812 Napoleon Russia retreat Grande Armée Rostopchine burning city",
+      "answers": ["Des agents britanniques infiltrés en Russie, pour précipiter la rupture franco-russe", "Napoléon lui-même, pour priver ses soldats de ressources et les forcer à repartir combattre", "Le gouverneur de Moscou Rostopchine, pour priver l'armée française de logements et de vivres", "Les paysans russes en fuite, qui brûlèrent spontanément leurs maisons selon la tradition de la terre brûlée"],
+      "correctIndex": 2,
+      "explanation": "Le gouverneur militaire de Moscou, Fiodor Rostopchine, ordonne l'incendie de la ville avant l'entrée des Français — brûlant entrepôts, logements et ressources pour priver l'envahisseur de tout bénéfice de la prise de la capitale. Napoléon, qui espérait que la prise de Moscou forcerait le tsar Alexandre Ier à négocier, attend en vain pendant cinq semaines. Sans quartiers pour l'hiver, sans ravitaillement et sans paix, il doit ordonner la retraite en octobre — dans un froid qui atteindra -30°C. Sur 600 000 hommes entrés en Russie, moins de 100 000 en reviennent."
     },
     {
       "id": "11",
-      "question": "Quelle campagne est un désastre pour Napoléon ?",
-      "answers": ["Russie", "Égypte", "Italie", "Espagne"],
-      "correctIndex": 0,
-      "explanation": "La campagne de Russie (1812) détruit la Grande Armée. Le froid, la faim et la stratégie de terre brûlée des Russes jouent un rôle majeur."
+      "question": "La bataille de Leipzig (16-19 octobre 1813), dite « bataille des Nations », est le tournant décisif qui précède la première abdication. Pourquoi tourne-t-elle au désastre pour Napoléon ?",
+      "image": null,
+      "imagePrompt": "Battle of Leipzig 1813 Nations Napoleon coalition defeat Germany autumn",
+      "answers": ["La Grande Armée refuse de combattre, provoquant une mutinerie générale des maréchaux", "La trahison des contingents saxons en pleine bataille retourne la situation, et Napoléon doit battre en retraite avec des pertes colossales", "Napoléon y est blessé grièvement, ce qui empêche tout commandement ultérieur efficace", "L'arrivée surprise d'une armée ottomane alliée des coalisés prend l'armée française à revers"],
+      "correctIndex": 1,
+      "explanation": "À Leipzig, Napoléon affronte une coalition inédite : Russie, Prusse, Autriche et Suède — soit environ 380 000 hommes contre 180 000 Français. Pendant trois jours, les combats sont acharnés. Le quatrième jour, les troupes saxonnes alliées de Napoléon font défection et retournent leurs canons contre les Français au moment critique. La retraite devient déroute : le pont sur l'Elster saute trop tôt, piégeant des milliers de soldats. Plus de 70 000 Français sont tués, blessés ou capturés. L'Allemagne est perdue, et la coalition envahit la France dès janvier 1814."
     },
     {
       "id": "12",
-      "question": "Quel régime Napoléon dirige-t-il ?",
-      "answers": ["Empire romain", "Empire français", "Empire allemand", "Empire espagnol"],
-      "correctIndex": 1,
-      "explanation": "Le Premier Empire (1804-1814/1815) marque l’apogée du pouvoir de Napoléon, avec une domination sur une grande partie de l’Europe."
+      "question": "Napoléon abdique une première fois en avril 1814 et est exilé à l'île d'Elbe. Quel statut lui est accordé, qui explique la facilité de son retour en mars 1815 ?",
+      "image": null,
+      "imagePrompt": "Elba island Napoleon exile 1814 sovereign emperor small army return",
+      "answers": ["Il est assigné à résidence dans un château surveillé par des gardiens autrichiens", "Il est placé sous la garde du roi de France Louis XVIII, qui lui verse une pension", "Il conserve le titre d'Empereur et la souveraineté sur l'île d'Elbe, avec une petite armée et une flottille", "Il est interné sans statut officiel, dans l'attente d'un jugement du Congrès de Vienne"],
+      "correctIndex": 2,
+      "explanation": "Par le traité de Fontainebleau (11 avril 1814), Napoléon conserve le titre d'Empereur, reçoit la souveraineté de l'île d'Elbe (200 km²), dispose d'une garde personnelle de 600 hommes, d'une petite marine et d'une rente annuelle de 2 millions de francs. Ce statut quasi royal, accordé pour éviter un martyre, facilite son évasion : le 1er mars 1815, il débarque à Golfe-Juan avec 1 000 hommes et remonte vers Paris sans rencontrer d'opposition sérieuse. Les soldats envoyés l'arrêter se rallient à lui. Il entre aux Tuileries le 20 mars — Louis XVIII en est sorti la nuit précédente."
     },
     {
       "id": "13",
-      "question": "Qui est sa première épouse ?",
-      "answers": ["Marie-Antoinette", "Marie-Louise", "Joséphine", "Charlotte"],
-      "correctIndex": 2,
-      "explanation": "Joséphine de Beauharnais est sa première épouse. Leur divorce est politique : Napoléon cherche une alliance dynastique et un héritier."
+      "question": "Napoléon divorce de Joséphine en 1809 pour raisons dynastiques. Qui épouse-t-il en secondes noces, et quel enfant en naît en 1811 ?",
+      "image": null,
+      "imagePrompt": "Napoleon Marie-Louise Austria marriage 1810 King of Rome son heir dynasty",
+      "answers": ["Il épouse une princesse russe, alliance jamais conclue en raison du refus du tsar Alexandre Ier", "Il épouse Marie-Louise d'Autriche, et leur fils naît avec le titre de roi de Rome", "Il épouse Charlotte de Prusse, et leur fils reçoit le titre de Prince impérial", "Il épouse Marie-Thérèse de Sicile, et leur fils reçoit le titre de Prince de Naples"],
+      "correctIndex": 1,
+      "explanation": "Napoléon épouse Marie-Louise d'Autriche, fille de l'empereur François Ier, le 2 avril 1810. Cette union avec la plus vieille dynastie régnante d'Europe lui confère une légitimité dynastique qu'il cherchait désespérément. Le 20 mars 1811 naît Napoléon François Joseph Charles, aussitôt nommé roi de Rome — titre symbolisant la domination de l'Empire sur la péninsule italienne. Cet enfant ne régnera jamais : élevé à Vienne sous le nom de duc de Reichstadt après la chute de son père, il meurt de tuberculose en 1832 à 21 ans."
     },
     {
       "id": "14",
-      "question": "Comment appelle-t-on son retour en 1815 ?",
-      "answers": ["Révolution", "Empire", "Congrès de Vienne", "Cent-Jours"],
-      "correctIndex": 3,
-      "explanation": "Les Cent-Jours désignent la période où Napoléon revient au pouvoir après son exil. C’est un retour fulgurant, sans véritable opposition initiale."
+      "question": "Les Cent-Jours (mars-juin 1815) se terminent à Waterloo. Quelle erreur stratégique majeure de Napoléon lors de la journée du 18 juin est encore débattue par les historiens militaires ?",
+      "image": null,
+      "imagePrompt": "Waterloo 1815 Napoleon delayed attack morning Wellington Ney Grouchy",
+      "answers": ["Il retarde l'attaque de plusieurs heures le matin pour laisser sécher le sol, donnant aux Prussiens le temps d'arriver", "Il envoie l'essentiel de sa cavalerie contre l'infanterie britannique en carré, l'épuisant inutilement", "Il divise son armée en trois corps qui ne se coordonnent jamais, menant des attaques séparées et inefficaces", "Il choisit de rester à l'arrière du champ de bataille en raison d'une maladie"],
+      "correctIndex": 0,
+      "explanation": "Le matin du 18 juin, Napoléon retarde l'attaque de plusieurs heures — probablement jusqu'à 11h30 — pour laisser sécher un sol détrempé par la pluie de la veille et permettre à son artillerie de manœuvrer. Ce délai donne aux Prussiens de Blücher le temps de rejoindre Wellington. Vers 16h30, quand l'attaque de la Garde impériale échoue et que les Prussiens arrivent sur le flanc droit, la défaite devient déroute. Le maréchal Grouchy, chargé de poursuivre les Prussiens, ne revient pas à temps — une deuxième erreur majeure dans ce qui devait être une victoire rapide."
     },
     {
       "id": "15",
-      "question": "Quelle bataille navale perd-il face aux Britanniques ?",
-      "answers": ["Trafalgar", "Austerlitz", "Leipzig", "Waterloo"],
-      "correctIndex": 0,
-      "explanation": "Trafalgar (1805) est une défaite majeure en mer. Elle empêche toute invasion de l’Angleterre et assure la domination maritime britannique."
+      "question": "La bataille de Trafalgar (21 octobre 1805) est la plus grande défaite navale de Napoléon. Quelle tactique révolutionnaire l'amiral Nelson emploie-t-il, qui rompt avec les conventions navales de l'époque ?",
+      "image": null,
+      "imagePrompt": "Battle Trafalgar 1805 Nelson HMS Victory column attack Franco-Spanish fleet",
+      "answers": ["Nelson monte une attaque nocturne surprise, profitant du brouillard du détroit de Gibraltar", "Nelson utilise des brûlots — navires en feu lancés contre la flotte ennemie — technique héritée des Grecs anciens", "Nelson aligne ses navires parallèlement à la flotte franco-espagnole pour un duel d'artillerie classique", "Nelson attaque en deux colonnes perpendiculaires à la ligne ennemie, la coupant en trois tronçons isolés"],
+      "correctIndex": 3,
+      "explanation": "Nelson attaque la flotte franco-espagnole de Villeneuve en deux colonnes perpendiculaires à la ligne ennemie — une tactique dite « en T » qui coupe la ligne adverse en trois segments isolés incapables de se soutenir mutuellement. Cette rupture avec la tactique navale classique est décisive : 22 navires franco-espagnols sont capturés ou détruits, sans perte anglaise. Nelson est tué sur le pont de son vaisseau amiral Victory d'une balle de mousquet. Trafalgar assure la suprématie maritime britannique pour un siècle et rend définitivement impossible toute invasion de l'Angleterre."
     },
     {
       "id": "16",
-      "question": "Qui bat Napoléon à Waterloo ?",
-      "answers": ["Nelson", "Wellington", "Churchill", "Victoria"],
-      "correctIndex": 1,
-      "explanation": "Le duc de Wellington commande les forces britanniques. Contrairement à Nelson (mort à Trafalgar), il affronte Napoléon directement sur terre."
+      "question": "Napoléon crée en 1802 la Légion d'honneur, institution encore en vigueur aujourd'hui. Quel principe inédit fonde cette décoration, au point de choquer une partie de ses collaborateurs républicains ?",
+      "image": null,
+      "imagePrompt": "Legion of Honor Napoleon 1802 medal merit republican criticism aristocracy",
+      "answers": ["La Légion d'honneur récompense le mérite personnel sans distinction d'origine sociale, civile ou militaire", "La Légion d'honneur est héréditaire, créant de fait une nouvelle noblesse de service permanente", "La Légion d'honneur est réservée aux soldats, excluant toute reconnaissance des services civils à l'État", "La Légion d'honneur est financée par un impôt spécial prélevé sur les fortunes acquises pendant la Révolution"],
+      "correctIndex": 0,
+      "explanation": "La Légion d'honneur récompense le mérite — militaire ou civil — sans considération d'origine sociale, de naissance ou de religion. Ce principe méritocratique est révolutionnaire dans une Europe encore dominée par la noblesse héréditaire. Pourtant, certains républicains comme le tribun Chénier s'y opposent, craignant qu'elle ne reconstitue une aristocratie de service. Napoléon répond ironiquement : « Vous appelez cela des hochets, mais c'est avec des hochets qu'on mène les hommes. » La Légion d'honneur reste aujourd'hui la plus haute distinction française."
     },
     {
       "id": "17",
-      "question": "Comment s’appelle son armée ?",
-      "answers": ["Armée royale", "Armée impériale", "Grande Armée", "Armée nationale"],
+      "question": "Napoléon réforme en profondeur l'enseignement secondaire en créant les lycées en 1802. Quel objectif stratégique — au-delà de l'éducation — motive cette réforme ?",
+      "image": null,
+      "imagePrompt": "Napoleon lycee education 1802 reform baccalaureate state schools military formation",
+      "answers": ["Alphabétiser l'ensemble de la population française pour augmenter la productivité agricole et industrielle", "Remplacer les congrégations religieuses pour laïciser définitivement l'éducation française", "Former une élite administrative et militaire fidèle à l'État, avec un enseignement standardisé sous contrôle impérial", "Former des ingénieurs capables de construire les grandes infrastructures de l'Empire"],
       "correctIndex": 2,
-      "explanation": "La Grande Armée est l’un des instruments majeurs de sa puissance. Elle est réputée pour sa mobilité et son organisation."
+      "explanation": "Les lycées napoléoniens sont des internats d'État à régime semi-militaire : lever au tambour, uniformes, emplois du temps stricts. Ils forment une élite administrative et militaire loyale à l'Empire, avec un programme standardisé contrôlé par l'État. En 1808, Napoléon crée l'Université impériale — monopole d'État sur l'enseignement — qui chapeaute l'ensemble du système éducatif. Le baccalauréat, instauré la même année, en sanctionne le cursus. Cette architecture éducative, profondément remaniée depuis, reste le fondement du système scolaire français."
     },
     {
       "id": "18",
-      "question": "Quelle stratégie utilise-t-il contre l’Angleterre ?",
-      "answers": ["Alliance militaire", "Blocus naval", "Traité", "Blocus continental"],
-      "correctIndex": 3,
-      "explanation": "Le blocus continental vise à étouffer économiquement l’Angleterre. Mais il est difficile à appliquer et provoque des tensions en Europe."
+      "question": "Napoléon est exilé à Sainte-Hélène après Waterloo. Dans quelles conditions vit-il ses six dernières années, et quelle controverse entoure sa mort en 1821 ?",
+      "image": null,
+      "imagePrompt": "Saint Helena Napoleon exile Longwood House 1815 1821 death conditions isolated",
+      "answers": ["Il vit dans un palais confortable, rédigeant ses Mémoires en toute liberté, et meurt d'un accident vasculaire cérébral", "Il est emprisonné dans un cachot sans lumière naturelle et meurt d'un empoisonnement délibéré par les Britanniques", "Il vit dans des conditions difficiles à Longwood House, sujet à une humidité malsaine, et meurt vraisemblablement d'un cancer gastrique", "Il vit dans l'aisance mais refuse tout traitement médical par orgueil, et meurt d'une pneumonie"],
+      "correctIndex": 2,
+      "explanation": "Napoléon est confiné à Longwood House, une demeure humide et malsaine sur un plateau souvent dans les nuages. Le gouverneur Hudson Lowe l'y surveille étroitement. Napoléon dicte ses Mémoires — construisant sa légende — et se plaint constamment de sa captivité. Il meurt le 5 mai 1821 à 51 ans. Le consensus médical actuel penche vers un cancer gastrique, aggravé peut-être par un ulcère perforé. L'hypothèse d'un empoisonnement à l'arsenic, relancée dans les années 1960, a été largement infirmée — les niveaux détectés s'expliquent par l'arsenic contenu dans les colorants des papiers peints de Longwood."
     },
     {
       "id": "19",
-      "question": "En quelle année Napoléon meurt-il ?",
-      "answers": ["1821", "1815", "1804", "1830"],
-      "correctIndex": 0,
-      "explanation": "Napoléon meurt en 1821 à Sainte-Hélène. Les causes exactes font encore débat (maladie ou empoisonnement)."
+      "question": "Le Congrès de Vienne (1814–1815) redessine l'Europe après Napoléon. Quel principe politique dominant — en rupture avec les idées de la Révolution française — y triomphe ?",
+      "image": null,
+      "imagePrompt": "Congress of Vienna 1815 Metternich legitimacy European order restoration monarchies",
+      "answers": ["Le principe de nationalité — chaque peuple doit former un État indépendant correspondant à sa langue", "Le principe de neutralité perpétuelle — les grandes puissances s'interdisent toute guerre offensive pour 50 ans", "Le principe de démocratie représentative — chaque État doit adopter une constitution garantissant les libertés civiles", "Le principe de légitimité — les dynasties renversées par Napoléon sont restaurées dans leurs droits héréditaires"],
+      "correctIndex": 3,
+      "explanation": "Le Congrès de Vienne, dominé par le prince autrichien Metternich, est gouverné par le principe de légitimité : les souverains renversés par Napoléon sont restaurés. Ce principe s'oppose directement aux idées de souveraineté populaire et de droit des peuples portées par la Révolution française. Mais les décisions du Congrès ignorent les aspirations nationales des Polonais, des Italiens et des Allemands — semant les graines des révolutions de 1830 et 1848 et des guerres d'unification nationale du XIXe siècle."
     },
     {
       "id": "20",
-      "question": "Quel événement met fin à son règne ?",
-      "answers": ["Révolution", "Waterloo", "Austerlitz", "Directoire"],
-      "correctIndex": 1,
-      "explanation": "La défaite de Waterloo met fin à son pouvoir et à l’Empire. Elle marque aussi le retour des monarchies en Europe."
+      "question": "Le retour des cendres de Napoléon aux Invalides en 1840 est organisé par la monarchie de Juillet. Quel calcul politique pousse Louis-Philippe à orchestrer ce retour spectaculaire ?",
+      "image": null,
+      "imagePrompt": "Napoleon return ashes Invalides 1840 Louis-Philippe political legacy legend",
+      "answers": ["Louis-Philippe tente de capter la légende napoléonienne pour renforcer sa propre légitimité face aux républicains et aux légitimistes", "Louis-Philippe obéit à une injonction du Parlement européen qui exige la restitution du corps à la France", "Louis-Philippe organise ce retour pour satisfaire l'armée française, mécontente depuis la défaite de 1815", "Louis-Philippe veut montrer que Napoléon est définitivement mort, décourageant ainsi tout retour bonapartiste"],
+      "correctIndex": 0,
+      "explanation": "Louis-Philippe, roi des Français depuis la révolution de 1830, règne sur un régime fragilisé par son image de « roi bourgeois » sans éclat. En organisant le retour des cendres de Napoléon avec faste — cérémonie grandiose le 15 décembre 1840 — il espère s'approprier la gloire napoléonienne. Mais le résultat est inverse : le retour des cendres ravive la « légende napoléonienne » et relance le bonapartisme, contribuant indirectement à l'élection de Louis-Napoléon Bonaparte à la présidence en 1848 — qui renversera la monarchie de Juillet."
     }
   ]
 }

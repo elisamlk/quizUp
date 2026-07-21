@@ -2,7 +2,7 @@
   "slug": "quiz-histoire-charlemagne-empire-religion-heritage-europeen",
   "title": "Quiz Histoire - Charlemagne - Empire, religion et héritage européen",
   "description": "Empire carolingien, sacre, réformes, christianisation : teste tes connaissances sur Charlemagne et son héritage.",
-  "descriptionSeo": "Explore l’histoire de Charlemagne avec ce quiz consacré à l’empire carolingien, à la religion et à son héritage européen. Du sacre impérial en 800 à ses réformes politiques et culturelles, découvre comment il a marqué durablement le Moyen Âge. Entre conquêtes, christianisation et organisation du pouvoir, ces 20 questions permettent de mieux comprendre une figure clé à l’origine de nombreuses bases de l’Europe occidentale.",
+  "descriptionSeo": "Explore l'histoire de Charlemagne avec ce quiz consacré à l'empire carolingien, à la religion et à son héritage européen. Du sacre impérial en 800 à ses réformes politiques et culturelles, découvre comment il a marqué durablement le Moyen Âge. Entre conquêtes, christianisation et organisation du pouvoir, ces 20 questions permettent de mieux comprendre une figure clé à l'origine de nombreuses bases de l'Europe occidentale.",
   "category": {
     "name": "Histoire",
     "slug": "histoire"
@@ -18,143 +18,183 @@
   "questions": [
     {
       "id": "1",
-      "question": "À quelle dynastie Charlemagne appartient-il ?",
-      "answers": ["Carolingiens", "Capétiens", "Mérovingiens", "Valois"],
-      "correctIndex": 0,
-      "explanation": "Charlemagne appartient à la dynastie carolingienne, qui succède aux Mérovingiens. Son règne marque l’apogée de cette famille politique, fondée sur l’alliance entre pouvoir militaire, autorité royale et soutien de l’Église."
+      "question": "Charlemagne appartient à la dynastie carolingienne. D'où vient ce nom ?",
+      "image": null,
+      "imagePrompt": "Carolingian dynasty family tree Charlemagne Pepin Charles Martel medieval",
+      "answers": ["De Carolus Magnus lui-même", "De Charles Martel, dont le prénom latin est Carolus", "Du pape qui a baptisé la famille", "Du mot latin carolina"],
+      "correctIndex": 1,
+      "explanation": "La dynastie carolingienne tire son nom de Charles Martel (Carolus en latin), grand-père de Charlemagne, qui a établi la puissance militaire et politique de la famille en repoussant les Arabes à Poitiers (732) et en dominant le royaume franc comme maire du palais. Son fils Pépin le Bref devient le premier roi carolingien en 751 en déposant le dernier Mérovingien. Charlemagne hérite ainsi d'une lignée déjà puissante avant même de porter la couronne impériale."
     },
     {
       "id": "2",
-      "question": "Quel était le prénom latinisé de Charlemagne ?",
-      "answers": ["Clodoveus", "Carolus Magnus", "Ludovicus", "Pippinus"],
+      "question": "Carolus Magnus signifie « Charles le Grand ». À quelle occasion ce surnom s'impose-t-il ?",
+      "image": null,
+      "imagePrompt": "Charlemagne Carolus Magnus name title medieval manuscript illumination",
+      "answers": ["Donné par le pape lors du sacre de 800", "Popularisé par son biographe Éginhard", "Inventé par les historiens du XIXe siècle", "Adopté par Charlemagne dans ses capitulaires"],
       "correctIndex": 1,
-      "explanation": "Le nom latinisé de Charlemagne est Carolus Magnus, qui signifie littéralement 'Charles le Grand'. C’est de cette forme que vient le nom 'Charlemagne', devenu celui d’un souverain presque légendaire dans la mémoire européenne."
+      "explanation": "Le surnom « Magnus » (le Grand) s'impose grâce notamment à Éginhard, secrétaire et biographe de Charlemagne, qui rédige la Vita Karoli Magni peu après sa mort. Éginhard décrit un souverain imposant physiquement (il mesurait environ 1,90 m selon les estimations) et politiquement exceptionnel. Ce surnom reflète aussi la dimension quasi légendaire que prend rapidement le personnage dans la mémoire médiévale, où Charlemagne devient un modèle de roi chrétien idéal."
     },
     {
       "id": "3",
-      "question": "En quelle année Charlemagne est-il couronné empereur ?",
-      "answers": ["732", "768", "800", "843"],
-      "correctIndex": 2,
-      "explanation": "Charlemagne est couronné empereur en l’an 800, à Rome. Cette date est capitale, car elle symbolise la renaissance d’un empire en Occident plusieurs siècles après la chute de l’Empire romain d’Occident en 476."
+      "question": "Charlemagne est couronné empereur en 800 à Rome. Dans quelles circonstances précises ?",
+      "image": null,
+      "imagePrompt": "Charlemagne coronation 800 Rome Saint Peter basilica Pope Leo III Christmas",
+      "answers": ["Charlemagne le réclame pour légitimer ses conquêtes", "Le pape Léon III, réfugié chez lui après une révolte, le couronne à Noël", "L'armée franque l'impose au pape après la prise de Rome", "Les évêques francs décident collectivement de l'élever au rang impérial"],
+      "correctIndex": 1,
+      "explanation": "Le pape Léon III avait été victime d'une violente révolte à Rome en 799 et s'était réfugié auprès de Charlemagne pour demander protection. Charlemagne l'escorte à Rome, préside un tribunal qui le réhabilite, puis reçoit la couronne impériale le 25 décembre 800 lors de la messe de Noël à Saint-Pierre. Selon son biographe Éginhard, Charlemagne aurait été surpris par ce geste — ce que les historiens jugent peu crédible. Ce sacre crée un précédent majeur sur les relations entre pape et empereur qui alimentera des conflits pendant des siècles."
     },
     {
       "id": "4",
-      "question": "Par qui Charlemagne est-il couronné empereur ?",
-      "answers": ["Le roi d’Angleterre", "Le patriarche de Constantinople", "L’archevêque de Reims", "Le pape Léon III"],
-      "correctIndex": 3,
-      "explanation": "C’est le pape Léon III qui couronne Charlemagne à Rome. Ce geste renforce l’idée d’une alliance entre le pouvoir politique et l’Église, mais il soulève aussi une question essentielle : l’empereur tient-il son pouvoir de Dieu, du pape, ou de sa propre puissance ?"
+      "question": "Quel problème fondamental le sacre de 800 pose-t-il entre papes et empereurs ?",
+      "image": null,
+      "imagePrompt": "Pope Emperor investiture controversy medieval power Church secular authority",
+      "answers": ["Qui hérite de l'empire à la mort de l'empereur", "Si l'empereur tient son pouvoir de Dieu ou du pape", "Si Byzance doit reconnaître le nouvel empire", "S'il peut exister deux empereurs simultanément"],
+      "correctIndex": 1,
+      "explanation": "En couronnant Charlemagne, le pape Léon III crée une ambiguïté durable : l'acte suggère que l'autorité impériale découle du pape, ce que les empereurs rejettent farouchement. Cette tension entre pouvoir temporel et pouvoir spirituel débouchera sur la querelle des Investitures (XIe–XIIe siècles), où papes et empereurs s'affronteront pour savoir qui nomme les évêques. Elle ne sera résolue qu'au concordat de Worms (1122), mais la question du primat ne disparaîtra jamais vraiment au Moyen Âge."
     },
     {
       "id": "5",
-      "question": "Quel roi franc était le père de Charlemagne ?",
-      "answers": ["Pépin le Bref", "Clovis", "Charles Martel", "Hugues Capet"],
-      "correctIndex": 0,
-      "explanation": "Le père de Charlemagne est Pépin le Bref, premier roi carolingien. Il est lui-même le fils de Charles Martel, ce qui montre que la puissance de la famille s’est construite sur plusieurs générations avant Charlemagne."
+      "question": "Pépin le Bref, père de Charlemagne, est le premier roi carolingien. Comment s'empare-t-il du trône en 751 ?",
+      "image": null,
+      "imagePrompt": "Pepin the Short Carolingian king 751 Pope Zacharias Childeric III deposed",
+      "answers": ["En assassinant le dernier Mérovingien", "Avec l'accord du pape pour déposer Childéric III", "En remportant une bataille contre les Mérovingiens", "Élu par une assemblée de seigneurs francs"],
+      "correctIndex": 1,
+      "explanation": "Pépin le Bref consulte le pape Zacharie pour savoir s'il est légitime de déposer un roi qui ne gouverne plus réellement. Le pape répond que le pouvoir doit appartenir à celui qui l'exerce vraiment — ce qui valide le renversement de Childéric III, tondu et enfermé dans un monastère. Pépin est ensuite sacré roi par l'évêque Boniface, puis par le pape Étienne II en 754. Cet échange de bons procédés entre papauté et Carolingiens préfigure directement le sacre de Charlemagne en 800."
     },
     {
       "id": "6",
-      "question": "Quelle ville est le principal centre du pouvoir de Charlemagne ?",
-      "answers": ["Rome", "Aix-la-Chapelle", "Paris", "Milan"],
+      "question": "Pourquoi Charlemagne choisit-il Aix-la-Chapelle comme résidence principale ?",
+      "image": null,
+      "imagePrompt": "Aachen Aix-la-Chapelle Charlemagne palace thermal springs location Rhine",
+      "answers": ["C'est la ville la plus peuplée de l'empire", "Pour ses sources thermales et sa position centrale", "Le pape lui ordonne de s'y établir", "C'est l'ancienne capitale romaine de la Gaule"],
       "correctIndex": 1,
-      "explanation": "Aix-la-Chapelle est le principal centre politique de l’empire carolingien. Ce n’est pas une capitale au sens moderne, mais elle joue un rôle majeur comme résidence impériale, centre administratif et lieu de rayonnement intellectuel."
+      "explanation": "Charlemagne apprécie les sources thermales d'Aix-la-Chapelle (il y nage régulièrement selon Éginhard) et sa position géographique centrale dans l'espace rhénan, cœur de ses territoires. Il y fait construire un palais impérial et la célèbre chapelle palatine — toujours debout aujourd'hui, intégrée à la cathédrale d'Aix. Cette résidence n'est pas une capitale fixe au sens moderne : Charlemagne gouverne en se déplaçant constamment, mais Aix est son port d'attache préféré et le symbole de son pouvoir."
     },
     {
       "id": "7",
-      "question": "Quel peuple Charlemagne combat-il longuement à l’est de son empire ?",
-      "answers": ["Normands", "Wisigoths", "Saxons", "Gaulois"],
-      "correctIndex": 2,
-      "explanation": "Charlemagne mène de longues guerres contre les Saxons. Ces campagnes ont un double objectif : étendre le contrôle politique de l’empire et imposer la christianisation, ce qui montre combien conquête militaire et religion sont liées sous son règne."
+      "question": "Les guerres saxonnes durent trente ans. Quel épisode brutal illustre la dureté de la christianisation forcée ?",
+      "image": null,
+      "imagePrompt": "Verden massacre 782 Charlemagne Saxons forced christianization war",
+      "answers": ["Le siège de la forteresse d'Eresburg", "Le massacre de Verden (782) : 4 500 prisonniers exécutés", "La destruction de l'Irminsul sacré des Saxons", "La déportation de familles saxonnes vers des monastères"],
+      "correctIndex": 1,
+      "explanation": "Le massacre de Verden (782) est l'épisode le plus controversé des guerres saxonnes : selon les Annales royales, Charlemagne aurait fait décapiter 4 500 prisonniers saxons en une seule journée après une révolte menée par Widukind. Cet épisode, longtemps minimisé, a été utilisé par les nazis comme exemple de « brutalité franque » contre les Germains. Les historiens débattent encore de l'exactitude du chiffre, mais la violence des guerres saxonnes est indéniable. La soumission définitive des Saxons n'intervient qu'en 804."
     },
     {
       "id": "8",
-      "question": "Quel lien unit particulièrement Charlemagne et l’Église ?",
-      "answers": ["Il supprime la religion chrétienne", "Il refuse toute influence religieuse", "Il sépare strictement politique et religion", "Il protège et renforce le christianisme"],
-      "correctIndex": 3,
-      "explanation": "Charlemagne protège l’Église et s’appuie sur elle pour gouverner. En échange, l’Église légitime son pouvoir. Cette collaboration est l’une des clés de son autorité et de l’organisation du monde médiéval occidental."
+      "question": "Que l'Église attend-elle en échange de son soutien à Charlemagne ?",
+      "image": null,
+      "imagePrompt": "Charlemagne Church alliance bishops lands donations protection Christianity Franks",
+      "answers": ["Qu'il renonce à toute autorité sur les évêques", "Protection, terres et christianisation des conquêtes", "Que l'empire reverse la moitié de ses impôts à Rome", "Que les capitulaires soient approuvés par le pape"],
+      "correctIndex": 1,
+      "explanation": "L'alliance entre Charlemagne et l'Église est fondée sur un échange : l'Église légitimise le pouvoir impérial et fournit des administrateurs lettrés (les évêques et abbés, seuls capables d'écrire et de compter), tandis que Charlemagne protège militairement les biens de l'Église, finance les monastères et les cathédrales, et étend le christianisme par la force dans les territoires conquis. Cette symbiose est le moteur de l'organisation carolingienne, mais elle crée aussi une dépendance mutuelle qui complique la gouvernance."
     },
     {
       "id": "9",
-      "question": "Quel événement de 843 fragmente l’héritage de Charlemagne ?",
-      "answers": ["Le traité de Verdun", "Le sacre de Reims", "La bataille de Hastings", "L’édit de Milan"],
-      "correctIndex": 0,
-      "explanation": "Le traité de Verdun, signé en 843 par les petits-fils de Charlemagne, partage l’empire en plusieurs ensembles. C’est un tournant majeur, souvent vu comme l’une des racines lointaines de la formation de la France et de l’Allemagne."
+      "question": "Le traité de Verdun (843) partage l'empire. Quelles entités préfigure-t-il ?",
+      "image": null,
+      "imagePrompt": "Treaty of Verdun 843 Carolingian partition France Germany Middle Kingdom map",
+      "answers": ["L'Italie, l'Espagne et la France", "La France, l'Allemagne et une Francie médiane", "La Pologne, la Bohême et l'Autriche", "Le Saint-Empire, Naples et la France"],
+      "correctIndex": 1,
+      "explanation": "Le traité de Verdun divise l'empire entre les trois fils de Louis le Pieux : Charles le Chauve reçoit la Francie occidentale (future France), Louis le Germanique la Francie orientale (future Allemagne), et Lothaire la Francie médiane (une bande centrale allant de la mer du Nord à l'Italie). Cette Francie médiane, sans cohérence géographique ni linguistique, sera rapidement redivisée. Verdun est souvent présenté comme l'acte de naissance de la France et de l'Allemagne — une simplification, mais qui souligne l'importance de ce partage pour la géopolitique européenne."
     },
     {
       "id": "10",
-      "question": "Quel titre Charlemagne porte-t-il avant 800 ?",
-      "answers": ["Pape", "Roi des Francs", "Sultan", "Consul"],
+      "question": "Comment Charlemagne devient-il seul roi des Francs en 771, alors qu'il devait partager le trône ?",
+      "image": null,
+      "imagePrompt": "Charlemagne Carloman brothers Frankish kingdom 768 771 sole ruler",
+      "answers": ["Il assassine son frère Carloman", "Son frère Carloman meurt de maladie", "Il fait déposer son frère jugé incapable", "Son frère entre dans les ordres"],
       "correctIndex": 1,
-      "explanation": "Avant d’être empereur, Charlemagne est roi des Francs. Son couronnement impérial ne remplace pas son pouvoir royal : il l’élargit et lui donne une portée universelle, au moins dans l’idéal politique de l’époque."
+      "explanation": "À la mort de Pépin le Bref en 768, le royaume est partagé entre ses deux fils selon la tradition franque : Charlemagne reçoit le nord et l'ouest, Carloman le sud et l'est. Les relations entre les deux frères sont tendues. Carloman meurt de maladie en décembre 771 à seulement 20 ans, laissant Charlemagne seul maître du royaume franc. Charlemagne écarte les fils de Carloman et s'impose rapidement comme roi unique — point de départ de l'extraordinaire expansion qui suivra."
     },
     {
       "id": "11",
-      "question": "Quel domaine Charlemagne cherche-t-il aussi à réformer ?",
-      "answers": ["Le système industriel", "La navigation océanique", "L’éducation et la culture", "La démocratie parlementaire"],
-      "correctIndex": 2,
-      "explanation": "Charlemagne encourage les écoles monastiques et cathédrales, ainsi que la copie des manuscrits. On parle souvent de 'renaissance carolingienne' : il ne s’agit pas d’une Renaissance comme au XVe siècle, mais d’un effort important pour relever le niveau culturel et administratif de l’empire."
+      "question": "Quel savant est le principal artisan de la renaissance carolingienne ?",
+      "image": null,
+      "imagePrompt": "Alcuin of York Charlemagne palace school Aachen Carolingian renaissance scholar",
+      "answers": ["Éginhard, biographe de Charlemagne", "Alcuin d'York, théologien et pédagogue", "Théodulf d'Orléans, évêque et poète", "Paul Diacre, moine lombard"],
+      "correctIndex": 1,
+      "explanation": "Alcuin d'York (735–804) est recruté par Charlemagne vers 782 pour diriger l'école du palais à Aix-la-Chapelle. Ce savant anglo-saxon réforme l'enseignement selon le programme des sept arts libéraux, standardise l'écriture (l'écriture caroline, ancêtre de nos minuscules), et supervise la correction des textes liturgiques. La renaissance carolingienne qu'il anime n'est pas une révolution artistique comparable à la Renaissance italienne, mais un effort décisif de conservation et de transmission du savoir antique et chrétien."
     },
     {
       "id": "12",
-      "question": "Comment appelle-t-on les envoyés chargés de contrôler l’administration locale ?",
-      "answers": ["Les préfets", "Les sénateurs", "Les ducs", "Les missi dominici"],
-      "correctIndex": 3,
-      "explanation": "Les missi dominici sont des envoyés de l’empereur chargés de surveiller les comtes et de faire appliquer les décisions impériales. Ils montrent que Charlemagne cherche à mieux contrôler un territoire immense, malgré les limites de communication de l’époque."
+      "question": "Pourquoi les missi dominici sont-ils nécessaires dans l'empire carolingien ?",
+      "image": null,
+      "imagePrompt": "missi dominici Carolingian administration control counts imperial envoys medieval",
+      "answers": ["Les comtes sont analphabètes", "Il n'existe pas de monnaie commune", "Les comtes locaux sont difficiles à contrôler à distance", "L'Église exige une surveillance des fonctionnaires"],
+      "correctIndex": 2,
+      "explanation": "L'empire carolingien est gouverné localement par des comtes, nommés par l'empereur mais souvent tentés d'exercer leur pouvoir de façon autonome, voire héréditaire. Sans administration permanente, sans fonctionnaires professionnels ni moyens de communication rapides, Charlemagne ne peut pas vérifier que ses ordres sont appliqués. Les missi dominici — généralement un évêque et un comte laïc envoyés en binôme — visitent les régions, rendent la justice, vérifient les comptes et rapportent à l'empereur. C'est un système ingénieux mais limité par la lenteur des déplacements."
     },
     {
       "id": "13",
-      "question": "Quel mot désigne les textes législatifs promulgués sous Charlemagne ?",
-      "answers": ["Capitulaires", "Concordats", "Ordonnances", "Bulles"],
-      "correctIndex": 0,
-      "explanation": "Les capitulaires sont des textes normatifs divisés en chapitres. Ils traitent de sujets variés : justice, administration, religion, armée. Ils révèlent la volonté de Charlemagne d’organiser son empire de manière plus cohérente."
+      "question": "Quel sujet inattendu certains capitulaires de Charlemagne abordent-ils ?",
+      "image": null,
+      "imagePrompt": "Capitulare de villis Charlemagne agriculture domains farming medieval management",
+      "answers": ["La construction de cathédrales gothiques", "La gestion agricole des domaines impériaux", "L'organisation de croisades en Espagne", "La codification du droit romain"],
+      "correctIndex": 1,
+      "explanation": "Le Capitulaire de Villis (vers 800) est l'un des textes les plus étonnants de Charlemagne : il prescrit en détail comment gérer les domaines agricoles impériaux — quels légumes planter (oignons, poireaux, carottes...), quels animaux élever, comment tenir les comptes, quel bois couper. Ce texte révèle une administration économique très méticuleuse et une vision de la gestion domaniale qui cherche à rationaliser la production agricole à l'échelle impériale. Il est aussi l'une des sources les plus précises sur l'agriculture carolingienne."
     },
     {
       "id": "14",
-      "question": "Quelle religion Charlemagne contribue-t-il à diffuser dans ses territoires conquis ?",
-      "answers": ["Islam", "Christianisme", "Bouddhisme", "Polythéisme romain"],
-      "correctIndex": 1,
-      "explanation": "Charlemagne diffuse le christianisme dans les régions conquises, notamment chez les Saxons. Cette christianisation n’est pas seulement spirituelle : elle sert aussi à intégrer politiquement les populations au sein de l’empire."
+      "question": "Quel texte de Charlemagne punit de mort le refus du baptême chez les Saxons ?",
+      "image": null,
+      "imagePrompt": "Capitulatio de partibus Saxoniae 785 forced baptism death penalty Saxons Charlemagne",
+      "answers": ["Le Capitulaire de Villis", "L'Admonitio Generalis", "La Capitulatio de partibus Saxoniae", "L'édit de Thionville"],
+      "correctIndex": 2,
+      "explanation": "La Capitulatio de partibus Saxoniae (vers 785) est l'un des textes les plus sévères de Charlemagne : elle punit de mort le refus du baptême, la crémation des morts (pratique païenne), le meurtre d'un évêque ou d'un prêtre, et diverses pratiques religieuses saxonnes. Alcuin lui-même proteste contre cette violence contraignante, estimant qu'on ne peut imposer la foi par la terreur. Charlemagne adoucira ultérieurement certaines dispositions, mais la christianisation forcée des Saxons reste l'un des aspects les plus controversés de son règne."
     },
     {
       "id": "15",
-      "question": "Quel grand ensemble politique Charlemagne cherche-t-il à restaurer symboliquement ?",
-      "answers": ["L’empire britannique", "L’empire byzantin", "L’empire romain d’Occident", "L’empire ottoman"],
-      "correctIndex": 2,
-      "explanation": "Par son sacre de 800, Charlemagne apparaît comme le restaurateur symbolique d’un empire romain en Occident. Même si son empire est très différent de celui de l’Antiquité, il reprend l’idée d’un pouvoir impérial chrétien et universel."
+      "question": "Quelle puissance conteste la prétention de Charlemagne à restaurer l'empire romain ?",
+      "image": null,
+      "imagePrompt": "Byzantine Empire Constantinople empress Irene 800 Charlemagne rivalry Roman title",
+      "answers": ["Le califat abbasside de Bagdad", "L'empire byzantin de Constantinople", "Le pape, seul héritier de Rome", "Les rois anglo-saxons"],
+      "correctIndex": 1,
+      "explanation": "L'empire byzantin (empire romain d'Orient) ne s'est jamais considéré comme une entité distincte de l'empire romain — il s'appelle lui-même « empire romain » et son souverain est le seul « basileus des Romains ». Le sacre de Charlemagne en 800 est donc perçu à Constantinople comme une usurpation scandaleuse. La situation est paradoxalement facilitée par le fait qu'une femme, l'impératrice Irène, règne alors à Byzance — ce que Charlemagne utilise pour prétendre qu'il n'existe pas d'empereurs légitimes. Un traité finira par reconnaître son titre vers 812."
     },
     {
       "id": "16",
-      "question": "Quel monument d’Aix-la-Chapelle reste fortement associé à Charlemagne ?",
-      "answers": ["Le Colisée", "Notre-Dame", "Le Louvre", "La chapelle palatine"],
-      "correctIndex": 3,
-      "explanation": "La chapelle palatine d’Aix-la-Chapelle est l’un des monuments les plus emblématiques du règne de Charlemagne. Son architecture manifeste l’ambition impériale carolingienne et son lien avec les héritages romain et chrétien."
+      "question": "Quel bâtiment ancien a directement inspiré la chapelle palatine d'Aix-la-Chapelle ?",
+      "image": null,
+      "imagePrompt": "Aachen Palatine Chapel octagonal architecture San Vitale Ravenna Byzantine Charlemagne",
+      "answers": ["Le Panthéon de Rome", "La basilique Saint-Pierre", "L'église San Vitale de Ravenne", "Sainte-Sophie de Constantinople"],
+      "correctIndex": 2,
+      "explanation": "La chapelle palatine d'Aix-la-Chapelle (792–805) s'inspire directement de l'église San Vitale de Ravenne, construite au VIe siècle sous Justinien. Charlemagne avait visité Ravenne et en avait rapporté des colonnes de marbre pour orner sa chapelle. Ce choix architectural est symboliquement fort : il revendique une filiation avec l'art impérial romain-byzantin. La chapelle, toujours debout aujourd'hui intégrée à la cathédrale d'Aix, est classée au patrimoine mondial de l'UNESCO depuis 1978."
     },
     {
       "id": "17",
-      "question": "Quel est l’un des grands défis du gouvernement de Charlemagne ?",
-      "answers": ["Administrer un immense territoire", "Gérer une industrie moderne", "Créer des partis politiques", "Organiser des élections nationales"],
-      "correctIndex": 0,
-      "explanation": "Le principal défi de Charlemagne est de gouverner un territoire immense, composé de peuples différents, à une époque sans administration centralisée moderne. Toute son œuvre politique consiste en partie à compenser cette faiblesse structurelle."
+      "question": "Quel système permet à Charlemagne de communiquer à travers ses vastes territoires ?",
+      "image": null,
+      "imagePrompt": "Carolingian road network messengers missi relay system communication medieval empire",
+      "answers": ["Des tours de signalisation optique", "Des cavaliers-messagers avec relais équestres", "Des pigeons voyageurs monastiques", "Des bateaux rapides sur le Rhin"],
+      "correctIndex": 1,
+      "explanation": "Charlemagne s'appuie sur un réseau de cavaliers-messagers et de relais équestres — des étapes où les messagers peuvent changer de cheval — pour transmettre ses ordres à travers l'empire. Ce système, hérité partiellement de Rome, permet d'atteindre en quelques jours des régions éloignées. Mais il reste limité : un message met plusieurs semaines pour traverser l'empire de bout en bout. C'est pourquoi les missi dominici, les comtes locaux et les évêques disposent d'une large autonomie de décision — la délégation est une nécessité structurelle, non un choix politique."
     },
     {
       "id": "18",
-      "question": "Quel héritage européen attribue-t-on souvent à Charlemagne ?",
-      "answers": ["La fondation de l’ONU", "L’idée d’une Europe unifiée", "Le suffrage universel", "La révolution industrielle"],
-      "correctIndex": 1,
-      "explanation": "Charlemagne est souvent présenté comme un 'père de l’Europe', non parce qu’il aurait créé l’Europe moderne, mais parce que son empire a réuni durablement une grande partie de l’Occident chrétien autour d’institutions, d’une culture et d’une vision politique communes."
+      "question": "Le prix Charlemagne est remis chaque année à Aix-la-Chapelle. Qui en est le premier lauréat en 1950 ?",
+      "image": null,
+      "imagePrompt": "Charlemagne Prize Aachen 1950 European unity first laureate Richard von Coudenhove-Kalergi",
+      "answers": ["Winston Churchill", "Robert Schuman", "Richard von Coudenhove-Kalergi", "Konrad Adenauer"],
+      "correctIndex": 2,
+      "explanation": "Le premier prix Charlemagne est décerné en 1950 à Richard von Coudenhove-Kalergi, fondateur du mouvement Paneuropa dans les années 1920 et précurseur de l'idée d'unification européenne. Ce choix souligne le lien symbolique entre l'héritage carolingien et le projet européen du XXe siècle. Parmi les lauréats suivants figurent Winston Churchill (1955), Konrad Adenauer (1954), Robert Schuman (1958), Jean Monnet (1953) et, plus récemment, le pape François (2016) et Emmanuel Macron (2018)."
     },
     {
       "id": "19",
-      "question": "Quel peuple musulman est repoussé par les Francs avant le règne impérial de Charlemagne, dans l’histoire de sa dynastie ?",
-      "answers": ["Les Perses", "Les Mongols", "Les Arabes à Poitiers", "Les Vikings"],
+      "question": "Charles Martel repousse les Arabes à Poitiers en 732. Quelle est la portée réelle de cette bataille ?",
+      "image": null,
+      "imagePrompt": "Battle of Poitiers 732 Charles Martel Arab Umayyad raid France historical significance",
+      "answers": ["Elle arrête définitivement l'expansion musulmane en Europe", "Elle provoque l'effondrement immédiat du califat omeyyade", "Elle stoppe un grand raid, mais les musulmans restent en Ibérie", "Elle marque le début des croisades"],
       "correctIndex": 2,
-      "explanation": "Les Arabes sont repoussés à Poitiers en 732 par Charles Martel, le grand-père de Charlemagne. Même si Charlemagne n’y participe pas, cet épisode renforce le prestige militaire et politique de sa lignée."
+      "explanation": "La bataille de Poitiers (732) stoppe une incursion arabe menée par Abd al-Rahman, gouverneur d'Al-Andalus, mais les musulmans restent solidement implantés dans la péninsule Ibérique pendant encore sept siècles (jusqu'en 1492). Charles Martel n'arrête pas « l'expansion islamique en Europe » : il repousse un raid de grande ampleur qui menaçait le cœur du royaume franc. L'importance symbolique de cette victoire a été amplifiée par les chroniques médiévales et les historiens du XIXe siècle qui cherchaient un « choc des civilisations » fondateur."
     },
     {
       "id": "20",
-      "question": "Pourquoi l’héritage de Charlemagne reste-t-il central dans l’histoire européenne ?",
-      "answers": ["Parce qu’il invente la poudre à canon", "Parce qu’il met fin au christianisme", "Parce qu’il fonde la démocratie moderne", "Parce qu’il relie empire, pouvoir chrétien et organisation politique durable"],
-      "correctIndex": 3,
-      "explanation": "L’héritage de Charlemagne est central parce qu’il articule plusieurs dimensions durables : un pouvoir impérial fort, une alliance avec l’Église, une volonté d’unifier les territoires et un effort culturel important. Son règne ne crée pas l’Europe moderne, mais il façonne profondément l’Europe médiévale."
+      "question": "Comment Louis le Pieux gère-t-il la succession de Charlemagne, et quel problème cela révèle-t-il ?",
+      "image": null,
+      "imagePrompt": "Louis the Pious succession Charlemagne 814 Carolingian empire division inheritance problem",
+      "answers": ["Il impose un empire indivisible transmis à l'aîné", "Il partage l'empire dès 817, déclenchant des guerres civiles", "Il refuse la couronne et rend le pouvoir aux seigneurs", "Il transfère la capitale à Rome"],
+      "correctIndex": 1,
+      "explanation": "Louis le Pieux tente d'abord d'organiser la succession en désignant son fils aîné Lothaire comme co-empereur (817). Mais la naissance d'un quatrième fils (Charles, futur Charles le Chauve) d'un second mariage rouvre la question du partage. S'ensuivent des guerres civiles entre Louis et ses fils, puis entre ses fils entre eux — culminant au traité de Verdun (843). Cette instabilité révèle la faiblesse structurelle de l'empire carolingien : reposant sur la personnalité d'un seul homme et une tradition de partage incompatible avec la cohésion impériale, il ne pouvait survivre à son fondateur."
     }
   ]
 }

@@ -2,7 +2,7 @@
   "slug": "quiz-histoire-catherine-de-medicis-intrigues-guerres-religion",
   "title": "Quiz Histoire - Catherine de Médicis - Intrigues et guerres de religion",
   "description": "Pouvoir, religion, conflits : teste tes connaissances sur Catherine de Médicis et son rôle dans les guerres de religion.",
-  "descriptionSeo": "Plonge au cœur du XVIe siècle avec ce quiz consacré à Catherine de Médicis, figure clé des guerres de religion en France. Entre intrigues politiques, tensions entre catholiques et protestants et événements marquants comme la Saint-Barthélemy, explore les enjeux d’une période profondément instable. Ces 20 questions permettent de mieux comprendre son rôle, ses choix stratégiques et les conflits qui ont façonné l’histoire du royaume de France.",
+  "descriptionSeo": "Catherine de Médicis a-t-elle réellement orchestré la Saint-Barthélemy ? Ce quiz d'histoire en 20 questions explore son ascension à la cour des Valois, sa rivalité avec Diane de Poitiers, les guerres de Religion, Coligny, la Ligue catholique et ses tentatives de pacification. De Florence aux Tuileries, découvrez une reine longtemps prisonnière de sa légende noire et réévaluée avec nuance par les historiens contemporains.",
   "category": {
     "name": "Histoire",
     "slug": "histoire"
@@ -18,143 +18,183 @@
   "questions": [
     {
       "id": "1",
-      "question": "À quelle dynastie appartient Catherine de Médicis par mariage ?",
-      "answers": ["Valois", "Bourbons", "Capétiens", "Mérovingiens"],
+      "question": "Catherine de Médicis naît à Florence en 1519. À quelle famille illustre appartient-elle ?",
+      "image": null,
+      "imagePrompt": "Medici family Florence Renaissance Italy Catherine birthplace palace",
+      "answers": ["Les Médicis, banquiers et mécènes florentins", "Les Sforza, ducs de Milan", "Les Borgia, famille papale", "Les Este, ducs de Ferrare"],
       "correctIndex": 0,
-      "explanation": "Catherine de Médicis devient reine de France en épousant Henri II, membre de la dynastie des Valois. Elle joue ensuite un rôle politique majeur après la mort de son mari."
+      "explanation": "Catherine appartient aux Médicis, la famille de banquiers et de gouvernants qui a fait de Florence l'un des grands foyers de la Renaissance. Elle devient orpheline moins d'un mois après sa naissance : sa mère, Madeleine de La Tour d'Auvergne, meurt probablement d'une fièvre puerpérale, puis son père Laurent II de Médicis disparaît quelques jours plus tard, vraisemblablement atteint de syphilis. Élevée par sa famille et dans plusieurs couvents florentins, Catherine épouse à 14 ans le futur Henri II de France, dans le cadre d'un mariage négocié par son parent le pape Clément VII."
     },
     {
       "id": "2",
-      "question": "De quel pays est originaire Catherine de Médicis ?",
-      "answers": ["Espagne", "Italie", "France", "Angleterre"],
-      "correctIndex": 1,
-      "explanation": "Catherine est née à Florence, en Italie. Son origine étrangère suscite d’abord méfiance et critiques à la cour de France."
+      "question": "Catherine épouse Henri II en 1533, mais reste dans l'ombre pendant vingt ans. Quelle rivale domine le roi et marginalise la reine ?",
+      "image": null,
+      "imagePrompt": "Diane de Poitiers Henri II mistress France court influence Chenonceau",
+      "answers": ["Marie Stuart, reine d'Écosse", "Marguerite de Navarre", "Anne de Pisseleu", "Diane de Poitiers"],
+      "correctIndex": 3,
+      "explanation": "Diane de Poitiers règne sur le cœur d'Henri II pendant toute la durée du mariage royal — et ce malgré ses vingt ans de plus que le roi. C'est elle, et non Catherine, qui reçoit les bijoux de la Couronne, occupe le château de Chenonceau et dispose d'une influence politique réelle. Catherine supporte cette situation en silence pendant vingt ans, donnant au roi dix enfants tout en restant en retrait de la vie publique. À la mort d'Henri II en 1559, elle reprend immédiatement Chenonceau à Diane et s'impose progressivement comme actrice centrale du gouvernement."
     },
     {
       "id": "3",
-      "question": "Quel conflit religieux marque son époque ?",
-      "answers": ["Croisades", "Réforme protestante", "Guerres de religion", "Guerre de Cent Ans"],
-      "correctIndex": 2,
-      "explanation": "Les guerres de religion opposent catholiques et protestants (huguenots) en France. Elles plongent le royaume dans une instabilité durable."
+      "question": "Henri II meurt tragiquement en 1559. Dans quelles circonstances perd-il la vie ?",
+      "image": null,
+      "imagePrompt": "Henri II death tournament joust 1559 Montgomery lance eye fatal wound",
+      "answers": ["Un éclat de lance dans l'œil lors d'un tournoi", "Assassiné par un fanatique protestant", "Une fièvre lors d'un siège militaire", "Une chute de cheval en Italie"],
+      "correctIndex": 0,
+      "explanation": "Henri II reçoit un éclat de la lance du comte de Montgomery en plein visage lors d'un tournoi célébrant la paix du Cateau-Cambrésis (juin 1559). Le fragment pénètre dans son œil et son cerveau. Il agonise dix jours malgré les soins des meilleurs médecins disponibles, dont le chirurgien flamand Andreas Vesalius. Il meurt le 10 juillet 1559 à 40 ans. Cet accident propulse Catherine au premier rang : son fils François II, 15 ans et maladif, monte sur le trône, d'abord sous l'influence des Guises, avant que Catherine ne s'impose progressivement dans le gouvernement du royaume."
     },
     {
       "id": "4",
-      "question": "Quel événement sanglant est associé à Catherine ?",
-      "answers": ["Prise de la Bastille", "Waterloo", "Traité de Verdun", "Massacre de la Saint-Barthélemy"],
+      "question": "Combien de rois de France les fils de Catherine seront-ils, illustrant la fragilité dynastique des Valois ?",
+      "image": null,
+      "imagePrompt": "Valois dynasty sons Catherine François Charles Henri kings France fragility",
+      "answers": ["Un seul : Henri III", "Deux : François II et Charles IX", "Quatre successivement", "Trois : François II, Charles IX et Henri III"],
       "correctIndex": 3,
-      "explanation": "Le massacre de la Saint-Barthélemy (1572) voit l’assassinat de milliers de protestants. Le rôle exact de Catherine reste débattu par les historiens."
+      "explanation": "Trois fils de Catherine montent sur le trône de France : François II (1559–1560), mort à 16 ans d'une infection à l'oreille ; Charles IX (1560–1574), mort à 23 ans, dont la cause exacte reste discutée — tuberculose selon les sources les plus sérieuses, bien que la légende ait évoqué des remords liés à la Saint-Barthélemy ; et Henri III (1574–1589), assassiné par un moine fanatique. Aucun ne laisse d'héritier mâle, éteignant la branche des Valois. C'est Henri de Navarre — gendre de Catherine — qui leur succède sous le nom d'Henri IV, fondant la dynastie des Bourbons."
     },
     {
       "id": "5",
-      "question": "Quel roi était son époux ?",
-      "answers": ["Henri II", "François Ier", "Louis XIV", "Henri IV"],
-      "correctIndex": 0,
-      "explanation": "Catherine épouse Henri II. À sa mort, elle devient une figure centrale du pouvoir en tant que mère de plusieurs rois."
+      "question": "Quel événement survenu à Wassy en mars 1562 déclenche officiellement la première guerre de religion ?",
+      "image": null,
+      "imagePrompt": "Massacre Wassy 1562 Guise Huguenots barn first war of religion France",
+      "answers": ["Une invasion par des princes protestants allemands", "Un édit royal interdisant le protestantisme", "Le massacre d'une assemblée protestante par les troupes de Guise", "L'assassinat de Coligny par des agents des Guises"],
+      "correctIndex": 2,
+      "explanation": "Le 1er mars 1562, les troupes du duc François de Guise tombent sur une assemblée de protestants réunis dans une grange à Wassy (Champagne) et massacrent entre 30 et 74 fidèles, en blessant des centaines d'autres. Cet événement, présenté par les Guises comme un incident fortuit et par les huguenots comme un massacre délibéré, met le feu aux poudres. La première guerre de religion éclate dans les semaines suivantes. Ce sera la première de huit guerres qui ensanglanteront la France jusqu'à l'édit de Nantes en 1598."
     },
     {
       "id": "6",
-      "question": "Quel rôle politique exerce-t-elle après la mort de son mari ?",
-      "answers": ["Reine absolue", "Régente", "Ministre", "Générale"],
+      "question": "En 1561, Catherine organise le colloque de Poissy. Quel objectif poursuit-elle avec cette initiative inédite ?",
+      "image": null,
+      "imagePrompt": "Colloquy Poissy 1561 Catherine Medici religious dialogue Catholics Protestants theologians",
+      "answers": ["Convertir les chefs protestants avant de les expulser", "Trouver un accord entre les deux confessions pour éviter la guerre", "Condamner publiquement le calvinisme", "Obtenir le soutien protestant contre l'Espagne"],
       "correctIndex": 1,
-      "explanation": "Catherine agit comme régente pour ses fils encore jeunes, ce qui lui permet de gouverner indirectement le royaume."
+      "explanation": "Le colloque de Poissy (septembre 1561) est l'une des tentatives les plus originales de Catherine : réunir dans un même lieu des théologiens catholiques (dont le cardinal de Lorraine) et des pasteurs protestants (dont Théodore de Bèze, représentant Calvin) pour tenter de trouver un accord doctrinal. L'initiative échoue sur la question de l'eucharistie, les deux camps restant irréconciliables sur ce point fondamental. Mais la démarche elle-même est révélatrice de la méthode de Catherine : chercher le dialogue et le compromis là où la plupart de ses contemporains ne voient qu'un affrontement inévitable."
     },
     {
       "id": "7",
-      "question": "Quel groupe religieux s’oppose aux catholiques ?",
-      "answers": ["Orthodoxes", "Juifs", "Protestants", "Musulmans"],
-      "correctIndex": 2,
-      "explanation": "Les protestants, appelés huguenots en France, s’opposent aux catholiques, provoquant de nombreux conflits."
+      "question": "Combien de protestants sont tués en France lors du massacre de la Saint-Barthélemy et des semaines qui suivent ?",
+      "image": null,
+      "imagePrompt": "Saint Bartholomew massacre 1572 Paris Huguenots killed Seine river blood",
+      "answers": ["Plus de 100 000 victimes", "Entre 5 000 et 30 000 victimes", "Environ 3 000 victimes à Paris seulement", "Environ 300 à 500 victimes"],
+      "correctIndex": 1,
+      "explanation": "Les historiens estiment le nombre de victimes entre 5 000 et 30 000 dans toute la France. À Paris, les violences font entre 2 000 et 3 000 morts dans les premiers jours. Elles s'étendent ensuite en province pendant plusieurs semaines, à Lyon, Rouen, Toulouse et dans de nombreuses autres villes. Le massacre commence par l'assassinat ciblé des chefs huguenots, mais dégénère rapidement en violence populaire incontrôlée. La nouvelle provoque en Europe des réactions opposées : le roi Philippe II d'Espagne s'en réjouit, la reine Élisabeth Ire d'Angleterre reçoit l'ambassadeur de France en deuil."
     },
     {
       "id": "8",
-      "question": "Quel est l’un de ses objectifs politiques majeurs ?",
-      "answers": ["Conquérir l’Europe", "Détruire l’Église", "Imposer une seule religion", "Maintenir l’équilibre du royaume"],
-      "correctIndex": 3,
-      "explanation": "Catherine cherche souvent à maintenir un équilibre entre catholiques et protestants pour éviter la guerre civile totale."
+      "question": "Pourquoi le rôle exact de Catherine dans la Saint-Barthélemy est-il si difficile à trancher pour les historiens ?",
+      "image": null,
+      "imagePrompt": "Catherine de Medici Saint Bartholomew decision role historians debate responsibility sources",
+      "answers": ["Elle a falsifié ses propres Mémoires", "Les archives royales ont brûlé en 1871", "Les sources sont rares, contradictoires et partisanes", "Les seuls témoins étaient protestants"],
+      "correctIndex": 2,
+      "explanation": "Le débat sur le rôle de Catherine dans la Saint-Barthélemy est structurellement difficile à trancher : les sources contemporaines sont rares, souvent indirectes, et écrites par des acteurs engagés dans le conflit. Les ambassadeurs étrangers rapportent des versions contradictoires. Les mémoires de l'époque sont écrits après coup. Certains historiens (comme Denis Crouzet) voient Catherine comme actrice centrale d'une décision limitée qui a dérapé ; d'autres minimisent son rôle. Ce que les sources permettent d'établir avec plus de certitude, c'est qu'une décision d'éliminer les chefs protestants a été prise au Conseil du roi — mais les responsabilités exactes restent disputées."
     },
     {
       "id": "9",
-      "question": "Quel mariage est censé apaiser les tensions religieuses ?",
-      "answers": ["Marguerite de Valois et Henri de Navarre", "Louis XIV et Marie-Thérèse", "Napoléon et Joséphine", "Henri II et Catherine"],
-      "correctIndex": 0,
-      "explanation": "Le mariage entre Marguerite de Valois et Henri de Navarre devait rapprocher catholiques et protestants, mais il précède le massacre de la Saint-Barthélemy."
+      "question": "Le mariage de Marguerite de Valois et d'Henri de Navarre (août 1572) pose un problème théologique majeur. Lequel ?",
+      "image": null,
+      "imagePrompt": "Marguerite Valois Henri Navarre wedding Paris 1572 Catholic Protestant marriage Notre-Dame",
+      "answers": ["Henri doit abjurer mais refuse au dernier moment", "Le pape refuse de bénir un mariage mixte", "Marguerite refuse d'embrasser son mari", "Henri est déjà engagé à une princesse allemande"],
+      "correctIndex": 1,
+      "explanation": "Le pape Grégoire XIII refuse d'accorder la dispense nécessaire à un mariage mixte entre une catholique et un protestant. La cérémonie se tient donc sur le parvis de Notre-Dame de Paris : Marguerite entre seule dans la cathédrale pour la messe, pendant qu'Henri reste dehors, refusant d'assister à un office catholique. Ce compromis boiteux illustre parfaitement les tensions de l'époque. Henri de Navarre ne se convertira au catholicisme qu'en 1593 pour accéder au trône sous le nom d'Henri IV — une conversion dont l'authenticité fut contestée de son vivant."
     },
     {
       "id": "10",
-      "question": "Quel roi protestant devient plus tard roi de France ?",
-      "answers": ["Louis XIII", "Henri IV", "François II", "Charles IX"],
-      "correctIndex": 1,
-      "explanation": "Henri de Navarre, protestant, devient Henri IV après s’être converti au catholicisme, illustrant les compromis politiques de l’époque."
+      "question": "Henri III est assassiné en août 1589. Qui le tue, et dans quel contexte ?",
+      "image": null,
+      "imagePrompt": "Henri III assassination Jacques Clement Dominican monk 1589 Saint-Cloud Valois end",
+      "answers": ["Le moine dominicain Jacques Clément", "Le duc de Mayenne, frère d'Henri de Guise", "Un agent espagnol empoisonneur", "Un chef ligueur en duel"],
+      "correctIndex": 0,
+      "explanation": "Le 1er août 1589, le frère Jacques Clément, un moine dominicain de 22 ans, se présente à Saint-Cloud avec un faux message secret. Reçu en audience privée, il poignarde Henri III dans le ventre. Le roi meurt le lendemain. Clément agit dans un contexte de radicalisation extrême : certains prédicateurs ligueurs avaient théorisé le droit de résister à un roi jugé tyrannique et hérétique. S'il a pu bénéficier de complicités, l'idée qu'il aurait été formellement mandaté par la Ligue comme institution reste difficile à établir avec certitude. En mourant, Henri III désigne Henri de Navarre comme son successeur légitime, éteignant ainsi la lignée des Valois."
     },
     {
       "id": "11",
-      "question": "Quel est le principal enjeu des guerres de religion ?",
-      "answers": ["Territoire", "Commerce", "Religion et pouvoir", "Colonisation"],
-      "correctIndex": 2,
-      "explanation": "Les conflits sont à la fois religieux et politiques : il s’agit aussi de savoir qui contrôle le royaume."
+      "question": "Pourquoi l'amiral de Coligny était-il une source d'inquiétude croissante pour Catherine en 1572 ?",
+      "image": null,
+      "imagePrompt": "Coligny admiral Huguenot leader Charles IX influence war Netherlands Catherine threat",
+      "answers": ["Il voulait couronner Henri de Navarre de son vivant", "Il contrôlait Lyon et plusieurs villes du Midi", "Il levait une armée en Angleterre", "Il influençait Charles IX vers une guerre contre l'Espagne"],
+      "correctIndex": 3,
+      "explanation": "Coligny avait gagné la confiance de Charles IX à un degré qui inquiétait Catherine : le roi l'écoutait volontiers et Coligny le poussait à intervenir militairement aux Pays-Bas en soutien aux protestants révoltés contre Philippe II d'Espagne — une guerre que Catherine jugeait dangereuse pour un royaume déjà épuisé par les guerres civiles. La tentative d'assassinat de Coligny le 22 août 1572, qui n'aboutit qu'à le blesser, précipite les événements : laisser Coligny vivant et blessé à Paris, entouré de milliers de huguenots venus pour le mariage, faisait craindre des représailles protestantes. C'est dans ce contexte d'urgence perçue que la décision d'éliminer les chefs huguenots est prise — avec les conséquences que l'on sait."
     },
     {
       "id": "12",
-      "question": "Quel fils de Catherine règne pendant la Saint-Barthélemy ?",
-      "answers": ["Henri III", "Charles IX", "François II", "Louis XIII"],
-      "correctIndex": 1,
-      "explanation": "Charles IX est roi lors du massacre de la Saint-Barthélemy. Catherine exerce alors une forte influence sur lui."
+      "question": "Que contient d'inédit l'édit de janvier 1562, soutenu par Catherine, en matière religieuse ?",
+      "image": null,
+      "imagePrompt": "Edict January 1562 Catherine Medici Charles IX religious tolerance Huguenots France L'Hospital",
+      "answers": ["Des tribunaux mixtes catholiques-protestants", "L'expulsion des pasteurs étrangers", "Le droit de culte protestant hors des villes", "Le calvinisme reconnu comme religion officielle"],
+      "correctIndex": 2,
+      "explanation": "L'édit de janvier 1562, rédigé sous l'impulsion du chancelier Michel de L'Hospital et soutenu par Catherine, accorde aux protestants le droit de pratiquer leur culte hors des villes et des murs d'enceinte, et interdit les violences contre eux. C'est le premier acte de tolérance religieuse institutionnelle en France — remarquable pour l'époque. Il sera suivi de l'édit d'Amboise (1563) après la première guerre de religion, puis de plusieurs autres édits de pacification que Catherine négocie entre les conflits, cherchant des compromis que les deux camps rejettent successivement."
     },
     {
       "id": "13",
-      "question": "Quel type de politique Catherine pratique-t-elle souvent ?",
-      "answers": ["Militaire directe", "Expansion coloniale", "Diplomatie et compromis", "Isolation"],
-      "correctIndex": 2,
-      "explanation": "Catherine privilégie souvent les compromis, alternant tolérance et répression selon les circonstances."
+      "question": "Laquelle de ces initiatives diplomatiques de Catherine vise un rapprochement avec l'Angleterre protestante ?",
+      "image": null,
+      "imagePrompt": "Catherine Medici dynastic marriage diplomacy François Anjou Elizabeth England negotiation",
+      "answers": ["Le mariage d'Henri avec Marie Stuart", "Le mariage de Claude avec le duc de Lorraine", "Le mariage de Marguerite avec Henri de Navarre", "Les négociations pour marier François d'Anjou à Élisabeth Ire"],
+      "correctIndex": 3,
+      "explanation": "Catherine mène dans les années 1570 de longues négociations pour marier son fils François, duc d'Anjou, à Élisabeth Ire d'Angleterre. Cette alliance aurait rapproché la France catholique et l'Angleterre protestante, ouvrant une voie diplomatique originale. Mais Élisabeth Ire, la « reine vierge », repousse indéfiniment la décision et les négociations n'aboutissent pas. Quant au mariage d'Élisabeth de Valois avec Philippe II d'Espagne — souvent cité — il fut négocié sous Henri II dans le cadre du traité du Cateau-Cambrésis, et non par Catherine elle-même."
     },
     {
       "id": "14",
-      "question": "Quel est un aspect de sa réputation historique ?",
-      "answers": ["Scientifique", "Pacifiste absolue", "Reine guerrière", "Intrigante politique"],
-      "correctIndex": 3,
-      "explanation": "Catherine est souvent décrite comme une intrigante. Cette image est en partie exagérée mais reflète son rôle complexe dans une période troublée."
+      "question": "Qu'est-ce qui rend la Ligue catholique d'Henri de Guise si dangereuse pour la monarchie ?",
+      "image": null,
+      "imagePrompt": "Catholic League Guise Henri III Paris 1576 Day Barricades challenge royal authority",
+      "answers": ["Elle reçoit des subsides espagnols et contrôle Paris", "Elle est financée secrètement par le pape", "Elle bloque les parlements de province", "Elle a fait excommunier Henri III"],
+      "correctIndex": 0,
+      "explanation": "La Ligue catholique d'Henri de Guise reçoit des subsides de Philippe II d'Espagne et dispose d'un soutien populaire massif à Paris, où des prédicateurs radicaux attisent l'hostilité contre Henri III. En mai 1588, la « Journée des Barricades » voit les Parisiens se soulever contre le roi, qui doit quitter sa propre capitale. La Ligue prétend subordonner l'autorité royale à la défense de la foi catholique, ce qui constitue une menace directe pour la monarchie. Henri III répondra en faisant assassiner Henri de Guise en décembre 1588 — acte qui scandalise l'Europe catholique et précipite son propre assassinat."
     },
     {
       "id": "15",
-      "question": "Quel royaume gouverne-t-elle indirectement ?",
-      "answers": ["France", "Angleterre", "Espagne", "Italie"],
-      "correctIndex": 0,
-      "explanation": "Catherine exerce une influence majeure sur la France à travers ses fils rois, dans un contexte de crise politique et religieuse."
+      "question": "Pourquoi le soutien de Catherine au chancelier Michel de L'Hospital est-il historiquement remarquable ?",
+      "image": null,
+      "imagePrompt": "Michel de L'Hospital chancellor Catherine Medici tolerance politique humanism civil peace",
+      "answers": ["Il est le premier roturier chancelier de France", "Il défend la primauté de la paix civile sur l'unité religieuse", "Il est un protestant secret protégeant les huguenots", "Il est l'auteur intellectuel de l'édit de Nantes"],
+      "correctIndex": 1,
+      "explanation": "Michel de L'Hospital défend que le roi doit gouverner tous ses sujets quelle que soit leur religion, et que la paix civile vaut plus que l'unité confessionnelle. Dans ses discours aux États généraux (1560-1561), il prononce des formules frappantes pour l'époque : il invite à « ôter ces mots diaboliques » comme « luthériens » ou « huguenots ». Catherine le soutient car cette position lui permet de jouer l'arbitre entre les factions. L'Hospital sera contraint de quitter ses fonctions en 1568, victime de la radicalisation des deux camps — signe que la voie du compromis est de plus en plus étroite."
     },
     {
       "id": "16",
-      "question": "Quel est le principal défi de son règne ?",
-      "answers": ["Industrialisation", "Maintenir l’unité du royaume", "Colonisation", "Expansion militaire"],
-      "correctIndex": 1,
-      "explanation": "Son défi majeur est d’éviter l’éclatement du royaume entre factions religieuses opposées."
+      "question": "Quel roman du XIXe siècle a popularisé la légende noire de Catherine, la présentant comme empoisonneuse ?",
+      "image": null,
+      "imagePrompt": "Catherine de Medici black legend poison Alexandre Dumas novel queen dark reputation",
+      "answers": ["Le Rouge et le Noir de Stendhal", "Notre-Dame de Paris de Victor Hugo", "Balzac dans Les Secrets de la princesse de Cadignan", "La Reine Margot et ses suites d'Alexandre Dumas"],
+      "correctIndex": 3,
+      "explanation": "Alexandre Dumas publie La Reine Margot (1845), La Dame de Monsoreau (1846) et Les Quarante-Cinq (1848) — une trilogie romanesque qui met en scène une Catherine de Médicis machiavélique, empoisonneuse et manipulatrice. Ces romans, écrits avec une grande liberté vis-à-vis de l'histoire, ont durablement façonné l'image populaire de Catherine en Europe et dans le monde. Les historiens du XXe siècle (Lucien Romier, Ivan Cloulas) ont largement déconstruit cette « légende noire », en soulignant que Catherine fut avant tout une pragmatique cherchant à maintenir la couronne à ses fils dans des circonstances extrêmement difficiles."
     },
     {
       "id": "17",
-      "question": "Quel siècle correspond à son époque ?",
-      "answers": ["XVe", "XVIe", "XVIIe", "XIVe"],
-      "correctIndex": 1,
-      "explanation": "Catherine de Médicis vit au XVIe siècle, une période marquée par la Renaissance mais aussi par de fortes tensions religieuses."
+      "question": "Quel bouleversement politique vient de se produire lorsque Catherine meurt à Blois en janvier 1589 ?",
+      "image": null,
+      "imagePrompt": "Catherine de Medici death 1589 Blois Guise assassination Henri III Valois",
+      "answers": ["Henri III vient de faire assassiner les Guises à Blois", "Henri III vient de fuir Paris après la Journée des Barricades", "La Ligue vient d'obtenir l'excommunication d'Henri III", "Henri de Navarre vient d'abjurer le protestantisme"],
+      "correctIndex": 0,
+      "explanation": "Catherine meurt à Blois à 69 ans, le 5 janvier 1589, quelques jours seulement après l'assassinat d'Henri de Guise et de son frère le cardinal Louis de Guise, tués sur ordre d'Henri III les 23 et 24 décembre 1588 au château de Blois. Cet acte a choqué l'Europe catholique et précipité la rupture entre le roi et ses sujets ligueurs. Catherine, qui a vécu ces événements dans ses dernières semaines, ne saura pas qu'Henri III sera lui-même assassiné sept mois plus tard, entraînant l'extinction de la dynastie des Valois qu'elle avait consacré sa vie à maintenir."
     },
     {
       "id": "18",
-      "question": "Quel type de conflit caractérise cette période ?",
-      "answers": ["Économique", "Social", "Religieux", "Technologique"],
-      "correctIndex": 2,
-      "explanation": "Les conflits sont avant tout religieux, mais ils impliquent aussi des enjeux politiques et de pouvoir."
+      "question": "Quelle concession inédite l'édit de Nantes (1598) accorde-t-il aux protestants, au-delà des édits précédents ?",
+      "image": null,
+      "imagePrompt": "Edict of Nantes 1598 Henri IV Huguenots religious freedom places surety France",
+      "answers": ["La dîme catholique supprimée dans les régions protestantes", "La liberté de culte partout en France", "Le calvinisme reconnu dans le sud du pays", "Des places de refuge et des places fortes défendables"],
+      "correctIndex": 3,
+      "explanation": "L'édit de Nantes accorde aux protestants la liberté de conscience, un droit de culte limité à certaines localités, l'accès aux charges publiques et des garanties judiciaires. Des textes annexes leur reconnaissent également environ 150 places de refuge, dont une cinquantaine de véritables places fortes qu'ils peuvent conserver et défendre pendant une durée déterminée. Cette garantie militaire distingue l'édit de Nantes des précédents édits de pacification négociés par Catherine. Elle sera supprimée sous Louis XIII par la paix d'Alès en 1629, avant que Louis XIV ne révoque l'édit entier en 1685."
     },
     {
       "id": "19",
-      "question": "Quel est l’objectif de ses politiques de tolérance ?",
-      "answers": ["Éviter la guerre civile", "Conquérir des territoires", "Affaiblir l’armée", "Développer le commerce"],
-      "correctIndex": 0,
-      "explanation": "Catherine tente régulièrement de limiter les violences en cherchant des compromis entre les camps."
+      "question": "Quelle construction parisienne Catherine fait-elle ériger à partir de 1564, aujourd'hui disparue ?",
+      "image": null,
+      "imagePrompt": "Tuileries palace Paris Catherine de Medici garden construction Renaissance demolished",
+      "answers": ["La tour Saint-Jacques", "La fontaine des Innocents", "Le palais des Tuileries", "Le Pont Neuf"],
+      "correctIndex": 2,
+      "explanation": "Catherine commande la construction du palais des Tuileries à partir de 1564, à l'ouest du Louvre, sur des terres où se trouvaient d'anciennes tuileries (fabriques de tuiles, d'où le nom). Les travaux avancent lentement de son vivant et le palais ne sera véritablement achevé et agrandi que par ses successeurs. Il deviendra la résidence officielle des rois de France sous Louis XIV, puis des révolutionnaires et des empereurs. Il sera incendié en 1871 par les Communards et définitivement démoli en 1882 — ne laissant que les célèbres jardins. Catherine fait aussi édifier une colonne astronomique encore visible rue de Viarmes, témoignage de son intérêt pour l'astrologie."
     },
     {
       "id": "20",
-      "question": "Pourquoi Catherine de Médicis reste-t-elle une figure controversée ?",
-      "answers": ["Elle refuse le pouvoir", "Elle n’a aucun rôle politique", "Elle abandonne le royaume", "Son rôle exact dans les violences est débattu"],
+      "question": "Comment les historiens contemporains réévaluent-ils Catherine de Médicis après des siècles de légende noire ?",
+      "image": null,
+      "imagePrompt": "Catherine de Medici historical reassessment modern historians legacy pragmatism survival",
+      "answers": ["Ils la réhabilitent totalement", "Ils la réduisent à un rôle secondaire", "Ils confirment la légende noire", "Ils dressent un portrait nuancé, son rôle exact restant débattu"],
       "correctIndex": 3,
-      "explanation": "Son implication dans des événements comme la Saint-Barthélemy reste discutée, ce qui alimente son image complexe et controversée."
+      "explanation": "Les historiens contemporains — Ivan Cloulas, Denis Crouzet, Jean-Louis Bourgeon — dressent un portrait nuancé et prudent : Catherine n'est ni le monstre de la légende noire ni une innocente victime des circonstances. Elle a exercé un pouvoir réel dans une situation extraordinairement difficile. Sa part de responsabilité dans le déclenchement de la Saint-Barthélemy est probable mais difficile à préciser exactement, faute de sources suffisantes. Son œuvre principale — tenter de maintenir l'unité du royaume pendant trente ans de guerres civiles, par la négociation et le compromis — mérite d'être reconnue dans toute sa complexité."
     }
   ]
 }

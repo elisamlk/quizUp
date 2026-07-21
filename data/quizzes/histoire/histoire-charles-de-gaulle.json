@@ -2,7 +2,7 @@
   "slug": "quiz-charles-de-gaulle-resistance-republique",
   "title": "Quiz Histoire - Charles de Gaulle - Résistance, pouvoir et destin de la France",
   "description": "Résistance, Ve République et leadership : teste tes connaissances sur de Gaulle.",
-  "descriptionSeo": "Teste tes connaissances sur Charles de Gaulle avec ce quiz d’histoire consacré à une figure majeure du XXe siècle. Appel du 18 juin, Résistance, fondation de la Ve République et vision politique : connais-tu vraiment son parcours ? 20 questions avec réponses et explications pour comprendre son rôle pendant la Seconde Guerre mondiale et son influence durable sur la France.",
+  "descriptionSeo": "Teste tes connaissances sur Charles de Gaulle avec ce quiz d'histoire consacré à une figure majeure du XXe siècle. Appel du 18 juin, Résistance, fondation de la Ve République et vision politique : connais-tu vraiment son parcours ? 20 questions avec réponses et explications pour comprendre son rôle pendant la Seconde Guerre mondiale et son influence durable sur la France.",
   "category": {
     "name": "Histoire",
     "slug": "histoire"
@@ -18,143 +18,183 @@
   "questions": [
     {
       "id": "1",
-      "question": "Quel rôle Charles de Gaulle joue-t-il en 1940 ?",
-      "answers": ["Président", "Roi", "Chef de la France libre", "Ministre civil"],
-      "correctIndex": 2,
-      "explanation": "En 1940, de Gaulle refuse l’armistice et organise la France libre depuis Londres, incarnant la continuité de la lutte contre l’Allemagne nazie."
+      "question": "De Gaulle lance l'appel du 18 juin 1940 depuis Londres. Sur quelle radio est-il diffusé ?",
+      "image": null,
+      "imagePrompt": "BBC London 1940 de Gaulle microphone appeal radio broadcast",
+      "answers": ["Radio Paris", "La BBC", "Radio Monte-Carlo", "Radio Vichy"],
+      "correctIndex": 1,
+      "explanation": "De Gaulle prononce son appel depuis les studios de la BBC à Londres, grâce à l'accord du Premier ministre Winston Churchill. Cet appel, dont le texte exact n'a pas été enregistré ce soir-là, est reconstitué d'après les notes de de Gaulle. Il sera peu entendu en France ce soir-là — la résistance se construira progressivement — mais il devient rétrospectivement le texte fondateur de la France libre. De Gaulle y affirme que « la flamme de la résistance française ne doit pas s'éteindre et ne s'éteindra pas »."
     },
     {
       "id": "2",
-      "question": "Quel célèbre appel lance-t-il ?",
-      "answers": ["Appel du 18 juin", "Appel de Paris", "Appel de Londres", "Appel national"],
-      "correctIndex": 0,
-      "explanation": "L’appel du 18 juin 1940 est un discours fondateur dans lequel de Gaulle appelle à poursuivre la résistance."
+      "question": "De Gaulle est condamné à mort par contumace par le régime de Vichy. Pour quelle raison précise ?",
+      "image": null,
+      "imagePrompt": "Vichy France tribunal de Gaulle death sentence desertion 1940",
+      "answers": ["Pour avoir divulgué des secrets militaires à l'ennemi", "Pour désertion, insubordination et trahison envers l'État français", "Pour avoir tenté d'assassiner le maréchal Pétain", "Pour avoir fui la France avec des fonds publics"],
+      "correctIndex": 1,
+      "explanation": "Un tribunal militaire de Vichy condamne de Gaulle à mort par contumace en août 1940 pour désertion en temps de guerre, insubordination et atteinte à la sûreté de l'État. Cette condamnation est symboliquement forte : elle illustre la rupture totale entre de Gaulle et le régime de Pétain. De Gaulle ne sera jamais extradé — il rentre triomphalement à Paris en août 1944. La condamnation sera annulée à la Libération."
     },
     {
       "id": "3",
-      "question": "Quel conflit marque le début de son engagement majeur ?",
-      "answers": ["Première Guerre mondiale", "Guerre froide", "Guerre d’Algérie", "Seconde Guerre mondiale"],
-      "correctIndex": 3,
-      "explanation": "La Seconde Guerre mondiale est le moment clé où de Gaulle s’impose comme leader politique et militaire."
+      "question": "Quelle bataille de 1940, avant l'appel du 18 juin, révèle de Gaulle comme chef militaire audacieux ?",
+      "image": null,
+      "imagePrompt": "Battle of Abbeville 1940 de Gaulle tank armored division counterattack",
+      "answers": ["La bataille de la Marne", "La bataille de Montcornet et d'Abbeville avec sa division blindée", "Le débarquement de Normandie", "La défense de la ligne Maginot"],
+      "correctIndex": 1,
+      "explanation": "En mai 1940, le colonel de Gaulle commande la 4e division cuirassée et mène des contre-attaques audacieuses à Montcornet (17 mai) et Abbeville (28-30 mai). Ces succès partiels — dans un contexte de débâcle générale — lui valent une promotion rapide au grade de général de brigade à titre temporaire et une réputation de tacticien offensif. Ces combats préfigurent sa vision d'une guerre mécanisée qu'il avait théorisée dès les années 1930 dans son livre Vers l'armée de métier (1934)."
     },
     {
       "id": "4",
-      "question": "Quel type de régime dirige la France après la Libération ?",
-      "answers": ["Empire", "Gouvernement provisoire", "Monarchie", "Dictature"],
+      "question": "Quelles sont les relations entre de Gaulle et Churchill pendant la guerre ? Elles sont souvent tendues. Pourquoi ?",
+      "image": null,
+      "imagePrompt": "De Gaulle Churchill tension alliance London Free France WWII disagreement",
+      "answers": ["Churchill refuse de reconnaître la France libre comme alliée légitime", "De Gaulle exige une totale indépendance française et résiste à toute tutelle britannique ou américaine", "Churchill soutient Vichy plutôt que la France libre pour des raisons diplomatiques", "De Gaulle accuse Churchill d'avoir ordonné le bombardement de Mers-el-Kébir"],
       "correctIndex": 1,
-      "explanation": "De Gaulle dirige le Gouvernement provisoire de la République française après 1944 pour reconstruire le pays."
+      "explanation": "Malgré leur alliance fondamentale, de Gaulle et Churchill s'affrontent régulièrement parce que de Gaulle refuse toute subordination de la France libre aux intérêts britanniques ou américains. Il réagit violemment à l'opération Torch (1942, débarquement allié en Afrique du Nord sans le consulter), à l'accord syro-libanais de 1941, ou encore aux décisions concernant les colonies françaises. Churchill résume leur relation : « La croix la plus lourde que j'aie à porter, c'est la croix de Lorraine. » Cette indépendance d'esprit forge paradoxalement la crédibilité de de Gaulle."
     },
     {
       "id": "5",
-      "question": "Quel type de leader est de Gaulle ?",
-      "answers": ["Passif", "Charismatique et autoritaire", "Symbolique", "Militaire uniquement"],
-      "correctIndex": 1,
-      "explanation": "De Gaulle est un leader charismatique avec une forte vision de l’État et de l’indépendance nationale."
+      "question": "De Gaulle entre à Paris le 26 août 1944. Quel discours prononce-t-il à l'Hôtel de Ville, resté célèbre pour une formule ambiguë ?",
+      "image": null,
+      "imagePrompt": "De Gaulle Paris liberation August 1944 Hotel de Ville speech crowd",
+      "answers": ["« Paris outragé, Paris brisé, Paris martyrisé, mais Paris libéré »", "« La France a perdu une bataille, mais la France n'a pas perdu la guerre »", "« Je vous ai compris »", "« Vive la France libre, vive la République, vive la France »"],
+      "correctIndex": 0,
+      "explanation": "Le 25 août 1944, à l'Hôtel de Ville de Paris, de Gaulle prononce son discours sur « Paris libéré » — avec la formule célèbre : « Paris outragé, Paris brisé, Paris martyrisé, mais Paris libéré. Libéré par lui-même, libéré par son peuple avec le concours des armées de la France. » La formule « libéré par lui-même » est délibérément ambiguë : elle minimise le rôle des Alliés et des Anglo-Américains pour affirmer que la France s'est libérée seule — un récit politique plus que strictement historique, mais fondateur pour la reconstruction nationale."
     },
     {
       "id": "6",
-      "question": "Quel régime fonde-t-il en 1958 ?",
-      "answers": ["IIIe République", "IVe République", "Empire", "Ve République"],
-      "correctIndex": 3,
-      "explanation": "La Ve République est fondée en 1958 avec une Constitution renforçant le pouvoir exécutif."
+      "question": "De Gaulle démissionne une première fois en janvier 1946. Pourquoi quitte-t-il le pouvoir à ce moment ?",
+      "image": null,
+      "imagePrompt": "De Gaulle resignation January 1946 Fourth Republic parties political crisis",
+      "answers": ["Il est renversé par un vote de défiance de l'Assemblée constituante", "Il refuse un régime parlementaire dominé par les partis, contraire à sa vision de l'État", "Il est contraint de partir sous pression américaine pour ses positions souverainistes", "Il démissionne pour raisons de santé après une maladie grave"],
+      "correctIndex": 1,
+      "explanation": "De Gaulle démissionne le 20 janvier 1946, refusant de se soumettre à un régime d'Assemblée où les partis politiques (communistes, socialistes, MRP) dictent leur loi. Il juge ce système — qui deviendra la IVe République — incapable de gouverner durablement. Il se retire à Colombey-les-Deux-Églises, convaincu que les Français feront appel à lui. Il fonde en 1947 le RPF (Rassemblement du Peuple Français) pour tenter de réformer le régime, sans succès immédiat. Il attendra douze ans avant son retour triomphal en 1958."
     },
     {
       "id": "7",
-      "question": "Quel poste occupe-t-il sous la Ve République ?",
-      "answers": ["Président de la République", "Roi", "Premier ministre", "Sénateur"],
-      "correctIndex": 0,
-      "explanation": "De Gaulle devient le premier président de la Ve République, qu’il façonne selon sa vision politique."
+      "question": "La crise du 13 mai 1958 à Alger précipite le retour de de Gaulle. Que se passe-t-il ce jour-là ?",
+      "image": null,
+      "imagePrompt": "Algiers May 13 1958 putsch Committee Public Safety Massu de Gaulle return",
+      "answers": ["L'armée française débarque en métropole pour renverser la IVe République", "Des généraux et des civils pieds-noirs prennent le contrôle d'Alger et réclament de Gaulle", "De Gaulle organise lui-même le coup de force depuis Colombey-les-Deux-Églises", "Le FLN attaque le gouvernement général d'Alger, provoquant l'état d'urgence"],
+      "correctIndex": 1,
+      "explanation": "Le 13 mai 1958, des généraux (dont Massu) et des civils pieds-noirs insurgés s'emparent du gouvernement général d'Alger et forment un Comité de salut public. Ils réclament de Gaulle au pouvoir, menaçant implicitement d'un coup d'État militaire en métropole (opération « Résurrection »). Le gouvernement Pflimlin, impuissant, cède. De Gaulle négocie habilement : sans participer au putsch, il se présente comme le seul recours. Il reçoit les pleins pouvoirs le 1er juin 1958 et fait adopter la Constitution de la Ve République en septembre."
     },
     {
       "id": "8",
-      "question": "Quel principe politique défend-il ?",
-      "answers": ["Dépendance", "Neutralité", "Indépendance nationale", "Isolement total"],
-      "correctIndex": 2,
-      "explanation": "Il défend l’indépendance de la France, notamment face aux grandes puissances comme les États-Unis."
+      "question": "La Ve République renforce massivement le pouvoir exécutif. Quelle innovation institutionnelle majeure de Gaulle fait-il adopter par référendum en 1962 ?",
+      "image": null,
+      "imagePrompt": "French presidential election direct universal suffrage 1962 referendum Fifth Republic",
+      "answers": ["La dissolution de l'Assemblée nationale par le président", "L'élection du président de la République au suffrage universel direct", "La création du Conseil constitutionnel pour contrôler les lois", "La suppression du Sénat jugé trop conservateur"],
+      "correctIndex": 1,
+      "explanation": "Le référendum du 28 octobre 1962 introduit l'élection du président de la République au suffrage universel direct — une révolution institutionnelle. Jusqu'alors, le président était élu par un collège de grands électeurs. De Gaulle contourne délibérément le Parlement pour soumettre cette réforme directement au peuple, ce que le Conseil d'État et la plupart des partis jugent anticonstitutionnel. Approuvée à 62 %, cette réforme est la clé de voûte de la Ve République : elle donne au président une légitimité populaire directe qui fonde son autorité exceptionnelle."
     },
     {
       "id": "9",
-      "question": "Quel rôle joue-t-il pendant la guerre ?",
-      "answers": ["Résistance", "Neutralité", "Alliance ennemie", "Exil passif"],
-      "correctIndex": 0,
-      "explanation": "De Gaulle organise la résistance extérieure et devient un symbole de la lutte contre l’occupation."
+      "question": "De Gaulle accorde l'indépendance à l'Algérie en 1962. Comment appelle-t-on les accords qui la formalisent ?",
+      "image": null,
+      "imagePrompt": "Evian Accords 1962 Algeria independence de Gaulle OAS FLN ceasefire",
+      "answers": ["Les accords de Genève", "Les accords d'Évian", "Le traité d'Alger", "La déclaration de Constantine"],
+      "correctIndex": 1,
+      "explanation": "Les accords d'Évian, signés le 18 mars 1962, mettent fin à la guerre d'Algérie (1954–1962) et reconnaissent l'indépendance algérienne. Cette décision de de Gaulle — lui qui avait crié « Vive l'Algérie française » en 1958 — provoque une fureur chez les partisans de l'Algérie française et les pieds-noirs. L'OAS (Organisation de l'Armée Secrète) commet des attentats et tente plusieurs fois d'assassiner de Gaulle. Le plus célèbre attentat a lieu au Petit-Clamart le 22 août 1962 — de Gaulle en réchappe miraculeusement."
     },
     {
       "id": "10",
-      "question": "Quel événement marque son retour au pouvoir ?",
-      "answers": ["Élections", "Crise de 1958", "Guerre", "Traité"],
+      "question": "De Gaulle développe la force de frappe nucléaire française. Quel est l'argument stratégique qui justifie cette indépendance ?",
+      "image": null,
+      "imagePrompt": "French nuclear deterrence force de frappe bomb test Sahara sovereignty NATO",
+      "answers": ["La France veut vendre des armes nucléaires à ses alliés africains", "Seule une dissuasion nucléaire nationale garantit l'indépendance face aux superpuissances", "L'OTAN interdit à la France d'avoir son propre arsenal conventionnel", "De Gaulle veut menacer l'Allemagne après la Seconde Guerre mondiale"],
       "correctIndex": 1,
-      "explanation": "La crise politique de 1958 liée à la guerre d’Algérie entraîne son retour au pouvoir."
+      "explanation": "De Gaulle considère qu'un pays ne peut être vraiment indépendant que s'il contrôle sa propre dissuasion nucléaire. Dépendre du « parapluie nucléaire » américain signifie que les États-Unis décident si la France est défendue — une subordination inacceptable à ses yeux. La France fait exploser sa première bombe atomique dans le Sahara en 1960. Cette force de frappe autonome (« tous azimuts ») reste aujourd'hui le fondement de la doctrine stratégique française, largement héritée du gaullisme."
     },
     {
       "id": "11",
-      "question": "Quel impact a-t-il sur la Constitution ?",
-      "answers": ["Renforcement exécutif", "Affaiblissement", "Aucun", "Suppression"],
-      "correctIndex": 0,
-      "explanation": "Il renforce le pouvoir du président, donnant plus de stabilité aux institutions."
+      "question": "De Gaulle retire la France du commandement intégré de l'OTAN en 1966. Quelle en est la conséquence pratique immédiate ?",
+      "image": null,
+      "imagePrompt": "NATO France withdrawal 1966 de Gaulle military integrated command US troops expelled",
+      "answers": ["La France quitte définitivement l'alliance atlantique et ses traités fondateurs", "Les troupes et quartiers généraux américains et alliés doivent quitter le territoire français", "L'OTAN expulse la France de l'organisation et lui retire ses droits de vote", "De Gaulle signe un traité d'amitié avec l'URSS pour compenser cette rupture"],
+      "correctIndex": 1,
+      "explanation": "En se retirant du commandement militaire intégré de l'OTAN, de Gaulle exige que les bases américaines, les quartiers généraux alliés (dont le SHAPE) et les soldats étrangers quittent le territoire français. Le siège de l'OTAN déménage de Paris à Bruxelles en 1967. La France reste membre politique de l'Alliance mais refuse toute subordination militaire. Cette décision, symbolique de la « politique de grandeur » gaullienne, sera partiellement réversée par Nicolas Sarkozy qui réintègre le commandement intégré en 2009."
     },
     {
       "id": "12",
-      "question": "Quel conflit marque son mandat présidentiel ?",
-      "answers": ["Guerre mondiale", "Guerre froide", "Guerre d’Algérie", "Guerre civile"],
-      "correctIndex": 2,
-      "explanation": "La guerre d’Algérie est un enjeu majeur de son mandat, aboutissant à l’indépendance en 1962."
+      "question": "De Gaulle et Adenauer signent le traité de l'Élysée en 1963. Que symbolise ce texte ?",
+      "image": null,
+      "imagePrompt": "Treaty Elysee 1963 de Gaulle Adenauer Franco-German reconciliation handshake",
+      "answers": ["La réconciliation franco-allemande et un axe politique au cœur de l'Europe", "Un accord de défense mutuelle remplaçant l'OTAN pour les deux pays", "La création d'une monnaie commune franco-allemande précédant l'euro", "Un traité commercial instaurant le libre-échange entre France et Allemagne"],
+      "correctIndex": 0,
+      "explanation": "Le traité de l'Élysée (22 janvier 1963) entre de Gaulle et le chancelier Adenauer formalise la réconciliation entre deux pays qui s'étaient affrontés lors de trois guerres en soixante-dix ans (1870, 1914, 1939). Ce traité prévoit des consultations régulières, des échanges de jeunesse (l'OFAJ est créé la même année) et une coopération étroite. Il fonde le « moteur franco-allemand » de la construction européenne. La poignée de main de Verdun entre de Gaulle et Adenauer, lors de la messe commémorative de septembre 1962, reste l'une des images les plus fortes de la réconciliation européenne."
     },
     {
       "id": "13",
-      "question": "Quel choix fait-il concernant l’Algérie ?",
-      "answers": ["Maintien", "Indépendance", "Division", "Colonisation"],
+      "question": "De Gaulle s'oppose à l'entrée du Royaume-Uni dans le Marché commun. Combien de fois pose-t-il son veto ?",
+      "image": null,
+      "imagePrompt": "De Gaulle UK EEC veto Britain 1963 1967 Europe Common Market non",
+      "answers": ["Une seule fois, en 1963", "Deux fois, en 1963 et 1967", "Trois fois, en 1963, 1965 et 1967", "Il ne pose pas de veto mais retarde les négociations"],
       "correctIndex": 1,
-      "explanation": "De Gaulle accepte l’indépendance de l’Algérie, une décision controversée mais décisive."
+      "explanation": "De Gaulle pose son veto à l'adhésion britannique au Marché commun à deux reprises : en janvier 1963 et en novembre 1967. Il justifie ce refus par son scepticisme sur l'engagement européen du Royaume-Uni, qu'il juge trop atlantiste et trop lié aux États-Unis pour construire une Europe indépendante. Cette obstruction dure jusqu'à sa démission en 1969 : le Royaume-Uni entre finalement dans la CEE en 1973, sous Georges Pompidou. L'ironie historique veut que le Royaume-Uni quitte l'Union européenne en 2020 — le Brexit semblant donner rétrospectivement raison à de Gaulle."
     },
     {
       "id": "14",
-      "question": "Quel type de pouvoir exerce-t-il ?",
-      "answers": ["Faible", "Symbolique", "Fort exécutif", "Militaire pur"],
-      "correctIndex": 2,
-      "explanation": "Il exerce un pouvoir exécutif fort, caractéristique de la Ve République."
+      "question": "Mai 1968 ébranle profondément de Gaulle. Que fait-il le 29 mai, à la stupéfaction générale ?",
+      "image": null,
+      "imagePrompt": "May 1968 France de Gaulle disappears Baden-Baden Germany secret trip crisis",
+      "answers": ["Il démissionne en direct à la télévision nationale", "Il disparaît secrètement en Allemagne pour consulter le général Massu", "Il fait appel à l'armée pour réprimer militairement les manifestants", "Il prononce un discours de réconciliation avec les étudiants à la Sorbonne"],
+      "correctIndex": 1,
+      "explanation": "Le 29 mai 1968, de Gaulle disparaît sans prévenir ses ministres et se rend secrètement à Baden-Baden (Allemagne) pour consulter le général Massu, commandant des forces françaises. On saura plus tard qu'il songeait à fuir ou à démissionner, doutant pour la première fois de sa légitimité. Massu le persuade de tenir. De retour le lendemain, il prononce un discours radio de quatre minutes annonçant la dissolution de l'Assemblée et des élections — et retourne la situation. Les élections de juin 1968 lui donnent une majorité écrasante, mais il est politiquement fragilisé."
     },
     {
       "id": "15",
-      "question": "Quel événement marque la fin de son pouvoir ?",
-      "answers": ["Réélection", "Coup d’État", "Guerre", "Démission après référendum"],
-      "correctIndex": 3,
-      "explanation": "De Gaulle démissionne en 1969 après l’échec d’un référendum, fidèle à sa conception du pouvoir."
+      "question": "De Gaulle démissionne en avril 1969. Sur quel sujet porte le référendum qu'il perd ?",
+      "image": null,
+      "imagePrompt": "De Gaulle referendum 1969 Senate regionalization defeat resignation",
+      "answers": ["L'entrée du Royaume-Uni dans le Marché commun", "La création de régions et la réforme du Sénat", "L'élection du président au suffrage universel direct", "La sortie de la France du commandement de l'OTAN"],
+      "correctIndex": 1,
+      "explanation": "Le référendum du 27 avril 1969 porte sur la création de régions et la réforme du Sénat. De Gaulle lie explicitement sa démission à l'issue du vote — une pratique qu'il avait déjà utilisée pour forcer le « oui ». Mais cette fois, le « non » l'emporte à 52,4 %. Dès minuit, de Gaulle démissionne par un communiqué de deux lignes : « Je cesse d'exercer mes fonctions de Président de la République. Ce décision prend effet aujourd'hui à midi. » Il se retire à Colombey-les-Deux-Églises et meurt seize mois plus tard, le 9 novembre 1970."
     },
     {
       "id": "16",
-      "question": "Quel type de vision politique incarne-t-il ?",
-      "answers": ["Libérale", "Nationale et souveraine", "Communiste", "Fédérale"],
+      "question": "De Gaulle incarne une vision souverainiste de la France. Qu'entend-il par « politique de grandeur » ?",
+      "image": null,
+      "imagePrompt": "De Gaulle French grandeur sovereignty independence foreign policy vision",
+      "answers": ["La reconquête des colonies perdues après la Seconde Guerre mondiale", "Maintenir la France comme puissance indépendante face aux blocs américain et soviétique", "L'expansion économique française pour devenir la première puissance européenne", "La supériorité culturelle de la France comme modèle pour le monde"],
       "correctIndex": 1,
-      "explanation": "Il incarne une vision souverainiste, attachée à l’indépendance et à la grandeur de la France."
+      "explanation": "La « politique de grandeur » gaullienne repose sur l'idée que la France a une vocation universelle et ne doit s'aligner sur aucun des deux blocs de la guerre froide. De Gaulle multiplie les gestes d'indépendance : retrait de l'OTAN, voyage à Moscou en 1966, discours de Phnom Penh contre la guerre du Vietnam (1966), discours de Montréal « Vive le Québec libre » (1967). Cette politique est souvent critiquée comme du nationalisme archaïque, mais elle forge une tradition diplomatique française d'autonomie stratégique qui perdure aujourd'hui."
     },
     {
       "id": "17",
-      "question": "Quel impact a-t-il sur la France ?",
-      "answers": ["Déclin", "Isolement", "Transformation politique majeure", "Stagnation"],
-      "correctIndex": 2,
-      "explanation": "De Gaulle transforme durablement les institutions françaises et la place du pays dans le monde."
+      "question": "De Gaulle est aussi un écrivain. Quel est son œuvre littéraire majeure, rédigée notamment pendant ses années de « traversée du désert » ?",
+      "image": null,
+      "imagePrompt": "De Gaulle Memoires de Guerre writing Colombey les Deux Eglises literary work",
+      "answers": ["La France et son armée (1938)", "Le Fil de l'épée (1932)", "Vers l'armée de métier (1934)", "Les Mémoires de guerre (3 volumes, 1954–1959)"],
+      "correctIndex": 3,
+      "explanation": "Les Mémoires de guerre (L'Appel, L'Unité, Le Salut) sont publiés en trois volumes entre 1954 et 1959 pendant la traversée du désert de de Gaulle. Ce texte est à la fois un témoignage historique de premier plan et une œuvre littéraire remarquable — de Gaulle commence par ces mots : « Toute ma vie, je me suis fait une certaine idée de la France. » Il sera élu à l'Académie française... à titre posthume, en quelque sorte : l'institution lui décerne son Grand Prix de littérature en 1959. Un quatrième tome des Mémoires d'espoir, inachevé, sera publié après sa mort."
     },
     {
       "id": "18",
-      "question": "Quel facteur renforce son image ?",
-      "answers": ["Leadership en crise", "Isolement", "Faiblesse", "Neutralité"],
-      "correctIndex": 0,
-      "explanation": "Son leadership pendant les périodes de crise renforce son image d’homme d’État."
+      "question": "Quel discours prononce de Gaulle à Montréal en juillet 1967, provoquant une crise diplomatique majeure ?",
+      "image": null,
+      "imagePrompt": "De Gaulle Montreal 1967 Quebec libre speech balcony crowd Canada crisis",
+      "answers": ["« Le Canada, pays ami de la France pour toujours »", "« Vive le Québec libre »", "« La France et le Québec, un seul peuple »", "« Montréal, capitale du monde francophone »"],
+      "correctIndex": 1,
+      "explanation": "Le 24 juillet 1967, depuis le balcon de l'Hôtel de Ville de Montréal, de Gaulle lance à la foule : « Vive Montréal ! Vive le Québec ! Vive le Québec... libre ! » Le gouvernement canadien de Lester Pearson proteste vigoureusement. De Gaulle annule la suite de sa visite et rentre en France sans se rendre à Ottawa. Ce discours, perçu comme un soutien au mouvement indépendantiste québécois, reste l'un des gestes diplomatiques les plus controversés de son mandat — et l'un des plus mémorables dans la mémoire québécoise."
     },
     {
       "id": "19",
-      "question": "Quel type de figure historique est-il ?",
-      "answers": ["Militaire et homme d’État", "Scientifique", "Religieux", "Explorateur"],
+      "question": "De Gaulle meurt le 9 novembre 1970 à Colombey-les-Deux-Églises. Quelle disposition testament illustre sa conception modeste de sa propre mort ?",
+      "image": null,
+      "imagePrompt": "De Gaulle death November 1970 Colombey les Deux Eglises funeral simple village",
+      "answers": ["Il demande des funérailles nationales grandioses aux Invalides", "Il demande des obsèques strictement privées au village, sans chefs d'État étrangers", "Il exige d'être enterré à Verdun, symbole de la résistance française", "Il lègue ses Mémoires à l'État français et refuse tout monument en son honneur"],
       "correctIndex": 1,
-      "explanation": "De Gaulle est à la fois un militaire et un homme politique majeur du XXe siècle."
+      "explanation": "De Gaulle a laissé des instructions précises : des obsèques à Colombey-les-Deux-Églises, strictement privées, sans chefs d'État étrangers, sans discours officiels. Seuls sa famille, ses compagnons proches et les habitants du village y assistent. Une cérémonie officielle se tient simultanément à Notre-Dame de Paris, en présence de quatre-vingt-trois chefs d'État et de gouvernement. Cette double cérémonie reflète le paradoxe gaullien : un homme qui a tout fait pour la grandeur de la France, mais qui a voulu mourir simplement, en soldat chrétien."
     },
     {
       "id": "20",
-      "question": "Pourquoi de Gaulle reste-t-il une figure majeure ?",
-      "answers": ["Pour sa richesse", "Pour sa durée de vie", "Pour son isolement", "Pour son rôle dans la Résistance et la Ve République"],
-      "correctIndex": 3,
-      "explanation": "Il incarne la Résistance, la reconstruction et la refondation des institutions françaises."
+      "question": "Pourquoi de Gaulle reste-t-il une figure si polarisante dans la mémoire française ?",
+      "image": null,
+      "imagePrompt": "De Gaulle legacy controversy French memory left right Resistance Republic polls",
+      "answers": ["Parce qu'il a trahi la République en acceptant les pleins pouvoirs en 1958", "Parce que son bilan mêle grandeur incontestable et décisions très contestées", "Parce que ses successeurs ont effacé son œuvre institutionnelle", "Parce qu'il reste méconnu du grand public français"],
+      "correctIndex": 1,
+      "explanation": "De Gaulle est régulièrement classé comme le « plus grand Français de l'histoire » dans les sondages, mais il reste profondément contesté. La gauche lui reproche son autoritarisme, son usage plébiscitaire du référendum et sa répression de mai 68. La droite libérale critique son étatisme et son anti-américanisme. Les Algériens retiennent la guerre et ses violences. Les partisans de l'Algérie française ne lui pardonnent pas les accords d'Évian. Cette polarisation est précisément ce qui fait de lui une figure historique majeure : on ne peut pas être indifférent à de Gaulle."
     }
   ]
 }

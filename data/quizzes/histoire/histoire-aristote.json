@@ -2,7 +2,7 @@
   "slug": "quiz-aristote-logique-philosophie-antique",
   "title": "Quiz Histoire - Aristote - Logique, sciences et fondements de la philosophie",
   "description": "Logique, éthique et savoir antique : teste tes connaissances sur Aristote.",
-  "descriptionSeo": "Teste tes connaissances sur Aristote avec ce quiz d’histoire consacré à l’un des plus grands philosophes de l’Antiquité. Logique, sciences, éthique et politique : connais-tu vraiment sa pensée ? 20 questions avec réponses et explications pour comprendre ses concepts, sa méthode et son influence durable sur la philosophie occidentale et les sciences.",
+  "descriptionSeo": "Teste tes connaissances sur Aristote avec ce quiz d'histoire consacré à l'un des plus grands philosophes de l'Antiquité. Logique, sciences, éthique et politique : connais-tu vraiment sa pensée ? 20 questions avec réponses et explications pour comprendre ses concepts, sa méthode et son influence durable sur la philosophie occidentale et les sciences.",
   "category": {
     "name": "Histoire",
     "slug": "histoire"
@@ -18,143 +18,183 @@
   "questions": [
     {
       "id": "1",
-      "question": "Aristote est originaire de quelle région du monde antique ?",
-      "answers": ["Rome", "Égypte", "Grèce", "Perse"],
-      "correctIndex": 2,
-      "explanation": "Aristote est né en Grèce au IVe siècle av. J.-C. Il appartient au monde grec classique, qui est un centre majeur de réflexion philosophique et scientifique."
+      "question": "Aristote est né en 384 av. J.-C. à Stagire, en Macédoine. Quel surnom lui a été donné par la postérité, qui résume son ambition intellectuelle encyclopédique ?",
+      "image": null,
+      "imagePrompt": "Aristotle portrait bust ancient Greek philosopher Stagira Macedonia",
+      "answers": ["Le Divin", "Le Stagirite", "Le Sage des sages", "Le Père de la raison"],
+      "correctIndex": 1,
+      "explanation": "Aristote est surnommé « le Stagirite » en référence à sa ville natale de Stagire. Ce surnom, utilisé dès l'Antiquité, le distingue de Platon (l'Athénien) et rappelle que ce génie universel n'était pas lui-même citoyen d'Athènes — ville où il passa pourtant l'essentiel de sa vie intellectuelle. Dante, dans la Divine Comédie, le désigne simplement comme « le maître de ceux qui savent » (il maestro di color che sanno), résumant en une phrase son statut unique dans l'histoire de la pensée."
     },
     {
       "id": "2",
-      "question": "Quel philosophe est le maître d’Aristote ?",
-      "answers": ["Platon", "Socrate", "Épicure", "Zénon"],
-      "correctIndex": 0,
-      "explanation": "Aristote est l’élève de Platon à l’Académie. Il s’en inspire tout en développant une approche plus empirique que son maître."
+      "question": "Aristote entre à l'Académie de Platon à 17 ans et y reste vingt ans. En quoi sa philosophie s'oppose-t-elle fondamentalement à celle de son maître ?",
+      "image": null,
+      "imagePrompt": "Plato Aristotle School of Athens Raphael pointing up down philosophy contrast",
+      "answers": ["Aristote rejette toute forme de mathématiques, que Platon plaçait au cœur de son enseignement", "Platon cherche le réel dans les Idées abstraites ; Aristote le cherche dans les choses concrètes observables", "Aristote défend la démocratie athénienne, que Platon condamnait après la mort de Socrate", "Aristote croit aux dieux olympiens, que Platon avait explicitement rejetés dans ses dialogues"],
+      "correctIndex": 1,
+      "explanation": "La divergence fondamentale entre Platon et Aristote est illustrée par la célèbre fresque de Raphaël, L'École d'Athènes : Platon pointe vers le ciel (le monde des Idées, seule réalité vraie), Aristote tend la main vers la terre (le monde sensible, point de départ de toute connaissance). Pour Platon, un cheval particulier n'est qu'une copie imparfaite de l'Idée de Cheval ; pour Aristote, c'est le cheval réel, observable et disséquable, qui est le vrai objet de la connaissance. Ce désaccord fondateur structure encore la philosophie occidentale."
     },
     {
       "id": "3",
-      "question": "Quel élève célèbre Aristote a-t-il formé ?",
-      "answers": ["Jules César", "Périclès", "Socrate", "Alexandre le Grand"],
-      "correctIndex": 3,
-      "explanation": "Aristote est le précepteur d’Alexandre le Grand, ce qui montre l’influence directe de sa pensée sur les élites politiques."
+      "question": "Aristote est nommé précepteur d'Alexandre, futur Alexandre le Grand, vers 343 av. J.-C. Dans quel cadre idyllique Philippe II installe-t-il cette école privée pour son fils ?",
+      "image": null,
+      "imagePrompt": "Mieza Macedonia Aristotle Alexander school garden Nymphaeum temple education",
+      "answers": ["Dans la bibliothèque royale de Pella, capitale de Macédoine", "Dans le sanctuaire des Nymphes à Mieza, un domaine avec jardins et promenades", "Dans le camp militaire de Philippe II, pour mêler éducation et formation guerrière", "Dans le temple d'Apollon à Delphes, considéré comme le lieu de savoir par excellence"],
+      "correctIndex": 1,
+      "explanation": "Philippe II installe Aristote et le jeune Alexandre dans le sanctuaire des Nymphes à Mieza (Macédoine), un domaine agréable avec des jardins, des allées ombragées et des salles de repos. Aristote y enseignait en marchant — pratique qui vaudra à ses disciples le nom de « Péripatéticiens » (du grec peripatein, se promener). Alexandre conserva toujours une profonde affection pour son maître : selon Plutarque, il disait « devoir à son père de vivre, mais à Aristote de bien vivre »."
     },
     {
       "id": "4",
-      "question": "Quel domaine Aristote contribue-t-il à fonder ?",
-      "answers": ["Théologie", "Logique", "Alchimie", "Astrologie"],
+      "question": "Aristote est considéré comme le fondateur de la logique formelle. Quel est le syllogisme — sa contribution logique la plus célèbre — et quel en est l'exemple canonique ?",
+      "image": null,
+      "imagePrompt": "Aristotle syllogism logic deductive reasoning Organon formal argument",
+      "answers": ["Une forme de méditation guidée ; exemple : « Contemple le bien pour devenir vertueux »", "Un raisonnement déductif à trois termes ; exemple : « Tout homme est mortel ; Socrate est un homme ; donc Socrate est mortel »", "Une méthode d'interrogation socratique ; exemple : « Qu'est-ce que la justice ? Définis-la avant d'agir »", "Un principe de non-contradiction ; exemple : « Une chose ne peut être et ne pas être en même temps »"],
       "correctIndex": 1,
-      "explanation": "Aristote est considéré comme le fondateur de la logique formelle, notamment avec le syllogisme."
+      "explanation": "Le syllogisme aristotélicien est un raisonnement déductif composé de deux prémisses (une majeure et une mineure) dont on tire une conclusion nécessaire. L'exemple canonique — « Tout homme est mortel / Socrate est un homme / donc Socrate est mortel » — illustre une forme de logique si rigoureuse qu'elle a dominé la pensée occidentale pendant deux millénaires. Aristote développe la théorie du syllogisme dans les Premiers Analytiques, partie de son Organon (« l'instrument »), le premier traité de logique formelle de l'histoire."
     },
     {
       "id": "5",
-      "question": "Quelle méthode caractérise la pensée d’Aristote ?",
-      "answers": ["Mythique", "Observation et raisonnement", "Religieuse", "Symbolique"],
-      "correctIndex": 1,
-      "explanation": "Aristote privilégie l’observation du réel et l’analyse rationnelle, posant les bases de la méthode scientifique."
+      "question": "La méthode d'Aristote repose sur l'observation du réel. En biologie, il réalise des dissections et classe plus de 500 espèces animales. Quelle découverte biologique, confirmée seulement au XIXe siècle, montre l'acuité de son observation ?",
+      "image": null,
+      "imagePrompt": "Aristotle biology marine life dissection observation zoology Historia Animalium",
+      "answers": ["Il décrit le fonctionnement des poumons comme organes d'échange gazeux, confirmé par Harvey en 1628", "Il identifie le cœur comme organe central de la vie, en décrivant correctement ses quatre chambres", "Il décrit avec précision la reproduction vivipare de certains requins, confirmée par les biologistes modernes", "Il découvre que les insectes ont six pattes, une observation que les naturalistes du XVIIe siècle redécouvriront"],
+      "correctIndex": 2,
+      "explanation": "Dans son Historia Animalium, Aristote décrit avec précision la reproduction vivipare de certains requins (notamment le requin-taupe), y compris le placenta qui relie l'embryon à la mère — une structure que les biologistes du XIXe siècle ont confirmée avec stupeur. Le biologiste Johannes Müller déclara en 1842 qu'Aristote avait raison et que ses contemporains avaient eu tort de le croire pendant des siècles. Cette découverte illustre la qualité exceptionnelle de son observation directe, sans instruments, il y a 2 400 ans."
     },
     {
       "id": "6",
-      "question": "Quel lieu d’enseignement Aristote fonde-t-il ?",
-      "answers": ["Académie", "Forum", "Temple", "Lycée"],
-      "correctIndex": 3,
-      "explanation": "Le Lycée est l’école fondée par Aristote à Athènes, où il enseigne en marchant avec ses élèves."
+      "question": "Aristote fonde le Lycée à Athènes en 335 av. J.-C. Pourquoi ses disciples sont-ils surnommés « Péripatéticiens » ?",
+      "image": null,
+      "imagePrompt": "Lyceum Athens Aristotle peripatetic school walking teaching garden philosophy",
+      "answers": ["Parce qu'ils portaient un péripathos, un manteau à capuche distinctif porté par les membres de l'école", "Parce qu'Aristote enseignait en marchant sous les portiques du Lycée, du grec peripatein (se promener)", "Parce que leur école se trouvait dans le quartier du Péripathos, près du port du Pirée", "Parce qu'ils pratiquaient une philosophie itinérante, voyageant de cité en cité pour enseigner"],
+      "correctIndex": 1,
+      "explanation": "Les disciples d'Aristote sont dits « Péripatéticiens » du grec peripatein — se promener. Aristote avait l'habitude d'enseigner en déambulant dans les jardins et les portiques couverts (peripatos) du Lycée, ses élèves marchant à ses côtés. Le Lycée disposait d'une bibliothèque, d'une collection de spécimens naturels et d'une salle de cours — la première institution ressemblant à une université dans l'histoire occidentale. Son nom a traversé les siècles : le lycée français d'enseignement secondaire lui doit directement son appellation."
     },
     {
       "id": "7",
-      "question": "Quel domaine Aristote étudie-t-il en plus de la philosophie ?",
-      "answers": ["Biologie", "Musique uniquement", "Magie", "Religion"],
-      "correctIndex": 0,
-      "explanation": "Aristote s’intéresse à de nombreux domaines, notamment la biologie, où il classe les êtres vivants de manière systématique."
+      "question": "Aristote est le premier à proposer une classification systématique du monde vivant. Comment organise-t-il les animaux dans son échelle de la nature (la scala naturae) ?",
+      "image": null,
+      "imagePrompt": "Aristotle scala naturae classification animals plants hierarchy nature biology",
+      "answers": ["Par leur utilité pour l'homme : les animaux domestiques d'abord, les sauvages ensuite, les nuisibles en dernier", "Par ordre croissant de complexité et de perfection, des plantes aux animaux puis à l'homme au sommet", "Par leur habitat : animaux aquatiques, terrestres, aériens, puis les êtres à double nature", "Par leur mode de reproduction : ovipares d'abord, puis vivipares, l'homme étant le seul à naître véritablement vivant"],
+      "correctIndex": 1,
+      "explanation": "La scala naturae d'Aristote organise les êtres vivants en une hiérarchie continue du plus simple au plus complexe : plantes (âme végétative), animaux (âme sensitive), hommes (âme rationnelle) au sommet. Cette conception téléologique — chaque être tend vers une fin, une perfection — a profondément influencé la biologie jusqu'à Darwin. Linné s'en inspirera au XVIIIe siècle pour sa propre classification. Darwin, en introduisant l'évolution et la sélection naturelle, remplacera cette échelle verticale par un arbre buissonnant — sans sommet ni hiérarchie prédéfinie."
     },
     {
       "id": "8",
-      "question": "Quel concept logique est central chez Aristote ?",
-      "answers": ["Mythe", "Syllogisme", "Dogme", "Oracle"],
+      "question": "Le syllogisme est le raisonnement déductif d'Aristote. Mais il développe aussi une autre forme de raisonnement, qui part des cas particuliers pour remonter vers le général. Laquelle ?",
+      "image": null,
+      "imagePrompt": "Aristotle induction epagoge particular general reasoning scientific method",
+      "answers": ["L'analogie — comparer deux situations similaires pour en tirer une loi commune", "L'épagogè (induction) — partir de cas particuliers observés pour formuler une loi générale", "La dialectique — confronter des thèses opposées pour dégager une synthèse supérieure", "L'aporie — suspendre le jugement face aux questions insolubles pour préserver la rigueur intellectuelle"],
       "correctIndex": 1,
-      "explanation": "Le syllogisme est une forme de raisonnement logique permettant de déduire une conclusion à partir de deux propositions."
+      "explanation": "L'épagogè (induction) est le complément du syllogisme déductif chez Aristote : on part de l'observation de nombreux cas particuliers (tous les corbeaux observés sont noirs) pour formuler une loi générale (les corbeaux sont noirs). Cette méthode inductive est le fondement de la démarche scientifique empirique. Francis Bacon et John Stuart Mill la systématiseront au XVIIe et XIXe siècles. Aristote comprend que déduction et induction sont complémentaires : l'induction fournit les prémisses que le syllogisme exploite ensuite."
     },
     {
       "id": "9",
-      "question": "Quel objectif Aristote donne-t-il à la philosophie ?",
-      "answers": ["Comprendre le monde", "Divertir", "Convertir", "Dominer"],
-      "correctIndex": 0,
-      "explanation": "Pour Aristote, la philosophie vise à comprendre les causes et les principes du monde réel."
+      "question": "Dans sa Métaphysique, Aristote développe la doctrine des quatre causes pour expliquer tout ce qui existe. Quelle est la « cause finale », la plus originale et la plus discutée de ces quatre causes ?",
+      "image": null,
+      "imagePrompt": "Aristotle four causes metaphysics teleology final cause purpose nature",
+      "answers": ["La matière dont est fait un objet — le bois pour une table, le marbre pour une statue", "L'agent qui produit l'objet — le menuisier pour la table, le sculpteur pour la statue", "La forme ou le plan de l'objet — les proportions de la table, le visage sculpté dans le marbre", "La finalité ou le but de l'objet — pourquoi il existe, vers quelle fin il tend naturellement"],
+      "correctIndex": 3,
+      "explanation": "La cause finale (to hou heneka — « ce en vue de quoi ») est la plus originale des quatre causes d'Aristote : c'est le but, la finalité vers laquelle tend un être ou un objet. Une graine tend vers l'arbre ; un œil existe pour voir ; l'homme tend vers l'eudaimonia (bonheur). Cette vision téléologique de la nature — tout a un but — a dominé la pensée médiévale (Thomas d'Aquin l'intégrera à la théologie chrétienne) avant d'être contestée par la physique mécaniste de Descartes et Newton, qui expliquent la nature par des causes efficientes sans recourir à la finalité."
     },
     {
       "id": "10",
-      "question": "Quel domaine Aristote aborde-t-il dans l’éthique ?",
-      "answers": ["Guerre", "Bonheur", "Commerce", "Religion"],
+      "question": "L'Éthique à Nicomaque est l'œuvre morale majeure d'Aristote. Quel concept central — traduit par « bonheur » ou « épanouissement » — désigne selon lui la finalité ultime de la vie humaine ?",
+      "image": null,
+      "imagePrompt": "Aristotle Nicomachean Ethics eudaimonia happiness virtue human flourishing",
+      "answers": ["L'ataraxie — l'absence de trouble et de douleur, proche de l'idéal épicurien", "L'eudaimonia — l'épanouissement de l'être humain par l'exercice de ses facultés propres selon la vertu", "La sophrosyne — la tempérance et la maîtrise des passions comme condition du bonheur", "L'aponia — l'absence de souffrance physique comme fondement d'une vie réussie"],
       "correctIndex": 1,
-      "explanation": "Dans son Éthique à Nicomaque, Aristote analyse le bonheur comme finalité de la vie humaine, lié à la vertu."
+      "explanation": "L'eudaimonia (souvent traduit par « bonheur » mais plus précisément « épanouissement » ou « réalisation de soi ») est pour Aristote la fin ultime de toute action humaine. Elle ne désigne pas un état passif de plaisir, mais l'activité de l'âme en accord avec la vertu (areté) — particulièrement la vertu intellectuelle de la contemplation (theoria). L'eudaimonia nécessite aussi des conditions extérieures minimales : santé, amitié, ressources suffisantes. Cette vision du bonheur comme activité vertueuse — et non comme satisfaction des désirs — distingue radicalement Aristote des épicuriens et des hédonistes."
     },
     {
       "id": "11",
-      "question": "Quel type de raisonnement Aristote valorise-t-il ?",
-      "answers": ["Logique", "Magique", "Religieux", "Mythique"],
-      "correctIndex": 0,
-      "explanation": "Aristote développe une pensée fondée sur la logique et la cohérence, opposée aux explications mythologiques."
+      "question": "Aristote identifie dans l'Éthique à Nicomaque le concept de « juste milieu » (mésotès). Quel en est le principe, illustré par l'exemple du courage ?",
+      "image": null,
+      "imagePrompt": "Aristotle golden mean virtue courage temperance mesotes ethics balance",
+      "answers": ["La vertu consiste à choisir systématiquement la solution médiane entre deux positions extrêmes dans toute situation", "Chaque vertu est le juste milieu entre deux vices — l'un par excès, l'autre par défaut — variable selon les individus et les circonstances", "Le bonheur résulte d'un équilibre arithmétique entre plaisirs et peines dans l'ensemble d'une vie", "La sagesse consiste à éviter toute passion extrême en cultivant une indifférence modérée à toutes choses"],
+      "correctIndex": 1,
+      "explanation": "Le juste milieu (mésotès) d'Aristote n'est pas une médiocrité arithmétique mais un équilibre qualitatif entre deux vices : le courage est le milieu entre la lâcheté (manque) et la témérité (excès) ; la générosité entre l'avarice et la prodigalité. Ce milieu est relatif à chaque individu et à chaque situation — il n'existe pas de règle universelle mécanique. Cette doctrine a profondément influencé l'éthique médiévale (Thomas d'Aquin), la pensée confucéenne (voie du milieu) et reste une référence dans les débats éthiques contemporains sur la vertu."
     },
     {
       "id": "12",
-      "question": "Quel domaine politique Aristote étudie-t-il ?",
-      "answers": ["Empire", "Monarchie divine", "Dictature", "Organisation des cités"],
-      "correctIndex": 3,
-      "explanation": "Dans sa Politique, Aristote analyse les différents régimes et cherche celui qui favorise le bien commun."
+      "question": "Dans La Politique, Aristote analyse les différents régimes politiques. Quelle est sa classification des régimes « bons » et « déviés », encore utilisée dans la science politique contemporaine ?",
+      "image": null,
+      "imagePrompt": "Aristotle Politics constitution regime classification monarchy democracy oligarchy",
+      "answers": ["Trois régimes justes (monarchie, aristocratie, politie) et leurs trois dégénérescences (tyrannie, oligarchie, démocratie)", "Deux grands types de régimes : les monarchies légitimes et les républiques, toutes les autres étant des déviations", "Quatre régimes classés par ordre de vertu : aristocratie, monarchie, démocratie, tyrannie", "Un seul régime vraiment juste : la cité-État grecque, tous les empires et monarchies étant des déviances"],
+      "correctIndex": 0,
+      "explanation": "Aristote distingue six régimes selon deux critères : le nombre de gouvernants (un, peu, plusieurs) et leur finalité (bien commun ou intérêt personnel). Les régimes « droits » sont la monarchie (un pour tous), l'aristocratie (les meilleurs pour tous) et la politie (plusieurs pour tous). Leurs dégénérescences sont la tyrannie, l'oligarchie et la démocratie. Aristote préfère la politie — un régime mixte alliant éléments démocratiques et aristocratiques. Cette grille, reprise par Polybe, Cicéron, Montesquieu et Tocqueville, structure encore la science politique contemporaine."
     },
     {
       "id": "13",
-      "question": "Quel concept central Aristote développe-t-il en métaphysique ?",
-      "answers": ["Hasard", "Cause", "Magie", "Foi"],
+      "question": "Aristote affirme dans La Politique que « l'homme est un animal politique » (zôon politikon). Que signifie précisément cette formule, souvent mal comprise ?",
+      "image": null,
+      "imagePrompt": "Aristotle Politics zoon politikon city-state polis social nature human being",
+      "answers": ["L'homme est naturellement porté à briguer le pouvoir et à se battre pour dominer ses semblables", "L'homme ne peut s'épanouir pleinement qu'au sein d'une communauté politique organisée (la polis)", "L'homme est le seul animal capable de comprendre et d'appliquer les lois d'une cité", "L'homme est fondamentalement hypocrite et utilise la politique pour masquer ses intérêts privés"],
       "correctIndex": 1,
-      "explanation": "Aristote développe la théorie des causes pour expliquer le fonctionnement du monde (matérielle, formelle, efficiente, finale)."
+      "explanation": "« Animal politique » (zôon politikon) ne signifie pas qu'il aime la politique au sens électoral, mais qu'il est naturellement fait pour vivre dans une polis (cité organisée). Aristote argue que seuls les dieux et les bêtes peuvent vivre seuls : l'homme a besoin de la communauté pour exercer la raison, pratiquer la vertu et atteindre l'eudaimonia. Celui qui vit hors de la cité est « soit une bête, soit un dieu ». Cette idée fonde la tradition du contrat social et de la philosophie politique occidentale, de Cicéron à Rousseau."
     },
     {
       "id": "14",
-      "question": "Quel type de philosophie Aristote pratique-t-il ?",
-      "answers": ["Empirique", "Mystique", "Religieuse", "Mythologique"],
+      "question": "Aristote consacre un traité entier à la Poétique, analysant la tragédie grecque. Quel concept central — la « catharsis » — y décrit-il, encore débattu par les philosophes et les psychanalystes ?",
+      "image": null,
+      "imagePrompt": "Aristotle Poetics tragedy catharsis Sophocles Greek theater emotion purification",
+      "answers": ["La catharsis est la purification ou purgation des passions (pitié et crainte) que produit la tragédie chez le spectateur", "La catharsis désigne le moment culminant de la tragédie où le héros comprend sa faute (anagnorisis)", "La catharsis est la règle des trois unités (temps, lieu, action) qui donne à la tragédie sa cohérence", "La catharsis désigne la supériorité morale du spectateur sur le héros tragique, conscient de ses erreurs"],
       "correctIndex": 0,
-      "explanation": "Sa philosophie repose sur l’expérience et l’observation, ce qui la distingue de celle de Platon."
+      "explanation": "La catharsis (du grec katharsis — purification, purgation) désigne l'effet que la tragédie produit sur le spectateur en suscitant pitié et crainte (eleos et phobos) : en éprouvant ces émotions de façon vicariale face aux malheurs du héros, le spectateur en serait purifié ou soulagé. Ce concept, formulé en une seule phrase dans la Poétique, a généré des millénaires de commentaires : purification morale ? Purgation médicale des émotions ? Freud s'en est inspiré pour la catharsis psychanalytique. L'ambiguïté du texte aristotélicien en fait l'un des concepts les plus féconds de l'esthétique."
     },
     {
       "id": "15",
-      "question": "Quel domaine Aristote influence-t-il durablement ?",
-      "answers": ["Sciences", "Magie", "Mythologie", "Astrologie"],
-      "correctIndex": 0,
-      "explanation": "Aristote influence profondément les sciences, la logique et la philosophie pendant des siècles."
+      "question": "Aristote est le premier à proposer une théorie systématique de la rhétorique. Quelles sont les trois preuves (pisteis) qu'il identifie pour convaincre un auditoire ?",
+      "image": null,
+      "imagePrompt": "Aristotle Rhetoric ethos pathos logos persuasion speech argument",
+      "answers": ["La force, l'autorité et la répétition — les trois leviers du discours politique dans une démocratie", "Le logos (argument rationnel), l'ethos (crédibilité de l'orateur) et le pathos (émotion suscitée chez l'auditoire)", "La clarté, la brièveté et la beauté du style — les trois vertus du discours selon la tradition grecque", "La preuve par témoins, la preuve par documents écrits et la preuve par serment — héritées de la pratique judiciaire"],
+      "correctIndex": 1,
+      "explanation": "Dans sa Rhétorique, Aristote identifie trois modes de persuasion : le logos (l'argument logique et les preuves rationnelles), l'ethos (la crédibilité et le caractère de l'orateur — on croit celui qu'on juge honnête et compétent) et le pathos (les émotions suscitées chez l'auditoire — la colère, la pitié, la peur influencent le jugement). Cette trilogie est encore au cœur de la communication contemporaine, de la publicité au discours politique. Les cours de prise de parole en public du XXIe siècle s'y réfèrent explicitement."
     },
     {
       "id": "16",
-      "question": "Quel type de savoir Aristote cherche-t-il à organiser ?",
-      "answers": ["Religieux", "Scientifique", "Mythique", "Artistique"],
+      "question": "Les œuvres d'Aristote ont failli disparaître. Par quel chemin complexe ses textes ont-ils été transmis de l'Antiquité à l'Europe médiévale ?",
+      "image": null,
+      "imagePrompt": "Aristotle texts transmission Arabic scholars medieval Europe Ibn Rushd Averroes manuscripts",
+      "answers": ["Ses œuvres ont été copiées en continu à Athènes, puis transmises directement à Rome et aux universités médiévales", "Ses œuvres ont été conservées et traduites en arabe par des savants islamiques, avant d'être retradites en latin au XIIe siècle", "Ses œuvres ont été enterrées dans une cave par ses héritiers et redécouvertes au Ier siècle av. J.-C. par le bibliophile Sylla", "Ses œuvres ont été intégralement conservées à Alexandrie, sauvées lors de l'incendie de la bibliothèque par des moines coptes"],
       "correctIndex": 1,
-      "explanation": "Aristote tente de classer et structurer les connaissances, ce qui en fait un pionnier de l’organisation du savoir."
+      "explanation": "La transmission des œuvres d'Aristote est une aventure intellectuelle en trois actes. D'abord conservées par ses successeurs au Lycée, elles passent à Rome au Ier siècle av. J.-C. Puis, lors de la fermeture des écoles philosophiques d'Athènes en 529 ap. J.-C. par Justinien, les textes migrent vers le monde islamique où des savants comme Al-Farabi, Avicenne et Averroès (Ibn Rushd) les commentent et les enrichissent en arabe. Au XIIe siècle, les traductions arabo-latines redonnent Aristote à l'Europe médiévale, où Thomas d'Aquin l'intégrera à la théologie chrétienne — appelant Aristote simplement « le Philosophe »."
     },
     {
       "id": "17",
-      "question": "Quel impact Aristote a-t-il sur la pensée occidentale ?",
-      "answers": ["Faible", "Inexistant", "Fondamental", "Temporaire"],
-      "correctIndex": 2,
-      "explanation": "Sa pensée structure la philosophie occidentale, influençant le Moyen Âge et la science moderne."
+      "question": "Thomas d'Aquin, au XIIIe siècle, réalise une synthèse monumentale entre la pensée d'Aristote et la théologie chrétienne. Quel terme désigne ce courant intellectuel médiéval qui fait d'Aristote la référence philosophique de l'Église ?",
+      "image": null,
+      "imagePrompt": "Thomas Aquinas Scholasticism Aristotle medieval synthesis theology Summa Theologica",
+      "answers": ["L'augustinisme — du nom de saint Augustin qui avait déjà intégré Aristote à la pensée chrétienne", "La scolastique — méthode d'enseignement médiévale fondée sur la conciliation d'Aristote et de la foi chrétienne", "Le nominalisme — courant qui utilise la logique aristotélicienne pour nier l'existence des universaux", "L'humanisme — mouvement qui redécouvre Aristote dans les textes originaux grecs à la Renaissance"],
+      "correctIndex": 1,
+      "explanation": "La scolastique (du latin schola — école) est la méthode philosophique et théologique dominante des universités médiévales, fondée sur la conciliation de la raison aristotélicienne et de la foi chrétienne. Thomas d'Aquin, dans sa Somme théologique (XIIIe siècle), intègre systématiquement Aristote au christianisme — reprenant ses preuves de l'existence de Dieu (les cinq voies), sa métaphysique des causes et son éthique des vertus. Cette synthèse « thomiste » est encore aujourd'hui la philosophie officielle de l'Église catholique, Aristote restant « le Philosophe » dans ce contexte."
     },
     {
       "id": "18",
-      "question": "Quel principe guide sa méthode ?",
-      "answers": ["Observation et logique", "Foi", "Autorité", "Mythe"],
-      "correctIndex": 0,
-      "explanation": "Aristote insiste sur l’observation du réel combinée à un raisonnement rigoureux."
+      "question": "Aristote développe en physique la théorie des quatre éléments hérités de ses prédécesseurs. Quelle erreur physique majeure — liée à sa conception du mouvement — dominera la science occidentale pendant vingt siècles avant d'être réfutée par Galilée ?",
+      "image": null,
+      "imagePrompt": "Aristotle physics motion natural place elements earth water air fire Galileo refutation",
+      "answers": ["Aristote croit que la Terre est plate et que le Soleil tourne autour d'elle — erreur corrigée par Copernic", "Aristote pense que les objets plus lourds tombent plus vite que les légers — erreur réfutée expérimentalement par Galilée", "Aristote affirme que le vide est impossible et que la matière est continue sans atomes — erreur corrigée par Dalton", "Aristote croit que les étoiles sont des trous dans la voûte céleste laissant passer le feu divin — erreur corrigée par Newton"],
+      "correctIndex": 1,
+      "explanation": "Aristote affirmait que des objets de poids différents tombent à des vitesses proportionnelles à leur poids — une affirmation qui semblait intuitive et n'avait jamais été testée rigoureusement. Galilée la réfute vers 1590 (peut-être depuis la tour de Pise, selon une tradition contestée) en montrant que deux objets de poids différents tombent à la même vitesse dans le vide. Cette erreur d'Aristote, acceptée sans vérification pendant deux millénaires, illustre la limite de son empirisme : il observait mais ne pratiquait pas d'expériences contrôlées — méthode qui ne s'imposera qu'avec la révolution scientifique du XVIIe siècle."
     },
     {
       "id": "19",
-      "question": "Quel type de philosophe Aristote est-il ?",
-      "answers": ["Scientifique et systématique", "Religieux", "Poète", "Mystique"],
-      "correctIndex": 1,
-      "explanation": "Aristote est un penseur systématique qui cherche à expliquer le monde de manière cohérente et organisée."
+      "question": "Aristote distingue différents types d'amitié (philia) dans l'Éthique à Nicomaque. Quelle est la forme d'amitié qu'il considère comme la plus haute et la plus durable ?",
+      "image": null,
+      "imagePrompt": "Aristotle friendship philia virtue ethics Nicomachean good character relationship",
+      "answers": ["L'amitié d'utilité — fondée sur les services mutuels que se rendent deux personnes dans la vie sociale", "L'amitié de plaisir — fondée sur la jouissance partagée d'activités agréables entre deux personnes", "L'amitié de vertu — fondée sur l'admiration mutuelle du caractère moral de l'autre, indépendamment de l'utilité ou du plaisir", "L'amitié amoureuse (eros) — seul lien suffisamment fort pour résister aux épreuves du temps et de l'adversité"],
+      "correctIndex": 2,
+      "explanation": "Aristote identifie trois formes de philia : l'amitié d'utilité (on se fréquente par intérêt mutuel), l'amitié de plaisir (on se fréquente parce que l'autre est agréable) et l'amitié parfaite ou de vertu — celle où chacun aime l'autre pour ce qu'il est, admirant son caractère moral. Cette dernière est rare, lente à se former et durable, car elle ne dépend ni des circonstances ni de l'utilité. Aristote voit dans cette amitié un bien social fondamental : « Sans amis, nul ne choisirait de vivre, même s'il possédait tous les autres biens. »"
     },
     {
       "id": "20",
-      "question": "Pourquoi Aristote reste-t-il une figure majeure ?",
-      "answers": ["Pour sa richesse", "Pour sa durée de vie", "Pour son isolement", "Pour son influence durable sur la pensée et les sciences"],
+      "question": "L'influence d'Aristote s'étend bien au-delà de la philosophie. Dans quel domaine inattendu ses erreurs ont-elles paradoxalement freiné le progrès scientifique pendant des siècles, avant que sa méthode d'observation ne soit réhabilitée ?",
+      "image": null,
+      "imagePrompt": "Aristotle influence science error authority scholasticism Galileo Newton scientific revolution",
+      "answers": ["En astronomie, son modèle géocentrique a été adopté par l'Église, rendant toute remise en cause hérétique jusqu'à Galilée", "En médecine, sa théorie des humeurs a été adoptée par Galien, dominant la médecine jusqu'au XVIIe siècle", "En physique, son rejet des atomes a retardé la chimie moderne jusqu'à Lavoisier et Dalton", "Les trois domaines sont concernés — c'est la combinaison de son autorité et de sa réception dogmatique qui a freiné le progrès"],
       "correctIndex": 3,
-      "explanation": "Aristote est l’un des fondateurs de la pensée rationnelle et scientifique, influençant durablement l’histoire intellectuelle."
+      "explanation": "Le paradoxe d'Aristote est que sa méthode — observer, classer, raisonner — était révolutionnaire, mais son autorité est devenue un obstacle quand ses conclusions ont été érigées en dogmes intouchables. En astronomie, son cosmos géocentrique et ses sphères cristallines ont bloqué la révolution copernicienne. En physique, ses erreurs sur le mouvement ont retardé la mécanique. En biologie, sa scala naturae a résisté à Darwin. Ce n'est pas Aristote lui-même, mais l'aristotélisme dogmatique qui a freiné la science — une distinction que Francis Bacon soulignait déjà au XVIIe siècle, appelant à revenir à l'esprit d'observation d'Aristote contre la lettre figée de ses conclusions."
     }
   ]
 }

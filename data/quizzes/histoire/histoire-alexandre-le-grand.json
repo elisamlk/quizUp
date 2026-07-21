@@ -2,7 +2,7 @@
   "slug": "quiz-alexandre-le-grand-conquetes-strategie",
   "title": "Quiz Histoire - Alexandre le Grand - Conquêtes, batailles et génie stratégique",
   "description": "Empire, batailles et stratégie militaire : teste tes connaissances sur Alexandre le Grand.",
-  "descriptionSeo": "Teste tes connaissances sur Alexandre le Grand avec ce quiz d’histoire consacré à l’un des plus grands conquérants de l’Antiquité. De la Macédoine à l’Inde, ses batailles, ses stratégies militaires et la création d’un vaste empire ont marqué l’histoire. 20 questions avec réponses et explications pour comprendre ses campagnes, son génie militaire et son héritage durable.",
+  "descriptionSeo": "Teste tes connaissances sur Alexandre le Grand avec ce quiz d'histoire consacré à l'un des plus grands conquérants de l'Antiquité. De la Macédoine à l'Inde, ses batailles, ses stratégies militaires et la création d'un vaste empire ont marqué l'histoire. 20 questions avec réponses et explications pour comprendre ses campagnes, son génie militaire et son héritage durable.",
   "category": {
     "name": "Histoire",
     "slug": "histoire"
@@ -18,143 +18,183 @@
   "questions": [
     {
       "id": "1",
-      "question": "Alexandre le Grand est originaire de quel royaume ?",
-      "answers": ["Athènes", "Sparte", "Perse", "Macédoine"],
-      "correctIndex": 3,
-      "explanation": "Alexandre est roi de Macédoine, un royaume du nord de la Grèce. Son père Philippe II a déjà transformé ce royaume en puissance militaire dominante."
+      "question": "Alexandre le Grand devient roi de Macédoine à seulement 20 ans, après l'assassinat de son père. En quelle année monte-t-il sur le trône ?",
+      "image": null,
+      "imagePrompt": "Macedonia ancient kingdom map Philip II Alexander throne",
+      "answers": ["En 359 av. J.-C.", "En 336 av. J.-C.", "En 323 av. J.-C.", "En 312 av. J.-C."],
+      "correctIndex": 1,
+      "explanation": "Alexandre monte sur le trône de Macédoine en 336 av. J.-C., après l'assassinat de Philippe II lors d'une cérémonie de mariage — un meurtre dont les commanditaires font encore débat entre historiens. À 20 ans, il hérite d'un royaume puissant et d'une armée redoutable, mais aussi de nombreuses révoltes à réprimer immédiatement. Il écrase en moins de deux ans les rébellions grecques (destruction de Thèbes en 335 av. J.-C.) avant de lancer sa grande campagne contre la Perse."
     },
     {
       "id": "2",
-      "question": "Qui est le père d’Alexandre le Grand ?",
-      "answers": ["Darius III", "Philippe II", "César", "Périclès"],
+      "question": "Philippe II de Macédoine, père d'Alexandre, a révolutionné l'art de la guerre avant même les conquêtes de son fils. Quelle innovation militaire majeure lui doit-on ?",
+      "image": null,
+      "imagePrompt": "Macedonian phalanx sarissa pike Philip II military innovation formation",
+      "answers": ["L'invention des catapultes de siège", "La phalange armée de la sarisse, une lance de 5 à 7 mètres", "La création de la première marine de guerre grecque", "L'utilisation systématique des éléphants de guerre"],
       "correctIndex": 1,
-      "explanation": "Philippe II de Macédoine modernise l’armée et prépare les bases des conquêtes d’Alexandre, notamment grâce à la phalange macédonienne."
+      "explanation": "Philippe II a transformé la phalange traditionnelle en dotant ses soldats (les pézétairoï) de la sarisse — une lance de 5 à 7 mètres, bien plus longue que celle des hoplites grecs. Cette arme permettait aux rangs arrière de tenir leurs lances par-dessus les rangs avant, créant un mur de pointes impénétrable de face. Combinée à la cavalerie des hétairoï (compagnons), cette phalange réformée formait un système tactique redoutable que Philippe et Alexandre utilisèrent avec génie."
     },
     {
       "id": "3",
-      "question": "Quel empire Alexandre conquiert-il principalement ?",
-      "answers": ["Empire perse", "Empire romain", "Empire égyptien", "Empire chinois"],
-      "correctIndex": 0,
-      "explanation": "Alexandre renverse l’Empire perse, l’une des plus grandes puissances de l’époque, en remportant plusieurs batailles décisives."
+      "question": "Alexandre lance sa campagne contre l'Empire perse en 334 av. J.-C. Quelle est sa première grande victoire sur le sol perse, remportée dès la première année ?",
+      "image": null,
+      "imagePrompt": "Battle of Granicus 334 BC Alexander Persia first victory river crossing",
+      "answers": ["La bataille de Gaugamèles", "La bataille d'Issos", "La bataille du Granique", "La bataille de Chéronée"],
+      "correctIndex": 2,
+      "explanation": "La bataille du Granique (mai 334 av. J.-C.), sur les rives d'un fleuve de l'actuelle Turquie, est la première grande victoire d'Alexandre contre les satrapes perses. Alexandre y charge personnellement en tête de sa cavalerie, frôlant la mort lorsqu'un cavalier perse le frappe à la tête — son compagnon Clitos le Noir lui sauve la vie. Cette victoire ouvre l'Asie Mineure aux Macédoniens et leur vaut le contrôle de la côte égéenne."
     },
     {
       "id": "4",
-      "question": "Quelle célèbre bataille marque une victoire décisive contre les Perses ?",
-      "answers": ["Marathon", "Salamine", "Gaugamèles", "Actium"],
-      "correctIndex": 2,
-      "explanation": "La bataille de Gaugamèles (331 av. J.-C.) permet à Alexandre de vaincre définitivement Darius III et de contrôler l’Empire perse."
+      "question": "La bataille de Gaugamèles (331 av. J.-C.) est la victoire décisive d'Alexandre sur Darius III. Quelle tactique ingénieuse lui permet de vaincre une armée perse largement supérieure en nombre ?",
+      "image": null,
+      "imagePrompt": "Battle of Gaugamela 331 BC Alexander oblique attack cavalry wedge Darius",
+      "answers": ["Il attaque de nuit, surprenant les Perses endormis dans leur camp", "Il crée volontairement une brèche dans sa ligne pour y engouffrer sa cavalerie et frapper le centre perse", "Il utilise des éléphants capturés aux Perses pour terroriser leurs propres chevaux", "Il force les Perses à combattre dans un défilé montagneux où leur supériorité numérique est neutralisée"],
+      "correctIndex": 1,
+      "explanation": "À Gaugamèles, Alexandre attire l'aile droite perse vers l'extérieur, créant une brèche dans la ligne ennemie. Il s'y engouffre alors en formation de coin avec sa cavalerie des hétairoï, fonçant directement vers Darius III. Pris de panique, Darius fuit une seconde fois — ce qui provoque la débandade générale de son armée. Cette tactique d'attaque oblique, qui concentre la force sur un point précis pour rompre l'ennemi, est encore étudiée dans les académies militaires."
     },
     {
       "id": "5",
-      "question": "Quel roi perse est vaincu par Alexandre ?",
-      "answers": ["Xerxès", "Cyrus", "Darius III", "Cambyse"],
-      "correctIndex": 2,
-      "explanation": "Darius III est le dernier roi de l’Empire perse. Sa défaite marque l’effondrement de cet empire face à Alexandre."
+      "question": "Darius III, dernier roi achéménide, est vaincu à deux reprises par Alexandre avant sa mort. Comment périt-il finalement en 330 av. J.-C. ?",
+      "image": null,
+      "imagePrompt": "Darius III death assassination Bessus Bactria satrap betrayal",
+      "answers": ["Il est tué lors de la bataille de Gaugamèles par un soldat macédonien", "Il est assassiné par son propre satrape Bessos, qui espérait prendre sa place", "Il se suicide après la prise de Persépolis pour ne pas tomber aux mains d'Alexandre", "Il meurt de maladie dans sa fuite vers l'est, avant qu'Alexandre ne le rattrape"],
+      "correctIndex": 1,
+      "explanation": "Après sa défaite à Gaugamèles, Darius III fuit vers l'est. Son propre satrape de Bactriane, Bessos, le fait assassiner en 330 av. J.-C. pour prendre le pouvoir. Arrivé trop tard, Alexandre trouve Darius mourant. Il le fait ensevelir avec les honneurs royaux à Persépolis, se posant ainsi en vengeur légitime du roi perse plutôt qu'en simple conquérant. Bessos, qui se proclame successeur de Darius, sera lui-même capturé et exécuté par Alexandre deux ans plus tard."
     },
     {
       "id": "6",
-      "question": "Quelle ville égyptienne Alexandre fonde-t-il ?",
-      "answers": ["Alexandrie", "Thèbes", "Memphis", "Carthage"],
-      "correctIndex": 0,
-      "explanation": "Alexandre fonde Alexandrie, qui devient un centre culturel majeur du monde antique et un symbole de l’hellénisation."
+      "question": "Alexandre fonde la ville d'Alexandrie en Égypte en 331 av. J.-C. Combien de villes du même nom fonde-t-il au total au cours de ses campagnes ?",
+      "image": null,
+      "imagePrompt": "Alexandria Egypt founding Alexander Great city urban planning Mediterranean",
+      "answers": ["3 villes", "7 villes", "Plus de 20 villes", "Plus de 70 villes"],
+      "correctIndex": 2,
+      "explanation": "Alexandre fonde plus de 20 villes portant son nom — les historiens en recensent entre 20 et 70 selon les critères retenus. Alexandrie d'Égypte est la seule à avoir survécu comme grande métropole (elle compte encore 5 millions d'habitants aujourd'hui). Ces fondations urbaines avaient un rôle stratégique (contrôle des routes, points de ravitaillement) et symbolique (affirmation de la domination macédonienne). Elles servaient aussi à installer des vétérans et à diffuser la culture grecque dans les territoires conquis."
     },
     {
       "id": "7",
-      "question": "Jusqu’où Alexandre étend-il son empire à l’est ?",
-      "answers": ["Chine", "Perse uniquement", "Arabie", "Inde"],
-      "correctIndex": 3,
-      "explanation": "Alexandre pousse ses conquêtes jusqu’à l’Inde, mais ses troupes refusent d’aller plus loin, mettant fin à son expansion."
+      "question": "Alexandre pousse ses conquêtes jusqu'en Inde. Quelle bataille de 326 av. J.-C., contre le roi indien Poros, est la dernière grande victoire militaire de sa campagne orientale ?",
+      "image": null,
+      "imagePrompt": "Battle of Hydaspes 326 BC Alexander Porus elephants India river",
+      "answers": ["La bataille de l'Hydaspe", "La bataille de Taxila", "La bataille du Gange", "La bataille de Bactriane"],
+      "correctIndex": 0,
+      "explanation": "La bataille de l'Hydaspe (326 av. J.-C.), sur un affluent de l'Indus, oppose Alexandre au roi Poros et à ses éléphants de guerre. Alexandre traverse le fleuve en crue de nuit pour surprendre l'ennemi — une manœuvre logistique remarquable. Vaincu, Poros est traité avec respect et réintégré comme vassal. C'est là que la monture d'Alexandre, Bucéphale, meurt — Alexandre lui rend hommage en fondant une ville à son nom. Peu après, ses troupes refusent d'avancer davantage, mettant fin à la conquête."
     },
     {
       "id": "8",
-      "question": "Quel type de stratégie militaire caractérise Alexandre ?",
-      "answers": ["Défensive", "Mobile et offensive", "Navale uniquement", "Passive"],
-      "correctIndex": 1,
-      "explanation": "Alexandre privilégie la mobilité, la surprise et la coordination des forces, ce qui lui permet de vaincre des armées plus nombreuses."
+      "question": "La tactique militaire d'Alexandre repose sur la combinaison de deux forces complémentaires. Laquelle est la clé de ses victoires ?",
+      "image": null,
+      "imagePrompt": "Alexander military strategy cavalry infantry hammer anvil coordination battlefield",
+      "answers": ["La phalange d'infanterie seule, suffisamment puissante pour écraser tout adversaire", "L'artillerie de siège utilisée même en rase campagne pour désorganiser l'ennemi", "La coordination de la phalange (enclume) et de la cavalerie des hétairoï (marteau) pour rompre l'ennemi", "L'utilisation massive d'archers à cheval, héritage perse adopté après la conquête"],
+      "correctIndex": 2,
+      "explanation": "La stratégie d'Alexandre repose sur un principe dit du « marteau et de l'enclume » : la phalange macédonienne fixe et épuise l'ennemi en formation dense (l'enclume), pendant que la cavalerie des hétairoï, commandée personnellement par Alexandre, cherche et exploite une brèche pour frapper le flanc ou l'arrière ennemi (le marteau). Cette coordination entre infanterie lourde et cavalerie rapide, exigeant une synchronisation parfaite, était révolutionnaire pour l'époque et demeure étudiée dans les académies militaires."
     },
     {
       "id": "9",
-      "question": "Quel rôle joue la phalange macédonienne ?",
-      "answers": ["Formation clé", "Décor militaire", "Formation secondaire", "Inutile"],
-      "correctIndex": 0,
-      "explanation": "La phalange est une formation dense de soldats équipés de longues lances, assurant solidité et efficacité sur le champ de bataille."
+      "question": "La phalange macédonienne est la colonne vertébrale de l'armée d'Alexandre. Quelle est la longueur approximative de la sarisse, la lance qui équipe ses soldats ?",
+      "image": null,
+      "imagePrompt": "Macedonian phalanx sarissa pike infantry formation spears overlapping",
+      "answers": ["Environ 2 mètres — la longueur d'une lance hoplite standard", "Environ 3,5 mètres", "Entre 5 et 7 mètres", "Plus de 10 mètres"],
+      "correctIndex": 2,
+      "explanation": "La sarisse mesure entre 5 et 7 mètres — deux à trois fois plus longue qu'une lance hoplite grecque standard. Dans une phalange de 16 rangs, les sarisses des cinq premiers rangs pointaient toutes devant le front de la formation, créant un mur de pointes impénétrable de face. Les rangs arrière tenaient leurs sarisses inclinées pour dévier les projectiles et exercer une pression collective vers l'avant. Cette arme rendait la phalange quasi invincible de face, mais vulnérable sur les flancs — ce qu'Alexandre compensait par sa cavalerie."
     },
     {
       "id": "10",
-      "question": "Quel titre Alexandre adopte-t-il après ses conquêtes ?",
-      "answers": ["Empereur romain", "Pharaon uniquement", "Roi d’Asie", "Consul"],
-      "correctIndex": 2,
-      "explanation": "Alexandre se proclame roi d’Asie, affirmant sa domination sur les territoires conquis et reprenant le modèle des souverains perses."
+      "question": "Alexandre adopte progressivement les titres et cérémonies des souverains perses vaincus, ce qui crée des tensions avec ses compagnons macédoniens. Quelle pratique orientale tente-t-il d'imposer, suscitant une vive résistance de ses généraux grecs ?",
+      "image": null,
+      "imagePrompt": "Alexander proskynesis Persian prostration court ceremony Greek Macedonian resistance",
+      "answers": ["Le port du turban perse en remplacement du casque macédonien", "La proskynésis — prostration devant le roi, considérée comme humiliante par les Grecs", "Le sacrifice aux dieux persans en lieu et place des dieux grecs", "L'usage exclusif du persan comme langue de cour, abandonnant le grec"],
+      "correctIndex": 1,
+      "explanation": "La proskynésis était la prosternation rituelle pratiquée devant le Grand Roi de Perse — un geste de soumission totale. Alexandre tenta de l'imposer à sa cour vers 327 av. J.-C., voulant unifier les protocoles perses et macédoniens. Ses compagnons grecs et macédoniens s'y opposèrent vigoureusement : pour eux, cette prostration était réservée aux dieux, pas aux hommes. Alexandre dut finalement y renoncer avec ses sujets grecs, ne l'exigeant que des Perses. Cet épisode illustre les tensions entre son ambition universelle et les traditions de ses compagnons."
     },
-    {
-      "id": "11",
-      "question": "Quel animal symbolise souvent la cavalerie d’Alexandre ?",
-      "answers": ["Lion", "Aigle", "Dragon", "Cheval"],
-      "correctIndex": 3,
-      "explanation": "La cavalerie, notamment les compagnons d’Alexandre, joue un rôle décisif dans ses victoires grâce à sa rapidité et sa puissance."
-    },
+   {
+  "id": "11",
+  "question": "En 333 av. J.-C., en Phrygie (actuelle Turquie), Alexandre tranche le célèbre nœud gordien. Quelle prophétie était associée à ce nœud, et pourquoi son geste est-il si symbolique ?",
+  "image": null,
+  "imagePrompt": "Gordian knot Alexander sword cut Phrygia Asia Minor prophecy",
+  "answers": ["Celui qui dénouerait le nœud deviendrait roi de Macédoine", "Celui qui dénouerait le nœud dominerait toute l'Asie", "Celui qui dénouerait le nœud obtiendrait l'immortalité des dieux", "Celui qui dénouerait le nœud trouverait un trésor caché de Midas"],
+  "correctIndex": 1,
+  "explanation": "Le nœud gordien liait le joug du char du roi Gordios à son timon — un enchevêtrement si complexe que personne n'en voyait les extrémités. La prophétie promettait la domination de l'Asie à quiconque le dénouerait. Alexandre, selon les sources, le trancha d'un coup d'épée (ou, selon d'autres versions, en retira la cheville centrale). Qu'il l'ait réellement coupé ou dénoué importe moins que le sens du geste : refuser les règles imposées par les autres pour trouver une solution radicale. L'expression « trancher le nœud gordien » désigne encore aujourd'hui une résolution audacieuse d'un problème insoluble."
+},
     {
       "id": "12",
-      "question": "Quel philosophe a été le précepteur d’Alexandre ?",
-      "answers": ["Platon", "Aristote", "Socrate", "Épicure"],
-      "correctIndex": 1,
-      "explanation": "Aristote éduque Alexandre, influençant sa vision du monde et son intérêt pour la culture grecque."
+      "question": "Aristote est le précepteur d'Alexandre de 13 à 16 ans. Quelle discipline Aristote lui enseigne-t-il, dont les traces se retrouvent dans les campagnes militaires d'Alexandre qui emmène des savants avec son armée ?",
+      "image": null,
+      "imagePrompt": "Aristotle Alexander teacher philosophy science natural history education Mieza",
+      "answers": ["L'art de la guerre et la stratégie militaire uniquement", "La rhétorique et l'éloquence pour convaincre ses soldats", "La philosophie, les sciences naturelles, la médecine et la géographie", "La théologie grecque pour légitimer son pouvoir par la religion"],
+      "correctIndex": 2,
+      "explanation": "Aristote enseigne à Alexandre la philosophie, la biologie, la médecine, la géographie, la littérature et les sciences naturelles dans le domaine de Mieza. Cette éducation encyclopédique explique pourquoi Alexandre emmenait des savants, des géographes et des naturalistes dans ses expéditions — collectant des spécimens pour Aristote, cartographiant les territoires, étudiant les peuples rencontrés. Alexandre portait toujours l'Iliade d'Homère avec lui, annotée par Aristote, dormant avec elle sous son oreiller selon Plutarque."
     },
-    {
-      "id": "13",
-      "question": "Quel objectif poursuit Alexandre dans ses conquêtes ?",
-      "answers": ["Commerce uniquement", "Expansion et gloire", "Religion", "Isolation"],
-      "correctIndex": 1,
-      "explanation": "Alexandre cherche à étendre son empire, mais aussi à laisser une trace durable en unifiant des territoires vastes sous son autorité."
-    },
+  {
+  "id": "13",
+  "question": "En 331 av. J.-C., Alexandre effectue un détour périlleux dans le désert libyen pour consulter l'oracle d'Amon à Siwa. Quelle révélation en rapporte-t-il, transformant profondément son image aux yeux de ses sujets orientaux ?",
+  "image": null,
+  "imagePrompt": "Oracle Siwa oasis Egypt Alexander Ammon son god divine legitimacy",
+  "answers": ["L'oracle lui prédit qu'il mourra invaincu sur le champ de bataille, à l'est de l'Inde", "L'oracle le reconnaît comme fils du dieu Amon-Zeus, lui conférant une légitimité divine", "L'oracle lui révèle l'emplacement du tombeau de Cyrus le Grand, qu'il ira honorer en Perse", "L'oracle lui interdit de pénétrer en Inde, prophétie qu'il ignorera délibérément"],
+  "correctIndex": 1,
+  "explanation": "À Siwa, le prêtre d'Amon aurait salué Alexandre comme « fils d'Amon » — l'équivalent égyptien de Zeus. Alexandre garda secret le contenu précis de la consultation, ce silence alimentant toutes les spéculations. Cette reconnaissance divine servait un double objectif : légitimer son pouvoir en Égypte, où le pharaon était traditionnellement fils du dieu Amon, et construire une image de souverain universel dépassant la simple royauté macédonienne. Alexandre commença dès lors à se présenter comme fils de Zeus, ce qui heurta profondément ses compagnons grecs, pour qui un homme vivant ne pouvait être un dieu."
+},
     {
       "id": "14",
-      "question": "Quel type d’empire Alexandre construit-il ?",
-      "answers": ["Empire unifié culturellement", "Empire isolé", "Empire démocratique", "Empire maritime"],
-      "correctIndex": 0,
-      "explanation": "Son empire favorise le mélange des cultures grecques et orientales, donnant naissance à la civilisation hellénistique."
+      "question": "L'empire d'Alexandre donne naissance à la civilisation hellénistique. En quoi ce mélange culturel inédit est-il révolutionnaire pour le monde antique ?",
+      "image": null,
+      "imagePrompt": "Hellenistic civilization Greek Eastern culture fusion art Alexandria library",
+      "answers": ["Il impose la langue et la religion grecques en effaçant toutes les cultures locales conquises", "Il crée une synthèse entre culture grecque et cultures orientales, diffusant le grec comme langue commune tout en absorbant les savoirs locaux", "Il transfère entièrement la civilisation perse en Grèce, faisant de la Macédoine un empire oriental", "Il met fin aux échanges culturels en cloisonnant les populations dans des zones ethniques séparées"],
+      "correctIndex": 1,
+      "explanation": "La civilisation hellénistique (du grec hellenizein — parler grec, imiter les Grecs) est une synthèse inédite entre la culture grecque et les cultures égyptienne, perse, babylonienne et indienne. Le grec koinè devient la lingua franca du monde méditerranéen et proche-oriental. Alexandrie incarne cette fusion : sa bibliothèque rassemble les savoirs de toutes les cultures connues. Des philosophies comme le stoïcisme et l'épicurisme émergent de ces échanges. Cette civilisation hellénistique influencera directement Rome, puis le christianisme et l'islam."
     },
     {
       "id": "15",
-      "question": "Quel problème survient après la mort d’Alexandre ?",
-      "answers": ["Stabilité", "Expansion", "Unité", "Division de l’empire"],
-      "correctIndex": 3,
-      "explanation": "Après sa mort en 323 av. J.-C., son empire est partagé entre ses généraux, entraînant des conflits et la fin de son unité."
+      "question": "Après la mort d'Alexandre en 323 av. J.-C., son empire est partagé entre ses généraux, les Diadoques. Combien de temps environ faut-il pour que l'empire se fragmente définitivement en royaumes distincts ?",
+      "image": null,
+      "imagePrompt": "Diadochi wars successors Alexander empire division Ptolemy Seleucus Antigonus",
+      "answers": ["L'empire se divise immédiatement le jour de sa mort", "Environ 5 ans de guerres entre généraux", "Environ 40 ans de guerres des Diadoques avant une stabilisation en plusieurs royaumes", "L'empire reste uni pendant un siècle avant de se fragmenter"],
+      "correctIndex": 2,
+      "explanation": "Les guerres des Diadoques (« successeurs » en grec) durent environ 40 ans après la mort d'Alexandre (323–281 av. J.-C.), opposant ses généraux dans une série de conflits complexes. Elles aboutissent à la formation de trois grands royaumes : les Ptolémées en Égypte, les Séleucides en Asie et les Antigonides en Macédoine. Cette fragmentation marque la fin de l'unité de l'empire, mais les royaumes hellénistiques qui en résultent continuent de diffuser la culture grecque pendant deux siècles."
     },
     {
       "id": "16",
-      "question": "Quel âge avait Alexandre à sa mort ?",
-      "answers": ["20 ans", "32 ans", "45 ans", "60 ans"],
+      "question": "Alexandre meurt à Babylone en 323 av. J.-C. à l'âge de 32 ans. La cause de sa mort reste débattue entre historiens. Quelle hypothèse est la plus souvent avancée aujourd'hui ?",
+      "image": null,
+      "imagePrompt": "Alexander death Babylon 323 BC fever illness poisoning mystery",
+      "answers": ["Il a été empoisonné par Antipater, son régent en Macédoine", "Il est mort d'une fièvre typhoïde compliquée d'une pneumonie, possiblement aggravée par l'alcool", "Il a été tué par un de ses généraux jaloux lors d'un banquet", "Il est mort de ses blessures de guerre accumulées, notamment une blessure pulmonaire reçue en Inde"],
       "correctIndex": 1,
-      "explanation": "Alexandre meurt à seulement 32 ans, ce qui rend son parcours encore plus impressionnant au regard de ses conquêtes."
+      "explanation": "La cause la plus probable de la mort d'Alexandre, selon l'analyse médicale des sources antiques, est une fièvre typhoïde compliquée d'une pneumonie, dans un contexte de santé fragilisée par des années de campagnes épuisantes, de blessures multiples et d'une consommation excessive d'alcool. L'hypothèse de l'empoisonnement (notamment à l'eau du Styx, un fleuve au soufre) a été avancée dans l'Antiquité mais reste non prouvée. Il aurait mis 12 jours à mourir, perdant progressivement la parole mais restant conscient selon les sources."
     },
-    {
-      "id": "17",
-      "question": "Quel impact culturel ont ses conquêtes ?",
-      "answers": ["Isolement", "Destruction culturelle", "Diffusion de la culture grecque", "Aucun impact"],
-      "correctIndex": 2,
-      "explanation": "Les conquêtes d’Alexandre diffusent la culture grecque à travers un vaste territoire, créant un monde hellénistique."
-    },
+{
+  "id": "17",
+  "question": "Le siège de Tyr (332 av. J.-C.) est considéré comme l'un des plus grands exploits d'ingénierie militaire de l'Antiquité. Quelle construction titanesque Alexandre ordonne-t-il pour prendre cette ville insulaire ?",
+  "image": null,
+  "imagePrompt": "Siege of Tyre 332 BC Alexander causeway mole island construction Phoenicia",
+  "answers": ["Une flotte de 500 trirèmes construite en trois mois pour encercler l'île par mer", "Une chaussée (môle) de 800 mètres reliant le continent à l'île, transformant Tyr en presqu'île", "Un tunnel sous-marin creusé par des plongeurs pour miner les remparts de l'île", "Des tours flottantes de siège de 50 mètres de haut, montées sur des radeaux enchaînés"],
+  "correctIndex": 1,
+  "explanation": "Tyr était une île fortifiée à 800 mètres des côtes phéniciennes — imprenable par les moyens traditionnels. Alexandre ordonna la construction d'une chaussée (môle) de 60 mètres de large sur 800 mètres de long, utilisant les décombres de la vieille ville de Tyr continentale comme matériaux. Ce chantier colossal, réalisé sous les attaques constantes des défenseurs tyriens, dura sept mois. Prise en 332 av. J.-C., Tyr fut rasée et 30 000 habitants réduits en esclavage. La chaussée, ensablée au fil des siècles, a transformé Tyr en véritable presqu'île — encore visible aujourd'hui sur les cartes de l'actuel Liban."
+},
     {
       "id": "18",
-      "question": "Quel élément renforce la loyauté de ses troupes ?",
-      "answers": ["Partage des richesses", "Répression", "Isolement", "Abandon"],
-      "correctIndex": 0,
-      "explanation": "Alexandre récompense ses soldats et partage les richesses, ce qui renforce leur fidélité malgré les campagnes longues et difficiles."
+      "question": "Alexandre traite différemment ses soldats selon leur loyauté. Quelle crise grave éclate à Opis (324 av. J.-C.) entre Alexandre et ses vétérans macédoniens, révélant les tensions au sein de son armée ?",
+      "image": null,
+      "imagePrompt": "Opis mutiny Alexander veterans Macedonian soldiers discharge tension",
+      "answers": ["Les soldats réclament davantage de butin avant de traverser l'Indus pour la campagne indienne", "Les vétérans macédoniens se mutinent lorsqu'Alexandre annonce les renvoyer chez eux et les remplacer par des soldats perses", "Les officiers supérieurs exigent de partager le commandement avec Alexandre, qu'ils jugent trop autoritaire", "Les soldats refusent de traverser le désert de Gédrosie, préférant rentrer par voie maritime"],
+      "correctIndex": 1,
+      "explanation": "À Opis (324 av. J.-C.), Alexandre annonce le renvoi de ses vétérans macédoniens, dans le cadre de sa politique de fusion entre Macédoniens et Perses. Ses soldats, offensés d'être remplacés par des barbares à leurs yeux, se mutinent. Alexandre réagit de façon théâtrale : il se retire dans sa tente, fait arrêter les meneurs et attend. Après trois jours, les soldats cèdent et se réconcilient avec lui dans les larmes lors d'un banquet de réconciliation fameux. Cet épisode illustre le charisme exceptionnel d'Alexandre et sa capacité à retourner les crises à son avantage."
     },
     {
       "id": "19",
-      "question": "Quel type de chef est Alexandre ?",
-      "answers": ["Chef distant", "Chef charismatique et présent sur le terrain", "Chef symbolique", "Chef religieux"],
+      "question": "Alexandre est blessé à plusieurs reprises au cours de ses campagnes, combattant toujours en première ligne. Quelle blessure, reçue lors du siège d'une ville indienne en 325 av. J.-C., manque de lui coûter la vie ?",
+      "image": null,
+      "imagePrompt": "Alexander wounded Malli India arrow lung chest battle personal risk",
+      "answers": ["Une flèche dans l'œil lors du siège de la ville de Malle, en Inde", "Une flèche qui traverse son armure et perfore un poumon lors de l'assaut de la ville des Malliens", "Un coup d'épée à la gorge lors d'un combat singulier contre un chef indien", "Une chute de cheval lors du franchissement de l'Hydaspe, lui brisant plusieurs côtes"],
       "correctIndex": 1,
-      "explanation": "Alexandre combat aux côtés de ses hommes, ce qui renforce son autorité et son image de leader exceptionnel."
+      "explanation": "Lors de l'assaut de la ville des Malliens (actuel Pakistan), Alexandre saute le premier par-dessus les murs de la ville avec seulement trois compagnons — un geste téméraire qui laisse ses soldats stupéfaits. Une flèche lui transperce l'armure et perfore un poumon. Il perd connaissance sous les yeux de ses hommes, qui croient leur chef mort. Alexandre survit après plusieurs semaines de convalescence, mais cet épisode illustre la prise de risque permanente d'un chef qui ne commandait pas de l'arrière mais se battait en première ligne."
     },
     {
       "id": "20",
-      "question": "Pourquoi Alexandre le Grand reste-t-il une figure majeure ?",
-      "answers": ["Pour sa richesse", "Pour sa durée de vie", "Pour son isolement", "Pour son influence militaire et culturelle durable"],
-      "correctIndex": 3,
-      "explanation": "Alexandre a profondément marqué l’histoire par ses conquêtes, mais aussi par la diffusion culturelle qu’il a initiée à travers le monde antique."
+      "question": "L'héritage d'Alexandre dépasse largement son empire éphémère. Quelle figure historique majeure, des siècles plus tard, pleurait devant une statue d'Alexandre en se lamentant de n'avoir encore rien accompli à son âge ?",
+      "image": null,
+      "imagePrompt": "Julius Caesar Spain Alexander statue admiration legacy conqueror",
+      "answers": ["Napoléon Bonaparte, en visitant le tombeau d'Alexandre à Alexandrie", "Jules César, en Espagne vers 69 av. J.-C., alors qu'il avait environ 31 ans", "Auguste, lors de sa visite au tombeau d'Alexandre à Alexandrie après la mort de Cléopâtre", "Hannibal Barca, se comparant défavorablement à Alexandre après ses victoires en Italie"],
+      "correctIndex": 1,
+      "explanation": "Selon Suétone et Plutarque, Jules César, alors questeur en Espagne vers 69 av. J.-C. (il avait environ 31 ans), aurait pleuré devant une statue d'Alexandre en se lamentant : « À mon âge, Alexandre avait déjà conquis le monde, et moi je n'ai encore rien fait de mémorable. » Cet épisode illustre la fascination que l'image d'Alexandre exerçait sur les grands hommes de l'Antiquité. Auguste, lui, visita réellement le tombeau d'Alexandre à Alexandrie en 30 av. J.-C. et aurait accidentellement cassé son nez en voulant le toucher."
     }
   ]
 }
