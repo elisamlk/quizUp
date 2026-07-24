@@ -1,281 +1,181 @@
 {
-    "slug": "quiz-monarques-controverses",
-    "title": "Quiz Histoire - Les Monarques Controversés - 20 souverains qui ont marqué leur époque",
-    "description": "Teste tes connaissances sur les rois, reines, empereurs et souverains dont le règne a suscité débats, crises et oppositions.",
-    "publishedAt": "2026-06-17",
-    "descriptionSeo": "De Néron à Louis XVI, en passant par Henri VIII, Ivan le Terrible, Marie Tudor, Léopold II ou Nicolas II, certains monarques ont profondément marqué l'histoire par leurs décisions, leurs excès, leurs réformes ou les crises de leur règne. Ce quiz d'histoire te propose 20 questions pour mieux comprendre ces souverains controversés, entre pouvoir absolu, conflits, révolutions, violences politiques et héritages débattus.",
-    "category": {
-        "name": "Histoire",
-        "slug": "histoire"
+  "slug": "quiz-monarques-controverses",
+  "title": "Quiz Histoire - Les Monarques Controversés - 20 souverains qui ont marqué leur époque",
+  "description": "Teste tes connaissances sur les rois, reines, empereurs et souverains dont le règne a suscité débats, crises et oppositions.",
+  "publishedAt": "2026-06-17",
+  "descriptionSeo": "De Néron à Louis XVI, en passant par Henri VIII, Ivan le Terrible, Marie Tudor, Léopold II ou Nicolas II, certains monarques ont profondément marqué l'histoire par leurs décisions, leurs excès, leurs réformes ou les crises de leur règne. Ce quiz d'histoire te propose 20 questions pour mieux comprendre ces souverains controversés, entre pouvoir absolu, conflits, révolutions, violences politiques et héritages débattus.",
+  "category": {
+    "name": "Histoire",
+    "slug": "histoire"
+  },
+  "createdAt": "2026-06-06",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1781435390/souverain_og9iil.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1781435390/souverain_og9iil.jpg",
+    "alt": "Quiz sur les monarques controversés"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "question": "Quel empereur romain, accusé d'avoir chanté pendant l'incendie de Rome en 64, persécute ensuite les chrétiens ?",
+      "image": null,
+      "answers": ["Néron", "Auguste", "Trajan", "Marc Aurèle"],
+      "correctIndex": 0,
+      "explanation": "Néron est l'un des empereurs les plus controversés de l'Antiquité. Accusé d'avoir laissé brûler Rome — voire d'avoir ordonné l'incendie — il en rejette la responsabilité sur les chrétiens, déclenchant une première persécution. Les historiens modernes débattent encore de son rôle réel dans le sinistre."
     },
-    "createdAt": "2026-06-06",
-    "isNew": true,
-    "isPopular": true,
-    "images": {
-        "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1781435390/souverain_og9iil.jpg",
-        "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1781435390/souverain_og9iil.jpg",
-        "alt": "Quiz sur les monarques controversés"
+  {
+  "id": "2",
+  "question": "Quel empereur romain, connu pour ses exécutions de sénateurs et son goût du luxe, est assassiné en 192 après un règne de 12 ans ?",
+  "image": null,
+  "answers": ["Caligula", "Néron", "Commode", "Domitien"],
+  "correctIndex": 2,
+  "explanation": "Commode, fils de Marc Aurèle, se prend pour une incarnation d'Hercule, participe à des combats de gladiateurs et fait exécuter de nombreux sénateurs. Son assassinat en 192 ouvre une période d'instabilité politique. Il illustre comment un Empire stable peut basculer rapidement sous un souverain instable."
+},
+    {
+      "id": "3",
+      "question": "Quelle reine d'Angleterre, surnommée 'Bloody Mary', fait brûler environ 280 protestants en cinq ans ?",
+      "image": null,
+      "answers": ["Marie Ire Tudor", "Élisabeth Ire", "Anne Boleyn", "Marie Stuart"],
+      "correctIndex": 0,
+      "explanation": "Marie Ire (1553–1558) tente de restaurer le catholicisme en Angleterre après le règne protestant d'Édouard VI. Elle fait brûler environ 280 protestants pour hérésie, dont l'archevêque Cranmer. Ce bilan lui vaut le surnom de 'Bloody Mary', même si ses contemporains catholiques la considéraient comme une souveraine pieuse."
     },
-    "questions": [
-        {
-            "id": "1",
-            "question": "Quel empereur romain est souvent associé à l'incendie de Rome en 64 ?",
-            "image": null,
-            "answers": [
-                "Néron",
-                "Auguste",
-                "Trajan",
-                "Marc Aurèle"
-            ],
-            "correctIndex": 0,
-            "explanation": "Néron reste l'un des empereurs romains les plus controversés. L'incendie de Rome en 64 a durablement marqué sa réputation, même si les historiens discutent encore son rôle exact dans cet événement."
-        },
-        {
-            "id": "2",
-            "question": "Quel roi d'Angleterre est célèbre pour avoir rompu avec l'Église catholique afin d'annuler son mariage ?",
-            "image": null,
-            "answers": [
-                "Richard III",
-                "Henri VIII",
-                "Jean sans Terre",
-                "Édouard Ier"
-            ],
-            "correctIndex": 1,
-            "explanation": "Henri VIII provoque une rupture majeure avec Rome en créant l'Église d'Angleterre. Cette décision religieuse et politique transforme durablement l'histoire anglaise."
-        },
-        {
-            "id": "3",
-            "question": "Quelle reine d'Angleterre est surnommée Bloody Mary en raison des persécutions religieuses menées sous son règne ?",
-            "image": null,
-            "answers": [
-                "Marie Ire Tudor",
-                "Élisabeth Ire",
-                "Anne Boleyn",
-                "Marie Stuart"
-            ],
-            "correctIndex": 0,
-            "explanation": "Marie Ire Tudor tente de rétablir le catholicisme en Angleterre. Les exécutions de protestants pendant son règne lui valent le surnom de Bloody Mary."
-        },
-        {
-            "id": "4",
-            "question": "Quel tsar russe est connu sous le surnom d'Ivan le Terrible ?",
-            "image": null,
-            "answers": [
-                "Ivan IV",
-                "Pierre Ier",
-                "Nicolas II",
-                "Alexandre III"
-            ],
-            "correctIndex": 0,
-            "explanation": "Ivan IV renforce l'autorité du pouvoir russe, mais son règne est aussi marqué par la violence politique et la répression. Son surnom reflète la crainte qu'il inspire dans l'histoire russe."
-        },
-        {
-            "id": "5",
-            "question": "Quel roi de France est exécuté pendant la Révolution française en 1793 ?",
-            "image": null,
-            "answers": [
-                "Louis XIV",
-                "Louis XV",
-                "Louis XVI",
-                "Charles X"
-            ],
-            "correctIndex": 2,
-            "explanation": "Louis XVI est renversé pendant la Révolution française puis exécuté en janvier 1793. Sa mort symbolise la chute de la monarchie absolue en France."
-        },
-        {
-            "id": "6",
-            "question": "Quel roi de Belgique est fortement controversé pour son rôle dans l'exploitation de l'État indépendant du Congo ?",
-            "image": null,
-            "answers": [
-                "Léopold Ier",
-                "Baudouin Ier",
-                "Albert Ier",
-                "Léopold II"
-            ],
-            "correctIndex": 3,
-            "explanation": "Léopold II contrôle personnellement l'État indépendant du Congo. Son règne reste associé à une exploitation coloniale brutale et à de graves violences."
-        },
-        {
-            "id": "7",
-            "question": "Quel dernier empereur de Russie abdique pendant la révolution de 1917 ?",
-            "image": null,
-            "answers": [
-                "Nicolas II",
-                "Alexandre II",
-                "Paul Ier",
-                "Pierre III"
-            ],
-            "correctIndex": 0,
-            "explanation": "Nicolas II abdique en 1917 après une série de crises politiques, militaires et sociales. Son règne marque la fin de l'Empire russe et de la dynastie Romanov."
-        },
-        {
-            "id": "8",
-            "question": "Quel roi d'Angleterre est souvent accusé d'avoir fait assassiner les Princes de la Tour ?",
-            "image": null,
-            "answers": [
-                "Henri VII",
-                "Richard III",
-                "Édouard IV",
-                "Charles II"
-            ],
-            "correctIndex": 1,
-            "explanation": "Richard III reste associé au mystère des Princes de la Tour, deux jeunes héritiers disparus en 1483. Cette affaire a fortement contribué à sa réputation controversée."
-        },
-        {
-            "id": "9",
-            "question": "Quel roi de France est lié au massacre de la Saint-Barthélemy en 1572 ?",
-            "image": null,
-            "answers": [
-                "Henri IV",
-                "Charles IX",
-                "François Ier",
-                "Louis XIII"
-            ],
-            "correctIndex": 1,
-            "explanation": "Charles IX règne lors du massacre de la Saint-Barthélemy, qui vise les protestants en France. Cet épisode sanglant reste l'un des événements les plus sombres des guerres de Religion."
-        },
-        {
-            "id": "10",
-            "question": "Quel souverain anglais est contraint d'accepter la Magna Carta en 1215 ?",
-            "image": null,
-            "answers": [
-                "Jean sans Terre",
-                "Henri II",
-                "Richard Cœur de Lion",
-                "Édouard III"
-            ],
-            "correctIndex": 0,
-            "explanation": "Jean sans Terre est forcé par les barons anglais à accepter la Magna Carta. Ce texte limite certains pouvoirs royaux et devient un symbole important dans l'histoire politique anglaise."
-        },
-        {
-            "id": "11",
-            "question": "Quel empereur français est encore débattu pour son autoritarisme et les guerres qu'il a menées en Europe ?",
-            "image": null,
-            "answers": [
-                "Louis-Philippe Ier",
-                "Charles X",
-                "Henri IV",
-                "Napoléon Ier"
-            ],
-            "correctIndex": 3,
-            "explanation": "Napoléon Ier modernise l'administration et le droit, mais son règne est aussi marqué par un pouvoir autoritaire et de nombreuses guerres. Son héritage reste donc très discuté."
-        },
-        {
-            "id": "12",
-            "question": "Quel roi d'Espagne est associé à l'Inquisition et à la répression contre les protestants aux Pays-Bas ?",
-            "image": null,
-            "answers": [
-                "Philippe II",
-                "Charles III",
-                "Ferdinand VII",
-                "Alphonse XIII"
-            ],
-            "correctIndex": 0,
-            "explanation": "Philippe II défend fortement le catholicisme et mène une politique répressive contre les révoltes protestantes. Son règne est marqué par de grands conflits religieux et impériaux."
-        },
-        {
-            "id": "13",
-            "question": "Quelle reine de France est devenue un symbole de la monarchie impopulaire avant la Révolution française ?",
-            "image": null,
-            "answers": [
-                "Anne d'Autriche",
-                "Marie de Médicis",
-                "Marie-Antoinette",
-                "Blanche de Castille"
-            ],
-            "correctIndex": 2,
-            "explanation": "Marie-Antoinette devient une figure très impopulaire à la fin de l'Ancien Régime. Son image est associée au luxe de la cour, même si de nombreuses accusations contre elle furent exagérées."
-        },
-        {
-            "id": "14",
-            "question": "Quel empereur romain est célèbre pour son comportement extravagant et son assassinat en 41 ?",
-            "image": null,
-            "answers": [
-                "Caligula",
-                "Tibère",
-                "Claude",
-                "Vespasien"
-            ],
-            "correctIndex": 0,
-            "explanation": "Caligula est connu pour son règne court et souvent décrit comme tyrannique par les sources antiques. Sa réputation repose toutefois sur des récits parfois hostiles."
-        },
-        {
-            "id": "15",
-            "question": "Quel roi de France est surnommé le Roi-Soleil et reste controversé pour son absolutisme et ses guerres coûteuses ?",
-            "image": null,
-            "answers": [
-                "Louis XIII",
-                "Louis XIV",
-                "Louis XV",
-                "Louis XVI"
-            ],
-            "correctIndex": 1,
-            "explanation": "Louis XIV incarne la monarchie absolue française. Son règne est associé à la grandeur de Versailles, mais aussi à de longues guerres et à une forte centralisation du pouvoir."
-        },
-        {
-            "id": "16",
-            "question": "Quel roi d'Angleterre est exécuté en 1649 après la guerre civile anglaise ?",
-            "image": null,
-            "answers": [
-                "Charles Ier",
-                "Jacques Ier",
-                "Charles II",
-                "Guillaume III"
-            ],
-            "correctIndex": 0,
-            "explanation": "Charles Ier entre en conflit avec le Parlement, ce qui mène à la guerre civile anglaise. Son exécution en 1649 marque une rupture majeure dans l'histoire de la monarchie britannique."
-        },
-        {
-            "id": "17",
-            "question": "Quel empereur d'Éthiopie est critiqué pour la gestion de la famine et renversé en 1974 ?",
-            "image": null,
-            "answers": [
-                "Ménélik II",
-                "Tewodros II",
-                "Yohannes IV",
-                "Haïlé Sélassié"
-            ],
-            "correctIndex": 3,
-            "explanation": "Haïlé Sélassié est une figure importante de l'histoire éthiopienne, mais la fin de son règne est marquée par des critiques sur l'autoritarisme et la gestion de la famine."
-        },
-        {
-            "id": "18",
-            "question": "Quel roi de France est renversé lors de la révolution de 1830 après avoir tenté de renforcer l'autorité royale ?",
-            "image": null,
-            "answers": [
-                "Louis XVIII",
-                "Charles X",
-                "Napoléon III",
-                "Louis-Philippe Ier"
-            ],
-            "correctIndex": 1,
-            "explanation": "Charles X mène une politique conservatrice qui provoque une forte opposition. Les ordonnances de 1830 déclenchent les Trois Glorieuses et entraînent son abdication."
-        },
-        {
-            "id": "19",
-            "question": "Quel sultan ottoman est surnommé le Sultan rouge par ses opposants en raison des massacres hamidiens ?",
-            "image": null,
-            "answers": [
-                "Abdülhamid II",
-                "Soliman le Magnifique",
-                "Mehmed II",
-                "Selim Ier"
-            ],
-            "correctIndex": 0,
-            "explanation": "Abdülhamid II règne sur l'Empire ottoman à la fin du XIXe siècle. Il est très controversé en raison de son autoritarisme et des violences commises contre les Arméniens."
-        },
-        {
-            "id": "20",
-            "question": "Quel empereur romain persécute les chrétiens avant d'abdiquer volontairement en 305 ?",
-            "image": null,
-            "answers": [
-                "Constantin Ier",
-                "Hadrien",
-                "Commode",
-                "Dioclétien"
-            ],
-            "correctIndex": 3,
-            "explanation": "Dioclétien réorganise profondément l'Empire romain, mais son règne est aussi marqué par une grande persécution contre les chrétiens. Il est l'un des rares empereurs romains à abdiquer volontairement."
-        }
-    ]
+    {
+      "id": "4",
+      "question": "Quel tsar russe, surnommé 'le Terrible', tue son propre fils dans un accès de colère en 1581 ?",
+      "image": null,
+      "answers": ["Ivan IV", "Pierre Ier", "Nicolas II", "Alexandre III"],
+      "correctIndex": 0,
+      "explanation": "Ivan IV (1547–1584) centralise le pouvoir russe et crée l'Opritchnina, police politique qui terrorise la noblesse. En 1581, il tue son propre fils Ivan d'un coup de sceptre lors d'une dispute. Ce drame, immortalisé par Répine, illustre la violence de son règne. Son surnom 'Grozny' signifie 'redoutable' plus que 'terrible'."
+    },
+  {
+  "id": "5",
+  "question": "Quel roi de France est exécuté le 21 janvier 1793, premier régicide décidé par un vote d'une assemblée représentative en France ?",
+  "image": null,
+  "answers": ["Louis XIV", "Louis XV", "Louis XVI", "Charles X"],
+  "correctIndex": 2,
+  "explanation": "Louis XVI est guillotiné place de la Révolution après un vote serré de la Convention (361 voix contre 360 pour la mort immédiate). Sa mort provoque un choc diplomatique en Europe et déclenche la première coalition contre la France révolutionnaire. Elle marque la rupture définitive avec la monarchie absolue."
+},
+    {
+      "id": "6",
+      "question": "Quel roi des Belges administre personnellement le Congo comme propriété privée, provoquant des atrocités estimées à plusieurs millions de morts ?",
+      "image": null,
+      "answers": ["Léopold Ier", "Baudouin Ier", "Albert Ier", "Léopold II"],
+      "correctIndex": 3,
+      "explanation": "Léopold II obtient en 1885 la reconnaissance internationale de l'État indépendant du Congo comme sa propriété personnelle. Son régime d'exploitation du caoutchouc s'accompagne de mutilations, d'assassinats et de prises d'otages systématiques. Les historiens estiment les morts à plusieurs millions. Le scandale international force la Belgique à annexer le territoire en 1908."
+    },
+    {
+      "id": "7",
+      "question": "Quel dernier tsar de Russie, incapable de réformer un empire en crise, abdique en mars 1917 avant d'être exécuté avec sa famille ?",
+      "image": null,
+      "answers": ["Nicolas II", "Alexandre II", "Paul Ier", "Pierre III"],
+      "correctIndex": 0,
+      "explanation": "Nicolas II (1894–1917) maintient l'autocratie face aux pressions libérales, perd la guerre russo-japonaise (1905) et engage la Russie dans la catastrophe de la Première Guerre mondiale. Il abdique en mars 1917 sous la pression des révolutionnaires. Lui, sa femme Alexandra, ses cinq enfants et leurs domestiques sont fusillés à Iekaterinbourg en juillet 1918."
+    },
+    {
+      "id": "8",
+      "question": "Quel roi d'Angleterre, souvent présenté comme le meurtrier des Princes de la Tour, est tué à Bosworth en 1485 — dernier roi anglais à mourir au combat ?",
+      "image": null,
+      "answers": ["Henri VII", "Richard III", "Édouard IV", "Charles II"],
+      "correctIndex": 1,
+      "explanation": "Richard III règne de 1483 à 1485. La disparition de ses neveux Édouard V et Richard de Shrewsbury dans la Tour de Londres reste l'un des grands mystères de l'histoire anglaise. Popularisé comme tyran par Shakespeare (au service des Tudor), il est aujourd'hui réhabilité par certains historiens. Son squelette a été découvert sous un parking de Leicester en 2012."
+    },
+    {
+      "id": "9",
+      "question": "Quel roi de France, influencé par sa mère Catherine de Médicis, signe l'ordre d'exécution des chefs protestants la nuit du 23 au 24 août 1572 ?",
+      "image": null,
+      "answers": ["Henri IV", "Charles IX", "François Ier", "Louis XIII"],
+      "correctIndex": 1,
+      "explanation": "Charles IX (1560–1574) ordonne l'exécution des chefs huguenots dans la nuit de la Saint-Barthélemy, déclenchant un massacre qui s'étend à toute la France et fait entre 3 000 et 30 000 victimes. Son rôle exact — manipulation par sa mère ou décision personnelle — reste débattu par les historiens."
+    },
+    {
+      "id": "10",
+      "question": "Quel roi d'Angleterre, surnommé 'sans Terre' pour ses pertes territoriales, est contraint par les barons d'accepter la Magna Carta en 1215 ?",
+      "image": null,
+      "answers": ["Jean sans Terre", "Henri II", "Richard Cœur de Lion", "Édouard III"],
+      "correctIndex": 0,
+      "explanation": "Jean sans Terre perd la Normandie face à Philippe Auguste (1204) et subit une série d'échecs militaires et fiscaux. Les barons révoltés le forcent à signer la Magna Carta à Runnymede en juin 1215. Ce texte, qui limite certains pouvoirs royaux, devient un fondement de la tradition constitutionnelle britannique."
+    },
+    {
+      "id": "11",
+      "question": "Quel conquérant militaire sacré empereur en 1804 est controversé pour son autoritarisme autant qu'admiré pour ses réformes institutionnelles ?",
+      "image": null,
+      "answers": ["Louis-Philippe Ier", "Charles X", "Napoléon III", "Napoléon Ier"],
+      "correctIndex": 3,
+      "explanation": "Napoléon Ier (1804–1815) dote la France du Code civil, du Conseil d'État et du lycée, mais soumet l'Europe à plus de dix ans de guerres (environ 3 à 5 millions de morts militaires). Son règne illustre la tension entre modernisation institutionnelle et impérialisme conquérant. Son héritage reste profondément divisé selon les pays et les traditions politiques."
+    },
+    {
+      "id": "12",
+      "question": "Quel roi d'Espagne, fils de Charles Quint, réprime dans le sang la révolte protestante des Pays-Bas et envoie l'Invincible Armada contre l'Angleterre ?",
+      "image": null,
+      "answers": ["Philippe II", "Charles III", "Ferdinand VII", "Alphonse XIII"],
+      "correctIndex": 0,
+      "explanation": "Philippe II (1556–1598) est le champion de la Contre-Réforme catholique. Il envoie le duc d'Albe réprimer la révolte des Pays-Bas (des milliers d'exécutions par le Conseil des troubles), puis l'Invincible Armada contre l'Angleterre protestante d'Élisabeth Ire (1588), qui se solde par un désastre. Son absolutisme religieux fait de lui l'un des souverains les plus controversés du XVIe siècle."
+    },
+    {
+      "id": "13",
+      "question": "Quel calife abbasside, connu dans les Mille et Une Nuits, est controversé pour ses exécutions arbitraires de proches et de ministres ?",
+      "image": null,
+      "answers": ["Al-Mansur", "Haroun al-Rachid", "Al-Mamoun", "Al-Mutawakkil"],
+      "correctIndex": 1,
+      "explanation": "Haroun al-Rachid (786–809) préside à l'âge d'or abbasside et est romanticisé dans les Mille et Une Nuits. Mais son règne est aussi marqué par l'exécution de la puissante famille Barmakide — ses propres ministres — en 803, dans des circonstances encore débattues. Sa figure oscille entre splendeur légendaire et autoritarisme réel."
+    },
+    {
+      "id": "14",
+      "question": "Quel empereur romain, se prenant pour un dieu vivant, est assassiné par sa garde prétorienne après seulement quatre ans de règne ?",
+      "image": null,
+      "answers": ["Tibère", "Caligula", "Claude", "Vespasien"],
+      "correctIndex": 1,
+      "explanation": "Caligula (37–41) débute son règne sous de bons auspices avant de sombrer dans un comportement de plus en plus erratique selon les sources antiques. Il se fait adorer comme un dieu vivant et fait exécuter de nombreux sénateurs. Assassiné par la garde prétorienne en 41, il reste un symbole du pouvoir absolu dévoyé — même si les sources hostiles l'ont peut-être noirci."
+    },
+    {
+      "id": "15",
+      "question": "Quel roi de France, incarnation de la monarchie absolue, révoque l'édit de Nantes en 1685 et force 200 000 huguenots à fuir le royaume ?",
+      "image": null,
+      "answers": ["Louis XIII", "Louis XIV", "Louis XV", "Louis XVI"],
+      "correctIndex": 1,
+      "explanation": "Louis XIV (1643–1715) incarne l'absolutisme par la grâce de Dieu. La révocation de l'édit de Nantes (1685) prive les protestants de leurs droits et provoque l'exil de 200 000 huguenots, dont de nombreux artisans et commerçants qualifiés qui enrichissent les pays voisins. Ce choix religieux reste l'un des plus controversés de son long règne."
+    },
+    {
+      "id": "16",
+      "question": "Quel roi d'Angleterre, jugé par un tribunal révolutionnaire unique dans l'histoire européenne, est décapité en janvier 1649 ?",
+      "image": null,
+      "answers": ["Charles Ier", "Jacques Ier", "Charles II", "Guillaume III"],
+      "correctIndex": 0,
+      "explanation": "Charles Ier entre en conflit ouvert avec le Parlement sur la fiscalité et les droits constitutionnels, déclenchant la guerre civile anglaise (1642–1651). Après sa défaite militaire, il est jugé pour trahison contre le peuple anglais — une procédure sans précédent — et exécuté le 30 janvier 1649. Son exécution inspire indirectement la Révolution française un siècle et demi plus tard."
+    },
+    {
+      "id": "17",
+      "question": "Quel dernier empereur d'Éthiopie, vénéré comme un dieu par les Rastafaris, est renversé en 1974 après une famine cachée au monde ?",
+      "image": null,
+      "answers": ["Ménélik II", "Tewodros II", "Yohannes IV", "Haïlé Sélassié"],
+      "correctIndex": 3,
+      "explanation": "Haïlé Sélassié règne de 1930 à 1974 et joue un rôle majeur dans la création de l'Organisation de l'unité africaine. Mais la famine de 1972–1974, délibérément dissimulée au monde, fait environ 200 000 morts et déclenche le putsch militaire qui le renverse. Arrêté, il meurt en captivité en 1975 dans des circonstances jamais officiellement éclaircies."
+    },
+    {
+      "id": "18",
+      "question": "Quel roi de France, frère de Louis XVI, est renversé en juillet 1830 après avoir tenté de museler la presse et de réduire le corps électoral par ordonnances ?",
+      "image": null,
+      "answers": ["Louis XVIII", "Charles X", "Napoléon III", "Louis-Philippe Ier"],
+      "correctIndex": 1,
+      "explanation": "Charles X (1824–1830) mène une politique ultra-royaliste. Ses quatre ordonnances de juillet 1830 — qui suspendent la liberté de la presse, dissolvent la Chambre et réduisent le suffrage — déclenchent les Trois Glorieuses (27–29 juillet). Il abdique et s'exile, laissant le trône à Louis-Philippe d'Orléans."
+    },
+    {
+      "id": "19",
+      "question": "Quel sultan ottoman surnommé 'le Sultan rouge' ordonne les massacres hamidiens qui font entre 80 000 et 300 000 morts arméniens entre 1894 et 1896 ?",
+      "image": null,
+      "answers": ["Abdülhamid II", "Soliman le Magnifique", "Mehmed II", "Selim Ier"],
+      "correctIndex": 0,
+      "explanation": "Abdülhamid II (1876–1909) suspend la Constitution ottomane et instaure un régime autoritaire. Les massacres hamidiens (1894–1896) frappent les Arméniens et font entre 80 000 et 300 000 victimes selon les estimations. Ces violences préfigurent le génocide arménien de 1915, perpétré sous le régime des Jeunes-Turcs après sa déposition."
+    },
+    {
+      "id": "20",
+      "question": "Quel empereur romain, après avoir persécuté les chrétiens, abdique volontairement en 305 — cas unique dans l'histoire impériale romaine ?",
+      "image": null,
+      "answers": ["Constantin Ier", "Hadrien", "Commode", "Dioclétien"],
+      "correctIndex": 3,
+      "explanation": "Dioclétien (284–305) réorganise profondément l'Empire romain en instaurant la Tétrarchie (gouvernement à quatre). Sa 'Grande Persécution' des chrétiens (303–305) est la plus sévère de l'histoire romaine. Il abdique volontairement en 305 — cas unique — et se retire dans son palais de Split (actuelle Croatie), refusant même de reprendre le pouvoir quand on le lui demande."
+    }
+  ]
 }

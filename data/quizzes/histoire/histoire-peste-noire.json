@@ -2,7 +2,7 @@
   "slug": "quiz-peste-noire-histoire",
   "title": "Quiz Histoire - Peste noire - Que savez-vous vraiment de cette épidémie ?",
   "description": "Propagation, conséquences et histoire : teste tes connaissances sur la peste noire au Moyen Âge.",
-  "descriptionSeo": "Teste tes connaissances sur la peste noire avec ce quiz d’histoire consacré à l’une des épidémies les plus meurtrières du Moyen Âge. Origine, diffusion, symptômes, réactions des populations et conséquences sociales : connais-tu vraiment cette pandémie ? 20 questions avec réponses et explications pour comprendre comment la peste noire a bouleversé l’Europe et transformé durablement l’histoire médiévale.",
+  "descriptionSeo": "Teste tes connaissances sur la peste noire avec ce quiz d'histoire consacré à l'une des épidémies les plus meurtrières du Moyen Âge. Origine, diffusion, symptômes, réactions des populations et conséquences sociales : connais-tu vraiment cette pandémie ? 20 questions avec réponses et explications pour comprendre comment la peste noire a bouleversé l'Europe et transformé durablement l'histoire médiévale.",
   "category": {
     "name": "Histoire",
     "slug": "histoire"
@@ -18,143 +18,143 @@
   "questions": [
     {
       "id": "1",
-      "question": "À quelle période la peste noire frappe-t-elle l’Europe ?",
-      "answers": ["Moyen Âge", "Renaissance", "Antiquité", "Temps modernes"],
-      "correctIndex": 0,
-      "explanation": "La peste noire ravage l’Europe au XIVe siècle, en pleine période médiévale. Son arrivée à partir de 1347 provoque une crise démographique et sociale d’une ampleur exceptionnelle."
+      "question": "En quelle année la peste noire atteint-elle les premiers ports européens, après avoir ravagé l'Asie centrale ?",
+      "answers": ["1315", "1347", "1380", "1290"],
+      "correctIndex": 1,
+      "explanation": "La peste noire débarque en Europe en octobre 1347 quand des navires génois revenant de Caffa (Crimée) accostent en Sicile. Les marins sont soit morts, soit couverts de bubons. Les autorités de Messine ordonnent que les navires repartent immédiatement, mais il est trop tard : la pandémie est en Europe."
     },
     {
       "id": "2",
-      "question": "Quel agent pathogène est à l’origine de la peste noire ?",
-      "answers": ["Un virus", "Une bactérie", "Un champignon", "Un parasite"],
+      "question": "Quelle bactérie, identifiée seulement en 1894 par le médecin Alexandre Yersin, est responsable de la peste ?",
+      "answers": ["Vibrio cholerae", "Yersinia pestis", "Staphylococcus aureus", "Bacillus anthracis"],
       "correctIndex": 1,
-      "explanation": "La peste est causée par la bactérie Yersinia pestis. Cette découverte est beaucoup plus tardive que l’épidémie elle-même, car les contemporains du Moyen Âge ignoraient totalement l’existence des bactéries."
+      "explanation": "Yersinia pestis — nommée en hommage à son découvreur Alexandre Yersin — est la bactérie responsable de la peste. Yersin l'isole à Hong Kong lors d'une épidémie en 1894, soit plus de 500 ans après la peste noire. Les hommes du XIVe siècle, ignorant l'existence des bactéries, cherchaient d'autres explications : punition divine, air corrompu, conjonction des astres."
     },
     {
       "id": "3",
-      "question": "Quel animal joue un rôle central dans la diffusion de la maladie ?",
-      "answers": ["Le cheval", "Le chien", "Le rat", "Le mouton"],
-      "correctIndex": 2,
-      "explanation": "Les rats, surtout lorsqu’ils transportent des puces infectées, jouent un rôle clé dans la propagation de la peste. Ce n’est toutefois pas le rat qui transmet directement la maladie à l’homme, mais surtout la piqûre de puces porteuses de la bactérie."
+      "question": "Quel rôle jouent précisément les puces dans la transmission de la peste bubonique à l'homme ?",
+      "answers": ["Elles transmettent un virus par salive", "Elles régurgitent des bactéries dans la plaie", "Elles contaminent l'eau et les aliments", "Elles ne jouent aucun rôle direct"],
+      "correctIndex": 1,
+      "explanation": "La puce du rat (Xenopsylla cheopis) s'infecte en se nourrissant du sang d'un rat malade. Quand le rat meurt, la puce cherche un nouvel hôte — parfois un humain. En piquant, elle régurgite des bactéries dans la plaie. C'est ce mécanisme précis qui explique la diffusion rapide de la maladie le long des routes commerciales : marchandises, navires, entrepôts — partout où vivent les rats."
     },
     {
       "id": "4",
-      "question": "Par quel moyen la peste noire pénètre-t-elle largement en Europe ?",
-      "answers": ["Par les croisades", "Par les pèlerinages", "Par les invasions vikings", "Par le commerce maritime"],
-      "correctIndex": 3,
-      "explanation": "Le commerce maritime favorise l’arrivée de la peste en Europe, notamment via les ports méditerranéens. Les navires transportent marchandises, hommes, rats et puces, ce qui accélère la diffusion de l’épidémie."
+      "question": "Comment la ville mongole de Kaffa (actuelle Féodossia, Crimée) contribue-t-elle à l'entrée de la peste en Europe vers 1346 ?",
+      "answers": ["Les marchands génois fuient Kaffa avec la maladie", "Les Mongols envoient des ambassadeurs malades", "Une famine force les populations à migrer", "Les croisés rapportent la maladie d'une bataille"],
+      "correctIndex": 0,
+      "explanation": "Les Mongols assiégeant Kaffa catapultent par-dessus les remparts les cadavres de leurs soldats morts de la peste — l'une des premières utilisations documentées de la guerre biologique. Les marchands génois enfermés dans la ville s'enfuient vers la Méditerranée, emportant la maladie à bord de leurs navires. Ils accostent en Sicile en octobre 1347."
     },
     {
       "id": "5",
-      "question": "Quel port français figure parmi les premiers touchés ?",
-      "answers": ["Marseille", "Bordeaux", "Rouen", "Nantes"],
+      "question": "Quel port méditerranéen français est l'un des premiers points d'entrée de la peste en France en 1347 ?",
+      "answers": ["Marseille", "Bordeaux", "Toulon", "Montpellier"],
       "correctIndex": 0,
-      "explanation": "Marseille est l’un des premiers grands ports français atteints en 1347. Depuis ce point d’entrée, la maladie gagne rapidement l’intérieur du royaume par les routes commerciales et les déplacements humains."
+      "explanation": "Marseille est l'un des premiers ports français atteints dès 1347. Depuis ce point d'entrée, la maladie remonte rapidement par les routes commerciales vers le nord. Paris est touchée en 1348, l'Angleterre la même année. En deux ans, la peste couvre presque toute l'Europe occidentale."
     },
     {
       "id": "6",
-      "question": "Quel symptôme caractérise particulièrement la peste bubonique ?",
-      "answers": ["Une paralysie immédiate", "Des ganglions enflés", "Une cécité brutale", "Des douleurs dentaires"],
+      "question": "Qu'est-ce qu'un bubon, symptôme caractéristique de la peste bubonique ?",
+      "answers": ["Une fièvre dépassant 42°C", "Un ganglion lymphatique enflé et douloureux", "Une éruption cutanée noircissante", "Une hémorragie interne massive"],
       "correctIndex": 1,
-      "explanation": "La peste bubonique provoque des bubons, c’est-à-dire des ganglions très enflés et douloureux, souvent au niveau de l’aine, du cou ou des aisselles. Ce signe clinique est tellement marquant qu’il a donné son nom à cette forme de peste."
+      "explanation": "Un bubon est un ganglion lymphatique infecté et enflé — parfois gros comme un œuf — qui apparaît à l'aine, sous les aisselles ou dans le cou selon le site d'entrée de la bactérie. Extrêmement douloureux, il peut suppurer. Ce symptôme si caractéristique a donné son nom à la forme 'bubonique' de la peste. Sans traitement, la maladie est mortelle dans 30 à 90 % des cas."
     },
     {
       "id": "7",
-      "question": "Quelle proportion approximative de la population européenne disparaît ?",
-      "answers": ["Environ 10%", "Environ 20%", "Environ 30 à 50%", "Moins de 5%"],
+      "question": "Quelle proportion de la population européenne la peste noire emporte-t-elle entre 1347 et 1351 ?",
+      "answers": ["5 à 10 %", "15 à 20 %", "30 à 50 %", "Plus de 70 %"],
       "correctIndex": 2,
-      "explanation": "On estime généralement que la peste noire tue entre 30% et 50% de la population européenne. Cette mortalité massive désorganise durablement l’économie, la société et les structures de pouvoir."
+      "explanation": "Les historiens estiment que la peste noire tue entre 30 % et 50 % de la population européenne en quatre ans — soit 25 à 50 millions de morts sur un continent d'environ 75 millions d'habitants. Certaines régions comme la Toscane ou la Normandie perdent plus de la moitié de leurs habitants. L'Europe ne retrouve son niveau démographique d'avant 1347 qu'au milieu du XVe siècle."
     },
     {
       "id": "8",
-      "question": "Combien de temps dure la grande vague initiale en Europe ?",
-      "answers": ["Environ 1 an", "Environ 10 ans", "Environ 20 ans", "Environ 3 à 4 ans"],
+      "question": "Combien de temps dure la première grande vague de la peste noire en Europe ?",
+      "answers": ["Environ 1 an", "Environ 10 ans", "Environ 20 ans", "Environ 4 ans"],
       "correctIndex": 3,
-      "explanation": "La grande vague initiale s’étend globalement de 1347 à 1351. Même si la peste réapparaît ensuite par épisodes pendant des siècles, cette première phase est la plus dévastatrice."
+      "explanation": "La grande vague initiale s'étend de 1347 à 1351 — soit environ quatre ans pour traverser toute l'Europe. Mais la peste ne disparaît pas ensuite : elle revient par vagues successives tout au long des XIVe, XVe, XVIe et XVIIe siècles. La Grande Peste de Londres de 1665 en est l'une des dernières grandes manifestations en Europe occidentale."
     },
     {
       "id": "9",
-      "question": "Quelle forme de peste est la plus fréquemment associée à la peste noire médiévale ?",
-      "answers": ["La peste bubonique", "La peste cutanée", "La peste digestive", "La peste nerveuse"],
-      "correctIndex": 0,
-      "explanation": "La forme bubonique est la plus emblématique de la peste noire. Elle n’est pas toujours la seule en circulation, mais c’est celle que les historiens associent le plus souvent à la pandémie médiévale."
+      "question": "Quelle forme de peste, transmissible par voie respiratoire entre humains, est la plus redoutable et la plus contagieuse ?",
+      "answers": ["La peste bubonique", "La peste cutanée", "La peste pulmonaire", "La peste septicémique"],
+      "correctIndex": 2,
+      "explanation": "La peste pulmonaire (ou pneumonique) se développe quand la bactérie atteint les poumons, soit directement par inhalation de gouttelettes, soit à partir d'une forme bubonique non traitée. Elle se transmet alors de personne à personne par la toux. Sa mortalité sans traitement est proche de 100 % et la mort survient en 1 à 3 jours — bien plus rapide que la forme bubonique."
     },
     {
       "id": "10",
-      "question": "Quelle réaction fréquente observe-t-on dans les villes touchées ?",
-      "answers": ["Organisation d’élections", "Fuite des habitants", "Réouverture des marchés", "Départ en croisade"],
-      "correctIndex": 1,
-      "explanation": "De nombreux habitants fuient les villes dès les premiers signes de contagion. Cette fuite reflète la peur généralisée, mais elle contribue aussi parfois à transporter la maladie vers de nouvelles régions."
+      "question": "Quel écrivain florentin décrit avec précision la fuite des habitants de Florence lors de la peste de 1348 dans le prologue du Décaméron ?",
+      "answers": ["Dante Alighieri", "Pétrarque", "Giovanni Boccace", "Machiavel"],
+      "correctIndex": 2,
+      "explanation": "Giovanni Boccace, dans le prologue du Décaméron (1353), décrit la peste de Florence avec une précision clinique et sociale saisissante : les bubons, la fuite des médecins, l'abandon des malades par leurs proches, les cadavres dans les rues. Son texte est l'une des sources littéraires les plus précieuses sur l'expérience vécue de la pandémie."
     },
     {
       "id": "11",
-      "question": "Quel groupe est souvent injustement accusé pendant l’épidémie ?",
-      "answers": ["Les chevaliers", "Les artisans", "Les Juifs", "Les marins"],
+      "question": "Quel groupe minoritaire est massivement persécuté, accusé à tort d'avoir empoisonné les puits pour propager la maladie ?",
+      "answers": ["Les chevaliers templiers", "Les lépreux", "Les communautés juives", "Les marchands arabes"],
       "correctIndex": 2,
-      "explanation": "Les communautés juives sont victimes d’accusations mensongères, notamment celle d’empoisonner les puits. Ces rumeurs entraînent de violentes persécutions, révélant comment les peurs collectives peuvent nourrir la violence sociale."
+      "explanation": "Les communautés juives sont victimes de pogroms dans toute l'Europe, notamment en Allemagne, en France et en Suisse. À Strasbourg, en 1349, environ 2 000 Juifs sont brûlés vifs. Le pape Clément VI publie des bulles condamnant ces violences, rappelant que les Juifs meurent aussi de la peste — ce qui rendait l'accusation d'empoisonnement absurde — mais sans parvenir à endiguer la vague de meurtres."
     },
     {
       "id": "12",
-      "question": "Quelle conséquence économique importante suit la forte mortalité ?",
-      "answers": ["La disparition du commerce", "La fermeture totale des villes", "La suppression de la monnaie", "La hausse des salaires"],
+      "question": "Quelle conséquence économique paradoxale la mort de millions de travailleurs entraîne-t-elle pour les survivants ?",
+      "answers": ["Effondrement du commerce européen", "Fermeture des guildes d'artisans", "Suppression des impôts seigneuriaux", "Hausse des salaires"],
       "correctIndex": 3,
-      "explanation": "La raréfaction de la main-d’œuvre rend les travailleurs survivants plus précieux. Dans de nombreuses régions, cela entraîne une hausse des salaires et affaiblit certaines contraintes du système féodal."
+      "explanation": "La mort de 30 à 50 % de la population rend la main-d'œuvre rare et donc plus précieuse. Dans de nombreuses régions, les paysans et artisans survivants peuvent négocier de meilleures conditions : salaires plus élevés, allègements de corvées, mobilité accrue. Ce renversement partiel des rapports de force contribue à l'érosion du servage en Europe occidentale."
     },
     {
       "id": "13",
-      "question": "Comment appelle-t-on les praticiens souvent représentés avec un masque à bec ?",
-      "answers": ["Les médecins de peste", "Les apothicaires royaux", "Les chirurgiens barbiers", "Les moines soignants"],
-      "correctIndex": 0,
-      "explanation": "L’image du médecin de peste au masque à bec est devenue célèbre. Le bec était censé filtrer les mauvaises odeurs grâce à des herbes aromatiques, car l’on croyait alors que l’air corrompu transmettait la maladie."
+      "question": "Quel équipement caractéristique portent les médecins de peste pour se protéger des miasmes, et en quoi consiste-t-il ?",
+      "answers": ["Un voile de soie au vinaigre", "Une robe de cuir et un masque à bec garni d'herbes", "Un heaume de métal percé de trous", "Un masque trempé dans du mercure"],
+      "correctIndex": 1,
+      "explanation": "L'accoutrement du médecin de peste — robe de cuir, gants, chapeau, canne et surtout le masque à long bec rempli d'herbes aromatiques (lavande, menthe, myrrhe) — est conçu pour filtrer les 'miasmes'. Si ce costume ne protégeait pas vraiment de la bactérie, le cuir offrait une certaine protection contre les puces. Cette silhouette lugubre est devenue l'un des symboles les plus forts de la pandémie médiévale."
     },
     {
       "id": "14",
-      "question": "Quelle théorie domine alors pour expliquer la contamination ?",
-      "answers": ["La théorie des microbes", "La théorie des miasmes", "La théorie des vaccins", "La théorie des continents"],
+      "question": "Quelle théorie médiévale expliquait la transmission des maladies par l'air corrompu et les 'mauvaises odeurs' ?",
+      "answers": ["La théorie des humeurs", "La théorie des miasmes", "La théorie des fluides vitaux", "La théorie des émanations planétaires"],
       "correctIndex": 1,
-      "explanation": "La théorie des miasmes attribue la maladie à un air impur et corrompu. Elle montre les limites des connaissances médicales médiévales, bien avant les découvertes sur les bactéries et les modes réels de transmission."
+      "explanation": "La théorie des miasmes postule que les maladies naissent d'un air vicié par la décomposition organique, les marécages ou la 'corruption' de l'atmosphère. Elle domine la médecine jusqu'à la fin du XIXe siècle. Si elle est fausse concernant la transmission (la peste n'est pas dans l'air mais dans les puces), elle a malgré tout conduit à des mesures utiles : nettoyage des rues, brûlage des corps, ventilation des espaces."
     },
     {
       "id": "15",
-      "question": "De quelle grande région la peste est-elle probablement originaire avant d’atteindre l’Europe ?",
-      "answers": ["D’Amérique", "D’Afrique australe", "D’Asie", "D’Europe du Nord"],
+      "question": "D'où vient probablement la peste noire avant de traverser les routes de la soie vers l'Europe ?",
+      "answers": ["D'Amérique centrale", "D'Afrique subsaharienne", "D'Asie centrale, région du lac Issyk-Koul", "D'Europe du Nord"],
       "correctIndex": 2,
-      "explanation": "Les historiens situent généralement l’origine de la pandémie en Asie, probablement en Asie centrale. Les routes commerciales terrestres et maritimes ont ensuite permis sa diffusion jusqu’en Europe."
+      "explanation": "Des études génétiques récentes (2022) situent l'origine de la souche responsable de la peste noire dans les années 1330-1340 en Asie centrale, probablement dans la région du lac Issyk-Koul (actuel Kirghizistan). Des pierres tombales de cette époque mentionnent une 'épidémie' inconnue. La bactérie se propage ensuite par les routes commerciales — dont la route de la soie — jusqu'en Crimée et en Méditerranée."
     },
     {
       "id": "16",
-      "question": "Quelle mesure de prévention se développe dans certains ports ?",
-      "answers": ["La vaccination", "La désinfection chimique", "Le couvre-feu militaire", "La quarantaine"],
+      "question": "Quelle mesure sanitaire, inventée dans les ports italiens au XIVe siècle, impose aux navires une période d'attente avant de débarquer ?",
+      "answers": ["Le cordon sanitaire", "L'isolement", "L'émigration forcée", "La quarantaine"],
       "correctIndex": 3,
-      "explanation": "La quarantaine impose une attente aux voyageurs ou aux navires avant leur entrée dans la ville. Cette pratique devient un outil majeur de lutte contre les épidémies bien avant la médecine moderne."
+      "explanation": "La quarantaine est instaurée à Raguse (actuelle Dubrovnik) en 1377, puis à Venise en 1383. Le mot vient de l'italien quarantina giorni (quarante jours), durée imposée aux navires et voyageurs suspects. C'est l'une des premières mesures de santé publique modernes, qui préfigure nos protocoles d'isolement actuels. Elle prouve que les médiévaux avaient intuitivement compris la contagiosité de la maladie."
     },
     {
       "id": "17",
-      "question": "Quelle évolution sociale la peste favorise-t-elle en Europe ?",
-      "answers": ["L’affaiblissement du féodalisme", "Le retour de l’esclavage antique", "La disparition des villes", "L’interdiction du commerce"],
-      "correctIndex": 0,
-      "explanation": "Avec la baisse brutale de population, la main-d’œuvre devient plus rare et plus recherchée. Cela fragilise certains rapports de dépendance féodale et améliore parfois la position des paysans et des travailleurs."
+      "question": "Quel mouvement religieux radical, né pendant la peste noire, pratique la flagellation publique pour expier les péchés de l'humanité ?",
+      "answers": ["Les Cathares", "Les Franciscains", "Les Flagellants", "Les Bégards"],
+      "correctIndex": 2,
+      "explanation": "Les Flagellants parcourent l'Europe en processions, se fouettant publiquement pour expier collectivement les péchés humains et apaiser la colère divine. Ce mouvement, né en Allemagne et en Italie, connaît un développement fulgurant en 1348-1349. Le pape Clément VI le condamne en 1349 car les Flagellants échappent au contrôle de l'Église et parfois attisent les persécutions contre les Juifs."
     },
     {
       "id": "18",
-      "question": "Quel effet la peste peut-elle avoir sur l’autorité religieuse ?",
-      "answers": ["Elle la renforce partout", "Elle entraîne une perte partielle de confiance", "Elle la fait totalement disparaître", "Elle interdit tous les rites"],
+      "question": "Quel genre artistique macabre, représentant la mort entraîner dans sa danse des personnes de tous rangs sociaux, se développe en réponse à la peste ?",
+      "answers": ["Le Memento mori", "La Danse macabre", "Le Jugement dernier", "La Pietà"],
       "correctIndex": 1,
-      "explanation": "L’impuissance des autorités religieuses face à l’épidémie conduit une partie de la population à douter. Sans faire disparaître la religion, la peste contribue à une remise en question de certaines institutions."
+      "explanation": "La Danse macabre (Totentanz en allemand) est un genre iconographique et littéraire né au XIVe siècle : la Mort, représentée comme un squelette dansant, entraîne pape, empereur, noble, marchand et paysan — tous égaux face à la mort. Cette image puissante d'égalité sociale devant la mort reflète le choc psychologique de la peste et influence l'art européen jusqu'à la Renaissance."
     },
     {
       "id": "19",
-      "question": "Quelle forme de peste peut se transmettre directement entre humains par voie respiratoire ?",
-      "answers": ["La peste bubonique", "La peste osseuse", "La peste pulmonaire", "La peste cutanée"],
-      "correctIndex": 2,
-      "explanation": "La peste pulmonaire est particulièrement redoutée car elle peut se transmettre d’une personne à l’autre par les gouttelettes respiratoires. Elle est donc plus contagieuse dans certaines conditions que la forme bubonique."
+      "question": "Comment la peste affecte-t-elle la confiance des populations envers l'Église catholique au XIVe siècle ?",
+      "answers": ["Elle la renforce grâce aux miracles", "Elle n'affecte pas la pratique religieuse", "Elle conduit à l'interdiction du culte", "Elle la fragilise car prières et rites n'ont pas empêché la catastrophe"],
+      "correctIndex": 3,
+      "explanation": "L'impuissance de l'Église face à la peste — les prières, les processions et les indulgences n'arrêtent pas la maladie — sème le doute dans les esprits. De nombreux prêtres fuient leurs paroisses pour survivre, abandonnant les malades. Ce traumatisme collectif contribue à long terme à la remise en question de l'autorité ecclésiastique, préfigurant les tensions qui mèneront à la Réforme protestante au XVIe siècle."
     },
     {
       "id": "20",
-      "question": "Pourquoi la peste noire reste-t-elle un événement majeur de l’histoire européenne ?",
-      "answers": ["Parce qu’elle provoque la fin immédiate des monarchies", "Parce qu’elle entraîne uniquement une crise religieuse", "Parce qu’elle déclenche la Renaissance en une année", "Parce qu’elle bouleverse durablement la démographie, l’économie et la société"],
+      "question": "Quelle grande ville anglaise subit en 1665 l'une des dernières grandes épidémies de peste en Europe occidentale ?",
+      "answers": ["Bristol", "Manchester", "Édimbourg", "Londres"],
       "correctIndex": 3,
-      "explanation": "La peste noire n’est pas seulement une catastrophe sanitaire. Elle transforme profondément les équilibres démographiques, les relations de travail, les mentalités et les structures sociales de l’Europe médiévale."
+      "explanation": "La Grande Peste de Londres (1665) fait environ 100 000 morts — un quart de la population de la ville. C'est l'une des dernières grandes épidémies de peste en Europe occidentale, suivie l'année suivante par le Grand Incendie de Londres (1666), qui contribue à assainir la ville. La peste disparaît progressivement d'Europe occidentale au XVIIIe siècle, pour des raisons encore débattues."
     }
   ]
 }

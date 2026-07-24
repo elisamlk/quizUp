@@ -2,7 +2,7 @@
   "slug": "quiz-dynasties-francaises-histoire",
   "title": "Quiz Histoire - Dynasties françaises - Saurez-vous retracer les lignées royales ?",
   "description": "Mérovingiens, Carolingiens, Capétiens : teste tes connaissances sur les dynasties françaises.",
-  "descriptionSeo": "Teste tes connaissances sur les dynasties françaises avec ce quiz d’histoire complet. Des Mérovingiens aux Bourbons, en passant par les Carolingiens et les Capétiens, connais-tu vraiment les grandes lignées royales ? 20 questions avec réponses et explications pour comprendre les successions, les ruptures dynastiques et l’évolution du pouvoir en France du Moyen Âge à l’époque moderne.",
+  "descriptionSeo": "Teste tes connaissances sur les dynasties françaises avec ce quiz d'histoire complet. Des Mérovingiens aux Bourbons, en passant par les Carolingiens et les Capétiens, connais-tu vraiment les grandes lignées royales ? 20 questions avec réponses et explications pour comprendre les successions, les ruptures dynastiques et l'évolution du pouvoir en France du Moyen Âge à l'époque moderne.",
   "category": {
     "name": "Histoire",
     "slug": "histoire"
@@ -13,148 +13,188 @@
   "images": {
     "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1775207175/cover_bilntd.jpg",
     "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1775207175/cover_bilntd.jpg",
-    "alt": "Quiz dynasties francaises histoire rois France"
+    "alt": "Quiz dynasties françaises histoire rois France"
   },
   "questions": [
     {
       "id": "1",
-      "question": "Quelle est la première grande dynastie des rois francs ?",
-      "answers": ["Carolingiens", "Capétiens", "Mérovingiens", "Bourbons"],
-      "correctIndex": 2,
-      "explanation": "Les Mérovingiens sont considérés comme la première dynastie royale des Francs. Leur pouvoir repose en partie sur une légitimité sacrée et des traditions germaniques."
+      "question": "Clovis est le fondateur de la dynastie mérovingienne. Quel acte religieux majeur accomplit-il vers 496 ?",
+      "image": null,
+      "imagePrompt": "Clovis baptism Reims Frankish king conversion Christianity 496",
+      "answers": ["Il fonde l'abbaye de Saint-Denis", "Il se convertit au christianisme à Reims", "Il signe un concordat avec le pape", "Il se proclame seul roi des Francs"],
+      "correctIndex": 1,
+      "explanation": "La conversion de Clovis au catholicisme (vers 496-506, la date exacte est débattue) est un tournant fondateur : les Francs étaient majoritairement ariens ou païens, tandis que la population gallo-romaine était catholique. En adoptant le catholicisme romain — et non l'arianisme des autres peuples germaniques — Clovis s'allie à l'Église et gagne la loyauté de la population. Cette alliance entre trône et autel durera jusqu'à la Révolution. Reims devient le lieu du sacre de presque tous les rois de France."
     },
     {
       "id": "2",
-      "question": "Quel roi est associé à la fondation de la dynastie mérovingienne ?",
-      "answers": ["Clovis", "Charlemagne", "Hugues Capet", "Louis XIV"],
+      "question": "Les rois mérovingiens sont surnommés « rois fainéants ». Qui concentre l'essentiel du pouvoir à leur place ?",
+      "image": null,
+      "imagePrompt": "Mayor of Palace Merovingian weak kings Pepin Charles Martel Carolingian rise",
+      "answers": ["Les maires du palais", "Les évêques depuis leurs cathédrales", "Les comtes des grands fiefs", "Le pape de Rome"],
       "correctIndex": 0,
-      "explanation": "Clovis unifie une grande partie des Francs et se convertit au christianisme. Cette conversion renforce l’alliance entre pouvoir royal et Église."
+      "explanation": "À partir du VIIe siècle, les rois mérovingiens perdent progressivement le pouvoir effectif au profit des maires du palais — chefs de l'administration royale. Ce surnom de « rois fainéants » est lui-même une simplification : certains rois conservent une influence réelle. Charles Martel, maire du palais, repousse les Arabes à Poitiers (732) sans même être roi. Son fils Pépin le Bref franchit le pas suivant : avec l'accord du pape, il dépose le dernier roi mérovingien Childéric III (751) et se fait couronner roi."
     },
     {
       "id": "3",
-      "question": "Quelle dynastie succède aux Mérovingiens ?",
-      "answers": ["Capétiens", "Bourbons", "Valois", "Carolingiens"],
-      "correctIndex": 3,
-      "explanation": "Les Carolingiens prennent le pouvoir avec Pépin le Bref, marquant une transition importante vers un pouvoir plus centralisé."
+      "question": "Pépin le Bref inaugure la dynastie carolingienne en 751. Qu'est-ce qui légitime son renversement du dernier Mérovingien ?",
+      "image": null,
+      "imagePrompt": "Pepin Short pope anointing king 751 Carolingian dynasty Childeric III deposed",
+      "answers": ["Un vote de l'assemblée des grands", "Une victoire militaire contre les Saxons", "La bénédiction du pape Zacharie", "Un oracle de l'abbé de Saint-Denis"],
+      "correctIndex": 2,
+      "explanation": "Pépin le Bref consulte le pape Zacharie en 751 : est-il légitime de déposer un roi qui ne gouverne plus ? Le pape répond que le pouvoir doit appartenir à celui qui l'exerce vraiment. Childéric III est tondu et enfermé dans un monastère. Pépin est sacré roi — deux fois plutôt qu'une : d'abord par Boniface, puis par le pape Étienne II en 754, qui vient en personne en France. Ce précédent fonde le principe selon lequel l'Église légitime le pouvoir royal, lien qui durera jusqu'en 1789."
     },
     {
       "id": "4",
-      "question": "Quel empereur incarne l’apogée des Carolingiens ?",
-      "answers": ["Clovis", "Charlemagne", "Louis IX", "François Ier"],
-      "correctIndex": 1,
-      "explanation": "Charlemagne est couronné empereur en 800. Son empire marque une tentative de restauration de l’unité politique en Europe occidentale."
+      "question": "Le traité de Verdun (843) démembre l'empire de Charlemagne. Quels futurs pays ce partage préfigure-t-il ?",
+      "image": null,
+      "imagePrompt": "Treaty Verdun 843 Carolingian partition France Germany Middle Kingdom map",
+      "answers": ["L'Espagne, le Portugal et la France", "La Normandie, la Bourgogne et la Bretagne", "La France, l'Allemagne et une Francie médiane", "L'Italie, la Pologne et l'empire byzantin"],
+      "correctIndex": 2,
+      "explanation": "Le traité de Verdun (843) partage l'empire entre les trois fils de Louis le Pieux : Charles le Chauve reçoit la Francie occidentale (future France), Louis le Germanique la Francie orientale (future Allemagne), et Lothaire la Francie médiane — une bande centrale allant des Pays-Bas à l'Italie. Cette Francie médiane sera rapidement redivisée. Verdun est souvent présenté comme l'acte de naissance de la France et de l'Allemagne, séparant deux ensembles culturels et linguistiques amenés à suivre des destins distincts."
     },
     {
       "id": "5",
-      "question": "Quelle dynastie succède aux Carolingiens en France ?",
-      "answers": ["Valois", "Capétiens", "Bourbons", "Mérovingiens"],
-      "correctIndex": 1,
-      "explanation": "Les Capétiens accèdent au pouvoir avec Hugues Capet en 987, inaugurant une dynastie durable qui renforce progressivement l’autorité royale."
+      "question": "Hugues Capet est élu roi en 987. Dans quelle situation de faiblesse se trouve-t-il au début de son règne ?",
+      "image": null,
+      "imagePrompt": "Hughes Capet 987 Capetian weak king domain Paris Orléans feudal lords powerful",
+      "answers": ["Il ne contrôle qu'un petit domaine autour de Paris", "Il doit partager le trône avec son frère", "L'Église soutient le dernier Carolingien contre lui", "Les nobles refusent de lui prêter hommage"],
+      "correctIndex": 0,
+      "explanation": "Hugues Capet règne sur un domaine royal minuscule — essentiellement Paris et Orléans — encerclé par des grands féodaux (duc de Normandie, comte de Flandre, duc d'Aquitaine) bien plus riches et puissants que lui. Son pouvoir effectif est dérisoire comparé aux ambitions de ses successeurs. Mais sa dynastie aura l'intelligence de toujours associer le fils aîné au trône de son vivant, évitant les crises de succession. Cette stabilité dynastique permettra aux Capétiens de régner en ligne directe pendant 341 ans, jusqu'en 1328."
     },
     {
       "id": "6",
-      "question": "Quel roi est le premier Capétien ?",
-      "answers": ["Philippe Auguste", "Louis VI", "Louis XIV", "Hugues Capet"],
+      "question": "Philippe Auguste est le premier grand Capétien bâtisseur. Quelle victoire décisive remporte-t-il contre une coalition ennemie ?",
+      "image": null,
+      "imagePrompt": "Battle of Bouvines 1214 Philippe Auguste victory English coalition French king",
+      "answers": ["La croisade albigeoise", "La prise de Rouen", "Le traité de Paris (1259)", "La bataille de Bouvines (1214)"],
       "correctIndex": 3,
-      "explanation": "Hugues Capet est élu roi en 987. Son pouvoir initial est limité, mais sa dynastie va progressivement s’imposer sur tout le territoire."
+      "explanation": "La bataille de Bouvines (27 juillet 1214) est une victoire décisive de Philippe Auguste sur la coalition formée par l'empereur germanique Otton IV, le roi d'Angleterre Jean sans Terre et les comtes de Flandre et de Boulogne. Cette victoire consolide le domaine royal, ruine les prétentions anglaises en France et renforce considérablement le prestige de la monarchie capétienne. Bouvines est souvent présenté comme la première « victoire nationale » française, célébrée par toutes les classes de la société."
     },
     {
       "id": "7",
-      "question": "Quelle branche capétienne succède directement aux Capétiens directs ?",
-      "answers": ["Valois", "Bourbons", "Carolingiens", "Mérovingiens"],
-      "correctIndex": 0,
-      "explanation": "La branche des Valois succède aux Capétiens directs après une crise de succession au XIVe siècle."
+      "question": "La loi salique est invoquée en 1328 pour exclure les femmes du trône. Qui monte sur le trône, inaugurant les Valois ?",
+      "image": null,
+      "imagePrompt": "Philip VI Valois 1328 Salic law succession crisis Capetian direct line end France",
+      "answers": ["Édouard III d'Angleterre", "Charles II de Navarre", "Jean II le Bon", "Philippe VI de Valois"],
+      "correctIndex": 3,
+      "explanation": "À la mort de Charles IV sans héritier mâle (1328), la loi salique est invoquée pour écarter Édouard III d'Angleterre (petit-fils de Philippe IV par sa mère). Philippe VI de Valois, cousin des derniers Capétiens en ligne masculine directe, est couronné roi. Édouard III, refusant cette exclusion, revendique le trône de France par sa mère — ce qui déclenchera la guerre de Cent Ans (1337–1453)."
     },
     {
       "id": "8",
-      "question": "Quelle dynastie règne pendant la guerre de Cent Ans ?",
-      "answers": ["Bourbons", "Mérovingiens", "Valois", "Carolingiens"],
-      "correctIndex": 2,
-      "explanation": "Les Valois dirigent la France pendant la guerre de Cent Ans, une période de crise mais aussi de consolidation du pouvoir royal."
+      "question": "Quel personnage renverse le cours de la guerre de Cent Ans en faveur de Charles VII ?",
+      "image": null,
+      "imagePrompt": "Joan of Arc Hundred Years War Valois Charles VII Orleans siege 1429",
+      "answers": ["Bertrand Du Guesclin", "Jeanne d'Arc", "Le duc de Bourgogne", "Le pape Martin V"],
+      "correctIndex": 1,
+      "explanation": "En 1429, la situation est désespérée pour les Valois. Jeanne d'Arc, jeune paysanne lorraine convaincue d'une mission divine, lève le siège d'Orléans (mai 1429) et conduit Charles VII au sacre de Reims (juillet 1429). Ce sacre est décisif : il légitime Charles VII comme seul roi de France légitime. Jeanne est capturée par les Bourguignons en 1430, vendue aux Anglais et brûlée à Rouen en 1431 — mais la dynamique est inversée."
     },
     {
       "id": "9",
-      "question": "Quelle dynastie succède aux Valois en 1589 ?",
-      "answers": ["Bourbons", "Capétiens", "Carolingiens", "Mérovingiens"],
-      "correctIndex": 0,
-      "explanation": "Les Bourbons accèdent au pouvoir avec Henri IV, mettant fin aux guerres de religion et ouvrant une nouvelle phase de stabilité."
+      "question": "Henri de Navarre succède aux Valois en 1589. Pourquoi doit-il se convertir avant de monter sur le trône ?",
+      "image": null,
+      "imagePrompt": "Henri IV conversion Catholic 1593 Protestant Bourbon king France Paris mass",
+      "answers": ["La loi salique exige un roi catholique depuis Clovis", "Il est protestant dans un royaume à très grande majorité catholique", "Le Parlement de Paris refuse d'enregistrer son accession", "Le pape menace d'excommunier la France entière"],
+      "correctIndex": 1,
+      "explanation": "Henri de Navarre est le premier prince du sang et héritier légitime des Valois, mais il est protestant dans un royaume massivement catholique déchiré par les guerres de religion. La Ligue catholique refuse d'accepter un roi hérétique. Henri abjure le protestantisme en juillet 1593, à Saint-Denis. Sacré à Chartres en 1594, il entre dans Paris sans combat. La formule « Paris vaut bien une messe » lui est attribuée par la tradition, bien que son authenticité soit discutée. Il promulgue l'édit de Nantes (1598) pour mettre fin aux guerres de religion."
     },
     {
       "id": "10",
-      "question": "Quel roi inaugure la dynastie des Bourbons ?",
-      "answers": ["Louis XIII", "Henri IV", "Louis XIV", "François Ier"],
-      "correctIndex": 1,
-      "explanation": "Henri IV fonde la dynastie des Bourbons et rétablit l’ordre après les guerres de religion grâce à une politique de compromis."
+      "question": "Henri IV fonde la branche des Bourbons. Quel édit majeur promulgue-t-il en 1598 pour pacifier le royaume ?",
+      "image": null,
+      "imagePrompt": "Edict of Nantes 1598 Henri IV religious peace Huguenots Catholics France",
+      "answers": ["L'édit de Nantes, accordant la liberté de culte aux protestants", "L'édit de Fontainebleau, expulsant les protestants", "L'édit de Villers-Cotterêts, imposant le français", "L'édit de Saint-Germain, amnistiant les combattants"],
+      "correctIndex": 0,
+      "explanation": "L'édit de Nantes (13 avril 1598) accorde aux protestants (huguenots) la liberté de conscience, un droit de culte limité à certaines localités, l'accès aux charges publiques, des garanties judiciaires et environ 150 places de refuge dont une cinquantaine de places fortes. C'est le premier acte de tolérance religieuse institutionnelle en France. Il est révoqué par Louis XIV en 1685 (édit de Fontainebleau), provoquant l'exil de 200 000 à 400 000 protestants — un désastre économique et humain pour la France."
     },
     {
       "id": "11",
-      "question": "Quelle dynastie est associée à l’apogée de la monarchie absolue ?",
-      "answers": ["Bourbons", "Valois", "Mérovingiens", "Carolingiens"],
-      "correctIndex": 0,
-      "explanation": "Sous les Bourbons, notamment avec Louis XIV, la monarchie absolue atteint son apogée, avec un pouvoir fortement centralisé."
+      "question": "Louis XIV incarne l'apogée de la monarchie absolue. Quelle formule lui est traditionnellement attribuée ?",
+      "image": null,
+      "imagePrompt": "Louis XIV absolute monarchy Sun King Versailles L'état c'est moi",
+      "answers": ["« Je suis l'État »", "« L'État, c'est moi »", "« Dieu et moi gouvernons la France »", "« Le roi ne rend de comptes qu'à Dieu »"],
+      "correctIndex": 1,
+      "explanation": "« L'État, c'est moi » est la formule traditionnellement attribuée à Louis XIV — bien que les historiens doutent qu'il l'ait réellement prononcée. Elle résume néanmoins sa conception du pouvoir : le roi est la source de toute autorité, de toute justice et de toute loi. Louis XIV règne 72 ans (1643–1715), le plus long règne de l'histoire de France. Il construit Versailles pour contrôler la noblesse, développe une administration centralisée et révoque l'édit de Nantes en 1685."
     },
     {
       "id": "12",
-      "question": "Quel événement met fin à la monarchie des Bourbons en 1792 ?",
-      "answers": ["Restauration", "Empire", "Révolution industrielle", "Révolution française"],
-      "correctIndex": 3,
-      "explanation": "La Révolution française abolit la monarchie et met fin à l’Ancien Régime, marquant une rupture majeure dans l’histoire politique."
+      "question": "Louis XVI est guillotiné en janvier 1793. Quelle accusation principale retient le tribunal révolutionnaire ?",
+      "image": null,
+      "imagePrompt": "Louis XVI trial execution guillotine 1793 Convention revolutionary tribunal treason",
+      "answers": ["Avoir ordonné le massacre des Suisses aux Tuileries", "Avoir tenté de fuir à Varennes pour rejoindre les armées ennemies", "Avoir conspiré avec les puissances étrangères contre la France", "Avoir refusé de signer la Constitution de 1791"],
+      "correctIndex": 2,
+      "explanation": "Louis XVI est jugé par la Convention nationale et accusé de conspiration contre la liberté et d'attentat contre la sûreté générale de l'État. La découverte de l'armoire de fer (novembre 1792) — coffre secret contenant sa correspondance avec les émigrés et les puissances étrangères — est déterminante. Condamné à mort à 387 voix contre 334, il est guillotiné place de la Révolution (aujourd'hui place de la Concorde) le 21 janvier 1793. Ce régicide choque l'Europe monarchique et consolide la coalition contre la France révolutionnaire."
     },
     {
       "id": "13",
-      "question": "Quelle dynastie revient au pouvoir après Napoléon en 1814 ?",
-      "answers": ["Valois", "Bourbons", "Capétiens", "Carolingiens"],
-      "correctIndex": 1,
-      "explanation": "La Restauration voit le retour des Bourbons avec Louis XVIII, mais dans un contexte politique profondément transformé."
+      "question": "La Restauration (1814–1830) voit le retour des Bourbons. Quels deux rois se succèdent pendant cette période ?",
+      "image": null,
+      "imagePrompt": "Restoration Louis XVIII Charles X Bourbon monarchy 1814 1830 France",
+      "answers": ["Louis XVI et Louis XVII", "Charles IX et Henri III", "Louis-Philippe et Charles X", "Louis XVIII et Charles X"],
+      "correctIndex": 3,
+      "explanation": "Louis XVIII (frère de Louis XVI) monte sur le trône en 1814 après la chute de Napoléon. Habile politique, il accepte une Charte constitutionnelle garantissant les libertés fondamentales. À sa mort en 1824, son frère Charles X lui succède. Beaucoup plus conservateur, Charles X tente de restaurer l'absolutisme. Ses ordonnances réactionnaires de juillet 1830 déclenchent la révolution des Trois Glorieuses (27–29 juillet), qui l'oblige à abdiquer."
     },
     {
       "id": "14",
-      "question": "Quel principe permet la continuité des dynasties ?",
-      "answers": ["Élection", "Hérédité", "Tirage au sort", "Conquête"],
-      "correctIndex": 2,
-      "explanation": "La transmission héréditaire du pouvoir est un fondement des dynasties, assurant la continuité mais aussi des crises en cas de succession complexe."
+      "question": "Après la chute de Charles X en 1830, quelle branche cadette des Bourbons accède au pouvoir ?",
+      "image": null,
+      "imagePrompt": "Louis-Philippe Orleans July Monarchy 1830 bourgeois king constitutional France",
+      "answers": ["Les Valois-Orléans", "La branche d'Anjou", "La branche de Condé", "La branche d'Orléans avec Louis-Philippe Ier"],
+      "correctIndex": 3,
+      "explanation": "La révolution de Juillet 1830 chasse Charles X mais n'abolit pas la monarchie : les libéraux portent au pouvoir Louis-Philippe d'Orléans, cousin des Bourbons de la branche cadette. Significativement, il prend le titre de « roi des Français » (et non « roi de France »), symbolisant que sa légitimité vient du peuple et non de Dieu. La monarchie de Juillet (1830–1848) s'effondrera lors de la révolution de 1848, ouvrant la voie à la IIe République puis au Second Empire de Napoléon III."
     },
     {
       "id": "15",
-      "question": "Quel problème majeur peut fragiliser une dynastie ?",
-      "answers": ["Absence d’héritier", "Trop de richesse", "Paix", "Commerce"],
-      "correctIndex": 0,
-      "explanation": "L’absence d’héritier direct peut provoquer des crises de succession, entraînant parfois des guerres ou des changements de dynastie."
+      "question": "Le sacre royal à Reims conférait au roi une dimension sacrée. Quel geste central illustrait ce caractère divin ?",
+      "image": null,
+      "imagePrompt": "French coronation Reims cathedral holy chrism anointing king sacred ritual",
+      "answers": ["Prêter serment sur la Bible devant le peuple", "Toucher les reliques de saint Denis", "Recevoir une couronne forgée avec le fer de la lance de Longinus", "Être oint avec la sainte ampoule, huile sacrée de tradition ancienne"],
+      "correctIndex": 3,
+      "explanation": "Le sacre de Reims comprend l'onction royale avec le saint chrême contenu dans la sainte ampoule — une fiole d'huile sacrée dont la tradition médiévale faisait remonter l'origine au baptême de Clovis. Cette onction faisait du roi de France un être à part, investi d'une dignité particulière. C'est dans ce cadre qu'on lui attribuait le pouvoir de guérir les écrouelles par simple toucher — une croyance pratiquée jusqu'aux derniers Bourbons. Cette cérémonie, pratiquée jusqu'à Charles X (1825), fondait la légitimité sacrée de la monarchie française."
     },
     {
       "id": "16",
-      "question": "Quel rôle joue l’Église dans les dynasties françaises ?",
-      "answers": ["Aucun rôle", "Opposition permanente", "Rôle économique", "Légitimation du pouvoir"],
-      "correctIndex": 3,
-      "explanation": "Le sacre royal donne une dimension divine au pouvoir, renforçant la légitimité du roi aux yeux du peuple."
+      "question": "La loi salique exclut les femmes de la succession royale. À quelle occasion est-elle réellement invoquée pour la première fois ?",
+      "image": null,
+      "imagePrompt": "Salic law France 1328 female succession excluded Capetian crisis Valois",
+      "answers": ["Sous Clovis, pour éviter les guerres de succession", "En 1328, lors de la crise amenant les Valois au pouvoir", "Sous Philippe IV le Bel, pour protéger sa lignée", "Pendant la guerre de Cent Ans, pour écarter Édouard III"],
+      "correctIndex": 1,
+      "explanation": "Le droit salique médiéval ne comportait pas de disposition claire excluant les femmes de la succession royale — c'est une interprétation construite progressivement. C'est en 1328, face à la crise de succession après la mort de Charles IV sans héritier mâle, que les juristes français invoquent ce principe pour écarter Édouard III d'Angleterre et justifier l'accession de Philippe VI de Valois. Cette décision, présentée après coup comme fondée sur une loi ancienne, est en réalité une construction juridique adaptée aux circonstances politiques du moment."
     },
     {
       "id": "17",
-      "question": "Quel impact les dynasties ont-elles sur l’État français ?",
-      "answers": ["Instabilité permanente", "Aucun impact", "Construction progressive de l’État", "Disparition du pouvoir"],
+      "question": "Saint Louis (Louis IX) est le seul roi de France canonisé. Pour quelle raison principale est-il béatifié en 1297 ?",
+      "image": null,
+      "imagePrompt": "Saint Louis IX France crusade piety justice oak tree canonized 1297",
+      "answers": ["Pour avoir construit la Sainte-Chapelle", "Pour avoir supprimé la féodalité au bénéfice de tous", "Pour sa piété, sa réputation de justice et sa mort en croisade", "Pour avoir défendu le pape contre l'empire"],
       "correctIndex": 2,
-      "explanation": "Les dynasties contribuent à structurer l’État, à centraliser le pouvoir et à construire une continuité politique."
+      "explanation": "Louis IX (1226–1270) est canonisé en 1297 par le pape Boniface VIII, notamment à la demande de son petit-fils Philippe IV le Bel — qui y voit un avantage politique : avoir un ancêtre saint renforce le prestige de la monarchie capétienne. Louis IX est célébré pour sa piété intense, sa réputation de justice (il rendait lui-même la justice sous un chêne à Vincennes, selon une tradition probablement idéalisée) et sa mort en croisade à Tunis (1270). Il incarne l'idéal médiéval du roi chrétien."
     },
     {
       "id": "18",
-      "question": "Quel élément renforce la stabilité d’une dynastie ?",
-      "answers": ["Succession claire", "Guerres fréquentes", "Crises politiques", "Révoltes"],
+      "question": "François Ier incarne la Renaissance des Valois. Quel artiste italien célèbre invite-t-il à la cour de France ?",
+      "image": null,
+      "imagePrompt": "Francis I Leonardo da Vinci Amboise Cloux France Renaissance patron king Mona Lisa",
+      "answers": ["Léonard de Vinci", "Michel-Ange", "Raphaël", "Titien"],
       "correctIndex": 0,
-      "explanation": "Une succession bien établie permet d’éviter les conflits et d’assurer la continuité du pouvoir."
+      "explanation": "François Ier, grand mécène de la Renaissance, invite Léonard de Vinci en France en 1516. Le vieux génie s'installe au Clos Lucé, manoir d'Amboise proche du château royal, avec une pension royale et une liberté totale. Il y apporte la Joconde et plusieurs autres tableaux. Léonard meurt en mai 1519 — la légende le représente mourant dans les bras de François Ier, scène popularisée par Ingres mais dont l'historicité est incertaine. La Joconde entre ainsi dans la collection royale française, avant de rejoindre le Louvre."
     },
     {
       "id": "19",
-      "question": "Quel type de pouvoir les dynasties incarnent-elles ?",
-      "answers": ["Pouvoir électif", "Pouvoir héréditaire", "Pouvoir démocratique", "Pouvoir militaire"],
-      "correctIndex": 1,
-      "explanation": "Le pouvoir dynastique repose sur l’héritage familial, souvent justifié par des traditions ou une légitimité religieuse."
+      "question": "Louis XIV révoque l'édit de Nantes en 1685. Quelles en sont les conséquences immédiates ?",
+      "image": null,
+      "imagePrompt": "Edict Fontainebleau 1685 Louis XIV revocation Huguenots exile economic loss France",
+      "answers": ["Un renouveau économique grâce aux conversions", "Les protestants se soumettent rapidement et la France retrouve son unité", "Une révolte protestante rapidement écrasée dans le Midi", "200 000 à 400 000 protestants fuient, emportant leurs savoir-faire"],
+      "correctIndex": 3,
+      "explanation": "La révocation de l'édit de Nantes (édit de Fontainebleau, octobre 1685) est un désastre économique et humain : entre 200 000 et 400 000 protestants (huguenots) fuient la France malgré l'interdiction d'émigrer. Artisans, négociants, militaires, savants — ils emportent leurs savoir-faire en Angleterre, en Prusse, aux Pays-Bas et en Suisse, renforçant les concurrents de la France. Frédéric-Guillaume de Brandebourg, qui les accueille à bras ouverts, prononce cette formule célèbre : « Chaque huguenot qui part de France m'enrichit d'un sujet. »"
     },
     {
       "id": "20",
-      "question": "Pourquoi les dynasties sont-elles essentielles en histoire de France ?",
-      "answers": ["Pour leur richesse", "Pour leur durée", "Pour leur isolement", "Pour leur rôle dans la continuité du pouvoir et de l’État"],
+      "question": "Pourquoi la défaite de Sedan (1870) marque-t-elle la fin définitive de la monarchie en France ?",
+      "image": null,
+      "imagePrompt": "Napoleon III Sedan 1870 defeat Prussia Second Empire end French Republic permanent",
+      "answers": ["Un plébiscite vote massivement pour la République", "Les Bourbons et Orléans imposent la République pour bloquer les Bonaparte", "Napoléon III meurt à Sedan sans laisser d'héritier", "La défaite provoque l'effondrement du Second Empire et la proclamation de la IIIe République"],
       "correctIndex": 3,
-      "explanation": "Les dynasties structurent l’histoire politique française en assurant la transmission du pouvoir et en façonnant l’évolution de l’État."
+      "explanation": "La défaite de Sedan (2 septembre 1870) face aux armées prussiennes voit Napoléon III lui-même fait prisonnier. Deux jours plus tard, la IIIe République est proclamée à Paris. La IIIe République s'installe durablement : une Constitution républicaine est adoptée en 1875. Ni les Bourbons, ni les Orléans, ni les Bonaparte ne parviendront à restaurer la monarchie. Il convient toutefois de nuancer : des tentatives de restauration monarchiste ont bien eu lieu sous la IIIe République naissante, notamment en 1873, avant d'échouer sur des querelles dynastiques."
     }
   ]
 }

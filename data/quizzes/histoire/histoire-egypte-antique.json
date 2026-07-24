@@ -1,160 +1,202 @@
 {
-  "slug": "quiz-egypte-antique-pharaons-pyramides-mysteres-histoire",
-  "title": "Quiz Histoire - Égypte antique - Pharaons, pyramides et mystères - Test ultime",
-  "description": "Pharaons, pyramides, dieux, momies : le quiz ultime pour tester tes connaissances sur l’Égypte antique.",
- "descriptionSeo": "Teste tes connaissances sur l’Égypte antique avec ce quiz sur les pharaons, pyramides, dieux, momies et hiéroglyphes. De Khéops à Toutânkhamon en passant par Cléopâtre et la vallée des Rois, découvre les secrets de cette civilisation fascinante. 20 questions avec réponses et explications pour apprendre en s’amusant.",
+  "slug": "quiz-egypte-ancienne-pharaons-civilisation",
+  "title": "Quiz Histoire - Égypte ancienne - Pharaons, dieux et civilisation",
+  "description": "Pharaons, pyramides, hiéroglyphes : teste tes connaissances sur l'Égypte ancienne.",
+  "descriptionSeo": "Teste tes connaissances sur l'Égypte ancienne avec ce quiz d'histoire complet. Des pharaons aux dieux, en passant par les pyramides et l'écriture hiéroglyphique, connais-tu vraiment cette civilisation fascinante ? 20 questions avec réponses et explications pour explorer trois millénaires d'histoire égyptienne.",
   "category": {
     "name": "Histoire",
     "slug": "histoire"
   },
-  "createdAt": "2026-03-31",
+  "createdAt": "2026-03-30",
   "isNew": true,
   "isPopular": true,
   "images": {
     "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1774961584/cover_xygplv.jpg",
     "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1774961584/cover_xygplv.jpg",
-    "alt": "Quiz Égypte antique pharaons pyramides"
+    "alt": "Quiz Égypte ancienne pharaons civilisation"
   },
   "questions": [
     {
       "id": "1",
-      "question": "Quel fleuve est indispensable à la civilisation de l’Égypte antique ?",
-      "answers": ["Le Tigre", "Le Danube", "Le Nil", "Le Gange"],
-      "correctIndex": 2,
-      "explanation": "Le Nil est la colonne vertébrale de l’Égypte antique. Ses crues permettent l’agriculture et la prospérité de toute la civilisation."
+      "question": "Quel fleuve est au cœur de la civilisation égyptienne antique ?",
+      "image": null,
+      "imagePrompt": "Nile river Egypt ancient civilization aerial delta",
+      "answers": ["Le Tigre", "Le Nil", "L'Euphrate", "Le Congo"],
+      "correctIndex": 1,
+      "explanation": "Le Nil est la colonne vertébrale de l'Égypte antique. Ses crues annuelles (de juillet à octobre) déposaient un limon fertile sur les rives, permettant une agriculture abondante dans un pays par ailleurs désertique. Les Égyptiens distinguaient la « terre noire » (Kemet) des terres fertiles du Nil et la « terre rouge » (Deshret) du désert. Sans le Nil, aucune grande civilisation n'aurait pu se développer dans cette région. Hérodote résumait cela en écrivant que « l'Égypte est un don du Nil »."
     },
     {
       "id": "2",
-      "question": "Comment appelle-t-on le roi de l’Égypte antique ?",
-      "answers": ["Empereur", "Pharaon", "Sultan", "Roi-prêtre"],
-      "correctIndex": 1,
-      "explanation": "Le pharaon est le souverain absolu de l’Égypte antique, considéré comme un dieu vivant et garant de l’ordre."
+      "question": "Qui est considéré comme le premier pharaon unificateur de l'Égypte, vers 3100 av. J.-C. ?",
+      "image": null,
+      "imagePrompt": "Narmer palette unification Egypt first pharaoh ancient history",
+      "answers": ["Ramsès II", "Toutânkhamon", "Narmer (Ménès)", "Akhenaton"],
+      "correctIndex": 2,
+      "explanation": "Narmer, identifié par beaucoup d'historiens au légendaire Ménès, est généralement considéré comme le premier pharaon à avoir unifié la Haute et la Basse-Égypte vers 3100 av. J.-C. La palette de Narmer, découverte à Hiérakonpolis en 1898, le représente portant alternativement la couronne blanche de Haute-Égypte et la couronne rouge de Basse-Égypte, symbolisant cette unification. Cet acte fondateur inaugure la période thinite et la longue histoire des dynasties pharaoniques."
     },
     {
       "id": "3",
-      "question": "Quel monument emblématique symbolise le pouvoir des pharaons ?",
-      "answers": ["La pyramide", "Le temple", "Le palais", "La ziggourat"],
-      "correctIndex": 0,
-      "explanation": "Les pyramides sont des tombeaux monumentaux qui illustrent la puissance des pharaons et leur lien avec l’au-delà."
+      "question": "Quelle est la fonction première des pyramides égyptiennes ?",
+      "image": null,
+      "imagePrompt": "Egyptian pyramids Giza tomb pharaoh afterlife burial monument",
+      "answers": ["Des observatoires astronomiques", "Des greniers à grains géants", "Des tombeaux royaux pour l'au-delà", "Des temples de culte populaire"],
+      "correctIndex": 2,
+      "explanation": "Les pyramides sont des tombeaux monumentaux destinés à abriter la dépouille du pharaon et à faciliter son passage vers l'au-delà. Pour les Égyptiens, la préservation du corps (par la momification) et la construction d'un tombeau solide étaient indispensables à la survie éternelle du ka (âme) du défunt. La forme pyramidale évoque le ben-ben, la colline primordiale de la création, et les rayons du soleil descendant vers la terre. L'hypothèse des « greniers à grains », parfois relayée, est réfutée par l'ensemble des égyptologues."
     },
     {
       "id": "4",
-      "question": "Quelle est la plus célèbre des pyramides d’Égypte ?",
-      "answers": ["La pyramide de Saqqarah", "La pyramide rouge", "La pyramide de Dahchour", "La pyramide de Khéops"],
-      "correctIndex": 3,
-      "explanation": "La pyramide de Khéops, à Gizeh, est la plus grande et l’une des sept merveilles du monde antique."
+      "question": "La Grande Pyramide de Gizeh est construite pour quel pharaon ?",
+      "image": null,
+      "imagePrompt": "Great Pyramid Giza Khufu Cheops pharaoh Old Kingdom construction",
+      "answers": ["Khéphren", "Khéops (Khufu)", "Mykérinos", "Djoser"],
+      "correctIndex": 1,
+      "explanation": "La Grande Pyramide de Gizeh est construite pour le pharaon Khéops (Khufu en égyptien ancien), vers 2560 av. J.-C., sous la IVe dynastie de l'Ancien Empire. Haute de 146,5 mètres à l'origine (138,8 m aujourd'hui), elle est restée le plus haut édifice du monde pendant près de 3 800 ans. Elle est composée d'environ 2,3 millions de blocs de pierre pesant en moyenne 2,5 tonnes. C'est la seule des Sept Merveilles du monde antique encore debout."
     },
     {
       "id": "5",
-      "question": "Quel système d’écriture utilisaient les Égyptiens ?",
-      "answers": ["Alphabet latin", "Alphabet grec", "Hiéroglyphes", "Cunéiforme"],
+      "question": "Quelle reine égyptienne est célèbre pour son alliance avec Jules César puis Marc Antoine ?",
+      "image": null,
+      "imagePrompt": "Cleopatra VII Egypt queen Caesar Marc Antony Ptolemaic dynasty",
+      "answers": ["Néfertiti", "Hatchepsout", "Cléopâtre VII", "Tiyi"],
       "correctIndex": 2,
-      "explanation": "Les hiéroglyphes sont une écriture sacrée utilisée sur les monuments et dans les textes religieux."
+      "explanation": "Cléopâtre VII (69-30 av. J.-C.) est la dernière reine de la dynastie ptolémaïque, fondée par un général d'Alexandre le Grand. Polyglotte exceptionnelle (elle parlait neuf langues dont l'égyptien — chose rare pour les Ptolémées), elle s'allia successivement à Jules César et à Marc Antoine pour tenter de préserver l'indépendance de l'Égypte face à Rome. Après la défaite d'Actium (31 av. J.-C.) et la mort d'Antoine, elle se suicida — selon la tradition, par morsure d'aspic. Sa mort marque la fin de l'Égypte pharaonique indépendante."
     },
     {
       "id": "6",
-      "question": "Quel pharaon est célèbre pour sa tombe découverte intacte ?",
-      "answers": ["Ramsès II", "Akhenaton", "Khéphren", "Toutânkhamon"],
-      "correctIndex": 3,
-      "explanation": "La tombe de Toutânkhamon, découverte en 1922, a révélé de nombreux trésors exceptionnels."
+      "question": "Qu'est-ce que la pierre de Rosette, découverte en 1799, a permis de faire ?",
+      "image": null,
+      "imagePrompt": "Rosetta Stone hieroglyphics decipherment Champollion 1822 trilingual",
+      "answers": ["Localiser le tombeau de Toutânkhamon", "Déchiffrer les hiéroglyphes égyptiens", "Dater les pyramides de Gizeh", "Traduire les textes des Pyramides"],
+      "correctIndex": 1,
+      "explanation": "La pierre de Rosette est une stèle trilingue (hiéroglyphes, démotique et grec ancien) datant de 196 av. J.-C. Découverte par des soldats français lors de la campagne d'Égypte de Napoléon (1799), elle permit à Jean-François Champollion de déchiffrer les hiéroglyphes en 1822. Ce déchiffrement ouvrit l'ère de l'égyptologie moderne et permit de lire directement des milliers de textes antiques restés incompréhensibles pendant des siècles. La pierre est aujourd'hui conservée au British Museum de Londres."
     },
     {
       "id": "7",
-      "question": "Pourquoi les Égyptiens pratiquaient-ils la momification ?",
-      "answers": ["Pour des raisons médicales", "Pour préserver le corps dans l’au-delà", "Pour décorer les temples", "Pour les transporter"],
+      "question": "Ramsès II est souvent présenté comme le plus grand pharaon. Pour quelle bataille est-il particulièrement célèbre ?",
+      "image": null,
+      "imagePrompt": "Ramesses II Battle of Kadesh Hittites chariot relief temple Abu Simbel",
+      "answers": ["La bataille de Megiddo", "La bataille de Kadesh", "La bataille d'Actium", "La bataille de Thèbes"],
       "correctIndex": 1,
-      "explanation": "La momification permettait de conserver le corps pour la vie après la mort selon les croyances égyptiennes."
+      "explanation": "La bataille de Kadesh (vers 1274 av. J.-C.) oppose Ramsès II aux Hittites de Muwatalli II sur les rives de l'Oronte (actuelle Syrie). C'est l'une des premières batailles de l'histoire décrites en détail. Ramsès en fit une victoire personnelle retentissante dans ses temples (Abu Simbel, Karnak), bien que le résultat militaire soit en réalité indécis. Elle aboutit au premier traité de paix connu de l'histoire, conclu avec les Hittites vers 1259 av. J.-C. — une copie est exposée au siège de l'ONU à New York."
     },
     {
       "id": "8",
-      "question": "Quel dieu est associé au soleil ?",
-      "answers": ["Osiris", "Rê", "Anubis", "Horus"],
+      "question": "Akhenaton est connu pour avoir tenté de révolutionner la religion égyptienne. Quelle réforme radicale impose-t-il ?",
+      "image": null,
+      "imagePrompt": "Akhenaten monotheism Aten sun disk Amarna revolution pharaoh heretic",
+      "answers": ["Il interdit les sacrifices humains", "Il impose le culte unique d'Aton, le disque solaire", "Il fusionne tous les dieux en un seul panthéon", "Il supprime le clergé et ferme tous les temples"],
       "correctIndex": 1,
-      "explanation": "Rê est le dieu solaire, l’un des plus importants du panthéon égyptien."
+      "explanation": "Akhenaton (vers 1353-1336 av. J.-C.) impose le culte exclusif d'Aton, le disque solaire, supprimant le culte des autres dieux — notamment Amon, dont il fait effacer le nom des monuments. Il déplace la capitale à Akhetaton (aujourd'hui Amarna). Cette « révolution amarnienne » est parfois décrite comme le premier monothéisme de l'histoire, bien que les égyptologues débattent de sa nature exacte. À sa mort, son successeur (probablement Toutânkhamon) restaure l'ancien panthéon et efface le souvenir d'Akhenaton."
     },
     {
       "id": "9",
-      "question": "Quel dieu possède une tête de chacal ?",
-      "answers": ["Horus", "Seth", "Thot", "Anubis"],
-      "correctIndex": 3,
-      "explanation": "Anubis est le dieu des morts et de la momification, représenté avec une tête de chacal."
+      "question": "Howard Carter découvre en 1922 le tombeau intact de quel pharaon ?",
+      "image": null,
+      "imagePrompt": "Howard Carter Tutankhamun tomb discovery 1922 Valley of the Kings treasure",
+      "answers": ["Ramsès II", "Toutânkhamon", "Séthi Ier", "Aménophis III"],
+      "correctIndex": 1,
+      "explanation": "Howard Carter et Lord Carnarvon découvrent le 4 novembre 1922 le tombeau de Toutânkhamon (KV62) dans la Vallée des Rois. C'est la seule tombe royale égyptienne retrouvée presque intacte, avec ses trésors exceptionnels : masque funéraire en or massif, sarcophages, mobilier et bijoux. Toutânkhamon, pharaon mineur mort vers 18-19 ans (vers 1323 av. J.-C.), est devenu le pharaon le plus célèbre au monde grâce à cette découverte. La « malédiction des pharaons » est un mythe journalistique sans fondement archéologique."
     },
     {
       "id": "10",
-      "question": "Quel site célèbre regroupe de nombreuses tombes de pharaons ?",
-      "answers": ["Gizeh", "Alexandrie", "Memphis", "La vallée des Rois"],
-      "correctIndex": 3,
-      "explanation": "La vallée des Rois est une nécropole royale où reposent de nombreux pharaons du Nouvel Empire."
+      "question": "Quelle était la fonction du dieu Osiris dans la mythologie égyptienne ?",
+      "image": null,
+      "imagePrompt": "Osiris god underworld death resurrection Egyptian mythology green skin",
+      "answers": ["Dieu du soleil et de la création", "Dieu des morts et de la résurrection", "Dieu de la guerre et de la tempête", "Dieu de la sagesse et de l'écriture"],
+      "correctIndex": 1,
+      "explanation": "Osiris est le dieu des morts, de la résurrection et de l'au-delà. Selon le mythe, il fut assassiné par son frère Seth, qui démembra son corps. Sa femme Isis rassembla les morceaux et le ressuscita temporairement, concevant leur fils Horus. Osiris devint alors le juge des âmes dans le royaume des morts, présidant la pesée du cœur (psychostasie) : si le cœur du défunt était plus léger que la plume de Maât (la vérité), il accédait à la vie éternelle. Ce mythe fondateur a influencé de nombreuses religions ultérieures."
     },
     {
       "id": "11",
-      "question": "Quel objet a permis de déchiffrer les hiéroglyphes ?",
-      "answers": ["Le papyrus royal", "La pierre de Rosette", "Le livre des morts", "Le sceptre sacré"],
+      "question": "Hatchepsout est l'une des rares femmes pharaons. Comment est-elle souvent représentée dans les reliefs et statues ?",
+      "image": null,
+      "imagePrompt": "Hatshepsut female pharaoh statues beard male representation Deir el-Bahari",
+      "answers": ["Avec une couronne de fleurs", "Avec la barbe postiche royale masculine", "Avec un serpent cobr sur le front uniquement", "Vêtue de rouge, couleur du pouvoir féminin"],
       "correctIndex": 1,
-      "explanation": "La pierre de Rosette a permis à Champollion de comprendre les hiéroglyphes."
+      "explanation": "Hatchepsout (vers 1479-1458 av. J.-C.), régente devenue pharaon à part entière, est souvent représentée avec la barbe postiche — attribut symbolique du pouvoir royal masculin — tout en conservant des traits féminins. Elle porte également le némès (coiffure royale) et les insignes pharaoniques habituels. Son règne est marqué par des expéditions commerciales prospères vers le pays de Pount et d'importantes constructions, notamment son temple funéraire de Deir el-Bahari à Louxor. Après sa mort, son successeur Thoutmosis III fit effacer son nom de nombreux monuments."
     },
     {
       "id": "12",
-      "question": "Quel support d’écriture fabriqué à partir d’une plante du Nil était utilisé ?",
-      "answers": ["Papyrus", "Parchemin", "Argile", "Bois"],
-      "correctIndex": 0,
-      "explanation": "Le papyrus est un support d’écriture typique de l’Égypte antique."
+      "question": "Quelle cité égyptienne, fondée par Alexandre le Grand, devient le grand centre intellectuel de l'Antiquité ?",
+      "image": null,
+      "imagePrompt": "Alexandria Egypt ancient library Pharos lighthouse Ptolemaic knowledge center",
+      "answers": ["Memphis", "Thèbes", "Alexandrie", "Héliopolis"],
+      "correctIndex": 2,
+      "explanation": "Alexandrie, fondée par Alexandre le Grand en 331 av. J.-C., devient rapidement la capitale intellectuelle du monde méditerranéen sous les Ptolémées. Sa bibliothèque — la plus grande de l'Antiquité avec jusqu'à 700 000 rouleaux — attire les plus grands savants : Euclide, Archimède, Ératosthène (qui calcule la circonférence de la Terre). Son phare, l'une des Sept Merveilles du monde, guidait les marins depuis l'île de Pharos. La ville reste aujourd'hui la deuxième ville d'Égypte avec 5 millions d'habitants."
     },
     {
       "id": "13",
-      "question": "Quelle reine est célèbre pour ses relations avec Jules César et Marc Antoine ?",
-      "answers": ["Néfertiti", "Hatchepsout", "Ankhesenamon", "Cléopâtre"],
-      "correctIndex": 3,
-      "explanation": "Cléopâtre VII est la dernière grande reine d’Égypte, célèbre pour ses alliances politiques avec Rome."
+      "question": "La momification avait pour but de préserver le corps du défunt. Quel organe était le seul laissé en place dans le corps momifié ?",
+      "image": null,
+      "imagePrompt": "mummification process ancient Egypt organs canopic jars heart brain",
+      "answers": ["Le cerveau", "Le foie", "Le cœur", "Les poumons"],
+      "correctIndex": 2,
+      "explanation": "Lors de la momification, les embaumeurs retiraient le cerveau (par les narines) et les organes internes (foie, poumons, estomac, intestins), conservés dans des vases canopes. Seul le cœur était laissé en place dans le corps, car les Égyptiens le considéraient comme le siège de l'intelligence, des émotions et de l'âme. C'est le cœur qui était pesé lors du jugement des morts face à la plume de Maât. Le processus complet de momification pouvait durer 70 jours."
     },
     {
       "id": "14",
-      "question": "Quel symbole représente la vie en Égypte antique ?",
-      "answers": ["Le scarabée", "Le lotus", "Le sceptre", "L’ankh"],
-      "correctIndex": 3,
-      "explanation": "L’ankh est le symbole de la vie et de l’éternité dans la culture égyptienne."
+      "question": "Le Sphinx de Gizeh est monolithique. À quel pharaon est-il généralement attribué ?",
+      "image": null,
+      "imagePrompt": "Great Sphinx Giza limestone monolith Khafre pharaoh Old Kingdom plateau",
+      "answers": ["Khéops", "Khéphren (Khafré)", "Mykérinos", "Snéfrou"],
+      "correctIndex": 1,
+      "explanation": "Le Grand Sphinx de Gizeh est généralement attribué à Khéphren (Khafré), pharaon de la IVe dynastie, vers 2500 av. J.-C. Son visage serait un portrait du pharaon. Taillé directement dans le plateau calcaire de Gizeh, il mesure 73 mètres de long et 20 mètres de haut. Le nez, brisé, aurait été détruit au Moyen Âge. Une stèle dite « du Sphinx », placée entre ses pattes par Thoutmosis IV (XVIIIe dynastie), raconte qu'il apparut au prince en rêve pour lui promettre la couronne s'il dégageait le sable qui l'ensevelissait."
     },
     {
       "id": "15",
-      "question": "Quel dieu est lié au monde des morts et à la résurrection ?",
-      "answers": ["Rê", "Horus", "Ptah", "Osiris"],
+      "question": "Quelle période de l'Égypte ancienne est connue comme l'époque des grandes pyramides ?",
+      "image": null,
+      "imagePrompt": "Old Kingdom Egypt pyramid age Giza pharaoh fourth dynasty art architecture",
+      "answers": ["Le Moyen Empire", "La Basse Époque", "Le Nouvel Empire", "L'Ancien Empire"],
       "correctIndex": 3,
-      "explanation": "Osiris est le dieu des morts et de la renaissance, central dans la mythologie égyptienne."
+      "explanation": "L'Ancien Empire (environ 2700-2200 av. J.-C., IIIe à VIe dynasties) est la grande époque des pyramides. C'est sous la IVe dynastie (Snéfrou, Khéops, Khéphren, Mykérinos) que sont construites les pyramides de Gizeh. La première pyramide à degrés — celle de Djoser à Saqqarah — est construite sous la IIIe dynastie par l'architecte Imhotep, déifié après sa mort. L'Ancien Empire s'effondre vers 2200 av. J.-C. lors d'une crise climatique et politique connue comme la Première Période intermédiaire."
     },
     {
       "id": "16",
-      "question": "Quel pharaon a tenté d’imposer le culte d’un seul dieu, Aton ?",
-      "answers": ["Ramsès II", "Akhenaton", "Séthi Ier", "Djoser"],
-      "correctIndex": 1,
-      "explanation": "Akhenaton est connu pour sa tentative de réforme religieuse vers un quasi-monothéisme."
+      "question": "Quelle divinité égyptienne est représentée avec une tête de chacal et guide les âmes vers l'au-delà ?",
+      "image": null,
+      "imagePrompt": "Anubis jackal headed god mummification death weighing heart Egyptian",
+      "answers": ["Horus", "Seth", "Anubis", "Thot"],
+      "correctIndex": 2,
+      "explanation": "Anubis, dieu à tête de chacal (ou de chien sauvage), est le patron des embaumeurs et le guide des âmes vers le royaume des morts. Il préside à la momification et accompagne le défunt lors de la pesée du cœur. Les chacals, qui rôdaient autour des cimetières, ont probablement inspiré cette association avec la mort et la protection des corps. Anubis est l'une des plus anciennes divinités égyptiennes, vénérée depuis l'époque prédynastique. Il est représenté soit couché sur un coffre, soit debout tenant les instruments de la momification."
     },
     {
       "id": "17",
-      "question": "Quelle activité dépend directement des crues du Nil ?",
-      "answers": ["Le commerce maritime", "La guerre", "La construction", "L’agriculture"],
-      "correctIndex": 3,
-      "explanation": "Les crues du Nil apportent un limon fertile indispensable à l’agriculture."
+      "question": "Qu'est-ce que le Livre des Morts dans l'Égypte ancienne ?",
+      "image": null,
+      "imagePrompt": "Book of the Dead papyrus spells afterlife Egyptian New Kingdom judgment",
+      "answers": ["Un registre des pharaons décédés", "Un recueil de formules magiques pour guider le défunt vers l'au-delà", "Un traité médical sur les maladies mortelles", "Une liste des tombes royales dans la Vallée des Rois"],
+      "correctIndex": 1,
+      "explanation": "Le Livre des Morts (son titre égyptien est « Livre pour sortir au jour ») est un recueil de formules, prières et incantations magiques destinées à guider et protéger l'âme du défunt dans son voyage vers l'au-delà. Rédigé sur papyrus et placé dans le tombeau, il contient notamment la Confession Négative (liste des fautes que le défunt affirme ne pas avoir commises) et la scène de la pesée du cœur. Il est apparu sous le Nouvel Empire (vers 1550 av. J.-C.) et dérive de textes plus anciens comme les Textes des Pyramides et les Textes des Sarcophages."
     },
     {
       "id": "18",
-      "question": "Quelle construction protégeait les trésors et le corps du pharaon ?",
-      "answers": ["Le temple", "La forteresse", "Le palais", "La pyramide"],
+      "question": "La Vallée des Rois se trouve près de quelle ville égyptienne moderne ?",
+      "image": null,
+      "imagePrompt": "Valley of the Kings Luxor Thebes pharaoh tombs New Kingdom Egypt",
+      "answers": ["Le Caire", "Alexandrie", "Assouan", "Louxor"],
       "correctIndex": 3,
-      "explanation": "Les pyramides servaient de tombeaux et protégeaient les trésors funéraires."
+      "explanation": "La Vallée des Rois se situe sur la rive ouest du Nil, en face de Louxor (l'antique Thèbes), capitale de l'Égypte sous le Nouvel Empire. On y recense plus de 60 tombes royales, creusées dans la roche calcaire entre environ 1539 et 1075 av. J.-C. (XVIIIe à XXe dynasties). La rive ouest du Nil était traditionnellement associée à la mort (côté du soleil couchant) tandis que la rive est accueillait les temples des vivants. Louxor abrite aussi le temple de Karnak, le plus grand complexe religieux de l'Antiquité."
     },
     {
       "id": "19",
-      "question": "Pourquoi l’Égypte antique est-elle encore étudiée aujourd’hui ?",
-      "answers": ["Pour ses technologies modernes", "Pour ses conquêtes maritimes", "Pour son système politique moderne", "Pour ses mystères et son héritage historique"],
-      "correctIndex": 3,
-      "explanation": "L’Égypte antique fascine encore pour ses monuments, ses croyances et ses nombreuses énigmes."
+      "question": "Quelle catastrophe biblique est associée dans la tradition au pharaon qui refusa de libérer les Hébreux ?",
+      "image": null,
+      "imagePrompt": "Exodus plagues Egypt pharaoh Moses Ramesses biblical narrative ancient",
+      "answers": ["Un déluge de quarante jours", "Les dix plaies d'Égypte", "Une éclipse totale de soleil de trois jours", "Un tremblement de terre dévastateur"],
+      "correctIndex": 1,
+      "explanation": "Selon le récit de l'Exode dans la Bible, Dieu envoie dix plaies successives sur l'Égypte pour contraindre le pharaon à libérer le peuple hébreu : eau changée en sang, grenouilles, moustiques, mouches, mort du bétail, furoncles, grêle, sauterelles, ténèbres, et mort des premiers-nés. Si l'historicité de ces événements est débattue, certains chercheurs ont proposé des explications naturelles (éruption volcanique, perturbations écologiques du Nil). Le pharaon de l'Exode n'est pas nommé dans la Bible ; Ramsès II est souvent cité par la tradition populaire, sans certitude historique."
     },
     {
       "id": "20",
-      "question": "Quel est l’un des plus grands symboles de la civilisation égyptienne ?",
-      "answers": ["Les routes", "Les ports", "Les amphithéâtres", "Les pyramides"],
-      "correctIndex": 3,
-      "explanation": "Les pyramides sont le symbole le plus emblématique de l’Égypte antique et de la puissance des pharaons."
+      "question": "En quelle année l'Égypte devient-elle une province romaine, mettant fin à la civilisation pharaonique indépendante ?",
+      "image": null,
+      "imagePrompt": "Egypt Roman province 30 BC Octavian Augustus Cleopatra end pharaonic era",
+      "answers": ["En 146 av. J.-C.", "En 30 av. J.-C.", "En 395 ap. J.-C.", "En 642 ap. J.-C."],
+      "correctIndex": 1,
+      "explanation": "En 30 av. J.-C., après la mort de Cléopâtre VII et de Marc Antoine, Octave (futur Auguste) annexe l'Égypte et en fait une province romaine. C'est la fin de la dernière dynastie égyptienne indépendante — les Ptolémées — et le point final de trois millénaires de civilisation pharaonique. L'Égypte devient le grenier à blé de Rome. Les Romains adoptent certains éléments de la culture égyptienne (culte d'Isis, obélisques ramenés à Rome) mais la langue et l'écriture hiéroglyphique disparaissent progressivement au profit du grec puis du copte."
     }
   ]
 }
+
+

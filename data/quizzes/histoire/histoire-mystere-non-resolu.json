@@ -1,281 +1,181 @@
 {
-    "slug": "quiz-mysteres-non-resolus-histoire",
-    "title": "Quiz Histoire - Les Mystères Non Résolus de l'Histoire - 20 énigmes fascinantes",
-    "description": "Teste tes connaissances sur les plus grands mystères non résolus de l'histoire.",
-    "publishedAt": "2026-06-24",
-    "descriptionSeo": "Disparitions inexpliquées, trésors introuvables, civilisations mystérieuses, identités secrètes et phénomènes historiques encore débattus : les mystères non résolus de l'histoire continuent de fasciner chercheurs et passionnés. Du manuscrit de Voynich à la colonie perdue de Roanoke, en passant par l'affaire D. B. Cooper ou la tombe de Cléopâtre, ce quiz histoire propose 20 questions pour explorer les énigmes les plus célèbres du passé.",
-    "category": {
-        "name": "Histoire",
-        "slug": "histoire"
+  "slug": "quiz-mysteres-non-resolus-histoire",
+  "title": "Quiz Histoire - Les Mystères Non Résolus de l'Histoire - 20 énigmes fascinantes",
+  "description": "Teste tes connaissances sur les plus grands mystères non résolus de l'histoire.",
+  "publishedAt": "2026-06-24",
+  "descriptionSeo": "Disparitions inexpliquées, trésors introuvables, civilisations mystérieuses, identités secrètes et phénomènes historiques encore débattus : les mystères non résolus de l'histoire continuent de fasciner chercheurs et passionnés. Du manuscrit de Voynich à la colonie perdue de Roanoke, en passant par l'affaire D. B. Cooper ou la tombe de Cléopâtre, ce quiz histoire propose 20 questions pour explorer les énigmes les plus célèbres du passé.",
+  "category": {
+    "name": "Histoire",
+    "slug": "histoire"
+  },
+  "createdAt": "2026-06-22",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1782133735/pexels-francesco-ungaro-669319_u0zkju.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1782133735/pexels-francesco-ungaro-669319_u0zkju.jpg",
+    "alt": "Quiz sur les mystères non résolus de l'histoire"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "question": "Quel manuscrit illustré du XVe siècle, acquis en 1912 par le libraire Wilfrid Voynich, demeure indéchiffré malgré un siècle d'efforts ?",
+      "image": null,
+      "answers": ["Le Livre de Kells", "Le Manuscrit de Voynich", "Le Codex Gigas", "Le Codex Mendoza"],
+      "correctIndex": 1,
+      "explanation": "Le manuscrit de Voynich, conservé à Yale, contient 240 pages d'une écriture inconnue accompagnée d'illustrations botaniques, astronomiques et anatomiques inexpliquées. Linguistes, cryptologues et systèmes d'intelligence artificielle ont tous échoué à en démontrer la signification de manière convaincante. Son origine — langue réelle, code ou mystification — reste débattue."
     },
-    "createdAt": "2026-06-22",
-    "isNew": true,
-    "isPopular": true,
-    "images": {
-        "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1782133735/pexels-francesco-ungaro-669319_u0zkju.jpg",
-        "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1782133735/pexels-francesco-ungaro-669319_u0zkju.jpg",
-        "alt": "Quiz sur les mystères non résolus de l'histoire"
+    {
+      "id": "2",
+      "question": "Quelle colonie anglaise de Caroline du Nord, fondée en 1587, est retrouvée totalement abandonnée en 1590 avec pour seul indice le mot 'CROATOAN' gravé sur un poteau ?",
+      "image": null,
+      "answers": ["Jamestown", "Plymouth", "Williamsburg", "Roanoke"],
+      "correctIndex": 3,
+      "explanation": "La colonie de Roanoke avait été fondée par Sir Walter Raleigh. Quand le gouverneur John White revient en 1590 après trois ans d'absence forcée en Angleterre, il ne trouve que le mot 'CROATOAN' — nom d'une île voisine et d'un peuple amérindien. Intégration aux populations locales, massacre ou exode : les hypothèses restent ouvertes après 430 ans."
     },
-    "questions": [
-        {
-            "id": "1",
-            "question": "Quel manuscrit illustré du XVe siècle demeure célèbre car personne n'a réussi à déchiffrer son texte avec certitude ?",
-            "image": null,
-            "answers": [
-                "Le Livre de Kells",
-                "Le Manuscrit de Voynich",
-                "Le Codex Gigas",
-                "Le Codex Mendoza"
-            ],
-            "correctIndex": 1,
-            "explanation": "Le manuscrit de Voynich est l'un des plus grands mystères de l'histoire. Malgré les efforts de linguistes, cryptologues et spécialistes de l'intelligence artificielle, personne n'a encore démontré de manière convaincante la signification de son étrange écriture et de ses illustrations."
-        },
-        {
-            "id": "2",
-            "question": "Quelle colonie anglaise fondée en Amérique du Nord disparaît mystérieusement à la fin du XVIe siècle ?",
-            "image": null,
-            "answers": [
-                "Jamestown",
-                "Plymouth",
-                "Roanoke",
-                "Williamsburg"
-            ],
-            "correctIndex": 2,
-            "explanation": "La colonie de Roanoke, installée sur la côte est de l'Amérique du Nord, est retrouvée abandonnée en 1590. Le seul indice laissé derrière elle est le mot 'CROATOAN' gravé sur un poteau, ce qui alimente les hypothèses depuis plus de quatre siècles."
-        },
-        {
-            "id": "3",
-            "question": "Quel pirate de l'air détourne un avion aux États-Unis en 1971 avant de disparaître avec une rançon sans jamais être retrouvé ?",
-            "image": null,
-            "answers": [
-                "Billy the Kid",
-                "D. B. Cooper",
-                "Jesse James",
-                "Butch Cassidy"
-            ],
-            "correctIndex": 1,
-            "explanation": "D. B. Cooper détourne un Boeing 727, obtient une rançon puis saute en parachute. Malgré une enquête de plusieurs décennies menée par le FBI, son identité et son destin restent inconnus."
-        },
-        {
-            "id": "4",
-            "question": "Quel monument britannique préhistorique soulève encore des questions sur sa construction et sa fonction exacte ?",
-            "image": null,
-            "answers": [
-                "Hadrian's Wall",
-                "Stonehenge",
-                "Avebury",
-                "Silbury Hill"
-            ],
-            "correctIndex": 1,
-            "explanation": "Stonehenge a été construit par étapes sur plusieurs siècles. Les archéologues ont identifié certaines fonctions possibles, mais le rôle exact du monument et les méthodes utilisées pour déplacer ses immenses pierres continuent de faire débat."
-        },
-        {
-            "id": "5",
-            "question": "Quelle reine d'Égypte repose dans une tombe qui n'a toujours pas été retrouvée avec certitude ?",
-            "image": null,
-            "answers": [
-                "Néfertiti",
-                "Hatchepsout",
-                "Cléopâtre VII",
-                "Taousert"
-            ],
-            "correctIndex": 2,
-            "explanation": "La localisation de la tombe de Cléopâtre VII et de Marc Antoine demeure l'un des grands mystères de l'archéologie. Plusieurs fouilles prometteuses ont été menées, mais aucune découverte définitive n'a encore été annoncée."
-        },
-        {
-            "id": "6",
-            "question": "Quel navire marchand est retrouvé abandonné dans l'Atlantique en 1872 sans trace de son équipage ?",
-            "image": null,
-            "answers": [
-                "Mayflower",
-                "Mary Celeste",
-                "Beagle",
-                "Endeavour"
-            ],
-            "correctIndex": 1,
-            "explanation": "Le Mary Celeste est découvert en parfait état relatif, avec sa cargaison intacte mais sans aucun membre d'équipage. L'absence d'explication convaincante a fait de cette affaire l'un des plus célèbres mystères maritimes."
-        },
-        {
-            "id": "7",
-            "question": "Quel souverain mongol possède un immense tombeau dont l'emplacement exact reste inconnu ?",
-            "image": null,
-            "answers": [
-                "Kubilaï Khan",
-                "Gengis Khan",
-                "Tamerlan",
-                "Ogodeï"
-            ],
-            "correctIndex": 1,
-            "explanation": "Selon la tradition, les funérailles de Gengis Khan auraient été organisées dans le plus grand secret. Malgré de nombreuses expéditions archéologiques, sa sépulture n'a jamais été identifiée avec certitude."
-        },
-        {
-            "id": "8",
-            "question": "Quel célèbre tueur en série de Londres n'a jamais été identifié avec certitude au XIXe siècle ?",
-            "image": null,
-            "answers": [
-                "Jack l'Éventreur",
-                "Le Docteur Crippen",
-                "Le Monstre de Florence",
-                "Landru"
-            ],
-            "correctIndex": 0,
-            "explanation": "Jack l'Éventreur terrorise le quartier de Whitechapel en 1888. Plus d'un siècle plus tard, de nombreux suspects ont été proposés, mais aucun consensus historique n'existe sur son identité."
-        },
-        {
-            "id": "9",
-            "question": "Quelle cité légendaire engloutie est régulièrement recherchée sans qu'aucune preuve définitive de son existence n'ait été trouvée ?",
-            "image": null,
-            "answers": [
-                "Babylone",
-                "Alexandrie",
-                "Atlantide",
-                "Troie"
-            ],
-            "correctIndex": 2,
-            "explanation": "L'Atlantide est décrite par Platon comme une puissante civilisation disparue. Certains chercheurs pensent qu'elle s'inspire d'événements réels, tandis que d'autres y voient un simple récit philosophique."
-        },
-        {
-            "id": "10",
-            "question": "Quel trésor perdu des Templiers alimente encore aujourd'hui de nombreuses légendes ?",
-            "image": null,
-            "answers": [
-                "Le Trésor des Templiers",
-                "Le Trésor de Priam",
-                "Le Trésor des Wisigoths",
-                "Le Trésor de Toutânkhamon"
-            ],
-            "correctIndex": 0,
-            "explanation": "Après la dissolution de l'ordre du Temple au XIVe siècle, plusieurs récits évoquent la disparition d'une immense fortune. Aucune preuve historique solide n'a toutefois permis de confirmer son existence ou sa localisation."
-        },
-        {
-            "id": "11",
-            "question": "Quel roi anglais est au centre d'un débat historique sur la disparition de ses deux jeunes neveux dans la Tour de Londres ?",
-            "image": null,
-            "answers": [
-                "Henri VIII",
-                "Richard III",
-                "Édouard III",
-                "Jean sans Terre"
-            ],
-            "correctIndex": 1,
-            "explanation": "Richard III est souvent accusé d'avoir fait disparaître les 'Princes de la Tour'. Cependant, les preuves restent insuffisantes et les historiens débattent encore de sa responsabilité réelle."
-        },
-        {
-            "id": "12",
-            "question": "Quel peuple de l'âge du bronze apparaît soudainement dans les sources avant de contribuer à l'effondrement de plusieurs civilisations méditerranéennes ?",
-            "image": null,
-            "answers": [
-                "Les Hittites",
-                "Les Peuples de la mer",
-                "Les Philistins",
-                "Les Mèdes"
-            ],
-            "correctIndex": 1,
-            "explanation": "Les Peuples de la mer apparaissent dans des inscriptions égyptiennes vers le XIIe siècle avant notre ère. Leur origine exacte demeure inconnue malgré des décennies de recherches."
-        },
-        {
-            "id": "13",
-            "question": "Quel explorateur britannique disparaît avec ses navires lors d'une expédition dans l'Arctique en 1845 ?",
-            "image": null,
-            "answers": [
-                "James Cook",
-                "John Franklin",
-                "Ernest Shackleton",
-                "Robert Falcon Scott"
-            ],
-            "correctIndex": 1,
-            "explanation": "L'expédition Franklin cherchait le passage du Nord-Ouest. Les épaves ont été retrouvées au XXIe siècle, mais de nombreuses zones d'ombre subsistent concernant les derniers jours de l'équipage."
-        },
-        {
-            "id": "14",
-            "question": "Quel objet sacré recherché depuis des siècles aurait contenu le sang du Christ selon certaines traditions ?",
-            "image": null,
-            "answers": [
-                "L'Arche d'Alliance",
-                "Le Saint Graal",
-                "La Lance de Longinus",
-                "Le Suaire de Turin"
-            ],
-            "correctIndex": 1,
-            "explanation": "Le Saint Graal occupe une place centrale dans les légendes médiévales. Son existence historique n'a jamais été démontrée, mais il demeure l'un des objets les plus recherchés de l'imaginaire occidental."
-        },
-        {
-            "id": "15",
-            "question": "Quelle civilisation d'Amérique centrale a abandonné plusieurs grandes cités avant l'arrivée des Européens, laissant encore de nombreuses questions sans réponse ?",
-            "image": null,
-            "answers": [
-                "Les Aztèques",
-                "Les Mayas",
-                "Les Incas",
-                "Les Olmèques"
-            ],
-            "correctIndex": 1,
-            "explanation": "Le déclin de certaines grandes cités mayas résulte probablement d'un ensemble de facteurs : sécheresses, guerres, pression démographique et changements politiques. Le poids exact de chacun de ces éléments fait encore débat."
-        },
-        {
-            "id": "16",
-            "question": "Quelle reine de l'Égypte antique pourrait être liée à une tombe encore inconnue dans la Vallée des Rois selon certaines hypothèses ?",
-            "image": null,
-            "answers": [
-                "Ramsès II",
-                "Néfertiti",
-                "Akhenaton",
-                "Sethi Ier"
-            ],
-            "correctIndex": 1,
-            "explanation": "Plusieurs chercheurs pensent que la tombe de Néfertiti pourrait encore être cachée dans une zone inexplorée de la Vallée des Rois. Aucune preuve définitive n'a cependant confirmé cette théorie."
-        },
-        {
-            "id": "17",
-            "question": "Quel mystérieux prisonnier détenu sous Louis XIV a inspiré l'une des plus grandes énigmes de l'histoire de France ?",
-            "image": null,
-            "answers": [
-                "Le Masque de Fer",
-                "Cartouche",
-                "Nicolas Fouquet",
-                "Ravaillac"
-            ],
-            "correctIndex": 0,
-            "explanation": "L'identité du célèbre Masque de Fer reste inconnue. Voltaire, Alexandre Dumas et de nombreux historiens ont proposé des hypothèses, mais aucune n'a été démontrée avec certitude."
-        },
-        {
-            "id": "18",
-            "question": "Quelle cité légendaire d'Amérique du Sud, supposée regorger d'or et de richesses, n'a jamais été retrouvée malgré des siècles d'expéditions ?",
-            "image": null,
-            "answers": [
-                "Cusco",
-                "Paititi",
-                "Machu Picchu",
-                "Tenochtitlan"
-            ],
-            "correctIndex": 1,
-            "explanation": "Paititi est une cité légendaire qui aurait été cachée quelque part dans la forêt amazonienne ou dans les Andes après la conquête espagnole. De nombreux explorateurs ont tenté de la localiser, mais aucune preuve définitive de son existence n'a jamais été découverte. Elle est souvent associée aux récits de trésors incas perdus."
-        },
-        {
-            "id": "19",
-            "question": "Quel mystérieux site de Nouvelle-Écosse, au Canada, fait l'objet de recherches depuis plus de deux siècles en raison d'une possible cache au trésor ?",
-            "image": null,
-            "answers": [
-                "Tortuga",
-                "Roanoke Island",
-                "Oak Island",
-                "New Providence"
-            ],
-            "correctIndex": 2,
-            "explanation": "Oak Island est célèbre pour son 'Money Pit', un puits découvert à la fin du XVIIIe siècle qui a donné naissance à de nombreuses théories. Certains pensent qu'il pourrait contenir un trésor pirate, des documents historiques ou même des artefacts liés aux Templiers. Malgré des centaines de fouilles, aucun trésor majeur n'a été retrouvé avec certitude."
-        },
-        {
-            "id": "20",
-            "question": "Quelle disparition en plein vol au-dessus du Pacifique en 1937 demeure l'un des plus grands mystères de l'aviation ?",
-            "image": null,
-            "answers": [
-                "Howard Hughes",
-                "Charles Lindbergh",
-                "Amelia Earhart",
-                "Antoine de Saint-Exupéry"
-            ],
-            "correctIndex": 2,
-            "explanation": "Amelia Earhart disparaît alors qu'elle tente un tour du monde. Malgré des recherches considérables et de nombreuses théories, les circonstances exactes de sa disparition restent incertaines."
-        }
-    ]
+    {
+      "id": "3",
+      "question": "Quel pirate de l'air, sous le pseudonyme de D. B. Cooper, détourne un Boeing 727 en novembre 1971 et saute en parachute avec 200 000 dollars sans jamais être retrouvé ?",
+      "image": null,
+      "answers": ["Frank Morris", "D. B. Cooper", "Ted Kaczynski", "Whitey Bulger"],
+      "correctIndex": 1,
+      "explanation": "Le 24 novembre 1971, un homme se faisant appeler Dan Cooper détourne un vol Northwest Airlines entre Portland et Seattle. Il obtient une rançon de 200 000 dollars et quatre parachutes, puis saute quelque part au-dessus de l'État de Washington. C'est la seule affaire de détournement aérien non résolu de l'histoire des États-Unis. En 1980, des liasses de la rançon sont découvertes sur les rives de la Columbia River."
+    },
+    {
+      "id": "4",
+      "question": "Quel monument préhistorique des plaines du Wiltshire, construit par étapes entre 3000 et 1500 av. J.-C., soulève encore des questions sur ses constructeurs et sa fonction exacte ?",
+      "image": null,
+      "answers": ["Le mur d'Hadrien", "Les menhirs de Carnac", "Stonehenge", "Avebury"],
+      "correctIndex": 2,
+      "explanation": "Stonehenge est composé de mégalithes pesant jusqu'à 25 tonnes, transportés depuis des carrières distantes de 250 km. Les archéologues identifient des fonctions funéraires et astronomiques (alignement sur les solstices), mais le rôle exact du monument, son commanditaire et les techniques de transport précises continuent de faire débat."
+    },
+    {
+      "id": "5",
+      "question": "Quelle dernière reine d'Égypte, morte en 30 av. J.-C., repose dans une tombe dont l'emplacement n'a toujours pas été retrouvé avec certitude ?",
+      "image": null,
+      "answers": ["Néfertiti", "Hatchepsout", "Cléopâtre VII", "Taousert"],
+      "correctIndex": 2,
+      "explanation": "Cléopâtre VII s'est suicidée après la défaite d'Antoine face à Octave. Selon des sources antiques, elle aurait été enterrée avec Marc Antoine dans un tombeau royal, peut-être près d'Alexandrie. L'archéologue Kathleen Martinez mène des fouilles à Taposiris Magna depuis 2005, mais aucune découverte définitive n'a été annoncée."
+    },
+    {
+      "id": "6",
+      "question": "Quel brigantine américain est retrouvé en parfait état dans l'Atlantique en décembre 1872, voiles déployées, repas à moitié consommé, mais sans aucun de ses 10 membres d'équipage ?",
+      "image": null,
+      "answers": ["Le Mayflower", "Le Mary Celeste", "Le Beagle", "L'Endeavour"],
+      "correctIndex": 1,
+      "explanation": "Le Mary Celeste est découvert le 4 décembre 1872 par le brigantin Dei Gratia à 600 km au large des Açores. La cargaison d'alcool industriel est intacte, les effets personnels de l'équipage sont présents, mais il n'y a aucune trace des dix personnes à bord. Accident, mutinerie, piraterie ou phénomène atmosphérique : aucune explication n'a jamais fait consensus."
+    },
+    {
+      "id": "7",
+      "question": "Quel fondateur de l'Empire mongol aurait été enterré dans un tombeau si secret que les ouvriers auraient été exécutés pour en préserver l'emplacement ?",
+      "image": null,
+      "answers": ["Kubilaï Khan", "Gengis Khan", "Tamerlan", "Ögedeï Khan"],
+      "correctIndex": 1,
+      "explanation": "Selon la tradition, Gengis Khan meurt en 1227 et est enterré quelque part en Mongolie, peut-être près du mont Burkhan Khaldun. La légende veut que le cortège funèbre ait tué tous ceux qu'il croisait pour garder le secret. Des expéditions archéologiques ont utilisé des satellites et des drones, mais la sépulture reste introuvable — peut-être délibérément."
+    },
+    {
+      "id": "8",
+      "question": "Quel tueur en série de Whitechapel, actif à Londres en 1888, n'a jamais été formellement identifié malgré plus d'un siècle d'enquêtes ?",
+      "image": null,
+      "answers": ["Jack l'Éventreur", "Le Docteur Crippen", "Le Monstre de Florence", "Landru"],
+      "correctIndex": 0,
+      "explanation": "Jack l'Éventreur assassine cinq femmes dans le quartier de Whitechapel entre août et novembre 1888. Plus de 200 suspects ont été proposés au fil des années, dont des membres de l'aristocratie, des médecins et des artistes. Une étude ADN publiée en 2019 désigne le barbier polonais Aaron Kosminski, mais cette conclusion reste contestée par la communauté scientifique."
+    },
+    {
+      "id": "9",
+      "question": "Quelle cité décrite par Platon dans deux dialogues du IVe siècle av. J.-C. comme une île prospère engloutie par l'océan n'a jamais été retrouvée ?",
+      "image": null,
+      "answers": ["Babylone", "Alexandrie", "Atlantide", "Troie"],
+      "correctIndex": 2,
+      "explanation": "Platon décrit l'Atlantide dans le Timée et le Critias (vers 360 av. J.-C.) comme une puissance navale vaincue par Athènes et engloutie il y a 9 000 ans. Les archéologues et géologues ont proposé des localisations en Méditerranée, en Atlantique et même en Antarctique. La majorité des spécialistes y voient une fiction philosophique, d'autres cherchent un substrat historique réel."
+    },
+    {
+      "id": "10",
+      "question": "Quelle fortune appartenant à l'ordre du Temple aurait mystérieusement disparu lors de la dissolution de l'ordre en 1307-1314 ?",
+      "image": null,
+      "answers": ["Le trésor royal de Philippe IV", "Les archives secrètes du Vatican", "Le trésor de l'ordre du Temple", "Les reliques de la Sainte-Chapelle"],
+      "correctIndex": 2,
+      "explanation": "Lors des arrestations des Templiers ordonnées par Philippe IV le Bel en octobre 1307, le trésor de l'ordre — réputé considérable — demeure introuvable. Certains historiens pensent qu'il fut transféré avant les arrestations, peut-être vers l'Écosse ou le Portugal. Aucune preuve historique solide ne confirme ni l'ampleur ni la localisation de ce trésor."
+    },
+    {
+      "id": "11",
+      "question": "Quels deux jeunes princes, enfermés dans la Tour de Londres en 1483 sous la tutelle de leur oncle, disparaissent sans que leur sort n'ait jamais été élucidé ?",
+      "image": null,
+      "answers": ["Les fils d'Henri VIII", "Les Princes de la Tour", "Les enfants de Mary Tudor", "Les héritiers des Plantagenêts"],
+      "correctIndex": 1,
+      "explanation": "Édouard V (12 ans) et Richard de Shrewsbury (9 ans) entrent dans la Tour de Londres en 1483 et ne sont plus jamais vus en public. Leur oncle Richard III est le suspect le plus souvent désigné, mais d'autres candidats ont été proposés, dont le futur Henri VII. Des ossements découverts en 1674 dans la Tour n'ont jamais été analysés avec les techniques modernes."
+    },
+    {
+      "id": "12",
+      "question": "Quelle coalition de peuples mystérieux ravage les côtes méditerranéennes vers 1200 av. J.-C. et contribue à l'effondrement de plusieurs grandes civilisations de l'âge du bronze ?",
+      "image": null,
+      "answers": ["Les Hittites", "Les Peuples de la Mer", "Les Philistins", "Les Mèdes"],
+      "correctIndex": 1,
+      "explanation": "Les Peuples de la Mer apparaissent dans des inscriptions égyptiennes de Ramsès III vers 1175 av. J.-C. Leur origine exacte — Égée, Anatolie, Méditerranée occidentale ? — reste l'un des grands débats de l'archéologie. Leur rôle dans l'effondrement des civilisations mycénienne, hittite et levantine est réel mais difficile à quantifier : cause ou symptôme d'une crise plus large ?"
+    },
+    {
+      "id": "13",
+      "question": "Quel officier de marine britannique disparaît avec deux navires et 129 hommes en tentant de traverser le passage du Nord-Ouest en 1845 ?",
+      "image": null,
+      "answers": ["James Cook", "John Franklin", "Ernest Shackleton", "Robert Falcon Scott"],
+      "correctIndex": 1,
+      "explanation": "L'expédition Franklin quitte l'Angleterre en mai 1845 avec l'Erebus et le Terror. Les navires sont pris dans les glaces en septembre 1846. Franklin meurt en juin 1847 et ses hommes tentent de rejoindre la terre ferme à pied — en vain. Les épaves ont été retrouvées en 2014 et 2016, mais le sort exact des survivants, les signes de cannibalisme et les décisions prises restent partiellement inexpliqués."
+    },
+    {
+      "id": "14",
+      "question": "Quel objet légendaire, selon la tradition chrétienne médiévale la coupe utilisée par le Christ lors de la Cène, n'a jamais été retrouvé ?",
+      "image": null,
+      "answers": ["L'Arche d'Alliance", "Le Saint Graal", "La Lance de Longin", "Le Suaire de Turin"],
+      "correctIndex": 1,
+      "explanation": "Le Saint Graal apparaît dans la littérature médiévale à partir du XIIe siècle, notamment chez Chrétien de Troyes. Sa description varie selon les textes : coupe, plat, pierre ou relique. Des dizaines d'objets ont été présentés comme le Graal authentique au fil des siècles. Son existence historique n'a jamais été démontrée, mais il demeure l'un des plus puissants symboles de la quête spirituelle occidentale."
+    },
+    {
+      "id": "15",
+      "question": "Quel peuple mésoaméricain abandonne plusieurs de ses grandes cités entre le IXe et le Xe siècle, dans des circonstances qui font encore l'objet de débats scientifiques ?",
+      "image": null,
+      "answers": ["Les Aztèques", "Les Mayas", "Les Incas", "Les Olmèques"],
+      "correctIndex": 1,
+      "explanation": "L'effondrement des cités mayas des basses terres entre 800 et 1000 apr. J.-C. est l'un des grands mystères de l'archéologie américaine. Sécheresses prolongées (confirmées par des études de carottes sédimentaires), guerres entre cités, déforestation et épuisement agricole sont les facteurs les plus souvent invoqués — sans qu'une explication unique fasse consensus."
+    },
+    {
+      "id": "16",
+      "question": "Quelle grande épouse royale d'Akhenaton, représentée sur le célèbre buste du musée de Berlin, aurait selon certains archéologues une tombe cachée dans la Vallée des Rois ?",
+      "image": null,
+      "answers": ["Ankhesenamon", "Néfertiti", "Hatchepsout", "Tiyi"],
+      "correctIndex": 1,
+      "explanation": "Néfertiti, épouse d'Akhenaton, disparaît des archives vers l'an 12 de son règne. En 2015, l'archéologue Nicholas Reeves propose que sa tombe serait dissimulée derrière une paroi de la tombe de Toutânkhamon. Des scans radar ont donné des résultats contradictoires. Son destin après sa disparition des sources — mort, disgrâce ou co-règne sous un autre nom — reste inconnu."
+    },
+    {
+      "id": "17",
+      "question": "Quel mystérieux prisonnier masqué, détenu sous Louis XIV dans plusieurs forteresses dont la Bastille, a inspiré des théories sur son identité depuis le XVIIe siècle ?",
+      "image": null,
+      "answers": ["Le Masque de Fer", "Cartouche", "Nicolas Fouquet", "Ravaillac"],
+      "correctIndex": 0,
+      "explanation": "Le prisonnier masqué est attesté dans des archives : il est transféré de geôle en geôle et meurt à la Bastille en 1703. Son masque était en velours, non en fer. Voltaire, le premier à populariser l'énigme, suggère qu'il pourrait être un frère jumeau de Louis XIV. Alexandre Dumas en fait un frère du roi dans Le Vicomte de Bragelonne. Parmi les suspects sérieux : le surintendant Fouquet ou le comte Mattioli."
+    },
+    {
+      "id": "18",
+      "question": "Quelle cité légendaire, souvent associée aux richesses de l'Empire inca après la conquête espagnole, n'a jamais été localisée malgré des siècles d'expéditions en Amazonie ?",
+      "image": null,
+      "answers": ["Cuzco", "Paititi", "Machu Picchu", "Tenochtitlan"],
+      "correctIndex": 1,
+      "explanation": "Paititi apparaît dans des chroniques coloniales espagnoles et des récits de missionnaires jésuites du XVIIe siècle comme une cité inca réfugiée en forêt après la conquête. Des expéditions récentes utilisant la technologie LiDAR ont détecté des structures inconnues en Amazonie, mais aucune n'a été formellement identifiée comme Paititi. La question de son existence même reste ouverte."
+    },
+    {
+      "id": "19",
+      "question": "Quel puits mystérieux découvert en 1795 sur une île de Nouvelle-Écosse a englouti des fortunes et des vies depuis deux siècles sans livrer son secret ?",
+      "image": null,
+      "answers": ["Tortuga", "Roanoke Island", "Oak Island", "New Providence"],
+      "correctIndex": 2,
+      "explanation": "Le 'Money Pit' d'Oak Island est découvert en 1795 par trois adolescents qui trouvent une dépression circulaire suspecte. Les fouilles ultérieures révèlent des plateformes en bois à intervalles réguliers et un système de tunnels inondables. Plus de 200 ans de recherches coûteuses ont abouti à des fragments de parchemin, des objets divers et six morts — mais aucun trésor majeur. Trésor pirate, cache templière ou simple phénomène naturel ?"
+    },
+    {
+      "id": "20",
+      "question": "Quelle aviatrice américaine, première femme à traverser l'Atlantique en solo en 1932, disparaît au-dessus du Pacifique lors d'un tour du monde en juillet 1937 ?",
+      "image": null,
+      "answers": ["Howard Hughes", "Charles Lindbergh", "Amelia Earhart", "Antoine de Saint-Exupéry"],
+      "correctIndex": 2,
+      "explanation": "Amelia Earhart et son navigateur Fred Noonan décollent de Nouvelle-Guinée le 2 juillet 1937 pour rejoindre l'île Howland, une étape de leur tour du monde. Le contact radio est perdu le jour même. Les théories abondent : crash en mer, atterrissage sur une île déserte, capture japonaise. En 2023, des sonars ont détecté une épave au fond du Pacifique qui pourrait être son Lockheed Electra."
+    }
+  ]
 }

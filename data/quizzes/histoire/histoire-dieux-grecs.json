@@ -2,7 +2,7 @@
   "slug": "quiz-dieux-grecs-mythologie",
   "title": "Quiz Histoire - Dieux grecs - Êtes-vous incollable sur la mythologie ?",
   "description": "Zeus, Athéna, Hadès, Poséidon : teste tes connaissances sur les dieux et les mythes de la Grèce antique.",
-  "descriptionSeo": "Teste tes connaissances sur la mythologie grecque avec ce quiz consacré aux dieux de l’Olympe. Zeus, Athéna, Poséidon, Hadès et Aphrodite t’attendent à travers 20 questions avec réponses et explications. Idéal pour découvrir les pouvoirs, symboles, légendes et récits fascinants de la Grèce antique tout en améliorant ta culture générale sur les dieux grecs.",
+  "descriptionSeo": "Teste tes connaissances sur la mythologie grecque avec ce quiz consacré aux dieux de l'Olympe. Zeus, Athéna, Poséidon, Hadès et Aphrodite t'attendent à travers 20 questions avec réponses et explications. Idéal pour découvrir les pouvoirs, symboles, légendes et récits fascinants de la Grèce antique tout en améliorant ta culture générale sur les dieux grecs.",
   "category": {
     "name": "Histoire",
     "slug": "histoire"
@@ -18,143 +18,183 @@
   "questions": [
     {
       "id": "1",
-      "question": "Qui est le roi des dieux dans la mythologie grecque ?",
-      "answers": ["Poséidon", "Hadès", "Apollon", "Zeus"],
-      "correctIndex": 3,
-      "explanation": "Zeus est le roi des dieux de l’Olympe, maître du ciel et de la foudre."
+      "question": "Zeus est le roi des dieux grecs. Comment est-il né selon la mythologie ?",
+      "image": null,
+      "imagePrompt": "Zeus Cronos birth cave Crete mythology titan swallowed children",
+      "answers": ["De la mer, dans une écume dorée", "Armé de la foudre, du chaos primordial", "Caché en Crète par Rhéa après que Cronos l'avala", "Créé par les Titans pour garder l'Olympe"],
+      "correctIndex": 2,
+      "explanation": "Cronos, averti qu'un de ses enfants le détrônerait, dévorait chacun d'eux à la naissance. Rhéa, désespérée, cacha le bébé Zeus en Crète et donna à Cronos une pierre emmaillotée à avaler. Zeus grandit en secret, puis contraignit son père à régurgiter ses frères et sœurs (Héra, Poséidon, Hadès, Déméter, Hestia). S'ensuivit la Titanomachie — la guerre des dieux contre les Titans — qui dura dix ans et aboutit à la suprématie de Zeus sur l'Olympe."
     },
     {
       "id": "2",
-      "question": "Quel dieu règne sur les mers ?",
-      "answers": ["Hermès", "Poséidon", "Zeus", "Arès"],
-      "correctIndex": 1,
-      "explanation": "Poséidon est le dieu de la mer, des tremblements de terre et des chevaux."
+      "question": "Poséidon et Athéna se disputèrent le patronage d'une grande ville grecque. Qui l'emporta et grâce à quel don ?",
+      "image": null,
+      "imagePrompt": "Athens Poseidon Athena contest olive tree trident Acropolis myth",
+      "answers": ["Athéna, grâce au don d'un olivier", "Poséidon, grâce à une source d'eau douce", "Poséidon, grâce à un cheval blanc", "Athéna, grâce à la sagesse de son oracle"],
+      "correctIndex": 0,
+      "explanation": "Poséidon et Athéna se disputèrent le patronage d'Athènes devant les dieux de l'Olympe. Poséidon frappa le rocher de l'Acropole avec son trident, faisant jaillir une source d'eau salée. Athéna fit pousser le premier olivier — source d'huile, de nourriture et de lumière. Les dieux (ou les citoyens, selon les versions) jugèrent l'olivier plus utile. Athéna gagna et donna son nom à la cité. Poséidon vengea cette défaite en envoyant des inondations sur l'Attique."
     },
     {
       "id": "3",
-      "question": "Qui est la déesse de la sagesse ?",
-      "answers": ["Athéna", "Héra", "Aphrodite", "Artémis"],
-      "correctIndex": 0,
-      "explanation": "Athéna est la déesse de la sagesse, de la stratégie et des arts."
+      "question": "Athéna est la déesse de la sagesse. De quelle façon extraordinaire est-elle née ?",
+      "image": null,
+      "imagePrompt": "Athena birth Zeus head Hephaestus axe fully armed goddess mythology",
+      "answers": ["Modelée en argile par Héphaïstos", "De l'écume de la mer, comme Aphrodite", "D'une liaison secrète entre Zeus et Héra", "Toute armée, surgissant de la tête de Zeus"],
+      "correctIndex": 3,
+      "explanation": "Zeus avala la Titanide Métis (l'Intelligence) enceinte, craignant une prophétie selon laquelle son enfant le surpasserait. Mais il souffrit de maux de tête insupportables, et Héphaïstos (ou Prométhée selon les versions) lui ouvrit le crâne d'un coup d'hache. Athéna en surgit toute armée, casquée, brandissant sa lance et poussant un cri de guerre. Cette naissance symbolise que la sagesse et la stratégie jaillissent directement de l'intelligence suprême."
     },
     {
       "id": "4",
-      "question": "Quel dieu est associé aux Enfers ?",
-      "answers": ["Arès", "Apollon", "Hadès", "Dionysos"],
+      "question": "Hadès règne sur les Enfers. En quoi son royaume diffère-t-il de l'enfer chrétien ?",
+      "image": null,
+      "imagePrompt": "Hades underworld Greek mythology Elysium Tartarus neutral realm dead souls",
+      "answers": ["Lieu de punition éternelle pour tous les méchants", "Paradis souterrain où tous les morts vivent heureux", "Royaume neutre pour tous les morts, avec des zones selon leur mérite", "Purgatoire où les âmes attendent d'être réincarnées"],
       "correctIndex": 2,
-      "explanation": "Hadès est le dieu du monde souterrain et des morts."
+      "explanation": "Le royaume d'Hadès n'est pas un lieu de châtiment universel mais un monde souterrain neutre accueillant toutes les âmes. Il comporte plusieurs zones : les Champs Élysées (paradis des héros et des vertueux), les Champs d'Asphodèle (séjour des âmes ordinaires) et le Tartare (prison des grands criminels comme Sisyphe ou Tantale). Trois juges — Minos, Éaque et Rhadamante — décident du sort de chaque âme. Hadès lui-même n'est pas mauvais : il est simplement inflexible."
     },
     {
       "id": "5",
-      "question": "Qui est la déesse de l’amour ?",
-      "answers": ["Artémis", "Athéna", "Héra", "Aphrodite"],
-      "correctIndex": 3,
-      "explanation": "Aphrodite est la déesse de l’amour, de la beauté et du désir."
+      "question": "Aphrodite est la déesse de l'amour. Selon Hésiode, comment est-elle née ?",
+      "image": null,
+      "imagePrompt": "Aphrodite birth sea foam Botticelli Cyprus Ouranos myth",
+      "answers": ["Créée par Héphaïstos pour consoler les dieux", "De l'écume de mer autour du sexe tranché d'Ouranos", "Fille de Zeus et d'une Océanide", "D'une rose géante plantée par Gaïa"],
+      "correctIndex": 1,
+      "explanation": "Selon Hésiode dans la Théogonie, Cronos trancha le sexe d'Ouranos (le Ciel) et le jeta à la mer. Autour du membre divin se forma une écume blanche (aphros en grec, d'où le nom Aphrodite) d'où émergea la déesse. Elle aborda l'île de Chypre — son sanctuaire principal — puis Cythère. Cette naissance très ancienne lui confère un statut particulier dans la généalogie divine. Botticelli a immortalisé ce mythe dans La Naissance de Vénus (1484–1486)."
     },
     {
       "id": "6",
-      "question": "Quel dieu est le messager des dieux ?",
-      "answers": ["Hermès", "Apollon", "Arès", "Héphaïstos"],
-      "correctIndex": 0,
-      "explanation": "Hermès est le messager des dieux, connu pour sa rapidité et ses sandales ailées."
+      "question": "Hermès est le messager des dieux. Quelle prouesse accomplit-il le jour même de sa naissance ?",
+      "image": null,
+      "imagePrompt": "Hermes baby cattle Apollo theft lyre invention cunning infant god myth",
+      "answers": ["Il traversa les Enfers pour porter un message à Hadès", "Il fabriqua ses sandales ailées avec des plumes d'aigle", "Il vola le troupeau d'Apollon et inventa la lyre", "Il déchiffra le langage des oiseaux et le transmit aux humains"],
+      "correctIndex": 2,
+      "explanation": "Dès sa naissance dans une grotte du mont Cyllène, Hermès sort en catimini et vole les cinquante bœufs sacrés d'Apollon, les faisant marcher à reculons pour brouiller les traces. Quand Apollon le découvre et le traîne devant Zeus, le bébé Hermès joue les innocents. Pour apaiser la situation, il offre à Apollon une lyre qu'il vient d'inventer en creusant une carapace de tortue. Apollon, charmé, lui cède son troupeau et son caducée en échange. Cette histoire fondatrice établit Hermès comme dieu des voleurs, des inventeurs et des diplomates."
     },
     {
       "id": "7",
-      "question": "Qui est le dieu de la guerre ?",
-      "answers": ["Zeus", "Poséidon", "Arès", "Hadès"],
-      "correctIndex": 2,
-      "explanation": "Arès est le dieu de la guerre et de la violence."
+      "question": "Arès est le dieu de la guerre. Pourquoi est-il le moins aimé des dieux de l'Olympe ?",
+      "image": null,
+      "imagePrompt": "Ares war god unpopular Olympus brutal bloodlust contrast Athena strategy",
+      "answers": ["Il refuse de participer aux banquets des dieux", "Il incarne la violence brutale que les autres dieux trouvent odieuse", "Il est né difforme et Zeus a honte de lui", "Il a trahi Zeus en soutenant les Titans"],
+      "correctIndex": 1,
+      "explanation": "Arès incarne la guerre dans sa dimension la plus brutale et irrationnelle — le carnage, le sang, la fureur aveugle — par opposition à Athéna qui représente la stratégie et la guerre juste. Zeus lui-même déclare dans l'Iliade : « Tu m'es le plus odieux de tous les dieux de l'Olympe. » Arès perd souvent dans les mythes : Athéna le terrasse lors de la guerre de Troie, et il est même emprisonné par les géants Aloades pendant un an. Sa liaison avec Aphrodite — épouse de l'artisan Héphaïstos — tourne aussi à sa ridicule."
     },
     {
       "id": "8",
-      "question": "Quel dieu est associé au soleil et aux arts ?",
-      "answers": ["Hermès", "Dionysos", "Hadès", "Apollon"],
+      "question": "Apollon est le dieu des oracles. Quel monstre tue-t-il pour s'emparer du sanctuaire de Delphes ?",
+      "image": null,
+      "imagePrompt": "Apollo Python Delphi oracle sanctuary serpent myth bow arrow",
+      "answers": ["Typhon, le père de tous les monstres", "Le Sphinx thébain", "La Chimère, monstre cracheur de feu", "Le Python, immense serpent gardien de Gaïa"],
       "correctIndex": 3,
-      "explanation": "Apollon est le dieu du soleil, de la musique et des arts."
+      "explanation": "Apollon, encore enfant, tua le Python — un immense serpent ou dragon qui gardait l'oracle de Gaïa (la Terre) à Delphes et terrorisait les habitants du mont Parnasse. Il s'empara du sanctuaire et y établit son propre oracle, le plus célèbre du monde grec. Pour expier ce meurtre, Apollon dut se purifier et institua les Jeux pythiques en l'honneur du serpent vaincu. La Pythie — prêtresse de Delphes rendant les oracles — tire son nom de ce mythe fondateur."
     },
     {
       "id": "9",
-      "question": "Qui est la sœur jumelle d’Apollon ?",
-      "answers": ["Athéna", "Artémis", "Héra", "Perséphone"],
-      "correctIndex": 1,
-      "explanation": "Artémis est la déesse de la chasse et la sœur jumelle d’Apollon."
+      "question": "Artémis est déesse de la chasse. Quelle punition inflige-t-elle au chasseur Actéon qui l'a surprise nue ?",
+      "image": null,
+      "imagePrompt": "Actaeon Artemis bath hunting transformation stag dogs devoured myth",
+      "answers": ["Transformé en cerf, dévoré par ses propres chiens", "Frappé de cécité à vie", "Exilé au bout du monde pour l'éternité", "Transformé en rocher sur le mont Parnasse"],
+      "correctIndex": 0,
+      "explanation": "Actéon, chasseur béotien, surprit accidentellement Artémis et ses nymphes se baignant nues dans une source. La déesse vierge, furieuse d'avoir été vue nue par un mortel, le transforma en cerf. Ses propres cinquante chiens de chasse, ne reconnaissant plus leur maître, se jetèrent sur lui et le déchirèrent. Ce mythe illustre le danger de voir ce qui est interdit aux mortels, thème récurrent de la mythologie grecque. Ovide le raconte avec une cruauté saisissante dans les Métamorphoses."
     },
     {
       "id": "10",
-      "question": "Quel dieu est le forgeron des dieux ?",
-      "answers": ["Arès", "Hermès", "Apollon", "Héphaïstos"],
+      "question": "Héphaïstos est le seul dieu boiteux de l'Olympe. Comment expliquer cette particularité ?",
+      "image": null,
+      "imagePrompt": "Hephaestus lame forge Olympus thrown Zeus Hera myth ugly god smith",
+      "answers": ["Blessé par un Cyclope lors de la première forge", "Il choisit de vivre sous terre pour forger en paix", "Frappé par la foudre de Zeus pour avoir volé ses éclairs", "Héra le précipita de l'Olympe à sa naissance, lui brisant les jambes"],
       "correctIndex": 3,
-      "explanation": "Héphaïstos est le dieu du feu et de la forge."
+      "explanation": "Les versions divergent, mais la plus connue raconte qu'Héra, honteuse d'avoir donné naissance à un fils difforme, le précipita de l'Olympe dès sa naissance. Il tomba pendant une journée entière et atterrit sur l'île de Lemnos, les jambes brisées. Une autre version dit que Zeus le jeta pour avoir pris le parti de sa mère lors d'une querelle. Héphaïstos se vengea de Héra en lui fabriquant un trône d'or dont elle ne pouvait se lever — seul Héphaïstos put la libérer, après qu'Hermès ou Dionysos l'eut ramené sur l'Olympe en l'enivrant."
     },
     {
       "id": "11",
-      "question": "Qui est la reine des dieux ?",
-      "answers": ["Aphrodite", "Athéna", "Héra", "Artémis"],
-      "correctIndex": 2,
-      "explanation": "Héra est l’épouse de Zeus et la reine des dieux."
+      "question": "Héra est la reine des dieux. Pourquoi devient-elle la grande ennemie d'Héraclès ?",
+      "image": null,
+      "imagePrompt": "Hera Heracles jealousy Zeus affair Alcmene serpents baby hero persecution",
+      "answers": ["Héraclès, fils illégitime de Zeus, est persécuté par jalousie", "Héraclès a blessé Héra lors d'une bataille", "Héraclès a refusé de lui rendre hommage", "Héraclès a volé son trône d'or"],
+      "correctIndex": 0,
+      "explanation": "Héraclès est le fils de Zeus et d'Alcmène — une mortelle que Zeus séduisit en prenant l'apparence de son mari. Héra, consumée de jalousie, persécute Héraclès dès sa naissance : elle envoie deux serpents dans son berceau (le bébé les étrangle). Elle lui envoie ensuite la folie qui le pousse à tuer sa femme et ses enfants — c'est pour expier ce crime qu'il doit accomplir les douze travaux. Le nom Héraclès (« gloire d'Héra ») est une ironie tragique, puisqu'il désigne la créature que la déesse tourmente le plus."
     },
     {
       "id": "12",
-      "question": "Quel dieu est associé au vin et aux fêtes ?",
-      "answers": ["Dionysos", "Apollon", "Hermès", "Arès"],
-      "correctIndex": 0,
-      "explanation": "Dionysos est le dieu du vin, de la fête et du théâtre."
+      "question": "Dionysos est le dieu du vin. Quelle est la particularité de sa naissance ?",
+      "image": null,
+      "imagePrompt": "Dionysus birth Zeus thigh Semele mortal mother thunder divine fire myth",
+      "answers": ["Né sous la mer, dans le domaine de Poséidon", "Né d'un œuf cosmique pondu par la Nuit primordiale", "Né sans père, de la seule volonté d'Héra", "Né deux fois : de Sémélé consumée par la foudre, puis de la cuisse de Zeus"],
+      "correctIndex": 3,
+      "explanation": "Sémélé, mortelle aimée de Zeus, fut poussée par Héra (déguisée en vieille femme) à demander à Zeus de se montrer dans toute sa gloire divine. Quand Zeus obéit, la foudre divine consuma Sémélé. Zeus sauva l'embryon et le cousit dans sa cuisse jusqu'à terme. Dionysos naquit donc deux fois — une fois de sa mère mortelle, une fois de la cuisse de son père divin — ce qui lui vaut le surnom de « deux fois né » (Dithyrambos). Cette double naissance lui confère un statut particulier entre monde mortel et monde divin."
     },
     {
       "id": "13",
-      "question": "Qui est la déesse de la chasse ?",
-      "answers": ["Héra", "Athéna", "Artémis", "Aphrodite"],
-      "correctIndex": 2,
-      "explanation": "Artémis est la déesse de la nature sauvage et de la chasse."
+      "question": "Perséphone est enlevée par Hadès. Comment ce mythe explique-t-il l'alternance des saisons ?",
+      "image": null,
+      "imagePrompt": "Persephone Demeter seasons pomegranate underworld Hades myth abduction",
+      "answers": ["Apollon emporte Perséphone vers le nord chaque hiver", "Poséidon inonde les terres pour forcer Hadès à la libérer", "Zeus interdit les récoltes chaque hiver en punition", "Déméter pleure son absence et laisse la terre stérile"],
+      "correctIndex": 3,
+      "explanation": "Hadès enleva Perséphone, fille de Déméter (déesse des moissons), et l'emmena aux Enfers. Déméter, dévastée, laissa la terre devenir stérile. Zeus intervint et obtint le retour de Perséphone — mais elle avait mangé six pépins de grenade aux Enfers, l'obligeant à y séjourner six mois par an. Quand Perséphone est en surface (printemps-été), Déméter se réjouit et la terre fleurit. Quand elle descend aux Enfers (automne-hiver), Déméter se lamente et la végétation dépérit."
     },
     {
       "id": "14",
-      "question": "Quel dieu tient un trident ?",
-      "answers": ["Zeus", "Hadès", "Arès", "Poséidon"],
-      "correctIndex": 3,
-      "explanation": "Poséidon est souvent représenté avec un trident, symbole de son pouvoir sur les mers."
+      "question": "Poséidon tient un trident. Quelle autre créature lui est attribuée comme symbole ?",
+      "image": null,
+      "imagePrompt": "Poseidon horse symbol myth first creation trident sea earthquake",
+      "answers": ["Le dauphin, créé pour courtiser Amphitrite", "Le requin, gardien de ses océans", "Le cheval, qu'il aurait créé selon certaines traditions", "L'aigle de mer, son messager vers l'Olympe"],
+      "correctIndex": 2,
+      "explanation": "Poséidon est aussi le dieu des chevaux (Hippios) et, selon certaines traditions, aurait créé le premier cheval en frappant la terre de son trident — une version de la querelle avec Athéna pour Athènes. Le cheval symbolise à la fois la puissance des flots (les « chevaux marins ») et les tremblements de terre (Poséidon est aussi Enosigaios, « l'ébranleur de la terre »). Les courses équestres lui étaient consacrées, et Corinthe — ville maritime et commerciale — était l'un de ses principaux centres de culte."
     },
     {
       "id": "15",
-      "question": "Qui est la déesse du mariage ?",
-      "answers": ["Aphrodite", "Héra", "Athéna", "Artémis"],
+      "question": "Héra exerce une célèbre vengeance sur Io, maîtresse de Zeus. Laquelle ?",
+      "image": null,
+      "imagePrompt": "Io cow Hera Zeus jealousy Argos hundred eyes transformation myth",
+      "answers": ["Transformée en pierre sur le mont Ida", "Transformée en génisse, gardée par Argos aux cent yeux", "Condamnée à errer sans jamais s'arrêter", "Poursuivie par un essaim d'abeilles divines"],
       "correctIndex": 1,
-      "explanation": "Héra est la déesse du mariage et de la famille."
+      "explanation": "Zeus transforma Io en génisse blanche pour cacher sa liaison à Héra — mais Héra, suspicieuse, réclama la génisse comme cadeau. Zeus dut accepter. Héra la confia à Argos Panoptès, le géant aux cent yeux qui ne dormait jamais entièrement. Zeus envoya Hermès endormir Argos avec sa flûte et le décapiter. Héra, furieuse, plaça les cent yeux d'Argos sur la queue du paon (oiseau qui lui est consacré) et envoya un taon tourmenter Io, qui erra à travers le monde avant d'être libérée en Égypte."
     },
     {
       "id": "16",
-      "question": "Quel dieu est connu pour ses éclairs ?",
-      "answers": ["Zeus", "Apollon", "Hermès", "Arès"],
-      "correctIndex": 0,
-      "explanation": "Zeus utilise la foudre comme arme principale."
+      "question": "Zeus est célèbre pour ses innombrables liaisons. Pourquoi les Grecs représentaient-ils leur dieu suprême aussi infidèle ?",
+      "image": null,
+      "imagePrompt": "Zeus metamorphosis seduction swan bull eagle mythology symbolic divine power heroes",
+      "answers": ["Pour critiquer subtilement le comportement des rois", "Ces mythes furent inventés bien plus tard par les Romains", "Pour expliquer pourquoi les femmes ne devaient pas se promener seules", "Pour expliquer l'origine divine des héros comme Héraclès, Persée ou Minos"],
+      "correctIndex": 3,
+      "explanation": "Les nombreuses liaisons de Zeus remplissent plusieurs fonctions mythologiques : elles expliquent l'origine divine des grands héros (Héraclès, fils d'Alcmène ; Persée, fils de Danaé ; Minos, roi de Crète) et des fondateurs de dynasties royales ou de cités. Un héros né d'un dieu et d'une mortelle possède une légitimité et une puissance extraordinaires. Ces mythes permettent aussi de rattacher des peuples entiers à une ascendance divine. La jalousie d'Héra y joue un rôle narratif essentiel : elle humanise les dieux et génère les épreuves qui forgent les héros."
     },
     {
       "id": "17",
-      "question": "Qui est la fille de Déméter enlevée par Hadès ?",
-      "answers": ["Athéna", "Perséphone", "Aphrodite", "Héra"],
-      "correctIndex": 1,
-      "explanation": "Perséphone devient la reine des Enfers après son enlèvement par Hadès."
+      "question": "Hermès guide les âmes des morts vers les Enfers. Quel nom grec désigne cette fonction ?",
+      "image": null,
+      "imagePrompt": "Hermes psychopomp souls dead underworld guide caduceus death mythology",
+      "answers": ["Psychopompe (guide des âmes)", "Chthonios (dieu souterrain)", "Nécromant (maître des morts)", "Catabate (descendant aux Enfers)"],
+      "correctIndex": 0,
+      "explanation": "Hermès est dit « psychopompe » (du grec psyche, âme, et pompós, guide) dans son rôle d'escorte des âmes des morts vers le royaume d'Hadès. Il touche les yeux des mourants avec son caducée pour les endormir, puis accompagne leur âme jusqu'au bord du Styx, où Charon les fera traverser en barque. Cette fonction fait d'Hermès l'une des rares divinités olympiennes à circuler librement entre le monde des vivants, l'Olympe et les Enfers — ce qui explique aussi son rôle de messager universel."
     },
     {
       "id": "18",
-      "question": "Quel dieu est associé au commerce et aux voleurs ?",
-      "answers": ["Apollon", "Arès", "Hermès", "Dionysos"],
+      "question": "Apollon préside l'oracle de Delphes. Comment la Pythie transmettait-elle les prophéties ?",
+      "image": null,
+      "imagePrompt": "Pythia Delphi oracle trance vapors Apollo prophecy ancient Greece tripod",
+      "answers": ["En lisant les entrailles d'animaux sacrifiés", "En interprétant le vol des oiseaux sacrés", "En transe sur un trépied, sous l'effet d'émanations telluriques", "En plongeant dans une fontaine sacrée"],
       "correctIndex": 2,
-      "explanation": "Hermès est aussi le dieu des voyageurs, du commerce et des voleurs."
+      "explanation": "La Pythie s'asseyait sur un trépied au-dessus d'une crevasse dans le sol du temple d'Apollon et entrait en état de transe. Des géologues modernes ont découvert que cette crevasse laissait échapper des gaz (éthylène, CO2) pouvant provoquer des états altérés de conscience. La Pythie proférait alors des paroles souvent obscures ou ambiguës, que les prêtres retranscrivaient en vers hexamètres. Les oracles de Delphes étaient célèbres pour leur ambiguïté : Crésus, roi de Lydie, avait reçu que « s'il traversait l'Halys, il détruirait un grand empire » — sans préciser lequel (le sien)."
     },
     {
       "id": "19",
-      "question": "Qui est le dieu de la lumière et des prophéties ?",
-      "answers": ["Apollon", "Zeus", "Hadès", "Poséidon"],
-      "correctIndex": 0,
-      "explanation": "Apollon est associé à la lumière, à la musique et aux oracles."
+      "question": "Héphaïstos est marié à Aphrodite. Comment découvre-t-il sa liaison adultère avec Arès ?",
+      "image": null,
+      "imagePrompt": "Hephaestus Aphrodite Ares net trap gods laughter adultery myth Homer",
+      "answers": ["Héra surprend les amants et l'informe", "Il forge un filet invisible, piège les amants et convoque les dieux", "Hermès raconte la scène en chanson lors d'un banquet", "Apollon le découvre par prophétie et l'avertit"],
+      "correctIndex": 1,
+      "explanation": "Héphaïstos, prévenu par Hélios (le Soleil, qui voit tout), forgea un filet de bronze invisible aux mailles si fines qu'on ne pouvait les voir ni les trancher. Il le tendit autour du lit conjugal, feignit de partir en voyage, et les amants se retrouvèrent piégés nus dans le filet. Héphaïstos convoqua alors tous les dieux pour les contempler. Les déesses se retirèrent pudiquement, mais les dieux mâles rirent aux éclats. Poséidon intervint et persuada Héphaïstos de les libérer. L'épisode est raconté dans l'Odyssée d'Homère avec un humour savoureux."
     },
     {
       "id": "20",
-      "question": "Où vivent les dieux grecs ?",
-      "answers": ["Les Enfers", "La mer Égée", "Le mont Olympe", "Delphes"],
-      "correctIndex": 2,
-      "explanation": "Les dieux grecs résident sur le mont Olympe, leur demeure mythique."
+      "question": "Le mont Olympe est la demeure des dieux. Quelle est sa hauteur réelle ?",
+      "image": null,
+      "imagePrompt": "Mount Olympus Greece highest peak clouds divine realm mythology real mountain",
+      "answers": ["Il n'existe pas comme montagne réelle", "1 200 mètres", "5 000 mètres, le plus haut de Méditerranée", "2 917 mètres, souvent noyé dans les nuages"],
+      "correctIndex": 3,
+      "explanation": "Le mont Olympe est bien une montagne réelle, le point culminant de la Grèce à 2 917 mètres, situé à la frontière entre la Macédoine et la Thessalie. Son sommet est fréquemment enveloppé de nuages, ce qui a alimenté l'imaginaire d'une demeure divine inaccessible aux mortels. Les Grecs le percevaient comme un espace entre ciel et terre, où les dieux vivaient dans des palais d'or et de marbre, festoyaient d'ambroisie et de nectar, et depuis lequel ils observaient les affaires humaines. Le premier ascensionniste connu n'y parvint qu'en 1913."
     }
   ]
 }

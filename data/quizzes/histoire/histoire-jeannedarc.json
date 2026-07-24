@@ -1,8 +1,8 @@
 {
   "slug": "quiz-histoire-jeanne-darc-mythe-realite",
-  "title": "Quiz Histoire - Jeanne d’Arc - Mythe ou réalité ?",
-  "description": "Héroïne, sainte, figure politique : teste tes connaissances sur Jeanne d’Arc entre légende et réalité.",
-  "descriptionSeo": "Teste tes connaissances avec ce quiz sur Jeanne d’Arc. Guerre de Cent Ans, Orléans, procès, bûcher, canonisation : 20 questions pour démêler le mythe et la réalité autour de l’une des figures les plus célèbres de l’histoire de France.",
+  "title": "Quiz Histoire - Jeanne d'Arc - Mythe ou réalité ?",
+  "description": "Héroïne, sainte, figure politique : teste tes connaissances sur Jeanne d'Arc entre légende et réalité.",
+  "descriptionSeo": "Teste tes connaissances avec ce quiz sur Jeanne d'Arc. Guerre de Cent Ans, Orléans, procès, bûcher, canonisation : 20 questions pour démêler le mythe et la réalité autour de l'une des figures les plus célèbres de l'histoire de France.",
   "category": {
     "name": "Histoire",
     "slug": "histoire"
@@ -13,148 +13,148 @@
   "images": {
     "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1774878376/cover.jpeg_xek4oa.webp",
     "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1774878376/cover.jpeg_xek4oa.webp",
-    "alt": "Quiz Jeanne d’Arc"
+    "alt": "Quiz Jeanne d'Arc"
   },
   "questions": [
     {
       "id": "1",
-      "question": "Dans quel contexte historique Jeanne d’Arc apparaît-elle ?",
-      "answers": ["Guerre de Cent Ans", "Révolution française", "Empire romain", "Renaissance"],
-      "correctIndex": 0,
-      "explanation": "Jeanne d’Arc intervient pendant la guerre de Cent Ans, un conflit entre la France et l’Angleterre. À ce moment-là, la France est en grande difficulté, et une partie du royaume est contrôlée par les Anglais et leurs alliés."
+      "question": "En quelle année Jeanne d'Arc lève-t-elle le siège d'Orléans, tournant décisif de la guerre de Cent Ans ?",
+      "answers": ["1415", "1429", "1431", "1453"],
+      "correctIndex": 1,
+      "explanation": "En mai 1429, Jeanne d'Arc contribue à lever le siège d'Orléans en quelques jours. Sa présence galvanise les troupes françaises après des années de défaites. Ce succès ouvre la voie au sacre de Charles VII à Reims et marque le début du redressement français."
     },
     {
       "id": "2",
-      "question": "Dans quelle ville Jeanne d’Arc libère-t-elle un siège célèbre ?",
-      "answers": ["Paris", "Orléans", "Reims", "Rouen"],
+      "question": "Quels saints Jeanne d'Arc affirme-t-elle entendre depuis l'âge de 13 ans ?",
+      "answers": ["Pierre, Paul et Jean", "Michel, Catherine et Marguerite", "La Vierge, Joseph et François", "Denis, Martin et Louis"],
       "correctIndex": 1,
-      "explanation": "Le siège d’Orléans (1429) est un tournant. Jeanne d’Arc ne commande pas seule l’armée, mais sa présence booste fortement le moral et la dynamique militaire française."
+      "explanation": "Jeanne affirme entendre depuis l'adolescence les voix de saint Michel archange, de sainte Catherine d'Alexandrie et de sainte Marguerite d'Antioche. Ces voix lui auraient confié sa mission : chasser les Anglais et faire sacrer Charles VII. Elles sont au cœur de son procès en 1431."
     },
     {
       "id": "3",
-      "question": "Quel roi Jeanne d’Arc aide-t-elle à faire sacrer ?",
+      "question": "Quel roi Jeanne d'Arc aide-t-elle à faire sacrer à Reims en juillet 1429 ?",
       "answers": ["Louis XI", "Charles VI", "Charles VII", "Henri V"],
       "correctIndex": 2,
-      "explanation": "Jeanne permet à Charles VII d’être sacré à Reims. Ce sacre est essentiel : il renforce sa légitimité face aux Anglais qui contestent son droit au trône."
+      "explanation": "Jeanne permet à Charles VII d'être sacré à Reims le 17 juillet 1429. Ce sacre est essentiel : il renforce sa légitimité face aux Anglais et aux Bourguignons qui contestent son droit au trône, notamment depuis le traité de Troyes qui le déshéritait."
     },
     {
       "id": "4",
-      "question": "Quelle affirmation correspond à la légende de Jeanne d’Arc ?",
-      "answers": ["Elle était noble", "Elle était reine", "Elle était générale officielle", "Elle était guidée par des voix divines"],
+      "question": "Dans quel village lorrain Jeanne d'Arc naît-elle vers 1412 ?",
+      "answers": ["Vaucouleurs", "Neufchâteau", "Toul", "Domrémy"],
       "correctIndex": 3,
-      "explanation": "Jeanne affirme entendre des voix de saints. Cet aspect est au cœur de sa légende, mais aussi de son procès, où ces visions sont utilisées contre elle."
+      "explanation": "Jeanne naît vers 1412 à Domrémy, un petit village rural de Lorraine (aujourd'hui Domrémy-la-Pucelle). Son père Jacques d'Arc est laboureur et doyen du village — une famille de condition modeste mais non misérable. Cette origine paysanne contraste fortement avec son destin exceptionnel."
     },
     {
       "id": "5",
-      "question": "D’où vient Jeanne d’Arc ?",
-      "answers": ["Domrémy", "Paris", "Orléans", "Lyon"],
+      "question": "Quel personnage à Vaucouleurs accepte finalement de conduire Jeanne jusqu'au dauphin Charles ?",
+      "answers": ["Robert de Baudricourt", "Dunois", "La Hire", "Gilles de Rais"],
       "correctIndex": 0,
-      "explanation": "Jeanne est née à Domrémy, un village rural. Son origine modeste contraste fortement avec son rôle historique, ce qui renforce son image exceptionnelle."
+      "explanation": "Robert de Baudricourt, capitaine royal à Vaucouleurs, refuse d'abord Jeanne par deux fois avant d'accepter, en février 1429, de lui fournir une escorte pour rejoindre Charles VII à Chinon. Cette étape est le premier test de la détermination de Jeanne face au scepticisme des hommes de guerre."
     },
     {
       "id": "6",
-      "question": "Quel âge a Jeanne d’Arc lors de ses actions majeures ?",
-      "answers": ["25 ans", "17 ans", "30 ans", "40 ans"],
-      "correctIndex": 1,
-      "explanation": "Jeanne agit entre 17 et 19 ans. Sa jeunesse est l’un des éléments les plus marquants de son histoire et participe à son aura mythique."
+      "question": "Comment Jeanne d'Arc convainc-t-elle Charles VII de lui confier une armée lors de leur première rencontre à Chinon ?",
+      "answers": ["En lui révélant un secret personnel", "En remportant un tournoi", "En produisant une lettre du pape", "En présentant une prophétie écrite"],
+      "correctIndex": 0,
+      "explanation": "Selon les témoignages, Jeanne aurait révélé à Charles VII un 'signe' — un secret connu de lui seul, probablement lié à ses doutes sur sa propre légitimité royale. Cet épisode, historiquement attesté dans son principe mais non dans son contenu précis, convainc le dauphin de la prendre au sérieux et de lui accorder une armée."
     },
     {
       "id": "7",
-      "question": "Qui capture Jeanne d’Arc ?",
-      "answers": ["Les Anglais", "Les Français", "Les Bourguignons", "Les Espagnols"],
+      "question": "Par qui Jeanne d'Arc est-elle capturée en mai 1430 lors d'une sortie devant Compiègne ?",
+      "answers": ["Les Anglais directement", "Les troupes royales françaises", "Les Bourguignons de Jean de Luxembourg", "Des mercenaires italiens"],
       "correctIndex": 2,
-      "explanation": "Jeanne est capturée par les Bourguignons, alliés des Anglais. Elle est ensuite vendue aux Anglais, ce qui montre la complexité politique de la guerre."
+      "explanation": "Jeanne est capturée le 23 mai 1430 par les Bourguignons de Jean de Luxembourg lors d'une sortie devant Compiègne. Elle est ensuite vendue aux Anglais pour 10 000 livres. Cette transaction illustre la complexité politique de la guerre : des Français livrent Jeanne à l'ennemi anglais."
     },
     {
       "id": "8",
-      "question": "Dans quelle ville Jeanne d’Arc est-elle jugée ?",
-      "answers": ["Paris", "Reims", "Orléans", "Rouen"],
-      "correctIndex": 3,
-      "explanation": "Le procès a lieu à Rouen, alors sous contrôle anglais. Il est fortement politique et religieux, avec pour objectif de discréditer Jeanne."
+      "question": "Quel évêque, acquis à la cause anglaise, préside le procès en hérésie de Jeanne d'Arc à Rouen en 1431 ?",
+      "answers": ["Le cardinal de Winchester", "L'archevêque de Reims", "Pierre Cauchon", "Le légat du pape"],
+      "correctIndex": 2,
+      "explanation": "Pierre Cauchon, évêque de Beauvais chassé de son diocèse par les Français, préside le tribunal qui juge Jeanne. Dévoué à la cause anglaise et animé d'une rancœur personnelle, il conduit un procès aux procédures contestées. Lui-même sera mis en cause lors du procès en réhabilitation de 1456."
     },
     {
       "id": "9",
-      "question": "Comment Jeanne d’Arc meurt-elle ?",
-      "answers": ["Brûlée vive", "Exécutée à l’épée", "Empoisonnée", "Exilée"],
+      "question": "Qu'est-ce que l'abjuration signée par Jeanne d'Arc le 24 mai 1431, et pourquoi la rétracte-t-elle ?",
+      "answers": ["Elle renonce à ses voix pour survivre, puis se rétracte", "Un aveu de trahison qu'elle refuse de signer", "Un accord secret avec les Anglais", "Une déclaration de loyauté au roi d'Angleterre"],
       "correctIndex": 0,
-      "explanation": "Jeanne est brûlée vive en 1431 pour hérésie. Cette exécution publique vise à en faire un exemple et à détruire son image."
+      "explanation": "Le 24 mai 1431, Jeanne signe une abjuration renonçant à ses visions sous la menace du bûcher immédiat. Elle est condamnée à la prison perpétuelle. Mais quelques jours plus tard, elle se rétracte et reprend l'habit masculin. Cette 'rechute' permet aux juges de la condamner à mort comme relapse — hérétique revenue à ses erreurs."
     },
     {
       "id": "10",
-      "question": "Quel est le principal motif de sa condamnation ?",
-      "answers": ["Trahison militaire", "Hérésie", "Vol", "Espionnage"],
+      "question": "Pour quel motif officiel Jeanne d'Arc est-elle condamnée à mort et brûlée vive le 30 mai 1431 ?",
+      "answers": ["Trahison militaire", "Hérésie et relapse", "Espionnage", "Sorcellerie"],
       "correctIndex": 1,
-      "explanation": "Elle est condamnée pour hérésie, notamment à cause de ses visions et du port d’habits masculins. Le procès est largement influencé par des enjeux politiques."
+      "explanation": "Jeanne est officiellement condamnée pour hérésie, en particulier parce qu'elle est considérée comme 'relapse' — ayant abjuré puis repris ses erreurs. Le port d'habits masculins, interdit par la loi divine selon ses juges, est retenu comme preuve de son obstination hérétique. Le procès est aussi un acte politique visant à discréditer Charles VII."
     },
     {
       "id": "11",
-      "question": "Que devient son procès après sa mort ?",
-      "answers": ["Annulé", "Confirmé", "Ignoré", "Secret"],
-      "correctIndex": 0,
-      "explanation": "Un second procès en 1456 annule sa condamnation. Jeanne est réhabilitée, ce qui change complètement la perception de son histoire."
+      "question": "En quelle année le procès en réhabilitation annule-t-il officiellement la condamnation de Jeanne d'Arc ?",
+      "answers": ["1435", "1453", "1456", "1492"],
+      "correctIndex": 2,
+      "explanation": "Le procès en réhabilitation, instruit à la demande de Charles VII et achevé en 1456, annule point par point la condamnation de 1431 et déclare Jeanne innocente. Ce renversement illustre l'instrumentalisation politique de Jeanne : Charles VII avait intérêt à prouver que sa légitimité royale ne reposait pas sur une hérétique."
     },
     {
       "id": "12",
-      "question": "En quelle année meurt Jeanne d’Arc ?",
+      "question": "En quelle année Jeanne d'Arc est-elle brûlée vive à Rouen ?",
       "answers": ["1429", "1431", "1456", "1415"],
       "correctIndex": 1,
-      "explanation": "Jeanne est exécutée en 1431. Beaucoup confondent avec 1429, année de ses victoires."
+      "explanation": "Jeanne est exécutée le 30 mai 1431 sur la place du Vieux-Marché à Rouen. Elle a alors environ 19 ans. Selon les témoins, elle demande qu'on lui tienne un crucifix devant les yeux et prononce le nom de Jésus avant de mourir. Ses cendres sont jetées dans la Seine pour éviter tout culte des reliques."
     },
     {
       "id": "13",
-      "question": "Quand Jeanne d’Arc est-elle canonisée ?",
-      "answers": ["1431", "1456", "1920", "1800"],
-      "correctIndex": 2,
-      "explanation": "Jeanne est canonisée en 1920, soit près de 500 ans après sa mort. Cela montre l’évolution de son image, passée d’hérétique à sainte."
+      "question": "En quelle année l'Église catholique canonise-t-elle officiellement Jeanne d'Arc ?",
+      "answers": ["1456", "1803", "1909", "1920"],
+      "correctIndex": 3,
+      "explanation": "Jeanne d'Arc est canonisée le 16 mai 1920 par le pape Benoît XV, près de 500 ans après sa mort. Elle avait été béatifiée en 1909. Ce délai exceptionnel s'explique par les controverses politiques et religieuses que son personnage a toujours suscitées en France."
     },
     {
       "id": "14",
-      "question": "Quel rôle joue Jeanne d’Arc dans l’armée ?",
-      "answers": ["Simple soldat", "Stratège principale", "Reine", "Figure inspirante"],
-      "correctIndex": 3,
-      "explanation": "Jeanne n’est pas une générale au sens moderne. Son rôle est surtout symbolique et moral, mais elle influence certaines décisions."
+      "question": "Comment la Révolution française et le XIXe siècle récupèrent-ils la figure de Jeanne d'Arc à des fins politiques ?",
+      "answers": ["Rejetée puis réhabilitée comme symbole national", "Célébrée comme déesse de la Raison", "Oubliée jusqu'en 1920", "Unanimement perçue comme figure républicaine"],
+      "correctIndex": 0,
+      "explanation": "La figure de Jeanne d'Arc est l'objet de récupérations contradictoires : monarchistes, républicains, catholiques et nationalistes se la disputent au XIXe siècle. Michelet en fait une incarnation du peuple français en 1841. À la fin du siècle, l'Action française catholique et les républicains laïcs revendiquent simultanément son héritage — illustrant comment le mythe dépasse toujours la réalité historique."
     },
     {
       "id": "15",
-      "question": "Pourquoi son histoire est-elle considérée comme mythique ?",
-      "answers": ["Mélange de faits et légendes", "Aucune preuve historique", "Pure invention", "Simple conte"],
+      "question": "Quelle bataille de 1429, remportée peu après Orléans, consacre la capacité militaire retrouvée des Français ?",
+      "answers": ["Patay", "Verneuil", "Formigny", "Castillon"],
       "correctIndex": 0,
-      "explanation": "Jeanne d’Arc est bien réelle, mais son histoire a été amplifiée par des récits, symboles et récupérations politiques."
+      "explanation": "La bataille de Patay (18 juin 1429) est une victoire française décisive sur l'armée anglaise, comparable à Azincourt en sens inverse. Les archers anglais, surpris avant d'avoir pu se préparer, sont massacrés. Patay ouvre la route vers Reims et confirme que le vent a tourné militairement."
     },
     {
       "id": "16",
-      "question": "Quelle tenue Jeanne d’Arc porte-t-elle souvent ?",
-      "answers": ["Robe royale", "Armure", "Habit religieux", "Tenue paysanne"],
+      "question": "Pour quelle raison le port d'habits masculins par Jeanne est-il central dans son procès ?",
+      "answers": ["Interdit par la loi militaire française", "Condamné par le droit canonique comme signe d'hérésie", "Preuve qu'elle espionnait déguisée", "Interdit par Charles VII après Orléans"],
       "correctIndex": 1,
-      "explanation": "Jeanne porte une armure, ce qui est exceptionnel pour une femme à l’époque et sera utilisé contre elle lors de son procès."
+      "explanation": "Le droit canonique médiéval condamnait le travestissement comme contraire à l'ordre voulu par Dieu (Deutéronome 22:5). Pour ses juges, le fait que Jeanne persiste à porter des vêtements masculins — même en prison — est la preuve de son obstination hérétique. C'est officiellement sa 'rechute' dans cet habit qui justifie sa condamnation à mort comme relapse."
     },
     {
       "id": "17",
-      "question": "Quel royaume combat la France ?",
-      "answers": ["Espagne", "Angleterre", "Italie", "Allemagne"],
-      "correctIndex": 1,
-      "explanation": "La guerre oppose principalement la France et l’Angleterre, avec des alliances complexes comme celle des Bourguignons."
+      "question": "Quel commandant militaire français, dit 'le Bâtard d'Orléans', combat aux côtés de Jeanne lors de la libération de la ville ?",
+      "answers": ["Jean de Dunois", "Gilles de Rais", "La Hire", "Arthur de Richemont"],
+      "correctIndex": 0,
+      "explanation": "Jean de Dunois, comte de Longueville et fils naturel de Louis d'Orléans, défend Orléans depuis le début du siège. Il travaille en étroite collaboration avec Jeanne lors de la levée du siège et lui rend hommage dans ses dépositions lors du procès en réhabilitation. Il sera l'un des généraux qui achèveront la reconquête française après 1453."
     },
     {
       "id": "18",
-      "question": "Quel lieu est lié au sacre du roi ?",
-      "answers": ["Paris", "Rouen", "Reims", "Lyon"],
-      "correctIndex": 2,
-      "explanation": "Reims est traditionnellement le lieu du sacre des rois de France. Y faire couronner Charles VII est un acte politique majeur."
+      "question": "Quel lieu symbolique est traditionnellement associé au sacre des rois de France, ce qui donne toute sa portée politique à l'entrée de Charles VII ?",
+      "answers": ["Paris", "Reims", "Orléans", "Chinon"],
+      "correctIndex": 1,
+      "explanation": "Reims est le lieu traditionnel du sacre des rois de France depuis le baptême de Clovis vers 496. Faire sacrer Charles VII à Reims, en territoire théoriquement hostile, est un coup politique et symbolique majeur : cela l'inscrit dans la continuité dynastique légitime et répond au traité de Troyes qui le déshéritait."
     },
     {
       "id": "19",
-      "question": "Quel âge a Jeanne à sa mort ?",
-      "answers": ["19 ans", "25 ans", "30 ans", "40 ans"],
+      "question": "Qu'est-ce que la 'Pucelle d'Orléans', titre donné à Jeanne d'Arc, signifie et pourquoi est-il important ?",
+      "answers": ["Sa virginité, garantie de sa mission divine", "Son origine géographique orléanaise", "Un titre militaire accordé par Charles VII", "Une simple marque de courage féminin"],
       "correctIndex": 0,
-      "explanation": "Jeanne meurt à environ 19 ans. Sa jeunesse renforce son image de figure exceptionnelle et tragique."
+      "explanation": "Le titre de 'Pucelle' (vierge) est central dans la construction du personnage : la virginité de Jeanne est examinée et certifiée à plusieurs reprises, car elle garantit qu'elle n'est pas sous l'emprise du diable. Dans la mentalité médiévale, une vierge consacrée à sa mission divine est une figure prophétique crédible — ce qui fonde une partie de l'autorité morale de Jeanne."
     },
     {
       "id": "20",
-      "question": "Pourquoi Jeanne d’Arc reste-t-elle une figure majeure ?",
-      "answers": ["Pour ses conquêtes", "Pour ses richesses", "Pour son symbole national", "Pour son empire"],
-      "correctIndex": 2,
-      "explanation": "Jeanne d’Arc est devenue un symbole national, religieux et politique. Son image a été réutilisée à différentes époques pour incarner le courage, la foi et la résistance."
+      "question": "Quel romancier américain, dans une biographie romancée publiée en 1896, contribue à diffuser mondialement la légende de Jeanne d'Arc ?",
+      "answers": ["Mark Twain", "Henry James", "Herman Melville", "Nathaniel Hawthorne"],
+      "correctIndex": 0,
+      "explanation": "Mark Twain publie en 1896 'Jeanne d'Arc — Récits personnels de ses compagnons', qu'il considère comme son œuvre la plus aboutie. Ce livre, traduit dans de nombreuses langues, contribue à faire de Jeanne une figure universelle au-delà du contexte français. Twain, habituellement sceptique, exprime une admiration sincère et sans ironie pour elle — ce qui en fait un témoignage littéraire singulier."
     }
   ]
 }

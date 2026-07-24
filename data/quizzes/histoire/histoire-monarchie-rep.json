@@ -1,8 +1,8 @@
 {
   "slug": "quiz-histoire-monarchie-vs-republique",
-  "title": "Quiz Histoire - Monarchie vs République : connais-tu l’histoire ?",
-  "description": "Rois, révolutions, constitutions : teste tes connaissances sur les régimes politiques à travers l’histoire.",
-  "descriptionSeo": "Teste tes connaissances avec ce quiz sur la monarchie et la république à travers l’histoire. De Louis XIV à la Révolution française, en passant par Napoléon et les régimes modernes, comprends les grandes différences entre pouvoir héréditaire et souveraineté populaire. Monarchie absolue, constitutionnelle, république : 20 questions pour mieux saisir les évolutions politiques et les enjeux qui ont façonné les systèmes de gouvernement jusqu’à aujourd’hui.",
+  "title": "Quiz Histoire - Monarchie vs République : connais-tu l'histoire ?",
+  "description": "Rois, révolutions, constitutions : teste tes connaissances sur les régimes politiques à travers l'histoire.",
+  "descriptionSeo": "Découvre les grandes étapes de l'évolution des régimes politiques avec ce quiz consacré à la monarchie et à la république. De la Magna Carta à la Révolution française, en passant par Louis XIV, Napoléon, les Lumières et la Ve République, explore les événements, les institutions et les idées qui ont transformé l'exercice du pouvoir. Un quiz de 20 questions avec explications pour mieux comprendre l'histoire politique et constitutionnelle.",
   "category": {
     "name": "Histoire",
     "slug": "histoire"
@@ -18,143 +18,143 @@
   "questions": [
     {
       "id": "1",
-      "question": "Dans une monarchie, comment est généralement transmis le pouvoir ?",
-      "answers": ["Par héritage", "Par élection", "Par tirage au sort", "Par révolution"],
-      "correctIndex": 0,
-      "explanation": "Dans la plupart des monarchies, le pouvoir est héréditaire. Il se transmet au sein d’une dynastie, ce qui distingue fondamentalement ce régime d’une république où les dirigeants sont choisis."
+      "question": "En quelle année la Première République française est-elle proclamée, mettant fin à la monarchie ?",
+      "answers": ["1789", "1792", "1799", "1804"],
+      "correctIndex": 1,
+      "explanation": "Le 21 septembre 1792, la Convention nationale abolit la monarchie et proclame la République. Ce basculement fait suite à la suspension de Louis XVI après la journée du 10 août et marque un tournant radical dans l'histoire politique française."
     },
     {
       "id": "2",
-      "question": "Quel événement met fin à la monarchie absolue en France ?",
-      "answers": ["Empire", "Révolution française", "Restauration", "Directoire"],
+      "question": "Quel document anglais de 1215 limite pour la première fois le pouvoir royal en imposant des règles que le roi doit respecter ?",
+      "answers": ["La Bill of Rights", "La Magna Carta", "La Petition of Right", "L'Habeas Corpus"],
       "correctIndex": 1,
-      "explanation": "La Révolution française de 1789 met fin à la monarchie absolue. Elle remet en cause le pouvoir du roi et introduit l’idée de souveraineté du peuple."
+      "explanation": "La Magna Carta (Grande Charte), signée par Jean sans Terre en 1215, est le premier texte à soumettre le roi anglais à la loi. Elle est considérée comme l'acte fondateur du constitutionnalisme occidental et du principe que même les monarques sont soumis à des règles."
     },
     {
       "id": "3",
-      "question": "Quel régime politique repose sur la souveraineté du peuple ?",
-      "answers": ["Monarchie", "Empire", "République", "Dictature"],
-      "correctIndex": 2,
-      "explanation": "La république repose sur le principe que le pouvoir appartient au peuple, qui l’exerce directement ou par l’intermédiaire de représentants élus."
+      "question": "Quel roi français incarne la monarchie absolue de droit divin et règne pendant 72 ans ?",
+      "answers": ["Henri IV", "Louis XVI", "François Ier", "Louis XIV"],
+      "correctIndex": 3,
+      "explanation": "Louis XIV (1643–1715) centralise tous les pouvoirs, installe sa cour à Versailles pour contrôler la noblesse et affirme tenir son autorité de Dieu. Son règne de 72 ans reste le plus long de l'histoire de France et le modèle de référence de la monarchie absolue."
     },
     {
       "id": "4",
-      "question": "Quel roi symbolise la monarchie absolue en France ?",
-      "answers": ["Louis XVI", "Louis XV", "Henri IV", "Louis XIV"],
-      "correctIndex": 3,
-      "explanation": "Louis XIV incarne la monarchie absolue. Il concentre tous les pouvoirs et affirme que son autorité vient de Dieu, ce qui justifie son pouvoir sans partage."
+      "question": "Quelle révolution anglaise de 1688 instaure définitivement la suprématie du Parlement sur le roi ?",
+      "answers": ["La révolution de Cromwell", "La Glorieuse Révolution", "La révolution des Têtes rondes", "La révolution de 1640"],
+      "correctIndex": 1,
+      "explanation": "La Glorieuse Révolution de 1688 chasse Jacques II et installe Guillaume III d'Orange. La Déclaration des droits (Bill of Rights, 1689) établit que le roi ne peut ni suspendre les lois ni lever des impôts sans l'accord du Parlement, posant les bases de la monarchie constitutionnelle."
     },
     {
       "id": "5",
-      "question": "Dans une république, comment les dirigeants accèdent-ils au pouvoir ?",
-      "answers": ["Par élection", "Par naissance", "Par héritage", "Par conquête"],
-      "correctIndex": 0,
-      "explanation": "Dans une république, les dirigeants sont élus par les citoyens ou leurs représentants. Cela introduit une notion de responsabilité politique et de renouvellement du pouvoir."
+      "question": "Quel philosophe des Lumières théorise la séparation des pouvoirs, fondement des républiques modernes, dans 'L'Esprit des lois' (1748) ?",
+      "answers": ["Rousseau", "Voltaire", "Montesquieu", "Locke"],
+      "correctIndex": 2,
+      "explanation": "Montesquieu formule dans L'Esprit des lois (1748) la théorie de la séparation des pouvoirs exécutif, législatif et judiciaire. Cette doctrine devient le fondement des constitutions républicaines modernes, notamment celle des États-Unis (1787) et des républiques françaises."
     },
     {
       "id": "6",
-      "question": "Quel régime Napoléon instaure-t-il en 1804 ?",
-      "answers": ["République", "Empire", "Monarchie parlementaire", "Démocratie"],
+      "question": "Quel régime Napoléon instaure-t-il en 1804, combinant héritage révolutionnaire et pouvoir personnel héréditaire ?",
+      "answers": ["La Première République", "L'Empire", "La monarchie constitutionnelle", "Le Consulat"],
       "correctIndex": 1,
-      "explanation": "Napoléon instaure l’Empire, un régime autoritaire qui conserve certains acquis de la Révolution tout en rétablissant un pouvoir personnel fort."
+      "explanation": "Napoléon se fait sacrer empereur des Français en 1804, instaurant un régime hybride : il conserve le Code civil et les acquis révolutionnaires, mais concentre le pouvoir et le rend héréditaire. Ce régime brouille la frontière entre monarchie et république."
     },
     {
       "id": "7",
-      "question": "Quelle institution représente les citoyens dans une république ?",
-      "answers": ["Le roi", "Le clergé", "Le parlement", "La cour"],
-      "correctIndex": 2,
-      "explanation": "Le parlement représente les citoyens. Il vote les lois et contrôle le pouvoir exécutif dans de nombreuses républiques."
+      "question": "En quelle année la monarchie est-elle restaurée en France après la chute de Napoléon, avec Louis XVIII ?",
+      "answers": ["1812", "1815", "1820", "1830"],
+      "correctIndex": 1,
+      "explanation": "Après la défaite de Waterloo et l'abdication de Napoléon, Louis XVIII monte sur le trône en 1815. La Restauration instaure une monarchie constitutionnelle avec la Charte de 1814, tentant de concilier l'héritage révolutionnaire et la tradition royale — un équilibre fragile."
     },
     {
       "id": "8",
-      "question": "Quel événement marque la proclamation de la Première République en France ?",
-      "answers": ["1789", "1804", "1815", "1792"],
-      "correctIndex": 3,
-      "explanation": "La République est proclamée en 1792 après la chute de la monarchie. C’est un tournant majeur dans l’histoire politique française."
+      "question": "Quelle révolution de 1848 provoque la chute de la monarchie de Juillet et l'instauration de la IIe République en France ?",
+      "answers": ["La révolution de Thermidor", "La révolution de Février", "La révolution de Juillet", "La révolution de Juin"],
+      "correctIndex": 1,
+      "explanation": "La révolution de Février 1848 chasse Louis-Philippe et met fin à la monarchie de Juillet. La IIe République est proclamée et introduit le suffrage universel masculin — une avancée démocratique majeure. Elle est renversée dès 1851 par le coup d'État de Louis-Napoléon Bonaparte."
     },
     {
       "id": "9",
-      "question": "Quel type de monarchie limite le pouvoir du roi ?",
-      "answers": ["Monarchie constitutionnelle", "Monarchie absolue", "Empire", "Dictature"],
-      "correctIndex": 0,
-      "explanation": "Dans une monarchie constitutionnelle, le pouvoir du roi est limité par une constitution et souvent partagé avec un parlement."
+      "question": "Quelle déclaration américaine de 1776, inspirée des Lumières, fonde la première grande république moderne ?",
+      "answers": ["La Constitution de 1787", "La Déclaration d'indépendance", "La Bill of Rights", "Le Traité de Paris"],
+      "correctIndex": 1,
+      "explanation": "La Déclaration d'indépendance américaine du 4 juillet 1776 proclame que tous les hommes sont créés égaux et que les gouvernements tirent leur légitimité du consentement des gouvernés. Elle fonde la première grande démocratie républicaine moderne, rompant explicitement avec la monarchie britannique."
     },
     {
       "id": "10",
-      "question": "Quel roi est exécuté pendant la Révolution française ?",
+      "question": "Quel roi français est guillotiné en janvier 1793, événement qui choque les monarchies européennes et déclenche une coalition contre la France ?",
       "answers": ["Louis XIV", "Louis XVI", "Louis XV", "Louis XVIII"],
       "correctIndex": 1,
-      "explanation": "Louis XVI est exécuté en 1793. Sa mort symbolise la rupture totale avec la monarchie traditionnelle."
+      "explanation": "L'exécution de Louis XVI le 21 janvier 1793 provoque un choc diplomatique majeur : les monarchies européennes forment la première coalition contre la France révolutionnaire. Ce régicide — le premier légal de l'histoire de France — marque la rupture définitive avec l'Ancien Régime."
     },
     {
       "id": "11",
-      "question": "Quel principe distingue principalement une république d’une monarchie ?",
-      "answers": ["Souveraineté du peuple", "Présence d’une armée", "Existence de lois", "Pouvoir religieux"],
-      "correctIndex": 0,
-      "explanation": "Le principe clé est la souveraineté du peuple. Dans une monarchie, le pouvoir est souvent concentré entre les mains d’un individu ou d’une dynastie."
+      "question": "Quel symbole féminin personnifie la République française depuis la Révolution ?",
+      "answers": ["La couronne", "Le sceptre", "Marianne", "La fleur de lys"],
+      "correctIndex": 2,
+      "explanation": "Marianne, figure féminine coiffée d'un bonnet phrygien, symbolise la République française et ses valeurs de liberté, égalité et fraternité. Son buste orne les mairies depuis la IIIe République. Elle s'oppose symboliquement aux attributs royaux (couronne, sceptre, fleur de lys)."
     },
     {
       "id": "12",
-      "question": "Quel régime revient en France après Napoléon en 1815 ?",
-      "answers": ["République", "Monarchie", "Empire", "Dictature"],
-      "correctIndex": 1,
-      "explanation": "Après la chute de Napoléon, la monarchie est restaurée avec Louis XVIII. Cela montre que les régimes peuvent alterner selon les contextes politiques."
+      "question": "Quel pays européen passe d'une monarchie absolue à une monarchie constitutionnelle par la révolution de 1809, sans renverser son roi ?",
+      "answers": ["La Suède", "Le Portugal", "L'Espagne", "Les Pays-Bas"],
+      "correctIndex": 0,
+      "explanation": "La Suède adopte en 1809 une nouvelle constitution qui limite drastiquement le pouvoir royal après la déposition de Gustave IV. Ce modèle de transition pacifique vers une monarchie constitutionnelle contraste avec les révolutions violentes qui bouleversent d'autres pays européens."
     },
-    {
-      "id": "13",
-      "question": "Quel symbole est associé à la République française ?",
-      "answers": ["La couronne", "Le sceptre", "Marianne", "Le trône"],
-      "correctIndex": 2,
-      "explanation": "Marianne représente la République et ses valeurs : liberté, égalité et fraternité. C’est un symbole opposé à la monarchie."
-    },
+  {
+  "id": "13",
+  "question": "Quel pays européen abrite la monarchie dont le souverain conserve les pouvoirs constitutionnels les plus étendus en Europe ?",
+  "answers": ["Le Vatican", "Monaco", "Le Liechtenstein", "L'Arabie saoudite"],
+  "correctIndex": 2,
+  "explanation": "Le Liechtenstein est souvent cité comme la monarchie européenne où le souverain conserve les pouvoirs constitutionnels les plus étendus : le prince Hans-Adam II dispose notamment du droit de veto sur les lois et de dissoudre le gouvernement. Monaco et le Vatican ont des systèmes distincts mais comparables."
+},
     {
       "id": "14",
-      "question": "Quel régime concentre le pouvoir entre les mains d’un seul dirigeant héréditaire ?",
-      "answers": ["République", "Démocratie", "Parlementarisme", "Monarchie absolue"],
-      "correctIndex": 3,
-      "explanation": "La monarchie absolue concentre tous les pouvoirs dans les mains du roi, sans véritable contre-pouvoir."
+      "question": "Quel pays instaure le premier suffrage universel masculin en Europe lors de la révolution de 1848 ?",
+      "answers": ["L'Angleterre", "L'Allemagne", "La France", "L'Italie"],
+      "correctIndex": 2,
+      "explanation": "La IIe République française instaure le suffrage universel masculin en mars 1848 — une première en Europe à cette échelle. Ce droit de vote est accordé à tous les hommes majeurs, quelle que soit leur condition sociale, transformant radicalement la base de la légitimité politique."
     },
     {
       "id": "15",
-      "question": "Quel événement marque la fin de la monarchie en France en 1792 ?",
-      "answers": ["Chute de la monarchie", "Waterloo", "Empire", "Congrès de Vienne"],
-      "correctIndex": 0,
-      "explanation": "La chute de la monarchie en 1792 met fin au pouvoir royal et ouvre la voie à la République."
+      "question": "Quel philosophe, auteur du 'Contrat social' (1762), théorise la souveraineté populaire contre la monarchie de droit divin ?",
+      "answers": ["Voltaire", "Rousseau", "Montesquieu", "Diderot"],
+      "correctIndex": 1,
+      "explanation": "Jean-Jacques Rousseau affirme dans le Contrat social (1762) que la souveraineté appartient au peuple et ne peut être aliénée à un roi. Sa pensée influence directement la Révolution française et les républiques modernes, en fondant la légitimité politique sur le consentement collectif plutôt que sur le droit divin."
     },
     {
       "id": "16",
-      "question": "Dans une monarchie, le pouvoir est souvent légitimé par quoi ?",
-      "answers": ["Le vote", "La tradition ou le droit divin", "La constitution uniquement", "Le hasard"],
+      "question": "Quel pays européen abolit sa monarchie après la Première Guerre mondiale, en 1918, pour devenir une république ?",
+      "answers": ["La France", "L'Autriche", "Le Royaume-Uni", "L'Espagne"],
       "correctIndex": 1,
-      "explanation": "Le droit divin affirme que le roi tient son pouvoir de Dieu. Cette idée est centrale dans les monarchies absolues."
+      "explanation": "L'Autriche-Hongrie s'effondre en 1918 avec la défaite militaire. L'empereur Charles Ier abdique et la République d'Autriche est proclamée. La même année, l'Allemagne, la Russie et l'Empire ottoman perdent également leurs dynasties — marquant la fin d'une époque pour les grandes monarchies européennes."
     },
-    {
-      "id": "17",
-      "question": "Quel pays est aujourd’hui une monarchie constitutionnelle ?",
-      "answers": ["France", "États-Unis", "Royaume-Uni", "Allemagne"],
-      "correctIndex": 2,
-      "explanation": "Le Royaume-Uni est une monarchie constitutionnelle : le roi règne mais ne gouverne pas réellement, le pouvoir étant exercé par le gouvernement."
-    },
+ {
+  "id": "17",
+  "question": "Quel régime politique, instauré par la Constitution de 1958, se distingue par un fort pouvoir présidentiel ?",
+  "answers": ["Une démocratie parlementaire classique", "La Ve République", "Une monarchie républicaine", "Une confédération d'États"],
+  "correctIndex": 1,
+  "explanation": "La Ve République, instituée par de Gaulle en 1958, est un régime semi-présidentiel : le président élu au suffrage universel dispose de pouvoirs importants (dissolution, référendum, nomination du Premier ministre), tandis que le gouvernement reste responsable devant le Parlement. Ce modèle hybride est souvent qualifié de 'monarchie républicaine'."
+},
     {
       "id": "18",
-      "question": "Quel régime repose sur des élections régulières ?",
-      "answers": ["Empire", "Monarchie absolue", "République", "Théocratie"],
+      "question": "Quel pays restaure sa monarchie en 1975, après 36 ans de dictature franquiste, avec le roi Juan Carlos Ier ?",
+      "answers": ["Le Portugal", "L'Italie", "L'Espagne", "La Grèce"],
       "correctIndex": 2,
-      "explanation": "Les élections sont essentielles dans une république pour renouveler les dirigeants et garantir la représentation du peuple."
+      "explanation": "À la mort de Franco en 1975, l'Espagne restaure la monarchie avec Juan Carlos Ier. Contrairement aux attentes des franquistes, le roi impulse une transition démocratique remarquable vers une monarchie constitutionnelle. Ce modèle de 'transition pacifique' est étudié dans le monde entier."
     },
     {
       "id": "19",
-      "question": "Quel élément est typique d’une monarchie ?",
-      "answers": ["Hérédité du pouvoir", "Élection libre", "Mandat limité", "Alternance politique"],
-      "correctIndex": 0,
-      "explanation": "L’hérédité est un élément clé des monarchies. Elle garantit la continuité dynastique mais limite la participation populaire."
+      "question": "Combien de républiques la France a-t-elle connues depuis la Révolution ?",
+      "answers": ["Trois", "Quatre", "Cinq", "Six"],
+      "correctIndex": 2,
+      "explanation": "La France a connu cinq républiques : la Ire (1792–1799), la IIe (1848–1851), la IIIe (1870–1940), la IVe (1946–1958) et la Ve (depuis 1958), entrecoupées de deux empires, deux restaurations monarchiques et le régime de Vichy. Cette instabilité illustre les tensions durables entre monarchie et république dans l'histoire française."
     },
     {
       "id": "20",
-      "question": "Quelle est la principale différence entre monarchie et république ?",
-      "answers": ["La langue", "La religion", "Le mode d’accès au pouvoir", "La géographie"],
+      "question": "Quel texte fondateur de 1789 affirme que 'le principe de toute souveraineté réside essentiellement dans la Nation' ?",
+      "answers": ["L'édit de Nantes", "La Constitution de 1791", "La Déclaration des droits de l'homme et du citoyen", "Le Contrat social"],
       "correctIndex": 2,
-      "explanation": "La différence essentielle réside dans l’accès au pouvoir : héréditaire dans une monarchie, électif dans une république."
+      "explanation": "L'article 3 de la Déclaration des droits de l'homme et du citoyen (26 août 1789) affirme que 'le principe de toute souveraineté réside essentiellement dans la Nation'. Cette formulation révolutionnaire renverse le principe monarchique du droit divin et pose le fondement de toutes les républiques françaises."
     }
   ]
 }

@@ -2,7 +2,7 @@
   "slug": "quiz-histoire-debarquement-normandie",
   "title": "Quiz Histoire - Débarquement de Normandie - Que sais-tu vraiment ?",
   "description": "6 juin 1944, D-Day, plages, Alliés : teste tes connaissances sur le Débarquement de Normandie.",
-  "descriptionSeo": "Plonge dans l’histoire du Débarquement de Normandie avec ce quiz dédié à l’un des événements majeurs de la Seconde Guerre mondiale. Du 6 juin 1944 aux opérations alliées, explore les plages, les stratégies militaires, les forces en présence et les enjeux de la libération de la France. 20 questions pour mieux comprendre le D-Day, ses conséquences historiques et éviter les idées reçues sur ce tournant décisif du conflit.",
+  "descriptionSeo": "Plonge dans l'histoire du Débarquement de Normandie avec ce quiz dédié à l'un des événements majeurs de la Seconde Guerre mondiale. Du 6 juin 1944 aux opérations alliées, explore les plages, les stratégies militaires, les forces en présence et les enjeux de la libération de la France. 20 questions pour mieux comprendre le D-Day, ses conséquences historiques et éviter les idées reçues sur ce tournant décisif du conflit.",
   "category": {
     "name": "Histoire",
     "slug": "histoire"
@@ -18,143 +18,183 @@
   "questions": [
     {
       "id": "1",
-      "question": "En quelle date a lieu le Débarquement de Normandie ?",
-      "answers": ["8 mai 1945", "6 juin 1944", "1er septembre 1939", "11 novembre 1918"],
+      "question": "Le Débarquement de Normandie a lieu le 6 juin 1944. Quel nom de code désigne la phase navale du débarquement, à distinguer de l'opération globale ?",
+      "image": null,
+      "imagePrompt": "D-Day Normandy landing June 6 1944 Operation Neptune Overlord map",
+      "answers": ["Opération Overlord", "Opération Neptune", "Opération Fortitude", "Opération Torch"],
       "correctIndex": 1,
-      "explanation": "Le 6 juin 1944 (D-Day) marque le début de l’opération Overlord. C’est le moment où les Alliés ouvrent un front à l’Ouest pour libérer l’Europe occupée."
+      "explanation": "L'opération Overlord désigne l'ensemble de la campagne de libération de l'Europe occidentale. La phase amphibie du 6 juin — le débarquement proprement dit — s'appelle opération Neptune. Cette distinction est souvent ignorée : Overlord englobe toute la bataille de Normandie jusqu'à la percée d'Avranches fin juillet 1944, tandis que Neptune ne couvre que l'assaut initial sur les plages et les opérations navales associées."
     },
     {
       "id": "2",
-      "question": "Quel est le nom de code de l’opération globale ?",
-      "answers": ["Overlord", "Barbarossa", "Torch", "Market Garden"],
+      "question": "Cinq plages de débarquement sont assignées aux Alliés. Laquelle est réservée aux soldats canadiens ?",
+      "image": null,
+      "imagePrompt": "Juno Beach Canadian soldiers D-Day Normandy 1944 landing craft",
+      "answers": ["Juno Beach", "Sword Beach", "Gold Beach", "Utah Beach"],
       "correctIndex": 0,
-      "explanation": "Overlord désigne toute l’opération d’invasion. Le débarquement du 6 juin n’en est que la première phase, appelée Neptune."
+      "explanation": "Les cinq plages sont réparties entre les nations alliées : Utah et Omaha pour les Américains, Gold et Sword pour les Britanniques, et Juno pour les Canadiens. Ces derniers subissent de lourdes pertes (environ 1 200 tués ou blessés le 6 juin) mais pénètrent plus profondément dans les terres que n'importe quelle autre force ce jour-là. Le Canada, souvent oublié dans la mémoire populaire du D-Day, engage environ 14 000 soldats dans l'assaut initial."
     },
     {
       "id": "3",
-      "question": "Quels pays sont les principales forces du débarquement ?",
-      "answers": ["URSS seule", "France et Allemagne", "États-Unis, Royaume-Uni, Canada", "Italie et Espagne"],
+      "question": "Omaha Beach est la plage la plus meurtrière du 6 juin. Pourquoi le débarquement y est-il si catastrophique dans les premières heures ?",
+      "image": null,
+      "imagePrompt": "Omaha Beach D-Day 1944 American soldiers casualties cliffs German defenses",
+      "answers": ["Les Allemands y ont massé trois divisions blindées SS", "Un brouillard épais empêche tout soutien naval pendant huit heures", "Les chars amphibies coulent presque tous et les falaises restent aux mains de défenseurs aguerris", "Les soldats débarquent au mauvais endroit à cause d'une erreur de navigation"],
       "correctIndex": 2,
-      "explanation": "Les troupes sont majoritairement américaines, britanniques et canadiennes, avec la participation de forces françaises libres et d’autres nations alliées."
+      "explanation": "À Omaha, presque tous les chars amphibies (DD tanks) coulent avant d'atteindre la plage, privant l'infanterie de son soutien blindé. Les soldats américains font face à la 352e division d'infanterie allemande — plus aguerrie que prévu — retranchée sur des falaises dominant la plage. Les bombardements préliminaires ont largement raté leurs cibles. Les pertes américaines à Omaha s'élèvent à environ 2 000 tués ou blessés ce seul jour. La plage n'est sécurisée qu'en fin d'après-midi grâce à l'initiative de petits groupes de soldats."
     },
     {
       "id": "4",
-      "question": "Combien de plages principales sont concernées ?",
-      "answers": ["3", "4", "6", "5"],
-      "correctIndex": 3,
-      "explanation": "Il y a 5 plages : Utah, Omaha (Américains), Gold et Sword (Britanniques), Juno (Canadiens)."
+      "question": "Le général Eisenhower commande les forces alliées. Quelle décision cruciale prend-il seul dans la nuit du 4 au 5 juin ?",
+      "image": null,
+      "imagePrompt": "Eisenhower D-Day decision weather forecast SHAEF June 5 1944 meteorologist",
+      "answers": ["Il choisit la Normandie plutôt que le Pas-de-Calais", "Il annule définitivement le débarquement et reporte à juillet", "Il maintient le débarquement pour le 6 juin malgré des conditions météo difficiles", "Il ajoute une sixième plage de débarquement au dernier moment"],
+      "correctIndex": 2,
+      "explanation": "Après avoir reporté d'un jour le débarquement initialement prévu le 5 juin (mer trop agitée), Eisenhower doit décider dans la nuit du 4 au 5 juin si le 6 est praticable. Son météorologue, le capitaine Stagg, prédit une fenêtre de beau temps de 24 à 36 heures. Malgré l'incertitude, Eisenhower tranche seul : « OK, we'll go. » Cette décision engage des millions d'hommes. Si le débarquement échoue, il a préparé un communiqué assumant l'entière responsabilité de l'échec — communiqué retrouvé dans ses papiers après la guerre."
     },
     {
       "id": "5",
-      "question": "Quelle plage est la plus meurtrière ?",
-      "answers": ["Omaha", "Gold", "Utah", "Sword"],
-      "correctIndex": 0,
-      "explanation": "Omaha Beach est la plus meurtrière à cause de défenses allemandes efficaces et d’un débarquement mal coordonné initialement."
+      "question": "L'opération Fortitude vise à tromper les Allemands sur le lieu du débarquement. Quel faux groupe d'armées est au cœur de cette déception ?",
+      "image": null,
+      "imagePrompt": "Operation Fortitude FUSAG Patton deception Pas-de-Calais fake army group",
+      "answers": ["Le 21e groupe d'armées de Montgomery, censé attaquer la Norvège", "Le 12e groupe d'armées de Bradley, présenté comme destiné à l'Espagne", "La 1re armée française, censée débarquer en Provence avant la Normandie", "Le FUSAG, commandé fictivement par Patton, simulant un débarquement dans le Pas-de-Calais"],
+      "correctIndex": 3,
+      "explanation": "Le FUSAG (First United States Army Group) est un groupe d'armées fictif dont Patton — le général que les Allemands craignent le plus — prend fictivement le commandement. Faux chars gonflables, fausses communications radio et agents doubles convainquent l'OKW que le vrai débarquement aura lieu dans le Pas-de-Calais. Si efficace que même après le 6 juin, Hitler retient ses divisions blindées de réserve plusieurs semaines, persuadé que la Normandie n'est qu'une diversion. Cette attente fatale est l'un des facteurs décisifs du succès allié."
     },
     {
       "id": "6",
-      "question": "Qui commande les forces alliées ?",
-      "answers": ["Churchill", "De Gaulle", "Eisenhower", "Staline"],
-      "correctIndex": 2,
-      "explanation": "Dwight D. Eisenhower est le commandant suprême des forces alliées en Europe. Il coordonne une opération extrêmement complexe."
+      "question": "Les parachutistes alliés sont largués dans la nuit du 5 au 6 juin. Quelles sont leurs deux missions prioritaires ?",
+      "image": null,
+      "imagePrompt": "D-Day paratroopers 82nd 101st airborne night drop Normandy bridges secure flanks",
+      "answers": ["Capturer Caen et Cherbourg avant l'aube", "Sécuriser les flancs et les ponts pour empêcher les contre-attaques allemandes", "Détruire le quartier général de Rommel avant le débarquement naval", "Capturer des officiers allemands pour obtenir les codes de défense"],
+      "correctIndex": 1,
+      "explanation": "Les 82e et 101e divisions aéroportées américaines (à l'ouest) et la 6e division aéroportée britannique (à l'est) ont pour mission de sécuriser les flancs de la tête de pont et de s'emparer des ponts stratégiques. Les Britanniques capturent intact le pont de Bénouville (futur pont Pegasus) dans les premières heures, exploit rendu célèbre par le livre de Cornelius Ryan. Les Américains, dispersés par les vents, s'en tirent néanmoins en désorganisant profondément les défenses allemandes derrière les plages."
     },
     {
       "id": "7",
-      "question": "Quel est l’objectif principal du Débarquement ?",
-      "answers": ["Libérer l’Europe de l’Ouest", "Envahir l’URSS", "Détruire le Japon", "Attaquer l’Afrique"],
+      "question": "Le Mur de l'Atlantique est censé rendre le débarquement impossible. Pourquoi ses défenses sont-elles finalement moins redoutables en Normandie ?",
+      "image": null,
+      "imagePrompt": "Atlantic Wall bunkers Normandy incomplete construction Todt organization coastal defense",
+      "answers": ["Le mur est inégalement construit : dense dans le Pas-de-Calais, plus faible en Normandie", "Hitler ordonne d'y réduire les effectifs trois semaines avant le débarquement", "Les bombardements alliés détruisent 80 % des fortifications normandes", "Rommel estime que le débarquement viendra de Méditerranée et néglige la Normandie"],
       "correctIndex": 0,
-      "explanation": "L’objectif est d’ouvrir un second front contre l’Allemagne pour soulager l’URSS et accélérer la chute du régime nazi."
+      "explanation": "Le Mur de l'Atlantique est une réalité propagandiste autant que militaire. Il est effectivement dense et redoutable dans le Pas-de-Calais — région que les Allemands jugent la plus menacée. En Normandie, les travaux sont moins avancés et les défenses plus lacunaires. L'organisation Todt a priorisé les zones que l'état-major allemand considère comme les cibles les plus probables, ce qui explique en partie pourquoi le choix de la Normandie par les Alliés était aussi astucieux stratégiquement."
     },
     {
       "id": "8",
-      "question": "Quel pays occupait la France en 1944 ?",
-      "answers": ["Italie", "Espagne", "URSS", "Allemagne"],
-      "correctIndex": 3,
-      "explanation": "Depuis 1940, la France est occupée par l’Allemagne nazie, ce qui rend le débarquement indispensable pour sa libération."
+      "question": "Rommel et von Rundstedt s'opposent sur une question stratégique fondamentale. Laquelle ?",
+      "image": null,
+      "imagePrompt": "Rommel Rundstedt Panzer reserves controversy D-Day defense strategy disagreement",
+      "answers": ["Rommel veut défendre toute la côte, von Rundstedt préfère se retirer vers Paris", "Rommel veut engager les Panzers dès la plage, von Rundstedt préfère les garder en réserve profonde", "Rommel veut abandonner la Normandie pour défendre le Rhin", "Rommel veut négocier avec les Alliés, von Rundstedt refuse tout armistice"],
+      "correctIndex": 1,
+      "explanation": "Rommel pense que les Panzers doivent être positionnés près des côtes pour contre-attaquer immédiatement : « la première nuit sera décisive, car les Alliés n'auront pas encore eu le temps de s'organiser. » Von Rundstedt préfère garder les blindés en réserve profonde pour une contre-attaque massive. Hitler tranche... en gardant le contrôle personnel des meilleures divisions blindées, refusant de les engager le 6 juin car convaincu que la Normandie est une diversion. Ce désaccord fatal laisse les défenses côtières sans renfort blindé au moment critique."
     },
     {
       "id": "9",
-      "question": "Quelle opération vise à tromper les Allemands ?",
-      "answers": ["Fortitude", "Overlord", "Barbarossa", "Torch"],
-      "correctIndex": 0,
-      "explanation": "Fortitude est une vaste opération de désinformation qui fait croire à un débarquement dans le Pas-de-Calais."
+      "question": "Les commandos Kieffer sont les seuls soldats français à débarquer le 6 juin. Combien sont-ils, et sur quelle plage ?",
+      "image": null,
+      "imagePrompt": "Kieffer commandos French soldiers Sword Beach D-Day free french fighters",
+      "answers": ["Environ 500 hommes sur Omaha Beach", "177 hommes sur Sword Beach avec les Britanniques", "1 500 hommes sur Utah Beach avec les Américains", "300 hommes déposés par sous-marin derrière les lignes"],
+      "correctIndex": 1,
+      "explanation": "Le commando Kieffer — du nom de son commandant Philippe Kieffer — compte 177 soldats français libres qui débarquent à Sword Beach aux côtés des Britanniques (les sources varient légèrement, entre 177 et 180 selon les décomptes). Ils ont pour objectif la ville de Ouistreham et son casino transformé en bunker. Ces hommes sont les seuls Français à fouler le sol normand le 6 juin 1944. Kieffer lui-même est blessé deux fois dans la journée mais reste au combat. Leur exploit a été rendu célèbre par le roman et film Le jour le plus long."
     },
     {
       "id": "10",
-      "question": "Quels soldats arrivent avant les troupes sur les plages ?",
-      "answers": ["Chars", "Parachutistes", "Infanterie", "Marins"],
-      "correctIndex": 1,
-      "explanation": "Les parachutistes sont largués dans la nuit pour sécuriser des ponts et désorganiser les défenses allemandes."
+      "question": "Cherbourg est prise par les Américains fin juin 1944. Pourquoi sa capture est-elle si urgente sur le plan logistique ?",
+      "image": null,
+      "imagePrompt": "Cherbourg port liberation June 1944 Mulberry harbor logistics supply Allied forces",
+      "answers": ["C'est le seul endroit d'où les Alliés peuvent lancer des bombardiers vers Berlin", "Les Allemands y ont stocké leurs réserves de pétrole pour toute la France", "C'est là que doit débarquer de Gaulle pour prendre le contrôle de la France", "Un port en eau profonde est indispensable pour ravitailler des centaines de milliers d'hommes"],
+      "correctIndex": 3,
+      "explanation": "Les ports artificiels Mulberry construits sur les plages (détruits en partie par une tempête le 19 juin) ne suffisent pas à ravitailler des centaines de milliers de soldats et leur équipement. Un vrai port en eau profonde est vital. Les Allemands, sachant cela, détruisent systématiquement les installations portuaires de Cherbourg avant de se rendre (26 juin) — si bien qu'il faut plusieurs semaines pour les remettre en état. Cette destruction méthodique illustre la stratégie allemande de ralentir l'avance alliée par tous les moyens."
     },
     {
       "id": "11",
-      "question": "Quel système défensif protège les côtes ?",
-      "answers": ["Mur de l’Atlantique", "Ligne Maginot", "Mur de Berlin", "Front Est"],
+      "question": "La bataille du bocage normand ralentit l'avance alliée après le 6 juin. Pourquoi le bocage favorise-t-il si fortement les défenseurs ?",
+      "image": null,
+      "imagePrompt": "Normandy bocage hedgerows battle 1944 Allied tanks infantry stuck difficult terrain",
+      "answers": ["Les talus et haies épaisses offrent des positions défensives naturelles redoutables", "Les haies sont électrifiées par les Allemands pour arrêter les chars alliés", "Le bocage cache des mines magnétiques détruisant les chenilles des Sherman", "Les routes sinueuses permettent aux Panzers de contourner les colonnes alliées"],
       "correctIndex": 0,
-      "explanation": "Le Mur de l’Atlantique est un réseau de bunkers et fortifications destiné à empêcher un débarquement allié."
+      "explanation": "Le bocage normand — réseau de champs entourés de talus de terre surmontés de haies épaisses — est un cauchemar pour les chars alliés. Chaque haie est une position défensive naturelle : les Panzers allemands et l'infanterie peuvent y dissimuler des embuscades mortelles. Les Sherman américains, en tentant de franchir les talus, exposent leur ventre plus fragile. Cette bataille d'attrition dure jusqu'à la percée d'Avranches fin juillet, quand un engin appelé le « Rhinocéros » (grappins soudés à l'avant des chars) permet enfin de défoncer les haies."
     },
     {
       "id": "12",
-      "question": "Quel général allemand supervise la défense ?",
-      "answers": ["Hitler", "Rommel", "Himmler", "Goebbels"],
+      "question": "Quelle contribution concrète la Résistance française apporte-t-elle dans les jours précédant et suivant le 6 juin ?",
+      "image": null,
+      "imagePrompt": "French Resistance sabotage D-Day railways communications SNCF Plan Vert Tortue",
+      "answers": ["Elle neutralise les divisions SS par des assassinats ciblés d'officiers", "Elle sabote les voies ferrées et communications pour retarder les renforts allemands", "Elle livre aux Alliés les plans complets du Mur de l'Atlantique", "Elle organise des soulèvements armés dans toutes les grandes villes normandes"],
       "correctIndex": 1,
-      "explanation": "Rommel pense qu'un débarquement est possible en Normandie mais considère également le Pas-de-Calais comme une menace. C'est surtout Hitler qui reste persuadé que la Normandie est une diversion après le 6 juin, en partie à cause de l'opération Fortitude."
+      "explanation": "Le Plan Vert ordonne à la Résistance de saboter le réseau ferroviaire pour empêcher les divisions allemandes de rejoindre la Normandie rapidement. Le Plan Tortue vise les routes. Ces sabotages retardent notamment l'arrivée de la 2e division SS Panzer Das Reich, qui met deux semaines pour rallier le front normand depuis le Périgord (trajet normalement réalisable en trois jours). En chemin, cette division commet le massacre d'Oradour-sur-Glane (642 morts, 10 juin 1944), en représailles aux actions de la Résistance."
     },
     {
       "id": "13",
-      "question": "Quel facteur est décisif dans le choix de la date ?",
-      "answers": ["Armement", "Renseignements", "Météo", "Politique"],
-      "correctIndex": 2,
-      "explanation": "Une fenêtre météo étroite permet de surprendre les Allemands, qui pensent qu’un débarquement est impossible dans ces conditions."
+      "question": "Quel est l'ordre de grandeur des pertes alliées le 6 juin 1944, sur environ 156 000 hommes débarqués ?",
+      "image": null,
+      "imagePrompt": "D-Day casualties statistics Allied losses June 6 1944 wounded killed missing",
+      "answers": ["Moins de 1 000 hommes", "Entre 10 000 et 12 000 tués, blessés ou disparus", "Environ 40 000 hommes", "Plus de 80 000 hommes"],
+      "correctIndex": 1,
+      "explanation": "Les estimations les plus communément retenues font état d'environ 10 000 à 12 000 soldats alliés tués, blessés ou portés disparus le 6 juin 1944, soit environ 5 à 8 % des forces engagées. Ce chiffre, dramatique, reste très inférieur aux projections les plus pessimistes. Les pertes sont très inégales selon les plages : minimales à Utah (environ 200), catastrophiques à Omaha (environ 2 000). Ces chiffres excluent les civils normands, dont plusieurs centaines meurent sous les bombardements ce même jour."
     },
     {
       "id": "14",
-      "question": "Quel port devient crucial après le débarquement ?",
-      "answers": ["Marseille", "Brest", "Paris", "Cherbourg"],
-      "correctIndex": 3,
-      "explanation": "Cherbourg permet de débarquer du matériel en masse. Sans port, la logistique alliée aurait été impossible à long terme."
+      "question": "Les ports artificiels Mulberry sont une innovation majeure. À quoi servent-ils exactement ?",
+      "image": null,
+      "imagePrompt": "Mulberry harbour artificial port D-Day Normandy prefabricated sections towed",
+      "answers": ["À protéger les plages contre les mines marines allemandes", "À servir de bases de lancement pour les missiles alliés", "À créer des ports provisoires préfabriqués pour débarquer hommes et matériel", "À héberger les quartiers généraux alliés à l'abri des bombardements"],
+      "correctIndex": 2,
+      "explanation": "Les ports Mulberry sont des installations portuaires préfabriquées en béton et acier, remorquées depuis l'Angleterre et assemblées au large des plages d'Arromanches (Britanniques) et de Saint-Laurent-sur-Mer (Américains). En l'absence de port naturel capturé, ils permettent de débarquer des milliers de tonnes de matériel quotidiennement. Une violente tempête (18–22 juin) détruit le Mulberry américain et endommage gravement le britannique. Ce dernier — le port Winston — fonctionne jusqu'en novembre 1944 ; ses vestiges sont encore visibles à Arromanches aujourd'hui."
     },
     {
       "id": "15",
-      "question": "Quel pays participe avec la France libre ?",
-      "answers": ["Royaume-Uni", "URSS", "Italie", "Allemagne"],
-      "correctIndex": 0,
-      "explanation": "Les forces françaises libres participent aux côtés des Britanniques et Américains, notamment avec les commandos Kieffer."
+      "question": "Que permet la percée d'Avranches (opération Cobra, fin juillet 1944) ?",
+      "image": null,
+      "imagePrompt": "Operation Cobra Avranches breakthrough Patton Third Army July 1944 Normandy liberation",
+      "answers": ["Elle permet aux Alliés de capturer Paris en moins de 48 heures", "Elle ouvre la voie à un débarquement complémentaire dans le Pas-de-Calais", "Elle isole les armées allemandes qui se rendent immédiatement en masse", "Elle rompt le front et permet à Patton de foncer vers la Bretagne puis Paris"],
+      "correctIndex": 3,
+      "explanation": "L'opération Cobra (25 juillet 1944) utilise des bombardements massifs pour percer le front allemand près de Saint-Lô. La brèche permet à la 3e armée du général Patton de s'engouffrer vers l'ouest (Bretagne) et vers l'est (Paris). Les Allemands tentent une contre-attaque à Mortain (7 août) qui échoue et provoque leur encerclement dans la poche de Falaise — catastrophe pour la Wehrmacht qui y perd des dizaines de milliers d'hommes. Paris est libéré le 25 août 1944, dix semaines après le 6 juin."
     },
     {
       "id": "16",
-      "question": "Quel est l’objectif stratégique final ?",
-      "answers": ["Envahir l’Asie", "Libérer la France puis l’Europe", "Détruire l’URSS", "Coloniser l’Afrique"],
+      "question": "Un second débarquement allié a lieu en France en août 1944. Où se déroule-t-il ?",
+      "image": null,
+      "imagePrompt": "Operation Dragoon Provence southern France August 1944 landing Allied troops",
+      "answers": ["En Bretagne, pour capturer les ports atlantiques", "En Provence, entre Toulon et Cannes", "En Corse, pour en faire une base de lancement", "Dans le Pas-de-Calais, pour couper les armées allemandes"],
       "correctIndex": 1,
-      "explanation": "Le débarquement est le début d’une reconquête qui mènera à la libération de la France puis de l’Europe occidentale."
+      "explanation": "L'opération Dragoon débarque en Provence le 15 août 1944. Des forces américaines et surtout françaises (armée de Lattre de Tassigny) débarquent entre Toulon et Cannes et remontent la vallée du Rhône. Ce débarquement, moins célèbre que celui de Normandie, permet la libération du sud de la France et la jonction des deux armées alliées à Dijon fin septembre. Il est à noter que le 15 août est la fête de l'Assomption, et non le 14 juillet (fête nationale française) — une confusion fréquente."
     },
     {
       "id": "17",
-      "question": "Quel type d’opération est le Débarquement ?",
-      "answers": ["Aérienne", "Navale", "Amphibie", "Terrestre"],
-      "correctIndex": 2,
-      "explanation": "C’est une opération amphibie combinant mer, air et terre, ce qui en fait une des plus complexes de l’histoire."
+      "question": "La libération de la Normandie a un coût humain élevé pour les civils français. Quel ordre de grandeur retient-on pour les pertes civiles normandes ?",
+      "image": null,
+      "imagePrompt": "Caen bombing civilians Normandy liberation 1944 destruction French population suffering",
+      "answers": ["Environ 20 000 civils normands tués pendant la bataille", "Environ 200 civils, essentiellement à Caen", "Plus de 100 000 civils, soit un quart de la population normande", "Aucune victime civile, les populations ayant été évacuées à l'avance"],
+      "correctIndex": 0,
+      "explanation": "La libération de la Normandie coûte la vie à environ 20 000 civils normands — tués par les bombardements alliés, les combats de rue et les représailles allemandes. Caen, objectif du premier jour qui ne sera prise qu'en juillet, est quasiment détruite : des milliers d'habitants s'abritent dans les carrières de pierre pendant des semaines. Ce bilan civil lourd est un aspect souvent occulté de la mémoire du D-Day, qui célèbre la libération sans toujours mesurer son coût pour ceux qui en étaient les premiers bénéficiaires."
     },
     {
       "id": "18",
-      "question": "Quel est le résultat du 6 juin 1944 ?",
-      "answers": ["Échec", "Statu quo", "Victoire allemande", "Succès allié"],
-      "correctIndex": 3,
-      "explanation": "Malgré de lourdes pertes, le débarquement est un succès stratégique majeur qui change le cours de la guerre."
+      "question": "Quel chiffre résume l'ampleur de la bataille de Normandie en termes de soldats alliés engagés entre juin et août 1944 ?",
+      "image": null,
+      "imagePrompt": "Battle of Normandy scale June August 1944 total forces engaged statistics",
+      "answers": ["Environ 50 000 soldats alliés au total", "Environ 500 000 soldats alliés", "Environ 2 millions de soldats alliés", "Environ 300 000 soldats alliés"],
+      "correctIndex": 2,
+      "explanation": "Entre le 6 juin et fin août 1944, les Alliés engagent environ 2 millions de soldats en Normandie, tandis que la Wehrmacht y déploie environ 800 000 hommes. Les pertes allemandes sont colossales : environ 200 000 tués ou blessés et 200 000 prisonniers, notamment dans la poche de Falaise. Les Alliés comptent environ 37 000 morts et 153 000 blessés. La bataille de Normandie est l'une des plus importantes de la Seconde Guerre mondiale et l'une des plus décisives pour l'issue du conflit à l'Ouest."
     },
     {
       "id": "19",
-      "question": "Quel rôle joue la Résistance française ?",
-      "answers": ["Sabotage et renseignement", "Combat direct massif", "Direction militaire", "Aucun rôle"],
+      "question": "Quels films ont durablement façonné la mémoire populaire du D-Day dans le monde entier ?",
+      "image": null,
+      "imagePrompt": "The Longest Day 1962 Saving Private Ryan 1998 D-Day film cinema Normandy memory",
+      "answers": ["Le Jour le plus long (1962) et Il faut sauver le soldat Ryan (1998)", "Patton (1970) et Il faut sauver le soldat Ryan (1998)", "La Grande Évasion (1963) et Dunkerque (2017)", "La Bataille des Ardennes (1965) et Le Débarquement (2004)"],
       "correctIndex": 0,
-      "explanation": "La Résistance fournit des informations cruciales et sabote les communications allemandes, facilitant l’avancée alliée."
+      "explanation": "Le Jour le plus long (The Longest Day, 1962), adapté du livre de Cornelius Ryan, est le premier grand film à reconstituer le D-Day avec une distribution internationale exceptionnelle (John Wayne, Sean Connery, Bourvil). Il faut sauver le soldat Ryan (Saving Private Ryan, 1998) de Steven Spielberg révolutionne la représentation cinématographique de la guerre avec ses vingt-cinq premières minutes à Omaha Beach — si réalistes que des vétérans souffrant de stress post-traumatique ont dû quitter les salles. Ces deux films ont formé l'imaginaire collectif mondial sur le D-Day."
     },
     {
       "id": "20",
-      "question": "Quand Paris est-elle libérée ?",
-      "answers": ["Juin 1944", "Août 1944", "Septembre 1944", "Décembre 1944"],
-      "correctIndex": 1,
-      "explanation": "Paris est libérée en août 1944, quelques semaines après le débarquement, marquant un tournant symbolique majeur."
+      "question": "Quelle décision d'Hitler concernant Paris révèle l'état d'esprit du régime nazi en fin de guerre ?",
+      "image": null,
+      "imagePrompt": "Paris liberation 1944 Hitler order destroy city Cholitz refused burning bridges",
+      "answers": ["Il offre Paris aux Alliés en échange de la neutralité de la France", "Il ordonne l'évacuation de tous les civils pour en faire un champ de bataille", "Il ordonne de transformer Paris en forteresse et d'y combattre jusqu'au dernier homme", "Il ordonne la destruction de Paris : ponts et installations doivent être dynamités"],
+      "correctIndex": 3,
+      "explanation": "Hitler ordonne au général von Choltitz, gouverneur militaire de Paris, de détruire la ville avant que les Alliés n'entrent. Von Choltitz ne fait pas exécuter cet ordre et négocie sa capitulation, laissant Paris intacte. La phrase « Paris brûle-t-il ? » que Hitler aurait répétée à ses généraux est associée à cet épisode — elle a été popularisée par le livre éponyme de Larry Collins et Dominique Lapierre (1964), dont la fidélité historique est parfois nuancée par les historiens. Von Choltitz a ensuite présenté sa désobéissance comme un acte de conscience ; ses véritables motivations restent débattues."
     }
   ]
 }
