@@ -1,8 +1,8 @@
 {
   "slug": "quiz-histoire-louis-xiv",
-  "title": "Quiz Histoire - Que sais-tu sur Louis XIV ?",
+  "title": "Quiz Histoire – Que sais-tu vraiment sur Louis XIV ?",
   "description": "Versailles, absolutisme, guerres, rayonnement : teste tes connaissances sur le Roi Soleil.",
-  "descriptionSeo": "Teste tes connaissances avec ce quiz sur Louis XIV. Versailles, absolutisme, guerres, Colbert, révocation de l’édit de Nantes : 20 questions pour savoir si tu maîtrises vraiment le règne du Roi Soleil.",
+  "descriptionSeo": "Teste tes connaissances avec ce quiz sur Louis XIV. Versailles, absolutisme, guerres, Colbert, révocation de l'édit de Nantes : 20 questions pour savoir si tu maîtrises vraiment le règne du Roi Soleil.",
   "category": {
     "name": "Histoire",
     "slug": "histoire"
@@ -18,143 +18,173 @@
   "questions": [
     {
       "id": "1",
-      "question": "Quel surnom est donné à Louis XIV ?",
-      "answers": ["Roi Soleil", "Roi Lion", "Roi d’Or", "Roi Absolu"],
-      "correctIndex": 0,
-      "explanation": "Louis XIV est appelé le Roi Soleil. Ce symbole évoque un pouvoir central, éclatant et incontournable, autour duquel tout gravite, comme les planètes autour du soleil."
+      "question": "À quel âge Louis XIV monte-t-il sur le trône à la mort de son père Louis XIII ?",
+      "answers": ["2 ans", "4 ans", "7 ans", "12 ans"],
+      "correctIndex": 1,
+      "explanation": "Louis XIV devient roi en mai 1643 à l'âge de 4 ans et 8 mois, à la mort de Louis XIII. Sa mère Anne d'Autriche assure la régence, assistée du cardinal Mazarin. Ce début de règne sous tutelle marque profondément le futur monarque, notamment par l'épisode de la Fronde qui le force à fuir Paris enfant — expérience qui explique sa méfiance durable envers la noblesse et Paris."
     },
     {
       "id": "2",
-      "question": "En quelle année Louis XIV devient-il roi ?",
-      "answers": ["1661", "1643", "1715", "1685"],
-      "correctIndex": 1,
-      "explanation": "Louis XIV devient roi en 1643 à seulement 4 ans. Son règne personnel commence plus tard, en 1661, après la mort du cardinal Mazarin."
+      "question": "Quelle série de révoltes, entre 1648 et 1653, traumatise le jeune Louis XIV et détermine sa volonté ultérieure de soumettre la noblesse ?",
+      "answers": ["La Grande Peur", "La Jacquerie", "La Fronde", "La révolte des Nu-pieds"],
+      "correctIndex": 2,
+      "explanation": "La Fronde est une série de révoltes menées d'abord par le Parlement de Paris (Fronde parlementaire), puis par une partie de la haute noblesse (Fronde des princes). Le jeune Louis XIV est contraint de fuir Paris à plusieurs reprises. Cette humiliation fondatrice explique sa décision d'installer la cour à Versailles, loin de Paris, et de tenir la noblesse sous surveillance permanente."
     },
     {
       "id": "3",
-      "question": "Quel château symbolise son pouvoir ?",
-      "answers": ["Louvre", "Fontainebleau", "Versailles", "Chambord"],
+      "question": "En quelle année Louis XIV décide-t-il de gouverner personnellement, sans nommer de premier ministre ?",
+      "answers": ["1648", "1653", "1661", "1682"],
       "correctIndex": 2,
-      "explanation": "Le château de Versailles devient le centre du pouvoir. Louis XIV y installe la cour pour mieux contrôler la noblesse et affirmer son autorité."
+      "explanation": "À la mort de Mazarin en mars 1661, Louis XIV réunit son conseil et annonce qu'il gouvernera seul. Cette décision surprend ses ministres, habitués à un pouvoir délégué. Il a alors 22 ans. Ce choix inaugure un règne personnel de plus de cinquante ans, le plus long de l'histoire de France, durant lequel aucun premier ministre ne sera nommé."
     },
     {
       "id": "4",
-      "question": "Quel ministre des finances est associé à Louis XIV ?",
-      "answers": ["Richelieu", "Mazarin", "Turgot", "Colbert"],
+      "question": "Quel système économique Colbert met-il en place pour enrichir le royaume aux dépens des puissances étrangères ?",
+      "answers": ["Le libéralisme", "Le physiocratisme", "Le protectionnisme agraire", "Le mercantilisme"],
       "correctIndex": 3,
-      "explanation": "Jean-Baptiste Colbert développe l’économie et le commerce. Il met en place une politique économique appelée colbertisme, visant à enrichir le royaume."
+      "explanation": "Colbert, contrôleur général des finances de 1665 à sa mort en 1683, applique une politique mercantiliste : accumuler le maximum d'or et d'argent en favorisant les exportations et en limitant les importations par des droits de douane élevés. Il développe les manufactures royales (Gobelins, Sèvres), la marine de guerre et le commerce colonial. Son nom reste attaché à cette doctrine économique interventionniste."
     },
     {
       "id": "5",
-      "question": "Quel type de pouvoir exerce Louis XIV ?",
-      "answers": ["Absolu", "Démocratique", "Parlementaire", "Fédéral"],
+      "question": "Dans quel ballet de cour Louis XIV interprète-t-il personnellement le rôle du Soleil en 1653, donnant naissance à son surnom ?",
+      "answers": [
+        "Le Ballet de la Nuit",
+        "Le Ballet royal de Flore",
+        "Alceste de Lully",
+        "Les Plaisirs de l'île enchantée"
+      ],
       "correctIndex": 0,
-      "explanation": "Louis XIV incarne la monarchie absolue : il concentre tous les pouvoirs et gouverne sans partage, affirmant que son autorité vient de Dieu."
+      "explanation": "C'est dans le 'Ballet de la Nuit' (1653), alors qu'il a 14 ans, que Louis XIV incarne pour la première fois le personnage du Soleil levant. Cette image, délibérément entretenue par la propagande royale — emblèmes, médailles, peintures — finit par s'imposer comme le symbole de son règne. Le soleil évoque un pouvoir central, éclatant et incontournable, autour duquel tout gravite."
     },
     {
       "id": "6",
-      "question": "Quel cardinal gouverne pendant sa jeunesse ?",
-      "answers": ["Richelieu", "Mazarin", "Colbert", "Bossuet"],
-      "correctIndex": 1,
-      "explanation": "Mazarin est le principal ministre durant la minorité du roi. Il prépare Louis XIV à gouverner et maintient l’autorité royale après la Fronde."
+      "question": "En quelle année Louis XIV installe-t-il définitivement la cour et le gouvernement au château de Versailles ?",
+      "answers": ["1661", "1668", "1682", "1690"],
+      "correctIndex": 2,
+      "explanation": "Louis XIV s'installe définitivement à Versailles en mai 1682, après vingt ans de travaux considérables. Le château, simple pavillon de chasse sous Louis XIII, devient le plus grand palais d'Europe. En y concentrant la noblesse, Louis XIV la prive de ses bases de pouvoir provinciales et la soumet à une étiquette contraignante — qui a le privilège de tenir la chemise du roi ? — la rendant entièrement dépendante des faveurs royales."
     },
     {
       "id": "7",
-      "question": "Quel événement marque sa volonté de gouverner seul ?",
-      "answers": ["Mort de Richelieu", "Mort de Colbert", "Mort de Mazarin", "Fronde"],
-      "correctIndex": 2,
-      "explanation": "À la mort de Mazarin en 1661, Louis XIV décide de gouverner sans premier ministre. C’est un tournant vers un pouvoir personnel absolu."
+      "question": "Quel peintre réalise en 1701 le célèbre portrait officiel de Louis XIV en grand costume royal ?",
+      "answers": ["Charles Le Brun", "Hyacinthe Rigaud", "Nicolas Poussin", "Pierre Mignard"],
+      "correctIndex": 1,
+      "explanation": "Le portrait de Louis XIV par Hyacinthe Rigaud (1701), commandé à l'origine comme cadeau pour son petit-fils Philippe V d'Espagne, est si réussi que le roi décide de le garder. Il représente Louis XIV à 63 ans en grand costume de sacre, jambe en avant dans une pose de danseur — rappelant sa jeunesse de danseur de ballet. Ce tableau, conservé au Louvre, est devenu l'image canonique de la monarchie absolue."
     },
     {
       "id": "8",
-      "question": "Quelle guerre oppose Louis XIV à une grande partie de l’Europe ?",
-      "answers": ["Guerre de Cent Ans", "Guerre de Succession d’Espagne", "Guerre de Trente Ans", "Guerre froide"],
-      "correctIndex": 1,
-      "explanation": "La guerre de Succession d’Espagne (1701-1714) oppose la France à plusieurs puissances européennes et affaiblit durablement le royaume."
+      "question": "Quel compositeur, surintendant de la musique du roi, crée l'opéra français et dirige les fêtes de Versailles pendant plus de vingt ans ?",
+      "answers": ["Marc-Antoine Charpentier", "François Couperin", "Jean-Baptiste Lully", "Michel-Richard Delalande"],
+      "correctIndex": 2,
+      "explanation": "Jean-Baptiste Lully, Italien naturalisé français, monopolise la vie musicale du règne grâce à des lettres patentes lui accordant l'exclusivité de la représentation d'opéras en France. Il crée avec Molière les comédies-ballets et invente la forme de l'opéra français. Ironiquement, il meurt en 1687 d'une gangrène causée par un coup de canne qu'il se donne au pied en battant la mesure — pratique de l'époque pour diriger un orchestre."
     },
     {
       "id": "9",
-      "question": "Quel édit Louis XIV révoque-t-il en 1685 ?",
-      "answers": ["Édit de Nantes", "Édit de Fontainebleau", "Édit royal", "Édit de Paris"],
-      "correctIndex": 0,
-      "explanation": "Il révoque l’édit de Nantes, qui garantissait la liberté de culte aux protestants. Cela provoque l’exil de nombreux protestants et affaiblit l’économie."
+      "question": "Par quel texte Louis XIV révoque-t-il l'édit de Nantes en octobre 1685 ?",
+      "answers": [
+        "L'ordonnance de Saint-Germain",
+        "La déclaration de Versailles",
+        "Le rescrit royal de Paris",
+        "L'édit de Fontainebleau"
+      ],
+      "correctIndex": 3,
+      "explanation": "L'édit de Fontainebleau (octobre 1685) révoque l'édit de Nantes accordé par Henri IV en 1598. Les temples sont rasés, les pasteurs expulsés, les enfants protestants contraints au baptême catholique. Entre 200 000 et 300 000 huguenots fuient vers la Prusse, les Provinces-Unies, l'Angleterre et la Suisse, emportant leur savoir-faire dans la soie, l'horlogerie et l'orfèvrerie — un manque à gagner économique considérable pour la France."
     },
     {
       "id": "10",
-      "question": "Quel était son objectif à Versailles ?",
-      "answers": ["Se cacher", "Contrôler la noblesse", "Faire du commerce", "Former une armée"],
-      "correctIndex": 1,
-      "explanation": "Versailles permet à Louis XIV de garder la noblesse sous surveillance, en la détournant du pouvoir politique vers la vie de cour."
+      "question": "Quelle guerre de 1672 à 1678, menée contre les Provinces-Unies, marque l'apogée militaire du règne ?",
+      "answers": [
+        "La guerre de Hollande",
+        "La guerre de Dévolution",
+        "La guerre de la Ligue d'Augsbourg",
+        "La guerre de Succession d'Espagne"
+      ],
+      "correctIndex": 0,
+      "explanation": "La guerre de Hollande (1672-1678) est déclenchée par Louis XIV pour punir les Provinces-Unies de leur opposition à sa politique commerciale et expansionniste. Les armées françaises envahissent les Pays-Bas en quelques semaines. La paix de Nimègue (1678) est l'apogée diplomatique de Louis XIV : il obtient la Franche-Comté et impose sa loi à l'Europe."
     },
     {
       "id": "11",
-      "question": "Quel est le symbole du pouvoir royal ?",
-      "answers": ["Le soleil", "La couronne", "Le sceptre", "L’épée"],
+      "question": "Contre quelle vaste coalition européenne Louis XIV doit-il lutter lors de la guerre de la Ligue d'Augsbourg (1688-1697) ?",
+      "answers": [
+        "L'Empire, l'Angleterre, l'Espagne, les Provinces-Unies et la Savoie",
+        "L'Angleterre et l'Espagne uniquement",
+        "La Prusse, la Russie et l'Autriche",
+        "L'Empire ottoman et la Suède"
+      ],
       "correctIndex": 0,
-      "explanation": "Le soleil symbolise le pouvoir absolu du roi. Louis XIV se place au centre du royaume comme le soleil au centre du système."
+      "explanation": "La Ligue d'Augsbourg (1686) regroupe contre Louis XIV l'empereur Léopold Ier, l'Espagne, la Suède, les Provinces-Unies, et bientôt l'Angleterre de Guillaume III d'Orange. Cette guerre, la première où la France affronte une coalition aussi large, épuise les ressources du royaume. La paix de Ryswick (1697) oblige Louis XIV à restituer la plupart de ses conquêtes depuis 1679."
     },
     {
       "id": "12",
-      "question": "Quelle est la durée de son règne ?",
-      "answers": ["50 ans", "72 ans", "60 ans", "40 ans"],
-      "correctIndex": 1,
-      "explanation": "Avec 72 ans de règne, Louis XIV détient l’un des plus longs règnes de l’histoire européenne."
+      "question": "Pourquoi la guerre de Succession d'Espagne (1701-1714) éclate-t-elle à la fin du règne de Louis XIV ?",
+      "answers": [
+        "Louis XIV envahit l'Espagne pour s'en emparer directement",
+        "L'Espagne refuse de rembourser ses dettes envers la France",
+        "Son petit-fils hérite du trône d'Espagne, menaçant l'équilibre européen",
+        "Louis XIV revendique Gibraltar au nom de la France"
+      ],
+      "correctIndex": 2,
+      "explanation": "À la mort de Charles II d'Espagne sans héritier (1700), Louis XIV accepte que son petit-fils Philippe d'Anjou hérite du trône sous le nom de Philippe V. L'union potentielle des couronnes française et espagnole alarme les puissances européennes. La guerre qui s'ensuit (1701-1714) est la plus longue et la plus coûteuse du règne. La paix d'Utrecht (1713) reconnaît Philippe V roi d'Espagne mais lui interdit d'unir les deux couronnes."
     },
     {
       "id": "13",
-      "question": "Quelle révolte marque son enfance ?",
-      "answers": ["Révolution", "Fronde", "Commune", "Révolte paysanne"],
-      "correctIndex": 1,
-      "explanation": "La Fronde est une série de révoltes qui marquent profondément Louis XIV et expliquent son désir de centraliser le pouvoir."
+      "question": "Quel auteur dramatique, protégé par Louis XIV, crée des comédies satirisant les travers de la société contemporaine ?",
+      "answers": ["Jean Racine", "Pierre Corneille", "Jean de La Fontaine", "Molière"],
+      "correctIndex": 3,
+      "explanation": "Molière (Jean-Baptiste Poquelin) bénéficie de la protection directe de Louis XIV, qui le défend contre les attaques du clergé après 'Tartuffe' (1664), pièce jugée blasphématoire. Il crée avec Lully les comédies-ballets jouées à Versailles. Molière meurt en 1673 sur scène, lors de la quatrième représentation du 'Malade imaginaire' — frappé d'une convulsion qu'il dissimule jusqu'à la fin de la représentation."
     },
     {
       "id": "14",
-      "question": "Quel domaine Louis XIV développe-t-il fortement ?",
-      "answers": ["Industrie lourde", "Culture et arts", "Technologie", "Démocratie"],
-      "correctIndex": 1,
-      "explanation": "Louis XIV soutient les arts, la littérature et l’architecture. Il fait rayonner la culture française en Europe."
+      "question": "Quelle institution, développée par Louis XIV, forme les peintres et sculpteurs officiels du royaume selon les canons du classicisme français ?",
+      "answers": [
+        "L'Académie royale de peinture et de sculpture",
+        "L'Académie française",
+        "L'École des beaux-arts",
+        "La manufacture des Gobelins"
+      ],
+      "correctIndex": 0,
+      "explanation": "L'Académie royale de peinture et de sculpture, fondée en 1648 et réorganisée sous la direction de Colbert et Le Brun, forme les artistes officiels du régime et définit les canons esthétiques du classicisme français. Elle organise le Prix de Rome, permettant aux meilleurs élèves d'étudier en Italie. Son monopole sur l'enseignement artistique structure la vie culturelle française jusqu'à la Révolution."
     },
     {
       "id": "15",
-      "question": "Quel palais était le siège du pouvoir avant Versailles ?",
-      "answers": ["Louvre", "Versailles", "Chambord", "Fontainebleau"],
-      "correctIndex": 0,
-      "explanation": "Avant Versailles, le pouvoir royal était principalement exercé depuis le Louvre à Paris."
+      "question": "Quel prédicateur, évêque de Meaux, théorise la monarchie absolue de droit divin et prononce les grandes oraisons funèbres de la cour ?",
+      "answers": ["Le père Bourdaloue", "Fénelon", "Le cardinal de Noailles", "Jacques-Bénigne Bossuet"],
+      "correctIndex": 3,
+      "explanation": "Jacques-Bénigne Bossuet, précepteur du Grand Dauphin, est le grand théologien de la monarchie absolue. Dans sa 'Politique tirée de l'Écriture sainte', il affirme que les rois tiennent leur autorité de Dieu seul et n'ont de comptes à rendre qu'à Lui. Ses oraisons funèbres — notamment celles de Henriette d'Angleterre ou du Grand Condé — sont considérées comme des chefs-d'œuvre de la prose française du XVIIe siècle."
     },
     {
       "id": "16",
-      "question": "Quelle phrase résume son pouvoir absolu ?",
-      "answers": ["Je suis le roi", "L’État, c’est moi", "Vive la France", "Moi seul décide"],
+      "question": "Combien d'années dure le règne de Louis XIV, faisant de lui le monarque au plus long règne de l'histoire de France ?",
+      "answers": ["54 ans", "72 ans", "63 ans", "81 ans"],
       "correctIndex": 1,
-      "explanation": "Même si la phrase est probablement apocryphe, elle résume parfaitement la monarchie absolue incarnée par Louis XIV."
+      "explanation": "Louis XIV règne 72 ans et 110 jours (1643-1715), ce qui en fait le plus long règne de l'histoire de France et l'un des plus longs de tous les monarques européens. Il survit à son fils, à son petit-fils et à son arrière-petit-fils, si bien que c'est son arrière-petit-fils de 5 ans qui lui succède sous le nom de Louis XV."
     },
     {
       "id": "17",
-      "question": "Quelle religion Louis XIV impose-t-il ?",
-      "answers": ["Protestantisme", "Catholicisme", "Islam", "Athéisme"],
-      "correctIndex": 1,
-      "explanation": "Louis XIV impose le catholicisme comme religion unique, notamment après la révocation de l’édit de Nantes."
+      "question": "De quelle maladie Louis XIV porte-t-il les marques visibles dès l'enfance, dissimulées ensuite par la perruque et les vêtements de cour ?",
+      "answers": ["La goutte", "La syphilis", "La variole", "La tuberculose"],
+      "correctIndex": 2,
+      "explanation": "Louis XIV contracte la variole en 1647, puis connaît d'autres problèmes de santé au cours de son règne, notamment la perte de ses dents et une fistule anale opérée en 1686. Cette dernière opération rend la fistule anale temporairement 'à la mode' à Versailles, les courtisans simulant la même affection pour flatter le roi."
     },
     {
       "id": "18",
-      "question": "Quel architecte participe à Versailles ?",
-      "answers": ["Eiffel", "Le Corbusier", "Mansart", "Gustave"],
-      "correctIndex": 2,
-      "explanation": "Jules Hardouin-Mansart est l’un des principaux architectes de Versailles, contribuant à son architecture grandiose."
+      "question": "Quel architecte, responsable de la galerie des Glaces et de la chapelle royale, est le principal maître d'œuvre des grandes extensions de Versailles ?",
+      "answers": ["François Mansart", "Louis Le Vau", "Robert de Cotte", "Jules Hardouin-Mansart"],
+      "correctIndex": 3,
+      "explanation": "Jules Hardouin-Mansart (petit-neveu de François Mansart) succède à Louis Le Vau comme premier architecte du roi. Il est responsable des grandes extensions de Versailles : la galerie des Glaces (1678-1684), les Grands Appartements, la chapelle royale et les Écuries. André Le Nôtre dessine les jardins à la française, et Charles Le Brun supervise l'ensemble de la décoration intérieure, créant un style cohérent qui rayonne dans toute l'Europe."
     },
     {
       "id": "19",
-      "question": "Quand Louis XIV meurt-il ?",
-      "answers": ["1715", "1700", "1685", "1720"],
-      "correctIndex": 0,
-      "explanation": "Louis XIV meurt en 1715 après un règne exceptionnellement long, laissant un royaume puissant mais affaibli financièrement."
+      "question": "De quelle maladie Louis XIV meurt-il en septembre 1715, après une agonie de plusieurs semaines ?",
+      "answers": ["De la goutte", "D'une pneumonie", "D'un empoisonnement", "D'une gangrène de la jambe"],
+      "correctIndex": 3,
+      "explanation": "Louis XIV meurt le 1er septembre 1715 d'une gangrène qui se développe à partir d'une jambe blessée, probablement liée à une artérite. Ses médecins ne peuvent rien. Dans ses derniers jours, il reçoit les courtisans, demande pardon à ses serviteurs de n'avoir pas mieux veillé sur eux, et recommande à son successeur d'éviter les guerres — conseil qu'il n'avait guère suivi lui-même."
     },
     {
       "id": "20",
-      "question": "Quel est son objectif politique principal ?",
-      "answers": ["Démocratiser", "Centraliser le pouvoir", "Diviser le royaume", "Partager le pouvoir"],
-      "correctIndex": 1,
-      "explanation": "Louis XIV cherche à centraliser le pouvoir autour de sa personne pour éviter toute contestation et renforcer l’État."
+      "question": "Quel archevêque rédige une critique voilée de Louis XIV dans son roman 'Les Aventures de Télémaque' (1699) ?",
+      "answers": ["Bossuet", "Le cardinal de Fleury", "Fénelon", "Le père La Chaise"],
+      "correctIndex": 2,
+      "explanation": "François de Salignac de la Mothe-Fénelon, archevêque de Cambrai, publie 'Les Aventures de Télémaque' comme manuel d'éducation pour le duc de Bourgogne. Sous couvert de mythologie, il y critique implicitement les guerres incessantes, le luxe de Versailles et l'absolutisme de Louis XIV. Le roi, qui reconnaît la critique, relève Fénelon de sa fonction de précepteur. Le roman devient néanmoins un best-seller européen, traduit dans toutes les grandes langues."
     }
   ]
 }

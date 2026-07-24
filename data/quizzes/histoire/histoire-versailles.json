@@ -1,8 +1,8 @@
 {
   "slug": "quiz-cour-versailles-histoire",
-  "title": "Quiz Histoire - Cour de Versailles - Intrigues, pouvoir et vie royale",
+  "title": "Quiz Histoire – Cour de Versailles : intrigues, pouvoir et vie royale",
   "description": "Louis XIV, noblesse et étiquette : teste tes connaissances sur la cour de Versailles.",
-  "descriptionSeo": "Teste tes connaissances sur la cour de Versailles avec ce quiz d’histoire fascinant. Vie quotidienne, étiquette stricte, pouvoir royal et intrigues de cour : connais-tu vraiment ce symbole de la monarchie absolue ? 20 questions avec réponses et explications pour comprendre le rôle de Versailles, la place des courtisans et l’organisation du pouvoir sous Louis XIV et ses successeurs.",
+  "descriptionSeo": "Teste tes connaissances sur la cour de Versailles avec ce quiz d'histoire fascinant. Vie quotidienne, étiquette stricte, pouvoir royal et intrigues de cour : connais-tu vraiment ce symbole de la monarchie absolue ? 20 questions avec réponses et explications pour comprendre le rôle de Versailles, la place des courtisans et l'organisation du pouvoir sous Louis XIV et ses successeurs.",
   "category": {
     "name": "Histoire",
     "slug": "histoire"
@@ -18,143 +18,238 @@
   "questions": [
     {
       "id": "1",
-      "question": "Quel roi installe la cour à Versailles de façon permanente ?",
-      "answers": ["Louis XV", "Louis XVI", "Louis XIV", "Henri IV"],
-      "correctIndex": 2,
-      "explanation": "Louis XIV installe la cour à Versailles en 1682 pour mieux contrôler la noblesse et centraliser le pouvoir autour de sa personne."
+      "question": "Quel était le château de Versailles avant que Louis XIV ne le transforme en résidence royale ?",
+      "answers": [
+        "Un palais épiscopal offert à la couronne",
+        "Un simple pavillon de chasse de Louis XIII",
+        "Une forteresse militaire reconvertie",
+        "Une résidence de la famille Condé rachetée par le roi"
+      ],
+      "correctIndex": 1,
+      "explanation": "Louis XIII fait construire un modeste pavillon de chasse à Versailles en 1623, sur un terrain marécageux et boisé qu'il affectionne pour la chasse. C'est son fils Louis XIV qui décide de le transformer radicalement à partir de 1661, mobilisant des milliers d'ouvriers pendant vingt ans. L'architecte Louis Le Vau, le paysagiste André Le Nôtre et le décorateur Charles Le Brun sont les maîtres d'œuvre de cette métamorphose. Jules Hardouin-Mansart prend ensuite le relais pour les grandes extensions, dont la galerie des Glaces (1678-1684)."
     },
     {
       "id": "2",
-      "question": "Quel est le surnom de Louis XIV ?",
-      "answers": ["Roi-Soleil", "Roi Très-Chrétien", "Roi des Francs", "Roi guerrier"],
-      "correctIndex": 0,
-      "explanation": "Louis XIV est surnommé le Roi-Soleil car il incarne le centre du pouvoir, comme le soleil au centre du système."
+      "question": "Pourquoi Louis XIV choisit-il Versailles plutôt que Paris pour y installer la cour en 1682 ?",
+      "answers": [
+        "Paris est trop proche des frontières menacées par les ennemis",
+        "Le terrain de Versailles permet des jardins impossibles à réaliser à Paris",
+        "La Fronde l'a traumatisé et il veut tenir la noblesse loin de la capitale",
+        "Le Louvre est jugé trop petit pour accueillir toute la cour"
+      ],
+      "correctIndex": 2,
+      "explanation": "La Fronde (1648-1653) marque profondément le jeune Louis XIV : contraint de fuir Paris à plusieurs reprises, il développe une méfiance durable envers la capitale et ses parlementaires. En éloignant la cour à Versailles, il isole la noblesse de ses réseaux provinciaux et urbains, la rendant entièrement dépendante de ses faveurs. La distance de Paris permet aussi de contrôler l'information et de mettre en scène le pouvoir royal loin de la turbulence populaire. Le Louvre reste résidence royale officielle jusqu'en 1682."
     },
     {
       "id": "3",
-      "question": "Quel type de régime politique est associé à Versailles ?",
-      "answers": ["Démocratie", "République", "Empire", "Monarchie absolue"],
-      "correctIndex": 3,
-      "explanation": "Versailles est le symbole de la monarchie absolue, où le roi détient l’essentiel du pouvoir politique."
+      "question": "Combien de personnes environ vivent et travaillent au château de Versailles à son apogée sous Louis XIV ?",
+      "answers": [
+        "Environ 2 000 personnes",
+        "Environ 5 000 personnes",
+        "Environ 10 000 personnes",
+        "Environ 20 000 personnes"
+      ],
+      "correctIndex": 2,
+      "explanation": "À son apogée, Versailles abrite environ 10 000 personnes : la famille royale et ses appartements, quelque 5 000 courtisans et leurs domestiques, 4 000 soldats de la garde et environ 1 000 serviteurs du palais. Cette concentration humaine nécessite une logistique colossale : alimentation, chauffage, eau, éclairage. Les courtisans vivent souvent entassés dans des appartements exigus sous les toits, malgré les apparences fastueuses des appartements d'État."
     },
     {
       "id": "4",
-      "question": "Quel groupe social vit principalement à la cour de Versailles ?",
-      "answers": ["Paysans", "Noblesse", "Bourgeoisie", "Artisans"],
+      "question": "En quoi consistait le rituel du 'grand lever' du roi, auquel certains courtisans étaient admis selon leur rang ?",
+      "answers": [
+        "Le roi recevait ses ministres pour le premier conseil de la journée",
+        "Les courtisans assistaient aux différentes étapes de l'habillage du roi",
+        "Le roi se rendait à la chapelle pour la messe du matin avec toute la cour",
+        "Les ambassadeurs étrangers étaient reçus en audience solennelle au saut du lit"
+      ],
       "correctIndex": 1,
-      "explanation": "La noblesse vit à Versailles, souvent dépendante du roi, ce qui limite son pouvoir politique autonome."
+      "explanation": "Le lever du roi se déroulait en plusieurs phases codifiées, chacune ouverte à un cercle de courtisans différent. L'entrée la plus intime admettait les proches du roi pour son réveil. Puis venaient successivement la grande entrée pour les grands officiers, et l'entrée de la chambre pour des cercles plus larges. Chaque geste — présenter la chemise, tenir le chandelier, verser l'eau du bassin — était un privilège âprement convoité, car il signifiait une proximité physique avec le roi qui se traduisait en influence politique. Le coucher obéissait au même cérémonial inversé."
     },
     {
       "id": "5",
-      "question": "Quel objectif poursuit Louis XIV en attirant la noblesse à Versailles ?",
-      "answers": ["Renforcer leur pouvoir", "Les contrôler", "Les éloigner du royaume", "Les enrichir"],
-      "correctIndex": 1,
-      "explanation": "En concentrant la noblesse à Versailles, Louis XIV limite ses capacités de révolte et renforce son autorité."
+      "question": "Quel surnom les historiens utilisent-ils souvent pour décrire l'effet de Versailles sur la noblesse ?",
+      "answers": [
+        "La cage dorée",
+        "Le piège de velours",
+        "La prison de soie",
+        "Le filet royal"
+      ],
+      "correctIndex": 0,
+      "explanation": "Les historiens décrivent souvent Versailles comme une véritable 'cage dorée' pour résumer le paradoxe de la vie de cour : logée, nourrie et distraite dans un cadre somptueux, la noblesse perd en réalité toute autonomie politique. Les nobles doivent solliciter des audiences, attendre des faveurs, briguer des charges — et surtout être présents, car une absence prolongée signifie tomber dans l'oubli royal. Louis XIV aurait déclaré en voyant un courtisan absent : 'Je ne le connais pas.' L'étiquette transforme ainsi des gentilshommes potentiellement dangereux en courtisans occupés à la compétition des honneurs."
     },
     {
       "id": "6",
-      "question": "Quel bâtiment emblématique symbolise la cour de Versailles ?",
-      "answers": ["Le Louvre", "Le Palais-Royal", "Fontainebleau", "Le château de Versailles"],
-      "correctIndex": 3,
-      "explanation": "Le château de Versailles est le centre du pouvoir politique et le symbole du prestige royal."
+      "question": "Quelle est la fonction précise de la galerie des Glaces dans la vie politique de la cour ?",
+      "answers": [
+        "C'est la salle où le roi tient ses conseils de gouvernement quotidiens",
+        "C'est un lieu de passage et de réception exprimant la puissance française",
+        "C'est la salle de bal réservée aux fêtes données par la reine",
+        "C'est la galerie d'exposition des trophées militaires de Louis XIV"
+      ],
+      "correctIndex": 1,
+      "explanation": "La galerie des Glaces, longue de 73 mètres et ornée de 357 miroirs, est avant tout un espace de représentation et de circulation. Les courtisans y défilent, les ambassadeurs y sont reçus, et sa décoration — plafonds peints par Le Brun illustrant les victoires de Louis XIV — constitue un message politique permanent. Les 357 miroirs reflètent la lumière des 20 000 bougies allumées lors des réceptions. Jules Hardouin-Mansart la conçoit comme une synthèse de la grandeur française : les peintures célèbrent les victoires sur l'Espagne et les Provinces-Unies."
     },
     {
       "id": "7",
-      "question": "Quel rôle joue l’étiquette à la cour ?",
-      "answers": ["Aucun rôle", "Organiser la vie sociale et hiérarchique", "Décorer le palais", "Former les soldats"],
-      "correctIndex": 1,
-      "explanation": "L’étiquette fixe des règles strictes qui organisent la vie à la cour et renforcent la hiérarchie sociale autour du roi."
+      "question": "Quel scandale, impliquant des empoisonneuses et des messes noires, secoue la cour de Louis XIV entre 1677 et 1682 ?",
+      "answers": [
+        "L'affaire des poisons",
+        "L'affaire du collier de la reine",
+        "L'affaire Fouquet",
+        "L'affaire des faux-monnayeurs"
+      ],
+      "correctIndex": 0,
+      "explanation": "L'affaire des poisons révèle un réseau souterrain de sorcières, d'empoisonneuses et d'officiants de messes noires opérant à Paris et jusqu'aux marges de Versailles. La marquise de Brinvilliers, exécutée en 1676, ouvre l'enquête. La Chambre ardente, tribunal d'exception créé par Louis XIV, met en cause des centaines de personnes, dont des nobles proches du roi. Le nom de Madame de Montespan, favorite royale, est prononcé — ce qui pousse Louis XIV à clore l'enquête et à brûler certains dossiers pour éviter le scandale."
     },
     {
       "id": "8",
-      "question": "Quelle pièce célèbre reflète la grandeur de Versailles ?",
-      "answers": ["Salle du trône", "Galerie des Glaces", "Salle des fêtes", "Chambre royale"],
-      "correctIndex": 2,
-      "explanation": "La galerie des Glaces est un symbole du luxe et de la puissance du roi, utilisée pour les cérémonies et réceptions."
+      "question": "Quel traité international est signé dans la galerie des Glaces en 1919, transformant le palais en lieu de mémoire mondiale ?",
+      "answers": [
+        "Le traité de Paris mettant fin à la guerre de Crimée",
+        "Le traité de Versailles mettant fin à la Première Guerre mondiale",
+        "Le traité de l'Atlantique fondant l'alliance occidentale",
+        "La paix de Nimègue entre la France et les Provinces-Unies"
+      ],
+      "correctIndex": 1,
+      "explanation": "Le traité de Versailles est signé le 28 juin 1919 dans la galerie des Glaces — lieu choisi délibérément par Clemenceau pour l'humiliation symbolique : c'est dans cette même salle que Guillaume Ier avait été proclamé empereur d'Allemagne en 1871. Le traité impose à l'Allemagne de lourdes réparations et la reconnaissance de sa responsabilité dans la guerre (article 231, la 'clause de honte'). Ses conditions contribueront, selon de nombreux historiens, à créer les conditions du nazisme et de la Seconde Guerre mondiale."
     },
     {
       "id": "9",
-      "question": "Quel rôle joue le roi dans la vie quotidienne à Versailles ?",
-      "answers": ["Central et omniprésent", "Secondaire", "Symbolique uniquement", "Absent"],
-      "correctIndex": 0,
-      "explanation": "Le roi est au centre de toutes les activités de la cour, chaque geste étant codifié et observé."
+      "question": "Quelle figure féminine joue un rôle politique croissant auprès de Louis XIV à la fin de son règne ?",
+      "answers": [
+        "Louise de La Vallière",
+        "Athénaïs de Montespan",
+        "Françoise d'Aubigné, marquise de Maintenon",
+        "Marie-Anne de La Trémoille"
+      ],
+      "correctIndex": 2,
+      "explanation": "Françoise d'Aubigné, marquise de Maintenon, commence comme gouvernante des enfants illégitimes de Louis XIV et Madame de Montespan. Elle gagne peu à peu la confiance du roi, qui l'épouse secrètement vers 1683 après la mort de la reine Marie-Thérèse. Elle exerce une influence discrète mais réelle sur les décisions royales, notamment sur la révocation de l'édit de Nantes (1685) que certains lui attribuent en partie. Elle fonde l'école de Saint-Cyr pour les jeunes filles nobles pauvres, institution qui lui survivra."
     },
     {
       "id": "10",
-      "question": "Quel rituel célèbre marque le lever du roi ?",
-      "answers": ["Le banquet", "Le lever du roi", "La chasse", "Le conseil"],
-      "correctIndex": 1,
-      "explanation": "Le lever du roi est un rituel public auquel assistent certains courtisans, reflétant leur proximité avec le pouvoir."
+      "question": "Pour quelle raison Louis XVI et Marie-Antoinette sont-ils contraints de quitter Versailles en octobre 1789 ?",
+      "answers": [
+        "Un incendie ravage les appartements royaux",
+        "L'Assemblée nationale vote le transfert du gouvernement à Paris",
+        "Une marche de femmes parisiennes force la famille royale à rentrer à Paris",
+        "Louis XVI choisit de rejoindre Paris pour se rapprocher du peuple"
+      ],
+      "correctIndex": 2,
+      "explanation": "Les 5 et 6 octobre 1789, des milliers de femmes parisiennes, excédées par la disette et le prix du pain, marchent sur Versailles. Elles envahissent le château, massacrent des gardes du corps et contraignent la famille royale à les suivre à Paris. Louis XVI, Marie-Antoinette et leurs enfants sont escortés aux Tuileries sous les cris de 'Le boulanger, la boulangère et le petit mitron !' Cette journée marque la fin de Versailles comme centre du pouvoir royal."
     },
     {
       "id": "11",
-      "question": "Quel objectif politique principal poursuit Versailles ?",
-      "answers": ["Centraliser le pouvoir", "Développer le commerce", "Créer une armée", "Favoriser les villes"],
-      "correctIndex": 0,
-      "explanation": "Versailles permet de concentrer le pouvoir entre les mains du roi et de contrôler les élites."
+      "question": "Quel roi prussien fait proclamer l'Empire allemand dans la galerie des Glaces en janvier 1871 ?",
+      "answers": [
+        "Frédéric III de Prusse",
+        "Guillaume II de Prusse",
+        "Guillaume Ier de Prusse",
+        "Bismarck au nom du roi absent"
+      ],
+      "correctIndex": 2,
+      "explanation": "Le 18 janvier 1871, Guillaume Ier de Prusse est proclamé Kaiser d'Allemagne dans la galerie des Glaces — délibérément choisie pour humilier la France vaincue dans la guerre franco-prussienne. Bismarck orchestre la cérémonie. Cette scène, immortalisée par le tableau d'Anton von Werner, constitue l'un des moments les plus douloureux de l'histoire française : le cœur symbolique de la monarchie sert de décor au triomphe de l'ennemi. C'est cet affront que Clemenceau retourne en y faisant signer le traité de 1919."
     },
     {
       "id": "12",
-      "question": "Quel élément illustre le luxe de la cour ?",
-      "answers": ["Simplicité", "Austérité", "Pauvreté", "Richesse décorative"],
-      "correctIndex": 3,
-      "explanation": "Le luxe de Versailles sert à impressionner et à affirmer la puissance du roi auprès de la noblesse et des visiteurs étrangers."
+      "question": "Quel grand écrivain du XVIIe siècle, auteur des 'Maximes', observe avec lucidité les mœurs de la cour de Versailles ?",
+      "answers": [
+        "Jean de La Fontaine",
+        "François de La Rochefoucauld",
+        "Jean Racine",
+        "Nicolas Boileau"
+      ],
+      "correctIndex": 1,
+      "explanation": "François de La Rochefoucauld, dans ses 'Maximes' (1665), dissèque avec une lucidité implacable les ressorts de l'amour-propre et de l'hypocrisie mondaine — vertus et vices que la vie de cour cultive avec soin. Sa maxime la plus célèbre : 'L'amour-propre est le plus grand flatteur du monde.' Saint-Simon, dans ses 'Mémoires' rédigés après la mort de Louis XIV, offre quant à lui un portrait saisissant et souvent féroce de la cour — intrigues, jalousies, humiliations et grandeurs — qui reste l'une des sources les plus précieuses sur la vie à Versailles."
     },
     {
       "id": "13",
-      "question": "Quel type de société est représenté à Versailles ?",
-      "answers": ["Société industrielle", "Société de cour", "Société rurale", "Société marchande"],
+      "question": "Quel architecte des jardins, surnommé 'le jardinier des rois', conçoit les perspectives et la géométrie du parc de Versailles ?",
+      "answers": [
+        "Jules Hardouin-Mansart",
+        "André Le Nôtre",
+        "Louis Le Vau",
+        "Charles Le Brun"
+      ],
       "correctIndex": 1,
-      "explanation": "Versailles incarne une société de cour où les relations sociales sont organisées autour du roi."
+      "explanation": "André Le Nôtre conçoit les jardins de Versailles à partir de 1661, inventant le 'jardin à la française' : allées rectilignes, perspectives infinies, parterres géométriques, bassins et fontaines alignés sur un axe est-ouest. Ce style exprime le triomphe de l'ordre humain sur la nature. Les jardins mobilisent jusqu'à 36 000 ouvriers pendant les travaux et nécessitent un système hydraulique colossal pour alimenter les 1 400 fontaines — qui ne peuvent toutes fonctionner simultanément."
     },
     {
       "id": "14",
-      "question": "Quel rôle jouent les courtisans ?",
-      "answers": ["Travailleurs agricoles", "Commerçants", "Serviteurs du roi et acteurs politiques", "Soldats uniquement"],
-      "correctIndex": 2,
-      "explanation": "Les courtisans cherchent à obtenir les faveurs du roi, influençant parfois les décisions politiques."
+      "question": "Quel mémorialiste, duc et pair, laisse une description incomparable de la vie de cour dans ses 'Mémoires' ?",
+      "answers": [
+        "Cardinal de Retz",
+        "Duc de Saint-Simon",
+        "Marquis de Dangeau",
+        "Abbé de Choisy"
+      ],
+      "correctIndex": 1,
+      "explanation": "Louis de Rouvroy, duc de Saint-Simon, rédige ses 'Mémoires' entre 1739 et 1751, retraçant avec une précision et une vivacité incomparables la vie à Versailles de 1691 à 1723. Son regard est celui d'un noble frustré — marginalisé par Louis XIV — mais son acuité psychologique et sa mémoire des détails en font une source irremplaçable. Il décrit avec une égale passion les grandes décisions politiques et les incidents de protocole les plus minuscules, comprenant que dans la société de cour, les deux ont la même importance."
     },
     {
       "id": "15",
-      "question": "Quel roi succède à Louis XIV et continue la vie à Versailles ?",
-      "answers": ["Louis XV", "Louis XVI", "Henri IV", "Napoléon"],
-      "correctIndex": 0,
-      "explanation": "Louis XV poursuit la tradition de la cour à Versailles, même si son règne marque certaines évolutions."
+      "question": "Quel souverain étranger s'inspire de Versailles pour construire son palais de Sans-Souci à Potsdam, tout en concevant un lieu plus intime ?",
+      "answers": [
+        "Pierre le Grand de Russie",
+        "Frédéric II de Prusse",
+        "Charles VI d'Autriche",
+        "Philippe V d'Espagne"
+      ],
+      "correctIndex": 1,
+      "explanation": "Frédéric II de Prusse (Frédéric le Grand) fait construire le palais de Sans-Souci à Potsdam (1745-1747) en s'inspirant de Versailles, tout en concevant un palais plus intime et personnel — loin du gigantisme versaillais. L'influence de Versailles s'étend néanmoins à toute l'Europe : Saint-Pétersbourg (Peterhof), Vienne (Schönbrunn), Madrid (La Granja). Le français devient la langue de toutes ces cours, et l'étiquette versaillaise leur modèle de référence. Cette hégémonie culturelle est l'un des héritages diplomatiques les plus durables du règne de Louis XIV."
     },
     {
       "id": "16",
-      "question": "Quel événement met fin au rôle central de Versailles ?",
-      "answers": ["Guerre", "Réforme", "Construction", "Révolution française"],
-      "correctIndex": 3,
-      "explanation": "La Révolution française met fin à la monarchie absolue et à la centralité de Versailles dans la vie politique."
+      "question": "Quel scandale de 1785, impliquant un faux achat de bijoux au nom de Marie-Antoinette, ternit durablement l'image de la reine ?",
+      "answers": [
+        "L'affaire des poisons",
+        "L'affaire du collier de la reine",
+        "L'affaire Kornmann",
+        "L'affaire du diamant bleu"
+      ],
+      "correctIndex": 1,
+      "explanation": "L'affaire du collier de la reine (1785) est une escroquerie montée par la comtesse de La Motte-Valois : elle convainc le cardinal de Rohan qu'il peut retrouver la faveur de Marie-Antoinette en lui achetant un collier de diamants d'une valeur astronomique (1,6 million de livres). La reine n'est en réalité jamais impliquée, mais le scandale l'éclabousse et confirme dans l'opinion sa réputation de dépensière ('Madame Déficit'). L'affaire contribue à l'effondrement du prestige de la monarchie à la veille de la Révolution."
     },
     {
       "id": "17",
-      "question": "Quel rôle joue Versailles à l’échelle européenne ?",
-      "answers": ["Aucun rôle", "Centre commercial", "Modèle politique et culturel", "Base militaire"],
-      "correctIndex": 2,
-      "explanation": "Versailles influence de nombreuses cours européennes qui imitent son organisation et son style."
+      "question": "Quelle innovation technique permet à Louis XIV d'alimenter les fontaines des jardins, alors que le site manque d'eau ?",
+      "answers": [
+        "Un réseau d'aqueducs apportant l'eau depuis Paris",
+        "La machine de Marly pompant l'eau de la Seine",
+        "Des puits artésiens creusés sous les jardins",
+        "Un canal reliant Versailles à la Loire"
+      ],
+      "correctIndex": 1,
+      "explanation": "La machine de Marly, construite entre 1681 et 1684, est l'une des plus grandes réalisations techniques du XVIIe siècle : 14 roues à aubes actionnées par la Seine actionnent 253 pompes qui élèvent l'eau sur 162 mètres de dénivelé. Malgré cet exploit, l'eau reste insuffisante : un système de signaux avertit les fontainiers de l'approche du roi pour mettre les jets en marche. Le projet de détourner la rivière Eure vers Versailles (1685) est abandonné à cause de la guerre."
     },
     {
       "id": "18",
-      "question": "Quel type de pouvoir exerce le roi à Versailles ?",
-      "answers": ["Pouvoir absolu", "Pouvoir partagé", "Pouvoir limité", "Pouvoir symbolique"],
-      "correctIndex": 0,
-      "explanation": "Le roi exerce un pouvoir absolu, concentrant les décisions politiques et administratives."
+      "question": "Quel compositeur, directeur de la musique du roi, crée les opéras et divertissements qui font la réputation culturelle de Versailles ?",
+      "answers": [
+        "Marc-Antoine Charpentier",
+        "Jean-Baptiste Lully",
+        "François Couperin",
+        "Michel-Richard Delalande"
+      ],
+      "correctIndex": 1,
+      "explanation": "Jean-Baptiste Lully monopolise la vie musicale de Versailles grâce à des lettres patentes lui accordant l'exclusivité de la représentation d'opéras en France. Ses tragédies lyriques (Atys, Armide, Roland) et ses comédies-ballets créées avec Molière définissent l'opéra français. Les fêtes de Versailles — comme les 'Plaisirs de l'île enchantée' (1664) — mêlent musique, ballet, théâtre et feux d'artifice. Lully meurt en 1687 d'une gangrène au pied causée par son propre bâton de direction."
     },
     {
       "id": "19",
-      "question": "Quel rôle joue la culture à la cour ?",
-      "answers": ["Secondaire", "Essentiel pour le prestige", "Inexistant", "Militaire"],
+      "question": "Quel type de chasse, pratiquée régulièrement par Louis XIV, est considéré comme un exercice politique autant que sportif ?",
+      "answers": [
+        "La fauconnerie",
+        "La chasse à courre",
+        "La chasse à l'affût",
+        "Le tir au pigeon"
+      ],
       "correctIndex": 1,
-      "explanation": "Les arts, la musique et les spectacles participent au rayonnement culturel et politique du royaume."
+      "explanation": "La chasse à courre est un rituel quasi quotidien pour Louis XIV. Elle n'est pas seulement sportive : inviter un courtisan à la chasse du roi est une faveur insigne, être exclu une disgrâce perceptible par tous. Elle structure le calendrier de la cour et offre au roi une mobilité dans ses propriétés (Fontainebleau, Marly, Compiègne). La forêt de Versailles est aménagée avec des allées en étoile facilitant la traque."
     },
     {
       "id": "20",
-      "question": "Pourquoi Versailles est-il un symbole historique majeur ?",
-      "answers": ["Pour sa taille", "Pour sa richesse uniquement", "Pour son isolement", "Pour son rôle dans la monarchie et la centralisation du pouvoir"],
-      "correctIndex": 3,
-      "explanation": "Versailles symbolise la monarchie absolue, la centralisation du pouvoir et l’influence culturelle de la France."
+      "question": "Depuis quelle année le château de Versailles est-il inscrit au patrimoine mondial de l'UNESCO ?",
+      "answers": ["1979", "1985", "1991", "2000"],
+      "correctIndex": 0,
+      "explanation": "Le château et les jardins de Versailles sont inscrits au patrimoine mondial de l'UNESCO dès 1979, parmi les premiers sites français à recevoir cette distinction. Versailles accueille aujourd'hui environ 10 millions de visiteurs par an. Des travaux de restauration considérables sont menés en permanence — notamment le Grand Plan de Versailles lancé en 2003 — pour maintenir l'ensemble des bâtiments, des jardins et des fontaines dans leur état d'origine. Le domaine couvre 800 hectares dont 93 hectares de bâtiments."
     }
   ]
 }

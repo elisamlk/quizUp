@@ -1,8 +1,8 @@
 {
   "slug": "quiz-socrate-dialogue-methode-philosophique",
-  "title": "Quiz Histoire - Socrate - Dialogue, vérité et naissance de la philosophie critique",
+  "title": "Quiz Histoire – Socrate : dialogue, vérité et naissance de la philosophie critique",
   "description": "Maïeutique, dialogue et vérité : teste tes connaissances sur Socrate.",
-  "descriptionSeo": "Teste tes connaissances sur Socrate avec ce quiz d’histoire consacré à l’un des fondateurs de la philosophie occidentale. Dialogue, maïeutique, quête de vérité et procès à Athènes : connais-tu vraiment sa pensée ? 20 questions avec réponses et explications pour comprendre sa méthode, son influence sur Platon et son rôle dans l’histoire de la philosophie.",
+  "descriptionSeo": "Teste tes connaissances sur Socrate avec ce quiz d'histoire consacré à l'un des fondateurs de la philosophie occidentale. Dialogue, maïeutique, quête de vérité et procès à Athènes : connais-tu vraiment sa pensée ? 20 questions avec réponses et explications pour comprendre sa méthode, son influence sur Platon et son rôle dans l'histoire de la philosophie.",
   "category": {
     "name": "Histoire",
     "slug": "histoire"
@@ -18,143 +18,188 @@
   "questions": [
     {
       "id": "1",
-      "question": "Dans quelle cité Socrate a-t-il vécu ?",
-      "answers": ["Athènes", "Rome", "Sparte", "Alexandrie"],
-      "correctIndex": 0,
-      "explanation": "Socrate vit à Athènes au Ve siècle av. J.-C., une cité marquée par la démocratie et un intense débat intellectuel."
+      "question": "En quel siècle Socrate vit-il à Athènes ?",
+      "answers": ["VIIe siècle av. J.-C.", "Ve siècle av. J.-C.", "IIIe siècle av. J.-C.", "Ier siècle apr. J.-C."],
+      "correctIndex": 1,
+      "explanation": "Socrate naît vers 470 av. J.-C. et meurt en 399 av. J.-C. Il vit donc au Ve siècle av. J.-C., le siècle de Périclès, de Sophocle, d'Hérodote et de Thucydide. Athènes connaît alors son apogée politique et culturelle : la démocratie directe est en plein essor, le Parthénon est en construction, et la cité accueille les plus grands esprits du monde grec. C'est dans ce contexte d'effervescence intellectuelle que Socrate arpente l'Agora pour y engager le débat."
     },
     {
       "id": "2",
-      "question": "Quel philosophe est l’élève le plus célèbre de Socrate ?",
-      "answers": ["Aristote", "Épicure", "Platon", "Zénon"],
+      "question": "Quel groupe de professeurs itinérants est la cible principale de la critique socratique ?",
+      "answers": ["Les stoïciens", "Les épicuriens", "Les sophistes", "Les pythagoriciens"],
       "correctIndex": 2,
-      "explanation": "Platon est son élève le plus célèbre. C’est grâce à ses dialogues que la pensée de Socrate nous est connue."
+      "explanation": "Les sophistes — dont Protagoras, Gorgias et Thrasymaque — sont des enseignants professionnels qui proposent leurs services contre rémunération, notamment pour former les jeunes Athéniens à la rhétorique et à l'argumentation politique. Socrate s'y oppose radicalement : là où les sophistes affirment que la vérité est relative ('l'homme est la mesure de toutes choses', selon Protagoras), Socrate cherche une vérité universelle et dénonce ceux qui font passer la persuasion pour la connaissance."
     },
     {
       "id": "3",
-      "question": "Quelle méthode Socrate utilise-t-il pour enseigner ?",
-      "answers": ["Discours magistral", "Dialogue et questionnement", "Écriture", "Dogme"],
+      "question": "À quel métier Socrate compare-t-il sa méthode, en référence à la profession de sa mère ?",
+      "answers": [
+        "Le forgeron qui façonne le métal",
+        "La sage-femme qui aide à accoucher",
+        "Le potier qui modèle l'argile",
+        "Le navigateur qui guide le bateau"
+      ],
       "correctIndex": 1,
-      "explanation": "Socrate utilise le dialogue pour amener ses interlocuteurs à réfléchir par eux-mêmes, en posant des questions."
+      "explanation": "La mère de Socrate était sage-femme (maïa en grec), et il compare sa propre activité à celle d'une accoucheuse d'idées — d'où le nom de 'maïeutique'. Comme une sage-femme aide une femme à mettre au monde un enfant qu'elle porte déjà, Socrate aide ses interlocuteurs à faire émerger des vérités qu'ils possèdent déjà en eux sans le savoir. Cette image illustre sa conviction que le savoir ne s'enseigne pas de l'extérieur, mais se découvre de l'intérieur par l'examen de soi."
     },
     {
       "id": "4",
-      "question": "Comment appelle-t-on cette méthode ?",
-      "answers": ["Dialectique", "Logique", "Rhétorique", "Maïeutique"],
-      "correctIndex": 3,
-      "explanation": "La maïeutique consiste à 'faire accoucher' les esprits de leurs idées, en aidant à faire émerger la vérité."
+      "question": "Quelle formule paradoxale résume l'humilité intellectuelle de Socrate ?",
+      "answers": [
+        "'Je sais que je ne sais rien'",
+        "'La sagesse commence par le doute'",
+        "'Connais-toi toi-même'",
+        "'Le non-su vaut mieux que le mal su'"
+      ],
+      "correctIndex": 0,
+      "explanation": "'Je sais que je ne sais rien' est une formulation traditionnelle qui résume la pensée de Socrate plutôt qu'une citation littérale de Platon — le texte grec de l'Apologie est plus nuancé. Socrate y affirme que sa supériorité sur ses contemporains réside dans le fait qu'il sait qu'il ignore, tandis qu'eux ignorent qu'ils ignorent. Cette conscience de l'ignorance n'est pas du nihilisme, mais le point de départ indispensable de toute recherche philosophique sincère."
     },
     {
       "id": "5",
-      "question": "Quel est l’objectif principal de Socrate ?",
-      "answers": ["Convaincre", "Chercher la vérité", "Dominer", "Enseigner des lois"],
+      "question": "Quelle inscription à l'oracle de Delphes Socrate prend-il comme devise philosophique ?",
+      "answers": [
+        "'Rien de trop'",
+        "'Connais-toi toi-même'",
+        "'La mesure est la meilleure des choses'",
+        "'Respecte les dieux'"
+      ],
       "correctIndex": 1,
-      "explanation": "Socrate ne cherche pas à imposer des idées, mais à atteindre une vérité universelle par le dialogue."
+      "explanation": "'Connais-toi toi-même' (gnôthi seauton) était gravé sur le fronton du temple d'Apollon à Delphes. Socrate en fait le principe directeur de sa philosophie : avant de prétendre connaître quoi que ce soit sur le monde, il faut s'examiner soi-même, identifier ses propres croyances, contradictions et certitudes non fondées. Cet impératif d'auto-examen est au cœur de la démarche socratique : 'Une vie sans examen ne vaut pas la peine d'être vécue', dit-il dans l'Apologie."
     },
     {
       "id": "6",
-      "question": "Quelle est la particularité de Socrate concernant ses écrits ?",
-      "answers": ["Il écrit beaucoup", "Il ne laisse aucun écrit", "Il écrit des lois", "Il rédige des traités"],
+      "question": "Que répond l'oracle de Delphes à Chéréphon sur la sagesse des hommes ?",
+      "answers": [
+        "Que Socrate est le plus savant des Athéniens",
+        "Que nul n'est plus sage que Socrate",
+        "Que Socrate doit enseigner à tous les Grecs",
+        "Que les dieux seuls possèdent la vraie sagesse"
+      ],
       "correctIndex": 1,
-      "explanation": "Socrate n’a laissé aucun écrit. Sa pensée est transmise par ses disciples, notamment Platon."
+      "explanation": "L'oracle déclare que 'nul n'est plus sage que Socrate'. Déconcerté — lui qui se sait ignorant —, Socrate entreprend d'interroger tous ceux qui passent pour sages : politiciens, poètes, artisans. Il constate que chacun croit savoir ce qu'il ne sait pas. Sa conclusion : si l'oracle a raison, c'est parce qu'il est le seul à ne pas croire savoir ce qu'il ne sait pas. Cette enquête le rend impopulaire et contribuera à sa condamnation."
     },
     {
       "id": "7",
-      "question": "Quel type de savoir Socrate remet-il en question ?",
-      "answers": ["Scientifique", "Technique", "Traditionnel et apparent", "Mathématique"],
-      "correctIndex": 2,
-      "explanation": "Socrate critique les certitudes non examinées et pousse à questionner les idées reçues."
+      "question": "Comment Socrate subvient-il à ses besoins, lui qui refuse d'être payé pour enseigner ?",
+      "answers": [
+        "Il est financé par des mécènes riches",
+        "Il vit de la fortune de sa femme Xanthippe",
+        "Il exerce le métier de sculpteur",
+        "Il vit dans une pauvreté volontaire grâce à des proches"
+      ],
+      "correctIndex": 3,
+      "explanation": "Socrate est célèbre pour son dénuement volontaire : il porte toujours le même manteau usé, marche pieds nus même en hiver et se nourrit frugalement. Il refuse de prendre de l'argent pour ses conversations, contrairement aux sophistes. Criton et d'autres proches semblent avoir contribué à son entretien, sans que les sources permettent d'en préciser les modalités exactes. Platon le dépeint comme imperméable aux plaisirs physiques et aux richesses, incarnation vivante de la maîtrise de soi qu'il prêche."
     },
     {
       "id": "8",
-      "question": "Quelle célèbre phrase résume sa pensée ?",
-      "answers": ["Le savoir est pouvoir", "Je pense donc je suis", "Je ne sais qu’une chose", "Connais-toi toi-même"],
-      "correctIndex": 2,
-      "explanation": "La phrase 'Je ne sais qu’une chose, c’est que je ne sais rien' souligne l’importance du doute et de l’humilité intellectuelle."
+      "question": "Quel disciple de Socrate offre un portrait plus pragmatique que celui de Platon dans ses 'Mémorables' ?",
+      "answers": ["Alcibiade", "Xénophon", "Antisthène", "Aristippe"],
+      "correctIndex": 1,
+      "explanation": "Xénophon, général et historien athénien, est l'une des deux sources principales sur Socrate avec Platon. Dans ses 'Mémorables' (Memorabilia), il présente un Socrate pragmatique, soucieux de l'utilité pratique et de la vertu civique, moins mystérieux que le Socrate platonicien. Aristophane offre une troisième image dans sa comédie 'Les Nuées' (423 av. J.-C.) : un sophiste ridicule — caricature que Socrate évoquera lors de son procès."
     },
     {
       "id": "9",
-      "question": "Quel domaine Socrate explore-t-il principalement ?",
-      "answers": ["Physique", "Politique", "Éthique et morale", "Commerce"],
+      "question": "Quelle est la relation entre vertu et connaissance selon Socrate ?",
+      "answers": [
+        "La vertu s'acquiert par l'habitude, indépendamment du savoir",
+        "La vertu est innée et ne s'enseigne pas",
+        "Nul n'est méchant volontairement : le mal vient de l'ignorance",
+        "La vertu est affaire de volonté, non de connaissance"
+      ],
       "correctIndex": 2,
-      "explanation": "Socrate s’intéresse surtout aux questions morales : justice, vertu et bien."
+      "explanation": "Le paradoxe socratique fondamental est que 'nul n'est méchant volontairement' (oudeis hekôn kakos). Pour Socrate, le mal est toujours une erreur de jugement : celui qui fait le mal croit sincèrement faire son bien, il se trompe simplement sur ce qui est réellement bon. La vertu est donc une forme de connaissance, et l'ignorance la source de tous les vices. Cette thèse — l'intellectualisme moral — sera l'une des plus discutées de toute l'histoire de la philosophie."
     },
     {
       "id": "10",
-      "question": "Quel type de régime politique existe à Athènes ?",
-      "answers": ["Monarchie", "Démocratie", "Empire", "Dictature"],
+      "question": "Quelle est l'accusation précise portée contre Socrate lors de son procès en 399 av. J.-C. ?",
+      "answers": [
+        "Trahison militaire et espionnage",
+        "Corruption de la jeunesse et impiété envers les dieux",
+        "Exercice illégal de la médecine et de la divination",
+        "Incitation à la révolte contre la démocratie"
+      ],
       "correctIndex": 1,
-      "explanation": "Athènes est une démocratie directe, ce qui favorise les débats publics et la philosophie."
+      "explanation": "Socrate est accusé par Mélétos, Anytos et Lycon d'impiété (asébeia — ne pas honorer les dieux de la cité, en introduire de nouveaux) et de corruption de la jeunesse. L'accusation vise notamment sa référence à un 'démon' (daimôn) intérieur et ses liens avec des personnages controversés comme Alcibiade et Critias. Le procès est aussi politique : Athènes sort d'une terrible guerre civile et cherche des responsables."
     },
     {
       "id": "11",
-      "question": "Pourquoi Socrate est-il jugé ?",
-      "answers": ["Trahison militaire", "Impôts", "Corruption et impiété", "Révolte"],
-      "correctIndex": 2,
-      "explanation": "Il est accusé de corrompre la jeunesse et de ne pas respecter les dieux de la cité, ce qui reflète une tension entre pensée critique et société."
+      "question": "Par combien de voix Socrate est-il condamné à mort parmi les 500 jurés ?",
+      "answers": ["Par 60 voix d'écart", "Par 280 voix contre 220", "Par 360 voix contre 140", "À l'unanimité"],
+      "correctIndex": 1,
+      "explanation": "Socrate est condamné par 280 voix contre 220 — une majorité relativement étroite. La phase de détermination de la peine aggrave les choses : quand Socrate propose comme 'punition' d'être nourri aux frais de l'État (la récompense des héros olympiques), les jurés, offensés, votent la mort à une plus large majorité. Platon rapporte que si Socrate avait adopté un ton moins provocateur, il aurait probablement été acquitté ou exilé."
     },
     {
       "id": "12",
-      "question": "Quelle est sa condamnation ?",
-      "answers": ["Exil", "Prison", "Amende", "Mort"],
-      "correctIndex": 3,
-      "explanation": "Socrate est condamné à mort et accepte la sentence, illustrant son attachement aux lois de la cité."
+      "question": "Pourquoi Socrate refuse-t-il de s'évader de prison quand son ami Criton le lui propose ?",
+      "answers": [
+        "Il est trop âgé pour fuir",
+        "Il craint une condamnation plus sévère",
+        "Il ne veut pas trahir les lois qu'il a acceptées toute sa vie",
+        "Il espère encore un acquittement en appel"
+      ],
+      "correctIndex": 2,
+      "explanation": "Dans le dialogue 'Criton', Socrate imagine les Lois d'Athènes lui parlant : elles lui rappellent qu'il a vécu 70 ans sous leur protection et qu'il a eu toute sa vie la possibilité de quitter Athènes s'il les désapprouvait. S'évader serait les trahir. Ce refus illustre sa conviction que le philosophe doit vivre selon ses principes jusqu'au bout — même si cela coûte la vie. Il refuse de sauver son corps au prix de trahir son âme et sa cohérence philosophique."
     },
     {
       "id": "13",
-      "question": "Quel poison boit-il pour mourir ?",
-      "answers": ["Ciguë", "Arsenic", "Cyanure", "Opium"],
-      "correctIndex": 0,
-      "explanation": "La ciguë est un poison utilisé dans les exécutions. Socrate l’accepte avec calme, fidèle à ses principes."
+      "question": "Quel élève de Socrate devient général ambitieux puis traître à sa patrie ?",
+      "answers": ["Critias", "Alcibiade", "Thrasymaque", "Ménon"],
+      "correctIndex": 1,
+      "explanation": "Alcibiade est l'un des personnages les plus fascinants de l'Antiquité : brillant, beau, doué pour la politique et la guerre, admirateur de Socrate, et pourtant figure de la démesure et de la trahison. Il convainc Athènes de lancer la désastreuse expédition de Sicile (415 av. J.-C.), puis passe au service de Sparte, puis de la Perse, avant de rentrer à Athènes en héros avant d'être à nouveau exilé. Son lien avec Socrate contribue à la méfiance des Athéniens envers le philosophe."
     },
     {
       "id": "14",
-      "question": "Quel principe moral Socrate défend-il ?",
-      "answers": ["Force", "Vertu", "Richesse", "Pouvoir"],
-      "correctIndex": 1,
-      "explanation": "Pour Socrate, la vertu est essentielle au bonheur et repose sur la connaissance du bien."
+      "question": "Quelle forme littéraire Platon invente-t-il pour transmettre la pensée de Socrate ?",
+      "answers": ["La tragédie philosophique", "L'épopée en vers", "Le dialogue philosophique", "Le traité systématique"],
+      "correctIndex": 2,
+      "explanation": "Platon rédige une trentaine de dialogues — dont l'Apologie, le Phédon, le Banquet, la République, le Ménon — dans lesquels Socrate est presque toujours le personnage central. Cette forme littéraire n'est pas anodine : elle reproduit la méthode socratique elle-même, évite le dogmatisme du traité et invite le lecteur à réfléchir. Le problème dit 'socratique' est de distinguer ce qui relève historiquement de Socrate de ce que Platon lui prête."
     },
     {
       "id": "15",
-      "question": "Quel impact Socrate a-t-il sur la philosophie ?",
-      "answers": ["Faible", "Central", "Temporaire", "Inexistant"],
+      "question": "Quelle école philosophique, héritière de Socrate, pousse le mépris des conventions jusqu'à vivre dans un tonneau ?",
+      "answers": ["Le stoïcisme", "Le cynisme", "L'épicurisme", "Le scepticisme"],
       "correctIndex": 1,
-      "explanation": "Socrate transforme la philosophie en une pratique critique centrée sur l’éthique et le dialogue."
+      "explanation": "Le cynisme, fondé par Antisthène (élève direct de Socrate) et illustré par Diogène de Sinope, radicalise l'idéal socratique de la vie simple et vertueuse. Diogène vit dans une grande jarre, et déclare à Alexandre le Grand : 'Ôte-toi de mon soleil.' Les cyniques poussent à l'extrême la thèse socratique que la vertu seule suffit au bonheur et que les biens matériels sont indifférents."
     },
     {
       "id": "16",
-      "question": "Quel type de méthode Socrate privilégie-t-il ?",
-      "answers": ["Autoritaire", "Dogmatique", "Critique et interrogative", "Religieuse"],
+      "question": "Quel dialogue de Platon décrit les derniers moments de Socrate buvant la ciguë ?",
+      "answers": ["L'Apologie", "Le Criton", "Le Phédon", "Le Phèdre"],
       "correctIndex": 2,
-      "explanation": "Sa méthode repose sur le questionnement constant, visant à révéler les contradictions."
+      "explanation": "Le Phédon de Platon est le récit de la dernière journée de Socrate en prison. Platon y met en scène une longue discussion sur l'immortalité de l'âme, avant de décrire Socrate buvant la ciguë avec sérénité, consolant ses amis en larmes. Ce récit a forgé l'image du philosophe mourant sereinement pour ses idées. Platon note lui-même qu'il était absent ce jour-là, malade."
     },
     {
       "id": "17",
-      "question": "Quel rôle joue le dialogue dans sa pensée ?",
-      "answers": ["Secondaire", "Décoratif", "Central", "Inutile"],
-      "correctIndex": 2,
-      "explanation": "Le dialogue est au cœur de sa méthode : il permet d’explorer les idées et d’approcher la vérité."
+      "question": "Quel philosophe s'oppose à Socrate en affirmant qu'on peut savoir ce qui est bien et faire le contraire ?",
+      "answers": ["Épicure", "Aristote", "Zénon de Citium", "Pyrrhon"],
+      "correctIndex": 1,
+      "explanation": "Aristote critique le paradoxe socratique 'nul n'est méchant volontairement' en introduisant le concept d'akrasia — la 'faiblesse de la volonté'. Pour Aristote, il est parfaitement possible de savoir ce qui est bien et d'agir contre ce savoir sous l'emprise des passions. Cette critique reconnaît la dimension non rationnelle de l'action humaine que Socrate, selon Aristote, méconnaissait dans son optimisme rationaliste."
     },
     {
       "id": "18",
-      "question": "Quel type de philosophe est Socrate ?",
-      "answers": ["Scientifique", "Mystique", "Critique et éthique", "Politique"],
+      "question": "Quel dieu Socrate invoque-t-il pour justifier sa mission philosophique ?",
+      "answers": ["Zeus", "Hermès", "Apollon", "Athéna"],
       "correctIndex": 2,
-      "explanation": "Socrate est un philosophe moral qui interroge les valeurs et les comportements humains."
+      "explanation": "Socrate affirme dans l'Apologie qu'Apollon — dieu de la vérité et de l'oracle de Delphes — lui a confié la mission d'interroger ses concitoyens. Il se compare à un taon posé par le dieu sur le dos d'un cheval noble mais engourdi (Athènes) pour le réveiller. Refuser de philosopher serait désobéir à un ordre divin — raison pour laquelle il ne peut accepter de se taire en échange de sa liberté."
     },
     {
       "id": "19",
-      "question": "Quel héritage laisse Socrate ?",
-      "answers": ["Empire", "Tradition philosophique", "Religion", "Science"],
+      "question": "Quel penseur moderne accuse Platon d'avoir trahi Socrate en fondant une utopie autoritaire ?",
+      "answers": ["Friedrich Nietzsche", "Karl Popper", "Hannah Arendt", "Bertrand Russell"],
       "correctIndex": 1,
-      "explanation": "Socrate inspire toute la philosophie occidentale, notamment à travers Platon et Aristote."
+      "explanation": "Dans 'La Société ouverte et ses ennemis' (1945), Karl Popper affirme que le Socrate historique — défenseur du dialogue et de l'humilité intellectuelle — a été trahi par Platon, dont la 'République' dessine une cité dirigée par des philosophes-rois infaillibles. Pour Popper, Socrate était un penseur ouvert et anti-dogmatique, tandis que Platon l'a transformé en porte-parole d'un idéalisme politique totalitaire."
     },
     {
       "id": "20",
-      "question": "Pourquoi Socrate reste-t-il une figure majeure ?",
-      "answers": ["Pour sa richesse", "Pour sa durée de vie", "Pour son isolement", "Pour sa méthode et sa quête de vérité"],
-      "correctIndex": 3,
-      "explanation": "Socrate incarne la naissance de la pensée critique, fondée sur le dialogue, le doute et la recherche du vrai."
+      "question": "Quelle expression latine désigne l'idéal socratique d'une mort affrontée avec sérénité ?",
+      "answers": [
+        "Memento mori",
+        "Carpe diem",
+        "Meditatio mortis",
+        "Amor fati"
+      ],
+      "correctIndex": 2,
+      "explanation": "L'expression latine meditatio mortis est postérieure à Socrate, mais résume bien une idée développée dans le Phédon : philosopher, c'est apprendre à mourir, c'est-à-dire détacher progressivement l'âme des illusions du corps pour s'orienter vers la vérité. Cette idée traverse toute la philosophie antique — stoïciens, épicuriens — et inspire Montaigne : 'philosopher, c'est apprendre à mourir.'"
     }
   ]
 }

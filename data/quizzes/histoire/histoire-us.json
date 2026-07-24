@@ -1,8 +1,8 @@
 {
   "slug": "quiz-etats-unis-histoire",
-  "title": "Quiz Histoire - États-Unis - Indépendance, guerre civile et puissance mondiale",
-  "description": "Indépendance, guerre civile et puissance : teste tes connaissances sur l’histoire des États-Unis.",
-  "descriptionSeo": "Teste tes connaissances sur l’histoire des États-Unis avec ce quiz complet. Indépendance, guerre civile, expansion territoriale et montée en puissance mondiale : connais-tu vraiment les moments clés de l’histoire américaine ? 20 questions avec réponses et explications pour comprendre les grandes dates, les figures majeures et les transformations qui ont façonné les États-Unis.",
+  "title": "Quiz Histoire – États-Unis - Indépendance, guerre civile et puissance mondiale",
+  "description": "Indépendance, guerre civile et puissance : teste tes connaissances sur l'histoire des États-Unis.",
+  "descriptionSeo": "Teste tes connaissances sur l'histoire des États-Unis avec ce quiz complet. Indépendance, guerre civile, expansion territoriale et montée en puissance mondiale : connais-tu vraiment les moments clés de l'histoire américaine ? 20 questions avec réponses et explications pour comprendre les grandes dates, les figures majeures et les transformations qui ont façonné les États-Unis.",
   "category": {
     "name": "Histoire",
     "slug": "histoire"
@@ -18,143 +18,243 @@
   "questions": [
     {
       "id": "1",
-      "question": "En quelle année les États-Unis déclarent-ils leur indépendance ?",
-      "answers": ["1776", "1789", "1812", "1492"],
-      "correctIndex": 0,
-      "explanation": "La Déclaration d’indépendance est adoptée le 4 juillet 1776. Elle marque la rupture officielle des colonies américaines avec la Grande-Bretagne et fonde les États-Unis."
+      "question": "Quelle célèbre formule ouvre la Déclaration d'indépendance américaine du 4 juillet 1776 ?",
+      "answers": [
+        "'Nous, le peuple des États-Unis...'",
+        "'Nous tenons ces vérités pour évidentes...'",
+        "'Au nom de Dieu et de la liberté...'",
+        "'Les droits naturels sont inaliénables...'"
+      ],
+      "correctIndex": 1,
+      "explanation": "La Déclaration d'indépendance, rédigée principalement par Thomas Jefferson, s'ouvre sur : 'Nous tenons ces vérités pour évidentes par elles-mêmes, que tous les hommes sont créés égaux.' Cette formulation est directement inspirée de la philosophie des Lumières, notamment de John Locke. Elle proclame le droit à la vie, à la liberté et à la recherche du bonheur — et liste 27 griefs contre le roi George III pour justifier la rupture avec la couronne britannique."
     },
     {
       "id": "2",
-      "question": "Contre quel pays les colonies américaines se battent-elles ?",
-      "answers": ["France", "Espagne", "Grande-Bretagne", "Portugal"],
-      "correctIndex": 2,
-      "explanation": "Les colonies américaines se révoltent contre la domination britannique, notamment à cause des taxes et de l’absence de représentation politique."
+      "question": "Quelle taxe britannique, imposée sans représentation au Parlement, déclenche le célèbre 'Boston Tea Party' de 1773 ?",
+      "answers": [
+        "La taxe sur le papier timbré",
+        "La taxe sur le thé",
+        "La taxe sur le sucre",
+        "La taxe sur les importations de coton"
+      ],
+      "correctIndex": 1,
+      "explanation": "Le Boston Tea Party (16 décembre 1773) est une réponse directe au Tea Act britannique qui accordait un monopole sur le commerce du thé à la Compagnie des Indes orientales. Des colons déguisés en Mohawks jettent 342 caisses de thé à la mer dans le port de Boston, sous le cri de ralliement 'No taxation without representation'. Cet acte de désobéissance civile est l'un des déclencheurs de la guerre d'indépendance qui éclate deux ans plus tard."
     },
     {
       "id": "3",
-      "question": "Quel président est considéré comme le premier des États-Unis ?",
-      "answers": ["Thomas Jefferson", "George Washington", "Abraham Lincoln", "John Adams"],
-      "correctIndex": 1,
-      "explanation": "George Washington devient le premier président en 1789. Il joue un rôle central dans la guerre d’indépendance et dans la fondation des institutions américaines."
+      "question": "Quelle nation européenne apporte un soutien militaire décisif aux colonies américaines contre la Grande-Bretagne ?",
+      "answers": [
+        "L'Espagne",
+        "Les Provinces-Unies",
+        "La France",
+        "Le Portugal"
+      ],
+      "correctIndex": 2,
+      "explanation": "La France, cherchant à affaiblir son rival britannique après la défaite de la guerre de Sept Ans (1763), soutient les insurgés américains d'abord secrètement (via Beaumarchais), puis officiellement à partir de 1778. Le marquis de La Fayette et le comte de Rochambeau commandent des troupes françaises sur le sol américain. La bataille de Yorktown (1781), qui force la reddition de Cornwallis et scelle l'indépendance américaine, est remportée grâce à la marine française qui bloque les renforts britanniques."
     },
     {
       "id": "4",
-      "question": "Quelle guerre oppose le Nord et le Sud des États-Unis ?",
-      "answers": ["Guerre d’indépendance", "Guerre mondiale", "Guerre civile", "Guerre froide"],
-      "correctIndex": 2,
-      "explanation": "La guerre de Sécession (1861–1865) oppose les États du Nord et du Sud, notamment sur la question de l’esclavage et du modèle économique."
+      "question": "Pourquoi George Washington refuse-t-il un troisième mandat présidentiel en 1796, créant un précédent fondamental ?",
+      "answers": [
+        "La Constitution lui interdit de se représenter",
+        "Il souhaite montrer que le pouvoir républicain repose sur la rotation, non sur un homme",
+        "Il est trop malade pour gouverner",
+        "Il préfère reprendre le commandement de l'armée"
+      ],
+      "correctIndex": 1,
+      "explanation": "La Constitution de 1787 ne limite alors pas le nombre de mandats. Washington choisit volontairement de se retirer après deux mandats pour établir le principe que la démocratie américaine ne dépend d'aucun homme indispensable — rupture symbolique avec la monarchie. Son discours d'adieu (1796) met en garde contre les partis politiques, les alliances étrangères permanentes et les dettes publiques. Ce précédent est respecté jusqu'en 1940 (Franklin Roosevelt) et codifié dans le 22e amendement (1951)."
     },
     {
       "id": "5",
-      "question": "Quel président abolit l’esclavage ?",
-      "answers": ["George Washington", "Theodore Roosevelt", "John Kennedy", "Abraham Lincoln"],
-      "correctIndex": 3,
-      "explanation": "Abraham Lincoln proclame l’émancipation des esclaves en 1863. Il joue un rôle clé dans la victoire du Nord et la préservation de l’Union."
+      "question": "Quel président américain conclut en 1803 l'achat de la Louisiane auprès de Napoléon, doublant la superficie du pays ?",
+      "answers": [
+        "George Washington",
+        "John Adams",
+        "Thomas Jefferson",
+        "James Madison"
+      ],
+      "correctIndex": 2,
+      "explanation": "Thomas Jefferson achète la Louisiane à Napoléon pour 15 millions de dollars — environ 3 cents l'hectare — doublant d'un coup la superficie des États-Unis. Napoléon, ayant renoncé à son empire américain après la défaite de Saint-Domingue (future Haïti) et la reprise imminente des guerres européennes, préfère encaisser la somme. Jefferson envoie aussitôt l'expédition Lewis et Clark (1804-1806) explorer ces nouveaux territoires jusqu'au Pacifique, ouvrant la voie à l'expansion vers l'ouest."
     },
     {
       "id": "6",
-      "question": "Quel document fonde les principes politiques des États-Unis ?",
-      "answers": ["Constitution", "Traité de Paris", "Charte coloniale", "Décret royal"],
-      "correctIndex": 0,
-      "explanation": "La Constitution américaine, adoptée en 1787, établit les bases du système politique avec la séparation des pouvoirs."
+      "question": "Que signifie l'expression 'destinée manifeste', utilisée dès 1845 pour justifier l'expansion américaine vers l'ouest ?",
+      "answers": [
+        "Le droit divin des présidents à gouverner sans limite",
+        "La mission providentiellement accordée aux États-Unis de s'étendre sur tout le continent",
+        "L'obligation des États de rejoindre l'Union fédérale",
+        "Le droit des colons à s'armer pour défendre leurs terres"
+      ],
+      "correctIndex": 1,
+      "explanation": "L'expression 'Manifest Destiny', forgée par le journaliste John O'Sullivan en 1845, affirme que les États-Unis ont pour mission divine de s'étendre de l'Atlantique au Pacifique. Cette idéologie légitime l'annexion du Texas (1845), la guerre contre le Mexique (1846-1848) qui rapporte la Californie et le Nouveau-Mexique, et le déplacement forcé des populations amérindiennes vers des réserves. La 'Piste des Larmes' (1838-1839), qui tue des milliers de Cherokees déportés vers l'Oklahoma, en est l'une des conséquences les plus dramatiques."
     },
     {
       "id": "7",
-      "question": "Quel territoire est acheté à la France en 1803 ?",
-      "answers": ["Texas", "Louisiane", "Californie", "Floride"],
-      "correctIndex": 1,
-      "explanation": "L’achat de la Louisiane double la superficie des États-Unis et ouvre la voie à l’expansion vers l’ouest."
+      "question": "Quelle décision de la Cour suprême (1857) aggrave la crise esclavagiste en refusant la citoyenneté aux Afro-Américains ?",
+      "answers": [
+        "L'arrêt Plessy v. Ferguson",
+        "L'arrêt Marbury v. Madison",
+        "L'arrêt Dred Scott v. Sandford",
+        "L'arrêt McCulloch v. Maryland"
+      ],
+      "correctIndex": 2,
+      "explanation": "L'arrêt Dred Scott v. Sandford (1857) statue que les Afro-Américains, libres ou esclaves, ne peuvent être citoyens américains et que le Congrès n'a pas le droit d'interdire l'esclavage dans les territoires. Cette décision, signée par le juge Taney, est considérée comme l'une des pires de l'histoire de la Cour suprême. Elle radicalise les deux camps : les abolitionnistes y voient la preuve que l'esclavage ne peut être combattu que par la force politique ou militaire, précipitant la marche vers la guerre civile."
     },
     {
       "id": "8",
-      "question": "Quel événement marque l’entrée des États-Unis dans la Première Guerre mondiale ?",
-      "answers": ["Pearl Harbor", "Traité de Versailles", "1917", "Crise de Cuba"],
+      "question": "Lors de quelle bataille de 1863, la plus meurtrière de la guerre civile, l'armée confédérée de Lee subit-elle son tournant décisif ?",
+      "answers": [
+        "La bataille d'Antietam",
+        "La bataille de Shiloh",
+        "La bataille de Gettysburg",
+        "La bataille de Bull Run"
+      ],
       "correctIndex": 2,
-      "explanation": "Les États-Unis entrent en guerre en 1917, influençant fortement l’issue du conflit en faveur des Alliés."
+      "explanation": "Gettysburg (1-3 juillet 1863) coûte 50 000 morts, blessés et disparus en trois jours — le bilan le plus lourd de toute la guerre civile. La charge de Pickett le troisième jour, où 12 500 soldats confédérés traversent 1,4 km à découvert, est un désastre : plus de la moitié sont tués ou capturés. Lee ne lancera plus jamais d'offensive majeure en territoire nordiste. Cinq mois plus tard, Lincoln prononce sur ce champ de bataille son Adresse de Gettysburg, redéfinissant la guerre comme un combat pour l'égalité."
     },
     {
       "id": "9",
-      "question": "Quel événement déclenche l’entrée en guerre en 1941 ?",
-      "answers": ["Débarquement", "Traité de paix", "Guerre froide", "Pearl Harbor"],
+      "question": "Quel territoire américain, acheté à la Russie en 1867 pour 7,2 millions de dollars, est moqué comme une 'folie' avant de révéler ses richesses ?",
+      "answers": [
+        "Hawaï",
+        "Porto Rico",
+        "Les îles Aléoutiennes",
+        "L'Alaska"
+      ],
       "correctIndex": 3,
-      "explanation": "L’attaque japonaise sur Pearl Harbor pousse les États-Unis à entrer dans la Seconde Guerre mondiale."
+      "explanation": "L'Alaska est acheté à la Russie en 1867 par le secrétaire d'État William Seward, pour 7,2 millions de dollars — environ 2 cents l'hectare. La presse américaine raille 'la folie de Seward' et 'la glacière de Seward'. La découverte d'or au Klondike (1896) puis les immenses réserves de pétrole du XXe siècle donnent tort aux sceptiques. L'Alaska devient le 49e État américain en 1959, le plus grand par la superficie mais l'un des moins peuplés."
     },
     {
       "id": "10",
-      "question": "Quel concept justifie l’expansion vers l’ouest au XIXe siècle ?",
-      "answers": ["Destinée manifeste", "Colonisation", "Impérialisme", "Isolationnisme"],
-      "correctIndex": 0,
-      "explanation": "La 'destinée manifeste' est l’idée que les États-Unis ont pour mission de s’étendre sur le continent nord-américain."
+      "question": "Quelle loi de 1882 interdit l'immigration d'une nationalité entière aux États-Unis pour la première fois de leur histoire ?",
+      "answers": [
+        "L'Indian Removal Act",
+        "Le Chinese Exclusion Act",
+        "Le Immigration Restriction Act",
+        "Le Alien and Sedition Act"
+      ],
+      "correctIndex": 1,
+      "explanation": "Le Chinese Exclusion Act (1882) est la première loi américaine à interdire l'immigration d'une nationalité spécifique, en réponse aux tensions avec les travailleurs chinois venus construire les chemins de fer transcontinentaux. Il suspend l'immigration chinoise pour dix ans, puis est renouvelé et rendu permanent en 1902. Il ne sera abrogé qu'en 1943, quand la Chine devient alliée des États-Unis contre le Japon. Cette loi marque le début d'une longue tradition de restrictions à l'immigration basées sur l'origine nationale."
     },
     {
       "id": "11",
-      "question": "Quel État est au cœur du conflit entre esclavagistes et abolitionnistes ?",
-      "answers": ["New York", "Kansas", "Ohio", "Nevada"],
+      "question": "Quelle catastrophe financière de 1929 déclenche la Grande Dépression et pousse Roosevelt à lancer le New Deal ?",
+      "answers": [
+        "La faillite de la Federal Reserve",
+        "Le krach boursier de Wall Street",
+        "La crise agricole du Dust Bowl",
+        "La faillite des banques du Midwest"
+      ],
       "correctIndex": 1,
-      "explanation": "Le Kansas est le théâtre de violents affrontements dans les années 1850, annonçant la guerre civile."
+      "explanation": "Le krach boursier du 'jeudi noir' (24 octobre 1929) déclenche une spirale de faillites bancaires, de chômage massif (25 % de la population active en 1933) et de misère généralisée. Franklin D. Roosevelt, élu en 1932, lance le New Deal — un programme massif d'intervention de l'État : création de la SEC pour réguler la Bourse, du FDIC pour garantir les dépôts bancaires, de la TVA pour électrifier les zones rurales, et de programmes d'emplois publics (CCC, WPA). Le New Deal transforme durablement le rôle de l'État fédéral dans l'économie américaine."
     },
     {
       "id": "12",
-      "question": "Quel système économique domine au Nord ?",
-      "answers": ["Agriculture esclavagiste", "Industrie", "Artisanat", "Commerce local"],
-      "correctIndex": 1,
-      "explanation": "Le Nord se développe autour de l’industrie, tandis que le Sud repose sur une économie agricole basée sur l’esclavage."
+      "question": "Pourquoi l'attaque japonaise sur Pearl Harbor du 7 décembre 1941 est-elle qualifiée de 'date qui vivra dans l'infamie' par Roosevelt ?",
+      "answers": [
+        "C'est la première attaque sur le sol américain depuis 1812",
+        "Elle détruit la totalité de la flotte du Pacifique",
+        "Elle est menée sans déclaration de guerre sur une base militaire américaine",
+        "Elle tue plus de civils que tout autre bombardement de la guerre"
+      ],
+      "correctIndex": 2,
+      "explanation": "Le 7 décembre 1941, 353 avions japonais attaquent la base navale de Pearl Harbor (Hawaï) sans déclaration de guerre préalable, tuant 2 403 Américains et détruisant ou endommageant 19 navires de guerre. Roosevelt prononce le lendemain son célèbre discours qualifiant le 7 décembre de 'date qui vivra dans l'infamie' et demande au Congrès de déclarer la guerre au Japon. L'Allemagne et l'Italie déclarent la guerre aux États-Unis quatre jours plus tard, entraînant une entrée en guerre sur deux fronts simultanés."
     },
     {
       "id": "13",
-      "question": "Quel amendement abolit officiellement l’esclavage ?",
-      "answers": ["13e amendement", "10e amendement", "1er amendement", "5e amendement"],
-      "correctIndex": 0,
-      "explanation": "Le 13e amendement, adopté en 1865, met fin légalement à l’esclavage aux États-Unis."
+      "question": "Quel projet secret américain, lancé en 1942, aboutit aux bombes atomiques larguées sur le Japon en août 1945 ?",
+      "answers": [
+        "Le projet Apollo",
+        "L'opération Overlord",
+        "Le projet Manhattan",
+        "L'opération Paperclip"
+      ],
+      "correctIndex": 2,
+      "explanation": "Le projet Manhattan, dirigé par le général Groves et le physicien Robert Oppenheimer, mobilise plus de 130 000 personnes sur des sites secrets (Los Alamos, Oak Ridge, Hanford) et coûte 2 milliards de dollars. Le premier essai nucléaire a lieu à Alamogordo (Nouveau-Mexique) le 16 juillet 1945. Hiroshima est bombardée le 6 août, Nagasaki le 9 août. Les deux explosions tuent entre 129 000 et 226 000 personnes. Le Japon capitule le 15 août 1945, mettant fin à la Seconde Guerre mondiale."
     },
     {
       "id": "14",
-      "question": "Quel président est assassiné en 1865 ?",
-      "answers": ["Lincoln", "Washington", "Jefferson", "Roosevelt"],
-      "correctIndex": 0,
-      "explanation": "Abraham Lincoln est assassiné peu après la fin de la guerre civile, marquant profondément l’histoire américaine."
+      "question": "Quelle doctrine, énoncée par le président Truman en 1947, engage les États-Unis à contenir l'expansion soviétique dans le monde ?",
+      "answers": [
+        "La doctrine Monroe",
+        "La doctrine Truman",
+        "Le plan Marshall",
+        "La doctrine Eisenhower"
+      ],
+      "correctIndex": 1,
+      "explanation": "La doctrine Truman (mars 1947) est formulée en réponse aux menaces soviétiques sur la Grèce et la Turquie. Truman demande au Congrès 400 millions de dollars d'aide et affirme que les États-Unis soutiendront tout peuple libre résistant à la subjugation par des minorités armées ou des pressions extérieures. Cette doctrine d'endiguement (containment), théorisée par le diplomate George Kennan, structure la politique étrangère américaine pendant toute la guerre froide et justifie les interventions en Corée, au Vietnam et ailleurs."
     },
     {
       "id": "15",
-      "question": "Quelle ville devient un symbole de puissance économique au XXe siècle ?",
-      "answers": ["Boston", "Chicago", "New York", "Dallas"],
-      "correctIndex": 2,
-      "explanation": "New York devient un centre financier mondial, notamment avec Wall Street et l’essor économique américain."
+      "question": "Quelle crise de 1962, où l'URSS installe des missiles nucléaires à Cuba, amène le monde au bord de la guerre nucléaire ?",
+      "answers": [
+        "La crise du canal de Suez",
+        "La crise des missiles de Cuba",
+        "L'incident du U-2",
+        "La crise de Berlin"
+      ],
+      "correctIndex": 1,
+      "explanation": "La crise des missiles de Cuba (octobre 1962) est le moment le plus dangereux de la guerre froide. Kennedy impose un blocus naval de Cuba et exige le retrait des missiles soviétiques. Pendant 13 jours, les deux superpuissances sont au bord de la guerre nucléaire. Un accord secret met fin à la crise : l'URSS retire ses missiles de Cuba, les États-Unis s'engagent à ne pas envahir Cuba et retirent discrètement leurs missiles de Turquie. Un téléphone rouge direct entre Washington et Moscou est installé peu après pour éviter de futures escalades accidentelles."
     },
     {
       "id": "16",
-      "question": "Quel conflit oppose les États-Unis à l’URSS indirectement ?",
-      "answers": ["Guerre froide", "Guerre civile", "Guerre mondiale", "Guerre coloniale"],
-      "correctIndex": 0,
-      "explanation": "La guerre froide oppose les États-Unis et l’URSS sans affrontement direct, mais à travers des tensions politiques et des conflits indirects."
+      "question": "Quelle loi de 1964, signée par Lyndon Johnson, interdit la discrimination raciale dans les lieux publics et l'emploi ?",
+      "answers": [
+        "Le Voting Rights Act",
+        "Le Fair Housing Act",
+        "Le Civil Rights Act",
+        "L'Equal Pay Act"
+      ],
+      "correctIndex": 2,
+      "explanation": "Le Civil Rights Act du 2 juillet 1964 est la loi la plus importante du mouvement des droits civiques. Il interdit la discrimination fondée sur la race, la couleur, la religion, le sexe ou l'origine nationale dans tous les lieux publics, les programmes fédéraux et l'emploi. Il crée l'Equal Employment Opportunity Commission (EEOC). Proposé par Kennedy après les violences de Birmingham (1963) et signé par Johnson après l'assassinat de Kennedy, il met fin légalement à la ségrégation institutionnalisée des lois Jim Crow qui sévissait depuis la fin de la Reconstruction."
     },
     {
       "id": "17",
-      "question": "Quel événement symbolise la puissance militaire américaine ?",
-      "answers": ["Débarquement de 1944", "Révolution américaine", "Traité de paix", "Crise économique"],
-      "correctIndex": 0,
-      "explanation": "Le débarquement en Normandie en 1944 montre la puissance militaire américaine et son rôle clé dans la libération de l’Europe."
+      "question": "Quel scandale politique contraint Richard Nixon à démissionner de la présidence en août 1974 ?",
+      "answers": [
+        "L'affaire Iran-Contra",
+        "Le scandale du Watergate",
+        "L'affaire des Pentagon Papers",
+        "Le scandale des écoutes de la CIA"
+      ],
+      "correctIndex": 1,
+      "explanation": "Le scandale du Watergate débute par l'effraction des bureaux du Parti démocrate à l'hôtel Watergate de Washington (juin 1972) par des agents liés à l'équipe de réélection de Nixon. Les enregistrements de la Maison-Blanche révèlent que Nixon a personnellement orchestré la dissimulation. Faced à une procédure de destitution certaine au Congrès, Nixon devient le seul président américain à avoir démissionné, le 9 août 1974. Son vice-président Gerald Ford lui accorde un pardon controversé un mois plus tard. 'Watergate' est depuis synonyme de scandale politique dans de nombreuses langues."
     },
     {
       "id": "18",
-      "question": "Quel président lance le New Deal ?",
-      "answers": ["Roosevelt", "Lincoln", "Kennedy", "Nixon"],
-      "correctIndex": 0,
-      "explanation": "Franklin D. Roosevelt met en place le New Deal pour relancer l’économie après la crise de 1929."
+      "question": "Quels attentats du 11 septembre 2001 déclenchent la 'guerre contre le terrorisme' et transforment durablement la politique américaine ?",
+      "answers": [
+        "Des attaques à la voiture piégée contre les ambassades américaines",
+        "Des détournements d'avions frappant le World Trade Center et le Pentagone",
+        "Des attaques biologiques à l'anthrax contre le Congrès",
+        "Des attentats suicides dans plusieurs aéroports américains"
+      ],
+      "correctIndex": 1,
+      "explanation": "Le 11 septembre 2001, dix-neuf membres d'Al-Qaïda détournent quatre avions : deux frappent les tours du World Trade Center à New York (qui s'effondrent), un frappe le Pentagone à Washington, et le quatrième s'écrase en Pennsylvanie après que des passagers tentent de reprendre le contrôle. Bilan : 2 977 morts. Les attentats déclenchent l'invasion de l'Afghanistan (octobre 2001), le Patriot Act, la création du Department of Homeland Security et, en 2003, la guerre en Irak — reconfigurant la politique étrangère américaine pour deux décennies."
     },
     {
       "id": "19",
-      "question": "Quel pays devient le principal rival des États-Unis après 1945 ?",
-      "answers": ["Allemagne", "URSS", "Chine", "Japon"],
+      "question": "Quel événement historique se produit le 20 janvier 2009 avec l'investiture de Barack Obama ?",
+      "answers": [
+        "Le premier président démocrate depuis Jimmy Carter",
+        "Le premier président afro-américain de l'histoire des États-Unis",
+        "Le premier président né hors des États-Unis continentaux",
+        "Le plus jeune président élu depuis John Kennedy"
+      ],
       "correctIndex": 1,
-      "explanation": "Après la Seconde Guerre mondiale, l’URSS devient le principal rival idéologique et stratégique des États-Unis."
+      "explanation": "Barack Obama devient le 44e président des États-Unis et le premier Afro-Américain à occuper ce poste — 143 ans après l'abolition de l'esclavage et 45 ans après le Civil Rights Act de 1964. Son élection est saluée dans le monde entier comme un tournant historique. Il reçoit le prix Nobel de la paix en 2009. Son bilan inclut la réforme du système de santé (Affordable Care Act, 2010), le retrait progressif d'Irak et la neutralisation d'Oussama Ben Laden (mai 2011)."
     },
     {
       "id": "20",
-      "question": "Pourquoi les États-Unis deviennent-ils une puissance mondiale ?",
-      "answers": ["Grâce à leur isolement", "Grâce à leur économie et leur influence", "Grâce à la monarchie", "Grâce à l’agriculture seule"],
+      "question": "Quel principe constitutionnel fondamental, inscrit dans le premier amendement de 1791, distingue le système américain de nombreuses monarchies européennes de l'époque ?",
+      "answers": [
+        "Le droit de vote universel pour tous les citoyens",
+        "La séparation entre l'État et toute religion officielle",
+        "L'interdiction de toute armée permanente en temps de paix",
+        "Le droit de sécession des États de l'Union"
+      ],
       "correctIndex": 1,
-      "explanation": "Les États-Unis s’imposent comme une puissance mondiale grâce à leur économie, leur influence culturelle, leur puissance militaire et leur rôle dans les conflits mondiaux."
+      "explanation": "Le premier amendement de la Déclaration des droits (Bill of Rights, 1791) interdit au Congrès d'établir une religion d'État ou d'en interdire le libre exercice — c'est la clause d'établissement (Establishment Clause). Cette séparation entre l'Église et l'État, inspirée de Jefferson et Madison, tranche radicalement avec les monarchies européennes où le souverain est chef de l'Église (Angleterre) ou défenseur d'une foi officielle (France, Espagne). Le premier amendement protège aussi la liberté d'expression, de la presse, de réunion et de pétition — formant le socle des libertés civiles américaines."
     }
   ]
 }

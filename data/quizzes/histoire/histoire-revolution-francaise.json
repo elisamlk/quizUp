@@ -1,8 +1,8 @@
 {
   "slug": "quiz-histoire-revolution-francaise",
-  "title": "Quiz Histoire - Connais-tu vraiment la Révolution française ?",
+  "title": "Quiz Histoire – Connais-tu vraiment la Révolution française ?",
   "description": "Prise de la Bastille, Louis XVI, Terreur, République, guillotine : teste vraiment tes connaissances sur la Révolution française.",
-  "descriptionSeo": "Teste tes connaissances avec ce quiz sur la Révolution française. Bastille, Déclaration des droits de l’homme, Louis XVI, Robespierre, Terreur, République : 20 questions pour vérifier si tu maîtrises vraiment cette période majeure de l’histoire de France.",
+  "descriptionSeo": "Teste tes connaissances avec ce quiz sur la Révolution française. Bastille, Déclaration des droits de l'homme, Louis XVI, Robespierre, Terreur, République : 20 questions pour vérifier si tu maîtrises vraiment cette période majeure de l'histoire de France.",
   "category": {
     "name": "Histoire",
     "slug": "histoire"
@@ -21,140 +21,165 @@
       "question": "En quelle année débute la Révolution française ?",
       "answers": ["1789", "1776", "1792", "1804"],
       "correctIndex": 0,
-      "explanation": "1789 est l’année qui ouvre la Révolution française, avec la réunion des États généraux, le serment du Jeu de paume puis la prise de la Bastille. Le piège classique consiste à répondre 1792, qui correspond en réalité à la proclamation de la République, donc à une phase plus avancée de la Révolution."
+      "explanation": "1789 ouvre la Révolution française, avec la réunion des États généraux en mai, le serment du Jeu de paume en juin, puis la prise de la Bastille le 14 juillet. Le piège classique consiste à répondre 1792, qui correspond à la proclamation de la République — une phase plus avancée de la Révolution, non à son point de départ."
     },
     {
       "id": "2",
-      "question": "Quel événement symbolise le début de la Révolution française ?",
-      "answers": ["La fuite à Varennes", "Le sacre de Napoléon", "La prise de la Bastille", "La mort de Robespierre"],
-      "correctIndex": 2,
-      "explanation": "La prise de la Bastille, le 14 juillet 1789, est devenue le symbole du début de la Révolution. Même si la forteresse ne contenait que peu de prisonniers, sa chute représente l’effondrement de l’autorité royale arbitraire et la montée en puissance du peuple parisien."
+      "question": "Combien de prisonniers se trouvaient réellement dans la Bastille lors de sa prise, le 14 juillet 1789 ?",
+      "answers": ["Aucun", "7", "42", "Plusieurs centaines"],
+      "correctIndex": 1,
+      "explanation": "La Bastille ne contenait que 7 prisonniers le jour de sa prise, dont quatre faussaires et deux aliénés. Sa valeur est donc avant tout symbolique : la chute de cette forteresse représente l'effondrement de l'arbitraire royal et la montée en puissance du peuple parisien, bien plus qu'une libération massive."
     },
     {
       "id": "3",
       "question": "Quel roi était au pouvoir au début de la Révolution française ?",
       "answers": ["Louis XIV", "Louis XVI", "Louis XV", "Louis XVIII"],
       "correctIndex": 1,
-      "explanation": "Louis XVI règne depuis 1774 lorsque la crise politique et financière débouche sur la Révolution. On le présente souvent comme un roi faible plus que comme un despote tout-puissant : il hésite, recule, puis perd progressivement la confiance du peuple et des députés."
+      "explanation": "Louis XVI règne depuis 1774 lorsque la crise politique et financière débouche sur la Révolution. Plus indécis que despotique, il hésite, recule, tente de fuir, puis perd progressivement toute légitimité. Il sera jugé et exécuté le 21 janvier 1793."
     },
     {
       "id": "4",
-      "question": "Comment s’appelait l’épouse de Louis XVI ?",
-      "answers": ["Marie Stuart", "Anne d’Autriche", "Joséphine de Beauharnais", "Marie-Antoinette"],
-      "correctIndex": 3,
-      "explanation": "Marie-Antoinette est l’épouse de Louis XVI. Son origine autrichienne, son train de vie supposé luxueux et les nombreuses caricatures diffusées contre elle en ont fait une cible idéale de l’opinion publique, bien au-delà de la réalité historique stricte."
+      "question": "Quelle expression, attribuée à Marie-Antoinette face à la disette, est en réalité apocryphe et antérieure à son règne ?",
+      "answers": [
+        "'Vive la République !'",
+        "'L'État, c'est moi.'",
+        "'Qu'ils mangent de la brioche.'",
+        "'La noblesse oblige.'"
+      ],
+      "correctIndex": 2,
+      "explanation": "La phrase 'Qu'ils mangent de la brioche' n'a jamais été prononcée par Marie-Antoinette. Jean-Jacques Rousseau la rapporte dans ses 'Confessions' (rédigées avant 1770) en l'attribuant à 'une grande princesse' non identifiée. Marie-Antoinette n'avait que 14 ans à l'époque. Cette citation lui est néanmoins restée attachée, devenant un symbole de l'insouciance supposée de la royauté face au peuple."
     },
     {
       "id": "5",
       "question": "Quel texte fondamental est adopté en août 1789 ?",
-      "answers": ["La Déclaration des droits de l’homme et du citoyen", "Le Code civil", "Le Concordat", "La Constitution civile du clergé"],
+      "answers": ["La Déclaration des droits de l'homme et du citoyen", "Le Code civil", "Le Concordat", "La Constitution civile du clergé"],
       "correctIndex": 0,
-      "explanation": "La Déclaration des droits de l’homme et du citoyen, adoptée en août 1789, affirme des principes majeurs comme la liberté, l’égalité devant la loi et la souveraineté nationale. C’est l’un des textes les plus importants de l’histoire politique française, et il continue d’inspirer les démocraties modernes."
+      "explanation": "La Déclaration des droits de l'homme et du citoyen, adoptée le 26 août 1789, affirme des principes fondateurs : liberté, égalité devant la loi, souveraineté nationale, présomption d'innocence. Elle s'inspire notamment de la Déclaration d'indépendance américaine de 1776 et continue d'avoir valeur constitutionnelle en France aujourd'hui."
     },
     {
       "id": "6",
-      "question": "Les États généraux réunissaient combien d’ordres ?",
-      "answers": ["2", "4", "3", "5"],
+      "question": "Pourquoi les États généraux de 1789 deviennent-ils rapidement une source de conflit ?",
+      "answers": [
+        "Le roi refuse d'y assister",
+        "Le clergé en est exclu",
+        "Le vote se fait par ordre et non par tête, défavorisant le tiers état",
+        "Ils se réunissent en dehors de Paris"
+      ],
       "correctIndex": 2,
-      "explanation": "Les États généraux réunissent trois ordres : le clergé, la noblesse et le tiers état. Le vrai problème vient du mode de vote par ordre et non par tête, ce qui permet souvent aux deux ordres privilégiés de l’emporter contre le tiers état, pourtant largement majoritaire dans la population."
+      "explanation": "Lors des États généraux, chaque ordre (clergé, noblesse, tiers état) dispose d'une voix, quelle que soit sa taille. Cela permet aux deux ordres privilégiés de systématiquement bloquer le tiers état, pourtant représentant l'immense majorité de la population. C'est ce blocage qui pousse les députés du tiers état à se constituer en Assemblée nationale, geste fondateur de la Révolution."
     },
     {
       "id": "7",
-      "question": "Quel ordre représentait la grande majorité de la population ?",
-      "answers": ["La noblesse", "Le tiers état", "Le clergé", "La cour"],
+      "question": "Qu'est-ce que la Grande Peur, qui se répand dans les campagnes françaises à l'été 1789 ?",
+      "answers": [
+        "Une épidémie de choléra",
+        "Une vague de panique rurale liée à des rumeurs de complot aristocratique",
+        "La crainte d'une invasion anglaise",
+        "Une série de tremblements de terre"
+      ],
       "correctIndex": 1,
-      "explanation": "Le tiers état représente environ 97 % de la population française. Il regroupe des réalités très différentes, des paysans aux bourgeois, mais partage une même frustration : supporter l’essentiel des charges sans disposer d’un poids politique correspondant."
+      "explanation": "La Grande Peur désigne une vague de panique collective qui se propage dans les campagnes françaises entre juillet et août 1789. Des rumeurs de brigands à la solde des nobles affolent les paysans, qui s'arment et attaquent des châteaux. Ce mouvement précipite l'abolition des droits féodaux lors de la nuit du 4 août 1789."
     },
     {
       "id": "8",
-      "question": "Quel serment célèbre est prononcé en juin 1789 ?",
+      "question": "Quel serment célèbre est prononcé le 20 juin 1789 ?",
       "answers": ["Le serment de Strasbourg", "Le serment de Reims", "Le serment des Horaces", "Le serment du Jeu de paume"],
       "correctIndex": 3,
-      "explanation": "Le serment du Jeu de paume est prêté le 20 juin 1789 par des députés qui jurent de ne pas se séparer avant d’avoir donné une Constitution à la France. C’est un moment fondateur, car il affirme que la légitimité politique vient désormais de la nation et non plus uniquement du roi."
+      "explanation": "Exclus de leur salle de réunion par ordre du roi, les députés du tiers état se retrouvent dans la salle du Jeu de paume à Versailles et jurent de ne pas se séparer avant d'avoir donné une Constitution à la France. C'est un acte de désobéissance fondateur : la légitimité politique ne vient plus du roi, mais de la nation."
     },
     {
       "id": "9",
       "question": "Que devient la France en septembre 1792 ?",
-      "answers": ["Une république", "Un empire", "Une théocratie", "Un royaume absolu"],
+      "answers": ["Une république", "Un empire", "Une théocratie", "Un royaume constitutionnel"],
       "correctIndex": 0,
-      "explanation": "En septembre 1792, la monarchie est abolie et la Première République est proclamée. Ce basculement est capital : on ne cherche plus seulement à réformer le royaume, mais à refonder entièrement le régime politique sur un principe nouveau, celui de la souveraineté populaire."
+      "explanation": "Le 21 septembre 1792, la Convention abolit la monarchie et proclame la Première République française. Ce basculement intervient au lendemain de la victoire de Valmy contre les armées coalisées européennes, qui redonne confiance aux révolutionnaires et légitime le nouveau régime."
     },
     {
       "id": "10",
-      "question": "Quel roi est exécuté en janvier 1793 ?",
-      "answers": ["Louis XV", "Louis XVIII", "Louis XVI", "Charles X"],
+      "question": "Sur quelle place parisienne Louis XVI est-il exécuté le 21 janvier 1793 ?",
+      "answers": ["Place de la Bastille", "Place du Palais-Royal", "Place de la Révolution", "Place du Châtelet"],
       "correctIndex": 2,
-      "explanation": "Louis XVI est exécuté le 21 janvier 1793 après avoir été jugé par la Convention. Sa mort a une portée immense : elle rompt définitivement avec l’ancienne monarchie et radicalise encore davantage la Révolution, à l’intérieur comme dans les relations avec les monarchies européennes."
+      "explanation": "Louis XVI est guillotiné place de la Révolution, aujourd'hui place de la Concorde. Jugé pour trahison par la Convention, il est condamné à mort à une très courte majorité. Sa mort rompt définitivement avec l'Ancien Régime et provoque une onde de choc dans les monarchies européennes, qui s'unissent contre la France révolutionnaire."
     },
     {
       "id": "11",
-      "question": "Quel instrument est devenu le symbole des exécutions révolutionnaires ?",
-      "answers": ["La guillotine", "La potence", "La roue", "Le bûcher"],
-      "correctIndex": 0,
-      "explanation": "La guillotine devient le symbole de la Révolution, surtout pendant la Terreur. À l’époque, elle est présentée comme un instrument plus égalitaire et moins cruel que les anciennes méthodes d’exécution, ce qui montre à quel point la Révolution mêle idées humanistes et violence politique."
+      "question": "Qui est le médecin à l'origine de l'adoption de la guillotine comme instrument d'exécution unique en France ?",
+      "answers": ["Louis-Michel Le Peletier", "Joseph-Ignace Guillotin", "Antoine Lavoisier", "Philippe Pinel"],
+      "correctIndex": 1,
+      "explanation": "Joseph-Ignace Guillotin, député et médecin, défend en 1789 l'idée d'un mode d'exécution unique et égalitaire pour tous les condamnés, indépendamment de leur rang social. La machine qui porte son nom — qu'il n'a pas inventée — est adoptée en 1792. Guillotin lui-même survivra à la Révolution, contrairement à nombre de ses contemporains."
     },
     {
       "id": "12",
-      "question": "Comment appelle-t-on la période de forte répression menée entre 1793 et 1794 ?",
-      "answers": ["Le Directoire", "La Fronde", "La Restauration", "La Terreur"],
-      "correctIndex": 3,
-      "explanation": "La Terreur désigne la phase la plus radicale de la Révolution, entre 1793 et 1794. Face aux guerres extérieures, aux révoltes intérieures et aux luttes politiques, le pouvoir révolutionnaire choisit la répression massive au nom du salut public."
+      "question": "Quel comité gouvernemental devient le centre du pouvoir exécutif pendant la Terreur ?",
+      "answers": ["Le Comité de sûreté générale", "Le Comité de salut public", "Le Tribunal révolutionnaire", "La Convention nationale"],
+      "correctIndex": 1,
+      "explanation": "Le Comité de salut public, dominé par Robespierre, Saint-Just et Couthon, concentre l'essentiel du pouvoir exécutif entre 1793 et 1794. Il dirige la guerre, la répression intérieure et l'économie de crise. Le Comité de sûreté générale, distinct, gère quant à lui la police politique et les arrestations."
     },
     {
       "id": "13",
-      "question": "Quelle figure politique est la plus souvent associée à la Terreur ?",
-      "answers": ["Napoléon Bonaparte", "Voltaire", "Robespierre", "La Fayette"],
+      "question": "Quel événement met fin à la Terreur en juillet 1794 ?",
+      "answers": ["La mort de Marat", "La fuite de Robespierre", "Le coup d'État du 9 Thermidor", "L'invasion prussienne"],
       "correctIndex": 2,
-      "explanation": "Robespierre est la figure la plus associée à la Terreur. Il défend l’idée qu’une République vertueuse peut recourir à une justice impitoyable contre ses ennemis. Son nom résume à lui seul toute l’ambivalence de la Révolution : idéal politique d’un côté, violence extrême de l’autre."
+      "explanation": "Le 9 Thermidor an II (27 juillet 1794), des membres de la Convention renversent Robespierre, qui est arrêté puis guillotiné le lendemain avec Saint-Just et Couthon. Ce coup d'État parlementaire met fin à la Terreur. Le terme 'thermidoriens' désigne depuis lors ceux qui mettent fin à une période de radicalité révolutionnaire."
     },
     {
       "id": "14",
-      "question": "Quel groupe politique siégeait sur les bancs les plus élevés de l’Assemblée ?",
-      "answers": ["Les Montagnards", "Les Girondins", "Les Royalistes", "Les Cordeliers"],
+      "question": "Quel groupe politique siégeait sur les bancs les plus élevés de la Convention et représentait l'aile la plus radicale ?",
+      "answers": ["Les Montagnards", "Les Girondins", "Les Royalistes", "Les Feuillants"],
       "correctIndex": 0,
-      "explanation": "Les Montagnards siégeaient en hauteur dans la Convention, d’où leur nom. Ils représentent l’aile la plus radicale de la Révolution et s’opposent fréquemment aux Girondins, plus modérés sur plusieurs points, notamment la conduite de la guerre et la centralisation du pouvoir."
+      "explanation": "Les Montagnards, ainsi nommés car ils siégeaient dans les gradins supérieurs de la Convention, représentent l'aile la plus radicale de la Révolution. Ils s'opposent aux Girondins, jugés trop modérés et trop attachés aux intérêts des provinces. La chute des Girondins en juin 1793 laisse le champ libre aux Montagnards et à la Terreur."
     },
     {
       "id": "15",
-      "question": "Quelle prison parisienne est prise le 14 juillet 1789 ?",
-      "answers": ["La Conciergerie", "Le Temple", "La Bastille", "Vincennes"],
-      "correctIndex": 2,
-      "explanation": "La Bastille est une forteresse-prison qui symbolise l’arbitraire royal. Sa prise compte davantage pour sa portée politique que pour sa valeur militaire réelle : elle montre que le peuple parisien entre directement dans le processus révolutionnaire et peut faire vaciller le pouvoir."
+      "question": "Quel journaliste révolutionnaire, surnommé 'l'Ami du peuple', est assassiné dans son bain en 1793 ?",
+      "answers": ["Camille Desmoulins", "Jean-Paul Marat", "Jacques-Louis David", "Georges Danton"],
+      "correctIndex": 1,
+      "explanation": "Jean-Paul Marat, directeur du journal 'L'Ami du peuple', est poignardé dans sa baignoire le 13 juillet 1793 par Charlotte Corday, une jeune Girondine qui espère enrayer la radicalisation croissante de la Révolution en supprimant l'une de ses voix les plus virulentes. Sa mort le transforme immédiatement en martyr révolutionnaire, immortalisé par le tableau de David."
     },
     {
       "id": "16",
-      "question": "Comment s’appelle la tentative de fuite de la famille royale en 1791 ?",
-      "answers": ["La marche sur Versailles", "Le 18 Brumaire", "La nuit du 4 août", "La fuite à Varennes"],
-      "correctIndex": 3,
-      "explanation": "La fuite à Varennes, en juin 1791, est un tournant majeur. En essayant de quitter Paris, le roi donne l’impression de trahir la Révolution. Cet épisode ruine ce qu’il restait de confiance envers la monarchie constitutionnelle et rapproche la France de la République."
+      "question": "Pourquoi la fuite à Varennes de juin 1791 est-elle un tournant majeur de la Révolution ?",
+      "answers": [
+        "Elle permet au roi de négocier avec l'Autriche",
+        "Elle révèle la trahison du roi et ruine la monarchie constitutionnelle",
+        "Elle déclenche immédiatement la proclamation de la République",
+        "Elle entraîne l'invasion de la France par la Prusse"
+      ],
+      "correctIndex": 1,
+      "explanation": "En tentant de fuir à l'étranger pour rejoindre des armées étrangères, Louis XVI confirme aux yeux des révolutionnaires qu'il refuse le nouveau régime constitutionnel. Arrêté à Varennes et ramené à Paris, il perd définitivement la confiance de l'opinion. Cet épisode rend la République inévitable aux yeux d'une part croissante de la population."
     },
     {
       "id": "17",
-      "question": "Quel événement met fin aux privilèges féodaux en 1789 ?",
-      "answers": ["Le serment du Jeu de paume", "La nuit du 4 août", "La fête de la Fédération", "Le coup d’État du 18 Brumaire"],
-      "correctIndex": 1,
-      "explanation": "La nuit du 4 août 1789 marque l’abolition des privilèges féodaux. C’est un moment décisif, car il met juridiquement fin à la société d’ordres de l’Ancien Régime. La Révolution ne se contente plus de contester le pouvoir politique : elle transforme aussi en profondeur l’organisation sociale."
+      "question": "Quel événement met fin aux privilèges féodaux lors de la nuit du 4 août 1789 ?",
+      "answers": [
+        "Un vote solennel imposé par le roi",
+        "Une décision du Comité de salut public",
+        "Un élan spontané de renoncements par des nobles et des ecclésiastiques à l'Assemblée",
+        "Une insurrection paysanne à Paris"
+      ],
+      "correctIndex": 2,
+      "explanation": "La nuit du 4 août 1789 est un moment d'enthousiasme collectif au sein de l'Assemblée nationale constituante. Dans un climat émotionnel intense, des nobles et des ecclésiastiques renoncent volontairement à leurs privilèges — droits seigneuriaux, dîmes, exemptions fiscales. Cet élan, en partie stratégique pour calmer la Grande Peur, met juridiquement fin à la société d'ordres de l'Ancien Régime."
     },
     {
       "id": "18",
-      "question": "Quel chant révolutionnaire devient plus tard l’hymne national français ?",
-      "answers": ["La Carmagnole", "Ah ! ça ira", "La Marseillaise", "Le Chant du départ"],
+      "question": "Dans quelle ville La Marseillaise est-elle composée en 1792, malgré son nom ?",
+      "answers": ["Paris", "Lyon", "Strasbourg", "Marseille"],
       "correctIndex": 2,
-      "explanation": "La Marseillaise est composée en 1792 comme chant de guerre révolutionnaire. Son énergie, son appel à la mobilisation et sa dimension patriotique en font progressivement un symbole national durable, bien au-delà du seul contexte révolutionnaire."
+      "explanation": "La Marseillaise est composée à Strasbourg dans la nuit du 25 au 26 avril 1792 par Rouget de Lisle, officier du génie, à la demande du maire de la ville. Elle prend son nom du fait que des volontaires marseillais l'entonnent en marchant vers Paris. Elle devient hymne national en 1795, est détrônée sous l'Empire et la Restauration, puis définitivement adoptée en 1879."
     },
     {
       "id": "19",
-      "question": "Quel régime politique succède à la Terreur en 1795 ?",
-      "answers": ["Le Consulat", "Le Directoire", "L’Empire", "La Restauration"],
+      "question": "Quel régime politique instable succède à la Terreur de 1795 à 1799 ?",
+      "answers": ["Le Consulat", "Le Directoire", "L'Empire", "La Restauration"],
       "correctIndex": 1,
-      "explanation": "Le Directoire est instauré en 1795 après la chute de Robespierre. Il cherche à stabiliser la France et à éviter le retour à la dictature révolutionnaire, mais il reste fragile, impopulaire et miné par les crises, ce qui ouvre la voie à l’ascension de Napoléon."
+      "explanation": "Le Directoire est instauré par la Constitution de l'an III en 1795. Le pouvoir exécutif est confié à cinq Directeurs. Fragile et corrompu, miné par les crises financières, les guerres et les coups d'État à répétition, il ne parvient pas à stabiliser la France. C'est dans ce contexte qu'un général populaire, Napoléon Bonaparte, s'impose comme recours."
     },
     {
       "id": "20",
-      "question": "Quel événement de 1799 est généralement considéré comme la fin de la Révolution française ?",
-      "answers": ["Le coup d’État du 18 Brumaire", "La prise de la Bastille", "La bataille de Waterloo", "Le sacre de Napoléon"],
+      "question": "Quel événement de novembre 1799 est généralement considéré comme la fin de la Révolution française ?",
+      "answers": ["Le coup d'État du 18 Brumaire", "La bataille de Marengo", "La signature du Concordat", "Le sacre de Napoléon"],
       "correctIndex": 0,
-      "explanation": "Le coup d’État du 18 Brumaire, mené par Napoléon Bonaparte en 1799, est généralement considéré comme la fin de la Révolution française. Il ne met pas fin à tous ses héritages, au contraire, mais il clôt la période des grands bouleversements révolutionnaires ouverts en 1789."
+      "explanation": "Le coup d'État du 18 Brumaire an VIII (9 novembre 1799) permet à Napoléon Bonaparte de renverser le Directoire et d'instaurer le Consulat. Il clôt la décennie révolutionnaire ouverte en 1789. Napoléon ne reniera pas tous les héritages de la Révolution — le Code civil en est le prolongement — mais il met fin à la dynamique révolutionnaire elle-même."
     }
   ]
 }

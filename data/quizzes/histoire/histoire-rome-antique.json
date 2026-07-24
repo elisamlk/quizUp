@@ -1,8 +1,8 @@
 {
   "slug": "quiz-empire-romain-histoire",
-  "title": "Quiz Histoire - Empire romain - Testez vos connaissances sur Rome",
-  "description": "Césars, gladiateurs, conquêtes et civilisation : teste tes connaissances sur l’Empire romain.",
-  "descriptionSeo": "Teste tes connaissances sur l’Empire romain avec ce quiz complet sur Rome antique. Jules César, Auguste, gladiateurs, conquêtes, légions et vie quotidienne : connais-tu vraiment l’histoire de Rome ? 20 questions avec réponses et explications pour découvrir les empereurs, les grandes batailles, les monuments et l’héritage de cette civilisation qui a marqué l’histoire.",
+  "title": "Quiz Histoire – Empire romain : testez vos connaissances sur Rome",
+  "description": "Césars, gladiateurs, conquêtes et civilisation : teste tes connaissances sur l'Empire romain.",
+  "descriptionSeo": "Teste tes connaissances sur l'Empire romain avec ce quiz complet sur Rome antique. Jules César, Auguste, gladiateurs, conquêtes, légions et vie quotidienne : connais-tu vraiment l'histoire de Rome ? 20 questions avec réponses et explications pour découvrir les empereurs, les grandes batailles, les monuments et l'héritage de cette civilisation qui a marqué l'histoire.",
   "category": {
     "name": "Histoire",
     "slug": "histoire"
@@ -18,143 +18,163 @@
   "questions": [
     {
       "id": "1",
-      "question": "Quelle ville est le centre de l’Empire romain ?",
-      "answers": ["Athènes", "Rome", "Alexandrie", "Carthage"],
-      "correctIndex": 1,
-      "explanation": "Rome est le cœur politique, militaire et religieux de l’Empire. Fondée selon la légende en 753 av. J.-C., elle devient une immense métropole d’environ un million d’habitants, ce qui en fait l’une des plus grandes villes du monde antique."
+      "question": "En quelle année Rome passe-t-elle de la République à l'Empire, avec Auguste comme premier princeps ?",
+      "answers": ["63 av. J.-C.", "44 av. J.-C.", "27 av. J.-C.", "14 apr. J.-C."],
+      "correctIndex": 2,
+      "explanation": "En 27 av. J.-C., le Sénat confère à Octave le titre d'Auguste ('le vénérable'), inaugurant le Principat. Octave conserve les formes républicaines — consuls, Sénat, tribuns — mais concentre en réalité tous les pouvoirs : commandement militaire, contrôle des provinces, puissance tribunicienne. Cette fiction républicaine est le génie politique d'Auguste : il ne se dit pas roi, mais gouverne en monarque absolu."
     },
     {
       "id": "2",
-      "question": "Qui est considéré comme le premier empereur romain ?",
-      "answers": ["Néron", "Jules César", "Auguste", "Trajan"],
-      "correctIndex": 2,
-      "explanation": "Auguste (Octave) devient le premier empereur en 27 av. J.-C. après la chute de la République. Il met en place le Principat, un régime qui conserve les apparences républicaines tout en concentrant le pouvoir entre ses mains."
+      "question": "Quel général carthaginois traverse les Alpes avec des éléphants pour attaquer Rome lors de la deuxième guerre punique ?",
+      "answers": ["Hannibal", "Hamilcar Barca", "Hasdrubal", "Jugurtha"],
+      "correctIndex": 0,
+      "explanation": "Hannibal Barca franchit les Alpes en 218 av. J.-C. avec environ 37 éléphants et une armée de 40 000 hommes, dans l'une des manœuvres militaires les plus audacieuses de l'Antiquité. Il remporte des victoires écrasantes à la Trébie, au lac Trasimène et surtout à Cannes (216 av. J.-C.), où il encercle et détruit une armée romaine de 80 000 hommes. Pourtant, il ne prend jamais Rome elle-même et finit par être rappelé en Afrique, où Scipion l'Africain le bat à Zama (202 av. J.-C.)."
     },
     {
       "id": "3",
-      "question": "Comment appelle-t-on les soldats de l’armée romaine ?",
-      "answers": ["Gladiateurs", "Légionnaires", "Spartiates", "Mercenaires"],
-      "correctIndex": 1,
-      "explanation": "Les légionnaires sont des soldats professionnels organisés en légions d’environ 5 000 hommes. Leur discipline et leur équipement standardisé ont largement contribué à l’expansion et à la domination de Rome."
+      "question": "Quelle réforme Jules César introduit-il en 46 av. J.-C., encore partiellement en usage aujourd'hui ?",
+      "answers": ["Le système décimal", "Le droit romain codifié", "Le calendrier julien", "La monnaie unique impériale"],
+      "correctIndex": 2,
+      "explanation": "César réforme le calendrier romain, alors profondément désynchronisé des saisons, en adoptant un calendrier solaire de 365 jours avec une année bissextile tous les quatre ans — conçu par l'astronome alexandrin Sosigène. Ce calendrier julien reste en usage en Europe jusqu'à la réforme grégorienne de 1582, et est encore utilisé par certaines Églises orthodoxes aujourd'hui. Le mois de juillet (julius) porte d'ailleurs le nom de César."
     },
     {
       "id": "4",
-      "question": "Quel célèbre général romain a conquis la Gaule ?",
-      "answers": ["Auguste", "Néron", "Jules César", "Marc Antoine"],
+      "question": "Aux Ides de mars 44 av. J.-C., combien de coups de poignard Jules César reçoit-il lors de son assassinat au Sénat ?",
+      "answers": ["7", "14", "23", "44"],
       "correctIndex": 2,
-      "explanation": "Jules César conquiert la Gaule entre 58 et 51 av. J.-C., comme il le raconte dans ses 'Commentaires sur la guerre des Gaules'. Cette conquête renforce considérablement son pouvoir politique à Rome."
+      "explanation": "L'autopsie pratiquée par le médecin Antistius — l'une des premières de l'histoire — révèle 23 coups de poignard, dont un seul mortel, au niveau du thorax. César est poignardé par une vingtaine de sénateurs, dont Brutus et Cassius, qui craignent qu'il ne veuille restaurer la royauté. Sa mort déclenche vingt ans de guerres civiles, qui s'achèvent par la victoire d'Octave — futur Auguste — sur Marc Antoine et Cléopâtre."
     },
     {
       "id": "5",
-      "question": "Quel bâtiment accueillait les combats de gladiateurs ?",
-      "answers": ["Le Colisée", "Le Sénat", "Le forum", "Le temple"],
-      "correctIndex": 0,
-      "explanation": "Le Colisée, inauguré au Ier siècle, pouvait accueillir jusqu’à 50 000 spectateurs. Les combats de gladiateurs faisaient partie des 'jeux' organisés pour divertir le peuple et affirmer le pouvoir impérial."
+      "question": "Quelle devise latine, gravée sur les étendards et les monuments romains, résume l'autorité politique de Rome ?",
+      "answers": ["Veni, vidi, vici", "Alea jacta est", "SPQR", "Roma invicta"],
+      "correctIndex": 2,
+      "explanation": "SPQR — Senatus Populusque Romanus, « le Sénat et le peuple romain » — symbolise le principe fondateur de la République : le pouvoir partagé entre les institutions et les citoyens. Cette devise figure sur les enseignes militaires, les bâtiments officiels et les monnaies. Elle est encore aujourd'hui le symbole officiel de la ville de Rome, visible sur les plaques d'égout et les bâtiments municipaux."
     },
     {
       "id": "6",
-      "question": "Quelle langue parlaient les Romains ?",
-      "answers": ["Grec", "Latin", "Araméen", "Égyptien"],
-      "correctIndex": 1,
-      "explanation": "Le latin est la langue officielle de Rome. Il évoluera plus tard en langues romanes comme le français, l’espagnol ou l’italien, ce qui montre l’héritage durable de la civilisation romaine."
+      "question": "Sous quel emperor l'Empire romain atteint-il son extension territoriale maximale, avec la conquête de la Dacie et une avancée temporaire en Mésopotamie ?",
+      "answers": [
+        "En conquérant la Bretagne et l'Irlande",
+        "Sous Auguste, par la diplomatie",
+        "Sous Trajan, entre 98 et 117 apr. J.-C.",
+        "Sous Hadrien, par consolidation des frontières"
+      ],
+      "correctIndex": 2,
+      "explanation": "Trajan conquiert la Dacie (actuelle Roumanie) en deux guerres (101-102 et 105-106), dont les épisodes sont gravés en spirale sur la colonne Trajane à Rome. Il pousse ensuite vers l'est, atteignant la Mésopotamie (actuel Irak) — une conquête temporaire, abandonnée par son successeur Hadrien. À la mort de Trajan en 117, l'Empire atteint sa superficie maximale : environ 5 millions de km²."
     },
     {
       "id": "7",
-      "question": "Qui dirigeait Rome avant les empereurs ?",
-      "answers": ["Des rois", "Des sénateurs", "Des consuls", "Des empereurs"],
-      "correctIndex": 2,
-      "explanation": "Sous la République (509–27 av. J.-C.), Rome est gouvernée par deux consuls élus chaque année. Ils partagent le pouvoir pour éviter toute tyrannie, avec le Sénat comme institution centrale."
+      "question": "Quel emperor fait construire un mur de 118 km dans le nord de la Bretagne (actuelle Angleterre) pour marquer la frontière de l'Empire ?",
+      "answers": ["Trajan", "Hadrien", "Marc Aurèle", "Dioclétien"],
+      "correctIndex": 1,
+      "explanation": "Le mur d'Hadrien, construit à partir de 122 apr. J.-C. sur ordre de l'emperor Hadrien, traverse l'Angleterre d'est en ouest sur 118 km. Il ne s'agit pas uniquement d'une défense militaire : c'est un outil de contrôle des flux de personnes et de marchandises, ponctué de forts, de tours de guet et de portes. Il marque la décision d'Hadrien de consolider les frontières existantes plutôt que de poursuivre l'expansion."
     },
     {
       "id": "8",
-      "question": "Quel est le nom du célèbre amphithéâtre de Rome ?",
-      "answers": ["Le Parthénon", "Le Colisée", "Le Panthéon", "Le Circus Maximus"],
+      "question": "En quelle année le Colisée est-il inauguré, et quelle est sa capacité d'accueil estimée ?",
+      "answers": [
+        "En 27 av. J.-C., 30 000 spectateurs",
+        "En 80 apr. J.-C., 50 000 à 65 000 spectateurs environ",
+        "En 117 apr. J.-C., 80 000 spectateurs",
+        "En 212 apr. J.-C., 100 000 spectateurs"
+      ],
       "correctIndex": 1,
-      "explanation": "Le Colisée est un amphithéâtre destiné aux spectacles violents comme les combats de gladiateurs ou les chasses d’animaux. Il symbolise la puissance et la richesse de l’Empire romain."
+      "explanation": "Le Colisée (Amphithéâtre Flavien) est inauguré en 80 apr. J.-C. par l'emperor Titus, avec cent jours de jeux consécutifs. Il peut accueillir entre 50 000 et 65 000 spectateurs environ, répartis selon leur rang social — les sénateurs au plus près de l'arène, la plèbe en hauteur. Sous l'arène, un réseau de couloirs et de treuils permettait de faire monter gladiateurs et animaux directement dans le sable."
     },
     {
       "id": "9",
-      "question": "Quel empereur est connu pour avoir persécuté les chrétiens ?",
-      "answers": ["Auguste", "Trajan", "Néron", "Hadrien"],
-      "correctIndex": 2,
-      "explanation": "Néron accuse les chrétiens d’avoir incendié Rome en 64 apr. J.-C. et lance des persécutions brutales. Cet épisode contribue à l’image controversée de son règne dans l’histoire."
+      "question": "Quel emperor déclare le christianisme religion officielle de l'Empire romain en 380 apr. J.-C. ?",
+      "answers": ["Julien l'Apostat", "Constantin", "Valentinien Ier", "Théodose Ier"],
+      "correctIndex": 3,
+      "explanation": "C'est Théodose Ier qui, par l'édit de Thessalonique (380 apr. J.-C.), fait du christianisme nicéen la seule religion officielle de l'Empire. Constantin avait légalisé le christianisme par l'édit de Milan en 313 — ce qui est différent : la tolérance n'est pas l'imposition. Théodose interdit ensuite les cultes païens en 391, fermant les temples et mettant fin aux Jeux olympiques antiques après plus de mille ans d'existence."
     },
     {
       "id": "10",
-      "question": "Que représente le SPQR ?",
-      "answers": ["Le peuple et le Sénat romain", "Une armée romaine", "Un dieu romain", "Une loi impériale"],
-      "correctIndex": 0,
-      "explanation": "SPQR signifie 'Senatus Populusque Romanus' (le Sénat et le peuple romain). Cette devise symbolise l’autorité politique de Rome et apparaît sur les monuments, les étendards et les documents officiels."
+      "question": "Quel chef germanique dépose en 476 apr. J.-C. Romulus Augustule, mettant fin à l'Empire romain d'Occident ?",
+      "answers": ["Alaric", "Odoacre", "Attila", "Théodoric"],
+      "correctIndex": 1,
+      "explanation": "Odoacre, chef des Hérules, dépose le jeune Romulus Augustule en 476 — date retenue par convention comme fin de l'Empire romain d'Occident et de l'Antiquité. Il envoie les insignes impériaux à Constantinople, signifiant qu'un second emperor n'est plus nécessaire en Occident. L'Empire romain d'Orient (Byzance) survit quant à lui jusqu'en 1453, date de la prise de Constantinople par les Ottomans."
     },
     {
       "id": "11",
-      "question": "Quel peuple était l’ennemi principal de Rome pendant les guerres puniques ?",
-      "answers": ["Les Grecs", "Les Égyptiens", "Les Gaulois", "Les Carthaginois"],
-      "correctIndex": 3,
-      "explanation": "Les guerres puniques (264–146 av. J.-C.) opposent Rome à Carthage. Le général carthaginois Hannibal est célèbre pour avoir traversé les Alpes avec des éléphants pour attaquer Rome."
+      "question": "Quelle prouesse technique permet aux Romains d'alimenter leurs villes en eau courante sur des dizaines de kilomètres ?",
+      "answers": ["Les aqueducs", "Les nories à roue", "Les siphons inversés", "Les puits artésiens"],
+      "correctIndex": 0,
+      "explanation": "Les aqueducs romains transportent l'eau par gravité grâce à une pente calculée avec une précision remarquable (environ 30 cm par kilomètre). Rome compte onze aqueducs majeurs alimentant plus d'un million d'habitants, 1 000 fontaines publiques et 900 thermes. Le Pont du Gard (actuelle France), haut de 49 mètres, est le vestige le plus spectaculaire de cette ingénierie hydraulique, inscrit au patrimoine mondial de l'UNESCO."
     },
     {
       "id": "12",
-      "question": "Quel empereur a construit un mur en Bretagne ?",
-      "answers": ["Hadrien", "Auguste", "Néron", "Trajan"],
-      "correctIndex": 0,
-      "explanation": "Le mur d’Hadrien, construit au IIe siècle, marque la frontière nord de l’Empire en Bretagne (actuelle Angleterre). Il servait à contrôler les déplacements et à se protéger des peuples du nord."
+      "question": "Quel philosophe-emperor, auteur des 'Pensées' en grec, incarne l'idéal stoïcien du souverain sage au IIe siècle ?",
+      "answers": ["Hadrien", "Julien l'Apostat", "Marc Aurèle", "Sénèque"],
+      "correctIndex": 2,
+      "explanation": "Marc Aurèle (161-180 apr. J.-C.) rédige ses 'Pensées' (Meditations) en grec — langue de la philosophie — comme un journal intime de réflexions stoïciennes, sans intention de publication. Il y explore le devoir, la mort, la maîtrise de soi et la fragilité du pouvoir. Philosophe contraint d'être emperor, il passe la majeure partie de son règne à combattre les invasions barbares sur le Danube, loin de la quiétude qu'il recherchait."
     },
     {
       "id": "13",
-      "question": "Quel système permettait d’apporter l’eau dans les villes ?",
-      "answers": ["Les aqueducs", "Les routes", "Les ponts", "Les canaux"],
-      "correctIndex": 0,
-      "explanation": "Les aqueducs transportaient l’eau sur des dizaines de kilomètres grâce à une pente très précise. Ils alimentaient fontaines, thermes et habitations, illustrant le haut niveau d’ingénierie romaine."
+      "question": "Quelle révolte d'esclaves, menée par un gladiateur thrace, tient Rome en échec pendant deux ans (73-71 av. J.-C.) ?",
+      "answers": [
+        "La révolte de Simon Bar-Kokhba",
+        "La révolte de Tacfarinas",
+        "La révolte de Spartacus",
+        "La révolte de Vercingétorix"
+      ],
+      "correctIndex": 2,
+      "explanation": "Spartacus, gladiateur d'origine thrace, s'échappe de l'école de gladiateurs de Capoue en 73 av. J.-C. avec 78 compagnons. Il rassemble rapidement une armée de 120 000 esclaves fugitifs qui tient l'Italie en échec pendant deux ans. Finalement vaincu par Crassus en 71 av. J.-C., 6 000 esclaves survivants sont crucifiés le long de la voie Appienne entre Capoue et Rome — supplice délibérément spectaculaire pour décourager toute rébellion future."
     },
     {
       "id": "14",
-      "question": "Quel dieu est l’équivalent romain de Zeus ?",
-      "answers": ["Mars", "Jupiter", "Neptune", "Apollon"],
-      "correctIndex": 1,
-      "explanation": "Jupiter est le dieu suprême du panthéon romain. Il correspond à Zeus chez les Grecs, montrant l’influence directe de la mythologie grecque sur la religion romaine."
+      "question": "Quel monument romain, temple dédié à tous les dieux, possède un dôme de 43 mètres de diamètre resté le plus grand du monde pendant 1 300 ans ?",
+      "answers": ["Le temple de Jupiter Capitolin", "La basilique de Maxence", "Le Panthéon", "Le temple de Vesta"],
+      "correctIndex": 2,
+      "explanation": "Le Panthéon, reconstruit par Hadrien vers 125 apr. J.-C., possède un dôme en béton de 43,3 mètres de diamètre, percé en son sommet d'un oculus de 9 mètres ouvert sur le ciel — la seule source de lumière. Ce dôme reste le plus grand du monde jusqu'à la construction de Santa Maria del Fiore à Florence en 1436. Le bâtiment est l'édifice antique le mieux conservé de Rome, grâce à sa transformation en église chrétienne dès le VIIe siècle."
     },
     {
       "id": "15",
-      "question": "Quel événement marque la chute de l’Empire romain d’Occident ?",
-      "answers": ["La chute de Rome en 476", "La mort de César", "La fondation de Rome", "Les guerres puniques"],
-      "correctIndex": 0,
-      "explanation": "En 476, le chef germanique Odoacre dépose le dernier empereur romain d’Occident, Romulus Augustule. Cet événement marque traditionnellement la fin de l’Antiquité en Europe."
+      "question": "Comment s'appelle la grande arène de Rome, longue de 600 mètres, où se déroulaient les courses de chars devant plus de 150 000 spectateurs ?",
+      "answers": ["La palestre du Colisée", "L'amphithéâtre de Pompée", "Le stade de Domitien", "Le Circus Maximus"],
+      "correctIndex": 3,
+      "explanation": "Le Circus Maximus, dans la vallée entre le Palatin et l'Aventin, est le plus grand édifice de spectacle du monde antique. Long de 600 mètres, il peut accueillir entre 150 000 et 250 000 spectateurs selon les sources. Les courses de chars (quadriges) y suscitent une passion comparable au football moderne : les aurigès (conducteurs de chars) sont des célébrités, les factions (Bleus, Verts, Rouges, Blancs) ont leurs supporters fanatiques."
     },
     {
       "id": "16",
-      "question": "Qui étaient les gladiateurs ?",
-      "answers": ["Des soldats", "Des esclaves combattants", "Des empereurs", "Des sénateurs"],
-      "correctIndex": 1,
-      "explanation": "Les gladiateurs étaient souvent des esclaves ou des prisonniers de guerre formés dans des écoles spécialisées. Certains devenaient célèbres et pouvaient même gagner leur liberté."
+      "question": "Quel emperor divise l'Empire romain en deux parties en 285 apr. J.-C. pour mieux l'administrer ?",
+      "answers": ["Dioclétien", "Constantin", "Valentinien Ier", "Théodose Ier"],
+      "correctIndex": 0,
+      "explanation": "Dioclétien institue la Tétrarchie en 285 apr. J.-C. : l'Empire est divisé en deux moitiés (Orient et Occident), chacune gouvernée par un Auguste assisté d'un César. Cette réforme administrative vise à mieux défendre les longues frontières et à lutter contre l'instabilité politique chronique du IIIe siècle, durant lequel une cinquantaine d'empereurs se succèdent en cinquante ans. La division préfigure la séparation définitive de 395."
     },
     {
       "id": "17",
-      "question": "Quel était le centre de la vie publique à Rome ?",
-      "answers": ["Le Colisée", "Le forum", "Le temple", "Le palais"],
-      "correctIndex": 1,
-      "explanation": "Le forum romain est le centre politique, judiciaire et commercial. On y trouve des temples, des basiliques et des lieux de débat, ce qui en fait le cœur de la vie civique."
+      "question": "Quelle catastrophe naturelle ensevelit les villes de Pompéi et Herculanum en 79 apr. J.-C. ?",
+      "answers": [
+        "Un tremblement de terre",
+        "Une inondation du Tibre",
+        "Une éruption du Vésuve",
+        "Un incendie criminel"
+      ],
+      "correctIndex": 2,
+      "explanation": "Le Vésuve entre en éruption le 24 août 79 apr. J.-C., ensevelissant Pompéi sous 4 à 6 mètres de cendres et Herculanum sous une coulée pyroclastique. Les victimes retrouvées à Pompéi sont « moulées » dans les cendres, donnant des images saisissantes de leurs derniers instants. L'éruption est décrite par Pline le Jeune dans deux lettres adressées à Tacite — premier témoignage oculaire détaillé d'une catastrophe volcanique dans l'histoire."
     },
     {
       "id": "18",
-      "question": "Quel empereur a rendu le christianisme légal ?",
-      "answers": ["Néron", "Auguste", "Constantin", "Trajan"],
-      "correctIndex": 2,
-      "explanation": "Constantin légalise le christianisme avec l’édit de Milan en 313. Cette décision marque un tournant majeur dans l’histoire religieuse de l’Empire."
+      "question": "Quel réseau de voies pavées, long de plus de 80 000 km, structure l'Empire et donne naissance à l'expression 'tous les chemins mènent à Rome' ?",
+      "answers": ["Les cursus publicus", "Les limes", "Les decumanus", "Les voies romaines"],
+      "correctIndex": 3,
+      "explanation": "Le réseau de voies romaines, qui atteint 80 000 km de routes pavées à son apogée, est le système routier le plus élaboré du monde antique. Conçues d'abord pour les déplacements militaires (une légion pouvait y marcher 30 km par jour), les voies servent aussi au commerce et aux communications officielles. Beaucoup de routes européennes modernes suivent encore les tracés romains."
     },
     {
       "id": "19",
-      "question": "Quelle mer bordait l’Empire romain ?",
-      "answers": ["La mer Noire", "La mer Rouge", "La mer Méditerranée", "La mer Baltique"],
-      "correctIndex": 2,
-      "explanation": "Les Romains appelaient la Méditerranée 'Mare Nostrum' (notre mer), car elle reliait toutes les provinces de l’Empire et facilitait le commerce et les échanges."
+      "question": "Quel droit, codifié sous Justinien au VIe siècle, constitue le fondement des systèmes juridiques de la plupart des pays européens continentaux ?",
+      "answers": ["Le droit canonique", "Le droit romain", "Le droit coutumier germanique", "Le droit byzantin"],
+      "correctIndex": 1,
+      "explanation": "Le 'Corpus juris civilis', compilé sous l'emperor byzantin Justinien entre 529 et 534, rassemble des siècles de jurisprudence romaine. Il pose des concepts fondamentaux toujours en vigueur : présomption d'innocence, distinction entre droit public et privé, contrats, propriété, succession. Le Code Napoléon (1804), lui-même largement inspiré du droit romain, a diffusé ces principes dans une grande partie du monde, des Amériques latines au Japon."
     },
     {
       "id": "20",
-      "question": "Comment s’appelait la grande arène pour les courses de chars ?",
-      "answers": ["Le Colisée", "Le Circus Maximus", "Le Panthéon", "Le forum"],
-      "correctIndex": 1,
-      "explanation": "Le Circus Maximus pouvait accueillir plus de 150 000 spectateurs. Les courses de chars y étaient extrêmement populaires et suscitaient une ferveur comparable à celle des grands événements sportifs modernes."
+      "question": "Quelle langue romane, héritière du latin vulgaire, est considérée comme ayant conservé le plus de traits grammaticaux du latin ?",
+      "answers": ["Le français", "L'espagnol", "L'italien", "Le roumain"],
+      "correctIndex": 3,
+      "explanation": "Le roumain, parlé dans l'ancienne province de Dacie conquise par Trajan, est considéré par de nombreux linguistes comme la langue romane ayant conservé le plus de traits grammaticaux du latin, notamment la déclinaison des noms (le latin avait six cas ; le roumain en conserve des traces). L'isolement géographique des Carpates a préservé le latin vulgaire de l'influence des langues germaniques qui ont fortement marqué le français ou l'espagnol."
     }
   ]
 }

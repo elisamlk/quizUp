@@ -1,9 +1,9 @@
 {
   "slug": "quiz-guerre-de-secession-americaine",
-  "title": "Quiz Histoire - La Guerre de Sécession américaine",
+  "title": "Quiz Histoire – La Guerre de Sécession américaine",
   "description": "Lincoln, esclavage, Nord contre Sud, Gettysburg... connais-tu vraiment la Guerre de Sécession ?",
   "publishedAt": "2026-06-05",
-  "descriptionSeo": "Plonge dans l’histoire de la Guerre de Sécession à travers 20 questions sur les grandes batailles, Abraham Lincoln, les États confédérés, l’abolition de l’esclavage et les conséquences du conflit. Chaque question est accompagnée d’explications détaillées pour mieux comprendre les causes, le déroulement et l’héritage de cette guerre qui a profondément transformé les États-Unis au XIXe siècle.",
+  "descriptionSeo": "Plonge dans l'histoire de la Guerre de Sécession à travers 20 questions sur les grandes batailles, Abraham Lincoln, les États confédérés, l'abolition de l'esclavage et les conséquences du conflit. Chaque question est accompagnée d'explications détaillées pour mieux comprendre les causes, le déroulement et l'héritage de cette guerre qui a profondément transformé les États-Unis au XIXe siècle.",
   "category": {
     "name": "Histoire",
     "slug": "histoire"
@@ -19,143 +19,238 @@
   "questions": [
     {
       "id": "1",
-      "question": "En quelle année débute la Guerre de Sécession ?",
-      "answers": ["1861", "1856", "1865", "1870"],
+      "question": "Quelle cause immédiate pousse la Caroline du Sud à faire sécession en décembre 1860 ?",
+      "answers": [
+        "L'élection de Lincoln",
+        "L'abolition de l'esclavage par le Congrès",
+        "L'attaque de Fort Sumter",
+        "Le refus d'admettre de nouveaux États esclavagistes"
+      ],
       "correctIndex": 0,
-      "explanation": "La Guerre de Sécession débute en 1861 après l’attaque confédérée contre Fort Sumter. Ce conflit oppose les États du Nord (l’Union) aux États du Sud ayant fait sécession. Il devient rapidement la guerre la plus meurtrière de l’histoire américaine."
+      "explanation": "L'élection de Lincoln en novembre 1860 — sans avoir remporté un seul État du Sud — convainc les États esclavagistes que leur modèle économique et social est menacé. Lincoln n'avait pourtant pas promis d'abolir l'esclavage là où il existait déjà, seulement d'en empêcher l'extension dans les nouveaux territoires. La Caroline du Sud fait sécession le 20 décembre 1860, suivie par dix autres États avant l'été 1861."
     },
     {
       "id": "2",
-      "question": "Quel président dirige les États-Unis pendant la majeure partie du conflit ?",
-      "answers": ["Andrew Johnson", "Abraham Lincoln", "Ulysses Grant", "James Buchanan"],
+      "question": "Quel événement du 12 avril 1861 marque le début officiel des hostilités ?",
+      "answers": [
+        "La première bataille de Bull Run",
+        "L'attaque confédérée sur Fort Sumter",
+        "La sécession de la Virginie",
+        "L'assassinat du gouverneur de Caroline du Sud"
+      ],
       "correctIndex": 1,
-      "explanation": "Abraham Lincoln est élu en 1860. Son opposition à l’extension de l’esclavage provoque l’inquiétude de plusieurs États du Sud. Son leadership pendant la guerre contribuera fortement à préserver l’unité du pays."
+      "explanation": "Fort Sumter, garnison fédérale dans le port de Charleston, est bombardée pendant 34 heures par les forces confédérées avant de capituler sans mort au combat. Cet acte d'agression galvanise le Nord : en quelques jours, 75 000 volontaires répondent à l'appel de Lincoln. Paradoxalement, c'est la Confédération qui tire la première, donnant à l'Union le bénéfice moral de la défense — stratégie diplomatique que Lincoln avait délibérément favorisée en refusant d'évacuer le fort."
     },
     {
       "id": "3",
-      "question": "Quel État est le premier à faire sécession de l'Union ?",
-      "answers": ["Virginie", "Texas", "Caroline du Nord", "Caroline du Sud"],
-      "correctIndex": 3,
-      "explanation": "La Caroline du Sud quitte l’Union en décembre 1860, peu après l’élection de Lincoln. Son départ entraîne rapidement celui d’autres États esclavagistes, conduisant à la création des États confédérés d’Amérique."
+      "question": "Quelle doctrine les États du Sud invoquent-ils pour justifier leur droit à la sécession ?",
+      "answers": [
+        "La doctrine Monroe",
+        "Le droit naturel de révolution",
+        "La souveraineté des États",
+        "Le principe de non-ingérence fédérale"
+      ],
+      "correctIndex": 2,
+      "explanation": "Les États sudistes affirment que l'Union est un pacte volontaire entre États souverains, dont chacun conserve le droit de se retirer. Cette doctrine de la 'souveraineté des États' (States' Rights) s'oppose à la vision unioniste selon laquelle la Constitution crée une nation indissoluble. Le débat est fondamentalement celui de l'esclavage : les mêmes États qui invoquent les droits des États réclamaient auparavant une loi fédérale forçant les États du Nord à rendre les esclaves fugitifs."
     },
     {
       "id": "4",
-      "question": "Comment appelle-t-on les États du Nord pendant le conflit ?",
-      "answers": ["Les Fédérés", "Les Confédérés", "L’Union", "Les Loyalistes"],
-      "correctIndex": 2,
-      "explanation": "Les États du Nord sont désignés sous le nom d’Union. Leur objectif principal est d’empêcher la dislocation des États-Unis. Avec le temps, l’abolition de l’esclavage devient également un enjeu central."
+      "question": "Pourquoi la bataille d'Antietam (septembre 1862) est-elle un double tournant militaire et politique ?",
+      "answers": [
+        "Elle détruit l'armée confédérée et libère Washington",
+        "Elle repousse Lee et permet d'annoncer la Proclamation d'émancipation",
+        "Elle ouvre la voie à la prise de Richmond",
+        "Elle provoque la démission de Robert E. Lee"
+      ],
+      "correctIndex": 1,
+      "explanation": "Antietam (17 septembre 1862) est la journée la plus meurtrière de l'histoire américaine : plus de 22 000 tués, blessés ou disparus en un seul jour. Tactiquement indécise, elle constitue une victoire stratégique de l'Union car elle stoppe l'invasion du Maryland par Lee. Lincoln attendait ce succès pour annoncer la Proclamation d'émancipation sans paraître agir en position de faiblesse. Elle dissuade aussi la France et le Royaume-Uni de reconnaître la Confédération."
     },
     {
       "id": "5",
-      "question": "Quelle ville devient la capitale des États confédérés ?",
-      "answers": ["Richmond", "Atlanta", "Charleston", "La Nouvelle-Orléans"],
-      "correctIndex": 0,
-      "explanation": "Richmond, en Virginie, devient la capitale de la Confédération en 1861. Sa proximité avec Washington en fait un objectif militaire majeur pour les armées de l’Union tout au long du conflit."
+      "question": "À quels esclaves la Proclamation d'émancipation de janvier 1863 s'applique-t-elle précisément ?",
+      "answers": [
+        "À tous les esclaves des États-Unis",
+        "Aux esclaves des États restés dans l'Union",
+        "Aux esclaves des États en rébellion",
+        "Aux esclaves des territoires non constitués en États"
+      ],
+      "correctIndex": 2,
+      "explanation": "La Proclamation d'émancipation ne libère que les esclaves des États confédérés — là précisément où Lincoln n'a aucune autorité réelle. Elle ne s'applique pas aux États esclavagistes restés dans l'Union (Kentucky, Missouri, Maryland, Delaware). Son importance est avant tout politique : elle transforme la guerre en croisade abolitionniste et décourage toute reconnaissance européenne de la Confédération. L'abolition totale viendra avec le 13e amendement en décembre 1865."
     },
     {
       "id": "6",
-      "question": "Quel général commande principalement les armées confédérées ?",
-      "answers": ["William Sherman", "Robert E. Lee", "George Meade", "Ulysses Grant"],
-      "correctIndex": 1,
-      "explanation": "Robert E. Lee est le commandant militaire le plus célèbre du Sud. Malgré des ressources limitées, ses talents stratégiques permettent à la Confédération de remporter plusieurs victoires spectaculaires contre des forces souvent plus nombreuses."
+      "question": "Quelle charge désastreuse scelle la défaite confédérée lors du dernier jour de Gettysburg ?",
+      "answers": [
+        "La charge de Pickett",
+        "La charge de Stuart",
+        "La charge de Longstreet",
+        "La charge de Hood"
+      ],
+      "correctIndex": 0,
+      "explanation": "Le 3 juillet 1863, Lee ordonne à environ 12 500 soldats commandés par le général Pickett de traverser 1,4 km de terrain découvert pour attaquer le centre de la ligne de l'Union. Plus de la moitié sont tués, blessés ou capturés en moins d'une heure. Lee déclare : 'C'est ma faute.' Gettysburg coûte à la Confédération 28 000 hommes en trois jours — des pertes irremplaçables. Lee ne lancera plus jamais d'offensive majeure en territoire nordiste."
     },
     {
       "id": "7",
-      "question": "Quelle bataille est souvent considérée comme le tournant du conflit ?",
-      "answers": ["Antietam", "Bull Run", "Gettysburg", "Shiloh"],
-      "correctIndex": 2,
-      "explanation": "La bataille de Gettysburg en juillet 1863 marque l'échec de l'invasion du Nord par Robert E. Lee. Après cette défaite, la Confédération perd progressivement l’initiative stratégique et ne lancera plus de grande offensive au Nord."
+      "question": "Quel est l'enjeu stratégique de la prise de Vicksburg par Grant en juillet 1863 ?",
+      "answers": [
+        "Isoler la Confédération de ses alliés européens",
+        "Couper la Confédération en deux via le Mississippi",
+        "Ouvrir la route vers Atlanta",
+        "Priver la Confédération de sa capitale"
+      ],
+      "correctIndex": 1,
+      "explanation": "Vicksburg tombe le 4 juillet 1863 — un jour après Gettysburg — après un siège de 47 jours. Sa chute donne à l'Union le contrôle total du Mississippi, coupant la Confédération en deux : le Texas, la Louisiane et l'Arkansas sont désormais isolés du reste. Lincoln déclare : 'Le père des eaux coule à nouveau jusqu'à la mer.' Ces deux victoires simultanées constituent le véritable tournant de la guerre."
     },
     {
       "id": "8",
-      "question": "Quel document proclame la libération des esclaves dans les États rebelles ?",
-      "answers": ["Le Bill of Rights", "La Constitution confédérée", "Le Compromis du Missouri", "La Proclamation d'émancipation"],
-      "correctIndex": 3,
-      "explanation": "La Proclamation d’émancipation entre en vigueur en 1863. Elle ne libère pas immédiatement tous les esclaves, mais elle transforme profondément le sens politique de la guerre en faisant de l’abolition un objectif officiel."
+      "question": "Quelle tactique Sherman applique-t-il lors de sa 'marche vers la mer' en 1864 ?",
+      "answers": [
+        "La guérilla urbaine",
+        "Le blocus naval des ports sudistes",
+        "La guerre totale contre les infrastructures du Sud",
+        "L'encerclement sans engagement direct"
+      ],
+      "correctIndex": 2,
+      "explanation": "Sherman mène 60 000 hommes d'Atlanta à Savannah en appliquant la 'guerre totale' : détruire les voies ferrées, les entrepôts, les plantations et les infrastructures sur une bande de 90 km de large. Il prive ainsi l'armée de Lee de ses approvisionnements et brise le moral civil. Cette doctrine — frapper les ressources et la volonté de résistance plutôt que les seules armées — influence profondément la stratégie militaire moderne."
     },
     {
       "id": "9",
-      "question": "Quel fort est attaqué au début du conflit ?",
-      "answers": ["Fort Sumter", "Fort Knox", "Fort Monroe", "Fort McHenry"],
-      "correctIndex": 0,
-      "explanation": "L’attaque de Fort Sumter, dans le port de Charleston, marque le début officiel des hostilités. Avant cet événement, les tensions étaient déjà extrêmes mais la guerre n’avait pas encore éclaté."
+      "question": "Quel amendement abolit définitivement l'esclavage sur l'ensemble du territoire américain en décembre 1865 ?",
+      "answers": ["Le 12e amendement", "Le 13e amendement", "Le 14e amendement", "Le 15e amendement"],
+      "correctIndex": 1,
+      "explanation": "Le 13e amendement, ratifié le 6 décembre 1865, interdit l'esclavage et la servitude involontaire sur l'ensemble du territoire américain. Il complète la Proclamation d'émancipation de 1863, qui ne s'appliquait qu'aux États en rébellion. Le 14e amendement (1868) accordera la citoyenneté aux anciens esclaves, et le 15e (1870) leur droit de vote — droits que les lois Jim Crow s'emploieront à vider de leur substance pendant près d'un siècle."
     },
     {
       "id": "10",
-      "question": "Quel général de l’Union deviendra plus tard président des États-Unis ?",
-      "answers": ["George Meade", "Ulysses Grant", "George McClellan", "Philip Sheridan"],
-      "correctIndex": 1,
-      "explanation": "Après avoir conduit les armées de l’Union à la victoire, Ulysses Grant est élu président en 1868. Son prestige militaire joue un rôle déterminant dans sa carrière politique."
+      "question": "Quel avantage structurel décisif le Nord détient-il sur le Sud au début de la guerre ?",
+      "answers": [
+        "Une flotte de guerre deux fois plus grande",
+        "Une population deux fois supérieure uniquement",
+        "Un réseau ferroviaire et une industrie dominants",
+        "Un soutien diplomatique européen assuré"
+      ],
+      "correctIndex": 2,
+      "explanation": "En 1861, le Nord possède environ 35 000 km de voies ferrées contre 14 000 pour le Sud, et 92 % de la capacité industrielle manufacturière nationale. Ces inégalités condamnent la Confédération à une stratégie défensive : infliger assez de pertes au Nord pour lasser son opinion publique, plutôt qu'espérer une victoire militaire totale. Le Nord dispose aussi de 70 % de la population totale, ce qui lui assure un réservoir de recrues bien supérieur."
     },
     {
       "id": "11",
-      "question": "Quelle était l'une des principales causes du conflit ?",
-      "answers": ["La conquête du Canada", "La question de l’esclavage", "La guerre contre le Mexique", "La colonisation de l’Ouest"],
+      "question": "Pourquoi la Confédération espère-t-elle une reconnaissance diplomatique du Royaume-Uni et de la France ?",
+      "answers": [
+        "Ces pays partagent l'idéologie esclavagiste",
+        "Ils dépendent du coton sudiste",
+        "Ils ont des traités militaires avec le Sud",
+        "Leurs ressortissants combattent dans les rangs confédérés"
+      ],
       "correctIndex": 1,
-      "explanation": "L’esclavage constitue le principal sujet de désaccord entre le Nord et le Sud. Derrière les débats sur les droits des États se trouve surtout la question du maintien ou de l’extension de l’esclavage dans les nouveaux territoires."
+      "explanation": "Le Sud mise sur la 'diplomatie du coton' : 80 % du coton européen provient des États confédérés. Mais l'opinion publique européenne — profondément antiesclavagiste — rend cette reconnaissance politiquement impossible, surtout après la Proclamation d'émancipation de 1863. Aucun gouvernement européen ne peut publiquement soutenir un État esclavagiste contre une Union qui fait désormais de l'abolition un objectif de guerre explicite."
     },
     {
       "id": "12",
-      "question": "Combien d'États composent finalement la Confédération ?",
-      "answers": ["9", "10", "11", "13"],
-      "correctIndex": 2,
-      "explanation": "La Confédération regroupe 11 États ayant officiellement fait sécession. Cette alliance dispose d’une importante production agricole mais d’une base industrielle nettement inférieure à celle du Nord."
+      "question": "Dans quelles conditions les 180 000 soldats noirs de l'Union (USCT) servent-ils pendant la guerre ?",
+      "answers": [
+        "Dans des unités logistiques uniquement",
+        "Dans des unités séparées, souvent moins payés",
+        "Intégrés à parité dans les unités régulières",
+        "En défense des lignes arrière sans combats"
+      ],
+      "correctIndex": 1,
+      "explanation": "Les United States Colored Troops représentent environ 10 % de l'armée de l'Union à la fin de la guerre. Ils combattent dans des unités ségrégées, sous officiers blancs, et reçoivent initialement 10 dollars par mois contre 13 pour les soldats blancs — inégalité corrigée en 1864. Des unités comme le 54e régiment du Massachusetts se distinguent à Fort Wagner (juillet 1863). Les soldats noirs capturés par la Confédération risquent d'être réduits en esclavage ou exécutés."
     },
     {
       "id": "13",
-      "question": "Quel général mène la célèbre 'marche vers la mer' ?",
-      "answers": ["William Sherman", "Robert E. Lee", "Stonewall Jackson", "George Meade"],
-      "correctIndex": 0,
-      "explanation": "En 1864, William Sherman traverse la Géorgie jusqu’à Savannah. Cette campagne vise à détruire les infrastructures militaires et économiques du Sud afin d’accélérer la fin de la guerre."
+      "question": "Dans quel lieu et par qui Lincoln est-il assassiné, cinq jours après la reddition de Lee ?",
+      "answers": [
+        "À la Maison-Blanche, par un agent confédéré",
+        "Au Ford's Theatre, par John Wilkes Booth",
+        "À Richmond, lors d'une visite symbolique",
+        "Dans son train présidentiel, par un tireur embusqué"
+      ],
+      "correctIndex": 1,
+      "explanation": "Le 14 avril 1865, Lincoln assiste à une représentation au Ford's Theatre de Washington. L'acteur John Wilkes Booth, fervent partisan de la Confédération, lui tire une balle dans la nuque. Lincoln meurt le lendemain matin. Booth fait partie d'un complot visant simultanément le vice-président Johnson et le secrétaire d'État Seward. Il est abattu douze jours plus tard dans une grange de Virginie."
     },
     {
       "id": "14",
-      "question": "Quel amendement abolit définitivement l'esclavage aux États-Unis ?",
-      "answers": ["Le 10e", "Le 13e", "Le 15e", "Le 19e"],
-      "correctIndex": 1,
-      "explanation": "Ratifié en 1865, le 13e amendement interdit l’esclavage sur l’ensemble du territoire américain. Il représente l’un des changements constitutionnels les plus importants de l’histoire des États-Unis."
+      "question": "Quel discours de Lincoln, prononcé en novembre 1863, redéfinit les enjeux de la guerre ?",
+      "answers": [
+        "Le Second Discours inaugural",
+        "Le discours de la Maison divisée",
+        "L'Adresse de Gettysburg",
+        "Le discours sur l'état de l'Union de 1863"
+      ],
+      "correctIndex": 2,
+      "explanation": "L'Adresse de Gettysburg (272 mots, environ deux minutes) redéfinit le projet américain en affirmant que la guerre est un test de la capacité des démocraties à survivre. La formule finale — 'gouvernement du peuple, par le peuple, pour le peuple' — est depuis citée dans le monde entier. Lincoln avait prononcé ce discours lors de la dédicace du cimetière militaire de Gettysburg, après un long discours d'un autre orateur que l'histoire a oublié."
     },
     {
       "id": "15",
-      "question": "Quelle bataille est la plus meurtrière en une seule journée de l'histoire américaine ?",
-      "answers": ["Gettysburg", "Shiloh", "Antietam", "Vicksburg"],
+      "question": "Quel accord de 1877 met fin à la Reconstruction en retirant les troupes fédérales du Sud ?",
+      "answers": [
+        "Le traité d'Appomattox",
+        "L'amendement Compromise",
+        "Le Compromis de 1877",
+        "Le Pacte de réconciliation nationale"
+      ],
       "correctIndex": 2,
-      "explanation": "La bataille d’Antietam, en septembre 1862, fait plus de 20 000 victimes en une seule journée. Son issue permet à Lincoln d’annoncer la future Proclamation d’émancipation."
+      "explanation": "Le Compromis de 1877 met fin à la crise électorale de 1876 : les républicains obtiennent la présidence (Rutherford Hayes) en échange du retrait des dernières troupes fédérales du Sud. Cet accord abandonne les Afro-Américains aux gouvernements d'État blancs. S'ensuivent les lois Jim Crow, la ségrégation légale et la privation effective des droits civiques — une trahison dont les conséquences s'étendent jusqu'au mouvement des droits civiques des années 1960."
     },
     {
       "id": "16",
-      "question": "En quelle année la guerre prend-elle fin ?",
-      "answers": ["1863", "1864", "1866", "1865"],
-      "correctIndex": 3,
-      "explanation": "La guerre s’achève en 1865 avec la reddition de Robert E. Lee à Appomattox. Quelques semaines plus tard, Abraham Lincoln est assassiné, plongeant le pays dans une nouvelle période d’incertitude."
+      "question": "Combien de morts la Guerre de Sécession cause-t-elle selon les estimations historiques récentes ?",
+      "answers": [
+        "Environ 200 000 morts",
+        "Environ 360 000 morts côté Union",
+        "Entre 620 000 et 750 000 morts au total",
+        "Plus d'un million de morts"
+      ],
+      "correctIndex": 2,
+      "explanation": "Les estimations classiques donnaient 620 000 morts. Des recherches de 2011 réévaluent ce chiffre à 650 000-750 000, voire davantage. Les deux tiers des décès sont dus aux maladies — dysenterie, typhoïde, pneumonie — plutôt qu'aux combats. Ce bilan fait de la Guerre de Sécession le conflit le plus meurtrier de l'histoire américaine, avec plus de morts que dans toutes les autres guerres américaines combinées."
     },
     {
       "id": "17",
-      "question": "Quel était le principal avantage du Nord au début de la guerre ?",
-      "answers": ["Son industrie", "Son climat", "Son expérience militaire", "Son soutien européen"],
-      "correctIndex": 0,
-      "explanation": "Le Nord dispose d’une industrie beaucoup plus développée, d’un réseau ferroviaire plus dense et d’une population plus importante. Ces atouts économiques jouent un rôle décisif dans l’issue du conflit."
+      "question": "Quel général confédéré surnommé 'Stonewall' est accidentellement tué par ses propres troupes en 1863 ?",
+      "answers": [
+        "James Longstreet",
+        "Jeb Stuart",
+        "Thomas Jackson",
+        "A.P. Hill"
+      ],
+      "correctIndex": 2,
+      "explanation": "Thomas 'Stonewall' Jackson est blessé par le feu ami lors de la bataille de Chancellorsville (2 mai 1863) — sa plus grande victoire avec Lee. Amputé du bras gauche, il meurt huit jours plus tard d'une pneumonie. Lee déclare : 'J'ai perdu mon bras droit.' Jackson avait reçu son surnom lors de Bull Run (1861) pour sa résistance impassible. Sa mort prive la Confédération de son meilleur tacticien à un moment crucial."
     },
     {
       "id": "18",
-      "question": "Quel président confédéré dirige le Sud pendant la guerre ?",
-      "answers": ["Andrew Johnson", "Jefferson Davis", "John Breckinridge", "James Longstreet"],
+      "question": "Quel État-frontière esclavagiste, resté dans l'Union, est crucial pour Lincoln selon sa propre formule ?",
+      "answers": [
+        "La Virginie",
+        "Le Kentucky",
+        "La Géorgie",
+        "Le Tennessee"
+      ],
       "correctIndex": 1,
-      "explanation": "Jefferson Davis est élu président des États confédérés d’Amérique. Ancien sénateur et secrétaire à la Guerre, il tente de coordonner l’effort militaire du Sud malgré des ressources limitées."
+      "explanation": "Lincoln déclare : 'Je voudrais avoir Dieu de mon côté, mais il me faut le Kentucky.' L'État contrôle l'accès au Tennessee et au cœur du Sud via l'Ohio. Lincoln l'exclut délibérément de la Proclamation d'émancipation pour ne pas le pousser vers la Confédération. Le Missouri, le Maryland et le Delaware sont dans la même situation — des États 'frontière' dont la fidélité est cruciale et fragile."
     },
     {
       "id": "19",
-      "question": "Dans quel État se déroule la reddition de Robert E. Lee ?",
-      "answers": ["Maryland", "Pennsylvanie", "Virginie", "Kentucky"],
+      "question": "Dans quel lieu précis Robert E. Lee signe-t-il sa capitulation le 9 avril 1865 ?",
+      "answers": [
+        "Au Capitole de Richmond",
+        "Au QG de Grant à City Point",
+        "Dans la maison de Wilmer McLean à Appomattox",
+        "Au palais du gouverneur de Virginie"
+      ],
       "correctIndex": 2,
-      "explanation": "La reddition a lieu à Appomattox Court House, en Virginie, le 9 avril 1865. Cet événement symbolise la fin effective de la Guerre de Sécession, même si quelques combats isolés se poursuivent encore brièvement."
+      "explanation": "La capitulation est signée dans le salon d'un civil, Wilmer McLean, à Appomattox Court House. L'ironie : McLean avait quitté Manassas après Bull Run (1861) pour fuir la guerre — et c'est chez lui qu'elle se termine. Grant accorde des conditions généreuses : les soldats confédérés rentrent chez eux sans être faits prisonniers, en gardant leurs chevaux pour les labours du printemps, pour faciliter la réconciliation nationale."
     },
     {
       "id": "20",
-      "question": "Quel discours de Lincoln prononcé en 1863 est devenu l’un des plus célèbres de l’histoire américaine ?",
-      "answers": ["Le discours de Richmond", "Le discours de Washington", "Le discours d’Appomattox", "Le discours de Gettysburg"],
-      "correctIndex": 3,
-      "explanation": "Prononcé en seulement quelques minutes, le discours de Gettysburg est considéré comme un chef-d’œuvre politique. Lincoln y redéfinit la guerre comme un combat pour l’égalité et la survie de la démocratie américaine."
+      "question": "Quel concept désigne la période de réintégration des États du Sud dans l'Union après la guerre ?",
+      "answers": [
+        "La Restauration",
+        "La Réunification",
+        "La Reconstruction",
+        "La Réconciliation fédérale"
+      ],
+      "correctIndex": 2,
+      "explanation": "La Reconstruction (1865-1877) est la période durant laquelle le gouvernement fédéral tente de réintégrer les États sudistes et de définir le statut des 4 millions d'anciens esclaves. Elle est marquée par les 13e, 14e et 15e amendements, et par une résistance violente du Sud (Ku Klux Klan, fondé en 1865). Son abandon en 1877 laisse le Sud libre d'instaurer la ségrégation légale pendant près d'un siècle."
     }
   ]
 }
