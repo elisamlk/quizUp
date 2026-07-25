@@ -1,281 +1,161 @@
 {
-    "slug": "quiz-festivals-musique-histoire",
-    "title": "Quiz Musique - Les Festivals qui ont marqué l'histoire - 20 événements mythiques",
-    "description": "Teste tes connaissances sur les festivals, concerts et grands rassemblements musicaux qui ont marqué l'histoire.",
-    "publishedAt": "2026-06-17",
-    "descriptionSeo": "De Woodstock à Live Aid, en passant par Monterey Pop, Newport, Glastonbury, l'île de Wight, Montreux ou Tomorrowland, certains festivals ont changé l'histoire de la musique. Ce quiz te propose 20 questions pour redécouvrir les concerts mythiques, les moments de rupture, les grands rassemblements populaires et les événements qui ont marqué le rock, le jazz, la folk, le reggae, l'électro et la culture musicale mondiale.",
-    "category": {
-        "name": "Musique",
-        "slug": "musique"
+  "slug": "quiz-festivals-musique-histoire",
+  "title": "Quiz Musique - Les Festivals qui ont marqué l'histoire - 20 événements mythiques",
+  "description": "Teste tes connaissances sur les festivals, concerts et grands rassemblements musicaux qui ont marqué l'histoire.",
+  "publishedAt": "2026-06-17",
+  "descriptionSeo": "De Woodstock à Live Aid, en passant par Monterey Pop, Newport, Glastonbury, l'île de Wight, Montreux ou Tomorrowland, découvre les festivals et concerts qui ont changé l'histoire de la musique. Ce quiz de 20 questions retrace les grands rassemblements, les performances légendaires et les événements qui ont marqué le rock, le jazz, la folk, le reggae, l'électro et la culture musicale mondiale.",
+  "category": {
+    "name": "Musique",
+    "slug": "musique"
+  },
+  "createdAt": "2026-06-06",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1781436214/fstival_wb75rm.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1781436214/fstival_wb75rm.jpg",
+    "alt": "Quiz sur les festivals de musique qui ont marqué l'histoire"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "question": "En 1969, quel rassemblement musical devient l'un des grands symboles de la génération hippie aux États-Unis ?",
+      "answers": ["Woodstock", "Coachella", "Tomorrowland", "Hellfest"],
+      "correctIndex": 0,
+      "explanation": "Woodstock, organisé en août 1969 à Bethel dans l'État de New York, devient l'un des événements les plus célèbres de l'histoire de la musique. Il symbolise la contre-culture, la paix et l'esprit contestataire de la fin des années 1960. Paradoxalement, le festival se tenait non pas dans la ville de Woodstock mais à 70 kilomètres de là."
     },
-    "createdAt": "2026-06-06",
-    "isNew": true,
-    "isPopular": true,
-    "images": {
-        "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1781436214/fstival_wb75rm.jpg",
-        "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1781436214/fstival_wb75rm.jpg",
-        "alt": "Quiz sur les festivals de musique qui ont marqué l'histoire"
+    {
+      "id": "2",
+      "question": "Avant Woodstock, quel grand événement californien de 1967 contribue à révéler Jimi Hendrix, Janis Joplin et The Who au public américain ?",
+      "answers": ["Monterey Pop Festival", "Newport Jazz Festival", "Isle of Wight Festival", "Roskilde Festival"],
+      "correctIndex": 0,
+      "explanation": "Le Monterey Pop Festival, tenu en juin 1967, joue un rôle essentiel dans l'explosion du rock psychédélique. Jimi Hendrix y brûle sa guitare sur scène, Pete Townshend de The Who la fracasse, et Janis Joplin y conquiert définitivement le public américain."
     },
-    "questions": [
-        {
-            "id": "1",
-            "question": "En 1969, quel rassemblement musical devient l'un des grands symboles de la génération hippie aux États-Unis ?",
-            "image": null,
-            "answers": [
-                "Woodstock",
-                "Coachella",
-                "Tomorrowland",
-                "Hellfest"
-            ],
-            "correctIndex": 0,
-            "explanation": "Woodstock, organisé en août 1969, devient l'un des événements les plus célèbres de l'histoire de la musique. Il symbolise la contre-culture, la paix et l'esprit contestataire de la fin des années 1960."
-        },
-        {
-            "id": "2",
-            "question": "Avant Woodstock, quel grand événement californien de 1967 contribue à révéler Jimi Hendrix, Janis Joplin et The Who au public américain ?",
-            "image": null,
-            "answers": [
-                "Monterey Pop Festival",
-                "Newport Jazz Festival",
-                "Isle of Wight Festival",
-                "Roskilde Festival"
-            ],
-            "correctIndex": 0,
-            "explanation": "Le Monterey Pop Festival joue un rôle essentiel dans l'explosion du rock psychédélique. Il permet à plusieurs artistes majeurs de marquer durablement le public et la critique."
-        },
-        {
-            "id": "3",
-            "question": "Dans quel rendez-vous folk Bob Dylan provoque-t-il une vive controverse en jouant avec une guitare électrique en 1965 ?",
-            "image": null,
-            "answers": [
-                "Glastonbury Festival",
-                "Newport Folk Festival",
-                "Reading Festival",
-                "Lollapalooza"
-            ],
-            "correctIndex": 1,
-            "explanation": "Au Newport Folk Festival, Bob Dylan surprend une partie du public en abandonnant le son acoustique traditionnel pour une formation électrique. Ce moment symbolise l'évolution de la folk vers le rock."
-        },
-        {
-            "id": "4",
-            "question": "Quel guitariste livre à Woodstock une version électrique devenue mythique de l'hymne américain ?",
-            "image": null,
-            "answers": [
-                "Pete Townshend",
-                "Jimi Hendrix",
-                "Carlos Santana",
-                "Eric Clapton"
-            ],
-            "correctIndex": 1,
-            "explanation": "Jimi Hendrix marque Woodstock avec une interprétation expérimentale de l'hymne américain. Cette performance reste l'un des moments les plus célèbres de l'histoire du rock."
-        },
-        {
-            "id": "5",
-            "question": "En 1985, quel immense concert caritatif est organisé à Londres et à Philadelphie pour lutter contre la famine en Éthiopie ?",
-            "image": null,
-            "answers": [
-                "Farm Aid",
-                "Live Aid",
-                "One Love Peace Concert",
-                "Band Aid"
-            ],
-            "correctIndex": 1,
-            "explanation": "Live Aid réunit de nombreuses stars internationales et est suivi par des millions de téléspectateurs. L'événement devient un modèle de concert caritatif à l'échelle mondiale."
-        },
-        {
-            "id": "6",
-            "question": "Lors du Live Aid de 1985, quel groupe britannique impressionne le public avec une performance devenue légendaire ?",
-            "image": null,
-            "answers": [
-                "Oasis",
-                "Radiohead",
-                "Coldplay",
-                "Queen"
-            ],
-            "correctIndex": 3,
-            "explanation": "Queen, mené par Freddie Mercury, livre au Live Aid une prestation souvent citée parmi les plus grands concerts de l'histoire du rock. Le groupe réussit à captiver le stade de Wembley en quelques minutes."
-        },
-        {
-            "id": "7",
-            "question": "Dans le Somerset, quel grand rendez-vous britannique lancé en 1970 est devenu une référence mondiale des festivals ?",
-            "image": null,
-            "answers": [
-                "Glastonbury",
-                "Primavera Sound",
-                "Sziget",
-                "Rock Werchter"
-            ],
-            "correctIndex": 0,
-            "explanation": "Glastonbury commence en 1970 avant de devenir l'un des festivals les plus importants au monde. Il mêle musique, arts de rue, culture alternative et grands concerts populaires."
-        },
-        {
-            "id": "8",
-            "question": "Sur quelle île britannique se tient une édition mythique en 1970 avec Jimi Hendrix, The Who, The Doors et Leonard Cohen ?",
-            "image": null,
-            "answers": [
-                "Île de Wight",
-                "Île de Man",
-                "Jersey",
-                "Anglesey"
-            ],
-            "correctIndex": 0,
-            "explanation": "L'édition 1970 de l'Isle of Wight Festival attire une foule immense et une programmation exceptionnelle. Elle reste l'un des grands rassemblements rock de la période."
-        },
-        {
-            "id": "9",
-            "question": "Fondé en 1954, quel événement américain devient rapidement une référence incontournable pour les amateurs de jazz ?",
-            "image": null,
-            "answers": [
-                "Montreux Jazz Festival",
-                "North Sea Jazz Festival",
-                "Jazz à Vienne",
-                "Newport Jazz Festival"
-            ],
-            "correctIndex": 3,
-            "explanation": "Le Newport Jazz Festival s'impose dès les années 1950 comme un rendez-vous majeur du jazz. De nombreux musiciens légendaires y ont participé."
-        },
-        {
-            "id": "10",
-            "question": "En Suisse, quel rendez-vous musical fondé en 1967 s'est ouvert au fil du temps au jazz, au rock, à la soul et à la pop ?",
-            "image": null,
-            "answers": [
-                "Roskilde Festival",
-                "Sonar Festival",
-                "Montreux Jazz Festival",
-                "Main Square Festival"
-            ],
-            "correctIndex": 2,
-            "explanation": "Le Montreux Jazz Festival débute comme un festival de jazz avant d'accueillir de nombreux styles musicaux. Il devient l'un des événements les plus prestigieux d'Europe."
-        },
-        {
-            "id": "11",
-            "question": "Lors d'un concert en Jamaïque en 1978, Bob Marley réunit sur scène deux rivaux politiques dans un geste devenu historique. De quel événement s'agit-il ?",
-            "image": null,
-            "answers": [
-                "Reggae Sunsplash",
-                "One Love Peace Concert",
-                "Rototom Sunsplash",
-                "Sun City Festival"
-            ],
-            "correctIndex": 1,
-            "explanation": "Le One Love Peace Concert reste un moment fort de l'histoire du reggae. Bob Marley y fait monter sur scène Michael Manley et Edward Seaga pour une poignée de main symbolique."
-        },
-        {
-            "id": "12",
-            "question": "Au Danemark, quel grand rassemblement musical né au début des années 1970 est devenu l'un des plus importants d'Europe du Nord ?",
-            "image": null,
-            "answers": [
-                "Pukkelpop",
-                "Roskilde Festival",
-                "Rock am Ring",
-                "Eurockéennes"
-            ],
-            "correctIndex": 1,
-            "explanation": "Le Roskilde Festival est l'un des grands festivals européens. Il est reconnu pour sa programmation variée, son engagement culturel et son esprit communautaire."
-        },
-        {
-            "id": "13",
-            "question": "Quelle tournée alternative lancée en 1991 a contribué à populariser le rock alternatif, le punk, le rap et le metal auprès d'un large public ?",
-            "image": null,
-            "answers": [
-                "Coachella",
-                "Bonnaroo",
-                "Lollapalooza",
-                "Austin City Limits"
-            ],
-            "correctIndex": 2,
-            "explanation": "Lollapalooza naît en 1991 sous forme de tournée alternative. Le concept met en avant plusieurs scènes musicales émergentes et devient ensuite un festival majeur."
-        },
-        {
-            "id": "14",
-            "question": "Depuis 1999, quel événement californien est devenu l'un des grands symboles de la musique live et de la pop culture mondiale ?",
-            "image": null,
-            "answers": [
-                "Burning Man",
-                "Coachella",
-                "Ultra Music Festival",
-                "Outside Lands"
-            ],
-            "correctIndex": 1,
-            "explanation": "Coachella est devenu un événement majeur grâce à ses affiches prestigieuses, ses retrouvailles d'artistes, ses scénographies et son influence sur la mode et la pop culture."
-        },
-        {
-            "id": "15",
-            "question": "En Belgique, quel événement est aujourd'hui considéré comme l'une des plus grandes vitrines mondiales de la musique électronique ?",
-            "image": null,
-            "answers": [
-                "Tomorrowland",
-                "Primavera Sound",
-                "Hellfest",
-                "Rock en Seine"
-            ],
-            "correctIndex": 0,
-            "explanation": "Tomorrowland est devenu une référence mondiale de la musique électronique. Sa scénographie spectaculaire et sa programmation internationale attirent des fans venus du monde entier."
-        },
-        {
-            "id": "16",
-            "question": "À Miami, quel rendez-vous majeur accompagne depuis les années 1990 la montée en puissance des DJs et de la culture dance internationale ?",
-            "image": null,
-            "answers": [
-                "Newport Folk Festival",
-                "South by Southwest",
-                "Governors Ball",
-                "Ultra Music Festival"
-            ],
-            "correctIndex": 3,
-            "explanation": "L'Ultra Music Festival est l'un des grands événements mondiaux de la musique électronique. Il contribue à populariser la culture EDM auprès d'un public international."
-        },
-        {
-            "id": "17",
-            "question": "À Clisson, quel événement français attire chaque année les amateurs de metal et de musiques extrêmes ?",
-            "image": null,
-            "answers": [
-                "Vieilles Charrues",
-                "Hellfest",
-                "Francofolies",
-                "Printemps de Bourges"
-            ],
-            "correctIndex": 1,
-            "explanation": "Le Hellfest est devenu l'un des plus grands festivals européens consacrés au metal et aux musiques extrêmes. Il accueille des groupes majeurs et un public très international."
-        },
-        {
-            "id": "18",
-            "question": "À Carhaix, en Bretagne, quel festival populaire français s'est imposé comme l'un des plus grands du pays ?",
-            "image": null,
-            "answers": [
-                "Les Vieilles Charrues",
-                "Solidays",
-                "Rock en Seine",
-                "Garorock"
-            ],
-            "correctIndex": 0,
-            "explanation": "Les Vieilles Charrues sont devenues un rendez-vous incontournable de la scène française. Le festival propose une programmation très large, entre chanson, rock, pop, rap et musiques actuelles."
-        },
-        {
-            "id": "19",
-            "question": "À Barcelone, quel événement est réputé pour ses affiches internationales mêlant rock indépendant, pop alternative et musiques électroniques ?",
-            "image": null,
-            "answers": [
-                "Sziget",
-                "Primavera Sound",
-                "Mad Cool",
-                "Benicàssim"
-            ],
-            "correctIndex": 1,
-            "explanation": "Primavera Sound s'est imposé comme un festival influent pour les musiques indépendantes et alternatives. Il est reconnu pour la qualité et la diversité de sa programmation."
-        },
-        {
-            "id": "20",
-            "question": "Présenté comme une expérience musicale de luxe aux Bahamas, quel événement de 2017 s'est transformé en fiasco médiatique mondial ?",
-            "image": null,
-            "answers": [
-                "TomorrowWorld",
-                "Fyre Festival",
-                "Burning Man",
-                "Coachella"
-            ],
-            "correctIndex": 1,
-            "explanation": "Le Fyre Festival promettait une expérience exclusive aux Bahamas, mais l'organisation s'est effondrée dès l'arrivée des participants. Il est devenu un exemple célèbre d'échec événementiel et marketing."
-        }
-    ]
+    {
+      "id": "3",
+      "question": "Dans quel rendez-vous folk Bob Dylan provoque-t-il une vive controverse en jouant avec une guitare électrique en 1965 ?",
+      "answers": ["Glastonbury Festival", "Newport Folk Festival", "Reading Festival", "Lollapalooza"],
+      "correctIndex": 1,
+      "explanation": "Au Newport Folk Festival le 25 juillet 1965, Bob Dylan surprend une partie du public en abandonnant le son acoustique pour une formation électrique. Des huées s'élèvent dans la foule, et ce moment symbolise l'évolution de la folk vers le rock et l'émancipation d'une génération d'artistes."
+    },
+    {
+      "id": "4",
+      "question": "Quel guitariste livre à Woodstock une version électrique devenue mythique de l'hymne américain ?",
+      "answers": ["Pete Townshend", "Jimi Hendrix", "Carlos Santana", "Joan Baez"],
+      "correctIndex": 1,
+      "explanation": "Jimi Hendrix marque Woodstock avec une interprétation expérimentale de The Star-Spangled Banner au petit matin du 18 août 1969. Cette performance, avec ses distorsions évoquant les bombardements du Vietnam, reste l'un des moments les plus symboliques de l'histoire du rock."
+    },
+    {
+      "id": "5",
+      "question": "En 1985, quel immense concert caritatif est organisé à Londres et à Philadelphie pour lutter contre la famine en Éthiopie ?",
+      "answers": ["Farm Aid", "Live Aid", "One Love Peace Concert", "Band Aid"],
+      "correctIndex": 1,
+      "explanation": "Live Aid, organisé le 13 juillet 1985 par Bob Geldof et Midge Ure, réunit des dizaines de stars internationales à Wembley et au JFK Stadium de Philadelphie. Suivi par environ 1,5 milliard de téléspectateurs dans le monde, il devient le modèle des concerts caritatifs à grande échelle."
+    },
+    {
+      "id": "6",
+      "question": "Lors du Live Aid de 1985, quel groupe britannique livre une performance de 21 minutes devenue l'une des plus célèbres de l'histoire du rock ?",
+      "answers": ["Oasis", "Radiohead", "Coldplay", "Queen"],
+      "correctIndex": 3,
+      "explanation": "Queen, mené par Freddie Mercury, livre au Live Aid une prestation de 21 minutes souvent citée parmi les plus grandes performances de l'histoire du rock. En quelques chansons, dont Bohemian Rhapsody, Radio Ga Ga et We Will Rock You, le groupe réussit à captiver les 72 000 spectateurs de Wembley et des millions de téléspectateurs."
+    },
+    {
+      "id": "7",
+      "question": "Dans le Somerset, quel grand rendez-vous britannique lancé en 1970 par Michael Eavis est devenu une référence mondiale des festivals ?",
+      "answers": ["Glastonbury", "Primavera Sound", "Sziget", "Rock Werchter"],
+      "correctIndex": 0,
+      "explanation": "Glastonbury commence en septembre 1970 sur la ferme laitière de Michael Eavis à Pilton, dans le Somerset. Il devient progressivement l'un des festivals les plus importants au monde, mêlant musique, arts de rue, culture alternative et grands concerts populaires sur de nombreuses scènes."
+    },
+    {
+      "id": "8",
+      "question": "Sur quelle île britannique se tient en 1970 une édition mythique avec Jimi Hendrix, The Who, Joan Baez et Leonard Cohen ?",
+      "answers": ["Île de Wight", "Île de Man", "Jersey", "Anglesey"],
+      "correctIndex": 0,
+      "explanation": "L'édition 1970 de l'Isle of Wight Festival, qui aurait rassemblé jusqu'à 600 000 personnes, est l'une des plus grandes concentrations humaines de l'histoire du rock. Elle accueille notamment Jimi Hendrix lors de l'un de ses derniers grands concerts, The Who, Joan Baez, Leonard Cohen, Miles Davis et Jethro Tull."
+    },
+    {
+      "id": "9",
+      "question": "Fondé en 1954 à Newport, dans le Rhode Island, quel événement américain devient rapidement une référence incontournable pour les amateurs de jazz ?",
+      "answers": ["Montreux Jazz Festival", "North Sea Jazz Festival", "Jazz à Vienne", "Newport Jazz Festival"],
+      "correctIndex": 3,
+      "explanation": "Le Newport Jazz Festival, fondé par le producteur George Wein en 1954, s'impose dès les années 1950 comme le rendez-vous majeur du jazz américain. Miles Davis, Duke Ellington, Ella Fitzgerald et de nombreux autres légendes y ont marqué l'histoire du genre."
+    },
+    {
+      "id": "10",
+      "question": "En Suisse, quel rendez-vous musical fondé en 1967 par Claude Nobs s'est progressivement ouvert au jazz, au rock, à la soul et à la pop ?",
+      "answers": ["Roskilde Festival", "Sonar Festival", "Montreux Jazz Festival", "Main Square Festival"],
+      "correctIndex": 2,
+      "explanation": "Le Montreux Jazz Festival débute en 1967 comme un festival de jazz avant d'accueillir des artistes de styles très variés, de Deep Purple à Nina Simone en passant par Prince. L'incendie du casino de Montreux en 1971, immortalisé dans Smoke on the Water de Deep Purple, reste l'un des épisodes les plus célèbres de son histoire."
+    },
+    {
+      "id": "11",
+      "question": "Lors d'un concert à Kingston en 1978, Bob Marley réunit sur scène deux rivaux politiques jamaïcains dans un geste devenu historique. De quel événement s'agit-il ?",
+      "answers": ["Reggae Sunsplash", "One Love Peace Concert", "Rototom Sunsplash", "Sun City Festival"],
+      "correctIndex": 1,
+      "explanation": "Le One Love Peace Concert, tenu le 22 avril 1978 au National Stadium de Kingston, reste un moment fort de l'histoire du reggae et de la politique jamaïcaine. Bob Marley y fait monter sur scène le Premier ministre Michael Manley et le chef de l'opposition Edward Seaga pour une poignée de main symbolique, au plus fort des violences entre factions politiques."
+    },
+    {
+      "id": "12",
+      "question": "Au Danemark, quel grand rassemblement musical fondé en 1971 est devenu l'un des plus importants festivals d'Europe du Nord ?",
+      "answers": ["Pukkelpop", "Roskilde Festival", "Rock am Ring", "Eurockéennes"],
+      "correctIndex": 1,
+      "explanation": "Le Roskilde Festival, fondé en 1971 près de Copenhague, est l'un des grands festivals européens. Géré par une fondation à but non lucratif, il reverse ses bénéfices à des causes humanitaires et culturelles, ce qui lui confère une réputation d'engagement particulier dans le milieu des festivals."
+    },
+    {
+      "id": "13",
+      "question": "Quelle tournée alternative lancée en 1991 par Perry Farrell de Jane's Addiction a contribué à populariser le rock alternatif, le punk et le rap auprès d'un large public américain ?",
+      "answers": ["Coachella", "Bonnaroo", "Lollapalooza", "Austin City Limits"],
+      "correctIndex": 2,
+      "explanation": "Lollapalooza naît en 1991 sous forme de tournée itinérante initiée par Perry Farrell pour promouvoir des musiques alternatives alors peu représentées dans les grands médias. Il devient ensuite un festival permanent à Chicago, l'un des plus influents d'Amérique du Nord."
+    },
+    {
+      "id": "14",
+      "question": "Depuis 1999, quel événement du désert californien est devenu l'un des grands symboles de la musique live et de la pop culture mondiale ?",
+      "answers": ["Burning Man", "Coachella", "Ultra Music Festival", "Outside Lands"],
+      "correctIndex": 1,
+      "explanation": "Coachella, organisé depuis 1999 à Indio dans la vallée de Coachella, est devenu un événement mondial grâce à ses affiches prestigieuses, ses retrouvailles d'artistes, ses scénographies spectaculaires et son influence sur la mode et les tendances culturelles."
+    },
+    {
+      "id": "15",
+      "question": "En Belgique, à Boom, quel événement créé en 2005 est aujourd'hui considéré comme l'une des plus grandes vitrines mondiales de la musique électronique ?",
+      "answers": ["Tomorrowland", "Primavera Sound", "Hellfest", "Rock en Seine"],
+      "correctIndex": 0,
+      "explanation": "Tomorrowland, lancé en 2005 à Boom, est devenu une référence mondiale de la musique électronique. Sa scénographie spectaculaire, ses scènes monumentales et sa programmation internationale attirent des fans venus de plus de cent pays chaque année."
+    },
+    {
+      "id": "16",
+      "question": "À Miami, quel rendez-vous fondé en 1999 accompagne la montée en puissance des DJs et de la culture dance électronique internationale ?",
+      "answers": ["Newport Folk Festival", "South by Southwest", "Governors Ball", "Ultra Music Festival"],
+      "correctIndex": 3,
+      "explanation": "L'Ultra Music Festival, lancé en 1999 à Miami, est l'un des grands événements mondiaux de la musique électronique. Il a accompagné et amplifié l'essor de la culture EDM auprès d'un public international, contribuant à faire de Miami une capitale de la dance music."
+    },
+    {
+      "id": "17",
+      "question": "À Clisson, en Loire-Atlantique, quel événement français est devenu l'un des plus grands festivals de metal d'Europe ?",
+      "answers": ["Vieilles Charrues", "Hellfest", "Francofolies", "Printemps de Bourges"],
+      "correctIndex": 1,
+      "explanation": "Le Hellfest, organisé à Clisson depuis 2006, est devenu l'un des plus grands festivals européens consacrés au metal et aux musiques extrêmes. Il accueille chaque année des groupes majeurs venus du monde entier et attire un public très international, fidèle et passionné."
+    },
+    {
+      "id": "18",
+      "question": "À Carhaix-Plouguer, en Bretagne, quel festival fondé en 1992 s'est imposé comme l'un des plus grands de France ?",
+      "answers": ["Les Vieilles Charrues", "Solidays", "Rock en Seine", "Garorock"],
+      "correctIndex": 0,
+      "explanation": "Les Vieilles Charrues, fondées en 1992 à Carhaix-Plouguer dans le Finistère, sont devenues un rendez-vous incontournable de la scène française. Le festival propose une programmation très large, entre chanson, rock, pop, rap et musiques actuelles, tout en affichant un engagement territorial fort en Bretagne."
+    },
+    {
+      "id": "19",
+      "question": "À Barcelone, quel événement fondé en 2001 est réputé pour ses affiches mêlant rock indépendant, pop alternative et musiques électroniques ?",
+      "answers": ["Sziget", "Primavera Sound", "Mad Cool", "Benicàssim"],
+      "correctIndex": 1,
+      "explanation": "Primavera Sound, fondé en 2001 à Barcelone, s'est imposé comme l'un des festivals les plus influents pour les musiques indépendantes et alternatives. Il est reconnu pour la qualité et la cohérence de sa programmation, qui en fait une référence pour les professionnels et les amateurs du monde entier."
+    },
+    {
+      "id": "20",
+      "question": "Présenté comme une expérience musicale de luxe sur une île des Bahamas, quel événement de 2017 s'est transformé en fiasco médiatique mondial ?",
+      "answers": ["TomorrowWorld", "Fyre Festival", "Burning Man", "Coachella"],
+      "correctIndex": 1,
+      "explanation": "Le Fyre Festival, organisé en avril 2017 sur l'île de Great Exuma aux Bahamas, promettait une expérience exclusive avec des villas de luxe et des artistes internationaux. L'organisation s'est effondrée dès l'arrivée des participants, contraints de dormir sous des tentes de fortune. L'événement est devenu un cas d'école d'arnaque marketing, immortalisé par deux documentaires Netflix et Hulu."
+    }
+  ]
 }
