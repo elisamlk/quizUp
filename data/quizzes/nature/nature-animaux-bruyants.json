@@ -1,281 +1,161 @@
 {
-    "slug": "quiz-animaux-plus-bruyants",
-    "title": "Quiz Nature - Les Animaux les Plus Bruyants - 20 champions du vacarme",
-    "description": "Découvre les animaux capables de produire les sons les plus impressionnants du règne animal.",
-    "publishedAt": "2026-06-20",
-    "descriptionSeo": "Cachalot, baleine bleue, singe hurleur, lion, éléphant, cigale ou cacatoès : certains animaux produisent des sons incroyablement puissants. Teste tes connaissances avec ce quiz nature consacré aux animaux les plus bruyants du monde.",
-    "category": {
-        "name": "Nature",
-        "slug": "nature"
+  "slug": "quiz-animaux-plus-bruyants",
+  "title": "Quiz Nature - Les Animaux les Plus Bruyants - 20 champions du vacarme",
+  "description": "Découvre les animaux capables de produire les sons les plus impressionnants du règne animal.",
+  "publishedAt": "2026-06-20",
+  "descriptionSeo": "Cachalot, baleine bleue, singe hurleur, lion, éléphant, cigale ou cacatoès : certains animaux produisent des sons incroyablement puissants. Teste tes connaissances avec ce quiz nature consacré aux animaux les plus bruyants du monde.",
+  "category": {
+    "name": "Nature",
+    "slug": "nature"
+  },
+  "createdAt": "2026-06-15",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1781524961/nature-animaux_wizyoe.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1781524961/nature-animaux_wizyoe.jpg",
+    "alt": "Quiz sur les animaux les plus bruyants du monde"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "question": "Quel mammifère marin produit les sons biologiques les plus puissants mesurés dans le règne animal, dépassant 230 décibels à la source ?",
+      "answers": ["Orque", "Cachalot", "Baleine bleue", "Dauphin"],
+      "correctIndex": 1,
+      "explanation": "Le cachalot peut produire des clics dépassant 230 décibels à la source (source level) grâce à un organe situé dans son museau appelé le spermaceti. Ces sons lui permettent de localiser ses proies dans l'obscurité totale des grandes profondeurs océaniques, parfois à plus de 2 000 mètres."
     },
-    "createdAt": "2026-06-15",
-    "isNew": true,
-    "isPopular": true,
-    "images": {
-        "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1781524961/nature-animaux_wizyoe.jpg",
-        "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1781524961/nature-animaux_wizyoe.jpg",
-        "alt": "Quiz sur les animaux les plus bruyants du monde"
+    {
+      "id": "2",
+      "question": "Le rugissement de quel grand félin peut être entendu jusqu'à 8 km à la ronde dans la savane africaine ?",
+      "answers": ["Tigre", "Léopard", "Jaguar", "Lion"],
+      "correctIndex": 3,
+      "explanation": "Le rugissement du lion peut porter jusqu'à 8 km grâce à une structure spéciale dans ses cordes vocales qui lui permet d'émettre des sons très graves. Il sert à marquer un territoire, à maintenir le contact entre les membres d'une même troupe et à impressionner les rivaux."
     },
-    "questions": [
-        {
-            "id": "1",
-            "question": "Quel mammifère marin produit les sons les plus puissants connus dans le règne animal, utilisés pour l'écholocation et la chasse en profondeur ?",
-            "image": null,
-            "answers": [
-                "Orque",
-                "Cachalot",
-                "Baleine bleue",
-                "Dauphin"
-            ],
-            "correctIndex": 1,
-            "explanation": "Le cachalot peut produire des clics extrêmement puissants dépassant 230 décibels à la source. Ces sons lui permettent de localiser ses proies dans l'obscurité totale des grandes profondeurs océaniques."
-        },
-        {
-            "id": "2",
-            "question": "Quel géant des océans émet des vocalisations si graves qu'elles peuvent parcourir des centaines de kilomètres sous l'eau ?",
-            "image": null,
-            "answers": [
-                "Baleine à bosse",
-                "Orque",
-                "Baleine bleue",
-                "Béluga"
-            ],
-            "correctIndex": 2,
-            "explanation": "La baleine bleue utilise des sons très basse fréquence pour communiquer à de très grandes distances. Ses appels comptent parmi les plus puissants du monde animal."
-        },
-        {
-            "id": "3",
-            "question": "Quel cétacé est célèbre pour ses chants complexes qui évoluent au fil du temps et peuvent durer plusieurs minutes ?",
-            "image": null,
-            "answers": [
-                "Béluga",
-                "Baleine à bosse",
-                "Dauphin",
-                "Phoque à capuchon"
-            ],
-            "correctIndex": 1,
-            "explanation": "Les chants de la baleine à bosse fascinent les scientifiques depuis des décennies. Les mâles modifient progressivement leurs mélodies, créant de véritables traditions sonores."
-        },
-        {
-            "id": "4",
-            "question": "Surnommé le « canari des mers », quel mammifère marin est réputé pour son impressionnant répertoire de sifflements, clics et gazouillis ?",
-            "image": null,
-            "answers": [
-                "Orque",
-                "Béluga",
-                "Dauphin",
-                "Cachalot"
-            ],
-            "correctIndex": 1,
-            "explanation": "Le béluga est capable de produire une grande variété de sons. Cette richesse vocale lui vaut le surnom de « canari des mers »."
-        },
-        {
-            "id": "5",
-            "question": "Quel animal marin utilise des sifflements, des claquements et des sons ultrasoniques pour communiquer et se repérer ?",
-            "image": null,
-            "answers": [
-                "Dauphin",
-                "Orque",
-                "Phoque à capuchon",
-                "Baleine bleue"
-            ],
-            "correctIndex": 0,
-            "explanation": "Les dauphins disposent d'un système de communication très élaboré. Certains individus développent même un sifflement caractéristique comparable à une signature vocale."
-        },
-        {
-            "id": "6",
-            "question": "Quel prédateur marin vivant en groupes familiaux produit des cris puissants et variés pour coordonner ses activités ?",
-            "image": null,
-            "answers": [
-                "Béluga",
-                "Cachalot",
-                "Orque",
-                "Dauphin"
-            ],
-            "correctIndex": 2,
-            "explanation": "Les orques utilisent des dialectes propres à chaque groupe. Ces différences vocales jouent un rôle important dans la cohésion sociale des clans."
-        },
-        {
-            "id": "7",
-            "question": "Quel carnivore africain est connu pour ses rires sonores qui servent à communiquer au sein du groupe ?",
-            "image": null,
-            "answers": [
-                "Lion",
-                "Loup gris",
-                "Hyène tachetée",
-                "Guépard"
-            ],
-            "correctIndex": 2,
-            "explanation": "Le célèbre « rire » de la hyène tachetée est en réalité une forme de communication complexe utilisée dans différentes situations sociales."
-        },
-        {
-            "id": "8",
-            "question": "Le rugissement de quel grand félin peut être entendu à plusieurs kilomètres dans la savane ?",
-            "image": null,
-            "answers": [
-                "Tigre",
-                "Léopard",
-                "Jaguar",
-                "Lion"
-            ],
-            "correctIndex": 3,
-            "explanation": "Le rugissement du lion permet notamment de marquer un territoire et de maintenir le contact entre les membres d'une même troupe."
-        },
-        {
-            "id": "9",
-            "question": "Quel plus grand mammifère terrestre utilise des barrissements audibles mais aussi des infrasons imperceptibles pour l'être humain ?",
-            "image": null,
-            "answers": [
-                "Rhinocéros blanc",
-                "Hippopotame",
-                "Éléphant d'Afrique",
-                "Buffle d'Afrique"
-            ],
-            "correctIndex": 2,
-            "explanation": "L'éléphant d'Afrique communique grâce à des infrasons capables de parcourir plusieurs kilomètres, facilitant les échanges entre groupes éloignés."
-        },
-        {
-            "id": "10",
-            "question": "Quel canidé sauvage utilise hurlements et vocalisations collectives pour maintenir la cohésion de sa meute ?",
-            "image": null,
-            "answers": [
-                "Coyote",
-                "Loup gris",
-                "Chacal doré",
-                "Lycaon"
-            ],
-            "correctIndex": 1,
-            "explanation": "Le hurlement du loup gris sert à rassembler la meute, défendre le territoire et communiquer sur de longues distances."
-        },
-        {
-            "id": "11",
-            "question": "Quel primate d'Amérique centrale et du Sud est capable de se faire entendre à plusieurs kilomètres dans la forêt tropicale ?",
-            "image": null,
-            "answers": [
-                "Capucin",
-                "Singe hurleur",
-                "Ouistiti",
-                "Saki"
-            ],
-            "correctIndex": 1,
-            "explanation": "Le singe hurleur possède un os hyoïde particulièrement développé qui amplifie considérablement ses vocalisations."
-        },
-        {
-            "id": "12",
-            "question": "Quel petit singe arboricole d'Asie est célèbre pour ses chants puissants en duo, souvent entendus au lever du soleil ?",
-            "image": null,
-            "answers": [
-                "Macaque",
-                "Langur",
-                "Gibbon",
-                "Tarsier"
-            ],
-            "correctIndex": 2,
-            "explanation": "Les gibbons utilisent leurs chants pour défendre leur territoire et renforcer les liens entre partenaires."
-        },
-        {
-            "id": "13",
-            "question": "Quel perroquet nocturne de Nouvelle-Zélande produit de profonds appels graves pouvant porter sur plusieurs kilomètres pendant la saison de reproduction ?",
-            "image": null,
-            "answers": [
-                "Kakapo",
-                "Ara bleu",
-                "Perruche ondulée",
-                "Gris du Gabon"
-            ],
-            "correctIndex": 0,
-            "explanation": "Le kakapo est l'un des oiseaux les plus rares du monde. Les mâles creusent des cavités naturelles qui amplifient leurs appels de reproduction."
-        },
-        {
-            "id": "14",
-            "question": "Quel grand perroquet à huppe est réputé pour ses cris perçants souvent entendus à grande distance ?",
-            "image": null,
-            "answers": [
-                "Toucan",
-                "Cacatoès",
-                "Calao",
-                "Ibis"
-            ],
-            "correctIndex": 1,
-            "explanation": "Les cacatoès utilisent des cris très puissants pour communiquer avec leurs congénères dans les paysages ouverts d'Australie et d'Indonésie."
-        },
-        {
-            "id": "15",
-            "question": "Quel oiseau est célèbre pour son cri strident et ses spectaculaires parades où il déploie une immense roue de plumes ?",
-            "image": null,
-            "answers": [
-                "Faisan doré",
-                "Dindon sauvage",
-                "Paon bleu",
-                "Grue couronnée"
-            ],
-            "correctIndex": 2,
-            "explanation": "Le paon bleu combine un plumage spectaculaire et des cris particulièrement sonores qui portent loin dans son environnement."
-        },
-        {
-            "id": "16",
-            "question": "Quel oiseau domestique annonce traditionnellement le lever du jour par un chant puissant et répété ?",
-            "image": null,
-            "answers": [
-                "Canard colvert",
-                "Oie cendrée",
-                "Pintade",
-                "Coq domestique"
-            ],
-            "correctIndex": 3,
-            "explanation": "Le chant du coq est lié à la défense du territoire et à l'affirmation de sa présence auprès des autres individus."
-        },
-        {
-            "id": "17",
-            "question": "Quel amphibien nord-américain produit un appel grave et puissant rappelant parfois le mugissement d'un bovin ?",
-            "image": null,
-            "answers": [
-                "Rainette verte",
-                "Crapaud calamite",
-                "Grenouille taureau",
-                "Salamandre tigrée"
-            ],
-            "correctIndex": 2,
-            "explanation": "La grenouille taureau est l'une des plus grandes grenouilles d'Amérique du Nord. Son chant porte particulièrement loin pendant la saison des amours."
-        },
-        {
-            "id": "18",
-            "question": "Quel insecte est célèbre pour son chant estival produit grâce à la vibration rapide de membranes spécialisées ?",
-            "image": null,
-            "answers": [
-                "Criquet migrateur",
-                "Cigale",
-                "Mante religieuse",
-                "Libellule"
-            ],
-            "correctIndex": 1,
-            "explanation": "Les cigales mâles produisent leurs sons grâce à des organes appelés cymbales. Certaines espèces figurent parmi les insectes les plus bruyants du monde."
-        },
-        {
-            "id": "19",
-            "question": "Quel mammifère marin gonfle une membrane située sur sa tête pour produire des sons impressionnants durant la reproduction ?",
-            "image": null,
-            "answers": [
-                "Phoque à capuchon",
-                "Morse",
-                "Otarie à fourrure",
-                "Dugong"
-            ],
-            "correctIndex": 0,
-            "explanation": "Le phoque à capuchon est connu pour la poche gonflable située sur son museau. Celle-ci amplifie ses démonstrations visuelles et sonores."
-        },
-        {
-            "id": "20",
-            "question": "Quel rapace nocturne européen est connu pour ses hululements caractéristiques souvent associés aux forêts tempérées ?",
-            "image": null,
-            "answers": [
-                "Grand-duc d'Europe",
-                "Effraie des clochers",
-                "Chouette hulotte",
-                "Chevêche d'Athéna"
-            ],
-            "correctIndex": 2,
-            "explanation": "La chouette hulotte est l'une des espèces nocturnes les plus familières en Europe. Ses hululements jouent un rôle important dans la défense du territoire et la recherche d'un partenaire."
-        }
-    ]
+    {
+      "id": "3",
+      "question": "Quel géant des océans émet des vocalisations si graves qu'elles peuvent parcourir des centaines de kilomètres sous l'eau ?",
+      "answers": ["Baleine à bosse", "Orque", "Baleine bleue", "Béluga"],
+      "correctIndex": 2,
+      "explanation": "La baleine bleue utilise des sons de très basse fréquence pouvant atteindre 188 décibels pour communiquer à de très grandes distances. Ses appels comptent parmi les plus puissants du monde animal et peuvent parcourir plusieurs centaines de kilomètres, voire davantage lorsque les conditions de propagation sont favorables."
+    },
+    {
+      "id": "4",
+      "question": "Quel primate d'Amérique centrale et du Sud est capable de se faire entendre jusqu'à 5 km dans la forêt tropicale grâce à son os hyoïde très développé ?",
+      "answers": ["Capucin", "Singe hurleur", "Ouistiti", "Saki"],
+      "correctIndex": 1,
+      "explanation": "Le singe hurleur possède un os hyoïde particulièrement développé qui amplifie considérablement ses vocalisations, les rendant audibles jusqu'à 5 km. Ces cris servent principalement à délimiter le territoire du groupe sans avoir recours à des affrontements physiques."
+    },
+    {
+      "id": "5",
+      "question": "Quel cétacé est célèbre pour ses chants complexes qui évoluent au fil du temps, propres aux mâles cherchant à se reproduire ?",
+      "answers": ["Béluga", "Baleine à bosse", "Dauphin", "Phoque à capuchon"],
+      "correctIndex": 1,
+      "explanation": "Les chants de la baleine à bosse fascinent les scientifiques depuis des décennies. Les mâles modifient progressivement leurs mélodies au cours de la saison de reproduction, créant de véritables traditions sonores qui se propagent entre individus d'une même région océanique."
+    },
+    {
+      "id": "6",
+      "question": "Quel plus grand mammifère terrestre utilise des barrissements audibles mais aussi des infrasons imperceptibles pour l'être humain, portant jusqu'à 10 km ?",
+      "answers": ["Rhinocéros blanc", "Hippopotame", "Éléphant d'Afrique", "Buffle d'Afrique"],
+      "correctIndex": 2,
+      "explanation": "L'éléphant d'Afrique communique grâce à des infrasons — sons de fréquence trop basse pour l'oreille humaine — capables de parcourir jusqu'à 10 km en se propageant à travers le sol. Ces signaux facilitent les échanges et la coordination entre groupes éloignés."
+    },
+    {
+      "id": "7",
+      "question": "Surnommé le « canari des mers », quel mammifère marin est réputé pour son impressionnant répertoire de sifflements, clics et gazouillis ?",
+      "answers": ["Orque", "Béluga", "Dauphin", "Cachalot"],
+      "correctIndex": 1,
+      "explanation": "Le béluga est capable de produire une grande variété de sons — clics, sifflements, gazouillis — ce qui lui vaut le surnom de canari des mers. Ces vocalisations varient selon les contextes sociaux et jouent un rôle essentiel dans la cohésion des groupes."
+    },
+    {
+      "id": "8",
+      "question": "Quel animal marin développe un sifflement unique qui lui est propre, fonctionnant comme une véritable signature vocale individuelle ?",
+      "answers": ["Dauphin", "Orque", "Phoque à capuchon", "Baleine bleue"],
+      "correctIndex": 0,
+      "explanation": "Chaque dauphin développe dès l'enfance un sifflement caractéristique qui lui est propre et que les autres individus apprennent à reconnaître — comparable à un prénom. Ce système de signature vocale individuelle est l'un des exemples les plus frappants de communication animale personnalisée."
+    },
+    {
+      "id": "9",
+      "question": "Quel prédateur marin vivant en groupes familiaux produit des dialectes vocaux spécifiques à chaque clan, transmis de génération en génération ?",
+      "answers": ["Béluga", "Cachalot", "Orque", "Dauphin"],
+      "correctIndex": 2,
+      "explanation": "Les orques utilisent des dialectes propres à chaque groupe familial. Ces différences vocales, transmises culturellement, jouent un rôle central dans la cohésion sociale des clans et permettent aux individus de reconnaître leurs proches à distance."
+    },
+    {
+      "id": "10",
+      "question": "Quel carnivore africain est connu pour ses vocalisations en forme de rires sonores, en réalité une communication sociale complexe ?",
+      "answers": ["Lion", "Loup gris", "Hyène tachetée", "Guépard"],
+      "correctIndex": 2,
+      "explanation": "Le célèbre rire de la hyène tachetée est en réalité une forme de communication complexe utilisée dans différentes situations sociales : la soumission, l'excitation ou le stress. Les hyènes produisent également des grognements et des hurlements pour coordonner la meute."
+    },
+    {
+      "id": "11",
+      "question": "Quel canidé sauvage utilise des hurlements collectifs pour maintenir la cohésion de sa meute et défendre son territoire sur de longues distances ?",
+      "answers": ["Coyote", "Loup gris", "Chacal doré", "Lycaon"],
+      "correctIndex": 1,
+      "explanation": "Le hurlement du loup gris sert à rassembler la meute, défendre le territoire et communiquer sur de longues distances. Chaque individu possède une voix distincte, et les loups adaptent la structure de leurs hurlements selon le message qu'ils souhaitent transmettre."
+    },
+    {
+      "id": "12",
+      "question": "Quel petit singe arboricole d'Asie est célèbre pour ses chants puissants en duo avec son partenaire, souvent entendus au lever du soleil ?",
+      "answers": ["Macaque", "Langur", "Gibbon", "Tarsier"],
+      "correctIndex": 2,
+      "explanation": "Les gibbons utilisent leurs duos chantés pour défendre leur territoire et renforcer les liens entre partenaires. Ces chants très élaborés, audibles à plusieurs kilomètres, constituent l'une des expressions vocales les plus complexes chez les primates non-humains."
+    },
+    {
+      "id": "13",
+      "question": "Quel perroquet nocturne de Nouvelle-Zélande, l'un des oiseaux les plus rares au monde, produit de profonds appels graves amplifiés par des bols creusés dans le sol ?",
+      "answers": ["Kakapo", "Ara bleu", "Perruche ondulée", "Gris du Gabon"],
+      "correctIndex": 0,
+      "explanation": "Le kakapo est le seul perroquet nocturne au monde. Les mâles creusent des cavités en forme de bol dans le sol qui servent d'amplificateurs naturels pour leurs appels de reproduction. Sa population totale ne dépassait pas environ 250 individus en 2023, ce qui en fait l'un des oiseaux les plus menacés de la planète."
+    },
+    {
+      "id": "14",
+      "question": "Quel grand perroquet à huppe est réputé pour ses cris perçants pouvant porter à grande distance dans les paysages ouverts d'Australie ?",
+      "answers": ["Toucan", "Cacatoès", "Calao", "Ibis"],
+      "correctIndex": 1,
+      "explanation": "Les cacatoès utilisent des cris très puissants pour communiquer avec leurs congénères dans les paysages ouverts d'Australie et d'Indonésie. Leur capacité à imiter des sons, combinée à leur volume sonore élevé, en fait des oiseaux particulièrement remarquables."
+    },
+    {
+      "id": "15",
+      "question": "Quel oiseau est célèbre pour son cri strident et ses spectaculaires parades où il déploie une immense roue de plumes iridescentes ?",
+      "answers": ["Faisan doré", "Dindon sauvage", "Paon bleu", "Grue couronnée"],
+      "correctIndex": 2,
+      "explanation": "Le paon bleu combine un plumage spectaculaire et des cris particulièrement sonores qui portent loin dans son environnement. Son cri, souvent décrit comme strident ou plaintif, peut surprendre les personnes peu habituées à en entendre."
+    },
+    {
+      "id": "16",
+      "question": "Quel oiseau domestique annonce traditionnellement le lever du jour par un chant puissant lié à la défense du territoire ?",
+      "answers": ["Canard colvert", "Oie cendrée", "Pintade", "Coq domestique"],
+      "correctIndex": 3,
+      "explanation": "Le chant du coq est déclenché par la lumière et sert à affirmer sa présence et à défendre son territoire auprès des autres mâles. Des études ont montré que le coq dominant d'un groupe chante toujours en premier, les autres attendant leur rang pour suivre."
+    },
+    {
+      "id": "17",
+      "question": "Quel amphibien nord-américain produit un appel grave et puissant rappelant parfois le mugissement d'un bovin ?",
+      "answers": ["Rainette verte", "Crapaud calamite", "Grenouille taureau", "Salamandre tigrée"],
+      "correctIndex": 2,
+      "explanation": "La grenouille taureau est l'une des plus grandes grenouilles d'Amérique du Nord. Son appel grave et puissant, produit par les mâles pendant la saison de reproduction, peut être entendu à plusieurs centaines de mètres et lui a valu son nom évocateur."
+    },
+    {
+      "id": "18",
+      "question": "Quel insecte produit un chant estival pouvant dépasser 120 décibels grâce à la vibration rapide de membranes spécialisées appelées cymbales ?",
+      "answers": ["Criquet migrateur", "Cigale", "Mante religieuse", "Libellule"],
+      "correctIndex": 1,
+      "explanation": "Les cigales mâles produisent leurs sons grâce à des organes appelés cymbales — de petites membranes striées qui se déforment et se détendent très rapidement. Certaines espèces figurent parmi les insectes les plus bruyants du monde, avec des niveaux sonores pouvant dépasser 120 décibels à courte distance."
+    },
+    {
+      "id": "19",
+      "question": "Quel mammifère marin gonfle une poche nasale rouge vif pour produire des démonstrations visuelles et sonores impressionnantes durant la reproduction ?",
+      "answers": ["Phoque à capuchon", "Morse", "Otarie à fourrure", "Dugong"],
+      "correctIndex": 0,
+      "explanation": "Le phoque à capuchon est connu pour sa poche nasale gonflable que le mâle peut dilater au-dessus du museau ou souffler par une narine pour former une membrane rouge vif. Cette structure amplifie ses vocalisations et impressionne ses rivaux lors des confrontations."
+    },
+    {
+      "id": "20",
+      "question": "Quel rapace nocturne européen est connu pour ses hululements caractéristiques jouant un rôle clé dans la défense du territoire et la recherche d'un partenaire ?",
+      "answers": ["Grand-duc d'Europe", "Effraie des clochers", "Chouette hulotte", "Chevêche d'Athéna"],
+      "correctIndex": 2,
+      "explanation": "La chouette hulotte est l'une des espèces nocturnes les plus familières en Europe. Le hululement long du mâle et le cri aigu de la femelle se répondent souvent la nuit, créant l'un des duos sonores les plus reconnaissables des forêts européennes."
+    }
+  ]
 }

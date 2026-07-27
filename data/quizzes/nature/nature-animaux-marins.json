@@ -2,7 +2,7 @@
   "slug": "quiz-nature-animaux-marins-secrets-oceans",
   "title": "Quiz Nature - Animaux marins - Plongez dans les secrets des océans",
   "description": "Teste tes connaissances sur les animaux marins et les mystères des océans.",
-  "descriptionSeo": "Baleines, requins, pieuvres, coraux… les océans regorgent d’animaux fascinants aux capacités surprenantes. Ce quiz de 20 questions te plonge au cœur du monde marin pour tester tes connaissances sur les espèces, leurs comportements, leurs habitats et leurs adaptations. Découvre si tu maîtrises vraiment les secrets des animaux marins et explore la richesse incroyable de la vie sous-marine à travers ce défi captivant.",
+  "descriptionSeo": "Baleines, requins, pieuvres, coraux… les océans regorgent d'animaux fascinants aux capacités surprenantes. Ce quiz de 20 questions te plonge au cœur du monde marin pour tester tes connaissances sur les espèces, leurs comportements, leurs habitats et leurs adaptations. Découvre si tu maîtrises vraiment les secrets des animaux marins et explore la richesse incroyable de la vie sous-marine à travers ce défi captivant.",
   "category": {
     "name": "Nature",
     "slug": "nature"
@@ -18,243 +18,143 @@
   "questions": [
     {
       "id": "1",
-      "question": "Quel animal marin est le plus grand animal connu sur Terre ?",
-      "answers": [
-        "Le requin-baleine",
-        "La baleine bleue",
-        "Le cachalot",
-        "L’orque"
-      ],
+      "question": "Quel animal marin est le plus grand animal connu sur Terre, pouvant peser jusqu'à 190 tonnes ?",
+      "answers": ["Le requin-baleine", "La baleine bleue", "Le cachalot", "L'orque"],
       "correctIndex": 1,
-      "explanation": "La baleine bleue est le plus grand animal connu, plus grande encore que les plus grands dinosaures. Malgré sa taille gigantesque, elle se nourrit surtout de krill, qu’elle filtre en très grandes quantités grâce à ses fanons."
+      "explanation": "La baleine bleue peut atteindre 33 mètres de long et 190 tonnes, surpassant tous les dinosaures connus en masse. Malgré cette taille colossale, elle se nourrit quasi exclusivement de krill, qu'elle filtre en avalant jusqu'à 40 millions de ces petits crustacés par jour grâce à ses fanons."
     },
     {
       "id": "2",
-      "question": "Quel animal marin possède huit bras et une intelligence remarquable ?",
-      "answers": [
-        "La méduse",
-        "Le calmar géant",
-        "La pieuvre",
-        "L’étoile de mer"
-      ],
+      "question": "Quel animal marin à huit bras possède deux tiers de ses neurones dans ses bras plutôt que dans son cerveau central ?",
+      "answers": ["La méduse", "Le calmar géant", "La pieuvre", "L'étoile de mer"],
       "correctIndex": 2,
-      "explanation": "La pieuvre est un céphalopode doté de huit bras, d’une excellente capacité de camouflage et d’un comportement très flexible. Elle peut résoudre des problèmes, ouvrir des contenants et explorer son environnement avec une grande précision."
+      "explanation": "La pieuvre est un céphalopode doté de huit bras semi-autonomes, chacun capable de réagir à son environnement indépendamment du cerveau central. Elle peut résoudre des problèmes, ouvrir des bocaux et modifier sa couleur et sa texture en quelques millisecondes grâce à des chromatophores."
     },
     {
       "id": "3",
-      "question": "Quel grand poisson est le plus gros poisson vivant, malgré son régime principalement planctonique ?",
-      "answers": [
-        "Le requin blanc",
-        "Le requin-baleine",
-        "Le thon rouge",
-        "Le poisson-lune"
-      ],
+      "question": "Quel grand poisson est le plus grand poisson vivant, pouvant dépasser 18 mètres, malgré son régime planctonique ?",
+      "answers": ["Le requin blanc", "Le requin-baleine", "Le thon rouge", "Le poisson-lune"],
       "correctIndex": 1,
-      "explanation": "Le requin-baleine est le plus grand poisson vivant. Contrairement à son nom impressionnant, il est inoffensif pour l’humain et se nourrit principalement de plancton et de petits organismes filtrés dans l’eau."
+      "explanation": "Le requin-baleine est le plus grand poisson vivant. Contrairement à son nom impressionnant, il est inoffensif pour l'humain et filtre des tonnes d'eau pour retenir plancton et petits poissons. Des études récentes suggèrent que certains individus pourraient vivre plus d'un siècle, bien que les données restent difficiles à établir avec précision."
     },
     {
       "id": "4",
-      "question": "Quel animal marin est célèbre pour sa carapace et ses longues migrations entre plages de ponte et zones d’alimentation ?",
-      "answers": [
-        "Le dauphin commun",
-        "La tortue marine",
-        "La murène",
-        "Le poisson-clown"
-      ],
-      "correctIndex": 1,
-      "explanation": "Les tortues marines parcourent parfois des milliers de kilomètres entre leurs zones de nourriture et les plages où elles pondent. Elles sont menacées par la pollution plastique, les captures accidentelles et la disparition de certains sites de ponte."
+      "question": "Quelle tortue marine effectue les migrations les plus longues, couvrant parfois plus de 10 000 km entre son lieu d'alimentation et sa plage de ponte ?",
+      "answers": ["La tortue luth", "La tortue verte", "La tortue imbriquée", "La tortue caouanne"],
+      "correctIndex": 0,
+      "explanation": "La tortue luth effectue des migrations parmi les plus longues du règne animal, parfois supérieures à 10 000 km, entre ses zones d'alimentation en méduses au large et ses plages de ponte tropicales. C'est aussi le plus grand reptile vivant, pouvant dépasser 900 kg."
     },
     {
       "id": "5",
-      "question": "Quel animal marin utilise l’écholocation pour se repérer et communiquer sous l’eau ?",
-      "answers": [
-        "Le dauphin",
-        "La raie manta",
-        "Le corail",
-        "L’hippocampe"
-      ],
+      "question": "Quel mammifère marin utilise l'écholocation pour localiser des proies avec une précision remarquable, même dans l'obscurité totale ?",
+      "answers": ["Le dauphin", "La raie manta", "Le corail", "L'hippocampe"],
       "correctIndex": 0,
-      "explanation": "Le dauphin émet des sons et analyse leur écho pour localiser des proies, éviter les obstacles et se déplacer dans l’eau. L’écholocation est particulièrement utile dans les eaux troubles ou profondes, où la visibilité est limitée."
+      "explanation": "Le dauphin émet des clics ultrasoniques et analyse leur écho pour localiser des proies, éviter des obstacles et naviguer dans l'obscurité. Sa précision acoustique lui permet de distinguer des objets de formes et tailles très proches à grande distance, surpassant largement les sonars artificiels dans les environnements complexes."
     },
     {
       "id": "6",
-      "question": "Quel animal est souvent appelé “cheval de mer” ?",
-      "answers": [
-        "Le poisson-lion",
-        "L’hippocampe",
-        "Le barracuda",
-        "Le narval"
-      ],
+      "question": "Chez quel animal marin le mâle porte-t-il les œufs dans une poche incubatrice jusqu'à la naissance des petits ?",
+      "answers": ["Le poisson-lion", "L'hippocampe", "Le barracuda", "Le narval"],
       "correctIndex": 1,
-      "explanation": "L’hippocampe est surnommé cheval de mer en raison de la forme de sa tête. Chez cette espèce, c’est le mâle qui porte les œufs dans une poche incubatrice, un cas très particulier dans le monde animal."
+      "explanation": "Chez l'hippocampe, c'est le mâle qui porte les œufs dans une poche ventrale et donne naissance aux petits. Ce renversement des rôles reproducteurs est l'un des plus remarquables du règne animal. Un mâle peut donner naissance à plusieurs centaines de petits en une seule gestation."
     },
     {
       "id": "7",
-      "question": "Quel animal marin possède des tentacules urticants pouvant servir à capturer ses proies ?",
-      "answers": [
-        "Le homard",
-        "Le poisson-perroquet",
-        "La méduse",
-        "Le dugong"
-      ],
+      "question": "Quelle espèce de méduse peut tuer un être humain en quelques minutes grâce à son venin neurotoxique et cardiotoxique ?",
+      "answers": ["La méduse lune", "La méduse à crinière de lion", "La méduse boîte", "Le physalie"],
       "correctIndex": 2,
-      "explanation": "Les méduses possèdent des cellules urticantes appelées cnidocytes. Elles leur permettent d’immobiliser de petites proies, mais certaines espèces peuvent aussi provoquer des piqûres douloureuses, voire dangereuses pour l’humain."
+      "explanation": "La méduse boîte (Chironex fleckeri) est considérée comme l'une des créatures marines les plus venimeuses. Ses cnidocytes libèrent un venin capable d'arrêter le cœur en quelques minutes. Des décès ont été documentés dans les eaux australiennes et indo-pacifiques."
     },
     {
       "id": "8",
-      "question": "Quel mammifère marin est connu pour sa corne spiralée, en réalité une longue dent ?",
-      "answers": [
-        "Le phoque",
-        "Le morse",
-        "Le béluga",
-        "Le narval"
-      ],
+      "question": "Quel mammifère marin possède une défense spiralée pouvant atteindre 3 mètres, en réalité une canine percée de millions de canaux sensoriels ?",
+      "answers": ["Le phoque", "Le morse", "Le béluga", "Le narval"],
       "correctIndex": 3,
-      "explanation": "La “corne” du narval est une dent allongée, généralement présente chez le mâle. Elle peut servir à la communication, à la perception de l’environnement et joue probablement un rôle social important."
+      "explanation": "La défense du narval est une canine gauche qui peut atteindre 3 mètres. Une étude de 2014 a révélé qu'elle contient des millions de canaux nerveux la rendant extrêmement sensible aux variations de température, pression et salinité — un véritable organe sensoriel plutôt qu'une simple arme."
     },
     {
       "id": "9",
-      "question": "Quel animal marin est capable de changer de couleur et de texture pour se camoufler ?",
-      "answers": [
-        "La seiche",
-        "La sardine",
-        "Le crabe royal",
-        "La tortue verte"
-      ],
+      "question": "Quel animal marin peut modifier sa couleur, ses motifs et la texture de sa peau en moins d'une seconde grâce à des cellules spécialisées ?",
+      "answers": ["La seiche", "La sardine", "Le crabe royal", "La tortue verte"],
       "correctIndex": 0,
-      "explanation": "La seiche peut modifier rapidement sa couleur, ses motifs et même l’apparence de sa peau grâce à des cellules spécialisées. Ce camouflage lui sert à échapper aux prédateurs, surprendre ses proies et communiquer."
+      "explanation": "La seiche modifie rapidement sa couleur grâce à des chromatophores, des iridophores et des papilles cutanées musculaires. Paradoxalement, elle est daltonienne mais parvient à imiter les couleurs de son environnement en exploitant la polarisation de la lumière."
     },
     {
       "id": "10",
-      "question": "Quel animal est un mammifère marin herbivore souvent surnommé “vache de mer” ?",
-      "answers": [
-        "Le cachalot",
-        "Le dugong",
-        "Le requin-marteau",
-        "Le calmar"
-      ],
+      "question": "Quel mammifère marin herbivore, surnommé vache de mer, broute les herbiers marins qui stockent autant de carbone que des forêts terrestres ?",
+      "answers": ["Le cachalot", "Le dugong", "Le requin-marteau", "Le calmar"],
       "correctIndex": 1,
-      "explanation": "Le dugong se nourrit principalement d’herbiers marins, qu’il broute comme un herbivore terrestre. Ces herbiers sont essentiels à de nombreux écosystèmes côtiers et stockent aussi du carbone."
+      "explanation": "Le dugong se nourrit principalement d'herbiers marins, qu'il broute comme un herbivore terrestre. Ces herbiers sont essentiels à de nombreux écosystèmes côtiers : ils servent de nurseries à de nombreuses espèces et stockent jusqu'à 35 fois plus de carbone par hectare que les forêts tropicales."
     },
     {
       "id": "11",
-      "question": "Quel animal marin possède cinq bras, même si certaines espèces peuvent en avoir davantage ?",
-      "answers": [
-        "L’étoile de mer",
-        "Le crabe",
-        "Le poulpe",
-        "La langouste"
-      ],
+      "question": "Quel échinoderme peut régénérer non seulement un bras perdu, mais parfois reconstituer un individu entier à partir d'un seul bras coupé ?",
+      "answers": ["L'étoile de mer", "Le crabe", "Le poulpe", "La langouste"],
       "correctIndex": 0,
-      "explanation": "L’étoile de mer possède souvent cinq bras, mais certaines espèces en ont beaucoup plus. Elle peut parfois régénérer un bras perdu, et certaines espèces peuvent même reformer une grande partie de leur corps."
+      "explanation": "L'étoile de mer possède des capacités de régénération exceptionnelles : chez certaines espèces comme l'étoile linckia, un seul bras contenant une partie du disque central peut régénérer un individu entier. Cette capacité est étudiée pour ses applications potentielles en médecine régénérative."
     },
     {
       "id": "12",
-      "question": "Quel prédateur marin est connu pour vivre en groupes sociaux appelés pods ?",
-      "answers": [
-        "Le requin-tigre",
-        "La raie pastenague",
-        "L’orque",
-        "Le poisson-scie"
-      ],
+      "question": "Quel prédateur marin vit en groupes familiaux appelés pods, avec des dialectes vocaux distincts d'un clan à l'autre ?",
+      "answers": ["Le requin-tigre", "La raie pastenague", "L'orque", "Le poisson-scie"],
       "correctIndex": 2,
-      "explanation": "Les orques vivent en groupes familiaux très structurés, appelés pods. Elles communiquent par sons, apprennent des techniques de chasse et transmettent certains comportements d’une génération à l’autre."
+      "explanation": "Les orques vivent en groupes familiaux très structurés appelés pods. Chaque clan possède son propre dialecte — un répertoire de sons transmis culturellement. Certains pods spécialisés dans la chasse aux baleines utilisent des techniques coordonnées qui peuvent nécessiter des années d'apprentissage."
     },
     {
       "id": "13",
-      "question": "Quel animal marin construit des récifs essentiels à la biodiversité tropicale ?",
-      "answers": [
-        "Le corail",
-        "Le thon",
-        "La murène",
-        "Le calmar"
-      ],
+      "question": "Quel animal colonial bâtit les récifs coralliens, structures visibles depuis l'espace qui abritent environ 25 % de toutes les espèces marines ?",
+      "answers": ["Le corail", "Le thon", "La murène", "Le calmar"],
       "correctIndex": 0,
-      "explanation": "Les coraux sont de petits animaux coloniaux qui construisent des structures calcaires. Les récifs coralliens abritent une biodiversité immense, mais ils sont menacés par le réchauffement de l’eau, l’acidification et la pollution."
+      "explanation": "Les coraux sont de petits animaux coloniaux qui sécrètent du calcaire pour construire leur squelette. Les récifs coralliens couvrent moins de 1 % de l'océan mais abritent environ 25 % de toutes les espèces marines connues. Ils sont menacés par le réchauffement des eaux qui provoque leur blanchissement."
     },
     {
       "id": "14",
-      "question": "Quel animal marin est connu pour ses pinces puissantes et sa carapace dure ?",
-      "answers": [
-        "Le homard",
-        "Le poisson-lune",
-        "Le plancton",
-        "Le thon"
-      ],
+      "question": "Quel crustacé possède deux pinces aux fonctions opposées : l'une pour broyer, l'autre pour couper avec précision ?",
+      "answers": ["Le homard", "Le poisson-lune", "Le plancton", "Le thon"],
       "correctIndex": 0,
-      "explanation": "Le homard possède une carapace externe qui le protège, mais il doit muer pour grandir. Ses pinces ont des fonctions différentes : l’une peut broyer, l’autre saisir ou couper."
+      "explanation": "Le homard possède une pince élargie appelée crusher claw, capable de broyer les coquilles, et une pince plus fine appelée cutter claw, pour saisir et couper. Il doit muer régulièrement pour grandir, restant alors très vulnérable jusqu'à ce que sa nouvelle carapace durcisse."
     },
     {
       "id": "15",
-      "question": "Quel poisson est célèbre pour vivre en association avec les anémones de mer ?",
-      "answers": [
-        "Le poisson-clown",
-        "Le poisson-lune",
-        "Le barracuda",
-        "Le mérou"
-      ],
+      "question": "Quel poisson vit en symbiose avec les anémones de mer dont les tentacules urticants le protègent, grâce à un mucus qui le rend immunisé à leur venin ?",
+      "answers": ["Le poisson-clown", "Le poisson-lune", "Le barracuda", "Le mérou"],
       "correctIndex": 0,
-      "explanation": "Le poisson-clown vit au contact des anémones, dont les tentacules urticants le protègent des prédateurs. En échange, il peut aider à nettoyer l’anémone et attirer de petites proies."
+      "explanation": "Le poisson-clown développe progressivement une tolérance au venin des anémones en les touchant délicatement. En échange de la protection des tentacules, il défend l'anémone contre ses prédateurs et attire des proies qui lui servent de nourriture. Cette symbiose est l'une des plus étudiées du monde marin."
     },
     {
       "id": "16",
-      "question": "Quel animal marin est un grand filtreur connu pour ses “ailes” larges et sa nage majestueuse ?",
-      "answers": [
-        "La murène",
-        "Le poisson-pierre",
-        "La raie manta",
-        "Le saumon"
-      ],
+      "question": "Quelle raie géante filtre le plancton en nageant la bouche ouverte et peut plonger à plus de 1 000 mètres de profondeur ?",
+      "answers": ["La murène", "Le poisson-pierre", "La raie manta", "Le saumon"],
       "correctIndex": 2,
-      "explanation": "La raie manta filtre le plancton dans l’eau grâce à sa grande bouche et à des structures spécialisées. Malgré sa taille impressionnante, elle est généralement inoffensive pour l’humain."
+      "explanation": "La raie manta filtre le plancton grâce à des structures spécialisées près de sa bouche. Elle peut plonger à plus de 1 000 mètres selon des études récentes sur ses déplacements. Malgré son envergure pouvant atteindre 7 mètres, elle est totalement inoffensive pour l'humain."
     },
     {
       "id": "17",
-      "question": "Quel animal marin est réputé pour produire de l’encre afin de dérouter ses prédateurs ?",
-      "answers": [
-        "Le crabe",
-        "Le poulpe",
-        "L’oursin",
-        "Le dauphin"
-      ],
+      "question": "Quel grand céphalopode des abysses possède les plus grands yeux du règne animal et est la proie principale du cachalot ?",
+      "answers": ["La seiche géante", "Le calmar géant", "Le nautile", "La pieuvre mimétique"],
       "correctIndex": 1,
-      "explanation": "Le poulpe peut projeter un nuage d’encre pour masquer sa fuite et perturber les sens de ses prédateurs. Ce mécanisme de défense s’ajoute à son camouflage et à sa capacité à se faufiler dans de petits espaces."
+      "explanation": "Le calmar géant (Architeuthis dux) peut atteindre 13 mètres et possède des yeux pouvant dépasser 25 cm de diamètre. Il constitue la proie principale du cachalot, qui plonge à plus de 1 000 mètres pour le chasser. Des traces de ventouses de calmar géant ont été retrouvées sur la peau de cachalots."
     },
     {
       "id": "18",
-      "question": "Quel animal marin possède une coquille en spirale et appartient au groupe des céphalopodes ?",
-      "answers": [
-        "Le nautile",
-        "Le crabe",
-        "L’anguille",
-        "Le poisson-papillon"
-      ],
+      "question": "Quel céphalopode ancêtre des pieuvres et calmars possède une coquille en spirale compartimentée lui permettant de contrôler sa flottabilité ?",
+      "answers": ["Le nautile", "Le crabe", "L'anguille", "Le poisson-papillon"],
       "correctIndex": 0,
-      "explanation": "Le nautile est un céphalopode ancien qui possède une coquille externe compartimentée. Il contrôle sa flottabilité en ajustant les gaz et liquides dans les chambres de sa coquille."
+      "explanation": "Le nautile est un céphalopode dont la lignée remonte à plus de 500 millions d'années, antérieure aux dinosaures. Il contrôle sa flottabilité en ajustant les gaz et liquides dans les chambres de sa coquille. Contrairement à ses cousins, il possède jusqu'à 90 tentacules et une vision très rudimentaire."
     },
     {
       "id": "19",
-      "question": "Quel poisson plat vit souvent posé sur les fonds marins avec les deux yeux du même côté ?",
-      "answers": [
-        "Le maquereau",
-        "La sole",
-        "Le poisson-volant",
-        "Le mérou"
-      ],
+      "question": "Quel poisson plat, camouflé sur les fonds sableux, voit ses deux yeux migrer du même côté au cours de son développement larvaire ?",
+      "answers": ["Le maquereau", "La sole", "Le poisson-volant", "Le mérou"],
       "correctIndex": 1,
-      "explanation": "La sole est un poisson plat adapté à la vie sur les fonds sableux. Au cours de son développement, l’un de ses yeux migre vers l’autre côté du corps, ce qui lui permet de voir tout en restant posée sur le fond."
+      "explanation": "La sole naît avec un œil de chaque côté comme un poisson ordinaire. Au cours de sa métamorphose, l'un des yeux migre vers l'autre côté du corps, permettant à l'animal adulte de surveiller son environnement tout en restant à plat sur le fond sableux. Cette migration est l'une des transformations les plus spectaculaires du monde des poissons."
     },
     {
       "id": "20",
-      "question": "Quel animal marin est connu pour ses défenses imposantes et sa vie dans les eaux froides de l’Arctique ?",
-      "answers": [
-        "Le phoque moine",
-        "Le dauphin rose",
-        "Le requin-renard",
-        "Le morse"
-      ],
+      "question": "Quel mammifère marin de l'Arctique peut peser jusqu'à 1 500 kg et utilise ses défenses comme membres semi-officiels d'une hiérarchie sociale ?",
+      "answers": ["Le phoque moine", "Le dauphin rose", "Le requin-renard", "Le morse"],
       "correctIndex": 3,
-      "explanation": "Le morse utilise ses défenses pour se hisser sur la glace, se défendre et interagir avec ses congénères. Il dépend des régions froides et de la glace de mer pour une partie de son cycle de vie."
+      "explanation": "Le morse peut peser jusqu'à 1 500 kg et utilise ses longues défenses — des canines pouvant dépasser un mètre — pour se hisser sur la glace, se défendre et affirmer son rang dans des rassemblements pouvant regrouper plusieurs milliers d'individus. Il dépend fortement de la banquise, rendant son habitat particulièrement vulnérable au changement climatique."
     }
   ]
 }

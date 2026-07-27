@@ -19,263 +19,143 @@
   "questions": [
     {
       "id": "1",
-      "question": "Combien de cœurs possède un poulpe ?",
-      "image": null,
-      "answers": [
-        "3",
-        "1",
-        "2",
-        "4"
-      ],
-      "correctIndex": 0,
-      "explanation": "Le poulpe possède trois cœurs. Deux servent à envoyer le sang vers les branchies tandis que le troisième irrigue le reste du corps. Lorsqu'il nage, ce troisième cœur cesse même temporairement de battre."
+      "question": "Quel animal marin est théoriquement capable de ne jamais mourir de vieillesse en inversant son cycle de développement ?",
+      "answers": ["La méduse boîte", "La méduse immortelle", "L'anémone de mer", "L'hydre d'eau douce"],
+      "correctIndex": 1,
+      "explanation": "La méduse Turritopsis dohrnii, surnommée la méduse immortelle, peut revenir à son stade larvaire (polype) après avoir atteint l'âge adulte — un processus appelé transdifférenciation cellulaire. Ce cycle peut théoriquement se répéter indéfiniment, ce qui en fait l'un des seuls organismes potentiellement immortels connus dans le règne animal."
     },
     {
       "id": "2",
-      "question": "Quel animal peut survivre dans le vide de l'espace pendant un certain temps ?",
-      "image": null,
-      "answers": [
-        "Le scorpion",
-        "Le tardigrade",
-        "Le caméléon",
-        "Le manchot"
-      ],
+      "question": "Quel animal microscopique peut survivre dans le vide de l'espace, aux radiations et à des températures extrêmes ?",
+      "answers": ["Le scorpion", "Le tardigrade", "Le caméléon", "Le manchot"],
       "correctIndex": 1,
-      "explanation": "Le tardigrade, parfois appelé « ourson d'eau », est l'un des êtres vivants les plus résistants de la planète. Il peut survivre à des températures extrêmes, à la déshydratation et même à l'exposition au vide spatial."
+      "explanation": "Le tardigrade, parfois appelé ourson d'eau, est l'un des êtres vivants les plus résistants de la planète. Il entre dans un état de cryptobiose en se déshydratant presque totalement, ce qui lui permet de survivre à des conditions létales pour presque tout autre organisme vivant."
     },
     {
       "id": "3",
-      "question": "Quel mammifère est capable de voler naturellement ?",
-      "image": null,
-      "answers": [
-        "L'écureuil volant",
-        "Le colugo",
-        "La chauve-souris",
-        "Le lémur volant"
-      ],
+      "question": "Quel insecte colonial est capable de faire exploser son propre corps pour asperger ses ennemis de venin et protéger sa colonie ?",
+      "answers": ["Le frelon asiatique", "La guêpe maçonne", "La fourmi-charpentière malaise", "Le termite soldat"],
       "correctIndex": 2,
-      "explanation": "La chauve-souris est le seul mammifère capable d'un véritable vol battu. Les autres animaux souvent qualifiés de volants planent simplement grâce à une membrane entre leurs membres."
+      "explanation": "La fourmi-charpentière malaise Camponotus saundersi possède deux grandes glandes à venin qui courent tout le long de son corps. Sous forte contraction musculaire, elle peut faire éclater son abdomen pour asperger les ennemis proches d'un liquide collant et toxique — un acte suicidaire altruiste unique dans le règne animal."
     },
     {
       "id": "4",
-      "question": "Quel animal possède la morsure la plus puissante du monde ?",
-      "image": null,
-      "answers": [
-        "Le lion",
-        "Le requin blanc",
-        "L'ours polaire",
-        "Le crocodile marin"
-      ],
-      "correctIndex": 3,
-      "explanation": "Le crocodile marin développe une force de morsure supérieure à 16 000 newtons. C'est la plus puissante jamais mesurée chez un animal vivant."
+      "question": "Quel amphibien d'Alaska survit à l'hiver en laissant son corps geler presque entièrement, sans battements cardiaques ni respiration pendant des mois ?",
+      "answers": ["La salamandre de Sibérie", "Le crapaud commun", "La grenouille de bois", "La rainette versicolore"],
+      "correctIndex": 2,
+      "explanation": "La grenouille de bois (Rana sylvatica) d'Alaska peut laisser jusqu'à 70 % de l'eau de ses tissus se transformer en glace pendant l'hiver. Son cœur s'arrête, sa respiration cesse et son cerveau ne montre plus aucune activité. Au printemps, elle dégèle et reprend une vie normale — grâce à une accumulation de glucose qui protège ses cellules du gel."
     },
     {
       "id": "5",
-      "question": "Quel animal est capable de reconnaître son reflet dans un miroir ?",
-      "image": null,
-      "answers": [
-        "L'éléphant",
-        "Le mouton",
-        "Le hamster",
-        "Le hérisson"
-      ],
+      "question": "Parmi les animaux suivants, lequel est capable de reconnaître son propre reflet dans un miroir ?",
+      "answers": ["L'éléphant", "Le mouton", "Le hamster", "Le hérisson"],
       "correctIndex": 0,
-      "explanation": "Très peu d'animaux réussissent le test du miroir. Les éléphants font partie de ce groupe restreint, aux côtés notamment des grands singes, des dauphins et des pies."
+      "explanation": "Très peu d'animaux réussissent le test du miroir, considéré comme un indicateur de conscience de soi. Les éléphants font partie de ce groupe restreint, aux côtés des grands singes, des dauphins et des pies, selon une étude publiée dans la revue PNAS en 2006."
     },
     {
       "id": "6",
-      "question": "Quel animal possède la langue la plus longue par rapport à sa taille ?",
-      "image": null,
-      "answers": [
-        "Le fourmilier",
-        "Le caméléon",
-        "La girafe",
-        "Le pangolin"
-      ],
+      "question": "Quel animal possède la langue la plus longue proportionnellement à son corps, pouvant mesurer jusqu'à deux fois sa propre longueur ?",
+      "answers": ["Le fourmilier", "Le caméléon", "La girafe", "Le pangolin"],
       "correctIndex": 1,
-      "explanation": "Chez certaines espèces, la langue du caméléon peut mesurer jusqu'à deux fois la longueur de son corps. Elle est projetée à très grande vitesse pour capturer les insectes."
+      "explanation": "Chez certaines espèces, la langue du caméléon peut mesurer jusqu'à deux fois la longueur de son corps. Elle est projetée à très grande vitesse — moins d'un centième de seconde — grâce à un mécanisme musculaire élastique qui lui confère une accélération extraordinaire pour capturer des insectes."
     },
     {
       "id": "7",
-      "question": "Quel oiseau est capable d'imiter des sons comme une tronçonneuse ou un appareil photo ?",
-      "image": null,
-      "answers": [
-        "Le cacatoès",
-        "Le geai",
-        "Le ménure superbe",
-        "Le toucan"
-      ],
+      "question": "Quel oiseau australien est capable d'imiter des sons artificiels comme une tronçonneuse, un appareil photo ou une alarme de voiture ?",
+      "answers": ["Le cacatoès", "Le geai", "Le ménure superbe", "Le toucan"],
       "correctIndex": 2,
-      "explanation": "Le ménure superbe d'Australie est célèbre pour ses incroyables capacités d'imitation. Il peut reproduire des dizaines de sons naturels et artificiels avec une précision étonnante."
+      "explanation": "Le ménure superbe d'Australie possède des capacités d'imitation exceptionnelles. Il peut reproduire des dizaines de sons naturels et artificiels avec une précision étonnante — des enregistrements de la BBC ont rendu célèbres ses imitations de tronçonneuses et d'appareils photo."
     },
     {
       "id": "8",
-      "question": "Quel animal possède le plus grand cerveau parmi les animaux vivants ?",
-      "image": null,
-      "answers": [
-        "L'éléphant",
-        "L'orque",
-        "Le cachalot",
-        "La baleine bleue"
-      ],
+      "question": "Quel animal possède le cerveau le plus lourd du règne animal, pesant plus de 7 kilogrammes ?",
+      "answers": ["L'éléphant", "L'orque", "Le cachalot", "La baleine bleue"],
       "correctIndex": 2,
-      "explanation": "Le cerveau du cachalot peut peser plus de 7 kilogrammes. C'est le plus lourd du règne animal actuel, bien devant celui de l'être humain."
+      "explanation": "Le cerveau du cachalot peut peser entre 7 et 9 kilogrammes, ce qui en fait le plus lourd du règne animal vivant. À titre de comparaison, le cerveau humain pèse environ 1,4 kg. Cette masse n'implique pas directement une intelligence supérieure, mais est liée à la complexité des capacités acoustiques du cachalot."
     },
     {
       "id": "9",
-      "question": "Quelle créature marine possède le sang bleu ?",
-      "image": null,
-      "answers": [
-        "Le poulpe",
-        "La méduse",
-        "L'étoile de mer",
-        "Le dauphin"
-      ],
-      "correctIndex": 0,
-      "explanation": "Le sang du poulpe est bleu car il utilise l'hémocyanine, une molécule contenant du cuivre, pour transporter l'oxygène. Cela lui permet de mieux survivre dans les eaux froides et pauvres en oxygène."
+      "question": "Quel petit céphalopode très coloré contient un venin mortel pour l'homme malgré sa taille ne dépassant pas 20 cm ?",
+      "answers": ["Le calamar commun", "La pieuvre à anneaux bleus", "Le nautile", "La seiche géante"],
+      "correctIndex": 1,
+      "explanation": "La pieuvre à anneaux bleus est l'un des animaux marins les plus venimeux au monde malgré sa petite taille. Son venin contient de la tétrodotoxine — la même que dans le fugu — capable de tuer un adulte en quelques minutes. Ses anneaux bleus s'illuminent comme avertissement lorsqu'elle se sent menacée."
     },
     {
       "id": "10",
-      "question": "Quel animal peut dormir tout en gardant une moitié de son cerveau éveillée ?",
-      "image": null,
-      "answers": [
-        "Le koala",
-        "Le dauphin",
-        "Le panda",
-        "Le castor"
-      ],
+      "question": "Quel mammifère marin est capable de dormir tout en gardant une moitié de son cerveau éveillée pour surveiller son environnement ?",
+      "answers": ["Le koala", "Le dauphin", "Le panda", "Le castor"],
       "correctIndex": 1,
-      "explanation": "Les dauphins pratiquent le sommeil unihémisphérique. Une moitié du cerveau dort tandis que l'autre reste active pour surveiller l'environnement et permettre la respiration."
+      "explanation": "Les dauphins pratiquent le sommeil unihémisphérique : une moitié du cerveau dort tandis que l'autre reste active pour surveiller l'environnement, maintenir la respiration et détecter les prédateurs. Ce mécanisme remarquable leur permet de ne jamais être totalement inconscients."
     },
     {
       "id": "11",
-      "question": "Quel insecte peut soulever jusqu'à mille fois son propre poids ?",
-      "image": null,
-      "answers": [
-        "La fourmi",
-        "Le scarabée rhinocéros",
-        "Le bousier",
-        "Le grillon"
-      ],
+      "question": "Quel insecte peut tirer une charge dépassant mille fois son propre poids, selon une étude sur l'espèce Onthophagus taurus ?",
+      "answers": ["La fourmi", "Le scarabée rhinocéros", "Le bousier", "Le grillon"],
       "correctIndex": 2,
-      "explanation": "Certaines espèces de bousiers sont capables de déplacer des charges dépassant mille fois leur poids. Rapportée à la taille humaine, cette force serait absolument phénoménale."
+      "explanation": "Une étude publiée en 2010 sur le bousier Onthophagus taurus a établi qu'il pouvait tirer des charges dépassant 1 141 fois son propre poids. Rapportée à l'échelle humaine, cette force équivaudrait à déplacer six autobus à deux étages chargés de passagers."
     },
     {
       "id": "12",
-      "question": "Quel animal possède la frappe la plus rapide du règne animal ?",
-      "image": null,
-      "answers": [
-        "Le requin-marteau",
-        "Le crabe royal",
-        "La pieuvre géante",
-        "La crevette-mante"
-      ],
+      "question": "Quel crustacé possède la frappe la plus rapide du règne animal, capable de briser des coquilles ou de fissurer certains aquariums ?",
+      "answers": ["Le requin-marteau", "Le crabe royal", "La pieuvre géante", "La crevette-mante"],
       "correctIndex": 3,
-      "explanation": "La crevette-mante frappe avec une vitesse comparable à celle d'une balle de petit calibre. Son coup est si puissant qu'il peut briser des coquilles ou fissurer certains aquariums."
+      "explanation": "La crevette-mante frappe avec une accélération comparable à celle d'une balle, atteignant environ 23 mètres par seconde. Son appendice frappeur génère une cavitation dans l'eau — une bulle de pression qui produit une deuxième onde de choc même lorsque le coup direct rate sa cible."
     },
     {
       "id": "13",
-      "question": "Quel mammifère marin est célèbre pour ses plongées extrêmement profondes à la recherche de calmars géants ?",
-      "image": null,
-      "answers": [
-        "Le cachalot",
-        "Le phoque commun",
-        "L'otarie",
-        "Le lamantin"
-      ],
+      "question": "Quel mammifère peut effectuer des plongées de plus de 1 500 mètres de profondeur et rester en apnée pendant plus de deux heures ?",
+      "answers": ["Le phoque éléphant", "L'otarie de Steller", "Le béluga", "Le dugong"],
       "correctIndex": 0,
-      "explanation": "Le cachalot effectue des plongées extrêmement profondes à la recherche de calmars géants. Certaines plongées peuvent durer plus de deux heures avant qu'il ne remonte respirer."
+      "explanation": "L'éléphant de mer du Sud peut plonger à plus de 1 500 mètres de profondeur et rester en apnée pendant plus de deux heures. Il accumule une quantité d'oxygène exceptionnelle dans son sang et ses muscles grâce à une concentration très élevée de myoglobine, qui donne à sa chair une couleur presque noire."
     },
     {
       "id": "14",
-      "question": "Quel animal possède les plus grands yeux du règne animal ?",
-      "image": null,
-      "answers": [
-        "La baleine bleue",
-        "Le calmar géant",
-        "L'autruche",
-        "Le cachalot"
-      ],
+      "question": "Quel animal possède les plus grands yeux du règne animal, pouvant dépasser 25 centimètres de diamètre ?",
+      "answers": ["La baleine bleue", "Le calmar géant", "L'autruche", "Le cachalot"],
       "correctIndex": 1,
-      "explanation": "Les yeux du calmar géant peuvent atteindre plus de 25 centimètres de diamètre. Ils sont particulièrement adaptés à la détection des mouvements dans les profondeurs océaniques."
+      "explanation": "Les yeux du calmar géant peuvent atteindre plus de 25 centimètres de diamètre, soit à peu près la taille d'un ballon de football. Ces yeux géants sont particulièrement adaptés à détecter la bioluminescence et les silhouettes dans les profondeurs océaniques quasi-obscures."
     },
     {
       "id": "15",
-      "question": "Quel animal est capable de régénérer complètement un membre perdu ?",
-      "image": null,
-      "answers": [
-        "Le crabe",
-        "Le serpent",
-        "L'axolotl",
-        "Le hérisson"
-      ],
+      "question": "Quel amphibien mexicain est capable de régénérer complètement un membre perdu, voire certaines parties de son cerveau ?",
+      "answers": ["Le crabe", "Le serpent", "L'axolotl", "Le hérisson"],
       "correctIndex": 2,
-      "explanation": "L'axolotl possède une capacité de régénération exceptionnelle. Il peut reconstituer des membres, des organes et même certaines parties de son cerveau ou de sa moelle épinière."
+      "explanation": "L'axolotl possède une capacité de régénération exceptionnelle et unique parmi les vertébrés. Il peut reconstituer des membres, des organes internes, des parties de son cœur et même certaines zones de son cerveau ou de sa moelle épinière — un mécanisme étudié intensément par la recherche médicale."
     },
     {
       "id": "16",
-      "question": "Quel animal terrestre est capable de survivre le plus longtemps sans boire ?",
-      "image": null,
-      "answers": [
-        "Le kangourou",
-        "L'oryx",
-        "Le lama",
-        "Le rat-kangourou"
-      ],
+      "question": "Quel petit mammifère du désert peut vivre toute sa vie sans jamais boire d'eau directement, en tirant toute l'humidité de sa nourriture ?",
+      "answers": ["Le kangourou", "L'oryx", "Le lama", "Le rat-kangourou"],
       "correctIndex": 3,
-      "explanation": "Le rat-kangourou du désert obtient pratiquement toute l'eau dont il a besoin à partir de sa nourriture. Il peut vivre toute sa vie sans boire directement d'eau."
+      "explanation": "Le rat-kangourou du désert obtient pratiquement toute l'eau dont il a besoin grâce au métabolisme des graines sèches qu'il consomme. Il ne boit jamais directement d'eau, contrairement au dromadaire qui, lui, peut se passer d'eau pendant des semaines mais boit massivement lorsque l'occasion se présente."
     },
     {
       "id": "17",
-      "question": "Quel poisson est connu pour changer de sexe au cours de sa vie ?",
-      "image": null,
-      "answers": [
-        "Le poisson-clown",
-        "Le thon rouge",
-        "L'espadon",
-        "La morue"
-      ],
-      "correctIndex": 0,
-      "explanation": "Chez les poissons-clowns, le plus grand individu du groupe devient une femelle. Si cette dernière disparaît, un mâle dominant change alors de sexe pour la remplacer."
+      "question": "Quel ver marin peut vivre à une température de 80 °C près des sources hydrothermales des grands fonds, un record de résistance thermique pour un animal ?",
+      "answers": ["Le ver luisant des abysses", "Le ver de Pompeii", "Le ver polychète arctique", "Le ver tubicole géant"],
+      "correctIndex": 1,
+      "explanation": "Le ver de Pompeii (Alvinella pompejana) vit sur les cheminées hydrothermales du Pacifique à des températures pouvant dépasser 80 °C — la résistance thermique la plus élevée jamais documentée chez un animal complexe. Il sécrète sur son dos une couche de bactéries qui pourraient jouer un rôle isolant et contribuer à sa survie dans cet environnement extrême."
     },
     {
       "id": "18",
-      "question": "Quel animal possède le plus grand nombre de dents ?",
-      "image": null,
-      "answers": [
-        "Le requin blanc",
-        "L'escargot",
-        "L'hippopotame",
-        "Le crocodile"
-      ],
+      "question": "Quel animal possède le plus grand nombre de dents, certaines espèces en comptant jusqu'à 25 000 sur une structure appelée radula ?",
+      "answers": ["Le requin blanc", "L'escargot", "L'hippopotame", "Le crocodile"],
       "correctIndex": 1,
-      "explanation": "Certaines espèces d'escargots possèdent plusieurs milliers de minuscules dents regroupées sur une structure appelée radula. Elles leur servent à râper leur nourriture."
+      "explanation": "Les escargots possèdent des milliers de minuscules dents microscopiques regroupées sur une langue râpeuse appelée radula. Certaines espèces en comptent jusqu'à 25 000. Ces dents servent à gratter et broyer la nourriture végétale."
     },
     {
       "id": "19",
-      "question": "Quel animal peut voir la lumière polarisée et davantage de couleurs que l'être humain ?",
-      "image": null,
-      "answers": [
-        "Le papillon monarque",
-        "L'aigle royal",
-        "La crevette-mante",
-        "Le gecko"
-      ],
+      "question": "Quel petit lézard nocturne possède des yeux si sensibles à la lumière qu'il peut distinguer des couleurs que l'être humain ne perçoit pas dans l'obscurité ?",
+      "answers": ["L'iguane marin", "Le caméléon voilé", "Le gecko à queue feuille", "Le varan du désert"],
       "correctIndex": 2,
-      "explanation": "La crevette-mante possède l'un des systèmes visuels les plus complexes connus. Elle peut percevoir la lumière polarisée et un nombre de couleurs bien supérieur à celui des humains."
+      "explanation": "Le gecko à queue feuille et plusieurs autres espèces de geckos nocturnes possèdent des yeux extrêmement sensibles capables de percevoir les couleurs dans des conditions de lumière proches de l'obscurité totale — une capacité unique parmi les vertébrés. Leurs pupilles en fente se dilatent considérablement la nuit."
     },
     {
       "id": "20",
-      "question": "Quel animal détient le record de vitesse sur Terre ?",
-      "image": null,
-      "answers": [
-        "Le guépard",
-        "L'antilope d'Amérique",
-        "L'autruche",
-        "Le faucon pèlerin"
-      ],
-      "correctIndex": 3,
-      "explanation": "En piqué, le faucon pèlerin peut dépasser les 300 km/h. Aucun autre animal n'atteint une telle vitesse, ce qui en fait le plus rapide du monde."
+      "question": "Quel mammifère à bec de canard est l'un des seuls de son ordre à produire du venin, injecté par des éperons situés sur ses pattes arrière ?",
+      "answers": ["Le tamandua", "Le desman des Pyrénées", "L'ornithorynque", "L'échidné"],
+      "correctIndex": 2,
+      "explanation": "L'ornithorynque mâle possède des éperons cornés sur ses chevilles reliés à des glandes à venin. Ce venin est suffisamment puissant pour tuer un petit animal et provoquer une douleur intense et prolongée chez l'homme, résistante aux analgésiques classiques. L'ornithorynque cumule plusieurs caractéristiques étonnantes : il pond des œufs, allaite ses petits, possède un bec sensoriel et est venimeux."
     }
   ]
 }
