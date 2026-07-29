@@ -1,8 +1,8 @@
 {
-  "slug": "quiz-nature-plantes-medicinales-connaissances-naturelles",
-  "title": "Quiz Nature - Plantes médicinales - Testez vos connaissances naturelles",
-  "description": "Teste tes connaissances sur les plantes médicinales et leurs usages traditionnels.",
-  "descriptionSeo": "Camomille, ginseng, aloe vera, menthe… les plantes médicinales sont utilisées depuis des siècles pour leurs propriétés naturelles. Ce quiz de 20 questions te propose de tester tes connaissances sur leurs usages, leurs bienfaits, mais aussi leurs précautions d’emploi. Découvre si tu maîtrises vraiment les bases de la phytothérapie et approfondis ta compréhension des solutions naturelles pour le bien-être au quotidien.",
+  "slug": "quiz-plantes-medicinales-phytotherapie",
+"title": "Quiz Nature - Plantes médicinales - Testez vos connaissances naturelles",
+  "description": "Teste tes connaissances sur les plantes médicinales et leurs usages traditionnels. Ce quiz ne constitue pas un conseil médical.",
+  "descriptionSeo": "Camomille, ginseng, aloe vera, menthe, échinacée, valériane… les plantes médicinales sont utilisées depuis des siècles pour leurs usages traditionnels. Ce quiz de 20 questions te propose d'explorer leurs propriétés reconnues, leurs précautions d'emploi et leurs interactions possibles avec les médicaments. Découvre si tu maîtrises les bases de la phytothérapie — et rappelle-toi que naturel ne signifie pas sans risque. Ce quiz est proposé à titre informatif et ne constitue pas un conseil médical.",
   "category": {
     "name": "Nature",
     "slug": "nature"
@@ -18,87 +18,87 @@
   "questions": [
     {
       "id": "1",
-      "question": "Quelle plante est traditionnellement utilisée en infusion pour favoriser la relaxation et le sommeil ?",
+      "question": "Quelle plante est traditionnellement utilisée pour soutenir les défenses naturelles en période hivernale ?",
       "answers": [
-        "Le piment",
-        "La camomille",
-        "Le caféier",
-        "Le poivre noir"
+        "L'astragale",
+        "L'échinacée",
+        "La rhodiola",
+        "L'éleuthérocoque"
       ],
       "correctIndex": 1,
-      "explanation": "La camomille est souvent utilisée en infusion pour ses effets apaisants traditionnels. Elle est surtout associée à la détente digestive et au repos, même si elle ne remplace pas un traitement médical en cas de troubles importants du sommeil."
+      "explanation": "L'échinacée (Echinacea purpurea et ses proches) est l'une des plantes les plus utilisées en phytothérapie occidentale pour accompagner les épisodes infectieux bénins. Des études ont été menées sur son action sur le système immunitaire, avec des résultats variables selon les espèces et les préparations. Elle est déconseillée en cas de maladies auto-immunes."
     },
     {
       "id": "2",
       "question": "Quelle plante est connue pour son gel utilisé sur les petites irritations cutanées ?",
       "answers": [
-        "Le romarin",
-        "Le basilic",
-        "L’aloe vera",
-        "La coriandre"
+        "L'aloe vera",
+        "Le calendula",
+        "Le millepertuis",
+        "Le plantain"
       ],
-      "correctIndex": 2,
-      "explanation": "Le gel d’aloe vera est appliqué traditionnellement sur la peau pour hydrater et apaiser les irritations légères. Il faut toutefois éviter de l’utiliser sur une plaie profonde ou infectée sans avis médical."
+      "correctIndex": 0,
+      "explanation": "Le gel d'aloe vera est appliqué traditionnellement sur la peau pour hydrater et apaiser les irritations légères. Le calendula et le plantain sont aussi utilisés en usage cutané, mais c'est l'aloe vera qui est le plus reconnu pour ses propriétés apaisantes sur les petites brûlures et irritations. Il faut éviter de l'utiliser sur une plaie profonde ou infectée sans avis médical."
     },
     {
       "id": "3",
-      "question": "Quelle plante aromatique est souvent utilisée pour dégager les voies respiratoires en inhalation ?",
+      "question": "Quelle plante aromatique du bassin méditerranéen est traditionnellement préparée en infusion pour le confort des voies respiratoires ?",
       "answers": [
+        "L'eucalyptus",
+        "La sarriette",
         "Le thym",
-        "La vanille",
-        "La cannelle",
-        "Le cacao"
+        "Le pin sylvestre"
       ],
-      "correctIndex": 0,
-      "explanation": "Le thym contient des composés aromatiques comme le thymol. En infusion ou inhalation, il est traditionnellement associé au confort respiratoire, mais les huiles essentielles de thym doivent être utilisées avec prudence."
+      "correctIndex": 2,
+      "explanation": "Le thym (Thymus vulgaris) fait l'objet de monographies de l'EMA reconnaissant ses usages traditionnels pour le confort des voies respiratoires, notamment en infusion. Il contient du thymol et du carvacrol, deux composés étudiés pour leur action sur les muqueuses. L'eucalyptus et le pin sylvestre sont également utilisés pour les voies respiratoires, mais leur usage traditionnel courant repose davantage sur l'inhalation d'huile essentielle que sur l'infusion de la plante."
     },
     {
       "id": "4",
       "question": "Quelle plante est célèbre pour son odeur apaisante et son usage en aromathérapie ?",
       "answers": [
-        "Le gingembre",
-        "Le curcuma",
-        "Le persil",
+        "La rose",
+        "L'ylang-ylang",
+        "Le géranium rosat",
         "La lavande"
       ],
       "correctIndex": 3,
-      "explanation": "La lavande est connue pour son parfum relaxant et son usage traditionnel contre le stress léger. Son huile essentielle est très concentrée : elle doit être diluée et évitée chez certaines personnes sensibles."
+      "explanation": "La lavande (Lavandula angustifolia) est la plante de référence en aromathérapie pour ses effets relaxants. Son huile essentielle est très concentrée : elle doit être diluée avant application cutanée et évitée chez les jeunes enfants et les femmes enceintes sans avis médical."
     },
     {
       "id": "5",
       "question": "Quelle plante est souvent consommée pour aider à soulager les nausées légères ?",
       "answers": [
-        "Le gingembre",
         "La laitue",
         "Le maïs",
-        "Le tournesol"
+        "Le tournesol",
+        "Le gingembre"
       ],
-      "correctIndex": 0,
-      "explanation": "Le gingembre est l’une des plantes les plus étudiées pour les nausées, notamment liées au mal des transports. Il peut toutefois interagir avec certains traitements anticoagulants ou être déconseillé à fortes doses."
+      "correctIndex": 3,
+      "explanation": "Le gingembre (Zingiber officinale) fait partie des plantes les plus étudiées pour les nausées légères. Plusieurs essais cliniques, notamment sur le mal des transports et les nausées de grossesse, ont montré des résultats positifs, bien que les données restent hétérogènes selon les études. Il peut interagir avec des anticoagulants comme la warfarine et est à éviter à fortes doses sans avis médical."
     },
     {
       "id": "6",
-      "question": "Quelle plante est traditionnellement associée au soutien de la digestion après les repas ?",
+      "question": "Quelle plante, dont l'huile essentielle est riche en menthol, est traditionnellement utilisée pour soulager les spasmes intestinaux légers et les ballonnements ?",
       "answers": [
-        "Le bambou",
+        "Le fenouil",
         "La menthe poivrée",
-        "Le chêne",
-        "Le blé"
+        "L'anis",
+        "L'artichaut"
       ],
       "correctIndex": 1,
-      "explanation": "La menthe poivrée est souvent utilisée pour le confort digestif, en infusion ou sous forme d’huile essentielle. Elle peut cependant aggraver les reflux chez certaines personnes, car elle peut relâcher le sphincter de l’œsophage."
+      "explanation": "La menthe poivrée (Mentha × piperita) est très utilisée en phytothérapie pour le confort digestif. Son huile essentielle contient du menthol, qui peut relâcher les muscles lisses de l'intestin et réduire les spasmes. Elle fait l'objet de monographies de l'EMA pour cet usage. Elle peut cependant aggraver les reflux gastro-œsophagiens en raison de son effet sur le sphincter inférieur de l'œsophage."
     },
     {
       "id": "7",
       "question": "Quelle plante jaune-orangée contient de la curcumine ?",
       "answers": [
-        "La sauge",
-        "L’ortie",
         "Le curcuma",
+        "La sauge",
+        "L'ortie",
         "La mélisse"
       ],
-      "correctIndex": 2,
-      "explanation": "Le curcuma contient de la curcumine, un pigment étudié pour ses propriétés antioxydantes et anti-inflammatoires potentielles. Son absorption est faible seule, mais elle peut être améliorée avec du poivre noir et des matières grasses."
+      "correctIndex": 0,
+      "explanation": "Le curcuma (Curcuma longa) contient de la curcumine, un pigment étudié pour ses propriétés antioxydantes et anti-inflammatoires potentielles. Sa biodisponibilité est naturellement faible. Certaines formulations associant la pipérine du poivre noir ou des lipides montrent une absorption améliorée dans des études, mais cet effet n'est pas uniforme selon les préparations. À doses élevées ou sur de longues périodes, le curcuma peut interagir avec des anticoagulants. L'EFSA n'a pas encore validé d'allégations thérapeutiques pour la curcumine."
     },
     {
       "id": "8",
@@ -110,55 +110,55 @@
         "La mélisse"
       ],
       "correctIndex": 3,
-      "explanation": "La mélisse est traditionnellement utilisée pour favoriser la détente et le confort digestif. Elle est souvent préparée en infusion, parfois associée à la camomille ou à la passiflore."
+      "explanation": "La mélisse (Melissa officinalis) est traditionnellement utilisée pour favoriser la détente et le confort digestif. Elle contient de l'acide rosmarinique et des terpènes qui lui confèrent ses propriétés calmantes légères. À l'opposé, le café et le maté contiennent de la caféine, et le tabac de la nicotine — deux substances stimulantes qui aggravent plutôt la nervosité. La mélisse est souvent associée à la valériane ou à la passiflore dans les préparations pour le sommeil."
     },
     {
       "id": "9",
       "question": "Quelle plante piquante est réputée riche en minéraux et utilisée en infusion ou en soupe ?",
       "answers": [
-        "L’ortie",
-        "Le jasmin",
-        "La rose",
-        "Le lilas"
+        "La bourrache",
+        "L'ortie",
+        "La prêle",
+        "Le pissenlit"
       ],
-      "correctIndex": 0,
-      "explanation": "L’ortie est riche en minéraux et traditionnellement utilisée en cuisine ou en tisane. Ses feuilles fraîches sont urticantes, mais la cuisson ou le séchage neutralise cet effet."
+      "correctIndex": 1,
+      "explanation": "L'ortie (Urtica dioica) se distingue par ses feuilles couvertes de poils urticants qui injectent des composés irritants au contact de la peau. La cuisson ou le séchage neutralise cet effet. Elle est aussi riche en fer, magnésium, calcium et vitamines, ce qui en fait un usage traditionnel alimentaire et en tisane. La prêle est connue pour sa teneur en silice, et le pissenlit pour ses usages diurétique et hépatique — mais aucune des deux n'est urticante."
     },
     {
       "id": "10",
-      "question": "Quelle plante est traditionnellement utilisée pour apaiser les maux de gorge légers ?",
+      "question": "Quelle plante est reconnue depuis l'Antiquité pour son action émolliente sur les muqueuses de la gorge et contient de la glycyrrhizine ?",
       "answers": [
-        "Le riz",
-        "La sauge",
-        "La banane",
-        "La pomme de terre"
+        "Le thym",
+        "L'eucalyptus",
+        "La réglisse",
+        "La mauve"
       ],
-      "correctIndex": 1,
-      "explanation": "La sauge est utilisée en gargarisme ou en infusion pour le confort de la gorge. Elle contient des composés puissants : son huile essentielle et les usages prolongés sont à éviter sans avis professionnel."
+      "correctIndex": 2,
+      "explanation": "La réglisse (Glycyrrhiza glabra) contient de la glycyrrhizine, un composé qui lui confère son goût sucré caractéristique et ses propriétés émollientes sur les muqueuses. Elle est utilisée depuis l'Antiquité pour la gorge et les voies digestives. La glycyrrhizine peut provoquer une hypertension et une rétention de sodium en cas de consommation prolongée ; son usage est déconseillé chez les personnes hypertendues."
     },
     {
       "id": "11",
-      "question": "Quelle plante est connue pour ses petites fleurs jaunes et son usage traditionnel sur les coups légers ?",
+      "question": "Quelle plante est connue pour ses petites fleurs jaunes et son usage traditionnel en application externe sur les coups légers ?",
       "answers": [
-        "Le lotus",
-        "Le lierre",
-        "L’arnica",
-        "Le roseau"
+        "L'arnica",
+        "Le calendula",
+        "L'harpagophytum",
+        "Le millepertuis"
       ],
-      "correctIndex": 2,
-      "explanation": "L’arnica est utilisée en application externe sur les bleus et les coups légers. Elle ne doit pas être appliquée sur une plaie ouverte ni être ingérée sous forme non adaptée, car elle peut être toxique."
+      "correctIndex": 0,
+      "explanation": "L'arnica (Arnica montana) est utilisée en gel ou en crème sur les hématomes et contusions légères. Le calendula et le millepertuis sont aussi appliqués en usage cutané, mais l'arnica est la référence pour les coups. Elle ne doit pas être appliquée sur une plaie ouverte ni ingérée sous forme non adaptée, car elle peut être toxique à haute dose."
     },
     {
       "id": "12",
-      "question": "Quelle plante grimpante est souvent associée au sommeil dans les préparations traditionnelles ?",
+      "question": "Quelle plante grimpante originaire d'Amérique est traditionnellement utilisée pour favoriser le sommeil et réduire l'anxiété légère ?",
       "answers": [
-        "La vigne",
+        "La valériane",
         "Le houblon",
-        "Le lierre",
+        "La mélisse",
         "La passiflore"
       ],
       "correctIndex": 3,
-      "explanation": "La passiflore est traditionnellement utilisée pour favoriser la détente et le sommeil léger. Elle peut provoquer de la somnolence et doit être utilisée avec prudence avec des médicaments sédatifs."
+      "explanation": "La passiflore (Passiflora incarnata) est originaire d'Amérique du Nord et centrale. C'est une plante grimpante utilisée en phytothérapie pour ses effets sédatifs légers sur l'anxiété et les troubles du sommeil. Le houblon est aussi une plante grimpante aux propriétés sédatives, mais il est originaire d'Europe et d'Asie. La valériane et la mélisse ne sont pas grimpantes."
     },
     {
       "id": "13",
@@ -170,19 +170,19 @@
         "La menthe verte"
       ],
       "correctIndex": 0,
-      "explanation": "Le ginkgo biloba est étudié pour ses effets possibles sur la circulation et certaines fonctions cognitives. Il peut interagir avec des anticoagulants ou augmenter le risque de saignement chez certaines personnes."
+      "explanation": "Le ginkgo biloba est étudié pour ses effets potentiels sur la circulation périphérique et certaines fonctions cognitives. L'EMA distingue deux niveaux d'usage : certains extraits définis de feuilles font l'objet d'essais cliniques sur les troubles cognitifs légers, tandis que la feuille en poudre ne bénéficie que d'un usage traditionnel reconnu. Les résultats cliniques restent hétérogènes selon les populations. Il peut interagir avec des antiagrégants plaquettaires comme l'aspirine, des anticoagulants comme la warfarine, et augmenter le risque de saignement."
     },
     {
       "id": "14",
-      "question": "Quelle plante est couramment utilisée en infusion pour ses effets diurétiques traditionnels ?",
+      "question": "Quelle plante aux fleurs jaunes et aux graines plumeuses est traditionnellement utilisée en phytothérapie pour favoriser l'élimination urinaire ?",
       "answers": [
-        "Le cacao",
+        "La prêle",
         "Le pissenlit",
-        "La vanille",
-        "Le poivron"
+        "L'orthosiphon",
+        "La reine-des-prés"
       ],
       "correctIndex": 1,
-      "explanation": "Le pissenlit est traditionnellement utilisé pour stimuler l’élimination urinaire. Cette propriété peut être utile dans certains usages bien-être, mais elle demande prudence en cas de maladie rénale ou de traitement diurétique."
+      "explanation": "Le pissenlit (Taraxacum officinale) est traditionnellement utilisé pour favoriser l'élimination urinaire, usage reconnu dans les monographies de l'EMA. Il est aussi employé en usage traditionnel pour le confort digestif et hépatique, bien que ce dernier usage soit moins formellement documenté. La prêle et l'orthosiphon partagent un usage diurétique similaire. La reine-des-prés est davantage associée à ses propriétés anti-inflammatoires. Le pissenlit est déconseillé en cas d'obstruction des voies biliaires."
     },
     {
       "id": "15",
@@ -194,7 +194,7 @@
         "Le romarin"
       ],
       "correctIndex": 2,
-      "explanation": "La sauge est parfois utilisée pour accompagner les bouffées de chaleur, notamment à la ménopause. Elle contient toutefois des composés actifs puissants et n’est pas adaptée à tout le monde."
+      "explanation": "La sauge officinale (Salvia officinalis) est parfois utilisée pour accompagner les bouffées de chaleur à la ménopause dans un cadre traditionnel, bien que le mécanisme exact reste mal élucidé et que les preuves cliniques soient limitées. Elle contient de la thuyone, potentiellement neurotoxique à fortes doses : les cures prolongées ou les formes très concentrées sont déconseillées sans avis médical."
     },
     {
       "id": "16",
@@ -202,15 +202,15 @@
       "answers": [
         "Le fenugrec",
         "Le cumin",
-        "L’anis",
+        "L'anis",
         "Le psyllium"
       ],
       "correctIndex": 3,
-      "explanation": "Le psyllium contient des fibres solubles qui gonflent au contact de l’eau et facilitent le transit. Il doit toujours être pris avec beaucoup d’eau pour éviter les risques d’étouffement ou d’obstruction."
+      "explanation": "Le psyllium (Plantago ovata) contient des fibres solubles qui gonflent au contact de l'eau et facilitent le transit en augmentant le volume des selles. Il est reconnu par l'EMA comme laxatif de lest. Il doit toujours être pris avec une grande quantité d'eau pour éviter les risques d'obstruction digestive."
     },
     {
       "id": "17",
-      "question": "Quelle plante est traditionnellement utilisée pour stimuler la vigilance grâce à la caféine ?",
+      "question": "Quelle plante est traditionnellement utilisée pour stimuler la vigilance grâce à sa teneur naturelle en caféine ?",
       "answers": [
         "Le guarana",
         "La camomille",
@@ -218,19 +218,19 @@
         "La lavande"
       ],
       "correctIndex": 0,
-      "explanation": "Le guarana contient naturellement de la caféine et peut augmenter la vigilance. Il doit être consommé avec modération, surtout chez les personnes sensibles, hypertendues ou sujettes aux troubles du sommeil."
+      "explanation": "Le guarana (Paullinia cupana) contient naturellement de la caféine. La teneur varie selon les parties utilisées et les formes galéniques, ce qui rend toute comparaison directe avec le café difficile à généraliser. Il peut augmenter la vigilance et réduire la fatigue. Il doit être consommé avec modération, en particulier chez les personnes hypertendues, sujettes aux palpitations ou sensibles à la caféine."
     },
     {
       "id": "18",
-      "question": "Quelle racine est souvent utilisée dans les traditions médicinales asiatiques comme plante tonique ?",
+      "question": "Quelle plante adaptogène est utilisée depuis plus de deux millénaires en médecine traditionnelle chinoise et coréenne, et dont le nom signifie « racine de l'homme » ?",
       "answers": [
-        "La betterave",
+        "L'ashwagandha",
         "Le ginseng",
-        "Le radis noir",
-        "La carotte"
+        "La maca",
+        "L'éleuthérocoque"
       ],
       "correctIndex": 1,
-      "explanation": "Le ginseng est considéré comme une plante adaptogène dans plusieurs traditions, utilisée pour soutenir l’énergie et la résistance au stress. Il peut interagir avec certains traitements et ne convient pas à tous."
+      "explanation": "Le ginseng (Panax ginseng) doit son nom au mandarin renshen, qui signifie « racine d'homme » en référence à la forme anthropomorphe de sa racine. Il est utilisé depuis plus de deux millénaires en médecine traditionnelle chinoise et coréenne comme tonique général. L'ashwagandha joue un rôle comparable dans la médecine ayurvédique indienne, mais les deux plantes sont botaniquement sans lien. La maca est une plante andine, et l'éleuthérocoque vient de Sibérie et d'Asie du Nord-Est."
     },
     {
       "id": "19",
@@ -242,19 +242,20 @@
         "Le maté"
       ],
       "correctIndex": 2,
-      "explanation": "La valériane est traditionnellement utilisée pour favoriser l’endormissement et réduire la nervosité légère. Elle peut entraîner une somnolence : il vaut mieux éviter de conduire après en avoir pris."
+      "explanation": "La valériane (Valeriana officinalis) est traditionnellement utilisée pour favoriser l'endormissement et réduire la nervosité légère. Son mécanisme d'action n'est pas encore totalement élucidé, mais elle est reconnue par l'EMA pour cet usage. Elle peut entraîner de la somnolence résiduelle le lendemain et interagir avec d'autres sédatifs."
     },
     {
       "id": "20",
       "question": "Quelle précaution est essentielle avec les plantes médicinales ?",
       "answers": [
-        "Les utiliser sans limite parce qu’elles sont naturelles",
-        "Les mélanger systématiquement avec de l’alcool",
-        "Ignorer les traitements en cours",
-        "Vérifier les contre-indications et interactions possibles"
+        "Doubler les doses si les effets ne sont pas immédiats",
+        "Arrêter tout traitement médical au profit des plantes",
+        "Vérifier les contre-indications et interactions possibles",
+        "Préférer toujours les formes concentrées en gélules"
       ],
-      "correctIndex": 3,
-      "explanation": "Naturel ne signifie pas sans danger. Certaines plantes peuvent interagir avec des médicaments, être déconseillées pendant la grossesse ou poser problème en cas de maladie chronique. Un avis professionnel est recommandé en cas de doute."
+      "correctIndex": 2,
+      "explanation": "Naturel ne signifie pas sans danger. Le millepertuis peut réduire l'efficacité de nombreux médicaments dont certains contraceptifs hormonaux et immunosuppresseurs, car il induit des enzymes hépatiques. Le ginkgo peut interagir avec des antiagrégants plaquettaires comme l'aspirine et augmenter le risque de saignement. Certaines plantes sont contre-indiquées pendant la grossesse ou en cas de maladie chronique. Un avis médical ou pharmaceutique est recommandé avant tout usage régulier."
     }
   ]
 }
+

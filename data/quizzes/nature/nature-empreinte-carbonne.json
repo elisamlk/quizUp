@@ -1,8 +1,8 @@
 {
   "slug": "quiz-nature-empreinte-carbone-connaissances",
   "title": "Quiz Nature - Empreinte carbone - Comprendre son impact environnemental",
-  "description": "Comprends l’empreinte carbone et ses impacts sur l’environnement à travers ce quiz éducatif et accessible.",
-  "descriptionSeo": "Ce quiz nature de 20 questions aborde l’empreinte carbone et ses impacts sur le climat. Transports, alimentation, énergie, numérique et consommation : identifie les principales sources d’émissions de CO2 et comprends leurs conséquences environnementales. Apprends quels gestes du quotidien permettent de réduire efficacement ton impact. Un quiz éducatif accessible à tous pour mieux comprendre les enjeux climatiques et agir de manière plus responsable.",
+  "description": "Comprends l'empreinte carbone et ses impacts sur l'environnement à travers ce quiz éducatif et accessible.",
+  "descriptionSeo": "Ce quiz nature de 20 questions aborde l'empreinte carbone et ses impacts sur le climat. Transports, alimentation, énergie, numérique et consommation : identifie les principales sources d'émissions de CO2 et comprends leurs conséquences environnementales. Apprends quels gestes du quotidien permettent de réduire efficacement ton impact. Un quiz éducatif accessible à tous pour mieux comprendre les enjeux climatiques et agir de manière plus responsable.",
   "category": {
     "name": "Nature",
     "slug": "nature"
@@ -18,243 +18,243 @@
   "questions": [
     {
       "id": "1",
-      "question": "Qu’est-ce que l’empreinte carbone ?",
+      "question": "Qu'est-ce que l'empreinte carbone d'une personne ou d'une activité ?",
       "answers": [
-        "La quantité de déchets produits",
-        "La quantité de CO2 émise par une activité",
-        "La surface utilisée par une personne",
-        "La consommation d’eau"
+        "La quantité de déchets solides produits",
+        "La totalité des émissions de gaz à effet de serre générées, exprimée en équivalent CO2",
+        "La surface de terrain nécessaire pour absorber la pollution",
+        "La consommation d'eau liée aux activités humaines"
       ],
       "correctIndex": 1,
-      "explanation": "L’empreinte carbone mesure les émissions de gaz à effet de serre liées à une activité, exprimées en équivalent CO2."
+      "explanation": "L'empreinte carbone comptabilise l'ensemble des gaz à effet de serre émis directement ou indirectement par une activité ou une personne, exprimés en tonnes d'équivalent CO₂ (tCO₂e). Elle inclut le CO₂, mais aussi le méthane, le protoxyde d'azote et d'autres gaz. En France, selon l'ADEME, l'empreinte carbone moyenne par habitant est estimée à environ 9 à 10 tCO₂e par an."
     },
     {
       "id": "2",
-      "question": "Quel secteur émet le plus de CO2 au niveau mondial ?",
+      "question": "Quel secteur est la plus grande source d'émissions de CO2 au niveau mondial ?",
       "answers": [
         "Les transports",
-        "L’agriculture",
-        "La production d’énergie",
-        "Le tourisme"
+        "L'agriculture",
+        "La production d'énergie à partir de combustibles fossiles",
+        "Le bâtiment"
       ],
       "correctIndex": 2,
-      "explanation": "La production d’énergie, notamment à partir de combustibles fossiles, est la principale source d’émissions de CO2."
+      "explanation": "Selon l'Agence internationale de l'énergie (AIE), la production d'électricité et de chaleur à partir de combustibles fossiles représente environ 34 % des émissions mondiales de CO₂ liées à l'énergie. En combinant l'ensemble du secteur énergétique avec l'industrie, on dépasse les deux tiers des émissions totales. Les transports arrivent en deuxième position avec environ 16 %."
     },
     {
       "id": "3",
-      "question": "Quel mode de transport émet le plus de CO2 par passager ?",
+      "question": "Quel mode de transport émet le plus de CO2 par passager et par kilomètre ?",
       "answers": [
-        "Le train",
-        "Le vélo",
-        "L’avion",
-        "Le tramway"
+        "La voiture thermique individuelle",
+        "L'avion long-courrier",
+        "Le bateau de croisière",
+        "Le SUV thermique"
       ],
-      "correctIndex": 2,
-      "explanation": "L’avion est l’un des moyens de transport les plus émetteurs de CO2 par passager et par kilomètre."
+      "correctIndex": 1,
+      "explanation": "L'avion long-courrier émet entre 200 et 300 gCO₂e par passager par kilomètre selon les estimations de l'ADEME, contre 120 à 180 g pour une voiture thermique avec un seul occupant. Si l'on intègre les effets non-CO₂ (traînées de condensation, ozone), l'impact réel de l'aviation sur le climat pourrait être deux à quatre fois supérieur au seul CO₂, selon certaines études du GIEC."
     },
     {
       "id": "4",
-      "question": "Quelle action permet de réduire son empreinte carbone ?",
+      "question": "Quelle part des émissions mondiales de gaz à effet de serre le secteur du numérique représente-t-il selon les estimations ?",
       "answers": [
-        "Utiliser davantage la voiture",
-        "Consommer plus de viande",
-        "Laisser les appareils en veille",
-        "Privilégier les transports en commun"
+        "Moins de 0,5 %",
+        "Environ 4 %",
+        "Environ 15 %",
+        "Plus de 25 %"
       ],
-      "correctIndex": 3,
-      "explanation": "Les transports en commun réduisent les émissions par personne en mutualisant les déplacements."
+      "correctIndex": 1,
+      "explanation": "Selon plusieurs études, dont celles du Shift Project et de l'ADEME, le numérique représente environ 3 à 4 % des émissions mondiales de gaz à effet de serre, soit un niveau comparable à celui de l'aviation civile. Cette empreinte inclut la fabrication des appareils, les centres de données et les réseaux de transmission. Elle est en croissance rapide avec la multiplication des usages et des appareils connectés."
     },
     {
       "id": "5",
-      "question": "Quel aliment a généralement la plus forte empreinte carbone ?",
+      "question": "Quel aliment a généralement la plus forte empreinte carbone par kilogramme produit ?",
       "answers": [
+        "Le poulet",
         "Le bœuf",
-        "Les légumes",
-        "Les fruits",
-        "Les céréales"
+        "Le porc",
+        "Le saumon d'élevage"
       ],
-      "correctIndex": 0,
-      "explanation": "La production de bœuf émet beaucoup de gaz à effet de serre, notamment du méthane."
+      "correctIndex": 1,
+      "explanation": "Selon les estimations de la FAO et de l'Université d'Oxford, produire 1 kg de bœuf émet en moyenne environ 27 kgCO₂e, contre 6 kg pour le porc, 5 kg pour le poulet et 6 à 8 kg pour le saumon d'élevage. L'élevage bovin génère du méthane lors de la digestion des ruminants (fermentation entérique) et consomme de grandes surfaces de terres, souvent déforestées pour la culture de soja fourrage."
     },
     {
       "id": "6",
-      "question": "Que signifie “neutralité carbone” ?",
+      "question": "Que signifie réellement « neutralité carbone » pour une entreprise ou un État ?",
       "answers": [
-        "Ne produire aucun déchet",
-        "Émettre uniquement de l’oxygène",
-        "Compenser ses émissions de CO2",
-        "Utiliser uniquement du plastique"
+        "Réduire ses émissions à zéro absolu sans aucune compensation",
+        "Compenser ses émissions par des achats de crédits carbone sans réduire sa production",
+        "Équilibrer ses émissions résiduelles par des actions de réduction et de séquestration",
+        "Compenser uniquement par la plantation d'arbres"
       ],
       "correctIndex": 2,
-      "explanation": "La neutralité carbone consiste à équilibrer les émissions de CO2 avec des actions de réduction ou de compensation."
+      "explanation": "La neutralité carbone désigne un état où les émissions résiduelles incompressibles sont compensées par des puits de carbone — forêts, sols, captage technologique — de façon à atteindre un bilan net zéro. Elle implique d'abord de réduire massivement les émissions à la source, puis de compenser ce qui ne peut pas être évité. Se contenter d'acheter des crédits carbone sans réduire ses émissions est souvent qualifié de « greenwashing »."
     },
     {
       "id": "7",
-      "question": "Quel type d’énergie émet le moins de CO2 ?",
+      "question": "Quelle source d'énergie émet le moins de CO2 par kilowattheure produit sur l'ensemble de son cycle de vie ?",
       "answers": [
-        "Le charbon",
-        "Le pétrole",
-        "L’énergie solaire",
-        "Le gaz"
+        "Le gaz naturel",
+        "Le nucléaire",
+        "L'énergie solaire photovoltaïque",
+        "L'hydroélectricité au fil de l'eau"
       ],
-      "correctIndex": 2,
-      "explanation": "Les énergies renouvelables comme le solaire produisent très peu d’émissions de CO2 en fonctionnement."
+      "correctIndex": 3,
+      "explanation": "Selon les données du GIEC, l'hydroélectricité au fil de l'eau émet en valeur médiane de cycle de vie environ 4 gCO₂e/kWh, contre 20 à 50 g pour le solaire photovoltaïque, 12 g pour le nucléaire et 490 g pour le gaz naturel. Le charbon dépasse 820 gCO₂e/kWh. Cette médiane cache toutefois des disparités : certains grands barrages en zone tropicale peuvent émettre bien davantage en raison du méthane produit par la décomposition de la biomasse immergée lors de la mise en eau. Les énergies renouvelables et le nucléaire restent globalement les options les moins carbonées."
     },
     {
       "id": "8",
-      "question": "Quel geste du quotidien réduit les émissions ?",
+      "question": "Quelle activité numérique quotidienne génère la plus faible empreinte carbone par usage ?",
       "answers": [
-        "Laisser les lumières allumées",
-        "Éteindre les appareils inutilisés",
-        "Acheter plus souvent",
-        "Utiliser la climatisation en permanence"
+        "Regarder une heure de streaming vidéo HD",
+        "Envoyer un email avec une pièce jointe lourde",
+        "Effectuer une recherche sur un moteur de recherche",
+        "Participer à une visioconférence d'une heure"
       ],
-      "correctIndex": 1,
-      "explanation": "Éteindre les appareils permet de réduire la consommation d’énergie et donc les émissions associées."
+      "correctIndex": 2,
+      "explanation": "Une recherche sur un moteur de recherche émet environ 0,2 à 0,3 gCO₂e selon les estimations, contre 4 à 50 g pour une heure de streaming vidéo HD, 10 à 50 g pour un email avec pièce jointe volumineuse, et 50 à 150 g pour une heure de visioconférence. La fabrication des terminaux (smartphones, ordinateurs) représente toutefois la majorité de l'empreinte carbone du numérique, bien avant les usages."
     },
     {
       "id": "9",
-      "question": "Quel gaz contribue fortement à l’effet de serre ?",
+      "question": "Quel gaz à effet de serre possède le pouvoir de réchauffement global le plus élevé sur 100 ans ?",
       "answers": [
-        "L’oxygène",
-        "Le dioxyde de carbone",
-        "L’azote",
-        "L’hélium"
+        "Le dioxyde de carbone (CO₂)",
+        "Le méthane (CH₄)",
+        "Le protoxyde d'azote (N₂O)",
+        "La vapeur d'eau (H₂O)"
       ],
-      "correctIndex": 1,
-      "explanation": "Le CO2 est l’un des principaux gaz responsables du réchauffement climatique."
+      "correctIndex": 2,
+      "explanation": "Selon le GIEC, le protoxyde d'azote (N₂O) possède un pouvoir de réchauffement global (PRG) d'environ 265 fois celui du CO₂ sur 100 ans, contre 28 pour le méthane. Le N₂O provient principalement des engrais azotés agricoles et de certains procédés industriels. Malgré des concentrations atmosphériques bien plus faibles que le CO₂, il représente environ 7 % des émissions mondiales de GES en équivalent CO₂."
     },
     {
       "id": "10",
-      "question": "Pourquoi acheter local réduit-il l’empreinte carbone ?",
+      "question": "Pourquoi acheter local ne garantit-il pas systématiquement une empreinte carbone plus faible ?",
       "answers": [
-        "Parce que c’est moins cher",
-        "Parce que cela réduit les transports",
-        "Parce que les produits sont plus beaux",
-        "Parce que cela consomme plus d’eau"
+        "Parce que le transport représente souvent une faible part de l'empreinte totale du produit",
+        "Parce que les producteurs locaux utilisent toujours plus d'emballages",
+        "Parce que les circuits courts consomment davantage d'énergie de stockage",
+        "Parce que les produits locaux sont systématiquement moins frais"
       ],
-      "correctIndex": 1,
-      "explanation": "Moins de transport signifie généralement moins d’émissions liées à la logistique."
+      "correctIndex": 0,
+      "explanation": "Le transport ne représente souvent que 5 à 15 % de l'empreinte carbone totale d'un aliment selon les analyses de cycle de vie. La méthode de production — agriculture intensive avec engrais chimiques, élevage en hors-sol, serres chauffées — pèse bien davantage. Une tomate espagnole cultivée en plein champ peut ainsi avoir une empreinte inférieure à une tomate locale produite en serre chauffée. La saisonnalité et le mode de production comptent autant que la distance."
     },
     {
       "id": "11",
-      "question": "Quel appareil consomme le plus d’énergie à la maison ?",
+      "question": "Quel poste représente la plus grande part de la consommation énergétique d'un logement en France ?",
       "answers": [
+        "Le chauffe-eau électrique",
         "Le chauffage",
-        "La lampe",
-        "Le téléphone",
-        "La radio"
+        "Le réfrigérateur",
+        "Le lave-linge"
       ],
-      "correctIndex": 0,
-      "explanation": "Le chauffage représente une grande part de la consommation énergétique des logements."
+      "correctIndex": 1,
+      "explanation": "Selon l'ADEME, le chauffage représente entre 60 et 70 % de la consommation énergétique totale d'un logement en France. C'est pourquoi l'isolation thermique est l'un des leviers les plus efficaces pour réduire l'empreinte carbone résidentielle. Le chauffe-eau arrive en deuxième position (10 à 15 %), devant l'électroménager et l'éclairage."
     },
     {
       "id": "12",
-      "question": "Que permet le recyclage ?",
+      "question": "Quel matériau voit son empreinte carbone diminuer le plus fortement lorsqu'il est recyclé plutôt que produit à partir de matières premières vierges ?",
       "answers": [
-        "Augmenter les déchets",
-        "Économiser des ressources",
-        "Produire plus de CO2",
-        "Polluer davantage"
+        "Le verre",
+        "Le papier",
+        "Le plastique PET",
+        "L'aluminium"
       ],
-      "correctIndex": 1,
-      "explanation": "Le recyclage limite l’extraction de nouvelles matières et réduit l’impact environnemental."
+      "correctIndex": 3,
+      "explanation": "Recycler de l'aluminium consomme environ 95 % moins d'énergie que produire de l'aluminium primaire à partir de bauxite, qui nécessite une électrolyse extrêmement énergivore. La production primaire émet entre 8 et 17 kgCO₂e par kilogramme selon la source d'électricité utilisée. Par comparaison, le recyclage du verre réduit les émissions d'environ 25 à 30 % et celui du papier d'environ 40 %."
     },
     {
       "id": "13",
-      "question": "Quel comportement augmente l’empreinte carbone ?",
+      "question": "Quel gaz à effet de serre l'agriculture émet-elle principalement via l'élevage des ruminants ?",
       "answers": [
-        "Réparer ses objets",
-        "Réutiliser",
-        "Jeter rapidement",
-        "Recycler"
+        "Le dioxyde de carbone (CO₂)",
+        "Le méthane (CH₄)",
+        "Le dioxyde de soufre (SO₂)",
+        "Le monoxyde de carbone (CO)"
       ],
-      "correctIndex": 2,
-      "explanation": "Remplacer fréquemment des objets augmente la production et donc les émissions associées."
+      "correctIndex": 1,
+      "explanation": "Les ruminants comme les bovins et les ovins produisent du méthane (CH₄) lors de leur digestion, par un processus appelé fermentation entérique. L'agriculture est responsable d'environ 10 à 12 % des émissions mondiales de GES, et l'élevage représente la majeure partie de celles-ci. Le méthane a un pouvoir de réchauffement 28 fois supérieur au CO₂ sur 100 ans, mais sa durée de vie atmosphérique est plus courte (environ 12 ans contre des siècles pour le CO₂)."
     },
     {
       "id": "14",
-      "question": "Quel moyen de transport est le plus écologique ?",
+      "question": "Par rapport à une voiture thermique avec un seul occupant, le covoiturage à deux personnes divise approximativement l'empreinte carbone par personne de quel facteur ?",
       "answers": [
-        "La voiture thermique",
-        "L’avion",
-        "Le vélo",
-        "Le scooter"
+        "Par 1,2",
+        "Par 2",
+        "Par 4",
+        "Par 10"
       ],
-      "correctIndex": 2,
-      "explanation": "Le vélo n’émet pas directement de CO2 et reste l’un des moyens les plus écologiques."
+      "correctIndex": 1,
+      "explanation": "Partager un trajet en voiture à deux occupants divise par deux l'empreinte carbone par personne, puisque les émissions du véhicule restent identiques mais sont réparties sur plus de passagers. À quatre occupants, l'empreinte est divisée par quatre, la rapprochant de celle d'un bus. Le covoiturage longue distance est ainsi l'un des leviers les plus simples pour réduire significativement son empreinte transport sans changer de véhicule."
     },
     {
       "id": "15",
-      "question": "Quel secteur utilise beaucoup d’énergie numérique ?",
+      "question": "Quel composant de l'infrastructure numérique consomme le plus d'électricité à l'échelle mondiale ?",
       "answers": [
-        "Les data centers",
-        "Les forêts",
-        "Les montagnes",
-        "Les rivières"
+        "Les réseaux de téléphonie mobile (antennes 4G/5G)",
+        "Les appareils mobiles des utilisateurs finaux",
+        "Les centres de données (data centers)",
+        "Les câbles sous-marins de transmission"
       ],
-      "correctIndex": 0,
-      "explanation": "Les centres de données consomment énormément d’électricité pour fonctionner et refroidir les serveurs."
+      "correctIndex": 2,
+      "explanation": "Selon l'AIE, les centres de données consomment plusieurs centaines de térawattheures d'électricité par an, soit 1 à 2 % de la consommation électrique mondiale — une part en croissance rapide avec le développement de l'intelligence artificielle et du cloud. Cette énergie sert à faire fonctionner les serveurs, mais aussi à les refroidir, ce qui représente parfois 40 % de la consommation totale d'un data center. Les grands acteurs du cloud comme Google, Amazon et Microsoft sont parmi les plus importants consommateurs d'électricité au monde."
     },
     {
       "id": "16",
-      "question": "Pourquoi limiter la climatisation est utile ?",
+      "question": "Pourquoi la climatisation contribue-t-elle au réchauffement climatique au-delà de sa consommation électrique ?",
       "answers": [
-        "Elle consomme peu d’énergie",
-        "Elle produit du froid naturel",
-        "Elle augmente la biodiversité",
-        "Elle consomme beaucoup d’électricité"
+        "Elle rejette de la vapeur d'eau froide qui perturbe les précipitations",
+        "Elle utilise des fluides frigorigènes dont certains sont des gaz à effet de serre puissants",
+        "Elle absorbe le CO₂ de l'air ambiant et le rejette concentré",
+        "Elle consomme de l'oxygène atmosphérique lors du refroidissement"
       ],
-      "correctIndex": 3,
-      "explanation": "La climatisation est très énergivore et augmente les émissions de gaz à effet de serre."
+      "correctIndex": 1,
+      "explanation": "Les systèmes de climatisation utilisent des fluides frigorigènes — notamment des hydrofluorocarbures (HFC) — dont le pouvoir de réchauffement global peut être des milliers de fois supérieur à celui du CO₂. Des fuites lors de l'installation, de la maintenance ou de la fin de vie des appareils libèrent ces gaz directement dans l'atmosphère. Le Protocole de Kigali (2016) vise à réduire progressivement l'utilisation des HFC à l'échelle mondiale."
     },
     {
       "id": "17",
-      "question": "Quel geste aide à réduire les émissions alimentaires ?",
+      "question": "Qu'est-ce que l'affichage environnemental d'un produit alimentaire est censé indiquer au consommateur ?",
       "answers": [
-        "Manger plus de viande",
-        "Réduire le gaspillage alimentaire",
-        "Acheter plus",
-        "Jeter les restes"
+        "Le prix de revient écologique calculé par le fabricant",
+        "La distance parcourue par le produit depuis son lieu de fabrication",
+        "L'empreinte carbone et d'autres impacts environnementaux sur l'ensemble du cycle de vie",
+        "Le pourcentage d'ingrédients issus de l'agriculture biologique"
       ],
-      "correctIndex": 1,
-      "explanation": "Réduire le gaspillage limite la production inutile et donc les émissions associées."
+      "correctIndex": 2,
+      "explanation": "L'affichage environnemental vise à informer le consommateur sur l'impact écologique d'un produit tout au long de son cycle de vie : production des matières premières, transformation, transport, emballage et fin de vie. En France, l'ADEME a piloté des expérimentations avec des entreprises volontaires depuis 2021, dans le cadre de la loi Climat et Résilience. L'indicateur inclut l'empreinte carbone, mais aussi la consommation d'eau, la biodiversité et d'autres critères."
     },
     {
       "id": "18",
-      "question": "Quel matériau nécessite beaucoup d’énergie à produire ?",
+      "question": "Pourquoi la production d'aluminium primaire est-elle particulièrement émettrice de gaz à effet de serre ?",
       "answers": [
-        "Le plastique recyclé",
-        "Le verre recyclé",
-        "L’aluminium",
-        "Le papier recyclé"
+        "Parce qu'elle nécessite une électrolyse très énergivore pour extraire le métal de la bauxite",
+        "Parce que la bauxite libère du méthane lors de son extraction minière",
+        "Parce que le raffinage de l'aluminium nécessite de grandes quantités d'eau chauffée",
+        "Parce que les fours de fusion utilisent exclusivement du charbon comme combustible"
       ],
-      "correctIndex": 2,
-      "explanation": "La production d’aluminium est très énergivore, notamment lors de l’extraction et du raffinage."
+      "correctIndex": 0,
+      "explanation": "L'aluminium primaire est obtenu par électrolyse de l'alumine extraite de la bauxite, un procédé qui consomme entre 13 et 17 kWh d'électricité par kilogramme d'aluminium produit. Si cette électricité provient de centrales à charbon, l'empreinte carbone peut dépasser 20 kgCO₂e/kg. À l'inverse, recycler de l'aluminium ne consomme que 5 % de cette énergie, ce qui en fait l'un des matériaux pour lesquels le recyclage offre le plus grand gain environnemental."
     },
     {
       "id": "19",
-      "question": "Quelle action réduit les émissions liées au logement ?",
+      "question": "Quelle pratique numérique contribue significativement à l'empreinte carbone sans que les utilisateurs en soient souvent conscients ?",
       "answers": [
-        "Isoler son habitation",
-        "Ouvrir les fenêtres en hiver",
-        "Chauffer plus",
-        "Utiliser plus d’énergie"
+        "Mettre son téléphone en mode avion la nuit",
+        "Conserver longtemps ses appareils électroniques plutôt que les renouveler",
+        "Stocker massivement des données dans le cloud sans les supprimer",
+        "Utiliser le Wi-Fi plutôt que les données mobiles"
       ],
-      "correctIndex": 0,
-      "explanation": "Une bonne isolation limite les pertes de chaleur et réduit la consommation d’énergie."
+      "correctIndex": 2,
+      "explanation": "Stocker des données dans le cloud — photos, vidéos, emails, sauvegardes — sollicite en permanence des serveurs qui consomment de l'électricité pour fonctionner et se refroidir. Selon l'ADEME, 1 Go de données stockées émet environ 1 à 2 gCO₂e par heure de stockage actif. À l'inverse, conserver ses appareils plus longtemps est l'un des gestes les plus efficaces : la fabrication d'un smartphone représente 70 à 80 % de son empreinte carbone totale sur sa durée de vie."
     },
     {
       "id": "20",
-      "question": "Pourquoi réduire sa consommation est important ?",
+      "question": "Quel objectif de limitation du réchauffement climatique l'Accord de Paris de 2015 fixe-t-il comme seuil le plus ambitieux ?",
       "answers": [
-        "Pour produire plus",
-        "Pour consommer plus vite",
-        "Pour limiter les ressources utilisées",
-        "Pour augmenter les déchets"
+        "Limiter le réchauffement à 3 °C par rapport aux niveaux préindustriels",
+        "Limiter le réchauffement à 2 °C par rapport aux niveaux préindustriels",
+        "Limiter le réchauffement à 1,5 °C par rapport aux niveaux préindustriels",
+        "Maintenir le réchauffement en dessous de 1 °C par rapport aux niveaux préindustriels"
       ],
       "correctIndex": 2,
-      "explanation": "Réduire la consommation diminue la production, les ressources utilisées et les émissions de CO2."
+      "explanation": "L'Accord de Paris, signé par 196 parties en décembre 2015, fixe comme objectif de « contenir l'élévation de la température moyenne de la planète nettement en dessous de 2 °C par rapport aux niveaux préindustriels » et de « poursuivre les efforts pour limiter cette élévation à 1,5 °C ». Le seuil de 1,5 °C est jugé plus ambitieux car il permettrait d'éviter certains points de basculement climatiques irréversibles. Selon le GIEC, atteindre cet objectif nécessite de réduire les émissions mondiales de CO₂ d'environ 45 % d'ici 2030 par rapport à 2010."
     }
   ]
 }

@@ -18,143 +18,243 @@
   "questions": [
     {
       "id": "1",
-      "question": "Quelle fleur apparaît souvent dès la fin de l’hiver ?",
-      "answers": ["Le tournesol", "Le chrysanthème", "La jonquille", "Le cactus"],
+      "question": "Quelle fleur de bulbe apparaît souvent dès la fin de l'hiver, avant même les dernières gelées ?",
+      "answers": [
+        "Le tournesol",
+        "Le chrysanthème d'automne",
+        "La jonquille",
+        "La rose trémière"
+      ],
       "correctIndex": 2,
-      "explanation": "La jonquille pousse grâce à ses réserves souterraines et fleurit dès les premiers redoux."
+      "explanation": "La jonquille (Narcissus pseudonarcissus) fleurit dès janvier-mars grâce aux réserves nutritives accumulées dans son bulbe souterrain pendant l'été précédent. Comme les tulipes et les crocus, elle appartient aux géophytes, des plantes qui survivent l'hiver sous forme d'organes souterrains. Le chrysanthème, lui, fleurit en automne ; le tournesol en plein été."
     },
     {
       "id": "2",
-      "question": "Quand récolte-t-on généralement les fraises ?",
-      "answers": ["Au printemps et début d’été", "En hiver", "En automne", "Toute l’année naturellement"],
-      "correctIndex": 0,
-      "explanation": "Les fraises mûrissent avec la chaleur et l’ensoleillement du printemps."
+      "question": "Quand récolte-t-on généralement les fraises en pleine saison, sans serre ni forçage ?",
+      "answers": [
+        "En plein hiver",
+        "Uniquement en automne",
+        "En janvier et février",
+        "Du printemps au début de l'été"
+      ],
+      "correctIndex": 3,
+      "explanation": "Les fraises (Fragaria × ananassa) mûrissent principalement de mai à juillet dans les zones tempérées, selon les variétés et le climat. Elles ont besoin de jours allongés et de chaleur pour produire. Certaines variétés remontantes produisent aussi en septembre, mais la grande récolte reste printanière. En dehors des serres chauffées, les fraises ne poussent pas en hiver."
     },
     {
       "id": "3",
-      "question": "Quel légume est typique de l’automne ?",
-      "answers": ["Le concombre", "Le melon", "La tomate", "La courge"],
+      "question": "Quel légume-fruit est typiquement récolté en automne et se conserve bien pendant plusieurs mois ?",
+      "answers": [
+        "Le concombre d'été",
+        "Le melon de plein champ",
+        "La tomate en grappe",
+        "La courge butternut"
+      ],
       "correctIndex": 3,
-      "explanation": "Les courges mûrissent en fin d’été et sont récoltées en automne pour leur conservation."
+      "explanation": "Les courges (genre Cucurbita) sont semées au printemps, se développent tout l'été et sont récoltées en septembre-octobre. Leur écorce durcie à maturité leur permet une conservation de plusieurs mois dans un endroit frais et sec. Le concombre, le melon et la tomate sont des légumes d'été qui ne supportent pas le stockage prolongé et disparaissent avec les premières gelées."
     },
     {
       "id": "4",
-      "question": "Quelle plante aromatique pousse surtout en été ?",
-      "answers": ["Le basilic", "Le sapin", "La mousse", "Le houx"],
+      "question": "Quel phénomène biologique nécessite une période de froid pour déclencher la floraison de certaines plantes ?",
+      "answers": [
+        "La vernalisation",
+        "La photosynthèse estivale",
+        "La transpiration foliaire",
+        "La pollinisation croisée"
+      ],
       "correctIndex": 0,
-      "explanation": "Le basilic nécessite chaleur et soleil pour se développer correctement."
+      "explanation": "La vernalisation est le processus par lequel certaines plantes — comme le blé d'hiver, la tulipe ou le myosotis — ont besoin d'une exposition prolongée au froid pour déclencher leur floraison au printemps. Sans cette période froide, elles restent en phase végétative. Ce mécanisme évite une floraison prématurée en automne qui serait compromise par le gel hivernal."
     },
     {
       "id": "5",
-      "question": "Quel arbre fleurit avant de produire ses fruits au printemps ?",
-      "answers": ["Le cerisier", "Le pin", "Le palmier", "Le cèdre"],
-      "correctIndex": 0,
-      "explanation": "Le cerisier fleurit au printemps avant que les fruits ne se développent."
+      "question": "Quel arbre fruitier commun fleurit spectaculairement au printemps avant de produire ses fruits ?",
+      "answers": [
+        "Le pin sylvestre",
+        "Le cyprès commun",
+        "Le cerisier",
+        "Le thuya occidental"
+      ],
+      "correctIndex": 2,
+      "explanation": "Le cerisier (Prunus avium ou Prunus cerasus) fleurit en mars-avril, avant l'apparition des feuilles chez certaines variétés, ce qui rend sa floraison particulièrement visible. Les fleurs sont pollinisées par les insectes, puis les cerises se forment et mûrissent en juin-juillet. La floraison précoce le rend sensible aux gelées tardives, qui peuvent compromettre la récolte."
     },
     {
       "id": "6",
-      "question": "Quand les tomates poussent-elles le mieux ?",
-      "answers": ["En hiver", "En automne froid", "Pendant la saison chaude", "En plein gel"],
-      "correctIndex": 2,
-      "explanation": "Les tomates ont besoin de chaleur et de soleil pour croître et produire."
+      "question": "Quel phénomène lié à la durée du jour influence la floraison de nombreuses plantes ?",
+      "answers": [
+        "La capillarité racinaire",
+        "Le photopériodisme",
+        "La transpiration nocturne",
+        "La minéralisation du sol"
+      ],
+      "correctIndex": 1,
+      "explanation": "Le photopériodisme est la capacité des plantes à détecter la durée relative du jour et de la nuit pour réguler leur floraison. Les plantes de jours courts (comme le chrysanthème) fleurissent quand les nuits s'allongent en automne. Les plantes de jours longs (comme l'épinard ou l'iris) fleurissent en été quand les jours sont longs. Ce mécanisme repose sur une protéine sensible à la lumière rouge, le phytochrome."
     },
     {
       "id": "7",
-      "question": "Quelle partie permet à certaines plantes de survivre l’hiver ?",
-      "answers": ["Le pollen", "Le bulbe", "La fleur", "La feuille"],
+      "question": "Quelle structure souterraine permet à certaines plantes de stocker des réserves et de repartir au printemps ?",
+      "answers": [
+        "Le pollen",
+        "Le bulbe",
+        "Le pétale",
+        "Le style"
+      ],
       "correctIndex": 1,
-      "explanation": "Le bulbe stocke de l’énergie pour permettre à la plante de repousser au printemps."
+      "explanation": "Le bulbe est un organe de réserve constitué de feuilles charnues superposées autour d'un plateau basal. Il stocke glucides et eau pour permettre à la plante de passer l'hiver en dormance et de repartir vigoureusement au printemps sans dépendre immédiatement du sol. Les tulipes, jonquilles, jacinthes et ails utilisent cette stratégie. La rhizome, le tubercule et le corme sont d'autres organes de réserve similaires."
     },
     {
       "id": "8",
-      "question": "Quelle plante reste visible en hiver ?",
-      "answers": ["Le coquelicot", "Le houx", "Le maïs", "Le tournesol"],
+      "question": "Quelle plante à feuillage persistant reste verte et porte des baies rouges tout l'hiver ?",
+      "answers": [
+        "Le coquelicot annuel",
+        "Le houx commun",
+        "L'anémone des bois",
+        "Le bleuet des champs"
+      ],
       "correctIndex": 1,
-      "explanation": "Le houx conserve ses feuilles et ses baies durant l’hiver."
+      "explanation": "Le houx (Ilex aquifolium) est un arbuste à feuilles persistantes qui conserve ses feuilles coriaces et brillantes toute l'année. Ses baies rouges, toxiques pour l'humain mais nourrissantes pour les oiseaux en hiver, mûrissent en automne et restent sur la plante plusieurs mois. Le coquelicot, le bleuet et l'anémone sont des plantes annuelles ou vivaces dont les parties aériennes disparaissent en hiver."
     },
     {
       "id": "9",
-      "question": "Quel fruit est typiquement estival ?",
-      "answers": ["La pêche", "La noix", "Le coing", "La châtaigne"],
-      "correctIndex": 0,
-      "explanation": "La pêche mûrit avec les fortes chaleurs de l’été."
+      "question": "Quelle plante aromatique méditerranéenne fleurit en plein été et est récoltée pour sa fleur violette ?",
+      "answers": [
+        "Le persil plat",
+        "La ciboulette",
+        "La lavande",
+        "L'oseille sauvage"
+      ],
+      "correctIndex": 2,
+      "explanation": "La lavande (Lavandula angustifolia) fleurit de juin à août selon l'altitude et la variété. Sa récolte s'effectue lorsque les fleurs sont encore en bouton pour préserver les huiles essentielles. En Provence, la récolte se fait de juillet à août. La lavande a besoin de chaleur, de soleil et d'un sol bien drainé pour prospérer."
     },
     {
       "id": "10",
-      "question": "Quand les feuilles changent-elles de couleur ?",
-      "answers": ["En automne", "En hiver", "En été", "Au printemps"],
+      "question": "Quand les feuilles des arbres caducs changent-elles de couleur en Europe tempérée ?",
+      "answers": [
+        "En automne, quand les jours raccourcissent",
+        "En hiver, sous l'effet du gel",
+        "En été, lors des vagues de chaleur",
+        "Au printemps, lors des premières pluies"
+      ],
       "correctIndex": 0,
-      "explanation": "La baisse de lumière en automne réduit la chlorophylle et révèle d’autres pigments."
+      "explanation": "La réduction de la durée du jour en automne déclenche la dégradation de la chlorophylle, le pigment vert. Cette dégradation révèle les caroténoïdes (jaunes et oranges) déjà présents dans les feuilles, tandis que certains arbres comme l'érable synthétisent de nouveaux anthocyanes rouges. Ce processus précède la chute des feuilles, qui permet à l'arbre de récupérer les nutriments avant l'hiver."
     },
     {
       "id": "11",
-      "question": "Quel légume pousse bien en période froide ?",
-      "answers": ["La pastèque", "Le melon", "Le poireau", "La tomate"],
+      "question": "Quel légume résiste au gel et peut rester en terre tout l'hiver dans les régions tempérées ?",
+      "answers": [
+        "La pastèque",
+        "Le melon charentais",
+        "Le poireau",
+        "L'aubergine"
+      ],
       "correctIndex": 2,
-      "explanation": "Le poireau résiste au froid et peut rester en terre en hiver."
+      "explanation": "Le poireau (Allium ampeloprasum var. porrum) est l'un des légumes les plus résistants au froid : certaines variétés d'hiver supportent des températures descendant jusqu'à -10 °C. Il peut rester en terre et être récolté au fur et à mesure des besoins de novembre à mars. La pastèque, le melon et l'aubergine sont des légumes thermophiles qui ne résistent pas au gel."
     },
     {
       "id": "12",
-      "question": "Quelle plante suit la lumière du soleil ?",
-      "answers": ["Le lierre", "Le cactus", "Le tournesol", "La mousse"],
-      "correctIndex": 2,
-      "explanation": "Le tournesol suit la trajectoire du soleil pendant sa croissance."
+      "question": "Quel phénomène décrit les jeunes plants de tournesol qui orientent leur tige vers le soleil ?",
+      "answers": [
+        "L'héliotropisme",
+        "La photosynthèse orientée",
+        "Le thigmotropisme",
+        "Le géotropisme négatif"
+      ],
+      "correctIndex": 0,
+      "explanation": "L'héliotropisme est la capacité de certains végétaux à orienter leur croissance en réponse à la direction de la lumière. Chez le tournesol (Helianthus annuus), les jeunes tiges en croissance suivent le soleil d'est en ouest pendant la journée et reviennent vers l'est la nuit. Une fois la fleur ouverte et mature, elle cesse de bouger et reste fixe, orientée vers l'est pour attirer les insectes pollinisateurs au matin."
     },
     {
       "id": "13",
-      "question": "Quelle fleur est associée au mois de mai ?",
-      "answers": ["Le muguet", "Le sapin", "Le cactus", "Le palmier"],
-      "correctIndex": 0,
-      "explanation": "Le muguet fleurit au printemps et symbolise le mois de mai."
+      "question": "Quelle fleur odorante est traditionnellement offerte le 1er mai et fleurit au printemps ?",
+      "answers": [
+        "La rose d'automne",
+        "L'aster d'automne",
+        "La bruyère d'hiver",
+        "Le muguet"
+      ],
+      "correctIndex": 3,
+      "explanation": "Le muguet (Convallaria majalis) fleurit en avril-mai dans les sous-bois ombragés et humides. En France, la tradition d'offrir un brin de muguet le 1er mai remonte au XVIe siècle. Ses clochettes blanches dégagent un parfum intense grâce à des composés comme le linalol. Attention : toutes ses parties sont toxiques en cas d'ingestion."
     },
     {
       "id": "14",
-      "question": "Quand sème-t-on souvent les radis ?",
-      "answers": ["En hiver glacial", "Au printemps", "En plein été sec", "Jamais"],
-      "correctIndex": 1,
-      "explanation": "Les radis poussent rapidement dans des conditions fraîches et humides du printemps."
+      "question": "Quand sème-t-on généralement les radis pour une récolte rapide en pleine terre ?",
+      "answers": [
+        "En mars-avril ou en septembre",
+        "En janvier sous neige",
+        "En juillet lors des fortes chaleurs",
+        "En décembre sous abri"
+      ],
+      "correctIndex": 0,
+      "explanation": "Les radis (Raphanus sativus) sont des légumes à croissance très rapide (3 à 5 semaines). Ils préfèrent les températures fraîches autour de 15-18 °C et montent rapidement en graine en cas de chaleur excessive. On les sème donc au printemps (mars-avril) dès que le sol est travaillable, ou en arrière-saison (septembre). Les fortes chaleurs estivales font monter les radis en graines trop vite."
     },
     {
       "id": "15",
-      "question": "Quel fruit est typique de l’automne ?",
-      "answers": ["La fraise", "La pomme", "La pastèque", "La cerise"],
+      "question": "Quel fruit à pépins est principalement récolté en fin d'été et en automne selon les variétés ?",
+      "answers": [
+        "La fraise des bois",
+        "La pomme",
+        "La pastèque d'été",
+        "La cerise de juin"
+      ],
       "correctIndex": 1,
-      "explanation": "Les pommes sont récoltées à maturité en fin d’été et en automne."
+      "explanation": "La pomme (Malus domestica) offre une longue période de récolte selon les variétés : les premières comme la 'Transparente de Croncels' mûrissent en juillet-août, tandis que les variétés de conservation comme la 'Reinette du Canada' ou la 'Fuji' ne sont récoltées qu'en octobre-novembre. Certaines variétés tardives peuvent même être récoltées après les premières gelées légères."
     },
     {
       "id": "16",
-      "question": "Pourquoi les plantes poussent-elles moins en hiver ?",
-      "answers": ["Plus de lumière", "Plus de chaleur", "Moins de vent", "Moins de lumière et de chaleur"],
+      "question": "Pourquoi les plantes poussent-elles moins vite en hiver ?",
+      "answers": [
+        "Plus d'eau disponible dans le sol",
+        "Plus d'insectes pollinisateurs actifs",
+        "Plus d'oxygène dans l'atmosphère froide",
+        "Moins de lumière et de chaleur disponibles"
+      ],
       "correctIndex": 3,
-      "explanation": "Le manque de lumière et le froid ralentissent fortement la photosynthèse."
+      "explanation": "La photosynthèse dépend de deux facteurs principaux : la lumière (pour l'énergie) et la température (pour l'activité enzymatique). En hiver, la durée du jour raccourcit, l'intensité lumineuse diminue, et les basses températures ralentissent les enzymes de la chaîne photosynthétique. Les arbres caducs contournent ce problème en abandonnant leurs feuilles pour éviter une dépense énergétique inutile."
     },
     {
       "id": "17",
-      "question": "Quelle culture est récoltée en été ?",
-      "answers": ["Le blé", "Le sapin", "Le houx", "La mousse"],
+      "question": "Quelle céréale est semée en automne, passe l'hiver en terre et est récoltée en plein été ?",
+      "answers": [
+        "Le blé d'hiver",
+        "Le roseau commun",
+        "Le lierre grimpant",
+        "La prêle des champs"
+      ],
       "correctIndex": 0,
-      "explanation": "Le blé mûrit en été avant d’être récolté lors de la moisson."
+      "explanation": "Le blé d'hiver (Triticum aestivum) est semé en octobre-novembre. Il lève avant l'hiver, entre en dormance pendant les mois froids (phénomène de vernalisation), puis reprend sa croissance au printemps. Il arrive à maturité en juillet, période de la moisson. Le blé de printemps, lui, est semé en mars et récolté plus tardivement. Le roseau, le lierre et la prêle ne sont pas des céréales cultivées."
     },
     {
       "id": "18",
-      "question": "Quand plante-t-on les bulbes de tulipes ?",
-      "answers": ["Au printemps", "En automne", "En été", "En hiver"],
+      "question": "Quand faut-il planter les bulbes de tulipes pour obtenir une floraison au printemps ?",
+      "answers": [
+        "Au printemps, juste avant la floraison",
+        "En automne, avant les premiers gels",
+        "En plein été, lors de la canicule",
+        "En janvier, sous la neige"
+      ],
       "correctIndex": 1,
-      "explanation": "Les bulbes ont besoin du froid hivernal pour déclencher leur floraison."
+      "explanation": "Les bulbes de tulipes (Tulipa) se plantent en octobre-novembre, avant les premiers gels qui rendraient le sol impossible à travailler. Ils ont besoin d'une période de froid (vernalisation) pour que leurs hormones de croissance se réorientent vers la floraison printanière. Sans cette exposition au froid, les tulipes ne fleurissent pas. Au printemps, la chaleur croissante déclenche leur émergence."
     },
     {
       "id": "19",
-      "question": "Quelle plante aime particulièrement la chaleur ?",
-      "answers": ["Le chou", "Le poireau", "L’aubergine", "La salade"],
+      "question": "Quel arbre méditerranéen fleurit en plein hiver, souvent dès janvier ou février ?",
+      "answers": [
+        "Le chêne pédonculé",
+        "Le hêtre commun",
+        "Le mimosa",
+        "Le charme commun"
+      ],
       "correctIndex": 2,
-      "explanation": "L’aubergine nécessite chaleur et soleil pour produire correctement."
+      "explanation": "Le mimosa (Acacia dealbata) est originaire d'Australie mais naturalisé sur le littoral méditerranéen et atlantique doux. Il fleurit en grappes jaunes odorantes dès janvier-février, bien avant la plupart des arbres tempérés. Sa floraison hivernale est rendue possible par sa résistance relative au froid léger et son adaptation aux hivers doux du climat méditerranéen. Il est aujourd'hui considéré comme une espèce envahissante dans certaines régions."
     },
     {
       "id": "20",
-      "question": "Qu’est-ce qui déclenche la germination ?",
-      "answers": ["Le manque d’eau", "Le gel", "L’obscurité totale", "Chaleur et humidité"],
+      "question": "Quelles conditions déclenchent généralement la germination d'une graine ?",
+      "answers": [
+        "Le gel prolongé et l'obscurité totale",
+        "La sécheresse et la chaleur extrême",
+        "Le manque d'eau et la lumière vive",
+        "L'humidité suffisante et une température favorable"
+      ],
       "correctIndex": 3,
-      "explanation": "Les graines germent lorsque les conditions de chaleur et d’humidité deviennent favorables."
+      "explanation": "La germination nécessite trois conditions essentielles : de l'eau (pour réhydrater les tissus et activer les enzymes), une température adaptée à l'espèce (souvent entre 10 et 25 °C), et de l'oxygène pour la respiration cellulaire. Certaines graines ont aussi besoin de lumière (graines photosensibles comme la laitue), d'autres germent mieux à l'obscurité. Les graines en dormance peuvent attendre des années avant que les conditions soient réunies."
     }
   ]
 }

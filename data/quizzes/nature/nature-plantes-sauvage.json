@@ -18,143 +18,243 @@
   "questions": [
     {
       "id": "1",
-      "question": "Quelle plante sauvage est connue pour piquer mais reste comestible une fois cuite ?",
-      "answers": ["L’ortie", "La digitale", "Le lierre", "Le buis"],
-      "correctIndex": 0,
-      "explanation": "L’ortie perd son pouvoir urticant à la cuisson et devient riche en nutriments."
+      "question": "Quelle plante sauvage est connue pour piquer mais reste comestible une fois cuite ou séchée ?",
+      "answers": [
+        "La digitale",
+        "Le lierre",
+        "L'ortie",
+        "Le buis"
+      ],
+      "correctIndex": 2,
+      "explanation": "L'ortie (Urtica dioica) perd son pouvoir urticant à la cuisson ou au séchage, car les poils creux qui injectent les composés irritants sont détruits par la chaleur. Ses jeunes feuilles sont riches en minéraux et vitamines. Elle se consomme en soupe, en pesto ou blanchie comme des épinards."
     },
     {
       "id": "2",
-      "question": "Quelle plante sauvage a un goût proche de l’ail ?",
-      "answers": ["La fougère", "L’ail des ours", "Le houx", "Le thuya"],
+      "question": "Quelle plante sauvage printanière dégage une forte odeur d'ail et dont les feuilles sont comestibles crues ?",
+      "answers": [
+        "La fougère aigle",
+        "L'ail des ours",
+        "L'aspérule odorante",
+        "La mercuriale annuelle"
+      ],
       "correctIndex": 1,
-      "explanation": "L’ail des ours dégage une forte odeur d’ail, ce qui aide à l’identifier."
+      "explanation": "L'ail des ours (Allium ursinum) se reconnaît à son odeur aillée très caractéristique lorsqu'on froisse ses feuilles. Cette odeur est le critère de sécurité principal : ni le muguet ni le colchique, ses deux principaux sosies toxiques, ne dégagent cette odeur. Ses feuilles se récoltent avant la floraison, d'avril à mai, dans les sous-bois humides."
     },
     {
       "id": "3",
       "question": "Quelle partie du pissenlit est comestible ?",
-      "answers": ["Seulement la racine", "Seulement la fleur", "Toutes ses parties", "Aucune"],
+      "answers": [
+        "Seulement la racine",
+        "Seulement la fleur",
+        "Toutes ses parties",
+        "Aucune"
+      ],
       "correctIndex": 2,
-      "explanation": "Le pissenlit est entièrement comestible, de la racine aux fleurs."
+      "explanation": "Le pissenlit (Taraxacum officinale) est entièrement comestible : les jeunes feuilles se consomment en salade, les fleurs en beignets ou en gelée, et la racine séchée peut être utilisée comme substitut de café. Les feuilles sont plus amères après la montée en graines ; les cueillir au printemps, avant floraison, donne un goût plus doux."
     },
     {
       "id": "4",
-      "question": "Quelle plante toxique peut être confondue avec l’ail des ours ?",
-      "answers": ["La menthe", "Le persil", "Le thym", "Le muguet"],
+      "question": "Quelle plante toxique peut être confondue avec l'ail des ours à cause de ses feuilles similaires ?",
+      "answers": [
+        "La menthe aquatique",
+        "Le cresson de fontaine",
+        "Le cerfeuil sauvage",
+        "Le muguet"
+      ],
       "correctIndex": 3,
-      "explanation": "Le muguet est toxique et peut être confondu avec l’ail des ours, d’où l’importance de vérifier l’odeur."
+      "explanation": "Le muguet (Convallaria majalis) est toxique dans toutes ses parties et peut être confondu avec l'ail des ours avant floraison. La règle de sécurité absolue est de froisser une feuille et de vérifier l'odeur : le muguet est inodore, contrairement à l'ail des ours qui dégage immédiatement son parfum caractéristique. En cas de doute, ne jamais cueillir."
     },
     {
       "id": "5",
-      "question": "Quel fruit sauvage est comestible à maturité ?",
-      "answers": ["La mûre", "La baie de houx", "La baie de gui", "La baie de laurier-rose"],
+      "question": "Quel fruit sauvage est comestible à maturité et se reconnaît à sa couleur noire à maturité, en fin d'été ?",
+      "answers": [
+        "La mûre",
+        "La baie de houx",
+        "La baie de gui",
+        "La baie de laurier-rose"
+      ],
       "correctIndex": 0,
-      "explanation": "Les mûres sauvages sont comestibles lorsqu’elles sont bien mûres."
+      "explanation": "Les mûres (Rubus fruticosus) sont comestibles lorsqu'elles sont bien mûres, noires à maturité, généralement entre août et octobre. La baie de houx est toxique (gastro-entérite sévère), celle de gui peut causer des troubles digestifs, et toutes les parties du laurier-rose sont mortellement toxiques. Une mûre pas encore noire peut être âpre et provoquer des troubles digestifs."
     },
     {
       "id": "6",
-      "question": "Quelle règle est essentielle en cueillette sauvage ?",
-      "answers": ["Goûter pour tester", "Identifier avec certitude", "Cueillir au hasard", "Ramasser tout"],
-      "correctIndex": 1,
-      "explanation": "Une identification certaine est indispensable pour éviter toute intoxication."
+      "question": "Quelle règle est la plus importante avant de consommer une plante sauvage ?",
+      "answers": [
+        "La goûter prudemment",
+        "Observer sa couleur",
+        "La sentir uniquement",
+        "L'identifier avec certitude"
+      ],
+      "correctIndex": 3,
+      "explanation": "Une identification certaine est la règle fondamentale de la cueillette sauvage. Goûter pour tester est particulièrement dangereux : certaines plantes très toxiques, comme la grande ciguë ou l'aconit, n'ont ni goût ni odeur distinctifs avant que leur poison n'agisse. La couleur et l'odeur sont des indices utiles mais jamais suffisants seuls pour garantir la sécurité."
     },
     {
       "id": "7",
-      "question": "Quelle plante peut être utilisée en infusion ?",
-      "answers": ["La ronce toxique", "Le buis", "La camomille sauvage", "Le laurier-rose"],
-      "correctIndex": 2,
-      "explanation": "La camomille est connue pour ses propriétés calmantes en infusion."
+      "question": "Quelle plante aromatique sauvage peut être utilisée en infusion pour ses propriétés digestives et calmantes ?",
+      "answers": [
+        "L'anthémis des champs",
+        "La camomille matricaire",
+        "La tanaisie commune",
+        "L'armoise commune"
+      ],
+      "correctIndex": 1,
+      "explanation": "La camomille matricaire (Matricaria chamomilla) est reconnue en phytothérapie pour ses usages digestifs et calmants. Elle se distingue de l'anthémis des champs, qui lui ressemble, par son réceptacle floral creux et bombé visible en coupe. La tanaisie et l'armoise appartiennent à la même famille mais ne s'utilisent pas en infusion ordinaire sans précaution."
     },
     {
       "id": "8",
-      "question": "Quel danger peut exister avec certaines plantes sauvages ?",
-      "answers": ["Elles brillent", "Elles explosent", "Elles chantent", "Elles peuvent être toxiques"],
+      "question": "Quelle plante très toxique peut être confondue avec le persil ou le cerfeuil sauvage ?",
+      "answers": [
+        "La berce du Caucase",
+        "La consoude officinale",
+        "La bourrache",
+        "La grande ciguë"
+      ],
       "correctIndex": 3,
-      "explanation": "Certaines plantes contiennent des substances toxiques, parfois mortelles."
+      "explanation": "La grande ciguë (Conium maculatum) appartient à la famille des Apiacées, comme le persil, le cerfeuil et la carotte sauvage. Elle se reconnaît à ses taches pourpres sur la tige et à son odeur désagréable de souris quand on la froisse. Elle a causé de nombreuses intoxications mortelles. Toute Apiacée sauvage inconnue doit être évitée absolument."
     },
     {
       "id": "9",
-      "question": "Quelle plante sauvage est souvent utilisée en salade ?",
-      "answers": ["Le pissenlit", "Le thuya", "Le lierre", "Le buis"],
-      "correctIndex": 0,
-      "explanation": "Les jeunes feuilles de pissenlit sont consommées en salade."
+      "question": "Quelle plante sauvage aux feuilles légèrement piquantes peut se consommer en salade et pousse souvent dans les champs ?",
+      "answers": [
+        "Le gaillet gratteron",
+        "La roquette sauvage",
+        "L'euphorbe réveil-matin",
+        "La clématite des haies"
+      ],
+      "correctIndex": 1,
+      "explanation": "La roquette sauvage (Diplotaxis tenuifolia) pousse dans les terrains secs et pierreux, les friches, les bords de chemins et les vieux murs. Ses feuilles découpées ont un goût plus fort et plus poivré que la roquette cultivée. Elle se reconnaît à ses petites fleurs jaunes à quatre pétales. Le gaillet gratteron est comestible mais peu agréable cru ; l'euphorbe et la clématite sont toxiques."
     },
     {
       "id": "10",
-      "question": "Quel sens est souvent utilisé pour reconnaître une plante ?",
-      "answers": ["L’ouïe", "L’odorat", "Le goût uniquement", "La température"],
+      "question": "Quelle plante sauvage aux feuilles en forme de flèche a un goût acidulé dû à son acide oxalique ?",
+      "answers": [
+        "La patience sauvage",
+        "L'oseille sauvage",
+        "La renouée des oiseaux",
+        "Le plantain lancéolé"
+      ],
       "correctIndex": 1,
-      "explanation": "L’odeur peut être un critère d’identification important pour certaines plantes."
+      "explanation": "L'oseille sauvage (Rumex acetosa) se reconnaît à ses feuilles sagittées (en forme de flèche à la base) et à son goût acidulé caractéristique. Elle contient de l'acide oxalique, qui la rend déconseillée en grande quantité, notamment pour les personnes sujettes aux calculs rénaux. Elle se consomme en petite quantité dans les salades ou en sauce."
     },
     {
       "id": "11",
-      "question": "Quelle plante produit des fleurs comestibles souvent utilisées en sirop ?",
-      "answers": ["Le sureau", "Le laurier-rose", "Le buis", "Le houx"],
+      "question": "Quelle plante produit des fleurs comestibles souvent utilisées pour préparer des sirops ou des boissons ?",
+      "answers": [
+        "Le sureau noir",
+        "Le laurier-rose",
+        "Le buis commun",
+        "Le houx commun"
+      ],
       "correctIndex": 0,
-      "explanation": "Les fleurs de sureau sont utilisées pour faire des boissons ou sirops."
+      "explanation": "Les fleurs du sureau noir (Sambucus nigra) sont utilisées pour préparer des sirops, des boissons pétillantes et des beignets. Ses baies noires mûres sont aussi comestibles, mais uniquement cuites car elles peuvent provoquer des nausées crues. En revanche, ses feuilles, son écorce et ses baies vertes ou immatures sont toxiques. Le laurier-rose, le buis et le houx sont tous toxiques dans leurs différentes parties."
     },
     {
       "id": "12",
-      "question": "Pourquoi éviter de cueillir près des routes ?",
-      "answers": ["Pas de soleil", "Pollution", "Pas de plantes", "Trop d’eau"],
-      "correctIndex": 1,
-      "explanation": "Les plantes proches des routes peuvent être contaminées par des polluants."
+      "question": "Quelle baie sauvage noire et brillante peut être confondue avec la myrtille mais est potentiellement toxique ?",
+      "answers": [
+        "La baie d'airelle rouge",
+        "La baie de ronce immature",
+        "La morelle noire",
+        "La baie d'actée en épi"
+      ],
+      "correctIndex": 2,
+      "explanation": "La morelle noire (Solanum nigrum) produit de petites baies noires brillantes pouvant ressembler à de mini-myrtilles. Si leur toxicité est variable selon le stade de maturité et les individus, leur consommation est déconseillée car elles peuvent provoquer des troubles digestifs. La myrtille (Vaccinium myrtillus) se reconnaît à son habitat (landes, montagnes), ses feuilles caduques et sa chair bleue-violette."
     },
     {
       "id": "13",
-      "question": "Quelle plante est connue pour ses feuilles en forme de cœur et comestible ?",
-      "answers": ["La violette", "Le sapin", "Le buis", "Le cyprès"],
+      "question": "Quelle plante est connue pour ses feuilles en forme de cœur dont les fleurs et les jeunes feuilles sont comestibles ?",
+      "answers": [
+        "La violette odorante",
+        "Le sapin pectiné",
+        "Le buis sempervirens",
+        "Le cyprès commun"
+      ],
       "correctIndex": 0,
-      "explanation": "Certaines violettes ont des feuilles et fleurs comestibles."
+      "explanation": "La violette odorante (Viola odorata) a des feuilles en forme de cœur et des fleurs violet foncé comestibles au goût légèrement sucré. Ses fleurs sont utilisées en décoration culinaire, en sirop ou cristallisées. Les jeunes feuilles se consomment crues en salade ou cuites. Elle pousse dans les lisières de bois et les jardins ombragés de janvier à avril."
     },
     {
       "id": "14",
-      "question": "Quel comportement est recommandé lors de la cueillette ?",
-      "answers": ["Tout arracher", "Respecter la plante et l’environnement", "Cueillir sans regarder", "Ne rien observer"],
-      "correctIndex": 1,
-      "explanation": "Une cueillette responsable permet de préserver les écosystèmes."
+      "question": "Quelle plante sauvage aux grandes feuilles duveteuses produit des tiges et racines comestibles ?",
+      "answers": [
+        "La digitale pourpre",
+        "La belladone",
+        "L'arum tacheté",
+        "La grande bardane"
+      ],
+      "correctIndex": 3,
+      "explanation": "La grande bardane (Arctium lappa) produit des jeunes tiges tendres et des racines charnues consommées cuites au Japon sous le nom de gobo. En Europe, ses jeunes tiges pelées et cuites de la première année remplacent les cardons. Elle se reconnaît à ses grandes feuilles duveteuses et à ses capitules munis de crochets qui s'accrochent aux vêtements. La digitale et la belladone sont mortellement toxiques."
     },
     {
       "id": "15",
-      "question": "Quelle partie de l’ortie est généralement consommée ?",
-      "answers": ["Les racines uniquement", "Les fleurs uniquement", "Les jeunes feuilles", "Le bois"],
-      "correctIndex": 2,
-      "explanation": "Les jeunes feuilles sont les plus tendres et nutritives."
+      "question": "Quelle partie de l'ortie est généralement la plus consommée et pourquoi ?",
+      "answers": [
+        "Les racines, plus riches en minéraux",
+        "Les fleurs, plus sucrées",
+        "La tige, plus charnue",
+        "Les jeunes feuilles du sommet"
+      ],
+      "correctIndex": 3,
+      "explanation": "Les jeunes feuilles situées au sommet des pousses sont les plus tendres, les moins fibreuses et les plus riches en nutriments. Elles se récoltent au printemps, avant la floraison, en portant des gants. Une fois cuites, elles ne piquent plus. Les feuilles âgées et dures, situées plus bas sur la tige, deviennent coriaces et sont déconseillées en grande quantité pour les personnes ayant des problèmes rénaux, en raison de leur teneur en acide oxalique."
     },
     {
       "id": "16",
-      "question": "Pourquoi certaines plantes sont-elles toxiques ?",
-      "answers": ["Pour attirer les animaux", "Pour faire pousser plus vite", "Pour changer de couleur", "Pour se défendre"],
-      "correctIndex": 3,
-      "explanation": "Les plantes produisent des toxines comme mécanisme de défense contre les herbivores."
+      "question": "Quelle plante sauvage est considérée comme l'une des plus toxiques d'Europe et peut être confondue avec des plantes comestibles ?",
+      "answers": [
+        "La consoude officinale",
+        "La bourrache sauvage",
+        "L'aconit napel",
+        "La mélisse sauvage"
+      ],
+      "correctIndex": 2,
+      "explanation": "L'aconit napel (Aconitum napellus) est l'une des plantes les plus toxiques d'Europe. Sa racine ressemble à celle du raifort ou du panais sauvage. Toutes ses parties contiennent de l'aconitine, un alcaloïde neurotoxique pouvant être mortel en cas d'ingestion même d'une petite quantité. Il pousse dans les prairies et sous-bois d'altitude entre 800 et 2 500 mètres."
     },
     {
       "id": "17",
-      "question": "Quel fruit pousse souvent sur les ronces ?",
-      "answers": ["La mûre", "La pomme", "La poire", "La cerise"],
+      "question": "Quel petit fruit sauvage rouge vif, parfumé et comestible pousse dans les sous-bois et clairières en été ?",
+      "answers": [
+        "La fraise des bois",
+        "La baie de belladone",
+        "La baie d'if",
+        "La baie de sorbier des oiseleurs"
+      ],
       "correctIndex": 0,
-      "explanation": "Les ronces produisent des mûres comestibles en été."
+      "explanation": "La fraise des bois (Fragaria vesca) est facilement reconnaissable à ses petits fruits rouges parfumés, ses feuilles trifoliées dentées et ses stolons rampants. Ses fruits sont comestibles et savoureux. La baie de belladone est noire et toxique ; la baie d'if présente une arille rouge non toxique mais une graine extrêmement toxique à l'intérieur ; le sorbier est comestible cuit mais âpre et légèrement toxique cru."
     },
     {
       "id": "18",
-      "question": "Quel outil peut aider à identifier une plante ?",
-      "answers": ["Une radio", "Un guide botanique", "Une lampe", "Une boussole"],
-      "correctIndex": 1,
-      "explanation": "Un guide permet de comparer les caractéristiques et éviter les erreurs."
+      "question": "Quel arbuste commun des haies produit des noisettes comestibles facilement reconnaissables ?",
+      "answers": [
+        "Le noisetier commun",
+        "Le fusain d'Europe",
+        "Le cornouiller sanguin",
+        "La viorne lantane"
+      ],
+      "correctIndex": 0,
+      "explanation": "Le noisetier (Corylus avellana) est l'un des arbustes les plus faciles à identifier grâce à ses chatons mâles pendants en hiver et à ses noisettes entourées d'une collerette verte. Ses noisettes sont comestibles dès août-septembre. Le fusain, le cornouiller sanguin et la viorne produisent des fruits qui peuvent causer des troubles digestifs et ne doivent pas être consommés crus."
     },
     {
       "id": "19",
-      "question": "Pourquoi certaines baies doivent être évitées ?",
-      "answers": ["Elles sont trop petites", "Elles sont acides", "Elles peuvent être toxiques", "Elles poussent vite"],
+      "question": "Pourquoi certaines baies sauvages présentent-elles un risque même si elles semblent appétissantes ?",
+      "answers": [
+        "Elles sont difficiles à avaler",
+        "Elles poussent trop vite pour mûrir",
+        "Elles peuvent contenir des toxines malgré un aspect attractif",
+        "Elles sont trop acides pour être digérées"
+      ],
       "correctIndex": 2,
-      "explanation": "Certaines baies ressemblent à des fruits comestibles mais sont dangereuses."
+      "explanation": "Certaines plantes produisent des baies colorées et attractives précisément pour attirer les animaux disperseurs de graines, mais contiennent des toxines dangereuses pour les humains. La belladone produit des baies noires brillantes au goût douceâtre mais mortelles. Le houx produit des baies rouges toxiques. Cette ressemblance avec des fruits comestibles constitue l'un des pièges les plus fréquents en cueillette."
     },
     {
       "id": "20",
-      "question": "Quelle règle simple réduit les risques en cueillette ?",
-      "answers": ["Goûter tout", "Mélanger les plantes", "Cueillir au hasard", "Ne consommer que ce que l’on connaît"],
-      "correctIndex": 3,
-      "explanation": "Ne consommer que des plantes identifiées avec certitude limite les risques d’intoxication."
+      "question": "Quels endroits faut-il éviter pour la cueillette afin de réduire les risques de contamination ?",
+      "answers": [
+        "Les forêts de feuillus",
+        "Les bords de routes, champs traités et zones industrielles",
+        "Les prairies non fauchées",
+        "Les lisières de bois ombragées"
+      ],
+      "correctIndex": 1,
+      "explanation": "Les bords de routes concentrent des polluants — hydrocarbures, particules fines et résidus métalliques — qui peuvent être absorbés par les plantes. Les champs agricoles traités peuvent contenir des résidus de pesticides ou d'herbicides. Les zones industrielles ou polluées présentent des risques de contamination chimique. La règle est de cueillir à au moins 50 mètres d'une route fréquentée et d'éviter tout terrain dont on ne connaît pas l'historique."
     }
   ]
 }

@@ -2,7 +2,7 @@
   "slug": "quiz-nature-energies-renouvelables-solaire-eolien",
   "title": "Quiz Nature - Énergies renouvelables - Solaire, éolien… êtes-vous au point ?",
   "description": "Es-tu vraiment au niveau sur les énergies renouvelables ? 20 questions pour le prouver.",
-  "descriptionSeo": "Les énergies renouvelables sont au cœur de la transition énergétique mondiale. Solaire, éolien, hydraulique, biomasse ou géothermie : connais-tu vraiment leur fonctionnement, leurs avantages et leurs limites ? Ce quiz de 20 questions te permet de tester tes connaissances sur ces sources d’énergie essentielles, tout en comprenant leur rôle dans la réduction des émissions de gaz à effet de serre et les défis liés à leur développement.",
+  "descriptionSeo": "Les énergies renouvelables sont au cœur de la transition énergétique mondiale. Solaire, éolien, hydraulique, biomasse ou géothermie : connais-tu vraiment leur fonctionnement, leurs avantages et leurs limites ? Ce quiz de 20 questions te permet de tester tes connaissances sur ces sources d'énergie essentielles, tout en comprenant leur rôle dans la réduction des émissions de gaz à effet de serre et les défis liés à leur développement.",
   "category": {
     "name": "Nature",
     "slug": "nature"
@@ -18,19 +18,19 @@
   "questions": [
     {
       "id": "1",
-      "question": "Quelle énergie utilise directement la lumière du Soleil pour produire de l’électricité ?",
+      "question": "Quelle énergie utilise directement la lumière du Soleil pour produire de l'électricité ?",
       "answers": [
-        "L’énergie hydraulique",
-        "L’énergie solaire photovoltaïque",
-        "L’énergie éolienne",
+        "L'énergie hydraulique",
+        "L'énergie solaire photovoltaïque",
+        "L'énergie éolienne",
         "La biomasse"
       ],
       "correctIndex": 1,
-      "explanation": "L’énergie solaire photovoltaïque transforme directement la lumière du Soleil en électricité grâce à des cellules semi-conductrices. Elle ne doit pas être confondue avec le solaire thermique, qui sert surtout à produire de la chaleur."
+      "explanation": "L'énergie solaire photovoltaïque transforme directement la lumière du Soleil en électricité grâce à des cellules semi-conductrices, dont le rendement se situe généralement entre 15 et 22 % pour les panneaux commerciaux. Elle ne doit pas être confondue avec le solaire thermique, qui sert à produire de la chaleur. Selon l'AIE, la capacité installée mondiale dépassait 1 500 GW fin 2023, faisant du solaire la source d'énergie qui croît le plus rapidement au monde."
     },
     {
       "id": "2",
-      "question": "Quelle source d’énergie fait tourner les pales d’une éolienne ?",
+      "question": "Quelle source d'énergie fait tourner les pales d'une éolienne ?",
       "answers": [
         "La chaleur du sous-sol",
         "Le mouvement des marées",
@@ -38,179 +38,179 @@
         "La combustion du bois"
       ],
       "correctIndex": 2,
-      "explanation": "Une éolienne transforme l’énergie cinétique du vent en énergie mécanique, puis en électricité grâce à un générateur. Sa production varie selon la vitesse du vent et l’emplacement du parc éolien."
+      "explanation": "Une éolienne transforme l'énergie cinétique du vent en énergie mécanique, puis en électricité grâce à un générateur. Elle commence à produire à partir d'environ 3 m/s de vent, atteint sa puissance nominale vers 12 à 14 m/s, et est mise en sécurité au-delà de 25 m/s pour éviter les dommages. Sa production annuelle effective représente généralement 25 à 40 % de sa puissance maximale théorique, selon l'emplacement."
     },
     {
       "id": "3",
-      "question": "Quelle énergie renouvelable repose sur la force de l’eau en mouvement ?",
+      "question": "Quelle énergie renouvelable repose sur la force de l'eau en mouvement ?",
       "answers": [
-        "L’énergie hydraulique",
-        "L’énergie nucléaire",
-        "Le gaz naturel",
-        "Le charbon"
+        "L'énergie hydraulique",
+        "L'énergie éolienne",
+        "La géothermie",
+        "La biomasse"
       ],
       "correctIndex": 0,
-      "explanation": "L’énergie hydraulique utilise l’eau des barrages, des rivières ou des conduites forcées pour faire tourner des turbines. Elle a l’avantage d’être pilotable dans certains barrages, ce qui aide à équilibrer le réseau électrique."
+      "explanation": "L'énergie hydraulique utilise l'eau des barrages, des rivières ou des conduites forcées pour faire tourner des turbines reliées à des générateurs. Les barrages-réservoirs ont l'avantage d'être pilotables : on peut adapter la production à la demande en modulant les lâchers d'eau. Ils peuvent aussi fonctionner comme batteries géantes grâce aux stations de transfert d'énergie par pompage (STEP)."
     },
     {
       "id": "4",
       "question": "Quelle énergie renouvelable exploite la chaleur interne de la Terre ?",
       "answers": [
-        "L’énergie solaire",
-        "L’énergie marémotrice",
+        "L'énergie solaire",
+        "L'énergie marémotrice",
         "La biomasse",
         "La géothermie"
       ],
       "correctIndex": 3,
-      "explanation": "La géothermie utilise la chaleur présente dans le sous-sol pour produire du chauffage ou de l’électricité. Contrairement au solaire et à l’éolien, elle peut fonctionner de manière très régulière lorsque les conditions géologiques sont favorables."
+      "explanation": "La géothermie exploite la chaleur du sous-sol, qui augmente d'environ 3 °C tous les 100 mètres en moyenne. En surface, elle sert principalement au chauffage ; en profondeur, elle peut produire de l'électricité. L'Islande, pays volcanique, en est l'exemple le plus avancé : la géothermie y couvre près d'un quart à un tiers de la production nationale d'électricité selon les années, et la quasi-totalité du chauffage urbain."
     },
     {
       "id": "5",
-      "question": "Quelle est l’une des principales limites du solaire et de l’éolien ?",
+      "question": "Quelle est l'une des principales limites du solaire et de l'éolien comparés aux sources pilotables ?",
       "answers": [
-        "Leur production variable",
-        "Leur production permanente jour et nuit",
-        "Leur absence totale d’infrastructure",
-        "Leur dépendance au pétrole"
+        "Leur production variable selon la météo",
+        "Le coût élevé du stockage de l'énergie produite",
+        "La dépendance aux matières premières pour fabriquer les équipements",
+        "La difficulté à les raccorder aux réseaux électriques existants"
       ],
       "correctIndex": 0,
-      "explanation": "Le solaire dépend de l’ensoleillement et l’éolien dépend du vent. Cette variabilité oblige à mieux gérer le réseau, développer le stockage, diversifier les sources d’énergie et adapter la consommation."
+      "explanation": "Le solaire dépend de l'ensoleillement et l'éolien de la vitesse du vent : leur production peut varier fortement d'une heure à l'autre et ne coïncide pas toujours avec les pics de consommation. Cette intermittence oblige à développer le stockage, les interconnexions entre pays, les réseaux intelligents et la flexibilité des usages. Les autres options listées sont aussi de réels défis, mais la variabilité reste le défi opérationnel le plus immédiat."
     },
     {
       "id": "6",
-      "question": "Quel dispositif permet de stocker de l’électricité produite par des énergies renouvelables ?",
+      "question": "Parmi ces dispositifs, lequel est conçu spécifiquement pour stocker de l'électricité à grande échelle ?",
       "answers": [
-        "Un moteur diesel",
-        "Une batterie",
-        "Une cheminée industrielle",
-        "Une chaudière au fioul"
+        "Une batterie lithium-ion industrielle",
+        "Une station de transfert d'énergie par pompage (STEP)",
+        "Une pile à hydrogène",
+        "Un volant d'inertie"
       ],
       "correctIndex": 1,
-      "explanation": "Les batteries permettent de conserver de l’électricité pour l’utiliser plus tard, par exemple lorsque le Soleil ne brille plus ou que le vent faiblit. Le stockage est un enjeu central pour intégrer davantage d’énergies renouvelables variables."
+      "explanation": "Les stations de transfert d'énergie par pompage (STEP) sont aujourd'hui la technologie de stockage d'électricité la plus répandue à grande échelle dans le monde : elles représentent plus de 90 % des capacités de stockage installées selon l'AIE. Le principe consiste à pomper de l'eau vers un réservoir surélevé quand l'électricité est abondante, puis à la turbiner pour produire de l'électricité quand la demande est forte. Les batteries, piles à hydrogène et volants d'inertie sont des alternatives complémentaires en plein développement."
     },
     {
       "id": "7",
       "question": "Quelle énergie renouvelable utilise des matières organiques comme le bois, les déchets végétaux ou agricoles ?",
       "answers": [
-        "L’énergie solaire",
-        "L’énergie marémotrice",
+        "L'énergie solaire",
+        "L'énergie marémotrice",
         "La biomasse",
-        "L’énergie nucléaire"
+        "L'énergie géothermique"
       ],
       "correctIndex": 2,
-      "explanation": "La biomasse utilise de la matière organique pour produire de la chaleur, de l’électricité ou des carburants. Elle n’est vraiment durable que si les ressources sont renouvelées et si son exploitation ne favorise pas la déforestation."
+      "explanation": "La biomasse utilise de la matière organique — bois, résidus agricoles, déchets ménagers organiques — pour produire de la chaleur, de l'électricité ou des carburants. Elle représente environ 10 % de l'énergie primaire mondiale et constitue la première source d'énergie renouvelable en termes d'usages thermiques, notamment dans les pays en développement. Elle n'est durable que si les ressources sont renouvelées sans déforestation et si les émissions de combustion sont bien inférieures aux émissions évitées."
     },
     {
       "id": "8",
       "question": "Quel avantage majeur ont les énergies renouvelables par rapport aux énergies fossiles ?",
       "answers": [
-        "Elles ne nécessitent jamais de matériaux",
-        "Elles produisent toujours la même quantité d’énergie",
-        "Elles n’ont aucun impact environnemental",
-        "Elles émettent peu de gaz à effet de serre lors de leur utilisation"
+        "Leur coût de production est systématiquement inférieur à toutes les autres sources",
+        "Elles n'ont aucun besoin en matières premières pour leur fabrication",
+        "Elles émettent peu de gaz à effet de serre lors de leur fonctionnement",
+        "Elles garantissent une production constante indépendante des conditions climatiques"
       ],
-      "correctIndex": 3,
-      "explanation": "Les énergies renouvelables émettent généralement beaucoup moins de gaz à effet de serre que le charbon, le pétrole ou le gaz pendant leur fonctionnement. Elles ont tout de même des impacts liés à leur fabrication, leur implantation et leur recyclage."
+      "correctIndex": 2,
+      "explanation": "Les énergies renouvelables émettent très peu de gaz à effet de serre pendant leur fonctionnement, contrairement au charbon, au pétrole ou au gaz qui en libèrent lors de la combustion. Selon le GIEC, le solaire émet entre 20 et 50 gCO₂e/kWh sur l'ensemble du cycle de vie, contre plus de 820 g pour le charbon. Les ENR ont néanmoins des impacts liés à la fabrication des équipements, à leur emprise au sol et à leur recyclage en fin de vie."
     },
     {
       "id": "9",
-      "question": "Quelle énergie utilise le mouvement des marées pour produire de l’électricité ?",
+      "question": "Quelle énergie utilise le mouvement des marées pour produire de l'électricité ?",
       "answers": [
-        "L’énergie solaire thermique",
-        "L’énergie géothermique",
-        "L’énergie marémotrice",
-        "L’énergie fossile"
+        "L'énergie solaire thermique",
+        "L'énergie géothermique",
+        "L'énergie marémotrice",
+        "L'énergie hydrolienne"
       ],
       "correctIndex": 2,
-      "explanation": "L’énergie marémotrice exploite la montée et la descente des marées. Son avantage est d’être très prévisible, mais elle ne peut être installée que dans des sites côtiers adaptés, avec de forts écarts de marée."
+      "explanation": "L'énergie marémotrice exploite la différence de hauteur d'eau entre la marée haute et la marée basse pour faire tourner des turbines. Son avantage majeur est d'être très prévisible, les horaires des marées étant connus des siècles à l'avance. L'usine marémotrice de la Rance, en Bretagne, mise en service en 1966 avec une puissance de 240 MW, est l'un des rares grands sites de ce type dans le monde. Elle se distingue de l'énergie hydrolienne, qui exploite les courants sous-marins sans barrage."
     },
     {
       "id": "10",
-      "question": "Quelle énergie dépend directement de l’ensoleillement ?",
+      "question": "Quel pays produit la plus grande part de son électricité à partir de sources renouvelables ?",
       "answers": [
-        "L’énergie hydraulique",
-        "L’énergie solaire",
-        "L’énergie nucléaire",
-        "L’énergie géothermique"
+        "L'Allemagne",
+        "La France",
+        "L'Islande",
+        "Les États-Unis"
       ],
-      "correctIndex": 1,
-      "explanation": "L’énergie solaire dépend de la quantité de lumière reçue. Sa production varie selon l’heure, la météo, la saison, l’orientation des panneaux et la latitude du lieu d’installation."
+      "correctIndex": 2,
+      "explanation": "L'Islande produit la quasi-totalité de son électricité à partir de sources renouvelables — principalement l'hydroélectricité et la géothermie — grâce à sa position sur la dorsale médio-atlantique qui lui offre un accès exceptionnel à la chaleur terrestre. La Norvège présente un profil similaire, avec plus de 90 % d'hydroélectricité. Ces deux pays figurent régulièrement parmi les leaders mondiaux en proportion d'électricité renouvelable, et illustrent qu'un mix quasi totalement décarboné est techniquement atteignable avec des ressources naturelles favorables."
     },
     {
       "id": "11",
-      "question": "Quelle source est historiquement la plus grande productrice d’électricité renouvelable dans le monde ?",
+      "question": "Quelle source est historiquement la plus grande productrice d'électricité renouvelable dans le monde ?",
       "answers": [
-        "L’hydroélectricité",
+        "L'hydroélectricité",
         "La géothermie",
         "Le solaire photovoltaïque",
-        "L’énergie marémotrice"
+        "L'énergie marémotrice"
       ],
       "correctIndex": 0,
-      "explanation": "L’hydroélectricité occupe depuis longtemps une place majeure dans la production d’électricité renouvelable grâce aux barrages et aux centrales au fil de l’eau. Elle peut aussi offrir une certaine flexibilité au réseau."
+      "explanation": "L'hydroélectricité occupe depuis longtemps une place dominante dans la production d'électricité renouvelable : elle représente environ 16 % de l'électricité mondiale et plus de 60 % de la totalité de l'électricité renouvelable produite dans le monde selon l'AIE. Les barrages-réservoirs offrent aussi une flexibilité précieuse pour équilibrer le réseau en modulant leur production selon la demande."
     },
     {
       "id": "12",
-      "question": "Quel impact peut être associé à l’installation d’éoliennes ?",
+      "question": "Quel impact concret peut être associé à l'installation d'éoliennes terrestres ?",
       "answers": [
-        "La création de pétrole",
-        "La disparition des océans",
-        "L’arrêt complet du vent",
-        "Des effets sur le paysage et certaines espèces"
+        "Des effets sur le paysage et certaines espèces comme les oiseaux ou les chauves-souris",
+        "Des perturbations des systèmes radar et de l'aviation à moins de 10 km",
+        "Un bruit audible jusqu'à plusieurs dizaines de kilomètres",
+        "Un impact documenté sur certains insectes pollinisateurs comme les abeilles"
       ],
-      "correctIndex": 3,
-      "explanation": "Les éoliennes peuvent modifier les paysages, produire du bruit localement et avoir des effets sur certains oiseaux ou chauves-souris. Une bonne implantation permet de réduire ces impacts tout en conservant les bénéfices climatiques."
+      "correctIndex": 0,
+      "explanation": "Les éoliennes terrestres peuvent modifier les paysages, générer un bruit perceptible dans un rayon d'environ 500 mètres et affecter certains oiseaux et chauves-souris, notamment par collision ou perturbation des couloirs de migration. Une implantation soigneuse, des études préalables et des dispositifs d'effarouchement permettent de réduire ces impacts. Les perturbations radar sont réelles mais gérables techniquement, et aucune étude ne conclut à un impact significatif sur les abeilles à ce jour."
     },
     {
       "id": "13",
-      "question": "Quelle technologie solaire sert principalement à produire de la chaleur plutôt que de l’électricité ?",
+      "question": "Quelle technologie solaire sert principalement à produire de la chaleur plutôt que de l'électricité ?",
       "answers": [
         "Le solaire thermique",
-        "L’éolien terrestre",
+        "L'éolien terrestre",
         "La géothermie profonde",
-        "L’hydroélectricité"
+        "L'hydroélectricité"
       ],
       "correctIndex": 0,
-      "explanation": "Le solaire thermique capte la chaleur du Soleil pour chauffer de l’eau ou des bâtiments. Il se distingue du photovoltaïque, qui transforme la lumière en électricité."
+      "explanation": "Le solaire thermique capte la chaleur du Soleil via des capteurs pour chauffer de l'eau sanitaire ou des bâtiments. Il se distingue du photovoltaïque, qui transforme la lumière en électricité, et du solaire à concentration (CSP), qui utilise des miroirs pour produire de la vapeur et actionner des turbines. En France, les chauffe-eau solaires individuels couvrent en moyenne 50 à 70 % des besoins annuels en eau chaude sanitaire."
     },
     {
       "id": "14",
-      "question": "Quel est l’avantage principal de la géothermie quand le site est adapté ?",
+      "question": "Quel est l'avantage principal de la géothermie par rapport au solaire et à l'éolien pour la production d'électricité ?",
       "answers": [
-        "Elle dépend uniquement du vent",
-        "Elle fonctionne seulement en été",
-        "Elle nécessite toujours du charbon",
-        "Elle peut fournir une énergie stable"
+        "Elle est disponible dans tous les pays du monde à faible coût de forage",
+        "Elle ne nécessite aucune infrastructure souterraine",
+        "Elle peut fournir une énergie stable et pilotable indépendamment de la météo",
+        "Son coût de production est inférieur à celui du solaire dans toutes les régions"
       ],
-      "correctIndex": 3,
-      "explanation": "La géothermie peut produire de la chaleur ou de l’électricité de façon régulière, car la chaleur du sous-sol varie peu au fil de la journée. C’est un atout important pour compléter les énergies plus variables."
+      "correctIndex": 2,
+      "explanation": "Contrairement au solaire et à l'éolien, dont la production dépend de la météo, la géothermie fournit une énergie régulière et pilotable car la chaleur du sous-sol varie très peu au fil du temps. C'est un atout majeur pour assurer la stabilité du réseau électrique. Son déploiement est toutefois limité aux zones géologiquement favorables — activité volcanique, failles tectoniques — et les coûts de forage en profondeur restent élevés."
     },
     {
       "id": "15",
-      "question": "Quel est l’un des objectifs principaux du développement des énergies renouvelables ?",
+      "question": "Quel est l'un des objectifs principaux du développement des énergies renouvelables dans la transition énergétique ?",
       "answers": [
-        "Augmenter la consommation de charbon",
-        "Réduire les émissions de gaz à effet de serre",
-        "Rendre l’électricité impossible à stocker",
-        "Supprimer toute production d’énergie"
+        "Réduire les émissions de gaz à effet de serre du secteur énergétique",
+        "Garantir une indépendance énergétique totale à chaque pays producteur",
+        "Remplacer intégralement le nucléaire dans tous les mix électriques mondiaux",
+        "Éliminer tout besoin en stockage d'énergie à l'échelle du réseau"
       ],
-      "correctIndex": 1,
-      "explanation": "Les énergies renouvelables aident à remplacer une partie des énergies fossiles, responsables d’une grande part des émissions de CO₂. Elles sont donc un outil majeur de la transition énergétique, même si elles doivent s’accompagner d’efficacité et de sobriété."
+      "correctIndex": 0,
+      "explanation": "Le déploiement des énergies renouvelables vise en premier lieu à décarboner la production d'énergie, qui représente environ un tiers des émissions mondiales de GES. L'Accord de Paris fixe l'objectif de limiter le réchauffement à 1,5 °C, ce qui implique, selon plusieurs scénarios du GIEC, de multiplier très significativement la capacité renouvelable mondiale d'ici 2050. Les ENR contribuent aussi à l'indépendance énergétique et à la réduction de la dépendance aux importations fossiles, mais elles ne garantissent pas une indépendance totale ni n'éliminent le besoin de stockage."
     },
     {
       "id": "16",
-      "question": "Quel élément est indispensable au fonctionnement d’une éolienne ?",
+      "question": "Dans quelle plage de vitesse de vent une éolienne standard produit-elle de l'électricité ?",
       "answers": [
-        "Une mine de charbon",
-        "Une source de pétrole",
-        "Un vent suffisant",
-        "Une combustion permanente"
+        "Entre 0,5 et 5 m/s uniquement",
+        "Entre 3 et 25 m/s environ",
+        "Uniquement au-dessus de 30 m/s",
+        "À vitesse constante de 10 m/s exactement"
       ],
-      "correctIndex": 2,
-      "explanation": "Une éolienne ne produit que si le vent est suffisant, mais pas trop violent. En cas de tempête, certaines machines sont arrêtées pour éviter les dommages, ce qui montre que la vitesse du vent doit rester dans une plage adaptée."
+      "correctIndex": 1,
+      "explanation": "Une éolienne standard démarre sa production à partir d'environ 3 m/s (vent faible), atteint sa puissance nominale vers 12 à 14 m/s, et est automatiquement mise à l'arrêt au-delà de 25 m/s pour protéger la machine des dommages liés aux vents violents. En dessous du seuil de démarrage, la force aérodynamique est insuffisante pour vaincre les frottements mécaniques et lancer la rotation."
     },
     {
       "id": "17",
-      "question": "Quelle solution permet de produire de l’énergie renouvelable à partir de déchets organiques en l’absence d’oxygène ?",
+      "question": "Quelle solution permet de produire du biogaz à partir de déchets organiques en l'absence d'oxygène ?",
       "answers": [
         "Le raffinage pétrolier",
         "La fission nucléaire",
@@ -218,43 +218,43 @@
         "La méthanisation"
       ],
       "correctIndex": 3,
-      "explanation": "La méthanisation transforme des déchets organiques en biogaz grâce à des micro-organismes. Ce biogaz peut servir à produire de la chaleur, de l’électricité ou être injecté dans les réseaux après traitement."
+      "explanation": "La méthanisation décompose des matières organiques — effluents d'élevage, déchets alimentaires, boues de stations d'épuration — grâce à des micro-organismes en l'absence d'oxygène. Elle produit du biogaz composé principalement de méthane (55 à 70 %) et de CO₂. Ce biogaz peut être brûlé pour produire chaleur et électricité, ou épuré en biométhane et injecté dans le réseau de gaz naturel. Le résidu solide, appelé digestat, peut être utilisé comme engrais agricole."
     },
     {
       "id": "18",
-      "question": "Quelle technologie transforme directement la lumière en courant électrique ?",
+      "question": "Quelle technologie solaire concentre la lumière du Soleil à l'aide de miroirs pour produire de la vapeur et de l'électricité ?",
       "answers": [
-        "Les panneaux photovoltaïques",
-        "Les turbines hydrauliques",
-        "Les chaudières à gaz",
-        "Les moteurs thermiques"
+        "Le solaire photovoltaïque à couche mince",
+        "Le solaire thermique basse température",
+        "Le solaire à concentration (CSP)",
+        "Le solaire hybride thermodynamique domestique"
       ],
-      "correctIndex": 0,
-      "explanation": "Les panneaux photovoltaïques produisent un courant électrique lorsque la lumière frappe leurs cellules. Cette production est silencieuse et modulable, mais elle dépend fortement de l’ensoleillement disponible."
+      "correctIndex": 2,
+      "explanation": "Le solaire à concentration (CSP, Concentrated Solar Power) utilise des miroirs ou des lentilles pour focaliser la lumière solaire sur un point ou une ligne, générant des températures très élevées qui produisent de la vapeur actionnant une turbine. Contrairement au photovoltaïque, il peut intégrer un stockage thermique — par exemple dans des sels fondus — permettant de produire de l'électricité plusieurs heures après le coucher du soleil. Il est principalement déployé dans les déserts à fort ensoleillement direct, comme au Maroc (centrale Noor) ou en Espagne."
     },
     {
       "id": "19",
-      "question": "Quel défi majeur accompagne le développement du solaire et de l’éolien ?",
+      "question": "Quel minerai est particulièrement indispensable à la fabrication des batteries lithium-ion utilisées pour stocker l'énergie renouvelable ?",
       "answers": [
-        "La disparition des saisons",
-        "Le stockage et l’équilibrage du réseau",
-        "La fin de la lumière solaire",
-        "La création de charbon"
+        "Le cuivre",
+        "Le lithium",
+        "Le silicium",
+        "L'aluminium"
       ],
       "correctIndex": 1,
-      "explanation": "Comme le solaire et l’éolien produisent de manière variable, il faut équilibrer production et consommation à chaque instant. Cela passe par le stockage, les réseaux intelligents, les interconnexions et la flexibilité des usages."
+      "explanation": "Le lithium est l'élément central des batteries lithium-ion qui équipent les véhicules électriques et les systèmes de stockage stationnaire pour les énergies renouvelables. Il est principalement extrait dans le « triangle du lithium » (Bolivie, Argentine, Chili) et en Australie. La forte croissance des ENR et des véhicules électriques crée une pression croissante sur les ressources en lithium : plusieurs analyses, dont celles de l'AIE, soulignent le risque de tensions entre offre et demande à moyen terme, rendant le recyclage et la recherche de substituts essentiels. Le cuivre, le silicium et l'aluminium sont aussi utilisés dans les équipements renouvelables, mais ne jouent pas le même rôle dans le stockage électrochimique."
     },
     {
       "id": "20",
-      "question": "Quelle énergie renouvelable est généralement la plus adaptée aux zones très ensoleillées ?",
+      "question": "Quelle part de l'électricité mondiale provenait des énergies renouvelables selon les estimations récentes de l'AIE ?",
       "answers": [
-        "L’énergie marémotrice",
-        "L’énergie hydraulique de montagne",
-        "L’énergie solaire",
-        "La biomasse marine"
+        "Environ 10 %",
+        "Environ 20 %",
+        "Environ 30 %",
+        "Environ 50 %"
       ],
       "correctIndex": 2,
-      "explanation": "Les zones très ensoleillées offrent un meilleur potentiel solaire, car les panneaux peuvent produire davantage sur l’année. La performance dépend aussi de la température, de l’orientation, de l’entretien et de l’absence d’ombre."
+      "explanation": "Selon les estimations de l'Agence internationale de l'énergie (AIE), les énergies renouvelables représentaient environ 30 % de la production mondiale d'électricité en 2023, un seuil historique. L'hydroélectricité en constitue encore la majorité, mais le solaire et l'éolien connaissent la croissance la plus rapide. L'AIE prévoit que les ENR pourraient couvrir plus de 60 % de la production électrique mondiale d'ici 2030 si les politiques actuelles sont maintenues ou renforcées."
     }
   ]
 }

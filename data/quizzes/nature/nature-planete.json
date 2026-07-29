@@ -2,7 +2,7 @@
   "slug": "quiz-nature-planete-terre-connaissances",
   "title": "Quiz Nature - Planète Terre - Un quiz complet pour tous les niveaux",
   "description": "Teste tes connaissances sur la planète Terre, ses phénomènes naturels et ses écosystèmes.",
-  "descriptionSeo": "Explore la planète Terre à travers un quiz nature complet de 20 questions. Découvre sa structure interne, son atmosphère, ses océans, sa biodiversité et les grands phénomènes naturels. Comprends mieux le climat, les écosystèmes et les enjeux environnementaux actuels. Un quiz éducatif accessible à tous les niveaux pour approfondir tes connaissances et mieux saisir le fonctionnement et l’équilibre fragile de notre planète.",
+  "descriptionSeo": "Explore la planète Terre à travers un quiz nature complet de 20 questions. Découvre sa structure interne, son atmosphère, ses océans, sa biodiversité et les grands phénomènes naturels. Comprends mieux le climat, les écosystèmes et les enjeux environnementaux actuels. Un quiz éducatif accessible à tous les niveaux pour approfondir tes connaissances et mieux saisir le fonctionnement et l'équilibre fragile de notre planète.",
   "category": {
     "name": "Nature",
     "slug": "nature"
@@ -16,150 +16,245 @@
     "alt": "Quiz planète Terre et nature"
   },
   "questions": [
-  {
-  "id": "1",
-  "question": "Pourquoi la Terre est-elle légèrement aplatie aux pôles plutôt que parfaitement sphérique ?",
-  "answers": [
-    "À cause de l’attraction de la Lune",
-    "À cause de sa rotation sur elle-même",
-    "À cause des plaques tectoniques",
-    "À cause de la pression atmosphérique"
-  ],
-  "correctIndex": 1,
-  "explanation": "La rotation de la Terre génère une force centrifuge qui provoque un renflement à l’équateur et un aplatissement aux pôles."
-},
+    {
+      "id": "1",
+      "question": "Pourquoi la Terre est-elle légèrement aplatie aux pôles plutôt que parfaitement sphérique ?",
+      "answers": [
+        "À cause de l'attraction de la Lune",
+        "À cause de sa rotation sur elle-même",
+        "À cause des plaques tectoniques",
+        "À cause de la pression atmosphérique"
+      ],
+      "correctIndex": 1,
+      "explanation": "La rotation de la Terre génère une force centrifuge qui repousse la matière vers l'extérieur, provoquant un renflement à l'équateur et un aplatissement aux pôles. Le rayon équatorial mesure environ 6 378 km contre 6 357 km au pôle, soit une différence d'environ 21 km. Ce n'est donc pas une sphère parfaite mais un sphéroïde aplati, appelé géoïde."
+    },
     {
       "id": "2",
-      "question": "Quel est le principal gaz présent dans l’atmosphère terrestre ?",
-      "answers": ["Oxygène", "Dioxyde de carbone", "Azote", "Hydrogène"],
+      "question": "Quel est le principal gaz présent dans l'atmosphère terrestre ?",
+      "answers": [
+        "L'oxygène",
+        "Le dioxyde de carbone",
+        "L'azote",
+        "L'hydrogène"
+      ],
       "correctIndex": 2,
-      "explanation": "L’azote domine l’atmosphère (≈78 %) et joue un rôle essentiel dans les cycles biologiques et climatiques."
+      "explanation": "L'azote (N₂) représente environ 78 % de l'atmosphère terrestre, devant l'oxygène (~21 %), l'argon (~0,9 %) et le dioxyde de carbone (~0,04 %). Bien qu'inerte pour la plupart des organismes sous sa forme gazeuse, l'azote est essentiel à la vie : il entre dans la composition des protéines et de l'ADN, et est rendu assimilable par les plantes grâce aux bactéries fixatrices d'azote."
     },
     {
       "id": "3",
-      "question": "Quelle couche de la Terre est la plus externe ?",
-      "answers": ["Le noyau", "Le manteau", "Le magma", "La croûte"],
+      "question": "Quelle est la couche la plus externe de la Terre ?",
+      "answers": [
+        "Le noyau",
+        "Le manteau",
+        "L'asthénosphère",
+        "La croûte"
+      ],
       "correctIndex": 3,
-      "explanation": "La croûte terrestre, fine mais essentielle, supporte les continents, les océans et toute la vie connue."
+      "explanation": "La croûte terrestre est la couche solide la plus externe de la planète. Elle se divise en croûte continentale, épaisse de 30 à 50 km sous les reliefs montagneux, et en croûte océanique, plus dense mais plus mince (5 à 10 km). L'asthénosphère est une zone ductile du manteau supérieur sur laquelle reposent les plaques tectoniques, et le noyau constitue le cœur de la planète."
     },
     {
       "id": "4",
       "question": "Quel phénomène est responsable de nombreux tremblements de terre ?",
-      "answers": ["Les mouvements des plaques tectoniques", "Les marées", "Le vent", "La pluie"],
+      "answers": [
+        "Les mouvements des plaques tectoniques",
+        "L'activité volcanique seule",
+        "Les effondrements de cavités souterraines",
+        "Les failles de subduction uniquement"
+      ],
       "correctIndex": 0,
-      "explanation": "Les séismes résultent de la libération d’énergie accumulée lors des déplacements des plaques tectoniques."
+      "explanation": "La grande majorité des séismes résulte de la libération d'énergie accumulée lors des déplacements, collisions ou glissements des plaques tectoniques le long de failles. Environ 6 000 séismes sont enregistrés chaque jour dans le monde, dont la plupart sont imperceptibles. Les séismes majeurs se concentrent dans des ceintures sismiques, notamment la « ceinture de feu » du Pacifique. Les volcans et les effondrements peuvent aussi provoquer des séismes, mais d'intensité généralement moindre."
     },
     {
       "id": "5",
-      "question": "Quelle est la plus grande étendue d’eau sur Terre ?",
-      "answers": ["L’océan Atlantique", "La mer Méditerranée", "L’océan Pacifique", "L’océan Arctique"],
+      "question": "Quelle est la plus grande étendue d'eau sur Terre ?",
+      "answers": [
+        "L'océan Atlantique",
+        "La mer Méditerranée",
+        "L'océan Pacifique",
+        "L'océan Arctique"
+      ],
       "correctIndex": 2,
-      "explanation": "Le Pacifique couvre à lui seul plus du tiers de la surface terrestre et influence fortement le climat mondial."
+      "explanation": "L'océan Pacifique couvre environ 165 millions de km², soit plus que la surface combinée de tous les continents réunis. Il représente à lui seul près d'un tiers de la surface totale de la Terre. Il abrite les plus grandes profondeurs du globe, avec la fosse des Mariannes atteignant environ 11 000 mètres sous la surface, et exerce une influence majeure sur le climat mondial via les courants comme El Niño."
     },
     {
       "id": "6",
-      "question": "Quel élément protège la Terre d’une grande partie des rayons UV du Soleil ?",
-      "answers": ["Les nuages", "Le vent solaire", "La gravité", "La couche d’ozone"],
+      "question": "Quel élément protège la Terre d'une grande partie des rayons UV du Soleil ?",
+      "answers": [
+        "Les nuages",
+        "Le vent solaire",
+        "La gravité",
+        "La couche d'ozone"
+      ],
       "correctIndex": 3,
-      "explanation": "La couche d’ozone absorbe les UV nocifs, limitant les risques pour les êtres vivants et les écosystèmes."
+      "explanation": "La couche d'ozone, située dans la stratosphère entre 15 et 35 km d'altitude, absorbe la majorité des rayonnements ultraviolets nocifs (UV-B et UV-C). Son appauvrissement, causé par les chlorofluorocarbures (CFC) industriels, a conduit à la signature du protocole de Montréal en 1987, considéré comme le traité environnemental le plus efficace de l'histoire. La couche d'ozone est depuis en cours de reconstitution progressive."
     },
     {
       "id": "7",
       "question": "Quel est le principal facteur des saisons sur Terre ?",
-      "answers": ["La distance au Soleil", "L’inclinaison de l’axe de la Terre", "La rotation de la Lune", "Les vents"],
+      "answers": [
+        "La distance au Soleil",
+        "L'inclinaison de l'axe de la Terre",
+        "La rotation de la Lune",
+        "Les vents dominants"
+      ],
       "correctIndex": 1,
-      "explanation": "L’inclinaison de l’axe terrestre modifie l’angle d’ensoleillement au cours de l’année, créant les saisons."
+      "explanation": "L'axe de la Terre est incliné d'environ 23,5° par rapport au plan de son orbite. Cette inclinaison modifie l'angle sous lequel les rayons solaires frappent chaque hémisphère au fil de l'année, créant les saisons. Contrairement à une idée reçue, la distance au Soleil n'en est pas la cause : la Terre est en réalité légèrement plus proche du Soleil en janvier (périhélie) qu'en juillet (aphélie), mais l'hémisphère nord est alors en hiver."
     },
     {
       "id": "8",
       "question": "Quel est le plus grand désert du monde ?",
-      "answers": ["L’Antarctique", "Le Sahara", "Le désert de Gobi", "Le désert d’Atacama"],
+      "answers": [
+        "L'Antarctique",
+        "Le Sahara",
+        "Le désert de Gobi",
+        "Le désert d'Atacama"
+      ],
       "correctIndex": 0,
-      "explanation": "Un désert se définit par sa faible pluviométrie, ce qui fait de l’Antarctique le plus vaste malgré son froid."
+      "explanation": "Un désert se définit par sa faible pluviométrie — moins de 250 mm par an — et non par sa chaleur. L'Antarctique, avec ses précipitations inférieures à 200 mm par an dans les régions intérieures, est le plus grand désert du monde avec environ 14 millions de km². Le Sahara, souvent cité à tort comme le plus grand, couvre environ 9 millions de km² et est le plus grand désert chaud."
     },
     {
       "id": "9",
-      "question": "Quelle est la principale source d’énergie naturelle de la Terre ?",
-      "answers": ["Le vent", "Le pétrole", "La Lune", "Le Soleil"],
+      "question": "Quelle est la principale source d'énergie naturelle alimentant les cycles de la Terre ?",
+      "answers": [
+        "Le vent",
+        "La chaleur géothermique",
+        "La Lune",
+        "Le Soleil"
+      ],
       "correctIndex": 3,
-      "explanation": "Le Soleil alimente la plupart des cycles naturels, dont le climat, la photosynthèse et le cycle de l’eau."
+      "explanation": "Le Soleil est la source d'énergie qui alimente la quasi-totalité des cycles naturels terrestres : la photosynthèse, le cycle de l'eau, les vents et les courants océaniques. La constante solaire — l'énergie reçue au sommet de l'atmosphère — est d'environ 1 361 W/m². La chaleur géothermique provenant du noyau terrestre joue un rôle secondaire, principalement dans le volcanisme et la tectonique des plaques."
     },
     {
       "id": "10",
       "question": "Quel phénomène décrit une modification durable du climat de la planète ?",
-      "answers": ["L’érosion", "La marée", "Le changement climatique", "La rotation terrestre"],
+      "answers": [
+        "L'érosion",
+        "La marée",
+        "Le changement climatique",
+        "La rotation terrestre"
+      ],
       "correctIndex": 2,
-      "explanation": "Le changement climatique correspond à des variations durables liées notamment à l’augmentation des gaz à effet de serre."
+      "explanation": "Le changement climatique désigne des variations durables et à grande échelle des températures et des régimes météorologiques. Depuis l'ère préindustrielle, la température moyenne mondiale a augmenté d'environ 1,1 °C selon le sixième rapport du GIEC (2023), principalement en raison de l'augmentation des gaz à effet de serre d'origine humaine. Ses conséquences incluent la montée du niveau des mers, la multiplication des événements extrêmes et la modification des écosystèmes."
     },
     {
       "id": "11",
-      "question": "Quelle est la plus haute montagne du monde ?",
-      "answers": ["Le Mont Blanc", "Le Kilimandjaro", "L’Everest", "Le Mont Fuji"],
+      "question": "Quelle est la plus haute montagne du monde mesurée depuis le niveau de la mer ?",
+      "answers": [
+        "Le Mont Blanc",
+        "Le Kilimandjaro",
+        "L'Everest",
+        "Le Mont Fuji"
+      ],
       "correctIndex": 2,
-      "explanation": "L’Everest culmine à plus de 8 800 m grâce à la collision continue entre les plaques tectoniques."
+      "explanation": "L'Everest culmine à 8 849 mètres selon la mesure officielle réalisée conjointement par la Chine et le Népal en 2020. Il se forme à la frontière entre la plaque indienne et la plaque eurasienne dont la collision, amorcée il y a environ 50 millions d'années, soulève encore l'Himalaya d'environ 5 mm par an. L'érosion et la neige s'accumulent au sommet, rendant sa mesure précise délicate."
     },
     {
       "id": "12",
-      "question": "Quel est l’un des rôles importants des forêts sur Terre ?",
-      "answers": ["Produire du pétrole instantanément", "Créer des volcans", "Arrêter les marées", "Absorber du CO2 et abriter la biodiversité"],
-      "correctIndex": 3,
-      "explanation": "Les forêts captent le CO₂ et constituent des écosystèmes essentiels pour la biodiversité et le climat."
+      "question": "Quel est l'un des rôles importants des forêts sur Terre ?",
+      "answers": [
+        "Réguler le cycle de l'eau par évapotranspiration",
+        "Stabiliser les sols et limiter l'érosion",
+        "Absorber du CO₂ et abriter la biodiversité",
+        "Produire du bois de chauffage en priorité"
+      ],
+      "correctIndex": 2,
+      "explanation": "Les forêts remplissent de nombreuses fonctions écosystémiques : elles stockent selon les estimations environ 650 milliards de tonnes de carbone, abritent plus de 50 % des espèces terrestres connues et régulent le cycle de l'eau par évapotranspiration. La régulation hydrique et la stabilisation des sols sont également de vrais services rendus par les forêts, mais l'absorption du CO₂ couplée à la biodiversité constitue leur rôle le plus documenté dans les débats climatiques actuels."
     },
     {
       "id": "13",
       "question": "Quel est le nom du mouvement de la Terre autour du Soleil ?",
-      "answers": ["Rotation", "Révolution", "Translation verticale", "Oscillation"],
+      "answers": [
+        "Rotation",
+        "Révolution",
+        "Précession",
+        "Oscillation"
+      ],
       "correctIndex": 1,
-      "explanation": "La révolution terrestre détermine l’année et, combinée à l’inclinaison, structure les saisons."
+      "explanation": "La révolution terrestre est le mouvement de la Terre autour du Soleil, accompli en 365,25 jours — d'où l'ajout d'un jour bissextile tous les quatre ans. Ce mouvement, combiné à l'inclinaison de l'axe terrestre, détermine les saisons. La précession est un autre mouvement réel de la Terre : un lent balancement de son axe sur un cycle d'environ 26 000 ans, qui influence les ères glaciaires à très long terme."
     },
     {
       "id": "14",
-      "question": "Sous quelle forme l’eau est-elle majoritairement présente sur Terre ?",
-      "answers": ["Solide", "Liquide", "Gazeuse", "Plasma"],
+      "question": "Sous quelle forme l'eau est-elle majoritairement présente sur Terre ?",
+      "answers": [
+        "Solide",
+        "Liquide",
+        "Gazeuse",
+        "Plasma"
+      ],
       "correctIndex": 1,
-      "explanation": "La majeure partie de l’eau terrestre est liquide dans les océans, qui couvrent environ 70 % de la surface."
+      "explanation": "La majorité de l'eau terrestre est liquide dans les océans, qui couvrent environ 71 % de la surface du globe. En volume total, environ 97,5 % de l'eau est salée et se trouve dans les océans. Des 2,5 % d'eau douce, environ 69 % est immobilisée dans les glaces polaires et les glaciers, laissant moins de 1 % de l'eau douce directement accessible sous forme liquide dans les rivières, lacs et nappes phréatiques."
     },
     {
       "id": "15",
       "question": "Quel phénomène provoque principalement les marées ?",
-      "answers": ["Le vent", "La pluie", "Le Soleil uniquement", "L’attraction gravitationnelle de la Lune"],
+      "answers": [
+        "Le vent",
+        "La rotation terrestre",
+        "Le Soleil uniquement",
+        "L'attraction gravitationnelle de la Lune"
+      ],
       "correctIndex": 3,
-      "explanation": "La gravité de la Lune déforme les masses d’eau océaniques, créant les marées."
+      "explanation": "La gravité de la Lune est la principale cause des marées : elle déforme les masses d'eau océaniques en créant deux renflements, l'un côté Lune et l'autre côté opposé. Le Soleil exerce également une attraction, représentant environ un tiers de l'effet total. Lorsque Lune et Soleil sont alignés (pleine lune ou nouvelle lune), leurs effets se combinent, produisant les grandes marées de vives-eaux."
     },
     {
       "id": "16",
       "question": "Quelle zone de la Terre abrite une très grande biodiversité ?",
-      "answers": ["Les forêts tropicales", "Les déserts froids", "Les calottes glaciaires", "Les zones rocheuses sans végétation"],
+      "answers": [
+        "Les forêts tropicales",
+        "Les récifs coralliens",
+        "Les prairies tempérées",
+        "Les mangroves"
+      ],
       "correctIndex": 0,
-      "explanation": "Les forêts tropicales concentrent une grande diversité d’espèces grâce à leur climat chaud et humide stable."
+      "explanation": "Les forêts tropicales humides couvrent moins de 10 % des terres émergées mais concentrent plus de 50 % des espèces connues sur Terre, selon les estimations. Leur climat chaud, humide et stable toute l'année favorise une stratification verticale complexe et une compétition intense pour la lumière, générant une diversité exceptionnelle. Les récifs coralliens, les mangroves et certaines prairies sont aussi très riches en biodiversité, mais à plus petite échelle."
     },
     {
       "id": "17",
-      "question": "Quel gaz est essentiel à la respiration humaine ?",
-      "answers": ["Azote", "Dioxyde de carbone", "Oxygène", "Hélium"],
-      "correctIndex": 2,
-      "explanation": "L’oxygène permet aux cellules de produire de l’énergie via la respiration cellulaire."
+      "question": "Quel phénomène naturel protège la surface de la Terre d'une grande partie du vent solaire et des particules chargées émises par le Soleil ?",
+      "answers": [
+        "La couche d'ozone",
+        "Le champ magnétique terrestre",
+        "L'atmosphère troposphérique",
+        "L'effet de serre naturel"
+      ],
+      "correctIndex": 1,
+      "explanation": "Le champ magnétique terrestre, généré par les mouvements de fer en fusion dans le noyau externe liquide, forme une bulle protectrice appelée magnétosphère. Il dévie la majorité des particules chargées du vent solaire, qui auraient sinon érodé progressivement l'atmosphère terrestre comme cela s'est produit sur Mars. Ce champ magnétique crée également les aurores polaires lorsque des particules solaires pénètrent aux pôles magnétiques. Il s'inverse naturellement tous les quelques centaines de milliers d'années."
     },
     {
       "id": "18",
-      "question": "À quoi les volcans sont-ils souvent liés ?",
-      "answers": ["Aux marées uniquement", "Aux arcs-en-ciel", "Aux tempêtes de sable", "À la tectonique des plaques"],
+      "question": "À quoi les volcans sont-ils principalement liés sur Terre ?",
+      "answers": [
+        "Aux points chauds du manteau terrestre uniquement",
+        "Aux zones de subduction et aux dorsales océaniques",
+        "Aux rifts continentaux exclusivement",
+        "À la tectonique des plaques"
+      ],
       "correctIndex": 3,
-      "explanation": "Les volcans apparaissent principalement aux frontières des plaques où le magma peut remonter."
+      "explanation": "La grande majorité des volcans actifs se situe aux frontières des plaques tectoniques : aux zones de subduction, où une plaque plonge sous une autre en fondant partiellement (comme l'arc volcanique du Pacifique), et aux dorsales océaniques, où les plaques s'écartent en laissant remonter du magma. La plupart des volcans sont donc liés à la tectonique des plaques. Les points chauds constituent une autre origine du volcanisme, généralement attribuée à des panaches mantelliques profonds qui existent indépendamment des limites de plaques, même si les plaques se déplacent au-dessus d'eux."
     },
     {
       "id": "19",
-      "question": "Quelle est la durée approximative d’une rotation complète de la Terre sur elle-même ?",
-      "answers": ["24 heures", "12 heures", "48 heures", "7 jours"],
-      "correctIndex": 0,
-      "explanation": "La rotation terrestre sur elle-même détermine l’alternance jour/nuit en environ 24 heures."
+      "question": "Quel est l'âge estimé de la Terre selon les datations scientifiques actuelles ?",
+      "answers": [
+        "Environ 1 milliard d'années",
+        "Environ 4,5 milliards d'années",
+        "Environ 13,8 milliards d'années",
+        "Environ 500 millions d'années"
+      ],
+      "correctIndex": 1,
+      "explanation": "L'âge de la Terre est estimé à environ 4,54 milliards d'années, déterminé principalement par la datation radiométrique des météorites et des roches les plus anciennes connues, comme les zircons d'Australie datés à ~4,4 milliards d'années. Les 13,8 milliards d'années correspondent à l'âge de l'Univers depuis le Big Bang. Les 500 millions d'années désignent approximativement le début de la période cambrienne, marquée par l'explosion de la diversité des formes de vie complexes."
     },
     {
       "id": "20",
-      "question": "Pourquoi la Terre est-elle habitable ?",
-      "answers": ["Elle ne tourne pas", "Elle est la plus grande planète", "Elle est très éloignée du Soleil", "Elle possède de l’eau liquide et une atmosphère"],
-      "correctIndex": 3,
-      "explanation": "La combinaison d’eau liquide, d’une atmosphère protectrice et d’une température modérée permet le développement de la vie."
+      "question": "Pourquoi la Terre est-elle considérée comme habitable ?",
+      "answers": [
+        "Elle est la seule planète tellurique du système solaire",
+        "Elle possède un champ magnétique, de l'eau liquide et une atmosphère adaptée",
+        "Elle est exactement au centre de la zone habitable du système solaire",
+        "Elle est protégée par la ceinture d'astéroïdes de Jupiter"
+      ],
+      "correctIndex": 1,
+      "explanation": "L'habitabilité de la Terre résulte d'une combinaison rare de facteurs : une atmosphère contenant de l'oxygène et filtrant les UV, de l'eau liquide en abondance, un champ magnétique protégeant du vent solaire et un effet de serre naturel maintenant une température moyenne d'environ +15 °C. Mars est proche de la limite externe de la zone habitable, tandis que Vénus est située près de sa limite interne. Les conditions qui règnent aujourd'hui sur ces deux planètes ne permettent toutefois pas la présence durable d'eau liquide en surface. La protection par Jupiter est réelle mais secondaire."
     }
   ]
 }

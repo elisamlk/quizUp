@@ -1,8 +1,8 @@
 {
   "slug": "quiz-nature-science-logique-connaissances",
   "title": "Quiz Nature et science - Testez votre logique",
-  "description": "Mets ta logique à l’épreuve avec des questions mêlant nature et science.",
-  "descriptionSeo": "Ce quiz nature et science de 20 questions met à l’épreuve ton sens de la logique et ton esprit d’observation. Phénomènes naturels, lois physiques, climat et écosystèmes : chaque question demande de réfléchir et de comprendre plutôt que de mémoriser. Idéal pour tous les niveaux, ce quiz éducatif permet de développer ses capacités de raisonnement tout en explorant le fonctionnement du monde qui nous entoure.",
+  "description": "Mets ta logique à l'épreuve avec des questions mêlant nature et science.",
+  "descriptionSeo": "Ce quiz nature et science de 20 questions met à l'épreuve ton sens de la logique et ton esprit d'observation. Phénomènes naturels, lois physiques, climat et écosystèmes : chaque question demande de réfléchir et de comprendre plutôt que de mémoriser. Idéal pour tous les niveaux, ce quiz éducatif permet de développer ses capacités de raisonnement tout en explorant le fonctionnement du monde qui nous entoure.",
   "category": {
     "name": "Nature",
     "slug": "nature"
@@ -18,143 +18,243 @@
   "questions": [
     {
       "id": "1",
-      "question": "Si une plante manque de lumière, que va-t-il se produire ?",
-      "answers": ["Elle pousse vers la lumière", "Elle devient métallique", "Elle produit plus de glace", "Elle disparaît instantanément"],
+      "question": "Si une plante manque de lumière, que se passe-t-il le plus souvent ?",
+      "answers": [
+        "Elle s'oriente vers la source lumineuse",
+        "Ses feuilles deviennent plus épaisses",
+        "Elle accélère sa reproduction",
+        "Ses racines remontent vers la surface"
+      ],
       "correctIndex": 0,
-      "explanation": "Les plantes s’orientent vers la lumière grâce au phototropisme pour optimiser la photosynthèse."
+      "explanation": "Le phototropisme est la croissance orientée d'une plante vers une source lumineuse. Ce phénomène est piloté par une hormone végétale, l'auxine, qui migre du côté ombragé de la tige et y stimule l'élongation cellulaire. Le côté éclairé grandit moins vite, ce qui courbe la tige vers la lumière. Ce mécanisme permet à la plante d'optimiser sa surface de captation pour la photosynthèse."
     },
     {
       "id": "2",
-      "question": "Plus un objet est lourd, plus il tombe vite : vrai ou faux ?",
-      "answers": ["Toujours vrai", "Faux dans le vide", "Vrai uniquement sur la Lune", "Cela dépend de la couleur"],
+      "question": "Un objet plus lourd tombe-t-il toujours plus vite qu'un objet léger ?",
+      "answers": [
+        "Oui, la masse accélère toujours la chute",
+        "Non, dans le vide ils tombent à la même vitesse",
+        "Oui, car la gravité agit plus sur les lourds",
+        "Non, les objets légers tombent plus vite"
+      ],
       "correctIndex": 1,
-      "explanation": "Sans résistance de l’air, tous les objets tombent à la même vitesse quelle que soit leur masse."
+      "explanation": "Dans le vide, tous les objets tombent avec la même accélération (9,81 m/s²) quelle que soit leur masse, comme l'a montré Galilée et confirmé Newton. C'est la résistance de l'air qui fait tomber un marteau plus vite qu'une plume en conditions normales. L'astronaute David Scott a démontré cela sur la Lune en 1971 en lâchant simultanément un marteau et une plume devant une caméra."
     },
     {
       "id": "3",
-      "question": "Si la température baisse, que devient l’air ?",
-      "answers": ["Il devient plus léger", "Il disparaît", "Il devient plus dense", "Il change de couleur"],
-      "correctIndex": 2,
-      "explanation": "Le refroidissement rapproche les molécules d’air, ce qui augmente sa densité."
+      "question": "Pourquoi l'eau monte-t-elle dans une tige végétale contre la gravité ?",
+      "answers": [
+        "Grâce à la pression de la photosynthèse",
+        "Grâce à la rotation de la Terre",
+        "Grâce aux racines uniquement",
+        "Grâce à la capillarité et à la transpiration"
+      ],
+      "correctIndex": 3,
+      "explanation": "L'eau monte dans les végétaux grâce à deux mécanismes combinés : la capillarité (attraction des molécules d'eau entre elles et avec les parois des vaisseaux conducteurs) et la transpiration foliaire (évaporation par les stomates qui crée une dépression aspirant l'eau vers le haut). Un grand arbre comme un séquoia peut ainsi faire monter l'eau sur plus de 100 mètres, sans pompe mécanique."
     },
     {
       "id": "4",
-      "question": "Pourquoi voit-on des éclairs avant d’entendre le tonnerre ?",
-      "answers": ["Le son va plus vite", "Le vent bloque le son", "La Terre tourne", "La lumière va plus vite"],
+      "question": "Pourquoi voit-on les éclairs avant d'entendre le tonnerre ?",
+      "answers": [
+        "Le son arrive avant la lumière",
+        "Le vent ralentit le son",
+        "La Terre tourne entre les deux",
+        "La lumière se propage bien plus vite que le son"
+      ],
       "correctIndex": 3,
-      "explanation": "La lumière se propage beaucoup plus rapidement que le son dans l’air."
+      "explanation": "La lumière se propage à environ 300 000 km/s dans l'air, tandis que le son n'avance qu'à environ 340 m/s. Ce rapport de vitesse d'environ 880 000 à 1 explique le décalage perceptible dès quelques centaines de mètres. On peut estimer la distance d'un orage en comptant les secondes entre l'éclair et le tonnerre : chaque tranche de 3 secondes correspond à environ 1 kilomètre."
     },
     {
       "id": "5",
-      "question": "Si une surface absorbe toute la lumière, de quelle couleur apparaît-elle ?",
-      "answers": ["Noire", "Blanche", "Bleue", "Verte"],
+      "question": "Si une surface absorbe toute la lumière visible, de quelle couleur apparaît-elle ?",
+      "answers": [
+        "Noire",
+        "Blanche",
+        "Bleue",
+        "Transparente"
+      ],
       "correctIndex": 0,
-      "explanation": "Une surface qui n’émet aucune lumière visible apparaît noire à l’œil humain."
+      "explanation": "Une surface noire absorbe la quasi-totalité du rayonnement lumineux visible sans en réfléchir. En l'absence de lumière réfléchie vers l'œil, la surface est perçue comme noire. À l'inverse, une surface blanche réfléchit toutes les longueurs d'onde. Le Vantablack, un matériau développé en 2014, absorbe plus de 99,9 % de la lumière et crée un effet de « trou visuel » saisissant."
     },
     {
       "id": "6",
-      "question": "Pourquoi les montagnes sont-elles plus froides en altitude ?",
-      "answers": ["Plus proches de l’espace", "Moins de pression et d’air chaud", "Plus de lumière", "Moins de gravité"],
+      "question": "Pourquoi la température baisse-t-elle avec l'altitude dans la troposphère ?",
+      "answers": [
+        "Parce qu'on est plus proche de l'espace",
+        "Parce que la pression diminue et l'air se détend",
+        "Parce qu'il y a plus de lumière solaire",
+        "Parce que la gravité y est plus faible"
+      ],
       "correctIndex": 1,
-      "explanation": "La baisse de pression avec l’altitude entraîne une diminution de la température de l’air."
+      "explanation": "En altitude, la pression atmosphérique diminue. En se détendant, l'air se refroidit — c'est le gradient adiabatique, d'environ 6,5 °C par 1 000 mètres dans la troposphère. La proximité de l'espace n'est pas la cause : le Soleil chauffe surtout le sol terrestre, qui réchauffe l'air adjacent par conduction et convection. C'est pourquoi le sommet de l'Everest (8 849 m) est glacial malgré l'ensoleillement intense."
     },
     {
       "id": "7",
-      "question": "Si un écosystème perd un maillon, que se passe-t-il ?",
-      "answers": ["Rien ne change", "Tout disparaît immédiatement", "L’équilibre peut être perturbé", "Il devient plus stable"],
+      "question": "Comment certains animaux maintiennent-ils leur température corporelle stable dans un environnement froid ?",
+      "answers": [
+        "En absorbant la lumière du sol",
+        "En ralentissant leur digestion uniquement",
+        "Isolation et production interne de chaleur",
+        "En se nourrissant d'eau chaude"
+      ],
       "correctIndex": 2,
-      "explanation": "Les espèces étant interdépendantes, la disparition de l’une peut affecter toute la chaîne."
+      "explanation": "Les animaux homéothermes (à sang chaud), comme les mammifères et les oiseaux, maintiennent leur température interne stable grâce à deux mécanismes : l'isolation (fourrure, plumes, graisse sous-cutanée) qui limite les pertes de chaleur, et la thermogenèse (production de chaleur par le métabolisme, notamment par les frissons musculaires ou la graisse brune). Les phoques arctiques, par exemple, maintiennent ~37 °C malgré une eau à -1 °C."
     },
     {
       "id": "8",
-      "question": "Pourquoi l’eau de mer est-elle salée ?",
-      "answers": ["À cause des poissons", "À cause du soleil", "À cause du vent", "À cause des minéraux dissous"],
+      "question": "Pourquoi l'eau des océans est-elle salée ?",
+      "answers": [
+        "À cause de la décomposition des poissons",
+        "À cause des volcans sous-marins uniquement",
+        "À cause du soleil qui concentre le sel",
+        "Les minéraux dissous apportés par les fleuves"
+      ],
       "correctIndex": 3,
-      "explanation": "Les sels minéraux issus des roches s’accumulent dans les océans au fil du temps."
+      "explanation": "L'eau de pluie légèrement acide dissout les minéraux des roches continentales. Les fleuves transportent ces sels jusqu'aux océans depuis des milliards d'années. L'évaporation de l'eau concentre progressivement ces minéraux, dominés par le chlorure de sodium. La salinité moyenne des océans est d'environ 35 grammes par litre. Les volcans sous-marins contribuent aussi, mais de façon secondaire."
     },
     {
       "id": "9",
-      "question": "Plus une surface est sombre, plus elle absorbe la chaleur : vrai ou faux ?",
-      "answers": ["Vrai", "Faux", "Seulement en hiver", "Seulement la nuit"],
-      "correctIndex": 0,
-      "explanation": "Les surfaces sombres absorbent davantage de rayonnement et se réchauffent plus rapidement."
+      "question": "Une surface sombre absorbe-t-elle davantage de chaleur rayonnante qu'une surface claire ?",
+      "answers": [
+        "Non, la couleur n'a aucun effet",
+        "Oui, les surfaces sombres absorbent davantage",
+        "Seulement pour les métaux",
+        "Les surfaces claires absorbent davantage"
+      ],
+      "correctIndex": 1,
+      "explanation": "La capacité d'une surface à absorber le rayonnement est mesurée par son absorptivité. Les surfaces sombres ont une absorptivité élevée et se réchauffent plus vite au soleil. Les surfaces claires ou réfléchissantes (fort albédo) renvoient une grande part du rayonnement. C'est pourquoi les vêtements noirs sont plus chauds en plein soleil, et pourquoi les toits blancs réduisent la chaleur urbaine."
     },
     {
       "id": "10",
-      "question": "Pourquoi certains objets flottent-ils sur l’eau ?",
-      "answers": ["Ils sont légers", "Ils ont une densité inférieure à l’eau", "Ils contiennent de l’air", "Ils sont chauds"],
+      "question": "Qu'exprime le principe d'Archimède sur les objets immergés dans un fluide ?",
+      "answers": [
+        "Un objet immergé est attiré vers le fond",
+        "Poussée vers le haut = poids du fluide déplacé",
+        "Les objets flottent s'ils contiennent de l'air",
+        "La densité détermine la couleur dans l'eau"
+      ],
       "correctIndex": 1,
-      "explanation": "Un objet flotte lorsque sa densité moyenne est inférieure à celle du liquide dans lequel il est plongé."
+      "explanation": "Le principe d'Archimède (IIIe siècle av. J.-C.) énonce que tout corps immergé dans un fluide reçoit une poussée verticale vers le haut égale au poids du fluide déplacé. Si cette poussée est supérieure ou égale au poids de l'objet, il flotte. Un navire en acier flotte parce que sa forme creuse déplace un grand volume d'eau : le poids de ce volume d'eau dépasse le poids du navire, malgré l'acier."
     },
     {
       "id": "11",
-      "question": "Pourquoi les feuilles changent-elles de couleur en automne ?",
-      "answers": ["Excès d’eau", "Plus de vent", "Manque de chlorophylle", "Moins de gravité"],
-      "correctIndex": 2,
-      "explanation": "La diminution de chlorophylle révèle d’autres pigments comme les caroténoïdes."
+      "question": "Pourquoi les feuilles jaunissent-elles en automne ?",
+      "answers": [
+        "La chlorophylle s'efface, révélant d'autres pigments",
+        "L'eau envahit les cellules en excès",
+        "Le vent apporte des minéraux colorés",
+        "La gravité agit différemment en automne"
+      ],
+      "correctIndex": 0,
+      "explanation": "La réduction de la durée du jour en automne déclenche la dégradation de la chlorophylle, le pigment vert dominant. Cette dégradation révèle les caroténoïdes (jaunes et oranges), présents toute l'année mais masqués. Certains arbres comme l'érable synthétisent aussi des anthocyanes (rouges) à partir des sucres accumulés. Ce mécanisme précède la chute des feuilles, qui permet à l'arbre de récupérer les nutriments."
     },
     {
       "id": "12",
-      "question": "Si on double la distance d’une source lumineuse, que se passe-t-il ?",
-      "answers": ["La lumière double", "Rien ne change", "La lumière disparaît", "La lumière diminue fortement"],
+      "question": "Si on double la distance entre soi et une source lumineuse, comment l'intensité lumineuse évolue-t-elle ?",
+      "answers": [
+        "Elle double aussi",
+        "Elle reste identique",
+        "Elle est divisée par deux",
+        "Elle est divisée par quatre"
+      ],
       "correctIndex": 3,
-      "explanation": "L’intensité lumineuse diminue rapidement avec la distance selon une loi physique."
+      "explanation": "L'intensité lumineuse suit la loi de l'inverse du carré de la distance : si la distance double, l'intensité est divisée par 2², soit par 4. Si la distance triple, elle est divisée par 9. Cette loi s'applique aussi à la gravitation, aux champs électriques et à toute onde qui se propage en trois dimensions. Elle explique pourquoi les étoiles lointaines semblent si peu lumineuses malgré leur énergie colossale."
     },
     {
       "id": "13",
-      "question": "Pourquoi les glaciers fondent-ils ?",
-      "answers": ["À cause du réchauffement climatique", "À cause du vent", "À cause du froid", "À cause de la gravité"],
-      "correctIndex": 0,
-      "explanation": "L’augmentation globale des températures accélère la fonte des glaces."
+      "question": "Pourquoi les glaciers de montagne reculent-ils depuis plusieurs décennies ?",
+      "answers": [
+        "À cause des vents d'altitude plus forts",
+        "À cause des hivers qui compactent la neige",
+        "À cause du réchauffement climatique",
+        "La gravité les fait glisser plus vite"
+      ],
+      "correctIndex": 2,
+      "explanation": "Le recul des glaciers est l'une des conséquences les plus visibles du réchauffement climatique. La hausse des températures moyennes mondiales, liée principalement aux émissions de gaz à effet de serre, accélère la fonte estivale tout en réduisant les chutes de neige hivernale qui alimentent le glacier. En un siècle, certains glaciers alpins ont perdu la moitié de leur volume. Le GIEC projette la disparition de la majorité des glaciers de montagne d'ici 2100 dans les scénarios les plus pessimistes."
     },
     {
       "id": "14",
-      "question": "Pourquoi entend-on différemment sous l’eau ?",
-      "answers": ["Le son disparaît", "Le son se propage différemment", "Il n’y a pas d’ondes", "L’eau bloque tout"],
-      "correctIndex": 1,
-      "explanation": "Le son se transmet plus vite dans l’eau, mais notre oreille n’y est pas adaptée."
+      "question": "Pourquoi le son est-il perçu différemment sous l'eau par rapport à l'air ?",
+      "answers": [
+        "Le son ne se propage pas dans l'eau",
+        "Les ondes ne traversent pas l'eau",
+        "Le son va environ 4 fois plus vite dans l'eau",
+        "L'eau bloque les fréquences sonores"
+      ],
+      "correctIndex": 2,
+      "explanation": "Le son se propage à environ 340 m/s dans l'air, mais à environ 1 500 m/s dans l'eau — soit environ 4,4 fois plus vite — car l'eau est bien moins compressible que l'air. Notre oreille est anatomiquement adaptée à recevoir les sons aériens via le tympan. Sous l'eau, la conduction passe davantage par les os du crâne, ce qui perturbe la localisation et la qualité du son. Les cétacés comme les baleines utilisent des fréquences basses qui se propagent sur des centaines de kilomètres sous l'eau."
     },
     {
       "id": "15",
-      "question": "Pourquoi le ciel est-il bleu ?",
-      "answers": ["À cause de l’océan", "À cause des nuages", "À cause de la diffusion de la lumière", "À cause de la chaleur"],
+      "question": "Pourquoi le ciel est-il bleu en plein jour ?",
+      "answers": [
+        "L'océan réfléchit sa couleur vers le ciel",
+        "Parce que les nuages filtrent les autres couleurs",
+        "Les molécules d'air diffusent davantage le bleu",
+        "La chaleur atmosphérique émet de la lumière bleue"
+      ],
       "correctIndex": 2,
-      "explanation": "Les molécules de l’atmosphère diffusent davantage les courtes longueurs d’onde comme le bleu."
+      "explanation": "La lumière solaire blanche contient toutes les longueurs d'onde du visible. Lorsqu'elle traverse l'atmosphère, les molécules de gaz (surtout N₂ et O₂) diffusent davantage les courtes longueurs d'onde — c'est la diffusion de Rayleigh. Le bleu (~450 nm), ayant une courte longueur d'onde, est diffusé environ 5,5 fois plus que le rouge (~700 nm). Le ciel paraît donc bleu de partout où on regarde. Au lever et coucher du soleil, la lumière traverse plus d'atmosphère, et c'est le rouge qui domine."
     },
     {
       "id": "16",
-      "question": "Si une population d’animaux augmente trop, que se passe-t-il ?",
-      "answers": ["Plus de ressources apparaissent", "Rien ne change", "Ils deviennent immortels", "Les ressources diminuent"],
-      "correctIndex": 3,
-      "explanation": "Une population trop importante peut dépasser la capacité de l’environnement à la nourrir."
+      "question": "Pourquoi un manche en bois est-il moins brûlant qu'un manche en métal sortant du four ?",
+      "answers": [
+        "Le bois contient plus d'eau que le métal",
+        "Le métal conduit mieux la chaleur vers la main",
+        "Le bois réfléchit la chaleur du four",
+        "Le métal absorbe plus d'oxygène que le bois"
+      ],
+      "correctIndex": 1,
+      "explanation": "Le métal est un excellent conducteur thermique : il transfère rapidement la chaleur vers la main. Le bois, au contraire, est un bon isolant thermique, car ses cellules mortes remplies d'air ralentissent les transferts de chaleur. La conductivité thermique du fer (~50 W/m·K) est environ 200 à 300 fois supérieure à celle du bois sec (~0,15 à 0,20 W/m·K). C'est ce même principe qui explique pourquoi le sol en carrelage semble plus froid que le parquet à même température."
     },
     {
       "id": "17",
-      "question": "Pourquoi le métal chauffe-t-il rapidement ?",
-      "answers": ["Il conduit bien la chaleur", "Il est magique", "Il est liquide", "Il absorbe l’air"],
+      "question": "Pourquoi un câble électrique ou un rail de chemin de fer se dilate-t-il par forte chaleur ?",
+      "answers": [
+        "Les métaux se dilatent avec la chaleur",
+        "Ils absorbent l'humidité de l'air en été",
+        "Leur densité diminue ce qui les allonge",
+        "Ils sont traversés par plus de courant en été"
+      ],
       "correctIndex": 0,
-      "explanation": "Les métaux sont d’excellents conducteurs thermiques, ce qui accélère les transferts de chaleur."
+      "explanation": "La dilatation thermique est une propriété des matériaux : quand la température augmente, l'agitation des atomes s'intensifie et les distances interatomiques augmentent, ce qui allonge ou gonfle le matériau. L'acier se dilate d'environ 12 millionièmes de mètre par mètre et par degré Celsius. Pour un rail de 25 m, une variation de 30 °C entraîne une extension d'environ 9 mm. C'est pourquoi les rails sont posés avec des joints de dilatation pour éviter les déformations."
     },
     {
       "id": "18",
-      "question": "Pourquoi la glace flotte-t-elle ?",
-      "answers": ["Elle est plus dense", "Elle est moins dense que l’eau", "Elle contient du sel", "Elle est plus chaude"],
-      "correctIndex": 1,
-      "explanation": "La structure de la glace la rend moins dense que l’eau liquide, ce qui lui permet de flotter."
+      "question": "Pourquoi la glace flotte-t-elle sur l'eau liquide ?",
+      "answers": [
+        "Parce qu'elle est moins dense que l'eau",
+        "Parce qu'elle est plus dense que l'eau",
+        "Parce qu'elle contient du sel dissous",
+        "Parce qu'elle est plus chaude que l'eau"
+      ],
+      "correctIndex": 0,
+      "explanation": "L'eau est l'une des rares substances dont la phase solide est moins dense que la phase liquide. Quand l'eau gèle, ses molécules s'organisent en un réseau cristallin hexagonal qui occupe plus d'espace : la glace a une densité d'environ 0,917 g/cm³ contre 1,000 g/cm³ pour l'eau à 4 °C. Cette anomalie est vitale pour la vie aquatique : la glace formée en surface isole l'eau en dessous, permettant la survie des espèces en hiver."
     },
     {
       "id": "19",
-      "question": "Pourquoi les déserts sont-ils très chauds le jour ?",
-      "answers": ["Plus proches du Soleil", "Plus de vent", "Peu d’humidité et de végétation", "Moins d’air"],
+      "question": "Pourquoi les déserts sont-ils très chauds le jour mais souvent froids la nuit ?",
+      "answers": [
+        "Plus proches du Soleil que les forêts",
+        "La Terre tourne plus vite au niveau des déserts",
+        "L'humidité et la végétation manquent",
+        "Le sable réfléchit moins la lumière solaire"
+      ],
       "correctIndex": 2,
-      "explanation": "L’absence d’humidité et de végétation limite la régulation thermique et accentue la chaleur."
+      "explanation": "Dans un désert, l'absence de végétation et d'humidité amplifie les extrêmes thermiques. Le jour, sans eau pour l'évapotranspiration, toute l'énergie solaire est convertie en chaleur. La nuit, sans nuages ni humidité pour retenir la chaleur rayonnée par le sol, les températures chutent brutalement — parfois sous 0 °C même dans les déserts subtropicaux. Le Sahara peut connaître des écarts journaliers de plus de 40 °C entre le jour et la nuit."
     },
     {
       "id": "20",
-      "question": "Pourquoi les objets tombent-ils vers le sol ?",
-      "answers": ["À cause du vent", "À cause de la lumière", "À cause du son", "À cause de la gravité"],
+      "question": "Pourquoi les objets tombent-ils vers le sol quand on les lâche ?",
+      "answers": [
+        "La pression atmosphérique les pousse vers le bas",
+        "À cause du champ magnétique terrestre",
+        "À cause de la rotation de la Terre",
+        "La force gravitationnelle exercée par la Terre"
+      ],
       "correctIndex": 3,
-      "explanation": "La gravité est la force qui attire les objets vers le centre de la Terre."
+      "explanation": "La gravitation est une force d'attraction universelle entre toute masse. La Terre, de masse immense, attire vers son centre tout objet situé à sa surface ou à proximité. Newton a formalisé cette force en 1687 : F = G × m₁ × m₂ / r². L'accélération gravitationnelle à la surface terrestre est d'environ 9,81 m/s². La pression atmosphérique, le magnétisme et la rotation terrestre ont des effets bien plus faibles sur la chute des objets ordinaires."
     }
   ]
 }

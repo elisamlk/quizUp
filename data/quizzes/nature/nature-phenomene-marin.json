@@ -25,10 +25,10 @@
         "Le tsunami",
         "La marée",
         "Le gyre",
-        "L’upwelling"
+        "L'upwelling"
       ],
       "correctIndex": 1,
-      "explanation": "Les marées sont principalement causées par l’attraction gravitationnelle de la Lune et du Soleil sur les océans. Elles influencent la navigation, les écosystèmes côtiers et certaines activités humaines depuis des siècles."
+      "explanation": "Les marées résultent principalement de l'attraction gravitationnelle de la Lune et, dans une moindre mesure, du Soleil sur les masses d'eau océaniques. L'amplitude varie considérablement selon les sites : elle dépasse 13 mètres au Mont-Saint-Michel, l'un des plus forts marnages d'Europe continentale, et peut atteindre 16 mètres dans la baie de Fundy au Canada. Les marées influencent la navigation, les écosystèmes côtiers, la pêche et la production d'énergie marémotrice."
     },
     {
       "id": "2",
@@ -38,14 +38,14 @@
         "El Niño",
         "La Niña",
         "Le Gulf Stream",
-        "Le mistral"
+        "La mousson"
       ],
       "correctIndex": 0,
-      "explanation": "El Niño modifie la circulation atmosphérique mondiale et peut provoquer sécheresses, inondations ou perturbations climatiques à grande échelle. Ses effets peuvent être ressentis bien au-delà du Pacifique."
+      "explanation": "El Niño correspond à un réchauffement anormal des eaux du Pacifique équatorial central et oriental, avec des anomalies de température pouvant atteindre +1 à +3 °C selon l'intensité de l'épisode. Ce phénomène, qui se produit tous les 2 à 7 ans environ, perturbe la circulation atmosphérique mondiale et peut provoquer sécheresses, inondations et cyclones dans des régions très éloignées du Pacifique. Il fait partie du cycle ENSO (El Niño-Southern Oscillation)."
     },
     {
       "id": "3",
-      "question": "Quel phénomène est généralement considéré comme l’opposé d’El Niño ?",
+      "question": "Quel phénomène est généralement considéré comme l'opposé d'El Niño ?",
       "image": null,
       "answers": [
         "Le gyre subtropical",
@@ -54,7 +54,7 @@
         "Le courant circumpolaire"
       ],
       "correctIndex": 1,
-      "explanation": "La Niña correspond à un refroidissement anormal des eaux du Pacifique équatorial. Elle influence à son tour les régimes de pluie, les températures et l’activité cyclonique dans différentes régions du monde."
+      "explanation": "La Niña correspond à un refroidissement anormal des eaux du Pacifique équatorial, à l'opposé d'El Niño. Elle renforce les alizés et intensifie la remontée d'eaux froides le long des côtes d'Amérique du Sud. Ses effets climatiques sont souvent inverses à ceux d'El Niño : elle tend à augmenter les précipitations en Australie et en Asie du Sud-Est, et à intensifier l'activité cyclonique dans l'Atlantique. El Niño et La Niña forment ensemble le cycle ENSO, dont la période varie entre 2 et 7 ans."
     },
     {
       "id": "4",
@@ -63,11 +63,11 @@
       "answers": [
         "La marée rouge",
         "Le tsunami",
-        "L’upwelling",
+        "L'upwelling",
         "La trombe marine"
       ],
       "correctIndex": 1,
-      "explanation": "Un tsunami est une série de vagues générées par un déplacement brutal d’un grand volume d’eau. En haute mer, elles sont souvent peu visibles mais peuvent devenir dévastatrices près des côtes."
+      "explanation": "Un tsunami est une série de vagues générées par le déplacement brutal d'un grand volume d'eau, le plus souvent lors d'un séisme sous-marin. En haute mer, les vagues se propagent à une vitesse pouvant approcher 800 km/h, mais leur hauteur reste faible — parfois moins d'un mètre. À l'approche du rivage, leur vitesse diminue mais leur amplitude peut dépasser 30 mètres. Le tsunami de décembre 2004 dans l'océan Indien a causé environ 225 000 morts dans quatorze pays."
     },
     {
       "id": "5",
@@ -76,15 +76,15 @@
       "answers": [
         "Une vague scélérate",
         "Une marée de vive-eau",
-        "Une houle thermique",
+        "Une vague de tempête",
         "Une onde de Rossby"
       ],
       "correctIndex": 0,
-      "explanation": "Les vagues scélérates peuvent dépasser largement la hauteur des vagues environnantes. Longtemps considérées comme des légendes de marins, elles sont aujourd’hui reconnues et étudiées scientifiquement."
+      "explanation": "Les vagues scélérates, ou vagues monstrueuses (rogue waves), sont définies scientifiquement comme des vagues dont la hauteur dépasse plus du double de la hauteur significative des vagues environnantes. Des mesures instrumentales ont documenté des vagues dépassant 25 à 30 mètres en haute mer. Longtemps considérées comme des légendes de marins, elles ont été officiellement enregistrées pour la première fois par la plateforme Draupner en mer du Nord en 1995, et font désormais l'objet de recherches actives pour améliorer la sécurité maritime."
     },
     {
       "id": "6",
-      "question": "Quel phénomène correspond à une prolifération massive de micro-organismes colorant parfois l’eau en rouge ou brun ?",
+      "question": "Quel phénomène correspond à une prolifération massive de micro-organismes colorant parfois l'eau en rouge ou brun ?",
       "image": null,
       "answers": [
         "La marée rouge",
@@ -93,24 +93,24 @@
         "Le ressac"
       ],
       "correctIndex": 0,
-      "explanation": "Les marées rouges sont souvent causées par certaines espèces de microalgues. Certaines produisent des toxines pouvant affecter la faune marine et parfois la santé humaine."
+      "explanation": "Les marées rouges — plus précisément appelées efflorescences algales nuisibles (EAN) — résultent de la prolifération massive de microalgues, principalement des dinoflagellés. Certaines espèces produisent des toxines paralysantes qui s'accumulent dans les coquillages et les poissons, rendant leur consommation dangereuse pour l'homme. Ces épisodes, favorisés par la chaleur, la lumière et l'enrichissement en nutriments, peuvent créer des zones hypoxiques mortelles pour la faune marine."
     },
     {
       "id": "7",
-      "question": "Quel terme désigne la remontée d’eaux profondes froides et riches en nutriments vers la surface ?",
+      "question": "Quel terme désigne la remontée d'eaux profondes froides et riches en nutriments vers la surface ?",
       "image": null,
       "answers": [
         "La dérive littorale",
-        "L’upwelling",
+        "L'upwelling",
         "La subduction océanique",
         "Le mascaret"
       ],
       "correctIndex": 1,
-      "explanation": "L’upwelling enrichit les eaux de surface en nutriments. Ces zones figurent parmi les plus productives de la planète et soutiennent d’importantes activités de pêche."
+      "explanation": "L'upwelling se produit lorsque les vents poussent les eaux de surface vers le large, permettant aux eaux froides profondes, riches en nitrates et phosphates, de remonter. Ces zones figurent parmi les plus productives de la planète : la côte péruvienne, alimentée par le courant de Humboldt, représente à elle seule environ 10 % des captures mondiales de pêche malgré une superficie réduite. L'upwelling est perturbé lors des épisodes El Niño, ce qui effondre temporairement les stocks de poissons."
     },
     {
       "id": "8",
-      "question": "Quel courant chaud transporte des eaux tropicales vers l’Atlantique Nord ?",
+      "question": "Quel courant chaud transporte des eaux tropicales vers l'Atlantique Nord ?",
       "image": null,
       "answers": [
         "Le courant de Humboldt",
@@ -119,11 +119,11 @@
         "Le courant du Labrador"
       ],
       "correctIndex": 1,
-      "explanation": "Le Gulf Stream contribue à adoucir le climat de certaines régions d’Europe occidentale. Il joue un rôle majeur dans la circulation océanique mondiale."
+      "explanation": "Le Gulf Stream est l'un des courants océaniques les plus puissants du monde, avec un débit estimé à environ 30 millions de mètres cubes par seconde — soit près de 30 fois le débit cumulé de tous les fleuves du monde. Il transporte des eaux chaudes tropicales vers l'Atlantique Nord, contribuant à adoucir le climat de l'Europe occidentale : Londres et Paris, situées à la même latitude que Calgary au Canada, bénéficient d'hivers nettement plus doux. Un affaiblissement de ce courant sous l'effet du réchauffement climatique est suivi avec attention par les scientifiques."
     },
     {
       "id": "9",
-      "question": "Quel phénomène lumineux est produit par certains organismes marins capables d’émettre de la lumière ?",
+      "question": "Quel phénomène lumineux est produit par certains organismes marins capables d'émettre de la lumière ?",
       "image": null,
       "answers": [
         "La fluorescence",
@@ -132,11 +132,11 @@
         "La réfraction"
       ],
       "correctIndex": 2,
-      "explanation": "La bioluminescence résulte de réactions chimiques produisant de la lumière. Elle est utilisée pour attirer des proies, communiquer ou se défendre contre des prédateurs."
+      "explanation": "La bioluminescence résulte d'une réaction chimique entre une protéine (la luciférine) et une enzyme (la luciférase), produisant de la lumière sans chaleur. Elle est présente chez de nombreux organismes marins : certains dinoflagellés illuminent les vagues la nuit, des méduses émettent une lueur bleue-verte, et plus de 90 % des animaux des eaux profondes seraient bioluminescents. Ces organismes utilisent la lumière pour attirer des proies, communiquer, se défendre ou se camoufler."
     },
     {
       "id": "10",
-      "question": "Comment appelle-t-on une colonne d’air en rotation se formant au-dessus de la mer ?",
+      "question": "Comment appelle-t-on une colonne d'air en rotation se formant au-dessus de la mer ?",
       "image": null,
       "answers": [
         "Une trombe marine",
@@ -145,11 +145,11 @@
         "Une houle"
       ],
       "correctIndex": 0,
-      "explanation": "Une trombe marine ressemble à une tornade se développant au-dessus de l’eau. Bien que souvent moins puissante qu’une tornade terrestre, elle peut représenter un danger pour la navigation."
+      "explanation": "Une trombe marine est un tourbillon atmosphérique reliant la surface de la mer à la base d'un nuage. Elle se forme souvent par temps instable, lorsqu'une différence de pression crée une rotation de l'air. Bien que généralement moins puissante qu'une tornade terrestre, elle peut atteindre plusieurs dizaines de mètres de diamètre et des vitesses de vent de 50 à 150 km/h, représentant un danger réel pour les petites embarcations et les plages fréquentées."
     },
     {
       "id": "11",
-      "question": "Quel terme désigne une vaste zone de glace flottante formée par le gel de l’eau de mer ?",
+      "question": "Quel terme désigne une vaste zone de glace flottante formée par le gel de l'eau de mer ?",
       "image": null,
       "answers": [
         "Un iceberg",
@@ -158,11 +158,11 @@
         "Une calotte"
       ],
       "correctIndex": 1,
-      "explanation": "La banquise est constituée d’eau de mer gelée. Son extension varie selon les saisons et joue un rôle important dans la régulation du climat mondial."
+      "explanation": "La banquise est constituée d'eau de mer gelée, à ne pas confondre avec les icebergs qui proviennent de glaciers continentaux. L'Arctique possède une banquise estivale dont la superficie a diminué d'environ 40 % depuis les années 1980 selon les données satellitaires. La banquise joue un rôle climatique crucial : sa surface blanche réfléchit une grande partie du rayonnement solaire (effet albédo), limitant le réchauffement. Sa fonte ne fait pas monter le niveau des mers, car elle flotte déjà."
     },
     {
       "id": "12",
-      "question": "Quelle masse de glace flottante provient généralement de la rupture d’un glacier ou d’une plateforme glaciaire ?",
+      "question": "Quelle masse de glace flottante provient généralement de la rupture d'un glacier ou d'une plateforme glaciaire ?",
       "image": null,
       "answers": [
         "Une banquise",
@@ -171,24 +171,24 @@
         "Une lagune"
       ],
       "correctIndex": 2,
-      "explanation": "Les icebergs sont composés d’eau douce gelée provenant des glaciers. La majeure partie de leur volume reste immergée, ce qui explique leur danger pour la navigation."
+      "explanation": "Les icebergs sont des fragments de glace douce détachés des glaciers continentaux ou des plateformes glaciaires par un processus appelé vêlage. Environ 90 % de leur volume reste immergé, ne laissant apparaître qu'une fraction en surface — d'où l'expression « partie émergée de l'iceberg ». C'est la collision avec un iceberg de l'Atlantique Nord qui a causé le naufrage du Titanic en avril 1912. Les plus grands icebergs, détachés de l'Antarctique, peuvent dépasser la superficie de certains pays."
     },
     {
       "id": "13",
-      "question": "Quel phénomène géologique sous-marin permet l’émission d’eaux très chaudes riches en minéraux depuis le plancher océanique ?",
+      "question": "Quel phénomène géologique sous-marin permet l'émission d'eaux très chaudes riches en minéraux depuis le plancher océanique ?",
       "image": null,
       "answers": [
         "Les sources hydrothermales",
         "Les gyres",
         "Les lagons",
-        "Les marées"
+        "Les mascarets"
       ],
       "correctIndex": 0,
-      "explanation": "Les sources hydrothermales abritent des écosystèmes uniques vivant sans lumière solaire. Certaines formes de vie y tirent leur énergie directement de réactions chimiques."
+      "explanation": "Les sources hydrothermales, ou fumeurs noirs, émettent des fluides pouvant dépasser 400 °C, riches en sulfures et minéraux dissous. Découvertes pour la première fois en 1977 aux Galápagos par le submersible Alvin, elles ont révolutionné la biologie en montrant que la vie peut exister sans lumière solaire. Les organismes y vivent grâce à la chimiosynthèse, en tirant leur énergie de réactions chimiques. Ces écosystèmes uniques abritent des espèces endémiques comme les vers tubicoles géants et des crevettes aveugles."
     },
     {
       "id": "14",
-      "question": "Quel type d’île corallienne se forme autour d’un lagon central ?",
+      "question": "Quel type d'île corallienne se forme autour d'un lagon central ?",
       "image": null,
       "answers": [
         "Un fjord",
@@ -197,7 +197,7 @@
         "Une ria"
       ],
       "correctIndex": 1,
-      "explanation": "Les atolls se développent généralement autour d’anciens volcans dont la partie centrale s’enfonce progressivement. Ils comptent parmi les formations marines les plus spectaculaires du monde."
+      "explanation": "Les atolls se forment selon la théorie proposée par Charles Darwin en 1842 : un récif frangeant pousse autour d'un volcan ; lorsque le volcan s'enfonce progressivement, le récif continue de croître vers la surface, formant un récif-barrière puis un atoll annulaire entourant un lagon. Les Maldives, les Tuamotu en Polynésie française et les Marshall Islands sont des exemples célèbres. De nombreux atolls sont menacés par la montée du niveau des mers liée au changement climatique."
     },
     {
       "id": "15",
@@ -210,7 +210,7 @@
         "Une vasière"
       ],
       "correctIndex": 2,
-      "explanation": "Les récifs coralliens abritent une biodiversité exceptionnelle. Bien qu’ils couvrent une faible part des océans, ils servent d’habitat à une immense variété d’espèces."
+      "explanation": "Les récifs coralliens sont construits par des polypes coralliens qui sécrètent un squelette calcaire. Bien qu'ils ne couvrent qu'environ 1 % de la surface des océans, ils abritent selon les estimations entre 25 et 30 % de toutes les espèces marines connues, ce qui en fait les écosystèmes les plus riches de la planète. Le blanchissement des coraux, causé par la hausse des températures océaniques, menace leur survie à grande échelle, comme l'ont montré les épisodes répétés sur la Grande Barrière de Corail australienne."
     },
     {
       "id": "16",
@@ -223,7 +223,7 @@
         "Les deltas"
       ],
       "correctIndex": 0,
-      "explanation": "Les gyres influencent la circulation des eaux et la répartition des déchets flottants. Certains sont associés à de vastes zones d’accumulation de plastiques."
+      "explanation": "Les gyres sont de vastes tourbillons océaniques à l'échelle d'un bassin, mis en mouvement par les vents dominants et déviés par la force de Coriolis. Il en existe cinq principaux dans les océans Pacifique, Atlantique et Indien. Ces zones de convergence accumulent les déchets flottants : le Great Pacific Garbage Patch, au centre du gyre subtropical nord-pacifique, s'étend sur environ 1,6 million de km² selon les estimations, concentrant des millions de tonnes de plastiques fragmentés."
     },
     {
       "id": "17",
@@ -231,12 +231,12 @@
       "image": null,
       "answers": [
         "Les marées de mortes-eaux",
-        "Les marées d’équinoxe",
+        "Les marées de syzygie",
         "Les marées de vives-eaux",
-        "Les marées inversées"
+        "Les marées d'équinoxe"
       ],
       "correctIndex": 2,
-      "explanation": "Les marées de vives-eaux surviennent lorsque la Terre, la Lune et le Soleil sont alignés. L’amplitude entre marée haute et marée basse est alors particulièrement importante."
+      "explanation": "Les marées de vives-eaux surviennent lors de la syzygie — lorsque la Terre, la Lune et le Soleil sont alignés, aux phases de pleine lune et de nouvelle lune. Les attractions gravitationnelles de la Lune et du Soleil se combinent alors, produisant une amplitude maximale entre marée haute et marée basse. Les marées de vives-eaux d'équinoxe, en mars et septembre, sont particulièrement marquées car la Terre est plus proche du plan équatorial solaire."
     },
     {
       "id": "18",
@@ -245,15 +245,15 @@
       "answers": [
         "Les marées de mortes-eaux",
         "Les marées de tempête",
-        "Les marées boréales",
+        "Les marées de quadrature",
         "Les marées mixtes"
       ],
       "correctIndex": 0,
-      "explanation": "Les marées de mortes-eaux se produisent lorsque le Soleil et la Lune exercent des attractions qui se compensent en partie. La différence entre marée haute et marée basse est alors réduite."
+      "explanation": "Les marées de mortes-eaux surviennent lors de la quadrature — lorsque la Lune forme un angle droit avec l'axe Terre-Soleil, aux phases de premier et dernier quartier. Les attractions de la Lune et du Soleil s'exercent alors dans des directions perpendiculaires et se compensent partiellement, réduisant l'amplitude des marées. Les marées de quadrature sont donc une autre façon de désigner cette même configuration géométrique."
     },
     {
       "id": "19",
-      "question": "Quel phénomène peut provoquer une vague remontant le cours d’un fleuve à contre-courant lors d’une marée très forte ?",
+      "question": "Quel phénomène peut provoquer une vague remontant le cours d'un fleuve à contre-courant lors d'une marée très forte ?",
       "image": null,
       "answers": [
         "Un mascaret",
@@ -262,11 +262,11 @@
         "Une marée rouge"
       ],
       "correctIndex": 0,
-      "explanation": "Le mascaret est une vague qui remonte certains fleuves lors de fortes marées. Ce phénomène spectaculaire est observé dans plusieurs estuaires à travers le monde."
+      "explanation": "Le mascaret est une vague solitaire ou un train de vagues qui remonte certains estuaires lors des grandes marées montantes, lorsque la géographie du fond et la forme de l'embouchure concentrent l'énergie de la marée. Le pororoca de l'Amazone peut atteindre 4 mètres de hauteur et se propager sur des centaines de kilomètres. Le mascaret du fleuve Qiantang en Chine est l'un des plus spectaculaires au monde, pouvant dépasser 9 mètres. En France, la Gironde et la Dordogne possèdent leurs propres mascarets."
     },
     {
       "id": "20",
-      "question": "Quel terme désigne l’ensemble des mouvements réguliers des masses d’eau à travers les océans du globe ?",
+      "question": "Quel terme désigne l'ensemble des mouvements réguliers des masses d'eau à travers les océans du globe ?",
       "image": null,
       "answers": [
         "La tectonique marine",
@@ -275,7 +275,7 @@
         "La sédimentation côtière"
       ],
       "correctIndex": 1,
-      "explanation": "La circulation océanique redistribue chaleur, nutriments et gaz à l’échelle planétaire. Elle joue un rôle essentiel dans le climat terrestre et dans le fonctionnement des écosystèmes marins."
+      "explanation": "La circulation océanique mondiale, souvent décrite comme un « convoyeur thermohalin », est mue par les différences de température et de salinité entre les masses d'eau. Elle redistribue la chaleur, les nutriments et les gaz dissous à l'échelle planétaire selon un cycle d'environ 1 000 ans. Cette circulation régule les températures des continents côtiers, alimente les zones de pêche productive et joue un rôle majeur dans l'absorption du CO₂ atmosphérique par les océans. Son affaiblissement potentiel sous l'effet du réchauffement climatique est l'un des risques systémiques les plus surveillés par les climatologues."
     }
   ]
 }

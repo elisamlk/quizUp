@@ -2,7 +2,7 @@
   "slug": "quiz-nature-plantes-toxiques-danger",
   "title": "Quiz Nature - Plantes toxiques - Saurez-vous éviter les dangers ?",
   "description": "Teste tes connaissances sur les plantes toxiques et les précautions à connaître.",
-  "descriptionSeo": "Laurier-rose, belladone, ciguë, ricin… certaines plantes peuvent être aussi belles que dangereuses. Ce quiz de 20 questions te propose de tester tes connaissances sur les plantes toxiques, leurs effets sur l’organisme, les risques de confusion et les bons réflexes à adopter. Apprends à reconnaître les dangers cachés dans la nature et renforce ta vigilance face aux espèces potentiellement nocives.",
+  "descriptionSeo": "Laurier-rose, belladone, ciguë, ricin… certaines plantes peuvent être aussi belles que dangereuses. Ce quiz de 20 questions te propose de tester tes connaissances sur les plantes toxiques, leurs effets sur l'organisme, les risques de confusion et les bons réflexes à adopter. Apprends à reconnaître les dangers cachés dans la nature et renforce ta vigilance face aux espèces potentiellement nocives.",
   "category": {
     "name": "Nature",
     "slug": "nature"
@@ -18,143 +18,243 @@
   "questions": [
     {
       "id": "1",
-      "question": "Quelle plante ornementale est très toxique ?",
-      "answers": ["Le jasmin", "La lavande", "Le laurier-rose", "Le romarin"],
+      "question": "Quelle plante ornementale très courante est toxique dans toutes ses parties ?",
+      "answers": [
+        "Le rhododendron",
+        "La glycine",
+        "Le laurier-rose",
+        "Le fusain d'Europe"
+      ],
       "correctIndex": 2,
-      "explanation": "Le laurier-rose contient des glycosides cardiotoniques qui perturbent le rythme cardiaque. Même une petite ingestion peut entraîner des troubles graves, et la combustion de la plante peut aussi libérer des fumées toxiques."
+      "explanation": "Le laurier-rose (Nerium oleander) contient des hétérosides cardiotoniques comme l'oléandrine, qui perturbent le rythme cardiaque même en faible quantité. Toutes ses parties sont toxiques : feuilles, fleurs, tiges et racines. La combustion de ses branches peut libérer des fumées toxiques. Des intoxications ont été rapportées après l'utilisation de ses branches comme brochettes ou baguettes de feu."
     },
     {
       "id": "2",
-      "question": "Quelle plante du 1er mai est toxique ?",
-      "answers": ["Le muguet", "La violette", "Le bleuet", "La pâquerette"],
+      "question": "Quelle fleur du 1er mai est toxique dans toutes ses parties, y compris l'eau du vase ?",
+      "answers": [
+        "Le muguet",
+        "La violette odorante",
+        "L'anémone sylvie",
+        "La ficaire fausse-renoncule"
+      ],
       "correctIndex": 0,
-      "explanation": "Le muguet contient des substances proches de celles utilisées en cardiologie. L’ingestion peut provoquer vomissements, ralentissement du cœur et troubles du rythme, y compris avec l’eau du vase."
+      "explanation": "Le muguet (Convallaria majalis) contient des hétérosides cardiotoniques, notamment la convallatoxine. L'ingestion peut provoquer vomissements, bradycardie et troubles du rythme cardiaque. L'eau dans laquelle ont trempé des brins de muguet est aussi considérée comme toxique. La plante est particulièrement dangereuse pour les enfants et les animaux de compagnie."
     },
     {
       "id": "3",
-      "question": "Quelle plante peut être confondue avec du persil ?",
-      "answers": ["La menthe", "La grande ciguë", "Le thym", "La sauge"],
+      "question": "Quelle plante appartenant à la famille des Apiacées peut être confondue avec du persil ou du cerfeuil ?",
+      "answers": [
+        "La menthe aquatique",
+        "La grande ciguë",
+        "L'aneth sauvage",
+        "L'angélique des bois"
+      ],
       "correctIndex": 1,
-      "explanation": "La grande ciguë contient des alcaloïdes neurotoxiques qui paralysent progressivement les muscles, notamment respiratoires. Le risque vient de sa ressemblance avec certaines plantes comestibles."
+      "explanation": "La grande ciguë (Conium maculatum) contient de la conicine et d'autres alcaloïdes pipéridiniques qui bloquent la transmission neuromusculaire, provoquant une paralysie ascendante. Elle se reconnaît à ses taches pourpres sur la tige creuse et à son odeur désagréable de souris. Socrate en a été la victime la plus célèbre. Toute plante de la famille des Apiacées inconnue doit être évitée absolument."
     },
     {
       "id": "4",
-      "question": "Quelle plante produit des baies noires toxiques ?",
-      "answers": ["Le cassis", "La myrtille", "Le sureau", "La belladone"],
+      "question": "Quelle plante produit des baies noires au goût douceâtre pourtant très toxiques ?",
+      "answers": [
+        "Le cassis sauvage",
+        "La myrtille des marais",
+        "Le sureau hièble",
+        "La belladone"
+      ],
       "correctIndex": 3,
-      "explanation": "La belladone contient de l’atropine qui bloque certains récepteurs nerveux. Cela peut provoquer dilatation des pupilles, hallucinations, troubles cardiaques et confusion."
+      "explanation": "La belladone (Atropa belladonna) contient de l'atropine, de la scopolamine et de l'hyoscyamine, qui bloquent le système nerveux parasympathique. Ses baies ont un goût douceâtre qui peut attirer les enfants. Les symptômes d'intoxication incluent dilatation des pupilles, sécheresse buccale, tachycardie, hallucinations et confusion mentale. Six à dix baies peuvent être mortelles pour un enfant. Son nom vient de l'usage cosmétique historique de ses extraits pour dilater les pupilles."
     },
     {
       "id": "5",
-      "question": "Quelle plante contient la ricine ?",
-      "answers": ["Le lin", "Le sésame", "Le ricin", "Le tournesol"],
+      "question": "Quelle plante contient la ricine, l'une des substances naturelles les plus toxiques connues ?",
+      "answers": [
+        "Le lin cultivé",
+        "Le sésame",
+        "Le ricin",
+        "Le tournesol"
+      ],
       "correctIndex": 2,
-      "explanation": "La ricine bloque la production de protéines dans les cellules. Même une faible quantité peut être dangereuse si les graines sont mâchées, car l’enveloppe les protège partiellement intactes."
+      "explanation": "Le ricin (Ricinus communis) contient de la ricine dans ses graines, une toxine qui inhibe la synthèse des protéines au niveau cellulaire. La ricine est libérée quand les graines sont mâchées, brisant leur enveloppe protectrice. Quelques graines mâchées peuvent être mortelles. L'huile de ricin commerciale est obtenue par un procédé qui élimine la ricine ; elle ne contient pas de ricine active."
     },
     {
       "id": "6",
-      "question": "Quelle plante peut provoquer des hallucinations ?",
-      "answers": ["Le coquelicot", "Le datura", "L’hibiscus", "La rose"],
-      "correctIndex": 1,
-      "explanation": "Le datura contient des alcaloïdes tropaniques qui perturbent le système nerveux central. Les effets sont imprévisibles et peuvent inclure délire, amnésie et troubles cardiaques."
+      "question": "Quelle plante contient des alcaloïdes tropaniques pouvant provoquer hallucinations et délire ?",
+      "answers": [
+        "Le coquelicot",
+        "L'hibiscus sabdariffa",
+        "Le datura",
+        "L'ipomée"
+      ],
+      "correctIndex": 2,
+      "explanation": "Le datura (Datura stramonium) contient les mêmes alcaloïdes que la belladone — atropine, scopolamine, hyoscyamine — mais en concentrations très élevées et variables selon les parties et les individus. Les effets sont imprévisibles : délire, amnésie, tachycardie sévère et hyperthermie. Des hospitalisations, parfois mortelles, sont régulièrement rapportées en Europe. Toutes ses parties sont toxiques."
     },
     {
       "id": "7",
-      "question": "Quelle plante agit sur le cœur ?",
-      "answers": ["La camomille", "La menthe", "La mélisse", "La digitale"],
+      "question": "Quelle plante est à l'origine de médicaments cardiologiques mais peut être mortelle hors usage médical ?",
+      "answers": [
+        "La valériane",
+        "L'aubépine",
+        "La passiflore",
+        "La digitale"
+      ],
       "correctIndex": 3,
-      "explanation": "La digitale est à l’origine de médicaments cardiologiques. Elle ralentit et régule le cœur, mais une dose incorrecte peut provoquer des arythmies potentiellement mortelles."
+      "explanation": "La digitale pourpre (Digitalis purpurea) contient des hétérosides cardiotoniques, dont la digitoxine et la digoxine. Elle ralentit et renforce les contractions cardiaques, ce qui en fait une source de médicaments pour l'insuffisance cardiaque. Hors cadre médical, la marge entre dose thérapeutique et dose toxique est très étroite : une intoxication peut provoquer des arythmies mortelles."
     },
     {
       "id": "8",
-      "question": "Quelle plante grimpante est toxique ?",
-      "answers": ["Le lierre", "La vigne", "Le framboisier", "Le rosier"],
+      "question": "Quelle plante grimpante ornementale est toxique, particulièrement ses baies noires ?",
+      "answers": [
+        "Le lierre",
+        "La clématite des haies",
+        "Le chèvrefeuille des jardins",
+        "La vigne vierge"
+      ],
       "correctIndex": 0,
-      "explanation": "Le lierre contient des saponines irritantes. Les baies sont particulièrement dangereuses et peuvent provoquer vomissements et troubles digestifs."
+      "explanation": "Le lierre (Hedera helix) contient des saponines triterpéniques dans toutes ses parties, avec une concentration plus élevée dans les baies noires. L'ingestion provoque nausées, vomissements et diarrhées. La clématite des haies est aussi irritante mais différemment : son suc provoque des brûlures cutanées et muqueuses par contact. Le chèvrefeuille des jardins est légèrement toxique en cas d'ingestion de ses baies."
     },
     {
       "id": "9",
-      "question": "Quelle plante de Noël est légèrement toxique ?",
-      "answers": ["Le persil", "Le basilic", "Le poinsettia", "La ciboulette"],
+      "question": "Quelle plante d'intérieur décorative, offerte à Noël, produit un latex irritant pour la peau et les muqueuses ?",
+      "answers": [
+        "L'amaryllis",
+        "Le cyclamen de Perse",
+        "Le poinsettia",
+        "La jacinthe d'appartement"
+      ],
       "correctIndex": 2,
-      "explanation": "Le poinsettia produit un latex irritant. Il provoque surtout des irritations locales, mais rarement des intoxications graves contrairement à une idée reçue."
+      "explanation": "Le poinsettia (Euphorbia pulcherrima) produit un latex contenant des diterpènes irritants. Il provoque surtout des irritations cutanées et oculaires au contact, et des troubles digestifs légers en cas d'ingestion. Sa toxicité est souvent surestimée : des études toxicologiques indiquent qu'il faudrait ingérer une très grande quantité de feuilles pour provoquer une intoxication grave. L'amaryllis et le cyclamen sont, eux, plus toxiques par ingestion."
     },
     {
       "id": "10",
-      "question": "Quelle plante est toxique sauf sa partie rouge ?",
-      "answers": ["Le houx", "L’if", "Le rosier", "L’églantier"],
+      "question": "Quelle plante a presque toutes ses parties toxiques, à l'exception de l'arille rouge entourant la graine ?",
+      "answers": [
+        "Le houx commun",
+        "L'if commun",
+        "Le rosier sauvage",
+        "L'églantier"
+      ],
       "correctIndex": 1,
-      "explanation": "L’if contient des taxines qui affectent le cœur. Seule l’arille rouge est comestible, mais la graine à l’intérieur reste hautement toxique."
+      "explanation": "L'if (Taxus baccata) contient des taxines dans ses feuilles, son bois, son écorce et ses graines, qui perturbent gravement la conduction cardiaque. L'arille rouge gélatineuse entourant la graine est généralement considérée comme non toxique, mais la graine à l'intérieur reste hautement toxique. L'intoxication par les feuilles est fréquente chez les animaux d'élevage, notamment les chevaux."
     },
     {
       "id": "11",
-      "question": "Quelle plante de jardin peut être toxique ?",
-      "answers": ["Le basilic", "La laitue", "Le fraisier", "L’hortensia"],
+      "question": "Quelle plante d'ornement commune peut provoquer des troubles digestifs si ses fleurs sont ingérées ?",
+      "answers": [
+        "Le basilic grand vert",
+        "La laitue frisée",
+        "Le fraisier des jardins",
+        "L'hortensia"
+      ],
       "correctIndex": 3,
-      "explanation": "L’hortensia contient des composés pouvant libérer du cyanure en très faible quantité. Les intoxications graves sont rares mais possibles en cas d’ingestion importante."
+      "explanation": "L'hortensia (Hydrangea macrophylla) contient des glycosides dont la dégradation peut produire des composés irritants. Son ingestion peut provoquer nausées, vomissements et diarrhées, principalement à partir des fleurs et des bourgeons. La toxicité exacte reste discutée dans la littérature scientifique, mais des cas d'intoxication légère à modérée ont été rapportés chez des enfants et des animaux domestiques. La prudence s'impose en cas d'ingestion."
     },
     {
       "id": "12",
-      "question": "Quel bulbe peut être confondu avec un oignon ?",
-      "answers": ["La tulipe", "La mâche", "La coriandre", "Le pissenlit"],
+      "question": "Quel bulbe printanier peut être confondu avec un oignon ou avec les feuilles de l'ail des ours, et provoque des intoxications graves ?",
+      "answers": [
+        "Le colchique d'automne",
+        "La tulipe des jardins",
+        "La jacinthe des jardins",
+        "La scille de Sibérie"
+      ],
       "correctIndex": 0,
-      "explanation": "Les bulbes de tulipe contiennent des alcaloïdes irritants. La confusion avec des bulbes alimentaires est une cause classique d’intoxication accidentelle."
+      "explanation": "Le colchique d'automne (Colchicum autumnale) est le cas classique de confusion grave : ses feuilles printanières ressemblent à celles de l'ail des ours ou de l'oseille, et son bulbe peut être pris pour un petit oignon. Il contient de la colchicine, un alcaloïde qui bloque la division cellulaire et est toxique dans toutes ses parties. Des intoxications mortelles ont été rapportées après confusion avec l'ail des ours. La tulipe contient aussi des alcaloïdes irritants mais son bulbe ressemble moins à un oignon."
     },
     {
       "id": "13",
-      "question": "Quelle plante produit une sève irritante ?",
-      "answers": ["Le thym", "L’euphorbe", "La roquette", "Le fenouil"],
+      "question": "Quelle plante produit un latex blanc caustique pouvant provoquer des brûlures cutanées et des lésions oculaires ?",
+      "answers": [
+        "Le thym serpolet",
+        "L'euphorbe réveil-matin",
+        "La roquette cultivée",
+        "Le fenouil sauvage"
+      ],
       "correctIndex": 1,
-      "explanation": "Le latex des euphorbes contient des composés caustiques. Il peut provoquer brûlures cutanées et lésions oculaires si le contact n’est pas rincé rapidement."
+      "explanation": "Les euphorbes (genre Euphorbia) produisent un latex blanc contenant des esters de phorbol, des composés fortement caustiques et irritants. Un contact avec les yeux peut provoquer une conjonctivite chimique sévère pouvant aller jusqu'à des lésions cornéennes. Un rinçage abondant à l'eau est indispensable immédiatement après tout contact. Certaines euphorbes ornementales en pot, comme le Euphorbia tirucalli, sont particulièrement irritantes."
     },
     {
       "id": "14",
-      "question": "Quelle plante peut provoquer des brûlures au soleil ?",
-      "answers": ["Le trèfle", "La luzerne", "La grande berce", "La marguerite"],
-      "correctIndex": 2,
-      "explanation": "La berce du Caucase contient des molécules photosensibilisantes. Après contact, une exposition au soleil peut provoquer des brûlures graves similaires à des brûlures chimiques."
+      "question": "Quelle plante peut provoquer de graves brûlures cutanées après contact suivi d'une exposition au soleil ?",
+      "answers": [
+        "La renouée du Japon",
+        "La grande berce du Caucase",
+        "La prêle des champs",
+        "La verge d'or"
+      ],
+      "correctIndex": 1,
+      "explanation": "La berce du Caucase (Heracleum mantegazzianum) contient des furanocoumarines photosensibilisantes. Après contact avec sa sève et exposition aux UV, des brûlures du second degré peuvent apparaître en quelques heures, laissant parfois des cicatrices durables ou des hyperpigmentations. C'est une espèce exotique envahissante présente en Europe. La renouée du Japon est aussi invasive mais sans cette toxicité cutanée."
     },
     {
       "id": "15",
-      "question": "Quelle plante est très toxique ?",
-      "answers": ["Le laurier-rose", "La lavande", "La sauge", "Le romarin"],
-      "correctIndex": 0,
-      "explanation": "Le laurier-rose est dangereux même en faible quantité. Des cas d’intoxication ont été rapportés via des ustensiles en bois fabriqués avec ses branches."
+      "question": "Quelle plante commune des sous-bois produit des baies rouges toxiques groupées en épi et peut être confondue avec des plantes comestibles à feuilles en forme de flèche ?",
+      "answers": [
+        "Le colchique d'automne",
+        "L'anémone des bois",
+        "La clématite des haies",
+        "L'arum tacheté"
+      ],
+      "correctIndex": 3,
+      "explanation": "L'arum tacheté (Arum maculatum) est toxique dans toutes ses parties, particulièrement ses baies rouges groupées en épi qui apparaissent en été. Ses grandes feuilles en forme de flèche, souvent tachetées de noir, peuvent être confondues avec celles de plantes comestibles comme l'oseille ou le plantain. Ses cristaux d'oxalate de calcium provoquent une irritation intense des muqueuses en cas d'ingestion. C'est l'une des plantes les plus souvent impliquées dans les intoxications accidentelles d'enfants en Europe."
     },
     {
       "id": "16",
-      "question": "Que faire en cas d’ingestion suspecte ?",
-      "answers": ["Attendre", "Boire de l’alcool", "Faire vomir", "Appeler un centre antipoison"],
-      "correctIndex": 3,
-      "explanation": "Contacter un centre antipoison permet une prise en charge rapide. Faire vomir peut aggraver certains cas, notamment avec des substances irritantes."
+      "question": "Que faire en priorité en cas d'ingestion suspecte d'une plante potentiellement toxique ?",
+      "answers": [
+        "Contacter un centre antipoison",
+        "Attendre l'apparition des symptômes",
+        "Boire de l'eau sucrée pour neutraliser",
+        "Faire vomir immédiatement"
+      ],
+      "correctIndex": 0,
+      "explanation": "En cas d'ingestion suspecte, contacter un centre antipoison ou les services d'urgence est la seule bonne conduite à tenir. Faire vomir est contre-indiqué dans de nombreux cas : cela peut aggraver les lésions causées par des substances caustiques et favoriser l'inhalation du vomissement. L'identification précise de la plante — en conserver un échantillon ou une photo — est très utile pour orienter la prise en charge."
     },
     {
       "id": "17",
-      "question": "Quelle plante est liée à Socrate ?",
-      "answers": ["La menthe", "La ciguë", "Le romarin", "La lavande"],
+      "question": "Quelle plante toxique a été utilisée pour exécuter Socrate en 399 avant J.-C. ?",
+      "answers": [
+        "L'aconit napel",
+        "La ciguë tachetée",
+        "La belladone noire",
+        "Le datura stramoine"
+      ],
       "correctIndex": 1,
-      "explanation": "La ciguë agit en bloquant la transmission nerveuse. Elle provoque une paralysie ascendante tout en laissant la conscience intacte."
+      "explanation": "La ciguë tachetée (Conium maculatum) provoque une paralysie ascendante des muscles en bloquant les récepteurs nicotiniques, tout en laissant la conscience intacte jusqu'à l'arrêt respiratoire. Le récit de la mort de Socrate par Platon correspond précisément à ce tableau clinique : engourdissement progressif depuis les pieds vers la tête. L'aconit, la belladone et le datura provoquent des symptômes différents, notamment des convulsions ou des hallucinations."
     },
     {
       "id": "18",
-      "question": "Quelle plante d’intérieur est irritante ?",
-      "answers": ["Le persil", "Le basilic", "Le dieffenbachia", "La ciboulette"],
-      "correctIndex": 2,
-      "explanation": "Le dieffenbachia contient des cristaux d’oxalate de calcium qui provoquent douleur intense, gonflement et difficulté à parler ou avaler."
+      "question": "Quelle plante d'intérieur très courante contient des cristaux d'oxalate de calcium provoquant des brûlures dans la bouche ?",
+      "answers": [
+        "Le philodendron à feuilles cordées",
+        "Le spathiphyllum",
+        "Le ficus benjamina",
+        "Le dieffenbachia"
+      ],
+      "correctIndex": 3,
+      "explanation": "Le dieffenbachia contient des raphides, de minuscules cristaux d'oxalate de calcium en forme d'aiguilles qui se fichent dans les muqueuses buccales et pharyngées au contact. Cela provoque une douleur intense, un gonflement de la langue, une salivation abondante et des difficultés à parler ou avaler — d'où son surnom de « plante muette ». Ces symptômes sont rarement mortels mais très invalidants. Le philodendron et le spathiphyllum contiennent aussi des oxalates mais en moindre quantité."
     },
     {
       "id": "19",
-      "question": "Quelle règle appliquer avec des baies inconnues ?",
-      "answers": ["Les goûter", "Les donner à un animal", "Les cueillir rouges", "Ne pas les consommer"],
-      "correctIndex": 3,
-      "explanation": "Certaines baies toxiques imitent des fruits comestibles. L’identification botanique précise est indispensable pour éviter les intoxications."
+      "question": "Quelle règle de sécurité s'applique à toute baie sauvage inconnue ?",
+      "answers": [
+        "La goûter avec précaution",
+        "Vérifier si les oiseaux la mangent avant de la consommer",
+        "Ne jamais la consommer sans identification botanique certaine",
+        "Éviter uniquement les baies rouges ou noires"
+      ],
+      "correctIndex": 2,
+      "explanation": "L'identification botanique certaine est la seule règle fiable. Le fait que les oiseaux consomment une baie n'est pas une garantie d'innocuité pour l'humain : les oiseaux ont des métabolismes différents et peuvent tolérer certaines substances que les humains ne tolèrent pas, comme c'est le cas pour plusieurs baies d'if ou de troène. La couleur seule ne permet pas de distinguer toxique de comestible : des baies bleues (morelle), noires (troène), rouges (if, houx) et blanches (gui) peuvent toutes être toxiques."
     },
     {
       "id": "20",
-      "question": "Quelle plante a des fleurs en forme de casque ?",
-      "answers": ["L’aconit", "La violette", "La pensée", "La bourrache"],
+      "question": "Quelle plante à fleurs en forme de casque contient l'aconitine, l'une des toxines végétales les plus puissantes ?",
+      "answers": [
+        "L'aconit napel",
+        "Le delphinium cultivé",
+        "La sauge sclarée",
+        "La consoude officinale"
+      ],
       "correctIndex": 0,
-      "explanation": "L’aconit contient de l’aconitine, une toxine qui perturbe les canaux ioniques du cœur et du système nerveux. Elle peut être dangereuse même par contact cutané prolongé."
+      "explanation": "L'aconit napel (Aconitum napellus) contient de l'aconitine, un alcaloïde qui bloque les canaux sodiques dans les cellules nerveuses et cardiaques. Ses fleurs bleues-violettes en forme de casque sont reconnaissables, mais sa racine ressemble à celle du raifort ou du panais sauvage. L'ingestion d'une petite quantité peut être mortelle. Le delphinium, de la même famille, contient des alcaloïdes moins puissants mais reste toxique."
     }
   ]
 }

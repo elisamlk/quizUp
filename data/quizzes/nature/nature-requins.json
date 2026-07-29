@@ -2,7 +2,7 @@
   "slug": "quiz-nature-requins-mythes-ou-realites",
   "title": "Quiz Nature - Que sais-tu vraiment sur les requins ?",
   "description": "Démêle le vrai du faux sur les requins, leurs comportements et leur rôle dans les océans.",
-  "descriptionSeo": "Ce quiz nature de 20 questions explore les requins à travers mythes et réalités. Attaques, comportement, espèces, sens développés et rôle dans les océans : découvre ce qui est vrai ou faux sur ces prédateurs marins. Comprends leur importance dans l’équilibre des écosystèmes et les dangers réels. Un quiz éducatif et surprenant pour mieux connaître les requins et dépasser les idées reçues.",
+  "descriptionSeo": "Ce quiz nature de 20 questions explore les requins à travers mythes et réalités. Attaques, comportement, espèces, sens développés et rôle dans les océans : découvre ce qui est vrai ou faux sur ces prédateurs marins. Comprends leur importance dans l'équilibre des écosystèmes et les dangers réels. Un quiz éducatif et surprenant pour mieux connaître les requins et dépasser les idées reçues.",
   "category": {
     "name": "Nature",
     "slug": "nature"
@@ -18,143 +18,243 @@
   "questions": [
     {
       "id": "1",
-      "question": "Les requins attaquent-ils souvent les humains ?",
-      "answers": ["Oui, tous les jours", "Oui, dès qu’ils voient un humain", "Non, les attaques sont rares", "Uniquement la nuit"],
+      "question": "Les attaques de requins sur des humains sont-elles fréquentes à l'échelle mondiale ?",
+      "answers": [
+        "Oui, plusieurs centaines par jour",
+        "Oui, dans tous les océans tropicaux",
+        "Non, elles se comptent en dizaines par an",
+        "Oui, surtout en Méditerranée"
+      ],
       "correctIndex": 2,
-      "explanation": "Les attaques de requins restent rares, car l’humain ne fait pas partie de leurs proies habituelles."
+      "explanation": "Selon l'ISAF (International Shark Attack File), on recense environ 70 à 100 attaques non provoquées de requins par an dans le monde, dont une fraction est mortelle. L'humain ne fait pas partie des proies naturelles des requins : la plupart des incidents sont des morsures exploratoires ou des erreurs d'identification, notamment lors d'activités comme le surf."
     },
     {
       "id": "2",
-      "question": "Quel rôle les requins jouent-ils dans les océans ?",
-      "answers": ["Ils régulent les populations marines", "Ils détruisent tous les poissons", "Ils polluent les récifs", "Ils empêchent les marées"],
+      "question": "Quel est le principal rôle écologique des grands requins prédateurs dans les océans ?",
+      "answers": [
+        "Réguler les populations marines",
+        "Produire de l'oxygène par photosynthèse",
+        "Fertiliser les sédiments marins",
+        "Contrôler la salinité des eaux tropicales"
+      ],
       "correctIndex": 0,
-      "explanation": "En éliminant souvent les animaux faibles ou malades, les requins contribuent à l’équilibre des écosystèmes marins."
+      "explanation": "Les grands requins prédateurs sont des régulateurs clés des écosystèmes marins. En prélevant souvent des proies affaiblies ou malades, ils maintiennent la santé des populations de poissons et évitent la surpopulation de certaines espèces. Leur disparition provoque des effets en cascade : par exemple, la baisse des requins a entraîné une explosion des raies dans certaines zones, qui ont alors décimé les populations de coquillages."
     },
     {
       "id": "3",
-      "question": "Tous les requins sont-ils de grands prédateurs dangereux ?",
-      "answers": ["Oui, sans exception", "Seulement en eau froide", "Seulement les jeunes requins", "Non, beaucoup sont inoffensifs pour l’homme"],
-      "correctIndex": 3,
-      "explanation": "Il existe de nombreuses espèces de requins, dont certaines sont petites, discrètes ou se nourrissent de plancton."
+      "question": "Parmi les quelque 500 espèces de requins connues, combien sont considérées comme dangereuses pour l'homme ?",
+      "answers": [
+        "Une petite dizaine d'espèces",
+        "Environ la moitié, soit 250",
+        "Seulement celles en eau froide",
+        "Toutes les 500 espèces"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sur environ 500 espèces de requins identifiées, seule une petite dizaine est impliquée dans la majorité des incidents avec des humains, principalement le grand requin blanc, le requin-tigre et le requin bouledogue. La grande majorité des espèces est inoffensive pour l'homme, beaucoup étant de petite taille ou se nourrissant de plancton, de mollusques ou de petits poissons."
     },
     {
       "id": "4",
-      "question": "Quel requin est connu pour se nourrir principalement de plancton ?",
-      "answers": ["Le grand requin blanc", "Le requin-baleine", "Le requin-tigre", "Le requin-marteau"],
+      "question": "Quel requin est le plus grand poisson du monde et se nourrit principalement de plancton ?",
+      "answers": [
+        "Le grand requin blanc",
+        "Le requin-baleine",
+        "Le requin-tigre",
+        "Le requin pèlerin"
+      ],
       "correctIndex": 1,
-      "explanation": "Le requin-baleine est le plus grand poisson du monde, mais il filtre surtout du plancton et de petits organismes."
+      "explanation": "Le requin-baleine (Rhincodon typus) peut atteindre 12 à 18 mètres de longueur. Malgré sa taille imposante, il se nourrit en filtrant d'immenses volumes d'eau pour capturer du plancton, des petits poissons et des œufs. Il est totalement inoffensif pour l'homme. Le requin pèlerin est le deuxième plus grand poisson du monde et adopte une stratégie alimentaire similaire."
     },
     {
       "id": "5",
-      "question": "Les requins peuvent-ils sentir de très faibles traces d’odeurs dans l’eau ?",
-      "answers": ["Oui, leur odorat est très développé", "Non, ils n’ont pas d’odorat", "Seulement hors de l’eau", "Uniquement les requins blancs"],
+      "question": "L'odorat des requins leur permet-il de détecter le sang dans l'eau ?",
+      "answers": [
+        "Oui, même à très faible concentration",
+        "Non, ils n'ont pas d'odorat",
+        "Uniquement hors de l'eau",
+        "Seulement les requins blancs"
+      ],
       "correctIndex": 0,
-      "explanation": "Leur odorat très sensible leur permet de détecter des substances dissoutes dans l’eau sur de longues distances."
+      "explanation": "Les requins possèdent un odorat très développé, capable de détecter certaines substances en solution à de très faibles concentrations. L'idée populaire qu'ils repèrent une goutte de sang à des kilomètres est exagérée : leur capacité dépend des espèces, des courants et de la nature de la substance. L'odorat est l'un de leurs sens les plus importants, mais ils utilisent aussi la ligne latérale et les ampoules de Lorenzini pour localiser leurs proies."
     },
     {
       "id": "6",
-      "question": "Pourquoi certains requins nagent-ils presque en permanence ?",
-      "answers": ["Pour éviter la lumière", "Pour dormir plus vite", "Pour faire circuler l’eau sur leurs branchies", "Pour changer de couleur"],
+      "question": "Pourquoi certaines espèces de requins doivent-elles nager presque en permanence ?",
+      "answers": [
+        "Pour maintenir leur température corporelle",
+        "Pour signaler leur territoire aux autres requins",
+        "Pour faire circuler l'eau sur leurs branchies",
+        "Pour éviter de couler, car ils flottent mal"
+      ],
       "correctIndex": 2,
-      "explanation": "Chez certaines espèces, nager aide l’eau riche en oxygène à passer sur les branchies pour respirer."
+      "explanation": "Certaines espèces, comme le grand requin blanc ou le requin mako, sont dites à ventilation forcée : elles doivent nager pour maintenir un flux d'eau oxygénée sur leurs branchies. D'autres, comme le requin nourrice, peuvent pomper l'eau par leurs spiracles et se reposer au fond. Les requins ne sont pas dotés d'une vessie natatoire comme les poissons osseux : leur foie riche en huile leur sert de flotteur naturel."
     },
     {
       "id": "7",
-      "question": "Les requins sont-ils des mammifères marins ?",
-      "answers": ["Oui, comme les dauphins", "Non, ce sont des poissons cartilagineux", "Oui, car ils vivent dans l’eau", "Seulement les grands requins"],
+      "question": "Comment se reproduisent la plupart des espèces de requins ?",
+      "answers": [
+        "Uniquement en pondant des œufs",
+        "En donnant naissance à des jeunes vivants",
+        "En se divisant comme des cellules",
+        "Par pollinisation"
+      ],
       "correctIndex": 1,
-      "explanation": "Les requins sont des poissons dont le squelette est fait de cartilage, contrairement aux mammifères qui respirent avec des poumons."
+      "explanation": "La majorité des espèces de requins sont vivipares ou ovovivipares : elles donnent naissance à des petits déjà formés. Certaines espèces, comme la roussette, sont ovipares et pondent des œufs protégés par une capsule cornée appelée « bourse de sirène ». Les requins ont généralement peu de petits et une gestation longue (jusqu'à 22 mois chez le requin griset), ce qui les rend très vulnérables à la surpêche."
     },
     {
       "id": "8",
-      "question": "Quel sens particulier aide les requins à détecter les champs électriques ?",
-      "answers": ["Les nageoires dorsales", "Les dents", "Les écailles", "Les ampoules de Lorenzini"],
+      "question": "Quel organe sensoriel unique permet aux requins de détecter les champs électriques des animaux ?",
+      "answers": [
+        "Les nageoires pectorales",
+        "Les dents",
+        "Les écailles placoïdes",
+        "Les ampoules de Lorenzini"
+      ],
       "correctIndex": 3,
-      "explanation": "Les ampoules de Lorenzini détectent de faibles signaux électriques produits par les muscles des proies."
+      "explanation": "Les ampoules de Lorenzini sont des récepteurs électrosensibles concentrés sur le museau des requins. Ils détectent les très faibles champs électriques produits par les contractions musculaires des proies, même dissimulées sous le sable. Cette capacité permet par exemple aux requins-marteaux de localiser des raies enfouies. Elle est aussi utilisée pour la navigation grâce au champ magnétique terrestre."
     },
     {
       "id": "9",
-      "question": "Un requin peut-il perdre et remplacer ses dents ?",
-      "answers": ["Non, jamais", "Oui, tout au long de sa vie", "Seulement une fois", "Seulement en captivité"],
-      "correctIndex": 1,
-      "explanation": "Les requins remplacent régulièrement leurs dents, ce qui leur permet de conserver une mâchoire efficace."
+      "question": "Un requin perd-il et remplace-t-il ses dents tout au long de sa vie ?",
+      "answers": [
+        "Non, ses dents sont définitives",
+        "Seulement une fois dans sa vie",
+        "Seulement en captivité",
+        "Oui, plusieurs rangées se succèdent"
+      ],
+      "correctIndex": 3,
+      "explanation": "Les requins sont polyphyodontes : ils possèdent plusieurs rangées de dents qui avancent progressivement vers l'avant de la mâchoire au fur et à mesure que les dents usées tombent. Un requin peut ainsi remplacer des milliers de dents dans sa vie. Certaines espèces perdent et remplacent une dent toutes les une à deux semaines, selon l'usage. C'est pourquoi on trouve de très nombreuses dents fossiles de requins."
     },
     {
       "id": "10",
-      "question": "Quelle idée reçue sur les requins est fausse ?",
-      "answers": ["Ils sont tous des mangeurs d’hommes", "Ils vivent dans les océans", "Ils ont des dents", "Certains sont menacés"],
-      "correctIndex": 0,
-      "explanation": "La majorité des requins évitent les humains et les attaques sont souvent liées à une confusion ou une situation particulière."
+      "question": "Quel organe sensoriel court le long du corps du requin et lui permet de détecter les vibrations et mouvements dans l'eau ?",
+      "answers": [
+        "La nageoire caudale",
+        "L'épine anale",
+        "La crête dorsale",
+        "La ligne latérale"
+      ],
+      "correctIndex": 3,
+      "explanation": "La ligne latérale est un système de cellules sensorielles disposées en ligne le long des flancs du requin. Elle détecte les variations de pression et les mouvements dans l'eau — comme les perturbations créées par un poisson blessé ou une personne qui nage. Ce sens est commun à tous les poissons. Combiné à l'odorat et aux ampoules de Lorenzini, il permet aux requins de se repérer dans l'obscurité totale."
     },
     {
       "id": "11",
-      "question": "Pourquoi les requins sont-ils menacés dans plusieurs régions du monde ?",
-      "answers": ["À cause des marées", "À cause des coraux", "À cause du sable", "À cause de la pêche excessive"],
+      "question": "Quelle est la principale menace pesant sur les populations de requins dans le monde ?",
+      "answers": [
+        "Les cyclones et tempêtes tropicales",
+        "La compétition avec les dauphins",
+        "La disparition des récifs coralliens",
+        "La pêche excessive et le commerce des ailerons"
+      ],
       "correctIndex": 3,
-      "explanation": "La surpêche, les captures accidentelles et le commerce des ailerons font fortement baisser certaines populations."
+      "explanation": "On estime que 100 millions de requins sont tués chaque année, principalement pour leurs ailerons utilisés dans la soupe d'ailerons de requin en Asie. Les captures accidentelles (prises accessoires) dans les filets de pêche industrielle s'ajoutent à cette pression. De nombreuses espèces ont une reproduction lente et tardive, ce qui rend leurs populations très difficiles à reconstituer une fois appauvries."
     },
     {
       "id": "12",
-      "question": "Les requins existaient-ils avant les dinosaures ?",
-      "answers": ["Non, ils sont récents", "Seulement certaines espèces tropicales", "Oui, leur lignée est très ancienne", "Seulement après les mammifères"],
-      "correctIndex": 2,
-      "explanation": "Les ancêtres des requins existaient déjà il y a plusieurs centaines de millions d’années."
+      "question": "Depuis combien de temps environ les requins existent-ils sur Terre ?",
+      "answers": [
+        "Environ 10 millions d'années",
+        "Environ 65 millions d'années",
+        "Environ 200 millions d'années",
+        "Plus de 450 millions d'années"
+      ],
+      "correctIndex": 3,
+      "explanation": "Les requins sont l'un des groupes d'animaux les plus anciens de la planète : leurs ancêtres apparaissent dans les archives fossiles il y a plus de 450 millions d'années, bien avant les dinosaures (qui apparaissent il y a environ 230 millions d'années). Ils ont survécu aux cinq grandes extinctions de masse. Leur morphologie générale a peu changé depuis des centaines de millions d'années, signe d'une adaptation exceptionnelle."
     },
     {
       "id": "13",
-      "question": "Quel comportement humain augmente le risque de rencontre dangereuse avec un requin ?",
-      "answers": ["Nager près d’appâts ou de poissons blessés", "Observer depuis la plage", "Lire un panneau d’information", "Éviter les zones signalées"],
+      "question": "Quel comportement humain augmente significativement le risque de rencontre dangereuse avec un requin ?",
+      "answers": [
+        "Nager près d'appâts ou de poissons blessés",
+        "Observer les requins depuis un bateau",
+        "Nager en groupe compact",
+        "Plonger dans des zones balisées"
+      ],
       "correctIndex": 0,
-      "explanation": "Le sang, les vibrations et la présence de proies peuvent attirer les requins dans une zone."
+      "explanation": "Le sang, les résidus de poissons et les mouvements erratiques attirent les requins. Nager près d'une pêche active, avec des poissons blessés en eau, ou porter des bijoux brillants qui imitent les écailles constituent des facteurs de risque documentés. La majorité des incidents surviennent dans des conditions particulières — eau turbide, zone de pêche, crépuscule — et non lors de baignades ordinaires."
     },
     {
       "id": "14",
-      "question": "Les requins ont-ils des os comme les humains ?",
-      "answers": ["Oui, exactement les mêmes", "Oui, mais seulement dans la queue", "Oui, uniquement dans les dents", "Non, leur squelette est surtout cartilagineux"],
-      "correctIndex": 3,
-      "explanation": "Le cartilage rend leur corps plus léger et flexible, ce qui favorise la nage."
+      "question": "Certaines espèces de requins peuvent-elles vivre en eau douce ?",
+      "answers": [
+        "Non, tous les requins meurent en eau douce",
+        "Oui, le requin bouledogue remonte les fleuves",
+        "Seulement les espèces tropicales à marée haute",
+        "Oui, mais uniquement dans les lacs salés"
+      ],
+      "correctIndex": 1,
+      "explanation": "Le requin bouledogue (Carcharhinus leucas) est l'une des rares espèces capables de tolérer l'eau douce grâce à un mécanisme d'osmorégulation efficace. Il a été observé à des centaines de kilomètres en amont de fleuves comme le Mississippi, l'Amazone, le Zambèze ou le lac Nicaragua. C'est aussi l'une des espèces les plus impliquées dans les incidents avec des humains, notamment dans des eaux peu profondes et turbides."
     },
     {
       "id": "15",
-      "question": "Quel requin est célèbre pour la forme particulière de sa tête ?",
-      "answers": ["Le requin-baleine", "Le requin-marteau", "Le requin pèlerin", "Le requin-renard"],
+      "question": "Pourquoi la forme élargie en T de la tête du requin-marteau est-elle un avantage ?",
+      "answers": [
+        "Elle lui permet de nager plus vite",
+        "Elle améliore sa vision et son électroréception",
+        "Elle lui sert à creuser le sable",
+        "Elle l'aide à réguler sa température"
+      ],
       "correctIndex": 1,
-      "explanation": "La tête élargie du requin-marteau améliore son champ de vision et l’aide à détecter ses proies."
+      "explanation": "La tête en forme de marteau (céphalophore) du requin-marteau (Sphyrna) place les yeux et les narines à grande distance l'un de l'autre, ce qui améliore le champ de vision à 360° et la détection stéréoscopique des odeurs. La surface élargie du rostre concentre également davantage d'ampoules de Lorenzini, améliorant la détection électrique des proies enfouies dans le sable, comme les raies."
     },
     {
       "id": "16",
-      "question": "Pourquoi protéger les requins est-il important ?",
-      "answers": ["Pour augmenter les attaques", "Pour supprimer les poissons", "Pour préserver l’équilibre des océans", "Pour bloquer les courants marins"],
+      "question": "Quel est le deuxième plus grand poisson du monde, qui se nourrit aussi en filtrant le plancton ?",
+      "answers": [
+        "Le requin-tigre",
+        "Le requin-marteau géant",
+        "Le requin pèlerin",
+        "Le requin mako"
+      ],
       "correctIndex": 2,
-      "explanation": "La disparition des grands prédateurs peut provoquer des déséquilibres en cascade dans les chaînes alimentaires marines."
+      "explanation": "Le requin pèlerin (Cetorhinus maximus) peut atteindre 10 à 12 mètres de long et est le deuxième plus grand poisson du monde après le requin-baleine. Il nage lentement la bouche grande ouverte pour filtrer le plancton. On l'observe régulièrement en Atlantique Nord et en Méditerranée. Malgré sa taille, il est totalement inoffensif pour l'homme et est aujourd'hui classé comme espèce vulnérable par l'UICN."
     },
     {
       "id": "17",
-      "question": "Les requins voient-ils uniquement grâce à leur odorat ?",
-      "answers": ["Oui, ils sont aveugles", "Oui, sauf la nuit", "Oui, seulement en surface", "Non, ils utilisent plusieurs sens"],
-      "correctIndex": 3,
-      "explanation": "Les requins combinent vision, odorat, vibrations et détection électrique pour comprendre leur environnement."
+      "question": "Les requins utilisent-ils uniquement leur odorat pour chasser et se repérer ?",
+      "answers": [
+        "Oui, leur vision est presque nulle",
+        "Oui, sauf en surface",
+        "Non, ils combinent plusieurs sens",
+        "Oui, sauf la nuit où ils s'orientent au son"
+      ],
+      "correctIndex": 2,
+      "explanation": "Les requins sont dotés d'un arsenal sensoriel remarquable : odorat très sensible, vision adaptée aux faibles luminosités avec un tapetum lucidum (couche réfléchissante derrière la rétine), ligne latérale pour détecter les vibrations, ampoules de Lorenzini pour l'électroréception, et audition capable de capter des sons basses fréquences à longue distance. Chaque sens prend le relais selon la distance à la proie."
     },
     {
       "id": "18",
-      "question": "Quel animal est statistiquement bien plus dangereux pour l’homme que le requin ?",
-      "answers": ["Le dauphin", "Le moustique", "L’étoile de mer", "La sardine"],
+      "question": "Quel animal tue chaque année bien plus d'humains que l'ensemble des requins réunis ?",
+      "answers": [
+        "Le dauphin commun",
+        "Le moustique",
+        "L'étoile de mer",
+        "Le grand requin blanc"
+      ],
       "correctIndex": 1,
-      "explanation": "Le moustique transmet des maladies graves et cause beaucoup plus de morts humaines que les requins."
+      "explanation": "Le moustique est de loin l'animal le plus meurtrier pour l'homme : il transmet des maladies comme le paludisme, la dengue, le chikungunya et la fièvre jaune, causant selon l'OMS plus de 700 000 morts par an. Les requins causent en moyenne une dizaine de décès humains par an dans le monde. L'humain, lui, tue des dizaines de millions de requins chaque année — un rapport disproportionné."
     },
     {
       "id": "19",
-      "question": "Que signifie le mot “prédateur” pour un requin ?",
-      "answers": ["Un animal qui produit des plantes", "Un animal qui fabrique du corail", "Un animal qui chasse d’autres animaux", "Un animal qui ne mange jamais"],
+      "question": "Pourquoi la croissance lente des requins les rend-elle particulièrement vulnérables à la surpêche ?",
+      "answers": [
+        "Parce qu'ils mangent plus en vieillissant",
+        "Parce qu'ils perdent leurs dents avec l'âge",
+        "Parce qu'ils mûrissent tard et ont peu de petits",
+        "Parce qu'ils migrent moins loin en vieillissant"
+      ],
       "correctIndex": 2,
-      "explanation": "Un prédateur capture des proies pour se nourrir, mais cela ne signifie pas qu’il attaque tout ce qu’il rencontre."
+      "explanation": "De nombreuses espèces de requins atteignent la maturité sexuelle tardivement — entre 7 et 20 ans selon les espèces — et ont peu de petits par portée. Le requin-taupe commun, par exemple, ne se reproduit que tous les trois ans. Cette stratégie reproductive dite K (peu de descendants, investissement parental élevé) signifie que leurs populations ne peuvent se reconstituer que très lentement après une surexploitation."
     },
     {
       "id": "20",
-      "question": "Quel comportement est le plus responsable face aux requins ?",
-      "answers": ["Respecter les consignes locales et éviter les zones à risque", "Les nourrir pour les calmer", "Les poursuivre en bateau", "Les toucher pour les identifier"],
+      "question": "Quel comportement est le plus responsable face à la présence de requins ?",
+      "answers": [
+        "Suivre les consignes et éviter les zones à risque",
+        "Les nourrir pour les habituer aux humains",
+        "Les poursuivre en bateau pour les observer",
+        "Les toucher pour évaluer leur agressivité"
+      ],
       "correctIndex": 0,
-      "explanation": "Le respect des consignes réduit les risques tout en évitant de perturber ces animaux sauvages."
+      "explanation": "Respecter les signalisations et consignes locales, éviter de nager au crépuscule ou avec des plaies ouvertes, ne pas s'approcher des zones de pêche active : ce sont les comportements qui réduisent le plus les risques. Nourrir les requins les conditionne à associer l'humain à la nourriture, ce qui augmente le danger à long terme. Les observer sans les perturber, à distance, est le comportement le plus sûr et le plus respectueux."
     }
   ]
 }
