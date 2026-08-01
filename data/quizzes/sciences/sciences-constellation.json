@@ -2,7 +2,7 @@
   "slug": "quiz-sciences-constellations-reconnaitre",
   "title": "Quiz Sciences - Constellations - Saurez-vous les reconnaître ?",
   "description": "Découvre les constellations et apprends à les reconnaître grâce à ce quiz ludique sur le ciel nocturne et les étoiles.",
-  "descriptionSeo": "Plonge dans l’univers des constellations avec ce quiz sciences dédié au ciel nocturne. À travers 20 questions, apprends à reconnaître les principales figures stellaires, comprendre leur origine et utiliser des repères simples pour t’orienter la nuit. Orion, Grande Ourse, étoile polaire… un quiz ludique et pédagogique pour développer tes connaissances en astronomie et mieux observer les étoiles.",
+  "descriptionSeo": "Plonge dans l'univers des constellations avec ce quiz sciences dédié au ciel nocturne. À travers 20 questions, apprends à reconnaître les principales figures stellaires, comprendre leur origine et utiliser des repères simples pour t'orienter la nuit. Orion, Grande Ourse, étoile polaire… un quiz ludique et pédagogique pour développer tes connaissances en astronomie et mieux observer les étoiles.",
   "category": {
     "name": "Sciences",
     "slug": "sciences"
@@ -18,19 +18,19 @@
   "questions": [
     {
       "id": "1",
-      "question": "Qu’est-ce qu’une constellation ?",
+      "question": "Qu'est-ce qu'une constellation ?",
       "answers": [
         "Une galaxie entière",
-        "Un regroupement d’étoiles formant une figure vue depuis la Terre",
+        "Un groupe d'étoiles formant une figure céleste",
         "Un groupe de planètes alignées",
-        "Une zone vide dans l’espace"
+        "Une zone vide dans l'espace"
       ],
       "correctIndex": 1,
-      "explanation": "Une constellation est une figure apparente formée par des étoiles vues depuis la Terre. En réalité, ces étoiles peuvent être séparées par des centaines d’années-lumière : c’est notre point de vue qui crée le motif."
+      "explanation": "Une constellation est une figure apparente formée par des étoiles vues depuis la Terre. L'UAI en reconnaît officiellement 88 depuis 1930. Ces étoiles peuvent être séparées de centaines d'années-lumière : c'est notre point de vue qui crée le motif."
     },
     {
       "id": "2",
-      "question": "Dans quelle constellation se trouve l’étoile polaire ?",
+      "question": "Dans quelle constellation se trouve l'étoile polaire ?",
       "answers": [
         "La Petite Ourse",
         "Orion",
@@ -38,23 +38,23 @@
         "La Grande Ourse"
       ],
       "correctIndex": 0,
-      "explanation": "L’étoile polaire se situe à l’extrémité de la Petite Ourse. Pour la trouver, on utilise souvent la Grande Ourse : les deux étoiles du bord de sa “casserole” pointent vers elle."
+      "explanation": "L'étoile polaire (Polaris) est à l'extrémité de la queue de la Petite Ourse. Elle se situe à environ 0,7° du pôle Nord céleste, ce qui la rend quasi-fixe dans le ciel. Pour la trouver, on prolonge les deux étoiles du bord du « bol » de la Grande Ourse."
     },
     {
       "id": "3",
-      "question": "À quoi sert principalement l’étoile polaire ?",
+      "question": "Quelle est la magnitude approximative de l'étoile Sirius, l'étoile la plus brillante du ciel nocturne ?",
       "answers": [
-        "Observer les planètes",
-        "Mesurer la température",
-        "Indiquer le nord",
-        "Calculer la distance des étoiles"
+        "−0,7",
+        "+2,1",
+        "+0,03",
+        "−1,46"
       ],
-      "correctIndex": 2,
-      "explanation": "L’étoile polaire est presque alignée avec l’axe de rotation de la Terre. Elle reste donc presque fixe dans le ciel et indique la direction du nord, ce qui en fait un repère essentiel pour s’orienter."
+      "correctIndex": 3,
+      "explanation": "Sirius, dans la constellation du Grand Chien, affiche une magnitude de −1,46 : c'est l'étoile la plus brillante du ciel nocturne. Elle est visible depuis les deux hémisphères et sert de repère en prolongeant la ceinture d'Orion vers le bas-gauche."
     },
     {
       "id": "4",
-      "question": "Quelle constellation est reconnaissable grâce à sa “ceinture” de trois étoiles alignées ?",
+      "question": "Quelle constellation est reconnaissable grâce à sa ceinture de trois étoiles alignées ?",
       "answers": [
         "Lyre",
         "Andromède",
@@ -62,23 +62,23 @@
         "Cygne"
       ],
       "correctIndex": 2,
-      "explanation": "Orion est l’une des constellations les plus faciles à repérer. Sa ceinture, composée de trois étoiles alignées, permet ensuite d’identifier d’autres étoiles comme Bételgeuse et Rigel."
+      "explanation": "La ceinture d'Orion est formée par Alnitak, Alnilam et Mintaka, trois étoiles distantes d'environ 800 à 1 300 années-lumière. Cette ceinture est l'un des asterismes les plus facilement reconnaissables du ciel hivernal dans les deux hémisphères."
     },
     {
       "id": "5",
       "question": "À quoi sert la Grande Ourse en astronomie pratique ?",
       "answers": [
-        "Identifier les galaxies",
-        "Mesurer le temps",
-        "Observer les planètes",
-        "Repérer l’étoile polaire"
+        "Identifier les galaxies proches",
+        "Mesurer le temps sidéral",
+        "Repérer les planètes du zodiaque",
+        "Repérer l'étoile polaire"
       ],
       "correctIndex": 3,
-      "explanation": "La Grande Ourse sert de repère : en prolongeant la ligne formée par ses deux étoiles principales, on trouve facilement l’étoile polaire. C’est une méthode simple utilisée depuis des siècles."
+      "explanation": "En prolongeant environ 5 fois la distance entre les deux étoiles du fond du « bol » de la Grande Ourse (Mérak et Dubhé), on atteint Polaris. Cette méthode est utilisée depuis l'Antiquité pour s'orienter vers le nord géographique."
     },
     {
       "id": "6",
-      "question": "Combien de constellations sont officiellement reconnues ?",
+      "question": "Combien de constellations sont officiellement reconnues par l'UAI ?",
       "answers": [
         "24",
         "88",
@@ -86,55 +86,55 @@
         "150"
       ],
       "correctIndex": 1,
-      "explanation": "Depuis 1922, l’Union astronomique internationale a défini 88 constellations. Elles couvrent tout le ciel et servent de repères pour localiser les objets célestes."
+      "explanation": "Depuis 1930, l'Union Astronomique Internationale (UAI) reconnaît officiellement 88 constellations couvrant l'ensemble du ciel. Elles ont été délimitées par l'astronome belge Eugène Delporte, remplaçant les frontières floues héritées de l'Antiquité."
     },
     {
       "id": "7",
       "question": "Pourquoi les constellations visibles changent-elles selon la saison ?",
       "answers": [
-        "Les étoiles disparaissent",
-        "La Terre tourne sur elle-même",
-        "La Terre tourne autour du Soleil",
-        "La Lune les cache"
+        "Les étoiles disparaissent temporairement",
+        "La Terre tourne sur elle-même chaque nuit",
+        "La Terre tourne autour du Soleil en un an",
+        "La Lune modifie notre champ de vision"
       ],
       "correctIndex": 2,
-      "explanation": "En tournant autour du Soleil, la Terre change d’orientation dans l’espace. On ne regarde donc pas la même direction du ciel selon les saisons."
+      "explanation": "En parcourant son orbite autour du Soleil en 365,25 jours, la Terre change de direction dans l'espace. Elle regarde donc vers des régions différentes du ciel selon les mois : Orion domine l'hiver, le Scorpion l'été dans l'hémisphère nord."
     },
     {
       "id": "8",
-      "question": "Quelle constellation forme un W caractéristique ?",
+      "question": "Quelle constellation forme un W caractéristique dans le ciel ?",
       "answers": [
         "Scorpion",
         "Cassiopeia",
         "Balance",
-        "Orion"
+        "Persée"
       ],
       "correctIndex": 1,
-      "explanation": "Cassiopeia est très utile pour se repérer : sa forme en W (ou M) est visible toute l’année dans l’hémisphère nord et se situe à l’opposé de la Grande Ourse par rapport à l’étoile polaire."
+      "explanation": "Cassiopeia est formée de 5 étoiles principales dessinant un W (ou M selon son orientation). Circumpolaire dans l'hémisphère nord, elle est visible toute l'année et se situe à l'opposé de la Grande Ourse par rapport à l'étoile polaire."
     },
     {
       "id": "9",
       "question": "Que représentent souvent les constellations dans les cultures anciennes ?",
       "answers": [
-        "Des phénomènes météo",
-        "Des machines",
-        "Des mythes et personnages",
-        "Des calculs scientifiques"
+        "Des phénomènes météorologiques",
+        "Des divinités, héros ou animaux mythologiques",
+        "Des cartes de navigation maritime",
+        "Des cycles agricoles uniquement"
       ],
-      "correctIndex": 2,
-      "explanation": "Les constellations servaient à raconter des histoires et à transmettre des mythes. Elles avaient aussi un rôle pratique pour les calendriers et la navigation."
+      "correctIndex": 1,
+      "explanation": "Les Grecs, Mésopotamiens, Égyptiens et Chinois ont chacun projeté leurs mythes sur le ciel. Les 48 constellations de l'Antiquité grecque, cataloguées par Ptolémée vers 150 apr. J.-C. dans l'Almageste, représentent héros, dieux et créatures légendaires."
     },
     {
       "id": "10",
-      "question": "Quelle constellation représente un chasseur mythologique ?",
+      "question": "Quelle est la distance approximative entre la Terre et Bételgeuse ?",
       "answers": [
-        "Taureau",
-        "Orion",
-        "Poissons",
-        "Lyre"
+        "Environ 700 années-lumière",
+        "Environ 8 minutes-lumière",
+        "Environ 4,2 années-lumière",
+        "Environ 100 années-lumière"
       ],
-      "correctIndex": 1,
-      "explanation": "Dans la mythologie grecque, Orion est un chasseur géant. Sa constellation est encore aujourd’hui l’une des plus visibles et utilisées pour s’orienter en hiver."
+      "correctIndex": 0,
+      "explanation": "Bételgeuse, la supergéante rouge de l'épaule droite d'Orion, est estimée à environ 700 années-lumière (mesures Hipparcos et Gaia convergent entre 500 et 900 al). Son diamètre vaut environ 1 000 fois celui du Soleil. Elle est candidate à la supernova."
     },
     {
       "id": "11",
@@ -146,35 +146,35 @@
         "Verseau"
       ],
       "correctIndex": 0,
-      "explanation": "Cancer est une constellation du zodiaque. Même si elle est peu visible, elle fait partie de la bande du ciel parcourue par le Soleil au cours de l’année."
+      "explanation": "Cancer est l'une des 12 constellations du zodiaque. Bien que peu lumineuse, elle contient l'amas ouvert M44 (Praesepe ou « Ruche »), visible à l'œil nu sous un ciel sombre, et qui regroupe environ 1 000 étoiles à 577 années-lumière de la Terre."
     },
     {
       "id": "12",
-      "question": "Pourquoi les étoiles d’une constellation semblent-elles proches ?",
+      "question": "Quelle est la particularité du « Triangle d'été » ?",
       "answers": [
-        "Elles sont toutes à la même distance",
-        "Elles tournent autour de la Terre",
-        "Effet de perspective depuis la Terre",
-        "Elles sont reliées physiquement"
+        "Il regroupe trois planètes brillantes",
+        "Il indique le pôle Sud céleste",
+        "Il disparaît totalement en hiver",
+        "C'est un asterisme formé de Véga, Deneb et Altaïr"
       ],
-      "correctIndex": 2,
-      "explanation": "Les constellations sont une illusion d’optique : les étoiles peuvent être très éloignées les unes des autres, mais elles semblent alignées vues depuis la Terre."
+      "correctIndex": 3,
+      "explanation": "Le Triangle d'été est un asterisme (figure non officielle) formé par Véga (Lyre, magnitude 0,03), Deneb (Cygne, magnitude 1,25) et Altaïr (Aigle, magnitude 0,77). Il est visible en été et en automne dans l'hémisphère nord et constitue un excellent repère pour débuter l'observation."
     },
     {
       "id": "13",
-      "question": "Dans quelle constellation se trouve l’étoile Véga ?",
+      "question": "Dans quelle constellation se trouve l'étoile Véga ?",
       "answers": [
         "Lyre",
-        "Orion",
+        "Cygne",
         "Scorpion",
         "Bélier"
       ],
       "correctIndex": 0,
-      "explanation": "Véga est l’une des étoiles les plus brillantes du ciel. Elle fait partie du “triangle d’été” avec Deneb et Altaïr, un repère très utile pour observer le ciel estival."
+      "explanation": "Véga, dans la Lyre, est à 25 années-lumière de la Terre. Avec une magnitude de 0,03, c'est la 5e étoile la plus brillante du ciel. Elle fut l'étoile polaire il y a environ 12 000 ans (précession des équinoxes) et le redeviendra dans environ 12 000 ans."
     },
     {
       "id": "14",
-      "question": "Quelle constellation représente une princesse enchaînée ?",
+      "question": "Quelle constellation représente une princesse de la mythologie grecque ?",
       "answers": [
         "Cygne",
         "Balance",
@@ -182,79 +182,79 @@
         "Capricorne"
       ],
       "correctIndex": 2,
-      "explanation": "Andromède est une figure mythologique attachée à un rocher. Sa constellation est proche de Cassiopeia et permet de repérer la galaxie d’Andromède à l’œil nu."
+      "explanation": "Andromède est une princesse éthiopienne enchaînée à un rocher dans la mythologie grecque. Sa constellation abrite la galaxie d'Andromède (M31), l'objet le plus lointain visible à l'œil nu : environ 2,5 millions d'années-lumière de la Terre."
     },
     {
       "id": "15",
-      "question": "Quelle constellation représente un monstre marin ?",
+      "question": "Quelle étoile du Cygne est l'une des plus lumineuses connues de notre galaxie ?",
       "answers": [
-        "Lion",
-        "Baleine (Cetus)",
-        "Vierge",
-        "Gémeaux"
+        "Rigel",
+        "Capella",
+        "Aldébaran",
+        "Deneb"
       ],
-      "correctIndex": 1,
-      "explanation": "Cetus représente un monstre marin dans la mythologie. Elle est liée à l’histoire d’Andromède et fait partie d’un groupe de constellations connectées."
+      "correctIndex": 3,
+      "explanation": "Deneb, qui marque la queue du Cygne, est l'une des étoiles intrinsèquement les plus lumineuses de la Voie Lactée : sa luminosité absolue est estimée entre 100 000 et 200 000 fois celle du Soleil. Elle se situe à environ 2 600 années-lumière, ce qui explique qu'elle nous paraisse moins brillante que Sirius."
     },
     {
       "id": "16",
       "question": "Pourquoi voit-on mieux les constellations loin des villes ?",
       "answers": [
-        "Les étoiles sont plus proches",
-        "Moins de pollution lumineuse",
-        "L’air est plus chaud",
-        "La gravité est différente"
+        "Les étoiles y sont plus proches",
+        "La pollution lumineuse est moindre",
+        "L'air y est plus transparent",
+        "La gravité terrestre y est différente"
       ],
       "correctIndex": 1,
-      "explanation": "La lumière artificielle des villes masque les étoiles faibles. En zone sombre, l’œil s’adapte mieux et permet de voir beaucoup plus d’étoiles et de constellations."
+      "explanation": "La pollution lumineuse artificielle masque les étoiles de faible éclat. Selon l'atlas mondial de 2016 (Falchi et al., Science Advances), plus d'un tiers de l'humanité ne peut plus voir la Voie Lactée. En zone Bortle 1 (ciel vierge), on distingue jusqu'à 4 500 étoiles à l'œil nu."
     },
     {
       "id": "17",
-      "question": "Dans quelle constellation se trouve Bételgeuse ?",
+      "question": "Quelle constellation est traversée par le centre de notre galaxie, la Voie Lactée ?",
       "answers": [
-        "Balance",
         "Orion",
-        "Poissons",
-        "Verseau"
+        "Balance",
+        "Sagittaire",
+        "Gémeaux"
       ],
-      "correctIndex": 1,
-      "explanation": "Bételgeuse est une étoile rouge géante située dans Orion. Sa couleur orangée la rend facilement identifiable dans le ciel nocturne."
+      "correctIndex": 2,
+      "explanation": "Le centre galactique de la Voie Lactée se situe dans la direction du Sagittaire, à environ 26 000 années-lumière. C'est là que se trouve Sagittarius A*, le trou noir supermassif central de notre galaxie, dont la masse est d'environ 4 millions de masses solaires (Prix Nobel 2020, Genzel et Ghez)."
     },
     {
       "id": "18",
-      "question": "Qu’est-ce que le zodiaque ?",
+      "question": "Qu'est-ce que le zodiaque ?",
       "answers": [
-        "Une galaxie",
-        "Une planète",
-        "Une zone du ciel parcourue par le Soleil et les planètes",
-        "Une étoile"
+        "Bande du ciel proche de l'écliptique parcourue par le Soleil, la Lune et les planètes",
+        "Une planète de la ceinture d'astéroïdes",
+        "Une galaxie naine proche",
+        "Une étoile variable particulière"
       ],
-      "correctIndex": 2,
-      "explanation": "Le zodiaque est une bande du ciel où passent le Soleil, la Lune et les planètes. Les constellations du zodiaque sont traversées par ces objets au cours de l’année."
+      "correctIndex": 0,
+      "explanation": "Le zodiaque est une bande de 18° de largeur centrée sur l'écliptique (trajectoire apparente du Soleil). Il contient 13 constellations traversées par le Soleil, dont l'Ophiuchus, souvent oubliée. Les 12 constellations astrologiques correspondent aux 12 mois mais ne coïncident plus avec les dates astronomiques actuelles."
     },
     {
       "id": "19",
-      "question": "Quelle constellation est proche d’Orion en hiver ?",
+      "question": "Quelle constellation hivernale contient l'amas des Pléiades ?",
       "answers": [
-        "Taureau",
+        "Poissons",
         "Balance",
         "Sagittaire",
-        "Poissons"
+        "Taureau"
       ],
-      "correctIndex": 0,
-      "explanation": "Le Taureau est visible près d’Orion. Il contient l’amas des Pléiades, souvent confondu avec une petite constellation mais qui est en réalité un groupe d’étoiles."
+      "correctIndex": 3,
+      "explanation": "L'amas des Pléiades (M45) se trouve dans le Taureau, à environ 444 années-lumière. Il regroupe plus de 1 000 étoiles, dont 6 à 7 visibles à l'œil nu. Le Taureau est proche d'Orion dans le ciel d'hiver et contient aussi l'amas des Hyades, le plus proche de la Terre (151 al)."
     },
     {
       "id": "20",
-      "question": "Pourquoi les constellations semblent-elles stables dans le temps ?",
+      "question": "Pourquoi les formes des constellations semblent-elles stables sur des siècles ?",
       "answers": [
-        "Les étoiles ne bougent pas",
-        "Elles tournent autour de la Terre",
-        "Leurs mouvements sont très lents à notre échelle",
-        "Elles sont fixées dans l’espace"
+        "Les étoiles sont immobiles dans l'espace",
+        "Elles tournent synchronisées autour de la Terre",
+        "Leurs déplacements réels prennent des millénaires",
+        "Elles sont fixées par gravitation mutuelle"
       ],
       "correctIndex": 2,
-      "explanation": "Les étoiles se déplacent réellement, mais sur des millions d’années. À l’échelle humaine, leurs positions semblent donc fixes, ce qui stabilise les constellations."
+      "explanation": "Les étoiles se déplacent (mouvement propre), mais très lentement à notre échelle : Barnard, l'étoile au mouvement propre le plus rapide, déplace l'équivalent d'un diamètre de pleine Lune en 180 ans. La Grande Ourse avait une forme très différente il y a 100 000 ans et en aura une autre dans 100 000 ans."
     }
   ]
 }

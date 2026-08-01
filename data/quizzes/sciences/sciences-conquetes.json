@@ -2,7 +2,7 @@
   "slug": "quiz-sciences-exploration-spatiale-missions",
   "title": "Quiz Sciences - Exploration spatiale - Connaissez-vous les missions ?",
   "description": "De Spoutnik à Mars, mesure tes connaissances sur les grandes étapes de la conquête spatiale.",
-  "descriptionSeo": "Découvre les grandes missions de l’exploration spatiale avec ce quiz captivant de 20 questions. De Spoutnik à Apollo, en passant par les rovers martiens, les sondes interstellaires et les télescopes spatiaux, teste tes connaissances sur les avancées majeures de la conquête de l’espace. Idéal pour apprendre, réviser et mieux comprendre les technologies et objectifs des missions spatiales emblématiques.",
+  "descriptionSeo": "Découvre les grandes missions de l'exploration spatiale avec ce quiz captivant de 20 questions. De Spoutnik à Apollo, en passant par les rovers martiens, les sondes interstellaires et les télescopes spatiaux, teste tes connaissances sur les avancées majeures de la conquête de l'espace. Idéal pour apprendre, réviser et mieux comprendre les technologies et objectifs des missions spatiales emblématiques.",
   "category": {
     "name": "Sciences",
     "slug": "sciences"
@@ -18,143 +18,243 @@
   "questions": [
     {
       "id": "1",
-      "question": "Quel satellite est considéré comme le premier objet artificiel envoyé dans l’espace ?",
-      "answers": ["Apollo 11", "Spoutnik 1", "Hubble", "Voyager 1"],
-      "correctIndex": 1,
-      "explanation": "Spoutnik 1, lancé par l’Union soviétique en 1957, est le premier satellite artificiel placé en orbite autour de la Terre. Son lancement marque le début de l’ère spatiale."
+      "question": "Quel satellite est considéré comme le premier objet artificiel mis en orbite autour de la Terre ?",
+      "answers": [
+        "Apollo 11",
+        "Hubble",
+        "Spoutnik 1",
+        "Voyager 1"
+      ],
+      "correctIndex": 2,
+      "explanation": "Spoutnik 1, lancé par l'Union soviétique le 4 octobre 1957, est le premier satellite artificiel placé en orbite terrestre. Pesant 83 kg, il a complété une orbite en 96 minutes et émis un signal radio détectable depuis la Terre pendant 22 jours. Son lancement a déclenché la course à l'espace entre les États-Unis et l'URSS."
     },
     {
       "id": "2",
-      "question": "Quelle mission a permis aux premiers humains de marcher sur la Lune ?",
-      "answers": ["Apollo 8", "Gemini 4", "Artemis I", "Apollo 11"],
-      "correctIndex": 3,
-      "explanation": "Apollo 11 est la mission qui a conduit Neil Armstrong et Buzz Aldrin à marcher sur la Lune en 1969. Michael Collins est resté en orbite lunaire dans le module de commande."
+      "question": "Quelle mission a permis aux premiers humains de marcher sur la Lune en 1969 ?",
+      "answers": [
+        "Apollo 11",
+        "Gemini 4",
+        "Artemis I",
+        "Apollo 8"
+      ],
+      "correctIndex": 0,
+      "explanation": "Apollo 11 a conduit Neil Armstrong et Buzz Aldrin à fouler la surface lunaire le 21 juillet 1969. Armstrong a prononcé une phrase historique en posant le pied sur la Lune — souvent citée comme « un petit pas pour l'homme, un bond de géant pour l'humanité », bien que l'enregistrement original soit sujet à interprétation. Michael Collins a maintenu le module de commande en orbite lunaire pendant toute la durée de l'alunissage."
     },
     {
       "id": "3",
-      "question": "Quel astronaute a prononcé la phrase célèbre : « Un petit pas pour l’homme… » ?",
-      "answers": ["Neil Armstrong", "Youri Gagarine", "Buzz Aldrin", "John Glenn"],
+      "question": "Quel être vivant a été le premier à orbiter autour de la Terre à bord de Spoutnik 2 en 1957 ?",
+      "answers": [
+        "Une chienne nommée Laïka",
+        "Un singe rhésus nommé Albert",
+        "Un chimpanzé nommé Ham",
+        "Une tortue soviétique sans nom"
+      ],
       "correctIndex": 0,
-      "explanation": "Neil Armstrong a prononcé cette phrase en posant le pied sur la Lune. Cet instant est devenu l’un des symboles les plus célèbres de l’exploration spatiale."
+      "explanation": "Laïka, une chienne errant dans les rues de Moscou, a été placée à bord de Spoutnik 2 et lancée en orbite le 3 novembre 1957. Elle est le premier être vivant à atteindre l'orbite terrestre. Malheureusement, la capsule ne permettait pas de retour sur Terre, et Laïka n'a pas survécu à la mission. Son sacrifice a permis d'étudier les effets du vol spatial sur un organisme vivant."
     },
     {
       "id": "4",
-      "question": "Quelle mission a envoyé le premier humain dans l’espace ?",
-      "answers": ["Mercury-Atlas 6", "Apollo 13", "Vostok 1", "Soyouz 1"],
-      "correctIndex": 2,
-      "explanation": "Vostok 1 a emporté Youri Gagarine dans l’espace en 1961. Il est devenu le premier être humain à effectuer un vol orbital autour de la Terre."
+      "question": "Quelle mission soviétique a emporté le premier humain dans l'espace en 1961 ?",
+      "answers": [
+        "Mercury-Atlas 6",
+        "Vostok 1",
+        "Apollo 13",
+        "Soyouz 1"
+      ],
+      "correctIndex": 1,
+      "explanation": "Vostok 1 a lancé Youri Gagarine en orbite terrestre le 12 avril 1961. En 108 minutes, il a effectué un tour complet de la Terre à une altitude maximale d'environ 327 km. Gagarine a éjecté de la capsule et atterri séparément en parachute. Son vol a précédé de trois semaines le premier vol suborbital américain d'Alan Shepard."
     },
     {
       "id": "5",
-      "question": "Quel télescope spatial a été lancé en 1990 et a profondément transformé l’astronomie ?",
-      "answers": ["Kepler", "Gaia", "Hubble", "Spitzer"],
-      "correctIndex": 2,
-      "explanation": "Le télescope spatial Hubble observe l’Univers depuis l’orbite terrestre. Il a fourni des images détaillées de galaxies, nébuleuses, étoiles et phénomènes cosmiques lointains."
+      "question": "Quel télescope spatial, lancé en 1990, a révolutionné notre compréhension de l'Univers ?",
+      "answers": [
+        "Hubble",
+        "Kepler",
+        "Gaia",
+        "Spitzer"
+      ],
+      "correctIndex": 0,
+      "explanation": "Le télescope spatial Hubble, placé en orbite à environ 540 km d'altitude, a produit des images emblématiques de nébuleuses, de galaxies et d'amas d'étoiles. Ses observations ont contribué à établir que l'expansion de l'Univers s'accélère, une découverte compatible avec l'hypothèse de l'énergie sombre, sans toutefois la confirmer à elle seule. Après un défaut de miroir corrigé en 1993 par des astronautes en EVA, il est resté opérationnel pendant plus de 30 ans."
     },
     {
       "id": "6",
-      "question": "Quelle sonde est célèbre pour avoir quitté l’héliosphère et explorer l’espace interstellaire ?",
-      "answers": ["Curiosity", "Voyager 1", "Rosetta", "Cassini"],
-      "correctIndex": 1,
-      "explanation": "Voyager 1, lancée en 1977, est devenue le premier objet fabriqué par l’être humain à entrer dans l’espace interstellaire. Elle continue d’envoyer des données malgré son très grand âge."
+      "question": "Quelle sonde est la première à avoir quitté l'héliosphère pour entrer dans l'espace interstellaire ?",
+      "answers": [
+        "Curiosity",
+        "Rosetta",
+        "Voyager 1",
+        "Cassini"
+      ],
+      "correctIndex": 2,
+      "explanation": "Voyager 1, lancée en septembre 1977, a quitté l'héliosphère et pénétré dans l'espace interstellaire vers 2012, à une distance d'environ 120 unités astronomiques du Soleil. Elle est l'objet fabriqué par l'Homme le plus éloigné de la Terre. Alimentée par des générateurs thermoélectriques à radio-isotopes, elle continue d'envoyer des données à la NASA malgré un signal qui met plus de 22 heures à parvenir sur Terre."
     },
     {
       "id": "7",
-      "question": "Quelle mission européenne a étudié la comète 67P/Tchourioumov-Guérassimenko ?",
-      "answers": ["Galileo", "Juno", "New Horizons", "Rosetta"],
+      "question": "Quelle mission de l'ESA a accompagné la comète 67P et largué l'atterrisseur Philae à sa surface ?",
+      "answers": [
+        "Galileo",
+        "Juno",
+        "New Horizons",
+        "Rosetta"
+      ],
       "correctIndex": 3,
-      "explanation": "Rosetta, mission de l’Agence spatiale européenne, a accompagné la comète 67P autour du Soleil. Elle a aussi largué le petit atterrisseur Philae à sa surface."
+      "explanation": "Rosetta, mission de l'Agence spatiale européenne lancée en 2004, a rejoint la comète 67P/Tchourioumov-Guérassimenko en 2014 après un voyage de 10 ans. Elle a largué le petit atterrisseur Philae, qui s'est posé à la surface de la comète le 12 novembre 2014 — une première mondiale. L'analyse des données a montré que la comète contenait des molécules organiques complexes."
     },
     {
       "id": "8",
-      "question": "Quel robot de la NASA explore Mars depuis 2012 dans le cratère Gale ?",
-      "answers": ["Curiosity", "Spirit", "Opportunity", "Sojourner"],
-      "correctIndex": 0,
-      "explanation": "Curiosity est un rover martien conçu pour analyser les roches et le sol de Mars. Il cherche notamment à comprendre si la planète a pu réunir des conditions favorables à la vie microbienne."
+      "question": "Quel rover de la NASA explore le cratère Gale sur Mars depuis août 2012 ?",
+      "answers": [
+        "Opportunity",
+        "Spirit",
+        "Curiosity",
+        "Sojourner"
+      ],
+      "correctIndex": 2,
+      "explanation": "Curiosity est un rover de la taille d'une voiture (environ 900 kg) qui analyse les roches et le sol martien pour comprendre si Mars a pu, par le passé, abriter des conditions propices à la vie microbienne. Ses instruments incluent un spectromètre laser, un chromatographe et une caméra haute résolution. Il a confirmé que le cratère Gale a contenu un lac d'eau liquide il y a plusieurs milliards d'années."
     },
     {
       "id": "9",
-      "question": "Quel rover martien a été envoyé avec l’hélicoptère Ingenuity ?",
-      "answers": ["Opportunity", "Sojourner", "Perseverance", "Lunokhod 1"],
-      "correctIndex": 2,
-      "explanation": "Perseverance a atterri sur Mars en 2021 dans le cratère Jezero. Il a transporté Ingenuity, le premier hélicoptère à réaliser un vol motorisé sur une autre planète."
+      "question": "Quel rover martien a atterri dans le cratère Jezero en 2021, accompagné de l'hélicoptère Ingenuity ?",
+      "answers": [
+        "Lunokhod 1",
+        "Sojourner",
+        "Opportunity",
+        "Perseverance"
+      ],
+      "correctIndex": 3,
+      "explanation": "Perseverance a atterri sur Mars le 18 février 2021 avec à son bord Ingenuity, un petit hélicoptère de 1,8 kg. Ingenuity est devenu le premier engin à voler de façon motorisée sur une autre planète, en avril 2021. Perseverance collecte aussi des carottes de roche martienne destinées à être récupérées par une future mission de retour d'échantillons."
     },
     {
       "id": "10",
-      "question": "Quel était l’objectif principal du télescope spatial Kepler ?",
-      "answers": ["Observer la surface de Mars", "Étudier les anneaux de Saturne", "Mesurer les marées terrestres", "Chercher des exoplanètes"],
-      "correctIndex": 3,
-      "explanation": "Kepler a été conçu pour détecter des exoplanètes, c’est-à-dire des planètes orbitant autour d’autres étoiles que le Soleil. Il a permis d’en découvrir des milliers."
+      "question": "Quel était l'objectif principal du télescope spatial Kepler, opérationnel de 2009 à 2018 ?",
+      "answers": [
+        "Étudier les anneaux de Saturne",
+        "Détecter des exoplanètes autour d'autres étoiles",
+        "Mesurer le champ magnétique terrestre",
+        "Cartographier la surface de Mars"
+      ],
+      "correctIndex": 1,
+      "explanation": "Kepler a détecté des exoplanètes en mesurant les légères baisses de luminosité d'une étoile lorsqu'une planète passe devant elle (méthode du transit). En neuf ans, il a confirmé l'existence de plus de 2 600 exoplanètes, dont plusieurs dans la zone habitable de leur étoile. Sa mission a révélé que les planètes sont extrêmement communes dans notre galaxie."
     },
     {
       "id": "11",
-      "question": "Quelle sonde a survolé Pluton en 2015 ?",
-      "answers": ["Voyager 2", "New Horizons", "Cassini", "Pioneer 10"],
-      "correctIndex": 1,
-      "explanation": "New Horizons a réalisé le premier survol rapproché de Pluton en 2015. Ses images ont révélé un monde glacé beaucoup plus complexe que prévu."
+      "question": "Quelle sonde américaine a réalisé le premier survol de Pluton en juillet 2015 ?",
+      "answers": [
+        "Voyager 2",
+        "Cassini",
+        "New Horizons",
+        "Pioneer 10"
+      ],
+      "correctIndex": 2,
+      "explanation": "New Horizons, lancée en 2006, a survolé Pluton à environ 12 500 km de distance le 14 juillet 2015 après 9,5 ans de voyage. Ses images ont révélé une surface glacée étonnamment variée, avec des plaines d'azote gelé, des montagnes de glace d'eau et une atmosphère ténue. La sonde continue sa route vers la ceinture de Kuiper."
     },
     {
       "id": "12",
-      "question": "Quelle mission a longtemps étudié Saturne et ses lunes ?",
-      "answers": ["Cassini-Huygens", "Juno", "BepiColombo", "Venera 7"],
-      "correctIndex": 0,
-      "explanation": "Cassini-Huygens a étudié Saturne, ses anneaux et ses satellites pendant de nombreuses années. Le module Huygens s’est même posé sur Titan, la plus grande lune de Saturne."
+      "question": "Quelle mission a étudié Saturne, ses anneaux et ses lunes pendant 13 ans avant de plonger dans la planète ?",
+      "answers": [
+        "Venera 7",
+        "Juno",
+        "BepiColombo",
+        "Cassini-Huygens"
+      ],
+      "correctIndex": 3,
+      "explanation": "Cassini-Huygens, mission conjointe NASA-ESA-ASI, a orbité autour de Saturne de 2004 à 2017. La sonde Huygens s'est posée sur Titan le 14 janvier 2005 — premier atterrissage dans le système solaire externe. Cassini a découvert des geysers d'eau sur Encelade, suggérant un océan souterrain potentiellement propice à la vie. La mission s'est terminée par une plongée contrôlée dans l'atmosphère de Saturne."
     },
     {
       "id": "13",
-      "question": "Quelle sonde de la NASA est associée à l’étude de Jupiter ?",
-      "answers": ["Rosetta", "Parker Solar Probe", "Juno", "Hayabusa2"],
-      "correctIndex": 2,
-      "explanation": "Juno étudie Jupiter afin de mieux comprendre sa composition, son champ magnétique et son atmosphère. Ses observations aident aussi à mieux connaître la formation des planètes géantes."
+      "question": "Quelle sonde de la NASA étudie Jupiter depuis 2016 pour percer les secrets de sa formation ?",
+      "answers": [
+        "Rosetta",
+        "Juno",
+        "Parker Solar Probe",
+        "Hayabusa2"
+      ],
+      "correctIndex": 1,
+      "explanation": "Juno a rejoint Jupiter en juillet 2016 après cinq ans de voyage. Elle orbite selon une trajectoire polaire elliptique pour mesurer le champ magnétique, la gravité, la composition de l'atmosphère et la structure interne de Jupiter. Ses données indiquent que Jupiter possède probablement un noyau central diffus et que son atmosphère est plus complexe que prévu."
     },
     {
       "id": "14",
-      "question": "Quelle mission a pour but d’étudier le Soleil de très près ?",
-      "answers": ["Apollo 17", "Parker Solar Probe", "Gaia", "Luna 2"],
-      "correctIndex": 1,
-      "explanation": "Parker Solar Probe s’approche extrêmement près du Soleil pour analyser sa couronne et le vent solaire. Elle aide les scientifiques à mieux comprendre l’activité solaire."
+      "question": "Quelle sonde solaire s'approche du Soleil à une distance record pour étudier son atmosphère ?",
+      "answers": [
+        "Apollo 17",
+        "Gaia",
+        "Parker Solar Probe",
+        "Luna 2"
+      ],
+      "correctIndex": 2,
+      "explanation": "Parker Solar Probe, lancée en 2018, est conçue pour s'approcher du Soleil à moins de 7 millions de kilomètres — plus près que toute sonde précédente. Elle a traversé la couronne solaire pour la première fois en 2021, devenant le premier objet fabriqué par l'Homme à entrer dans l'atmosphère d'une étoile. À son périhélie, elle voyage à environ 690 000 km/h."
     },
     {
       "id": "15",
-      "question": "Quel programme vise à ramener durablement des astronautes vers la Lune ?",
-      "answers": ["Gemini", "Viking", "Mariner", "Artemis"],
+      "question": "Quel programme de la NASA vise à ramener des astronautes sur la Lune et à préparer une mission vers Mars ?",
+      "answers": [
+        "Gemini",
+        "Viking",
+        "Mariner",
+        "Artemis"
+      ],
       "correctIndex": 3,
-      "explanation": "Le programme Artemis vise à organiser de nouvelles missions habitées vers la Lune. Il doit aussi préparer des technologies utiles pour de futures missions vers Mars."
+      "explanation": "Le programme Artemis vise à établir une présence humaine durable autour et à la surface de la Lune, notamment via la Gateway (station orbitale lunaire). Il ambitionne d'envoyer la première femme et la première personne de couleur sur la Lune. Les technologies développées doivent servir de tremplin pour une future mission habitée vers Mars, prévue dans les années 2030-2040."
     },
     {
       "id": "16",
-      "question": "Quelle mission non habitée a testé le vaisseau Orion autour de la Lune ?",
-      "answers": ["Artemis I", "Apollo 10", "Soyouz 11", "Skylab 1"],
+      "question": "Quel télescope spatial, lancé en 2021, observe l'Univers dans l'infrarouge avec une précision sans précédent ?",
+      "answers": [
+        "James Webb Space Telescope",
+        "Spitzer",
+        "Chandra",
+        "Kepler"
+      ],
       "correctIndex": 0,
-      "explanation": "Artemis I a envoyé le vaisseau Orion autour de la Lune sans équipage. Cette mission a permis de tester le lanceur SLS, le vaisseau et leur retour sur Terre."
+      "explanation": "Le James Webb Space Telescope (JWST), lancé le 25 décembre 2021, est positionné au point de Lagrange L2 à 1,5 million de km de la Terre. Son miroir primaire de 6,5 m de diamètre et ses instruments infrarouges lui permettent d'observer les premières galaxies formées après le Big Bang, des atmosphères d'exoplanètes et des zones de formation d'étoiles dans notre galaxie. Ses premières images publiques ont été publiées en juillet 2022."
     },
     {
       "id": "17",
-      "question": "Quelle station spatiale est un laboratoire habité en orbite autour de la Terre ?",
-      "answers": ["Apollo", "Voyager", "La Station spatiale internationale", "Mir"],
-      "correctIndex": 2,
-      "explanation": "La Station spatiale internationale, souvent appelée ISS, est un laboratoire orbital où des astronautes réalisent des expériences scientifiques en micropesanteur."
+      "question": "Quelle station spatiale est occupée en continu depuis l'an 2000 ?",
+      "answers": [
+        "Tiangong",
+        "La Station spatiale internationale (ISS)",
+        "Saliout 1",
+        "Mir"
+      ],
+      "correctIndex": 1,
+      "explanation": "L'ISS est occupée en continu depuis novembre 2000, ce qui en fait le programme d'exploration humaine le plus long de l'histoire. Elle orbite à environ 400 km d'altitude à une vitesse de 28 000 km/h, complétant 16 révolutions autour de la Terre par jour. Elle est le fruit d'une coopération entre 15 nations et rassemble des modules américains, russes, européens, japonais et canadiens."
     },
     {
       "id": "18",
-      "question": "Quel type de mission est principalement réalisé par un rover ?",
-      "answers": ["Créer une orbite solaire", "Rouler et analyser la surface d’un astre", "Remplacer une étoile", "Changer les saisons sur Terre"],
-      "correctIndex": 1,
-      "explanation": "Un rover est un véhicule robotisé capable de se déplacer à la surface d’un astre, comme Mars ou la Lune. Il transporte des instruments pour analyser le sol, les roches et l’environnement."
+      "question": "Quel acteur privé a rendu le lancement réutilisable commercial courant avec ses fusées Falcon 9 ?",
+      "answers": [
+        "SpaceX",
+        "Virgin Galactic",
+        "Rocket Lab",
+        "Blue Origin"
+      ],
+      "correctIndex": 0,
+      "explanation": "SpaceX, fondée par Elon Musk en 2002, a révolutionné l'accès à l'espace en développant les fusées Falcon 9 à premier étage récupérable et réutilisable. Depuis 2015, des dizaines de premiers étages ont été récupérés et refaits voler. SpaceX assure également le transport des astronautes vers l'ISS depuis 2020 avec le vaisseau Crew Dragon, mettant fin à la dépendance américaine aux Soyouz russes."
     },
     {
       "id": "19",
-      "question": "Quelle mission japonaise a rapporté des échantillons d’un astéroïde ?",
-      "answers": ["Juno", "Viking 1", "Magellan", "Hayabusa2"],
+      "question": "Quelle mission japonaise a rapporté sur Terre des échantillons prélevés sur l'astéroïde Ryugu ?",
+      "answers": [
+        "Juno",
+        "Viking 1",
+        "Magellan",
+        "Hayabusa2"
+      ],
       "correctIndex": 3,
-      "explanation": "Hayabusa2 a prélevé des échantillons sur l’astéroïde Ryugu avant de les rapporter sur Terre. Ces fragments aident à étudier les matériaux anciens du système solaire."
+      "explanation": "Hayabusa2, lancée par l'agence spatiale japonaise JAXA en 2014, a rejoint l'astéroïde Ryugu en 2018, prélevé des échantillons de surface et de sous-surface (par impact), puis rapporté sa capsule sur Terre en décembre 2020. Les analyses ont révélé la présence d'acides aminés et de molécules organiques complexes, apportant des informations précieuses sur les matériaux primordiaux du système solaire."
     },
     {
       "id": "20",
-      "question": "Pourquoi envoie-t-on des sondes spatiales vers d’autres planètes ?",
-      "answers": ["Pour collecter des données scientifiques", "Pour remplacer les planètes", "Pour éteindre le Soleil", "Pour changer les saisons sur Terre"],
-      "correctIndex": 0,
-      "explanation": "Les sondes spatiales permettent d’explorer des mondes lointains sans envoyer immédiatement des humains. Elles mesurent, photographient et analysent des environnements difficiles d’accès."
+      "question": "Pourquoi envoie-t-on des sondes spatiales vers d'autres planètes plutôt que des astronautes ?",
+      "answers": [
+        "Les robots sont plus adaptés que les astronautes",
+        "Pour collecter des données sans risquer de vies",
+        "Les sondes voyagent plus vite que les vaisseaux",
+        "Les humains ne peuvent pas voyager si loin"
+      ],
+      "correctIndex": 1,
+      "explanation": "Les sondes non habitées permettent d'explorer des environnements extrêmement hostiles (températures, radiations, distances) à un coût bien inférieur aux missions humaines. Elles peuvent voyager pendant des années ou des décennies sans systèmes de survie. Les données collectées préparent souvent le terrain pour de futures missions habitées. La complémentarité des robots et des astronautes est au cœur de la stratégie d'exploration spatiale actuelle."
     }
   ]
 }

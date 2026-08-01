@@ -2,7 +2,7 @@
   "slug": "quiz-sciences-chaleur-temperature",
   "title": "Quiz Sciences - Chaleur et température - Révisez les concepts clés simplement",
   "description": "Teste tes connaissances sur la chaleur, la température et les transferts thermiques.",
-  "descriptionSeo": "Teste tes connaissances avec ce quiz sciences sur la chaleur et la température. À travers 20 questions, découvre les principes essentiels des échanges thermiques, de l’énergie thermique et des changements d’état. Conduction, convection, rayonnement, équilibre thermique : révise les notions clés de physique de manière simple et pédagogique. Un quiz idéal pour comprendre les phénomènes de chaleur du quotidien et consolider tes bases scientifiques.",
+  "descriptionSeo": "Teste tes connaissances avec ce quiz sciences sur la chaleur et la température. À travers 20 questions, découvre les principes essentiels des échanges thermiques, de l'énergie thermique et des changements d'état. Conduction, convection, rayonnement, équilibre thermique : révise les notions clés de physique de manière simple et pédagogique. Un quiz idéal pour comprendre les phénomènes de chaleur du quotidien et consolider tes bases scientifiques.",
   "category": {
     "name": "Sciences",
     "slug": "sciences"
@@ -18,63 +18,63 @@
   "questions": [
     {
       "id": "1",
-      "question": "Quelle affirmation décrit le mieux la température d’un objet ?",
+      "question": "Quelle affirmation décrit le mieux la température d'un objet ?",
       "answers": [
-        "Elle indique la quantité totale de matière contenue dans l’objet",
-        "Elle mesure uniquement la chaleur reçue par l’objet",
-        "Elle dépend seulement de la taille de l’objet",
-        "Elle traduit le niveau moyen d’agitation des particules"
+        "Elle mesure la quantité de matière de l'objet",
+        "Elle mesure uniquement la chaleur reçue",
+        "Elle dépend seulement du volume de l'objet",
+        "Elle traduit l'agitation moyenne des particules"
       ],
       "correctIndex": 3,
-      "explanation": "La température est liée à l’agitation microscopique des particules. Plus les particules bougent rapidement en moyenne, plus la température est élevée."
+      "explanation": "La température mesure l'énergie cinétique moyenne des particules d'un objet. Plus elles s'agitent rapidement, plus la température est élevée. Elle se mesure en degrés Celsius (°C) ou en kelvins (K), où 0 K = −273,15 °C correspond au zéro absolu."
     },
     {
       "id": "2",
-      "question": "Pourquoi une casserole métallique chauffe-t-elle vite sur une plaque chaude ?",
+      "question": "Pourquoi une casserole métallique chauffe-t-elle rapidement sur une plaque ?",
       "answers": [
-        "Parce que le métal conduit bien l’énergie thermique",
-        "Parce que le métal empêche la chaleur de circuler",
-        "Parce que le métal transforme la chaleur en lumière",
-        "Parce que le métal refroidit l’air autour de lui"
+        "Le métal conduit bien l'énergie thermique",
+        "Le métal empêche la chaleur de s'échapper",
+        "Le métal transforme la chaleur en lumière",
+        "Le métal augmente la puissance de la plaque"
       ],
       "correctIndex": 0,
-      "explanation": "Les métaux sont de bons conducteurs thermiques : ils transmettent facilement l’énergie thermique de proche en proche entre leurs particules."
+      "explanation": "Les métaux ont une conductivité thermique élevée : le cuivre (~400 W/m·K) et l'aluminium (~230 W/m·K) transmettent rapidement l'énergie de proche en proche entre leurs électrons libres et leurs atomes. C'est pourquoi ils sont utilisés pour les casseroles et les radiateurs."
     },
     {
       "id": "3",
       "question": "Que désigne la chaleur en physique ?",
       "answers": [
         "Une température très élevée",
-        "Une propriété fixe d’un objet",
-        "Un transfert d’énergie thermique entre deux corps",
-        "Une unité utilisée pour mesurer la masse"
+        "Une propriété fixe d'un objet",
+        "Un transfert d'énergie thermique entre deux corps",
+        "Une unité de mesure de la masse"
       ],
       "correctIndex": 2,
-      "explanation": "La chaleur n’est pas quelque chose qu’un objet possède de façon fixe : c’est une énergie qui se transfère lorsqu’il existe une différence de température."
+      "explanation": "En physique, la chaleur désigne un transfert d'énergie thermique entre deux corps de températures différentes, et non une quantité stockée dans un objet. Elle s'écoule spontanément du corps chaud vers le corps froid, jusqu'à l'équilibre thermique. Son unité est le joule (J)."
     },
     {
       "id": "4",
-      "question": "Dans une pièce froide, pourquoi un carrelage semble-t-il plus froid qu’un tapis ?",
+      "question": "Dans une pièce froide, pourquoi le carrelage semble-t-il plus froid que le tapis ?",
       "answers": [
-        "Parce que le carrelage est toujours à une température plus basse",
-        "Parce que le carrelage retire plus vite la chaleur de la peau",
-        "Parce que le tapis produit naturellement de la chaleur",
-        "Parce que le tapis contient plus de lumière"
+        "Le carrelage est à une température plus basse",
+        "Le carrelage évacue la chaleur de la peau vite",
+        "Le tapis produit de la chaleur par friction",
+        "Le tapis est un meilleur conducteur électrique"
       ],
       "correctIndex": 1,
-      "explanation": "Le carrelage conduit mieux la chaleur que le tapis. Il absorbe donc plus rapidement l’énergie thermique de la peau, ce qui donne une sensation de froid."
+      "explanation": "Carrelage et tapis sont à la même température ambiante, mais la conductivité thermique du carrelage (~1 W/m·K) est bien supérieure à celle du tapis (~0,05 W/m·K). Le carrelage absorbe donc plus vite la chaleur de la peau, créant une sensation de froid plus intense."
     },
     {
       "id": "5",
-      "question": "Pourquoi l’eau d’une casserole se met-elle en mouvement lorsqu’elle chauffe ?",
+      "question": "Pourquoi l'eau d'une casserole se met-elle en mouvement en chauffant ?",
       "answers": [
-        "Parce que des courants de convection se forment dans le liquide",
-        "Parce que la conduction disparaît complètement",
-        "Parce que l’eau devient immédiatement solide",
-        "Parce que la chaleur ne peut circuler que par le fond"
+        "Des courants de convection se forment",
+        "La conduction thermique disparaît dans le liquide",
+        "L'eau se densifie en chauffant et monte",
+        "La chaleur ne peut circuler que par le fond"
       ],
       "correctIndex": 0,
-      "explanation": "L’eau chauffée devient moins dense et monte, tandis que l’eau plus froide descend. Ces déplacements créent des courants de convection."
+      "explanation": "L'eau chauffée au fond de la casserole se dilate, devient moins dense et monte. L'eau plus froide (plus dense) descend pour la remplacer. Ces mouvements cycliques forment des courants de convection qui homogénéisent la température du liquide."
     },
     {
       "id": "6",
@@ -86,83 +86,83 @@
         "Le rayonnement"
       ],
       "correctIndex": 3,
-      "explanation": "Le rayonnement transporte l’énergie sous forme d’ondes électromagnétiques. Contrairement à la conduction et à la convection, il n’a pas besoin de matière pour se propager."
+      "explanation": "Le rayonnement transporte l'énergie sous forme d'ondes électromagnétiques (principalement infrarouge et lumière visible), sans nécessiter de support matériel. Le Soleil émet environ 3,8 × 10²⁶ W ; la Terre en reçoit environ 1 360 W/m² au sommet de l'atmosphère (constante solaire). La conduction et la convection exigent un milieu matériel."
     },
     {
       "id": "7",
-      "question": "Que se passe-t-il généralement lorsqu’un solide est chauffé ?",
+      "question": "Que se passe-t-il généralement lorsqu'un solide est chauffé ?",
       "answers": [
         "Ses particules cessent de bouger",
-        "Ses particules s’agitent davantage",
-        "Sa masse devient toujours nulle",
-        "Sa température devient forcément négative"
+        "Ses particules s'agitent davantage",
+        "Sa masse augmente proportionnellement",
+        "Sa température baisse d'abord avant de monter"
       ],
       "correctIndex": 1,
-      "explanation": "Chauffer un solide augmente l’agitation de ses particules. Elles vibrent davantage autour de leur position, ce qui peut provoquer une dilatation."
+      "explanation": "Chauffer un solide augmente l'énergie cinétique de ses particules : elles vibrent plus intensément autour de leur position d'équilibre. Cela entraîne généralement une dilatation thermique — les solides occupent un volume légèrement plus grand à température plus élevée (d'où les joints de dilatation dans les ponts et les rails)."
     },
     {
       "id": "8",
-      "question": "Pourquoi laisse-t-on parfois un espace entre les rails de chemin de fer ?",
+      "question": "Pourquoi laisse-t-on des espaces entre les rails de chemin de fer ?",
       "answers": [
-        "Pour empêcher les rails de conduire l’électricité",
-        "Pour réduire la masse des rails",
-        "Pour permettre la dilatation du métal quand il fait chaud",
-        "Pour transformer le métal en isolant"
+        "Pour réduire les frottements entre les roues",
+        "Pour diminuer la conductivité électrique des rails",
+        "Pour permettre la dilatation thermique du métal",
+        "Pour alléger la structure de la voie ferrée"
       ],
       "correctIndex": 2,
-      "explanation": "Quand la température augmente, le métal se dilate. Sans espace suffisant, les rails pourraient se déformer sous l’effet de cette dilatation."
+      "explanation": "L'acier se dilate d'environ 12 × 10⁻⁶ par degré Celsius par mètre. Un rail de 18 m se dilate d'environ 1,5 cm entre −20 °C et +50 °C. Sans ces joints de dilatation, la compression pourrait déformer les rails (voie bombée) et provoquer des déraillements, comme cela s'est produit lors de canicules."
     },
     {
       "id": "9",
       "question": "Quelle situation illustre le mieux un équilibre thermique ?",
       "answers": [
-        "Deux objets ont la même couleur",
+        "Deux objets ont la même couleur et la même masse",
         "Un objet chaud devient de plus en plus chaud",
-        "Un objet froid donne spontanément de la chaleur à un objet chaud",
-        "Deux objets en contact finissent par avoir la même température"
+        "Un objet froid cède de la chaleur à un objet chaud",
+        "Deux objets en contact arrivent à même température"
       ],
       "correctIndex": 3,
-      "explanation": "L’équilibre thermique est atteint lorsqu’il n’y a plus de transfert net de chaleur entre deux objets, car leurs températures sont devenues égales."
+      "explanation": "L'équilibre thermique (0e principe de la thermodynamique) est atteint quand deux corps en contact ont la même température : les transferts nets de chaleur cessent. Par exemple, une tasse de café chaude posée dans une pièce fraîche cède progressivement sa chaleur à l'air environnant jusqu'à ce que les deux atteignent la même température."
     },
     {
       "id": "10",
       "question": "Pourquoi un pull aide-t-il à garder le corps au chaud ?",
       "answers": [
-        "Il limite les pertes de chaleur du corps vers l’extérieur",
-        "Il crée de la chaleur à partir de rien",
-        "Il empêche complètement la peau de respirer",
-        "Il augmente la température de l’air extérieur"
+        "Il réduit les pertes de chaleur vers l'extérieur",
+        "Il produit de la chaleur par réaction chimique",
+        "Il concentre le rayonnement solaire vers le corps",
+        "Il augmente la température de l'air ambiant"
       ],
       "correctIndex": 0,
-      "explanation": "Un pull agit surtout comme un isolant : il emprisonne de l’air et ralentit les transferts thermiques entre le corps chaud et l’environnement froid."
+      "explanation": "Un pull en laine emprisonne de l'air dans ses fibres. L'air est un mauvais conducteur thermique (~0,024 W/m·K), ce qui limite les pertes par conduction et convection. La laine elle-même a une conductivité faible (~0,04 W/m·K). Le pull ne crée pas de chaleur : il ralentit sa dissipation."
     },
     {
       "id": "11",
       "question": "Pourquoi la transpiration aide-t-elle à refroidir le corps ?",
       "answers": [
-        "Parce qu’elle empêche toute perte d’eau",
-        "Parce que l’évaporation de la sueur absorbe de l’énergie thermique",
-        "Parce qu’elle transforme la peau en isolant parfait",
-        "Parce qu’elle bloque le rayonnement solaire"
+        "Elle empêche toute évaporation cutanée",
+        "L'évaporation de la sueur absorbe de l'énergie",
+        "Elle imperméabilise la peau aux échanges",
+        "Elle réfléchit le rayonnement solaire"
       ],
       "correctIndex": 1,
-      "explanation": "Pour s’évaporer, la sueur prélève de l’énergie thermique à la peau. Ce transfert d’énergie refroidit la surface du corps."
+      "explanation": "L'évaporation de l'eau nécessite une chaleur latente d'environ 2 430 J/g à 30 °C. La sueur prélève cette énergie directement à la surface de la peau, la refroidissant. C'est le même principe que la climatisation par évaporation. Un adulte peut perdre 1 à 2 litres de sueur par heure lors d'un effort intense par forte chaleur."
     },
     {
       "id": "12",
-      "question": "À pression atmosphérique normale, que se passe-t-il lorsque l’eau pure atteint 100 °C ?",
+      "question": "À pression atmosphérique normale, que se passe-t-il quand l'eau pure atteint 100 °C ?",
       "answers": [
-        "Elle gèle",
-        "Elle devient automatiquement salée",
+        "Elle se solidifie",
+        "Elle absorbe du sel de l'air ambiant",
         "Elle entre en ébullition",
-        "Elle cesse de contenir des molécules"
+        "Elle perd ses propriétés chimiques"
       ],
       "correctIndex": 2,
-      "explanation": "À pression normale, l’eau pure bout à 100 °C. L’ébullition correspond à une vaporisation qui se produit dans tout le liquide."
+      "explanation": "À 100 °C sous pression atmosphérique (101 325 Pa), la pression de vapeur saturante de l'eau égale la pression ambiante : l'ébullition se produit dans tout le volume. À altitude élevée (pression plus basse), l'eau bout à moins de 100 °C — à 3 000 m, environ 90 °C, ce qui allonge le temps de cuisson des aliments."
     },
     {
       "id": "13",
-      "question": "Quel changement d’état correspond au passage du gaz au liquide ?",
+      "question": "Quel changement d'état correspond au passage du gaz au liquide ?",
       "answers": [
         "La condensation",
         "La fusion",
@@ -170,91 +170,91 @@
         "La vaporisation"
       ],
       "correctIndex": 0,
-      "explanation": "La condensation est le passage de l’état gazeux à l’état liquide, comme la vapeur d’eau qui forme des gouttelettes sur une vitre froide."
+      "explanation": "La condensation est le passage de l'état gazeux à l'état liquide par refroidissement ou compression. La vapeur d'eau de l'air se condense en gouttelettes sur une vitre froide (rosée) ou forme les nuages en altitude. La chaleur latente de condensation de l'eau est d'environ 2 500 J/g."
     },
     {
       "id": "14",
-      "question": "Pourquoi une bouteille en verre remplie d’eau peut-elle se casser au congélateur ?",
+      "question": "Qu'est-ce que le zéro absolu en thermodynamique ?",
       "answers": [
-        "Parce que le verre devient liquide",
-        "Parce que l’eau perd toute sa masse",
-        "Parce que le froid crée de la chaleur",
-        "Parce que l’eau prend plus de volume en gelant"
+        "La température de la glace fondante",
+        "La température à laquelle l'eau bout sous vide",
+        "La température moyenne de l'espace interstellaire",
+        "La température la plus basse possible"
       ],
       "correctIndex": 3,
-      "explanation": "L’eau a une propriété particulière : elle se dilate en gelant. Si la bouteille est trop remplie, la glace peut exercer une pression suffisante pour casser le verre."
+      "explanation": "Le zéro absolu (0 K = −273,15 °C) est la température à laquelle l'agitation thermique des particules est minimale. Il est défini par la thermodynamique comme la limite inférieure infranchissable de la température. On ne peut s'en approcher que par étapes successives : des laboratoires ont atteint des températures de quelques nanokelvin au-dessus de 0 K."
     },
     {
       "id": "15",
-      "question": "Quel exemple correspond principalement à un transfert par conduction ?",
+      "question": "Pourquoi faut-il plus d'énergie pour chauffer de l'eau que la même masse de métal ?",
       "answers": [
-        "La chaleur du Soleil qui traverse l’espace",
-        "L’air chaud qui monte au-dessus d’un radiateur",
-        "Le manche métallique d’une cuillère qui chauffe dans une soupe",
-        "La vapeur qui forme un nuage"
+        "L'eau contient des bulles d'air isolantes",
+        "L'eau est moins dense que les métaux courants",
+        "L'eau a une grande capacité thermique massique",
+        "Parce que l'eau transforme la chaleur en lumière"
       ],
       "correctIndex": 2,
-      "explanation": "Dans la conduction, l’énergie thermique se transmet à travers la matière sans déplacement global de matière. C’est typique dans les solides, surtout les métaux."
+      "explanation": "La capacité thermique massique de l'eau (4 186 J/kg·K) est parmi les plus élevées des substances courantes. Il faut 4 186 J pour chauffer 1 kg d'eau de 1 °C, contre environ 450 J/kg·K pour le fer. C'est pourquoi les océans jouent un rôle tampon majeur sur le climat terrestre, en absorbant et restituant lentement les calories solaires."
     },
     {
       "id": "16",
-      "question": "Pourquoi l’air chaud monte-t-il souvent au-dessus d’un radiateur ?",
+      "question": "Pourquoi les gaz à effet de serre réchauffent-ils l'atmosphère terrestre ?",
       "answers": [
-        "Parce qu’il devient plus lourd que l’air froid",
-        "Parce qu’il devient moins dense que l’air froid",
-        "Parce qu’il cesse d’être un gaz",
-        "Parce qu’il ne contient plus aucune particule"
+        "Ils absorbent l'infrarouge réémis par la Terre",
+        "Ils bloquent la lumière visible du Soleil",
+        "Ils produisent de la chaleur par réaction chimique",
+        "Ils augmentent la conductivité thermique de l'air"
       ],
-      "correctIndex": 1,
-      "explanation": "Quand l’air chauffe, il se dilate et devient moins dense. L’air plus froid, plus dense, descend alors que l’air chaud s’élève."
+      "correctIndex": 0,
+      "explanation": "Le Soleil émet surtout dans le visible, qui traverse l'atmosphère. La Terre, plus froide, réémet de l'énergie en infrarouge. Les gaz à effet de serre (CO₂, H₂O, CH₄) absorbent ce rayonnement infrarouge et le rétro-diffusent vers la surface, élevant la température moyenne. Sans effet de serre naturel, la Terre serait à environ −18 °C au lieu de +15 °C."
     },
     {
       "id": "17",
-      "question": "Que signifie dire qu’un matériau est un bon isolant thermique ?",
+      "question": "Que signifie dire qu'un matériau est un bon isolant thermique ?",
       "answers": [
-        "Il attire les objets vers le sol",
-        "Il transforme toujours la chaleur en électricité",
+        "Il augmente la conductivité de l'air voisin",
+        "Il transforme la chaleur en énergie mécanique",
         "Il conduit la chaleur très rapidement",
         "Il ralentit les échanges de chaleur"
       ],
       "correctIndex": 3,
-      "explanation": "Un isolant thermique limite les transferts de chaleur. C’est utile pour garder une maison chaude en hiver ou une boisson fraîche en été."
+      "explanation": "Un bon isolant a une conductivité thermique très faible : laine de verre (~0,04 W/m·K), mousse polyuréthane (~0,025 W/m·K), air (~0,024 W/m·K). Ces matériaux limitent les transferts par conduction et convection. L'isolation thermique des bâtiments vise à réduire les déperditions de chaleur en hiver et les apports en été."
     },
     {
       "id": "18",
       "question": "Quelle affirmation est correcte pendant la fusion de la glace à 0 °C ?",
       "answers": [
-        "La température augmente forcément pendant tout le changement d’état",
-        "La glace devient directement de la vapeur",
-        "L’énergie reçue sert à changer l’état plutôt qu’à augmenter la température",
-        "La masse de glace disparaît"
+        "La température monte pendant toute la fusion",
+        "La glace se transforme directement en vapeur",
+        "L'énergie change l'état sans monter la température",
+        "La masse de glace disparaît lors du changement"
       ],
       "correctIndex": 2,
-      "explanation": "Pendant un changement d’état, l’énergie reçue sert à modifier l’organisation des particules. La température peut rester constante tant que toute la glace n’a pas fondu."
+      "explanation": "Pendant un changement d'état, l'énergie absorbée (chaleur latente) sert à rompre les liaisons entre molécules, pas à augmenter l'agitation thermique. La température reste donc à 0 °C tant que la glace et l'eau coexistent. La chaleur latente de fusion de la glace est de 334 J/g, ce qui explique pourquoi la glace refroidit si efficacement les boissons."
     },
     {
       "id": "19",
-      "question": "Pourquoi utilise-t-on parfois une bouteille isotherme ?",
+      "question": "Pourquoi utilise-t-on une bouteille isotherme ?",
       "answers": [
-        "Pour limiter les échanges thermiques avec l’extérieur",
-        "Pour augmenter la masse du liquide",
-        "Pour transformer un liquide en solide",
-        "Pour supprimer totalement la température"
+        "Pour accélérer le refroidissement des liquides",
+        "Pour limiter les échanges thermiques externes",
+        "Pour transformer la chaleur en pression",
+        "Pour éviter la condensation sur la paroi"
       ],
-      "correctIndex": 0,
-      "explanation": "Une bouteille isotherme réduit les transferts par conduction, convection et rayonnement. Elle permet donc de garder un liquide chaud ou froid plus longtemps."
+      "correctIndex": 1,
+      "explanation": "Une bouteille isotherme (type thermos) est composée d'une double paroi en acier inoxydable entre lesquelles on a fait le vide. Ce vide supprime la conduction et la convection ; les parois polies réduisent le rayonnement. Elle peut maintenir une boisson chaude (> 60 °C) pendant 6 à 12 heures, ou fraîche pendant 24 heures selon les modèles."
     },
     {
       "id": "20",
-      "question": "Quelle est la meilleure explication du refroidissement d’un objet chaud posé dans une pièce ?",
+      "question": "Quelle est la meilleure explication du refroidissement d'un objet chaud posé dans une pièce ?",
       "answers": [
-        "L’objet perd sa masse jusqu’à devenir froid",
-        "L’objet transfère de l’énergie thermique vers l’air et les surfaces plus froides",
-        "La température de l’objet baisse sans aucun échange d’énergie",
-        "L’air froid se transforme immédiatement en solide"
+        "L'objet perd de la masse en refroidissant",
+        "L'objet transfère son énergie vers l'environnement",
+        "La température baisse sans aucun échange d'énergie",
+        "L'air froid repousse la chaleur vers l'objet"
       ],
       "correctIndex": 1,
-      "explanation": "Un objet chaud se refroidit parce qu’il transfère de l’énergie thermique à son environnement plus froid, par conduction, convection et rayonnement."
+      "explanation": "Un objet chaud cède de l'énergie thermique à son environnement par les trois modes : conduction (contact avec la surface), convection (air qui se réchauffe et monte) et rayonnement infrarouge. La loi de Newton du refroidissement dit que la vitesse de perte de chaleur est proportionnelle à l'écart de température entre l'objet et l'air ambiant."
     }
   ]
 }

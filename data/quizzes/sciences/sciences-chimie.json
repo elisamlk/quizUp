@@ -2,7 +2,7 @@
   "slug": "quiz-sciences-chimie-connaissances-fondamentales",
   "title": "Quiz Sciences - Chimie - Testez vos connaissances fondamentales",
   "description": "Teste tes connaissances sur les notions essentielles de la chimie.",
-  "descriptionSeo": "Teste tes connaissances avec ce quiz de chimie composé de 20 questions sur les notions fondamentales. Réactions chimiques, solutions, concentration, mélanges, transformations et propriétés des substances : révise les bases essentielles pour mieux comprendre la matière et ses interactions. Adapté à tous les niveaux, ce quiz ludique et pédagogique t’aide à consolider tes acquis et à progresser efficacement en sciences.",
+  "descriptionSeo": "Teste tes connaissances avec ce quiz de chimie composé de 20 questions sur les notions fondamentales. Réactions chimiques, solutions, concentration, mélanges, transformations et propriétés des substances : révise les bases essentielles pour mieux comprendre la matière et ses interactions. Adapté à tous les niveaux, ce quiz ludique et pédagogique t'aide à consolider tes acquis et à progresser efficacement en sciences.",
   "category": {
     "name": "Sciences",
     "slug": "sciences"
@@ -18,143 +18,243 @@
   "questions": [
     {
       "id": "1",
-      "question": "Qu’est-ce qu’une réaction chimique produit ?",
-      "answers": ["De nouvelles substances", "Uniquement de la chaleur", "Du mouvement", "De la lumière uniquement"],
+      "question": "Qu'est-ce qu'une réaction chimique produit nécessairement ?",
+      "answers": [
+        "De nouvelles substances différentes des réactifs",
+        "Uniquement de la chaleur et de la lumière",
+        "Un mouvement mécanique observable",
+        "Toujours un gaz ou un précipité visible"
+      ],
       "correctIndex": 0,
-      "explanation": "Lors d’une réaction chimique, les atomes se réorganisent pour former de nouvelles substances. Par exemple, le fer qui rouille se transforme en oxyde de fer, une substance différente."
+      "explanation": "Lors d'une réaction chimique, les liaisons entre atomes se rompent et se reforment pour donner de nouvelles substances appelées produits. Les réactifs ne sont plus les mêmes après la réaction. Par exemple, le fer (Fe) et l'oxygène (O₂) réagissent pour former l'oxyde de fer (Fe₂O₃). Une réaction peut s'accompagner de chaleur, de lumière ou de gaz, mais ce n'est pas systématique."
     },
     {
       "id": "2",
-      "question": "Comment appelle-t-on une substance dissoute dans un liquide ?",
-      "answers": ["Un solvant", "Un soluté", "Un cristal", "Un gaz"],
+      "question": "Comment appelle-t-on la substance dissoute dans un solvant ?",
+      "answers": [
+        "Un solvant",
+        "Un soluté",
+        "Un cristal",
+        "Un électrolyte"
+      ],
       "correctIndex": 1,
-      "explanation": "Le soluté est la substance dissoute, comme le sel dans l’eau. Le liquide qui dissout s’appelle le solvant, ici l’eau."
+      "explanation": "Le soluté est la substance qui se dissout dans le solvant. Dans une solution d'eau salée, le sel est le soluté et l'eau est le solvant. La solution résultante est homogène : ses composants ne sont pas distinguables à l'œil nu. Le soluté peut être solide (sel), liquide (alcool) ou gazeux (CO₂ dissous dans l'eau gazeuse)."
     },
     {
       "id": "3",
-      "question": "Quel est le rôle du solvant dans une solution ?",
-      "answers": ["Réagir chimiquement", "Être transformé", "Dissoudre le soluté", "Solidifier le mélange"],
+      "question": "Qu'est-ce qu'un catalyseur en chimie ?",
+      "answers": [
+        "Une substance qui ralentit toutes les réactions",
+        "Un produit consommé au cours de la réaction",
+        "Un accélérateur de réaction non consommé",
+        "Un solvant qui dissout les réactifs"
+      ],
       "correctIndex": 2,
-      "explanation": "Le solvant entoure et sépare les particules du soluté, permettant leur dispersion. Par exemple, l’eau dissout le sucre en séparant ses molécules."
+      "explanation": "Un catalyseur accélère une réaction chimique en abaissant son énergie d'activation, sans être lui-même consommé à la fin de la réaction. Il est retrouvé intact à la fin. Les catalyseurs sont omniprésents dans l'industrie (catalyseur du pot d'échappement qui oxyde le CO en CO₂) et dans le vivant (les enzymes sont des catalyseurs biologiques). Un catalyseur ne modifie pas les produits finaux de la réaction, seulement sa vitesse."
     },
     {
       "id": "4",
-      "question": "Que signifie une solution concentrée ?",
-      "answers": ["Peu de soluté", "Aucune réaction", "Beaucoup d’eau", "Beaucoup de soluté"],
-      "correctIndex": 3,
-      "explanation": "Une solution concentrée contient une grande quantité de soluté par rapport au solvant. Par exemple, un sirop est plus concentré qu’un jus dilué."
+      "question": "Qu'est-ce que le pH mesure dans une solution ?",
+      "answers": [
+        "La quantité de soluté dissous",
+        "Le caractère acide ou basique d'une solution",
+        "La température d'ébullition de la solution",
+        "La densité du solvant utilisé"
+      ],
+      "correctIndex": 1,
+      "explanation": "Le pH (potentiel Hydrogène) mesure l'activité des ions oxonium H₃O⁺ en solution, assimilable en première approximation à leur concentration. Il varie de 0 à 14 : une solution est acide si son pH est inférieur à 7 (jus de citron : ~2), neutre à pH 7 (eau pure) et basique au-dessus de 7 (soude : ~13). La variation de pH est logarithmique : une solution à pH 3 est dix fois plus acide qu'une solution à pH 4. Le papier pH ou un pH-mètre permettent de mesurer cette grandeur."
     },
     {
       "id": "5",
-      "question": "Que se passe-t-il lors d’une dissolution ?",
-      "answers": ["Une substance se disperse dans une autre", "Une explosion", "Un changement d’état solide uniquement", "Une combustion"],
+      "question": "Que se passe-t-il lors d'une dissolution ?",
+      "answers": [
+        "Le soluté se disperse uniformément dans le solvant",
+        "Une réaction chimique crée un nouveau composé",
+        "Un changement d'état solide vers gaz uniquement",
+        "Une combustion partielle des réactifs"
+      ],
       "correctIndex": 0,
-      "explanation": "Lors d’une dissolution, le soluté se répartit de manière uniforme dans le solvant. Ce n’est pas une réaction chimique, car aucune nouvelle substance n’est créée."
+      "explanation": "La dissolution est un phénomène physique : le soluté se répartit uniformément dans le solvant sans former de nouvelle substance. On peut retrouver le soluté par évaporation du solvant. Elle diffère d'une réaction chimique où de nouvelles espèces chimiques sont créées. La solubilité d'un soluté dépend de la nature du solvant, de la température et de la pression (pour les gaz)."
     },
     {
       "id": "6",
-      "question": "Comment appelle-t-on une réaction qui libère de la chaleur ?",
-      "answers": ["Endothermique", "Exothermique", "Neutre", "Physique"],
+      "question": "Comment appelle-t-on une réaction qui libère de la chaleur dans le milieu extérieur ?",
+      "answers": [
+        "Endothermique",
+        "Exothermique",
+        "Isotherme",
+        "Photochimique"
+      ],
       "correctIndex": 1,
-      "explanation": "Une réaction exothermique libère de l’énergie, souvent sous forme de chaleur ou de lumière. Les combustions en sont un exemple courant."
+      "explanation": "Une réaction exothermique libère de l'énergie sous forme de chaleur vers le milieu environnant : la température du système augmente. Les combustions, les réactions de neutralisation acide-base et les réactions de formation d'oxydes sont souvent exothermiques. À l'inverse, une réaction endothermique absorbe de la chaleur et refroidit son environnement, comme la dissolution de certains sels."
     },
     {
       "id": "7",
-      "question": "Qu’est-ce qu’une transformation physique ?",
-      "answers": ["Une création d’atomes", "Un changement sans nouvelle substance", "Une explosion chimique", "Une combustion"],
-      "correctIndex": 1,
-      "explanation": "Dans une transformation physique, la substance reste la même. Par exemple, la glace qui fond reste de l’eau, seule sa forme change."
+      "question": "Qu'est-ce qui distingue une transformation physique d'une transformation chimique ?",
+      "answers": [
+        "La transformation physique crée des atomes",
+        "La transformation physique produit toujours un gaz",
+        "La physique ne crée pas de nouvelle substance",
+        "La physique est toujours irréversible"
+      ],
+      "correctIndex": 2,
+      "explanation": "Lors d'une transformation physique, la nature chimique de la substance ne change pas : seuls son état ou sa forme varient. La glace qui fond reste H₂O, le sucre qui se dissout peut être récupéré par évaporation. Une transformation chimique, en revanche, produit de nouvelles espèces chimiques aux propriétés différentes. Les transformations physiques sont souvent réversibles ; les chimiques ne le sont généralement pas."
     },
     {
       "id": "8",
-      "question": "Qu’est-ce qu’un précipité ?",
-      "answers": ["Un gaz formé", "Un liquide évaporé", "Une énergie libérée", "Un solide formé dans une solution"],
+      "question": "Qu'est-ce qu'un précipité dans une réaction chimique ?",
+      "answers": [
+        "Un gaz produit lors de la réaction",
+        "Un liquide qui s'évapore rapidement",
+        "Une énergie libérée sous forme de chaleur",
+        "Un solide insoluble qui se forme dans une solution"
+      ],
       "correctIndex": 3,
-      "explanation": "Un précipité apparaît lorsqu’une réaction chimique forme un solide insoluble dans un liquide. Cela rend la solution trouble ou forme un dépôt."
+      "explanation": "Un précipité est un solide qui apparaît lorsque deux solutions sont mélangées et qu'un produit insoluble se forme. Par exemple, mélanger du nitrate d'argent et du chlorure de sodium produit du chlorure d'argent, un précipité blanc. La précipitation est utilisée en chimie analytique pour identifier des ions en solution et en industrie pour purifier des substances."
     },
     {
       "id": "9",
-      "question": "Qu’est-ce qu’une solution homogène ?",
-      "answers": ["Un mélange uniforme", "Un mélange visible", "Un solide pur", "Un gaz isolé"],
+      "question": "Qu'est-ce qu'une solution homogène ?",
+      "answers": [
+        "Un mélange uniforme à l'échelle macroscopique",
+        "Un mélange où les composants sont visibles",
+        "Un solide pur à l'état cristallin",
+        "Un gaz isolé sous pression"
+      ],
       "correctIndex": 0,
-      "explanation": "Dans une solution homogène, on ne distingue pas les composants à l’œil nu. Par exemple, le sel dissous dans l’eau forme un mélange homogène."
+      "explanation": "Une solution homogène est un mélange dans lequel les composants ne sont pas distinguables à l'œil nu car le soluté est dispersé à l'échelle des molécules. L'eau salée, l'air et les alliages métalliques comme le laiton (cuivre + zinc) sont des exemples de mélanges homogènes. Par opposition, un mélange hétérogène (comme l'huile et l'eau) présente des phases distinctes visibles."
     },
     {
       "id": "10",
-      "question": "Que signifie diluer une solution ?",
-      "answers": ["Ajouter du soluté", "Ajouter du solvant", "Chauffer la solution", "Solidifier"],
+      "question": "Que signifie diluer une solution en chimie ?",
+      "answers": [
+        "Augmenter la quantité de soluté",
+        "Ajouter du solvant pour réduire la concentration",
+        "Chauffer la solution jusqu'à saturation",
+        "Éliminer le soluté par filtration"
+      ],
       "correctIndex": 1,
-      "explanation": "Diluer revient à diminuer la concentration en ajoutant du solvant. Cela rend la solution moins concentrée, comme ajouter de l’eau à un jus."
+      "explanation": "Diluer consiste à ajouter du solvant à une solution pour diminuer sa concentration en soluté. La quantité totale de soluté reste la même, mais elle est répartie dans un volume plus grand. En laboratoire, la relation C₁V₁ = C₂V₂ permet de calculer les volumes nécessaires pour obtenir une concentration cible. Chauffer peut changer la solubilité, mais ne dilue pas la solution."
     },
     {
       "id": "11",
-      "question": "Qu’est-ce qu’une combustion ?",
-      "answers": ["Une dissolution", "Un mélange", "Une réaction avec le dioxygène", "Une évaporation"],
+      "question": "Qu'est-ce qu'une combustion ?",
+      "answers": [
+        "Une dissolution d'un solide dans l'eau",
+        "Un mélange physique sans réaction",
+        "Une réaction libératrice d'énergie avec O₂",
+        "Une évaporation accélérée par la chaleur"
+      ],
       "correctIndex": 2,
-      "explanation": "La combustion est une réaction chimique rapide entre une substance et le dioxygène, produisant souvent chaleur et lumière, comme une flamme."
+      "explanation": "La combustion est une réaction d'oxydation entre un combustible et le dioxygène (comburant) qui libère de l'énergie, généralement sous forme de chaleur et de lumière. Elle peut être rapide (flamme d'une bougie) ou, dans le cas de l'oxydation lente du fer en rouille, s'étaler sur des jours ou des semaines — cette dernière n'est pas à proprement parler une combustion, mais une oxydation lente. La combustion complète du méthane (gaz naturel) donne : CH₄ + 2 O₂ → CO₂ + 2 H₂O. Sans assez d'oxygène, la combustion est incomplète et produit du monoxyde de carbone (CO), gaz dangereux."
     },
     {
       "id": "12",
-      "question": "Quel est le résultat d’une combustion complète ?",
-      "answers": ["Uniquement de l’eau", "Uniquement du carbone", "Un solide", "Du dioxyde de carbone et de l’eau"],
+      "question": "Quels sont les produits d'une combustion complète d'un hydrocarbure ?",
+      "answers": [
+        "Uniquement de la vapeur d'eau",
+        "Uniquement du carbone solide et de la chaleur",
+        "Du carbone solide et du monoxyde de carbone",
+        "Du dioxyde de carbone et de l'eau"
+      ],
       "correctIndex": 3,
-      "explanation": "Lors d’une combustion complète (avec assez d’oxygène), les produits sont du dioxyde de carbone et de l’eau. Sinon, il peut se former du monoxyde de carbone dangereux."
+      "explanation": "La combustion complète d'un hydrocarbure (composé ne contenant que C et H) avec un excès d'oxygène produit du dioxyde de carbone (CO₂) et de l'eau (H₂O). En cas de manque d'oxygène, la combustion est incomplète : elle produit du monoxyde de carbone (CO), un gaz incolore et inodore très toxique, et parfois des suies de carbone. C'est pourquoi ventiler les espaces chauffés est essentiel."
     },
     {
       "id": "13",
-      "question": "Qu’est-ce qu’un mélange hétérogène ?",
-      "answers": ["Un mélange non uniforme", "Une solution claire", "Un gaz pur", "Un liquide pur"],
+      "question": "Qu'est-ce qu'un mélange hétérogène ?",
+      "answers": [
+        "Un mélange dont les composants sont visibles",
+        "Une solution claire et transparente",
+        "Un gaz pur sous haute pression",
+        "Un liquide pur sans soluté"
+      ],
       "correctIndex": 0,
-      "explanation": "Dans un mélange hétérogène, on distingue les différents composants, comme l’huile et l’eau qui ne se mélangent pas."
+      "explanation": "Dans un mélange hétérogène, les composants sont visibles à l'œil nu ou au microscope car ils forment des phases distinctes. L'huile et l'eau, le sable et l'eau, ou le lait (en réalité une émulsion) sont des mélanges hétérogènes. On peut en général séparer les composants par filtration, décantation ou centrifugation, contrairement aux mélanges homogènes qui nécessitent évaporation ou distillation."
     },
     {
       "id": "14",
-      "question": "Quel phénomène permet de séparer un solide d’un liquide ?",
-      "answers": ["Fusion", "Filtration", "Combustion", "Dilution"],
+      "question": "Quelle technique de séparation permet de retenir un solide tout en laissant passer un liquide ?",
+      "answers": [
+        "La fusion du solide",
+        "La filtration",
+        "La combustion du mélange",
+        "La dilution progressive"
+      ],
       "correctIndex": 1,
-      "explanation": "La filtration utilise un filtre qui retient le solide tout en laissant passer le liquide. C’est une technique courante en laboratoire."
+      "explanation": "La filtration consiste à faire passer un mélange à travers un filtre (papier-filtre, membrane) qui retient les particules solides en suspension et laisse passer le filtrat liquide. Elle s'utilise en laboratoire (filtration sur Büchner), dans l'industrie (purification de l'eau) et en cuisine (passoire, filtre à café). La décantation, autre technique, sépare par gravité des liquides non miscibles ou des solides denses."
     },
     {
       "id": "15",
-      "question": "Qu’est-ce que l’évaporation en chimie ?",
-      "answers": ["Une réaction chimique", "Une combustion", "Un passage liquide vers gaz", "Une solidification"],
+      "question": "Qu'est-ce que l'évaporation en chimie ?",
+      "answers": [
+        "Une réaction chimique entre un acide et une base",
+        "Une combustion à basse température",
+        "Un passage de l'état liquide à l'état gazeux",
+        "Une solidification rapide d'un liquide"
+      ],
       "correctIndex": 2,
-      "explanation": "L’évaporation est un changement d’état où les molécules d’un liquide s’échappent sous forme de gaz, souvent sous l’effet de la chaleur."
+      "explanation": "L'évaporation est un changement d'état physique par lequel des molécules de la surface d'un liquide acquièrent assez d'énergie pour passer à l'état gazeux. Elle se produit à toute température, contrairement à l'ébullition qui a lieu à une température précise (100 °C pour l'eau à pression atmosphérique). L'évaporation est utilisée pour concentrer des solutions ou récupérer un soluté par évaporation du solvant."
     },
     {
       "id": "16",
-      "question": "Qu’est-ce qu’une solution saturée ?",
-      "answers": ["Sans soluté", "Très froide", "Très chaude", "Qui ne peut plus dissoudre de soluté"],
+      "question": "Qu'est-ce qu'une solution saturée ?",
+      "answers": [
+        "Une solution ne contenant aucun soluté",
+        "Une solution dont on a retiré tout le solvant",
+        "Une solution très diluée et instable",
+        "Une solution à sa limite de dissolution"
+      ],
       "correctIndex": 3,
-      "explanation": "Une solution saturée a atteint sa limite de dissolution. Si on ajoute encore du soluté, il ne se dissout plus et reste au fond."
+      "explanation": "Une solution saturée a dissous la quantité maximale de soluté possible à une température donnée. Tout soluté supplémentaire reste non dissous au fond du récipient. La solubilité dépend souvent de la température : chauffer permet généralement de dissoudre davantage de solide. En refroidissant une solution saturée chaude, on peut provoquer la cristallisation, utilisée pour purifier des substances."
     },
     {
       "id": "17",
-      "question": "Quel est le but d’un indicateur chimique ?",
-      "answers": ["Changer de couleur selon le milieu", "Accélérer une réaction", "Créer une explosion", "Refroidir une solution"],
+      "question": "Quel est le rôle d'un indicateur coloré en chimie ?",
+      "answers": [
+        "Changer de couleur selon le pH du milieu",
+        "Accélérer une réaction chimique",
+        "Créer une réaction d'oxydation intense",
+        "Refroidir une solution acide"
+      ],
       "correctIndex": 0,
-      "explanation": "Un indicateur chimique, comme le papier pH, change de couleur selon l’acidité ou la basicité, permettant d’identifier la nature d’une solution."
+      "explanation": "Un indicateur coloré (ou indicateur de pH) est une substance dont la couleur varie selon le pH de la solution. Le rouge de méthyle est rouge en milieu acide et jaune en milieu basique ; la phénolphtaléine est incolore en milieu acide et rose en milieu basique. Le papier pH contient un mélange d'indicateurs couvrant toute l'échelle de 0 à 14. Ces indicateurs sont indispensables lors des titrages acido-basiques pour détecter le point d'équivalence."
     },
     {
       "id": "18",
-      "question": "Qu’est-ce qu’une réaction endothermique ?",
-      "answers": ["Libère de la chaleur", "Absorbe de la chaleur", "Crée de la lumière", "Produit un gaz"],
-      "correctIndex": 1,
-      "explanation": "Une réaction endothermique absorbe de l’énergie de son environnement, ce qui peut provoquer une sensation de froid."
+      "question": "Qu'est-ce qu'une réaction endothermique ?",
+      "answers": [
+        "Une réaction qui libère de la chaleur",
+        "Une réaction qui crée de la lumière sans chaleur",
+        "Une réaction qui produit toujours un gaz incolore",
+        "Une réaction qui absorbe la chaleur du milieu"
+      ],
+      "correctIndex": 3,
+      "explanation": "Une réaction endothermique absorbe de l'énergie (chaleur) de son environnement. Le milieu se refroidit pendant la réaction. La dissolution du nitrate d'ammonium dans l'eau est endothermique : c'est le principe des poches de froid instantané utilisées en premiers secours. La photosynthèse est aussi endothermique : elle absorbe l'énergie lumineuse solaire pour former du glucose."
     },
     {
       "id": "19",
-      "question": "Que signifie concentrer une solution ?",
-      "answers": ["Ajouter du solvant", "Refroidir", "Augmenter la quantité de soluté", "Solidifier"],
+      "question": "Qu'est-ce qu'une réaction d'oxydoréduction ?",
+      "answers": [
+        "Un simple mélange de deux liquides miscibles",
+        "Une réaction où du solvant est ajouté au soluté",
+        "Un échange d'électrons entre oxydant et réducteur",
+        "Une dissolution rapide d'un sel dans de l'eau"
+      ],
       "correctIndex": 2,
-      "explanation": "Concentrer une solution signifie augmenter la proportion de soluté, soit en ajoutant du soluté, soit en retirant du solvant."
+      "explanation": "Une réaction d'oxydoréduction (ou redox) implique un transfert d'électrons entre deux espèces chimiques. L'oxydant gagne des électrons (il est réduit) et le réducteur en perd (il est oxydé). La rouille, les piles électriques et la combustion sont des réactions redox. La pile électrochimique exploite ce transfert d'électrons pour produire un courant électrique. Ces réactions sont fondamentales en métallurgie, en électrochimie et dans les organismes vivants (respiration cellulaire)."
     },
-{
-  "id": "20",
-  "question": "Quel indice peut montrer qu’une réaction chimique a lieu ?",
-  "answers": ["Un changement invisible", "Un silence", "Une absence de transformation", "Un changement visible comme une couleur ou un gaz"],
-  "correctIndex": 3,
-  "explanation": "Une réaction chimique peut être repérée grâce à des indices comme un changement de couleur, l’apparition de bulles, la formation d’un précipité ou une variation de température."
-}
+    {
+      "id": "20",
+      "question": "Quels indices peuvent indiquer qu'une réaction chimique a eu lieu ?",
+      "answers": [
+        "Aucun changement observable dans tous les cas",
+        "Uniquement une variation de la masse totale",
+        "Toujours un changement d'état physique",
+        "Un changement de couleur, des bulles ou un dépôt"
+      ],
+      "correctIndex": 3,
+      "explanation": "Plusieurs indices peuvent signaler une réaction chimique : changement de couleur (oxydation du cuivre en vert), apparition de bulles de gaz (réaction d'un acide avec un métal), formation d'un précipité (dépôt solide), émission de lumière ou de chaleur, ou encore une odeur nouvelle. Cependant, certaines réactions sont peu perceptibles sans instruments. La masse totale du système, elle, est conservée (loi de conservation de la masse de Lavoisier)."
+    }
   ]
 }

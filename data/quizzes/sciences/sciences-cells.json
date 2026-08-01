@@ -2,7 +2,7 @@
   "slug": "quiz-sciences-cellules-bases-vie",
   "title": "Quiz Sciences - Cellules - Plonge au cœur du vivant",
   "description": "Teste tes connaissances sur les cellules, leur structure, leur fonctionnement et leur rôle dans le vivant.",
-  "descriptionSeo": "Plonge au cœur de la biologie cellulaire avec ce quiz de 20 questions dédié aux bases du vivant. Structure des cellules, ADN, organites, division cellulaire et différences entre cellules animales et végétales : révise les notions essentielles pour comprendre leur fonctionnement. Accessible et pédagogique, ce quiz permet d’apprendre efficacement tout en consolidant ses connaissances en sciences de la vie.",
+  "descriptionSeo": "Plonge au cœur de la biologie cellulaire avec ce quiz de 20 questions dédié aux bases du vivant. Structure des cellules, ADN, organites, division cellulaire et différences entre cellules animales et végétales : révise les notions essentielles pour comprendre leur fonctionnement. Accessible et pédagogique, ce quiz permet d'apprendre efficacement tout en consolidant ses connaissances en sciences de la vie.",
   "category": {
     "name": "Sciences",
     "slug": "sciences"
@@ -18,143 +18,243 @@
   "questions": [
     {
       "id": "1",
-      "question": "Qu’est-ce qu’une cellule ?",
-      "answers": ["Une molécule", "Un organe", "La plus petite unité du vivant", "Un tissu"],
-      "correctIndex": 2,
-      "explanation": "La cellule est la plus petite unité capable de réaliser toutes les fonctions du vivant. Elle peut se nourrir, produire de l’énergie, interagir avec son environnement et se reproduire, ce qui en fait la base de tous les êtres vivants."
+      "question": "Qu'est-ce qu'une cellule en biologie ?",
+      "answers": [
+        "Une molécule organique complexe",
+        "Un tissu composé d'organes",
+        "Un organite spécialisé",
+        "La plus petite unité capable de vie autonome"
+      ],
+      "correctIndex": 3,
+      "explanation": "La cellule est la plus petite unité structurale et fonctionnelle du vivant. Elle peut se nourrir, produire de l'énergie, répondre à son environnement et se reproduire. Les êtres vivants sont soit unicellulaires (une seule cellule, comme les bactéries et les levures), soit pluricellulaires (milliards de cellules coordonnées, comme les humains). La taille d'une cellule animale typique est d'environ 10 à 20 micromètres."
     },
     {
       "id": "2",
-      "question": "Quel élément contient l’information génétique dans la cellule ?",
-      "answers": ["Le cytoplasme", "Les mitochondries", "Le noyau", "La membrane"],
+      "question": "Quel compartiment cellulaire renferme l'ADN dans les cellules eucaryotes ?",
+      "answers": [
+        "Le cytoplasme",
+        "Les mitochondries uniquement",
+        "Le noyau",
+        "La membrane plasmique"
+      ],
       "correctIndex": 2,
-      "explanation": "Le noyau contient l’ADN organisé en chromosomes. Cet ADN porte les instructions nécessaires à la fabrication des protéines et au fonctionnement global de la cellule."
+      "explanation": "Dans les cellules eucaryotes (animales, végétales, fongiques), l'ADN génomique est enfermé dans le noyau, entouré par une double membrane nucléaire. Le noyau abrite les chromosomes et contrôle l'expression des gènes. Une petite quantité d'ADN se trouve aussi dans les mitochondries (et les chloroplastes chez les végétaux), héritage de leur origine bactérienne évolutive."
     },
     {
       "id": "3",
-      "question": "Qu’est-ce que l’ADN ?",
-      "answers": ["Une molécule contenant l’information génétique", "Un organe", "Une source d’énergie", "Un type de cellule"],
-      "correctIndex": 0,
-      "explanation": "L’ADN est une longue molécule en forme de double hélice qui contient les gènes. Ces gènes sont des instructions permettant de fabriquer les protéines nécessaires au fonctionnement du vivant."
+      "question": "Quel est le rôle de l'ARN messager (ARNm) dans la cellule ?",
+      "answers": [
+        "Stocker l'énergie sous forme d'ATP",
+        "Copier un gène et porter l'info vers les ribosomes",
+        "Transporter l'oxygène vers les organites",
+        "Former la paroi cellulaire des végétaux"
+      ],
+      "correctIndex": 1,
+      "explanation": "L'ARN messager (ARNm) est synthétisé par transcription d'un gène de l'ADN dans le noyau. Il transporte les instructions génétiques vers les ribosomes dans le cytoplasme, où elles sont traduites en protéines (traduction). Ce flux d'information ADN → ARNm → protéine est appelé dogme central de la biologie moléculaire. Les vaccins à ARNm contre le SARS-CoV-2 utilisent ce même mécanisme."
     },
     {
       "id": "4",
-      "question": "Quel est le rôle de la membrane cellulaire ?",
-      "answers": ["Stocker l’ADN", "Diviser la cellule", "Produire de l’énergie", "Protéger et contrôler les échanges"],
-      "correctIndex": 3,
-      "explanation": "La membrane cellulaire agit comme une barrière sélective. Elle laisse entrer les nutriments nécessaires et évacue les déchets, tout en protégeant la cellule de son environnement extérieur."
+      "question": "Quel est le rôle de la membrane plasmique ?",
+      "answers": [
+        "Contrôler les échanges entre cellule et milieu",
+        "Stocker l'ADN de la cellule",
+        "Diviser le noyau lors de la division",
+        "Produire de l'énergie sous forme d'ATP"
+      ],
+      "correctIndex": 0,
+      "explanation": "La membrane plasmique est une bicouche de phospholipides parsemée de protéines. Elle joue un rôle de barrière sélective : elle laisse entrer les nutriments (glucose, acides aminés, oxygène) et expulse les déchets (CO₂, urée). Ce contrôle des échanges, assuré par des canaux et des transporteurs protéiques, est indispensable à l'homéostasie cellulaire."
     },
     {
       "id": "5",
-      "question": "Qu’est-ce que le cytoplasme ?",
-      "answers": ["Une membrane", "Un liquide contenant les organites", "Une structure rigide", "Un type d’ADN"],
+      "question": "Qu'est-ce que le cytoplasme d'une cellule ?",
+      "answers": [
+        "La membrane externe de la cellule",
+        "Le milieu liquide contenant les organites",
+        "La paroi rigide des cellules végétales",
+        "Un type particulier de chromosome"
+      ],
       "correctIndex": 1,
-      "explanation": "Le cytoplasme est un milieu gélatineux dans lequel se trouvent les organites. Il est le lieu de nombreuses réactions chimiques indispensables à la vie cellulaire."
+      "explanation": "Le cytoplasme est le milieu aqueux et gélatineux (cytosol) qui remplit l'intérieur de la cellule entre le noyau et la membrane plasmique. Il contient tous les organites (ribosomes, mitochondries, réticulum endoplasmique…) et est le lieu de nombreuses réactions chimiques, notamment la glycolyse, première étape de la respiration cellulaire."
     },
     {
       "id": "6",
-      "question": "Quel organite est responsable de la production d’énergie dans la cellule ?",
-      "answers": ["Le ribosome", "Le noyau", "Le chloroplaste", "Les mitochondries"],
+      "question": "Quel organite trie, modifie et expédie les protéines fabriquées par la cellule ?",
+      "answers": [
+        "Le ribosome",
+        "Le noyau",
+        "Le chloroplaste",
+        "L'appareil de Golgi"
+      ],
       "correctIndex": 3,
-      "explanation": "Les mitochondries produisent l’ATP, une molécule énergétique essentielle. Elles utilisent les nutriments et l’oxygène pour libérer de l’énergie utilisable par la cellule."
+      "explanation": "L'appareil de Golgi est une pile de sacs membranaires qui reçoit les protéines du réticulum endoplasmique, les modifie (glycosylation, clivage), les trie et les envoie à leur destination : membrane plasmique, lysosomes ou sécrétion à l'extérieur de la cellule. Il a été décrit pour la première fois par le biologiste Camillo Golgi en 1898, qui a reçu le prix Nobel en 1906."
     },
     {
       "id": "7",
-      "question": "Quelle différence principale existe entre une cellule animale et végétale ?",
-      "answers": ["La cellule animale a une paroi rigide", "La cellule végétale possède une paroi et des chloroplastes", "La cellule animale contient de la chlorophylle", "La cellule végétale n’a pas de noyau"],
-      "correctIndex": 1,
-      "explanation": "Les cellules végétales possèdent une paroi cellulaire rigide et des chloroplastes qui permettent la photosynthèse. Les cellules animales, elles, n’ont ni paroi ni chloroplastes."
+      "question": "Quelle est la principale différence structurale entre une cellule animale et une cellule végétale ?",
+      "answers": [
+        "La cellule animale possède une paroi rigide",
+        "La cellule animale contient de la chlorophylle",
+        "La cellule végétale n'a pas de noyau",
+        "La végétale a paroi cellulaire et chloroplastes"
+      ],
+      "correctIndex": 3,
+      "explanation": "Les cellules végétales se distinguent des cellules animales par la présence d'une paroi cellulaire en cellulose (rigidité), de chloroplastes (photosynthèse) et souvent d'une grande vacuole centrale (stockage et turgescence). Les cellules animales n'ont ni paroi ni chloroplastes, mais peuvent avoir des centrioles absents chez les végétaux supérieurs."
     },
     {
       "id": "8",
-      "question": "Quel organite permet la photosynthèse chez les plantes ?",
-      "answers": ["Le chloroplaste", "Le noyau", "La mitochondrie", "Le ribosome"],
+      "question": "Quel organite réalise la photosynthèse dans les cellules végétales ?",
+      "answers": [
+        "Le chloroplaste",
+        "Le noyau",
+        "La mitochondrie",
+        "Le ribosome"
+      ],
       "correctIndex": 0,
-      "explanation": "Les chloroplastes contiennent la chlorophylle, un pigment capable de capter l’énergie lumineuse et de la transformer en énergie chimique lors de la photosynthèse."
+      "explanation": "Le chloroplaste contient la chlorophylle, un pigment vert qui absorbe la lumière solaire (principalement dans le rouge et le bleu). Cette énergie lumineuse est utilisée pour transformer le CO₂ et l'eau en glucose et en oxygène lors de la photosynthèse. Les chloroplastes ont leur propre ADN, signe de leur origine bactérienne (cyanobactéries) il y a environ 1,5 milliard d'années."
     },
     {
       "id": "9",
-      "question": "Qu’est-ce que la division cellulaire ?",
-      "answers": ["Une fusion de cellules", "Une digestion", "Une mort cellulaire", "La multiplication des cellules"],
+      "question": "Qu'est-ce que la division cellulaire ?",
+      "answers": [
+        "La fusion de deux cellules en une seule",
+        "La digestion intracellulaire des nutriments",
+        "La mort programmée d'une cellule",
+        "Un processus générant de nouvelles cellules"
+      ],
       "correctIndex": 3,
-      "explanation": "La division cellulaire permet à une cellule de donner naissance à deux cellules filles. Ce processus est essentiel pour la croissance, la réparation des tissus et la reproduction."
+      "explanation": "La division cellulaire est le processus par lequel une cellule mère se divise pour produire deux ou plusieurs cellules filles. Il en existe deux types principaux : la mitose (cellules somatiques, produit des cellules identiques) et la méiose (cellules reproductrices, produit des cellules avec la moitié du nombre de chromosomes). Ce mécanisme est essentiel à la croissance, la réparation des tissus et la reproduction."
     },
     {
       "id": "10",
-      "question": "Quel type de cellule ne possède pas de noyau ?",
-      "answers": ["Cellule musculaire", "Cellule végétale", "Cellule animale", "Bactérie"],
+      "question": "Que sont les cellules souches et quelle est leur particularité ?",
+      "answers": [
+        "Des cellules végétales capables de photosynthèse",
+        "Des cellules procaryotes sans membrane",
+        "Des cellules définitivement spécialisées",
+        "Des cellules indifférenciées qui se spécialisent"
+      ],
       "correctIndex": 3,
-      "explanation": "Les bactéries sont des cellules procaryotes. Leur ADN n’est pas contenu dans un noyau mais libre dans le cytoplasme, ce qui les distingue des cellules eucaryotes."
+      "explanation": "Les cellules souches sont des cellules non encore spécialisées qui ont la capacité de se diviser et de se différencier en différents types cellulaires (muscle, neurone, globule rouge…). Les cellules souches embryonnaires sont pluripotentes (donnent tous les types de cellules) ; les cellules souches adultes sont plus limitées. Elles suscitent un grand intérêt en médecine régénérative pour réparer des tissus endommagés."
     },
     {
       "id": "11",
-      "question": "Quel est le rôle des ribosomes ?",
-      "answers": ["Synthétiser des protéines", "Produire de l’énergie", "Transporter l’oxygène", "Stocker l’ADN"],
-      "correctIndex": 0,
-      "explanation": "Les ribosomes lisent les instructions de l’ADN et fabriquent les protéines. Ces protéines sont indispensables pour la structure et le fonctionnement de la cellule."
+      "question": "Quel est le rôle des ribosomes dans la cellule ?",
+      "answers": [
+        "Produire de l'ATP par respiration",
+        "Transporter l'oxygène dans le sang",
+        "Synthétiser les protéines via l'ARN messager",
+        "Stocker l'ADN dans le noyau"
+      ],
+      "correctIndex": 2,
+      "explanation": "Les ribosomes sont de petits complexes ribonucléoprotéiques présents dans toutes les cellules vivantes, libres dans le cytoplasme ou attachés au réticulum endoplasmique rugueux. Ils lisent la séquence de l'ARNm et assemblent les acides aminés dans le bon ordre pour former les protéines. Une cellule eucaryote peut contenir plusieurs millions de ribosomes, signe de l'activité intense de synthèse protéique."
     },
     {
       "id": "12",
-      "question": "Qu’est-ce qu’un organite ?",
-      "answers": ["Une cellule entière", "Un virus", "Une structure spécialisée dans la cellule", "Un type d’ADN"],
-      "correctIndex": 2,
-      "explanation": "Un organite est une structure interne à la cellule qui remplit une fonction spécifique, comme la production d’énergie ou la synthèse de molécules."
+      "question": "Qu'est-ce qu'un organite cellulaire ?",
+      "answers": [
+        "Une structure intracellulaire spécialisée",
+        "Une cellule complète à l'intérieur d'une autre",
+        "Un micro-organisme pathogène",
+        "Un fragment d'ADN non codant"
+      ],
+      "correctIndex": 0,
+      "explanation": "Un organite est une structure interne à la cellule qui remplit une fonction spécifique. Selon les ouvrages, le terme peut se limiter aux structures délimitées par une membrane (noyau, mitochondries, chloroplastes, appareil de Golgi, lysosomes) ou s'étendre aux structures non membranaires comme les ribosomes. La comparaison classique est celle avec les organes d'un corps : chaque organite a un rôle particulier au service de la cellule."
     },
     {
       "id": "13",
-      "question": "Quel est le rôle principal de l’ADN ?",
-      "answers": ["Transporter les nutriments", "Contenir les instructions du vivant", "Protéger la cellule", "Produire de l’énergie"],
+      "question": "Quel est le rôle principal de l'ADN dans la cellule ?",
+      "answers": [
+        "Transporter les nutriments vers les organites",
+        "Porter les instructions génétiques des protéines",
+        "Protéger la cellule contre les infections",
+        "Produire de l'énergie par oxydation"
+      ],
       "correctIndex": 1,
-      "explanation": "L’ADN contient les gènes, qui sont les instructions permettant à la cellule de fabriquer des protéines et de fonctionner correctement."
+      "explanation": "L'ADN contient les gènes, qui sont des séquences de nucléotides codant pour des protéines ou régulant leur expression. Lors de la transcription, une copie ARNm est synthétisée à partir d'un gène, puis traduite en protéine par les ribosomes. Le génome humain contient environ 3 milliards de paires de bases et environ 20 000 gènes codants."
     },
     {
       "id": "14",
-      "question": "Qu’est-ce que la mitose ?",
-      "answers": ["Une fusion cellulaire", "Une mutation", "Une division donnant deux cellules identiques", "Une digestion cellulaire"],
-      "correctIndex": 2,
-      "explanation": "La mitose est une division cellulaire qui produit deux cellules identiques à la cellule d’origine, avec le même matériel génétique."
+      "question": "Qu'est-ce que la mitose ?",
+      "answers": [
+        "Une division produisant deux cellules identiques",
+        "La fusion de deux cellules reproductrices",
+        "Une mutation lors d'une erreur de réplication",
+        "La digestion des organites usagés"
+      ],
+      "correctIndex": 0,
+      "explanation": "La mitose est une division cellulaire équationnelle : elle produit deux cellules filles génétiquement identiques à la cellule mère, avec le même nombre de chromosomes (diploïdes). Elle se déroule en quatre phases : prophase, métaphase, anaphase et télophase, suivies de la cytocinèse (division du cytoplasme). La mitose est à la base de la croissance des organismes et de la régénération des tissus."
     },
     {
       "id": "15",
-      "question": "Quelle structure donne sa rigidité à la cellule végétale ?",
-      "answers": ["Le cytoplasme", "La membrane", "Le noyau", "La paroi cellulaire"],
-      "correctIndex": 3,
-      "explanation": "La paroi cellulaire, composée notamment de cellulose, renforce la cellule végétale et lui permet de conserver sa forme."
+      "question": "Quel rôle joue la vacuole centrale dans les cellules végétales matures ?",
+      "answers": [
+        "Remplacer les chloroplastes pour la photosynthèse",
+        "Stocker eau, nutriments et déchets",
+        "Synthétiser les protéines de la paroi",
+        "Copier l'ADN avant la division"
+      ],
+      "correctIndex": 1,
+      "explanation": "La vacuole centrale d'une cellule végétale mature peut occuper jusqu'à 90 % du volume cellulaire. Elle stocke de l'eau (maintenant la turgescence et la rigidité de la plante), des nutriments, des pigments et des déchets métaboliques. Quand la vacuole se remplit d'eau, elle pousse contre la paroi cellulaire, créant la pression de turgescence qui donne aux plantes leur tenue rigide. Une plante qui manque d'eau perd cette turgescence et se fane."
     },
     {
       "id": "16",
-      "question": "Qu’est-ce que la photosynthèse ?",
-      "answers": ["Une division cellulaire", "Une digestion", "Une transformation de la lumière en énergie chimique", "Une respiration cellulaire"],
+      "question": "Qu'est-ce que la respiration cellulaire ?",
+      "answers": [
+        "L'échange de gaz entre les poumons et le sang",
+        "La division des cellules après un effort physique",
+        "La transformation du glucose en ATP",
+        "La synthèse de glucides à partir du CO₂"
+      ],
       "correctIndex": 2,
-      "explanation": "La photosynthèse permet aux plantes de produire du glucose à partir de la lumière, du dioxyde de carbone et de l’eau, tout en libérant de l’oxygène."
+      "explanation": "La respiration cellulaire est le processus par lequel les mitochondries dégradent le glucose en présence d'oxygène pour produire de l'ATP, du CO₂ et de l'eau. L'équation globale est : C₆H₁₂O₆ + 6 O₂ → 6 CO₂ + 6 H₂O + ATP. Un seul glucose peut donner environ 30 à 32 ATP chez les eucaryotes, selon les estimations actuelles. Ce processus est l'inverse de la photosynthèse : les deux forment un cycle essentiel dans les écosystèmes."
     },
     {
       "id": "17",
       "question": "Quelle est la fonction principale des mitochondries ?",
-      "answers": ["Produire de l’énergie", "Synthétiser les protéines", "Protéger la cellule", "Stocker l’ADN"],
+      "answers": [
+        "Produire de l'ATP par respiration cellulaire",
+        "Synthétiser les protéines membranaires",
+        "Protéger la cellule contre les agents pathogènes",
+        "Stocker l'ADN nucléaire de la cellule"
+      ],
       "correctIndex": 0,
-      "explanation": "Les mitochondries sont souvent appelées les “centrales énergétiques” de la cellule car elles produisent l’ATP utilisé pour les activités cellulaires."
+      "explanation": "Les mitochondries sont les principales usines énergétiques de la cellule. Elles réalisent la respiration aérobie, transformant le glucose et l'oxygène en ATP, dioxyde de carbone et eau. Elles ont leur propre ADN circulaire et se reproduisent par fission, signes de leur origine bactérienne selon la théorie endosymbiotique de Lynn Margulis. Les cellules très actives comme les cellules musculaires contiennent des milliers de mitochondries."
     },
     {
       "id": "18",
-      "question": "Qu’est-ce qu’une cellule procaryote ?",
-      "answers": ["Une cellule avec noyau", "Une cellule végétale", "Une cellule animale", "Une cellule sans noyau"],
-      "correctIndex": 3,
-      "explanation": "Les cellules procaryotes, comme les bactéries, ne possèdent pas de noyau. Leur ADN est libre dans le cytoplasme."
+      "question": "Qu'est-ce qu'une cellule procaryote ?",
+      "answers": [
+        "Une cellule avec noyau entouré d'une membrane",
+        "Une grande cellule végétale avec vacuole",
+        "Une cellule sans noyau délimité, type bactérie",
+        "Une cellule animale sans mitochondries"
+      ],
+      "correctIndex": 2,
+      "explanation": "Les cellules procaryotes (du grec pro = avant, karyon = noyau) n'ont pas de noyau entouré d'une membrane. Leur ADN est libre dans le cytoplasme, souvent sous forme d'un chromosome circulaire unique. Les bactéries et les archées sont les deux grands domaines de procaryotes. Apparus il y a environ 3,8 milliards d'années, ce sont les premières formes de vie sur Terre."
     },
     {
       "id": "19",
-      "question": "Qu’est-ce qu’une cellule eucaryote ?",
-      "answers": ["Une cellule uniquement végétale", "Une cellule sans ADN", "Une cellule avec noyau", "Une cellule uniquement animale"],
-      "correctIndex": 2,
-      "explanation": "Les cellules eucaryotes possèdent un noyau contenant l’ADN. Elles incluent les cellules animales, végétales et fongiques."
+      "question": "Qu'est-ce qu'une cellule eucaryote ?",
+      "answers": [
+        "Une cellule uniquement présente chez les végétaux",
+        "Une cellule dont l'ADN est enfermé dans un noyau",
+        "Une cellule sans matériel génétique",
+        "Une cellule unicellulaire sans organites"
+      ],
+      "correctIndex": 1,
+      "explanation": "Les cellules eucaryotes (du grec eu = vrai, karyon = noyau) possèdent un noyau délimité par une double membrane. Elles sont beaucoup plus grandes (10-100 µm) et complexes que les procaryotes (1-10 µm). Elles comprennent les cellules animales, végétales, fongiques et les protistes. Elles seraient apparues il y a environ 1,5 à 2 milliards d'années, probablement par endosymbiose."
     },
     {
       "id": "20",
-      "question": "Pourquoi les cellules sont-elles essentielles à la vie ?",
-      "answers": ["Elles remplacent les organes", "Elles produisent la lumière", "Elles remplacent l’eau", "Elles constituent tous les êtres vivants"],
-      "correctIndex": 3,
-      "explanation": "Tous les êtres vivants sont constitués de cellules. Elles assurent toutes les fonctions vitales, de la production d’énergie à la reproduction."
+      "question": "Qu'est-ce que l'apoptose ?",
+      "answers": [
+        "La division cellulaire lors de la croissance",
+        "La synthèse de protéines dans le ribosome",
+        "La mort cellulaire programmée et contrôlée",
+        "La fusion de deux cellules lors de la reproduction"
+      ],
+      "correctIndex": 2,
+      "explanation": "L'apoptose est la mort cellulaire programmée : un mécanisme génétiquement contrôlé par lequel une cellule se détruit de façon ordonnée sans déclencher d'inflammation. Elle est essentielle au développement (suppression des doigts palmés chez l'embryon), à l'élimination des cellules endommagées ou potentiellement cancéreuses et au renouvellement des tissus. Environ 50 à 70 milliards de cellules meurent par apoptose chaque jour dans le corps humain."
     }
   ]
 }

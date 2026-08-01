@@ -1,8 +1,8 @@
 {
   "slug": "quiz-sciences-nutrition-alimentation",
   "title": "Quiz Sciences - Nutrition et alimentation - Les bases essentielles en 20 questions",
-  "description": "Teste tes connaissances sur la nutrition et les bases d’une alimentation équilibrée.",
-  "descriptionSeo": "Teste tes connaissances avec ce quiz nutrition et alimentation de 20 questions. Découvre les bases essentielles pour comprendre les nutriments, l’équilibre alimentaire, les vitamines, l’hydratation et le rôle des aliments dans le corps. Idéal pour apprendre en s’amusant, ce quiz pédagogique convient à tous les niveaux et permet d’améliorer ses habitudes alimentaires tout en consolidant ses connaissances en sciences de la nutrition.",
+  "description": "Teste tes connaissances sur la nutrition et les bases d'une alimentation équilibrée.",
+  "descriptionSeo": "Teste tes connaissances avec ce quiz nutrition et alimentation de 20 questions. Découvre les bases essentielles pour comprendre les nutriments, l'équilibre alimentaire, les vitamines, l'hydratation et le rôle des aliments dans le corps. Idéal pour apprendre en s'amusant, ce quiz pédagogique convient à tous les niveaux et permet d'améliorer ses habitudes alimentaires tout en consolidant ses connaissances en sciences de la nutrition.",
   "category": {
     "name": "Sciences",
     "slug": "sciences"
@@ -18,143 +18,243 @@
   "questions": [
     {
       "id": "1",
-      "question": "Quel nutriment est la principale source d’énergie rapide pour le corps ?",
-      "answers": ["Les vitamines", "Les fibres", "Les glucides", "L’eau"],
+      "question": "Quel nutriment est la principale source d'énergie rapide pour le corps ?",
+      "answers": [
+        "Les vitamines",
+        "Les fibres",
+        "Les glucides",
+        "Les lipides"
+      ],
       "correctIndex": 2,
-      "explanation": "Les glucides sont transformés en glucose, qui est utilisé directement par les cellules, notamment le cerveau et les muscles. Ils sont donc la source d’énergie la plus rapide, contrairement aux lipides qui sont utilisés plus lentement."
+      "explanation": "Les glucides sont transformés en glucose, utilisé directement par les cellules pour produire de l'énergie. Le cerveau consomme à lui seul environ 120 grammes de glucose par jour. Les glucides fournissent 4 kcal par gramme, contre 9 kcal/g pour les lipides, mais leur énergie est mobilisée bien plus rapidement."
     },
     {
       "id": "2",
-      "question": "Quel nutriment aide principalement à construire et réparer les muscles ?",
-      "answers": ["Les protéines", "Les sucres", "Les sels minéraux", "L’eau"],
+      "question": "Quel nutriment aide principalement à construire et réparer les tissus musculaires ?",
+      "answers": [
+        "Les protéines",
+        "Les glucides simples",
+        "Les sels minéraux",
+        "Les acides gras oméga-6"
+      ],
       "correctIndex": 0,
-      "explanation": "Les protéines sont composées d’acides aminés, indispensables à la construction et à la réparation des tissus du corps, notamment après un effort physique ou une blessure."
+      "explanation": "Les protéines sont composées de 20 acides aminés, dont 9 dits essentiels car le corps ne peut pas les synthétiser seul. Après un effort physique intense, les besoins en protéines augmentent pour permettre la réparation des fibres musculaires sollicitées. Les apports recommandés pour un adulte sont d'environ 0,8 à 1 gramme de protéines par kilo de poids corporel par jour."
     },
     {
       "id": "3",
-      "question": "Quel aliment est généralement riche en calcium ?",
-      "answers": ["Le sucre", "Le riz", "L’huile", "Le lait"],
+      "question": "Quel aliment est parmi les plus riches en calcium facilement assimilable ?",
+      "answers": [
+        "Le sucre blanc",
+        "Le riz blanc",
+        "L'huile d'olive",
+        "Le lait et les produits laitiers"
+      ],
       "correctIndex": 3,
-      "explanation": "Les produits laitiers comme le lait, le yaourt ou le fromage sont parmi les principales sources de calcium, un minéral essentiel pour la solidité des os et des dents."
+      "explanation": "Les produits laitiers (lait, yaourt, fromage) contiennent du calcium en quantité importante et dans une forme bien absorbée par l'intestin. Un verre de lait (250 ml) apporte environ 300 mg de calcium, soit environ 30 % de l'apport journalier recommandé pour un adulte (environ 1 000 mg). D'autres sources comme les amandes, le chou kale ou les sardines avec arêtes sont aussi non négligeables."
     },
     {
       "id": "4",
-      "question": "Pourquoi le calcium est-il important ?",
-      "answers": ["Il remplace l’eau", "Il contribue à la solidité des os", "Il donne un goût sucré", "Il accélère la respiration"],
+      "question": "Quel minéral joue un rôle clé dans la contraction musculaire et le fonctionnement du système nerveux ?",
+      "answers": [
+        "Le fluorure",
+        "Le magnésium",
+        "L'iode",
+        "Le chrome"
+      ],
       "correctIndex": 1,
-      "explanation": "Le calcium ne sert pas uniquement aux os : il intervient aussi dans la contraction musculaire et la transmission nerveuse. Un manque peut fragiliser le squelette."
+      "explanation": "Le magnésium intervient dans plus de 300 réactions enzymatiques dans le corps, notamment la contraction musculaire, la transmission des signaux nerveux et la production d'énergie. Les apports journaliers recommandés sont d'environ 300-380 mg selon l'âge et le sexe. On le trouve surtout dans les oléagineux (amandes, noix), les céréales complètes, les légumineuses et le chocolat noir."
     },
     {
       "id": "5",
-      "question": "Quelle vitamine est principalement associée à la lumière du soleil ?",
-      "answers": ["Vitamine D", "Vitamine C", "Vitamine B12", "Vitamine K"],
+      "question": "Quelle vitamine est principalement synthétisée par la peau sous l'effet des rayons UV du soleil ?",
+      "answers": [
+        "La vitamine D",
+        "La vitamine C",
+        "La vitamine B12",
+        "La vitamine K"
+      ],
       "correctIndex": 0,
-      "explanation": "La vitamine D est synthétisée par la peau sous l’effet des UV du soleil. Elle est essentielle pour fixer le calcium sur les os et prévenir certaines maladies osseuses."
+      "explanation": "La vitamine D (calciférol) est synthétisée dans la peau sous l'effet des ultraviolets B (UVB). Elle est indispensable pour l'absorption intestinale du calcium et du phosphore, et pour la minéralisation des os. Sa carence, fréquente aux latitudes élevées en hiver, peut provoquer le rachitisme chez l'enfant ou l'ostéomalacie chez l'adulte. Les poissons gras, les œufs et les produits laitiers enrichis en sont aussi des sources alimentaires."
     },
     {
       "id": "6",
-      "question": "Que mesure une calorie en nutrition ?",
-      "answers": ["La couleur", "La taille", "L’eau", "L’énergie apportée"],
+      "question": "Combien de kilocalories apporte environ un gramme de lipides ?",
+      "answers": [
+        "2 kcal",
+        "4 kcal",
+        "7 kcal",
+        "9 kcal"
+      ],
       "correctIndex": 3,
-      "explanation": "Une calorie correspond à une unité d’énergie. Le corps utilise cette énergie pour fonctionner : respirer, bouger, digérer ou maintenir sa température."
+      "explanation": "Les lipides sont les nutriments les plus énergétiques : ils apportent environ 9 kcal par gramme, contre 4 kcal pour les glucides et les protéines, et 7 kcal pour l'alcool. Cette densité énergétique élevée en fait des réserves d'énergie efficaces pour le corps. Les lipides jouent aussi des rôles essentiels : structure des membranes cellulaires, absorption des vitamines liposolubles (A, D, E, K), synthèse des hormones."
     },
     {
       "id": "7",
-      "question": "Quel groupe d’aliments est riche en fibres ?",
-      "answers": ["Les sodas", "Les fruits et légumes", "Les bonbons", "Les boissons sucrées"],
+      "question": "Quel groupe d'aliments est une source majeure de fibres alimentaires ?",
+      "answers": [
+        "Les sodas sucrés",
+        "Les fruits, légumes et céréales complètes",
+        "Les confiseries et bonbons",
+        "Les boissons énergisantes"
+      ],
       "correctIndex": 1,
-      "explanation": "Les fibres se trouvent surtout dans les végétaux. Elles ne sont pas digérées mais jouent un rôle clé dans la digestion et la régulation du transit intestinal."
+      "explanation": "Les fibres alimentaires se trouvent exclusivement dans les aliments d'origine végétale : fruits, légumes, légumineuses, céréales complètes et oléagineux. Les recommandations nutritionnelles sont d'environ 25 à 30 grammes de fibres par jour pour un adulte. En France, la consommation moyenne est inférieure à ces recommandations. Les fibres contribuent à la régulation du transit, à la sensation de satiété et à l'équilibre du microbiote intestinal."
     },
     {
       "id": "8",
-      "question": "À quoi servent principalement les fibres alimentaires ?",
-      "answers": ["À remplacer les protéines", "À produire du bruit", "À favoriser le transit intestinal", "À colorer les aliments"],
-      "correctIndex": 2,
-      "explanation": "Les fibres augmentent le volume des selles et facilitent leur passage dans l’intestin. Elles contribuent aussi à la sensation de satiété."
+      "question": "Qu'est-ce que l'index glycémique d'un aliment ?",
+      "answers": [
+        "Sa teneur en graisses saturées",
+        "Son apport en vitamines liposolubles",
+        "Sa teneur en eau",
+        "Sa capacité à élever le taux de sucre dans le sang"
+      ],
+      "correctIndex": 3,
+      "explanation": "L'index glycémique (IG) mesure la vitesse à laquelle un aliment contenant des glucides élève la glycémie (taux de sucre dans le sang) après ingestion. Un IG élevé (sucre blanc, pain blanc) provoque une hausse rapide suivie d'une chute de glycémie pouvant induire la faim. Un IG bas (légumineuses, céréales complètes) maintient une glycémie stable. L'IG est influencé par la structure des glucides, la teneur en fibres, les modes de cuisson et la présence de lipides."
     },
     {
       "id": "9",
-      "question": "Quel élément est indispensable à l’hydratation du corps ?",
-      "answers": ["L’eau", "Le sucre", "Le sel", "L’huile"],
+      "question": "Quelle proportion du corps humain adulte est constituée d'eau ?",
+      "answers": [
+        "Environ 60 %",
+        "Environ 20 %",
+        "Environ 90 %",
+        "Environ 40 %"
+      ],
       "correctIndex": 0,
-      "explanation": "L’eau représente environ 60 % du corps humain. Elle permet le transport des nutriments, l’élimination des déchets et la régulation de la température."
+      "explanation": "L'eau représente environ 60 % du poids corporel d'un adulte, avec des variations selon l'âge, le sexe et la composition corporelle (les muscles contiennent plus d'eau que le tissu adipeux). Elle assure le transport des nutriments et de l'oxygène, la régulation thermique, l'élimination des déchets métaboliques et le bon déroulement des réactions enzymatiques. Une déshydratation de seulement 2 % peut altérer les performances cognitives et physiques."
     },
     {
       "id": "10",
-      "question": "Quel repas est souvent présenté comme utile pour commencer la journée ?",
-      "answers": ["Le goûter", "Le dîner", "Le petit-déjeuner", "Le dessert"],
+      "question": "Quel repas permet, après une nuit de jeûne, de recharger les réserves d'énergie avant une journée active ?",
+      "answers": [
+        "Le goûter de l'après-midi",
+        "Le dîner de la veille",
+        "Le petit-déjeuner",
+        "Le dessert du midi"
+      ],
       "correctIndex": 2,
-      "explanation": "Après une nuit de jeûne, le petit-déjeuner permet de recharger les réserves d’énergie et d’améliorer la concentration et les performances physiques."
+      "explanation": "Après 8 à 12 heures sans manger, les réserves de glycogène hépatique peuvent être partiellement épuisées. Prendre un repas le matin permet de restaurer ces réserves et de fournir de l'énergie pour les activités matinales. Cependant, les études scientifiques récentes nuancent l'idée que le petit-déjeuner soit indispensable pour tous : l'essentiel reste la qualité globale de l'alimentation sur la journée."
     },
     {
       "id": "11",
-      "question": "Quel organe commence la digestion ?",
-      "answers": ["Le foie", "La bouche", "L’estomac", "Le cœur"],
+      "question": "Quel organe amorce la digestion chimique grâce aux enzymes de la salive ?",
+      "answers": [
+        "Le foie",
+        "La bouche",
+        "L'estomac",
+        "Le pancréas"
+      ],
       "correctIndex": 1,
-      "explanation": "La digestion commence dans la bouche grâce à la mastication et à la salive, qui contient des enzymes capables de commencer la dégradation des aliments."
+      "explanation": "La digestion commence dans la bouche. La mastication fragmente mécaniquement les aliments, tandis que la salive, produite par les glandes salivaires, contient de l'amylase salivaire, une enzyme qui commence à dégrader l'amidon en sucres plus simples. La salive contient aussi de la lipase linguale et des substances antibactériennes. L'estomac et le pancréas interviennent ensuite avec d'autres enzymes pour poursuivre la digestion."
     },
     {
       "id": "12",
-      "question": "Pourquoi faut-il limiter les boissons sucrées ?",
-      "answers": ["Elles remplacent les os", "Elles empêchent de respirer", "Elles ne contiennent pas d’eau", "Elles apportent beaucoup de sucre"],
+      "question": "Pourquoi est-il conseillé de limiter les boissons sucrées au quotidien ?",
+      "answers": [
+        "Elles inhibent l'absorption du calcium osseux",
+        "Elles interfèrent avec la synthèse des protéines",
+        "Elles réduisent la production de salive",
+        "Elles apportent beaucoup de calories sans satiété"
+      ],
       "correctIndex": 3,
-      "explanation": "Les boissons sucrées apportent beaucoup de calories sans procurer de satiété, ce qui peut favoriser la prise de poids et augmenter le risque de maladies comme le diabète."
+      "explanation": "Les boissons sucrées (sodas, jus industriels, boissons énergisantes) apportent de grandes quantités de sucres ajoutés sans induire de sensation de satiété, car les liquides sont moins rassasiants que les aliments solides. Une canette de soda de 33 cl contient environ 35 grammes de sucres. L'OMS recommande de limiter les sucres libres à moins de 10 % de l'apport énergétique total, et suggère un bénéfice supplémentaire en dessous de 5 %. Leur consommation régulière est associée à un risque accru de diabète de type 2, de caries et de prise de poids."
     },
     {
       "id": "13",
-      "question": "Quel nutriment est présent en grande quantité dans les huiles ?",
-      "answers": ["Les lipides", "Les fibres", "Les protéines", "Les vitamines"],
+      "question": "Quel nutriment est présent en grande quantité dans les huiles végétales et les corps gras ?",
+      "answers": [
+        "Les lipides",
+        "Les fibres solubles",
+        "Les protéines complètes",
+        "Les vitamines du groupe B"
+      ],
       "correctIndex": 0,
-      "explanation": "Les lipides sont très énergétiques : ils apportent plus du double de calories des glucides ou des protéines. Ils sont indispensables mais doivent être consommés avec modération."
+      "explanation": "Les huiles végétales sont composées presque exclusivement de lipides (environ 100 g de lipides pour 100 g d'huile). Les lipides apportent 9 kcal par gramme, contre 4 kcal pour glucides et protéines. Ils sont essentiels à la structure des membranes cellulaires, à la production des hormones stéroïdiennes et à l'absorption des vitamines liposolubles A, D, E et K. Les huiles végétales varient par leur profil en acides gras : l'huile d'olive est riche en acides gras monoinsaturés, l'huile de lin en oméga-3."
     },
     {
       "id": "14",
-      "question": "Quel est le rôle principal des vitamines ?",
-      "answers": ["Supprimer la digestion", "Transformer l’eau", "Aider au bon fonctionnement du corps", "Remplacer les repas"],
-      "correctIndex": 2,
-      "explanation": "Les vitamines interviennent dans de nombreuses réactions chimiques du corps, comme le système immunitaire, la vision ou la production d’énergie."
+      "question": "Quel est le rôle principal des vitamines dans l'organisme ?",
+      "answers": [
+        "Remplacer les glucides comme source d'énergie",
+        "Participer aux réactions biologiques du corps",
+        "Assurer la structure des muscles squelettiques",
+        "Fabriquer les globules rouges directement"
+      ],
+      "correctIndex": 1,
+      "explanation": "Les vitamines sont des micronutriments essentiels qui ne fournissent pas d'énergie directement, mais participent à d'innombrables réactions biologiques comme cofacteurs ou coenzymes. La vitamine C est indispensable à la synthèse du collagène et au système immunitaire ; la vitamine B12 est nécessaire à la formation des globules rouges et au fonctionnement neurologique. Les vitamines liposolubles (A, D, E, K) se stockent dans l'organisme, tandis que les hydrosolubles (C, B) doivent être apportées régulièrement."
     },
     {
       "id": "15",
-      "question": "Qu’est-ce qu’une alimentation équilibrée ?",
-      "answers": ["Toujours le même aliment", "Varier les aliments", "Supprimer les glucides", "Ne boire que du jus"],
+      "question": "Qu'est-ce qu'une alimentation équilibrée ?",
+      "answers": [
+        "Manger toujours les mêmes aliments",
+        "Varier les aliments pour couvrir tous les besoins",
+        "Supprimer les glucides et les lipides",
+        "Ne consommer que des jus de fruits"
+      ],
       "correctIndex": 1,
-      "explanation": "Une alimentation équilibrée consiste à consommer différents types d’aliments pour couvrir tous les besoins en nutriments : glucides, protéines, lipides, vitamines et minéraux."
+      "explanation": "Une alimentation équilibrée consiste à varier les groupes alimentaires pour couvrir l'ensemble des besoins en macronutriments (glucides, protéines, lipides) et micronutriments (vitamines, minéraux). Selon les recommandations du Programme National Nutrition Santé (PNNS) français, elle inclut des fruits et légumes, des céréales de préférence complètes, des légumineuses, des produits laitiers, des protéines variées et une hydratation suffisante, avec une limitation des produits ultra-transformés."
     },
     {
       "id": "16",
-      "question": "Quel minéral transporte l’oxygène dans le sang ?",
-      "answers": ["Le calcium", "Le sodium", "Le potassium", "Le fer"],
+      "question": "Quel minéral, transporté par l'hémoglobine, permet d'acheminer l'oxygène jusqu'aux cellules ?",
+      "answers": [
+        "Le calcium",
+        "Le sodium",
+        "Le potassium",
+        "Le fer"
+      ],
       "correctIndex": 3,
-      "explanation": "Le fer est un composant de l’hémoglobine, une protéine des globules rouges qui transporte l’oxygène des poumons vers les cellules."
+      "explanation": "Le fer est un constituant essentiel de l'hémoglobine, la protéine contenue dans les globules rouges qui fixe l'oxygène dans les poumons et le libère dans les tissus. Les besoins en fer sont d'environ 8 mg/jour pour les hommes et 18 mg/jour pour les femmes en âge de procréer. Le fer héminique (viandes rouges, poissons) est mieux absorbé que le fer non héminique (légumineuses, épinards). La vitamine C favorise l'absorption du fer non héminique."
     },
     {
       "id": "17",
-      "question": "Quel aliment est riche en protéines ?",
-      "answers": ["Les œufs", "Le sucre", "L’eau", "Les bonbons"],
+      "question": "Quels aliments végétaux sont de bonnes sources de protéines pour compléter une alimentation sans viande ?",
+      "answers": [
+        "Les légumineuses et les céréales complètes",
+        "Les huiles et les corps gras végétaux",
+        "Les fruits sucrés et les jus de fruits",
+        "Les boissons végétales sucrées"
+      ],
       "correctIndex": 0,
-      "explanation": "Les œufs contiennent des protéines de haute qualité, avec tous les acides aminés essentiels dont le corps a besoin."
+      "explanation": "Les légumineuses (lentilles, pois chiches, haricots, soja) sont riches en protéines végétales mais pauvres en certains acides aminés essentiels (méthionine). Les céréales complètes sont, elles, pauvres en lysine. En combinant les deux au cours de la journée — et pas nécessairement au même repas — on obtient un profil d'acides aminés plus complet. Le tofu, le tempeh et le seitan sont également d'excellentes sources de protéines végétales concentrées."
     },
     {
       "id": "18",
-      "question": "Pourquoi manger des fruits et légumes ?",
-      "answers": ["Ils remplacent l’eau", "Ils empêchent la fatigue", "Ils apportent vitamines et fibres", "Ils ne contiennent rien"],
+      "question": "Pourquoi les fruits et légumes sont-ils recommandés quotidiennement ?",
+      "answers": [
+        "Ils remplacent les protéines animales",
+        "Ils inhibent la production d'insuline",
+        "Ils apportent vitamines, minéraux et antioxydants",
+        "Ils réduisent le besoin en eau de l'organisme"
+      ],
       "correctIndex": 2,
-      "explanation": "Les fruits et légumes apportent des vitamines, des minéraux et des antioxydants qui protègent les cellules et contribuent à la prévention de certaines maladies."
+      "explanation": "Les fruits et légumes apportent des vitamines (C, A, folates), des minéraux (potassium, magnésium), des fibres et des composés antioxydants (polyphénols, caroténoïdes). Ces antioxydants protègent les cellules contre le stress oxydatif, impliqué dans le vieillissement et certaines maladies chroniques. Les recommandations françaises (PNNS) préconisent au minimum 5 portions de fruits et légumes par jour."
     },
     {
       "id": "19",
-      "question": "Que signifie bien mastiquer ?",
-      "answers": ["Avaler vite", "Mâcher correctement", "Refroidir", "Ajouter du sucre"],
-      "correctIndex": 1,
-      "explanation": "Bien mastiquer permet de réduire les aliments en petits morceaux, facilitant l’action des enzymes digestives et améliorant l’absorption des nutriments."
+      "question": "Quels acides gras, présents dans les poissons gras et certaines huiles végétales, sont bénéfiques pour le cœur ?",
+      "answers": [
+        "Les acides gras trans industriels",
+        "Les acides gras saturés",
+        "Les acides gras oméga-3",
+        "Les acides gras oméga-6 oxydés"
+      ],
+      "correctIndex": 2,
+      "explanation": "Les acides gras oméga-3 (EPA, DHA et ALA) sont des acides gras polyinsaturés essentiels que le corps ne peut pas synthétiser en quantité suffisante. Les poissons gras (sardines, maquereau, saumon) en sont les meilleures sources sous forme EPA/DHA. L'huile de lin, les noix et les graines de chia fournissent de l'ALA (précurseur). Les oméga-3 contribuent à réduire les triglycérides sanguins, à soutenir le fonctionnement cérébral et à réduire l'inflammation."
     },
     {
       "id": "20",
-      "question": "Pourquoi le corps a-t-il besoin d’énergie ?",
-      "answers": ["Changer les yeux", "Supprimer les vitamines", "Éviter de boire", "Faire fonctionner le corps"],
-      "correctIndex": 3,
-      "explanation": "Le corps utilise l’énergie pour toutes ses fonctions vitales : respirer, faire battre le cœur, digérer, maintenir la température corporelle et permettre les mouvements."
+      "question": "Quelle est la différence principale entre les sucres naturellement présents dans les fruits et les sucres ajoutés industriels ?",
+      "answers": [
+        "Les sucres des fruits sont absorbés plus vite",
+        "Les sucres ajoutés apportent plus de vitamines",
+        "Les fibres ralentissent l'absorption du fructose",
+        "Les sucres ajoutés et naturels ont le même effet"
+      ],
+      "correctIndex": 2,
+      "explanation": "Dans un fruit entier, le fructose est associé à des fibres, de l'eau, des vitamines et des minéraux. Les fibres ralentissent l'absorption du sucre et contribuent à limiter la hausse de la glycémie. Le jus de fruit, ayant perdu une grande partie de ses fibres, a un index glycémique généralement plus élevé que le fruit entier. Les sucres ajoutés (saccharose, sirop de glucose-fructose) dans les produits industriels ne s'accompagnent d'aucun micronutriment ; leur impact métabolique dépend toutefois de la quantité consommée et du contexte alimentaire global."
     }
   ]
 }

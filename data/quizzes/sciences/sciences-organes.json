@@ -2,7 +2,7 @@
   "slug": "quiz-sciences-organes-reconnaitre",
   "title": "Quiz Sciences - Saurez-vous reconnaître les organes du corps humain ?",
   "description": "Teste tes connaissances sur les organes du corps humain et leurs fonctions essentielles.",
-  "descriptionSeo": "Ce quiz de sciences de 20 questions explore les organes du corps humain et leurs fonctions essentielles. Cœur, cerveau, poumons, foie, reins ou système digestif : révisez les bases de l’anatomie et comprenez le rôle de chaque organe. Clair et pédagogique, ce quiz permet d’apprendre facilement comment fonctionne le corps humain et de renforcer ses connaissances en biologie au quotidien.",
+  "descriptionSeo": "Ce quiz de sciences de 20 questions explore les organes du corps humain et leurs fonctions essentielles. Cœur, cerveau, poumons, foie, reins ou système digestif : révisez les bases de l'anatomie et comprenez le rôle de chaque organe. Clair et pédagogique, ce quiz permet d'apprendre facilement comment fonctionne le corps humain et de renforcer ses connaissances en biologie au quotidien.",
   "category": {
     "name": "Sciences",
     "slug": "sciences"
@@ -19,142 +19,242 @@
     {
       "id": "1",
       "question": "Quel organe pompe le sang dans tout le corps ?",
-      "answers": ["Le foie", "Le cœur", "Le cerveau", "Les poumons"],
+      "answers": [
+        "La rate",
+        "Le cœur",
+        "Le péricarde",
+        "La vésicule biliaire"
+      ],
       "correctIndex": 1,
-      "explanation": "Le cœur fonctionne comme une pompe musculaire composée de quatre cavités. Il propulse le sang oxygéné vers les organes et récupère le sang chargé en dioxyde de carbone, assurant ainsi la circulation continue dans tout le corps."
+      "explanation": "Le cœur est un muscle creux composé de quatre cavités (deux oreillettes, deux ventricules). Il bat environ 70 fois par minute au repos et propulse près de 5 litres de sang par minute. Le ventricule gauche envoie le sang oxygéné vers les organes ; le ventricule droit envoie le sang chargé en CO₂ vers les poumons."
     },
     {
       "id": "2",
-      "question": "Quel organe permet de respirer et d’échanger les gaz ?",
-      "answers": ["Les reins", "Le foie", "L’estomac", "Les poumons"],
+      "question": "Quel organe permet d'échanger l'oxygène et le dioxyde de carbone avec le sang ?",
+      "answers": [
+        "Le diaphragme",
+        "La trachée",
+        "La plèvre",
+        "Les poumons"
+      ],
       "correctIndex": 3,
-      "explanation": "Les poumons contiennent des millions d’alvéoles où se produisent les échanges gazeux : l’oxygène passe dans le sang et le dioxyde de carbone est expulsé. Ce processus est essentiel à la production d’énergie dans les cellules."
+      "explanation": "Les poumons contiennent environ 300 millions d'alvéoles, portant leur surface d'échange à environ 70 m². L'oxygène traverse la membrane alvéolaire pour passer dans le sang, tandis que le dioxyde de carbone suit le chemin inverse pour être expiré. Ce processus se produit environ 15 000 fois par jour."
     },
     {
       "id": "3",
-      "question": "Quel organe contrôle les pensées et les mouvements ?",
-      "answers": ["Les muscles", "Le foie", "Le cerveau", "Le cœur"],
+      "question": "Quel organe contrôle les pensées, les émotions et les mouvements ?",
+      "answers": [
+        "La moelle épinière",
+        "Le tronc cérébral",
+        "Le cerveau",
+        "Le thalamus"
+      ],
       "correctIndex": 2,
-      "explanation": "Le cerveau est le centre de commande du système nerveux. Il traite les informations sensorielles, envoie des ordres aux muscles et permet des fonctions complexes comme la mémoire, le langage et la prise de décision."
+      "explanation": "Le cerveau (environ 1,4 kg chez l'adulte) est le centre de commande du système nerveux central. Certaines fonctions sont tendanciellement localisées : le cortex frontal est impliqué dans la planification et la prise de décision, le lobe temporal dans le langage et la mémoire, le lobe pariétal dans les perceptions spatiales. Ces localisations sont toutefois relatives et schématiques : la plupart des fonctions complexes mobilisent des réseaux distribués."
     },
     {
       "id": "4",
-      "question": "Quel organe filtre le sang et produit l’urine ?",
-      "answers": ["Les reins", "Le foie", "L’intestin", "Les poumons"],
+      "question": "Quel organe filtre le sang et produit l'urine ?",
+      "answers": [
+        "Les reins",
+        "La vessie",
+        "Les uretères",
+        "La prostate"
+      ],
       "correctIndex": 0,
-      "explanation": "Les reins filtrent le sang grâce à des structures appelées néphrons. Ils éliminent les déchets comme l’urée et régulent l’équilibre en eau, en sels minéraux et en pH du corps."
+      "explanation": "Chaque rein contient environ 1 million de néphrons qui filtrent le sang en permanence. Ensemble, ils produisent environ 150 à 180 litres de filtrat par jour, dont la grande majorité est réabsorbée, aboutissant à 1 à 2 litres d'urine. Ils régulent aussi la pression artérielle (via la rénine) et la production de globules rouges (via l'érythropoïétine)."
     },
     {
       "id": "5",
-      "question": "Quel organe est principalement responsable de la digestion des aliments ?",
-      "answers": ["Le cerveau", "Les poumons", "L’estomac", "Le cœur"],
+      "question": "Quel organe mélange les aliments avec des sucs acides pour commencer la digestion ?",
+      "answers": [
+        "L'œsophage",
+        "Le duodénum",
+        "L'estomac",
+        "Le côlon"
+      ],
       "correctIndex": 2,
-      "explanation": "L’estomac mélange les aliments avec des sucs gastriques acides contenant des enzymes. Cela permet de commencer la digestion chimique, notamment des protéines, avant leur passage dans l’intestin."
+      "explanation": "L'estomac mélange les aliments avec des sucs gastriques dont le pH est d'environ 1,5 à 3,5 — aussi acide que du jus de citron concentré. Cette acidité, combinée à la pepsine (enzyme protéolytique), amorce la digestion des protéines. Le bol alimentaire y séjourne 2 à 4 heures avant de passer dans le duodénum."
     },
     {
       "id": "6",
-      "question": "Quel organe produit la bile et aide à digérer les graisses ?",
-      "answers": ["Le pancréas", "Les reins", "L’estomac", "Le foie"],
+      "question": "Quel organe produit la bile pour aider à digérer les graisses ?",
+      "answers": [
+        "Le pancréas",
+        "La vésicule biliaire",
+        "L'intestin grêle",
+        "Le foie"
+      ],
       "correctIndex": 3,
-      "explanation": "Le foie produit la bile, qui est stockée dans la vésicule biliaire. Cette substance émulsifie les graisses, facilitant leur digestion et leur absorption dans l’intestin."
+      "explanation": "Le foie produit environ 600 à 1 000 ml de bile par jour. La bile émulsifie les graisses — c'est-à-dire qu'elle les fragmente en gouttelettes plus fines — puis facilite la formation de micelles permettant leur absorption intestinale. Ce processus est distinct de l'action des lipases pancréatiques, qui hydrolysent chimiquement les triglycérides. Le foie assure aussi plus de 500 fonctions métaboliques : détoxification, synthèse des protéines plasmatiques, stockage du glycogène."
     },
     {
       "id": "7",
-      "question": "Quel organe absorbe la majorité des nutriments ?",
-      "answers": ["Le foie", "Le cœur", "Les poumons", "L’intestin grêle"],
+      "question": "Quel organe absorbe la majorité des nutriments après la digestion ?",
+      "answers": [
+        "Le côlon",
+        "L'estomac",
+        "Le rectum",
+        "L'intestin grêle"
+      ],
       "correctIndex": 3,
-      "explanation": "L’intestin grêle possède une surface très étendue grâce aux villosités. Cela permet une absorption efficace des nutriments (glucides, lipides, protéines) dans le sang."
+      "explanation": "L'intestin grêle (6 à 7 mètres de long) possède une surface d'absorption estimée à environ 30 m² grâce aux plis, villosités et microvillosités. Glucides, lipides et protéines y sont absorbés après digestion enzymatique. Le transit dans l'intestin grêle dure environ 2 à 6 heures."
     },
     {
       "id": "8",
-      "question": "Quel organe est responsable de l’équilibre et de la coordination ?",
-      "answers": ["Le cœur", "Les reins", "Le cerveau (cervelet)", "Le foie"],
-      "correctIndex": 2,
-      "explanation": "Le cervelet, situé à l’arrière du cerveau, coordonne les mouvements et maintient l’équilibre. Il ajuste en permanence les actions musculaires pour des gestes précis."
+      "question": "Quel organe transmet les signaux nerveux entre le cerveau et le reste du corps ?",
+      "answers": [
+        "La moelle épinière",
+        "L'hypothalamus",
+        "Le cervelet",
+        "Le lobe occipital"
+      ],
+      "correctIndex": 0,
+      "explanation": "La moelle épinière est un cordon nerveux d'environ 45 cm logé dans la colonne vertébrale. Elle relaie les messages moteurs du cerveau vers les muscles et les informations sensorielles des organes vers le cerveau. Elle gère aussi des réflexes rapides (réflexe rotulien) sans passer par le cerveau, pour des réponses en quelques millisecondes."
     },
     {
       "id": "9",
-      "question": "Quel organe stocke l’urine avant son élimination ?",
-      "answers": ["Le foie", "La vessie", "Les reins", "L’intestin"],
+      "question": "Quel organe stocke l'urine avant son élimination ?",
+      "answers": [
+        "Les uretères",
+        "La vessie",
+        "L'urètre",
+        "Le bassinet"
+      ],
       "correctIndex": 1,
-      "explanation": "La vessie est un organe musculaire extensible qui stocke l’urine. Lorsqu’elle est pleine, des signaux nerveux déclenchent le besoin d’uriner."
+      "explanation": "La vessie est un organe musculaire creux (muscle détrusor) pouvant contenir 300 à 500 ml d'urine. Des récepteurs de tension dans sa paroi déclenchent le besoin d'uriner à partir d'environ 150-200 ml. La miction est contrôlée par le système nerveux autonome et le sphincter externe volontaire."
     },
     {
       "id": "10",
-      "question": "Quel organe régule la glycémie en produisant de l’insuline ?",
-      "answers": ["Le cœur", "Les poumons", "Le pancréas", "Le foie"],
+      "question": "Quel organe régule la glycémie en produisant de l'insuline et du glucagon ?",
+      "answers": [
+        "Les surrénales",
+        "La thyroïde",
+        "Le pancréas",
+        "L'hypophyse"
+      ],
       "correctIndex": 2,
-      "explanation": "Le pancréas sécrète l’insuline, une hormone qui permet aux cellules d’absorber le glucose. Cela maintient un taux de sucre stable dans le sang."
+      "explanation": "Le pancréas endocrine (îlots de Langerhans) sécrète l'insuline (cellules bêta) qui fait baisser la glycémie, et le glucagon (cellules alpha) qui la fait monter. Ce duo maintient la glycémie dans une plage étroite, généralement entre 0,7 et 1,1 g/L à jeun chez un adulte sain. Le pancréas exocrine produit aussi 1,5 à 2 litres de suc pancréatique par jour contenant des enzymes digestives."
     },
     {
       "id": "11",
-      "question": "Quel organe protège le corps et régule la température ?",
-      "answers": ["Le cerveau", "La peau", "Le cœur", "Le foie"],
+      "question": "Quel organe constitue la première barrière contre les microbes et régule la température ?",
+      "answers": [
+        "Le système lymphatique",
+        "La peau",
+        "L'épiderme",
+        "Les muqueuses"
+      ],
       "correctIndex": 1,
-      "explanation": "La peau agit comme une barrière contre les microbes et les agressions. Elle régule aussi la température grâce à la transpiration et à la circulation sanguine."
+      "explanation": "La peau est le plus grand organe du corps (environ 2 m², 4 à 5 kg). Elle empêche l'entrée des agents pathogènes grâce à sa couche cornée imperméable, régule la température par la transpiration et la vasodilatation, et synthétise la vitamine D sous l'effet des UV. Elle contient aussi des récepteurs tactiles, thermiques et nociceptifs."
     },
     {
       "id": "12",
-      "question": "Quel organe permet de voir ?",
-      "answers": ["Le nez", "L’oreille", "La peau", "L’œil"],
-      "correctIndex": 3,
-      "explanation": "L’œil capte la lumière grâce à la rétine, qui transforme les signaux lumineux en messages nerveux envoyés au cerveau pour former des images."
+      "question": "Quel organe capte la lumière et transmet les images au cerveau ?",
+      "answers": [
+        "L'œil",
+        "Le nerf optique",
+        "La rétine seule",
+        "Le corps ciliaire"
+      ],
+      "correctIndex": 0,
+      "explanation": "L'œil focalise la lumière sur la rétine grâce au cristallin. La rétine contient environ 125 millions de photorécepteurs (120 M bâtonnets pour la vision en faible lumière, 6 M cônes pour les couleurs). Le nerf optique transmet les signaux au cortex visuel primaire (lobe occipital), où s'effectue le traitement de l'image — l'œil capte donc la lumière, mais c'est le cerveau qui construit la perception visuelle."
     },
     {
       "id": "13",
-      "question": "Quel organe permet d’entendre ?",
-      "answers": ["L’oreille", "Le nez", "L’œil", "La bouche"],
+      "question": "Quel tissu rigide soutient le corps et protège les organes internes ?",
+      "answers": [
+        "Les os",
+        "Les tendons",
+        "Les cartilages",
+        "Les ligaments"
+      ],
       "correctIndex": 0,
-      "explanation": "L’oreille transforme les vibrations sonores en signaux nerveux. L’oreille interne joue aussi un rôle clé dans l’équilibre."
+      "explanation": "Le squelette humain adulte compte 206 os. Ils assurent le soutien mécanique, protègent les organes vitaux (crâne/cerveau, cage thoracique/cœur-poumons), servent de leviers pour les muscles et hébergent la moelle osseuse rouge (production de cellules sanguines). Les os sont aussi un réservoir de calcium et de phosphore."
     },
     {
       "id": "14",
-      "question": "Quel organe est impliqué dans l’odorat ?",
-      "answers": ["La peau", "Le nez", "L’œil", "L’oreille"],
+      "question": "Quel organe est impliqué dans la détection des odeurs ?",
+      "answers": [
+        "La muqueuse nasale",
+        "Le nez",
+        "Les sinus",
+        "Le bulbe olfactif"
+      ],
       "correctIndex": 1,
-      "explanation": "Le nez contient des récepteurs olfactifs capables de détecter des molécules odorantes et d’envoyer des signaux au cerveau."
+      "explanation": "L'odorat repose sur les récepteurs olfactifs situés dans la muqueuse olfactive, une zone spécialisée de l'épithélium nasal d'environ 5 cm², nichée en haut des fosses nasales. Les molécules odorantes s'y fixent et déclenchent des signaux nerveux transmis directement au bulbe olfactif, puis au cortex limbique, sans relais thalamique — ce qui explique le lien fort entre odeurs et mémoire émotionnelle."
     },
     {
       "id": "15",
-      "question": "Quel organe permet de goûter ?",
-      "answers": ["Le nez", "La peau", "La langue", "L’œil"],
+      "question": "Quel organe permet de goûter les aliments ?",
+      "answers": [
+        "Le palais",
+        "La muqueuse buccale",
+        "La langue",
+        "La luette"
+      ],
       "correctIndex": 2,
-      "explanation": "La langue possède des papilles gustatives qui détectent les saveurs (sucré, salé, acide, amer, umami) et transmettent l’information au cerveau."
+      "explanation": "La langue porte des papilles (caliciformes, fongiformes, foliées) qui hébergent les bourgeons gustatifs. On en dénombre plusieurs milliers au total, répartis aussi sur l'épiglotte et la face interne des joues. Chaque bourgeon contient des cellules réceptrices qui détectent cinq saveurs fondamentales : sucré, salé, acide, amer et umami (glutamate). Ces informations sont transmises au cerveau via les nerfs facial (VII) et glossopharyngien (IX)."
     },
     {
       "id": "16",
-      "question": "Quel organe transporte le sang dans tout le corps ?",
-      "answers": ["Les os", "Les muscles", "La peau", "Les vaisseaux sanguins"],
+      "question": "Quel réseau d'organes transporte le sang dans tout le corps ?",
+      "answers": [
+        "Le système nerveux périphérique",
+        "Le système lymphatique",
+        "Le tissu conjonctif",
+        "Les vaisseaux sanguins"
+      ],
       "correctIndex": 3,
-      "explanation": "Les vaisseaux sanguins (artères, veines, capillaires) forment un réseau qui distribue l’oxygène et les nutriments à toutes les cellules."
+      "explanation": "Le réseau vasculaire (artères, veines, capillaires) est souvent estimé à environ 100 000 km chez l'adulte, bien que ce chiffre reste difficile à vérifier précisément. Les artères transportent le sang du cœur vers les organes, les veines le ramènent vers le cœur. Cette règle s'applique aussi aux vaisseaux pulmonaires : l'artère pulmonaire quitte le cœur vers les poumons, et la veine pulmonaire revient des poumons vers le cœur — seule leur teneur en oxygène diffère du cas général (l'artère pulmonaire transporte du sang pauvre en oxygène, la veine pulmonaire du sang oxygéné). Les capillaires (7 à 10 µm de diamètre) permettent les échanges gazeux et nutritifs avec les cellules."
     },
     {
       "id": "17",
-      "question": "Quel organe est le plus grand du corps humain ?",
-      "answers": ["Le foie", "La peau", "Le cerveau", "Les poumons"],
-      "correctIndex": 1,
-      "explanation": "La peau couvre tout le corps et représente une grande surface. Elle joue un rôle dans la protection, la sensation et la régulation thermique."
+      "question": "Quel organe endocrine régule le métabolisme en produisant des hormones thyroïdiennes ?",
+      "answers": [
+        "Les glandes surrénales",
+        "L'hypophyse",
+        "La thyroïde",
+        "Le pancréas"
+      ],
+      "correctIndex": 2,
+      "explanation": "La thyroïde (en forme de papillon à la base du cou) produit les hormones T3 (triiodothyronine) et T4 (thyroxine) qui régulent le métabolisme basal, la fréquence cardiaque, la croissance et le développement neurologique. Un dysfonctionnement entraîne l'hypothyroïdie (ralentissement) ou l'hyperthyroïdie (accélération), deux troubles parmi les plus fréquents en endocrinologie."
     },
     {
       "id": "18",
-      "question": "Quel organe produit les globules rouges ?",
-      "answers": ["Le cœur", "Le foie", "Les poumons", "La moelle osseuse"],
+      "question": "Quel organe produit les globules rouges, blancs et les plaquettes ?",
+      "answers": [
+        "La rate",
+        "Le thymus",
+        "Les ganglions lymphatiques",
+        "La moelle osseuse"
+      ],
       "correctIndex": 3,
-      "explanation": "La moelle osseuse fabrique les cellules sanguines. Les globules rouges transportent l’oxygène grâce à une protéine appelée hémoglobine."
+      "explanation": "La moelle osseuse rouge (présente dans les os plats et la tête des os longs) est le siège de l'hématopoïèse. Elle produit en permanence des globules rouges, des globules blancs et des plaquettes en quantités considérables — les estimations varient selon les sources et les conditions physiologiques. Les globules rouges vivent environ 120 jours avant d'être recyclés par la rate."
     },
     {
       "id": "19",
-      "question": "Quel organe aide à éliminer les toxines du sang ?",
-      "answers": ["Le cœur", "Les poumons", "L’estomac", "Le foie"],
-      "correctIndex": 3,
-      "explanation": "Le foie transforme les substances toxiques en composés moins dangereux. Il joue aussi un rôle clé dans le métabolisme et le stockage de nutriments."
+      "question": "Quel réseau d'organes joue un rôle clé dans la défense immunitaire et le drainage des liquides ?",
+      "answers": [
+        "Le système lymphatique",
+        "Le système digestif",
+        "Le système endocrinien",
+        "Le système nerveux autonome"
+      ],
+      "correctIndex": 0,
+      "explanation": "Le système lymphatique comprend les ganglions lymphatiques, la rate, le thymus, les amygdales et les vaisseaux lymphatiques. Il draine la lymphe vers le sang, filtre les agents pathogènes dans les ganglions et participe à l'immunité adaptative. Les lymphocytes B et T sont produits dans la moelle osseuse ; les lymphocytes T migrent ensuite vers le thymus pour y achever leur maturation, avant d'être activés dans les organes lymphoïdes secondaires (ganglions, rate) lors d'une infection."
     },
-{
-  "id": "20",
-  "question": "Quel organe joue un rôle essentiel dans la défense du corps contre les infections ?",
-  "answers": ["Le cœur", "La rate", "Les poumons", "L’estomac"],
-  "correctIndex": 1,
-  "explanation": "La rate fait partie du système immunitaire. Elle filtre le sang, élimine les cellules endommagées et aide à combattre les infections en produisant et en activant certaines cellules immunitaires."
-}
+    {
+      "id": "20",
+      "question": "Quel organe filtre le sang, élimine les globules rouges vieillis et participe à l'immunité ?",
+      "answers": [
+        "Le thymus",
+        "La rate",
+        "Les ganglions",
+        "La moelle rouge"
+      ],
+      "correctIndex": 1,
+      "explanation": "La rate (environ 150 g) filtre le sang en éliminant les globules rouges âgés ou endommagés : le fer de l'hémoglobine est récupéré et renvoyé vers la moelle osseuse, tandis que la partie hème restante est transformée en bilirubine, exportée vers le foie. Elle stocke un tiers des plaquettes corporelles. Une splénectomie augmente le risque d'infections bactériennes graves, notamment à pneumocoques."
+    }
   ]
 }

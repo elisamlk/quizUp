@@ -19,142 +19,242 @@
     {
       "id": "1",
       "question": "Comment appelle-t-on le chemin suivi par un objet en mouvement ?",
-      "answers": ["La trajectoire", "La masse", "La pression", "La résistance"],
-      "correctIndex": 0,
-      "explanation": "La trajectoire correspond à l’ensemble des positions occupées par un objet au cours de son mouvement. Elle peut être droite, courbe ou circulaire."
+      "answers": [
+        "La résistance",
+        "La masse",
+        "La pression",
+        "La trajectoire"
+      ],
+      "correctIndex": 3,
+      "explanation": "La trajectoire est l'ensemble des positions successives occupées par un objet au cours de son mouvement. Elle peut être rectiligne (ligne droite), courbe ou circulaire. Pour étudier une trajectoire, il faut choisir un référentiel : la même personne peut avoir une trajectoire rectiligne vue d'un quai de gare, et une trajectoire courbe vue d'un avion."
     },
     {
       "id": "2",
-      "question": "Quel mouvement décrit un objet qui avance en ligne droite ?",
-      "answers": ["Un mouvement circulaire", "Un mouvement rectiligne", "Un mouvement aléatoire", "Un mouvement oscillant"],
-      "correctIndex": 1,
-      "explanation": "Un mouvement rectiligne se fait selon une ligne droite. Par exemple, une voiture roulant sur une route parfaitement droite suit un mouvement rectiligne."
+      "question": "Que décrit la deuxième loi de Newton (relation fondamentale de la dynamique) ?",
+      "answers": [
+        "La force = masse × accélération (F = ma)",
+        "La vitesse est proportionnelle à la distance",
+        "Le poids = masse divisée par la gravité",
+        "L'énergie est conservée dans tout système isolé"
+      ],
+      "correctIndex": 0,
+      "explanation": "La deuxième loi de Newton (F = ma) énonce que la force résultante appliquée à un objet est égale à sa masse multipliée par l'accélération qu'il subit. Plus la masse est grande, plus il faut de force pour l'accélérer. Par exemple, pousser un vélo demande moins d'effort que pousser une voiture à la même accélération. Cette loi est à la base de toute la mécanique classique."
     },
     {
       "id": "3",
-      "question": "Que signifie dire qu’un objet est immobile ?",
-      "answers": ["Il change de direction", "Il accélère", "Sa position ne change pas par rapport à un repère", "Il est toujours sans force"],
+      "question": "Qu'est-ce que cela signifie qu'un objet est immobile par rapport à un repère ?",
+      "answers": [
+        "Il change de direction à chaque instant",
+        "Il accélère sans changer de position",
+        "Sa position ne change pas par rapport à ce repère",
+        "Aucune force ne s'applique sur lui"
+      ],
       "correctIndex": 2,
-      "explanation": "Un objet est immobile seulement par rapport à un repère choisi. Un passager assis est immobile par rapport au bus, mais en mouvement par rapport à la route."
+      "explanation": "Un objet est dit immobile par rapport à un repère donné quand sa position ne varie pas dans ce repère. Attention : des forces peuvent très bien s'appliquer sur un objet immobile et se compenser — comme une table qui reçoit le poids d'un livre et exerce une réaction égale et opposée. L'immobilité est toujours relative à un référentiel choisi."
     },
     {
       "id": "4",
-      "question": "Quelle grandeur indique si un objet se déplace rapidement ou lentement ?",
-      "answers": ["La masse", "Le volume", "La température", "La vitesse"],
+      "question": "Quelle grandeur exprime la rapidité d'un déplacement ?",
+      "answers": [
+        "La masse",
+        "Le volume",
+        "La température",
+        "La vitesse"
+      ],
       "correctIndex": 3,
-      "explanation": "La vitesse indique la distance parcourue pendant une durée donnée. Plus un objet parcourt une grande distance en peu de temps, plus sa vitesse est élevée."
+      "explanation": "La vitesse caractérise la rapidité d'un déplacement. Elle représente la distance parcourue par unité de temps. Son unité SI est le mètre par seconde (m/s). Un cycliste qui roule à 10 m/s avance de 10 mètres chaque seconde. On distingue la vitesse moyenne (sur un trajet) et la vitesse instantanée (à un instant précis, comme indiquée par le compteur d'une voiture)."
     },
     {
       "id": "5",
-      "question": "Quelle formule permet de calculer une vitesse moyenne ?",
-      "answers": ["Vitesse = distance ÷ temps", "Vitesse = masse × volume", "Vitesse = force ÷ surface", "Vitesse = énergie × temps"],
-      "correctIndex": 0,
-      "explanation": "La vitesse moyenne se calcule en divisant la distance parcourue par la durée du déplacement. Il faut toujours utiliser des unités cohérentes."
+      "question": "Quelle formule permet de calculer la vitesse moyenne ?",
+      "answers": [
+        "Vitesse = masse × volume",
+        "Vitesse = distance ÷ temps",
+        "Vitesse = force ÷ surface",
+        "Vitesse = énergie × temps"
+      ],
+      "correctIndex": 1,
+      "explanation": "La vitesse moyenne se calcule en divisant la distance parcourue (en mètres) par le temps du trajet (en secondes), ce qui donne une vitesse en m/s. Par exemple, un objet parcourant 100 m en 10 s a une vitesse moyenne de 10 m/s. Pour convertir en km/h, on multiplie par 3,6 : 10 m/s = 36 km/h. Les autres formules proposées correspondent à d'autres grandeurs physiques."
     },
     {
       "id": "6",
-      "question": "Qu’est-ce qu’une force peut faire à un objet ?",
-      "answers": ["Changer sa couleur uniquement", "Modifier son mouvement ou le déformer", "Supprimer sa masse", "Créer de la matière"],
-      "correctIndex": 1,
-      "explanation": "Une force peut mettre un objet en mouvement, le ralentir, changer sa direction ou le déformer. Par exemple, tirer sur un ressort le déforme."
+      "question": "Qu'est-ce qu'une force peut faire à un objet ?",
+      "answers": [
+        "L'accélérer uniquement dans sa direction initiale",
+        "Augmenter ou diminuer sa masse",
+        "Modifier son mouvement ou le déformer",
+        "Modifier sa composition chimique"
+      ],
+      "correctIndex": 2,
+      "explanation": "Une force peut mettre un objet en mouvement, le ralentir, changer sa direction ou le déformer. Tirer sur un ressort le déforme ; frapper une balle la met en mouvement. Les forces ne changent pas la masse ni la composition chimique d'un objet. En physique, une force est caractérisée par son point d'application, sa direction, son sens et son intensité (en newtons)."
     },
     {
       "id": "7",
-      "question": "Quelle unité mesure une force dans le système international ?",
-      "answers": ["Le joule", "Le watt", "Le newton", "Le volt"],
-      "correctIndex": 2,
-      "explanation": "Une force se mesure en newtons, notés N. Cette unité porte le nom d’Isaac Newton, connu pour ses travaux sur le mouvement et la gravitation."
+      "question": "Dans quel unité du système international mesure-t-on une force ?",
+      "answers": [
+        "Le newton",
+        "Le watt",
+        "Le joule",
+        "Le volt"
+      ],
+      "correctIndex": 0,
+      "explanation": "La force se mesure en newtons (N), en hommage à Isaac Newton. Un newton correspond à la force nécessaire pour accélérer une masse de 1 kg à 1 m/s². Sur Terre, le poids d'un objet de 100 grammes est d'environ 1 newton. Le joule mesure l'énergie, le watt la puissance et le volt la tension électrique."
     },
     {
       "id": "8",
-      "question": "Comment représente-t-on souvent une force sur un schéma ?",
-      "answers": ["Par un cercle", "Par une couleur", "Par une formule uniquement", "Par une flèche"],
-      "correctIndex": 3,
-      "explanation": "Une force est représentée par une flèche qui indique son point d’application, sa direction, son sens et parfois son intensité."
+      "question": "Qu'énonce le principe d'inertie (première loi de Newton) ?",
+      "answers": [
+        "Un objet ne peut pas maintenir son mouvement seul",
+        "La force est proportionnelle à la masse au carré",
+        "Un objet garde son état si les forces s'annulent",
+        "Le poids augmente avec la vitesse"
+      ],
+      "correctIndex": 2,
+      "explanation": "Le principe d'inertie énonce qu'un objet reste au repos ou en mouvement rectiligne uniforme si la somme des forces qui s'exercent sur lui est nulle (forces qui se compensent). Dans l'espace, loin de toute gravité et sans frottement, une sonde spatiale peut continuer indéfiniment à la même vitesse sans aucun carburant. Sur Terre, les frottements brisent souvent cet équilibre."
     },
     {
       "id": "9",
-      "question": "Quelle force s’oppose généralement au mouvement entre deux surfaces en contact ?",
-      "answers": ["Les frottements", "La poussée", "La tension", "La luminosité"],
-      "correctIndex": 0,
-      "explanation": "Les frottements s’opposent souvent au mouvement. Ils expliquent par exemple pourquoi un objet lancé sur le sol finit par ralentir."
+      "question": "Quelle force s'oppose généralement au mouvement entre deux surfaces en contact ?",
+      "answers": [
+        "La poussée d'Archimède",
+        "Les forces de frottement",
+        "La tension superficielle",
+        "La force électrique de surface"
+      ],
+      "correctIndex": 1,
+      "explanation": "Les forces de frottement s'opposent au mouvement relatif entre deux surfaces en contact. Elles transforment l'énergie mécanique en chaleur. Un objet lancé sur le sol ralentit et s'arrête à cause des frottements. Ces forces sont parfois utiles (freins d'une voiture, semelles de chaussures sur la route) et parfois gênantes (résistance d'un moteur, usure)."
     },
     {
       "id": "10",
-      "question": "Qu’est-ce que le poids d’un objet ?",
-      "answers": ["Sa quantité de matière", "La force d’attraction exercée par un astre", "Son volume", "Sa température"],
+      "question": "Qu'est-ce que le poids d'un objet en physique ?",
+      "answers": [
+        "Sa quantité de matière mesurée en kilogrammes",
+        "La force gravitationnelle exercée par un astre",
+        "Son volume en litres ou en cm³",
+        "Sa résistance à la déformation"
+      ],
       "correctIndex": 1,
-      "explanation": "Le poids est une force due à l’attraction gravitationnelle d’un astre. Sur Terre, il attire les objets vers le centre de la planète."
+      "explanation": "Le poids est une force gravitationnelle, exprimée en newtons (N). Sur Terre, il est calculé par P = m × g, où g ≈ 9,81 m/s² (accélération de la pesanteur). Un objet de 1 kg a un poids d'environ 9,81 N sur Terre. Le poids varie selon l'astre : sur la Lune, g ≈ 1,62 m/s², soit environ 6 fois moins qu'au sol. La masse, elle, reste constante."
     },
     {
       "id": "11",
-      "question": "Quelle est l’unité de la masse ?",
-      "answers": ["Le newton", "Le mètre", "Le kilogramme", "La seconde"],
+      "question": "Dans quelle unité exprime-t-on la masse d'un objet ?",
+      "answers": [
+        "Le newton",
+        "Le mètre",
+        "Le kilogramme",
+        "La seconde"
+      ],
       "correctIndex": 2,
-      "explanation": "La masse se mesure en kilogrammes. Contrairement au poids, elle ne dépend pas du lieu : un objet garde la même masse sur Terre et sur la Lune."
+      "explanation": "La masse se mesure en kilogrammes (kg). Elle représente la quantité de matière d'un objet et ne dépend pas du lieu : un astronaute de 80 kg a la même masse sur Terre, sur la Lune ou dans l'espace. En revanche, son poids varie : ~785 N sur Terre, ~130 N sur la Lune, ~0 N en apesanteur. La balance mesure indirectement la masse via le poids."
     },
     {
       "id": "12",
-      "question": "Pourquoi le poids d’un objet est-il plus faible sur la Lune que sur Terre ?",
-      "answers": ["Parce que sa masse disparaît", "Parce qu’il n’y a aucune matière", "Parce qu’il devient plus petit", "Parce que la gravité lunaire est plus faible"],
+      "question": "Pourquoi le poids d'un objet est-il environ 6 fois plus faible sur la Lune que sur Terre ?",
+      "answers": [
+        "Parce que sa masse diminue lors du voyage spatial",
+        "Parce que la Lune n'attire pas les objets du tout",
+        "Parce que l'objet perd de la masse dans l'espace",
+        "La gravité lunaire est environ 6 fois plus faible"
+      ],
       "correctIndex": 3,
-      "explanation": "Le poids dépend de la gravité. Comme la Lune attire moins fortement les objets que la Terre, le poids y est plus faible, même si la masse reste identique."
+      "explanation": "La Lune est moins massive et plus petite que la Terre, donc son champ gravitationnel est plus faible : g_Lune ≈ 1,62 m/s² contre g_Terre ≈ 9,81 m/s², soit un rapport d'environ 6. Un objet de 60 kg pèse ~589 N sur Terre et seulement ~97 N sur la Lune. Sa masse reste 60 kg dans les deux cas. C'est pourquoi les astronautes peuvent sauter si haut sur la Lune."
     },
     {
       "id": "13",
-      "question": "Que signifie accélérer en physique ?",
-      "answers": ["Changer de vitesse", "Rester immobile", "Avoir une masse plus grande", "Suivre toujours une ligne droite"],
+      "question": "Que signifie, en physique, qu'un objet accélère ?",
+      "answers": [
+        "Sa vitesse change en valeur ou en direction",
+        "Il reste immobile dans son référentiel",
+        "Sa masse augmente avec le temps",
+        "Il suit toujours une trajectoire rectiligne"
+      ],
       "correctIndex": 0,
-      "explanation": "Accélérer signifie que la vitesse change. Cela peut vouloir dire aller plus vite, ralentir ou changer de direction."
+      "explanation": "En physique, l'accélération désigne tout changement de la vitesse (en valeur ou en direction). Un objet peut accélérer en allant plus vite, décélérer (parfois appelé décélération), ou changer de direction sans changer de vitesse (comme lors d'un mouvement circulaire uniforme). L'accélération se mesure en m/s² et est causée par une force nette non nulle (F = ma)."
     },
     {
       "id": "14",
-      "question": "Quel objet est en mouvement circulaire ?",
-      "answers": ["Une règle posée sur une table", "Une roue qui tourne", "Un livre fermé", "Une lampe éteinte"],
-      "correctIndex": 1,
-      "explanation": "Un mouvement circulaire suit une trajectoire en cercle. Une roue, une aiguille d’horloge ou une grande roue en sont des exemples."
+      "question": "Lequel de ces exemples décrit un mouvement circulaire ?",
+      "answers": [
+        "Une roue qui tourne sur son axe",
+        "Un train roulant à vitesse constante",
+        "Un livre qui tombe d'une table",
+        "Une balle lancée horizontalement"
+      ],
+      "correctIndex": 0,
+      "explanation": "Un mouvement circulaire suit une trajectoire en cercle. Une roue, une aiguille d'horloge, la Lune autour de la Terre ou un manège sont des exemples. Dans un mouvement circulaire uniforme, la vitesse en valeur reste constante, mais la direction change en permanence. Une force centripète est nécessaire pour maintenir ce mouvement : elle est dirigée vers le centre du cercle."
     },
     {
       "id": "15",
-      "question": "Quand dit-on qu’un mouvement est uniforme ?",
-      "answers": ["Quand l’objet change de forme", "Quand l’objet tombe", "Quand la vitesse reste constante", "Quand la masse augmente"],
-      "correctIndex": 2,
-      "explanation": "Un mouvement est uniforme lorsque la vitesse ne change pas. L’objet parcourt alors des distances égales pendant des durées égales."
+      "question": "Quand dit-on qu'un mouvement rectiligne est uniforme ?",
+      "answers": [
+        "Quand la vitesse reste constante en valeur et sens",
+        "Quand l'objet tombe verticalement",
+        "Quand l'objet accélère de façon régulière",
+        "Quand la trajectoire devient courbe"
+      ],
+      "correctIndex": 0,
+      "explanation": "Un mouvement rectiligne uniforme est un mouvement en ligne droite à vitesse constante. L'objet parcourt des distances égales pendant des durées égales. C'est l'état naturel d'un objet sur lequel aucune force résultante ne s'applique (principe d'inertie). En pratique, ce mouvement idéal est difficile à observer sur Terre à cause des frottements."
     },
     {
       "id": "16",
-      "question": "Quelle force agit sur un parachutiste pendant sa chute, en plus de son poids ?",
-      "answers": ["La force magnétique", "La force électrique", "La poussée d’Archimède uniquement", "La résistance de l’air"],
+      "question": "En plus de son poids, quelle force agit sur un parachutiste en chute ?",
+      "answers": [
+        "La force magnétique terrestre",
+        "La force électrostatique",
+        "La poussée d'Archimède uniquement",
+        "La résistance de l'air"
+      ],
       "correctIndex": 3,
-      "explanation": "L’air exerce une force de résistance qui s’oppose au mouvement du parachutiste. Le parachute augmente cette résistance et ralentit la chute."
+      "explanation": "Lors d'une chute, deux forces principales s'exercent sur le parachutiste : le poids (vers le bas) et la résistance de l'air (vers le haut, s'opposant au mouvement). Quand la résistance de l'air devient égale au poids, l'accélération est nulle et le parachutiste atteint sa vitesse limite (environ 200 km/h sans parachute ouvert, 20 km/h avec parachute ouvert). La force magnétique et la force électrostatique sont négligeables dans ce contexte."
     },
     {
       "id": "17",
-      "question": "Que se passe-t-il si les forces qui agissent sur un objet se compensent ?",
-      "answers": ["Son mouvement ne change pas", "Il explose", "Sa masse devient nulle", "Il disparaît"],
-      "correctIndex": 0,
-      "explanation": "Si les forces se compensent, l’objet reste au repos ou continue son mouvement rectiligne uniforme. Son état de mouvement ne change pas."
+      "question": "Qu'énonce la troisième loi de Newton, dite loi d'action-réaction ?",
+      "answers": [
+        "Une force agit toujours dans le sens du mouvement",
+        "Toute action génère une réaction égale et opposée",
+        "La masse augmente avec la vitesse de l'objet",
+        "Le poids d'un objet est constant dans l'Univers"
+      ],
+      "correctIndex": 1,
+      "explanation": "La troisième loi de Newton énonce que si un objet A exerce une force sur un objet B, alors B exerce sur A une force égale en intensité et en direction, mais de sens opposé. Par exemple, lorsqu'on nage, on pousse l'eau vers l'arrière et l'eau nous pousse vers l'avant. Le recul d'une fusée fonctionne selon ce même principe : les gaz éjectés vers le bas propulsent la fusée vers le haut."
     },
     {
       "id": "18",
-      "question": "Quel instrument peut mesurer une force ?",
-      "answers": ["Un thermomètre", "Un dynamomètre", "Un chronomètre", "Une éprouvette"],
+      "question": "Quel instrument de laboratoire permet de mesurer une force ?",
+      "answers": [
+        "Un thermomètre",
+        "Un dynamomètre",
+        "Un chronomètre",
+        "Une éprouvette graduée"
+      ],
       "correctIndex": 1,
-      "explanation": "Le dynamomètre mesure une force grâce à la déformation d’un ressort. Il donne généralement une valeur en newtons."
+      "explanation": "Le dynamomètre mesure une force grâce à la déformation d'un ressort : plus la force est grande, plus le ressort s'étire, et plus la valeur lue est élevée. Il affiche une valeur en newtons. C'est l'instrument de base pour mesurer le poids d'un objet ou la tension dans un fil. La balance, elle, mesure indirectement la masse via le poids."
     },
     {
       "id": "19",
-      "question": "Quelle information donne le sens d’une force ?",
-      "answers": ["Le point où la force s’applique", "La valeur de la force", "Vers où la force agit", "La matière de l’objet"],
+      "question": "Quelle caractéristique d'une force indique de quel côté elle agit sur sa droite d'action ?",
+      "answers": [
+        "Son point d'application",
+        "Son intensité (ou valeur)",
+        "Son sens",
+        "La matière de l'objet sur lequel elle s'applique"
+      ],
       "correctIndex": 2,
-      "explanation": "Le sens indique de quel côté la force agit sur sa direction. Par exemple, une force verticale peut être orientée vers le haut ou vers le bas."
+      "explanation": "Une force est entièrement définie par quatre caractéristiques : son point d'application (où elle agit), sa direction (l'axe sur lequel elle agit), son sens (vers quel côté de cet axe) et son intensité (valeur en newtons). Le sens est représenté par la pointe de la flèche sur un schéma : une force vers le haut et une force vers le bas ont la même direction (verticale) mais des sens opposés."
     },
     {
       "id": "20",
-      "question": "Pourquoi une ceinture de sécurité est-elle utile lors d’un freinage brusque ?",
-      "answers": ["Elle augmente la vitesse", "Elle supprime la gravité", "Elle rend la voiture plus légère", "Elle retient le passager qui tend à continuer son mouvement"],
+      "question": "Pourquoi une ceinture de sécurité protège-t-elle lors d'un freinage brutal ?",
+      "answers": [
+        "Elle absorbe l'énergie pour réduire le choc",
+        "Elle empêche le passager de glisser latéralement",
+        "Elle allège le passager pour réduire l'impact",
+        "Elle retient le passager qui tend à continuer"
+      ],
       "correctIndex": 3,
-      "explanation": "Lors d’un freinage, le corps du passager tend à continuer son mouvement vers l’avant par inertie. La ceinture exerce une force qui le retient."
+      "explanation": "Lors d'un freinage brusque, le véhicule ralentit brutalement mais le corps du passager tend à continuer sur sa lancée vers l'avant, par inertie (première loi de Newton). Sans ceinture, le passager peut percuter le tableau de bord ou le pare-brise. La ceinture exerce une force de retenue qui décélère le passager en même temps que le véhicule. En cas de choc frontal, elle peut réduire considérablement le risque de blessure grave."
     }
   ]
 }

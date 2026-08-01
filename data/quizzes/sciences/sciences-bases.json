@@ -18,143 +18,243 @@
   "questions": [
     {
       "id": "1",
-      "question": "Quelle force attire les objets vers la Terre ?",
-      "answers": ["La gravité", "La friction", "La pression", "La tension"],
+      "question": "Quelle force attire les objets vers le centre de la Terre ?",
+      "answers": [
+        "La gravité",
+        "La friction",
+        "La pression atmosphérique",
+        "La tension superficielle"
+      ],
       "correctIndex": 0,
-      "explanation": "La gravité est une force qui attire les objets vers le centre de la Terre."
+      "explanation": "La gravité est une force d'attraction universelle entre toute masse. À la surface de la Terre, elle confère à tout objet une accélération d'environ 9,81 m/s² vers le sol. Elle a été formalisée par Newton en 1687 (F = G × m₁ × m₂ / r²) et expliquée comme courbure de l'espace-temps par Einstein en 1915. La friction, la pression et la tension superficielle sont réelles mais ne sont pas à l'origine de la chute des corps."
     },
     {
       "id": "2",
-      "question": "Quelle unité mesure la vitesse ?",
-      "answers": ["Le kilogramme", "Le mètre par seconde", "Le watt", "Le volt"],
+      "question": "Quelle est l'unité internationale de la vitesse ?",
+      "answers": [
+        "Le kilogramme",
+        "Le mètre par seconde",
+        "Le watt",
+        "Le volt"
+      ],
       "correctIndex": 1,
-      "explanation": "La vitesse s’exprime en mètres par seconde ou en kilomètres par heure."
+      "explanation": "La vitesse s'exprime en mètres par seconde (m/s) dans le Système international d'unités (SI). Le kilomètre par heure (km/h) est aussi courant dans la vie quotidienne : 1 m/s équivaut à 3,6 km/h. Le watt mesure une puissance, le kilogramme une masse et le volt une tension électrique."
     },
     {
       "id": "3",
-      "question": "Qu’est-ce que l’énergie ?",
-      "answers": ["Une force", "Une matière", "La capacité à produire un travail", "Une température"],
+      "question": "En physique, que désigne le terme « énergie » ?",
+      "answers": [
+        "Une force exercée sur un objet",
+        "La quantité de matière d'un système",
+        "La capacité d'un système à effectuer un travail",
+        "Le niveau de chaleur d'un corps"
+      ],
       "correctIndex": 2,
-      "explanation": "L’énergie représente la capacité d’un système à effectuer un travail ou un mouvement."
+      "explanation": "L'énergie est la capacité d'un système à produire un travail, c'est-à-dire à exercer une force sur une certaine distance. Elle se présente sous de nombreuses formes : cinétique, potentielle, thermique, électrique, chimique, nucléaire. Elle se mesure en joules (J) dans le SI. Un kilowatt-heure (kWh), utilisé pour la facturation électrique, équivaut à 3 600 000 joules."
     },
     {
       "id": "4",
-      "question": "Que se passe-t-il lorsqu’un objet accélère ?",
-      "answers": ["Sa masse change", "Il disparaît", "Il devient invisible", "Sa vitesse varie"],
-      "correctIndex": 3,
-      "explanation": "Une accélération correspond à un changement de vitesse, en valeur ou en direction."
+      "question": "Que se passe-t-il lorsqu'un objet subit une accélération ?",
+      "answers": [
+        "Sa masse augmente proportionnellement",
+        "Sa densité change selon la direction",
+        "Sa vitesse change en valeur ou en direction",
+        "Sa température s'élève nécessairement"
+      ],
+      "correctIndex": 2,
+      "explanation": "L'accélération est la variation de vitesse par unité de temps (a = Δv / Δt), exprimée en m/s². Elle peut correspondre à une augmentation ou une diminution de la vitesse, ou à un changement de direction sans variation de la valeur de la vitesse (mouvement circulaire uniforme). Selon la deuxième loi de Newton, la force est égale à la masse multipliée par l'accélération (F = ma)."
     },
     {
       "id": "5",
-      "question": "Quelle forme d’énergie possède un objet en mouvement ?",
-      "answers": ["Énergie cinétique", "Énergie thermique", "Énergie chimique", "Énergie nucléaire"],
+      "question": "Quelle grandeur physique caractérise l'énergie d'un objet en mouvement ?",
+      "answers": [
+        "L'énergie cinétique",
+        "L'énergie thermique",
+        "L'énergie chimique",
+        "L'énergie nucléaire"
+      ],
       "correctIndex": 0,
-      "explanation": "L’énergie cinétique dépend de la masse et de la vitesse de l’objet."
+      "explanation": "L'énergie cinétique (Ec) d'un objet en mouvement se calcule par Ec = ½ × m × v², où m est la masse en kilogrammes et v la vitesse en m/s. Elle varie donc avec le carré de la vitesse : doubler la vitesse multiplie l'énergie cinétique par quatre. C'est pourquoi l'impact d'une voiture à 100 km/h est bien plus destructeur que celui à 50 km/h."
     },
     {
       "id": "6",
       "question": "Que mesure un thermomètre ?",
-      "answers": ["La pression", "La température", "La vitesse", "La masse"],
+      "answers": [
+        "La pression d'un gaz",
+        "La température d'un corps",
+        "La vitesse des particules",
+        "La masse volumique d'un liquide"
+      ],
       "correctIndex": 1,
-      "explanation": "Le thermomètre mesure le niveau d’agitation thermique des particules."
+      "explanation": "La température est une grandeur macroscopique qui reflète l'agitation moyenne des particules d'un système. Plus les molécules s'agitent rapidement, plus la température est élevée. Elle se mesure en degrés Celsius (°C) au quotidien, en kelvins (K) en physique (0 K = −273,15 °C, le zéro absolu). Le thermomètre à mercure, le thermomètre à infrarouge et la sonde thermocouple sont différents instruments de mesure."
     },
     {
       "id": "7",
       "question": "Quelle est la vitesse de la lumière dans le vide ?",
-      "answers": ["300 km/h", "3 000 km/s", "300 000 km/s", "3 km/s"],
-      "correctIndex": 2,
-      "explanation": "La lumière se déplace à environ 300 000 kilomètres par seconde dans le vide."
+      "answers": [
+        "300 km/h",
+        "3 000 km/s",
+        "30 000 km/s",
+        "300 000 km/s"
+      ],
+      "correctIndex": 3,
+      "explanation": "La lumière se propage dans le vide à exactement 299 792 458 m/s, soit environ 300 000 km/s. Cette valeur, notée c, est une constante fondamentale de la physique : aucun objet doté de masse ne peut l'atteindre ou la dépasser selon la relativité restreinte d'Einstein. C'est sur la base de cette vitesse que le mètre est défini depuis 1983."
     },
     {
       "id": "8",
-      "question": "Quel phénomène permet à un objet de flotter dans l’eau ?",
-      "answers": ["La gravité", "La friction", "La tension", "La poussée d’Archimède"],
+      "question": "Quel phénomène permet à un objet de flotter sur un liquide ?",
+      "answers": [
+        "La force de gravité",
+        "La friction de surface",
+        "La tension capillaire",
+        "La poussée d'Archimède"
+      ],
       "correctIndex": 3,
-      "explanation": "Un objet flotte si la poussée vers le haut compense son poids."
+      "explanation": "La poussée d'Archimède est une force verticale vers le haut exercée par un fluide sur tout objet immergé. Elle est égale au poids du fluide déplacé par l'objet. Un objet flotte si cette poussée est supérieure ou égale à son poids, c'est-à-dire si sa densité moyenne est inférieure ou égale à celle du fluide. Un navire en acier flotte parce que sa forme creuse lui donne une densité moyenne inférieure à celle de l'eau."
     },
     {
       "id": "9",
-      "question": "Qu’est-ce que la masse ?",
-      "answers": ["La quantité de matière", "La vitesse", "La chaleur", "La lumière"],
+      "question": "Quelle est la différence entre la masse et le poids d'un objet ?",
+      "answers": [
+        "Masse = quantité de matière ; poids = une force",
+        "La masse varie avec la gravité ; le poids est fixe",
+        "La masse se mesure en newtons ; le poids en kg",
+        "La masse et le poids désignent la même chose"
+      ],
       "correctIndex": 0,
-      "explanation": "La masse représente la quantité de matière contenue dans un objet."
+      "explanation": "La masse (m) est la quantité de matière d'un objet, exprimée en kilogrammes (kg) ; elle ne dépend pas de l'endroit où se trouve l'objet. Le poids (P) est la force gravitationnelle exercée sur cet objet : P = m × g, où g est l'accélération gravitationnelle (9,81 m/s² sur Terre, 1,62 m/s² sur la Lune). Un objet de 10 kg a toujours une masse de 10 kg, mais son poids sur la Lune est six fois plus faible que sur Terre."
     },
     {
       "id": "10",
-      "question": "Quelle unité mesure l’énergie ?",
-      "answers": ["Le newton", "Le joule", "Le mètre", "Le litre"],
+      "question": "Qu'énonce le principe de conservation de l'énergie ?",
+      "answers": [
+        "L'énergie diminue lors de chaque transformation",
+        "L'énergie d'un système isolé reste constante",
+        "L'énergie se crée dans les moteurs thermiques",
+        "L'énergie augmente avec la température"
+      ],
       "correctIndex": 1,
-      "explanation": "Le joule est l’unité utilisée pour mesurer l’énergie."
+      "explanation": "Le principe de conservation de l'énergie est l'un des principes fondamentaux de la physique : dans un système isolé, l'énergie totale reste constante. L'énergie ne se crée pas et ne se détruit pas ; elle se transforme d'une forme en une autre. Par exemple, dans une centrale électrique, l'énergie chimique du charbon se transforme en énergie thermique, puis en énergie mécanique, puis en énergie électrique. À chaque transformation, une partie est dissipée sous forme de chaleur."
     },
     {
       "id": "11",
-      "question": "Qu’est-ce que la force ?",
-      "answers": ["Une vitesse", "Une énergie", "Une interaction qui modifie le mouvement", "Une température"],
+      "question": "En physique, qu'est-ce qu'une force ?",
+      "answers": [
+        "Une vitesse de déplacement",
+        "Une forme d'énergie stockée",
+        "Une interaction modifiant le mouvement d'un objet",
+        "Une propriété thermique d'un matériau"
+      ],
       "correctIndex": 2,
-      "explanation": "Une force peut changer la vitesse ou la direction d’un objet."
+      "explanation": "Une force est une interaction entre deux objets qui peut modifier la vitesse, la direction ou la forme d'un objet. Elle se mesure en newtons (N). D'après la deuxième loi de Newton, la force résultante sur un objet est égale au produit de sa masse par son accélération (F = ma). Les quatre forces fondamentales de la nature sont : la gravité, l'électromagnétisme, la force nucléaire forte et la force nucléaire faible."
     },
     {
       "id": "12",
-      "question": "Quel phénomène explique pourquoi on voit un objet ?",
-      "answers": ["Le son", "La chaleur", "La gravité", "La réflexion de la lumière"],
+      "question": "Quel phénomène physique permet de voir un objet qui n'est pas une source de lumière ?",
+      "answers": [
+        "L'émission de sons",
+        "Le dégagement de chaleur",
+        "La gravité qui courbe la lumière",
+        "La réflexion de la lumière sur sa surface"
+      ],
       "correctIndex": 3,
-      "explanation": "On voit les objets parce qu’ils renvoient la lumière vers nos yeux."
+      "explanation": "On voit les objets non lumineux parce qu'ils réfléchissent une partie de la lumière qu'ils reçoivent vers nos yeux. La couleur perçue dépend des longueurs d'onde réfléchies : un objet rouge absorbe toutes les couleurs sauf le rouge, qu'il renvoie. La réflexion peut être spéculaire (miroir poli) ou diffuse (surface mate). La réfraction, phénomène différent, décrit la déviation de la lumière lors du passage entre deux milieux."
     },
     {
       "id": "13",
-      "question": "Quelle est l’unité de la force ?",
-      "answers": ["Le newton", "Le joule", "Le volt", "Le watt"],
+      "question": "Quelle est l'unité internationale de la force ?",
+      "answers": [
+        "Le newton",
+        "Le joule",
+        "Le volt",
+        "Le pascal"
+      ],
       "correctIndex": 0,
-      "explanation": "Le newton mesure la force dans le système international."
+      "explanation": "Le newton (N) est l'unité SI de la force, nommée en hommage à Isaac Newton. Un newton correspond à la force nécessaire pour accélérer une masse de 1 kg à raison de 1 m/s². Le joule (J) mesure l'énergie ou le travail, le volt (V) la tension électrique et le pascal (Pa) la pression. Sur Terre, le poids d'un objet de 100 grammes est d'environ 1 newton."
     },
     {
       "id": "14",
-      "question": "Que décrit la loi d’inertie ?",
-      "answers": ["Le mouvement des planètes", "La tendance d’un objet à garder son état", "La chaleur", "La lumière"],
+      "question": "Que décrit la première loi de Newton, dite loi d'inertie ?",
+      "answers": [
+        "La trajectoire des planètes autour du Soleil",
+        "Un objet conserve son état sans force extérieure",
+        "La force est proportionnelle à la pression",
+        "La lumière suit toujours une trajectoire droite"
+      ],
       "correctIndex": 1,
-      "explanation": "Un objet reste au repos ou en mouvement uniforme sans force extérieure."
+      "explanation": "La première loi de Newton (principe d'inertie) énonce qu'un objet reste au repos ou en mouvement rectiligne uniforme si la résultante des forces qui s'exercent sur lui est nulle. C'est l'inertie : un objet résiste au changement de son état de mouvement. Dans l'espace, en l'absence de frottement et loin de tout corps massif, une sonde spatiale peut continuer indéfiniment sur sa trajectoire sans carburant."
     },
     {
       "id": "15",
-      "question": "Qu’est-ce que la pression ?",
-      "answers": ["Une vitesse", "Une force", "Une force exercée sur une surface", "Une masse"],
+      "question": "Comment se définit la pression en physique ?",
+      "answers": [
+        "Une vitesse exercée sur une surface",
+        "Une force appliquée sur une surface",
+        "Une force par unité de surface",
+        "Une masse volumique par unité de temps"
+      ],
       "correctIndex": 2,
-      "explanation": "La pression dépend de la force et de la surface sur laquelle elle s’applique."
+      "explanation": "La pression est définie comme la force exercée perpendiculairement par unité de surface (P = F / S). Elle se mesure en pascals (Pa) dans le SI. La pression atmosphérique au niveau de la mer est d'environ 101 325 Pa (1 atm). C'est pourquoi une lame de couteau coupe bien : elle concentre la même force sur une surface très petite, créant une pression très élevée."
     },
     {
       "id": "16",
-      "question": "Pourquoi un objet tombe-t-il ?",
-      "answers": ["À cause de l’air", "À cause du vent", "À cause du froid", "À cause de la gravité"],
+      "question": "Quelle est la force responsable de l'attraction entre l'aimant et un objet métallique ?",
+      "answers": [
+        "La gravité",
+        "La friction de contact",
+        "La force nucléaire faible",
+        "La force électromagnétique"
+      ],
       "correctIndex": 3,
-      "explanation": "La gravité attire les objets vers le centre de la Terre."
+      "explanation": "Le magnétisme est une manifestation de la force électromagnétique, l'une des quatre forces fondamentales de la nature. Les aimants créent un champ magnétique qui exerce une force sur les matériaux ferromagnétiques (fer, nickel, cobalt). Ce même champ peut attirer ou repousser d'autres aimants. L'électromagnétisme unifie les phénomènes électriques et magnétiques : un courant électrique crée un champ magnétique, et un champ magnétique variable crée un courant."
     },
     {
       "id": "17",
-      "question": "Quelle forme d’énergie est liée à la position ?",
-      "answers": ["Énergie potentielle", "Énergie cinétique", "Énergie sonore", "Énergie lumineuse"],
+      "question": "Quelle forme d'énergie possède un objet du fait de sa position dans un champ gravitationnel ?",
+      "answers": [
+        "L'énergie potentielle de pesanteur",
+        "L'énergie cinétique de translation",
+        "L'énergie sonore vibratoire",
+        "L'énergie lumineuse rayonnante"
+      ],
       "correctIndex": 0,
-      "explanation": "L’énergie potentielle dépend de la position d’un objet dans un champ de force."
+      "explanation": "L'énergie potentielle de pesanteur (Ep) d'un objet est liée à sa hauteur h par rapport à un niveau de référence : Ep = m × g × h. Plus un objet est élevé, plus son énergie potentielle est grande. Lorsqu'il tombe, cette énergie se convertit en énergie cinétique. C'est ce principe qui permet aux centrales hydroélectriques de produire de l'électricité : l'eau stockée en altitude libère son énergie potentielle en tombant."
     },
     {
       "id": "18",
-      "question": "Que transporte un courant électrique ?",
-      "answers": ["De la lumière", "Des charges électriques", "De la chaleur", "Du son"],
+      "question": "Que correspond physiquement un courant électrique dans un conducteur ?",
+      "answers": [
+        "Un flux de photons lumineux",
+        "Un déplacement ordonné de charges électriques",
+        "Une propagation de chaleur entre atomes",
+        "Une vibration mécanique des électrons"
+      ],
       "correctIndex": 1,
-      "explanation": "Le courant électrique correspond au déplacement de charges électriques."
+      "explanation": "Un courant électrique est le déplacement ordonné de porteurs de charges — généralement des électrons libres dans un métal. Son intensité se mesure en ampères (A). La tension (en volts) est la force qui pousse ces charges, et la résistance (en ohms) s'oppose à leur déplacement. La loi d'Ohm relie ces trois grandeurs : U = R × I. Les photons, eux, constituent la lumière, non le courant électrique."
     },
     {
       "id": "19",
-      "question": "Qu’est-ce que la vitesse moyenne ?",
-      "answers": ["Une accélération", "Une force", "Une distance divisée par le temps", "Une énergie"],
+      "question": "Comment définit-on l'accélération d'un objet en mouvement ?",
+      "answers": [
+        "La distance parcourue divisée par le temps",
+        "La masse multipliée par la vitesse",
+        "La variation de vitesse par unité de temps",
+        "La force divisée par la surface"
+      ],
       "correctIndex": 2,
-      "explanation": "La vitesse moyenne est calculée en divisant la distance parcourue par le temps."
+      "explanation": "L'accélération (a) mesure la rapidité à laquelle la vitesse change : a = Δv / Δt, exprimée en m/s². Elle peut être positive (accélération) ou négative (décélération). Un objet en chute libre (sans résistance de l'air) accélère à environ 9,81 m/s² vers le bas. La confusion est fréquente avec la vitesse (distance/temps) ou la force (masse × accélération). La distance divisée par le temps donne la vitesse, non l'accélération."
     },
     {
       "id": "20",
-      "question": "Pourquoi les objets chauffent-ils lorsqu’on les frotte ?",
-      "answers": ["À cause de la lumière", "À cause du son", "À cause de la masse", "À cause des frottements"],
+      "question": "Pourquoi les objets s'échauffent-ils lorsqu'on les frotte l'un contre l'autre ?",
+      "answers": [
+        "Le rayonnement lumineux émis par les surfaces",
+        "Les vibrations sonores créées au contact",
+        "La diminution de masse lors du contact",
+        "Les frottements convertissent l'énergie en chaleur"
+      ],
       "correctIndex": 3,
-      "explanation": "Les frottements transforment une partie de l’énergie mécanique en chaleur."
+      "explanation": "Les forces de frottement s'opposent au mouvement relatif entre deux surfaces en contact. L'énergie mécanique fournie pour vaincre ce frottement est convertie en énergie thermique par agitation des molécules au niveau des surfaces en contact. C'est pourquoi se frotter les mains réchauffe et pourquoi les freins d'une voiture chauffent lors d'un freinage intense. Ce phénomène illustre la conservation de l'énergie : l'énergie mécanique ne disparaît pas, elle se transforme."
     }
   ]
 }

@@ -1,8 +1,8 @@
 {
   "slug": "quiz-sciences-electricite-connaissances",
   "title": "Quiz Sciences - Électricité - Êtes-vous incollable sur les bases ?",
-  "description": "Quiz de 20 questions sur les bases de l’électricité : courant, tension, circuits et sécurité.",
-  "descriptionSeo": "Teste tes connaissances avec ce quiz de sciences dédié à l’électricité. Courant, tension, résistance, circuits, conducteurs, isolants et sécurité électrique : révise les notions essentielles pour comprendre le fonctionnement des appareils du quotidien. Composé de 20 questions variées, ce quiz pédagogique et accessible à tous les niveaux permet de consolider ses bases, d’éviter les erreurs courantes et de progresser efficacement en physique de manière ludique.",
+  "description": "Quiz de 20 questions sur les bases de l'électricité : courant, tension, circuits et sécurité.",
+  "descriptionSeo": "Teste tes connaissances avec ce quiz de sciences dédié à l'électricité. Courant, tension, résistance, circuits, conducteurs, isolants et sécurité électrique : révise les notions essentielles pour comprendre le fonctionnement des appareils du quotidien. Composé de 20 questions variées, ce quiz pédagogique et accessible à tous les niveaux permet de consolider ses bases, d'éviter les erreurs courantes et de progresser efficacement en physique de manière ludique.",
   "category": {
     "name": "Sciences",
     "slug": "sciences"
@@ -19,142 +19,242 @@
     {
       "id": "1",
       "question": "Quelle unité mesure la tension électrique ?",
-      "answers": ["Ampère", "Watt", "Volt", "Ohm"],
+      "answers": [
+        "Ampère",
+        "Watt",
+        "Volt",
+        "Ohm"
+      ],
       "correctIndex": 2,
-      "explanation": "La tension électrique se mesure en volts. Elle correspond à la différence de potentiel qui pousse les charges électriques à se déplacer dans un circuit."
+      "explanation": "La tension électrique se mesure en volts (V), en hommage à Alessandro Volta, inventeur de la pile en 1800. Elle représente la différence de potentiel entre deux points du circuit : c'est elle qui « pousse » les charges électriques à se déplacer."
     },
     {
       "id": "2",
-      "question": "Qu’est-ce qu’un circuit électrique fermé ?",
-      "answers": ["Un circuit où le courant peut circuler", "Un circuit sans générateur", "Un circuit cassé", "Un circuit sans fil"],
+      "question": "Qu'est-ce qu'un circuit électrique fermé ?",
+      "answers": [
+        "Un circuit où le courant peut circuler",
+        "Un circuit sans générateur",
+        "Un circuit dont un fil est coupé",
+        "Un circuit sans composant"
+      ],
       "correctIndex": 0,
-      "explanation": "Dans un circuit fermé, le chemin est complet entre les différents composants. Le courant peut donc circuler, contrairement à un circuit ouvert."
+      "explanation": "Dans un circuit fermé, le chemin est continu entre le pôle positif et le pôle négatif du générateur. Le courant peut circuler. Dans un circuit ouvert (interrupteur déclenché, fil coupé), la boucle est interrompue et le courant s'arrête."
     },
     {
       "id": "3",
-      "question": "Quel appareil mesure l’intensité du courant électrique ?",
-      "answers": ["Un voltmètre", "Un thermomètre", "Un baromètre", "Un ampèremètre"],
+      "question": "Quel appareil mesure l'intensité du courant électrique ?",
+      "answers": [
+        "Un voltmètre",
+        "Un thermomètre",
+        "Un ohmmètre",
+        "Un ampèremètre"
+      ],
       "correctIndex": 3,
-      "explanation": "L’ampèremètre mesure l’intensité du courant. Il se branche généralement en série pour mesurer le courant qui traverse un composant."
+      "explanation": "L'ampèremètre mesure l'intensité du courant, exprimée en ampères (A). Il se branche toujours en série dans le circuit, de sorte que tout le courant à mesurer le traverse. Un voltmètre, lui, se branche en parallèle pour mesurer une tension."
     },
     {
       "id": "4",
       "question": "Quel matériau est un bon conducteur électrique ?",
-      "answers": ["Le plastique", "Le cuivre", "Le verre", "Le bois sec"],
+      "answers": [
+        "Le plastique",
+        "Le cuivre",
+        "Le verre",
+        "Le bois sec"
+      ],
       "correctIndex": 1,
-      "explanation": "Le cuivre est très utilisé dans les fils électriques car il laisse facilement circuler les électrons. C’est donc un excellent conducteur."
+      "explanation": "Le cuivre possède une résistivité très faible (1,68 × 10⁻⁸ Ω·m) : ses électrons libres se déplacent facilement sous l'effet d'une tension. C'est pourquoi il équipe la quasi-totalité des câbles électriques domestiques et industriels. L'aluminium est un autre conducteur courant, moins cher mais moins efficace."
     },
     {
       "id": "5",
-      "question": "Qu’est-ce qu’une résistance électrique ?",
-      "answers": ["Un appareil qui stocke le courant", "Une source de lumière", "Un élément qui s’oppose au passage du courant", "Un fil sans tension"],
-      "correctIndex": 2,
-      "explanation": "Une résistance limite le passage du courant dans un circuit. Plus sa valeur est élevée, plus le courant est réduit, si la tension reste la même."
+      "question": "Qu'est-ce qu'une résistance électrique ?",
+      "answers": [
+        "Un appareil qui stocke le courant",
+        "Un élément qui s'oppose au passage du courant",
+        "Une source de tension",
+        "Un fil sans résistance"
+      ],
+      "correctIndex": 1,
+      "explanation": "Une résistance est un composant qui s'oppose au passage du courant. Selon la loi d'Ohm (U = R × I), plus la résistance R est grande, plus le courant I est faible à tension U constante. Les résistances servent à limiter l'intensité, diviser des tensions ou dissiper de la chaleur (effet Joule)."
     },
     {
       "id": "6",
-      "question": "Que se passe-t-il dans un circuit ouvert ?",
-      "answers": ["Le courant est bloqué", "La pile se recharge", "La résistance disparaît", "La tension devient toujours nulle"],
+      "question": "Quel composant électronique est capable de stocker de l'énergie électrique sous forme de champ électrique ?",
+      "answers": [
+        "Le condensateur",
+        "La diode",
+        "La bobine",
+        "Le transistor"
+      ],
       "correctIndex": 0,
-      "explanation": "Dans un circuit ouvert, le chemin est interrompu. Les charges ne peuvent plus circuler, donc aucun courant ne traverse le circuit."
+      "explanation": "Un condensateur est formé de deux armatures conductrices séparées par un isolant (diélectrique). Il stocke des charges électriques et peut les restituer rapidement. Son unité est le farad (F). On le trouve dans les alimentations électroniques, les filtres de signal et les flashs d'appareils photo."
     },
     {
       "id": "7",
-      "question": "Quelle unité mesure l’intensité du courant ?",
-      "answers": ["Le volt", "Le watt", "L’ohm", "L’ampère"],
+      "question": "Quelle unité mesure l'intensité du courant ?",
+      "answers": [
+        "Le volt",
+        "Le watt",
+        "L'ohm",
+        "L'ampère"
+      ],
       "correctIndex": 3,
-      "explanation": "L’intensité se mesure en ampères. Elle indique la quantité de charges électriques qui passent dans un point du circuit chaque seconde."
+      "explanation": "L'intensité se mesure en ampères (A), en hommage à André-Marie Ampère. Un ampère correspond au passage d'une coulomb de charges par seconde en un point du circuit. Un chargeur de téléphone délivre typiquement 1 à 3 A ; une prise domestique supporte jusqu'à 16 A."
     },
     {
       "id": "8",
-      "question": "Quel est le rôle d’un interrupteur ?",
-      "answers": ["Mesurer la tension", "Ouvrir ou fermer un circuit", "Produire de l’électricité", "Augmenter la résistance"],
+      "question": "Quel est le rôle d'un interrupteur ?",
+      "answers": [
+        "Mesurer la tension",
+        "Ouvrir ou fermer un circuit",
+        "Produire de l'électricité",
+        "Augmenter la résistance"
+      ],
       "correctIndex": 1,
-      "explanation": "Un interrupteur permet de contrôler le passage du courant. Quand il est fermé, le courant passe ; quand il est ouvert, le courant est interrompu."
+      "explanation": "Un interrupteur est un composant qui interrompt ou rétablit la continuité d'un circuit. Fermé, il laisse passer le courant ; ouvert, il crée une coupure qui empêche toute circulation de charges. C'est le même principe qu'un disjoncteur, qui agit automatiquement en cas de surcharge."
     },
     {
       "id": "9",
-      "question": "Qu’est-ce qu’un isolant électrique ?",
-      "answers": ["Un matériau qui laisse passer le courant", "Un générateur", "Un appareil de mesure", "Un matériau qui empêche le courant de passer"],
+      "question": "Qu'est-ce qu'un isolant électrique ?",
+      "answers": [
+        "Un matériau qui laisse passer le courant",
+        "Un générateur portable",
+        "Un type de résistance variable",
+        "Un matériau qui empêche le courant de passer"
+      ],
       "correctIndex": 3,
-      "explanation": "Un isolant empêche les charges électriques de circuler facilement. Le plastique autour des fils protège ainsi contre les chocs électriques."
+      "explanation": "Un isolant est un matériau dont la résistivité est très élevée (verre : ~10¹² Ω·m, plastique PVC : ~10¹³ Ω·m), ce qui empêche les électrons de circuler librement. Les fils électriques sont gainés de plastique isolant pour prévenir les courts-circuits et les électrisations accidentelles."
     },
     {
       "id": "10",
-      "question": "Quelle est l’unité de la résistance électrique ?",
-      "answers": ["Le watt", "Le volt", "L’ohm", "L’ampère"],
-      "correctIndex": 2,
-      "explanation": "La résistance se mesure en ohms. Cette unité indique à quel point un composant s’oppose au passage du courant électrique."
+      "question": "Quelle loi fondamentale relie tension, intensité et résistance dans un circuit ?",
+      "answers": [
+        "La loi de Faraday",
+        "La loi d'Ohm",
+        "La loi de Joule",
+        "La loi de Coulomb"
+      ],
+      "correctIndex": 1,
+      "explanation": "La loi d'Ohm, formulée par Georg Ohm en 1827, s'écrit U = R × I : la tension U (en volts) est égale au produit de la résistance R (en ohms) par l'intensité I (en ampères). Elle permet de calculer n'importe laquelle de ces trois grandeurs si les deux autres sont connues."
     },
     {
       "id": "11",
-      "question": "Quel est le rôle d’un générateur dans un circuit ?",
-      "answers": ["Fournir l’énergie électrique", "Bloquer le courant", "Mesurer l’intensité", "Refroidir les composants"],
+      "question": "Quel est le rôle d'un générateur dans un circuit ?",
+      "answers": [
+        "Fournir l'énergie électrique",
+        "Bloquer le courant",
+        "Mesurer l'intensité",
+        "Refroidir les composants"
+      ],
       "correctIndex": 0,
-      "explanation": "Un générateur, comme une pile, fournit l’énergie nécessaire pour mettre les charges en mouvement et faire fonctionner le circuit."
+      "explanation": "Un générateur convertit une forme d'énergie en énergie électrique : une pile transforme l'énergie chimique, une dynamo transforme l'énergie mécanique, un panneau solaire transforme l'énergie lumineuse. Il crée une différence de potentiel (tension) aux bornes du circuit, mettant les charges en mouvement."
     },
     {
       "id": "12",
-      "question": "Qu’est-ce qu’un court-circuit ?",
-      "answers": ["Un circuit très long", "Un passage direct du courant avec très peu de résistance", "Un circuit sans générateur", "Une mesure de tension"],
+      "question": "Qu'est-ce qu'un court-circuit ?",
+      "answers": [
+        "Un circuit de faible longueur",
+        "Un chemin de très faible résistance",
+        "Un circuit sans générateur",
+        "Une chute de tension brusque"
+      ],
       "correctIndex": 1,
-      "explanation": "Un court-circuit crée un chemin très facile pour le courant. Cela peut provoquer une forte intensité, une surchauffe et parfois un incendie."
+      "explanation": "Un court-circuit se produit quand deux conducteurs de potentiels différents entrent en contact direct, créant un chemin de résistance quasi nulle. L'intensité devient alors très élevée (loi d'Ohm : I = U/R). La chaleur produite (effet Joule : P = R × I²) peut faire fondre les fils et provoquer un incendie."
     },
     {
       "id": "13",
-      "question": "Quelle est la fonction principale d’un fil électrique ?",
-      "answers": ["Stocker l’électricité", "Créer une résistance infinie", "Produire de la lumière", "Transporter le courant"],
+      "question": "Quelle est la fonction principale d'un fil électrique ?",
+      "answers": [
+        "Stocker l'électricité",
+        "Créer une résistance élevée",
+        "Produire de la lumière",
+        "Transporter le courant"
+      ],
       "correctIndex": 3,
-      "explanation": "Un fil électrique sert à relier les composants d’un circuit et à transporter le courant. Il est souvent en cuivre pour limiter les pertes."
+      "explanation": "Un fil électrique conduit le courant d'un composant à un autre. Son âme est généralement en cuivre (bonne conductivité, faible résistivité) gainée de plastique isolant. Sa section détermine le courant maximal admissible : un câble de 1,5 mm² supporte jusqu'à 16 A dans une installation domestique."
     },
     {
       "id": "14",
-      "question": "Qu’est-ce que la puissance électrique indique ?",
-      "answers": ["La quantité d’énergie utilisée ou fournie par seconde", "La longueur du circuit", "La couleur du fil", "La masse du générateur"],
+      "question": "Que mesure la puissance électrique ?",
+      "answers": [
+        "L'énergie fournie ou consommée par seconde",
+        "La longueur totale du circuit",
+        "La résistance totale du circuit",
+        "La fréquence du courant alternatif"
+      ],
       "correctIndex": 0,
-      "explanation": "La puissance électrique s’exprime en watts. Elle indique la rapidité avec laquelle un appareil consomme ou transforme de l’énergie."
+      "explanation": "La puissance électrique P (en watts) mesure la quantité d'énergie transférée par seconde : P = U × I. Une ampoule LED consomme typiquement 8 à 10 W contre 60 W pour une ampoule à incandescence équivalente. L'énergie consommée sur une durée t est : E = P × t (en joules ou en kWh sur la facture)."
     },
     {
       "id": "15",
       "question": "Quel composant protège un circuit en cas de surcharge ?",
-      "answers": ["Une lampe", "Un interrupteur", "Un fusible", "Un voltmètre"],
+      "answers": [
+        "Une lampe",
+        "Un interrupteur",
+        "Un fusible",
+        "Un voltmètre"
+      ],
       "correctIndex": 2,
-      "explanation": "Un fusible coupe le circuit si le courant devient trop élevé. Il protège ainsi les appareils et limite les risques d’échauffement."
+      "explanation": "Un fusible contient un filament conducteur qui fond si l'intensité dépasse un seuil (ex. : 10 A ou 16 A). Il interrompt alors le circuit, protégeant câbles et appareils. Les disjoncteurs modernes jouent le même rôle mais se réenclenche manuellement sans remplacement. Les deux sont calibrés en ampères."
     },
     {
       "id": "16",
-      "question": "Pourquoi utilise-t-on du plastique autour des fils électriques ?",
-      "answers": ["Pour augmenter la tension", "Pour produire du courant", "Pour rendre le fil magnétique", "Pour éviter les contacts dangereux"],
-      "correctIndex": 3,
-      "explanation": "Le plastique est un isolant. Il empêche le courant de passer vers l’extérieur du fil et protège les utilisateurs contre les électrisations."
+      "question": "Quelle est la différence entre le courant continu et le courant alternatif ?",
+      "answers": [
+        "Le courant continu est plus dangereux",
+        "Le courant continu se mesure en volts",
+        "Il change de sens périodiquement",
+        "Il ne traverse pas les résistances"
+      ],
+      "correctIndex": 2,
+      "explanation": "Le courant continu (CC) circule toujours dans le même sens — c'est celui produit par les piles et batteries. Le courant alternatif (CA) change de sens périodiquement : en France, la fréquence est 50 Hz (50 allers-retours par seconde) et la tension nominale est 230 V. Le réseau électrique national distribue du courant alternatif car il se transporte plus facilement sur de longues distances."
     },
     {
       "id": "17",
-      "question": "Qu’est-ce qu’une pile dans un circuit électrique ?",
-      "answers": ["Un isolant", "Un générateur", "Une résistance", "Un fil conducteur"],
-      "correctIndex": 1,
-      "explanation": "Une pile est un générateur : elle transforme de l’énergie chimique en énergie électrique pour alimenter les composants du circuit."
+      "question": "Comment les composants sont-ils organisés dans un circuit en série ?",
+      "answers": [
+        "Chacun est relié directement au générateur",
+        "Chacun a une tension différente imposée",
+        "Ils sont tous traversés par le même courant",
+        "Ils peuvent fonctionner indépendamment"
+      ],
+      "correctIndex": 2,
+      "explanation": "Dans un circuit en série, les composants sont reliés bout à bout sur un seul chemin : le même courant les traverse tous. La tension totale se répartit entre eux (U_total = U₁ + U₂ + …). Si un composant est défaillant, le circuit s'ouvre et tous les autres s'éteignent — c'était le cas des anciennes guirlandes de Noël."
     },
     {
       "id": "18",
       "question": "Que se passe-t-il si la résistance augmente et que la tension reste constante ?",
-      "answers": ["Le circuit devient toujours ouvert", "La tension disparaît", "Le courant augmente", "Le courant diminue"],
+      "answers": [
+        "Le circuit s'ouvre automatiquement",
+        "La tension s'annule",
+        "Le courant augmente",
+        "Le courant diminue"
+      ],
       "correctIndex": 3,
-      "explanation": "D’après la loi d’Ohm, quand la résistance augmente, le courant diminue si la tension reste constante. Le passage des charges devient plus difficile."
+      "explanation": "D'après la loi d'Ohm (I = U / R), si U est fixe et R augmente, alors I diminue proportionnellement. Par exemple, si R double, I est divisé par deux. Ce principe est utilisé dans les rhéostats pour régler l'intensité lumineuse d'une lampe ou la vitesse d'un moteur."
     },
     {
       "id": "19",
-      "question": "Quel appareil mesure la tension électrique ?",
-      "answers": ["Un ampèremètre", "Un fusible", "Un interrupteur", "Un voltmètre"],
-      "correctIndex": 3,
-      "explanation": "Le voltmètre mesure la tension entre deux points d’un circuit. Il se branche en dérivation, c’est-à-dire aux bornes du composant étudié."
+      "question": "Dans un circuit en dérivation, que se passe-t-il si on ajoute une branche supplémentaire ?",
+      "answers": [
+        "La tension aux bornes de chaque branche diminue",
+        "La tension du générateur augmente",
+        "La résistance totale du circuit diminue",
+        "La résistance totale du circuit augmente"
+      ],
+      "correctIndex": 2,
+      "explanation": "En montage parallèle, chaque branche reçoit la même tension. La résistance totale est inférieure à la plus petite résistance individuelle (1/R_total = 1/R₁ + 1/R₂ + …). Ajouter une branche diminue donc R_total et augmente le courant total délivré par le générateur. C'est le principe du câblage électrique domestique."
     },
     {
       "id": "20",
-      "question": "Quel est le principal risque d’un courant trop élevé dans le corps humain ?",
-      "answers": ["L’électrisation ou l’électrocution", "La dilution", "La solidification", "La diminution de température"],
+      "question": "Quel est le principal risque d'un courant trop élevé traversant le corps humain ?",
+      "answers": [
+        "L'électrisation ou l'électrocution",
+        "Une légère sensation de chaleur sans danger",
+        "Une augmentation de la pression sanguine",
+        "Une perte d'équilibre passagère"
+      ],
       "correctIndex": 0,
-      "explanation": "Un courant élevé peut perturber le fonctionnement du corps, notamment du cœur. C’est pourquoi la sécurité électrique est essentielle."
+      "explanation": "Dès 10 mA, un courant alternatif provoque des contractions musculaires involontaires. À partir de 30 mA, il peut déclencher une fibrillation ventriculaire (arrêt cardiaque). C'est pourquoi les disjoncteurs différentiels de 30 mA sont obligatoires dans les salles d'eau en France. La tension du réseau (230 V) est largement suffisante pour être mortelle."
     }
   ]
 }

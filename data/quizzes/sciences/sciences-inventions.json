@@ -2,7 +2,7 @@
   "slug": "quiz-sciences-decouvertes-scientifiques-majeures",
   "title": "Quiz Sciences - 20 découvertes scientifiques majeures",
   "description": "Explore les grandes découvertes scientifiques qui ont transformé notre compréhension du monde.",
-  "descriptionSeo": "Ce quiz de sciences de 20 questions met en lumière les découvertes scientifiques majeures qui ont transformé notre compréhension du monde. Gravitation, ADN, évolution, relativité, tectonique des plaques ou encore théorie des germes : revisite les concepts fondamentaux de la science. Clair et accessible, ce quiz pédagogique permet de mieux comprendre les grandes avancées scientifiques et leur impact sur notre vision du vivant et de l’Univers.",
+  "descriptionSeo": "Ce quiz de sciences de 20 questions met en lumière les découvertes scientifiques majeures qui ont transformé notre compréhension du monde. Gravitation, ADN, évolution, relativité, tectonique des plaques ou encore théorie des germes : revisite les concepts fondamentaux de la science. Clair et accessible, ce quiz pédagogique permet de mieux comprendre les grandes avancées scientifiques et leur impact sur notre vision du vivant et de l'Univers.",
   "category": {
     "name": "Sciences",
     "slug": "sciences"
@@ -19,142 +19,242 @@
     {
       "id": "1",
       "question": "Quelle découverte explique pourquoi les objets tombent vers la Terre ?",
-      "answers": ["La gravitation", "La relativité", "La radioactivité", "L’électricité"],
+      "answers": [
+        "La gravitation universelle",
+        "La poussée d'Archimède",
+        "L'électromagnétisme",
+        "La pression atmosphérique"
+      ],
       "correctIndex": 0,
-      "explanation": "La gravitation est la force d’attraction entre les masses. Elle explique la chute des objets et le mouvement des planètes."
+      "explanation": "En 1687, Isaac Newton publie sa loi de gravitation universelle : deux corps s'attirent proportionnellement à leurs masses et inversement au carré de leur distance. Elle explique la chute des objets, les orbites planétaires et les marées. Elle resta le modèle de référence jusqu'à la relativité générale d'Einstein en 1915."
     },
     {
       "id": "2",
       "question": "Quelle découverte a permis de comprendre la transmission des caractères héréditaires ?",
-      "answers": ["Le noyau", "L’ADN", "La cellule", "La gravité"],
+      "answers": [
+        "La mitose",
+        "L'ADN",
+        "La méiose",
+        "Les protéines"
+      ],
       "correctIndex": 1,
-      "explanation": "L’ADN contient l’information génétique et permet la transmission des caractéristiques d’une génération à l’autre."
+      "explanation": "En 1953, Watson et Crick décrivent la structure en double hélice de l'ADN, en s'appuyant sur les travaux de Rosalind Franklin. L'ADN stocke l'information génétique sous forme de séquences de bases (A, T, G, C) et permet sa copie et sa transmission à chaque division cellulaire."
     },
     {
       "id": "3",
-      "question": "Quelle théorie explique l’évolution des espèces ?",
-      "answers": ["La thermodynamique", "La gravitation", "La sélection naturelle", "La relativité"],
+      "question": "Quelle théorie explique l'évolution et la diversification des espèces ?",
+      "answers": [
+        "La génétique mendélienne",
+        "La théorie cellulaire",
+        "La sélection naturelle",
+        "La théorie des germes"
+      ],
       "correctIndex": 2,
-      "explanation": "La sélection naturelle favorise les individus les mieux adaptés, expliquant l’évolution des espèces."
+      "explanation": "Charles Darwin publie L'Origine des espèces en 1859. La sélection naturelle stipule que les individus dont les caractères sont le mieux adaptés à leur environnement survivent et se reproduisent davantage. Au fil des générations, ces caractères se répandent dans la population, menant à la diversification des espèces."
     },
     {
       "id": "4",
-      "question": "Quelle découverte a montré que des microbes causent certaines maladies ?",
-      "answers": ["La tectonique", "La gravité", "La radioactivité", "La théorie des germes"],
+      "question": "Quelle découverte a montré que des microbes causent certaines maladies infectieuses ?",
+      "answers": [
+        "La théorie miasmatique",
+        "La théorie des humeurs",
+        "La génétique mendélienne",
+        "La théorie des germes"
+      ],
       "correctIndex": 3,
-      "explanation": "La théorie des germes a prouvé que des micro-organismes sont responsables de nombreuses maladies."
+      "explanation": "Louis Pasteur et Robert Koch établissent la théorie des germes dans la seconde moitié du XIXe siècle : des micro-organismes spécifiques sont responsables de maladies spécifiques. Cette découverte fonde la médecine moderne, justifie l'antisepsie (Lister) et ouvre la voie aux vaccins et antibiotiques."
     },
     {
       "id": "5",
-      "question": "Quelle découverte explique la structure de la matière ?",
-      "answers": ["Le modèle atomique", "La cellule", "La photosynthèse", "La gravité"],
+      "question": "Quelle découverte explique la structure de la matière à l'échelle microscopique ?",
+      "answers": [
+        "Le modèle atomique",
+        "La loi de Boyle-Mariotte",
+        "La thermodynamique",
+        "La mécanique des fluides"
+      ],
       "correctIndex": 0,
-      "explanation": "Le modèle atomique décrit la matière comme composée d’atomes formés de particules."
+      "explanation": "Le modèle atomique évolue de Dalton (1803, atome indivisible) à Rutherford (1911, noyau central) puis Bohr (1913, niveaux d'énergie). Il décrit la matière comme composée d'atomes dont la plupart sont constitués de protons, neutrons et électrons, et fonde la chimie moderne et la physique des matériaux."
     },
     {
       "id": "6",
-      "question": "Quelle théorie explique l’origine de l’Univers ?",
-      "answers": ["La gravité", "Le Big Bang", "La relativité", "La radioactivité"],
+      "question": "Quelle théorie explique l'origine et l'expansion de l'Univers ?",
+      "answers": [
+        "La théorie des cordes",
+        "Le Big Bang",
+        "Le modèle stationnaire",
+        "La théorie de l'éther"
+      ],
       "correctIndex": 1,
-      "explanation": "Le Big Bang décrit un Univers en expansion depuis un état initial dense et chaud."
+      "explanation": "Le modèle du Big Bang décrit un Univers né il y a environ 13,8 milliards d'années d'un état extrêmement chaud et dense. Ses preuves majeures sont l'expansion (loi de Hubble, 1929) et le rayonnement fossile à 2,7 K découvert par Penzias et Wilson en 1964, qui leur valut le Nobel de physique en 1978."
     },
     {
       "id": "7",
-      "question": "Quelle découverte explique la production d’énergie dans les cellules ?",
-      "answers": ["La tectonique", "La gravité", "La respiration cellulaire", "La radioactivité"],
+      "question": "Quelle découverte explique la production d'énergie dans les cellules vivantes ?",
+      "answers": [
+        "La fermentation lactique",
+        "La photosynthèse",
+        "La respiration cellulaire",
+        "La synthèse des protéines"
+      ],
       "correctIndex": 2,
-      "explanation": "La respiration cellulaire transforme les nutriments en énergie utilisable par les cellules."
+      "explanation": "La respiration cellulaire transforme le glucose et l'oxygène en ATP, la monnaie énergétique de la cellule. Hans Krebs, Prix Nobel 1953, élucide le cycle qui porte son nom, une étape centrale du processus. Une mole de glucose produit environ 30 à 32 molécules d'ATP. Ce processus se déroule dans les mitochondries des cellules eucaryotes."
     },
     {
       "id": "8",
-      "question": "Quelle découverte explique le mouvement des continents ?",
-      "answers": ["La gravité", "La relativité", "La photosynthèse", "La tectonique des plaques"],
+      "question": "Quelle découverte explique le déplacement des continents et les séismes ?",
+      "answers": [
+        "L'isostasie",
+        "La convection du manteau seule",
+        "L'érosion différentielle",
+        "La tectonique des plaques"
+      ],
       "correctIndex": 3,
-      "explanation": "Les plaques tectoniques se déplacent lentement, provoquant séismes et volcans."
+      "explanation": "La théorie de la tectonique des plaques, consolidée dans les années 1960-1970, explique que la lithosphère terrestre est découpée en une douzaine de plaques rigides qui se déplacent de 2 à 10 cm par an sur l'asthénosphère. Ces mouvements provoquent séismes, volcans, formations de chaînes de montagnes et fosses océaniques."
     },
     {
       "id": "9",
-      "question": "Quelle découverte a permis de comprendre les réactions chimiques ?",
-      "answers": ["La table périodique", "La gravité", "La radioactivité", "La cellule"],
+      "question": "Quelle découverte a permis de classer les éléments chimiques et de prédire leurs propriétés ?",
+      "answers": [
+        "La table périodique des éléments",
+        "La loi de la conservation de la masse",
+        "La théorie acido-basique",
+        "La loi de Dalton sur les pressions partielles"
+      ],
       "correctIndex": 0,
-      "explanation": "La table périodique classe les éléments et permet de prédire leurs propriétés."
+      "explanation": "Dmitri Mendeleïev publie en 1869 sa table périodique classant les 63 éléments alors connus par masse atomique croissante et propriétés récurrentes. Il prédit l'existence et les propriétés d'éléments non encore découverts (germanium, gallium, scandium), validant brillamment son système. La table moderne, réorganisée par numéro atomique (Moseley, 1913), compte aujourd'hui 118 éléments."
     },
     {
       "id": "10",
-      "question": "Quelle théorie a révolutionné notre compréhension de l’espace et du temps ?",
-      "answers": ["La gravité classique", "La relativité", "La tectonique", "La photosynthèse"],
+      "question": "Quelle théorie a révolutionné notre compréhension de l'espace et du temps ?",
+      "answers": [
+        "La mécanique newtonienne",
+        "La relativité restreinte et générale",
+        "La mécanique quantique",
+        "La thermodynamique statistique"
+      ],
       "correctIndex": 1,
-      "explanation": "La relativité montre que le temps et l’espace dépendent de la vitesse et de la gravité."
+      "explanation": "Albert Einstein publie la relativité restreinte en 1905 (E = mc²) et la relativité générale en 1915 (gravité = courbure de l'espace-temps). Ces théories ont des applications directes : le GPS doit corriger les effets relativistes pour maintenir sa précision, et elles ont prédit les ondes gravitationnelles détectées en 2015."
     },
-   {
-  "id": "11",
-  "question": "Quelle découverte a montré que les continents étaient autrefois réunis en un seul supercontinent ?",
-  "answers": ["La radioactivité", "La thermodynamique", "La dérive des continents", "La gravité"],
-  "correctIndex": 2,
-  "explanation": "La dérive des continents, proposée par Alfred Wegener, explique que les continents se déplacent lentement au cours du temps. Cette idée a préparé la théorie moderne de la tectonique des plaques."
-},
+    {
+      "id": "11",
+      "question": "Quelle découverte a unifié les phénomènes électriques et magnétiques en une seule théorie ?",
+      "answers": [
+        "La loi de Coulomb",
+        "La pile de Volta",
+        "L'électromagnétisme",
+        "La loi d'Ohm"
+      ],
+      "correctIndex": 2,
+      "explanation": "James Clerk Maxwell formule en 1865 ses équations qui unifient électricité, magnétisme et optique en un seul cadre. Il prédit l'existence des ondes électromagnétiques se propageant à la vitesse de la lumière, confirmées expérimentalement par Hertz en 1887. Ces équations sont le fondement des technologies modernes : radio, Wi-Fi, téléphone, radar."
+    },
     {
       "id": "12",
-      "question": "Quelle découverte a permis de comprendre que tous les êtres vivants sont faits de cellules ?",
-      "answers": ["La relativité", "La radioactivité", "La gravité", "La théorie cellulaire"],
+      "question": "Quelle découverte a montré que tous les êtres vivants sont composés de cellules ?",
+      "answers": [
+        "La théorie de la génération spontanée",
+        "La loi de Mendel sur l'hérédité",
+        "La théorie de l'évolution",
+        "La théorie cellulaire"
+      ],
       "correctIndex": 3,
-      "explanation": "La théorie cellulaire établit que la cellule est l’unité de base du vivant."
+      "explanation": "La théorie cellulaire, développée par Schleiden, Schwann et Virchow entre 1838 et 1855, énonce trois principes : tout être vivant est composé de cellules, la cellule est l'unité fonctionnelle du vivant, et toute cellule provient d'une cellule préexistante. Ce troisième principe contribue à remettre en cause la génération spontanée, définitivement réfutée par les expériences de Pasteur en 1859-1861."
     },
     {
       "id": "13",
-      "question": "Quelle découverte explique la transformation de la lumière en énergie chez les plantes ?",
-      "answers": ["La photosynthèse", "La gravité", "La tectonique", "La radioactivité"],
+      "question": "Quelle découverte explique comment les plantes produisent leur propre matière organique ?",
+      "answers": [
+        "La photosynthèse",
+        "La fermentation",
+        "La respiration cellulaire",
+        "La digestion enzymatique"
+      ],
       "correctIndex": 0,
-      "explanation": "La photosynthèse permet de produire du glucose grâce à la lumière."
+      "explanation": "La photosynthèse, élucidée progressivement du XVIIIe au XXe siècle, transforme le CO₂ et l'eau en glucose et dioxygène grâce à l'énergie lumineuse captée par la chlorophylle. L'équation globale est : 6 CO₂ + 6 H₂O + lumière → C₆H₁₂O₆ + 6 O₂. Elle est à la base de la plupart des chaînes alimentaires sur Terre."
     },
     {
       "id": "14",
-      "question": "Quelle découverte a permis de comprendre les lois de l’énergie ?",
-      "answers": ["La gravité", "La thermodynamique", "La tectonique", "La cellule"],
+      "question": "Quelle découverte décrit les lois qui gouvernent les transformations d'énergie ?",
+      "answers": [
+        "La mécanique newtonienne",
+        "La thermodynamique",
+        "L'électromagnétisme",
+        "La mécanique des fluides"
+      ],
       "correctIndex": 1,
-      "explanation": "La thermodynamique décrit les transformations de l’énergie."
+      "explanation": "La thermodynamique, développée au XIXe siècle par Carnot, Joule, Kelvin et Clausius, formule quatre lois fondamentales. La première (conservation de l'énergie) et la seconde (l'entropie d'un système isolé ne peut qu'augmenter) ont des implications universelles : elles expliquent pourquoi aucune machine ne peut être parfaitement efficace."
     },
     {
       "id": "15",
-      "question": "Quelle découverte a révélé que certains atomes émettent de l’énergie ?",
-      "answers": ["La gravité", "La relativité", "La radioactivité", "La photosynthèse"],
+      "question": "Quelle découverte a révélé que certains atomes émettent spontanément de l'énergie ?",
+      "answers": [
+        "La spectroscopie",
+        "L'effet photoélectrique",
+        "La radioactivité",
+        "La fission nucléaire"
+      ],
       "correctIndex": 2,
-      "explanation": "La radioactivité correspond à l’émission spontanée d’énergie par certains noyaux."
+      "explanation": "Henri Becquerel découvre la radioactivité en 1896, puis Marie et Pierre Curie isolent le polonium et le radium (1898). La radioactivité est l'émission spontanée de particules alpha, bêta ou de rayonnement gamma par des noyaux instables. Marie Curie reçoit deux Prix Nobel (physique 1903, chimie 1911). Ces travaux ouvrent la voie à la médecine nucléaire et à l'énergie atomique."
     },
- {
-  "id": "16",
-  "question": "Quelle découverte explique comment les messages circulent dans le système nerveux ?",
-  "answers": ["La thermodynamique", "La tectonique", "La gravité", "L’influx nerveux"],
-  "correctIndex": 3,
-  "explanation": "L’influx nerveux est un signal électrique qui se propage le long des neurones. Il permet au cerveau, aux nerfs et aux muscles de communiquer rapidement."
-},
+    {
+      "id": "16",
+      "question": "Quelle découverte explique comment les signaux circulent dans le système nerveux ?",
+      "answers": [
+        "La théorie endocrinienne",
+        "La régulation hormonale",
+        "La synapse chimique",
+        "L'influx nerveux"
+      ],
+      "correctIndex": 3,
+      "explanation": "L'influx nerveux est un potentiel d'action électrique qui se propage le long des neurones à des vitesses de 0,5 à 120 m/s selon le type de fibre. Il repose sur des échanges d'ions sodium et potassium à travers la membrane. Au niveau de la synapse, la transmission devient chimique : des neurotransmetteurs sont libérés pour relayer le signal vers le neurone suivant. Les travaux de Hodgkin et Huxley sur ce mécanisme leur valent le Nobel de médecine en 1963."
+    },
     {
       "id": "17",
-      "question": "Quelle découverte explique les lois du mouvement ?",
-      "answers": ["Les lois de Newton", "La relativité", "La radioactivité", "La cellule"],
+      "question": "Quelle découverte a fondé le principe de la vaccination et de l'immunité acquise ?",
+      "answers": [
+        "La vaccination et l'immunologie",
+        "La théorie des germes",
+        "La circulation sanguine",
+        "La pénicilline"
+      ],
       "correctIndex": 0,
-      "explanation": "Les lois de Newton décrivent comment les objets bougent sous l’effet des forces."
+      "explanation": "Edward Jenner inocule en 1796 un vaccin contre la variole à partir de vaccine bovine. Pasteur généralise le principe et met au point des vaccins contre le choléra aviaire, le charbon et la rage (1885). L'OMS déclare la variole éradiquée en 1980 grâce à la vaccination universelle — première maladie humaine à être éliminée."
     },
     {
       "id": "18",
-      "question": "Quelle découverte explique le comportement de la matière à très petite échelle ?",
-      "answers": ["La tectonique", "La mécanique quantique", "La photosynthèse", "La gravité"],
+      "question": "Quelle découverte décrit le comportement de la matière à l'échelle des particules subatomiques ?",
+      "answers": [
+        "La relativité générale",
+        "La mécanique quantique",
+        "La physique des plasmas",
+        "La physique classique de Lagrange"
+      ],
       "correctIndex": 1,
-      "explanation": "La mécanique quantique décrit le monde des particules subatomiques."
+      "explanation": "La mécanique quantique, développée entre 1900 et 1930 par Planck, Einstein, Bohr, Heisenberg et Schrödinger, décrit un monde où l'énergie est quantifiée, où la position et la vitesse d'une particule ne peuvent être connues simultanément avec précision (principe d'incertitude) et où les objets ont à la fois des propriétés d'onde et de corpuscule."
     },
     {
       "id": "19",
-      "question": "Quelle découverte explique la circulation du sang dans le corps ?",
-      "answers": ["La thermodynamique", "La gravité", "La circulation sanguine", "La radioactivité"],
+      "question": "Quelle découverte a expliqué comment le sang circule dans le corps humain ?",
+      "answers": [
+        "La théorie des humeurs",
+        "La lymphatique",
+        "La circulation sanguine",
+        "La théorie cellulaire"
+      ],
       "correctIndex": 2,
-      "explanation": "La circulation sanguine transporte oxygène et nutriments dans l’organisme."
+      "explanation": "William Harvey décrit en 1628 (De motu cordis) la circulation sanguine en circuit fermé, animée par le cœur comme pompe. Il réfute la théorie de Galien qui supposait que le sang était produit en permanence par le foie. La découverte des capillaires par Malpighi en 1661 compléta le modèle en reliant artères et veines."
     },
     {
       "id": "20",
-      "question": "Quelle découverte explique que la Terre tourne autour du Soleil ?",
-      "answers": ["La tectonique", "La cellule", "La gravité", "L’héliocentrisme"],
+      "question": "Quelle découverte a placé le Soleil au centre du système solaire, remplaçant le modèle géocentrique ?",
+      "answers": [
+        "La loi de Kepler sur les orbites",
+        "La loi de Hubble sur l'expansion",
+        "La découverte des exoplanètes",
+        "L'héliocentrisme de Copernic"
+      ],
       "correctIndex": 3,
-      "explanation": "L’héliocentrisme place le Soleil au centre du système solaire."
+      "explanation": "Nicolas Copernic publie le modèle héliocentrique en 1543 dans De revolutionibus. Galilée le défend grâce à son télescope (1609) : il observe les phases de Vénus (incompatibles avec le géocentrisme) et les quatre lunes de Jupiter (prouvant que tout ne tourne pas autour de la Terre). Kepler précise les orbites elliptiques (1609-1619). L'Église catholique maintient l'interdit sur l'œuvre de Galilée jusqu'en 1835."
     }
   ]
 }

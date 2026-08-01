@@ -1,8 +1,8 @@
 {
   "slug": "quiz-sciences-mars-planete-rouge-detail",
   "title": "Quiz Sciences - Partez à la découverte de Mars",
-  "description": "Explore Mars, la planète rouge, à travers ses paysages, son climat, ses lunes et les missions qui l’étudient.",
-  "descriptionSeo": "Ce quiz de sciences de 20 questions explore Mars, la planète rouge, en détail. Atmosphère, reliefs, volcans géants, climat, présence passée d’eau et missions spatiales : révisez les notions essentielles pour comprendre cette planète fascinante. Clair et pédagogique, ce quiz permet de mieux connaître les caractéristiques de Mars et son rôle clé dans l’exploration du système solaire et la recherche de vie passée.",
+  "description": "Explore Mars, la planète rouge, à travers ses paysages, son climat, ses lunes et les missions qui l'étudient.",
+  "descriptionSeo": "Ce quiz de sciences de 20 questions explore Mars, la planète rouge, en détail. Atmosphère, reliefs, volcans géants, climat, présence passée d'eau et missions spatiales : révisez les notions essentielles pour comprendre cette planète fascinante. Clair et pédagogique, ce quiz permet de mieux connaître les caractéristiques de Mars et son rôle clé dans l'exploration du système solaire et la recherche de vie passée.",
   "category": {
     "name": "Sciences",
     "slug": "sciences"
@@ -19,142 +19,242 @@
     {
       "id": "1",
       "question": "Pourquoi Mars est-elle surnommée la planète rouge ?",
-      "answers": ["À cause de ses océans rouges", "À cause de sa chaleur extrême", "À cause de ses volcans actifs", "À cause de l’oxyde de fer présent dans son sol"],
+      "answers": [
+        "À cause de la chaleur extrême de sa surface",
+        "À cause de ses aurores rougeâtres permanentes",
+        "À cause de ses volcans encore très actifs",
+        "À cause de l'oxyde de fer présent dans son sol"
+      ],
       "correctIndex": 3,
-      "explanation": "Mars doit sa couleur rougeâtre à l’oxyde de fer présent dans ses roches et sa poussière. Ce composé est proche de la rouille, ce qui donne à la planète son apparence caractéristique."
+      "explanation": "Mars doit sa couleur rougeâtre à l'oxyde de fer (Fe₂O₃, similaire à la rouille) présent dans ses roches et sa poussière. Les mécanismes précis de cette oxydation — impliquant peut-être de l'eau, du peroxyde d'hydrogène ou des processus photochimiques — restent encore débattus. La poussière ferreuse est si fine qu'elle reste en suspension et teinte même le ciel martien de rose-ocre."
     },
     {
       "id": "2",
-      "question": "Quelle est la position de Mars par rapport au Soleil ?",
-      "answers": ["Quatrième planète", "Deuxième planète", "Troisième planète", "Cinquième planète"],
+      "question": "Quelle est la position de Mars dans le système solaire ?",
+      "answers": [
+        "Quatrième planète depuis le Soleil",
+        "Deuxième planète depuis le Soleil",
+        "Troisième planète depuis le Soleil",
+        "Cinquième planète depuis le Soleil"
+      ],
       "correctIndex": 0,
-      "explanation": "Mars est la quatrième planète du système solaire, située après Mercure, Vénus et la Terre. Elle appartient aux planètes rocheuses, comme notre planète."
+      "explanation": "Mars est la quatrième planète du système solaire, entre la Terre et la ceinture d'astéroïdes. Sa distance moyenne au Soleil est d'environ 228 millions de km (1,52 UA), soit environ 1,5 fois la distance Terre-Soleil. Une année martienne dure 687 jours terrestres."
     },
     {
       "id": "3",
       "question": "Quel est le plus grand volcan connu du système solaire ?",
-      "answers": ["Mauna Loa", "Mont Sharp", "Olympus Mons", "Valles Marineris"],
+      "answers": [
+        "Mauna Loa (Hawaï)",
+        "Mont Elbrouz (Caucase)",
+        "Olympus Mons",
+        "Arsia Mons"
+      ],
       "correctIndex": 2,
-      "explanation": "Olympus Mons est un immense volcan martien, bien plus haut que l’Everest. Sa taille exceptionnelle s’explique par une activité volcanique ancienne et prolongée."
+      "explanation": "Olympus Mons culmine à environ 22 km de hauteur et s'étend sur 600 km de diamètre — la surface de la France. Sa taille exceptionnelle s'explique par l'absence de tectonique des plaques sur Mars : le point chaud volcanique est resté fixe sous le même endroit pendant des milliards d'années, empilant la lave indéfiniment."
     },
     {
       "id": "4",
-      "question": "Comment s’appellent les deux petites lunes de Mars ?",
-      "answers": ["Io et Europe", "Phobos et Déimos", "Titan et Rhéa", "Ganymède et Callisto"],
+      "question": "Comment s'appellent les deux lunes de Mars ?",
+      "answers": [
+        "Io et Europe",
+        "Phobos et Déimos",
+        "Titan et Rhéa",
+        "Triton et Protée"
+      ],
       "correctIndex": 1,
-      "explanation": "Mars possède deux petites lunes : Phobos et Déimos. Elles sont de forme irrégulière et pourraient être des astéroïdes capturés ou des débris issus d’un impact ancien."
+      "explanation": "Phobos et Déimos sont deux petites lunes de forme irrégulière, découvertes en 1877 par Asaph Hall. Phobos, la plus grande (~27 km), orbite si près de Mars qu'elle se lève à l'ouest et se couche à l'est en moins de 8 heures. Elle se rapproche de Mars de ~1,8 cm par an et devrait se désintégrer ou s'écraser dans environ 50 millions d'années."
     },
     {
       "id": "5",
-      "question": "Quelle est la principale composante de l’atmosphère de Mars ?",
-      "answers": ["Oxygène", "Azote", "Hydrogène", "Dioxyde de carbone"],
+      "question": "Quelle est la principale composante de l'atmosphère de Mars ?",
+      "answers": [
+        "Oxygène",
+        "Azote",
+        "Hydrogène",
+        "Dioxyde de carbone"
+      ],
       "correctIndex": 3,
-      "explanation": "L’atmosphère martienne est très fine et composée majoritairement de dioxyde de carbone. Cette faible densité explique en partie les grandes variations de température à sa surface."
+      "explanation": "L'atmosphère martienne est composée à environ 95 % de dioxyde de carbone (CO₂), avec environ 2,6 % d'azote et 1,9 % d'argon. Sa pression est d'environ 600 à 700 Pa, soit moins de 1 % de la pression terrestre (101 300 Pa). Cette atmosphère ténue ne retient que peu de chaleur et ne protège pas des rayonnements cosmiques."
     },
     {
       "id": "6",
-      "question": "Quel grand canyon martien est l’un des plus vastes du système solaire ?",
-      "answers": ["Grand Canyon", "Cratère Gale", "Valles Marineris", "Meridiani Planum"],
+      "question": "Quel grand canyon martien est l'un des plus vastes du système solaire ?",
+      "answers": [
+        "Noctis Labyrinthus",
+        "Coprates Chasma seul",
+        "Valles Marineris",
+        "Hellas Planitia"
+      ],
       "correctIndex": 2,
-      "explanation": "Valles Marineris est un immense système de canyons martiens. Il s’étend sur des milliers de kilomètres, bien au-delà des dimensions du Grand Canyon terrestre."
+      "explanation": "Valles Marineris est un système de canyons qui s'étend sur environ 4 000 km de longueur, 200 km de largeur et jusqu'à 7 km de profondeur. Il représente environ le quart de la circonférence de Mars. Son origine n'est pas fluviale mais tectonique et volcanique : il résulte de l'effondrement de la croûte lors du bombement de Tharsis."
     },
     {
       "id": "7",
-      "question": "Quelle mission a déposé le rover Curiosity sur Mars ?",
-      "answers": ["Mars Science Laboratory", "Viking 1", "Apollo 11", "Voyager 2"],
+      "question": "Quelle mission a déposé le rover Curiosity sur Mars en 2012 ?",
+      "answers": [
+        "Mars Science Laboratory",
+        "Viking 1",
+        "Mars Pathfinder",
+        "Mars Polar Lander"
+      ],
       "correctIndex": 0,
-      "explanation": "Curiosity a été envoyé dans le cadre de la mission Mars Science Laboratory. Il explore le cratère Gale pour étudier les roches, le climat passé et l’habitabilité ancienne de Mars."
+      "explanation": "Curiosity a été lancé par la mission Mars Science Laboratory (NASA) et s'est posé dans le cratère Gale le 6 août 2012 grâce à la technique inédite de la « grue céleste ». Il analyse roches, sols et atmosphère pour évaluer l'habitabilité passée de Mars. Toujours actif en 2026, il a parcouru plus de 30 km."
     },
     {
       "id": "8",
-      "question": "Quel rover martien a transporté l’hélicoptère Ingenuity ?",
-      "answers": ["Spirit", "Perseverance", "Opportunity", "Sojourner"],
+      "question": "Quel rover martien a transporté l'hélicoptère Ingenuity ?",
+      "answers": [
+        "Spirit",
+        "Perseverance",
+        "Opportunity",
+        "Curiosity"
+      ],
       "correctIndex": 1,
-      "explanation": "Perseverance a transporté Ingenuity, le premier hélicoptère à avoir réalisé un vol motorisé sur une autre planète. Cette réussite a ouvert de nouvelles pistes pour l’exploration aérienne de Mars."
+      "explanation": "Perseverance, posé dans le cratère Jezero le 18 février 2021, a transporté Ingenuity. Ce petit hélicoptère de 1,8 kg a réalisé le 19 avril 2021 le premier vol motorisé sur une autre planète. Il a effectué plus de 70 vols, bien au-delà des 5 prévus initialement, démontrant la faisabilité de l'exploration aérienne martienne."
     },
     {
       "id": "9",
-      "question": "Quelle preuve indique que Mars a probablement eu de l’eau liquide dans le passé ?",
-      "answers": ["La présence d’océans actuels", "La couleur rouge de la planète", "La présence d’anneaux", "Des traces de lits de rivières et de minéraux formés en présence d’eau"],
-      "correctIndex": 3,
-      "explanation": "Des vallées anciennes, des deltas et certains minéraux montrent que de l’eau liquide a existé à la surface de Mars. Ces indices suggèrent un climat passé plus humide."
+      "question": "Quelle preuve indique que Mars a probablement eu de l'eau liquide dans le passé ?",
+      "answers": [
+        "La présence d'océans liquides actuels",
+        "La couleur rouge de la planète",
+        "Des lits de rivières fossiles et minéraux hydratés",
+        "La présence d'anneaux autour de Mars"
+      ],
+      "correctIndex": 2,
+      "explanation": "Des vallées de drainage, des deltas fossilisés (comme dans le cratère Jezero) et des minéraux hydratés comme les phyllosilicates, les sulfates et les carbonates témoignent de la présence ancienne d'eau liquide. Des données du rover Curiosity montrent que le cratère Gale abritait un lac d'eau douce il y a environ 3 à 3,5 milliards d'années."
     },
     {
       "id": "10",
-      "question": "Quelle est la durée approximative d’un jour martien, appelé sol ?",
-      "answers": ["24 heures et 39 minutes", "12 heures", "48 heures", "7 jours"],
+      "question": "Quelle est la durée approximative d'un jour martien (sol) ?",
+      "answers": [
+        "24 heures et 39 minutes",
+        "12 heures exactement",
+        "48 heures et 10 minutes",
+        "23 heures et 15 minutes"
+      ],
       "correctIndex": 0,
-      "explanation": "Un sol martien dure environ 24 heures et 39 minutes, soit un peu plus qu’un jour terrestre. Cette proximité facilite l’organisation des missions robotiques sur Mars."
+      "explanation": "Un sol martien dure 24 h 39 min 35 s, soit environ 2,7 % de plus qu'un jour terrestre. Cette similitude a facilité la planification des activités des rovers : les équipes de la NASA ont souvent adopté des emplois du temps décalés de 39 minutes par jour pour coller au rythme martien, ce qui perturbe fortement les rythmes biologiques sur le long terme."
     },
     {
       "id": "11",
-      "question": "Pourquoi les températures varient-elles fortement sur Mars ?",
-      "answers": ["Parce que son atmosphère est très épaisse", "Parce qu’elle est plus proche du Soleil que la Terre", "Parce que son atmosphère est très fine", "Parce qu’elle n’a pas de rotation"],
+      "question": "Pourquoi les températures varient-elles fortement à la surface de Mars ?",
+      "answers": [
+        "Son atmosphère très épaisse amplifie les échanges",
+        "Elle est légèrement plus proche du Soleil",
+        "Son atmosphère trop ténue ne régule pas la chaleur",
+        "Parce que Mars n'a aucune rotation sur elle-même"
+      ],
       "correctIndex": 2,
-      "explanation": "L’atmosphère martienne est trop fine pour retenir efficacement la chaleur. Les températures changent donc fortement entre le jour et la nuit."
+      "explanation": "L'atmosphère martienne, 100 fois moins dense que celle de la Terre, ne retient presque pas la chaleur. Les températures peuvent varier de +20 °C en été près de l'équateur à midi jusqu'à −125 °C la nuit aux pôles. Cette amplitude thermique extrême, combinée aux vents, rend les conditions de surface très hostiles."
     },
     {
       "id": "12",
-      "question": "Quel est l’objectif principal du rover Perseverance ?",
-      "answers": ["Étudier Saturne", "Mesurer les marées martiennes", "Réparer des satellites", "Préparer des échantillons martiens pour un retour futur sur Terre"],
+      "question": "Quelle est la gravité à la surface de Mars par rapport à la Terre ?",
+      "answers": [
+        "Environ égale à celle de la Terre",
+        "Environ deux fois plus forte qu'sur Terre",
+        "Environ dix fois plus faible qu'sur Terre",
+        "Environ 38 % de la gravité terrestre"
+      ],
       "correctIndex": 3,
-      "explanation": "Perseverance explore le cratère Jezero et collecte des échantillons de roche. Ces échantillons pourraient être rapportés sur Terre lors de futures missions."
+      "explanation": "La gravité de surface sur Mars est d'environ 3,72 m/s², soit 38 % de la gravité terrestre (9,81 m/s²). Un objet de 100 kg sur Terre aurait un poids correspondant à environ 38 % de son poids terrestre sur Mars. Cette faible gravité aurait des conséquences importantes pour les futurs astronautes : perte musculaire et osseuse accélérée, et difficulté à revenir sur Terre après un long séjour."
     },
     {
       "id": "13",
       "question": "Quelle caractéristique rapproche Mars de la Terre ?",
-      "answers": ["Elle possède des océans liquides actuels", "Elle possède des saisons", "Elle a une atmosphère aussi dense", "Elle a une température moyenne identique"],
+      "answers": [
+        "Elle possède des océans liquides permanents",
+        "Elle possède des saisons comme la Terre",
+        "Elle a une atmosphère de densité comparable",
+        "Elle a une durée d'année identique à la Terre"
+      ],
       "correctIndex": 1,
-      "explanation": "Mars possède des saisons car son axe de rotation est incliné, comme celui de la Terre. Ses saisons sont toutefois plus longues, car Mars met plus de temps à faire le tour du Soleil."
+      "explanation": "L'axe de rotation de Mars est incliné d'environ 25,2°, très proche de celui de la Terre (23,5°). Mars connaît donc quatre saisons, mais chacune dure environ deux fois plus longtemps qu'une saison terrestre, car une année martienne équivaut à 687 jours terrestres."
     },
     {
       "id": "14",
       "question": "Quelle est la nature de Mars ?",
-      "answers": ["Une planète rocheuse", "Une géante gazeuse", "Une étoile froide", "Une comète"],
+      "answers": [
+        "Une planète rocheuse tellurique",
+        "Une géante gazeuse",
+        "Une planète naine",
+        "Une géante de glace"
+      ],
       "correctIndex": 0,
-      "explanation": "Mars est une planète rocheuse, aussi appelée planète tellurique. Sa surface solide présente des cratères, volcans, plaines, dunes et canyons."
+      "explanation": "Mars est une planète tellurique (rocheuse), comme Mercure, Vénus et la Terre. Son rayon est d'environ 3 390 km, soit la moitié de celui de la Terre. Sa masse est environ 10,7 % de celle de la Terre. Sa croûte est principalement composée de basalte, comme les fonds océaniques terrestres."
     },
     {
       "id": "15",
-      "question": "Pourquoi l’eau liquide est-elle difficile à maintenir à la surface de Mars aujourd’hui ?",
-      "answers": ["Parce que Mars est entièrement couverte de lave", "Parce que Mars n’a jamais eu de glace", "Parce que la pression atmosphérique est trop faible", "Parce que son sol absorbe toute l’eau"],
+      "question": "Que sait-on des calottes polaires de Mars ?",
+      "answers": [
+        "Elles sont entièrement composées de glace d'eau",
+        "Elles n'existent que lors des éclipses solaires",
+        "Glace d'eau et glace de CO₂ mélangées",
+        "Elles sont liquides en été martien"
+      ],
       "correctIndex": 2,
-      "explanation": "La pression atmosphérique martienne est très faible, ce qui rend l’eau liquide instable à la surface. Elle a tendance à geler, s’évaporer ou se sublimer rapidement."
+      "explanation": "Mars possède deux calottes polaires permanentes. La calotte nord est surtout composée de glace d'eau (jusqu'à 3 km d'épaisseur) avec une couche saisonnière de CO₂ gelé. La calotte sud contient davantage de glace de CO₂ en permanence. En été, la glace de CO₂ se sublime directement en gaz, faisant varier la pression atmosphérique globale de Mars d'environ 25 %."
     },
     {
       "id": "16",
-      "question": "Quel pays a réussi les premières missions à se poser et fonctionner durablement sur Mars ?",
-      "answers": ["La France", "Les États-Unis", "Le Japon", "L’Italie"],
+      "question": "Quel pays a réussi les premières missions à fonctionner durablement à la surface de Mars ?",
+      "answers": [
+        "L'URSS",
+        "Les États-Unis",
+        "La Chine",
+        "L'Union européenne"
+      ],
       "correctIndex": 1,
-      "explanation": "Les missions Viking de la NASA, dans les années 1970, ont été les premières à se poser sur Mars et à fonctionner durablement, fournissant des images et données inédites."
+      "explanation": "Les missions Viking 1 et Viking 2 de la NASA se sont posées sur Mars en 1976 et ont fonctionné pendant plusieurs années. Viking 1 a transmis des données pendant 6 ans et 116 jours. Ces missions ont réalisé les premières analyses chimiques du sol martien et recherché (sans succès concluant) des signes de vie."
     },
     {
       "id": "17",
-      "question": "Quel cratère est exploré par le rover Perseverance ?",
-      "answers": ["Cratère Gale", "Cratère Tycho", "Cratère Copernic", "Cratère Jezero"],
+      "question": "Dans quel cratère le rover Perseverance effectue-t-il ses recherches ?",
+      "answers": [
+        "Cratère Gale",
+        "Cratère Hellas",
+        "Cratère Argyre",
+        "Cratère Jezero"
+      ],
       "correctIndex": 3,
-      "explanation": "Perseverance explore le cratère Jezero, choisi car il abritait probablement un ancien lac et un delta. Ces environnements sont intéressants pour rechercher des traces d’habitabilité passée."
+      "explanation": "Perseverance explore le cratère Jezero (45 km de diamètre), choisi car il abritait un lac il y a environ 3,5 milliards d'années, alimenté par un réseau fluvial. Le delta fossilisé visible dans le cratère est un lieu privilégié pour rechercher des biosignatures (traces de vie microbienne passée). Perseverance y collecte des carottes rocheuses pour un éventuel retour sur Terre."
     },
     {
       "id": "18",
-      "question": "Quel danger naturel est fréquent sur Mars ?",
-      "answers": ["Tempêtes de poussière", "Tempêtes de glace", "Vents de méthane", "Tempêtes magnétiques"],
+      "question": "Quel phénomène météorologique est particulièrement fréquent et puissant sur Mars ?",
+      "answers": [
+        "Les tempêtes de poussière",
+        "Les pluies de grêle",
+        "Les cyclones tropicaux",
+        "Les brouillards épais persistants"
+      ],
       "correctIndex": 0,
-      "explanation": "Mars connaît de grandes tempêtes de poussière, parfois à l’échelle de la planète. Elles peuvent réduire la lumière solaire et compliquer les missions utilisant des panneaux solaires."
+      "explanation": "Mars est sujette à d'intenses tempêtes de poussière, parfois globales, qui peuvent envelopper toute la planète pendant des semaines ou des mois. La tempête de 2018 a mis fin à la mission du rover Opportunity en privant ses panneaux solaires de lumière. Ces tempêtes se forment car la poussière fine absorbe le rayonnement solaire, crée des gradients thermiques et génère des vents violents."
     },
     {
       "id": "19",
-      "question": "Quelle mission européenne étudie notamment les gaz de l’atmosphère martienne ?",
-      "answers": ["Rosetta", "ExoMars Trace Gas Orbiter", "Cassini", "New Horizons"],
+      "question": "Quelle mission européenne analyse les gaz traces de l'atmosphère martienne ?",
+      "answers": [
+        "Rosetta",
+        "ExoMars Trace Gas Orbiter",
+        "Mars Express seul",
+        "BepiColombo"
+      ],
       "correctIndex": 1,
-      "explanation": "ExoMars Trace Gas Orbiter analyse les gaz présents en faibles quantités dans l’atmosphère martienne, comme le méthane, afin de mieux comprendre les processus chimiques et géologiques de Mars."
+      "explanation": "ExoMars Trace Gas Orbiter (TGO), lancé en 2016 par l'ESA et Roscosmos, analyse les gaz présents en très faibles quantités dans l'atmosphère martienne. Ses mesures n'ont pas confirmé la présence globale de méthane détectée par Curiosity, ce qui alimente un débat scientifique sur l'origine et la distribution de ce gaz. Le TGO a également cartographié les dépôts souterrains d'hydrogène, indice de glace d'eau proche de la surface."
     },
     {
       "id": "20",
-      "question": "Pourquoi Mars intéresse-t-elle autant les scientifiques ?",
-      "answers": ["Parce qu’elle est plus grande que Jupiter", "Parce qu’elle produit sa propre lumière", "Parce qu’elle pourrait aider à comprendre l’histoire de l’eau et de l’habitabilité", "Parce qu’elle possède déjà des forêts"],
-      "correctIndex": 2,
-      "explanation": "Mars conserve des traces d’environnements anciens qui ont pu être favorables à l’eau liquide. Son étude aide à comprendre si des conditions habitables ont pu exister ailleurs que sur Terre."
+      "question": "Pourquoi Mars intéresse-t-elle autant les scientifiques en astrobiologie ?",
+      "answers": [
+        "Sa taille permet une colonisation immédiate",
+        "Elle possède une biosphère active détectable",
+        "Elle offre des conditions propices à la vie",
+        "Elle a peut-être abrité de l'eau liquide ancienne"
+      ],
+      "correctIndex": 3,
+      "explanation": "Mars présente de nombreux indices d'un passé potentiellement habitable : eau liquide ancienne, chaleur géothermique, composés organiques détectés par Curiosity. Si la vie a jamais émergé sur Mars, des traces microbiennes fossilisées pourraient y être conservées. Son étude aide aussi à comprendre comment une planète rocheuse peut perdre son atmosphère et son eau, éclairant l'histoire de la Terre."
     }
   ]
 }

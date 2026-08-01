@@ -1,261 +1,261 @@
 {
-    "slug": "quiz-experiences-medicales-historiques",
-    "title": "Quiz Sciences - Les Expériences Médicales Historiques",
-    "description": "Vaccination, anesthésie, microbiologie et découvertes médicales : connais-tu les expériences qui ont marqué l’histoire de la médecine ?",
-    "publishedAt": "2026-06-12",
-    "descriptionSeo": "Découvre les expériences médicales historiques qui ont transformé la science et la médecine. Vaccins, antisepsie, microbiologie, circulation sanguine et découvertes majeures : teste tes connaissances avec 20 questions et apprends comment ces expériences ont changé notre compréhension du corps humain.",
-    "category": {
-        "name": "Sciences",
-        "slug": "sciences"
+  "slug": "quiz-experiences-medicales-historiques",
+  "title": "Quiz Sciences - Les Expériences Médicales Historiques",
+  "description": "Vaccination, anesthésie, microbiologie et découvertes médicales : connais-tu les expériences qui ont marqué l'histoire de la médecine ?",
+  "publishedAt": "2026-06-12",
+  "descriptionSeo": "Découvre les expériences médicales historiques qui ont transformé la science et la médecine. Vaccins, antisepsie, microbiologie, circulation sanguine et découvertes majeures : teste tes connaissances avec 20 questions et apprends comment ces expériences ont changé notre compréhension du corps humain.",
+  "category": {
+    "name": "Sciences",
+    "slug": "sciences"
+  },
+  "createdAt": "2026-06-06",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1780745645/medical-experiment_ji0g19.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1780745645/medical-experiment_ji0g19.jpg",
+    "alt": "Quiz expériences médicales historiques"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "question": "Quel médecin britannique a testé à la fin du XVIIIe siècle une méthode qui donnera naissance à la vaccination moderne ?",
+      "answers": [
+        "John Hunter",
+        "Edward Jenner",
+        "Thomas Sydenham",
+        "James Lind"
+      ],
+      "correctIndex": 1,
+      "explanation": "En 1796, Edward Jenner inocula du pus de vaccine (variole bovine) à un enfant de 8 ans, James Phipps, qui résista ensuite à une inoculation de variole humaine. Ce principe d'immunisation active fut généralisé par Pasteur au XIXe siècle et mena à l'éradication de la variole, déclarée par l'OMS en 1980."
     },
-    "createdAt": "2026-06-06",
-    "isNew": true,
-    "isPopular": true,
-    "images": {
-        "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1780745645/medical-experiment_ji0g19.jpg",
-        "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1780745645/medical-experiment_ji0g19.jpg",
-        "alt": "Quiz expériences médicales historiques"
+    {
+      "id": "2",
+      "question": "Quel scientifique français a réfuté la génération spontanée et fondé la microbiologie moderne ?",
+      "answers": [
+        "Félix-Archimède Pouchet",
+        "Henri Braconnot",
+        "Marcelin Berthelot",
+        "Louis Pasteur"
+      ],
+      "correctIndex": 3,
+      "explanation": "En 1861, Pasteur démontra avec ses flacons à col de cygne que des bouillons stérilisés ne se troublaient qu'au contact de l'air extérieur, réfutant définitivement la génération spontanée défendue par Pouchet. Il développa ensuite la pasteurisation, plusieurs vaccins (anthrax, rage) et jeta les bases de la microbiologie médicale."
     },
-    "questions": [
-        {
-            "id": "1",
-            "question": "Quel médecin britannique a testé à la fin du XVIIIe siècle une méthode qui donnera naissance à la vaccination moderne ?",
-            "answers": [
-                "Louis Pasteur",
-                "Edward Jenner",
-                "Robert Koch",
-                "Joseph Lister"
-            ],
-            "correctIndex": 1,
-            "explanation": "Edward Jenner observa que les personnes exposées à la vaccine semblaient protégées contre la variole. Ses travaux sont à l’origine du principe de la vaccination moderne."
-        },
-        {
-            "id": "2",
-            "question": "Quel scientifique français a réfuté l’idée de génération spontanée et contribué à fonder la microbiologie moderne ?",
-            "answers": [
-                "Claude Bernard",
-                "Gregor Mendel",
-                "Alexander Fleming",
-                "Louis Pasteur"
-            ],
-            "correctIndex": 3,
-            "explanation": "Louis Pasteur a montré que les micro-organismes ne naissaient pas spontanément dans les milieux stériles. Ses travaux ont renforcé la théorie microbienne et transformé l’hygiène, la vaccination et la microbiologie."
-        },
-        {
-            "id": "3",
-            "question": "Quel médecin hongrois a montré l’importance du lavage des mains dans la réduction de la mortalité en maternité ?",
-            "answers": [
-                "Ignace Semmelweis",
-                "Andreas Vesalius",
-                "William Harvey",
-                "Paul Ehrlich"
-            ],
-            "correctIndex": 0,
-            "explanation": "Ignace Semmelweis constata que le lavage des mains des médecins réduisait fortement les décès liés à la fièvre puerpérale dans les maternités."
-        },
-        {
-            "id": "4",
-            "question": "Quel chirurgien britannique a popularisé l’utilisation d’antiseptiques lors des opérations ?",
-            "answers": [
-                "Robert Koch",
-                "Joseph Lister",
-                "Edward Jenner",
-                "John Snow"
-            ],
-            "correctIndex": 1,
-            "explanation": "Joseph Lister appliqua les principes de la théorie microbienne à la chirurgie, réduisant fortement les infections postopératoires."
-        },
-        {
-            "id": "5",
-            "question": "Quel médecin anglais a démontré que le sang circule en boucle dans le corps ?",
-            "answers": [
-                "William Harvey",
-                "Ambroise Paré",
-                "Galien",
-                "Avicenne"
-            ],
-            "correctIndex": 0,
-            "explanation": "William Harvey démontra au XVIIe siècle que le cœur agit comme une pompe et que le sang circule dans un système fermé."
-        },
-        {
-            "id": "6",
-            "question": "Quel médecin est souvent considéré comme le fondateur de l’épidémiologie moderne après avoir étudié une épidémie de choléra à Londres ?",
-            "answers": [
-                "Joseph Lister",
-                "John Snow",
-                "Robert Hooke",
-                "Andreas Vesalius"
-            ],
-            "correctIndex": 1,
-            "explanation": "John Snow identifia une pompe à eau contaminée comme source probable d’une épidémie de choléra, une avancée majeure pour la santé publique."
-        },
-        {
-            "id": "7",
-            "question": "Quel scientifique allemand a établi des règles permettant d’associer un microbe précis à une maladie donnée ?",
-            "answers": [
-                "Paul Ehrlich",
-                "Robert Koch",
-                "Louis Pasteur",
-                "Emil von Behring"
-            ],
-            "correctIndex": 1,
-            "explanation": "Les postulats de Koch ont constitué une étape essentielle dans le développement de la microbiologie médicale."
-        },
-        {
-            "id": "8",
-            "question": "Quelle découverte accidentelle réalisée en 1928 a conduit à la mise au point du premier antibiotique largement utilisé ?",
-            "answers": [
-                "L’insuline",
-                "La pénicilline",
-                "L’aspirine",
-                "La streptomycine"
-            ],
-            "correctIndex": 1,
-            "explanation": "Alexander Fleming observa qu’une moisissure empêchait la croissance de bactéries. Cette découverte mena au développement de la pénicilline."
-        },
-        {
-            "id": "9",
-            "question": "Quel chercheur participa à la découverte de l’insuline au début des années 1920 ?",
-            "answers": [
-                "Frederick Banting",
-                "Louis Pasteur",
-                "Jonas Salk",
-                "Edward Jenner"
-            ],
-            "correctIndex": 0,
-            "explanation": "Frederick Banting et ses collaborateurs contribuèrent à isoler l’insuline, révolutionnant le traitement du diabète."
-        },
-        {
-            "id": "10",
-            "question": "Quel vaccin mis au point dans les années 1950 a contribué à faire reculer une maladie qui paralysait des milliers d’enfants ?",
-            "answers": [
-                "Vaccin contre la rougeole",
-                "Vaccin contre la poliomyélite",
-                "Vaccin contre la rage",
-                "Vaccin contre la tuberculose"
-            ],
-            "correctIndex": 1,
-            "explanation": "Le vaccin de Jonas Salk puis celui d’Albert Sabin ont joué un rôle majeur dans la lutte mondiale contre la poliomyélite."
-        },
-        {
-            "id": "11",
-            "question": "Quel anatomiste de la Renaissance a remis en question plusieurs idées héritées de l’Antiquité grâce à ses dissections ?",
-            "answers": [
-                "Andreas Vesalius",
-                "Galien",
-                "Paracelse",
-                "William Harvey"
-            ],
-            "correctIndex": 0,
-            "explanation": "Andreas Vesalius améliora considérablement les connaissances anatomiques grâce à l’observation directe du corps humain."
-        },
-        {
-            "id": "12",
-            "question": "Quelle substance a été utilisée au XIXe siècle pour rendre les opérations chirurgicales beaucoup moins douloureuses ?",
-            "answers": [
-                "L’éther",
-                "L’iode",
-                "La quinine",
-                "Le mercure"
-            ],
-            "correctIndex": 0,
-            "explanation": "L’utilisation de l’éther comme anesthésique a profondément transformé la chirurgie en permettant des interventions plus longues et plus complexes."
-        },
-        {
-            "id": "13",
-            "question": "Quel scientifique a développé l’un des premiers traitements efficaces contre la syphilis au début du XXe siècle ?",
-            "answers": [
-                "Paul Ehrlich",
-                "Robert Koch",
-                "Alexander Fleming",
-                "Emil Fischer"
-            ],
-            "correctIndex": 0,
-            "explanation": "Paul Ehrlich développa le Salvarsan, souvent considéré comme l’un des premiers traitements modernes ciblant spécifiquement une maladie infectieuse."
-        },
-        {
-            "id": "14",
-            "question": "Quel médecin français est célèbre pour avoir amélioré les techniques chirurgicales et les soins des blessés de guerre à la Renaissance ?",
-            "answers": [
-                "Ambroise Paré",
-                "Claude Bernard",
-                "Jean-Martin Charcot",
-                "René Laennec"
-            ],
-            "correctIndex": 0,
-            "explanation": "Ambroise Paré abandonna certaines pratiques brutales de son époque et améliora les méthodes de traitement des blessures."
-        },
-        {
-            "id": "15",
-            "question": "Quel scientifique a introduit le concept de médecine expérimentale au XIXe siècle ?",
-            "answers": [
-                "Claude Bernard",
-                "Louis Pasteur",
-                "Joseph Lister",
-                "Gregor Mendel"
-            ],
-            "correctIndex": 0,
-            "explanation": "Claude Bernard insistait sur l’importance des expériences contrôlées pour comprendre le fonctionnement du corps humain."
-        },
-        {
-            "id": "16",
-            "question": "Quelle invention de René Laennec a transformé l’examen clinique au début du XIXe siècle ?",
-            "answers": [
-                "Le stéthoscope",
-                "Le thermomètre médical",
-                "Le microscope",
-                "La seringue"
-            ],
-            "correctIndex": 0,
-            "explanation": "Le stéthoscope a permis d’écouter plus précisément les sons du cœur et des poumons, améliorant considérablement le diagnostic médical."
-        },
-        {
-            "id": "17",
-            "question": "Quel scientifique est associé à la découverte du groupe sanguin ABO au début du XXe siècle ?",
-            "answers": [
-                "Karl Landsteiner",
-                "Frederick Banting",
-                "Paul Ehrlich",
-                "John Snow"
-            ],
-            "correctIndex": 0,
-            "explanation": "Karl Landsteiner identifia les principaux groupes sanguins, rendant les transfusions beaucoup plus sûres."
-        },
-        {
-            "id": "18",
-            "question": "Quelle technique a permis pour la première fois d’observer directement de nombreux micro-organismes invisibles à l’œil nu ?",
-            "answers": [
-                "Le microscope",
-                "Le stéthoscope",
-                "L’électrocardiogramme",
-                "Le scanner"
-            ],
-            "correctIndex": 0,
-            "explanation": "L’amélioration des microscopes a ouvert la voie à la microbiologie et à la compréhension du monde microscopique."
-        },
-        {
-            "id": "19",
-            "question": "Quel médecin a mis au point le premier vaccin efficace contre la poliomyélite dans les années 1950 ?",
-            "answers": [
-                "Albert Sabin",
-                "Frederick Banting",
-                "Edward Jenner",
-                "Jonas Salk"
-            ],
-            "correctIndex": 3,
-            "explanation": "Jonas Salk met au point un vaccin injectable contre la poliomyélite dans les années 1950. Il est suivi par le vaccin oral d’Albert Sabin, qui facilite ensuite les grandes campagnes de vaccination."
-        },
-        {
-            "id": "20",
-            "question": "Quelle technique médicale a permis d’obtenir des images détaillées de l’intérieur du corps sans chirurgie ?",
-            "answers": [
-                "L’imagerie par résonance magnétique",
-                "La vaccination",
-                "L’antisepsie",
-                "La greffe d’organe"
-            ],
-            "correctIndex": 0,
-            "explanation": "L’IRM permet d’obtenir des images très précises des tissus internes sans intervention chirurgicale, constituant une avancée majeure du diagnostic médical."
-        }
-    ]
+    {
+      "id": "3",
+      "question": "Quel médecin hongrois a montré l'importance du lavage des mains pour réduire la mortalité en maternité ?",
+      "answers": [
+        "Ignace Semmelweis",
+        "Theodor Billroth",
+        "Josef Škoda",
+        "Carl Rokitansky"
+      ],
+      "correctIndex": 0,
+      "explanation": "En 1847, Semmelweis observa à la maternité de Vienne que le taux de mortalité par fièvre puerpérale était 5 à 10 fois plus élevé dans le service des médecins que dans celui des sages-femmes. En imposant le lavage des mains à l'eau chlorée, il fit passer la mortalité de 10-18 % à moins de 2 %. Ses travaux furent longtemps rejetés par ses contemporains."
+    },
+    {
+      "id": "4",
+      "question": "Quel chirurgien britannique a popularisé l'utilisation d'antiseptiques lors des opérations ?",
+      "answers": [
+        "John Abernethy",
+        "Joseph Lister",
+        "Astley Cooper",
+        "Benjamin Brodie"
+      ],
+      "correctIndex": 1,
+      "explanation": "À partir de 1865, Joseph Lister appliqua les travaux de Pasteur à la chirurgie en utilisant l'acide phénique (phénol) comme antiseptique. Le taux de mortalité postopératoire dans son service chuta de 45 % à moins de 15 %. Il introduisit aussi un spray phéniqué pour stériliser l'air au bloc opératoire — pratique conforme aux connaissances de l'époque sur la transmission des infections, mais abandonnée par la suite au profit de techniques aseptiques."
+    },
+    {
+      "id": "5",
+      "question": "Quel médecin anglais a démontré que le sang circule en boucle fermée dans le corps ?",
+      "answers": [
+        "William Harvey",
+        "Thomas Willis",
+        "Galien",
+        "Richard Lower"
+      ],
+      "correctIndex": 0,
+      "explanation": "Dans De motu cordis (1628), William Harvey démontra par des expériences de ligature et de calcul du débit cardiaque que le cœur propulse le sang dans un circuit fermé. Il calcula que le volume sanguin propulsé en une heure dépassait le poids corporel, réfutant l'idée galénique d'une production continue de sang par le foie."
+    },
+    {
+      "id": "6",
+      "question": "Quel médecin est considéré comme le fondateur de l'épidémiologie moderne après avoir cartographié une épidémie de choléra à Londres ?",
+      "answers": [
+        "Edwin Chadwick",
+        "John Snow",
+        "William Budd",
+        "Thomas Southwood Smith"
+      ],
+      "correctIndex": 1,
+      "explanation": "En 1854, John Snow cartographia les cas de choléra dans le quartier de Soho à Londres et identifia la pompe à eau de Broad Street comme source de contamination. En faisant retirer la manivelle de la pompe, il stoppa l'épidémie. Cette approche spatiale et statistique des maladies fonda l'épidémiologie moderne, bien avant que le bacille du choléra ne soit isolé."
+    },
+    {
+      "id": "7",
+      "question": "Quel scientifique allemand a établi des critères rigoureux pour associer un micro-organisme à une maladie donnée ?",
+      "answers": [
+        "Ferdinand Cohn",
+        "Robert Koch",
+        "Friedrich Löffler",
+        "Carl Fraenkel"
+      ],
+      "correctIndex": 1,
+      "explanation": "Robert Koch formula ses postulats en 1884 : l'agent pathogène doit être présent dans tous les cas, isolable, capable de reproduire la maladie par inoculation et réisolable. Il identifia le bacille du choléra (1883), celui de la tuberculose (1882, Nobel 1905) et celui de l'anthrax, révolutionnant la microbiologie médicale. Ces postulats, bien que fondateurs, présentent aujourd'hui des exceptions reconnues : ils ne s'appliquent pas directement aux virus, aux porteurs sains asymptomatiques, ni à certains agents pathogènes difficiles à cultiver."
+    },
+    {
+      "id": "8",
+      "question": "Quelle découverte accidentelle réalisée en 1928 a conduit au premier antibiotique largement utilisé ?",
+      "answers": [
+        "La streptomycine",
+        "L'aspirine",
+        "Le sulfamide",
+        "La pénicilline"
+      ],
+      "correctIndex": 3,
+      "explanation": "Alexander Fleming observa en 1928 qu'une moisissure (Penicillium notatum) avait contaminé une boîte de Petri et dissous les colonies de staphylocoques environnantes. La pénicilline fut purifiée et produite en masse par Florey et Chain en 1940. Elle sauva des millions de vies pendant la Seconde Guerre mondiale. Fleming, Florey et Chain reçurent le Nobel de médecine en 1945."
+    },
+    {
+      "id": "9",
+      "question": "Quel chercheur a contribué à isoler l'insuline au début des années 1920, révolutionnant le traitement du diabète ?",
+      "answers": [
+        "Charles Best",
+        "Frederick Banting",
+        "John Macleod",
+        "James Collip"
+      ],
+      "correctIndex": 1,
+      "explanation": "Frederick Banting eut l'idée de ligaturer le canal pancréatique pour isoler la sécrétion du pancréas. Avec Charles Best, John Macleod et James Collip, il isola l'insuline en 1921 à l'Université de Toronto. La première injection sur un patient diabétique humain (Leonard Thompson, 11 ans) eut lieu le 11 janvier 1922. Banting et Macleod reçurent le Nobel en 1923."
+    },
+    {
+      "id": "10",
+      "question": "Quelle découverte de 1895 permit pour la première fois d'obtenir des images des structures internes du corps humain sans chirurgie ?",
+      "answers": [
+        "L'ultrasonographie",
+        "La tomodensitométrie",
+        "Les rayons X",
+        "La scintigraphie"
+      ],
+      "correctIndex": 2,
+      "explanation": "Wilhelm Röntgen découvrit les rayons X le 8 novembre 1895 par accident, en étudiant les tubes cathodiques. La première radiographie médicale montra la main de son épouse avec sa bague. Cette découverte révolutionna immédiatement le diagnostic médical et valut à Röntgen le premier Prix Nobel de physique en 1901."
+    },
+    {
+      "id": "11",
+      "question": "Quel anatomiste de la Renaissance a remis en question les idées héritées de l'Antiquité grâce à ses dissections systématiques ?",
+      "answers": [
+        "Mondino de Luzzi",
+        "Léonard de Vinci",
+        "Andreas Vesalius",
+        "Realdo Colombo"
+      ],
+      "correctIndex": 2,
+      "explanation": "Andreas Vesalius publia en 1543 De humani corporis fabrica, un atlas anatomique basé sur ses propres dissections à Padoue. Il corrigea plus de 200 erreurs de Galien, dont l'existence d'un passage entre les deux ventricules cardiaques. Son approche fondée sur l'observation directe plutôt que sur l'autorité des anciens marqua la naissance de l'anatomie moderne."
+    },
+    {
+      "id": "12",
+      "question": "Quelle substance a rendu les opérations chirurgicales beaucoup moins douloureuses au XIXe siècle ?",
+      "answers": [
+        "La morphine",
+        "Le chloroforme",
+        "L'éther",
+        "Le laudanum"
+      ],
+      "correctIndex": 2,
+      "explanation": "Crawford Long avait utilisé l'éther dès 1842 pour une petite opération en Géorgie, mais sans publier ses résultats. La première démonstration publique eut lieu le 16 octobre 1846 au Massachusetts General Hospital (Boston), réalisée par William Morton. Cette date est connue comme le « jour de l'éther ». Le chloroforme fut rapidement adopté ensuite. L'anesthésie générale permettait des opérations longues impossibles auparavant et transforma radicalement la chirurgie."
+    },
+    {
+      "id": "13",
+      "question": "Quel scientifique développa l'un des premiers traitements ciblant spécifiquement une maladie infectieuse au début du XXe siècle ?",
+      "answers": [
+        "August von Wassermann",
+        "Ilya Mechnikov",
+        "Heinrich Hermann Koch",
+        "Paul Ehrlich"
+      ],
+      "correctIndex": 3,
+      "explanation": "Paul Ehrlich et Sahachiro Hata découvrirent en 1909 le Salvarsan (arsphenamine, composé 606), premier traitement efficace contre la syphilis. Ehrlich avait conçu le concept de « balle magique » — une substance chimique capable de tuer un agent pathogène sans nuire à l'hôte — fondant ainsi la chimiothérapie antimicrobienne. Il avait reçu le Nobel de médecine en 1908."
+    },
+    {
+      "id": "14",
+      "question": "Quel médecin français de la Renaissance améliora considérablement les techniques chirurgicales et les soins des blessés de guerre ?",
+      "answers": [
+        "François Rabelais",
+        "Jean Fernel",
+        "Symphorien Champier",
+        "Ambroise Paré"
+      ],
+      "correctIndex": 3,
+      "explanation": "Ambroise Paré abandonna la cautérisation des plaies à l'huile bouillante pour les pansements doux à base d'œuf, huile de rose et térébenthine, obtenant de meilleurs résultats. Il réintroduisit la ligature des artères lors des amputations et améliora les prothèses. Chirurgien de quatre rois de France, il est souvent considéré comme le père de la chirurgie moderne."
+    },
+    {
+      "id": "15",
+      "question": "Quel scientifique a introduit le concept de médecine expérimentale et défendu l'usage de groupes témoins dans les expériences ?",
+      "answers": [
+        "Claude Bernard",
+        "Pierre-Charles-Alexandre Louis",
+        "François Magendie",
+        "Théophile de Bordeu"
+      ],
+      "correctIndex": 0,
+      "explanation": "Dans son Introduction à l'étude de la médecine expérimentale (1865), Claude Bernard posa les bases de la physiologie expérimentale : toute conclusion médicale doit reposer sur des expériences comparatives et contrôlées, reproductibles et fondées sur le principe de déterminisme. Il découvrit également le glycogène hépatique et le rôle du pancréas dans la digestion des graisses."
+    },
+    {
+      "id": "16",
+      "question": "Quelle invention de René Laennec transforma l'examen clinique au début du XIXe siècle ?",
+      "answers": [
+        "Le stéthoscope",
+        "Le thermomètre clinique",
+        "L'ophtalmoscope",
+        "Le sphygmomanomètre"
+      ],
+      "correctIndex": 0,
+      "explanation": "En 1816, René Laennec roula des feuilles de papier en tube pour ausculter le cœur d'une jeune patiente obèse, inventant ainsi le stéthoscope. Il publia en 1819 De l'auscultation médiate, décrivant les sons cardiaques et pulmonaires. Le stéthoscope permettait un diagnostic plus précis des maladies du cœur et des poumons et reste symbole de la médecine clinique."
+    },
+    {
+      "id": "17",
+      "question": "Quel scientifique identifia les groupes sanguins ABO, rendant les transfusions sanguines beaucoup plus sûres ?",
+      "answers": [
+        "Richard Lower",
+        "Jean-Baptiste Denis",
+        "Karl Landsteiner",
+        "George Minot"
+      ],
+      "correctIndex": 2,
+      "explanation": "Karl Landsteiner découvrit les groupes sanguins A, B et O en 1901 ; le groupe AB fut identifié en 1902 par Alfred von Decastello et Adriano Sturli, deux collaborateurs de Landsteiner. Cette découverte expliquait les réactions mortelles lors des transfusions incompatibles. Landsteiner reçut le Nobel de médecine en 1930. Il découvrit aussi le facteur Rhésus en 1940, nouvelle avancée cruciale pour les transfusions."
+    },
+    {
+      "id": "18",
+      "question": "Quelle invention de Willem Einthoven au début du XXe siècle permit d'enregistrer l'activité électrique du cœur ?",
+      "answers": [
+        "Le phonocardiographe",
+        "Le sphygmographe",
+        "L'électrocardiogramme",
+        "L'échocardiographe"
+      ],
+      "correctIndex": 2,
+      "explanation": "Willem Einthoven mit au point en 1903 le galvanomètre à corde qui permit d'enregistrer les potentiels électriques du cœur : l'électrocardiogramme (ECG). Il identifia les ondes P, Q, R, S, T encore utilisées aujourd'hui. Il reçut le Nobel de médecine en 1924. L'ECG reste l'un des examens cardiaques les plus utilisés au monde."
+    },
+    {
+      "id": "19",
+      "question": "Quel médecin mit au point le premier vaccin injectable contre la poliomyélite, testé à grande échelle en 1954 ?",
+      "answers": [
+        "Albert Sabin",
+        "Hilary Koprowski",
+        "Isabel Morgan",
+        "Jonas Salk"
+      ],
+      "correctIndex": 3,
+      "explanation": "Jonas Salk développa un vaccin antipoliomyélitique inactivé, testé en 1954 sur 1,8 million d'enfants — le plus grand essai clinique de l'histoire à cette époque. Son efficacité à 80-90 % fut annoncée le 12 avril 1955. Albert Sabin développa ensuite un vaccin oral atténué, plus facile à administrer et utilisé dans les grandes campagnes mondiales d'éradication."
+    },
+    {
+      "id": "20",
+      "question": "Quelle technique d'imagerie médicale permet d'obtenir des images détaillées des tissus mous sans chirurgie ni rayonnements ionisants ?",
+      "answers": [
+        "L'imagerie par résonance magnétique",
+        "La radiographie conventionnelle",
+        "La scintigraphie",
+        "La tomographie par émission de positons"
+      ],
+      "correctIndex": 0,
+      "explanation": "L'IRM, développée dans les années 1970-1980 par Paul Lauterbur et Peter Mansfield (Nobel 2003), exploite la résonance magnétique nucléaire des atomes d'hydrogène tissulaires. Raymond Damadian avait auparavant démontré en 1971 que les tissus tumoraux pouvaient être distingués des tissus sains par cette technique, posant une base importante pour ses applications médicales. L'IRM donne des images très précises des tissus mous sans rayonnements ionisants."
+    }
+  ]
 }
