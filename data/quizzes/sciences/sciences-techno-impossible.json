@@ -1,281 +1,281 @@
 {
-    "slug": "quiz-technologies-semblaient-impossibles",
-    "title": "Quiz Sciences - Les Technologies qui Semblaient Impossibles - 20 innovations devenues réalité",
-    "description": "Teste tes connaissances sur les inventions et technologies qui relevaient autrefois de la science-fiction.",
-    "publishedAt": "2026-06-15",
-    "descriptionSeo": "Smartphones, intelligence artificielle, impression 3D, GPS, voitures autonomes, réalité virtuelle ou encore séquençage de l’ADN : de nombreuses technologies qui semblaient impossibles sont devenues réalité. Ce quiz sciences te propose 20 questions pour découvrir les innovations qui ont transformé notre quotidien et repoussé les limites de la technologie moderne.",
-    "category": {
-        "name": "Sciences",
-        "slug": "sciences"
+  "slug": "quiz-technologies-semblaient-impossibles",
+  "title": "Quiz Sciences - Les Technologies qui Semblaient Impossibles - 20 innovations devenues réalité",
+  "description": "Teste tes connaissances sur les inventions et technologies qui relevaient autrefois de la science-fiction.",
+  "publishedAt": "2026-06-15",
+  "descriptionSeo": "Smartphones, intelligence artificielle, impression 3D, GPS, voitures autonomes, réalité virtuelle ou encore séquençage de l'ADN : de nombreuses technologies qui semblaient impossibles sont devenues réalité. Ce quiz de sciences te propose 20 questions pour découvrir les innovations qui ont transformé notre quotidien et repoussé les limites de la technologie moderne.",
+  "category": {
+    "name": "Sciences",
+    "slug": "sciences"
+  },
+  "createdAt": "2026-06-13",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1780785903/rv_kbwrom.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1780785903/rv_kbwrom.jpg",
+    "alt": "Quiz sur les technologies qui semblaient impossibles"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "question": "Quelle technologie permet à un téléphone d'indiquer sa position presque partout sur Terre ?",
+      "image": null,
+      "answers": [
+        "Le GPS",
+        "Le Bluetooth",
+        "Le Wi-Fi",
+        "Le NFC"
+      ],
+      "correctIndex": 0,
+      "explanation": "Le GPS (Global Positioning System) utilise une constellation de satellites en orbite moyenne (~20 200 km) qui émettent des signaux permettant à un récepteur de calculer sa position avec une précision de quelques mètres. Développé par le département de la Défense américain dans les années 1970 pour des usages militaires, il a été progressivement ouvert à l'usage civil à partir de 1983, avec une disponibilité totale et permanente déclarée en 1995. Le smartphone l'a démocratisé à partir de 2007."
     },
-    "createdAt": "2026-06-13",
-    "isNew": true,
-    "isPopular": true,
-    "images": {
-        "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1780785903/rv_kbwrom.jpg",
-        "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1780785903/rv_kbwrom.jpg",
-        "alt": "Quiz sur les technologies qui semblaient impossibles"
+    {
+      "id": "2",
+      "question": "Quelle technologie permet de fabriquer un objet couche par couche à partir d'un modèle numérique ?",
+      "image": null,
+      "answers": [
+        "La lithographie",
+        "L'impression 3D",
+        "Le moulage industriel",
+        "La gravure laser"
+      ],
+      "correctIndex": 1,
+      "explanation": "L'impression 3D (fabrication additive) dépose de la matière couche par couche à partir d'un fichier numérique. Les procédés incluent le dépôt de fil fondu (FDM), la stéréolithographie (SLA) et le frittage laser (SLS). Elle est utilisée pour imprimer des prothèses médicales personnalisées, des pièces aéronautiques en titane, des modèles architecturaux et même des structures habitables."
     },
-    "questions": [
-        {
-            "id": "1",
-            "question": "Quelle technologie permet aujourd’hui à un téléphone d’indiquer sa position presque partout sur Terre ?",
-            "image": null,
-            "answers": [
-                "Le GPS",
-                "Le Bluetooth",
-                "Le Wi-Fi",
-                "Le NFC"
-            ],
-            "correctIndex": 0,
-            "explanation": "Le GPS utilise une constellation de satellites pour calculer une position avec précision. Lors de son développement, l’idée de connaître sa localisation presque instantanément partout sur la planète semblait relever de la science-fiction."
-        },
-        {
-            "id": "2",
-            "question": "Quelle technologie permet de fabriquer un objet couche par couche à partir d’un modèle numérique ?",
-            "image": null,
-            "answers": [
-                "La lithographie",
-                "L’impression 3D",
-                "Le moulage industriel",
-                "La gravure laser"
-            ],
-            "correctIndex": 1,
-            "explanation": "L’impression 3D permet de produire des pièces complexes directement à partir d’un fichier numérique. Elle est utilisée dans l’industrie, la médecine, l’aéronautique et même la construction."
-        },
-        {
-            "id": "3",
-            "question": "Quelle technologie permet à un ordinateur d’identifier des objets dans une image ?",
-            "image": null,
-            "answers": [
-                "La réalité augmentée",
-                "La vision par ordinateur",
-                "La fibre optique",
-                "La cryptographie"
-            ],
-            "correctIndex": 1,
-            "explanation": "La vision par ordinateur permet aux machines d’analyser des images et des vidéos. Cette capacité était longtemps considérée comme extrêmement difficile à reproduire artificiellement."
-        },
-        {
-            "id": "4",
-            "question": "Quel domaine de l’informatique vise à reproduire certaines capacités cognitives humaines ?",
-            "image": null,
-            "answers": [
-                "La robotique",
-                "La réalité virtuelle",
-                "L’électronique",
-                "L’intelligence artificielle"
-            ],
-            "correctIndex": 3,
-            "explanation": "L’intelligence artificielle regroupe des techniques permettant à des systèmes informatiques d’apprendre, de reconnaître des modèles ou de prendre certaines décisions. Son développement a profondément transformé de nombreux secteurs."
-        },
-        {
-            "id": "5",
-            "question": "Quelle technologie permet de plonger un utilisateur dans un environnement entièrement numérique ?",
-            "image": null,
-            "answers": [
-                "Le cloud computing",
-                "La biométrie",
-                "La réalité virtuelle",
-                "Le streaming"
-            ],
-            "correctIndex": 2,
-            "explanation": "La réalité virtuelle crée une immersion dans un univers généré par ordinateur. Longtemps cantonnée à la science-fiction, elle est aujourd’hui utilisée dans le jeu vidéo, la formation et la recherche."
-        },
-        {
-            "id": "6",
-            "question": "Quelle innovation permet de modifier précisément certaines séquences d’ADN ?",
-            "image": null,
-            "answers": [
-                "La PCR",
-                "CRISPR-Cas9",
-                "Le clonage",
-                "Le séquençage Sanger"
-            ],
-            "correctIndex": 1,
-            "explanation": "CRISPR-Cas9 a révolutionné la génétique en offrant un moyen relativement simple de modifier des gènes. Cette avancée ouvre des perspectives importantes en médecine et en biologie."
-        },
-        {
-            "id": "7",
-            "question": "Quelle technologie permet aujourd’hui à des programmes informatiques de générer du texte, des images ou du code de manière autonome ?",
-            "image": null,
-            "answers": [
-                "L’intelligence artificielle générative",
-                "La réalité augmentée",
-                "La fibre optique",
-                "Le GPS"
-            ],
-            "correctIndex": 0,
-            "explanation": "L’intelligence artificielle générative est capable de produire du contenu inédit à partir d’exemples appris durant son entraînement. Pendant des décennies, l’idée qu’une machine puisse rédiger des textes cohérents, créer des images réalistes ou écrire du code semblait relever de la science-fiction. Les progrès récents ont profondément transformé les domaines de la création, de l’éducation et du travail."
-        },
-        {
-            "id": "8",
-            "question": "Quelle technologie permet de stocker des données et d’utiliser des logiciels à distance via Internet ?",
-            "image": null,
-            "answers": [
-                "Le cloud computing",
-                "Le Bluetooth",
-                "La radio numérique",
-                "Le GPS"
-            ],
-            "correctIndex": 0,
-            "explanation": "Le cloud computing permet d’accéder à des ressources informatiques distantes. Il a profondément changé la manière dont les particuliers et les entreprises utilisent l’informatique."
-        },
-        {
-            "id": "9",
-            "question": "Quel type de véhicule cherche à se déplacer sans intervention humaine permanente ?",
-            "image": null,
-            "answers": [
-                "Le véhicule amphibie",
-                "Le véhicule autonome",
-                "Le véhicule hybride",
-                "Le véhicule électrique"
-            ],
-            "correctIndex": 1,
-            "explanation": "Les véhicules autonomes utilisent des capteurs, des caméras et de l’intelligence artificielle pour analyser leur environnement. Leur développement représente un défi technologique majeur."
-        },
-        {
-            "id": "10",
-            "question": "Quelle technologie permet de déverrouiller un appareil grâce à un visage ou une empreinte digitale ?",
-            "image": null,
-            "answers": [
-                "La biométrie",
-                "La blockchain",
-                "Le chiffrement",
-                "Le streaming"
-            ],
-            "correctIndex": 0,
-            "explanation": "La biométrie utilise des caractéristiques physiques uniques pour identifier une personne. Cette technologie est aujourd’hui courante sur les smartphones et dans les systèmes de sécurité."
-        },
-        {
-            "id": "11",
-            "question": "Quelle technologie superpose des informations numériques au monde réel ?",
-            "image": null,
-            "answers": [
-                "La réalité augmentée",
-                "La réalité virtuelle",
-                "La simulation 3D",
-                "L’holographie"
-            ],
-            "correctIndex": 0,
-            "explanation": "La réalité augmentée ajoute des éléments numériques à la vision du monde réel. Elle est utilisée dans l’éducation, l’industrie, la navigation et le divertissement."
-        },
-        {
-            "id": "12",
-            "question": "Quelle technologie permet aujourd’hui de traduire automatiquement une conversation presque en temps réel ?",
-            "image": null,
-            "answers": [
-                "La traduction automatique par IA",
-                "Le GPS",
-                "Le NFC",
-                "La blockchain"
-            ],
-            "correctIndex": 0,
-            "explanation": "La traduction automatique moderne s’appuie sur l’intelligence artificielle et les réseaux neuronaux. Les systèmes actuels peuvent traduire des conversations, des textes ou des vidéos en quelques secondes avec un niveau de précision autrefois inimaginable. Cette avancée facilite la communication entre des millions de personnes parlant des langues différentes."
-        },
-        {
-            "id": "13",
-            "question": "Quelle technologie est utilisée pour créer des assistants vocaux capables de comprendre la parole humaine ?",
-            "image": null,
-            "answers": [
-                "La reconnaissance vocale",
-                "La fibre optique",
-                "La compression audio",
-                "Le rendu 3D"
-            ],
-            "correctIndex": 0,
-            "explanation": "La reconnaissance vocale transforme les sons en texte ou en commandes exploitables par une machine. Les progrès récents de l’IA ont fortement amélioré ses performances."
-        },
-        {
-            "id": "14",
-            "question": "Quel domaine scientifique a permis le séquençage complet du génome humain ?",
-            "image": null,
-            "answers": [
-                "La climatologie",
-                "La génomique",
-                "La volcanologie",
-                "L’astrophysique"
-            ],
-            "correctIndex": 1,
-            "explanation": "La génomique étudie l’ensemble du patrimoine génétique. Le séquençage du génome humain a constitué une avancée majeure pour la médecine et la recherche biologique."
-        },
-        {
-            "id": "15",
-            "question": "Quelle technologie permet à des objets du quotidien de communiquer via Internet ?",
-            "image": null,
-            "answers": [
-                "L’Internet des objets",
-                "La domotique mécanique",
-                "Le GPS",
-                "La robotique industrielle"
-            ],
-            "correctIndex": 0,
-            "explanation": "L’Internet des objets connecte des appareils comme des montres, des capteurs ou des équipements domestiques. Cette interconnexion transforme progressivement notre environnement."
-        },
-        {
-            "id": "16",
-            "question": "Quelle technologie permet aujourd’hui de réaliser certaines opérations chirurgicales avec l’aide de robots extrêmement précis ?",
-            "image": null,
-            "answers": [
-                "La chirurgie robotique",
-                "La réalité virtuelle",
-                "La blockchain",
-                "Le NFC"
-            ],
-            "correctIndex": 0,
-            "explanation": "La chirurgie robotique assiste les chirurgiens grâce à des instruments capables d’effectuer des mouvements extrêmement précis. Cette technologie permet parfois de réduire les complications, les cicatrices et les temps de récupération. L’idée qu’un robot puisse participer à une opération délicate paraissait impossible il y a encore quelques décennies."
-        },
-        {
-            "id": "17",
-            "question": "Quelle technologie permet d’effectuer des paiements sans contact avec un smartphone ?",
-            "image": null,
-            "answers": [
-                "Le NFC",
-                "Le GPS",
-                "Le Wi-Fi",
-                "Le LiDAR"
-            ],
-            "correctIndex": 0,
-            "explanation": "Le NFC permet l’échange de données à très courte distance. Cette technologie est devenue courante dans les paiements mobiles et les cartes de transport."
-        },
-        {
-            "id": "18",
-            "question": "Quel système permet à des satellites de fournir un accès Internet dans des régions isolées ?",
-            "image": null,
-            "answers": [
-                "Les constellations de satellites",
-                "Les câbles sous-marins",
-                "Les réseaux locaux",
-                "Les antennes radio FM"
-            ],
-            "correctIndex": 0,
-            "explanation": "Les constellations de satellites en orbite basse offrent un accès Internet à des zones autrefois difficiles à connecter. Elles représentent une évolution majeure des télécommunications."
-        },
-        {
-            "id": "19",
-            "question": "Quelle technologie permet de créer une représentation numérique détaillée d’un objet ou d’un lieu réel ?",
-            "image": null,
-            "answers": [
-                "Le jumeau numérique",
-                "Le streaming",
-                "Le cloud",
-                "La cryptographie"
-            ],
-            "correctIndex": 0,
-            "explanation": "Un jumeau numérique est une copie virtuelle d’un objet, d’un bâtiment ou d’un système. Il permet de tester des scénarios et d’optimiser des opérations sans intervenir directement sur l’élément réel."
-        },
-        {
-            "id": "20",
-            "question": "Quelle technologie émergente exploite directement certaines propriétés de la mécanique quantique pour traiter l’information ?",
-            "image": null,
-            "answers": [
-                "La fibre optique",
-                "La réalité virtuelle",
-                "Le stockage magnétique",
-                "L’informatique quantique"
-            ],
-            "correctIndex": 3,
-            "explanation": "L’informatique quantique utilise des phénomènes comme la superposition et l’intrication. Bien qu’encore en développement, elle pourrait résoudre certains problèmes beaucoup plus rapidement que les ordinateurs classiques."
-        }
-    ]
+    {
+      "id": "3",
+      "question": "Quelle technologie permet à un ordinateur d'identifier des objets dans une image ?",
+      "image": null,
+      "answers": [
+        "La réalité augmentée",
+        "La vision par ordinateur",
+        "La fibre optique",
+        "La cryptographie"
+      ],
+      "correctIndex": 1,
+      "explanation": "La vision par ordinateur (computer vision) permet aux machines d'analyser et d'interpréter des images. Les réseaux de neurones convolutifs (CNN) ont déclenché une révolution dans ce domaine à partir de 2012 (ImageNet). Ses applications vont de la reconnaissance faciale et de la détection d'objets à l'analyse médicale d'IRM et à la conduite autonome."
+    },
+    {
+      "id": "4",
+      "question": "Quelle technologie permet d'enregistrer des transactions de façon décentralisée et difficile à modifier rétroactivement ?",
+      "image": null,
+      "answers": [
+        "La biométrie",
+        "Le cloud computing",
+        "La cryptographie symétrique",
+        "La blockchain"
+      ],
+      "correctIndex": 3,
+      "explanation": "La blockchain est un registre distribué dans lequel chaque bloc de données est lié au précédent via une empreinte cryptographique (hash), ce qui rend toute modification ultérieure très difficile à effectuer sans que les autres participants du réseau le détectent. Les données ne sont pas nécessairement chiffrées. Introduite avec Bitcoin en 2008, elle est aujourd'hui utilisée dans les cryptomonnaies, les contrats intelligents et la traçabilité des chaînes logistiques."
+    },
+    {
+      "id": "5",
+      "question": "Quelle technologie permet de plonger un utilisateur dans un environnement entièrement numérique ?",
+      "image": null,
+      "answers": [
+        "Le cloud computing",
+        "La biométrie",
+        "La réalité virtuelle",
+        "Le streaming"
+      ],
+      "correctIndex": 2,
+      "explanation": "La réalité virtuelle (VR) crée une immersion totale dans un univers généré par ordinateur grâce à un casque qui affiche des images stéréoscopiques et suit les mouvements de la tête. Longtemps cantonnée à la science-fiction, elle est aujourd'hui utilisée dans la formation des chirurgiens, la rééducation neurologique, l'architecture, la simulation de vol et le jeu vidéo."
+    },
+    {
+      "id": "6",
+      "question": "Quelle innovation permet de modifier précisément certaines séquences d'ADN dans une cellule vivante ?",
+      "image": null,
+      "answers": [
+        "La PCR",
+        "CRISPR-Cas9",
+        "Le clonage",
+        "Le séquençage Sanger"
+      ],
+      "correctIndex": 1,
+      "explanation": "CRISPR-Cas9 est un système de ciseaux moléculaires issu d'un mécanisme de défense bactérien. Jennifer Doudna et Emmanuelle Charpentier ont montré en 2012 qu'il peut cibler et couper l'ADN à un endroit précis pour inactiver, corriger ou insérer un gène. Elles ont reçu le Prix Nobel de chimie en 2020. En décembre 2023, la FDA américaine a autorisé Casgevy (exa-cel) pour la drépanocytose sévère, puis pour la bêta-thalassémie en janvier 2024. L'Union européenne a suivi en février 2024. Casgevy est ainsi le premier traitement basé sur CRISPR à obtenir une autorisation réglementaire."
+    },
+    {
+      "id": "7",
+      "question": "Quelle technologie permet à des programmes de générer du texte, des images ou du code sans intervention humaine directe sur chaque production ?",
+      "image": null,
+      "answers": [
+        "L'intelligence artificielle générative",
+        "La réalité augmentée",
+        "Le streaming adaptatif",
+        "L'automatisation de processus robotiques"
+      ],
+      "correctIndex": 0,
+      "explanation": "L'IA générative regroupe plusieurs familles de modèles : les grands modèles de langage (LLM) pour le texte et le code, les modèles de diffusion pour les images et les vidéos, et les réseaux adversariaux génératifs (GAN). Entraînés sur d'immenses corpus, ils produisent du contenu inédit en extrapolant des structures apprises. Des modèles comme GPT ou Stable Diffusion ont transformé les domaines de la création, de l'éducation et du développement logiciel en quelques années."
+    },
+    {
+      "id": "8",
+      "question": "Quelle technologie permet de stocker des données et d'utiliser des logiciels à distance via Internet ?",
+      "image": null,
+      "answers": [
+        "La radio numérique",
+        "Le Bluetooth",
+        "Le cloud computing",
+        "La modulation de fréquence"
+      ],
+      "correctIndex": 2,
+      "explanation": "Le cloud computing délocalise le stockage et le traitement de l'information vers des serveurs distants accessibles via Internet. Amazon Web Services (2006), Microsoft Azure (2010) et Google Cloud ont popularisé ce modèle. Il permet à des startups de lancer des services à l'échelle mondiale sans investissement matériel initial, et aux particuliers d'accéder à leurs données depuis n'importe quel appareil."
+    },
+    {
+      "id": "9",
+      "question": "Quel type de véhicule cherche à se déplacer sans intervention humaine permanente ?",
+      "image": null,
+      "answers": [
+        "Le véhicule amphibie",
+        "Le véhicule autonome",
+        "Le véhicule hybride",
+        "Le véhicule électrique"
+      ],
+      "correctIndex": 1,
+      "explanation": "Les véhicules autonomes combinent LiDAR, caméras, radar et intelligence artificielle pour percevoir leur environnement et prendre des décisions en temps réel. Les niveaux d'autonomie (0 à 5) définis par la SAE distinguent le niveau 4 (autonomie complète dans un domaine opérationnel défini — zone géographique, conditions météo, vitesse — comme certains robotaxis Waymo ou navettes de campus) du niveau 5 (autonomie universelle sans restriction), qui n'est pas encore atteint commercialement en 2026."
+    },
+    {
+      "id": "10",
+      "question": "Quelle technologie permet de déverrouiller un appareil grâce à un visage ou une empreinte digitale ?",
+      "image": null,
+      "answers": [
+        "La blockchain",
+        "Le chiffrement symétrique",
+        "Le NFC",
+        "La biométrie"
+      ],
+      "correctIndex": 3,
+      "explanation": "La biométrie utilise des caractéristiques physiques uniques et mesurables pour authentifier une personne : empreinte digitale, reconnaissance faciale 3D (Face ID d'Apple utilise 30 000 points infrarouges), iris, voix ou réseau veineux. Ces données sont converties en gabarits mathématiques. Dans les implémentations sécurisées (comme Face ID d'Apple), ils sont stockés localement sur une puce dédiée, mais d'autres systèmes peuvent traiter ces données côté serveur."
+    },
+    {
+      "id": "11",
+      "question": "Quelle technologie permet de contrôler un appareil électronique directement par la pensée ?",
+      "image": null,
+      "answers": [
+        "La réalité virtuelle",
+        "La simulation neuronale",
+        "L'interface cerveau-machine",
+        "La domotique vocale"
+      ],
+      "correctIndex": 2,
+      "explanation": "Les interfaces cerveau-machine (BCI, Brain-Computer Interface) captent les signaux électriques du cerveau et les traduisent en commandes numériques. BrainGate a permis à des patients paralysés de contrôler un curseur par la pensée dès les années 2000. Neuralink (Musk) et Synchron développent des implants miniaturisés. Les BCI récents ont permis à des patients de retrouver des capacités de communication ou de contrôle moteur, ouvrant la voie à des applications médicales prometteuses."
+    },
+    {
+      "id": "12",
+      "question": "Quelle technologie permet de traduire une conversation presque en temps réel entre deux langues ?",
+      "image": null,
+      "answers": [
+        "La traduction automatique par IA",
+        "Le réseau maillé",
+        "La compression audio",
+        "La synchronisation de flux"
+      ],
+      "correctIndex": 0,
+      "explanation": "La traduction automatique neuronale s'appuie sur des architectures de type Transformer (Google, 2017). Des systèmes comme DeepL ou Google Translate prennent en charge plus de 100 langues et peuvent traiter un texte ou une conversation presque instantanément pour un texte, avec un délai très faible pour une conversation orale. La précision atteinte aujourd'hui aurait semblé impensable aux traducteurs automatiques par dictionnaire des années 1980."
+    },
+    {
+      "id": "13",
+      "question": "Quelle technologie convertit la parole humaine en texte ou en commandes pour les assistants vocaux ?",
+      "image": null,
+      "answers": [
+        "La compression audio",
+        "La synthèse vocale",
+        "La reconnaissance vocale",
+        "Le rendu 3D"
+      ],
+      "correctIndex": 2,
+      "explanation": "La reconnaissance vocale (ASR, Automatic Speech Recognition) convertit la parole en texte. Les modèles Whisper (OpenAI) et les assistants Google, Alexa ou Siri peuvent atteindre des performances proches de celles d'un transcripteur humain dans certaines conditions favorables, bien que les résultats varient selon l'accent, le bruit ambiant et la langue. La technologie repose sur des architectures Transformer entraînées sur des milliers d'heures d'audio, ayant largement supplanté les réseaux récurrents dans ce domaine."
+    },
+    {
+      "id": "14",
+      "question": "Quel domaine scientifique a permis le séquençage complet du génome humain ?",
+      "image": null,
+      "answers": [
+        "La climatologie",
+        "La génomique",
+        "La volcanologie",
+        "La cristallographie"
+      ],
+      "correctIndex": 1,
+      "explanation": "Le Projet Génome Humain (1990-2003) a cartographié les 3,2 milliards de paires de bases de l'ADN humain pour environ 2,7 milliards de dollars. Grâce aux technologies de séquençage de nouvelle génération (NGS), le coût brut de séquençage de l'ADN a chuté de façon spectaculaire — mais le coût clinique total d'un test génomique, incluant l'interprétation et le conseil médical, reste bien supérieur. La génomique a transformé la médecine personnalisée, la pharmacogénomique et la compréhension des maladies héréditaires."
+    },
+    {
+      "id": "15",
+      "question": "Quelle technologie permet à des objets du quotidien de communiquer et d'envoyer des données via Internet ?",
+      "image": null,
+      "answers": [
+        "La domotique analogique",
+        "Le réseau local câblé",
+        "L'Internet des objets",
+        "Le réseau cellulaire 2G"
+      ],
+      "correctIndex": 2,
+      "explanation": "L'Internet des objets (IoT) connecte des appareils physiques — capteurs industriels, thermostats intelligents, montres connectées, systèmes d'irrigation agricole — à Internet pour collecter et échanger des données. Le nombre d'objets connectés dans le monde se compte en dizaines de milliards, un chiffre en forte croissance. Cette interconnexion optimise l'énergie, la santé et la logistique."
+    },
+    {
+      "id": "16",
+      "question": "Quelle technologie permet de réaliser certaines opérations chirurgicales avec l'aide de robots précis ?",
+      "image": null,
+      "answers": [
+        "La chirurgie robotique",
+        "La réalité virtuelle médicale",
+        "Le scanner IRM opératoire",
+        "La télémédecine par caméra"
+      ],
+      "correctIndex": 0,
+      "explanation": "La chirurgie robotique (système da Vinci, Intuitive Surgical) permet au chirurgien de contrôler des instruments articulés à 7 degrés de liberté via une console. Les mouvements sont filtrés pour supprimer les tremblements. À fin 2025, plus de 20 millions de patients avaient bénéficié d'une chirurgie da Vinci. Des expérimentations de téléchirurgie à distance via réseau 5G ont été conduites avec succès, mais cette approche reste au stade de la recherche clinique et n'est pas encore déployée en routine."
+    },
+    {
+      "id": "17",
+      "question": "Quelle technologie permet d'effectuer des paiements sans contact avec un smartphone ?",
+      "image": null,
+      "answers": [
+        "Le Wi-Fi",
+        "Le GPS",
+        "Le LiDAR",
+        "Le NFC"
+      ],
+      "correctIndex": 3,
+      "explanation": "Le NFC (Near Field Communication) permet l'échange de données entre deux appareils à moins de 4 cm via un champ magnétique à 13,56 MHz. Utilisé dans Apple Pay, Google Pay et les cartes bancaires sans contact, il repose sur la norme ISO/IEC 14443. La sécurité repose sur deux mécanismes : la tokenisation (un identifiant de paiement remplace le numéro de carte réel, limitant son exposition) et la génération de données cryptographiques dynamiques propres à chaque transaction, ce qui rend cette transaction très difficile à réutiliser frauduleusement, même si les données sont interceptées."
+    },
+    {
+      "id": "18",
+      "question": "Quel système permet de fournir un accès Internet haut débit dans des régions isolées via des satellites en orbite basse ?",
+      "image": null,
+      "answers": [
+        "Les câbles sous-marins",
+        "Les réseaux LoRa",
+        "Les antennes paraboliques géostationnaires",
+        "Les constellations de satellites LEO"
+      ],
+      "correctIndex": 3,
+      "explanation": "Les constellations de satellites en orbite basse (LEO, 500-1 200 km) comme Starlink (SpaceX), OneWeb et Amazon (anciennement Project Kuiper, en cours de déploiement) offrent une latence nettement inférieure à celle des satellites géostationnaires traditionnels, permettant des usages interactifs autrefois impossibles par satellite. Elles permettent un accès Internet haut débit dans des zones rurales, en mer ou en montagne, transformant la connectivité mondiale."
+    },
+    {
+      "id": "19",
+      "question": "Quelle technologie crée une représentation numérique en temps réel d'un objet ou d'un système physique ?",
+      "image": null,
+      "answers": [
+        "Le jumeau numérique",
+        "La modélisation CAO",
+        "La simulation physique",
+        "La visualisation de données"
+      ],
+      "correctIndex": 0,
+      "explanation": "Un jumeau numérique (digital twin) est une réplique virtuelle synchronisée avec son homologue physique via des capteurs IoT. Airbus l'utilise pour surveiller l'usure des réacteurs, Siemens pour optimiser ses usines, et des villes comme Singapour ont créé leur jumeau à l'échelle urbaine. Il permet de simuler des pannes, tester des scénarios et réduire les coûts de maintenance."
+    },
+    {
+      "id": "20",
+      "question": "Quelle technologie émergente exploite la superposition et l'intrication quantiques pour traiter l'information ?",
+      "image": null,
+      "answers": [
+        "La fibre optique",
+        "La réalité virtuelle",
+        "Le stockage magnétique",
+        "L'informatique quantique"
+      ],
+      "correctIndex": 3,
+      "explanation": "L'informatique quantique utilise des qubits, dont l'état probabiliste avant mesure (superposition) et les corrélations non classiques entre qubits (intrication) peuvent conférer un avantage computationnel pour certaines classes de problèmes — sans pour autant explorer toutes les solutions en parallèle comme on le dit parfois à tort. IBM et Google ont franchi des jalons techniques importants, mais les machines tolérantes aux fautes et à grande échelle restent à construire. L'avantage quantique n'a été démontré que sur des cas très spécifiques."
+    }
+  ]
 }

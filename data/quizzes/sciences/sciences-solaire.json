@@ -2,7 +2,7 @@
   "slug": "quiz-sciences-systeme-solaire-connaissances",
   "title": "Quiz Sciences - Système solaire - Maîtrisez les bases en astronomie",
   "description": "Explore le système solaire à travers 20 questions captivantes sur les planètes, le Soleil, la Lune et les objets célestes.",
-  "descriptionSeo": "Ce quiz de sciences de 20 questions te plonge au cœur du système solaire. Planètes, Soleil, Lune, orbites, satellites, astéroïdes et comètes : révise les notions essentielles pour comprendre l’organisation de notre environnement spatial. Adapté à tous les niveaux, ce quiz pédagogique permet de consolider ses connaissances, d’explorer les bases de l’astronomie et de mieux comprendre les phénomènes observables dans le ciel.",
+  "descriptionSeo": "Ce quiz de sciences de 20 questions te plonge au cœur du système solaire. Planètes, Soleil, Lune, orbites, satellites, astéroïdes et comètes : révise les notions essentielles pour comprendre l'organisation de notre environnement spatial. Adapté à tous les niveaux, ce quiz pédagogique permet de consolider tes connaissances, d'explorer les bases de l'astronomie et de mieux comprendre les phénomènes observables dans le ciel.",
   "category": {
     "name": "Sciences",
     "slug": "sciences"
@@ -18,143 +18,243 @@
   "questions": [
     {
       "id": "1",
-      "question": "Quel est l’astre au centre du système solaire ?",
-      "answers": ["Le Soleil", "La Terre", "Mars", "La Lune"],
+      "question": "Quel est l'astre au centre du système solaire ?",
+      "answers": [
+        "Le Soleil",
+        "La Terre",
+        "Jupiter",
+        "L'étoile Polaire"
+      ],
       "correctIndex": 0,
-      "explanation": "Le Soleil concentre presque toute la masse du système solaire. Sa gravité domine donc les mouvements des planètes, des astéroïdes et des comètes qui orbitent autour de lui."
+      "explanation": "Le Soleil concentre environ 99,86 % de la masse totale du système solaire. Sa gravité gouverne les orbites des 8 planètes, des planètes naines, des astéroïdes et des comètes. C'est une étoile de type naine jaune (G2V) âgée d'environ 4,6 milliards d'années."
     },
     {
       "id": "2",
-      "question": "Combien y a-t-il de planètes dans le système solaire ?",
-      "answers": ["7", "8", "9", "10"],
+      "question": "Combien y a-t-il de planètes officiellement reconnues dans le système solaire ?",
+      "answers": [
+        "7",
+        "8",
+        "9",
+        "12"
+      ],
       "correctIndex": 1,
-      "explanation": "Le système solaire compte 8 planètes reconnues. Pluton n’est plus classée comme planète principale, car elle appartient à la catégorie des planètes naines."
+      "explanation": "Depuis 2006, l'Union Astronomique Internationale (UAI) reconnaît 8 planètes : Mercure, Vénus, Terre, Mars, Jupiter, Saturne, Uranus et Neptune. Pluton a été reclassée en planète naine car elle ne domine pas gravitationnellement son voisinage orbital — condition exigée pour le statut de planète."
     },
     {
       "id": "3",
       "question": "Quelle planète est la plus proche du Soleil ?",
-      "answers": ["Vénus", "Mars", "Mercure", "Jupiter"],
+      "answers": [
+        "Vénus",
+        "Mars",
+        "Mercure",
+        "Jupiter"
+      ],
       "correctIndex": 2,
-      "explanation": "Mercure est la planète la plus proche du Soleil. Comme son orbite est très courte, elle fait le tour du Soleil beaucoup plus vite que la Terre."
+      "explanation": "Mercure orbite à environ 58 millions de km du Soleil en moyenne (0,39 UA). Elle fait le tour du Soleil en seulement 88 jours terrestres. Malgré sa proximité, Mercure n'est pas la planète la plus chaude : sans atmosphère pour retenir la chaleur, ses températures varient de +430 °C le jour à −180 °C la nuit."
     },
     {
       "id": "4",
       "question": "Quelle planète est la plus grande du système solaire ?",
-      "answers": ["La Terre", "Saturne", "Mars", "Jupiter"],
+      "answers": [
+        "La Terre",
+        "Saturne",
+        "Neptune",
+        "Jupiter"
+      ],
       "correctIndex": 3,
-      "explanation": "Jupiter est une géante gazeuse beaucoup plus volumineuse que la Terre. Sa grande masse explique aussi pourquoi elle possède de nombreux satellites naturels."
+      "explanation": "Jupiter a un diamètre d'environ 143 000 km — plus de 11 fois celui de la Terre. Sa masse dépasse celle de toutes les autres planètes réunies. Sa Grande Tache Rouge est une tempête anticyclonique qui dure depuis au moins 350 ans. Jupiter possède plus d'une centaine de lunes confirmées, un chiffre régulièrement révisé à la hausse."
     },
     {
       "id": "5",
-      "question": "Quelle planète est connue pour ses anneaux ?",
-      "answers": ["Saturne", "Mars", "Uranus", "Neptune"],
+      "question": "Quelle planète est la plus connue pour ses anneaux spectaculaires ?",
+      "answers": [
+        "Saturne",
+        "Mars",
+        "Uranus",
+        "Neptune"
+      ],
       "correctIndex": 0,
-      "explanation": "Saturne est célèbre pour ses anneaux très visibles, composés surtout de glace, de poussières et de fragments rocheux. D’autres planètes géantes ont aussi des anneaux, mais moins spectaculaires."
+      "explanation": "Saturne possède le système d'anneaux le plus étendu et le plus brillant du système solaire, s'étirant sur plus de 280 000 km de diamètre mais remarquablement minces au regard de leur étendue. Ces anneaux sont composés de glace (90 %), de roches et de poussières. Uranus et Neptune ont aussi des anneaux, mais nettement moins visibles."
     },
     {
       "id": "6",
-      "question": "Quel est le satellite naturel de la Terre ?",
-      "answers": ["Mars", "La Lune", "Vénus", "Io"],
+      "question": "Quel est le seul satellite naturel de la Terre ?",
+      "answers": [
+        "Phobos",
+        "La Lune",
+        "Io",
+        "Europe"
+      ],
       "correctIndex": 1,
-      "explanation": "La Lune est le seul satellite naturel de la Terre. Elle joue un rôle important dans les marées et rend les éclipses possibles lorsque Soleil, Terre et Lune sont alignés."
+      "explanation": "La Lune orbite à environ 384 400 km de la Terre en 27,3 jours. C'est le seul satellite naturel de notre planète. Avec un diamètre de 3 474 km, elle est la cinquième plus grande lune du système solaire. Sa gravité génère les marées terrestres et a progressivement ralenti la rotation de la Terre."
     },
     {
       "id": "7",
-      "question": "Comment appelle-t-on le mouvement d’une planète autour du Soleil ?",
-      "answers": ["Rotation", "Gravitation", "Translation", "Chute"],
+      "question": "Comment appelle-t-on le mouvement d'une planète autour du Soleil ?",
+      "answers": [
+        "La rotation",
+        "La gravitation",
+        "La révolution",
+        "La précession"
+      ],
       "correctIndex": 2,
-      "explanation": "La translation est le déplacement d’une planète autour du Soleil. Il ne faut pas la confondre avec la rotation, qui désigne le mouvement d’une planète sur elle-même."
+      "explanation": "La révolution (ou translation) est le mouvement orbital d'une planète autour du Soleil. Sa durée définit l'année de cette planète : 365,25 jours pour la Terre, 687 jours pour Mars, 12 ans pour Jupiter. La rotation, elle, désigne le mouvement d'une planète sur son propre axe, définissant la durée du jour."
     },
     {
       "id": "8",
       "question": "Quelle planète est surnommée la planète rouge ?",
-      "answers": ["Vénus", "Mercure", "Terre", "Mars"],
+      "answers": [
+        "Vénus",
+        "Mercure",
+        "Saturne",
+        "Mars"
+      ],
       "correctIndex": 3,
-      "explanation": "Mars paraît rouge à cause de l’oxyde de fer présent dans ses roches et sa poussière. C’est un peu le même composé qui donne sa couleur à la rouille."
+      "explanation": "Mars doit sa couleur rougeâtre à l'oxyde de fer (Fe₂O₃, similaire à la rouille) présent dans ses roches et sa poussière. Son atmosphère très ténue (environ 0,6 % de la pression terrestre), composée à 95 % de CO₂, ne génère qu'un effet de serre très limité : les températures varient de +20 °C à −125 °C selon la saison et la latitude."
     },
     {
       "id": "9",
-      "question": "Qu’est-ce qu’une étoile ?",
-      "answers": ["Un astre qui produit sa propre lumière", "Un satellite", "Une planète", "Un objet froid"],
+      "question": "Qu'est-ce qu'une étoile ?",
+      "answers": [
+        "Un corps produisant sa lumière par fusion",
+        "Un satellite naturel d'une planète",
+        "Une planète très lumineuse",
+        "Un fragment rocheux en orbite"
+      ],
       "correctIndex": 0,
-      "explanation": "Une étoile produit sa propre lumière grâce à des réactions nucléaires dans son cœur. Le Soleil est donc une étoile, même s’il nous paraît beaucoup plus grand car il est très proche de la Terre."
+      "explanation": "Une étoile est une sphère de plasma qui produit son énergie par fusion nucléaire dans son cœur (hydrogène → hélium). Le Soleil est une étoile de taille et luminosité moyennes parmi les centaines de milliards d'étoiles de la Voie Lactée. L'étoile la plus proche de nous (hors Soleil) est Proxima Centauri, à 4,24 années-lumière."
     },
     {
       "id": "10",
       "question": "Quelle planète est la plus éloignée du Soleil ?",
-      "answers": ["Uranus", "Neptune", "Saturne", "Jupiter"],
+      "answers": [
+        "Uranus",
+        "Neptune",
+        "Saturne",
+        "Pluton"
+      ],
       "correctIndex": 1,
-      "explanation": "Neptune est la planète la plus éloignée du Soleil. Elle reçoit très peu de lumière solaire, ce qui explique ses températures extrêmement basses."
+      "explanation": "Neptune orbite à environ 30 UA du Soleil (4,5 milliards de km). Une année neptunienne dure 165 ans terrestres. Ses températures atteignent −218 °C. Ses vents sont les plus violents du système solaire, dépassant 2 000 km/h. Pluton, bien que plus lointaine à certaines périodes, n'est plus une planète depuis 2006."
     },
     {
       "id": "11",
-      "question": "Qu’est-ce qu’une comète ?",
-      "answers": ["Une planète", "Une étoile", "Un objet glacé orbitant autour du Soleil", "Un satellite artificiel"],
+      "question": "Qu'est-ce qu'une comète ?",
+      "answers": [
+        "Une petite planète sans atmosphère",
+        "Un nuage de gaz interstellaire",
+        "Un petit corps glacé à queue près du Soleil",
+        "Un astéroïde entré dans l'atmosphère terrestre"
+      ],
       "correctIndex": 2,
-      "explanation": "Une comète est riche en glace et en poussières. Quand elle s’approche du Soleil, une partie de sa glace se vaporise et forme une chevelure ainsi qu’une queue."
+      "explanation": "Une comète est un petit corps riche en glaces (eau, CO₂, méthane) et en poussières. Quand elle s'approche du Soleil, le rayonnement chauffe sa surface, sublimant les glaces et formant une chevelure gazeuse et une queue pouvant s'étendre sur des millions de km. La comète de Halley repasse près du Soleil tous les 75-76 ans."
     },
     {
       "id": "12",
-      "question": "Qu’est-ce qu’un astéroïde ?",
-      "answers": ["Une étoile", "Une planète", "Un satellite", "Un petit corps rocheux en orbite"],
+      "question": "Qu'est-ce qu'un astéroïde ?",
+      "answers": [
+        "Un débris de comète",
+        "Une mini-planète gazeuse",
+        "Un satellite artificiel usagé",
+        "Un petit corps rocheux ou métallique en orbite"
+      ],
       "correctIndex": 3,
-      "explanation": "Un astéroïde est un petit corps rocheux. Beaucoup se trouvent dans la ceinture d’astéroïdes entre Mars et Jupiter, une zone contenant de nombreux restes de la formation du système solaire."
+      "explanation": "Les astéroïdes sont des restes de la formation du système solaire, il y a 4,6 milliards d'années. La ceinture principale entre Mars et Jupiter en contiendrait plus d'un million de plus de 1 km, selon les estimations actuelles. Le plus grand objet de la ceinture principale est Cérès, aujourd'hui classé comme planète naine (940 km de diamètre). Certains astéroïdes croisent l'orbite terrestre (astéroïdes Apollon, Aton, Amor)."
     },
     {
       "id": "13",
-      "question": "Pourquoi les planètes restent-elles en orbite ?",
-      "answers": ["Grâce à la gravité du Soleil", "À cause du vent solaire", "À cause de la lumière", "À cause du vide"],
+      "question": "Pourquoi les planètes restent-elles en orbite autour du Soleil ?",
+      "answers": [
+        "La combinaison entre gravité et vitesse orbitale",
+        "Le vent solaire les maintient en place",
+        "L'attraction des autres planètes les retient",
+        "La pression de radiation solaire les pousse"
+      ],
       "correctIndex": 0,
-      "explanation": "La gravité du Soleil attire les planètes, mais leur vitesse les empêche de tomber directement vers lui. L’équilibre entre attraction et mouvement crée leur orbite."
+      "explanation": "Une planète reste en orbite parce que sa vitesse orbitale compense l'attraction gravitationnelle du Soleil : elle tombe en permanence vers lui mais « rate » sans cesse sa cible (comme un satellite autour de la Terre). La Terre se déplace à ~30 km/s. Ce principe fut formulé par Newton en 1687 et affiné par la relativité générale d'Einstein."
     },
     {
       "id": "14",
-      "question": "Quelle planète est souvent la plus proche de la Terre ?",
-      "answers": ["Mars", "Vénus", "Mercure", "Jupiter"],
+      "question": "Quelle planète est en moyenne la plus proche de la Terre ?",
+      "answers": [
+        "Mars",
+        "Mercure",
+        "Vénus",
+        "Jupiter"
+      ],
       "correctIndex": 1,
-      "explanation": "Vénus est souvent très proche de la Terre lors de certains alignements. Cependant, les distances entre planètes changent sans cesse car elles se déplacent toutes autour du Soleil."
+      "explanation": "Des études statistiques (dont Stockman et al., 2019, dans Physics Today) montrent que Mercure est en moyenne la planète la plus proche de toutes les autres planètes, y compris de la Terre, car son orbite rapide et intérieure lui fait passer moins de temps loin d'elles. Vénus peut s'approcher davantage lors des passages au plus près, mais c'est Mercure qui l'emporte sur la moyenne à long terme."
     },
     {
       "id": "15",
-      "question": "Qu’est-ce que la rotation d’une planète ?",
-      "answers": ["Tourner autour du Soleil", "Tourner autour d’une autre planète", "Tourner sur elle-même", "S’éloigner du Soleil"],
+      "question": "Combien de temps met environ la lumière du Soleil pour atteindre la Terre ?",
+      "answers": [
+        "Environ 1 seconde",
+        "Environ 1 heure",
+        "Environ 8 minutes",
+        "Environ 24 heures"
+      ],
       "correctIndex": 2,
-      "explanation": "La rotation est le mouvement d’une planète sur elle-même. Sur Terre, cette rotation dure environ 24 heures et provoque l’alternance du jour et de la nuit."
+      "explanation": "La lumière voyage à environ 300 000 km/s. La distance moyenne Terre-Soleil étant de 149,6 millions de km (1 UA), la lumière met environ 8 minutes et 20 secondes pour nous parvenir. Cela signifie que nous voyons toujours le Soleil tel qu'il était il y a 8 minutes. La lumière de Proxima Centauri, l'étoile la plus proche, met 4,24 ans pour arriver jusqu'à nous."
     },
     {
       "id": "16",
-      "question": "Quelle planète est une géante gazeuse ?",
-      "answers": ["La Terre", "Mars", "Mercure", "Jupiter"],
+      "question": "Quel est le plus grand satellite naturel du système solaire ?",
+      "answers": [
+        "La Lune",
+        "Titan",
+        "Io",
+        "Ganymède"
+      ],
       "correctIndex": 3,
-      "explanation": "Jupiter est une géante gazeuse : elle est surtout composée d’hydrogène et d’hélium. Contrairement aux planètes rocheuses, elle ne possède pas de surface solide bien définie."
+      "explanation": "Ganymède, lune de Jupiter, est le plus grand satellite du système solaire avec un diamètre de 5 268 km — plus grand que la planète Mercure. Il est le seul satellite connu à posséder son propre champ magnétique. La sonde Galileo (NASA) a recueilli des preuves d'un océan souterrain d'eau salée sous sa surface glacée."
     },
     {
       "id": "17",
-      "question": "Qu’est-ce qu’un satellite naturel ?",
-      "answers": ["Un astre qui tourne autour d’une planète", "Une étoile", "Un objet artificiel", "Une comète"],
+      "question": "Qu'est-ce qu'un satellite naturel ?",
+      "answers": [
+        "Un corps naturel en orbite autour d'un astre",
+        "Une étoile secondaire du système solaire",
+        "Un objet lancé par l'être humain",
+        "Un astéroïde passant près d'une planète"
+      ],
       "correctIndex": 0,
-      "explanation": "Un satellite naturel orbite autour d’une planète sans avoir été fabriqué par l’être humain. La Lune en est un exemple, tandis qu’un satellite météo est artificiel."
+      "explanation": "Un satellite naturel est un corps céleste qui orbite autour d'une planète ou d'une planète naine, en opposition aux satellites artificiels construits par l'homme. Le système solaire compte plusieurs centaines de satellites naturels connus, un chiffre régulièrement mis à jour. Saturne en détient le plus grand nombre : 274 lunes confirmées selon les derniers décomptes. Cette définition s'étend aussi aux planètes naines et petits corps, qui peuvent eux aussi posséder des satellites naturels."
     },
     {
       "id": "18",
-      "question": "Quelle planète est appelée la planète bleue ?",
-      "answers": ["Neptune", "La Terre", "Uranus", "Vénus"],
+      "question": "Quelle planète est surnommée la planète bleue ?",
+      "answers": [
+        "Neptune",
+        "La Terre",
+        "Uranus",
+        "Vénus"
+      ],
       "correctIndex": 1,
-      "explanation": "La Terre est surnommée la planète bleue car les océans couvrent une grande partie de sa surface. Vue depuis l’espace, cette eau donne à la planète une couleur dominante bleue."
+      "explanation": "La Terre est surnommée la planète bleue parce que les océans couvrent environ 71 % de sa surface. Vue depuis l'espace, cette eau donne une dominante bleue à la planète. La Terre est aussi la seule planète connue possédant de vastes étendues stables d'eau liquide en surface, condition favorable à l'émergence et au maintien de la vie telle que nous la connaissons."
     },
     {
       "id": "19",
-      "question": "Qu’est-ce qu’une orbite ?",
-      "answers": ["Une vitesse", "Une masse", "Le chemin d’un astre autour d’un autre", "Une force"],
+      "question": "Quelle forme ont les orbites des planètes ?",
+      "answers": [
+        "Parfaitement circulaires",
+        "Carrées",
+        "Elliptiques",
+        "En spirale"
+      ],
       "correctIndex": 2,
-      "explanation": "Une orbite est la trajectoire suivie par un astre autour d’un autre. Dans le système solaire, les orbites des planètes sont légèrement elliptiques, pas parfaitement circulaires."
+      "explanation": "Les orbites planétaires sont des ellipses, conformément à la première loi de Kepler (1609). Le Soleil occupe l'un des deux foyers de cette ellipse. L'excentricité varie selon les planètes : l'orbite terrestre est quasi-circulaire (e = 0,017), tandis que celle de Mercure est plus elliptique (e = 0,206). La distance Terre-Soleil varie ainsi de 147 à 152 millions de km."
     },
     {
       "id": "20",
-      "question": "Pourquoi voit-on la Lune ?",
-      "answers": ["Elle produit de la lumière", "Elle chauffe", "Elle brille seule", "Elle réfléchit la lumière du Soleil"],
+      "question": "Quelle planète tourne sur elle-même presque à l'horizontale, comme roulant sur son orbite ?",
+      "answers": [
+        "Saturne",
+        "Mars",
+        "Neptune",
+        "Uranus"
+      ],
       "correctIndex": 3,
-      "explanation": "La Lune ne produit pas sa propre lumière : elle réfléchit celle du Soleil. Ses phases changent selon la partie éclairée visible depuis la Terre."
+      "explanation": "L'axe de rotation d'Uranus est incliné à environ 97,8° par rapport au plan de son orbite, ce qui lui fait « rouler » sur son côté. Une hypothèse dominante attribue cette inclinaison à un ou plusieurs impacts géants survenus tôt dans l'histoire du système solaire. Ses pôles connaissent des saisons extrêmes : environ 42 ans d'exposition quasi continue au Soleil suivis d'environ 42 ans de nuit, bien que l'ensoleillement évolue graduellement plutôt que de basculer abruptement."
     }
   ]
 }

@@ -22,13 +22,13 @@
       "question": "Pourquoi le ciel apparaît-il généralement bleu pendant la journée ?",
       "image": null,
       "answers": [
-        "À cause de la diffusion de la lumière par l'atmosphère",
-        "À cause de la couleur des océans",
-        "À cause du champ magnétique terrestre",
-        "À cause de l'ozone"
+        "La diffusion de la lumière par l'atmosphère",
+        "La couleur naturelle des océans",
+        "Le champ magnétique terrestre",
+        "La couche d'ozone"
       ],
       "correctIndex": 0,
-      "explanation": "Le ciel paraît bleu à cause de la diffusion de Rayleigh. Les molécules de l'atmosphère diffusent davantage les courtes longueurs d'onde de la lumière solaire, notamment le bleu. Ce phénomène est l'une des explications fondamentales de la couleur du ciel."
+      "explanation": "Le ciel paraît bleu à cause de la diffusion de Rayleigh : les molécules de diazote (N₂) et de dioxygène (O₂) de l'atmosphère diffusent davantage les courtes longueurs d'onde de la lumière solaire. Le bleu (~450 nm) est diffusé environ 5,5 fois plus que le rouge (~700 nm). Au coucher du soleil, la lumière traverse une épaisseur d'atmosphère plus grande, le bleu est absorbé en chemin et les teintes orangées dominent."
     },
     {
       "id": "2",
@@ -41,20 +41,20 @@
         "La matière baryonique"
       ],
       "correctIndex": 1,
-      "explanation": "La matière noire n'émet ni ne réfléchit la lumière. Son existence est déduite de ses effets gravitationnels sur les galaxies et les amas de galaxies. Les scientifiques pensent qu'elle représente une grande partie de la matière de l'Univers."
+      "explanation": "La matière noire n'émet ni ne réfléchit la lumière, ce qui la rend indétectable par les télescopes ordinaires. Son existence est déduite de ses effets gravitationnels : les galaxies tournent trop vite pour être maintenues par leur seule matière visible. Elle représenterait environ 27 % du contenu total de l'Univers, contre 5 % pour la matière ordinaire. Aucune particule candidate n'a encore été détectée directement."
     },
     {
       "id": "3",
       "question": "Quel phénomène quantique permet à deux particules de rester liées même à grande distance ?",
       "image": null,
       "answers": [
-        "La superposition",
-        "La décohérence",
+        "La superposition quantique",
+        "La décohérence quantique",
         "L'intrication quantique",
         "La fusion nucléaire"
       ],
       "correctIndex": 2,
-      "explanation": "L'intrication quantique est l'un des phénomènes les plus étonnants de la physique moderne. Deux particules intriquées présentent des propriétés corrélées même lorsqu'elles sont séparées par de grandes distances."
+      "explanation": "L'intrication quantique (ou enchevêtrement) lie deux particules de sorte que la mesure de l'une affecte instantanément l'état de l'autre, quelle que soit la distance. Ce phénomène, qualifié par Einstein de « spooky action at a distance », a été confirmé expérimentalement par Aspect, Clauser et Zeilinger (Nobel de physique 2022). Il ne permet pas de transmettre de l'information plus vite que la lumière : le résultat de la mesure locale est aléatoire, et la corrélation ne se révèle qu'en comparant les résultats des deux observateurs après coup, via un canal classique."
     },
     {
       "id": "4",
@@ -62,38 +62,38 @@
       "image": null,
       "answers": [
         "Il s'accélère",
-        "Il s'arrête partout",
-        "Il disparaît",
+        "Il s'écoule à vitesse constante",
+        "Il s'inverse",
         "Il ralentit"
       ],
       "correctIndex": 3,
-      "explanation": "Selon la théorie d'Einstein, la gravité intense d'un trou noir ralentit le passage du temps. Ce phénomène, appelé dilatation gravitationnelle du temps, a été confirmé expérimentalement dans des situations moins extrêmes."
+      "explanation": "La dilatation gravitationnelle du temps, prédite par Einstein en 1915, a été confirmée expérimentalement. À l'horizon d'un trou noir, le temps s'écoule infiniment plus lentement vu depuis un référentiel extérieur — un observateur qui y tomberait ne percevrait rien d'anormal localement. Même sur Terre, les horloges en altitude vont légèrement plus vite que celles au sol — les satellites GPS doivent corriger cet effet (environ +45 µs/jour relativiste) pour rester précis."
     },
     {
       "id": "5",
       "question": "Quel phénomène provoque les aurores boréales ?",
       "image": null,
       "answers": [
-        "L'interaction entre les particules solaires et l'atmosphère",
+        "Les particules solaires heurtant l'atmosphère",
         "La réflexion de la lumière lunaire",
-        "Les marées terrestres",
-        "Les éclairs de haute altitude"
+        "Les éruptions volcaniques sous-marines",
+        "Les éclairs de très haute altitude"
       ],
       "correctIndex": 0,
-      "explanation": "Les aurores boréales apparaissent lorsque des particules chargées provenant du Soleil entrent en collision avec les gaz de la haute atmosphère terrestre. Ces collisions produisent les magnifiques couleurs observées dans le ciel."
+      "explanation": "Les aurores polaires se forment quand des particules chargées (électrons et protons) du vent solaire sont guidées par le champ magnétique terrestre vers les pôles, où elles entrent en collision avec les molécules d'azote et d'oxygène de la haute atmosphère (100-300 km d'altitude). Ces collisions excitent les molécules, qui libèrent leur énergie sous forme de lumière colorée : vert (oxygène ~100 km), rouge (oxygène >200 km), bleu/violet (azote)."
     },
     {
       "id": "6",
       "question": "Quel phénomène explique le déplacement apparent des continents au cours du temps ?",
       "image": null,
       "answers": [
-        "L'érosion",
+        "L'érosion différentielle",
         "La tectonique des plaques",
-        "Le volcanisme",
+        "Le volcanisme de point chaud",
         "La rotation terrestre"
       ],
       "correctIndex": 1,
-      "explanation": "La tectonique des plaques décrit le mouvement lent mais constant des plaques lithosphériques. Ce mécanisme explique la dérive des continents, les séismes et la formation des chaînes de montagnes."
+      "explanation": "La tectonique des plaques décrit le mouvement lent mais constant des plaques lithosphériques sur l'asthénosphère (matière ductile du manteau supérieur). Ces plaques se déplacent de 2 à 10 cm par an. Alfred Wegener proposa la dérive des continents en 1912 ; la théorie fut pleinement acceptée dans les années 1960 grâce à la découverte de l'expansion des fonds océaniques."
     },
     {
       "id": "7",
@@ -101,12 +101,12 @@
       "image": null,
       "answers": [
         "Une nova",
-        "Une pulsation",
+        "Une nébuleuse planétaire",
         "Une supernova",
-        "Une nébuleuse"
+        "Un sursaut gamma"
       ],
       "correctIndex": 2,
-      "explanation": "Une supernova libère en quelques instants une énergie colossale. Ces explosions sont responsables de la dispersion dans l'espace de nombreux éléments chimiques indispensables à la formation des planètes et de la vie."
+      "explanation": "Une supernova de type II se produit quand une étoile de plus de 8 masses solaires épuise son combustible nucléaire : le cœur s'effondre en une fraction de seconde, libérant une énergie équivalente à ce que le Soleil rayonnera en toute sa vie. L'explosion disperse dans l'espace des éléments lourds (fer, nickel, or) produits lors de la nucléosynthèse stellaire. La dernière supernova visible à l'œil nu date de 1987 (SN 1987A, Grand Nuage de Magellan)."
     },
     {
       "id": "8",
@@ -115,11 +115,11 @@
       "answers": [
         "Le vent solaire",
         "Le magnétisme terrestre",
-        "La rotation du Soleil",
+        "La pression atmosphérique",
         "L'attraction gravitationnelle de la Lune"
       ],
       "correctIndex": 3,
-      "explanation": "Les marées sont principalement causées par l'attraction gravitationnelle exercée par la Lune sur les océans terrestres. Le Soleil participe également au phénomène, mais dans une moindre mesure."
+      "explanation": "La Lune génère des forces de marée qui déforment les océans en créant deux renflements : l'un du côté de la Lune (attraction directe) et l'autre à l'opposé (effet inertiel). La rotation de la Terre sous ces renflements produit les cycles de marées hautes et basses. Le Soleil contribue pour environ 46 % de l'effet lunaire : la syzygie (alignement Soleil-Terre-Lune) produit les marées de vive-eau, plus amples."
     },
     {
       "id": "9",
@@ -128,11 +128,11 @@
       "answers": [
         "À cause de la poussée d'Archimède",
         "À cause de la pression atmosphérique",
-        "À cause de la salinité",
-        "À cause de la température"
+        "À cause de la viscosité de l'eau",
+        "À cause de la tension superficielle"
       ],
       "correctIndex": 0,
-      "explanation": "La poussée d'Archimède est une force exercée par un fluide sur un objet immergé. Cette force s'oppose au poids de l'objet, ce qui donne l'impression qu'il est plus léger dans l'eau."
+      "explanation": "La poussée d'Archimède est une force verticale ascendante égale au poids du fluide déplacé (F = ρ × V × g). Un objet de 10 kg immergeant 1 litre d'eau reçoit une poussée de ~9,8 N. Si la poussée est supérieure au poids, l'objet flotte ; sinon il coule mais paraît plus léger. Ce principe, découvert par Archimède de Syracuse (~250 av. J.-C.), s'applique à tout fluide — eau, air, mercure."
     },
     {
       "id": "10",
@@ -145,7 +145,7 @@
         "L'effet Coriolis"
       ],
       "correctIndex": 1,
-      "explanation": "L'effet Doppler explique pourquoi la sirène d'une ambulance paraît plus aiguë lorsqu'elle s'approche et plus grave lorsqu'elle s'éloigne. Ce phénomène est également utilisé en astronomie."
+      "explanation": "Formulé par Christian Doppler en 1842, l'effet Doppler se produit car une source en mouvement compresse les ondes devant elle (fréquence perçue plus haute) et les étire derrière (fréquence plus basse). Il s'applique à toutes les ondes : son, lumière, ondes radio. En astronomie, le décalage vers le rouge (redshift) des galaxies a permis à Hubble de découvrir l'expansion de l'Univers. En médecine, l'échographie Doppler mesure le flux sanguin."
     },
     {
       "id": "11",
@@ -155,49 +155,49 @@
         "L'inertie",
         "La gravitation",
         "La portance aérodynamique",
-        "La friction"
+        "La friction de l'air"
       ],
       "correctIndex": 2,
-      "explanation": "La portance est générée par la circulation de l'air autour des ailes. Cette force compense le poids de l'avion et lui permet de rester en vol."
+      "explanation": "La portance résulte de deux effets complémentaires : d'une part, l'aile dévie le flux d'air vers le bas, générant par réaction une force vers le haut (troisième loi de Newton) ; d'autre part, la différence de pression entre l'intrados (dessous, pression plus haute) et l'extrados (dessus, pression plus basse) s'y ajoute, décrite par la loi de Bernoulli. Un avion de ligne pèse jusqu'à 500 tonnes et nécessite une vitesse de décollage de ~250 km/h pour atteindre la portance suffisante."
     },
     {
       "id": "12",
       "question": "Comment appelle-t-on le phénomène qui fait courber la lumière sous l'effet de la gravité ?",
       "image": null,
       "answers": [
-        "La réfraction",
-        "La diffraction",
-        "La réflexion",
+        "La réfraction atmosphérique",
+        "La diffraction gravitationnelle",
+        "La réflexion totale",
         "La lentille gravitationnelle"
       ],
       "correctIndex": 3,
-      "explanation": "La lentille gravitationnelle se produit lorsqu'un objet massif déforme l'espace-temps et courbe la trajectoire de la lumière. Ce phénomène permet notamment d'observer des galaxies très lointaines."
+      "explanation": "La lentille gravitationnelle se produit quand un objet massif (amas de galaxies, trou noir) courbe l'espace-temps et dévie les rayons lumineux d'une source lointaine. Prédit par Einstein en 1915, ce phénomène fut confirmé dès 1919 lors d'une éclipse solaire (Eddington). Il permet d'observer des galaxies extrêmement lointaines et d'étudier la matière noire par ses effets de déformation."
     },
     {
       "id": "13",
       "question": "Pourquoi la glace flotte-t-elle sur l'eau liquide ?",
       "image": null,
       "answers": [
-        "Parce qu'elle est moins dense",
-        "Parce qu'elle est plus chaude",
-        "Parce qu'elle contient de l'air",
-        "Parce qu'elle est plus légère chimiquement"
+        "Parce qu'elle est moins dense que l'eau",
+        "Parce qu'elle piège des bulles d'air en gelant",
+        "Parce que ses liaisons chimiques se modifient",
+        "Parce que la pression à la surface est plus faible"
       ],
       "correctIndex": 0,
-      "explanation": "Lorsque l'eau gèle, ses molécules s'organisent en une structure plus espacée. La glace devient alors moins dense que l'eau liquide, ce qui lui permet de flotter."
+      "explanation": "Lorsque l'eau gèle, ses molécules forment un réseau cristallin hexagonal (liaisons hydrogène) plus espacé que dans l'état liquide. La glace a une densité d'environ 0,917 g/cm³ contre 1,000 g/cm³ pour l'eau à 4 °C. Cette anomalie est vitale pour les écosystèmes aquatiques : la glace qui flotte isole l'eau froide en profondeur, permettant à la vie de survivre sous la surface en hiver."
     },
     {
       "id": "14",
-      "question": "Quel phénomène explique la courbure apparente des objets observés dans l'eau ?",
+      "question": "Quel phénomène explique la courbure apparente d'un objet plongé dans l'eau ?",
       "image": null,
       "answers": [
         "La diffraction",
         "La réfraction",
         "La polarisation",
-        "La fluorescence"
+        "La dispersion chromatique"
       ],
       "correctIndex": 1,
-      "explanation": "La réfraction correspond au changement de direction de la lumière lorsqu'elle passe d'un milieu à un autre. C'est pourquoi un objet plongé dans l'eau semble parfois déformé ou déplacé."
+      "explanation": "La réfraction correspond au changement de direction de la lumière lors du passage d'un milieu à un autre d'indice différent (air : n ≈ 1 ; eau : n ≈ 1,33). La loi de Snell-Descartes décrit cette déviation. C'est pourquoi une paille semble brisée dans un verre d'eau, et pourquoi les poissons voient le monde extérieur distordu à travers la surface."
     },
     {
       "id": "15",
@@ -207,49 +207,49 @@
         "La radioactivité",
         "L'électrolyse",
         "Le magnétisme",
-        "La conduction"
+        "La conductivité thermique"
       ],
       "correctIndex": 2,
-      "explanation": "Le magnétisme résulte de l'organisation particulière des électrons dans certains matériaux. Il est à l'origine du fonctionnement des aimants et de nombreuses technologies modernes."
+      "explanation": "Le magnétisme résulte de l'alignement des moments magnétiques des électrons dans des domaines de Weiss. Dans les matériaux ferromagnétiques (fer, nickel, cobalt), ces domaines s'alignent spontanément. Un aimant permanent comme la néodyme-fer-bore (NdFeB) est 10 fois plus puissant que l'acier. Le magnétisme est fondamental dans les moteurs électriques, les disques durs et les IRM médicales."
     },
     {
       "id": "16",
-      "question": "Comment appelle-t-on le phénomène responsable des tremblements de terre ?",
+      "question": "Quel phénomène explique pourquoi les cyclones tournent dans des sens opposés selon l'hémisphère ?",
       "image": null,
       "answers": [
-        "La subduction",
-        "L'érosion",
-        "Le volcanisme",
-        "Les mouvements des plaques tectoniques"
+        "Le champ magnétique terrestre",
+        "La différence de température entre les pôles",
+        "Les courants océaniques de surface",
+        "L'effet Coriolis"
       ],
       "correctIndex": 3,
-      "explanation": "Les séismes se produisent principalement lorsque les plaques tectoniques accumulent puis libèrent brutalement de l'énergie. Cette énergie se propage sous forme d'ondes sismiques."
+      "explanation": "L'effet Coriolis résulte de la rotation de la Terre : un objet se déplaçant librement est dévié vers la droite dans l'hémisphère nord, vers la gauche dans l'hémisphère sud. Les masses d'air aspirées vers un centre dépressionnaire s'enroulent ainsi en sens antihoraire au nord (cyclone) et horaire au sud. L'effet est négligeable à petite échelle (l'eau d'un lavabo ne tourne pas systématiquement dans un sens selon l'hémisphère, contrairement à la légende)."
     },
     {
       "id": "17",
-      "question": "Pourquoi observe-t-on parfois un arc-en-ciel après la pluie ?",
+      "question": "Quel phénomène explique que certains objets brillent dans le noir après exposition à la lumière ?",
       "image": null,
       "answers": [
-        "À cause de la dispersion de la lumière dans les gouttes d'eau",
-        "À cause du vent",
-        "À cause de l'humidité seule",
-        "À cause du champ magnétique terrestre"
+        "La phosphorescence",
+        "La réflexion résiduelle",
+        "La radioactivité bêta",
+        "La diffusion thermique"
       ],
       "correctIndex": 0,
-      "explanation": "Les gouttes d'eau agissent comme de petits prismes. Elles décomposent la lumière blanche du Soleil en différentes couleurs, créant ainsi l'arc-en-ciel."
+      "explanation": "La phosphorescence est la capacité de certains matériaux à absorber de l'énergie lumineuse et à la réémettre lentement après la fin de l'exposition. Contrairement à la fluorescence (émission quasi-instantanée), la phosphorescence peut durer de secondes à des heures. Elle implique des transitions électroniques dites « interdites » (passage par un état triplet), ce qui ralentit l'émission. Les pigments phosphorescents (strontium aluminate) sont utilisés dans les signaux de sécurité et les jouets."
     },
     {
       "id": "18",
       "question": "Quel phénomène permet aux satellites de rester en orbite autour de la Terre ?",
       "image": null,
       "answers": [
-        "Le magnétisme",
+        "Le magnétisme terrestre",
         "La combinaison de la vitesse et de la gravité",
-        "La pression atmosphérique",
-        "La force nucléaire"
+        "La pression atmosphérique résiduelle",
+        "La propulsion continue des moteurs"
       ],
       "correctIndex": 1,
-      "explanation": "Un satellite reste en orbite parce que sa vitesse horizontale compense continuellement sa chute due à la gravité. Il est en quelque sorte en chute libre permanente autour de la Terre."
+      "explanation": "Un satellite en orbite est en chute libre permanente vers la Terre, mais sa vitesse horizontale est si grande qu'il rate continuellement la Terre (la courbure terrestre descend aussi vite que le satellite tombe). En orbite basse (~400 km), la vitesse nécessaire est d'environ 7,9 km/s. La Station spatiale internationale fait le tour de la Terre en environ 90 minutes."
     },
     {
       "id": "19",
@@ -257,25 +257,25 @@
       "image": null,
       "answers": [
         "La fission nucléaire",
-        "La combustion",
+        "La contraction gravitationnelle seule",
         "La fusion nucléaire",
-        "La radioactivité naturelle"
+        "La désintégration radioactive"
       ],
       "correctIndex": 2,
-      "explanation": "Au cœur du Soleil, des noyaux d'hydrogène fusionnent pour former de l'hélium. Cette réaction libère une immense quantité d'énergie qui éclaire et chauffe notre planète."
+      "explanation": "Au cœur du Soleil (15 millions de °C, 250 milliards d'atmosphères), des noyaux d'hydrogène (protons) fusionnent en noyaux d'hélium via la chaîne proton-proton. Chaque seconde, 600 millions de tonnes d'hydrogène sont converties, libérant une puissance de 3,8 × 10²⁶ W. La différence de masse entre les réactifs et les produits (défaut de masse) est convertie en énergie selon E = mc². Le Soleil a ainsi environ 5 milliards d'années d'hydrogène restant."
     },
     {
       "id": "20",
-      "question": "Comment appelle-t-on le phénomène par lequel un objet conserve son état de mouvement tant qu'aucune force ne l'en empêche ?",
+      "question": "Comment appelle-t-on le principe selon lequel un objet conserve son état de mouvement tant qu'aucune force ne l'en empêche ?",
       "image": null,
       "answers": [
         "La gravitation",
         "La relativité",
-        "La poussée",
+        "La réaction newtonienne",
         "L'inertie"
       ],
       "correctIndex": 3,
-      "explanation": "L'inertie est un principe fondamental de la mécanique formulé par Newton. Un objet au repos reste au repos et un objet en mouvement conserve sa vitesse si aucune force extérieure n'agit sur lui."
+      "explanation": "L'inertie est formulée pour la première fois par Galilée au début du XVIIe siècle, puis érigée en première loi de Newton (1687) : tout corps reste en repos ou en mouvement rectiligne uniforme sauf si une force résultante s'exerce sur lui. C'est pourquoi les passagers d'une voiture freinent brusquement tendent à partir vers l'avant, ou pourquoi les astronautes en orbite flottent : ils sont en chute libre, aucune force normale ne les retient. La masse inertielle (résistance à l'accélération) est rigoureusement égale à la masse gravitationnelle."
     }
   ]
 }
