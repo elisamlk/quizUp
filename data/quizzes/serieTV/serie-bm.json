@@ -18,142 +18,243 @@
   "questions": [
     {
       "id": "1",
-      "question": "Quel épisode de Black Mirror met en scène un système de notation sociale omniprésent ?",
-      "answers": ["White Christmas", "Shut Up and Dance", "Nosedive", "Arkangel"],
-      "correctIndex": 2,
-      "explanation": "L’épisode Nosedive montre une société où chaque interaction sociale influence une note publique déterminant le statut social et l’accès aux services."
+      "question": "Dans quel épisode chaque interaction sociale influence-t-elle une note publique déterminant le statut et l'accès aux services ?",
+      "answers": [
+        "Nosedive",
+        "White Christmas",
+        "Shut Up and Dance",
+        "Arkangel"
+      ],
+      "correctIndex": 0,
+      "explanation": "Nosedive (S3E01, 2016) met en scène Lacie, interprétée par Bryce Dallas Howard, dans une société où chaque échange est noté de 1 à 5. Réalisé par Joe Wright, l'épisode a été nominé aux Emmy Awards et préfigurait des systèmes comme le crédit social développé en Chine."
     },
     {
       "id": "2",
-      "question": "Quel acteur interprète le personnage principal de l’épisode USS Callister ?",
-      "answers": ["Daniel Kaluuya", "Jesse Plemons", "Jon Hamm", "Anthony Mackie"],
+      "question": "Quel acteur incarne Robert Daly, le programmeur manipulateur de l'épisode USS Callister ?",
+      "answers": [
+        "Daniel Kaluuya",
+        "Jesse Plemons",
+        "Jon Hamm",
+        "Anthony Mackie"
+      ],
       "correctIndex": 1,
-      "explanation": "Jesse Plemons incarne Robert Daly dans USS Callister, un programmeur brillant mais profondément manipulateur utilisant une simulation virtuelle pour contrôler ses collègues."
+      "explanation": "Jesse Plemons incarne Robert Daly dans USS Callister (S4E01, 2017), un CTO brillant mais tyrannique qui piège des copies numériques de ses collègues dans une simulation inspirée de Star Trek. L'épisode a remporté 4 Emmy Awards en 2018."
     },
     {
       "id": "3",
-      "question": "Quel épisode interactif permet au spectateur de faire des choix ?",
-      "answers": ["Playtest", "Bandersnatch", "Metalhead", "Men Against Fire"],
+      "question": "Quel long-métrage interactif de Black Mirror permet au spectateur d'influencer directement le destin du personnage principal ?",
+      "answers": [
+        "Playtest",
+        "Bandersnatch",
+        "Metalhead",
+        "Men Against Fire"
+      ],
       "correctIndex": 1,
-      "explanation": "Bandersnatch est un épisode interactif dans lequel le spectateur influence directement les décisions du personnage principal et les différentes fins possibles."
+      "explanation": "Bandersnatch (2018) est un film interactif de 90 minutes dont la durée varie selon les choix du spectateur. Il offre de nombreux embranchements narratifs et plusieurs fins selon les choix du spectateur et se déroule en 1984, autour d'un développeur de jeux vidéo adaptant un roman de fiction interactive."
     },
     {
       "id": "4",
-      "question": "Quel épisode suit deux amis explorant une réalité virtuelle transformant leur relation ?",
-      "answers": ["Hang the DJ", "Be Right Back", "Striking Vipers", "San Junipero"],
+      "question": "Dans quel épisode un joueur teste un jeu d'horreur en réalité augmentée qui efface progressivement ses souvenirs ?",
+      "answers": [
+        "Hang the DJ",
+        "Be Right Back",
+        "Playtest",
+        "San Junipero"
+      ],
       "correctIndex": 2,
-      "explanation": "Striking Vipers explore les conséquences émotionnelles et identitaires d’une relation virtuelle née dans un jeu de combat immersif."
+      "explanation": "Playtest (S3E02, 2016) suit Cooper, joué par Wyatt Russell, qui se retrouve dans un manoir hanté généré par une IA lisant ses peurs les plus profondes. La révélation finale sur la nature de l'expérience est l'un des twists les plus brutaux de toute la série."
     },
     {
       "id": "5",
-      "question": "Quel épisode est centré sur une mémoire numérique permettant de revoir chaque souvenir ?",
-      "answers": ["White Bear", "Black Museum", "The Entire History of You", "Crocodile"],
+      "question": "Dans quel épisode un implant cérébral permet d'enregistrer et de revoir l'intégralité de ses souvenirs ?",
+      "answers": [
+        "White Bear",
+        "Black Museum",
+        "The Entire History of You",
+        "Crocodile"
+      ],
       "correctIndex": 2,
-      "explanation": "Dans The Entire History of You, les personnages utilisent un implant permettant d’enregistrer et de revoir tous leurs souvenirs, avec des conséquences destructrices."
+      "explanation": "The Entire History of You (S1E03, 2011) est écrit par Jesse Armstrong, créateur de Succession. L'implant baptisé Grain permet de revoir chaque souvenir en détail, avec des conséquences dévastatrices sur la relation du couple central."
     },
     {
       "id": "6",
-      "question": "Quel épisode met en scène une femme poursuivie dans un parc par des inconnus filmant ses réactions ?",
-      "answers": ["Mazey Day", "White Bear", "Hated in the Nation", "Loch Henry"],
+      "question": "Dans quel épisode une femme sans souvenir est-elle traquée par des inconnus qui filment sa terreur comme un divertissement ?",
+      "answers": [
+        "Mazey Day",
+        "White Bear",
+        "Hated in the Nation",
+        "Loch Henry"
+      ],
       "correctIndex": 1,
-      "explanation": "White Bear révèle progressivement une critique violente de la justice spectacle et de la fascination du public pour la punition."
+      "explanation": "White Bear (S2E02, 2013) révèle progressivement une dystopie judiciaire où la punition devient un spectacle public. Le twist final sur la nature du parc de White Bear est parmi les plus discutés de la série."
     },
     {
       "id": "7",
-      "question": "Quel épisode romantique se déroule dans une ville virtuelle des années 1980 ?",
-      "answers": ["Rachel, Jack and Ashley Too", "San Junipero", "Joan Is Awful", "Hang the DJ"],
-      "correctIndex": 1,
-      "explanation": "San Junipero est l’un des épisodes les plus émouvants de Black Mirror. Il explore l’amour, la mort et la conscience numérique à travers un paradis virtuel."
+      "question": "Dans quel épisode deux femmes tombent amoureuses dans une station balnéaire virtuelle recréant les années 1980 ?",
+      "answers": [
+        "Rachel, Jack and Ashley Too",
+        "Joan Is Awful",
+        "Hang the DJ",
+        "San Junipero"
+      ],
+      "correctIndex": 3,
+      "explanation": "San Junipero (S3E04, 2016) avec Gugu Mbatha-Raw et Mackenzie Davis est l'un des rares épisodes à se terminer positivement. Il a remporté 2 Emmy Awards en 2017 et est régulièrement cité comme le meilleur épisode de toute la série."
     },
     {
       "id": "8",
-      "question": "Quel épisode montre des soldats percevant les humains comme des monstres grâce à une technologie militaire ?",
-      "answers": ["Demon 79", "Beyond the Sea", "Metalhead", "Men Against Fire"],
+      "question": "Dans quel épisode une technologie militaire implantée conditionne les soldats à percevoir des civils comme des créatures monstrueuses ?",
+      "answers": [
+        "Demon 79",
+        "Beyond the Sea",
+        "Metalhead",
+        "Men Against Fire"
+      ],
       "correctIndex": 3,
-      "explanation": "Men Against Fire critique la déshumanisation provoquée par la technologie et la manipulation psychologique dans les conflits armés."
+      "explanation": "Men Against Fire (S3E05, 2016) critique la déshumanisation programmée dans les conflits armés. L'épisode s'inspire de recherches réelles sur le conditionnement psychologique des soldats et de travaux comme ceux de Dave Grossman sur la résistance au fait de tuer."
     },
     {
       "id": "9",
-      "question": "Quel épisode suit un premier ministre confronté à un chantage choquant ?",
-      "answers": ["National Anthem", "Smithereens", "Fifteen Million Merits", "Plaything"],
+      "question": "Dans quel épisode un premier ministre britannique est-il soumis à un chantage l'obligeant à accomplir un acte dégradant en direct à la télévision ?",
+      "answers": [
+        "National Anthem",
+        "Smithereens",
+        "Fifteen Million Merits",
+        "Plaything"
+      ],
       "correctIndex": 0,
-      "explanation": "Le tout premier épisode de Black Mirror choque immédiatement les spectateurs avec son intrigue politique et médiatique extrême."
+      "explanation": "National Anthem (S1E01, 2011) est le tout premier épisode diffusé sur Channel 4. Quelques années après sa diffusion, un scandale similaire impliquant David Cameron a relancé l'intérêt pour cet épisode, souvent présenté comme prophétique."
     },
     {
       "id": "10",
-      "question": "Quel épisode explore une application calculant scientifiquement la durée des relations amoureuses ?",
-      "answers": ["Hang the DJ", "Rachel, Jack and Ashley Too", "San Junipero", "Be Right Back"],
+      "question": "Dans quel épisode un système contrôle la durée des relations amoureuses et révèle à quel moment les couples doivent se séparer ?",
+      "answers": [
+        "Hang the DJ",
+        "Rachel, Jack and Ashley Too",
+        "San Junipero",
+        "Be Right Back"
+      ],
       "correctIndex": 0,
-      "explanation": "Hang the DJ critique les algorithmes amoureux et les systèmes contrôlant les relations humaines sous couvert de compatibilité parfaite."
+      "explanation": "Hang the DJ (S4E04, 2017) avec Georgina Campbell et Joe Cole suit Frank et Amy, contraints par un algorithme appelé Coach de multiplier les relations courtes. Le retournement final révèle la vraie nature de leur univers et a rendu l'épisode immédiatement culte."
     },
     {
       "id": "11",
-      "question": "Quel épisode suit une femme espionnant constamment sa fille grâce à une technologie invasive ?",
-      "answers": ["White Christmas", "Arkangel", "Crocodile", "Nosedive"],
+      "question": "Dans quel épisode une mère implante une puce dans le cerveau de sa fille pour surveiller tout ce qu'elle voit et filtrer les contenus perturbants ?",
+      "answers": [
+        "White Christmas",
+        "Arkangel",
+        "Crocodile",
+        "Nosedive"
+      ],
       "correctIndex": 1,
-      "explanation": "Arkangel montre comment une technologie de surveillance parentale peut détruire la confiance et l’intimité familiale."
+      "explanation": "Arkangel (S4E02, 2017) est réalisé par Jodie Foster. Il montre comment une technologie de surveillance parentale bien intentionnée détruit progressivement la relation entre une mère et sa fille, en supprimant tout stimuli stressant de son champ de vision."
     },
     {
       "id": "12",
-      "question": "Quel épisode met en scène des robots tueurs ressemblant à des chiens ?",
-      "answers": ["Metalhead", "Black Museum", "Playtest", "Hated in the Nation"],
+      "question": "Dans quel épisode en noir et blanc une femme est-elle traquée sans relâche par des chiens robots autonomes dans une campagne désertée ?",
+      "answers": [
+        "Metalhead",
+        "Black Museum",
+        "Playtest",
+        "Hated in the Nation"
+      ],
       "correctIndex": 0,
-      "explanation": "Metalhead adopte une esthétique noir et blanc oppressante pour raconter une traque menée par des machines autonomes terrifiantes."
+      "explanation": "Metalhead (S4E05, 2017) est filmé entièrement en noir et blanc par David Slade. Les robots tueurs sont directement inspirés des prototypes de Boston Dynamics. L'épisode se distingue par son minimalisme total : pas d'explication, pas de contexte, juste la traque."
     },
     {
       "id": "13",
-      "question": "Quel épisode critique directement les réseaux sociaux et la validation permanente ?",
-      "answers": ["Smithereens", "Nosedive", "White Bear", "Loch Henry"],
-      "correctIndex": 1,
-      "explanation": "Nosedive est devenu l’un des épisodes les plus emblématiques de Black Mirror grâce à sa critique des apparences et des réseaux sociaux."
+      "question": "Dans quel épisode un jeune couple documente un crime dans un village reculé et voit leur film transformé en phénomène de true crime ?",
+      "answers": [
+        "Smithereens",
+        "White Bear",
+        "Mazey Day",
+        "Loch Henry"
+      ],
+      "correctIndex": 3,
+      "explanation": "Loch Henry (S6E02, 2023) critique l'industrie du true crime et l'exploitation des traumatismes réels à des fins de divertissement. C'est l'un des épisodes les plus ancrés dans la réalité contemporaine de toute la saison 6."
     },
-  {
-  "id": "14",
-  "question": "Quel acteur interprète le personnage principal de l’épisode Smithereens ?",
-  "answers": ["Daniel Radcliffe", "Tom Holland", "Andrew Scott", "Aaron Paul"],
-  "correctIndex": 2
-},
+    {
+      "id": "14",
+      "question": "Dans quel épisode une IA reproduit la personnalité et la voix d'un compagnon décédé pour aider sa petite amie à faire son deuil ?",
+      "answers": [
+        "Joan Is Awful",
+        "Beyond the Sea",
+        "White Christmas",
+        "Be Right Back"
+      ],
+      "correctIndex": 3,
+      "explanation": "Be Right Back (S2E01, 2013) avec Hayley Atwell anticipe les débats actuels sur les IA de deuil et les avatars numériques de personnes décédées. L'épisode va progressivement jusqu'à la création d'un androïde physique reproduisant le défunt."
+    },
     {
       "id": "15",
-      "question": "Quel épisode met en scène une IA recréant numériquement un compagnon décédé ?",
-      "answers": ["Joan Is Awful", "Be Right Back", "Beyond the Sea", "White Christmas"],
+      "question": "Dans quel épisode une femme découvre que sa vie est diffusée à son insu par une plateforme de streaming sous forme de série avec une actrice IA ?",
+      "answers": [
+        "Black Museum",
+        "Joan Is Awful",
+        "Mazey Day",
+        "Crocodile"
+      ],
       "correctIndex": 1,
-      "explanation": "Be Right Back explore le deuil à travers une intelligence artificielle reproduisant la personnalité d’un être disparu."
+      "explanation": "Joan Is Awful (S6E01, 2023) avec Salma Hayek ouvre la saison 6 avec une satire acérée de Netflix et des plateformes de streaming. L'épisode critique l'exploitation des données personnelles et la création de contenus générés par IA sans consentement."
     },
     {
       "id": "16",
-      "question": "Quel épisode présente une plateforme diffusant la vie d’une femme sous forme de série sans son consentement ?",
-      "answers": ["Black Museum", "Joan Is Awful", "Mazey Day", "Crocodile"],
-      "correctIndex": 1,
-      "explanation": "Joan Is Awful critique les plateformes de streaming, l’exploitation des données personnelles et les dérives de l’intelligence artificielle."
+      "question": "Dans quel épisode un chauffeur VTC est prêt à tout pour attirer l'attention du PDG d'un réseau social après un drame personnel ?",
+      "answers": [
+        "Smithereens",
+        "Playtest",
+        "National Anthem",
+        "Demon 79"
+      ],
+      "correctIndex": 0,
+      "explanation": "Smithereens (S5E02, 2019) avec Andrew Scott critique notre dépendance aux réseaux sociaux et la responsabilité des plateformes dans les drames personnels. L'épisode se déroule en temps quasi réel et s'inspire directement d'affaires médiatiques réelles."
     },
     {
       "id": "17",
-      "question": "Quel épisode suit un homme manipulé par des hackers anonymes ?",
-      "answers": ["Playtest", "National Anthem", "Shut Up and Dance", "Demon 79"],
-      "correctIndex": 2,
-      "explanation": "Shut Up and Dance devient progressivement l’un des épisodes les plus dérangeants grâce à son retournement final particulièrement brutal."
+      "question": "Dans quel épisode un homme est manipulé par des hackers anonymes et contraint d'accomplir des actes de plus en plus graves ?",
+      "answers": [
+        "Playtest",
+        "National Anthem",
+        "Demon 79",
+        "Shut Up and Dance"
+      ],
+      "correctIndex": 3,
+      "explanation": "Shut Up and Dance (S3E03, 2016) avec Alex Lawther et Jerome Flynn devient progressivement l'un des épisodes les plus dérangeants de la série grâce à son retournement final qui remet totalement en question la sympathie du spectateur pour les victimes."
     },
     {
       "id": "18",
-      "question": "Quel épisode réunit plusieurs technologies emblématiques de la série dans un musée ?",
-      "answers": ["White Christmas", "Bandersnatch", "Black Museum", "Men Against Fire"],
+      "question": "Dans quel épisode un musée présente des artefacts technologiques horrifiques issus de plusieurs histoires liées ?",
+      "answers": [
+        "White Christmas",
+        "Bandersnatch",
+        "Black Museum",
+        "Men Against Fire"
+      ],
       "correctIndex": 2,
-      "explanation": "Black Museum agit presque comme un épisode hommage en reliant plusieurs concepts et objets issus d’autres histoires de Black Mirror."
+      "explanation": "Black Museum (S4E06, 2017) avec Douglas Hodge agit comme un épisode anthologique dans l'anthologie, reliant plusieurs expériences technologiques cauchemardesque. Le twist final connecte l'épisode à San Junipero, confirmant que certains épisodes partagent le même univers."
     },
     {
       "id": "19",
-      "question": "Quel créateur est à l’origine de Black Mirror ?",
-      "answers": ["Charlie Brooker", "Mike Flanagan", "Sam Esmail", "Jordan Peele"],
-      "correctIndex": 0,
-      "explanation": "Charlie Brooker crée Black Mirror comme une critique des dérives technologiques et sociales du monde moderne."
+      "question": "Sur quelle chaîne britannique Black Mirror a-t-il été diffusé avant de rejoindre Netflix ?",
+      "answers": [
+        "BBC One",
+        "ITV",
+        "Channel 4",
+        "Sky Atlantic"
+      ],
+      "correctIndex": 2,
+      "explanation": "Black Mirror a été créé et diffusé sur Channel 4 pour les saisons 1 (2011) et 2 (2013), ainsi que le spécial White Christmas (2014). Netflix a racheté la série en 2015, ce qui a permis d'augmenter significativement les budgets de production."
     },
     {
       "id": "20",
-      "question": "Quel thème principal relie la majorité des épisodes de Black Mirror ?",
-      "answers": ["La fantasy surnaturelle", "Les catastrophes naturelles", "Le voyage temporel", "Les dérives de la technologie"],
-      "correctIndex": 3,
-      "explanation": "Black Mirror explore principalement les conséquences psychologiques, sociales et morales liées à l’évolution technologique."
+      "question": "Dans quel épisode spécial Jon Hamm incarne-t-il un consultant utilisant une technologie de 'cookie' copiant la conscience humaine ?",
+      "answers": [
+        "Smithereens",
+        "Beyond the Sea",
+        "White Christmas",
+        "Hated in the Nation"
+      ],
+      "correctIndex": 2,
+      "explanation": "White Christmas (2014) avec Jon Hamm est un épisode spécial de Noël diffusé sur Channel 4. Il introduit la technologie du 'cookie', une copie numérique de la conscience humaine, concept repris dans Black Museum. L'épisode est souvent considéré comme l'un des meilleurs de toute la série."
     }
   ]
 }

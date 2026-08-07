@@ -13,148 +13,248 @@
   "images": {
     "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1778496108/annes-2000_ktbn0v.jpg",
     "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1778496108/annes-2000_ktbn0v.jpg",
-    "alt": "Quiz séries des années 2010"
+    "alt": "Illustration du quiz sur les grandes séries télévisées des années 2010"
   },
   "questions": [
     {
       "id": "1",
       "question": "Quelle série fantastique HBO met en scène les familles Stark, Lannister et Targaryen ?",
-      "answers": ["The Witcher", "Vikings", "Game of Thrones", "The Last Kingdom"],
+      "answers": [
+        "The Witcher",
+        "Vikings",
+        "Game of Thrones",
+        "The Last Kingdom"
+      ],
       "correctIndex": 2,
-      "explanation": "Game of Thrones a profondément changé l’industrie des séries grâce à ses budgets gigantesques, ses effets spéciaux dignes du cinéma et ses diffusions mondiales simultanées."
+      "explanation": "Game of Thrones (HBO, 2011-2019, 8 saisons) a établi des records d'audience avec jusqu'à 17,4 millions de téléspectateurs par épisode aux États-Unis pour la saison 8. Ses budgets de production, parmi les plus élevés de l'histoire de la télévision, lui ont permis des effets spéciaux dignes du cinéma."
     },
     {
       "id": "2",
-      "question": "Quelle série Netflix suit un groupe d’enfants confrontés à l’Upside Down ?",
-      "answers": ["Stranger Things", "Dark", "The OA", "Locke & Key"],
+      "question": "Quelle série Netflix suit un groupe d'enfants confrontés à l'Upside Down ?",
+      "answers": [
+        "Stranger Things",
+        "Dark",
+        "The OA",
+        "Locke & Key"
+      ],
       "correctIndex": 0,
-      "explanation": "Stranger Things a remis à la mode l’esthétique des années 80 avec ses références aux films de Spielberg, Stephen King et aux jeux de rôle comme Donjons & Dragons."
+      "explanation": "Stranger Things (Netflix, depuis 2016) a remis à la mode l'esthétique des années 80. La saison 4 s'est imposée comme l'une des plus regardées de l'histoire de Netflix à sa sortie en 2022, établissant des records d'audience sur la plateforme."
     },
-{
-  "id": "3",
-  "question": "Quelle série brésilienne se déroule dans un futur où seuls quelques candidats peuvent rejoindre une société privilégiée ?",
-  "answers": ["The 100", "Mr. Robot", "3%", "Colony"],
-  "correctIndex": 2,
-  "explanation": "3% est l’une des premières séries brésiliennes originales de Netflix. Son univers dystopique repose sur une sélection extrêmement difficile permettant à une minorité d’accéder à une société idéale."
-},
+    {
+      "id": "3",
+      "question": "Quelle série brésilienne Netflix se déroule dans un futur dystopique où seuls 3 % des candidats accèdent à une société privilégiée ?",
+      "answers": [
+        "The 100",
+        "Mr. Robot",
+        "3%",
+        "Colony"
+      ],
+      "correctIndex": 2,
+      "explanation": "3% (Netflix, 2016-2020, 4 saisons) est l'une des premières séries originales brésiliennes de Netflix et la première entièrement en portugais à être diffusée mondialement. Elle a totalisé 36 épisodes."
+    },
     {
       "id": "4",
       "question": "Quelle série espagnole met en scène un braquage organisé par un mystérieux Professeur ?",
-      "answers": ["Elite", "La Casa de Papel", "Sky Rojo", "Vis a Vis"],
-      "correctIndex": 1,
-      "explanation": "À l’origine, La Casa de Papel était une série espagnole classique. Son arrivée sur Netflix l’a transformée en phénomène mondial avec ses masques de Dalí et Bella Ciao."
+      "answers": [
+        "Elite",
+        "Sky Rojo",
+        "Vis a Vis",
+        "La Casa de Papel"
+      ],
+      "correctIndex": 3,
+      "explanation": "La Casa de Papel (Antena 3 puis Netflix, 2017-2021) est devenue la série non anglophone la plus regardée de l'histoire de Netflix. Ses masques de Salvador Dalí et l'hymne Bella Ciao sont devenus des symboles culturels mondiaux."
     },
     {
       "id": "5",
-      "question": "Quelle série post-apocalyptique suit des survivants dans un monde rempli de zombies ?",
-      "answers": ["The Walking Dead", "Fear the Walking Dead", "The Last of Us", "Z Nation"],
+      "question": "Quelle série suit des survivants dans un monde envahi par des morts-vivants ?",
+      "answers": [
+        "The Walking Dead",
+        "Fear the Walking Dead",
+        "The Last of Us",
+        "Z Nation"
+      ],
       "correctIndex": 0,
-      "explanation": "The Walking Dead a été l’un des plus grands phénomènes télévisés des années 2010 et a contribué à remettre les zombies au centre de la culture populaire."
+      "explanation": "The Walking Dead (AMC, 2010-2022, 11 saisons) a réuni jusqu'à 17,3 millions de téléspectateurs pour son pic d'audience en saison 5. Adaptée des comics de Robert Kirkman, la série a totalisé 177 épisodes et engendré plusieurs spin-offs."
     },
- {
-  "id": "6",
-  "question": "Quelle série humoristique suit les employés d’un magasin fictif nommé Cloud 9 ?",
-  "answers": ["Brooklyn Nine-Nine", "The Office", "Superstore", "Community"],
-  "correctIndex": 2,
-  "explanation": "Superstore s’est démarquée par son humour centré sur le monde du travail et sa critique sociale légère de la grande distribution américaine."
-},
+    {
+      "id": "6",
+      "question": "Quelle série humoristique suit les employés d'un magasin discount fictif nommé Cloud 9 ?",
+      "answers": [
+        "Brooklyn Nine-Nine",
+        "The Office",
+        "Community",
+        "Superstore"
+      ],
+      "correctIndex": 3,
+      "explanation": "Superstore (NBC, 2015-2021, 6 saisons) s'est démarquée par son humour sur le monde du travail et sa critique sociale de la grande distribution. Avec 113 épisodes, elle a traité de sujets comme les droits des travailleurs et la syndicalisation."
+    },
     {
       "id": "7",
-      "question": "Quelle série HBO suit principalement Rue Bennett et un groupe d’adolescents confrontés à leurs addictions et problèmes personnels ?",
-      "answers": ["Skins", "13 Reasons Why", "Euphoria", "Elite"],
+      "question": "Quelle série HBO suit Rue Bennett et des adolescents confrontés aux addictions et à la santé mentale ?",
+      "answers": [
+        "Skins",
+        "13 Reasons Why",
+        "Euphoria",
+        "Elite"
+      ],
       "correctIndex": 2,
-      "explanation": "Euphoria s’est distinguée par sa réalisation très stylisée, ses lumières néon et son traitement plus cru des addictions, de la sexualité et de l’anxiété chez les adolescents."
+      "explanation": "Euphoria (HBO, depuis 2019) avec Zendaya a remporté 2 Emmy Awards en 2022, dont celui de Meilleure Actrice pour Zendaya. Sa mise en scène très stylisée et son esthétique néon ont profondément influencé la mode et la photographie des années 2020."
     },
     {
       "id": "8",
-      "question": "Quelle série met en scène des super-héros corrompus surveillés par un groupe appelé The Boys ?",
-      "answers": ["Invincible", "Watchmen", "Peacemaker", "The Boys"],
+      "question": "Quelle série Prime Video met en scène des super-héros corrompus surveillés par un groupe appelé The Boys ?",
+      "answers": [
+        "Invincible",
+        "Watchmen",
+        "Peacemaker",
+        "The Boys"
+      ],
       "correctIndex": 3,
-      "explanation": "The Boys détourne complètement l’image traditionnelle des super-héros en montrant des personnages célèbres mais violents, manipulateurs et dangereux."
+      "explanation": "The Boys (Prime Video, depuis 2019) est adaptée du comics de Garth Ennis. Elle s'est imposée comme l'une des séries les plus regardées de Prime Video, avec des saisons régulièrement classées parmi les lancements les plus vus de la plateforme."
     },
-  {
-  "id": "9",
-  "question": "Quelle série suit un groupe de survivants dans un monde où les adultes ont disparu ?",
-  "answers": ["The 100", "Under the Dome", "The Society", "Jericho"],
-  "correctIndex": 2,
-  "explanation": "The Society reprend le principe d’une communauté de jeunes livrés à eux-mêmes dans une ville mystérieusement coupée du reste du monde. La série a rapidement trouvé un public grâce à son mélange de thriller et de drame adolescent."
-},
+    {
+      "id": "9",
+      "question": "Quelle série Netflix suit des lycéens livrés à eux-mêmes après la disparition mystérieuse de tous les adultes de leur ville ?",
+      "answers": [
+        "The 100",
+        "Under the Dome",
+        "The Society",
+        "Between"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Society (Netflix, 2019) suit des lycéens d'une ville américaine qui se retrouvent seuls, sans adultes ni contact extérieur, et doivent s'organiser. Netflix a annulé la saison 2 en 2020 malgré son renouvellement, en raison de la pandémie de Covid-19."
+    },
     {
       "id": "10",
-      "question": "Quelle série suit les membres d’une famille riche et dysfonctionnelle à la tête d’un empire médiatique ?",
-      "answers": ["Billions", "Mad Men", "Succession", "Empire"],
+      "question": "Quelle série suit une famille riche et dysfonctionnelle à la tête d'un empire médiatique ?",
+      "answers": [
+        "Billions",
+        "Mad Men",
+        "Succession",
+        "Empire"
+      ],
       "correctIndex": 2,
-      "explanation": "Succession est devenue célèbre grâce à ses dialogues mordants, ses trahisons permanentes et son portrait très cynique des ultra-riches."
+      "explanation": "Succession (HBO, 2018-2023, 4 saisons) a remporté l'Emmy Award de la Meilleure Série Dramatique à plusieurs reprises et s'est imposée comme l'une des séries les plus primées de sa génération. La série a totalisé 39 épisodes."
     },
     {
       "id": "11",
-      "question": "Quelle série raconte les aventures du Mandalorien et de Grogu dans l’univers Star Wars ?",
-      "answers": ["The Mandalorian", "Andor", "Obi-Wan Kenobi", "Ahsoka"],
+      "question": "Quelle série Disney+ raconte les aventures du Mandalorien et de Grogu dans l'univers Star Wars ?",
+      "answers": [
+        "The Mandalorian",
+        "Andor",
+        "Obi-Wan Kenobi",
+        "Ahsoka"
+      ],
       "correctIndex": 0,
-      "explanation": "The Mandalorian a largement contribué au succès des séries Star Wars sur Disney+, notamment grâce au personnage de Grogu, surnommé Baby Yoda par les fans."
+      "explanation": "The Mandalorian (Disney+, depuis 2019) a été la première série live-action de l'univers Star Wars. Grogu, surnommé Baby Yoda, est devenu l'un des personnages les plus populaires de la franchise depuis la sortie de l'épisode 1 en novembre 2019."
     },
     {
       "id": "12",
-      "question": "Quelle série Netflix allemande mélange voyage dans le temps et disparition d’enfants ?",
-      "answers": ["1899", "Dark", "Black Mirror", "The Rain"],
+      "question": "Quelle série allemande Netflix mélange voyage dans le temps et disparition d'enfants ?",
+      "answers": [
+        "1899",
+        "Dark",
+        "The Rain",
+        "Kingdom"
+      ],
       "correctIndex": 1,
-      "explanation": "Dark est réputée pour sa narration extrêmement complexe et ses multiples timelines. Beaucoup de spectateurs utilisaient des arbres généalogiques pour suivre l’intrigue."
+      "explanation": "Dark (Netflix, 2017-2020, 3 saisons, 26 épisodes) est créée par Baran bo Odar et Jantje Friese. Réputée pour ses 4 timelines entrelacées sur plusieurs siècles, elle a popularisé l'usage d'arbres généalogiques partagés par les fans pour suivre l'intrigue."
     },
     {
       "id": "13",
-      "question": "Quelle série suit Tommy Shelby et son gang dans l’Angleterre de l’après-guerre ?",
-      "answers": ["Peaky Blinders", "Boardwalk Empire", "Taboo", "Sons of Anarchy"],
+      "question": "Quelle série suit Tommy Shelby et son gang criminel dans l'Angleterre de l'entre-deux-guerres ?",
+      "answers": [
+        "Peaky Blinders",
+        "Boardwalk Empire",
+        "Taboo",
+        "Sons of Anarchy"
+      ],
       "correctIndex": 0,
-      "explanation": "Peaky Blinders a marqué les années 2010 avec son style visuel unique, sa musique moderne et le personnage très charismatique de Tommy Shelby."
+      "explanation": "Peaky Blinders (BBC Two, 2013-2022, 6 saisons) suit Cillian Murphy dans le rôle de Tommy Shelby. La série a progressivement multiplié son audience entre sa première et sa dernière saison, devenant l'une des productions britanniques les plus exportées de la décennie."
     },
     {
       "id": "14",
-      "question": "Quelle série anthologique de science-fiction explore souvent les dérives de la technologie ?",
-      "answers": ["Love, Death & Robots", "Westworld", "Black Mirror", "Fringe"],
-      "correctIndex": 2,
-      "explanation": "Black Mirror imagine des futurs très proches où les réseaux sociaux, l’intelligence artificielle ou la surveillance technologique deviennent inquiétants."
+      "question": "Quelle série anthologique explore les dérives de la technologie dans des futurs proches ?",
+      "answers": [
+        "Love, Death & Robots",
+        "Westworld",
+        "Years and Years",
+        "Black Mirror"
+      ],
+      "correctIndex": 3,
+      "explanation": "Black Mirror (Channel 4 puis Netflix, depuis 2011) a été créée par Charlie Brooker. Chaque épisode est une histoire indépendante ; l'épisode 'San Junipero' (2016) a remporté 2 Emmy Awards, dont celui du Meilleur Téléfilm."
     },
     {
       "id": "15",
-      "question": "Quelle série suit Joe Goldberg, libraire obsessionnel prêt à tout par amour ?",
-      "answers": ["Dexter", "You", "Elite", "Mindhunter"],
+      "question": "Quelle série suit Joe Goldberg, un libraire obsessionnel prêt à tout par amour ?",
+      "answers": [
+        "Dexter",
+        "You",
+        "Mindhunter",
+        "Hannibal"
+      ],
       "correctIndex": 1,
-      "explanation": "You plonge le spectateur dans les pensées du personnage principal grâce à une narration interne constante, ce qui rend la série particulièrement dérangeante."
+      "explanation": "You (Lifetime puis Netflix, depuis 2018) suit Penn Badgley dans le rôle de Joe Goldberg. La série s'est imposée comme l'un des grands succès de Netflix, avec des saisons régulièrement classées parmi les plus regardées de la plateforme à leur sortie."
     },
     {
       "id": "16",
-      "question": "Quelle série Marvel Netflix met en scène l’avocat aveugle Matt Murdock ?",
-      "answers": ["Jessica Jones", "The Punisher", "Luke Cage", "Daredevil"],
+      "question": "Quelle série Marvel Netflix met en scène l'avocat aveugle Matt Murdock combattant le crime à Hell's Kitchen ?",
+      "answers": [
+        "Jessica Jones",
+        "The Punisher",
+        "Luke Cage",
+        "Daredevil"
+      ],
       "correctIndex": 3,
-      "explanation": "Daredevil a été saluée pour ses combats très réalistes et ses longs plans-séquences, notamment les célèbres scènes de couloir devenues emblématiques."
+      "explanation": "Daredevil (Netflix/Marvel, 2015-2018, 3 saisons) a été saluée pour ses combats chorégraphiés et ses plans-séquences de plusieurs minutes sans coupe. La saison 1 a obtenu une note de 98 % sur Rotten Tomatoes."
     },
     {
       "id": "17",
-      "question": "Quelle série raconte les débuts du règne d’Elizabeth II ?",
-      "answers": ["Victoria", "The Crown", "Downton Abbey", "Bridgerton"],
+      "question": "Quelle série Netflix raconte les premières décennies du règne d'Elizabeth II ?",
+      "answers": [
+        "Victoria",
+        "The Crown",
+        "Downton Abbey",
+        "Bridgerton"
+      ],
       "correctIndex": 1,
-      "explanation": "The Crown a attiré un immense public grâce à son budget colossal et sa reconstitution très détaillée des événements de la monarchie britannique."
+      "explanation": "The Crown (Netflix, 2016-2023, 6 saisons) a remporté 21 Emmy Awards au total. Son budget par saison dépassait 100 millions de dollars, en faisant l'une des productions les plus coûteuses de Netflix."
     },
-  {
-  "id": "18",
-  "question": "Quelle série met en scène un analyste financier entraîné dans le blanchiment d’argent pour un cartel ?",
-  "answers": ["Narcos", "Ozark", "Breaking Bad", "Billions"],
-  "correctIndex": 1,
-  "explanation": "Ozark s’est imposée comme l’un des grands thrillers criminels de Netflix grâce à son ambiance sombre, ses tensions permanentes et le personnage de Marty Byrde."
-},
+    {
+      "id": "18",
+      "question": "Quelle série suit un conseiller financier entraîné dans le blanchiment d'argent pour un cartel mexicain ?",
+      "answers": [
+        "Narcos",
+        "Ozark",
+        "Breaking Bad",
+        "Billions"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ozark (Netflix, 2017-2022, 4 saisons) suit Jason Bateman dans le rôle de Marty Byrde. La série a remporté plusieurs Emmy Awards et s'est imposée comme l'un des grands thrillers criminels de Netflix, régulièrement classée parmi les plus regardées de la plateforme."
+    },
     {
       "id": "19",
-      "question": "Quelle série suit les employés d’un parc d’attractions futuriste peuplé d’androïdes ?",
-      "answers": ["Foundation", "Westworld", "Black Mirror", "Raised by Wolves"],
+      "question": "Quelle série suit les employés d'un parc d'attractions futuriste peuplé d'androïdes conscients ?",
+      "answers": [
+        "Foundation",
+        "Westworld",
+        "Black Mirror",
+        "Humans"
+      ],
       "correctIndex": 1,
-      "explanation": "Westworld mélange science-fiction, philosophie et intelligence artificielle en questionnant la conscience et le libre arbitre des androïdes."
+      "explanation": "Westworld (HBO, 2016-2022, 4 saisons) est adaptée du film de Michael Crichton (1973). La saison 1 a été très primée aux Emmy Awards et a rencontré un succès d'audience considérable, en faisant l'une des séries de SF les plus ambitieuses de la décennie."
     },
     {
       "id": "20",
-      "question": "Quelle série suit un analyste du FBI étudiant le comportement des tueurs en série ?",
-      "answers": ["Mindhunter", "Dexter", "True Detective", "Hannibal"],
+      "question": "Quelle série Netflix suit des agents du FBI pionniers dans l'étude du comportement des tueurs en série ?",
+      "answers": [
+        "Mindhunter",
+        "Dexter",
+        "True Detective",
+        "Hannibal"
+      ],
       "correctIndex": 0,
-      "explanation": "Mindhunter s’inspire des débuts réels du profilage criminel au FBI et met en scène plusieurs criminels célèbres ayant réellement existé."
+      "explanation": "Mindhunter (Netflix, 2017-2019, 2 saisons) est produite par David Fincher et basée sur le livre de John Douglas. La série s'inspire de l'unité réelle des sciences du comportement du FBI et met en scène des entretiens avec des tueurs en série ayant réellement existé."
     }
   ]
 }

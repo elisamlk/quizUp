@@ -1,281 +1,161 @@
 {
-    "slug": "quiz-champions-precoces",
-    "title": "Quiz Sport - Les Champions Précoces - 20 prodiges qui ont marqué l'histoire",
-    "description": "Teste tes connaissances sur les sportifs devenus champions, records ou légendes à un très jeune âge.",
-    "publishedAt": "2026-06-18",
-    "descriptionSeo": "De Pelé à Nadia Comăneci, en passant par Boris Becker, Martina Hingis, Max Verstappen, Tiger Woods, Kylian Mbappé ou Carlos Alcaraz, certains sportifs ont marqué l'histoire très jeunes. Ce quiz sport te propose 20 questions sur les champions précoces, les records de jeunesse, les exploits olympiques et les prodiges qui ont bouleversé leur discipline avant même d'atteindre leur pleine maturité.",
-    "category": {
-        "name": "Sport",
-        "slug": "sport"
+  "slug": "quiz-champions-precoces",
+  "title": "Quiz Sport - Les Champions Précoces - 20 prodiges qui ont marqué l'histoire",
+  "description": "Teste tes connaissances sur les sportifs devenus champions, records ou légendes à un très jeune âge.",
+  "publishedAt": "2026-06-18",
+  "descriptionSeo": "De Pelé à Nadia Comăneci, en passant par Boris Becker, Martina Hingis, Max Verstappen, Tiger Woods, Kylian Mbappé ou Carlos Alcaraz, certains sportifs ont marqué l'histoire très jeunes. Ce quiz sport te propose 20 questions sur les champions précoces, les records de jeunesse, les exploits olympiques et les prodiges qui ont bouleversé leur discipline avant même d'atteindre leur pleine maturité.",
+  "category": {
+    "name": "Sport",
+    "slug": "sport"
+  },
+  "createdAt": "2026-06-06",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1781439957/athlete_axvkrq.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1781439957/athlete_axvkrq.jpg",
+    "alt": "Quiz sur les champions précoces du sport"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "question": "En 1958, quel jeune Brésilien remporte la Coupe du monde de football à 17 ans, devenant le plus jeune champion du monde de l'histoire ?",
+      "answers": ["Garrincha", "Pelé", "Romário", "Zico"],
+      "correctIndex": 1,
+      "explanation": "Pelé remporte la Coupe du monde 1958 avec le Brésil à 17 ans et 249 jours, devenant le plus jeune champion du monde de l'histoire du football. Il marque deux buts en finale contre la Suède, lançant l'une des plus grandes carrières de l'histoire du sport."
     },
-    "createdAt": "2026-06-06",
-    "isNew": true,
-    "isPopular": true,
-    "images": {
-        "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1781439957/athlete_axvkrq.jpg",
-        "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1781439957/athlete_axvkrq.jpg",
-        "alt": "Quiz sur les champions précoces du sport"
+    {
+      "id": "2",
+      "question": "À Montréal en 1976, une gymnaste roumaine de 14 ans obtient le premier 10 parfait de l'histoire olympique. Qui est-elle ?",
+      "answers": ["Olga Korbut", "Simone Biles", "Nadia Comăneci", "Larisa Latynina"],
+      "correctIndex": 2,
+      "explanation": "Nadia Comăneci marque les Jeux olympiques de Montréal 1976 en obtenant le premier 10 parfait de l'histoire olympique aux barres asymétriques, à seulement 14 ans. Le tableau d'affichage affichait d'ailleurs « 1.00 » faute d'avoir été prévu pour afficher une note parfaite."
     },
-    "questions": [
-        {
-            "id": "1",
-            "question": "En 1958, quel jeune Brésilien remporte la Coupe du monde de football à seulement 17 ans ?",
-            "image": null,
-            "answers": [
-                "Garrincha",
-                "Pelé",
-                "Romário",
-                "Zico"
-            ],
-            "correctIndex": 1,
-            "explanation": "Pelé remporte la Coupe du monde 1958 avec le Brésil à seulement 17 ans. Son talent précoce fait de lui l'une des plus grandes légendes de l'histoire du football."
-        },
-        {
-            "id": "2",
-            "question": "À Montréal en 1976, une gymnaste de 14 ans obtient le premier 10 parfait de l'histoire olympique. Qui est-elle ?",
-            "image": null,
-            "answers": [
-                "Olga Korbut",
-                "Simone Biles",
-                "Nadia Comăneci",
-                "Larisa Latynina"
-            ],
-            "correctIndex": 2,
-            "explanation": "Nadia Comăneci marque les Jeux olympiques de Montréal en obtenant le premier 10 parfait de l'histoire olympique en gymnastique. Elle n'a alors que 14 ans."
-        },
-        {
-            "id": "3",
-            "question": "À 17 ans, quel tennisman allemand devient le plus jeune vainqueur du simple messieurs à Wimbledon en 1985 ?",
-            "image": null,
-            "answers": [
-                "Boris Becker",
-                "Stefan Edberg",
-                "Pete Sampras",
-                "Andre Agassi"
-            ],
-            "correctIndex": 0,
-            "explanation": "Boris Becker remporte Wimbledon en 1985 à 17 ans. Il devient le plus jeune champion du tournoi en simple messieurs."
-        },
-        {
-            "id": "4",
-            "question": "Avant même ses 17 ans, quelle joueuse suisse devient numéro 1 mondiale de tennis ?",
-            "image": null,
-            "answers": [
-                "Steffi Graf",
-                "Martina Hingis",
-                "Justine Henin",
-                "Kim Clijsters"
-            ],
-            "correctIndex": 1,
-            "explanation": "Martina Hingis devient numéro 1 mondiale très jeune et domine le tennis féminin dès l'adolescence. Elle reste l'un des plus grands exemples de précocité dans ce sport."
-        },
-        {
-            "id": "5",
-            "question": "En 2016, quel pilote néerlandais gagne un Grand Prix de Formule 1 à seulement 18 ans ?",
-            "image": null,
-            "answers": [
-                "Charles Leclerc",
-                "Lando Norris",
-                "Max Verstappen",
-                "Sebastian Vettel"
-            ],
-            "correctIndex": 2,
-            "explanation": "Max Verstappen remporte le Grand Prix d'Espagne 2016 à 18 ans. Il devient alors le plus jeune vainqueur d'une course de Formule 1."
-        },
-        {
-            "id": "6",
-            "question": "Quel nageur australien devient champion du monde à seulement 15 ans en 1998 ?",
-            "image": null,
-            "answers": [
-                "Michael Phelps",
-                "Ryan Lochte",
-                "Grant Hackett",
-                "Ian Thorpe"
-            ],
-            "correctIndex": 3,
-            "explanation": "Ian Thorpe devient champion du monde à 15 ans lors des Mondiaux de natation 1998. Il s'impose ensuite comme l'un des plus grands nageurs de son époque."
-        },
-        {
-            "id": "7",
-            "question": "En 1960, quel futur champion de boxe remporte l'or olympique à Rome à seulement 18 ans sous le nom de Cassius Clay ?",
-            "image": null,
-            "answers": [
-                "Joe Frazier",
-                "George Foreman",
-                "Muhammad Ali",
-                "Mike Tyson"
-            ],
-            "correctIndex": 2,
-            "explanation": "Muhammad Ali, encore appelé Cassius Clay, remporte la médaille d'or olympique en 1960. Cet exploit lance la carrière d'une immense légende de la boxe."
-        },
-        {
-            "id": "8",
-            "question": "Quel basketteur des Chicago Bulls devient le plus jeune MVP de l'histoire de la NBA en 2011 ?",
-            "image": null,
-            "answers": [
-                "Derrick Rose",
-                "LeBron James",
-                "Kevin Durant",
-                "Stephen Curry"
-            ],
-            "correctIndex": 0,
-            "explanation": "Derrick Rose est élu MVP de la saison NBA 2010-2011 à seulement 22 ans. Il devient le plus jeune joueur à recevoir cette distinction."
-        },
-        {
-            "id": "9",
-            "question": "À 15 ans, quelle nageuse américaine remporte l'or olympique du 800 mètres nage libre à Londres en 2012 ?",
-            "image": null,
-            "answers": [
-                "Missy Franklin",
-                "Katie Ledecky",
-                "Natalie Coughlin",
-                "Simone Manuel"
-            ],
-            "correctIndex": 1,
-            "explanation": "Katie Ledecky remporte le 800 mètres nage libre aux Jeux olympiques de Londres en 2012 à seulement 15 ans. Elle devient ensuite l'une des plus grandes nageuses de fond de l'histoire."
-        },
-        {
-            "id": "10",
-            "question": "Quelle patineuse américaine devient championne olympique à seulement 15 ans aux Jeux d'hiver de 1998 ?",
-            "image": null,
-            "answers": [
-                "Michelle Kwan",
-                "Sarah Hughes",
-                "Kristi Yamaguchi",
-                "Tara Lipinski"
-            ],
-            "correctIndex": 3,
-            "explanation": "Tara Lipinski remporte l'or olympique en patinage artistique à Nagano en 1998. Elle devient l'une des plus jeunes championnes olympiques de l'histoire des Jeux d'hiver."
-        },
-        {
-            "id": "11",
-            "question": "En 1997, quel golfeur remporte le Masters à 21 ans avec une avance impressionnante ?",
-            "image": null,
-            "answers": [
-                "Phil Mickelson",
-                "Rory McIlroy",
-                "Tiger Woods",
-                "Jordan Spieth"
-            ],
-            "correctIndex": 2,
-            "explanation": "Tiger Woods remporte le Masters 1997 à 21 ans avec une avance record. Cette victoire marque le début de son immense domination dans le golf."
-        },
-        {
-            "id": "12",
-            "question": "À 17 ans, quel joueur américain remporte Roland-Garros en 1989 après un parcours resté célèbre ?",
-            "image": null,
-            "answers": [
-                "Michael Chang",
-                "Jim Courier",
-                "Andre Agassi",
-                "Pete Sampras"
-            ],
-            "correctIndex": 0,
-            "explanation": "Michael Chang gagne Roland-Garros en 1989 à 17 ans. Il reste l'un des plus jeunes vainqueurs d'un tournoi du Grand Chelem en simple messieurs."
-        },
-        {
-            "id": "13",
-            "question": "Quel champion espagnol remporte Roland-Garros dès sa première participation en 2005, à 19 ans ?",
-            "image": null,
-            "answers": [
-                "Carlos Moyá",
-                "David Ferrer",
-                "Rafael Nadal",
-                "Juan Carlos Ferrero"
-            ],
-            "correctIndex": 2,
-            "explanation": "Rafael Nadal remporte Roland-Garros en 2005 à seulement 19 ans. Cette victoire inaugure sa domination historique sur la terre battue parisienne."
-        },
-        {
-            "id": "14",
-            "question": "En 2010, quel pilote allemand devient le plus jeune champion du monde de Formule 1 ?",
-            "image": null,
-            "answers": [
-                "Nico Rosberg",
-                "Sebastian Vettel",
-                "Fernando Alonso",
-                "Michael Schumacher"
-            ],
-            "correctIndex": 1,
-            "explanation": "Sebastian Vettel devient champion du monde de Formule 1 en 2010 à 23 ans. Il établit alors un record de précocité dans la discipline."
-        },
-        {
-            "id": "15",
-            "question": "Quel footballeur français marque en finale de Coupe du monde 2018 à seulement 19 ans ?",
-            "image": null,
-            "answers": [
-                "Ousmane Dembélé",
-                "Antoine Griezmann",
-                "Kylian Mbappé",
-                "Kingsley Coman"
-            ],
-            "correctIndex": 2,
-            "explanation": "Kylian Mbappé marque en finale de la Coupe du monde 2018 contre la Croatie. À 19 ans, il confirme son statut de prodige du football mondial."
-        },
-        {
-            "id": "16",
-            "question": "Quelle joueuse remporte l'US Open 1999 à 17 ans et lance l'une des plus grandes carrières du tennis ?",
-            "image": null,
-            "answers": [
-                "Venus Williams",
-                "Serena Williams",
-                "Jennifer Capriati",
-                "Lindsay Davenport"
-            ],
-            "correctIndex": 1,
-            "explanation": "Serena Williams gagne l'US Open 1999 à 17 ans. Ce premier titre du Grand Chelem annonce une carrière exceptionnelle."
-        },
-        {
-            "id": "17",
-            "question": "Quel snowboardeur américain devient champion olympique de halfpipe à 19 ans en 2006 ?",
-            "image": null,
-            "answers": [
-                "Shaun White",
-                "Tony Hawk",
-                "Ayumu Hirano",
-                "Mark McMorris"
-            ],
-            "correctIndex": 0,
-            "explanation": "Shaun White remporte l'or olympique en snowboard halfpipe aux Jeux de Turin en 2006. Il devient rapidement une figure majeure des sports extrêmes."
-        },
-        {
-            "id": "18",
-            "question": "En 2022, quel tennisman espagnol devient numéro 1 mondial ATP à seulement 19 ans ?",
-            "image": null,
-            "answers": [
-                "Rafael Nadal",
-                "Carlos Alcaraz",
-                "David Ferrer",
-                "Pablo Carreño Busta"
-            ],
-            "correctIndex": 1,
-            "explanation": "Carlos Alcaraz devient numéro 1 mondial en 2022 à 19 ans après son titre à l'US Open. Il établit un record de précocité au classement ATP."
-        },
-        {
-            "id": "19",
-            "question": "Quelle joueuse britannique remporte l'US Open 2021 à 18 ans après être passée par les qualifications ?",
-            "image": null,
-            "answers": [
-                "Emma Raducanu",
-                "Naomi Osaka",
-                "Coco Gauff",
-                "Bianca Andreescu"
-            ],
-            "correctIndex": 0,
-            "explanation": "Emma Raducanu remporte l'US Open 2021 à 18 ans en étant issue des qualifications. Son parcours est l'un des plus surprenants de l'histoire récente du tennis."
-        },
-        {
-            "id": "20",
-            "question": "À 16 ans, quelle gymnaste américaine remporte son premier titre mondial au concours général en 2013 ?",
-            "image": null,
-            "answers": [
-                "Shawn Johnson",
-                "Aly Raisman",
-                "Gabby Douglas",
-                "Simone Biles"
-            ],
-            "correctIndex": 3,
-            "explanation": "Simone Biles devient championne du monde du concours général en 2013 à seulement 16 ans. Elle s'impose ensuite comme l'une des plus grandes gymnastes de l'histoire."
-        }
-    ]
+    {
+      "id": "3",
+      "question": "À 17 ans, quel tennisman allemand non tête de série et encore inconnu devient le plus jeune vainqueur du simple messieurs à Wimbledon en 1985 ?",
+      "answers": ["Boris Becker", "Stefan Edberg", "Pete Sampras", "Andre Agassi"],
+      "correctIndex": 0,
+      "explanation": "Boris Becker remporte Wimbledon en 1985 à 17 ans en étant issu des qualifications et non tête de série — un exploit unique dans l'ère open. Il devient le plus jeune champion du tournoi en simple messieurs, propulsant une carrière qui le verra remporter cinq autres Grand Chelem."
+    },
+    {
+      "id": "4",
+      "question": "Aux Jeux olympiques de Pékin 2008, quel sprinter jamaïcain établit un record du monde du 100 mètres à 21 ans, en 9 secondes 69 ?",
+      "answers": ["Usain Bolt", "Asafa Powell", "Tyson Gay", "Justin Gatlin"],
+      "correctIndex": 0,
+      "explanation": "Usain Bolt, né le 21 août 1986, établit un record du monde du 100 mètres en 9,69 secondes aux Jeux de Pékin en août 2008, à 21 ans, avant d'abaisser ce record à 9,58 secondes à Berlin en 2009. Cette performance inaugure une domination mondiale sur les épreuves de sprint qui durera plus d'une décennie."
+    },
+    {
+      "id": "5",
+      "question": "En 2016, quel pilote néerlandais remporte le Grand Prix d'Espagne de Formule 1 à seulement 18 ans, devenant le plus jeune vainqueur de l'histoire de la discipline ?",
+      "answers": ["Charles Leclerc", "Lando Norris", "Max Verstappen", "Sebastian Vettel"],
+      "correctIndex": 2,
+      "explanation": "Max Verstappen, né le 30 septembre 1997, remporte le Grand Prix d'Espagne le 15 mai 2016 à 18 ans et 228 jours, devenant le plus jeune vainqueur d'une course de Formule 1. Il avait rejoint la grille de F1 à 17 ans lors de la saison précédente, établissant là aussi un record de précocité."
+    },
+    {
+      "id": "6",
+      "question": "Quel nageur australien devient champion du monde en grand bassin à seulement 15 ans lors des Mondiaux de Perth en 1998 ?",
+      "answers": ["Michael Phelps", "Ryan Lochte", "Grant Hackett", "Ian Thorpe"],
+      "correctIndex": 3,
+      "explanation": "Ian Thorpe, né le 13 octobre 1982, remporte le titre mondial du 400 mètres nage libre aux Championnats du monde de Perth en janvier 1998, à 15 ans. Surnommé 'Thorpedo', il s'impose ensuite comme l'un des plus grands nageurs de son époque avec cinq médailles d'or olympiques."
+    },
+    {
+      "id": "7",
+      "question": "En 1960, quel futur champion du monde de boxe remporte l'or olympique en mi-lourds à Rome à 18 ans, sous le nom de Cassius Clay ?",
+      "answers": ["Joe Frazier", "George Foreman", "Muhammad Ali", "Mike Tyson"],
+      "correctIndex": 2,
+      "explanation": "Muhammad Ali, alors encore appelé Cassius Clay, remporte la médaille d'or olympique en boxe mi-lourds à Rome en septembre 1960, à 18 ans. Cet exploit lance la carrière d'une légende du sport mondial, triple champion du monde des poids lourds et figure marquante du XXe siècle bien au-delà du seul ring."
+    },
+    {
+      "id": "8",
+      "question": "Quel basketteur des Chicago Bulls devient le plus jeune lauréat du titre de MVP de la saison régulière NBA en 2011, à 22 ans ?",
+      "answers": ["Derrick Rose", "LeBron James", "Kevin Durant", "Stephen Curry"],
+      "correctIndex": 0,
+      "explanation": "Derrick Rose est élu MVP de la saison NBA 2010-2011 à 22 ans avec les Chicago Bulls, devenant le plus jeune joueur à recevoir cette distinction dans l'histoire de la ligue. Sa saison exceptionnelle, marquée par une explosivité et un leadership impressionnants, avait mené Chicago au meilleur bilan de la ligue."
+    },
+    {
+      "id": "9",
+      "question": "À 15 ans, quelle nageuse américaine remporte l'or olympique du 800 mètres nage libre à Londres en 2012, en établissant un record olympique ?",
+      "answers": ["Missy Franklin", "Katie Ledecky", "Natalie Coughlin", "Simone Manuel"],
+      "correctIndex": 1,
+      "explanation": "Katie Ledecky, née le 17 mars 1997, remporte le 800 mètres nage libre aux Jeux olympiques de Londres en août 2012, à 15 ans, en établissant un record olympique. Ce titre révèle au monde une nageuse qui dominera les épreuves de fond pendant plus d'une décennie, devenant l'une des plus grandes nageuses de l'histoire avec de nombreux titres mondiaux et olympiques sur les longues distances."
+    },
+    {
+      "id": "10",
+      "question": "Quelle patineuse artistique américaine devient la plus jeune championne olympique de l'histoire du patinage artistique en remportant l'or à Nagano en 1998, à 15 ans ?",
+      "answers": ["Michelle Kwan", "Sarah Hughes", "Kristi Yamaguchi", "Tara Lipinski"],
+      "correctIndex": 3,
+      "explanation": "Tara Lipinski, née le 10 juin 1982, remporte l'or olympique en patinage artistique à Nagano en février 1998, à 15 ans et 255 jours. Elle devient ainsi la plus jeune championne olympique individuelle de l'histoire des Jeux d'hiver, dépassant le record détenu jusque-là par Sonja Henie en 1928."
+    },
+    {
+      "id": "11",
+      "question": "En 1997, quel golfeur remporte le Masters d'Augusta à 21 ans avec un record d'avance de 12 coups sur le reste du peloton ?",
+      "answers": ["Phil Mickelson", "Rory McIlroy", "Tiger Woods", "Jordan Spieth"],
+      "correctIndex": 2,
+      "explanation": "Tiger Woods remporte le Masters d'Augusta en avril 1997 à 21 ans, avec une avance record de 12 coups sur ses poursuivants et un total de 18 sous le par. Cette victoire historique, la première d'un golfeur noir dans ce tournoi, marque le début d'une domination mondiale sur le golf professionnel."
+    },
+    {
+      "id": "12",
+      "question": "Quelle skateuse brésilienne a remporté la médaille d'argent en skateboard street aux Jeux olympiques de Tokyo 2020 à seulement 13 ans ?",
+      "answers": ["Sky Brown", "Rayssa Leal", "Kokona Hiraki", "Pamela Rosa"],
+      "correctIndex": 1,
+      "explanation": "Rayssa Leal, née en juin 2008 à Imperatriz, remporte la médaille d'argent en skateboard street aux Jeux de Tokyo en juillet 2021, à seulement 13 ans. Elle devient l'une des plus jeunes médaillées de l'histoire des Jeux olympiques d'été, révélant au monde entier une génération de skateurs nés dans les années 2000."
+    },
+    {
+      "id": "13",
+      "question": "Quel basketteur américain est devenu professionnel en NBA à 19 ans en 1995, sortant directement du lycée avant même que ce parcours soit courant ?",
+      "answers": ["Kobe Bryant", "Tracy McGrady", "Jermaine O'Neal", "Kevin Garnett"],
+      "correctIndex": 3,
+      "explanation": "Kevin Garnett est drafté en 5e position par les Minnesota Timberwolves lors de la Draft NBA 1995, à 19 ans, sortant directement du lycée. S'il n'est pas le premier à emprunter ce chemin, son succès immédiat en NBA contribue à populariser ce parcours et à convaincre d'autres jeunes joueurs — dont Kobe Bryant, LeBron James et Dwight Howard — de rejoindre la NBA sans passer par l'université."
+    },
+    {
+      "id": "14",
+      "question": "En 2010, quel pilote allemand de Formule 1 devient le plus jeune champion du monde de l'histoire de la discipline, à 23 ans ?",
+      "answers": ["Nico Rosberg", "Sebastian Vettel", "Fernando Alonso", "Michael Schumacher"],
+      "correctIndex": 1,
+      "explanation": "Sebastian Vettel, né le 3 juillet 1987, devient champion du monde de Formule 1 en 2010 à 23 ans avec Red Bull Racing, établissant le record de précocité dans la discipline qu'il est toujours le seul à détenir. Il ajoute ensuite trois titres consécutifs en 2011, 2012 et 2013, faisant de lui le plus jeune quadruple champion du monde de F1 de l'histoire."
+    },
+    {
+      "id": "15",
+      "question": "Quel footballeur français marque en finale de Coupe du monde 2018 contre la Croatie à seulement 19 ans, devenant le deuxième joueur après Pelé à réaliser cet exploit ?",
+      "answers": ["Ousmane Dembélé", "Antoine Griezmann", "Kylian Mbappé", "Kingsley Coman"],
+      "correctIndex": 2,
+      "explanation": "Kylian Mbappé, né le 20 décembre 1998, marque le quatrième but français en finale de la Coupe du monde 2018 contre la Croatie à 19 ans, devenant après Pelé en 1958 le seul teenager à marquer en finale d'une Coupe du monde. Sa saison 2017-2018 au PSG avait déjà révélé un talent hors norme."
+    },
+    {
+      "id": "16",
+      "question": "Quelle joueuse remporte l'US Open 1999 à 17 ans, décrochant son premier titre du Grand Chelem et lançant l'une des plus grandes carrières du tennis féminin ?",
+      "answers": ["Venus Williams", "Serena Williams", "Jennifer Capriati", "Lindsay Davenport"],
+      "correctIndex": 1,
+      "explanation": "Serena Williams, née le 26 septembre 1981, remporte l'US Open le 11 septembre 1999 à 17 ans en battant Martina Hingis en finale. Ce premier titre du Grand Chelem est le point de départ d'une carrière exceptionnelle qui la mènera à 23 titres majeurs et au rang de plus grande joueuse de l'histoire du tennis féminin."
+    },
+    {
+      "id": "17",
+      "question": "Quel snowboardeur américain remporte l'or olympique en halfpipe aux Jeux de Turin en 2006, à 19 ans, amorçant une domination mondiale sur la discipline ?",
+      "answers": ["Shaun White", "Tony Hawk", "Ayumu Hirano", "Mark McMorris"],
+      "correctIndex": 0,
+      "explanation": "Shaun White, né le 3 septembre 1986, remporte l'or olympique en snowboard halfpipe aux Jeux de Turin en février 2006, à 19 ans. Il réalise le score le plus élevé du tournoi et confirme une précocité déjà visible : il avait remporté son premier X Games à 13 ans, devenant une figure majeure des sports de glisse."
+    },
+    {
+      "id": "18",
+      "question": "Quel batteur de cricket indien effectue ses débuts en Test-match international à seulement 16 ans en 1989, inaugurant l'une des plus grandes carrières de l'histoire de ce sport ?",
+      "answers": ["Sunil Gavaskar", "Kapil Dev", "Rahul Dravid", "Sachin Tendulkar"],
+      "correctIndex": 3,
+      "explanation": "Sachin Tendulkar fait ses débuts en Test-match contre le Pakistan à Karachi en novembre 1989, à 16 ans et 205 jours. Il devient ensuite le joueur de cricket le plus prolifique de l'histoire, avec 100 centuries internationaux (51 en Tests, 49 en ODI), un record que personne n'a approché. Sa carrière s'étale sur 24 ans jusqu'en 2013."
+    },
+    {
+      "id": "19",
+      "question": "Quelle joueuse britannique remporte l'US Open 2021 à 18 ans en étant issue des qualifications, sans perdre le moindre set tout au long du tournoi ?",
+      "answers": ["Emma Raducanu", "Naomi Osaka", "Coco Gauff", "Bianca Andreescu"],
+      "correctIndex": 0,
+      "explanation": "Emma Raducanu, née le 13 novembre 2002, remporte l'US Open 2021 à 18 ans sans perdre un seul set en dix matchs — qualifications comprises. Son parcours est l'un des plus remarquables de l'histoire du tennis : elle est la seule joueuse à avoir remporté un tournoi du Grand Chelem en étant issue des qualifications sans concéder le moindre set."
+    },
+    {
+      "id": "20",
+      "question": "Quelle gymnaste américaine remporte son premier titre mondial au concours général en 2013, à 16 ans, inaugurant une domination historique ?",
+      "answers": ["Shawn Johnson", "Aly Raisman", "Gabby Douglas", "Simone Biles"],
+      "correctIndex": 3,
+      "explanation": "Simone Biles, née le 14 mars 1997, devient championne du monde du concours général en octobre 2013 à 16 ans, lors des Mondiaux d'Anvers. Elle s'impose ensuite comme l'une des gymnastes les plus titrées et les plus influentes de l'histoire, avec plusieurs mouvements portant son nom dans le code de pointage et des médailles olympiques remportées sur plusieurs éditions des Jeux."
+    }
+  ]
 }

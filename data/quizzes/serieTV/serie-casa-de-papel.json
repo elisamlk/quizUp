@@ -2,7 +2,7 @@
   "slug": "quiz-casa-de-papel-incollable",
   "title": "Quiz Série TV - La Casa de Papel - Es-tu incollable sur la série ?",
   "description": "Teste tes connaissances sur La Casa de Papel avec ce quiz sur les personnages, les braquages et les moments cultes.",
-  "descriptionSeo": "Retrouve l’univers de La Casa de Papel avec ce quiz de 20 questions et mets à l’épreuve tes connaissances sur la série culte. Personnages emblématiques, braquages, masques de Dalí et stratégies du Professeur : revisite les moments clés et les intrigues marquantes. Un quiz idéal pour les fans qui souhaitent tester leur mémoire et redécouvrir les secrets de cette série pleine de suspense.",
+  "descriptionSeo": "Retrouve l'univers de La Casa de Papel avec ce quiz de 20 questions et mets à l'épreuve tes connaissances sur la série culte. Personnages emblématiques, braquages, masques de Dalí et stratégies du Professeur : revisite les moments clés et les intrigues marquantes. Un quiz idéal pour les fans qui souhaitent tester leur mémoire et redécouvrir les secrets de cette série pleine de suspense.",
   "category": {
     "name": "Série TV",
     "slug": "serie-tv"
@@ -18,143 +18,243 @@
   "questions": [
     {
       "id": "1",
-      "question": "Quel est le surnom du cerveau des braquages dans La Casa de Papel ?",
-      "answers": ["Le Maestro", "Le Stratège", "Le Général", "Le Professeur"],
+      "question": "Quel surnom porte le cerveau qui orchestre les braquages depuis l'extérieur ?",
+      "answers": [
+        "Le Maestro",
+        "Le Stratège",
+        "Le Général",
+        "Le Professeur"
+      ],
       "correctIndex": 3,
-      "explanation": "Le Professeur est le cerveau de l’opération. Il ne participe pas directement au braquage à l’intérieur, mais coordonne le plan depuis l’extérieur, anticipe les réactions de la police et manipule la négociation."
+      "explanation": "Le Professeur (Álvaro Morte) coordonne chaque braquage depuis l'extérieur, anticipant les réactions de la police et manipulant la négociation. Il est apparu pour la première fois dans la série originale Antena 3 en 2017, avant que Netflix ne rachète et relance la série en 2018."
     },
     {
       "id": "2",
-      "question": "Quel est le vrai prénom de Tokyo ?",
-      "answers": ["Silene", "Raquel", "Alicia", "Nairobi"],
+      "question": "Quel est le vrai prénom de la braqueurs surnommée Tokyo ?",
+      "answers": [
+        "Silene",
+        "Raquel",
+        "Alicia",
+        "Nairobi"
+      ],
       "correctIndex": 0,
-      "explanation": "Tokyo s’appelle Silene Oliveira. Son pseudonyme de ville lui permet de couper avec son ancienne identité et de respecter la règle d’anonymat imposée par le Professeur."
+      "explanation": "Tokyo s'appelle Silene Oliveira, interprétée par Úrsula Corberó. La règle du Professeur impose à chacun un pseudonyme de ville pour préserver l'anonymat. Silene est la seule des 8 braqueurs originaux dont le vrai prénom est prononcé explicitement dans la série dès les premières saisons."
     },
     {
       "id": "3",
-      "question": "Quel masque est porté par les braqueurs ?",
-      "answers": ["Un masque de Goya", "Un masque de Picasso", "Un masque de Dalí", "Un masque de clown rouge"],
+      "question": "De quel artiste espagnol le masque des braqueurs reproduit-il les traits ?",
+      "answers": [
+        "Francisco de Goya",
+        "Pablo Picasso",
+        "Salvador Dalí",
+        "Joan Miró"
+      ],
       "correctIndex": 2,
-      "explanation": "Le masque représente Salvador Dalí. Il devient dans la série un symbole visuel de rébellion, d’anonymat collectif et de résistance face aux institutions."
+      "explanation": "Le masque représente Salvador Dalí (1904-1989), peintre surréaliste catalan. Ce choix transforme le masque en symbole de rébellion et d'anti-conformisme, cohérent avec la dimension politique de la série. Il est devenu l'un des objets de déguisement les plus reconnaissables de la culture pop des années 2020."
     },
     {
       "id": "4",
-      "question": "Quelle chanson devient un symbole de résistance dans la série ?",
-      "answers": ["La Bamba", "Bella Ciao", "Despacito", "Viva la Vida"],
+      "question": "Quel chant traditionnel du mouvement partisan italien devient l'hymne symbolique des braqueurs ?",
+      "answers": [
+        "La Bamba",
+        "Bella Ciao",
+        "Despacito",
+        "Volare"
+      ],
       "correctIndex": 1,
-      "explanation": "Bella Ciao est un chant italien associé à la résistance antifasciste. Dans la série, il donne une dimension politique et émotionnelle au braquage, au-delà du simple vol d’argent."
+      "explanation": "Bella Ciao est un chant de résistance antifasciste italien dont les origines remontent aux années 1940. Son utilisation dans la série a provoqué un phénomène mondial : la chanson a réapparu dans les charts de nombreux pays européens en 2018, plus de 70 ans après sa création."
     },
     {
       "id": "5",
-      "question": "Quel est le lien familial entre Berlin et le Professeur ?",
-      "answers": ["Ils sont cousins", "Ils sont amis d’enfance", "Ils sont père et fils", "Ils sont frères"],
+      "question": "Quel lien de parenté unit Berlin au Professeur dans la série ?",
+      "answers": [
+        "Ils sont cousins",
+        "Ils sont amis d'enfance",
+        "Ils sont père et fils",
+        "Ils sont frères"
+      ],
       "correctIndex": 3,
-      "explanation": "Berlin et le Professeur sont frères. Ce lien explique la confiance particulière entre eux, mais aussi la dimension intime et tragique du premier braquage."
+      "explanation": "Berlin (Pedro Alonso) et le Professeur sont demi-frères, révélation centrale de la série. Ce lien explique la confiance absolue que le Professeur lui accorde malgré son caractère imprévisible. Berlin est l'un des personnages les plus complexes moralement, et un spin-off lui a été consacré en 2023."
     },
     {
       "id": "6",
-      "question": "Quel est le prénom du Professeur ?",
-      "answers": ["Andrés", "Sergio", "Pablo", "Rafael"],
+      "question": "Quel est le vrai prénom du Professeur, révélé au fil de la série ?",
+      "answers": [
+        "Andrés",
+        "Sergio",
+        "Pablo",
+        "Rafael"
+      ],
       "correctIndex": 1,
-      "explanation": "Le Professeur s’appelle Sergio Marquina. Son apparence discrète contraste avec son intelligence stratégique et son rôle central dans l’organisation des braquages."
+      "explanation": "Le Professeur s'appelle Sergio Marquina. Ce nom n'est révélé qu'après plusieurs épisodes, renforçant son mystère. Álvaro Morte, l'acteur qui l'incarne, a remporté le Premio Feroz du meilleur acteur de série dramatique en 2018 pour ce rôle."
     },
     {
       "id": "7",
-      "question": "Quelle inspectrice mène d’abord la négociation avec les braqueurs ?",
-      "answers": ["Raquel Murillo", "Alicia Sierra", "Mónica Gaztambide", "Tatiana"],
+      "question": "Quelle inspectrice de police est chargée de négocier avec les braqueurs lors du premier braquage ?",
+      "answers": [
+        "Raquel Murillo",
+        "Alicia Sierra",
+        "Mónica Gaztambide",
+        "Tatiana"
+      ],
       "correctIndex": 0,
-      "explanation": "Raquel Murillo est chargée de négocier avec les braqueurs lors du premier braquage. Sa relation avec le Professeur brouille progressivement la frontière entre devoir professionnel et sentiments personnels."
+      "explanation": "Raquel Murillo (Itziar Ituño) dirige la négociation lors du premier braquage. Sa relation avec le Professeur, qu'elle rencontre en dehors du braquage sous un faux nom, est l'un des arcs narratifs les plus importants des saisons 1 et 2."
     },
     {
       "id": "8",
-      "question": "Quel nom de ville Raquel adopte-t-elle après avoir rejoint le groupe ?",
-      "answers": ["Madrid", "Valence", "Lisbonne", "Séville"],
+      "question": "Après avoir rejoint les braqueurs, sous quel pseudonyme Raquel Murillo est-elle intégrée à l'équipe ?",
+      "answers": [
+        "Madrid",
+        "Valence",
+        "Lisbonne",
+        "Séville"
+      ],
       "correctIndex": 2,
-      "explanation": "Raquel devient Lisbonne après avoir rejoint l’équipe. Ce changement de nom marque son passage du côté des braqueurs et son rejet de son ancien rôle d’inspectrice."
+      "explanation": "Raquel devient Lisbonne après avoir rejoint l'équipe lors des saisons 3 à 5. Elle est l'un des seuls personnages à avoir été des 2 côtés de la confrontation au cours de la série, passant de négociatrice de la police à membre à part entière du groupe."
     },
     {
       "id": "9",
-      "question": "Quel lieu est braqué lors du premier grand plan du Professeur ?",
-      "answers": ["La Banque d’Espagne", "Le Trésor public", "La Banque centrale européenne", "La Fabrique nationale de la monnaie et du timbre"],
+      "question": "Quel établissement espagnol est la cible du premier braquage imaginé par le Professeur ?",
+      "answers": [
+        "La Banque d'Espagne",
+        "Le Trésor public",
+        "La Banque centrale européenne",
+        "La Fabrique nationale de la monnaie et du timbre"
+      ],
       "correctIndex": 3,
-      "explanation": "Le premier braquage vise la Fabrique nationale de la monnaie et du timbre. L’objectif n’est pas de voler de l’argent existant, mais d’en imprimer de nouveau, ce qui rend le plan particulièrement original."
+      "explanation": "Le premier braquage vise la Fábrica Nacional de Moneda y Timbre à Madrid. L'originalité du plan tient au fait que l'objectif n'est pas de voler de l'argent existant, mais d'en imprimer directement : 2,4 milliards d'euros en billets de 50, pendant que les braqueurs retiennent des otages."
     },
     {
       "id": "10",
-      "question": "Quel personnage tombe amoureux de Mónica Gaztambide ?",
-      "answers": ["Denver", "Rio", "Helsinki", "Bogotá"],
+      "question": "Quel braqueur développe une relation amoureuse avec l'otage Mónica Gaztambide ?",
+      "answers": [
+        "Denver",
+        "Rio",
+        "Helsinki",
+        "Bogotá"
+      ],
       "correctIndex": 0,
-      "explanation": "Denver tombe amoureux de Mónica pendant le braquage. Leur relation transforme Mónica d’otage en membre du groupe, ce qui donne naissance à son pseudonyme : Stockholm."
+      "explanation": "Denver (Jaime Lorente) tombe amoureux de Mónica pendant le 1er braquage, une relation interdite par le Professeur. Cette liaison est l'une des sous-intrigues les plus populaires de la série, et Mónica intègre finalement le groupe sous le pseudonyme de Stockholm."
     },
     {
       "id": "11",
-      "question": "Quel nom Mónica prend-elle après avoir rejoint les braqueurs ?",
-      "answers": ["Manille", "Nairobi", "Stockholm", "Lisbonne"],
+      "question": "Sous quel pseudonyme Mónica Gaztambide rejoint-elle officiellement l'équipe des braqueurs ?",
+      "answers": [
+        "Manille",
+        "Nairobi",
+        "Stockholm",
+        "Lisbonne"
+      ],
       "correctIndex": 2,
-      "explanation": "Mónica devient Stockholm, référence directe au syndrome de Stockholm. Le choix du nom souligne son lien complexe avec ses ravisseurs et son basculement progressif vers leur camp."
+      "explanation": "Mónica devient Stockholm, référence directe au syndrome de Stockholm — phénomène décrit en 1973 par lequel un otage développe de l'empathie envers son ravisseur. Le choix du nom est une ironie volontaire des scénaristes, qui font de ce syndrome non pas une pathologie mais une forme d'émancipation."
     },
     {
       "id": "12",
-      "question": "Quel personnage est particulièrement associé à la fabrication et au contrôle de l’argent imprimé ?",
-      "answers": ["Rio", "Nairobi", "Arturo", "Oslo"],
+      "question": "Quel personnage supervise et dirige la production des billets imprimés lors du premier braquage ?",
+      "answers": [
+        "Rio",
+        "Nairobi",
+        "Arturo",
+        "Oslo"
+      ],
       "correctIndex": 1,
-      "explanation": "Nairobi supervise l’impression des billets lors du premier braquage. Elle est l’une des figures les plus compétentes du groupe, capable de gérer la production avec rigueur et autorité."
+      "explanation": "Nairobi (Alba Flores) supervise l'impression des billets avec une autorité et une rigueur qui font d'elle l'une des figures les plus respectées du groupe. Son assassinat par un tireur d'élite dans la saison 4 a suscité une vive émotion parmi les fans du monde entier."
     },
     {
       "id": "13",
-      "question": "Quel personnage est la narratrice principale de La Casa de Papel ?",
-      "answers": ["Tokyo", "Nairobi", "Lisbonne", "Alicia"],
-      "correctIndex": 0,
-      "explanation": "Tokyo raconte une grande partie de l’histoire en voix off. Son point de vue donne à la série un ton émotionnel, impulsif et parfois tragique."
+      "question": "De quelle maladie incurable Berlin est-il atteint, ce qui influence ses décisions tout au long de la série ?",
+      "answers": [
+        "Un cancer du poumon",
+        "Une sclérose en plaques",
+        "La maladie de Huntington",
+        "Une insuffisance cardiaque"
+      ],
+      "correctIndex": 2,
+      "explanation": "Berlin est atteint de la maladie de Huntington, maladie neurodégénérative héréditaire touchant environ 1 personne sur 10 000. Ce diagnostic, révélé dans les premières saisons, explique son nihilisme et son absence de peur de la mort, qui colorent toutes ses décisions lors du 1er braquage."
     },
     {
       "id": "14",
-      "question": "Quelle est la deuxième grande cible du groupe après la Fabrique de la monnaie ?",
-      "answers": ["La Banque de France", "La Banque mondiale", "Le Trésor européen", "La Banque d’Espagne"],
+      "question": "Quel établissement financier est la cible du second grand braquage orchestré par le Professeur ?",
+      "answers": [
+        "La Banque de France",
+        "La Banque mondiale",
+        "Le Trésor européen",
+        "La Banque d'Espagne"
+      ],
       "correctIndex": 3,
-      "explanation": "Le second grand braquage vise la Banque d’Espagne. Ce plan est encore plus complexe, car il implique notamment l’or stocké dans les chambres fortes."
+      "explanation": "Le 2nd braquage vise le Banco de España à Madrid, l'une des banques centrales les plus sécurisées d'Europe. L'enjeu principal est l'or stocké dans ses chambres fortes, estimé à plusieurs milliards d'euros, pour un plan encore plus audacieux que le 1er."
     },
     {
       "id": "15",
-      "question": "Quel personnage est connu pour son rire très reconnaissable ?",
-      "answers": ["Rio", "Helsinki", "Denver", "Palerme"],
+      "question": "Quel personnage extravagant, spécialiste en armement, rejoint l'équipe pour le second braquage de la Banque d'Espagne ?",
+      "answers": [
+        "Rio",
+        "Helsinki",
+        "Palerme",
+        "Bogotá"
+      ],
       "correctIndex": 2,
-      "explanation": "Denver est immédiatement reconnaissable grâce à son rire particulier. Ce détail comique contraste avec la violence et la tension des braquages."
+      "explanation": "Palerme (José Manuel Poga) rejoint l'équipe pour le braquage de la Banque d'Espagne dans la saison 3. Ancien partenaire de Berlin, il apporte une expertise en armement et stratégie militaire, mais son instabilité émotionnelle le rend dangereux pour le groupe."
     },
     {
       "id": "16",
-      "question": "Quel personnage est souvent perçu comme l’otage le plus problématique ?",
-      "answers": ["Alison Parker", "Arturo Román", "Mónica Gaztambide", "César Gandía"],
+      "question": "Quel otage multiplie les tentatives de manipulation et met en danger les autres otages tout au long de la série ?",
+      "answers": [
+        "Alison Parker",
+        "Arturo Román",
+        "Mónica Gaztambide",
+        "César Gandía"
+      ],
       "correctIndex": 1,
-      "explanation": "Arturo Román complique régulièrement la situation à l’intérieur du braquage. Ses décisions égoïstes et ses tentatives de manipulation créent du danger pour les otages comme pour les braqueurs."
+      "explanation": "Arturo Román (Enrique Arce) est le directeur de la Fábrica de Moneda qui organise pas moins de 3 tentatives de résistance interne contre les braqueurs. Ses décisions irresponsables mettent régulièrement en danger les otages, faisant de lui l'un des personnages les plus détestés des fans."
     },
     {
       "id": "17",
-      "question": "Quel membre de l’équipe est un jeune expert en informatique ?",
-      "answers": ["Rio", "Moscou", "Bogotá", "Helsinki"],
+      "question": "Quel jeune membre du groupe assure les communications numériques et la sécurité informatique de l'équipe ?",
+      "answers": [
+        "Rio",
+        "Moscou",
+        "Bogotá",
+        "Helsinki"
+      ],
       "correctIndex": 0,
-      "explanation": "Rio est le spécialiste informatique du groupe. Son rôle est essentiel pour les communications et la sécurité numérique, mais son immaturité émotionnelle fragilise parfois le plan."
+      "explanation": "Rio (Miguel Herrán) est le plus jeune membre de l'équipe et son spécialiste en informatique. Sa relation avec Tokyo fragilise régulièrement le plan, et son arrestation entre les 2 braquages est le déclencheur direct du second grand plan du Professeur."
     },
     {
       "id": "18",
-      "question": "Quel personnage est associé à l’extraction de l’or dans le braquage de la Banque d’Espagne ?",
-      "answers": ["Arturo", "Rio", "Denver", "Bogotá"],
+      "question": "Quel braqueur joue un rôle clé dans l'extraction technique de l'or lors du braquage de la Banque d'Espagne ?",
+      "answers": [
+        "Arturo",
+        "Rio",
+        "Denver",
+        "Bogotá"
+      ],
       "correctIndex": 3,
-      "explanation": "Bogotá joue un rôle clé dans le travail technique autour de l’or. Son expertise pratique est indispensable pour transformer un plan théorique en opération réalisable."
+      "explanation": "Bogotá (Hovik Keuchkerian) est un personnage introduit dans les saisons 3 et 4, spécialisé dans le travail manuel et la métallurgie. Son expertise est essentielle pour fondre et extraire l'or des chambres fortes de la Banque d'Espagne."
     },
     {
       "id": "19",
-      "question": "Quel personnage devient l’une des grandes adversaires du Professeur dans les dernières parties ?",
-      "answers": ["Nairobi", "Alicia Sierra", "Mónica Gaztambide", "Tatiana"],
+      "question": "Quelle inspectrice, enceinte et impitoyable, traque le Professeur dans les dernières parties de la série ?",
+      "answers": [
+        "Nairobi",
+        "Alicia Sierra",
+        "Mónica Gaztambide",
+        "Tatiana"
+      ],
       "correctIndex": 1,
-      "explanation": "Alicia Sierra est une enquêtrice redoutable, imprévisible et très agressive. Elle met le Professeur en difficulté parce qu’elle utilise des méthodes psychologiques aussi manipulatrices que les siennes."
+      "explanation": "Alicia Sierra (Najwa Nimri) est introduite dans la saison 3. Elle se distingue par ses méthodes psychologiques agressives et son imprévisibilité totale, y compris en dehors de toute institution. Sa confrontation finale avec le Professeur est l'un des moments les plus tendus des saisons 4 et 5."
     },
     {
       "id": "20",
-      "question": "Quel thème revient fortement tout au long de la série ?",
-      "answers": ["La conquête spatiale", "La médecine expérimentale", "La rébellion contre le système", "La compétition sportive"],
-      "correctIndex": 2,
-      "explanation": "La Casa de Papel ne raconte pas seulement des braquages : la série met en scène une lutte symbolique contre les institutions, l’argent, le pouvoir et les règles imposées par le système."
+      "question": "Quel est le vrai prénom de Berlin, le lieutenant du Professeur ?",
+      "answers": [
+        "Andrés",
+        "Marcos",
+        "Rafael",
+        "Carlos"
+      ],
+      "correctIndex": 0,
+      "explanation": "Berlin s'appelle en réalité Andrés de Fonollosa, révélé dans les dernières saisons et approfondi dans le spin-off Berlin (2023). Ce prénom apparaît aussi dans les archives familiales liées au Professeur, soulignant leur relation fraternelle et leur histoire commune."
     }
   ]
 }

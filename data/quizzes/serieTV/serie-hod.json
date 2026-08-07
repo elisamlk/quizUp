@@ -2,7 +2,7 @@
   "slug": "quiz-fans-de-house-of-the-dragon",
   "title": "Quiz Série TV - House of the Dragon - Es-tu un vrai fan des Targaryen ?",
   "description": "Un quiz pour tester tes connaissances sur les personnages, les dragons et les rivalités de House of the Dragon.",
-  "descriptionSeo": "House of the Dragon plonge les fans dans l’histoire des Targaryen et la célèbre Danse des Dragons. Ce quiz te propose 20 questions sur les personnages emblématiques, les dragons légendaires, les rivalités politiques et les héritiers du Trône de Fer. Rhaenyra, Daemon, Alicent, Aemond ou Viserys : teste tes connaissances sur l’univers HBO de Westeros et découvre si tu es un véritable fan de House of the Dragon.",
+  "descriptionSeo": "House of the Dragon plonge les fans dans l'histoire des Targaryen et la célèbre Danse des Dragons. Ce quiz te propose 20 questions sur les personnages emblématiques, les dragons légendaires, les rivalités politiques et les héritiers du Trône de Fer. Rhaenyra, Daemon, Alicent, Aemond ou Viserys : teste tes connaissances sur l'univers HBO de Westeros et découvre si tu es un véritable fan de House of the Dragon.",
   "category": {
     "name": "Série TV",
     "slug": "serie-tv"
@@ -18,143 +18,243 @@
   "questions": [
     {
       "id": "1",
-      "question": "Quelle famille est au centre de House of the Dragon ?",
-      "answers": ["Les Stark", "Les Lannister", "Les Targaryen", "Les Baratheon"],
+      "question": "Combien d'années avant les événements de Game of Thrones la série House of the Dragon est-elle censée se dérouler ?",
+      "answers": [
+        "Environ 50 ans",
+        "Environ 100 ans",
+        "Environ 200 ans",
+        "Environ 300 ans"
+      ],
       "correctIndex": 2,
-      "explanation": "House of the Dragon raconte principalement l’histoire de la maison Targaryen, bien avant les événements de Game of Thrones. La série montre les tensions internes qui mènent à une guerre civile dévastatrice."
+      "explanation": "House of the Dragon (HBO, depuis 2022) se déroule environ 200 ans avant les événements de Game of Thrones, au temps de la prospérité des Targaryen et de leur imposante flotte de dragons. La série est adaptée du roman Fire & Blood de George R. R. Martin, publié en 2018."
     },
     {
       "id": "2",
-      "question": "Qui est désignée héritière du Trône de Fer par le roi Viserys Ier ?",
-      "answers": ["Alicent Hightower", "Rhaenyra Targaryen", "Rhaenys Targaryen", "Helaena Targaryen"],
-      "correctIndex": 1,
-      "explanation": "Viserys Ier choisit sa fille Rhaenyra comme héritière officielle. Cette décision bouleverse les traditions de succession et devient l’une des causes majeures du conflit à venir."
+      "question": "Au terme d'une décision controversée rompant avec la tradition successorale, quelle jeune femme Viserys Ier désigne-t-il comme héritière du Trône de Fer ?",
+      "answers": [
+        "Alicent Hightower",
+        "Rhaenys Targaryen",
+        "Helaena Targaryen",
+        "Rhaenyra Targaryen"
+      ],
+      "correctIndex": 3,
+      "explanation": "Viserys Ier désigne sa fille Rhaenyra comme héritière officielle du Trône de Fer, rompant avec la tradition qui favorisait les héritiers mâles. Cette décision, prise dès la saison 1, devient l'étincelle centrale du conflit dynastique entre les Noirs et les Verts."
     },
     {
       "id": "3",
-      "question": "Quel acteur interprète Daemon Targaryen ?",
-      "answers": ["Paddy Considine", "Matt Smith", "Fabien Frankel", "Rhys Ifans"],
+      "question": "Quel acteur britannique, connu pour son rôle dans Doctor Who, incarne le turbulent Daemon Targaryen ?",
+      "answers": [
+        "Paddy Considine",
+        "Matt Smith",
+        "Fabien Frankel",
+        "Rhys Ifans"
+      ],
       "correctIndex": 1,
-      "explanation": "Matt Smith incarne Daemon Targaryen, le frère imprévisible du roi Viserys. Son personnage est à la fois guerrier, ambitieux, dangereux et profondément lié à sa famille."
+      "explanation": "Matt Smith incarne Daemon Targaryen, le frère cadet du roi Viserys et l'un des personnages les plus complexes de la série. Avant House of the Dragon (2022), il était connu pour avoir joué le onzième Docteur dans Doctor Who de 2010 à 2013."
     },
     {
       "id": "4",
-      "question": "Quel dragon est monté par Daemon Targaryen ?",
-      "answers": ["Caraxes", "Syrax", "Vhagar", "Seasmoke"],
+      "question": "Quel dragon rouge et osseux, surnommé le Ver de Sang, est lié à Daemon Targaryen ?",
+      "answers": [
+        "Caraxes",
+        "Vermithor",
+        "Seasmoke",
+        "Arrax"
+      ],
       "correctIndex": 0,
-      "explanation": "Daemon monte Caraxes, surnommé le Ver de Sang. Ce dragon rouge et féroce reflète parfaitement le tempérament brutal et audacieux de son cavalier."
+      "explanation": "Caraxes, surnommé le Ver de Sang pour son apparence élancée et sa férocité, est le dragon de Daemon Targaryen. Ce dragon existait déjà bien avant la série — il avait été monté par le prince Aemon Targaryen un siècle plus tôt — ce qui en fait l'un des dragons les plus anciens encore vivants au début de la série."
     },
     {
       "id": "5",
-      "question": "Qui est la meilleure amie de Rhaenyra au début de la série ?",
-      "answers": ["Mysaria", "Baela Targaryen", "Alicent Hightower", "Laena Velaryon"],
-      "correctIndex": 2,
-      "explanation": "Alicent Hightower est très proche de Rhaenyra au début de l’histoire. Leur amitié se transforme peu à peu en rivalité politique et familiale."
+      "question": "Quelle est la nature de la relation entre Rhaenyra et la fille d'Otto Hightower au tout début de la saison 1 ?",
+      "answers": [
+        "Elles sont rivales dès l'enfance",
+        "Alicent Hightower est sa meilleure amie",
+        "Elles ne se connaissent pas",
+        "Alicent est sa gouvernante"
+      ],
+      "correctIndex": 1,
+      "explanation": "Alicent Hightower est la meilleure amie d'enfance de Rhaenyra au début de la saison 1. Leur complicité sincère se fracture progressivement sous l'effet des ambitions politiques de leurs pères et du mariage d'Alicent avec le roi Viserys, transformant une amitié en opposition dynastique."
     },
     {
       "id": "6",
-      "question": "Quel personnage est surnommé la Reine qui ne fut jamais ?",
-      "answers": ["Rhaenyra Targaryen", "Rhaenys Targaryen", "Alicent Hightower", "Helaena Targaryen"],
-      "correctIndex": 1,
-      "explanation": "Rhaenys Targaryen est surnommée la Reine qui ne fut jamais parce qu’elle aurait pu prétendre au trône, mais le pouvoir est finalement revenu à Viserys."
+      "question": "Quel surnom mélancolique porte Rhaenys Targaryen, qui aurait eu toutes les qualités pour régner mais à qui la couronne a été refusée ?",
+      "answers": [
+        "La Dragonne de Pierre",
+        "La Dernière Targaryen",
+        "La Reine sans Couronne",
+        "La Reine qui ne fut jamais"
+      ],
+      "correctIndex": 3,
+      "explanation": "Rhaenys Targaryen est surnommée la Reine qui ne fut jamais. Candidate légitime au trône avant Viserys, elle en a été écartée lors du grand conseil de 101 AC au profit de son cousin, en raison de la tradition patriarcale de succession. Ce souvenir nourrit sa méfiance envers les institutions tout au long de la série."
     },
     {
       "id": "7",
-      "question": "Quel est le nom du père d’Alicent Hightower ?",
-      "answers": ["Otto Hightower", "Lyonel Strong", "Corlys Velaryon", "Harwin Strong"],
+      "question": "Quel stratège occupe le poste de Main du Roi et pousse sa fille vers un mariage royal pour renforcer l'influence de sa maison ?",
+      "answers": [
+        "Otto Hightower",
+        "Lyonel Strong",
+        "Laena Velaryon",
+        "Mysaria"
+      ],
       "correctIndex": 0,
-      "explanation": "Otto Hightower est le père d’Alicent et la Main du Roi. Stratège ambitieux, il joue un rôle central dans l’ascension politique de sa famille."
+      "explanation": "Otto Hightower est la Main du Roi de Viserys Ier et le père d'Alicent. Ambitieux et calculateur, il encourage le rapprochement de sa fille avec le roi dès la saison 1, orchestrant ainsi l'ascension de sa maison au cœur du pouvoir. Il sera finalement renvoyé par Viserys avant d'être rappelé plus tard."
     },
     {
       "id": "8",
-      "question": "Quel titre porte Corlys Velaryon ?",
-      "answers": ["Le Limier", "Le Serpent de Mer", "Le Roi du Nord", "Le Prince Rouge"],
+      "question": "Quel surnom évocateur désigne Corlys Velaryon, grand amiral et explorateur des mers du monde connu ?",
+      "answers": [
+        "Le Limier",
+        "Le Serpent de Mer",
+        "Le Roi du Nord",
+        "Le Prince Rouge"
+      ],
       "correctIndex": 1,
-      "explanation": "Corlys Velaryon est surnommé le Serpent de Mer. Grand navigateur et chef d’une puissante maison maritime, il possède une immense influence à Westeros."
+      "explanation": "Corlys Velaryon est surnommé le Serpent de Mer en raison de ses neuf grandes expéditions maritimes qui l'ont rendu légendaire. Chef de la maison Velaryon depuis plusieurs décennies avant le début de la série, il possède la plus grande flotte de Westeros et une fortune colossale, ce qui en fait un allié très convoité des deux camps."
     },
     {
       "id": "9",
-      "question": "Quel dragon est considéré comme l’un des plus grands et anciens de la série ?",
-      "answers": ["Syrax", "Meleys", "Vhagar", "Arrax"],
+      "question": "Quel dragon, ayant survécu à la Conquête d'Aegon Ier, est décrit comme le plus grand et redoutable encore en vie dans la série ?",
+      "answers": [
+        "Vermax",
+        "Dreamfyre",
+        "Vhagar",
+        "Arrax"
+      ],
       "correctIndex": 2,
-      "explanation": "Vhagar est l’un des dragons les plus anciens et puissants encore vivants. Sa taille et son histoire en font une arme redoutable dans la guerre des Targaryen."
+      "explanation": "Vhagar est le dragon de Visenya Targaryen, l'un des trois dragons de la Conquête, et la plus ancienne créature encore vivante dans la série. Montée par Visenya lors de la Conquête il y a un siècle, puis par Laena Velaryon, elle est revendiquée par Aemond Targaryen dans la saison 1, changeant radicalement l'équilibre des forces entre les deux camps."
     },
     {
       "id": "10",
-      "question": "Qui monte le dragon Syrax ?",
-      "answers": ["Rhaenyra Targaryen", "Alicent Hightower", "Baela Targaryen", "Helaena Targaryen"],
-      "correctIndex": 0,
-      "explanation": "Syrax est le dragon de Rhaenyra Targaryen. Leur lien symbolise la légitimité et la puissance de Rhaenyra en tant qu’héritière Targaryen."
+      "question": "Quel dragon de couleur dorée est intimement lié à Rhaenyra Targaryen depuis son enfance ?",
+      "answers": [
+        "Seasmoke",
+        "Dreamfyre",
+        "Syrax",
+        "Moondancer"
+      ],
+      "correctIndex": 2,
+      "explanation": "Syrax est le dragon de Rhaenyra Targaryen, lié à elle depuis l'enfance. De couleur jaune dorée, il symbolise sa légitimité en tant qu'héritière Targaryen. Syrax joue un rôle central dans plusieurs scènes-clés de la saison 1."
     },
     {
       "id": "11",
-      "question": "Quel événement déclenche fortement la rivalité entre les Verts et les Noirs ?",
-      "answers": ["Le mariage de Daemon", "La succession de Viserys", "La chute du Mur", "La mort de Ned Stark"],
+      "question": "Quel événement, survenu peu après la mort de Viserys Ier, radicalise les deux camps et déclenche la guerre civile ?",
+      "answers": [
+        "Le mariage de Daemon avec Rhaenyra",
+        "La succession de Viserys",
+        "La prise de Port-Réal",
+        "Le meurtre d'Harwin Strong"
+      ],
       "correctIndex": 1,
-      "explanation": "La question de la succession de Viserys divise la cour entre les partisans de Rhaenyra et ceux d’Aegon. Ces camps deviennent connus comme les Noirs et les Verts."
+      "explanation": "La mort de Viserys Ier et la question de sa succession cristallisent la division de la cour en deux camps : les Noirs, partisans de Rhaenyra, et les Verts, partisans d'Aegon II. Ce moment, mis en scène dans l'épisode 9 de la saison 1, marque le début de la guerre civile connue sous le nom de Danse des Dragons."
     },
     {
       "id": "12",
-      "question": "Qui devient roi après la mort de Viserys Ier dans le camp des Verts ?",
-      "answers": ["Aemond Targaryen", "Daemon Targaryen", "Aegon II Targaryen", "Jacaerys Velaryon"],
+      "question": "Quel fils d'Alicent Hightower est couronné roi par le camp des Verts immédiatement après la mort de Viserys ?",
+      "answers": [
+        "Laena Velaryon",
+        "Daemon Targaryen",
+        "Aegon II Targaryen",
+        "Jacaerys Velaryon"
+      ],
       "correctIndex": 2,
-      "explanation": "Aegon II est couronné par les Verts après la mort de Viserys. Ce couronnement conteste directement les droits de Rhaenyra au Trône de Fer."
+      "explanation": "Aegon II Targaryen est couronné par les Verts dans l'épisode 9 de la saison 1, lors d'une cérémonie précipitée organisée par Otto Hightower et Alicent avant que la nouvelle de la mort de Viserys ne se répande. Ce couronnement conteste directement les droits de Rhaenyra et déclenche la guerre."
     },
     {
       "id": "13",
-      "question": "Quel personnage perd un œil durant son enfance ?",
-      "answers": ["Aegon II Targaryen", "Aemond Targaryen", "Lucerys Velaryon", "Jacaerys Velaryon"],
+      "question": "Quel fils d'Alicent perd un œil lors d'une bagarre nocturne avec les enfants de Rhaenyra, forgent sa rancœur future ?",
+      "answers": [
+        "Laenor Velaryon",
+        "Aemond Targaryen",
+        "Lucerys Velaryon",
+        "Jacaerys Velaryon"
+      ],
       "correctIndex": 1,
-      "explanation": "Aemond Targaryen perd un œil lors d’une altercation avec les enfants de Rhaenyra. Cet événement nourrit sa rancœur et marque profondément son évolution."
+      "explanation": "Aemond Targaryen perd son œil gauche près de Vhagar, après qu'Aemond l'a revendiquée à la Fosse aux Dragons en saison 1, quand Lucerys Velaryon lui entaille le visage avec un couteau. Cet événement traumatisant nourrit sa rancœur profonde envers les enfants de Rhaenyra et conditionne plusieurs de ses choix dans la saison 2."
     },
     {
       "id": "14",
-      "question": "Quel dragon Aemond Targaryen revendique-t-il ?",
-      "answers": ["Vhagar", "Caraxes", "Seasmoke", "Meleys"],
-      "correctIndex": 0,
-      "explanation": "Aemond revendique Vhagar, l’un des dragons les plus puissants du monde. Cette prise de possession change l’équilibre des forces entre les deux camps."
+      "question": "Quel dragon rose et or, monté par le roi Aegon II, est décrit comme l'une des plus belles créatures de la série ?",
+      "answers": [
+        "Dreamfyre",
+        "Seasmoke",
+        "Tessarion",
+        "Sunfyre"
+      ],
+      "correctIndex": 3,
+      "explanation": "Sunfyre est le dragon d'Aegon II Targaryen, décrit dans Fire & Blood (2018) de George R. R. Martin comme l'un des plus beaux dragons qui ait jamais vécu, avec ses écailles d'or rosé. Il joue un rôle crucial dans les batailles de la Danse des Dragons, notamment lors de la bataille de Repos-du-Freux (Rook's Rest)."
     },
     {
       "id": "15",
-      "question": "Quel personnage est l’époux de Rhaenys Targaryen ?",
-      "answers": ["Otto Hightower", "Corlys Velaryon", "Lyonel Strong", "Criston Cole"],
-      "correctIndex": 1,
-      "explanation": "Rhaenys est mariée à Corlys Velaryon. Ensemble, ils forment l’un des couples les plus influents de Westeros grâce à leur sang royal, leur flotte et leurs alliances."
+      "question": "Quel grand amiral est l'époux de Rhaenys Targaryen et l'allié militaire indispensable de Rhaenyra ?",
+      "answers": [
+        "Jasper Wylde",
+        "Lyonel Strong",
+        "Bartimos Celtigar",
+        "Corlys Velaryon"
+      ],
+      "correctIndex": 3,
+      "explanation": "Corlys Velaryon, le Serpent de Mer, est l'époux de Rhaenys Targaryen. Leur alliance avec Rhaenyra repose sur leur flotte, la plus puissante de Westeros. Ensemble depuis des décennies, ils constituent le socle maritime et politique du camp des Noirs dès la saison 1."
     },
     {
       "id": "16",
-      "question": "Quel chevalier devient très proche de Rhaenyra avant de se retourner contre elle ?",
-      "answers": ["Criston Cole", "Harwin Strong", "Arryk Cargyll", "Erryk Cargyll"],
+      "question": "Quel chevalier de la Garde Royale, d'abord protecteur de Rhaenyra, se retourne contre elle après une rupture personnelle ?",
+      "answers": [
+        "Criston Cole",
+        "Arryk Cargyll",
+        "Erryk Cargyll",
+        "Steffon Darklyn"
+      ],
       "correctIndex": 0,
-      "explanation": "Criston Cole est d’abord un protecteur proche de Rhaenyra. Après leur rupture, il devient l’un de ses adversaires les plus déterminés."
+      "explanation": "Criston Cole est d'abord un garde du corps proche de Rhaenyra, avec qui il entretient une relation intime dans la saison 1. Après leur rupture, il rejoint le camp des Verts et devient l'un des adversaires les plus déterminés de Rhaenyra, gravissant les échelons jusqu'à occuper le poste de Main du Roi."
     },
     {
       "id": "17",
-      "question": "Quel personnage est souvent considéré comme le père biologique des premiers fils de Rhaenyra ?",
-      "answers": ["Harwin Strong", "Daemon Targaryen", "Criston Cole", "Laenor Velaryon"],
+      "question": "Quel seigneur de Harrenhal est fortement soupçonné d'être le vrai père des trois premiers fils de Rhaenyra ?",
+      "answers": [
+        "Harwin Strong",
+        "Daemon Targaryen",
+        "Laenor Velaryon",
+        "Mysaria"
+      ],
       "correctIndex": 0,
-      "explanation": "Harwin Strong est fortement soupçonné d’être le père biologique de Jacaerys, Lucerys et Joffrey. Cette rumeur fragilise la légitimité politique de Rhaenyra."
+      "explanation": "Harwin Strong, seigneur-héritier de Harrenhal et capitaine de la Garde de la Ville, est fortement soupçonné d'être le père biologique de Jacaerys, Lucerys et Joffrey, les trois premiers enfants de Rhaenyra. Cette rumeur — alimentée par leur ressemblance physique avec Strong et non avec Laenor — fragilise durablement la légitimité politique de Rhaenyra dès la saison 1."
     },
     {
       "id": "18",
-      "question": "Quel est le nom du fils aîné de Rhaenyra ?",
-      "answers": ["Lucerys", "Jacaerys", "Aegon", "Viserys"],
-      "correctIndex": 1,
-      "explanation": "Jacaerys Velaryon est le fils aîné de Rhaenyra. Il joue un rôle important dans la défense des droits de sa mère pendant la guerre de succession."
+      "question": "Quel est le prénom du fils aîné de Rhaenyra, héritier en titre du camp des Noirs ?",
+      "answers": [
+        "Lucerys",
+        "Aegon",
+        "Jacaerys",
+        "Viserys"
+      ],
+      "correctIndex": 2,
+      "explanation": "Jacaerys Velaryon est le fils aîné de Rhaenyra et son héritier principal. Dans la saison 1, il est envoyé en mission diplomatique pour rallier des maisons au camp des Noirs. Son dragon, Vermax, l'accompagne dans ces voyages qui définissent l'ampleur de la coalition de sa mère."
     },
     {
       "id": "19",
-      "question": "Quel dragon est monté par Rhaenys Targaryen ?",
-      "answers": ["Meleys", "Syrax", "Dreamfyre", "Sunfyre"],
+      "question": "Quelle dragonne rouge vif, surnommée la Reine Rouge, porte Rhaenys Targaryen dans les moments les plus décisifs ?",
+      "answers": [
+        "Meleys",
+        "Dreamfyre",
+        "Seasmoke",
+        "Tessarion"
+      ],
       "correctIndex": 0,
-      "explanation": "Rhaenys monte Meleys, surnommée la Reine Rouge. Ce dragon rapide et puissant reflète la noblesse et le courage de sa cavalière."
+      "explanation": "Meleys, surnommée la Reine Rouge pour sa couleur écarlate, est la dragonne de Rhaenys Targaryen. Réputée pour sa vitesse exceptionnelle, elle fait une apparition fracassante lors de la cérémonie du couronnement d'Aegon II à Port-Réal, démontrant la puissance du camp des Noirs."
     },
     {
       "id": "20",
-      "question": "Quel conflit majeur est au cœur de House of the Dragon ?",
-      "answers": ["La Guerre des Cinq Rois", "La Danse des Dragons", "La Longue Nuit", "La Rébellion de Robert"],
-      "correctIndex": 1,
-      "explanation": "House of the Dragon raconte les événements menant à la Danse des Dragons, une guerre civile entre Targaryen. Ce conflit affaiblit durablement la dynastie et marque l’histoire de Westeros."
+      "question": "Sous quel nom cette guerre civile entre Targaryen, opposant les Noirs aux Verts pour le contrôle du Trône de Fer, est-elle connue dans l'histoire de Westeros ?",
+      "answers": [
+        "La Guerre des Cinq Rois",
+        "La Longue Nuit",
+        "La Rébellion de Robert",
+        "La Danse des Dragons"
+      ],
+      "correctIndex": 3,
+      "explanation": "La Danse des Dragons est le nom donné à la guerre civile Targaryen au cœur de la série (HBO, depuis 2022). Ce conflit fratricide, qui oppose les partisans de Rhaenyra à ceux d'Aegon II, décime la quasi-totalité des dragons de Westeros et affaiblit durablement la dynastie Targaryen, ouvrant la voie aux événements de Game of Thrones deux siècles plus tard."
     }
   ]
 }

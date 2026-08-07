@@ -1,281 +1,161 @@
 {
-    "slug": "quiz-equipe-de-france-coupe-du-monde",
-    "title": "Quiz Sport - L'Équipe de France en Coupe du Monde - 20 questions",
-    "description": "Teste tes connaissances sur l'histoire de l'équipe de France en Coupe du Monde.",
-    "publishedAt": "2026-06-27",
-    "descriptionSeo": "De la première Coupe du Monde en 1930 aux sacres de 1998 et 2018, l'équipe de France a connu des moments inoubliables dans l'histoire du football mondial. Zidane, Mbappé, Platini, Deschamps, Henry, Griezmann ou encore Thuram ont marqué les grandes heures des Bleus. Ce quiz sport propose 20 questions pour tester tes connaissances sur les parcours, les finales, les joueurs et les matchs mythiques de la France en Coupe du Monde.",
-    "category": {
-        "name": "Sport",
-        "slug": "sport"
+  "slug": "quiz-equipe-de-france-coupe-du-monde",
+  "title": "Quiz Sport - L'Équipe de France en Coupe du Monde - 20 questions",
+  "description": "Teste tes connaissances sur l'histoire de l'équipe de France en Coupe du Monde.",
+  "publishedAt": "2026-06-27",
+  "descriptionSeo": "De la première Coupe du Monde en 1930 aux sacres de 1998 et 2018, l'équipe de France a connu des moments inoubliables dans l'histoire du football mondial. Zidane, Mbappé, Platini, Deschamps, Henry, Griezmann ou encore Thuram ont marqué les grandes heures des Bleus. Ce quiz sport propose 20 questions pour tester tes connaissances sur les parcours, les finales, les joueurs et les matchs mythiques de la France en Coupe du Monde.",
+  "category": {
+    "name": "Sport",
+    "slug": "sport"
+  },
+  "createdAt": "2026-06-26",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1782215373/zinedine-zidane-bordeaux-france98_nzp15q.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1782215373/zinedine-zidane-bordeaux-france98_nzp15q.jpg",
+    "alt": "Quiz sur l'équipe de France en Coupe du Monde"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "question": "Contre quelle équipe la France dispute-t-elle son tout premier match en Coupe du Monde, en 1930 en Uruguay ?",
+      "answers": ["L'Uruguay", "Le Mexique", "L'Argentine", "La Belgique"],
+      "correctIndex": 1,
+      "explanation": "La France dispute son premier match de l'histoire en Coupe du Monde le 13 juillet 1930 face au Mexique, qu'elle bat 4-1. Lucien Laurent inscrit à cette occasion le tout premier but de l'histoire de la Coupe du Monde, à la 19e minute. La France fait partie des treize nations fondatrices du tournoi organisé en Uruguay."
     },
-    "createdAt": "2026-06-26",
-    "isNew": true,
-    "isPopular": true,
-    "images": {
-        "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1782215373/zinedine-zidane-bordeaux-france98_nzp15q.jpg",
-        "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1782215373/zinedine-zidane-bordeaux-france98_nzp15q.jpg",
-        "alt": "Quiz sur l'équipe de France en Coupe du Monde"
+    {
+      "id": "2",
+      "question": "Quel pays la France bat-elle 3-0 en finale de la Coupe du Monde 1998 au Stade de France ?",
+      "answers": ["L'Allemagne", "Le Brésil", "L'Italie", "L'Argentine"],
+      "correctIndex": 1,
+      "explanation": "La France bat le Brésil 3-0 au Stade de France le 12 juillet 1998. Ce score reste l'un des plus grands exploits des Bleus, car le Brésil était champion du monde en titre avec Ronaldo, Rivaldo et Cafu. Deux buts de Zidane de la tête et un but de Petit en fin de match ont scellé cette victoire historique."
     },
-    "questions": [
-        {
-            "id": "1",
-            "question": "En quelle année l'équipe de France remporte-t-elle sa première Coupe du Monde ?",
-            "image": null,
-            "answers": [
-                "1982",
-                "1998",
-                "2006",
-                "2018"
-            ],
-            "correctIndex": 1,
-            "explanation": "La France remporte sa première Coupe du Monde en 1998, à domicile. Cette victoire marque un tournant majeur dans l'histoire du football français, car les Bleus deviennent enfin champions du monde après plusieurs générations talentueuses mais souvent stoppées avant la finale."
-        },
-        {
-            "id": "2",
-            "question": "Quel pays la France bat-elle en finale de la Coupe du Monde 1998 ?",
-            "image": null,
-            "answers": [
-                "L'Allemagne",
-                "Le Brésil",
-                "L'Italie",
-                "L'Argentine"
-            ],
-            "correctIndex": 1,
-            "explanation": "La France bat le Brésil 3-0 au Stade de France. Ce score reste l'un des plus grands exploits de l'histoire des Bleus, car le Brésil était champion du monde en titre et possédait une équipe très redoutée avec Ronaldo, Rivaldo et Cafu."
-        },
-        {
-            "id": "3",
-            "question": "Quel joueur français inscrit deux buts de la tête lors de la finale 1998 ?",
-            "image": null,
-            "answers": [
-                "Didier Deschamps",
-                "Thierry Henry",
-                "Emmanuel Petit",
-                "Zinédine Zidane"
-            ],
-            "correctIndex": 3,
-            "explanation": "Zinédine Zidane inscrit deux buts de la tête sur corner en première période. Cette performance transforme définitivement son statut : il devient l'un des plus grands héros du sport français et une figure mondiale du football."
-        },
-        {
-            "id": "4",
-            "question": "Quel sélectionneur mène la France au titre mondial en 1998 ?",
-            "image": null,
-            "answers": [
-                "Michel Hidalgo",
-                "Aimé Jacquet",
-                "Raymond Domenech",
-                "Laurent Blanc"
-            ],
-            "correctIndex": 1,
-            "explanation": "Aimé Jacquet dirige les Bleus lors du sacre de 1998. Très critiqué avant le tournoi, il construit pourtant une équipe extrêmement solide, fondée sur une défense exceptionnelle et un collectif équilibré."
-        },
-        {
-            "id": "5",
-            "question": "En quelle année l'équipe de France remporte-t-elle sa deuxième Coupe du Monde ?",
-            "image": null,
-            "answers": [
-                "2006",
-                "2010",
-                "2014",
-                "2018"
-            ],
-            "correctIndex": 3,
-            "explanation": "La France remporte sa deuxième Coupe du Monde en 2018 en Russie. Vingt ans après 1998, une nouvelle génération menée par Mbappé, Griezmann, Pogba, Kanté et Varane offre une deuxième étoile au maillot bleu."
-        },
-        {
-            "id": "6",
-            "question": "Quelle équipe la France bat-elle en finale de la Coupe du Monde 2018 ?",
-            "image": null,
-            "answers": [
-                "La Croatie",
-                "La Belgique",
-                "L'Argentine",
-                "L'Uruguay"
-            ],
-            "correctIndex": 0,
-            "explanation": "La France bat la Croatie 4-2 en finale à Moscou. Cette finale est l'une des plus prolifiques de l'époque moderne et confirme la capacité des Bleus à être efficaces dans les grands rendez-vous."
-        },
-        {
-            "id": "7",
-            "question": "Quel sélectionneur français devient champion du monde comme joueur puis comme entraîneur ?",
-            "image": null,
-            "answers": [
-                "Laurent Blanc",
-                "Didier Deschamps",
-                "Zinédine Zidane",
-                "Michel Platini"
-            ],
-            "correctIndex": 1,
-            "explanation": "Didier Deschamps est capitaine de l'équipe championne du monde en 1998, puis sélectionneur lors du titre de 2018. Il rejoint ainsi le cercle très fermé des hommes sacrés champions du monde à la fois comme joueur et comme entraîneur."
-        },
-        {
-            "id": "8",
-            "question": "Quel jeune joueur français marque en finale de la Coupe du Monde 2018 à seulement 19 ans ?",
-            "image": null,
-            "answers": [
-                "Antoine Griezmann",
-                "Olivier Giroud",
-                "Kylian Mbappé",
-                "Paul Pogba"
-            ],
-            "correctIndex": 2,
-            "explanation": "Kylian Mbappé marque le quatrième but français contre la Croatie. À 19 ans, il devient l'un des plus jeunes buteurs de l'histoire en finale de Coupe du Monde, rappelant les records de précocité de Pelé."
-        },
-        {
-            "id": "9",
-            "question": "Quelle équipe élimine la France en finale de la Coupe du Monde 2006 ?",
-            "image": null,
-            "answers": [
-                "Le Brésil",
-                "L'Allemagne",
-                "L'Italie",
-                "Le Portugal"
-            ],
-            "correctIndex": 2,
-            "explanation": "L'Italie bat la France aux tirs au but en finale 2006. Cette rencontre reste célèbre pour le dernier match de Zinédine Zidane, son penalty en panenka et son expulsion après un coup de tête sur Marco Materazzi."
-        },
-        {
-            "id": "10",
-            "question": "Quel joueur français marque un triplé contre l'Argentine lors de la finale de la Coupe du Monde 2022 ?",
-            "image": null,
-            "answers": [
-                "Karim Benzema",
-                "Antoine Griezmann",
-                "Kylian Mbappé",
-                "Olivier Giroud"
-            ],
-            "correctIndex": 2,
-            "explanation": "Kylian Mbappé inscrit trois buts en finale 2022 contre l'Argentine. Malgré la défaite française aux tirs au but, cette performance individuelle est exceptionnelle : très peu de joueurs ont marqué un triplé en finale de Coupe du Monde."
-        },
-        {
-            "id": "11",
-            "question": "Quel adversaire la France élimine-t-elle en demi-finale de la Coupe du Monde 2018 ?",
-            "image": null,
-            "answers": [
-                "La Belgique",
-                "L'Angleterre",
-                "La Croatie",
-                "L'Uruguay"
-            ],
-            "correctIndex": 0,
-            "explanation": "La France élimine la Belgique 1-0 grâce à un but de Samuel Umtiti. Ce match est souvent considéré comme l'un des plus difficiles du parcours français, car la Belgique possédait alors l'une des meilleures générations de son histoire."
-        },
-        {
-            "id": "12",
-            "question": "Quel défenseur français marque deux buts contre la Croatie en demi-finale de la Coupe du Monde 1998 ?",
-            "image": null,
-            "answers": [
-                "Bixente Lizarazu",
-                "Laurent Blanc",
-                "Lilian Thuram",
-                "Marcel Desailly"
-            ],
-            "correctIndex": 2,
-            "explanation": "Lilian Thuram marque les deux seuls buts de sa carrière en équipe de France lors de cette demi-finale. Ce doublé inattendu permet aux Bleus de renverser la Croatie et d'atteindre leur première finale mondiale."
-        },
-        {
-            "id": "13",
-            "question": "Quelle équipe élimine la France en demi-finale de la Coupe du Monde 1982 après un match resté mythique ?",
-            "image": null,
-            "answers": [
-                "L'Italie",
-                "L'Allemagne de l'Ouest",
-                "L'Argentine",
-                "Les Pays-Bas"
-            ],
-            "correctIndex": 1,
-            "explanation": "La France est éliminée par l'Allemagne de l'Ouest à Séville en 1982, après un match spectaculaire terminé aux tirs au but. Cette rencontre reste aussi marquée par la sortie violente du gardien Schumacher sur Patrick Battiston."
-        },
-        {
-            "id": "14",
-            "question": "Quel meneur de jeu symbolise la grande équipe de France des Coupes du Monde 1982 et 1986 ?",
-            "image": null,
-            "answers": [
-                "Michel Platini",
-                "Jean Tigana",
-                "Alain Giresse",
-                "Luis Fernandez"
-            ],
-            "correctIndex": 0,
-            "explanation": "Michel Platini est le leader technique des Bleus dans les années 1980. Avec Tigana, Giresse et Fernandez, il forme le fameux carré magique, l'un des milieux de terrain les plus célèbres de l'histoire du football français."
-        },
-        {
-            "id": "15",
-            "question": "Quelle place l'équipe de France obtient-elle à la Coupe du Monde 1958 ?",
-            "image": null,
-            "answers": [
-                "Première",
-                "Deuxième",
-                "Troisième",
-                "Quatrième"
-            ],
-            "correctIndex": 2,
-            "explanation": "La France termine troisième de la Coupe du Monde 1958 en Suède. Cette édition révèle Just Fontaine, auteur d'un record historique de 13 buts en une seule phase finale, un record encore inégalé."
-        },
-        {
-            "id": "16",
-            "question": "Quel attaquant français détient le record du nombre de buts inscrits sur une seule Coupe du Monde ?",
-            "image": null,
-            "answers": [
-                "Thierry Henry",
-                "Just Fontaine",
-                "Michel Platini",
-                "Jean-Pierre Papin"
-            ],
-            "correctIndex": 1,
-            "explanation": "Just Fontaine inscrit 13 buts lors de la Coupe du Monde 1958. Ce record est d'autant plus impressionnant qu'il l'a réalisé en seulement six matchs, ce qui en fait l'une des performances les plus incroyables de l'histoire du tournoi."
-        },
-        {
-            "id": "17",
-            "question": "Quel gardien français est titulaire lors du sacre mondial de 2018 ?",
-            "image": null,
-            "answers": [
-                "Fabien Barthez",
-                "Hugo Lloris",
-                "Steve Mandanda",
-                "Mike Maignan"
-            ],
-            "correctIndex": 1,
-            "explanation": "Hugo Lloris est le capitaine et gardien titulaire des Bleus en 2018. Son leadership discret et son expérience ont joué un rôle important dans l'équilibre d'une équipe très jeune."
-        },
-        {
-            "id": "18",
-            "question": "Quel gardien français est titulaire lors du sacre mondial de 1998 ?",
-            "image": null,
-            "answers": [
-                "Bernard Lama",
-                "Grégory Coupet",
-                "Lionel Charbonnier",
-                "Fabien Barthez"
-            ],
-            "correctIndex": 3,
-            "explanation": "Fabien Barthez est le gardien titulaire en 1998. La défense française encaisse très peu de buts durant le tournoi, ce qui montre l'importance du bloc défensif dans la conquête de la première étoile."
-        },
-        {
-            "id": "19",
-            "question": "Quel joueur français marque le dernier but de la finale 1998 contre le Brésil ?",
-            "image": null,
-            "answers": [
-                "Christophe Dugarry",
-                "Youri Djorkaeff",
-                "Emmanuel Petit",
-                "Robert Pirès"
-            ],
-            "correctIndex": 2,
-            "explanation": "Emmanuel Petit marque le troisième but français dans le temps additionnel. Ce but est symbolique : il conclut une contre-attaque parfaite et scelle définitivement la plus grande soirée de l'histoire du football français."
-        },
-        {
-            "id": "20",
-            "question": "Quelle nation bat la France en finale de la Coupe du Monde 2022 ?",
-            "image": null,
-            "answers": [
-                "Le Brésil",
-                "L'Espagne",
-                "L'Argentine",
-                "L'Angleterre"
-            ],
-            "correctIndex": 2,
-            "explanation": "L'Argentine bat la France aux tirs au but après un match nul 3-3. Cette finale est souvent considérée comme l'une des plus grandes de l'histoire, avec le duel entre Lionel Messi et Kylian Mbappé au cœur du scénario."
-        }
-    ]
+    {
+      "id": "3",
+      "question": "Quel joueur français inscrit deux buts de la tête sur corner lors de la finale 1998 contre le Brésil ?",
+      "answers": ["Didier Deschamps", "Thierry Henry", "Emmanuel Petit", "Zinédine Zidane"],
+      "correctIndex": 3,
+      "explanation": "Zinédine Zidane inscrit deux buts de la tête sur corner en première mi-temps de la finale du 12 juillet 1998 — à la 27e et à la 45e minute. Cette double performance en finale transforme définitivement son statut : il devient l'un des plus grands héros du sport français et une figure mondiale du football."
+    },
+    {
+      "id": "4",
+      "question": "Quel sélectionneur, très critiqué avant le tournoi, mène la France au titre mondial en 1998 ?",
+      "answers": ["Michel Hidalgo", "Aimé Jacquet", "Raymond Domenech", "Laurent Blanc"],
+      "correctIndex": 1,
+      "explanation": "Aimé Jacquet dirige les Bleus lors du sacre de 1998. Conspué par une partie de la presse sportive avant le tournoi, il construit pourtant une équipe extraordinairement solide, fondée sur une défense qui n'encaisse que deux buts en phase finale et un collectif équilibré autour de Zidane, Deschamps, Thuram et Barthez."
+    },
+    {
+      "id": "5",
+      "question": "Quel pays la France bat-elle en demi-finale de la Coupe du Monde 2022 pour atteindre sa troisième finale consécutive ?",
+      "answers": ["L'Angleterre", "Le Maroc", "La Pologne", "La Croatie"],
+      "correctIndex": 1,
+      "explanation": "La France bat le Maroc 2-0 en demi-finale de la Coupe du Monde 2022 au Qatar, grâce à des buts de Théo Hernandez et Randal Kolo Muani. Le Maroc, première équipe africaine et arabe à atteindre les demi-finales d'un Mondial, avait jusqu'alors réalisé un parcours historique en éliminant l'Espagne et le Portugal."
+    },
+    {
+      "id": "6",
+      "question": "Quelle équipe la France bat-elle 4-2 en finale de la Coupe du Monde 2018 à Moscou ?",
+      "answers": ["La Croatie", "La Belgique", "L'Argentine", "L'Uruguay"],
+      "correctIndex": 0,
+      "explanation": "La France bat la Croatie 4-2 en finale au stade Loujniki de Moscou le 15 juillet 2018. Côté français : Mandžukić contre son camp (18e), Griezmann sur penalty (38e), Pogba (59e) et Mbappé (65e). Côté croate : Perišić (28e) et Mandžukić (69e). Cette finale prolifique confirme la capacité des Bleus à performer dans les grands rendez-vous."
+    },
+    {
+      "id": "7",
+      "question": "Quel sélectionneur français a d'abord été champion du monde comme joueur en 1998 avant de l'être comme entraîneur en 2018 ?",
+      "answers": ["Laurent Blanc", "Didier Deschamps", "Zinédine Zidane", "Michel Platini"],
+      "correctIndex": 1,
+      "explanation": "Didier Deschamps est capitaine de l'équipe championne du monde en 1998, puis sélectionneur lors du titre de 2018. Il rejoint ainsi le cercle très fermé des hommes sacrés champions du monde à la fois comme joueur et comme entraîneur — un exploit partagé avec seulement quelques personnalités dans l'histoire du football mondial."
+    },
+    {
+      "id": "8",
+      "question": "Quel attaquant français, âgé de 19 ans, marque le quatrième but français en finale de la Coupe du Monde 2018 contre la Croatie ?",
+      "answers": ["Antoine Griezmann", "Olivier Giroud", "Kylian Mbappé", "Paul Pogba"],
+      "correctIndex": 2,
+      "explanation": "Kylian Mbappé marque le quatrième but français contre la Croatie à la 65e minute, à 19 ans et 207 jours. Il devient ainsi le deuxième joueur de l'histoire à marquer en finale d'une Coupe du Monde avant ses 20 ans, après Pelé qui avait accompli cet exploit en 1958 avec le Brésil."
+    },
+    {
+      "id": "9",
+      "question": "Quelle équipe élimine la France aux tirs au but en finale de la Coupe du Monde 2006, lors du dernier match de Zidane ?",
+      "answers": ["Le Brésil", "L'Allemagne", "L'Italie", "Le Portugal"],
+      "correctIndex": 2,
+      "explanation": "L'Italie bat la France aux tirs au but en finale 2006 à Berlin, après un match nul 1-1. Cette rencontre reste célèbre pour la panenka audacieuse de Zidane et surtout pour son expulsion après un coup de tête sur Marco Materazzi au 110e minute, dernier geste de sa carrière internationale."
+    },
+    {
+      "id": "10",
+      "question": "Quelle équipe la France bat-elle 2-1 en quart de finale de la Coupe du Monde 2022 pour atteindre le dernier carré ?",
+      "answers": ["Le Danemark", "Le Brésil", "L'Angleterre", "La Pologne"],
+      "correctIndex": 2,
+      "explanation": "La France bat l'Angleterre 2-1 en quart de finale de la Coupe du Monde 2022 au Qatar, avec des buts d'Aurélien Tchouaméni et Olivier Giroud. Harry Kane égalise sur penalty mais rate son deuxième tir au but pour les Anglais — un raté qui illustre la pression des grands matchs à élimination directe."
+    },
+    {
+      "id": "11",
+      "question": "Quel adversaire la France élimine-t-elle 1-0 en demi-finale de la Coupe du Monde 2018 grâce à un but de Samuel Umtiti ?",
+      "answers": ["La Belgique", "L'Angleterre", "La Croatie", "L'Uruguay"],
+      "correctIndex": 0,
+      "explanation": "La France élimine la Belgique 1-0 en demi-finale à Saint-Pétersbourg le 10 juillet 2018, grâce à un but de la tête de Samuel Umtiti sur corner à la 51e minute. Ce match est souvent considéré comme l'un des plus difficiles du parcours français, car la Belgique de De Bruyne, Hazard et Lukaku possédait alors l'une des meilleures générations de son histoire."
+    },
+    {
+      "id": "12",
+      "question": "Quel défenseur central inscrit les deux seuls buts de toute sa carrière internationale lors de la demi-finale 1998 contre la Croatie ?",
+      "answers": ["Lilian Thuram", "Bixente Lizarazu", "Laurent Blanc", "Marcel Desailly"],
+      "correctIndex": 0,
+      "explanation": "Lilian Thuram marque les deux seuls buts de sa carrière en équipe de France lors de cette demi-finale 1998, renversant une situation défavorable (1-0 pour la Croatie) pour qualifier les Bleus 2-1. Ce double inattendu d'un latéral droit défensif reste l'un des moments les plus improbables et les plus mémorables de l'histoire des Bleus."
+    },
+    {
+      "id": "13",
+      "question": "Quelle équipe élimine la France aux tirs au but lors d'une demi-finale mythique à Séville en 1982, marquée par le geste brutal du gardien Schumacher ?",
+      "answers": ["L'Allemagne de l'Ouest", "L'Italie", "L'Argentine", "Les Pays-Bas"],
+      "correctIndex": 0,
+      "explanation": "L'Allemagne de l'Ouest élimine la France lors de la demi-finale de Séville en 1982, après une victoire aux tirs au but lors d'un match spectaculaire (3-3 après prolongation). Ce match reste gravé dans les mémoires pour le choc violent de Harald Schumacher sur Patrick Battiston, resté sans sanction, et pour la remontée dramatique des Allemands après avoir été menés 3-1."
+    },
+    {
+      "id": "14",
+      "question": "Quel meneur de jeu français forme avec Tigana, Giresse et Fernandez le célèbre 'carré magique' lors des Coupes du Monde 1982 et 1986 ?",
+      "answers": ["Michel Platini", "Jean Tigana", "Alain Giresse", "Luis Fernandez"],
+      "correctIndex": 0,
+      "explanation": "Michel Platini est le leader technique des Bleus dans les années 1980. Avec Jean Tigana, Alain Giresse et Luis Fernandez, il forme le fameux carré magique — l'un des milieux de terrain les plus talentueux de l'histoire du football français — qui permet à la France d'atteindre la troisième place en 1986 au Mexique."
+    },
+    {
+      "id": "15",
+      "question": "Quelle place l'équipe de France décroche-t-elle lors de la Coupe du Monde 1958 en Suède, révélant Just Fontaine au monde ?",
+      "answers": ["Première", "Deuxième", "Troisième", "Quatrième"],
+      "correctIndex": 2,
+      "explanation": "La France termine troisième de la Coupe du Monde 1958 en Suède, en battant l'Allemagne de l'Ouest 6-3 dans le match pour la troisième place. Cette édition révèle Just Fontaine, auteur d'un record historique de 13 buts en une seule phase finale — un record qui n'a jamais été battu depuis."
+    },
+    {
+      "id": "16",
+      "question": "Quel attaquant tricolore détient le record de buts inscrits sur une seule édition de la Coupe du Monde, avec 13 réalisations en 1958 ?",
+      "answers": ["Thierry Henry", "Michel Platini", "Jean-Pierre Papin", "Just Fontaine"],
+      "correctIndex": 3,
+      "explanation": "Just Fontaine inscrit 13 buts lors de la Coupe du Monde 1958 en seulement six matchs — une moyenne de plus de deux buts par rencontre. Ce record, établi en grande partie grâce à un Fontaine parfaitement servi par Kopa et Piantoni, n'a jamais été approché par aucun autre joueur dans l'histoire du tournoi."
+    },
+    {
+      "id": "17",
+      "question": "Quel gardien, capitaine de l'équipe de France, remporte la Coupe du Monde 2018 en Russie sous le maillot des Bleus ?",
+      "answers": ["Fabien Barthez", "Steve Mandanda", "Mike Maignan", "Hugo Lloris"],
+      "correctIndex": 3,
+      "explanation": "Hugo Lloris est le capitaine et gardien titulaire des Bleus lors du sacre de 2018 en Russie. Formé à l'OGC Nice, il réalise plusieurs arrêts décisifs durant le tournoi et incarne le leadership discret d'une équipe très jeune mais collectivement redoutable."
+    },
+    {
+      "id": "18",
+      "question": "Quel gardien emblématique, au crâne rasé reconnaissable, défend les buts français lors du sacre mondial de 1998 ?",
+      "answers": ["Bernard Lama", "Grégory Coupet", "Lionel Charbonnier", "Fabien Barthez"],
+      "correctIndex": 3,
+      "explanation": "Fabien Barthez est le gardien titulaire en 1998, encaissant seulement deux buts sur l'ensemble du tournoi. Son calme, sa maîtrise du jeu au pied et son aura défensive contribuent à la solidité d'une défense française qui concède très peu tout au long de la compétition."
+    },
+    {
+      "id": "19",
+      "question": "Quel milieu de terrain français conclut la finale 1998 d'une frappe du pied gauche dans les arrêts de jeu, sur une passe de Patrick Vieira ?",
+      "answers": ["Youri Djorkaeff", "Robert Pirès", "Christophe Dugarry", "Emmanuel Petit"],
+      "correctIndex": 3,
+      "explanation": "Emmanuel Petit marque le troisième but français en finale 1998 dans les arrêts de jeu sur une passe en profondeur de Patrick Vieira, à la 93e minute. Ce but scelle définitivement la victoire 3-0 et conclut une contre-attaque parfaite lors de la plus grande soirée de l'histoire du football français."
+    },
+    {
+      "id": "20",
+      "question": "Quelle nation bat la France aux tirs au but lors d'une finale 2022 d'anthologie, après un match nul 3-3 à Lusail ?",
+      "answers": ["Le Brésil", "L'Espagne", "L'Argentine", "L'Angleterre"],
+      "correctIndex": 2,
+      "explanation": "L'Argentine bat la France aux tirs au but après un match nul 3-3 à Lusail le 18 décembre 2022. L'Argentine mène 2-0 à la 80e minute, avant que Mbappé ne ramène la France à 2-2 en deux minutes (80e et 81e). Kolo Muani porte ensuite le score à 3-3 en prolongation, mais la France s'incline finalement aux tirs au but. Cette finale est souvent citée comme l'une des plus spectaculaires de l'histoire du football mondial."
+    }
+  ]
 }

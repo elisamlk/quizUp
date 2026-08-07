@@ -1,8 +1,8 @@
 {
   "slug": "quiz-sport-accidents-marquants-f1",
   "title": "Quiz Sport - Formule 1 - Connais-tu les accidents marquants ?",
-  "description": "Teste tes connaissances sur les accidents les plus marquants de l’histoire de la Formule 1 avec 20 questions.",
-  "descriptionSeo": "La Formule 1 a aussi été marquée par des accidents qui ont bouleversé son histoire et accéléré les progrès en matière de sécurité. Ce quiz de 20 questions te propose de tester tes connaissances sur les crashs les plus marquants de la F1, entre drames, survies incroyables, circuits mythiques et tournants décisifs pour l’évolution du sport automobile.",
+  "description": "Teste tes connaissances sur les accidents les plus marquants de l'histoire de la Formule 1 avec 20 questions.",
+  "descriptionSeo": "La Formule 1 a aussi été marquée par des accidents qui ont bouleversé son histoire et accéléré les progrès en matière de sécurité. Ce quiz de 20 questions te propose de tester tes connaissances sur les crashs les plus marquants de la F1, entre drames, survies incroyables, circuits mythiques et tournants décisifs pour l'évolution du sport automobile.",
   "category": {
     "name": "Sport",
     "slug": "sport"
@@ -19,242 +19,142 @@
     {
       "id": "1",
       "question": "Quel pilote a été victime du terrible accident du Nürburgring en 1976 avant de revenir en course quelques semaines plus tard ?",
-      "answers": [
-        "Niki Lauda",
-        "James Hunt",
-        "Clay Regazzoni",
-        "Mario Andretti"
-      ],
-      "correctIndex": 0,
-      "explanation": "Niki Lauda a été grièvement brûlé lors du Grand Prix d’Allemagne 1976 au Nürburgring. Son retour en compétition à Monza seulement quelques semaines plus tard est devenu l’un des exemples les plus marquants de courage et de résilience dans l’histoire de la Formule 1."
+      "answers": ["James Hunt", "Clay Regazzoni", "Niki Lauda", "Mario Andretti"],
+      "correctIndex": 2,
+      "explanation": "Niki Lauda a été grièvement brûlé lors du Grand Prix d'Allemagne 1976 au Nürburgring, après que sa Ferrari a pris feu dans les barrières. Son retour en compétition dès le Grand Prix d'Italie à Monza, seulement 42 jours après l'accident, reste l'une des démonstrations de volonté les plus marquantes de l'histoire de la Formule 1."
     },
     {
       "id": "2",
       "question": "Sur quel circuit Ayrton Senna a-t-il eu son accident fatal en 1994 ?",
-      "answers": [
-        "Monaco",
-        "Suzuka",
-        "Imola",
-        "Silverstone"
-      ],
+      "answers": ["Monaco", "Suzuka", "Imola", "Silverstone"],
       "correctIndex": 2,
-      "explanation": "Ayrton Senna a perdu la vie lors du Grand Prix de Saint-Marin 1994 à Imola, dans le virage de Tamburello. Ce drame a profondément bouleversé la F1 et a conduit à une accélération majeure des mesures de sécurité sur les voitures et les circuits."
+      "explanation": "Ayrton Senna a perdu la vie lors du Grand Prix de Saint-Marin 1994 à Imola, dans le virage de Tamburello, au septième tour de la course. Ce drame, survenu après le décès de Roland Ratzenberger la veille, a conduit à une accélération décisive des mesures de sécurité en Formule 1."
     },
     {
       "id": "3",
-      "question": "Quel autre pilote est décédé le même week-end qu’Ayrton Senna à Imola en 1994 ?",
-      "answers": [
-        "Roland Ratzenberger",
-        "Rubens Barrichello",
-        "Karl Wendlinger",
-        "Michele Alboreto"
-      ],
-      "correctIndex": 0,
-      "explanation": "Roland Ratzenberger est décédé pendant les qualifications du Grand Prix de Saint-Marin 1994, la veille de l’accident d’Ayrton Senna. Ce week-end reste l’un des plus sombres de toute l’histoire de la Formule 1."
+      "question": "Quel autre pilote est décédé le même week-end qu'Ayrton Senna à Imola en 1994 ?",
+      "answers": ["Rubens Barrichello", "Karl Wendlinger", "Michele Alboreto", "Roland Ratzenberger"],
+      "correctIndex": 3,
+      "explanation": "Roland Ratzenberger est décédé lors des qualifications du Grand Prix de Saint-Marin 1994 à Imola, la veille de l'accident mortel d'Ayrton Senna. Ce week-end, qui avait aussi vu Barrichello être sérieusement blessé la veille, reste l'un des plus sombres de toute l'histoire de la Formule 1."
     },
     {
       "id": "4",
-      "question": "Quel pilote français a été gravement blessé à Suzuka en 2014 après avoir heurté un véhicule de récupération ?",
-      "answers": [
-        "Jean-Éric Vergne",
-        "Jules Bianchi",
-        "Romain Grosjean",
-        "Pierre Gasly"
-      ],
-      "correctIndex": 1,
-      "explanation": "Jules Bianchi a eu un très grave accident au Grand Prix du Japon 2014 à Suzuka, dans des conditions humides. Son accident a conduit à des changements importants en matière de procédures de neutralisation et a accéléré la réflexion sur la sécurité en piste."
+      "question": "Quel pilote français a été gravement blessé à Suzuka en 2014 après avoir percuté un véhicule de récupération sous voiture de sécurité ?",
+      "answers": ["Jules Bianchi", "Jean-Éric Vergne", "Romain Grosjean", "Pierre Gasly"],
+      "correctIndex": 0,
+      "explanation": "Jules Bianchi a subi un traumatisme crânien sévère lors du Grand Prix du Japon 2014 à Suzuka, après avoir percuté une grue de récupération dans des conditions humides sous drapeaux jaunes. Cet accident a provoqué une refonte complète des procédures de neutralisation et a directement conduit à l'introduction du Virtual Safety Car, généralisé dès la saison 2015."
     },
     {
       "id": "5",
-      "question": "Quel pilote s’est extrait d’une voiture en flammes après son spectaculaire accident au Grand Prix de Bahreïn 2020 ?",
-      "answers": [
-        "Kevin Magnussen",
-        "Esteban Ocon",
-        "Romain Grosjean",
-        "Nico Hülkenberg"
-      ],
-      "correctIndex": 2,
-      "explanation": "Romain Grosjean a survécu à un accident spectaculaire au départ du Grand Prix de Bahreïn 2020, sa Haas traversant la barrière avant de s’embraser. Son échappée rapide a aussi mis en lumière l’importance de dispositifs comme le halo, la combinaison ignifugée et les progrès des secours."
+      "question": "Quel pilote s'est extrait d'une voiture en flammes lors du spectaculaire accident au départ du Grand Prix de Bahreïn 2020 ?",
+      "answers": ["Kevin Magnussen", "Romain Grosjean", "Esteban Ocon", "Nico Hülkenberg"],
+      "correctIndex": 1,
+      "explanation": "Romain Grosjean a survécu à un accident spectaculaire au départ du Grand Prix de Bahreïn 2020, sa Haas traversant la barrière de glissière avant de s'embraser. Son extraction en moins de 30 secondes a mis en lumière l'efficacité combinée du halo, du système HANS et de la combinaison ignifugée, ainsi que les progrès considérables des équipes médicales de la F1."
     },
     {
       "id": "6",
-      "question": "Quel pilote brésilien a été grièvement blessé par un ressort de suspension au Grand Prix de Hongrie 2009 ?",
-      "answers": [
-        "Rubens Barrichello",
-        "Felipe Massa",
-        "Bruno Senna",
-        "Lucas di Grassi"
-      ],
-      "correctIndex": 1,
-      "explanation": "Felipe Massa a été touché au casque par un ressort détaché de la voiture de Rubens Barrichello lors des qualifications du Grand Prix de Hongrie 2009. Cet accident a renforcé l’attention portée à la protection de la tête du pilote, avant même l’arrivée du halo."
+      "question": "Quel pilote brésilien a été grièvement blessé au casque par un ressort de suspension lors des qualifications du Grand Prix de Hongrie 2009 ?",
+      "answers": ["Felipe Massa", "Rubens Barrichello", "Bruno Senna", "Lucas di Grassi"],
+      "correctIndex": 0,
+      "explanation": "Felipe Massa a été touché à la tête par un ressort en titane détaché de la Brawn GP de Rubens Barrichello lors des qualifications du Grand Prix de Hongrie 2009. Cet accident, qui l'a laissé dans un état critique, a été un catalyseur majeur dans la réflexion sur la protection de la tête, qui aboutira des années plus tard au halo."
     },
     {
       "id": "7",
-      "question": "Quel pilote polonais a subi un très violent accident au Canada en 2007 avant de revenir courir rapidement ?",
-      "answers": [
-        "Robert Kubica",
-        "Jarno Trulli",
-        "Nick Heidfeld",
-        "Timo Glock"
-      ],
-      "correctIndex": 0,
-      "explanation": "Robert Kubica a connu un énorme accident lors du Grand Prix du Canada 2007 à Montréal. Le fait qu’il ait pu revenir aussi vite en compétition a illustré les progrès déjà réalisés par la F1 en matière de cellule de survie et de résistance des monoplaces."
+      "question": "Quel pilote polonais a subi un très violent accident lors du Grand Prix du Canada 2007 à Montréal avant de revenir rapidement en compétition ?",
+      "answers": ["Jarno Trulli", "Robert Kubica", "Nick Heidfeld", "Timo Glock"],
+      "correctIndex": 1,
+      "explanation": "Robert Kubica a connu un accident extrêmement violent lors du Grand Prix du Canada 2007 à Montréal, sa monoplace se désintégrant à haute vitesse dans les barrières. Son retour en course dès l'épreuve suivante a illustré la résistance remarquable des cellules de survie modernes en Formule 1."
     },
     {
       "id": "8",
-      "question": "Quel pilote britannique a eu un grave accident à Silverstone en 1999, se fracturant les jambes ?",
-      "answers": [
-        "David Coulthard",
-        "Johnny Herbert",
-        "Nigel Mansell",
-        "Michael Schumacher"
-      ],
+      "question": "Quel pilote allemand a eu un grave accident à Silverstone en 1999, se fracturant la jambe droite ?",
+      "answers": ["David Coulthard", "Johnny Herbert", "Nigel Mansell", "Michael Schumacher"],
       "correctIndex": 3,
-      "explanation": "Michael Schumacher s’est fracturé la jambe lors du Grand Prix de Grande-Bretagne 1999 à Silverstone. Cet accident a interrompu sa saison et a eu un impact majeur sur la lutte pour les titres cette année-là."
+      "explanation": "Michael Schumacher s'est fracturé la jambe droite lors du Grand Prix de Grande-Bretagne 1999 à Silverstone, après avoir perdu ses freins dans le virage de Stowe. Cette blessure l'a écarté plusieurs courses et a offert à Mika Häkkinen l'espace nécessaire pour décrocher son premier titre mondial."
     },
     {
       "id": "9",
-      "question": "Quel pilote a subi un très sérieux accident à Monaco en 1967, entraînant une prise de conscience majeure sur la sécurité ?",
-      "answers": [
-        "Graham Hill",
-        "Lorenzo Bandini",
-        "Jack Brabham",
-        "Jochen Rindt"
-      ],
-      "correctIndex": 1,
-      "explanation": "Lorenzo Bandini a eu un accident dramatique lors du Grand Prix de Monaco 1967. Ce drame a marqué les esprits à une époque où la sécurité des circuits, des secours et des voitures restait encore très insuffisante."
+      "question": "Quel pilote a perdu la vie lors d'un terrible accident à Monaco en 1967, alors que les secours s'avéraient encore très insuffisants ?",
+      "answers": ["Lorenzo Bandini", "Graham Hill", "Jack Brabham", "Jochen Rindt"],
+      "correctIndex": 0,
+      "explanation": "Lorenzo Bandini a eu un accident dramatique lors du Grand Prix de Monaco 1967, sa Ferrari prenant feu après un contact avec la chicane du port. Il est décédé trois jours plus tard de ses brûlures. Ce drame a pesé lourd dans la prise de conscience collective sur l'insuffisance des dispositifs de secours de l'époque."
     },
     {
       "id": "10",
-      "question": "Quel pilote autrichien est devenu le seul champion du monde titré à titre posthume après son accident de 1970 ?",
-      "answers": [
-        "Jochen Rindt",
-        "Niki Lauda",
-        "Gerhard Berger",
-        "Helmut Marko"
-      ],
-      "correctIndex": 0,
-      "explanation": "Jochen Rindt a perdu la vie en 1970 mais a conservé suffisamment d’avance au championnat pour être sacré champion du monde à titre posthume. Ce cas reste unique dans l’histoire de la Formule 1."
+      "question": "Quel pilote autrichien est devenu le seul champion du monde de Formule 1 titré à titre posthume ?",
+      "answers": ["Niki Lauda", "Gerhard Berger", "Helmut Marko", "Jochen Rindt"],
+      "correctIndex": 3,
+      "explanation": "Jochen Rindt a perdu la vie lors des qualifications du Grand Prix d'Italie 1970 à Monza, après une défaillance mécanique dans le virage de Parabolica. Son avance au championnat était telle qu'aucun autre pilote ne put le rattraper sur les courses restantes, faisant de lui le seul champion du monde décerné à titre posthume dans l'histoire de la F1."
     },
     {
       "id": "11",
-      "question": "Quel pilote a été victime d’un grave accident à Spa-Francorchamps en 2001 après une collision avec la voiture d’Eddie Irvine ?",
-      "answers": [
-        "Luciano Burti",
-        "Ricardo Zonta",
-        "Pedro de la Rosa",
-        "Jos Verstappen"
-      ],
-      "correctIndex": 0,
-      "explanation": "Luciano Burti a subi un accident très violent lors du Grand Prix de Belgique 2001 à Spa-Francorchamps. Sa voiture a percuté les barrières à haute vitesse, illustrant la dangerosité persistante de certains enchaînements rapides malgré les progrès en matière de sécurité."
+      "question": "Quel pilote a été victime d'un accident très violent à Spa-Francorchamps en 2001 après une collision avec la voiture de Michael Schumacher ?",
+      "answers": ["Ricardo Zonta", "Pedro de la Rosa", "Luciano Burti", "Jos Verstappen"],
+      "correctIndex": 2,
+      "explanation": "Luciano Burti a subi un accident extrêmement violent lors du Grand Prix de Belgique 2001 à Spa-Francorchamps, percutant d'abord la Jaguar d'Eddie Irvine avant de heurter l'arrière de la Ferrari de Michael Schumacher et de s'envoler dans les pneumatiques de protection. Le Brésilien s'en est sorti indemne, illustrant malgré tout les progrès de la sécurité passive des monoplaces."
     },
     {
       "id": "12",
-      "question": "Quel pilote britannique a subi un très grave accident à Spa-Francorchamps en 1960, mettant fin à sa carrière en F1 ?",
-      "answers": [
-        "Stirling Moss",
-        "Mike Hawthorn",
-        "Jim Clark",
-        "John Surtees"
-      ],
-      "correctIndex": 0,
-      "explanation": "Stirling Moss a été victime d’un accident extrêmement violent à Spa en 1960. Bien qu’il ait survécu, cet épisode, ajouté à d’autres accidents, a contribué à mettre fin à sa carrière en Formule 1 et a illustré les dangers extrêmes de cette époque."
+      "question": "Quel pilote britannique a subi un accident majeur à Spa-Francorchamps en 1960 qui, ajouté à d'autres blessures, contribua à mettre fin à sa carrière ?",
+      "answers": ["Mike Hawthorn", "Jim Clark", "John Surtees", "Stirling Moss"],
+      "correctIndex": 3,
+      "explanation": "Stirling Moss a été victime d'un accident grave à Spa en 1960, se fracturant les deux jambes et plusieurs côtes, qui l'a écarté plusieurs mois de la compétition. Cet épisode douloureux s'inscrivait dans une accumulation de blessures sérieuses sur plusieurs saisons. C'est finalement son terrible accident de Goodwood en avril 1962, dont les séquelles furent durables, qui mit définitivement un terme à sa carrière. Il demeure l'un des meilleurs pilotes de l'histoire n'ayant jamais remporté le titre mondial."
     },
     {
       "id": "13",
-      "question": "Quel pilote français a perdu la vie lors d’un accident à Hockenheim en 1980 pendant une séance d’essais ?",
-      "answers": [
-        "Patrick Depailler",
-        "Didier Pironi",
-        "François Cevert",
-        "Jean-Pierre Jabouille"
-      ],
-      "correctIndex": 0,
-      "explanation": "Patrick Depailler est décédé lors d’essais privés à Hockenheim en 1980. Cet accident a rappelé les risques liés aux phases d’essais, souvent moins encadrées à l’époque que les week-ends de course."
+      "question": "Quel pilote français a perdu la vie lors d'essais privés à Hockenheim en 1980 ?",
+      "answers": ["Didier Pironi", "François Cevert", "Jean-Pierre Jabouille", "Patrick Depailler"],
+      "correctIndex": 3,
+      "explanation": "Patrick Depailler est décédé lors d'essais privés à Hockenheim en août 1980, après une défaillance de sa suspension dans le virage rapide d'Einfahrt. Ce drame a mis en lumière les risques propres aux séances d'essais non encadrées, qui bénéficiaient alors de dispositifs de sécurité bien inférieurs à ceux des week-ends de Grand Prix."
     },
     {
       "id": "14",
-      "question": "Quel pilote australien a été impliqué dans un spectaculaire accident à Valencia en 2010 après avoir percuté une autre monoplace ?",
-      "answers": [
-        "Daniel Ricciardo",
-        "Mark Webber",
-        "Alan Jones",
-        "Oscar Piastri"
-      ],
-      "correctIndex": 1,
-      "explanation": "Mark Webber a été impliqué dans un spectaculaire accident lors du Grand Prix d’Europe 2010 à Valencia, sa voiture décollant après un contact. L’incident a illustré les risques liés aux contacts roue contre roue en F1."
+      "question": "Quel pilote australien a été impliqué dans un accident spectaculaire à Valencia en 2010, sa monoplace décollant après un contact roue à roue ?",
+      "answers": ["Mark Webber", "Daniel Ricciardo", "Alan Jones", "Oscar Piastri"],
+      "correctIndex": 0,
+      "explanation": "Mark Webber a été projeté en l'air lors du Grand Prix d'Europe 2010 à Valencia après un contact roue à roue avec la Lotus de Heikki Kovalainen. Sa Red Bull a effectué un vol plané spectaculaire avant de retomber sur la piste. L'Australien s'en est sorti indemne, mais l'incident a relancé le débat sur les risques de décollage et renforcé la réflexion sur les dispositifs anti-envol en Formule 1."
     },
     {
       "id": "15",
-      "question": "Quel pilote britannique est décédé à Zandvoort en 1970 lors d’un accident en course ?",
-      "answers": [
-        "Piers Courage",
-        "James Hunt",
-        "Graham Hill",
-        "John Watson"
-      ],
-      "correctIndex": 0,
-      "explanation": "Piers Courage a perdu la vie lors du Grand Prix des Pays-Bas 1970. Cet accident s’inscrit dans une période où les normes de sécurité étaient encore très limitées, contribuant à une prise de conscience progressive dans le sport."
+      "question": "Quel pilote britannique a perdu la vie lors du Grand Prix des Pays-Bas 1970 à Zandvoort ?",
+      "answers": ["James Hunt", "Graham Hill", "Piers Courage", "John Watson"],
+      "correctIndex": 2,
+      "explanation": "Piers Courage a perdu la vie lors du Grand Prix des Pays-Bas 1970 à Zandvoort, sa De Tomaso prenant feu après avoir quitté la piste. Ami proche de Frank Williams, son décès a marqué durablement le fondateur de l'écurie et s'inscrit dans une période où la sécurité des circuits et des voitures restait dramatiquement insuffisante."
     },
     {
       "id": "16",
-      "question": "Quel pilote gallois est décédé à Zandvoort en 1973 dans un accident resté célèbre pour la tentative de sauvetage de David Purley ?",
-      "answers": [
-        "Tom Pryce",
-        "Roger Williamson",
-        "Peter Revson",
-        "Chris Amon"
-      ],
+      "question": "Quel pilote gallois est décédé à Zandvoort en 1973, dans un accident resté célèbre pour la tentative héroïque de sauvetage de David Purley ?",
+      "answers": ["Tom Pryce", "Roger Williamson", "Peter Revson", "Chris Amon"],
       "correctIndex": 1,
-      "explanation": "Roger Williamson a perdu la vie au Grand Prix des Pays-Bas 1973. La tentative désespérée de David Purley pour lui porter secours reste l’un des épisodes les plus marquants de l’histoire humaine de la F1, et un symbole des limites des secours de l’époque."
+      "explanation": "Roger Williamson a perdu la vie au Grand Prix des Pays-Bas 1973 à Zandvoort, piégé dans sa March en feu. La tentative désespérée de David Purley, qui s'arrêta seul pour essayer de retourner la voiture à mains nues, reste l'un des épisodes les plus bouleversants de l'histoire humaine de la F1 et un symbole criant des carences des secours de l'époque."
     },
     {
       "id": "17",
-      "question": "Quel pilote finlandais a subi un très grave accident lors des qualifications à Adélaïde en 1995 avant de revenir en Formule 1 ?",
-      "answers": [
-        "Mika Häkkinen",
-        "Kimi Räikkönen",
-        "Heikki Kovalainen",
-        "Valtteri Bottas"
-      ],
-      "correctIndex": 0,
-      "explanation": "Mika Häkkinen a subi un accident très grave lors des qualifications du Grand Prix d’Australie 1995 à Adélaïde. Il a été sauvé grâce à une intervention médicale rapide et est revenu pour devenir double champion du monde, illustrant les progrès de la médecine en F1."
+      "question": "Quel pilote finlandais a subi un accident très grave lors des qualifications du Grand Prix d'Australie 1995 à Adélaïde ?",
+      "answers": ["Kimi Räikkönen", "Heikki Kovalainen", "Mika Häkkinen", "Valtteri Bottas"],
+      "correctIndex": 2,
+      "explanation": "Mika Häkkinen a subi une blessure crânienne sévère lors des qualifications du Grand Prix d'Australie 1995 à Adélaïde, après une crevaison à haute vitesse. Une trachéotomie d'urgence pratiquée sur le bord de la piste par le médecin de la F1 Sid Watkins lui a sauvé la vie. Il est revenu pour remporter deux titres mondiaux consécutifs en 1998 et 1999."
     },
     {
       "id": "18",
-      "question": "Quel pilote britannique a subi un accident très grave à Spa-Francorchamps en 1960, survivant mais ne revenant jamais en Formule 1 ?",
-      "answers": [
-        "Chris Bristow",
-        "Stirling Moss",
-        "Tony Brooks",
-        "Innes Ireland"
-      ],
+      "question": "Quel pilote gallois a perdu la vie sur le circuit de Kyalami en 1977, percuté par un commissaire de piste traversant la voie rapide ?",
+      "answers": ["Tom Pryce", "Alan Jones", "Patrick Tambay", "Ronnie Peterson"],
       "correctIndex": 0,
-      "explanation": "Chris Bristow a été victime d’un accident fatal lors du Grand Prix de Belgique 1960 à Spa. Cette course est tristement célèbre pour les multiples accidents graves qui ont marqué un tournant dans la prise de conscience des dangers de la discipline."
+      "explanation": "Tom Pryce a perdu la vie lors du Grand Prix d'Afrique du Sud 1977 à Kyalami, percuté de plein fouet par un commissaire de piste qui traversait la piste à pied pour porter secours à une autre voiture en feu. L'extincteur que portait le commissaire a heurté le casque de Pryce à plus de 270 km/h, lui causant des blessures mortelles instantanées. Cet accident a mis en évidence les lacunes criantes dans la gestion de la sécurité du personnel de piste."
     },
     {
       "id": "19",
-      "question": "Quel pilote est décédé à Watkins Glen en 1973 après un accident survenu lors des essais du Grand Prix des États-Unis ?",
-      "answers": [
-        "Peter Revson",
-        "François Cevert",
-        "Jo Siffert",
-        "Ronnie Peterson"
-      ],
+      "question": "Quel pilote français est décédé à Watkins Glen en 1973 lors des essais du Grand Prix des États-Unis ?",
+      "answers": ["Peter Revson", "François Cevert", "Jo Siffert", "Ronnie Peterson"],
       "correctIndex": 1,
-      "explanation": "François Cevert est décédé lors des essais du Grand Prix des États-Unis 1973 à Watkins Glen. Sa disparition a marqué la fin brutale d’un immense espoir français et a profondément touché l’écurie Tyrrell ainsi que Jackie Stewart."
+      "explanation": "François Cevert est décédé lors des qualifications du Grand Prix des États-Unis 1973 à Watkins Glen, dans le virage de l'Esses. La violence de l'accident, qui a conduit Jackie Stewart à annoncer sa retraite immédiate, a marqué la fin brutale d'un immense espoir du sport automobile français et touché profondément l'écurie Tyrrell."
     },
     {
       "id": "20",
-      "question": "Quel pilote suédois a subi un accident fatal à Monza en 1978 alors qu’il jouait le titre mondial ?",
-      "answers": [
-        "Gunnar Nilsson",
-        "Stefan Johansson",
-        "Ronnie Peterson",
-        "Reine Wisell"
-      ],
-      "correctIndex": 2,
-      "explanation": "Ronnie Peterson a été victime d’un grave accident au départ du Grand Prix d’Italie 1978 à Monza. Son décès a marqué la fin d’une carrière brillante et renforcé encore la pression pour améliorer les procédures de départ et l’assistance médicale."
+      "question": "Quel pilote suédois a subi un accident fatal au départ du Grand Prix d'Italie 1978 à Monza ?",
+      "answers": ["Gunnar Nilsson", "Ronnie Peterson", "Stefan Johansson", "Reine Wisell"],
+      "correctIndex": 1,
+      "explanation": "Ronnie Peterson a été victime d'un carambolage au départ du Grand Prix d'Italie 1978 à Monza. Blessé aux jambes, il a succombé dans la nuit à une embolie graisseuse. Son décès a privé la F1 de l'un de ses pilotes les plus spectaculaires et a renforcé la pression pour améliorer les procédures de départ et la prise en charge médicale sur les circuits."
     }
   ]
 }

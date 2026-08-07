@@ -2,7 +2,7 @@
   "slug": "quiz-series-adaptees-de-livres",
   "title": "Quiz Série TV - Les séries adaptées de livres",
   "description": "Romans cultes, best-sellers, fantasy, thrillers et classiques littéraires : ce quiz teste tes connaissances sur les séries adaptées de livres.",
-  "descriptionSeo": "Entre adaptations de romans célèbres, best-sellers internationaux, sagas fantastiques et thrillers littéraires, ce quiz sur les séries adaptées de livres replonge dans les productions inspirées des plus grands auteurs. De Game of Thrones à The Handmaid’s Tale, en passant par Sherlock, Bridgerton, Outlander ou Shadow and Bone, retrouve les personnages, intrigues et univers des meilleures séries tirées de livres.",
+  "descriptionSeo": "Entre adaptations de romans célèbres, best-sellers internationaux, sagas fantastiques et thrillers littéraires, ce quiz sur les séries adaptées de livres replonge dans les productions inspirées des plus grands auteurs. De Game of Thrones à The Handmaid's Tale, en passant par Sherlock, Bridgerton, Outlander ou Shadow and Bone, retrouve les personnages, intrigues et univers des meilleures séries tirées de livres.",
   "category": {
     "name": "Série TV",
     "slug": "serie-tv"
@@ -18,143 +18,243 @@
   "questions": [
     {
       "id": "1",
-      "question": "Quelle série fantastique est adaptée de la saga littéraire A Song of Ice and Fire de George R. R. Martin ?",
-      "answers": ["The Witcher", "Game of Thrones", "Shadow and Bone", "The Wheel of Time"],
+      "question": "Quelle série HBO adapte la saga A Song of Ice and Fire de George R. R. Martin et est devenue un phénomène culturel mondial ?",
+      "answers": [
+        "Foundation",
+        "Game of Thrones",
+        "House of the Dragon",
+        "Fleabag"
+      ],
       "correctIndex": 1,
-      "explanation": "Game of Thrones adapte les romans de George R. R. Martin tout en développant un immense univers politique et fantastique devenu un phénomène culturel mondial."
+      "explanation": "Game of Thrones (HBO, 2011-2019, 8 saisons) adapte les romans de George R. R. Martin en développant un immense univers politique et fantastique. La série a remporté 59 Emmy Awards et a établi de nouveaux standards pour la production télévisée à grand budget."
     },
     {
       "id": "2",
-      "question": "Quelle série dystopique est adaptée du roman de Margaret Atwood publié en 1985 ?",
-      "answers": ["Black Mirror", "The Handmaid’s Tale", "Silo", "Years and Years"],
+      "question": "Quelle série dystopique Hulu adapte un roman publié en 1985 qui imagine une théocratie totalitaire contrôlant les femmes ?",
+      "answers": [
+        "Black Mirror",
+        "The Handmaid's Tale",
+        "Foundation",
+        "Years and Years"
+      ],
       "correctIndex": 1,
-      "explanation": "The Handmaid’s Tale adapte un roman devenu emblématique pour sa critique des régimes autoritaires et du contrôle exercé sur les libertés individuelles."
+      "explanation": "The Handmaid's Tale (Hulu, depuis 2017) adapte le roman de Margaret Atwood publié en 1985. La série a remporté 8 Emmy Awards dès sa première saison, dont ceux de meilleure série dramatique et meilleure actrice pour Elisabeth Moss."
     },
     {
       "id": "3",
-      "question": "Quelle série suit le sorceleur Geralt de Riv dans un univers inspiré des romans d’Andrzej Sapkowski ?",
-      "answers": ["The Witcher", "Shadow and Bone", "Carnival Row", "Merlin"],
+      "question": "Quelle série Netflix suit un chasseur de monstres aux yeux d'argent, adapté d'une saga de romans polonais publiée dans les années 1990 ?",
+      "answers": [
+        "The Witcher",
+        "Foundation",
+        "Carnival Row",
+        "Wheel of Time"
+      ],
       "correctIndex": 0,
-      "explanation": "The Witcher est avant tout adaptée des romans polonais d’Andrzej Sapkowski, même si beaucoup de spectateurs connaissent surtout l’univers grâce aux jeux vidéo."
+      "explanation": "The Witcher (Netflix, depuis 2019) adapte les romans d'Andrzej Sapkowski publiés à partir de 1993 en Pologne. La série met en scène Geralt de Riv — personnage issu des romans et recueils de Sapkowski — popularisé par une série de jeux vidéo CD Projekt, et a attiré plus de 76 millions de foyers lors de ses premières semaines sur la plateforme."
     },
     {
       "id": "4",
-      "question": "Quelle série romantique de Netflix est adaptée des romans de Julia Quinn ?",
-      "answers": ["Outlander", "Normal People", "Downton Abbey", "Bridgerton"],
+      "question": "Quelle série Netflix à costumes adapte une collection de romans de Julia Quinn se déroulant dans l'aristocratie anglaise du XIXe siècle ?",
+      "answers": [
+        "Downton Abbey",
+        "Foundation",
+        "Poldark",
+        "Bridgerton"
+      ],
       "correctIndex": 3,
-      "explanation": "Bridgerton adapte une série de romans historiques centrés chacun sur un membre différent de la famille Bridgerton dans l’Angleterre du XIXe siècle."
+      "explanation": "Bridgerton (Netflix, depuis 2020) adapte une série de 8 romans de Julia Quinn, chacun centré sur un membre différent de la famille Bridgerton dans la Régence anglaise du début du XIXe siècle. La saison 1 a été vue par plus de 80 millions de foyers en 28 jours sur Netflix."
     },
     {
       "id": "5",
-      "question": "Quelle série suit Claire Fraser voyageant mystérieusement entre le XXe siècle et l’Écosse du XVIIIe siècle ?",
-      "answers": ["Poldark", "Outlander", "The Crown", "Victoria"],
+      "question": "Quelle série Starz adapte les romans de Diana Gabaldon en suivant une infirmière de 1945 projetée dans l'Écosse jacobite de 1743 ?",
+      "answers": [
+        "Poldark",
+        "Outlander",
+        "The Crown",
+        "Victoria"
+      ],
       "correctIndex": 1,
-      "explanation": "Outlander mélange romance, histoire et fantastique en adaptant les romans très populaires de Diana Gabaldon."
+      "explanation": "Outlander (Starz, depuis 2014) adapte la saga de Diana Gabaldon, dont le premier roman a été publié en 1991. La série mélange romance, histoire et éléments fantastiques, et a donné naissance à un spin-off, Outlander: Blood of My Blood."
     },
     {
       "id": "6",
-      "question": "Quelle série Netflix adapte les romans Grisha de Leigh Bardugo ?",
-      "answers": ["Locke & Key", "The Sandman", "Shadow and Bone", "His Dark Materials"],
+      "question": "Quelle série Netflix adapte le Grishaverse de Leigh Bardugo en combinant deux de ses trilogies dans un univers fantasy d'inspiration russe ?",
+      "answers": [
+        "Sweet Tooth",
+        "Foundation",
+        "Shadow and Bone",
+        "Fleabag"
+      ],
       "correctIndex": 2,
-      "explanation": "Shadow and Bone combine plusieurs romans du Grishaverse pour créer un univers fantasy centré sur la magie, les conflits politiques et les guerres entre royaumes."
+      "explanation": "Shadow and Bone (Netflix, 2021-2023, 2 saisons) combine les univers de Shadow and Bone et de Six of Crows — deux séries de romans de Leigh Bardugo — dans un monde fantasy d'inspiration russe. La série a été annulée après deux saisons malgré une audience fidèle."
     },
     {
       "id": "7",
-      "question": "Quelle série britannique moderne adapte les enquêtes de Sherlock Holmes créées par Arthur Conan Doyle ?",
-      "answers": ["Sherlock", "Luther", "Broadchurch", "Doctor Who"],
+      "question": "Quelle série BBC adapte en version contemporaine les aventures du célèbre détective de Baker Street créé par Arthur Conan Doyle ?",
+      "answers": [
+        "Sherlock",
+        "Luther",
+        "Broadchurch",
+        "Doctor Who"
+      ],
       "correctIndex": 0,
-      "explanation": "Sherlock transpose les enquêtes classiques de Conan Doyle dans le Londres contemporain, avec smartphones, internet et nouvelles méthodes d’investigation."
+      "explanation": "Sherlock (BBC One, 2010-2017, 4 saisons) transpose les enquêtes de Conan Doyle dans le Londres du XXIe siècle. Créée par Steven Moffat et Mark Gatiss, la série a popularisé Benedict Cumberbatch et Martin Freeman à l'international, remportant 9 Emmy Awards."
     },
     {
       "id": "8",
-      "question": "Quelle série fantastique adapte les romans His Dark Materials de Philip Pullman ?",
-      "answers": ["The Witcher", "The Wheel of Time", "Good Omens", "His Dark Materials"],
+      "question": "Quelle série BBC/HBO adapte la trilogie fantasy de Philip Pullman publiée entre 1995 et 2000, autour d'une jeune fille et de son dæmon ?",
+      "answers": [
+        "Good Omens",
+        "Foundation",
+        "Carnival Row",
+        "His Dark Materials"
+      ],
       "correctIndex": 3,
-      "explanation": "His Dark Materials explore des thèmes complexes comme la religion, le libre arbitre et les mondes parallèles à travers une grande aventure fantastique."
+      "explanation": "His Dark Materials (BBC/HBO, 2019-2022, 3 saisons) adapte la trilogie de Philip Pullman — À la croisée des mondes (1995), La Tour des Anges (1997) et Le Miroir d'Ambre (2000). La série explore des thèmes comme la religion, le libre arbitre et les mondes parallèles avec un budget considérable."
     },
     {
       "id": "9",
-      "question": "Quelle série adapte les bandes dessinées de Neil Gaiman sur le maître des rêves ?",
-      "answers": ["The Sandman", "Lucifer", "American Gods", "Good Omens"],
+      "question": "Quelle série Netflix adapte la bande dessinée de Neil Gaiman sur l'entité immortelle qui gouverne le royaume des rêves ?",
+      "answers": [
+        "The Sandman",
+        "Lucifer",
+        "American Gods",
+        "Good Omens"
+      ],
       "correctIndex": 0,
-      "explanation": "The Sandman adapte une œuvre très réputée pour sa richesse visuelle et symbolique, mêlant mythologie, fantastique et horreur."
+      "explanation": "The Sandman (Netflix, depuis 2022) adapte la série de comics de Neil Gaiman publiée chez DC/Vertigo entre 1989 et 1996. Longtemps considérée inadaptable, la série a finalement été produite avec la participation de Gaiman lui-même et a été très bien accueillie par les fans de l'œuvre originale."
     },
     {
       "id": "10",
-      "question": "Quelle série adapte le roman Big Little Lies de Liane Moriarty ?",
-      "answers": ["Sharp Objects", "Mare of Easttown", "Little Fires Everywhere", "Big Little Lies"],
+      "question": "Quelle mini-série HBO adapte un thriller de Liane Moriarty mettant en scène trois femmes de Monterey liées par un meurtre ?",
+      "answers": [
+        "Sharp Objects",
+        "Mare of Easttown",
+        "Little Fires Everywhere",
+        "Big Little Lies"
+      ],
       "correctIndex": 3,
-      "explanation": "Big Little Lies transforme un thriller psychologique en série centrée sur les secrets, les violences conjugales et les apparences sociales."
+      "explanation": "Big Little Lies (HBO, 2017-2019, 2 saisons) adapte le roman de l'Australienne Liane Moriarty publié en 2014. La saison 1 a remporté 8 Emmy Awards, dont meilleure mini-série, meilleure actrice principale pour Nicole Kidman et meilleure actrice secondaire pour Laura Dern."
     },
     {
       "id": "11",
-      "question": "Quelle série post-apocalyptique adapte les romans Wool de Hugh Howey ?",
-      "answers": ["Silo", "Snowpiercer", "The Last of Us", "Station Eleven"],
+      "question": "Quelle série Apple TV+ adapte les romans Wool et Shift de Hugh Howey, dans lesquels des survivants vivent confinés dans un silo souterrain ?",
+      "answers": [
+        "Silo",
+        "Snowpiercer",
+        "The Last of Us",
+        "Station Eleven"
+      ],
       "correctIndex": 0,
-      "explanation": "Silo imagine une société vivant sous terre sans connaître la vérité sur le monde extérieur, avec une intrigue centrée sur le contrôle de l’information."
+      "explanation": "Silo (Apple TV+, depuis 2023) adapte les romans Wool (2012) et Shift (2013) de Hugh Howey, dans lesquels des milliers de personnes vivent en huis clos sans connaître la vérité sur le monde extérieur. La série a connu un fort succès d'audience dès ses premières saisons sur la plateforme."
     },
     {
       "id": "12",
-      "question": "Quelle série adapte les romans policiers de Michael Connelly centrés sur Harry Bosch ?",
-      "answers": ["Mindhunter", "Bosch", "True Detective", "Luther"],
+      "question": "Quelle série Amazon Prime adapte fidèlement les romans policiers de Michael Connelly autour d'un détective vétéran du LAPD ?",
+      "answers": [
+        "Mindhunter",
+        "Bosch",
+        "True Detective",
+        "The Wire"
+      ],
       "correctIndex": 1,
-      "explanation": "Bosch est appréciée pour son ton réaliste et son respect des romans originaux, avec un détective expérimenté loin des héros policiers excentriques habituels."
+      "explanation": "Bosch (Amazon Prime Video, 2014-2021, 7 saisons) adapte les romans de Michael Connelly mettant en scène Harry Bosch, détective du LAPD. Saluée pour son réalisme et son respect des livres originaux, elle a engendré un spin-off, Bosch: Legacy, disponible sur Freevee depuis 2022."
     },
     {
       "id": "13",
-      "question": "Quelle série fantastique adapte les romans de Robert Jordan commencés dans les années 1990 ?",
-      "answers": ["Merlin", "Carnival Row", "The Wheel of Time", "Shadow and Bone"],
+      "question": "Quelle série Amazon Prime adapte une immense saga de fantasy de Robert Jordan composée de 14 romans publiés entre 1990 et 2013 ?",
+      "answers": [
+        "Merlin",
+        "Carnival Row",
+        "The Wheel of Time",
+        "Foundation"
+      ],
       "correctIndex": 2,
-      "explanation": "The Wheel of Time adapte une immense saga de fantasy connue pour son univers complexe, ses prophéties et ses très nombreux personnages."
+      "explanation": "The Wheel of Time (Amazon Prime Video, depuis 2021) adapte la saga homonyme de Robert Jordan, dont les 14 tomes — le dernier ayant été achevé par Brandon Sanderson après la mort de Jordan en 2007 — forment l'une des œuvres de fantasy les plus longues jamais publiées."
     },
- {
-  "id": "14",
-  "question": "Quelle série adapte les romans policiers de Robert Galbraith mettant en scène le détective Cormoran Strike ?",
-  "answers": ["Broadchurch", "Strike", "Sherlock", "Luther"],
-  "correctIndex": 1,
-  "explanation": "Strike adapte les romans écrits par J.K. Rowling sous le pseudonyme Robert Galbraith. La série suit un détective privé vétéran de guerre enquêtant sur des affaires complexes à Londres."
-},
+    {
+      "id": "14",
+      "question": "Quelle série BBC adapte les romans policiers signés du pseudonyme Robert Galbraith, suivant un détective privé vétéran d'Afghanistan ?",
+      "answers": [
+        "Broadchurch",
+        "Strike",
+        "Inspector George Gently",
+        "Luther"
+      ],
+      "correctIndex": 1,
+      "explanation": "Strike (BBC One, depuis 2017) adapte les romans de J. K. Rowling publiés sous le pseudonyme Robert Galbraith depuis 2013. La série suit Cormoran Strike, détective privé amputé d'une jambe après un attentat en Afghanistan, et sa partenaire Robin Ellacott dans des enquêtes criminelles complexes à Londres."
+    },
     {
       "id": "15",
-      "question": "Quelle série romantique dramatique adapte le roman de Sally Rooney sur Marianne et Connell ?",
-      "answers": ["Heartstopper", "Conversations with Friends", "Normal People", "One Day"],
+      "question": "Quelle série Hulu/BBC adapte le roman de Sally Rooney (2018) sur une relation amoureuse complexe entre deux étudiants irlandais de milieux différents ?",
+      "answers": [
+        "Heartstopper",
+        "Conversations with Friends",
+        "Normal People",
+        "One Day"
+      ],
       "correctIndex": 2,
-      "explanation": "Normal People a été saluée pour son réalisme émotionnel et sa manière très intime de montrer les relations amoureuses et les difficultés sociales."
+      "explanation": "Normal People (Hulu/BBC Three, 2020, 12 épisodes) adapte le roman de Sally Rooney publié en 2018. La série a été saluée pour son réalisme émotionnel et sa mise en scène intime, et a révélé les acteurs Paul Mescal et Daisy Edgar-Jones à un public international."
     },
     {
       "id": "16",
-      "question": "Quelle série adapte les romans graphiques Locke & Key de Joe Hill ?",
-      "answers": ["Wednesday", "The Sandman", "Sweet Tooth", "Locke & Key"],
+      "question": "Quelle série Netflix adapte les romans graphiques de Joe Hill — fils de Stephen King — autour de clés magiques dans une demeure ancestrale ?",
+      "answers": [
+        "Wednesday",
+        "Sweet Tooth",
+        "Haunting of Hill House",
+        "Locke & Key"
+      ],
       "correctIndex": 3,
-      "explanation": "Locke & Key mélange fantastique, horreur et drame familial autour de clés magiques capables d’ouvrir des portes aux pouvoirs surnaturels."
+      "explanation": "Locke & Key (Netflix, 2020-2022, 3 saisons) adapte la série de comics de Joe Hill et Gabriel Rodríguez publiée depuis 2008 chez IDW Publishing. La série mélange fantastique, horreur et drame familial autour de clés aux pouvoirs surnaturels cachées dans une demeure du Massachusetts."
     },
     {
       "id": "17",
-      "question": "Quelle série adapte les romans de Lee Child centrés sur Jack Reacher ?",
-      "answers": ["Reacher", "Bosch", "Jack Ryan", "The Night Agent"],
+      "question": "Quelle série Amazon Prime adapte les romans de Lee Child mettant en scène un ancien policier militaire américain solitaire et redoutable ?",
+      "answers": [
+        "Reacher",
+        "Foundation",
+        "The Night Agent",
+        "Fleabag"
+      ],
       "correctIndex": 0,
-      "explanation": "Reacher reprend le personnage du géant solitaire imaginé par Lee Child, avec un style beaucoup plus fidèle aux romans que les films précédents."
+      "explanation": "Reacher (Amazon Prime Video, depuis 2022) adapte les romans de Lee Child publiés depuis 1997 autour de Jack Reacher. La série reprend plus fidèlement la description de Jack Reacher et adapte directement plusieurs romans de Lee Child, tout en se distinguant des précédentes adaptations cinématographiques. Elle a été immédiatement renouvelée dès sa première saison grâce à un succès d'audience massif."
     },
- {
-  "id": "18",
-  "question": "Quelle série adapte les romans de Tom Clancy centrés sur l’analyste de la CIA Jack Ryan ?",
-  "answers": ["Bosch", "Reacher", "Jack Ryan", "The Night Agent"],
-  "correctIndex": 2,
-  "explanation": "Jack Ryan modernise le célèbre personnage créé par Tom Clancy en le confrontant à des crises géopolitiques contemporaines et au terrorisme international."
-},
-  {
-  "id": "19",
-  "question": "Quelle série Netflix adapte les romans d’Ann M. Martin sur un groupe d’adolescentes lançant un service de baby-sitting ?",
-  "answers": ["Ginny & Georgia", "Never Have I Ever", "The Baby-Sitters Club", "Heartstopper"],
-  "correctIndex": 2,
-  "explanation": "The Baby-Sitters Club modernise une série de romans très populaires des années 1980 tout en conservant les thèmes d’amitié, d’adolescence et d’indépendance des livres originaux."
-},
- {
-  "id": "20",
-  "question": "Quelle série historique adapte le célèbre roman médiéval d’Umberto Eco autour d’une série de meurtres dans une abbaye ?",
-  "answers": ["The Pillars of the Earth", "The Name of the Rose", "Versailles", "Medici"],
-  "correctIndex": 1,
-  "explanation": "The Name of the Rose mélange enquête policière, débats philosophiques et tensions religieuses dans une abbaye médiévale isolée au XIVe siècle."
-}
+    {
+      "id": "18",
+      "question": "Quelle série Amazon Prime adapte les romans de Tom Clancy en suivant un analyste de la CIA projeté sur le terrain pour déjouer des menaces géopolitiques ?",
+      "answers": [
+        "Foundation",
+        "The Night Agent",
+        "Condor",
+        "Tom Clancy's Jack Ryan"
+      ],
+      "correctIndex": 3,
+      "explanation": "Tom Clancy's Jack Ryan (Amazon Prime Video, 2018-2023, 4 saisons) modernise le célèbre personnage créé par Tom Clancy dans ses romans publiés depuis 1984. La série confronte Jack Ryan à des crises géopolitiques contemporaines, mêlant espionnage, terrorisme international et thriller d'action."
+    },
+    {
+      "id": "19",
+      "question": "Quelle série Netflix modernise une longue collection de romans d'Ann M. Martin publiée depuis 1986 sur un club fondé par des adolescentes américaines ?",
+      "answers": [
+        "Ginny & Georgia",
+        "Never Have I Ever",
+        "The Baby-Sitters Club",
+        "Heartstopper"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Baby-Sitters Club (Netflix, 2020-2021, 2 saisons) adapte la série de romans d'Ann M. Martin, dont le premier tome est paru en 1986. Modernisée avec des smartphones et des enjeux contemporains, la série conserve les thèmes d'amitié, d'adolescence et d'indépendance des livres originaux."
+    },
+    {
+      "id": "20",
+      "question": "Quelle mini-série adapte le roman policier philosophique d'Umberto Eco (1980), dans lequel un moine franciscain enquête sur des meurtres dans une abbaye médiévale ?",
+      "answers": [
+        "The Pillars of the Earth",
+        "Cadfael",
+        "The Name of the Rose",
+        "Knightfall"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Name of the Rose (Rai/Palomar, 2019, 8 épisodes) adapte le roman d'Umberto Eco publié en 1980 et traduit dans plus de 40 langues. Précédée par l'adaptation cinématographique de Jean-Jacques Annaud en 1986 avec Sean Connery, la série propose une version plus développée du roman original."
+    }
   ]
 }

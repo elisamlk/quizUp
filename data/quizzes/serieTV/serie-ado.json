@@ -13,148 +13,248 @@
   "images": {
     "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1778497024/serie-ado_xjvgdc.jpg",
     "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1778497024/serie-ado_xjvgdc.jpg",
-    "alt": "Quiz séries ados"
+    "alt": "Illustration du quiz sur les teen dramas et séries adolescentes cultes"
   },
   "questions": [
     {
       "id": "1",
-      "question": "Quelle série suit un groupe d’adolescents dans la petite ville mystérieuse de Riverdale ?",
-      "answers": ["Elite", "Riverdale", "Pretty Little Liars", "Outer Banks"],
+      "question": "Quelle série suit un groupe d'adolescents dans la petite ville mystérieuse de Riverdale ?",
+      "answers": [
+        "Elite",
+        "Riverdale",
+        "Pretty Little Liars",
+        "Outer Banks"
+      ],
       "correctIndex": 1,
-      "explanation": "Riverdale adapte les personnages des comics Archie dans une version beaucoup plus sombre et mystérieuse. La série mélange drame adolescent, enquêtes criminelles et ambiance inspirée des thrillers."
+      "explanation": "Riverdale (CW, depuis 2017) adapte les personnages des comics Archie Comics dans une version noire et policière. La série a réuni jusqu'à 3 millions de téléspectateurs en direct aux États-Unis et a été renouvelée 7 saisons."
     },
     {
       "id": "2",
-      "question": "Quelle série suit Serena van der Woodsen et Blair Waldorf dans l’Upper East Side ?",
-      "answers": ["Gossip Girl", "90210", "One Tree Hill", "Elite"],
-      "correctIndex": 0,
-      "explanation": "Gossip Girl a profondément marqué la pop culture des années 2000 avec son univers luxueux, ses intrigues sentimentales et ses personnages devenus emblématiques de la mode adolescente."
+      "question": "Quelle série suit Serena van der Woodsen et Blair Waldorf dans l'Upper East Side ?",
+      "answers": [
+        "90210",
+        "One Tree Hill",
+        "Gossip Girl",
+        "Elite"
+      ],
+      "correctIndex": 2,
+      "explanation": "Gossip Girl (CW, 2007-2012, 6 saisons) a profondément marqué la pop culture des années 2000. La narratrice mystérieuse s'est révélée être Dan Humphrey dans le final, l'un des coups de théâtre les plus discutés de la décennie."
     },
     {
       "id": "3",
       "question": "Quelle série espagnole Netflix se déroule dans le lycée Las Encinas ?",
-      "answers": ["Control Z", "Elite", "Baby", "Skam"],
-      "correctIndex": 1,
-      "explanation": "Elite mélange drame adolescent, tensions sociales et thriller policier. La série est devenue un énorme succès international grâce à son rythme intense et ses nombreux rebondissements."
+      "answers": [
+        "Control Z",
+        "Baby",
+        "Elite",
+        "Skam"
+      ],
+      "correctIndex": 2,
+      "explanation": "Elite (Netflix, depuis 2018) mélange thriller policier et drame social autour d'élèves de classes opposées. Chaque saison démarre par un crime dont le coupable est révélé progressivement, en faisant l'une des séries espagnoles les plus exportées."
     },
     {
       "id": "4",
       "question": "Quelle série met en scène un groupe de lycéennes harcelées par un mystérieux personnage nommé A ?",
-      "answers": ["Pretty Little Liars", "Riverdale", "Gossip Girl", "The OC"],
-      "correctIndex": 0,
-      "explanation": "Pretty Little Liars a captivé les fans pendant plusieurs années avec ses mystères complexes, ses fausses pistes et les nombreuses théories autour de l’identité de A."
+      "answers": [
+        "Riverdale",
+        "Gossip Girl",
+        "The OC",
+        "Pretty Little Liars"
+      ],
+      "correctIndex": 3,
+      "explanation": "Pretty Little Liars (ABC Family, 2010-2017, 7 saisons, 160 épisodes) a captivé les fans pendant 7 ans avec ses fausses pistes. L'identité de A a généré des milliers de théories sur les réseaux sociaux avant la révélation finale en 2017."
     },
     {
       "id": "5",
-      "question": "Quelle série suit Clay Jensen après le suicide d’Hannah Baker ?",
-      "answers": ["Euphoria", "13 Reasons Why", "Skins", "Outer Banks"],
+      "question": "Quelle série suit Dawson Leery et ses amis dans la ville côtière de Capeside ?",
+      "answers": [
+        "The OC",
+        "Dawson's Creek",
+        "One Tree Hill",
+        "90210"
+      ],
       "correctIndex": 1,
-      "explanation": "13 Reasons Why a provoqué d’importants débats sur la représentation du harcèlement scolaire, de la santé mentale et du suicide dans les séries destinées aux adolescents."
+      "explanation": "Dawson's Creek (WB, 1998-2003, 6 saisons) a lancé les carrières de Katie Holmes, Joshua Jackson et Michelle Williams. Créée par Kevin Williamson (Scream), elle a redéfini le teen drama américain à la fin des années 1990."
     },
     {
       "id": "6",
-      "question": "Quelle série britannique est connue pour son traitement très cru de l’adolescence ?",
-      "answers": ["Skins", "Misfits", "Sex Education", "Elite"],
-      "correctIndex": 0,
-      "explanation": "Skins a marqué une génération grâce à sa représentation beaucoup plus réaliste des fêtes, des addictions et des difficultés émotionnelles des adolescents britanniques."
+      "question": "Quelle série suit une équipe de football lycéen au Texas menée par l'entraîneur Eric Taylor ?",
+      "answers": [
+        "All American",
+        "Varsity Blues",
+        "One Tree Hill",
+        "Friday Night Lights"
+      ],
+      "correctIndex": 3,
+      "explanation": "Friday Night Lights (NBC/DirecTV, 2006-2011, 5 saisons) est adaptée du livre et film éponymes. Malgré des audiences modestes en direct, elle est aujourd'hui considérée comme l'une des meilleures séries dramatiques américaines des années 2000."
     },
     {
       "id": "7",
       "question": "Quelle série Netflix suit Otis Milburn, adolescent donnant des conseils sexuels à ses camarades ?",
-      "answers": ["Heartstopper", "Sex Education", "Never Have I Ever", "Love, Victor"],
+      "answers": [
+        "Heartstopper",
+        "Sex Education",
+        "Never Have I Ever",
+        "Love, Victor"
+      ],
       "correctIndex": 1,
-      "explanation": "Sex Education mélange humour et éducation sexuelle tout en abordant des sujets rarement traités aussi ouvertement dans les séries adolescentes."
+      "explanation": "Sex Education (Netflix, 2019-2023, 4 saisons) a été vue dans plus de 40 millions de foyers dès sa première saison selon Netflix. Elle est saluée pour sa représentation inclusive de la sexualité, du genre et de l'identité adolescente."
     },
     {
       "id": "8",
-      "question": "Quelle série suit Rue Bennett et ses problèmes d’addiction ?",
-      "answers": ["Elite", "Skins", "13 Reasons Why", "Euphoria"],
+      "question": "Quelle série suit Rue Bennett et ses problèmes d'addiction ?",
+      "answers": [
+        "Elite",
+        "Skins",
+        "13 Reasons Why",
+        "Euphoria"
+      ],
       "correctIndex": 3,
-      "explanation": "Euphoria s’est distinguée par sa mise en scène très stylisée, son esthétique néon et son portrait beaucoup plus sombre et anxieux de l’adolescence moderne."
+      "explanation": "Euphoria (HBO, depuis 2019) avec Zendaya a remporté 2 Emmy Awards en 2022, dont celui de Meilleure Actrice. Sa mise en scène très stylisée et son esthétique néon en ont fait l'une des représentations les plus marquantes de l'adolescence contemporaine à la télévision."
     },
     {
       "id": "9",
       "question": "Quelle série romantique Netflix suit Charlie et Nick dans un lycée britannique ?",
-      "answers": ["Heartstopper", "Love, Victor", "Young Royals", "Skam"],
+      "answers": [
+        "Heartstopper",
+        "Love, Victor",
+        "Young Royals",
+        "Skam"
+      ],
       "correctIndex": 0,
-      "explanation": "Heartstopper est devenue extrêmement populaire grâce à son ton positif et rassurant, très différent des teen dramas plus sombres centrés sur les conflits et les drames."
+      "explanation": "Heartstopper (Netflix, depuis 2022) est adaptée de la BD d'Alice Oseman. Avec un score de 100 % sur Rotten Tomatoes pour sa saison 1, la série s'est imposée comme une référence positive dans la représentation LGBTQ+ chez les adolescents."
     },
     {
       "id": "10",
-      "question": "Quelle série suit un groupe d’adolescents riches vivant à Beverly Hills ?",
-      "answers": ["The OC", "One Tree Hill", "90210", "Elite"],
+      "question": "Quelle série suit Elena Gilbert entre deux frères vampires dans la ville de Mystic Falls ?",
+      "answers": [
+        "The Originals",
+        "Shadowhunters",
+        "The Vampire Diaries",
+        "Legacies"
+      ],
       "correctIndex": 2,
-      "explanation": "Beverly Hills 90210 a influencé énormément de séries adolescentes modernes avec ses histoires de lycée, ses romances et ses thèmes sociaux."
+      "explanation": "The Vampire Diaries (CW, 2009-2017, 8 saisons, 171 épisodes) est adaptée des romans de L.J. Smith. Elle a engendré deux spin-offs (The Originals, Legacies) et a contribué à lancer les carrières de Nina Dobrev et Ian Somerhalder."
     },
     {
       "id": "11",
-      "question": "Quelle série suit les aventures de Ryan Atwood dans le comté d’Orange en Californie ?",
-      "answers": ["The OC", "Gossip Girl", "90210", "Outer Banks"],
+      "question": "Quelle série suit les aventures de Ryan Atwood dans le comté d'Orange en Californie ?",
+      "answers": [
+        "The OC",
+        "Gossip Girl",
+        "90210",
+        "Outer Banks"
+      ],
       "correctIndex": 0,
-      "explanation": "The OC est devenue célèbre pour ses drames familiaux, sa bande-son culte et ses personnages comme Seth Cohen, très populaires dans les années 2000."
+      "explanation": "The OC (Fox, 2003-2007, 4 saisons) a lancé la carrière de Rachel Bilson et popularisé la chanson 'California' de Phantom Planet. La série a rassemblé jusqu'à 10 millions de téléspectateurs pour ses meilleurs épisodes."
     },
     {
       "id": "12",
-      "question": "Quelle série suit un groupe d’adolescents à la recherche d’un trésor en Caroline du Nord ?",
-      "answers": ["Riverdale", "Outer Banks", "Elite", "On My Block"],
+      "question": "Quelle série suit un groupe d'adolescents à la recherche d'un trésor en Caroline du Nord ?",
+      "answers": [
+        "Riverdale",
+        "Outer Banks",
+        "Elite",
+        "On My Block"
+      ],
       "correctIndex": 1,
-      "explanation": "Outer Banks mélange aventure, romance et chasse au trésor dans une ambiance estivale qui a fortement contribué à son succès sur Netflix."
+      "explanation": "Outer Banks (Netflix, depuis 2020) a été regardée par plus de 40 millions de foyers dans ses 28 premiers jours selon Netflix. Son succès a relancé l'intérêt pour les séries d'aventure estivale destinées aux adolescents."
     },
     {
       "id": "13",
-      "question": "Quelle série suit Devi Vishwakumar, adolescente américaine d’origine indienne ?",
-      "answers": ["Never Have I Ever", "Ginny & Georgia", "Sex Education", "Heartbreak High"],
+      "question": "Quelle série suit Devi Vishwakumar, adolescente américaine d'origine indienne ?",
+      "answers": [
+        "Never Have I Ever",
+        "Ginny & Georgia",
+        "Sex Education",
+        "Heartbreak High"
+      ],
       "correctIndex": 0,
-      "explanation": "Never Have I Ever explore avec humour la pression scolaire, le deuil, les relations familiales et les différences culturelles."
+      "explanation": "Never Have I Ever (Netflix, 2020-2023, 4 saisons) a été créée par Mindy Kaling et Lang Fisher. Elle est saluée pour sa représentation de la diaspora indienne aux États-Unis et a été visionnée dans plus de 40 millions de foyers dès sa saison 1."
     },
     {
       "id": "14",
       "question": "Quelle série suédoise suit le prince Wilhelm dans un pensionnat prestigieux ?",
-      "answers": ["Skam", "Young Royals", "Elite", "Heartstopper"],
-      "correctIndex": 1,
-      "explanation": "Young Royals mêle romance adolescente et contraintes liées à la monarchie, ce qui donne à la série une identité très différente des autres teen dramas."
+      "answers": [
+        "Skam",
+        "Elite",
+        "Heartstopper",
+        "Young Royals"
+      ],
+      "correctIndex": 3,
+      "explanation": "Young Royals (Netflix, 2021-2024, 3 saisons) est l'une des séries suédoises les plus populaires de Netflix. Elle mêle romance adolescente LGBTQ+ et contraintes liées à la monarchie scandinave."
     },
     {
       "id": "15",
       "question": "Quelle série suit Lucas Scott et Nathan Scott dans une petite ville de Caroline du Nord ?",
-      "answers": ["The OC", "Dawson", "One Tree Hill", "Friday Night Lights"],
+      "answers": [
+        "The OC",
+        "Dawson's Creek",
+        "One Tree Hill",
+        "Friday Night Lights"
+      ],
       "correctIndex": 2,
-      "explanation": "One Tree Hill est devenue culte grâce à ses relations amoureuses, son univers autour du basket et ses nombreuses musiques marquantes."
+      "explanation": "One Tree Hill (CW, 2003-2012, 9 saisons, 187 épisodes) est l'une des séries ados les plus longues de son époque. Elle est connue pour sa bande-son soignée et son épisode 4×09, considéré parmi les plus marquants du genre."
     },
     {
       "id": "16",
       "question": "Quelle série française suit des lycéens après une explosion dans leur établissement ?",
-      "answers": ["Mortel", "Les Bracelets rouges", "Skam France", "Les 7 vies de Léa"],
+      "answers": [
+        "Mortel",
+        "Les Bracelets rouges",
+        "Skam France",
+        "Les 7 vies de Léa"
+      ],
       "correctIndex": 0,
-      "explanation": "Mortel mélange drame adolescent, fantastique et mythologie vaudou, offrant une ambiance beaucoup plus sombre que les séries lycéennes classiques."
+      "explanation": "Mortel (OCS, 2019-2020, 2 saisons) mélange drame adolescent, fantastique et mythologie vaudou. Produite par Gaumont, elle reste l'une des rares séries françaises ados à intégrer du surnaturel dans un cadre lycéen contemporain."
     },
-  {
-  "id": "17",
-  "question": "Quelle série suit un groupe d’adolescents dans une ville où les disparitions et phénomènes étranges se multiplient ?",
-  "answers": ["Teen Wolf", "Locke & Key", "Stranger Things", "Shadowhunters"],
-  "correctIndex": 2,
-  "explanation": "Stranger Things est devenue l’une des séries adolescentes les plus populaires de Netflix grâce à son mélange de science-fiction, d’horreur et de nostalgie des années 80."
-},
+    {
+      "id": "17",
+      "question": "Quelle série suit un groupe d'adolescents dans une ville où les disparitions et phénomènes étranges se multiplient ?",
+      "answers": [
+        "Teen Wolf",
+        "Locke & Key",
+        "Stranger Things",
+        "Shadowhunters"
+      ],
+      "correctIndex": 2,
+      "explanation": "Stranger Things (Netflix, 2016-2025, 5 saisons) a remporté 7 Emmy Awards et battu des records d'audience sur Netflix. La saison 4 est devenue l'une des séries les plus regardées de l'histoire de la plateforme à sa sortie en 2022."
+    },
     {
       "id": "18",
-      "question": "Quelle série suit un groupe d’adolescents obligés de survivre sans adultes dans leur ville ?",
-      "answers": ["The Society", "Outer Banks", "Under the Dome", "Jericho"],
+      "question": "Quelle série suit un groupe d'adolescents obligés de survivre sans adultes dans leur ville ?",
+      "answers": [
+        "The Society",
+        "The 100",
+        "Between",
+        "Daybreak"
+      ],
       "correctIndex": 0,
-      "explanation": "The Society reprend une idée proche de Sa Majesté des mouches avec des adolescents forcés de construire leur propre société sans règles ni adultes."
+      "explanation": "The Society (Netflix, 2019, 1 saison) s'inspire de Sa Majesté des mouches avec des lycéens contraints de bâtir leur propre société. Netflix a annulé la saison 2 malgré son renouvellement officiel, en raison de la pandémie de Covid-19 en 2020."
     },
     {
       "id": "19",
       "question": "Quelle série suit des adolescents développant des pouvoirs surnaturels après un orage ?",
-      "answers": ["Heroes", "Misfits", "The Umbrella Academy", "Smallville"],
+      "answers": [
+        "The Umbrella Academy",
+        "Misfits",
+        "Fate: The Winx Saga",
+        "Smallville"
+      ],
       "correctIndex": 1,
-      "explanation": "Misfits mélange super-pouvoirs, humour noir britannique et personnages marginaux, ce qui lui a donné une identité très originale parmi les séries fantastiques."
+      "explanation": "Misfits (Channel 4, 2009-2013, 5 saisons) est une production britannique indépendante qui a lancé la carrière de Robert Sheehan. Elle mélange super-pouvoirs et humour noir dans une cité HLM de banlieue londonienne."
     },
-{
-  "id": "20",
-  "question": "Quelle série suit une adolescente mi-sorcière partagée entre le monde humain et les forces occultes ?",
-  "answers": ["Shadowhunters", "Mortel", "Teen Wolf", "Les Nouvelles Aventures de Sabrina"],
-  "correctIndex": 3,
-  "explanation": "Les Nouvelles Aventures de Sabrina reprend le personnage culte de Sabrina dans une version beaucoup plus sombre, inspirée des films d’horreur et de l’occultisme."
-}
+    {
+      "id": "20",
+      "question": "Quelle série suit une adolescente mi-sorcière partagée entre le monde humain et les forces occultes ?",
+      "answers": [
+        "Shadowhunters",
+        "Mortel",
+        "Teen Wolf",
+        "Les Nouvelles Aventures de Sabrina"
+      ],
+      "correctIndex": 3,
+      "explanation": "Les Nouvelles Aventures de Sabrina (Netflix, 2018-2020, 4 parties) est une adaptation des comics Archie Horror. Elle reprend le personnage culte dans une version sombre inspirée du satanisme et des films d'horreur des années 70."
+    }
   ]
 }

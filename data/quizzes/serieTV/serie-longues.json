@@ -2,7 +2,7 @@
   "slug": "quiz-series-les-plus-longues",
   "title": "Quiz Série TV - Les séries les plus longues",
   "description": "Des sitcoms cultes aux séries policières interminables, ce quiz teste tes connaissances sur les séries TV qui ont duré le plus longtemps.",
-  "descriptionSeo": "Ce quiz sur les séries les plus longues te plonge dans l’univers des programmes télévisés qui ont marqué plusieurs générations. Des Simpson à Grey’s Anatomy, en passant par NCIS, Gunsmoke, Doctor Who ou encore General Hospital, découvre si tu connais vraiment les séries qui ont battu des records de longévité. Avec 20 questions sur les séries cultes, les feuilletons, les dramas médicaux et les franchises policières, ce quiz est parfait pour les fans de télévision et de pop culture.",
+  "descriptionSeo": "Ce quiz sur les séries les plus longues te plonge dans l'univers des programmes télévisés qui ont marqué plusieurs générations. Des Simpson à Grey's Anatomy, en passant par NCIS, Gunsmoke, Doctor Who ou encore General Hospital, découvre si tu connais vraiment les séries qui ont battu des records de longévité. Avec 20 questions sur les séries cultes, les feuilletons, les dramas médicaux et les franchises policières, ce quiz est parfait pour les fans de télévision et de pop culture.",
   "category": {
     "name": "Série TV",
     "slug": "serie-tv"
@@ -18,143 +18,243 @@
   "questions": [
     {
       "id": "1",
-      "question": "Quelle série animée américaine est célèbre pour être l’une des plus longues séries scénarisées de prime time ?",
-      "answers": ["South Park", "Les Simpson", "Futurama", "Bob’s Burgers"],
+      "question": "Quelle série animée Fox, diffusée depuis 1989, est devenue la plus longue sitcom animée de prime time de l'histoire ?",
+      "answers": [
+        "Vera",
+        "Les Simpson",
+        "Futurama",
+        "Inspector Morse"
+      ],
       "correctIndex": 1,
-      "explanation": "Diffusée depuis 1989, Les Simpson est devenue la série animée de prime time la plus célèbre de l’histoire. Elle a influencé des générations de sitcoms animées et détient un nombre impressionnant d’épisodes."
+      "explanation": "Les Simpson (Fox, depuis 1989) dépasse les 35 saisons et plus de 750 épisodes, en faisant la sitcom animée de prime time la plus longue de l'histoire de la télévision américaine. Elle a remporté 35 Emmy Awards et ses personnages — Homer, Bart, Lisa, Marge — sont devenus des icônes mondiales."
     },
     {
       "id": "2",
-      "question": "Quelle série médicale suit notamment Meredith Grey ?",
-      "answers": ["Urgences", "Dr House", "Grey’s Anatomy", "Private Practice"],
+      "question": "Quelle série médicale ABC créée en 2005 tient encore l'antenne plus de 20 saisons après ses débuts ?",
+      "answers": [
+        "Vera",
+        "Dr House",
+        "Grey's Anatomy",
+        "Private Practice"
+      ],
       "correctIndex": 2,
-      "explanation": "Grey’s Anatomy a débuté en 2005 et est devenue l’un des plus grands succès de la télévision américaine. La série a survécu à de nombreux départs d’acteurs tout en restant populaire pendant des décennies."
+      "explanation": "Grey's Anatomy (ABC, depuis 2005) est l'une des séries médicales les plus longues de la télévision américaine. Créée par Shonda Rhimes, elle a survécu à de nombreux départs d'acteurs — dont Patrick Dempsey en saison 11 — tout en restant populaire sur la durée."
     },
     {
       "id": "3",
-      "question": "Quelle série suit principalement les enquêtes d’une unité spéciale contre les crimes sexuels ?",
-      "answers": ["Law & Order: Special Victims Unit", "NCIS", "Esprits criminels", "CSI: Miami"],
+      "question": "Quelle série policière NBC, spin-off de Law & Order lancé en 1999, est devenue la plus longue série de prime time de l'histoire des États-Unis ?",
+      "answers": [
+        "Law & Order: Special Victims Unit",
+        "Vera",
+        "Bones",
+        "CSI: Miami"
+      ],
       "correctIndex": 0,
-      "explanation": "Law & Order: SVU est devenue l’une des séries policières les plus longues des États-Unis. Le personnage d’Olivia Benson, joué par Mariska Hargitay, est devenu emblématique de la télévision américaine."
+      "explanation": "Law & Order: SVU (NBC, depuis 1999) a dépassé les 25 saisons, devenant la série de prime time américaine la plus longue encore en production. Le personnage d'Olivia Benson, incarné par Mariska Hargitay, est l'un des personnages de fiction les plus durables de la télévision américaine."
     },
     {
       "id": "4",
-      "question": "Quelle série met en scène une équipe d’enquêteurs de la marine américaine ?",
-      "answers": ["Bones", "NCIS", "Castle", "The Mentalist"],
-      "correctIndex": 1,
-      "explanation": "NCIS est à l’origine un spin-off de la série JAG. Grâce à son immense succès, elle a ensuite créé sa propre franchise avec des séries comme NCIS: Los Angeles ou NCIS: Hawaii."
+      "question": "Quelle série CBS, spin-off de JAG lancé en 2003, a engendré plusieurs déclinaisons géographiques et dominé les classements d'audience pendant des années ?",
+      "answers": [
+        "Bones",
+        "Castle",
+        "The Mentalist",
+        "NCIS"
+      ],
+      "correctIndex": 3,
+      "explanation": "NCIS (CBS, depuis 2003) est à l'origine un spin-off de JAG. Grâce à son immense succès, elle a engendré une franchise mondiale incluant NCIS: Los Angeles (2009), NCIS: Hawai'i (2021) et NCIS: Sydney (2023), faisant d'elle l'une des franchises policières les plus étendues de la télévision."
     },
     {
       "id": "5",
-      "question": "Quelle série western américaine a longtemps été considérée comme l’une des plus longues séries de prime time ?",
-      "answers": ["Bonanza", "Deadwood", "La Petite Maison dans la prairie", "Gunsmoke"],
+      "question": "Quel western CBS diffusé entre 1955 et 1975 a longtemps détenu le record de la plus longue série dramatique américaine de prime time ?",
+      "answers": [
+        "Bonanza",
+        "Deadwood",
+        "La Petite Maison dans la prairie",
+        "Gunsmoke"
+      ],
       "correctIndex": 3,
-      "explanation": "Diffusée pendant 20 saisons entre 1955 et 1975, Gunsmoke a longtemps détenu le record de la plus longue série dramatique américaine de prime time."
+      "explanation": "Gunsmoke (CBS, 1955-1975) a été diffusée pendant 20 saisons et 635 épisodes. Elle a longtemps détenu le record de la plus longue série dramatique américaine de prime time, avant d'être dépassée par Law & Order: SVU en 2018. L'acteur James Arness y a joué le marshal Matt Dillon pendant toute la durée de la série."
     },
     {
       "id": "6",
-      "question": "Quelle série britannique de science-fiction met en scène un personnage capable de se régénérer ?",
-      "answers": ["Doctor Who", "Black Mirror", "Torchwood", "Red Dwarf"],
+      "question": "Quelle série BBC de science-fiction, dont le héros change de corps grâce à une « régénération », est diffusée depuis 1963 ?",
+      "answers": [
+        "Doctor Who",
+        "Black Mirror",
+        "Torchwood",
+        "Red Dwarf"
+      ],
       "correctIndex": 0,
-      "explanation": "Le concept de régénération dans Doctor Who permet au Docteur de changer d’apparence et de personnalité. Cette idée ingénieuse explique en grande partie pourquoi la série dure depuis les années 60."
+      "explanation": "Doctor Who (BBC, depuis 1963) est la série de science-fiction en prises de vues réelles la plus longue de l'histoire de la télévision. Le concept de régénération — qui permet au Docteur de changer d'acteur en changeant de corps — est l'astuce narrative qui explique la longévité exceptionnelle de la série, interrompue de 1989 à 2005."
     },
     {
       "id": "7",
-      "question": "Quel soap opera américain, diffusé depuis les années 60, est célèbre pour son immense nombre d’épisodes ?",
-      "answers": ["Dynastie", "Dallas", "General Hospital", "Melrose Place"],
+      "question": "Quel soap opera ABC diffusé quotidiennement depuis 1963 est l'un des feuilletons américains les plus longs encore en activité ?",
+      "answers": [
+        "Dynastie",
+        "Dallas",
+        "General Hospital",
+        "Melrose Place"
+      ],
       "correctIndex": 2,
-      "explanation": "General Hospital est diffusé quotidiennement depuis 1963. Avec plusieurs milliers d’épisodes, c’est l’un des feuilletons américains les plus longs encore en activité."
+      "explanation": "General Hospital (ABC, depuis 1963) totalise plusieurs milliers d'épisodes, ce qui en fait l'un des feuilletons américains les plus anciens encore en production. Il a remporté de nombreux Daytime Emmy Awards et a lancé la carrière de plusieurs stars, dont Demi Moore et Jack Wagner."
     },
     {
       "id": "8",
-      "question": "Quelle série britannique est associée à la rue fictive Weatherfield ?",
-      "answers": ["EastEnders", "Coronation Street", "Emmerdale", "Hollyoaks"],
+      "question": "Quelle série ITV diffusée depuis 1960 est le plus ancien soap opera britannique encore en production, centré sur une rue fictive du nord de l'Angleterre ?",
+      "answers": [
+        "Vera",
+        "Coronation Street",
+        "Emmerdale",
+        "Hollyoaks"
+      ],
       "correctIndex": 1,
-      "explanation": "Coronation Street est diffusée depuis 1960 au Royaume-Uni. La série est devenue un véritable phénomène culturel britannique suivi par plusieurs générations."
+      "explanation": "Coronation Street (ITV, depuis 1960) est le plus ancien soap opera britannique encore en production. Basée à Weatherfield, ville fictive du Grand Manchester, elle est diffusée plusieurs fois par semaine depuis plus de 60 ans et totalise plus de 10 000 épisodes."
     },
     {
       "id": "9",
-      "question": "Quelle série suit les aventures d’une famille vivant à Quahog ?",
-      "answers": ["Family Guy", "CSI", "NCIS", "FBI"],
+      "question": "Quelle série animée Fox suit une famille dysfonctionnelle dans la ville fictive de Quahog, Rhode Island ?",
+      "answers": [
+        "Family Guy",
+        "King of the Hill",
+        "Futurama",
+        "Vera"
+      ],
       "correctIndex": 0,
-      "explanation": "Family Guy, créée par Seth MacFarlane, est connue pour son humour irrévérencieux et ses nombreuses références à la culture populaire américaine."
+      "explanation": "Family Guy (Fox, depuis 1999) suit Peter Griffin et sa famille dans des situations absurdes et parodiques. Annulée en 2002, elle a été relancée en 2005 grâce aux excellentes ventes de ses DVD et à ses audiences en rediffusion sur Adult Swim, devenant l'une des sitcoms animées les plus durables de Fox."
     },
     {
       "id": "10",
-      "question": "Quelle série suit Peter Griffin et sa famille déjantée ?",
-      "answers": ["American Dad!", "Les Simpson", "Rick et Morty", "Family Guy"],
+      "question": "Quelle série animée Fox créée par Seth MacFarlane suit un agent de la CIA républicain avec une famille hors-norme, dont un alien ?",
+      "answers": [
+        "Vera",
+        "Inspector Morse",
+        "Futurama",
+        "American Dad!"
+      ],
       "correctIndex": 3,
-      "explanation": "Malgré une annulation au début des années 2000, Family Guy a été relancée grâce au succès des DVD et des rediffusions, devenant ensuite une série extrêmement durable."
+      "explanation": "American Dad! (Fox puis TBS, depuis 2005) est créée par Seth MacFarlane, créateur de Family Guy. La série mélange satire politique, humour absurde et science-fiction à travers la famille Smith de Langley Falls, en Virginie. Elle est diffusée depuis plus de 18 saisons."
     },
     {
       "id": "11",
-      "question": "Quelle série policière suit une équipe de profileurs du FBI ?",
-      "answers": ["Bones", "Mentalist", "Esprits criminels", "NCIS: Los Angeles"],
+      "question": "Quelle série CBS suit l'Unité des sciences du comportement du FBI, spécialisée dans le profilage des tueurs en série ?",
+      "answers": [
+        "Bones",
+        "The Mentalist",
+        "Esprits criminels",
+        "Vera"
+      ],
       "correctIndex": 2,
-      "explanation": "Esprits criminels se concentre sur l’analyse psychologique des criminels plutôt que sur les preuves matérielles, ce qui a contribué à son identité unique parmi les séries policières."
+      "explanation": "Esprits criminels (CBS, 2005-2020 puis depuis 2022) a duré 15 saisons dans sa première diffusion, accumulant plusieurs centaines d'épisodes. Elle se distingue par son approche centrée sur l'analyse psychologique des criminels plutôt que sur les preuves matérielles, avec une équipe d'agents aux profils très variés."
     },
     {
       "id": "12",
-      "question": "Quelle série médicale des années 90 se déroule principalement aux urgences d’un hôpital de Chicago ?",
-      "answers": ["Grey’s Anatomy", "Urgences", "Chicago Med", "Dr House"],
+      "question": "Quelle série NBC créée par Michael Crichton en 1994 a redéfini le genre médical avec ses prises de vue à l'épaule et son réalisme chirurgical ?",
+      "answers": [
+        "Vera",
+        "Urgences",
+        "Chicago Med",
+        "Dr House"
+      ],
       "correctIndex": 1,
-      "explanation": "Urgences a révolutionné les séries médicales avec sa réalisation nerveuse et son réalisme. George Clooney y a également connu l’un de ses premiers grands rôles."
+      "explanation": "Urgences (NBC, 1994-2009, 15 saisons) a révolutionné les séries médicales avec sa réalisation nerveuse et son réalisme. George Clooney y a tenu l'un de ses premiers grands rôles entre 1994 et 1999. La série a réuni jusqu'à 30 millions de téléspectateurs à son apogée et a remporté 23 Emmy Awards."
     },
     {
       "id": "13",
-      "question": "Quelle série met en scène les enquêtes scientifiques d’une équipe de Las Vegas ?",
-      "answers": ["CSI: Crime Scene Investigation", "NCIS", "Bones", "Cold Case"],
+      "question": "Quelle série CBS lancée en 2000 a popularisé la police scientifique et créé une franchise comptant plusieurs spin-offs géographiques ?",
+      "answers": [
+        "CSI: Crime Scene Investigation",
+        "Cold Case",
+        "Bones",
+        "The Mentalist"
+      ],
       "correctIndex": 0,
-      "explanation": "CSI a popularisé les enquêtes basées sur la police scientifique au début des années 2000, au point d’influencer de nombreuses autres séries policières."
+      "explanation": "CSI: Crime Scene Investigation (CBS, 2000-2015) a popularisé les enquêtes basées sur la police scientifique et a engendré trois spin-offs — CSI: Miami (2002), CSI: New York (2004) et CSI: Vegas (2021) — ainsi qu'un effet documenté sur les jurés réels, surnommé l'« effet CSI »."
     },
     {
       "id": "14",
-      "question": "Quelle série surnaturelle suit les frères Winchester ?",
-      "answers": ["The Vampire Diaries", "Buffy contre les vampires", "Supernatural", "Smallville"],
+      "question": "Quelle série CW suit deux frères chasseurs de créatures surnaturelles pendant 15 saisons consécutives ?",
+      "answers": [
+        "The Vampire Diaries",
+        "Buffy contre les vampires",
+        "Supernatural",
+        "Smallville"
+      ],
       "correctIndex": 2,
-      "explanation": "Supernatural a duré 15 saisons et a développé une communauté de fans extrêmement fidèle, devenant une référence des séries fantastiques modernes."
+      "explanation": "Supernatural (CW, 2005-2020) a duré 15 saisons et 327 épisodes, devenant l'une des séries fantastiques les plus longues de l'histoire de la télévision américaine. Sa communauté de fans — les Supernatural Family — est restée extrêmement fidèle jusqu'au bout, avec des conventions mondiales encore actives des années après la fin."
     },
     {
       "id": "15",
-      "question": "Quelle série animée met en scène Stan Smith, agent de la CIA ?",
-      "answers": ["Family Guy", "South Park", "Futurama", "American Dad!"],
-      "correctIndex": 3,
-      "explanation": "American Dad! a été créée par Seth MacFarlane, également créateur de Family Guy. La série mélange satire politique et humour absurde."
+      "question": "Quelle série animée Comedy Central créée par Trey Parker et Matt Stone en 1997 est diffusée sans interruption depuis plus de 25 saisons ?",
+      "answers": [
+        "Vera",
+        "Futurama",
+        "South Park",
+        "King of the Hill"
+      ],
+      "correctIndex": 2,
+      "explanation": "South Park (Comedy Central, depuis 1997) est l'une des séries animées adultes les plus durables de l'histoire, avec plus de 26 saisons. Diffusée depuis 1997, elle se renouvelle constamment en satirisant l'actualité, parfois avec des épisodes produits en quelques jours seulement."
     },
     {
       "id": "16",
-      "question": "Quelle série met en scène les pompiers de la caserne 51 à Chicago ?",
-      "answers": ["Chicago Fire", "Blue Bloods", "The Rookie", "9-1-1"],
+      "question": "Quelle série NBC lancée en 2012 par Dick Wolf suit les pompiers et secouristes de la caserne 51, première d'un univers partagé avec deux autres séries policière et médicale ?",
+      "answers": [
+        "Chicago Fire",
+        "Vera",
+        "The Rookie",
+        "9-1-1"
+      ],
       "correctIndex": 0,
-      "explanation": "Chicago Fire fait partie du vaste univers télévisé créé par Dick Wolf, comprenant aussi Chicago P.D. et Chicago Med, avec de nombreux épisodes croisés."
+      "explanation": "Chicago Fire (NBC, depuis 2012) suit les pompiers et secouristes de la caserne 51 de Chicago. Elle fait partie de l'univers « Chicago One Chicago » créé par Dick Wolf, qui comprend également Chicago P.D. (2014) et Chicago Med (2015), avec des personnages et des intrigues se croisant régulièrement."
     },
     {
       "id": "17",
-      "question": "Quelle série animée se déroule dans la ville fictive de Springfield ?",
-      "answers": ["South Park", "Bob’s Burgers", "Les Simpson", "American Dad!"],
-      "correctIndex": 2,
-      "explanation": "Le lieu exact de Springfield n’a jamais été officiellement confirmé dans Les Simpson, ce qui est devenu l’un des grands running gags de la série."
+      "question": "Quelle série animée Fox suit Tina, Gene et Louise Belcher dans le restaurant familial de leur père à une ville côtière américaine ?",
+      "answers": [
+        "Vera",
+        "Bob's Burgers",
+        "King of the Hill",
+        "Inspector Morse"
+      ],
+      "correctIndex": 1,
+      "explanation": "Bob's Burgers (Fox, depuis 2011) suit la famille Belcher et leur restaurant de hamburgers. La série s'est distinguée par son ton chaleureux, son humour bienveillant et ses personnages féminins bien écrits, notamment Tina Belcher, devenue une icône de la pop culture animée américaine."
     },
     {
       "id": "18",
-      "question": "Quelle série met en scène une famille de restaurateurs tenant un restaurant de burgers ?",
-      "answers": ["Bob’s Burgers", "Family Guy", "The Cleveland Show", "King of the Hill"],
-      "correctIndex": 0,
-      "explanation": "Bob’s Burgers s’est distinguée grâce à son ton plus chaleureux et familial que beaucoup d’autres sitcoms animées américaines."
+      "question": "Quelle série policière britannique ITV lancée en 1997, toujours en production, suit un inspecteur enquêtant dans un comté rural fictif au taux de crimes improbablement élevé ?",
+      "answers": [
+        "Inspector Morse",
+        "Vera",
+        "Lewis",
+        "Midsomer Murders"
+      ],
+      "correctIndex": 3,
+      "explanation": "Midsomer Murders (ITV, depuis 1997) suit l'inspecteur Barnaby dans le comté fictif de Midsomer, où le nombre de meurtres par habitant défie toute logique. Diffusée depuis 1997, c'est l'une des séries policières britanniques les plus exportées au monde, diffusée dans plus de 200 pays."
     },
     {
       "id": "19",
-      "question": "Quelle série suit les aventures du Docteur dans le temps et l’espace ?",
-      "answers": ["Torchwood", "Red Dwarf", "Black Mirror", "Doctor Who"],
+      "question": "Quelle série BBC soap opera lancée en 1985 est centrée sur les habitants d'un quartier fictif de l'East End londonien ?",
+      "answers": [
+        "Vera",
+        "Emmerdale",
+        "Hollyoaks",
+        "EastEnders"
+      ],
       "correctIndex": 3,
-      "explanation": "Doctor Who a connu une interruption entre 1989 et 2005 avant d’être relancée avec succès. Elle reste aujourd’hui l’une des plus grandes séries de science-fiction au monde."
+      "explanation": "EastEnders (BBC One, depuis 1985) est l'une des séries les plus regardées de la télévision britannique. Centrée sur le quartier fictif d'Albert Square dans l'East End de Londres, elle est célèbre pour ses intrigues sociales réalistes et ses épisodes de Noël, traditionnellement parmi les plus regardés de l'année au Royaume-Uni."
     },
     {
       "id": "20",
-      "question": "Quelle série britannique très longue est centrée sur les habitants du quartier fictif d’Albert Square ?",
-      "answers": ["Coronation Street", "EastEnders", "Emmerdale", "Hollyoaks"],
+      "question": "Quelle série CBS à succès suit la famille Reagan, une dynastie de policiers new-yorkais, depuis 2010 ?",
+      "answers": [
+        "The Rookie",
+        "Blue Bloods",
+        "Magnum P.I.",
+        "Hawaii Five-0"
+      ],
       "correctIndex": 1,
-      "explanation": "EastEnders est célèbre au Royaume-Uni pour ses intrigues sociales réalistes et ses épisodes spéciaux très suivis pendant les fêtes de Noël."
+      "explanation": "Blue Bloods (CBS, depuis 2010) suit la famille Reagan — trois générations de policiers et un procureur — à New York. La série s'est imposée comme l'une des valeurs sûres du vendredi soir de CBS. Diffusée de 2010 à 2024 en 14 saisons, elle a maintenu des audiences régulièrement supérieures à 6 millions de téléspectateurs."
     }
   ]
 }

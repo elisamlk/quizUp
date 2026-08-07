@@ -1,282 +1,261 @@
 {
-    "slug": "quiz-series-change-television",
-    "title": "Quiz Séries TV - Les Séries qui ont changé la télévision - 20 œuvres révolutionnaires",
-    "description": "Teste tes connaissances sur les séries qui ont transformé la télévision et marqué l'histoire du petit écran.",
-    "publishedAt": "2026-06-18",
-    "descriptionSeo": "Des Soprano à Breaking Bad, en passant par Twin Peaks, Lost, The Wire, Friends, Game of Thrones ou Black Mirror, certaines séries ont profondément changé la télévision. Ce quiz te propose 20 questions pour redécouvrir les œuvres qui ont révolutionné la narration, les personnages, les effets spéciaux, le streaming et la manière dont le public regarde les séries dans le monde entier.",
-    "category": {
-        "name": "Série TV",
-        "slug": "serie-tv"
+  "slug": "quiz-series-change-television",
+  "title": "Quiz Séries TV - Les Séries qui ont changé la télévision - 20 œuvres révolutionnaires",
+  "description": "Teste tes connaissances sur les séries qui ont transformé la télévision et marqué l'histoire du petit écran.",
+  "publishedAt": "2026-06-18",
+  "descriptionSeo": "Des Soprano à Breaking Bad, en passant par Twin Peaks, Lost, The Wire, Friends, Game of Thrones ou Black Mirror, certaines séries ont profondément changé la télévision. Ce quiz te propose 20 questions pour redécouvrir les œuvres qui ont révolutionné la narration, les personnages, les effets spéciaux, le streaming et la manière dont le public regarde les séries dans le monde entier.",
+  "category": {
+    "name": "Série TV",
+    "slug": "serie-tv"
+  },
+  "createdAt": "2026-06-06",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1781439172/tv_m7hi3d.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1781439172/tv_m7hi3d.jpg",
+    "alt": "Quiz sur les séries qui ont changé la télévision"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "question": "Quel chef de la mafia du New Jersey est devenu l'un des personnages les plus influents de l'histoire des séries télévisées ?",
+      "answers": [
+        "Walter White",
+        "Don Draper",
+        "Tommy Shelby",
+        "Tony Soprano"
+      ],
+      "correctIndex": 3,
+      "explanation": "Les Soprano (HBO, 1999-2007, 6 saisons) a été créée par David Chase. Tony Soprano, interprété par James Gandolfini, est souvent cité comme le personnage qui a lancé l'âge d'or des séries américaines et prouvé que la télévision pouvait rivaliser avec le cinéma en termes de complexité narrative."
     },
-    "createdAt": "2026-06-06",
-    "isNew": true,
-    "isPopular": true,
-    "images": {
-        "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1781439172/tv_m7hi3d.jpg",
-        "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1781439172/tv_m7hi3d.jpg",
-        "alt": "Quiz sur les séries qui ont changé la télévision"
+    {
+      "id": "2",
+      "question": "Quelle fiction explore les rouages de Baltimore à travers la police, les écoles, la politique et le trafic de drogue ?",
+      "answers": [
+        "The Wire",
+        "The Shield",
+        "Narcos",
+        "Oz"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Wire (HBO, 2002-2008, 5 saisons, 60 épisodes) a été créée par David Simon, ancien journaliste au Baltimore Sun. Régulièrement classée première dans les palmarès des meilleures séries de tous les temps, elle dresse un portrait systémique de la ville en examinant chaque institution — police, école, presse, politique — avec une précision documentaire."
     },
-    "questions": [
-        {
-            "id": "1",
-            "question": "Quel chef de la mafia du New Jersey est devenu l'un des personnages les plus influents de l'histoire des séries télévisées ?",
-            "image": null,
-            "answers": [
-                "Walter White",
-                "Tony Soprano",
-                "Don Draper",
-                "Tommy Shelby"
-            ],
-            "correctIndex": 1,
-            "explanation": "Tony Soprano est le personnage principal des Soprano. Son succès contribue à lancer l'âge d'or moderne des séries télévisées."
-        },
-        {
-            "id": "2",
-            "question": "Quelle fiction explore les rouages de Baltimore à travers la police, les écoles, la politique et le trafic de drogue ?",
-            "image": null,
-            "answers": [
-                "The Shield",
-                "Narcos",
-                "The Wire",
-                "Oz"
-            ],
-            "correctIndex": 2,
-            "explanation": "The Wire est souvent considérée comme l'une des séries les plus ambitieuses jamais produites grâce à son regard réaliste sur les institutions américaines."
-        },
-        {
-            "id": "3",
-            "question": "Quel mystère télévisuel débute par la célèbre question : « Qui a tué Laura Palmer ? »",
-            "image": null,
-            "answers": [
-                "Twin Peaks",
-                "Lost",
-                "X-Files",
-                "Fringe"
-            ],
-            "correctIndex": 0,
-            "explanation": "Twin Peaks bouleverse les codes de la télévision au début des années 1990 grâce à son atmosphère unique et sa narration atypique."
-        },
-        {
-            "id": "4",
-            "question": "Sur quelle île se retrouvent les survivants du vol Oceanic 815 après un crash devenu célèbre dans l'histoire des séries ?",
-            "image": null,
-            "answers": [
-                "Prison Break",
-                "Lost",
-                "Heroes",
-                "FlashForward"
-            ],
-            "correctIndex": 1,
-            "explanation": "Lost devient un phénomène mondial en popularisant les théories de fans et les discussions en ligne autour des mystères de son intrigue."
-        },
-        {
-            "id": "5",
-            "question": "Quel personnage passe du statut de professeur de chimie à celui de baron de la drogue sous le pseudonyme Heisenberg ?",
-            "image": null,
-            "answers": [
-                "Jesse Pinkman",
-                "Saul Goodman",
-                "Walter White",
-                "Gus Fring"
-            ],
-            "correctIndex": 2,
-            "explanation": "Breaking Bad est saluée pour la transformation progressive de Walter White et pour la qualité de son écriture."
-        },
-        {
-            "id": "6",
-            "question": "Dans quelle série le slogan « Winter is Coming » devient-il l'un des plus célèbres de la télévision moderne ?",
-            "image": null,
-            "answers": [
-                "The Witcher",
-                "Game of Thrones",
-                "Vikings",
-                "House of the Dragon"
-            ],
-            "correctIndex": 1,
-            "explanation": "Game of Thrones devient un phénomène culturel mondial et repousse les limites de la production télévisuelle."
-        },
-        {
-            "id": "7",
-            "question": "Quel groupe de six amis vivant à New York a contribué à définir la sitcom moderne dans les années 1990 ?",
-            "image": null,
-            "answers": [
-                "How I Met Your Mother",
-                "The Big Bang Theory",
-                "Friends",
-                "Seinfeld"
-            ],
-            "correctIndex": 2,
-            "explanation": "Friends devient l'une des séries les plus populaires de l'histoire et influence durablement les comédies télévisées."
-        },
-        {
-            "id": "8",
-            "question": "Quel duo d'enquêteurs est composé de Fox Mulder et Dana Scully ?",
-            "image": null,
-            "answers": [
-                "X-Files",
-                "Fringe",
-                "Dark",
-                "Supernatural"
-            ],
-            "correctIndex": 0,
-            "explanation": "X-Files popularise les séries mêlant science-fiction, paranormal et enquêtes gouvernementales."
-        },
-        {
-            "id": "9",
-            "question": "Dans quelle série Kevin Spacey interprète-t-il le manipulateur Frank Underwood ?",
-            "image": null,
-            "answers": [
-              
-                "The Crown",
-                "Succession",
-                "Mad Men",
-                  "House of Cards"
-            ],
-            "correctIndex": 3,
-            "explanation": "House of Cards démontre que Netflix peut produire des séries prestigieuses capables de rivaliser avec les grandes chaînes."
-        },
-        {
-            "id": "10",
-            "question": "Quel thriller innovant suit les aventures de Jack Bauer au rythme d'une journée racontée en temps réel ?",
-            "image": null,
-            "answers": [
-                "Homeland",
-                "24 Heures Chrono",
-                "Alias",
-                "Person of Interest"
-            ],
-            "correctIndex": 1,
-            "explanation": "24 Heures Chrono révolutionne la narration télévisée avec son format en temps réel et ses écrans divisés."
-        },
-        {
-            "id": "11",
-            "question": "Quelle famille de Springfield est devenue l'un des symboles les plus connus de la culture populaire mondiale ?",
-            "image": null,
-            "answers": [
-                "Les Griffin",
-                "Les Belcher",
-                "Les Smith",
-                "Les Simpson"
-            ],
-            "correctIndex": 3,
-            "explanation": "Les Simpson influencent durablement l'animation télévisée et détiennent l'une des plus longues carrières de l'histoire du petit écran."
-        },
-        {
-            "id": "12",
-            "question": "Quel extraterrestre voyage dans le temps à bord du TARDIS depuis les années 1960 ?",
-            "image": null,
-            "answers": [
-                "Le Maître",
-                "Le Docteur",
-                "Le Capitaine Jack",
-                "River Song"
-            ],
-            "correctIndex": 1,
-            "explanation": "Doctor Who est devenue une institution de la télévision britannique et l'une des plus longues séries de science-fiction jamais produites."
-        },
-        {
-            "id": "13",
-            "question": "Quel programme se déroule dans les bureaux de la société Dunder Mifflin et popularise le faux documentaire télévisé ?",
-            "image": null,
-            "answers": [
-                "Parks and Recreation",
-                "Community",
-                "The Office",
-                "Scrubs"
-            ],
-            "correctIndex": 2,
-            "explanation": "The Office contribue à rendre populaire le style mockumentary auprès du grand public."
-        },
-        {
-            "id": "14",
-            "question":"Dans quelle série médicale située à Chicago George Clooney devient-il une star mondiale de la télévision ?",
-            "image": null,
-            "answers": [
-                "Grey's Anatomy",
-                "Dr House",
-                "Urgences",
-                "Chicago Med"
-            ],
-            "correctIndex": 2,
-            "explanation": "Urgences révolutionne les séries médicales grâce à sa mise en scène dynamique et son réalisme."
-        },
-        {
-            "id": "15",
-            "question": "Quelle anthologie britannique imagine régulièrement des futurs où la technologie tourne mal ?",
-            "image": null,
-            "answers": [
-                "Westworld",
-                "Black Mirror",
-                "Severance",
-                "Mr. Robot"
-            ],
-            "correctIndex": 1,
-            "explanation": "Black Mirror est devenue une référence pour ses réflexions sur les conséquences sociales des nouvelles technologies."
-        },
-        {
-            "id": "16",
-            "question": "Quel succès mondial de Netflix mélange années 1980, créatures surnaturelles et expériences secrètes dans la ville fictive de Hawkins ?",
-            "image": null,
-            "answers": [
-                "Dark",
-                "The OA",
-                "Wednesday",
-                "Stranger Things"
-            ],
-            "correctIndex": 3,
-            "explanation": "Stranger Things contribue à installer définitivement le streaming comme acteur majeur de l'industrie audiovisuelle."
-        },
-        {
-            "id": "17",
-            "question": "Dans quelle série suit-on la carrière du publicitaire Don Draper dans l'Amérique des années 1960 ?",
-            "image": null,
-            "answers": [
-                "Mad Men",
-                "Succession",
-                "Billions",
-                "The Newsroom"
-            ],
-            "correctIndex": 0,
-            "explanation": "Mad Men est saluée pour la qualité de son écriture, sa profondeur psychologique et sa reconstitution historique."
-        },
-        {
-            "id": "18",
-            "question": "Quel médecin diagnosticien brillant est connu pour son caractère difficile et son addiction aux antidouleurs ?",
-            "image": null,
-            "answers": [
-                "Meredith Grey",
-                "Gregory House",
-                "John Carter",
-                "Shaun Murphy"
-            ],
-            "correctIndex": 1,
-            "explanation": "Dr House renouvelle la série médicale grâce à son personnage central atypique et à sa structure d'enquête."
-        },
-        {
-            "id": "19",
-            "question": "De quelle série provient le slogan « Save the cheerleader, save the world » ?",
-            "image": null,
-            "answers": [
-                "Heroes",
-                "Smallville",
-                "Arrow",
-                "Daredevil"
-            ],
-            "correctIndex": 0,
-            "explanation": "Heroes contribue à populariser les séries de super-héros avant l'explosion du genre dans les années 2010."
-        },
-        {
-            "id": "20",
-            "question": "Quel vaisseau spatial commandé par le capitaine Kirk est devenu l'un des symboles de la science-fiction télévisée ?",
-            "image": null,
-            "answers": [
-                "Galactica",
-                "Serenity",
-                "Enterprise",
-                "Rocinante"
-            ],
-            "correctIndex": 2,
-            "explanation": "Star Trek influence profondément la télévision, la science-fiction et même la culture scientifique depuis les années 1960."
-        }
-    ]
+    {
+      "id": "3",
+      "question": "Quel mystère télévisuel débute par la question « Qui a tué Laura Palmer ? » et bouleverse les codes narratifs de son époque ?",
+      "answers": [
+        "Twin Peaks",
+        "Lost",
+        "X-Files",
+        "Fringe"
+      ],
+      "correctIndex": 0,
+      "explanation": "Twin Peaks (ABC, 1990-1991, puis Showtime en 2017) a été créée par David Lynch et Mark Frost. La série a révolutionné la télévision en introduisant une narration surréaliste, des personnages complexes et un mystère central sans résolution rapide, ouvrant la voie aux séries à arc narratif long."
+    },
+    {
+      "id": "4",
+      "question": "Quelle série de survie et de mystères suit les rescapés d'un crash d'avion échoués sur une île aux secrets inexplicables ?",
+      "answers": [
+        "Prison Break",
+        "Lost",
+        "Heroes",
+        "FlashForward"
+      ],
+      "correctIndex": 1,
+      "explanation": "Lost (ABC, 2004-2010, 6 saisons, 121 épisodes) a été créée par J.J. Abrams, Damon Lindelof et Jeffrey Lieber. La série a popularisé les théories de fans et les forums de discussion en ligne, transformant la façon dont le public s'engage avec une fiction télévisée entre les épisodes."
+    },
+    {
+      "id": "5",
+      "question": "Quel personnage passe du statut de professeur de chimie à celui de baron de la drogue sous le pseudonyme Heisenberg ?",
+      "answers": [
+        "Jesse Pinkman",
+        "Saul Goodman",
+        "Walter White",
+        "Gus Fring"
+      ],
+      "correctIndex": 2,
+      "explanation": "Breaking Bad (AMC, 2008-2013, 5 saisons, 62 épisodes) a été créée par Vince Gilligan. Bryan Cranston y a remporté 3 Emmy Awards consécutifs du Meilleur Acteur Dramatique, et la série est régulièrement citée parmi les meilleures de tous les temps avec une note de 9,5/10 sur IMDb."
+    },
+    {
+      "id": "6",
+      "question": "Dans quelle série fantasy le slogan « Winter is Coming » devient-il l'une des phrases les plus citées de la télévision moderne ?",
+      "answers": [
+        "The Witcher",
+        "Vikings",
+        "House of the Dragon",
+        "Game of Thrones"
+      ],
+      "correctIndex": 3,
+      "explanation": "Game of Thrones (HBO, 2011-2019, 8 saisons) est adaptée des romans de George R.R. Martin. Elle a remporté 59 Emmy Awards au total, un record absolu, et a démontré que la fantasy pouvait être traitée avec des budgets et une ambition dignes du cinéma."
+    },
+    {
+      "id": "7",
+      "question": "Quel groupe de six amis vivant à New York a contribué à définir la sitcom moderne dans les années 1990 ?",
+      "answers": [
+        "How I Met Your Mother",
+        "The Big Bang Theory",
+        "Friends",
+        "Seinfeld"
+      ],
+      "correctIndex": 2,
+      "explanation": "Friends (NBC, 1994-2004, 10 saisons, 236 épisodes) a réuni jusqu'à 52 millions de téléspectateurs aux États-Unis pour son final en 2004. La série influence toujours la production de comédies télévisées et reste l'une des plus regardées sur les plateformes de streaming plus de 20 ans après sa fin."
+    },
+    {
+      "id": "8",
+      "question": "Dans quelle série d'enquêtes paranormales Fox Mulder et Dana Scully forment-ils un duo devenu culte ?",
+      "answers": [
+        "X-Files",
+        "Fringe",
+        "Dark",
+        "Supernatural"
+      ],
+      "correctIndex": 0,
+      "explanation": "X-Files (Fox, 1993-2002 puis 2016-2018, 11 saisons, 218 épisodes) a été créée par Chris Carter. Elle a popularisé les séries mêlant science-fiction, paranormal et complot gouvernemental, et a profondément influencé les séries de genre des décennies suivantes."
+    },
+    {
+      "id": "9",
+      "question": "Quelle série politique de Netflix, avec Kevin Spacey dans le rôle de l'ambitieux Frank Underwood, démontre le potentiel du streaming ?",
+      "answers": [
+        "The Crown",
+        "Succession",
+        "Mad Men",
+        "House of Cards"
+      ],
+      "correctIndex": 3,
+      "explanation": "House of Cards (Netflix, 2013-2018, 6 saisons) a été la première série originale de Netflix à obtenir des nominations majeures aux Emmy Awards et a contribué à légitimer les plateformes de streaming auprès de l'industrie. Elle a prouvé que les services à la demande pouvaient produire des œuvres de prestige capables de rivaliser avec les grandes chaînes câblées."
+    },
+    {
+      "id": "10",
+      "question": "Quel thriller révolutionne la narration télévisée en racontant chaque saison en temps réel, heure par heure, avec Jack Bauer en héros ?",
+      "answers": [
+        "Homeland",
+        "24 Heures Chrono",
+        "Alias",
+        "Person of Interest"
+      ],
+      "correctIndex": 1,
+      "explanation": "24 Heures Chrono (Fox, 2001-2010, 8 saisons) a été créée par Joel Surnow et Robert Cochran. Sa structure en temps réel — 24 épisodes de 44 minutes pour une journée complète — et ses écrans divisés ont influencé durablement la mise en scène des thrillers télévisés."
+    },
+    {
+      "id": "11",
+      "question": "Quelle famille d'animation de Springfield est devenue l'un des symboles les plus reconnus de la culture populaire mondiale ?",
+      "answers": [
+        "Les Griffin",
+        "Les Belcher",
+        "Les Smith",
+        "Les Simpson"
+      ],
+      "correctIndex": 3,
+      "explanation": "Les Simpson (Fox, depuis 1989) est la série d'animation la plus longue de l'histoire de la télévision américaine, avec plus de 750 épisodes. Elle a révolutionné l'animation pour adultes et a influencé une génération entière de créateurs de comédies télévisées."
+    },
+    {
+      "id": "12",
+      "question": "Quel personnage extraterrestre voyage dans le temps à bord du TARDIS depuis les années 1960, dans la plus longue série de science-fiction britannique ?",
+      "answers": [
+        "Le Maître",
+        "Le Docteur",
+        "Le Capitaine Jack",
+        "River Song"
+      ],
+      "correctIndex": 1,
+      "explanation": "Doctor Who (BBC, depuis 1963) est l'une des séries les plus longues de l'histoire de la télévision mondiale. Elle a introduit le concept de régénération — permettant au personnage principal de changer d'acteur — une innovation narrative qui lui a permis de durer plus de 60 ans."
+    },
+    {
+      "id": "13",
+      "question": "Quel programme américain se déroule dans les bureaux d'une entreprise de papier et popularise le style mockumentaire ?",
+      "answers": [
+        "Parks and Recreation",
+        "Community",
+        "The Office",
+        "Scrubs"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Office (NBC, 2005-2013, 9 saisons, 201 épisodes) est adaptée de la série britannique créée par Ricky Gervais. Elle a popularisé le faux format documentaire dans la sitcom américaine et révélé Steve Carell, John Krasinski, Mindy Kaling et Ed Helms au grand public."
+    },
+    {
+      "id": "14",
+      "question": "Quelle sitcom de NBC, autoproclamée « série sur rien », révolutionne l'humour télévisé en refusant toute morale ou leçon de vie ?",
+      "answers": [
+        "Frasier",
+        "Cheers",
+        "Seinfeld",
+        "Curb Your Enthusiasm"
+      ],
+      "correctIndex": 2,
+      "explanation": "Seinfeld (NBC, 1989-1998, 9 saisons, 180 épisodes) a été créée par Jerry Seinfeld et Larry David. Son principe de « no hugging, no learning » — refus de toute résolution sentimentale — a profondément influencé l'humour moderne et engendré des œuvres comme Curb Your Enthusiasm ou It's Always Sunny in Philadelphia."
+    },
+    {
+      "id": "15",
+      "question": "Quelle anthologie britannique imagine des futurs proches où les technologies du quotidien deviennent des instruments de contrôle ou de destruction ?",
+      "answers": [
+        "Westworld",
+        "Black Mirror",
+        "Severance",
+        "Mr. Robot"
+      ],
+      "correctIndex": 1,
+      "explanation": "Black Mirror (Channel 4 puis Netflix, depuis 2011) a été créée par Charlie Brooker. Chaque épisode indépendant explore une dystopie technologique différente. L'épisode 'San Junipero' a remporté 2 Emmy Awards en 2017 et l'épisode interactif Bandersnatch (2018) a innové dans le format narratif."
+    },
+    {
+      "id": "16",
+      "question": "Quel succès mondial de Netflix mélange nostalgie des années 1980, créatures surnaturelles et expériences secrètes dans la ville fictive de Hawkins ?",
+      "answers": [
+        "Dark",
+        "The OA",
+        "Wednesday",
+        "Stranger Things"
+      ],
+      "correctIndex": 3,
+      "explanation": "Stranger Things (Netflix, depuis 2016) a contribué à installer le streaming comme acteur majeur de l'industrie audiovisuelle. La saison 4 (2022) a établi des records sur Netflix et a propulsé la chanson Running Up That Hill de Kate Bush au sommet des charts, 37 ans après sa sortie initiale."
+    },
+    {
+      "id": "17",
+      "question": "Dans quelle série suit-on la carrière et les contradictions du publicitaire Don Draper dans l'Amérique des années 1960 ?",
+      "answers": [
+        "Mad Men",
+        "Succession",
+        "Billions",
+        "The Newsroom"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mad Men (AMC, 2007-2015, 7 saisons, 92 épisodes) a été créée par Matthew Weiner. La série a remporté 4 Emmy Awards consécutifs de la Meilleure Série Dramatique (2008-2011), un record partagé avec Les Soprano, et a contribué à lancer la réputation d'AMC comme chaîne de prestige."
+    },
+    {
+      "id": "18",
+      "question": "Quel médecin diagnosticien brillant et acariâtre est interprété par Hugh Laurie dans une série médicale révolutionnaire ?",
+      "answers": [
+        "Meredith Grey",
+        "Gregory House",
+        "John Carter",
+        "Shaun Murphy"
+      ],
+      "correctIndex": 1,
+      "explanation": "Dr House (Fox, 2004-2012, 8 saisons, 177 épisodes) a réuni jusqu'à 19 millions de téléspectateurs par semaine aux États-Unis. Hugh Laurie a remporté 2 Golden Globes pour ce rôle et la série a été, à son apogée, la plus regardée au monde selon des données de diffusion internationale."
+    },
+    {
+      "id": "19",
+      "question": "Quelle série de super-héros des années 2000 popularise le genre avec le slogan « Save the cheerleader, save the world » ?",
+      "answers": [
+        "Heroes",
+        "Smallville",
+        "Arrow",
+        "Daredevil"
+      ],
+      "correctIndex": 0,
+      "explanation": "Heroes (NBC, 2006-2010, 4 saisons) a contribué à populariser les séries de super-héros à la télévision bien avant l'explosion du genre dans les années 2010. La saison 1 a réuni jusqu'à 14 millions de téléspectateurs aux États-Unis et a été saluée pour son format narratif mondial."
+    },
+    {
+      "id": "20",
+      "question": "Quel vaisseau spatial commandé par le capitaine Kirk est devenu l'un des symboles fondateurs de la science-fiction télévisée mondiale ?",
+      "answers": [
+        "Galactica",
+        "Serenity",
+        "Enterprise",
+        "Rocinante"
+      ],
+      "correctIndex": 2,
+      "explanation": "Star Trek (NBC, 1966-1969) a été créée par Gene Roddenberry. Malgré seulement 3 saisons originales, elle a engendré plus de 10 séries dérivées, 13 films et une communauté de fans parmi les plus actives de l'histoire. Elle a influencé des générations de scientifiques, dont plusieurs astronautes de la NASA."
+    }
+  ]
 }

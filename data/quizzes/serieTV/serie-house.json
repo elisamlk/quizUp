@@ -1,8 +1,8 @@
 {
   "slug": "quiz-dr-house",
   "title": "Quiz Série TV - Dr House - Diagnostics, sarcasme et mystères médicaux",
-  "description": "Entre diagnostics impossibles, humour cynique et cas médicaux complexes, ce quiz Dr House mettra tes connaissances à l’épreuve.",
-  "descriptionSeo": "Entre diagnostics impossibles, sarcasme et tensions à l’hôpital, ce quiz Dr House te replonge dans l’univers du célèbre médecin Gregory House. House, Wilson, Cuddy, Foreman, Chase ou Cameron : revis les cas médicaux, les relations, les répliques cultes et les moments les plus marquants de la série. Entre mystères médicaux, humour cynique et drames personnels, ces 20 questions mettront à l’épreuve tous les vrais fans de Dr House.",
+  "description": "Entre diagnostics impossibles, humour cynique et cas médicaux complexes, ce quiz Dr House mettra tes connaissances à l'épreuve.",
+  "descriptionSeo": "Entre diagnostics impossibles, sarcasme et tensions à l'hôpital, ce quiz Dr House te replonge dans l'univers du célèbre médecin Gregory House. House, Wilson, Cuddy, Foreman, Chase ou Cameron : revis les cas médicaux, les relations, les répliques cultes et les moments les plus marquants de la série. Entre mystères médicaux, humour cynique et drames personnels, ces 20 questions mettront à l'épreuve tous les vrais fans de Dr House.",
   "category": {
     "name": "Série TV",
     "slug": "serie-tv"
@@ -18,143 +18,243 @@
   "questions": [
     {
       "id": "1",
-      "question": "Quel acteur interprète le Dr Gregory House ?",
-      "answers": ["Hugh Laurie", "Robert Sean Leonard", "Omar Epps", "Jesse Spencer"],
+      "question": "Quel acteur britannique, habitué à la comédie, endosse le rôle du cynique Gregory House ?",
+      "answers": [
+        "Hugh Laurie",
+        "Stephen Fry",
+        "Omar Epps",
+        "Jesse Spencer"
+      ],
       "correctIndex": 0,
-      "explanation": "Hugh Laurie interprète le Dr Gregory House, médecin brillant, cynique et spécialiste des diagnostics médicaux complexes."
+      "explanation": "Hugh Laurie incarne Gregory House dans les 8 saisons de la série diffusées sur Fox de 2004 à 2012. Acteur britannique connu auparavant pour ses rôles comiques — notamment dans Blackadder et Jeeves and Wooster — il a adopté un accent américain parfait pour le rôle, remportant 2 Golden Globes du meilleur acteur."
     },
     {
       "id": "2",
-      "question": "Quelle spécialité rend Gregory House célèbre dans la série ?",
-      "answers": ["La chirurgie cardiaque", "Le diagnostic médical", "La pédiatrie", "La psychiatrie"],
+      "question": "Quelle spécialité médicale House exerce-t-il au Princeton-Plainsboro Teaching Hospital ?",
+      "answers": [
+        "La chirurgie cardiaque",
+        "Le diagnostic",
+        "La pédiatrie",
+        "La psychiatrie"
+      ],
       "correctIndex": 1,
-      "explanation": "House est célèbre pour ses capacités exceptionnelles en diagnostic. Il résout des cas médicaux rares que les autres médecins ne parviennent pas à comprendre."
+      "explanation": "House dirige le département de médecine diagnostique du Princeton-Plainsboro depuis la saison 1 (2004). Sa spécialité — résoudre des cas rares que les autres médecins ne peuvent pas élucider — structure chaque épisode autour d'un mystère médical unique, souvent révélé dans les dernières minutes après de multiples fausses pistes."
     },
     {
       "id": "3",
-      "question": "Dans quel hôpital travaille principalement House ?",
-      "answers": ["Seattle Grace Hospital", "Sacred Heart Hospital", "Princeton-Plainsboro Teaching Hospital", "County General Hospital"],
+      "question": "Dans quel hôpital fictif du New Jersey House et son équipe exercent-ils tout au long de la série ?",
+      "answers": [
+        "Seattle Grace Hospital",
+        "Sacred Heart Hospital",
+        "Princeton-Plainsboro Teaching Hospital",
+        "County General Hospital"
+      ],
       "correctIndex": 2,
-      "explanation": "House travaille au Princeton-Plainsboro Teaching Hospital, un hôpital universitaire fictif situé dans le New Jersey."
+      "explanation": "Le Princeton-Plainsboro Teaching Hospital est l'hôpital fictif du New Jersey où se déroulent les 177 épisodes de la série. Inspiré du Robert Wood Johnson University Hospital de New Brunswick, il est dirigé pendant la majeure partie de la série par Lisa Cuddy."
     },
     {
       "id": "4",
-      "question": "Quel personnage est le meilleur ami de House ?",
-      "answers": ["Eric Foreman", "Robert Chase", "Chris Taub", "James Wilson"],
+      "question": "Quel oncologue partage son amitié avec House depuis leurs études et reste son seul véritable ami tout au long de la série ?",
+      "answers": [
+        "Martha Masters",
+        "Thirteen",
+        "Remy Hadley",
+        "James Wilson"
+      ],
       "correctIndex": 3,
-      "explanation": "James Wilson est le meilleur ami de House. Leur relation est faite de sarcasme, de loyauté et de nombreuses tensions personnelles."
+      "explanation": "James Wilson est l'oncologue et meilleur ami de House depuis le début de leur carrière médicale. Leur relation, faite de loyauté, de sarcasme et de tensions, est l'un des piliers émotionnels de la série. Dans le finale de la saison 8, Wilson apprend qu'il est atteint d'un cancer en phase terminale."
     },
     {
       "id": "5",
-      "question": "Quel problème physique caractérise House ?",
-      "answers": ["Une blessure à la jambe", "Une perte de mémoire", "Une paralysie du bras", "Une cécité partielle"],
+      "question": "Quel handicap physique permanent résulte de l'infarctus musculaire que House a subi avant la série ?",
+      "answers": [
+        "Une jambe invalide",
+        "Une perte de mémoire",
+        "Une paralysie du bras",
+        "Une cécité partielle"
+      ],
       "correctIndex": 0,
-      "explanation": "House souffre d’une douleur chronique à la jambe à la suite d’un infarctus musculaire. Cette douleur influence fortement son caractère et son addiction aux médicaments."
+      "explanation": "House souffre depuis des années d'un infarctus du muscle quadricipital jamais correctement traité, lui laissant une jambe partiellement invalide et une douleur chronique permanente. Cette blessure — et son refus d'une amputation — explique son addiction au Vicodin dès la saison 1 et conditionne profondément son rapport à la souffrance des autres."
     },
     {
       "id": "6",
-      "question": "Quel médicament House prend-il régulièrement contre la douleur ?",
-      "answers": ["Morphine", "Vicodin", "Aspirine", "Ibuprofène"],
+      "question": "Quel analgésique opioïde House consomme-t-il compulsivement, alimentant l'un des grands arcs dramatiques de la série ?",
+      "answers": [
+        "Morphine",
+        "Vicodin",
+        "OxyContin",
+        "Tramadol"
+      ],
       "correctIndex": 1,
-      "explanation": "House prend régulièrement du Vicodin pour calmer sa douleur chronique. Cette dépendance devient l’un des grands thèmes de la série."
+      "explanation": "House prend compulsivement du Vicodin, un analgésique associant hydrocodone et paracétamol, pour gérer sa douleur chronique. Cette dépendance le conduit à plusieurs reprises à flirter avec la limite légale, à manipuler son entourage et à effectuer un séjour en clinique psychiatrique à la fin de la saison 5."
     },
     {
       "id": "7",
-      "question": "Quelle phrase résume souvent la vision de House sur ses patients ?",
-      "answers": ["Tout le monde guérit", "La médecine est simple", "Les patients mentent", "La douleur est inutile"],
+      "question": "Quelle conviction de House — selon laquelle les malades dissimulent toujours une partie de leur histoire — guide systématiquement ses diagnostics ?",
+      "answers": [
+        "Tout le monde guérit",
+        "La médecine est simple",
+        "Les patients mentent",
+        "La douleur est inutile"
+      ],
       "correctIndex": 2,
-      "explanation": "House répète souvent que “les patients mentent”. Pour lui, les mensonges ou omissions des patients compliquent souvent les diagnostics."
+      "explanation": "« Les patients mentent » est la maxime centrale de House, répétée dès le pilote en 2004. Pour lui, les omissions, les fausses pudeurs ou les peurs des patients sont souvent la clé manquante du diagnostic. Cette conviction justifie ses méthodes d'enquête intrusives et ses incursions illégales au domicile des malades."
     },
     {
       "id": "8",
-      "question": "Quel personnage dirige l’hôpital pendant une grande partie de la série ?",
-      "answers": ["Allison Cameron", "Martha Masters", "Thirteen", "Lisa Cuddy"],
+      "question": "Quelle administratrice dirige l'hôpital et constitue le principal contre-pouvoir aux méthodes de House pendant sept saisons ?",
+      "answers": [
+        "Remy Hadley",
+        "Martha Masters",
+        "Thirteen",
+        "Lisa Cuddy"
+      ],
       "correctIndex": 3,
-      "explanation": "Lisa Cuddy dirige l’hôpital Princeton-Plainsboro pendant une grande partie de la série. Elle doit souvent gérer les méthodes controversées de House."
+      "explanation": "Lisa Cuddy dirige le Princeton-Plainsboro de la saison 1 à la saison 7. Incarnée par Lisa Edelstein, elle tente constamment d'encadrer les méthodes illégales ou éthiquement douteuses de House tout en reconnaissant son génie. Elle quitte la série à la fin de la saison 7 après l'accident de voiture provoqué par House."
     },
     {
       "id": "9",
-      "question": "Quel médecin fait partie de la première équipe de House ?",
-      "answers": ["Allison Cameron", "Chris Taub", "Remy Hadley", "Martha Masters"],
+      "question": "Quelle jeune médecin empathique, tranchant avec l'attitude froide de House, fait partie de sa première équipe aux côtés de Foreman et Chase ?",
+      "answers": [
+        "Allison Cameron",
+        "Thirteen",
+        "Remy Hadley",
+        "Martha Masters"
+      ],
       "correctIndex": 0,
-      "explanation": "Allison Cameron fait partie de la première équipe de House avec Foreman et Chase. Elle se distingue par son empathie envers les patients."
+      "explanation": "Allison Cameron intègre l'équipe de House dès la saison 1, aux côtés d'Eric Foreman et Robert Chase. Son empathie prononcée envers les patients contraste fortement avec le cynisme de House. Elle quitte définitivement le Princeton-Plainsboro à la fin de la saison 6 après son mariage avec Chase."
     },
     {
       "id": "10",
-      "question": "Quel acteur interprète James Wilson ?",
-      "answers": ["Peter Jacobson", "Robert Sean Leonard", "Kal Penn", "David Morse"],
+      "question": "Quel acteur américain, connu pour ses rôles au théâtre de Broadway, prête ses traits au fidèle James Wilson ?",
+      "answers": [
+        "Peter Jacobson",
+        "Robert Sean Leonard",
+        "Kal Penn",
+        "David Morse"
+      ],
       "correctIndex": 1,
-      "explanation": "Robert Sean Leonard interprète James Wilson, oncologue et meilleur ami de House."
+      "explanation": "Robert Sean Leonard incarne James Wilson dans les 8 saisons de la série. Avant Dr House, il s'était illustré au cinéma dans Dead Poets Society (1989) et sur les scènes de Broadway, remportant un Tony Award en 2006 pour la pièce The Invention of Love."
     },
     {
       "id": "11",
-      "question": "Quel personnage est souvent considéré comme le plus ambitieux de la première équipe de House ?",
-      "answers": ["Allison Cameron", "Robert Chase", "Eric Foreman", "Lawrence Kutner"],
+      "question": "Quel membre de la première équipe de House, rigoureux et ambitieux, finit par devenir directeur de l'hôpital ?",
+      "answers": [
+        "Martha Masters",
+        "Remy Hadley",
+        "Eric Foreman",
+        "Thirteen"
+      ],
       "correctIndex": 2,
-      "explanation": "Eric Foreman est souvent présenté comme ambitieux, rigoureux et parfois proche de la manière de penser de House."
+      "explanation": "Eric Foreman, neurologue, est le membre le plus ambitieux de la première équipe. Son arc narratif le rapproche progressivement du profil de House — dont il adopte certaines méthodes — et il succède finalement à Cuddy comme directeur médical à partir de la saison 8."
     },
     {
       "id": "12",
-      "question": "Quel médecin australien fait partie de la première équipe de House ?",
-      "answers": ["Chris Taub", "James Wilson", "Gregory House", "Robert Chase"],
+      "question": "Quel médecin australien, fils d'un missionnaire catholique, intègre l'équipe de House dès le pilote et reste dans la série jusqu'à la fin ?",
+      "answers": [
+        "Martha Masters",
+        "Thirteen",
+        "Remy Hadley",
+        "Robert Chase"
+      ],
       "correctIndex": 3,
-      "explanation": "Robert Chase est un médecin australien qui fait partie de la première équipe de House. Il évolue beaucoup au fil de la série."
+      "explanation": "Robert Chase est un médecin australien formé à Oxford, présent de la saison 1 à la saison 8. Il entretient une relation complexe avec l'autorité. Il épouse Allison Cameron en saison 6 avant que leur mariage ne se fracture."
     },
     {
       "id": "13",
-      "question": "Quel thème revient régulièrement dans Dr House ?",
-      "answers": ["Les diagnostics impossibles", "La magie", "Les voyages temporels", "Les super-héros"],
-      "correctIndex": 0,
-      "explanation": "Chaque épisode tourne souvent autour d’un cas médical complexe, avec un diagnostic difficile à établir."
+      "question": "Quel personnage de la série Dr House meurt par suicide dans la saison 5, choquant l'ensemble de l'équipe ?",
+      "answers": [
+        "Remy Hadley",
+        "Thirteen",
+        "Martha Masters",
+        "Lawrence Kutner"
+      ],
+      "correctIndex": 3,
+      "explanation": "Lawrence Kutner, interprété par Kal Penn, se suicide sans explication au début de la saison 5 — une mort d'autant plus surprenante que son personnage était l'un des plus attachants. Ce départ correspond au souhait de Kal Penn de rejoindre l'administration Obama comme conseiller à la Maison-Blanche en 2009."
     },
     {
       "id": "14",
-      "question": "Quel personnage est surnommé “Thirteen” ?",
-      "answers": ["Martha Masters", "Remy Hadley", "Amber Volakis", "Lisa Cuddy"],
+      "question": "Quel surnom numérique reçoit Remy Hadley lors du processus de recrutement organisé par House pour former sa nouvelle équipe ?",
+      "answers": [
+        "Dix",
+        "Treize",
+        "Six",
+        "Vingt-deux"
+      ],
       "correctIndex": 1,
-      "explanation": "Remy Hadley est surnommée “Thirteen” lors du processus de sélection de la nouvelle équipe de House. Ce surnom reste associé à son personnage."
+      "explanation": "Remy Hadley est surnommée Treize (Thirteen en version originale) lors du processus de sélection de la nouvelle équipe de House en saison 4. Ce surnom, attribué à chaque candidat pour les dépersonnaliser, reste associé à son personnage jusqu'à la fin de la série. Elle est atteinte de la maladie de Huntington."
     },
     {
       "id": "15",
-      "question": "Quel service de télévision diffusait initialement Dr House aux États-Unis ?",
-      "answers": ["NBC", "ABC", "FOX", "CBS"],
-      "correctIndex": 2,
-      "explanation": "Dr House a été diffusée à l’origine sur FOX aux États-Unis."
+      "question": "Sur quelle chaîne américaine la série a-t-elle été diffusée de 2004 à 2012, après avoir été initialement refusée par plusieurs networks ?",
+      "answers": [
+        "FOX",
+        "NBC",
+        "ABC",
+        "CBS"
+      ],
+      "correctIndex": 0,
+      "explanation": "Dr House a été diffusée sur Fox de septembre 2004 à mai 2012, soit 8 saisons et 177 épisodes. La série a dépassé les 20 millions de téléspectateurs à son apogée aux États-Unis, devenant l'une des plus regardées au monde."
     },
     {
       "id": "16",
-      "question": "Quel personnage est oncologue ?",
-      "answers": ["Eric Foreman", "Robert Chase", "Chris Taub", "James Wilson"],
-      "correctIndex": 3,
-      "explanation": "James Wilson est oncologue. Sa spécialité médicale et sa personnalité empathique contrastent fortement avec House."
+      "question": "Quelle petite amie de Wilson, concurrente redoutée lors du recrutement de la saison 4, meurt tragiquement à la fin de cette même saison ?",
+      "answers": [
+        "Remy Hadley",
+        "Martha Masters",
+        "Amber Volakis",
+        "Thirteen"
+      ],
+      "correctIndex": 2,
+      "explanation": "Amber Volakis, surnommée « la Garce sans fond » lors du recrutement de la saison 4, est la petite amie de Wilson. Elle meurt à la fin de la saison 4 des suites d'un accident de bus, dans l'un des épisodes les plus éprouvants de la série. Sa mort dévaste Wilson et fragilise temporairement son amitié avec House."
     },
     {
       "id": "17",
-      "question": "Quel élément caractérise souvent la personnalité de House ?",
-      "answers": ["Son cynisme", "Son optimisme naïf", "Sa timidité", "Sa peur des conflits"],
-      "correctIndex": 0,
-      "explanation": "House est connu pour son cynisme, son humour mordant et son mépris fréquent des conventions sociales."
+      "question": "Quel médecin au passé de chirurgien plastique, père de famille débordé, rejoint la seconde équipe de House en saison 4 ?",
+      "answers": [
+        "Martha Masters",
+        "Remy Hadley",
+        "Chris Taub",
+        "Thirteen"
+      ],
+      "correctIndex": 2,
+      "explanation": "Chris Taub, interprété par Peter Jacobson, est un ancien chirurgien plasticien qui rejoint l'équipe de House en saison 4 après avoir quitté la chirurgie plastique à la suite d'un scandale provoqué par une relation inappropriée avec une patiente. Son personnage incarne les tensions entre ambition personnelle, vie de famille et loyauté envers House."
     },
     {
       "id": "18",
-      "question": "Quel personnage entretient une relation amoureuse compliquée avec House ?",
-      "answers": ["Allison Cameron", "Lisa Cuddy", "Martha Masters", "Amber Volakis"],
+      "question": "Quel événement dramatique marque la rupture définitive entre House et Cuddy à la fin de la saison 7 ?",
+      "answers": [
+        "House lui révèle un secret médical",
+        "House fonce avec sa voiture dans son salon",
+        "House démissionne de l'hôpital",
+        "Cuddy découvre son addiction"
+      ],
       "correctIndex": 1,
-      "explanation": "La relation entre House et Lisa Cuddy est l’une des intrigues importantes de la série, marquée par l’attirance, les conflits et la difficulté de House à changer."
+      "explanation": "À la fin de la saison 7, House fonce délibérément avec sa voiture dans le salon de Cuddy après l'annonce de leur rupture. Cette scène marque la rupture définitive entre House et Cuddy, et entraîne le départ de Lisa Edelstein de la série à partir de la saison 8."
     },
     {
       "id": "19",
-      "question": "Quel genre décrit le mieux Dr House ?",
-      "answers": ["Comédie musicale", "Fantasy", "Drame médical", "Science-fiction"],
-      "correctIndex": 2,
-      "explanation": "Dr House est principalement un drame médical centré sur des cas complexes, des diagnostics rares et les relations entre médecins."
+      "question": "Quel établissement House intègre de force à la fin de la saison 5, après une hallucination prolongée impliquant Amber ?",
+      "answers": [
+        "Une prison fédérale",
+        "Un cabinet médical privé",
+        "Un centre de désintoxication classique",
+        "Mayfield Psychiatric Hospital"
+      ],
+      "correctIndex": 3,
+      "explanation": "House est interné volontairement au Mayfield Psychiatric Hospital à la fin de la saison 5, après avoir réalisé qu'il hallucinait la présence d'Amber Volakis — la petite amie décédée de Wilson. Ce séjour, qui occupe une partie de la saison 6, est l'une des périodes les plus introspectives de la série."
     },
     {
       "id": "20",
-      "question": "Quel objet House utilise souvent pour se déplacer ?",
-      "answers": ["Un fauteuil roulant", "Des béquilles", "Un déambulateur", "Une canne"],
-      "correctIndex": 3,
-      "explanation": "House utilise une canne en raison de sa douleur chronique à la jambe. Cet accessoire est devenu l’un des symboles du personnage."
+      "question": "Comment House choisit-il de passer les derniers mois qui lui restent, une fois sa mort simulée et sa condamnation évitée ?",
+      "answers": [
+        "Il part en road trip avec Wilson",
+        "Il reprend son poste à l'hôpital",
+        "Il s'exile seul à l'étranger",
+        "Il se marie avec Cuddy"
+      ],
+      "correctIndex": 0,
+      "explanation": "Dans le finale de la saison 8 diffusé en mai 2012, House simule sa mort pour éviter la prison et passe ses derniers mois aux côtés de Wilson, condamné par un cancer. Les deux amis partent en road trip, concluant la série sur une note à la fois mélancolique et lumineuse, fidèle à la relation centrale entre les deux personnages."
     }
   ]
 }

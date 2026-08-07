@@ -1,8 +1,8 @@
 {
   "slug": "quiz-series-action",
-  "title": "Quiz Série TV - Les séries d’action les plus intenses",
-  "description": "Explosions, missions secrètes, combats et héros légendaires : ce quiz teste tes connaissances sur les meilleures séries d’action.",
-  "descriptionSeo": "Entre espionnage, opérations secrètes, combats spectaculaires et héros iconiques, ce quiz sur les séries d’action replonge dans les programmes les plus intenses de la télévision. Des séries cultes des années 80 aux grands succès modernes du streaming, retrouve les personnages, missions et univers explosifs des séries d’action les plus populaires.",
+  "title": "Quiz Série TV - Les séries d'action les plus intenses",
+  "description": "Explosions, missions secrètes, combats et héros légendaires : ce quiz teste tes connaissances sur les meilleures séries d'action.",
+  "descriptionSeo": "Entre espionnage, opérations secrètes, combats spectaculaires et héros iconiques, ce quiz sur les séries d'action replonge dans les programmes les plus intenses de la télévision. Des séries cultes des années 80 aux grands succès modernes du streaming, retrouve les personnages, missions et univers explosifs des séries d'action les plus populaires.",
   "category": {
     "name": "Série TV",
     "slug": "serie-tv"
@@ -13,148 +13,248 @@
   "images": {
     "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1778498170/action_eyd12a.jpg",
     "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1778498170/action_eyd12a.jpg",
-    "alt": "Quiz séries d’action"
+    "alt": "Quiz séries d'action"
   },
   "questions": [
     {
       "id": "1",
       "question": "Quelle série suit Jack Bauer dans des missions antiterroristes en temps réel ?",
-      "answers": ["Homeland", "24 Heures chrono", "NCIS", "Bodyguard"],
-      "correctIndex": 1,
-      "explanation": "24 Heures chrono a révolutionné les séries d’action avec son format en temps réel où chaque saison représente une seule journée."
+      "answers": [
+        "Homeland",
+        "NCIS",
+        "Bodyguard",
+        "24 Heures chrono"
+      ],
+      "correctIndex": 3,
+      "explanation": "24 Heures chrono (Fox, 2001-2010) a révolutionné la télévision avec son format temps réel : chaque saison couvre exactement 24 heures en 24 épisodes. La série a remporté un Emmy du Meilleur Drame en 2006."
     },
     {
       "id": "2",
-      "question": "Quelle série suit un groupe d’anciens soldats aidant des innocents tout en étant recherchés ?",
-      "answers": ["Agence tous risques", "MacGyver", "Supercopter", "Walker Texas Ranger"],
+      "question": "Quelle série suit un groupe d'anciens soldats aidant des innocents tout en étant recherchés ?",
+      "answers": [
+        "Agence tous risques",
+        "MacGyver",
+        "Supercopter",
+        "Walker Texas Ranger"
+      ],
       "correctIndex": 0,
-      "explanation": "Agence tous risques est devenue culte grâce à ses gadgets, ses explosions spectaculaires et le personnage emblématique de Barracuda."
+      "explanation": "Agence tous risques (NBC, 1983-1987, 5 saisons) est devenue culte grâce à ses gadgets et explosions spectaculaires. Le personnage emblématique est B.A. Baracus, incarné par Mr T, avec sa célèbre chaîne en or et sa fourgonnette noire."
     },
     {
       "id": "3",
-      "question": "Quelle série met en scène un pilote utilisant l’hélicoptère Airwolf ?",
-      "answers": ["K 2000", "Tonnerre mécanique", "Supercopter", "Magnum"],
+      "question": "Quelle série met en scène un pilote utilisant l'hélicoptère Airwolf ?",
+      "answers": [
+        "K 2000",
+        "Tonnerre mécanique",
+        "Supercopter",
+        "Magnum"
+      ],
       "correctIndex": 2,
-      "explanation": "Supercopter mélangeait espionnage et action militaire autour d’un hélicoptère ultra-technologique devenu emblématique des années 80."
+      "explanation": "Supercopter (CBS, 1984-1987) mettait en scène l'hélicoptère Airwolf piloté par Stringfellow Hawke. La série a duré 4 saisons et mêlait espionnage et action militaire dans un contexte de guerre froide."
     },
     {
       "id": "4",
       "question": "Quelle série suit Michael Knight et sa voiture intelligente KITT ?",
-      "answers": ["Hooker", "CHiPs", "Tonnerre mécanique", "K 2000"],
+      "answers": [
+        "Hooker",
+        "CHiPs",
+        "Tonnerre mécanique",
+        "K 2000"
+      ],
       "correctIndex": 3,
-      "explanation": "K 2000 a marqué les années 80 avec KITT, une voiture dotée d’intelligence artificielle capable de parler et d’aider Michael Knight dans ses missions."
+      "explanation": "K 2000 (NBC, 1982-1986, 4 saisons) a marqué les années 80 avec KITT, une Pontiac Trans Am dotée d'intelligence artificielle. David Hasselhoff y incarnait Michael Knight dans 90 épisodes diffusés dans plus de 80 pays."
     },
-  {
-  "id": "5",
-  "question": "Quelle série met en scène un aventurier ingénieux capable de fabriquer des solutions avec des objets du quotidien ?",
-  "answers": ["MacGyver", "L’Homme qui tombe à pic", "Rick Hunter", "Le Rebelle"],
-  "correctIndex": 0,
-  "explanation": "MacGyver est devenu célèbre pour ses inventions improvisées utilisant des objets simples comme des trombones, du ruban adhésif ou des allumettes."
-},
+    {
+      "id": "5",
+      "question": "Quelle série met en scène un aventurier ingénieux fabriquant des solutions avec des objets du quotidien ?",
+      "answers": [
+        "MacGyver",
+        "L'Homme qui tombe à pic",
+        "Rick Hunter",
+        "Le Rebelle"
+      ],
+      "correctIndex": 0,
+      "explanation": "MacGyver (ABC, 1985-1992, 7 saisons) a donné naissance au verbe anglais « to MacGyver ». Le héros résolvait chaque situation avec des objets ordinaires, sans jamais utiliser d'arme à feu — une originalité rare dans le genre action."
+    },
     {
       "id": "6",
-      "question": "Quelle série suit un justicier aveugle combattant le crime dans Hell’s Kitchen ?",
-      "answers": ["Arrow", "The Punisher", "Daredevil", "Luke Cage"],
+      "question": "Quelle série suit un justicier aveugle combattant le crime dans Hell's Kitchen ?",
+      "answers": [
+        "Arrow",
+        "The Punisher",
+        "Daredevil",
+        "Luke Cage"
+      ],
       "correctIndex": 2,
-      "explanation": "Daredevil a été saluée pour ses combats réalistes et ses longs plans-séquences devenus emblématiques des séries d’action modernes."
+      "explanation": "Daredevil (Netflix/Marvel, 2015-2018) a été saluée pour ses combats chorégraphiés et ses plans-séquences de plusieurs minutes sans coupe. La série a obtenu une note de 98 % sur Rotten Tomatoes pour sa saison 1."
     },
     {
       "id": "7",
       "question": "Quelle série suit un ancien agent gouvernemental aidé par une intelligence artificielle nommée Machine ?",
-      "answers": ["Person of Interest", "Fringe", "Mr. Robot", "Alias"],
-      "correctIndex": 0,
-      "explanation": "Person of Interest mélange surveillance technologique, intelligence artificielle et action dans une ambiance proche du thriller paranoïaque."
+      "answers": [
+        "Fringe",
+        "Alias",
+        "Person of Interest",
+        "Mr. Robot"
+      ],
+      "correctIndex": 2,
+      "explanation": "Person of Interest (CBS, 2011-2016, 5 saisons, 103 épisodes) a été créée par Jonathan Nolan. La série anticipait les débats sur la surveillance de masse et l'IA, bien avant que ces sujets ne dominent l'actualité technologique."
     },
     {
       "id": "8",
       "question": "Quelle série suit un groupe de braqueurs dirigés par un mystérieux Professeur ?",
-      "answers": ["Lupin", "Narcos", "Elite", "La Casa de Papel"],
+      "answers": [
+        "Lupin",
+        "Narcos",
+        "Elite",
+        "La Casa de Papel"
+      ],
       "correctIndex": 3,
-      "explanation": "La Casa de Papel est devenue un phénomène mondial grâce à son rythme intense, ses retournements de situation et ses personnages marquants."
+      "explanation": "La Casa de Papel (Netflix, 2017-2021) est devenue la série non anglophone la plus regardée de l'histoire de Netflix, un record mondial salué dès la diffusion de sa saison 4 en 2020."
     },
     {
       "id": "9",
       "question": "Quelle série suit Oliver Queen devenant un archer justicier à Star City ?",
-      "answers": ["Arrow", "Flash", "Titans", "Smallville"],
+      "answers": [
+        "Arrow",
+        "Flash",
+        "Titans",
+        "Smallville"
+      ],
       "correctIndex": 0,
-      "explanation": "Arrow a largement participé au retour en force des séries de super-héros à la télévision dans les années 2010."
+      "explanation": "Arrow (CW, 2012-2020, 8 saisons) a lancé l'Arrowverse, un univers partagé DC regroupant plus de 6 séries dérivées dont The Flash et Legends of Tomorrow. Elle a totalisé 170 épisodes en 8 ans de diffusion."
     },
     {
       "id": "10",
       "question": "Quelle série met en scène des super-héros corrompus surveillés par un groupe appelé The Boys ?",
-      "answers": ["Invincible", "Watchmen", "The Boys", "Peacemaker"],
-      "correctIndex": 2,
-      "explanation": "The Boys détourne les codes classiques des super-héros avec des personnages puissants mais extrêmement violents et manipulateurs."
+      "answers": [
+        "Invincible",
+        "The Boys",
+        "Watchmen",
+        "Peacemaker"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Boys (Prime Video, 2019-2024) est adaptée du comics de Garth Ennis. La série s'est imposée comme l'un des plus grands succès de Prime Video, avec des saisons régulièrement classées parmi les lancements les plus regardés de la plateforme."
     },
     {
       "id": "11",
       "question": "Quelle série suit un ancien soldat devenu garde du corps pour une ministre britannique ?",
-      "answers": ["Bodyguard", "Homeland", "Jack Ryan", "Fauda"],
+      "answers": [
+        "Bodyguard",
+        "Homeland",
+        "Jack Ryan",
+        "Fauda"
+      ],
       "correctIndex": 0,
-      "explanation": "Bodyguard a connu un immense succès grâce à ses scènes de tension politique et à son suspense presque permanent."
+      "explanation": "Bodyguard (BBC One, 2018, 6 épisodes) a été regardée par 17,1 millions de téléspectateurs pour son final, un record pour la BBC depuis 2002. La série a remporté le Golden Globe de la Meilleure Série Dramatique en 2019."
     },
     {
       "id": "12",
       "question": "Quelle série suit des agents du FBI enquêtant sur des phénomènes paranormaux et scientifiques ?",
-      "answers": ["X-Files", "Fringe", "Lost", "Heroes"],
+      "answers": [
+        "Supernatural",
+        "Fringe",
+        "Lost",
+        "Heroes"
+      ],
       "correctIndex": 1,
-      "explanation": "Fringe mélange action, science-fiction et univers parallèles dans une série inspirée des grands thrillers fantastiques."
+      "explanation": "Fringe (FOX, 2008-2013, 5 saisons, 100 épisodes) a été créée par J.J. Abrams. La série explorait les univers parallèles et la science-fiction de frontière sur 5 saisons, dont une dernière plus courte (13 épisodes) conçue comme une conclusion volontairement resserrée."
     },
     {
       "id": "13",
       "question": "Quelle série suit des agents infiltrés américains vivant comme une famille soviétique ?",
-      "answers": ["Alias", "Homeland", "Jack Ryan", "The Americans"],
+      "answers": [
+        "Alias",
+        "Homeland",
+        "Jack Ryan",
+        "The Americans"
+      ],
       "correctIndex": 3,
-      "explanation": "The Americans mélange espionnage et drame familial dans le contexte tendu de la guerre froide."
+      "explanation": "The Americans (FX, 2013-2018, 6 saisons) a remporté 2 Emmy Awards et 2 Golden Globes. Elle s'inspirait de l'affaire Illegals Program du KGB, démantelée par le FBI en 2010 aux États-Unis."
     },
     {
       "id": "14",
       "question": "Quelle série suit un analyste de la CIA interprété par John Krasinski ?",
-      "answers": ["Jack Ryan", "Reacher", "Bosch", "Shooter"],
-      "correctIndex": 0,
-      "explanation": "Jack Ryan modernise le célèbre personnage créé par Tom Clancy avec des missions mêlant terrorisme, espionnage et géopolitique."
+      "answers": [
+        "Reacher",
+        "Jack Ryan",
+        "Bosch",
+        "Shooter"
+      ],
+      "correctIndex": 1,
+      "explanation": "Jack Ryan (Prime Video, 2018-2023, 4 saisons) est adaptée des romans de Tom Clancy. John Krasinski est le 5ᵉ acteur à incarner le personnage au cinéma/TV après Alec Baldwin, Harrison Ford, Ben Affleck et Chris Pine."
     },
     {
       "id": "15",
       "question": "Quelle série suit un ancien policier militaire imposant nommé Jack Reacher ?",
-      "answers": ["The Punisher", "Reacher", "Strike Back", "Banshee"],
+      "answers": [
+        "The Punisher",
+        "Reacher",
+        "Strike Back",
+        "Banshee"
+      ],
       "correctIndex": 1,
-      "explanation": "Reacher est adaptée des romans de Lee Child et met en avant des scènes de combat très brutales et un héros extrêmement méthodique."
+      "explanation": "Reacher (Prime Video, depuis 2022) est adaptée des 27 romans de Lee Child vendus à plus de 100 millions d'exemplaires. Alan Ritchson mesure 1,93 m et correspond davantage à la description physique du livre que Tom Cruise dans les films."
     },
     {
       "id": "16",
-      "question": "Quelle série suit un ancien marine cherchant à venger sa famille assassinée ?",
-      "answers": ["Shooter", "The Punisher", "Seal Team", "24 Heures chrono"],
+      "question": "Quelle série suit la famille Dutton défendant son ranch dans le Montana face aux promoteurs ?",
+      "answers": [
+        "Outer Range",
+        "Yellowstone",
+        "1883",
+        "Longmire"
+      ],
       "correctIndex": 1,
-      "explanation": "The Punisher est connue pour son ton beaucoup plus sombre et violent que la majorité des séries de super-héros."
+      "explanation": "Yellowstone (Paramount Network, 2018-2024, 5 saisons) avec Kevin Costner s'est imposée comme la série câble la plus regardée aux États-Unis de son époque, redonnant au western ses lettres de noblesse à l'ère du streaming."
     },
     {
       "id": "17",
       "question": "Quelle série suit des soldats des forces spéciales britanniques dans des missions dangereuses ?",
-      "answers": ["Strike Back", "Fauda", "NCIS", "SWAT"],
+      "answers": [
+        "Strike Back",
+        "Fauda",
+        "NCIS",
+        "SWAT"
+      ],
       "correctIndex": 0,
-      "explanation": "Strike Back est célèbre pour ses fusillades spectaculaires, ses poursuites explosives et ses missions internationales."
+      "explanation": "Strike Back (Sky/Cinemax, 2010-2020, 8 saisons, 80 épisodes) est connue pour ses scènes d'action tournées dans des décors réels : Kenya, Thaïlande, Liban, ex-Yougoslavie. Elle est adaptée du roman de Chris Ryan, ancien membre du SAS."
     },
     {
       "id": "18",
-      "question": "Quelle série suit des policiers d’élite du SWAT à Los Angeles ?",
-      "answers": ["Chicago PD", "NCIS", "SWAT", "FBI"],
+      "question": "Quelle série suit des policiers d'élite du SWAT à Los Angeles ?",
+      "answers": [
+        "Chicago PD",
+        "NCIS",
+        "SWAT",
+        "FBI"
+      ],
       "correctIndex": 2,
-      "explanation": "SWAT mélange opérations tactiques, action urbaine et tensions internes au sein d’une unité d’intervention spécialisée."
+      "explanation": "SWAT (CBS, depuis 2017, plus de 6 saisons) est inspirée du film éponyme de 2003 et de la série originale des années 1970. Elle suit l'unité spécialisée de la LAPD et met en avant les tensions entre opérations tactiques et relations communautaires."
     },
- {
-  "id": "19",
-  "question": "Quelle série suit une ancienne espionne travaillant pour la CIA après avoir été recrutée par une organisation secrète ?",
-  "answers": ["Nikita", "Alias", "Covert Affairs", "Quantico"],
-  "correctIndex": 1,
-  "explanation": "Alias a marqué les séries d’action des années 2000 avec ses missions d’infiltration, ses déguisements, ses doubles jeux et le personnage de Sydney Bristow."
-},
+    {
+      "id": "19",
+      "question": "Quelle série suit Nikita, une tueuse qui s'infiltre dans l'agence secrète qui l'a formée pour la détruire ?",
+      "answers": [
+        "Alias",
+        "Quantico",
+        "Covert Affairs",
+        "Nikita"
+      ],
+      "correctIndex": 3,
+      "explanation": "Nikita (CW, 2010-2013, 4 saisons) est la 3ᵉ adaptation du film Nikita de Luc Besson (1990). Maggie Q y incarne une espionne retournée contre Division, l'agence noire qui l'a recrutée après l'avoir arrachée au couloir de la mort."
+    },
     {
       "id": "20",
-      "question": "Quelle série suit Lucas Hood, ancien criminel devenant faux shérif d’une petite ville ?",
-      "answers": ["Justified", "Reacher", "Banshee", "Longmire"],
+      "question": "Quelle série suit Lucas Hood, ancien criminel devenant faux shérif d'une petite ville ?",
+      "answers": [
+        "Justified",
+        "Reacher",
+        "Banshee",
+        "Longmire"
+      ],
       "correctIndex": 2,
-      "explanation": "Banshee est devenue culte pour ses scènes d’action extrêmement brutales et son mélange de western moderne et de thriller criminel."
+      "explanation": "Banshee (Cinemax, 2013-2016, 4 saisons) a été créée par Jonathan Tropper et David Schickler. La série est réputée pour ses scènes de combat parmi les plus brutales de la télévision, et son mélange original de western moderne et de thriller criminel."
     }
   ]
 }

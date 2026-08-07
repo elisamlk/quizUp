@@ -1,260 +1,160 @@
 {
-    "slug": "quiz-sport-ko-plus-rapides-histoire-boxe",
-    "title": "Quiz Sport - Boxe - Connais-tu les KO les plus rapides de l’histoire ?",
-    "description": "Teste tes connaissances sur les KO les plus rapides et les combats les plus expéditifs de l’histoire de la boxe avec 20 questions.",
-    "descriptionSeo": "Des records fulgurants de Mike Collins à Mike Tyson, en passant par Zolani Tete, Seniesa Estrada, James J. Jeffries ou Muhammad Ali, les KO les plus rapides ont marqué l’histoire de la boxe. Ce quiz de 20 questions te propose de retrouver les combats les plus expéditifs, entre records, titres mondiaux, exploits instantanés et punchs entrés dans la légende du ring.",
-    "category": {
-        "name": "Sport",
-        "slug": "sport"
+  "slug": "quiz-sport-ko-plus-rapides-histoire-boxe",
+  "title": "Quiz Sport - Boxe - Connais-tu les KO les plus rapides de l'histoire ?",
+  "description": "Teste tes connaissances sur les KO les plus rapides et les combats les plus expéditifs de l'histoire de la boxe avec 20 questions.",
+  "descriptionSeo": "Des records fulgurants de Mike Collins à Mike Tyson, en passant par Zolani Tete, Seniesa Estrada, James J. Jeffries ou Muhammad Ali, les KO les plus rapides ont marqué l'histoire de la boxe. Ce quiz de 20 questions te propose de retrouver les combats les plus expéditifs, entre records, titres mondiaux, exploits instantanés et punchs entrés dans la légende du ring.",
+  "category": {
+    "name": "Sport",
+    "slug": "sport"
+  },
+  "createdAt": "2026-04-17",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776429538/cover_zlyqur.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776429538/cover_zlyqur.jpg",
+    "alt": "Quiz KO les plus rapides de l'histoire de la boxe"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "question": "Quel boxeur détient le record du KO le plus rapide dans un combat de championnat du monde, avec une victoire en 11 secondes en 2017 ?",
+      "answers": ["Mike Tyson", "Zolani Tete", "Daniel Jiménez", "Gerald McClellan"],
+      "correctIndex": 1,
+      "explanation": "Zolani Tete a mis KO Siboniso Gonya en 11 secondes en novembre 2017 à Belfast, établissant le record du KO le plus rapide dans un combat pour un titre mondial reconnu. Ce type de performance est extrêmement rare, car les combats pour un titre opposent normalement des boxeurs de niveau très proche."
     },
-    "createdAt": "2026-04-17",
-    "isNew": true,
-    "isPopular": true,
-    "images": {
-        "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776429538/cover_zlyqur.jpg",
-        "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776429538/cover_zlyqur.jpg",
-        "alt": "Quiz KO les plus rapides de l’histoire de la boxe"
+    {
+      "id": "2",
+      "question": "Quelle boxeuse détient le record du KO le plus rapide de l'histoire de la boxe féminine avec un arrêt en 7 secondes ?",
+      "answers": ["Seniesa Estrada", "Claressa Shields", "Amanda Serrano", "Katie Taylor"],
+      "correctIndex": 0,
+      "explanation": "Seniesa Estrada a remporté son combat contre Miranda Adkins en seulement 7 secondes en 2021, établissant le record de la boxe féminine professionnelle. Ce record a fait le tour du monde, mais il a aussi rappelé combien l'écart de niveau entre deux adversaires peut rendre un combat instantanément déséquilibré."
     },
-    "questions": [
-        {
-            "id": "1",
-            "question": "Quel boxeur détient l’un des KO les plus rapides en championnat du monde avec une victoire en 11 secondes ?",
-            "answers": [
-                "Mike Tyson",
-                "Zolani Tete",
-                "Daniel Jiménez",
-                "Gerald McClellan"
-            ],
-            "correctIndex": 1,
-            "explanation": "Zolani Tete a mis KO Siboniso Gonya en 11 secondes en 2017, établissant le record du KO le plus rapide dans un combat de championnat du monde. Ce type de performance est extrêmement rare, car les combats pour un titre opposent normalement des boxeurs de niveau très proche."
-        },
-        {
-            "id": "2",
-            "question": "Quelle boxeuse détient le record du KO le plus rapide de l’histoire de la boxe féminine avec un arrêt en 7 secondes ?",
-            "answers": [
-                "Seniesa Estrada",
-                "Claressa Shields",
-                "Amanda Serrano",
-                "Katie Taylor"
-            ],
-            "correctIndex": 0,
-            "explanation": "Seniesa Estrada a remporté son combat contre Miranda Adkins en seulement 7 secondes. Ce record a fait le tour du monde, mais il a aussi rappelé combien l’écart de niveau entre deux adversaires peut rendre un combat instantanément déséquilibré."
-        },
-        {
-            "id": "3",
-            "question": "Quel champion a établi le record du KO le plus rapide dans un combat de championnat du monde en 11 secondes ?",
-            "answers": [
-                "Daniel Jiménez",
-                "Mike Tyson",
-                "Gerald McClellan",
-                "Zolani Tete"
-            ],
-            "correctIndex": 3,
-            "explanation": "Zolani Tete a battu Siboniso Gonya en 11 secondes dans un combat pour un titre mondial. La performance est remarquable car elle combine deux choses rarement réunies : un record chronométrique et un enjeu de championnat du monde."
-        },
-        {
-            "id": "4",
-            "question": "Quel boxeur portoricain détenait auparavant le record du KO le plus rapide en championnat du monde grâce à une victoire en 17 secondes ?",
-            "answers": [
-                "Harald Geier",
-                "Daniel Jiménez",
-                "Juan Manuel López",
-                "Miguel Cotto"
-            ],
-            "correctIndex": 1,
-            "explanation": "Daniel Jiménez avait établi ce record mondial en stoppant Harald Geier en 17 secondes. Pendant plus de vingt ans, cette marque a servi de référence pour mesurer la rareté d’un combat de championnat réglé avant même d’avoir vraiment commencé."
-        },
-        {
-            "id": "5",
-            "question": "Quel champion du monde des poids moyens a défendu son titre en 20 secondes face à Jay Bell en 1993 ?",
-            "answers": [
-                "Bernard Hopkins",
-                "Julian Jackson",
-                "Gerald McClellan",
-                "Nigel Benn"
-            ],
-            "correctIndex": 2,
-            "explanation": "Gerald McClellan a écrasé Jay Bell en 20 secondes lors d’une défense mondiale WBC. Cet exploit illustre à quel point certains cogneurs d’élite étaient capables de transformer la moindre ouverture en fin de combat immédiate."
-        },
-        {
-            "id": "6",
-            "question": "Quel adversaire Mike Tyson a-t-il battu en 91 secondes dans l’un des KO les plus célèbres de sa carrière ?",
-            "answers": [
-                "Tony Tucker",
-                "Trevor Berbick",
-                "Michael Spinks",
-                "Frank Bruno"
-            ],
-            "correctIndex": 2,
-            "explanation": "Mike Tyson a mis KO Michael Spinks en 91 secondes en 1988. Ce combat est devenu emblématique car Spinks était invaincu et considéré comme un véritable champion, ce qui rend la rapidité de la victoire encore plus impressionnante."
-        },
-        {
-            "id": "7",
-            "question": "Quel adversaire Mike Tyson a-t-il stoppé en 38 secondes à Glasgow en 2000 ?",
-            "answers": [
-                "Michael Moorer",
-                "Frank Bruno",
-                "Andrew Golota",
-                "Lou Savarese"
-            ],
-            "correctIndex": 3,
-            "explanation": "Lou Savarese a été balayé en 38 secondes à Glasgow. Ce combat est souvent cité comme l’un des derniers éclairs du Tyson tardif, capable, même après son apogée, de produire un chaos total en moins d’une minute."
-        },
-        {
-            "id": "8",
-            "question": "Quel adversaire Mike Tyson a-t-il mis KO en 49 secondes lors de la dernière victoire de sa carrière professionnelle ?",
-            "answers": [
-                "Frans Botha",
-                "Clifford Etienne",
-                "Julius Francis",
-                "Brian Nielsen"
-            ],
-            "correctIndex": 1,
-            "explanation": "Clifford Etienne a été mis KO en 49 secondes en 2003. Cette victoire est la dernière de Tyson chez les professionnels, ce qui lui donne une place particulière dans sa carrière : un dernier éclair de destruction avant la fin de son parcours."
-        },
-        {
-            "id": "9",
-            "question": "Quel champion a remporté le plus court combat pour un titre mondial poids lourds, en 55 secondes, face à Jack Finnegan ?",
-            "answers": [
-                "Mike Tyson",
-                "Joe Louis",
-                "James J. Jeffries",
-                "Jack Dempsey"
-            ],
-            "correctIndex": 2,
-            "explanation": "James J. Jeffries détient ce repère historique avec une victoire en 55 secondes contre Jack Finnegan. Ce record montre que les combats éclair ne sont pas qu’un phénomène moderne : ils existent depuis les premières grandes heures du championnat du monde."
-        },
-        {
-            "id": "10",
-            "question": "Quel boxeur américain a battu Michael Spinks en 91 secondes lors d’un combat devenu emblématique des KO rapides ?",
-            "answers": [
-                "George Foreman",
-                "Larry Holmes",
-                "Mike Tyson",
-                "Evander Holyfield"
-            ],
-            "correctIndex": 2,
-            "explanation": "Mike Tyson a écrasé Michael Spinks en seulement 91 secondes, dans ce qui reste l’un des KO les plus marquants de l’histoire des poids lourds. Ce combat symbolise le sommet de la domination de Tyson à la fin des années 1980."
-        },
-        {
-            "id": "11",
-            "question": "Quel champion invaincu Mike Tyson a-t-il renversé en 91 secondes dans l’un des plus célèbres KO éclair de l’histoire des poids lourds ?",
-            "answers": [
-                "Michael Spinks",
-                "Trevor Berbick",
-                "Tony Tucker",
-                "Frank Bruno"
-            ],
-            "correctIndex": 0,
-            "explanation": "Michael Spinks a été balayé en 91 secondes par Tyson en 1988. Ce combat est resté célèbre parce qu’il opposait deux champions majeurs, et que l’issue fulgurante a symbolisé le pic absolu de la terreur sportive incarnée par Tyson."
-        },
-        {
-            "id": "12",
-            "question": "Quel outsider a surpris Tommy Morrison en lui prenant le titre WBO poids lourds après seulement 97 secondes ?",
-            "answers": [
-                "Herbie Hide",
-                "Michael Bentt",
-                "Ray Mercer",
-                "Riddick Bowe"
-            ],
-            "correctIndex": 1,
-            "explanation": "Michael Bentt a créé une énorme surprise en stoppant Tommy Morrison en 97 secondes. C’est l’exemple parfait d’un combat où le statut médiatique, la réputation et la dynamique préalable s’effacent d’un seul coup face à un démarrage parfait."
-        },
-        {
-            "id": "13",
-            "question": "Quel champion WBO des poids lourds a défendu sa ceinture en 52 secondes contre Damon Reed ?",
-            "answers": [
-                "Lamon Brewster",
-                "Tommy Burns",
-                "Herbie Hide",
-                "Mike Tyson"
-            ],
-            "correctIndex": 2,
-            "explanation": "Herbie Hide a stoppé Damon Reed en 52 secondes. Dans l’histoire des titres poids lourds, ce genre de défense express reste rare, car le niveau moyen des prétendants rend normalement les fins ultra-précoces beaucoup moins probables."
-        },
-        {
-            "id": "14",
-            "question": "Quel boxeur sud-africain a remporté un combat de championnat du monde en seulement 11 secondes en 2017 ?",
-            "answers": [
-                "Moruti Mthalane",
-                "Zolani Tete",
-                "Brian Mitchell",
-                "Thulani Mbenge"
-            ],
-            "correctIndex": 1,
-            "explanation": "Zolani Tete a remporté son combat en 11 secondes, établissant un record en championnat du monde. Cet exploit est d’autant plus remarquable qu’il s’est produit à un niveau où les écarts entre boxeurs sont généralement très faibles."
-        },
-        {
-            "id": "15",
-            "question": "Quel boxeur américain a battu Michael Moorer par KO après avoir été largement dominé, prouvant qu’un seul coup peut suffire même tard dans un combat ?",
-            "answers": [
-                "George Foreman",
-                "Mike Tyson",
-                "Evander Holyfield",
-                "Lennox Lewis"
-            ],
-            "correctIndex": 0,
-            "explanation": "George Foreman a mis KO Michael Moorer en 1994 au 10e round, alors qu’il était dominé aux points. Ce combat est un exemple classique en boxe : même après plusieurs rounds difficiles, un seul coup peut totalement renverser l’issue du combat."
-        },
-        {
-            "id": "16",
-            "question": "Quel adversaire Mike Tyson a-t-il battu par TKO en 1 minute 33, dans un autre combat mondial très expéditif ?",
-            "answers": [
-                "Carl Williams",
-                "Pinklon Thomas",
-                "Tyrell Biggs",
-                "James Smith"
-            ],
-            "correctIndex": 0,
-            "explanation": "Carl Williams a été stoppé en 1 minute 33. Ce combat rappelle que Tyson n’a pas seulement accumulé des KO rapides contre des outsiders : il a aussi écrasé à très grande vitesse des adversaires considérés comme sérieux dans le paysage poids lourds."
-        },
-        {
-            "id": "17",
-            "question": "Quel champion britannique a mis Andrew Golota KO en 1 minute 35 dans une défense mondiale marquante ?",
-            "answers": [
-                "Tyson Fury",
-                "Anthony Joshua",
-                "Lennox Lewis",
-                "David Haye"
-            ],
-            "correctIndex": 2,
-            "explanation": "Lennox Lewis a stoppé Andrew Golota en 1 minute 35. Cette victoire a renforcé sa réputation de champion complet : moins sauvage que certains grands puncheurs, mais capable lui aussi de faire disparaître un combat en quelques instants."
-        },
-        {
-            "id": "18",
-            "question": "Quel boxeur américain a mis KO Ricardo Mayorga en moins de 2 minutes lors d’un combat très expéditif en 2006 ?",
-            "answers": [
-                "Oscar De La Hoya",
-                "Shane Mosley",
-                "Floyd Mayweather",
-                "Bernard Hopkins"
-            ],
-            "correctIndex": 0,
-            "explanation": "Oscar De La Hoya a mis KO Ricardo Mayorga en moins de deux minutes en 2006. Ce combat montre qu’un boxeur techniquement supérieur peut conclure très rapidement face à un adversaire imprudent ou désorganisé."
-        },
-        {
-            "id": "19",
-            "question": "Quel boxeur britannique a mis KO Dominic Breazeale en 2 minutes 17 secondes en 2019, illustrant sa puissance exceptionnelle ?",
-            "answers": [
-                "Anthony Joshua",
-                "Tyson Fury",
-                "Deontay Wilder",
-                "Dillian Whyte"
-            ],
-            "correctIndex": 2,
-            "explanation": "Deontay Wilder a mis KO Dominic Breazeale en 2 minutes 17 secondes. Ce combat illustre parfaitement sa réputation : même sans dominer techniquement, il pouvait mettre fin à un combat instantanément grâce à sa puissance de frappe."
-        },
-        {
-            "id": "20",
-            "question": "Quel combat est resté célèbre pour le 'phantom punch' de Muhammad Ali et une conclusion dès le 1er round en 1965 ?",
-            "answers": [
-                "Ali - Frazier I",
-                "Ali - Sonny Liston II",
-                "Ali - Foreman",
-                "Ali - Norton I"
-            ],
-            "correctIndex": 1,
-            "explanation": "Le deuxième combat entre Ali et Sonny Liston est resté dans l’histoire pour ce fameux 'phantom punch'. Au-delà du KO rapide, c’est surtout sa dimension controversée qui a rendu cette fin de combat légendaire et constamment débattue."
-        }
-    ]
+    {
+      "id": "3",
+      "question": "Quel boxeur américain détient l'un des KO les plus rapides jamais enregistrés dans la boxe professionnelle, avec une victoire en 4 secondes en 1936 ?",
+      "answers": ["Earnie Shavers", "Sugar Ray Robinson", "Mike Collins", "Rocky Marciano"],
+      "correctIndex": 2,
+      "explanation": "Mike Collins a battu Pat Brownson en 4 secondes le 23 septembre 1936 à Minneapolis, une performance souvent citée parmi les KO les plus fulgurants de l'histoire de la boxe professionnelle. Ce record illustre qu'un seul coup parfaitement placé dès les premières fractions de seconde peut suffire à conclure un combat avant même qu'il ait réellement commencé."
+    },
+    {
+      "id": "4",
+      "question": "Quel boxeur costaricain détenait auparavant le record du KO le plus rapide en championnat du monde grâce à une victoire en 17 secondes ?",
+      "answers": ["Harald Geier", "Daniel Jiménez", "Juan Manuel López", "Miguel Cotto"],
+      "correctIndex": 1,
+      "explanation": "Daniel Jiménez, né au Costa Rica, avait établi ce record en stoppant Harald Geier en 17 secondes en 1994 lors d'un combat pour le titre WBO des poids super-plumes. Pendant plus de vingt ans, cette marque a servi de référence pour mesurer la rareté d'un combat de championnat réglé avant même d'avoir vraiment commencé."
+    },
+    {
+      "id": "5",
+      "question": "Quel champion du monde des poids moyens a défendu son titre WBC en 20 secondes face à Jay Bell en 1993 ?",
+      "answers": ["Bernard Hopkins", "Julian Jackson", "Gerald McClellan", "Nigel Benn"],
+      "correctIndex": 2,
+      "explanation": "Gerald McClellan a écrasé Jay Bell en 20 secondes lors d'une défense mondiale WBC des poids moyens en 1993. Cet exploit illustre à quel point certains puncheurs d'élite étaient capables de transformer la moindre ouverture en fin de combat immédiate, sans laisser le temps à l'adversaire de s'organiser."
+    },
+    {
+      "id": "6",
+      "question": "Quel adversaire invaincu Mike Tyson a-t-il battu en 91 secondes lors d'un combat unifié en 1988 ?",
+      "answers": ["Trevor Berbick", "Frank Bruno", "Tony Tucker", "Michael Spinks"],
+      "correctIndex": 3,
+      "explanation": "Mike Tyson a mis KO Michael Spinks en 91 secondes le 27 juin 1988 à Atlantic City. Spinks était invaincu et considéré comme un véritable champion, détenteur du titre IBF des lourds, ce qui rend la rapidité et la sévérité de la victoire encore plus impressionnantes dans l'histoire de la catégorie."
+    },
+    {
+      "id": "7",
+      "question": "Quel adversaire Mike Tyson a-t-il stoppé en 38 secondes à Glasgow en 2000 ?",
+      "answers": ["Michael Moorer", "Frank Bruno", "Andrew Golota", "Lou Savarese"],
+      "correctIndex": 3,
+      "explanation": "Lou Savarese a été balayé en 38 secondes au Celtic Park de Glasgow en juin 2000. Ce combat est souvent cité comme l'une des dernières démonstrations de puissance de Tyson, qui restait capable, même à cette période de sa carrière, de produire un chaos total en moins d'une minute."
+    },
+    {
+      "id": "8",
+      "question": "Quel adversaire Mike Tyson a-t-il mis KO en 49 secondes lors de la dernière victoire professionnelle de sa carrière en 2003 ?",
+      "answers": ["Frans Botha", "Clifford Etienne", "Julius Francis", "Brian Nielsen"],
+      "correctIndex": 1,
+      "explanation": "Clifford Etienne a été mis KO en 49 secondes le 22 février 2003 à Memphis. Cette victoire est la dernière de Tyson chez les professionnels, ce qui lui donne une place particulière dans sa carrière : un dernier éclair de puissance avant la fin d'un parcours marqué par autant de génie que de turbulences."
+    },
+    {
+      "id": "9",
+      "question": "Quel champion poids lourds a remporté l'un des combats mondiaux les plus rapides de l'histoire ancienne en stoppant Jack Finnegan en 55 secondes en 1900 ?",
+      "answers": ["Mike Tyson", "Joe Louis", "Jack Dempsey", "James J. Jeffries"],
+      "correctIndex": 3,
+      "explanation": "James J. Jeffries a battu Jack Finnegan en 55 secondes en 1900, dans ce qui est cité parmi les combats mondiaux poids lourds les plus rapides de l'ère des gants. Ce repère historique montre que les finales ultra-précoces ne sont pas un phénomène moderne : elles existent depuis les premières grandes heures du championnat du monde."
+    },
+    {
+      "id": "10",
+      "question": "Quel boxeur écossais a battu Jim Corbett en 59 secondes pour remporter le titre mondial poids lourds en 1897 ?",
+      "answers": ["James J. Jeffries", "Jack Johnson", "Bob Fitzsimmons", "John L. Sullivan"],
+      "correctIndex": 2,
+      "explanation": "Bob Fitzsimmons a battu James J. Corbett lors de leur combat pour le titre mondial à Carson City, Nevada, en 1897, en le mettant KO en 59 secondes du 14e round. Sa victoire illustre que, même dans les combats qui durent de nombreux rounds, un seul échange décisif peut conclure les débats en une fraction de round."
+    },
+    {
+      "id": "11",
+      "question": "Quel adversaire Mike Tyson a-t-il battu en deux rounds pour remporter son tout premier titre mondial en novembre 1986 ?",
+      "answers": ["Larry Holmes", "Greg Page", "Tony Tucker", "Trevor Berbick"],
+      "correctIndex": 3,
+      "explanation": "Mike Tyson a conquis le titre WBC des poids lourds en stoppant Trevor Berbick en deux rounds à Las Vegas le 22 novembre 1986, devenant à 20 ans le plus jeune champion du monde des lourds de l'histoire. Ce combat a lancé l'ère Tyson au sommet des poids lourds, avec une domination physique et psychologique immédiatement évidente dès les premiers échanges."
+    },
+    {
+      "id": "12",
+      "question": "Quel outsider a surpris Tommy Morrison en lui prenant le titre WBO poids lourds après seulement 97 secondes en 1993 ?",
+      "answers": ["Herbie Hide", "Michael Bentt", "Ray Mercer", "Riddick Bowe"],
+      "correctIndex": 1,
+      "explanation": "Michael Bentt a créé une énorme surprise en stoppant Tommy Morrison en 97 secondes le 29 octobre 1993. C'est l'exemple parfait d'un combat où le statut médiatique, la réputation et la dynamique préalable s'effacent d'un seul coup face à un démarrage parfait d'un challenger sous-estimé."
+    },
+    {
+      "id": "13",
+      "question": "Quel champion WBO des poids lourds a défendu sa ceinture en 52 secondes contre Damon Reed en 1996 ?",
+      "answers": ["Herbie Hide", "Lamon Brewster", "Tommy Burns", "Mike Tyson"],
+      "correctIndex": 0,
+      "explanation": "Herbie Hide a stoppé Damon Reed en 52 secondes lors d'une défense de son titre WBO des poids lourds en 1996. Dans l'histoire des titres poids lourds, ce genre de défense express reste exceptionnel, car le niveau moyen des prétendants rend normalement les fins ultra-précoces beaucoup moins probables."
+    },
+    {
+      "id": "14",
+      "question": "Quel boxeur américain a stoppé Montell Griffin en 1 minute 17 lors d'un combat revanche aux enjeux mondiaux en 1997 ?",
+      "answers": ["Oscar De La Hoya", "Felix Trinidad", "Roy Jones Jr.", "Shane Mosley"],
+      "correctIndex": 2,
+      "explanation": "Roy Jones Jr. a stoppé Montell Griffin en 1 minute 17 lors de leur revanche en août 1997, redevenant champion WBC des mi-lourds après la disqualification controversée du premier combat — Jones avait été disqualifié pour avoir frappé Griffin alors qu'il était à terre. Ce finish express, obtenu par un seul enchaînement dévastateur, reste l'une des réponses les plus rapides et les plus nettes de l'histoire des championnats du monde."
+    },
+    {
+      "id": "15",
+      "question": "Quel champion poids lourds a mis KO Max Schmeling en 2 minutes 4 secondes lors d'un combat revanche en 1938, l'un des KO les plus rapides et symboliques de l'histoire ?",
+      "answers": ["Jack Dempsey", "Rocky Marciano", "Max Baer", "Joe Louis"],
+      "correctIndex": 3,
+      "explanation": "Joe Louis a battu Max Schmeling en 2 minutes 4 secondes du premier round le 22 juin 1938 au Yankee Stadium de New York. Ce KO fulgurant, lors du combat revanche deux ans après la défaite de Louis face à l'Allemand, a acquis une dimension symbolique bien au-delà du sport en pleine montée du nazisme en Europe."
+    },
+    {
+      "id": "16",
+      "question": "Quel adversaire Mike Tyson a-t-il battu par TKO en 1 minute 33 lors d'une défense mondiale très expéditive en 1989 ?",
+      "answers": ["Carl Williams", "Pinklon Thomas", "Tyrell Biggs", "James Smith"],
+      "correctIndex": 0,
+      "explanation": "Carl Williams a été stoppé en 1 minute 33 lors d'une défense mondiale de Tyson le 21 juillet 1989. Ce combat rappelle que Tyson n'a pas seulement accumulé des KO rapides contre des outsiders : il a aussi écrasé à très grande vitesse des adversaires considérés comme sérieux dans le paysage poids lourds de la fin des années 1980."
+    },
+    {
+      "id": "17",
+      "question": "Quel champion britannique a mis Andrew Golota KO en 1 minute 35 lors d'une défense mondiale en 2004 ?",
+      "answers": ["Lennox Lewis", "Tyson Fury", "Anthony Joshua", "David Haye"],
+      "correctIndex": 0,
+      "explanation": "Lennox Lewis a stoppé Andrew Golota en 1 minute 35 à Washington le 24 avril 2004, lors d'une défense de son titre WBC des poids lourds. Cette victoire a renforcé la réputation de Lewis comme champion complet : capable lui aussi, malgré un style moins frénétique que Tyson, de faire disparaître un combat en quelques instants."
+    },
+    {
+      "id": "18",
+      "question": "Quel boxeur américain a mis KO Ricardo Mayorga en moins de 2 minutes lors d'un combat pour le titre WBC des super-welters en 2006 ?",
+      "answers": ["Oscar De La Hoya", "Shane Mosley", "Floyd Mayweather", "Bernard Hopkins"],
+      "correctIndex": 0,
+      "explanation": "Oscar De La Hoya a mis KO Ricardo Mayorga en 1 minute 56 en mai 2006 à Las Vegas, lors d'un combat pour le titre WBC des super-welters. Ce finish montre qu'un boxeur techniquement supérieur peut conclure très rapidement face à un adversaire imprudent, Mayorga ayant laissé trop d'espaces dans sa garde dès les premières secondes."
+    },
+    {
+      "id": "19",
+      "question": "Quel boxeur américain a mis KO Dominic Breazeale en 2 minutes 17 secondes en 2019, illustrant sa puissance de frappe hors norme ?",
+      "answers": ["Anthony Joshua", "Tyson Fury", "Deontay Wilder", "Dillian Whyte"],
+      "correctIndex": 2,
+      "explanation": "Deontay Wilder, natif d'Alabama, a mis KO Dominic Breazeale en 2 minutes 17 secondes le 18 mai 2019 à New York lors d'une défense de son titre WBC des poids lourds. Ce combat illustre parfaitement sa réputation : même sans dominer techniquement, son poing droit d'une puissance exceptionnelle peut mettre fin à un combat à tout moment."
+    },
+    {
+      "id": "20",
+      "question": "Lequel de ces combats de Muhammad Ali est resté célèbre pour le controversé 'phantom punch' et une fin dès le premier round en 1965 ?",
+      "answers": ["Ali - Frazier I", "Ali - Sonny Liston II", "Ali - Foreman", "Ali - Norton I"],
+      "correctIndex": 1,
+      "explanation": "Le deuxième combat entre Ali et Sonny Liston, disputé à Lewiston dans le Maine le 25 mai 1965, est resté dans l'histoire pour ce fameux 'phantom punch' : un coup bref que beaucoup n'ont pas vu ou refusé de croire décisif. Au-delà du KO rapide au premier round, c'est surtout sa dimension controversée et les questions qu'il a soulevées qui ont rendu cette fin de combat légendaire."
+    }
+  ]
 }

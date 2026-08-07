@@ -1,160 +1,161 @@
 {
-  "slug": "quiz-sport-entraineurs-vainqueurs-ligue-des-champions",
-  "title": "Quiz Sport - Ligue des Champions - Connais-tu les entraîneurs vainqueurs ?",
-  "description": "Teste tes connaissances sur les entraîneurs ayant remporté la Ligue des Champions avec 20 questions exigeantes.",
-  "descriptionSeo": "De Carlo Ancelotti à Zinédine Zidane, en passant par Guardiola, Mourinho ou Ferguson, ce quiz te met au défi sur les entraîneurs vainqueurs de la Ligue des Champions. Records de titres, succès avec plusieurs clubs, finales historiques et exploits tactiques : réponds à 20 questions pointues et découvre si tu maîtrises vraiment l’histoire des techniciens qui ont marqué la plus prestigieuse compétition européenne.",
+  "slug": "quiz-sport-ligue-des-champions",
+  "title": "Quiz Sport - Football - Connais-tu la Ligue des Champions ?",
+  "description": "Teste tes connaissances sur la Ligue des Champions avec 20 questions sur les clubs, joueurs et moments marquants.",
+  "publishedAt": "2026-06-18",
+  "descriptionSeo": "Real Madrid, Liverpool, Bayern Munich, AC Milan ou encore Ajax : les plus grands clubs européens ont écrit l'histoire de la Ligue des Champions. Ce quiz de 20 questions te propose de tester tes connaissances sur les vainqueurs, les records, les finales légendaires et les joueurs qui ont marqué la compétition reine du football européen.",
   "category": {
     "name": "Sport",
     "slug": "sport"
   },
-  "createdAt": "2026-04-15",
+  "createdAt": "2026-06-15",
   "isNew": true,
   "isPopular": true,
   "images": {
-    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776272511/pexels-franco-monsalvo-252430633-32101180_nnx2ei.jpg",
-    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776272511/pexels-franco-monsalvo-252430633-32101180_nnx2ei.jpg",
-    "alt": "Quiz entraîneurs Ligue des Champions"
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1781519990/pexels-football-32490695_onnuqv.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1781519990/pexels-football-32490695_onnuqv.jpg",
+    "alt": "Quiz Ligue des Champions football"
   },
   "questions": [
     {
       "id": "1",
-      "question": "Quel entraîneur détient le record de victoires en Ligue des Champions ?",
-      "answers": ["Zinédine Zidane", "Carlo Ancelotti", "Bob Paisley", "Pep Guardiola"],
-      "correctIndex": 1,
-      "explanation": "Carlo Ancelotti est l’entraîneur le plus titré avec 5 Ligues des Champions. Sa réussite repose sur sa capacité à gérer des effectifs de stars tout en s’adaptant tactiquement aux différentes époques du football européen."
+      "question": "Quel club allemand a remporté la Ligue des Champions 2013 en battant son compatriote le Borussia Dortmund en finale à Wembley ?",
+      "answers": ["Bayern Munich", "Borussia Dortmund", "Schalke 04", "Hambourg SV"],
+      "correctIndex": 0,
+      "explanation": "Le Bayern Munich a remporté la Ligue des Champions 2013 en battant le Borussia Dortmund 2-1 au stade de Wembley, lors de la première finale 100 % allemande de l'histoire de la compétition. Arjen Robben inscrit le but vainqueur à la 89e minute, offrant au Bayern son cinquième titre européen."
     },
     {
       "id": "2",
-      "question": "Quel entraîneur a remporté trois Coupes d’Europe avec Liverpool ?",
-      "answers": ["Bill Shankly", "Rafael Benítez", "Bob Paisley", "Joe Fagan"],
-      "correctIndex": 2,
-      "explanation": "Bob Paisley a remporté 3 titres avec Liverpool (1977, 1978, 1981). Il reste l’un des entraîneurs les plus efficaces de l’histoire avec un ratio titres/temps exceptionnel."
+      "question": "Quel club anglais a remporté la Ligue des Champions 2023 à Istanbul, réalisant le doublé Premier League-LdC la même saison ?",
+      "answers": ["Manchester City", "Inter Milan", "Real Madrid", "Bayern Munich"],
+      "correctIndex": 0,
+      "explanation": "Manchester City a remporté la Ligue des Champions 2023 en battant l'Inter Milan 1-0 à Istanbul. Ce titre complète le triplé Premier League, FA Cup et Ligue des Champions pour les Citizens, sous la direction de Pep Guardiola — un palmarès exceptionnel sur une seule saison."
     },
     {
       "id": "3",
-      "question": "Quel entraîneur a remporté trois Ligues des Champions consécutives avec le Real Madrid ?",
-      "answers": ["José Mourinho", "Zinédine Zidane", "Vicente del Bosque", "Carlo Ancelotti"],
-      "correctIndex": 1,
-      "explanation": "Zidane a gagné 2016, 2017 et 2018. Aucun autre entraîneur n’a réussi un triplé consécutif dans l’ère moderne, ce qui souligne la difficulté extrême de maintenir un tel niveau."
+      "question": "Quel club détient le record du plus grand nombre de victoires en Ligue des Champions toutes éditions confondues ?",
+      "answers": ["AC Milan", "Liverpool", "Barcelone", "Real Madrid"],
+      "correctIndex": 3,
+      "explanation": "Le Real Madrid est de loin le club le plus titré de l'histoire de la compétition, avec un total de victoires qui continue de croître d'édition en édition. Le club espagnol a dominé la compétition dans les années 1950-1960 puis à nouveau depuis 2014, illustrant une tradition de victoires européennes unique dans l'histoire du football."
     },
     {
       "id": "4",
-      "question": "Quel entraîneur a remporté la Ligue des Champions avec Barcelone puis Manchester City ?",
-      "answers": ["Luis Enrique", "Pep Guardiola", "Frank Rijkaard", "Roberto Mancini"],
-      "correctIndex": 1,
-      "explanation": "Guardiola a gagné avec Barcelone (2009, 2011) puis Manchester City (2023). Il est considéré comme l’un des tacticiens les plus influents de l’histoire moderne."
+      "question": "Quel joueur détient le record du plus grand nombre de buts en carrière en Ligue des Champions ?",
+      "answers": ["Karim Benzema", "Lionel Messi", "Cristiano Ronaldo", "Robert Lewandowski"],
+      "correctIndex": 2,
+      "explanation": "Cristiano Ronaldo détient le record absolu de buts en Ligue des Champions avec plus de 140 réalisations en carrière, accumulées avec Manchester United, le Real Madrid et la Juventus depuis 2003. Sa domination sur cette compétition lui a permis de remporter cinq Ligue des Champions et de devenir le joueur le plus prolifique de l'histoire de la compétition."
     },
     {
       "id": "5",
-      "question": "Quel entraîneur a remporté la Ligue des Champions avec Porto puis l’Inter Milan ?",
-      "answers": ["José Mourinho", "Claudio Ranieri", "Simone Inzaghi", "Roberto Mancini"],
-      "correctIndex": 0,
-      "explanation": "Mourinho fait partie du cercle fermé des entraîneurs ayant gagné avec deux clubs. Son titre avec Porto reste un exploit majeur du football moderne."
+      "question": "Quel club a remporté la Ligue des Champions 2012 en battant le Bayern Munich aux tirs au but sur son propre terrain ?",
+      "answers": ["Arsenal", "Chelsea", "Manchester United", "Manchester City"],
+      "correctIndex": 1,
+      "explanation": "Chelsea a remporté sa première Ligue des Champions en 2012 en battant le Bayern Munich aux tirs au but à l'Allianz Arena — sur le terrain même du club allemand. Didier Drogba inscrit l'égalisation en toute fin de match puis marque le tir au but décisif, dans ce qui reste l'un des retournements de situation les plus dramatiques de l'histoire de la finale."
     },
     {
       "id": "6",
-      "question": "Quel entraîneur allemand a gagné la compétition avec Dortmund puis le Bayern ?",
-      "answers": ["Jupp Heynckes", "Felix Magath", "Ottmar Hitzfeld", "Thomas Tuchel"],
-      "correctIndex": 2,
-      "explanation": "Hitzfeld a remporté la Ligue des Champions avec Dortmund (1997) et le Bayern (2001), démontrant sa capacité à réussir dans deux contextes différents."
+      "question": "Quel entraîneur a remporté la Ligue des Champions avec deux clubs différents, d'abord avec le Real Madrid en 1998 puis avec le Bayern Munich en 2013 ?",
+      "answers": ["Ottmar Hitzfeld", "Jupp Heynckes", "Pep Guardiola", "José Mourinho"],
+      "correctIndex": 1,
+      "explanation": "Jupp Heynckes a remporté la Ligue des Champions avec le Real Madrid en 1998 et avec le Bayern Munich en 2013, devenant ainsi l'un des rares entraîneurs à s'être imposé dans cette compétition avec deux clubs différents. Sa saison 2012-13 avec le Bayern reste l'une des plus dominantes de l'histoire, avec le triplé Bundesliga-DFB Pokal-LdC."
     },
     {
       "id": "7",
-      "question": "Quel entraîneur a remporté la Ligue des Champions avec le Real Madrid en 1998 puis avec le Bayern en 2013 ?",
-      "answers": ["Carlo Ancelotti", "Jupp Heynckes", "Ottmar Hitzfeld", "Vicente del Bosque"],
-      "correctIndex": 1,
-      "explanation": "Heynckes a gagné avec deux clubs à 15 ans d’intervalle, preuve d’une longévité exceptionnelle au plus haut niveau."
+      "question": "Quel latéral droit du Real Madrid détient le record du nombre de Ligues des Champions remportées parmi les joueurs encore actifs lors du sacre de 2024 ?",
+      "answers": ["Karim Benzema", "Sergio Ramos", "Dani Carvajal", "Cristiano Ronaldo"],
+      "correctIndex": 2,
+      "explanation": "Dani Carvajal a remporté six Ligues des Champions avec le Real Madrid (2014, 2016, 2017, 2018, 2022, 2024), ce qui représente le total le plus élevé parmi les joueurs encore actifs lors du sacre 2024. Sa longévité au plus haut niveau et sa fiabilité défensive en font l'une des figures emblématiques de la domination européenne du Real."
     },
     {
       "id": "8",
-      "question": "Quel entraîneur autrichien a gagné la Coupe d’Europe avec Feyenoord et Hambourg ?",
-      "answers": ["Ernst Happel", "Rinus Michels", "Johan Cruyff", "Guus Hiddink"],
+      "question": "Quel club portugais a remporté la Ligue des Champions 2004 sous la direction d'un jeune José Mourinho ?",
+      "answers": ["Porto", "Benfica", "Sporting Lisbonne", "Braga"],
       "correctIndex": 0,
-      "explanation": "Ernst Happel est l’un des premiers entraîneurs à avoir remporté la compétition avec deux clubs dans deux pays différents, bien avant la mondialisation du football."
+      "explanation": "Le FC Porto a remporté la Ligue des Champions 2004 en battant Monaco 3-0 en finale à Gelsenkirchen. Ce titre inattendu, réalisé avec un budget modeste face aux grands clubs européens, a révélé José Mourinho au monde et lui a ouvert les portes de Chelsea dès l'été suivant."
     },
     {
       "id": "9",
-      "question": "Quel entraîneur italien a remporté la Ligue des Champions avec deux clubs différents (Milan et Real Madrid) ?",
-      "answers": ["Marcello Lippi", "Carlo Ancelotti", "Fabio Capello", "Antonio Conte"],
-      "correctIndex": 1,
-      "explanation": "Ancelotti a gagné avec l’AC Milan puis le Real Madrid. Il incarne la réussite dans plusieurs environnements tactiques et culturels."
+      "question": "Quel club espagnol a réalisé le triplé Liga-Coupe du Roi-Ligue des Champions en 2015 sous la direction de Luis Enrique ?",
+      "answers": ["Real Madrid", "Atletico Madrid", "Barcelone", "Valence"],
+      "correctIndex": 2,
+      "explanation": "Le FC Barcelone a réalisé un triplé historique en 2015, remportant la Liga, la Coupe du Roi et la Ligue des Champions — battant la Juventus 3-1 en finale à Berlin. Cette équipe portée par Messi, Neymar et Suárez, le trio offensif 'MSN', est considérée comme l'une des plus brillantes de l'histoire du football."
     },
     {
       "id": "10",
-      "question": "Quel entraîneur a remporté la Coupe d’Europe avec le Celtic en 1967 ?",
-      "answers": ["Jock Stein", "Alex Ferguson", "Matt Busby", "Bill Shankly"],
+      "question": "Quel entraîneur a remporté la Ligue des Champions le plus grand nombre de fois en tant que manager ?",
+      "answers": ["Carlo Ancelotti", "Pep Guardiola", "José Mourinho", "Zinedine Zidane"],
       "correctIndex": 0,
-      "explanation": "Jock Stein devient le premier entraîneur britannique à remporter la compétition, avec une équipe composée uniquement de joueurs locaux."
+      "explanation": "Carlo Ancelotti a remporté la Ligue des Champions à cinq reprises : avec l'AC Milan en 2003 et 2007, et avec le Real Madrid en 2014, 2022 et 2024. Ce total de cinq titres en fait le manager le plus couronné de l'histoire de la compétition, réussissant l'exploit avec deux clubs différents à deux décennies d'écart."
     },
     {
       "id": "11",
-      "question": "Quel entraîneur a mené Manchester United au titre en 1968 ?",
-      "answers": ["Matt Busby", "Brian Clough", "Don Revie", "Alex Ferguson"],
-      "correctIndex": 0,
-      "explanation": "Busby reconstruit son équipe après le drame de Munich et remporte la Coupe d’Europe, un exploit à forte portée émotionnelle."
+      "question": "Quel club néerlandais a remporté la Coupe d'Europe des clubs champions trois années consécutives entre 1971 et 1973 ?",
+      "answers": ["Feyenoord", "Ajax", "PSV Eindhoven", "Anderlecht"],
+      "correctIndex": 1,
+      "explanation": "L'Ajax Amsterdam a remporté la Coupe d'Europe des clubs champions — ancêtre de la Ligue des Champions — trois fois de suite en 1971, 1972 et 1973, sous la houlette de Rinus Michels puis Stefan Kovacs. Cette équipe de Johan Cruyff incarne le 'football total' néerlandais et reste l'une des plus grandes dynasties de l'histoire du football européen."
     },
     {
       "id": "12",
-      "question": "Quel entraîneur a remporté la Ligue des Champions avec Manchester United en 1999 et 2008 ?",
-      "answers": ["José Mourinho", "Louis van Gaal", "Alex Ferguson", "David Moyes"],
-      "correctIndex": 2,
-      "explanation": "Ferguson a su gagner sur deux générations différentes, ce qui souligne sa capacité à renouveler ses équipes."
+      "question": "Quel pays a fourni le plus grand nombre de clubs vainqueurs de la Ligue des Champions dans l'histoire de la compétition ?",
+      "answers": ["Italie", "Allemagne", "France", "Espagne"],
+      "correctIndex": 3,
+      "explanation": "L'Espagne domine le palmarès de la Ligue des Champions par pays, portée principalement par le Real Madrid et le FC Barcelone. Cette concentration de victoires illustre la domination structurelle du football espagnol en Europe depuis les années 1950."
     },
     {
       "id": "13",
-      "question": "Quel entraîneur a remporté la Ligue des Champions avec le Real Madrid en 2000 et 2002 ?",
-      "answers": ["Vicente del Bosque", "Fabio Capello", "Jupp Heynckes", "Rafael Benítez"],
-      "correctIndex": 0,
-      "explanation": "Del Bosque a su gérer un effectif de stars tout en conservant un équilibre collectif, clé de ses succès."
+      "question": "Quel gardien détient le record du plus grand nombre de clean sheets en Ligue des Champions ?",
+      "answers": ["Gianluigi Buffon", "Manuel Neuer", "Iker Casillas", "Thibaut Courtois"],
+      "correctIndex": 2,
+      "explanation": "Iker Casillas détient le record de clean sheets en Ligue des Champions, un total accumulé lors de ses nombreuses saisons avec le Real Madrid et le FC Porto. Gardien emblématique des années 2000 et 2010, il a contribué à plusieurs titres européens et reste l'une des figures les plus marquantes de la compétition."
     },
     {
       "id": "14",
-      "question": "Quel entraîneur italien a remporté la finale 1994 avec l’AC Milan contre Barcelone ?",
-      "answers": ["Arrigo Sacchi", "Marcello Lippi", "Fabio Capello", "Carlo Ancelotti"],
-      "correctIndex": 2,
-      "explanation": "Capello a infligé un 4-0 au Barça, l’un des plus grands chocs tactiques de l’histoire des finales."
+      "question": "Quel club anglais a réalisé le premier triplé Championnat-Coupe-Ligue des Champions de l'histoire en 1999 ?",
+      "answers": ["Real Madrid", "Juventus", "Ajax", "Manchester United"],
+      "correctIndex": 3,
+      "explanation": "Manchester United a réalisé le triplé Premier League-FA Cup-Ligue des Champions en 1999 sous la direction d'Alex Ferguson. La finale contre le Bayern Munich, remportée 2-1 avec deux buts en toute fin de match par Sheringham et Solskjær, reste l'un des plus grands retournements de l'histoire des finales européennes."
     },
     {
       "id": "15",
-      "question": "Quel entraîneur roumain a remporté la Coupe d’Europe avec le Steaua Bucarest en 1986 ?",
-      "answers": ["Mircea Lucescu", "Emerich Jenei", "Anghel Iordănescu", "Victor Pițurcă"],
-      "correctIndex": 1,
-      "explanation": "Jenei a réalisé un exploit unique pour un club de l’Est, rare dans l’histoire de la compétition."
+      "question": "Quel club anglais a remporté la Ligue des Champions en 1979 et 1980, alors qu'il venait d'être promu de deuxième division anglaise deux ans plus tôt ?",
+      "answers": ["Valence", "Deportivo La Coruna", "Nottingham Forest", "Chelsea"],
+      "correctIndex": 2,
+      "explanation": "Nottingham Forest a accompli l'un des miracles les plus improbables du football européen : promu en première division anglaise en 1977, le club de Brian Clough remporte la Coupe d'Europe en 1979 puis la conserve en 1980. Ce parcours, sans star internationale ni budget colossal, reste unique dans toute l'histoire du football continental."
     },
     {
       "id": "16",
-      "question": "Quel entraîneur a remporté la Ligue des Champions avec la Juventus en 1996 ?",
-      "answers": ["Fabio Capello", "Marcello Lippi", "Giovanni Trapattoni", "Carlo Ancelotti"],
-      "correctIndex": 1,
-      "explanation": "Lippi offre à la Juventus son dernier titre en C1, toujours attendu depuis."
+      "question": "Quel joueur a inscrit le but le plus rapide de l'histoire des finales de Ligue des Champions, dès la 52e seconde en 2005 ?",
+      "answers": ["Paolo Maldini", "Peter McParland", "Mario Mandžukić", "Robbie Fowler"],
+      "correctIndex": 0,
+      "explanation": "Paolo Maldini a inscrit le but le plus rapide d'une finale de Ligue des Champions à la 52e seconde lors du match AC Milan - Liverpool à Istanbul en 2005. Ce début de match tonitruant de l'AC Milan avait laissé présager une victoire aisée pour les Italiens, avant que Liverpool ne réalise l'un des plus grands come-backs de l'histoire du football."
     },
     {
       "id": "17",
-      "question": "Quel entraîneur a offert au Barça sa première Coupe d’Europe en 1992 ?",
-      "answers": ["Johan Cruyff", "Louis van Gaal", "Rinus Michels", "Guus Hiddink"],
-      "correctIndex": 0,
-      "explanation": "Cruyff pose les bases du style barcelonais moderne, basé sur la possession et la formation."
+      "question": "Quelle équipe a réalisé le 'miracle d'Istanbul' en 2005, en remontant un déficit de 3-0 en seconde mi-temps pour remporter la finale ?",
+      "answers": ["Chelsea", "Liverpool", "Manchester United", "Barcelone"],
+      "correctIndex": 1,
+      "explanation": "Liverpool a renversé l'AC Milan en finale à Istanbul en 2005 en revenant de 0-3 à 3-3 en six minutes de seconde mi-temps, grâce à des buts de Gerrard, Smicer et Alonso, avant de s'imposer aux tirs au but. Ce match est universellement cité comme le plus spectaculaire de l'histoire de la compétition."
     },
     {
       "id": "18",
-      "question": "Quel entraîneur a mené Marseille au titre en 1993 ?",
-      "answers": ["Raymond Goethals", "Arsène Wenger", "Aimé Jacquet", "Guy Roux"],
-      "correctIndex": 0,
-      "explanation": "Goethals reste le seul entraîneur à avoir offert la Ligue des Champions à un club français."
+      "question": "Quel club de Diego Simeone a perdu la finale de la Ligue des Champions 2016 aux tirs au but à San Siro ?",
+      "answers": ["PSG", "Bayern Munich", "Juventus", "Atletico Madrid"],
+      "correctIndex": 3,
+      "explanation": "L'Atletico Madrid a perdu la finale de la Ligue des Champions 2016 face au Real Madrid aux tirs au but à San Siro à Milan. C'était la deuxième finale perdue contre le Real pour les Colchoneros en trois ans (après 2014), une double déception cruelle pour un club pourtant devenu l'une des meilleures équipes d'Europe sous la direction de Diego Simeone."
     },
     {
       "id": "19",
-      "question": "Quel entraîneur a remporté la Ligue des Champions avec Chelsea en 2021 ?",
-      "answers": ["Jürgen Klopp", "Hansi Flick", "Thomas Tuchel", "Julian Nagelsmann"],
-      "correctIndex": 2,
-      "explanation": "Tuchel transforme Chelsea en quelques mois, démontrant l’impact immédiat qu’un entraîneur peut avoir."
+      "question": "Quel club espagnol a remporté la Ligue des Champions trois années consécutives entre 2016 et 2018, exploit unique dans l'histoire moderne ?",
+      "answers": ["Barcelone", "Juventus", "Bayern Munich", "Real Madrid"],
+      "correctIndex": 3,
+      "explanation": "Le Real Madrid a remporté trois Ligues des Champions consécutives en 2016, 2017 et 2018 — un exploit que personne n'avait réalisé depuis l'introduction du format actuel de la compétition en 1992. Cette série illustre la capacité unique du Real à sublimer ses performances lors des matchs à élimination directe de haut niveau."
     },
     {
       "id": "20",
-      "question": "Quel entraîneur a remporté la Ligue des Champions avec Chelsea en 2012 après avoir pris l’équipe en cours de saison ?",
-      "answers": ["Roberto Di Matteo", "Antonio Conte", "Roberto Mancini", "Carlo Ancelotti"],
-      "correctIndex": 0,
-      "explanation": "Di Matteo réussit un parcours improbable, illustrant l’importance de la dynamique mentale dans cette compétition."
+      "question": "Quel joueur est le premier à avoir remporté la Ligue des Champions avec trois clubs différents ?",
+      "answers": ["Didier Drogba", "Clarence Seedorf", "Xabi Alonso", "Zlatan Ibrahimović"],
+      "correctIndex": 1,
+      "explanation": "Clarence Seedorf est le premier joueur à avoir remporté la Ligue des Champions avec trois clubs différents : l'Ajax (1995), le Real Madrid (1998) et l'AC Milan (2003 et 2007). Ce palmarès exceptionnel traduit une capacité rare à s'adapter à différents systèmes de jeu et à performer au plus haut niveau sur plus d'une décennie."
     }
   ]
 }

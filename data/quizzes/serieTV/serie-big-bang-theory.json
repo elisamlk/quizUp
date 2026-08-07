@@ -2,7 +2,7 @@
   "slug": "quiz-incollable-sur-the-big-bang-theory",
   "title": "Quiz Série TV - Es-tu imbattable sur The Big Bang Theory ?",
   "description": "Un quiz difficile pour tester tes connaissances sur The Big Bang Theory, ses personnages et ses références cultes.",
-  "descriptionSeo": "Plonge dans l’univers culte de The Big Bang Theory avec ce quiz difficile de 20 questions. Teste tes connaissances sur Sheldon, Leonard, Penny, Howard, Raj et les épisodes les plus marquants de la série. Références scientifiques, running gags, comics, science-fiction et moments mythiques : un défi conçu pour les vrais fans capables de reconnaître les détails cachés de cette sitcom incontournable.",
+  "descriptionSeo": "Plonge dans l'univers culte de The Big Bang Theory avec ce quiz difficile de 20 questions. Teste tes connaissances sur Sheldon, Leonard, Penny, Howard, Raj et les épisodes les plus marquants de la série. Références scientifiques, running gags, comics, science-fiction et moments mythiques : un défi conçu pour les vrais fans capables de reconnaître les détails cachés de cette sitcom incontournable.",
   "category": {
     "name": "Série TV",
     "slug": "serie-tv"
@@ -18,143 +18,243 @@
   "questions": [
     {
       "id": "1",
-      "question": "Quel est le prénom complet de Sheldon Cooper ?",
-      "answers": ["Sheldon Lee Cooper", "Sheldon Scott Cooper", "Sheldon Leonard Cooper", "Sheldon James Cooper"],
-      "correctIndex": 0,
-      "explanation": "Le nom complet du personnage est Sheldon Lee Cooper. Ce détail revient plusieurs fois dans la série, notamment dans des documents administratifs et lors de ses nombreux conflits universitaires. Le deuxième prénom “Lee” renforce aussi le contraste entre son identité très ordinaire et son intelligence exceptionnelle."
+      "question": "Quel est le deuxième prénom de Sheldon Cooper ?",
+      "answers": [
+        "Scott",
+        "James",
+        "Leonard",
+        "Lee"
+      ],
+      "correctIndex": 3,
+      "explanation": "Le nom complet du personnage est Sheldon Lee Cooper. Ce détail revient à plusieurs reprises dans la série, notamment sur des documents officiels. La série Young Sheldon confirme également ce prénom tout au long de ses 7 saisons."
     },
     {
       "id": "2",
-      "question": "Quel métier exerce Penny au début de la série ?",
-      "answers": ["Serveuse", "Avocate", "Infirmière", "Professeure"],
+      "question": "Dans quel restaurant Penny travaille-t-elle comme serveuse au début de la série ?",
+      "answers": [
+        "The Cheesecake Factory",
+        "The Olive Garden",
+        "Applebee's",
+        "Denny's"
+      ],
       "correctIndex": 0,
-      "explanation": "Penny travaille comme serveuse au Cheesecake Factory pendant les premières saisons tout en essayant de devenir actrice. Cette situation crée souvent un contraste humoristique entre sa vie quotidienne et l’univers ultra-scientifique de Sheldon et Leonard."
+      "explanation": "Penny travaille au Cheesecake Factory pendant les premières saisons tout en essayant de devenir actrice. Ce lieu devient un décor récurrent de la série, où les personnages se retrouvent régulièrement pour manger."
     },
     {
       "id": "3",
-      "question": "Quel personnage est incapable de parler aux femmes au début de la série ?",
-      "answers": ["Howard", "Raj", "Leonard", "Stuart"],
-      "correctIndex": 1,
-      "explanation": "Raj souffre d’un mutisme sélectif qui l’empêche de parler aux femmes sans alcool. Ce trait devient l’un des running gags les plus célèbres de la série et symbolise son immense manque de confiance malgré son intelligence."
+      "question": "De quoi Raj souffre-t-il au début de la série lorsqu'il est en présence de femmes ?",
+      "answers": [
+        "De mutisme sélectif",
+        "De claustrophobie",
+        "D'agoraphobie",
+        "De bégaiement"
+      ],
+      "correctIndex": 0,
+      "explanation": "Raj est atteint de mutisme sélectif en présence des femmes, sauf sous l'effet de l'alcool — ou parfois par simple effet placebo. Ce running gag disparaît progressivement à partir de la saison 6, lorsqu'il parvient à parler à Penny sobrement."
     },
     {
       "id": "4",
-      "question": "Quel est le domaine scientifique de Sheldon Cooper ?",
-      "answers": ["Robotique", "Astrophysique", "Physique théorique", "Neurosciences"],
+      "question": "Sur quelle théorie physique Sheldon Cooper concentre-t-il principalement ses recherches ?",
+      "answers": [
+        "La mécanique quantique",
+        "La relativité générale",
+        "La physique théorique des cordes",
+        "La matière noire"
+      ],
       "correctIndex": 2,
-      "explanation": "Sheldon est physicien théoricien et travaille principalement sur la théorie des cordes puis la matière noire. Son obsession pour la physique pure nourrit souvent sa rivalité intellectuelle avec les autres scientifiques de la série."
+      "explanation": "Sheldon travaille principalement sur la théorie des cordes pendant la majeure partie de la série, qu'il considère comme la voie royale vers une théorie du tout. C'est précisément en s'éloignant de cette piste pour explorer la super-asymétrie qu'il finit par décrocher le prix Nobel avec Amy."
     },
     {
       "id": "5",
-      "question": "Quel est le nom du magasin de comics fréquenté par les personnages ?",
-      "answers": ["Comic World", "Stuart’s Comics", "The Comic Center", "The Comic Center of Pasadena"],
-      "correctIndex": 3,
-      "explanation": "Le magasin s’appelle The Comic Center of Pasadena et appartient à Stuart Bloom. Il devient progressivement un lieu central de la série, où les personnages partagent leur passion pour les comics, les figurines et la science-fiction."
+      "question": "À qui appartient The Comic Center, le magasin de comics fréquenté par le groupe ?",
+      "answers": [
+        "Leonard",
+        "Stuart Bloom",
+        "Barry Kripke",
+        "Zack Johnson"
+      ],
+      "correctIndex": 1,
+      "explanation": "Le magasin appartient à Stuart Bloom, personnage récurrent joué par Kevin Sussman. Stuart est souvent présenté comme solitaire et malchanceux, mais il finit par s'intégrer pleinement au groupe au fil des saisons."
     },
     {
       "id": "6",
-      "question": "Quelle phrase Sheldon utilise-t-il lorsqu’il a terminé une blague ?",
-      "answers": ["Boom!", "Legendary!", "Bazinga!", "Gotcha!"],
-      "correctIndex": 2,
-      "explanation": "“Bazinga!” devient la signature de Sheldon dans la culture populaire. Il utilise ce mot pour conclure ses blagues ou ses pièges sociaux, souvent sans comprendre pourquoi les autres ne les trouvent pas drôles."
+      "question": "Quelle interjection Sheldon utilise-t-il pour signaler qu'il vient de faire une blague ou un canular ?",
+      "answers": [
+        "Bazinga!",
+        "Boom!",
+        "Legendary!",
+        "Gotcha!"
+      ],
+      "correctIndex": 0,
+      "explanation": "« Bazinga ! » est devenu l'une des répliques les plus célèbres de la série et un symbole de la culture pop des années 2010. Le mot est apparu pour la première fois dans l'épisode 18 de la saison 2, en 2009."
     },
     {
       "id": "7",
-      "question": "Quel instrument Howard Wolowitz aime-t-il jouer ?",
-      "answers": ["Le piano", "La guitare", "Le violon", "Le clavier spatial"],
+      "question": "Quel instrument de musique Howard Wolowitz joue-t-il ?",
+      "answers": [
+        "Le piano",
+        "La guitare",
+        "Le violon",
+        "La basse"
+      ],
       "correctIndex": 1,
-      "explanation": "Howard joue régulièrement de la guitare, notamment dans plusieurs scènes musicales humoristiques. Son côté artistique contraste avec son image d’ingénieur maladroit et immature."
+      "explanation": "Howard joue régulièrement de la guitare, notamment lors de scènes musicales humoristiques avec les autres personnages. Il compose même une chanson pour Bernadette dans l'épisode 24 de la saison 4, lors de leur demande en mariage."
     },
     {
       "id": "8",
-      "question": "Quel personnage devient finalement la compagne de Sheldon ?",
-      "answers": ["Emily", "Penny", "Amy Farrah Fowler", "Bernadette"],
-      "correctIndex": 2,
-      "explanation": "Amy Farrah Fowler apparaît d’abord comme une version féminine de Sheldon. Leur relation évolue lentement au fil des saisons et représente l’un des développements émotionnels majeurs de la série."
+      "question": "Dans quelle saison Amy Farrah Fowler apparaît-elle pour la première fois ?",
+      "answers": [
+        "Saison 2",
+        "Saison 4",
+        "Saison 5",
+        "Saison 3"
+      ],
+      "correctIndex": 3,
+      "explanation": "Amy Farrah Fowler fait sa première apparition dans le final de la saison 3 (épisode 23, 2010), après que Howard et Raj ont créé un profil de rencontre pour Sheldon. Mayim Bialik, qui l'incarne, a remporté 4 nominations aux Emmy Awards pour ce rôle."
     },
     {
       "id": "9",
-      "question": "Quel est le métier de Leonard Hofstadter ?",
-      "answers": ["Ingénieur", "Physicien expérimental", "Astrophysicien", "Médecin"],
+      "question": "Quelle est la spécialité scientifique de Leonard Hofstadter à Caltech ?",
+      "answers": [
+        "Ingénierie spatiale",
+        "Physique expérimentale",
+        "Astrophysique",
+        "Biophysique"
+      ],
       "correctIndex": 1,
-      "explanation": "Leonard est physicien expérimental à Caltech. Contrairement à Sheldon, il travaille davantage sur des expériences concrètes, ce qui crée régulièrement des débats entre science théorique et science appliquée."
+      "explanation": "Leonard est physicien expérimental à Caltech, spécialisé dans la physique des lasers et des matériaux. Ses expériences concrètes le placent souvent en opposition avec Sheldon, qui méprise la science expérimentale au profit de la théorie pure."
     },
     {
       "id": "10",
-      "question": "Quel personnage a voyagé dans l’espace ?",
-      "answers": ["Leonard", "Raj", "Howard", "Sheldon"],
-      "correctIndex": 2,
-      "explanation": "Howard devient astronaute et séjourne dans la Station spatiale internationale. Cette expérience change profondément son personnage et lui apporte enfin une reconnaissance que Sheldon lui refusait souvent."
+      "question": "Lors de quelle mission spatiale Howard séjourne-t-il à bord de la Station spatiale internationale ?",
+      "answers": [
+        "Expedition 31",
+        "Expedition 33",
+        "STS-135",
+        "Apollo 18"
+      ],
+      "correctIndex": 0,
+      "explanation": "Howard rejoint l'Expedition 31 à bord de la Station spatiale internationale, une mission réelle dont la série s'est inspirée. Son séjour dans l'espace, diffusé en saison 5 et 6, constitue l'un des arcs narratifs les plus importants de son personnage."
     },
     {
       "id": "11",
-      "question": "Quel jeu de rôle les personnages pratiquent-ils régulièrement ?",
-      "answers": ["Cyberpunk", "Magic: The Gathering", "Warhammer", "Donjons et Dragons"],
+      "question": "Quel jeu de rôle sur table les personnages pratiquent-ils régulièrement ensemble ?",
+      "answers": [
+        "Pathfinder",
+        "Warhammer 40 000",
+        "L'Appel de Cthulhu",
+        "Donjons et Dragons"
+      ],
       "correctIndex": 3,
-      "explanation": "Les parties de Donjons et Dragons permettent à la série de multiplier les références geek et les situations absurdes. Plusieurs épisodes centrés sur ce jeu sont devenus cultes auprès des fans."
+      "explanation": "Les parties de Donjons et Dragons sont un élément récurrent de la série. L'épisode « The Gothowitz Deviation » (S3E03) et d'autres épisodes centrés sur ce jeu sont parmi les préférés des fans pour leurs dialogues absurdes et leurs références geek."
     },
     {
       "id": "12",
-      "question": "Quel est le prénom de la mère de Sheldon ?",
-      "answers": ["Mary", "Linda", "Patricia", "Susan"],
-      "correctIndex": 0,
-      "explanation": "Mary Cooper est une mère profondément religieuse venant du Texas. Son bon sens et sa foi contrastent constamment avec le rationalisme extrême de Sheldon."
+      "question": "De quel État américain vient Mary Cooper, la mère de Sheldon ?",
+      "answers": [
+        "L'Alabama",
+        "Le Texas",
+        "La Géorgie",
+        "Le Mississippi"
+      ],
+      "correctIndex": 1,
+      "explanation": "Mary Cooper vient de Medford, au Texas. Profondément religieuse et conservatrice, elle incarne le parfait contrepoint au rationalisme extrême de son fils. Annie Potts reprend le rôle dans Young Sheldon depuis 2017."
     },
     {
       "id": "13",
-      "question": "Quel personnage possède une mère extrêmement envahissante ?",
-      "answers": ["Raj", "Howard", "Stuart", "Leonard"],
-      "correctIndex": 1,
-      "explanation": "Howard vit longtemps chez sa mère, jamais totalement visible à l’écran mais constamment entendue hors caméra. Cette relation devient l’un des running gags les plus célèbres de la série."
+      "question": "Quelle particularité a la mère de Howard Wolowitz dans la série ?",
+      "answers": [
+        "Elle est médecin",
+        "Elle est sourde",
+        "Elle vit en Israël",
+        "Elle n'apparaît jamais à l'écran"
+      ],
+      "correctIndex": 3,
+      "explanation": "La mère de Howard, Mrs. Wolowitz, est uniquement entendue hors champ — sa voix est incarnée par Carol Ann Susi jusqu'en 2014. À la mort de l'actrice, le personnage décède également dans la série, lors d'un épisode particulièrement émouvant en saison 8."
     },
     {
       "id": "14",
-      "question": "Quel est le numéro de l’appartement de Sheldon et Leonard ?",
-      "answers": ["4B", "3A", "4A", "5C"],
+      "question": "Quel est le numéro de l'appartement de Sheldon et Leonard dans leur immeuble ?",
+      "answers": [
+        "4B",
+        "3A",
+        "4A",
+        "5C"
+      ],
       "correctIndex": 2,
-      "explanation": "L’appartement 4A devient presque un personnage à part entière dans la série. C’est le lieu principal des repas, disputes scientifiques, soirées jeux et moments emblématiques du groupe."
+      "explanation": "L'appartement 4A est le cœur névralgique de la série. Curieusement, dans les premières saisons, le numéro 4A ne correspond pas logiquement à un 4ème étage sans ascenseur, un détail incohérent que les créateurs ont reconnu."
     },
     {
       "id": "15",
-      "question": "Quel prix scientifique Sheldon et Amy remportent-ils à la fin de la série ?",
-      "answers": ["Le prix Nobel", "Le prix Turing", "La médaille Fields", "Le prix Hawking"],
+      "question": "Quel prix Sheldon et Amy reçoivent-ils dans l'épisode final de la série ?",
+      "answers": [
+        "Le prix Nobel de physique",
+        "Le prix Turing",
+        "La médaille Fields",
+        "Le prix Breakthrough"
+      ],
       "correctIndex": 0,
-      "explanation": "Sheldon et Amy remportent ensemble le prix Nobel de physique grâce à leurs travaux sur la super-asymétrie. Cette récompense symbolise l’aboutissement du parcours scientifique et humain de Sheldon dans le final."
+      "explanation": "Sheldon et Amy remportent le prix Nobel de physique pour leurs travaux sur la super-asymétrie dans le final de la saison 12 (2019). Le discours de Sheldon, où il remercie ses amis avec sincérité pour la première fois, constitue le moment le plus émouvant de toute la série."
     },
     {
       "id": "16",
-      "question": "Quel personnage travaille comme microbiologiste ?",
-      "answers": ["Amy", "Bernadette", "Emily", "Penny"],
+      "question": "Dans quel domaine Bernadette Rostenkowski a-t-elle obtenu son doctorat ?",
+      "answers": [
+        "Neurobiologie",
+        "Microbiologie",
+        "Biochimie",
+        "Pharmacologie"
+      ],
       "correctIndex": 1,
-      "explanation": "Bernadette travaille dans l’industrie pharmaceutique en tant que microbiologiste. Malgré sa petite taille et sa voix douce, elle devient progressivement l’un des personnages les plus autoritaires du groupe."
+      "explanation": "Bernadette est docteure en microbiologie et travaille dans l'industrie pharmaceutique. Malgré sa voix douce et sa petite taille, elle est présentée comme l'une des plus redoutables du groupe, notamment dans ses relations professionnelles et familiales."
     },
-  {
-  "id": "17",
-  "question": "Quel super-héros est souvent considéré comme le favori de Sheldon Cooper ?",
-  "answers": ["Batman", "Spider-Man", "The Flash", "Superman"],
-  "correctIndex": 2,
-  "explanation": "The Flash est le super-héros le plus associé à Sheldon dans la série. Il se déguise plusieurs fois en Flash et la série multiplie les références à ce personnage, ce qui en fait un meilleur choix que Superman pour cette question."
-},
+    {
+      "id": "17",
+      "question": "Quel super-héros Sheldon incarne-t-il le plus souvent lors des fêtes costumées ?",
+      "answers": [
+        "Batman",
+        "Spider-Man",
+        "The Flash",
+        "Superman"
+      ],
+      "correctIndex": 2,
+      "explanation": "Sheldon se déguise à de nombreuses reprises en Flash, son super-héros de prédilection. La série multiplie les références à ce personnage, notamment via les figurines de Sheldon et les discussions entre les personnages sur la hiérarchie des super-héros DC."
+    },
     {
       "id": "18",
-      "question": "Quel acteur de Star Trek apparaît régulièrement dans la série et devient proche du groupe ?",
-      "answers": ["Patrick Stewart", "Wil Wheaton", "William Shatner", "Leonard Nimoy"],
-      "correctIndex": 1,
-      "explanation": "Wil Wheaton joue une version fictive de lui-même et entretient une rivalité hilarante avec Sheldon. Sa présence renforce les liens constants de la série avec la culture geek."
+      "question": "Quelle rivalité oppose Sheldon à l'acteur Wil Wheaton dans la série ?",
+      "answers": [
+        "Une rivalité dans un tournoi de poker",
+        "Une rivalité née lors d'une convention de science-fiction",
+        "Une rivalité née d'une dédicace manquée à une convention",
+        "Une rivalité pour le même poste à Caltech"
+      ],
+      "correctIndex": 2,
+      "explanation": "Sheldon voue une rancœur tenace à Wil Wheaton depuis que celui-ci n'est pas venu à une convention en 1995, où Sheldon avait fait un long voyage pour obtenir sa dédicace. Cette rivalité est introduite dans la saison 3 et revient régulièrement dans la série."
     },
     {
       "id": "19",
-      "question": "Quelle discipline scientifique Rajesh Koothrappali étudie-t-il ?",
-      "answers": ["Astrophysique", "Robotique", "Mathématiques", "Chimie"],
-      "correctIndex": 0,
-      "explanation": "Raj travaille comme astrophysicien à Caltech. Ses recherches portent sur les objets célestes et l’univers, même si la série met surtout l’accent sur ses difficultés sociales et sentimentales."
+      "question": "Pourquoi Sheldon refuse-t-il de laisser quiconque s'asseoir à sa place sur le canapé ?",
+      "answers": [
+        "Par superstition",
+        "C'est un cadeau de sa mère",
+        "Il en a fait une règle pour éviter les contacts",
+        "C'est sa place optimale calculée scientifiquement"
+      ],
+      "correctIndex": 3,
+      "explanation": "Sheldon explique dès la saison 1 que sa place sur le canapé a été choisie selon des critères précis : distance idéale de la télévision, angle de vision parfait, température ambiante optimale et distance de sécurité en cas de séisme. C'est l'une des premières grandes manifestations de son caractère obsessionnel."
     },
     {
       "id": "20",
-      "question": "Quel est le nom de l’université où travaillent principalement les personnages ?",
-      "answers": ["Stanford", "MIT", "Caltech", "Princeton"],
+      "question": "Quel est le nom complet du California Institute of Technology où travaillent les personnages ?",
+      "answers": [
+        "Stanford University",
+        "MIT",
+        "Caltech",
+        "UC Berkeley"
+      ],
       "correctIndex": 2,
-      "explanation": "Les personnages travaillent principalement au California Institute of Technology, plus connu sous le nom de Caltech. Cette université prestigieuse permet à la série d’intégrer de nombreuses références scientifiques réelles."
+      "explanation": "Caltech (California Institute of Technology), situé à Pasadena, est l'un des instituts scientifiques les plus réputés au monde. La série a collaboré avec de vrais scientifiques, dont le physicien David Saltzberg, pour vérifier l'exactitude des références scientifiques."
     }
   ]
 }

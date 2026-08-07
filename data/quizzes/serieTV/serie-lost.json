@@ -2,7 +2,7 @@
   "slug": "quiz-es-tu-fan-de-lost",
   "title": "Quiz Série TV - Es-tu fan de Lost ?",
   "description": "Un quiz difficile pour tester tes connaissances sur Lost, ses mystères, ses personnages et ses révélations cultes.",
-  "descriptionSeo": "Lost est une série culte pleine de mystères, de voyages temporels et de personnages inoubliables. Avec ce quiz difficile sur Lost, teste tes connaissances sur l’île, les survivants du vol Oceanic 815, la Dharma Initiative, les Autres et les moments les plus marquants de la série. Saura-tu reconnaître les épisodes cultes, les révélations majeures et les secrets cachés qui ont fait de Lost une œuvre incontournable pour toute une génération de fans ?",
+  "descriptionSeo": "Lost est une série culte pleine de mystères, de voyages temporels et de personnages inoubliables. Avec ce quiz difficile sur Lost, teste tes connaissances sur l'île, les survivants du vol Oceanic 815, la Dharma Initiative, les Autres et les moments les plus marquants de la série. Saura-tu reconnaître les épisodes cultes, les révélations majeures et les secrets cachés qui ont fait de Lost une œuvre incontournable pour toute une génération de fans ?",
   "category": {
     "name": "Série TV",
     "slug": "serie-tv"
@@ -18,143 +18,243 @@
   "questions": [
     {
       "id": "1",
-      "question": "Quel est le numéro du vol qui s’écrase sur l’île au début de la série ?",
-      "answers": ["Ajira 316", "Oceanic 815", "Oceanic 108", "Dharma 42"],
-      "correctIndex": 1,
-      "explanation": "Le vol Oceanic 815 reliait Sydney à Los Angeles. Son crash marque le début de tous les mystères de Lost."
+      "question": "Quel est le numéro du vol Sydney-Los Angeles dont le crash déclenche toute l'intrigue de la série ?",
+      "answers": [
+        "Oceanic 815",
+        "Ajira 316",
+        "Oceanic 108",
+        "Dharma 42"
+      ],
+      "correctIndex": 0,
+      "explanation": "Le vol Oceanic 815 reliait Sydney à Los Angeles le 22 septembre 2004 quand il s'est scindé en plein vol et s'est écrasé sur l'île. La date du crash — le 22 septembre 2004 — est devenue un repère central pour toute la chronologie de la série, qui débute par cet événement fondateur."
     },
     {
       "id": "2",
-      "question": "Quel personnage est paralysé avant le crash mais retrouve l’usage de ses jambes sur l’île ?",
-      "answers": ["Charlie Pace", "Jack Shephard", "John Locke", "Desmond Hume"],
+      "question": "Quel survivant du crash, incapable de marcher depuis des années, se lève brusquement de son fauteuil roulant sur la plage peu après l'atterrissage ?",
+      "answers": [
+        "Charlie Pace",
+        "Jack Shephard",
+        "John Locke",
+        "Desmond Hume"
+      ],
       "correctIndex": 2,
-      "explanation": "John Locke était en fauteuil roulant avant le crash. Sa guérison soudaine sur l’île renforce l’idée que celle-ci possède des pouvoirs mystérieux."
+      "explanation": "John Locke était paraplégique depuis quatre ans avant le crash, à la suite d'une chute du haut d'un immeuble causée par son propre père. Sa guérison soudaine sur la plage dans la saison 1 est l'un des premiers signes que l'île possède des propriétés mystérieuses et sélectives."
     },
     {
       "id": "3",
-      "question": "Quels sont les célèbres chiffres récurrents dans Lost ?",
-      "answers": ["1 4 8 15 16 23", "5 10 15 20 25 30", "3 6 9 12 15 18", "4 8 15 16 23 42"],
+      "question": "Quelle suite de six chiffres apparaît obsessionnellement tout au long de la série, sur les billets de loterie comme dans les stations Dharma ?",
+      "answers": [
+        "1 4 8 15 16 23",
+        "5 10 15 20 25 30",
+        "3 6 9 12 15 18",
+        "4 8 15 16 23 42"
+      ],
       "correctIndex": 3,
-      "explanation": "Les chiffres 4, 8, 15, 16, 23 et 42 apparaissent constamment dans la série. Ils sont liés à la station Swan et au projet Dharma."
+      "explanation": "Les chiffres 4, 8, 15, 16, 23 et 42 apparaissent dans presque chaque épisode de la série. Leur somme donne 108 — le nombre de minutes entre chaque saisie dans la station Swan. Ils sont également associés aux six candidats identifiés par Jacob pour lui succéder comme protecteur de l'île."
     },
     {
       "id": "4",
-      "question": "Quel groupe scientifique est à l’origine des stations présentes sur l’île ?",
-      "answers": ["La Fondation Hanso", "Oceanic Research", "La Dharma Initiative", "Le Projet Phoenix"],
+      "question": "Quelle organisation scientifique financée par la fondation Hanso a construit les stations numérotées présentes sur l'île dans les années 1970 ?",
+      "answers": [
+        "La Fondation Hanso",
+        "Oceanic Research",
+        "La Dharma Initiative",
+        "Le Projet Phoenix"
+      ],
       "correctIndex": 2,
-      "explanation": "La Dharma Initiative est une organisation scientifique qui a construit plusieurs stations expérimentales sur l’île."
+      "explanation": "La Dharma Initiative (Department of Heuristics And Research on Material Applications) est une organisation scientifique fondée dans les années 1970 avec le soutien de la fondation Hanso. Elle a construit plusieurs stations de recherche sur l'île — Swan, Arrow, Staff, Flame — avant d'être éliminée par les Autres lors de la Purge."
     },
     {
       "id": "5",
-      "question": "Quel personnage doit entrer les chiffres dans l’ordinateur toutes les 108 minutes ?",
-      "answers": ["Sawyer", "Desmond", "Boone", "Ben Linus"],
+      "question": "Quel rescapé de l'île, retrouvé dans la station Swan par Jack et Locke, doit appuyer sur une touche toutes les 108 minutes pour éviter une catastrophe ?",
+      "answers": [
+        "Sawyer",
+        "Desmond",
+        "Boone",
+        "Ben Linus"
+      ],
       "correctIndex": 1,
-      "explanation": "Desmond Hume vit dans la station Swan et entre les chiffres toutes les 108 minutes afin d’éviter une catastrophe."
+      "explanation": "Desmond Hume vivait seul dans la station Swan depuis trois ans quand Jack et Locke descendent dans la trappe en saison 2. Sa mission — entrer les chiffres toutes les 108 minutes pour « sauver le monde » — devient l'un des grands arcs mystérieux de la saison, jusqu'à la révélation sur la véritable nature de l'anomalie électromagnétique que la station était censée contenir."
     },
     {
       "id": "6",
-      "question": "Comment s’appelle le mystérieux monstre de fumée noire ?",
-      "answers": ["Le Monstre", "Le Gardien", "Le Nuage", "Le Fumigène"],
+      "question": "Quelle créature surnaturelle sous forme gazeuse hante la jungle de l'île et terrifie les survivants dès les premières nuits ?",
+      "answers": [
+        "Le Monstre",
+        "Le Gardien",
+        "Le Nuage",
+        "Le Fumigène"
+      ],
       "correctIndex": 0,
-      "explanation": "La créature est simplement appelée “Le Monstre” par les survivants. Son apparence sous forme de fumée noire devient l’un des symboles de la série."
+      "explanation": "La créature est simplement surnommée « le Monstre » par les survivants, faute de mieux. On découvre en saison 6 qu'il s'agit de la forme que prend l'Homme en noir — le frère de Jacob — depuis qu'il a été projeté dans la source lumineuse au cœur de l'île des millénaires plus tôt."
     },
     {
       "id": "7",
-      "question": "Quel est le vrai prénom de Sawyer ?",
-      "answers": ["Jeremy", "Jacob", "Julian", "James"],
+      "question": "Quel est l'état civil complet du personnage que ses compagnons appellent simplement Sawyer ?",
+      "answers": [
+        "Jeremy Ford",
+        "Jacob Sawyer",
+        "Julian Lafleur",
+        "James Ford"
+      ],
       "correctIndex": 3,
-      "explanation": "Sawyer s’appelle en réalité James Ford. Il utilise le surnom Sawyer en référence à l’escroc responsable de la ruine de sa famille."
+      "explanation": "Sawyer s'appelle James Ford. Il a adopté le surnom de l'escroc qui a escroqué et indirectement tué ses parents quand il était enfant, après avoir décidé de traquer cet homme. Cette révélation dans la saison 1 constitue l'un des flashbacks les plus marquants du personnage."
     },
     {
       "id": "8",
-      "question": "Quel personnage dirige les Autres pendant une grande partie de la série ?",
-      "answers": ["Charles Widmore", "Richard Alpert", "Ben Linus", "Ethan Rom"],
+      "question": "Quel dirigeant des Autres, capturé par les survivants et présenté comme Henry Gale, révèle peu à peu son vrai visage de manipulateur ?",
+      "answers": [
+        "Charles Widmore",
+        "Richard Alpert",
+        "Ben Linus",
+        "Ethan Rom"
+      ],
       "correctIndex": 2,
-      "explanation": "Benjamin Linus manipule aussi bien les survivants que les membres des Autres pour conserver son pouvoir sur l’île."
+      "explanation": "Benjamin Linus est capturé en saison 2 sous le faux nom d'Henry Gale. Progressivement, son vrai rôle — chef des Autres et homme le plus dangereux de l'île — est révélé. Michael Emerson, qui incarne Ben, a remporté l'Emmy Award du meilleur second rôle dramatique en 2009."
     },
     {
       "id": "9",
-      "question": "Quel personnage chante souvent et faisait partie d’un groupe de rock ?",
-      "answers": ["Hurley", "Charlie", "Boone", "Miles"],
+      "question": "Quel survivant britannique, ex-membre d'un groupe de rock, saisit tout ce qui traîne et entonne des chansons pour réconforter ses compagnons ?",
+      "answers": [
+        "Hurley",
+        "Charlie",
+        "Boone",
+        "Miles"
+      ],
       "correctIndex": 1,
-      "explanation": "Charlie Pace était bassiste du groupe Drive Shaft avant le crash. Sa musique reste associée à plusieurs scènes marquantes."
+      "explanation": "Charlie Pace était le bassiste du groupe Drive Shaft, connu pour son tube de gloire You All Everybody. Sur l'île, il lutte également contre sa dépendance à l'héroïne. Son sacrifice à la fin de la saison 3 — noyé dans la station Looking Glass pour permettre aux survivants d'être secourus — reste l'une des morts les plus émouvantes de la série."
     },
     {
       "id": "10",
-      "question": "Quel message est inscrit sur la trappe découverte par Locke et Boone ?",
-      "answers": ["Quarantine", "Not Penny’s Boat", "System Failure", "Enter 4 8 15 16 23 42"],
+      "question": "Quel mot menaçant, signifiant « mise en quarantaine », est gravé à l'intérieur de la trappe découverte dans la jungle par Locke et Boone ?",
+      "answers": [
+        "Quarantine",
+        "Not Penny's Boat",
+        "System Failure",
+        "Enter 4 8 15 16 23 42"
+      ],
       "correctIndex": 0,
-      "explanation": "Le mot “Quarantine” est inscrit à l’intérieur de la station Swan, laissant croire que l’extérieur est contaminé."
+      "explanation": "Le mot « Quarantine » est gravé à l'intérieur du panneau d'écoutille de la station Swan, révélant à Jack et Locke dans la saison 2 la présence d'une station cachée. Cette inscription visait à maintenir Desmond et ses prédécesseurs confinés dans la station, en leur faisant croire que l'extérieur était contaminé, pour s'assurer qu'aucun occupant de la station ne cherche à quitter les lieux — l'une des manipulations les plus cyniques de la Dharma Initiative."
     },
     {
       "id": "11",
-      "question": "Quel personnage prononce la phrase culte “Not Penny’s Boat” ?",
-      "answers": ["Michael", "Jack", "Desmond", "Charlie"],
+      "question": "Quelle phrase, inscrite sur la paume d'un mourant pour avertir Desmond, est devenue l'une des répliques les plus cultes de la série ?",
+      "answers": [
+        "System Failure",
+        "We have to go back",
+        "The numbers are bad",
+        "Not Penny's Boat"
+      ],
       "correctIndex": 3,
-      "explanation": "Charlie écrit “Not Penny’s Boat” sur sa main juste avant sa mort afin d’avertir Desmond et les survivants."
+      "explanation": "« Not Penny's Boat » est le message écrit par Charlie sur sa main juste avant de mourir noyé dans la saison 3. En quelques secondes, il informe Desmond que le bateau repéré appartient à Charles Widmore et non à Penny. Cette scène, associée aux derniers regards de Charlie à travers le hublot, est régulièrement citée parmi les plus bouleversantes de la série."
     },
     {
       "id": "12",
-      "question": "Quel est le nom du père de Jack Shephard ?",
-      "answers": ["Anthony Cooper", "Christian Shephard", "Thomas Shephard", "Edward Shephard"],
+      "question": "Quel est le prénom du père de Jack, dont le fantôme erre sur l'île et guide les vivants comme les mourants ?",
+      "answers": [
+        "Anthony",
+        "Christian",
+        "Thomas",
+        "Edward"
+      ],
       "correctIndex": 1,
-      "explanation": "Christian Shephard apparaît à plusieurs reprises dans les flashbacks et les visions mystérieuses liées à l’île."
+      "explanation": "Christian Shephard, père de Jack, apparaît dans les flashbacks dès la saison 1 et sa silhouette se manifeste sur l'île dans des circonstances ambiguës. On comprend progressivement que ces apparitions sur l'île sont au moins en partie liées à la capacité de l'Homme en noir à prendre l'apparence des morts — son cercueil était à bord du vol Oceanic 815 — et à la capacité de l'île à utiliser les apparences des disparus."
     },
     {
       "id": "13",
-      "question": "Quel personnage est surnommé “Hurley” ?",
-      "answers": ["Hugo Reyes", "Daniel Faraday", "Henry Gale", "Harold Perrineau"],
+      "question": "Quel surnom a-t-on donné à Hugo Reyes, le grand gaillard sympathique qui gagne à la loterie avant le crash ?",
+      "answers": [
+        "Hurley",
+        "Tubby",
+        "Shaggy",
+        "Cheech"
+      ],
       "correctIndex": 0,
-      "explanation": "Hugo Reyes est plus connu sous le surnom Hurley. Son humour et son humanité en font l’un des personnages les plus appréciés."
+      "explanation": "Hugo Reyes est surnommé Hurley depuis le lycée. Avant le crash du vol Oceanic 815, il avait gagné 114 millions de dollars à la loterie en jouant les chiffres 4, 8, 15, 16, 23 et 42. Son humour bienveillant, sa générosité et son humanité en font le personnage unanimement le plus aimé de la série par les fans."
     },
     {
       "id": "14",
-      "question": "Quel personnage devient le protecteur de l’île à la fin de la série ?",
-      "answers": ["Ben", "Sawyer", "Hurley", "Jack"],
-      "correctIndex": 2,
-      "explanation": "Hurley accepte de devenir le nouveau gardien de l’île après les événements finaux de la série."
+      "question": "Quel personnage, après avoir protégé la source lumineuse au cœur de l'île, ferme les yeux dans la jungle entouré par son chien Vincent ?",
+      "answers": [
+        "Ben Linus",
+        "Sawyer",
+        "Hurley",
+        "Jack"
+      ],
+      "correctIndex": 3,
+      "explanation": "Jack Shephard meurt à la fin de la saison 6 après avoir replacé le bouchon de la source lumineuse au cœur de l'île, sauvant ainsi ses compagnons. Il s'effondre dans la même jungle que celle où il s'était réveillé au pilote, accompagné de Vincent le labrador — une boucle narrative qui a beaucoup ému les fans de la série."
     },
     {
       "id": "15",
-      "question": "Quel objet Kate Austen transporte-t-elle souvent au début de la série ?",
-      "answers": ["Une valise noire", "Un avion miniature", "Un revolver doré", "Des menottes"],
-      "correctIndex": 3,
-      "explanation": "Kate apparaît menottée dans les premiers épisodes, révélant progressivement son passé de fugitive."
+      "question": "Quel talisman du passé de Kate, petit objet en plastique lié à un ami mort, dissimule-t-elle sur elle depuis des années ?",
+      "answers": [
+        "Une valise noire",
+        "Des menottes",
+        "Un avion miniature",
+        "Un revolver doré"
+      ],
+      "correctIndex": 2,
+      "explanation": "Kate possède un avion miniature en plastique appartenant à Tom Brennan, son ami d'enfance qu'elle a indirectement causé la mort en fuyant la police. Tom Brennan était l'amour de jeunesse de Kate. Cet objet, récupéré dans le coffre-fort d'une banque en saison 2, illustre le poids de son passé et sa culpabilité."
     },
     {
       "id": "16",
-      "question": "Quel est le nom du bateau envoyé par Charles Widmore vers l’île ?",
-      "answers": ["Elizabeth", "Kahana", "Black Pearl", "Penelope"],
+      "question": "Quel est le nom du cargo envoyé depuis le continent par l'ennemi des survivants, avec à son bord une équipe chargée de capturer Ben ?",
+      "answers": [
+        "Elizabeth",
+        "Kahana",
+        "Black Rock",
+        "Penelope"
+      ],
       "correctIndex": 1,
-      "explanation": "Le cargo Kahana transporte l’équipe chargée de retrouver Ben Linus et d’accéder à l’île."
+      "explanation": "Le Kahana est le cargo envoyé par Charles Widmore en saison 4. Il transporte une équipe spécialisée — dont Daniel Faraday, Miles Straume et Charlotte Lewis — chargée de localiser Ben Linus et d'accéder à l'île. La présence de ce bateau marque le début de la saison 4 et une escalade dans les menaces extérieures."
     },
     {
       "id": "17",
-      "question": "Quel personnage est capable de communiquer avec les morts ?",
-      "answers": ["Miles Straume", "Boone Carlyle", "Richard Alpert", "Daniel Faraday"],
+      "question": "Quel membre de l'équipe du Kahana peut percevoir les dernières pensées des personnes récemment décédées en touchant leurs restes ?",
+      "answers": [
+        "Miles Straume",
+        "Boone Carlyle",
+        "Richard Alpert",
+        "Daniel Faraday"
+      ],
       "correctIndex": 0,
-      "explanation": "Miles possède une capacité surnaturelle lui permettant de percevoir les pensées des personnes décédées."
+      "explanation": "Miles Straume, introduit en saison 4, possède la capacité de percevoir les dernières pensées ou émotions des personnes décédées en se concentrant sur leurs restes. Fils du Dr Pierre Chang — responsable de la Dharma Initiative — il représente l'un des liens les plus directs entre le passé de l'île et ses survivants."
     },
     {
       "id": "18",
-      "question": "Quel personnage manipule le voyage dans le temps avec ses recherches scientifiques ?",
-      "answers": ["Ben Linus", "Desmond Hume", "Daniel Faraday", "Eko"],
+      "question": "Quel physicien, arrivé sur l'île à bord du Kahana, tente de comprendre et de maîtriser les anomalies temporelles qui se produisent autour de l'île ?",
+      "answers": [
+        "Ben Linus",
+        "Desmond Hume",
+        "Daniel Faraday",
+        "Eko"
+      ],
       "correctIndex": 2,
-      "explanation": "Daniel Faraday étudie les phénomènes temporels de l’île et tente d’en comprendre les conséquences."
+      "explanation": "Daniel Faraday, physicien spécialiste du temps introduit en saison 4, est l'un des personnages les plus importants pour comprendre les mécanismes de l'île. Ses carnets de notes, sa théorie des « variables » — les êtres humains capables de modifier l'histoire — et sa relation avec sa mère Eloise Hawking constituent l'un des arcs les plus complexes des saisons 4 à 6."
     },
     {
       "id": "19",
-      "question": "Quel est le nom du frère de Jacob, principal antagoniste final de la série ?",
-      "answers": ["Le Gardien", "Samuel", "Le Monstre originel", "L’Homme en noir"],
+      "question": "Quel nom les personnages de la série utilisent-ils pour désigner le frère sans prénom de Jacob, incarnation du Mal cherchant à fuir l'île ?",
+      "answers": [
+        "Le Gardien",
+        "Samuel",
+        "Le Monstre originel",
+        "L'Homme en noir"
+      ],
       "correctIndex": 3,
-      "explanation": "Le frère de Jacob est connu sous le nom d’Homme en noir. Il cherche à quitter l’île et prend souvent l’apparence du monstre de fumée."
+      "explanation": "Le frère de Jacob n'a jamais reçu de prénom dans la série et est connu uniquement sous l'appellation « l'Homme en noir ». La saison 6 révèle ses origines — jumeau de Jacob né d'une femme naufragée — et sa transformation en monstre de fumée après que Jacob l'a projeté dans la source lumineuse. Il cherche depuis des siècles à quitter l'île."
     },
     {
       "id": "20",
-      "question": "Dans la scène finale, où Jack retrouve-t-il plusieurs personnages importants ?",
-      "answers": ["Sur la plage de l’île", "Dans une église", "À bord du vol Oceanic", "Dans la station Swan"],
+      "question": "Dans quelle bâtisse les personnages se retrouvent-ils tous dans la dernière scène de la série, avant de « passer à autre chose » ensemble ?",
+      "answers": [
+        "Sur la plage de l'île",
+        "Dans une église",
+        "Dans la station Swan",
+        "À bord du vol Oceanic"
+      ],
       "correctIndex": 1,
-      "explanation": "La dernière scène montre Jack retrouvant les autres personnages dans une église symbolique avant de “passer à autre chose”."
+      "explanation": "La scène finale de Lost montre les personnages se retrouvant dans une église lumineuse — un espace intermédiaire entre vie et mort — avant de passer à l'au-delà ensemble. Contrairement à une idée reçue tenace, les événements sur l'île étaient bien réels : seul le « flash-sideways » de la saison 6 se déroulait dans cet entre-deux."
     }
   ]
 }

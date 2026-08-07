@@ -1,8 +1,8 @@
 {
   "slug": "quiz-series-les-plus-vues",
   "title": "Quiz Série TV - Les séries que tout le monde a regardées",
-  "description": "Des records d’audience historiques aux phénomènes du streaming, ce quiz teste tes connaissances sur les séries les plus regardées au monde.",
-  "descriptionSeo": "De Friends à Squid Game, en passant par Game of Thrones, Stranger Things, Breaking Bad ou La Casa de Papel, ce quiz sur les séries les plus vues revient sur les plus grands phénomènes télévisés de tous les temps. Records d’audience, succès Netflix, finales historiques et séries cultes : découvre si tu connais vraiment les programmes qui ont captivé des millions de spectateurs à travers le monde.",
+  "description": "Des records d'audience historiques aux phénomènes du streaming, ce quiz teste tes connaissances sur les séries les plus regardées au monde.",
+  "descriptionSeo": "De Friends à Squid Game, en passant par Game of Thrones, Stranger Things, Breaking Bad ou La Casa de Papel, ce quiz sur les séries les plus vues revient sur les plus grands phénomènes télévisés de tous les temps. Records d'audience, succès Netflix, finales historiques et séries cultes : découvre si tu connais vraiment les programmes qui ont captivé des millions de spectateurs à travers le monde.",
   "category": {
     "name": "Série TV",
     "slug": "serie-tv"
@@ -18,143 +18,243 @@
   "questions": [
     {
       "id": "1",
-      "question": "Quelle série coréenne est devenue l’un des plus grands succès mondiaux de Netflix ?",
-      "answers": ["All of Us Are Dead", "Squid Game", "Kingdom", "Sweet Home"],
+      "question": "Quelle série coréenne de survival diffusée en 2021 est devenue le plus grand lancement de l'histoire de Netflix ?",
+      "answers": [
+        "All of Us Are Dead",
+        "Squid Game",
+        "Kingdom",
+        "Sweet Home"
+      ],
       "correctIndex": 1,
-      "explanation": "Squid Game est devenue un phénomène mondial en 2021. La série a prouvé qu’un programme non anglophone pouvait dominer les audiences mondiales du streaming et influencer durablement la culture populaire."
+      "explanation": "Squid Game (Netflix, 2021) a été vue par plus de 111 millions de foyers dans les 28 jours suivant son lancement en 2021, établissant le record de lancement de la plateforme. La série a prouvé qu'un programme non anglophone pouvait dominer les audiences mondiales du streaming, lançant une vague d'intérêt pour les productions coréennes."
     },
     {
       "id": "2",
-      "question": "Quelle série Netflix met en scène Wednesday Addams dans une école pour marginaux ?",
-      "answers": ["Wednesday", "Chilling Adventures of Sabrina", "The Sandman", "Locke & Key"],
+      "question": "Quelle série Netflix de 2022, centrée sur la fille d'Addams inscrite dans une académie pour adolescents atypiques, s'est imposée parmi les plus grands lancements de l'histoire de Netflix ?",
+      "answers": [
+        "Wednesday",
+        "Chilling Adventures of Sabrina",
+        "The Sandman",
+        "Locke & Key"
+      ],
       "correctIndex": 0,
-      "explanation": "Wednesday est rapidement devenue l’une des séries les plus regardées de l’histoire de Netflix. La danse de Wednesday interprétée par Jenna Ortega est même devenue virale sur les réseaux sociaux."
+      "explanation": "Wednesday (Netflix, depuis 2022) a dépassé 341 millions d'heures de visionnage lors de sa première semaine, s'imposant parmi les plus grands lancements de l'histoire de Netflix selon la métrique des heures de visionnage. La danse de Jenna Ortega dans l'épisode 4 est devenue virale sur TikTok, générant des centaines de millions de reprises."
     },
     {
       "id": "3",
-      "question": "Quelle série de science-fiction Netflix suit des enfants confrontés à l’Upside Down ?",
-      "answers": ["Dark", "The OA", "Stranger Things", "Lost in Space"],
+      "question": "Quelle série Netflix mélange nostalgie des années 1980, horreur et science-fiction autour d'une dimension parallèle appelée Upside Down ?",
+      "answers": [
+        "Dark",
+        "The OA",
+        "Stranger Things",
+        "Lost in Space"
+      ],
       "correctIndex": 2,
-      "explanation": "Stranger Things a relancé l’intérêt du grand public pour les univers inspirés des années 80. La série mélange nostalgie, horreur et science-fiction avec une esthétique devenue immédiatement reconnaissable."
+      "explanation": "Stranger Things (Netflix, depuis 2016) a relancé l'intérêt du grand public pour les univers inspirés des années 80. La saison 4, diffusée en 2022, a établi un record de 335 millions d'heures de visionnage en une semaine sur la plateforme, avant d'être dépassée par Wednesday."
     },
     {
       "id": "4",
-      "question": "Quelle série a longtemps détenu le record du final le plus regardé de l’histoire de la télévision américaine ?",
-      "answers": ["Friends", "Seinfeld", "Cheers", "M*A*S*H"],
+      "question": "Quelle série de guerre a longtemps détenu le record du final le plus regardé de l'histoire de la télévision américaine, avec plus de 100 millions de téléspectateurs ?",
+      "answers": [
+        "All in the Family",
+        "Seinfeld",
+        "Cheers",
+        "M*A*S*H"
+      ],
       "correctIndex": 3,
-      "explanation": "Le dernier épisode de M*A*S*H en 1983 a réuni plus de 100 millions de téléspectateurs aux États-Unis. Ce record est resté inégalé pendant des décennies."
+      "explanation": "Le dernier épisode de M*A*S*H, diffusé le 28 février 1983, a réuni 106 millions de téléspectateurs aux États-Unis. Ce record a tenu pendant 27 ans, jusqu'à ce que le Super Bowl 2010 le dépasse. La série, diffusée sur CBS de 1972 à 1983, traitait de la guerre de Corée."
     },
     {
       "id": "5",
-      "question": "Quelle sitcom américaine s’est terminée en 2004 avec un final suivi par des dizaines de millions de personnes ?",
-      "answers": ["Friends", "How I Met Your Mother", "The Big Bang Theory", "Modern Family"],
+      "question": "Quelle sitcom NBC a réuni plus de 52 millions de téléspectateurs lors de son final en 2004, devenant l'un des adieux les plus suivis de l'histoire de la télé ?",
+      "answers": [
+        "Friends",
+        "How I Met Your Mother",
+        "Two and a Half Men",
+        "Modern Family"
+      ],
       "correctIndex": 0,
-      "explanation": "Le dernier épisode de Friends a été un événement mondial. Même des années après sa fin, la série reste parmi les contenus les plus regardés en streaming dans de nombreux pays."
+      "explanation": "Le final de Friends, diffusé le 6 mai 2004 sur NBC, a réuni 52,5 millions de téléspectateurs aux États-Unis. Même 20 ans après sa fin, la série reste parmi les contenus les plus streamés au monde, notamment sur Max et Netflix selon les pays."
     },
     {
       "id": "6",
-      "question": "Quelle série fantastique HBO est devenue un immense phénomène mondial dans les années 2010 ?",
-      "answers": ["The Witcher", "Game of Thrones", "Vikings", "The Last Kingdom"],
+      "question": "Quelle série HBO a établi de nouveaux standards de production télévisée avec des budgets par épisode atteignant 15 millions de dollars en saison 8 ?",
+      "answers": [
+        "The Witcher",
+        "Game of Thrones",
+        "Vikings",
+        "The Last Kingdom"
+      ],
       "correctIndex": 1,
-      "explanation": "Game of Thrones a changé l’échelle des séries télévisées avec ses batailles spectaculaires, son budget colossal et ses épisodes diffusés simultanément dans le monde entier."
+      "explanation": "Game of Thrones (HBO, 2011-2019) a changé l'échelle des séries télévisées avec ses batailles spectaculaires et ses effets spéciaux cinématographiques. La saison 8 a réuni jusqu'à 19 millions de téléspectateurs en direct aux États-Unis — un record pour une série câblée américaine."
     },
     {
       "id": "7",
-      "question": "Quelle série espagnole est devenue mondialement célèbre grâce à ses braqueurs en combinaison rouge ?",
-      "answers": ["Elite", "Sky Rojo", "La Casa de Papel", "Vis a Vis"],
+      "question": "Quelle série espagnole, diffusée d'abord sur Antena 3 en 2017, est devenue l'une des productions non anglophones les plus regardées de l'histoire de Netflix ?",
+      "answers": [
+        "Elite",
+        "Sky Rojo",
+        "La Casa de Papel",
+        "Vis a Vis"
+      ],
       "correctIndex": 2,
-      "explanation": "À l’origine, La Casa de Papel n’était qu’un succès modéré en Espagne. Son arrivée sur Netflix l’a transformée en phénomène international."
+      "explanation": "La Casa de Papel (Antena 3 puis Netflix, 2017-2021) était un succès modéré en Espagne avant que Netflix ne rachète ses droits internationaux en 2017. La série a ensuite connu une popularité mondiale exceptionnelle, devenant l'une des séries non anglophones les plus regardées de la plateforme."
     },
     {
       "id": "8",
-      "question": "Quelle série met en scène Walter White, professeur de chimie devenu criminel ?",
-      "answers": ["Ozark", "Narcos", "Dexter", "Breaking Bad"],
+      "question": "Quelle série AMC suit la transformation d'un professeur de chimie ordinaire en baron de la drogue dans les déserts du Nouveau-Mexique ?",
+      "answers": [
+        "Ozark",
+        "Narcos",
+        "Dexter",
+        "Breaking Bad"
+      ],
       "correctIndex": 3,
-      "explanation": "Breaking Bad est souvent citée parmi les meilleures séries de tous les temps grâce à l’évolution spectaculaire de Walter White et à sa tension permanente."
+      "explanation": "Breaking Bad (AMC, 2008-2013, 5 saisons) est régulièrement citée parmi les meilleures séries de tous les temps. Son final, diffusé en 2013, a réuni 10,3 millions de téléspectateurs — un record pour la série — et a été suivi d'un film, El Camino, sorti sur Netflix en 2019."
     },
     {
       "id": "9",
-      "question": "Quelle série animée américaine est devenue l’une des plus célèbres et des plus durables au monde ?",
-      "answers": ["Les Simpson", "South Park", "Family Guy", "Futurama"],
+      "question": "Quelle série animée américaine, diffusée sans interruption depuis 1989, est devenue la plus longue sitcom de l'histoire de la télévision ?",
+      "answers": [
+        "Les Simpson",
+        "South Park",
+        "Family Guy",
+        "Futurama"
+      ],
       "correctIndex": 0,
-      "explanation": "Les Simpson est diffusée depuis 1989 et a influencé des générations de séries animées. Homer, Bart et Lisa sont devenus des icônes mondiales de la télévision."
+      "explanation": "Les Simpson (Fox, depuis 1989) dépasse les 35 saisons et 750 épisodes, faisant d'elle la plus longue sitcom animée de l'histoire de la télévision américaine. Homer, Bart, Lisa et Marge sont devenus des icônes mondiales, et la série a remporté 35 Emmy Awards."
     },
     {
       "id": "10",
-      "question": "Quelle série médicale suit Meredith Grey et les chirurgiens du Grey Sloan Memorial Hospital ?",
-      "answers": ["Urgences", "Dr House", "Grey’s Anatomy", "Scrubs"],
+      "question": "Quelle série médicale ABC, diffusée depuis 2005, est l'une des plus longues de l'histoire de la télévision américaine en prime time ?",
+      "answers": [
+        "Urgences",
+        "Dr House",
+        "Grey's Anatomy",
+        "Scrubs"
+      ],
       "correctIndex": 2,
-      "explanation": "Grey’s Anatomy est devenue l’une des séries médicales les plus longues et les plus populaires de la télévision moderne grâce à son mélange de drame, romance et médecine."
+      "explanation": "Grey's Anatomy (ABC, depuis 2005) dépasse les 20 saisons, ce qui en fait l'une des séries médicales les plus longues et les plus populaires de la télévision américaine. Créée par Shonda Rhimes, elle a formé des générations de téléspectateurs aux codes du drame médical."
     },
     {
       "id": "11",
-      "question": "Quelle série policière suit une équipe enquêtant sur des affaires liées à la marine américaine ?",
-      "answers": ["Bones", "NCIS", "Esprits criminels", "CSI: Miami"],
+      "question": "Quelle série CBS a dominé les classements d'audience américains pendant plus d'une décennie, devenant la franchise policière la plus déclinée du monde ?",
+      "answers": [
+        "Bones",
+        "NCIS",
+        "Esprits criminels",
+        "CSI: Miami"
+      ],
       "correctIndex": 1,
-      "explanation": "NCIS fait partie des séries américaines les plus regardées depuis de nombreuses années. Son succès a permis la création de plusieurs spin-offs internationaux."
+      "explanation": "NCIS (CBS, depuis 2003) a été la série américaine la plus regardée pendant plusieurs années consécutives, avec régulièrement entre 15 et 20 millions de téléspectateurs par épisode à son apogée. Elle a engendré plusieurs spin-offs — NCIS: Los Angeles, NCIS: Hawai'i, NCIS: Sydney — faisant d'elle l'une des franchises policières les plus importantes de la télévision mondiale."
     },
     {
       "id": "12",
-      "question": "Quelle série des années 80 est célèbre pour le mystère « Qui a tiré sur J.R. ? » ?",
-      "answers": ["Dynastie", "Dallas", "Falcon Crest", "Côte Ouest"],
-      "correctIndex": 1,
-      "explanation": "L’épisode révélant qui avait tiré sur J.R. Ewing dans Dallas est devenu un événement culturel mondial et l’un des cliffhangers les plus célèbres de l’histoire."
+      "question": "Quelle série texane des années 1980 a rendu célèbre le cliffhanger « Qui a tiré sur J.R. ? », suivi par des centaines de millions de personnes dans le monde ?",
+      "answers": [
+        "Côte Ouest",
+        "Falcon Crest",
+        "Dynastie",
+        "Dallas"
+      ],
+      "correctIndex": 3,
+      "explanation": "Dallas (CBS, 1978-1991) a popularisé le feuilleton dynastique américain. Le cliffhanger de 1980 — qui a tiré sur J.R. Ewing ? — est devenu un événement culturel mondial : l'épisode réponse a réuni 83 millions de téléspectateurs aux États-Unis et a été suivi dans plus de 90 pays."
     },
     {
       "id": "13",
-      "question": "Quelle sitcom met en scène Sheldon, Leonard et Penny ?",
-      "answers": ["The Office", "Community", "New Girl", "The Big Bang Theory"],
+      "question": "Quelle sitcom CBS a mis en scène des physiciens geeks pendant 12 saisons, devenant l'une des comédies les plus regardées des années 2010 ?",
+      "answers": [
+        "The Office",
+        "Community",
+        "New Girl",
+        "The Big Bang Theory"
+      ],
       "correctIndex": 3,
-      "explanation": "The Big Bang Theory a réussi à rendre la culture geek accessible au très grand public, devenant l’une des sitcoms les plus regardées des années 2010."
+      "explanation": "The Big Bang Theory (CBS, 2007-2019, 12 saisons) a régulièrement réuni entre 15 et 23 millions de téléspectateurs par épisode à son apogée, en faisant l'une des sitcoms les plus regardées de la décennie 2010. Son final en 2019 a attiré 18 millions de spectateurs."
     },
     {
       "id": "14",
-      "question": "Quelle série suit les survivants du crash du vol Oceanic 815 ?",
-      "answers": ["Fringe", "Heroes", "Lost", "The 100"],
+      "question": "Quelle série ABC de 2004 a lancé l'ère des séries à mythologie complexe en suivant les survivants d'un crash d'avion sur une île mystérieuse ?",
+      "answers": [
+        "Fringe",
+        "Heroes",
+        "Lost",
+        "The 100"
+      ],
       "correctIndex": 2,
-      "explanation": "Lost a révolutionné la façon de suivre une série grâce aux théories de fans et aux discussions massives sur Internet après chaque épisode."
+      "explanation": "Lost (ABC, 2004-2010, 6 saisons) a révolutionné la façon de suivre une série grâce aux théories de fans et aux discussions massives sur Internet. Son pilote a coûté 14 millions de dollars — un record pour l'époque — et elle a remporté l'Emmy de la meilleure série dramatique en 2005."
     },
     {
       "id": "15",
-      "question": "Quelle série britannique de science-fiction suit un voyageur du temps appelé le Docteur ?",
-      "answers": ["Doctor Who", "Black Mirror", "Torchwood", "Red Dwarf"],
+      "question": "Quelle série de la BBC diffusée depuis 1963, interrompue puis relancée en 2005, est la plus longue de l'histoire de la science-fiction télévisée ?",
+      "answers": [
+        "Doctor Who",
+        "Black Mirror",
+        "Torchwood",
+        "Red Dwarf"
+      ],
       "correctIndex": 0,
-      "explanation": "Doctor Who est diffusée depuis les années 60 et reste l’une des plus grandes séries de science-fiction de l’histoire de la télévision britannique."
+      "explanation": "Doctor Who (BBC, depuis 1963) est la série de science-fiction en prises de vues réelles la plus longue de l'histoire de la télévision. Elle a été interrompue de 1989 à 2005 avant d'être relancée avec succès. Le personnage du Docteur, qui régénère son corps à chaque changement d'acteur, a permis à la série de durer plus de 60 ans."
     },
     {
       "id": "16",
-      "question": "Quelle série met en scène une famille aristocratique anglaise au début du XXe siècle ?",
-      "answers": ["The Crown", "Downton Abbey", "Bridgerton", "Peaky Blinders"],
+      "question": "Quelle série ITV suit une famille d'aristocrates anglais et leurs domestiques de 1912 à la fin des années 1920 ?",
+      "answers": [
+        "Bridgerton",
+        "Downton Abbey",
+        "Victoria",
+        "Midsomer Murders"
+      ],
       "correctIndex": 1,
-      "explanation": "Downton Abbey a rencontré un immense succès international grâce à son élégance visuelle, ses intrigues familiales et sa reconstitution historique détaillée."
+      "explanation": "Downton Abbey (ITV, 2010-2015, 6 saisons) a rencontré un immense succès international. Créée par Julian Fellowes, elle a réuni jusqu'à 12 millions de téléspectateurs en Grande-Bretagne et remporté 3 Golden Globes. Deux films de suite ont prolongé la saga après la fin de la série."
     },
     {
       "id": "17",
-      "question": "Quelle série Netflix se déroule dans l’univers des bals mondains et de la noblesse londonienne ?",
-      "answers": ["The Crown", "Bridgerton", "The Queen’s Gambit", "Emily in Paris"],
-      "correctIndex": 1,
-      "explanation": "Bridgerton est devenue l’une des séries romantiques les plus populaires de Netflix grâce à son esthétique moderne et ses intrigues sentimentales."
+      "question": "Quelle série BBC suit la famille Shelby, gang de Birmingham des années 1920, et est devenue un phénomène mondial en partie grâce au streaming ?",
+      "answers": [
+        "Reply 1988",
+        "All of Us Are Dead",
+        "Move to Heaven",
+        "Peaky Blinders"
+      ],
+      "correctIndex": 3,
+      "explanation": "Peaky Blinders (BBC Two puis BBC One, 2013-2022, 6 saisons) a d'abord été un succès modéré en Grande-Bretagne avant de devenir un phénomène mondial grâce à Netflix, qui en a assuré la diffusion internationale. La série a lancé la carrière internationale de Cillian Murphy et sera prolongée par un film faisant suite aux événements de la saison 6."
     },
     {
       "id": "18",
-      "question": "Quelle série suit le règne d’Elizabeth II et l’histoire récente de la monarchie britannique ?",
-      "answers": ["Victoria", "The Tudors", "The Crown", "Downton Abbey"],
+      "question": "Quelle série Netflix suit le règne d'Elizabeth II de son accession au trône dans les années 1950 jusqu'au début des années 2000 ?",
+      "answers": [
+        "Victoria",
+        "The Tudors",
+        "The Crown",
+        "Bridgerton"
+      ],
       "correctIndex": 2,
-      "explanation": "The Crown a attiré un immense public mondial en transformant des événements historiques récents en drame prestigieux à très gros budget."
+      "explanation": "The Crown (Netflix, 2016-2023, 6 saisons) a attiré un immense public mondial en transformant l'histoire récente de la monarchie britannique en drame de prestige à très gros budget. La série a remporté de nombreux Emmy Awards et Golden Globes, faisant d'elle l'une des productions les plus primées de Netflix."
     },
     {
       "id": "19",
-      "question": "Quelle série met en scène un groupe d’amis vivant à New York dans les années 90 et 2000 ?",
-      "answers": ["Seinfeld", "Friends", "How I Met Your Mother", "Will & Grace"],
+      "question": "Quelle sitcom diffusée de 1994 à 2004 sur NBC a lancé la carrière de six acteurs devenus parmi les mieux payés de l'histoire de la télévision américaine ?",
+      "answers": [
+        "Seinfeld",
+        "Friends",
+        "How I Met Your Mother",
+        "Will & Grace"
+      ],
       "correctIndex": 1,
-      "explanation": "Friends reste l’une des séries les plus rediffusées et regardées au monde. Chaque personnage est devenu une référence majeure de la culture pop."
+      "explanation": "Friends (NBC, 1994-2004, 10 saisons) reste l'une des séries les plus rediffusées et streamées au monde. Les six acteurs principaux négociaient collectivement leur salaire à partir de la saison 3, atteignant 1 million de dollars par épisode chacun en saisons 9 et 10 — un record historique."
     },
     {
       "id": "20",
-      "question": "Quelle série post-apocalyptique met en scène des survivants dans un monde envahi par les zombies ?",
-      "answers": ["The Walking Dead", "The Last of Us", "Z Nation", "Fear the Walking Dead"],
+      "question": "Quelle série AMC, adaptée d'un comics, a réuni jusqu'à 17 millions de téléspectateurs lors de son apogée en 2014 ?",
+      "answers": [
+        "The Walking Dead",
+        "The Last of Us",
+        "Z Nation",
+        "Fear the Walking Dead"
+      ],
       "correctIndex": 0,
-      "explanation": "The Walking Dead a prouvé qu’une série centrée sur les zombies pouvait devenir un phénomène mondial durable avec des audiences massives pendant plusieurs saisons."
+      "explanation": "The Walking Dead (AMC, 2010-2022, 11 saisons) a prouvé qu'une série de survie post-apocalyptique pouvait devenir un phénomène mondial durable. La saison 5 a réuni jusqu'à 17,3 millions de téléspectateurs en direct aux États-Unis, un record pour une série câblée américaine à l'époque."
     }
   ]
 }

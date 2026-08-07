@@ -2,7 +2,7 @@
   "slug": "quiz-series-historiques",
   "title": "Quiz Série TV - Les séries historiques incontournables",
   "description": "Rois, guerres, empires, révolutions et personnages historiques : ce quiz teste tes connaissances sur les plus grandes séries historiques.",
-  "descriptionSeo": "Entre monarchies, batailles, intrigues politiques, grandes figures historiques et événements marquants, ce quiz sur les séries historiques met au défi les vrais passionnés d’histoire et de télévision. De The Crown à Vikings, en passant par Peaky Blinders, Rome, Outlander ou Chernobyl, retrouve les séries qui ont revisité les plus grandes périodes historiques. Ces 20 questions testeront ta mémoire des séries historiques les plus cultes.",
+  "descriptionSeo": "Entre monarchies, batailles, intrigues politiques, grandes figures historiques et événements marquants, ce quiz sur les séries historiques met au défi les vrais passionnés d'histoire et de télévision. De The Crown à Vikings, en passant par Peaky Blinders, Rome, Outlander ou Chernobyl, retrouve les séries qui ont revisité les plus grandes périodes historiques. Ces 20 questions testeront ta mémoire des séries historiques les plus cultes.",
   "category": {
     "name": "Série TV",
     "slug": "serie-tv"
@@ -18,143 +18,243 @@
   "questions": [
     {
       "id": "1",
-      "question": "Quelle série suit le règne de la reine Elizabeth II au Royaume-Uni ?",
-      "answers": ["Victoria", "The Crown", "Versailles", "The Tudors"],
+      "question": "Quelle série HBO/Netflix retrace plusieurs décennies du règne d'Elizabeth II à travers événements politiques et tensions familiales ?",
+      "answers": [
+        "Victoria",
+        "The Crown",
+        "Reign",
+        "The Tudors"
+      ],
       "correctIndex": 1,
-      "explanation": "The Crown retrace plusieurs décennies du règne d’Elizabeth II en mélangeant événements politiques majeurs et tensions au sein de la famille royale britannique."
+      "explanation": "The Crown (Netflix, depuis 2016, 6 saisons) retrace le règne d'Elizabeth II de son accession au trône en 1952 jusqu'au début des années 2000. La série a remporté de nombreux Emmy Awards et Golden Globes, et a mobilisé plusieurs actrices différentes pour incarner la reine à différents âges."
     },
     {
       "id": "2",
-      "question": "Dans Vikings, quel personnage devient l’un des plus célèbres chefs nordiques de la série ?",
-      "answers": ["Ragnar Lothbrok", "Ivar", "Bjorn", "Floki"],
+      "question": "Dans Vikings, quel personnage incarne le simple fermier scandinave qui rêve de découvrir de nouvelles terres à l'ouest ?",
+      "answers": [
+        "Ragnar Lothbrok",
+        "Ivar le Sans-Os",
+        "Bjorn Ironside",
+        "Floki"
+      ],
       "correctIndex": 0,
-      "explanation": "Ragnar Lothbrok est inspiré d’un héros légendaire scandinave. Son ascension de fermier à chef viking constitue le cœur des premières saisons."
+      "explanation": "Ragnar Lothbrok est le héros central des premières saisons de Vikings (History Channel, 2013-2020, 6 saisons). Inspiré d'un personnage légendaire des sagas nordiques, son ascension de fermier à roi viking constitue l'arc fondateur de la série avant que ses fils ne prennent le relais."
     },
     {
       "id": "3",
-      "question": "Quelle série historique se déroule autour de la catastrophe nucléaire de 1986 en URSS ?",
-      "answers": ["Band of Brothers", "Narcos", "Chernobyl", "The Americans"],
+      "question": "Quelle mini-série HBO en cinq épisodes retrace la catastrophe nucléaire soviétique d'avril 1986 et ses tentatives de dissimulation ?",
+      "answers": [
+        "The Americans",
+        "Occupied",
+        "Chernobyl",
+        "Deutschland 83"
+      ],
       "correctIndex": 2,
-      "explanation": "Chernobyl montre les conséquences humaines et politiques de la catastrophe nucléaire tout en critiquant le système soviétique et la désinformation officielle."
+      "explanation": "Chernobyl (HBO/Sky, 2019, 5 épisodes) retrace l'explosion du réacteur n°4 de la centrale le 26 avril 1986 et la gestion de crise soviétique. La série a remporté 10 Emmy Awards et est régulièrement citée parmi les meilleures mini-séries de la décennie."
     },
     {
       "id": "4",
-      "question": "Dans Peaky Blinders, quel acteur incarne Tommy Shelby ?",
-      "answers": ["Tom Hardy", "Paul Anderson", "Sam Claflin", "Cillian Murphy"],
+      "question": "Quel acteur irlandais incarne le froid et charismatique chef du gang des Peaky Blinders dans la série éponyme ?",
+      "answers": [
+        "Tom Hardy",
+        "Paul Anderson",
+        "Sam Claflin",
+        "Cillian Murphy"
+      ],
       "correctIndex": 3,
-      "explanation": "Cillian Murphy est devenu emblématique grâce à son interprétation froide et charismatique de Tommy Shelby, chef du gang des Peaky Blinders."
+      "explanation": "Cillian Murphy incarne Tommy Shelby dans Peaky Blinders (BBC Two, 2013-2022, 6 saisons), chef d'un gang de Birmingham des années 1920. Son interprétation sobre et magnétique lui a valu un BAFTA du meilleur acteur en 2024, après la diffusion du film final."
     },
     {
       "id": "5",
-      "question": "Quelle série historique raconte les conflits politiques et militaires de la Rome antique ?",
-      "answers": ["Rome", "Spartacus", "Domina", "Barbarians"],
+      "question": "Quelle coproduction HBO/BBC suit la fin de la République romaine à travers les yeux de deux soldats fictifs aux côtés de Jules César ?",
+      "answers": [
+        "Rome",
+        "Domina",
+        "Plebs",
+        "I, Claudius"
+      ],
       "correctIndex": 0,
-      "explanation": "Rome suit la fin de la République romaine et l’ascension d’Auguste à travers des personnages historiques comme Jules César et Marc Antoine."
+      "explanation": "Rome (HBO/BBC, 2005-2007, 2 saisons) suit la fin de la République romaine à travers les personnages fictifs Lucius Vorenus et Titus Pullo, aux côtés de figures historiques comme Jules César, Marc Antoine et Octave. Réputée pour son réalisme et sa violence, elle reste une référence du péplum télévisé."
     },
     {
       "id": "6",
-      "question": "Dans Outlander, quel élément fantastique permet à Claire de voyager dans le passé ?",
-      "answers": ["Un médaillon", "Des pierres dressées", "Une montre ancienne", "Un manuscrit"],
+      "question": "Dans Outlander, quel monument mégalithique écossais sert de portail entre le XXe siècle et l'Écosse jacobite du XVIIIe siècle ?",
+      "answers": [
+        "Un menhir isolé",
+        "Des pierres dressées",
+        "Une croix de pierre",
+        "Un cercle de dolmens"
+      ],
       "correctIndex": 1,
-      "explanation": "Les pierres de Craigh na Dun servent de portail temporel entre le XXe siècle et l’Écosse du XVIIIe siècle, mêlant romance et fiction historique."
+      "explanation": "Les pierres dressées de Craigh na Dun permettent à Claire Randall de voyager de 1945 à l'Écosse de 1743 dans Outlander (Starz, depuis 2014). La série, adaptée des romans de Diana Gabaldon publiés depuis 1991, mélange romance, fiction historique et éléments fantastiques."
     },
     {
       "id": "7",
-      "question": "Quelle série suit les débuts du règne de Louis XIV au château de Versailles ?",
-      "answers": ["The Great", "Reign", "Versailles", "Medici"],
-      "correctIndex": 2,
-      "explanation": "Versailles met en scène les stratégies politiques de Louis XIV pour imposer son pouvoir absolu autour du célèbre palais français."
+      "question": "Quelle série franco-canadienne retrace la construction politique et architecturale du palais de Louis XIV à partir des années 1660 ?",
+      "answers": [
+        "Medici",
+        "Reign",
+        "Marie Antoinette",
+        "Versailles"
+      ],
+      "correctIndex": 3,
+      "explanation": "Versailles (Canal+/BBC Two, 2015-2018, 3 saisons) met en scène les stratégies de Louis XIV pour asseoir son pouvoir absolu en déplaçant sa cour hors de Paris. Tournée en partie dans de vrais châteaux français, la série a été vendue dans plus de 135 pays."
     },
     {
       "id": "8",
-      "question": "Dans Band of Brothers, quel conflit historique est représenté ?",
-      "answers": ["La guerre du Vietnam", "La Première Guerre mondiale", "La guerre froide", "La Seconde Guerre mondiale"],
-      "correctIndex": 3,
-      "explanation": "Band of Brothers suit les soldats de la Easy Company pendant la Seconde Guerre mondiale avec une approche réputée pour son réalisme militaire."
+      "question": "Quelle mini-série coproduite par Steven Spielberg et Tom Hanks suit la Easy Company depuis l'entraînement jusqu'à la capitulation allemande ?",
+      "answers": [
+        "The Pacific",
+        "Hell on Wheels",
+        "Band of Brothers",
+        "Masters of the Air"
+      ],
+      "correctIndex": 2,
+      "explanation": "Band of Brothers (HBO, 2001, 10 épisodes) suit les parachutistes de la 101e Division aéroportée depuis leur entraînement en 1942 jusqu'à la fin de la guerre en Europe en 1945. Adaptée du livre de Stephen Ambrose, elle est régulièrement citée parmi les meilleures séries de guerre jamais produites."
     },
     {
       "id": "9",
-      "question": "Quelle série historique suit l’ascension du trafiquant Pablo Escobar ?",
-      "answers": ["Ozark", "Narcos", "Snowfall", "Breaking Bad"],
+      "question": "Quelle série Netflix mélange faits réels et dramatisation pour retracer la montée en puissance du cartel de Medellín dans les années 1980 ?",
+      "answers": [
+        "Ozark",
+        "Narcos",
+        "El Chapo",
+        "Griselda"
+      ],
       "correctIndex": 1,
-      "explanation": "Narcos raconte la montée en puissance du cartel de Medellín et l’impact mondial du trafic de cocaïne dans les années 1980."
+      "explanation": "Narcos (Netflix, 2015-2017, 3 saisons) raconte l'ascension de Pablo Escobar et du cartel de Medellín, narré du point de vue d'agents de la DEA. La série a été tournée en Colombie et mélange archives réelles et reconstitutions dramatiques pour renforcer son atmosphère documentaire."
     },
     {
       "id": "10",
-      "question": "Dans The Tudors, quel roi d’Angleterre est au centre de l’intrigue ?",
-      "answers": ["Henri VIII", "Richard III", "George VI", "Édouard VI"],
+      "question": "Quel roi d'Angleterre, connu pour ses six mariages et sa rupture avec Rome, est au centre de la série The Tudors ?",
+      "answers": [
+        "Henri VIII",
+        "Richard III",
+        "George VI",
+        "Édouard VI"
+      ],
       "correctIndex": 0,
-      "explanation": "Henri VIII reste célèbre pour ses nombreux mariages et pour avoir rompu avec l’Église catholique afin de créer l’Église anglicane."
+      "explanation": "Henri VIII est au cœur de The Tudors (Showtime, 2007-2010, 4 saisons), joué par Jonathan Rhys Meyers. Célèbre pour ses six mariages et pour avoir créé l'Église anglicane afin d'obtenir l'annulation de son premier mariage, il reste l'un des souverains anglais les plus connus de l'histoire."
     },
     {
       "id": "11",
-      "question": "Quelle série raconte l’histoire d’une femme propulsée à la tête de la Russie impériale ?",
-      "answers": ["Victoria", "Marie Antoinette", "The Great", "Bridgerton"],
+      "question": "Quelle série Hulu revisite avec humour et anachronismes volontaires l'ascension de Catherine II au pouvoir en Russie au XVIIIe siècle ?",
+      "answers": [
+        "Victoria",
+        "Marie Antoinette",
+        "The Great",
+        "Bridgerton"
+      ],
       "correctIndex": 2,
-      "explanation": "The Great revisite de manière volontairement moderne et satirique l’ascension de Catherine II de Russie."
+      "explanation": "The Great (Hulu/Channel 4, depuis 2020) revisite de manière satirique et délibérément anachronique l'accession de Catherine II au trône de Russie après son coup d'État contre son mari Pierre III en 1762. La série revendique d'emblée n'être qu'« occasionnellement vraie »."
     },
     {
       "id": "12",
-      "question": "Dans Barbarians, quel peuple affronte les légions romaines ?",
-      "answers": ["Les Vikings", "Les Saxons", "Les Gaulois", "Les tribus germaniques"],
+      "question": "Quelle série allemande Netflix s'inspire de la bataille de Teutobourg, où des guerriers germaniques ont anéanti trois légions romaines en l'an 9 ?",
+      "answers": [
+        "Deutschland 86",
+        "Dark",
+        "Occupied",
+        "Barbarians"
+      ],
       "correctIndex": 3,
-      "explanation": "Barbarians s’inspire de la bataille de Teutobourg, durant laquelle plusieurs tribus germaniques ont vaincu les légions romaines."
+      "explanation": "Barbarians (Netflix, 2020-2022, 2 saisons) s'inspire de la bataille de la forêt de Teutobourg, en l'an 9 apr. J.-C., durant laquelle Arminius a conduit une coalition de tribus germaniques contre les légions de Publius Quinctilius Varus, leur infligeant l'une des plus lourdes défaites de l'histoire romaine."
     },
     {
       "id": "13",
-      "question": "Quelle mini-série suit des soldats américains après le Débarquement de 1944 ?",
-      "answers": ["The Pacific", "Band of Brothers", "Generation Kill", "Masters of the Air"],
-      "correctIndex": 1,
-      "explanation": "Produite par Steven Spielberg et Tom Hanks, Band of Brothers est souvent considérée comme l’une des meilleures séries de guerre jamais réalisées."
+      "question": "Quelle mini-série de guerre suit les Marines américains lors de l'invasion de l'Irak en 2003, adaptée d'un reportage de Rolling Stone ?",
+      "answers": [
+        "The Pacific",
+        "Hell on Wheels",
+        "Generation Kill",
+        "Masters of the Air"
+      ],
+      "correctIndex": 2,
+      "explanation": "Generation Kill (HBO, 2008, 7 épisodes) suit le 1er bataillon de Reconnaissance des Marines lors des premières semaines de l'invasion de l'Irak en 2003. Adaptée du livre de Evan Wright, journaliste embarqué avec les troupes pour Rolling Stone, elle est saluée pour son réalisme et son regard critique."
     },
     {
       "id": "14",
-      "question": "Dans Downton Abbey, quelle famille aristocratique dirige le domaine principal ?",
-      "answers": ["Les Crawley", "Les Windsor", "Les Shelby", "Les Tudor"],
+      "question": "Dans Downton Abbey, quelle famille d'aristocrates anglais voit sa vie bouleversée par la modernité du début du XXe siècle ?",
+      "answers": [
+        "Les Crawley",
+        "Les Windsor",
+        "Les Shelby",
+        "Les Baratheon"
+      ],
       "correctIndex": 0,
-      "explanation": "Downton Abbey suit les Crawley et leurs domestiques dans une Angleterre en pleine transformation sociale au début du XXe siècle."
+      "explanation": "Downton Abbey (ITV, 2010-2015, 6 saisons) suit les Crawley, comtes de Grantham, et leurs domestiques dans leur manoir du Yorkshire de 1912 au début des années 1930. La série, créée par Julian Fellowes, a remporté 3 Golden Globes et a été suivie de deux films."
     },
     {
       "id": "15",
-      "question": "Quelle série historique se déroule pendant la prohibition à Atlantic City ?",
-      "answers": ["Mad Men", "Deadwood", "Boardwalk Empire", "Godless"],
+      "question": "Quelle série HBO suit un homme politique corrompu qui règne sur le crime organisé et la politique d'une ville balnéaire pendant la prohibition ?",
+      "answers": [
+        "Mad Men",
+        "Deadwood",
+        "Boardwalk Empire",
+        "Godless"
+      ],
       "correctIndex": 2,
-      "explanation": "Boardwalk Empire explore les liens entre politique, corruption et crime organisé pendant la prohibition américaine des années 1920."
+      "explanation": "Boardwalk Empire (HBO, 2010-2014, 5 saisons) suit Enoch « Nucky » Thompson, inspiré du vrai politicien corrompu Enoch Johnson, à Atlantic City pendant la prohibition. Produite par Martin Scorsese, la série explore les liens entre crime organisé, politique et violence dans les années 1920."
     },
     {
       "id": "16",
-      "question": "Dans Reign, quelle reine d’Écosse est au centre de l’histoire ?",
-      "answers": ["Victoria", "Élisabeth Ire", "Anne Boleyn", "Marie Stuart"],
-      "correctIndex": 3,
-      "explanation": "Reign revisite librement la jeunesse de Marie Stuart avec un ton romantique et une esthétique moderne."
+      "question": "Quelle reine d'Écosse, fiancée au Dauphin de France alors qu'elle est encore adolescente, est au cœur de la série Reign ?",
+      "answers": [
+        "Marie Stuart",
+        "Victoria",
+        "Élisabeth Ire",
+        "Anne Boleyn"
+      ],
+      "correctIndex": 0,
+      "explanation": "Reign (CW, 2013-2017, 4 saisons) revisite librement la jeunesse de Marie Stuart — reine d'Écosse à la cour de France — avec un ton romantique et une esthétique résolument moderne. La série prend de nombreuses libertés historiques au profit du drame et du suspense."
     },
     {
       "id": "17",
-      "question": "Quelle série suit la création du football professionnel en Angleterre ?",
-      "answers": ["Ted Lasso", "The English Game", "Winning Time", "Friday Night Lights"],
+      "question": "Quelle mini-série de Netflix retrace comment le football anglais a échappé aux élites pour devenir le sport des classes populaires à la fin du XIXe siècle ?",
+      "answers": [
+        "Ted Lasso",
+        "The English Game",
+        "Sunderland 'Til I Die",
+        "Friday Night Lights"
+      ],
       "correctIndex": 1,
-      "explanation": "The English Game raconte comment le football est passé d’un sport réservé aux élites à un phénomène populaire joué par les classes ouvrières."
+      "explanation": "The English Game (Netflix, 2020, 6 épisodes) est créée par Julian Fellowes (créateur de Downton Abbey) et se déroule dans les années 1870-1880. Elle suit la rivalité entre le club amateur Old Etonians et les footballeurs ouvriers de Darwen FC, lors des premières FA Cup."
     },
     {
       "id": "18",
-      "question": "Dans Spartacus, quel personnage devient chef d’une révolte d’esclaves contre Rome ?",
-      "answers": ["Crixus", "Batiatus", "Spartacus", "Glaber"],
-      "correctIndex": 2,
-      "explanation": "Spartacus s’inspire du gladiateur historique ayant dirigé l’une des plus célèbres révoltes d’esclaves contre la République romaine."
+      "question": "Quel gladiateur thrace, dont la série Starz porte le nom, mène une grande révolte d'esclaves contre la République romaine au Ier siècle av. J.-C. ?",
+      "answers": [
+        "Crixus",
+        "Batiatus",
+        "Oenomaus",
+        "Spartacus"
+      ],
+      "correctIndex": 3,
+      "explanation": "Spartacus (Starz, 2010-2013, 4 saisons) s'inspire du gladiateur historique qui a dirigé la troisième guerre servile entre 73 et 71 av. J.-C. La série mêle action hyper-stylisée et intrigues politiques dans les arènes et couloirs du pouvoir de la République romaine finissante."
     },
     {
       "id": "19",
-      "question": "Quelle série historique suit la rivalité entre les clans japonais à l’époque féodale ?",
-      "answers": ["Shōgun", "Blue Eye Samurai", "Marco Polo", "Kingdom"],
-      "correctIndex": 0,
-      "explanation": "Shōgun plonge dans le Japon féodal du XVIIe siècle à travers des luttes politiques, militaires et culturelles entre seigneurs japonais."
+      "question": "Quelle série FX/Hulu de 2024 replonge dans le Japon féodal de 1600, à travers l'alliance entre un navigateur anglais et un seigneur de guerre ?",
+      "answers": [
+        "Blue Eye Samurai",
+        "Shōgun",
+        "Marco Polo",
+        "Kingdom"
+      ],
+      "correctIndex": 1,
+      "explanation": "Shōgun (FX/Hulu, 2024, 10 épisodes) adapte le roman de James Clavell publié en 1975 et s'inspire des figures réelles de Tokugawa Ieyasu et William Adams. La série a remporté 18 Emmy Awards en 2024, dont meilleure série dramatique, établissant un record pour une production à dominante non anglophone."
     },
     {
       "id": "20",
-      "question": "Dans The Crown, quel événement historique marque fortement la saison centrée sur Diana ?",
-      "answers": ["La chute du mur de Berlin", "Le Brexit", "La guerre des Malouines", "L’accident mortel de Diana"],
+      "question": "Dans The Crown, quelle mort tragique survenue en 1997 à Paris constitue l'événement central de la saison 5 ?",
+      "answers": [
+        "La chute du mur de Berlin",
+        "Le Brexit",
+        "La guerre des Malouines",
+        "L'accident mortel de Diana"
+      ],
       "correctIndex": 3,
-      "explanation": "La mort de Diana reste l’un des événements les plus marquants de l’histoire récente de la monarchie britannique et occupe une place importante dans la série."
+      "explanation": "La mort de Diana Spencer, survenue dans un accident de voiture à Paris le 31 août 1997, est l'un des événements centraux des dernières saisons de The Crown, traité principalement en saison 5 et 6. L'événement — et la gestion froide de la famille royale — est présenté comme une crise majeure de la monarchie britannique à travers le regard de plusieurs personnages."
     }
   ]
 }

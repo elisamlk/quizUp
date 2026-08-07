@@ -1,8 +1,8 @@
 {
   "slug": "quiz-emily-in-paris",
-  "title": "Quiz Série TV - Emily in Paris - La vie parisienne d’Emily Cooper",
-  "description": "Entre mode, romance, travail et choc culturel, ce quiz Emily in Paris mettra tes connaissances à l’épreuve.",
-  "descriptionSeo": "Plonge dans l’univers d’Emily in Paris avec ce quiz consacré à la célèbre série romantique de Netflix. Emily Cooper, Gabriel, Mindy, Camille ou encore Alfie : teste tes connaissances sur les personnages, les romances, la mode et les moments les plus marquants de la série. Entre vie parisienne, marketing, réseaux sociaux et choc culturel, ces 20 questions mettront à l’épreuve tous les vrais fans d’Emily in Paris.",
+  "title": "Quiz Série TV - Emily in Paris - La vie parisienne d'Emily Cooper",
+  "description": "Entre mode, romance, travail et choc culturel, ce quiz Emily in Paris mettra tes connaissances à l'épreuve.",
+  "descriptionSeo": "Plonge dans l'univers d'Emily in Paris avec ce quiz consacré à la célèbre série romantique de Netflix. Emily Cooper, Gabriel, Mindy, Camille ou encore Alfie : teste tes connaissances sur les personnages, les romances, la mode et les moments les plus marquants de la série. Entre vie parisienne, marketing, réseaux sociaux et choc culturel, ces 20 questions mettront à l'épreuve tous les vrais fans d'Emily in Paris.",
   "category": {
     "name": "Série TV",
     "slug": "serie-tv"
@@ -18,143 +18,243 @@
   "questions": [
     {
       "id": "1",
-      "question": "Quel personnage principal suit la série ?",
-      "answers": ["Camille", "Emily Cooper", "Mindy Chen", "Sylvie Grateau"],
-      "correctIndex": 1,
-      "explanation": "Emily Cooper est l’héroïne principale de la série. Américaine expatriée à Paris, elle découvre une nouvelle culture tout en travaillant dans le marketing de luxe."
+      "question": "Quelle Américaine de Chicago arrive à Paris pour représenter une agence de marketing et se retrouve plongée dans la culture française ?",
+      "answers": [
+        "Camille",
+        "Mindy Chen",
+        "Emily Cooper",
+        "Sylvie Grateau"
+      ],
+      "correctIndex": 2,
+      "explanation": "Emily Cooper (Lily Collins) est l'héroïne d'Emily in Paris (Netflix, depuis 2020). Originaire de Chicago, elle prend la place de sa responsable enceinte pour travailler à l'agence Savoir à Paris. La série a été créée par Darren Star, également créateur de Sex and the City."
     },
     {
       "id": "2",
-      "question": "Quel métier exerce Emily à Paris ?",
-      "answers": ["Chef cuisinière", "Influenceuse mode", "Responsable marketing", "Journaliste"],
-      "correctIndex": 2,
-      "explanation": "Emily travaille dans le marketing et les réseaux sociaux. Son approche très américaine du travail crée souvent des tensions avec ses collègues parisiens."
+      "question": "Dans quelle agence parisienne Emily travaille-t-elle pour gérer les réseaux sociaux de clients du luxe ?",
+      "answers": [
+        "Fourtier & Co",
+        "Agence Savoir",
+        "Lumière Communications",
+        "La Maison Grateau"
+      ],
+      "correctIndex": 1,
+      "explanation": "Emily travaille à l'agence Savoir dans Emily in Paris (Netflix, depuis 2020). Son approche très américaine des réseaux sociaux et du marketing digital crée régulièrement des tensions avec sa patronne Sylvie et ses collègues parisiens Julien et Luc."
     },
     {
       "id": "3",
-      "question": "Dans quelle ville se déroule principalement la série ?",
-      "answers": ["Paris", "Londres", "Rome", "New York"],
+      "question": "Dans quel arrondissement parisien Emily s'installe-t-elle dans son petit appartement sous les toits ?",
+      "answers": [
+        "Le 5ème arrondissement",
+        "Le 1er arrondissement",
+        "Le 16ème arrondissement",
+        "Le Marais"
+      ],
       "correctIndex": 0,
-      "explanation": "La série se déroule principalement à Paris. Les quartiers élégants, les cafés et les lieux emblématiques participent fortement à l’identité visuelle de la série."
+      "explanation": "Emily habite dans le 5ème arrondissement de Paris, Place de l'Estrapade, dans Emily in Paris (Netflix, depuis 2020). Son appartement sous les toits avec vue sur la place est l'un des décors les plus reconnaissables de la série."
     },
     {
       "id": "4",
-      "question": "Quel acteur interprète Gabriel ?",
-      "answers": ["Lucas Bravo", "Lucien Laviscount", "William Abadie", "Bruno Gouery"],
+      "question": "Quel acteur franco-italien incarne Gabriel, le voisin cuisinier d'Emily ?",
+      "answers": [
+        "Lucas Bravo",
+        "Lucien Laviscount",
+        "William Abadie",
+        "Bruno Gouery"
+      ],
       "correctIndex": 0,
-      "explanation": "Lucas Bravo interprète Gabriel, le voisin et intérêt amoureux d’Emily. Son personnage devient rapidement central dans les intrigues romantiques de la série."
+      "explanation": "Lucas Bravo incarne Gabriel dans Emily in Paris (Netflix, depuis 2020). Né à Nice, l'acteur français a été révélé au grand public grâce à ce rôle. Son personnage de chef ambitieux et attentionné est au cœur du triangle amoureux principal de la série."
     },
     {
       "id": "5",
-      "question": "Quel est le prénom de la meilleure amie d’Emily à Paris ?",
-      "answers": ["Camille", "Sylvie", "Mindy", "Geneviève"],
+      "question": "Quelle amie d'Emily, héritière chinoise installée à Paris, se révèle être une chanteuse talentueuse ?",
+      "answers": [
+        "Camille",
+        "Sylvie",
+        "Mindy",
+        "Geneviève"
+      ],
       "correctIndex": 2,
-      "explanation": "Mindy Chen devient la meilleure amie d’Emily après leur rencontre dans un parc parisien. Leur amitié aide Emily à mieux s’adapter à sa nouvelle vie."
+      "explanation": "Mindy Chen (Ashley Park) est la meilleure amie d'Emily dans Emily in Paris (Netflix, depuis 2020). D'abord nounou en fuite de sa famille fortunée, elle révèle sa voix lors d'une performance dans un parc et devient chanteuse. Ashley Park est elle-même chanteuse de formation, issue de Broadway."
     },
     {
       "id": "6",
-      "question": "Quelle plateforme aide Emily à devenir populaire ?",
-      "answers": ["TikTok", "Instagram", "Snapchat", "Facebook"],
-      "correctIndex": 1,
-      "explanation": "Emily partage régulièrement sa vie parisienne sur Instagram. Son compte devient rapidement influent grâce à ses photos, ses looks et ses expériences à Paris."
+      "question": "Sur quel réseau social Emily publie-t-elle sa vie parisienne et accumule des dizaines de milliers d'abonnés ?",
+      "answers": [
+        "TikTok",
+        "Snapchat",
+        "Instagram",
+        "Facebook"
+      ],
+      "correctIndex": 2,
+      "explanation": "Emily partage sa vie parisienne sur Instagram dans Emily in Paris (Netflix, depuis 2020). Son compte @emilyinparis atteint rapidement les 25 000 abonnés dans la série, ce qui lui vaut autant d'ennuis avec sa patronne Sylvie que d'opportunités professionnelles inattendues."
     },
     {
       "id": "7",
-      "question": "Quel personnage est la patronne française d’Emily ?",
-      "answers": ["Mindy", "Camille", "Sylvie", "Julien"],
+      "question": "Quelle directrice artistique française, élégante et intransigeante, dirige l'agence Savoir où travaille Emily ?",
+      "answers": [
+        "Mindy",
+        "Camille",
+        "Sylvie",
+        "Julien"
+      ],
       "correctIndex": 2,
-      "explanation": "Sylvie Grateau dirige l’agence où travaille Emily. Élégante et exigeante, elle représente une vision très différente du travail et du style de vie français."
+      "explanation": "Sylvie Grateau (Philippine Leroy-Beaulieu) est la directrice de l'agence Savoir dans Emily in Paris (Netflix, depuis 2020). Froide et exigeante, elle représente la vision française du travail et de l'élégance. Philippine Leroy-Beaulieu a remporté plusieurs nominations pour ce rôle."
     },
     {
       "id": "8",
-      "question": "Quel thème revient souvent dans Emily in Paris ?",
-      "answers": ["Le voyage spatial", "Le choc culturel", "La fantasy", "La science-fiction"],
-      "correctIndex": 1,
-      "explanation": "Le choc culturel entre la vision américaine d’Emily et les habitudes françaises est l’un des thèmes principaux de la série."
+      "question": "Dans quelle ville du sud de la France le groupe se rend-il lors de la saison 2 de la série ?",
+      "answers": [
+        "Marseille",
+        "Nice",
+        "Saint-Tropez",
+        "Cannes"
+      ],
+      "correctIndex": 2,
+      "explanation": "La saison 2 d'Emily in Paris (Netflix, 2021) emmène les personnages à Saint-Tropez pour une campagne marketing liée à un client du luxe. Cet épisode hors de Paris est l'occasion d'explorer les tensions entre Emily, Gabriel et Camille dans un cadre plus intime et glamour."
     },
     {
       "id": "9",
-      "question": "Quel métier exerce Gabriel ?",
-      "answers": ["Avocat", "Photographe", "Chef cuisinier", "Architecte"],
-      "correctIndex": 2,
-      "explanation": "Gabriel est chef cuisinier et rêve d’ouvrir son propre restaurant. La gastronomie française occupe une place importante dans plusieurs intrigues."
+      "question": "Quel nom choisit le chef cuisinier voisin d'Emily pour son restaurant tant attendu ?",
+      "answers": [
+        "Le Petit Jardin",
+        "Chez Madeleine",
+        "Table",
+        "Gabriel"
+      ],
+      "correctIndex": 3,
+      "explanation": "Gabriel (Lucas Bravo) ouvre son restaurant baptisé simplement « Gabriel » dans Emily in Paris (Netflix). Ce projet, fil conducteur de son arc narratif depuis la saison 1, symbolise son ambition de cuisine gastronomique française moderne et constitue un enjeu émotionnel central entre lui et Emily."
     },
     {
       "id": "10",
-      "question": "Quelle actrice interprète Emily Cooper ?",
-      "answers": ["Ashley Park", "Lily Collins", "Philippine Leroy-Beaulieu", "Kate Walsh"],
-      "correctIndex": 1,
-      "explanation": "Lily Collins interprète Emily Cooper. Son style vestimentaire coloré et extravagant est devenu l’une des signatures de la série."
+      "question": "Quelle actrice britannico-américaine, fille d'un célèbre chanteur, incarne Emily Cooper ?",
+      "answers": [
+        "Ashley Park",
+        "Philippine Leroy-Beaulieu",
+        "Kate Walsh",
+        "Lily Collins"
+      ],
+      "correctIndex": 3,
+      "explanation": "Lily Collins, fille du musicien Phil Collins, incarne Emily Cooper dans Emily in Paris (Netflix, depuis 2020). Ses tenues extravagantes, imaginées par la costumière Patricia Field (déjà responsable des looks de Sex and the City), sont devenues l'une des signatures visuelles de la série."
     },
     {
       "id": "11",
-      "question": "Quel personnage entretient une relation compliquée avec Gabriel et Emily ?",
-      "answers": ["Mindy", "Camille", "Sylvie", "Julien"],
-      "correctIndex": 1,
-      "explanation": "Camille est d’abord amie avec Emily avant que leur relation ne se complique à cause de Gabriel et des sentiments amoureux entre les personnages."
+      "question": "Quelle photographe française, d'abord amie d'Emily, devient sa rivale amoureuse autour de Gabriel ?",
+      "answers": [
+        "Mindy",
+        "Sylvie",
+        "Julien",
+        "Camille"
+      ],
+      "correctIndex": 3,
+      "explanation": "Camille (Camille Razat) est la petite amie de Gabriel et l'amie d'Emily dans Emily in Paris (Netflix, depuis 2020). Leur amitié se complique progressivement lorsque Camille découvre les sentiments entre Emily et Gabriel. Ce triangle constitue l'arc émotionnel principal des premières saisons."
     },
     {
       "id": "12",
-      "question": "Quelle nationalité est Emily Cooper ?",
-      "answers": ["Canadienne", "Britannique", "Française", "Américaine"],
+      "question": "De quelle ville américaine Emily est-elle originaire avant de s'envoler pour Paris ?",
+      "answers": [
+        "New York",
+        "Los Angeles",
+        "Miami",
+        "Chicago"
+      ],
       "correctIndex": 3,
-      "explanation": "Emily est américaine et vient de Chicago. Son adaptation à la culture française est au cœur de nombreuses situations comiques de la série."
+      "explanation": "Emily Cooper vient de Chicago, où elle travaillait dans une agence de marketing pharmaceutique avant sa mutation parisienne dans Emily in Paris (Netflix, depuis 2020). Ses origines du Midwest contrastent avec le monde du luxe parisien et alimentent une grande partie de l'humour culturel de la série."
     },
     {
       "id": "13",
-      "question": "Quel personnage britannique devient proche d’Emily ?",
-      "answers": ["Alfie", "Luc", "Antoine", "Benoît"],
+      "question": "Quel personnage britannique rencontre Emily lors de cours de français et devient son intérêt romantique à partir de la saison 2 ?",
+      "answers": [
+        "Alfie",
+        "Luc",
+        "Antoine",
+        "Benoît"
+      ],
       "correctIndex": 0,
-      "explanation": "Alfie rencontre Emily pendant des cours de français. Leur relation apporte une nouvelle dynamique romantique dans la série."
+      "explanation": "Alfie (Lucien Laviscount) est un banquier britannique rencontré par Emily lors de cours de français dans Emily in Paris S2 (Netflix, 2021). Leur relation apporte une nouvelle dynamique romantique dans la série, en contrepoint de la tension persistante avec Gabriel."
     },
     {
       "id": "14",
-      "question": "Quel domaine professionnel est souvent mis en avant dans la série ?",
-      "answers": ["Le marketing de luxe", "La médecine", "Le sport automobile", "La politique"],
-      "correctIndex": 0,
-      "explanation": "Le marketing de luxe est omniprésent dans Emily in Paris, notamment à travers les campagnes publicitaires, les marques et les événements mondains."
+      "question": "Quel grand couturier parisien excentrique et capricieux devient l'un des clients les plus importants — et les plus imprévisibles — de l'agence Savoir ?",
+      "answers": [
+        "Chanel",
+        "Pierre Cadault",
+        "Rimowa",
+        "De L'Heure"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pierre Cadault (Jean-Christophe Bouvet) est le grand couturier parisien excentrique qui devient l'un des clients phares de l'agence dans Emily in Paris (Netflix, depuis 2020). Son caractère imprévisible et ses exigences créatives sont à l'origine de plusieurs situations comiques importantes."
     },
     {
       "id": "15",
-      "question": "Quel personnage est connu pour son humour et son style sarcastique ?",
-      "answers": ["Gabriel", "Luc", "Alfie", "Antoine"],
+      "question": "Quel collègue d'Emily à l'agence est connu pour ses remarques sarcastiques sur la culture américaine ?",
+      "answers": [
+        "Gabriel",
+        "Luc",
+        "Alfie",
+        "Antoine"
+      ],
       "correctIndex": 1,
-      "explanation": "Luc apporte souvent une touche d’humour grâce à son attitude détendue et ses remarques sarcastiques sur le travail et la vie parisienne."
+      "explanation": "Luc (Bruno Gouery) est le collègue philosophe et sarcastique d'Emily dans Emily in Paris (Netflix, depuis 2020). Ses commentaires sur les différences culturelles et son attitude détendue face au travail illustrent à la perfection le cliché du Français détaché que la série s'amuse à mettre en scène."
     },
     {
       "id": "16",
-      "question": "Quel élément est particulièrement associé à Emily dans la série ?",
-      "answers": ["Ses tenues colorées", "Les voitures de luxe", "Le football", "Les enquêtes criminelles"],
+      "question": "Quel élément du style d'Emily — imaginé par la costumière Patricia Field — est devenu une signature visuelle de la série ?",
+      "answers": [
+        "Ses tenues colorées et extravagantes",
+        "Ses voitures de luxe",
+        "Ses chaussures de sport",
+        "Ses chapeaux haute couture"
+      ],
       "correctIndex": 0,
-      "explanation": "Les tenues extravagantes et colorées d’Emily sont devenues emblématiques. La mode occupe une place essentielle dans l’identité visuelle de la série."
+      "explanation": "Les tenues d'Emily dans Emily in Paris (Netflix, depuis 2020) ont été conçues par Patricia Field, déjà responsable des looks iconiques de Sex and the City. Ses tenues mélangent couleurs vives, imprimés osés et marques françaises, générant des millions d'interactions sur les réseaux sociaux après chaque sortie de saison."
     },
     {
       "id": "17",
-      "question": "Quel service de streaming diffuse Emily in Paris ?",
-      "answers": ["Prime Video", "Disney+", "Netflix", "HBO"],
-      "correctIndex": 2,
-      "explanation": "Emily in Paris est diffusée sur Netflix. La série a rapidement rencontré un grand succès international grâce à son mélange de romance, mode et humour."
+      "question": "Quel entrepreneur du luxe, dirigeant de Maison Lavaux, devient un client important de l'agence dans la saison 1 ?",
+      "answers": [
+        "Pierre Cadault",
+        "Antoine Lambert",
+        "Paul Brossard",
+        "Mathieu Cadault"
+      ],
+      "correctIndex": 1,
+      "explanation": "Antoine Lambert (William Abadie) est un entrepreneur du luxe qui dirige Maison Lavaux, une marque de parfums, et devient client de l'agence Savoir dans Emily in Paris S1 (Netflix, 2020). Sa relation complexe avec Sylvie et ses manières de grand séducteur en font l'un des personnages récurrents les plus ambivalents de la série."
     },
     {
       "id": "18",
-      "question": "Quel personnage travaille souvent avec Emily sur les campagnes marketing ?",
-      "answers": ["Julien", "Gabriel", "Benoît", "Alfie"],
+      "question": "Quel collègue d'Emily à l'agence, styliste et passionné de mode, collabore avec elle sur les campagnes les plus créatives ?",
+      "answers": [
+        "Julien",
+        "Gabriel",
+        "Benoît",
+        "Alfie"
+      ],
       "correctIndex": 0,
-      "explanation": "Julien collabore régulièrement avec Emily à l’agence. Leur relation oscille entre rivalité professionnelle et complicité."
+      "explanation": "Julien (Samuel Arnold) est le collègue d'Emily dans Emily in Paris (Netflix, depuis 2020). Passionné de mode et de tendances, il assure une partie du travail opérationnel sur les campagnes de l'agence aux côtés d'Emily, même si leur relation oscille entre rivalité et complicité."
     },
     {
       "id": "19",
-      "question": "Quel genre décrit le mieux Emily in Paris ?",
-      "answers": ["Thriller policier", "Fantasy", "Romance et comédie dramatique", "Science-fiction"],
-      "correctIndex": 2,
-      "explanation": "Emily in Paris mélange romance, comédie dramatique et chronique de vie parisienne. La série mise autant sur les relations amoureuses que sur la mode et le quotidien professionnel."
+      "question": "Dans quelle ville italienne se déroule une partie de la saison 4, offrant à la série un nouveau décor méditerranéen ?",
+      "answers": [
+        "Florence",
+        "Rome",
+        "Naples",
+        "Milan"
+      ],
+      "correctIndex": 1,
+      "explanation": "La saison 4 d'Emily in Paris (Netflix, 2024) inclut plusieurs épisodes se déroulant à Rome, en Italie. Ce changement de décor permet à la série d'explorer de nouveaux contextes culturels tout en maintenant son esthétique glamour et ses intrigues romantiques."
     },
     {
       "id": "20",
-      "question": "Quel cours Emily suit-elle pour mieux s’intégrer à Paris ?",
-      "answers": ["Cuisine française", "Danse classique", "Histoire de l’art", "Cours de français"],
+      "question": "Quel cours Emily suit-elle dans la série pour tenter de maîtriser la langue du pays qui l'accueille ?",
+      "answers": [
+        "Cuisine française",
+        "Danse classique",
+        "Histoire de l'art",
+        "Cours de français"
+      ],
       "correctIndex": 3,
-      "explanation": "Emily suit des cours de français afin de mieux communiquer et s’intégrer à Paris. Ces scènes soulignent souvent les différences culturelles et linguistiques."
+      "explanation": "Emily suit des cours de français dans Emily in Paris (Netflix, depuis 2020) pour mieux s'intégrer dans sa vie parisienne. C'est lors de ces cours en saison 2 qu'elle rencontre Alfie. Ces scènes illustrent avec humour ses progrès laborieux et ses malentendus linguistiques."
     }
   ]
 }

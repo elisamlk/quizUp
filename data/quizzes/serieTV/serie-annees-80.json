@@ -2,7 +2,7 @@
   "slug": "quiz-series-annees-80",
   "title": "Quiz Série TV - Les séries cultes des années 80",
   "description": "Entre génériques mythiques, héros emblématiques et séries devenues cultes, ce quiz replonge dans la télévision des années 80.",
-  "descriptionSeo": "Entre voitures intelligentes, détectives charismatiques, héros d’action et sitcoms familiales, ce quiz sur les séries des années 80 replonge dans l’âge d’or de la télévision. De K 2000 à Magnum, en passant par MacGyver, Alf, Supercopter ou Agence tous risques, retrouve les personnages, acteurs et génériques cultes qui ont marqué toute une génération. Ces 20 questions mettront à l’épreuve tous les nostalgiques des séries TV emblématiques des années 80.",
+  "descriptionSeo": "Entre voitures intelligentes, détectives charismatiques, héros d'action et sitcoms familiales, ce quiz sur les séries des années 80 replonge dans l'âge d'or de la télévision. De K 2000 à Magnum, en passant par MacGyver, Alf, Supercopter ou Agence tous risques, retrouve les personnages, acteurs et génériques cultes qui ont marqué toute une génération. Ces 20 questions mettront à l'épreuve tous les nostalgiques des séries TV emblématiques des années 80.",
   "category": {
     "name": "Série TV",
     "slug": "serie-tv"
@@ -13,148 +13,248 @@
   "images": {
     "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1778155714/annees80_joyg1j.jpg",
     "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1778155714/annees80_joyg1j.jpg",
-    "alt": "Quiz séries des années 80"
+    "alt": "Illustration du quiz sur les séries télévisées cultes des années 80"
   },
   "questions": [
     {
       "id": "1",
-      "question": "Quelle série met en scène une voiture intelligente nommée KITT ?",
-      "answers": ["Magnum", "Tonnerre mécanique", "Supercopter", "K 2000"],
-      "correctIndex": 3,
-      "explanation": "K 2000 suit Michael Knight et sa voiture intelligente KITT, devenue l’un des symboles des séries des années 80."
+      "answers": [
+        "K 2000",
+        "Tonnerre mécanique",
+        "Supercopter",
+        "Magnum"
+      ],
+      "correctIndex": 0,
+      "explanation": "K 2000 (NBC, 1982-1986, 4 saisons) suit Michael Knight et sa Pontiac Trans Am parlante KITT. David Hasselhoff y incarne le héros dans 90 épisodes diffusés dans plus de 80 pays.",
+      "question": "Quelle série met en scène une voiture intelligente nommée KITT ?"
     },
     {
       "id": "2",
-      "question": "Quel acteur interprète Thomas Magnum dans Magnum ?",
-      "answers": ["Tom Selleck", "Don Johnson", "David Hasselhoff", "Richard Dean Anderson"],
+      "answers": [
+        "Fred Dryer",
+        "Tom Selleck",
+        "Don Johnson",
+        "David Hasselhoff"
+      ],
       "correctIndex": 0,
-      "explanation": "Tom Selleck interprète Thomas Magnum, détective privé vivant à Hawaï dans la série Magnum."
+      "explanation": "Rick Hunter (NBC, 1984-1991, 7 saisons) met en scène Fred Dryer dans le rôle du sergent Rick Hunter, célèbre pour sa réplique culte : 'Works for me.' La série a totalisé 153 épisodes.",
+      "question": "Quel acteur incarne le détective Rick Hunter dans la série Rick Hunter ?"
     },
     {
       "id": "3",
-      "question": "Quelle série suit une équipe d’anciens soldats en mission ?",
-      "answers": ["Starsky et Hutch", "Agence tous risques", "Deux flics à Miami", "MacGyver"],
+      "answers": [
+        "Starsky et Hutch",
+        "Agence tous risques",
+        "Deux flics à Miami",
+        "MacGyver"
+      ],
       "correctIndex": 1,
-      "explanation": "Agence tous risques suit une équipe d’anciens militaires aidant des personnes en difficulté tout en étant poursuivis par l’armée."
+      "explanation": "L'Agence tous risques (NBC, 1983-1987, 5 saisons) suit le colonel Hannibal et son équipe de 4 mercenaires. Mr T y incarne B.A. Baracus dans 98 épisodes devenus cultes pour leurs cascades et explosions.",
+      "question": "Quelle série suit une équipe d'anciens soldats aidant des innocents tout en étant recherchés ?"
     },
     {
       "id": "4",
-      "question": "Quel extraterrestre poilu adore manger des chats dans une sitcom célèbre ?",
-      "answers": ["Mork", "E.T.", "Alf", "Gizmo"],
+      "answers": [
+        "Mork",
+        "Orkan",
+        "Alf",
+        "Spock"
+      ],
       "correctIndex": 2,
-      "explanation": "Alf est un extraterrestre venu de la planète Melmac, connu pour son humour et son obsession pour les chats."
+      "explanation": "Alf (NBC, 1986-1990, 4 saisons) suit un extraterrestre venu de la planète Melmac accueilli par la famille Tanner. La série a attiré jusqu'à 20 millions de téléspectateurs par épisode aux États-Unis.",
+      "question": "Quel extraterrestre poilu adore manger des chats dans une sitcom des années 80 ?"
     },
     {
       "id": "5",
-      "question": "Quelle série met en scène Angus MacGyver, capable de se sortir de toutes les situations ?",
-      "answers": ["Rick Hunter", "Supercopter", "L’Homme qui tombe à pic", "MacGyver"],
-      "correctIndex": 3,
-      "explanation": "MacGyver utilise son intelligence et des objets du quotidien pour résoudre des situations dangereuses sans violence."
+      "answers": [
+        "MacGyver",
+        "Rick Hunter",
+        "Supercopter",
+        "L'Homme qui tombe à pic"
+      ],
+      "correctIndex": 0,
+      "explanation": "MacGyver (ABC, 1985-1992, 7 saisons) a donné naissance au verbe anglais 'to MacGyver'. Richard Dean Anderson y incarne un héros qui évite autant que possible l'usage des armes à feu, une originalité rare dans les séries d'action de l'époque.",
+      "question": "Quelle série met en scène Angus MacGyver, résolvant tout avec des objets du quotidien ?"
     },
     {
       "id": "6",
-      "question": "Dans quelle série Sonny Crockett et Ricardo Tubbs combattent-ils le crime à Miami ?",
-      "answers": ["Magnum", "Deux flics à Miami", "CHiPs", "Rick Hunter"],
+      "answers": [
+        "Magnum",
+        "Deux flics à Miami",
+        "CHiPs",
+        "Rick Hunter"
+      ],
       "correctIndex": 1,
-      "explanation": "Deux flics à Miami est célèbre pour son style visuel, sa musique et son ambiance typiquement années 80."
+      "explanation": "Deux flics à Miami (NBC, 1984-1989, 5 saisons) a révolutionné l'esthétique des séries policières avec ses costumes sans chaussettes, sa musique de Jan Hammer et son ambiance néon. Don Johnson et Philip Michael Thomas y tenaient les rôles principaux.",
+      "question": "Dans quelle série Sonny Crockett et Ricardo Tubbs combattent-ils le crime à Miami ?"
     },
     {
       "id": "7",
-      "question": "Quelle série suit les aventures de l’hélicoptère Airwolf ?",
-      "answers": ["Tonnerre mécanique", "K 2000", "Cosmos 1999", "Supercopter"],
+      "answers": [
+        "Tonnerre mécanique",
+        "K 2000",
+        "Cosmos 1999",
+        "Supercopter"
+      ],
       "correctIndex": 3,
-      "explanation": "Supercopter met en scène un hélicoptère militaire ultra-moderne utilisé dans des missions secrètes."
+      "explanation": "Supercopter (CBS, 1984-1987) met en scène Jan-Michael Vincent pilotant l'hélicoptère Airwolf dans des missions secrètes pour une agence nommée La Firme. La 4ᵉ et dernière saison, produite au Canada, a quitté CBS et ne mettait plus Jan-Michael Vincent en vedette. La série a inspiré de nombreux jeux vidéo dans les années 80.",
+      "question": "Quelle série suit les aventures de l'hélicoptère militaire Airwolf ?"
     },
     {
       "id": "8",
-      "question": "Quelle sitcom met en scène Arnold et son frère Willis ?",
-      "answers": ["Arnold et Willy", "Madame est servie", "Punky Brewster", "La Fête à la maison"],
+      "answers": [
+        "Arnold et Willy",
+        "Madame est servie",
+        "Punky Brewster",
+        "La Fête à la maison"
+      ],
       "correctIndex": 0,
-      "explanation": "Arnold et Willy suit deux frères adoptés par un riche homme d’affaires à New York."
+      "explanation": "Arnold et Willy (NBC, 1978-1986, 8 saisons) suit deux jeunes frères noirs adoptés par Philip Drummond à New York. Gary Coleman y incarnait Arnold dans 189 épisodes, devenant l'un des enfants acteurs les plus populaires des années 80.",
+      "question": "Quelle sitcom met en scène Arnold et son frère Willis adoptés par un riche homme d'affaires ?"
     },
     {
       "id": "9",
-      "question": "Quelle série met en scène un cascadeur travaillant aussi comme chasseur de primes ?",
-      "answers": ["MacGyver", "Hooker", "L’Homme qui tombe à pic", "Dallas"],
+      "answers": [
+        "MacGyver",
+        "Hooker",
+        "L'Homme qui tombe à pic",
+        "Agence tous risques"
+      ],
       "correctIndex": 2,
-      "explanation": "L’Homme qui tombe à pic suit Colt Seavers, cascadeur à Hollywood et chasseur de primes à ses heures perdues."
+      "explanation": "L'Homme qui tombe à pic (CBS, 1981-1986, 5 saisons) suit Colt Seavers, cascadeur à Hollywood et chasseur de primes. Lee Majors, déjà connu pour L'Homme de fer, y tenait le rôle principal dans 112 épisodes.",
+      "question": "Quelle série met en scène un cascadeur travaillant aussi comme chasseur de primes ?"
     },
     {
       "id": "10",
-      "question": "Quelle série raconte les aventures d’une petite fille débrouillarde nommée Punky ?",
-      "answers": ["Madame est servie", "La Petite Maison dans la prairie", "Notre belle famille", "Punky Brewster"],
+      "answers": [
+        "Madame est servie",
+        "Notre belle famille",
+        "La Fête à la maison",
+        "Punky Brewster"
+      ],
       "correctIndex": 3,
-      "explanation": "Punky Brewster suit une jeune fille pétillante recueillie par un vieil homme solitaire."
+      "explanation": "Punky Brewster (NBC, 1984-1988, 4 saisons) suit une fillette abandonnée recueillie par un photographe. Soleil Moon Frye y incarnait Punky dans 88 épisodes, devenant une icône de la mode colorée des années 80.",
+      "question": "Quelle série raconte les aventures d'une petite fille débrouillarde nommée Punky ?"
     },
     {
       "id": "11",
-      "question": "Quelle série met en scène un détective privé hawaïen vivant dans une propriété de luxe ?",
-      "answers": ["Rick Hunter", "K 2000", "Magnum", "Supercopter"],
+      "answers": [
+        "Rick Hunter",
+        "K 2000",
+        "Magnum",
+        "Supercopter"
+      ],
       "correctIndex": 2,
-      "explanation": "Magnum suit Thomas Magnum, détective privé à Hawaï, souvent aidé par ses amis Rick et T.C."
+      "explanation": "Magnum (CBS, 1980-1988, 8 saisons) suit Thomas Magnum, ancien officier du renseignement naval reconverti en détective à Hawaï. Tom Selleck y a tourné 162 épisodes ; la série lui a valu un Golden Globe en 1985.",
+      "question": "Quelle série met en scène un détective privé hawaïen vivant dans une propriété de luxe ?"
     },
     {
       "id": "12",
-      "question": "Quel duo de policiers patrouille principalement à moto dans CHiPs ?",
-      "answers": ["Starsky et Hutch", "Ponch et Jon", "Crockett et Tubbs", "Rick et A.J."],
+      "answers": [
+        "Starsky et Hutch",
+        "Ponch et Jon",
+        "Crockett et Tubbs",
+        "Rick et A.J."
+      ],
       "correctIndex": 1,
-      "explanation": "CHiPs suit Ponch et Jon, deux policiers motocyclistes de la California Highway Patrol."
+      "explanation": "CHiPs (NBC, 1977-1983, 6 saisons) suit Ponch (Erik Estrada) et Jon (Larry Wilcox), motocyclistes de la California Highway Patrol. La série a diffusé 139 épisodes et reste un symbole de la télévision californienne des années 80.",
+      "question": "Quel duo de policiers patrouille à moto dans CHiPs ?"
     },
     {
       "id": "13",
-      "question": "Quelle série suit une gouvernante travaillant pour un ancien sportif professionnel ?",
-      "answers": ["Madame est servie", "Arnold et Willy", "Punky Brewster", "Alf"],
+      "answers": [
+        "Madame est servie",
+        "Arnold et Willy",
+        "Punky Brewster",
+        "Notre belle famille"
+      ],
       "correctIndex": 0,
-      "explanation": "Madame est servie met en scène Tony Micelli, ancien joueur de baseball devenu homme à tout faire."
+      "explanation": "Madame est servie (ABC, 1984-1992, 8 saisons) met en scène Tony Micelli (Tony Danza), ancien joueur de baseball devenu employé de maison chez la famille Bower. La série a remporté 2 Emmy Awards et atteint les 30 millions de téléspectateurs aux États-Unis.",
+      "question": "Quelle série suit une gouvernante travaillant pour un ancien joueur de baseball ?"
     },
     {
       "id": "14",
-      "question": "Quelle série met en scène des visiteurs extraterrestres reptiliens ?",
-      "answers": ["Cosmos 1999", "Code Quantum", "Alf", "V"],
+      "answers": [
+        "Cosmos 1999",
+        "Code Quantum",
+        "Alf",
+        "V"
+      ],
       "correctIndex": 3,
-      "explanation": "V raconte l’arrivée sur Terre d’extraterrestres apparemment pacifiques qui cachent de sombres intentions."
+      "explanation": "V (NBC, 1983-1985) débute par un téléfilm en 2 parties vu par 40 millions d'Américains en 1983, suivi de V : La Bataille finale en 1984, puis d'une série régulière de 19 épisodes. Les visiteurs semblant amicaux se révèlent être des reptiliens en quête d'eau et de chair humaine.",
+      "question": "Quelle série met en scène des visiteurs extraterrestres reptiliens cachant de sombres intentions ?"
     },
     {
       "id": "15",
-      "question": "Quelle série suit les riches familles Ewing et Barnes au Texas ?",
-      "answers": ["Dynastie", "Falcon Crest", "Dallas", "Côte Ouest"],
+      "answers": [
+        "Cosmos 1999",
+        "Supercopter",
+        "Code Quantum",
+        "Hooker"
+      ],
       "correctIndex": 2,
-      "explanation": "Dallas est célèbre pour ses intrigues familiales et son personnage emblématique J.R. Ewing."
+      "explanation": "Code Quantum (NBC, 1989-1993, 5 saisons) suit Sam Beckett qui 'saute' dans le passé pour corriger des erreurs historiques. Scott Bakula y tient le rôle principal dans 97 épisodes ; la série a remporté 3 Emmy Awards.",
+      "question": "Dans quelle série le Dr Sam Beckett voyage-t-il dans le temps en prenant l'apparence d'autres personnes ?"
     },
     {
       "id": "16",
-      "question": "Quelle série met en scène un ancien policier nommé Hooker ?",
-      "answers": ["Rick Hunter", "CHiPs", "L’Homme qui tombe à pic", "Hooker"],
+      "answers": [
+        "Rick Hunter",
+        "CHiPs",
+        "L'Homme qui tombe à pic",
+        "Hooker"
+      ],
       "correctIndex": 3,
-      "explanation": "Hooker suit le sergent T.J. Hooker, incarné par William Shatner."
+      "explanation": "Hooker (ABC/CBS, 1982-1986, 5 saisons) suit le sergent T.J. Hooker, incarné par William Shatner (Captain Kirk dans Star Trek). La série a diffusé 91 épisodes et est notamment connue pour ses courses-poursuites spectaculaires.",
+      "question": "Quelle série met en scène le sergent T.J. Hooker, policier à Los Angeles ?"
     },
     {
       "id": "17",
-      "question": "Quelle série familiale suit la famille Tanner après le décès de la mère ?",
-      "answers": ["Notre belle famille", "La Fête à la maison", "Madame est servie", "Arnold et Willy"],
+      "answers": [
+        "Notre belle famille",
+        "La Fête à la maison",
+        "Madame est servie",
+        "Arnold et Willy"
+      ],
       "correctIndex": 1,
-      "explanation": "La Fête à la maison raconte le quotidien de Danny Tanner et de ses filles avec l’aide de ses proches."
+      "explanation": "La Fête à la maison (ABC, 1987-1995, 8 saisons) a lancé les carrières des sœurs Olsen et de John Stamos. Elle a totalisé 192 épisodes et reste l'une des sitcoms familiales les plus regardées des années 80-90 aux États-Unis.",
+      "question": "Quelle série familiale suit Danny Tanner, veuf élevant ses trois filles avec l'aide de ses amis ?"
     },
     {
       "id": "18",
-      "question": "Quelle série met en scène un milliardaire aidé par un pilote nommé Stringfellow Hawke ?",
-      "answers": ["K 2000", "Tonnerre mécanique", "Magnum", "Supercopter"],
-      "correctIndex": 3,
-      "explanation": "Stringfellow Hawke est le pilote principal de l’hélicoptère Airwolf dans Supercopter."
+      "answers": [
+        "K 2000",
+        "V",
+        "Cosmos 1999",
+        "Tonnerre mécanique"
+      ],
+      "correctIndex": 2,
+      "explanation": "Cosmos 1999 (ITV, 1975-1977, 2 saisons) est une production britannique des années 70 co-produite par Gerry Anderson, avec Barbara Bain et Martin Landau. Diffusée massivement en France dans les années 80, elle y a conquis toute une génération de téléspectateurs bien après sa création.",
+      "question": "Quelle série de science-fiction suit les habitants de la base lunaire Alpha dérivant dans l'espace ?"
     },
     {
       "id": "19",
-      "question": "Quelle série est centrée sur la famille Carrington ?",
-      "answers": ["Dallas", "Falcon Crest", "Côte Ouest", "Dynastie"],
+      "answers": [
+        "Falcon Crest",
+        "Côte Ouest",
+        "Dallas",
+        "Dynastie"
+      ],
       "correctIndex": 3,
-      "explanation": "Dynastie est l’un des soaps les plus célèbres des années 80, marqué par les rivalités familiales et le luxe."
+      "explanation": "Dynastie (ABC, 1981-1989, 9 saisons) suit la famille Carrington dans des rivalités de luxe et de pouvoir à Denver. La série a atteint 60 millions de téléspectateurs au niveau mondial à son apogée dans les années 80.",
+      "question": "Quelle série est centrée sur la richissime famille Carrington de Denver ?"
     },
     {
       "id": "20",
-      "question": "Quelle série met en scène un camion futuriste capable de parler ?",
-      "answers": ["K 2000", "Tonnerre mécanique", "Supercopter", "Hooker"],
+      "answers": [
+        "K 2000",
+        "Tonnerre mécanique",
+        "Supercopter",
+        "Hooker"
+      ],
       "correctIndex": 1,
-      "explanation": "Tonnerre mécanique suit Jesse Mach et son véhicule ultra-technologique doté d’intelligence artificielle."
+      "explanation": "Tonnerre mécanique (ABC, 1984-1985, Street Hawk en VO) suit Jesse Mach sur une moto capable d'atteindre 500 km/h. La série n'a duré qu'une saison de 13 épisodes mais est restée culte en France grâce à ses diffusions répétées.",
+      "question": "Quelle série met en scène Jesse Mach pilotant une moto futuriste ultra-rapide ?"
     }
   ]
 }

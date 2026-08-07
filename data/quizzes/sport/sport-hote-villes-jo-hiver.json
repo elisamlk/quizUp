@@ -1,8 +1,8 @@
 {
     "slug": "quiz-sport-villes-hotes-jo-hiver",
-    "title": "Quiz Sport - Jeux Olympiques d’hiver - Connais-tu les villes hôtes ?",
-    "description": "Teste tes connaissances sur les villes qui ont accueilli les Jeux Olympiques d’hiver avec 20 questions.",
-    "descriptionSeo": "De Chamonix à Pékin, en passant par Grenoble, Albertville, Lillehammer ou Vancouver, les Jeux Olympiques d’hiver ont marqué l’histoire du sport mondial. Ce quiz de 20 questions te propose de tester tes connaissances sur les villes hôtes, entre destinations emblématiques, éditions mythiques et pays organisateurs. Sauras-tu retrouver où se sont déroulés les plus grands moments des sports d’hiver ?",
+    "title": "Quiz Sport - Jeux Olympiques d'hiver - Connais-tu les villes hôtes ?",
+    "description": "Teste tes connaissances sur les villes qui ont accueilli les Jeux Olympiques d'hiver avec 20 questions.",
+    "descriptionSeo": "De Chamonix à Pékin, en passant par Grenoble, Albertville, Lillehammer ou Vancouver, les Jeux Olympiques d'hiver ont marqué l'histoire du sport mondial. Ce quiz de 20 questions te propose de tester tes connaissances sur les villes hôtes, entre destinations emblématiques, éditions mythiques et pays organisateurs. Sauras-tu retrouver où se sont déroulés les plus grands moments des sports d'hiver ?",
     "category": {
         "name": "Sport",
         "slug": "sport"
@@ -13,48 +13,48 @@
     "images": {
         "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776425548/cover_sbo2j1.jpg",
         "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776425548/cover_sbo2j1.jpg",
-        "alt": "Quiz villes hôtes Jeux Olympiques d’hiver"
+        "alt": "Quiz villes hôtes Jeux Olympiques d'hiver"
     },
     "questions": [
         {
             "id": "1",
-            "question": "Quelle ville a accueilli les tout premiers Jeux Olympiques d’hiver en 1924 ?",
+            "question": "Quelle ville a accueilli les tout premiers Jeux Olympiques d'hiver en 1924 ?",
             "answers": [
-                "Saint-Moritz",
-                "Chamonix",
                 "Oslo",
-                "Innsbruck"
+                "Innsbruck",
+                "Saint-Moritz",
+                "Chamonix"
             ],
-            "correctIndex": 1,
-            "explanation": "Chamonix a accueilli en 1924 la première édition des Jeux Olympiques d’hiver. Cette édition fondatrice a donné naissance à une tradition sportive devenue majeure dans le calendrier olympique."
+            "correctIndex": 3,
+            "explanation": "Chamonix a accueilli en 1924 la première édition officielle des Jeux Olympiques d'hiver. Seize nations y étaient représentées pour des épreuves de ski nordique, de saut à ski, de patinage, de bob et de hockey sur glace, posant les bases d'une tradition olympique hivernale qui compte aujourd'hui plus de 100 ans d'histoire."
         },
         {
             "id": "2",
-            "question": "Dans quelle ville française les JO d’hiver ont-ils eu lieu en 1968 ?",
+            "question": "Dans quelle ville française les JO d'hiver ont-ils eu lieu en 1968 ?",
             "answers": [
                 "Albertville",
-                "Grenoble",
                 "Chamonix",
-                "Annecy"
+                "Annecy",
+                "Grenoble"
             ],
-            "correctIndex": 1,
-            "explanation": "Grenoble a organisé les Jeux Olympiques d’hiver de 1968. Cette édition a marqué les esprits par sa modernité et par l’importance prise par la télévision dans la diffusion de l’événement."
+            "correctIndex": 3,
+            "explanation": "Grenoble a organisé les Jeux Olympiques d'hiver de 1968. Cette édition a marqué l'histoire par la place centrale accordée à la télévision en couleur, diffusée pour la première fois lors de Jeux d'hiver, ainsi que par les performances du skieur Jean-Claude Killy, triple médaillé d'or à domicile."
         },
         {
             "id": "3",
-            "question": "Quelle ville savoyarde a accueilli les JO d’hiver en 1992 ?",
+            "question": "Quelle ville savoyarde a accueilli les JO d'hiver en 1992 ?",
             "answers": [
                 "Courchevel",
                 "Albertville",
-                "Val d’Isère",
+                "Val d'Isère",
                 "Méribel"
             ],
             "correctIndex": 1,
-            "explanation": "Albertville a été la ville hôte des Jeux Olympiques d’hiver de 1992. Même si plusieurs sites de compétition étaient répartis dans les Alpes, Albertville reste la ville officiellement associée à cette édition."
+            "explanation": "Albertville a été la ville hôte officielle des Jeux Olympiques d'hiver de 1992, bien que les épreuves fussent réparties sur une douzaine de sites dans les Alpes savoyardes. Ces Jeux ont notamment été mémorables pour leur cérémonie d'ouverture, mise en scène par Philippe Decouflé, et pour les exploits de la délégation française."
         },
         {
             "id": "4",
-            "question": "Quelle ville norvégienne a accueilli les JO d’hiver de 1994 ?",
+            "question": "Quelle ville norvégienne a accueilli les JO d'hiver de 1994 ?",
             "answers": [
                 "Lillehammer",
                 "Oslo",
@@ -62,11 +62,11 @@
                 "Trondheim"
             ],
             "correctIndex": 0,
-            "explanation": "Lillehammer a accueilli les Jeux Olympiques d’hiver de 1994. Cette édition reste très appréciée pour son ambiance, son ancrage dans la culture nordique et sa forte identité hivernale."
+            "explanation": "Lillehammer a accueilli les Jeux Olympiques d'hiver de 1994, seulement deux ans après Albertville — une exception liée à la décision du CIO de décaler les JO d'hiver des JO d'été. Cette édition reste l'une des plus appréciées de l'histoire pour son ambiance populaire, ses paysages enneigés et son fort ancrage dans la culture nordique."
         },
         {
             "id": "5",
-            "question": "Quelle ville japonaise a organisé les JO d’hiver en 1998 ?",
+            "question": "Quelle ville japonaise a organisé les JO d'hiver en 1998 ?",
             "answers": [
                 "Sapporo",
                 "Tokyo",
@@ -74,35 +74,35 @@
                 "Sendai"
             ],
             "correctIndex": 2,
-            "explanation": "Nagano a accueilli les Jeux Olympiques d’hiver de 1998. Ces Jeux ont confirmé la capacité du Japon à organiser de grands événements hivernaux après l’édition de Sapporo en 1972."
+            "explanation": "Nagano a accueilli les Jeux Olympiques d'hiver de 1998, dans les Alpes japonaises. Ces Jeux ont notamment vu l'introduction du hockey sur glace féminin comme discipline olympique, et ont confirmé la capacité du Japon à organiser de grands événements hivernaux après l'édition de Sapporo en 1972."
         },
         {
             "id": "6",
-            "question": "Quelle ville américaine a accueilli les JO d’hiver de 2002 ?",
+            "question": "Quelle ville américaine a accueilli les JO d'hiver de 2002 ?",
             "answers": [
                 "Denver",
-                "Salt Lake City",
                 "Lake Placid",
-                "Aspen"
+                "Aspen",
+                "Salt Lake City"
             ],
-            "correctIndex": 1,
-            "explanation": "Salt Lake City a organisé les Jeux Olympiques d’hiver de 2002. Cette édition a occupé une place importante dans l’histoire récente du mouvement olympique au début des années 2000."
+            "correctIndex": 3,
+            "explanation": "Salt Lake City a organisé les Jeux Olympiques d'hiver de 2002, dans l'Utah. Ces Jeux se tinrent quelques mois après les attentats du 11 septembre 2001 et prirent un caractère particulièrement solennel. Ils furent aussi marqués par un scandale de corruption lors de l'attribution des Jeux, révélé en 1999, qui conduisit à une réforme du processus de vote au sein du CIO."
         },
         {
             "id": "7",
-            "question": "Quelle ville italienne a accueilli les JO d’hiver de 2006 ?",
+            "question": "Quelle ville italienne a accueilli les JO d'hiver de 2006 ?",
             "answers": [
-                "Milan",
                 "Turin",
-                "Cortina d’Ampezzo",
+                "Milan",
+                "Cortina d'Ampezzo",
                 "Rome"
             ],
-            "correctIndex": 1,
-            "explanation": "Turin a été la ville hôte des Jeux Olympiques d’hiver de 2006. Ces Jeux ont permis à l’Italie de renouer avec l’organisation olympique hivernale plusieurs décennies après Cortina d’Ampezzo."
+            "correctIndex": 0,
+            "explanation": "Turin a été la ville hôte des Jeux Olympiques d'hiver de 2006, cinquante ans après que l'Italie avait déjà organisé les Jeux à Cortina d'Ampezzo en 1956. Ces Jeux ont permis à la capitale du Piémont de mettre en avant son patrimoine culturel et industriel, et ont accueilli plus de 2 500 athlètes venus de 80 nations. L'Italie accueillera à nouveau les Jeux d'hiver en 2026, à Milan et Cortina d'Ampezzo."
         },
         {
             "id": "8",
-            "question": "Quelle ville canadienne a accueilli les JO d’hiver de 2010 ?",
+            "question": "Quelle ville canadienne a accueilli les JO d'hiver de 2010 ?",
             "answers": [
                 "Calgary",
                 "Toronto",
@@ -110,11 +110,11 @@
                 "Montréal"
             ],
             "correctIndex": 2,
-            "explanation": "Vancouver a accueilli les Jeux Olympiques d’hiver de 2010. Cette édition est restée célèbre pour la qualité de son organisation et pour le cadre spectaculaire offert par la Colombie-Britannique."
+            "explanation": "Vancouver a accueilli les Jeux Olympiques d'hiver de 2010 en Colombie-Britannique, avec Whistler comme site principal des épreuves alpines. Ces Jeux ont été marqués par la victoire du Canada en hockey sur glace masculin face aux États-Unis en finale, un moment devenu emblématique de l'identité sportive canadienne."
         },
         {
             "id": "9",
-            "question": "Quelle ville russe a accueilli les JO d’hiver de 2014 ?",
+            "question": "Quelle ville russe a accueilli les JO d'hiver de 2014 ?",
             "answers": [
                 "Moscou",
                 "Saint-Pétersbourg",
@@ -122,23 +122,23 @@
                 "Sotchi"
             ],
             "correctIndex": 3,
-            "explanation": "Sotchi a organisé les Jeux Olympiques d’hiver de 2014. Cette édition a été marquée par des investissements massifs et par une forte volonté de prestige international."
+            "explanation": "Sotchi a organisé les Jeux Olympiques d'hiver de 2014 au bord de la mer Noire, dans une station balnéaire transformée pour l'occasion. Ces Jeux, les plus coûteux de l'histoire olympique à l'époque, ont été précédés et accompagnés de vives controverses politiques, notamment autour des droits des minorités en Russie."
         },
         {
             "id": "10",
-            "question": "Quelle ville chinoise a accueilli les JO d’hiver de 2022 ?",
+            "question": "Quelle ville chinoise a accueilli les JO d'hiver de 2022 ?",
             "answers": [
                 "Harbin",
-                "Pékin",
                 "Shanghai",
-                "Nankin"
+                "Nankin",
+                "Pékin"
             ],
-            "correctIndex": 1,
-            "explanation": "Pékin a accueilli les Jeux Olympiques d’hiver de 2022. La capitale chinoise est ainsi devenue la première ville de l’histoire à avoir organisé à la fois des JO d’été et des JO d’hiver."
+            "correctIndex": 3,
+            "explanation": "Pékin a accueilli les Jeux Olympiques d'hiver de 2022, devenant ainsi la première ville de l'histoire à avoir organisé à la fois des Jeux d'été (2008) et des Jeux d'hiver. Ces Jeux se sont tenus dans un contexte sanitaire strict lié à la pandémie de Covid-19, et ont été boycottés diplomatiquement par plusieurs pays occidentaux."
         },
         {
             "id": "11",
-            "question": "Quelle ville suisse a accueilli deux fois les JO d’hiver, en 1928 et 1948 ?",
+            "question": "Quelle ville suisse a accueilli deux fois les JO d'hiver, en 1928 et 1948 ?",
             "answers": [
                 "Zurich",
                 "Saint-Moritz",
@@ -146,11 +146,11 @@
                 "Davos"
             ],
             "correctIndex": 1,
-            "explanation": "Saint-Moritz a accueilli les Jeux Olympiques d’hiver à deux reprises, en 1928 et en 1948. Cette station suisse fait partie des lieux historiques les plus emblématiques des sports d’hiver."
+            "explanation": "Saint-Moritz a accueilli les Jeux Olympiques d'hiver à deux reprises, en 1928 et en 1948. La deuxième édition, en 1948, eut lieu seulement trois ans après la fin de la Seconde Guerre mondiale, faisant de Saint-Moritz la première ville hôte des Jeux dans l'après-guerre, alors que l'Allemagne et le Japon n'avaient pas le droit de participer."
         },
         {
             "id": "12",
-            "question": "Quelle ville autrichienne a accueilli les JO d’hiver en 1964 et 1976 ?",
+            "question": "Quelle ville autrichienne a accueilli les JO d'hiver en 1964 et 1976 ?",
             "answers": [
                 "Salzbourg",
                 "Innsbruck",
@@ -158,11 +158,11 @@
                 "Linz"
             ],
             "correctIndex": 1,
-            "explanation": "Innsbruck a organisé les Jeux Olympiques d’hiver en 1964 puis en 1976. Son retour rapide comme ville hôte montre la confiance accordée à son savoir-faire en matière d’organisation alpine."
+            "explanation": "Innsbruck a organisé les Jeux Olympiques d'hiver en 1964 puis à nouveau en 1976, remplaçant Denver qui avait renoncé à l'organisation pour des raisons financières et environnementales. Ce double accueil en fait l'une des villes hôtes les plus emblématiques de l'histoire olympique hivernale."
         },
         {
             "id": "13",
-            "question": "Quelle ville américaine a accueilli les JO d’hiver en 1932 et 1980 ?",
+            "question": "Quelle ville américaine a accueilli les JO d'hiver en 1932 et 1980 ?",
             "answers": [
                 "Lake Placid",
                 "Salt Lake City",
@@ -170,11 +170,11 @@
                 "Colorado Springs"
             ],
             "correctIndex": 0,
-            "explanation": "Lake Placid a accueilli les Jeux Olympiques d’hiver à deux reprises, en 1932 et en 1980. La ville est notamment restée célèbre pour l’atmosphère marquante de l’édition de 1980."
+            "explanation": "Lake Placid a accueilli les Jeux Olympiques d'hiver à deux reprises, en 1932 et en 1980. L'édition de 1980 est restée célèbre pour le « Miracle on Ice » : la victoire inattendue de l'équipe américaine de hockey sur glace face à l'URSS, dans un contexte de Guerre froide à son apogée, avant un titre olympique décroché face à la Finlande."
         },
         {
             "id": "14",
-            "question": "Quelle ville norvégienne a accueilli les JO d’hiver en 1952 ?",
+            "question": "Quelle ville norvégienne a accueilli les JO d'hiver en 1952 ?",
             "answers": [
                 "Oslo",
                 "Lillehammer",
@@ -182,11 +182,11 @@
                 "Stavanger"
             ],
             "correctIndex": 0,
-            "explanation": "Oslo a été la ville hôte des Jeux Olympiques d’hiver de 1952. Pour un pays profondément lié aux sports nordiques, cette édition a eu une forte portée symbolique."
+            "explanation": "Oslo a été la ville hôte des Jeux Olympiques d'hiver de 1952, sept ans après la fin de la Seconde Guerre mondiale, qui avait provoqué l'annulation des Jeux de 1940 et 1944. Pour la Norvège, nation fondatrice des sports nordiques, cette édition avait une portée symbolique particulièrement forte, confirmant le retour à la normalité du mouvement olympique."
         },
         {
             "id": "15",
-            "question": "Quelle ville japonaise a accueilli les JO d’hiver de 1972 ?",
+            "question": "Quelle ville japonaise a accueilli les JO d'hiver de 1972 ?",
             "answers": [
                 "Nagano",
                 "Sapporo",
@@ -194,11 +194,11 @@
                 "Yokohama"
             ],
             "correctIndex": 1,
-            "explanation": "Sapporo a accueilli les Jeux Olympiques d’hiver de 1972. Il s’agissait d’une étape importante dans l’ouverture géographique croissante du mouvement olympique hivernal."
+            "explanation": "Sapporo, sur l'île de Hokkaido, a accueilli les Jeux Olympiques d'hiver de 1972. Il s'agissait des premiers Jeux d'hiver organisés en dehors de l'Europe ou de l'Amérique du Nord, marquant une étape dans l'ouverture géographique du mouvement olympique hivernal."
         },
         {
             "id": "16",
-            "question": "Quelle ville yougoslave a accueilli les JO d’hiver de 1984 ?",
+            "question": "Quelle ville, alors capitale de la Yougoslavie, a accueilli les JO d'hiver de 1984 ?",
             "answers": [
                 "Belgrade",
                 "Zagreb",
@@ -206,11 +206,11 @@
                 "Ljubljana"
             ],
             "correctIndex": 2,
-            "explanation": "Sarajevo a organisé les Jeux Olympiques d’hiver de 1984. Cette édition occupe une place particulière dans la mémoire olympique, notamment au regard de l’histoire ultérieure de la région."
+            "explanation": "Sarajevo, alors en Yougoslavie, a organisé les Jeux Olympiques d'hiver de 1984. Cette édition occupe une place particulière dans la mémoire olympique : moins de dix ans plus tard, la ville fut assiégée pendant le conflit qui suivit la dissolution de la Yougoslavie (1992-1996), et plusieurs installations furent gravement endommagées ou abandonnées."
         },
         {
             "id": "17",
-            "question": "Quelle ville canadienne a accueilli les JO d’hiver de 1988 ?",
+            "question": "Quelle ville canadienne a accueilli les JO d'hiver de 1988 ?",
             "answers": [
                 "Calgary",
                 "Vancouver",
@@ -218,23 +218,23 @@
                 "Edmonton"
             ],
             "correctIndex": 0,
-            "explanation": "Calgary a accueilli les Jeux Olympiques d’hiver de 1988. Ces Jeux ont renforcé la place du Canada comme grande nation d’accueil pour les compétitions internationales de sports d’hiver."
+            "explanation": "Calgary a accueilli les Jeux Olympiques d'hiver de 1988 en Alberta. Ces Jeux sont notamment restés célèbres pour l'équipe jamaïcaine de bobsleigh, dont les débuts insolites ont inspiré le film Rasta Rockett (1993), et pour le saut à ski de l'Anglais Eddie « The Eagle » Edwards, dernier de sa catégorie mais devenu une icône populaire."
         },
         {
             "id": "18",
-            "question": "Quelle ville italienne a accueilli les JO d’hiver de 1956 ?",
+            "question": "Quelle ville italienne a accueilli les JO d'hiver de 1956 ?",
             "answers": [
                 "Turin",
                 "Milan",
-                "Cortina d’Ampezzo",
+                "Cortina d'Ampezzo",
                 "Bolzano"
             ],
             "correctIndex": 2,
-            "explanation": "Cortina d’Ampezzo a organisé les Jeux Olympiques d’hiver de 1956. Cette station italienne reste l’un des noms les plus prestigieux associés aux grandes compétitions alpines."
+            "explanation": "Cortina d'Ampezzo, dans les Dolomites, a organisé les Jeux Olympiques d'hiver de 1956. Cette station des Alpes italiennes a donné à ces Jeux un cadre spectaculaire, et a vu notamment l'URSS, qui participait pour la première fois aux Jeux d'hiver, remporter son premier titre olympique en patinage de vitesse."
         },
         {
             "id": "19",
-            "question": "Quelle ville allemande a accueilli les JO d’hiver de 1936 ?",
+            "question": "Quelle ville allemande a accueilli les JO d'hiver de 1936 ?",
             "answers": [
                 "Munich",
                 "Garmisch-Partenkirchen",
@@ -242,11 +242,11 @@
                 "Dresde"
             ],
             "correctIndex": 1,
-            "explanation": "Garmisch-Partenkirchen a accueilli les Jeux Olympiques d’hiver de 1936. Cette édition s’inscrit dans un contexte historique très particulier, qui dépasse largement le seul cadre sportif."
+            "explanation": "Garmisch-Partenkirchen a accueilli les Jeux Olympiques d'hiver de 1936, quelques mois avant les Jeux d'été de Berlin. Les deux éditions se déroulèrent sous le régime nazi, qui s'en servit comme vitrine de propagande internationale, tout en maintenant des pratiques discriminatoires à l'intérieur du pays."
         },
         {
             "id": "20",
-            "question": "Quelle ville sud-coréenne a accueilli les JO d’hiver de 2018 ?",
+            "question": "Quelle ville sud-coréenne a accueilli les JO d'hiver de 2018 ?",
             "answers": [
                 "Séoul",
                 "Busan",
@@ -254,7 +254,7 @@
                 "Incheon"
             ],
             "correctIndex": 2,
-            "explanation": "PyeongChang a accueilli les Jeux Olympiques d’hiver de 2018. Cette édition a permis à la Corée du Sud d’entrer à son tour dans l’histoire des grandes villes hôtes des sports d’hiver."
+            "explanation": "PyeongChang (Pyeongchang) a accueilli les Jeux Olympiques d'hiver de 2018, dans la province du Gangwon. Ces Jeux ont été marqués par le défilé commun des délégations nord-coréenne et sud-coréenne lors de la cérémonie d'ouverture, sous bannière unifiée, un geste symbolique fort dans le contexte des tensions persistantes entre les deux pays."
         }
     ]
 }

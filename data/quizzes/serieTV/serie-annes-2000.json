@@ -2,7 +2,7 @@
   "slug": "quiz-series-annees-2000",
   "title": "Quiz Série TV - Les séries des années 2000",
   "description": "Des sitcoms cultes aux séries dramatiques devenues légendaires, ce quiz replonge dans les plus grandes séries des années 2000.",
-  "descriptionSeo": "Lost, Dr House, Prison Break, Malcolm, Desperate Housewives, Heroes, Grey’s Anatomy ou encore How I Met Your Mother… ce quiz sur les séries des années 2000 teste tes connaissances sur les programmes cultes qui ont marqué toute une génération. Retrouve les personnages, acteurs, intrigues et moments inoubliables des séries emblématiques des années 2000 à travers 20 questions variées et nostalgiques.",
+  "descriptionSeo": "Lost, Dr House, Prison Break, Malcolm, Desperate Housewives, Heroes, Grey's Anatomy ou encore How I Met Your Mother… ce quiz sur les séries des années 2000 teste tes connaissances sur les programmes cultes qui ont marqué toute une génération. Retrouve les personnages, acteurs, intrigues et moments inoubliables des séries emblématiques des années 2000 à travers 20 questions variées et nostalgiques.",
   "category": {
     "name": "Série TV",
     "slug": "serie-tv"
@@ -13,148 +13,248 @@
   "images": {
     "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1778355299/annees-2000_yqbnxe.jpg",
     "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1778355299/annees-2000_yqbnxe.jpg",
-    "alt": "Quiz séries des années 2000"
+    "alt": "Illustration du quiz sur les séries télévisées cultes des années 2000"
   },
   "questions": [
     {
       "id": "1",
       "question": "Quelle série suit un groupe de survivants après le crash du vol Oceanic 815 ?",
-      "answers": ["Heroes", "Lost", "Fringe", "Prison Break"],
+      "answers": [
+        "Heroes",
+        "Lost",
+        "Fringe",
+        "Prison Break"
+      ],
       "correctIndex": 1,
-      "explanation": "Lost a révolutionné les séries télévisées avec ses mystères complexes, ses flashbacks et ses théories de fans sur Internet dans les années 2000."
+      "explanation": "Lost (ABC, 2004-2010, 6 saisons) a révolutionné les séries télévisées avec ses mystères complexes et ses multiples flashbacks. Elle a remporté le Golden Globe de la Meilleure Série Dramatique en 2006 et engendré des milliers de théories de fans sur Internet."
     },
     {
       "id": "2",
       "question": "Quel médecin cynique et brillant est le héros de la série Dr House ?",
-      "answers": ["Gregory House", "John Dorian", "Meredith Grey", "Doug Ross"],
+      "answers": [
+        "Gregory House",
+        "John Dorian",
+        "Meredith Grey",
+        "Doug Ross"
+      ],
       "correctIndex": 0,
-      "explanation": "Le docteur Gregory House, interprété par Hugh Laurie, est devenu célèbre pour son humour sarcastique et ses diagnostics impossibles."
+      "explanation": "Dr House (Fox, 2004-2012, 8 saisons) suit le docteur Gregory House, interprété par Hugh Laurie. La série a remporté 2 Golden Globes et a été diffusée dans plus de 60 pays, devenant à un moment la série la plus regardée au monde."
     },
     {
       "id": "3",
-      "question": "Quelle série met en scène Michael Scofield tentant de faire évader son frère ?",
-      "answers": ["24 Heures chrono", "Oz", "Prison Break", "Dexter"],
+      "question": "Quelle série met en scène Michael Scofield qui se fait emprisonner pour faire évader son frère ?",
+      "answers": [
+        "24 Heures chrono",
+        "Oz",
+        "Prison Break",
+        "Dexter"
+      ],
       "correctIndex": 2,
-      "explanation": "Prison Break est devenue culte grâce à son concept original : un homme se fait volontairement emprisonner pour sauver son frère condamné à mort."
+      "explanation": "Prison Break (Fox, 2005-2009, 4 saisons originales) a captivé des millions de téléspectateurs avec son concept original : un ingénieur se tatoue le plan de la prison sur le corps pour préparer l'évasion de son frère condamné à mort. Une saison 5 a été diffusée en 2017 après huit ans d'absence."
     },
     {
       "id": "4",
-      "question": "Quelle série raconte les aventures de Malcolm et de sa famille complètement déjantée ?",
-      "answers": ["Scrubs", "That '70s Show", "My Name Is Earl", "Malcolm"],
+      "question": "Quelle série suit un adolescent surdoué au sein d'une famille complètement déjantée dirigée par un père passionné de bricolage ?",
+      "answers": [
+        "Scrubs",
+        "That '70s Show",
+        "My Name Is Earl",
+        "Malcolm"
+      ],
       "correctIndex": 3,
-      "explanation": "Malcolm a marqué les années 2000 avec son humour chaotique et ses personnages excentriques, notamment Hal et Reese."
+      "explanation": "Malcolm (Fox, 2000-2006, 7 saisons) a marqué les années 2000 avec son humour chaotique et ses personnages excentriques. Bryan Cranston, qui y jouait le père Hal, a remporté 2 Emmy Awards pour ce rôle avant de devenir Walter White dans Breaking Bad."
     },
     {
       "id": "5",
       "question": "Dans quelle série suit-on les habitantes de Wisteria Lane ?",
-      "answers": ["Desperate Housewives", "Grey’s Anatomy", "Sex and the City", "Brothers & Sisters"],
+      "answers": [
+        "Desperate Housewives",
+        "Grey's Anatomy",
+        "Sex and the City",
+        "Brothers & Sisters"
+      ],
       "correctIndex": 0,
-      "explanation": "Desperate Housewives mélangeait comédie, drame et mystère autour des habitantes d’un quartier résidentiel apparemment parfait."
+      "explanation": "Desperate Housewives (ABC, 2004-2012, 8 saisons) mélangeait comédie, drame et mystère dans un quartier résidentiel en apparence parfait. La série a réuni jusqu'à 30 millions de téléspectateurs aux États-Unis lors de sa première saison."
     },
     {
       "id": "6",
-      "question": "Quelle série met en scène des personnes développant des pouvoirs surnaturels ?",
-      "answers": ["Smallville", "Heroes", "Supernatural", "Fringe"],
-      "correctIndex": 1,
-      "explanation": "Heroes est devenue un énorme phénomène lors de sa première saison grâce à ses personnages aux pouvoirs spéciaux et son slogan « Save the cheerleader, save the world »."
+      "question": "Quelle série met en scène des personnes ordinaires développant soudainement des pouvoirs surnaturels ?",
+      "answers": [
+        "Smallville",
+        "Supernatural",
+        "Fringe",
+        "Heroes"
+      ],
+      "correctIndex": 3,
+      "explanation": "Heroes (NBC, 2006-2010, 4 saisons) est devenue un phénomène dès sa première saison grâce à son slogan culte « Save the cheerleader, save the world ». Elle réunissait jusqu'à 14 millions de téléspectateurs aux États-Unis en saison 1."
     },
     {
       "id": "7",
-      "question": "Quelle série suit Meredith Grey dans un hôpital de Seattle ?",
-      "answers": ["Urgences", "Scrubs", "Grey’s Anatomy", "Nip/Tuck"],
+      "question": "Quelle série suit Meredith Grey et ses collègues dans un hôpital de Seattle ?",
+      "answers": [
+        "Urgences",
+        "ER",
+        "Grey's Anatomy",
+        "Nip/Tuck"
+      ],
       "correctIndex": 2,
-      "explanation": "Grey’s Anatomy est devenue l’une des séries médicales les plus populaires des années 2000 et continue encore aujourd’hui."
+      "explanation": "Grey's Anatomy (ABC, depuis 2005) est l'une des séries médicales les plus longues de l'histoire de la télévision américaine. Créée par Shonda Rhimes, elle dépasse les 400 épisodes et continue d'être diffusée plus de 20 ans après ses débuts."
     },
     {
       "id": "8",
-      "question": "Quelle sitcom raconte comment Ted Mosby a rencontré la mère de ses enfants ?",
-      "answers": ["Friends", "New Girl", "How I Met Your Mother", "The Big Bang Theory"],
-      "correctIndex": 2,
-      "explanation": "How I Met Your Mother utilise une narration originale où Ted raconte son passé à ses enfants plusieurs années plus tard."
+      "question": "Quelle sitcom raconte sur 9 saisons comment Ted Mosby a rencontré la mère de ses enfants ?",
+      "answers": [
+        "Friends",
+        "New Girl",
+        "The Big Bang Theory",
+        "How I Met Your Mother"
+      ],
+      "correctIndex": 3,
+      "explanation": "How I Met Your Mother (CBS, 2005-2014, 9 saisons) utilise une narration originale où Ted raconte son passé à ses enfants depuis 2030. La série a totalisé 208 épisodes et son final a été regardé par plus de 12 millions de téléspectateurs."
     },
     {
       "id": "9",
       "question": "Quelle série suit Jack Bauer dans des missions antiterroristes en temps réel ?",
-      "answers": ["24 Heures chrono", "Alias", "NCIS", "Homeland"],
+      "answers": [
+        "24 Heures chrono",
+        "Alias",
+        "NCIS",
+        "Homeland"
+      ],
       "correctIndex": 0,
-      "explanation": "24 Heures chrono a popularisé le format en temps réel, chaque saison représentant une journée complète minute par minute."
+      "explanation": "24 Heures chrono (Fox, 2001-2010, 8 saisons) a popularisé le format en temps réel, chaque saison représentant une journée complète de 24 épisodes. La série a remporté le Emmy Award de la Meilleure Série Dramatique en 2006."
     },
     {
       "id": "10",
-      "question": "Quelle série suit un expert médico-légal qui cache secrètement une activité criminelle ?",
-      "answers": ["Dexter", "Bones", "Mentalist", "CSI"],
+      "question": "Quelle série suit un expert médico-légal de la police de Miami qui cache secrètement une double vie criminelle ?",
+      "answers": [
+        "Dexter",
+        "Bones",
+        "The Mentalist",
+        "CSI"
+      ],
       "correctIndex": 0,
-      "explanation": "Dexter Morgan travaille pour la police scientifique de Miami tout en éliminant secrètement des criminels."
+      "explanation": "Dexter (Showtime, 2006-2013, 8 saisons) suit Dexter Morgan, expert en analyse de sang qui tue secrètement des criminels. La série a totalisé 96 épisodes et Michael C. Hall a remporté le Golden Globe du meilleur acteur en 2010 pour son interprétation de Dexter Morgan."
     },
     {
       "id": "11",
-      "question": "Quelle série humoristique met en scène le concierge et les internes de l’hôpital Sacré-Cœur ?",
-      "answers": ["Dr House", "Scrubs", "Grey’s Anatomy", "Nurse Jackie"],
+      "question": "Quelle série HBO suit des policiers et des trafiquants dans les rues de Baltimore ?",
+      "answers": [
+        "The Sopranos",
+        "The Wire",
+        "Oz",
+        "The Shield"
+      ],
       "correctIndex": 1,
-      "explanation": "Scrubs mélangeait humour absurde, séquences imaginaires et moments très émouvants, ce qui la distinguait des autres séries médicales."
+      "explanation": "The Wire (HBO, 2002-2008, 5 saisons) est régulièrement citée parmi les meilleures séries de tous les temps. Créée par David Simon, ancien journaliste, elle dresse un portrait systémique de Baltimore à travers 60 épisodes d'une précision documentaire."
     },
     {
       "id": "12",
-      "question": "Quelle série met en scène un professeur de chimie devenant trafiquant de drogue ?",
-      "answers": ["Narcos", "The Shield", "Breaking Bad", "Weeds"],
+      "question": "Quelle série met en scène un professeur de chimie qui devient progressivement un puissant trafiquant de drogue ?",
+      "answers": [
+        "Narcos",
+        "The Shield",
+        "Breaking Bad",
+        "Weeds"
+      ],
       "correctIndex": 2,
-      "explanation": "Breaking Bad est souvent considérée comme l’une des meilleures séries de tous les temps grâce à l’évolution du personnage de Walter White."
+      "explanation": "Breaking Bad (AMC, 2008-2013, 5 saisons) est régulièrement classée parmi les meilleures séries de tous les temps. Bryan Cranston y a remporté 3 Emmy Awards consécutifs du Meilleur Acteur Dramatique pour le rôle de Walter White."
     },
     {
       "id": "13",
-      "question": "Quelle série suit les aventures de Clark Kent avant qu’il ne devienne Superman ?",
-      "answers": ["Heroes", "Arrow", "Smallville", "Supernatural"],
+      "question": "Quelle série suit les aventures de Clark Kent dans une ville du Kansas, avant qu'il ne devienne Superman ?",
+      "answers": [
+        "Heroes",
+        "Arrow",
+        "Smallville",
+        "Supernatural"
+      ],
       "correctIndex": 2,
-      "explanation": "Smallville raconte la jeunesse de Clark Kent et a contribué au retour des séries de super-héros à la télévision."
+      "explanation": "Smallville (WB/CW, 2001-2011, 10 saisons) a diffusé 218 épisodes, en faisant l'une des séries de super-héros les plus longues de l'histoire de la télévision. Elle a contribué à relancer l'intérêt pour les adaptations de comics à la télévision."
     },
     {
       "id": "14",
-      "question": "Quelle série met en scène les frères Winchester chassant des créatures surnaturelles ?",
-      "answers": ["Buffy contre les vampires", "Fringe", "Supernatural", "True Blood"],
+      "question": "Quelle série met en scène les frères Winchester chassant des créatures surnaturelles à travers l'Amérique ?",
+      "answers": [
+        "Buffy contre les vampires",
+        "Angel",
+        "Supernatural",
+        "True Blood"
+      ],
       "correctIndex": 2,
-      "explanation": "Supernatural a développé une immense communauté de fans et a duré 15 saisons après son lancement dans les années 2000."
+      "explanation": "Supernatural (CW, 2005-2020, 15 saisons, 327 épisodes) est l'une des séries les plus longues de l'histoire du réseau CW. Elle a développé une communauté de fans parmi les plus actives de l'histoire des séries télévisées."
     },
     {
       "id": "15",
-      "question": "Quelle série suit une unité scientifique enquêtant sur des phénomènes inexpliqués ?",
-      "answers": ["Lost", "Fringe", "X-Files", "Alias"],
+      "question": "Quelle série suit Sydney Bristow, agent double infiltré au sein d'une organisation criminelle ?",
+      "answers": [
+        "24 Heures chrono",
+        "Alias",
+        "Nikita",
+        "Dark Angel"
+      ],
       "correctIndex": 1,
-      "explanation": "Créée par J.J. Abrams, Fringe mélangeait science-fiction, enquêtes paranormales et univers parallèles."
+      "explanation": "Alias (ABC, 2001-2006, 5 saisons) a été créée par J.J. Abrams et a lancé la carrière internationale de Jennifer Garner. La série mêlait espionnage, science-fiction et drame familial sur 105 épisodes."
     },
-   {
-  "id": "16",
-  "question": "Quelle série des années 2000 met en scène une adolescente enquêtant sur des affaires criminelles dans la ville fictive de Neptune ?",
-  "answers": ["Gossip Girl", "Veronica Mars", "The O.C.", "Pretty Little Liars"],
-  "correctIndex": 1,
-  "explanation": "Veronica Mars mélangeait enquête policière, drame adolescent et humour noir. La série est devenue culte grâce à ses intrigues intelligentes et à son héroïne très différente des personnages féminins habituels de l’époque."
-},
+    {
+      "id": "16",
+      "question": "Quelle série met en scène une adolescente enquêtant sur des affaires criminelles dans la ville fictive de Neptune ?",
+      "answers": [
+        "Gossip Girl",
+        "Veronica Mars",
+        "The O.C.",
+        "One Tree Hill"
+      ],
+      "correctIndex": 1,
+      "explanation": "Veronica Mars (UPN/CW, 2004-2007, 3 saisons) mêle enquête policière et drame adolescent. La série est devenue culte grâce à son héroïne atypique interprétée par Kristen Bell, et a même été relancée via Kickstarter en 2014 pour un film puis une saison 4."
+    },
     {
       "id": "17",
-      "question": "Quelle série met en scène une lycéenne blogueuse mystérieuse surnommée Gossip Girl ?",
-      "answers": ["The O.C.", "90210", "One Tree Hill", "Gossip Girl"],
+      "question": "Quelle série suit les lycéens fortunés de l'Upper East Side espionnés par un blog anonyme qui révèle leurs secrets ?",
+      "answers": [
+        "The O.C.",
+        "90210",
+        "One Tree Hill",
+        "Gossip Girl"
+      ],
       "correctIndex": 3,
-      "explanation": "Gossip Girl est devenue emblématique des séries pour adolescents de la fin des années 2000 grâce à ses intrigues et son univers luxueux."
+      "explanation": "Gossip Girl (CW, 2007-2012, 6 saisons) est devenue emblématique des teen dramas de la fin des années 2000. La véritable identité de Gossip Girl, révélée dans le final, a surpris l'ensemble des téléspectateurs."
     },
     {
       "id": "18",
-      "question": "Quelle série suit les employés décalés d’une entreprise de papier nommée Dunder Mifflin ?",
-      "answers": ["Community", "The Office", "Parks and Recreation", "30 Rock"],
+      "question": "Quelle série suit les employés décalés d'une entreprise de papier nommée Dunder Mifflin ?",
+      "answers": [
+        "Community",
+        "The Office",
+        "Parks and Recreation",
+        "30 Rock"
+      ],
       "correctIndex": 1,
-      "explanation": "The Office a popularisé le faux format documentaire dans les sitcoms américaines et révélé Steve Carell au grand public."
+      "explanation": "The Office (NBC, 2005-2013, 9 saisons) est adaptée de la série britannique créée par Ricky Gervais. Elle a popularisé le faux format documentaire dans les sitcoms américaines et révélé Steve Carell, John Krasinski et Mindy Kaling au grand public."
     },
     {
       "id": "19",
-      "question": "Quelle série met en scène des adolescents riches vivant dans le comté d’Orange en Californie ?",
-      "answers": ["The O.C.", "Gossip Girl", "90210", "Skins"],
+      "question": "Quelle série met en scène des adolescents riches vivant dans le comté d'Orange en Californie ?",
+      "answers": [
+        "The O.C.",
+        "Gossip Girl",
+        "90210",
+        "Dawson's Creek"
+      ],
       "correctIndex": 0,
-      "explanation": "The O.C. a fortement marqué la télévision ado des années 2000 avec ses romances, ses drames familiaux et sa bande-son culte."
+      "explanation": "The O.C. (Fox, 2003-2007, 4 saisons) a fortement marqué la télévision ado des années 2000. Sa bande-son, notamment la chanson California de Phantom Planet, est devenue l'un des génériques les plus reconnaissables de la décennie."
     },
     {
       "id": "20",
-      "question": "Quelle série suit un groupe d’amis passionnés de science et de culture geek ?",
-      "answers": ["Silicon Valley", "Chuck", "How I Met Your Mother", "The Big Bang Theory"],
+      "question": "Quelle série suit un groupe d'amis physiciens passionnés de science et de culture geek ?",
+      "answers": [
+        "Silicon Valley",
+        "Chuck",
+        "How I Met Your Mother",
+        "The Big Bang Theory"
+      ],
       "correctIndex": 3,
-      "explanation": "The Big Bang Theory a rendu la culture geek extrêmement populaire auprès du grand public dans les années 2000 et 2010."
+      "explanation": "The Big Bang Theory (CBS, 2007-2019, 12 saisons) a totalisé 279 épisodes et réuni jusqu'à 23 millions de téléspectateurs par semaine à son apogée, en faisant l'une des sitcoms les plus regardées des années 2000 et 2010."
     }
   ]
 }

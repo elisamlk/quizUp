@@ -3,7 +3,7 @@
     "title": "Quiz Séries TV - Les Familles les Plus Célèbres",
     "description": "Des Simpson aux Shelby, en passant par les Stark et les Roy : connais-tu les familles qui ont marqué les séries TV ?",
     "publishedAt": "2026-06-06",
-    "descriptionSeo": "Retrouve les familles les plus célèbres de l’histoire des séries TV avec ce quiz de 20 questions. Des Simpson aux Targaryen, en passant par les Shelby, les Roy, les Byers ou les Bridgerton, teste ta mémoire et découvre des anecdotes sur les dynasties qui ont marqué le petit écran.",
+    "descriptionSeo": "Retrouve les familles les plus célèbres de l'histoire des séries TV avec ce quiz de 20 questions. Des Simpson aux Targaryen, en passant par les Shelby, les Roy, les Byers ou les Bridgerton, teste ta mémoire et découvre des anecdotes sur les dynasties qui ont marqué le petit écran.",
     "category": {
         "name": "Série TV",
         "slug": "serie-tv"
@@ -19,243 +19,143 @@
     "questions": [
         {
             "id": "1",
-            "question": "Quelle série d’animation suit une famille vivant à Springfield ?",
-            "answers": [
-                "Les Simpson",
-                "Family Guy",
-                "Futurama",
-                "American Dad!"
-            ],
+            "question": "Quelle famille animée compte cinq membres — Homer, Marge, Bart, Lisa et Maggie — et est diffusée sur Fox depuis 1989 ?",
+            "answers": ["Les Simpson", "Family Guy", "Futurama", "American Dad!"],
             "correctIndex": 0,
-            "explanation": "Les Simpson suit Homer, Marge, Bart, Lisa et Maggie dans la ville fictive de Springfield. Depuis 1989, la série est devenue l’une des plus grandes références de la télévision américaine."
+            "explanation": "Les Simpson suit Homer, Marge, Bart, Lisa et Maggie dans la ville fictive de Springfield. Diffusée depuis décembre 1989, la série est devenue la plus longue de l'histoire de la télévision américaine en prime time et une référence absolue de l'animation adulte."
         },
         {
             "id": "2",
-            "question": "Quel nom porte la famille au centre de la série Succession ?",
-            "answers": [
-                "Carrington",
-                "Roy",
-                "Pearson",
-                "Ewing"
-            ],
+            "question": "Quel nom porte la famille milliardaire qui contrôle Waystar Royco dans la série Succession ?",
+            "answers": ["Carrington", "Roy", "Pearson", "Ewing"],
             "correctIndex": 1,
-            "explanation": "La famille Roy contrôle un immense empire médiatique dans Succession. Les luttes de pouvoir entre Logan Roy et ses enfants constituent le cœur de cette série récompensée par de nombreux prix."
+            "explanation": "La famille Roy contrôle un immense empire médiatique dans Succession (HBO, 2018-2023). Les luttes de pouvoir entre Logan Roy et ses enfants — Kendall, Shiv et Roman — constituent le cœur de cette série récompensée par plusieurs Emmy Awards."
         },
         {
             "id": "3",
-            "question": "Quelle famille règne sur Winterfell au début de Game of Thrones ?",
-            "answers": [
-                "Baratheon",
-                "Targaryen",
-                "Stark",
-                "Tyrell"
-            ],
+            "question": "Quelle famille du Nord de Westeros gouverne depuis un château dont la devise est 'Winter is Coming' dans Game of Thrones ?",
+            "answers": ["Baratheon", "Targaryen", "Stark", "Tyrell"],
             "correctIndex": 2,
-            "explanation": "Les Stark sont les seigneurs du Nord et gouvernent depuis Winterfell. Leur devise officieuse, 'Winter is Coming', est devenue l'une des plus célèbres citations de l’histoire des séries télévisées."
+            "explanation": "Les Stark sont les seigneurs du Nord et gouvernent depuis Winterfell. Leur devise 'Winter is Coming' est devenue l'une des citations les plus célèbres de l'histoire des séries. L'exécution de Ned Stark par Joffrey constitue l'un des grands tournants de la saison 1, un choc narratif qui a défini le ton de toute la série."
         },
         {
             "id": "4",
-            "question": "Dans quelle série retrouve-t-on la famille Shelby ?",
-            "answers": [
-                "Boardwalk Empire",
-                "Sons of Anarchy",
-                "Yellowstone",
-                "Peaky Blinders"
-            ],
+            "question": "Quelle famille de Birmingham dirige un gang de parieurs et de criminels dans l'Angleterre de l'après-Première Guerre mondiale ?",
+            "answers": ["Boardwalk Empire", "Sons of Anarchy", "Yellowstone", "Peaky Blinders"],
             "correctIndex": 3,
-            "explanation": "Les Shelby dirigent un gang de Birmingham dans l’Angleterre de l’après-Première Guerre mondiale. Grâce au succès mondial de Peaky Blinders, Thomas Shelby est devenu l’un des personnages les plus populaires des années 2010."
+            "explanation": "Les Shelby dirigent leur gang depuis Small Heath, Birmingham, dans Peaky Blinders (BBC, 2013-2022). Tommy Shelby, interprété par Cillian Murphy, est devenu l'un des personnages les plus populaires des séries britanniques. La série s'inspire librement d'un gang réel ayant opéré à Birmingham principalement à la fin du XIXe siècle et au début du XXe siècle."
         },
         {
             "id": "5",
-            "question": "Quel nom porte le chef de famille mafieux interprété par James Gandolfini ?",
-            "answers": [
-                "Soprano",
-                "Corleone",
-                "Roy",
-                "Shelby"
-            ],
+            "question": "Quel nom porte le parrain de la mafia du New Jersey, chef de famille interprété par James Gandolfini dans une série HBO culte ?",
+            "answers": ["Soprano", "Corleone", "Gambino", "Shelby"],
             "correctIndex": 0,
-            "explanation": "Tony Soprano est le personnage central de la série. Son portrait mêlant vie familiale, criminalité et thérapie a profondément marqué l’évolution des séries modernes."
+            "explanation": "Tony Soprano est le personnage central des Sopranos (HBO, 1999-2007). Son portrait mêlant vie familiale, criminalité et thérapie a profondément marqué l'évolution des séries modernes et défini le concept d'anti-héros télévisuel."
         },
         {
             "id": "6",
-            "question": "Quelle famille aristocratique britannique est composée notamment d’Anthony, Benedict, Colin, Daphne, Eloise et Francesca ?",
-            "answers": [
-                "Featherington",
-                "Bridgerton",
-                "Crawley",
-                "Dutton"
-            ],
-            "correctIndex": 1,
-            "explanation": "Les Bridgerton forment une grande fratrie dans le Londres mondain du XIXe siècle. Chaque saison met en avant une romance différente autour d’un membre de la famille."
+            "question": "Quelle grande fratrie de la Régence anglaise est composée d'Anthony, Benedict, Colin, Daphne, Eloise, Francesca, Gregory et Hyacinth ?",
+            "answers": ["Bridgerton", "Featherington", "Crawley", "Dutton"],
+            "correctIndex": 0,
+            "explanation": "Les Bridgerton forment une grande fratrie dans le Londres mondain du XIXe siècle dans la série Netflix Bridgerton (depuis 2020). Chaque saison met en avant la romance d'un membre différent de la famille, avec une bande-son contemporaine en contraste délibéré avec l'époque historique."
         },
         {
             "id": "7",
-            "question": "Quel nom porte la famille principale dans Stranger Things ?",
-            "answers": [
-                "Wheeler",
-                "Sinclair",
-                "Byers",
-                "Mayfield"
-            ],
+            "question": "Quelle famille de Hawkins voit son fils cadet disparaître mystérieusement dans le premier épisode de Stranger Things ?",
+            "answers": ["Wheeler", "Sinclair", "Byers", "Mayfield"],
             "correctIndex": 2,
-            "explanation": "La famille Byers joue un rôle central dans Stranger Things. La disparition de Will Byers au début de la série déclenche les événements qui mèneront à la découverte du Monde à l’Envers."
+            "explanation": "La famille Byers joue un rôle central dans Stranger Things. La disparition de Will Byers dans le premier épisode de la saison 1 déclenche l'ensemble des événements menant à la découverte du Monde à l'Envers et d'Eleven."
         },
         {
             "id": "8",
-            "question": "Quelle famille est associée au ranch au cœur de la série Yellowstone ?",
-            "answers": [
-                "Roy",
-                "Pearson",
-                "Carrington",
-                "Dutton"
-            ],
+            "question": "Quelle famille possède le plus grand ranch du Montana et défend son territoire contre promoteurs, tribus amérindiennes et gouvernement dans une série Paramount ?",
+            "answers": ["Roy", "Pearson", "Carrington", "Dutton"],
             "correctIndex": 3,
-            "explanation": "Les Dutton possèdent l’un des plus grands ranchs des États-Unis. Yellowstone est devenue l’une des séries les plus regardées de la télévision américaine au XXIe siècle."
+            "explanation": "Les Dutton possèdent le Yellowstone Dutton Ranch, l'un des plus grands ranchs privés des États-Unis dans la fiction. Yellowstone (Paramount Network, depuis 2018), avec Kevin Costner dans le rôle de John Dutton, est devenue l'une des séries les plus regardées de la télévision câblée américaine."
         },
         {
             "id": "9",
-            "question": "Quelle famille de Game of Thrones est connue pour ses dragons ?",
-            "answers": [
-                "Targaryen",
-                "Stark",
-                "Greyjoy",
-                "Martell"
-            ],
+            "question": "Quelle famille de Westeros, dont les membres ont les cheveux platine caractéristiques, a fondé son pouvoir sur la domestication des dragons ?",
+            "answers": ["Targaryen", "Stark", "Greyjoy", "Martell"],
             "correctIndex": 0,
-            "explanation": "Les Targaryen ont bâti leur puissance grâce aux dragons. Leur histoire est au cœur de Game of Thrones et de House of the Dragon, qui raconte les événements précédant la série principale."
+            "explanation": "Les Targaryen ont conquis les Sept Couronnes grâce à leurs dragons il y a plusieurs siècles avant les événements de Game of Thrones. Leur histoire est développée dans House of the Dragon (HBO, depuis 2022), qui raconte la guerre civile de la Danse des Dragons."
         },
         {
             "id": "10",
-            "question": "Quel nom porte la famille de Peter dans Family Guy ?",
-            "answers": [
-                "Simpson",
-                "Griffin",
-                "Belcher",
-                "Smith"
-            ],
+            "question": "Quel nom porte la famille de Quahog dans Family Guy, avec notamment Peter, Lois, Chris, Meg, Stewie et le chien Brian ?",
+            "answers": ["Simpson", "Griffin", "Belcher", "Smith"],
             "correctIndex": 1,
-            "explanation": "La famille Griffin est composée de Peter, Lois, Chris, Meg, Stewie et du chien Brian. Family Guy est connue pour son humour absurde et ses nombreuses références à la culture populaire."
+            "explanation": "La famille Griffin est au cœur de Family Guy (Fox, depuis 1999), créée par Seth MacFarlane qui double plusieurs personnages dont Peter et Brian. La série est connue pour son humour irrévérencieux, ses non sequiturs et ses innombrables références à la culture populaire américaine."
         },
         {
             "id": "11",
-            "question": "Quelle famille est au centre de la série This Is Us ?",
-            "answers": [
-                "Roy",
-                "Dutton",
-                "Pearson",
-                "Bridgerton"
-            ],
+            "question": "Quelle famille suit une narration non linéaire mêlant trois générations dans la série dramatique américaine This Is Us ?",
+            "answers": ["Roy", "Dutton", "Pearson", "Bridgerton"],
             "correctIndex": 2,
-            "explanation": "This Is Us raconte l’histoire de la famille Pearson sur plusieurs décennies. La série est particulièrement appréciée pour sa narration non linéaire et ses thèmes familiaux universels."
+            "explanation": "This Is Us (NBC, 2016-2022) raconte l'histoire de la famille Pearson sur plusieurs décennies, entremêlant passé et présent autour des triplés Jack, Kate et Kevin et de leurs parents. La série est saluée pour sa narration non linéaire et ses thèmes familiaux universels."
         },
         {
             "id": "12",
-            "question": "Dans quelle série suit-on les intrigues de la famille Carrington ?",
-            "answers": [
-                "Dallas",
-                "Falcon Crest",
-                "Empire",
-                "Dynastie"
-            ],
+            "question": "Dans quelle série des années 1980 suit-on la fortune et les intrigues de la famille Carrington dans le Colorado ?",
+            "answers": ["Dallas", "Falcon Crest", "Empire", "Dynastie"],
             "correctIndex": 3,
-            "explanation": "La famille Carrington est au centre de Dynastie, l’un des feuilletons les plus emblématiques des années 1980. La série a marqué son époque par ses rivalités, son luxe et ses rebondissements."
+            "explanation": "La famille Carrington est au centre de Dynastie (Dynasty, ABC, 1981-1989), l'un des feuilletons les plus emblématiques des années 1980. La série a marqué son époque par ses rivalités, ses costumes ostentatoires et ses rebondissements feuilletonesques."
         },
         {
             "id": "13",
-            "question": "Quelle famille est l’ennemie historique des Stark dans Game of Thrones ?",
-            "answers": [
-                "Lannister",
-                "Tyrell",
-                "Tully",
-                "Arryn"
-            ],
+            "question": "Quelle riche famille de Westeros — dont la devise non officielle parle de toujours payer ses dettes — est la principale adversaire des Stark ?",
+            "answers": ["Lannister", "Tyrell", "Tully", "Arryn"],
             "correctIndex": 0,
-            "explanation": "Les tensions entre Stark et Lannister déclenchent une grande partie des événements de Game of Thrones. Cette rivalité est à l’origine de plusieurs guerres majeures dans la série."
+            "explanation": "Les tensions entre Stark et Lannister déclenchent une grande partie des événements de Game of Thrones. Représentée notamment par Cersei, Jaime et Tyrion, la famille Lannister est l'une des plus complexes moralement de la série."
         },
         {
             "id": "14",
-            "question": "Quel nom porte la famille au cœur de Dallas ?",
-            "answers": [
-                "Carrington",
-                "Ewing",
-                "Roy",
-                "Pearson"
-            ],
-            "correctIndex": 1,
-            "explanation": "Les Ewing dirigent un empire pétrolier au Texas. Dallas a connu un succès mondial et son célèbre suspense autour du personnage de J.R. est devenu un phénomène culturel."
+            "question": "Quelle famille texane dirige un empire pétrolier au cœur de la série feuilletonnante Dallas, diffusée de 1978 à 1991 ?",
+            "answers": ["Carrington", "Roy", "Ewing", "Pearson"],
+            "correctIndex": 2,
+            "explanation": "Les Ewing dirigent un empire pétrolier au Texas dans Dallas (CBS, 1978-1991). La série a connu un succès mondial et son célèbre suspense autour du personnage de J.R. Ewing — 'Qui a tiré sur J.R. ?' — est devenu un phénomène culturel international."
         },
         {
             "id": "15",
-            "question": "Quel nom porte la famille aristocratique au centre de la série Downton Abbey ?",
-            "answers": [
-                "Bridgerton",
-                "Crawley",
-                "Carrington",
-                "Windsor"
-            ],
+            "question": "Quel nom porte la famille comtale qui vit entre tradition aristocratique et modernité dans la série Downton Abbey ?",
+            "answers": ["Bridgerton", "Crawley", "Carrington", "Windsor"],
             "correctIndex": 1,
-            "explanation": "La famille Crawley est au cœur de Downton Abbey. La série suit son quotidien ainsi que celui des domestiques du domaine entre 1912 et les années 1920. Son succès mondial a contribué à relancer l’intérêt du public pour les drames historiques britanniques."
+            "explanation": "La famille Crawley est au cœur de Downton Abbey (ITV, 2010-2015). La série suit son quotidien et celui de ses domestiques entre 1912 et les années 1920. Son succès mondial a relancé l'intérêt pour les drames historiques britanniques et généré deux films de suite."
         },
         {
             "id": "16",
-            "question": "Dans quelle série trouve-t-on la famille Banks ?",
-            "answers": [
-                "Friends",
-                "Modern Family",
-                "Full House",
-                "Le Prince de Bel-Air"
-            ],
+            "question": "Dans quelle série des années 1990 la famille Banks d'une luxueuse villa californienne accueille-t-elle un neveu turbulent venu de Philadelphie ?",
+            "answers": ["Friends", "Modern Family", "Full House", "Le Prince de Bel-Air"],
             "correctIndex": 3,
-            "explanation": "Les Banks accueillent Will dans leur luxueuse demeure de Bel-Air. La série a largement contribué à lancer la carrière de Will Smith dans les années 1990."
+            "explanation": "Les Banks accueillent Will dans leur luxueuse demeure de Bel-Air dans Le Prince de Bel-Air (NBC, 1990-1996). La série a largement contribué à lancer la carrière de Will Smith. Un reboot dramatique, Bel-Air, a été lancé sur Peacock en 2022."
         },
         {
             "id": "17",
-            "question": "Quelle famille fictive est composée notamment de Gomez, Morticia et Mercredi ?",
-            "answers": [
-                "Addams",
-                "Munster",
-                "Bundy",
-                "Roy"
-            ],
-            "correctIndex": 0,
-            "explanation": "La famille Addams est connue pour son humour macabre et son univers gothique. Créée à l’origine sous forme de dessins, elle a connu de nombreuses adaptations à la télévision et au cinéma."
+            "question": "Quelle famille fictive au style gothique est composée de Gomez, Morticia, Mercredi, Pugsley, l'Oncle Fester et une grand-mère excentrique ?",
+            "answers": ["Munster", "Bundy", "Addams", "Roy"],
+            "correctIndex": 2,
+            "explanation": "La famille Addams est créée par le dessinateur Charles Addams en 1938. Elle a connu de nombreuses adaptations — séries télévisées en 1964 et 1998, films des années 1990, et récemment la série Wednesday sur Netflix (2022), centrée sur Mercredi Addams."
         },
         {
             "id": "18",
-            "question": "Quel nom porte la famille au centre de la série Full House ?",
-            "answers": [
-                "Banks",
-                "Tanner",
-                "Pearson",
-                "Bridgerton"
-            ],
+            "question": "Quel nom porte la famille recomposée de San Francisco au centre de la sitcom Full House, diffusée de 1987 à 1995 sur ABC ?",
+            "answers": ["Banks", "Tanner", "Pearson", "Griffin"],
             "correctIndex": 1,
-            "explanation": "La famille Tanner est au cœur de Full House, connue en France sous le titre La Fête à la maison. La série est devenue une référence des sitcoms familiales des années 1980 et 1990."
+            "explanation": "La famille Tanner est au cœur de Full House (ABC, 1987-1995), connue en France sous le titre La Fête à la maison. La série est devenue une référence des sitcoms familiales des années 1980-1990 et a lancé la carrière des sœurs Olsen. Une suite, Fuller House, a été produite sur Netflix (2016-2020)."
         },
         {
             "id": "19",
-            "question": "Quelle famille est au centre de la série Umbrella Academy ?",
-            "answers": [
-                "Roy",
-                "Shelby",
-                "Hargreeves",
-                "Dutton"
-            ],
-            "correctIndex": 2,
-            "explanation": "Les membres de la famille Hargreeves ont été adoptés par un milliardaire excentrique et possèdent des pouvoirs extraordinaires. Leurs relations compliquées constituent l’un des principaux moteurs de la série."
+            "question": "Quelle famille de super-héros adoptés par un milliardaire excentrique est au centre de The Umbrella Academy sur Netflix ?",
+            "answers": ["Roy", "Shelby", "Dutton", "Hargreeves"],
+            "correctIndex": 3,
+            "explanation": "Les membres de la famille Hargreeves ont été adoptés par Reginald Hargreeves et possèdent des pouvoirs extraordinaires dans The Umbrella Academy (Netflix, 2019-2023). Leurs relations dysfonctionnelles et leurs tentatives répétées d'empêcher l'apocalypse constituent le moteur de la série."
         },
         {
             "id": "20",
-            "question": "Quelle famille de Game of Thrones contrôle principalement Castral Roc ?",
-            "answers": [
-                "Stark",
-                "Targaryen",
-                "Baratheon",
-                "Lannister"
-            ],
-            "correctIndex": 3,
-            "explanation": "Les Lannister règnent sur Castral Roc et comptent parmi les familles les plus riches et influentes de Westeros. Leur devise officieuse, 'Un Lannister paie toujours ses dettes', est devenue célèbre auprès des fans."
+            "question": "Quelle famille de sitcom fondatrice des années 1950 est composée de Ward, June, Wally et Theodore, dit 'The Beaver' ?",
+            "answers": ["Cunningham", "Cleaver", "Anderson", "Partridge"],
+            "correctIndex": 1,
+            "explanation": "La famille Cleaver est le modèle de la famille américaine idéale dans Leave It to Beaver (CBS/ABC, 1957-1963). L'une des sitcoms familiales les plus influentes de la fin des années 1950, elle a établi des codes narratifs encore utilisés aujourd'hui et reste une référence culturelle incontournable de l'ère télévisuelle classique."
         }
     ]
 }

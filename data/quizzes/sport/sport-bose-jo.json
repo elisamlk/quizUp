@@ -1,260 +1,160 @@
 {
-    "slug": "quiz-sport-champions-olympiques-boxe",
-    "title": "Quiz Sport - Boxe - Connais-tu les champions olympiques ?",
-    "description": "Teste tes connaissances sur les champions olympiques de boxe avec 20 questions.",
-    "descriptionSeo": "Des légendes comme Muhammad Ali, Joe Frazier, George Foreman, Oscar De La Hoya, Vasyl Lomachenko, Oleksandr Usyk, Katie Taylor ou Claressa Shields ont marqué l’histoire des Jeux Olympiques avant ou pendant leur carrière professionnelle. Ce quiz de 20 questions te propose de retrouver les champions olympiques de boxe les plus célèbres, entre exploits amateurs, doublés historiques et futurs rois du ring.",
-    "category": {
-        "name": "Sport",
-        "slug": "sport"
+  "slug": "quiz-sport-champions-olympiques-boxe",
+  "title": "Quiz Sport - Boxe - Connais-tu les champions olympiques ?",
+  "description": "Teste tes connaissances sur les champions olympiques de boxe avec 20 questions.",
+  "descriptionSeo": "Des légendes comme Muhammad Ali, Joe Frazier, George Foreman, Oscar De La Hoya, Vasyl Lomachenko, Oleksandr Usyk, Katie Taylor ou Claressa Shields ont marqué l'histoire des Jeux Olympiques avant ou pendant leur carrière professionnelle. Ce quiz de 20 questions te propose de retrouver les champions olympiques de boxe les plus célèbres, entre exploits amateurs, doublés historiques et futurs rois du ring.",
+  "category": {
+    "name": "Sport",
+    "slug": "sport"
+  },
+  "createdAt": "2026-04-17",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776460747/cover_jmlbki.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776460747/cover_jmlbki.jpg",
+    "alt": "Quiz champions olympiques de boxe"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "question": "Quel futur champion du monde poids lourds a remporté l'or olympique en 1960 à Rome sous le nom de Cassius Clay ?",
+      "answers": ["Joe Frazier", "Muhammad Ali", "George Foreman", "Sonny Liston"],
+      "correctIndex": 1,
+      "explanation": "Muhammad Ali, alors encore connu sous le nom de Cassius Clay, a remporté l'or olympique en poids mi-lourds à Rome en 1960. Ce titre a servi de tremplin à l'une des plus grandes carrières de l'histoire du sport, avant qu'il ne devienne triple champion du monde des poids lourds et icône mondiale."
     },
-    "createdAt": "2026-04-17",
-    "isNew": true,
-    "isPopular": true,
-    "images": {
-        "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776460747/cover_jmlbki.jpg",
-        "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776460747/cover_jmlbki.jpg",
-        "alt": "Quiz champions olympiques de boxe"
+    {
+      "id": "2",
+      "question": "Quel boxeur américain a remporté l'or olympique à Tokyo en 1964 en poids mi-lourds, malgré une blessure au pouce en finale ?",
+      "answers": ["George Foreman", "Joe Frazier", "Muhammad Ali", "Sonny Liston"],
+      "correctIndex": 1,
+      "explanation": "Joe Frazier a remporté l'or olympique en mi-lourds à Tokyo en 1964 en combattant en finale avec un pouce cassé, ce qui rend sa performance encore plus remarquable. Initialement remplaçant dans l'équipe américaine, il a su saisir sa chance et s'imposer dans un tournoi très relevé avant de devenir champion du monde des lourds."
     },
-    "questions": [
-        {
-            "id": "1",
-            "question": "Quel futur champion du monde poids lourds a remporté l’or olympique en 1960 à Rome sous le nom de Cassius Clay ?",
-            "answers": [
-                "Joe Frazier",
-                "Muhammad Ali",
-                "George Foreman",
-                "Sonny Liston"
-            ],
-            "correctIndex": 1,
-            "explanation": "Muhammad Ali, alors encore connu sous le nom de Cassius Clay, a remporté l’or olympique à Rome en 1960. Ce titre a servi de tremplin à l’une des plus grandes carrières de l’histoire du sport, bien au-delà de la boxe."
-        },
-        {
-            "id": "2",
-            "question": "Quel boxeur américain a remporté l’or olympique à Tokyo en 1964 en combattant malgré une blessure au pouce ?",
-            "answers": [
-                "George Foreman",
-                "Joe Frazier",
-                "Muhammad Ali",
-                "Sonny Liston"
-            ],
-            "correctIndex": 1,
-            "explanation": "Joe Frazier a remporté l’or olympique en 1964 en combattant avec un pouce blessé, ce qui rend sa performance encore plus impressionnante. Initialement remplaçant dans l’équipe américaine, il a su saisir sa chance et s’imposer dans un tournoi très relevé."
-        },
-        {
-            "id": "3",
-            "question": "Quel futur roi des poids lourds a remporté l’or olympique en 1968 à Mexico ?",
-            "answers": [
-                "George Foreman",
-                "Ken Norton",
-                "Leon Spinks",
-                "Joe Frazier"
-            ],
-            "correctIndex": 0,
-            "explanation": "George Foreman a été champion olympique en 1968 avant de devenir champion du monde des lourds. Son titre olympique a révélé une puissance qui allait ensuite faire sa réputation sur les rings professionnels."
-        },
-        {
-            "id": "4",
-            "question": "Quel boxeur cubain a remporté trois titres olympiques consécutifs chez les poids lourds ?",
-            "answers": [
-                "Teófilo Stevenson",
-                "Félix Savón",
-                "Mario Kindelán",
-                "Julio César La Cruz"
-            ],
-            "correctIndex": 0,
-            "explanation": "Teófilo Stevenson a remporté trois médailles d’or olympiques consécutives en 1972, 1976 et 1980. Cette performance a fait de lui l’un des plus grands boxeurs amateurs de tous les temps."
-        },
-        {
-            "id": "5",
-            "question": "Quel autre boxeur cubain a lui aussi remporté trois titres olympiques consécutifs chez les lourds ?",
-            "answers": [
-                "Guillermo Rigondeaux",
-                "Félix Savón",
-                "Robeisy Ramírez",
-                "Héctor Vinent"
-            ],
-            "correctIndex": 1,
-            "explanation": "Félix Savón a égalé l’exploit de Stevenson en remportant l’or olympique à trois reprises, en 1992, 1996 et 2000. Sa domination illustre la puissance durable de l’école cubaine de boxe amateur."
-        },
-        {
-            "id": "6",
-            "question": "Quel boxeur hongrois est resté célèbre pour avoir été le premier à remporter trois titres olympiques en boxe ?",
-            "answers": [
-                "László Papp",
-                "Teófilo Stevenson",
-                "Boris Lagutin",
-                "Nino Benvenuti"
-            ],
-            "correctIndex": 0,
-            "explanation": "László Papp a remporté trois titres olympiques consécutifs en 1948, 1952 et 1956. Il a été le premier boxeur à réaliser cet exploit, bien avant les grandes légendes cubaines."
-        },
-        {
-            "id": "7",
-            "question": "Quel boxeur américain a remporté l’or olympique chez les poids lourds à Los Angeles en 1984 ?",
-            "answers": [
-                "Henry Tillman",
-                "Evander Holyfield",
-                "Riddick Bowe",
-                "Lennox Lewis"
-            ],
-            "correctIndex": 0,
-            "explanation": "Henry Tillman a remporté l’or olympique en 1984 chez les poids lourds. Il est notamment connu pour avoir battu Mike Tyson à deux reprises chez les amateurs, ce qui souligne le niveau extrêmement relevé de la boxe olympique."
-        },
-        {
-            "id": "8",
-            "question": "Quel boxeur américain a remporté l’or olympique en 1976 à Montréal avant de devenir champion du monde des lourds ?",
-            "answers": [
-                "Leon Spinks",
-                "Michael Spinks",
-                "Larry Holmes",
-                "Trevor Berbick"
-            ],
-            "correctIndex": 1,
-            "explanation": "Michael Spinks a remporté l’or olympique en 1976 en mi-lourds. Il est ensuite devenu champion du monde chez les lourds, un passage rare qui souligne l’ampleur de son talent."
-        },
-        {
-            "id": "9",
-            "question": "Quel boxeur américain a remporté l’or olympique à Montréal en 1976 avant de battre Muhammad Ali chez les professionnels ?",
-            "answers": [
-                "Leon Spinks",
-                "Michael Spinks",
-                "Ray Leonard",
-                "Thomas Hearns"
-            ],
-            "correctIndex": 0,
-            "explanation": "Leon Spinks a été champion olympique en 1976 avant de créer l’exploit chez les pros en battant Muhammad Ali. Son parcours rappelle à quel point les Jeux ont souvent révélé des futurs très grands noms."
-        },
-        {
-            "id": "10",
-            "question": "Quel boxeur américain a été champion olympique en 1976 avant de devenir l’une des grandes légendes des poids welters ?",
-            "answers": [
-                "Pernell Whitaker",
-                "Sugar Ray Leonard",
-                "Meldrick Taylor",
-                "Oscar De La Hoya"
-            ],
-            "correctIndex": 1,
-            "explanation": "Sugar Ray Leonard a remporté l’or aux JO de Montréal en 1976. Son style rapide, élégant et spectaculaire l’a ensuite transformé en superstar mondiale de la boxe professionnelle."
-        },
-        {
-            "id": "11",
-            "question": "Quel boxeur américain a remporté l’or olympique en 1988 à Séoul avant de devenir champion du monde professionnel dans quatre catégories ?",
-            "answers": [
-                "Pernell Whitaker",
-                "Roy Jones Jr.",
-                "Oscar De La Hoya",
-                "Shane Mosley"
-            ],
-            "correctIndex": 2,
-            "explanation": "Oscar De La Hoya a remporté l’or à Séoul en 1988. Ce titre olympique a lancé la carrière d’un futur champion dans plusieurs catégories, capable de mêler immense popularité et vrai palmarès."
-        },
-        {
-            "id": "12",
-            "question": "Quel boxeur américain a été privé de l’or olympique à Séoul en 1988 malgré une finale restée très controversée ?",
-            "answers": [
-                "Roy Jones Jr.",
-                "Pernell Whitaker",
-                "Riddick Bowe",
-                "Meldrick Taylor"
-            ],
-            "correctIndex": 0,
-            "explanation": "Roy Jones Jr. a perdu une finale de 1988 restée célèbre pour son jugement extrêmement controversé. Ce cas est souvent cité parmi les décisions les plus discutées de l’histoire olympique."
-        },
-        {
-            "id": "13",
-            "question": "Quel boxeur britannique a remporté l’or olympique chez les super-lourds à Londres en 2012 ?",
-            "answers": [
-                "Tyson Fury",
-                "Joe Joyce",
-                "Anthony Joshua",
-                "David Price"
-            ],
-            "correctIndex": 2,
-            "explanation": "Anthony Joshua a été sacré champion olympique à Londres en 2012. Ce titre à domicile a fortement contribué à son immense exposition avant sa carrière professionnelle."
-        },
-        {
-            "id": "14",
-            "question": "Quel boxeur ukrainien a remporté l’or olympique chez les lourds à Londres en 2012 avant de devenir champion du monde professionnel ?",
-            "answers": [
-                "Oleksandr Usyk",
-                "Vasyl Lomachenko",
-                "Wladimir Klitschko",
-                "Denys Berinchyk"
-            ],
-            "correctIndex": 0,
-            "explanation": "Oleksandr Usyk a gagné l’or olympique en 2012 avant de devenir champion du monde chez les lourds-légers puis chez les poids lourds. Son parcours est l’un des plus complets de sa génération."
-        },
-        {
-            "id": "15",
-            "question": "Quel boxeur ukrainien a remporté deux titres olympiques, en 2008 puis 2012 ?",
-            "answers": [
-                "Oleksandr Usyk",
-                "Vasyl Lomachenko",
-                "Oleksandr Gvozdyk",
-                "Volodymyr Klychko"
-            ],
-            "correctIndex": 1,
-            "explanation": "Vasyl Lomachenko a remporté l’or olympique à Pékin puis à Londres. Ce doublé confirme son statut de prodige de la boxe amateur, avant sa carrière professionnelle de très haut niveau."
-        },
-        {
-            "id": "16",
-            "question": "Quelle boxeuse américaine est devenue championne olympique en 2012 puis en 2016 ?",
-            "answers": [
-                "Katie Taylor",
-                "Nicola Adams",
-                "Claressa Shields",
-                "Amanda Serrano"
-            ],
-            "correctIndex": 2,
-            "explanation": "Claressa Shields a remporté l’or à Londres puis à Rio. Elle est devenue l’une des figures majeures de la boxe féminine, en reliant succès olympiques et carrière professionnelle très ambitieuse."
-        },
-        {
-            "id": "17",
-            "question": "Quelle boxeuse britannique a remporté le tout premier titre olympique féminin des -51 kg en 2012 ?",
-            "answers": [
-                "Nicola Adams",
-                "Katie Taylor",
-                "Savannah Marshall",
-                "Natasha Jonas"
-            ],
-            "correctIndex": 0,
-            "explanation": "Nicola Adams a remporté ce titre à Londres, lors des premiers Jeux où la boxe féminine figurait enfin au programme. Son sacre a donc une portée historique qui dépasse la seule médaille."
-        },
-        {
-            "id": "18",
-            "question": "Quelle boxeuse irlandaise a remporté l’or olympique à Londres en 2012 avant de devenir championne du monde professionnelle ?",
-            "answers": [
-                "Katie Taylor",
-                "Kellie Harrington",
-                "Nicola Adams",
-                "Michaela Walsh"
-            ],
-            "correctIndex": 0,
-            "explanation": "Katie Taylor a gagné l’or en 2012, un moment fondateur pour la boxe féminine irlandaise. Elle a ensuite prolongé ce prestige chez les professionnelles, ce qui renforce encore l’importance de son titre olympique."
-        },
-        {
-            "id": "19",
-            "question": "Quelle boxeuse irlandaise a remporté l’or olympique en 2021 puis de nouveau en 2024 ?",
-            "answers": [
-                "Amy Broadhurst",
-                "Katie Taylor",
-                "Kellie Harrington",
-                "Michaela Walsh"
-            ],
-            "correctIndex": 2,
-            "explanation": "Kellie Harrington a remporté l’or à Tokyo puis à Paris. Réussir un doublé olympique en boxe est toujours remarquable, car la discipline impose des tournois très denses et une énorme régularité sur quelques jours."
-        },
-        {
-            "id": "20",
-            "question": "Quel boxeur cubain a remporté l’or olympique à Barcelone en 1992 chez les poids lourds ?",
-            "answers": [
-                "Félix Savón",
-                "Teófilo Stevenson",
-                "David Tua",
-                "Riddick Bowe"
-            ],
-            "correctIndex": 0,
-            "explanation": "Félix Savón a remporté l’or à Barcelone en 1992, premier d’une série de trois titres olympiques consécutifs. Il est considéré comme l’un des plus grands boxeurs amateurs de l’histoire, notamment pour sa domination dans les tournois olympiques."
-        }
-    ]
+    {
+      "id": "3",
+      "question": "Quel futur champion du monde des poids lourds a remporté l'or olympique en super-lourds à Mexico en 1968 ?",
+      "answers": ["George Foreman", "Ken Norton", "Leon Spinks", "Joe Frazier"],
+      "correctIndex": 0,
+      "explanation": "George Foreman a été champion olympique en super-lourds à Mexico en 1968 — célèbre pour son geste de brandissant un petit drapeau américain après sa victoire — avant de devenir champion du monde professionnel des lourds en 1973 puis de nouveau en 1994, un retour unique dans l'histoire de la boxe."
+    },
+    {
+      "id": "4",
+      "question": "Quel boxeur cubain a remporté trois titres olympiques consécutifs chez les poids lourds entre 1972 et 1980 ?",
+      "answers": ["Félix Savón", "Mario Kindelán", "Julio César La Cruz", "Teófilo Stevenson"],
+      "correctIndex": 3,
+      "explanation": "Teófilo Stevenson a remporté trois médailles d'or olympiques consécutives en poids lourds en 1972 à Munich, 1976 à Montréal et 1980 à Moscou. Réputé pour avoir refusé plusieurs offres professionnelles lucratives, il a choisi de rester amateur et est considéré comme l'un des plus grands boxeurs de l'histoire."
+    },
+    {
+      "id": "5",
+      "question": "Quel boxeur canadien a remporté l'or olympique en super-lourds à Los Angeles en 1984, représentant le Canada, avant de devenir champion du monde professionnel ?",
+      "answers": ["Lennox Lewis", "Donovan Ruddock", "Willie deWit", "Shawn O'Sullivan"],
+      "correctIndex": 0,
+      "explanation": "Lennox Lewis, né à Londres mais ayant grandi au Canada, a représenté le Canada aux Jeux de Los Angeles 1984 et remporté l'or olympique en super-lourds. Il a ensuite choisi de défendre les couleurs de la Grande-Bretagne pour sa carrière professionnelle, où il est devenu champion du monde WBC, WBA et IBF des poids lourds, l'un des plus titrés de l'histoire de la catégorie."
+    },
+    {
+      "id": "6",
+      "question": "Quel boxeur hongrois est le premier à avoir remporté trois titres olympiques en boxe, entre 1948 et 1956 ?",
+      "answers": ["László Papp", "Teófilo Stevenson", "Boris Lagutin", "Nino Benvenuti"],
+      "correctIndex": 0,
+      "explanation": "László Papp a remporté trois titres olympiques consécutifs en 1948 à Londres, 1952 à Helsinki et 1956 à Melbourne. Il est le premier boxeur de l'histoire à réaliser cet exploit, bien avant les grandes légendes cubaines, et est devenu par la suite le premier boxeur des pays de l'Est à obtenir une licence professionnelle."
+    },
+    {
+      "id": "7",
+      "question": "Quel boxeur américain a remporté l'or olympique chez les poids lourds à Los Angeles en 1984, connu pour avoir battu Mike Tyson deux fois chez les amateurs ?",
+      "answers": ["Henry Tillman", "Evander Holyfield", "Riddick Bowe", "Lennox Lewis"],
+      "correctIndex": 0,
+      "explanation": "Henry Tillman a remporté l'or olympique en poids lourds à Los Angeles en 1984. Il est notamment connu pour avoir battu Mike Tyson à deux reprises lors des trials olympiques américains de 1984, les sélections nationales qui désignent les représentants des États-Unis aux Jeux, empêchant ainsi le futur « Iron Mike » de participer aux Jeux et illustrant le niveau exceptionnel de la boxe amateur américaine de cette époque."
+    },
+    {
+      "id": "8",
+      "question": "Quel boxeur cubain a réalisé un doublé olympique historique en super-coqs en remportant l'or à Sydney 2000 puis à Athènes 2004 ?",
+      "answers": ["Mario Kindelán", "Guillermo Rigondeaux", "Robeisy Ramírez", "Yosvany Aguilera"],
+      "correctIndex": 1,
+      "explanation": "Guillermo Rigondeaux a remporté l'or olympique en super-coqs à Sydney 2000 puis à Athènes 2004, réalisant un doublé que très peu de boxeurs ont accompli dans l'histoire olympique. Il a ensuite eu une carrière professionnelle brillante, devenant champion du monde en super-coqs dans plusieurs organisations, reconnu pour sa technique défensive hors du commun."
+    },
+    {
+      "id": "9",
+      "question": "Quel boxeur américain a remporté l'or olympique en mi-lourds à Montréal en 1976, avant de créer l'exploit en battant Muhammad Ali chez les professionnels ?",
+      "answers": ["Michael Spinks", "Ray Leonard", "Thomas Hearns", "Leon Spinks"],
+      "correctIndex": 3,
+      "explanation": "Leon Spinks a été champion olympique en mi-lourds à Montréal en 1976 avant de créer l'une des surprises de l'histoire de la boxe professionnelle en battant Muhammad Ali en 1978, dès son huitième combat professionnel seulement. Son frère Michael a remporté le titre olympique des mi-lourds lors de ces mêmes Jeux."
+    },
+    {
+      "id": "10",
+      "question": "Quel boxeur américain a été champion olympique en poids welters à Montréal en 1976 avant de devenir l'une des grandes légendes de la catégorie ?",
+      "answers": ["Pernell Whitaker", "Sugar Ray Leonard", "Meldrick Taylor", "Oscar De La Hoya"],
+      "correctIndex": 1,
+      "explanation": "Sugar Ray Leonard a remporté l'or en poids welters aux Jeux de Montréal en 1976. Son style rapide, élégant et spectaculaire l'a ensuite propulsé au sommet de la boxe professionnelle, où il a été champion du monde dans cinq catégories différentes et s'est illustré dans des combats mythiques face à Duran, Hearns et Hagler."
+    },
+    {
+      "id": "11",
+      "question": "Quel boxeur américain a remporté l'or olympique à Barcelone en 1992 avant de devenir champion du monde professionnel dans plusieurs catégories ?",
+      "answers": ["Pernell Whitaker", "Roy Jones Jr.", "Oscar De La Hoya", "Shane Mosley"],
+      "correctIndex": 2,
+      "explanation": "Oscar De La Hoya a remporté l'or en poids légers à Barcelone en 1992, seul titre olympique américain de ces Jeux en boxe. Ce titre a lancé la carrière d'un futur champion dans six catégories professionnelles, de l'une des plus grandes stars commerciales de l'histoire de la boxe mondiale."
+    },
+    {
+      "id": "12",
+      "question": "Quel boxeur américain a été privé de l'or olympique à Séoul en 1988 par une décision de jury restée parmi les plus controversées de l'histoire olympique ?",
+      "answers": ["Pernell Whitaker", "Riddick Bowe", "Meldrick Taylor", "Roy Jones Jr."],
+      "correctIndex": 3,
+      "explanation": "Roy Jones Jr. a dominé sa finale de poids moyens à Séoul 1988 selon quasiment tous les observateurs — touchant son adversaire bien plus souvent que l'inverse — mais s'est vu attribuer la défaite par les juges. Ce cas a entraîné une réforme du système de notation en boxe olympique et reste cité parmi les plus grandes injustices de l'histoire des Jeux."
+    },
+    {
+      "id": "13",
+      "question": "Quel boxeur britannique a remporté l'or olympique en super-lourds à Londres en 2012, sur ses terres, devant son public ?",
+      "answers": ["Tyson Fury", "Joe Joyce", "Anthony Joshua", "David Price"],
+      "correctIndex": 2,
+      "explanation": "Anthony Joshua a été sacré champion olympique en super-lourds à Londres en 2012, devant un public en délire à l'ExCeL Arena. Ce titre à domicile a fortement contribué à son immense notoriété avant sa carrière professionnelle, où il est devenu champion unifié des poids lourds WBA, IBF et WBO."
+    },
+    {
+      "id": "14",
+      "question": "Quel boxeur ukrainien a remporté l'or olympique en super-lourds à Londres en 2012 avant de conquérir les ceintures mondiales professionnelles jusqu'aux poids lourds ?",
+      "answers": ["Vasyl Lomachenko", "Wladimir Klitschko", "Denys Berinchyk", "Oleksandr Usyk"],
+      "correctIndex": 3,
+      "explanation": "Oleksandr Usyk a gagné l'or olympique en super-lourds à Londres en 2012 avant de devenir champion du monde invaincu chez les lourds-légers puis chez les poids lourds, où il a battu Anthony Joshua et Tyson Fury. Son parcours, de l'or olympique aux titres professionnels les plus prestigieux, est l'un des plus accomplis de sa génération."
+    },
+    {
+      "id": "15",
+      "question": "Quel boxeur ukrainien a réalisé un exceptionnel doublé olympique en poids plumes en 2008 à Pékin puis en poids légers en 2012 à Londres ?",
+      "answers": ["Oleksandr Usyk", "Vasyl Lomachenko", "Oleksandr Gvozdyk", "Volodymyr Klychko"],
+      "correctIndex": 1,
+      "explanation": "Vasyl Lomachenko a remporté l'or olympique à Pékin en 2008 en poids plumes, puis à Londres en 2012 en poids légers, deux catégories différentes. Ce doublé confirme son statut de prodige absolu de la boxe amateur — il n'a perdu qu'un seul combat amateur en plus de 400 — avant une carrière professionnelle de tout premier plan."
+    },
+    {
+      "id": "16",
+      "question": "Quelle boxeuse américaine est devenue double championne olympique en remportant l'or à Londres en 2012 puis à Rio en 2016 ?",
+      "answers": ["Katie Taylor", "Nicola Adams", "Claressa Shields", "Amanda Serrano"],
+      "correctIndex": 2,
+      "explanation": "Claressa Shields a remporté l'or en poids moyens à Londres 2012 puis à Rio 2016, devenant la première boxeuse américaine double championne olympique. Elle a ensuite prolongé sa domination chez les professionnelles, devenant championne du monde dans plusieurs catégories et l'une des figures les plus influentes de la boxe féminine mondiale."
+    },
+    {
+      "id": "17",
+      "question": "Quel boxeur britannique a remporté l'or olympique en super-lourds à Sydney en 2000, lors de la première participation de la Grande-Bretagne à ce titre depuis longtemps ?",
+      "answers": ["Audley Harrison", "David Haye", "Danny Williams", "Joe Calzaghe"],
+      "correctIndex": 0,
+      "explanation": "Audley Harrison a remporté l'or olympique en super-lourds à Sydney en 2000, devenant le premier Britannique champion olympique dans cette catégorie. Sa victoire a suscité un immense enthousiasme au Royaume-Uni et lui a valu un contrat professionnel très médiatisé, même si sa carrière pro n'a pas tenu toutes ses promesses."
+    },
+    {
+      "id": "18",
+      "question": "Quelle boxeuse irlandaise a remporté l'or olympique à Londres en 2012 avant de devenir championne du monde professionnelle indiscutable ?",
+      "answers": ["Kellie Harrington", "Nicola Adams", "Michaela Walsh", "Katie Taylor"],
+      "correctIndex": 3,
+      "explanation": "Katie Taylor a remporté l'or olympique en poids légers à Londres en 2012, un titre fondateur pour la boxe féminine irlandaise. Elle a ensuite bâti une carrière professionnelle exceptionnelle, devenant championne du monde unifiée et participant à des combats parmi les plus regardés de l'histoire de la boxe féminine."
+    },
+    {
+      "id": "19",
+      "question": "Quelle boxeuse irlandaise a réalisé un doublé olympique en remportant l'or à Tokyo en 2021 puis à Paris en 2024 ?",
+      "answers": ["Amy Broadhurst", "Katie Taylor", "Kellie Harrington", "Michaela Walsh"],
+      "correctIndex": 2,
+      "explanation": "Kellie Harrington a remporté l'or en poids légers à Tokyo 2021 puis à Paris 2024, réalisant un doublé olympique rare en boxe. Sa régularité au plus haut niveau sur plusieurs cycles olympiques, dans une discipline où les tournois sont très denses et la marge d'erreur minimale, témoigne d'une maîtrise technique et mentale exceptionnelle."
+    },
+    {
+      "id": "20",
+      "question": "Quel boxeur américain a remporté l'argent olympique en super-lourds à Séoul en 1988 avant de devenir champion du monde professionnel des poids lourds ?",
+      "answers": ["Ray Mercer", "Michael Bentt", "Riddick Bowe", "Francesco Damiani"],
+      "correctIndex": 2,
+      "explanation": "Riddick Bowe a remporté l'argent olympique en super-lourds à Séoul en 1988, s'inclinant en finale face au Canadien Lennox Lewis. Il est ensuite devenu champion du monde WBA, WBC et IBF des lourds chez les professionnels, et a disputé une trilogie légendaire face à Evander Holyfield dans les années 1990."
+    }
+  ]
 }
