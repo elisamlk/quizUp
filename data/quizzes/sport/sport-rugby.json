@@ -2,11 +2,8 @@
     "slug": "quiz-sport-vainqueurs-coupe-du-monde-rugby",
     "title": "Quiz Sport - Rugby - Connais-tu les vainqueurs de la Coupe du Monde ?",
     "description": "Teste tes connaissances sur les vainqueurs de la Coupe du Monde de rugby avec 20 questions.",
-    "descriptionSeo": "Revivez les plus grandes victoires de la Coupe du Monde de rugby à travers ce quiz de 20 questions mêlant champions, finales mythiques et records historiques. De la Nouvelle-Zélande à l’Afrique du Sud, en passant par l’Angleterre et l’Australie, testez vos connaissances sur les nations qui ont marqué l’histoire du rugby mondial. Un défi incontournable pour les passionnés de ballon ovale et de grandes compétitions internationales.",
-    "category": {
-        "name": "Sport",
-        "slug": "sport"
-    },
+    "descriptionSeo": "Revivez les plus grandes victoires de la Coupe du Monde de rugby à travers ce quiz de 20 questions mêlant champions, finales mythiques et records historiques. De la Nouvelle-Zélande à l'Afrique du Sud, en passant par l'Angleterre et l'Australie, testez vos connaissances sur les nations qui ont marqué l'histoire du rugby mondial. Un défi incontournable pour les passionnés de ballon ovale et de grandes compétitions internationales.",
+    "category": { "name": "Sport", "slug": "sport" },
     "createdAt": "2026-04-19",
     "isNew": true,
     "isPopular": true,
@@ -18,243 +15,143 @@
     "questions": [
         {
             "id": "1",
-            "question": "Quel pays a remporté la Coupe du Monde de rugby 2023 ?",
-            "answers": [
-                "Nouvelle-Zélande",
-                "Afrique du Sud",
-                "Angleterre",
-                "France"
-            ],
+            "question": "Quel pays a remporté la Coupe du Monde de rugby 2023 en France, battant la Nouvelle-Zélande en finale à Saint-Denis ?",
+            "answers": ["Nouvelle-Zélande", "Afrique du Sud", "Angleterre", "France"],
             "correctIndex": 1,
-            "explanation": "L’Afrique du Sud a remporté la Coupe du Monde 2023 en battant la Nouvelle-Zélande en finale. Ce succès confirme sa domination récente dans le rugby mondial."
+            "explanation": "L'Afrique du Sud a remporté la Coupe du Monde 2023 en battant la Nouvelle-Zélande 12-11 en finale au Stade de France. C'est le quatrième titre mondial des Springboks — un record partagé avec les All Blacks — et le premier disputé en dehors de l'hémisphère sud pour cette équipe."
         },
         {
             "id": "2",
-            "question": "Quelles nations détiennent le record de victoires en Coupe du Monde de rugby ?",
-            "answers": [
-                "Afrique du Sud et Nouvelle-Zélande",
-                "Australie et Angleterre",
-                "Nouvelle-Zélande et Australie",
-                "Afrique du Sud et Australie"
-            ],
+            "question": "Quelles deux nations se partagent le record de victoires en Coupe du Monde de rugby avec quatre titres chacune ?",
+            "answers": ["Afrique du Sud et Nouvelle-Zélande", "Australie et Angleterre", "Nouvelle-Zélande et Australie", "Afrique du Sud et Australie"],
             "correctIndex": 0,
-            "explanation": "L’Afrique du Sud et la Nouvelle-Zélande comptent chacune 4 titres mondiaux. Les Springboks ont gagné en 1995, 2007, 2019 et 2023, tandis que les All Blacks ont triomphé en 1987, 2011, 2015 et 2023."
+            "explanation": "L'Afrique du Sud (1995, 2007, 2019, 2023) et la Nouvelle-Zélande (1987, 2011, 2015) détiennent chacune quatre titres mondiaux — record absolu partagé depuis la victoire des Springboks en 2023. L'Australie suit avec deux titres (1991, 1999), et l'Angleterre en compte un seul (2003)."
         },
         {
             "id": "3",
-            "question": "Quel pays a remporté la première Coupe du Monde de rugby en 1987 ?",
-            "answers": [
-                "Australie",
-                "Angleterre",
-                "Nouvelle-Zélande",
-                "France"
-            ],
-            "correctIndex": 2,
-            "explanation": "La Nouvelle-Zélande a remporté la première édition en 1987 à domicile, posant les bases de sa réputation mondiale."
+            "question": "Quel pays a remporté la toute première Coupe du Monde de rugby en 1987, co-organisée avec l'Australie, en battant la France 29-9 en finale à Auckland ?",
+            "answers": ["Australie", "Angleterre", "France", "Nouvelle-Zélande"],
+            "correctIndex": 3,
+            "explanation": "La Nouvelle-Zélande a remporté la première Coupe du Monde 1987 co-organisée avec l'Australie, s'imposant 29-9 en finale face à la France à Eden Park d'Auckland. David Kirk soulevait le trophée Webb Ellis en tant que capitaine, et Jonah Lomu n'était alors qu'un enfant de 12 ans qui allait bouleverser la compétition huit ans plus tard."
         },
         {
             "id": "4",
-            "question": "Quel pays a remporté la Coupe du Monde 2019 au Japon ?",
-            "answers": [
-                "Angleterre",
-                "Australie",
-                "Nouvelle-Zélande",
-                "Afrique du Sud"
-            ],
+            "question": "Quel pays a remporté la Coupe du Monde 2019 au Japon, en dominant l'Angleterre 32-12 en finale à Yokohama ?",
+            "answers": ["Angleterre", "Australie", "Nouvelle-Zélande", "Afrique du Sud"],
             "correctIndex": 3,
-            "explanation": "L’Afrique du Sud a dominé l’Angleterre en finale 2019 avec une performance physique impressionnante."
+            "explanation": "L'Afrique du Sud a remporté son troisième titre mondial en 2019 au Japon, écrasant l'Angleterre 32-12 en finale à Yokohama. Siya Kolisi fut le premier capitaine noir de l'histoire des Springboks à soulever le trophée Webb Ellis, dans un symbole fort pour l'Afrique du Sud. Les Springboks avaient éliminé le Pays de Galles en demi-finale (19-16) avant de battre l'Angleterre en finale."
         },
         {
             "id": "5",
-            "question": "Quel pays a remporté la Coupe du Monde 2015 ?",
-            "answers": [
-                "Nouvelle-Zélande",
-                "Australie",
-                "Afrique du Sud",
-                "Angleterre"
-            ],
-            "correctIndex": 0,
-            "explanation": "La Nouvelle-Zélande a remporté le tournoi 2015 et est devenue la première nation à conserver son titre."
+            "question": "Quel pays a remporté la Coupe du Monde 2015 en Angleterre, battant l'Australie 34-17 en finale à Twickenham ?",
+            "answers": ["Australie", "Angleterre", "Nouvelle-Zélande", "Afrique du Sud"],
+            "correctIndex": 2,
+            "explanation": "La Nouvelle-Zélande a remporté le Mondial 2015 en battant l'Australie 34-17 en finale à Twickenham, devenant la première nation à conserver son titre. Richie McCaw soulevait la coupe pour la deuxième fois, tandis que Dan Carter réalisait une finale parfaite (19 points) avant de prendre sa retraite internationale."
         },
         {
             "id": "6",
-            "question": "Quelle équipe est la seule de l’hémisphère nord à avoir remporté la Coupe du Monde ?",
-            "answers": [
-                "France",
-                "Angleterre",
-                "Irlande",
-                "Pays de Galles"
-            ],
+            "question": "Quelle équipe européenne est la seule de l'hémisphère nord à avoir remporté la Coupe du Monde de rugby, en 2003 en Australie ?",
+            "answers": ["France", "Angleterre", "Irlande", "Pays de Galles"],
             "correctIndex": 1,
-            "explanation": "L’Angleterre est la seule nation de l’hémisphère nord à avoir remporté la compétition, en 2003."
+            "explanation": "L'Angleterre est la seule nation de l'hémisphère nord à avoir remporté la Coupe du Monde, en 2003 en Australie. La victoire 20-17 en prolongation contre l'Australie à Sydney, grâce au drop décisif de Jonny Wilkinson à la 100e minute, reste l'un des moments les plus mémorables de l'histoire du rugby mondial."
         },
         {
             "id": "7",
-            "question": "Quel pays a remporté la Coupe du Monde 2011 ?",
-            "answers": [
-                "Australie",
-                "France",
-                "Nouvelle-Zélande",
-                "Angleterre"
-            ],
+            "question": "Quel pays a remporté la Coupe du Monde 2011, organisée à domicile dans l'hémisphère sud, dans une finale très serrée (8-7) face à la France ?",
+            "answers": ["France", "Australie", "Nouvelle-Zélande", "Angleterre"],
             "correctIndex": 2,
-            "explanation": "La Nouvelle-Zélande a remporté la finale 2011 face à la France dans un match très serré (8-7)."
+            "explanation": "La Nouvelle-Zélande a remporté la finale 2011 face à la France par 8-7 à Eden Park d'Auckland, dans l'un des matchs les plus tendus de l'histoire de la compétition. Richie McCaw, capitaine, souleva le trophée après vingt-quatre ans d'attente depuis 1987. Ce titre mit fin au mythe d'une « malédiction » pesant sur les All Blacks lors des Coupes du monde."
         },
         {
             "id": "8",
-            "question": "Quel pays a remporté la Coupe du Monde 2007 ?",
-            "answers": [
-                "Angleterre",
-                "Australie",
-                "Nouvelle-Zélande",
-                "Afrique du Sud"
-            ],
-            "correctIndex": 3,
-            "explanation": "L’Afrique du Sud a remporté le titre 2007 en battant l’Angleterre en finale."
+            "question": "Quel pays a remporté la Coupe du Monde 2007 en France, battant l'Angleterre 15-6 en finale au Stade de France ?",
+            "answers": ["Angleterre", "Australie", "Afrique du Sud", "Nouvelle-Zélande"],
+            "correctIndex": 2,
+            "explanation": "L'Afrique du Sud a remporté son deuxième titre mondial en 2007 en France, battant l'Angleterre 15-6 en finale au Stade de France. Percy Montgomery fut l'artisan offensif des Springboks avec 14 points. L'Angleterre, pourtant tenante du titre depuis 2003, avait créé la surprise en éliminant l'Australie et la France en phases finales."
         },
         {
             "id": "9",
-            "question": "Quel pays a remporté la Coupe du Monde 2003 ?",
-            "answers": [
-                "Angleterre",
-                "Australie",
-                "France",
-                "Nouvelle-Zélande"
-            ],
+            "question": "Quel pays a remporté la Coupe du Monde 2003 en Australie, grâce à un drop de Jonny Wilkinson à la 100e minute de la finale ?",
+            "answers": ["Angleterre", "Australie", "France", "Nouvelle-Zélande"],
             "correctIndex": 0,
-            "explanation": "L’Angleterre a remporté la finale grâce à un drop historique de Jonny Wilkinson en prolongation."
+            "explanation": "L'Angleterre a battu l'Australie 20-17 après prolongation en finale du Mondial 2003 à Sydney. Le drop du pied droit de Jonny Wilkinson à la 100e minute reste le geste le plus célèbre de l'histoire du rugby anglais. Clive Woodward entraînait une génération exceptionnelle avec Martin Johnson (capitaine), Lawrence Dallaglio et Jason Robinson."
         },
         {
             "id": "10",
-            "question": "Quel pays a remporté la Coupe du Monde 1999 ?",
-            "answers": [
-                "Afrique du Sud",
-                "France",
-                "Australie",
-                "Angleterre"
-            ],
-            "correctIndex": 2,
-            "explanation": "L’Australie a remporté son deuxième titre en 1999 en dominant la France en finale."
+            "question": "Quelle nation a été battue en finale de la Coupe du Monde 1995 par les Springboks à Ellis Park de Johannesburg, sur le score de 15-12 après prolongation ?",
+            "answers": ["France", "Angleterre", "Australie", "Nouvelle-Zélande"],
+            "correctIndex": 3,
+            "explanation": "La Nouvelle-Zélande a perdu la finale 1995 face à l'Afrique du Sud 12-15 après prolongation à Ellis Park de Johannesburg. Joel Stransky inscrivit le drop décisif pour les Springboks. Jonah Lomu, 20 ans, avait pourtant été dévastateur en demi-finale contre l'Angleterre (4 essais), mais fut muselé par une grippe et la défense sud-africaine en finale."
         },
         {
             "id": "11",
-            "question": "Quel pays a remporté la Coupe du Monde 1995 en Afrique du Sud ?",
-            "answers": [
-                "Nouvelle-Zélande",
-                "Afrique du Sud",
-                "Australie",
-                "Angleterre"
-            ],
+            "question": "Quel pays hôte a remporté la Coupe du Monde 1995, dans un contexte politique historique, un an seulement après la fin de l'apartheid ?",
+            "answers": ["Nouvelle-Zélande", "Afrique du Sud", "Australie", "Angleterre"],
             "correctIndex": 1,
-            "explanation": "L’Afrique du Sud a remporté le tournoi à domicile, un moment symbolique dans l’histoire du pays après l’apartheid."
+            "explanation": "L'Afrique du Sud a remporté son premier titre mondial en 1995 sur ses terres, un an après la fin de l'apartheid. Nelson Mandela, en jersey des Springboks numéro 6, remit le trophée au capitaine François Pienaar — image devenue l'une des plus emblématiques du sport mondial et célébrée dans le film Invictus (2009) de Clint Eastwood."
         },
         {
             "id": "12",
-            "question": "Quel pays a remporté la Coupe du Monde 1991 ?",
-            "answers": [
-                "Angleterre",
-                "Nouvelle-Zélande",
-                "Australie",
-                "France"
-            ],
+            "question": "Quel pays a remporté la première Coupe du Monde de son histoire en 1991, battant l'Angleterre en finale à Twickenham ?",
+            "answers": ["Angleterre", "Nouvelle-Zélande", "Australie", "France"],
             "correctIndex": 2,
-            "explanation": "L’Australie a remporté son premier titre en 1991 en battant l’Angleterre en finale."
+            "explanation": "L'Australie a remporté son premier titre mondial en 1991 en battant l'Angleterre 12-6 en finale à Twickenham. Nick Farr-Jones était capitaine et Bob Dwyer entraîneur des Wallabies. David Campese, ailier de génie, avait illuminé le parcours australien avec plusieurs essais spectaculaires, dont un décisif en demi-finale contre la Nouvelle-Zélande."
         },
         {
             "id": "13",
-            "question": "Combien de pays différents ont remporté la Coupe du Monde de rugby ?",
-            "answers": [
-                "3",
-                "4",
-                "5",
-                "6"
-            ],
+            "question": "Combien de nations différentes ont remporté la Coupe du Monde de rugby depuis sa création en 1987 ?",
+            "answers": ["3", "4", "5", "6"],
             "correctIndex": 1,
-            "explanation": "Quatre nations ont remporté la Coupe du Monde : Nouvelle-Zélande, Afrique du Sud, Australie et Angleterre."
+            "explanation": "Quatre nations ont remporté la Coupe du Monde depuis 1987 : la Nouvelle-Zélande (1987, 2011, 2015), l'Afrique du Sud (1995, 2007, 2019, 2023), l'Australie (1991, 1999) et l'Angleterre (2003). La France, finaliste à trois reprises (1987, 1999, 2011), reste la nation la plus capée sans titre."
         },
         {
             "id": "14",
-            "question": "Quel pays a remporté deux Coupes du Monde consécutives (2011 et 2015) ?",
-            "answers": [
-                "Afrique du Sud",
-                "Australie",
-                "Nouvelle-Zélande",
-                "Angleterre"
-            ],
-            "correctIndex": 2,
-            "explanation": "La Nouvelle-Zélande est la première nation à avoir conservé son titre avec les victoires de 2011 et 2015."
+            "question": "Quel pays est devenu en 2015 la première nation de l'histoire à conserver son titre mondial de rugby lors de deux éditions consécutives ?",
+            "answers": ["Afrique du Sud", "Nouvelle-Zélande", "Australie", "Angleterre"],
+            "correctIndex": 1,
+            "explanation": "La Nouvelle-Zélande est devenue en 2015 la première nation à conserver un titre mondial de rugby, après ses victoires en 2011 (en Nouvelle-Zélande, 8-7 contre la France) et 2015 (en Angleterre, 34-17 contre l'Australie). Richie McCaw est le seul capitaine à avoir soulevé le trophée Webb Ellis à deux reprises."
         },
         {
             "id": "15",
-            "question": "Quel pays a été finaliste mais n’a jamais remporté la Coupe du Monde ?",
-            "answers": [
-                "France",
-                "Angleterre",
-                "Afrique du Sud",
-                "Australie"
-            ],
+            "question": "Quel pays détient le triste record d'avoir disputé le plus de finales de Coupe du Monde sans jamais remporter le titre, avec trois finales perdues ?",
+            "answers": ["France", "Angleterre", "Afrique du Sud", "Australie"],
             "correctIndex": 0,
-            "explanation": "La France a atteint la finale à trois reprises (1987, 1999, 2011) sans jamais remporter le trophée."
+            "explanation": "La France a atteint la finale à trois reprises — en 1987 (perdue 9-29 face aux All Blacks), en 1999 (perdue 12-35 face à l'Australie) et en 2011 (perdue 7-8 face aux All Blacks) — sans jamais décrocher le titre. Les Bleus ont souvent produit des parcours brillants mais n'ont jamais franchi le dernier obstacle dans une compétition qui leur résiste."
         },
         {
             "id": "16",
-            "question": "Quel pays a remporté la Coupe du Monde 1999 en battant la France en finale ?",
-            "answers": [
-                "Nouvelle-Zélande",
-                "Angleterre",
-                "Australie",
-                "Afrique du Sud"
-            ],
-            "correctIndex": 2,
-            "explanation": "L’Australie a largement battu la France en finale 1999 pour remporter son deuxième titre mondial."
+            "question": "Quel pays a remporté la Coupe du Monde 1999, organisée au pays de Galles, en battant la France 35-12 en finale au Millennium Stadium de Cardiff ?",
+            "answers": ["Australie", "Nouvelle-Zélande", "Angleterre", "Afrique du Sud"],
+            "correctIndex": 0,
+            "explanation": "L'Australie a remporté son deuxième titre mondial en 1999 en battant la France 35-12 en finale au Millennium Stadium de Cardiff. Matt Burke inscrivit 25 points pour les Wallabies (2 essais, 2 transformations, 3 pénalités). Ce Mondial fut le premier à se tenir sur plusieurs pays (Angleterre, Écosse, Irlande, France, pays de Galles) et vit la France réaliser une demi-finale mythique contre les All Blacks (43-31)."
         },
         {
             "id": "17",
-            "question": "Quel continent domine largement le palmarès de la Coupe du Monde de rugby ?",
-            "answers": [
-                "Europe",
-                "Afrique",
-                "Océanie",
-                "Amérique"
-            ],
-            "correctIndex": 2,
-            "explanation": "Les nations de l’hémisphère sud (Nouvelle-Zélande, Australie, Afrique du Sud) dominent largement la compétition."
+            "question": "Quel groupe de nations domine le palmarès de la Coupe du Monde depuis 1987, remportant neuf des dix éditions disputées ?",
+            "answers": ["Hémisphère sud", "Europe", "Amérique", "Asie"],
+            "correctIndex": 0,
+            "explanation": "Les nations de l'hémisphère sud dominent la Coupe du Monde en remportant neuf des dix éditions disputées : la Nouvelle-Zélande (1987, 2011, 2015), l'Afrique du Sud (1995, 2007, 2019, 2023) et l'Australie (1991, 1999). Seule l'Angleterre (2003) a brisé cette hégémonie depuis la création de la compétition, confirmant l'avance structurelle du rugby de l'hémisphère sud sur ses concurrents."
         },
         {
             "id": "18",
-            "question": "Quelle équipe a remporté la Coupe du Monde sans perdre un seul match en 2015 ?",
-            "answers": [
-                "Australie",
-                "Nouvelle-Zélande",
-                "Angleterre",
-                "Afrique du Sud"
-            ],
-            "correctIndex": 1,
-            "explanation": "La Nouvelle-Zélande a réalisé un tournoi parfait en 2015, confirmant sa domination mondiale."
+            "question": "Quelle équipe a remporté la Coupe du Monde 2015 sans perdre le moindre match, en s'imposant dans ses six rencontres dont la finale à Twickenham ?",
+            "answers": ["Australie", "Angleterre", "Afrique du Sud", "Nouvelle-Zélande"],
+            "correctIndex": 3,
+            "explanation": "La Nouvelle-Zélande a réalisé un tournoi parfait en 2015, remportant ses six rencontres dont la finale 34-17 contre l'Australie à Twickenham. Dan Carter réalisa une finale majestueuse (19 points, 2 drops, 3 pénalités), parachevant une Coupe du monde à son niveau exceptionnel. Les All Blacks inscrivirent 310 points en six matchs, soit plus de 51 points de moyenne par rencontre."
         },
         {
             "id": "19",
-            "question": "Quelle nation a été battue par la Nouvelle-Zélande en finale de la Coupe du Monde 1987 ?",
-            "answers": [
-                "Australie",
-                "Angleterre",
-                "France",
-                "Afrique du Sud"
-            ],
+            "question": "Quelle nation a affronté la Nouvelle-Zélande en finale de la première Coupe du Monde 1987, en s'inclinant 9-29 à Eden Park d'Auckland ?",
+            "answers": ["Australie", "Angleterre", "France", "Afrique du Sud"],
             "correctIndex": 2,
-            "explanation": "La Nouvelle-Zélande a battu la France en finale de la première Coupe du Monde (1987). Les Bleus avaient réalisé un parcours remarquable mais ont été dominés en finale."
+            "explanation": "La France a perdu la finale de la première Coupe du Monde 1987 face aux All Blacks 9-29 à Auckland. Les Bleus avaient réalisé un parcours remarquable, notamment une demi-finale épique contre l'Australie conclue 30-24. Serge Blanco, Philippe Sella et Didier Camberabero incarnèrent ce XV de France des années 1980, l'un des plus brillants de l'histoire."
         },
         {
             "id": "20",
-            "question": "Quel adversaire l’Afrique du Sud a-t-elle battu en finale de la Coupe du Monde 2007 ?",
-            "answers": [
-                "Australie",
-                "Nouvelle-Zélande",
-                "France",
-                "Angleterre"
-            ],
+            "question": "Quel pays l'Afrique du Sud a-t-elle battu en finale de la Coupe du Monde 2007 en France, sur le score sans appel de 15-6 ?",
+            "answers": ["Australie", "Nouvelle-Zélande", "France", "Angleterre"],
             "correctIndex": 3,
-            "explanation": "L’Afrique du Sud a battu l’Angleterre 15-6 en finale de la Coupe du Monde 2007. Ce match a été très fermé, marqué par la domination physique sud-africaine."
+            "explanation": "L'Afrique du Sud a battu l'Angleterre 15-6 en finale du Mondial 2007 au Stade de France. La domination physique des Springboks fut totale : Bryan Habana finit meilleur essayeur du tournoi avec 8 essais, égalant le record de Jonah Lomu en 1999. John Smit capitainait une équipe qui n'encaissa que 46 points sur l'ensemble de la compétition."
         }
     ]
 }

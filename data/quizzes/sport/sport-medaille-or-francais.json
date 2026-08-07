@@ -1,8 +1,8 @@
 {
   "slug": "quiz-sport-medailles-or-francais-jo",
-  "title": "Quiz Sport - Jeux Olympiques - Connais-tu les médaillés d’or français ?",
+  "title": "Quiz Sport - Jeux Olympiques - Connais-tu les médaillés d'or français ?",
   "description": "Teste tes connaissances sur les champions olympiques français avec 20 questions.",
-  "descriptionSeo": "De Teddy Riner à Martin Fourcade, en passant par Marie-José Pérec, Tony Estanguet, Alain Bernard ou Clarisse Agbégnénou, les champions olympiques français ont marqué l’histoire des Jeux. Ce quiz de 20 questions te propose de retrouver les médaillés d’or tricolores les plus emblématiques, entre exploits individuels, titres historiques, disciplines variées et grands moments du sport français aux Jeux Olympiques d’été comme d’hiver.",
+  "descriptionSeo": "De Teddy Riner à Martin Fourcade, en passant par Marie-José Pérec, Tony Estanguet, Alain Bernard ou Clarisse Agbégnénou, les champions olympiques français ont marqué l'histoire des Jeux. Ce quiz de 20 questions te propose de retrouver les médaillés d'or tricolores les plus emblématiques, entre exploits individuels, titres historiques, disciplines variées et grands moments du sport français aux Jeux Olympiques d'été comme d'hiver.",
   "category": {
     "name": "Sport",
     "slug": "sport"
@@ -13,148 +13,248 @@
   "images": {
     "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776416232/cover_qppt9r.jpg",
     "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776416232/cover_qppt9r.jpg",
-    "alt": "Quiz médaillés d’or français Jeux Olympiques"
+    "alt": "Quiz médaillés d'or français Jeux Olympiques"
   },
   "questions": [
-  {
-  "id": "1",
-  "question": "Quel judoka français a remporté l’or olympique individuel en 2012 et 2016 ?",
-  "answers": ["David Douillet", "Clarisse Agbégnénou", "Teddy Riner", "Romane Dicko"],
-  "correctIndex": 2,
-  "explanation": "Teddy Riner a remporté deux titres olympiques individuels en 2012 et 2016. Il a également gagné l’or par équipes mixtes en 2024, ce qui renforce encore son statut de légende du judo."
-},
+    {
+      "id": "1",
+      "question": "Quel judoka français a remporté l'or olympique individuel en 2012 et 2016 avant de compléter son palmarès par un titre par équipes en 2024 ?",
+      "answers": [
+        "David Douillet",
+        "Clarisse Agbégnénou",
+        "Teddy Riner",
+        "Romane Dicko"
+      ],
+      "correctIndex": 2,
+      "explanation": "Teddy Riner a remporté l'or olympique individuel à Londres en 2012 et à Rio en 2016, puis a ajouté un titre par équipes mixtes à Paris 2024. Champion du monde à onze reprises, il est considéré comme le plus grand judoka de l'histoire et l'un des plus grands sportifs français de tous les temps."
+    },
     {
       "id": "2",
-      "question": "Quel biathlète français a remporté cinq titres olympiques ?",
-      "answers": ["Raphaël Poirée", "Martin Fourcade", "Vincent Jay", "Quentin Fillon Maillet"],
+      "question": "Quel biathlète français a remporté cinq titres olympiques, dont trois lors des seuls Jeux de Sotchi 2014 ?",
+      "answers": [
+        "Raphaël Poirée",
+        "Martin Fourcade",
+        "Vincent Jay",
+        "Quentin Fillon Maillet"
+      ],
       "correctIndex": 1,
-      "explanation": "Martin Fourcade est devenu une référence absolue du biathlon mondial grâce à sa capacité à combiner vitesse sur les skis, précision au tir et régularité mentale. Ses cinq titres ont profondément changé la place du biathlon dans le sport français."
+      "explanation": "Martin Fourcade a remporté cinq titres olympiques : l'individuel, la poursuite et le mass start à Sotchi 2014, puis la poursuite et le mass start à PyeongChang 2018. Cette domination sans équivalent dans le biathlon mondial a profondément changé la place de cette discipline dans le sport français."
     },
     {
       "id": "3",
-      "question": "Quelle athlète française a remporté le 400 m aux JO d’Atlanta 1996 ?",
-      "answers": ["Marie-José Pérec", "Christine Arron", "Muriel Hurtis", "Patricia Girard"],
+      "question": "Quelle athlète française a réalisé le doublé 200 m – 400 m aux JO d'Atlanta 1996, dont elle remporta les deux titres ?",
+      "answers": [
+        "Marie-José Pérec",
+        "Christine Arron",
+        "Muriel Hurtis",
+        "Patricia Girard"
+      ],
       "correctIndex": 0,
-      "explanation": "Marie-José Pérec a non seulement gagné le 400 m, mais elle a aussi réussi le doublé 200 m - 400 m à Atlanta. Cela reste l’un des plus grands exploits français en athlétisme olympique."
+      "explanation": "Marie-José Pérec a réussi à Atlanta 1996 l'un des plus grands exploits de l'histoire de l'athlétisme français : remporter le 200 m et le 400 m lors des mêmes Jeux. Elle s'était auparavant titrée sur 400 m à Barcelone 1992, faisant d'elle la première femme à conserver son titre olympique sur la distance."
     },
     {
       "id": "4",
       "question": "Quel nageur français a remporté le 50 m nage libre aux JO de Londres 2012 ?",
-      "answers": ["Yannick Agnel", "Frédérick Bousquet", "Alain Bernard", "Florent Manaudou"],
+      "answers": [
+        "Yannick Agnel",
+        "Frédérick Bousquet",
+        "Alain Bernard",
+        "Florent Manaudou"
+      ],
       "correctIndex": 3,
-      "explanation": "Florent Manaudou avait abordé ses premiers Jeux sans être le favori absolu de l’épreuve. Son titre sur 50 m a illustré la profondeur nouvelle de la natation française au plus haut niveau."
+      "explanation": "Florent Manaudou s'imposa sur 50 m nage libre aux JO de Londres 2012, dans un sprint final saisissant. Fils d'un ancien nageur international et frère de Laure Manaudou, il incarna une nouvelle génération de sprinteurs français en apposant son nom au palmarès olympique de la discipline la plus courte de la natation."
     },
     {
       "id": "5",
-      "question": "Quel canoéiste français est triple champion olympique en C1 slalom ?",
-      "answers": ["Fabien Lefèvre", "Denis Gargaud", "Tony Estanguet", "Benoît Peschier"],
+      "question": "Quel canoéiste français est triple champion olympique en C1 slalom, ayant remporté l'or en 2000, 2004 et 2012 ?",
+      "answers": [
+        "Fabien Lefèvre",
+        "Denis Gargaud",
+        "Tony Estanguet",
+        "Benoît Peschier"
+      ],
       "correctIndex": 2,
-      "explanation": "Tony Estanguet a gagné en 2000, 2004 et 2012 dans la même discipline. Cette régularité est exceptionnelle dans un sport où la moindre erreur de trajectoire peut coûter tout espoir de médaille."
+      "explanation": "Tony Estanguet a remporté l'or en C1 slalom aux JO de Sydney 2000, Athènes 2004 et Londres 2012, devenant l'athlète français le plus titré de l'histoire des JO d'été avec trois titres dans la même discipline. Il est également devenu président du Comité d'organisation des Jeux Olympiques et Paralympiques de Paris 2024 (COJOP), contribuant à l'organisation des Jeux à domicile."
     },
     {
       "id": "6",
-      "question": "Quel skieur français a remporté l’or en bosses aux JO d’Albertville 1992 ?",
-      "answers": ["Jean-Frédéric Chapuis", "Edgar Grospiron", "Alexis Pinturault", "Sébastien Foucras"],
+      "question": "Quel skieur français a remporté l'or en bosses lors de leur première apparition aux JO d'Albertville 1992 ?",
+      "answers": [
+        "Jean-Frédéric Chapuis",
+        "Edgar Grospiron",
+        "Alexis Pinturault",
+        "Sébastien Foucras"
+      ],
       "correctIndex": 1,
-      "explanation": "Edgar Grospiron a été sacré lors de l’entrée officielle des bosses au programme olympique. Son titre a contribué à donner une forte visibilité au ski freestyle en France dès ses débuts olympiques."
+      "explanation": "Edgar Grospiron fut sacré champion olympique lors de la toute première épreuve de bosses au programme officiel, aux Jeux d'Albertville 1992. Son style percutant et son tempérament de compétiteur lui permirent de s'imposer sur sa piste d'entraînement habituelle, devant un public français enthousiaste."
     },
     {
       "id": "7",
-      "question": "Quelle judoka française a remporté l’or individuel à Tokyo 2020 ?",
-      "answers": ["Clarisse Agbégnénou", "Gévrise Émane", "Audrey Tcheuméo", "Automne Pavia"],
+      "question": "Quelle judoka française a remporté l'or individuel à Tokyo en 2021, après l'argent décroché à Rio 2016 ?",
+      "answers": [
+        "Clarisse Agbégnénou",
+        "Gévrise Émane",
+        "Audrey Tcheuméo",
+        "Automne Pavia"
+      ],
       "correctIndex": 0,
-      "explanation": "Clarisse Agbégnénou a longtemps dominé le judo mondial avant d’obtenir enfin l’or olympique individuel. Cette médaille a eu une valeur particulière, car elle venait effacer la frustration de l’argent de Rio 2016."
+      "explanation": "Clarisse Agbégnénou a remporté l'or olympique individuel à Tokyo 2021 dans la catégorie des moins de 63 kg, après avoir décroché l'argent à Rio 2016. Six fois championne du monde, elle est l'une des personnalités les plus marquantes du judo français contemporain et de l'olympisme tricolore."
     },
     {
       "id": "8",
-      "question": "Quel judoka français a été champion olympique des lourds en 1996 puis en 2000 ?",
-      "answers": ["Teddy Riner", "Angelo Parisi", "Djamel Bouras", "David Douillet"],
+      "question": "Quel judoka français a été champion olympique des lourds en 1996 à Atlanta, puis a confirmé en 2000 à Sydney ?",
+      "answers": [
+        "Teddy Riner",
+        "Angelo Parisi",
+        "Djamel Bouras",
+        "David Douillet"
+      ],
       "correctIndex": 3,
-      "explanation": "David Douillet a été l’une des grandes figures du judo français de la fin des années 1990. Remporter deux titres olympiques chez les lourds exigeait alors une combinaison rare de puissance, d’expérience et de maîtrise tactique."
+      "explanation": "David Douillet a remporté l'or olympique chez les lourds (plus de 100 kg) à Atlanta 1996 et à Sydney 2000. Double champion du monde, il est l'un des judokas masculins les plus titrés de l'histoire française et a largement contribué à faire du judo l'une des disciplines phares du sport tricolore."
     },
     {
       "id": "9",
-      "question": "Quelle championne française a remporté l’or en BMX aux JO de Pékin 2008 ?",
-      "answers": ["Laëtitia Le Corguillé", "Marion Rousse", "Anne-Caroline Chausson", "Julie Bresset"],
+      "question": "Quelle championne française est devenue en 2008 à Pékin la première médaillée d'or olympique de l'histoire du BMX féminin ?",
+      "answers": [
+        "Laëtitia Le Corguillé",
+        "Marion Rousse",
+        "Anne-Caroline Chausson",
+        "Julie Bresset"
+      ],
       "correctIndex": 2,
-      "explanation": "Anne-Caroline Chausson est devenue la première championne olympique de l’histoire du BMX féminin. Son titre a donné à la France une place immédiate dans l’histoire olympique de cette discipline nouvelle."
+      "explanation": "Anne-Caroline Chausson s'est imposée à Pékin 2008 lors de la toute première épreuve olympique de BMX féminin, s'octroyant ainsi une place permanente dans l'histoire du cyclisme olympique. Ancienne championne du monde de VTT descente, elle s'était reconvertie au BMX avec une réussite immédiate au plus haut niveau."
     },
     {
       "id": "10",
-      "question": "Quel handballeur français a été champion olympique en 2008, 2012 et 2021 ?",
-      "answers": ["Thierry Omeyer", "Nikola Karabatic", "Daniel Narcisse", "Jackson Richardson"],
+      "question": "Quel handballeur français a été champion olympique en 2008, 2012 et 2021, devenant l'un des plus grands joueurs de l'histoire de ce sport ?",
+      "answers": [
+        "Thierry Omeyer",
+        "Nikola Karabatic",
+        "Daniel Narcisse",
+        "Jackson Richardson"
+      ],
       "correctIndex": 1,
-      "explanation": "Nikola Karabatic incarne la domination durable du handball français. Être titré sur trois olympiades différentes montre une capacité rare à rester décisif malgré les changements de génération."
+      "explanation": "Nikola Karabatic a remporté trois titres olympiques avec les Bleus : à Pékin 2008, Londres 2012 et Tokyo 2021. Élu meilleur joueur du monde à plusieurs reprises par l'IHF, il est l'un des handballeurs les plus décorés de sa génération. Il a également contribué aux titres de champion du monde de l'équipe de France en 2009, 2011, 2015 et 2017."
     },
     {
       "id": "11",
-      "question": "Quel perchiste français a remporté l’or aux JO d’Atlanta 1996 ?",
-      "answers": ["Jean Galfione", "Renaud Lavillenie", "Thierry Vigneron", "Pierre Quinon"],
+      "question": "Quel perchiste français a remporté l'or aux JO d'Atlanta 1996, prolongeant une grande tradition française dans cette discipline ?",
+      "answers": [
+        "Jean Galfione",
+        "Renaud Lavillenie",
+        "Thierry Vigneron",
+        "Pierre Quinon"
+      ],
       "correctIndex": 0,
-      "explanation": "Jean Galfione a offert à la France un titre rare dans une discipline très technique et très concurrentielle. Son sacre prolonge aussi une vraie tradition française dans le saut à la perche."
+      "explanation": "Jean Galfione s'est imposé au saut à la perche à Atlanta 1996, s'inscrivant dans la grande tradition française de cette discipline (après Pierre Quinon en 1984). Son sacre dans cette épreuve très technique, face à une concurrence internationale de haute qualité, illustre la profondeur du saut à la perche tricolore."
     },
     {
       "id": "12",
-      "question": "Quel nageur français a remporté le 200 m nage libre aux JO de Londres 2012 ?",
-      "answers": ["Camille Lacourt", "Alain Bernard", "Yannick Agnel", "Jérémy Stravius"],
+      "question": "Quel perchiste français a remporté l'or aux JO de Londres 2012, effaçant le record du monde d'une discipline qu'il a dominée pendant une décennie ?",
+      "answers": [
+        "Jean Galfione",
+        "Thierry Vigneron",
+        "Renaud Lavillenie",
+        "Pierre Quinon"
+      ],
       "correctIndex": 2,
-      "explanation": "Yannick Agnel a gagné le 200 m après avoir déjà été titré en relais, ce qui lui a permis de marquer fortement les Jeux de Londres. Son aisance sur le demi-fond a alors placé la France parmi les grandes nations de la piscine."
+      "explanation": "Renaud Lavillenie a remporté l'or olympique à Londres 2012, avant d'améliorer en 2014 le record du monde en salle avec un saut à 6,16 m, dépassant le mythique record de Sergueï Bubka établi en 1994. Meilleur perchiste de sa génération, il a dominé la discipline pendant une décennie et représenté la France dans quatre éditions des Jeux olympiques."
     },
     {
       "id": "13",
       "question": "Quelle nageuse française a remporté le 400 m nage libre aux JO de Londres 2012 ?",
-      "answers": ["Coralie Balmy", "Laure Manaudou", "Charlotte Bonnet", "Camille Muffat"],
+      "answers": [
+        "Coralie Balmy",
+        "Laure Manaudou",
+        "Charlotte Bonnet",
+        "Camille Muffat"
+      ],
       "correctIndex": 3,
-      "explanation": "Camille Muffat a remporté l’un des titres les plus marquants de l’histoire de la natation française. Son succès à Londres symbolise aussi l’un des sommets collectifs de la natation tricolore."
+      "explanation": "Camille Muffat a remporté l'or sur 400 m nage libre à Londres 2012, ajoutant deux autres médailles (argent sur 200 m NL, bronze sur 800 m NL) pour signer l'un des meilleurs Jeux de l'histoire de la natation française féminine. Sa disparition tragique en 2015 lors d'un tournage au Venezuela a profondément ému le monde sportif."
     },
     {
       "id": "14",
-      "question": "Quel escrimeur français a remporté l’or en épée individuelle à Tokyo 2020 ?",
-      "answers": ["Enzo Lefort", "Romain Cannone", "Yannick Borel", "Erwann Le Péchoux"],
+      "question": "Quel escrimeur français a remporté l'or en épée individuelle à Tokyo 2021 lors de sa première participation olympique ?",
+      "answers": [
+        "Enzo Lefort",
+        "Romain Cannone",
+        "Yannick Borel",
+        "Erwann Le Péchoux"
+      ],
       "correctIndex": 1,
-      "explanation": "Romain Cannone a créé la surprise en allant chercher l’or pour sa première participation olympique. Son titre rappelle que l’escrime française reste capable de produire des champions majeurs au moment le plus exigeant."
+      "explanation": "Romain Cannone a créé la surprise à Tokyo 2021 en remportant l'or en épée individuelle lors de sa toute première participation olympique, battant notamment des escrimeurs bien plus expérimentés. Son sacre rappelle que l'escrime française, nation pionnière, reste capable de produire des champions inattendus dans les grands rendez-vous."
     },
     {
       "id": "15",
-      "question": "Quel Français a remporté l’or en combiné nordique à Albertville 1992 ?",
-      "answers": ["Fabrice Guy", "Jason Lamy-Chappuis", "Sylvain Guillaume", "François Braud"],
+      "question": "Quel Français a remporté l'or en combiné nordique à Albertville 1992, dans une discipline qui réunit saut et ski de fond ?",
+      "answers": [
+        "Fabrice Guy",
+        "Jason Lamy-Chappuis",
+        "Sylvain Guillaume",
+        "François Braud"
+      ],
       "correctIndex": 0,
-      "explanation": "Fabrice Guy a gagné à domicile lors des Jeux d’Albertville, dans une discipline très exigeante qui combine saut et ski de fond. Ce type de titre a une place particulière dans la mémoire sportive française, car il est aussi lié à l’effet Jeux à domicile."
+      "explanation": "Fabrice Guy a été sacré champion olympique de combiné nordique aux Jeux d'Albertville 1992, lors d'une édition organisée en France qui lui conféra une pression supplémentaire. Sa victoire devant le public français reste l'un des moments les plus émouvants de ces Jeux à domicile, dans une discipline historiquement dominée par les nations nordiques."
     },
     {
       "id": "16",
-      "question": "Quel boxeur français a remporté l’or chez les super-lourds aux JO de Rio 2016 ?",
-      "answers": ["Souleymane Cissokho", "Alexis Vastine", "Tony Yoka", "Mourad Aliev"],
+      "question": "Quel boxeur français a remporté l'or chez les super-lourds aux JO de Rio 2016 ?",
+      "answers": [
+        "Souleymane Cissokho",
+        "Alexis Vastine",
+        "Tony Yoka",
+        "Mourad Aliev"
+      ],
       "correctIndex": 2,
-      "explanation": "Tony Yoka est devenu l’un des rares champions olympiques français en boxe. Un titre chez les super-lourds a toujours une résonance particulière, car cette catégorie reste l’une des plus exposées et symboliques du noble art."
+      "explanation": "Tony Yoka est devenu champion olympique des super-lourds (plus de 91 kg) à Rio 2016, devenant l'un des rares Français à s'imposer dans cette catégorie symbolique de la boxe amateur. Sa victoire en finale face au Britannique Joe Joyce fut acquise aux points après un combat de haute intensité. Il est ensuite passé boxeur professionnel."
     },
     {
       "id": "17",
-      "question": "Quelle escrimeuse française a remporté deux titres olympiques en épée lors des JO d’Atlanta 1996 ?",
-      "answers": ["Sophie Moressée-Pichot", "Maureen Nisima", "Valérie Barlois", "Laura Flessel"],
+      "question": "Quelle escrimeuse française a remporté deux titres olympiques en épée à Atlanta 1996, en individuel et par équipes ?",
+      "answers": [
+        "Sophie Moressée-Pichot",
+        "Maureen Nisima",
+        "Valérie Barlois",
+        "Laura Flessel"
+      ],
       "correctIndex": 3,
-      "explanation": "Laura Flessel a été titrée à la fois en individuel et par équipes à Atlanta. Cette double réussite a contribué à faire d’elle l’un des plus grands visages de l’escrime française moderne."
+      "explanation": "Laura Flessel a réalisé un doublé historique à Atlanta 1996, remportant l'or en épée individuelle puis en équipes aux côtés de Valérie Barlois et Sophie Moressée-Pichot. Surnommée 'La Guêpe', elle est devenue l'une des plus grandes ambassadrices de l'escrime française et du sport guadeloupéen. Elle a ensuite exercé la fonction de ministre des Sports de 2017 à 2018."
     },
     {
       "id": "18",
-      "question": "Quel Français a remporté l’or en combiné nordique aux JO de Vancouver 2010 ?",
-      "answers": ["Fabrice Guy", "Jason Lamy-Chappuis", "Maxime Laheurte", "François Braud"],
+      "question": "Quel Français a remporté l'or en combiné nordique aux JO de Vancouver 2010, prolongeant la tradition ouverte par Fabrice Guy ?",
+      "answers": [
+        "Fabrice Guy",
+        "Jason Lamy-Chappuis",
+        "Maxime Laheurte",
+        "François Braud"
+      ],
       "correctIndex": 1,
-      "explanation": "Jason Lamy-Chappuis a prolongé la tradition française en combiné nordique ouverte par Fabrice Guy. Son titre à Vancouver a montré que la France savait exister durablement dans une discipline historiquement dominée par les pays nordiques."
+      "explanation": "Jason Lamy-Chappuis a remporté l'or olympique en combiné nordique à Vancouver 2010, s'inscrivant dans la continuité de Fabrice Guy (1992). Son titre a montré que la France savait exister durablement dans une discipline historiquement dominée par l'Autriche, la Finlande et la Norvège."
     },
     {
       "id": "19",
-      "question": "Quelle boxeuse française est devenue championne olympique à Rio 2016 ?",
-      "answers": ["Estelle Mossely", "Sarah Ourahmoune", "Davina Michel", "Sofia Asghar"],
+      "question": "Quelle boxeuse française est devenue la première championne olympique de l'histoire de la boxe féminine française à Rio 2016 ?",
+      "answers": [
+        "Estelle Mossely",
+        "Sarah Ourahmoune",
+        "Davina Michel",
+        "Sofia Asghar"
+      ],
       "correctIndex": 0,
-      "explanation": "Estelle Mossely est devenue la première championne olympique française en boxe féminine. Son titre a marqué une étape importante dans la reconnaissance de la boxe féminine en France."
+      "explanation": "Estelle Mossely a remporté l'or en boxe légère à Rio 2016, devenant la première Française sacrée aux Jeux olympiques dans une discipline féminine introduite au programme en 2012. Son titre a marqué une étape importante dans la reconnaissance de la boxe féminine en France et renforcé la visibilité de cette discipline au niveau national."
     },
     {
       "id": "20",
-      "question": "Quel nageur français a remporté le 100 m nage libre aux JO de Pékin 2008 ?",
-      "answers": ["Florent Manaudou", "Amaury Leveaux", "Frédérick Bousquet", "Alain Bernard"],
+      "question": "Quel nageur français a remporté le 100 m nage libre aux JO de Pékin 2008, dans l'épreuve reine du sprint en natation ?",
+      "answers": [
+        "Florent Manaudou",
+        "Amaury Leveaux",
+        "Frédérick Bousquet",
+        "Alain Bernard"
+      ],
       "correctIndex": 3,
-      "explanation": "Alain Bernard a gagné l’épreuve reine du sprint en natation, souvent comparée au 100 m en athlétisme pour son prestige. Ce titre a eu un énorme retentissement dans le sport français, car il validait enfin le potentiel de toute une génération."
+      "explanation": "Alain Bernard a remporté le 100 m nage libre à Pékin 2008, épreuve souvent comparée au 100 m en athlétisme pour son prestige. Il avait amélioré le record du monde dans l'épreuve quelques semaines plus tôt lors des championnats d'Europe. Ce titre a eu un fort retentissement en France, validant le potentiel d'une génération de sprinteurs tricolores."
     }
   ]
 }

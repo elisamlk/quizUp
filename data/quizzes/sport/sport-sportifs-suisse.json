@@ -4,10 +4,7 @@
   "description": "Federer, Schneider, Cancellara, Ammann, Koblet... Sauras-tu reconnaître les plus grands champions de l'histoire sportive suisse ?",
   "publishedAt": "2026-07-10",
   "descriptionSeo": "La Suisse a vu naître certains des plus grands champions de l'histoire du sport. De Roger Federer à Martina Hingis, en passant par Fabian Cancellara, Marco Odermatt, Simon Ammann ou Lara Gut-Behrami, découvre les exploits de ces athlètes d'exception à travers 20 questions. Un quiz idéal pour tester ta culture sportive et en apprendre davantage sur les plus grands sportifs suisses et leurs performances légendaires.",
-  "category": {
-    "name": "Sport",
-    "slug": "sport"
-  },
+  "category": { "name": "Sport", "slug": "sport" },
   "createdAt": "2026-06-29",
   "isNew": true,
   "isPopular": false,
@@ -19,243 +16,143 @@
   "questions": [
     {
       "id": "1",
-      "question": "Combien de titres du Grand Chelem Roger Federer a-t-il remportés en simple au cours de sa carrière, avant d'annoncer sa retraite en septembre 2022 ?",
-      "answers": [
-        "17",
-        "18",
-        "20",
-        "22"
-      ],
+      "question": "Combien de titres du Grand Chelem Roger Federer a-t-il remportés en simple au cours de sa carrière entre 2003 et 2018, avant d'annoncer sa retraite en septembre 2022 ?",
+      "answers": ["17", "18", "20", "22"],
       "correctIndex": 2,
-      "explanation": "Roger Federer a remporté 20 titres du Grand Chelem en simple, dont 8 Wimbledon, 6 Open d'Australie, 5 US Open et 1 Roland-Garros. Il fut le premier joueur de l'histoire à atteindre cette barre des 20, un record depuis dépassé par Novak Djokovic et Rafael Nadal."
+      "explanation": "Roger Federer a remporté 20 titres du Grand Chelem en simple entre 2003 (Wimbledon) et 2018 (Open d'Australie) : 8 Wimbledon, 6 Open d'Australie, 5 US Open et 1 Roland-Garros. Il fut le premier joueur de l'histoire à franchir la barre des 20 titres, un record depuis dépassé par Rafael Nadal (22) et Novak Djokovic (24)."
     },
     {
       "id": "2",
-      "question": "Quelle triathlète suisse remporta la médaille d'or olympique à Londres en 2012 dans une arrivée disputée au sprint, devenant championne olympique de triathlon dans un finish historiquement serré ?",
-      "answers": [
-        "Nicola Spirig",
-        "Daniela Ryf",
-        "Natascha Badmann",
-        "Sandra Doering"
-      ],
+      "question": "Quelle triathlète suisse remporta la médaille d'or olympique à Londres en 2012 après une arrivée jugée au photo-finish, à la même seconde que la Suédoise Lisa Norden ?",
+      "answers": ["Nicola Spirig", "Daniela Ryf", "Natascha Badmann", "Sandra Doering"],
       "correctIndex": 0,
-      "explanation": "Nicola Spirig remporta l'or olympique en triathlon à Londres en 2012 dans une arrivée au sprint. Elle franchit la ligne à la même seconde que la Suédoise Lisa Norden, et c'est l'analyse photo-finish qui la désigna gagnante. Elle remporta également l'argent à Rio en 2016."
+      "explanation": "Nicola Spirig remporta l'or olympique en triathlon à Londres en 2012 dans l'une des arrivées les plus serrées de l'histoire olympique. Elle franchit la ligne à la même seconde (1h 59 min 48 s) que la Suédoise Lisa Norden, et seule l'analyse photo-finish la désigna gagnante. Elle décrocha également l'argent à Rio en 2016."
     },
     {
       "id": "3",
-      "question": "Quelle skieuse suisse fut la première de son pays à décrocher 3 médailles d'or olympiques en ski alpin, lors des Jeux de Calgary en 1988 et de Lillehammer en 1994 ?",
-      "answers": [
-        "Maria Walliser",
-        "Vreni Schneider",
-        "Lara Gut-Behrami",
-        "Dominique Gisin"
-      ],
+      "question": "Quelle skieuse suisse fut la première de son pays à décrocher 3 médailles d'or olympiques en ski alpin, avec deux titres à Calgary en 1988 et un à Lillehammer en 1994 ?",
+      "answers": ["Maria Walliser", "Vreni Schneider", "Lara Gut-Behrami", "Dominique Gisin"],
       "correctIndex": 1,
-      "explanation": "Vreni Schneider (née en 1964) fut la première skieuse suisse à remporter 3 médailles d'or olympiques en ski alpin. Elle s'imposa en slalom géant et en slalom aux Jeux de Calgary en 1988, puis en slalom à Lillehammer en 1994. Elle fut également double championne du monde et 55 fois vainqueur en Coupe du monde."
+      "explanation": "Vreni Schneider (née en 1964) remporta le slalom géant et le slalom à Calgary en 1988, puis le slalom à Lillehammer en 1994, pour un total de 3 médailles d'or olympiques — une première pour une skieuse suisse. Double championne du monde (1987, 1989) et auteure de 55 victoires en Coupe du monde, elle reste l'une des plus grandes skieuses alpines de l'histoire."
     },
     {
       "id": "4",
-      "question": "Quel cycliste suisse, surnommé « Spartacus » pour sa puissance, remporta 2 médailles d'or olympiques en contre-la-montre (2008 et 2016) et 4 titres de champion du monde dans cette discipline ?",
-      "answers": [
-        "Hugo Koblet",
-        "Ferdi Kübler",
-        "Marc Hirschi",
-        "Fabian Cancellara"
-      ],
+      "question": "Quel cycliste suisse, surnommé « Spartacus » pour sa puissance explosive, remporta 2 médailles d'or olympiques en contre-la-montre (2008 et 2016) ainsi que 3 Paris-Roubaix ?",
+      "answers": ["Hugo Koblet", "Ferdi Kübler", "Marc Hirschi", "Fabian Cancellara"],
       "correctIndex": 3,
-      "explanation": "Fabian Cancellara (né en 1981) fut l'un des plus grands spécialistes du contre-la-montre et des classiques pavées de l'histoire. Surnommé « Spartacus », il remporta 2 médailles d'or olympiques en CLM (2008, 2016), 4 titres mondiaux en CLM, 3 Paris-Roubaix et 2 Tours des Flandres."
+      "explanation": "Fabian Cancellara (né en 1981), surnommé « Spartacus », est l'un des plus grands spécialistes du contre-la-montre et des classiques pavées de l'histoire. Il remporta les médailles d'or olympiques en CLM à Beijing 2008 et Rio 2016, 4 titres mondiaux en CLM, 3 Paris-Roubaix (2006, 2010, 2013) et 2 Tours des Flandres (2010, 2013)."
     },
     {
       "id": "5",
-      "question": "Quelle joueuse de tennis suisse devint la plus jeune numéro une mondiale de l'histoire du tennis féminin, atteignant ce rang à 16 ans en 1997 ?",
-      "answers": [
-        "Patty Schnyder",
-        "Belinda Bencic",
-        "Martina Hingis",
-        "Timea Bacsinszky"
-      ],
+      "question": "Quelle joueuse de tennis suisse devint en mars 1997, à 16 ans et 6 mois, la plus jeune numéro une mondiale de l'histoire du tennis féminin ?",
+      "answers": ["Patty Schnyder", "Belinda Bencic", "Martina Hingis", "Timea Bacsinszky"],
       "correctIndex": 2,
-      "explanation": "Martina Hingis (née en 1980) devint numéro une mondiale le 31 mars 1997, à l'âge de 16 ans et 6 mois, devenant la plus jeune joueuse de l'histoire à atteindre ce rang. Elle remporta 5 titres du Grand Chelem en simple dont l'Open d'Australie à trois reprises."
+      "explanation": "Martina Hingis (née en 1980) devint numéro une mondiale le 31 mars 1997, à 16 ans et 6 mois, battant le record de précocité à ce rang. Elle remporta 5 titres du Grand Chelem en simple — l'Open d'Australie 1997, 1998 et 1999, Wimbledon 1997 et l'US Open 1997 — dominatrice absolue du circuit sur ces deux saisons."
     },
     {
       "id": "6",
-      "question": "Quel skieur suisse fut champion olympique de descente aux Jeux de Sapporo en 1972 et devint par la suite l'un des directeurs de course les plus emblématiques des épreuves alpines aux Jeux olympiques ?",
-      "answers": [
-        "Bernhard Russi",
-        "Pirmin Zurbriggen",
-        "Peter Müller",
-        "Karl Molitor"
-      ],
+      "question": "Quel skieur suisse fut champion olympique de descente aux Jeux de Sapporo en 1972, puis se reconvertit en dessinateur des pistes olympiques de Vancouver, Sotchi, Pyeongchang et Pékin ?",
+      "answers": ["Bernhard Russi", "Pirmin Zurbriggen", "Peter Müller", "Karl Molitor"],
       "correctIndex": 0,
-      "explanation": "Bernhard Russi (né en 1948) remporta la médaille d'or en descente aux Jeux olympiques de Sapporo en 1972. Après sa carrière, il se reconvertit en concepteur de pistes de descente, dessinant notamment les tracés olympiques des Jeux de Vancouver (2010), Sotchi (2014), Pyeongchang (2018) et Pékin (2022)."
+      "explanation": "Bernhard Russi (né en 1948) remporta la médaille d'or en descente aux Jeux de Sapporo en 1972 et l'argent à Innsbruck en 1976. Après sa carrière, il devint l'un des concepteurs de pistes les plus respectés au monde, dessinant les tracés des descentes olympiques de Vancouver 2010, Sotchi 2014, Pyeongchang 2018 et Pékin 2022."
     },
     {
       "id": "7",
-      "question": "Quel sauteur à ski suisse est l'un des rares athlètes à avoir remporté 4 médailles d'or dans une même discipline aux Jeux olympiques, lors des Jeux de 2002 et 2010 ?",
-      "answers": [
-        "Gregor Deschwanden",
-        "Simon Ammann",
-        "Killian Peier",
-        "Andreas Küttel"
-      ],
+      "question": "Quel sauteur à ski suisse répéta le même exploit deux fois — remporter l'or sur tremplin normal et grand tremplin — aux Jeux de Salt Lake City en 2002 et de Vancouver en 2010 ?",
+      "answers": ["Gregor Deschwanden", "Simon Ammann", "Killian Peier", "Andreas Küttel"],
       "correctIndex": 1,
-      "explanation": "Simon Ammann (né en 1981) est l'un des grands champions du saut à ski, remportant le double individuel (tremplin normal et grand tremplin) aux Jeux de Salt Lake City en 2002, puis répétant cet exploit aux Jeux de Vancouver en 2010, pour un total de 4 médailles d'or olympiques."
+      "explanation": "Simon Ammann (né en 1981) réalisa le même doublé lors de deux olympiades : médailles d'or sur tremplin normal et grand tremplin à Salt Lake City 2002, puis le même exploit à Vancouver 2010 — soit 4 médailles d'or olympiques en tout. Seul Kamil Stoch (Pologne, 2014 et 2018) a ensuite réalisé un double doublé similaire."
     },
     {
       "id": "8",
-      "question": "Quel skieur suisse, né en 1997, remporta le grand globe de cristal lors des saisons 2021-22, 2022-23 et 2023-24, s'imposant comme le skieur alpin le plus dominant de ces années ?",
-      "answers": [
-        "Beat Feuz",
-        "Didier Cuche",
-        "Loïc Meillard",
-        "Marco Odermatt"
-      ],
+      "question": "Quel skieur suisse, né en 1997, remporta le grand globe de cristal lors des saisons 2021-22, 2022-23 et 2023-24, dominant le circuit alpin de façon historique ?",
+      "answers": ["Beat Feuz", "Didier Cuche", "Loïc Meillard", "Marco Odermatt"],
       "correctIndex": 3,
-      "explanation": "Marco Odermatt (né en 1997) remporta le grand globe de cristal lors des saisons 2021-22, 2022-23 et 2023-24, dominant le circuit alpin grâce à sa polyvalence sur toutes les disciplines (slalom géant, super-G, descente). Ces trois globes consécutifs rappellent les grandes dynasties du ski alpin suisse."
+      "explanation": "Marco Odermatt (né en 1997) remporta trois grands globes de cristal consécutifs lors des saisons 2021-22, 2022-23 et 2023-24, dominant le circuit alpin grâce à une polyvalence exceptionnelle en géant, super-G et descente. Il est aussi champion olympique de slalom géant à Pékin 2022 et champion du monde de géant à Courchevel-Méribel 2023."
     },
     {
       "id": "9",
-      "question": "Quel joueur de tennis suisse remporta 3 titres du Grand Chelem (Open d'Australie 2014, Roland-Garros 2015, US Open 2016), confirmant sa place parmi l'élite mondiale du tennis malgré la concurrence de Federer, Nadal et Djokovic ?",
-      "answers": [
-        "Marc Rosset",
-        "Heinz Günthardt",
-        "Stan Wawrinka",
-        "Ivo Heuberger"
-      ],
+      "question": "Quel joueur de tennis suisse remporta 3 titres du Grand Chelem (Melbourne 2014, Paris 2015, New York 2016) en battant à chaque fois Nadal ou Djokovic en finale ?",
+      "answers": ["Marc Rosset", "Heinz Günthardt", "Stan Wawrinka", "Ivo Heuberger"],
       "correctIndex": 2,
-      "explanation": "Stan Wawrinka remporta ses 3 titres du Grand Chelem en battant à chaque fois le numéro un ou deux mondial en finale : Rafael Nadal à Melbourne en 2014, puis Novak Djokovic à Paris en 2015 et à New York en 2016. Il est l'un des rares joueurs à avoir battu Nadal et Djokovic en finale de Grand Chelem au cours de la même décennie."
+      "explanation": "Stan Wawrinka remporta ses 3 titres du Grand Chelem en battant Rafael Nadal à Melbourne en 2014, puis Novak Djokovic à Paris en 2015 et à New York en 2016. Chacune de ses trois finales fut remportée contre le numéro un ou deux mondial du moment — une régularité face à l'élite absolue qui témoigne d'une capacité à élever son jeu dans les grands moments."
     },
     {
       "id": "10",
-      "question": "Quel cycliste suisse, surnommé « le Pédaleur de charme » pour son élégance et son charisme, remporta le Tour d'Italie en 1950 et le Tour de France en 1951 ?",
-      "answers": [
-        "Hugo Koblet",
-        "Ferdi Kübler",
-        "Alex Zülle",
-        "Tony Rominger"
-      ],
+      "question": "Quel cycliste suisse, surnommé « le Pédaleur de charme », remporta le Tour d'Italie en 1950 et le Tour de France en 1951, devenant l'un des rois de la route de son époque ?",
+      "answers": ["Hugo Koblet", "Ferdi Kübler", "Alex Zülle", "Tony Rominger"],
       "correctIndex": 0,
-      "explanation": "Hugo Koblet (1925-1964) fut l'un des champions cyclistes les plus élégants et charismatiques de l'histoire, surnommé « le Pédaleur de charme ». Après le Tour d'Italie 1950, il s'imposa sur le Tour de France 1951 avec maestria, notamment grâce à une échappée solitaire mémorable lors de l'étape de Brive."
+      "explanation": "Hugo Koblet (1925-1964), surnommé « le Pédaleur de charme », fut l'un des champions cyclistes les plus élégants de l'après-guerre. Après le Tour d'Italie 1950, il s'imposa sur le Tour de France 1951, notamment grâce à une échappée solitaire de 135 km lors de l'étape de Brive. Sa mort accidentelle en 1964, à 39 ans, mit un terme prématuré à une légende vivante du cyclisme suisse."
     },
     {
       "id": "11",
-      "question": "Quel vététiste suisse remporta 9 titres de champion du monde de cross-country olympique (XCO) entre 2009 et 2021, ainsi que la médaille d'or olympique à Rio en 2016 ?",
-      "answers": [
-        "Jolanda Nef",
-        "Nino Schurter",
-        "Thomas Frischknecht",
-        "Florian Vogel"
-      ],
+      "question": "Quel vététiste suisse remporta 10 titres de champion du monde de cross-country olympique (XCO) entre 2009 et 2020, ainsi que la médaille d'or olympique à Rio en 2016 ?",
+      "answers": ["Jolanda Nef", "Nino Schurter", "Thomas Frischknecht", "Florian Vogel"],
       "correctIndex": 1,
-      "explanation": "Nino Schurter (né en 1986) remporta 9 titres de champion du monde de cross-country olympique entre 2009 et 2021, auxquels s'ajoute la médaille d'or olympique à Rio en 2016. Ce palmarès fait de lui l'un des vététistes les plus accomplis de l'histoire de la discipline."
+      "explanation": "Nino Schurter (né en 1986) remporta 10 titres de champion du monde de cross-country olympique entre 2009 et 2020 (2009, 2010, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2020), auxquels s'ajoute la médaille d'or olympique à Rio en 2016. Ce palmarès exceptionnel fait de lui le vététiste XCO le plus titré de l'histoire."
     },
     {
       "id": "12",
-      "question": "Quel joueur de tennis suisse remporta la médaille d'or olympique en tennis à Barcelone en 1992, offrant à la Suisse son premier titre olympique dans cette discipline ?",
-      "answers": [
-        "Heinz Günthardt",
-        "Jakob Hlasek",
-        "Ivo Heuberger",
-        "Marc Rosset"
-      ],
+      "question": "Quel joueur de tennis suisse remporta la médaille d'or olympique à Barcelone en 1992, dans l'une des surprises les plus marquantes du tennis olympique moderne ?",
+      "answers": ["Heinz Günthardt", "Jakob Hlasek", "Ivo Heuberger", "Marc Rosset"],
       "correctIndex": 3,
-      "explanation": "Marc Rosset (né en 1970) remporta la médaille d'or olympique en tennis individuel aux Jeux de Barcelone en 1992, battant l'Espagnol Jordi Arrese en finale. Ce titre olympique demeure l'un des exploits les plus inattendus du tennis suisse, Rosset n'ayant jamais atteint ce niveau en Grand Chelem."
+      "explanation": "Marc Rosset (né en 1970) remporta l'or olympique en tennis individuel aux Jeux de Barcelone en 1992, battant l'Espagnol Jordi Arrese en finale — un exploit d'autant plus inattendu que Rosset, alors 44e mondial, avait éliminé en chemin des favoris comme Goran Ivanisevic. Ce titre demeure l'un des exploits les plus improbables du tennis olympique, Rosset n'ayant jamais atteint un niveau comparable en Grand Chelem."
     },
     {
       "id": "13",
-      "question": "Quel skieur suisse, surnommé « le Roi de Kitzbühel » pour ses cinq victoires consécutives sur la célèbre Streif, remporta également cinq fois le classement de descente en Coupe du monde ?",
-      "answers": [
-        "Pirmin Zurbriggen",
-        "Peter Müller",
-        "Didier Cuche",
-        "Franz Heinzer"
-      ],
+      "question": "Quel descendeur suisse s'imposa cinq fois consécutives sur la Streif de Kitzbühel entre 2007 et 2011, et remporta également cinq classements de descente en Coupe du monde au cours de sa carrière ?",
+      "answers": ["Pirmin Zurbriggen", "Peter Müller", "Didier Cuche", "Franz Heinzer"],
       "correctIndex": 2,
-      "explanation": "Didier Cuche (né en 1974) domina la descente mondiale des années 2000, s'imposant sur la Streif de Kitzbühel cinq fois consécutives de 2007 à 2011 — un record absolu. Il remporta également le classement de descente en Coupe du monde à cinq reprises au cours de sa carrière."
+      "explanation": "Didier Cuche (né en 1974) domina la descente mondiale des années 2000 avec une régularité exceptionnelle. Ses cinq victoires consécutives sur la Streif de Kitzbühel entre 2007 et 2011 constituent un record absolu sur la piste la plus exigeante du circuit. Il remporta par ailleurs le classement de descente en Coupe du monde à cinq reprises au total, s'imposant comme le descendeur suisse le plus titré de son époque."
     },
     {
       "id": "14",
-      "question": "Quel skieur suisse remporta la médaille d'or olympique en descente aux Jeux de Calgary en 1988, couronnant une domination absolue sur le ski alpin mondial dans les années 1980 ?",
-      "answers": [
-        "Pirmin Zurbriggen",
-        "Karl Schranz",
-        "Bernhard Russi",
-        "Peter Müller"
-      ],
+      "question": "Quel skieur suisse, quadruple vainqueur du classement général de Coupe du monde dans les années 1980, ajouta le titre olympique de descente aux Jeux de Calgary en 1988 à son palmarès exceptionnel ?",
+      "answers": ["Pirmin Zurbriggen", "Karl Schranz", "Bernhard Russi", "Peter Müller"],
       "correctIndex": 0,
-      "explanation": "Pirmin Zurbriggen (né en 1963) fut le skieur alpin le plus complet des années 1980, remportant 4 classements généraux de Coupe du monde et le titre olympique de descente à Calgary en 1988. Il fut aussi champion du monde en descente, super-G et combiné."
+      "explanation": "Pirmin Zurbriggen (né en 1963) fut le skieur alpin le plus complet des années 1980, remportant le classement général de Coupe du monde en 1984, 1987, 1988 et 1990, ainsi que le titre olympique de descente à Calgary en 1988. Champion du monde en descente, super-G et combiné, il est l'un des rares skieurs à avoir dominé les disciplines de vitesse ainsi que le géant et le combiné."
     },
     {
       "id": "15",
-      "question": "Quel cycliste suisse remporta le Tour de France en 1950, devenant le premier Suisse de l'histoire à s'imposer dans la Grande Boucle, un an avant Hugo Koblet ?",
-      "answers": [
-        "Hugo Koblet",
-        "Ferdi Kübler",
-        "Alex Zülle",
-        "Tony Rominger"
-      ],
+      "question": "Quel cycliste suisse remporta le Tour de France en 1950, devenant le premier Suisse à s'imposer dans la Grande Boucle, avant que Hugo Koblet ne récidive l'année suivante ?",
+      "answers": ["Hugo Koblet", "Ferdi Kübler", "Alex Zülle", "Tony Rominger"],
       "correctIndex": 1,
-      "explanation": "Ferdi Kübler (1919-2016) remporta le Tour de France en 1950, devenant le premier Suisse à s'imposer dans la Grande Boucle. Hugo Koblet lui succéda l'année suivante en 1951. Kübler fut également champion du monde sur route en 1951."
+      "explanation": "Ferdi Kübler (1919-2016) remporta le Tour de France en 1950, à 31 ans, devenant le premier Suisse de l'histoire à conquérir la Grande Boucle. Il fut également champion du monde sur route en 1951, l'année même où Hugo Koblet lui succédait sur le Tour de France. Kübler termina sa vie à l'âge remarquable de 97 ans, en 2016."
     },
     {
       "id": "16",
-      "question": "Quel skieur suisse, vainqueur du classement de descente en Coupe du monde lors des quatre saisons 2017-18 à 2020-21, décrocha ensuite la médaille d'or olympique en descente aux Jeux de Pékin en 2022 ?",
-      "answers": [
-        "Marco Odermatt",
-        "Didier Cuche",
-        "Carlo Janka",
-        "Beat Feuz"
-      ],
+      "question": "Quel descendeur suisse remporta le classement de descente en Coupe du monde lors de quatre saisons consécutives (2017-18 à 2020-21), avant de décrocher l'or olympique à Pékin en 2022 ?",
+      "answers": ["Marco Odermatt", "Didier Cuche", "Carlo Janka", "Beat Feuz"],
       "correctIndex": 3,
-      "explanation": "Beat Feuz (né en 1987) fut le descendeur le plus régulier de sa génération, remportant le classement de descente en Coupe du monde lors de quatre saisons consécutives (2017-18 à 2020-21). Il couronna cette domination par la médaille d'or olympique en descente aux Jeux de Pékin 2022."
+      "explanation": "Beat Feuz (né en 1987) fut le descendeur le plus régulier de sa génération, remportant le classement de descente en Coupe du monde lors de quatre saisons consécutives (2017-18 à 2020-21). Il couronna cette domination par la médaille d'or olympique en descente aux Jeux de Pékin en février 2022, sa toute première médaille olympique individuelle après deux participations."
     },
     {
       "id": "17",
-      "question": "Quelle skieuse suisse partagea la médaille d'or olympique de descente aux Jeux de Sotchi 2014 avec la Slovène Tina Maze, les deux athlètes ayant réalisé exactement le même temps au centième de seconde ?",
-      "answers": [
-        "Lara Gut",
-        "Maria Walliser",
-        "Dominique Gisin",
-        "Corinne Suter"
-      ],
+      "question": "Quelle skieuse suisse partagea la médaille d'or olympique de descente à Sotchi en 2014 avec la Slovène Tina Maze, après avoir réalisé exactement le même temps au centième de seconde ?",
+      "answers": ["Lara Gut", "Maria Walliser", "Dominique Gisin", "Corinne Suter"],
       "correctIndex": 2,
-      "explanation": "Dominique Gisin (née en 1985) et la Slovène Tina Maze réalisèrent le même temps de 1 min 41 s 57 lors de la descente olympique de Sotchi en 2014, partageant ainsi la médaille d'or — une coïncidence rarissime dans l'histoire du ski alpin olympique."
+      "explanation": "Dominique Gisin (née en 1985) et la Slovène Tina Maze réalisèrent le même temps de 1 min 41 s 57 lors de la descente olympique de Sotchi en 2014, se partageant ainsi la médaille d'or dans une coïncidence rarissime dans l'histoire du ski alpin olympique."
     },
     {
       "id": "18",
-      "question": "Quelle skieuse suisse polyvalente remporta l'or en super-G aux Championnats du monde 2021 puis l'or olympique dans la même discipline aux Jeux de Pékin 2022 ?",
-      "answers": [
-        "Lara Gut-Behrami",
-        "Wendy Holdener",
-        "Corinne Suter",
-        "Michelle Gisin"
-      ],
+      "question": "Quelle skieuse suisse réalisa le doublé mondial-olympique en super-G, remportant le titre mondial à Cortina en 2021 puis l'or olympique à Pékin en 2022 ?",
+      "answers": ["Lara Gut-Behrami", "Wendy Holdener", "Corinne Suter", "Michelle Gisin"],
       "correctIndex": 0,
-      "explanation": "Lara Gut-Behrami (née en 1991) décrocha le titre mondial en super-G en 2021 à Cortina d'Ampezzo, puis l'or olympique dans cette même discipline aux Jeux de Pékin 2022 — un doublé mondial-olympique qui témoigne de sa maîtrise des épreuves de vitesse sur deux années consécutives."
+      "explanation": "Lara Gut-Behrami (née en 1991) décrocha le titre mondial en super-G à Cortina d'Ampezzo en 2021, puis l'or olympique dans cette même discipline aux Jeux de Pékin en février 2022 — un doublé mondial-olympique dans la même discipline sur deux années consécutives, exploit que seule une poignée de skieuses a réussi dans l'histoire du ski alpin."
     },
     {
       "id": "19",
       "question": "Lors de quel événement Roger Federer annonça-t-il sa retraite en septembre 2022, jouant son dernier match en double aux côtés de son rival Rafael Nadal ?",
-      "answers": [
-        "L'Open d'Australie",
-        "La Laver Cup à Londres",
-        "Roland-Garros",
-        "Wimbledon"
-      ],
+      "answers": ["L'Open d'Australie", "La Laver Cup à Londres", "Roland-Garros", "Wimbledon"],
       "correctIndex": 1,
-      "explanation": "Roger Federer annonça sa retraite lors de la Laver Cup à Londres en septembre 2022. Son dernier match fut un double disputé aux côtés de Rafael Nadal, une image symbolique réunissant deux des plus grands rivaux de l'histoire du tennis pour une ultime apparition ensemble sur un court."
+      "explanation": "Roger Federer annonça sa retraite lors de la Laver Cup à Londres en septembre 2022. Son dernier match fut un double disputé aux côtés de Rafael Nadal — l'image emblématique de ses deux plus grands rivaux et partenaires, réunis pour une ultime apparition sur un court. Federer et Nadal fondirent en larmes à la fin du match, émouvant des millions de téléspectateurs."
     },
     {
       "id": "20",
-      "question": "Quelle gymnaste suisse fut la première de son pays à remporter des médailles olympiques en gymnastique artistique aux Jeux modernes, décrochant deux bronzes à Rio 2016 au saut et au sol ?",
-      "answers": [
-        "Ariella Kaeslin",
-        "Jasmine Muth",
-        "Stefanie Siegrist",
-        "Giulia Steingruber"
-      ],
+      "question": "Quelle gymnaste suisse remporta le bronze au saut à Rio en 2016, devenant la première gymnaste artistique de son pays à monter sur un podium olympique individuel ?",
+      "answers": ["Ariella Kaeslin", "Jasmine Muth", "Stefanie Siegrist", "Giulia Steingruber"],
       "correctIndex": 3,
-      "explanation": "Giulia Steingruber (née en 1994) fut pionnière pour la gymnastique suisse aux Jeux olympiques, remportant le bronze au saut et au sol à Rio en 2016 — les premières médailles olympiques de l'histoire pour une gymnaste artistique suisse en finale individuelle."
+      "explanation": "Giulia Steingruber (née en 1994) remporta le bronze au saut à Rio en 2016, devenant la première gymnaste artistique suisse à conquérir une médaille olympique en finale individuelle. Quadruple championne d'Europe au saut, elle est la figure pionnière de la gymnastique artistique suisse sur la scène internationale."
     }
   ]
 }

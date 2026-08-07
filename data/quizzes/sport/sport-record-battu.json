@@ -2,11 +2,8 @@
     "slug": "quiz-sport-records-du-monde-battus-aux-jo",
     "title": "Quiz Sport - Jeux Olympiques - Connais-tu les records du monde battus aux JO ?",
     "description": "Teste tes connaissances sur les records du monde les plus marquants battus aux Jeux Olympiques.",
-    "descriptionSeo": "De Bob Beamon à Usain Bolt, de David Rudisha à Katie Ledecky, les Jeux Olympiques ont souvent servi de théâtre aux plus grands records du monde du sport. Ce quiz de 20 questions te replonge dans les performances les plus folles réalisées aux JO, entre sprints mythiques, concours légendaires, relais historiques et exploits en natation qui ont changé l’histoire olympique.",
-    "category": {
-        "name": "Sport",
-        "slug": "sport"
-    },
+    "descriptionSeo": "De Bob Beamon à Usain Bolt, de David Rudisha à Katie Ledecky, les Jeux Olympiques ont souvent servi de théâtre aux plus grands records du monde du sport. Ce quiz de 20 questions te replonge dans les performances les plus folles réalisées aux JO, entre sprints mythiques, concours légendaires, relais historiques et exploits en natation qui ont changé l'histoire olympique.",
+    "category": { "name": "Sport", "slug": "sport" },
     "createdAt": "2026-04-16",
     "isNew": true,
     "isPopular": true,
@@ -18,243 +15,143 @@
     "questions": [
         {
             "id": "1",
-            "question": "Quel athlète a pulvérisé le record du monde du saut en longueur avec 8,90 m aux JO de Mexico 1968 ?",
-            "answers": [
-                "Carl Lewis",
-                "Mike Powell",
-                "Bob Beamon",
-                "Ralph Boston"
-            ],
+            "question": "Quel athlète a pulvérisé le record du monde du saut en longueur avec 8,90 m aux JO de Mexico 1968, améliorant la marque précédente de 55 cm d'un seul bond ?",
+            "answers": ["Carl Lewis", "Mike Powell", "Bob Beamon", "Ralph Boston"],
             "correctIndex": 2,
-            "explanation": "Bob Beamon a signé l’un des gestes les plus célèbres de l’histoire olympique. Son bond de 8,90 m a dépassé l’ancien record de manière si spectaculaire que l’instrument de mesure n’était même pas préparé à une telle distance."
+            "explanation": "Bob Beamon a signé à Mexico 1968 l'un des gestes les plus célèbres de l'histoire olympique. Son bond de 8,90 m a tellement dépassé l'ancienne marque (8,35 m de Ralph Boston et Igor Ter-Ovanesyan) que l'instrument optique de mesure du stade n'était pas calibré pour une telle distance. Il fallut recourir à un mètre ruban. Ce record résista 23 ans, jusqu'au 8,95 m de Mike Powell en 1991."
         },
         {
             "id": "2",
-            "question": "De combien Bob Beamon a-t-il amélioré l’ancien record du monde en 1968 ?",
-            "answers": [
-                "32 cm",
-                "55 cm",
-                "18 cm",
-                "73 cm"
-            ],
+            "question": "De combien Bob Beamon a-t-il amélioré l'ancien record du monde du saut en longueur lors des JO de Mexico 1968 ?",
+            "answers": ["32 cm", "55 cm", "18 cm", "73 cm"],
             "correctIndex": 1,
-            "explanation": "Beamon a ajouté 55 centimètres au précédent record du monde, un écart gigantesque à ce niveau. Dans les concours horizontaux, les records tombent souvent de quelques centimètres, pas d’un demi-mètre."
+            "explanation": "Beamon a ajouté 55 centimètres au précédent record du monde (8,35 m de 1968), un écart proprement invraisemblable dans les concours horizontaux où les records tombent habituellement de un à trois centimètres. Le phénomène fut baptisé « beamonesque » — un néologisme entré dans le langage sportif pour désigner une performance tellement supérieure à la norme qu'elle semble appartenir à une autre époque."
         },
         {
             "id": "3",
-            "question": "Quel sprinteur canadien a porté le record du monde du 100 m à 9,84 s aux JO d’Atlanta 1996 ?",
-            "answers": [
-                "Donovan Bailey",
-                "Ben Johnson",
-                "Bruny Surin",
-                "Andre De Grasse"
-            ],
+            "question": "Quel sprinteur canadien a porté le record du monde du 100 m à 9,84 s en finale des JO d'Atlanta 1996, devenant ainsi l'homme le plus rapide du monde ?",
+            "answers": ["Donovan Bailey", "Ben Johnson", "Bruny Surin", "Andre De Grasse"],
             "correctIndex": 0,
-            "explanation": "Donovan Bailey a remporté la finale olympique du 100 m en 9,84 s, établissant un nouveau record du monde. Cette performance a fait de lui l’homme le plus rapide de la planète au moment le plus exposé possible."
+            "explanation": "Donovan Bailey a remporté la finale olympique du 100 m en 9,84 s à Atlanta 1996, effaçant le 9,85 s de Leroy Burrell. Cette performance fit de lui l'homme le plus rapide de la planète devant le public américain, dans un pays qui n'avait pas connu un tel événement sur son sol depuis Los Angeles 1984. Bailey devint le premier homme à descendre officiellement sous 9,85 s."
         },
         {
             "id": "4",
-            "question": "Quel Américain a couru le 200 m en 19,32 s aux JO d’Atlanta 1996 ?",
-            "answers": [
-                "Carl Lewis",
-                "Noah Lyles",
-                "Maurice Greene",
-                "Michael Johnson"
-            ],
+            "question": "Quel Américain a couru le 200 m en 19,32 s aux JO d'Atlanta 1996, dans un style radicalement différent des autres sprinteurs avec sa foulée très verticale ?",
+            "answers": ["Carl Lewis", "Noah Lyles", "Maurice Greene", "Michael Johnson"],
             "correctIndex": 3,
-            "explanation": "Michael Johnson a transformé la finale du 200 m en démonstration, avec son style très droit et ses célèbres pointes dorées. Son 19,32 s a marqué durablement l’imaginaire olympique et a longtemps semblé intouchable."
+            "explanation": "Michael Johnson a transformé la finale du 200 m d'Atlanta 1996 en démonstration solo, avec son style très droit et ses célèbres pointes dorées. Son 19,32 s améliorait son propre record du monde de 19,66 s et parut intouchable pendant treize ans, jusqu'au 19,19 s d'Usain Bolt à Berlin 2009. Ces mêmes Jeux d'Atlanta lui valurent aussi le titre du 400 m en 43,49 s — un doublé unique dans l'histoire."
         },
         {
             "id": "5",
-            "question": "Dans quelle discipline Jackie Joyner-Kersee a-t-elle établi son record du monde de 7291 points à Séoul 1988 ?",
-            "answers": [
-                "Saut en longueur",
-                "Heptathlon",
-                "400 m haies",
-                "Pentathlon"
-            ],
+            "question": "Dans quelle discipline Jackie Joyner-Kersee a-t-elle établi son record du monde de 7 291 points aux JO de Séoul 1988, performance qui tient encore plusieurs décennies plus tard ?",
+            "answers": ["Saut en longueur", "Heptathlon", "400 m haies", "Pentathlon"],
             "correctIndex": 1,
-            "explanation": "Le heptathlon récompense la polyvalence extrême, pas seulement une spécialité. Le total de 7291 points de Jackie Joyner-Kersee reste une référence absolue car il combine vitesse, sauts, lancers et endurance sur deux jours."
+            "explanation": "Jackie Joyner-Kersee a établi son record du monde de 7 291 points à Séoul 1988 lors de l'heptathlon, discipline combinant 100 m haies, hauteur, poids, 200 m, longueur, javelot et 800 m sur deux jours. Ce total, améliorant son propre record de 7 215 points, reste une référence absolue depuis 1988 — une longévité exceptionnelle qui témoigne de l'écart entre elle et toutes ses successeures."
         },
         {
             "id": "6",
-            "question": "Quelle sprinteuse a remporté le 200 m aux JO de Séoul 1988 sans battre le record du monde ?",
-            "answers": [
-                "Florence Griffith-Joyner",
-                "Merlene Ottey",
-                "Evelyn Ashford",
-                "Gwen Torrence"
-            ],
-            "correctIndex": 0,
-            "explanation": "Florence Griffith-Joyner détenait déjà le record du monde avant les Jeux de Séoul 1988. Sa victoire olympique a confirmé sa domination, mais le record n’a pas été battu pendant la compétition."
+            "question": "Quel temps Florence Griffith-Joyner a-t-elle réalisé lors des quarts de finale des JO de Séoul 1988 pour établir un record du monde du 100 m qui tient encore aujourd'hui ?",
+            "answers": ["10,54 s", "10,62 s", "10,49 s", "10,76 s"],
+            "correctIndex": 2,
+            "explanation": "Florence Griffith-Joyner a couru le 100 m en 10,49 s lors des quarts de finale des JO de Séoul le 24 septembre 1988, pulvérisant le record du monde d'Evelyn Ashford (10,76 s de 1984). Ce chrono, réalisé avec un vent mesuré à 0,0 m/s, reste le record du monde plus de trente-cinq ans plus tard — le plus vieux record mondial en vigueur dans les épreuves de vitesse sur piste."
         },
         {
             "id": "7",
-            "question": "Quel sprinteur jamaïcain a battu le record du monde du 100 m en 9,69 s aux JO de Beijing 2008 ?",
-            "answers": [
-                "Usain Bolt",
-                "Yohan Blake",
-                "Asafa Powell",
-                "Tyson Gay"
-            ],
+            "question": "Quel sprinteur jamaïcain a établi le record du monde du 100 m en 9,69 s aux JO de Beijing 2008, en ralentissant visiblement avant même d'avoir franchi la ligne d'arrivée ?",
+            "answers": ["Usain Bolt", "Yohan Blake", "Asafa Powell", "Tyson Gay"],
             "correctIndex": 0,
-            "explanation": "Usain Bolt a battu son propre record du monde en finale olympique, alors même qu’il a relâché son effort avant la ligne. Cela a renforcé l’impression que sa marge sur le reste du monde était presque irréelle."
+            "explanation": "Usain Bolt a battu son propre record du monde (9,72 s établi en mai 2008) en finale olympique à Beijing, alors même qu'il a relâché son effort à 15 mètres de la ligne et a célébré avant d'arriver. Les analyses biomécaniques ont estimé qu'il aurait pu courir en 9,55 s à pleine vitesse. Ce geste d'arrogance bienveillante renforça l'impression que sa marge sur le reste du monde était sans précédent."
         },
         {
             "id": "8",
-            "question": "Quel temps Usain Bolt a-t-il réalisé en battant le record du monde du 200 m aux JO de Beijing 2008 ?",
-            "answers": [
-                "19,45 s",
-                "19,58 s",
-                "19,19 s",
-                "19,30 s"
-            ],
+            "question": "Quel temps Usain Bolt a-t-il réalisé pour battre le record du monde du 200 m lors des JO de Beijing 2008, effaçant la marque de Michael Johnson qui semblait intouchable ?",
+            "answers": ["19,45 s", "19,58 s", "19,19 s", "19,30 s"],
             "correctIndex": 3,
-            "explanation": "Avec 19,30 s, Bolt a effacé le mythique 19,32 s de Michael Johnson. Réussir ce doublé 100 m - 200 m avec deux records du monde à la même olympiade a immédiatement fait entrer Bolt dans une autre dimension."
+            "explanation": "Usain Bolt a couru le 200 m en 19,30 s à Beijing 2008, effaçant le 19,32 s de Michael Johnson datant d'Atlanta 1996. Réaliser le doublé 100 m–200 m avec deux records du monde lors de la même olympiade — en remportant également le relais 4x100 m — catapulta Bolt dans une autre dimension. Il améliora encore ce record l'année suivante avec 19,19 s aux Mondiaux de Berlin 2009."
         },
         {
             "id": "9",
-            "question": "Quelle perchiste russe a battu le record du monde avec 5,05 m aux JO de Beijing 2008 ?",
-            "answers": [
-                "Sandi Morris",
-                "Yelena Isinbayeva",
-                "Jennifer Suhr",
-                "Katerina Stefanidi"
-            ],
+            "question": "Quelle perchiste russe, figure dominante de sa discipline, a battu le record du monde avec 5,05 m en finale des JO de Beijing 2008 ?",
+            "answers": ["Sandi Morris", "Yelena Isinbayeva", "Jennifer Suhr", "Katerina Stefanidi"],
             "correctIndex": 1,
-            "explanation": "Yelena Isinbayeva a fait du saut à la perche féminin un sport de records presque permanents. À Beijing, elle a ajouté un record du monde à son titre olympique, confirmant sa domination totale sur l’épreuve."
+            "explanation": "Yelena Isinbayeva a établi le record du monde à 5,05 m en finale des JO de Beijing 2008, ajoutant un centimètre à son propre record. Championne olympique en 2004 et 2008, elle a battu le record du monde du saut à la perche féminin 28 fois en carrière, transformant la discipline en un territoire presque privé pendant une décennie."
         },
         {
             "id": "10",
-            "question": "Quel coureur kényan a battu le record du monde du 800 m en 1:40.91 aux JO de Londres 2012 ?",
-            "answers": [
-                "Wilson Kipketer",
-                "Emmanuel Wanyonyi",
-                "David Rudisha",
-                "Nijel Amos"
-            ],
+            "question": "Quel coureur kényan a battu le record du monde du 800 m en 1:40.91 en finale des JO de Londres 2012, dans une course souvent citée comme la plus parfaite jamais courue sur cette distance ?",
+            "answers": ["Wilson Kipketer", "Emmanuel Wanyonyi", "David Rudisha", "Nijel Amos"],
             "correctIndex": 2,
-            "explanation": "David Rudisha a réussi un exploit rarissime : battre le record du monde du 800 m dans une finale olympique menée de bout en bout. Cette course est souvent citée comme l’exemple parfait du 800 m moderne."
+            "explanation": "David Rudisha a mené du premier au dernier mètre la finale du 800 m des JO de Londres 2012, signant un record du monde en 1:40.91 — améliorant son propre record de 1:41.01. Fait rare : son jeune compatriote Nijel Amos (18 ans), qui le suivait pas à pas, termina en 1:41.73, lui aussi en dessous de l'ancien record. Cette finale reste la plus rapide de l'histoire du 800 m olympique."
         },
         {
             "id": "11",
-            "question": "Quelle équipe a battu le record du monde du 4x100 m masculin en 36,84 s aux JO de Londres 2012 ?",
-            "answers": [
-                "Jamaïque",
-                "États-Unis",
-                "Trinité-et-Tobago",
-                "Grande-Bretagne"
-            ],
+            "question": "Quelle équipe a battu le record du monde du 4x100 m masculin en 36,84 s aux JO de Londres 2012, avec Usain Bolt en dernière fraction ?",
+            "answers": ["Jamaïque", "États-Unis", "Trinité-et-Tobago", "Grande-Bretagne"],
             "correctIndex": 0,
-            "explanation": "La Jamaïque de Bolt, Blake, Carter et Frater a poussé le relais sprint à un niveau inédit. Ce record a montré qu’au-delà des individualités, la qualité des passages de témoin restait décisive dans un grand relais."
+            "explanation": "La Jamaïque — Nesta Carter, Michael Frater, Yohan Blake et Usain Bolt — a couru le 4x100 m en 36,84 s à Londres 2012, améliorant le précédent record du monde des Jamaïcains eux-mêmes (37,04 s à Beijing 2008). Ce dernier avait entre-temps été invalidé par le CAS en 2017 en raison du contrôle positif de Nesta Carter, rendant le record de Londres 2012 d'autant plus précieux dans le palmarès de l'équipe."
         },
         {
             "id": "12",
-            "question": "Quelle équipe féminine a battu le record du monde du 4x100 m en 40,82 s aux JO de Londres 2012 ?",
-            "answers": [
-                "Jamaïque",
-                "Allemagne",
-                "France",
-                "États-Unis"
-            ],
+            "question": "Quelle équipe féminine a battu le record du monde du 4x100 m en 40,82 s aux JO de Londres 2012, améliorant une marque vieille de plus de vingt-sept ans ?",
+            "answers": ["Jamaïque", "Allemagne", "France", "États-Unis"],
             "correctIndex": 3,
-            "explanation": "Le relais américain formé de Tianna Madison, Allyson Felix, Bianca Knight et Carmelita Jeter a pulvérisé un très vieux record du monde. L’amélioration de 0,55 s a été immense pour une épreuve aussi courte."
+            "explanation": "Le relais américain formé de Tianna Madison, Allyson Felix, Bianca Knight et Carmelita Jeter a signé 40,82 s à Londres 2012, effaçant le record du monde est-allemand de 41,37 s établi en 1985. L'amélioration de 0,55 s est considérable pour une épreuve de dix secondes. Carmelita Jeter, qui avait couru le dernier relais, était alors l'une des femmes les plus rapides du monde avec 10,64 s au 100 m."
         },
         {
             "id": "13",
-            "question": "Quel Sud-Africain a battu le record du monde du 400 m en 43,03 s aux JO de Rio 2016 ?",
-            "answers": [
-                "Kirani James",
-                "Wayde van Niekerk",
-                "Steven Gardiner",
-                "Michael Norman"
-            ],
+            "question": "Quel Sud-Africain a pulvérisé le record du monde du 400 m en 43,03 s en finale des JO de Rio 2016, renversant une marque établie 17 ans plus tôt par Michael Johnson ?",
+            "answers": ["Kirani James", "Wayde van Niekerk", "Steven Gardiner", "Michael Norman"],
             "correctIndex": 1,
-            "explanation": "Wayde van Niekerk a détruit un record du monde vieux de 17 ans, celui de Michael Johnson. Son exploit a pris une dimension encore plus forte car il l’a accompli en finale olympique face à une opposition de tout premier ordre."
+            "explanation": "Wayde van Niekerk a effacé à Rio 2016 le 43,18 s de Michael Johnson, datant d'Atlanta 1999. Son 43,03 s constitue une amélioration de 15 centièmes — considérable sur 400 m. Son exploit fut rendu encore plus spectaculaire par le fait qu'il courait depuis le couloir extérieur, sans repère visuel sur ses adversaires, entraîné par sa grand-tante Ans Botha, coach amateur de 74 ans."
         },
         {
             "id": "14",
-            "question": "Depuis quel couloir Wayde van Niekerk a-t-il remporté son 400 m record à Rio 2016 ?",
-            "answers": [
-                "Couloir 3",
-                "Couloir 5",
-                "Couloir 8",
-                "Couloir 1"
-            ],
+            "question": "Depuis quel couloir — inhabituellement externe pour une finale de 400 m — Wayde van Niekerk a-t-il couru son record du monde à Rio 2016 ?",
+            "answers": ["Couloir 3", "Couloir 5", "Couloir 8", "Couloir 1"],
             "correctIndex": 2,
-            "explanation": "Van Niekerk a gagné depuis le couloir 8, généralement considéré comme l’un des plus délicats sur 400 m. Cela rend son record encore plus remarquable, car il courait sans réel repère visuel sur ses adversaires."
+            "explanation": "Van Niekerk a couru depuis le couloir 8 à Rio 2016 — le couloir le plus extérieur de la piste, généralement redouté car il prive l'athlète de tout repère visuel sur ses adversaires dans les virages. Attribué aux têtes de série les moins bien classées, ce couloir rendait son record du monde en 43,03 s encore plus stupéfiant aux yeux de l'ensemble du monde athlétique."
         },
         {
             "id": "15",
-            "question": "Quelle Éthiopienne a battu le record du monde du 10 000 m en 29:17.45 aux JO de Rio 2016 ?",
-            "answers": [
-                "Almaz Ayana",
-                "Tirunesh Dibaba",
-                "Sifan Hassan",
-                "Vivian Cheruiyot"
-            ],
+            "question": "Quelle Éthiopienne a amélioré de plus de 14 secondes le record du monde du 10 000 m en signant 29:17.45 en finale des JO de Rio 2016 ?",
+            "answers": ["Almaz Ayana", "Tirunesh Dibaba", "Sifan Hassan", "Vivian Cheruiyot"],
             "correctIndex": 0,
-            "explanation": "Almaz Ayana a fait tomber un record du monde qui paraissait très difficile à approcher. Son chrono a en plus créé un écart énorme avec le reste de la finale, ce qui a accentué l’impression de performance hors norme."
+            "explanation": "Almaz Ayana a couru le 10 000 m en 29:17.45 à Rio 2016, pulvérisant l'ancien record du monde de 29:31.78 détenu par la Chinoise Junxia Wang depuis 1993 — soit une amélioration de 14 secondes, immense sur cette distance. Le niveau global de la finale fut exceptionnel : Vivian Cheruiyot, médaillée d'argent en 29:32.53, était à seulement 75 centièmes au-dessus de l'ancien record mondial, illustrant à quel point Ayana avait élevé toute la course à un niveau inédit."
         },
         {
             "id": "16",
-            "question": "Quelle lanceuse polonaise a battu le record du monde du marteau avec 82,29 m aux JO de Rio 2016 ?",
-            "answers": [
-                "Tatyana Lysenko",
-                "Sophie Hitchon",
-                "Wenxiu Zhang",
-                "Anita Włodarczyk"
-            ],
+            "question": "Quelle lanceuse polonaise a battu le record du monde du lancer du marteau féminin avec 82,29 m lors des JO de Rio 2016 ?",
+            "answers": ["Tatyana Lysenko", "Sophie Hitchon", "Wenxiu Zhang", "Anita Włodarczyk"],
             "correctIndex": 3,
-            "explanation": "Anita Włodarczyk a été la grande figure du marteau féminin moderne. À Rio, elle n’a pas seulement gagné : elle a repoussé encore les limites de son sport avec un jet record en pleine finale olympique."
+            "explanation": "Anita Włodarczyk a lancé le marteau à 82,29 m à Rio 2016, battant son propre record du monde de 81,08 m établi quelques semaines plus tôt. Championne olympique en 2012 et 2016, puis en 2021 à Tokyo, elle a dominé le marteau féminin mondial pendant plus d'une décennie, établissant trois records du monde différents au cours de sa carrière."
         },
         {
             "id": "17",
-            "question": "Quel nageur britannique a battu le record du monde du 100 m brasse en 57,13 s aux JO de Rio 2016 ?",
-            "answers": [
-                "Cameron van der Burgh",
-                "Adam Peaty",
-                "Kosuke Kitajima",
-                "Arno Kamminga"
-            ],
+            "question": "Quel nageur britannique a fracassé le record du monde du 100 m brasse en 57,13 s aux JO de Rio 2016, devenant le premier homme à passer sous les 57 secondes dans cette nage ?",
+            "answers": ["Cameron van der Burgh", "Adam Peaty", "Kosuke Kitajima", "Arno Kamminga"],
             "correctIndex": 1,
-            "explanation": "Adam Peaty a révolutionné le 100 m brasse en installant des standards de vitesse inédits. Sa capacité à battre le record du monde deux fois dans la même olympiade a illustré une domination technique totale."
+            "explanation": "Adam Peaty a établi le record du monde en 57,13 s en finale des JO de Rio 2016, après avoir déjà amélioré la marque en demi-finale avec 57,55 s — deux records du monde lors de la même compétition. Sa domination sur 100 m brasse est telle qu'il a remporté chaque finale internationale à laquelle il a participé entre 2014 et 2021, abaissant encore le record mondial à 56,88 s aux Mondiaux de Gwangju 2019 et devenant alors le premier homme à descendre sous les 57 secondes."
         },
         {
             "id": "18",
-            "question": "Quelle nageuse américaine a porté le record du monde du 800 m nage libre à 8:04.79 aux JO de Rio 2016 ?",
-            "answers": [
-                "Missy Franklin",
-                "Ariarne Titmus",
-                "Katie Ledecky",
-                "Katie Hoff"
-            ],
+            "question": "Quelle nageuse américaine a porté le record du monde du 800 m nage libre à 8:04.79 aux JO de Rio 2016, devançant la deuxième de plus de onze secondes ?",
+            "answers": ["Missy Franklin", "Ariarne Titmus", "Katie Ledecky", "Katie Hoff"],
             "correctIndex": 2,
-            "explanation": "Katie Ledecky a transformé le demi-fond féminin en démonstration de maîtrise. À Rio, son record du monde sur 800 m a aussi mis en évidence l’écart impressionnant qu’elle creusait alors sur ses rivales."
+            "explanation": "Katie Ledecky a couru le 800 m nage libre en 8:04.79 à Rio 2016, battant son propre record du monde de 8:06.68. Sa victoire sur les Jeux fut acquise avec 11,38 secondes d'avance sur la deuxième — un écart comparable à celui d'un demi-fond terrestre. Ledecky a remporté quatre titres olympiques individuels à Rio à seulement 19 ans, s'imposant comme la nageuse de fond la plus dominante de l'histoire."
         },
         {
             "id": "19",
-            "question": "Quel hurdler norvégien a battu le record du monde du 400 m haies en 45,94 s aux JO de Tokyo 2020 ?",
-            "answers": [
-                "Karsten Warholm",
-                "Rai Benjamin",
-                "Alison dos Santos",
-                "Abderrahman Samba"
-            ],
+            "question": "Quel athlète norvégien a couru le 400 m haies en 45,94 s aux JO de Tokyo 2020, effaçant en finale le record du monde qu'il avait lui-même établi quelques semaines plus tôt ?",
+            "answers": ["Karsten Warholm", "Rai Benjamin", "Alison dos Santos", "Abderrahman Samba"],
             "correctIndex": 0,
-            "explanation": "Karsten Warholm a réalisé l’une des courses les plus folles de l’histoire récente de l’athlétisme. Le plus impressionnant est que cette finale a été si rapide que plusieurs athlètes ont couru à un niveau historiquement exceptionnel derrière lui."
+            "explanation": "Karsten Warholm a couru le 400 m haies en 45,94 s en finale des JO de Tokyo 2021, améliorant de 76 centièmes son propre record du monde de 46,70 s établi quelques semaines avant les Jeux. Rai Benjamin, qui le suivait à quelques mètres, signa 46,17 s — lui aussi en dessous de l'ancien record mondial. Cette finale est considérée comme l'une des plus rapides et des plus spectaculaires de l'histoire de l'athlétisme."
         },
         {
             "id": "20",
-            "question": "Quelle Américaine a battu le record du monde du 400 m haies en 51,46 s aux JO de Tokyo 2020 ?",
-            "answers": [
-                "Dalilah Muhammad",
-                "Femke Bol",
-                "Anna Cockrell",
-                "Sydney McLaughlin"
-            ],
+            "question": "Quelle hurdleuse américaine a battu le record du monde du 400 m haies en 51,46 s en finale des JO de Tokyo 2020, détrônant ainsi sa rivale et compatriote Dalilah Muhammad ?",
+            "answers": ["Dalilah Muhammad", "Femke Bol", "Anna Cockrell", "Sydney McLaughlin"],
             "correctIndex": 3,
-            "explanation": "Sydney McLaughlin a montré à Tokyo que le 400 m haies féminin entrait dans une nouvelle ère. Sa rivalité avec Dalilah Muhammad a tiré l’épreuve vers des temps que l’on pensait presque inaccessibles quelques années plus tôt."
+            "explanation": "Sydney McLaughlin a couru le 400 m haies en 51,46 s à Tokyo 2021, effaçant le record du monde de 51,90 s de sa compatriote Dalilah Muhammad — qui, en terminant deuxième, améliora elle aussi l'ancien record. McLaughlin avait déjà battu le record mondial aux sélections américaines peu avant les Jeux. Leur rivalité a fait tomber le record mondial à quatre reprises entre 2019 et 2022."
         }
     ]
 }

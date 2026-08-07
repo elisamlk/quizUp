@@ -1,12 +1,9 @@
 {
     "slug": "quiz-sport-penalties-rates-celebres-coupe-du-monde",
     "title": "Quiz Sport - Coupe du Monde - Connais-tu les penalties ratés les plus célèbres ?",
-    "description": "Teste tes connaissances sur les penalties ratés les plus marquants de l’histoire de la Coupe du Monde.",
-    "descriptionSeo": "De Roberto Baggio à Asamoah Gyan, en passant par Zico, Platini, Beckham ou Harry Kane, ce quiz te plonge dans les penalties ratés les plus célèbres de la Coupe du Monde. Entre tirs au but décisifs, penalties manqués dans le jeu et exploits de gardiens légendaires, revisite 20 moments de tension extrême qui ont marqué l’histoire du football mondial et teste ta mémoire sur ces instants où tout bascule.",
-    "category": {
-        "name": "Sport",
-        "slug": "sport"
-    },
+    "description": "Teste tes connaissances sur les penalties ratés les plus marquants de l'histoire de la Coupe du Monde.",
+    "descriptionSeo": "De Roberto Baggio à Asamoah Gyan, en passant par Zico, Platini, Beckham ou Harry Kane, ce quiz te plonge dans les penalties ratés les plus célèbres de la Coupe du Monde. Entre tirs au but décisifs, penalties manqués dans le jeu et exploits de gardiens légendaires, revisite 20 moments de tension extrême qui ont marqué l'histoire du football mondial et teste ta mémoire sur ces instants où tout bascule.",
+    "category": { "name": "Sport", "slug": "sport" },
     "createdAt": "2026-04-16",
     "isNew": true,
     "isPopular": true,
@@ -18,243 +15,143 @@
     "questions": [
         {
             "id": "1",
-            "question": "Quel joueur italien a manqué le tir au but décisif de la finale 1994 contre le Brésil ?",
-            "answers": [
-                "Franco Baresi",
-                "Daniele Massaro",
-                "Roberto Donadoni",
-                "Roberto Baggio"
-            ],
+            "question": "Quel joueur italien, meilleur buteur du Mondial 1994 avec 5 réalisations, a manqué le tir au but décisif de la finale contre le Brésil en envoyant le ballon au-dessus de la barre ?",
+            "answers": ["Franco Baresi", "Daniele Massaro", "Roberto Donadoni", "Roberto Baggio"],
             "correctIndex": 3,
-            "explanation": "Roberto Baggio envoie son tir au-dessus lors de la séance de tirs au but. Ce raté est devenu emblématique car il intervient après un tournoi exceptionnel de sa part, illustrant la brutalité psychologique des finales de Coupe du Monde."
+            "explanation": "Roberto Baggio envoie son tir au-dessus lors de la séance décisive de la finale 1994 à Pasadena. L'image du Divin Codino, tête baissée, queue de cheval dans le dos, est devenue l'une des plus emblématiques de l'histoire du football. Paradoxe absolu : il avait sauvé l'Italie en phase de groupes et en quarts en marquant des penalties cruciaux avant cette finale."
         },
         {
             "id": "2",
-            "question": "Quel joueur ghanéen a manqué un penalty dans le jeu en quart de finale du Mondial 2010 contre l’Uruguay ?",
-            "answers": [
-                "Asamoah Gyan",
-                "Kevin-Prince Boateng",
-                "Sulley Muntari",
-                "André Ayew"
-            ],
+            "question": "Quel joueur ghanéen a frappé la barre transversale sur penalty à la dernière seconde de la prolongation du quart de finale 2010, privant son équipe d'une historique première demi-finale africaine ?",
+            "answers": ["Asamoah Gyan", "Kevin-Prince Boateng", "Sulley Muntari", "André Ayew"],
             "correctIndex": 0,
-            "explanation": "Asamoah Gyan frappe la barre à la dernière minute de la prolongation. Ce penalty est l’un des plus lourds de l’histoire, car il aurait qualifié le Ghana pour une première demi-finale africaine."
+            "explanation": "Asamoah Gyan frappe la barre à la 120e minute contre l'Uruguay au Mondial 2010, après la main sur la ligne de Luis Suárez. Transformé, ce penalty qualifiait le Ghana pour la première demi-finale d'une équipe africaine. Le Ghana perdit ensuite aux tirs au but 4-2, et Suárez fut accueilli comme un héros à Montevideo malgré la polémique internationale."
         },
         {
             "id": "3",
-            "question": "Quel Brésilien a vu son penalty arrêté par Joël Bats dans le jeu lors du France–Brésil 1986 ?",
-            "answers": [
-                "Careca",
-                "Sócrates",
-                "Júnior",
-                "Zico"
-            ],
-            "correctIndex": 3,
-            "explanation": "Zico manque son penalty en cours de match. Ce moment est crucial car il aurait pu changer le cours d’un quart de finale déjà considéré comme l’un des plus grands matches de l’histoire."
+            "question": "Quel Brésilien a vu son penalty dans le jeu arrêté par Joël Bats lors du quart de finale France–Brésil 1986, dans un match souvent désigné comme l'un des plus grands de l'histoire du tournoi ?",
+            "answers": ["Careca", "Zico", "Júnior", "Sócrates"],
+            "correctIndex": 1,
+            "explanation": "Zico, entré en jeu en seconde période, manque son penalty en cours de match en 1986, arrêté par Joël Bats. Ce raté est d'autant plus cruel que Zico venait de rentrer sur le terrain pour changer le cours d'un quart de finale alors équilibré. La France et le Brésil se retrouvèrent ensuite à égalité aux tirs au but, où les Français l'emportèrent 4-3."
         },
         {
             "id": "4",
-            "question": "Quel Brésilien a vu son tir au but arrêté lors de la séance contre la France en 1986 ?",
-            "answers": [
-                "Zico",
-                "Sócrates",
-                "Careca",
-                "Júnior"
-            ],
-            "correctIndex": 1,
-            "explanation": "Sócrates échoue lors de la séance face à Joël Bats. Manquer le premier tir au but crée une pression immédiate sur toute l’équipe, souvent déterminante dans l’issue de la séance."
+            "question": "Quel Brésilien, l'une des figures emblématiques du football de sa génération, a vu son premier tir au but arrêté par Joël Bats lors de la séance contre la France en 1986 ?",
+            "answers": ["Zico", "Júnior", "Sócrates", "Careca"],
+            "correctIndex": 2,
+            "explanation": "Sócrates, médecin et figure intellectuelle du football brésilien, échoue face à Joël Bats lors de la séance de 1986. Manquer le premier tir brésilien installa une pression immédiate sur ses équipiers. Sócrates n'avait jamais remporté de Coupe du Monde — ce penalty raté lors de son dernier grand tournoi restera l'un des symboles de la génération brésilienne des années 1980, talentueuse mais sans titre mondial."
         },
         {
             "id": "5",
-            "question": "Quel joueur français a manqué son tir au but lors de la même séance en 1986 ?",
-            "answers": [
-                "Alain Giresse",
-                "Luis Fernandez",
-                "Michel Platini",
-                "Jean Tigana"
-            ],
-            "correctIndex": 2,
-            "explanation": "Platini envoie son tir au-dessus. Ce contraste entre son statut de leader et cet échec montre que même les plus grands joueurs peuvent céder sous la pression extrême."
+            "question": "Quel joueur français, alors triple Ballon d'Or en titre, a manqué son tir au but lors de la séance France–Brésil 1986, envoyant le ballon au-dessus de la barre ?",
+            "answers": ["Michel Platini", "Alain Giresse", "Luis Fernandez", "Jean Tigana"],
+            "correctIndex": 0,
+            "explanation": "Michel Platini, triple Ballon d'Or entre 1983 et 1985, envoie son tir au-dessus de la barre lors de la séance 1986. Ce contraste entre son statut de meilleur joueur du monde et cet échec illustre la cruauté des tirs au but. Luis Fernandez transforma le tir décisif, permettant à la France d'éliminer le Brésil 4-3 lors de ce quart de finale mémorable."
         },
         {
             "id": "6",
-            "question": "Quel Allemand a vu son tir au but arrêté par Ettori en demi-finale 1982 contre la France ?",
-            "answers": [
-                "Paul Breitner",
-                "Pierre Littbarski",
-                "Uli Stielike",
-                "Karl-Heinz Rummenigge"
-            ],
-            "correctIndex": 2,
-            "explanation": "Stielike s’effondre après son raté, pensant avoir éliminé son équipe. Le retournement final de la RFA rend ce moment encore plus marquant."
+            "question": "Quel défenseur de la RFA a vu son tir au but arrêté par Jean-Luc Ettori en demi-finale 1982 contre la France, avant de s'effondrer en pleurs sur la pelouse de Séville ?",
+            "answers": ["Paul Breitner", "Pierre Littbarski", "Karl-Heinz Rummenigge", "Uli Stielike"],
+            "correctIndex": 3,
+            "explanation": "Uli Stielike s'effondre en larmes après son raté en 1982, persuadé d'avoir éliminé la RFA. La séquence de la séance de Séville est l'une des plus dramatiques de l'histoire : Bossis vit ensuite son tir stoppé par Schumacher côté français, et Horst Hrubesch transforma le tir décisif pour la RFA, qui se qualifia pour une finale qu'elle perdit face à l'Italie (3-1)."
         },
         {
             "id": "7",
-            "question": "Quel Italien a manqué le premier tir au but de la finale 1994 ?",
-            "answers": [
-                "Roberto Baggio",
-                "Franco Baresi",
-                "Daniele Massaro",
-                "Demetrio Albertini"
-            ],
-            "correctIndex": 1,
-            "explanation": "Baresi tire au-dessus dès le début de la séance. Cela illustre l’importance du premier tireur dans la dynamique psychologique d’une séance."
+            "question": "Quel libéro légendaire de l'équipe d'Italie, revenu d'une opération du genou en cours de tournoi, a tiré le premier tir au but de la finale 1994 contre le Brésil au-dessus de la barre ?",
+            "answers": ["Roberto Baggio", "Daniele Massaro", "Franco Baresi", "Demetrio Albertini"],
+            "correctIndex": 2,
+            "explanation": "Franco Baresi, capitaine de l'Italie et l'un des meilleurs défenseurs de l'histoire, tire au-dessus dès le premier tir au but de la finale 1994. Il revenait d'une opération du genou effectuée pendant le tournoi — son retour en finale relevait déjà du miracle. L'Italie raterа finalement trois de ses cinq tirs, dont celui décisif de Roberto Baggio, perdant le titre aux tirs au but."
         },
         {
             "id": "8",
-            "question": "Quel Italien a vu son penalty arrêté par Taffarel en finale 1994 ?",
-            "answers": [
-                "Luigi Apolloni",
-                "Roberto Donadoni",
-                "Paolo Maldini",
-                "Daniele Massaro"
-            ],
-            "correctIndex": 3,
-            "explanation": "Massaro est le seul Italien dont le tir est arrêté par le gardien. Ce détail est crucial dans une séance où les autres ratés sont des tirs non cadrés."
+            "question": "Quel attaquant italien est le seul à avoir vu son tir au but arrêté par le gardien Taffarel — et non envoyé hors cadre — lors de la séance de la finale 1994 contre le Brésil ?",
+            "answers": ["Daniele Massaro", "Roberto Donadoni", "Paolo Maldini", "Luigi Apolloni"],
+            "correctIndex": 0,
+            "explanation": "Daniele Massaro voit son tir arrêté par Taffarel en 1994, seul cas d'arrêt du gardien dans une séance où les autres ratés italiens (Baresi, Baggio) furent des tirs non cadrés. Taffarel réalisa le geste de la main droite tendue, symbole de la résistance brésilienne. Le Brésil remporta son quatrième titre mondial 3-2 aux tirs au but."
         },
         {
             "id": "9",
-            "question": "Quel Italien a vu Goycochea arrêter son tir en demi-finale du Mondial 1990 ?",
-            "answers": [
-                "Giuseppe Giannini",
-                "Aldo Serena",
-                "Roberto Donadoni",
-                "Salvatore Schillaci"
-            ],
-            "correctIndex": 2,
-            "explanation": "Donadoni est le premier à échouer face à Goycochea. Le gardien argentin va bâtir sa légende sur ces séances."
+            "question": "Quel milieu de terrain de l'équipe d'Italie a vu Sergio Goycochea arrêter son tir au but en demi-finale du Mondial 1990 contre l'Argentine, offrant au gardien son premier arrêt décisif de la séance ?",
+            "answers": ["Giuseppe Giannini", "Roberto Donadoni", "Aldo Serena", "Salvatore Schillaci"],
+            "correctIndex": 1,
+            "explanation": "Roberto Donadoni voit son tir arrêté par Goycochea en 1990, lors de la demi-finale disputée à Naples. Goycochea enchaîna avec un deuxième arrêt sur le tir de Serena, éliminant ainsi l'Italie chez elle. Ces deux parades forgèrent la légende du gardien argentin, titularisé en cours de tournoi après la blessure de Nery Pumpido sur fracture lors d'un match de poules."
         },
         {
             "id": "10",
-            "question": "Quel Italien a manqué le tir au but décisif contre l’Argentine en 1990 ?",
-            "answers": [
-                "Andrea Carnevale",
-                "Salvatore Schillaci",
-                "Aldo Serena",
-                "Roberto Donadoni"
-            ],
-            "correctIndex": 2,
-            "explanation": "Serena voit son tir arrêté. Ce moment envoie l’Argentine en finale et confirme l’importance des gardiens dans ces situations."
+            "question": "Quel attaquant de l'équipe d'Italie a manqué le tir au but décisif contre l'Argentine en demi-finale 1990, laissant le pays hôte et l'un des favoris du tournoi sur le carreau ?",
+            "answers": ["Andrea Carnevale", "Salvatore Schillaci", "Roberto Donadoni", "Aldo Serena"],
+            "correctIndex": 3,
+            "explanation": "Aldo Serena voit son tir arrêté par Goycochea lors du dernier tir de la séance 1990 à Naples. Ce moment envoie l'Argentine en finale et confirme la valeur de Goycochea. L'Italie avait pourtant le meilleur buteur du tournoi en la personne de Salvatore Schillaci (6 buts) et jouait devant son public, dans le stade où Maradona évoluait en club."
         },
         {
             "id": "11",
-            "question": "Quel Anglais a envoyé son tir au but au-dessus en demi-finale 1990 ?",
-            "answers": [
-                "Gary Lineker",
-                "Stuart Pearce",
-                "Peter Beardsley",
-                "Chris Waddle"
-            ],
-            "correctIndex": 3,
-            "explanation": "Waddle rate le dernier tir anglais. Cet échec reste un symbole du traumatisme anglais face aux tirs au but."
+            "question": "Quel Anglais a envoyé le dernier tir au but de la demi-finale 1990 au-dessus de la barre, éliminant définitivement l'Angleterre et alimentant ce qu'on appela le « syndrome anglais » face aux tirs au but ?",
+            "answers": ["Chris Waddle", "Gary Lineker", "Peter Beardsley", "Stuart Pearce"],
+            "correctIndex": 0,
+            "explanation": "Chris Waddle tire au-dessus lors de la demi-finale 1990 contre l'Allemagne de l'Ouest à Turin, après que Stuart Pearce avait lui aussi raté son tir arrêté par Illgner. Ce double échec anglais est devenu le symbole d'un traumatisme national : entre 1990 et 2021, l'Angleterre perdit six séances de tirs au but consécutives dans les grandes compétitions internationales."
         },
         {
             "id": "12",
-            "question": "Quel milieu anglais a vu son tir au but arrêté contre le Portugal en 2006 ?",
-            "answers": [
-                "Michael Carrick",
-                "Frank Lampard",
-                "Steven Gerrard",
-                "David Beckham"
-            ],
+            "question": "Quel milieu anglais a vu son tir au but arrêté par Ricardo lors du quart de finale contre le Portugal en 2006, dans une séance où le gardien portugais avait ôté ses gants avant de marquer le penalty décisif ?",
+            "answers": ["Michael Carrick", "Frank Lampard", "Steven Gerrard", "David Beckham"],
             "correctIndex": 1,
-            "explanation": "Lampard voit son tir arrêté lors de la séance. Cette élimination renforce la réputation négative de l’Angleterre dans cet exercice."
+            "explanation": "Frank Lampard voit son tir arrêté par Ricardo en 2006 lors du quart de finale Angleterre–Portugal. Ricardo ôta ses gants pour signifier sa confiance, arrêta le tir de Lampard, puis inscrit lui-même le penalty décisif. Gerrard rata également son tir arrêté par Ricardo. Carragher, contraint de retirer son penalty après un empiètement de Ricardo sorti avant le coup de sifflet, le vit stoppé une seconde fois. Beckham, blessé en cours de match, n'avait pu participer à la séance."
         },
         {
             "id": "13",
-            "question": "Quel attaquant anglais a manqué un penalty dans le jeu contre la France en 2022 ?",
-            "answers": [
-                "Raheem Sterling",
-                "Phil Foden",
-                "Harry Kane",
-                "Marcus Rashford"
-            ],
+            "question": "Quel capitaine anglais a manqué un deuxième penalty consécutif en fin de match lors du quart de finale 2022 contre la France, envoyant le ballon au-dessus et éliminant son équipe ?",
+            "answers": ["Raheem Sterling", "Phil Foden", "Harry Kane", "Marcus Rashford"],
             "correctIndex": 2,
-            "explanation": "Kane rate son second penalty en envoyant le ballon au-dessus. La pression est amplifiée par le fait qu’il affronte son coéquipier Lloris."
+            "explanation": "Harry Kane rate son deuxième penalty en 2022 au Mondial qatari, envoyant le ballon largement au-dessus de la barre à la 84e minute, effaçant l'espoir d'un comeback anglais contre la France (défaite 2-1). La cruelle ironie : Kane avait transformé le premier penalty en début de seconde mi-temps. Son coéquipier de Tottenham Hugo Lloris gardait le but français ce soir-là."
         },
         {
             "id": "14",
-            "question": "Quel Brésilien a vu son tir au but arrêté par Pagliuca lors de la finale 1994 ?",
-            "answers": [
-                "Dunga",
-                "Bebeto",
-                "Romário",
-                "Márcio Santos"
-            ],
+            "question": "Quel défenseur brésilien est le seul à avoir vu son tir au but stoppé par le gardien Pagliuca lors de la finale 1994 contre l'Italie, le Brésil remportant malgré tout le titre mondial ?",
+            "answers": ["Dunga", "Bebeto", "Romário", "Márcio Santos"],
             "correctIndex": 3,
-            "explanation": "Márcio Santos est le seul Brésilien à voir son tir arrêté lors de la séance. Malgré cela, le Brésil remporte le titre."
+            "explanation": "Márcio Santos voit son tir stoppé par Gianluca Pagliuca lors du deuxième tir brésilien de la finale 1994. C'est le seul arrêt du gardien côté brésilien dans toute la séance. Le Brésil renversa la situation grâce aux deux erreurs de Baresi et Baggio côté italien, remportant son quatrième titre mondial sur le score de 3-2 aux tirs au but à Pasadena."
         },
         {
             "id": "15",
-            "question": "Quel gardien français a arrêté le penalty de Zico en 1986 ?",
-            "answers": [
-                "Fabien Barthez",
-                "Bernard Lama",
-                "Joël Bats",
-                "Jean-Luc Ettori"
-            ],
-            "correctIndex": 2,
-            "explanation": "Bats réalise une double performance en arrêtant un penalty dans le jeu puis en étant décisif aux tirs au but."
+            "question": "Quel défenseur anglais surnommé « Psycho » a vu son tir au but arrêté par Bodo Illgner lors de la demi-finale 1990 contre l'Allemagne de l'Ouest, avant de se venger six ans plus tard à l'Euro 1996 ?",
+            "answers": ["Gary Lineker", "Stuart Pearce", "Peter Beardsley", "Des Walker"],
+            "correctIndex": 1,
+            "explanation": "Stuart Pearce voit son tir arrêté par Bodo Illgner en demi-finale 1990 à Turin. Six ans plus tard, lors de l'Euro 1996 à Wembley, il marqua un penalty contre l'Espagne et célébra en criant toute sa rage — l'une des émotions les plus brutes de l'histoire du football anglais. L'image de ce rachat reste aussi forte dans les mémoires que l'échec de 1990."
         },
         {
             "id": "16",
-            "question": "Quel gardien français a arrêté le tir au but de Sócrates en 1986 ?",
-            "answers": [
-                "Bruno Martini",
-                "Jean Castaneda",
-                "Lionel Charbonnier",
-                "Joël Bats"
-            ],
-            "correctIndex": 3,
-            "explanation": "Arrêter le premier tir adverse permet de créer un avantage psychologique majeur dans une séance."
+            "question": "Quel gardien argentin a arrêté le tir au but de David Batty lors du huitième de finale du Mondial 1998 contre l'Angleterre, dans un match déjà célèbre pour le but de Michael Owen et l'expulsion de Beckham ?",
+            "answers": ["Ubaldo Fillol", "Nery Pumpido", "Carlos Roa", "Sergio Goycochea"],
+            "correctIndex": 2,
+            "explanation": "Carlos Roa arrête le tir de David Batty en 1998 au Stade Geoffroy-Guichard de Saint-Étienne, qualifiant l'Argentine. Batty, qui n'avait jamais tiré un penalty professionnel, vit son tir arrêté sans avoir eu le temps de réfléchir. Ce huitième de finale reste l'un des plus mémorables de l'histoire : le but de Michael Owen à 18 ans, l'expulsion de Beckham et une séance à couper le souffle."
         },
         {
             "id": "17",
-            "question": "Quel gardien argentin a brillé aux tirs au but en 1990 ?",
-            "answers": [
-                "Carlos Roa",
-                "Sergio Goycochea",
-                "Ubaldo Fillol",
-                "Nery Pumpido"
-            ],
-            "correctIndex": 1,
-            "explanation": "Goycochea devient une légende grâce à ses performances dans les séances, notamment contre l’Italie."
+            "question": "Quel gardien argentin a arrêté deux tirs au but italiens consécutifs en demi-finale 1990, devenant la figure tutélaire d'une campagne argentine inattendue jusqu'en finale à Rome ?",
+            "answers": ["Carlos Roa", "Ubaldo Fillol", "Nery Pumpido", "Sergio Goycochea"],
+            "correctIndex": 3,
+            "explanation": "Sergio Goycochea arrête les tirs de Donadoni et de Serena en 1990, qualifiant l'Argentine pour la finale. Titularisé en cours de tournoi après la fracture de Nery Pumpido, Goycochea n'était pas prévu comme gardien n°1. Il avait déjà sorti la Yougoslavie en quarts de finale lors d'une autre séance héroïque, bâtissant une légende sur deux séances de tirs au but en un seul tournoi."
         },
         {
             "id": "18",
-            "question": "Quelle équipe a profité du penalty raté de Gyan en 2010 ?",
-            "answers": [
-                "Pays-Bas",
-                "Argentine",
-                "Paraguay",
-                "Uruguay"
-            ],
-            "correctIndex": 3,
-            "explanation": "L’Uruguay se qualifie ensuite aux tirs au but. Ce moment reste l’un des plus controversés du football moderne."
+            "question": "Quelle équipe a bénéficié du penalty raté d'Asamoah Gyan en 2010 pour se qualifier aux dépens du Ghana, remportant ensuite la séance de tirs au but par 4-2 ?",
+            "answers": ["Pays-Bas", "Uruguay", "Argentine", "Paraguay"],
+            "correctIndex": 1,
+            "explanation": "L'Uruguay se qualifie en demi-finale du Mondial 2010 après le penalty raté de Gyan sur la barre, puis grâce à une victoire 4-2 aux tirs au but. Luis Suárez, expulsé pour sa main sur la ligne à la 120e minute, fut accueilli en héros à Montevideo malgré la controverse mondiale. L'Uruguay atteignit la demi-finale avant d'être éliminé par les Pays-Bas (3-2)."
         },
         {
             "id": "19",
-            "question": "À quel stade Roberto Baggio a-t-il manqué son penalty en 1994 ?",
-            "answers": [
-                "Les quarts",
-                "Les demi-finales",
-                "La finale",
-                "Les huitièmes"
-            ],
-            "correctIndex": 2,
-            "explanation": "Le fait que ce soit en finale amplifie considérablement l’impact émotionnel de ce raté."
+            "question": "Quel défenseur français a vu son tir au but arrêté par Harald Schumacher lors de la demi-finale 1982 contre la RFA, offrant à l'Allemagne de l'Ouest sa qualification pour la finale lors de la « Nuit de Séville » ?",
+            "answers": ["Maxime Bossis", "Alain Giresse", "Didier Six", "Michel Platini"],
+            "correctIndex": 0,
+            "explanation": "Maxime Bossis voit son tir arrêté par Harald Schumacher en 1982 lors du dernier tir français de la séance à Séville. Ce raté est d'autant plus marquant qu'il survient dans le contexte de la « Nuit de Séville » — une demi-finale considérée comme l'une des plus belles de l'histoire, entachée par l'agression non sanctionnée de Schumacher sur Patrick Battiston plus tôt dans le match."
         },
         {
             "id": "20",
-            "question": "Quel match célèbre combine un penalty raté dans le jeu et un tir au but raté côté Brésil en 1986 ?",
-            "answers": [
-                "Brésil - Italie 1982",
-                "Argentine - Allemagne 1990",
-                "France - Allemagne 1982",
-                "Brésil - France 1986"
-            ],
-            "correctIndex": 3,
-            "explanation": "Ce quart de finale concentre plusieurs moments clés, renforçant son statut de match mythique."
+            "question": "Quel gardien allemand a arrêté deux tirs au but argentins lors du quart de finale 2006 à Berlin, aidé d'une note dissimulée dans sa chaussette indiquant les habitudes des tireurs adverses ?",
+            "answers": ["Oliver Kahn", "Andreas Köpke", "Jens Lehmann", "Manuel Neuer"],
+            "correctIndex": 2,
+            "explanation": "Jens Lehmann arrête les tirs de Roberto Ayala et d'Esteban Cambiasso lors du quart de finale Allemagne–Argentine 2006, qualifiant la RFA aux dépens des favoris sud-américains (4-2 aux tirs au but). Avant la séance, le gardien avait consulté une note glissée dans sa chaussette par l'entraîneur des gardiens, indiquant le côté préférentiel de chaque tireur argentin — image devenue l'une des plus cocasses de l'histoire des tirs au but."
         }
     ]
 }

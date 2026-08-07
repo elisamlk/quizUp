@@ -4,10 +4,7 @@
     "description": "Merckx, Henin, Lukaku, Ickx, Thiam... Sauras-tu reconnaître les plus grands champions belges de l'histoire du sport ?",
     "publishedAt": "2026-07-10",
     "descriptionSeo": "Le sport belge a vu naître de nombreux champions qui ont marqué leur discipline et remporté les plus grandes compétitions internationales. D'Eddy Merckx à Justine Henin, en passant par Romelu Lukaku, Nafissatou Thiam, Jacky Ickx ou Wout van Aert, ce quiz de 20 questions te propose de découvrir les plus grands sportifs belges et leurs exploits. Une excellente façon d'enrichir ta culture sportive tout en relevant un défi passionnant.",
-    "category": {
-        "name": "Sport",
-        "slug": "sport"
-    },
+    "category": { "name": "Sport", "slug": "sport" },
     "createdAt": "2026-06-29",
     "isNew": true,
     "isPopular": false,
@@ -19,244 +16,143 @@
     "questions": [
         {
             "id": "1",
-            "question": "Quel cycliste belge, surnommé « le Cannibale », est le sportif belge le plus titré de l'histoire avec plus de 525 victoires professionnelles à son palmarès ?",
-            "answers": [
-                "Philippe Gilbert",
-                "Tom Boonen",
-                "Eddy Merckx",
-                "Johan Museeuw"
-            ],
+            "question": "Quel cycliste belge, surnommé « le Cannibale », est le sportif belge le plus titré de l'histoire avec plus de 525 victoires professionnelles, dont les cinq Monuments du cyclisme ?",
+            "answers": ["Philippe Gilbert", "Tom Boonen", "Eddy Merckx", "Johan Museeuw"],
             "correctIndex": 2,
-            "explanation": "Eddy Merckx, surnommé « le Cannibale » pour son appétit de victoires, est le cycliste le plus titré de l'histoire avec plus de 525 succès. Il a remporté 5 Tours de France, 5 Tours d'Italie, 1 Tour d'Espagne, 3 championnats du monde et les cinq Monuments du cyclisme."
+            "explanation": "Eddy Merckx, surnommé « le Cannibale » pour son appétit insatiable de victoires, accumula plus de 525 succès professionnels entre 1965 et 1978. Il remporta 5 Tours de France (1969-1972, 1974), 5 Tours d'Italie, 1 Tour d'Espagne, 3 championnats du monde sur route (1967, 1971, 1974) et les cinq Monuments du cyclisme — une liste de palmarès qu'aucun cycliste n'a jamais approchée."
         },
         {
             "id": "2",
-            "question": "Combien de fois Eddy Merckx remporta-t-il le Tour de France, établissant un record qu'il partage avec Jacques Anquetil, Bernard Hinault et Miguel Induráin ?",
-            "answers": [
-                "5",
-                "4",
-                "6",
-                "7"
-            ],
+            "question": "Combien de fois Eddy Merckx remporta-t-il le Tour de France, un record qu'il partage avec Jacques Anquetil, Bernard Hinault et Miguel Induráin ?",
+            "answers": ["5", "4", "6", "7"],
             "correctIndex": 0,
-            "explanation": "Eddy Merckx remporta 5 fois le Tour de France (1969, 1970, 1971, 1972 et 1974), un record qu'il partage avec Jacques Anquetil, Bernard Hinault et Miguel Induráin, et que Lance Armstrong aurait dépassé si ses victoires n'avaient pas été effacées."
+            "explanation": "Eddy Merckx remporta 5 fois le Tour de France en 1969, 1970, 1971, 1972 et 1974, un record partagé avec Jacques Anquetil (1957-1964), Bernard Hinault (1978-1985) et Miguel Induráin (1991-1995). Lance Armstrong en comptait 7, mais toutes ses victoires furent effacées en 2012 par l'USADA en raison de dopage."
         },
         {
             "id": "3",
-            "question": "Quelle joueuse de tennis belge remporta 6 titres du Grand Chelem en simple, dont 4 Roland-Garros, et fut classée numéro un mondiale pendant 117 semaines ?",
-            "answers": [
-                "Kim Clijsters",
-                "Justine Henin",
-                "Yanina Wickmayer",
-                "Elise Mertens"
-            ],
+            "question": "Quelle joueuse de tennis belge remporta 7 titres du Grand Chelem en simple, dont 4 Roland-Garros, et fut classée numéro une mondiale pendant 117 semaines ?",
+            "answers": ["Kim Clijsters", "Justine Henin", "Yanina Wickmayer", "Elise Mertens"],
             "correctIndex": 1,
-            "explanation": "Justine Henin remporta 6 titres du Grand Chelem en simple : Roland-Garros 4 fois (2003, 2005, 2006, 2007), l'US Open (2003) et l'Open d'Australie (2004). Elle fut numéro une mondiale pendant 117 semaines et est considérée comme la plus grande joueuse belge de l'histoire du tennis."
+            "explanation": "Justine Henin remporta 7 titres du Grand Chelem en simple : Roland-Garros 4 fois (2003, 2005, 2006, 2007), l'US Open (2003, 2007) et l'Open d'Australie (2004). Elle fut numéro une mondiale pendant 117 semaines et est considérée comme la plus grande joueuse belge de l'histoire du tennis. Elle prit sa retraite une première fois en 2008, avant de revenir brièvement en 2010-2011."
         },
         {
             "id": "4",
-            "question": "Quel footballeur belge, attaquant puissant, fut le premier Belge à remporter le titre de Serie A en 2021, avec l'Inter Milan de l'entraîneur Antonio Conte ?",
-            "answers": [
-                "Eden Hazard",
-                "Kevin De Bruyne",
-                "Vincent Kompany",
-                "Romelu Lukaku"
-            ],
+            "question": "Quel attaquant belge fut la pièce maîtresse de l'Inter Milan qui remporta le Scudetto en 2021, mettant fin à neuf années de domination de la Juventus en Serie A ?",
+            "answers": ["Eden Hazard", "Kevin De Bruyne", "Vincent Kompany", "Romelu Lukaku"],
             "correctIndex": 3,
-            "explanation": "Romelu Lukaku fut une pièce maîtresse de l'Inter Milan qui remporta le Scudetto (titre de Serie A) en 2021, mettant fin à onze ans de domination de la Juventus. Ce titre fut le premier de l'histoire pour un international belge en Serie A."
+            "explanation": "Romelu Lukaku, transféré de Manchester United à l'Inter Milan en 2019, inscrivit 24 buts en Serie A lors de la saison 2020-2021, contribuant décisivement au Scudetto remporté sous Antonio Conte. Ce titre interrompit la série de neuf titres consécutifs de la Juventus et fut le premier grand titre européen de la carrière de Lukaku."
         },
         {
             "id": "5",
-            "question": "Quelle athlète belge spécialiste du heptathlon est la première sportive de son pays à remporter deux médailles d'or olympiques consécutives (2016 et 2021) ?",
-            "answers": [
-                "Ingrid Berghmans",
-                "Kim Clijsters",
-                "Nafissatou Thiam",
-                "Elise Mertens"
-            ],
+            "question": "Quelle athlète belge spécialiste du heptathlon est la première sportive de son pays à remporter deux médailles d'or olympiques consécutives, en 2016 et 2021 ?",
+            "answers": ["Ingrid Berghmans", "Kim Clijsters", "Nafissatou Thiam", "Elise Mertens"],
             "correctIndex": 2,
-            "explanation": "Nafissatou Thiam (née en 1994) a remporté l'or olympique au heptathlon à Rio en 2016 et à Tokyo en 2021, devenant ainsi la première athlète belge à remporter deux médailles d'or olympiques consécutives dans la même discipline. Elle est également double championne du monde (2017, 2019)."
+            "explanation": "Nafissatou Thiam a remporté l'or olympique au heptathlon à Rio en 2016 et à Tokyo en 2021, devenant la première athlète belge à s'imposer lors de deux olympiades consécutives dans la même discipline. Triple championne du monde (2017, 2019, 2022), elle améliora le record du monde du pentathlon intérieur en 2020 avec 4 985 points."
         },
         {
             "id": "6",
-            "question": "Quel cycliste belge fut champion du monde sur route en 2005, remporta 4 fois Paris-Roubaix et fut surnommé « Capi » par ses coéquipiers et les fans flamands ?",
-            "answers": [
-                "Tom Boonen",
-                "Philippe Gilbert",
-                "Remco Evenepoel",
-                "Wout van Aert"
-            ],
-            "correctIndex": 0,
-            "explanation": "Tom Boonen fut l'un des plus grands spécialistes des classiques pavées, remportant Paris-Roubaix en 2005, 2008, 2009 et 2012, ainsi que le Tour des Flandres en 2005 et 2006. Il fut sacré champion du monde en 2005 à Madrid."
+            "question": "Quel cycliste belge fut champion du monde sur route en 2005 à Madrid, remporta 4 fois Paris-Roubaix et fut surnommé « Capi » par ses coéquipiers et les fans flamands ?",
+            "answers": ["Philippe Gilbert", "Remco Evenepoel", "Wout van Aert", "Tom Boonen"],
+            "correctIndex": 3,
+            "explanation": "Tom Boonen fut l'un des plus grands spécialistes des classiques pavées, remportant Paris-Roubaix en 2005, 2008, 2009 et 2012 (record partagé avec Roger De Vlaeminck), ainsi que le Tour des Flandres en 2005 et 2006. Il fut sacré champion du monde en 2005 à Madrid face à Alejandro Valverde et Alessandro Petacchi."
         },
         {
             "id": "7",
-            "question": "Quel pilote belge de Formule 1, surnommé « Monsieur Le Mans » pour ses six victoires dans cette course, fut vice-champion du monde de F1 en 1969 et 1970 ?",
-            "answers": [
-                "Thierry Boutsen",
-                "Jacky Ickx",
-                "Eric van de Poele",
-                "Bertrand Gachot"
-            ],
+            "question": "Quel pilote belge, surnommé « Monsieur Le Mans » pour ses six victoires dans cette course mythique, fut vice-champion du monde de Formule 1 en 1969 et 1970 ?",
+            "answers": ["Thierry Boutsen", "Jacky Ickx", "Eric van de Poele", "Bertrand Gachot"],
             "correctIndex": 1,
-            "explanation": "Jacky Ickx (né en 1945) est le pilote le plus victorieux des 24 Heures du Mans avec 6 victoires (1969, 1975, 1976, 1977, 1981, 1982). En Formule 1, il fut vice-champion du monde en 1969 et 1970, terminant deux fois derrière Jackie Stewart et Jochen Rindt."
+            "explanation": "Jacky Ickx (né en 1945) est le pilote belge le plus victorieux des 24 Heures du Mans avec 6 victoires (1969, 1975, 1976, 1977, 1981, 1982). En Formule 1, il fut vice-champion du monde en 1969 derrière Jackie Stewart et en 1970 derrière Jochen Rindt — ce dernier sacré à titre posthume après sa mort à Monza. Ickx remporta 8 Grands Prix en carrière."
         },
         {
             "id": "8",
-            "question": "Quelle judoka belge, surnommée « la Reine du judo », remporta 6 titres de championne du monde et une médaille d'or olympique lors des Jeux de Séoul en 1988 ?",
-            "answers": [
-                "Ingrid Berghmans",
-                "Carine Verbauwen",
-                "Charline Van Snick",
-                "Axelle Renard"
-            ],
+            "question": "Quelle judoka belge, surnommée « la Reine du judo », remporta 6 titres de championne du monde entre 1980 et 1989 et remporta l'épreuve de démonstration du judo féminin aux Jeux de Séoul en 1988 ?",
+            "answers": ["Ingrid Berghmans", "Carine Verbauwen", "Charline Van Snick", "Axelle Renard"],
             "correctIndex": 0,
-            "explanation": "Ingrid Berghmans (née en 1961) est la judoka la plus titrée de l'histoire belge, avec 6 titres mondiaux entre 1980 et 1989. Aux Jeux olympiques de Séoul en 1988, alors que le judo féminin était encore en démonstration, elle remporta la médaille d'or, consacrant une carrière exceptionnelle."
+            "explanation": "Ingrid Berghmans (née en 1961) est la judoka la plus titrée de l'histoire belge, avec 6 titres mondiaux entre 1980 et 1989 dans la catégorie des poids lourds et en toutes catégories. Aux Jeux olympiques de Séoul en 1988, alors que le judo féminin était encore épreuve de démonstration (sans médaille officielle au classement olympique), elle remporta la victoire dans cette épreuve, parachevant une carrière sans équivalent dans son sport."
         },
         {
             "id": "9",
-            "question": "Quel cycliste belge fut champion du monde sur route en 2012 à Valkenburg et est l'un des rares coureurs à avoir remporté les cinq Monuments du cyclisme au cours de sa carrière ?",
-            "answers": [
-                "Tom Boonen",
-                "Wout van Aert",
-                "Philippe Gilbert",
-                "Remco Evenepoel"
-            ],
+            "question": "Quel cycliste belge fut champion du monde sur route en 2012 à Valkenburg et est l'un des très rares coureurs à avoir remporté les cinq Monuments du cyclisme ?",
+            "answers": ["Tom Boonen", "Wout van Aert", "Philippe Gilbert", "Remco Evenepoel"],
             "correctIndex": 2,
-            "explanation": "Philippe Gilbert est l'un des très rares cyclistes à avoir remporté les cinq Monuments : Milan-San Remo (2011), Tour des Flandres (2017), Paris-Roubaix (2019), Liège-Bastogne-Liège (2011) et le Tour de Lombardie (2009, 2010, 2011). Il fut également champion du monde en 2012."
+            "explanation": "Philippe Gilbert est l'un des très rares cyclistes à avoir remporté les cinq Monuments : Milan-San Remo (2011), Tour des Flandres (2017), Paris-Roubaix (2019), Liège-Bastogne-Liège (2011) et le Tour de Lombardie (2009, 2010, 2011). Il fut également champion du monde en 2012 à Valkenburg, dans un sprint de sélection sur un circuit particulièrement exigeant."
         },
         {
             "id": "10",
-            "question": "Quel footballeur belge, défenseur central légendaire de Manchester City, fut élu meilleur joueur de Premier League et capitaine des Diables Rouges pendant de nombreuses années ?",
-            "answers": [
-                "Vincent Kompany",
-                "Kevin De Bruyne",
-                "Eden Hazard",
-                "Jan Vertonghen"
-            ],
+            "question": "Quel défenseur central belge, capitaine de Manchester City et des Diables Rouges, fut élu meilleur joueur de l'année par ses pairs de la PFA lors de la saison 2011-2012 ?",
+            "answers": ["Vincent Kompany", "Kevin De Bruyne", "Eden Hazard", "Jan Vertonghen"],
             "correctIndex": 0,
-            "explanation": "Vincent Kompany (né en 1986), capitaine emblématique de Manchester City et de la sélection belge, remporta 4 titres de Premier League avec les Citizens. Son leadership et sa lecture du jeu en ont fait l'un des meilleurs défenseurs centraux de sa génération en Europe."
+            "explanation": "Vincent Kompany (né en 1986) remporta le titre PFA Players' Player of the Year lors de la saison 2011-2012, la saison où Manchester City remporta le titre de Premier League de la façon la plus dramatique — grâce au but d'Agüero dans les arrêts de jeu du dernier match contre QPR. Il remporta 4 titres de Premier League avec les Citizens et fut capitaine exemplaire des Diables Rouges."
         },
         {
             "id": "11",
-            "question": "Quelle joueuse de tennis belge remporta 4 titres du Grand Chelem (dont 3 US Open), notamment après avoir effectué deux retours à la compétition depuis sa première retraite ?",
-            "answers": [
-                "Justine Henin",
-                "Kim Clijsters",
-                "Sabine Appelmans",
-                "Elise Mertens"
-            ],
+            "question": "Quelle joueuse de tennis belge remporta 4 titres du Grand Chelem après une première retraite en 2007, revenant en 2009 comme mère de famille pour aussitôt remporter l'US Open ?",
+            "answers": ["Justine Henin", "Kim Clijsters", "Sabine Appelmans", "Elise Mertens"],
             "correctIndex": 1,
-            "explanation": "Kim Clijsters remporta 4 titres du Grand Chelem : l'US Open en 2005, 2009 et 2010, ainsi que l'Open d'Australie en 2011. Après une première retraite en 2007, elle revint à la compétition en 2009 et remporta l'US Open dès son retour en tant que mère de famille, un exploit inédit dans l'histoire du tennis."
+            "explanation": "Kim Clijsters remporta 4 titres du Grand Chelem : l'US Open en 2005, 2009 et 2010, ainsi que l'Open d'Australie en 2011. Après sa première retraite en 2007 pour fonder une famille, elle revint en 2009 et remporta l'US Open dès son troisième tournoi disputé — un exploit unique dans l'histoire du tennis. Elle effectua un second retour en 2020, à 36 ans."
         },
         {
             "id": "12",
-            "question": "Quel cycliste belge, né en 2000, fut sacré champion du monde sur route en 2022 puis champion olympique en 2024, devenant l'un des plus grands talents de sa génération ?",
-            "answers": [
-                "Wout van Aert",
-                "Jasper Stuyven",
-                "Dylan Teuns",
-                "Remco Evenepoel"
-            ],
+            "question": "Quel cycliste belge, né en 2000, fut sacré champion du monde sur route en 2022, vainqueur de la Vuelta 2022 puis double champion olympique à Paris 2024 ?",
+            "answers": ["Wout van Aert", "Jasper Stuyven", "Dylan Teuns", "Remco Evenepoel"],
             "correctIndex": 3,
-            "explanation": "Remco Evenepoel (né en 2000) a réalisé un parcours fulgurant : champion du monde sur route en 2022, vainqueur de la Vuelta 2022, puis champion olympique sur route aux Jeux de Paris 2024, où il remporta également l'or en contre-la-montre, devenant le premier Belge à remporter deux médailles d'or au cyclisme dans les mêmes Jeux."
+            "explanation": "Remco Evenepoel (né en 2000) a réalisé un parcours fulgurant : champion du monde sur route en 2022, vainqueur de la Vuelta 2022, puis champion olympique sur route et en contre-la-montre aux Jeux de Paris 2024 — premier Belge à remporter deux médailles d'or dans la même olympiade de cyclisme sur route. Sa progression a transformé le paysage du cyclisme mondial en moins de cinq ans."
         },
         {
             "id": "13",
-            "question": "Quel athlète belge du 800 m remporta deux médailles d'argent aux Jeux olympiques de 1976 à Montréal, avant de mourir tragiquement dans un accident de voiture quelques mois plus tard, à seulement 22 ans ?",
-            "answers": [
-                "Roger Moens",
-                "Gaston Roelants",
-                "Ivo Van Damme",
-                "Michel Büchler"
-            ],
+            "question": "Quel athlète belge remporta deux médailles d'argent aux Jeux de Montréal en 1976, au 800 m et au 1 500 m, avant de mourir tragiquement dans un accident de voiture à 22 ans ?",
+            "answers": ["Roger Moens", "Gaston Roelants", "Ivo Van Damme", "Michel Büchler"],
             "correctIndex": 2,
-            "explanation": "Ivo Van Damme (1954-1976) réalisa l'exploit rare de remporter deux médailles d'argent lors des mêmes Jeux, au 800 m et au 1 500 m à Montréal en 1976. Promis à un avenir exceptionnel, il mourut le 8 décembre 1976 dans un accident de voiture en Belgique, à seulement 22 ans."
+            "explanation": "Ivo Van Damme (1954-1976) réalisa l'exploit rare de remporter deux médailles d'argent lors des mêmes Jeux, au 800 m et au 1 500 m à Montréal en 1976. Promis à un avenir exceptionnel sur piste, il mourut le 8 décembre 1976 dans un accident de voiture en Belgique. Le mémorial Ivo Van Damme, organisé chaque année à Bruxelles, perpétue sa mémoire."
         },
         {
             "id": "14",
-            "question": "Quel nageur belge remporta la médaille d'or au 100 m brasse aux Jeux olympiques d'Atlanta en 1996, établissant un record du monde et offrant à la Belgique un titre olympique inattendu en natation ?",
-            "answers": [
-                "Frederick Deburghgraeve",
-                "Pieter Timmers",
-                "Louis Croenen",
-                "Victor Boin"
-            ],
+            "question": "Quel nageur belge remporta l'or au 100 m brasse aux Jeux olympiques d'Atlanta en 1996, en établissant un record du monde en 1 min 00 s 60 ?",
+            "answers": ["Frederick Deburghgraeve", "Pieter Timmers", "Louis Croenen", "Victor Boin"],
             "correctIndex": 0,
-            "explanation": "Frederick Deburghgraeve remporta l'or au 100 m brasse aux JO d'Atlanta en 1996, en établissant un record du monde en 1 min 00 s 60. Cet exploit inattendu restera l'un des moments les plus marquants du sport belge des années 1990."
+            "explanation": "Frederick Deburghgraeve remporta l'or au 100 m brasse aux JO d'Atlanta en 1996 en établissant un record du monde en 1 min 00 s 60, devenant le premier homme à nager l'épreuve en moins de 1 minute et 1 seconde. Cet exploit reste à ce jour l'une des plus grandes surprises de l'histoire de la natation olympique belge."
         },
         {
             "id": "15",
-            "question": "Quel cycliste belge des années 1990-2000, surnommé « le Lion des Flandres », remporta 3 fois le Tour des Flandres et 3 fois Paris-Roubaix malgré une terrible blessure au genou en 1998 ?",
-            "answers": [
-                "Roger De Vlaeminck",
-                "Johan Museeuw",
-                "Tom Boonen",
-                "Eddy Planckaert"
-            ],
+            "question": "Quel cycliste belge surnommé « le Lion des Flandres » remporta 3 fois le Tour des Flandres et 3 fois Paris-Roubaix dans les années 1990-2000, surmontant une blessure au genou qui avait failli lui coûter la jambe ?",
+            "answers": ["Roger De Vlaeminck", "Johan Museeuw", "Tom Boonen", "Eddy Planckaert"],
             "correctIndex": 1,
-            "explanation": "Johan Museeuw (né en 1965) fut l'un des plus grands spécialistes des classiques des années 1990, surnommé « de Leeuw van Vlaanderen » (le Lion des Flandres). Il remporta le Tour des Flandres en 1993, 1995 et 1998, et Paris-Roubaix en 1996, 2000 et 2002, la dernière victoire survenant après une blessure au genou qui avait failli lui coûter la jambe."
+            "explanation": "Johan Museeuw (né en 1965), surnommé « de Leeuw van Vlaanderen », remporta le Tour des Flandres en 1993, 1995 et 1998, et Paris-Roubaix en 1996, 2000 et 2002. Sa victoire à Roubaix en 2002 fut la plus symbolique : il revenait d'une infection gangreneuse au genou contractée lors d'une chute à Paris-Roubaix en 1998, qui avait failli lui coûter la jambe."
         },
         {
             "id": "16",
-            "question": "Quel footballeur belge du Real Madrid et ancien capitaine des Diables Rouges est particulièrement reconnu pour ses saisons brillantes comme ailier à Chelsea en Premier League ?",
-            "answers": [
-                "Kevin De Bruyne",
-                "Romelu Lukaku",
-                "Vincent Kompany",
-                "Eden Hazard"
-            ],
+            "question": "Quel ailier belge réalisa ses meilleures années à Chelsea entre 2012 et 2019, remportant deux titres de Premier League et deux Europa League, avant un transfert décevant au Real Madrid ?",
+            "answers": ["Kevin De Bruyne", "Romelu Lukaku", "Vincent Kompany", "Eden Hazard"],
             "correctIndex": 3,
-            "explanation": "Eden Hazard (né en 1991) a réalisé ses meilleures années à Chelsea (2012-2019), remportant deux titres de Premier League, deux Europa League et deux Souliers d'argent. Transféré au Real Madrid en 2019, les blessures l'ont empêché de confirmer son talent au plus haut niveau."
+            "explanation": "Eden Hazard (né en 1991) a réalisé ses meilleures années à Chelsea (2012-2019), remportant deux titres de Premier League (2015, 2017), deux Europa League (2013, 2019) et deux Souliers d'argent de meilleur joueur de la saison en Premier League (2015, 2019). Transféré au Real Madrid pour 100 millions d'euros, les blessures à répétition l'empêchèrent d'exprimer tout son talent."
         },
         {
             "id": "17",
-            "question": "Quel cycliste belge des années 1970, surnommé « le Gitan », remporta 4 fois Paris-Roubaix et 3 fois Milan-San Remo, s'imposant comme le maître incontesté des classiques pavées ?",
-            "answers": [
-                "Eddy Merckx",
-                "Tom Boonen",
-                "Roger De Vlaeminck",
-                "Johan Museeuw"
-            ],
+            "question": "Quel cycliste belge des années 1970, surnommé « le Gitan », remporta 4 fois Paris-Roubaix et 3 fois Milan-San Remo, s'imposant comme le maître des classiques pavées de son époque ?",
+            "answers": ["Eddy Merckx", "Tom Boonen", "Roger De Vlaeminck", "Johan Museeuw"],
             "correctIndex": 2,
-            "explanation": "Roger De Vlaeminck (né en 1947), surnommé « de Gitane » (le Gitan), remporta Paris-Roubaix en 1972, 1974, 1975 et 1977 — partageant le record de 4 victoires avec Tom Boonen — et Milan-San Remo en 1973, 1978 et 1979. Il reste l'un des plus grands spécialistes des classiques du Nord de l'histoire du cyclisme."
+            "explanation": "Roger De Vlaeminck (né en 1947), surnommé « de Gitane » (le Gitan), remporta Paris-Roubaix en 1972, 1974, 1975 et 1977 — un record qu'il partage avec Tom Boonen — et Milan-San Remo en 1973, 1978 et 1979. Il remporta également le Tour de Lombardie en 1974 et 1975, terminant sa carrière avec 4 des 5 Monuments cyclistes à son palmarès."
         },
         {
             "id": "18",
-            "question": "Quel footballeur belge, milieu de terrain de Manchester City, participa au triplé historique du club (Premier League, FA Cup, Ligue des Champions) en 2023, une première dans l'histoire anglaise ?",
-            "answers": [
-                "Kevin De Bruyne",
-                "Vincent Kompany",
-                "Dries Mertens",
-                "Axel Witsel"
-            ],
+            "question": "Quel milieu de terrain belge de Manchester City fut l'artisan du triplé (Premier League, FA Cup, Ligue des Champions) en 2022-2023, faisant de City le deuxième club anglais à réaliser cet exploit après Manchester United en 1999 ?",
+            "answers": ["Kevin De Bruyne", "Vincent Kompany", "Dries Mertens", "Axel Witsel"],
             "correctIndex": 0,
-            "explanation": "Kevin De Bruyne fut l'un des acteurs majeurs du triplé historique réalisé par Manchester City en 2023 (Premier League, FA Cup, Ligue des Champions), le premier club anglais à accomplir cet exploit. Il est considéré comme l'un des meilleurs milieux de terrain de sa génération."
+            "explanation": "Kevin De Bruyne fut l'un des artisans du triplé de Manchester City en 2022-2023, faisant de City le deuxième club anglais à réaliser cet exploit après Manchester United en 1999 (sous Alex Ferguson). Considéré comme l'un des meilleurs milieux de terrain du monde, il a accumulé les passes décisives et les buts décisifs dans les grandes rencontres européennes depuis son arrivée à City en 2015."
         },
         {
             "id": "19",
-            "question": "Quel ancien sportif belge, trois fois participant aux Jeux olympiques en voile (1968, 1972 et 1976), fut président du Comité International Olympique de 2001 à 2013 ?",
-            "answers": [
-                "Marc Hodler",
-                "Jacques Rogge",
-                "Thomas Bach",
-                "Henri de Baillet-Latour"
-            ],
+            "question": "Quel ancien sportif belge, régatier olympique à trois reprises (1968, 1972 et 1976), présida le Comité International Olympique de 2001 à 2013 ?",
+            "answers": ["Marc Hodler", "Jacques Rogge", "Thomas Bach", "Henri de Baillet-Latour"],
             "correctIndex": 1,
-            "explanation": "Jacques Rogge (1942-2021), chirurgien orthopédiste et régatier belge, participa à trois Jeux olympiques en voile (1968, 1972 et 1976) sans remporter de médaille. Il fut président du CIO de 2001 à 2013 et instaura notamment les Jeux olympiques de la Jeunesse. Henri de Baillet-Latour, l'autre Belge président du CIO, l'avait précédé dans cette fonction (1925-1942)."
+            "explanation": "Jacques Rogge (1942-2021), chirurgien orthopédiste et régatier belge, participa à trois Jeux olympiques en voile (1968, 1972 et 1976) sans remporter de médaille. Il fut président du CIO de 2001 à 2013 et instaura notamment les Jeux olympiques de la Jeunesse. Un autre Belge, Henri de Baillet-Latour, avait présidé le CIO entre 1925 et 1942."
         },
         {
             "id": "20",
-            "question": "Quel cycliste belge, multiple champion du monde de cyclo-cross et vainqueur de grandes classiques sur route comme Milan-San Remo, est reconnu pour sa polyvalence unique à très haut niveau ?",
-            "answers": [
-                 "Wout van Aert",
-                "Tom Boonen",
-                "Remco Evenepoel",
-                "Philippe Gilbert"
-               
-            ],
-            "correctIndex": 0,
-            "explanation": "Wout van Aert (né en 1994) est l'un des cyclistes les plus polyvalents de l'histoire, capable de gagner aussi bien en cyclo-cross (3 titres mondiaux), sur des classiques pavées, qu'en sprint ou en montagne sur les grands tours. Sa rivalité avec Mathieu van der Poel est l'une des plus fascinantes du cyclisme contemporain."
+            "question": "Quel cycliste belge, triple champion du monde de cyclo-cross et vainqueur de Milan-San Remo, est reconnu pour une polyvalence unique permettant de gagner sur tous les terrains ?",
+            "answers": ["Tom Boonen", "Remco Evenepoel", "Philippe Gilbert", "Wout van Aert"],
+            "correctIndex": 3,
+            "explanation": "Wout van Aert (né en 1994) est l'un des cyclistes les plus polyvalents de l'histoire, capable de s'imposer en cyclo-cross (3 titres mondiaux : 2016, 2017, 2018), en classiques (Milan-San Remo 2020, Gand-Wevelgem 2020, 2022), en sprint sur les Grands Tours et en montagne. Sa rivalité avec le Néerlandais Mathieu van der Poel est l'une des plus fascinantes du cyclisme contemporain."
         }
     ]
 }

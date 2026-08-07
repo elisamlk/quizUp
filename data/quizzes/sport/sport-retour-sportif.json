@@ -3,11 +3,8 @@
     "title": "Quiz Sport - Les Plus Grands Retours Sportifs",
     "description": "Remontadas, retours après blessure et exploits improbables : connais-tu les plus grands retours de l'histoire du sport ?",
     "publishedAt": "2026-06-12",
-    "descriptionSeo": "Teste tes connaissances sur les plus grands retours sportifs de l’histoire. Football, tennis, basket, boxe, golf, Formule 1 ou football américain : découvre les remontées spectaculaires, les retours après blessure et les exploits qui ont marqué le monde du sport.",
-    "category": {
-        "name": "Sport",
-        "slug": "sport"
-    },
+    "descriptionSeo": "Teste tes connaissances sur les plus grands retours sportifs de l'histoire. Football, tennis, basket, boxe, golf, Formule 1 ou football américain : découvre les remontées spectaculaires, les retours après blessure et les exploits qui ont marqué le monde du sport.",
+    "category": { "name": "Sport", "slug": "sport" },
     "createdAt": "2026-06-06",
     "isNew": true,
     "isPopular": true,
@@ -19,243 +16,143 @@
     "questions": [
         {
             "id": "1",
-            "question": "Quelle équipe a réalisé une remontée historique contre le PSG en Ligue des champions après avoir perdu 4-0 à l'aller ?",
-            "answers": [
-                "Real Madrid",
-                "Liverpool",
-                "Bayern Munich",
-                "FC Barcelone"
-            ],
+            "question": "Quelle équipe a réalisé la remontée dite « Remontada » en Ligue des champions 2017, en renversant un déficit de 4-0 avec un 6-1 retentissant contre le PSG ?",
+            "answers": ["Real Madrid", "Liverpool", "Bayern Munich", "FC Barcelone"],
             "correctIndex": 3,
-            "explanation": "En 2017, le FC Barcelone s'impose 6-1 au match retour après une défaite 4-0 à l'aller. Cette remontée est devenue l'une des plus célèbres de l'histoire du football européen."
+            "explanation": "En mars 2017, le FC Barcelone s'impose 6-1 au Camp Nou contre le PSG après une défaite 0-4 à l'aller. Les six buts barcelonais ont été inscrits par Suárez, Kurzawa (CSC), Messi, un doublé de Neymar et Sergi Roberto — dont le but décisif en toute dernière minute — pour faire entrer cette soirée dans la légende européenne sous le nom de « Remontada »."
         },
         {
             "id": "2",
-            "question": "Quel golfeur est revenu au sommet en remportant le Masters 2019 après plusieurs années marquées par les blessures ?",
-            "answers": [
-                "Phil Mickelson",
-                "Tiger Woods",
-                "Rory McIlroy",
-                "Jordan Spieth"
-            ],
+            "question": "Quel golfeur a remporté le Masters d'Augusta 2019, onze ans après son dernier titre majeur, au terme d'une décennie marquée par des blessures et des scandales personnels ?",
+            "answers": ["Phil Mickelson", "Tiger Woods", "Rory McIlroy", "Jordan Spieth"],
             "correctIndex": 1,
-            "explanation": "Tiger Woods remporte le Masters 2019, onze ans après son précédent titre majeur. Après des opérations, des blessures et une longue période de doute, ce sacre est considéré comme l’un des plus grands retours du sport moderne."
+            "explanation": "Tiger Woods remporte le Masters 2019, onze ans après son dernier titre en Grand Chelem (US Open 2008). Entre-temps, il avait subi quatre opérations du dos, une rupture du ligament croisé, et traversé une crise personnelle majeure en 2009. Sa victoire à Augusta en 2019 est universellement saluée comme l'un des plus grands retours de l'histoire du sport."
         },
         {
             "id": "3",
-            "question": "Quel joueur de tennis a remporté l'Open d'Australie 2017 après plusieurs mois éloigné des courts en raison d'une blessure ?",
-            "answers": [
-                "Rafael Nadal",
-                "Novak Djokovic",
-                "Roger Federer",
-                "Andy Murray"
-            ],
+            "question": "Quel joueur de tennis a remporté l'Open d'Australie 2017 à 35 ans, six mois après une opération du genou qui l'avait contraint à manquer Roland-Garros et Wimbledon ?",
+            "answers": ["Rafael Nadal", "Novak Djokovic", "Roger Federer", "Andy Murray"],
             "correctIndex": 2,
-            "explanation": "Roger Federer revient après six mois d'absence et remporte l'Open d'Australie 2017 à 35 ans. Sa victoire en finale contre Rafael Nadal renforce encore la portée symbolique de ce retour."
+            "explanation": "Roger Federer, opéré du genou en février 2016, avait manqué six mois de compétition avant de revenir pour l'Open d'Australie 2017. À 35 ans, il y remporte son 18e titre du Grand Chelem en battant Rafael Nadal en cinq sets en finale — un match que beaucoup considèrent comme l'un des plus beaux de leur rivalité légendaire."
         },
         {
             "id": "4",
-            "question": "Quelle équipe a réalisé la plus grande remontée de l'histoire du Super Bowl en revenant d'un déficit de 25 points ?",
-            "answers": [
-                "Kansas City Chiefs",
-                "New England Patriots",
-                "Green Bay Packers",
-                "Pittsburgh Steelers"
-            ],
-            "correctIndex": 1,
-            "explanation": "Lors du Super Bowl LI, les New England Patriots sont menés 28-3 par les Atlanta Falcons avant de revenir et de s'imposer en prolongation. C'est la plus grande remontée de l'histoire du Super Bowl."
+            "question": "Quelle équipe a réalisé la plus grande remontée de l'histoire du Super Bowl en 2017, revenant de 25 points de déficit pour s'imposer en prolongation ?",
+            "answers": ["New England Patriots", "Kansas City Chiefs", "Green Bay Packers", "Pittsburgh Steelers"],
+            "correctIndex": 0,
+            "explanation": "Lors du Super Bowl LI en février 2017, les New England Patriots de Tom Brady sont menés 28-3 en troisième quart-temps par les Atlanta Falcons avant de revenir à 28-28 et de s'imposer 34-28 en prolongation. C'est la première prolongation de l'histoire du Super Bowl et la plus grande remontée jamais réussie dans ce match."
         },
         {
             "id": "5",
-            "question": "Quel boxeur a reconquis un titre mondial poids lourds en 1994 à l'âge de 45 ans ?",
-            "answers": [
-                "George Foreman",
-                "Larry Holmes",
-                "Evander Holyfield",
-                "Michael Moorer"
-            ],
+            "question": "Quel boxeur américain est devenu en 1994, à 45 ans, le plus vieux champion du monde poids lourds de l'histoire, lors d'un retour spectaculaire après dix ans d'absence ?",
+            "answers": ["George Foreman", "Larry Holmes", "Evander Holyfield", "Michael Moorer"],
             "correctIndex": 0,
-            "explanation": "George Foreman bat Michael Moorer en 1994 et devient le plus vieux champion du monde poids lourds de l'histoire. Son retour est d'autant plus marquant qu'il avait quitté la boxe pendant une longue période."
+            "explanation": "George Foreman bat Michael Moorer par KO au 10e round en novembre 1994 pour devenir champion du monde WBA et IBF à 45 ans, vingt ans après son titre de 1974 contre Muhammad Ali. Il avait quitté la boxe en 1977 et n'était revenu sur le ring qu'en 1987, après dix ans d'absence. Ce sacre reste le record absolu d'âge pour un champion du monde poids lourds."
         },
         {
             "id": "6",
-            "question": "Quelle joueuse de tennis a remporté l'Open d'Australie 1996 après être revenue sur le circuit à la suite d'une agression en plein match ?",
-            "answers": [
-                "Steffi Graf",
-                "Monica Seles",
-                "Martina Hingis",
-                "Arantxa Sánchez Vicario"
-            ],
+            "question": "Quelle joueuse de tennis a remporté l'Open d'Australie 1996, deux ans et demi après avoir été poignardée en plein match à Hambourg par un spectateur ?",
+            "answers": ["Steffi Graf", "Monica Seles", "Martina Hingis", "Arantxa Sánchez Vicario"],
             "correctIndex": 1,
-            "explanation": "Monica Seles est agressée en 1993 lors d'un match à Hambourg. Après plus de deux ans d'absence, elle revient au plus haut niveau et remporte l'Open d'Australie 1996, un retour extrêmement marquant dans l'histoire du tennis."
+            "explanation": "Monica Seles est poignardée dans le dos lors d'un match à Hambourg en avril 1993 par un fan de Steffi Graf. Traumatisée physiquement et psychologiquement, elle s'éloigne du circuit pendant vingt-sept mois. Son retour en 1995 et son titre à l'Open d'Australie en janvier 1996 — son neuvième et dernier titre du Grand Chelem — restent parmi les histoires les plus émouvantes du tennis mondial."
         },
         {
             "id": "7",
-            "question": "Quel pilote de Formule 1 est revenu courir quelques semaines après un terrible accident au Nürburgring en 1976 ?",
-            "answers": [
-                "James Hunt",
-                "Jackie Stewart",
-                "Niki Lauda",
-                "Emerson Fittipaldi"
-            ],
+            "question": "Quel pilote de Formule 1, laissé pour mort après un accident au Nürburgring en 1976, est revenu en compétition seulement 40 jours plus tard au Grand Prix d'Italie ?",
+            "answers": ["James Hunt", "Jackie Stewart", "Niki Lauda", "Emerson Fittipaldi"],
             "correctIndex": 2,
-            "explanation": "Niki Lauda subit un accident presque fatal au Grand Prix d'Allemagne 1976. Il revient pourtant en compétition seulement quelques semaines plus tard, au Grand Prix d'Italie, dans l'un des retours les plus courageux de l'histoire de la F1."
+            "explanation": "Niki Lauda subit un accident presque fatal au Grand Prix d'Allemagne le 1er août 1976 au Nürburgring — brûlures au troisième degré, poumons touchés, derniers sacrements administrés. Il revient pourtant dès le Grand Prix d'Italie le 12 septembre, quarante jours plus tard, avec encore des plaies ouvertes sur le visage. Son retour est universellement cité comme le plus courageux de l'histoire du sport automobile."
         },
         {
             "id": "8",
-            "question": "Quelle équipe de NBA est revenue d'un déficit de 3-1 lors des Finales 2016 pour remporter le titre ?",
-            "answers": [
-                "Miami Heat",
-                "San Antonio Spurs",
-                "Cleveland Cavaliers",
-                "Boston Celtics"
-            ],
+            "question": "Quelle équipe de NBA, emmenée par LeBron James, est revenue d'un déficit de 3-1 en Finales 2016 pour offrir à sa ville son premier titre de champion ?",
+            "answers": ["Miami Heat", "San Antonio Spurs", "Cleveland Cavaliers", "Boston Celtics"],
             "correctIndex": 2,
-            "explanation": "Les Cleveland Cavaliers battent les Golden State Warriors après avoir été menés 3-1 dans la série. C'est la première fois qu'une équipe réussit une telle remontée en Finales NBA."
+            "explanation": "Les Cleveland Cavaliers battent les Golden State Warriors (meilleure équipe de la saison régulière avec 73 victoires) après avoir été menés 1-3. C'est la première fois qu'une équipe réussit une telle remontée en Finales NBA. LeBron James, natif de l'Ohio, avait promis un titre aux habitants de Cleveland : il offrit à la ville son premier championnat majeur depuis 1964."
         },
         {
             "id": "9",
-            "question": "Quel footballeur danois est revenu au plus haut niveau après un arrêt cardiaque survenu pendant l'Euro 2020 ?",
-            "answers": [
-                "Christian Eriksen",
-                "Simon Kjær",
-                "Pierre-Emile Højbjerg",
-                "Kasper Schmeichel"
-            ],
+            "question": "Quel footballeur danois est revenu à la compétition professionnelle moins d'un an après un arrêt cardiaque survenu en plein match lors de l'Euro 2020 ?",
+            "answers": ["Christian Eriksen", "Simon Kjær", "Pierre-Emile Højbjerg", "Kasper Schmeichel"],
             "correctIndex": 0,
-            "explanation": "Christian Eriksen s'effondre lors d'un match de l'Euro 2020 après un arrêt cardiaque. Il revient ensuite au football professionnel, notamment en Premier League, devenant un symbole de résilience."
+            "explanation": "Christian Eriksen s'effondre lors du match Danemark–Finlande de l'Euro 2020 le 12 juin 2021, victime d'un arrêt cardiaque. Réanimé sur le terrain grâce à un défibrillateur, il reçoit un défibrillateur cardiaque implantable. Libéré par l'Inter Milan, il rebondit à Brentford dès janvier 2022, puis signe à Manchester United, devenant un symbole mondial de résilience."
         },
         {
             "id": "10",
-            "question": "Quelle équipe anglaise a réalisé une remontée spectaculaire contre l'AC Milan en finale de la Ligue des champions 2005 ?",
-            "answers": [
-                "Manchester United",
-                "Liverpool",
-                "Chelsea",
-                "Arsenal"
-            ],
-            "correctIndex": 1,
-            "explanation": "Liverpool est mené 3-0 à la mi-temps avant d'égaliser en quelques minutes puis de remporter la finale aux tirs au but. Cette finale d'Istanbul reste l'une des plus célèbres de l'histoire du football."
+            "question": "Quelle équipe anglaise a renversé un déficit de 3-0 à la mi-temps pour remporter la finale de la Ligue des champions 2005 à Istanbul, aux tirs au but ?",
+            "answers": ["Manchester United", "Chelsea", "Arsenal", "Liverpool"],
+            "correctIndex": 3,
+            "explanation": "Liverpool est mené 3-0 à la mi-temps de la finale d'Istanbul en mai 2005 face à l'AC Milan. En six minutes (54e-60e), Gerrard, Šmicer et Alonso (sur penalty après avoir repris son propre tir repoussé) égalisent à 3-3. Les Reds s'imposent ensuite aux tirs au but grâce à Dudek, auteur d'un arrêt décisif sur Shevchenko. Cette finale est universellement considérée comme la plus spectaculaire de l'histoire de la compétition."
         },
         {
             "id": "11",
-            "question": "Quel nageur américain est revenu à la compétition olympique après sa retraite pour briller aux Jeux de Rio en 2016 ?",
-            "answers": [
-                "Ryan Lochte",
-                "Nathan Adrian",
-                "Caeleb Dressel",
-                "Michael Phelps"
-            ],
+            "question": "Quel nageur américain, recordman olympique absolu de médailles, a mis fin à sa retraite pour briller encore aux Jeux de Rio 2016 avec cinq médailles d'or et une d'argent ?",
+            "answers": ["Ryan Lochte", "Nathan Adrian", "Caeleb Dressel", "Michael Phelps"],
             "correctIndex": 3,
-            "explanation": "Michael Phelps annonce sa retraite après Londres 2012, puis revient pour les Jeux de Rio 2016. Il y remporte encore plusieurs médailles d'or, confirmant son statut de nageur le plus titré de l'histoire olympique."
+            "explanation": "Michael Phelps avait annoncé sa retraite après les Jeux de Londres 2012, avant de revenir pour Rio 2016 à 31 ans. Il y remporte cinq médailles d'or et une d'argent, portant son total olympique à 28 médailles (23 or), un record absolu dans l'histoire des Jeux Olympiques. Sa victoire au 200 m papillon fut sa 23e médaille d'or, soit autant que certains pays dans toute leur histoire olympique."
         },
         {
             "id": "12",
-            "question": "Quelle surfeuse est revenue à la compétition après avoir perdu un bras lors d'une attaque de requin ?",
-            "answers": [
-                "Carissa Moore",
-                "Bethany Hamilton",
-                "Stephanie Gilmore",
-                "Layne Beachley"
-            ],
+            "question": "Quelle surfeuse américaine a repris la compétition trois mois après avoir perdu son bras gauche lors d'une attaque de requin en 2003, à l'âge de 13 ans ?",
+            "answers": ["Carissa Moore", "Bethany Hamilton", "Stephanie Gilmore", "Layne Beachley"],
             "correctIndex": 1,
-            "explanation": "Bethany Hamilton perd son bras gauche lors d'une attaque de requin en 2003. Elle reprend pourtant le surf de compétition quelques semaines plus tard et devient une figure mondiale du courage sportif."
+            "explanation": "Bethany Hamilton perd son bras gauche le 31 octobre 2003, lors d'une attaque de requin au large de Kauai, Hawaï, à seulement 13 ans. Elle reprend la compétition dès janvier 2004, soit trois mois plus tard, et remporte son premier titre national professionnel en 2007. Son histoire, adaptée au cinéma en 2011, est devenue l'un des symboles les plus forts de résilience dans le sport."
         },
         {
             "id": "13",
-            "question": "Quelle équipe italienne a éliminé le FC Barcelone en Ligue des champions 2018 après avoir perdu 4-1 à l'aller ?",
-            "answers": [
-                "Juventus",
-                "Inter Milan",
-                "AS Roma",
-                "AC Milan"
-            ],
+            "question": "Quelle équipe italienne a éliminé le FC Barcelone en quarts de finale de la Ligue des champions 2018, en gagnant 3-0 au retour après une défaite 4-1 à l'aller ?",
+            "answers": ["Juventus", "Inter Milan", "AS Roma", "AC Milan"],
             "correctIndex": 2,
-            "explanation": "L'AS Roma s'incline 4-1 à l'aller contre Barcelone, puis gagne 3-0 au retour. Grâce à la règle des buts à l'extérieur, le club italien se qualifie pour les demi-finales dans un scénario spectaculaire."
+            "explanation": "L'AS Roma s'incline 1-4 à Rome lors du match aller en avril 2018, avant de renverser la situation avec un 3-0 au Stadio Olimpico lors du retour. Score cumulé de 4-4, mais la Roma se qualifie grâce à la règle des buts à l'extérieur (3 buts marqués à Barcelone). La Roma devient ainsi seulement le troisième club à éliminer Barcelone après avoir perdu de 3 buts à l'aller dans l'ère de la Ligue des champions."
         },
         {
             "id": "14",
-            "question": "Quel joueur de hockey est revenu en 1993 après un traitement contre un cancer et a terminé meilleur marqueur de la NHL cette saison-là ?",
-            "answers": [
-                "Wayne Gretzky",
-                "Mario Lemieux",
-                "Mark Messier",
-                "Jaromír Jágr"
-            ],
+            "question": "Quel hockeyeur canadien a remporté le trophée Art Ross du meilleur marqueur de la NHL en 1993 après être revenu jouer en plein traitement contre un lymphome hodgkinien ?",
+            "answers": ["Wayne Gretzky", "Mario Lemieux", "Mark Messier", "Jaromír Jágr"],
             "correctIndex": 1,
-            "explanation": "Mario Lemieux reçoit un diagnostic de lymphome hodgkinien pendant la saison 1992-1993. Après son traitement, il revient sur la glace et remporte le trophée Art Ross de meilleur marqueur de la saison."
+            "explanation": "Mario Lemieux reçoit un diagnostic de lymphome hodgkinien en janvier 1993. Il termine son traitement de radiothérapie le 2 mars 1993 et rejoint ses coéquipiers des Penguins de Pittsburgh le soir même, marquant un point. Malgré seulement 60 matchs disputés (sur 84), il remporte le trophée Art Ross avec 160 points — un exploit médical et sportif sans équivalent dans l'histoire de la NHL."
         },
         {
             "id": "15",
-            "question": "Quel basketteur est revenu jouer au plus haut niveau après deux graves blessures successives au genou et au tendon d'Achille ?",
-            "answers": [
-                "Kevin Durant",
-                "Derrick Rose",
-                "Klay Thompson",
-                "Blake Griffin"
-            ],
-            "correctIndex": 2,
-            "explanation": "Klay Thompson manque plus de deux saisons après une rupture du ligament croisé puis une rupture du tendon d'Achille. Son retour avec Golden State marque l'un des grands come-backs récents de la NBA."
+            "question": "Quel joueur des Golden State Warriors est revenu au plus haut niveau après avoir raté 941 jours de compétition en raison d'une rupture du ligament croisé puis d'une rupture du tendon d'Achille ?",
+            "answers": ["Klay Thompson", "Kevin Durant", "Derrick Rose", "Blake Griffin"],
+            "correctIndex": 0,
+            "explanation": "Klay Thompson se blesse au ligament croisé lors des Finales NBA 2019, puis subit une rupture du tendon d'Achille en 2020 avant même d'avoir rejoué. Il manque au total 941 jours de compétition avant de revenir en janvier 2022. Lors de sa saison de retour 2021-2022, les Warriors remportent le titre NBA — une histoire de résilience collective et individuelle saluée dans toute la ligue."
         },
         {
             "id": "16",
-            "question": "Quelle équipe a remporté la Ligue des champions 2022 après plusieurs remontées spectaculaires lors de la phase à élimination directe ?",
-            "answers": [
-                "Chelsea",
-                "Manchester City",
-                "Real Madrid",
-                "Bayern Munich"
-            ],
+            "question": "Quelle équipe a remporté la Ligue des champions 2022 en éliminant successivement le PSG, Chelsea et Manchester City au terme de retournements de situation en toute fin de match ?",
+            "answers": ["Chelsea", "Manchester City", "Real Madrid", "Bayern Munich"],
             "correctIndex": 2,
-            "explanation": "Le Real Madrid renverse successivement le PSG, Chelsea puis Manchester City dans des scénarios incroyables avant de remporter la Ligue des champions 2022."
+            "explanation": "Le Real Madrid a signé trois retournements mémorables lors de la Ligue des champions 2021-22 : face au PSG (défaite 0-1 à l'aller, victoire 3-1 au retour grâce à un triplé de Benzema en 17 minutes), face à Chelsea (victoire 3-1 à l'aller, puis tenu 2-3 au retour mais qualification 5-4 sur l'ensemble), et face à Manchester City (victoire 4-3 à l'aller après avoir été mené, puis victoire 3-1 après prolongation au retour grâce à un doublé de Rodrygo dans le temps additionnel et un penalty de Benzema). Trois soirées de Bernabéu entrées dans la légende de la compétition."
         },
         {
             "id": "17",
-            "question": "Quel joueur de tennis a remporté l'Open d'Australie 2022 après avoir été mené deux sets à zéro en finale ?",
-            "answers": [
-                "Novak Djokovic",
-                "Rafael Nadal",
-                "Daniil Medvedev",
-                "Stefanos Tsitsipas"
-            ],
-            "correctIndex": 1,
-            "explanation": "Rafael Nadal bat Daniil Medvedev en finale de l'Open d'Australie 2022 après avoir perdu les deux premiers sets. Ce titre intervient après une période marquée par des blessures au pied."
+            "question": "Quel joueur de tennis a remporté l'Open d'Australie 2022 après avoir été mené deux sets à zéro en finale, obtenant au passage son 21e titre du Grand Chelem ?",
+            "answers": ["Novak Djokovic", "Daniil Medvedev", "Stefanos Tsitsipas", "Rafael Nadal"],
+            "correctIndex": 3,
+            "explanation": "Rafael Nadal bat Daniil Medvedev en finale de l'Open d'Australie 2022 en cinq sets (2-6, 6-7, 6-4, 6-4, 7-5), après avoir été mené deux sets à zéro. Ce 21e titre du Grand Chelem lui permit de devancer Djokovic et Federer dans la course aux records. Il avait auparavant manqué plusieurs mois de compétition en raison d'une blessure chronique au pied qui avait failli mettre fin à sa carrière."
         },
         {
             "id": "18",
-            "question": "Quelle équipe de baseball a remporté la Série mondiale 2004 après avoir réussi une remontée historique contre les Yankees ?",
-            "answers": [
-                "St. Louis Cardinals",
-                "Boston Red Sox",
-                "Chicago Cubs",
-                "Houston Astros"
-            ],
-            "correctIndex": 1,
-            "explanation": "Les Boston Red Sox deviennent la première équipe de MLB à revenir d'un déficit de 3-0 dans une série éliminatoire. Ils remportent ensuite la Série mondiale 2004, mettant fin à une longue attente historique."
+            "question": "Quelle équipe de baseball, en panne de titre depuis 86 ans, a réalisé en 2004 la première remontée de 0-3 à 4-3 de l'histoire des séries éliminatoires de MLB pour remporter ensuite la Série mondiale ?",
+            "answers": ["Boston Red Sox", "St. Louis Cardinals", "Chicago Cubs", "Houston Astros"],
+            "correctIndex": 0,
+            "explanation": "Les Boston Red Sox remontent un déficit de 0-3 face aux New York Yankees en Série de championnat de la Ligue américaine en octobre 2004 — première équipe de l'histoire de la MLB à remonter un déficit de 0-3 dans une série de sept matchs. Ils remportent ensuite la Série mondiale face aux St. Louis Cardinals, mettant fin à 86 ans de disette depuis leur dernier titre en 1918, longtemps surnommée la « Malédiction du Bambino »."
         },
         {
             "id": "19",
-            "question": "Quel joueur de football américain est revenu à la compétition après une blessure à la jambe mettant sa carrière et sa vie en danger ?",
-            "answers": [
-                "Tom Brady",
-                "Alex Smith",
-                "Aaron Rodgers",
-                "Ben Roethlisberger"
-            ],
+            "question": "Quel quarterback de la NFL a subi une fracture et des complications infectieuses si graves en 2018 qu'il a failli être amputé, avant de revenir jouer et d'être élu Comeback Player of the Year 2020 ?",
+            "answers": ["Tom Brady", "Alex Smith", "Aaron Rodgers", "Ben Roethlisberger"],
             "correctIndex": 1,
-            "explanation": "Alex Smith subit une grave fracture de la jambe en 2018, suivie de complications médicales majeures. Il revient jouer en NFL et reçoit le titre de Comeback Player of the Year pour la saison 2020."
+            "explanation": "Alex Smith subit une double fracture du péroné et du tibia lors d'un match en novembre 2018. La plaie s'infecte, nécessitant dix-sept opérations sur sa jambe droite — l'amputation fut envisagée. Il revient jouer en NFL en 2020 avec les Washington Football Team et reçoit le trophée Comeback Player of the Year, dans l'un des retours les plus improbables de l'histoire du sport professionnel américain."
         },
         {
             "id": "20",
-            "question": "Quel pilote de MotoGP a remporté un Grand Prix en 2021 après une longue convalescence liée à une grave fracture du bras ?",
-            "answers": [
-                "Fabio Quartararo",
-                "Joan Mir",
-                "Francesco Bagnaia",
-                "Marc Márquez"
-            ],
+            "question": "Quel pilote espagnol de MotoGP, huit fois champion du monde, a remporté le Grand Prix d'Allemagne 2021 après avoir subi quatre opérations du bras droit en un an ?",
+            "answers": ["Fabio Quartararo", "Joan Mir", "Francesco Bagnaia", "Marc Márquez"],
             "correctIndex": 3,
-            "explanation": "Marc Márquez se fracture gravement le bras en 2020 et subit une longue période de récupération. Sa victoire au Grand Prix d'Allemagne 2021 marque un retour très fort après plusieurs opérations."
+            "explanation": "Marc Márquez se fracture sévèrement l'humérus droit lors du Grand Prix d'Espagne 2020. La première opération échoue partiellement, entraînant trois nouvelles interventions en un an. Sa victoire au Grand Prix d'Allemagne de juin 2021, sur le circuit du Sachsenring où il n'avait jamais perdu en classe MotoGP, fut l'un des retours les plus attendus et célébrés de l'histoire de la discipline."
         }
     ]
 }

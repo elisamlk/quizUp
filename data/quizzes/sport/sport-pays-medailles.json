@@ -2,7 +2,7 @@
     "slug": "quiz-sport-pays-premiers-tableau-medailles-jo",
     "title": "Quiz Sport - Jeux Olympiques - Connais-tu les pays en tête du tableau des médailles ?",
     "description": "Teste tes connaissances sur les pays ayant terminé premiers au tableau des médailles aux Jeux Olympiques.",
-    "descriptionSeo": "États-Unis, URSS, Chine ou encore Allemagne… quels pays ont dominé les Jeux Olympiques en terminant en tête du tableau des médailles ? Ce quiz de 20 questions te plonge dans l’histoire des grandes puissances sportives, entre domination historique, rivalités géopolitiques et performances marquantes qui ont façonné le classement olympique.",
+    "descriptionSeo": "États-Unis, URSS, Chine ou encore Allemagne… quels pays ont dominé les Jeux Olympiques en terminant en tête du tableau des médailles ? Ce quiz de 20 questions te plonge dans l'histoire des grandes puissances sportives, entre domination historique, rivalités géopolitiques et performances marquantes qui ont façonné le classement olympique.",
     "category": {
         "name": "Sport",
         "slug": "sport"
@@ -18,19 +18,31 @@
     "questions": [
         {
             "id": "1",
-            "question": "Quel pays a terminé premier au tableau des médailles aux JO de Tokyo 2020 ?",
+            "question": "Quel pays a terminé premier au tableau des médailles aux JO de Tokyo 2020 (disputés en 2021), devançant la Chine d'une seule médaille d'or malgré sa deuxième place au total des médailles ?",
             "answers": [
-                "Chine",
                 "États-Unis",
+                "Chine",
                 "Japon",
                 "Grande-Bretagne"
             ],
-            "correctIndex": 1,
-            "explanation": "Les États-Unis ont terminé en tête grâce à leur total élevé de médailles d’or (39). Ils restent la nation la plus dominante de l’histoire olympique."
+            "correctIndex": 0,
+            "explanation": "Aux JO de Tokyo 2020 (tenus en 2021), les États-Unis ont terminé premiers avec 39 médailles d'or, devançant la Chine (38 or) d'un seul titre. Paradoxalement, la Chine comptait un total de médailles inférieur mais avait failli ravir la première place à la délégation américaine."
         },
         {
             "id": "2",
-            "question": "Quel pays a dominé le tableau des médailles aux JO de Rio 2016 ?",
+            "question": "Quel pays a dominé le tableau des médailles aux JO de Rio 2016, notamment grâce aux performances de ses nageurs et de ses athlètes, en cumulant 46 médailles d'or ?",
+            "answers": [
+                "Chine",
+                "Grande-Bretagne",
+                "Russie",
+                "États-Unis"
+            ],
+            "correctIndex": 3,
+            "explanation": "Aux JO de Rio 2016, les États-Unis ont dominé le tableau avec 46 médailles d'or, soit 19 de plus que la Grande-Bretagne (2e avec 27 or). La natation — notamment Michael Phelps pour ses derniers Jeux — et l'athlétisme furent les piliers de cette domination."
+        },
+        {
+            "id": "3",
+            "question": "Quel pays a terminé premier aux JO de Londres 2012, avec 46 médailles d'or, devant une délégation chinoise comptant pourtant davantage de médailles au total ?",
             "answers": [
                 "Chine",
                 "Grande-Bretagne",
@@ -38,23 +50,11 @@
                 "Russie"
             ],
             "correctIndex": 2,
-            "explanation": "Les États-Unis ont largement dominé Rio 2016, notamment grâce à la natation et à l’athlétisme."
-        },
-        {
-            "id": "3",
-            "question": "Quel pays a terminé premier aux JO de Londres 2012 ?",
-            "answers": [
-                "Chine",
-                "États-Unis",
-                "Grande-Bretagne",
-                "Russie"
-            ],
-            "correctIndex": 1,
-            "explanation": "Les États-Unis ont terminé en tête avec 46 médailles d’or, malgré une forte concurrence de la Chine."
+            "explanation": "Aux JO de Londres 2012, les États-Unis ont terminé en tête avec 46 médailles d'or, malgré une forte concurrence de la Chine (38 or). Michael Phelps devint l'athlète le plus médaillé de l'histoire olympique lors de ces Jeux, portant son total à 22 médailles."
         },
         {
             "id": "4",
-            "question": "Quel pays a surpris en terminant premier aux JO de Beijing 2008 ?",
+            "question": "Quel pays a terminé premier au tableau des médailles lors des JO de Beijing 2008, qu'il organisait, avec un record de 51 médailles d'or dans l'histoire des Jeux modernes ?",
             "answers": [
                 "États-Unis",
                 "Chine",
@@ -62,11 +62,11 @@
                 "Allemagne"
             ],
             "correctIndex": 1,
-            "explanation": "La Chine a dominé à domicile avec 48 médailles d’or, profitant d’un programme optimisé et d’un soutien massif."
+            "explanation": "La Chine a dominé les JO de Beijing 2008 à domicile avec 51 médailles d'or, un record dans l'histoire des Jeux modernes. Grâce à un programme de préparation massif initié des années en amont, la délégation chinoise devança largement les États-Unis (36 or) sur toutes les disciplines."
         },
         {
             "id": "5",
-            "question": "Quel pays a terminé premier aux JO d’Athènes 2004 ?",
+            "question": "Quel pays a terminé premier aux JO d'Athènes 2004, confirmant sa régularité au sommet du tableau des médailles pour la quatrième édition consécutive depuis 1992 ?",
             "answers": [
                 "Chine",
                 "Russie",
@@ -74,23 +74,23 @@
                 "Australie"
             ],
             "correctIndex": 2,
-            "explanation": "Les États-Unis ont terminé en tête, confirmant leur régularité depuis plusieurs décennies."
+            "explanation": "Aux JO d'Athènes 2004, les États-Unis ont terminé en tête avec 36 médailles d'or, devant la Chine (32 or) et la Russie (27 or). C'était leur quatrième première place consécutive depuis Barcelone 1992, confirmant une domination durable sur la période post-guerre froide."
         },
         {
             "id": "6",
-            "question": "Quel pays a dominé les JO de Sydney 2000 ?",
+            "question": "Quel pays a dominé les JO de Sydney 2000 avec 36 médailles d'or, malgré une performance exceptionnelle de l'équipe hôte australienne (16 or) sur ses terres ?",
             "answers": [
                 "Russie",
-                "États-Unis",
                 "Chine",
-                "Australie"
+                "Australie",
+                "États-Unis"
             ],
-            "correctIndex": 1,
-            "explanation": "Les États-Unis ont terminé premiers, malgré une forte performance de l’Australie à domicile."
+            "correctIndex": 3,
+            "explanation": "Aux JO de Sydney 2000, les États-Unis ont terminé premiers avec 36 médailles d'or, devant la Russie (32 or) et la Chine (28 or). L'Australie, pays hôte, réalisa sa meilleure performance historique avec 16 médailles d'or, dont un mémorable 400 m de Cathy Freeman devant son public."
         },
         {
             "id": "7",
-            "question": "Quel pays a terminé premier aux JO d’Atlanta 1996 ?",
+            "question": "Quel pays, organisateur des JO d'Atlanta 1996, a terminé en tête du tableau des médailles avec 44 médailles d'or, profitant notamment de l'avantage du terrain ?",
             "answers": [
                 "Russie",
                 "États-Unis",
@@ -98,11 +98,11 @@
                 "Chine"
             ],
             "correctIndex": 1,
-            "explanation": "Les États-Unis, pays hôte, ont dominé le tableau des médailles, comme souvent dans l’histoire olympique."
+            "explanation": "Aux JO d'Atlanta 1996, les États-Unis ont dominé le tableau en tant que pays hôte avec 44 médailles d'or, devant la Russie (26 or) et l'Allemagne (20 or). Ces Jeux du centenaire furent également marqués par l'explosion d'une bombe dans le Centennial Olympic Park le 27 juillet 1996."
         },
         {
             "id": "8",
-            "question": "Quelle entité a terminé première au tableau des médailles aux JO de Barcelone 1992 ?",
+            "question": "Quelle entité, composée des athlètes de douze anciennes républiques soviétiques, a terminé première au tableau des médailles des JO de Barcelone 1992 avec 45 médailles d'or ?",
             "answers": [
                 "États-Unis",
                 "Allemagne",
@@ -110,119 +110,119 @@
                 "Équipe unifiée"
             ],
             "correctIndex": 3,
-            "explanation": "L’Équipe unifiée, composée d’anciennes républiques soviétiques, a terminé en tête avec 45 médailles d’or. Ces Jeux marquent une période de transition géopolitique après la chute de l’URSS."
+            "explanation": "L'Équipe unifiée, héritière de l'URSS dissoute fin 1991 et regroupant douze anciennes républiques soviétiques, a terminé en tête des JO de Barcelone 1992 avec 45 médailles d'or. Ces Jeux furent une charnière géopolitique : la Russie, l'Ukraine et les autres républiques participeraient désormais séparément dès 1996."
         },
         {
             "id": "9",
-            "question": "Quelle entité a terminé première aux JO de Séoul 1988 ?",
+            "question": "Quelle nation a terminé première aux JO de Séoul 1988 avec 55 médailles d'or, dans un contexte de rivalité intense de la guerre froide face aux États-Unis (36 or) ?",
             "answers": [
                 "URSS",
                 "États-Unis",
-                "Allemagne de l’Est",
+                "Allemagne de l'Est",
                 "Chine"
             ],
             "correctIndex": 0,
-            "explanation": "L’URSS a dominé les Jeux de Séoul, dans un contexte de rivalité intense avec les États-Unis."
+            "explanation": "L'URSS a dominé les JO de Séoul 1988 avec 55 médailles d'or, devant l'Allemagne de l'Est (37 or) et les États-Unis (36 or). Ces Jeux marquèrent la fin d'une époque : moins de deux ans plus tard, le mur de Berlin tombait (novembre 1989), et l'URSS serait dissoute avant les prochains Jeux d'été à Barcelone."
         },
         {
             "id": "10",
-            "question": "Quel pays a terminé premier aux JO de Los Angeles 1984 ?",
+            "question": "Quel pays a largement dominé les JO de Los Angeles 1984 avec 83 médailles d'or, bénéficiant du boycott de l'URSS et de la plupart de ses alliés du bloc de l'Est ?",
             "answers": [
                 "URSS",
+                "Allemagne de l'Est",
                 "États-Unis",
-                "Allemagne de l’Est",
                 "Chine"
             ],
-            "correctIndex": 1,
-            "explanation": "Les États-Unis ont largement dominé ces Jeux en l’absence de l’URSS et de ses alliés en raison du boycott."
+            "correctIndex": 2,
+            "explanation": "Aux JO de Los Angeles 1984, les États-Unis ont raflé 83 médailles d'or en l'absence de l'URSS et de 14 autres pays du bloc soviétique, qui avaient organisé un boycott en réponse à celui des États-Unis à Moscou en 1980. La Roumanie, seul pays du bloc de l'Est à avoir participé, termina 2e avec 20 or."
         },
         {
             "id": "11",
-            "question": "Quel pays a dominé les JO de Moscou 1980 ?",
+            "question": "Quel pays a dominé les JO de Moscou 1980 avec 80 médailles d'or, dans un contexte de boycott américain lié à l'invasion soviétique de l'Afghanistan ?",
             "answers": [
                 "États-Unis",
-                "URSS",
-                "Allemagne de l’Est",
-                "Cuba"
+                "Allemagne de l'Est",
+                "Cuba",
+                "URSS"
             ],
-            "correctIndex": 1,
-            "explanation": "L’URSS a dominé ces Jeux marqués par le boycott des États-Unis et de plusieurs pays occidentaux."
+            "correctIndex": 3,
+            "explanation": "L'URSS a dominé les JO de Moscou 1980 avec 80 médailles d'or, profitant de l'absence des États-Unis et de 65 autres nations boycottant les Jeux pour protester contre l'invasion soviétique de l'Afghanistan en 1979. L'Allemagne de l'Est termina 2e (47 or) devant Cuba (8 or)."
         },
         {
             "id": "12",
-            "question": "Quel pays a terminé premier aux JO de Montréal 1976 ?",
+            "question": "Quel pays a terminé premier aux JO de Montréal 1976 avec 49 médailles d'or, en pleine guerre froide, et dont l'équipe féminine d'athlétisme fut une vitrine de la puissance sportive soviétique ?",
             "answers": [
                 "URSS",
                 "États-Unis",
-                "Allemagne de l’Est",
-                "Allemagne de l’Ouest"
+                "Allemagne de l'Est",
+                "Allemagne de l'Ouest"
             ],
             "correctIndex": 0,
-            "explanation": "L’URSS a dominé ces Jeux, confirmant sa puissance sportive durant la guerre froide."
+            "explanation": "L'URSS a dominé les JO de Montréal 1976 avec 49 médailles d'or, devant l'Allemagne de l'Est (40 or) et les États-Unis (34 or). La gymnaste roumaine Nadia Comaneci, 14 ans, réalisa le premier 10 parfait de l'histoire olympique lors de ces Jeux, éclipsant momentanément la domination soviétique."
         },
         {
             "id": "13",
-            "question": "Quel pays a dominé les JO de Munich 1972 ?",
+            "question": "Quel pays a dominé les JO de Munich 1972 avec 50 médailles d'or, une édition tragiquement marquée par la prise d'otages de l'équipe olympique israélienne ?",
             "answers": [
                 "États-Unis",
                 "URSS",
-                "Allemagne de l’Est",
+                "Allemagne de l'Est",
                 "Japon"
             ],
             "correctIndex": 1,
-            "explanation": "L’URSS a terminé en tête, poursuivant sa rivalité avec les États-Unis."
+            "explanation": "L'URSS a terminé en tête des JO de Munich 1972 avec 50 médailles d'or, devant les États-Unis (33 or). Ces Jeux furent endeuillés par la prise d'otages du 5 septembre 1972, au cours de laquelle 11 membres de la délégation israélienne furent assassinés par le groupe Septembre noir."
         },
         {
             "id": "14",
-            "question": "Quel pays a terminé premier aux JO de Mexico 1968 ?",
+            "question": "Quel pays a terminé premier aux JO de Mexico 1968, avec 45 médailles d'or, dans une édition mémorable notamment pour le geste de protestation des sprinters Tommie Smith et John Carlos sur le podium du 200 m ?",
             "answers": [
                 "URSS",
                 "États-Unis",
-                "Allemagne de l’Est",
+                "Allemagne de l'Est",
                 "Japon"
             ],
-            "correctIndex": 0,
-            "explanation": "L’URSS a dominé ces Jeux marqués par des performances historiques en altitude."
+            "correctIndex": 1,
+            "explanation": "Aux JO de Mexico 1968, les États-Unis ont terminé premiers avec 45 médailles d'or, loin devant l'URSS (29 or). L'édition est restée dans les mémoires pour la protestation du Black Power de Tommie Smith et John Carlos au 200 m, ainsi que pour le saut légendaire de Bob Beamon (8,90 m au saut en longueur)."
         },
         {
             "id": "15",
-            "question": "Quel pays a dominé les JO de Tokyo 1964 ?",
+            "question": "Quel pays a terminé premier aux JO de Tokyo 1964, avec 36 médailles d'or, devant l'URSS (30 or) et le Japon (16 or) qui brillait pourtant sur ses terres dans des sports comme la lutte et le judo ?",
             "answers": [
-                "URSS",
                 "États-Unis",
+                "URSS",
                 "Japon",
                 "Allemagne"
             ],
             "correctIndex": 0,
-            "explanation": "L’URSS a terminé en tête malgré les performances remarquables du Japon à domicile."
+            "explanation": "Aux JO de Tokyo 1964, les États-Unis ont terminé premiers avec 36 médailles d'or, devant l'URSS (30 or) et le Japon (16 or). Ces Jeux furent les premiers diffusés en mondovision par satellite et les premiers à introduire le judo au programme olympique, discipline dans laquelle les Japonais dominèrent largement."
         },
         {
             "id": "16",
-            "question": "Quel pays a terminé premier aux JO de Rome 1960 ?",
+            "question": "Quel pays a terminé premier aux JO de Rome 1960 avec 43 médailles d'or, illustrant la puissance sportive soviétique au cœur de la guerre froide face aux États-Unis (34 or) ?",
             "answers": [
                 "États-Unis",
-                "URSS",
                 "Italie",
+                "URSS",
                 "Allemagne"
             ],
-            "correctIndex": 1,
-            "explanation": "L’URSS a dominé les Jeux de Rome, illustrant sa puissance sportive durant cette période."
+            "correctIndex": 2,
+            "explanation": "L'URSS a dominé les JO de Rome 1960 avec 43 médailles d'or, devant les États-Unis (34 or) et l'Italie (13 or). Ces Jeux sont restés dans les mémoires pour la victoire du marathonien éthiopien Abebe Bikila, courant pieds nus sur la Via Appia dans la nuit romaine — premier athlète africain à remporter une médaille d'or olympique."
         },
         {
             "id": "17",
-            "question": "Quel pays a dominé les JO de Melbourne 1956 ?",
+            "question": "Quel pays a terminé premier aux JO de Melbourne 1956 avec 37 médailles d'or, inaugurant une longue série de premières places qui durerait jusqu'en 1988, avec une seule interruption en 1984 ?",
             "answers": [
-                "URSS",
                 "États-Unis",
                 "Australie",
-                "Hongrie"
+                "Hongrie",
+                "URSS"
             ],
-            "correctIndex": 0,
-            "explanation": "L’URSS a terminé en tête, marquant le début d’une longue domination olympique."
+            "correctIndex": 3,
+            "explanation": "L'URSS a terminé en tête des JO de Melbourne 1956 avec 37 médailles d'or, devant les États-Unis (32 or). Après leurs débuts olympiques en 1952 à Helsinki, l'URSS confirma sa domination en terminant une nouvelle fois en tête du tableau des médailles. Ces Jeux furent également marqués par la répression soviétique en Hongrie, qui provoqua des incidents entre nageurs hongrois et soviétiques."
         },
         {
             "id": "18",
-            "question": "Quel pays a terminé premier aux JO de Helsinki 1952 ?",
+            "question": "Quel pays a terminé premier aux JO de Helsinki 1952, lors de la première participation de l'URSS aux Jeux olympiques modernes, avec 40 médailles d'or contre 22 pour les Soviétiques ?",
             "answers": [
                 "URSS",
                 "États-Unis",
@@ -230,23 +230,23 @@
                 "Finlande"
             ],
             "correctIndex": 1,
-            "explanation": "Les États-Unis ont terminé en tête lors de la première participation de l’URSS."
+            "explanation": "Aux JO de Helsinki 1952, les États-Unis ont terminé en tête avec 40 médailles d'or lors de la première participation de l'URSS, qui termina 2e avec 22 or. Le Finlandais Paavo Nurmi, légende du fond, alluma la flamme olympique à domicile, dans un stade où il avait régné 30 ans plus tôt."
         },
         {
             "id": "19",
-            "question": "Quel pays a dominé les JO de Berlin 1936 ?",
+            "question": "Quel pays, qui organisait les Jeux de Berlin 1936, a terminé premier au tableau des médailles avec 89 médailles au total, dans une édition politiquement instrumentalisée par le régime nazi ?",
             "answers": [
-                "États-Unis",
                 "Allemagne",
+                "États-Unis",
                 "URSS",
                 "Italie"
             ],
-            "correctIndex": 1,
-            "explanation": "L’Allemagne a terminé en tête à domicile, dans un contexte fortement politisé."
+            "correctIndex": 0,
+            "explanation": "L'Allemagne nazie a terminé en tête des JO de Berlin 1936 avec 89 médailles (dont 36 or), lors de ces Jeux olympiques utilisés comme vitrine de la supériorité aryenne. Paradoxalement, Jesse Owens, sprinter afro-américain, remporta 4 médailles d'or sous les yeux d'Adolf Hitler, contredisant l'idéologie raciale du régime."
         },
         {
             "id": "20",
-            "question": "Quel pays a terminé premier aux premiers JO modernes d’Athènes 1896 ?",
+            "question": "Quel pays est généralement crédité de la première place lors des premiers JO modernes d'Athènes 1896, notamment grâce à ses victoires dans les épreuves d'athlétisme, bien que le classement officiel par nations n'existât pas encore ?",
             "answers": [
                 "France",
                 "Allemagne",
@@ -254,7 +254,7 @@
                 "Grèce"
             ],
             "correctIndex": 2,
-            "explanation": "Les États-Unis ont dominé les premiers Jeux modernes avec un nombre important de victoires dans les épreuves d’athlétisme."
+            "explanation": "Aux JO d'Athènes 1896, aucun classement officiel par nations n'existait. Les États-Unis sont néanmoins crédités de la première place par la plupart des historiens, grâce à 11 médailles d'or remportées essentiellement en athlétisme. La Grèce, pays hôte et fondateur des Jeux modernes, comptait davantage de médailles au total (47 toutes couleurs confondues), mais seulement 10 or — dont beaucoup acquis dans des épreuves boycottées par les nations étrangères."
         }
     ]
 }

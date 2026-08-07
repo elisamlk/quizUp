@@ -1,12 +1,9 @@
 {
     "slug": "quiz-sport-joueurs-plus-de-selections-rugby",
     "title": "Quiz Sport - Rugby - Connais-tu les joueurs avec le plus de sélections ?",
-    "description": "Teste tes connaissances sur les joueurs les plus capés de l’histoire du rugby international avec 20 questions.",
-    "descriptionSeo": "D’Alun Wyn Jones à Sam Whitelock, en passant par Richie McCaw, Sergio Parisse ou Brian O’Driscoll, les joueurs avec le plus de sélections ont marqué l’histoire du rugby mondial. Ce quiz de 20 questions te propose de tester tes connaissances sur les records, les nations et les légendes les plus capées du rugby international.",
-    "category": {
-        "name": "Sport",
-        "slug": "sport"
-    },
+    "description": "Teste tes connaissances sur les joueurs les plus capés de l'histoire du rugby international avec 20 questions.",
+    "descriptionSeo": "D'Alun Wyn Jones à Sam Whitelock, en passant par Richie McCaw, Sergio Parisse ou Brian O'Driscoll, les joueurs avec le plus de sélections ont marqué l'histoire du rugby mondial. Ce quiz de 20 questions te propose de tester tes connaissances sur les records, les nations et les légendes les plus capées du rugby international.",
+    "category": { "name": "Sport", "slug": "sport" },
     "createdAt": "2026-04-19",
     "isNew": true,
     "isPopular": true,
@@ -18,243 +15,143 @@
     "questions": [
         {
             "id": "1",
-            "question": "Quel joueur détient le record de sélections avec une seule sélection nationale (hors Lions) ?",
-            "answers": [
-                "Alun Wyn Jones",
-                "Sam Whitelock",
-                "Richie McCaw",
-                "Sergio Parisse"
-            ],
+            "question": "Quel joueur détient le record absolu de sélections en équipe nationale (hors Lions), avec 158 caps pour son pays ?",
+            "answers": ["Alun Wyn Jones", "Sam Whitelock", "Richie McCaw", "Sergio Parisse"],
             "correctIndex": 0,
-            "explanation": "Alun Wyn Jones détient le record avec 158 sélections pour le pays de Galles. Sam Whitelock suit avec plus de 150 caps pour la Nouvelle-Zélande, mais reste derrière en sélection nationale pure."
+            "explanation": "Alun Wyn Jones détient le record mondial de sélections avec une seule équipe nationale avec 158 caps pour le pays de Galles, récoltés entre 2006 et 2023. Deuxième ligne d'exception, il fut également capitaine des Lions Britanniques et Irlandais lors de la tournée 2021 en Afrique du Sud, portant son total toutes sélections confondues à 163."
         },
         {
             "id": "2",
-            "question": "Quel Gallois a longtemps détenu le record mondial de sélections avant d’être dépassé ?",
-            "answers": [
-                "Alun Wyn Jones",
-                "Gethin Jenkins",
-                "George North",
-                "Dan Biggar"
-            ],
-            "correctIndex": 0,
-            "explanation": "Alun Wyn Jones a détenu le record mondial pendant plusieurs années grâce à sa longévité exceptionnelle avec le pays de Galles."
+            "question": "Quel Néo-Zélandais compte 153 sélections avec les All Blacks, deuxième total mondial derrière le record gallois, après une carrière de plus de quinze ans ?",
+            "answers": ["Dan Carter", "Sam Whitelock", "Kieran Read", "Beauden Barrett"],
+            "correctIndex": 1,
+            "explanation": "Sam Whitelock a disputé 153 Tests avec les All Blacks entre 2010 et 2023, dont trois Coupes du monde (2011, 2015, 2019, 2023). Deuxième ligne pilier du système néo-zélandais, il a remporté deux titres mondiaux (2011, 2015) et fut capitaine de son équipe lors de sa dernière Coupe du monde en France en 2023."
         },
         {
             "id": "3",
-            "question": "Quel Néo-Zélandais compte 148 sélections et a longtemps été recordman mondial ?",
-            "answers": [
-                "Dan Carter",
-                "Kieran Read",
-                "Richie McCaw",
-                "Beauden Barrett"
-            ],
+            "question": "Quel All Black a longtemps détenu le record mondial de sélections avec 148 caps, tout en soulevant deux fois la Coupe du monde ?",
+            "answers": ["Dan Carter", "Kieran Read", "Richie McCaw", "Beauden Barrett"],
             "correctIndex": 2,
-            "explanation": "Richie McCaw a été une référence absolue avec 148 sélections et deux titres de champion du monde."
+            "explanation": "Richie McCaw a disputé 148 Tests avec les All Blacks entre 2001 et 2015, dont deux Coupes du monde gagnées (2011, 2015) en tant que capitaine. Élu meilleur joueur du monde à trois reprises (2006, 2009, 2010), il est considéré comme le plus grand flanker de l'histoire du rugby. Son record mondial fut ensuite dépassé par Brian O'Driscoll puis Alun Wyn Jones."
         },
         {
             "id": "4",
-            "question": "Quel Italien est le joueur le plus capé de l’histoire de son pays ?",
-            "answers": [
-                "Martin Castrogiovanni",
-                "Alessandro Zanni",
-                "Mauro Bergamasco",
-                "Sergio Parisse"
-            ],
+            "question": "Quel joueur est de loin le plus capé de l'histoire du rugby italien, avec 142 sélections entre 2002 et 2022 ?",
+            "answers": ["Martin Castrogiovanni", "Alessandro Zanni", "Mauro Bergamasco", "Sergio Parisse"],
             "correctIndex": 3,
-            "explanation": "Sergio Parisse a accumulé 142 sélections et a longtemps porté l’équipe d’Italie au plus haut niveau."
+            "explanation": "Sergio Parisse a disputé 142 Tests avec l'Italie entre 2002 et 2022, dont la totalité des éditions de la Coupe du monde de 2003 à 2019. Numéro 8 de génie, il a porté pratiquement seul l'équipe azzurra pendant vingt ans, devenant une icône mondiale du rugby régulièrement cité parmi les meilleurs joueurs du monde à son poste, malgré l'absence de titre de son pays."
         },
         {
             "id": "5",
-            "question": "Quel Irlandais compte 141 sélections internationales ?",
-            "answers": [
-                "Brian O’Driscoll",
-                "Johnny Sexton",
-                "Ronan O’Gara",
-                "Conor Murray"
-            ],
+            "question": "Quel Irlandais a disputé 141 sélections entre 1999 et 2014, devenant l'un des joueurs les plus capés et les plus célébrés de l'histoire du rugby ?",
+            "answers": ["Brian O'Driscoll", "Johnny Sexton", "Ronan O'Gara", "Conor Murray"],
             "correctIndex": 0,
-            "explanation": "Brian O’Driscoll a été l’un des centres les plus influents de l’histoire du rugby, avec 141 sélections."
+            "explanation": "Brian O'Driscoll a disputé 141 Tests avec l'Irlande entre 1999 et 2014, plus 8 avec les Lions Britanniques et Irlandais. Centre d'exception régulièrement distingué parmi les meilleurs joueurs du monde, il reste le meilleur essayeur irlandais de l'histoire avec 46 essais. Il a remporté quatre Tournois des 6 Nations et terminé sa carrière en beauté avec un titre en 2014."
         },
         {
             "id": "6",
-            "question": "Quel Australien est le joueur le plus capé de son pays ?",
-            "answers": [
-                "Will Genia",
-                "George Gregan",
-                "Michael Hooper",
-                "Stephen Moore"
-            ],
+            "question": "Quel flanker australien, capitaine des Wallabies pendant plusieurs années, a dépassé les 130 sélections entre 2012 et 2023 ?",
+            "answers": ["Will Genia", "Michael Hooper", "George Gregan", "Stephen Moore"],
             "correctIndex": 1,
-            "explanation": "George Gregan détient le record australien avec 139 sélections, un record longtemps considéré comme imbattable."
+            "explanation": "Michael Hooper a disputé plus de 130 Tests avec l'Australie entre 2012 et 2023, en étant l'un des capitaines les plus emblématiques des Wallabies. Spécialiste du grattage et de l'impact défensif, il a représenté son pays dans trois Coupes du monde (2015, 2019, 2023) et fut souvent désigné parmi les meilleurs joueurs du monde à son poste."
         },
         {
             "id": "7",
-            "question": "Quel pilier australien est devenu le plus capé de l’histoire à son poste ?",
-            "answers": [
-                "Sekope Kepu",
-                "James Slipper",
-                "Ben Alexander",
-                "Taniela Tupou"
-            ],
-            "correctIndex": 1,
-            "explanation": "James Slipper est devenu le pilier le plus capé de l’histoire avec plus de 150 sélections, un total exceptionnel pour un poste aussi exigeant physiquement."
+            "question": "Quel pilier australien a atteint 138 sélections avec les Wallabies, devenant le joueur le plus capé à son poste dans l'histoire du rugby mondial ?",
+            "answers": ["Sekope Kepu", "Ben Alexander", "James Slipper", "Taniela Tupou"],
+            "correctIndex": 2,
+            "explanation": "James Slipper a disputé 138 Tests avec l'Australie entre 2010 et 2023, un record mondial pour un pilier. Sa longévité à ce poste particulièrement exigeant physiquement est exceptionnelle. Il a participé à quatre Coupes du monde (2011, 2015, 2019, 2023) et représente une figure de continuité du rugby australien sur plus d'une décennie."
         },
         {
             "id": "8",
-            "question": "Quel talonneur néo-zélandais a dépassé les 130 sélections ?",
-            "answers": [
-                "Codie Taylor",
-                "Dane Coles",
-                "Keven Mealamu",
-                "Anton Oliver"
-            ],
-            "correctIndex": 2,
-            "explanation": "Keven Mealamu a atteint 132 sélections, illustrant une grande longévité à un poste exigeant."
+            "question": "Quel talonneur des All Blacks a totalisé 132 sélections entre 2002 et 2015, avant de devenir l'un des entraîneurs les plus respectés de sa génération ?",
+            "answers": ["Codie Taylor", "Dane Coles", "Anton Oliver", "Keven Mealamu"],
+            "correctIndex": 3,
+            "explanation": "Keven Mealamu a disputé 132 Tests avec les All Blacks entre 2002 et 2015, remportant les Coupes du monde 2011 et 2015. Son intelligence de jeu et sa longévité à un poste très exigeant en font l'un des grands talonneurs de l'histoire. Il devint ensuite entraîneur au Blues, en Super Rugby."
         },
         {
             "id": "9",
-            "question": "Quel joueur sud-africain fait partie des internationaux les plus capés avec plus de 140 sélections ?",
-            "answers": [
-                "Victor Matfield",
-                "Bryan Habana",
-                "Eben Etzebeth",
-                "John Smit"
-            ],
-            "correctIndex": 2,
-            "explanation": "Eben Etzebeth a dépassé les 140 sélections avec l’Afrique du Sud, devenant l’un des joueurs les plus capés de l’histoire des Springboks."
+            "question": "Quel deuxième ligne des Springboks a dépassé les 110 sélections entre 2012 et 2024, devenant le joueur le plus capé de l'histoire de l'Afrique du Sud ?",
+            "answers": ["Eben Etzebeth", "Victor Matfield", "Bryan Habana", "John Smit"],
+            "correctIndex": 0,
+            "explanation": "Eben Etzebeth a dépassé les 110 sélections avec l'Afrique du Sud depuis ses débuts en 2012, devenant le joueur le plus capé de l'histoire des Springboks. Deuxième ligne dominant, il a remporté les Coupes du monde 2019 et 2023, s'imposant au sommet d'une carrière exceptionnelle comme l'un des meilleurs joueurs à son poste de sa génération."
         },
         {
             "id": "10",
-            "question": "Quel joueur irlandais est à la fois parmi les plus capés et recordman de points de son pays ?",
-            "answers": [
-                "Ronan O’Gara",
-                "Conor Murray",
-                "Johnny Sexton",
-                "Peter O’Mahony"
-            ],
-            "correctIndex": 2,
-            "explanation": "Johnny Sexton a dépassé les 110 sélections et est devenu le meilleur marqueur de points de l’histoire de l’Irlande, combinant longévité et efficacité."
+            "question": "Quel ouvreur irlandais a dépassé les 115 sélections entre 2009 et 2023, tout en étant le meilleur marqueur de points de l'histoire de son pays ?",
+            "answers": ["Ronan O'Gara", "Johnny Sexton", "Conor Murray", "Peter O'Mahony"],
+            "correctIndex": 1,
+            "explanation": "Johnny Sexton a disputé plus de 115 Tests avec l'Irlande entre 2009 et 2023, s'imposant comme le meilleur marqueur de points de l'histoire irlandaise. Élu meilleur joueur du monde en 2018, il a remporté quatre Tournois des 6 Nations, dont le Grand Chelem 2018, et a conduit l'Irlande vers son premier Grand Chelem en quinze ans en 2023, lors de son dernier tournoi."
         },
         {
             "id": "11",
-            "question": "Quel joueur roumain compte 129 sélections internationales ?",
-            "answers": [
-                "Mihai Macovei",
-                "Florin Vlaicu",
-                "Ovidiu Tonita",
-                "Valentin Ursache"
-            ],
-            "correctIndex": 1,
-            "explanation": "Florin Vlaicu totalise 129 sélections avec la Roumanie, ce qui en fait l’un des joueurs les plus capés hors grandes nations du rugby."
+            "question": "Quel arrière roumain détient le record de sélections de son pays, illustrant une longévité remarquable au sein d'une nation émergente du rugby mondial ?",
+            "answers": ["Mihai Macovei", "Ovidiu Tonita", "Florin Vlaicu", "Valentin Ursache"],
+            "correctIndex": 2,
+            "explanation": "Florin Vlaicu est le joueur le plus capé de l'histoire du rugby roumain, avec plusieurs dizaines de sélections récoltées tout au long des années 2000 et 2010. Buteur de précision et pilier du jeu roumain, il a représenté son pays dans plusieurs Coupes du monde et nombreux tournois européens, symbolisant la progression constante du rugby roumain sur la scène internationale."
         },
         {
             "id": "12",
-            "question": "Quel ailier sud-africain a dépassé les 120 sélections ?",
-            "answers": [
-                "Cheslin Kolbe",
-                "JP Pietersen",
-                "Bryan Habana",
-                "Makazole Mapimpi"
-            ],
-            "correctIndex": 2,
-            "explanation": "Bryan Habana a été l’un des ailiers les plus prolifiques et réguliers de l’histoire du rugby."
+            "question": "Quel ailier des Springboks, recordman d'essais en Coupe du monde, a dépassé les 120 sélections entre 2004 et 2016 ?",
+            "answers": ["Cheslin Kolbe", "JP Pietersen", "Makazole Mapimpi", "Bryan Habana"],
+            "correctIndex": 3,
+            "explanation": "Bryan Habana a disputé 124 Tests avec l'Afrique du Sud entre 2004 et 2016, inscrivant 67 essais — record mondial égalé avec Daisuke Ohata. Recordman d'essais en Coupe du monde avec 15 réalisations, élu meilleur joueur du monde en 2007, il fut l'un des ailiers les plus redoutables et les plus spectaculaires de l'histoire du rugby."
         },
         {
             "id": "13",
-            "question": "Quel talonneur australien compte 129 sélections ?",
-            "answers": [
-                "Stephen Moore",
-                "Tatafu Polota-Nau",
-                "Brendan Cannon",
-                "David Pocock"
-            ],
+            "question": "Quel talonneur australien a disputé 129 sélections avec les Wallabies entre 2005 et 2017, en tant que pilier et capitaine de l'équipe ?",
+            "answers": ["Stephen Moore", "Tatafu Polota-Nau", "Brendan Cannon", "David Pocock"],
             "correctIndex": 0,
-            "explanation": "Stephen Moore a été un leader constant des Wallabies pendant plus d’une décennie."
+            "explanation": "Stephen Moore a disputé 129 Tests avec l'Australie entre 2005 et 2017, dont une grande partie comme capitaine des Wallabies. Talonneur solide et leader respecté, il participa à trois Coupes du monde (2007, 2011, 2015) et fut l'un des artisans de la finale mondiale atteinte par l'Australie en 2015, perdue face aux All Blacks."
         },
         {
             "id": "14",
-            "question": "Quel pilier italien a atteint 119 sélections ?",
-            "answers": [
-                "Andrea Lo Cicero",
-                "Martin Castrogiovanni",
-                "Sergio Parisse",
-                "Alessandro Zanni"
-            ],
+            "question": "Quel pilier argentin naturalisé italien a disputé 119 sélections avec l'Italie entre 2002 et 2016, devenant une figure tutélaire de la mêlée azzurra ?",
+            "answers": ["Andrea Lo Cicero", "Martin Castrogiovanni", "Sergio Parisse", "Alessandro Zanni"],
             "correctIndex": 1,
-            "explanation": "Martin Castrogiovanni a marqué le rugby italien par sa longévité et son impact physique."
+            "explanation": "Martin Castrogiovanni a disputé 119 Tests avec l'Italie entre 2002 et 2016, s'imposant comme l'un des piliers les plus puissants d'Europe. Né en Argentine, il choisit de représenter l'Italie et devint une pièce maîtresse de la mêlée italienne pendant quatorze ans, participant à quatre Coupes du monde et à de nombreuses éditions du Tournoi des 6 Nations."
         },
         {
             "id": "15",
-            "question": "Quel Australien a dépassé les 120 sélections en jouant à plusieurs postes derrière ?",
-            "answers": [
-                "Israel Folau",
-                "Joe Roff",
-                "Adam Ashley-Cooper",
-                "Lote Tuqiri"
-            ],
+            "question": "Quel joueur australien a dépassé les 121 sélections en jouant comme centre, ailier et arrière, ce qui en fait l'un des tréquarts les plus polyvalents de l'histoire des Wallabies ?",
+            "answers": ["Israel Folau", "Joe Roff", "Adam Ashley-Cooper", "Lote Tuqiri"],
             "correctIndex": 2,
-            "explanation": "Adam Ashley-Cooper a brillé par sa polyvalence, évoluant à plusieurs postes au plus haut niveau."
+            "explanation": "Adam Ashley-Cooper a disputé 121 Tests avec l'Australie entre 2005 et 2015, évoluant à plusieurs postes dans la ligne de trois-quarts selon les besoins de l'équipe. Sa polyvalence rare et sa fiabilité en ont fait un indispensable des Wallabies pendant une décennie. Il participa à trois Coupes du monde et inscrit 29 essais en équipe nationale."
         },
         {
             "id": "16",
-            "question": "Quel demi de mêlée australien détient le record de sélections de son pays ?",
-            "answers": [
-                "Will Genia",
-                "Matt Giteau",
-                "George Gregan",
-                "Nic White"
-            ],
-            "correctIndex": 2,
-            "explanation": "George Gregan détient le record australien avec 139 sélections. Il a longtemps été le recordman mondial avant d’être dépassé."
+            "question": "Quel demi de mêlée australien, avec 139 sélections entre 1994 et 2007, a longtemps été le joueur le plus capé du monde toutes nations confondues ?",
+            "answers": ["Will Genia", "Matt Giteau", "Nic White", "George Gregan"],
+            "correctIndex": 3,
+            "explanation": "George Gregan a disputé 139 Tests avec l'Australie entre 1994 et 2007, établissant un record mondial qui dura plusieurs années. Demi de mêlée de référence, il remporta la Coupe du monde 1999, atteignit la finale en 2003 et fut l'un des architectes du jeu australien sous John Connolly et Rod Macqueen. Son record fut ensuite battu par Fabien Pelous puis Brian O'Driscoll."
         },
         {
             "id": "17",
-            "question": "Quel joueur géorgien détient le record de sélections de son pays ?",
-            "answers": [
-                "Davit Kacharava",
-                "Mamuka Gorgodze",
-                "Merab Sharikadze",
-                "Guram Kashia"
-            ],
+            "question": "Quel troisième ligne géorgien compte le plus grand nombre de sélections de l'histoire de son pays, incarnant la montée en puissance du rugby géorgien sur la scène mondiale ?",
+            "answers": ["Mamuka Gorgodze", "Davit Kacharava", "Merab Sharikadze", "Guram Kashia"],
             "correctIndex": 0,
-            "explanation": "Davit Kacharava est le joueur le plus capé de l’histoire de la Géorgie, symbole de la progression du pays."
+            "explanation": "Mamuka Gorgodze est le joueur le plus capé de l'histoire du rugby géorgien, avec une centaine de sélections récoltées entre 2003 et 2019. Troisième ligne imposant surnommé « Gorgodze the Monster », il fut l'une des grandes figures de la Coupe du monde 2015, notamment lors de la victoire historique de la Géorgie contre la Namibie, et reste connu pour sa puissance et son impact physique tout au long de sa carrière."
         },
         {
             "id": "18",
-            "question": "Quel ouvreur néo-zélandais a dépassé les 100 sélections et détient un record de points mondial ?",
-            "answers": [
-                "Beauden Barrett",
-                "Dan Carter",
-                "Aaron Cruden",
-                "Andrew Mehrtens"
-            ],
+            "question": "Quel ouvreur néo-zélandais a disputé 112 sélections entre 2003 et 2015 et détient le record mondial de points en Test rugby avec 1 598 unités ?",
+            "answers": ["Beauden Barrett", "Dan Carter", "Aaron Cruden", "Andrew Mehrtens"],
             "correctIndex": 1,
-            "explanation": "Dan Carter est considéré comme l’un des plus grands ouvreurs de l’histoire, avec un record de points impressionnant."
+            "explanation": "Dan Carter a disputé 112 Tests avec les All Blacks entre 2003 et 2015, s'imposant comme le meilleur buteur de l'histoire du rugby avec 1 598 points. Double champion du monde (2011, 2015), élu meilleur joueur du monde à trois reprises (2005, 2012, 2015), il est universellement considéré comme le plus grand ouvreur de l'histoire de la discipline."
         },
         {
             "id": "19",
-            "question": "Quel joueur russe a atteint environ 120 sélections internationales ?",
-            "answers": [
-                "Vasily Artemyev",
-                "Kirill Kulemin",
-                "Yuri Kushnarev",
-                "Andrey Garbuzov"
-            ],
+            "question": "Quel arrière russe, meilleur marqueur de l'histoire de son pays, compte parmi les joueurs les plus capés du rugby russe avec plusieurs dizaines de sélections ?",
+            "answers": ["Vasily Artemyev", "Kirill Kulemin", "Yuri Kushnarev", "Andrey Garbuzov"],
             "correctIndex": 2,
-            "explanation": "Yuri Kushnarev compte environ 120 sélections avec la Russie, illustrant une grande longévité au niveau international."
+            "explanation": "Yuri Kushnarev est le meilleur marqueur de points de l'histoire du rugby russe, avec un nombre élevé de sélections récoltées tout au long des années 2000 et 2010. Buteur précis et arrière solide, il représenta la Russie dans plusieurs Coupes du monde, notamment en 2011 en Nouvelle-Zélande, et incarne la longévité au service d'une nation qui cherche à s'affirmer sur la scène internationale."
         },
         {
             "id": "20",
-            "question": "Quel centre sud-africain a dépassé les 100 sélections internationales et a été capitaine des Springboks ?",
-            "answers": [
-                "Jean de Villiers",
-                "Damian de Allende",
-                "Francois Steyn",
-                "Jacque Fourie"
-            ],
-            "correctIndex": 0,
-            "explanation": "Jean de Villiers a dépassé les 100 sélections avec l’Afrique du Sud et a été capitaine des Springboks, jouant un rôle majeur dans l’équipe pendant plus d’une décennie."
+            "question": "Quel centre des Springboks a dépassé les 109 sélections entre 2002 et 2015, endossant régulièrement le brassard de capitaine de l'Afrique du Sud ?",
+            "answers": ["Damian de Allende", "Francois Steyn", "Jacque Fourie", "Jean de Villiers"],
+            "correctIndex": 3,
+            "explanation": "Jean de Villiers a disputé 109 Tests avec l'Afrique du Sud entre 2002 et 2015, dont une grande partie comme capitaine. Centre technique et physique, il joua un rôle central dans les succès Springboks des années 2000 et 2010, malgré une carrière émaillée de blessures graves — notamment une fracture de la mâchoire en Coupe du monde 2015 — qui auraient pu briser une carrière moins déterminée."
         }
     ]
 }

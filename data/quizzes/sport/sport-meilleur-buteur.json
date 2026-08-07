@@ -1,8 +1,8 @@
 {
   "slug": "quiz-sport-meilleurs-buteurs-histoire-coupe-du-monde",
-  "title": "Quiz Sport - Coupe du Monde - Connais-tu les meilleurs buteurs de l’histoire ?",
-  "description": "Teste tes connaissances sur les plus grands buteurs de l’histoire de la Coupe du Monde avec 20 questions exigeantes.",
-  "descriptionSeo": "De Miroslav Klose à Just Fontaine, en passant par Ronaldo, Messi, Pelé ou Mbappé, ce quiz te met au défi sur les plus grands buteurs de l’histoire de la Coupe du Monde. Records absolus, performances sur une seule édition, classements légendaires et exploits offensifs marquants : réponds à 20 questions pointues et découvre si tu maîtrises vraiment l’histoire du tournoi le plus prestigieux du football mondial.",
+  "title": "Quiz Sport - Coupe du Monde - Connais-tu les meilleurs buteurs de l'histoire ?",
+  "description": "Teste tes connaissances sur les plus grands buteurs de l'histoire de la Coupe du Monde avec 20 questions exigeantes.",
+  "descriptionSeo": "De Miroslav Klose à Just Fontaine, en passant par Ronaldo, Messi, Pelé ou Mbappé, ce quiz te met au défi sur les plus grands buteurs de l'histoire de la Coupe du Monde. Records absolus, performances sur une seule édition, classements légendaires et exploits offensifs marquants : réponds à 20 questions pointues et découvre si tu maîtrises vraiment l'histoire du tournoi le plus prestigieux du football mondial.",
   "category": {
     "name": "Sport",
     "slug": "sport"
@@ -13,193 +13,248 @@
   "images": {
     "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776206086/cover_w1zecd.jpg",
     "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776206086/cover_w1zecd.jpg",
-    "alt": "Quiz meilleurs buteurs de l’histoire de la Coupe du Monde"
+    "alt": "Quiz meilleurs buteurs de l'histoire de la Coupe du Monde"
   },
   "questions": [
     {
       "id": "1",
-      "question": "Quel joueur détient le record absolu de buts inscrits en Coupe du Monde ?",
-      "image": null,
-      "imagePrompt": "Miroslav Klose World Cup record",
-      "answers": ["Ronaldo", "Miroslav Klose", "Lionel Messi", "Gerd Müller"],
+      "question": "Quel joueur détient le record absolu de buts inscrits en Coupe du Monde avec 16 réalisations sur quatre éditions ?",
+      "answers": [
+        "Ronaldo",
+        "Miroslav Klose",
+        "Lionel Messi",
+        "Gerd Müller"
+      ],
       "correctIndex": 1,
-      "explanation": "Miroslav Klose est le meilleur buteur de l’histoire de la Coupe du Monde avec 16 buts. Sa performance est d’autant plus remarquable qu’il a marqué sur quatre éditions différentes, entre 2002 et 2014, preuve d’une longévité exceptionnelle au plus haut niveau."
+      "explanation": "Miroslav Klose est le meilleur buteur de l'histoire de la Coupe du Monde avec 16 buts, marqués sur quatre éditions (2002, 2006, 2010 et 2014). Sa longévité exceptionnelle lui a permis de dépasser Ronaldo lors de la demi-finale Allemagne-Brésil en 2014 (le célèbre 7-1), inscrivant son 16e but lors de ce match mémorable."
     },
     {
       "id": "2",
-      "question": "Quel attaquant brésilien a longtemps détenu le record historique avant d’être dépassé par Klose ?",
-      "image": null,
-      "imagePrompt": "Ronaldo Nazario World Cup goals",
-      "answers": ["Pelé", "Romário", "Ademir", "Ronaldo"],
+      "question": "Quel attaquant brésilien a longtemps détenu le record absolu de buts en Coupe du Monde avant d'être dépassé par Klose en 2014 ?",
+      "answers": [
+        "Pelé",
+        "Romário",
+        "Ademir",
+        "Ronaldo"
+      ],
       "correctIndex": 3,
-      "explanation": "Ronaldo Nazário a totalisé 15 buts en Coupe du Monde et a longtemps été recordman. Son Mondial 2002 reste l’un des plus marquants de l’ère moderne, avec 8 buts et un doublé en finale face à l’Allemagne."
+      "explanation": "Ronaldo Nazário a totalisé 15 buts en Coupe du Monde, un record qui a tenu jusqu'en 2014 avant d'être dépassé par Miroslav Klose. Son Mondial 2002 reste l'un des plus marquants de l'ère moderne, avec 8 buts dont un doublé en finale face à l'Allemagne (2-0)."
     },
     {
       "id": "3",
-      "question": "Quel Français détient toujours le record du plus grand nombre de buts sur une seule édition ?",
-      "image": null,
-      "imagePrompt": "Just Fontaine 1958 France",
-      "answers": ["Just Fontaine", "Michel Platini", "Thierry Henry", "Kylian Mbappé"],
+      "question": "Quel Français détient toujours le record du plus grand nombre de buts inscrits lors d'une seule édition de la Coupe du Monde ?",
+      "answers": [
+        "Just Fontaine",
+        "Michel Platini",
+        "Thierry Henry",
+        "Kylian Mbappé"
+      ],
       "correctIndex": 0,
-      "explanation": "Just Fontaine a inscrit 13 buts lors du Mondial 1958, un record sur une seule édition qui n’a jamais été battu. Cet exploit est d’autant plus impressionnant qu’il a été réalisé en seulement 6 matches."
+      "explanation": "Just Fontaine a inscrit 13 buts lors du Mondial 1958 en Suède, un record sur une seule édition qui n'a jamais été approché depuis. Cet exploit est d'autant plus remarquable qu'il a été réalisé en seulement 6 matchs, avec 4 buts lors du seul match pour la troisième place contre l'Allemagne de l'Ouest."
     },
     {
       "id": "4",
-      "question": "Combien de buts Just Fontaine a-t-il marqués pendant la Coupe du Monde 1958 ?",
-      "image": null,
-      "imagePrompt": "Just Fontaine Sweden 1958",
-      "answers": ["11", "12", "13", "14"],
+      "question": "Combien de buts Just Fontaine a-t-il inscrits lors de la Coupe du Monde 1958 en Suède ?",
+      "answers": [
+        "11",
+        "12",
+        "13",
+        "14"
+      ],
       "correctIndex": 2,
-      "explanation": "Fontaine a marqué 13 buts en 1958. Ce total constitue toujours la référence absolue pour une seule édition et symbolise l’une des campagnes offensives les plus extraordinaires de toute l’histoire du football."
+      "explanation": "Just Fontaine a inscrit 13 buts lors du Mondial 1958, dont 4 lors du seul match pour la troisième place contre l'Allemagne de l'Ouest (victoire 6-3 de la France). Ce total constitue toujours la référence absolue pour une seule édition et symbolise l'une des campagnes offensives les plus extraordinaires de l'histoire du tournoi."
     },
     {
       "id": "5",
-      "question": "Quel joueur allemand a inscrit 14 buts en Coupe du Monde avec une efficacité légendaire ?",
-      "image": null,
-      "imagePrompt": "Gerd Muller World Cup",
-      "answers": ["Thomas Müller", "Miroslav Klose", "Gerd Müller", "Jürgen Klinsmann"],
+      "question": "Quel joueur allemand a inscrit 14 buts en Coupe du Monde en seulement 13 matchs, à raison de plus d'un but par match ?",
+      "answers": [
+        "Thomas Müller",
+        "Miroslav Klose",
+        "Gerd Müller",
+        "Jürgen Klinsmann"
+      ],
       "correctIndex": 2,
-      "explanation": "Gerd Müller a marqué 14 buts en seulement 13 matches. Cette moyenne supérieure à un but par match renforce sa réputation de finisseur hors pair et explique pourquoi il reste une référence dans l’histoire des buteurs."
+      "explanation": "Gerd Müller a marqué 14 buts en seulement 13 matchs lors des éditions 1970 et 1974, soit une moyenne supérieure à un but par match. Cette efficacité légendaire dans la surface de réparation lui valut le surnom de Der Bomber et en fait l'un des finisseurs les plus redoutables de toute l'histoire de la compétition."
     },
     {
       "id": "6",
-      "question": "Quel joueur argentin a terminé la Coupe du Monde 2022 avec 13 buts en carrière dans la compétition ?",
-      "image": null,
-      "imagePrompt": "Lionel Messi World Cup history",
-      "answers": ["Gabriel Batistuta", "Diego Maradona", "Lionel Messi", "Mario Kempes"],
+      "question": "Quel joueur argentin a terminé la Coupe du Monde 2022 avec 13 buts au total dans la compétition, devenant le meilleur buteur argentin de l'histoire du tournoi ?",
+      "answers": [
+        "Gabriel Batistuta",
+        "Diego Maradona",
+        "Lionel Messi",
+        "Mario Kempes"
+      ],
       "correctIndex": 2,
-      "explanation": "Lionel Messi a atteint 13 buts en Coupe du Monde après le tournoi 2022. Ce total lui a permis de devenir le meilleur buteur argentin de l’histoire de la compétition, devant Gabriel Batistuta."
+      "explanation": "Lionel Messi a atteint 13 buts en Coupe du Monde à l'issue de l'édition 2022, dépassant ainsi Gabriel Batistuta (10 buts) et devenant le meilleur buteur argentin de l'histoire de la compétition. Il a inscrit 7 buts lors de cette édition gagnante au Qatar, dont un doublé en finale contre la France."
     },
     {
       "id": "7",
-      "question": "Quel total de buts Lionel Messi affiche-t-il en Coupe du Monde après l’édition 2022 ?",
-      "image": null,
-      "imagePrompt": "Messi World Cup stats",
-      "answers": ["12", "13", "14", "15"],
-      "correctIndex": 1,
-      "explanation": "Avec 13 buts, Messi s’est hissé parmi les plus grands buteurs de l’histoire du tournoi. Ce chiffre résume à la fois sa longévité, sa régularité et son influence dans les grands rendez-vous internationaux."
+      "question": "Quel Brésilien a inscrit 9 buts lors de la Coupe du Monde 1950 et terminé meilleur buteur du tournoi organisé dans son pays ?",
+      "answers": [
+        "Ademir",
+        "Pelé",
+        "Romário",
+        "Jairzinho"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ademir de Menezes, surnommé 'Queixada', a terminé meilleur buteur du Mondial 1950 avec 9 buts, dont 4 lors d'un seul match contre la Suède. Son total demeure l'un des plus élevés sur une seule édition et reste le record brésilien pour un seul tournoi. Le Brésil finit toutefois deuxième, battu par l'Uruguay lors du match décisif (le Maracanazo)."
     },
     {
       "id": "8",
-      "question": "Quel Français a terminé meilleur buteur du Mondial 2022 avec 8 réalisations ?",
-      "image": null,
-      "imagePrompt": "Kylian Mbappe Qatar 2022",
-      "answers": ["Olivier Giroud", "Antoine Griezmann", "Thierry Henry", "Kylian Mbappé"],
+      "question": "Quel Français a terminé meilleur buteur du Mondial 2022 avec 8 réalisations, dont un triplé en finale contre l'Argentine ?",
+      "answers": [
+        "Olivier Giroud",
+        "Antoine Griezmann",
+        "Thierry Henry",
+        "Kylian Mbappé"
+      ],
       "correctIndex": 3,
-      "explanation": "Kylian Mbappé a remporté le Soulier d’or du Mondial 2022 avec 8 buts, dont un triplé en finale. Une telle performance dans un match pour le titre est presque sans équivalent dans l’histoire moderne du tournoi."
+      "explanation": "Kylian Mbappé a remporté le Soulier d'Or du Mondial 2022 avec 8 buts, dont 3 en finale contre l'Argentine (3-3 a.p., France battue 4-2 aux tirs au but). Ce triplé en finale est le premier depuis celui de Geoff Hurst avec l'Angleterre en 1966, et place Mbappé parmi les plus grands individualistes de l'histoire du tournoi."
     },
     {
       "id": "9",
-      "question": "Avec 12 buts après 2022, quel joueur français se rapproche le plus du record national de Just Fontaine ?",
-      "image": null,
-      "imagePrompt": "Mbappe France World Cup goals",
-      "answers": ["Kylian Mbappé", "Thierry Henry", "Michel Platini", "Zinédine Zidane"],
-      "correctIndex": 0,
-      "explanation": "Mbappé totalise 12 buts en Coupe du Monde après seulement deux éditions. Cette progression fulgurante le place déjà au niveau des tout meilleurs buteurs de l’histoire, malgré son jeune âge."
+      "question": "Quel joueur russe a inscrit 6 buts lors du Mondial 1994, dont 5 lors d'un seul match, partageant le Soulier d'Or avec Hristo Stoichkov ?",
+      "answers": [
+        "Alexander Mostovoi",
+        "Oleg Salenko",
+        "Valeri Karpin",
+        "Igor Kolyvanov"
+      ],
+      "correctIndex": 1,
+      "explanation": "Oleg Salenko a inscrit 5 buts lors du seul match Russie-Cameroun (6-1) le 28 juin 1994, un record absolu pour un match de Coupe du Monde. Avec 6 buts au total lors de ce tournoi, il partagea le Soulier d'Or avec le Bulgare Hristo Stoichkov, bien que la Russie ait été éliminée au premier tour."
     },
     {
       "id": "10",
-      "question": "Quel Hongrois a inscrit 11 buts au Mondial 1954, soit le deuxième meilleur total sur une seule édition ?",
-      "image": null,
-      "imagePrompt": "Sandor Kocsis 1954",
-      "answers": ["Ferenc Puskás", "Nándor Hidegkuti", "Sándor Kocsis", "József Bozsik"],
+      "question": "Quel Hongrois a inscrit 11 buts au Mondial 1954, soit le deuxième meilleur total sur une seule édition après Just Fontaine ?",
+      "answers": [
+        "Ferenc Puskás",
+        "Nándor Hidegkuti",
+        "Sándor Kocsis",
+        "József Bozsik"
+      ],
       "correctIndex": 2,
-      "explanation": "Sándor Kocsis a marqué 11 buts en 1954. Il reste juste derrière Just Fontaine dans le classement des meilleures performances sur une seule édition, ce qui témoigne de la puissance offensive de la Hongrie des années 1950."
+      "explanation": "Sándor Kocsis a marqué 11 buts en 1954 lors d'un Mondial où la Hongrie, considérée comme la meilleure équipe du monde, finit pourtant défaite en finale par la RFA (2-3). Il reste juste derrière Just Fontaine dans le classement des meilleures performances sur une seule édition, et témoigne de la puissance offensive de la Hongrie des années 1950."
     },
     {
       "id": "11",
-      "question": "Quel Portugais a marqué 9 buts lors du Mondial 1966 et terminé meilleur buteur du tournoi ?",
-      "image": null,
-      "imagePrompt": "Eusebio 1966 Portugal",
-      "answers": ["Cristiano Ronaldo", "Pauleta", "Nené", "Eusébio"],
+      "question": "Quel Portugais a marqué 9 buts lors du Mondial 1966 et terminé meilleur buteur du tournoi, guidant le Portugal jusqu'à la troisième place ?",
+      "answers": [
+        "Cristiano Ronaldo",
+        "Pauleta",
+        "Nené",
+        "Eusébio"
+      ],
       "correctIndex": 3,
-      "explanation": "Eusébio a inscrit 9 buts en 1966, un total exceptionnel qui a porté le Portugal jusqu’à la troisième place. Son tournoi demeure l’un des plus marquants jamais réalisés par un joueur portugais."
+      "explanation": "Eusébio a inscrit 9 buts en 1966, un total exceptionnel qui a porté le Portugal jusqu'à la troisième place. Son tournoi demeure l'un des plus marquants jamais réalisés par un joueur portugais, illustré notamment par ses 4 buts en quart de finale contre la Corée du Nord (5-3), alors que le Portugal était mené 0-3."
     },
     {
       "id": "12",
-      "question": "Quel buteur anglais a marqué 10 buts en Coupe du Monde, record de son pays ?",
-      "image": null,
-      "imagePrompt": "Gary Lineker World Cup",
-      "answers": ["Gary Lineker", "Harry Kane", "Geoff Hurst", "Bobby Charlton"],
+      "question": "Quel buteur anglais a marqué 10 buts en Coupe du Monde, dont 6 lors de la seule édition 1986 au Mexique ?",
+      "answers": [
+        "Gary Lineker",
+        "Harry Kane",
+        "Geoff Hurst",
+        "Bobby Charlton"
+      ],
       "correctIndex": 0,
-      "explanation": "Gary Lineker est le meilleur buteur anglais de l’histoire de la Coupe du Monde avec 10 réalisations. Son Mondial 1986, conclu avec 6 buts, reste l’un des sommets offensifs de l’Angleterre dans la compétition."
+      "explanation": "Gary Lineker est le meilleur buteur anglais de l'histoire de la Coupe du Monde avec 10 réalisations. Son Mondial 1986 au Mexique, conclu avec 6 buts et le Soulier d'Or, reste l'un des sommets offensifs de l'Angleterre dans la compétition, dans une édition remportée par l'Argentine de Maradona."
     },
     {
       "id": "13",
-      "question": "Quel avant-centre argentin a longtemps détenu le record national avec 10 buts avant d’être dépassé par Messi ?",
-      "image": null,
-      "imagePrompt": "Gabriel Batistuta World Cup goals",
-      "answers": ["Hernán Crespo", "Mario Kempes", "Diego Maradona", "Gabriel Batistuta"],
+      "question": "Quel avant-centre argentin a longtemps détenu le record national de buts en Coupe du Monde avec 10 réalisations avant d'être dépassé par Messi ?",
+      "answers": [
+        "Hernán Crespo",
+        "Mario Kempes",
+        "Diego Maradona",
+        "Gabriel Batistuta"
+      ],
       "correctIndex": 3,
-      "explanation": "Gabriel Batistuta a longtemps incarné la référence offensive argentine en Coupe du Monde avec 10 buts. Son sens du but et sa régularité sur plusieurs éditions ont fait de lui un marqueur historique du tournoi."
+      "explanation": "Gabriel Batistuta a longtemps incarné la référence offensive argentine en Coupe du Monde avec 10 buts, inscrits lors des éditions 1994, 1998 et 2002. Son sens du but et sa régularité sur plusieurs éditions faisaient de lui un marqueur historique du tournoi, avant que Lionel Messi ne le dépasse lors de l'édition 2022."
     },
     {
       "id": "14",
-      "question": "Quel joueur allemand a atteint 10 buts en Coupe du Monde grâce à ses grandes campagnes de 2010 et 2014 ?",
-      "image": null,
-      "imagePrompt": "Thomas Muller World Cup goals",
-      "answers": ["Helmut Rahn", "Thomas Müller", "Rudi Völler", "Karl-Heinz Rummenigge"],
+      "question": "Quel joueur allemand a atteint 10 buts en Coupe du Monde, avec 5 réalisations en 2010 et 5 autres en 2014 ?",
+      "answers": [
+        "Helmut Rahn",
+        "Thomas Müller",
+        "Rudi Völler",
+        "Karl-Heinz Rummenigge"
+      ],
       "correctIndex": 1,
-      "explanation": "Thomas Müller a inscrit 10 buts en Coupe du Monde, notamment grâce à ses performances majeures en 2010 et 2014. Il illustre la tradition allemande des joueurs capables d’être décisifs à répétition dans les grands tournois."
+      "explanation": "Thomas Müller a inscrit 10 buts en Coupe du Monde, avec 5 buts en 2010 (Soulier d'Or) et 5 autres en 2014 lors du titre allemand. Il illustre la tradition allemande des joueurs capables d'être décisifs à répétition dans les grands tournois, avec une efficacité particulière sur les phases finales."
     },
     {
       "id": "15",
-      "question": "Quel Allemand a marqué 11 buts en Coupe du Monde, se plaçant derrière Klose et Gerd Müller mais devant Thomas Müller ?",
-      "image": null,
-      "imagePrompt": "Jurgen Klinsmann World Cup",
-      "answers": ["Jürgen Klinsmann", "Rudi Völler", "Lothar Matthäus", "Karl-Heinz Rummenigge"],
+      "question": "Quel Allemand a marqué 11 buts en Coupe du Monde, se plaçant derrière Klose et Gerd Müller dans le classement historique de son pays ?",
+      "answers": [
+        "Jürgen Klinsmann",
+        "Rudi Völler",
+        "Lothar Matthäus",
+        "Karl-Heinz Rummenigge"
+      ],
       "correctIndex": 0,
-      "explanation": "Jürgen Klinsmann compte 11 buts en Coupe du Monde. Son nom est parfois moins mis en avant que ceux de Klose ou de Gerd Müller, mais il reste l’un des plus grands buteurs allemands de l’histoire du tournoi."
+      "explanation": "Jürgen Klinsmann compte 11 buts en Coupe du Monde, inscrits lors de trois éditions consécutives : 1990 en Italie (5 buts, titre mondial), 1994 aux États-Unis et 1998 en France. Cette régularité sur trois tournois différents renforce la portée de son total et en fait l'un des plus grands buteurs allemands de l'histoire de la compétition."
     },
     {
       "id": "16",
-      "question": "Quel Brésilien triple champion du monde a inscrit 12 buts en Coupe du Monde ?",
-      "image": null,
-      "imagePrompt": "Pele World Cup stats",
-      "answers": ["Ronaldo", "Garrincha", "Pelé", "Jairzinho"],
+      "question": "Quel Brésilien triple champion du monde a inscrit 12 buts en Coupe du Monde sur l'ensemble de sa carrière internationale ?",
+      "answers": [
+        "Ronaldo",
+        "Garrincha",
+        "Pelé",
+        "Jairzinho"
+      ],
       "correctIndex": 2,
-      "explanation": "Pelé a marqué 12 buts en Coupe du Monde et demeure unique avec trois titres remportés comme joueur. Ce double héritage, statistique et symbolique, fait de lui une figure centrale de l’histoire du football mondial."
+      "explanation": "Pelé a marqué 12 buts en Coupe du Monde et demeure unique avec trois titres remportés comme joueur en 1958, 1962 et 1970. Son premier but en Coupe du Monde, inscrit en quart de finale 1958 à l'âge de 17 ans contre le Pays de Galles, reste l'un des moments les plus emblématiques de l'histoire du tournoi."
     },
     {
       "id": "17",
-      "question": "Quel Croate a terminé meilleur buteur du Mondial 1998 avec 6 buts ?",
-      "image": null,
-      "imagePrompt": "Davor Suker 1998 World Cup",
-      "answers": ["Zvonimir Boban", "Luka Modrić", "Ivan Perišić", "Davor Šuker"],
+      "question": "Quel Croate a terminé meilleur buteur du Mondial 1998 avec 6 buts, guidant la Croatie jusqu'à la troisième place lors de sa deuxième participation ?",
+      "answers": [
+        "Zvonimir Boban",
+        "Luka Modrić",
+        "Ivan Perišić",
+        "Davor Šuker"
+      ],
       "correctIndex": 3,
-      "explanation": "Davor Šuker a remporté le Soulier d’or du Mondial 1998 avec 6 buts. Sa campagne a été décisive dans le parcours historique de la Croatie, troisième pour sa première grande apparition mondiale comme nation indépendante."
+      "explanation": "Davor Šuker a remporté le Soulier d'Or du Mondial 1998 avec 6 buts. Sa campagne a été décisive dans le parcours de la Croatie, qui atteignit la troisième place lors de sa deuxième participation en Coupe du Monde en tant que nation indépendante — la première ayant eu lieu en 1994."
     },
     {
       "id": "18",
-      "question": "Parmi ces joueurs, lequel totalise exactement 15 buts en Coupe du Monde ?",
-      "image": null,
-      "imagePrompt": "Ronaldo Nazario World Cup record",
-      "answers": ["Ronaldo", "Miroslav Klose", "Lionel Messi", "Gerd Müller"],
+      "question": "Quel Brésilien a inscrit 7 buts lors du Mondial 1970 au Mexique, marquant dans chaque match disputé par son équipe, un exploit unique dans l'histoire ?",
+      "answers": [
+        "Jairzinho",
+        "Garrincha",
+        "Pelé",
+        "Rivelino"
+      ],
       "correctIndex": 0,
-      "explanation": "Le total de Ronaldo est de 15 buts, soit un de moins que Klose. Cette proximité au sommet montre à quel point le Brésilien a marqué l’histoire du tournoi malgré une carrière internationale traversée par des blessures majeures."
+      "explanation": "Jairzinho a inscrit 7 buts lors du Mondial 1970, devenant le seul joueur de l'histoire de la Coupe du Monde à avoir marqué lors de chaque match disputé dans un même tournoi — six matchs, six buts en phase de groupes et K.-O., plus un septième en finale contre l'Italie (4-1). Ce Brésil 1970 est souvent cité comme la plus grande équipe de l'histoire de la compétition."
     },
     {
       "id": "19",
-      "question": "Quel classement est correct du plus grand au plus petit nombre de buts en Coupe du Monde ?",
-      "image": null,
-      "imagePrompt": "World Cup top scorers ranking",
+      "question": "Quel joueur polonais a terminé meilleur buteur du Mondial 1974 avec 7 buts, guidant la Pologne jusqu'à la troisième place ?",
       "answers": [
-        "Klose > Ronaldo > Pelé > Messi",
-        "Klose > Messi > Ronaldo > Pelé",
-        "Ronaldo > Klose > Messi > Pelé",
-        "Klose > Ronaldo > Messi > Pelé"
+        "Kazimierz Deyna",
+        "Grzegorz Lato",
+        "Zbigniew Boniek",
+        "Robert Lewandowski"
       ],
-      "correctIndex": 3,
-      "explanation": "Le bon ordre est Klose avec 16 buts, Ronaldo avec 15, Messi avec 13, puis Pelé avec 12. Cette hiérarchie réunit des joueurs de générations très différentes, ce qui rend les comparaisons encore plus fascinantes."
+      "correctIndex": 1,
+      "explanation": "Grzegorz Lato a remporté le Soulier d'Or du Mondial 1974 avec 7 buts, guidant une Pologne révélation jusqu'à la troisième place en Allemagne. L'équipe polonaise, emmenée par Lato, Deyna et Szarmach, créa l'une des grandes surprises de l'édition en battant notamment l'Argentine et l'Italie avant de s'incliner face à l'Allemagne de l'Ouest en demi-finale."
     },
     {
       "id": "20",
-      "question": "Quel joueur cumule 12 buts en Coupe du Monde après seulement deux éditions, un total déjà supérieur à celui de nombreux buteurs historiques ?",
-      "image": null,
-      "imagePrompt": "Kylian Mbappe World Cup all time",
-      "answers": ["Thierry Henry", "Kylian Mbappé", "Gabriel Batistuta", "Thomas Müller"],
+      "question": "Quel joueur argentin a terminé meilleur buteur et remporté le titre lors du Mondial 1978, avec 6 buts inscrits à domicile ?",
+      "answers": [
+        "Leopoldo Luque",
+        "Mario Kempes",
+        "Daniel Bertoni",
+        "Osvaldo Ardiles"
+      ],
       "correctIndex": 1,
-      "explanation": "Avec 12 buts après 2018 et 2022, Kylian Mbappé s’est installé très tôt parmi les plus grands buteurs de l’histoire de la Coupe du Monde. Ce rythme de progression est exceptionnel et laisse entrevoir un potentiel record futur."
+      "explanation": "Mario Kempes a terminé meilleur buteur du Mondial 1978 avec 6 buts, dont deux en finale contre les Pays-Bas (3-1 a.p.). Ses 6 buts, dont cinq inscrits lors de la phase finale à partir des quarts, ont fait de lui le héros du premier titre argentin en Coupe du Monde, devant leur public au stade Monumental de Buenos Aires."
     }
   ]
 }

@@ -2,7 +2,7 @@
   "slug": "quiz-sport-sportifs-ayant-change-de-sport-avec-succes",
   "title": "Quiz Sport - Ces champions ont changé de sport… les connais-tu ?",
   "description": "Teste tes connaissances sur les sportifs qui ont réussi à changer de discipline avec 20 questions.",
-  "descriptionSeo": "De Rebecca Romero à Clara Hughes, en passant par Lauryn Williams, Eddie Eagan, Ellyse Perry ou Bo Jackson, certains champions ont brillé après avoir changé de sport. Ce quiz de 20 questions te propose de retrouver ces reconversions marquantes, entre Jeux olympiques, records, doubles carrières et exploits rares dans l’histoire du sport mondial.",
+  "descriptionSeo": "De Rebecca Romero à Clara Hughes, en passant par Lauryn Williams, Eddie Eagan, Ellyse Perry ou Bo Jackson, certains champions ont brillé après avoir changé de sport. Ce quiz de 20 questions te propose de retrouver ces reconversions marquantes, entre Jeux olympiques, records, doubles carrières et exploits rares dans l'histoire du sport mondial.",
   "category": {
     "name": "Sport",
     "slug": "sport"
@@ -18,143 +18,243 @@
   "questions": [
     {
       "id": "1",
-      "question": "Quelle sportive britannique a quitté l’aviron pour devenir championne olympique de cyclisme sur piste ?",
-      "answers": ["Clara Hughes", "Rebecca Romero", "Lauryn Williams", "Ellyse Perry"],
+      "question": "Quelle sportive britannique a quitté l'aviron — où elle avait décroché l'argent olympique en 2004 — pour devenir championne olympique de cyclisme sur piste en 2008 ?",
+      "answers": [
+        "Clara Hughes",
+        "Rebecca Romero",
+        "Lauryn Williams",
+        "Ellyse Perry"
+      ],
       "correctIndex": 1,
-      "explanation": "Rebecca Romero a d’abord remporté l’argent olympique en aviron à Athènes 2004, avant de se réinventer en cyclisme et de décrocher l’or à Pékin 2008. Sa trajectoire est l’un des exemples les plus nets de reconversion réussie au plus haut niveau."
+      "explanation": "Rebecca Romero a remporté l'argent olympique en aviron à Athènes 2004, puis s'est reconvertie au cyclisme sur piste et a décroché l'or à Pékin 2008 dans la poursuite individuelle. Sa trajectoire — passer de l'aviron au cyclisme de piste et devenir championne olympique dans sa nouvelle discipline — reste l'une des reconversions les plus abouties de l'histoire du sport britannique."
     },
     {
       "id": "2",
-      "question": "Dans quels deux sports Clara Hughes a-t-elle remporté des médailles olympiques ?",
-      "answers": ["Athlétisme et bobsleigh", "Aviron et cyclisme", "Cyclisme et patinage de vitesse", "Ski de fond et cyclisme"],
+      "question": "Dans quels deux sports Clara Hughes a-t-elle remporté des médailles olympiques, à des Jeux d'été et des Jeux d'hiver ?",
+      "answers": [
+        "Athlétisme et bobsleigh",
+        "Aviron et cyclisme",
+        "Cyclisme et patinage de vitesse",
+        "Ski de fond et cyclisme"
+      ],
       "correctIndex": 2,
-      "explanation": "Clara Hughes a gagné des médailles olympiques en cyclisme sur route l’été puis en patinage de vitesse l’hiver. Son cas est exceptionnel, car réussir dans deux univers d’entraînement aussi différents demande une adaptation physique et mentale énorme."
+      "explanation": "Clara Hughes a remporté deux médailles de bronze en cyclisme sur route aux Jeux d'Atlanta en 1996, puis cinq médailles en patinage de vitesse aux Jeux d'hiver entre 2002 et 2010, dont un or à Turin 2006. Seul un petit nombre d'athlètes dans l'histoire ont réussi à atteindre le podium olympique dans deux sports aux saisons différentes."
     },
     {
       "id": "3",
-      "question": "Quel Américain a remporté l’or olympique en boxe avant de gagner aussi l’or en bobsleigh ?",
-      "answers": ["Bo Jackson", "Carl Lewis", "Dan Gable", "Eddie Eagan"],
+      "question": "Quel Américain reste le seul athlète à avoir remporté une médaille d'or olympique aux Jeux d'été puis aux Jeux d'hiver, en boxe en 1920 et en bobsleigh en 1932 ?",
+      "answers": [
+        "Bo Jackson",
+        "Carl Lewis",
+        "Dan Gable",
+        "Eddie Eagan"
+      ],
       "correctIndex": 3,
-      "explanation": "Eddie Eagan a gagné l’or en boxe aux Jeux d’Anvers 1920 puis l’or en bobsleigh à Lake Placid 1932. Il reste une référence historique quand on parle de succès dans deux sports très éloignés."
+      "explanation": "Eddie Eagan a remporté l'or en boxe poids léger aux Jeux d'Anvers 1920, puis l'or en bobsleigh à quatre à Lake Placid 1932 — douze ans plus tard. Il reste à ce jour le seul athlète de l'histoire à avoir décroché une médaille d'or olympique à la fois aux Jeux d'été et aux Jeux d'hiver dans deux sports différents."
     },
     {
       "id": "4",
-      "question": "Quelle Australienne a représenté son pays à la fois en football et en cricket ?",
-      "answers": ["Ellyse Perry", "Meg Lanning", "Sam Kerr", "Alyssa Healy"],
+      "question": "Quelle Australienne a représenté son pays en Coupe du monde de football à 16 ans puis construit une carrière immense en cricket, devenant l'une des joueuses les plus titrées de l'histoire ?",
+      "answers": [
+        "Ellyse Perry",
+        "Meg Lanning",
+        "Sam Kerr",
+        "Alyssa Healy"
+      ],
       "correctIndex": 0,
-      "explanation": "Ellyse Perry est une rare double internationale de très haut niveau. Elle a porté le maillot de l’Australie en football puis construit une carrière immense en cricket, preuve qu’une polyvalence exceptionnelle peut durer dans le temps."
+      "explanation": "Ellyse Perry a représenté l'Australie au football dès 2007 à 16 ans lors d'une Coupe du monde, avant de se concentrer sur le cricket où elle est devenue l'une des meilleures joueuses mondiales. Elle est la première athlète à avoir disputé des finales de Coupe du monde dans deux sports collectifs distincts sous les couleurs australiennes."
     },
-   {
-  "id": "5",
-  "question": "Quel sportif américain est devenu une icône pour avoir joué à haut niveau en MLB et en NFL dans les années 1980 ?",
-  "answers": ["Michael Jordan", "Bo Jackson", "Tom Brady", "Tim Tebow"],
-  "correctIndex": 1,
-  "explanation": "Bo Jackson est devenu une figure emblématique du sport américain en évoluant à haut niveau en baseball (MLB) et en football américain (NFL). Même si d’autres comme Deion Sanders ont aussi réussi, Jackson reste l’icône la plus marquante de cette double carrière."
-},
+    {
+      "id": "5",
+      "question": "Quel sportif américain, sélectionné à la fois en NFL et en MLB dans les années 1980, est devenu le symbole le plus célèbre du multi-sport professionnel aux États-Unis ?",
+      "answers": [
+        "Michael Jordan",
+        "Bo Jackson",
+        "Tom Brady",
+        "Tim Tebow"
+      ],
+      "correctIndex": 1,
+      "explanation": "Bo Jackson a joué à haut niveau en baseball (Kansas City Royals, MLB) et en football américain (Los Angeles Raiders, NFL) simultanément dans les années 1980, ce qu'aucun athlète n'avait réalisé avec un tel niveau de performance dans les deux disciplines. Sa campagne Nike « Bo Knows » l'a élevé au rang d'icône culturelle américaine."
+    },
     {
       "id": "6",
-      "question": "Quelle Américaine a quitté le sprint pour décrocher ensuite une médaille olympique en bobsleigh ?",
-      "answers": ["Jackie Joyner-Kersee", "Lolo Jones", "Lauryn Williams", "Allyson Felix"],
+      "question": "Quelle sprinteuse américaine, vice-championne olympique du 100 m en 2004 à Athènes, a décroché la médaille d'argent en bobsleigh à Sotchi en 2014 ?",
+      "answers": [
+        "Jackie Joyner-Kersee",
+        "Lolo Jones",
+        "Lauryn Williams",
+        "Allyson Felix"
+      ],
       "correctIndex": 2,
-      "explanation": "Lauryn Williams a d’abord brillé en athlétisme avant de prendre l’argent olympique en bobsleigh à Sotchi 2014. C’est une reconversion spectaculaire car le passage de la piste à la glisse exige un nouveau savoir-faire technique."
+      "explanation": "Lauryn Williams a remporté l'argent sur 100 m aux Jeux d'Athènes 2004, puis transitionné vers le bobsleigh et décroché l'argent avec Elana Meyers à Sotchi 2014. Elle est l'une des très rares athlètes américaines à être montée sur le podium olympique dans deux disciplines différentes, en été et en hiver."
     },
     {
       "id": "7",
-      "question": "Quelle sportive est devenue l’une des rares Britanniques médaillées olympiques dans deux sports d’été différents ?",
-      "answers": ["Clara Hughes", "Ellyse Perry", "Bo Jackson", "Rebecca Romero"],
+      "question": "Quel footballeur et baseballeur américain est le seul athlète de l'histoire à avoir participé à la fois au Super Bowl et à la World Series, les deux finales des sports les plus populaires des États-Unis ?",
+      "answers": [
+        "Jim Thorpe",
+        "Danny Ainge",
+        "Tim Tebow",
+        "Deion Sanders"
+      ],
       "correctIndex": 3,
-      "explanation": "Rebecca Romero est célèbre pour avoir gagné des médailles olympiques en aviron puis en cyclisme. Ce n’est pas seulement un changement de discipline, c’est une double réussite sur la plus grande scène mondiale."
+      "explanation": "Deion Sanders est le seul athlète à avoir disputé un Super Bowl (avec les San Francisco 49ers en janvier 1995) et une World Series (avec les Atlanta Braves en 1992). Cornerback d'exception en NFL et outfielder en MLB, il incarne à lui seul la notion de « bi-sportif » d'élite dans l'histoire du sport américain."
     },
     {
       "id": "8",
-      "question": "Quelle Canadienne est entrée dans l’histoire olympique grâce à ses médailles d’été et d’hiver ?",
-      "answers": ["Clara Hughes", "Rebecca Romero", "Lauryn Williams", "Lolo Jones"],
+      "question": "Quelle Canadienne est l'une des rares athlètes de l'histoire à avoir remporté des médailles olympiques lors de Jeux d'été et de Jeux d'hiver dans deux disciplines complètement différentes ?",
+      "answers": [
+        "Clara Hughes",
+        "Rebecca Romero",
+        "Lauryn Williams",
+        "Lolo Jones"
+      ],
       "correctIndex": 0,
-      "explanation": "Clara Hughes a marqué l’histoire avec des podiums olympiques en été et en hiver. Elle incarne l’idée qu’une reconversion peut être encore plus impressionnante quand elle traverse deux saisons olympiques différentes."
+      "explanation": "Clara Hughes a remporté des médailles olympiques en cyclisme sur route lors des Jeux d'Atlanta 1996, puis en patinage de vitesse lors des Jeux d'hiver de 2002, 2006 et 2010. Elle est l'une des six athlètes de l'histoire à avoir remporté des médailles olympiques aux Jeux d'été et d'hiver, et la seule à en avoir gagné dans plus de deux Olympiades différentes."
     },
     {
       "id": "9",
-      "question": "Quel champion a réussi une reconversion de la boxe vers le bobsleigh ?",
-      "answers": ["Ray Mercer", "Eddie Eagan", "George Foreman", "Evander Holyfield"],
-      "correctIndex": 1,
-      "explanation": "Eddie Eagan est un cas unique de champion olympique en boxe devenu aussi champion olympique en bobsleigh. Son parcours montre qu’à certaines époques, des athlètes hors normes pouvaient encore changer complètement d’environnement sportif."
+      "question": "Quelle star de la NBA, sextuple champion avec les Chicago Bulls, a interrompu sa carrière de basketball en 1993 pour tenter de devenir joueur de baseball professionnel ?",
+      "answers": [
+        "Ray Mercer",
+        "Scottie Pippen",
+        "George Foreman",
+        "Michael Jordan"
+      ],
+      "correctIndex": 3,
+      "explanation": "Michael Jordan a pris sa retraite du basketball en octobre 1993, après avoir conduit les Bulls à trois titres NBA consécutifs, et a signé avec l'organisation des Chicago White Sox en baseball. Jouant en Double-A pour les Birmingham Barons en 1994, il frappait en moyenne 0,202 et comptabilisait 30 buts volés — des chiffres honorables pour un débutant. Revenu en NBA en mars 1995, il remporta trois nouveaux titres avec Chicago, laissant un épisode baseball unique dans l'histoire du sport."
     },
     {
       "id": "10",
-      "question": "Quelle sportive australienne a disputé des Coupes du monde en cricket et en football ?",
-      "answers": ["Sally Shipard", "Alyssa Healy", "Ellyse Perry", "Caitlin Foord"],
-      "correctIndex": 2,
-      "explanation": "Ellyse Perry a représenté l’Australie dans les deux sports au niveau mondial. Cette double présence en Coupe du monde donne une vraie mesure de son succès, bien au-delà d’une simple pratique de haut niveau."
+      "question": "Quelle hurdleuse américaine, finaliste olympique du 100 m haies en 2008 et 2012, a représenté les États-Unis en bobsleigh aux Jeux olympiques de 2014 et 2022 ?",
+      "answers": [
+        "Sally Shipard",
+        "Alyssa Healy",
+        "Ellyse Perry",
+        "Lolo Jones"
+      ],
+      "correctIndex": 3,
+      "explanation": "Lolo Jones a d'abord échoué de peu à la médaille olympique en 100 m haies à Beijing 2008 (4e) et à Londres 2012 (4e), avant de se reconvertir au bobsleigh. Elle a représenté les États-Unis aux Jeux de Sotchi 2014 et de Pékin 2022, devenant l'une des rares athlètes à avoir participé aux Jeux olympiques d'été et d'hiver dans deux sports différents."
     },
     {
       "id": "11",
-      "question": "Quel athlète a été à la fois star du baseball et du football américain professionnel ?",
-      "answers": ["Tom Brady", "Michael Jordan", "Jim Brown", "Bo Jackson"],
-      "correctIndex": 3,
-      "explanation": "Bo Jackson ne s’est pas contenté d’essayer deux sports : il a réellement pesé dans les deux. C’est cette réussite simultanée qui fait de lui l’un des symboles les plus populaires du multi-sport."
+      "question": "Quel double champion olympique des Jeux de Stockholm 1912 en décathlon et pentathlon a ensuite joué professionnel en football américain et en baseball en MLB ?",
+      "answers": [
+        "Tom Brady",
+        "Michael Jordan",
+        "Jim Thorpe",
+        "Bo Jackson"
+      ],
+      "correctIndex": 2,
+      "explanation": "Jim Thorpe, déclaré « l'athlète le plus grand du monde » par le roi de Suède en 1912, a joué en NFL de 1920 à 1928 avec les Canton Bulldogs et en MLB de 1913 à 1919. Il incarne la figure du sportif universel d'une époque où les frontières entre sports étaient poreuses, et fut intronisé à la fois au Hall of Fame du football et du baseball américain."
     },
     {
       "id": "12",
-      "question": "Quelle ancienne sprinteuse américaine a ensuite remporté une médaille olympique en bobsleigh ?",
-      "answers": ["Lauryn Williams", "Marion Jones", "Sanya Richards-Ross", "Gail Devers"],
+      "question": "Quelle ancienne sprinteuse américaine, vice-championne olympique du 100 m en 2004, a ensuite décroché une médaille olympique en bobsleigh à Sotchi en 2014 ?",
+      "answers": [
+        "Lauryn Williams",
+        "Marion Jones",
+        "Sanya Richards-Ross",
+        "Gail Devers"
+      ],
       "correctIndex": 0,
-      "explanation": "Lauryn Williams a transformé ses qualités d’explosivité issues du sprint en arme pour le bobsleigh. Son parcours montre que certaines aptitudes physiques peuvent se transférer avec succès vers une autre discipline."
+      "explanation": "Lauryn Williams a remporté l'argent sur 100 m aux Jeux d'Athènes 2004 puis l'argent en bobsleigh à deux à Sotchi 2014 avec Elana Meyers. Cet exploit fait d'elle l'une des cinq femmes seulement dans l'histoire à avoir remporté des médailles olympiques aux Jeux d'été et d'hiver."
     },
     {
       "id": "13",
-      "question": "Quelle médaille Rebecca Romero a-t-elle gagnée en cyclisme après sa reconversion ?",
-      "answers": ["Bronze olympique en route", "Or olympique sur piste", "Argent olympique en VTT", "Titre mondial sur route seulement"],
+      "question": "Quelle performance Rebecca Romero a-t-elle réalisée dans sa nouvelle discipline lors de sa première participation olympique en cyclisme, aux Jeux de Pékin 2008 ?",
+      "answers": [
+        "Bronze olympique en route",
+        "Or olympique sur piste",
+        "Argent olympique en VTT",
+        "Titre mondial sur route seulement"
+      ],
       "correctIndex": 1,
-      "explanation": "Romero a remporté l’or olympique sur piste à Pékin 2008. Cette victoire valide pleinement sa reconversion, car elle ne s’est pas contentée d’être compétitive : elle est devenue championne olympique."
+      "explanation": "Rebecca Romero a remporté l'or olympique en poursuite individuelle sur piste à Pékin 2008, seulement deux ans après s'être lancée dans le cyclisme. Cette victoire, combinée à son argent en aviron à Athènes 2004, fait d'elle la seule Britannique à avoir remporté des médailles olympiques dans deux sports d'été différents."
     },
     {
       "id": "14",
-      "question": "Vers quel sport d’hiver Clara Hughes s’est-elle tournée avec succès après le cyclisme ?",
-      "answers": ["Biathlon", "Ski alpin", "Patinage de vitesse", "Short-track"],
-      "correctIndex": 2,
-      "explanation": "Clara Hughes s’est illustrée en patinage de vitesse, où elle a aussi remporté plusieurs médailles olympiques. Son cas reste rare parce qu’il combine endurance, technique et adaptation à des contextes très différents."
+      "question": "Quel champion de Formule 1 en titre (1992) est devenu champion IndyCar la saison suivante en 1993, seul pilote à avoir jamais détenu simultanément les deux titres ?",
+      "answers": [
+        "Alain Prost",
+        "Nigel Mansell",
+        "Ayrton Senna",
+        "Michael Schumacher"
+      ],
+      "correctIndex": 1,
+      "explanation": "Nigel Mansell, champion du monde de Formule 1 en 1992 avec Williams-Renault, a remporté le championnat IndyCar dès sa première saison en 1993 avec Newman/Haas Racing. Il est le seul pilote de l'histoire à avoir détenu simultanément les titres de champion du monde de F1 et de champion IndyCar, symbolisant une reconversion d'exception dans le sport automobile."
     },
     {
-  "id": "15",
-  "question": "Qui est le seul athlète à avoir remporté une médaille d’or olympique dans deux sports différents aux Jeux d’été et d’hiver ?",
-  "answers": ["Clara Hughes", "Bo Jackson", "Lauryn Williams", "Eddie Eagan"],
-  "correctIndex": 3,
-  "explanation": "Eddie Eagan est le seul athlète à avoir remporté l’or olympique en boxe (été) puis en bobsleigh (hiver). Cette performance reste unique dans l’histoire du sport."
-},
+      "id": "15",
+      "question": "Quel athlète reste à ce jour le seul à avoir remporté des médailles d'or olympiques lors de Jeux d'été (en 1920) et de Jeux d'hiver (en 1932), dans des sports aussi différents que la boxe et le bobsleigh ?",
+      "answers": [
+        "Clara Hughes",
+        "Bo Jackson",
+        "Eddie Eagan",
+        "Lauryn Williams"
+      ],
+      "correctIndex": 2,
+      "explanation": "Eddie Eagan a décroché l'or en boxe aux Jeux d'Anvers 1920 puis l'or en bobsleigh à quatre à Lake Placid 1932, douze ans plus tard. Cette double réussite reste unique dans les annales olympiques : aucun autre athlète n'a jamais remporté deux médailles d'or dans deux sports différents aux Jeux d'été et d'hiver."
+    },
     {
       "id": "16",
-      "question": "En plus du cricket, dans quel sport Ellyse Perry a-t-elle été internationale australienne ?",
-      "answers": ["Football", "Tennis", "Rugby à 7", "Hockey"],
+      "question": "En dehors du cricket, pour quelle autre sélection nationale Ellyse Perry a-t-elle joué avant l'âge de 18 ans, lors d'une Coupe du monde en 2007 ?",
+      "answers": [
+        "Football",
+        "Tennis",
+        "Rugby à 7",
+        "Hockey"
+      ],
       "correctIndex": 0,
-      "explanation": "Ellyse Perry a aussi joué pour l’équipe d’Australie de football. Sa réussite est particulièrement intéressante parce qu’elle a mené de front deux sports collectifs très exigeants avant de se consacrer au cricket."
+      "explanation": "Ellyse Perry a joué pour l'équipe d'Australie de football à seulement 16 ans lors de la Coupe du monde féminine 2007 en Chine. Elle a ensuite concentré sa carrière sur le cricket, où elle a établi de nombreux records. Sa double expérience en Coupe du monde — football (2007) et cricket (plusieurs éditions) — est unique dans l'histoire du sport féminin australien."
     },
     {
       "id": "17",
-      "question": "Quel était l’autre sport professionnel de Bo Jackson en dehors du baseball ?",
-      "answers": ["Basket-ball", "Football américain", "Athlétisme", "Hockey sur glace"],
+      "question": "Quel était l'autre sport professionnel de Bo Jackson, qu'il pratiqua simultanément avec le baseball pour les Kansas City Royals entre 1987 et 1990 ?",
+      "answers": [
+        "Basket-ball",
+        "Football américain",
+        "Athlétisme",
+        "Hockey sur glace"
+      ],
       "correctIndex": 1,
-      "explanation": "Bo Jackson a aussi brillé en NFL, ce qui explique sa réputation d’athlète total. Son exemple est souvent cité pour montrer qu’une reconversion peut être un vrai succès commercial et sportif à la fois."
+      "explanation": "Bo Jackson a joué simultanément en NFL (Los Angeles Raiders) et en MLB (Kansas City Royals) entre 1987 et 1990, traitant le football comme son « hobby » selon ses propres mots. Sa carrière prit fin en NFL en 1991 après une grave blessure à la hanche, mais son statut de légende du double sport américain était déjà assuré par ses performances de 1987 à 1990."
     },
     {
       "id": "18",
-      "question": "Dans quel sport Lauryn Williams s’était-elle d’abord fait connaître avant le bobsleigh ?",
-      "answers": ["Natation", "Cyclisme", "Athlétisme", "Patinage de vitesse"],
-      "correctIndex": 2,
-      "explanation": "Lauryn Williams venait de l’athlétisme, où elle avait déjà un palmarès olympique. Sa transition vers le bobsleigh montre qu’un changement de sport peut prolonger une carrière au plus haut niveau."
+      "question": "Quelle sprinteuse néerlandaise, ancienne gymnaste de haut niveau dans sa jeunesse, est devenue championne du monde du 200 m à Pékin en 2015 ?",
+      "answers": [
+        "Dafne Schippers",
+        "Sifan Hassan",
+        "Dina Asher-Smith",
+        "Nafissatou Thiam"
+      ],
+      "correctIndex": 0,
+      "explanation": "Dafne Schippers a pratiqué la gymnastique à haut niveau avant de se tourner vers l'athlétisme. Championne du monde du 200 m à Pékin 2015 avec 21 s 63 — record d'Europe — elle avait auparavant terminé cinquième à l'heptathlon aux Championnats du monde 2013 avant de choisir définitivement le sprint. Ce parcours illustre comment un bagage multi-sports dans la jeunesse peut forger une athlète d'exception."
     },
- {
-  "id": "19",
-  "question": "Quelle sportive britannique a remporté une médaille olympique en aviron avant de devenir championne olympique en cyclisme ?",
-  "answers": ["Clara Hughes", "Ellyse Perry", "Lolo Jones", "Rebecca Romero"],
-  "correctIndex": 3,
-  "explanation": "Rebecca Romero a remporté l’argent olympique en aviron en 2004 avant de devenir championne olympique en cyclisme sur piste en 2008. Sa reconversion est l’une des plus impressionnantes de l’histoire du sport."
-},
-{
-  "id": "20",
-  "question": "Quelle Canadienne a remporté des médailles olympiques à la fois aux Jeux d’été et aux Jeux d’hiver ?",
-  "answers": ["Clara Hughes", "Lauryn Williams", "Rebecca Romero", "Eddie Eagan"],
-  "correctIndex": 0,
-  "explanation": "Clara Hughes a remporté des médailles olympiques en cyclisme l’été puis en patinage de vitesse l’hiver. Elle est l’une des très rares athlètes à avoir réussi dans les deux saisons olympiques."
-}
+    {
+      "id": "19",
+      "question": "Quel champion olympique de ski alpin en 1988 a tenté une carrière professionnelle en cyclisme dès 1990, remportant plusieurs courses sur le circuit amateur suisse ?",
+      "answers": [
+        "Clara Hughes",
+        "Ellyse Perry",
+        "Pirmin Zurbriggen",
+        "Rebecca Romero"
+      ],
+      "correctIndex": 2,
+      "explanation": "Pirmin Zurbriggen, quadruple vainqueur du classement général de la Coupe du monde de ski alpin et champion olympique de descente à Calgary 1988, a pris sa retraite du ski en 1990 et participa à plusieurs compétitions cyclistes sur route. Il a participé à plusieurs courses sur route, dont le Tour de Romandie, illustrant la capacité de certains athlètes d'endurance à transférer leurs qualités physiques vers une autre discipline."
+    },
+    {
+      "id": "20",
+      "question": "Quel quarterback américain, champion universitaire en 2006 et 2008 avec la Floride, a tenté une longue carrière dans le baseball professionnel en ligues mineures de 2016 à 2021 ?",
+      "answers": [
+        "Deion Sanders",
+        "Jim Thorpe",
+        "Rebecca Romero",
+        "Tim Tebow"
+      ],
+      "correctIndex": 3,
+      "explanation": "Tim Tebow, quarterback Heisman Trophy 2007 et champion NCAA avec Florida en 2006 et 2008, a tenté sa chance en baseball après ses années NFL. Signé par les New York Mets en 2016, il a joué cinq saisons en ligues mineures jusqu'en 2021 sans jamais atteindre la MLB. Son passage au baseball illustre comment la célébrité sportive peut permettre de tenter une seconde carrière dans une autre discipline."
+    }
   ]
 }

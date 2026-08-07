@@ -1,12 +1,9 @@
 {
   "slug": "quiz-sport-pilotes-plus-victoires-f1",
   "title": "Quiz Sport - Formule 1 - Connais-tu les pilotes avec le plus de victoires ?",
-  "description": "Teste tes connaissances sur les pilotes les plus victorieux de l’histoire de la Formule 1 avec 20 questions.",
-  "descriptionSeo": "Les plus grandes légendes de la Formule 1 se distinguent souvent par leur nombre de victoires en Grand Prix. Ce quiz de 20 questions te propose de tester tes connaissances sur les pilotes les plus performants de l’histoire, entre records impressionnants, carrières marquantes et domination sur plusieurs saisons. Sauras-tu reconnaître ceux qui ont le plus souvent levé les bras sur la plus haute marche du podium ?",
-  "category": {
-    "name": "Sport",
-    "slug": "sport"
-  },
+  "description": "Teste tes connaissances sur les pilotes les plus victorieux de l'histoire de la Formule 1 avec 20 questions.",
+  "descriptionSeo": "Les plus grandes légendes de la Formule 1 se distinguent souvent par leur nombre de victoires en Grand Prix. Ce quiz de 20 questions te propose de tester tes connaissances sur les pilotes les plus performants de l'histoire, entre records impressionnants, carrières marquantes et domination sur plusieurs saisons. Sauras-tu reconnaître ceux qui ont le plus souvent levé les bras sur la plus haute marche du podium ?",
+  "category": { "name": "Sport", "slug": "sport" },
   "createdAt": "2026-04-17",
   "isNew": true,
   "isPopular": true,
@@ -18,143 +15,143 @@
   "questions": [
     {
       "id": "1",
-      "question": "Quel pilote détient le record absolu de victoires en Formule 1 ?",
+      "question": "Quel pilote détient le record absolu de victoires en Formule 1, avec 104 succès au compteur à l'issue de la saison 2023 ?",
       "answers": ["Michael Schumacher", "Lewis Hamilton", "Max Verstappen", "Sebastian Vettel"],
       "correctIndex": 1,
-      "explanation": "Lewis Hamilton détient le record du plus grand nombre de victoires en Formule 1. Sa longévité au plus haut niveau et sa capacité à gagner sur plusieurs générations de voitures ont renforcé son statut de référence historique."
+      "explanation": "Lewis Hamilton a franchi la barre des 100 victoires en 2021 et totalise 104 Grands Prix remportés à l'issue de la saison 2023, devant Michael Schumacher (91). Sa longévité au sommet — sept titres mondiaux entre 2008 et 2020 — et sa capacité à dominer des générations de monoplaces différentes ont fait de lui la référence absolue du palmarès historique."
     },
     {
       "id": "2",
-      "question": "Quel pilote allemand a longtemps détenu le record de victoires en F1 avant d’être dépassé ?",
-      "answers": ["Sebastian Vettel", "Nico Rosberg", "Michael Schumacher", "Mika Hakkinen"],
-      "correctIndex": 2,
-      "explanation": "Michael Schumacher a longtemps été la référence absolue en nombre de victoires en Formule 1. Sa domination avec Ferrari au début des années 2000 a profondément marqué l’histoire du championnat."
+      "question": "Quel pilote allemand a longtemps détenu le record absolu de victoires en F1 avec 91 succès, avant d'être dépassé par son successeur chez Mercedes ?",
+      "answers": ["Sebastian Vettel", "Nico Rosberg", "Mika Häkkinen", "Michael Schumacher"],
+      "correctIndex": 3,
+      "explanation": "Michael Schumacher a remporté 91 Grands Prix entre 1992 et 2012, un record tenu pendant plus d'une décennie. Sa domination avec Ferrari de 2000 à 2004 — cinq titres consécutifs — reste l'une des périodes de suprématie les plus totales de l'histoire du sport automobile. Lewis Hamilton le dépassa en octobre 2020 au Grand Prix du Portugal."
     },
     {
       "id": "3",
-      "question": "Quel pilote néerlandais occupe la troisième place du classement historique des victoires en F1 ?",
+      "question": "Quel pilote néerlandais, triple champion du monde entre 2021 et 2023, occupe la troisième place du classement historique des victoires en F1 ?",
       "answers": ["Max Verstappen", "Jos Verstappen", "Charles Leclerc", "Lando Norris"],
       "correctIndex": 0,
-      "explanation": "Max Verstappen s’est hissé à la troisième place du classement historique des victoires. Sa série de succès au cours des années 2020 l’a installé parmi les plus grands gagnants de l’histoire de la discipline."
+      "explanation": "Max Verstappen s'est hissé à la troisième place du classement historique des victoires, notamment grâce à sa saison 2023 record (19 victoires en une seule saison). Ses trois titres mondiaux consécutifs avec Red Bull (2021, 2022, 2023) l'ont installé durablement parmi les plus grands gagnants de l'histoire de la Formule 1."
     },
     {
       "id": "4",
-      "question": "Quel quadruple champion du monde allemand compte plus de 50 victoires en F1 ?",
+      "question": "Quel quadruple champion du monde allemand a remporté 53 Grands Prix avec Red Bull entre 2010 et 2013, comptant plus de 50 victoires en carrière ?",
       "answers": ["Nico Rosberg", "Sebastian Vettel", "Ralf Schumacher", "Heinz-Harald Frentzen"],
       "correctIndex": 1,
-      "explanation": "Sebastian Vettel fait partie du cercle très fermé des pilotes ayant dépassé les 50 victoires en Formule 1. Sa période de domination avec Red Bull l’a rendu incontournable dans les classements historiques."
+      "explanation": "Sebastian Vettel a remporté 53 Grands Prix en Formule 1, dont 13 lors de sa saison 2013. Quadruple champion du monde (2010, 2011, 2012, 2013) avec Red Bull-Renault, il entra dans le cercle des moins de dix pilotes ayant dépassé les 50 victoires dans l'histoire du championnat. Il prit sa retraite à l'issue de la saison 2022."
     },
     {
       "id": "5",
-      "question": "Quel pilote français figure parmi les cinq pilotes les plus victorieux de l’histoire de la F1 ?",
-      "answers": ["René Arnoux", "Alain Prost", "Didier Pironi", "Jean Alesi"],
-      "correctIndex": 1,
-      "explanation": "Alain Prost reste le pilote français le plus victorieux de l’histoire de la Formule 1. Son intelligence de course et sa régularité lui ont permis d’accumuler un total exceptionnel de succès."
+      "question": "Quel pilote français, surnommé « le Professeur », a remporté 51 Grands Prix et reste le plus victorieux de son pays dans l'histoire de la F1 ?",
+      "answers": ["René Arnoux", "Didier Pironi", "Jean Alesi", "Alain Prost"],
+      "correctIndex": 3,
+      "explanation": "Alain Prost a remporté 51 Grands Prix entre 1981 et 1993, devenant le pilote français le plus victorieux de l'histoire. Quadruple champion du monde (1985, 1986, 1989, 1993), il fut le premier pilote à franchir la barre des 50 victoires. Sa rivalité avec Ayrton Senna, notamment en 1989 et 1990, reste l'une des plus intenses de l'histoire de la discipline."
     },
     {
       "id": "6",
-      "question": "Quel Brésilien triple champion du monde a remporté 41 Grands Prix en F1 ?",
+      "question": "Quel Brésilien triple champion du monde a remporté 41 Grands Prix entre 1985 et 1993, avec un ratio de victoires parmi les plus élevés de l'histoire ?",
       "answers": ["Felipe Massa", "Nelson Piquet", "Ayrton Senna", "Rubens Barrichello"],
       "correctIndex": 2,
-      "explanation": "Ayrton Senna a remporté 41 victoires en Formule 1. Ce total, ajouté à son aura immense et à ses performances en qualifications, en fait l’un des pilotes les plus emblématiques de tous les temps."
+      "explanation": "Ayrton Senna a remporté 41 victoires en Formule 1 entre 1985 et 1993, pour 161 Grands Prix disputés — un ratio de 25 %, parmi les plus élevés de l'histoire moderne. Triple champion du monde (1988, 1990, 1991) avec McLaren, il signa 65 pole positions, un record qu'il détint pendant plus de vingt ans avant que Michael Schumacher ne le batte en 2006. Il disparut tragiquement lors du Grand Prix de Saint-Marin à Imola, le 1er mai 1994."
     },
     {
       "id": "7",
-      "question": "Quel Espagnol double champion du monde compte plus de 30 victoires en Formule 1 ?",
+      "question": "Quel Espagnol double champion du monde, connu pour sa longévité exceptionnelle, a dépassé les 32 victoires en F1 en courant encore à plus de 40 ans ?",
       "answers": ["Carlos Sainz", "Fernando Alonso", "Pedro de la Rosa", "Marc Gené"],
       "correctIndex": 1,
-      "explanation": "Fernando Alonso fait partie des pilotes ayant dépassé la barre des 30 victoires en Formule 1. Sa longévité rare et sa capacité à rester compétitif à travers différentes époques ont renforcé sa place dans l’histoire."
+      "explanation": "Fernando Alonso a remporté 32 Grands Prix en Formule 1, avec ses deux titres mondiaux glanés en 2005 et 2006 avec Renault. Sa longévité est remarquable : il courut encore en 2024 à 42 ans avec Aston Martin, restant régulièrement dans les points. Son palmarès sans voiture dominante sur la deuxième partie de sa carrière en fait l'un des talents les plus admirés de l'histoire."
     },
     {
       "id": "8",
-      "question": "Quel pilote britannique champion du monde en 1992 compte 31 victoires en F1 ?",
+      "question": "Quel pilote britannique, champion du monde en 1992 avec Williams-Renault, a remporté 31 Grands Prix avec un style de pilotage spectaculaire et très apprécié du public ?",
       "answers": ["Nigel Mansell", "Damon Hill", "Jenson Button", "James Hunt"],
       "correctIndex": 0,
-      "explanation": "Nigel Mansell a remporté 31 Grands Prix en Formule 1. Son style spectaculaire et sa popularité en ont fait l’un des grands visages de la F1 britannique."
+      "explanation": "Nigel Mansell a remporté 31 Grands Prix en Formule 1, dont 9 lors de sa saison 1992 dominatrice avec Williams-Renault. Champion du monde cette année-là, il gagna aussi le titre IndyCar dès 1993, devenant le seul pilote à être sacré simultanément champion de F1 et d'IndyCar. Son style agressif et sa popularité en Grande-Bretagne en ont fait l'une des grandes figures de la discipline."
     },
     {
       "id": "9",
-      "question": "Quel Écossais triple champion du monde totalise 27 victoires en F1 ?",
-      "answers": ["Jim Clark", "Jackie Stewart", "David Coulthard", "Paul Di Resta"],
-      "correctIndex": 1,
-      "explanation": "Jackie Stewart a remporté 27 Grands Prix en Formule 1. Son palmarès et son rôle majeur dans l’amélioration de la sécurité ont laissé une empreinte durable."
+      "question": "Quel Écossais triple champion du monde, ardent défenseur de la sécurité en F1, a remporté 27 Grands Prix entre 1965 et 1973 ?",
+      "answers": ["Jim Clark", "David Coulthard", "Paul Di Resta", "Jackie Stewart"],
+      "correctIndex": 3,
+      "explanation": "Jackie Stewart a remporté 27 Grands Prix entre 1965 et 1973, décrochant trois titres mondiaux (1969, 1971, 1973). Il prit sa retraite au sommet, après la mort de son coéquipier François Cevert à Watkins Glen en 1973. Son engagement pour la sécurité des pilotes — casques, rails de protection, circuits réaménagés — a transformé durablement la Formule 1 et sauvé de nombreuses vies."
     },
     {
       "id": "10",
-      "question": "Quel pilote britannique légendaire compte 25 victoires en F1 et partage ce total avec Niki Lauda ?",
+      "question": "Quel pilote écossais, considéré comme l'un des talents les plus purs de l'histoire, a remporté 25 Grands Prix avec un taux de victoires exceptionnel, partageant ce total avec Niki Lauda ?",
       "answers": ["Graham Hill", "Nigel Mansell", "Jim Clark", "John Surtees"],
       "correctIndex": 2,
-      "explanation": "Jim Clark a remporté 25 Grands Prix en Formule 1. Son ratio de réussite et son talent naturel restent parmi les plus impressionnants de toute l’histoire du championnat."
+      "explanation": "Jim Clark a remporté 25 Grands Prix entre 1962 et 1968, avec un ratio de victoires de 34 % sur ses participations — l'un des plus hauts de toute l'histoire. Double champion du monde (1963, 1965) avec Lotus-Climax, il domina aussi les 500 Miles d'Indianapolis en 1965. Sa carrière fut tragiquement interrompue par un accident lors d'une course de Formule 2 à Hockenheim en 1968."
     },
     {
       "id": "11",
-      "question": "Quel pilote autrichien triple champion du monde compte lui aussi 25 victoires en F1 ?",
+      "question": "Quel pilote autrichien triple champion du monde, légendaire pour son retour au sommet après un accident quasi mortel en 1976, partage avec Jim Clark le total de 25 victoires en F1 ?",
       "answers": ["Gerhard Berger", "Niki Lauda", "Jochen Rindt", "Helmut Marko"],
       "correctIndex": 1,
-      "explanation": "Niki Lauda a remporté 25 Grands Prix en Formule 1. Son intelligence technique, sa résilience et son retour au sommet après son accident ont nourri sa légende."
+      "explanation": "Niki Lauda a remporté 25 Grands Prix en Formule 1 et décrocha trois titres mondiaux (1975, 1977, 1984). Son accident au Nürburgring en août 1976 — brûlures au troisième degré, derniers sacrements administrés — suivi de son retour en course dès le Grand Prix d'Italie, six semaines plus tard, reste l'un des épisodes les plus saisissants de l'histoire du sport."
     },
     {
       "id": "12",
-      "question": "Quel Argentin quintuple champion du monde a remporté 24 Grands Prix en F1 ?",
-      "answers": ["Carlos Reutemann", "Juan Manuel Fangio", "José Froilán González", "Alberto Ascari"],
-      "correctIndex": 1,
-      "explanation": "Juan Manuel Fangio a remporté 24 Grands Prix, un total impressionnant à une époque où les saisons étaient beaucoup plus courtes. Son efficacité reste exceptionnelle dans les annales du sport automobile."
+      "question": "Quel Argentin quintuple champion du monde, considéré par beaucoup comme le plus grand pilote de tous les temps, a remporté 24 Grands Prix dans les années 1950 ?",
+      "answers": ["Carlos Reutemann", "José Froilán González", "Alberto Ascari", "Juan Manuel Fangio"],
+      "correctIndex": 3,
+      "explanation": "Juan Manuel Fangio a remporté 24 Grands Prix entre 1950 et 1958, avec un taux de victoires de 46 % — le plus élevé de l'histoire du championnat. Quintuple champion du monde (1951, 1954, 1955, 1956, 1957) avec quatre écuries différentes, il prit sa retraite à 46 ans. Son record de titres ne fut battu que par Michael Schumacher en 2003, puis par Lewis Hamilton en 2020."
     },
     {
       "id": "13",
-      "question": "Quel Allemand champion du monde en 2016 a remporté 23 Grands Prix en F1 ?",
+      "question": "Quel pilote allemand, champion du monde en 2016 face à Lewis Hamilton, a remporté 23 Grands Prix avant de prendre sa retraite au sommet de la discipline ?",
       "answers": ["Nico Rosberg", "Sebastian Vettel", "Mick Schumacher", "Ralf Schumacher"],
       "correctIndex": 0,
-      "explanation": "Nico Rosberg a remporté 23 Grands Prix en Formule 1. Son duel avec Lewis Hamilton au sein de Mercedes a produit l’une des rivalités les plus tendues et marquantes de l’ère moderne."
+      "explanation": "Nico Rosberg a remporté 23 Grands Prix en Formule 1, dont 9 lors de sa saison 2016 avec Mercedes. Sacré champion du monde cette année-là au terme d'un duel intense avec Lewis Hamilton, il annonça sa retraite cinq jours après avoir décroché le titre — une décision qui surprit l'ensemble de la discipline. Il est le fils du champion du monde 1982 Keke Rosberg."
     },
     {
       "id": "14",
-      "question": "Quel Britannique champion du monde en 2009 compte 15 victoires en Formule 1 ?",
-      "answers": ["David Coulthard", "Jenson Button", "Damon Hill", "James Hunt"],
-      "correctIndex": 1,
-      "explanation": "Jenson Button a remporté 15 Grands Prix en F1. Son style fluide et sa science de la gestion des courses ont souvent fait la différence dans des conditions changeantes."
+      "question": "Quel Britannique, champion du monde en 2009 avec Brawn GP dans l'une des plus belles histoires de la F1, a remporté 15 Grands Prix au cours de sa carrière ?",
+      "answers": ["David Coulthard", "Damon Hill", "James Hunt", "Jenson Button"],
+      "correctIndex": 3,
+      "explanation": "Jenson Button a remporté 15 Grands Prix en F1, dont 6 lors de sa saison 2009 avec Brawn GP — née du rachat de l'écurie Honda F1 par Ross Brawn quelques semaines avant le début de la saison 2009. Reconnu pour son style fluide et sa gestion des pneumatiques, il brilla particulièrement dans des conditions changeantes, comme lors du Grand Prix du Canada 2011, l'une des courses les plus spectaculaires de l'ère moderne."
     },
-   {
-  "id": "15",
-  "question": "Quel Australien a remporté 14 Grands Prix en Formule 1 ?",
-  "answers": ["Mark Webber", "Daniel Ricciardo", "Oscar Piastri", "Jack Brabham"],
-  "correctIndex": 1,
-  "explanation": "Daniel Ricciardo a remporté 14 Grands Prix en Formule 1. Son sens de l’attaque et ses dépassements spectaculaires ont contribué à sa popularité."
-},
+    {
+      "id": "15",
+      "question": "Quel Australien triple champion du monde a remporté 14 Grands Prix en F1, devenant aussi le premier pilote à construire sa propre voiture victorieuse ?",
+      "answers": ["Mark Webber", "Daniel Ricciardo", "Jack Brabham", "Alan Jones"],
+      "correctIndex": 2,
+      "explanation": "Jack Brabham a remporté 14 Grands Prix entre 1955 et 1970, décrochant trois titres mondiaux (1959, 1960, 1966). En 1966, il devint le seul champion du monde de l'histoire à avoir été sacré au volant d'une voiture portant son propre nom — la Brabham BT19. Alan Jones, autre Australien champion du monde (1980), comptabilisa 12 victoires en carrière."
+    },
     {
       "id": "16",
-      "question": "Quel pilote brésilien double champion du monde a remporté 14 Grands Prix en F1 ?",
+      "question": "Quel pilote brésilien double champion du monde, pionnier de la F1 pour son pays, a remporté 14 Grands Prix dans les années 1970 ?",
       "answers": ["Rubens Barrichello", "Nelson Piquet", "Emerson Fittipaldi", "Felipe Massa"],
       "correctIndex": 2,
-      "explanation": "Emerson Fittipaldi a remporté 14 Grands Prix en Formule 1. Il a été l’un des premiers grands pilotes brésiliens à ouvrir la voie à une tradition devenue majeure dans ce sport."
+      "explanation": "Emerson Fittipaldi a remporté 14 Grands Prix en Formule 1 et décroché deux titres mondiaux (1972 et 1974). Il fut le premier Brésilien à devenir champion du monde de F1, ouvrant la voie à une lignée prestigieuse incluant Senna et Piquet. Son titre de 1972, obtenu à seulement 25 ans, fit de lui le plus jeune champion du monde de l'histoire, record qu'il conserva jusqu'en 2005, année où Fernando Alonso le lui ravit."
     },
     {
       "id": "17",
-      "question": "Quel Italien champion du monde en 1952 et 1953 a remporté 13 Grands Prix en F1 ?",
+      "question": "Quel Italien double champion du monde, en 1952 et 1953, a remporté 13 Grands Prix avec l'un des taux de victoires les plus élevés de l'histoire du championnat ?",
       "answers": ["Giuseppe Farina", "Riccardo Patrese", "Alberto Ascari", "Michele Alboreto"],
       "correctIndex": 2,
-      "explanation": "Alberto Ascari a remporté 13 Grands Prix en Formule 1. Son pourcentage de victoires reste l’un des plus impressionnants de l’histoire du championnat."
+      "explanation": "Alberto Ascari a remporté 13 Grands Prix entre 1950 et 1955, avec un taux de victoires de 40 % — parmi les plus hauts de l'histoire. Double champion du monde (1952, 1953) avec Ferrari, il réalisa neuf victoires consécutives en 1952-1953, un record de l'époque. Il décéda lors d'un essai à Monza en mai 1955, quelques jours après avoir miraculeusement survécu à une chute dans le port de Monaco."
     },
     {
       "id": "18",
-      "question": "Quel pilote autrichien a remporté 10 Grands Prix sans jamais devenir champion du monde ?",
+      "question": "Quel pilote autrichien populaire, coéquipier de Senna et Prost chez McLaren, a remporté 10 Grands Prix en F1 sans jamais être sacré champion du monde ?",
       "answers": ["Gerhard Berger", "Alexander Wurz", "Karl Wendlinger", "Helmut Marko"],
       "correctIndex": 0,
-      "explanation": "Gerhard Berger a remporté 10 Grands Prix en Formule 1 sans jamais devenir champion du monde. Il reste l’un des pilotes autrichiens les plus victorieux de l’histoire de la discipline."
+      "explanation": "Gerhard Berger a remporté 10 Grands Prix en Formule 1 entre 1986 et 1997, sans jamais décrocher le titre mondial. Coéquipier d'Ayrton Senna (1990-1992) puis d'Alain Prost chez Ferrari (1987-1989), il fut l'un des pilotes les plus proches du sommet sans l'atteindre. Sa dernière victoire, à Hockenheim en 1997, constitua une belle conclusion pour sa longue carrière."
     },
     {
       "id": "19",
-      "question": "Quel Colombien a remporté 7 Grands Prix en F1 et reste l’un des pilotes sud-américains les plus victorieux ?",
+      "question": "Quel pilote colombien, réputé pour son style offensif et son aisance en qualification, a remporté 7 Grands Prix en F1 entre 2001 et 2004 ?",
       "answers": ["Juan Pablo Montoya", "Carlos Reutemann", "Pastor Maldonado", "Esteban Tuero"],
       "correctIndex": 0,
-      "explanation": "Juan Pablo Montoya a remporté 7 Grands Prix en Formule 1. Son agressivité en piste et son talent brut en ont fait l’un des pilotes les plus marquants du début des années 2000."
+      "explanation": "Juan Pablo Montoya a remporté 7 Grands Prix en Formule 1 entre 2001 et 2004 avec Williams puis McLaren. Son style agressif, sa vitesse en qualification et ses passes d'armes mémorables avec Michael Schumacher en ont fait l'un des pilotes les plus enthousiasmants du début des années 2000. Il quitta la F1 en 2006 pour les États-Unis, où il remporta notamment les 500 Miles d'Indianapolis."
     },
     {
       "id": "20",
-      "question": "Quel pilote monégasque compte plusieurs victoires en F1 et fait partie des grands gagnants encore en activité ?",
+      "question": "Quel pilote monégasque a remporté 8 Grands Prix en Formule 1 depuis ses débuts en 2018, s'imposant comme l'un des leaders de Ferrari sur la période 2019-2024 ?",
       "answers": ["Olivier Beretta", "Charles Leclerc", "Stoffel Vandoorne", "Jules Bianchi"],
       "correctIndex": 1,
-      "explanation": "Charles Leclerc s’est installé parmi les pilotes en activité les plus victorieux de sa génération. Sa vitesse pure et sa capacité à performer sur un tour comme en course en font l’un des noms forts de la F1 actuelle."
+      "explanation": "Charles Leclerc a remporté 8 Grands Prix en Formule 1 entre 2019 et 2024, dont deux lors de sa première saison complète chez Ferrari (Belgique et Italie 2019). Signataire d'un contrat pluriannuel avec Ferrari, il est considéré comme l'un des talents les plus complets de sa génération, avec une vitesse pure en qualifications comparable aux meilleurs champions de l'histoire."
     }
   ]
 }

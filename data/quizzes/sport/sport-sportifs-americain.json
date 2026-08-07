@@ -4,10 +4,7 @@
     "description": "Teste tes connaissances sur les athlètes qui ont marqué l'histoire du sport américain, toutes disciplines confondues.",
     "publishedAt": "2026-06-29",
     "descriptionSeo": "Des parquets de la NBA aux pistes d'athlétisme, en passant par les rings de boxe, les piscines olympiques et les terrains de football américain, les États-Unis ont produit certains des plus grands champions de l'histoire du sport. Michael Jordan, Muhammad Ali, Michael Phelps, Serena Williams, Tom Brady, Jesse Owens, Simone Biles ou encore Babe Ruth : ce quiz sport propose 20 questions pour revivre les records, les exploits et les moments mythiques qui ont fait des plus grands sportifs américains des légendes mondiales.",
-    "category": {
-        "name": "Sport",
-        "slug": "sport"
-    },
+    "category": { "name": "Sport", "slug": "sport" },
     "createdAt": "2026-06-27",
     "isNew": true,
     "isPopular": true,
@@ -19,263 +16,143 @@
     "questions": [
         {
             "id": "1",
-            "question": "Quel basketteur a remporté six titres NBA avec les Chicago Bulls dans les années 1990 ?",
-            "image": null,
-            "answers": [
-                "Magic Johnson",
-                "Michael Jordan",
-                "Kobe Bryant",
-                "LeBron James"
-            ],
-            "correctIndex": 1,
-            "explanation": "Michael Jordan remporte six titres NBA avec les Chicago Bulls entre 1991 et 1998. Il est considéré par beaucoup comme le plus grand basketteur de l'histoire et une icône du sport mondial."
+            "question": "Quel basketteur a remporté six titres NBA avec les Chicago Bulls dans les années 1990, dont deux trilogies consécutives (1991-1993 et 1996-1998) ?",
+            "answers": ["Michael Jordan", "Magic Johnson", "Kobe Bryant", "LeBron James"],
+            "correctIndex": 0,
+            "explanation": "Michael Jordan remporte six titres NBA avec les Chicago Bulls en 1991, 1992, 1993, 1996, 1997 et 1998. Élu six fois MVP des Finales, il est considéré par beaucoup comme le plus grand basketteur de l'histoire. Ses « Air Jordan » révolutionnèrent aussi le marché mondial des sneakers, faisant de lui une icône culturelle autant que sportive."
         },
         {
             "id": "2",
-            "question": "Combien de médailles d'or olympiques le nageur Michael Phelps a-t-il remportées au cours de sa carrière ?",
-            "image": null,
-            "answers": [
-                "18",
-                "20",
-                "23",
-                "25"
-            ],
+            "question": "Combien de médailles d'or olympiques le nageur Michael Phelps a-t-il remportées au cours de sa carrière, entre 2000 et 2016 ?",
+            "answers": ["18", "20", "23", "25"],
             "correctIndex": 2,
-            "explanation": "Michael Phelps totalise 23 médailles d'or olympiques, un record absolu toutes disciplines confondues, ce qui fait de lui l'athlète le plus titré de l'histoire des Jeux Olympiques."
+            "explanation": "Michael Phelps totalise 23 médailles d'or olympiques sur cinq Jeux (Sydney 2000 à Rio 2016), pour un total de 28 médailles toutes couleurs confondues — un record absolu dans l'histoire olympique. Spécialiste du papillon et des épreuves combinées, il remporta huit médailles d'or lors des seuls Jeux de Beijing 2008, surpassant le record de sept de Mark Spitz (1972)."
         },
         {
             "id": "3",
-            "question": "Quel boxeur américain est surnommé « The Greatest » (le plus grand) ?",
-            "image": null,
-            "answers": [
-                "Joe Frazier",
-                "Mike Tyson",
-                "Muhammad Ali",
-                "George Foreman"
-            ],
-            "correctIndex": 2,
-            "explanation": "Muhammad Ali, triple champion du monde des poids lourds, est surnommé « The Greatest ». Il est considéré comme l'un des plus grands athlètes du XXe siècle, autant pour son talent que pour son engagement en dehors du ring."
+            "question": "Quel boxeur américain, triple champion du monde des poids lourds, se surnomme lui-même « le plus grand de tous les temps » ?",
+            "answers": ["Joe Frazier", "Mike Tyson", "George Foreman", "Muhammad Ali"],
+            "correctIndex": 3,
+            "explanation": "Muhammad Ali, triple champion du monde des poids lourds (1964, 1974, 1978), forgea lui-même son surnom « The Greatest ». Son combat contre George Foreman à Kinshasa en 1974 (le « Rumble in the Jungle ») et sa lutte contre Joe Frazier (le « Thrilla in Manila » en 1975) restent parmi les moments les plus mythiques de l'histoire de la boxe."
         },
         {
             "id": "4",
-            "question": "Quel athlète américain remporte quatre médailles d'or aux Jeux Olympiques de Berlin en 1936 ?",
-            "image": null,
-            "answers": [
-                "Carl Lewis",
-                "Jim Thorpe",
-                "Edwin Moses",
-                "Jesse Owens"
-            ],
-            "correctIndex": 3,
-            "explanation": "Jesse Owens remporte quatre médailles d'or (100 m, 200 m, longueur, relais 4x100 m) à Berlin en 1936, devant Adolf Hitler, ce qui donne à cette performance une portée historique et symbolique majeure."
+            "question": "Quel athlète américain remporte quatre médailles d'or aux Jeux Olympiques de Berlin en 1936, infligeant un camouflet spectaculaire à l'idéologie nazie ?",
+            "answers": ["Jesse Owens", "Carl Lewis", "Jim Thorpe", "Edwin Moses"],
+            "correctIndex": 0,
+            "explanation": "Jesse Owens remporte quatre médailles d'or (100 m, 200 m, longueur, relais 4x100 m) à Berlin en 1936 sous les yeux d'Adolf Hitler, donnant à cette performance une portée historique et symbolique majeure. Carl Lewis réédita cet exploit exact cinquante ans plus tard aux Jeux de Los Angeles 1984, rendant hommage à son illustre prédécesseur."
         },
         {
             "id": "5",
-            "question": "Quelle joueuse de tennis américaine détient le plus de titres du Grand Chelem en simple dames de l'ère Open (depuis 1968) ?",
-            "image": null,
-            "answers": [
-                "Venus Williams",
-                "Serena Williams",
-                "Lindsay Davenport",
-                "Chris Evert"
-            ],
-            "correctIndex": 1,
-            "explanation": "Serena Williams remporte 23 titres du Grand Chelem en simple durant l'ère Open, un record. Seule l'Australienne Margaret Court la devance au classement toutes périodes confondues, avec des titres remportés avant 1968."
+            "question": "Quelle joueuse de tennis américaine détient le record de titres du Grand Chelem en simple dames dans l'ère Open, avec 23 victoires entre 1999 et 2017 ?",
+            "answers": ["Venus Williams", "Lindsay Davenport", "Serena Williams", "Chris Evert"],
+            "correctIndex": 2,
+            "explanation": "Serena Williams remporte 23 titres du Grand Chelem en simple dans l'ère Open (depuis 1968), un record. Seule l'Australienne Margaret Court la devance au classement toutes périodes confondues, avec 24 titres dont beaucoup remportés avant l'ère professionnelle. Serena domine le tennis mondial pendant deux décennies, de 1999 à 2022."
         },
         {
             "id": "6",
-            "question": "Quel record Babe Ruth a-t-il détenu pendant 39 ans avant d'être dépassé par Hank Aaron en 1974 ?",
-            "image": null,
-            "answers": [
-                "Le plus grand nombre de matchs joués",
-                "Le plus grand nombre de victoires comme lanceur",
-                "Le plus grand nombre de titres de champion",
-                "Le plus grand nombre de home runs en carrière"
-            ],
+            "question": "Quel record Babe Ruth a-t-il détenu pendant 39 ans, de 1935 à 1974, avant qu'un autre géant du baseball américain le dépasse ?",
+            "answers": ["Le record de matchs joués en carrière", "Le record de victoires comme lanceur", "Le record de titres de champion", "Le record de home runs en carrière"],
             "correctIndex": 3,
-            "explanation": "Babe Ruth termine sa carrière avec 714 home runs, un record qui tient jusqu'en 1974, année où Hank Aaron le dépasse. Ruth reste l'une des figures fondatrices du baseball américain."
+            "explanation": "Babe Ruth termine sa carrière en 1935 avec 714 home runs, un record détenu pendant 39 ans. Hank Aaron le dépasse le 8 avril 1974 avec son 715e home run sous des menaces de mort, dans un contexte racial tendu. Barry Bonds battra ensuite Aaron en 2007 avec 762 home runs, mais dans un contexte de soupçons de dopage."
         },
         {
             "id": "7",
-            "question": "Quelle gymnaste américaine est considérée comme la plus titrée de l'histoire des Championnats du monde et des Jeux Olympiques ?",
-            "image": null,
-            "answers": [
-                "Mary Lou Retton",
-                "Shawn Johnson",
-                "Simone Biles",
-                "Gabby Douglas"
-            ],
+            "question": "Quelle gymnaste américaine, avec 37 médailles mondiales et 7 olympiques entre 2013 et 2024, est considérée comme la plus titrée de l'histoire de sa discipline ?",
+            "answers": ["Mary Lou Retton", "Shawn Johnson", "Simone Biles", "Gabby Douglas"],
             "correctIndex": 2,
-            "explanation": "Simone Biles cumule un nombre record de médailles mondiales et olympiques. Sa domination technique et sa longévité en font la gymnaste la plus titrée de l'histoire."
+            "explanation": "Simone Biles totalise 37 médailles aux Championnats du monde et 11 médailles olympiques dont 8 en or, avec 4 titres à Rio 2016, 0 à Tokyo 2021 (retrait pour santé mentale) et 4 à Paris 2024 (équipes, concours général, saut, sol). Sa domination technique — elle a fait inscrire à son nom quatre figures inédites dans le code de pointage — et son retour après avoir renoncé à Tokyo 2021 pour protéger sa santé mentale en font une figure historique du sport mondial."
         },
         {
             "id": "8",
-            "question": "Quel quarterback américain a remporté le plus de titres du Super Bowl, avec sept victoires ?",
-            "image": null,
-            "answers": [
-                "Peyton Manning",
-                "Tom Brady",
-                "Joe Montana",
-                "Patrick Mahomes"
-            ],
-            "correctIndex": 1,
-            "explanation": "Tom Brady remporte sept Super Bowls (six avec les New England Patriots, un avec les Tampa Bay Buccaneers), un record qui dépasse même le nombre de titres de la plupart des franchises NFL."
+            "question": "Quel quarterback a remporté sept titres du Super Bowl, dont six avec une même franchise et un avec une autre, établissant un record absolu ?",
+            "answers": ["Tom Brady", "Peyton Manning", "Joe Montana", "Patrick Mahomes"],
+            "correctIndex": 0,
+            "explanation": "Tom Brady remporte sept Super Bowls : six avec les New England Patriots (2002, 2004, 2005, 2015, 2017, 2019) et un avec les Tampa Bay Buccaneers (2021). Ce total dépasse le palmarès de la plupart des franchises NFL entières. Il prend sa retraite définitive en février 2023 à 45 ans, après 23 saisons professionnelles."
         },
         {
             "id": "9",
-            "question": "Quel surnom porte le basketteur LeBron James ?",
-            "image": null,
-            "answers": [
-                "King James",
-                "The Greatest",
-                "The Black Mamba",
-                "Air"
-            ],
-            "correctIndex": 0,
-            "explanation": "LeBron James est surnommé « King James » depuis ses débuts en NBA, en référence à sa domination précoce et durable sur le jeu. « The Black Mamba » désigne Kobe Bryant, et « Air » est associé à Michael Jordan."
+            "question": "Quel basketteur star de la NBA, né en 1984 à Akron (Ohio), est surnommé « King » depuis ses débuts professionnels en 2003 ?",
+            "answers": ["The Greatest", "King James", "The Black Mamba", "Air"],
+            "correctIndex": 1,
+            "explanation": "LeBron James est surnommé « King James » depuis ses débuts en NBA en 2003 avec les Cleveland Cavaliers, à 18 ans. « The Black Mamba » désigne Kobe Bryant, et « Air » est associé à Michael Jordan. LeBron remporte quatre titres NBA avec trois franchises différentes (Cleveland, Miami, Los Angeles), premier joueur à être élu MVP des Finales avec trois franchises différentes."
         },
         {
             "id": "10",
-            "question": "Quel sprinteur américain devient en 1968 le premier homme à courir officiellement le 100 m en moins de 10 secondes ?",
-            "image": null,
-            "answers": [
-                "Tommie Smith",
-                "Jim Hines",
-                "Carl Lewis",
-                "Bob Hayes"
-            ],
-            "correctIndex": 1,
-            "explanation": "Jim Hines réalise 9,95 secondes lors des Jeux Olympiques de Mexico en 1968, devenant le premier athlète à descendre officiellement sous la barre des 10 secondes au 100 m avec un chronométrage électronique."
+            "question": "Quel sprinteur américain devient en 1968 le premier homme de l'histoire à courir officiellement le 100 m en moins de 10 secondes avec un chronométrage électronique ?",
+            "answers": ["Jim Hines", "Tommie Smith", "Carl Lewis", "Bob Hayes"],
+            "correctIndex": 0,
+            "explanation": "Jim Hines réalise 9,95 secondes lors de la finale des Jeux Olympiques de Mexico le 14 octobre 1968, devenant le premier homme officiellement chronométré sous 10 secondes avec un équipement électronique. Ce même soir, Tommie Smith et John Carlos réalisèrent leur célèbre geste du Black Power sur le podium du 200 m."
         },
         {
             "id": "11",
-            "question": "Quelle nageuse américaine domine les épreuves de demi-fond et de fond en natation depuis les années 2010 ?",
-            "image": null,
-            "answers": [
-                "Katie Ledecky",
-                "Missy Franklin",
-                "Simone Manuel",
-                "Allison Schmitt"
-            ],
-            "correctIndex": 0,
-            "explanation": "Katie Ledecky multiplie les records du monde et les titres olympiques sur les épreuves de 400 m, 800 m et 1500 m nage libre, s'imposant comme l'une des plus grandes nageuses de l'histoire."
+            "question": "Quelle nageuse américaine, avec sept titres olympiques individuels et de nombreux records du monde depuis 2012, domine les épreuves de fond en natation à un niveau historique ?",
+            "answers": ["Missy Franklin", "Simone Manuel", "Allison Schmitt", "Katie Ledecky"],
+            "correctIndex": 3,
+            "explanation": "Katie Ledecky multiplie les records du monde et les titres olympiques sur les épreuves de 400 m, 800 m et 1500 m nage libre depuis ses débuts à 15 ans aux Jeux de Londres 2012. À Paris 2024, elle porta son total à neuf médailles olympiques. Ses marges de victoire, souvent supérieures à dix secondes sur ses concurrentes directes, n'ont pas d'équivalent dans l'histoire de la natation."
         },
         {
             "id": "12",
-            "question": "Quel boxeur américain termine sa carrière professionnelle invaincu, avec un bilan de 49 victoires en 49 combats ?",
-            "image": null,
-            "answers": [
-                "Floyd Mayweather",
-                "Rocky Marciano",
-                "Sugar Ray Robinson",
-                "Joe Louis"
-            ],
+            "question": "Quel boxeur américain, champion du monde des poids lourds de 1952 à 1956, se retire invaincu avec un bilan de 49 victoires en 49 combats ?",
+            "answers": ["Floyd Mayweather", "Rocky Marciano", "Sugar Ray Robinson", "Joe Louis"],
             "correctIndex": 1,
-            "explanation": "Rocky Marciano se retire en 1956 avec un bilan parfait de 49 victoires en 49 combats, un exploit unique chez les poids lourds qui reste inégalé."
+            "explanation": "Rocky Marciano se retire le 27 avril 1956 avec un bilan parfait de 49 victoires en 49 combats, dont 43 par KO. Ce record d'invincibilité chez les poids lourds reste unique à ce jour. Floyd Mayweather termina lui aussi invaincu (50-0) mais dans plusieurs catégories de poids différentes, sans jamais défier les poids lourds."
         },
         {
             "id": "13",
-            "question": "Quel athlète amérindien remporte à la fois le décathlon et le pentathlon aux Jeux Olympiques de Stockholm en 1912 ?",
-            "image": null,
-            "answers": [
-                "Bob Mathias",
-                "Rafer Johnson",
-                "Jim Thorpe",
-                "Bruce Jenner"
-            ],
+            "question": "Quel athlète amérindien remporte à la fois le décathlon et le pentathlon aux Jeux Olympiques de Stockholm en 1912, avant de se voir retirer ses médailles pour avoir joué au baseball semi-professionnel ?",
+            "answers": ["Bob Mathias", "Rafer Johnson", "Jim Thorpe", "Bruce Jenner"],
             "correctIndex": 2,
-            "explanation": "Jim Thorpe, membre de la nation Sac and Fox, remporte l'or en décathlon et en pentathlon en 1912. Il est considéré comme l'un des athlètes les plus complets de l'histoire du sport."
+            "explanation": "Jim Thorpe, membre de la nation Sac and Fox, remporte l'or en décathlon et en pentathlon à Stockholm en 1912. Le roi de Suède le déclara « l'athlète le plus grand du monde ». Ses médailles furent retirées en 1913 pour professionnalisme, avant d'être restituées à titre posthume par le CIO en 1983, trente ans après sa mort. En 2022, le CIO alla plus loin en le rétablissant officiellement comme unique champion olympique de 1912, effaçant définitivement la mention des co-lauréats introduite lors de la restitution partielle de 1983."
         },
         {
             "id": "14",
-            "question": "Quel basketteur, surnommé « Magic », revient disputer le All-Star Game 1992 après l'annonce de sa séropositivité ?",
-            "image": null,
-            "answers": [
-                "Isiah Thomas",
-                "Larry Bird",
-                "Charles Barkley",
-                "Magic Johnson"
-            ],
-            "correctIndex": 3,
-            "explanation": "Magic Johnson annonce être atteint du VIH en 1991, provoquant une onde de choc mondiale. Son retour pour disputer le All-Star Game 1992, où il est élu meilleur joueur du match, reste un moment marquant de l'histoire du sport."
+            "question": "Quel meneur de jeu légendaire des Los Angeles Lakers, atteint du VIH en 1991, revient disputer et remporter le titre de MVP du All-Star Game 1992 ?",
+            "answers": ["Magic Johnson", "Isiah Thomas", "Larry Bird", "Charles Barkley"],
+            "correctIndex": 0,
+            "explanation": "Magic Johnson annonce être séropositif le 7 novembre 1991, provoquant une onde de choc mondiale. Son retour pour disputer le All-Star Game 1992 à Orlando, où il est élu MVP avec 25 points et 9 passes décisives, reste un moment historique. Il représente également les États-Unis au « Dream Team » lors des Jeux Olympiques de Barcelone en 1992."
         },
         {
             "id": "15",
-            "question": "Quel joueur de tennis américain réalise en 1938 le premier Grand Chelem calendaire de l'histoire (les 4 tournois majeurs la même année) ?",
-            "image": null,
-            "answers": [
-                "Bill Tilden",
-                "Don Budge",
-                "Jack Kramer",
-                "Bobby Riggs"
-            ],
-            "correctIndex": 1,
-            "explanation": "Don Budge remporte l'Open d'Australie, Roland-Garros, Wimbledon et l'US Open en 1938, devenant le premier joueur, homme ou femme, à réaliser le Grand Chelem sur une même année civile."
+            "question": "Quel joueur de tennis américain réalise en 1938 le premier Grand Chelem calendaire de l'histoire, en remportant les quatre tournois majeurs au cours de la même année civile ?",
+            "answers": ["Bill Tilden", "Jack Kramer", "Bobby Riggs", "Don Budge"],
+            "correctIndex": 3,
+            "explanation": "Don Budge remporte l'Open d'Australie, Roland-Garros, Wimbledon et l'US Open en 1938, devenant le premier joueur, homme ou femme, à réaliser le Grand Chelem sur une même année civile. Rod Laver (1962 et 1969) est le seul autre homme à y être parvenu. Maureen Connolly (1953), Margaret Court (1970) et Steffi Graf (1988) sont les trois femmes ayant réalisé cet exploit."
         },
         {
             "id": "16",
-            "question": "Quel joueur devient en 1947 le premier athlète afro-américain à évoluer en Major League Baseball à l'époque moderne ?",
-            "image": null,
-            "answers": [
-                "Willie Mays",
-                "Hank Aaron",
-                "Jackie Robinson",
-                "Satchel Paige"
-            ],
-            "correctIndex": 2,
-            "explanation": "Jackie Robinson fait ses débuts avec les Brooklyn Dodgers en 1947, brisant la barrière raciale dans le baseball professionnel moderne. Son numéro 42 est retiré dans toute la MLB en son honneur."
+            "question": "Quel joueur devient en avril 1947 le premier athlète afro-américain à évoluer en Major League Baseball dans l'ère moderne, sous les crachats et les insultes, avec les Brooklyn Dodgers ?",
+            "answers": ["Willie Mays", "Jackie Robinson", "Hank Aaron", "Satchel Paige"],
+            "correctIndex": 1,
+            "explanation": "Jackie Robinson fait ses débuts avec les Brooklyn Dodgers le 15 avril 1947, brisant la barrière raciale dans le baseball professionnel moderne. Malgré les intimidations, il est élu Rookie of the Year puis MVP de la NL en 1949. Son numéro 42 est retiré dans toute la MLB en 1997, seul numéro honoré par toute la ligue. Le 15 avril est désormais le « Jackie Robinson Day »."
         },
         {
             "id": "17",
-            "question": "Quelle sprinteuse américaine, surnommée « Flo-Jo », détient depuis 1988 les records du monde du 100 m et du 200 m féminins ?",
-            "image": null,
-            "answers": [
-                "Wilma Rudolph",
-                "Florence Griffith-Joyner",
-                "Evelyn Ashford",
-                "Marion Jones"
-            ],
+            "question": "Quelle sprinteuse américaine, surnommée « Flo-Jo », établit en 1988 des records du monde du 100 m et du 200 m féminins qui tiennent depuis plus de trente-cinq ans ?",
+            "answers": ["Wilma Rudolph", "Florence Griffith-Joyner", "Evelyn Ashford", "Marion Jones"],
             "correctIndex": 1,
-            "explanation": "Florence Griffith-Joyner établit en 1988 des records du monde du 100 m (10,49 s) et du 200 m (21,34 s) qui n'ont toujours pas été battus à ce jour, près de quatre décennies plus tard."
+            "explanation": "Florence Griffith-Joyner établit en 1988 le record du monde du 100 m en 10,49 s lors des sélections américaines, puis celui du 200 m en 21,34 s aux Jeux de Séoul où elle remporte trois médailles d'or. Ces deux records, les plus anciens encore en vigueur dans les épreuves de vitesse féminines sur piste, n'ont jamais été approchés à moins de sept centièmes de seconde."
         },
         {
             "id": "18",
-            "question": "Avec 15 titres majeurs, quel golfeur américain se classe deuxième au palmarès historique derrière Jack Nicklaus ?",
-            "image": null,
-            "answers": [
-                "Arnold Palmer",
-                "Phil Mickelson",
-                "Tiger Woods",
-                "Sam Snead"
-            ],
+            "question": "Avec 15 titres majeurs en golf, quel Américain se classe deuxième au palmarès historique derrière les 18 de Jack Nicklaus, qu'il a longtemps semblé devoir surpasser ?",
+            "answers": ["Arnold Palmer", "Phil Mickelson", "Tiger Woods", "Sam Snead"],
             "correctIndex": 2,
-            "explanation": "Tiger Woods compte 15 titres majeurs en carrière, derrière les 18 de Jack Nicklaus. Son « Tiger Slam » de 2000-2001, où il détient les quatre titres majeurs simultanément, reste un exploit unique dans l'histoire du golf moderne."
+            "explanation": "Tiger Woods compte 15 titres en Grand Chelem : 5 Masters d'Augusta, 3 US Open, 3 The Open Championship et 4 US PGA Championship. Son « Tiger Slam » (2000-2001), où il détient simultanément les quatre titres majeurs, reste unique dans l'histoire du golf. Sa victoire au Masters 2019, onze ans après son dernier majeur, est considérée comme l'un des plus grands retours sportifs."
         },
         {
             "id": "19",
-            "question": "Quel basketteur américain marque 100 points lors d'un même match NBA en 1962, un record toujours inégalé ?",
-            "image": null,
-            "answers": [
-                "Kareem Abdul-Jabbar",
-                "Wilt Chamberlain",
-                "Kobe Bryant",
-                "Elgin Baylor"
-            ],
+            "question": "Quel colosse de la NBA inscrit 100 points lors d'un match face aux New York Knicks le 2 mars 1962, dans une salle dont le nom reste un mystère pour beaucoup ?",
+            "answers": ["Kareem Abdul-Jabbar", "Wilt Chamberlain", "Kobe Bryant", "Elgin Baylor"],
             "correctIndex": 1,
-            "explanation": "Wilt Chamberlain inscrit 100 points lors d'un match face aux New York Knicks le 2 mars 1962. Ce record individuel reste à ce jour inégalé dans l'histoire de la NBA, malgré les 81 points de Kobe Bryant en 2006."
+            "explanation": "Wilt Chamberlain inscrit 100 points lors d'un match face aux New York Knicks le 2 mars 1962 à Hershey (Pennsylvanie), dans une salle de 8 000 places sans journaliste ni caméra de télévision. Ce record individuel reste à ce jour inégalé dans l'histoire de la NBA, malgré les 81 points de Kobe Bryant en 2006 et les 73 de Devin Booker en 2017."
         },
         {
             "id": "20",
-            "question": "Quel athlète américain remporte neuf médailles d'or olympiques en sprint et en saut en longueur entre 1984 et 1996 ?",
-            "image": null,
-            "answers": [
-                "Michael Johnson",
-                "Maurice Greene",
-                "Justin Gatlin",
-                "Carl Lewis"
-            ],
+            "question": "Quel sprinteur et sauteur américain remporte neuf médailles d'or olympiques sur quatre éditions consécutives des Jeux, de 1984 à 1996 ?",
+            "answers": ["Michael Johnson", "Maurice Greene", "Justin Gatlin", "Carl Lewis"],
             "correctIndex": 3,
-            "explanation": "Carl Lewis remporte neuf médailles d'or olympiques sur quatre éditions des Jeux (1984 à 1996), en sprint et en saut en longueur, ce qui en fait l'un des athlètes les plus titrés de l'histoire de l'athlétisme."
+            "explanation": "Carl Lewis remporte neuf médailles d'or olympiques entre Los Angeles 1984 et Atlanta 1996, en sprint (100 m, 200 m, relais) et en saut en longueur. Sa dernière médaille d'or, en longueur à Atlanta 1996 à 35 ans, est considérée comme l'une des plus grandes performances de l'histoire de l'athlétisme. Il fut élu « athlète du siècle » par l'IAAF en 1999."
         }
     ]
 }
