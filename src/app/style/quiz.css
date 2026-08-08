@@ -1124,3 +1124,128 @@ a.quizMetaChip:hover {
     flex-direction: column;
   }
 }
+
+/* =========================================================
+   QUIZPLAYER — STRUCTURE SEO STABLE
+   À ajouter à la fin du CSS de la page quiz
+   ========================================================= */
+
+.quizPlayerQuestions[data-finished="true"] {
+  position: absolute;
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.quizPlayerResults {
+  position: absolute;
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.quizPlayerResults[data-visible="true"] {
+  position: relative;
+  height: auto;
+  overflow: visible;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.quizQuestionsViewport {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.quizQuestionCard {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  min-width: 0;
+  pointer-events: none;
+}
+
+.quizQuestionCard.is-active {
+  position: relative;
+  inset: auto;
+  transform: translateX(0);
+  pointer-events: auto;
+}
+
+.quizQuestionCard.is-before {
+  transform: translateX(-110%);
+}
+
+.quizQuestionCard.is-after {
+  transform: translateX(110%);
+}
+
+.quizQuestionCardInner {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  width: 100%;
+}
+
+.quizExplain.is-collapsed {
+  height: 0;
+  margin: 0;
+  padding: 0;
+  border-width: 0;
+  opacity: 0;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.quizExplain.is-visible {
+  height: auto;
+  padding: 12px 14px;
+  border-width: 1px;
+  opacity: 1;
+  overflow: visible;
+  pointer-events: auto;
+}
+
+.quizAnswerFeedback {
+  margin: 0;
+}
+
+.quizExplanationText {
+  margin: 8px 0 0;
+  opacity: 0.9;
+}
+
+.quizExplainActions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.quizBestInline {
+  opacity: 0.75;
+}
+
+.srOnly {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+@media (max-width: 768px) {
+  .quizQuestionCardInner {
+    gap: 18px;
+  }
+}
+
