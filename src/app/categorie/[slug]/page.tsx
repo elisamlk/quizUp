@@ -1,7 +1,27 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
+
 import { getAllCategories, getAllQuizzes } from "@/lib/quizzes";
+import { geographyTopics } from "@/lib/geography-topics";
+import {
+  Globe2,
+  Flag,
+  Landmark,
+  Waves,
+  Mountain,
+  Map,
+  Earth,
+} from "lucide-react";
+const geographyTopicIcons = {
+  "pays-capitales": Globe2,
+  "drapeaux-symboles": Flag,
+  "villes-monuments": Landmark,
+  "fleuves-lacs-oceans": Waves,
+  "reliefs-climats-nature": Mountain,
+  "territoires-frontieres": Map,
+  "monde-pays": Earth,
+};
 
 const SITE_URL = "https://www.quizup.fr";
 const PAGE_SIZE = 10;
@@ -20,7 +40,10 @@ function buildCategoryUrl(slug: string, p?: number) {
   return `/categorie/${slug}?p=${p}`;
 }
 
-function getPageItems(current: number, total: number): Array<number | "…"> {
+function getPageItems(
+  current: number,
+  total: number,
+): Array<number | "…"> {
   const windowSize = 1;
   const pages = new Set<number>();
 
@@ -28,7 +51,9 @@ function getPageItems(current: number, total: number): Array<number | "…"> {
   pages.add(total);
 
   for (let p = current - windowSize; p <= current + windowSize; p++) {
-    if (p >= 1 && p <= total) pages.add(p);
+    if (p >= 1 && p <= total) {
+      pages.add(p);
+    }
   }
 
   if (total <= 7) {
@@ -42,16 +67,29 @@ function getPageItems(current: number, total: number): Array<number | "…"> {
     const p = sorted[i];
     const prev = sorted[i - 1];
 
-    if (i > 0 && p - prev > 1) result.push("…");
+    if (i > 0 && p - prev > 1) {
+      result.push("…");
+    }
+
     result.push(p);
   }
 
   return result;
 }
 
+/* -------------------------------------------------------
+   STATIC PARAMS
+------------------------------------------------------- */
+
 export function generateStaticParams() {
-  return getAllCategories().map((c) => ({ slug: c.slug }));
+  return getAllCategories().map((c) => ({
+    slug: c.slug,
+  }));
 }
+
+/* -------------------------------------------------------
+   METADATA
+------------------------------------------------------- */
 
 export async function generateMetadata({
   params,
@@ -63,12 +101,17 @@ export async function generateMetadata({
   const { slug } = await params;
   const sp = await searchParams;
 
-  const category = getAllCategories().find((c) => c.slug === slug);
+  const category = getAllCategories().find(
+    (c) => c.slug === slug,
+  );
 
   if (!category) {
     return {
       title: "Catégorie introuvable",
-      robots: { index: false, follow: false },
+      robots: {
+        index: false,
+        follow: false,
+      },
     };
   }
 
@@ -76,41 +119,72 @@ export async function generateMetadata({
     (q) => q.category.slug === slug,
   ).length;
 
-  const totalPages = Math.max(1, Math.ceil(quizzesCount / PAGE_SIZE));
+  const totalPages = Math.max(
+    1,
+    Math.ceil(quizzesCount / PAGE_SIZE),
+  );
+
   const p = toInt(sp.p, 1);
   const pageTooHigh = p > totalPages;
   const safePage = pageTooHigh ? totalPages : p;
 
   const titleBase =
-    category.seoTitle ?? `Quiz ${category.name} gratuits en ligne | QuizUp`;
+    category.seoTitle ??
+    `Quiz ${category.name} gratuits en ligne | QuizUp`;
 
-  const title = p > 1 ? `${titleBase} – Page ${p}` : titleBase;
+  const title =
+    p > 1
+      ? `${titleBase} – Page ${p}`
+      : titleBase;
 
   const description =
     category.seoDescription ??
     `Découvre tous nos quiz de ${category.name} en 20 questions.`;
 
-  const canonical = buildCategoryUrl(slug, safePage);
+  const canonical = buildCategoryUrl(
+    slug,
+    safePage,
+  );
 
   return {
     title,
     description,
-    alternates: { canonical },
-  robots:
-  pageTooHigh || p > 1
-    ? { index: false, follow: true }
-    : { index: true, follow: true },
+
+    alternates: {
+      canonical,
+    },
+
+    robots:
+      pageTooHigh || p > 1
+        ? {
+            index: false,
+            follow: true,
+          }
+        : {
+            index: true,
+            follow: true,
+          },
+
     openGraph: {
       title,
       description,
       url: canonical,
       type: "website",
+
       images: category.image
-        ? [{ url: `${SITE_URL}${category.image}` }]
+        ? [
+            {
+              url: `${SITE_URL}${category.image}`,
+            },
+          ]
         : undefined,
     },
   };
 }
+
+/* -------------------------------------------------------
+   PAGE
+------------------------------------------------------- */
 
 export default async function CategoryPage({
   params,
@@ -122,31 +196,59 @@ export default async function CategoryPage({
   const { slug } = await params;
   const sp = await searchParams;
 
-  const category = getAllCategories().find((c) => c.slug === slug);
+  const category = getAllCategories().find(
+    (c) => c.slug === slug,
+  );
 
-  if (!category) return notFound();
+  if (!category) {
+    return notFound();
+  }
 
-  const heroImage = `/images/category-hero/${category.slug}.jpg`;
+  const heroImage =
+    `/images/category-hero/${category.slug}.jpg`;
 
   const allQuizzes = getAllQuizzes().filter(
     (q) => q.category.slug === category.slug,
   );
 
+  const popularQuizzes = allQuizzes
+  .filter((q) => q.isPopular)
+  .slice(0, 8);
+
   const total = allQuizzes.length;
-  const totalPages = Math.max(1, Math.ceil(total / PAGE_SIZE));
+
+  const totalPages = Math.max(
+    1,
+    Math.ceil(total / PAGE_SIZE),
+  );
 
   let currentPage = toInt(sp.p, 1);
 
-  if (currentPage < 1) currentPage = 1;
-  if (currentPage > totalPages) currentPage = totalPages;
+  if (currentPage < 1) {
+    currentPage = 1;
+  }
 
-  const start = (currentPage - 1) * PAGE_SIZE;
-  const end = start + PAGE_SIZE;
-  const quizzes = allQuizzes.slice(start, end);
+  if (currentPage > totalPages) {
+    currentPage = totalPages;
+  }
+
+  const start =
+    (currentPage - 1) * PAGE_SIZE;
+
+  const end =
+    start + PAGE_SIZE;
+
+  const quizzes =
+    allQuizzes.slice(start, end);
+
+  /* -----------------------------------------------------
+     BREADCRUMB JSON-LD
+  ----------------------------------------------------- */
 
   const breadcrumbJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
+
     itemListElement: [
       {
         "@type": "ListItem",
@@ -154,126 +256,298 @@ export default async function CategoryPage({
         name: "Accueil",
         item: url("/"),
       },
+
       {
         "@type": "ListItem",
         position: 2,
         name: "Quiz",
         item: url("/quiz"),
       },
+
       {
         "@type": "ListItem",
         position: 3,
         name: category.name,
-        item: url(`/categorie/${category.slug}`),
+        item: url(
+          `/categorie/${category.slug}`,
+        ),
       },
     ],
   };
 
+  /* -----------------------------------------------------
+     ITEM LIST JSON-LD
+  ----------------------------------------------------- */
+
   const itemListJsonLd = {
     "@context": "https://schema.org",
     "@type": "ItemList",
-    name: `Quiz ${category.name} – Page ${currentPage}`,
-    itemListElement: quizzes.map((q, i) => ({
-      "@type": "ListItem",
-      position: start + i + 1,
-      url: url(`/quiz/${q.slug}`),
-      name: q.title,
-    })),
+
+    name:
+      `Quiz ${category.name} – Page ${currentPage}`,
+
+    itemListElement: quizzes.map(
+      (q, i) => ({
+        "@type": "ListItem",
+
+        position:
+          start + i + 1,
+
+        url: url(
+          `/quiz/${q.slug}`,
+        ),
+
+        name: q.title,
+      }),
+    ),
   };
 
+  /* -----------------------------------------------------
+     FAQ JSON-LD
+  ----------------------------------------------------- */
+
   const faqJsonLd =
-    category.faqs && category.faqs.length > 0
+    category.faqs &&
+    category.faqs.length > 0
       ? {
-          "@context": "https://schema.org",
-          "@type": "FAQPage",
-          mainEntity: category.faqs.map((f) => ({
-            "@type": "Question",
-            name: f.q,
-            acceptedAnswer: {
-              "@type": "Answer",
-              text: f.a,
-            },
-          })),
+          "@context":
+            "https://schema.org",
+
+          "@type":
+            "FAQPage",
+
+          mainEntity:
+            category.faqs.map((f) => ({
+              "@type":
+                "Question",
+
+              name:
+                f.q,
+
+              acceptedAnswer: {
+                "@type":
+                  "Answer",
+
+                text:
+                  f.a,
+              },
+            })),
         }
       : null;
 
   return (
     <main className="page">
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify(breadcrumbJsonLd),
-        }}
-      />
+
+      {/* -----------------------------------------------
+          JSON-LD : BREADCRUMB
+      ------------------------------------------------ */}
 
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify(itemListJsonLd),
+          __html: JSON.stringify(
+            breadcrumbJsonLd,
+          ),
         }}
       />
+
+      {/* -----------------------------------------------
+          JSON-LD : ITEM LIST
+      ------------------------------------------------ */}
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(
+            itemListJsonLd,
+          ),
+        }}
+      />
+
+      {/* -----------------------------------------------
+          JSON-LD : FAQ
+      ------------------------------------------------ */}
 
       {faqJsonLd ? (
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
-            __html: JSON.stringify(faqJsonLd),
+            __html: JSON.stringify(
+              faqJsonLd,
+            ),
           }}
         />
       ) : null}
-      {/* 
-      <header className="categorySeoHero">
-        <div
-          className="categorySeoHeroImg"
-          style={{ backgroundImage: `url("${heroImage}")` }}
-        />
 
-        <div className="categorySeoHeroOverlay" />
-
-        <div className="categorySeoHeroContent">
-          <h1>Quiz {category.name}</h1>
-
-          <p>{allQuizzes.length} quiz disponibles</p>
-
-          <p>
-            {category.intro ??
-              `Découvre nos quiz de ${category.name} en 20 questions.`}
-          </p>
-        </div>
-      </header> */}
+      {/* -----------------------------------------------
+          HERO
+      ------------------------------------------------ */}
 
       <section
         className="heroLandingSection"
         style={{
           backgroundImage: `
-      linear-gradient(
-        rgba(0,0,0,.45),
-        rgba(0,0,0,.55)
-      ),
-      url("${heroImage}")
-    `,
+            linear-gradient(
+              rgba(0,0,0,.45),
+              rgba(0,0,0,.55)
+            ),
+            url("${heroImage}")
+          `,
         }}
       >
         <div className="heroLandingContent">
-          <h1 className="heroLandingTitle">Quiz {category.name}</h1>
+
+          <h1 className="heroLandingTitle">
+            Quiz {category.name}
+          </h1>
 
           <p className="heroLandingSub">
             {category.intro ??
               `Découvre nos quiz de ${category.name} en 20 questions.`}
           </p>
 
-          <p className="pageSubtitle">{allQuizzes.length} quiz disponibles</p>
+          <p className="pageSubtitle">
+            {allQuizzes.length} quiz disponibles
+          </p>
+
         </div>
       </section>
 
+      {/* -----------------------------------------------
+          CONTENU
+      ------------------------------------------------ */}
+
       <div className="categoryPageLayout">
-        <nav className="breadcrumbs">
-          <Link href="/">Accueil</Link> › <Link href="/quiz">Quiz</Link> ›{" "}
-          <span>{category.name}</span>
+
+        {/* ---------------------------------------------
+            BREADCRUMB VISIBLE
+        ---------------------------------------------- */}
+
+        <nav
+          className="breadcrumbs"
+          aria-label="Fil d'Ariane"
+        >
+          <Link href="/">
+            Accueil
+          </Link>
+
+          {" › "}
+
+          <Link href="/quiz">
+            Quiz
+          </Link>
+
+          {" › "}
+
+          <span>
+            {category.name}
+          </span>
         </nav>
 
+        {/* ---------------------------------------------
+            SOUS-CATÉGORIES GÉOGRAPHIE
+
+            Ce bloc apparaît uniquement sur :
+            /categorie/geographie
+        ---------------------------------------------- */}
+
+{category.slug === "geographie" ? (
+  <section className="categoryTopics">
+
+      <h2 className="sectionTitle">
+      Explorez la Géographie
+    </h2>
+
+    <div className="categoryTopicsGrid">
+
+      {geographyTopics.map((topic) => {
+        const Icon =
+          geographyTopicIcons[
+            topic.slug as keyof typeof geographyTopicIcons
+          ];
+
+        return (
+          <Link
+            key={topic.slug}
+            href={`/categorie/geographie/${topic.slug}`}
+            className="categoryTopicCard"
+          >
+            <span
+              className="categoryTopicIcon"
+              aria-hidden="true"
+            >
+              {Icon ? (
+                <Icon
+                  size={19}
+                  strokeWidth={2}
+                />
+              ) : null}
+            </span>
+
+            <span className="categoryTopicName">
+              {topic.name}
+            </span>
+          </Link>
+        );
+      })}
+
+    </div>
+
+  </section>
+) : null}
+
+
+{/* 2. QUIZ POPULAIRES */}
+
+{category.slug === "geographie" && popularQuizzes.length > 0 ? (
+  <section className="homeSection homePart">
+    <div className="sectionHead">
+      <h2 className="sectionTitle">
+        Quiz populaires
+      </h2>
+    </div>
+
+    <div className="row">
+      <div className="rowTrack">
+        {popularQuizzes.map((q) => (
+        <Link
+  key={q.slug}
+  href={`/quiz/${q.slug}`}
+  className="quizCard quizCard--categoryPopular"
+  style={{
+    backgroundImage: `url("${q.images?.cover ?? ""}")`,
+  }}
+  aria-label={`Lancer le quiz ${q.title}`}
+>
+  <span className="quizCategory">
+    {q.category.name}
+  </span>
+
+  <span className="quizCardOverlay" />
+
+  <span className="quizCardTitle">
+    {q.title}
+  </span>
+</Link>
+        ))}
+      </div>
+    </div>
+  </section>
+) : null}
+
+        {/* ---------------------------------------------
+            LISTE DES QUIZ
+        ---------------------------------------------- */}
+
         <section className="quizList">
+            <div className="sectionHead">
+      <h2 className="sectionTitle">
+        Tous les quiz
+      </h2>
+    </div>
+
           {quizzes.map((quiz) => {
+
             const img =
               quiz.images?.thumbnail ||
               quiz.images?.cover ||
@@ -286,14 +560,20 @@ export default async function CategoryPage({
                 className="quizRow"
                 aria-label={`Ouvrir le quiz ${quiz.title}`}
               >
+
                 <div
                   className="quizRowImg"
-                  style={{ backgroundImage: `url("${img}")` }}
+                  style={{
+                    backgroundImage:
+                      `url("${img}")`,
+                  }}
                   aria-hidden="true"
                 />
 
                 <div className="quizRowContent">
+
                   <div className="quizRowTop">
+
                     <span className="quizRowCategory">
                       {quiz.category.name}
                     </span>
@@ -301,96 +581,183 @@ export default async function CategoryPage({
                     <span className="quizRowMeta">
                       {quiz.questions.length} questions
                     </span>
+
                   </div>
 
-                  <h2 className="quizRowTitle">{quiz.title}</h2>
+                  <h2 className="quizRowTitle">
+                    {quiz.title}
+                  </h2>
 
                   {quiz.description ? (
-                    <p className="quizRowDesc">{quiz.description}</p>
+                    <p className="quizRowDesc">
+                      {quiz.description}
+                    </p>
                   ) : null}
+
                 </div>
+
               </Link>
             );
           })}
+
         </section>
 
+        {/* ---------------------------------------------
+            PAGINATION
+        ---------------------------------------------- */}
+
         {totalPages > 1 ? (
-          <nav className="pager" aria-label="Pagination catégorie">
+          <nav
+            className="pager"
+            aria-label="Pagination catégorie"
+          >
+
+            {/* PRÉCÉDENT */}
+
             <Link
-              className={`pagerBtn ${currentPage === 1 ? "isDisabled" : ""}`}
+              className={`pagerBtn ${
+                currentPage === 1
+                  ? "isDisabled"
+                  : ""
+              }`}
               href={buildCategoryUrl(
                 category.slug,
-                Math.max(1, currentPage - 1),
+                Math.max(
+                  1,
+                  currentPage - 1,
+                ),
               )}
-              aria-disabled={currentPage === 1}
-              tabIndex={currentPage === 1 ? -1 : 0}
+              aria-disabled={
+                currentPage === 1
+              }
+              tabIndex={
+                currentPage === 1
+                  ? -1
+                  : 0
+              }
               title="Page précédente"
             >
               ‹
             </Link>
 
-            <div className="pagerNums" aria-label="Pages">
-              {getPageItems(currentPage, totalPages).map((item, idx) => {
-                if (item === "…") {
+            {/* NUMÉROS */}
+
+            <div
+              className="pagerNums"
+              aria-label="Pages"
+            >
+
+              {getPageItems(
+                currentPage,
+                totalPages,
+              ).map(
+                (item, idx) => {
+
+                  if (item === "…") {
+                    return (
+                      <span
+                        key={`dots-${idx}`}
+                        className="pagerDots"
+                        aria-hidden="true"
+                      >
+                        …
+                      </span>
+                    );
+                  }
+
+                  const page = item;
+
                   return (
-                    <span
-                      key={`dots-${idx}`}
-                      className="pagerDots"
-                      aria-hidden="true"
+                    <Link
+                      key={page}
+                      href={buildCategoryUrl(
+                        category.slug,
+                        page,
+                      )}
+                      className={`pagerNum ${
+                        page === currentPage
+                          ? "isActive"
+                          : ""
+                      }`}
+                      aria-current={
+                        page === currentPage
+                          ? "page"
+                          : undefined
+                      }
+                      title={`Page ${page}`}
                     >
-                      …
-                    </span>
+                      {page}
+                    </Link>
                   );
-                }
+                },
+              )}
 
-                const page = item;
-
-                return (
-                  <Link
-                    key={page}
-                    href={buildCategoryUrl(category.slug, page)}
-                    className={`pagerNum ${
-                      page === currentPage ? "isActive" : ""
-                    }`}
-                    aria-current={page === currentPage ? "page" : undefined}
-                    title={`Page ${page}`}
-                  >
-                    {page}
-                  </Link>
-                );
-              })}
             </div>
+
+            {/* SUIVANT */}
 
             <Link
               className={`pagerBtn ${
-                currentPage === totalPages ? "isDisabled" : ""
+                currentPage === totalPages
+                  ? "isDisabled"
+                  : ""
               }`}
               href={buildCategoryUrl(
                 category.slug,
-                Math.min(totalPages, currentPage + 1),
+                Math.min(
+                  totalPages,
+                  currentPage + 1,
+                ),
               )}
-              aria-disabled={currentPage === totalPages}
-              tabIndex={currentPage === totalPages ? -1 : 0}
+              aria-disabled={
+                currentPage === totalPages
+              }
+              tabIndex={
+                currentPage === totalPages
+                  ? -1
+                  : 0
+              }
               title="Page suivante"
             >
               ›
             </Link>
+
           </nav>
         ) : null}
 
-        {category.faqs && category.faqs.length > 0 ? (
-          <section className="faq">
-            <h2>Questions fréquentes</h2>
+        {/* ---------------------------------------------
+            FAQ
+        ---------------------------------------------- */}
 
-            {category.faqs.map((f, i) => (
-              <details key={i}>
-                <summary>{f.q}</summary>
-                <p>{f.a}</p>
-              </details>
-            ))}
+        {category.faqs &&
+        category.faqs.length > 0 ? (
+          <section className="faq">
+
+            <h2>
+              Questions fréquentes
+            </h2>
+
+            {category.faqs.map(
+              (f, i) => (
+                <details key={i}>
+
+                  <summary>
+                    {f.q}
+                  </summary>
+
+                  <p>
+                    {f.a}
+                  </p>
+
+                </details>
+              ),
+            )}
+
           </section>
         ) : null}
+
       </div>
+
     </main>
   );
 }

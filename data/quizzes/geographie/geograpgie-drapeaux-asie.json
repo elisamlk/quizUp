@@ -15,6 +15,10 @@
     "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1774700735/cover_orkntv.jpg",
     "alt": "Quiz drapeaux Asie"
   },
+  "topics": [
+    "drapeaux-symboles",
+    "asie"
+  ],
   "questions": [
     {
       "id": "1",
@@ -22,7 +26,12 @@
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1774561999/japon_l2gmuo.png",
       "alt": "Drapeau du Japon",
       "imagePrompt": "Japan flag",
-      "answers": ["Corée du Sud", "Japon", "Chine", "Vietnam"],
+      "answers": [
+        "Corée du Sud",
+        "Japon",
+        "Chine",
+        "Vietnam"
+      ],
       "correctIndex": 1,
       "explanation": "Le Japon est le seul pays asiatique avec un drapeau aussi minimaliste. Le disque rouge représente le soleil levant, concept central dans la culture japonaise. Astuce : si c’est un simple cercle rouge sans autre symbole → c’est quasiment toujours le Japon."
     },
@@ -32,7 +41,12 @@
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1774561513/chine_ftvitr.png",
       "alt": "Drapeau de la Chine",
       "imagePrompt": "China flag",
-      "answers": ["Vietnam", "Corée du Nord", "Laos", "Chine"],
+      "answers": [
+        "Vietnam",
+        "Corée du Nord",
+        "Laos",
+        "Chine"
+      ],
       "correctIndex": 3,
       "explanation": "La Chine et le Vietnam sont souvent confondus. Astuce simple : plusieurs étoiles = Chine, une seule étoile = Vietnam. Les petites étoiles chinoises symbolisent les classes sociales unies autour du pouvoir."
     },
@@ -42,7 +56,12 @@
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1774562212/viet-nam_qadkre.png",
       "alt": "Drapeau du Vietnam",
       "imagePrompt": "Vietnam flag",
-      "answers": ["Vietnam", "Chine", "Laos", "Corée du Nord"],
+      "answers": [
+        "Vietnam",
+        "Chine",
+        "Laos",
+        "Corée du Nord"
+      ],
       "correctIndex": 0,
       "explanation": "Le Vietnam utilise une seule étoile, représentant les différentes classes sociales. Astuce : si c’est rouge + une seule étoile bien centrée → Vietnam."
     },
@@ -52,7 +71,12 @@
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1774561533/coree-du-sud_ixfflz.png",
       "alt": "Drapeau de la Corée du Sud",
       "imagePrompt": "South Korea flag",
-      "answers": ["Japon", "Corée du Nord", "Chine", "Corée du Sud"],
+      "answers": [
+        "Japon",
+        "Corée du Nord",
+        "Chine",
+        "Corée du Sud"
+      ],
       "correctIndex": 3,
       "explanation": "Le symbole central (yin-yang) représente l’équilibre universel. Les trigrammes autour sont issus de la philosophie chinoise ancienne. C’est l’un des drapeaux les plus symboliques au monde."
     },
@@ -62,7 +86,12 @@
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1774561531/coree-du-nord_n5svz3.png",
       "alt": "Drapeau de la Corée du Nord",
       "imagePrompt": "North Korea flag",
-      "answers": ["Corée du Sud", "Chine", "Corée du Nord", "Vietnam"],
+      "answers": [
+        "Corée du Sud",
+        "Chine",
+        "Corée du Nord",
+        "Vietnam"
+      ],
       "correctIndex": 2,
       "explanation": "Contrairement aux autres drapeaux communistes, la Corée du Nord utilise une bande bleue et rouge très structurée. Astuce : étoile + bandes horizontales = Corée du Nord."
     },
@@ -72,7 +101,12 @@
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1774561871/inde_kl2ji6.png",
       "alt": "Drapeau de l’Inde",
       "imagePrompt": "India flag",
-      "answers": ["Népal", "Inde", "Sri Lanka", "Bangladesh"],
+      "answers": [
+        "Népal",
+        "Inde",
+        "Sri Lanka",
+        "Bangladesh"
+      ],
       "correctIndex": 1,
       "explanation": "La roue Ashoka Chakra est unique. Astuce : si tu vois un symbole circulaire bleu au centre d’un drapeau orange-blanc-vert → Inde."
     },
@@ -82,7 +116,12 @@
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1774561450/bangladesh_sktgtx.png",
       "alt": "Drapeau du Bangladesh",
       "imagePrompt": "Bangladesh flag",
-      "answers": ["Japon", "Pakistan", "Inde", "Bangladesh"],
+      "answers": [
+        "Japon",
+        "Pakistan",
+        "Inde",
+        "Bangladesh"
+      ],
       "correctIndex": 3,
       "explanation": "Très proche du Japon, mais le cercle est décalé et le fond est vert. Astuce : cercle rouge + fond vert → Bangladesh."
     },
@@ -92,7 +131,12 @@
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1774562088/pakistan_tt2ien.png",
       "alt": "Drapeau du Pakistan",
       "imagePrompt": "Pakistan flag",
-      "answers": ["Algérie", "Pakistan", "Turquie", "Malaisie"],
+      "answers": [
+        "Algérie",
+        "Pakistan",
+        "Turquie",
+        "Malaisie"
+      ],
       "correctIndex": 1,
       "explanation": "Le Pakistan se distingue par sa bande blanche verticale. Astuce : croissant + bande blanche sur le côté → Pakistan."
     },
@@ -102,7 +146,12 @@
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1774562202/turquie_oj7onh.png",
       "alt": "Drapeau de la Turquie",
       "imagePrompt": "Turkey flag",
-      "answers": ["Tunisie", "Pakistan", "Turquie", "Azerbaïdjan"],
+      "answers": [
+        "Tunisie",
+        "Pakistan",
+        "Turquie",
+        "Azerbaïdjan"
+      ],
       "correctIndex": 2,
       "explanation": "Le croissant turc n’est pas entouré d’un cercle, contrairement à la Tunisie. Astuce rapide : croissant libre sur fond rouge → Turquie."
     },
@@ -112,7 +161,12 @@
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1774562037/malaisie_i85wxg.png",
       "alt": "Drapeau de la Malaisie",
       "imagePrompt": "Malaysia flag",
-      "answers": ["États-Unis", "Indonésie", "Philippines", "Malaisie"],
+      "answers": [
+        "États-Unis",
+        "Indonésie",
+        "Philippines",
+        "Malaisie"
+      ],
       "correctIndex": 3,
       "explanation": "La Malaisie mélange deux styles : bandes à l’américaine + croissant islamique. C’est un drapeau hybride unique."
     },
@@ -122,7 +176,12 @@
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1774561874/indonesie_d6k8gl.png",
       "alt": "Drapeau de l’Indonésie",
       "imagePrompt": "Indonesia flag",
-      "answers": ["Monaco", "Indonésie", "Pologne", "Singapour"],
+      "answers": [
+        "Monaco",
+        "Indonésie",
+        "Pologne",
+        "Singapour"
+      ],
       "correctIndex": 1,
       "explanation": "Identique à Monaco. Astuce : si c’est en Asie → Indonésie, en Europe → Monaco."
     },
@@ -132,7 +191,12 @@
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1774562154/singapour_nravlw.png",
       "alt": "Drapeau de Singapour",
       "imagePrompt": "Singapore flag",
-      "answers": ["Indonésie", "Malaisie", "Singapour", "Vietnam"],
+      "answers": [
+        "Indonésie",
+        "Malaisie",
+        "Singapour",
+        "Vietnam"
+      ],
       "correctIndex": 2,
       "explanation": "Contrairement à l’Indonésie, Singapour ajoute un croissant et des étoiles. Astuce : rouge/blanc + symboles → Singapour."
     },
@@ -142,7 +206,12 @@
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1774562188/thailande_rezhgp.png",
       "alt": "Drapeau de la Thaïlande",
       "imagePrompt": "Thailand flag",
-      "answers": ["Cambodge", "Laos", "Vietnam", "Thaïlande"],
+      "answers": [
+        "Cambodge",
+        "Laos",
+        "Vietnam",
+        "Thaïlande"
+      ],
       "correctIndex": 3,
       "explanation": "La bande bleue centrale plus large est la clé. Astuce : bleu épais au centre → Thaïlande."
     },
@@ -152,7 +221,12 @@
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1774562015/laos_c2xds5.png",
       "alt": "Drapeau du Laos",
       "imagePrompt": "Laos flag",
-      "answers": ["Laos", "Cambodge", "Vietnam", "Thaïlande"],
+      "answers": [
+        "Laos",
+        "Cambodge",
+        "Vietnam",
+        "Thaïlande"
+      ],
       "correctIndex": 0,
       "explanation": "Le disque blanc représente la pleine lune au-dessus du Mékong. C’est un symbole rare et très identifiable."
     },
@@ -162,7 +236,12 @@
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1774561503/cambodge_axkxt5.png",
       "alt": "Drapeau du Cambodge",
       "imagePrompt": "Cambodia flag",
-      "answers": ["Thaïlande", "Laos", "Cambodge", "Myanmar"],
+      "answers": [
+        "Thaïlande",
+        "Laos",
+        "Cambodge",
+        "Myanmar"
+      ],
       "correctIndex": 2,
       "explanation": "Angkor Wat est le seul monument clairement représenté sur un drapeau national. Astuce : temple = Cambodge."
     },
@@ -172,7 +251,12 @@
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1774562069/nepal_u1mkrv.png",
       "alt": "Drapeau du Népal",
       "imagePrompt": "Nepal flag",
-      "answers": ["Bhoutan", "Inde", "Sri Lanka", "Népal"],
+      "answers": [
+        "Bhoutan",
+        "Inde",
+        "Sri Lanka",
+        "Népal"
+      ],
       "correctIndex": 3,
       "explanation": "Seul drapeau non rectangulaire au monde. Astuce ultime : forme bizarre → Népal."
     },
@@ -182,7 +266,12 @@
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1774561473/bhoutan_okcxef.png",
       "alt": "Drapeau du Bhoutan",
       "imagePrompt": "Bhutan flag",
-      "answers": ["Bhoutan", "Népal", "Mongolie", "Chine"],
+      "answers": [
+        "Bhoutan",
+        "Népal",
+        "Mongolie",
+        "Chine"
+      ],
       "correctIndex": 0,
       "explanation": "Le dragon tient des joyaux, symbole de richesse et de protection. C’est un des rares drapeaux avec une créature mythique."
     },
@@ -192,7 +281,12 @@
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1774561423/arabie-saoudite_rkrrgk.png",
       "alt": "Drapeau de l’Arabie saoudite",
       "imagePrompt": "Saudi Arabia flag",
-      "answers": ["Iran", "Irak", "Arabie saoudite", "Pakistan"],
+      "answers": [
+        "Iran",
+        "Irak",
+        "Arabie saoudite",
+        "Pakistan"
+      ],
       "correctIndex": 2,
       "explanation": "Le texte est une profession de foi islamique. Ce drapeau ne peut jamais être inversé ou utilisé à l’envers, contrairement à la plupart des autres."
     },
@@ -202,7 +296,12 @@
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1774561880/iran_ohsnxi.png",
       "alt": "Drapeau de l’Iran",
       "imagePrompt": "Iran flag",
-      "answers": ["Irak", "Iran", "Syrie", "Yémen"],
+      "answers": [
+        "Irak",
+        "Iran",
+        "Syrie",
+        "Yémen"
+      ],
       "correctIndex": 1,
       "explanation": "Le motif central stylisé représente le mot 'Allah'. Les inscriptions répétées sur les bandes sont souvent invisibles à l’œil nu mais uniques."
     },
@@ -212,7 +311,12 @@
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1774562103/philippines_u4utxw.png",
       "alt": "Drapeau des Philippines",
       "imagePrompt": "Philippines flag",
-      "answers": ["Malaisie", "Indonésie", "Vietnam", "Philippines"],
+      "answers": [
+        "Malaisie",
+        "Indonésie",
+        "Vietnam",
+        "Philippines"
+      ],
       "correctIndex": 3,
       "explanation": "Cas unique : le drapeau est inversé en temps de guerre (rouge en haut). Très peu de pays ont un drapeau dynamique comme celui-ci."
     }

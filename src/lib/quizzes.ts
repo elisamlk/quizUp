@@ -8,14 +8,23 @@ export type Quiz = {
   title: string;
   description?: string;
   publishedAt?: string;
-  category: { name: string; slug: string };
+
+  category: {
+    name: string;
+    slug: string;
+  };
+
+  topics?: string[];
+
   isNew?: boolean;
   isPopular?: boolean;
+
   images?: {
     thumbnail?: string;
     cover?: string;
     alt?: string;
   };
+
   questions: {
     id: string;
     question: string;
@@ -74,7 +83,7 @@ function loadAllQuizzes(): Quiz[] {
     return data;
   });
 
-  const seen = new Set<string>();
+  const seen = new Set();
 
   for (const q of quizzes) {
     if (seen.has(q.slug)) {
@@ -90,7 +99,9 @@ function loadAllQuizzes(): Quiz[] {
 export function isQuizPublished(quiz: Quiz): boolean {
   if (!quiz.publishedAt) return true;
 
-  const publishedTime = new Date(`${quiz.publishedAt}T00:00:00+02:00`).getTime();
+  const publishedTime = new Date(
+    `${quiz.publishedAt}T00:00:00+02:00`,
+  ).getTime();
 
   if (Number.isNaN(publishedTime)) return false;
 

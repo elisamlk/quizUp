@@ -1,6 +1,7 @@
 import { getAllQuizzes, getAllCategories } from "@/lib/quizzes";
 import { getAllGames } from "@/lib/games";
 import { getAllPersonalityTests } from "@/lib/personalite";
+import { geographyTopics } from "@/lib/geography-topics";
 
 export function GET() {
   const BASE_URL = "https://www.quizup.fr";
@@ -36,6 +37,14 @@ export function GET() {
 
     ...getAllCategories().map((category) => ({
       loc: `${BASE_URL}/categorie/${category.slug}`,
+      priority: "0.8",
+      changefreq: "weekly",
+      lastmod: today,
+    })),
+
+    // Sous-catégories SEO Géographie
+    ...geographyTopics.map((topic) => ({
+      loc: `${BASE_URL}/categorie/geographie/${topic.slug}`,
       priority: "0.8",
       changefreq: "weekly",
       lastmod: today,
