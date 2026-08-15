@@ -2,7 +2,7 @@
   "slug": "quiz-culture-generale-top-5-pourcent",
   "title": "Quiz Culture Générale - Fais-tu partie du Top 5% ?",
   "description": "Teste ton niveau avec 20 questions difficiles et découvre si tu fais partie des 5% les plus cultivés.",
- "descriptionSeo": "Pensez-vous vraiment avoir une excellente culture générale ? Ce quiz difficile vous met au défi avec 20 questions pointues mêlant histoire, sciences, géographie, philosophie et culture mondiale. Conçu pour tester les esprits les plus affûtés, il permet de mesurer votre niveau réel et de découvrir si vous faites partie du top 5% des personnes les plus cultivées. Chaque question est accompagnée d’explications détaillées pour apprendre, comprendre et retenir des faits marquants. Idéal pour les passionnés de quiz, de connaissances et de défis intellectuels.",
+  "descriptionSeo": "Pensez-vous avoir une excellente culture générale ? Ce quiz difficile vous met au défi avec 20 questions pointues mêlant histoire, sciences, géographie, philosophie et culture mondiale. Conçu pour tester les esprits les plus affûtés, chaque question mêle connaissance et raisonnement. Certaines se résolvent par élimination, d'autres par paradoxe, d'autres encore en reliant deux savoirs que vous pensiez séparés. Les explications vous révèlent ensuite ce que vous n'aviez peut-être pas vu.",
   "category": {
     "name": "Culture générale",
     "slug": "culture-generale"
@@ -18,183 +18,183 @@
   "questions": [
     {
       "id": "1",
-      "question": "Quel traité met officiellement fin à la guerre de Trente Ans en 1648 ?",
+      "question": "Quel traité met fin à la guerre de Trente Ans en 1648 et pose les bases du droit international moderne ?",
       "image": null,
-      "imagePrompt": "Treaty of Westphalia map",
+      "imagePrompt": "Treaty of Westphalia 1648 map",
       "answers": ["Traité de Tordesillas", "Paix de Westphalie", "Traité de Versailles", "Traité d'Utrecht"],
       "correctIndex": 1,
-      "explanation": "La Paix de Westphalie (1648) redessine profondément l’Europe et marque la naissance du système moderne des États souverains, fondé sur la non-ingérence."
+      "explanation": "La Paix de Westphalie (1648) invente le principe de souveraineté étatique — chaque État est maître chez lui, sans droit d'ingérence extérieure. Ce principe structure encore les relations internationales. Le Traité de Versailles (1919) et le Traité d'Utrecht (1713) sont des distracteurs fréquents : ils mettent fin à d'autres conflits majeurs."
     },
     {
       "id": "2",
-      "question": "Quel mathématicien a formalisé les bases de la théorie des ensembles ?",
+      "question": "Gödel a ébranlé les mathématiques en 1931 avec son théorème d'incomplétude. Mais qui avait fondé la théorie des ensembles sur laquelle ce théorème s'appuie ?",
       "image": null,
-      "imagePrompt": "Georg Cantor portrait",
+      "imagePrompt": "Georg Cantor set theory portrait",
       "answers": ["Hilbert", "Cantor", "Gödel", "Euler"],
-      "correctIndex": 2,
-      "explanation": "Georg Cantor introduit la notion d’infini dénombrable et indénombrable, révolutionnant les mathématiques en montrant que tous les infinis ne sont pas équivalents."
+      "correctIndex": 1,
+      "explanation": "Gödel est le piège : les deux noms gravitent autour des mêmes fondements mathématiques, mais à des décennies d'écart. C'est Cantor qui, à la fin du XIXe siècle, crée la théorie des ensembles et démontre que tous les infinis ne sont pas équivalents. Gödel s'en servira ensuite pour montrer les limites de tout système formel — une bombe posée sur des fondations que Cantor avait bâties."
     },
     {
       "id": "3",
-      "question": "Quelle est la capitale historique de l’Empire byzantin ?",
+      "question": "On voit toujours la même face de la Lune depuis la Terre. Quelle est la vraie explication ?",
       "image": null,
-      "imagePrompt": "Constantinople Hagia Sophia",
-      "answers": ["Athènes", "Rome", "Constantinople", "Alexandrie"],
-      "correctIndex": 3,
-      "explanation": "Constantinople, aujourd’hui Istanbul, fut le centre politique, économique et religieux de l’Empire byzantin pendant plus de 1000 ans."
+      "imagePrompt": "Moon rotation synchronous orbit Earth",
+      "answers": ["Elle tourne sur elle-même à la même vitesse qu'elle orbite autour de la Terre", "La Lune ne tourne pas sur elle-même", "La gravité terrestre a bloqué sa rotation dès l'origine du système solaire", "Son orbite est trop rapide pour que nous percevions l'autre face"],
+      "correctIndex": 0,
+      "explanation": "Le piège classique : beaucoup répondent 'elle ne tourne pas'. En réalité, la Lune tourne sur elle-même en exactement 27 jours — soit sa période orbitale. Ce phénomène s'appelle rotation synchrone, et il s'explique par les effets de marée gravitationnelle de la Terre sur la Lune, qui ont progressivement ralenti sa rotation jusqu'à cet équilibre parfait."
     },
     {
       "id": "4",
-      "question": "Quel physicien est à l’origine du principe d’incertitude ?",
+      "question": "En 1927, un physicien démontre qu'on ne peut jamais connaître à la fois la position et la vitesse exactes d'une particule — non par manque d'instruments, mais parce que la nature l'interdit fondamentalement. De qui s'agit-il ?",
       "image": null,
-      "imagePrompt": "Heisenberg portrait",
-      "answers": ["Einstein", "Bohr", "Heisenberg", "Planck"],
-      "correctIndex": 2,
-      "explanation": "Werner Heisenberg démontre qu’on ne peut connaître simultanément avec précision la position et la vitesse d’une particule, une limite fondamentale de la physique quantique."
+      "imagePrompt": "Heisenberg uncertainty principle quantum physics",
+      "answers": ["Heisenberg", "Einstein", "Bohr", "Planck"],
+      "correctIndex": 0,
+      "explanation": "Werner Heisenberg énonce en 1927 que toute mesure sur une particule perturbe irrémédiablement ses autres propriétés. Ce n'est pas une limite technique — c'est une limite de la réalité. Einstein refusait de l'accepter ('Dieu ne joue pas aux dés'), mais l'expérience a toujours donné raison à Heisenberg. Bohr, lui, était du même côté que Heisenberg dans ce débat fondateur."
     },
     {
       "id": "5",
-      "question": "Quel philosophe est l’auteur de 'Critique de la raison pure' ?",
+      "question": "Locke, Hume, Kant, Spinoza. Lequel de ces quatre philosophes n'appartient PAS au courant empiriste, qui affirme que toute connaissance vient de l'expérience sensible ?",
       "image": null,
-      "imagePrompt": "Kant portrait",
-      "answers": ["Descartes", "Hegel", "Kant", "Spinoza"],
-      "correctIndex": 2,
-      "explanation": "Immanuel Kant y développe une réflexion majeure sur les limites de la connaissance humaine, distinguant ce que nous pouvons connaître de ce qui nous échappe."
+      "imagePrompt": "Kant philosopher rationalism empiricism",
+      "answers": ["Locke", "Hume", "Berkeley", "Kant"],
+      "correctIndex": 3,
+      "explanation": "Les trois distracteurs sont tous empiristes : Locke (les idées naissent de l'expérience), Hume (toute connaissance vient des impressions sensibles), Berkeley (être, c'est être perçu). Kant est le piège : il a lu Hume, qui l'a 'réveillé de son sommeil dogmatique', et il en tient compte — mais il n'est pas empiriste. Il défend que certaines structures de la connaissance (espace, temps, causalité) précèdent toute expérience. C'est ce qu'il appelle lui-même sa révolution copernicienne en philosophie."
     },
     {
       "id": "6",
-      "question": "Quel est le nom de la couche atmosphérique où se situe la couche d’ozone ?",
+      "question": "Cette couche atmosphérique s'étend de 12 à 50 km d'altitude. Les avions de ligne longue distance y croisent parfois sa limite inférieure. On y trouve la couche d'ozone. Laquelle ?",
       "image": null,
-      "imagePrompt": "stratosphere layers",
-      "answers": ["Troposphère", "Stratosphère", "Mésosphère", "Thermosphère"],
-      "correctIndex": 1,
-      "explanation": "La couche d’ozone se trouve dans la stratosphère et joue un rôle crucial en filtrant les rayons ultraviolets nocifs du Soleil."
+      "imagePrompt": "stratosphere atmosphere layers altitude",
+      "answers": ["Stratosphère", "Troposphère", "Mésosphère", "Thermosphère"],
+      "correctIndex": 0,
+      "explanation": "La troposphère est la couche que nous habitons (0 à 12 km environ) — celle où se forment les nuages, les tempêtes, et où volent la plupart des avions commerciaux. La stratosphère commence au-dessus : plus stable, plus froide, et abritant l'ozone entre 15 et 35 km. La confusion troposphère/stratosphère est la plus fréquente dans cette question."
     },
     {
       "id": "7",
-      "question": "Quel empereur romain a légalisé le christianisme avec l’édit de Milan ?",
+      "question": "Quel empereur romain a légalisé le christianisme avec l'édit de Milan en 313 ?",
       "image": null,
-      "imagePrompt": "Constantine statue",
+      "imagePrompt": "Constantine I Roman Emperor Christianity",
       "answers": ["Néron", "Auguste", "Constantin", "Trajan"],
       "correctIndex": 2,
-      "explanation": "Constantin Ier promulgue l’édit de Milan en 313, mettant fin aux persécutions contre les chrétiens et amorçant leur ascension dans l’Empire."
+      "explanation": "Constantin Ier signe l'édit de Milan en 313 avec Licinius, accordant la liberté religieuse à tous — y compris aux chrétiens persécutés. Moins d'un siècle plus tard, Théodose Ier fera du christianisme la religion d'État. Néron, lui, est célèbre pour avoir persécuté les chrétiens, non pour les avoir protégés."
     },
     {
       "id": "8",
-      "question": "Quelle est la langue officielle la plus parlée en Afrique ?",
+      "question": "Le cerveau représente seulement 2 % de la masse corporelle. Pourtant, quel pourcentage de l'énergie totale du corps consomme-t-il en permanence, au repos comme à l'effort ?",
       "image": null,
-      "imagePrompt": "Swahili map",
-      "answers": ["Français", "Arabe", "Swahili", "Anglais"],
-      "correctIndex": 2,
-      "explanation": "Le swahili est une langue véhiculaire majeure en Afrique de l’Est, utilisée par des dizaines de millions de locuteurs comme langue commune."
+      "imagePrompt": "brain energy consumption metabolism",
+      "answers": ["Environ 5 %", "Environ 10 %", "Environ 15 %", "Environ 20 %"],
+      "correctIndex": 3,
+      "explanation": "Le cerveau consomme environ 20 % de l'énergie corporelle totale, alors qu'il ne représente que 2 % du poids. Cette disproportion révèle son activité métabolique intense : même au repos, il maintient des milliards de connexions synaptiques en état de fonctionnement. C'est cette voracité énergétique qui explique pourquoi la privation de glucose ou d'oxygène affecte si rapidement les fonctions cérébrales."
     },
     {
       "id": "9",
-      "question": "Quel scientifique a proposé les lois du mouvement planétaire avant Newton ?",
+      "question": "Copernic place le Soleil au centre. Newton explique pourquoi les planètes restent en orbite. Entre les deux, qui a décrit mathématiquement la forme elliptique de ces orbites ?",
       "image": null,
-      "imagePrompt": "Kepler orbit diagram",
-      "answers": ["Copernic", "Galilée", "Kepler", "Tycho Brahe"],
-      "correctIndex": 2,
-      "explanation": "Johannes Kepler a décrit les orbites elliptiques des planètes, préparant le terrain aux lois de la gravitation de Newton."
+      "imagePrompt": "Kepler elliptical orbit planetary laws",
+      "answers": ["Copernic", "Galilée", "Tycho Brahe", "Kepler"],
+      "correctIndex": 3,
+      "explanation": "Kepler est le chaînon manquant de la révolution scientifique. En exploitant les observations de Tycho Brahe — les plus précises de l'époque, réalisées sans télescope — il formule ses trois lois entre 1609 et 1619 : les orbites sont elliptiques, la vitesse varie avec la distance, et la période est liée à la taille de l'orbite. Newton montrera ensuite pourquoi ces lois sont vraies : la gravitation universelle."
     },
     {
       "id": "10",
-      "question": "Quel pays possède le plus grand nombre de fuseaux horaires ?",
+      "question": "Quel pays possède le plus grand nombre de fuseaux horaires au monde ?",
       "image": null,
-      "imagePrompt": "France overseas map",
+      "imagePrompt": "France overseas territories world map time zones",
       "answers": ["Russie", "États-Unis", "France", "Chine"],
       "correctIndex": 2,
-      "explanation": "Grâce à ses territoires d’outre-mer, la France couvre 12 fuseaux horaires, ce qui en fait le pays le plus étendu en termes de temps."
+      "explanation": "La France, avec 12 fuseaux horaires, devance la Russie (11) et les États-Unis (11). La clé : ses territoires d'outre-mer dispersés sur tous les océans — Polynésie française, Martinique, Réunion, Wallis-et-Futuna, Saint-Pierre-et-Miquelon. La Chine, à l'inverse, utilise officiellement un seul fuseau pour l'ensemble de son territoire, malgré une extension géographique qui en couvrirait cinq naturellement."
     },
     {
       "id": "11",
-      "question": "Quel est le plus petit os du corps humain ?",
+      "question": "Il pèse moins de 3 milligrammes, mesure environ 3 mm, et pourtant sans lui vous n'entendriez rien. Quel est cet os, le plus petit du corps humain ?",
       "image": null,
-      "imagePrompt": "stapes ear bone",
-      "answers": ["Rotule", "Étrier", "Radius", "Cubitus"],
-      "correctIndex": 1,
-      "explanation": "L’étrier, situé dans l’oreille moyenne, mesure environ 3 mm et joue un rôle essentiel dans la transmission des vibrations sonores."
+      "imagePrompt": "stapes ossicle ear bone anatomy",
+      "answers": ["Rotule", "Radius", "Cubitus", "Étrier"],
+      "correctIndex": 3,
+      "explanation": "L'étrier est l'un des trois osselets de l'oreille moyenne — avec le marteau et l'enclume. Ces trois os infimes amplifient les vibrations du tympan et les transmettent à la cochlée avec une précision mécanique remarquable. L'étrier, le dernier maillon de cette chaîne, est en contact direct avec la fenêtre ovale : c'est lui qui fait basculer le son du mécanique au nerveux."
     },
     {
       "id": "12",
-      "question": "Quel écrivain est à l’origine du courant naturaliste ?",
+      "question": "Il voulait faire du roman une 'expérience scientifique' : observer les personnages comme un médecin ausculte ses patients, en montrant comment hérédité et milieu social les conditionnent. Quel écrivain fondait ainsi le naturalisme ?",
       "image": null,
-      "imagePrompt": "Emile Zola portrait",
-      "answers": ["Balzac", "Zola", "Flaubert", "Maupassant"],
-      "correctIndex": 1,
-      "explanation": "Émile Zola applique une méthode quasi scientifique à la littérature, cherchant à décrire les déterminismes sociaux et biologiques."
+      "imagePrompt": "Emile Zola naturalism literature portrait",
+      "answers": ["Zola", "Balzac", "Flaubert", "Maupassant"],
+      "correctIndex": 0,
+      "explanation": "Émile Zola expose sa méthode dans Le Roman expérimental (1880) : le romancier doit observer, expérimenter, déduire. Son cycle des Rougon-Macquart (20 volumes) suit une famille sur cinq générations pour montrer comment l'hérédité et les conditions sociales façonnent les destins. Balzac avait dépeint la société — Zola voulait l'expliquer scientifiquement. Maupassant fut son élève."
     },
     {
       "id": "13",
-      "question": "Quel est le nombre d’os dans le corps humain adulte ?",
+      "question": "Un nouveau-né possède environ 270 os. Un adulte n'en a que 206. Qu'est-il arrivé aux os manquants ?",
       "image": null,
-      "imagePrompt": "human skeleton labeled",
-      "answers": ["206", "210", "198", "220"],
-      "correctIndex": 0,
-      "explanation": "Le corps humain compte 206 os à l’âge adulte, certains os s’étant soudés après l’enfance."
+      "imagePrompt": "skeleton bone fusion growth child adult",
+      "answers": ["Le corps élimine les os devenus inutiles avec l'âge", "Certains os se soudent entre eux au cours de la croissance", "Les dents sont comptées comme os chez le nourrisson, pas chez l'adulte", "L'ossification transforme certains os en cartilages rigides"],
+      "correctIndex": 1,
+      "explanation": "Les os ne disparaissent pas : ils fusionnent. Le sacrum, par exemple, résulte de la soudure de cinq vertèbres distinctes chez l'enfant. Le crâne est formé de plusieurs plaques osseuses qui se rejoignent progressivement — les fontanelles des nourrissons en sont la trace. Cette consolidation s'achève à l'âge adulte, laissant le compte définitif de 206 os."
     },
     {
       "id": "14",
-      "question": "Quelle civilisation a inventé l’écriture cunéiforme ?",
+      "question": "Quelle civilisation a mis au point, vers 3200 av. J.-C., les premiers systèmes d'écriture connus — des signes en forme de coins gravés sur des tablettes d'argile ?",
       "image": null,
-      "imagePrompt": "cuneiform tablets",
-      "answers": ["Égyptiens", "Sumériens", "Mayas", "Grecs"],
-      "correctIndex": 1,
-      "explanation": "Les Sumériens, en Mésopotamie, ont développé l’écriture cunéiforme vers 3200 av. J.-C., marquant le début de l’histoire écrite."
+      "imagePrompt": "cuneiform writing Sumerian tablets clay",
+      "answers": ["Les Égyptiens", "Les Phéniciens", "Les Sumériens", "Les Hittites"],
+      "correctIndex": 2,
+      "explanation": "Les Sumériens, en basse Mésopotamie (actuel Irak du Sud), inventent l'écriture cunéiforme vers 3200 av. J.-C. Elle naît pour des raisons comptables — noter les stocks des temples — avant d'évoluer vers la littérature et la religion. Les Égyptiens développent les hiéroglyphes à peu près à la même époque, de façon probablement indépendante. Les Phéniciens inventeront bien plus tard l'alphabet consonantique (v. 1050 av. J.-C.), ancêtre de notre alphabet."
     },
     {
       "id": "15",
-      "question": "Quel est le nom du plus grand satellite naturel de Saturne ?",
+      "question": "Lequel de ces satellites du système solaire est le seul, après la Terre, à posséder une atmosphère dense et des liquides stables en surface ?",
       "image": null,
-      "imagePrompt": "Titan moon",
-      "answers": ["Europa", "Titan", "Ganymède", "Io"],
-      "correctIndex": 1,
-      "explanation": "Titan possède une atmosphère dense et des lacs d’hydrocarbures, ce qui en fait un objet d’étude majeur pour l’astrobiologie."
+      "imagePrompt": "Titan Saturn moon atmosphere lakes methane",
+      "answers": ["Europa (Jupiter)", "Ganymède (Jupiter)", "Io (Jupiter)", "Titan (Saturne)"],
+      "correctIndex": 3,
+      "explanation": "Titan est unique. Son atmosphère est principalement composée d'azote — comme la Terre — et sa pression au sol est 1,5 fois la pression atmosphérique terrestre. À sa surface : des lacs et rivières de méthane et d'éthane liquides, une météorologie active, et des dunes. Europa possède un océan, mais souterrain, sous une croûte de glace. Ganymède est le plus grand satellite du système solaire, mais sans atmosphère dense ni liquides en surface."
     },
     {
       "id": "16",
-      "question": "Quelle bataille marque la fin de Napoléon en 1815 ?",
+      "question": "En 1805, Napoléon remporte sa victoire la plus brillante et subit aussi sa première grande défaite navale. En quelle année abdique-t-il définitivement ?",
       "image": null,
-      "imagePrompt": "Waterloo battle painting",
-      "answers": ["Austerlitz", "Waterloo", "Iéna", "Trafalgar"],
-      "correctIndex": 1,
-      "explanation": "La défaite de Waterloo face aux forces alliées entraîne l’abdication définitive de Napoléon et son exil à Sainte-Hélène."
+      "imagePrompt": "Napoleon timeline chronology 1815 abdication",
+      "answers": ["1815", "1812", "1809", "1807"],
+      "correctIndex": 0,
+      "explanation": "Le piège habituel est de proposer des batailles comme réponses — Waterloo, Iéna. Ici, les options sont des années, ce qui teste la chronologie réelle. 1812 : la désastreuse campagne de Russie. 1814 : première abdication, exil à l'île d'Elbe. 1815 : les Cent-Jours, Waterloo le 18 juin, abdication définitive. Exil à Sainte-Hélène jusqu'à sa mort en 1821."
     },
     {
       "id": "17",
-      "question": "Quel gaz est le plus abondant dans l’atmosphère terrestre ?",
+      "question": "On dit qu'on 'respire de l'oxygène'. Mais quel gaz constitue en réalité près de 78 % de l'air que vous inspirez en ce moment ?",
       "image": null,
-      "imagePrompt": "nitrogen atmosphere",
-      "answers": ["Oxygène", "Azote", "CO2", "Argon"],
-      "correctIndex": 1,
-      "explanation": "L’azote représente environ 78% de l’atmosphère, loin devant l’oxygène (~21%)."
+      "imagePrompt": "nitrogen atmosphere composition pie chart",
+      "answers": ["Oxygène", "CO2", "Azote", "Argon"],
+      "correctIndex": 2,
+      "explanation": "L'azote représente 78 % de l'atmosphère — l'oxygène n'en constitue que 21 %. Nous respirons donc surtout de l'azote, sans le fixer ni le métaboliser : il est expiré tel quel. C'est l'oxygène, minoritaire, qui est vital. En revanche, l'azote atmosphérique est indispensable à la vie végétale via des bactéries fixatrices qui le transforment en nitrates assimilables par les plantes."
     },
     {
       "id": "18",
-      "question": "Quel philosophe a théorisé le 'contrat social' en 1762 ?",
+      "question": "Hobbes pense que sans État fort, la vie humaine est 'solitaire, misérable et brève'. Locke défend des droits naturels antérieurs à toute société. Lequel, parmi ces deux penseurs et d'autres, a affirmé que la souveraineté appartient au peuple entier via un contrat social ?",
       "image": null,
-      "imagePrompt": "Rousseau portrait",
-      "answers": ["Locke", "Rousseau", "Hobbes", "Voltaire"],
-      "correctIndex": 1,
-      "explanation": "Jean-Jacques Rousseau développe l’idée que la souveraineté appartient au peuple, influençant profondément les révolutions modernes."
+      "imagePrompt": "Rousseau social contract political philosophy",
+      "answers": ["Locke", "Hobbes", "Rousseau", "Voltaire"],
+      "correctIndex": 2,
+      "explanation": "Rousseau pousse plus loin que Locke et Hobbes : chez lui, la volonté générale est souveraine, et aucun monarque ne peut s'y substituer. Locke défend des droits individuels face au pouvoir ; Hobbes justifie le pouvoir absolu pour éviter le chaos. Rousseau, lui, fonde la souveraineté populaire — l'idée centrale qui nourrit la Révolution française et les démocraties modernes."
     },
     {
       "id": "19",
-      "question": "Quel est le plus grand organe interne du corps humain ?",
+      "question": "Il filtre 1,5 litre de sang par minute, produit la bile, stocke le glycogène et peut se régénérer même après en avoir perdu les deux tiers. Quel grand organe se cache derrière tout cela ?",
       "image": null,
-      "imagePrompt": "liver anatomy",
+      "imagePrompt": "liver anatomy human organ function",
       "answers": ["Cerveau", "Foie", "Poumon", "Rein"],
-      "correctIndex": 3,
-      "explanation": "Le foie est l’organe interne le plus volumineux et remplit des fonctions vitales : détoxification, production de bile et stockage de nutriments."
+      "correctIndex": 1,
+      "explanation": "Le foie est l'organe interne le plus volumineux (~1,5 kg) et le plus multifonctionnel : on lui attribue plus de 500 fonctions distinctes. Sa capacité de régénération est unique parmi les organes solides — une propriété exploitée en chirurgie pour les greffes à partir de donneur vivant, où le lobe prélevé repousse en quelques semaines chez les deux personnes concernées."
     },
     {
       "id": "20",
-      "question": "Quel scientifique a proposé le modèle héliocentrique au XVIᵉ siècle ?",
+      "question": "Son œuvre majeure est publiée en 1543, l'année même de sa mort, et remet en cause mille ans de géocentrisme en plaçant le Soleil au centre du système planétaire. Qui est cet auteur ?",
       "image": null,
-      "imagePrompt": "Copernicus heliocentric model",
+      "imagePrompt": "Copernicus De revolutionibus heliocentric model 1543",
       "answers": ["Ptolémée", "Copernic", "Galilée", "Newton"],
-      "correctIndex": 0,
-      "explanation": "Nicolas Copernic propose le modèle héliocentrique au XVIe siècle, remettant en cause la vision géocentrique dominante depuis l’Antiquité."
+      "correctIndex": 1,
+      "explanation": "Nicolas Copernic publie De revolutionibus orbium coelestium en 1543. Que la publication soit intervenue si près de sa mort tient probablement à des délais d'édition, à sa prudence et à sa santé déclinante — mais les historiens s'accordent à ne pas attribuer cette coïncidence à une stratégie délibérée. Ce qui est certain : l'ouvrage bouleverse la cosmologie héritée de Ptolémée et déclenche la révolution scientifique que Galilée poursuivra et que Newton achèvera."
     }
   ]
 }
