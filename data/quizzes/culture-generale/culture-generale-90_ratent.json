@@ -2,7 +2,7 @@
   "slug": "quiz-culture-generale-que-90-pourcent-des-gens-ratent",
   "title": "Quiz Culture Générale que 90 % des Gens Ratent – 20 Questions",
   "description": "Un quiz de culture générale difficile composé de 20 questions auxquelles la majorité des gens échouent à répondre correctement.",
-  "descriptionSeo": "Pensez-vous vraiment avoir une excellente culture générale ? Ce quiz rassemble 20 questions surprenantes et parfois trompeuses auxquelles 90 % des gens échouent à répondre correctement. Entre histoire, sciences, géographie et culture mondiale, ces questions mettent à l’épreuve même les esprits les plus curieux. Chaque réponse est accompagnée d’une explication claire pour apprendre des faits fascinants et enrichir sa culture générale.",
+  "descriptionSeo": "Vous pensez avoir une bonne culture générale ? Ce quiz vous met au défi avec 20 questions surprenantes et souvent trompeuses. Certaines se résolvent par raisonnement, d'autres vont à l'encontre de vos intuitions, d'autres encore testent des faits que vous croyiez connaître mais pas tout à fait. Entre histoire, sciences, géographie et culture mondiale, chaque réponse s'accompagne d'une explication qui révèle ce que vous n'aviez peut-être pas vu.",
   "category": {
     "name": "Culture générale",
     "slug": "culture-generale"
@@ -18,183 +18,283 @@
   "questions": [
     {
       "id": "cg90-1",
-      "question": "Quelle planète du système solaire possède le plus de lunes connues ?",
+      "question": "Pendant longtemps, Jupiter était réputée comme la planète aux plus nombreuses lunes. Quelle planète la dépasse aujourd'hui largement, selon les recensements les plus récents ?",
       "image": null,
-      "imagePrompt": "saturn planet moons rings astronomy",
-      "answers": ["Saturne", "Jupiter", "Uranus", "Neptune"],
+      "imagePrompt": "saturn planet rings moons astronomy",
+      "answers": [
+        "Saturne",
+        "Jupiter",
+        "Uranus",
+        "Neptune"
+      ],
       "correctIndex": 0,
-      "explanation": "Saturne possède aujourd'hui de très loin le plus grand nombre de lunes connues du système solaire, largement devant Jupiter. Ce nombre continue d'évoluer régulièrement à mesure que de nouveaux satellites, souvent minuscules, sont détectés et confirmés par les astronomes."
+      "explanation": "Saturne a dépassé Jupiter en nombre de lunes connues à partir de 2023, avec plus de 140 satellites confirmés contre une centaine pour Jupiter. Le piège est naturel : pendant des décennies, Jupiter détenait ce record. Ce renversement illustre combien les recensements astronomiques évoluent avec les instruments d'observation — beaucoup de ces lunes sont minuscules, quelques kilomètres seulement."
     },
     {
       "id": "cg90-2",
-      "question": "Quels deux pays partagent la plus longue frontière terrestre du monde ?",
+      "question": "La frontière États-Unis–Mexique est souvent présentée comme la plus longue du monde. Quelle frontière est en réalité près de trois fois plus longue ?",
       "image": null,
-      "imagePrompt": "canada usa border map longest border",
-      "answers": ["Russie et Chine", "États-Unis et Mexique", "Brésil et Argentine", "Canada et États-Unis"],
-      "correctIndex": 3,
-      "explanation": "La frontière entre le Canada et les États-Unis s'étend sur environ 8 891 km en comptant l'Alaska, ce qui en fait la plus longue frontière terrestre internationale du monde. Elle est aussi réputée pour être la plus longue frontière non militarisée, sans présence armée permanente."
+      "imagePrompt": "canada usa border map longest border world",
+      "answers": [
+        "Russie et Kazakhstan",
+        "Brésil et Bolivie",
+        "Canada et États-Unis",
+        "Chine et Mongolie"
+      ],
+      "correctIndex": 2,
+      "explanation": "La frontière Canada–États-Unis s'étend sur environ 8 891 km, Alaska inclus — soit près de trois fois la longueur de la frontière USA–Mexique (~3 145 km). Elle est aussi réputée comme la plus longue frontière non militarisée du monde, sans présence armée permanente. L'énoncé nomme délibérément la réponse intuitive pour tester si le joueur la remet en cause."
     },
     {
       "id": "cg90-3",
-      "question": "Quel philosophe est l’auteur de la phrase « Je pense, donc je suis » ?",
+      "question": "Descartes formule 'Je pense, donc je suis' dans un premier ouvrage en français, puis la reprend en latin dans un autre. Dans lequel apparaît-elle pour la première fois ?",
       "image": null,
-      "imagePrompt": "rene descartes philosopher portrait philosophy",
-      "answers": ["Kant", "Spinoza", "Descartes", "Voltaire"],
-      "correctIndex": 2,
-      "explanation": "René Descartes formule cette phrase dans son Discours de la méthode (1637), avant de la reprendre en latin sous la forme « Cogito, ergo sum » dans ses Principes de la philosophie. Elle constitue le point de départ de sa méthode : douter de tout, sauf de l'existence de sa propre pensée, seule certitude indubitable."
+      "imagePrompt": "descartes philosopher discourse method book",
+      "answers": [
+        "Les Méditations métaphysiques",
+        "Le Discours de la méthode",
+        "Les Principes de la philosophie",
+        "Le Traité des passions de l'âme"
+      ],
+      "correctIndex": 1,
+      "explanation": "La formule apparaît d'abord dans le Discours de la méthode (1637), en français, avant d'être reprise en latin — 'Cogito, ergo sum' — dans les Principes de la philosophie (1644). Beaucoup confondent les deux ouvrages : les Méditations métaphysiques (1641) sont l'autre grande œuvre de Descartes, mais ce n'est pas là que la phrase naît."
     },
     {
       "id": "cg90-4",
-      "question": "Parmi ces animaux, lequel peut présenter l'un des rapports cerveau/masse corporelle les plus élevés ?",
+      "question": "Parmi ces animaux, lequel peut présenter l'un des rapports cerveau/masse corporelle les plus élevés du règne animal ?",
       "image": null,
-      "imagePrompt": "ant macro insect science biology",
-      "answers": ["La fourmi", "Le dauphin", "L’éléphant", "Le corbeau"],
+      "imagePrompt": "ant macro insect brain body ratio",
+      "answers": [
+        "La fourmi",
+        "Le dauphin",
+        "L'éléphant",
+        "Le corbeau"
+      ],
       "correctIndex": 0,
-      "explanation": "Chez certaines espèces de fourmis, le cerveau peut représenter jusqu'à 14 à 15 % de la masse corporelle, l'un des ratios les plus élevés connus chez les animaux. Cette proportion ne signifie toutefois pas qu'elles possèdent l'intelligence la plus développée : elle reflète surtout la miniaturisation extrême de leur corps."
+      "explanation": "Chez certaines espèces de fourmis, le cerveau représente jusqu'à 14-15 % de la masse corporelle, l'un des ratios les plus élevés connus. Ce chiffre ne traduit pas une intelligence supérieure : il reflète la miniaturisation extrême du corps, qui fait que le cerveau — lui aussi minuscule — prend une part relative très importante. Le dauphin ou le corbeau sont bien plus intelligents, mais leur ratio est nettement inférieur."
     },
     {
       "id": "cg90-5",
       "question": "Parmi ces étendues d'eau, laquelle possède la salinité la plus élevée ?",
       "image": null,
-      "imagePrompt": "dead sea salt formations landscape",
-      "answers": ["Mer Rouge", "Mer Noire", "Mer Morte", "Mer Méditerranée"],
+      "imagePrompt": "dead sea salt landscape floating water",
+      "answers": [
+        "Mer Rouge",
+        "Mer Noire",
+        "Mer Morte",
+        "Mer Méditerranée"
+      ],
       "correctIndex": 2,
-      "explanation": "Malgré son nom, la mer Morte est en réalité un lac hypersalin. Sa salinité, environ 9 à 10 fois supérieure à celle des océans, permet d'y flotter sans effort. Elle reste toutefois loin d'être l'étendue d'eau la plus salée au monde : certains bassins hypersalins, comme le Gaet'ale Pond en Éthiopie ou le Don Juan Pond en Antarctique, la dépassent largement."
+      "explanation": "La mer Morte est en réalité un lac hypersalin dont la salinité est environ 9 à 10 fois supérieure à celle des océans — assez pour qu'on y flotte sans effort. Elle n'est toutefois pas l'étendue d'eau la plus salée au monde : certains bassins comme le Gaet'ale Pond en Éthiopie ou le Don Juan Pond en Antarctique la dépassent. Mais parmi les options proposées, c'est bien elle."
     },
     {
       "id": "cg90-6",
-      "question": "Dans quel pays se trouve la ville de Tombouctou ?",
+      "question": "Ce grand fleuve d'Afrique de l'Ouest décrit une étonnante boucle aux portes du Sahara, passe près de Tombouctou et traversait le cœur des empires du Mali et de Songhaï. Lequel ?",
       "image": null,
-      "imagePrompt": "timbuktu mali desert historic city",
-      "answers": ["Algérie", "Mali", "Maroc", "Niger"],
-      "correctIndex": 1,
-      "explanation": "Tombouctou se trouve au Mali, près du fleuve Niger. La ville fut autrefois un important centre commercial et intellectuel de l'Afrique de l'Ouest, réputée notamment pour ses manuscrits anciens et l'université de Sankoré, l'un des grands foyers du savoir islamique médiéval."
+      "imagePrompt": "niger river mali west africa sahel",
+      "answers": [
+        "Le Congo",
+        "Le Sénégal",
+        "Le Volta",
+        "Le Niger"
+      ],
+      "correctIndex": 3,
+      "explanation": "Le Niger est le troisième plus long fleuve d'Afrique (4 180 km) et trace une courbe remarquable : il part du massif du Fouta-Djalon (Guinée), remonte vers le nord jusqu'aux portes du Sahara près de Tombouctou, puis redescend vers le golfe de Guinée. Il traversait le cœur géographique des empires du Ghana, du Mali et de Songhaï. Le Congo, lui, est le plus puissant en débit ; le Sénégal et le Volta sont nettement plus courts."
     },
     {
       "id": "cg90-7",
-      "question": "Quel est l’élément chimique le plus abondant dans l’univers ?",
+      "question": "Quel est l'élément chimique le plus abondant dans l'univers ?",
       "image": null,
-      "imagePrompt": "hydrogen atom science illustration universe",
-      "answers": ["Oxygène", "Carbone", "Hydrogène", "Hélium"],
+      "imagePrompt": "hydrogen atom universe big bang element",
+      "answers": [
+        "Oxygène",
+        "Carbone",
+        "Hydrogène",
+        "Hélium"
+      ],
       "correctIndex": 2,
-      "explanation": "L'hydrogène représente environ 75 % de la matière ordinaire de l'univers, l'hélium constituant l'essentiel du reste (environ 24 %). Formé dès les premières minutes après le Big Bang, c'est l'élément le plus simple et le plus léger du tableau périodique."
+      "explanation": "L'hydrogène représente environ 75 % de la matière ordinaire de l'univers, l'hélium constituant l'essentiel du reste (~24 %). Les deux ont été formés dans les premières minutes après le Big Bang — tous les autres éléments sont nés bien plus tard, dans les étoiles ou lors d'explosions de supernovæ. L'oxygène et le carbone, si essentiels à la vie, sont en réalité rarissimes à l'échelle cosmique."
     },
     {
       "id": "cg90-8",
-      "question": "Quel explorateur a dirigé la première expédition à faire le tour du monde ?",
+      "question": "Magellan est célébré comme le héros du premier tour du monde (1519-1522). Pourtant, il ne l'a pas achevé. Que lui est-il arrivé ?",
       "image": null,
-      "imagePrompt": "magellan expedition old map ships exploration",
-      "answers": ["Christophe Colomb", "James Cook", "Magellan", "Marco Polo"],
-      "correctIndex": 2,
-      "explanation": "Magellan a conçu et dirigé cette expédition de circumnavigation, mais il meurt aux Philippines en 1521 avant la fin du voyage : c'est son second, Juan Sebastián Elcano, qui ramène l'unique navire survivant, le Victoria, à Séville en 1522, achevant ainsi le premier tour du monde de l'Histoire."
+      "imagePrompt": "magellan philippines expedition death circumnavigation",
+      "answers": [
+        "Il a fait demi-tour après une mutinerie en Atlantique",
+        "Il est mort aux Philippines avant la fin de l'expédition",
+        "Il a été capturé par les Portugais et emprisonné",
+        "Il a abandonné le voyage pour rester aux Indes"
+      ],
+      "correctIndex": 1,
+      "explanation": "Magellan est tué aux Philippines en avril 1521, lors de la bataille de Mactan, en s'impliquant dans un conflit local. C'est son second, l'Espagnol Juan Sebastián Elcano, qui ramène à Séville en 1522 l'unique navire survivant — le Victoria — avec 18 hommes sur les 260 partis. Elcano est ainsi techniquement le premier à avoir bouclé le tour du monde."
     },
     {
       "id": "cg90-9",
-      "question": "Quelle ville est généralement considérée comme la première à avoir atteint environ un million d'habitants ?",
+      "question": "On associe instinctivement 'première grande métropole' à Babylone ou à l'Égypte. Quelle ville est pourtant généralement citée comme la première à avoir atteint environ un million d'habitants ?",
       "image": null,
-      "imagePrompt": "ancient rome city illustration empire",
-      "answers": ["Babylone", "Athènes", "Alexandrie", "Rome"],
+      "imagePrompt": "ancient rome colosseum city empire population",
+      "answers": [
+        "Babylone",
+        "Alexandrie",
+        "Carthage",
+        "Rome"
+      ],
       "correctIndex": 3,
-      "explanation": "Rome est couramment présentée comme la première ville ayant dépassé le million d'habitants, probablement au Ier ou IIe siècle apr. J.-C., à l'apogée de l'Empire romain. Les estimations démographiques de l'Antiquité restent toutefois incertaines, et certaines autres grandes villes historiques sont parfois évoquées selon les méthodes de calcul utilisées."
+      "explanation": "Rome est couramment citée comme la première ville millionnaire, probablement entre le Ier et le IIe siècle apr. J.-C., à l'apogée de l'Empire. Les estimations antiques restent incertaines, et certains historiens évoquent d'autres candidats selon les méthodes de calcul. Babylone et Alexandrie sont les distracteurs les plus séduisants — mais les évaluations démographiques actuelles n'atteignent pas le million pour ces villes."
     },
     {
       "id": "cg90-10",
-      "question": "Quelle est la capitale de la Mongolie ?",
+      "question": "La capitale de la Mongolie est l'une des capitales les plus froides au monde, avec des hivers régulièrement sous -30°C. Elle concentre près de la moitié de la population nationale. Laquelle ?",
       "image": null,
-      "imagePrompt": "ulaanbaatar city skyline mongolia",
-      "answers": ["Astana", "Oulan-Bator", "Tachkent", "Bichkek"],
+      "imagePrompt": "ulaanbaatar mongolia capital city winter skyline",
+      "answers": [
+        "Astana",
+        "Oulan-Bator",
+        "Irkoutsk",
+        "Bichkek"
+      ],
       "correctIndex": 1,
-      "explanation": "Oulan-Bator (Ulaanbaatar) est la capitale et la plus grande ville de Mongolie, abritant près de la moitié de la population du pays. C'est aussi l'une des capitales les plus froides au monde : les températures hivernales y descendent régulièrement sous -30°C."
+      "explanation": "Oulan-Bator (Ulaanbaatar) abrite environ 1,5 million d'habitants sur les 3,3 millions que compte la Mongolie — une concentration extraordinaire pour un pays à la surface comparable à l'Europe occidentale. Ses hivers extrêmes la font figurer parmi les capitales les plus froides du monde. Astana (Kazakhstan) et Bichkek (Kirghizistan) sont des pièges géographiques régionaux plausibles."
     },
     {
       "id": "cg90-11",
-      "question": "Quel écrivain a inventé le personnage de Dracula ?",
+      "question": "Quel écrivain a créé le personnage de Dracula, en s'inspirant partiellement d'un prince roumain du XVe siècle ?",
       "image": null,
-      "imagePrompt": "dracula gothic castle vampire literature",
-      "answers": ["Bram Stoker", "Mary Shelley", "Edgar Allan Poe", "Arthur Conan Doyle"],
+      "imagePrompt": "bram stoker dracula gothic vampire novel 1897",
+      "answers": [
+        "Bram Stoker",
+        "Mary Shelley",
+        "Edgar Allan Poe",
+        "Arthur Conan Doyle"
+      ],
       "correctIndex": 0,
-      "explanation": "Le personnage de Dracula a été créé par l'écrivain irlandais Bram Stoker dans son roman éponyme publié en 1897. Stoker lui a emprunté le nom « Dracula » (qui signifie « fils du dragon » ou « diable » en roumain) ainsi qu'une réputation de cruauté, en référence au prince valaque Vlad III, dit Vlad l'Empaleur. Le lien entre les deux figures reste toutefois débattu par les historiens : la théorie d'une inspiration directe et détaillée, popularisée dans les années 1970, n'est pas unanimement admise, Stoker semblant surtout avoir retenu le nom et son évocation diabolique."
+      "explanation": "L'écrivain irlandais Bram Stoker crée Dracula dans son roman éponyme de 1897. Il emprunte le nom 'Dracula' — 'fils du dragon' ou 'diable' en roumain — à Vlad III, dit Vlad l'Empaleur. Le lien reste débattu : les historiens pensent que Stoker a surtout retenu le nom et son évocation diabolique, sans vraiment s'inspirer de la biographie de Vlad. Mary Shelley, elle, est l'auteure de Frankenstein."
     },
     {
       "id": "cg90-12",
-      "question": "Quel est le désert non polaire le plus sec du monde ?",
+      "question": "Le Sahara est le plus grand désert chaud du monde. Mais quel désert est considéré comme le plus sec — au point que certaines de ses stations météo n'ont jamais enregistré de pluie mesurable ?",
       "image": null,
-      "imagePrompt": "atacama desert chile dry landscape",
-      "answers": ["Sahara", "Atacama", "Kalahari", "Gobi"],
+      "imagePrompt": "atacama desert chile dry salt flat landscape",
+      "answers": [
+        "Sahara",
+        "Atacama",
+        "Namib",
+        "Gobi"
+      ],
       "correctIndex": 1,
-      "explanation": "Le désert d'Atacama, au Chili, est considéré comme le désert non polaire le plus sec du monde : certaines de ses stations n'ont enregistré aucune pluie mesurable depuis des décennies. Seules certaines vallées sèches de l'Antarctique, un désert polaire, sont encore plus arides."
+      "explanation": "Le désert d'Atacama, au nord du Chili, est le désert non polaire le plus aride du monde. Certaines zones n'ont connu aucune pluie mesurable depuis des décennies, voire des siècles. Sa sécheresse extrême s'explique par la combinaison du courant froid de Humboldt, qui refroidit l'air côtier, et de la barrière des Andes qui bloque les précipitations venues de l'est. Seuls les déserts polaires de l'Antarctique le dépassent en aridité."
     },
     {
       "id": "cg90-13",
-      "question": "Quelle langue possède le plus de locuteurs natifs dans le monde ?",
+      "question": "Quelle langue possède le plus grand nombre de locuteurs natifs dans le monde ?",
       "image": null,
-      "imagePrompt": "mandarin chinese language world map",
-      "answers": ["Anglais", "Espagnol", "Mandarin", "Hindi"],
-      "correctIndex": 2,
-      "explanation": "Le mandarin standard est la langue la plus parlée au monde en nombre de locuteurs natifs, avec plus de 900 millions de locuteurs, principalement en Chine. Il s'écrit à l'aide de sinogrammes, un système d'écriture logographique utilisé depuis plus de 3000 ans."
+      "imagePrompt": "mandarin chinese characters language speakers map",
+      "answers": [
+        "Anglais",
+        "Espagnol",
+        "Hindi",
+        "Mandarin"
+      ],
+      "correctIndex": 3,
+      "explanation": "Le mandarin standard compte plus de 900 millions de locuteurs natifs, principalement en Chine. L'anglais, souvent cité en tête, est en réalité premier en nombre de locuteurs totaux (natifs + non-natifs) — c'est une distinction cruciale. Le hindi arrive en deuxième position pour les locuteurs natifs, devant l'espagnol. Le mandarin s'écrit en sinogrammes, système logographique utilisé depuis plus de 3 000 ans."
     },
     {
       "id": "cg90-14",
-      "question": "Quel scientifique a découvert la pénicilline ?",
+      "question": "Fleming a découvert la pénicilline en 1928 sans vraiment la chercher. Comment cette découverte s'est-elle produite ?",
       "image": null,
-      "imagePrompt": "alexander fleming laboratory penicillin discovery",
-      "answers": ["Marie Curie", "Louis Pasteur", "Alexander Fleming", "Robert Koch"],
-      "correctIndex": 2,
-      "explanation": "Alexander Fleming a découvert la pénicilline en 1928, presque par accident, en remarquant qu'une moisissure du genre Penicillium avait détruit les bactéries d'une boîte de culture oubliée dans son laboratoire. Cette découverte a ouvert l'ère des antibiotiques ; Fleming a partagé le prix Nobel de médecine 1945 avec Ernst Boris Chain et Howard Florey, qui ont permis le développement de la pénicilline comme médicament utilisable à grande échelle."
+      "imagePrompt": "alexander fleming penicillin petri dish mold laboratory",
+      "answers": [
+        "Une moisissure avait détruit les bactéries d'une boîte de culture restée exposée à l'air",
+        "Un accident de laboratoire a libéré un composé antibactérien inattendu",
+        "Un patient a guéri spontanément d'une infection, orientant les recherches",
+        "Il cherchait un substitut à l'aspirine et a synthétisé la molécule par hasard"
+      ],
+      "correctIndex": 0,
+      "explanation": "De retour de vacances, Fleming remarque qu'une boîte de Petri oubliée, contaminée par une moisissure du genre Penicillium, présente une zone stérile autour d'elle : les bactéries Staphylococcus ont été détruites. Il publie ses observations sans en saisir immédiatement l'ampleur. Ce sont Chain et Florey qui, dix ans plus tard, purifieront la pénicilline et en feront un médicament — les trois partageront le Nobel 1945."
     },
     {
       "id": "cg90-15",
-      "question": "Quel est le plus grand lac d’eau douce du monde par superficie ?",
+      "question": "Le lac Baïkal contient à lui seul environ 20 % de l'eau douce liquide de la planète. Pourtant, il n'est pas le plus grand lac par superficie. Lequel le dépasse ?",
       "image": null,
-      "imagePrompt": "lake superior great lakes aerial view",
-      "answers": ["Lac Victoria", "Lac Supérieur", "Lac Baïkal", "Lac Tanganyika"],
-      "correctIndex": 1,
-      "explanation": "Le lac Supérieur, à la frontière entre les États-Unis et le Canada, est le plus grand lac d'eau douce du monde par sa superficie, environ 82 100 km². Il contiendrait à lui seul environ 10 % des réserves mondiales d'eau douce de surface."
+      "imagePrompt": "lake superior great lakes north america aerial",
+      "answers": [
+        "Lac Victoria",
+        "Lac Baïkal",
+        "Lac Huron",
+        "Lac Supérieur"
+      ],
+      "correctIndex": 3,
+      "explanation": "Le Baïkal est le lac le plus profond (1 642 m) et le plus volumineux du monde — mais pas le plus grand en surface. C'est le lac Supérieur, à la frontière USA-Canada (~82 100 km²), qui détient ce record. Le Baïkal, avec ~31 500 km², est nettement plus petit en superficie mais contient davantage d'eau grâce à sa profondeur exceptionnelle. Le lac Victoria (Afrique) est le deuxième plus grand, le Baïkal n'arrive qu'en septième position environ."
     },
     {
       "id": "cg90-16",
-      "question": "Dans quel pays se trouve Pétra ?",
+      "question": "Cette cité antique, sculptée entièrement dans la roche rose d'un canyon désertique, fut la capitale d'un peuple de commerçants qui contrôlaient les routes de l'encens entre l'Arabie et la Méditerranée. Dans quel pays se trouve-t-elle ?",
       "image": null,
-      "imagePrompt": "petra jordan rock city desert",
-      "answers": ["Égypte", "Iran", "Jordanie", "Arabie Saoudite"],
+      "imagePrompt": "petra nabataean treasury rock carved canyon desert",
+      "answers": [
+        "Égypte",
+        "Arabie Saoudite",
+        "Jordanie",
+        "Iran"
+      ],
       "correctIndex": 2,
-      "explanation": "Pétra est une ancienne cité nabatéenne sculptée dans la roche rose du désert jordanien, fondée vers le IVe siècle av. J.-C. Classée au patrimoine mondial de l'UNESCO, elle a gagné une renommée internationale grâce à son apparition dans le film Indiana Jones et la Dernière Croisade."
+      "explanation": "Il s'agit de Pétra, capitale des Nabatéens, peuple de commerçants qui contrôlaient au IVe siècle av. J.-C. les routes caravanières de l'encens et des épices entre l'Arabie, l'Égypte et la Méditerranée. La cité est entièrement sculptée dans le grès rose d'un canyon de Jordanie. Classée au patrimoine mondial de l'UNESCO, elle reste l'un des sites archéologiques les plus spectaculaires du monde."
     },
     {
       "id": "cg90-17",
-      "question": "Quelle est la monnaie officielle du Japon ?",
+      "question": "L'Antarctique est recouvert de glace sur des kilomètres d'épaisseur. Pourtant, il est officiellement classé désert. Quelle en est la raison ?",
       "image": null,
-      "imagePrompt": "japanese yen banknotes currency",
-      "answers": ["Yuan", "Won", "Baht", "Yen"],
-      "correctIndex": 3,
-      "explanation": "Le yen est la monnaie officielle du Japon depuis 1871, sous l'ère Meiji. Son symbole international est ¥ et son code monétaire est JPY."
+      "imagePrompt": "antarctica desert dry ice landscape classification",
+      "answers": [
+        "Les températures y sont trop basses pour toute forme de vie",
+        "Ses précipitations annuelles sont inférieures à 200 mm, définition climatique du désert",
+        "Il est entièrement recouvert de roche sous la glace, sans eau liquide",
+        "L'absence totale de végétation en fait techniquement un désert"
+      ],
+      "correctIndex": 1,
+      "explanation": "Un désert se définit par ses précipitations, non par sa chaleur. En Antarctique, les précipitations annuelles (essentiellement neigeuses) sont inférieures à 200 mm dans la plupart des régions — bien en dessous du seuil climatique du désert. C'est d'ailleurs le plus grand désert du monde par superficie (~14 millions de km²), devant le Sahara (~9 millions). La glace accumulée sur place l'est depuis des centaines de milliers d'années."
     },
     {
       "id": "cg90-18",
-      "question": "Quel pays possède le plus grand nombre de fuseaux horaires ?",
+      "question": "Le son voyage environ 340 m/s dans l'air, mais environ 1 480 m/s dans l'eau — soit quatre fois plus vite. Pourtant, on entend très mal sous l'eau. Pourquoi ?",
       "image": null,
-      "imagePrompt": "world map time zones france territories",
-      "answers": ["États-Unis", "France", "Russie", "Royaume-Uni"],
-      "correctIndex": 1,
-      "explanation": "La France possède le plus grand nombre de fuseaux horaires grâce à ses territoires d'outre-mer, qui lui permettent de couvrir 12 à 13 fuseaux selon les sources et la façon de comptabiliser certains territoires."
+      "imagePrompt": "underwater sound wave ear hearing physics",
+      "answers": [
+        "L'eau absorbe les fréquences audibles par l'oreille humaine",
+        "Le son passe trop vite pour que le cerveau puisse le traiter",
+        "L'oreille humaine est optimisée pour l'air : les vibrations ne se transmettent pas correctement au tympan",
+        "L'eau comprime les ondes sonores jusqu'à les rendre inaudibles"
+      ],
+      "correctIndex": 2,
+      "explanation": "L'oreille humaine a évolué pour l'air : son tympan est conçu pour capter des variations de pression aériennes. Sous l'eau, les vibrations sonores arrivent directement aux os du crâne plutôt qu'au tympan, ce qui rend la perception confuse et peu directionnelle. Les cétacés (baleines, dauphins), eux, ont développé des structures anatomiques très différentes pour entendre efficacement dans l'eau."
     },
     {
       "id": "cg90-19",
-      "question": "Quel fleuve possède le plus grand débit d'eau au monde ?",
+      "question": "Le Nil et l'Amazone se disputent parfois le titre de plus long fleuve du monde. Mais sur un autre critère, l'Amazone écrase la concurrence : lequel ?",
       "image": null,
-      "imagePrompt": "amazon river rainforest aerial",
-      "answers": ["L’Amazone", "Le Nil", "Le Yangtsé", "Le Mississippi"],
+      "imagePrompt": "amazon river rainforest aerial brazil debit water",
+      "answers": [
+        "Son débit d'eau",
+        "Sa profondeur maximale",
+        "Le nombre de pays qu'il traverse",
+        "La longueur de son delta"
+      ],
       "correctIndex": 0,
-      "explanation": "L'Amazone est de très loin le fleuve au débit le plus élevé du monde, déversant à lui seul environ 20 % de l'eau douce qui rejoint les océans. La question de savoir s'il est aussi plus long que le Nil reste débattue, car elle dépend des méthodes utilisées pour déterminer la source exacte de chaque fleuve."
+      "explanation": "L'Amazone possède de très loin le plus grand débit au monde : il déverse à lui seul environ 20 % de l'eau douce apportée aux océans par les fleuves. Son débit moyen est plusieurs fois supérieur à celui du Congo, deuxième mondial. La question du plus long fleuve reste discutée selon la méthode utilisée pour déterminer la source, mais pour le débit, l'Amazone domine sans ambiguïté."
     },
     {
       "id": "cg90-20",
-      "question": "Quel compositeur a écrit « Les Quatre Saisons » ?",
+      "question": "Les Quatre Saisons de Vivaldi sont parmi les œuvres les plus jouées au monde. Vivaldi a fait quelque chose d'inhabituel pour l'époque : il a accompagné chaque concerto d'un texte littéraire. De quelle forme s'agissait-il ?",
       "image": null,
-      "imagePrompt": "vivaldi four seasons violin classical music",
-      "answers": ["Mozart", "Bach", "Beethoven", "Vivaldi"],
+      "imagePrompt": "vivaldi four seasons violin baroque concerto manuscript",
+      "answers": [
+        "Un traité philosophique sur la nature",
+        "Une lettre de dédicace au mécène",
+        "Un programme de concert illustré",
+        "Un sonnet décrivant les scènes évoquées par la musique"
+      ],
       "correctIndex": 3,
-      "explanation": "Antonio Vivaldi a composé « Les Quatre Saisons » vers 1723, un ensemble de quatre concertos pour violon parmi les œuvres les plus jouées de toute la musique classique. Fait rare pour l'époque, Vivaldi a associé à chaque concerto un sonnet décrivant les scènes évoquées par la musique."
+      "explanation": "Vivaldi associe à chaque concerto des Quatre Saisons un sonnet — peut-être de sa propre plume — décrivant précisément les images évoquées par la musique : les oiseaux du Printemps, l'orage de l'Été, la chasse de l'Automne, le froid de l'Hiver. Cette pratique de musique à programme était rare au début du XVIIIe siècle et préfigure un mouvement qui s'épanouira pleinement avec le romantisme."
     }
   ]
 }
