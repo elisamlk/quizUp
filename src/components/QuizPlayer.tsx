@@ -775,23 +775,42 @@ export function QuizPlayer({
   }
 
   function goToNextQuestion() {
-    if (isFinished || answers[step] === null) return;
+  if (isFinished || answers[step] === null) return;
 
-    if (step + 1 >= total) {
-      saveBestScore(score);
-      setStep(total);
-      return;
-    }
-
-    const nextStep = step + 1;
-    setStep(nextStep);
-
-    window.requestAnimationFrame(() => {
-      titleRefs.current[nextStep]?.focus({
-        preventScroll: true,
-      });
-    });
+  if (step + 1 >= total) {
+    saveBestScore(score);
+    setStep(total);
+    return;
   }
+
+  const nextStep = step + 1;
+  setStep(nextStep);
+
+  window.requestAnimationFrame(() => {
+    titleRefs.current[nextStep]?.focus({
+      preventScroll: true,
+    });
+
+    // Sur mobile, remonte au début du quiz
+    if (window.innerWidth <= 768) {
+      const quizSection = document.getElementById("jouer");
+
+      if (quizSection) {
+        const navbarOffset = 95;
+
+        const top =
+          quizSection.getBoundingClientRect().top +
+          window.scrollY -
+          navbarOffset;
+
+        window.scrollTo({
+          top,
+          behavior: "smooth",
+        });
+      }
+    }
+  });
+}
 
   function restart() {
     setStep(0);
