@@ -8,6 +8,9 @@
     "name": "Sport",
     "slug": "sport"
   },
+  "topics": [
+    "football"
+  ],
   "createdAt": "2026-06-29",
   "isNew": true,
   "isPopular": false,
@@ -20,140 +23,240 @@
     {
       "id": "1",
       "question": "En quelle année l'AC Milan fut-il fondé, et par qui, faisant de lui l'un des clubs les plus anciens d'Italie ?",
-      "answers": ["1899, par des expatriés anglais dont l'entrepreneur Herbert Kilpin", "1906, par des industriels de la ville de Milan réunis au café Gnocchi", "1885, par des joueurs issus du club de cricket de Milan", "1912, après la scission de l'association sportive lombardienne"],
+      "answers": [
+        "1899, par des expatriés anglais dont l'entrepreneur Herbert Kilpin",
+        "1906, par des industriels de la ville de Milan réunis au café Gnocchi",
+        "1885, par des joueurs issus du club de cricket de Milan",
+        "1912, après la scission de l'association sportive lombardienne"
+      ],
       "correctIndex": 0,
       "explanation": "L'AC Milan fut fondé le 16 décembre 1899 sous le nom de Milan Cricket and Football Club, par des expatriés britanniques dont Herbert Kilpin — qui en deviendrait le premier capitaine emblématique. Ce nom reflète l'influence anglaise dans la diffusion du football en Italie à l'aube du XXe siècle. Le club adoptera la dénomination Associazione Calcio Milan (AC Milan) au fil du temps. La rivalité avec l'Inter Milan naquit dès 1908, lorsqu'un groupe de dissidents quitta le club pour fonder l'Internazionale."
     },
     {
       "id": "2",
       "question": "Combien de fois l'AC Milan a-t-il remporté la Ligue des Champions / Coupe d'Europe des clubs, en faisant l'un des clubs les plus couronnés du football européen ?",
-      "answers": ["5 fois", "6 fois", "7 fois", "9 fois"],
+      "answers": [
+        "5 fois",
+        "6 fois",
+        "7 fois",
+        "9 fois"
+      ],
       "correctIndex": 2,
       "explanation": "L'AC Milan a remporté 7 fois la Ligue des Champions / Coupe d'Europe : en 1963 (2-1 vs Benfica), 1969 (4-1 vs Ajax), 1989 (4-0 vs Steaua Bucharest), 1990 (1-0 vs Benfica), 1994 (4-0 vs Barcelone), 2003 (vs Juventus aux tirs au but) et 2007 (2-1 vs Liverpool à Athènes). Ce palmarès de 7 titres place Milan à la deuxième place de l'histoire de la compétition, derrière le Real Madrid (15) et devant Liverpool (6) et Bayern Munich (6)."
     },
     {
       "id": "3",
       "question": "Quel entraîneur transforma l'AC Milan en 1987, introduisant un pressing collectif révolutionnaire et une organisation tactique 4-4-2 qui élevèrent le club au rang de meilleure équipe du monde ?",
-      "answers": ["Fabio Capello", "Arrigo Sacchi", "Giovanni Trapattoni", "Nils Liedholm"],
+      "answers": [
+        "Fabio Capello",
+        "Arrigo Sacchi",
+        "Giovanni Trapattoni",
+        "Nils Liedholm"
+      ],
       "correctIndex": 1,
       "explanation": "Arrigo Sacchi arriva à l'AC Milan en 1987 sans expérience de haut niveau. Son 4-4-2 rigoureux, basé sur un pressing collectif intense, des lignes défensives très hautes et une solidarité tactique totale, révolutionna le football européen. Son équipe — avec le trio hollandais Gullit-Van Basten-Rijkaard et une défense italienne de fer (Baresi, Costacurta, Maldini) — remporta deux Coupes d'Europe consécutives (1989, 1990). Sacchi prouva qu'un club pouvait gagner en dominant collectivement, sans star unique — concept avant-gardiste."
     },
     {
       "id": "4",
       "question": "Quel résultat historique l'AC Milan infligea-t-il au FC Barcelone de Johan Cruyff lors de la finale de la Coupe d'Europe 1994 à Athènes, dans ce qui reste l'un des plus grands chocs de l'histoire de la compétition ?",
-      "answers": ["Milan 2-1 Barcelone grâce à un doublé de Savicevic en prolongation", "Milan 1-0 Barcelone sur penalty de Roberto Donadoni", "Milan 2-0 Barcelone grâce à des buts de Desailly et Boban", "Milan 4-0 Barcelone, écrasant le « Dream Team » de Cruyff malgré la suspension de Baresi"],
+      "answers": [
+        "Milan 2-1 Barcelone grâce à un doublé de Savicevic en prolongation",
+        "Milan 1-0 Barcelone sur penalty de Roberto Donadoni",
+        "Milan 2-0 Barcelone grâce à des buts de Desailly et Boban",
+        "Milan 4-0 Barcelone, écrasant le « Dream Team » de Cruyff malgré la suspension de Baresi"
+      ],
       "correctIndex": 3,
       "explanation": "La finale du 18 mai 1994 à Athènes reste l'une des plus grandes surprises de l'histoire du football européen. Le Barcelone de Cruyff — avec Romário, Stoichkov et Guardiola — était alors la meilleure équipe du monde. Privé de son capitaine Franco Baresi (suspendu), Milan s'imposa 4-0 grâce à Massaro (2 buts), Savicevic (un lob magistral, l'un des plus beaux buts de l'histoire de la compétition) et Desailly. Cette performance sous Fabio Capello reste à ce jour l'une des victoires les plus spectaculaires de l'histoire des finales européennes."
     },
     {
       "id": "5",
       "question": "Quel célèbre trio hollandais forma le cœur offensif et créatif du Milan de Sacchi (1987-1991), élevant le club au sommet du football mondial ?",
-      "answers": ["Ruud Gullit, Marco Van Basten et Frank Rijkaard", "Ruud Gullit, Marco Van Basten et Clarence Seedorf", "Ruud Gullit, Marco Van Basten et Ronald Koeman", "Frank Rijkaard, Dennis Bergkamp et Ruud Gullit"],
+      "answers": [
+        "Ruud Gullit, Marco Van Basten et Frank Rijkaard",
+        "Ruud Gullit, Marco Van Basten et Clarence Seedorf",
+        "Ruud Gullit, Marco Van Basten et Ronald Koeman",
+        "Frank Rijkaard, Dennis Bergkamp et Ruud Gullit"
+      ],
       "correctIndex": 0,
       "explanation": "Le trio hollandais de l'AC Milan — Ruud Gullit (Ballon d'Or 1987), Marco Van Basten (Ballon d'Or 1988, 1989, 1992) et Frank Rijkaard — constitua l'un des regroupements de talents les plus extraordinaires jamais vus dans un club. Gullit, meneur flamboyant ; Van Basten, buteur d'une technique surnaturelle ; Rijkaard, milieu complet physiquement et tactiquement. Leur intégration dans le système de Sacchi produisit une équipe capable de dominer n'importe quel adversaire sur le plan athlétique, technique et tactique. Un collectif qui reste une référence absolue du football européen."
     },
     {
       "id": "6",
       "question": "Quel défenseur central légendaire, capitaine de l'AC Milan de 1982 à 1997, vit son numéro 6 retiré définitivement par le club après sa retraite — un honneur rarissime dans le football italien ?",
-      "answers": ["Alessandro Costacurta", "Mauro Tassotti", "Franco Baresi", "Filippo Galli"],
+      "answers": [
+        "Alessandro Costacurta",
+        "Mauro Tassotti",
+        "Franco Baresi",
+        "Filippo Galli"
+      ],
       "correctIndex": 2,
       "explanation": "Franco Baresi (né en 1960) est l'incarnation du défenseur parfait : libero technique et autoritaire, capable d'initier les attaques depuis sa propre surface. Capitaine de l'AC Milan pendant 15 ans, il remporta 6 Scudetti et 3 Coupes d'Europe (1989, 1990, 1994). Son numéro 6 fut retiré par le club en 1997 — honneur extraordinaire dans le football où la continuité des numéros est la norme. Il fut d'ailleurs l'un des absents de la finale 1994 contre Barcelone (suspendu), que Capello remporta quand même 4-0."
     },
     {
       "id": "7",
       "question": "Lors de la finale de la Ligue des Champions 2005 à Istanbul contre Liverpool, quel sort cruel attendit l'AC Milan malgré son avantage de 3-0 à la mi-temps ?",
-      "answers": ["Il s'imposa finalement 4-3 grâce à un but de Shevchenko en prolongation, Liverpool ayant réduit le score à trois reprises", "Il perdit aux tirs au but après la remontée de Liverpool (3 buts en 6 minutes) et un nul 3-3 à l'issue de la prolongation", "Il perdit 3-4 après prolongation, Dudek encaissant un dernier but de la tête sur corner à la 118e minute", "Il perdit sur penalty accordé à la 94e minute, Gerrard ayant été fauché dans la surface par Cafu"],
+      "answers": [
+        "Il s'imposa finalement 4-3 grâce à un but de Shevchenko en prolongation, Liverpool ayant réduit le score à trois reprises",
+        "Il perdit aux tirs au but après la remontée de Liverpool (3 buts en 6 minutes) et un nul 3-3 à l'issue de la prolongation",
+        "Il perdit 3-4 après prolongation, Dudek encaissant un dernier but de la tête sur corner à la 118e minute",
+        "Il perdit sur penalty accordé à la 94e minute, Gerrard ayant été fauché dans la surface par Cafu"
+      ],
       "correctIndex": 1,
       "explanation": "La finale du 25 mai 2005 reste la plus grande déception de l'histoire récente du club. Menant 3-0 à la mi-temps (Maldini 1e, Crespo 39e et 44e), Milan semblait filer vers un huitième titre européen. Liverpool inscrivit trois buts en six minutes en seconde période (Gerrard, Smicer, Alonso) pour égaliser à 3-3. Aux tirs au but, le gardien Dudek para le tir de Shevchenko pour offrir à Liverpool son cinquième titre européen. Cette nuit fut baptisée « Miracle d'Istanbul » par les Reds et représente la pire humiliation de l'histoire des Rossoneri."
     },
     {
       "id": "8",
       "question": "Quel joueur brésilien de l'AC Milan remporta le Ballon d'Or 2007, lors d'une saison où il guida le club vers la Ligue des Champions avec des prestations de génie ?",
-      "answers": ["Ronaldo (R9)", "Rivaldo", "Roberto Carlos", "Kaká"],
+      "answers": [
+        "Ronaldo (R9)",
+        "Rivaldo",
+        "Roberto Carlos",
+        "Kaká"
+      ],
       "correctIndex": 3,
       "explanation": "Kaká (Ricardo Izecson dos Santos Leite, né en 1982 à Brasília) rejoignit l'AC Milan depuis São Paulo en 2003 pour environ 8,5 millions d'euros — l'une des meilleures affaires de l'histoire du football. En 2006-07, il guida le club vers sa 7e Ligue des Champions (2-1 contre Liverpool à Athènes) et fut élu Ballon d'Or 2007 — récompensant une saison personnelle d'une qualité absolue. Il quitta le club pour le Real Madrid en 2009 pour 65 millions d'euros, avant d'y revenir en 2013 pour une dernière période moins éclatante."
     },
     {
       "id": "9",
       "question": "Quel défenseur gauche du Milan, fils du légendaire capitaine Cesare Maldini, effectua l'intégralité de sa carrière professionnelle au club pendant 25 saisons (1985-2009) ?",
-      "answers": ["Alessandro Costacurta", "Daniel Maldini", "Paolo Maldini", "Zvonimir Boban"],
+      "answers": [
+        "Alessandro Costacurta",
+        "Daniel Maldini",
+        "Paolo Maldini",
+        "Zvonimir Boban"
+      ],
       "correctIndex": 2,
       "explanation": "Paolo Maldini (né en 1968 à Milan) est l'incarnation absolue de la fidélité dans le football professionnel. Fils de Cesare Maldini (capitaine du Milan des années 1950-60), il effectua ses 25 saisons entières au club (1985-2009), disputant 902 matchs officiels — record absolu dans l'histoire de l'AC Milan. Latéral gauche puis défenseur central, il remporta 5 Ligues des Champions et 7 Scudetti. Son numéro 3 fut retiré par le club après sa retraite, aux côtés du numéro 6 de Franco Baresi."
     },
     {
       "id": "10",
       "question": "Lors de la finale de la Ligue des Champions 2007 à Athènes contre Liverpool, quel joueur de l'AC Milan inscrivit les deux buts de la victoire (2-1) — vengeance de l'humiliation d'Istanbul 2005 ?",
-      "answers": ["Filippo Inzaghi", "Kaká", "Seedorf", "Pirlo"],
+      "answers": [
+        "Filippo Inzaghi",
+        "Kaká",
+        "Seedorf",
+        "Pirlo"
+      ],
       "correctIndex": 0,
       "explanation": "Filippo Inzaghi (né en 1973), attaquant de l'ombre connu pour son sens du placement et ses buts opportunistes, inscrivit les deux buts de la victoire le 23 mai 2007 à l'OAKA Spyros Louis d'Athènes. Le premier sur un tir de Pirlo dévié (45e), le second sur une passe de Kaká (82e). Liverpool réduisit l'écart par Kuyt (89e). Cette finale fut la revanche tant attendue d'Istanbul 2005 et le 7e titre européen du club. Inzaghi, figure importante de cette décennie rossonera, fut notamment l'un des grands absents de la campagne 2005."
     },
     {
       "id": "11",
       "question": "Quel attaquant ukrainien de l'AC Milan remporta le Ballon d'Or en 2004, lors de sa période dorée au club où il était l'un des buteurs les plus redoutés d'Europe ?",
-      "answers": ["Serhiy Rebrov", "Oleksandr Aliev", "Ruslan Rotan", "Andriy Shevchenko"],
+      "answers": [
+        "Serhiy Rebrov",
+        "Oleksandr Aliev",
+        "Ruslan Rotan",
+        "Andriy Shevchenko"
+      ],
       "correctIndex": 3,
       "explanation": "Andriy Shevchenko (né en 1976 à Dvirkivshchyna, Ukraine) rejoignit l'AC Milan depuis le Dynamo Kyiv en 1999 et y devint l'un des attaquants les plus redoutables de la planète. Son Ballon d'Or 2004 récompensait une carrière milanaise exceptionnelle (175 buts en 322 matchs toutes compétitions). Il quitta le club pour Chelsea en 2006 dans une aventure décevante, avant de revenir brièvement à Milan (2008-09). Cruel paradoxe : quelques mois seulement après son sacre au Ballon d'Or, il fut le joueur dont le penalty fut arrêté par Dudek lors d'Istanbul 2005, privant Milan d'un septième titre européen."
     },
     {
       "id": "12",
       "question": "Quel est le nom officiel du stade partagé par l'AC Milan et l'Inter Milan depuis 1947, surnommé « La Scala du football » pour son atmosphère légendaire ?",
-      "answers": ["Stadio Olimpico di Milano", "Stadio Giuseppe Meazza (San Siro)", "Arena Civica di Milano", "Stadio Luigi Ferraris"],
+      "answers": [
+        "Stadio Olimpico di Milano",
+        "Stadio Giuseppe Meazza (San Siro)",
+        "Arena Civica di Milano",
+        "Stadio Luigi Ferraris"
+      ],
       "correctIndex": 1,
       "explanation": "Le Stadio Giuseppe Meazza — universellement connu sous le nom de San Siro, du quartier où il est situé — est partagé par l'AC Milan et l'Inter Milan depuis 1947. Avec une capacité de 75 923 places, il est l'un des plus grands et des plus atmosphériques stades d'Europe. Il fut inauguré en 1926 et agrandi pour la Coupe du Monde 1990. Son architecture en coquille avec ses tours circulaires en béton lui donne une silhouette immédiatement reconnaissable. Depuis les années 2020, les deux clubs envisagent la construction d'un nouveau stade commun."
     },
     {
       "id": "13",
       "question": "Contre quelle équipe le Milan de Sacchi s'imposa-t-il 4-0 lors de la finale de la Coupe d'Europe 1989 au Camp Nou de Barcelone, remportant son troisième titre européen ?",
-      "answers": ["Le Real Madrid, dans une finale hispano-italienne très attendue", "L'Inter Milan, dans un derby européen alors sans précédent", "Steaua Bucharest, premier titre de l'ère Sacchi-Berlusconi", "Le PSV Eindhoven, tenant du titre et adversaire redouté"],
+      "answers": [
+        "Le Real Madrid, dans une finale hispano-italienne très attendue",
+        "L'Inter Milan, dans un derby européen alors sans précédent",
+        "Steaua Bucharest, premier titre de l'ère Sacchi-Berlusconi",
+        "Le PSV Eindhoven, tenant du titre et adversaire redouté"
+      ],
       "correctIndex": 2,
       "explanation": "Le 24 mai 1989 au Camp Nou de Barcelone, l'AC Milan de Sacchi écrasa Steaua Bucharest 4-0 en finale de la Coupe des Champions. Ruud Gullit et Marco Van Basten inscrirent deux buts chacun dans une démonstration collective totale. Le lendemain, la presse mondiale parla de « football du futur ». Cette victoire marqua le début de la domination milanaise et surtout la confirmation que le système de Sacchi — novateur et révolutionnaire — était le plus efficace du football mondial à cette époque."
     },
     {
       "id": "14",
       "question": "Quel homme politique et homme d'affaires milanais racheta l'AC Milan en 1986 lorsque le club était au bord du gouffre financier, entamant une période dorée sans précédent ?",
-      "answers": ["Silvio Berlusconi", "Romano Prodi", "Gianni Agnelli", "Carlo De Benedetti"],
+      "answers": [
+        "Silvio Berlusconi",
+        "Romano Prodi",
+        "Gianni Agnelli",
+        "Carlo De Benedetti"
+      ],
       "correctIndex": 0,
       "explanation": "Silvio Berlusconi racheta l'AC Milan en 1986 pour environ 20 milliards de lires (environ 10 millions d'euros) alors que le club était endetté et en difficulté sportive. Son investissement massif — recrutement d'Arrigo Sacchi comme entraîneur, achat du trio hollandais, professionnalisation des structures — transforma le club en machine à gagner. Il présida le club pendant 31 ans (1986-2017), récoltant 29 titres nationaux et internationaux. Entrepreneur visionnaire dans le football avant l'ère Abramovich, il fut aussi trois fois Premier ministre d'Italie pendant cette période."
     },
     {
       "id": "15",
       "question": "Quel joueur néerlandais de l'AC Milan est le seul footballeur à avoir remporté la Ligue des Champions avec trois clubs différents (Ajax 1995, Real Madrid 1998 et AC Milan 2003 et 2007) ?",
-      "answers": ["Ruud Gullit", "Edgar Davids", "Patrick Kluivert", "Clarence Seedorf"],
+      "answers": [
+        "Ruud Gullit",
+        "Edgar Davids",
+        "Patrick Kluivert",
+        "Clarence Seedorf"
+      ],
       "correctIndex": 3,
       "explanation": "Clarence Seedorf (né en 1976 à Paramaribo, Suriname) accomplit l'exploit unique dans l'histoire du football de remporter la Ligue des Champions avec trois clubs différents : Ajax (1995), Real Madrid (1998) et AC Milan (2003 et 2007 — soit quatre titres au total avec trois clubs). Milieu technique et polyvalent, il resta à l'AC Milan de 2002 à 2012 — une décennie qui lui valut une popularité immense à San Siro. Son intelligence tactique, sa vision du jeu et sa régularité en firent l'une des figures marquantes du club dans les années 2000."
     },
     {
       "id": "16",
       "question": "Quel attaquant suédois, dans deux passages distincts à l'AC Milan (2010-2012 et 2020-2023), devint à 41 ans l'un des plus vieux buteurs de l'histoire du club en Serie A ?",
-      "answers": ["Marcus Berg", "Zlatan Ibrahimović", "Alexander Isak", "Emil Forsberg"],
+      "answers": [
+        "Marcus Berg",
+        "Zlatan Ibrahimović",
+        "Alexander Isak",
+        "Emil Forsberg"
+      ],
       "correctIndex": 1,
       "explanation": "Zlatan Ibrahimović effectua deux séjours à l'AC Milan. Le premier (2010-2012, en prêt puis achat) fut brillant : 56 buts en 85 matchs. Le second (janvier 2020-2023) fut remarquable par son caractère insolite : revenu à 38 ans, il contribua au Scudetto 2021-22 — le premier en 11 ans pour le club — en inscrivant notamment des buts décisifs à un âge (41 ans) où la plupart des attaquants ont pris leur retraite depuis longtemps. Sa longévité exceptionnelle et son caractère hors normes en firent l'un des personnages les plus fascinants du football contemporain."
     },
     {
       "id": "17",
       "question": "Quel milieu de terrain régisseur, arrivé à l'AC Milan en 2001, fut le métronome de l'équipe rossonera pendant 10 ans avant de rejoindre la Juventus en 2011 pour y remporter quatre Scudetti consécutifs ?",
-      "answers": ["Andrea Pirlo", "Rino Gattuso", "Massimo Ambrosini", "Emerson"],
+      "answers": [
+        "Andrea Pirlo",
+        "Rino Gattuso",
+        "Massimo Ambrosini",
+        "Emerson"
+      ],
       "correctIndex": 0,
       "explanation": "Andrea Pirlo (né en 1979 à Flero) rejoignit l'AC Milan depuis l'Inter en 2001 et y devint le meneur de jeu le plus élégant et décisif de sa génération. Son jeu en retrait (« regista »), ses longues passes précises, ses coups francs dévastateurs et sa vision du jeu en firent le cerveau de l'équipe de Ancelotti — il remporta les deux Ligues des Champions (2003, 2007). Libéré par Milan en 2011 (le club ne voulait plus de lui !), il signa à la Juventus où il remporta 4 Scudetti en 4 saisons — dans ce qui reste l'un des rebondissements les plus savoureux du calcio moderne."
     },
     {
       "id": "18",
       "question": "Quel entraîneur conduisit l'AC Milan à ses 6e et 7e titres européens, remportant la Ligue des Champions en 2003 et en 2007 ?",
-      "answers": ["Fabio Capello", "Arrigo Sacchi", "Carlo Ancelotti", "Alberto Zaccheroni"],
+      "answers": [
+        "Fabio Capello",
+        "Arrigo Sacchi",
+        "Carlo Ancelotti",
+        "Alberto Zaccheroni"
+      ],
       "correctIndex": 2,
       "explanation": "Carlo Ancelotti (né en 1959 à Reggiolo) dirigea l'AC Milan de 2001 à 2009, remportant deux Ligues des Champions (2003 vs Juventus aux tirs au but, 2007 vs Liverpool 2-1 à Athènes) et un Scudetto. Sa capacité à gérer des vestiaires de stars (Kaká, Shevchenko, Pirlo, Seedorf, Maldini, Inzaghi) et à concilier exigence tactique et harmonie collective en fit l'un des entraîneurs les plus respectés de sa génération. Il rejoignit ensuite Chelsea, PSG, Real Madrid, Bayern Munich et à nouveau le Real, remportant sa 5e Ligue des Champions en 2024 — un record absolu pour un entraîneur."
     },
     {
       "id": "19",
       "question": "Contre quelle équipe et avec quel score l'AC Milan remporta-t-il sa première Coupe d'Europe en 1963 à Wembley, devenant ainsi le premier club italien à lever ce trophée ?",
-      "answers": ["La finale de 1963 — Milan 4-0 Benfica — dans une démonstration offensive totale à Wembley", "La finale de 1963 — Milan 1-0 Benfica — sur un but de Gianni Rivera en prolongation", "La finale de 1963 — Milan 1-1 puis victoire aux tirs au but (5-4) contre Benfica à Wembley", "La finale de 1963 — Milan 2-1 Benfica — avec deux buts d'Altafini dont le but décisif à la 69e"],
+      "answers": [
+        "La finale de 1963 — Milan 4-0 Benfica — dans une démonstration offensive totale à Wembley",
+        "La finale de 1963 — Milan 1-0 Benfica — sur un but de Gianni Rivera en prolongation",
+        "La finale de 1963 — Milan 1-1 puis victoire aux tirs au but (5-4) contre Benfica à Wembley",
+        "La finale de 1963 — Milan 2-1 Benfica — avec deux buts d'Altafini dont le but décisif à la 69e"
+      ],
       "correctIndex": 3,
       "explanation": "Le 22 mai 1963 à Wembley, l'AC Milan devint le premier club italien à remporter la Coupe des Clubs Champions en battant Benfica 2-1. Eusébio ouvrit le score à la 19e minute pour Benfica (1-0), avant que José Altafini n'égalise (58e) puis donne l'avantage à Milan (69e). Cette victoire fit entrer l'AC Milan dans le cercle très fermé des clubs européens et marqua le début de la légende continentale du club. Ironiquement, Benfica avait remporté les deux premières éditions de la compétition (1961, 1962) — Milan brisait leur succession."
     },
     {
       "id": "20",
       "question": "Quel milieu offensif génial, surnommé « l'Abatino » (le Petit Abbé), remporta le Ballon d'Or en 1969 lors de son incroyable carrière de 19 saisons à l'AC Milan (1960-1979) ?",
-      "answers": ["Cesare Maldini", "Gianni Rivera", "Karl-Heinz Schnellinger", "José Altafini"],
+      "answers": [
+        "Cesare Maldini",
+        "Gianni Rivera",
+        "Karl-Heinz Schnellinger",
+        "José Altafini"
+      ],
       "correctIndex": 1,
       "explanation": "Gianni Rivera (né en 1943 à Alessandria) est l'une des figures tutélaires de l'AC Milan. En 19 saisons (1960-1979), il inscrivit 122 buts en 501 matchs de championnat et remporta 3 Scudetti, 2 Coupes d'Europe (1963, 1969) et la Coupe des Coupes. Son Ballon d'Or 1969 — le premier pour un joueur de l'AC Milan — récompensait une vision du jeu et une technique exceptionnelles. Son surnom « l'Abatino » (le Petit Abbé) lui fut initialement donné de façon moqueuse par les supporters adverses, qui raillaient son style élégant et peu physique ; il finit par devenir un sobriquet affectueux."
     }
