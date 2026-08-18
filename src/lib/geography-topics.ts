@@ -5,7 +5,7 @@ export type GeographyTopic = {
   seoTitle: string;
   seoDescription: string;
   intro: string;
-   image: string;
+  image: string;
 };
 
 export const geographyTopics: GeographyTopic[] = [
@@ -18,7 +18,7 @@ export const geographyTopics: GeographyTopic[] = [
       "Découvre nos quiz sur les pays et capitales du monde : Europe, Afrique, Asie, Amériques et Océanie, avec réponses et explications.",
     intro:
       "Explore les pays et capitales du monde à travers des quiz consacrés aux capitales célèbres, anciennes capitales, pays difficiles à reconnaître et grandes régions du globe.",
-         image: "/images/geography-topics/pays-capitales.jpg",
+    image: "/images/geography-topics/pays-capitales.jpg",
   },
 
   {
@@ -30,7 +30,7 @@ export const geographyTopics: GeographyTopic[] = [
       "Teste tes connaissances sur les drapeaux du monde, leurs couleurs, symboles et pays avec nos quiz de géographie gratuits.",
     intro:
       "Reconnais les drapeaux du monde, compare les emblèmes qui se ressemblent et découvre les symboles associés aux différents pays.",
-         image: "/images/geography-topics/pays-capitales.jpg",
+    image: "/images/geography-topics/drapeaux-symboles.jpg",
   },
 
   {
@@ -42,7 +42,7 @@ export const geographyTopics: GeographyTopic[] = [
       "Découvre nos quiz sur les grandes villes, monuments, sites UNESCO et lieux emblématiques du monde.",
     intro:
       "Pars à la découverte des grandes villes, monuments célèbres, sites historiques et lieux emblématiques qui façonnent la géographie mondiale.",
-         image: "/images/geography-topics/pays-capitales.jpg",
+    image: "/images/geography-topics/monuments-villes.jpg",
   },
 
   {
@@ -54,7 +54,7 @@ export const geographyTopics: GeographyTopic[] = [
       "Teste tes connaissances sur les fleuves, lacs, mers, océans et détroits du monde avec nos quiz de géographie.",
     intro:
       "Explore les grands fleuves, rivières, lacs, mers, océans et passages maritimes qui structurent la géographie de notre planète.",
-         image: "/images/geography-topics/pays-capitales.jpg",
+    image: "/images/geography-topics/ocean.jpg",
   },
 
   {
@@ -66,7 +66,7 @@ export const geographyTopics: GeographyTopic[] = [
       "Découvre nos quiz sur les montagnes, volcans, déserts, glaciers, climats et grands reliefs du monde.",
     intro:
       "Montagnes, volcans, glaciers, déserts et climats : découvre les grands reliefs et phénomènes naturels qui façonnent notre planète.",
-         image: "/images/geography-topics/pays-capitales.jpg",
+    image: "/images/geography-topics/montagne.jpg",
   },
 
   {
@@ -78,7 +78,7 @@ export const geographyTopics: GeographyTopic[] = [
       "Teste tes connaissances sur les frontières, régions, États, provinces et territoires du monde.",
     intro:
       "Explore les frontières, régions, provinces, États et territoires qui composent les différentes organisations géographiques et politiques du monde.",
-         image: "/images/geography-topics/pays-capitales.jpg",
+    image: "/images/geography-topics/frontiere.jpg",
   },
 
   {
@@ -90,7 +90,7 @@ export const geographyTopics: GeographyTopic[] = [
       "Découvre nos quiz sur les pays du monde, leurs langues, monnaies, populations, transports et nombreuses particularités géographiques.",
     intro:
       "Découvre les pays du monde sous tous leurs aspects : langues, monnaies, populations, transports, économie et nombreuses particularités géographiques.",
-         image: "/images/geography-topics/pays-capitales.jpg",
+    image: "/images/geography-topics/monde.jpg",
   },
 ];
 

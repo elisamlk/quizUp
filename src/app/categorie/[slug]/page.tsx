@@ -4,24 +4,6 @@ import type { Metadata } from "next";
 
 import { getAllCategories, getAllQuizzes } from "@/lib/quizzes";
 import { geographyTopics } from "@/lib/geography-topics";
-import {
-  Globe2,
-  Flag,
-  Landmark,
-  Waves,
-  Mountain,
-  Map,
-  Earth,
-} from "lucide-react";
-const geographyTopicIcons = {
-  "pays-capitales": Globe2,
-  "drapeaux-symboles": Flag,
-  "villes-monuments": Landmark,
-  "fleuves-lacs-oceans": Waves,
-  "reliefs-climats-nature": Mountain,
-  "territoires-frontieres": Map,
-  "monde-pays": Earth,
-};
 
 const SITE_URL = "https://www.quizup.fr";
 const PAGE_SIZE = 10;
@@ -37,6 +19,7 @@ function toInt(v: string | undefined, fallback = 1) {
 
 function buildCategoryUrl(slug: string, p?: number) {
   if (!p || p <= 1) return `/categorie/${slug}`;
+
   return `/categorie/${slug}?p=${p}`;
 }
 
@@ -50,17 +33,27 @@ function getPageItems(
   pages.add(1);
   pages.add(total);
 
-  for (let p = current - windowSize; p <= current + windowSize; p++) {
+  for (
+    let p = current - windowSize;
+    p <= current + windowSize;
+    p++
+  ) {
     if (p >= 1 && p <= total) {
       pages.add(p);
     }
   }
 
   if (total <= 7) {
-    return Array.from({ length: total }, (_, i) => i + 1);
+    return Array.from(
+      { length: total },
+      (_, i) => i + 1,
+    );
   }
 
-  const sorted = Array.from(pages).sort((a, b) => a - b);
+  const sorted = Array.from(pages).sort(
+    (a, b) => a - b,
+  );
+
   const result: Array<number | "…"> = [];
 
   for (let i = 0; i < sorted.length; i++) {
@@ -125,8 +118,12 @@ export async function generateMetadata({
   );
 
   const p = toInt(sp.p, 1);
+
   const pageTooHigh = p > totalPages;
-  const safePage = pageTooHigh ? totalPages : p;
+
+  const safePage = pageTooHigh
+    ? totalPages
+    : p;
 
   const titleBase =
     category.seoTitle ??
@@ -208,12 +205,17 @@ export default async function CategoryPage({
     `/images/category-hero/${category.slug}.jpg`;
 
   const allQuizzes = getAllQuizzes().filter(
-    (q) => q.category.slug === category.slug,
+    (q) =>
+      q.category.slug === category.slug,
   );
 
+  /* -----------------------------------------------------
+     QUIZ POPULAIRES DE LA CATÉGORIE
+  ----------------------------------------------------- */
+
   const popularQuizzes = allQuizzes
-  .filter((q) => q.isPopular)
-  .slice(0, 8);
+    .filter((q) => q.isPopular)
+    .slice(0, 8);
 
   const total = allQuizzes.length;
 
@@ -395,6 +397,7 @@ export default async function CategoryPage({
           `,
         }}
       >
+
         <div className="heroLandingContent">
 
           <h1 className="heroLandingTitle">
@@ -411,6 +414,7 @@ export default async function CategoryPage({
           </p>
 
         </div>
+
       </section>
 
       {/* -----------------------------------------------
@@ -427,6 +431,7 @@ export default async function CategoryPage({
           className="breadcrumbs"
           aria-label="Fil d'Ariane"
         >
+
           <Link href="/">
             Accueil
           </Link>
@@ -442,109 +447,147 @@ export default async function CategoryPage({
           <span>
             {category.name}
           </span>
+
         </nav>
 
         {/* ---------------------------------------------
-            SOUS-CATÉGORIES GÉOGRAPHIE
+            EXPLORER LA GÉOGRAPHIE
 
-            Ce bloc apparaît uniquement sur :
-            /categorie/geographie
+            Même structure que les cartes
+            "Catégories" de la page d'accueil.
+
+            Scroll horizontal + cartes verticales.
         ---------------------------------------------- */}
 
-{category.slug === "geographie" ? (
-  <section className="categoryTopics">
+        {category.slug === "geographie" ? (
 
-      <h2 className="sectionTitle">
-      Explorez la Géographie
-    </h2>
+          <section className="homeSection homePart geographyTopicsSection">
 
-    <div className="categoryTopicsGrid">
+            <div className="sectionHead">
 
-      {geographyTopics.map((topic) => {
-        const Icon =
-          geographyTopicIcons[
-            topic.slug as keyof typeof geographyTopicIcons
-          ];
+              <h2 className="sectionTitle">
+                Explorez la Géographie
+              </h2>
 
-        return (
-          <Link
-            key={topic.slug}
-            href={`/categorie/geographie/${topic.slug}`}
-            className="categoryTopicCard"
-          >
-            <span
-              className="categoryTopicIcon"
-              aria-hidden="true"
-            >
-              {Icon ? (
-                <Icon
-                  size={19}
-                  strokeWidth={2}
-                />
-              ) : null}
-            </span>
+            </div>
 
-            <span className="categoryTopicName">
-              {topic.name}
-            </span>
-          </Link>
-        );
-      })}
+            <div className="row">
 
-    </div>
+              <div className="rowTrack rowTrack--categories">
 
-  </section>
-) : null}
+                {geographyTopics.map(
+                  (topic) => (
 
+                    <Link
+                      key={topic.slug}
+                      href={`/categorie/geographie/${topic.slug}`}
+                      className="catCard"
+                      style={{
+                        backgroundImage:
+                          `url("${topic.image ?? ""}")`,
+                      }}
+                      aria-label={`Explorer ${topic.name}`}
+                    >
 
-{/* 2. QUIZ POPULAIRES */}
+                      <span
+                        className="catCardOverlay"
+                      />
 
-{category.slug === "geographie" && popularQuizzes.length > 0 ? (
-  <section className="homeSection homePart">
-    <div className="sectionHead">
-      <h2 className="sectionTitle">
-        Quiz populaires
-      </h2>
-    </div>
+                      <span
+                        className="catCardName"
+                      >
+                        {topic.name}
+                      </span>
 
-    <div className="row">
-      <div className="rowTrack">
-        {popularQuizzes.map((q) => (
-        <Link
-  key={q.slug}
-  href={`/quiz/${q.slug}`}
-  className="quizCard quizCard--categoryPopular"
-  style={{
-    backgroundImage: `url("${q.images?.cover ?? ""}")`,
-  }}
-  aria-label={`Lancer le quiz ${q.title}`}
->
-  <span className="quizCategory">
-    {q.category.name}
-  </span>
+                    </Link>
 
-  <span className="quizCardOverlay" />
+                  ),
+                )}
 
-  <span className="quizCardTitle">
-    {q.title}
-  </span>
-</Link>
-        ))}
-      </div>
-    </div>
-  </section>
-) : null}
+              </div>
+
+            </div>
+
+          </section>
+
+        ) : null}
 
         {/* ---------------------------------------------
-            LISTE DES QUIZ
+            QUIZ POPULAIRES
+
+            Pour l'instant uniquement Géographie.
+        ---------------------------------------------- */}
+
+        {category.slug === "geographie" &&
+        popularQuizzes.length > 0 ? (
+
+          <section className="homeSection homePart geographyTopicsSection">
+
+            <div className="sectionHead">
+
+              <h2 className="sectionTitle">
+                Quiz populaires de la catégorie{" "}
+                {category.name}
+              </h2>
+
+            </div>
+
+            <div className="row">
+
+              <div className="rowTrack">
+
+                {popularQuizzes.map((q) => (
+
+                  <Link
+                    key={q.slug}
+                    href={`/quiz/${q.slug}`}
+                    className="quizCard quizCard--categoryPopular"
+                    style={{
+                      backgroundImage:
+                        `url("${q.images?.cover ?? ""}")`,
+                    }}
+                    aria-label={`Lancer le quiz ${q.title}`}
+                  >
+
+                    <span className="quizCategory">
+                      {q.category.name}
+                    </span>
+
+                    <span
+                      className="quizCardOverlay"
+                    />
+
+                    <span
+                      className="quizCardTitle"
+                    >
+                      {q.title}
+                    </span>
+
+                  </Link>
+
+                ))}
+
+              </div>
+
+            </div>
+
+          </section>
+
+        ) : null}
+
+        {/* ---------------------------------------------
+            TOUS LES QUIZ
         ---------------------------------------------- */}
 
         <section className="quizList">
-            <div className="sectionHead">
-      <h2 className="sectionTitle">
-        Tous les quiz
-      </h2>
-    </div>
+
+          <div className="sectionHead">
+
+            <h2 className="sectionTitle">
+              Tous les quiz {category.name}
+            </h2>
+
+          </div>
 
           {quizzes.map((quiz) => {
 
@@ -554,6 +597,7 @@ export default async function CategoryPage({
               "/images/placeholder-thumb.jpg";
 
             return (
+
               <Link
                 key={quiz.slug}
                 href={`/quiz/${quiz.slug}`}
@@ -589,14 +633,17 @@ export default async function CategoryPage({
                   </h2>
 
                   {quiz.description ? (
+
                     <p className="quizRowDesc">
                       {quiz.description}
                     </p>
+
                   ) : null}
 
                 </div>
 
               </Link>
+
             );
           })}
 
@@ -607,6 +654,7 @@ export default async function CategoryPage({
         ---------------------------------------------- */}
 
         {totalPages > 1 ? (
+
           <nav
             className="pager"
             aria-label="Pagination catégorie"
@@ -654,7 +702,9 @@ export default async function CategoryPage({
                 (item, idx) => {
 
                   if (item === "…") {
+
                     return (
+
                       <span
                         key={`dots-${idx}`}
                         className="pagerDots"
@@ -662,12 +712,14 @@ export default async function CategoryPage({
                       >
                         …
                       </span>
+
                     );
                   }
 
                   const page = item;
 
                   return (
+
                     <Link
                       key={page}
                       href={buildCategoryUrl(
@@ -675,12 +727,14 @@ export default async function CategoryPage({
                         page,
                       )}
                       className={`pagerNum ${
-                        page === currentPage
+                        page ===
+                        currentPage
                           ? "isActive"
                           : ""
                       }`}
                       aria-current={
-                        page === currentPage
+                        page ===
+                        currentPage
                           ? "page"
                           : undefined
                       }
@@ -688,6 +742,7 @@ export default async function CategoryPage({
                     >
                       {page}
                     </Link>
+
                   );
                 },
               )}
@@ -698,7 +753,8 @@ export default async function CategoryPage({
 
             <Link
               className={`pagerBtn ${
-                currentPage === totalPages
+                currentPage ===
+                totalPages
                   ? "isDisabled"
                   : ""
               }`}
@@ -710,10 +766,12 @@ export default async function CategoryPage({
                 ),
               )}
               aria-disabled={
-                currentPage === totalPages
+                currentPage ===
+                totalPages
               }
               tabIndex={
-                currentPage === totalPages
+                currentPage ===
+                totalPages
                   ? -1
                   : 0
               }
@@ -723,6 +781,7 @@ export default async function CategoryPage({
             </Link>
 
           </nav>
+
         ) : null}
 
         {/* ---------------------------------------------
@@ -731,6 +790,7 @@ export default async function CategoryPage({
 
         {category.faqs &&
         category.faqs.length > 0 ? (
+
           <section className="faq">
 
             <h2>
@@ -739,6 +799,7 @@ export default async function CategoryPage({
 
             {category.faqs.map(
               (f, i) => (
+
                 <details key={i}>
 
                   <summary>
@@ -750,10 +811,12 @@ export default async function CategoryPage({
                   </p>
 
                 </details>
+
               ),
             )}
 
           </section>
+
         ) : null}
 
       </div>
