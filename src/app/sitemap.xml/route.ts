@@ -1,12 +1,12 @@
 import { getAllQuizzes, getAllCategories } from "@/lib/quizzes";
 import { getAllGames } from "@/lib/games";
 import { getAllPersonalityTests } from "@/lib/personalite";
-import { geographyTopics } from "@/lib/geography-topics";
+import { categoryTopics } from "@/lib/category-topics";
 
 export function GET() {
   const BASE_URL = "https://www.quizup.fr";
 
-  // Format recommandé : YYYY-MM-DD
+  // Format YYYY-MM-DD
   const today = new Date().toISOString().split("T")[0];
 
   const urls = [
@@ -16,24 +16,31 @@ export function GET() {
       changefreq: "daily",
       lastmod: today,
     },
+
     {
       loc: `${BASE_URL}/quiz`,
       priority: "0.9",
       changefreq: "daily",
       lastmod: today,
     },
+
     {
       loc: `${BASE_URL}/jeux`,
       priority: "0.9",
       changefreq: "weekly",
       lastmod: today,
     },
+
     {
       loc: `${BASE_URL}/personalite`,
       priority: "0.9",
       changefreq: "weekly",
       lastmod: today,
     },
+
+    /* ---------------------------------------------------
+       CATÉGORIES PRINCIPALES
+    --------------------------------------------------- */
 
     ...getAllCategories().map((category) => ({
       loc: `${BASE_URL}/categorie/${category.slug}`,
@@ -42,13 +49,30 @@ export function GET() {
       lastmod: today,
     })),
 
-    // Sous-catégories SEO Géographie
-    ...geographyTopics.map((topic) => ({
-      loc: `${BASE_URL}/categorie/geographie/${topic.slug}`,
-      priority: "0.8",
-      changefreq: "weekly",
-      lastmod: today,
-    })),
+    /* ---------------------------------------------------
+       CLUSTERS / SOUS-CATÉGORIES SEO
+
+       Générés automatiquement depuis category-topics.ts
+
+       Exemples :
+       /categorie/geographie/pays-capitales
+       /categorie/sport/football
+       /categorie/serie-tv/series-cultes
+    --------------------------------------------------- */
+
+    ...Object.entries(categoryTopics).flatMap(
+      ([categorySlug, topics]) =>
+        topics.map((topic) => ({
+          loc: `${BASE_URL}/categorie/${categorySlug}/${topic.slug}`,
+          priority: "0.8",
+          changefreq: "weekly",
+          lastmod: today,
+        })),
+    ),
+
+    /* ---------------------------------------------------
+       QUIZ
+    --------------------------------------------------- */
 
     ...getAllQuizzes().map((quiz) => ({
       loc: `${BASE_URL}/quiz/${quiz.slug}`,
@@ -57,12 +81,20 @@ export function GET() {
       lastmod: today,
     })),
 
+    /* ---------------------------------------------------
+       JEUX
+    --------------------------------------------------- */
+
     ...getAllGames().map((game) => ({
       loc: `${BASE_URL}/jeux/${game.slug}`,
       priority: "0.7",
       changefreq: "monthly",
       lastmod: today,
     })),
+
+    /* ---------------------------------------------------
+       TESTS DE PERSONNALITÉ
+    --------------------------------------------------- */
 
     ...getAllPersonalityTests().map((test) => ({
       loc: `${BASE_URL}/personalite/${test.slug}`,
@@ -82,7 +114,7 @@ ${urls
     <lastmod>${item.lastmod}</lastmod>
     <changefreq>${item.changefreq}</changefreq>
     <priority>${item.priority}</priority>
-  </url>`
+  </url>`,
   )
   .join("")}
 </urlset>`;
