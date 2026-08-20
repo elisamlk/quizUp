@@ -8,6 +8,11 @@ import {
   getSportTopic,
 } from "@/lib/sport-topics";
 
+import {
+  seriesTvTopics,
+  getSeriesTvTopic,
+} from "@/lib/series-tv-topics";
+
 export type CategoryTopic = {
   slug: string;
   name: string;
@@ -24,6 +29,7 @@ export const categoryTopics: Record<
 > = {
   geographie: geographyTopics,
   sport: sportTopics,
+  "serie-tv": seriesTvTopics,
 };
 
 export function getTopicsForCategory(
@@ -42,6 +48,10 @@ export function getCategoryTopic(
 
   if (categorySlug === "sport") {
     return getSportTopic(topicSlug);
+  }
+
+  if (categorySlug === "serie-tv") {
+    return getSeriesTvTopic(topicSlug);
   }
 
   return undefined;
