@@ -2,8 +2,14 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 
-import { getAllQuizzes, getQuizBySlug } from "@/lib/quizzes";
-import { geographyTopics } from "@/lib/geography-topics";
+import {
+  getAllQuizzes,
+  getQuizBySlug,
+} from "@/lib/quizzes";
+
+import {
+  getTopicsForCategory,
+} from "@/lib/category-topics";
 
 import { QuizDisplay } from "@/components/QuizDisplay";
 import { QuizPlayer } from "@/components/QuizPlayer";
@@ -11,7 +17,8 @@ import { QuizPlayer } from "@/components/QuizPlayer";
 
 const SITE_URL = "https://www.quizup.fr";
 
-const siteUrl = (path: string) => `${SITE_URL}${path}`;
+const siteUrl = (path: string) =>
+  `${SITE_URL}${path}`;
 
 function absoluteUrl(url: string) {
   if (
@@ -57,7 +64,8 @@ export async function generateMetadata({
     };
   }
 
-  const title = `${quiz.title} | Quiz gratuit en ligne`;
+  const title =
+    `${quiz.title} | Quiz gratuit en ligne`;
 
   const description =
     quiz.description ??
@@ -80,8 +88,12 @@ export async function generateMetadata({
       images: quiz.images?.cover
         ? [
             {
-              url: absoluteUrl(quiz.images.cover),
-              alt: quiz.images.alt ?? quiz.title,
+              url: absoluteUrl(
+                quiz.images.cover,
+              ),
+              alt:
+                quiz.images.alt ??
+                quiz.title,
             },
           ]
         : undefined,
@@ -110,58 +122,67 @@ export default async function QuizPage({
 
   /* -----------------------------------------------------
      QUIZ DE LA MÊME CATÉGORIE
-
-     Base commune pour toutes les catégories.
   ----------------------------------------------------- */
 
   const sameCategory = all.filter(
     (q) =>
       q.slug !== quiz.slug &&
-      q.category.slug === quiz.category.slug,
+      q.category.slug ===
+        quiz.category.slug,
   );
 
   /* -----------------------------------------------------
-     TOPICS PRINCIPAUX GÉOGRAPHIE
+     TOPICS OFFICIELS DE LA CATÉGORIE
 
-     geographyTopics contient uniquement les
-     7 vrais sous-thèmes :
+     Exemple :
+     Géographie → pays-capitales, etc.
+     Sport → football, tennis, etc.
+     Série TV → series-cultes, etc.
+     Histoire → napoleon-empire, etc.
+     Cinéma → films-cultes, etc.
 
-     - pays-capitales
-     - drapeaux-symboles
-     - villes-monuments
-     - fleuves-lacs-oceans
-     - reliefs-climats-nature
-     - territoires-frontieres
-     - monde-pays
-
-     Les tags comme "afrique", "europe",
-     "asie", "monde", etc. ne servent pas
-     ici à sélectionner les quiz similaires.
+     Si une catégorie n'a pas encore de clusters,
+     getTopicsForCategory() retourne [].
   ----------------------------------------------------- */
 
-  const geographyMainTopicSlugs =
-    geographyTopics.map((topic) => topic.slug);
+  const officialTopics =
+    getTopicsForCategory(
+      quiz.category.slug,
+    );
 
-  const quizMainTopics =
-    quiz.category.slug === "geographie"
-      ? quiz.topics?.filter((topic) =>
-          geographyMainTopicSlugs.includes(topic),
-        ) ?? []
-      : [];
+  const officialTopicSlugs =
+    officialTopics.map(
+      (topic) => topic.slug,
+    );
 
   /* -----------------------------------------------------
-     QUIZ GÉOGRAPHIE DU MÊME THÈME
+     TOPICS DU QUIZ QUI CORRESPONDENT À DE VRAIS CLUSTERS
 
-     Cette logique ne s'applique qu'à
-     la catégorie Géographie.
+     Ça évite de prendre en compte d'éventuels tags
+     secondaires qui ne correspondent pas à une
+     landing page officielle.
+  ----------------------------------------------------- */
+
+  const quizMainTopics =
+    quiz.topics?.filter((topic) =>
+      officialTopicSlugs.includes(topic),
+    ) ?? [];
+
+  /* -----------------------------------------------------
+     QUIZ DU MÊME TOPIC
+
+     On cherche les quiz :
+     - de la même catégorie
+     - qui partagent au moins un topic officiel
   ----------------------------------------------------- */
 
   const sameTopic =
-    quiz.category.slug === "geographie" &&
     quizMainTopics.length > 0
       ? sameCategory.filter((q) =>
           q.topics?.some((topic) =>
-            quizMainTopics.includes(topic),
+            quizMainTopics.includes(
+              topic,
+            ),
           ),
         )
       : [];
@@ -169,20 +190,29 @@ export default async function QuizPage({
   /* -----------------------------------------------------
      QUIZ SIMILAIRES
 
-     GÉOGRAPHIE :
-     on privilégie les quiz partageant
-     un même topic principal.
+     PRIORITÉ :
+     1. Même topic officiel
+     2. Compléter avec la même catégorie si besoin
 
-     AUTRES CATÉGORIES :
-     comportement historique conservé,
-     donc mêmes quiz de catégorie.
+     Exemple :
+     Quiz Napoléon →
+     d'abord les autres quiz napoleon-empire,
+     puis éventuellement d'autres quiz Histoire.
+
+     On évite les doublons.
   ----------------------------------------------------- */
 
-  const related =
-    quiz.category.slug === "geographie" &&
-    sameTopic.length > 0
-      ? sameTopic.slice(0, 8)
-      : sameCategory.slice(0, 8);
+  const related = [
+    ...sameTopic,
+    ...sameCategory.filter(
+      (q) =>
+        !sameTopic.some(
+          (sameTopicQuiz) =>
+            sameTopicQuiz.slug ===
+            q.slug,
+        ),
+    ),
+  ].slice(0, 8);
 
   /* -----------------------------------------------------
      NEXT QUIZ
@@ -243,7 +273,9 @@ export default async function QuizPage({
         "@type": "ListItem",
         position: 4,
         name: quiz.title,
-        item: siteUrl(`/quiz/${quiz.slug}`),
+        item: siteUrl(
+          `/quiz/${quiz.slug}`,
+        ),
       },
     ],
   };
@@ -253,45 +285,78 @@ export default async function QuizPage({
   ----------------------------------------------------- */
 
   const quizJsonLd = {
-    "@context": "https://schema.org",
-    "@type": "Quiz",
+    "@context":
+      "https://schema.org",
 
-    name: quiz.title,
+    "@type":
+      "Quiz",
 
-    description: quiz.description,
+    name:
+      quiz.title,
 
-    url: siteUrl(`/quiz/${quiz.slug}`),
+    description:
+      quiz.description,
 
-    educationalLevel: "beginner",
+    url:
+      siteUrl(
+        `/quiz/${quiz.slug}`,
+      ),
 
-    learningResourceType: "quiz",
+    educationalLevel:
+      "beginner",
 
-    about: quiz.category.name,
+    learningResourceType:
+      "quiz",
 
-    image: quiz.images?.cover
-      ? [absoluteUrl(quiz.images.cover)]
-      : undefined,
+    about:
+      quiz.category.name,
 
-    hasPart: quiz.questions.map((qq) => ({
-      "@type": "Question",
+    image:
+      quiz.images?.cover
+        ? [
+            absoluteUrl(
+              quiz.images.cover,
+            ),
+          ]
+        : undefined,
 
-      name: qq.question,
+    hasPart:
+      quiz.questions.map(
+        (qq) => ({
+          "@type":
+            "Question",
 
-      text: qq.question,
+          name:
+            qq.question,
 
-      eduQuestionType: "Multiple choice",
+          text:
+            qq.question,
 
-      acceptedAnswer: {
-        "@type": "Answer",
-        text:
-          qq.answers[qq.correctIndex] ?? "",
-      },
+          eduQuestionType:
+            "Multiple choice",
 
-      suggestedAnswer: qq.answers.map((a) => ({
-        "@type": "Answer",
-        text: a,
-      })),
-    })),
+          acceptedAnswer: {
+            "@type":
+              "Answer",
+
+            text:
+              qq.answers[
+                qq.correctIndex
+              ] ?? "",
+          },
+
+          suggestedAnswer:
+            qq.answers.map(
+              (a) => ({
+                "@type":
+                  "Answer",
+
+                text:
+                  a,
+              }),
+            ),
+        }),
+      ),
   };
 
   /* -----------------------------------------------------
@@ -302,12 +367,14 @@ export default async function QuizPage({
     quiz.descriptionSeo ??
     `Quiz ${quiz.category.name} : ${quiz.questions.length} questions pour tester tes connaissances, avec correction et explications.`;
 
-  const estMinutes = Math.max(
-    3,
-    Math.round(
-      quiz.questions.length * 0.35,
-    ),
-  );
+  const estMinutes =
+    Math.max(
+      3,
+      Math.round(
+        quiz.questions.length *
+          0.35,
+      ),
+    );
 
   return (
     <main className="page">
@@ -317,18 +384,20 @@ export default async function QuizPage({
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify(
-            breadcrumbJsonLd,
-          ),
+          __html:
+            JSON.stringify(
+              breadcrumbJsonLd,
+            ),
         }}
       />
 
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify(
-            quizJsonLd,
-          ),
+          __html:
+            JSON.stringify(
+              quizJsonLd,
+            ),
         }}
       />
 
@@ -400,6 +469,7 @@ export default async function QuizPage({
           </div>
 
         </div>
+
       </header>
 
       <div className="quizPageLayout">
