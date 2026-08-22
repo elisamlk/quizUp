@@ -23,6 +23,11 @@ import {
   getCinemaTopic,
 } from "@/lib/cinema-topics";
 
+import {
+  scienceTopics,
+  getScienceTopic,
+} from "@/lib/science-topics";
+
 export type CategoryTopic = {
   slug: string;
   name: string;
@@ -42,6 +47,7 @@ export const categoryTopics: Record<
   "serie-tv": seriesTvTopics,
   histoire: historyTopics,
   cinema: cinemaTopics,
+  sciences: scienceTopics,
 };
 
 export function getTopicsForCategory(
@@ -72,6 +78,10 @@ export function getCategoryTopic(
 
   if (categorySlug === "cinema") {
     return getCinemaTopic(topicSlug);
+  }
+
+  if (categorySlug === "sciences") {
+    return getScienceTopic(topicSlug);
   }
 
   return undefined;

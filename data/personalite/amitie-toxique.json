@@ -2,7 +2,7 @@
   "slug": "test-ami-toxique",
   "title": "Test amitié - Es-tu un(e) ami(e) toxique sans le savoir ?",
   "description": "Certains de tes comportements peuvent-ils nuire à tes relations ?",
-  "descriptionSeo": "Jalousie, réactions aux silences, gestion des conflits ou attentes implicites… ce test analyse tes comportements concrets pour déterminer si certaines de tes attitudes peuvent être perçues comme toxiques en amitié. Sans jugement, découvre si tu entretiens des relations saines ou si certains réflexes impactent tes liens sans que tu t’en rendes compte. Une façon utile de mieux comprendre ton rôle dans tes relations.",
+  "descriptionSeo": "Jalousie, réactions aux silences, gestion des conflits ou attentes implicites… ce test analyse tes comportements concrets pour déterminer si certaines de tes attitudes peuvent être perçues comme toxiques en amitié. Sans jugement, découvre si tu entretiens des relations saines ou si certains réflexes impactent tes liens sans que tu t'en rendes compte. Une façon utile de mieux comprendre ton rôle dans tes relations.",
   "category": {
     "name": "Amitié",
     "slug": "amitie"
@@ -18,112 +18,202 @@
   "profiles": [
     {
       "key": "sain",
-      "title": "Relation saine",
-      "description": "Tes comportements sont globalement équilibrés et respectueux. Tu sais écouter, laisser de l’espace et éviter les dynamiques négatives. Tu peux avoir des réactions humaines, mais tu ne t’inscris pas dans des schémas toxiques. Tes relations reposent sur une base saine.",
+      "title": "Une amitié ancrée dans la sécurité intérieure",
+      "description": "Tu as intégré une donnée essentielle : l'autre a sa propre vie, et ce n'est pas une menace. Tu sais distinguer tes émotions de celles que tu projettes sur l'autre, gérer la déception sans la transformer en pression, et nommer ce qui te blesse plutôt que d'attendre qu'on le devine. Ces compétences relationnelles, souvent invisibles, sont pourtant ce qui rend une amitié durable.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777726110/fiable_mvjsd5.jpg"
     },
     {
       "key": "a_travailler",
-      "title": "Quelques comportements à revoir",
-      "description": "Tu peux parfois adopter des réactions qui impactent tes relations sans t’en rendre compte : jalousie, reproches, attentes implicites… Rien de grave, mais certains réflexes pourraient être ajustés pour éviter de créer des tensions.",
+      "title": "Des réflexes à conscientiser avant qu'ils prennent de la place",
+      "description": "Tes comportements ne sont pas toxiques, mais ils trahissent une certaine insécurité dans le lien : besoin de réassurance, difficulté à formuler tes attentes, tendance à sur-analyser les silences. Ces mécanismes cherchent à protéger la relation, mais peuvent finir par la fragiliser. En apprenant à exprimer tes besoins directement et à tolérer davantage l'incertitude, tu changeras la dynamique en profondeur.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777727323/atravailer_a70lga.jpg"
     },
     {
       "key": "toxique",
-      "title": "Tendance toxique",
-      "description": "Certains de tes comportements peuvent être vécus comme envahissants, contrôlants ou négatifs par tes amis. Tu peux créer des tensions ou un déséquilibre dans la relation sans forcément le vouloir. Prendre conscience de ces mécanismes est une première étape importante.",
+      "title": "Des dynamiques qui épuisent le lien sans que tu le veuilles",
+      "description": "Retrait punitif, attentes implicites, besoin de valider ton ressenti auprès des autres : ces comportements, souvent liés à une peur de l'abandon ou à une difficulté à gérer la frustration, peuvent peser sur tes relations sans que tu en aies conscience. L'enjeu n'est pas de te culpabiliser, mais de comprendre ce que ces réflexes cherchent à protéger en toi — et d'explorer des façons plus directes de l'exprimer.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777727391/toxic_utucv9.jpg"
     }
   ],
   "questions": [
     {
       "id": "1",
-      "question": "Un ami sort sans toi et tu le vois en story…",
+      "question": "Tu découvres en story qu'un ami est sorti sans toi. Quelle est ta première réaction ?",
       "answers": [
-        { "label": "Je suis content(e) pour lui/elle", "scores": { "sain": 3 } },
-        { "label": "Ça me fait un peu quelque chose", "scores": { "a_travailler": 3 } },
-        { "label": "Je me sens mis(e) de côté", "scores": { "toxique": 3 } }
+        {
+          "label": "Je me demande pourquoi je n'ai pas été invité(e), mais je passe vite à autre chose",
+          "scores": { "a_travailler": 3 }
+        },
+        {
+          "label": "Je me dis qu'il/elle a parfaitement le droit d'avoir d'autres moments et d'autres amis",
+          "scores": { "sain": 3 }
+        },
+        {
+          "label": "Je le vis comme une mise à l'écart et j'ai envie de lui faire comprendre que ça m'a blessé(e)",
+          "scores": { "toxique": 3 }
+        }
       ]
     },
     {
       "id": "2",
-      "question": "Un ami met du temps à répondre…",
+      "question": "Un ami ne répond pas à ton message depuis plusieurs heures. Tu fais quoi ?",
       "answers": [
-        { "label": "Je comprends qu’il/elle soit occupé(e)", "scores": { "sain": 3 } },
-        { "label": "Ça m’agace un peu", "scores": { "a_travailler": 3 } },
-        { "label": "Je le prends personnellement", "scores": { "toxique": 3 } }
+        {
+          "label": "J'envoie parfois un autre message pour vérifier que tout va bien",
+          "scores": { "a_travailler": 3 }
+        },
+        {
+          "label": "Je commence à me demander s'il/elle m'évite ou m'en veut",
+          "scores": { "toxique": 3 }
+        },
+        {
+          "label": "Je continue ma journée : il/elle répondra quand il/elle pourra",
+          "scores": { "sain": 3 }
+        }
       ]
     },
     {
       "id": "3",
-      "question": "Tu n’es pas invité(e) à quelque chose…",
+      "question": "Ton ami devient très proche d'une nouvelle personne. Comment le vis-tu ?",
       "answers": [
-        { "label": "Je n’en fais pas une affaire", "scores": { "sain": 3 } },
-        { "label": "Je me pose des questions", "scores": { "a_travailler": 3 } },
-        { "label": "Je ressens du ressentiment", "scores": { "toxique": 3 } }
+        {
+          "label": "Je me demande parfois si je compte toujours autant pour lui/elle",
+          "scores": { "a_travailler": 3 }
+        },
+        {
+          "label": "Ça ne change rien à notre amitié : il/elle peut créer d'autres liens",
+          "scores": { "sain": 3 }
+        },
+        {
+          "label": "J'ai tendance à chercher davantage son attention pour être sûr(e) que notre relation n'a pas changé",
+          "scores": { "toxique": 3 }
+        }
       ]
     },
     {
       "id": "4",
-      "question": "Un ami te dit non à une proposition…",
+      "question": "Un ami refuse une sortie que tu avais vraiment envie de faire avec lui. Ta réaction ?",
       "answers": [
-        { "label": "Je respecte sans problème", "scores": { "sain": 3 } },
-        { "label": "Je suis un peu déçu(e)", "scores": { "a_travailler": 3 } },
-        { "label": "Je le prends mal", "scores": { "toxique": 3 } }
+        {
+          "label": "Je respecte son choix, même si je suis déçu(e)",
+          "scores": { "sain": 3 }
+        },
+        {
+          "label": "J'insiste un peu en espérant le/la faire changer d'avis",
+          "scores": { "a_travailler": 3 }
+        },
+        {
+          "label": "Je lui fais sentir que son refus m'a contrarié(e)",
+          "scores": { "toxique": 3 }
+        }
       ]
     },
     {
       "id": "5",
-      "question": "Tu racontes un problème personnel…",
+      "question": "Tu traverses une mauvaise période et tu en parles à un ami. Comment se passe généralement la conversation ?",
       "answers": [
-        { "label": "J’écoute aussi l’autre", "scores": { "sain": 3 } },
-        { "label": "Je parle surtout de moi", "scores": { "a_travailler": 3 } },
-        { "label": "Je monopolise la discussion", "scores": { "toxique": 3 } }
+        {
+          "label": "Quand quelque chose me préoccupe, j'ai tendance à beaucoup revenir sur mon problème",
+          "scores": { "a_travailler": 3 }
+        },
+        {
+          "label": "J'ai surtout besoin qu'il/elle m'écoute, même si la conversation tourne presque entièrement autour de moi",
+          "scores": { "toxique": 3 }
+        },
+        {
+          "label": "Je me confie, mais je reste aussi attentif(ve) à ce que mon ami traverse de son côté",
+          "scores": { "sain": 3 }
+        }
       ]
     },
     {
       "id": "6",
-      "question": "Un ami réussit quelque chose…",
+      "question": "Un ami t'annonce une réussite dont il est très fier. Qu'est-ce qui te ressemble le plus ?",
       "answers": [
-        { "label": "Je suis sincèrement content(e)", "scores": { "sain": 3 } },
-        { "label": "Je compare un peu", "scores": { "a_travailler": 3 } },
-        { "label": "Ça me dérange intérieurement", "scores": { "toxique": 3 } }
+        {
+          "label": "Je suis sincèrement heureux(se) pour lui/elle et j'ai envie de célébrer sa réussite",
+          "scores": { "sain": 3 }
+        },
+        {
+          "label": "Je suis content(e), mais je compare presque automatiquement sa réussite à ma propre situation",
+          "scores": { "a_travailler": 3 }
+        },
+        {
+          "label": "J'ai du mal à montrer mon enthousiasme et je ramène parfois la conversation à ce qui me manque à moi",
+          "scores": { "toxique": 3 }
+        }
       ]
     },
     {
       "id": "7",
-      "question": "Tu es contrarié(e) par un ami…",
+      "question": "Un ami fait quelque chose qui t'a vraiment blessé(e). Comment gères-tu la situation ?",
       "answers": [
-        { "label": "Je communique calmement", "scores": { "sain": 3 } },
-        { "label": "Je fais des remarques indirectes", "scores": { "a_travailler": 3 } },
-        { "label": "Je garde pour moi ou j’explose", "scores": { "toxique": 3 } }
+        {
+          "label": "J'attends qu'il/elle comprenne que quelque chose ne va pas avant d'en parler",
+          "scores": { "a_travailler": 3 }
+        },
+        {
+          "label": "J'essaie de lui expliquer clairement ce qui m'a blessé(e), sans chercher à l'attaquer",
+          "scores": { "sain": 3 }
+        },
+        {
+          "label": "Je deviens froid(e), distant(e) ou piquant(e) pour qu'il/elle comprenne que je suis blessé(e)",
+          "scores": { "toxique": 3 }
+        }
       ]
     },
     {
       "id": "8",
-      "question": "Tu attends quelque chose d’un ami…",
+      "question": "Tu attends quelque chose d'important d'un ami. Quelle attitude te correspond le mieux ?",
       "answers": [
-        { "label": "Je l’exprime clairement", "scores": { "sain": 3 } },
-        { "label": "J’espère qu’il/elle comprenne", "scores": { "a_travailler": 3 } },
-        { "label": "Je me frustre s’il/elle ne devine pas", "scores": { "toxique": 3 } }
+        {
+          "label": "Pour moi, un ami proche devrait parfois comprendre certaines choses sans que j'aie besoin de les demander",
+          "scores": { "a_travailler": 3 }
+        },
+        {
+          "label": "S'il/elle ne comprend pas ce dont j'ai besoin, je peux lui en vouloir même sans lui en avoir parlé",
+          "scores": { "toxique": 3 }
+        },
+        {
+          "label": "J'essaie d'exprimer clairement ce que j'attends plutôt que de lui demander de le deviner",
+          "scores": { "sain": 3 }
+        }
       ]
     },
     {
       "id": "9",
-      "question": "Tu sens une distance dans une relation…",
+      "question": "Un ami t'agace ou te déçoit. Tu en parles à une autre personne de votre groupe…",
       "answers": [
-        { "label": "Je laisse de l’espace", "scores": { "sain": 3 } },
-        { "label": "J’essaie de comprendre", "scores": { "a_travailler": 3 } },
-        { "label": "Je deviens insistant(e)", "scores": { "toxique": 3 } }
+        {
+          "label": "Il peut m'arriver de me défouler un peu avant d'en parler directement avec lui/elle",
+          "scores": { "a_travailler": 3 }
+        },
+        {
+          "label": "J'essaie d'abord de régler le problème directement avec la personne concernée",
+          "scores": { "sain": 3 }
+        },
+        {
+          "label": "J'en parle aux autres pour savoir s'ils ont remarqué les mêmes choses que moi",
+          "scores": { "toxique": 3 }
+        }
       ]
     },
     {
       "id": "10",
-      "question": "Quand tu es blessé(e)…",
+      "question": "Après une dispute avec un ami, qu'est-ce qui te ressemble le plus ?",
       "answers": [
-        { "label": "Je prends du recul", "scores": { "sain": 3 } },
-        { "label": "Je réagis émotionnellement", "scores": { "a_travailler": 3 } },
-        { "label": "Je fais ressentir à l’autre", "scores": { "toxique": 3 } }
+        {
+          "label": "J'ai besoin de temps et je peux attendre que l'autre fasse le premier pas",
+          "scores": { "a_travailler": 3 }
+        },
+        {
+          "label": "Même contrarié(e), j'essaie de reprendre la discussion une fois que les émotions sont retombées",
+          "scores": { "sain": 3 }
+        },
+        {
+          "label": "Quand je suis vraiment blessé(e), je peux chercher à lui faire ressentir à son tour ce que j'ai ressenti",
+          "scores": { "toxique": 3 }
+        }
       ]
     }
   ]

@@ -2,7 +2,7 @@
   "slug": "test-quel-type-de-parent-serais-tu",
   "title": "Test famille - Quel type de parent serais-tu ?",
   "description": "Quel parent serais-tu face aux situations du quotidien ?",
-  "descriptionSeo": "Autorité, bienveillance, organisation… ce test révèle quel type de parent tu serais vraiment. À travers des situations concrètes, découvre ton style éducatif et ta manière de gérer les enfants au quotidien.",
+  "descriptionSeo": "Face aux crises, aux refus, aux mensonges ou aux caprices, chaque parent réagit différemment. Ce test te plonge dans dix situations concrètes du quotidien pour révéler ton style éducatif réel : es-tu plutôt du genre à laisser de la liberté, à poser des limites fermes, ou à chercher l'équilibre entre les deux ? Découvre ce que tes réactions disent de ta façon d'éduquer.",
   "category": {
     "name": "Famille",
     "slug": "famille"
@@ -18,112 +18,262 @@
   "profiles": [
     {
       "key": "cool",
-      "title": "Le parent cool",
-      "description": "Tu serais un parent détendu, à l’écoute et proche de ton enfant. Tu privilégies le dialogue, la confiance et la liberté. Tu n’aimes pas imposer trop de règles et tu préfères expliquer plutôt que punir. Tu veux que ton enfant se sente compris et libre d’être lui-même. Tu peux parfois manquer de cadre, mais tu compenses avec beaucoup d’affection et de présence. Tu es le type de parent avec qui on se sent à l’aise, en sécurité émotionnelle, et avec qui la relation est fluide et naturelle.",
+      "title": "Le parent qui mise sur la confiance",
+      "description": "Ton style éducatif repose sur une conviction forte : un enfant qui se sent libre et compris s'épanouit mieux qu'un enfant contrôlé. Tu privilégies le dialogue à la règle, l'explication à la sanction. Ce positionnement crée un lien affectif solide, mais peut parfois laisser l'enfant sans repère face à la frustration. La chaleur que tu offres est réelle — l'enjeu est de l'accompagner d'un cadre suffisant pour qu'elle soit structurante.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777375671/cool-parent_ya6qle.jpg"
     },
     {
       "key": "equilibre",
-      "title": "Le parent équilibré",
-      "description": "Tu serais un parent juste et équilibré. Tu sais poser des limites quand c’est nécessaire, mais tu restes à l’écoute et bienveillant(e). Tu cherches à comprendre ton enfant tout en gardant un cadre clair. Tu sais dire non sans culpabiliser, et oui quand c’est mérité. Tu privilégies une éducation basée sur le respect, la communication et la cohérence. Tu es capable de t’adapter selon les situations. Ton objectif : accompagner ton enfant tout en lui donnant des repères solides.",
+      "title": "Le parent qui articule cadre et écoute",
+      "description": "Tu considères que l'autorité et la bienveillance ne s'opposent pas : elles peuvent se compléter. Tu sais poser des limites sans fermer le dialogue, et t'adapter à l'enfant sans renoncer à tes valeurs. Ta cohérence et ta capacité à expliquer tes décisions sont tes atouts principaux — à condition de ne pas chercher à toujours trouver la solution parfaite là où une réponse imparfaite mais claire suffit souvent.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777375671/equilibre_tgolvz.jpg"
     },
     {
       "key": "strict",
-      "title": "Le parent strict",
-      "description": "Tu serais un parent structuré, exigeant et attentif au cadre. Tu considères que les règles sont essentielles pour bien grandir. Tu veux transmettre des valeurs, du respect et une certaine discipline. Tu peux parfois être ferme, voire rigide, mais c’est parce que tu veux le meilleur pour ton enfant. Tu privilégies la stabilité, la rigueur et les limites claires. Tu es un parent sur qui on peut compter, même si tu peux parfois manquer de souplesse. Ton objectif est de préparer ton enfant à la réalité.",
+      "title": "Le parent qui structure par le cadre",
+     "description": "Tu crois profondément que les règles claires et la discipline peuvent offrir des repères solides à un enfant. Tu accordes beaucoup d’importance aux valeurs, à la rigueur et au sens des responsabilités. Tu veux ainsi lui apprendre à respecter ses engagements et à composer avec les contraintes. Ton point de vigilance : laisser suffisamment de place au dialogue et à l’expression des émotions pour que le cadre reste un outil de sécurité plutôt qu’une source de pression.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777375671/strict_rxijhh.jpg"
     }
   ],
   "questions": [
     {
       "id": "1",
-      "question": "Ton enfant refuse de mettre ses chaussures pour sortir…",
+      "question": "Ton enfant refuse catégoriquement de mettre ses chaussures alors que vous êtes en retard. Tu fais quoi ?",
       "answers": [
-        { "label": "Je discute pour comprendre", "scores": { "cool": 3 } },
-        { "label": "Je négocie un peu puis je tranche", "scores": { "equilibre": 3 } },
-        { "label": "Je dis que c’est non négociable", "scores": { "strict": 3 } }
+        {
+          "label": "Je lui explique pourquoi on doit partir, je lui laisse trente secondes, puis je tranche",
+          "scores": {
+            "equilibre": 3
+          }
+        },
+        {
+          "label": "Je prends le temps de comprendre ce qui le/la bloque, même si on est en retard",
+          "scores": {
+            "cool": 3
+          }
+        },
+        {
+          "label": "Je lui dis qu'on part dans une minute, chaussures ou pas — et je le pense vraiment",
+          "scores": {
+            "strict": 3
+          }
+        }
       ]
     },
     {
       "id": "2",
-      "question": "Il/elle veut regarder un écran en plus…",
+      "question": "Ton enfant a déjà eu son temps d'écran et en réclame encore. Ta réaction ?",
       "answers": [
-        { "label": "Je laisse faire", "scores": { "cool": 3 } },
-        { "label": "Je limite", "scores": { "equilibre": 3 } },
-        { "label": "Je refuse", "scores": { "strict": 3 } }
+        {
+          "label": "La règle est la règle — le temps d'écran est terminé, point",
+          "scores": {
+            "strict": 3
+          }
+        },
+        {
+          "label": "Je cède si je sens qu'il/elle en a vraiment besoin pour décompresser",
+          "scores": {
+            "cool": 3
+          }
+        },
+        {
+          "label": "Je maintiens la limite mais je lui propose une alternative",
+          "scores": {
+            "equilibre": 3
+          }
+        }
       ]
     },
     {
       "id": "3",
-      "question": "Ton enfant fait une crise en public…",
+      "question": "Ton enfant fait une grosse crise en plein supermarché. Comment tu gères ?",
       "answers": [
-        { "label": "Je reste calme et je parle", "scores": { "cool": 3 } },
-        { "label": "Je gère rapidement", "scores": { "equilibre": 3 } },
-        { "label": "Je recadre fermement", "scores": { "strict": 3 } }
+        {
+          "label": "Je recadre immédiatement — ce comportement n'est pas acceptable en public",
+          "scores": {
+            "strict": 3
+          }
+        },
+        {
+          "label": "Je m'accroupis à sa hauteur et j'essaie de comprendre ce qu'il/elle ressent",
+          "scores": {
+            "cool": 3
+          }
+        },
+        {
+          "label": "Je reste calme, je pose un cadre clair et on en reparle une fois rentré(e)",
+          "scores": {
+            "equilibre": 3
+          }
+        }
       ]
     },
     {
       "id": "4",
-      "question": "Les devoirs ne sont pas faits…",
+      "question": "Tu découvres que les devoirs n'ont pas été faits. Qu'est-ce que tu fais ?",
       "answers": [
-        { "label": "Je comprends pourquoi", "scores": { "cool": 3 } },
-        { "label": "Je fais refaire", "scores": { "equilibre": 3 } },
-        { "label": "Je sanctionne", "scores": { "strict": 3 } }
+        {
+          "label": "Je m'assure qu'ils sont faits maintenant, avant toute autre chose",
+          "scores": {
+            "strict": 3
+          }
+        },
+        {
+          "label": "Je cherche d'abord à comprendre pourquoi — peut-être qu'il/elle était fatigué(e) ou bloqué(e)",
+          "scores": {
+            "cool": 3
+          }
+        },
+        {
+          "label": "Je lui rappelle la règle, on les fait maintenant, et on en parle pour que ça ne se reproduise pas",
+          "scores": {
+            "equilibre": 3
+          }
+        }
       ]
     },
     {
       "id": "5",
-      "question": "Ton enfant te ment…",
+      "question": "Tu réalises que ton enfant t'a menti sur quelque chose. Comment tu réagis ?",
       "answers": [
-        { "label": "Je discute pour comprendre", "scores": { "cool": 3 } },
-        { "label": "Je fais comprendre que ce n’est pas ok", "scores": { "equilibre": 3 } },
-        { "label": "Je punis directement", "scores": { "strict": 3 } }
+        {
+          "label": "Je veux comprendre pourquoi il/elle a menti avant de réagir — la cause m'importe autant que l'acte",
+          "scores": {
+            "cool": 3
+          }
+        },
+        {
+          "label": "Le mensonge est une ligne rouge — il y a une conséquence directe et immédiate",
+          "scores": {
+            "strict": 3
+          }
+        },
+        {
+          "label": "Je lui explique l'impact du mensonge sur la confiance, et on voit ensemble comment réparer ça",
+          "scores": {
+            "equilibre": 3
+          }
+        }
       ]
     },
     {
       "id": "6",
-      "question": "Heure du coucher…",
+      "question": "C'est l'heure du coucher, mais ton enfant n'a pas sommeil et le fait savoir. Tu fais quoi ?",
       "answers": [
-        { "label": "Flexible", "scores": { "cool": 3 } },
-        { "label": "Adaptée mais cadrée", "scores": { "equilibre": 3 } },
-        { "label": "Fixe et non négociable", "scores": { "strict": 3 } }
+        {
+          "label": "On négocie un petit délai avec une activité calme, puis c'est vraiment l'heure",
+          "scores": {
+            "equilibre": 3
+          }
+        },
+        {
+          "label": "L'heure du coucher est fixée pour une raison — au lit, même sans sommeil",
+          "scores": {
+            "strict": 3
+          }
+        },
+        {
+          "label": "Je le/la laisse rester éveillé(e) un peu — forcer le sommeil ne sert à rien",
+          "scores": {
+            "cool": 3
+          }
+        }
       ]
     },
     {
       "id": "7",
-      "question": "Ton enfant veut abandonner une activité…",
+      "question": "Ton enfant veut arrêter une activité qu'il/elle a commencée il y a deux mois. Ta réaction ?",
       "answers": [
-        { "label": "Je le laisse choisir", "scores": { "cool": 3 } },
-        { "label": "J’en discute avant", "scores": { "equilibre": 3 } },
-        { "label": "Je refuse d’abandonner", "scores": { "strict": 3 } }
+        {
+          "label": "On finit la saison — apprendre à s'engager fait partie de l'éducation",
+          "scores": {
+            "strict": 3
+          }
+        },
+        {
+          "label": "On en discute pour comprendre pourquoi, et on fixe ensemble un délai avant de décider",
+          "scores": {
+            "equilibre": 3
+          }
+        },
+        {
+          "label": "Si ça ne lui plaît plus, je ne vois pas l'intérêt de le/la forcer",
+          "scores": {
+            "cool": 3
+          }
+        }
       ]
     },
     {
       "id": "8",
-      "question": "Un caprice en magasin…",
+      "question": "En magasin, ton enfant veut absolument un jouet qui n'était pas prévu. Il/elle insiste vraiment.",
       "answers": [
-        { "label": "Je cède parfois", "scores": { "cool": 3 } },
-        { "label": "Je reste ferme mais calme", "scores": { "equilibre": 3 } },
-        { "label": "Je dis non clairement", "scores": { "strict": 3 } }
+        {
+          "label": "Si c'est raisonnable et que ça lui ferait vraiment plaisir, je cède parfois",
+          "scores": {
+            "cool": 3
+          }
+        },
+        {
+          "label": "Non, c'est non — céder sous la pression envoie un mauvais message",
+          "scores": {
+            "strict": 3
+          }
+        },
+        {
+          "label": "Je lui explique que ce n'est pas prévu aujourd'hui, mais qu'on peut en reparler pour une prochaine fois",
+          "scores": {
+            "equilibre": 3
+          }
+        }
       ]
     },
     {
       "id": "9",
-      "question": "Ton enfant ne range pas…",
+      "question": "La chambre est un désastre et ton enfant refuse de ranger. Qu'est-ce qui se passe ?",
       "answers": [
-        { "label": "Je le fais avec lui/elle", "scores": { "cool": 3 } },
-        { "label": "Je rappelle la règle", "scores": { "equilibre": 3 } },
-        { "label": "Je l’oblige", "scores": { "strict": 3 } }
+        {
+          "label": "Je lui rappelle la règle et je lui laisse un moment pour le faire seul(e)",
+          "scores": {
+            "equilibre": 3
+          }
+        },
+        {
+          "label": "Je range avec lui/elle — c'est plus sympa à deux et ça évite le conflit",
+          "scores": {
+            "cool": 3
+          }
+        },
+        {
+          "label": "Pas de rangement, pas d'activité — les responsabilités d'abord",
+          "scores": {
+            "strict": 3
+          }
+        }
       ]
     },
     {
       "id": "10",
-      "question": "Au fond, être parent pour toi c’est…",
+      "question": "Ton enfant veut faire quelque chose qui compte énormément pour lui/elle, mais que tu trouves risqué. Comment tu réagis ?",
       "answers": [
-        { "label": "Accompagner", "scores": { "cool": 3 } },
-        { "label": "Guider", "scores": { "equilibre": 3 } },
-        { "label": "Encadrer", "scores": { "strict": 3 } }
+        {
+          "label": "Si c'est important pour lui/elle, je préfère le/la laisser vivre l'expérience plutôt que de le/la brider",
+          "scores": {
+            "cool": 3
+          }
+        },
+        {
+          "label": "Je lui dis non clairement — mon rôle est de le/la protéger, même contre ses envies",
+          "scores": {
+            "strict": 3
+          }
+        },
+        {
+          "label": "Je veux savoir précisément ce qu'il/elle compte faire avant de décider jusqu'où je peux le/la laisser aller",
+          "scores": {
+            "equilibre": 3
+          }
+        }
       ]
     }
   ]

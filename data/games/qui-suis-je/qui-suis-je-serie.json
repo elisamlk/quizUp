@@ -21,46 +21,268 @@
       {
         "id": "harry-potter",
         "answer": "Harry Potter",
+        "acceptedAnswers": [
+          "Harry"
+        ],
         "hints": [
-          "Je suis un personnage issu d’une saga fantastique mondialement connue.",
-          "Une cicatrice en forme d’éclair me rend facilement reconnaissable.",
-          "J’ai étudié à Poudlard."
+          "J’ai grandi chez mon oncle et ma tante avant de découvrir un monde dont j’ignorais l’existence.",
+          "Mes meilleurs amis s’appellent Ron et Hermione.",
+          "J’ai étudié à Poudlard et je porte une cicatrice en forme d’éclair."
         ]
       },
       {
         "id": "darth-vader",
         "answer": "Dark Vador",
+        "acceptedAnswers": [
+          "Darth Vader",
+          "Vador",
+          "Anakin Skywalker"
+        ],
         "hints": [
-          "Je suis l’un des méchants les plus célèbres du cinéma.",
-          "Ma tenue noire et ma respiration mécanique sont emblématiques.",
-          "Je fais partie de l’univers Star Wars."
+          "Mon destin a basculé après avoir voulu empêcher la mort d’une personne qui m’était chère.",
+          "Ma respiration mécanique accompagne une grande partie de mes apparitions.",
+          "Je suis le père de Luke Skywalker dans Star Wars."
         ]
       },
       {
         "id": "walter-white",
         "answer": "Walter White",
+        "acceptedAnswers": [
+          "Walter",
+          "Heisenberg"
+        ],
         "hints": [
-          "J’étais professeur avant de basculer dans une vie criminelle.",
-          "Mon histoire est liée à une célèbre série américaine.",
-          "On me connaît aussi sous le nom de Heisenberg."
+          "Au début de mon histoire, ma situation financière et familiale me pousse à prendre une décision radicale.",
+          "J’utilise mes connaissances en chimie pour bâtir une activité criminelle.",
+          "Dans Breaking Bad, je suis également connu sous le nom de Heisenberg."
         ]
       },
       {
         "id": "elsa",
         "answer": "Elsa",
+        "acceptedAnswers": [
+          "Reine Elsa",
+          "Elsa d'Arendelle",
+          "Elsa Arendelle"
+        ],
         "hints": [
-          "Je suis un personnage d’animation très populaire.",
-          "Mes pouvoirs sont liés à la glace et à la neige.",
-          "Je viens du film La Reine des Neiges."
+          "J’ai longtemps cherché à dissimuler une particularité qui m’effrayait.",
+          "Ma sœur Anna joue un rôle essentiel dans mon histoire.",
+          "Je suis la reine d’Arendelle capable de contrôler la glace dans La Reine des Neiges."
         ]
       },
       {
         "id": "sherlock-holmes",
         "answer": "Sherlock Holmes",
+        "acceptedAnswers": [
+          "Sherlock",
+          "Holmes"
+        ],
         "hints": [
-          "Je suis connu pour mon incroyable sens de la déduction.",
-          "Mes enquêtes se déroulent souvent à Londres.",
-          "Le docteur Watson est mon fidèle compagnon."
+          "Je résous des problèmes en observant des détails que la plupart des gens ne remarquent pas.",
+          "Je vis au 221B Baker Street à Londres.",
+          "Le docteur Watson est mon plus célèbre compagnon d’enquête."
+        ]
+      },
+      {
+        "id": "tony-stark",
+        "answer": "Tony Stark",
+        "acceptedAnswers": [
+          "Iron Man",
+          "Stark"
+        ],
+        "hints": [
+          "J’ai hérité d’une entreprise spécialisée dans les technologies et l’armement.",
+          "Je construis moi-même une grande partie de l’équipement qui me permet de combattre.",
+          "Dans l’univers Marvel, je suis Iron Man."
+        ]
+      },
+      {
+        "id": "jack-sparrow",
+        "answer": "Jack Sparrow",
+        "acceptedAnswers": [
+          "Capitaine Jack Sparrow",
+          "Captain Jack Sparrow"
+        ],
+        "hints": [
+          "Ma façon de marcher et de parler donne parfois l’impression que je ne contrôle pas totalement la situation.",
+          "Je cherche régulièrement à récupérer un navire appelé le Black Pearl.",
+          "Je suis le célèbre capitaine pirate de Pirates des Caraïbes."
+        ]
+      },
+      {
+        "id": "hannibal-lecter",
+        "answer": "Hannibal Lecter",
+        "acceptedAnswers": [
+          "Hannibal",
+          "Lecter",
+          "Docteur Lecter",
+          "Dr Lecter"
+        ],
+        "hints": [
+          "Je possède une grande intelligence et une connaissance approfondie de la psychologie humaine.",
+          "Je suis psychiatre, mais mes propres crimes m’ont conduit derrière les barreaux.",
+          "Clarice Starling vient me consulter dans Le Silence des agneaux."
+        ]
+      },
+      {
+        "id": "forrest-gump",
+        "answer": "Forrest Gump",
+        "acceptedAnswers": [
+          "Forrest",
+          "Gump"
+        ],
+        "hints": [
+          "Sans vraiment le chercher, je me retrouve au cœur de plusieurs événements marquants de l’histoire américaine.",
+          "Je traverse les États-Unis en courant pendant une longue période.",
+          "Ma mère m’a appris que la vie était comme une boîte de chocolats."
+        ]
+      },
+      {
+        "id": "daenerys-targaryen",
+        "answer": "Daenerys Targaryen",
+        "acceptedAnswers": [
+          "Daenerys",
+          "Khaleesi",
+          "Daenerys du Typhon"
+        ],
+        "hints": [
+          "Je suis issue d’une dynastie autrefois chassée du pouvoir.",
+          "Je porte notamment le titre de Khaleesi.",
+          "Dans Game of Thrones, je suis connue comme la Mère des Dragons."
+        ]
+      },
+      {
+        "id": "rocky-balboa",
+        "answer": "Rocky Balboa",
+        "acceptedAnswers": [
+          "Rocky",
+          "Balboa"
+        ],
+        "hints": [
+          "Au début de mon histoire, je gagne modestement ma vie dans une grande ville américaine.",
+          "Une opportunité inattendue me permet d’affronter le champion Apollo Creed.",
+          "Je suis le boxeur de Philadelphie rendu célèbre par la saga Rocky."
+        ]
+      },
+      {
+        "id": "eleven",
+        "answer": "Eleven",
+        "acceptedAnswers": [
+          "Onze",
+          "Jane Hopper",
+          "Jane Ives"
+        ],
+        "hints": [
+          "Une partie de mon enfance s’est déroulée dans un laboratoire.",
+          "Je possède des capacités psychiques et suis très proche de Mike.",
+          "Dans Stranger Things, mes amis m’appellent Eleven."
+        ]
+      },
+      {
+        "id": "joker",
+        "answer": "Le Joker",
+        "acceptedAnswers": [
+          "Joker",
+          "The Joker"
+        ],
+        "hints": [
+          "Mon passé est volontairement entouré de versions contradictoires.",
+          "J’aime transformer mes crimes en spectacles chaotiques.",
+          "Je suis l’ennemi juré de Batman."
+        ]
+      },
+      {
+        "id": "rachel-green",
+        "answer": "Rachel Green",
+        "acceptedAnswers": [
+          "Rachel"
+        ],
+        "hints": [
+          "Au début de mon histoire, je bouleverse ma vie après avoir quitté une cérémonie importante.",
+          "Je travaille notamment dans le monde de la mode.",
+          "Je fais partie des six amis principaux de Friends et mon histoire avec Ross est centrale."
+        ]
+      },
+      {
+        "id": "indiana-jones",
+        "answer": "Indiana Jones",
+        "acceptedAnswers": [
+          "Indiana",
+          "Indy",
+          "Docteur Jones",
+          "Dr Jones"
+        ],
+        "hints": [
+          "Quand je ne voyage pas, j’enseigne à l’université.",
+          "Mes aventures me conduisent à rechercher des objets archéologiques légendaires.",
+          "Je porte un fedora, utilise un fouet et déteste les serpents."
+        ]
+      },
+      {
+        "id": "dexter-morgan",
+        "answer": "Dexter Morgan",
+        "acceptedAnswers": [
+          "Dexter"
+        ],
+        "hints": [
+          "Je travaille pour les forces de l’ordre sans être policier.",
+          "J’analyse les traces de sang pour la police de Miami.",
+          "Dans la série Dexter, je mène secrètement une vie de tueur en série."
+        ]
+      },
+      {
+        "id": "gandalf",
+        "answer": "Gandalf",
+        "acceptedAnswers": [
+          "Gandalf le Gris",
+          "Gandalf le Blanc"
+        ],
+        "hints": [
+          "J’appartiens à un ordre envoyé en Terre du Milieu pour lutter contre une puissance grandissante.",
+          "Je voyage notamment aux côtés de Bilbon puis de Frodon.",
+          "Je suis le célèbre magicien du Seigneur des anneaux."
+        ]
+      },
+      {
+        "id": "mercredi-addams",
+        "answer": "Mercredi Addams",
+        "acceptedAnswers": [
+          "Mercredi",
+          "Wednesday Addams",
+          "Wednesday"
+        ],
+        "hints": [
+          "Mon humour particulièrement sombre contraste avec mon jeune âge.",
+          "Je suis la fille de Gomez et Morticia.",
+          "Je suis le membre de la famille Addams connu en anglais sous le prénom Wednesday."
+        ]
+      },
+      {
+        "id": "terminator",
+        "answer": "T-800",
+        "acceptedAnswers": [
+          "T800",
+          "Terminator",
+          "Le Terminator"
+        ],
+        "hints": [
+          "Je viens d’un futur où les machines ont pris le contrôle du monde.",
+          "Selon les missions qui me sont confiées, je peux être un redoutable ennemi ou un protecteur.",
+          "Je suis le célèbre cyborg de Terminator associé à la phrase « I'll be back »."
+        ]
+      },
+      {
+        "id": "homelander",
+        "answer": "Homelander",
+        "acceptedAnswers": [
+          "Le Protecteur",
+          "Protecteur"
+        ],
+        "hints": [
+          "Aux yeux du public, je représente l’image du héros parfait.",
+          "Je suis le membre le plus puissant d’un groupe appelé les Sept.",
+          "Dans The Boys, mon apparence héroïque cache une personnalité particulièrement dangereuse."
         ]
       }
     ]

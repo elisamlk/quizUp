@@ -2,7 +2,7 @@
   "slug": "test-amour-es-tu-amoureux-ou-juste-attache",
   "title": "Test amour - Es-tu amoureux(se) ou juste attaché(e) ?",
   "description": "Analyse tes réactions en situation pour comprendre la vraie nature de tes sentiments.",
-  "descriptionSeo": "Analyse tes réactions dans des situations amoureuses concrètes pour déterminer si tes sentiments relèvent d’un véritable amour ou d’un attachement. Ce test explore ton rapport à la présence de l’autre, à l’absence, à l’engagement et à tes émotions profondes. Une approche nuancée pour mieux comprendre si ton lien repose sur un choix sincère ou sur un besoin affectif.",
+  "descriptionSeo": "Manque, jalousie, projection dans l'avenir, réaction face à l'absence… ce test analyse tes comportements concrets face à dix situations amoureuses pour déterminer si ce que tu ressens relève d'un amour réel, d'un attachement émotionnel, d'une relation d'habitude ou d'une zone de doute. Pas de bonne réponse : juste un miroir honnête sur la nature de ton lien.",
   "category": {
     "name": "Amour",
     "slug": "amour"
@@ -18,26 +18,26 @@
   "profiles": [
     {
       "key": "amoureux",
-      "title": "Vraiment amoureux(se)",
-      "description": "Tu es dans un amour réel, qui dépasse le simple besoin ou l’habitude. Tu apprécies la présence de l’autre, mais tu es aussi capable d’exister sans elle. Tu ressens une envie sincère de construire, de comprendre et de faire évoluer la relation. Tu ne restes pas uniquement par confort ou peur de perdre, mais par choix. Tes émotions sont présentes, mais elles ne te contrôlent pas totalement. Ton lien repose sur quelque chose de plus profond et plus stable qu’un simple attachement.",
+      "title": "Un amour qui repose sur un choix",
+      "description": "Ce que tu ressens ne dépend pas uniquement de la présence de l'autre pour exister. Tu apprécies cette personne, tu veux construire avec elle, mais tu es capable d'exister sans elle. Cette autonomie émotionnelle suggère que ton lien ne repose pas uniquement sur le besoin d'être rassuré(e) ou sur la peur de perdre l'autre. Tu restes par désir, pas par peur du vide. Tes sentiments sont stables parce qu'ils sont ancrés dans quelque chose de réel, pas dans un besoin de réassurance permanente.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776950614/passionate_ztwvio.jpg"
     },
     {
       "key": "attachement_fort",
-      "title": "Attachement fort",
-      "description": "Ton lien est réel, mais il repose en grande partie sur le besoin de l’autre. Sa présence te rassure, t’apaise ou te stabilise, et son absence peut te déstabiliser rapidement. Tu tiens à cette personne, mais il y a une dépendance émotionnelle qui influence tes réactions. Tu peux confondre intensité émotionnelle et amour profond. Ton défi est d’apprendre à distinguer ce que tu ressens vraiment de ce dont tu as besoin.",
+      "title": "Un lien réel, mais teinté de dépendance",
+      "description": "Tu tiens profondément à cette personne — mais une partie de ce que tu ressens est alimentée par le besoin qu'elle soit là. Sa présence te stabilise, son absence te déstabilise plus que tu ne le voudrais. Ce n'est pas forcément un problème en soi : le point intéressant est de distinguer ce que tu ressens pour cette personne de la sécurité que sa présence t'apporte. L'enjeu est d'apprendre à distinguer ce que tu ressens pour elle de ce qu'elle représente pour toi.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776950777/engage_csyexh.jpg"
     },
     {
       "key": "habitude",
-      "title": "Relation d’habitude",
-      "description": "Ce qui te lie à cette personne semble davantage lié à la routine qu’à un réel élan émotionnel. Tu es à l’aise, tu connais la relation, mais elle ne te stimule plus vraiment. Tu peux rester par confort ou par peur du changement. Il n’y a pas forcément de manque, mais peu d’intensité. Ton défi est de te demander honnêtement si cette relation te correspond encore.",
+      "title": "Une relation installée plus que choisie",
+      "description": "Ce qui te lie à cette personne ressemble davantage à une familiarité confortable qu'à un élan émotionnel actif. Tu connais la relation, tu t'y sens à l'aise, mais elle ne te mobilise plus vraiment. Rester par habitude n'est pas un défaut en soi — mais ça peut empêcher de se poser la vraie question : si tu repartais de zéro aujourd'hui, est-ce que tu choisirais encore cette relation ?",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777032941/habits_jdjipb.jpg"
     },
     {
       "key": "incertain",
-      "title": "Entre deux",
-      "description": "Tes sentiments sont partagés. Tu peux ressentir de l’attachement, parfois de l’amour, mais aussi des doutes. Tu n’es pas totalement aligné(e), ce qui crée une forme d’instabilité émotionnelle. Tu peux être impliqué(e) à certains moments, puis prendre du recul à d’autres. Ton défi est de clarifier ce que tu ressens vraiment, sans te laisser guider uniquement par la peur ou le confort.",
+      "title": "Des sentiments encore à clarifier",
+      "description": "Tu ne sais pas vraiment où tu en es — et c'est une information en soi. Cette ambivalence peut signifier que la relation traverse une période de transition, ou que quelque chose en toi résiste à une clarification que tu n'es pas encore prêt(e) à faire. L'incertitude n'est pas un problème à résoudre rapidement : elle demande à être écoutée plutôt que comblée par une décision prise trop vite.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777032251/uncertain_vsnb2s.jpg"
     }
   ],
@@ -46,100 +46,308 @@
       "id": "1",
       "question": "Tu passes un très bon moment avec cette personne, puis tu rentres chez toi. Que ressens-tu quelques heures après ?",
       "answers": [
-        { "label": "Un sentiment agréable qui reste sans dépendre de sa présence", "scores": { "amoureux": 3, "incertain": 1 } },
-        { "label": "Un manque assez fort, comme si quelque chose s’arrêtait", "scores": { "attachement_fort": 3 } },
-        { "label": "Pas grand-chose de particulier, juste une soirée normale", "scores": { "habitude": 3 } },
-        { "label": "Ça dépend vraiment des moments", "scores": { "incertain": 3 } }
+        {
+          "label": "Un manque assez fort, comme si quelque chose s'arrêtait net",
+          "scores": {
+            "attachement_fort": 3
+          }
+        },
+        {
+          "label": "Ça dépend vraiment des moments — parfois rien, parfois beaucoup",
+          "scores": {
+            "incertain": 3,
+            "attachement_fort": 1
+          }
+        },
+        {
+          "label": "Un sentiment agréable qui reste, sans dépendre de sa présence",
+          "scores": {
+            "amoureux": 3
+          }
+        },
+        {
+          "label": "Pas grand-chose de particulier, juste une soirée qui se termine",
+          "scores": {
+            "habitude": 3
+          }
+        }
       ]
     },
     {
       "id": "2",
       "question": "Cette personne annule un plan prévu sans raison très claire.",
       "answers": [
-        { "label": "Je comprends, ça peut arriver", "scores": { "amoureux": 3 } },
-        { "label": "Ça me touche plus que je ne voudrais l’admettre", "scores": { "attachement_fort": 3, "incertain": 1 } },
-        { "label": "Ça ne change pas grand-chose pour moi", "scores": { "habitude": 3 } },
-        { "label": "Je suis partagé(e) entre compréhension et agacement", "scores": { "incertain": 3 } }
+        {
+          "label": "Je suis partagé(e) entre compréhension et agacement — je ne sais pas trop comment le prendre",
+          "scores": {
+            "incertain": 3,
+            "amoureux": 1
+          }
+        },
+        {
+          "label": "Ça ne change pas grand-chose pour moi, je m'adapte",
+          "scores": {
+            "habitude": 3
+          }
+        },
+        {
+          "label": "Ça me touche plus que je ne voudrais l'admettre",
+          "scores": {
+            "attachement_fort": 3
+          }
+        },
+        {
+          "label": "Je comprends, ça peut arriver — je ne le vis pas comme un problème",
+          "scores": {
+            "amoureux": 3
+          }
+        }
       ]
     },
     {
       "id": "3",
       "question": "Tu imagines cette personne heureuse… mais sans toi.",
       "answers": [
-        { "label": "C’est difficile mais je peux l’accepter", "scores": { "amoureux": 3 } },
-        { "label": "Ça me fait vraiment mal à l’idée", "scores": { "attachement_fort": 3 } },
-        { "label": "Je n’y pense pas vraiment", "scores": { "habitude": 3 } },
-        { "label": "Ça me perturbe sans savoir pourquoi", "scores": { "incertain": 3 } }
+        {
+          "label": "Je n'y pense pas vraiment — ça ne me traverse pas spontanément",
+          "scores": {
+            "habitude": 3
+          }
+        },
+        {
+          "label": "C'est difficile à envisager, mais je peux l'accepter",
+          "scores": {
+            "amoureux": 3
+          }
+        },
+        {
+          "label": "Ça me perturbe sans que je comprenne vraiment pourquoi",
+          "scores": {
+            "incertain": 3,
+            "attachement_fort": 1
+          }
+        },
+        {
+          "label": "L'idée me fait vraiment mal — je ne veux pas y penser",
+          "scores": {
+            "attachement_fort": 3
+          }
+        }
       ]
     },
     {
       "id": "4",
-      "question": "Quand tu es seul(e), sans contact avec cette personne…",
+      "question": "Quand tu es seul(e), sans contact avec cette personne pendant une journée entière…",
       "answers": [
-        { "label": "Je reste bien dans mon quotidien", "scores": { "amoureux": 3 } },
-        { "label": "Je ressens un vrai vide", "scores": { "attachement_fort": 3 } },
-        { "label": "Ça ne change rien à ma routine", "scores": { "habitude": 3 } },
-        { "label": "Je remarque une différence selon mon état émotionnel", "scores": { "incertain": 3 } }
+        {
+          "label": "Je remarque une vraie différence selon mon état émotionnel du moment",
+          "scores": {
+            "incertain": 3
+          }
+        },
+        {
+          "label": "Je ressens un vide réel, comme s'il manquait quelque chose",
+          "scores": {
+            "attachement_fort": 3
+          }
+        },
+        {
+          "label": "Ça ne change rien à ma journée, je suis dans ma routine",
+          "scores": {
+            "habitude": 3
+          }
+        },
+        {
+          "label": "Cette personne peut me manquer, mais je continue ma journée normalement",
+          "scores": {
+            "amoureux": 3
+          }
+        }
       ]
     },
     {
       "id": "5",
-      "question": "Un désaccord important apparaît dans la relation.",
+      "question": "Un désaccord important surgit dans la relation.",
       "answers": [
-        { "label": "Je cherche à comprendre et à faire évoluer les choses", "scores": { "amoureux": 3 } },
-        { "label": "Ça m’angoisse surtout à l’idée de perdre la relation", "scores": { "attachement_fort": 3 } },
-        { "label": "Je prends ça avec distance", "scores": { "habitude": 3 } },
-        { "label": "Je ne sais pas toujours comment réagir", "scores": { "incertain": 3 } }
+        {
+          "label": "Je cherche à comprendre et à faire évoluer les choses — le désaccord ne me fait pas peur",
+          "scores": {
+            "amoureux": 3
+          }
+        },
+        {
+          "label": "Je prends du recul assez facilement — ça ne m'atteint pas vraiment en profondeur",
+          "scores": {
+            "habitude": 3
+          }
+        },
+        {
+          "label": "Ce qui m'angoisse surtout, c'est l'idée que ça mette la relation en danger",
+          "scores": {
+            "attachement_fort": 3,
+            "incertain": 1
+          }
+        },
+        {
+          "label": "Je ne sais pas toujours comment réagir — je me sens vite dépassé(e)",
+          "scores": {
+            "incertain": 3
+          }
+        }
       ]
     },
     {
       "id": "6",
-      "question": "Tu passes plusieurs jours sans voir cette personne.",
+      "question": "Tu passes plusieurs jours sans voir cette personne ni vraiment lui parler.",
       "answers": [
-        { "label": "Ça me va, chacun a sa vie", "scores": { "amoureux": 3 } },
-        { "label": "Ça me manque rapidement", "scores": { "attachement_fort": 3 } },
-        { "label": "Je m’habitue facilement", "scores": { "habitude": 3 } },
-        { "label": "Ça dépend de mon humeur", "scores": { "incertain": 3 } }
+        {
+          "label": "Son absence s'installe rapidement et me pèse plus que je ne l'aurais cru",
+          "scores": {
+            "attachement_fort": 3
+          }
+        },
+        {
+          "label": "Je m'y adapte facilement — on a chacun notre vie de toute façon",
+          "scores": {
+            "habitude": 3,
+            "amoureux": 1
+          }
+        },
+        {
+          "label": "Ça dépend beaucoup de mon humeur et de ce qui se passe par ailleurs",
+          "scores": {
+            "incertain": 3
+          }
+        },
+        {
+          "label": "Elle me manque, mais je reste bien — l'absence ne me déstabilise pas",
+          "scores": {
+            "amoureux": 3
+          }
+        }
       ]
     },
     {
       "id": "7",
-      "question": "Ce qui te lie le plus à cette personne aujourd’hui…",
+      "question": "Cette personne change beaucoup avec le temps : nouveaux projets, nouvelles habitudes, nouvelles envies. Comment tu le vis ?",
       "answers": [
-        { "label": "Une connexion réelle et une envie de construire", "scores": { "amoureux": 3 } },
-        { "label": "Le besoin qu’elle soit dans ma vie", "scores": { "attachement_fort": 3 } },
-        { "label": "Le fait que la relation soit déjà installée", "scores": { "habitude": 3 } },
-        { "label": "Un mélange difficile à définir", "scores": { "incertain": 3 } }
+        {
+          "label": "Ça m'inquiète un peu : j'ai peur que ces changements nous éloignent",
+          "scores": {
+            "attachement_fort": 3
+          }
+        },
+        {
+          "label": "Ça m'intrigue plutôt — j'ai envie de découvrir qui elle devient",
+          "scores": {
+            "amoureux": 3
+          }
+        },
+        {
+          "label": "Ça me fait osciller entre l'envie de suivre cette évolution et celle de prendre mes distances",
+          "scores": {
+            "incertain": 3
+          }
+        },
+        {
+          "label": "Tant que notre quotidien fonctionne, ça ne change pas grand-chose pour moi",
+          "scores": {
+            "habitude": 3
+          }
+        }
       ]
     },
     {
       "id": "8",
-      "question": "Tu rencontres quelqu’un de nouveau qui t’attire.",
+      "question": "Tu rencontres quelqu'un de nouveau qui t'attire vraiment.",
       "answers": [
-        { "label": "Ça ne change rien à ce que je ressens", "scores": { "amoureux": 3 } },
-        { "label": "Ça me perturbe mais je reste attaché(e)", "scores": { "attachement_fort": 3 } },
-        { "label": "Je me pose rapidement des questions sur ma relation actuelle", "scores": { "habitude": 3 } },
-        { "label": "Je suis complètement perdu(e)", "scores": { "incertain": 3 } }
+        {
+          "label": "Ça ne change rien à ce que je ressens pour ma relation actuelle",
+          "scores": {
+            "amoureux": 3
+          }
+        },
+        {
+          "label": "Je suis complètement perdu(e) — je ne sais plus quoi penser",
+          "scores": {
+            "incertain": 3
+          }
+        },
+        {
+          "label": "Ça me perturbe, mais je reste attaché(e) à cette relation",
+          "scores": {
+            "attachement_fort": 3,
+            "incertain": 1
+          }
+        },
+        {
+          "label": "Ça me fait assez vite me demander ce que je fais encore dans ma relation actuelle",
+          "scores": {
+            "habitude": 3
+          }
+        }
       ]
     },
     {
       "id": "9",
-      "question": "Quand tu penses à cette relation sur le long terme…",
+      "question": "Quand tu penses à cette relation dans quelques années…",
       "answers": [
-        { "label": "Je vois quelque chose de construit et évolutif", "scores": { "amoureux": 3 } },
-        { "label": "J’ai surtout besoin qu’elle continue", "scores": { "attachement_fort": 3 } },
-        { "label": "Je ne me projette pas vraiment", "scores": { "habitude": 3 } },
-        { "label": "J’hésite beaucoup", "scores": { "incertain": 3 } }
+        {
+          "label": "J'hésite beaucoup — je n'arrive pas à me projeter clairement",
+          "scores": {
+            "incertain": 3
+          }
+        },
+        {
+          "label": "Je ne me projette pas vraiment — je vis plutôt au présent",
+          "scores": {
+            "habitude": 3
+          }
+        },
+        {
+          "label": "J'ai surtout besoin qu'elle continue — l'idée qu'elle s'arrête me fait peur",
+          "scores": {
+            "attachement_fort": 3,
+            "incertain": 1
+          }
+        },
+        {
+          "label": "Je vois quelque chose qui peut évoluer, se transformer, et rester solide",
+          "scores": {
+            "amoureux": 3
+          }
+        }
       ]
     },
     {
       "id": "10",
-      "question": "Si cette relation s’arrêtait demain…",
+      "question": "Si cette relation s'arrêtait demain…",
       "answers": [
-        { "label": "Ce serait difficile mais compréhensible", "scores": { "amoureux": 3 } },
-        { "label": "Ce serait un vrai choc émotionnel", "scores": { "attachement_fort": 3 } },
-        { "label": "Je m’en remettrais assez vite", "scores": { "habitude": 3 } },
-        { "label": "Je ne sais pas comment je réagirais", "scores": { "incertain": 3 } }
+        {
+          "label": "Ce serait un vrai choc — je ne sais pas comment je m'en remettrais",
+          "scores": {
+            "attachement_fort": 3
+          }
+        },
+        {
+          "label": "Je ne sais pas vraiment comment je réagirais — ça m'est difficile à imaginer",
+          "scores": {
+            "incertain": 3,
+            "attachement_fort": 1
+          }
+        },
+        {
+          "label": "Ce serait douloureux, mais je sais que je m'en remettrais",
+          "scores": {
+            "amoureux": 3
+          }
+        },
+        {
+          "label": "Je pense que je m'en remettrais assez vite, honnêtement",
+          "scores": {
+            "habitude": 3
+          }
+        }
       ]
     }
   ]

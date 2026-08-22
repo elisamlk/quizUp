@@ -11,6 +11,7 @@ type NextGame = {
 type QuiItem = {
   id: string;
   answer: string;
+  acceptedAnswers?: string[];
   hints: string[];
 };
 
@@ -24,17 +25,15 @@ function getItems(game: Game): QuiItem[] {
     : [];
 }
 
-function normalize(
-  value: string,
-) {
+function normalize(value: string) {
   return value
     .toLowerCase()
     .trim()
     .normalize("NFD")
-    .replace(
-      /[\u0300-\u036f]/g,
-      "",
-    );
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[’']/g, "")
+    .replace(/-/g, " ")
+    .replace(/\s+/g, " ");
 }
 
 function openShare(url: string) {
@@ -52,61 +51,48 @@ export function QuiSuisJePlayer({
   game: Game;
   nextGame?: NextGame | null;
 }) {
-  const items =
-    getItems(game);
+  const items = getItems(game);
 
-  const [step, setStep] =
+  const [step, setStep] = useState(0);
+
+  const [hintIndex, setHintIndex] =
     useState(0);
-
-  const [
-    hintIndex,
-    setHintIndex,
-  ] = useState(0);
 
   const [input, setInput] =
     useState("");
 
-  const [
-    revealed,
-    setRevealed,
-  ] = useState(false);
+  const [revealed, setRevealed] =
+    useState(false);
 
   const [score, setScore] =
     useState(0);
 
-  const [
-    finished,
-    setFinished,
-  ] = useState(false);
+  const [finished, setFinished] =
+    useState(false);
 
   const [toast, setToast] =
-    useState<string | null>(
-      null,
+    useState<string | null>(null);
+
+  const current = items[step];
+
+  const total = items.length;
+
+  const progress = useMemo(() => {
+    if (total === 0) {
+      return 0;
+    }
+
+    return Math.round(
+      (step / total) * 100,
     );
+  }, [step, total]);
 
-  const current =
-    items[step];
-
-  const total =
-    items.length;
-
-  const progress =
-    useMemo(() => {
-      if (total === 0)
-        return 0;
-
-      return Math.round(
-        (step / total) * 100,
-      );
-    }, [step, total]);
-
-  const visibleHints =
-    current
-      ? current.hints.slice(
-          0,
-          hintIndex + 1,
-        )
-      : [];
+  const visibleHints = current
+    ? current.hints.slice(
+        0,
+        hintIndex + 1,
+      )
+    : [];
 
   function showToast(
     message: string,
@@ -124,9 +110,7 @@ export function QuiSuisJePlayer({
         window.location.href,
       );
 
-      showToast(
-        "Lien copié ✅",
-      );
+      showToast("Lien copié ✅");
     } catch {
       showToast(
         "Impossible de copier",
@@ -145,15 +129,19 @@ export function QuiSuisJePlayer({
     const user =
       normalize(input);
 
-    const acceptedAnswers =
-      [
-        current.answer,
-        ...current.answer.split(
-          " ",
-        ),
-      ]
-        .map(normalize)
-        .filter(Boolean);
+    if (!user) {
+      showToast(
+        "Entre une réponse",
+      );
+      return;
+    }
+
+    const acceptedAnswers = [
+      current.answer,
+      ...(current.acceptedAnswers ?? []),
+    ]
+      .map(normalize)
+      .filter(Boolean);
 
     const ok =
       acceptedAnswers.some(
@@ -165,8 +153,7 @@ export function QuiSuisJePlayer({
       const gained =
         Math.max(
           1,
-          current.hints
-            .length -
+          current.hints.length -
             hintIndex,
         );
 
@@ -177,23 +164,66 @@ export function QuiSuisJePlayer({
 
       setRevealed(true);
 
+      showToast(
+        `Bonne réponse ! +${gained} point${
+          gained > 1 ? "s" : ""
+        }`,
+      );
+
       return;
     }
 
+    /*
+      UNE SEULE TENTATIVE PAR INDICE
+
+      Mauvaise réponse :
+      - s'il reste un indice,
+        on révèle automatiquement
+        l'indice suivant ;
+      - si c'était le dernier indice,
+        on révèle la réponse.
+    */
+
+    if (
+      hintIndex + 1 <
+      current.hints.length
+    ) {
+      setHintIndex(
+        (prev) =>
+          prev + 1,
+      );
+
+      setInput("");
+
+      showToast(
+        "Pas encore ! Nouvel indice 👀",
+      );
+
+      return;
+    }
+
+    setInput("");
+    setRevealed(true);
+
     showToast(
-      "Mauvaise réponse",
+      "La réponse est révélée",
     );
   }
 
   function nextHint() {
-    if (!current)
+    if (
+      !current ||
+      revealed
+    ) {
       return;
+    }
 
     if (
       hintIndex + 1 >=
       current.hints.length
     ) {
       setRevealed(true);
+      setInput("");
 
       return;
     }
@@ -202,11 +232,14 @@ export function QuiSuisJePlayer({
       (prev) =>
         prev + 1,
     );
+
+    setInput("");
   }
 
   function nextQuestion() {
     if (
-      step + 1 >= total
+      step + 1 >=
+      total
     ) {
       setFinished(true);
 
@@ -244,8 +277,7 @@ export function QuiSuisJePlayer({
       <>
         <div className="quizPanel">
           <p>
-            Aucun élément
-            disponible.
+            Aucun élément disponible.
           </p>
         </div>
 
@@ -270,41 +302,46 @@ export function QuiSuisJePlayer({
         0,
       );
 
-    const pct = Math.round(
-      (score / maxScore) *
-        100,
-    );
+    const pct =
+      maxScore > 0
+        ? Math.round(
+            (score /
+              maxScore) *
+              100,
+          )
+        : 0;
 
     const pageUrl =
       encodeURIComponent(
         typeof window !==
           "undefined"
-          ? window.location
-              .href
+          ? window.location.href
           : "",
       );
 
     const shareText =
       encodeURIComponent(
-        `J’ai obtenu ${score} points au jeu "${game.title}" !`,
+        `J’ai obtenu ${score}/${maxScore} points au jeu "${game.title}" !`,
       );
 
     return (
       <>
         <div className="quizPanel">
+
           <div className="resultHeadQuiz">
+
             <div className="resultTop">
+
               <div>
+
                 <span className="resultKicker">
-                  Résultat du
-                  jeu
+                  Résultat du jeu
                 </span>
 
                 <h3 className="resultTitle">
                   {pct >= 80
                     ? "Excellent 🧠"
-                    : pct >=
-                        50
+                    : pct >= 50
                       ? "Bien joué 👏"
                       : "Continue 💪"}
                 </h3>
@@ -312,19 +349,22 @@ export function QuiSuisJePlayer({
                 <p className="resultSub">
                   Tu as obtenu{" "}
                   <strong>
-                    {score} points
+                    {score}/{maxScore} points
                   </strong>
                   .
                 </p>
+
               </div>
 
               <div
                 className="resultScoreCircle"
                 style={{
-                  background: `conic-gradient(#3055ff 0 ${pct}%, #e7ebff ${pct}% 100%)`,
+                  background:
+                    `conic-gradient(#3055ff 0 ${pct}%, #e7ebff ${pct}% 100%)`,
                 }}
               >
                 <div className="resultScoreInner">
+
                   <div className="resultScoreMain">
                     {score}
                   </div>
@@ -332,29 +372,28 @@ export function QuiSuisJePlayer({
                   <div className="resultScorePercent">
                     {pct}%
                   </div>
+
                 </div>
               </div>
+
             </div>
+
           </div>
 
           <div className="resultActions">
+
             <button
               className="quizBtnPrimary"
-              onClick={
-                restart
-              }
+              onClick={restart}
             >
               Rejouer
             </button>
 
             <button
               className="quizBtnShare"
-              onClick={
-                copyLink
-              }
+              onClick={copyLink}
             >
-              Copier le
-              lien
+              Copier le lien
             </button>
 
             {nextGame ? (
@@ -362,21 +401,19 @@ export function QuiSuisJePlayer({
                 className="quizBtnPrimaryOutline"
                 href={`/jeux/${nextGame.slug}`}
               >
-                Jeu suivant
-                →
+                Jeu suivant →
               </a>
             ) : null}
+
           </div>
 
           <div className="shareBar">
+
             <button
               className="shareBtn"
-              onClick={
-                copyLink
-              }
+              onClick={copyLink}
             >
-              Copier le
-              lien
+              Copier le lien
             </button>
 
             <button
@@ -411,7 +448,9 @@ export function QuiSuisJePlayer({
             >
               Facebook
             </button>
+
           </div>
+
         </div>
 
         {toast && (
@@ -426,7 +465,9 @@ export function QuiSuisJePlayer({
   return (
     <>
       <div className="quizPanel">
+
         <div className="quizTop">
+
           <span className="quizCounter">
             Énigme{" "}
             <strong>
@@ -438,13 +479,15 @@ export function QuiSuisJePlayer({
           <span className="quizScore">
             Score : {score}
           </span>
+
         </div>
 
         <div className="quizProgressBar">
           <div
             className="quizProgressFill"
             style={{
-              width: `${progress}%`,
+              width:
+                `${progress}%`,
             }}
           />
         </div>
@@ -454,6 +497,7 @@ export function QuiSuisJePlayer({
         </h3>
 
         <div className="quiHints">
+
           {visibleHints.map(
             (
               hint,
@@ -473,27 +517,25 @@ export function QuiSuisJePlayer({
               </div>
             ),
           )}
+
         </div>
 
         {!revealed ? (
           <>
+
             <div className="quiInputWrap">
+
               <input
                 type="text"
                 className="quiInput"
                 placeholder="Ta réponse..."
                 value={input}
-                onChange={(
-                  e,
-                ) =>
+                onChange={(e) =>
                   setInput(
-                    e.target
-                      .value,
+                    e.target.value,
                   )
                 }
-                onKeyDown={(
-                  e,
-                ) => {
+                onKeyDown={(e) => {
                   if (
                     e.key ===
                     "Enter"
@@ -501,6 +543,7 @@ export function QuiSuisJePlayer({
                     submitAnswer();
                   }
                 }}
+                autoComplete="off"
               />
 
               <button
@@ -511,20 +554,23 @@ export function QuiSuisJePlayer({
               >
                 Valider
               </button>
+
             </div>
 
             <button
               className="quizBtnGhost"
-              onClick={
-                nextHint
-              }
+              onClick={nextHint}
             >
-              Voir un autre
-              indice
+              {hintIndex + 1 <
+              current.hints.length
+                ? "Voir un autre indice"
+                : "Voir la réponse"}
             </button>
+
           </>
         ) : (
           <div className="quizExplain">
+
             <p
               style={{
                 margin: 0,
@@ -532,9 +578,7 @@ export function QuiSuisJePlayer({
             >
               Réponse :{" "}
               <strong>
-                {
-                  current.answer
-                }
+                {current.answer}
               </strong>
             </p>
 
@@ -549,15 +593,16 @@ export function QuiSuisJePlayer({
                   nextQuestion
                 }
               >
-                {step +
-                  1 >=
+                {step + 1 >=
                 total
                   ? "Voir le résultat"
                   : "Énigme suivante"}
               </button>
             </div>
+
           </div>
         )}
+
       </div>
 
       {toast && (

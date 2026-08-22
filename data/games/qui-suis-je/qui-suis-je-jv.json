@@ -21,46 +21,240 @@
       {
         "id": "mario",
         "answer": "Mario",
+        "acceptedAnswers": [
+          "Super Mario"
+        ],
         "hints": [
-          "Je suis l’un des personnages les plus célèbres du gaming.",
-          "Je porte souvent une casquette rouge et une moustache.",
-          "Je sauve régulièrement la princesse Peach."
+          "J’ai fait mes débuts au début des années 1980 sous un autre nom.",
+          "Mon frère Luigi m’accompagne dans de nombreuses aventures.",
+          "Je porte une casquette rouge et je tente régulièrement de sauver la princesse Peach."
         ]
       },
       {
         "id": "lara-croft",
         "answer": "Lara Croft",
+        "acceptedAnswers": [
+          "Lara"
+        ],
         "hints": [
-          "Je suis une aventurière connue dans le monde entier.",
-          "Mes aventures mêlent exploration et énigmes.",
-          "Je suis l’héroïne de Tomb Raider."
+          "Je suis apparue pour la première fois sur consoles et PC dans les années 1990.",
+          "Archéologie, tombeaux et civilisations anciennes rythment mes aventures.",
+          "Je suis l’héroïne de la série Tomb Raider."
         ]
       },
       {
         "id": "pikachu",
         "answer": "Pikachu",
+        "acceptedAnswers": [],
         "hints": [
-          "Je suis une créature très populaire du jeu vidéo japonais.",
-          "Je suis associé à l’électricité.",
-          "Je suis la mascotte emblématique de Pokémon."
+          "Dans mon univers, je porte le numéro 025.",
+          "Mes capacités sont principalement liées à l’électricité.",
+          "Je suis la créature jaune devenue la mascotte de Pokémon."
         ]
       },
       {
         "id": "kratos",
         "answer": "Kratos",
+        "acceptedAnswers": [],
         "hints": [
-          "Je suis un guerrier redouté au tempérament explosif.",
-          "Mon histoire est liée à la mythologie.",
-          "Je suis le héros principal de God of War."
+          "Mon passé est marqué par ma colère envers les dieux.",
+          "Après la Grèce antique, mes aventures m’ont conduit dans l’univers de la mythologie nordique.",
+          "Je suis le guerrier à la peau pâle héros de God of War."
         ]
       },
       {
         "id": "sonic",
         "answer": "Sonic",
+        "acceptedAnswers": [
+          "Sonic the Hedgehog"
+        ],
         "hints": [
-          "Je suis connu pour ma vitesse exceptionnelle.",
-          "Je suis un personnage bleu créé par Sega.",
-          "Je collectionne souvent des anneaux dorés."
+          "J’ai été créé au début des années 1990 pour devenir une figure majeure de ma console.",
+          "Mon principal ennemi est le Dr. Eggman.",
+          "Je suis un hérisson bleu célèbre pour ma vitesse et les anneaux que je collecte."
+        ]
+      },
+      {
+        "id": "link",
+        "answer": "Link",
+        "acceptedAnswers": [],
+        "hints": [
+          "Je suis apparu pour la première fois au milieu des années 1980.",
+          "La Triforce et le royaume d’Hyrule occupent une place centrale dans mes aventures.",
+          "Je suis le héros vêtu traditionnellement de vert de The Legend of Zelda."
+        ]
+      },
+      {
+        "id": "master-chief",
+        "answer": "Master Chief",
+        "acceptedAnswers": [
+          "Masterchief",
+          "John-117",
+          "John 117"
+        ],
+        "hints": [
+          "Je suis un supersoldat connu sous le matricule John-117.",
+          "Je combats notamment une alliance extraterrestre appelée le Covenant.",
+          "Mon armure verte est devenue l’un des symboles de la série Halo."
+        ]
+      },
+      {
+        "id": "pac-man",
+        "answer": "Pac-Man",
+        "acceptedAnswers": [
+          "Pacman",
+          "Pac Man"
+        ],
+        "hints": [
+          "Je suis apparu dans les salles d’arcade en 1980.",
+          "Quatre fantômes colorés cherchent constamment à m’attraper.",
+          "Je parcours des labyrinthes en mangeant des pac-gommes."
+        ]
+      },
+      {
+        "id": "geralt",
+        "answer": "Geralt de Riv",
+        "acceptedAnswers": [
+          "Geralt",
+          "Geralt de Rivia"
+        ],
+        "hints": [
+          "J’exerce un métier qui m’amène à traquer des créatures contre rémunération.",
+          "Ciri et Yennefer occupent une place essentielle dans mon histoire.",
+          "Je suis le sorceleur aux cheveux blancs héros de The Witcher."
+        ]
+      },
+      {
+        "id": "ezio-auditore",
+        "answer": "Ezio Auditore",
+        "acceptedAnswers": [
+          "Ezio",
+          "Ezio Auditore da Firenze"
+        ],
+        "hints": [
+          "Je suis né à Florence pendant la Renaissance italienne.",
+          "Mon histoire m’oppose notamment à l’ordre des Templiers.",
+          "Je suis l’un des assassins les plus célèbres de la saga Assassin’s Creed."
+        ]
+      },
+      {
+        "id": "kirby",
+        "answer": "Kirby",
+        "acceptedAnswers": [],
+        "hints": [
+          "Je vis sur la planète Popstar.",
+          "Je peux obtenir les pouvoirs de certains adversaires après les avoir absorbés.",
+          "Je suis un petit personnage rose capable d’aspirer presque tout ce qui m’entoure."
+        ]
+      },
+      {
+        "id": "solid-snake",
+        "answer": "Solid Snake",
+        "acceptedAnswers": [
+          "Snake"
+        ],
+        "hints": [
+          "Je suis un spécialiste de l’infiltration et des opérations clandestines.",
+          "Mon histoire est étroitement liée à Big Boss.",
+          "Je suis l’un des principaux héros de la saga Metal Gear."
+        ]
+      },
+      {
+        "id": "donkey-kong",
+        "answer": "Donkey Kong",
+        "acceptedAnswers": [
+          "DK"
+        ],
+        "hints": [
+          "Ma première apparition remonte à une borne d’arcade de 1981.",
+          "Diddy Kong est l’un de mes compagnons les plus connus.",
+          "Je suis un puissant gorille de Nintendo particulièrement amateur de bananes."
+        ]
+      },
+      {
+        "id": "cloud-strife",
+        "answer": "Cloud Strife",
+        "acceptedAnswers": [
+          "Cloud"
+        ],
+        "hints": [
+          "Je travaille d’abord comme mercenaire dans une immense cité industrielle.",
+          "Sephiroth est mon adversaire le plus emblématique.",
+          "Je suis le héros blond à l’épée gigantesque de Final Fantasy VII."
+        ]
+      },
+      {
+        "id": "samus-aran",
+        "answer": "Samus Aran",
+        "acceptedAnswers": [
+          "Samus"
+        ],
+        "hints": [
+          "Je travaille comme chasseuse de primes dans l’espace.",
+          "Les Pirates de l’espace et les Metroids font partie de mes ennemis les plus connus.",
+          "Sous mon armure se cache l’héroïne de la série Metroid."
+        ]
+      },
+      {
+        "id": "agent-47",
+        "answer": "Agent 47",
+        "acceptedAnswers": [
+          "47",
+          "Agent47"
+        ],
+        "hints": [
+          "Je suis identifiable par un code-barres tatoué à l’arrière du crâne.",
+          "Discrétion, déguisements et éliminations ciblées sont au cœur de mes missions.",
+          "Je suis l’assassin chauve en costume noir de la série Hitman."
+        ]
+      },
+      {
+        "id": "crash-bandicoot",
+        "answer": "Crash Bandicoot",
+        "acceptedAnswers": [
+          "Crash"
+        ],
+        "hints": [
+          "Je suis apparu pour la première fois en 1996.",
+          "Le docteur Neo Cortex est mon ennemi le plus célèbre.",
+          "Je suis un bandicoot orange devenu l’une des figures emblématiques de la première PlayStation."
+        ]
+      },
+      {
+        "id": "arthur-morgan",
+        "answer": "Arthur Morgan",
+        "acceptedAnswers": [
+          "Arthur"
+        ],
+        "hints": [
+          "Je fais partie d’un groupe dirigé par Dutch van der Linde.",
+          "Mon histoire se déroule à la fin de l’époque du Far West américain.",
+          "Je suis le personnage principal jouable de Red Dead Redemption 2."
+        ]
+      },
+      {
+        "id": "scorpion",
+        "answer": "Scorpion",
+        "acceptedAnswers": [
+          "Hanzo Hasashi"
+        ],
+        "hints": [
+          "Mon véritable nom est Hanzo Hasashi.",
+          "Je suis un combattant lié au clan Shirai Ryu.",
+          "Dans Mortal Kombat, je suis célèbre pour mon attaque au grappin accompagnée de « Get over here! »."
+        ]
+      },
+      {
+        "id": "steve-minecraft",
+        "answer": "Steve",
+        "acceptedAnswers": [
+          "Steve Minecraft",
+          "Steve de Minecraft"
+        ],
+        "hints": [
+          "Mon apparence est composée de formes volontairement très géométriques.",
+          "Je peux construire des outils, explorer des grottes et affronter des créatures la nuit.",
+          "Je suis l’un des personnages par défaut les plus célèbres de Minecraft."
         ]
       }
     ]

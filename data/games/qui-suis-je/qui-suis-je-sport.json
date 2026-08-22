@@ -21,46 +21,257 @@
       {
         "id": "michael-jordan",
         "answer": "Michael Jordan",
+        "acceptedAnswers": [
+          "Jordan",
+          "MJ"
+        ],
         "hints": [
-          "Je suis considéré comme une légende de mon sport.",
-          "J’ai marqué l’histoire des Chicago Bulls.",
-          "Mon numéro 23 est devenu mythique."
+          "J’ai remporté six titres dans le championnat professionnel nord-américain.",
+          "J’ai marqué l’histoire des Chicago Bulls dans les années 1990.",
+          "Mon numéro 23 et ma marque de chaussures sont devenus mondialement célèbres."
         ]
       },
       {
         "id": "serena-williams",
         "answer": "Serena Williams",
+        "acceptedAnswers": [
+          "Serena"
+        ],
         "hints": [
-          "J’ai remporté de nombreux titres du Grand Chelem.",
-          "Je suis l’une des joueuses les plus dominantes de l’histoire du tennis.",
-          "Ma sœur Venus a aussi marqué mon sport."
+          "J’ai remporté mon premier titre du Grand Chelem en simple à la fin des années 1990.",
+          "Ma carrière est étroitement liée à celle de ma sœur Venus.",
+          "Je suis l’une des plus grandes championnes de l’histoire du tennis."
         ]
       },
       {
         "id": "usain-bolt",
         "answer": "Usain Bolt",
+        "acceptedAnswers": [
+          "Bolt"
+        ],
         "hints": [
-          "Je suis célèbre pour ma vitesse exceptionnelle.",
-          "J’ai remporté plusieurs médailles d’or olympiques.",
+          "Je suis originaire de Jamaïque et j’ai dominé les épreuves de sprint pendant plusieurs années.",
+          "J’ai établi des records du monde sur 100 m et 200 m.",
           "On me surnomme souvent l’homme le plus rapide du monde."
         ]
       },
       {
         "id": "lionel-messi",
         "answer": "Lionel Messi",
+        "acceptedAnswers": [
+          "Messi",
+          "Leo Messi"
+        ],
         "hints": [
-          "Je suis connu pour ma technique et mes dribbles.",
-          "J’ai longtemps joué dans un célèbre club catalan.",
-          "J’ai remporté la Coupe du monde avec l’Argentine."
+          "J’ai quitté mon pays très jeune pour poursuivre ma formation en Europe.",
+          "J’ai passé l’essentiel de ma carrière européenne dans un grand club catalan.",
+          "J’ai remporté la Coupe du monde avec l’Argentine en 2022."
         ]
       },
       {
         "id": "michael-phelps",
         "answer": "Michael Phelps",
+        "acceptedAnswers": [
+          "Phelps"
+        ],
         "hints": [
-          "Je suis une légende des Jeux olympiques.",
-          "Mon sport se pratique dans l’eau.",
-          "Je détiens un nombre impressionnant de médailles d’or."
+          "J’ai participé à plusieurs éditions des Jeux olympiques et accumulé un palmarès exceptionnel.",
+          "Je suis spécialiste de la natation et notamment du papillon.",
+          "Je suis l’athlète le plus médaillé de l’histoire des Jeux olympiques."
+        ]
+      },
+      {
+        "id": "cristiano-ronaldo",
+        "answer": "Cristiano Ronaldo",
+        "acceptedAnswers": [
+          "Ronaldo",
+          "Cristiano",
+          "CR7"
+        ],
+        "hints": [
+          "Je suis né sur une île portugaise de l’Atlantique.",
+          "J’ai marqué l’histoire de Manchester United et du Real Madrid.",
+          "On me connaît aussi sous le surnom CR7."
+        ]
+      },
+      {
+        "id": "roger-federer",
+        "answer": "Roger Federer",
+        "acceptedAnswers": [
+          "Federer"
+        ],
+        "hints": [
+          "Je suis originaire de Suisse et j’ai longtemps été reconnu pour l’élégance de mon jeu.",
+          "J’ai remporté plusieurs fois Wimbledon.",
+          "Je fais partie du célèbre trio du tennis masculin avec Nadal et Djokovic."
+        ]
+      },
+      {
+        "id": "rafael-nadal",
+        "answer": "Rafael Nadal",
+        "acceptedAnswers": [
+          "Nadal",
+          "Rafa Nadal"
+        ],
+        "hints": [
+          "Je suis né sur une île espagnole de Méditerranée.",
+          "Une surface de tennis est particulièrement associée à ma domination.",
+          "Je suis surnommé le Roi de la terre battue."
+        ]
+      },
+      {
+        "id": "novak-djokovic",
+        "answer": "Novak Djokovic",
+        "acceptedAnswers": [
+          "Djokovic",
+          "Nole"
+        ],
+        "hints": [
+          "Je suis né à Belgrade et j’ai grandi dans les Balkans.",
+          "J’ai été numéro 1 mondial pendant un nombre record de semaines.",
+          "Je fais partie du Big Three avec Federer et Nadal."
+        ]
+      },
+      {
+        "id": "tiger-woods",
+        "answer": "Tiger Woods",
+        "acceptedAnswers": [
+          "Tiger",
+          "Woods"
+        ],
+        "hints": [
+          "J’ai remporté très jeune l’un des tournois les plus prestigieux de mon sport.",
+          "Ma carrière est étroitement liée au Masters d’Augusta.",
+          "Je suis l’un des golfeurs les plus célèbres de l’histoire."
+        ]
+      },
+      {
+        "id": "simone-biles",
+        "answer": "Simone Biles",
+        "acceptedAnswers": [
+          "Biles"
+        ],
+        "hints": [
+          "Plusieurs mouvements portent mon nom dans les règlements internationaux.",
+          "Je suis devenue une figure majeure des Jeux olympiques américains.",
+          "Je suis l’une des plus grandes gymnastes de tous les temps."
+        ]
+      },
+      {
+        "id": "lebron-james",
+        "answer": "LeBron James",
+        "acceptedAnswers": [
+          "LeBron",
+          "Lebron James",
+          "King James"
+        ],
+        "hints": [
+          "Je suis arrivé dans le championnat professionnel américain directement après le lycée.",
+          "J’ai porté notamment les couleurs de Cleveland, Miami et Los Angeles.",
+          "On me surnomme King James."
+        ]
+      },
+      {
+        "id": "muhammad-ali",
+        "answer": "Muhammad Ali",
+        "acceptedAnswers": [
+          "Mohamed Ali",
+          "Ali",
+          "Cassius Clay"
+        ],
+        "hints": [
+          "Je suis né sous le nom de Cassius Clay.",
+          "J’ai remporté l’or olympique avant de devenir champion du monde professionnel.",
+          "Je suis l’une des plus grandes légendes de l’histoire de la boxe."
+        ]
+      },
+      {
+        "id": "pele",
+        "answer": "Pelé",
+        "acceptedAnswers": [
+          "Pele",
+          "Edson Arantes do Nascimento"
+        ],
+        "hints": [
+          "J’ai commencé à représenter mon pays alors que j’étais encore adolescent.",
+          "J’ai remporté trois Coupes du monde avec le Brésil.",
+          "Je suis l’une des plus grandes légendes de l’histoire du football."
+        ]
+      },
+      {
+        "id": "diego-maradona",
+        "answer": "Diego Maradona",
+        "acceptedAnswers": [
+          "Maradona",
+          "Diego Armando Maradona"
+        ],
+        "hints": [
+          "J’ai porté le numéro 10 et suis devenu une immense figure populaire dans mon pays.",
+          "Ma carrière européenne est notamment liée à Naples.",
+          "Lors du Mondial 1986, un de mes buts est resté célèbre sous le nom de « Main de Dieu »."
+        ]
+      },
+      {
+        "id": "zinedine-zidane",
+        "answer": "Zinédine Zidane",
+        "acceptedAnswers": [
+          "Zinedine Zidane",
+          "Zidane",
+          "Zizou"
+        ],
+        "hints": [
+          "Je suis né à Marseille et j’ai joué au poste de milieu offensif.",
+          "J’ai inscrit deux buts de la tête lors d’une finale de Coupe du monde.",
+          "En France, on me surnomme souvent Zizou."
+        ]
+      },
+      {
+        "id": "ayrton-senna",
+        "answer": "Ayrton Senna",
+        "acceptedAnswers": [
+          "Senna"
+        ],
+        "hints": [
+          "Je suis brésilien et j’ai construit une grande partie de ma légende dans les années 1980 et 1990.",
+          "J’ai remporté trois titres de champion du monde de Formule 1.",
+          "Ma carrière s’est brutalement arrêtée lors du Grand Prix de Saint-Marin en 1994."
+        ]
+      },
+      {
+        "id": "lewis-hamilton",
+        "answer": "Lewis Hamilton",
+        "acceptedAnswers": [
+          "Hamilton"
+        ],
+        "hints": [
+          "J’ai débuté en Formule 1 avec McLaren.",
+          "J’ai remporté la majorité de mes titres mondiaux avec Mercedes.",
+          "Je partage le record de sept titres de champion du monde de Formule 1."
+        ]
+      },
+      {
+        "id": "teddy-riner",
+        "answer": "Teddy Riner",
+        "acceptedAnswers": [
+          "Riner"
+        ],
+        "hints": [
+          "Je suis français et j’évolue dans une catégorie de poids lourds.",
+          "J’ai remporté de nombreux titres mondiaux et olympiques.",
+          "Je suis l’une des plus grandes figures de l’histoire du judo français."
+        ]
+      },
+      {
+        "id": "tony-parker",
+        "answer": "Tony Parker",
+        "acceptedAnswers": [
+          "Parker",
+          "TP"
+        ],
+        "hints": [
+          "Je suis né en Belgique mais j’ai représenté la France au niveau international.",
+          "J’ai construit l’essentiel de ma carrière américaine avec les San Antonio Spurs.",
+          "Je suis l’un des basketteurs français les plus célèbres de l’histoire."
         ]
       }
     ]
