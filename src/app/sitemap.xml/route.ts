@@ -1,6 +1,9 @@
 import { getAllQuizzes, getAllCategories } from "@/lib/quizzes";
 import { getAllGames } from "@/lib/games";
-import { getAllPersonalityTests } from "@/lib/personalite";
+import {
+  getAllPersonalityTests,
+  getAllPersonalityCategories,
+} from "@/lib/personalite";
 import { categoryTopics } from "@/lib/category-topics";
 
 export function GET() {
@@ -39,7 +42,7 @@ export function GET() {
     },
 
     /* ---------------------------------------------------
-       CATÉGORIES PRINCIPALES
+       CATÉGORIES PRINCIPALES QUIZ
     --------------------------------------------------- */
 
     ...getAllCategories().map((category) => ({
@@ -50,14 +53,7 @@ export function GET() {
     })),
 
     /* ---------------------------------------------------
-       CLUSTERS / SOUS-CATÉGORIES SEO
-
-       Générés automatiquement depuis category-topics.ts
-
-       Exemples :
-       /categorie/geographie/pays-capitales
-       /categorie/sport/football
-       /categorie/serie-tv/series-cultes
+       CLUSTERS / SOUS-CATÉGORIES SEO QUIZ
     --------------------------------------------------- */
 
     ...Object.entries(categoryTopics).flatMap(
@@ -69,6 +65,17 @@ export function GET() {
           lastmod: today,
         })),
     ),
+
+    /* ---------------------------------------------------
+       CATÉGORIES TESTS DE PERSONNALITÉ
+    --------------------------------------------------- */
+
+    ...getAllPersonalityCategories().map((category) => ({
+      loc: `${BASE_URL}/personalite/categorie/${category.slug}`,
+      priority: "0.8",
+      changefreq: "weekly",
+      lastmod: today,
+    })),
 
     /* ---------------------------------------------------
        QUIZ
