@@ -3,13 +3,13 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 
 import {
-  getAllCategories,
-  getAllQuizzes,
-} from "@/lib/quizzes";
+  getAllPersonalityCategories,
+  getPersonalityTestsByCategory,
+} from "@/lib/personalite";
 
-import {
-  getTopicsForCategory,
-} from "@/lib/category-topics";
+/* -------------------------------------------------------
+   CONFIG
+------------------------------------------------------- */
 
 const SITE_URL = "https://www.quizup.fr";
 const PAGE_SIZE = 10;
@@ -18,7 +18,10 @@ function url(path: string) {
   return `${SITE_URL}${path}`;
 }
 
-function toInt(v: string | undefined, fallback = 1) {
+function toInt(
+  v: string | undefined,
+  fallback = 1,
+) {
   const n = Number.parseInt(v ?? "", 10);
 
   return Number.isFinite(n) && n > 0
@@ -31,10 +34,10 @@ function buildCategoryUrl(
   p?: number,
 ) {
   if (!p || p <= 1) {
-    return `/categorie/${slug}`;
+    return `/personalite/categorie/${slug}`;
   }
 
-  return `/categorie/${slug}?p=${p}`;
+  return `/personalite/categorie/${slug}?p=${p}`;
 }
 
 function getPageItems(
@@ -71,17 +74,17 @@ function getPageItems(
   const result: Array<number | "…"> = [];
 
   for (let i = 0; i < sorted.length; i++) {
-    const p = sorted[i];
-    const prev = sorted[i - 1];
+    const page = sorted[i];
+    const previousPage = sorted[i - 1];
 
     if (
       i > 0 &&
-      p - prev > 1
+      page - previousPage > 1
     ) {
       result.push("…");
     }
 
-    result.push(p);
+    result.push(page);
   }
 
   return result;
@@ -92,9 +95,11 @@ function getPageItems(
 ------------------------------------------------------- */
 
 export function generateStaticParams() {
-  return getAllCategories().map((c) => ({
-    slug: c.slug,
-  }));
+  return getAllPersonalityCategories().map(
+    (category) => ({
+      slug: category.slug,
+    }),
+  );
 }
 
 /* -------------------------------------------------------
@@ -117,7 +122,7 @@ export async function generateMetadata({
   const sp = await searchParams;
 
   const category =
-    getAllCategories().find(
+    getAllPersonalityCategories().find(
       (c) => c.slug === slug,
     );
 
@@ -132,16 +137,15 @@ export async function generateMetadata({
     };
   }
 
-  const quizzesCount =
-    getAllQuizzes().filter(
-      (q) =>
-        q.category.slug === slug,
-    ).length;
+  const tests =
+    getPersonalityTestsByCategory(
+      category.slug,
+    );
 
   const totalPages = Math.max(
     1,
     Math.ceil(
-      quizzesCount / PAGE_SIZE,
+      tests.length / PAGE_SIZE,
     ),
   );
 
@@ -155,28 +159,25 @@ export async function generateMetadata({
       ? totalPages
       : p;
 
-  const titleBase =
-    category.seoTitle ??
-    `Quiz ${category.name} gratuits en ligne | QuizUp`;
-
   const title =
     p > 1
-      ? `${titleBase} – Page ${p}`
-      : titleBase;
+      ? `${category.seoTitle} – Page ${p}`
+      : category.seoTitle;
 
-  const description =
-    category.seoDescription ??
-    `Découvre tous nos quiz de ${category.name} en 20 questions.`;
-
-  const canonical =
+  const canonicalPath =
     buildCategoryUrl(
-      slug,
+      category.slug,
       safePage,
     );
 
+  const canonical =
+    url(canonicalPath);
+
   return {
     title,
-    description,
+
+    description:
+      category.seoDescription,
 
     alternates: {
       canonical,
@@ -195,18 +196,21 @@ export async function generateMetadata({
 
     openGraph: {
       title,
-      description,
+
+      description:
+        category.seoDescription,
+
       url: canonical,
+
+      siteName: "QuizUp",
+      locale: "fr_FR",
       type: "website",
 
-      images: category.image
-        ? [
-            {
-              url:
-                `${SITE_URL}${category.image}`,
-            },
-          ]
-        : undefined,
+      images: [
+        {
+          url: url(category.image),
+        },
+      ],
     },
   };
 }
@@ -215,7 +219,7 @@ export async function generateMetadata({
    PAGE
 ------------------------------------------------------- */
 
-export default async function CategoryPage({
+export default async function PersonalityCategoryPage({
   params,
   searchParams,
 }: {
@@ -231,7 +235,7 @@ export default async function CategoryPage({
   const sp = await searchParams;
 
   const category =
-    getAllCategories().find(
+    getAllPersonalityCategories().find(
       (c) => c.slug === slug,
     );
 
@@ -240,60 +244,16 @@ export default async function CategoryPage({
   }
 
   /* -----------------------------------------------------
-     TOPICS / CLUSTERS DE LA CATÉGORIE
-
-     Géographie → 7 topics
-     Sport       → 9 topics
-
-     Les catégories sans topics retournent [].
+     TESTS DE LA CATÉGORIE
   ----------------------------------------------------- */
 
-  const categoryTopics =
-    getTopicsForCategory(
+  const allTests =
+    getPersonalityTestsByCategory(
       category.slug,
     );
 
-  const hasTopics =
-    categoryTopics.length > 0;
-
-  /* -----------------------------------------------------
-     HERO
-  ----------------------------------------------------- */
-
-  const heroImage =
-    `/images/category-hero/${category.slug}.jpg`;
-
-  /* -----------------------------------------------------
-     TOUS LES QUIZ DE LA CATÉGORIE
-  ----------------------------------------------------- */
-
-  const allQuizzes =
-    getAllQuizzes().filter(
-      (q) =>
-        q.category.slug ===
-        category.slug,
-    );
-
-  /* -----------------------------------------------------
-     QUIZ POPULAIRES DE LA CATÉGORIE
-
-     Le bloc sera affiché uniquement pour
-     les catégories possédant des clusters.
-  ----------------------------------------------------- */
-
-  const popularQuizzes =
-    allQuizzes
-      .filter(
-        (q) => q.isPopular,
-      )
-      .slice(0, 8);
-
-  /* -----------------------------------------------------
-     PAGINATION
-  ----------------------------------------------------- */
-
   const total =
-    allQuizzes.length;
+    allTests.length;
 
   const totalPages =
     Math.max(
@@ -313,8 +273,7 @@ export default async function CategoryPage({
   if (
     currentPage > totalPages
   ) {
-    currentPage =
-      totalPages;
+    currentPage = totalPages;
   }
 
   const start =
@@ -322,11 +281,10 @@ export default async function CategoryPage({
     PAGE_SIZE;
 
   const end =
-    start +
-    PAGE_SIZE;
+    start + PAGE_SIZE;
 
-  const quizzes =
-    allQuizzes.slice(
+  const tests =
+    allTests.slice(
       start,
       end,
     );
@@ -363,10 +321,10 @@ export default async function CategoryPage({
         position: 2,
 
         name:
-          "Quiz",
+          "Tests de personnalité",
 
         item:
-          url("/quiz"),
+          url("/personalite"),
       },
 
       {
@@ -380,7 +338,7 @@ export default async function CategoryPage({
 
         item:
           url(
-            `/categorie/${category.slug}`,
+            `/personalite/categorie/${category.slug}`,
           ),
       },
     ],
@@ -398,62 +356,29 @@ export default async function CategoryPage({
       "ItemList",
 
     name:
-      `Quiz ${category.name} – Page ${currentPage}`,
+      `Tests de personnalité ${category.name} – Page ${currentPage}`,
 
     itemListElement:
-      quizzes.map(
-        (q, i) => ({
+      tests.map(
+        (test, index) => ({
           "@type":
             "ListItem",
 
           position:
-            start + i + 1,
+            start +
+            index +
+            1,
 
           url:
             url(
-              `/quiz/${q.slug}`,
+              `/personalite/${test.slug}`,
             ),
 
           name:
-            q.title,
+            test.title,
         }),
       ),
   };
-
-  /* -----------------------------------------------------
-     FAQ JSON-LD
-  ----------------------------------------------------- */
-
-  const faqJsonLd =
-    category.faqs &&
-    category.faqs.length > 0
-      ? {
-          "@context":
-            "https://schema.org",
-
-          "@type":
-            "FAQPage",
-
-          mainEntity:
-            category.faqs.map(
-              (f) => ({
-                "@type":
-                  "Question",
-
-                name:
-                  f.q,
-
-                acceptedAnswer: {
-                  "@type":
-                    "Answer",
-
-                  text:
-                    f.a,
-                },
-              }),
-            ),
-        }
-      : null;
 
   return (
     <main className="page">
@@ -487,22 +412,6 @@ export default async function CategoryPage({
       />
 
       {/* -----------------------------------------------
-          JSON-LD : FAQ
-      ------------------------------------------------ */}
-
-      {faqJsonLd ? (
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html:
-              JSON.stringify(
-                faqJsonLd,
-              ),
-          }}
-        />
-      ) : null}
-
-      {/* -----------------------------------------------
           HERO
       ------------------------------------------------ */}
 
@@ -514,7 +423,7 @@ export default async function CategoryPage({
               rgba(0,0,0,.45),
               rgba(0,0,0,.55)
             ),
-            url("${heroImage}")
+            url("${category.image}")
           `,
         }}
       >
@@ -522,20 +431,18 @@ export default async function CategoryPage({
         <div className="heroLandingContent">
 
           <h1 className="heroLandingTitle">
-            Quiz {category.name}
+            Tests de personnalité {category.name}
           </h1>
 
           <p className="heroLandingSub">
-
-            {category.intro ??
-              `Découvre nos quiz de ${category.name} en 20 questions.`}
-
+            {category.intro}
           </p>
 
           <p className="pageSubtitle">
-
-            {allQuizzes.length} quiz disponibles
-
+            {total}{" "}
+            {total > 1
+              ? "tests disponibles"
+              : "test disponible"}
           </p>
 
         </div>
@@ -549,7 +456,7 @@ export default async function CategoryPage({
       <div className="categoryPageLayout">
 
         {/* ---------------------------------------------
-            BREADCRUMB VISIBLE
+            BREADCRUMB
         ---------------------------------------------- */}
 
         <nav
@@ -563,8 +470,8 @@ export default async function CategoryPage({
 
           {" › "}
 
-          <Link href="/quiz">
-            Quiz
+          <Link href="/personalite">
+            Tests de personnalité
           </Link>
 
           {" › "}
@@ -576,176 +483,7 @@ export default async function CategoryPage({
         </nav>
 
         {/* ---------------------------------------------
-            EXPLORER LA CATÉGORIE
-
-            Géographie :
-            Explorez Géographie
-
-            Sport :
-            Explorez Sport
-
-            Utilise exactement les mêmes
-            cartes verticales que la section
-            Catégories de la home.
-        ---------------------------------------------- */}
-
-        {hasTopics ? (
-
-          <section
-            className="
-              homeSection
-              homePart
-              geographyTopicsSection
-            "
-          >
-
-            <div className="sectionHead">
-
-              <h2 className="sectionTitle">
-                Explorez la catégorie {category.name}
-              </h2>
-
-            </div>
-
-            <div className="row">
-
-              <div
-                className="
-                  rowTrack
-                  rowTrack--categories
-                "
-              >
-
-                {categoryTopics.map(
-                  (topic) => (
-
-                    <Link
-                      key={
-                        topic.slug
-                      }
-                      href={
-                        `/categorie/${category.slug}/${topic.slug}`
-                      }
-                      className="catCard"
-                      style={{
-                        backgroundImage:
-                          `url("${topic.image ?? ""}")`,
-                      }}
-                      aria-label={
-                        `Explorer ${topic.name}`
-                      }
-                    >
-
-                      <span
-                        className="catCardOverlay"
-                      />
-
-                      <span
-                        className="catCardName"
-                      >
-                        {topic.name}
-                      </span>
-
-                    </Link>
-
-                  ),
-                )}
-
-              </div>
-
-            </div>
-
-          </section>
-
-        ) : null}
-
-        {/* ---------------------------------------------
-            QUIZ POPULAIRES DE LA CATÉGORIE
-
-            Affiché pour les catégories
-            possédant des clusters.
-        ---------------------------------------------- */}
-
-        {hasTopics &&
-        popularQuizzes.length > 0 ? (
-
-          <section
-            className="
-              homeSection
-              homePart
-             geographyTopicsSection
-            "
-          >
-
-            <div className="sectionHead">
-
-              <h2 className="sectionTitle">
-
-                Quiz populaires de la catégorie{" "}
-                {category.name}
-
-              </h2>
-
-            </div>
-
-            <div className="row">
-
-              <div className="rowTrack">
-
-                {popularQuizzes.map(
-                  (q) => (
-
-                    <Link
-                      key={
-                        q.slug
-                      }
-                      href={
-                        `/quiz/${q.slug}`
-                      }
-                      className="
-                        quizCard
-                        quizCard--categoryPopular
-                      "
-                      style={{
-                        backgroundImage:
-                          `url("${q.images?.cover ?? ""}")`,
-                      }}
-                      aria-label={
-                        `Lancer le quiz ${q.title}`
-                      }
-                    >
-
-                      <span
-                        className="quizCategory"
-                      >
-                        {q.category.name}
-                      </span>
-
-                      <span
-                        className="quizCardOverlay"
-                      />
-
-                      <span
-                        className="quizCardTitle"
-                      >
-                        {q.title}
-                      </span>
-
-                    </Link>
-
-                  ),
-                )}
-
-              </div>
-
-            </div>
-
-          </section>
-
-        ) : null}
-
-        {/* ---------------------------------------------
-            TOUS LES QUIZ
+            LISTE DES TESTS
         ---------------------------------------------- */}
 
         <section className="quizList">
@@ -753,34 +491,31 @@ export default async function CategoryPage({
           <div className="sectionHead">
 
             <h2 className="sectionTitle">
-
-              Tous les quiz{" "}
-              {category.name}
-
+              Tous les tests {category.name}
             </h2>
 
           </div>
 
-          {quizzes.map(
-            (quiz) => {
+          {tests.map(
+            (test) => {
 
               const img =
-                quiz.images?.thumbnail ||
-                quiz.images?.cover ||
+                test.images?.thumbnail ||
+                test.images?.cover ||
                 "/images/placeholder-thumb.jpg";
 
               return (
 
                 <Link
                   key={
-                    quiz.slug
+                    test.slug
                   }
                   href={
-                    `/quiz/${quiz.slug}`
+                    `/personalite/${test.slug}`
                   }
                   className="quizRow"
                   aria-label={
-                    `Ouvrir le quiz ${quiz.title}`
+                    `Ouvrir le test ${test.title}`
                   }
                 >
 
@@ -804,13 +539,13 @@ export default async function CategoryPage({
                       <span
                         className="quizRowCategory"
                       >
-                        {quiz.category.name}
+                        {category.name}
                       </span>
 
                       <span
                         className="quizRowMeta"
                       >
-                        {quiz.questions.length} questions
+                        {test.questions.length} questions
                       </span>
 
                     </div>
@@ -818,15 +553,15 @@ export default async function CategoryPage({
                     <h2
                       className="quizRowTitle"
                     >
-                      {quiz.title}
+                      {test.title}
                     </h2>
 
-                    {quiz.description ? (
+                    {test.description ? (
 
                       <p
                         className="quizRowDesc"
                       >
-                        {quiz.description}
+                        {test.description}
                       </p>
 
                     ) : null}
@@ -849,7 +584,7 @@ export default async function CategoryPage({
 
           <nav
             className="pager"
-            aria-label="Pagination catégorie"
+            aria-label={`Pagination ${category.name}`}
           >
 
             {/* PRÉCÉDENT */}
@@ -893,18 +628,15 @@ export default async function CategoryPage({
                 currentPage,
                 totalPages,
               ).map(
-                (item, idx) => {
+                (item, index) => {
 
                   if (
                     item === "…"
                   ) {
-
                     return (
 
                       <span
-                        key={
-                          `dots-${idx}`
-                        }
+                        key={`dots-${index}`}
                         className="pagerDots"
                         aria-hidden="true"
                       >
@@ -920,32 +652,26 @@ export default async function CategoryPage({
                   return (
 
                     <Link
-                      key={
-                        page
-                      }
+                      key={page}
                       href={
                         buildCategoryUrl(
                           category.slug,
                           page,
                         )
                       }
-                      className={
-                        `pagerNum ${
-                          page ===
-                          currentPage
-                            ? "isActive"
-                            : ""
-                        }`
-                      }
+                      className={`pagerNum ${
+                        page ===
+                        currentPage
+                          ? "isActive"
+                          : ""
+                      }`}
                       aria-current={
                         page ===
                         currentPage
                           ? "page"
                           : undefined
                       }
-                      title={
-                        `Page ${page}`
-                      }
+                      title={`Page ${page}`}
                     >
                       {page}
                     </Link>
@@ -994,41 +720,26 @@ export default async function CategoryPage({
         ) : null}
 
         {/* ---------------------------------------------
-            FAQ
+            RETOUR
         ---------------------------------------------- */}
 
-        {category.faqs &&
-        category.faqs.length > 0 ? (
+        <div
+          style={{
+            marginTop: "32px",
+            marginBottom: "32px",
+          }}
+        >
 
-          <section className="faq">
+          <Link
+            href="/personalite"
+            style={{
+              fontWeight: 600,
+            }}
+          >
+            ← Voir tous les tests de personnalité
+          </Link>
 
-            <h2>
-              Questions fréquentes
-            </h2>
-
-            {category.faqs.map(
-              (f, i) => (
-
-                <details
-                  key={i}
-                >
-
-                  <summary>
-                    {f.q}
-                  </summary>
-
-                  <p>
-                    {f.a}
-                  </p>
-
-                </details>
-
-              ),
-            )}
-
-          </section>
-
-        ) : null}
+        </div>
 
       </div>
 
