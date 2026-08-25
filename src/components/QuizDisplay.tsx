@@ -58,7 +58,9 @@ export function QuizDisplay({
       const moreHeight = moreEl?.offsetHeight ?? 0;
       const paddingTop = parseFloat(relatedStyles.paddingTop || "0");
       const paddingBottom = parseFloat(relatedStyles.paddingBottom || "0");
-      const rowGap = parseFloat(relatedStyles.rowGap || relatedStyles.gap || "0");
+      const rowGap = parseFloat(
+        relatedStyles.rowGap || relatedStyles.gap || "0",
+      );
 
       const availableHeight =
         quizHeight -
@@ -77,9 +79,17 @@ export function QuizDisplay({
       syncHeights();
     });
 
-    if (quizRef.current) resizeObserver.observe(quizRef.current);
-    if (titleRef.current) resizeObserver.observe(titleRef.current);
-    if (moreRef.current) resizeObserver.observe(moreRef.current);
+    if (quizRef.current) {
+      resizeObserver.observe(quizRef.current);
+    }
+
+    if (titleRef.current) {
+      resizeObserver.observe(titleRef.current);
+    }
+
+    if (moreRef.current) {
+      resizeObserver.observe(moreRef.current);
+    }
 
     window.addEventListener("resize", syncHeights);
 
@@ -89,23 +99,46 @@ export function QuizDisplay({
     };
   }, []);
 
-  const itemHrefBase = type === "personality" ? "/personalite" : "/quiz";
+  const itemHrefBase =
+    type === "personality"
+      ? "/personalite"
+      : "/quiz";
+
   const categoryHrefBase =
-    type === "personality" ? "/categorie-test" : "/categorie";
+    type === "personality"
+      ? "/personalite/categorie"
+      : "/categorie";
 
   return (
-    <div ref={wrapperRef} className="quiz-display">
-      <div ref={quizRef} className="quiz-display-main">
+    <div
+      ref={wrapperRef}
+      className="quiz-display"
+    >
+      <div
+        ref={quizRef}
+        className="quiz-display-main"
+      >
         {children}
       </div>
 
       {related.length > 0 ? (
-        <section ref={relatedRef} className="related">
-          <h2 ref={titleRef} className="sectionTitle">
-            {type === "personality" ? "Tests similaires" : "Quiz similaires"}
+        <section
+          ref={relatedRef}
+          className="related"
+        >
+          <h2
+            ref={titleRef}
+            className="sectionTitle"
+          >
+            {type === "personality"
+              ? "Tests similaires"
+              : "Quiz similaires"}
           </h2>
 
-          <div ref={gridRef} className="relatedGrid">
+          <div
+            ref={gridRef}
+            className="relatedGrid"
+          >
             {related.map((item) => {
               const img =
                 item.images?.thumbnail ||
@@ -117,20 +150,30 @@ export function QuizDisplay({
                   key={item.slug}
                   href={`${itemHrefBase}/${item.slug}`}
                   className="relatedCard"
-                  style={{ backgroundImage: `url("${img}")` }}
+                  style={{
+                    backgroundImage: `url("${img}")`,
+                  }}
                 >
                   <span className="relatedCardOverlay" />
-                  <h3 className="relatedCardTitle">{item.title}</h3>
+
+                  <h3 className="relatedCardTitle">
+                    {item.title}
+                  </h3>
                 </Link>
               );
             })}
           </div>
 
-          <p ref={moreRef} className="relatedMore">
-            <Link href={`${categoryHrefBase}/${categorySlug}`}>
+          <p
+            ref={moreRef}
+            className="relatedMore"
+          >
+            <Link
+              href={`${categoryHrefBase}/${categorySlug}`}
+            >
               {type === "personality"
-                ? `Voir tous les tests de ${categoryName} →`
-                : `Voir tous les quiz de ${categoryName} →`}
+                ? `Voir tous les tests ${categoryName} →`
+                : `Voir tous les quiz ${categoryName} →`}
             </Link>
           </p>
         </section>
