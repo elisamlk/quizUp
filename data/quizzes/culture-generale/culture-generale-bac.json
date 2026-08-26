@@ -1,0 +1,261 @@
+{
+  "slug": "quiz-culture-generale-bac",
+  "title": "Quiz Culture Générale - Niveau lycée – Auriez-vous votre bac aujourd'hui ?",
+  "description": "Maths, physique, SVT, littérature, histoire-géo, philo, arts… 20 questions niveau lycée pour tester si tu mérites encore ton bac !",
+  "publishedAt": "2026-08-26",
+  "descriptionSeo": "Le lycée est peut-être loin derrière toi, mais que reste-t-il vraiment de tes cours ? Maths, histoire, littérature, sciences, géographie, philosophie ou économie : affronte 20 questions inspirées des connaissances acquises au lycée et découvre si tu pourrais encore t'en sortir aujourd'hui. Certaines réponses semblent évidentes, d'autres risquent de réveiller de vieux souvenirs de cours. À toi de voir si tu as encore le niveau !",
+  "category": {
+    "name": "Culture générale",
+    "slug": "culture-generale"
+  },
+  "createdAt": "2026-08-26",
+  "isNew": true,
+  "isPopular": false,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1787746838/bac_fothqm.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1787746838/bac_fothqm.jpg",
+    "alt": "Quiz culture générale niveau lycée auriez-vous votre bac"
+  },
+  "questions": [
+    {
+      "id": "1",
+      "question": "Quelle est la dérivée de la fonction f(x) = x² ?",
+      "answers": [
+        "f'(x) = 2x",
+        "f'(x) = x",
+        "f'(x) = 2",
+        "f'(x) = x² + 1"
+      ],
+      "correctIndex": 0,
+      "explanation": "La règle de dérivation des fonctions puissances stipule que si f(x) = xⁿ, alors f'(x) = n·xⁿ⁻¹. Ici, n = 2, donc f'(x) = 2·x²⁻¹ = 2x. La dérivée mesure le taux de variation instantané d'une fonction — concrètement, la pente de la tangente à sa courbe en chaque point. En physique, la dérivée de la position par rapport au temps donne la vitesse ; la dérivée de la vitesse donne l'accélération."
+    },
+    {
+      "id": "2",
+      "question": "Quel élément chimique se cache derrière le symbole Fe dans le tableau périodique ?",
+      "answers": [
+        "Le fluor",
+        "Le francium",
+        "Le fer",
+        "Le fermium"
+      ],
+      "correctIndex": 2,
+      "explanation": "Fe est le symbole du fer, du latin ferrum. Le fer est l'élément de numéro atomique 26 et appartient aux métaux de transition. C'est l'un des métaux les plus abondants dans la croûte terrestre et le principal constituant du noyau terrestre. Le fer est aussi indispensable à la vie : il est présent dans l'hémoglobine, la protéine qui transporte l'oxygène dans le sang."
+    },
+    {
+      "id": "3",
+      "question": "Que produit la photosynthèse dans les cellules végétales à partir de CO₂ et d'eau ?",
+      "answers": [
+        "De l'éthanol et de l'azote",
+        "De l'acide lactique et du CO₂",
+        "De l'ATP et du méthane",
+        "Du glucose et de l'oxygène"
+      ],
+      "correctIndex": 3,
+      "explanation": "La photosynthèse est la réaction : 6 CO₂ + 6 H₂O + énergie lumineuse → C₆H₁₂O₆ (glucose) + 6 O₂. Les chloroplastes captent l'énergie solaire grâce à la chlorophylle pour synthétiser du glucose, source d'énergie pour la plante, et libèrent de l'oxygène comme sous-produit. C'est le fondement de la quasi-totalité des chaînes alimentaires sur Terre."
+    },
+    {
+      "id": "4",
+      "question": "Quel événement parisien du 14 juillet 1789 symbolise traditionnellement le début de la Révolution française ?",
+      "answers": [
+        "La nuit du 4 août",
+        "La prise de la Bastille",
+        "La Déclaration des droits de l'Homme",
+        "La fuite de Louis XVI à Varennes"
+      ],
+      "correctIndex": 1,
+      "explanation": "La prise de la Bastille, forteresse et prison royale de Paris, le 14 juillet 1789 est considérée comme le déclencheur symbolique de la Révolution française. La Bastille représentait le pouvoir absolu et l'arbitraire royal. Sa prise par les Parisiens fut accueillie comme une victoire du peuple sur le despotisme. Le 14 juillet est depuis 1880 la fête nationale française."
+    },
+    {
+      "id": "5",
+      "question": "Quel écrivain français est l'auteur des Misérables ?",
+      "answers": [
+        "Victor Hugo",
+        "Gustave Flaubert",
+        "Honoré de Balzac",
+        "Émile Zola"
+      ],
+      "correctIndex": 0,
+      "explanation": "Les Misérables (1862) est l'œuvre maîtresse de Victor Hugo (1802-1885). Ce roman retrace le destin de Jean Valjean, ancien forçat qui cherche à se réhabiliter dans une société marquée par les inégalités. Hugo y mêle l'histoire, la politique et la réflexion sociale, notamment à travers les barricades de l'insurrection républicaine de juin 1832. Le roman a depuis été adapté en comédie musicale mondiale et en de nombreux films."
+    },
+    {
+      "id": "6",
+      "question": "Quel est le plus grand pays du monde en superficie ?",
+      "answers": [
+        "Les États-Unis",
+        "Le Canada",
+        "La Russie",
+        "La Chine"
+      ],
+      "correctIndex": 2,
+      "explanation": "La Russie est le plus grand pays du monde avec une superficie d'environ 17 millions de km², soit près de deux fois la superficie du Canada (environ 10 millions de km²), qui se classe deuxième. La Russie s'étend sur onze fuseaux horaires, de la Baltique jusqu'au Pacifique. Malgré cette immensité, la Russie possède une densité de population relativement faible, une grande partie de son territoire étant très peu peuplée."
+    },
+    {
+      "id": "7",
+      "question": "À quel philosophe doit-on la formule « Cogito ergo sum » (Je pense, donc je suis) ?",
+      "answers": [
+        "Blaise Pascal",
+        "John Locke",
+        "Immanuel Kant",
+        "René Descartes"
+      ],
+      "correctIndex": 3,
+      "explanation": "René Descartes (1596-1650) formula le cogito dans le Discours de la méthode (1637) et les Méditations métaphysiques (1641). Partant d'un doute radical sur tout ce qui peut être remis en question, il conclut que l'acte même de douter prouve l'existence d'un sujet pensant. Cette première certitude inébranlable (« je pense, donc je suis ») fonde toute sa philosophie. Descartes est souvent présenté comme le père de la philosophie moderne."
+    },
+    {
+      "id": "8",
+      "question": "Quelle est l'unité de résistance électrique dans le Système international d'unités (SI) ?",
+      "answers": [
+        "Le volt (V)",
+        "L'ohm (Ω)",
+        "Le watt (W)",
+        "L'ampère (A)"
+      ],
+      "correctIndex": 1,
+      "explanation": "L'ohm (Ω) est l'unité de résistance électrique, en hommage au physicien allemand Georg Ohm (1789-1854) qui formula la loi fondamentale des circuits électriques : U = R × I, où U est la tension en volts, R la résistance en ohms et I l'intensité en ampères. Un conducteur a une résistance de 1 Ω quand une tension de 1 V y crée un courant de 1 A. En pratique, c'est cette relation qui permet de dimensionner les résistances dans les circuits électroniques du quotidien."
+    },
+    {
+      "id": "9",
+      "question": "Qui a peint Guernica (1937), œuvre devenue symbole mondial de la violence de la guerre ?",
+      "answers": [
+        "Henri Matisse",
+        "Salvador Dalí",
+        "Pablo Picasso",
+        "Joan Miró"
+      ],
+      "correctIndex": 2,
+      "explanation": "Guernica fut peinte par Pablo Picasso (1881-1973) en réaction au bombardement de la ville basque de Guernica par les avions nazis et fascistes pendant la guerre civile espagnole (avril 1937). Cette huile sur toile de grandes dimensions (3,49 × 7,77 m), en noir, blanc et gris, représente la souffrance des civils sous les bombes. Picasso refusa que l'œuvre soit envoyée en Espagne tant que la démocratie n'y serait pas rétablie. Elle est aujourd'hui au musée Reina Sofía de Madrid."
+    },
+    {
+      "id": "10",
+      "question": "Quel est l'ensemble de définition (domaine) de la fonction logarithme naturel ln(x) ?",
+      "answers": [
+        "]0 ; +∞[ (les réels strictement positifs)",
+        "ℝ (tous les réels)",
+        "]-∞ ; 0[ (les réels strictement négatifs)",
+        "ℝ* (les réels non nuls)"
+      ],
+      "correctIndex": 0,
+      "explanation": "La fonction ln(x) n'est définie que pour les réels strictement positifs (x > 0), soit l'intervalle ]0 ; +∞[. On ne peut pas prendre le logarithme d'un nombre nul ou négatif dans les réels. La courbe représentative de ln(x) passe par le point (1 ; 0) — car ln(1) = 0 — et tend vers −∞ quand x tend vers 0⁺. La fonction ln est la réciproque de la fonction exponentielle : ln(eˣ) = x et e^(ln(x)) = x pour tout x > 0."
+    },
+    {
+      "id": "11",
+      "question": "Quelle est la capitale de l'Australie ?",
+      "answers": [
+        "Sydney",
+        "Canberra",
+        "Melbourne",
+        "Brisbane"
+      ],
+      "correctIndex": 1,
+      "explanation": "Canberra est la capitale fédérale de l'Australie depuis 1913. Elle fut construite comme compromis entre Sydney et Melbourne, les deux plus grandes villes qui se disputaient le titre de capitale. Canberra abrite le Parlement australien, les principales institutions fédérales et de nombreux musées. Avec environ 450 000 habitants, elle n'est que la huitième ville du pays en population, loin derrière Sydney (environ 5 millions) et Melbourne (environ 5 millions)."
+    },
+    {
+      "id": "12",
+      "question": "Quelle est la capitale du Brésil ?",
+      "answers": [
+        "Rio de Janeiro",
+        "São Paulo",
+        "Salvador de Bahia",
+        "Brasília"
+      ],
+      "correctIndex": 3,
+      "explanation": "Brasília est la capitale fédérale du Brésil depuis 1960. Construite dans l'intérieur du pays afin notamment de favoriser le développement du territoire, elle a été conçue selon le plan urbanistique de Lúcio Costa, avec de nombreux bâtiments dessinés par Oscar Niemeyer. Son ensemble urbain est inscrit au patrimoine mondial de l'UNESCO depuis 1987. Rio de Janeiro fut la capitale jusqu'en 1960 ; São Paulo est la plus grande ville du pays mais n'a jamais été capitale."
+    },
+    {
+      "id": "13",
+      "question": "Lors de la conférence de Yalta, en février 1945, quels trois dirigeants alliés se réunirent pour organiser l'après-guerre ?",
+      "answers": [
+        "De Gaulle, Eisenhower et Staline",
+        "Churchill, Truman et Staline",
+        "Churchill, Roosevelt et Staline",
+        "Churchill, Roosevelt et De Gaulle"
+      ],
+      "correctIndex": 2,
+      "explanation": "La conférence de Yalta (4-11 février 1945) réunit Winston Churchill (Royaume-Uni), Franklin D. Roosevelt (États-Unis) et Joseph Staline (URSS) en Crimée. Ils discutèrent notamment de l'occupation de l'Allemagne, du sort de la Pologne, de l'organisation de l'Europe libérée et de l'entrée de l'URSS en guerre contre le Japon. Roosevelt mourut en avril 1945, remplacé par Harry Truman, qui conduisit la fin de la guerre dans le Pacifique. De Gaulle ne participa pas à la conférence de Yalta."
+    },
+    {
+      "id": "14",
+      "question": "Quelle molécule porte l'information génétique dans les cellules et est constituée de quatre bases azotées : A, T, G et C ?",
+      "answers": [
+        "L'ADN (acide désoxyribonucléique)",
+        "L'ARN messager (ARNm)",
+        "L'ATP (adénosine triphosphate)",
+        "Les protéines ribosomales"
+      ],
+      "correctIndex": 0,
+      "explanation": "L'ADN (acide désoxyribonucléique) est la molécule qui porte l'information génétique. Elle est composée de deux brins antiparallèles enroulés en double hélice, reliés par des liaisons entre les bases azotées : adénine (A) s'apparie avec thymine (T), et guanine (G) avec cytosine (C). La structure en double hélice fut décrite en 1953 par Watson et Crick grâce aux travaux de Rosalind Franklin. Les gènes sont des séquences d'ADN contenant l'information nécessaire à la production de protéines ou d'ARN fonctionnels."
+    },
+    {
+      "id": "15",
+      "question": "Qui a écrit L'Étranger, roman dont le héros Meursault est jugé pour son indifférence aux conventions sociales autant que pour ses actes ?",
+      "answers": [
+        "Jean-Paul Sartre",
+        "Simone de Beauvoir",
+        "André Gide",
+        "Albert Camus"
+      ],
+      "correctIndex": 3,
+      "explanation": "L'Étranger (1942) est le premier roman d'Albert Camus (1913-1960). Son héros, Meursault, un Français d'Algérie, vit de façon détachée, sans conformer ses réactions aux attentes sociales. Au cours de son procès, son comportement lors de l'enterrement de sa mère prend une place considérable : la société semble juger autant son absence de conformité aux normes sociales que le crime lui-même. Ce roman illustre la philosophie de l'absurde : l'homme cherche du sens dans un monde qui n'en offre pas. Camus reçut le prix Nobel de littérature en 1957."
+    },
+    {
+      "id": "16",
+      "question": "Quelle est la valeur approximative de la vitesse de la lumière dans le vide ?",
+      "answers": [
+        "30 000 km/s",
+        "300 000 km/s",
+        "3 000 000 km/s",
+        "3 000 km/s"
+      ],
+      "correctIndex": 1,
+      "explanation": "La vitesse de la lumière dans le vide est notée c et vaut exactement 299 792 458 m/s, soit environ 300 000 km/s ou 3 × 10⁸ m/s. C'est la vitesse maximale dans l'univers selon la théorie de la relativité restreinte d'Einstein (1905). La lumière met environ 8 minutes pour parcourir la distance Terre-Soleil (150 millions de km), et environ 4 ans pour atteindre l'étoile la plus proche, Proxima Centauri."
+    },
+    {
+      "id": "17",
+      "question": "Quel philosophe de l'Antiquité grecque, disciple de Socrate, a écrit La République et fondé l'Académie à Athènes ?",
+      "answers": [
+        "Aristote",
+        "Épicure",
+        "Platon",
+        "Héraclite"
+      ],
+      "correctIndex": 2,
+      "explanation": "Platon (428-348 av. J.-C.) fut l'élève de Socrate et le maître d'Aristote, formant ainsi le cœur de la philosophie grecque classique. Dans La République, il expose sa vision de la cité idéale gouvernée par des philosophes-rois et développe la célèbre allégorie de la caverne : des hommes enchaînés dans une grotte ne voient que des ombres projetées et confondent ces ombres avec la réalité. Cette allégorie illustre le chemin vers la connaissance et la nécessité de l'éducation. Platon fonda l'Académie d'Athènes, dont l'influence fut considérable sur l'histoire de la philosophie et de l'enseignement dans le monde occidental."
+    },
+    {
+      "id": "18",
+      "question": "Quel événement majeur du 11 novembre 1918 mit fin aux combats de la Première Guerre mondiale ?",
+      "answers": [
+        "L'armistice de Compiègne, signé entre les Alliés et l'Allemagne",
+        "La capitulation de Vienne et la dissolution de l'Empire austro-hongrois",
+        "La signature du traité de Versailles par l'Allemagne",
+        "La mort du Kaiser Guillaume II, qui entraîna l'arrêt immédiat des combats"
+      ],
+      "correctIndex": 0,
+      "explanation": "L'armistice du 11 novembre 1918 fut signé dans un wagon de chemin de fer en forêt de Compiègne entre les représentants alliés (dont le maréchal Foch) et l'Allemagne. Les combats cessèrent à 11 heures du matin (la onzième heure du onzième jour du onzième mois). La Première Guerre mondiale avait fait environ 10 millions de morts militaires et autant de civils. La paix avec l'Allemagne fut ensuite formalisée par le traité de Versailles, signé le 28 juin 1919."
+    },
+    {
+      "id": "19",
+      "question": "Quelle est la valeur du pH d'une solution neutre, comme l'eau pure à 25 °C ?",
+      "answers": [
+        "0",
+        "7",
+        "14",
+        "10"
+      ],
+      "correctIndex": 1,
+      "explanation": "Le pH (potentiel hydrogène) est une mesure de l'acidité ou de la basicité d'une solution. Une solution neutre a un pH de 7. En dessous de 7, la solution est acide (jus de citron ≈ 2, café ≈ 5). Au-dessus de 7, elle est basique (savon ≈ 9, eau de Javel ≈ 13). Le pH est défini comme −log₁₀([H₃O⁺]), où [H₃O⁺] est la concentration en ions oxonium. Le pH s'avère essentiel en biologie et médecine : notre sang, légèrement basique (pH ≈ 7,4), doit rester dans une plage très étroite pour que les enzymes fonctionnent correctement."
+    },
+    {
+      "id": "20",
+      "question": "En économie, que mesure le PIB (Produit intérieur brut) d'un pays ?",
+      "answers": [
+        "Le montant total des importations et exportations d'un pays sur une année",
+        "Le revenu moyen par habitant, ajusté en fonction de l'inflation",
+        "Le montant total de la dette publique accumulée par l'État",
+        "La valeur totale des biens et services produits dans un pays sur une période"
+      ],
+      "correctIndex": 3,
+      "explanation": "Le PIB (Produit intérieur brut) mesure la valeur marchande de l'ensemble des biens et services finaux produits sur le territoire national au cours d'une période (généralement un an). C'est l'indicateur économique le plus utilisé pour mesurer la richesse produite et comparer les économies. Le PIB peut être calculé par la somme des valeurs ajoutées, par les dépenses finales ou par les revenus. Il présente cependant des limites : il ne mesure pas le bien-être, l'inégalité ou les activités non marchandes."
+    }
+  ]
+}
