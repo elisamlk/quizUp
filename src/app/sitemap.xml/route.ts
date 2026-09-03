@@ -1,18 +1,45 @@
-import { getAllQuizzes, getAllCategories } from "@/lib/quizzes";
-import { getAllGames } from "@/lib/games";
+import {
+  getAllQuizzes,
+  getAllCategories,
+} from "@/lib/quizzes";
+
+import {
+  getAllGames,
+} from "@/lib/games";
+
 import {
   getAllPersonalityTests,
   getAllPersonalityCategories,
 } from "@/lib/personalite";
-import { categoryTopics } from "@/lib/category-topics";
+
+import {
+  categoryTopics,
+} from "@/lib/category-topics";
+
+import {
+  getAvailableMapChallenges,
+} from "@/lib/defi-carte/challenges";
 
 export function GET() {
-  const BASE_URL = "https://www.quizup.fr";
+  const BASE_URL =
+    "https://www.quizup.fr";
 
   // Format YYYY-MM-DD
-  const today = new Date().toISOString().split("T")[0];
+  const today =
+    new Date()
+      .toISOString()
+      .split("T")[0];
+
+  const mapChallenges =
+    getAvailableMapChallenges();
 
   const urls = [
+    /*
+     * ==================================================
+     * PAGES PRINCIPALES
+     * ==================================================
+     */
+
     {
       loc: `${BASE_URL}/`,
       priority: "1.0",
@@ -41,77 +68,174 @@ export function GET() {
       lastmod: today,
     },
 
-    /* ---------------------------------------------------
-       CATÉGORIES PRINCIPALES QUIZ
-    --------------------------------------------------- */
+    /*
+     * ==================================================
+     * DÉFI CARTE
+     * ==================================================
+     */
 
-    ...getAllCategories().map((category) => ({
-      loc: `${BASE_URL}/categorie/${category.slug}`,
-      priority: "0.8",
+    {
+      loc: `${BASE_URL}/jeux/defi-carte`,
+      priority: "0.9",
       changefreq: "weekly",
       lastmod: today,
-    })),
+    },
 
-    /* ---------------------------------------------------
-       CLUSTERS / SOUS-CATÉGORIES SEO QUIZ
-    --------------------------------------------------- */
+    ...mapChallenges.map(
+      (challenge) => ({
+        loc:
+          `${BASE_URL}/jeux/defi-carte/${challenge.slug}`,
 
-    ...Object.entries(categoryTopics).flatMap(
-      ([categorySlug, topics]) =>
-        topics.map((topic) => ({
-          loc: `${BASE_URL}/categorie/${categorySlug}/${topic.slug}`,
-          priority: "0.8",
-          changefreq: "weekly",
-          lastmod: today,
-        })),
+        priority: "0.8",
+
+        changefreq: "monthly",
+
+        lastmod: today,
+      })
     ),
 
-    /* ---------------------------------------------------
-       CATÉGORIES TESTS DE PERSONNALITÉ
-    --------------------------------------------------- */
+    /*
+     * ==================================================
+     * CATÉGORIES PRINCIPALES QUIZ
+     * ==================================================
+     */
 
-    ...getAllPersonalityCategories().map((category) => ({
-      loc: `${BASE_URL}/personalite/categorie/${category.slug}`,
-      priority: "0.8",
-      changefreq: "weekly",
-      lastmod: today,
-    })),
+    ...getAllCategories().map(
+      (category) => ({
+        loc:
+          `${BASE_URL}/categorie/${category.slug}`,
 
-    /* ---------------------------------------------------
-       QUIZ
-    --------------------------------------------------- */
+        priority: "0.8",
 
-    ...getAllQuizzes().map((quiz) => ({
-      loc: `${BASE_URL}/quiz/${quiz.slug}`,
-      priority: "0.7",
-      changefreq: "monthly",
-      lastmod: today,
-    })),
+        changefreq: "weekly",
 
-    /* ---------------------------------------------------
-       JEUX
-    --------------------------------------------------- */
+        lastmod: today,
+      })
+    ),
 
-    ...getAllGames().map((game) => ({
-      loc: `${BASE_URL}/jeux/${game.slug}`,
-      priority: "0.7",
-      changefreq: "monthly",
-      lastmod: today,
-    })),
+    /*
+     * ==================================================
+     * CLUSTERS / SOUS-CATÉGORIES SEO QUIZ
+     * ==================================================
+     */
 
-    /* ---------------------------------------------------
-       TESTS DE PERSONNALITÉ
-    --------------------------------------------------- */
+    ...Object.entries(
+      categoryTopics
+    ).flatMap(
+      ([
+        categorySlug,
+        topics,
+      ]) =>
+        topics.map(
+          (topic) => ({
+            loc:
+              `${BASE_URL}/categorie/${categorySlug}/${topic.slug}`,
 
-    ...getAllPersonalityTests().map((test) => ({
-      loc: `${BASE_URL}/personalite/${test.slug}`,
-      priority: "0.7",
-      changefreq: "monthly",
-      lastmod: today,
-    })),
+            priority:
+              "0.8",
+
+            changefreq:
+              "weekly",
+
+            lastmod:
+              today,
+          })
+        )
+    ),
+
+    /*
+     * ==================================================
+     * CATÉGORIES TESTS DE PERSONNALITÉ
+     * ==================================================
+     */
+
+    ...getAllPersonalityCategories().map(
+      (category) => ({
+        loc:
+          `${BASE_URL}/personalite/categorie/${category.slug}`,
+
+        priority:
+          "0.8",
+
+        changefreq:
+          "weekly",
+
+        lastmod:
+          today,
+      })
+    ),
+
+    /*
+     * ==================================================
+     * QUIZ
+     * ==================================================
+     */
+
+    ...getAllQuizzes().map(
+      (quiz) => ({
+        loc:
+          `${BASE_URL}/quiz/${quiz.slug}`,
+
+        priority:
+          "0.7",
+
+        changefreq:
+          "monthly",
+
+        lastmod:
+          quiz.publishedAt ??
+          today,
+      })
+    ),
+
+    /*
+     * ==================================================
+     * JEUX
+     * ==================================================
+     */
+
+    ...getAllGames().map(
+      (game) => ({
+        loc:
+          `${BASE_URL}/jeux/${game.slug}`,
+
+        priority:
+          "0.7",
+
+        changefreq:
+          "monthly",
+
+        lastmod:
+          today,
+      })
+    ),
+
+    /*
+     * ==================================================
+     * TESTS DE PERSONNALITÉ
+     * ==================================================
+     */
+
+    ...getAllPersonalityTests().map(
+      (test) => ({
+        loc:
+          `${BASE_URL}/personalite/${test.slug}`,
+
+        priority:
+          "0.7",
+
+        changefreq:
+          "monthly",
+
+        lastmod:
+          test.publishedAt ??
+          today,
+      })
+    ),
   ];
 
-  const xml = `<?xml version="1.0" encoding="UTF-8"?>
+  const xml =
+    `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ${urls
   .map(
@@ -121,15 +245,21 @@ ${urls
     <lastmod>${item.lastmod}</lastmod>
     <changefreq>${item.changefreq}</changefreq>
     <priority>${item.priority}</priority>
-  </url>`,
+  </url>`
   )
   .join("")}
 </urlset>`;
 
-  return new Response(xml, {
-    headers: {
-      "Content-Type": "application/xml; charset=utf-8",
-      "Cache-Control": "public, max-age=3600",
-    },
-  });
+  return new Response(
+    xml,
+    {
+      headers: {
+        "Content-Type":
+          "application/xml; charset=utf-8",
+
+        "Cache-Control":
+          "public, max-age=3600",
+      },
+    }
+  );
 }

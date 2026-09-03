@@ -1,0 +1,1774 @@
+/* ==========================================================
+   QUIZUP — DÉFI CARTE
+========================================================== */
+
+:root {
+  --dc-blue: #405cff;
+  --dc-blue-hover: #3049e8;
+  --dc-blue-soft: #eef1ff;
+
+  --dc-green: #22c55e;
+
+  --dc-text: #11131a;
+  --dc-muted: #6f7484;
+  --dc-soft: #9da2b1;
+
+  --dc-border: #e1e5ef;
+  --dc-border-strong: #d3d8e5;
+
+  --dc-white: #ffffff;
+  --dc-danger: #d93636;
+}
+
+/* ==========================================================
+   GLOBAL
+========================================================== */
+
+.mapGame {
+  width: min(1200px, calc(100% - 40px));
+
+  margin: 12px auto 60px;
+
+  color: var(--dc-text);
+}
+
+/* ==========================================================
+   TITRE
+========================================================== */
+
+.mapGame__pageHeading {
+  margin-bottom: 16px;
+}
+
+.mapGame__eyebrow,
+.mapGame__resultEyebrow {
+  display: block;
+
+  margin-bottom: 7px;
+
+  color: var(--dc-blue);
+
+  font-size: 11px;
+  font-weight: 800;
+
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.mapGame__gameTitle {
+  margin: 0;
+
+  font-size: 38px;
+  font-weight: 800;
+  line-height: 1;
+
+  letter-spacing: -0.045em;
+}
+
+/* ==========================================================
+   PLATEAU DE JEU
+========================================================== */
+
+.mapGame__board {
+  width: min(1060px, 100%);
+
+  margin: 0 auto;
+
+  overflow: hidden;
+
+  background: var(--dc-white);
+
+  border: 1px solid var(--dc-border);
+  border-radius: 22px;
+
+  box-shadow: 0 16px 45px rgba(31, 42, 82, 0.055);
+}
+
+/* ==========================================================
+   BARRE HAUTE
+========================================================== */
+
+.mapGame__boardTop {
+  display: grid;
+
+  grid-template-columns:
+    180px
+    minmax(0, 1fr);
+
+  align-items: center;
+
+  gap: 28px;
+
+  padding: 17px 21px;
+
+  border-bottom: 1px solid var(--dc-border);
+}
+
+.mapGame__statLabel {
+  display: block;
+
+  margin-bottom: 4px;
+
+  color: var(--dc-soft);
+
+  font-size: 10px;
+  font-weight: 800;
+
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+}
+
+.mapGame__timer {
+  display: block;
+
+  font-size: 25px;
+  font-weight: 800;
+  line-height: 1;
+
+  font-variant-numeric: tabular-nums;
+}
+
+.mapGame__timer--danger {
+  color: var(--dc-danger);
+}
+
+/* ==========================================================
+   PROGRESSION
+========================================================== */
+
+.mapGame__boardProgressText {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-bottom: 8px;
+}
+
+.mapGame__boardProgressText span {
+  color: var(--dc-soft);
+
+  font-size: 10px;
+  font-weight: 800;
+
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+}
+
+.mapGame__boardProgressText strong {
+  font-size: 15px;
+  font-weight: 800;
+}
+
+.mapGame__progressTrack {
+  height: 5px;
+
+  overflow: hidden;
+
+  background: #e8ebf4;
+
+  border-radius: 999px;
+}
+
+.mapGame__progressValue {
+  height: 100%;
+
+  background: var(--dc-blue);
+
+  border-radius: inherit;
+
+  transition: width 200ms ease;
+}
+
+/* ==========================================================
+   ZONE DE JEU
+========================================================== */
+
+.mapGame__playArea {
+  display: grid;
+
+  grid-template-columns:
+    minmax(0, 1fr)
+    220px;
+
+  min-height: 500px;
+}
+
+/* ==========================================================
+   CARTE
+========================================================== */
+
+.mapGame__mapStage {
+  height: 500px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  box-sizing: border-box;
+
+  padding: 10px 12px;
+
+  overflow: hidden;
+}
+
+.mapGame__mapStage
+  :is(
+    .europeMap,
+    .africaMap,
+    .asiaMap,
+    .northAmericaMap,
+    .southAmericaMap,
+    .oceaniaMap,
+    .worldMap
+  ) {
+  width: 100%;
+  height: 100%;
+}
+
+.mapGame__mapStage
+  :is(
+    .europeMap,
+    .africaMap,
+    .asiaMap,
+    .northAmericaMap,
+    .southAmericaMap,
+    .oceaniaMap,
+    .worldMap
+  )
+  svg {
+  display: block;
+
+  width: 100%;
+  height: 100%;
+
+  max-width: none;
+  max-height: none;
+
+  transform: translate(var(--dc-map-offset-x, 0), var(--dc-map-offset-y, 0))
+    scale(var(--dc-map-scale, 1));
+
+  transform-origin: center;
+}
+
+/* ==========================================================
+   PAYS TROUVÉS
+========================================================== */
+
+.mapGame__found {
+  height: 500px;
+
+  box-sizing: border-box;
+
+  padding: 20px 17px;
+
+  border-left: 1px solid var(--dc-border);
+
+  overflow: hidden;
+}
+
+.mapGame__foundHeader {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+
+  padding-bottom: 13px;
+
+  border-bottom: 1px solid var(--dc-border);
+}
+
+.mapGame__foundHeader > div {
+  display: flex;
+  align-items: baseline;
+
+  gap: 7px;
+}
+
+.mapGame__foundLabel {
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.mapGame__foundCount {
+  color: var(--dc-blue);
+
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.mapGame__foundTotal {
+  color: var(--dc-soft);
+
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.mapGame__countryList {
+  height: calc(100% - 44px);
+
+  padding-top: 9px;
+
+  overflow-y: auto;
+}
+
+.mapGame__countryItem {
+  display: flex;
+  align-items: center;
+
+  gap: 8px;
+
+  min-height: 30px;
+
+  color: #373b47;
+
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.mapGame__countryCheck {
+  color: var(--dc-green);
+
+  font-weight: 900;
+}
+
+.mapGame__countryName {
+  overflow: hidden;
+
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.mapGame__empty {
+  margin-top: 15px;
+
+  color: var(--dc-soft);
+
+  font-size: 11px;
+}
+
+/* ==========================================================
+   SCROLLBAR PAYS TROUVÉS
+========================================================== */
+
+.mapGame__countryList::-webkit-scrollbar {
+  width: 4px;
+}
+
+.mapGame__countryList::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.mapGame__countryList::-webkit-scrollbar-thumb {
+  background: #d6dae5;
+
+  border-radius: 999px;
+}
+
+/* ==========================================================
+   INPUT
+========================================================== */
+
+.mapGame__dock {
+  padding: 14px 18px 18px;
+
+  border-top: 1px solid var(--dc-border);
+}
+
+.mapGame__inputContainer {
+  width: min(760px, 100%);
+
+  margin: 0 auto;
+}
+
+.mapGame__input {
+  width: 100%;
+  height: 52px;
+
+  box-sizing: border-box;
+
+  padding: 0 18px;
+
+  background: #ffffff;
+
+  border: 1px solid var(--dc-border-strong);
+  border-radius: 11px;
+
+  outline: none;
+
+  color: var(--dc-text);
+
+  font: inherit;
+  font-size: 16px;
+  font-weight: 600;
+
+  transition:
+    border-color 150ms ease,
+    box-shadow 150ms ease;
+}
+
+.mapGame__input::placeholder {
+  color: var(--dc-soft);
+
+  font-weight: 500;
+}
+
+.mapGame__input:focus {
+  border-color: var(--dc-blue);
+
+  box-shadow: 0 0 0 3px rgba(64, 92, 255, 0.08);
+}
+
+/* ==========================================================
+   RÉSULTAT — DESKTOP
+========================================================== */
+
+.mapGame__resultLayout {
+  width: min(1200px, 100%);
+
+  margin: 0 auto;
+
+  display: grid;
+
+  grid-template-columns:
+    minmax(0, 1fr)
+    300px;
+
+  gap: 28px;
+
+  align-items: stretch;
+}
+
+/* ==========================================================
+   CARTE RÉSULTAT
+========================================================== */
+
+.mapGame__resultMapPanel {
+  width: 100%;
+  height: 520px;
+
+  box-sizing: border-box;
+
+  padding: 10px 12px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  overflow: hidden;
+
+  background: #ffffff;
+
+  border: 1px solid var(--dc-border);
+  border-radius: 18px;
+
+  box-shadow: 0 12px 35px rgba(31, 42, 82, 0.045);
+}
+
+.mapGame__resultMapPanel
+  :is(
+    .europeMap,
+    .africaMap,
+    .asiaMap,
+    .northAmericaMap,
+    .southAmericaMap,
+    .oceaniaMap,
+    .worldMap
+  ) {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mapGame__resultMapPanel
+  :is(
+    .europeMap,
+    .africaMap,
+    .asiaMap,
+    .northAmericaMap,
+    .southAmericaMap,
+    .oceaniaMap,
+    .worldMap
+  )
+  svg {
+  display: block;
+
+  width: 100%;
+  height: 100%;
+
+  max-width: none;
+  max-height: none;
+
+  transform: translate(var(--dc-map-offset-x, 0), var(--dc-map-offset-y, 0))
+    scale(var(--dc-map-scale, 1));
+
+  transform-origin: center;
+}
+
+/* ==========================================================
+   PANNEAU RÉSULTAT
+========================================================== */
+
+.mapGame__resultPanel {
+  width: 100%;
+  height: 520px;
+
+  box-sizing: border-box;
+
+  padding: 18px 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+
+  background: #ffffff;
+
+  border: 1px solid var(--dc-border);
+  border-radius: 18px;
+
+  box-shadow: 0 12px 35px rgba(31, 42, 82, 0.045);
+
+  overflow: hidden;
+}
+
+/* ==========================================================
+   LABEL RÉSULTAT
+========================================================== */
+
+.mapGame__resultEyebrow {
+  flex-shrink: 0;
+
+  margin-bottom: 7px;
+
+  text-align: center;
+
+  color: var(--dc-blue);
+
+  font-size: 10px;
+  font-weight: 800;
+
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+/* ==========================================================
+   SCORE CIRCULAIRE + PROGRESSION
+========================================================== */
+
+.mapGame__resultScore {
+  --score-progress: 0deg;
+
+  width: 110px;
+  height: 110px;
+
+  flex-shrink: 0;
+
+  margin: 0 auto;
+
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+
+  background: conic-gradient(
+    var(--dc-blue) 0deg,
+    var(--dc-blue) var(--score-progress),
+    #e7eaff var(--score-progress),
+    #e7eaff 360deg
+  );
+}
+
+.mapGame__resultScore::after {
+  content: "";
+
+  position: absolute;
+
+  inset: 8px;
+
+  background: #ffffff;
+
+  border-radius: 50%;
+}
+
+.mapGame__resultScoreInner {
+  position: relative;
+
+  z-index: 1;
+
+  color: var(--dc-text);
+
+  font-size: 23px;
+  font-weight: 800;
+  line-height: 1;
+
+  letter-spacing: -0.04em;
+
+  font-variant-numeric: tabular-nums;
+}
+
+/* ==========================================================
+   POURCENTAGE
+========================================================== */
+
+.mapGame__resultPercent {
+  flex-shrink: 0;
+
+  margin: 8px 0 0;
+
+  text-align: center;
+
+  color: var(--dc-blue);
+
+  font-size: 12px;
+  font-weight: 800;
+}
+
+/* ==========================================================
+   SÉPARATEUR
+========================================================== */
+
+.mapGame__resultSeparator {
+  width: 100%;
+  height: 1px;
+
+  flex-shrink: 0;
+
+  margin: 12px 0;
+
+  background: var(--dc-border);
+}
+
+/* ==========================================================
+   COMPTEUR PAYS MANQUÉS
+========================================================== */
+
+.mapGame__missingSummary {
+  flex-shrink: 0;
+
+  display: flex;
+  align-items: center;
+
+  gap: 9px;
+
+  margin-bottom: 10px;
+}
+
+.mapGame__missingIcon {
+  width: 32px;
+  height: 32px;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  flex-shrink: 0;
+
+  background: var(--dc-blue-soft);
+
+  border-radius: 50%;
+
+  color: var(--dc-blue);
+
+  font-size: 14px;
+}
+
+.mapGame__missingSummary strong {
+  font-size: 13px;
+  font-weight: 800;
+}
+
+/* ==========================================================
+   BOUTON REJOUER
+========================================================== */
+
+.mapGame__restartButton--result {
+  width: 100%;
+
+  flex-shrink: 0;
+
+  margin: 0;
+
+  padding: 10px 16px;
+
+  border: 0;
+  border-radius: 9px;
+
+  background: var(--dc-blue);
+
+  color: #ffffff;
+
+  font: inherit;
+  font-size: 13px;
+  font-weight: 800;
+
+  cursor: pointer;
+
+  transition:
+    background 160ms ease,
+    transform 160ms ease;
+}
+
+.mapGame__restartButton--result:hover {
+  background: var(--dc-blue-hover);
+
+  transform: translateY(-1px);
+}
+
+/* ==========================================================
+   PARTAGE
+========================================================== */
+
+.mapGame__share {
+  flex-shrink: 0;
+
+  margin-top: 11px;
+}
+
+.mapGame__shareLabel {
+  display: block;
+
+  margin-bottom: 6px;
+
+  color: var(--dc-soft);
+
+  font-size: 9px;
+  font-weight: 800;
+
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+}
+
+.mapGame__shareButtons {
+  display: grid;
+
+  grid-template-columns:
+    minmax(0, 1fr)
+    repeat(4, 32px);
+
+  gap: 5px;
+}
+
+.mapGame__shareMain,
+.mapGame__shareButton {
+  height: 32px;
+
+  box-sizing: border-box;
+
+  border: 1px solid var(--dc-border);
+  border-radius: 8px;
+
+  background: #ffffff;
+
+  color: var(--dc-text);
+
+  font: inherit;
+  font-size: 10px;
+  font-weight: 800;
+
+  cursor: pointer;
+
+  transition:
+    border-color 150ms ease,
+    background 150ms ease,
+    color 150ms ease,
+    transform 150ms ease;
+}
+
+.mapGame__shareMain {
+  padding: 0 10px;
+
+  color: var(--dc-blue);
+}
+
+.mapGame__shareButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 0;
+}
+
+.mapGame__shareMain:hover,
+.mapGame__shareButton:hover {
+  border-color: var(--dc-blue);
+
+  background: var(--dc-blue-soft);
+
+  color: var(--dc-blue);
+
+  transform: translateY(-1px);
+}
+
+.mapGame__shareButton--copied {
+  border-color: rgba(34, 197, 94, 0.35);
+
+  background: rgba(34, 197, 94, 0.08);
+
+  color: var(--dc-green);
+}
+
+/* ==========================================================
+   PAYS MANQUÉS — SCROLLABLE
+========================================================== */
+
+.mapGame__missing {
+  min-height: 0;
+
+  flex: 1;
+
+  margin-top: 11px;
+  padding-top: 11px;
+
+  display: flex;
+  flex-direction: column;
+
+  border-top: 1px solid var(--dc-border);
+
+  overflow: hidden;
+}
+
+.mapGame__missing h3 {
+  flex-shrink: 0;
+
+  margin: 0 0 8px;
+
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.mapGame__missingList {
+  min-height: 0;
+
+  flex: 1;
+
+  display: flex;
+  flex-direction: column;
+
+  gap: 6px;
+
+  padding-right: 7px;
+
+  overflow-y: auto;
+  overflow-x: hidden;
+
+  scrollbar-width: thin;
+  scrollbar-color: #d6dae5 transparent;
+}
+
+.mapGame__missingCountry {
+  flex-shrink: 0;
+
+  display: flex;
+  align-items: center;
+
+  gap: 8px;
+
+  color: var(--dc-muted);
+
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.mapGame__missingDot {
+  width: 6px;
+  height: 6px;
+
+  flex-shrink: 0;
+
+  background: #dfe4ff;
+
+  border-radius: 50%;
+}
+
+.mapGame__missingList::-webkit-scrollbar {
+  width: 4px;
+}
+
+.mapGame__missingList::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.mapGame__missingList::-webkit-scrollbar-thumb {
+  background: #d6dae5;
+
+  border-radius: 999px;
+}
+
+/* ==========================================================
+   SCORE PARFAIT
+========================================================== */
+
+.mapGame__perfect {
+  margin-top: 16px;
+
+  color: var(--dc-green);
+
+  font-size: 14px;
+  font-weight: 800;
+}
+
+/* ==========================================================
+   ÉCRAN DE DÉPART
+========================================================== */
+
+.mapGame--start {
+  min-height: 460px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mapGame__intro {
+  max-width: 720px;
+
+  padding: 42px 20px;
+
+  text-align: center;
+}
+
+.mapGame__title {
+  margin: 0;
+
+  font-size: clamp(38px, 5vw, 56px);
+  font-weight: 800;
+  line-height: 1;
+
+  letter-spacing: -0.04em;
+}
+
+.mapGame__description {
+  max-width: 560px;
+
+  margin: 18px auto 0;
+
+  color: var(--dc-muted);
+
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.mapGame__infos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  gap: 22px;
+
+  margin-top: 18px;
+
+  color: var(--dc-muted);
+
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.mapGame__startButton {
+  margin-top: 24px;
+
+  padding: 13px 25px;
+
+  border: 0;
+  border-radius: 10px;
+
+  background: var(--dc-blue);
+
+  color: #ffffff;
+
+  font: inherit;
+  font-weight: 800;
+
+  cursor: pointer;
+
+  transition:
+    background 160ms ease,
+    transform 160ms ease;
+}
+
+.mapGame__startButton:hover {
+  background: var(--dc-blue-hover);
+
+  transform: translateY(-1px);
+}
+
+/* ==========================================================
+   TABLETTE
+========================================================== */
+
+@media (max-width: 900px) {
+  .mapGame__gameTitle {
+    font-size: 34px;
+  }
+
+  .mapGame__playArea {
+    grid-template-columns:
+      minmax(0, 1fr)
+      190px;
+  }
+
+  .mapGame__resultLayout {
+    grid-template-columns:
+      minmax(0, 1fr)
+      270px;
+
+    gap: 20px;
+  }
+
+  .mapGame__resultScore {
+    width: 104px;
+    height: 104px;
+  }
+
+  .mapGame__resultScore::after {
+    inset: 7px;
+  }
+
+  .mapGame__resultScoreInner {
+    font-size: 22px;
+  }
+
+  .mapGame__shareButtons {
+    grid-template-columns:
+      minmax(0, 1fr)
+      repeat(4, 30px);
+  }
+
+  .mapGame__shareMain,
+  .mapGame__shareButton {
+    height: 30px;
+  }
+}
+
+/* ==========================================================
+   MOBILE
+========================================================== */
+
+@media (max-width: 700px) {
+  .mapGame {
+    width: calc(100% - 24px);
+
+    margin: 18px auto 44px;
+  }
+
+  /* TITRE */
+
+  .mapGame__pageHeading {
+    margin-bottom: 12px;
+  }
+
+  .mapGame__gameTitle {
+    font-size: 29px;
+    line-height: 1.05;
+  }
+
+  .mapGame__eyebrow {
+    font-size: 10px;
+  }
+
+  /* JEU */
+
+  .mapGame__board {
+    border-radius: 16px;
+  }
+
+  .mapGame__boardTop {
+    grid-template-columns:
+      110px
+      minmax(0, 1fr);
+
+    gap: 14px;
+
+    padding: 13px;
+  }
+
+  .mapGame__timer {
+    font-size: 20px;
+  }
+
+  .mapGame__boardProgressText {
+    margin-bottom: 6px;
+  }
+
+  .mapGame__playArea {
+    display: flex;
+    flex-direction: column;
+
+    min-height: 0;
+  }
+
+  /* CARTE */
+
+  .mapGame__mapStage {
+    width: 100%;
+    height: auto;
+
+    min-height: 300px;
+
+    padding: 6px;
+  }
+
+  .mapGame__mapStage
+    :is(
+      .europeMap,
+      .africaMap,
+      .asiaMap,
+      .northAmericaMap,
+      .southAmericaMap,
+      .oceaniaMap,
+      .worldMap
+    ),
+  .mapGame__mapStage
+    :is(
+      .europeMap,
+      .africaMap,
+      .asiaMap,
+      .northAmericaMap,
+      .southAmericaMap,
+      .oceaniaMap,
+      .worldMap
+    )
+    svg {
+    width: 100%;
+    height: auto;
+  }
+
+  .mapGame__mapStage
+    :is(
+      .europeMap,
+      .africaMap,
+      .asiaMap,
+      .northAmericaMap,
+      .southAmericaMap,
+      .oceaniaMap,
+      .worldMap
+    )
+    svg {
+    transform: none;
+  }
+
+  /* PAYS TROUVÉS */
+
+  .mapGame__found {
+    width: 100%;
+    height: auto;
+
+    padding: 13px;
+
+    border-left: 0;
+    border-top: 1px solid var(--dc-border);
+
+    overflow: visible;
+  }
+
+  .mapGame__foundHeader {
+    padding-bottom: 10px;
+  }
+
+  .mapGame__countryList {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 7px 14px;
+
+    padding-top: 10px;
+
+    overflow: visible;
+  }
+
+  .mapGame__countryItem {
+    min-height: auto;
+
+    font-size: 11px;
+  }
+
+  .mapGame__countryName {
+    overflow: visible;
+
+    white-space: normal;
+  }
+
+  /* INPUT */
+
+  .mapGame__dock {
+    padding: 11px;
+  }
+
+  .mapGame__inputContainer {
+    width: 100%;
+  }
+
+  .mapGame__input {
+    height: 48px;
+
+    padding: 0 14px;
+
+    font-size: 15px;
+  }
+
+  /* ========================================================
+     RÉSULTAT MOBILE
+  ======================================================== */
+
+  .mapGame__resultLayout {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+
+    gap: 16px;
+  }
+
+  .mapGame__resultMapPanel {
+    width: 100%;
+    height: auto;
+
+    min-height: 300px;
+
+    padding: 6px;
+
+    border-radius: 14px;
+  }
+
+  .mapGame__resultMapPanel
+    :is(
+      .europeMap,
+      .africaMap,
+      .asiaMap,
+      .northAmericaMap,
+      .southAmericaMap,
+      .oceaniaMap,
+      .worldMap
+    ),
+  .mapGame__resultMapPanel
+    :is(
+      .europeMap,
+      .africaMap,
+      .asiaMap,
+      .northAmericaMap,
+      .southAmericaMap,
+      .oceaniaMap,
+      .worldMap
+    )
+    svg {
+    width: 100%;
+    height: auto;
+  }
+
+  .mapGame__resultMapPanel
+    :is(
+      .europeMap,
+      .africaMap,
+      .asiaMap,
+      .northAmericaMap,
+      .southAmericaMap,
+      .oceaniaMap,
+      .worldMap
+    )
+    svg {
+    transform: none;
+  }
+
+  .mapGame__resultPanel {
+    width: 100%;
+    height: auto;
+
+    padding: 18px;
+
+    border-radius: 14px;
+
+    overflow: visible;
+  }
+
+  /* SCORE */
+
+  .mapGame__resultScore {
+    width: 106px;
+    height: 106px;
+  }
+
+  .mapGame__resultScore::after {
+    inset: 7px;
+  }
+
+  .mapGame__resultScoreInner {
+    font-size: 22px;
+  }
+
+  .mapGame__resultPercent {
+    margin-top: 9px;
+
+    font-size: 12px;
+  }
+
+  .mapGame__resultSeparator {
+    margin: 14px 0;
+  }
+
+  /* PARTAGE */
+
+  .mapGame__share {
+    margin-top: 12px;
+  }
+
+  .mapGame__shareButtons {
+    grid-template-columns:
+      minmax(0, 1fr)
+      repeat(4, 36px);
+
+    gap: 6px;
+  }
+
+  .mapGame__shareMain,
+  .mapGame__shareButton {
+    height: 36px;
+
+    font-size: 11px;
+  }
+
+  /* PAYS MANQUÉS */
+
+  .mapGame__missing {
+    flex: none;
+
+    margin-top: 14px;
+
+    overflow: visible;
+  }
+
+  .mapGame__missingList {
+    flex: none;
+
+    max-height: none;
+
+    display: grid;
+
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+
+    gap: 8px 12px;
+
+    padding-right: 0;
+
+    overflow: visible;
+  }
+
+  .mapGame__missingCountry {
+    font-size: 11px;
+  }
+
+  /* INTRO */
+
+  .mapGame--start {
+    min-height: auto;
+  }
+
+  .mapGame__intro {
+    padding: 30px 8px;
+  }
+
+  .mapGame__title {
+    font-size: 32px;
+  }
+
+  .mapGame__description {
+    font-size: 14px;
+  }
+
+  .mapGame__infos {
+    gap: 12px;
+
+    font-size: 12px;
+  }
+}
+
+/* ==========================================================
+   CARTES — ARCHITECTURE COMMUNE
+   ----------------------------------------------------------
+   Chaque continent peut régler son cadrage avec :
+   --dc-map-offset-x
+   --dc-map-offset-y
+   --dc-map-scale
+
+   Classes prévues :
+   .europeMap
+   .africaMap
+   .asiaMap
+   .northAmericaMap
+   .southAmericaMap
+   .oceaniaMap
+   .worldMap
+========================================================== */
+
+:is(
+  .europeMap,
+  .africaMap,
+  .asiaMap,
+  .northAmericaMap,
+  .southAmericaMap,
+  .oceaniaMap,
+  .worldMap
+) {
+  --dc-map-offset-x: 0;
+  --dc-map-offset-y: 0;
+  --dc-map-scale: 1;
+
+  position: relative;
+}
+
+/* ==========================================================
+   CONTENEUR SVG — CARTES QUI UTILISENT UN WRAPPER
+========================================================== */
+
+:is(
+  .africaMap__svg,
+  .asiaMap__svg,
+  .northAmericaMap__svg,
+  .southAmericaMap__svg,
+  .oceaniaMap__svg,
+  .worldMap__svg
+) {
+  width: 100%;
+  height: 100%;
+}
+
+:is(
+    .africaMap__svg,
+    .asiaMap__svg,
+    .northAmericaMap__svg,
+    .southAmericaMap__svg,
+    .oceaniaMap__svg,
+    .worldMap__svg
+  )
+  svg {
+  display: block;
+
+  width: 100%;
+  height: 100%;
+
+  max-width: none;
+  max-height: none;
+}
+
+/* ==========================================================
+   TOOLTIP — STYLE COMMUN
+========================================================== */
+
+:is(
+  .europeMap__tooltip,
+  .africaMap__tooltip,
+  .asiaMap__tooltip,
+  .northAmericaMap__tooltip,
+  .southAmericaMap__tooltip,
+  .oceaniaMap__tooltip,
+  .worldMap__tooltip
+) {
+  position: absolute;
+
+  z-index: 20;
+
+  padding: 7px 11px;
+
+  border-radius: 8px;
+
+  background: #11131a;
+  color: #ffffff;
+
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1;
+
+  white-space: nowrap;
+  pointer-events: none;
+
+  transform: translate(-50%, calc(-100% - 12px));
+
+  box-shadow: 0 4px 14px rgba(17, 19, 26, 0.2);
+}
+
+:is(
+  .europeMap__tooltip,
+  .africaMap__tooltip,
+  .asiaMap__tooltip,
+  .northAmericaMap__tooltip,
+  .southAmericaMap__tooltip,
+  .oceaniaMap__tooltip,
+  .worldMap__tooltip
+)::after {
+  content: "";
+
+  position: absolute;
+
+  left: 50%;
+  bottom: -5px;
+
+  width: 10px;
+  height: 10px;
+
+  background: #11131a;
+
+  transform: translateX(-50%) rotate(45deg);
+}
+
+/* ==========================================================
+   EUROPE
+   ----------------------------------------------------------
+   La nouvelle carte Europe a besoin d'un léger décalage
+   vers la droite sur desktop.
+========================================================== */
+
+.europeMap {
+  --dc-map-offset-x: 0;
+  --dc-map-offset-y: 0;
+  --dc-map-scale: 1;
+}
+
+/*
+ * AfricaMap et certaines versions d'AsiaMap réutilisent
+ * aussi la classe .europeMap. On réinitialise donc leur
+ * cadrage après la règle Europe.
+ */
+.africaMap,
+.asiaMap {
+  --dc-map-offset-x: 0;
+  --dc-map-offset-y: 0;
+  --dc-map-scale: 1;
+}
+
+.europeMap__tooltipAnchor {
+  display: contents;
+}
+
+/* ==========================================================
+   AFRIQUE
+========================================================== */
+
+.africaMap {
+  --dc-map-offset-x: 0px;
+  --dc-map-offset-y: 0px;
+  --dc-map-scale: 1;
+
+  width: 100%;
+  height: 100%;
+
+  position: relative;
+}
+
+.africaMap__svg {
+  width: 100%;
+  height: 100%;
+
+  overflow: hidden;
+}
+
+.africaMap__svg svg {
+  display: block;
+
+  width: 100% !important;
+  height: 100% !important;
+
+  max-width: none;
+  max-height: none;
+
+  transform: translate(var(--dc-map-offset-x), var(--dc-map-offset-y))
+    scale(var(--dc-map-scale)) !important;
+
+  transform-origin: center center;
+}
+
+/* =========================================================
+   ASIE — RESPONSIVE DE LA CARTE UNIQUEMENT
+========================================================= */
+
+.asiaMap__responsiveContent {
+  transform-box: fill-box;
+  transform-origin: center center;
+}
+
+/* TABLETTE */
+
+@media (max-width: 700px) {
+  .asiaMap__responsiveContent {
+    transform: scale(0.8);
+  }
+}
+
+/* MOBILE */
+
+@media (max-width: 480px) {
+  .asiaMap__responsiveContent {
+    transform: scale(0.8);
+  }
+}
+
+/* ==========================================================
+   AMÉRIQUE DU NORD — PRÊT POUR LE PROCHAIN DÉFI
+========================================================== */
+
+.northAmericaMap {
+  --dc-map-offset-x: 0;
+  --dc-map-offset-y: 0;
+  --dc-map-scale: 1;
+}
+
+/* ==========================================================
+   AMÉRIQUE DU SUD
+========================================================== */
+
+.southAmericaMap {
+  --dc-map-offset-x: 0;
+  --dc-map-offset-y: 0;
+  --dc-map-scale: 1;
+}
+
+/* ==========================================================
+   OCÉANIE
+========================================================== */
+
+.oceaniaMap {
+  --dc-map-offset-x: 0;
+  --dc-map-offset-y: 0;
+  --dc-map-scale: 1;
+}
+
+/* ==========================================================
+   MONDE
+========================================================== */
+
+.worldMap {
+  --dc-map-offset-x: 0;
+  --dc-map-offset-y: 0;
+  --dc-map-scale: 1;
+}
+
+/* ==========================================================
+   CARTES — MOBILE
+========================================================== */
+
+@media (max-width: 700px) {
+  :is(
+    .africaMap__svg,
+    .asiaMap__svg,
+    .northAmericaMap__svg,
+    .southAmericaMap__svg,
+    .oceaniaMap__svg,
+    .worldMap__svg
+  ) {
+    height: auto;
+  }
+
+  :is(
+      .africaMap__svg,
+      .asiaMap__svg,
+      .northAmericaMap__svg,
+      .southAmericaMap__svg,
+      .oceaniaMap__svg,
+      .worldMap__svg
+    )
+    svg {
+    width: 100%;
+    height: auto;
+  }
+
+  :is(
+    .europeMap__tooltip,
+    .africaMap__tooltip,
+    .asiaMap__tooltip,
+    .northAmericaMap__tooltip,
+    .southAmericaMap__tooltip,
+    .oceaniaMap__tooltip,
+    .worldMap__tooltip
+  ) {
+    padding: 6px 9px;
+
+    font-size: 12px;
+  }
+
+  /*
+   * Sur mobile, on revient au cadrage natif du SVG.
+   */
+  :is(
+    .europeMap,
+    .africaMap,
+    .asiaMap,
+    .northAmericaMap,
+    .southAmericaMap,
+    .oceaniaMap,
+    .worldMap
+  ) {
+    --dc-map-offset-x: 0;
+    --dc-map-offset-y: 0;
+    --dc-map-scale: 1;
+  }
+}
+
+/* ==========================================================
+   BOUTON LANCER LE CHRONO
+========================================================== */
+
+.mapGame__startButton {
+  width: min(100%, 520px);
+  min-height: 50px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin: 0 auto;
+  padding: 13px 24px;
+
+  border: 0;
+  border-radius: 12px;
+
+  background: #3d5afe;
+  color: #ffffff;
+
+  font: inherit;
+  font-size: 15px;
+  font-weight: 800;
+  line-height: 1;
+
+  cursor: pointer;
+
+  box-shadow:
+    0 6px 16px rgba(61, 90, 254, 0.22);
+
+  transition:
+    transform 160ms ease,
+    box-shadow 160ms ease,
+    background 160ms ease;
+}
+
+.mapGame__startButton:hover {
+  background: #304ffe;
+
+  transform: translateY(-1px);
+
+  box-shadow:
+    0 8px 20px rgba(61, 90, 254, 0.3);
+}
+
+.mapGame__startButton:active {
+  transform: translateY(0);
+}
+
+.mapGame__startButton:focus-visible {
+  outline: 3px solid rgba(61, 90, 254, 0.22);
+  outline-offset: 3px;
+}
+
+@media (max-width: 640px) {
+  .mapGame__startButton {
+    width: min(100%, 420px);
+    min-height: 48px;
+
+    padding: 12px 18px;
+
+    font-size: 14px;
+  }
+}

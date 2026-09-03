@@ -388,6 +388,51 @@ export default function HomePage() {
         )}
       </section>
 
+<section className="homeSection homePart">
+  <Link
+    href="/jeux/defi-carte"
+    className="mapChallengeBanner"
+    style={{
+      backgroundImage: `
+        linear-gradient(
+          90deg,
+          rgba(10, 16, 36, 0.94) 0%,
+          rgba(10, 16, 36, 0.80) 38%,
+          rgba(10, 16, 36, 0.35) 68%,
+          rgba(10, 16, 36, 0.08) 100%
+        ),
+        url("/images/defi-carte.jpg")
+      `,
+    }}
+    aria-label="Découvrir les Défis Carte"
+  >
+    <div className="mapChallengeBanner__content">
+      {/* <span className="mapChallengeBanner__badge">
+        Nouveau format
+      </span> */}
+
+      <h2 className="mapChallengeBanner__title">
+        Défi Carte
+      </h2>
+
+      <p className="mapChallengeBanner__text">
+        Teste ta géographie directement sur la carte.
+        Continents, pays, régions, États… trouve un maximum
+        de réponses avant la fin du chrono.
+      </p>
+
+      <div className="mapChallengeBanner__meta">
+        <span>Cartes interactives</span>
+        <span>Contre-la-montre</span>
+      </div>
+
+      <span className="mapChallengeBanner__button">
+        Découvrir les défis
+      </span>
+    </div>
+  </Link>
+</section>
+
       <section className="homeSection homePart" aria-label="Publicité">
         {/* <AdSlot slot="4444444444" /> */}
       </section>

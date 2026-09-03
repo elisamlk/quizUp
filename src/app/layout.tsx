@@ -65,6 +65,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   const adsClient = process.env.NEXT_PUBLIC_ADSENSE_CLIENT;
+  const isProduction = process.env.NODE_ENV === "production";
 
   return (
     <html lang="fr">
@@ -93,22 +94,26 @@ export default function RootLayout({
 
         {children}
 
-        <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-9LZ8NWQBGG"
-          strategy="afterInteractive"
-        />
+        {isProduction ? (
+          <>
+            <Script
+              src="https://www.googletagmanager.com/gtag/js?id=G-9LZ8NWQBGG"
+              strategy="afterInteractive"
+            />
 
-        <Script id="google-analytics" strategy="afterInteractive">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
+            <Script id="google-analytics" strategy="afterInteractive">
+              {`
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
 
-            gtag('config', 'G-9LZ8NWQBGG', {
-              anonymize_ip: true
-            });
-          `}
-        </Script>
+                gtag('config', 'G-9LZ8NWQBGG', {
+                  anonymize_ip: true
+                });
+              `}
+            </Script>
+          </>
+        ) : null}
 
         <SiteFooter />
       </body>
