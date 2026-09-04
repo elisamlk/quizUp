@@ -23,9 +23,11 @@ function bestKey(slug: string) {
 function readBestScore(slug: string): number | null {
   try {
     const raw = localStorage.getItem(bestKey(slug));
+
     if (!raw) return null;
 
     const n = Number(raw);
+
     return Number.isFinite(n) ? n : null;
   } catch {
     return null;
@@ -50,7 +52,9 @@ function getItems(game: Game): ChronoItem[] {
 }
 
 function getDuration(game: Game) {
-  const data = game.data as { durationSeconds?: number };
+  const data = game.data as {
+    durationSeconds?: number;
+  };
 
   return typeof data.durationSeconds === "number"
     ? data.durationSeconds
@@ -69,26 +73,36 @@ export function ChronoQuizPlayer({
   nextGame?: NextGame | null;
 }) {
   const items = getItems(game);
+
   const total = items.length;
+
   const duration = getDuration(game);
 
   const [started, setStarted] = useState(false);
+
   const [finished, setFinished] = useState(false);
+
   const [step, setStep] = useState(0);
+
   const [score, setScore] = useState(0);
+
   const [timeLeft, setTimeLeft] = useState(duration);
+
   const [selected, setSelected] = useState<number | null>(null);
 
   const [best, setBest] = useState<number | null>(() =>
     readBestScore(game.slug),
   );
+
   const [isNewBest, setIsNewBest] = useState(false);
+
   const [toast, setToast] = useState<string | null>(null);
 
   const q = items[step];
 
   const progress = useMemo(() => {
     if (total === 0) return 0;
+
     return Math.round((step / total) * 100);
   }, [step, total]);
 
@@ -96,13 +110,16 @@ export function ChronoQuizPlayer({
     ? Math.round((timeLeft / duration) * 100)
     : 0;
 
-  const scorePct = total ? Math.round((score / total) * 100) : 0;
+  const scorePct = total
+    ? Math.round((score / total) * 100)
+    : 0;
 
   useEffect(() => {
     if (!started || finished) return;
 
     if (timeLeft <= 0) {
       finishGame(score);
+
       return;
     }
 
@@ -115,72 +132,122 @@ export function ChronoQuizPlayer({
 
   function showToast(message: string) {
     setToast(message);
-    window.setTimeout(() => setToast(null), 2200);
+
+    window.setTimeout(() => {
+      setToast(null);
+    }, 2200);
   }
 
   function finalizeBest(finalScore: number) {
-    setBest((prev) => {
-      const currentBest = prev ?? readBestScore(game.slug);
+    const currentBest =
+      best ?? readBestScore(game.slug);
 
-      if (currentBest === null || finalScore > currentBest) {
-        writeBestScore(game.slug, finalScore);
-        setIsNewBest(true);
-        return finalScore;
-      }
+    if (
+      currentBest === null ||
+      finalScore > currentBest
+    ) {
+      writeBestScore(game.slug, finalScore);
 
-      setIsNewBest(false);
-      return currentBest;
-    });
+      setBest(finalScore);
+
+      setIsNewBest(true);
+
+      return;
+    }
+
+    setBest(currentBest);
+
+    setIsNewBest(false);
   }
 
   function finishGame(finalScore: number) {
     finalizeBest(finalScore);
+
     setFinished(true);
   }
 
   function startGame() {
     setStarted(true);
+
     setFinished(false);
+
     setStep(0);
+
     setScore(0);
+
     setTimeLeft(duration);
+
     setSelected(null);
+
     setIsNewBest(false);
   }
 
-  function chooseAnswer(index: number) {
-    if (!started || finished || selected !== null || !q) return;
+  function chooseAnswer(
+    questionIndex: number,
+    answerIndex: number,
+  ) {
+    if (
+      !started ||
+      finished ||
+      selected !== null ||
+      questionIndex !== step
+    ) {
+      return;
+    }
 
-    setSelected(index);
+    const currentQuestion =
+      items[questionIndex];
 
-    const ok = index === q.correctIndex;
-    const nextScore = ok ? score + 1 : score;
+    if (!currentQuestion) return;
+
+    setSelected(answerIndex);
+
+    const ok =
+      answerIndex ===
+      currentQuestion.correctIndex;
+
+    const nextScore =
+      ok ? score + 1 : score;
 
     if (ok) {
       setScore(nextScore);
     }
 
     window.setTimeout(() => {
-      if (step + 1 >= total) {
+      if (questionIndex + 1 >= total) {
         finishGame(nextScore);
+
         return;
       }
 
-      setStep((prev) => prev + 1);
+      setStep(questionIndex + 1);
+
       setSelected(null);
     }, 450);
   }
 
   function resultMessage() {
-    if (scorePct >= 90) return "Incroyable 🔥";
-    if (scorePct >= 70) return "Très bon score ✅";
-    if (scorePct >= 50) return "Bien joué ⚡";
+    if (scorePct >= 90) {
+      return "Incroyable 🔥";
+    }
+
+    if (scorePct >= 70) {
+      return "Très bon score ✅";
+    }
+
+    if (scorePct >= 50) {
+      return "Bien joué ⚡";
+    }
+
     return "Tu peux faire mieux 💪";
   }
 
   async function copyLink() {
     try {
-      await navigator.clipboard.writeText(window.location.href);
+      await navigator.clipboard.writeText(
+        window.location.href,
+      );
+
       showToast("Lien copié ✅");
     } catch {
       showToast("Impossible de copier");
@@ -191,14 +258,194 @@ export function ChronoQuizPlayer({
     return (
       <>
         <div className="quizPanel">
-          <p>Aucune question disponible pour ce jeu.</p>
+          <p>
+            Aucune question disponible pour ce jeu.
+          </p>
         </div>
 
-        {toast && <div className="toast">{toast}</div>}
+        {toast ? (
+          <div className="toast">
+            {toast}
+          </div>
+        ) : null}
       </>
     );
   }
 
+  /*
+   * IMPORTANT SEO / SSR
+   *
+   * Toutes les questions sont rendues ici.
+   *
+   * On ne rend plus uniquement `items[step]`.
+   * Chaque question possède son propre article.
+   *
+   * Le track se déplace ensuite horizontalement
+   * pour ne montrer qu'une question à la fois.
+   */
+  const questionsViewport = (
+    <div
+      className="chronoQuestionsViewport"
+      aria-hidden={!started}
+      style={
+        !started
+          ? {
+              position: "absolute",
+              left: "-200vw",
+              width: "100%",
+              pointerEvents: "none",
+            }
+          : {
+              overflow: "hidden",
+              width: "100%",
+            }
+      }
+    >
+      <div
+        className="chronoQuestionsTrack"
+        style={{
+          display: "flex",
+          width: "100%",
+          transform: `translateX(-${step * 100}%)`,
+          transition: "transform 0.3s ease",
+        }}
+      >
+        {items.map(
+          (
+            item,
+            questionIndex,
+          ) => {
+            const isActive =
+              questionIndex === step;
+
+            return (
+              <article
+                key={item.id}
+                className={`chronoQuestionSlide ${
+                  isActive
+                    ? "is-active"
+                    : questionIndex < step
+                      ? "is-before"
+                      : "is-after"
+                }`}
+                aria-current={
+                  isActive
+                    ? "step"
+                    : undefined
+                }
+                style={{
+                  flex: "0 0 100%",
+                  minWidth: 0,
+                  width: "100%",
+                }}
+              >
+                <h3 className="quizQuestion">
+                  {item.question}
+                </h3>
+
+                <ul className="quizAnswers">
+                  {item.answers.map(
+                    (
+                      answer,
+                      answerIndex,
+                    ) => {
+                      const chosen =
+                        isActive &&
+                        selected ===
+                          answerIndex;
+
+                      const correct =
+                        answerIndex ===
+                        item.correctIndex;
+
+                      let cls =
+                        "quizAnswerBtn";
+
+                      if (
+                        isActive &&
+                        selected !== null
+                      ) {
+                        if (
+                          chosen &&
+                          correct
+                        ) {
+                          cls +=
+                            " isCorrect";
+                        } else if (
+                          chosen &&
+                          !correct
+                        ) {
+                          cls +=
+                            " isWrong";
+                        } else if (
+                          correct
+                        ) {
+                          cls +=
+                            " isCorrectSoft";
+                        } else {
+                          cls +=
+                            " isDisabled";
+                        }
+                      }
+
+                      return (
+                        <li
+                          key={`${item.id}-${answer}`}
+                        >
+                          <button
+                            type="button"
+                            className={cls}
+                            onClick={() =>
+                              chooseAnswer(
+                                questionIndex,
+                                answerIndex,
+                              )
+                            }
+                            disabled={
+                              !started ||
+                              !isActive ||
+                              selected !==
+                                null
+                            }
+                            tabIndex={
+                              started &&
+                              isActive
+                                ? 0
+                                : -1
+                            }
+                          >
+                            {answer}
+                          </button>
+                        </li>
+                      );
+                    },
+                  )}
+                </ul>
+
+                {item.explanation ? (
+                  <div className="chronoExplanation">
+                    <p>
+                      {
+                        item.explanation
+                      }
+                    </p>
+                  </div>
+                ) : null}
+              </article>
+            );
+          },
+        )}
+      </div>
+    </div>
+  );
+
+  /*
+   * ÉCRAN DE DÉPART
+   *
+   * Les questions sont malgré tout déjà
+   * présentes dans le HTML grâce au
+   * questionsViewport rendu en dessous.
+   */
   if (!started) {
     return (
       <>
@@ -206,15 +453,21 @@ export function ChronoQuizPlayer({
           <div className="resultHeadQuiz">
             <div className="resultTop">
               <div>
-                <span className="resultKicker">Jeu chrono</span>
+                <span className="resultKicker">
+                  Jeu chrono
+                </span>
 
                 <h3 className="resultTitle">
                   Prêt pour le défi ?
                 </h3>
 
                 <p className="resultSub">
-                  Réponds au maximum de questions en{" "}
-                  <strong>{duration} secondes</strong>.
+                  Réponds au maximum de
+                  questions en{" "}
+                  <strong>
+                    {duration} secondes
+                  </strong>
+                  .
                 </p>
               </div>
             </div>
@@ -231,7 +484,10 @@ export function ChronoQuizPlayer({
               }}
             >
               <div className="chronoCircleInner">
-                <strong>{duration}</strong>
+                <strong>
+                  {duration}
+                </strong>
+
                 <span>sec</span>
               </div>
             </div>
@@ -239,6 +495,7 @@ export function ChronoQuizPlayer({
 
           <div className="resultActions">
             <button
+              type="button"
               className="quizBtnPrimary"
               onClick={startGame}
             >
@@ -247,19 +504,33 @@ export function ChronoQuizPlayer({
           </div>
         </div>
 
-        {toast && <div className="toast">{toast}</div>}
+        {questionsViewport}
+
+        {toast ? (
+          <div className="toast">
+            {toast}
+          </div>
+        ) : null}
       </>
     );
   }
 
+  /*
+   * ÉCRAN DE RÉSULTAT
+   */
   if (finished) {
-    const pageUrl = encodeURIComponent(
-      typeof window !== "undefined" ? window.location.href : "",
-    );
+    const pageUrl =
+      encodeURIComponent(
+        typeof window !==
+          "undefined"
+          ? window.location.href
+          : "",
+      );
 
-    const shareText = encodeURIComponent(
-      `J’ai fait ${score}/${total} (${scorePct}%) au jeu "${game.title}" !`,
-    );
+    const shareText =
+      encodeURIComponent(
+        `J’ai fait ${score}/${total} (${scorePct}%) au jeu "${game.title}" !`,
+      );
 
     return (
       <>
@@ -287,7 +558,10 @@ export function ChronoQuizPlayer({
               <div
                 className="resultScoreCircle"
                 style={{
-                  background: `conic-gradient(#3055ff 0 ${scorePct}%, #e7ebff ${scorePct}% 100%)`,
+                  background: `conic-gradient(
+                    #3055ff 0 ${scorePct}%,
+                    #e7ebff ${scorePct}% 100%
+                  )`,
                 }}
               >
                 <div className="resultScoreInner">
@@ -323,6 +597,7 @@ export function ChronoQuizPlayer({
 
           <div className="resultActions">
             <button
+              type="button"
               className="quizBtnPrimary"
               onClick={startGame}
             >
@@ -330,6 +605,7 @@ export function ChronoQuizPlayer({
             </button>
 
             <button
+              type="button"
               className="quizBtnShare"
               onClick={copyLink}
             >
@@ -350,11 +626,16 @@ export function ChronoQuizPlayer({
             className="shareBar"
             aria-label="Partager sur les réseaux"
           >
-            <button className="shareBtn" onClick={copyLink}>
+            <button
+              type="button"
+              className="shareBtn"
+              onClick={copyLink}
+            >
               Copier le lien
             </button>
 
             <button
+              type="button"
               className="shareBtn"
               onClick={() =>
                 openShare(
@@ -366,6 +647,7 @@ export function ChronoQuizPlayer({
             </button>
 
             <button
+              type="button"
               className="shareBtn"
               onClick={() =>
                 openShare(
@@ -377,15 +659,19 @@ export function ChronoQuizPlayer({
             </button>
 
             <button
+              type="button"
               className="shareBtn"
               onClick={() =>
-                openShare(`https://wa.me/?text=${shareText}%20${pageUrl}`)
+                openShare(
+                  `https://wa.me/?text=${shareText}%20${pageUrl}`,
+                )
               }
             >
               WhatsApp
             </button>
 
             <button
+              type="button"
               className="shareBtn"
               onClick={() =>
                 openShare(
@@ -397,6 +683,7 @@ export function ChronoQuizPlayer({
             </button>
 
             <button
+              type="button"
               className="shareBtn"
               onClick={() =>
                 openShare(
@@ -410,28 +697,47 @@ export function ChronoQuizPlayer({
 
           {nextGame ? (
             <p className="resultNextHint">
-              Prochain : <strong>{nextGame.title}</strong>
+              Prochain :{" "}
+              <strong>
+                {nextGame.title}
+              </strong>
             </p>
           ) : null}
         </div>
 
-        {toast && <div className="toast">{toast}</div>}
+        {toast ? (
+          <div className="toast">
+            {toast}
+          </div>
+        ) : null}
       </>
     );
   }
 
+  /*
+   * JEU EN COURS
+   */
   return (
     <>
       <div className="quizPanel">
         <div className="quizTop">
           <span className="quizCounter">
-            Question <strong>{step + 1}</strong> / {total}
+            Question{" "}
+            <strong>
+              {step + 1}
+            </strong>{" "}
+            / {total}
           </span>
 
           <span className="quizScore">
             Score : {score}
+
             {best !== null ? (
-              <span style={{ opacity: 0.75 }}>
+              <span
+                style={{
+                  opacity: 0.75,
+                }}
+              >
                 {" "}
                 • Record {best}
               </span>
@@ -439,10 +745,15 @@ export function ChronoQuizPlayer({
           </span>
         </div>
 
-        <div className="quizProgressBar" aria-hidden="true">
+        <div
+          className="quizProgressBar"
+          aria-hidden="true"
+        >
           <div
             className="quizProgressFill"
-            style={{ width: `${progress}%` }}
+            style={{
+              width: `${progress}%`,
+            }}
           />
         </div>
 
@@ -457,47 +768,23 @@ export function ChronoQuizPlayer({
             }}
           >
             <div className="chronoCircleInner">
-              <strong>{timeLeft}</strong>
+              <strong>
+                {timeLeft}
+              </strong>
+
               <span>sec</span>
             </div>
           </div>
         </div>
 
-        <h3 className="quizQuestion">{q.question}</h3>
-
-        <ul className="quizAnswers">
-          {q.answers.map((answer, index) => {
-            const chosen = selected === index;
-            const correct = index === q.correctIndex;
-
-            let cls = "quizAnswerBtn";
-
-            if (selected !== null) {
-              if (chosen && correct) cls += " isCorrect";
-              else if (chosen && !correct)
-                cls += " isWrong";
-              else if (correct)
-                cls += " isCorrectSoft";
-              else cls += " isDisabled";
-            }
-
-            return (
-              <li key={`${q.id}-${answer}`}>
-                <button
-                  type="button"
-                  className={cls}
-                  onClick={() => chooseAnswer(index)}
-                  disabled={selected !== null}
-                >
-                  {answer}
-                </button>
-              </li>
-            );
-          })}
-        </ul>
+        {questionsViewport}
       </div>
 
-      {toast && <div className="toast">{toast}</div>}
+      {toast ? (
+        <div className="toast">
+          {toast}
+        </div>
+      ) : null}
     </>
   );
 }
