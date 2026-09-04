@@ -636,7 +636,7 @@ export function SouthAmericaMap({
 
       if (
         !countryElement ||
-        !container.contains(
+        !container?.contains(
           countryElement
         )
       ) {

@@ -228,7 +228,7 @@ export function GET() {
           "monthly",
 
         lastmod:
-          test.publishedAt ??
+          test.createdAt ??
           today,
       })
     ),

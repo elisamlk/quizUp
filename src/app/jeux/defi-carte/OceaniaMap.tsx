@@ -650,7 +650,7 @@ export function OceaniaMap({
 
       if (
         !countryElement ||
-        !container.contains(
+        !container?.contains(
           countryElement
         )
       ) {
