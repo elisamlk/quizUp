@@ -120,7 +120,6 @@ export function ImageMysterePlayer({
 
   function revealAnswer() {
     setBlurLevel(0);
-
     setRevealed(true);
   }
 
@@ -210,21 +209,15 @@ export function ImageMysterePlayer({
     );
 
     setBlurLevel(28);
-
     setInput("");
-
     setRevealed(false);
   }
 
   function restart() {
     setStep(0);
-
     setBlurLevel(28);
-
     setInput("");
-
     setRevealed(false);
-
     setScore(0);
   }
 
@@ -236,8 +229,7 @@ export function ImageMysterePlayer({
       <>
         <div className="quizPanel">
           <p>
-            Données
-            insuffisantes.
+            Données insuffisantes.
           </p>
         </div>
 
@@ -280,15 +272,13 @@ export function ImageMysterePlayer({
             <div className="resultTop">
               <div>
                 <span className="resultKicker">
-                  Résultat du
-                  jeu
+                  Résultat du jeu
                 </span>
 
                 <h3 className="resultTitle">
                   {pct >= 80
                     ? "Vision incroyable 👀"
-                    : pct >=
-                        50
+                    : pct >= 50
                       ? "Bien joué 🔥"
                       : "Continue 💪"}
                 </h3>
@@ -337,8 +327,7 @@ export function ImageMysterePlayer({
                 copyLink
               }
             >
-              Copier le
-              lien
+              Copier le lien
             </button>
 
             {nextGame ? (
@@ -346,8 +335,7 @@ export function ImageMysterePlayer({
                 className="quizBtnPrimaryOutline"
                 href={`/jeux/${nextGame.slug}`}
               >
-                Jeu suivant
-                →
+                Jeu suivant →
               </a>
             ) : null}
           </div>
@@ -359,8 +347,7 @@ export function ImageMysterePlayer({
                 copyLink
               }
             >
-              Copier le
-              lien
+              Copier le lien
             </button>
 
             <button
@@ -456,160 +443,227 @@ export function ImageMysterePlayer({
         </div>
 
         <h3 className="quizQuestion imageMystereQuestion">
-          Devine l’image
-          mystère
+          Devine l’image mystère
         </h3>
 
-        <div className="blurGame imageMystereGame">
-          <div className="blurImageWrap imageMystereImageWrap">
-            <Image
-              src={
-                current.image
-              }
-              alt={
-                current.answer
-              }
-              fill
-              unoptimized
-              className="blurImage imageMystereImage"
-              style={{
-                objectFit:
-                  "cover",
-                filter: `blur(${
-                  revealed
-                    ? 0
-                    : blurLevel
-                }px)`,
-              }}
-            />
-          </div>
+        <div className="imageMystereSlides">
+          {items.map(
+            (item, index) => {
+              const isActive =
+                index === step;
 
-          {current.hints
-            ?.length ? (
-            <div className="quizExplain imageMystereHint">
-              <p
-                style={{
-                  margin: 0,
-                }}
-              >
-                Indice :{" "}
-                {
-                  current
-                    .hints[
-                    Math.min(
-                      current
-                        .hints
-                        .length -
-                        1,
-                      Math.floor(
-                        (28 -
-                          blurLevel) /
-                          7,
+              return (
+                <article
+                  key={item.id}
+                  className={`blurGame imageMystereGame imageMystereSlide ${
+                    isActive
+                      ? "is-active"
+                      : index < step
+                        ? "is-before"
+                        : "is-after"
+                  }`}
+                  aria-current={
+                    isActive
+                      ? "step"
+                      : undefined
+                  }
+                >
+                  <h4 className="imageMystereSeoTitle">
+                    Animal mystère{" "}
+                    {index + 1} :{" "}
+                    {item.answer}
+                  </h4>
+
+                  <div className="blurImageWrap imageMystereImageWrap">
+                    <Image
+                      src={
+                        item.image
+                      }
+                      alt={
+                        `Image mystère : ${item.answer}`
+                      }
+                      fill
+                      unoptimized
+                      className="blurImage imageMystereImage"
+                      style={{
+                        objectFit:
+                          "cover",
+                        filter:
+                          isActive
+                            ? `blur(${
+                                revealed
+                                  ? 0
+                                  : blurLevel
+                              }px)`
+                            : "blur(0px)",
+                      }}
+                    />
+                  </div>
+
+                  <div className="imageMystereSeoHints">
+                    {item.hints?.map(
+                      (
+                        hint,
+                        hintIndex,
+                      ) => (
+                        <p
+                          key={`${item.id}-hint-${hintIndex}`}
+                        >
+                          Indice{" "}
+                          {hintIndex +
+                            1}
+                          : {hint}
+                        </p>
                       ),
-                    )
-                  ]
-                }
-              </p>
-            </div>
-          ) : null}
+                    )}
 
-          {!revealed ? (
-            <>
-              <div className="quiInputWrap imageMystereInputWrap">
-                <input
-                  type="text"
-                  className="quiInput imageMystereInput"
-                  placeholder="Ta réponse..."
-                  value={
-                    input
-                  }
-                  onChange={(
-                    e,
-                  ) =>
-                    setInput(
-                      e
-                        .target
-                        .value,
-                    )
-                  }
-                  onKeyDown={(
-                    e,
-                  ) => {
-                    if (
-                      e.key ===
-                      "Enter"
-                    ) {
-                      submitAnswer();
-                    }
-                  }}
-                />
+                    <p>
+                      Réponse :{" "}
+                      <strong>
+                        {
+                          item.answer
+                        }
+                      </strong>
+                    </p>
+                  </div>
 
-                <button
-                  className="quizBtnPrimary quiBtn imageMystereBtn"
-                  onClick={
-                    submitAnswer
-                  }
-                >
-                  Valider
-                </button>
-              </div>
+                  {isActive ? (
+                    <>
+                      {item.hints
+                        ?.length ? (
+                        <div className="quizExplain imageMystereHint">
+                          <p
+                            style={{
+                              margin:
+                                0,
+                            }}
+                          >
+                            Indice :{" "}
+                            {
+                              item
+                                .hints[
+                                Math.min(
+                                  item
+                                    .hints
+                                    .length -
+                                    1,
+                                  Math.floor(
+                                    (28 -
+                                      blurLevel) /
+                                      7,
+                                  ),
+                                )
+                              ]
+                            }
+                          </p>
+                        </div>
+                      ) : null}
 
-              <div className="imageMystereActionsRow">
-                <button
-                  className="quizBtnGhost imageMystereRevealBtn"
-                  onClick={
-                    revealMore
-                  }
-                >
-                  Révéler un
-                  peu plus
-                </button>
+                      {!revealed ? (
+                        <>
+                          <div className="quiInputWrap imageMystereInputWrap">
+                            <input
+                              type="text"
+                              className="quiInput imageMystereInput"
+                              placeholder="Ta réponse..."
+                              value={
+                                input
+                              }
+                              onChange={(
+                                e,
+                              ) =>
+                                setInput(
+                                  e
+                                    .target
+                                    .value,
+                                )
+                              }
+                              onKeyDown={(
+                                e,
+                              ) => {
+                                if (
+                                  e.key ===
+                                  "Enter"
+                                ) {
+                                  submitAnswer();
+                                }
+                              }}
+                            />
 
-                <button
-                  className="quizBtnGhost imageMystereRevealAnswerBtn"
-                  onClick={
-                    revealAnswer
-                  }
-                >
-                  Voir la
-                  réponse
-                </button>
-              </div>
-            </>
-          ) : (
-            <div className="quizExplain imageMystereReveal">
-              <p
-                style={{
-                  margin: 0,
-                }}
-              >
-                Réponse :{" "}
-                <strong>
-                  {
-                    current.answer
-                  }
-                </strong>
-              </p>
+                            <button
+                              className="quizBtnPrimary quiBtn imageMystereBtn"
+                              onClick={
+                                submitAnswer
+                              }
+                            >
+                              Valider
+                            </button>
+                          </div>
 
-              <div
-                style={{
-                  marginTop: 14,
-                }}
-              >
-                <button
-                  className="quizBtnPrimary"
-                  onClick={
-                    nextImage
-                  }
-                >
-                  {step +
-                    1 >=
-                  total
-                    ? "Voir le résultat"
-                    : "Image suivante"}
-                </button>
-              </div>
-            </div>
+                          <div className="imageMystereActionsRow">
+                            <button
+                              className="quizBtnGhost imageMystereRevealBtn"
+                              onClick={
+                                revealMore
+                              }
+                            >
+                              Révéler un
+                              peu plus
+                            </button>
+
+                            <button
+                              className="quizBtnGhost imageMystereRevealAnswerBtn"
+                              onClick={
+                                revealAnswer
+                              }
+                            >
+                              Voir la
+                              réponse
+                            </button>
+                          </div>
+                        </>
+                      ) : (
+                        <div className="quizExplain imageMystereReveal">
+                          <p
+                            style={{
+                              margin:
+                                0,
+                            }}
+                          >
+                            Réponse :{" "}
+                            <strong>
+                              {
+                                item.answer
+                              }
+                            </strong>
+                          </p>
+
+                          <div
+                            style={{
+                              marginTop:
+                                14,
+                            }}
+                          >
+                            <button
+                              className="quizBtnPrimary"
+                              onClick={
+                                nextImage
+                              }
+                            >
+                              {step +
+                                  1 >=
+                                total
+                                ? "Voir le résultat"
+                                : "Image suivante"}
+                            </button>
+                          </div>
+                        </div>
+                      )}
+                    </>
+                  ) : null}
+                </article>
+              );
+            },
           )}
         </div>
       </div>
