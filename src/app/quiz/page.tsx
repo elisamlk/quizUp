@@ -51,8 +51,8 @@ export async function generateMetadata({
 
   const title =
     p > 1
-      ? `Tous les quiz gratuits en ligne – Page ${p} | QuizUp`
-      : "Tous les quiz gratuits en ligne | Culture générale, histoire, géographie | QuizUp";
+      ? `Tous les quiz gratuits en ligne – Page ${p}`
+      : "Tous les quiz gratuits en ligne | Culture générale, histoire, géographie";
 
   const description =
     p > 1

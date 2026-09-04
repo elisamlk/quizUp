@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useMemo, useRef, useState } from "react";
 import type { PersonalityTest } from "@/lib/personalite";
 import { AdSlot } from "@/components/AdSlot";
 
@@ -359,6 +359,180 @@ function getWinningProfile(
   );
 }
 
+
+type PersonalityQuestion = PersonalityTest["questions"][number];
+
+type PersonalityQuestionCardProps = {
+  question: PersonalityQuestion;
+  questionIndex: number;
+  total: number;
+  selectedIndex: number | null;
+  isActive: boolean;
+  isBefore: boolean;
+  titleRef: (element: HTMLHeadingElement | null) => void;
+  onChooseAnswer: (questionIndex: number, answerIndex: number) => void;
+  onNext: () => void;
+  onRestart: () => void;
+};
+
+function PersonalityQuestionCard({
+  question,
+  questionIndex,
+  total,
+  selectedIndex,
+  isActive,
+  isBefore,
+  titleRef,
+  onChooseAnswer,
+  onNext,
+  onRestart,
+}: PersonalityQuestionCardProps) {
+  const isAnswered = selectedIndex !== null;
+
+  const articleClassName = [
+    "quizQuestionCard",
+    isActive ? "is-active" : "",
+    !isActive && isBefore ? "is-before" : "",
+    !isActive && !isBefore ? "is-after" : "",
+  ]
+    .filter(Boolean)
+    .join(" ");
+
+  const explanationClassName = [
+    "quizExplain",
+    isAnswered ? "is-visible" : "is-collapsed",
+  ]
+    .filter(Boolean)
+    .join(" ");
+
+  return (
+    <article
+      className={articleClassName}
+      data-question-number={questionIndex + 1}
+      aria-current={isActive ? "step" : undefined}
+    >
+      <div className="quizQuestionCardInner">
+        {question.image ? (
+          <div className="quizQuestionImageWrap">
+            <img
+              src={question.image}
+              alt={question.question}
+              className="quizQuestionImage"
+              loading={questionIndex === 0 ? "eager" : "lazy"}
+              decoding="async"
+            />
+          </div>
+        ) : null}
+
+        <h3
+          ref={titleRef}
+          tabIndex={-1}
+          className="quizQuestion"
+        >
+          <span className="srOnly">
+            Question {questionIndex + 1}.{" "}
+          </span>
+          {question.question}
+        </h3>
+
+        <ul className="quizAnswers">
+          {question.answers.map((answer, answerIndex) => {
+            const isChosen = selectedIndex === answerIndex;
+
+            let buttonClassName = "quizAnswerBtn";
+
+            if (isAnswered) {
+              if (isChosen) {
+                buttonClassName += " isCorrectSoft";
+              } else {
+                buttonClassName += " isDisabled";
+              }
+            }
+
+            return (
+              <li key={`${questionIndex}-${answerIndex}`}>
+                <button
+                  type="button"
+                  className={buttonClassName}
+                  onClick={() =>
+                    onChooseAnswer(questionIndex, answerIndex)
+                  }
+                  disabled={!isActive || isAnswered}
+                  aria-pressed={isChosen}
+                  tabIndex={isActive ? 0 : -1}
+                >
+                  {answer.label}
+                </button>
+              </li>
+            );
+          })}
+        </ul>
+
+        <div
+          className={explanationClassName}
+          aria-live={isActive ? "polite" : "off"}
+        >
+          <p style={{ margin: 0 }}>
+            {isAnswered ? (
+              <>
+                Tu as choisi :{" "}
+                <strong>
+                  {question.answers[selectedIndex]?.label}
+                </strong>
+              </>
+            ) : (
+              <>
+                Choisis la réponse qui te correspond le mieux.
+              </>
+            )}
+          </p>
+
+          {question.explanation ? (
+            <p
+              style={{
+                margin: "8px 0 0",
+                opacity: 0.9,
+              }}
+            >
+              {question.explanation}
+            </p>
+          ) : null}
+
+          <div
+            style={{
+              marginTop: 12,
+              display: "flex",
+              gap: 10,
+              flexWrap: "wrap",
+            }}
+          >
+            <button
+              className="quizBtnPrimary"
+              type="button"
+              onClick={onNext}
+              disabled={!isActive || !isAnswered}
+              tabIndex={isActive && isAnswered ? 0 : -1}
+            >
+              {questionIndex + 1 === total
+                ? "Voir le résultat"
+                : "Question suivante"}
+            </button>
+
+            <button
+              className="quizBtnGhost"
+              type="button"
+              onClick={onRestart}
+              tabIndex={isActive && isAnswered ? 0 : -1}
+            >
+              Recommencer
+            </button>
+          </div>
+        </div>
+      </div>
+    </article>
+  );
+}
+
 export function PersonalityPlayer({
   quiz,
   nextQuiz,
@@ -369,45 +543,26 @@ export function PersonalityPlayer({
   const total = quiz.questions.length;
 
   const [step, setStep] = useState<number>(0);
-  const [selected, setSelected] = useState<number | null>(null);
   const [answersMap, setAnswersMap] = useState<AnswerMap>({});
-  const [showExplanation, setShowExplanation] =
-    useState<boolean>(false);
-
   const [toast, setToast] = useState<string | null>(null);
   const [isSharing, setIsSharing] = useState<boolean>(false);
 
-  function showToast(message: string) {
-    setToast(message);
+  const titleRefs = useRef<Array<HTMLHeadingElement | null>>([]);
+  const toastTimer = useRef<number | null>(null);
 
-    window.setTimeout(
-      () => setToast(null),
-      2200,
-    );
-  }
+  const isFinished = step >= total;
 
-  const q = quiz.questions[step];
-
-  const progress = useMemo(() => {
-    if (total === 0) return 0;
-
-    return Math.round(
-      (step / total) * 100,
-    );
-  }, [step, total]);
+  const progress =
+    total === 0
+      ? 0
+      : Math.round((Math.min(step + 1, total) / total) * 100);
 
   const scores = useMemo(() => {
-    return getProfileScores(
-      quiz,
-      answersMap,
-    );
+    return getProfileScores(quiz, answersMap);
   }, [quiz, answersMap]);
 
   const winner = useMemo(() => {
-    return getWinningProfile(
-      quiz,
-      scores,
-    );
+    return getWinningProfile(quiz, scores);
   }, [quiz, scores]);
 
   const sortedProfiles = useMemo(() => {
@@ -416,34 +571,78 @@ export function PersonalityPlayer({
         ...profile,
         score: scores[profile.key] ?? 0,
       }))
-      .sort(
-        (a, b) => b.score - a.score,
-      );
+      .sort((a, b) => b.score - a.score);
   }, [quiz, scores]);
 
-  function chooseAnswer(idx: number) {
-    if (selected !== null) return;
+  function showToast(message: string) {
+    setToast(message);
 
-    setSelected(idx);
+    if (toastTimer.current !== null) {
+      window.clearTimeout(toastTimer.current);
+    }
 
-    setAnswersMap((prev) => ({
-      ...prev,
-      [step]: idx,
-    }));
-
-    setShowExplanation(true);
+    toastTimer.current = window.setTimeout(() => {
+      setToast(null);
+      toastTimer.current = null;
+    }, 2200);
   }
 
-  /* -------------------------------------------------------
-     SCROLL MOBILE
-  ------------------------------------------------------- */
+  function chooseAnswer(
+    questionIndex: number,
+    answerIndex: number,
+  ) {
+    if (isFinished || questionIndex !== step) return;
+    if (answersMap[questionIndex] !== undefined) return;
+
+    setAnswersMap((currentAnswers) => ({
+      ...currentAnswers,
+      [questionIndex]: answerIndex,
+    }));
+  }
+
+  function goToNextQuestion() {
+    if (isFinished) return;
+    if (answersMap[step] === undefined) return;
+
+    if (step + 1 >= total) {
+      setStep(total);
+      scrollToTestOnMobile();
+      return;
+    }
+
+    const nextStep = step + 1;
+    setStep(nextStep);
+
+    window.requestAnimationFrame(() => {
+      titleRefs.current[nextStep]?.focus({
+        preventScroll: true,
+      });
+
+      if (window.innerWidth <= 768) {
+        const testSection = document.getElementById("jouer");
+
+        if (testSection) {
+          const navbarOffset = 95;
+
+          const top =
+            testSection.getBoundingClientRect().top +
+            window.scrollY -
+            navbarOffset;
+
+          window.scrollTo({
+            top,
+            behavior: "smooth",
+          });
+        }
+      }
+    });
+  }
 
   function scrollToTestOnMobile() {
     if (window.innerWidth > 768) return;
 
     window.requestAnimationFrame(() => {
-      const testSection =
-        document.getElementById("jouer");
+      const testSection = document.getElementById("jouer");
 
       if (!testSection) return;
 
@@ -461,37 +660,15 @@ export function PersonalityPlayer({
     });
   }
 
-  /* -------------------------------------------------------
-     QUESTION SUIVANTE
-  ------------------------------------------------------- */
-
-  function next() {
-    if (step + 1 >= total) {
-      setStep(total);
-      scrollToTestOnMobile();
-      return;
-    }
-
-    setStep((s) => s + 1);
-    setSelected(null);
-    setShowExplanation(false);
-
-    scrollToTestOnMobile();
-  }
-
   function restart() {
     setStep(0);
-    setSelected(null);
     setAnswersMap({});
-    setShowExplanation(false);
-  }
 
-  function selectedAnswerText() {
-    if (selected === null) {
-      return null;
-    }
-
-    return q.answers[selected]?.label ?? null;
+    window.requestAnimationFrame(() => {
+      titleRefs.current[0]?.focus({
+        preventScroll: true,
+      });
+    });
   }
 
   async function copyLink() {
@@ -512,7 +689,7 @@ export function PersonalityPlayer({
     setIsSharing(true);
 
     try {
-      const brand = "QuizMania";
+      const brand = "QuizUp";
 
       const coverUrl =
         winner.image ||
@@ -583,425 +760,363 @@ export function PersonalityPlayer({
     }
   }
 
-  if (step >= total && winner) {
-    const pageUrl = encodeURIComponent(
-      typeof window !== "undefined"
-        ? window.location.href
-        : "",
-    );
+  const pageUrl =
+    typeof window !== "undefined"
+      ? encodeURIComponent(window.location.href)
+      : "";
 
-    const shareText = encodeURIComponent(
-      `J’ai obtenu le profil "${winner.title}" au test "${quiz.title}" !`,
-    );
-
-    return (
-      <>
-        <div className="quizPanel">
-          <div
-            className={`resultHead ${
-              winner.image
-                ? "hasImage"
-                : "noImage"
-            }`}
-            style={
-              winner.image
-                ? {
-                    backgroundImage: `url("${winner.image}")`,
-                  }
-                : undefined
-            }
-          >
-            {!winner.image ? (
-              <div className="resultScore">
-                {winner.emoji
-                  ? winner.emoji
-                  : "✨"}
-              </div>
-            ) : null}
-
-            <div className="resultHeadContent">
-              <div className="resultBadge">
-                Ton profil
-              </div>
-
-              <h3 className="resultTitle">
-                {winner.emoji
-                  ? `${winner.emoji} `
-                  : ""}
-                {winner.title}
-              </h3>
-
-              <p className="resultSub">
-                {winner.description}
-              </p>
-            </div>
-          </div>
-
-          <div
-            style={{
-              marginTop: 14,
-              marginBottom: 14,
-            }}
-          >
-            <AdSlot slot="3333333333" />
-          </div>
-
-          <div className="quizExplain">
-            <p style={{ margin: 0 }}>
-              Ton profil dominant est{" "}
-              <strong>
-                {winner.emoji
-                  ? `${winner.emoji} `
-                  : ""}
-                {winner.title}
-              </strong>
-              .
-            </p>
-
-            {sortedProfiles.length > 0 ? (
-              <div
-                style={{
-                  marginTop: 12,
-                }}
-              >
-                <p
-                  style={{
-                    margin: "0 0 8px",
-                    opacity: 0.9,
-                  }}
-                >
-                  Répartition des profils :
-                </p>
-
-                <div
-                  style={{
-                    display: "grid",
-                    gap: 8,
-                  }}
-                >
-                  {sortedProfiles.map(
-                    (profile) => {
-                      const max =
-                        sortedProfiles[0]
-                          ?.score || 1;
-
-                      const width =
-                        max > 0
-                          ? Math.max(
-                              (profile.score /
-                                max) *
-                                100,
-                              6,
-                            )
-                          : 0;
-
-                      return (
-                        <div
-                          key={
-                            profile.key
-                          }
-                        >
-                          <div
-                            style={{
-                              display:
-                                "flex",
-                              justifyContent:
-                                "space-between",
-                              gap: 12,
-                              marginBottom: 4,
-                              fontSize: 14,
-                            }}
-                          >
-                            <span>
-                              {profile.emoji
-                                ? `${profile.emoji} `
-                                : ""}
-                              {
-                                profile.title
-                              }
-                            </span>
-
-                            <strong>
-                              {
-                                profile.score
-                              }
-                            </strong>
-                          </div>
-
-                          <div
-                            style={{
-                              height: 8,
-                              borderRadius: 999,
-                              background:
-                                "rgba(255,255,255,0.08)",
-                              overflow:
-                                "hidden",
-                            }}
-                          >
-                            <div
-                              style={{
-                                width: `${width}%`,
-                                height: "100%",
-                                borderRadius:
-                                  999,
-                                background:
-                                  "currentColor",
-                                opacity: 0.9,
-                              }}
-                            />
-                          </div>
-                        </div>
-                      );
-                    },
-                  )}
-                </div>
-              </div>
-            ) : null}
-          </div>
-
-          <div className="resultActions">
-            <button
-              className="quizBtnPrimary"
-              onClick={restart}
-            >
-              Recommencer
-            </button>
-
-            <button
-              className="quizBtnShare"
-              onClick={shareImageCard}
-              disabled={isSharing}
-            >
-              {isSharing
-                ? "Génération…"
-                : "Partager (image)"}
-            </button>
-
-            {nextQuiz ? (
-              <a
-                className="quizBtnPrimaryOutline"
-                href={`/personalite/${nextQuiz.slug}`}
-              >
-                Test suivant →
-              </a>
-            ) : null}
-          </div>
-
-          <div
-            className="shareBar"
-            aria-label="Partager sur les réseaux"
-          >
-            <button
-              className="shareBtn"
-              onClick={copyLink}
-            >
-              Copier le lien
-            </button>
-
-            <button
-              className="shareBtn"
-              onClick={() =>
-                openShare(
-                  `https://twitter.com/intent/tweet?text=${shareText}&url=${pageUrl}`,
-                )
-              }
-            >
-              X
-            </button>
-
-            <button
-              className="shareBtn"
-              onClick={() =>
-                openShare(
-                  `https://www.facebook.com/sharer/sharer.php?u=${pageUrl}`,
-                )
-              }
-            >
-              Facebook
-            </button>
-
-            <button
-              className="shareBtn"
-              onClick={() =>
-                openShare(
-                  `https://wa.me/?text=${shareText}%20${pageUrl}`,
-                )
-              }
-            >
-              WhatsApp
-            </button>
-
-            <button
-              className="shareBtn"
-              onClick={() =>
-                openShare(
-                  `https://t.me/share/url?url=${pageUrl}&text=${shareText}`,
-                )
-              }
-            >
-              Telegram
-            </button>
-
-            <button
-              className="shareBtn"
-              onClick={() =>
-                openShare(
-                  `https://www.reddit.com/submit?url=${pageUrl}&title=${shareText}`,
-                )
-              }
-            >
-              Reddit
-            </button>
-          </div>
-
-          {nextQuiz ? (
-            <p className="resultNextHint">
-              Prochain :{" "}
-              <strong>
-                {nextQuiz.title}
-              </strong>
-            </p>
-          ) : null}
-        </div>
-
-        {toast && (
-          <div className="toast">
-            {toast}
-          </div>
-        )}
-      </>
-    );
-  }
+  const shareText = winner
+    ? encodeURIComponent(
+        `J’ai obtenu le profil "${winner.title}" au test "${quiz.title}" !`,
+      )
+    : "";
 
   return (
     <>
-      <div className="quizPanel">
-        <div className="quizTop">
-          <span className="quizCounter">
-            Question{" "}
-            <strong>{step + 1}</strong> /{" "}
-            {total}
-          </span>
+      <div
+        className="quizPlayerQuestions"
+        data-finished={isFinished ? "true" : "false"}
+      >
+        <div className="quizPanel">
+          <div className="quizTop">
+            <span className="quizCounter">
+              Question{" "}
+              <strong>
+                {Math.min(step + 1, total)}
+              </strong>{" "}
+              / {total}
+            </span>
 
-          <span className="quizScore">
-            Test de personnalité
-          </span>
-        </div>
+            <span className="quizScore">
+              Test de personnalité
+            </span>
+          </div>
 
-        <div
-          className="quizProgressBar"
-          aria-hidden="true"
-        >
           <div
-            className="quizProgressFill"
-            style={{
-              width: `${progress}%`,
-            }}
-          />
-        </div>
-
-        {q.image && (
-          <div className="quizQuestionImageWrap">
-            <img
-              src={q.image}
-              alt={q.question}
-              className="quizQuestionImage"
+            className="quizProgressBar"
+            role="progressbar"
+            aria-label="Progression du test"
+            aria-valuemin={0}
+            aria-valuemax={100}
+            aria-valuenow={progress}
+          >
+            <div
+              className="quizProgressFill"
+              style={{
+                width: `${progress}%`,
+              }}
             />
           </div>
-        )}
 
-        <h3 className="quizQuestion">
-          {q.question}
-        </h3>
-
-        <ul className="quizAnswers">
-          {q.answers.map((a, idx) => {
-            const chosen =
-              selected === idx;
-
-            let cls =
-              "quizAnswerBtn";
-
-            if (selected !== null) {
-              if (chosen) {
-                cls += " isCorrectSoft";
-              } else {
-                cls += " isDisabled";
-              }
-            }
-
-            return (
-              <li key={idx}>
-                <button
-                  type="button"
-                  className={cls}
-                  onClick={() =>
-                    chooseAnswer(idx)
-                  }
-                  disabled={
-                    selected !== null
-                  }
-                >
-                  {a.label}
-                </button>
-              </li>
-            );
-          })}
-        </ul>
-
-        {showExplanation ? (
-          <div className="quizExplain">
-            <p style={{ margin: 0 }}>
-              Tu as choisi :{" "}
-              <strong>
-                {selectedAnswerText()}
-              </strong>
-            </p>
-
-            {q.explanation ? (
-              <p
-                style={{
-                  margin: "8px 0 0",
-                  opacity: 0.9,
+          <div className="quizQuestionsViewport">
+            {quiz.questions.map((question, questionIndex) => (
+              <PersonalityQuestionCard
+                key={question.id ?? questionIndex}
+                question={question}
+                questionIndex={questionIndex}
+                total={total}
+                selectedIndex={
+                  answersMap[questionIndex] ?? null
+                }
+                isActive={
+                  questionIndex === step && !isFinished
+                }
+                isBefore={questionIndex < step}
+                titleRef={(element) => {
+                  titleRefs.current[questionIndex] = element;
                 }}
-              >
-                {q.explanation}
-              </p>
-            ) : null}
+                onChooseAnswer={chooseAnswer}
+                onNext={goToNextQuestion}
+                onRestart={restart}
+              />
+            ))}
+          </div>
+        </div>
+      </div>
+
+      <div
+        className="quizPlayerResults"
+        data-visible={isFinished ? "true" : "false"}
+      >
+        {winner ? (
+          <div className="quizPanel">
+            <div
+              className={`resultHead ${
+                winner.image
+                  ? "hasImage"
+                  : "noImage"
+              }`}
+              style={
+                winner.image
+                  ? {
+                      backgroundImage: `url("${winner.image}")`,
+                    }
+                  : undefined
+              }
+            >
+              {!winner.image ? (
+                <div className="resultScore">
+                  {winner.emoji
+                    ? winner.emoji
+                    : "✨"}
+                </div>
+              ) : null}
+
+              <div className="resultHeadContent">
+                <div className="resultBadge">
+                  Ton profil
+                </div>
+
+                <h3 className="resultTitle">
+                  {winner.emoji
+                    ? `${winner.emoji} `
+                    : ""}
+                  {winner.title}
+                </h3>
+
+                <p className="resultSub">
+                  {winner.description}
+                </p>
+              </div>
+            </div>
 
             <div
               style={{
-                marginTop: 12,
-                display: "flex",
-                gap: 10,
-                flexWrap: "wrap",
+                marginTop: 14,
+                marginBottom: 14,
               }}
             >
+              <AdSlot slot="3333333333" />
+            </div>
+
+            <div className="quizExplain">
+              <p style={{ margin: 0 }}>
+                Ton profil dominant est{" "}
+                <strong>
+                  {winner.emoji
+                    ? `${winner.emoji} `
+                    : ""}
+                  {winner.title}
+                </strong>
+                .
+              </p>
+
+              {sortedProfiles.length > 0 ? (
+                <div
+                  style={{
+                    marginTop: 12,
+                  }}
+                >
+                  <p
+                    style={{
+                      margin: "0 0 8px",
+                      opacity: 0.9,
+                    }}
+                  >
+                    Répartition des profils :
+                  </p>
+
+                  <div
+                    style={{
+                      display: "grid",
+                      gap: 8,
+                    }}
+                  >
+                    {sortedProfiles.map(
+                      (profile) => {
+                        const max =
+                          sortedProfiles[0]
+                            ?.score || 1;
+
+                        const width =
+                          max > 0
+                            ? Math.max(
+                                (profile.score /
+                                  max) *
+                                  100,
+                                6,
+                              )
+                            : 0;
+
+                        return (
+                          <div
+                            key={profile.key}
+                          >
+                            <div
+                              style={{
+                                display:
+                                  "flex",
+                                justifyContent:
+                                  "space-between",
+                                gap: 12,
+                                marginBottom: 4,
+                                fontSize: 14,
+                              }}
+                            >
+                              <span>
+                                {profile.emoji
+                                  ? `${profile.emoji} `
+                                  : ""}
+                                {profile.title}
+                              </span>
+
+                              <strong>
+                                {profile.score}
+                              </strong>
+                            </div>
+
+                            <div
+                              style={{
+                                height: 8,
+                                borderRadius: 999,
+                                background:
+                                  "rgba(255,255,255,0.08)",
+                                overflow:
+                                  "hidden",
+                              }}
+                            >
+                              <div
+                                style={{
+                                  width: `${width}%`,
+                                  height: "100%",
+                                  borderRadius:
+                                    999,
+                                  background:
+                                    "currentColor",
+                                  opacity: 0.9,
+                                }}
+                              />
+                            </div>
+                          </div>
+                        );
+                      },
+                    )}
+                  </div>
+                </div>
+              ) : null}
+            </div>
+
+            <div className="resultActions">
               <button
                 className="quizBtnPrimary"
-                onClick={next}
-              >
-                {step + 1 === total
-                  ? "Voir le résultat"
-                  : "Question suivante"}
-              </button>
-
-              <button
-                className="quizBtnGhost"
+                type="button"
                 onClick={restart}
               >
                 Recommencer
               </button>
+
+              <button
+                className="quizBtnShare"
+                type="button"
+                onClick={shareImageCard}
+                disabled={isSharing}
+              >
+                {isSharing
+                  ? "Génération…"
+                  : "Partager (image)"}
+              </button>
+
+              {nextQuiz ? (
+                <a
+                  className="quizBtnPrimaryOutline"
+                  href={`/personalite/${nextQuiz.slug}`}
+                >
+                  Test suivant →
+                </a>
+              ) : null}
             </div>
+
+            <div
+              className="shareBar"
+              aria-label="Partager sur les réseaux"
+            >
+              <button
+                className="shareBtn"
+                type="button"
+                onClick={copyLink}
+              >
+                Copier le lien
+              </button>
+
+              <button
+                className="shareBtn"
+                type="button"
+                onClick={() =>
+                  openShare(
+                    `https://twitter.com/intent/tweet?text=${shareText}&url=${pageUrl}`,
+                  )
+                }
+              >
+                X
+              </button>
+
+              <button
+                className="shareBtn"
+                type="button"
+                onClick={() =>
+                  openShare(
+                    `https://www.facebook.com/sharer/sharer.php?u=${pageUrl}`,
+                  )
+                }
+              >
+                Facebook
+              </button>
+
+              <button
+                className="shareBtn"
+                type="button"
+                onClick={() =>
+                  openShare(
+                    `https://wa.me/?text=${shareText}%20${pageUrl}`,
+                  )
+                }
+              >
+                WhatsApp
+              </button>
+
+              <button
+                className="shareBtn"
+                type="button"
+                onClick={() =>
+                  openShare(
+                    `https://t.me/share/url?url=${pageUrl}&text=${shareText}`,
+                  )
+                }
+              >
+                Telegram
+              </button>
+
+              <button
+                className="shareBtn"
+                type="button"
+                onClick={() =>
+                  openShare(
+                    `https://www.reddit.com/submit?url=${pageUrl}&title=${shareText}`,
+                  )
+                }
+              >
+                Reddit
+              </button>
+            </div>
+
+            {nextQuiz ? (
+              <p className="resultNextHint">
+                Prochain :{" "}
+                <strong>
+                  {nextQuiz.title}
+                </strong>
+              </p>
+            ) : null}
           </div>
         ) : null}
       </div>
 
-      {toast && (
+      {toast ? (
         <div className="toast">
           {toast}
         </div>
-      )}
+      ) : null}
     </>
   );
 }
+

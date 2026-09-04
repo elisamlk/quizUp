@@ -9,7 +9,7 @@ import type { Metadata } from "next";
 
 
 export const metadata: Metadata = {
-  title: "Jeux gratuits en ligne | Mini-jeux, quiz emoji, pendu et défis | QuizUp",
+  title: "Jeux gratuits en ligne | Mini-jeux, quiz emoji, pendu et défis",
   description:
     "Joue gratuitement à des mini-jeux en ligne sur QuizUp : Emoji Quiz, Pendu, Mot mystère, Image mystère, Plus ou moins, jeux de mémoire, logique et culture générale.",
 
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   },
 
   openGraph: {
-    title: "Jeux gratuits en ligne | QuizUp",
+    title: "Jeux gratuits en ligne",
     description:
       "Découvre des mini-jeux gratuits, rapides et amusants : quiz emoji, pendu, mot mystère, jeux de mémoire, logique et culture générale.",
     url: "https://www.quizup.fr/jeux",

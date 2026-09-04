@@ -95,8 +95,8 @@ export async function generateMetadata({
 
   const title =
     p > 1
-      ? `Tests de personnalité gratuits – Page ${p} | QuizUp`
-      : "Tests de personnalité gratuits en ligne | QuizUp";
+      ? `Tests de personnalité gratuits – Page ${p}`
+      : "Tests de personnalité gratuits en ligne";
 
   const description =
     p > 1

@@ -45,7 +45,7 @@ export async function generateMetadata({
     };
   }
 
-  const title = `${test.title} | Test de personnalité gratuit | QuizUp`;
+  const title = `${test.title} | Test de personnalité gratuit`;
 
   const description =
     test.description ??
