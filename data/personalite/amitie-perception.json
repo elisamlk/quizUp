@@ -1,13 +1,10 @@
 {
   "slug": "test-comment-tes-amis-te-percoivent",
-  "title": "Test amitié - Comment tes amis te perçoivent vraiment ?",
-  "description": "Tes comportements révèlent l’image que tu renvoies aux autres.",
-  "descriptionSeo": "Réponses aux messages, attitude en groupe, gestion des moments importants ou des silences… ce test analyse tes comportements concrets pour révéler l’image que tu renvoies réellement à tes amis. Es-tu perçu(e) comme fiable, dynamique ou difficile à cerner ? À travers des situations du quotidien, découvre comment les autres te voient vraiment et ce que ton attitude dit de ta place dans leurs relations.",
-  "category": {
-    "name": "Amitié",
-    "slug": "amitie"
-  },
-  "createdAt": "2026-04-27",
+  "title": "Test amitié - Comment tes amis te voient vraiment ?",
+  "description": "Tes habitudes avec tes amis en disent plus que tu ne le crois. Découvre l'image que tu renvoies vraiment dans ton groupe.",
+  "descriptionSeo": "Réponses aux messages, attitude en groupe, présence dans les moments importants ou réactions face aux imprévus : tes habitudes donnent une certaine image de toi à tes amis. À travers 10 situations concrètes du quotidien, découvre comment ton entourage peut réellement te voir : personne fiable sur qui compter, moteur du groupe ou personnalité plus indépendante qui fonctionne à son propre rythme.",
+  "category": { "name": "Amitié", "slug": "amitie" },
+  "createdAt": "2026-09-05",
   "isNew": true,
   "isPopular": true,
   "images": {
@@ -19,111 +16,111 @@
     {
       "key": "fiable",
       "title": "La personne fiable",
-      "description": "Tes amis te voient comme quelqu’un de solide et de constant. Tu es présent(e), tu réponds, tu tiens tes engagements et tu es une valeur sûre dans leur vie. On sait qu’on peut compter sur toi sans hésiter. Tu inspires confiance et stabilité, même si tu n’es pas toujours le/la plus démonstratif(ve).",
+      "description": "Tes amis te voient comme quelqu'un de solide et de constant. Tu es présent(e), tu réponds, tu tiens tes engagements et tu es une valeur sûre dans leur vie. On sait qu'on peut compter sur toi sans hésiter. Tu inspires confiance et stabilité, même si tu n'es pas toujours le/la plus démonstratif(ve).",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777726110/fiable_mvjsd5.jpg"
     },
     {
       "key": "energie",
-      "title": "La personne qui apporte de l’énergie",
-      "description": "Tu es perçu(e) comme quelqu’un de vivant, spontané et agréable à avoir autour. Tu apportes du mouvement, de l’humour ou de la légèreté. Tes amis associent ta présence à des moments dynamiques et positifs. Tu es souvent celui/celle qui rend les moments plus mémorables.",
+      "title": "La personne qui apporte de l'énergie",
+      "description": "Tu es perçu(e) comme quelqu'un de vivant, spontané(e) et agréable à avoir autour. Tu apportes du mouvement, de l'humour ou de la légèreté. Tes amis associent ta présence à des moments dynamiques et positifs. Tu es souvent celui/celle qui rend les moments plus mémorables.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777726112/energetic_tvacfv.jpg"
     },
     {
-      "key": "complexe",
-      "title": "La personne difficile à cerner",
-      "description": "Tes amis peuvent parfois avoir du mal à te situer. Tu peux être très présent(e) à certains moments, puis plus distant(e) à d’autres. Ton comportement n’est pas toujours prévisible. Cela peut créer une forme de flou dans la manière dont les autres te perçoivent.",
+      "key": "independant",
+      "title": "La personne indépendante",
+      "description": "Tu fonctionnes à ton rythme, et tes amis le savent. Tu peux être très présent(e) et investi(e) à certains moments, et avoir besoin de distance à d'autres. Ce n'est pas du détachement — c'est ta façon d'être toi-même tout en restant attaché(e) à ceux qui comptent. Les gens qui te connaissent vraiment savent que ta présence, quand elle est là, est authentique.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777726113/complex_xsuie5.jpg"
     }
   ],
   "questions": [
     {
       "id": "1",
-      "question": "Un ami t’écrit pour te proposer un plan dans la semaine…",
+      "question": "Un ami t'écrit pour te proposer un plan dans la semaine…",
       "answers": [
-        { "label": "Je réponds rapidement et clairement", "scores": { "fiable": 3 } },
-        { "label": "Je réponds mais sans trop m’engager", "scores": { "energie": 3 } },
-        { "label": "Je mets du temps ou j’oublie", "scores": { "complexe": 3 } }
+        { "label": "Je réponds clairement et je confirme si c'est possible", "scores": { "fiable": 3 } },
+        { "label": "Je réponds vite et je propose une autre date si ça ne colle pas", "scores": { "energie": 2, "fiable": 1 } },
+        { "label": "Je réponds quand j'ai vraiment regardé mon planning, même si ça prend un peu de temps", "scores": { "independant": 3 } }
       ]
     },
     {
       "id": "2",
-      "question": "Tu arrives à une soirée où il y a ton groupe…",
+      "question": "Ton groupe se retrouve quelque part, tu arrives en retard…",
       "answers": [
-        { "label": "Je salue tout le monde et m’intègre", "scores": { "fiable": 3 } },
-        { "label": "Je mets rapidement de l’ambiance", "scores": { "energie": 3 } },
-        { "label": "Je reste plus discret(e) au début", "scores": { "complexe": 3 } }
+        { "label": "Je lance une vanne ou je mets de l'ambiance direct", "scores": { "energie": 3 } },
+        { "label": "J'arrive, je me pose, j'observe avant de parler", "scores": { "independant": 2, "fiable": 1 } },
+        { "label": "Je préviens avant et je m'intègre naturellement", "scores": { "fiable": 3 } }
       ]
     },
     {
       "id": "3",
-      "question": "Quelqu’un te confie un problème important…",
+      "question": "Un ami t'appelle, clairement pas dans son assiette. Il commence à te parler de quelque chose de difficile…",
       "answers": [
-        { "label": "Je suis vraiment présent(e) pour écouter", "scores": { "fiable": 3 } },
-        { "label": "J’essaie de remonter le moral", "scores": { "energie": 3 } },
-        { "label": "Je ne sais pas toujours comment réagir", "scores": { "complexe": 3 } }
+        { "label": "Je suis là mais je ne sais pas toujours quoi dire", "scores": { "independant": 2, "fiable": 1 } },
+        { "label": "Je l'écoute vraiment, sans chercher à conclure trop vite", "scores": { "fiable": 3 } },
+        { "label": "J'essaie de l'aider à voir les choses autrement ou à relativiser", "scores": { "energie": 2, "fiable": 1 } }
       ]
     },
     {
       "id": "4",
-      "question": "Tu dis que tu vas faire quelque chose pour un ami…",
+      "question": "Tu as promis à un ami de l'aider à déménager ce week-end. Le vendredi soir tu es épuisé(e)…",
       "answers": [
-        { "label": "Je le fais réellement", "scores": { "fiable": 3 } },
-        { "label": "Je le fais si je suis motivé(e)", "scores": { "energie": 3 } },
-        { "label": "J’oublie parfois", "scores": { "complexe": 3 } }
+        { "label": "J'y vais quand même, j'avais dit que je serais là", "scores": { "fiable": 3 } },
+        { "label": "Je lui explique mon état et on voit ensemble ce qu'on fait", "scores": { "energie": 2, "independant": 1 } },
+        { "label": "Je lui dis franchement que je suis à bout et je propose une autre façon de l'aider", "scores": { "independant": 2, "fiable": 1 } }
       ]
     },
     {
       "id": "5",
-      "question": "Dans une discussion de groupe…",
+      "question": "Votre groupe est en train de débattre d'un sujet un peu sérieux, tout le monde a un avis…",
       "answers": [
-        { "label": "Je participe de manière posée", "scores": { "fiable": 3 } },
-        { "label": "Je fais réagir les autres", "scores": { "energie": 3 } },
-        { "label": "Je parle peu ou par moments", "scores": { "complexe": 3 } }
+        { "label": "J'aime faire réagir, je pousse un peu le débat", "scores": { "energie": 3 } },
+        { "label": "J'écoute plus que je ne parle", "scores": { "independant": 2, "fiable": 1 } },
+        { "label": "Je partage mon point de vue de façon posée", "scores": { "fiable": 2, "energie": 1 } }
       ]
     },
     {
       "id": "6",
-      "question": "Un ami n’a plus de nouvelles de toi pendant quelques jours…",
+      "question": "Ça fait deux semaines que tu n'as pas écrit à un ami proche, sans raison particulière…",
       "answers": [
-        { "label": "C’est rare", "scores": { "fiable": 3 } },
-        { "label": "Ça peut arriver", "scores": { "energie": 3 } },
-        { "label": "C’est assez fréquent", "scores": { "complexe": 3 } }
+        { "label": "C'est tout à fait normal pour moi", "scores": { "independant": 3 } },
+        { "label": "Ça m'arrive rarement, je prends des nouvelles régulièrement", "scores": { "fiable": 3 } },
+        { "label": "Quand je reviens, je relance direct la conversation ou je propose qu'on se voie", "scores": { "energie": 2, "independant": 1 } }
       ]
     },
     {
       "id": "7",
-      "question": "On te propose un plan spontané…",
+      "question": "Un ami t'envoie un message à 17h : \"Soirée ce soir chez moi, tu viens ?\"",
       "answers": [
-        { "label": "Je vérifie et je confirme", "scores": { "fiable": 3 } },
-        { "label": "Je suis souvent partant(e)", "scores": { "energie": 3 } },
-        { "label": "Je reste hésitant(e)", "scores": { "complexe": 3 } }
+        { "label": "Je suis souvent partant(e), j'adore l'improvisation", "scores": { "energie": 3 } },
+        { "label": "J'hésite, j'ai besoin de me préparer mentalement", "scores": { "independant": 2, "energie": 1 } },
+        { "label": "Je vérifie si je peux et je confirme clairement", "scores": { "fiable": 3 } }
       ]
     },
     {
       "id": "8",
       "question": "Tu es dans un moment de groupe un peu calme…",
       "answers": [
-        { "label": "Je maintiens la discussion", "scores": { "fiable": 3 } },
+        { "label": "Je maintiens la discussion", "scores": { "fiable": 2, "energie": 1 } },
         { "label": "Je lance quelque chose de fun", "scores": { "energie": 3 } },
-        { "label": "Je laisse faire", "scores": { "complexe": 3 } }
+        { "label": "Je laisse faire, les silences ne me dérangent pas", "scores": { "independant": 3 } }
       ]
     },
     {
       "id": "9",
-      "question": "Un ami te décrit à quelqu’un…",
+      "question": "Un ami traverse une période difficile. Tu as pensé à lui plusieurs fois cette semaine mais tu ne l'as pas encore contacté…",
       "answers": [
-        { "label": "Fiable et présent(e)", "scores": { "fiable": 3 } },
-        { "label": "Fun et dynamique", "scores": { "energie": 3 } },
-        { "label": "Un peu imprévisible", "scores": { "complexe": 3 } }
+        { "label": "J'attends le bon moment, je ne veux pas m'imposer", "scores": { "independant": 3 } },
+        { "label": "Je lui propose de se voir ou de faire quelque chose pour lui changer les idées", "scores": { "energie": 2, "fiable": 1 } },
+        { "label": "Je lui envoie un message, c'est important", "scores": { "fiable": 3 } }
       ]
     },
     {
       "id": "10",
-      "question": "Quand tu quittes un moment avec tes amis…",
+      "question": "Après une soirée avec tes amis, comment tu te sens en rentrant ?",
       "answers": [
-        { "label": "Tout est fluide et naturel", "scores": { "fiable": 3 } },
-        { "label": "On garde une bonne énergie", "scores": { "energie": 3 } },
-        { "label": "Ça dépend des moments", "scores": { "complexe": 3 } }
+        { "label": "Rechargé(e), heureux(se), déjà impatient(e) de recommencer", "scores": { "energie": 3 } },
+        { "label": "Bien, content(e) d'avoir été là pour les gens que j'aime", "scores": { "fiable": 2, "energie": 1 } },
+        { "label": "Fatigué(e), j'ai besoin de temps seul(e) pour recharger", "scores": { "independant": 3 } }
       ]
     }
   ]
