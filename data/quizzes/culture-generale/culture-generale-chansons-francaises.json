@@ -1,8 +1,8 @@
 {
   "slug": "quiz-chansons-francaises",
-  "title": "Quiz Chansons Françaises - 20 questions sur les titres et artistes cultes",
-  "description": "Paroles mythiques, refrains inoubliables et grands noms de la chanson française : teste ta culture musicale.",
-  "descriptionSeo": "Teste ta culture générale sur les chansons françaises avec ce quiz de 20 questions. Des classiques intemporels aux grands tubes populaires, retrouve les artistes emblématiques, les refrains cultes et les titres qui ont marqué l’histoire de la musique francophone. Un quiz idéal pour enrichir sa culture musicale avec des anecdotes utiles et mémorables.",
+  "title": "Quiz Chansons Françaises - Reconnais-tu ces 20 chansons cultes ?",
+  "description": "Piaf, Brel, France Gall, Renaud, Goldman, Stromae… connais-tu vraiment les chansons qui ont marqué plusieurs générations ?",
+  "descriptionSeo": "Interprètes, auteurs, origines et anecdotes : teste ta culture sur les chansons françaises avec ce quiz de 20 questions. De Piaf à Stromae en passant par Brel, France Gall, Renaud, Aznavour ou Indochine, retrouve les artistes, découvre qui a écrit quoi, et enrichis ta culture musicale avec des faits mémorables sur les plus grands tubes francophones.",
   "category": {
     "name": "Culture générale",
     "slug": "culture-generale"
@@ -23,7 +23,7 @@
       "imagePrompt": "edith piaf vintage microphone",
       "answers": ["Barbara", "Juliette Gréco", "Édith Piaf", "France Gall"],
       "correctIndex": 2,
-      "explanation": "« La Vie en rose » est l’une des chansons les plus associées à Édith Piaf et à l’image de Paris dans le monde. Son succès international a largement contribué à faire de Piaf l’une des voix françaises les plus reconnues de l’histoire."
+      "explanation": "Édith Piaf enregistre « La Vie en rose » en 1946. Elle en est aussi l'auteure des paroles, ce que l'on oublie souvent. La chanson a connu une diffusion mondiale et reste aujourd'hui l'une des chansons françaises les plus reconnues à l'international, notamment grâce à d'innombrables reprises et à son utilisation dans le cinéma."
     },
     {
       "id": "2",
@@ -32,25 +32,25 @@
       "imagePrompt": "french male singer stage lights",
       "answers": ["Florent Pagny", "Johnny Hallyday", "Michel Sardou", "Daniel Balavoine"],
       "correctIndex": 1,
-      "explanation": "« Je te promets » est l’un des titres les plus marquants de Johnny Hallyday. La chanson est devenue un classique des déclarations sentimentales en musique, au point d’être reprise par plusieurs générations d’artistes."
+      "explanation": "« Je te promets » est sortie en 1985 sur l'album « Rock 'n' Roll Attitude » de Johnny Hallyday. La chanson, écrite par Michel Berger, est devenue l'une de ses déclarations d'amour les plus emblématiques et a été reprise des décennies plus tard par de nombreux artistes."
     },
     {
       "id": "3",
-      "question": "Qui chante « Ella, elle l’a » ?",
+      "question": "« Ella, elle l'a », interprétée par France Gall, rend hommage à quelle grande chanteuse de jazz américaine ?",
       "image": null,
-      "imagePrompt": "france gall stage 1980s style",
-      "answers": ["Véronique Sanson", "France Gall", "Mylène Farmer", "Patricia Kaas"],
+      "imagePrompt": "ella fitzgerald jazz portrait vintage",
+      "answers": ["Billie Holiday", "Ella Fitzgerald", "Nina Simone", "Sarah Vaughan"],
       "correctIndex": 1,
-      "explanation": "France Gall interprète « Ella, elle l’a », écrite par Michel Berger en hommage à Ella Fitzgerald. Le morceau mêle pop française et admiration pour le jazz américain, ce qui explique son statut particulier dans la chanson francophone."
+      "explanation": "Michel Berger écrit « Ella, elle l'a » en 1987 en hommage à Ella Fitzgerald, qu'il admirait profondément. Le titre est un jeu de mots : « elle l'a » désigne ce don naturel, cette grâce indéfinissable que possédait la chanteuse américaine. France Gall l'interprète avec une légèreté qui contraste avec la solennité du propos."
     },
     {
       "id": "4",
-      "question": "Quel chanteur est associé au titre « Alexandrie Alexandra » ?",
+      "question": "En quelle année « Alexandrie Alexandra » est-elle sortie en single ?",
       "image": null,
       "imagePrompt": "claude francois disco style",
-      "answers": ["Claude François", "Michel Delpech", "Joe Dassin", "Serge Lama"],
-      "correctIndex": 0,
-      "explanation": "« Alexandrie Alexandra » est l’un des grands tubes de Claude François. Sortie peu avant sa mort, la chanson est restée liée à son énergie scénique et à l’esthétique disco de la fin des années 1970."
+      "answers": ["1975", "1978", "1980", "1983"],
+      "correctIndex": 1,
+      "explanation": "Enregistrée en 1977 et présente sur l'album « Magnolias for Ever », « Alexandrie Alexandra » sort en single le 15 mars 1978, quelques jours après la mort de Claude François. Ce titre disco deviendra l'un de ses morceaux les plus célèbres, et son succès posthume fulgurant en a fait une chanson-symbole de toute une époque."
     },
     {
       "id": "5",
@@ -59,25 +59,25 @@
       "imagePrompt": "jacques brel black and white",
       "answers": ["Léo Ferré", "Charles Aznavour", "Gilbert Bécaud", "Jacques Brel"],
       "correctIndex": 3,
-      "explanation": "Jacques Brel a fait de « Ne me quitte pas » l’un des monuments de la chanson francophone. Le texte est souvent salué pour son intensité dramatique et sa dimension presque théâtrale, typique du style de Brel."
+      "explanation": "Jacques Brel compose et interprète « Ne me quitte pas » en 1959, après une rupture douloureuse. Il a lui-même déclaré avoir honte de la chanson, la jugeant trop suppliciante — ce qui ne l'a pas empêchée de devenir l'une des œuvres majeures de la chanson francophone, traduite dans des dizaines de langues."
     },
     {
       "id": "6",
-      "question": "Quel duo chante « Je l’aime à mourir » dans sa version originale ?",
+      "question": "Quel artiste interprète « Je l'aime à mourir » dans sa version originale ?",
       "image": null,
       "imagePrompt": "french acoustic singer songwriter",
       "answers": ["Francis Cabrel", "Gérard Lenorman", "Maxime Le Forestier", "Patrick Bruel"],
       "correctIndex": 0,
-      "explanation": "« Je l’aime à mourir » est l’un des plus grands succès de Francis Cabrel. Son écriture simple en apparence, mais très imagée, a permis à la chanson de traverser les décennies et d’être reprise dans plusieurs langues."
+      "explanation": "Francis Cabrel sort « Je l'aime à mourir » en 1979 sur son deuxième album « Les Chemins de traverse ». La chanson n'est pas immédiatement un grand succès commercial, mais elle s'installe progressivement comme l'un des titres les plus aimés de son répertoire. Son écriture simple et très imagée, typique du style de Cabrel, lui a permis de traverser les décennies sans vieillir."
     },
     {
       "id": "7",
-      "question": "Qui chante « Pour que tu m’aimes encore » ?",
+      "question": "Qui a écrit « Pour que tu m'aimes encore », interprétée par Céline Dion ?",
       "image": null,
-      "imagePrompt": "female singer 1990s french pop",
-      "answers": ["Lara Fabian", "Julie Zenatti", "Céline Dion", "Hélène Ségara"],
-      "correctIndex": 2,
-      "explanation": "Céline Dion interprète cette chanson écrite par Jean-Jacques Goldman. Ce titre a joué un rôle majeur dans son immense succès francophone des années 1990 et reste l’un de ses morceaux les plus emblématiques."
+      "imagePrompt": "jean-jacques goldman songwriter portrait",
+      "answers": ["Luc Plamondon", "Jean-Jacques Goldman", "Michel Berger", "Didier Barbelivien"],
+      "correctIndex": 1,
+      "explanation": "Jean-Jacques Goldman écrit et compose « Pour que tu m'aimes encore » en 1995, dans le cadre de sa longue collaboration avec Céline Dion. Goldman a produit plusieurs de ses albums les plus importants en français. Il est aussi l'auteur de nombreux autres titres phares de son répertoire francophone."
     },
     {
       "id": "8",
@@ -86,25 +86,25 @@
       "imagePrompt": "french singer dramatic stage",
       "answers": ["Michel Sardou", "Eddy Mitchell", "Alain Souchon", "Renaud"],
       "correctIndex": 0,
-      "explanation": "Michel Sardou a transformé « Les Lacs du Connemara » en chanson fédératrice, souvent reprise lors de fêtes ou d’événements populaires. Le titre est connu pour sa montée en puissance et son refrain collectif très identifiable."
+      "explanation": "Michel Sardou sort « Les Lacs du Connemara » en 1981. Les paroles sont signées Michel Sardou et Pierre Delanoë, sur une musique de Jacques Revaux. Inspiré par les paysages et l'imaginaire irlandais, le morceau repose sur une montée en puissance spectaculaire qui en a fait l'un des titres les plus fédérateurs du répertoire de Sardou."
     },
     {
       "id": "9",
-      "question": "Qui interprète « Mistral gagnant » ?",
+      "question": "Dans « Mistral gagnant », Renaud évoque une friandise de son enfance pour parler du temps qui passe. Laquelle ?",
       "image": null,
-      "imagePrompt": "renaud singer acoustic",
-      "answers": ["Renaud", "Alain Bashung", "Yves Simon", "Calogero"],
-      "correctIndex": 0,
-      "explanation": "« Mistral gagnant » est l’une des chansons les plus personnelles de Renaud. Le texte évoque l’enfance, le temps qui passe et la nostalgie, ce qui en fait bien plus qu’un simple tube populaire."
+      "imagePrompt": "renaud singer acoustic childhood nostalgia",
+      "answers": ["Un carambar", "Un Mistral gagnant", "Un Malabar", "Un Krema"],
+      "correctIndex": 1,
+      "explanation": "Renaud fait de ce bonbon — le Mistral gagnant — la métaphore centrale de la chanson, sortie en 1985. Le texte est une lettre à sa fille Lolita, dans laquelle il exprime la nostalgie de l'enfance et la peur de la voir grandir trop vite. C'est souvent considérée comme la chanson la plus personnelle et la plus aboutie de son répertoire."
     },
     {
       "id": "10",
-      "question": "Quel groupe est à l’origine de la chanson « L’Aventurier » ?",
+      "question": "Quel personnage de romans populaires a inspiré la chanson « L'Aventurier » d'Indochine ?",
       "image": null,
-      "imagePrompt": "french new wave band 1980s",
-      "answers": ["Téléphone", "Indochine", "Noir Désir", "Louise Attaque"],
+      "imagePrompt": "french new wave band 1980s adventure",
+      "answers": ["Arsène Lupin", "Bob Morane", "Fantômas", "San-Antonio"],
       "correctIndex": 1,
-      "explanation": "Indochine signe avec « L’Aventurier » un tube majeur des années 1980. La chanson puise son inspiration dans l’univers de Bob Morane, montrant comment la pop française a parfois intégré des références littéraires populaires."
+      "explanation": "« L'Aventurier », sortie en 1982, est inspirée de Bob Morane, héros de romans d'aventure créé par l'auteur belge Henri Vernes en 1953. Nikola Sirkis, leader d'Indochine, était fan de la série. C'est le premier grand succès du groupe, et il reste l'un des morceaux les plus emblématiques de la new wave française."
     },
     {
       "id": "11",
@@ -113,16 +113,16 @@
       "imagePrompt": "stromae on stage dramatic",
       "answers": ["Maître Gims", "Vianney", "Stromae", "Orelsan"],
       "correctIndex": 2,
-      "explanation": "Stromae a marqué les esprits avec « Formidable », chanson construite comme une scène de rupture et d’errance urbaine. Son interprétation très incarnée a renforcé l’impact émotionnel du morceau."
+      "explanation": "Stromae sort « Formidable » en 2013, sur l'album « Racine carrée ». Le clip, tourné en caméra cachée dans les rues de Bruxelles, montre Stromae simulant l'ivresse et la détresse amoureuse face à des passants authentiquement réactifs. Ce dispositif a largement contribué à la viralité du titre à l'échelle internationale."
     },
     {
       "id": "12",
-      "question": "Quelle chanteuse interprète « Résiste » ?",
+      "question": "Qui a écrit et composé « Résiste » pour France Gall ?",
       "image": null,
-      "imagePrompt": "france gall concert lights",
-      "answers": ["Jeanne Mas", "France Gall", "Lio", "Zazie"],
+      "imagePrompt": "michel berger songwriter piano",
+      "answers": ["Serge Gainsbourg", "Michel Berger", "Jean-Jacques Goldman", "Alain Chamfort"],
       "correctIndex": 1,
-      "explanation": "« Résiste » est un titre phare de France Gall écrit par Michel Berger. La chanson est souvent perçue comme un hymne à l’affirmation de soi, ce qui explique sa longévité dans la culture populaire française."
+      "explanation": "Michel Berger, compagnon de France Gall dans la vie comme sur scène, écrit et compose « Résiste » en 1981. Le titre, tiré de l'album du même nom, est souvent perçu comme un message d'émancipation. Berger et Gall ont formé l'un des duos artistiques les plus féconds de la chanson française des années 1970–1980."
     },
     {
       "id": "13",
@@ -131,7 +131,7 @@
       "imagePrompt": "serge lama dramatic performance",
       "answers": ["Serge Lama", "Brel", "Aznavour", "Léo Ferré"],
       "correctIndex": 0,
-      "explanation": "Serge Lama a fait de « Je suis malade » l’un des grands titres de la chanson à texte. Son intensité a été telle que la chanson a souvent été reprise comme démonstration vocale, notamment par Lara Fabian."
+      "explanation": "Serge Lama sort « Je suis malade » en 1973, sur des paroles qu'il a écrites et une musique composée par Alice Dona. D'abord peu soutenue par sa maison de disques, la chanson gagne en notoriété notamment grâce à la version de Dalida la même année. Elle deviendra ensuite l'un des titres emblématiques du répertoire de Serge Lama."
     },
     {
       "id": "14",
@@ -140,16 +140,16 @@
       "imagePrompt": "charles aznavour classic stage",
       "answers": ["Gilbert Bécaud", "Charles Aznavour", "Joe Dassin", "Salvatore Adamo"],
       "correctIndex": 1,
-      "explanation": "« La Bohème » est l’un des titres les plus célèbres de Charles Aznavour. La chanson raconte la mémoire d’un Paris d’artistes et de pauvreté créative, ce qui en fait aussi un témoignage sur le Montmartre mythique."
+      "explanation": "Charles Aznavour sort « La Bohème » en 1965, sur des paroles de Jacques Plante. La chanson évoque la vie d'artiste à Montmartre, avant la célébrité — une période que l'auteur a lui-même traversée. Elle est souvent citée comme l'un des textes les plus réussis d'Aznavour, à la fois témoignage personnel et tableau d'une époque."
     },
     {
       "id": "15",
-      "question": "Qui chante « Le chanteur » ?",
+      "question": "« Le chanteur » de Daniel Balavoine évoque la condition d'artiste. En quelle année est sorti ce titre ?",
       "image": null,
       "imagePrompt": "daniel balavoine microphone stage",
-      "answers": ["Michel Berger", "Daniel Balavoine", "Jean-Jacques Goldman", "Patrick Bruel"],
+      "answers": ["1975", "1978", "1982", "1985"],
       "correctIndex": 1,
-      "explanation": "Avec « Le chanteur », Daniel Balavoine propose à la fois un tube et une réflexion sur le métier d’artiste, la célébrité et la trace laissée après la mort. C’est ce double niveau de lecture qui donne à la chanson sa force."
+      "explanation": "« Le chanteur » sort en 1978 sur l'album du même nom. Ce titre propulse véritablement Daniel Balavoine sur le devant de la scène française. La chanson interroge la frontière entre vie publique et vie privée, la solitude de l'artiste et sa quête de reconnaissance — des thèmes que Balavoine n'a cessé d'explorer jusqu'à sa mort en 1986."
     },
     {
       "id": "16",
@@ -158,7 +158,7 @@
       "imagePrompt": "french rock band 1980s stage",
       "answers": ["Noir Désir", "Téléphone", "Trust", "Matmatah"],
       "correctIndex": 1,
-      "explanation": "Téléphone a marqué le rock français avec « Un autre monde ». Le morceau exprime une envie d’évasion et de changement qui a parlé à toute une génération, au-delà du simple cadre musical."
+      "explanation": "Téléphone sort « Un autre monde » en 1984, sur l'album du même nom. C'est l'un des derniers grands titres du groupe avant sa séparation en 1986. La chanson exprime une envie d'évasion collective qui résume bien l'esprit de la jeunesse rock française de l'époque. Jean-Louis Aubert en est l'auteur principal."
     },
     {
       "id": "17",
@@ -167,7 +167,7 @@
       "imagePrompt": "classic french chanson female singer",
       "answers": ["Line Renaud", "Mistinguett", "Édith Piaf", "Lucienne Delyle"],
       "correctIndex": 3,
-      "explanation": "Lucienne Delyle est associée à « Mon amant de Saint-Jean », chanson devenue un standard du répertoire populaire français. Son atmosphère de bal musette rappelle toute une époque de la vie parisienne et des chansons de dancing."
+      "explanation": "Lucienne Delyle enregistre « Mon amant de Saint-Jean » en 1942, sur une musique de Léon Agel et des paroles d'Émile Carrara. La chanson est devenue un standard du répertoire musette et bal populaire. Elle a été reprise par des dizaines d'artistes, mais c'est la version de Delyle qui reste la référence originale."
     },
     {
       "id": "18",
@@ -176,25 +176,25 @@
       "imagePrompt": "calogero singer modern french pop",
       "answers": ["Calogero", "Raphaël", "Pascal Obispo", "Christophe Willem"],
       "correctIndex": 0,
-      "explanation": "« En apesanteur » a contribué à installer Calogero parmi les figures majeures de la pop française des années 2000. La chanson se distingue par son efficacité mélodique et par une écriture accessible mais très visuelle."
+      "explanation": "Calogero sort « En apesanteur » en 2002, sur l'album éponyme « Calogero ». Le titre, dont la musique est signée Calogero et Gioacchino Maurici et les paroles par Alana Filippi, décrit la légèreté et la suspension du temps propres à l'état amoureux. C'est l'un des morceaux qui a installé durablement Calogero parmi les grandes voix de la pop française des années 2000."
     },
     {
       "id": "19",
-      "question": "Qui chante « Amsterdam » ?",
+      "question": "Dans quelle célèbre salle parisienne Jacques Brel interprète-t-il « Amsterdam » en 1964 dans la version devenue légendaire ?",
       "image": null,
-      "imagePrompt": "jacques brel live performance",
-      "answers": ["Léo Ferré", "Jacques Brel", "Serge Reggiani", "Bernard Lavilliers"],
-      "correctIndex": 1,
-      "explanation": "Jacques Brel a rendu « Amsterdam » légendaire grâce à son interprétation scénique puissante. La chanson est souvent citée comme exemple parfait d’un texte qui prend encore plus de force en performance live."
+      "imagePrompt": "jacques brel live performance olympia",
+      "answers": ["L'Olympia", "Bobino", "Le Bataclan", "Le Casino de Paris"],
+      "correctIndex": 0,
+      "explanation": "C'est à l'Olympia, en octobre 1964, que Jacques Brel livre l'interprétation d'« Amsterdam » qui a rendu la chanson légendaire. Il n'en existe pas de version studio enregistrée par Brel lui-même — c'est donc cette captation live qui constitue l'enregistrement de référence. La chanson y déploie une énergie et une intensité dramatique que Brel considérait lui-même comme centrales dans son rapport à la scène."
     },
     {
       "id": "20",
-      "question": "Quel chanteur est à l’origine de « Ma philosophie » ?",
+      "question": "Quel chanteur est à l'origine de « Ma philosophie » ?",
       "image": null,
       "imagePrompt": "female french pop singer stage",
       "answers": ["Jenifer", "Shy'm", "Amel Bent", "Vitaa"],
       "correctIndex": 2,
-      "explanation": "Amel Bent s’est imposée très jeune avec « Ma philosophie », chanson devenue un hymne à la dignité et à l’affirmation de soi. Son succès montre aussi l’importance des émissions musicales télévisées dans l’émergence de nouvelles stars francophones dans les années 2000."
+      "explanation": "Amel Bent sort « Ma philosophie » en 2004, à seulement 19 ans. La chanson devient rapidement un hymne à la dignité et à l'estime de soi. Elle révèle Amel Bent au grand public et reste aujourd'hui son titre le plus identifiable, souvent chanté en chœur lors de ses concerts."
     }
   ]
 }

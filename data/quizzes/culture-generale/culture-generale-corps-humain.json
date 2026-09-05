@@ -2,12 +2,12 @@
   "slug": "quiz-culture-generale-corps-humain-surprenant",
   "title": "Quiz Culture Générale - Le corps humain va te surprendre",
   "description": "20 faits étonnants sur ton corps que tu ignores probablement.",
-  "descriptionSeo": "Ce quiz de culture générale explore 20 faits surprenants sur le corps humain. Entre capacités inattendues, limites étonnantes et mécanismes méconnus, découvre à quel point ton corps est complexe grâce à des explications claires et fascinantes.",
+  "descriptionSeo": "Cerveau, cœur, os, estomac, foie, cellules, odorat… le corps humain regorge de mécanismes surprenants que la plupart des gens ignorent. Ce quiz de culture générale explore 20 faits étonnants sur l'anatomie et le fonctionnement du corps humain : capacités insoupçonnées, idées reçues à déconstruire et phénomènes biologiques fascinants. Teste tes connaissances et découvre à quel point ton propre corps peut te surprendre.",
   "category": {
     "name": "Culture générale",
     "slug": "culture-generale"
   },
-  "createdAt": "2026-03-30",
+  "createdAt": "2026-09-05",
   "isNew": true,
   "isPopular": true,
   "images": {
@@ -18,183 +18,218 @@
   "questions": [
     {
       "id": "1",
-      "question": "Le corps humain produit suffisamment de chaleur pour faire bouillir de l’eau.",
+      "question": "Quelle proportion de l'énergie totale du corps le cerveau consomme-t-il, même au repos ?",
       "image": null,
-      "imagePrompt": "human heat energy",
-      "answers": ["Vrai", "Faux", "Partiellement", "Seulement sport"],
+      "imagePrompt": "brain energy consumption",
+      "answers": ["Environ 5 %", "Environ 10 %", "Environ 20 %", "Environ 40 %"],
       "correctIndex": 2,
-      "explanation": "Le corps produit de la chaleur, mais pas assez pour faire bouillir de l’eau. L’énergie dégagée reste limitée."
+      "explanation": "Le cerveau représente environ 2 % de la masse corporelle, mais il consomme à lui seul près de 20 % de l'énergie totale du corps au repos. Il a besoin d'un apport continu en glucose et en oxygène — une interruption de quelques minutes peut suffire à provoquer des dommages irréversibles."
     },
     {
       "id": "2",
-      "question": "Ton estomac se renouvelle complètement tous les quelques jours.",
+      "question": "Quelle structure de l'estomac se renouvelle en quelques jours pour se protéger de l'acidité gastrique ?",
       "image": null,
       "imagePrompt": "stomach lining cells",
-      "answers": ["Faux", "Vrai", "Partiellement", "Rarement"],
+      "answers": ["Les muscles gastriques", "L'épithélium muqueux", "Les valves digestives", "Les nerfs gastriques"],
       "correctIndex": 1,
-      "explanation": "La paroi de l’estomac se régénère rapidement (en quelques jours) pour se protéger de l’acidité."
+      "explanation": "L'épithélium muqueux — la couche de cellules qui tapisse l'intérieur de l'estomac — se renouvelle tous les deux à quatre jours. Ce renouvellement rapide est indispensable : sans lui, l'acide chlorhydrique produit pour la digestion attaquerait la paroi stomacale elle-même."
     },
     {
       "id": "3",
-      "question": "Ton cerveau consomme plus d’énergie que tes muscles au repos.",
+      "question": "Vrai ou faux : le corps humain peut produire naturellement de petites quantités d'éthanol.",
       "image": null,
-      "imagePrompt": "brain energy consumption",
-      "answers": ["Vrai", "Faux", "Parfois", "Seulement nuit"],
+      "imagePrompt": "gut fermentation bacteria",
+      "answers": ["Vrai", "Faux"],
       "correctIndex": 0,
-      "explanation": "Le cerveau utilise environ 20% de l’énergie totale du corps, même au repos."
+      "explanation": "Certaines bactéries présentes dans l'intestin fermentent les glucides et produisent de l'éthanol en très faibles quantités. Dans de rares cas pathologiques — le syndrome d'auto-brasserie — cette production peut être suffisante pour provoquer un état d'ébriété sans consommation d'alcool."
     },
     {
       "id": "4",
-      "question": "Le corps humain peut produire de l’alcool naturellement.",
+      "question": "Pourquoi es-tu légèrement plus grand(e) le matin que le soir ?",
       "image": null,
-      "imagePrompt": "gut fermentation",
-      "answers": ["Faux", "Vrai", "Très peu", "Rarement"],
+      "imagePrompt": "spine compression gravity",
+      "answers": [
+        "Les muscles du dos se relâchent la nuit",
+        "Les disques intervertébraux se réhydratent en position allongée",
+        "Les os grandissent légèrement pendant le sommeil",
+        "La gravité dilate les articulations la nuit"
+      ],
       "correctIndex": 1,
-      "explanation": "Certaines bactéries intestinales peuvent produire de petites quantités d’alcool."
+      "explanation": "Les disques intervertébraux, composés en grande partie de cartilage gorgé d'eau, se compriment tout au long de la journée sous l'effet de la gravité. Pendant le sommeil en position allongée, ils se réhydratent et retrouvent leur épaisseur. La différence peut atteindre un à deux centimètres entre le matin et le soir."
     },
     {
       "id": "5",
-      "question": "Tu es plus grand le matin que le soir.",
+      "question": "Vrai ou faux : le corps humain émet en permanence une très faible lumière.",
       "image": null,
-      "imagePrompt": "spine compression",
-      "answers": ["Faux", "Vrai", "Parfois", "Seulement enfants"],
-      "correctIndex": 1,
-      "explanation": "La colonne vertébrale se comprime au cours de la journée sous l’effet de la gravité."
+      "imagePrompt": "human bioluminescence",
+      "answers": ["Vrai", "Faux"],
+      "correctIndex": 0,
+      "explanation": "Le corps humain émet en permanence une lumière extrêmement faible — environ mille fois trop faible pour être perçue à l'œil nu. Cette émission, appelée biophotonique, résulte de réactions chimiques métaboliques. Elle a été mesurée scientifiquement à l'aide de caméras ultrasensibles, notamment au niveau du visage."
     },
     {
       "id": "6",
-      "question": "Le corps humain émet une faible lumière visible.",
+      "question": "Quel est le seul organe interne capable de se régénérer significativement après une ablation partielle ?",
       "image": null,
-      "imagePrompt": "human bioluminescence",
-      "answers": ["Faux", "Vrai", "Invisible", "Rarement"],
+      "imagePrompt": "liver regeneration organ",
+      "answers": ["Le rein", "Le foie", "Le pancréas", "La rate"],
       "correctIndex": 1,
-      "explanation": "Des réactions chimiques produisent une très faible lumière, invisible à l’œil nu."
+      "explanation": "Le foie est capable de régénérer une grande partie de sa masse après une ablation chirurgicale partielle. Même après le retrait de 70 % du tissu hépatique, le foie restant peut reconstituer un organe fonctionnel en quelques semaines. Cette propriété est unique parmi les organes vitaux et rend possible la greffe de foie partiel d'un donneur vivant."
     },
     {
       "id": "7",
-      "question": "Tes os sont plus solides que du béton à masse égale.",
+      "question": "Vrai ou faux : le tissu cérébral lui-même ne ressent pas la douleur.",
       "image": null,
-      "imagePrompt": "bone strength comparison",
-      "answers": ["Vrai", "Faux", "Partiellement", "Seulement certains"],
+      "imagePrompt": "brain surgery awake neurosurgery",
+      "answers": ["Vrai", "Faux"],
       "correctIndex": 0,
-      "explanation": "Les os combinent résistance et légèreté, ce qui les rend très performants mécaniquement."
+      "explanation": "Le cerveau ne possède pas de nocicepteurs — les récepteurs responsables de la perception de la douleur. C'est pourquoi certaines opérations neurochirurgicales peuvent être réalisées avec le patient éveillé. La douleur associée aux maux de tête provient des méninges, des vaisseaux sanguins et des muscles environnants, pas du tissu cérébral lui-même."
     },
     {
       "id": "8",
-      "question": "Ton nez peut détecter plus d’un milliard d’odeurs.",
+      "question": "Comment appelle-t-on le phénomène naturel par lequel le flux d'air alterne entre les deux narines au cours de la journée ?",
       "image": null,
-      "imagePrompt": "smell receptors",
-      "answers": ["Faux", "Vrai", "Exagéré", "Seulement entraîné"],
+      "imagePrompt": "nasal cycle breathing",
+      "answers": ["Le cycle respiratoire", "Le cycle nasal", "La rotation ventilatoire", "Le rythme muqueux"],
       "correctIndex": 1,
-      "explanation": "Des études récentes montrent que notre odorat est bien plus performant qu’on ne le pensait."
+      "explanation": "Le cycle nasal est un phénomène automatique et inconscient : à tout moment, l'une des deux narines laisse généralement passer davantage d'air que l'autre. Cette dominance alterne au fil des heures sous l'action du système nerveux autonome et des tissus érectiles présents dans la muqueuse nasale."
     },
     {
       "id": "9",
-      "question": "Ton corps remplace entièrement ses cellules tous les 7 ans.",
+      "question": "Vrai ou faux : le cœur peut continuer à battre pendant un court moment en dehors du corps.",
       "image": null,
-      "imagePrompt": "cell renewal body",
-      "answers": ["Vrai", "Faux", "Partiellement", "Souvent"],
-      "correctIndex": 2,
-      "explanation": "Certaines cellules se renouvellent rapidement, d’autres presque jamais. C’est une simplification."
+      "imagePrompt": "heart beating isolated",
+      "answers": ["Vrai", "Faux"],
+      "correctIndex": 0,
+      "explanation": "Le cœur possède son propre système électrique interne — le nœud sinusal — qui génère les impulsions nécessaires aux contractions sans intervention du cerveau. Dans certaines conditions contrôlées, un cœur isolé peut continuer à battre quelques minutes. Ce principe est utilisé lors des transplantations cardiaques, où le cœur est maintenu en vie artificielle pendant le transfert."
     },
     {
       "id": "10",
-      "question": "Le cerveau ressent la douleur.",
+      "question": "Laquelle de ces affirmations sur le renouvellement cellulaire du corps est exacte ?",
       "image": null,
-      "imagePrompt": "brain surgery awake",
-      "answers": ["Vrai", "Faux", "Partiellement", "Rarement"],
-      "correctIndex": 1,
-      "explanation": "Le cerveau ne possède pas de récepteurs de douleur."
+      "imagePrompt": "cell renewal body biology",
+      "answers": [
+        "Toutes les cellules se renouvellent tous les 7 ans",
+        "Aucune cellule ne se renouvelle après la naissance",
+        "Le rythme de renouvellement varie considérablement selon le type de cellule",
+        "Seules les cellules sanguines se renouvellent"
+      ],
+      "correctIndex": 2,
+      "explanation": "L'idée que le corps se renouvelle intégralement tous les sept ans est un mythe. En réalité, chaque type cellulaire a son propre rythme : les globules rouges durent environ 120 jours, les cellules de la muqueuse intestinale se renouvellent en quelques jours, tandis que certains neurones et cellules musculaires cardiaques persistent toute une vie sans se remplacer."
     },
     {
       "id": "11",
-      "question": "Ton cœur peut continuer à battre en dehors du corps.",
+      "question": "Vrai ou faux : sourire mobilise davantage de muscles que froncer les sourcils.",
       "image": null,
-      "imagePrompt": "heart beating isolated",
-      "answers": ["Faux", "Vrai", "Quelques secondes", "Rarement"],
+      "imagePrompt": "smile frown muscles face",
+      "answers": ["Vrai", "Faux"],
       "correctIndex": 1,
-      "explanation": "Grâce à ses propres impulsions électriques, le cœur peut battre indépendamment pendant un court moment."
+      "explanation": "C'est un mythe populaire sans base scientifique solide. Le nombre de muscles impliqués dépend du type d'expression et de la personne. Les études sur le sujet ne permettent pas d'établir une règle générale. Cette idée circule depuis des décennies, souvent utilisée comme argument de motivation, sans être étayée par des données anatomiques fiables."
     },
     {
       "id": "12",
-      "question": "Tu utilises plus de muscles pour sourire que pour faire la tête.",
+      "question": "Quel est le rapport approximatif entre le nombre de bactéries et le nombre de cellules humaines dans le corps ?",
       "image": null,
-      "imagePrompt": "smile muscles",
-      "answers": ["Vrai", "Faux", "Parfois", "Souvent"],
+      "imagePrompt": "microbiome human bacteria cells",
+      "answers": ["1 bactérie pour 10 cellules humaines", "À peu près 1 pour 1", "10 bactéries pour 1 cellule humaine", "100 bactéries pour 1 cellule humaine"],
       "correctIndex": 1,
-      "explanation": "C’est un mythe. Le nombre de muscles dépend du type d’expression."
+      "explanation": "Des travaux publiés en 2016 ont révisé les estimations précédentes et montrent que le rapport entre bactéries et cellules humaines est proche de 1:1 — environ 38 000 milliards de bactéries pour 30 000 milliards de cellules humaines. Ce rapport varie selon les individus et les conditions. L'ancienne estimation de « 10 bactéries pour 1 cellule » était une approximation inexacte."
     },
     {
       "id": "13",
-      "question": "Le corps humain contient plus de bactéries que de cellules humaines.",
+      "question": "Ce qui protège la paroi de l'estomac de son propre acide chlorhydrique, c'est…",
       "image": null,
-      "imagePrompt": "microbiome human",
-      "answers": ["Vrai", "Faux", "Approximativement", "Variable"],
-      "correctIndex": 3,
-      "explanation": "Les estimations sont proches de 1:1. Cela varie selon les individus."
+      "imagePrompt": "stomach acid mucus protection",
+      "answers": [
+        "Une couche de tissu osseux",
+        "Une couche de mucus sécrétée par les cellules gastriques",
+        "Un pH neutre maintenu en permanence",
+        "Une membrane imperméable à tous les acides"
+      ],
+      "correctIndex": 1,
+      "explanation": "L'estomac est protégé par une barrière de mucus riche en bicarbonate qui maintient un environnement beaucoup moins acide au contact de ses cellules. Lorsque les mécanismes de protection de la muqueuse sont perturbés, l'acide et les enzymes digestives peuvent contribuer à l'endommager. La bactérie Helicobacter pylori et certains anti-inflammatoires comptent parmi les principales causes d'ulcères."
     },
     {
       "id": "14",
-      "question": "Ton estomac peut se digérer lui-même.",
+      "question": "Vrai ou faux : la majorité des clignements des yeux sont inconscients et automatiques.",
       "image": null,
-      "imagePrompt": "stomach acid",
-      "answers": ["Vrai", "Faux", "Partiellement", "Rarement"],
-      "correctIndex": 2,
-      "explanation": "Sans protection, il pourrait être endommagé. Il se protège grâce à une couche de mucus."
+      "imagePrompt": "eye blinking reflex",
+      "answers": ["Vrai", "Faux"],
+      "correctIndex": 0,
+      "explanation": "Un humain cligne des yeux environ 15 à 20 fois par minute, soit plus de 10 000 fois par jour. La grande majorité de ces clignements sont involontaires et régulés par le tronc cérébral. Leur fonction principale est de lubrifier et nettoyer la surface de l'œil, mais ils jouent aussi un rôle dans le traitement cognitif — on cligne plus souvent lors des pauses naturelles dans l'attention."
     },
     {
       "id": "15",
-      "question": "Le clignement des yeux est uniquement volontaire.",
+      "question": "Quelle affirmation sur les empreintes digitales est exacte ?",
       "image": null,
-      "imagePrompt": "eye blinking reflex",
-      "answers": ["Vrai", "Faux", "Partiellement", "Rarement"],
-      "correctIndex": 1,
-      "explanation": "La majorité des clignements sont automatiques et inconscients."
+      "imagePrompt": "fingerprint skin unique",
+      "answers": [
+        "Elles changent naturellement avec l'âge",
+        "Elles sont identiques chez les jumeaux",
+        "Elles restent stables toute la vie, sauf en cas de lésion cutanée profonde",
+        "Elles se forment après la naissance"
+      ],
+      "correctIndex": 2,
+      "explanation": "Les empreintes digitales se forment dès le troisième mois de la grossesse et restent stables tout au long de la vie. Elles ne changent pas avec l'âge, et même les jumeaux identiques ont des empreintes différentes. Seules des cicatrices profondes atteignant les couches germinatives de la peau peuvent les modifier de façon permanente."
     },
     {
       "id": "16",
-      "question": "Tes empreintes digitales peuvent changer au cours de ta vie.",
+      "question": "Qu'est-ce que la neuroplasticité ?",
       "image": null,
-      "imagePrompt": "fingerprint skin",
-      "answers": ["Vrai", "Faux", "Parfois", "Seulement blessures"],
-      "correctIndex": 3,
-      "explanation": "Elles restent stables sauf en cas de cicatrice profonde."
+      "imagePrompt": "brain plasticity learning neurons",
+      "answers": [
+        "La capacité du cerveau à se régénérer après une blessure grave",
+        "La capacité du cerveau à se modifier en réponse à l'apprentissage et à l'expérience",
+        "La croissance du cerveau pendant l'enfance",
+        "La résistance du cerveau aux maladies neurodégénératives"
+      ],
+      "correctIndex": 1,
+      "explanation": "La neuroplasticité désigne la capacité du cerveau à modifier ses connexions neuronales tout au long de la vie en réponse à l'apprentissage, à l'expérience ou à une blessure. Contrairement à l'idée longtemps admise que le cerveau adulte était figé, on sait aujourd'hui qu'il conserve cette plasticité à tous les âges — même si elle diminue progressivement."
     },
     {
       "id": "17",
-      "question": "Le cerveau continue de se développer à l’âge adulte.",
+      "question": "Que se passe-t-il dans le corps lorsque tu rougis ?",
       "image": null,
-      "imagePrompt": "brain plasticity",
-      "answers": ["Faux", "Vrai", "Très peu", "Rarement"],
-      "correctIndex": 1,
-      "explanation": "La plasticité cérébrale permet des changements et apprentissages toute la vie."
+      "imagePrompt": "blushing face blood vessels skin",
+      "answers": [
+        "Les petits vaisseaux du visage se dilatent sous l'effet du système nerveux sympathique",
+        "La chaleur corporelle monte et la peau réagit en se colorant",
+        "Le système immunitaire réagit à une émotion forte",
+        "Les muscles faciaux compriment les vaisseaux sanguins"
+      ],
+      "correctIndex": 0,
+      "explanation": "Le rougissement est une réaction involontaire liée à l'activation du système nerveux sympathique lors d'émotions comme la gêne ou l'embarras. Les petits vaisseaux sanguins du visage se dilatent, augmentant l'afflux de sang sous la peau et donnant cette coloration rouge ou rosée caractéristique. Ce mécanisme est entièrement involontaire et impossible à contrôler consciemment."
     },
     {
       "id": "18",
-      "question": "Le corps humain peut survivre sans sommeil plusieurs semaines.",
+      "question": "Combien d'os environ compte le squelette d'un adulte ?",
       "image": null,
-      "imagePrompt": "sleep deprivation",
-      "answers": ["Vrai", "Faux", "Parfois", "Impossible"],
-      "correctIndex": 3,
-      "explanation": "Le manque de sommeil devient rapidement dangereux et peut être fatal."
+      "imagePrompt": "human skeleton bones adult",
+      "answers": ["306", "206", "156", "256"],
+      "correctIndex": 1,
+      "explanation": "Le squelette adulte compte environ 206 os. À la naissance, le squelette comporte davantage d'éléments osseux, dont beaucoup fusionnent progressivement pendant la croissance. La fusion des os du crâne, du bassin et de la colonne vertébrale se poursuit jusqu'à la fin de l'adolescence, voire au début de l'âge adulte."
     },
     {
       "id": "19",
-      "question": "Ton foie peut se régénérer partiellement.",
+      "question": "Laquelle de ces affirmations sur les os humains est exacte ?",
       "image": null,
-      "imagePrompt": "liver regeneration",
-      "answers": ["Faux", "Vrai", "Partiellement", "Rarement"],
-      "correctIndex": 1,
-      "explanation": "Le foie est l’un des rares organes capables de régénération significative."
+      "imagePrompt": "bone strength structure",
+      "answers": [
+        "Les os sont principalement constitués de calcium solide",
+        "Les os sont plus légers que l'eau à volume égal",
+        "Les os combinent légèreté et résistance grâce à leur structure en treillis",
+        "Les os adultes ne se renouvellent plus"
+      ],
+      "correctIndex": 2,
+      "explanation": "Les os ont une architecture interne en treillis — la structure trabéculaire — qui leur confère une résistance mécanique remarquable pour une masse minimale. Par ailleurs, les os se renouvellent tout au long de la vie grâce à un cycle permanent de destruction par les ostéoclastes et de reconstruction par les ostéoblastes. Ce remodelage osseux permet notamment au squelette de s'adapter aux contraintes mécaniques et de réparer les microfissures."
     },
     {
       "id": "20",
-      "question": "Tu respires toujours de manière symétrique par les deux narines.",
+      "question": "Quel organe produit environ 1 à 1,5 litre de bile par jour pour aider à la digestion des graisses ?",
       "image": null,
-      "imagePrompt": "nasal cycle",
-      "answers": ["Vrai", "Faux", "Parfois", "Souvent"],
-      "correctIndex": 1,
-      "explanation": "Le flux d’air alterne entre les narines selon un cycle naturel appelé cycle nasal."
+      "imagePrompt": "liver bile production digestion",
+      "answers": ["Le pancréas", "L'estomac", "Le foie", "La vésicule biliaire"],
+      "correctIndex": 2,
+      "explanation": "Le foie produit en continu entre 1 et 1,5 litre de bile par jour. Cette bile est stockée dans la vésicule biliaire, puis libérée dans l'intestin grêle lors des repas pour émulsifier les graisses et faciliter leur absorption. La vésicule biliaire ne produit pas la bile — elle la concentre et la stocke simplement en attendant les repas."
     }
   ]
 }
