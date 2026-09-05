@@ -3,12 +3,12 @@
   "title": "Quiz Culture Générale - Connais-tu Vraiment la Suisse ?",
   "description": "Géographie, histoire, traditions et spécialités : connais-tu vraiment la Suisse ?",
   "publishedAt": "2026-07-01",
-  "descriptionSeo": "Teste tes connaissances sur la Suisse avec ce quiz de culture générale composé de 20 questions. Géographie, histoire, traditions, gastronomie, montagnes, cantons, langues nationales, chocolat, fromage, Cervin, Genève, Berne, Guillaume Tell, Roger Federer et institutions suisses : découvre si tu connais vraiment ce pays au cœur de l’Europe. Un quiz idéal pour apprendre, réviser et s’amuser autour de la culture suisse.",
+  "descriptionSeo": "Connais-tu vraiment la Suisse ? Teste tes connaissances avec 20 questions sur sa géographie, son histoire, ses traditions et sa culture. Cantons, langues nationales, Alpes, gastronomie, Genève, Berne, Guillaume Tell, Roger Federer ou encore institutions suisses : mesure ton niveau sur la Confédération helvétique et découvre au passage des faits étonnants sur ce pays au cœur de l'Europe.",
   "category": {
     "name": "Culture générale",
     "slug": "culture-generale"
   },
-  "createdAt": "2026-06-29",
+  "createdAt": "2026-09-04",
   "isNew": true,
   "isPopular": false,
   "images": {
@@ -19,7 +19,7 @@
   "questions": [
     {
       "id": "1",
-      "question": "Quelle ville est la capitale de la Suisse ?",
+      "question": "Quelle ville suisse est le siège du gouvernement fédéral et est généralement considérée comme la capitale du pays ?",
       "answers": [
         "Zurich",
         "Genève",
@@ -27,11 +27,11 @@
         "Lausanne"
       ],
       "correctIndex": 2,
-      "explanation": "Berne est la capitale fédérale de la Suisse, bien que Zurich soit la plus grande ville et Genève la plus connue à l'international."
+      "explanation": "Berne est la ville fédérale et le siège des autorités fédérales suisses. La Constitution suisse ne désigne officiellement aucune ville comme capitale, mais Berne remplit ce rôle dans les faits."
     },
     {
       "id": "2",
-      "question": "Combien de langues nationales officielles compte la Suisse ?",
+      "question": "Combien de langues nationales compte la Suisse ?",
       "answers": [
         "4",
         "2",
@@ -39,7 +39,7 @@
         "5"
       ],
       "correctIndex": 0,
-      "explanation": "La Suisse compte 4 langues nationales officielles : l'allemand, le français, l'italien et le romanche, ce dernier n'étant parlé que par une petite minorité dans le canton des Grisons."
+      "explanation": "La Suisse compte 4 langues nationales : l'allemand, le français, l'italien et le romanche. Les trois premières sont également langues officielles au niveau fédéral ; le romanche l'est dans les rapports entre la Confédération et les citoyens romanches."
     },
     {
       "id": "3",
@@ -55,19 +55,19 @@
     },
     {
       "id": "4",
-      "question": "Quelle montagne emblématique, en forme de pyramide presque parfaite, est l'un des sommets les plus photographiés des Alpes ?",
+      "question": "Quel sommet emblématique, situé à la frontière entre la Suisse et l'Italie, est aussi appelé Matterhorn en allemand ?",
       "answers": [
         "Le Mont Blanc",
         "L'Eiger",
         "La Jungfrau",
-        "Le Cervin (Matterhorn)"
+        "Le Cervin"
       ],
       "correctIndex": 3,
-      "explanation": "Le Cervin (Matterhorn en allemand), à la frontière avec l'Italie, est l'un des sommets les plus photographiés et reconnaissables des Alpes grâce à sa forme pyramidale."
+      "explanation": "Le Cervin, appelé Matterhorn en allemand, culmine à 4 478 mètres à la frontière italo-suisse. Sa silhouette pyramidale en fait l'un des sommets les plus reconnaissables des Alpes."
     },
     {
       "id": "5",
-      "question": "Quel humanitaire suisse est le fondateur de la Croix-Rouge et premier lauréat du prix Nobel de la paix en 1901 ?",
+      "question": "Quel humanitaire suisse, à l'origine de la création de la Croix-Rouge, a reçu le premier prix Nobel de la paix en 1901 ?",
       "answers": [
         "Albert Schweitzer",
         "Carl Jung",
@@ -75,7 +75,7 @@
         "Auguste Piccard"
       ],
       "correctIndex": 2,
-      "explanation": "Henry Dunant, originaire de Genève, a fondé la Croix-Rouge en 1863 et a reçu le premier prix Nobel de la paix en 1901."
+      "explanation": "Henry Dunant, originaire de Genève, a joué un rôle décisif dans la création de la Croix-Rouge en 1863 et a reçu le premier prix Nobel de la paix en 1901, partagé avec Frédéric Passy."
     },
     {
       "id": "6",
@@ -91,7 +91,7 @@
     },
     {
       "id": "7",
-      "question": "Quelle célèbre barre chocolatée suisse doit sa forme triangulaire à un sommet alpin qui l'aurait inspirée ?",
+      "question": "Quelle célèbre barre chocolatée triangulaire a été créée à Berne en 1908 ?",
       "answers": [
         "Le Toblerone",
         "Le Lindt",
@@ -99,7 +99,7 @@
         "Le Cailler"
       ],
       "correctIndex": 0,
-      "explanation": "Le Toblerone, créé à Berne en 1908, doit sa forme triangulaire caractéristique au Cervin, qui aurait inspiré son créateur."
+      "explanation": "Le Toblerone a été créé à Berne en 1908 par Theodor Tobler et Emil Baumann. Sa forme triangulaire caractéristique est brevetée et fait partie de son identité depuis l'origine."
     },
     {
       "id": "8",
@@ -115,7 +115,7 @@
     },
     {
       "id": "9",
-      "question": "Quelle est la monnaie officielle de la Suisse, qui n'a jamais adopté l'euro ?",
+      "question": "Quelle est la monnaie officielle de la Suisse ?",
       "answers": [
         "L'euro",
         "Le mark",
@@ -123,7 +123,7 @@
         "Le franc suisse"
       ],
       "correctIndex": 3,
-      "explanation": "La Suisse, qui n'est pas membre de l'Union européenne, conserve sa propre monnaie, le franc suisse, plutôt que l'euro."
+      "explanation": "La Suisse conserve sa propre monnaie, le franc suisse (CHF). Elle n'est pas membre de l'Union européenne et n'a pas adopté l'euro."
     },
     {
       "id": "10",
@@ -135,7 +135,7 @@
         "30"
       ],
       "correctIndex": 1,
-      "explanation": "La Confédération suisse est composée de 26 cantons, dont certains sont germanophones, d'autres francophones, italophone ou plurilingues."
+      "explanation": "La Confédération suisse est composée de 26 cantons, dont certains sont germanophones, d'autres francophones, italophones ou plurilingues."
     },
     {
       "id": "11",
@@ -153,12 +153,12 @@
       "id": "12",
       "question": "À quelle date la Suisse célèbre-t-elle sa fête nationale, en référence au pacte fondateur de 1291 ?",
       "answers": [
+        "Le 1er juin",
         "Le 1er août",
-        "Le 14 juillet",
-        "Le 1er mai",
-        "Le 25 décembre"
+        "Le 15 septembre",
+        "Le 1er novembre"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "La fête nationale suisse, le 1er août, commémore le pacte fédéral de 1291 entre les cantons d'Uri, Schwytz et Unterwald, considéré comme l'acte fondateur de la Confédération."
     },
     {
@@ -199,7 +199,7 @@
     },
     {
       "id": "16",
-      "question": "Quel est le plus grand lac d'Europe occidentale, partagé entre la Suisse et la France ?",
+      "question": "Quel grand lac, partagé entre la Suisse et la France, borde notamment Genève, Lausanne et Évian-les-Bains ?",
       "answers": [
         "Le lac Léman",
         "Le lac de Constance",
@@ -207,32 +207,32 @@
         "Le lac de Neuchâtel"
       ],
       "correctIndex": 0,
-      "explanation": "Le lac Léman, partagé entre la Suisse et la France, est le plus grand lac d'Europe occidentale."
+      "explanation": "Le lac Léman, partagé entre la Suisse et la France, borde plusieurs grandes villes dont Genève, Lausanne côté suisse et Évian-les-Bains côté français."
     },
     {
       "id": "17",
       "question": "Quel instrument à vent traditionnel, pouvant mesurer plusieurs mètres, est emblématique du folklore suisse des Alpes ?",
       "answers": [
         "La cornemuse",
-        "Le didgeridoo",
-        "Le cor des Carpates",
+        "Le bugle",
+        "Le cor de chasse",
         "Le cor des Alpes"
       ],
       "correctIndex": 3,
       "explanation": "Le cor des Alpes, instrument à vent en bois pouvant mesurer plusieurs mètres, est emblématique du folklore alpin suisse."
     },
-    {
-      "id": "18",
-      "question": "Dans la légende de Guillaume Tell, que doit-il tirer à l'arbalète sur la tête de son fils pour avoir refusé de saluer un chapeau ?",
-      "answers": [
-        "Une pomme",
-        "Une orange",
-        "Une pièce de monnaie",
-        "Un verre d'eau"
-      ],
-      "correctIndex": 0,
-      "explanation": "Selon la légende, Guillaume Tell a été contraint par le bailli Gessler de tirer à l'arbalète une pomme posée sur la tête de son fils, pour avoir refusé de saluer son chapeau."
-    },
+   {
+  "id": "18",
+  "question": "Dans la légende de Guillaume Tell, que doit-il tirer à l'arbalète sur la tête de son fils pour avoir refusé de saluer un chapeau ?",
+  "answers": [
+    "Une pomme",
+    "Une noix",
+    "Une plume",
+    "Une pièce de monnaie"
+  ],
+  "correctIndex": 0,
+  "explanation": "Selon la légende, Guillaume Tell a été contraint par le bailli Gessler de tirer à l'arbalète une pomme posée sur la tête de son fils, pour avoir refusé de saluer son chapeau."
+},
     {
       "id": "19",
       "question": "Combien de membres compte le Conseil fédéral, l'organe exécutif suprême de la Suisse ?",
@@ -247,15 +247,15 @@
     },
     {
       "id": "20",
-      "question": "Quel joueur de tennis suisse, né à Bâle, est considéré comme l'un des plus grands champions de l'histoire de ce sport ?",
+      "question": "Dans quelle ville suisse Roger Federer est-il né en 1981 ?",
       "answers": [
-        "Stan Wawrinka",
-        "Roger Federer",
-        "Marc Rosset",
-        "Heinz Günthardt"
+        "Genève",
+        "Bâle",
+        "Lausanne",
+        "Zurich"
       ],
       "correctIndex": 1,
-      "explanation": "Roger Federer, né à Bâle en 1981, est considéré comme l'un des plus grands joueurs de l'histoire du tennis."
+      "explanation": "Roger Federer est né le 8 août 1981 à Bâle, ville du nord-ouest de la Suisse. Il est considéré comme l'un des plus grands joueurs de l'histoire du tennis."
     }
   ]
 }

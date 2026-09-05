@@ -2,12 +2,12 @@
   "slug": "test-conflits-familiaux",
   "title": "Test famille - Comment gères-tu les conflits familiaux ?",
   "description": "Face aux tensions familiales, quelle est ta réaction naturelle ?",
-  "descriptionSeo": "Disputes, tensions, émotions… ce test révèle comment tu gères vraiment les conflits familiaux. À travers des situations concrètes, découvre si tu es apaisant(e), évitant(e), direct(e) ou émotionnel(le).",
+  "descriptionSeo": "Remarque blessante à table, vieille dispute qui ressort, désaccord avec un parent qui refuse de reconnaître ses torts… face aux conflits familiaux, chacun réagit à sa façon. Ce test analyse tes réactions naturelles dans des situations concrètes et révèle ton profil : apaisant(e), évitant(e), direct(e) ou sensible. Découvre comment tu gères vraiment les tensions en famille, et ce que ça dit de toi.",
   "category": {
     "name": "Famille",
     "slug": "famille"
   },
-  "createdAt": "2026-04-27",
+  "createdAt": "2026-09-05",
   "isNew": true,
   "isPopular": true,
   "images": {
@@ -18,129 +18,129 @@
   "profiles": [
     {
       "key": "apaisant",
-      "title": "L’apaisant(e)",
-      "description": "Tu cherches avant tout à calmer les tensions et à préserver l’harmonie. Face aux conflits, tu prends du recul, tu écoutes et tu essaies de comprendre les deux côtés. Tu évites d’envenimer les choses et tu privilégies le dialogue. Tu es souvent celui ou celle qui ramène le calme. Tu peux parfois mettre tes propres émotions de côté, mais ton rôle est essentiel pour maintenir l’équilibre familial.",
+      "title": "L'apaisant(e)",
+      "description": "Tu cherches avant tout à calmer les tensions et à préserver l'harmonie. Face aux conflits, tu prends du recul, tu écoutes et tu essaies de comprendre les deux côtés. Tu évites d'envenimer les choses et tu privilégies le dialogue. Tu es souvent celui ou celle qui ramène le calme dans les moments difficiles. Ta force, c'est de savoir désamorcer ce que les autres n'arrivent pas à gérer. Ta limite : tu mets parfois tes propres besoins de côté pour maintenir la paix.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777032073/cover_mk50jg.jpg"
     },
     {
       "key": "evitant",
-      "title": "L’évitant(e)",
-      "description": "Tu n’aimes pas les conflits et tu fais souvent en sorte de les éviter. Tu préfères t’éloigner, changer de sujet ou laisser passer plutôt que d’affronter la situation. Tu veux éviter les tensions, mais cela peut parfois laisser des non-dits. Tu es quelqu’un de sensible au climat émotionnel, et tu cherches surtout à te protéger.",
+      "title": "L'évitant(e)",
+      "description": "Tu n'aimes pas les conflits et tu fais souvent en sorte de les éviter. Tu préfères prendre du recul, changer de sujet ou laisser passer plutôt que d'affronter une situation tendue. Ce n'est pas de la lâcheté — c'est une forme d'intelligence émotionnelle qui te permet de ne pas envenimer les choses à chaud. Ta force, c'est de savoir quand il vaut mieux ne pas répondre. Ta limite : certains désaccords finissent par s'accumuler sans jamais être vraiment réglés.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777032251/uncertain_vsnb2s.jpg"
     },
     {
       "key": "direct",
       "title": "Le/la direct(e)",
-      "description": "Tu affrontes les conflits sans détour. Tu préfères dire les choses clairement plutôt que laisser traîner. Tu n’as pas peur des tensions si cela permet de régler les problèmes. Tu peux être perçu(e) comme franc(he), voire dur(e), mais ton objectif est d’avancer. Tu privilégies la clarté et la résolution rapide.",
+      "description": "Tu affrontes les conflits sans détour. Tu préfères dire les choses clairement plutôt que laisser traîner une situation. Tu n'as pas peur des tensions si cela permet de vraiment avancer. Ta force, c'est que les désaccords avec toi ne durent pas dans le flou : tu poses les choses sur la table et tu cherches une issue concrète. Ta limite : ta franchise peut parfois être perçue comme de la dureté, surtout par ceux qui ont besoin de plus de temps pour gérer leurs émotions.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776771397/determined_odjk1k.jpg"
     },
     {
-      "key": "emotionnel",
-      "title": "L’émotionnel(le)",
-      "description": "Tu vis les conflits de manière intense. Tu ressens fortement les tensions et tu réagis avec tes émotions. Tu peux être touché(e), blessé(e) ou réagir vivement. Tu as besoin d’exprimer ce que tu ressens, même si cela peut amplifier les situations. Ta sensibilité rend les conflits importants pour toi, car ils touchent à tes liens.",
+      "key": "sensible",
+      "title": "Le/la sensible",
+      "description": "Tu vis les conflits de manière intense, parce que les liens familiaux comptent énormément pour toi. Tu ressens fortement les tensions et tu as besoin d'exprimer ce que tu traverses. Ta force, c'est une vraie capacité à ressentir ce que les autres vivent, et une sincérité dans tes réactions que beaucoup apprécient. Ta limite : l'intensité de tes émotions peut parfois amplifier une situation avant que tu aies eu le temps de prendre du recul.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777029144/cover_nif6h2.jpg"
     }
   ],
   "questions": [
-    {
-      "id": "1",
-      "question": "Un repas de famille tourne au débat tendu…",
-      "answers": [
-        { "label": "Je calme le jeu", "scores": { "apaisant": 3 } },
-        { "label": "Je me fais discret(e)", "scores": { "evitant": 3 } },
-        { "label": "Je donne mon avis clairement", "scores": { "direct": 3 } },
-        { "label": "Je réagis émotionnellement", "scores": { "emotionnel": 3 } }
-      ]
-    },
+  {
+  "id": "1",
+  "question": "À table, un membre de la famille fait une remarque blessante sur tes choix de vie, devant tout le monde…",
+  "answers": [
+    { "label": "Je lui explique que ça me touche, sans chercher à lancer une dispute devant tout le monde", "scores": { "sensible": 2, "apaisant": 1 } },
+    { "label": "Je fais comme si je n'avais pas entendu pour ne pas gâcher le repas", "scores": { "evitant": 3 } },
+    { "label": "Je lui dis directement que ce n'est pas acceptable", "scores": { "direct": 3 } },
+    { "label": "J'essaie de détourner la conversation avant que ça dégénère", "scores": { "apaisant": 3 } }
+  ]
+},
     {
       "id": "2",
-      "question": "Quelqu’un te reproche quelque chose injustement…",
+      "question": "Ton frère ou ta sœur ressort une vieille histoire dans une dispute, quelque chose que tu croyais oublié…",
       "answers": [
-        { "label": "Je cherche à comprendre", "scores": { "apaisant": 3 } },
-        { "label": "Je laisse passer", "scores": { "evitant": 3 } },
-        { "label": "Je réponds directement", "scores": { "direct": 3 } },
-        { "label": "Ça me touche beaucoup", "scores": { "emotionnel": 3 } }
+        { "label": "Je me ferme et je préfère ne pas alimenter ça", "scores": { "evitant": 2, "apaisant": 1 } },
+        { "label": "Ça me blesse vraiment, je n'arrive pas à rester neutre", "scores": { "sensible": 3 } },
+        { "label": "Je mets les points sur les i : on parle du présent, pas du passé", "scores": { "direct": 3 } },
+        { "label": "J'essaie de calmer le jeu et de recentrer la discussion", "scores": { "apaisant": 3 } }
       ]
     },
-    {
-      "id": "3",
-      "question": "Deux proches se disputent devant toi…",
-      "answers": [
-        { "label": "J’interviens pour calmer", "scores": { "apaisant": 3 } },
-        { "label": "Je m’éloigne", "scores": { "evitant": 3 } },
-        { "label": "Je prends position", "scores": { "direct": 3 } },
-        { "label": "Je suis affecté(e)", "scores": { "emotionnel": 3 } }
-      ]
-    },
+   {
+  "id": "3",
+  "question": "Un parent refuse de reconnaître qu'il a eu tort dans une situation qui t'a vraiment affecté(e)…",
+  "answers": [
+    { "label": "J'essaie d'abord de comprendre pourquoi il voit les choses différemment", "scores": { "apaisant": 3 } },
+    { "label": "Je laisse tomber, ça ne mènera nulle part", "scores": { "evitant": 3 } },
+    { "label": "Je dis clairement ce que j'attendais de lui et ce que j'ai ressenti", "scores": { "direct": 2, "sensible": 1 } },
+    { "label": "Même après la discussion, j'ai besoin de temps pour digérer ce qui s'est passé", "scores": { "sensible": 3 } }
+  ]
+},
     {
       "id": "4",
-      "question": "Un conflit traîne depuis longtemps…",
+      "question": "Ton frère et ta sœur se disputent et chacun veut que tu prennes son parti…",
       "answers": [
-        { "label": "Je veux le résoudre calmement", "scores": { "apaisant": 3 } },
-        { "label": "Je préfère ne pas relancer", "scores": { "evitant": 3 } },
-        { "label": "Je mets les choses à plat", "scores": { "direct": 3 } },
-        { "label": "Ça me pèse émotionnellement", "scores": { "emotionnel": 3 } }
+        { "label": "Je dis que je ne veux pas choisir et j'explique pourquoi", "scores": { "direct": 2, "apaisant": 1 } },
+        { "label": "Je m'éloigne discrètement, ce n'est pas mon combat", "scores": { "evitant": 3 } },
+        { "label": "Je me sens tiraillé(e) et ça m'affecte émotionnellement", "scores": { "sensible": 3 } },
+        { "label": "J'essaie de les amener à se parler directement", "scores": { "apaisant": 3 } }
       ]
     },
-    {
-      "id": "5",
-      "question": "Tu es en désaccord avec un parent…",
-      "answers": [
-        { "label": "Je reste posé(e)", "scores": { "apaisant": 3 } },
-        { "label": "J’évite le sujet", "scores": { "evitant": 3 } },
-        { "label": "Je dis ce que je pense", "scores": { "direct": 3 } },
-        { "label": "Je réagis avec mes émotions", "scores": { "emotionnel": 3 } }
-      ]
-    },
+  {
+  "id": "5",
+  "question": "Tu envoies un message sous le coup de la colère à un proche… et tu le regrettes aussitôt.",
+  "answers": [
+    { "label": "Je m'en veux beaucoup, je rumine longtemps", "scores": { "sensible": 3 } },
+    { "label": "Je le rappelle rapidement pour expliquer ce que je voulais vraiment dire", "scores": { "direct": 3 } },
+    { "label": "J'attends que ça se calme avant de reprendre contact", "scores": { "apaisant": 2, "evitant": 1 } },
+    { "label": "Je lui envoie un message pour m'excuser et désamorcer", "scores": { "apaisant": 3 } }
+  ]
+},
     {
       "id": "6",
-      "question": "L’ambiance devient tendue…",
+      "question": "Une réunion de famille approche après une brouille récente. L'ambiance promet d'être tendue…",
       "answers": [
-        { "label": "Je détends l’atmosphère", "scores": { "apaisant": 3 } },
-        { "label": "Je me retire", "scores": { "evitant": 3 } },
-        { "label": "J’affronte la situation", "scores": { "direct": 3 } },
-        { "label": "Je ressens tout intensément", "scores": { "emotionnel": 3 } }
+        { "label": "J'y vais mais je trouve un prétexte pour partir tôt si c'est trop lourd", "scores": { "evitant": 3 } },
+        { "label": "J'appréhende beaucoup, je n'arrive pas à ne pas y penser", "scores": { "sensible": 3 } },
+        { "label": "Je prends les devants et je parle à la personne concernée avant", "scores": { "direct": 2, "apaisant": 1 } },
+        { "label": "J'essaie de créer une ambiance positive pour que ça se passe bien", "scores": { "apaisant": 3 } }
       ]
     },
     {
       "id": "7",
-      "question": "Après un conflit…",
+      "question": "Un désaccord sur l'organisation familiale traîne depuis des semaines sans jamais être réglé…",
       "answers": [
-        { "label": "Je cherche à réparer", "scores": { "apaisant": 3 } },
-        { "label": "Je passe à autre chose", "scores": { "evitant": 3 } },
-        { "label": "Je clarifie", "scores": { "direct": 3 } },
-        { "label": "Je reste affecté(e)", "scores": { "emotionnel": 3 } }
+        { "label": "Je propose une discussion pour trouver un accord concret", "scores": { "apaisant": 2, "direct": 1 } },
+        { "label": "Je prends les choses en main et je pose clairement ma position", "scores": { "direct": 3 } },
+        { "label": "Ça m'use émotionnellement, le flou me pèse vraiment", "scores": { "sensible": 3 } },
+        { "label": "Je préfère m'adapter plutôt que de rouvrir quelque chose de compliqué", "scores": { "evitant": 3 } }
       ]
     },
     {
       "id": "8",
-      "question": "Tu sens une tension arriver…",
+      "question": "Un proche dit quelque chose d'injuste sur toi devant d'autres membres de la famille…",
       "answers": [
-        { "label": "Je désamorce", "scores": { "apaisant": 3 } },
-        { "label": "J’évite", "scores": { "evitant": 3 } },
-        { "label": "Je confronte", "scores": { "direct": 3 } },
-        { "label": "Je stresse", "scores": { "emotionnel": 3 } }
+        { "label": "Je préfère en parler seul(e) à seul(e) avec lui après", "scores": { "apaisant": 2, "direct": 1 } },
+        { "label": "Je réagis sur le moment, je ne peux pas faire semblant que ça ne m'atteint pas", "scores": { "sensible": 3 } },
+        { "label": "Je rectifie immédiatement ce qui a été dit", "scores": { "direct": 3 } },
+        { "label": "Je ne dis rien sur le moment, je laisse passer", "scores": { "evitant": 3 } }
       ]
     },
     {
-      "id": "9",
-      "question": "Un proche s’énerve contre toi…",
-      "answers": [
-        { "label": "Je reste calme", "scores": { "apaisant": 3 } },
-        { "label": "Je coupe court", "scores": { "evitant": 3 } },
-        { "label": "Je réponds", "scores": { "direct": 3 } },
-        { "label": "Je le prends très à cœur", "scores": { "emotionnel": 3 } }
-      ]
-    },
-  {
-  "id": "10",
-  "question": "Après un conflit familial, quelques heures plus tard…",
+  "id": "9",
+  "question": "Quelqu'un de ta famille pleure ou explose émotionnellement lors d'une dispute…",
   "answers": [
-    { "label": "Je cherche à rétablir le calme", "scores": { "apaisant": 3 } },
-    { "label": "Je fais comme si de rien n’était", "scores": { "evitant": 3 } },
-    { "label": "Je reviens pour clarifier les choses", "scores": { "direct": 3 } },
-    { "label": "Je repense encore à tout ce qui s’est passé", "scores": { "emotionnel": 3 } }
+    { "label": "Je fais une pause et je sors quelques minutes pour laisser l'espace se calmer", "scores": { "apaisant": 2, "evitant": 1 } },
+    { "label": "Ça me touche profondément, je ressens très fort ce qu'il ou elle vit", "scores": { "sensible": 3 } },
+    { "label": "Je cherche à comprendre ce qui a vraiment déclenché ça", "scores": { "apaisant": 3 } },
+    { "label": "Je demande clairement ce qui se passe et ce qu'on peut faire", "scores": { "direct": 3 } }
   ]
-}
+},
+    {
+      "id": "10",
+      "question": "Le lendemain d'une dispute familiale difficile, comment tu te sens ?",
+      "answers": [
+        { "label": "Je repense encore à tout, j'ai du mal à décrocher", "scores": { "sensible": 3 } },
+        { "label": "J'essaie de tourner la page et de ne pas y revenir", "scores": { "evitant": 3 } },
+        { "label": "Je veux reprendre la conversation pour finir de régler ça", "scores": { "direct": 3 } },
+        { "label": "Je cherche un moyen de rétablir le lien avec la personne concernée", "scores": { "apaisant": 3 } }
+      ]
+    }
   ]
 }

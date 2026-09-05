@@ -1,8 +1,8 @@
 {
   "slug": "quiz-citations-celebres",
-  "title": "Quiz Culture Générale Citations Célèbres - 20 phrases cultes à reconnaître",
+  "title": "Quiz Citations Célèbres - Reconnais-tu ces 20 phrases cultes ?",
   "description": "Auteurs mythiques, phrases historiques et citations marquantes : teste ta culture générale.",
-  "descriptionSeo": "Teste ta culture générale avec ce quiz de 20 citations célèbres. De Victor Hugo à Albert Einstein, en passant par des phrases historiques et littéraires incontournables, découvre l’origine des citations les plus marquantes et enrichis ta culture avec des explications utiles et mémorables.",
+  "descriptionSeo": "Teste ta culture générale avec ce quiz de 20 citations célèbres. De Descartes à Einstein, en passant par Shakespeare, Horace ou Martin Luther King, découvre l'origine des phrases les plus marquantes de l'histoire et enrichis ta culture avec des explications contextuelles et mémorables.",
   "category": {
     "name": "Culture générale",
     "slug": "culture-generale"
@@ -23,178 +23,188 @@
       "imagePrompt": "philosopher thinking classic",
       "answers": ["Platon", "Descartes", "Socrate", "Kant"],
       "correctIndex": 1,
-      "explanation": "René Descartes formule cette phrase dans son œuvre philosophique pour prouver l’existence du sujet pensant. Elle marque un tournant majeur dans la philosophie moderne en plaçant la conscience au centre de la vérité."
+      "explanation": "René Descartes formule cette phrase dans le « Discours de la méthode » (1637), puis dans les « Méditations métaphysiques ». En latin : « Cogito, ergo sum ». Elle marque un tournant décisif dans la philosophie moderne : au lieu de partir de Dieu ou du monde, Descartes part de la conscience elle-même comme seule certitude indubitable."
     },
     {
       "id": "2",
-      "question": "Qui a dit : « L’enfer, c’est les autres » ?",
+      "question": "Qui a dit : « L'enfer, c'est les autres » ?",
       "image": null,
       "imagePrompt": "theatre existentialism stage",
       "answers": ["Camus", "Sartre", "Beauvoir", "Nietzsche"],
       "correctIndex": 1,
-      "explanation": "Cette phrase provient de la pièce « Huis clos » de Jean-Paul Sartre. Elle exprime l’idée que le regard des autres peut devenir une source d’enfermement et de jugement."
+      "explanation": "Cette réplique conclut « Huis clos » de Jean-Paul Sartre, pièce créée en 1944 où trois personnages sont enfermés ensemble pour l'éternité. Sartre a souvent précisé que la phrase était mal comprise : il ne dit pas que les autres sont mauvais, mais que sans le regard des autres, nous ne pouvons pas nous connaître nous-mêmes."
     },
     {
       "id": "3",
-      "question": "Qui a dit : « Le cœur a ses raisons que la raison ignore » ?",
+      "question": "Quelle est la formulation exacte de la citation de Pascal sur le cœur et la raison ?",
       "image": null,
       "imagePrompt": "old philosophy book",
-      "answers": ["Pascal", "Voltaire", "Rousseau", "Montaigne"],
-      "correctIndex": 0,
-      "explanation": "Blaise Pascal souligne ici que les émotions et l’intuition échappent à la logique pure. Cette idée reste centrale dans la compréhension des comportements humains."
+      "answers": [
+        "Le cœur a ses raisons que la raison ignore",
+        "Le cœur a ses raisons que la raison ne connaît point",
+        "Le cœur suit ses raisons que la raison comprend mal",
+        "Le cœur obéit à des raisons que la raison refuse"
+      ],
+      "correctIndex": 1,
+      "explanation": "La formulation canonique de Blaise Pascal, tirée des « Pensées » (fragment 277), est : « Le cœur a ses raisons que la raison ne connaît point. » La version populaire « que la raison ignore » est une déformation fréquente. Pascal distingue ici deux formes de connaissance : la raison discursive et l'intuition du cœur, qu'il associe à la foi."
     },
     {
       "id": "4",
-      "question": "Qui a dit : « Je suis venu, j’ai vu, j’ai vaincu » ?",
+      "question": "À quel conquérant antique attribue-t-on la formule « Veni, vidi, vici » — je suis venu, j'ai vu, j'ai vaincu ?",
       "image": null,
       "imagePrompt": "roman emperor statue",
       "answers": ["Auguste", "Néron", "Jules César", "Marc Aurèle"],
       "correctIndex": 2,
-      "explanation": "Jules César aurait prononcé cette phrase après une victoire rapide. Elle symbolise aujourd’hui une réussite éclatante obtenue sans difficulté."
+      "explanation": "Cette formule est transmise par les sources antiques — notamment Suétone et Plutarque — comme celle que Jules César aurait utilisée pour annoncer sa victoire éclair à Zéla (47 av. J.-C.). Son caractère tripartite et sa brièveté frappante en font l'une des formules les plus célèbres de l'Antiquité, symbole d'une victoire remportée sans difficulté."
     },
     {
       "id": "5",
-      "question": "Qui a dit : « Rien ne se perd, rien ne se crée, tout se transforme » ?",
+      "question": "À quel scientifique associe-t-on la formule « Rien ne se perd, rien ne se crée, tout se transforme » ?",
       "image": null,
       "imagePrompt": "science chemistry lab",
       "answers": ["Newton", "Einstein", "Lavoisier", "Galilée"],
       "correctIndex": 2,
-      "explanation": "Antoine Lavoisier, père de la chimie moderne, formule ce principe fondamental de conservation de la matière. Il reste une base essentielle en sciences."
+      "explanation": "Cette formule résume le principe de conservation de la matière associé aux travaux d'Antoine Lavoisier, père de la chimie moderne. Dans son « Traité élémentaire de chimie » (1789), il formule ce principe de façon plus technique. La version popularisée est une reformulation postérieure — mais elle capture fidèlement l'idée centrale de ses expériences sur la combustion et la masse."
     },
     {
       "id": "6",
-      "question": "Qui a dit : « I have a dream » ?",
+      "question": "Qui a prononcé le discours « I have a dream » en 1963 à Washington ?",
       "image": null,
       "imagePrompt": "civil rights speech crowd",
       "answers": ["Malcolm X", "Nelson Mandela", "Barack Obama", "Martin Luther King"],
       "correctIndex": 3,
-      "explanation": "Martin Luther King prononce ce discours en 1963. Il devient un symbole mondial de la lutte pour les droits civiques et l’égalité."
+      "explanation": "Martin Luther King prononce ce discours le 28 août 1963 lors de la Marche sur Washington, devant plus de 250 000 personnes. Il plaide pour la fin de la ségrégation raciale et pour l'égalité civique. Le discours est improvisé en partie : la séquence « I have a dream » n'était pas dans le texte préparé, mais King l'ajoute sous l'impulsion du moment."
     },
     {
       "id": "7",
-      "question": "Qui a dit : « L’homme est un loup pour l’homme » ?",
+      "question": "Quel philosophe a repris et rendu célèbre en philosophie politique la formule « L'homme est un loup pour l'homme » ?",
       "image": null,
       "imagePrompt": "philosophy human nature",
       "answers": ["Hobbes", "Rousseau", "Locke", "Spinoza"],
       "correctIndex": 0,
-      "explanation": "Thomas Hobbes utilise cette idée pour décrire une vision pessimiste de l’homme à l’état naturel, justifiant la nécessité d’un pouvoir fort pour maintenir l’ordre."
+      "explanation": "La formule originale, « Homo homini lupus », vient du dramaturge latin Plaute. Thomas Hobbes la reprend dans l'épître dédicatoire de « De Cive » (1642), où il oppose notamment les relations entre citoyens aux rapports de rivalité entre États. La formule est ensuite devenue étroitement associée à sa philosophie politique."
     },
     {
       "id": "8",
-      "question": "Qui a dit : « Le savoir, c’est le pouvoir » ?",
+      "question": "À quel penseur associe-t-on généralement la formule « Le savoir, c'est le pouvoir » ?",
       "image": null,
       "imagePrompt": "books knowledge power",
       "answers": ["Descartes", "Bacon", "Voltaire", "Kant"],
       "correctIndex": 1,
-      "explanation": "Francis Bacon met en avant l’importance du savoir scientifique. Cette phrase souligne que la connaissance permet d’agir sur le monde et de le transformer."
+      "explanation": "Francis Bacon est associé à cette idée dans ses écrits du début du XVIIe siècle, notamment « Novum Organum » (1620). Il écrit en latin « scientia potestas est ». La formulation française « Le savoir, c'est le pouvoir » est une synthèse et traduction postérieure qui lui est traditionnellement attribuée. L'idée centrale est que maîtriser la nature passe par sa connaissance, ce qui fonde la vision moderne de la science comme outil de transformation du monde."
     },
     {
       "id": "9",
-      "question": "Qui a dit : « Liberté, égalité, fraternité » ?",
+      "question": "Dans quelle œuvre Victor Hugo écrit-il : « La joie que l'on cause est une joie qu'on se donne » ?",
       "image": null,
-      "imagePrompt": "french revolution flag",
-      "answers": ["Napoléon", "Robespierre", "Devise républicaine", "Voltaire"],
-      "correctIndex": 2,
-      "explanation": "Cette phrase est la devise de la République française. Elle résume les valeurs issues de la Révolution française et reste au cœur de l’identité politique française."
+      "imagePrompt": "victor hugo portrait classic french writer",
+      "answers": ["Les Misérables", "Notre-Dame de Paris", "Les Contemplations", "Hernani"],
+      "correctIndex": 0,
+      "explanation": "Cette phrase figure dans « Les Misérables » (1862), le roman fleuve de Victor Hugo. Elle illustre la philosophie humaniste qui traverse toute l'œuvre : la générosité et la bonté ont une valeur intrinsèque pour celui qui les exerce, indépendamment de tout retour. Hugo en fait l'un des moteurs moraux de personnages comme Jean Valjean ou Mgr Myriel."
     },
     {
       "id": "10",
-      "question": "Qui a dit : « To be or not to be » ?",
+      "question": "Dans quelle pièce apparaît la réplique « To be or not to be » ?",
       "image": null,
       "imagePrompt": "hamlet theater skull",
-      "answers": ["Shakespeare", "Molière", "Goethe", "Dante"],
-      "correctIndex": 0,
-      "explanation": "Cette phrase est tirée de « Hamlet » de William Shakespeare. Elle exprime une réflexion profonde sur l’existence et la souffrance humaine."
+      "answers": ["Macbeth", "Hamlet", "Othello", "Le Roi Lear"],
+      "correctIndex": 1,
+      "explanation": "Cette réplique ouvre le célèbre monologue du troisième acte d'« Hamlet » de William Shakespeare (vers 1600-1601). Hamlet s'interroge sur le sens de l'existence face à la souffrance. La phrase est souvent citée hors contexte, mais dans la pièce elle porte une question de fond : vaut-il mieux endurer ou agir, même au risque de tout perdre ?"
     },
     {
       "id": "11",
-      "question": "Qui a dit : « La vie est un long fleuve tranquille » ?",
-      "image": null,
-      "imagePrompt": "french movie family",
-      "answers": ["Proverbe", "Film français", "Victor Hugo", "Balzac"],
-      "correctIndex": 1,
-      "explanation": "Cette expression est popularisée par un film français du même nom. Elle est souvent utilisée ironiquement pour parler d’une vie pleine de rebondissements."
-    },
-    {
-      "id": "12",
-      "question": "Qui a dit : « Le temps, c’est de l’argent » ?",
+      "question": "À qui attribue-t-on la formule : « Le temps, c'est de l'argent » ?",
       "image": null,
       "imagePrompt": "clock money concept",
       "answers": ["Benjamin Franklin", "Einstein", "Ford", "Rockefeller"],
       "correctIndex": 0,
-      "explanation": "Benjamin Franklin met en avant l’idée que le temps est une ressource précieuse. Cette phrase est devenue centrale dans les sociétés modernes orientées vers la productivité."
+      "explanation": "Benjamin Franklin emploie cette idée dans « Advice to a Young Tradesman » (1748) : « Remember that time is money. » Homme politique, inventeur et penseur, Franklin incarne l'éthique du travail et de la productivité qui marquera profondément la culture américaine. La formule est depuis devenue un cliché universel du monde des affaires."
     },
     {
-      "id": "13",
-      "question": "Qui a dit : « Impossible n’est pas français » ?",
+      "id": "12",
+      "question": "À qui attribue-t-on la formule : « Impossible n'est pas français » ?",
       "image": null,
       "imagePrompt": "napoleon portrait",
       "answers": ["Napoléon", "De Gaulle", "Louis XIV", "Clémenceau"],
       "correctIndex": 0,
-      "explanation": "Attribuée à Napoléon Bonaparte, cette phrase reflète une vision volontariste et ambitieuse. Elle est encore utilisée pour motiver ou encourager à dépasser les limites."
+      "explanation": "Cette formule est traditionnellement attribuée à Napoléon Bonaparte, mais son origine exacte reste incertaine — on ne la trouve pas attestée littéralement dans ses écrits. Elle circule dès le XIXe siècle et est régulièrement associée à son nom. Elle est encore très utilisée dans le discours de la motivation et du dépassement de soi."
+    },
+    {
+      "id": "13",
+      "question": "Qui a écrit : « On ne naît pas femme, on le devient » ?",
+      "image": null,
+      "imagePrompt": "simone de beauvoir portrait existentialism",
+      "answers": ["Virginia Woolf", "Simone de Beauvoir", "George Sand", "Colette"],
+      "correctIndex": 1,
+      "explanation": "Cette phrase ouvre le deuxième volume du « Deuxième Sexe » de Simone de Beauvoir (1949). Elle exprime l'idée centrale de l'œuvre : la féminité n'est pas une donnée biologique naturelle, mais une construction sociale et culturelle. Cette formulation est l'une des plus citées du féminisme philosophique du XXe siècle et son attribution à Beauvoir est incontestable."
     },
     {
       "id": "14",
-      "question": "Qui a dit : « Je vois donc je crois » (souvent inversé) ?",
-      "image": null,
-      "imagePrompt": "scientific observation",
-      "answers": ["Saint Thomas", "Descartes", "Galilée", "Aristote"],
-      "correctIndex": 0,
-      "explanation": "Saint Thomas est associé à l’idée de croire uniquement ce que l’on voit. L’expression originale souligne le rapport entre foi et preuve."
-    },
-    {
-      "id": "15",
-      "question": "Qui a dit : « Le style, c’est l’homme même » ?",
-      "image": null,
-      "imagePrompt": "french writer classic",
-      "answers": ["Buffon", "Voltaire", "Hugo", "Zola"],
-      "correctIndex": 0,
-      "explanation": "Georges-Louis Leclerc de Buffon affirme que la manière d’écrire reflète la personnalité de l’auteur. Cette idée reste fondamentale en littérature."
-    },
-    {
-      "id": "16",
-      "question": "Qui a dit : « Un petit pas pour l’homme, un bond de géant pour l’humanité » ?",
-      "image": null,
-      "imagePrompt": "moon landing astronaut",
-      "answers": ["Buzz Aldrin", "Neil Armstrong", "Yuri Gagarine", "John Glenn"],
-      "correctIndex": 1,
-      "explanation": "Neil Armstrong prononce cette phrase lors du premier pas sur la Lune en 1969. Elle symbolise l’ampleur de cette avancée pour toute l’humanité."
-    },
-    {
-      "id": "17",
-      "question": "Qui a dit : « La connaissance parle, mais la sagesse écoute » ?",
-      "image": null,
-      "imagePrompt": "philosopher listening",
-      "answers": ["Jimi Hendrix", "Einstein", "Socrate", "Confucius"],
-      "correctIndex": 0,
-      "explanation": "Attribuée à Jimi Hendrix, cette citation distingue le savoir théorique de la capacité à comprendre réellement les autres, une nuance essentielle dans les relations humaines."
-    },
-    {
-      "id": "18",
-      "question": "Qui a dit : « Tout ce que je sais, c’est que je ne sais rien » ?",
-      "image": null,
-      "imagePrompt": "ancient greek philosopher",
-      "answers": ["Platon", "Aristote", "Socrate", "Épicure"],
-      "correctIndex": 2,
-      "explanation": "Socrate exprime ici une idée centrale de la philosophie : reconnaître son ignorance est le premier pas vers la connaissance."
-    },
-    {
-      "id": "19",
-      "question": "Qui a dit : « L’imagination est plus importante que le savoir » ?",
-      "image": null,
-      "imagePrompt": "einstein portrait",
-      "answers": ["Newton", "Tesla", "Einstein", "Curie"],
-      "correctIndex": 2,
-      "explanation": "Albert Einstein met en avant le rôle fondamental de la créativité dans les découvertes scientifiques. Le savoir est limité, mais l’imagination permet d’explorer de nouvelles idées."
-    },
-    {
-      "id": "20",
-      "question": "Qui a dit : « Carpe diem » ?",
+      "question": "À quel auteur latin attribue-t-on la formule « Carpe diem » ?",
       "image": null,
       "imagePrompt": "roman poetry scroll",
       "answers": ["Cicéron", "Sénèque", "Virgile", "Horace"],
       "correctIndex": 3,
-      "explanation": "Le poète latin Horace invite à profiter du moment présent avec « Carpe diem ». Cette expression est devenue universelle et reflète une philosophie de vie centrée sur l’instant."
+      "explanation": "« Carpe diem » est extrait des « Odes » d'Horace (23 av. J.-C.). La formule complète est : « Carpe diem, quam minimum credula postero » — « Cueille le jour présent, en te fiant le moins possible au lendemain. » Horace invite à profiter de l'instant sans se perdre dans l'attente d'un avenir incertain. L'expression est depuis devenue universelle."
+    },
+    {
+      "id": "15",
+      "question": "À quel naturaliste français attribue-t-on la formule : « Le style, c'est l'homme même » ?",
+      "image": null,
+      "imagePrompt": "french writer classic",
+      "answers": ["Buffon", "Voltaire", "Hugo", "Zola"],
+      "correctIndex": 0,
+      "explanation": "Georges-Louis Leclerc, comte de Buffon, prononce cette phrase dans son discours de réception à l'Académie française en 1753. Il affirme que les idées peuvent être communes, mais que la façon dont on les exprime — le style — révèle la singularité de l'auteur. Cette formule reste l'une des références fondamentales de la réflexion sur l'écriture."
+    },
+    {
+      "id": "16",
+      "question": "Qui a prononcé ces mots lors du premier pas sur la Lune : « Un petit pas pour l'homme, un bond de géant pour l'humanité » ?",
+      "image": null,
+      "imagePrompt": "moon landing astronaut",
+      "answers": ["Buzz Aldrin", "Neil Armstrong", "Yuri Gagarine", "John Glenn"],
+      "correctIndex": 1,
+      "explanation": "Neil Armstrong prononce cette phrase le 21 juillet 1969 lors de la mission Apollo 11. Il a précisé plus tard avoir voulu dire « un petit pas pour un homme » — avec l'article indéfini — mais le « a » serait passé à la trappe lors de la transmission. Buzz Aldrin, qui le suivait sur la Lune, n'a pas prononcé cette phrase."
+    },
+    {
+      "id": "17",
+      "question": "Quelle phrase Albert Camus écrit-il en ouverture de « L'Étranger » ?",
+      "image": null,
+      "imagePrompt": "camus existentialism book",
+      "answers": [
+        "Il faut imaginer Sisyphe heureux",
+        "Aujourd'hui, maman est morte",
+        "Je suis né aujourd'hui ou peut-être hier",
+        "L'absurde naît de la confrontation entre le besoin humain et le silence du monde"
+      ],
+      "correctIndex": 1,
+      "explanation": "« Aujourd'hui, maman est morte. Ou peut-être hier, je ne sais pas. » — c'est l'une des ouvertures les plus célèbres de la littérature française. Publiée en 1942, cette première phrase de « L'Étranger » installe immédiatement le ton du roman : une indifférence apparente, un détachement qui dérange. « Il faut imaginer Sisyphe heureux » appartient au « Mythe de Sisyphe », publié la même année."
+    },
+    {
+      "id": "18",
+      "question": "À quel philosophe associe-t-on traditionnellement la formule « Tout ce que je sais, c'est que je ne sais rien » ?",
+      "image": null,
+      "imagePrompt": "ancient greek philosopher",
+      "answers": ["Platon", "Aristote", "Socrate", "Épicure"],
+      "correctIndex": 2,
+      "explanation": "Cette formule est associée à Socrate, mais on ne la trouve pas littéralement dans les textes de l'Antiquité — Socrate n'a rien écrit lui-même. Elle résume la position philosophique que lui prête Platon dans les dialogues, notamment l'« Apologie de Socrate » : la reconnaissance de sa propre ignorance est le début de toute sagesse. Une formulation plus proche des textes serait : « Je sais que je ne sais pas. »"
+    },
+    {
+      "id": "19",
+      "question": "Qui a dit : « L'imagination est plus importante que le savoir » ?",
+      "image": null,
+      "imagePrompt": "einstein portrait",
+      "answers": ["Newton", "Tesla", "Einstein", "Curie"],
+      "correctIndex": 2,
+      "explanation": "Albert Einstein formule cette idée dans un entretien publié dans le Saturday Evening Post en 1929. Elle reflète sa conviction que les grandes percées scientifiques naissent d'abord d'une intuition créatrice, avant d'être confirmées par le calcul. Einstein voyait l'imagination non comme une alternative à la rigueur, mais comme sa condition préalable."
+    },
+    {
+      "id": "20",
+      "question": "Lequel de ces auteurs a écrit : « Il faut imaginer Sisyphe heureux » ?",
+      "image": null,
+      "imagePrompt": "camus absurdism philosophy",
+      "answers": ["Sartre", "Camus", "Cioran", "Beckett"],
+      "correctIndex": 1,
+      "explanation": "Cette phrase conclut « Le Mythe de Sisyphe » d'Albert Camus (1942), essai fondateur de la philosophie de l'absurde. Sisyphe, condamné à rouler éternellement un rocher jusqu'au sommet d'une colline, devient pour Camus la figure de l'homme absurde qui accomplit sa tâche sans espoir de récompense — et qui, dans cette lucidité même, peut trouver quelque chose qui ressemble au bonheur."
     }
   ]
 }
