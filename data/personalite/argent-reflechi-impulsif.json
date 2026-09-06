@@ -1,13 +1,13 @@
 {
   "slug": "test-depenses-reflechi-ou-impulsif",
   "title": "Test argent - Tes dépenses disent si tu es réfléchi(e)… ou impulsif(ve)",
-  "description": "Tes réflexes d’achat révèlent-ils un vrai contrôle ou de l’impulsion ?",
-  "descriptionSeo": "Scroll tardif, paiements rapides, notifications, paniers abandonnés… ce test analyse tes micro-comportements d’achat pour révéler si tu es réfléchi(e) ou impulsif(ve) sans t’en rendre compte.",
+  "description": "Tes réflexes d'achat révèlent-ils un vrai contrôle ou de l'impulsion ?",
+  "descriptionSeo": "Scroll tardif, notifications de stock limité, promotions flash, paiement sans contact, paniers abandonnés… tes micro-comportements d'achat en disent plus que tu ne le crois. Ce test analyse 10 situations concrètes du quotidien pour révéler si tu es plutôt réfléchi(e), impulsif(ve) ou quelque part entre les deux — sans que tu t'en rendes forcément compte. Résultat immédiat avec une analyse de ton profil de dépenses.",
   "category": {
     "name": "Argent",
     "slug": "argent"
   },
-  "createdAt": "2026-04-27",
+  "createdAt": "2026-09-06",
   "isNew": true,
   "isPopular": true,
   "images": {
@@ -19,111 +19,121 @@
     {
       "key": "reflechi",
       "title": "Plutôt réfléchi(e)",
-      "description": "Tu as des réflexes d’achat très posés. Même dans des situations rapides ou tentantes, tu gardes une distance. Tu laisses passer l’impulsion, tu reviens plus tard, et souvent… tu n’achètes même plus. Tu ne te bases pas sur l’émotion du moment mais sur l’utilité réelle. Ce fonctionnement te permet d’éviter les dépenses inutiles sans te frustrer.",
+      "description": "Tu gardes le contrôle sur tes dépenses, même dans des situations conçues pour faire craquer. Tu laisses passer l'impulsion, tu reviens plus tard, et souvent tu réalises que l'envie est passée. Tu ne te bases pas sur l'émotion du moment mais sur l'utilité réelle. Ta force : tu évites les dépenses inutiles sans avoir à te forcer. Ta limite : tu peux parfois avoir du mal à t'autoriser un plaisir spontané, même quand tu en as les moyens.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777581576/money-tension_fhwqma.jpg"
     },
     {
       "key": "equilibre",
       "title": "Entre contrôle et impulsion",
-      "description": "Tu oscilles entre réflexion et spontanéité. Certains contextes te rendent très rationnel(le), d’autres te font craquer plus facilement. Tu peux laisser passer une envie… ou cliquer sans trop réfléchir. Ton comportement dépend beaucoup du moment, de ton humeur ou de la situation.",
+      "description": "Tu oscilles selon les contextes. Certaines situations te laissent totalement froid(e), d'autres font craquer ta vigilance plus facilement. Tu n'es ni systématiquement rationnel(le) ni constamment dans l'excès. Ton comportement dépend beaucoup de ton humeur, du moment et du type d'achat. Ta force : tu t'adaptes. Ta limite : cette variabilité peut rendre ton budget difficile à anticiper.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777577299/careful_wjsw89.jpg"
     },
     {
       "key": "impulsif",
       "title": "Plutôt impulsif(ve)",
-      "description": "Tes décisions d’achat sont souvent immédiates. Tu réagis vite aux envies, aux notifications ou aux opportunités. L’acte d’achat est rapide, parfois presque automatique. Tu réfléchis souvent après, pas avant. Cette spontanéité peut être agréable, mais elle te fait aussi accumuler des dépenses que tu n’avais pas vraiment prévues.",
+      "description": "Tes décisions d'achat sont souvent rapides, parfois presque automatiques. Tu réagis aux envies, aux opportunités et aux signaux d'urgence. L'acte d'achat précède souvent la réflexion. Ta force : tu profites du moment, tu ne rumines pas et tu sais te faire plaisir sans te compliquer la vie. Ta limite : tu accumules parfois des dépenses que tu n'avais pas prévues, et tu réalises leur impact après coup.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777577452/spender_gkgxmq.jpg"
     }
   ],
   "questions": [
     {
       "id": "1",
-      "question": "Il est 23h, tu scrolles et vois un produit qui te plaît…",
+      "question": "Il est 23h, tu scrolles et tu tombes sur un produit qui te plaît vraiment…",
       "answers": [
-        { "label": "Je ferme et j’y repense le lendemain", "scores": { "reflechi": 3 } },
-        { "label": "Je le garde en tête sans acheter", "scores": { "equilibre": 3 } },
-        { "label": "Je clique et j’achète directement", "scores": { "impulsif": 3 } }
+        { "label": "Je clique, je commande, je vois ça demain", "scores": { "impulsif": 3 } },
+        { "label": "Je le mets de côté et j'y repense dans quelques jours", "scores": { "reflechi": 3 } },
+        { "label": "Je regarde les avis et le prix, et je décide ce soir selon ce que je trouve", "scores": { "equilibre": 2, "reflechi": 1 } },
+        { "label": "Je l'ajoute au panier pour ne pas le perdre de vue, sans m'engager", "scores": { "equilibre": 2, "impulsif": 1 } }
       ]
     },
     {
       "id": "2",
-      "question": "Tu reçois une notif “plus que 2 en stock”…",
+      "question": "Une notification s'affiche : « Plus que 3 articles en stock »…",
       "answers": [
-        { "label": "Ça ne change rien pour moi", "scores": { "reflechi": 3 } },
-        { "label": "Ça me fait hésiter", "scores": { "equilibre": 3 } },
-        { "label": "Ça me pousse à acheter vite", "scores": { "impulsif": 3 } }
+        { "label": "Je laisse passer quelques minutes avant de décider si ça vaut vraiment le coup", "scores": { "reflechi": 3 } },
+        { "label": "Je me dis que si c'est parti, c'est parti", "scores": { "reflechi": 2, "equilibre": 1 } },
+        { "label": "Je commande pour ne pas rater l'occasion", "scores": { "impulsif": 3 } },
+        { "label": "Ça m'incite à aller voir, même si je n'achète pas forcément", "scores": { "equilibre": 2, "impulsif": 1 } }
       ]
     },
     {
       "id": "3",
-      "question": "Tu utilises Apple Pay / sans contact plusieurs fois d’affilée…",
+      "question": "Tu paies en sans-contact plusieurs fois de suite dans la même journée…",
       "answers": [
-        { "label": "Je reste conscient(e) de chaque paiement", "scores": { "reflechi": 3 } },
-        { "label": "Je réalise après coup", "scores": { "equilibre": 3 } },
-        { "label": "Je ne pense même plus aux montants", "scores": { "impulsif": 3 } }
+        { "label": "Je ne réalise les montants qu'en regardant mon solde le soir", "scores": { "impulsif": 3 } },
+        { "label": "Je garde un suivi mental approximatif de ce que je dépense", "scores": { "equilibre": 2, "impulsif": 1 } },
+        { "label": "Je note ou je surveille en temps réel", "scores": { "reflechi": 3 } },
+        { "label": "Je sais à peu près où j'en suis, sans être à l'euro près", "scores": { "equilibre": 2, "reflechi": 1 } }
       ]
     },
     {
       "id": "4",
-      "question": "Tu ajoutes un produit à ton panier puis tu quittes le site…",
+      "question": "Tu as abandonné un panier il y a trois jours. Tu reçois un email de relance avec une petite réduction…",
       "answers": [
-        { "label": "Je n’y retourne presque jamais", "scores": { "reflechi": 3 } },
-        { "label": "Ça dépend des cas", "scores": { "equilibre": 3 } },
-        { "label": "Je reviens souvent pour finaliser", "scores": { "impulsif": 3 } }
+        { "label": "Je profite de la réduction pour finaliser", "scores": { "impulsif": 2, "equilibre": 1 } },
+        { "label": "Je supprime l'email sans rouvrir le panier", "scores": { "reflechi": 3 } },
+        { "label": "Je rouvre le panier, je reconsidère, et je décide selon mon humeur du moment", "scores": { "equilibre": 3 } },
+        { "label": "Je me dis que si j'avais vraiment voulu, j'aurais déjà commandé", "scores": { "reflechi": 2, "equilibre": 1 } }
       ]
     },
     {
       "id": "5",
-      "question": "Tu vois un produit sponsorisé qui correspond exactement à toi…",
+      "question": "Un ami te montre un produit qu'il vient d'acheter et qui te plaît beaucoup…",
       "answers": [
-        { "label": "Je reste méfiant(e)", "scores": { "reflechi": 3 } },
-        { "label": "Je clique par curiosité", "scores": { "equilibre": 3 } },
-        { "label": "Je me laisse facilement convaincre", "scores": { "impulsif": 3 } }
+        { "label": "Je le commande dans les jours qui suivent", "scores": { "impulsif": 2, "equilibre": 1 } },
+        { "label": "Je l'ajoute à une liste mentale sans me presser", "scores": { "equilibre": 2, "reflechi": 1 } },
+        { "label": "Je le commande le soir même ou presque", "scores": { "impulsif": 3 } },
+        { "label": "Je note la référence mais je le laisse reposer plusieurs semaines avant de décider", "scores": { "reflechi": 3 } }
       ]
     },
     {
       "id": "6",
-      "question": "Tu achètes quelque chose et reçois un email “vous pourriez aussi aimer”…",
+      "question": "Tu vois une promotion à -40 % sur quelque chose que tu avais vaguement envie d'avoir…",
       "answers": [
-        { "label": "Je n’y fais pas attention", "scores": { "reflechi": 3 } },
-        { "label": "Je regarde sans forcément acheter", "scores": { "equilibre": 3 } },
-        { "label": "Je rajoute souvent un autre produit", "scores": { "impulsif": 3 } }
+        { "label": "Je saute dessus, c'est trop beau pour passer", "scores": { "impulsif": 3 } },
+        { "label": "Je vérifie si la réduction est réelle et si c'est le bon moment", "scores": { "reflechi": 2, "equilibre": 1 } },
+        { "label": "Je prends le temps de voir si ça rentre dans mon budget du moment", "scores": { "reflechi": 3 } },
+        { "label": "Je craque parfois, pas toujours — ça dépend à quel point j'en avais envie avant la promo", "scores": { "equilibre": 2, "impulsif": 1 } }
       ]
     },
     {
       "id": "7",
-      "question": "Tu vois un prix barré -40%…",
+      "question": "Tu es de bonne humeur, tu as bien fini ta semaine. Tu passes devant un magasin…",
       "answers": [
-        { "label": "Je vérifie si j’en ai besoin", "scores": { "reflechi": 3 } },
-        { "label": "Je me laisse tenter parfois", "scores": { "equilibre": 3 } },
-        { "label": "Je saute sur l’occasion", "scores": { "impulsif": 3 } }
+        { "label": "Je rentre juste « regarder » et je repars souvent avec quelque chose", "scores": { "impulsif": 2, "equilibre": 1 } },
+        { "label": "Je peux avoir envie de quelque chose, mais je préfère attendre avant de décider", "scores": { "reflechi": 2, "equilibre": 1 } },
+        { "label": "Je m'autorise un petit plaisir, c'est ponctuel", "scores": { "equilibre": 2, "impulsif": 1 } },
+        { "label": "Je peux entrer regarder, mais je repars facilement sans rien acheter", "scores": { "reflechi": 2, "equilibre": 1 } }
       ]
     },
     {
       "id": "8",
-      "question": "Tu ajoutes un article puis les frais de livraison apparaissent…",
+      "question": "Tu finalises une commande et tu vois les frais de livraison s'ajouter au moment de payer…",
       "answers": [
-        { "label": "Je ferme la page", "scores": { "reflechi": 3 } },
-        { "label": "J’hésite encore", "scores": { "equilibre": 3 } },
-        { "label": "Je valide quand même", "scores": { "impulsif": 3 } }
+        { "label": "Je cherche un code promo ou un moyen de les éviter avant de valider", "scores": { "reflechi": 2, "equilibre": 1 } },
+        { "label": "Je valide sans trop y penser, j'avais déjà décidé d'acheter", "scores": { "impulsif": 3 } },
+        { "label": "Je reconsidère l'achat et je ferme parfois la page", "scores": { "reflechi": 3 } },
+        { "label": "Ça m'agace, mais si le produit me plaisait vraiment je valide quand même", "scores": { "equilibre": 2, "impulsif": 1 } }
       ]
     },
     {
       "id": "9",
-      "question": "Tu fais un achat et vois ton compte juste après…",
+      "question": "Quelques jours après un achat, tu réalises que tu ne l'utilises pas vraiment…",
       "answers": [
-        { "label": "Je reste neutre, c’était prévu", "scores": { "reflechi": 3 } },
-        { "label": "Je me dis “bon, ça va”", "scores": { "equilibre": 3 } },
-        { "label": "Je réalise un peu après coup", "scores": { "impulsif": 3 } }
+        { "label": "Ça arrive régulièrement, sans que ça me perturbe vraiment", "scores": { "impulsif": 3 } },
+        { "label": "Je me dis qu'il finira par servir un jour", "scores": { "impulsif": 2, "equilibre": 1 } },
+        { "label": "Je réfléchis à retourner l'article ou à le revendre", "scores": { "reflechi": 2, "equilibre": 1 } },
+        { "label": "Ça m'arrive peu : en général, j'ai déjà une idée assez précise de l'usage que j'en ferai", "scores": { "reflechi": 3 } }
       ]
     },
     {
       "id": "10",
-      "question": "Une envie d’achat apparaît sans raison particulière…",
+      "question": "Tu reçois de l'argent inattendu — remboursement, cadeau, prime…",
       "answers": [
-        { "label": "Je l’ignore facilement", "scores": { "reflechi": 3 } },
-        { "label": "Je la garde en tête", "scores": { "equilibre": 3 } },
-        { "label": "Je cherche directement quoi acheter", "scores": { "impulsif": 3 } }
+        { "label": "Je me fais un plaisir rapidement, c'est de l'argent « en plus »", "scores": { "impulsif": 2, "equilibre": 1 } },
+        { "label": "Je le dépense en partie et j'en garde une partie", "scores": { "equilibre": 3 } },
+        { "label": "Je l'intègre à mon budget comme n'importe quel autre revenu", "scores": { "reflechi": 3 } },
+        { "label": "Je le dépense assez vite, souvent sur plusieurs petites choses", "scores": { "impulsif": 3 } }
       ]
     }
   ]
