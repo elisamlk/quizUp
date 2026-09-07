@@ -2,12 +2,12 @@
   "slug": "test-depensier-ou-econome",
   "title": "Test argent - Es-tu dépensier(ère) ou économe sans le savoir ?",
   "description": "Tes réflexes du quotidien révèlent-ils un profil dépensier ou économe ?",
-  "descriptionSeo": "Analyse tes réflexes face à l’argent à travers des situations concrètes du quotidien : achats en ligne, abonnements oubliés, petites dépenses répétées ou décisions impulsives. Ce test révèle si tu es naturellement dépensier(ère), économe ou entre les deux, sans que tu t’en rendes forcément compte. Une façon simple de mieux comprendre tes habitudes financières et d’identifier ce qui influence vraiment ta manière de gérer ton argent.",
+  "descriptionSeo": "Analyse tes réflexes face à l'argent à travers des situations concrètes du quotidien : achats en ligne, abonnements oubliés, petites dépenses répétées ou décisions impulsives. Ce test révèle si tu es naturellement dépensier(ère), économe ou entre les deux, sans que tu t'en rendes forcément compte. Une façon simple de mieux comprendre tes habitudes financières et d'identifier ce qui influence vraiment ta manière de gérer ton argent — entre résistance à la tentation, arbitrage selon la valeur et attrait du plaisir immédiat.",
   "category": {
     "name": "Argent",
     "slug": "argent"
   },
-  "createdAt": "2026-04-27",
+  "createdAt": "2026-09-07",
   "isNew": true,
   "isPopular": true,
   "images": {
@@ -19,111 +19,241 @@
     {
       "key": "econome",
       "title": "Plutôt économe",
-      "description": "Tu as des réflexes d’économie très ancrés. Tu réfléchis avant d’acheter, tu limites les dépenses inutiles et tu fais attention aux détails qui font la différence sur le long terme. Tu préfères éviter les regrets plutôt que céder à l’impulsion. Ton rapport à l’argent est basé sur le contrôle et l’anticipation.",
+      "description": "Tu as des réflexes d'économie bien ancrés. Avant d'acheter, tu te demandes naturellement si ça en vaut vraiment la peine — pas par privation, mais parce que tu accordes de la valeur à ce que tu choisis. Tu résistes assez bien aux impulsions et aux tentations de surface, sans pour autant te refuser ce qui compte pour toi. Ton rapport à l'argent est guidé par une idée simple : mieux vaut dépenser pour ce qui a du sens que pour ce qui s'oublie le lendemain.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777582928/econome_nlxr2y.jpg"
     },
     {
       "key": "equilibre",
       "title": "Entre les deux",
-      "description": "Tu alternes entre raison et envie. Tu peux être très réfléchi(e) sur certaines dépenses et beaucoup plus spontané(e) sur d’autres. Tu n’es ni strictement économe, ni vraiment dépensier(ère). Ton rapport à l’argent dépend surtout du contexte et de ton état du moment.",
+      "description": "Tu arbitres selon le contexte et ce que tu accordes à un achat. Tu peux être très réfléchi(e) sur certaines dépenses et complètement spontané(e) sur d'autres — non pas par incohérence, mais parce que tu pondères différemment selon ce qui est en jeu. Tu te fais plaisir quand ça te semble justifié, et tu résistes quand ça ne l'est pas. Ton rapport à l'argent mêle raison et envie, sans que l'un écrase systématiquement l'autre.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777582927/balance_iozbo0.jpg"
     },
     {
       "key": "depensier",
       "title": "Plutôt dépensier(ère)",
-      "description": "Tu as des réflexes de dépense assez rapides. Tu peux acheter sans trop réfléchir, te laisser tenter facilement ou minimiser l’impact des petites dépenses. Tu privilégies le plaisir immédiat, ce qui peut parfois déséquilibrer ton budget sans que tu t’en rendes compte.",
+      "description": "Tu es sensible au plaisir immédiat, aux occasions et aux petits coups de cœur. Une promotion, une mauvaise journée, une envie soudaine — ces déclencheurs ont souvent plus de poids que la question du prix. Ce n'est pas de l'irresponsabilité : tu vis l'argent comme quelque chose qui permet de profiter, pas seulement de compter. Le seul point de vigilance, c'est que les dépenses s'accumulent parfois plus vite que tu ne le perçois sur le moment.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777582914/spending-money_j5gvpb.jpg"
     }
   ],
   "questions": [
     {
       "id": "1",
-      "question": "Tu remplis un panier en ligne puis tu arrives au paiement…",
+      "question": "Tu tombes sur une promotion à -40 % pour quelque chose que tu voulais depuis un moment. Quelle est ta réaction ?",
       "answers": [
-        { "label": "Je reviens en arrière pour supprimer des articles", "scores": { "econome": 3 } },
-        { "label": "Je regarde vite si ça reste raisonnable", "scores": { "equilibre": 3 } },
-        { "label": "Je valide sans trop réfléchir", "scores": { "depensier": 3 } }
+        {
+          "label": "Je commande immédiatement — c'est exactement le bon moment",
+          "scores": { "depensier": 2, "equilibre": 1 }
+        },
+        {
+          "label": "Je vérifie si j'en ai vraiment besoin maintenant, ou si c'est surtout le -40 % qui m'attire",
+          "scores": { "econome": 3 }
+        },
+        {
+          "label": "Je l'achète — je voulais cet article de toute façon, autant en profiter",
+          "scores": { "equilibre": 2, "depensier": 1 }
+        },
+        {
+          "label": "Je mets dans le panier et je laisse passer une nuit avant de décider",
+          "scores": { "econome": 2, "equilibre": 1 }
+        }
       ]
     },
     {
       "id": "2",
-      "question": "Tu oublies un abonnement mensuel que tu n’utilises plus…",
+      "question": "Tu as eu une mauvaise journée. En rentrant, tu passes devant une boutique ou tu ouvres une appli de shopping. Que se passe-t-il ?",
       "answers": [
-        { "label": "Je le résilie dès que je m’en rends compte", "scores": { "econome": 3 } },
-        { "label": "Je me dis que je vais le faire", "scores": { "equilibre": 3 } },
-        { "label": "Je laisse courir pendant des mois", "scores": { "depensier": 3 } }
+        {
+          "label": "Je rentre sans m'arrêter — une mauvaise journée ne justifie pas une dépense",
+          "scores": { "econome": 3 }
+        },
+        {
+          "label": "Je regarde, je m'accorde un petit achat si quelque chose me plaît vraiment",
+          "scores": { "equilibre": 2, "depensier": 1 }
+        },
+        {
+          "label": "Je finis souvent par acheter quelque chose — ça aide à décompresser",
+          "scores": { "depensier": 3 }
+        },
+        {
+          "label": "Je flâne, j'ajoute des trucs au panier, mais je valide rarement",
+          "scores": { "equilibre": 2, "econome": 1 }
+        }
       ]
     },
     {
       "id": "3",
-      "question": "Tu prends un café/snack à emporter…",
+      "question": "Au restaurant avec des amis, tout le monde commence à commander des extras — apéro, desserts, bouteille de vin. Tu fais quoi ?",
       "answers": [
-        { "label": "C’est occasionnel", "scores": { "econome": 3 } },
-        { "label": "Quelques fois par semaine", "scores": { "equilibre": 3 } },
-        { "label": "Presque tous les jours", "scores": { "depensier": 3 } }
+        {
+          "label": "Je suis le mouvement sans trop réfléchir au total",
+          "scores": { "depensier": 2, "equilibre": 1 }
+        },
+        {
+          "label": "Je prends ce qui me fait vraiment envie, et je passe sur le reste",
+          "scores": { "equilibre": 3 }
+        },
+        {
+          "label": "Je participe à l'ambiance, mais je garde un œil discret sur ce que j'ajoute",
+          "scores": { "econome": 2, "equilibre": 1 }
+        },
+        {
+          "label": "Je commande ce que je veux — c'est une sortie, autant en profiter pleinement",
+          "scores": { "depensier": 2, "equilibre": 1 }
+        }
       ]
     },
     {
       "id": "4",
-      "question": "Tu vois un objet sympa mais pas nécessaire…",
+      "question": "Tu remplis un panier en ligne. Au moment de passer commande, le total est plus élevé que ce que tu imaginais.",
       "answers": [
-        { "label": "Je ne l’achète pas", "scores": { "econome": 3 } },
-        { "label": "J’hésite puis parfois je craque", "scores": { "equilibre": 3 } },
-        { "label": "Je l’achète sur le moment", "scores": { "depensier": 3 } }
+        {
+          "label": "Je retire les articles les moins essentiels jusqu'à ce que le total me semble juste",
+          "scores": { "econome": 3 }
+        },
+        {
+          "label": "Je me dis que j'ai quand même besoin de tout ça, et je valide",
+          "scores": { "depensier": 2, "equilibre": 1 }
+        },
+        {
+          "label": "Je valide — j'avais envie de tout ce que j'ai mis, le total ne change pas ça",
+          "scores": { "depensier": 3 }
+        },
+        {
+          "label": "Je regarde s'il y a un ou deux articles dont je peux me passer pour le moment",
+          "scores": { "equilibre": 2, "econome": 1 }
+        }
       ]
     },
     {
       "id": "5",
-      "question": "Tu regardes ton historique de dépenses…",
+      "question": "Pour un produit dont tu as besoin, tu hésites entre une version standard correcte et une version premium nettement meilleure. La différence de prix est significative.",
       "answers": [
-        { "label": "Je l’analyse pour comprendre", "scores": { "econome": 3 } },
-        { "label": "Je jette un œil rapide", "scores": { "equilibre": 3 } },
-        { "label": "Je préfère éviter", "scores": { "depensier": 3 } }
+        {
+          "label": "Je prends le premium si je peux me le permettre — autant avoir quelque chose de bien",
+          "scores": { "depensier": 2, "equilibre": 1 }
+        },
+        {
+          "label": "Je prends le standard — la différence ne justifie pas l'écart de prix pour moi",
+          "scores": { "econome": 3 }
+        },
+        {
+          "label": "Ça dépend : je cherche à savoir si le premium vaut vraiment la différence dans mon cas précis",
+          "scores": { "equilibre": 3 }
+        },
+        {
+          "label": "Je prends le premium — si j'en ai besoin, autant le faire bien dès le départ",
+          "scores": { "equilibre": 2, "depensier": 1 }
+        }
       ]
     },
     {
       "id": "6",
-      "question": "Tu paies en sans contact plusieurs fois dans la journée…",
+      "question": "Tu reçois de l'argent inattendu — remboursement, cadeau, prime. Qu'est-ce qui se passe en premier ?",
       "answers": [
-        { "label": "Je garde une idée du total", "scores": { "econome": 3 } },
-        { "label": "Je m’en rends compte après coup", "scores": { "equilibre": 3 } },
-        { "label": "Je ne calcule pas du tout", "scores": { "depensier": 3 } }
+        {
+          "label": "Je pense directement à quelque chose que je voulais m'offrir depuis un moment",
+          "scores": { "depensier": 2, "equilibre": 1 }
+        },
+        {
+          "label": "Je le mets de côté ou je l'affecte à quelque chose d'utile",
+          "scores": { "econome": 3 }
+        },
+        {
+          "label": "Je m'accorde une petite part pour me faire plaisir et je garde le reste",
+          "scores": { "equilibre": 3 }
+        },
+        {
+          "label": "Je le dépense assez vite, en plusieurs fois, sans vraiment planifier",
+          "scores": { "depensier": 3 }
+        }
       ]
     },
     {
       "id": "7",
-      "question": "Un article est dans ton panier depuis plusieurs jours…",
+      "question": "Tu fais de petits achats répétés dans la semaine — café, snack, appli, livraison. Comment tu vis ça ?",
       "answers": [
-        { "label": "Je finis souvent par ne pas l’acheter", "scores": { "econome": 3 } },
-        { "label": "Ça dépend de mon envie", "scores": { "equilibre": 3 } },
-        { "label": "Je finis par le prendre", "scores": { "depensier": 3 } }
+        {
+          "label": "Ce sont des petits plaisirs du quotidien, je n'y pense pas vraiment en termes de budget",
+          "scores": { "depensier": 3 }
+        },
+        {
+          "label": "Je m'en rends compte parfois en fin de semaine et je me dis que ça s'accumule",
+          "scores": { "equilibre": 2, "depensier": 1 }
+        },
+        {
+          "label": "Je les laisse exister mais je veille à ce que ça ne devienne pas systématique",
+          "scores": { "equilibre": 2, "econome": 1 }
+        },
+        {
+          "label": "Je suis assez attentif à ces dépenses — c'est là que le budget glisse souvent sans qu'on s'en rende compte",
+          "scores": { "econome": 3 }
+        }
       ]
     },
     {
       "id": "8",
-      "question": "Tu dépenses un peu trop un jour…",
+      "question": "Tu vois un objet sur les réseaux sociaux qui te plaît vraiment. Tu ne l'avais pas cherché. Que se passe-t-il ?",
       "answers": [
-        { "label": "Je compense les jours suivants", "scores": { "econome": 3 } },
-        { "label": "J’y pense mais sans trop changer", "scores": { "equilibre": 3 } },
-        { "label": "Je continue normalement", "scores": { "depensier": 3 } }
+        {
+          "label": "Je clique, je commande, parfois dans la foulée",
+          "scores": { "depensier": 3 }
+        },
+        {
+          "label": "Je l'enregistre ou je le mets en favoris — si l'envie tient dans quelques jours, j'y reviens",
+          "scores": { "econome": 2, "equilibre": 1 }
+        },
+        {
+          "label": "Je regarde, j'aime l'idée, mais je passe à autre chose dans la majorité des cas",
+          "scores": { "econome": 3 }
+        },
+        {
+          "label": "Je vérifie le prix et si ça me semble raisonnable pour ce que c'est, je peux craquer",
+          "scores": { "equilibre": 2, "depensier": 1 }
+        }
       ]
     },
     {
       "id": "9",
-      "question": "Tu vois un prix légèrement plus élevé que prévu…",
+      "question": "Tu voulais cet article depuis longtemps. Tu l'as enfin acheté. Quelques jours plus tard, tu n'en es plus si sûr(e). Comment tu réagis ?",
       "answers": [
-        { "label": "Je repose l’article", "scores": { "econome": 3 } },
-        { "label": "J’hésite un peu", "scores": { "equilibre": 3 } },
-        { "label": "Ça ne change rien", "scores": { "depensier": 3 } }
+        {
+          "label": "Je cherche à le retourner ou à le revendre si c'est possible",
+          "scores": { "econome": 3 }
+        },
+        {
+          "label": "Je me dis que c'est fait, ça m'apprendra à mieux réfléchir la prochaine fois",
+          "scores": { "equilibre": 2, "econome": 1 }
+        },
+        {
+          "label": "Je me convaincs que j'en aurai besoin tôt ou tard",
+          "scores": { "depensier": 2, "equilibre": 1 }
+        },
+        {
+          "label": "Je passe à autre chose — les regrets ne servent à rien, c'est acheté",
+          "scores": { "depensier": 3 }
+        }
       ]
     },
     {
       "id": "10",
-      "question": "Tu fais un achat que tu regrettes un peu…",
+      "question": "Un article est dans ton panier en ligne depuis plusieurs jours. Tu n'as pas encore validé. Qu'est-ce qui décide ?",
       "answers": [
-        { "label": "Ça m’arrive rarement", "scores": { "econome": 3 } },
-        { "label": "Ça arrive de temps en temps", "scores": { "equilibre": 3 } },
-        { "label": "C’est assez fréquent", "scores": { "depensier": 3 } }
+        {
+          "label": "Si l'envie est toujours là et que ça me semble utile, je le prends",
+          "scores": { "equilibre": 3 }
+        },
+        {
+          "label": "Je finis généralement par valider — si je l'ai laissé là, c'est que j'en voulais vraiment",
+          "scores": { "depensier": 2, "equilibre": 1 }
+        },
+        {
+          "label": "Je le supprime souvent — l'envie est passée et c'est un bon signe que ce n'était pas indispensable",
+          "scores": { "econome": 3 }
+        },
+        {
+          "label": "Je valide si une promotion apparaît ou si je me sens d'humeur à me faire plaisir",
+          "scores": { "depensier": 3 }
+        }
       ]
     }
   ]

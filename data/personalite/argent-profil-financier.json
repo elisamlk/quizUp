@@ -2,12 +2,12 @@
   "slug": "test-profil-financier-selon-tes-habitudes",
   "title": "Test argent - Quel est ton profil financier selon tes habitudes ?",
   "description": "Tes habitudes révèlent-elles un profil prudent, dépensier ou équilibré ?",
-  "descriptionSeo": "Dépenses, économies, achats impulsifs, budget… ce test argent analyse tes habitudes financières du quotidien pour révéler ton profil financier. Découvre si tu es plutôt prudent(e), équilibré(e), dépensier(ère) ou investisseur(se) dans ta manière de gérer ton argent.",
+  "descriptionSeo": "Face à une décision financière, qu'est-ce qui guide naturellement tes choix — la sécurité, le plaisir immédiat, un compromis ou la croissance future ? Ce test révèle ton profil financier dominant à travers des situations concrètes : augmentation de salaire, argent inattendu, prise de risque, arbitrage entre plaisir et objectif, investissement, remboursement d'une dette ou vision à long terme. Découvre si tu es avant tout prudent(e), équilibré(e), orienté(e) vers le plaisir ou vers la construction de ton avenir financier.",
   "category": {
     "name": "Argent",
     "slug": "argent"
   },
-  "createdAt": "2026-04-27",
+  "createdAt": "2026-09-07",
   "isNew": true,
   "isPopular": true,
   "images": {
@@ -19,127 +19,247 @@
     {
       "key": "prudent",
       "title": "Le profil prudent",
-      "description": "Tu fais attention à ton argent et tu préfères anticiper plutôt que prendre des risques. Avant d’acheter, tu réfléchis, tu compares et tu te demandes si la dépense est vraiment utile. Tu aimes avoir une marge de sécurité et tu te sens plus serein(e) quand tes finances sont sous contrôle. Tu n’es pas forcément radin(e), mais tu évites les dépenses inutiles. Ton rapport à l’argent est basé sur la stabilité, la prévoyance et le besoin de sécurité. Cette prudence te protège, même si elle peut parfois t’empêcher de te faire plaisir spontanément.",
+      "description": "Ta priorité, c'est la sécurité. Avant de dépenser, tu veux être sûr(e) que tu as une marge, que l'imprévu est couvert et que rien ne viendra déstabiliser ta situation. Tu préfères avoir moins mais dormir tranquille. Cette prudence est une vraie force : elle t'évite bien des mauvaises surprises. Elle peut parfois te freiner face à des opportunités qui méritaient d'être saisies ou t'empêcher de profiter du présent. Mais elle construit, sur le long terme, une base financière stable et solide.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777577299/careful_wjsw89.jpg"
     },
     {
       "key": "equilibre",
       "title": "Le profil équilibré",
-      "description": "Tu as une relation plutôt saine avec l’argent. Tu sais te faire plaisir, mais tu gardes aussi une certaine maîtrise de tes dépenses. Tu n’es ni dans la privation, ni dans l’excès. Tu peux craquer de temps en temps, mais tu essaies de rester raisonnable sur l’ensemble. Tu comprends que l’argent sert à sécuriser l’avenir, mais aussi à profiter du présent. Ton équilibre vient de ta capacité à ajuster tes choix selon les situations. Tu n’es pas parfait(e), mais tu as une gestion globalement cohérente.",
+      "description": "Tu arbitres entre le présent et l'avenir. Tu te fais plaisir, tu prépares demain, et tu ajustes selon les situations — sans être rigide dans un sens ni dans l'autre. Tu n'es pas dans la privation, pas dans l'excès. Ce profil est souvent celui qui s'adapte le mieux aux imprévus, parce qu'il ne mise pas tout sur une seule logique. Sa limite peut être un manque de cap clair : à trop vouloir équilibrer, on peut parfois ne pas aller assez loin dans une direction.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776778847/balanced_e70dki.jpg"
     },
     {
       "key": "depensier",
       "title": "Le profil dépensier",
-      "description": "Tu as tendance à utiliser l’argent comme un moyen de plaisir, de confort ou de compensation. Tu peux acheter sur un coup de tête, te laisser tenter facilement ou repousser le moment de regarder tes comptes. Tu aimes profiter, vivre le moment présent et ne pas trop te limiter. Cette spontanéité peut rendre ton quotidien plus agréable, mais elle peut aussi créer du stress financier si elle n’est pas maîtrisée. Tu n’as pas forcément un mauvais rapport à l’argent, mais tu gagnerais à mieux suivre tes habitudes pour éviter les mauvaises surprises.",
+      "description": "Tu vis l'argent comme un moyen de profiter, de vivre des expériences et de te faire plaisir maintenant. L'avenir existe, mais c'est le présent qui compte le plus. Cette posture peut rendre le quotidien vraiment agréable et riche en expériences. Sa limite est que le futur arrive vite, et que sans un minimum de filet, les périodes difficiles se gèrent moins bien. Ce n'est pas un mauvais rapport à l'argent — c'est une philosophie, avec ses forces et ses angles morts.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777577452/spender_gkgxmq.jpg"
     },
     {
       "key": "investisseur",
       "title": "Le profil investisseur",
-      "description": "Tu vois l’argent comme un outil pour construire quelque chose. Tu ne dépenses pas seulement pour consommer : tu penses aussi au futur, aux opportunités et à la manière de faire grandir tes ressources. Tu peux être stratégique, curieux(se) et attentif(ve) à tes choix financiers. Tu aimes comprendre où va ton argent et comment il peut travailler pour toi. Tu es capable de différer certains plaisirs si cela sert un objectif plus grand. Ton profil est tourné vers la progression, l’optimisation et la vision à long terme.",
+      "description": "Tu penses en termes de rendement, de croissance et de valeur future. Chaque décision financière est une allocation de ressources : tu te demandes naturellement si cet argent peut travailler pour toi, produire quelque chose ou te rapprocher d'un objectif à long terme. C'est un profil très orienté vers la construction. Sa limite peut être de transformer chaque décision en calcul, de différer des plaisirs qui auraient valu la peine d'être vécus maintenant, ou d'accepter plus de risque que la situation ne le justifiait.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777577540/invest_sfe1c1.jpg"
     }
   ],
   "questions": [
     {
       "id": "1",
-      "question": "Tu reçois ton salaire ou ton argent du mois…",
+      "question": "Tu apprends que tu vas recevoir une augmentation de salaire le mois prochain. Avant même de la toucher, à quoi tu penses ?",
       "answers": [
-        { "label": "Je mets d’abord une partie de côté", "scores": { "prudent": 3 } },
-        { "label": "Je répartis entre dépenses, plaisir et économies", "scores": { "equilibre": 3 } },
-        { "label": "Je pense surtout à ce que je vais pouvoir m’acheter", "scores": { "depensier": 3 } },
-        { "label": "Je regarde comment l’utiliser pour avancer financièrement", "scores": { "investisseur": 3 } }
+        {
+          "label": "À renforcer mon épargne de précaution — j'aimerais avoir plus de marge en cas de coup dur",
+          "scores": { "prudent": 3 }
+        },
+        {
+          "label": "À placer une partie ou à la faire travailler sur quelque chose qui peut produire un rendement",
+          "scores": { "investisseur": 3 }
+        },
+        {
+          "label": "À ce que ça va changer dans mon quotidien — quelques dépenses en plus, un peu plus de confort",
+          "scores": { "depensier": 2, "equilibre": 1 }
+        },
+        {
+          "label": "À trouver comment l'utiliser à la fois pour me faire plaisir et pour avancer sur un objectif",
+          "scores": { "equilibre": 3 }
+        }
       ]
     },
     {
       "id": "2",
-      "question": "Tu vois une promo sur un produit qui te plaît…",
+      "question": "Tu reçois une prime de 800 €. Qu'est-ce qui se passe avec cet argent ?",
       "answers": [
-        { "label": "Je vérifie si j’en ai vraiment besoin", "scores": { "prudent": 3 } },
-        { "label": "Je réfléchis rapidement avant de décider", "scores": { "equilibre": 3 } },
-        { "label": "Je l’achète avant que ça parte", "scores": { "depensier": 3 } },
-        { "label": "Je me demande si cet argent serait mieux utilisé ailleurs", "scores": { "investisseur": 3 } }
+        {
+          "label": "Je la mets entièrement de côté — elle rejoint mon épargne de sécurité",
+          "scores": { "prudent": 3 }
+        },
+        {
+          "label": "Je m'offre quelque chose qui me fait vraiment envie depuis longtemps",
+          "scores": { "depensier": 3 }
+        },
+        {
+          "label": "Je l'investis ou je la place sur quelque chose qui peut croître",
+          "scores": { "investisseur": 3 }
+        },
+        {
+          "label": "J'en utilise une partie pour me faire plaisir et je place ou j'épargne le reste",
+          "scores": { "equilibre": 3 }
+        }
       ]
     },
     {
       "id": "3",
-      "question": "Ton appli bancaire affiche une dépense imprévue…",
+      "question": "Tu as de l'argent qui dort sur un compte courant depuis plusieurs mois. Il ne produit rien. Tu fais quoi ?",
       "answers": [
-        { "label": "Je vérifie immédiatement d’où ça vient", "scores": { "prudent": 3 } },
-        { "label": "Je regarde si ça impacte mon budget", "scores": { "equilibre": 3 } },
-        { "label": "Je préfère ne pas trop regarder", "scores": { "depensier": 3 } },
-        { "label": "J’analyse comment éviter ce genre de perte à l’avenir", "scores": { "investisseur": 3 } }
+        {
+          "label": "Je le laisse là — avoir de la liquidité disponible me rassure",
+          "scores": { "prudent": 2, "equilibre": 1 }
+        },
+        {
+          "label": "Je cherche où le placer pour qu'il produise quelque chose",
+          "scores": { "investisseur": 3 }
+        },
+        {
+          "label": "Je profite de cette marge pour me permettre quelques dépenses que je m'étais refusées",
+          "scores": { "depensier": 2, "equilibre": 1 }
+        },
+        {
+          "label": "J'en transfère une partie sur un livret ou une épargne, et je laisse le reste disponible",
+          "scores": { "equilibre": 2, "prudent": 1 }
+        }
       ]
     },
     {
       "id": "4",
-      "question": "Un ami propose un resto un peu cher à la dernière minute…",
+      "question": "On te propose un placement qui offre un rendement potentiellement intéressant, mais avec une part de risque réelle. Comment tu réagis ?",
       "answers": [
-        { "label": "Je refuse si ce n’était pas prévu", "scores": { "prudent": 3 } },
-        { "label": "J’accepte si mon budget le permet", "scores": { "equilibre": 3 } },
-        { "label": "J’y vais, on verra plus tard", "scores": { "depensier": 3 } },
-        { "label": "J’arbitre selon mes priorités financières du moment", "scores": { "investisseur": 3 } }
+        {
+          "label": "Je décline — je préfère un rendement faible mais garanti à un risque que je ne maîtrise pas",
+          "scores": { "prudent": 3 }
+        },
+        {
+          "label": "Je m'informe sérieusement, et si le ratio risque/rendement me semble cohérent, je peux y aller",
+          "scores": { "investisseur": 3 }
+        },
+        {
+          "label": "Je pourrais mettre une petite somme, pas plus — je ne veux pas que ça impacte mon quotidien si ça tourne mal",
+          "scores": { "equilibre": 2, "prudent": 1 }
+        },
+        {
+          "label": "Je préfère utiliser cet argent pour quelque chose qui m'apporte du plaisir maintenant plutôt que de le risquer",
+          "scores": { "depensier": 2, "prudent": 1 }
+        }
       ]
     },
     {
       "id": "5",
-      "question": "Tu veux acheter un objet assez cher…",
+      "question": "Tu dois choisir entre rembourser anticipativement une dette à faible taux ou placer cet argent sur un support qui pourrait rapporter davantage. Qu'est-ce qui l'emporte ?",
       "answers": [
-        { "label": "J’attends, je compare et je réfléchis longtemps", "scores": { "prudent": 3 } },
-        { "label": "Je me laisse un délai avant de décider", "scores": { "equilibre": 3 } },
-        { "label": "Si j’en ai envie, je le prends", "scores": { "depensier": 3 } },
-        { "label": "Je vérifie si c’est un achat utile ou rentable à long terme", "scores": { "investisseur": 3 } }
+        {
+          "label": "Je rembourse — ne plus avoir cette dette me soulage psychologiquement",
+          "scores": { "prudent": 3 }
+        },
+        {
+          "label": "Je calcule ce qui est le plus avantageux financièrement et je fais le choix le plus rentable",
+          "scores": { "investisseur": 3 }
+        },
+        {
+          "label": "Je garde l'argent disponible plutôt que de le bloquer dans un remboursement ou un placement",
+          "scores": { "depensier": 2, "equilibre": 1 }
+        },
+        {
+          "label": "Je rembourse une partie et je place le reste — je n'aime pas mettre tous mes œufs dans le même panier",
+          "scores": { "equilibre": 3 }
+        }
       ]
     },
     {
       "id": "6",
-      "question": "À la fin du mois, il reste moins que prévu sur ton compte…",
+      "question": "Tu envisages de financer une formation professionnelle qui coûte 1 200 €. Elle pourrait améliorer ta situation à terme, mais sans garantie. Tu fais quoi ?",
       "answers": [
-        { "label": "Ça me stresse beaucoup", "scores": { "prudent": 3 } },
-        { "label": "Je réajuste le mois suivant", "scores": { "equilibre": 3 } },
-        { "label": "Ça m’arrive souvent", "scores": { "depensier": 3 } },
-        { "label": "Je cherche exactement ce qui a réduit ma marge", "scores": { "investisseur": 3 } }
+        {
+          "label": "Je la finance si j'ai la somme disponible sans entamer mon épargne de sécurité",
+          "scores": { "prudent": 2, "equilibre": 1 }
+        },
+        {
+          "label": "Je l'analyse comme un investissement : est-ce que le retour probable justifie la dépense ?",
+          "scores": { "investisseur": 3 }
+        },
+        {
+          "label": "Je préfère utiliser ces 1 200 € pour autre chose — l'incertitude sur le retour me freine",
+          "scores": { "prudent": 2, "depensier": 1 }
+        },
+        {
+          "label": "Si ça m'intéresse vraiment, je la fais — c'est aussi un investissement dans mon épanouissement",
+          "scores": { "equilibre": 2, "depensier": 1 }
+        }
       ]
     },
     {
       "id": "7",
-      "question": "Tu reçois une somme d’argent inattendue…",
+      "question": "Tu as un objectif financier à 3 ans — un projet, un achat important, une sécurité. Comment tu t'y prends ?",
       "answers": [
-        { "label": "Je la mets de côté directement", "scores": { "prudent": 3 } },
-        { "label": "J’en garde une partie et je me fais un petit plaisir", "scores": { "equilibre": 3 } },
-        { "label": "Je me fais plaisir sans trop réfléchir", "scores": { "depensier": 3 } },
-        { "label": "Je cherche comment la faire fructifier", "scores": { "investisseur": 3 } }
+        {
+          "label": "Je calcule combien mettre de côté chaque mois et j'automatise — je veux être sûr(e) d'y arriver",
+          "scores": { "prudent": 2, "investisseur": 1 }
+        },
+        {
+          "label": "J'essaie de combiner épargne régulière et placements pour atteindre l'objectif plus vite",
+          "scores": { "investisseur": 3 }
+        },
+        {
+          "label": "J'ai l'objectif en tête, mais je ne veux pas trop sacrifier mon quotidien pour l'atteindre — j'avancerai selon ce qu'il me reste",
+          "scores": { "depensier": 2, "equilibre": 1 }
+        },
+        {
+          "label": "Je planifie un effort raisonnable sans que ça pèse trop sur mon quotidien actuel",
+          "scores": { "equilibre": 2, "prudent": 1 }
+        }
       ]
     },
     {
       "id": "8",
-      "question": "Quand tu fais les courses…",
+      "question": "Un placement sur lequel tu avais misé recule temporairement de 15 %. Rien n'indique que c'est durable. Comment tu réagis ?",
       "answers": [
-        { "label": "Je regarde les prix et je reste sur ma liste", "scores": { "prudent": 3 } },
-        { "label": "Je respecte globalement mon budget", "scores": { "equilibre": 3 } },
-        { "label": "Je rajoute souvent des extras", "scores": { "depensier": 3 } },
-        { "label": "Je cherche le meilleur rapport qualité/prix sur la durée", "scores": { "investisseur": 3 } }
+        {
+          "label": "Je sors du placement — je ne veux pas prendre le risque que ça continue à baisser",
+          "scores": { "prudent": 3 }
+        },
+        {
+          "label": "Je maintiens — j'avais intégré cette possibilité et mon horizon est long terme",
+          "scores": { "investisseur": 3 }
+        },
+        {
+          "label": "Je suis mal à l'aise mais je n'agis pas précipitamment — je surveille avant de décider",
+          "scores": { "equilibre": 2, "prudent": 1 }
+        },
+        {
+          "label": "Je regrette d'avoir placé cet argent plutôt que d'en avoir profité à l'époque",
+          "scores": { "depensier": 2, "equilibre": 1 }
+        }
       ]
     },
     {
       "id": "9",
-      "question": "Tu penses à ton avenir financier…",
+      "question": "Tu dois choisir entre un voyage que tu veux faire depuis longtemps et placer cette somme sur un produit d'épargne pour un objectif futur. Qu'est-ce qui l'emporte ?",
       "answers": [
-        { "label": "Je veux surtout éviter les problèmes", "scores": { "prudent": 3 } },
-        { "label": "Je veux être à l’aise sans me priver", "scores": { "equilibre": 3 } },
-        { "label": "Je préfère ne pas trop y penser", "scores": { "depensier": 3 } },
-        { "label": "Je veux construire une vraie sécurité sur le long terme", "scores": { "investisseur": 3 } }
+        {
+          "label": "Le voyage — les expériences ont plus de valeur pour moi que des intérêts sur un compte",
+          "scores": { "depensier": 3 }
+        },
+        {
+          "label": "L'épargne — je préfère sécuriser l'avenir avant de me faire plaisir",
+          "scores": { "prudent": 3 }
+        },
+        {
+          "label": "Je cherche s'il y a un moyen de financer le voyage sans sacrifier complètement l'objectif futur",
+          "scores": { "equilibre": 3 }
+        },
+        {
+          "label": "Ça dépend de l'objectif futur — si le placement peut produire davantage que ce que le voyage vaut, je reporte",
+          "scores": { "investisseur": 2, "prudent": 1 }
+        }
       ]
     },
     {
       "id": "10",
-      "question": "Avant de valider un panier en ligne…",
+      "question": "Dans cinq ans, tu voudrais que ta situation financière ressemble à quoi ?",
       "answers": [
-        { "label": "Je retire souvent des articles", "scores": { "prudent": 3 } },
-        { "label": "Je vérifie si l’achat reste raisonnable", "scores": { "equilibre": 3 } },
-        { "label": "Je valide vite pour ne pas hésiter", "scores": { "depensier": 3 } },
-        { "label": "Je me demande si cette dépense sert mes objectifs", "scores": { "investisseur": 3 } }
+        {
+          "label": "Avoir une épargne solide, aucune dette et un filet de sécurité confortable",
+          "scores": { "prudent": 3 }
+        },
+        {
+          "label": "Avoir développé des actifs, des revenus supplémentaires ou un capital qui travaille pour moi",
+          "scores": { "investisseur": 3 }
+        },
+        {
+          "label": "Avoir vécu pleinement ces cinq ans sans me priver — et être dans une situation correcte",
+          "scores": { "depensier": 2, "equilibre": 1 }
+        },
+        {
+          "label": "Avoir bien profité tout en ayant avancé sur un ou deux objectifs financiers concrets",
+          "scores": { "equilibre": 3 }
+        }
       ]
     }
   ]

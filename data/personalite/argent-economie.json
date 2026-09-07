@@ -1,13 +1,13 @@
 {
   "slug": "test-capacite-epargne",
   "title": "Test argent - Peux-tu vraiment économiser ou pas du tout ?",
-  "description": "Tes réflexes du quotidien te permettent-ils réellement d’épargner ?",
-  "descriptionSeo": "Arrondis, virements automatiques, paniers abandonnés, tentations du quotidien… ce test analyse ta capacité réelle à économiser à travers des situations précises. Découvre si tu arrives à mettre de côté naturellement, de manière irrégulière ou si c’est presque impossible pour toi.",
+  "description": "Tes réflexes du quotidien te permettent-ils réellement d'épargner ?",
+  "descriptionSeo": "Virements automatiques, objectifs d'épargne, sommes inattendues, imprévus, fins de mois serrées, argent déjà mis de côté… ce test analyse ta capacité réelle à épargner à travers des situations concrètes. Découvre si tu mets de côté naturellement et avec régularité, de manière irrégulière selon le contexte, ou si l'épargne passe encore trop souvent après le reste. Une façon de comprendre ce qui te permet — ou t'empêche — de conserver une partie de ton argent dans le temps.",
   "category": {
     "name": "Argent",
     "slug": "argent"
   },
-  "createdAt": "2026-04-27",
+  "createdAt": "2026-09-07",
   "isNew": true,
   "isPopular": true,
   "images": {
@@ -19,111 +19,241 @@
     {
       "key": "facile",
       "title": "Tu économises facilement",
-      "description": "Tu as des réflexes d’épargne très ancrés. Tu sais mettre de côté sans que cela te demande un effort constant. Tu anticipes, tu ajustes et tu trouves naturellement des moyens de préserver une partie de ton argent. Même dans les petites décisions, tu gardes une logique d’économie. Cette capacité te permet de construire une sécurité financière progressivement et sans pression excessive.",
+      "description": "Tu as des réflexes d'épargne bien installés. Tu mets de côté avec une certaine régularité, pas forcément des sommes importantes, mais de façon assez constante pour que ça s'accumule. Tu as souvent un système ou une habitude qui tourne sans que tu aies besoin d'y penser en permanence. Quand un mois est difficile, tu t'adaptes, mais tu reprends le rythme. Et l'argent déjà épargné, tu le laisses là où il est.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777583839/success_sqvuie.jpg"
     },
     {
       "key": "variable",
       "title": "Tu économises de manière irrégulière",
-      "description": "Tu arrives à économiser… mais pas tout le temps. Tes intentions sont là, mais elles dépendent beaucoup de ton contexte, de tes envies ou de ton énergie du moment. Tu peux avoir des périodes très disciplinées, puis tout relâcher. Tu n’es pas loin d’un vrai équilibre, mais il te manque surtout de la régularité dans tes habitudes.",
+      "description": "Tu sais épargner quand le contexte s'y prête — bonne période, motivation présente, mois calme. Mais ton épargne n'est pas encore suffisamment automatisée ou protégée pour tenir sur la durée. Tu peux avoir des phases très disciplinées, puis relâcher sans vraiment t'en rendre compte. L'intention est là, il te manque surtout un système qui tourne sans dépendre de ton énergie du moment.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777583938/mix_wwgjc9.jpg"
     },
     {
       "key": "difficile",
       "title": "Tu as du mal à économiser",
-      "description": "Tes habitudes rendent l’épargne difficile. Les petites dépenses s’accumulent, les décisions se prennent sur le moment et il reste peu de marge pour mettre de côté. Ce n’est pas forcément un manque de volonté, mais plutôt des réflexes qui ne favorisent pas l’économie. Revoir certains automatismes pourrait vraiment changer ta capacité à épargner.",
+      "description": "L'épargne passe souvent après le reste. Tu te dis que tu mettras de côté ce qu'il restera en fin de mois, mais la fin de mois arrive et il ne reste pas grand-chose. Ce n'est pas un manque de volonté : c'est surtout que l'épargne n'est pas encore intégrée comme un réflexe prioritaire. Parfois tu reprends aussi l'argent mis de côté quand quelque chose survient. Avec quelques automatismes simples, ça pourrait changer.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777583837/defeat_m7mjwy.jpg"
     }
   ],
   "questions": [
     {
       "id": "1",
-      "question": "Tu actives un virement automatique vers une épargne…",
+      "question": "Tu mets en place un virement automatique vers ton épargne le jour de ton salaire. Deux mois plus tard, un mois est vraiment serré. Que se passe-t-il ?",
       "answers": [
-        { "label": "Je le laisse tourner sans y toucher", "scores": { "facile": 3 } },
-        { "label": "Je le modifie ou l’arrête parfois", "scores": { "variable": 3 } },
-        { "label": "Je le désactive rapidement", "scores": { "difficile": 3 } }
+        {
+          "label": "Je le laisse tourner — je préfère me serrer la ceinture sur autre chose",
+          "scores": { "facile": 3 }
+        },
+        {
+          "label": "Je le réduis temporairement pour ce mois, et je prévois de compenser le mois suivant",
+          "scores": { "variable": 2, "facile": 1 }
+        },
+        {
+          "label": "Je le mets en pause — je verrai si je le relance quand ça ira mieux",
+          "scores": { "difficile": 2, "variable": 1 }
+        },
+        {
+          "label": "Je l'annule et je repars de zéro ensuite, quand j'aurai plus de marge",
+          "scores": { "difficile": 3 }
+        }
       ]
     },
     {
       "id": "2",
-      "question": "Ton panier en ligne reste ouvert plusieurs jours…",
+      "question": "Tu reçois une somme inattendue — remboursement, cadeau, prime. Qu'est-ce qui se passe avec cet argent ?",
       "answers": [
-        { "label": "Je finis souvent par ne rien acheter", "scores": { "facile": 3 } },
-        { "label": "Ça dépend de mon envie", "scores": { "variable": 3 } },
-        { "label": "Je reviens pour valider l’achat", "scores": { "difficile": 3 } }
+        {
+          "label": "Je le mets directement sur mon épargne avant d'avoir le temps de le dépenser",
+          "scores": { "facile": 3 }
+        },
+        {
+          "label": "J'en mets une partie de côté et je m'accorde le reste",
+          "scores": { "variable": 2, "facile": 1 }
+        },
+        {
+          "label": "Je le garde sur mon compte courant en me disant que je l'épargnerai plus tard",
+          "scores": { "difficile": 2, "variable": 1 }
+        },
+        {
+          "label": "Il finit par partir progressivement dans les dépenses courantes",
+          "scores": { "difficile": 3 }
+        }
       ]
     },
     {
       "id": "3",
-      "question": "Une app te propose d’arrondir tes paiements pour épargner…",
+      "question": "Tu t'étais fixé un objectif d'épargne sur 6 mois. Au bout de 3 mois, tu as tenu 2 fois sur 3. Comment tu vis ça ?",
       "answers": [
-        { "label": "Je trouve ça utile et je l’utilise", "scores": { "facile": 3 } },
-        { "label": "Je teste mais pas sur la durée", "scores": { "variable": 3 } },
-        { "label": "Je n’y vois pas l’intérêt", "scores": { "difficile": 3 } }
+        {
+          "label": "Je cherche à comprendre pourquoi j'ai raté un mois et j'ajuste mon système",
+          "scores": { "facile": 2, "variable": 1 }
+        },
+        {
+          "label": "Je trouve que 2 fois sur 3, c'est déjà bien — je continue comme ça",
+          "scores": { "variable": 3 }
+        },
+        {
+          "label": "Je me dis que l'objectif était peut-être trop ambitieux et je le revois à la baisse",
+          "scores": { "variable": 2, "difficile": 1 }
+        },
+        {
+          "label": "Je perds un peu de motivation — si ce n'est pas régulier, ça ne sert à rien de continuer",
+          "scores": { "difficile": 2, "variable": 1 }
+        }
       ]
     },
     {
       "id": "4",
-      "question": "Tu hésites entre deux versions d’un produit (une moins chère)…",
+      "question": "Tu as de l'argent de côté depuis plusieurs mois. Une occasion tentante se présente — week-end improvisé, achat plaisir, événement avec des amis. Que fais-tu ?",
       "answers": [
-        { "label": "Je prends la moins chère sans hésiter", "scores": { "facile": 3 } },
-        { "label": "Je compare un peu", "scores": { "variable": 3 } },
-        { "label": "Je prends celle qui me fait le plus envie", "scores": { "difficile": 3 } }
+        {
+          "label": "Je puise dans mon épargne sans trop hésiter — elle est là pour profiter aussi",
+          "scores": { "difficile": 2, "variable": 1 }
+        },
+        {
+          "label": "Je cherche d'abord à financer ça sans toucher à ce que j'ai mis de côté",
+          "scores": { "facile": 3 }
+        },
+        {
+          "label": "Je prends une partie de mon épargne, en me disant que je la reconstituera le mois prochain",
+          "scores": { "variable": 3 }
+        },
+        {
+          "label": "Je vérifie si j'ai une marge sur mon compte courant avant d'envisager de toucher à mon épargne",
+          "scores": { "facile": 2, "variable": 1 }
+        }
       ]
     },
     {
       "id": "5",
-      "question": "Tu reçois une notification de paiement réussi…",
+      "question": "Tu n'as rien épargné depuis deux mois. Tu décides de reprendre. Par quoi tu commences ?",
       "answers": [
-        { "label": "Je note mentalement l’impact", "scores": { "facile": 3 } },
-        { "label": "Je regarde vite fait", "scores": { "variable": 3 } },
-        { "label": "Je swipe sans regarder", "scores": { "difficile": 3 } }
+        {
+          "label": "Je remets en place un virement automatique dès le prochain salaire",
+          "scores": { "facile": 3 }
+        },
+        {
+          "label": "Je me fixe un objectif de montant pour ce mois et je m'y tiens si possible",
+          "scores": { "variable": 2, "facile": 1 }
+        },
+        {
+          "label": "Je me dis que je mettrai de côté ce qu'il restera une fois les dépenses passées",
+          "scores": { "difficile": 2, "variable": 1 }
+        },
+        {
+          "label": "Je reporte au mois suivant — ce mois-ci est déjà bien entamé",
+          "scores": { "difficile": 3 }
+        }
       ]
     },
     {
       "id": "6",
-      "question": "Tu annules un achat après réflexion…",
+      "question": "Ton salaire vient de tomber. Il reste encore quelques jours avant la fin du mois. Qu'est-ce qui se passe avec cette marge ?",
       "answers": [
-        { "label": "Ça m’arrive souvent", "scores": { "facile": 3 } },
-        { "label": "Parfois", "scores": { "variable": 3 } },
-        { "label": "Très rarement", "scores": { "difficile": 3 } }
+        {
+          "label": "Je la transfère sur mon épargne avant de la voir disparaître en dépenses courantes",
+          "scores": { "facile": 3 }
+        },
+        {
+          "label": "Je la laisse sur le compte — si le mois se passe bien, je verrai ce que je mets de côté",
+          "scores": { "difficile": 2, "variable": 1 }
+        },
+        {
+          "label": "Je m'en sers pour avancer des dépenses prévues ou pour me faire plaisir sur quelque chose",
+          "scores": { "difficile": 3 }
+        },
+        {
+          "label": "J'en mets une partie de côté et je laisse le reste pour finir le mois sereinement",
+          "scores": { "variable": 2, "facile": 1 }
+        }
       ]
     },
     {
       "id": "7",
-      "question": "Tu vois plusieurs petites dépenses sur 2-3 jours…",
+      "question": "Tu apprends que tu vas avoir une augmentation ou un revenu supplémentaire régulier. Qu'est-ce que tu fais avec ce surplus ?",
       "answers": [
-        { "label": "Je ralentis immédiatement", "scores": { "facile": 3 } },
-        { "label": "Je fais un peu attention ensuite", "scores": { "variable": 3 } },
-        { "label": "Je ne change rien", "scores": { "difficile": 3 } }
+        {
+          "label": "Je décide d'en épargner une partie fixe avant même de le toucher",
+          "scores": { "facile": 3 }
+        },
+        {
+          "label": "Je l'intègre dans mon budget et je verrai si j'arrive à en épargner une partie",
+          "scores": { "variable": 2, "difficile": 1 }
+        },
+        {
+          "label": "Je profite d'abord de cette marge supplémentaire, l'épargne attendra que la situation soit plus stable",
+          "scores": { "difficile": 2, "variable": 1 }
+        },
+        {
+          "label": "Je me fixe un objectif concret pour ce revenu en plus — une somme à atteindre d'ici quelques mois",
+          "scores": { "facile": 2, "variable": 1 }
+        }
       ]
     },
     {
       "id": "8",
-      "question": "Tu compares deux prix pour le même produit…",
+      "question": "Tu as épargné régulièrement pendant 4 mois. Puis un événement perturbe tout. Plusieurs semaines passent sans que tu mettes quoi que ce soit de côté. Comment tu réagis ?",
       "answers": [
-        { "label": "Je prends toujours le meilleur prix", "scores": { "facile": 3 } },
-        { "label": "Je regarde mais pas toujours", "scores": { "variable": 3 } },
-        { "label": "Je ne compare presque jamais", "scores": { "difficile": 3 } }
+        {
+          "label": "Je reprends dès que la situation se stabilise — une parenthèse ne remet pas tout en cause",
+          "scores": { "facile": 3 }
+        },
+        {
+          "label": "Je reprends progressivement, en commençant par un montant plus petit que d'habitude",
+          "scores": { "variable": 2, "facile": 1 }
+        },
+        {
+          "label": "Je me dis que j'attendrai d'avoir une vraie marge avant de relancer l'épargne",
+          "scores": { "difficile": 2, "variable": 1 }
+        },
+        {
+          "label": "Je perds le fil — il faut vraiment que les conditions soient bonnes pour que je tienne dans le temps",
+          "scores": { "difficile": 3 }
+        }
       ]
     },
     {
       "id": "9",
-      "question": "Tu reçois une offre “dernière chance -24h”…",
+      "question": "Tu te fixes un objectif d'épargne concret — un voyage, un projet, une sécurité. Comment tu t'organises ?",
       "answers": [
-        { "label": "Je laisse passer sans regret", "scores": { "facile": 3 } },
-        { "label": "Je réfléchis rapidement", "scores": { "variable": 3 } },
-        { "label": "Ça me pousse à acheter", "scores": { "difficile": 3 } }
+        {
+          "label": "Je calcule combien je dois mettre de côté chaque mois et j'automatise",
+          "scores": { "facile": 3 }
+        },
+        {
+          "label": "Je garde l'objectif en tête et j'épargne quand j'ai de la marge",
+          "scores": { "variable": 3 }
+        },
+        {
+          "label": "Je commence motivé, puis la rigueur s'érode au bout de quelques semaines",
+          "scores": { "variable": 2, "difficile": 1 }
+        },
+        {
+          "label": "Je repousse souvent le démarrage — je préfère commencer quand ma situation sera plus claire",
+          "scores": { "difficile": 3 }
+        }
       ]
     },
     {
       "id": "10",
-      "question": "Tu te fixes un objectif d’épargne…",
+      "question": "Tu viens de passer un mois plus dépensier que prévu. Le mois suivant, tu veux te rattraper sur l'épargne. Que se passe-t-il concrètement ?",
       "answers": [
-        { "label": "Je mets en place un système pour y arriver", "scores": { "facile": 3 } },
-        { "label": "J’essaie mais sans méthode", "scores": { "variable": 3 } },
-        { "label": "Je compte sur le hasard", "scores": { "difficile": 3 } }
+        {
+          "label": "J'identifie ce que je peux réduire pour compenser et je le fais vraiment",
+          "scores": { "facile": 3 }
+        },
+        {
+          "label": "J'essaie d'être plus raisonnable dans mes dépenses, sans plan précis",
+          "scores": { "variable": 2, "facile": 1 }
+        },
+        {
+          "label": "Je me dis que ça se rattrapera naturellement, mais en pratique je ne change pas grand-chose",
+          "scores": { "difficile": 2, "variable": 1 }
+        },
+        {
+          "label": "Je laisse tomber l'idée de rattraper : j'épargnerai de nouveau quand il restera naturellement quelque chose",
+          "scores": { "difficile": 3 }
+        }
       ]
     }
   ]

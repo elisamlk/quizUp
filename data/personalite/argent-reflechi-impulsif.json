@@ -2,7 +2,7 @@
   "slug": "test-depenses-reflechi-ou-impulsif",
   "title": "Test argent - Tes dépenses disent si tu es réfléchi(e)… ou impulsif(ve)",
   "description": "Tes réflexes d'achat révèlent-ils un vrai contrôle ou de l'impulsion ?",
-  "descriptionSeo": "Scroll tardif, notifications de stock limité, promotions flash, paiement sans contact, paniers abandonnés… tes micro-comportements d'achat en disent plus que tu ne le crois. Ce test analyse 10 situations concrètes du quotidien pour révéler si tu es plutôt réfléchi(e), impulsif(ve) ou quelque part entre les deux — sans que tu t'en rendes forcément compte. Résultat immédiat avec une analyse de ton profil de dépenses.",
+  "descriptionSeo": "Scroll tardif, notifications de stock limité, promotions flash, paniers abandonnés, achat imprévu au moment de payer… tes micro-comportements d'achat en disent plus que tu ne le crois. Ce test analyse 10 situations concrètes du quotidien pour révéler si tu es plutôt réfléchi(e), impulsif(ve) ou quelque part entre les deux — sans que tu t'en rendes forcément compte. Résultat immédiat avec une analyse de ton profil de dépenses.",
   "category": {
     "name": "Argent",
     "slug": "argent"
@@ -25,7 +25,7 @@
     {
       "key": "equilibre",
       "title": "Entre contrôle et impulsion",
-      "description": "Tu oscilles selon les contextes. Certaines situations te laissent totalement froid(e), d'autres font craquer ta vigilance plus facilement. Tu n'es ni systématiquement rationnel(le) ni constamment dans l'excès. Ton comportement dépend beaucoup de ton humeur, du moment et du type d'achat. Ta force : tu t'adaptes. Ta limite : cette variabilité peut rendre ton budget difficile à anticiper.",
+      "description": "Tu oscilles selon les contextes. Certaines situations te laissent totalement froid(e), d'autres font craquer ta vigilance plus facilement. Tu n'es ni systématiquement rationnel(le) ni constamment dans l'excès. Ton comportement dépend beaucoup de ton humeur, du moment et du type d'achat. Ta force : tu t'adaptes. Ta limite : selon le contexte, une envie peut parfois prendre le dessus avant que tu aies vraiment décidé si l'achat en valait la peine.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777577299/careful_wjsw89.jpg"
     },
     {
@@ -58,12 +58,24 @@
     },
     {
       "id": "3",
-      "question": "Tu paies en sans-contact plusieurs fois de suite dans la même journée…",
+      "question": "Tu passes devant un rayon et tu tombes sur un produit à 35 € que tu n'avais pas prévu d'acheter, mais qui t'attire vraiment. Que se passe-t-il ?",
       "answers": [
-        { "label": "Je ne réalise les montants qu'en regardant mon solde le soir", "scores": { "impulsif": 3 } },
-        { "label": "Je garde un suivi mental approximatif de ce que je dépense", "scores": { "equilibre": 2, "impulsif": 1 } },
-        { "label": "Je note ou je surveille en temps réel", "scores": { "reflechi": 3 } },
-        { "label": "Je sais à peu près où j'en suis, sans être à l'euro près", "scores": { "equilibre": 2, "reflechi": 1 } }
+        {
+          "label": "Je l'achète — c'est accessible et j'en ai envie maintenant",
+          "scores": { "impulsif": 3 }
+        },
+        {
+          "label": "Je le prends en photo ou je note la référence, et je décide demain si l'envie tient",
+          "scores": { "reflechi": 3 }
+        },
+        {
+          "label": "Je vérifie rapidement si j'en ai déjà un équivalent ou si ça me sera vraiment utile, puis je décide",
+          "scores": { "reflechi": 2, "equilibre": 1 }
+        },
+        {
+          "label": "Je peux l'acheter sur le moment ou repartir sans — ça dépend de mon humeur",
+          "scores": { "equilibre": 2, "impulsif": 1 }
+        }
       ]
     },
     {
@@ -100,7 +112,7 @@
       "id": "7",
       "question": "Tu es de bonne humeur, tu as bien fini ta semaine. Tu passes devant un magasin…",
       "answers": [
-        { "label": "Je rentre juste « regarder » et je repars souvent avec quelque chose", "scores": { "impulsif": 2, "equilibre": 1 } },
+        { "label": "Je rentre juste « regarder » et je repars souvent avec quelque chose", "scores": { "impulsif": 3 } },
         { "label": "Je peux avoir envie de quelque chose, mais je préfère attendre avant de décider", "scores": { "reflechi": 2, "equilibre": 1 } },
         { "label": "Je m'autorise un petit plaisir, c'est ponctuel", "scores": { "equilibre": 2, "impulsif": 1 } },
         { "label": "Je peux entrer regarder, mais je repars facilement sans rien acheter", "scores": { "reflechi": 2, "equilibre": 1 } }
@@ -128,12 +140,24 @@
     },
     {
       "id": "10",
-      "question": "Tu reçois de l'argent inattendu — remboursement, cadeau, prime…",
+      "question": "Tu as très envie d'un produit depuis quelques minutes. Tu es sur le point de payer. Qu'est-ce qui pourrait encore te faire changer d'avis ?",
       "answers": [
-        { "label": "Je me fais un plaisir rapidement, c'est de l'argent « en plus »", "scores": { "impulsif": 2, "equilibre": 1 } },
-        { "label": "Je le dépense en partie et j'en garde une partie", "scores": { "equilibre": 3 } },
-        { "label": "Je l'intègre à mon budget comme n'importe quel autre revenu", "scores": { "reflechi": 3 } },
-        { "label": "Je le dépense assez vite, souvent sur plusieurs petites choses", "scores": { "impulsif": 3 } }
+        {
+          "label": "Rien ou presque — à ce stade, ma décision est déjà prise",
+          "scores": { "impulsif": 3 }
+        },
+        {
+          "label": "Réaliser que j'en ai déjà un similaire, ou que l'utilité est vraiment discutable",
+          "scores": { "reflechi": 3 }
+        },
+        {
+          "label": "Un prix plus élevé que prévu, ou des frais supplémentaires qui font monter le total",
+          "scores": { "equilibre": 2, "reflechi": 1 }
+        },
+        {
+          "label": "Une hésitation de dernière minute que je n'arrive pas toujours à expliquer — parfois je valide, parfois non",
+          "scores": { "equilibre": 2, "impulsif": 1 }
+        }
       ]
     }
   ]

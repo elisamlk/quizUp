@@ -1,13 +1,13 @@
 {
   "slug": "test-rapport-argent-sain",
-  "title": "Test argent - Ton rapport à l’argent est-il sain ?",
-  "description": "Ta relation à l’argent est-elle équilibrée ou source de stress ?",
-  "descriptionSeo": "Stress, contrôle, dépenses, peur de manquer… ce test analyse ton rapport à l’argent à travers des situations concrètes. Découvre si ta relation à l’argent est saine, déséquilibrée ou sous tension.",
+  "title": "Test argent - Ton rapport à l'argent est-il sain ?",
+  "description": "Ta relation à l'argent est-elle équilibrée ou source de stress ?",
+  "descriptionSeo": "Peur de manquer, culpabilité après une dépense, besoin de contrôle, évitement des conversations financières, difficulté à profiter sans stress… ce test analyse ta relation émotionnelle à l'argent à travers des situations concrètes du quotidien. Découvre si ton rapport semble plutôt apaisé, souvent sous tension ou marqué par l'évitement. Sans jugement sur ta façon de gérer ou ton niveau de dépenses : on mesure uniquement ce que l'argent provoque en toi.",
   "category": {
     "name": "Argent",
     "slug": "argent"
   },
-  "createdAt": "2026-04-27",
+  "createdAt": "2026-09-07",
   "isNew": true,
   "isPopular": true,
   "images": {
@@ -18,112 +18,242 @@
   "profiles": [
     {
       "key": "sain",
-      "title": "Rapport sain",
-      "description": "Tu as une relation équilibrée avec l’argent. Tu arrives à en profiter sans culpabilité tout en gardant une certaine maîtrise. Tu n’es ni dans l’excès de contrôle, ni dans le lâcher-prise total. L’argent est pour toi un outil, pas une source constante de stress. Tu sais gérer, anticiper et t’adapter sans te mettre une pression excessive. Cette stabilité te permet d’être à la fois serein(e) et responsable dans tes choix financiers.",
+      "title": "Rapport plutôt apaisé",
+      "description": "Ton rapport à l'argent semble globalement serein. Tu peux regarder ta situation en face, prendre des décisions sans te paralyser et dépenser raisonnablement sans culpabilité disproportionnée. Quand une erreur arrive, tu la gères et tu passes à autre chose. L'argent n'occupe pas un espace émotionnel envahissant dans ta tête. Ce n'est pas que tu n'aies jamais de stress financier — c'est que tu ne te laisses pas dominer par lui. C'est une forme de liberté mentale assez précieuse.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777581575/healthy-money_vxwhqv.jpg"
     },
     {
       "key": "tendu",
-      "title": "Rapport sous tension",
-      "description": "Ton rapport à l’argent est chargé émotionnellement. Tu peux ressentir du stress, de la peur ou une pression liée à tes finances. Tu fais attention, parfois beaucoup, mais cela peut te peser mentalement. L’argent peut être une source d’inquiétude ou de contrôle. Tu n’es pas dans un déséquilibre extrême, mais ta relation à l’argent n’est pas totalement apaisée.",
+      "title": "Rapport souvent sous tension",
+      "description": "L'argent occupe beaucoup d'espace émotionnel dans ta vie. Tu peux vérifier tes comptes plusieurs fois sans que ça te rassure vraiment, culpabiliser après une dépense pourtant raisonnable, avoir du mal à profiter sans penser aux conséquences ou craindre que la situation se dégrade même quand elle est stable. Ce rapport tendu peut venir de nombreux endroits différents. Il ne dit rien de ta façon de gérer ton argent — juste que la relation est chargée, et qu'elle te coûte de l'énergie.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777581576/money-tension_fhwqma.jpg"
     },
     {
-      "key": "desorganise",
-      "title": "Rapport désorganisé",
-      "description": "Tu as tendance à éviter ou à ne pas vraiment structurer ta relation à l’argent. Tu peux dépenser sans trop suivre, repousser la gestion ou ne pas vraiment savoir où tu en es. L’argent n’est pas forcément une source de stress constant, mais plutôt quelque chose que tu gères au jour le jour. Ce manque de cadre peut créer des déséquilibres sans que tu t’en rendes compte immédiatement.",
+      "key": "evitement",
+      "title": "Rapport marqué par l'évitement",
+      "description": "Face à l'argent, ta réaction naturelle est souvent de repousser, de ne pas regarder ou de remettre à plus tard. Pas forcément parce que la situation est mauvaise — mais parce que le sujet génère un inconfort que tu préfères esquiver. Un courrier laissé de côté, une conversation reportée, une décision remise au lendemain. L'évitement protège à court terme, mais il laisse aussi les situations se compliquer sans qu'on s'en rende compte. Ce n'est pas un manque de volonté : c'est souvent une façon d'éviter une tension que l'on ne sait pas toujours nommer.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777581577/desorganize_hbhlkn.jpg"
     }
   ],
   "questions": [
     {
       "id": "1",
-      "question": "Tu ouvres ton appli bancaire sans raison précise…",
+      "question": "Tu viens de passer une semaine avec pas mal de dépenses — sorties, courses, quelques achats. Tu ouvres ton application bancaire pour voir où tu en es. Quelle est ta réaction intérieure ?",
       "answers": [
-        { "label": "Juste pour vérifier, sans stress", "scores": { "sain": 3 } },
-        { "label": "Avec une petite tension", "scores": { "tendu": 3 } },
-        { "label": "J’évite de regarder", "scores": { "desorganise": 3 } }
+        {
+          "label": "Une légère appréhension avant de regarder, puis je fais le point calmement",
+          "scores": { "sain": 2, "tendu": 1 }
+        },
+        {
+          "label": "Je reporte — je préfère ne pas regarder maintenant, je verrai ça plus tard",
+          "scores": { "evitement": 3 }
+        },
+        {
+          "label": "Je regarde, et même si le total me surprend un peu, je passe à autre chose",
+          "scores": { "sain": 3 }
+        },
+        {
+          "label": "Une tension que je ressens avant même d'avoir ouvert l'appli",
+          "scores": { "tendu": 3 }
+        }
       ]
     },
     {
       "id": "2",
-      "question": "Tu fais un achat un peu impulsif…",
+      "question": "Tu as acheté quelque chose que tu pouvais raisonnablement te permettre, mais qui n'était pas nécessaire. Le lendemain, tu y repenses. Comment tu vis ça ?",
       "answers": [
-        { "label": "Je relativise", "scores": { "sain": 3 } },
-        { "label": "Je culpabilise", "scores": { "tendu": 3 } },
-        { "label": "Ça m’arrive souvent", "scores": { "desorganise": 3 } }
+        {
+          "label": "J'y repense plusieurs fois — j'aurais peut-être dû m'en passer",
+          "scores": { "tendu": 3 }
+        },
+        {
+          "label": "Je me dis que c'est fait, que ça rentrait dans ce que je pouvais me permettre, et je passe à autre chose",
+          "scores": { "sain": 3 }
+        },
+        {
+          "label": "Je n'y repense pas vraiment — ces décisions, je les prends et je les oublie assez vite",
+          "scores": { "evitement": 2, "sain": 1 }
+        },
+        {
+          "label": "Un peu de satisfaction, mais aussi une petite voix qui me demande si c'était vraiment une bonne idée",
+          "scores": { "tendu": 2, "sain": 1 }
+        }
       ]
     },
     {
       "id": "3",
-      "question": "Tu dois payer une dépense imprévue…",
+      "question": "Une facture plus élevée que prévu arrive dans ta boîte mail — pas catastrophique, mais inattendue. Quelle est ta première réaction ?",
       "answers": [
-        { "label": "Je gère sans panique", "scores": { "sain": 3 } },
-        { "label": "Ça me stresse", "scores": { "tendu": 3 } },
-        { "label": "Je n’avais pas anticipé", "scores": { "desorganise": 3 } }
+        {
+          "label": "Je l'ouvre, je vois ce que c'est et je règle ou planifie le paiement",
+          "scores": { "sain": 3 }
+        },
+        {
+          "label": "Je la laisse non ouverte quelques jours — j'y reviendrai quand je serai prêt(e)",
+          "scores": { "evitement": 3 }
+        },
+        {
+          "label": "Je l'ouvre immédiatement mais ça génère une tension que je ressens le reste de la journée",
+          "scores": { "tendu": 3 }
+        },
+        {
+          "label": "Je la vois, je la marque pour plus tard, et j'y reviens dans les jours suivants",
+          "scores": { "evitement": 2, "sain": 1 }
+        }
       ]
     },
     {
       "id": "4",
-      "question": "Quand tu penses à ton argent…",
+      "question": "Tu vas partager les frais d'un week-end avec des amis — locations, repas, activités. Il faut se mettre d'accord sur un budget commun. Comment tu vis cette conversation ?",
       "answers": [
-        { "label": "C’est assez neutre", "scores": { "sain": 3 } },
-        { "label": "Ça me met une pression", "scores": { "tendu": 3 } },
-        { "label": "Je préfère ne pas y penser", "scores": { "desorganise": 3 } }
+        {
+          "label": "Je participe normalement — c'est une conversation comme une autre",
+          "scores": { "sain": 3 }
+        },
+        {
+          "label": "Je préfère que quelqu'un d'autre s'en charge et je m'aligne sur ce qui est décidé",
+          "scores": { "evitement": 2, "sain": 1 }
+        },
+        {
+          "label": "Je la vis bien, même si j'espère que mon budget sera compatible avec celui du groupe",
+          "scores": { "sain": 2, "tendu": 1 }
+        },
+        {
+          "label": "Ça me met un peu mal à l'aise — parler d'argent avec des amis, c'est toujours un peu délicat pour moi",
+          "scores": { "tendu": 2, "evitement": 1 }
+        }
       ]
     },
     {
       "id": "5",
-      "question": "À la fin du mois…",
+      "question": "Tu réalises que tu as fait une petite erreur financière — un oubli, un double paiement, un abonnement que tu n'avais pas résilié à temps. Ça te coûte une vingtaine d'euros. Comment tu réagis ?",
       "answers": [
-        { "label": "Je sais globalement où j’en suis", "scores": { "sain": 3 } },
-        { "label": "Je vérifie souvent", "scores": { "tendu": 3 } },
-        { "label": "Je découvre parfois la situation", "scores": { "desorganise": 3 } }
+        {
+          "label": "Je me reproche d'avoir été négligent(e) — ce genre de chose me reste en tête",
+          "scores": { "tendu": 3 }
+        },
+        {
+          "label": "Je règle le problème et j'essaie d'éviter que ça se reproduise, sans y revenir après",
+          "scores": { "sain": 3 }
+        },
+        {
+          "label": "Je le note mais je n'y accorde pas trop d'importance — ça arrive à tout le monde",
+          "scores": { "sain": 2, "evitement": 1 }
+        },
+        {
+          "label": "Je sais qu'il faudrait m'en occuper, mais je repousse un peu — revenir sur l'erreur m'agace ou me met mal à l'aise",
+          "scores": { "evitement": 2, "tendu": 1 }
+        }
       ]
     },
     {
       "id": "6",
-      "question": "Tu te fais plaisir avec ton argent…",
+      "question": "Tu apprends qu'un collègue ou un ami gagne nettement plus que toi. Quelle est ta réaction spontanée ?",
       "answers": [
-        { "label": "Sans culpabiliser", "scores": { "sain": 3 } },
-        { "label": "Avec une hésitation", "scores": { "tendu": 3 } },
-        { "label": "Souvent sans réfléchir", "scores": { "desorganise": 3 } }
+        {
+          "label": "Une légère piqûre, puis je me concentre sur ce que je peux faire pour améliorer ma propre situation",
+          "scores": { "sain": 3 }
+        },
+        {
+          "label": "Ça me fait réfléchir à ma propre situation et me demander si je fais assez",
+          "scores": { "tendu": 2, "sain": 1 }
+        },
+        {
+          "label": "Je préfère ne pas trop y penser — comparer me met dans un état que j'essaie d'éviter",
+          "scores": { "evitement": 3 }
+        },
+        {
+          "label": "Je ressens une forme d'injustice ou d'inquiétude sur ma propre trajectoire",
+          "scores": { "tendu": 3 }
+        }
       ]
     },
     {
       "id": "7",
-      "question": "Tu dois parler d’argent avec quelqu’un…",
+      "question": "Tu planifies une sortie ou un week-end que tu t'accordes volontairement, dans tes moyens. Comment tu vis le moment de dépenser cet argent ?",
       "answers": [
-        { "label": "Je suis à l’aise", "scores": { "sain": 3 } },
-        { "label": "Ça me met mal à l’aise", "scores": { "tendu": 3 } },
-        { "label": "Je préfère éviter", "scores": { "desorganise": 3 } }
+        {
+          "label": "Pleinement — c'est une dépense choisie et j'en profite sans arrière-pensée",
+          "scores": { "sain": 3 }
+        },
+        {
+          "label": "Avec un fond de pensée sur ce que ça va représenter sur mon budget",
+          "scores": { "tendu": 2, "sain": 1 }
+        },
+        {
+          "label": "Je profite, mais j'évite de calculer le total pendant — je ferai le point après",
+          "scores": { "evitement": 2, "sain": 1 }
+        },
+        {
+          "label": "Avec une légère culpabilité que je n'arrive pas tout à fait à mettre de côté",
+          "scores": { "tendu": 3 }
+        }
       ]
     },
     {
       "id": "8",
-      "question": "Une dépense importante arrive…",
+      "question": "Il t'arrive de penser à l'argent au mauvais moment — avant de dormir, pendant une conversation, au milieu d'un moment agréable. À quelle fréquence ?",
       "answers": [
-        { "label": "Je réfléchis calmement", "scores": { "sain": 3 } },
-        { "label": "Je stresse un peu", "scores": { "tendu": 3 } },
-        { "label": "Je décide sur le moment", "scores": { "desorganise": 3 } }
+        {
+          "label": "Assez souvent — ces pensées s'invitent même quand la situation n'est pas particulièrement tendue",
+          "scores": { "tendu": 3 }
+        },
+        {
+          "label": "Rarement — l'argent prend de la place dans ma tête surtout quand quelque chose de concret l'y amène",
+          "scores": { "sain": 3 }
+        },
+        {
+          "label": "Je ne le remarque pas vraiment — je ne suis pas sûr(e) de faire le lien entre ce que je ressens et l'argent",
+          "scores": { "evitement": 2, "sain": 1 }
+        },
+        {
+          "label": "De temps en temps — surtout en fin de mois ou quand une dépense importante approche",
+          "scores": { "sain": 2, "tendu": 1 }
+        }
       ]
     },
     {
       "id": "9",
-      "question": "Ton rapport global à l’argent…",
+      "question": "Ton épargne recule un mois — pas une catastrophe, juste moins que ce que tu espérais. Quelle est ta réaction ?",
       "answers": [
-        { "label": "Équilibré", "scores": { "sain": 3 } },
-        { "label": "Sous tension", "scores": { "tendu": 3 } },
-        { "label": "Flou", "scores": { "desorganise": 3 } }
+        {
+          "label": "Je l'accepte — les mois ne se ressemblent pas, et ça repartira",
+          "scores": { "sain": 3 }
+        },
+        {
+          "label": "Ça me préoccupe davantage que ce que la situation justifie réellement",
+          "scores": { "tendu": 3 }
+        },
+        {
+          "label": "Je le vois, je me dis que je regarderai ça plus attentivement le mois prochain, et je passe à autre chose",
+          "scores": { "evitement": 2, "sain": 1 }
+        },
+        {
+          "label": "Une légère déception, puis je regarde ce qui a changé ce mois-ci pour ajuster si nécessaire",
+          "scores": { "sain": 2, "tendu": 1 }
+        }
       ]
     },
     {
       "id": "10",
-      "question": "Après une dépense importante…",
+      "question": "Tu dois prendre une décision financière un peu importante — pas urgente, mais qui mérite réflexion. Comment tu t'y prends ?",
       "answers": [
-        { "label": "Je passe à autre chose", "scores": { "sain": 3 } },
-        { "label": "J’y repense plusieurs fois", "scores": { "tendu": 3 } },
-        { "label": "Je ne fais pas vraiment attention", "scores": { "desorganise": 3 } }
+        {
+          "label": "Je reporte la décision jusqu'à ce que je me sente vraiment prêt(e) — parfois longtemps",
+          "scores": { "evitement": 3 }
+        },
+        {
+          "label": "Je rassemble les informations dont j'ai besoin et je tranche dans un délai raisonnable",
+          "scores": { "sain": 3 }
+        },
+        {
+          "label": "Je réfléchis beaucoup, je pèse le pour et le contre plusieurs fois, et la décision me pèse même après",
+          "scores": { "tendu": 3 }
+        },
+        {
+          "label": "Je regarde globalement et je décide assez vite — approfondir ne me semble pas changer grand-chose",
+          "scores": { "evitement": 2, "sain": 1 }
+        }
       ]
     }
   ]

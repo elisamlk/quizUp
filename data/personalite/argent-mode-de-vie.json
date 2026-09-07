@@ -1,13 +1,13 @@
 {
   "slug": "test-mode-de-vie-perte-argent",
-  "title": "Test argent - Ton mode de vie te fait-il perdre de l’argent sans t’en rendre compte ?",
+  "title": "Test argent - Ton mode de vie te fait-il perdre de l'argent sans t'en rendre compte ?",
   "description": "Tes habitudes quotidiennes te coûtent-elles plus que tu ne le penses ?",
-  "descriptionSeo": "Abonnements oubliés, achats rapides, dépenses de confort ou petites habitudes du quotidien… ce test t’aide à repérer les fuites d’argent invisibles liées à ton mode de vie. À travers des situations concrètes, découvre si tu maîtrises vraiment tes dépenses ou si certaines habitudes te coûtent plus que tu ne le penses. Une manière simple d’identifier ce qui impacte ton budget sans t’en rendre compte.",
+  "descriptionSeo": "Abonnements inutilisés, renouvellements automatiques oubliés, frais de livraison répétés, services redondants, dépenses de confort et frais évitables… ce test t'aide à repérer les fuites d'argent invisibles liées à ton mode de vie. À travers des situations concrètes, découvre si tu détectes et élimines ces surcoûts, si tu en laisses passer quelques-uns par inertie ou si certaines habitudes te font régulièrement payer plus que nécessaire sans t'en rendre compte.",
   "category": {
     "name": "Argent",
     "slug": "argent"
   },
-  "createdAt": "2026-04-27",
+  "createdAt": "2026-09-07",
   "isNew": true,
   "isPopular": true,
   "images": {
@@ -19,111 +19,241 @@
     {
       "key": "maitrise",
       "title": "Tu maîtrises tes dépenses",
-      "description": "Ton mode de vie est plutôt optimisé. Tu fais attention aux petites dépenses et tu évites les pertes invisibles. Tu as des réflexes qui te permettent de garder le contrôle sans forcément être strict(e). Tu sais où part ton argent et tu limites les fuites inutiles. Cette maîtrise te permet de garder un budget plus équilibré sur le long terme.",
+      "description": "Ton mode de vie génère peu de surcoûts invisibles. Tu détectes assez naturellement les abonnements devenus inutiles, les renouvellements automatiques qui traînent ou les frais évitables qui s'accumulent. Ça ne signifie pas que tu choisis toujours l'option la moins chère : quand tu paies plus pour du confort, c'est un choix conscient, pas une fuite. Cette vigilance te permet de garder un budget plus équilibré sur le long terme sans avoir à te surveiller en permanence.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777582123/maistrise_cvdcgx.jpg"
     },
     {
       "key": "fuites_moderees",
       "title": "Quelques fuites invisibles",
-      "description": "Ton mode de vie laisse passer certaines dépenses que tu ne contrôles pas totalement. Rien de dramatique, mais des petites habitudes s’accumulent et peuvent peser sur ton budget sans que tu t’en rendes vraiment compte. Tu pourrais facilement améliorer ta situation avec quelques ajustements ciblés.",
+      "description": "Ton mode de vie laisse passer régulièrement quelques surcoûts que tu ne détectes pas toujours. Un abonnement oublié ici, des frais de livraison qui s'accumulent là, un renouvellement automatique que tu n'as pas résilié à temps… Rien de catastrophique, mais ces dépenses s'additionnent progressivement. Avec quelques vérifications ciblées, tu pourrais récupérer une partie non négligeable de ton budget.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777577150/cover_bgc95x.jpg"
     },
     {
       "key": "fuites_importantes",
       "title": "Beaucoup de pertes invisibles",
-      "description": "Ton mode de vie te fait perdre de l’argent régulièrement sans que tu le réalises pleinement. Abonnements, achats impulsifs, petites dépenses répétées… ces habitudes s’accumulent et créent un vrai impact. Tu pourrais récupérer une partie importante de ton budget en prenant conscience de ces réflexes.",
+      "description": "Ton mode de vie te fait perdre de l'argent régulièrement par inertie, oubli ou confort. Des abonnements que tu n'utilises plus continuent à se prélever, des services en doublon cohabitent, des frais évitables passent sans que tu les remarques vraiment. Ce n'est pas de l'irresponsabilité : c'est souvent un manque de temps ou d'attention pour ces petits postes qui semblent anodins. Mais pris ensemble, leur impact sur ton budget peut être significatif.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777581577/desorganize_hbhlkn.jpg"
     }
   ],
   "questions": [
     {
       "id": "1",
-      "question": "Tu regardes tes abonnements mensuels (streaming, apps, etc.)…",
+      "question": "Tu reçois un relevé bancaire et tu vois deux abonnements de streaming actifs. Tu n'utilises vraiment qu'un seul des deux. Que se passe-t-il ?",
       "answers": [
-        { "label": "Je sais exactement ce que je paie", "scores": { "maitrise": 3 } },
-        { "label": "J’en oublie parfois", "scores": { "fuites_moderees": 3 } },
-        { "label": "Je ne sais pas vraiment combien j’en ai", "scores": { "fuites_importantes": 3 } }
+        {
+          "label": "Je résilie le deuxième dans la foulée — je ne vois pas l'intérêt de payer pour quelque chose que je n'utilise pas",
+          "scores": { "maitrise": 3 }
+        },
+        {
+          "label": "Je me dis que je vais le faire, et j'oublie pendant encore quelques mois",
+          "scores": { "fuites_importantes": 2, "fuites_moderees": 1 }
+        },
+        {
+          "label": "Je le note pour y revenir, et je le résilie effectivement dans les jours qui suivent",
+          "scores": { "maitrise": 2, "fuites_moderees": 1 }
+        },
+        {
+          "label": "Je ne surveille pas vraiment mes abonnements ligne par ligne — ça m'aurait peut-être échappé",
+          "scores": { "fuites_importantes": 3 }
+        }
       ]
     },
     {
       "id": "2",
-      "question": "Tu commandes à manger ou à boire…",
+      "question": "Tu t'inscris à un essai gratuit de 30 jours. Tu n'as pas prévu de rappel. Le mois passe. Qu'est-ce qui se passe ?",
       "answers": [
-        { "label": "Occasionnellement", "scores": { "maitrise": 3 } },
-        { "label": "Régulièrement", "scores": { "fuites_moderees": 3 } },
-        { "label": "Très souvent", "scores": { "fuites_importantes": 3 } }
+        {
+          "label": "J'avais déjà noté la date de fin quelque part — je résilie avant le premier prélèvement",
+          "scores": { "maitrise": 3 }
+        },
+        {
+          "label": "Je reçois la notification du premier prélèvement et je résilie immédiatement",
+          "scores": { "maitrise": 2, "fuites_moderees": 1 }
+        },
+        {
+          "label": "Je vois le prélèvement, je me dis que je vais résilier, et ça dure encore deux ou trois mois",
+          "scores": { "fuites_importantes": 2, "fuites_moderees": 1 }
+        },
+        {
+          "label": "Je m'en rends compte bien après — ce genre de prélèvement passe souvent inaperçu",
+          "scores": { "fuites_importantes": 3 }
+        }
       ]
     },
     {
       "id": "3",
-      "question": "Tu oublies de résilier un service après un essai gratuit…",
+      "question": "Un repas que tu aurais payé 16 € en allant le chercher toi-même te coûte 27 € avec la livraison, les frais de service et le pourboire. Comment tu arbitres ça ?",
       "answers": [
-        { "label": "Ça ne m’arrive presque jamais", "scores": { "maitrise": 3 } },
-        { "label": "Ça m’est déjà arrivé", "scores": { "fuites_moderees": 3 } },
-        { "label": "Ça m’arrive souvent", "scores": { "fuites_importantes": 3 } }
+        {
+          "label": "Je commande quand même — 11 € de plus pour ne pas sortir, ça me semble raisonnable ce soir",
+          "scores": { "fuites_moderees": 2, "maitrise": 1 }
+        },
+        {
+          "label": "Je vais le chercher ou je fais autre chose — 11 € de surcoût pour un seul repas, c'est trop pour moi",
+          "scores": { "maitrise": 2, "fuites_moderees": 1 }
+        },
+        {
+          "label": "Je commande sans vraiment avoir fait le calcul — je réalise le montant total seulement en payant",
+          "scores": { "fuites_importantes": 3 }
+        },
+        {
+          "label": "Je commande — j'avais prévu de me faire livrer ce soir et j'avais intégré ce surcoût",
+          "scores": { "maitrise": 3 }
+        }
       ]
     },
     {
       "id": "4",
-      "question": "Tu prends un transport plus cher par facilité…",
+      "question": "Tu utilises un espace de stockage cloud payant qui était plein. Tu réalises qu'une grande partie est occupée par des fichiers que tu n'as pas ouverts depuis des années. Que fais-tu ?",
       "answers": [
-        { "label": "Rarement", "scores": { "maitrise": 3 } },
-        { "label": "Parfois", "scores": { "fuites_moderees": 3 } },
-        { "label": "Très souvent", "scores": { "fuites_importantes": 3 } }
+        {
+          "label": "Je prends le temps de faire le tri et de libérer de l'espace pour rester sur la formule gratuite ou moins chère",
+          "scores": { "maitrise": 3 }
+        },
+        {
+          "label": "Je passe directement à la formule supérieure — le tri prend trop de temps",
+          "scores": { "fuites_moderees": 2, "fuites_importantes": 1 }
+        },
+        {
+          "label": "Je n'ai jamais vraiment regardé ce que je stocke ni ce que ça me coûte vraiment",
+          "scores": { "fuites_importantes": 3 }
+        },
+        {
+          "label": "Je me dis que je ferai le tri un jour, mais en attendant je prends la formule supérieure",
+          "scores": { "fuites_importantes": 2, "fuites_moderees": 1 }
+        }
       ]
     },
     {
       "id": "5",
-      "question": "Tu fais des achats “rapides” sans comparer…",
+      "question": "Tu dois te déplacer en urgence un soir. Tu aurais pu prévoir ce trajet, mais tu ne l'as pas anticipé. Tu prends un VTC à un tarif élevé. Ça t'arrive comment ?",
       "answers": [
-        { "label": "Presque jamais", "scores": { "maitrise": 3 } },
-        { "label": "De temps en temps", "scores": { "fuites_moderees": 3 } },
-        { "label": "Souvent", "scores": { "fuites_importantes": 3 } }
+        {
+          "label": "Ça m'arrive de temps en temps — il est difficile d'anticiper absolument tout",
+          "scores": { "fuites_moderees": 3 }
+        },
+        {
+          "label": "Assez souvent — je gère mes déplacements au dernier moment la plupart du temps",
+          "scores": { "fuites_importantes": 3 }
+        },
+        {
+          "label": "Rarement — en général j'anticipe suffisamment pour éviter ce genre de surcoût",
+          "scores": { "maitrise": 3 }
+        },
+        {
+          "label": "Ça arrive, mais je compare toujours les options avant de valider, même en urgence",
+          "scores": { "maitrise": 2, "fuites_moderees": 1 }
+        }
       ]
     },
     {
       "id": "6",
-      "question": "Tu laisses traîner des petites dépenses (apps, frais, etc.)…",
+      "question": "Un service en ligne te propose de passer à la version premium pour 6 € par mois. Tu le fais un jour et tu n'utilises finalement presque pas les fonctionnalités supplémentaires. Comment tu réagis ?",
       "answers": [
-        { "label": "Je fais attention", "scores": { "maitrise": 3 } },
-        { "label": "J’en laisse passer quelques-unes", "scores": { "fuites_moderees": 3 } },
-        { "label": "Je n’y fais pas attention", "scores": { "fuites_importantes": 3 } }
+        {
+          "label": "Je repasse à la version gratuite dès que je m'en rends compte",
+          "scores": { "maitrise": 3 }
+        },
+        {
+          "label": "Je garde le premium — ça ne vaut pas la peine de s'en occuper pour 6 € par mois",
+          "scores": { "fuites_moderees": 2, "fuites_importantes": 1 }
+        },
+        {
+          "label": "Je n'ai pas vraiment suivi — je ne sais pas si j'utilise vraiment les fonctionnalités premium ou non",
+          "scores": { "fuites_importantes": 3 }
+        },
+        {
+          "label": "Je le note pour vérifier dans un ou deux mois si ça vaut toujours la peine",
+          "scores": { "maitrise": 2, "fuites_moderees": 1 }
+        }
       ]
     },
     {
       "id": "7",
-      "question": "Tu utilises des services pratiques mais coûteux (livraison, etc.)…",
+      "question": "Tu réalises qu'un remboursement de 45 € t'a été accordé — mutuelle, frais professionnels, garantie. Il fallait faire une démarche simple. Tu ne l'as pas fait. Que s'est-il passé ?",
       "answers": [
-        { "label": "Avec modération", "scores": { "maitrise": 3 } },
-        { "label": "Régulièrement", "scores": { "fuites_moderees": 3 } },
-        { "label": "Très souvent", "scores": { "fuites_importantes": 3 } }
+        {
+          "label": "Ce genre de démarche, je le fais systématiquement dès que j'y pense",
+          "scores": { "maitrise": 3 }
+        },
+        {
+          "label": "Je l'avais noté mais j'ai repoussé, et la date limite est passée",
+          "scores": { "fuites_moderees": 2, "fuites_importantes": 1 }
+        },
+        {
+          "label": "Je n'étais même pas au courant qu'un remboursement était possible",
+          "scores": { "fuites_importantes": 3 }
+        },
+        {
+          "label": "Je l'ai fait, mais plusieurs semaines après — j'aurais presque oublié",
+          "scores": { "fuites_moderees": 2, "maitrise": 1 }
+        }
       ]
     },
     {
       "id": "8",
-      "question": "Tu oublies de profiter d’une offre ou d’un remboursement…",
+      "question": "Tu achètes un article en dépannage parce que tu n'avais pas ce qu'il fallait sur le moment — un câble, un adaptateur, un produit de base. Tu paies le double du prix habituel en allant dans la boutique la plus proche. Ça t'arrive ?",
       "answers": [
-        { "label": "Rarement", "scores": { "maitrise": 3 } },
-        { "label": "Parfois", "scores": { "fuites_moderees": 3 } },
-        { "label": "Souvent", "scores": { "fuites_importantes": 3 } }
+        {
+          "label": "Assez souvent — je gère ces petites choses au moment où le besoin se présente",
+          "scores": { "fuites_importantes": 3 }
+        },
+        {
+          "label": "Ça m'est arrivé, mais je l'évite autant que possible en anticipant un minimum",
+          "scores": { "maitrise": 2, "fuites_moderees": 1 }
+        },
+        {
+          "label": "Rarement — ce genre de situation m'aurait amené à commander à l'avance ou à attendre",
+          "scores": { "maitrise": 3 }
+        },
+        {
+          "label": "De temps en temps — quand c'est urgent, je n'ai pas le choix",
+          "scores": { "fuites_moderees": 2, "fuites_importantes": 1 }
+        }
       ]
     },
     {
       "id": "9",
-      "question": "Tu dépenses plus pour gagner du temps…",
+      "question": "En rangeant ton frigo, tu jettes plusieurs produits achetés la semaine précédente et jamais utilisés. Ça t'arrive comment ?",
       "answers": [
-        { "label": "Uniquement quand c’est utile", "scores": { "maitrise": 3 } },
-        { "label": "Assez souvent", "scores": { "fuites_moderees": 3 } },
-        { "label": "Presque systématiquement", "scores": { "fuites_importantes": 3 } }
+        {
+          "label": "Régulièrement — j'achète souvent plus que ce que j'utilise réellement",
+          "scores": { "fuites_importantes": 3 }
+        },
+        {
+          "label": "Ça m'arrive, et ça me pousse généralement à mieux planifier mes achats la semaine suivante",
+          "scores": { "fuites_moderees": 2, "maitrise": 1 }
+        },
+        {
+          "label": "Rarement — j'essaie de n'acheter que ce que j'ai prévu d'utiliser, et de cuisiner ce qui reste avant de racheter",
+          "scores": { "maitrise": 3 }
+        },
+        {
+          "label": "De temps en temps — je le remarque, ça m'agace, mais je ne change pas vraiment ma façon de faire les courses",
+          "scores": { "fuites_moderees": 3 }
+        }
       ]
     },
     {
       "id": "10",
-      "question": "Quand tu regardes ton mois, certaines dépenses te surprennent…",
+      "question": "Des frais bancaires de 8 € apparaissent sur ton relevé pour un découvert d'une journée, ou pour des frais de tenue de compte que tu n'avais pas vus venir. Comment tu réagis ?",
       "answers": [
-        { "label": "Rarement", "scores": { "maitrise": 3 } },
-        { "label": "De temps en temps", "scores": { "fuites_moderees": 3 } },
-        { "label": "Souvent", "scores": { "fuites_importantes": 3 } }
+        {
+          "label": "Je les conteste ou je vérifie si je peux changer d'offre pour les éviter à l'avenir",
+          "scores": { "maitrise": 3 }
+        },
+        {
+          "label": "Je les vois, ça m'agace, mais je ne prends pas le temps de faire quoi que ce soit",
+          "scores": { "fuites_moderees": 2, "fuites_importantes": 1 }
+        },
+        {
+          "label": "Je les remarque, je me dis que c'est ponctuel et je passe à autre chose",
+          "scores": { "fuites_moderees": 3 }
+        },
+        {
+          "label": "Je ne les avais pas vus ou je ne savais pas que ces frais pouvaient exister",
+          "scores": { "fuites_importantes": 3 }
+        }
       ]
     }
   ]
