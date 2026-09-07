@@ -1,13 +1,13 @@
 {
   "slug": "test-type-amitie",
-  "title": "Test amitié - Quel type d’amitié te correspond ?",
+  "title": "Test amitié - Quel type d'amitié te correspond ?",
   "description": "Tes réflexes en amitié révèlent ton vrai type de relation.",
-  "descriptionSeo": "Messages laissés en vu, réponses tardives, plans annulés ou moments partagés… ce test analyse tes réactions concrètes en amitié pour révéler le type de relation qui te correspond vraiment. Es-tu plutôt fusionnel(le), équilibré(e) ou indépendant(e) dans tes liens ? À travers des situations du quotidien, découvre ce que tes comportements disent de ta manière de vivre l’amitié et ce dont tu as réellement besoin.",
+  "descriptionSeo": "Messages laissés en vu, réponses tardives, plans annulés ou moments partagés… ce test analyse tes réactions concrètes en amitié pour révéler le type de relation qui te correspond vraiment. Es-tu plutôt fusionnel(le), équilibré(e) ou indépendant(e) dans tes liens ? À travers des situations du quotidien, découvre ce que tes comportements disent de ta manière de vivre l'amitié et ce dont tu as réellement besoin.",
   "category": {
     "name": "Amitié",
     "slug": "amitie"
   },
-  "createdAt": "2026-04-27",
+  "createdAt": "2026-09-06",
   "isNew": true,
   "isPopular": true,
   "images": {
@@ -19,111 +19,121 @@
     {
       "key": "fusionnelle",
       "title": "Amitié fusionnelle",
-      "description": "Tu fonctionnes avec une forte intensité émotionnelle en amitié. Tu aimes être présent(e), échanger souvent et te sentir proche des gens qui comptent pour toi. Tu peux rapidement ressentir un manque ou une distance si le lien n’est pas entretenu régulièrement. Pour toi, une vraie amitié se vit au quotidien, dans les échanges, le soutien et la présence.",
+      "description": "Tu fonctionnes avec une forte intensité émotionnelle en amitié. Tu aimes être présent(e), échanger souvent et te sentir vraiment proche des gens qui comptent pour toi. Tu t'investis pleinement et tu attends une réciprocité sincère. Ta force : tu apportes une profondeur et une générosité émotionnelle rare — les gens qui te connaissent savent qu'ils peuvent vraiment compter sur toi. Ta limite : tu peux être davantage affecté(e) par les variations de disponibilité et avoir besoin de beaucoup de réciprocité pour te sentir en sécurité dans un lien.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777671140/fusion_u3grun.jpg"
     },
     {
       "key": "equilibree",
       "title": "Amitié équilibrée",
-      "description": "Tu sais être présent(e) sans être envahissant(e). Tu apprécies les échanges et les moments partagés, mais sans dépendance. Tu peux t’adapter facilement au rythme de l’autre. Tu valorises les relations sincères, sans pression. Ton équilibre te permet de garder des liens solides sans te sentir contraint(e).",
+      "description": "Tu sais alterner naturellement entre proximité et espace personnel. Tu apprécies les échanges et les moments partagés sans en dépendre, et tu t'adaptes assez facilement au rythme de l'autre. Ta force : tu peux entretenir des liens sincères avec des gens aux styles très différents, sans te sentir coincé(e) par leurs attentes ni les tuer avec les tiennes. Ta limite : tu peux parfois privilégier un équilibre confortable au détriment de relations qui demanderaient plus d'intensité ou d'implication.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776948480/aligne%CC%81_svtdx7.jpg"
     },
     {
       "key": "independante",
       "title": "Amitié indépendante",
-      "description": "Tu vis l’amitié de manière libre. Tu n’as pas besoin d’échanger souvent pour te sentir proche de quelqu’un. Tu peux passer du temps sans nouvelles sans que cela remette en question le lien. Tu privilégies des relations simples, sans attente forte. Ton attachement est réel, mais discret et autonome.",
+      "description": "Tu vis l'amitié de manière libre. Tu n'as pas besoin d'échanger souvent pour te sentir proche de quelqu'un, et les longues périodes sans nouvelles ne remettent pas en question le lien à tes yeux. Ta force : tu construis des amitiés capables de traverser les distances et les silences — pour toi, la profondeur du lien ne dépend pas de la fréquence. Ta limite : tu peux parfois sous-estimer le besoin de présence ou de signes d'affection de certains amis, qui peuvent mal interpréter ton détachement apparent.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777030072/freedom_ley4k9.jpg"
     }
   ],
   "questions": [
     {
       "id": "1",
-      "question": "Tu envoies un message important et ton ami(e) le laisse en “vu”…",
+      "question": "Tu as un week-end entièrement libre, sans obligation. Comment tu l'envisages idéalement ?",
       "answers": [
-        { "label": "Je relance assez vite", "scores": { "fusionnelle": 3 } },
-        { "label": "J’attends un peu", "scores": { "equilibree": 3 } },
-        { "label": "Je n’y pense plus", "scores": { "independante": 3 } }
+        { "label": "Je profite de ce temps pour moi — lire, me reposer, faire mes trucs sans agenda social", "scores": { "independante": 3 } },
+        { "label": "Je propose spontanément à un ami proche de se voir ou de faire quelque chose ensemble", "scores": { "fusionnelle": 3 } },
+        { "label": "Je garde une partie pour moi et je prévois aussi un moment avec des amis", "scores": { "equilibree": 3 } },
+        { "label": "Je vois ce qui se propose — si quelqu'un suggère quelque chose, je suis partant(e), sinon ça me convient aussi", "scores": { "equilibree": 2, "independante": 1 } }
       ]
     },
     {
       "id": "2",
-      "question": "Un ami te raconte un problème tard le soir…",
+      "question": "Tu as une très bonne nouvelle. Quelle est ta première réaction ?",
       "answers": [
-        { "label": "Je reste dispo longtemps", "scores": { "fusionnelle": 3 } },
-        { "label": "Je réponds mais je pose des limites", "scores": { "equilibree": 3 } },
-        { "label": "Je réponds plus tard", "scores": { "independante": 3 } }
+        { "label": "J'envoie un message à mes amis proches dans la foulée, j'ai besoin de le partager immédiatement", "scores": { "fusionnelle": 3 } },
+        { "label": "Je savoure d'abord seul(e) avant d'en parler à qui que ce soit", "scores": { "independante": 3 } },
+        { "label": "J'attends de voir un ami en vrai pour lui annoncer en face à face", "scores": { "equilibree": 2, "fusionnelle": 1 } },
+        { "label": "Je le partage avec une ou deux personnes proches quand l'occasion se présente naturellement", "scores": { "equilibree": 2, "independante": 1 } }
       ]
     },
     {
       "id": "3",
-      "question": "Tu vois que ton ami sort sans t’inviter…",
+      "question": "On te propose un voyage de plusieurs jours avec un groupe d'amis proches…",
       "answers": [
-        { "label": "Ça me touche", "scores": { "fusionnelle": 3 } },
-        { "label": "Je me pose un peu la question", "scores": { "equilibree": 3 } },
-        { "label": "Ça ne me dérange pas", "scores": { "independante": 3 } }
+        { "label": "J'adore l'idée — être ensemble non-stop pendant quelques jours, c'est exactement ce que j'aime", "scores": { "fusionnelle": 3 } },
+        { "label": "Je suis partant(e) mais j'ai besoin de savoir que j'aurai aussi des moments pour souffler seul(e)", "scores": { "independante": 2, "equilibree": 1 } },
+        { "label": "Ça dépend du groupe et de la durée, mais en général j'aime bien ce type de moment", "scores": { "equilibree": 2, "fusionnelle": 1 } },
+        { "label": "Je préfère les retrouvailles plus courtes — plusieurs jours ensemble non-stop, c'est un peu intense pour moi", "scores": { "independante": 3 } }
       ]
     },
     {
       "id": "4",
-      "question": "Un ami met plusieurs jours à répondre à une conversation…",
+      "question": "Un ami te confie quelque chose de très personnel. Quelle est ta réaction naturelle ?",
       "answers": [
-        { "label": "Je le remarque et ça m’agace", "scores": { "fusionnelle": 3 } },
-        { "label": "Je m’adapte", "scores": { "equilibree": 3 } },
-        { "label": "Je fais pareil", "scores": { "independante": 3 } }
+        { "label": "Je suis pleinement présent(e) et je lui propose d'en reparler autant qu'il/elle en a besoin", "scores": { "fusionnelle": 3 } },
+        { "label": "Je l'écoute attentivement et je réponds sincèrement, sans m'impliquer émotionnellement au-delà de ce qu'il/elle demande", "scores": { "equilibree": 2, "independante": 1 } },
+        { "label": "Je l'écoute et je lui dis que je suis là si besoin, mais je ne cherche pas à prolonger la discussion plus que nécessaire", "scores": { "independante": 2, "equilibree": 1 } },
+        { "label": "Ça me touche vraiment et ça renforce l'impression que notre amitié est profonde et importante", "scores": { "fusionnelle": 2, "equilibree": 1 } }
       ]
     },
     {
       "id": "5",
-      "question": "Tu proposes un plan et il est refusé…",
+      "question": "À quelle fréquence tu as naturellement envie d'être en contact avec tes amis proches ?",
       "answers": [
-        { "label": "Je suis déçu(e)", "scores": { "fusionnelle": 3 } },
-        { "label": "Je propose autre chose", "scores": { "equilibree": 3 } },
-        { "label": "Je passe à autre chose", "scores": { "independante": 3 } }
+        { "label": "Très souvent — j'aime les échanges réguliers, même courts, pour garder un fil au quotidien", "scores": { "fusionnelle": 3 } },
+        { "label": "Quand il y a quelque chose à se dire — je n'ai pas besoin de contact quotidien pour me sentir proche", "scores": { "independante": 3 } },
+        { "label": "Régulièrement, mais sans avoir besoin que ce soit tous les jours", "scores": { "equilibree": 2, "fusionnelle": 1 } },
+        { "label": "De temps en temps — j'aime les moments ensemble mais j'ai aussi besoin de mes espaces", "scores": { "equilibree": 2, "independante": 1 } }
       ]
     },
     {
       "id": "6",
-      "question": "Tu as une bonne nouvelle…",
+      "question": "Un ami annule un plan au dernier moment alors que tu t'en faisais vraiment une joie…",
       "answers": [
-        { "label": "Je l’envoie direct à mes amis proches", "scores": { "fusionnelle": 3 } },
-        { "label": "Je la partage plus tard", "scores": { "equilibree": 3 } },
-        { "label": "Je garde ça pour moi", "scores": { "independante": 3 } }
+        { "label": "Je suis déçu(e), je ne le cache pas — j'avais vraiment envie de ce moment", "scores": { "fusionnelle": 3 } },
+        { "label": "Je comprends, je reprogramme dans ma tête et j'attends la prochaine occasion", "scores": { "equilibree": 3 } },
+        { "label": "Ça m'arrive à moi aussi — je profite de ce temps libéré pour faire autre chose", "scores": { "independante": 2, "equilibree": 1 } },
+        { "label": "Je suis un peu déçu(e) sur le moment, mais ça passe vite", "scores": { "equilibree": 2, "fusionnelle": 1 } }
       ]
     },
     {
       "id": "7",
-      "question": "Tu passes plusieurs jours sans parler à un ami…",
+      "question": "Tu as une journée chargée et un ami t'écrit pour avoir une longue conversation…",
       "answers": [
-        { "label": "Je relance rapidement", "scores": { "fusionnelle": 3 } },
-        { "label": "Je reprends naturellement", "scores": { "equilibree": 3 } },
-        { "label": "Ça ne change rien pour moi", "scores": { "independante": 3 } }
+        { "label": "Je lui réponds que je suis occupé(e) et qu'on pourra vraiment parler plus tard", "scores": { "independante": 2, "equilibree": 1 } },
+        { "label": "Je trouve un moment dans la journée pour lui répondre correctement même si c'est court", "scores": { "equilibree": 2, "fusionnelle": 1 } },
+        { "label": "Je mets de côté ce que je faisais — si il/elle a besoin de parler, c'est important", "scores": { "fusionnelle": 3 } },
+        { "label": "Je lui dis qu'on se rappelle le soir ou quand je suis disponible, sans culpabiliser", "scores": { "independante": 3 } }
       ]
     },
     {
       "id": "8",
-      "question": "Un ami annule au dernier moment…",
+      "question": "Tu passes plusieurs jours sans nouvelles d'un ami proche. Comment tu te sens ?",
       "answers": [
-        { "label": "Ça m’affecte vraiment", "scores": { "fusionnelle": 3 } },
-        { "label": "Je comprends", "scores": { "equilibree": 3 } },
-        { "label": "Je m’adapte sans problème", "scores": { "independante": 3 } }
+        { "label": "Très bien — je n'ai pas besoin de contact régulier pour savoir que le lien est là", "scores": { "independante": 3 } },
+        { "label": "Je lui envoie un message, j'aime garder un fil même quand on est chacun dans sa vie", "scores": { "fusionnelle": 2, "equilibree": 1 } },
+        { "label": "Ça me convient si chacun est occupé — mais si ça dure trop, je prends des nouvelles", "scores": { "equilibree": 2, "independante": 1 } },
+        { "label": "Je réalise que ça me manque un peu et j'ai envie de recréer un moment ensemble", "scores": { "fusionnelle": 3 } }
       ]
     },
     {
       "id": "9",
-      "question": "Tu vois que ton ami parle beaucoup avec quelqu’un d’autre…",
+      "question": "Tu te retrouves à choisir entre une soirée entre amis et une soirée seul(e) à faire quelque chose que tu aimes…",
       "answers": [
-        { "label": "Ça me fait quelque chose", "scores": { "fusionnelle": 3 } },
-        { "label": "Je le remarque sans plus", "scores": { "equilibree": 3 } },
-        { "label": "Je n’y fais pas attention", "scores": { "independante": 3 } }
+        { "label": "Je choisis la soirée entre amis sans vraiment hésiter — c'est rare ces moments et j'y tiens", "scores": { "fusionnelle": 3 } },
+        { "label": "Je choisis ma soirée seul(e) — j'ai besoin de ce temps et je ne culpabilise pas", "scores": { "independante": 3 } },
+        { "label": "Je vais avec les amis mais je rentre à une heure raisonnable pour avoir quand même mon moment", "scores": { "equilibree": 2, "fusionnelle": 1 } },
+        { "label": "Ça dépend de mon état et de combien j'ai vu mes amis dernièrement", "scores": { "equilibree": 2, "independante": 1 } }
       ]
     },
     {
       "id": "10",
-      "question": "Tu dois choisir entre un moment seul ou voir un ami…",
+      "question": "Tu imagines l'amitié idéale pour toi. À quoi elle ressemble ?",
       "answers": [
-        { "label": "Je privilégie mon ami", "scores": { "fusionnelle": 3 } },
-        { "label": "Ça dépend de mon état", "scores": { "equilibree": 3 } },
-        { "label": "Je garde mon moment seul", "scores": { "independante": 3 } }
+        { "label": "Une relation dans laquelle on se parle souvent, on se voit régulièrement et on partage beaucoup", "scores": { "fusionnelle": 3 } },
+        { "label": "Un lien solide qui ne dépend pas de la fréquence des contacts — on peut ne pas se parler pendant un mois et reprendre exactement là où on en était", "scores": { "independante": 3 } },
+        { "label": "Quelqu'un avec qui je peux tout partager quand j'en ai besoin, sans que la relation soit trop contraignante", "scores": { "equilibree": 2, "fusionnelle": 1 } },
+        { "label": "Un équilibre entre moments ensemble et espace pour chacun, où personne ne se sent obligé", "scores": { "equilibree": 2, "independante": 1 } }
       ]
     }
   ]

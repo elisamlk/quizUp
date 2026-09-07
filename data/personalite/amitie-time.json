@@ -2,12 +2,12 @@
   "slug": "test-garder-amis-longtemps",
   "title": "Test amitié - Es-tu fait(e) pour garder tes amis longtemps ?",
   "description": "Tes comportements permettent-ils aux relations de durer ?",
-  "descriptionSeo": "Gestion des silences, évolution des relations, efforts dans le temps… ce test analyse tes comportements concrets pour savoir si tu es capable de maintenir des amitiés sur la durée.",
+  "descriptionSeo": "Déménagement, nouvelles vies, silences de plusieurs mois, désaccords qui laissent une trace, efforts devenus déséquilibrés… les amitiés traversent beaucoup d'épreuves avec le temps. Ce test analyse tes comportements concrets face à ces situations pour révéler si tes relations ont tendance à durer, à dépendre des moments ou à s'éteindre progressivement. Dix scènes réalistes pour comprendre comment tu vis l'évolution naturelle de tes amitiés.",
   "category": {
     "name": "Amitié",
     "slug": "amitie"
   },
-  "createdAt": "2026-04-27",
+  "createdAt": "2026-09-06",
   "isNew": true,
   "isPopular": true,
   "images": {
@@ -19,111 +19,121 @@
     {
       "key": "durable",
       "title": "Tu construis des amitiés durables",
-      "description": "Tu as les réflexes qui permettent aux relations de tenir dans le temps. Tu sais accepter les phases plus calmes, relancer sans forcer et maintenir un lien même à distance. Tu comprends que les amitiés évoluent et tu sais t’adapter sans tout remettre en question. Cette stabilité fait que tes relations ont de grandes chances de durer.",
+      "description": "Tu as les réflexes qui permettent aux relations de tenir dans le temps, même quand la vie change. Tu acceptes les phases plus calmes, tu t'adaptes aux nouvelles réalités de l'autre et tu sais maintenir un lien sans avoir besoin que tout reste identique. Tu comprends que les amitiés évoluent, et tu évolues avec elles. Ta force : tes relations ont de grandes chances de traverser les années. Ta limite : tu peux parfois t'accrocher à un lien qui a changé de nature, et avoir du mal à accepter qu'une amitié appartient désormais au passé.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777727809/durable_mjt9dz.jpg"
     },
     {
       "key": "variable",
       "title": "Des relations qui dépendent des moments",
-      "description": "Tes amitiés peuvent durer… mais pas toujours. Tu peux être très présent(e) à certains moments, puis laisser les liens s’éteindre sans vraiment agir. Tu n’es pas incapable de garder des relations, mais cela dépend beaucoup de ton implication sur la durée.",
+      "description": "Tes amitiés peuvent durer, mais ce n'est pas systématique. Tu peux être très investi(e) pendant certaines périodes, puis laisser le lien s'effacer quand les vies s'éloignent. Tu n'es pas incapable de garder des relations sur la durée, mais cela dépend beaucoup de ce que la vie te permet à ce moment-là. Ta force : tu acceptes assez naturellement que certaines amitiés appartiennent à une époque, sans le vivre comme un échec. Ta limite : tu peux laisser disparaître des liens importants faute d'avoir fait le geste qui aurait suffi.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777727924/unsure_ph1wgk.jpg"
     },
     {
       "key": "instable",
-      "title": "Des relations qui s’éteignent facilement",
-      "description": "Tu as tendance à laisser les relations se perdre avec le temps. Les silences, les distances ou les changements prennent rapidement le dessus. Tu peux passer à autre chose sans vraiment chercher à maintenir le lien. Cela rend tes amitiés plus difficiles à garder sur le long terme.",
+      "title": "Des relations qui s'éteignent facilement",
+      "description": "Tu fonctionnes davantage avec la proximité et le présent qu'avec la continuité dans le temps. Quand les vies s'éloignent, les relations ont tendance à s'éteindre assez naturellement, sans que tu cherches vraiment à les maintenir. Ce n'est pas de l'indifférence : tu peux créer des liens sincères et forts dans l'instant. Ta force : tu construis facilement de nouvelles connexions et tu n'es pas encombré(e) par le poids des relations passées. Ta limite : tu peux perdre des amitiés auxquelles tu tenais vraiment simplement parce que les vies se sont éloignées, sans que tu aies fait le geste qui aurait pu changer ça.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777728039/relation_leli4x.jpg"
     }
   ],
   "questions": [
     {
       "id": "1",
-      "question": "Une discussion devient moins fréquente avec le temps…",
+      "question": "Un ami proche déménage dans une autre ville. Vos vies vont devenir beaucoup moins compatibles au quotidien…",
       "answers": [
-        { "label": "Je relance naturellement de temps en temps", "scores": { "durable": 3 } },
-        { "label": "Je remarque mais je fais peu", "scores": { "variable": 3 } },
-        { "label": "Je laisse disparaître", "scores": { "instable": 3 } }
+        { "label": "Je me dis que si le lien est solide, la distance ne changera pas grand-chose", "scores": { "durable": 2, "variable": 1 } },
+        { "label": "Je prends conscience que sans effort des deux côtés, ça va probablement s'éteindre", "scores": { "variable": 2, "instable": 1 } },
+        { "label": "Je m'organise rapidement pour qu'on garde des moments réguliers malgré la distance", "scores": { "durable": 3 } },
+        { "label": "Je vis le présent — on verra bien comment ça évolue avec le temps", "scores": { "instable": 2, "variable": 1 } }
       ]
     },
     {
       "id": "2",
-      "question": "Tu n’as pas vu un ami depuis plusieurs mois…",
+      "question": "Un ami devient parent. Il/elle est beaucoup moins disponible, les conversations sont plus rares et les plans quasi impossibles…",
       "answers": [
-        { "label": "Je propose de le revoir", "scores": { "durable": 3 } },
-        { "label": "J’y pense sans agir", "scores": { "variable": 3 } },
-        { "label": "Je passe à autre chose", "scores": { "instable": 3 } }
+        { "label": "J'adapte mes attentes et je maintiens un contact léger, sans pression", "scores": { "durable": 3 } },
+        { "label": "Je comprends, mais j'ai du mal à ne pas ressentir que le lien se perd", "scores": { "variable": 2, "durable": 1 } },
+        { "label": "Je me dis que c'est une période et que ça reprendra naturellement plus tard", "scores": { "durable": 2, "variable": 1 } },
+        { "label": "La relation perd de son intensité et je me tourne davantage vers d'autres personnes", "scores": { "instable": 3 } }
       ]
     },
     {
       "id": "3",
-      "question": "Une relation change (moins intense qu’avant)…",
+      "question": "Ça fait presque six mois que tu n'as pas vraiment donné de nouvelles à un ami important…",
       "answers": [
-        { "label": "Je m’adapte sans dramatiser", "scores": { "durable": 3 } },
-        { "label": "Ça me perturbe un peu", "scores": { "variable": 3 } },
-        { "label": "Je décroche", "scores": { "instable": 3 } }
+        { "label": "Je lui écris pour reprendre contact, même si c'est court", "scores": { "durable": 3 } },
+        { "label": "Je me dis que si on ne s'est pas écrit depuis six mois, c'est peut-être que c'est dans l'ordre des choses", "scores": { "instable": 2, "variable": 1 } },
+        { "label": "J'y pense régulièrement mais je repousse sans vraiment savoir pourquoi", "scores": { "variable": 2, "instable": 1 } },
+        { "label": "Je lui envoie quelque chose de court — assez pour dire que je pense encore à lui/elle", "scores": { "durable": 2, "variable": 1 } }
       ]
     },
     {
       "id": "4",
-      "question": "Un ami change de rythme de vie…",
+      "question": "Un désaccord assez fort a laissé une petite trace entre toi et un ami. Rien n'a vraiment été dit après…",
       "answers": [
-        { "label": "Je m’ajuste pour garder le lien", "scores": { "durable": 3 } },
-        { "label": "Je garde contact mais moins", "scores": { "variable": 3 } },
-        { "label": "On se perd rapidement", "scores": { "instable": 3 } }
+        { "label": "Je laisse du temps passer en espérant que ça s'efface naturellement", "scores": { "variable": 2, "instable": 1 } },
+        { "label": "Je prends l'initiative d'en parler pour ne pas laisser ça s'installer", "scores": { "durable": 3 } },
+        { "label": "Je reviens vers lui/elle pour reprendre le lien, sans forcément rouvrir le sujet", "scores": { "durable": 2, "variable": 1 } },
+        { "label": "Je prends de la distance et j'attends de voir si l'autre fait le premier pas", "scores": { "instable": 2, "variable": 1 } }
       ]
     },
     {
       "id": "5",
-      "question": "Après un désaccord léger…",
+      "question": "Un ami s'est mis en couple et son cercle social a beaucoup changé. Tu le/la vois beaucoup moins souvent…",
       "answers": [
-        { "label": "Je fais en sorte que ça n’impacte pas le lien", "scores": { "durable": 3 } },
-        { "label": "Ça crée une petite distance", "scores": { "variable": 3 } },
-        { "label": "Je m’éloigne", "scores": { "instable": 3 } }
+        { "label": "Je me dis que si les vies divergent, c'est souvent le signe que la relation appartenait à une période précise", "scores": { "instable": 3 } },
+        { "label": "Je fais l'effort de proposer des moments à deux pour ne pas tout perdre", "scores": { "durable": 3 } },
+        { "label": "Je remarque le changement mais je ne fais pas de démarche particulière — j'attends de voir", "scores": { "variable": 2, "instable": 1 } },
+        { "label": "Je m'adapte au nouveau rythme, même si ça demande plus d'efforts", "scores": { "durable": 2, "variable": 1 } }
       ]
     },
     {
       "id": "6",
-      "question": "Une relation devient moins spontanée…",
+      "question": "Tu as l'impression d'être toujours celui ou celle qui fait les efforts dans une amitié. L'autre répond, mais ne prend jamais l'initiative…",
       "answers": [
-        { "label": "Je recrée du lien volontairement", "scores": { "durable": 3 } },
-        { "label": "Je laisse faire", "scores": { "variable": 3 } },
-        { "label": "Je ne fais rien", "scores": { "instable": 3 } }
+        { "label": "Je continue si la relation compte, même si ce n'est pas équilibré", "scores": { "durable": 2, "variable": 1 } },
+        { "label": "Je réduis mes efforts pour voir ce qui se passe et si l'autre prend le relais", "scores": { "variable": 2, "instable": 1 } },
+        { "label": "Je lui en parle directement pour qu'on puisse en discuter", "scores": { "durable": 3 } },
+        { "label": "Je laisse progressivement la relation s'éteindre — une amitié ne devrait pas demander autant d'effort unilatéral", "scores": { "instable": 2, "variable": 1 } }
       ]
     },
     {
       "id": "7",
-      "question": "Tu regardes une ancienne conversation importante…",
+      "question": "Tu retrouves un ami après plus d'un an sans vraiment se voir ni s'écrire…",
       "answers": [
-        { "label": "Je relance la personne", "scores": { "durable": 3 } },
-        { "label": "Je réfléchis à le faire", "scores": { "variable": 3 } },
-        { "label": "Je referme", "scores": { "instable": 3 } }
+        { "label": "Je reprends la conversation là où on l'avait laissée, sans faire de cas du temps passé", "scores": { "durable": 3 } },
+        { "label": "C'est agréable sur le moment, mais ça ne relance pas vraiment le lien sur la durée", "scores": { "variable": 2, "instable": 1 } },
+        { "label": "Je ressens un peu de distance — les vies ont changé et ce n'est plus tout à fait pareil", "scores": { "variable": 2, "durable": 1 } },
+        { "label": "Je propose directement qu'on se revoit bientôt pour ne pas en rester là", "scores": { "durable": 2, "variable": 1 } }
       ]
     },
     {
       "id": "8",
-      "question": "Tu dois maintenir une amitié à distance…",
+      "question": "Un ami change complètement de mode de vie — nouvelles valeurs, nouvelles priorités, un quotidien très différent du tien…",
       "answers": [
-        { "label": "Je fais l’effort régulièrement", "scores": { "durable": 3 } },
-        { "label": "J’essaie mais pas toujours", "scores": { "variable": 3 } },
-        { "label": "Ça ne tient pas", "scores": { "instable": 3 } }
+        { "label": "Je m'intéresse à ce qu'il/elle vit, même si c'est loin de mon univers", "scores": { "durable": 3 } },
+        { "label": "Je garde le lien mais on se retrouve moins sur les sujets qui comptent vraiment", "scores": { "variable": 2, "durable": 1 } },
+        { "label": "Je reste ouvert(e) même si j'ai du mal à me reconnaître dans ses nouvelles priorités", "scores": { "durable": 2, "variable": 1 } },
+        { "label": "Les liens ont naturellement tendance à se distendre quand les vies deviennent trop différentes", "scores": { "instable": 2, "variable": 1 } }
       ]
     },
     {
       "id": "9",
-      "question": "Une relation devient moins prioritaire dans ta vie…",
+      "question": "Chacun est dans une période chargée — travail, vie perso, projets. Plusieurs mois passent sans vraiment se voir…",
       "answers": [
-        { "label": "Je garde quand même un lien", "scores": { "durable": 3 } },
-        { "label": "Je m’en éloigne progressivement", "scores": { "variable": 3 } },
-        { "label": "Je coupe sans vraiment m’en rendre compte", "scores": { "instable": 3 } }
+        { "label": "Je me dis que les vraies amitiés résistent aux périodes sans contact", "scores": { "durable": 2, "variable": 1 } },
+        { "label": "Je prends les devants en proposant un moment précis pour qu'on se retrouve enfin", "scores": { "durable": 3 } },
+        { "label": "Je laisse la période passer et je suppose qu'on reprendra quand ce sera plus simple", "scores": { "variable": 2, "instable": 1 } },
+        { "label": "Je vis dans le présent — si on ne se voit plus, c'est que nos vies ont pris des directions différentes", "scores": { "instable": 3 } }
       ]
     },
     {
       "id": "10",
-      "question": "Quand un lien commence à s’effacer…",
+      "question": "Tu penses à une amitié importante qui s'est progressivement éteinte. Si tu devais te l'expliquer…",
       "answers": [
-        { "label": "Je fais un geste pour le maintenir", "scores": { "durable": 3 } },
-        { "label": "Je vois ce que ça donne", "scores": { "variable": 3 } },
-        { "label": "Je laisse disparaître", "scores": { "instable": 3 } }
+        { "label": "Les vies ont divergé et personne n'a vraiment fait le geste qui aurait pu changer ça — moi non plus", "scores": { "variable": 2, "instable": 1 } },
+        { "label": "Je regrette de ne pas avoir fait plus à l'époque pour la maintenir", "scores": { "durable": 2, "variable": 1 } },
+        { "label": "C'était dans l'ordre des choses — toutes les amitiés n'ont pas vocation à durer", "scores": { "instable": 3 } },
+        { "label": "J'ai essayé de la maintenir, mais à un moment ça ne tenait plus que d'un côté", "scores": { "durable": 3 } }
       ]
     }
   ]

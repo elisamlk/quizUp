@@ -2,12 +2,12 @@
   "slug": "test-pilier-ou-fantome-groupe",
   "title": "Test amitié - Es-tu le pilier ou le fantôme de ton groupe ?",
   "description": "Dans les faits, es-tu vraiment central(e) ou invisible ?",
-  "descriptionSeo": "Messages ignorés, relances, absence remarquée ou non… ce test analyse des situations concrètes pour révéler si tu es un pilier du groupe ou quelqu’un qui passe facilement inaperçu.",
+  "descriptionSeo": "Organisation des sorties, réactions dans le groupe, place lors des soirées, initiatives ou silence… ce test analyse des situations concrètes pour révéler quelle place tu occupes vraiment dans ton groupe d'amis. Es-tu celui ou celle qui fédère, qui participe sans chercher à briller, ou qui préfère rester en retrait ? Dix situations du quotidien pour découvrir si tu es le pilier, une présence discrète ou le fantôme de ton groupe.",
   "category": {
     "name": "Amitié",
     "slug": "amitie"
   },
-  "createdAt": "2026-04-27",
+  "createdAt": "2026-09-06",
   "isNew": true,
   "isPopular": true,
   "images": {
@@ -19,111 +19,121 @@
     {
       "key": "pilier",
       "title": "Le/La pilier",
-      "description": "Tu es clairement un point central. Les discussions passent souvent par toi, les plans existent parce que tu es là, et ton absence se remarque immédiatement. Tu es impliqué(e), actif(ve) et visible dans la dynamique du groupe.",
+      "description": "Tu es un point central dans ton groupe. Les discussions passent souvent par toi, les plans prennent forme quand tu t'en mêles, et ton absence se remarque rapidement. Tu crées du lien, tu fédères, et tu donnes de l'élan aux moments collectifs. Ta force : le groupe existe en partie parce que tu l'animes. Ta limite : tu peux parfois avoir l'impression que trop de choses reposent sur toi, au risque de t'épuiser à maintenir la dynamique.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777724925/important_cpug8u.jpg"
     },
     {
       "key": "present",
-      "title": "Présent(e) mais secondaire",
-      "description": "Tu fais partie du groupe, tu es là, mais tu n’es pas au centre. Tu participes, mais sans vraiment influencer la dynamique. On te remarque, mais tu n’es pas indispensable au fonctionnement global.",
+      "title": "Présent(e) mais discret(e)",
+      "description": "Tu fais partie du groupe et tu y as ta place, mais tu n'en es pas le moteur. Tu participes, tu suis, tu apprécies les moments partagés — sans chercher à être au centre. Tu es là quand ça compte, mais tu laisses souvent les autres prendre les initiatives. Ta force : tu t'intègres facilement et tu n'as pas besoin d'être sous les projecteurs pour te sentir bien dans le groupe. Ta limite : tu peux parfois passer inaperçu(e) sur les décisions ou les plans, faute d'avoir exprimé ton avis.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777724924/secondaire_v35kwq.jpg"
     },
     {
       "key": "fantome",
       "title": "Le/La fantôme",
-      "description": "Tu es souvent en arrière-plan. Tu peux être présent(e) sans vraiment être impliqué(e) ou visible. Tes interactions sont limitées et il arrive que ton absence ne soit pas immédiatement remarquée.",
+      "description": "Tu es souvent en retrait dans les dynamiques de groupe. Ce n'est pas nécessairement que tu t'en fiches — tu peux tenir à ces personnes tout en ayant du mal à trouver ta place dans les échanges collectifs. Tu es peut-être plus à l'aise dans les relations individuelles qu'en groupe. Ta force : tu observes beaucoup et tu entretiens parfois des liens plus profonds en tête à tête. Ta limite : si tu restes trop effacé(e), tu risques d'être progressivement moins inclus(e) dans les plans et les conversations.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777724925/fantome_sd8xuy.jpg"
     }
   ],
   "questions": [
     {
       "id": "1",
-      "question": "Tu envoies un message dans le groupe et personne ne répond…",
+      "question": "Le groupe est silencieux depuis quelques jours. Personne n'a rien proposé…",
       "answers": [
-        { "label": "Ça relance ensuite avec moi", "scores": { "pilier": 3 } },
-        { "label": "Une ou deux personnes répondent plus tard", "scores": { "present": 3 } },
-        { "label": "Le message est totalement ignoré", "scores": { "fantome": 3 } }
+        { "label": "Je ne suis pas particulièrement gêné(e) par le silence", "scores": { "fantome": 2, "present": 1 } },
+        { "label": "Je lance une idée ou je relance la conversation pour voir ce qui se passe", "scores": { "pilier": 3 } },
+        { "label": "Je réagis si quelqu'un lance quelque chose, mais je ne serai pas le premier à le faire", "scores": { "present": 3 } },
+        { "label": "J'attends que quelqu'un d'autre prenne l'initiative", "scores": { "present": 2, "fantome": 1 } }
       ]
     },
     {
       "id": "2",
-      "question": "Tu ne parles plus dans le groupe pendant 5 jours…",
+      "question": "Tu proposes une sortie avec une date et un lieu précis…",
       "answers": [
-        { "label": "On me demande ce que je deviens", "scores": { "pilier": 3 } },
-        { "label": "Quelqu’un remarque au bout d’un moment", "scores": { "present": 3 } },
-        { "label": "Personne ne réagit", "scores": { "fantome": 3 } }
+        { "label": "Quelques personnes répondent positivement mais ça reste à confirmer", "scores": { "pilier": 2, "present": 1 } },
+        { "label": "Ça discute mais rien ne se concrétise vraiment", "scores": { "present": 2, "fantome": 1 } },
+        { "label": "La proposition ne prend pas, ou le groupe s'organise finalement autrement", "scores": { "fantome": 3 } },
+        { "label": "Les gens s'organisent autour de ma proposition assez naturellement", "scores": { "pilier": 3 } }
       ]
     },
     {
       "id": "3",
-      "question": "Un plan se fait sans toi…",
+      "question": "Tu ne donnes pas signe de vie dans le groupe pendant cinq jours…",
       "answers": [
-        { "label": "On me propose de me rajouter", "scores": { "pilier": 3 } },
-        { "label": "On m’en parle après", "scores": { "present": 3 } },
-        { "label": "Je l’apprends par hasard", "scores": { "fantome": 3 } }
+        { "label": "On me demande ce que je deviens assez rapidement", "scores": { "pilier": 3 } },
+        { "label": "Quelqu'un finit par me mentionner ou me taguer au bout d'un moment", "scores": { "present": 2, "fantome": 1 } },
+        { "label": "Une ou deux personnes m'écrivent en privé pour prendre des nouvelles", "scores": { "pilier": 2, "present": 1 } },
+        { "label": "Personne ne remarque ou ne le mentionne", "scores": { "fantome": 3 } }
       ]
     },
     {
       "id": "4",
-      "question": "Tu proposes une sortie précise (date + lieu)…",
+      "question": "Une petite tension éclate entre deux membres du groupe…",
       "answers": [
-        { "label": "Les gens s’organisent autour", "scores": { "pilier": 3 } },
-        { "label": "Ça discute mais ça reste flou", "scores": { "present": 3 } },
-        { "label": "Ça ne prend pas", "scores": { "fantome": 3 } }
+        { "label": "Je suis la situation sans intervenir, mais je prends position si on me demande mon avis", "scores": { "present": 3 } },
+        { "label": "J'essaie de désamorcer ou de ramener un peu d'humour pour calmer les choses", "scores": { "pilier": 3 } },
+        { "label": "Je parle à chacun individuellement pour comprendre ce qui se passe", "scores": { "pilier": 2, "present": 1 } },
+        { "label": "Je préfère ne pas m'impliquer et laisser ça se régler entre eux", "scores": { "fantome": 2, "present": 1 } }
       ]
     },
     {
       "id": "5",
-      "question": "En soirée de groupe…",
+      "question": "Un nouveau membre rejoint le groupe. Personne ne fait vraiment d'effort pour l'intégrer…",
       "answers": [
-        { "label": "Les gens viennent naturellement vers moi", "scores": { "pilier": 3 } },
-        { "label": "Je parle avec quelques personnes", "scores": { "present": 3 } },
-        { "label": "Je peux rester seul(e) sans que ça se voie", "scores": { "fantome": 3 } }
+        { "label": "Je suis sympa si on se retrouve à parler, mais je ne fais pas de démarche particulière", "scores": { "present": 3 } },
+        { "label": "Je ne change pas vraiment mon comportement habituel", "scores": { "fantome": 2, "present": 1 } },
+        { "label": "Je prends l'initiative de lui adresser la parole et de le/la mettre à l'aise", "scores": { "pilier": 3 } },
+        { "label": "J'attends de voir comment les autres réagissent avant de me positionner", "scores": { "present": 2, "fantome": 1 } }
       ]
     },
     {
       "id": "6",
-      "question": "Une blague est faite dans le groupe…",
+      "question": "En soirée, la conversation de groupe part dans tous les sens et ça commence à se disperser…",
       "answers": [
-        { "label": "Je rebondis et ça repart", "scores": { "pilier": 3 } },
-        { "label": "Je réagis comme les autres", "scores": { "present": 3 } },
-        { "label": "Je ne réagis pas", "scores": { "fantome": 3 } }
+        { "label": "Je participe activement mais sans forcément prendre le lead", "scores": { "present": 2, "pilier": 1 } },
+        { "label": "Je relance un sujet ou je fais quelque chose pour recentrer l'ambiance", "scores": { "pilier": 3 } },
+        { "label": "Je suis la conversation là où elle va, sans chercher à la guider", "scores": { "present": 2, "fantome": 1 } },
+        { "label": "Je me retrouve à parler avec une ou deux personnes dans mon coin", "scores": { "fantome": 2, "present": 1 } }
       ]
     },
     {
       "id": "7",
-      "question": "Quelqu’un organise un anniversaire…",
+      "question": "Il faut organiser un anniversaire surprise pour quelqu'un du groupe…",
       "answers": [
-        { "label": "On me demande d’aider ou de gérer", "scores": { "pilier": 3 } },
-        { "label": "Je suis invité(e) comme les autres", "scores": { "present": 3 } },
-        { "label": "Je suis prévenu(e) tard ou indirectement", "scores": { "fantome": 3 } }
+        { "label": "Je l'apprends un peu par hasard ou assez tard", "scores": { "fantome": 3 } },
+        { "label": "On me demande spontanément d'aider à coordonner ou de gérer une partie", "scores": { "pilier": 3 } },
+        { "label": "Je suis prévenu(e) et invité(e) comme les autres membres", "scores": { "present": 3 } },
+        { "label": "Je prends moi-même l'initiative de proposer quelque chose et d'organiser", "scores": { "pilier": 2, "present": 1 } }
       ]
     },
     {
       "id": "8",
-      "question": "Tu envoies un vocal dans le groupe…",
+      "question": "Le groupe doit prendre une décision collective — date, lieu, activité…",
       "answers": [
-        { "label": "Il est écouté et commenté", "scores": { "pilier": 3 } },
-        { "label": "Quelques réactions", "scores": { "present": 3 } },
-        { "label": "Aucune réaction", "scores": { "fantome": 3 } }
+        { "label": "Je donne mon avis si on me le demande, mais je ne m'impose pas", "scores": { "present": 2, "fantome": 1 } },
+        { "label": "Mon avis est souvent demandé ou influence la décision finale", "scores": { "pilier": 3 } },
+        { "label": "Je me range généralement à ce que les autres décident", "scores": { "fantome": 2, "present": 1 } },
+        { "label": "Je participe à la discussion et je propose des options", "scores": { "pilier": 2, "present": 1 } }
       ]
     },
     {
       "id": "9",
       "question": "Tu arrives en retard à un rendez-vous de groupe…",
       "answers": [
-        { "label": "On m’attend vraiment", "scores": { "pilier": 3 } },
-        { "label": "Ça ne change pas grand-chose", "scores": { "present": 3 } },
-        { "label": "Personne ne remarque vraiment", "scores": { "fantome": 3 } }
+        { "label": "Personne ne semble avoir vraiment remarqué au moment où j'arrive", "scores": { "fantome": 3 } },
+        { "label": "Quelqu'un m'envoie un message pour savoir où j'en suis", "scores": { "pilier": 2, "present": 1 } },
+        { "label": "La soirée continue normalement, je m'intègre sans que ça fasse d'histoire", "scores": { "present": 2, "fantome": 1 } },
+        { "label": "On m'attendait vraiment ou on s'est organisé différemment en attendant", "scores": { "pilier": 3 } }
       ]
     },
     {
       "id": "10",
-      "question": "Une conversation privée démarre entre plusieurs membres…",
+      "question": "Le groupe peine à se réunir depuis plusieurs semaines, les plans tombent souvent à l'eau…",
       "answers": [
-        { "label": "Je suis dedans dès le début", "scores": { "pilier": 3 } },
-        { "label": "Je suis ajouté(e) après", "scores": { "present": 3 } },
-        { "label": "Je ne suis pas inclus(e)", "scores": { "fantome": 3 } }
+        { "label": "Je propose quelque chose de concret pour débloquer la situation", "scores": { "pilier": 3 } },
+        { "label": "Je suis une tentative si quelqu'un d'autre la lance, mais je ne suis pas le/la moteur", "scores": { "present": 2, "fantome": 1 } },
+        { "label": "Je relance discrètement en sondant quelques personnes individuellement", "scores": { "pilier": 2, "present": 1 } },
+        { "label": "Je ne fais pas vraiment de démarche particulière pour relancer les choses", "scores": { "fantome": 3 } }
       ]
     }
   ]

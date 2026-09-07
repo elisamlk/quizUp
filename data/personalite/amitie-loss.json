@@ -2,12 +2,12 @@
   "slug": "test-peur-perdre-amis",
   "title": "Test amitié - As-tu peur de perdre tes amis ?",
   "description": "Tes réactions montrent-elles une peur de perdre tes relations ?",
-  "descriptionSeo": "Silences, réponses tardives, changements d’attitude… ce test analyse tes réactions concrètes pour savoir si tu as peur de perdre tes amis. Ressens-tu parfois de l’inquiétude face à la distance ou aux variations dans tes relations ? À travers des situations réalistes, découvre si tu es serein(e), sensible ou anxieux(se) dans tes liens et ce que cela révèle sur ta manière de vivre l’amitié.",
+  "descriptionSeo": "Silences, réponses tardives, changements d'attitude… ce test analyse tes réactions concrètes pour savoir si tu as peur de perdre tes amis. Ressens-tu parfois de l'inquiétude face à la distance ou aux variations dans tes relations ? À travers des situations réalistes, découvre si tu es serein(e), sensible ou anxieux(se) dans tes liens et ce que cela révèle sur ta manière de vivre l'amitié.",
   "category": {
     "name": "Amitié",
     "slug": "amitie"
   },
-  "createdAt": "2026-04-27",
+  "createdAt": "2026-09-06",
   "isNew": true,
   "isPopular": true,
   "images": {
@@ -19,111 +19,121 @@
     {
       "key": "secure",
       "title": "Tu es plutôt serein(e)",
-      "description": "Tu ne vis pas tes relations dans la peur de les perdre. Tu sais que les liens évoluent naturellement et tu fais confiance à la solidité de tes amitiés. Tu n’as pas besoin de signes constants pour te sentir en sécurité. Cette stabilité émotionnelle te permet d’avoir des relations plus fluides et équilibrées.",
+      "description": "Tu ne vis pas tes relations dans la peur de les perdre. Tu sais que les liens évoluent naturellement et tu fais confiance à la solidité de tes amitiés. Un silence, une annulation ou un changement de rythme ne te déstabilise pas vraiment. Ta force : cette stabilité te permet d'avoir des relations fluides, sans te mettre de pression ni en mettre aux autres. Ta limite : tu peux parfois minimiser un véritable éloignement ou passer à côté d'un signal qui méritait attention.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777466236/apaise_srcy3y.jpg"
     },
     {
       "key": "sensible",
       "title": "Tu es sensible au lien",
-      "description": "Tu tiens à tes relations et tu peux parfois ressentir une certaine inquiétude quand elles changent. Tu remarques les silences, les distances ou les variations dans les échanges. Sans être envahi(e) par la peur, tu restes attentif(ve) à ce qui pourrait fragiliser le lien.",
+      "description": "Tu tiens à tes amitiés et tu remarques quand quelque chose change — un rythme qui ralentit, un ton différent, une distance qui s'installe. Tu n'es pas submergé(e) par la peur, mais tu es attentif(ve) aux petites variations. Ta force : cette sensibilité te rend souvent présent(e) et attentionné(e) envers tes amis. Ta limite : tu peux parfois accorder trop d'importance à un signal anodin et t'inquiéter pour quelque chose qui n'a pas de réelle signification.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777754406/sensitive_qvvhpj.jpg"
     },
     {
       "key": "anxieux",
       "title": "Tu as peur de perdre tes amis",
-      "description": "Tu ressens facilement une inquiétude face à la distance, au silence ou aux changements dans tes relations. Tu peux interpréter certains comportements comme des signes de désintérêt ou d’éloignement. Cette peur peut parfois influencer ta manière d’agir ou de réagir dans tes amitiés.",
+      "description": "Les changements dans tes relations t'affectent assez facilement. Un silence prolongé, une annulation ou un message qui tarde peut rapidement déclencher une inquiétude. Tu es très investi(e) dans tes amitiés et tu tiens énormément aux personnes qui comptent pour toi. Ta force : tu es souvent l'ami(e) qui fait attention aux autres et qui remarque quand quelque chose ne va pas. Ta limite : tu peux parfois surinterpréter des comportements neutres et chercher à être rassuré(e) plus souvent que nécessaire.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777754516/anxious_uyzqhs.jpg"
     }
   ],
   "questions": [
     {
       "id": "1",
-      "question": "Un ami met plus de temps que d’habitude à répondre…",
+      "question": "Un ami avec qui tu échanges souvent ne répond pas depuis deux jours…",
       "answers": [
-        { "label": "Je n’y pense pas plus que ça", "scores": { "secure": 3 } },
-        { "label": "Je me pose un peu la question", "scores": { "sensible": 3 } },
-        { "label": "Je me demande si quelque chose ne va pas", "scores": { "anxieux": 3 } }
+        { "label": "Je relis notre dernière conversation pour voir si j'ai dit quelque chose de gênant", "scores": { "anxieux": 3 } },
+        { "label": "Je laisse passer, il/elle doit être occupé(e)", "scores": { "secure": 3 } },
+        { "label": "Je lui renvoie un message pour prendre des nouvelles, au cas où il y ait un problème", "scores": { "sensible": 2, "anxieux": 1 } },
+        { "label": "Je remarque l'absence mais je ne m'y attarde pas vraiment", "scores": { "secure": 2, "sensible": 1 } }
       ]
     },
     {
       "id": "2",
-      "question": "Tu vois ton ami(e) passer du temps avec d’autres personnes…",
+      "question": "Tu vois sur les réseaux que ton ami(e) sort avec un groupe de personnes que tu ne connais pas, sans t'avoir mentionné ce plan…",
       "answers": [
-        { "label": "Ça ne change rien pour moi", "scores": { "secure": 3 } },
-        { "label": "Je remarque un peu", "scores": { "sensible": 3 } },
-        { "label": "Je me sens mis(e) de côté", "scores": { "anxieux": 3 } }
+        { "label": "Je suis content(e) pour lui/elle et je n'y pense plus", "scores": { "secure": 3 } },
+        { "label": "Je remarque et ça me fait vaguement réfléchir à notre relation", "scores": { "sensible": 2, "anxieux": 1 } },
+        { "label": "Je me demande si je suis moins proche de lui/elle qu'avant", "scores": { "anxieux": 3 } },
+        { "label": "Je note que je n'y étais pas, mais ça ne me dérange pas plus que ça", "scores": { "secure": 2, "sensible": 1 } }
       ]
     },
     {
       "id": "3",
-      "question": "Une conversation devient moins régulière…",
+      "question": "Vous vous écriviez presque tous les jours et depuis quelques semaines, les messages sont devenus beaucoup plus rares…",
       "answers": [
-        { "label": "Je laisse évoluer naturellement", "scores": { "secure": 3 } },
-        { "label": "Je remarque le changement", "scores": { "sensible": 3 } },
-        { "label": "Je me demande si le lien se perd", "scores": { "anxieux": 3 } }
+        { "label": "Je remarque le changement et j'espère que ça ne va pas continuer dans ce sens", "scores": { "sensible": 2, "anxieux": 1 } },
+        { "label": "Je relis nos échanges pour essayer de comprendre à partir de quand ça a changé", "scores": { "anxieux": 3 } },
+        { "label": "Je lui propose de se voir pour renouer un peu", "scores": { "sensible": 2, "secure": 1 } },
+        { "label": "Je me dis que c'est normal, les rythmes changent", "scores": { "secure": 3 } }
       ]
     },
     {
       "id": "4",
-      "question": "Un ami annule un plan…",
+      "question": "Un ami annule un plan au dernier moment pour la deuxième fois en peu de temps…",
       "answers": [
-        { "label": "Je comprends sans problème", "scores": { "secure": 3 } },
-        { "label": "Je suis un peu déçu(e)", "scores": { "sensible": 3 } },
-        { "label": "Je le prends personnellement", "scores": { "anxieux": 3 } }
+        { "label": "Je me demande si je suis vraiment une priorité pour lui/elle", "scores": { "anxieux": 2, "sensible": 1 } },
+        { "label": "Je comprends sans trop y penser, ça arrive à tout le monde", "scores": { "secure": 3 } },
+        { "label": "Je passe à autre chose mais quelque chose me reste en tête", "scores": { "sensible": 3 } },
+        { "label": "Je lui dis que ça commence à me peser, avec bienveillance", "scores": { "sensible": 2, "secure": 1 } }
       ]
     },
     {
       "id": "5",
-      "question": "Tu n’as pas de nouvelles pendant quelques jours…",
+      "question": "Lors d'une soirée, tu as l'impression que ton ami(e) était moins disponible pour toi que d'habitude…",
       "answers": [
-        { "label": "Ça ne m’inquiète pas", "scores": { "secure": 3 } },
-        { "label": "Je me pose des questions", "scores": { "sensible": 3 } },
-        { "label": "Je me sens mal ou inquiet(e)", "scores": { "anxieux": 3 } }
+        { "label": "Je m'interroge un peu et je surveille si ça se reproduit", "scores": { "sensible": 2, "anxieux": 1 } },
+        { "label": "Je me demande si j'ai fait quelque chose qui a créé de la distance", "scores": { "anxieux": 3 } },
+        { "label": "Je remarque mais je n'en fais pas un sujet de conversation", "scores": { "secure": 2, "sensible": 1 } },
+        { "label": "Je me dis qu'il/elle avait peut-être juste envie de voir d'autres gens ce soir-là", "scores": { "secure": 3 } }
       ]
     },
     {
       "id": "6",
-      "question": "Une relation change de rythme…",
+      "question": "Un ami déménage dans une autre région. Vous vous verrez beaucoup moins souvent à partir de maintenant…",
       "answers": [
-        { "label": "Je m’adapte facilement", "scores": { "secure": 3 } },
-        { "label": "Je mets du temps à m’adapter", "scores": { "sensible": 3 } },
-        { "label": "Ça me perturbe beaucoup", "scores": { "anxieux": 3 } }
+        { "label": "J'ai peur que la distance finisse par avoir raison de notre amitié", "scores": { "anxieux": 3 } },
+        { "label": "Je me dis que les vraies amitiés survivent à la distance", "scores": { "secure": 3 } },
+        { "label": "Je suis triste mais je fais confiance au fait qu'on gardera le lien", "scores": { "secure": 2, "sensible": 1 } },
+        { "label": "Je m'organise rapidement pour planifier des visites et maintenir le contact", "scores": { "sensible": 2, "secure": 1 } }
       ]
     },
     {
       "id": "7",
-      "question": "Tu hésites à envoyer un message…",
+      "question": "Après un désaccord léger, ton ami(e) n'a pas relancé la conversation depuis quelques jours…",
       "answers": [
-        { "label": "Je l’envoie sans réfléchir", "scores": { "secure": 3 } },
-        { "label": "Je réfléchis un peu", "scores": { "sensible": 3 } },
-        { "label": "Je me demande comment ça sera perçu", "scores": { "anxieux": 3 } }
+        { "label": "Je laisse le temps faire les choses, ce n'était pas grand-chose", "scores": { "secure": 3 } },
+        { "label": "Je me demande si notre relation a été abîmée par cet échange", "scores": { "anxieux": 3 } },
+        { "label": "Je remarque le silence mais je ne veux pas en faire plus que nécessaire", "scores": { "secure": 2, "sensible": 1 } },
+        { "label": "Je lui écris pour m'assurer qu'on est bien, même brièvement", "scores": { "sensible": 2, "anxieux": 1 } }
       ]
     },
     {
       "id": "8",
-      "question": "Tu sens une distance dans une relation…",
+      "question": "Tu envoies un message un peu personnel et tu n'obtiens qu'une réponse très courte et neutre…",
       "answers": [
-        { "label": "Je laisse de l’espace", "scores": { "secure": 3 } },
-        { "label": "J’essaie de comprendre", "scores": { "sensible": 3 } },
-        { "label": "Je me sens inquiet(e)", "scores": { "anxieux": 3 } }
+        { "label": "Je relis mon message plusieurs fois pour voir si quelque chose a pu le/la mettre mal à l'aise", "scores": { "anxieux": 3 } },
+        { "label": "Je remarque que la réponse était courte et j'espère que tout va bien de son côté", "scores": { "sensible": 2, "secure": 1 } },
+        { "label": "Je me dis que ce n'était peut-être pas le bon moment pour lui/elle", "scores": { "secure": 3 } },
+        { "label": "Je me demande si j'aurais dû formuler ça différemment", "scores": { "anxieux": 2, "sensible": 1 } }
       ]
     },
     {
       "id": "9",
-      "question": "Tu repenses à une interaction récente…",
+      "question": "Un ami publie beaucoup sur les réseaux en ce moment mais répond peu à tes messages…",
       "answers": [
-        { "label": "Je n’analyse pas plus", "scores": { "secure": 3 } },
-        { "label": "Je me pose quelques questions", "scores": { "sensible": 3 } },
-        { "label": "Je suranalyse beaucoup", "scores": { "anxieux": 3 } }
+        { "label": "Je me demande s'il/elle m'évite ou si quelque chose a changé dans sa tête", "scores": { "anxieux": 3 } },
+        { "label": "Je remarque le décalage et ça me laisse un peu perplexe", "scores": { "sensible": 2, "secure": 1 } },
+        { "label": "Je finis par lui demander si quelque chose a changé entre nous", "scores": { "sensible": 2, "anxieux": 1 } },
+        { "label": "Je me dis que les réseaux et les messages privés, c'est deux choses différentes", "scores": { "secure": 3 } }
       ]
     },
     {
       "id": "10",
-      "question": "Un ami semble un peu plus distant que d’habitude…",
+      "question": "Avant de lui envoyer un message un peu direct ou émotionnel, tu t'arrêtes un moment…",
       "answers": [
-        { "label": "Je ne dramatise pas", "scores": { "secure": 3 } },
-        { "label": "Je remarque et j’y pense", "scores": { "sensible": 3 } },
-        { "label": "Je crains de perdre la relation", "scores": { "anxieux": 3 } }
+        { "label": "Je pèse vraiment chaque mot parce que je ne veux pas créer de malaise ou de distance", "scores": { "anxieux": 3 } },
+        { "label": "Je prends quelques secondes pour tourner ça correctement, mais j'envoie", "scores": { "secure": 2, "sensible": 1 } },
+        { "label": "Je me demande comment il/elle va le recevoir et je reformule plusieurs fois", "scores": { "sensible": 2, "anxieux": 1 } },
+        { "label": "Je l'envoie sans trop réfléchir, c'est un(e) ami(e)", "scores": { "secure": 3 } }
       ]
     }
   ]

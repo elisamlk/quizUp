@@ -1,13 +1,13 @@
 {
   "slug": "test-role-dans-groupe-amis",
-  "title": "Test amitié - Quel rôle joues-tu vraiment dans ton groupe d’amis ?",
+  "title": "Test amitié - Quel rôle joues-tu vraiment dans ton groupe d'amis ?",
   "description": "Dans ton groupe, es-tu leader, soutien, discret ou moteur ?",
-  "descriptionSeo": "Organisation des sorties, gestion des tensions, messages dans le groupe ou réactions en soirée… ce test analyse tes comportements concrets pour révéler le rôle que tu occupes vraiment dans ton groupe d’amis. Es-tu celui ou celle qui mène, soutient, met l’ambiance ou observe ? À travers des situations du quotidien, découvre la place que tu prends naturellement et ce que ta présence apporte aux autres.",
+  "descriptionSeo": "Organisation des sorties, gestion des tensions, messages dans le groupe ou réactions en soirée… ce test analyse tes comportements concrets pour révéler le rôle que tu occupes vraiment dans ton groupe d'amis. Es-tu celui ou celle qui mène, soutient, met l'ambiance ou observe ? À travers des situations du quotidien, découvre la place que tu prends naturellement et ce que ta présence apporte aux autres.",
   "category": {
     "name": "Amitié",
     "slug": "amitie"
   },
-  "createdAt": "2026-04-27",
+  "createdAt": "2026-09-06",
   "isNew": true,
   "isPopular": true,
   "images": {
@@ -19,127 +19,127 @@
     {
       "key": "leader",
       "title": "Le/La leader",
-      "description": "Tu es souvent à l’initiative dans ton groupe. C’est toi qui proposes, qui organise et qui donne le ton. Les autres comptent naturellement sur toi pour lancer les idées ou structurer les moments. Tu aimes que les choses avancent et tu prends facilement des décisions. Sans forcément le chercher, tu occupes une place centrale dans la dynamique du groupe.",
+      "description": "Tu es souvent à l'initiative dans ton groupe. C'est toi qui proposes, qui organise et qui donne le ton. Les autres comptent naturellement sur toi pour lancer les idées ou débloquer les situations. Tu aimes que les choses avancent et tu n'attends pas que ça vienne des autres. Ta force : sans toi, beaucoup de moments n'auraient tout simplement pas eu lieu. Ta limite : tu peux parfois avoir du mal à laisser les autres prendre les commandes, ou te retrouver à tout porter sans que ça soit vraiment partagé.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777724220/leader-friend_diqqvu.jpg"
     },
     {
       "key": "soutien",
       "title": "Le/La soutien",
-      "description": "Tu es la personne sur qui on peut compter. Tu écoutes, tu conseilles et tu es présent(e) quand quelqu’un en a besoin. Tu ne cherches pas forcément à diriger, mais tu apportes une stabilité essentielle au groupe. Tu es souvent celui ou celle qui apaise, comprend et soutient les autres.",
+      "description": "Tu es la personne sur qui on peut compter quand ça compte vraiment. Tu écoutes, tu comprends, tu sais quand quelqu'un ne va pas — même sans qu'il le dise. Tu n'as pas besoin d'être au centre pour être indispensable. Ta force : tu apportes une stabilité émotionnelle au groupe que peu de gens savent vraiment offrir. Ta limite : tu prends tellement soin des autres que tu peux oublier d'exprimer tes propres besoins ou de demander à ton tour qu'on soit là pour toi.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777724219/friend-support_kdpsbv.jpg"
     },
     {
       "key": "fun",
       "title": "Le/La moteur fun",
-      "description": "Tu es celui ou celle qui met de l’énergie dans le groupe. Tu apportes de la légèreté, des idées spontanées et une bonne ambiance. Tu n’es pas forcément dans l’organisation, mais tu rends les moments vivants. Ta présence dynamise le groupe et crée des souvenirs.",
+      "description": "Tu es celui ou celle qui transforme un moment ordinaire en souvenir. Tu apportes de l'énergie, des idées spontanées et une capacité à entraîner les autres là où ils n'auraient pas osé aller seuls. Tu n'es pas forcément dans l'organisation, mais tu rends les moments vivants. Ta force : quand tu es là, l'ambiance change — et tout le monde le ressent. Ta limite : tu peux parfois utiliser la légèreté comme réflexe, y compris dans des moments où le groupe aurait besoin de davantage de sérieux.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777724219/fun-friend_vovtxp.jpg"
     },
     {
       "key": "discret",
       "title": "Le/La discret(e)",
-      "description": "Tu es plus en retrait, mais tout aussi important(e). Tu observes, tu participes à ta manière et tu n’as pas besoin d’être au centre pour te sentir bien. Tu es souvent attentif(ve) aux autres sans forcément le montrer. Ta présence est calme, mais essentielle à l’équilibre du groupe.",
+      "description": "Tu observes beaucoup avant d'intervenir, et quand tu le fais, c'est souvent juste. Tu remarques des choses que les autres ne voient pas — la personne qui se sent à l'écart, la tension qui monte, le moment où quelqu'un a besoin d'une vraie conversation. Tu préfères les échanges individuels aux grands groupes. Ta force : ta présence calme et attentive est souvent ce qui donne de la profondeur aux relations dans le groupe. Ta limite : tu peux avoir beaucoup à apporter sans toujours l'exprimer, et certains peuvent mal interpréter ton retrait.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777724219/discrete_wwm1yd.jpg"
     }
   ],
   "questions": [
     {
       "id": "1",
-      "question": "Un groupe WhatsApp est silencieux depuis plusieurs jours…",
+      "question": "Le groupe WhatsApp est silencieux depuis plusieurs jours. Personne ne lance rien…",
       "answers": [
-        { "label": "Je relance avec une idée de sortie", "scores": { "leader": 3 } },
-        { "label": "J’envoie un message pour prendre des nouvelles", "scores": { "soutien": 3 } },
-        { "label": "J’envoie un truc drôle ou un meme", "scores": { "fun": 3 } },
-        { "label": "Je lis sans intervenir", "scores": { "discret": 3 } }
+        { "label": "Je propose une date et un lieu concrets pour qu'on se retrouve enfin", "scores": { "leader": 3 } },
+        { "label": "J'envoie quelque chose pour faire rire et relancer l'énergie du groupe", "scores": { "fun": 2, "leader": 1 } },
+        { "label": "Je lis les messages sans intervenir, j'attends que ça reparte naturellement", "scores": { "discret": 3 } },
+        { "label": "J'envoie un message pour prendre des nouvelles de chacun", "scores": { "soutien": 2, "discret": 1 } }
       ]
     },
     {
       "id": "2",
-      "question": "Il faut organiser une soirée…",
+      "question": "Le groupe n'arrive pas à se mettre d'accord sur une activité. Ça tourne en rond depuis un moment…",
       "answers": [
-        { "label": "Je prends les choses en main", "scores": { "leader": 3 } },
-        { "label": "J’aide à organiser", "scores": { "soutien": 3 } },
-        { "label": "Je suis surtout là pour l’ambiance", "scores": { "fun": 3 } },
-        { "label": "Je suis ce que les autres décident", "scores": { "discret": 3 } }
+        { "label": "Je remarque que quelqu'un semble moins enthousiaste que les autres et je lui demande discrètement ce qu'il/elle préfère vraiment", "scores": { "discret": 2, "soutien": 1 } },
+        { "label": "Je tranche et je propose quelque chose de précis pour qu'on avance", "scores": { "leader": 3 } },
+        { "label": "Je lance une idée inattendue ou un peu folle pour sortir du débat", "scores": { "fun": 3 } },
+        { "label": "J'essaie de trouver le compromis qui convienne à tout le monde", "scores": { "soutien": 2, "leader": 1 } }
       ]
     },
     {
       "id": "3",
-      "question": "Deux amis ont un petit conflit…",
+      "question": "Pendant une soirée, tu remarques qu'un ami est resté dans son coin depuis un moment…",
       "answers": [
-        { "label": "J’essaie de régler le problème", "scores": { "leader": 3 } },
-        { "label": "Je parle avec chacun pour comprendre", "scores": { "soutien": 3 } },
-        { "label": "Je détends l’atmosphère", "scores": { "fun": 3 } },
-        { "label": "Je reste en retrait", "scores": { "discret": 3 } }
+        { "label": "Je vais le voir et je trouve un moyen de l'intégrer à la conversation générale", "scores": { "soutien": 2, "leader": 1 } },
+        { "label": "Je vais lui parler directement pour voir comment il va", "scores": { "soutien": 3 } },
+        { "label": "Je reste attentif(ve) à lui sans intervenir immédiatement — je vois d'abord s'il s'en sort seul", "scores": { "discret": 2, "soutien": 1 } },
+        { "label": "Je l'entraîne vers quelque chose de sympa pour lui changer les idées", "scores": { "fun": 2, "soutien": 1 } }
       ]
     },
     {
       "id": "4",
-      "question": "En soirée avec ton groupe…",
+      "question": "Deux amis ont eu un accrochage et l'ambiance est tendue dans le groupe…",
       "answers": [
-        { "label": "Je gère un peu tout", "scores": { "leader": 3 } },
-        { "label": "Je fais attention à tout le monde", "scores": { "soutien": 3 } },
-        { "label": "Je fais rire et bouge", "scores": { "fun": 3 } },
-        { "label": "Je reste plus posé(e)", "scores": { "discret": 3 } }
+        { "label": "Je glisse une blague ou je lance un autre sujet pour désamorcer", "scores": { "fun": 2, "discret": 1 } },
+        { "label": "Je prends les choses en main et je propose qu'on en parle ouvertement", "scores": { "leader": 3 } },
+        { "label": "J'observe la situation sans intervenir, je parlerai à chacun individuellement plus tard", "scores": { "discret": 2, "soutien": 1 } },
+        { "label": "Je parle à chacun séparément pour comprendre ce qui s'est passé", "scores": { "soutien": 3 } }
       ]
     },
     {
       "id": "5",
-      "question": "Un plan de groupe tombe à l’eau…",
+      "question": "Un nouveau rejoint le groupe pour la première fois lors d'une sortie…",
       "answers": [
-        { "label": "Je propose une alternative", "scores": { "leader": 3 } },
-        { "label": "Je vois comment chacun se sent", "scores": { "soutien": 3 } },
-        { "label": "Je lance une idée spontanée", "scores": { "fun": 3 } },
-        { "label": "Je m’adapte sans rien dire", "scores": { "discret": 3 } }
+        { "label": "Je l'accueille, je fais les présentations et je l'intègre à la conversation", "scores": { "leader": 2, "soutien": 1 } },
+        { "label": "Je l'observe d'abord, puis je lui parle en tête à tête quand l'occasion se présente", "scores": { "discret": 3 } },
+        { "label": "Je m'assure qu'il/elle se sente à l'aise et je lui pose des questions pour briser la glace", "scores": { "soutien": 2, "fun": 1 } },
+        { "label": "Je l'entraîne dans quelque chose de sympa pour le/la mettre directement dans l'ambiance", "scores": { "fun": 2, "leader": 1 } }
       ]
     },
     {
       "id": "6",
-      "question": "Dans une discussion de groupe…",
+      "question": "Pendant une sortie, quelque chose tourne mal — retard, lieu fermé, plan qui s'effondre…",
       "answers": [
-        { "label": "Je mène souvent le sujet", "scores": { "leader": 3 } },
-        { "label": "J’écoute beaucoup", "scores": { "soutien": 3 } },
-        { "label": "Je fais rebondir avec humour", "scores": { "fun": 3 } },
-        { "label": "Je parle peu", "scores": { "discret": 3 } }
+        { "label": "Je reste calme et j'observe comment les autres réagissent avant d'intervenir", "scores": { "discret": 2, "soutien": 1 } },
+        { "label": "Je propose immédiatement une alternative pour qu'on ne reste pas dans le flou", "scores": { "leader": 3 } },
+        { "label": "Je transforme la situation en moment improvisé — parfois les meilleurs souvenirs naissent des imprévus", "scores": { "fun": 3 } },
+        { "label": "Je vérifie d'abord que tout le monde va bien et que personne n'est trop déçu", "scores": { "soutien": 2, "discret": 1 } }
       ]
     },
     {
       "id": "7",
-      "question": "Un ami ne va pas bien…",
+      "question": "Il faut organiser quelque chose de plus structuré — anniversaire, week-end, événement…",
       "answers": [
-        { "label": "Je prends les devants", "scores": { "leader": 3 } },
-        { "label": "Je suis très présent(e) pour lui", "scores": { "soutien": 3 } },
-        { "label": "J’essaie de lui changer les idées", "scores": { "fun": 3 } },
-        { "label": "Je reste discret mais présent", "scores": { "discret": 3 } }
+        { "label": "Je prends les choses en main naturellement : dates, lieu, coordination", "scores": { "leader": 3 } },
+        { "label": "Je m'occupe de ce qui touche aux personnes — invitations, besoins de chacun, bonne ambiance", "scores": { "soutien": 2, "leader": 1 } },
+        { "label": "J'apporte les idées originales et l'enthousiasme, mais je laisse les autres gérer la logistique", "scores": { "fun": 2, "discret": 1 } },
+        { "label": "Je contribue discrètement là où c'est utile, sans avoir besoin d'être en première ligne", "scores": { "discret": 2, "soutien": 1 } }
       ]
     },
     {
       "id": "8",
-      "question": "Tu dois proposer une idée de sortie…",
+      "question": "Un ami traverse une mauvaise passe. Tu l'apprends lors d'une soirée de groupe…",
       "answers": [
-        { "label": "Je décide assez vite", "scores": { "leader": 3 } },
-        { "label": "Je demande l’avis des autres", "scores": { "soutien": 3 } },
-        { "label": "Je propose un truc original", "scores": { "fun": 3 } },
-        { "label": "Je préfère ne pas proposer", "scores": { "discret": 3 } }
+        { "label": "Je l'emmène à l'écart pour qu'on puisse vraiment parler", "scores": { "soutien": 3 } },
+        { "label": "Je remarque son état avant les autres et je le garde dans un coin de ma tête pour lui écrire plus tard", "scores": { "discret": 2, "soutien": 1 } },
+        { "label": "J'essaie de lui redonner le sourire en faisant quelque chose pour l'alléger", "scores": { "fun": 2, "soutien": 1 } },
+        { "label": "Je propose au groupe qu'on prévoit un moment spécifiquement pour lui/elle", "scores": { "leader": 2, "soutien": 1 } }
       ]
     },
     {
       "id": "9",
-      "question": "Ton groupe te décrit comme…",
+      "question": "La conversation de groupe devient sérieuse et un peu lourde. Tout le monde semble dans ses pensées…",
       "answers": [
-        { "label": "Celui/celle qui gère", "scores": { "leader": 3 } },
-        { "label": "Celui/celle sur qui on peut compter", "scores": { "soutien": 3 } },
-        { "label": "Celui/celle qui met l’ambiance", "scores": { "fun": 3 } },
-        { "label": "Celui/celle plus discret(e)", "scores": { "discret": 3 } }
+        { "label": "Je laisse la conversation se dérouler, parfois les moments lourds sont nécessaires", "scores": { "discret": 2, "soutien": 1 } },
+        { "label": "Je glisse quelque chose de léger pour détendre l'atmosphère sans couper le sujet", "scores": { "fun": 3 } },
+        { "label": "Je pose une question qui oriente la conversation vers quelque chose de plus constructif", "scores": { "leader": 2, "soutien": 1 } },
+        { "label": "Je laisse les gens parler, mais je fais attention à ceux qui semblent moins bien", "scores": { "soutien": 2, "discret": 1 } }
       ]
     },
     {
       "id": "10",
-      "question": "Sans toi dans le groupe…",
+      "question": "Le groupe parle de se retrouver bientôt mais personne ne concrétise. Ça traîne depuis des semaines…",
       "answers": [
-        { "label": "Il manquerait de structure", "scores": { "leader": 3 } },
-        { "label": "Il manquerait de soutien", "scores": { "soutien": 3 } },
-        { "label": "Il manquerait d’énergie", "scores": { "fun": 3 } },
-        { "label": "Il serait différent sans qu’on sache pourquoi", "scores": { "discret": 3 } }
+        { "label": "Je fixe une date moi-même et j'envoie ça dans le groupe pour débloquer la situation", "scores": { "leader": 3 } },
+        { "label": "Je continue à suivre les échanges sans prendre l'initiative de lancer quelque chose", "scores": { "discret": 2, "fun": 1 } },
+        { "label": "Je propose une idée originale ou inattendue pour redonner envie à tout le monde de se retrouver", "scores": { "fun": 2, "leader": 1 } },
+        { "label": "Je contacte quelques personnes individuellement pour voir qui est vraiment disponible et motivé", "scores": { "soutien": 2, "leader": 1 } }
       ]
     }
   ]
