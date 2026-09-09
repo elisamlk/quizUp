@@ -1,13 +1,13 @@
 {
   "slug": "test-fatigue-ou-demotivation",
   "title": "Test bien-être - Es-tu vraiment fatigué(e) ou juste démotivé(e) ?",
-  "description": "Ta baisse d’énergie vient-elle de la fatigue ou d’un manque de motivation ?",
-  "descriptionSeo": "Manque d’énergie, procrastination, fatigue mentale… ce test t’aide à comprendre si tu es réellement épuisé(e) ou simplement démotivé(e). À travers des situations concrètes, découvre ce qui influence vraiment ton énergie au quotidien.",
+  "description": "Ta baisse d'énergie vient-elle de la fatigue ou d'un manque de motivation ?",
+  "descriptionSeo": "Difficulté à démarrer, concentration qui décroche, procrastination, manque d'envie, repos qui ne suffit plus… ce test t'aide à comprendre si ta baisse d'énergie ressemble davantage à une fatigue persistante ou à un manque de stimulation et de motivation. À travers dix situations concrètes du quotidien — réveil, activités plaisantes, concentration, annulation de plans, journée libre — découvre ce qui influence vraiment ton niveau d'énergie en ce moment.",
   "category": {
     "name": "Bien-être",
     "slug": "bien-etre"
   },
-  "createdAt": "2026-04-27",
+  "createdAt": "2026-09-08",
   "isNew": true,
   "isPopular": true,
   "images": {
@@ -18,113 +18,243 @@
   "profiles": [
     {
       "key": "fatigue",
-      "title": "Vraiment fatigué(e)",
-      "description": "Ton manque d’énergie semble réel. Tu ressens une fatigue physique ou mentale qui ne disparaît pas simplement avec un peu de motivation. Tu peux te sentir vidé(e), lent(e) ou avoir du mal à te concentrer. Même les choses que tu aimes demandent un effort. Ton corps ou ton esprit te demandent du repos. Il est important de ralentir, de récupérer et de prendre soin de toi sans culpabiliser.",
+      "title": "Plutôt fatigué(e)",
+      "description": "Tes réponses ressemblent davantage à une fatigue persistante qu'à un simple manque d'envie. La baisse d'énergie semble présente même quand quelque chose te plaît ou t'intéresse — ce qui est assez différent d'un manque de motivation. Le repos change peut-être peu de choses à court terme, ou tu te retrouves vite épuisé(e) même après t'être lancé(e). Ce n'est pas un diagnostic, mais un signal qui mérite d'être pris au sérieux : ton énergie a peut-être besoin de plus que quelques heures de récupération.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777381618/tired_v2xbko.jpg"
     },
     {
       "key": "demotivation",
       "title": "Plutôt démotivé(e)",
-      "description": "Ton énergie est là, mais elle ne s’active pas facilement. Tu peux procrastiner, repousser ou manquer d’envie, surtout face à certaines tâches. Pourtant, quand quelque chose te motive vraiment, tu retrouves de l’énergie rapidement. Ce n’est pas une fatigue profonde, mais plutôt un manque d’engagement ou de stimulation. Tu as surtout besoin de retrouver du sens, du plaisir ou un objectif clair.",
+      "description": "Tes réponses ressemblent davantage à un manque de motivation qu'à une vraie fatigue. L'énergie semble disponible — elle ne s'active pas facilement, mais quand quelque chose t'intéresse ou te plaît vraiment, elle revient assez vite. La difficulté est surtout dans le démarrage ou dans le fait de trouver quelque chose qui en vaille la peine. Ce n'est pas un jugement : la démotivation peut être aussi inconfortable que la fatigue, et elle mérite aussi d'être comprise.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777381613/demotivation_goipxv.jpg"
     },
     {
       "key": "mixte",
       "title": "Entre fatigue et démotivation",
-      "description": "Tu es dans un entre-deux. Tu ressens à la fois de la fatigue et un manque de motivation. Parfois tu manques d’énergie réelle, parfois c’est surtout mental. Tu peux osciller entre des moments où tu n’as pas la force et d’autres où tu pourrais agir mais tu n’en as pas envie. Ton état varie selon les périodes. Il te faut à la fois du repos et un regain de motivation.",
+      "description": "Tes réponses mêlent les deux tendances sans qu'une seule domine clairement. Tu peux traverser des moments où l'énergie revient pour ce qui te plaît, et d'autres où même ça ne suffit pas. Il est possible que fatigue et manque de motivation se renforcent mutuellement — l'un rendant l'autre plus difficile à surmonter. Les deux méritent d'être pris en compte.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777381721/mixte_adqs4c.jpg"
     }
   ],
-"questions": [
-  {
-    "id": "1",
-    "question": "Ton réveil sonne, tu dois te lever…",
-    "answers": [
-      { "label": "Mon corps est lourd, j’ai du mal physiquement", "scores": { "fatigue": 3 } },
-      { "label": "Je pourrais me lever mais j’ai zéro envie", "scores": { "demotivation": 3 } },
-      { "label": "Ça dépend vraiment des jours", "scores": { "mixte": 3 } }
-    ]
-  },
-  {
-    "id": "2",
-    "question": "Tu dois faire une tâche simple (mail, rangement)…",
-    "answers": [
-      { "label": "Même ça me demande un effort énorme", "scores": { "fatigue": 3 } },
-      { "label": "Je procrastine sans raison", "scores": { "demotivation": 3 } },
-      { "label": "Parfois facile, parfois non", "scores": { "mixte": 3 } }
-    ]
-  },
-  {
-    "id": "3",
-    "question": "Quelqu’un te propose une activité que tu aimes…",
-    "answers": [
-      { "label": "Je refuse car je suis trop fatigué(e)", "scores": { "fatigue": 3 } },
-      { "label": "Je dis oui et je retrouve de l’énergie", "scores": { "demotivation": 3 } },
-      { "label": "Ça dépend de mon état du moment", "scores": { "mixte": 3 } }
-    ]
-  },
-  {
-    "id": "4",
-    "question": "Tu scrolles sur ton téléphone sans t’arrêter…",
-    "answers": [
-      { "label": "Parce que je n’ai pas l’énergie de faire autre chose", "scores": { "fatigue": 3 } },
-      { "label": "Parce que je fuis ce que je dois faire", "scores": { "demotivation": 3 } },
-      { "label": "Un peu des deux", "scores": { "mixte": 3 } }
-    ]
-  },
-  {
-    "id": "5",
-    "question": "Après une bonne nuit de sommeil…",
-    "answers": [
-      { "label": "Je suis encore fatigué(e)", "scores": { "fatigue": 3 } },
-      { "label": "Je me sens mieux mais pas motivé(e)", "scores": { "demotivation": 3 } },
-      { "label": "Ça change selon les jours", "scores": { "mixte": 3 } }
-    ]
-  },
-  {
-    "id": "6",
-    "question": "Tu dois te concentrer 30 minutes sur quelque chose…",
-    "answers": [
-      { "label": "Je décroche à cause de la fatigue", "scores": { "fatigue": 3 } },
-      { "label": "Je n’arrive pas à m’y mettre", "scores": { "demotivation": 3 } },
-      { "label": "Ça dépend du moment", "scores": { "mixte": 3 } }
-    ]
-  },
-  {
-    "id": "7",
-    "question": "Tu annules un plan au dernier moment…",
-    "answers": [
-      { "label": "Parce que je suis épuisé(e)", "scores": { "fatigue": 3 } },
-      { "label": "Parce que je n’ai plus envie", "scores": { "demotivation": 3 } },
-      { "label": "Ça dépend du contexte", "scores": { "mixte": 3 } }
-    ]
-  },
-  {
-    "id": "8",
-    "question": "Quand tu penses à ta journée…",
-    "answers": [
-      { "label": "Je me sens vidé(e) d’avance", "scores": { "fatigue": 3 } },
-      { "label": "Rien ne me donne envie", "scores": { "demotivation": 3 } },
-      { "label": "C’est variable", "scores": { "mixte": 3 } }
-    ]
-  },
-  {
-    "id": "9",
-    "question": "Tu te forces à faire quelque chose…",
-    "answers": [
-      { "label": "Je suis vite épuisé(e)", "scores": { "fatigue": 3 } },
-      { "label": "Une fois lancé(e), ça va", "scores": { "demotivation": 3 } },
-      { "label": "Ça dépend des moments", "scores": { "mixte": 3 } }
-    ]
-  },
-  {
-    "id": "10",
-    "question": "Ton ressenti le plus fréquent en ce moment…",
-    "answers": [
-      { "label": "Manque d’énergie physique", "scores": { "fatigue": 3 } },
-      { "label": "Manque d’envie", "scores": { "demotivation": 3 } },
-      { "label": "Un mélange des deux", "scores": { "mixte": 3 } }
-    ]
-  }
-]
+  "questions": [
+    {
+      "id": "1",
+      "question": "Ton réveil sonne. Tu sais qu'une activité que tu aimes est prévue dans la matinée. Comment tu démarres ?",
+      "answers": [
+        {
+          "label": "La perspective de cette activité m'aide à me lever — une fois debout, ça va",
+          "scores": { "demotivation": 2, "mixte": 1 }
+        },
+        {
+          "label": "Si quelque chose qui me plaît est prévu, ça change clairement mon démarrage — sans ça, j'aurais beaucoup plus de mal à me lever",
+          "scores": { "demotivation": 3 }
+        },
+        {
+          "label": "Même avec quelque chose d'agréable prévu, le corps est lourd et lent à démarrer",
+          "scores": { "fatigue": 2, "mixte": 1 }
+        },
+        {
+          "label": "Je me lève, mais l'énergie reste basse quelle que soit la journée qui m'attend",
+          "scores": { "fatigue": 3 }
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "question": "Tu dois répondre à quelques messages ou ranger quelques affaires. Qu'est-ce qui se passe ?",
+      "answers": [
+        {
+          "label": "J'ai du mal à commencer, mais une fois lancé(e) ça se passe bien",
+          "scores": { "demotivation": 3 }
+        },
+        {
+          "label": "Je démarre sans trop de résistance et je termine normalement",
+          "scores": { "demotivation": 2, "mixte": 1 }
+        },
+        {
+          "label": "Je commence, mais je m'essouffle rapidement — maintenir l'effort est difficile",
+          "scores": { "fatigue": 2, "mixte": 1 }
+        },
+        {
+          "label": "Même ces petites choses me demandent plus d'énergie que je n'en ai",
+          "scores": { "fatigue": 3 }
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "question": "Un ami te propose de faire quelque chose que tu aimes vraiment — une activité, une sortie, un moment qui te plaît habituellement. Comment tu réagis ?",
+      "answers": [
+        {
+          "label": "L'idée m'attire, et ça suffit à me donner de l'élan pour y aller",
+          "scores": { "demotivation": 3 }
+        },
+        {
+          "label": "Je veux y aller et j'y vais, mais je sens que ça me demande quand même un effort physique",
+          "scores": { "fatigue": 2, "mixte": 1 }
+        },
+        {
+          "label": "Je décline — même si c'est quelque chose que j'aime, je n'ai vraiment pas l'énergie",
+          "scores": { "fatigue": 3 }
+        },
+        {
+          "label": "Ça dépend : parfois l'envie revient, parfois même ça ne me motive pas",
+          "scores": { "mixte": 2, "fatigue": 1 }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "question": "Tu scrolles sur ton téléphone depuis un bon moment. Une notification arrive pour quelque chose qui t'intéresse vraiment. Que se passe-t-il ?",
+      "answers": [
+        {
+          "label": "Je pose le téléphone et je m'y mets — c'est exactement ce qu'il me fallait pour décrocher du scroll",
+          "scores": { "demotivation": 3 }
+        },
+        {
+          "label": "Je regarde mais je reste sur le téléphone — je n'arrive pas vraiment à changer d'activité",
+          "scores": { "fatigue": 2, "mixte": 1 }
+        },
+        {
+          "label": "Je m'y intéresse un moment, puis je reviens au scroll — l'impulsion ne tient pas longtemps",
+          "scores": { "mixte": 2, "demotivation": 1 }
+        },
+        {
+          "label": "Je le vois, mais je n'ai pas vraiment l'énergie de faire quoi que ce soit de différent",
+          "scores": { "fatigue": 3 }
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "question": "Tu as eu une nuit correcte — pas parfaite, mais suffisante. Comment tu te sens au réveil ?",
+      "answers": [
+        {
+          "label": "Reposé(e) physiquement, mais pas franchement motivé(e) à attaquer la journée",
+          "scores": { "demotivation": 3 }
+        },
+        {
+          "label": "Encore fatigué(e) — une nuit suffisante ne change pas grand-chose à mon niveau d'énergie",
+          "scores": { "fatigue": 3 }
+        },
+        {
+          "label": "Globalement en forme — le sommeil me recharge bien en général",
+          "scores": { "demotivation": 2, "mixte": 1 }
+        },
+        {
+          "label": "Ça varie — parfois le sommeil aide, parfois la fatigue est là de toute façon",
+          "scores": { "mixte": 2, "fatigue": 1 }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "question": "Ta journée contient une obligation peu enthousiasmante et une activité que tu aimes. Comment l'énergie se répartit-elle ?",
+      "answers": [
+        {
+          "label": "L'obligation est difficile, mais l'activité plaisante se passe vraiment bien — l'envie fait la différence",
+          "scores": { "demotivation": 3 }
+        },
+        {
+          "label": "Les deux me demandent un effort similaire — l'enthousiasme ne change pas vraiment mon niveau d'énergie",
+          "scores": { "fatigue": 3 }
+        },
+        {
+          "label": "L'activité plaisante m'aide à tenir, même si je sens que l'énergie globale est limitée",
+          "scores": { "mixte": 2, "fatigue": 1 }
+        },
+        {
+          "label": "Je gère les deux sans trop de difficulté — la fatigue n'est pas vraiment mon problème principal",
+          "scores": { "demotivation": 2, "mixte": 1 }
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "question": "Tu annules un plan au dernier moment. Que se passe-t-il ensuite ?",
+      "answers": [
+        {
+          "label": "Je récupère vraiment — le repos dont j'avais besoin était réel",
+          "scores": { "fatigue": 2, "mixte": 1 }
+        },
+        {
+          "label": "Je me retrouve à faire autre chose — l'énergie était là, c'est l'envie qui manquait pour ce plan précis",
+          "scores": { "demotivation": 3 }
+        },
+        {
+          "label": "Je me repose, mais sans vraiment récupérer — la fatigue reste là",
+          "scores": { "fatigue": 3 }
+        },
+        {
+          "label": "Je regrette un peu d'avoir annulé — j'avais vraiment envie d'y aller, mais au moment de me préparer, tout me semblait demander beaucoup trop d'effort",
+          "scores": { "fatigue": 2, "mixte": 1 }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "question": "Tu dois te concentrer 30 minutes sur quelque chose de précis. Qu'est-ce qui se passe ?",
+      "answers": [
+        {
+          "label": "J'ai beaucoup de mal à commencer, mais une fois lancé(e), je tiens assez bien",
+          "scores": { "demotivation": 3 }
+        },
+        {
+          "label": "Je démarre bien mais mon cerveau décroche assez vite, même quand je veux continuer",
+          "scores": { "fatigue": 2, "mixte": 1 }
+        },
+        {
+          "label": "Je n'arrive ni à commencer ni à maintenir — les deux sont difficiles",
+          "scores": { "fatigue": 2, "demotivation": 1 }
+        },
+        {
+          "label": "Je me concentre sans trop de problème si le sujet m'intéresse un minimum",
+          "scores": { "demotivation": 2, "mixte": 1 }
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "question": "Tu te forces à démarrer quelque chose que tu repousses. Qu'est-ce qui se passe une fois lancé(e) ?",
+      "answers": [
+        {
+          "label": "Ça va mieux rapidement — le démarrage était le plus difficile",
+          "scores": { "demotivation": 3 }
+        },
+        {
+          "label": "Je tiens un moment, puis l'énergie s'épuise avant d'avoir fini",
+          "scores": { "fatigue": 3 }
+        },
+        {
+          "label": "Ça dépend — parfois ça repart, parfois non",
+          "scores": { "mixte": 2, "fatigue": 1 }
+        },
+        {
+          "label": "J'avance, mais avec une lourdeur qui ne disparaît pas vraiment",
+          "scores": { "fatigue": 2, "mixte": 1 }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "question": "Tu apprends que demain est une journée totalement libre — aucune obligation. Quelle est ta première réaction ?",
+      "answers": [
+        {
+          "label": "Des idées d'activités ou de projets arrivent assez naturellement",
+          "scores": { "demotivation": 3 }
+        },
+        {
+          "label": "Mon premier réflexe est de récupérer — dormir, rester tranquille, ne rien planifier",
+          "scores": { "fatigue": 3 }
+        },
+        {
+          "label": "J'aurais des idées, mais je doute d'avoir l'énergie de les concrétiser",
+          "scores": { "mixte": 2, "fatigue": 1 }
+        },
+        {
+          "label": "Je ne sais pas trop quoi en faire — les idées ne viennent pas spontanément",
+          "scores": { "demotivation": 2, "mixte": 1 }
+        }
+      ]
+    }
+  ]
 }
