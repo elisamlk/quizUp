@@ -1,13 +1,13 @@
 {
   "slug": "test-gestion-emotions",
   "title": "Test bien-être - Sais-tu gérer tes émotions ?",
-  "description": "Tes émotions te contrôlent-elles ou sais-tu les gérer ?",
-  "descriptionSeo": "Colère, stress, tristesse, réactions… ce test t’aide à comprendre comment tu gères tes émotions au quotidien. À travers des situations concrètes, découvre si tu es dans le contrôle, l’équilibre ou le débordement émotionnel.",
+  "description": "Comment réagis-tu quand une émotion prend beaucoup de place ?",
+  "descriptionSeo": "Colère, frustration, stress, tristesse, conflit… ce test explore ta manière de réagir lorsque tes émotions prennent de la place. À travers dix situations concrètes, il observe ta capacité à prendre du recul, exprimer ce que tu ressens, éviter les réactions impulsives et retrouver ton équilibre après un moment intense. Il ne mesure pas ta santé mentale : il met simplement en lumière certaines tendances émotionnelles du quotidien.",
   "category": {
     "name": "Bien-être",
     "slug": "bien-etre"
   },
-  "createdAt": "2026-04-27",
+  "createdAt": "2026-09-20",
   "isNew": true,
   "isPopular": true,
   "images": {
@@ -18,112 +18,336 @@
   "profiles": [
     {
       "key": "equilibre",
-      "title": "Équilibre émotionnel",
-      "description": "Tu as une bonne gestion de tes émotions. Tu ressens les choses, mais tu ne te laisses pas submerger. Tu arrives à prendre du recul, à comprendre ce que tu ressens et à réagir de manière mesurée. Tu n’es pas dans le contrôle rigide, mais dans une forme d’équilibre. Tes émotions passent, tu les écoutes sans qu’elles dirigent complètement tes actions. Cette capacité te permet d’avoir des réactions plus justes et de mieux gérer les situations du quotidien.",
+      "title": "Régulation émotionnelle plutôt solide",
+      "description": "Tu peux ressentir des émotions fortes et les exprimer — ce n'est pas l'absence de ressentis qui caractérise ce profil, c'est ce que tu en fais. En général, une émotion intense ne détermine pas seule ce que tu fais ensuite : tu arrives à laisser passer un délai, à nommer ce qui se passe ou à ajuster ta réaction. Ce n'est pas de la maîtrise rigide : c'est une capacité à rester acteur de tes réactions même quand elles sont intenses.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776778847/balanced_e70dki.jpg"
     },
     {
       "key": "variable",
-      "title": "Gestion variable",
-      "description": "Ta gestion émotionnelle dépend beaucoup des situations. Parfois tu arrives à prendre du recul, parfois tes émotions prennent le dessus. Tu peux te sentir stable à certains moments et plus réactif(ve) à d’autres. Tu n’es pas dépassé(e) en permanence, mais tu peux être influencé(e) par ton état du moment. Avec un peu plus de conscience et d’outils, tu pourrais gagner en stabilité émotionnelle.",
+      "title": "Régulation émotionnelle variable",
+      "description": "Tu disposes de capacités de régulation, mais leur disponibilité dépend beaucoup du contexte : ton niveau de fatigue, l'enjeu de la situation ou ce qui s'est accumulé avant. Dans certaines circonstances tu arrives à prendre du recul ; dans d'autres, l'émotion prend le dessus avant que tu aies pu intervenir. Ce profil n'est pas un problème en soi — c'est souvent le signal que certaines conditions rendent la régulation plus difficile.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777464610/mixed_bprzj5.jpg"
     },
     {
       "key": "deborde",
-      "title": "Débordement émotionnel",
-      "description": "Tes émotions prennent souvent beaucoup de place. Tu peux réagir rapidement, intensément, et parfois sans recul. Il peut être difficile pour toi de canaliser ce que tu ressens sur le moment. Tes émotions ne sont pas un problème en soi, mais elles peuvent te submerger ou influencer fortement tes réactions. Apprendre à les reconnaître et à les réguler pourrait t’aider à retrouver plus de calme et de stabilité.",
+      "title": "Émotions difficiles à réguler en ce moment",
+      "description": "En ce moment, tes émotions semblent souvent plus rapides que ta capacité à les traiter : elles orientent tes réactions avant que tu aies pu prendre du recul. Ce n'est pas un défaut de caractère — la régulation émotionnelle est une compétence qui peut s'apprendre et qui est très sensible au contexte, à la fatigue et à ce que tu traverses. Ce résultat reflète une tendance actuelle, pas une caractéristique permanente.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777464308/fatigue-mentale_cl9fr8.jpg"
     }
   ],
   "questions": [
     {
       "id": "1",
-      "question": "Quelqu’un te fait une remarque qui t’agace…",
+      "question": "Quelqu'un te fait une remarque injuste devant d'autres personnes. Qu'est-ce qui se passe ?",
       "answers": [
-        { "label": "Je garde mon calme", "scores": { "equilibre": 3 } },
-        { "label": "Je réagis un peu", "scores": { "variable": 3 } },
-        { "label": "Je réagis immédiatement", "scores": { "deborde": 3 } }
+        {
+          "label": "Je sens la colère monter, mais j'attends un moment avant de répondre pour dire précisément ce qui me dérange",
+          "scores": {
+            "equilibre": 3
+          }
+        },
+        {
+          "label": "Je réponds immédiatement, puis je regrette certaines formulations une fois la tension retombée",
+          "scores": {
+            "deborde": 3
+          }
+        },
+        {
+          "label": "Je ne dis rien sur le moment, mais je repasse la scène dans ma tête pendant des heures",
+          "scores": {
+            "variable": 2,
+            "deborde": 1
+          }
+        },
+        {
+          "label": "Je réagis sur le moment, avec des mots que je maîtrise — je suis contrarié(e) mais je reste dans ce que je veux dire",
+          "scores": {
+            "equilibre": 2,
+            "variable": 1
+          }
+        }
       ]
     },
     {
       "id": "2",
-      "question": "Tu ressens une forte émotion…",
+      "question": "Tu reçois une mauvaise nouvelle alors que ta journée continue. Comment tu la traverses ?",
       "answers": [
-        { "label": "Je prends du recul", "scores": { "equilibre": 3 } },
-        { "label": "Ça dépend du moment", "scores": { "variable": 3 } },
-        { "label": "Ça prend le dessus", "scores": { "deborde": 3 } }
+        {
+          "label": "La nouvelle colore toute ma journée — j'ai du mal à faire la part des choses avec ce qui se passe autour de moi",
+          "scores": {
+            "deborde": 3
+          }
+        },
+        {
+          "label": "Je continue comme si de rien n'était — je mets l'émotion totalement de côté jusqu'à ce que je sois seul(e)",
+          "scores": {
+            "variable": 2,
+            "equilibre": 1
+          }
+        },
+        {
+          "label": "Ça dépend vraiment de la nouvelle et de ce que j'ai à gérer — parfois je tiens, parfois non",
+          "scores": {
+            "variable": 3
+          }
+        },
+        {
+          "label": "L'émotion est là et bien là, mais je réussis à adapter ce que je fais en tenant compte de mon état",
+          "scores": {
+            "equilibre": 3
+          }
+        }
       ]
     },
     {
       "id": "3",
-      "question": "Après une dispute…",
+      "question": "Après une dispute, qu'est-ce qui se passe chez toi ?",
       "answers": [
-        { "label": "Je me calme vite", "scores": { "equilibre": 3 } },
-        { "label": "Ça met du temps", "scores": { "variable": 3 } },
-        { "label": "Je reste affecté(e) longtemps", "scores": { "deborde": 3 } }
+        {
+          "label": "Je mets du temps à redescendre, mais je finis par y arriver — le processus est juste plus long que je voudrais",
+          "scores": {
+            "variable": 3
+          }
+        },
+        {
+          "label": "Je rumine pendant un moment sans parvenir à passer à autre chose, même quand je voudrais",
+          "scores": {
+            "deborde": 3
+          }
+        },
+        {
+          "label": "Je cherche assez vite à relancer l'échange pour régler ça — laisser quelque chose en suspens m'est difficile",
+          "scores": {
+            "deborde": 2,
+            "variable": 1
+          }
+        },
+        {
+          "label": "J'ai besoin d'un temps seul(e), puis je reviens sur la situation plus calmement pour voir ce que j'en fais",
+          "scores": {
+            "equilibre": 3
+          }
+        }
       ]
     },
     {
       "id": "4",
-      "question": "Tu es stressé(e)…",
+      "question": "Tu es déjà en retard pour un rendez-vous important quand un nouvel imprévu survient. Comment tu réagis ?",
       "answers": [
-        { "label": "Je gère assez bien", "scores": { "equilibre": 3 } },
-        { "label": "Ça dépend des situations", "scores": { "variable": 3 } },
-        { "label": "Ça m’envahit", "scores": { "deborde": 3 } }
+        {
+          "label": "Je gère, mais je remarque que mon état émotionnel perturbe ma prise de décision plus que d'habitude",
+          "scores": {
+            "variable": 3
+          }
+        },
+        {
+          "label": "L'accumulation me fait perdre mes moyens — je réagis de façon disproportionnée à quelque chose de secondaire",
+          "scores": {
+            "deborde": 3
+          }
+        },
+        {
+          "label": "Je me concentre d'abord sur ce que je ressens — l'organisation vient après",
+          "scores": {
+            "variable": 2,
+            "equilibre": 1
+          }
+        },
+        {
+          "label": "Le stress monte, mais je trie mentalement ce qui est urgent et j'avance sur ce qui dépend de moi",
+          "scores": {
+            "equilibre": 3
+          }
+        }
       ]
     },
     {
       "id": "5",
-      "question": "Quelqu’un te blesse…",
+      "question": "Quelqu'un que tu apprécies dit quelque chose qui te blesse vraiment. Qu'est-ce qui se passe intérieurement ?",
       "answers": [
-        { "label": "Je prends du recul", "scores": { "equilibre": 3 } },
-        { "label": "Je suis touché(e)", "scores": { "variable": 3 } },
-        { "label": "Je réagis fortement", "scores": { "deborde": 3 } }
+        {
+          "label": "Je ressens la blessure, je la nomme pour moi-même, et je décide ensuite si et comment j'en parle",
+          "scores": {
+            "equilibre": 3
+          }
+        },
+        {
+          "label": "Je ne montre rien extérieurement, mais l'émotion continue à tourner intensément à l'intérieur",
+          "scores": {
+            "variable": 2,
+            "deborde": 1
+          }
+        },
+        {
+          "label": "Je gère sur le moment, mais ça ressort plus tard — dans d'autres échanges ou dans mon humeur générale",
+          "scores": {
+            "variable": 3
+          }
+        },
+        {
+          "label": "L'émotion prend immédiatement le dessus — ma réaction sort avant que j'aie pu la choisir",
+          "scores": {
+            "deborde": 3
+          }
+        }
       ]
     },
     {
       "id": "6",
-      "question": "Ton humeur…",
+      "question": "Tu réalises après coup que tu as réagi trop fortement envers quelqu'un. Qu'est-ce que tu fais ?",
       "answers": [
-        { "label": "Plutôt stable", "scores": { "equilibre": 3 } },
-        { "label": "Variable", "scores": { "variable": 3 } },
-        { "label": "Très changeante", "scores": { "deborde": 3 } }
+        {
+          "label": "Je justifie mentalement ma réaction — après tout, la situation le méritait",
+          "scores": {
+            "deborde": 2,
+            "variable": 1
+          }
+        },
+        {
+          "label": "Je reviens vers la personne pour reconnaître ma réaction et, si nécessaire, m'en excuser",
+          "scores": {
+            "equilibre": 3
+          }
+        },
+        {
+          "label": "Je le remarque, mais j'évite d'en reparler — j'espère que ça passera sans qu'on y revienne",
+          "scores": {
+            "variable": 2,
+            "equilibre": 1
+          }
+        },
+        {
+          "label": "Je rumine sur ma propre réaction pendant un moment sans vraiment savoir quoi en faire",
+          "scores": {
+            "variable": 2,
+            "deborde": 1
+          }
+        }
       ]
     },
     {
       "id": "7",
-      "question": "Quand tu ressens de la colère…",
+      "question": "Tu ressens une colère forte face à quelque chose que tu trouves vraiment injuste. Comment tu la gères ?",
       "answers": [
-        { "label": "Je la canalise", "scores": { "equilibre": 3 } },
-        { "label": "Je réagis un peu", "scores": { "variable": 3 } },
-        { "label": "Je l’exprime directement", "scores": { "deborde": 3 } }
+        {
+          "label": "Je la retiens complètement — je préfère ne rien dire plutôt que de risquer de mal le formuler",
+          "scores": {
+            "variable": 2,
+            "equilibre": 1
+          }
+        },
+        {
+          "label": "Elle sort rapidement et directement — je dis ce que je pense sur le moment, parfois avec trop d'intensité",
+          "scores": {
+            "deborde": 3
+          }
+        },
+        {
+          "label": "Ça dépend de la situation et de qui est impliqué — parfois je gère, parfois elle prend le dessus",
+          "scores": {
+            "variable": 3
+          }
+        },
+        {
+          "label": "Je laisse passer un moment, puis j'exprime clairement ce qui me pose problème — sans attaque mais sans évitement",
+          "scores": {
+            "equilibre": 3
+          }
+        }
       ]
     },
     {
       "id": "8",
-      "question": "Tu dois gérer une situation tendue…",
+      "question": "Deux personnes commencent à s'énerver lors d'une discussion et l'une d'elles t'attaque directement. Que se passe-t-il ?",
       "answers": [
-        { "label": "Je reste posé(e)", "scores": { "equilibre": 3 } },
-        { "label": "Je suis un peu affecté(e)", "scores": { "variable": 3 } },
-        { "label": "Je perds mon calme", "scores": { "deborde": 3 } }
+        {
+          "label": "Je réponds, mais je remarque après que j'ai dit des choses que je n'aurais pas dites dans un autre contexte",
+          "scores": {
+            "variable": 3
+          }
+        },
+        {
+          "label": "Je me ferme complètement — je ne dis plus rien et j'attends que ça passe",
+          "scores": {
+            "variable": 2,
+            "deborde": 1
+          }
+        },
+        {
+          "label": "Je prends quelques secondes avant de répondre — je veux choisir ce que je dis plutôt que de réagir à chaud",
+          "scores": {
+            "equilibre": 3
+          }
+        },
+        {
+          "label": "Je réponds immédiatement avec la même intensité — quand on m'attaque, je contre-attaque",
+          "scores": {
+            "deborde": 3
+          }
+        }
       ]
     },
     {
       "id": "9",
-      "question": "Tu repenses à une émotion forte…",
+      "question": "Un souvenir émotionnellement chargé te revient à l'esprit à un moment inattendu. Qu'est-ce qui se passe ?",
       "answers": [
-        { "label": "Je prends du recul", "scores": { "equilibre": 3 } },
-        { "label": "Ça revient parfois", "scores": { "variable": 3 } },
-        { "label": "Ça reste très présent", "scores": { "deborde": 3 } }
+        {
+          "label": "L'émotion est encore présente mais supportable — je laisse le souvenir passer sans qu'il modifie vraiment ce que je fais",
+          "scores": {
+            "equilibre": 3
+          }
+        },
+        {
+          "label": "Ça perturbe mon humeur ou mon comportement pendant un moment, même si je ne voulais pas y penser",
+          "scores": {
+            "variable": 2,
+            "deborde": 1
+          }
+        },
+        {
+          "label": "Le souvenir me ramène presque à l'état dans lequel j'étais — l'émotion se réactive avec la même intensité",
+          "scores": {
+            "deborde": 3
+          }
+        },
+        {
+          "label": "Je reviens dessus mentalement pour comprendre ce qui s'est passé — c'est davantage un besoin de sens qu'une rumination",
+          "scores": {
+            "equilibre": 2,
+            "variable": 1
+          }
+        }
       ]
     },
     {
       "id": "10",
-      "question": "Dans un moment intense…",
+      "question": "Tu es déjà sous pression quand une personne proche te reproche quelque chose que tu trouves injuste. Qu'est-ce qui se passe ?",
       "answers": [
-        { "label": "Je garde le contrôle", "scores": { "equilibre": 3 } },
-        { "label": "Ça dépend", "scores": { "variable": 3 } },
-        { "label": "Je me laisse emporter", "scores": { "deborde": 3 } }
+        {
+          "label": "Je gère mieux certains jours que d'autres — quand la pression préalable est forte, ma régulation habituelle tient moins bien",
+          "scores": {
+            "variable": 3
+          }
+        },
+        {
+          "label": "Je contiens ma réaction sur le moment, mais ça ressort ensuite — sur cette personne ou sur quelqu'un d'autre",
+          "scores": {
+            "variable": 2,
+            "deborde": 1
+          }
+        },
+        {
+          "label": "La combinaison des deux me fait réagir bien plus fortement que si j'avais été dans un état normal",
+          "scores": {
+            "deborde": 3
+          }
+        },
+        {
+          "label": "Je reconnais que je suis sous pression et j'essaie de ne pas laisser ça contaminer ma réponse à cette personne",
+          "scores": {
+            "equilibre": 3
+          }
+        }
       ]
     }
   ]

@@ -2,12 +2,12 @@
   "slug": "test-equilibre-mental-stable",
   "title": "Test bien-être - Ton équilibre mental est-il stable ?",
   "description": "Ton état mental est-il stable ou facilement perturbé au quotidien ?",
-  "descriptionSeo": "Stress, réactions, émotions, charge mentale… ce test analyse la stabilité de ton équilibre mental à travers des situations concrètes du quotidien. Découvre si ton mental est stable, fluctuant ou fragile.",
+  "descriptionSeo": "Imprévus, stress, rumination, charge mentale, pression, regard des autres… ce test observe tes réactions face à dix situations concrètes pour explorer ta capacité à retrouver ton équilibre après une perturbation. Il ne diagnostique pas ta santé mentale : il reflète des tendances qui peuvent varier selon ta fatigue, ton contexte ou la période que tu traverses.",
   "category": {
     "name": "Bien-être",
     "slug": "bien-etre"
   },
-  "createdAt": "2026-04-27",
+  "createdAt": "2026-09-20",
   "isNew": true,
   "isPopular": true,
   "images": {
@@ -18,112 +18,346 @@
   "profiles": [
     {
       "key": "stable",
-      "title": "Équilibre stable",
-      "description": "Ton état mental est globalement stable. Tu arrives à garder une certaine constance émotionnelle même face aux imprévus. Tu prends du recul rapidement et tu ne restes pas bloqué(e) dans tes pensées ou tes émotions. Tu peux ressentir du stress, mais il ne t’envahit pas durablement. Tu sais revenir à un état de calme assez naturellement. Cette stabilité te permet d’avancer avec plus de clarté et de régularité dans ton quotidien.",
+      "title": "Équilibre plutôt stable",
+      "description": "Face aux perturbations du quotidien, tu reviens assez naturellement à ton état habituel. Les imprévus, les erreurs ou les moments de pression ne t'empêchent pas d'avancer — tu les traverses sans qu'ils s'accumulent durablement. Ce n'est pas l'absence de stress ou d'émotion : c'est ta capacité à ne pas laisser une perturbation en contaminer d'autres. Ce profil peut varier selon les périodes et le niveau de charge que tu portes.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777466236/apaise_srcy3y.jpg"
     },
     {
       "key": "fluctuant",
       "title": "Équilibre fluctuant",
-      "description": "Ton équilibre mental varie selon les situations et les périodes. Tu peux être très bien un jour, puis plus stressé(e) ou perturbé(e) le lendemain. Tu es sensible à ton environnement, à ta fatigue ou à ce que tu vis. Tu n’es pas constamment en difficulté, mais ton état intérieur peut changer rapidement. Tu pourrais gagner en stabilité en identifiant ce qui influence ces variations.",
+      "description": "Ton retour à l'équilibre existe, mais il prend plus de temps ou dépend du contexte. Une perturbation peut continuer à colorer ta journée même quand la situation est résolue. Tu n'es pas constamment en difficulté, mais ton état intérieur est sensible à ce qui t'entoure — ta fatigue, ton environnement, la nature de la contrariété. Identifier ce qui amplifie ces variations peut t'aider à mieux les anticiper.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777464610/mixed_bprzj5.jpg"
     },
     {
       "key": "fragile",
-      "title": "Équilibre fragile",
-      "description": "Ton équilibre mental semble fragile en ce moment. Tu peux te sentir rapidement submergé(e), stressé(e) ou affecté(e) par les situations du quotidien. Les pensées restent, les émotions durent, et il peut être difficile de retrouver un état de calme. Tu accumules peut-être de la pression ou de la fatigue mentale. Ton esprit a besoin de ralentir, de souffler et de retrouver de la stabilité progressivement.",
+      "title": "Équilibre plus sensible en ce moment",
+      "description": "En ce moment, les perturbations semblent avoir du mal à se dissiper rapidement. Une contrariété peut en appeler d'autres, les pensées persistent et retrouver ton état habituel demande un effort réel. Ce résultat reflète peut-être une période de fatigue, de surcharge ou de tension accumulée — pas une caractéristique permanente. Ralentir, réduire la pression et ne pas traverser ça seul(e) peuvent faire une vraie différence.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777466236/sature_kgvimh.jpg"
     }
   ],
   "questions": [
     {
       "id": "1",
-      "question": "Tu reçois un message stressant, tu ne peux pas répondre tout de suite…",
+      "question": "Tu reçois un message stressant, mais tu ne peux pas y répondre tout de suite. Tu continues ta journée…",
       "answers": [
-        { "label": "Je l’oublie en attendant", "scores": { "stable": 3 } },
-        { "label": "J’y pense de temps en temps", "scores": { "fluctuant": 3 } },
-        { "label": "Je ne pense qu’à ça", "scores": { "fragile": 3 } }
+        {
+          "label": "Je consulte mon téléphone plus souvent que d'habitude, mais je fais quand même ce que j'ai à faire",
+          "scores": {
+            "fluctuant": 2,
+            "stable": 1
+          }
+        },
+        {
+          "label": "J'y pense par moments, puis ça repart — ça ne prend pas toute la place",
+          "scores": {
+            "stable": 3
+          }
+        },
+        {
+          "label": "J'ai du mal à me concentrer sur autre chose tant que ce n'est pas réglé",
+          "scores": {
+            "fragile": 2,
+            "fluctuant": 1
+          }
+        },
+        {
+          "label": "Je mets mentalement le message de côté jusqu'au moment où je pourrai y répondre",
+          "scores": {
+            "stable": 2,
+            "fluctuant": 1
+          }
+        }
       ]
     },
     {
       "id": "2",
-      "question": "Tu fais une erreur devant quelqu’un…",
+      "question": "Tu fais une erreur devant quelqu'un — tu dis quelque chose de maladroit ou tu te trompes clairement. Sur le moment, tu…",
       "answers": [
-        { "label": "Je passe vite à autre chose", "scores": { "stable": 3 } },
-        { "label": "J’y repense un moment", "scores": { "fluctuant": 3 } },
-        { "label": "Je repense à la scène encore longtemps", "scores": { "fragile": 3 } }
+        {
+          "label": "Je corrige ou je relativise directement, et je passe à autre chose assez vite",
+          "scores": {
+            "stable": 3
+          }
+        },
+        {
+          "label": "Je continue normalement, même si je me demande brièvement ce que l'autre a pensé",
+          "scores": {
+            "stable": 2,
+            "fluctuant": 1
+          }
+        },
+        {
+          "label": "Je ressens un malaise sur le moment, puis ça revient par flashes plus tard dans la journée",
+          "scores": {
+            "fluctuant": 2,
+            "fragile": 1
+          }
+        },
+        {
+          "label": "Je gère sur le moment, mais la scène me revient à l'esprit quelques heures après",
+          "scores": {
+            "fluctuant": 3
+          }
+        }
       ]
     },
     {
       "id": "3",
-      "question": "Le soir, tu repenses à ta journée…",
+      "question": "Dans la même journée : tu es en retard, tu oublies quelque chose d'important, et un rendez-vous est annulé. Comment tu vis l'enchaînement ?",
       "answers": [
-        { "label": "Je lâche facilement prise", "scores": { "stable": 3 } },
-        { "label": "Je repense à quelques moments", "scores": { "fluctuant": 3 } },
-        { "label": "Je rejoue plein de scènes dans ma tête", "scores": { "fragile": 3 } }
+        {
+          "label": "Chaque imprévu s'ajoute aux autres — à la fin de la journée, je me sens épuisé(e) de façon disproportionnée",
+          "scores": {
+            "fragile": 3
+          }
+        },
+        {
+          "label": "Je gère chaque chose séparément, sans que l'une vienne alourdir la suivante",
+          "scores": {
+            "stable": 3
+          }
+        },
+        {
+          "label": "Les deux premiers passent, mais le troisième me fait décrocher — c'est la goutte de trop",
+          "scores": {
+            "fluctuant": 2,
+            "fragile": 1
+          }
+        },
+        {
+          "label": "Je le vis sur le moment, mais une fois la journée finie, je repars mentalement à zéro",
+          "scores": {
+            "stable": 2,
+            "fluctuant": 1
+          }
+        }
       ]
     },
     {
       "id": "4",
-      "question": "Quelqu’un change un plan au dernier moment…",
+      "question": "Un ami annule un plan au dernier moment sans vraiment expliquer pourquoi.",
       "answers": [
-        { "label": "Je m’adapte facilement", "scores": { "stable": 3 } },
-        { "label": "Ça me perturbe un peu", "scores": { "fluctuant": 3 } },
-        { "label": "Ça me met vraiment mal", "scores": { "fragile": 3 } }
+        {
+          "label": "Ça me contrarie un peu, mais ça ne prend pas de place dans ma tête au-delà du moment",
+          "scores": {
+            "stable": 3
+          }
+        },
+        {
+          "label": "Je m'adapte sans trop y penser — les imprévus font partie de la vie",
+          "scores": {
+            "stable": 2,
+            "fluctuant": 1
+          }
+        },
+        {
+          "label": "Ça me perturbe davantage que je ne le voudrais, surtout si je m'étais vraiment projeté(e)",
+          "scores": {
+            "fluctuant": 2,
+            "fragile": 1
+          }
+        },
+        {
+          "label": "Ça m'affecte et je remarque que ça teinte un peu le reste de ma journée",
+          "scores": {
+            "fragile": 2,
+            "fluctuant": 1
+          }
+        }
       ]
     },
     {
       "id": "5",
-      "question": "Tu dois attendre une réponse importante…",
+      "question": "Tu attends une réponse importante — résultat, décision, nouvelle — depuis plusieurs heures, voire plusieurs jours.",
       "answers": [
-        { "label": "Je passe à autre chose", "scores": { "stable": 3 } },
-        { "label": "J’y pense régulièrement", "scores": { "fluctuant": 3 } },
-        { "label": "Je suis obsédé(e) par ça", "scores": { "fragile": 3 } }
+        {
+          "label": "J'y reviens régulièrement dans ma tête, mais je continue à fonctionner normalement",
+          "scores": {
+            "fluctuant": 2,
+            "stable": 1
+          }
+        },
+        {
+          "label": "L'attente occupe une place importante dans mon esprit et empiète sur ma concentration",
+          "scores": {
+            "fragile": 2,
+            "fluctuant": 1
+          }
+        },
+        {
+          "label": "Je ne peux pas faire grand-chose contre l'incertitude, donc j'essaie de m'en occuper le moins possible",
+          "scores": {
+            "stable": 3
+          }
+        },
+        {
+          "label": "Je vérifie plus souvent que nécessaire, mais je reste capable de penser à autre chose",
+          "scores": {
+            "fluctuant": 2,
+            "stable": 1
+          }
+        }
       ]
     },
     {
       "id": "6",
-      "question": "Tu es fatigué(e) mentalement mais tu dois continuer…",
+      "question": "Quelque chose t'a vraiment agacé(e) ce matin. Dans l'après-midi, il se passe quelque chose d'agréable. Est-ce que l'émotion du matin est encore là ?",
       "answers": [
-        { "label": "Je gère sans trop me disperser", "scores": { "stable": 3 } },
-        { "label": "Je perds un peu en efficacité", "scores": { "fluctuant": 3 } },
-        { "label": "Je me sens dépassé(e)", "scores": { "fragile": 3 } }
+        {
+          "label": "Non, le bon moment a effacé ce qui s'était passé — je repars à zéro assez facilement",
+          "scores": {
+            "stable": 3
+          }
+        },
+        {
+          "label": "Le bon moment me fait du bien, mais l'irritation du matin reste présente en arrière-plan",
+          "scores": {
+            "fluctuant": 2,
+            "fragile": 1
+          }
+        },
+        {
+          "label": "L'agacement s'est dissipé progressivement dans la journée, sans que j'aie besoin d'un événement positif",
+          "scores": {
+            "stable": 2,
+            "fluctuant": 1
+          }
+        },
+        {
+          "label": "Même le bon moment ne suffit pas vraiment à effacer ce que j'ai ressenti le matin",
+          "scores": {
+            "fragile": 3
+          }
+        }
       ]
     },
     {
       "id": "7",
-      "question": "Tu es seul(e) sans distraction…",
+      "question": "Tu as un moment sans activité, sans écran, sans sollicitation. Ton esprit…",
       "answers": [
-        { "label": "Je suis tranquille", "scores": { "stable": 3 } },
-        { "label": "Je pense à pas mal de choses", "scores": { "fluctuant": 3 } },
-        { "label": "Mon esprit s’emballe", "scores": { "fragile": 3 } }
+        {
+          "label": "Part dans tous les sens — des pensées arrivent, se superposent, difficile de les arrêter",
+          "scores": {
+            "fragile": 2,
+            "fluctuant": 1
+          }
+        },
+        {
+          "label": "Se pose assez rapidement — j'arrive à être là sans que des pensées parasites prennent le dessus",
+          "scores": {
+            "stable": 3
+          }
+        },
+        {
+          "label": "Passe en revue des choses en cours, mais sans que ça devienne envahissant",
+          "scores": {
+            "fluctuant": 2,
+            "stable": 1
+          }
+        },
+        {
+          "label": "Remonte des préoccupations que j'avais mises de côté — ce calme les fait ressortir",
+          "scores": {
+            "fluctuant": 2,
+            "fragile": 1
+          }
+        }
       ]
     },
     {
       "id": "8",
-      "question": "Une petite critique te revient en tête plus tard…",
+      "question": "Quelqu'un te fait une remarque critique sur quelque chose que tu as fait. Dans les jours qui suivent…",
       "answers": [
-        { "label": "Je n’y repense pas", "scores": { "stable": 3 } },
-        { "label": "Ça me revient parfois", "scores": { "fluctuant": 3 } },
-        { "label": "Je la repasse encore et encore", "scores": { "fragile": 3 } }
+        {
+          "label": "Je retiens ce qui peut m'être utile, et le reste ne prend pas de place",
+          "scores": {
+            "stable": 3
+          }
+        },
+        {
+          "label": "La remarque revient à l'esprit quand une situation similaire se présente — elle a modifié quelque chose dans mon comportement",
+          "scores": {
+            "stable": 3
+          }
+        },
+        {
+          "label": "Je repense à la façon dont c'était formulé ou à ce que la personne a pu penser de moi",
+          "scores": {
+            "fluctuant": 2,
+            "fragile": 1
+          }
+        },
+        {
+          "label": "La remarque continue à revenir régulièrement, même quand ce n'est pas le bon moment pour y penser",
+          "scores": {
+            "fragile": 3
+          }
+        }
       ]
     },
     {
       "id": "9",
-      "question": "Tu dois prendre une décision importante rapidement…",
+      "question": "Tu dois prendre une décision importante rapidement, sans avoir le temps de tout peser.",
       "answers": [
-        { "label": "Je décide sans trop stresser", "scores": { "stable": 3 } },
-        { "label": "J’hésite mais j’avance", "scores": { "fluctuant": 3 } },
-        { "label": "Je bloque ou je panique", "scores": { "fragile": 3 } }
+        {
+          "label": "Je tranche avec les informations disponibles, et j'assume la décision même si elle n'est pas parfaite",
+          "scores": {
+            "stable": 3
+          }
+        },
+        {
+          "label": "Je décide, mais je remets mentalement ma décision en question plusieurs fois après",
+          "scores": {
+            "fluctuant": 2,
+            "fragile": 1
+          }
+        },
+        {
+          "label": "Je cherche rapidement un avis extérieur avant de décider — je n'aime pas trancher seul(e) sous pression",
+          "scores": {
+            "fluctuant": 2,
+            "stable": 1
+          }
+        },
+        {
+          "label": "La pression m'empêche de me décider clairement — je change plusieurs fois d'avis ou je reste bloqué(e)",
+          "scores": {
+            "fragile": 2,
+            "fluctuant": 1
+          }
+        }
       ]
     },
     {
       "id": "10",
-      "question": "Juste avant de dormir, sans écran…",
+      "question": "Tu as passé une journée franchement mauvaise. Le lendemain matin, rien de particulier ne va mal. Comment tu repars ?",
       "answers": [
-        { "label": "Mon esprit se calme vite", "scores": { "stable": 3 } },
-        { "label": "Je pense encore un peu", "scores": { "fluctuant": 3 } },
-        { "label": "Je rumine longtemps", "scores": { "fragile": 3 } }
+        {
+          "label": "La mauvaise journée est derrière moi — je repars sur une page relativement blanche",
+          "scores": {
+            "stable": 3
+          }
+        },
+        {
+          "label": "Je repars, mais avec un fond de fatigue ou de tension résiduelle qui met un peu de temps à partir",
+          "scores": {
+            "fluctuant": 2,
+            "stable": 1
+          }
+        },
+        {
+          "label": "Je ressens encore le poids de la veille, et il faut vraiment que la journée se passe bien pour que ça parte",
+          "scores": {
+            "fragile": 2,
+            "fluctuant": 1
+          }
+        },
+        {
+          "label": "La mauvaise journée me poursuit — même sans raison concrète, je me sens encore affecté(e)",
+          "scores": {
+            "fragile": 3
+          }
+        }
       ]
     }
   ]

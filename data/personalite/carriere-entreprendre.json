@@ -1,13 +1,13 @@
 {
   "slug": "test-entrepreneur-es-tu-fait-pour-entreprendre",
   "title": "Test entrepreneur - Es-tu fait(e) pour entreprendre ?",
-  "description": "Analyse si ton état d’esprit correspond vraiment aux exigences de l’entrepreneuriat.",
-  "descriptionSeo": "Analyse ton potentiel entrepreneurial à travers ta manière de prendre des décisions, de gérer le risque et de réagir face aux défis. Ce test explore ton autonomie, ta capacité à agir, ta résilience et ton rapport à l’incertitude. Découvre si tu es fait pour entreprendre, si tu as besoin d’un cadre ou si tu te situes entre les deux. Une approche concrète pour mieux comprendre ton profil face au monde entrepreneurial.",
+  "description": "Comment réagis-tu quand tu dois décider, tester et avancer sans cadre ni garantie de résultat ?",
+  "descriptionSeo": "Décisions, autonomie, incertitude, contraintes, échecs, passage à l'action… ce test explore ta manière de fonctionner lorsqu'aucun cadre précis ne te dit quoi faire. À travers dix situations concrètes, observe si tu arrives naturellement à tester, ajuster et faire avancer un projet, si tu fonctionnes mieux avec certains repères ou si un cadre structuré t'aide à donner le meilleur de toi-même. Il ne prédit pas la réussite d'une entreprise : il met en lumière ton rapport au fonctionnement entrepreneurial.",
   "category": {
     "name": "Carrière",
     "slug": "carriere"
   },
-  "createdAt": "2026-04-20",
+  "createdAt": "2026-09-20",
   "isNew": true,
   "isPopular": true,
   "images": {
@@ -18,122 +18,339 @@
   "profiles": [
     {
       "key": "entrepreneur",
-      "title": "L'Entrepreneur Né",
-      "description": "Tu as clairement une mentalité entrepreneuriale. Tu es à l’aise avec l’incertitude, tu sais prendre des décisions rapidement et tu n’as pas peur de sortir des sentiers battus. Tu ressens probablement un besoin d’indépendance et de création. Tu préfères construire quelque chose par toi-même plutôt que suivre un cadre déjà établi. Tu es capable de prendre des risques, d’assumer tes choix et de rebondir après un échec. Cette capacité à avancer malgré l’inconnu est une vraie force. Cependant, ton défi est de garder une discipline et une constance dans la durée. L’entrepreneuriat demande autant de rigueur que d’audace. Si tu arrives à structurer ton énergie, tu peux réellement construire des projets solides et ambitieux.",
+      "title": "À l'aise pour créer ton propre cadre",
+      "description": "Tes réponses indiquent que tu arrives à fonctionner sans que quelqu'un d'autre te fournisse la structure : tu peux définir tes priorités, tester des hypothèses, tirer des enseignements des retours et décider avec des informations incomplètes. Ce profil ne dit pas que tu réussiras nécessairement une entreprise — il indique que ton fonctionnement naturel est compatible avec les exigences concrètes de l'entrepreneuriat : autonomie, itération et capacité à avancer malgré l'incertitude.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776775125/leader_oqikrz.jpg"
     },
     {
       "key": "entrepreneur_potentiel",
-      "title": "Le Potentiel Entrepreneur",
-      "description": "Tu as des qualités entrepreneuriales, mais elles ne sont pas encore totalement exploitées. Tu es capable de prendre des initiatives, tu as des idées et tu ressens parfois l’envie de créer quelque chose par toi-même. Cependant, tu peux encore hésiter face au risque ou avoir besoin de plus de sécurité avant de te lancer. Tu es dans une phase intermédiaire où tu peux évoluer rapidement si tu développes ta confiance et ton passage à l’action. Ton potentiel est réel, mais il demande à être activé. En sortant progressivement de ta zone de confort, tu pourrais découvrir une vraie capacité à entreprendre.",
+      "title": "À l'aise avec un minimum de repères",
+      "description": "Tes réponses montrent que tu peux prendre des initiatives et avancer sur un projet, mais que certains repères — un délai, une validation extérieure, un cadre partiel — t'aident à fonctionner plus efficacement. Ce profil est très courant chez des personnes qui entreprennent avec succès : l'entrepreneuriat n'exige pas de tout construire seul, mais de savoir quels repères tu as besoin de créer ou de chercher.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776771826/analytic_ofwghg.jpg"
     },
     {
       "key": "profil_securite",
-      "title": "Le Profil Sécuritaire",
-      "description": "Tu es plutôt à l’aise dans des environnements stables et structurés. Tu préfères avoir de la visibilité, un cadre clair et des règles définies. Tu es fiable, rigoureux et capable de t’investir dans la durée, ce qui est une grande force. L’incertitude, le risque et l’instabilité peuvent te freiner, ce qui rend l’entrepreneuriat plus difficile pour toi à ce stade. Cela ne veut pas dire que tu ne peux pas entreprendre, mais que tu as besoin d’un cadre plus rassurant pour évoluer. Ton défi est de développer progressivement ta tolérance à l’incertitude. Ta force réside dans ta constance et ton sérieux.",
+      "title": "Plus efficace dans un cadre structuré",
+      "description": "Tes réponses suggèrent que tu donnes le meilleur de toi-même lorsque l'environnement est défini, les rôles clairs et les objectifs précis. Ce n'est pas un obstacle à toute forme d'entrepreneuriat — certains modèles (franchise, intrapreneuriat, co-fondateur dans un rôle défini) s'y prêtent très bien. Mais te lancer seul dans un projet sans cadre préétabli demanderait probablement des ajustements importants dans ta façon de fonctionner.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776777703/intro_qq7wpy.jpg"
     }
   ],
   "questions": [
     {
       "id": "1",
-      "question": "Tu as une idée de projet, mais rien n’est encore sûr. Que fais-tu ?",
+      "question": "Tu as une idée qui te semble intéressante, mais tu ignores encore si quelqu'un en voudrait réellement. Que fais-tu en premier ?",
       "answers": [
-        { "label": "Je commence rapidement à tester", "scores": { "entrepreneur": 3 } },
-        { "label": "Je réfléchis longtemps avant de me lancer", "scores": { "profil_securite": 3 } },
-        { "label": "Je fais quelques tests sans trop m’exposer", "scores": { "entrepreneur_potentiel": 2, "entrepreneur": 1 } },
-        { "label": "Je préfère attendre d’être sûr à 100%", "scores": { "profil_securite": 2, "entrepreneur_potentiel": 1 } }
+        {
+          "label": "Je cherche le moyen le moins coûteux de vérifier si l'hypothèse tient avant d'investir davantage",
+          "scores": {
+            "entrepreneur": 3
+          }
+        },
+        {
+          "label": "Je construis quelque chose d'assez complet avant de le confronter au réel — je veux que ce soit solide",
+          "scores": {
+            "profil_securite": 2,
+            "entrepreneur_potentiel": 1
+          }
+        },
+        {
+          "label": "J'attends d'avoir plus de certitudes avant d'investir du temps — une mauvaise idée coûte cher",
+          "scores": {
+            "profil_securite": 3
+          }
+        },
+        {
+          "label": "Je fais quelques recherches pour estimer le potentiel, puis je teste prudemment",
+          "scores": {
+            "entrepreneur_potentiel": 2,
+            "entrepreneur": 1
+          }
+        }
       ]
     },
     {
       "id": "2",
-      "question": "Face à l’incertitude…",
+      "question": "On te confie un objectif clair, mais personne ne te dit comment l'atteindre. Que se passe-t-il ?",
       "answers": [
-        { "label": "Ça me stimule", "scores": { "entrepreneur": 3 } },
-        { "label": "Je m’y adapte progressivement", "scores": { "entrepreneur_potentiel": 2 } },
-        { "label": "Je préfère l’éviter", "scores": { "profil_securite": 3 } },
-        { "label": "Je cherche à la réduire au maximum", "scores": { "profil_securite": 2, "entrepreneur_potentiel": 1 } }
+        {
+          "label": "Je construis ma propre méthode — l'absence de consignes me donne de la liberté",
+          "scores": {
+            "entrepreneur": 3
+          }
+        },
+        {
+          "label": "Je demande des précisions ou un exemple pour m'orienter avant de me lancer",
+          "scores": {
+            "profil_securite": 2,
+            "entrepreneur_potentiel": 1
+          }
+        },
+        {
+          "label": "L'absence de cadre me ralentit — j'ai du mal à avancer sans savoir si ma direction est la bonne",
+          "scores": {
+            "profil_securite": 3
+          }
+        },
+        {
+          "label": "Je cherche comment d'autres ont fait dans des situations similaires avant de définir mon approche",
+          "scores": {
+            "entrepreneur_potentiel": 2,
+            "entrepreneur": 1
+          }
+        }
       ]
     },
     {
       "id": "3",
-      "question": "Quand quelque chose échoue…",
+      "question": "Tu testes une idée sur laquelle tu comptais. Les premiers retours sont clairement mauvais. Que fais-tu ?",
       "answers": [
-        { "label": "Je recommence autrement", "scores": { "entrepreneur": 3 } },
-        { "label": "J’analyse avant de repartir", "scores": { "entrepreneur_potentiel": 2, "entrepreneur": 1 } },
-        { "label": "Je prends du recul avant d’agir", "scores": { "profil_securite": 2 } },
-        { "label": "Ça me freine beaucoup", "scores": { "profil_securite": 3 } }
+        {
+          "label": "Je modifie beaucoup de choses en même temps pour corriger rapidement",
+          "scores": {
+            "entrepreneur_potentiel": 2,
+            "profil_securite": 1
+          }
+        },
+        {
+          "label": "Je remets le projet entier en question — si les retours sont mauvais, peut-être que l'idée ne vaut rien",
+          "scores": {
+            "profil_securite": 3
+          }
+        },
+        {
+          "label": "Je cherche ce que ces retours m'apprennent précisément, puis je reteste une hypothèse modifiée",
+          "scores": {
+            "entrepreneur": 3
+          }
+        },
+        {
+          "label": "J'attends davantage de données avant de décider si je dois changer quelque chose",
+          "scores": {
+            "entrepreneur_potentiel": 2,
+            "entrepreneur": 1
+          }
+        }
       ]
     },
     {
       "id": "4",
-      "question": "Dans un travail, tu préfères…",
+      "question": "Tu dois prendre une décision importante sur ton projet et personne autour de toi ne connaît suffisamment le sujet pour te guider. Que fais-tu ?",
       "answers": [
-        { "label": "Créer ton propre cadre", "scores": { "entrepreneur": 3 } },
-        { "label": "Avoir une certaine liberté", "scores": { "entrepreneur_potentiel": 2 } },
-        { "label": "Avoir des repères clairs", "scores": { "profil_securite": 3 } },
-        { "label": "Suivre une structure définie", "scores": { "profil_securite": 2, "entrepreneur_potentiel": 1 } }
+        {
+          "label": "Je cherche quelqu'un qui s'y connaît mieux, même si ça prend du temps — une mauvaise décision coûte cher",
+          "scores": {
+            "profil_securite": 3
+          }
+        },
+        {
+          "label": "Je collecte les informations disponibles, j'identifie les critères essentiels et je décide",
+          "scores": {
+            "entrepreneur": 3
+          }
+        },
+        {
+          "label": "Je demande l'avis de plusieurs personnes et je synthétise avant de trancher",
+          "scores": {
+            "entrepreneur_potentiel": 2,
+            "profil_securite": 1
+          }
+        },
+        {
+          "label": "Je prends la décision tout en restant prêt(e) à la corriger rapidement si nécessaire",
+          "scores": {
+            "entrepreneur": 3
+          }
+        }
       ]
     },
     {
       "id": "5",
-      "question": "Le risque pour toi…",
+      "question": "Tu disposes de 1 000 € pour faire avancer ton projet, mais plusieurs dépenses semblent utiles. Comment tu alloues cet argent ?",
       "answers": [
-        { "label": "Fait partie du jeu", "scores": { "entrepreneur": 3 } },
-        { "label": "Peut être maîtrisé", "scores": { "entrepreneur_potentiel": 2 } },
-        { "label": "Est à éviter", "scores": { "profil_securite": 3 } },
-        { "label": "Doit être très limité", "scores": { "profil_securite": 2 } }
+        {
+          "label": "J'hésite beaucoup — dépenser sans certitude de retour me met mal à l'aise",
+          "scores": {
+            "profil_securite": 3
+          }
+        },
+        {
+          "label": "Je dépense sur ce qui me paraît le plus urgent sans trop formaliser la logique",
+          "scores": {
+            "entrepreneur_potentiel": 2,
+            "entrepreneur": 1
+          }
+        },
+        {
+          "label": "Je répartis prudemment sur plusieurs petites dépenses pour avancer sur plusieurs fronts à la fois",
+          "scores": {
+            "entrepreneur_potentiel": 2,
+            "profil_securite": 1
+          }
+        },
+        {
+          "label": "Je détermine quelle dépense permet de tester l'hypothèse la plus importante — le reste attend",
+          "scores": {
+            "entrepreneur": 3
+          }
+        }
       ]
     },
     {
       "id": "6",
-      "question": "Tu dois prendre une décision rapide…",
+      "question": "Une opportunité intéressante apparaît, mais tu disposes de peu de temps pour décider si tu la saisis. Que se passe-t-il ?",
       "answers": [
-        { "label": "Je décide vite", "scores": { "entrepreneur": 3 } },
-        { "label": "Je prends un court temps de réflexion", "scores": { "entrepreneur_potentiel": 2 } },
-        { "label": "Je préfère analyser", "scores": { "profil_securite": 3 } },
-        { "label": "Je demande conseil", "scores": { "profil_securite": 2, "entrepreneur_potentiel": 1 } }
+        {
+          "label": "Je cherche à gagner un peu de temps supplémentaire pour mieux évaluer avant de décider",
+          "scores": {
+            "entrepreneur_potentiel": 2,
+            "profil_securite": 1
+          }
+        },
+        {
+          "label": "Je saisis parce que l'occasion semble bonne, même si je n'ai pas eu le temps d'analyser vraiment",
+          "scores": {
+            "entrepreneur_potentiel": 2,
+            "entrepreneur": 1
+          }
+        },
+        {
+          "label": "Je la laisse passer — décider vite sur quelque chose d'important me met mal à l'aise",
+          "scores": {
+            "profil_securite": 3
+          }
+        },
+        {
+          "label": "J'identifie rapidement deux ou trois critères essentiels et je décide sur cette base",
+          "scores": {
+            "entrepreneur": 3
+          }
+        }
       ]
     },
     {
       "id": "7",
-      "question": "Ce qui te motive le plus…",
+      "question": "Personne ne contrôle ton travail cette semaine et aucun délai immédiat ne t'oblige à avancer sur ton projet. Que se passe-t-il ?",
       "answers": [
-        { "label": "Créer quelque chose", "scores": { "entrepreneur": 3 } },
-        { "label": "Évoluer progressivement", "scores": { "entrepreneur_potentiel": 2 } },
-        { "label": "Avoir de la stabilité", "scores": { "profil_securite": 3 } },
-        { "label": "Avoir des repères clairs", "scores": { "profil_securite": 2 } }
+        {
+          "label": "J'avance sur ce que j'ai décidé de prioriser — l'absence de pression extérieure ne change rien à mon rythme",
+          "scores": {
+            "entrepreneur": 3
+          }
+        },
+        {
+          "label": "Je profite de cet espace pour avancer, mais je suis plus efficace quand une échéance approche",
+          "scores": {
+            "entrepreneur_potentiel": 3
+          }
+        },
+        {
+          "label": "Sans délai ni contrôle, j'ai du mal à maintenir un rythme — je tends à reporter",
+          "scores": {
+            "profil_securite": 2,
+            "entrepreneur_potentiel": 1
+          }
+        },
+        {
+          "label": "Je perds beaucoup de temps — j'ai besoin d'une structure externe pour rester productif(ve)",
+          "scores": {
+            "profil_securite": 3
+          }
+        }
       ]
     },
     {
       "id": "8",
-      "question": "Ton rapport au travail…",
+      "question": "Ton projet avance, mais tu dois maintenant gérer une partie indispensable que tu n'aimes pas du tout — administration, chiffres, prospection, suivi. Comment tu la traites ?",
       "answers": [
-        { "label": "Autonome et indépendant", "scores": { "entrepreneur": 3 } },
-        { "label": "Flexible", "scores": { "entrepreneur_potentiel": 2 } },
-        { "label": "Stable et structuré", "scores": { "profil_securite": 3 } },
-        { "label": "Encadré", "scores": { "profil_securite": 2 } }
+        {
+          "label": "Je la reporte régulièrement — en attendant que quelqu'un d'autre la prenne en charge",
+          "scores": {
+            "profil_securite": 2,
+            "entrepreneur_potentiel": 1
+          }
+        },
+        {
+          "label": "Ce type de contrainte me décourage davantage que les obstacles techniques ou stratégiques",
+          "scores": {
+            "profil_securite": 3
+          }
+        },
+        {
+          "label": "Je la fais quand même — un projet demande de gérer l'ensemble, pas seulement ce qu'on aime",
+          "scores": {
+            "entrepreneur": 3
+          }
+        },
+        {
+          "label": "Je cherche à déléguer ou externaliser cette partie dès que possible pour me concentrer sur ce que je fais bien",
+          "scores": {
+            "entrepreneur": 2,
+            "entrepreneur_potentiel": 1
+          }
+        }
       ]
     },
     {
       "id": "9",
-      "question": "Tu préfères…",
+      "question": "Après plusieurs semaines, ton projet progresse, mais beaucoup moins vite que tu l'imaginais. Que se passe-t-il ?",
       "answers": [
-        { "label": "Construire ton projet", "scores": { "entrepreneur": 3 } },
-        { "label": "Tester des idées", "scores": { "entrepreneur_potentiel": 2 } },
-        { "label": "Suivre un cadre", "scores": { "profil_securite": 3 } },
-        { "label": "Avoir un plan clair", "scores": { "profil_securite": 2 } }
+        {
+          "label": "Je continue exactement comme avant — les bons projets prennent du temps",
+          "scores": {
+            "entrepreneur_potentiel": 2,
+            "profil_securite": 1
+          }
+        },
+        {
+          "label": "Je change beaucoup de choses en même temps pour essayer d'accélérer",
+          "scores": {
+            "entrepreneur_potentiel": 2,
+            "entrepreneur": 1
+          }
+        },
+        {
+          "label": "J'analyse les signaux disponibles pour comprendre ce qui bloque et j'ajuste l'approche",
+          "scores": {
+            "entrepreneur": 3
+          }
+        },
+        {
+          "label": "Je perds progressivement l'élan — sans résultats rapides, il m'est difficile de maintenir la motivation",
+          "scores": {
+            "profil_securite": 3
+          }
+        }
       ]
     },
     {
       "id": "10",
-      "question": "Face à une opportunité…",
+      "question": "Ton projet fonctionne correctement, mais personne ne te dit quelle doit être la prochaine étape. Comment décides-tu de la suite ?",
       "answers": [
-        { "label": "Je fonce", "scores": { "entrepreneur": 3 } },
-        { "label": "Je réfléchis rapidement", "scores": { "entrepreneur_potentiel": 2 } },
-        { "label": "Je prends le temps d’analyser", "scores": { "profil_securite": 3 } },
-        { "label": "Je préfère attendre", "scores": { "profil_securite": 2 } }
+        {
+          "label": "J'attends qu'un signal extérieur me donne une direction — client, partenaire, retour du marché",
+          "scores": {
+            "entrepreneur_potentiel": 2,
+            "profil_securite": 1
+          }
+        },
+        {
+          "label": "Je cherche comment d'autres projets similaires ont évolué pour m'en inspirer",
+          "scores": {
+            "entrepreneur_potentiel": 3
+          }
+        },
+        {
+          "label": "L'absence de cap défini me bloque — j'ai besoin de savoir où je vais pour avancer efficacement",
+          "scores": {
+            "profil_securite": 3
+          }
+        },
+        {
+          "label": "J'identifie ce qui constitue le principal problème ou la principale opportunité, et je teste quelque chose dessus",
+          "scores": {
+            "entrepreneur": 3
+          }
+        }
       ]
     }
   ]

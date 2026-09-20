@@ -1,13 +1,13 @@
 {
   "slug": "test-travail-es-tu-efficace",
   "title": "Test travail - Es-tu efficace ?",
-  "description": "Analyse ton efficacité au travail et ta manière de gérer ton temps et tes priorités.",
-  "descriptionSeo": "Analyse ton niveau d’efficacité au travail à travers ta gestion du temps, ton organisation et ta capacité à rester concentré. Ce test explore ta manière de prioriser, de gérer les distractions et d’avancer sur tes tâches. Découvre si tu es réellement productif, en progression ou freiné par certaines habitudes. Une approche concrète pour mieux comprendre ton fonctionnement et améliorer ton efficacité au quotidien.",
+  "description": "Comment gères-tu réellement ton temps, ton attention et tes priorités au travail ?",
+  "descriptionSeo": "Priorités, interruptions, délais, concentration, imprévus… ce test explore ta manière de faire avancer ton travail lorsque plusieurs choses réclament ton attention. À travers dix situations concrètes, observe si ton organisation t'aide à identifier l'essentiel, à protéger ton temps et à terminer ce qui compte vraiment. L'objectif n'est pas de mesurer ta valeur professionnelle, mais de mettre en lumière les habitudes qui soutiennent ou freinent ton efficacité au quotidien.",
   "category": {
     "name": "Carrière",
     "slug": "carriere"
   },
-  "createdAt": "2026-04-20",
+  "createdAt": "2026-09-20",
   "isNew": true,
   "isPopular": true,
   "images": {
@@ -18,122 +18,341 @@
   "profiles": [
     {
       "key": "efficace",
-      "title": "Très efficace",
-      "description": "Tu es une personne particulièrement efficace dans ton travail. Tu sais organiser ton temps, prioriser les tâches importantes et rester concentré jusqu’au bout. Tu évites les distractions et tu avances de manière structurée. Tu n’as pas besoin de travailler plus longtemps pour produire de meilleurs résultats : tu optimises ton énergie et ton attention. Cette capacité te permet d’être performant sans t’épuiser inutilement. Cependant, ton défi est de ne pas tomber dans une recherche excessive de productivité. Ta force réside dans ta discipline, ta clarté et ta capacité à faire avancer les choses concrètement.",
+      "title": "Une efficacité bien structurée",
+      "description": "Tes réponses indiquent que tu arrives généralement à identifier ce qui compte vraiment, à protéger ton attention et à ajuster ta méthode quand c'est nécessaire. Ce profil ne signifie pas que tu travailles sans interruptions ni imprévus — il indique que tu fais des arbitrages qui font avancer les tâches importantes plutôt que de simplement remplir ton temps. L'efficacité n'est pas une question de quantité de travail : c'est une question de direction.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776947197/boss_sirl1g.jpg"
     },
     {
       "key": "progression",
-      "title": "Efficace en progression",
-      "description": "Tu es globalement efficace, mais tu peux encore t’améliorer. Tu sais travailler et avancer, mais certaines habitudes ou distractions peuvent parfois ralentir ton rythme. Tu as des phases très productives, mais aussi des moments moins organisés. Tu es conscient de tes points d’amélioration et tu essaies de progresser. Ton potentiel est réel : avec plus de régularité et une meilleure gestion des priorités, tu peux devenir très performant. Ton défi est de structurer davantage ton travail. Ta force réside dans ta capacité à évoluer et à ajuster ton fonctionnement.",
+      "title": "Une efficacité assez variable",
+      "description": "Tes réponses montrent une efficacité qui dépend beaucoup du contexte, de la journée ou du type de tâche. Tu peux avoir des périodes très productives et d'autres où les interruptions, les priorités qui changent ou la difficulté à reprendre une tâche te font perdre du temps. La régularité est souvent ce qui fait la différence entre une bonne semaine et une semaine frustrante — pas les méthodes elles-mêmes.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776943774/resilience_pdbr11.jpg"
     },
     {
       "key": "inefficace",
-      "title": "Manque d’efficacité",
-      "description": "Ton efficacité peut être freinée par certaines habitudes. Tu peux avoir du mal à te concentrer, à prioriser ou à rester constant dans ton travail. Les distractions, le manque d’organisation ou la procrastination peuvent impacter tes résultats. Cela ne veut pas dire que tu es incapable d’être efficace, mais que ton système actuel ne fonctionne pas encore bien. Prendre conscience de ces points est déjà une étape importante. Ton défi est de mettre en place des méthodes simples et régulières. Ta force réside dans ton potentiel d’amélioration : avec les bons ajustements, tu peux rapidement gagner en efficacité.",
+      "title": "Ton organisation te fait perdre du temps",
+      "description": "Tes réponses suggèrent que tu dépenses parfois beaucoup d'énergie sans que les tâches importantes avancent autant que tu le voudrais. Interruptions non filtrées, priorités mouvantes, difficulté à reprendre après une coupure ou à identifier ce qui compte vraiment : ces habitudes peuvent te laisser épuisé(e) en fin de journée sans avoir l'impression d'avoir avancé sur l'essentiel. Cela ne dit rien de tes capacités — seulement que ton système actuel te coûte du temps et de l'attention.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776948575/cover_hzzal3.jpg"
     }
   ],
   "questions": [
     {
       "id": "1",
-      "question": "Quand tu commences ta journée de travail…",
+      "question": "Tu arrives le matin avec plusieurs choses à faire, dont deux vraiment importantes. Par quoi commences-tu ?",
       "answers": [
-        { "label": "Je sais exactement quoi faire", "scores": { "efficace": 3 } },
-        { "label": "J’ai une idée globale", "scores": { "progression": 2 } },
-        { "label": "Je vois au fur et à mesure", "scores": { "inefficace": 3 } },
-        { "label": "Je commence sans plan précis", "scores": { "inefficace": 2, "progression": 1 } }
+        {
+          "label": "J'ouvre d'abord mes mails et messages pour voir ce qui s'est ajouté depuis hier",
+          "scores": {
+            "inefficace": 2,
+            "progression": 1
+          }
+        },
+        {
+          "label": "Je commence par une tâche courte pour me mettre en route, puis je passe à l'essentiel",
+          "scores": {
+            "progression": 2,
+            "efficace": 1
+          }
+        },
+        {
+          "label": "J'identifie les deux priorités et je réserve du temps pour les traiter avant d'ouvrir quoi que ce soit d'autre",
+          "scores": {
+            "efficace": 3
+          }
+        },
+        {
+          "label": "J'avance sur ce qui me semble le plus accessible et je réévalue au fil de la matinée",
+          "scores": {
+            "inefficace": 3
+          }
+        }
       ]
     },
     {
       "id": "2",
-      "question": "Face à plusieurs tâches…",
+      "question": "Tu travailles sur une tâche importante lorsqu'une demande présentée comme urgente arrive. Que se passe-t-il ?",
       "answers": [
-        { "label": "Je priorise", "scores": { "efficace": 3 } },
-        { "label": "Je fais ce qui me semble urgent", "scores": { "progression": 2 } },
-        { "label": "Je fais ce qui me motive", "scores": { "inefficace": 3 } },
-        { "label": "Je change souvent de tâche", "scores": { "inefficace": 2 } }
+        {
+          "label": "Je termine l'étape en cours avant de basculer — je ne veux pas perdre le fil",
+          "scores": {
+            "efficace": 2,
+            "progression": 1
+          }
+        },
+        {
+          "label": "J'essaie de gérer les deux en parallèle pour ne pas perdre de temps",
+          "scores": {
+            "inefficace": 3
+          }
+        },
+        {
+          "label": "Je vérifie rapidement si c'est vraiment urgent avant de décider si j'interromps ma tâche",
+          "scores": {
+            "efficace": 3
+          }
+        },
+        {
+          "label": "J'interromps immédiatement — une demande urgente passe devant",
+          "scores": {
+            "progression": 2,
+            "inefficace": 1
+          }
+        }
       ]
     },
     {
       "id": "3",
-      "question": "Ton niveau de concentration…",
+      "question": "Tu travailles depuis vingt minutes sur un dossier qui demande de la concentration lorsqu'une notification apparaît. Que se passe-t-il ?",
       "answers": [
-        { "label": "Élevé", "scores": { "efficace": 3 } },
-        { "label": "Variable", "scores": { "progression": 2 } },
-        { "label": "Faible", "scores": { "inefficace": 3 } },
-        { "label": "Dépend du contexte", "scores": { "progression": 2, "inefficace": 1 } }
+        {
+          "label": "Je la regarde brièvement puis je reviens immédiatement à ce que je faisais",
+          "scores": {
+            "progression": 2,
+            "efficace": 1
+          }
+        },
+        {
+          "label": "Je l'ignore — je consulte mes notifications à des moments définis",
+          "scores": {
+            "efficace": 3
+          }
+        },
+        {
+          "label": "Je la regarde, je réponds si c'est rapide, et je reprends — mais ça me coûte un peu de temps à chaque fois",
+          "scores": {
+            "progression": 2,
+            "inefficace": 1
+          }
+        },
+        {
+          "label": "Je la regarde et ça m'emmène souvent ailleurs — reprendre la concentration demande ensuite un vrai effort",
+          "scores": {
+            "inefficace": 3
+          }
+        }
       ]
     },
     {
       "id": "4",
-      "question": "Les distractions…",
+      "question": "Un collègue vient te demander « juste cinq minutes » alors que tu avais prévu d'avancer sur une priorité. Que fais-tu ?",
       "answers": [
-        { "label": "Je les limite", "scores": { "efficace": 3 } },
-        { "label": "J’essaie de les gérer", "scores": { "progression": 2 } },
-        { "label": "Elles me ralentissent", "scores": { "inefficace": 3 } },
-        { "label": "J’y cède parfois", "scores": { "progression": 2, "inefficace": 1 } }
+        {
+          "label": "J'accepte systématiquement — refuser serait mal vu ou pénalisant pour l'équipe",
+          "scores": {
+            "inefficace": 2,
+            "progression": 1
+          }
+        },
+        {
+          "label": "Je vérifie si ça peut attendre et je propose un moment précis si c'est possible",
+          "scores": {
+            "efficace": 3
+          }
+        },
+        {
+          "label": "J'aide rapidement puis je reviens à ma tâche — les cinq minutes restent cinq minutes",
+          "scores": {
+            "efficace": 2,
+            "progression": 1
+          }
+        },
+        {
+          "label": "J'accepte, mais ces interruptions finissent souvent par durer bien plus longtemps que prévu",
+          "scores": {
+            "inefficace": 3
+          }
+        }
       ]
     },
     {
       "id": "5",
-      "question": "Quand tu travailles…",
+      "question": "Tu travailles depuis un moment sur quelque chose mais tu n'avances presque plus. Que se passe-t-il ?",
       "answers": [
-        { "label": "Je reste focus", "scores": { "efficace": 3 } },
-        { "label": "Je fais des pauses régulières", "scores": { "progression": 2 } },
-        { "label": "Je me disperse", "scores": { "inefficace": 3 } },
-        { "label": "Je change souvent d’activité", "scores": { "inefficace": 2 } }
+        {
+          "label": "Je fais une courte coupure puis je reviens avec un regard différent",
+          "scores": {
+            "efficace": 2,
+            "progression": 1
+          }
+        },
+        {
+          "label": "Je continue coûte que coûte — m'arrêter me donnerait l'impression de perdre du temps",
+          "scores": {
+            "progression": 2,
+            "inefficace": 1
+          }
+        },
+        {
+          "label": "Je change d'approche ou je découpe différemment le problème avant de reprendre",
+          "scores": {
+            "efficace": 3
+          }
+        },
+        {
+          "label": "Je glisse vers une tâche plus facile pour avoir l'impression d'avancer",
+          "scores": {
+            "inefficace": 3
+          }
+        }
       ]
     },
     {
       "id": "6",
-      "question": "Tu termines tes tâches…",
+      "question": "La journée se termine et une tâche importante n'est pas complètement terminée. Que fais-tu ?",
       "answers": [
-        { "label": "Toujours", "scores": { "efficace": 3 } },
-        { "label": "Souvent", "scores": { "progression": 2 } },
-        { "label": "Pas toujours", "scores": { "inefficace": 3 } },
-        { "label": "Difficilement", "scores": { "inefficace": 2 } }
+        {
+          "label": "Je note précisément où j'en suis et quelle est la prochaine étape pour reprendre efficacement demain",
+          "scores": {
+            "efficace": 3
+          }
+        },
+        {
+          "label": "Je prolonge ma journée pour la terminer — laisser quelque chose d'inachevé me pèse",
+          "scores": {
+            "progression": 2,
+            "inefficace": 1
+          }
+        },
+        {
+          "label": "Je laisse la tâche ouverte sans vraiment préparer la reprise — je verrai demain",
+          "scores": {
+            "inefficace": 3
+          }
+        },
+        {
+          "label": "Je bâcle la fin pour pouvoir la considérer comme terminée",
+          "scores": {
+            "inefficace": 2,
+            "progression": 1
+          }
+        }
       ]
     },
     {
       "id": "7",
-      "question": "Ton organisation…",
+      "question": "Ton planning prévu pour la journée est bouleversé par une réunion imprévue d'une heure. Qu'est-ce qui se passe ensuite ?",
       "answers": [
-        { "label": "Claire", "scores": { "efficace": 3 } },
-        { "label": "Correcte", "scores": { "progression": 2 } },
-        { "label": "Floue", "scores": { "inefficace": 3 } },
-        { "label": "Variable", "scores": { "progression": 2, "inefficace": 1 } }
+        {
+          "label": "Je reprends là où j'en étais, mais la journée est désorganisée et j'ai du mal à retrouver mon rythme",
+          "scores": {
+            "progression": 2,
+            "inefficace": 1
+          }
+        },
+        {
+          "label": "Je recalibre rapidement : je rédéfinis ce qui est encore faisable aujourd'hui et ce qui attend",
+          "scores": {
+            "efficace": 3
+          }
+        },
+        {
+          "label": "Je tente de rattraper en travaillant plus vite ou plus longtemps pour compenser l'heure perdue",
+          "scores": {
+            "progression": 2,
+            "inefficace": 1
+          }
+        },
+        {
+          "label": "Je laisse la journée se dérouler sans vraiment reprendre le contrôle de mes priorités",
+          "scores": {
+            "inefficace": 3
+          }
+        }
       ]
     },
     {
       "id": "8",
-      "question": "Face à une tâche difficile…",
+      "question": "On te confie une tâche importante que tu ne sais pas immédiatement comment aborder. Que se passe-t-il ?",
       "answers": [
-        { "label": "Je m’y attaque directement", "scores": { "efficace": 3 } },
-        { "label": "Je prends un peu de temps", "scores": { "progression": 2 } },
-        { "label": "Je repousse", "scores": { "inefficace": 3 } },
-        { "label": "J’hésite", "scores": { "inefficace": 2 } }
+        {
+          "label": "Je cherche longtemps la meilleure méthode avant de commencer — je veux m'y prendre correctement",
+          "scores": {
+            "progression": 2,
+            "inefficace": 1
+          }
+        },
+        {
+          "label": "Je clarifie l'objectif, je découpe en étapes et je commence par la première",
+          "scores": {
+            "efficace": 3
+          }
+        },
+        {
+          "label": "Je commence quelque part et j'ajuste au fur et à mesure — l'action me donne de la clarté",
+          "scores": {
+            "efficace": 2,
+            "progression": 1
+          }
+        },
+        {
+          "label": "Je repousse en avançant d'abord sur des tâches où je sais quoi faire",
+          "scores": {
+            "inefficace": 3
+          }
+        }
       ]
     },
     {
       "id": "9",
-      "question": "Ton rythme de travail…",
+      "question": "À 14h, tu réalises que tu ne pourras probablement pas tout terminer aujourd'hui. Que fais-tu ?",
       "answers": [
-        { "label": "Régulier", "scores": { "efficace": 3 } },
-        { "label": "Variable", "scores": { "progression": 2 } },
-        { "label": "Irrégulier", "scores": { "inefficace": 3 } },
-        { "label": "Dépend du moment", "scores": { "progression": 2 } }
+        {
+          "label": "J'accélère et j'essaie quand même de tout boucler — ne pas finir me semble un échec",
+          "scores": {
+            "progression": 2,
+            "inefficace": 1
+          }
+        },
+        {
+          "label": "Je repriorise : je garde ce qui compte vraiment et je reporte consciemment le reste",
+          "scores": {
+            "efficace": 3
+          }
+        },
+        {
+          "label": "Je continue sur ma lancée sans vraiment ajuster — je verrai en fin de journée ce qui reste",
+          "scores": {
+            "inefficace": 3
+          }
+        },
+        {
+          "label": "Je revois ce qui peut attendre et je renégocie un délai si nécessaire",
+          "scores": {
+            "efficace": 2,
+            "progression": 1
+          }
+        }
       ]
     },
     {
       "id": "10",
-      "question": "Globalement…",
+      "question": "Tu termines une journée où tu as été occupé(e) presque sans arrêt. Comment sais-tu si elle a vraiment été productive ?",
       "answers": [
-        { "label": "Je suis productif", "scores": { "efficace": 3 } },
-        { "label": "Je progresse", "scores": { "progression": 2 } },
-        { "label": "Je peux faire mieux", "scores": { "inefficace": 3 } },
-        { "label": "Je manque de méthode", "scores": { "inefficace": 2 } }
+        {
+          "label": "J'ai du mal à le dire — j'ai surtout répondu aux sollicitations au fur et à mesure",
+          "scores": {
+            "inefficace": 3
+          }
+        },
+        {
+          "label": "Beaucoup de choses ont été cochées — j'ai l'impression d'avoir avancé",
+          "scores": {
+            "progression": 2,
+            "inefficace": 1
+          }
+        },
+        {
+          "label": "Les tâches importantes ont réellement avancé — c'est ce que je vérifie en fin de journée",
+          "scores": {
+            "efficace": 3
+          }
+        },
+        {
+          "label": "J'ai rempli mon temps de travail, mais je ne suis pas certain(e) d'avoir priorisé ce qui comptait le plus",
+          "scores": {
+            "progression": 3
+          }
+        }
       ]
     }
   ]

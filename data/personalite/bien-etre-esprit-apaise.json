@@ -2,7 +2,7 @@
   "slug": "test-esprit-apaise",
   "title": "Test bien-être - Ton esprit est-il apaisé ?",
   "description": "Ton mental est-il calme ou constamment sollicité ?",
-  "descriptionSeo": "Pensées en boucle, stress, calme intérieur… ce test t’aide à comprendre si ton esprit est réellement apaisé. À travers des situations concrètes du quotidien, découvre ton niveau de calme mental et ce qui influence ton état intérieur.",
+  "descriptionSeo": "Pensées en boucle, besoin de stimulation, difficultés à décrocher, charge mentale… ce test observe ce que fait ton cerveau quand les sollicitations s'arrêtent. À travers dix situations concrètes, il explore ton activité mentale au repos et ta capacité à ralentir lorsque tu le souhaites — sans chercher à diagnostiquer, mais pour mieux comprendre ton rapport au calme intérieur.",
   "category": {
     "name": "Bien-être",
     "slug": "bien-etre"
@@ -18,113 +18,342 @@
   "profiles": [
     {
       "key": "apaise",
-      "title": "Esprit apaisé",
-      "description": "Ton esprit est globalement calme et stable. Tu arrives à prendre du recul sur tes pensées et à ne pas te laisser envahir par le stress ou les préoccupations. Même quand des difficultés apparaissent, tu sais retrouver un certain équilibre intérieur. Tu n’es pas dans le contrôle permanent, mais plutôt dans une forme de lâcher-prise. Tu es capable de te recentrer et de profiter des moments présents sans être constamment absorbé(e) par des pensées parasites. Cet apaisement te permet d’avancer avec plus de clarté et de sérénité au quotidien.",
+      "title": "Esprit plutôt apaisé",
+      "description": "Lorsque les sollicitations s'arrêtent, ton cerveau sait généralement ralentir. Tu peux penser beaucoup dans certaines situations, mais tu gardes une certaine capacité à décrocher quand tu le souhaites. Ce n'est pas l'absence de pensées : c'est la capacité à ne pas être embarqué(e) malgré toi dans un flux mental que tu ne contrôles plus. Ce profil peut varier selon les périodes et le niveau de stimulation que tu reçois.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777466236/apaise_srcy3y.jpg"
     },
     {
       "key": "agite",
-      "title": "Esprit agité",
-      "description": "Ton esprit est souvent occupé, voire envahi par des pensées. Tu réfléchis beaucoup, parfois trop, et il peut être difficile pour toi de faire une pause mentale. Tu peux te sentir dispersé(e), préoccupé(e) ou stressé(e) sans raison immédiate. Ce n’est pas forcément constant, mais ton mental a du mal à vraiment se poser. Tu pourrais gagner à créer plus d’espaces de calme, à ralentir et à apprendre à relâcher un peu la pression mentale.",
+      "title": "Esprit souvent sollicité",
+      "description": "Ton cerveau reste fréquemment actif, même dans les moments où il pourrait se reposer. Tu réfléchis beaucoup, tu planifies, tu reviens sur les choses — et cette activité ne se coupe pas toujours facilement lorsque les obligations s'arrêtent. Ce n'est pas forcément douloureux, mais ça peut peser sur ta capacité à récupérer vraiment. Créer des espaces de stimulation réduite peut aider ton cerveau à apprendre à ralentir.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777464308/fatigue-mentale_cl9fr8.jpg"
     },
     {
       "key": "sature",
-      "title": "Esprit saturé",
-      "description": "Ton esprit semble en surcharge. Les pensées s’enchaînent, tu peux avoir du mal à décrocher et à te sentir vraiment tranquille. Même dans les moments calmes, ton mental continue de tourner. Tu peux ressentir de la fatigue mentale, de la tension ou une difficulté à te concentrer. Cette saturation peut venir d’un stress accumulé, d’un trop-plein d’informations ou d’un manque de pause. Ton esprit a besoin de repos, de déconnexion et de respiration.",
+      "title": "Esprit très sollicité en ce moment",
+      "description": "En ce moment, ton activité mentale semble difficile à mettre en veille. Les pensées s'enchaînent, les boucles se rouvrent, et les moments de calme ne suffisent pas toujours à faire vraiment décrocher ton cerveau. Ce résultat reflète peut-être une période de forte stimulation, de charge accumulée ou de manque de pauses réelles — pas un état permanent. Ton esprit a besoin de moins d'entrées et de plus d'espaces sans sollicitation.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777466236/sature_kgvimh.jpg"
     }
   ],
-"questions": [
-  {
-    "id": "1",
-    "question": "Tu es dans ton lit, lumière éteinte, sans téléphone…",
-    "answers": [
-      { "label": "Je m’endors rapidement", "scores": { "apaise": 3 } },
-      { "label": "Je repense à ma journée", "scores": { "agite": 3 } },
-      { "label": "Mon cerveau part dans tous les sens", "scores": { "sature": 3 } }
-    ]
-  },
-  {
-    "id": "2",
-    "question": "Tu attends seul(e) sans distraction (file, transport)…",
-    "answers": [
-      { "label": "Je reste tranquille", "scores": { "apaise": 3 } },
-      { "label": "Je réfléchis un peu", "scores": { "agite": 3 } },
-      { "label": "Je ne supporte pas le vide mental", "scores": { "sature": 3 } }
-    ]
-  },
-  {
-    "id": "3",
-    "question": "Tu poses ton téléphone après avoir scrollé…",
-    "answers": [
-      { "label": "Je passe à autre chose facilement", "scores": { "apaise": 3 } },
-      { "label": "Je continue à penser à ce que j’ai vu", "scores": { "agite": 3 } },
-      { "label": "Mon esprit reste agité et dispersé", "scores": { "sature": 3 } }
-    ]
-  },
-  {
-    "id": "4",
-    "question": "Quelqu’un te fait une remarque un peu négative…",
-    "answers": [
-      { "label": "Je laisse passer", "scores": { "apaise": 3 } },
-      { "label": "J’y repense un moment", "scores": { "agite": 3 } },
-      { "label": "Ça tourne en boucle longtemps", "scores": { "sature": 3 } }
-    ]
-  },
-  {
-    "id": "5",
-    "question": "Tu dois rester 10 minutes sans rien faire…",
-    "answers": [
-      { "label": "Ça me fait du bien", "scores": { "apaise": 3 } },
-      { "label": "Je commence à penser à plein de choses", "scores": { "agite": 3 } },
-      { "label": "C’est inconfortable mentalement", "scores": { "sature": 3 } }
-    ]
-  },
-  {
-    "id": "6",
-    "question": "Tu termines ta journée et tu te poses enfin…",
-    "answers": [
-      { "label": "Je relâche vraiment", "scores": { "apaise": 3 } },
-      { "label": "Je repense à ce que j’ai fait", "scores": { "agite": 3 } },
-      { "label": "Mon cerveau continue sans s’arrêter", "scores": { "sature": 3 } }
-    ]
-  },
-  {
-    "id": "7",
-    "question": "Tu fais une activité calme (lecture, série)…",
-    "answers": [
-      { "label": "Je suis totalement dedans", "scores": { "apaise": 3 } },
-      { "label": "Je décroche parfois", "scores": { "agite": 3 } },
-      { "label": "Je n’arrive pas à rester concentré(e)", "scores": { "sature": 3 } }
-    ]
-  },
-  {
-    "id": "8",
-    "question": "Tu penses à quelque chose d’important…",
-    "answers": [
-      { "label": "Je réfléchis puis je lâche", "scores": { "apaise": 3 } },
-      { "label": "J’y reviens plusieurs fois", "scores": { "agite": 3 } },
-      { "label": "Ça m’obsède", "scores": { "sature": 3 } }
-    ]
-  },
-  {
-    "id": "9",
-    "question": "Tu es seul(e) chez toi, sans bruit…",
-    "answers": [
-      { "label": "Je me sens bien", "scores": { "apaise": 3 } },
-      { "label": "Je remplis le silence mentalement", "scores": { "agite": 3 } },
-      { "label": "Le silence me met mal à l’aise", "scores": { "sature": 3 } }
-    ]
-  },
-  {
-    "id": "10",
-    "question": "Juste avant de t’endormir, ton esprit…",
-    "answers": [
-      { "label": "Se calme naturellement", "scores": { "apaise": 3 } },
-      { "label": "Continue à réfléchir", "scores": { "agite": 3 } },
-      { "label": "S’emballe complètement", "scores": { "sature": 3 } }
-    ]
-  }
-]
+  "questions": [
+    {
+      "id": "1",
+      "question": "Tu viens d'éteindre la lumière, téléphone posé. Qu'est-ce qui se passe dans ta tête ?",
+      "answers": [
+        {
+          "label": "Des pensées passent, mais sans vraiment s'accrocher — je glisse assez vite vers le sommeil",
+          "scores": {
+            "apaise": 3
+          }
+        },
+        {
+          "label": "Je commence à organiser mentalement le lendemain ou à repenser à la journée",
+          "scores": {
+            "agite": 2,
+            "apaise": 1
+          }
+        },
+        {
+          "label": "Plusieurs sujets s'enchaînent et je ne contrôle pas vraiment la direction que ça prend",
+          "scores": {
+            "sature": 2,
+            "agite": 1
+          }
+        },
+        {
+          "label": "Un fil de pensée s'installe et j'ai du mal à l'arrêter même quand je voudrais",
+          "scores": {
+            "sature": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "question": "Tu attends seul(e) sans rien à faire — une file, un transport, une salle d'attente. Spontanément…",
+      "answers": [
+        {
+          "label": "Je cherche presque automatiquement mon téléphone pour occuper ce vide",
+          "scores": {
+            "agite": 2,
+            "sature": 1
+          }
+        },
+        {
+          "label": "J'observe ce qui m'entoure ou je laisse mon esprit flâner sans direction particulière",
+          "scores": {
+            "apaise": 3
+          }
+        },
+        {
+          "label": "Je commence à planifier mentalement des choses à faire, même sans le vouloir vraiment",
+          "scores": {
+            "agite": 3
+          }
+        },
+        {
+          "label": "Des pensées arrivent rapidement et passent de l'une à l'autre sans que je m'y attarde",
+          "scores": {
+            "agite": 2,
+            "apaise": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "question": "Tu poses ton téléphone après avoir scrollé un moment. Dans les minutes qui suivent…",
+      "answers": [
+        {
+          "label": "Je passe à autre chose sans difficulté — le contenu ne m'occupe plus l'esprit",
+          "scores": {
+            "apaise": 3
+          }
+        },
+        {
+          "label": "J'ai envie de reprendre le téléphone assez vite, comme si le vide qui suit était inconfortable",
+          "scores": {
+            "agite": 2,
+            "sature": 1
+          }
+        },
+        {
+          "label": "Je continue à penser à des choses que j'ai vues, sans vraiment le décider",
+          "scores": {
+            "agite": 2,
+            "sature": 1
+          }
+        },
+        {
+          "label": "Je décroche du téléphone, mais j'ai un peu de mal à me concentrer sur autre chose juste après",
+          "scores": {
+            "agite": 2,
+            "apaise": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "question": "Tu fais quelque chose de tranquille — cuisine, rangement, trajet court. Tu réalises que ton cerveau…",
+      "answers": [
+        {
+          "label": "Est lui aussi dans l'activité, sans trop déborder vers autre chose",
+          "scores": {
+            "apaise": 3
+          }
+        },
+        {
+          "label": "Anticipe simultanément plusieurs tâches à venir, comme s'il ne pouvait pas s'arrêter de planifier",
+          "scores": {
+            "sature": 2,
+            "agite": 1
+          }
+        },
+        {
+          "label": "Tourne en parallèle sur une ou deux choses sans que ce soit vraiment gênant",
+          "scores": {
+            "agite": 2,
+            "apaise": 1
+          }
+        },
+        {
+          "label": "Part dans plusieurs directions à la fois — je pense à beaucoup de choses sans lien entre elles",
+          "scores": {
+            "sature": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "question": "Tu te retrouves à ne rien faire pendant dix minutes, sans aucune obligation. Ton cerveau…",
+      "answers": [
+        {
+          "label": "Cherche rapidement quelque chose à faire ou à regarder — l'absence de stimulation est inconfortable",
+          "scores": {
+            "sature": 3
+          }
+        },
+        {
+          "label": "Profite naturellement de la pause, sans que le vide devienne pesant",
+          "scores": {
+            "apaise": 3
+          }
+        },
+        {
+          "label": "Commence à dresser mentalement une liste de choses à faire, presque par réflexe",
+          "scores": {
+            "agite": 2,
+            "sature": 1
+          }
+        },
+        {
+          "label": "Se repose, mais des pensées arrivent progressivement sans que je les aie cherchées",
+          "scores": {
+            "agite": 2,
+            "apaise": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "question": "La journée est terminée, les obligations aussi. Tu te poses enfin. Ton cerveau…",
+      "answers": [
+        {
+          "label": "Continue à tourner — il ne semble pas avoir reçu le signal que c'est fini",
+          "scores": {
+            "sature": 3
+          }
+        },
+        {
+          "label": "Repasse certains moments de la journée, puis lâche progressivement",
+          "scores": {
+            "agite": 2,
+            "apaise": 1
+          }
+        },
+        {
+          "label": "Comprend assez vite que la journée est finie — il relâche naturellement",
+          "scores": {
+            "apaise": 3
+          }
+        },
+        {
+          "label": "Reste actif un moment, notamment sur ce qui n'est pas encore réglé",
+          "scores": {
+            "agite": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "question": "Tu lis ou tu regardes quelque chose que tu as choisi. Au bout de quelques minutes…",
+      "answers": [
+        {
+          "label": "Je suis dedans — mon attention suit sans effort particulier",
+          "scores": {
+            "apaise": 3
+          }
+        },
+        {
+          "label": "Je décroche par moments, puis je reviens — c'est ponctuel et ça ne m'empêche pas de profiter",
+          "scores": {
+            "agite": 2,
+            "apaise": 1
+          }
+        },
+        {
+          "label": "Je ressens le besoin de vérifier mon téléphone ou autre chose, même si je voulais me poser",
+          "scores": {
+            "sature": 2,
+            "agite": 1
+          }
+        },
+        {
+          "label": "Je lis ou regarde tout en pensant simultanément à autre chose — je suis rarement pleinement là",
+          "scores": {
+            "sature": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "question": "Tu viens de terminer quelque chose d'important — une tâche, une démarche, une conversation. Une fois que c'est fait…",
+      "answers": [
+        {
+          "label": "Mon cerveau cherche immédiatement le prochain sujet à traiter, comme s'il ne pouvait pas rester sans objectif",
+          "scores": {
+            "sature": 3
+          }
+        },
+        {
+          "label": "Je passe à autre chose assez naturellement — la boucle est fermée",
+          "scores": {
+            "apaise": 3
+          }
+        },
+        {
+          "label": "Je vérifie mentalement ce qui a été fait, puis je lâche progressivement",
+          "scores": {
+            "agite": 2,
+            "apaise": 1
+          }
+        },
+        {
+          "label": "Mon esprit continue à tourner autour de la tâche pourtant terminée, par réflexe",
+          "scores": {
+            "agite": 2,
+            "sature": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "question": "Un rendez-vous se termine plus tôt que prévu. Tu récupères trente minutes sans rien de planifié. Spontanément…",
+      "answers": [
+        {
+          "label": "Je profite de cet espace sans chercher à le remplir immédiatement",
+          "scores": {
+            "apaise": 3
+          }
+        },
+        {
+          "label": "Je pense assez vite à ce que je pourrais faire d'utile avec ce temps",
+          "scores": {
+            "agite": 2,
+            "apaise": 1
+          }
+        },
+        {
+          "label": "Je ressens une légère pression à occuper ce temps, comme si le laisser vide était un peu inconfortable",
+          "scores": {
+            "sature": 2,
+            "agite": 1
+          }
+        },
+        {
+          "label": "J'ai du mal à ne rien planifier — mon cerveau remplit spontanément cet espace",
+          "scores": {
+            "sature": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "question": "Tu fais quelque chose de simple qui ne demande pas beaucoup de concentration. Au bout de quelques minutes, tu réalises que ton esprit…",
+      "answers": [
+        {
+          "label": "Est resté dans l'activité — une seule pensée à la fois, sans débordement",
+          "scores": {
+            "apaise": 3
+          }
+        },
+        {
+          "label": "A glissé vers une pensée parallèle, mais de façon ponctuelle et sans vraiment m'emporter",
+          "scores": {
+            "agite": 2,
+            "apaise": 1
+          }
+        },
+        {
+          "label": "Planifie quelque chose en parallèle — une sorte de fond sonore mental permanent",
+          "scores": {
+            "agite": 3
+          }
+        },
+        {
+          "label": "Jongle entre plusieurs sujets à la fois, sans que j'aie vraiment décidé d'y penser",
+          "scores": {
+            "sature": 3
+          }
+        }
+      ]
+    }
+  ]
 }

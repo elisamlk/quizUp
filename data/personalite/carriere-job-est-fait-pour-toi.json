@@ -1,13 +1,13 @@
 {
   "slug": "test-metier-quel-job-est-fait-pour-toi",
   "title": "Test métier - Quel job est fait pour toi ?",
-  "description": "Identifie le type de métier qui correspond le mieux à ta manière de travailler et à tes motivations.",
-  "descriptionSeo": "Identifie le métier qui correspond le mieux à ta personnalité, à tes motivations et à ta manière de travailler. À travers des situations concrètes, ce test t’aide à comprendre si tu es plus à l’aise dans un environnement créatif, analytique, social, structuré ou entrepreneurial. Une approche claire et immersive pour mieux t’orienter, valoriser tes points forts et trouver un cadre professionnel qui te correspond réellement.",
+  "description": "Découvre le type de rôle professionnel qui correspond le mieux à ta manière de réfléchir, collaborer et faire avancer les choses.",
+  "descriptionSeo": "Création, analyse, relations humaines, initiative, organisation… ce test explore la manière dont tu contribues naturellement dans différentes situations professionnelles. À travers dix scénarios concrets, observe les types de problèmes, de responsabilités et d'environnements dans lesquels tu pourrais être le plus à l'aise. Le résultat ne choisit pas un métier à ta place : il met en lumière les rôles professionnels qui correspondent le mieux à ta façon de travailler.",
   "category": {
     "name": "Carrière",
     "slug": "carriere"
   },
-  "createdAt": "2026-04-20",
+  "createdAt": "2026-09-20",
   "isNew": true,
   "isPopular": true,
   "images": {
@@ -18,144 +18,368 @@
   "profiles": [
     {
       "key": "creatif",
-      "title": "Le Créatif",
-      "description": "Tu t’épanouis dans les environnements où l’expression, l’innovation et la liberté d’idées sont centrales. Tu as tendance à penser différemment, à imaginer des alternatives et à apporter une touche originale dans ce que tu fais. Les tâches trop répétitives ou les cadres trop stricts peuvent rapidement te démotiver. Tu as besoin de stimulation, de variété et d’un espace pour t’exprimer. Ce profil correspond souvent à des métiers liés au design, à la communication, au contenu ou à la création de concepts. Cependant, ton défi est de canaliser tes idées et de les concrétiser dans la durée. En développant plus de structure, tu peux transformer ton imagination en véritable force professionnelle durable. Ta valeur réside dans ta capacité à apporter du nouveau et à voir ce que les autres ne voient pas.",
+      "title": "Créer et imaginer",
+      "description": "Tu sembles particulièrement stimulé(e) par les rôles où il faut transformer une idée floue en quelque chose de nouveau. Tu apportes de la valeur là où les choses ne sont pas encore définies : tu explores des angles inattendus, tu proposes des alternatives et tu donnes une forme à ce qui n'en avait pas encore. Le secteur compte moins que la nature du rôle : conception, contenu, produit, communication, innovation — ce sont des contextes où cette façon de contribuer est particulièrement utile.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776771397/creative_s5mdep.jpg"
     },
     {
       "key": "analytique",
-      "title": "L'Analytique",
-      "description": "Tu es naturellement attiré par les environnements où la réflexion, la logique et la compréhension sont essentielles. Tu aimes analyser, décortiquer et trouver des solutions cohérentes aux problèmes complexes. Tu prends rarement des décisions au hasard et tu préfères comprendre avant d’agir. Cette capacité te rend fiable, pertinent et souvent très précis dans ton travail. Tu es à l’aise dans des domaines comme la tech, la finance, la stratégie ou l’ingénierie. Cependant, tu peux parfois rester trop longtemps dans l’analyse et hésiter à passer à l’action. Ton défi est d’oser agir même sans avoir toutes les réponses. Ta force réside dans ta capacité à structurer la pensée et à prendre des décisions solides basées sur des faits.",
+      "title": "Comprendre et résoudre",
+      "description": "Tu sembles particulièrement efficace dans les rôles où il faut structurer un problème, identifier ce qui ne tient pas et construire un raisonnement solide. Tu apportes de la clarté là où d'autres voient de la complexité. Stratégie, data, technologie, finance, ingénierie, conseil — des environnements très différents font appel à ce type de contribution. Ce qui compte davantage que le domaine, c'est que le rôle t'offre des problèmes réels à résoudre.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776771826/analytic_ofwghg.jpg"
     },
     {
       "key": "social",
-      "title": "Le Relationnel",
-      "description": "Tu t’épanouis dans les interactions humaines. Tu aimes comprendre, échanger, accompagner et créer du lien avec les autres. Tu es sensible aux dynamiques sociales et tu sais souvent mettre les gens à l’aise. Les environnements trop isolés ou techniques peuvent te frustrer, car tu as besoin de contact et de sens dans tes relations. Ce profil correspond bien à des métiers comme le management, le commerce, le coaching, l’enseignement ou les ressources humaines. Tu apportes de la fluidité et de l’énergie dans les échanges. Ton défi est de ne pas trop t’adapter aux autres au point de t’oublier. Ta force réside dans ta capacité à connecter les personnes et à créer un climat de confiance.",
+      "title": "Échanger et accompagner",
+      "description": "Tu sembles particulièrement à l'aise dans les rôles où la qualité des interactions compte autant que le résultat technique. Tu lis les dynamiques humaines, tu sais adapter ta communication et tu crées facilement des conditions favorables à la collaboration. Ce type de contribution est précieux dans des rôles très variés : management, formation, commerce, médiation, coordination, accompagnement — partout où les résultats passent par des personnes.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776944765/social_dhhg2c.jpg"
     },
     {
       "key": "entrepreneur",
-      "title": "L'Entrepreneur",
-      "description": "Tu es attiré par l’action, les défis et la création de projets. Tu as une tendance naturelle à prendre des initiatives, à tester des idées et à avancer même sans cadre clair. Tu es motivé par la progression, l’autonomie et la possibilité de construire quelque chose par toi-même. Tu n’as pas peur de sortir des sentiers battus et tu es à l’aise avec une certaine prise de risque. Ce profil correspond à l’entrepreneuriat, mais aussi à des rôles dynamiques dans des environnements en évolution. Ton défi est de maintenir une discipline et une constance dans tes efforts. Ta force réside dans ta capacité à transformer une idée en action et à créer des opportunités.",
+      "title": "Initier et faire avancer",
+      "description": "Tu sembles particulièrement stimulé(e) par les rôles où il faut créer quelque chose qui n'existait pas encore ou faire avancer ce qui stagne. Tu es à l'aise pour prendre des décisions sans attendre que tout soit parfait, pour tester des approches et pour transformer une idée en traction réelle. Ce profil correspond à l'entrepreneuriat, mais aussi à des rôles intrapreneuriaux, de développement, de lancement ou de transformation dans des organisations existantes.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776944836/entrepreneur_nwol9u.jpg"
     },
     {
       "key": "structure",
-      "title": "Le Structuré",
-      "description": "Tu es à l’aise dans les environnements organisés, clairs et stables. Tu apprécies les processus, les méthodes et le fait de savoir où tu vas. Tu es fiable, rigoureux et tu sais gérer les responsabilités sur la durée. Tu aimes quand les choses sont bien définies et tu es efficace pour structurer, planifier et organiser. Ce profil correspond à des métiers liés à la gestion, à l’administration, à la logistique ou à l’organisation de projets. Cependant, tu peux parfois avoir du mal à gérer l’imprévu ou à sortir de ton cadre. Ton défi est d’accepter davantage de flexibilité. Ta force réside dans ta constance, ta discipline et ta capacité à rendre les choses efficaces et organisées.",
+      "title": "Organiser et fiabiliser",
+      "description": "Tu sembles particulièrement efficace dans les rôles où il faut rendre les choses prévisibles, reproductibles et fiables. Tu apportes de la valeur là où l'ambiguïté coûte cher : tu clarifies les processus, tu identifies les points de friction et tu construis des systèmes qui tiennent dans le temps. Gestion de projet, opérations, administration, qualité, logistique — des contextes très différents font appel à cette façon de contribuer.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776776808/surpasse_aufmlo.jpg"
     }
   ],
   "questions": [
     {
       "id": "1",
-      "question": "On te confie un nouveau projet sans consignes précises. Tu fais quoi en premier ?",
+      "question": "On te confie un nouveau projet dont l'objectif est clair, mais la manière d'y arriver reste entièrement ouverte. Quelle est ta première réaction ?",
       "answers": [
-        { "label": "Je réfléchis à différentes idées possibles", "scores": { "creatif": 3, "analytique": 1 } },
-        { "label": "Je cherche à comprendre le contexte en détail", "scores": { "analytique": 3 } },
-        { "label": "J’échange avec d’autres pour clarifier", "scores": { "social": 3 } },
-        { "label": "Je commence rapidement pour voir où ça mène", "scores": { "entrepreneur": 3 } },
-        { "label": "Je structure les premières étapes", "scores": { "structure": 3, "analytique": 1 } }
+        {
+          "label": "Je cherche d'abord à comprendre précisément les contraintes et les critères de succès avant de choisir une direction",
+          "scores": {
+            "analytique": 2,
+            "structure": 1
+          }
+        },
+        {
+          "label": "Je définis rapidement une première étape concrète et je commence — on ajustera en avançant",
+          "scores": {
+            "entrepreneur": 2,
+            "structure": 1
+          }
+        },
+        {
+          "label": "Je commence à explorer différentes façons d'aborder le problème — l'ouverture m'attire plutôt qu'elle ne me bloque",
+          "scores": {
+            "creatif": 2,
+            "entrepreneur": 1
+          }
+        },
+        {
+          "label": "Je consulte les personnes impliquées pour comprendre leurs attentes et leurs contraintes réelles",
+          "scores": {
+            "social": 2,
+            "analytique": 1
+          }
+        }
       ]
     },
     {
       "id": "2",
-      "question": "Dans ton travail idéal, ce qui compte le plus pour toi…",
+      "question": "Un problème revient régulièrement dans ton équipe malgré plusieurs tentatives pour le résoudre. Qu'est-ce qui attire d'abord ton attention ?",
       "answers": [
-        { "label": "Pouvoir proposer des idées", "scores": { "creatif": 3 } },
-        { "label": "Comprendre et résoudre des problèmes", "scores": { "analytique": 3 } },
-        { "label": "Travailler avec des gens", "scores": { "social": 3 } },
-        { "label": "Avoir de la liberté d’action", "scores": { "entrepreneur": 3 } },
-        { "label": "Avoir un cadre clair", "scores": { "structure": 3 } }
+        {
+          "label": "Une approche complètement différente de celles déjà essayées — si rien n'a marché, le cadre lui-même est peut-être le problème",
+          "scores": {
+            "creatif": 3
+          }
+        },
+        {
+          "label": "Ce que vivent concrètement les personnes concernées — le problème vient peut-être de là où on ne regarde pas",
+          "scores": {
+            "social": 2,
+            "creatif": 1
+          }
+        },
+        {
+          "label": "Le processus : comment le problème se produit, à quelle étape il apparaît et ce qui permettrait de l'éviter à la source",
+          "scores": {
+            "structure": 2,
+            "analytique": 1
+          }
+        },
+        {
+          "label": "La logique sous-jacente — pourquoi les solutions précédentes n'ont pas tenu et ce qui manquait dans le raisonnement",
+          "scores": {
+            "analytique": 3
+          }
+        }
       ]
     },
     {
       "id": "3",
-      "question": "Quand quelque chose ne se passe pas comme prévu…",
+      "question": "Ton équipe doit présenter un projet important dans trois jours. Il reste beaucoup à faire. Où apportes-tu spontanément le plus de valeur ?",
       "answers": [
-        { "label": "Je cherche une alternative originale", "scores": { "creatif": 3 } },
-        { "label": "J’analyse ce qui n’a pas fonctionné", "scores": { "analytique": 3 } },
-        { "label": "Je demande un avis extérieur", "scores": { "social": 3 } },
-        { "label": "Je rebondis rapidement", "scores": { "entrepreneur": 3 } },
-        { "label": "Je reprends étape par étape", "scores": { "structure": 3 } }
+        {
+          "label": "Je m'assure que tout le monde sait ce qu'il a à faire et je coordonne pour qu'on soit prêts à temps",
+          "scores": {
+            "structure": 2,
+            "social": 1
+          }
+        },
+        {
+          "label": "Je vérifie que le raisonnement tient et qu'on peut répondre aux objections les plus probables",
+          "scores": {
+            "analytique": 2,
+            "structure": 1
+          }
+        },
+        {
+          "label": "Je prends en main ce qui bloque et je fais avancer les parties les plus critiques",
+          "scores": {
+            "entrepreneur": 2,
+            "analytique": 1
+          }
+        },
+        {
+          "label": "Je cherche comment rendre le message beaucoup plus marquant et mémorable",
+          "scores": {
+            "creatif": 2,
+            "social": 1
+          }
+        }
       ]
     },
     {
       "id": "4",
-      "question": "Tu te sens le plus à l’aise quand…",
+      "question": "Une réunion dure depuis une heure et personne n'arrive à trancher. Que fais-tu naturellement ?",
       "answers": [
-        { "label": "Tu peux imaginer librement", "scores": { "creatif": 3 } },
-        { "label": "Tu comprends parfaitement ce que tu fais", "scores": { "analytique": 3 } },
-        { "label": "Tu échanges avec les autres", "scores": { "social": 3 } },
-        { "label": "Tu prends des initiatives", "scores": { "entrepreneur": 3 } },
-        { "label": "Tout est bien organisé", "scores": { "structure": 3 } }
+        {
+          "label": "Je prends position et je propose de trancher — rester dans l'indécision coûte plus cher que de se tromper",
+          "scores": {
+            "entrepreneur": 3
+          }
+        },
+        {
+          "label": "Je résume les points de consensus et de désaccord pour rendre la décision plus claire",
+          "scores": {
+            "analytique": 2,
+            "social": 1
+          }
+        },
+        {
+          "label": "Je reformule ce qui a été dit pour aider les participants à mieux s'entendre et s'aligner",
+          "scores": {
+            "social": 2,
+            "structure": 1
+          }
+        },
+        {
+          "label": "Je propose une piste différente de celles déjà évoquées pour sortir du blocage",
+          "scores": {
+            "creatif": 2,
+            "entrepreneur": 1
+          }
+        }
       ]
     },
     {
       "id": "5",
-      "question": "Dans une équipe, on compte sur toi pour…",
+      "question": "Tu dois apprendre quelque chose de nouveau et tu bloques à un moment donné. Comment tu gères ce blocage ?",
       "answers": [
-        { "label": "Apporter des idées nouvelles", "scores": { "creatif": 3 } },
-        { "label": "Analyser et structurer", "scores": { "analytique": 3 } },
-        { "label": "Maintenir une bonne dynamique", "scores": { "social": 3 } },
-        { "label": "Faire avancer les choses", "scores": { "entrepreneur": 3 } },
-        { "label": "Organiser le travail", "scores": { "structure": 3 } }
+        {
+          "label": "Je reviens en arrière pour identifier précisément à quel moment j'ai perdu le fil",
+          "scores": {
+            "analytique": 2,
+            "structure": 1
+          }
+        },
+        {
+          "label": "Je mets de côté et je teste en pratique — parfois comprendre vient en faisant",
+          "scores": {
+            "entrepreneur": 2,
+            "creatif": 1
+          }
+        },
+        {
+          "label": "Je cherche quelqu'un qui maîtrise le sujet pour qu'il m'explique autrement",
+          "scores": {
+            "social": 2,
+            "analytique": 1
+          }
+        },
+        {
+          "label": "Je cherche une autre façon d'aborder le concept — un exemple différent, une analogie, une représentation visuelle",
+          "scores": {
+            "creatif": 2,
+            "analytique": 1
+          }
+        }
       ]
     },
     {
       "id": "6",
-      "question": "Ce qui te fatigue le plus dans un travail…",
+      "question": "Tu termines un projet qui a obtenu de bons résultats, mais tu n'en retires presque aucune satisfaction. Qu'est-ce qui pourrait le mieux expliquer ce sentiment ?",
       "answers": [
-        { "label": "Faire toujours la même chose", "scores": { "creatif": 3 } },
-        { "label": "Manquer de logique", "scores": { "analytique": 3 } },
-        { "label": "Être isolé", "scores": { "social": 3 } },
-        { "label": "Ne pas pouvoir agir librement", "scores": { "entrepreneur": 3 } },
-        { "label": "Le manque d’organisation", "scores": { "structure": 3 } }
+        {
+          "label": "Le projet avançait mal, au dernier moment et sans méthode — même si le résultat final était correct",
+          "scores": {
+            "structure": 3
+          }
+        },
+        {
+          "label": "Je n'ai pas eu à résoudre de vrais problèmes — c'était surtout de l'exécution sans réflexion",
+          "scores": {
+            "analytique": 2,
+            "entrepreneur": 1
+          }
+        },
+        {
+          "label": "Le projet ne m'a pas permis d'apporter quelque chose de vraiment nouveau ou personnel",
+          "scores": {
+            "creatif": 3
+          }
+        },
+        {
+          "label": "Je n'ai pas eu vraiment d'impact sur les personnes concernées — le résultat était bon mais sans lien humain",
+          "scores": {
+            "social": 2,
+            "creatif": 1
+          }
+        }
       ]
     },
     {
       "id": "7",
-      "question": "Quand tu dois apprendre quelque chose de nouveau…",
+      "question": "Un collègue te demande de l'aide sur un problème que tu ne connais pas parfaitement. Comment tu réagis ?",
       "answers": [
-        { "label": "Je teste et j’expérimente", "scores": { "creatif": 3 } },
-        { "label": "Je comprends le fonctionnement", "scores": { "analytique": 3 } },
-        { "label": "J’échange avec quelqu’un", "scores": { "social": 3 } },
-        { "label": "Je me lance directement", "scores": { "entrepreneur": 3 } },
-        { "label": "Je suis une méthode", "scores": { "structure": 3 } }
+        {
+          "label": "Je cherche rapidement quelqu'un qui connaît mieux le sujet et je facilite la mise en contact",
+          "scores": {
+            "social": 2,
+            "entrepreneur": 1
+          }
+        },
+        {
+          "label": "J'essaie de comprendre la structure du problème avec lui avant de chercher des réponses",
+          "scores": {
+            "analytique": 2,
+            "social": 1
+          }
+        },
+        {
+          "label": "Je propose qu'on teste une première approche simple pour voir ce qui se passe concrètement",
+          "scores": {
+            "entrepreneur": 2,
+            "creatif": 1
+          }
+        },
+        {
+          "label": "Je l'aide à formuler clairement ce qui bloque — souvent, mettre le problème en mots suffit à trouver une piste",
+          "scores": {
+            "social": 2,
+            "analytique": 1
+          }
+        }
       ]
     },
     {
       "id": "8",
-      "question": "Ce qui te motive vraiment…",
+      "question": "On te demande d'améliorer quelque chose qui fonctionne déjà correctement. Comment tu abordes la question ?",
       "answers": [
-        { "label": "Créer quelque chose de nouveau", "scores": { "creatif": 3 } },
-        { "label": "Comprendre et maîtriser", "scores": { "analytique": 3 } },
-        { "label": "Aider ou accompagner", "scores": { "social": 3 } },
-        { "label": "Construire un projet", "scores": { "entrepreneur": 3 } },
-        { "label": "Organiser et stabiliser", "scores": { "structure": 3 } }
+        {
+          "label": "Je me demande si l'approche actuelle est vraiment la bonne ou s'il existe une façon radicalement différente de faire",
+          "scores": {
+            "creatif": 2,
+            "entrepreneur": 1
+          }
+        },
+        {
+          "label": "Je regarde les données disponibles pour identifier où les résultats pourraient être nettement meilleurs",
+          "scores": {
+            "analytique": 2,
+            "structure": 1
+          }
+        },
+        {
+          "label": "Je cherche ce que les utilisateurs ou les personnes concernées trouvent frustrant ou insuffisant",
+          "scores": {
+            "social": 2,
+            "analytique": 1
+          }
+        },
+        {
+          "label": "J'examine le processus étape par étape pour repérer les frictions et les redondances",
+          "scores": {
+            "structure": 2,
+            "analytique": 1
+          }
+        }
       ]
     },
     {
       "id": "9",
-      "question": "Tu préfères un environnement…",
+      "question": "Tu dois choisir entre deux nouvelles missions intéressantes, mais tu ne peux en accepter qu'une. Comment tu décides ?",
       "answers": [
-        { "label": "Libre et créatif", "scores": { "creatif": 3 } },
-        { "label": "Logique et structuré", "scores": { "analytique": 3 } },
-        { "label": "Dynamique et humain", "scores": { "social": 3 } },
-        { "label": "Ambitieux et stimulant", "scores": { "entrepreneur": 3 } },
-        { "label": "Stable et organisé", "scores": { "structure": 3 } }
+        {
+          "label": "Je choisis celle qui me permet de vraiment comprendre quelque chose en profondeur plutôt que d'effleurer deux sujets",
+          "scores": {
+            "analytique": 2,
+            "structure": 1
+          }
+        },
+        {
+          "label": "Je choisis celle où je peux faire avancer quelque chose de concret rapidement et voir les résultats",
+          "scores": {
+            "entrepreneur": 2,
+            "structure": 1
+          }
+        },
+        {
+          "label": "Je choisis celle où j'aurai le plus de latitude pour trouver ma propre façon d'aborder le problème",
+          "scores": {
+            "creatif": 2,
+            "entrepreneur": 1
+          }
+        },
+        {
+          "label": "Je choisis celle qui aura le plus d'impact sur les personnes concernées",
+          "scores": {
+            "social": 2,
+            "entrepreneur": 1
+          }
+        }
       ]
     },
     {
       "id": "10",
-      "question": "Ce qui te correspond le mieux…",
+      "question": "Tu rentres chez toi après une journée particulièrement satisfaisante. Qu'est-ce qui a probablement rendu cette journée réussie à tes yeux ?",
       "answers": [
-        { "label": "Imaginer", "scores": { "creatif": 3 } },
-        { "label": "Comprendre", "scores": { "analytique": 3 } },
-        { "label": "Relier les gens", "scores": { "social": 3 } },
-        { "label": "Construire", "scores": { "entrepreneur": 3 } },
-        { "label": "Organiser", "scores": { "structure": 3 } }
+        {
+          "label": "Un problème compliqué est enfin devenu clair et une solution solide et logique a émergé",
+          "scores": {
+            "analytique": 2,
+            "structure": 1
+          }
+        },
+        {
+          "label": "Plusieurs choses qui traînaient depuis un moment ont enfin été réglées, organisées ou clarifiées",
+          "scores": {
+            "structure": 2,
+            "social": 1
+          }
+        },
+        {
+          "label": "Une idée encore floue le matin a pris forme et quelque chose de concret et de nouveau existe maintenant",
+          "scores": {
+            "creatif": 2,
+            "entrepreneur": 1
+          }
+        },
+        {
+          "label": "J'ai aidé quelqu'un à avancer sur quelque chose qui le bloquait et j'ai senti que ça a vraiment compté",
+          "scores": {
+            "social": 3
+          }
+        }
       ]
     }
   ]

@@ -2,12 +2,12 @@
   "slug": "test-fatigue-physique-ou-mentale",
   "title": "Test bien-être - Ta fatigue est-elle physique ou mentale ?",
   "description": "Ton épuisement vient-il de ton corps ou de ton esprit ?",
-  "descriptionSeo": "Fatigue physique ou mentale ? À travers des situations concrètes du quotidien, ce test t’aide à comprendre l’origine de ton épuisement. Difficulté à te concentrer, corps lourd, surcharge mentale… découvre ce qui impacte réellement ton énergie.",
+  "descriptionSeo": "Corps lourd, concentration difficile, décisions épuisantes, récupération incomplète… ce test explore comment ta fatigue se manifeste concrètement au quotidien, à travers dix situations qui mettent tes ressources corporelles et cognitives à l'épreuve. Il ne cherche pas à identifier une cause médicale, mais à observer quelle dimension semble la plus sollicitée en ce moment.",
   "category": {
     "name": "Bien-être",
     "slug": "bien-etre"
   },
-  "createdAt": "2026-04-27",
+  "createdAt": "2026-09-20",
   "isNew": true,
   "isPopular": true,
   "images": {
@@ -18,113 +18,339 @@
   "profiles": [
     {
       "key": "physique",
-      "title": "Fatigue physique",
-      "description": "Ton corps semble être le principal signal d’alerte. Tu ressens une lourdeur, un manque d’énergie physique et parfois une sensation d’épuisement même sans effort intense. Tu peux avoir du mal à te lever, à bouger ou à enchaîner les tâches. Cette fatigue est souvent liée au manque de repos, au stress accumulé ou à un rythme trop soutenu. Ton corps te demande clairement de ralentir et de récupérer.",
+      "title": "Fatigue plutôt physique",
+      "description": "Tes réponses indiquent que c'est ton corps qui semble céder en premier. Se mettre en mouvement, enchaîner les efforts ou simplement tenir une posture coûte davantage que réfléchir ou décider. Ce n'est pas une conclusion sur la cause de ta fatigue — beaucoup de facteurs peuvent l'expliquer. Mais en ce moment, c'est le signal corporel qui domine. Ton corps a besoin de récupération, pas seulement de calme.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777464371/fatigue-physique_i7ab4z.jpg"
     },
     {
       "key": "mentale",
-      "title": "Fatigue mentale",
-      "description": "C’est ton esprit qui est saturé. Tu peux te sentir débordé(e), avoir du mal à te concentrer ou à prendre des décisions simples. Ton cerveau tourne en boucle et tu peux ressentir une forme de surcharge mentale. Même sans effort physique, tu te sens épuisé(e). Tu as besoin de déconnecter, de ralentir le flux d’informations et de retrouver du calme mental.",
+      "title": "Fatigue plutôt cognitive",
+      "description": "Tes réponses suggèrent que ce sont tes ressources cognitives qui s'épuisent en premier. Décider, suivre un fil, garder des informations en tête ou rester concentré(e) demande un effort disproportionné — même quand le corps est encore disponible. Ce test ne cherche pas à identifier pourquoi : il observe simplement que la charge se manifeste davantage de ce côté-là en ce moment.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777464308/fatigue-mentale_cl9fr8.jpg"
     },
     {
       "key": "mixte",
-      "title": "Fatigue globale",
-      "description": "Tu ressens à la fois une fatigue physique et mentale. Ton corps est fatigué, mais ton esprit l’est aussi. Tu peux te sentir vidé(e), sans énergie et parfois dépassé(e). Cette fatigue globale peut venir d’un cumul : stress, manque de repos, surcharge mentale… Tu as besoin de ralentir sur tous les plans et de prendre du temps pour récupérer en profondeur.",
+      "title": "Fatigue sur les deux plans",
+      "description": "Tes réponses montrent des signaux à la fois corporels et cognitifs — sans qu'un seul domine clairement. Corps et esprit semblent tous les deux en dessous de leur niveau habituel. Ce profil peut refléter une période de cumul, où aucune forme de récupération ne suffit vraiment à elle seule. Ce test ne diagnostique pas : il pointe une tendance actuelle, qui peut évoluer avec du repos et une réduction de la charge.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777464610/mixed_bprzj5.jpg"
     }
   ],
   "questions": [
     {
       "id": "1",
-      "question": "Le matin, au réveil…",
+      "question": "Le matin, au réveil, qu'est-ce qui est le plus difficile ?",
       "answers": [
-        { "label": "Mon corps est lourd, difficile de bouger", "scores": { "physique": 3 } },
-        { "label": "Je pense déjà à tout ce que je dois faire", "scores": { "mentale": 3 } },
-        { "label": "Les deux", "scores": { "mixte": 3 } }
+        {
+          "label": "Sortir physiquement du lit — mon corps résiste même si mon esprit est déjà actif",
+          "scores": {
+            "physique": 3
+          }
+        },
+        {
+          "label": "La journée s'installe mentalement avant même que je sois levé(e) — to-do list, préoccupations, tout arrive d'un coup",
+          "scores": {
+            "mentale": 3
+          }
+        },
+        {
+          "label": "Je me lève sans trop de mal, mais mon énergie physique retombe rapidement dès que je commence à bouger",
+          "scores": {
+            "physique": 2,
+            "mentale": 1
+          }
+        },
+        {
+          "label": "Corps et attention mettent du temps à être vraiment disponibles — les deux démarrent lentement",
+          "scores": {
+            "mixte": 3
+          }
+        }
       ]
     },
     {
       "id": "2",
-      "question": "Tu dois faire une tâche simple…",
+      "question": "Tu dois faire une petite tâche domestique — ranger quelque chose, préparer un repas simple. Qu'est-ce qui coince ?",
       "answers": [
-        { "label": "Je manque d’énergie physique", "scores": { "physique": 3 } },
-        { "label": "Je n’arrive pas à me concentrer", "scores": { "mentale": 3 } },
-        { "label": "Les deux", "scores": { "mixte": 3 } }
+        {
+          "label": "Me mettre physiquement en mouvement — l'envie est là mais le corps ne suit pas facilement",
+          "scores": {
+            "physique": 3
+          }
+        },
+        {
+          "label": "Garder les étapes en tête ou rester concentré(e) sur ce que je fais",
+          "scores": {
+            "mentale": 3
+          }
+        },
+        {
+          "label": "Je commence correctement, puis je perds rapidement de l'élan — sans vraiment savoir pourquoi",
+          "scores": {
+            "physique": 2,
+            "mentale": 1
+          }
+        },
+        {
+          "label": "Je peux bouger, mais mon esprit décroche régulièrement de ce que je suis en train de faire",
+          "scores": {
+            "mentale": 2,
+            "physique": 1
+          }
+        }
       ]
     },
     {
       "id": "3",
-      "question": "Après une journée classique…",
+      "question": "Tu rentres chez toi après une journée ordinaire. Qu'est-ce que tu remarques en premier ?",
       "answers": [
-        { "label": "Je suis physiquement épuisé(e)", "scores": { "physique": 3 } },
-        { "label": "Mon cerveau est saturé", "scores": { "mentale": 3 } },
-        { "label": "Je suis vidé(e) globalement", "scores": { "mixte": 3 } }
+        {
+          "label": "Un besoin immédiat de m'asseoir ou de m'allonger — mon corps réclame du repos",
+          "scores": {
+            "physique": 3
+          }
+        },
+        {
+          "label": "Une incapacité à prendre même une petite décision — qu'est-ce qu'on mange, qu'est-ce qu'on fait",
+          "scores": {
+            "mentale": 3
+          }
+        },
+        {
+          "label": "Une envie de silence et d'absence de sollicitation, davantage que de repos physique",
+          "scores": {
+            "mentale": 2,
+            "physique": 1
+          }
+        },
+        {
+          "label": "Je peux encore réfléchir normalement, mais aucune envie de me remettre en mouvement",
+          "scores": {
+            "physique": 2,
+            "mentale": 1
+          }
+        }
       ]
     },
     {
       "id": "4",
-      "question": "Tu dois te concentrer…",
+      "question": "On te propose une activité que tu apprécies — un jeu de société, une promenade courte, un film. Qu'est-ce qui se passe ?",
       "answers": [
-        { "label": "Je n’ai pas l’énergie physique", "scores": { "physique": 3 } },
-        { "label": "Mon esprit part dans tous les sens", "scores": { "mentale": 3 } },
-        { "label": "Les deux", "scores": { "mixte": 3 } }
+        {
+          "label": "L'envie est là, mais bouger ou me déplacer me semble disproportionnément coûteux",
+          "scores": {
+            "physique": 3
+          }
+        },
+        {
+          "label": "Le mouvement est possible, mais organiser, me décider ou suivre les règles me semble trop lourd",
+          "scores": {
+            "mentale": 3
+          }
+        },
+        {
+          "label": "Je pourrais faire quelque chose de passif, mais rien qui demande un effort — corporel ou cognitif",
+          "scores": {
+            "physique": 2,
+            "mentale": 1
+          }
+        },
+        {
+          "label": "Je participe, mais je remarque que je ne suis pas vraiment là — ni dans le corps ni dans la tête",
+          "scores": {
+            "mentale": 2,
+            "physique": 1
+          }
+        }
       ]
     },
     {
       "id": "5",
-      "question": "Même après du repos…",
+      "question": "Tu as eu une soirée calme et une nuit correcte. Le lendemain matin, qu'est-ce qui semble s'être amélioré ?",
       "answers": [
-        { "label": "Je suis encore fatigué(e) physiquement", "scores": { "physique": 3 } },
-        { "label": "Je me sens toujours chargé(e) mentalement", "scores": { "mentale": 3 } },
-        { "label": "Ça ne change pas grand-chose", "scores": { "mixte": 3 } }
+        {
+          "label": "Mon corps est plus léger, mais ma tête reste chargée — les préoccupations sont toujours là",
+          "scores": {
+            "mentale": 3
+          }
+        },
+        {
+          "label": "Je me sens plus clair(e) mentalement, mais mon corps est encore lourd",
+          "scores": {
+            "physique": 3
+          }
+        },
+        {
+          "label": "Une légère amélioration des deux côtés, sans que je me sente vraiment rechargé(e)",
+          "scores": {
+            "mixte": 3
+          }
+        },
+        {
+          "label": "Presque rien — une nuit ne semble pas suffire à vraiment changer quelque chose",
+          "scores": {
+            "mixte": 2,
+            "mentale": 1
+          }
+        }
       ]
     },
     {
       "id": "6",
-      "question": "Ton principal ressenti…",
+      "question": "Le soir, on te demande de choisir entre deux options simples. Comment tu le vis ?",
       "answers": [
-        { "label": "Lourdeur physique", "scores": { "physique": 3 } },
-        { "label": "Surcharge mentale", "scores": { "mentale": 3 } },
-        { "label": "Les deux", "scores": { "mixte": 3 } }
+        {
+          "label": "Décider reste facile — c'est mon corps qui ne veut plus grand-chose, pas ma tête",
+          "scores": {
+            "physique": 3
+          }
+        },
+        {
+          "label": "Je peux encore bouger, mais trancher entre deux options me semble ridiculement difficile",
+          "scores": {
+            "mentale": 3
+          }
+        },
+        {
+          "label": "Je délègue ou j'évite la décision — faire un effort supplémentaire, quelle que soit sa nature, me pèse",
+          "scores": {
+            "mentale": 2,
+            "physique": 1
+          }
+        },
+        {
+          "label": "Je décide sans trop de mal, mais je remarque que j'ai peu de ressources pour ce qui suivra",
+          "scores": {
+            "physique": 2,
+            "mentale": 1
+          }
+        }
       ]
     },
     {
       "id": "7",
-      "question": "Quand tu te poses…",
+      "question": "Tu t'accordes 20 à 30 minutes sans obligation. Qu'est-ce qui récupère en premier ?",
       "answers": [
-        { "label": "Mon corps reste fatigué", "scores": { "physique": 3 } },
-        { "label": "Mon esprit continue de tourner", "scores": { "mentale": 3 } },
-        { "label": "Impossible de vraiment récupérer", "scores": { "mixte": 3 } }
+        {
+          "label": "Mon corps — la pause physique fait rapidement du bien, même si la tête reste un peu chargée",
+          "scores": {
+            "physique": 3
+          }
+        },
+        {
+          "label": "Mon esprit — le silence mental soulage, même si mon corps reste lourd",
+          "scores": {
+            "mentale": 3
+          }
+        },
+        {
+          "label": "Une légère détente des deux côtés, mais insuffisante pour me sentir vraiment récupéré(e)",
+          "scores": {
+            "mixte": 3
+          }
+        },
+        {
+          "label": "Pas grand-chose — 30 minutes ne semblent pas suffire à changer mon état",
+          "scores": {
+            "mixte": 2,
+            "physique": 1
+          }
+        }
       ]
     },
     {
       "id": "8",
-      "question": "Face à une journée chargée…",
+      "question": "Quelqu'un te raconte quelque chose après une longue journée et tu veux vraiment l'écouter. Qu'est-ce qui est difficile ?",
       "answers": [
-        { "label": "Je manque d’énergie physique", "scores": { "physique": 3 } },
-        { "label": "Je me sens débordé(e)", "scores": { "mentale": 3 } },
-        { "label": "Je me sens dépassé(e) globalement", "scores": { "mixte": 3 } }
+        {
+          "label": "Rester debout ou maintenir une posture confortable — mon corps réclame de se poser",
+          "scores": {
+            "physique": 3
+          }
+        },
+        {
+          "label": "Suivre le fil de ce qui est dit — je décroche, je dois me rattraper, je perds des morceaux",
+          "scores": {
+            "mentale": 3
+          }
+        },
+        {
+          "label": "Je suis assis(e) et j'écoute, mais je remarque que je ne retiens pas grand-chose",
+          "scores": {
+            "mentale": 2,
+            "physique": 1
+          }
+        },
+        {
+          "label": "Je suis mentalement présent(e), mais je voudrais juste pouvoir m'allonger pendant qu'on me parle",
+          "scores": {
+            "physique": 2,
+            "mentale": 1
+          }
+        }
       ]
     },
     {
       "id": "9",
-      "question": "Quand tu fais un effort…",
+      "question": "Tu dois aller chercher quelque chose à quelques minutes de chez toi, puis régler une petite démarche administrative. Qu'est-ce qui te coûte le plus ?",
       "answers": [
-        { "label": "Mon corps lâche vite", "scores": { "physique": 3 } },
-        { "label": "Mon cerveau sature", "scores": { "mentale": 3 } },
-        { "label": "Les deux", "scores": { "mixte": 3 } }
+        {
+          "label": "Le déplacement — me remettre en mouvement demande un effort disproportionné",
+          "scores": {
+            "physique": 3
+          }
+        },
+        {
+          "label": "La démarche administrative — rassembler les informations, suivre les étapes, répondre aux questions",
+          "scores": {
+            "mentale": 3
+          }
+        },
+        {
+          "label": "L'ensemble — même si chaque élément est simple, la combinaison me semble trop lourde",
+          "scores": {
+            "mixte": 3
+          }
+        },
+        {
+          "label": "Je gère, mais je remarque que ça me coûte plus que ça ne devrait pour quelque chose d'aussi banal",
+          "scores": {
+            "mixte": 2,
+            "mentale": 1
+          }
+        }
       ]
     },
- {
-  "id": "10",
-  "question": "Quand tu as enfin un moment libre…",
-  "answers": [
-    { "label": "Je m’allonge ou je cherche à me reposer physiquement", "scores": { "physique": 3 } },
-    { "label": "Je prends mon téléphone mais mon esprit ne se calme pas", "scores": { "mentale": 3 } },
-    { "label": "Je n’arrive ni à me reposer ni à déconnecter", "scores": { "mixte": 3 } }
-  ]
-}
+    {
+      "id": "10",
+      "question": "Tu as une heure libre, sans rien d'urgent. Une activité que tu apprécies est possible. Qu'est-ce qui t'en empêche le plus souvent en ce moment ?",
+      "answers": [
+        {
+          "label": "Mon corps n'a pas envie de se mobiliser — même pour quelque chose d'agréable",
+          "scores": {
+            "physique": 3
+          }
+        },
+        {
+          "label": "Me décider, m'organiser ou me lancer me demande plus d'effort que l'activité elle-même",
+          "scores": {
+            "mentale": 3
+          }
+        },
+        {
+          "label": "Je commence, mais je m'arrête vite — quelque chose résiste sans que je puisse vraiment nommer quoi",
+          "scores": {
+            "physique": 2,
+            "mentale": 1
+          }
+        },
+        {
+          "label": "Rien de physiquement bloquant, mais je n'arrive pas à être vraiment présent(e) dans ce que je fais",
+          "scores": {
+            "mentale": 2,
+            "physique": 1
+          }
+        }
+      ]
+    }
   ]
 }

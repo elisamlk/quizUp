@@ -1,13 +1,13 @@
 {
   "slug": "test-pression-constante",
   "title": "Test bien-être - Es-tu sous pression constante ?",
-  "description": "Ton quotidien est-il marqué par une pression permanente ?",
-  "descriptionSeo": "Stress, charge mentale, pression quotidienne… ce test t’aide à savoir si tu vis sous une pression constante. À travers des situations concrètes, découvre si tu es détendu(e), parfois sous tension ou en surcharge permanente.",
+  "description": "Arrives-tu vraiment à relâcher la pression entre deux obligations ?",
+  "descriptionSeo": "Travail, obligations, messages, imprévus, choses à anticiper… ce test explore la place que prend la pression dans ton quotidien. À travers dix situations concrètes, observe si la tension retombe lorsque les contraintes s'arrêtent ou si elle reste présente en arrière-plan. Il ne mesure pas ton niveau de stress médicalement : il met simplement en lumière la façon dont tu vis la pression au quotidien.",
   "category": {
     "name": "Bien-être",
     "slug": "bien-etre"
   },
-  "createdAt": "2026-04-27",
+  "createdAt": "2026-09-20",
   "isNew": true,
   "isPopular": true,
   "images": {
@@ -18,112 +18,336 @@
   "profiles": [
     {
       "key": "detendu",
-      "title": "Plutôt détendu(e)",
-      "description": "Tu ne sembles pas vivre sous une pression constante. Tu sais prendre du recul, relâcher la pression et ne pas te laisser envahir par les contraintes. Même si tu peux avoir des moments de stress, ils restent ponctuels. Tu arrives globalement à gérer ton rythme et à garder un équilibre entre obligations et respiration.",
+      "title": "La pression retombe assez facilement",
+      "description": "Lorsque les contraintes s'arrêtent, la pression semble retomber avec elles. Tu peux anticiper, t'organiser et gérer tes obligations sans que ça occupe en permanence ton espace mental. Ce profil ne signifie pas l'absence de stress : il indique que ta pression est globalement proportionnelle à ce qui se passe réellement, et qu'elle ne persiste pas au-delà de ce qui la justifie.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777465102/relaxed_amwfta.jpg"
     },
     {
       "key": "pression_moderee",
-      "title": "Pression modérée",
-      "description": "Tu ressens régulièrement de la pression, mais elle reste gérable. Certaines périodes sont plus intenses que d’autres. Tu peux te sentir stressé(e), mais tu arrives encore à souffler par moments. Ton équilibre est fragile : tu tiens, mais sans toujours réussir à vraiment relâcher.",
+      "title": "Une pression qui revient régulièrement",
+      "description": "La pression ne disparaît pas toujours complètement entre deux obligations. Même quand tout est géré, quelque chose continue à tourner en arrière-plan — une anticipation, une vérification, un sujet non clôturé. Tu arrives à souffler par moments, mais relâcher vraiment demande un effort ou des conditions particulières. Ce profil reflète un quotidien souvent chargé, où la détente complète est possible mais pas automatique.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777465102/moderate_stxxhp.jpg"
     },
     {
       "key": "pression_constante",
-      "title": "Sous pression constante",
-      "description": "Tu vis avec une pression quasi permanente. Ton esprit est souvent occupé, ton corps peut être tendu, et tu as du mal à vraiment déconnecter. Même dans les moments calmes, une forme de tension reste présente. Tu es probablement en surcharge mentale ou émotionnelle. Il est important de trouver des moments de pause et de relâchement pour éviter l’épuisement.",
+      "title": "Une pression difficile à couper en ce moment",
+      "description": "En ce moment, la pression semble rester présente même lorsqu'il n'y a objectivement rien d'urgent à gérer. L'espace entre les contraintes ne suffit pas à vraiment relâcher — il reste occupé par l'anticipation, la vigilance ou le sentiment qu'il reste toujours quelque chose. Ce résultat reflète une tendance actuelle, pas un état permanent. Il indique surtout que ton rythme laisse peu de vrais moments de relâchement.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777465102/stressedout_c3rvvo.jpg"
     }
   ],
   "questions": [
     {
       "id": "1",
-      "question": "Tu termines une tâche importante…",
+      "question": "Tu viens de terminer quelque chose qui te prenait beaucoup de temps et d'énergie. Dans les minutes qui suivent…",
       "answers": [
-        { "label": "Je souffle et je passe à autre chose", "scores": { "detendu": 3 } },
-        { "label": "Je pense déjà à la suivante", "scores": { "pression_moderee": 3 } },
-        { "label": "Je ressens encore de la tension", "scores": { "pression_constante": 3 } }
+        {
+          "label": "Je passe presque automatiquement à ce qui vient ensuite, sans vraiment marquer la fin",
+          "scores": {
+            "pression_constante": 2,
+            "pression_moderee": 1
+          }
+        },
+        {
+          "label": "Je ressens un vrai relâchement — quelque chose se dépose et je peux passer à autre chose légèrement",
+          "scores": {
+            "detendu": 3
+          }
+        },
+        {
+          "label": "Je vérifie rapidement ce qui arrive après, puis je réussis à décrocher un moment",
+          "scores": {
+            "detendu": 2,
+            "pression_moderee": 1
+          }
+        },
+        {
+          "label": "Une tension reste présente sans que je sache précisément à quoi elle correspond",
+          "scores": {
+            "pression_constante": 3
+          }
+        }
       ]
     },
     {
       "id": "2",
-      "question": "Tu es censé(e) te reposer…",
+      "question": "Tu as enfin une soirée sans rien d'obligatoire après plusieurs journées chargées. Que se passe-t-il réellement ?",
       "answers": [
-        { "label": "J’y arrive facilement", "scores": { "detendu": 3 } },
-        { "label": "J’ai encore des pensées en tête", "scores": { "pression_moderee": 3 } },
-        { "label": "Impossible de décrocher", "scores": { "pression_constante": 3 } }
+        {
+          "label": "Je profite de la soirée sans que mes obligations reviennent vraiment s'y imposer",
+          "scores": {
+            "detendu": 3
+          }
+        },
+        {
+          "label": "Je me pose, mais je pense encore à des choses à ne pas oublier ou à anticiper",
+          "scores": {
+            "pression_moderee": 3
+          }
+        },
+        {
+          "label": "Je n'arrive pas vraiment à déconnecter — la soirée passe sans que je relâche vraiment",
+          "scores": {
+            "pression_constante": 3
+          }
+        },
+        {
+          "label": "Je relâche progressivement, mais il faut un peu de temps avant que les obligations s'effacent vraiment",
+          "scores": {
+            "pression_moderee": 2,
+            "detendu": 1
+          }
+        }
       ]
     },
     {
       "id": "3",
-      "question": "Ton esprit au quotidien…",
+      "question": "Tu reçois un message professionnel ou administratif qui ne demande aucune réponse avant demain. Que se passe-t-il ?",
       "answers": [
-        { "label": "Plutôt calme", "scores": { "detendu": 3 } },
-        { "label": "Souvent occupé", "scores": { "pression_moderee": 3 } },
-        { "label": "Toujours en alerte", "scores": { "pression_constante": 3 } }
+        {
+          "label": "Je le laisse pour demain — il n'y a rien à faire maintenant, donc je n'y pense pas",
+          "scores": {
+            "detendu": 3
+          }
+        },
+        {
+          "label": "Je commence immédiatement à m'en occuper pour ne pas avoir ça en tête",
+          "scores": {
+            "pression_constante": 2,
+            "pression_moderee": 1
+          }
+        },
+        {
+          "label": "Je le lis, j'y pense plusieurs fois dans la soirée même sans y répondre",
+          "scores": {
+            "pression_moderee": 3
+          }
+        },
+        {
+          "label": "Je le vérifie ou l'anticipe mentalement même pendant mon temps personnel, presque par réflexe",
+          "scores": {
+            "pression_constante": 3
+          }
+        }
       ]
     },
     {
       "id": "4",
-      "question": "Quand tu n’as rien de prévu…",
+      "question": "Une heure se libère soudainement dans ta journée. Tu n'avais rien prévu pour ce moment. Qu'est-ce qui se passe ?",
       "answers": [
-        { "label": "Je profite du moment", "scores": { "detendu": 3 } },
-        { "label": "Je pense à ce que je dois faire", "scores": { "pression_moderee": 3 } },
-        { "label": "Je me sens mal de ne rien faire", "scores": { "pression_constante": 3 } }
+        {
+          "label": "Je cherche presque immédiatement ce que je pourrais avancer ou optimiser avec ce temps",
+          "scores": {
+            "pression_constante": 3
+          }
+        },
+        {
+          "label": "Je conserve cet espace pour souffler ou faire quelque chose qui me plaît",
+          "scores": {
+            "detendu": 3
+          }
+        },
+        {
+          "label": "J'hésite entre me reposer et avancer sur quelque chose — je finis souvent par faire un peu des deux",
+          "scores": {
+            "pression_moderee": 3
+          }
+        },
+        {
+          "label": "Je profite du moment, mais une partie de moi surveille ce qui reste à faire",
+          "scores": {
+            "pression_moderee": 2,
+            "pression_constante": 1
+          }
+        }
       ]
     },
     {
       "id": "5",
-      "question": "Ton corps…",
+      "question": "Tu attends quelqu'un qui a dix minutes de retard et tu n'as rien à faire pendant ce temps. Spontanément…",
       "answers": [
-        { "label": "Détendu", "scores": { "detendu": 3 } },
-        { "label": "Parfois tendu", "scores": { "pression_moderee": 3 } },
-        { "label": "Souvent contracté ou fatigué", "scores": { "pression_constante": 3 } }
+        {
+          "label": "J'observe ce qui m'entoure ou je laisse mes pensées aller sans chercher à remplir ce temps",
+          "scores": {
+            "detendu": 3
+          }
+        },
+        {
+          "label": "Je profite presque automatiquement de ces dix minutes pour vérifier des messages ou avancer sur quelque chose — j'ai du mal à laisser ce temps inutilisé",
+          "scores": {
+            "pression_moderee": 2,
+            "pression_constante": 1
+          }
+        },
+        {
+          "label": "Je commence à penser à ce que j'ai à faire — ce temps mort devient mentalement du temps de planification",
+          "scores": {
+            "pression_constante": 3
+          }
+        },
+        {
+          "label": "Je patiente sans inconfort particulier, même si je consulte mon téléphone par habitude",
+          "scores": {
+            "detendu": 2,
+            "pression_moderee": 1
+          }
+        }
       ]
     },
     {
       "id": "6",
-      "question": "Une journée chargée t’attend…",
+      "question": "Demain s'annonce très chargé, mais ce soir tout est terminé. Comment tu passes la soirée ?",
       "answers": [
-        { "label": "Je gère", "scores": { "detendu": 3 } },
-        { "label": "Je ressens un peu de stress", "scores": { "pression_moderee": 3 } },
-        { "label": "Je me sens déjà sous pression", "scores": { "pression_constante": 3 } }
+        {
+          "label": "Je vérifie mon planning une fois, puis je passe à autre chose — demain c'est demain",
+          "scores": {
+            "detendu": 2,
+            "pression_moderee": 1
+          }
+        },
+        {
+          "label": "La soirée se passe normalement — la journée de demain ne s'installe pas vraiment dans ma tête ce soir",
+          "scores": {
+            "detendu": 3
+          }
+        },
+        {
+          "label": "Je prépare plusieurs choses pour éviter tout imprévu — j'anticipe autant que possible",
+          "scores": {
+            "pression_moderee": 2,
+            "pression_constante": 1
+          }
+        },
+        {
+          "label": "Mentalement, la journée de demain a déjà commencé — je suis dans la soirée mais en partie déjà ailleurs",
+          "scores": {
+            "pression_constante": 3
+          }
+        }
       ]
     },
     {
       "id": "7",
-      "question": "Ton niveau de stress global…",
+      "question": "Une obligation prévue pour demain est finalement annulée. Qu'est-ce qui se passe ?",
       "answers": [
-        { "label": "Plutôt bas", "scores": { "detendu": 3 } },
-        { "label": "Variable", "scores": { "pression_moderee": 3 } },
-        { "label": "Élevé", "scores": { "pression_constante": 3 } }
+        {
+          "label": "Je ressens un vrai soulagement et l'espace libéré reste disponible",
+          "scores": {
+            "detendu": 3
+          }
+        },
+        {
+          "label": "Je suis soulagé(e), mais je remarque que je commence déjà à penser à autre chose à faire avec ce temps",
+          "scores": {
+            "pression_moderee": 2,
+            "detendu": 1
+          }
+        },
+        {
+          "label": "Je remplis presque immédiatement l'espace avec quelque chose d'autre — je pense spontanément à ce que je pourrais avancer",
+          "scores": {
+            "pression_constante": 3
+          }
+        },
+        {
+          "label": "Je récupère du temps libre, mais je continue à ressentir la même pression générale",
+          "scores": {
+            "pression_constante": 2,
+            "pression_moderee": 1
+          }
+        }
       ]
     },
     {
       "id": "8",
-      "question": "Quand tu es au calme…",
+      "question": "Tout ce qui devait absolument être fait aujourd'hui est terminé plus tôt que prévu. Que se passe-t-il ?",
       "answers": [
-        { "label": "Je me détends vraiment", "scores": { "detendu": 3 } },
-        { "label": "Je reste un peu tendu(e)", "scores": { "pression_moderee": 3 } },
-        { "label": "Je ne décroche pas", "scores": { "pression_constante": 3 } }
+        {
+          "label": "Je me demande immédiatement ce que j'aurais pu avancer en plus avec ce temps gagné",
+          "scores": {
+            "pression_constante": 3
+          }
+        },
+        {
+          "label": "Je profite de ce temps sans ressentir le besoin de le remplir",
+          "scores": {
+            "detendu": 3
+          }
+        },
+        {
+          "label": "Je relâche, mais avec un fond de vigilance — je vérifie qu'il ne reste vraiment rien",
+          "scores": {
+            "pression_moderee": 3
+          }
+        },
+        {
+          "label": "Je commence à anticiper des tâches futures pour ne pas être en retard plus tard",
+          "scores": {
+            "pression_constante": 2,
+            "pression_moderee": 1
+          }
+        }
       ]
     },
     {
       "id": "9",
-      "question": "Tu penses à tes obligations…",
+      "question": "Plusieurs petites obligations sont prévues dans les prochains jours, rien d'urgent. Comment tu les vis en attendant ?",
       "answers": [
-        { "label": "Sans stress particulier", "scores": { "detendu": 3 } },
-        { "label": "Avec une légère pression", "scores": { "pression_moderee": 3 } },
-        { "label": "Avec une forte pression", "scores": { "pression_constante": 3 } }
+        {
+          "label": "Elles restent en arrière-plan en permanence, même quand il n'y a rien à faire sur le moment",
+          "scores": {
+            "pression_constante": 3
+          }
+        },
+        {
+          "label": "Je les note pour ne pas y penser, et j'y reviens seulement quand c'est le moment",
+          "scores": {
+            "detendu": 3
+          }
+        },
+        {
+          "label": "Elles reviennent régulièrement à l'esprit — je les réévalue ou les réorganise mentalement sans vraiment le décider",
+          "scores": {
+            "pression_moderee": 3
+          }
+        },
+        {
+          "label": "Je les ai en tête, mais elles ne m'occupent pas vraiment jusqu'à ce qu'il faille s'en occuper",
+          "scores": {
+            "detendu": 2,
+            "pression_moderee": 1
+          }
+        }
       ]
     },
     {
       "id": "10",
-      "question": "Le soir, avant de dormir…",
+      "question": "Tu pars pour une journée où tu as décidé de ne rien gérer : pas de travail, pas d'administratif, pas d'obligation. Après quelques heures…",
       "answers": [
-        { "label": "Je me détends facilement", "scores": { "detendu": 3 } },
-        { "label": "Je repense à ma journée", "scores": { "pression_moderee": 3 } },
-        { "label": "Mon cerveau tourne sans s’arrêter", "scores": { "pression_constante": 3 } }
+        {
+          "label": "La pression s'est réellement dissipée — je suis là, sans arrière-pensée sur ce qui attend",
+          "scores": {
+            "detendu": 3
+          }
+        },
+        {
+          "label": "Je profite, mais des sujets remontent ponctuellement — je les mets de côté puis j'y reviens",
+          "scores": {
+            "pression_moderee": 3
+          }
+        },
+        {
+          "label": "Je suis présent(e), mais une partie de moi continue à surveiller ou à anticiper, même sans raison précise",
+          "scores": {
+            "pression_constante": 2,
+            "pression_moderee": 1
+          }
+        },
+        {
+          "label": "La pression reste là — même décidé(e) à déconnecter, je ne réussis pas vraiment à couper",
+          "scores": {
+            "pression_constante": 3
+          }
+        }
       ]
     }
   ]
