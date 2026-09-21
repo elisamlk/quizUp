@@ -2,12 +2,12 @@
   "slug": "test-quel-personnage-de-friends-es-tu",
   "title": "Test fun - Quel personnage de Friends es-tu ?",
   "description": "Découvre quel personnage de Friends correspond vraiment à ta personnalité.",
-  "descriptionSeo": "À travers tes habitudes, tes réactions et ta manière d’interagir avec les autres, ce test révèle quel personnage de Friends te correspond vraiment. Es-tu plutôt drôle comme Chandler, organisé comme Monica, spontané comme Joey, sensible comme Rachel, décalé comme Phoebe ou réfléchi comme Ross ? Un test fun et réaliste pour découvrir ton alter ego dans la série culte.",
+  "descriptionSeo": "Chandler, Monica, Joey, Rachel, Phoebe ou Ross : quel personnage de Friends te ressemble le plus ? À travers dix situations du quotidien, découvre comment tu réagis face aux imprévus, aux relations, aux décisions et aux moments gênants. Réponds spontanément et découvre quel membre de la bande symbolise le mieux certaines facettes de ta personnalité.",
   "category": {
     "name": "Fun",
     "slug": "fun"
   },
-  "createdAt": "2026-04-20",
+  "createdAt": "2026-09-21",
   "isNew": true,
   "isPopular": true,
   "images": {
@@ -19,159 +19,360 @@
     {
       "key": "chandler",
       "title": "Chandler Bing",
-      "description": "Tu es drôle, rapide et souvent dans la répartie. Tu utilises l’humour pour gérer les situations, parfois même pour éviter de trop te dévoiler. Tu es lucide, intelligent(e) et très conscient(e) de ce qui se passe autour de toi. Derrière ton côté léger, il y a aussi une vraie sensibilité. Tu es quelqu’un de fiable, même si tu ne te prends pas toujours au sérieux.",
+      "description": "Tu remarques rapidement l'absurdité ou la gêne d'une situation, et tu utilises l'humour pour créer de la distance ou désamorcer ce qui devient trop lourd. Ce recul lucide peut faire de toi quelqu'un de très drôle et de profondément observateur. Mais derrière l'ironie, il y a souvent une vraie sensibilité que tu montres surtout à ceux en qui tu as vraiment confiance. Tu es quelqu'un de fiable, même si tu ne te prends pas toujours au sérieux.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777061371/chandler_watuzg.webp"
     },
     {
       "key": "monica",
       "title": "Monica Geller",
-      "description": "Tu es organisé(e), déterminé(e) et tu aimes que les choses soient bien faites. Tu prends les responsabilités naturellement et tu es souvent celui ou celle qui gère quand tout devient flou. Tu peux être exigeant(e), mais c’est aussi ce qui te rend efficace. Tu tiens beaucoup aux personnes que tu aimes et tu fais tout pour que tout fonctionne.",
+      "description": "Quand quelque chose doit être organisé, fait ou amélioré, tu t'en charges souvent naturellement. Tu prends les responsabilités, tu structures ce qui est flou et tu t'investis énormément dans ce qui compte pour toi. Tu peux être exigeant(e) — envers toi-même autant qu'envers les autres — mais c'est aussi ce qui te rend fiable et efficace. Tu tiens beaucoup aux personnes que tu aimes et tu fais tout pour que ça fonctionne.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777061402/monica_cycps2.webp"
     },
     {
       "key": "joey",
       "title": "Joey Tribbiani",
-      "description": "Tu es spontané(e), chaleureux(se) et très naturel(le). Tu vis dans le moment présent et tu ne te compliques pas trop la vie. Tu es loyal(e) et sincère dans tes relations. Tu peux parfois manquer de réflexion, mais tu compenses avec ton authenticité et ton énergie positive. Tu es quelqu’un qu’on apprécie facilement.",
+      "description": "Tu fonctionnes souvent à l'instinct, tu fais facilement confiance à ceux que tu apprécies et tu ne compliques pas inutilement les situations. Tu es loyal(e), sincère et tu vis beaucoup dans le moment présent. Ce n'est pas que tu ne réfléchis pas — c'est que tu agis souvent avant d'avoir fini de tout analyser. Tu es quelqu'un d'authentique qu'on apprécie facilement, et ta présence chaleureuse fait du bien.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777061402/joey-friends-1024x536_scsyyz.jpg"
     },
     {
       "key": "rachel",
       "title": "Rachel Green",
-      "description": "Tu évolues beaucoup et tu apprends à te construire avec le temps. Tu es sensible, attaché(e) aux relations et tu cherches à trouver ta place. Tu peux douter, mais tu avances quand même. Tu es quelqu’un d’humain, avec des émotions fortes et une vraie capacité à évoluer. Tu n’es pas figé(e), et c’est ta force.",
+      "description": "Tu n'as pas besoin d'avoir toutes les réponses dès le départ pour avancer. Tu apprends beaucoup en expérimentant et tu es capable de remettre en question une situation qui ne te correspond plus. Les relations comptent énormément pour toi, mais tu cherches aussi à construire quelque chose qui t'appartient. Tu peux douter avant certaines décisions, puis surprendre par ta capacité à évoluer une fois que tu as choisi ta direction.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777061401/rachel_shrmqc.webp"
     },
     {
       "key": "phoebe",
       "title": "Phoebe Buffay",
-      "description": "Tu es unique, imprévisible et totalement toi-même. Tu ne cherches pas à rentrer dans un cadre et tu assumes ta différence. Tu as une manière de voir le monde à part, souvent plus intuitive et décalée. Tu peux surprendre, mais tu es aussi très sincère et attachante. Tu vis selon tes propres règles.",
+      "description": "Tu possèdes tes propres références et tu n'as pas particulièrement besoin que ta façon de voir les choses soit validée par le groupe. Tu surprends souvent les autres, mais ta logique interne est cohérente pour toi. Tu es sincère, libre et totalement toi-même. Tu ne cherches pas à rentrer dans un cadre — et tu as depuis longtemps arrêté de t'en excuser.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777061403/phoebe_w0byr7.jpg"
     },
     {
       "key": "ross",
       "title": "Ross Geller",
-      "description": "Tu es réfléchi(e), passionné(e) et parfois un peu intense. Tu t’investis beaucoup dans ce qui compte pour toi. Tu peux analyser les choses en profondeur et parfois trop penser. Tu es sensible, loyal(e) et attaché(e) à ce que tu construis. Tu ressens les choses fort, même si ça peut te rendre un peu maladroit(e) parfois.",
+      "description": "Tu cherches à comprendre les choses en profondeur et tu t'investis énormément dans ce qui compte pour toi. Tu argumentes, tu analyses, tu peux parfois suranalyser. Tu es loyal(e), passionné(e) et tu ressens les choses avec intensité — même si ça peut parfois te rendre un peu maladroit(e) dans certaines situations sociales. Ton engagement est réel et tu donnes beaucoup à ceux que tu aimes.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777061371/ross_miwo7q.jpg"
     }
   ],
   "questions": [
     {
       "id": "1",
-      "question": "Dans ton groupe d’amis, tu es plutôt celui/celle qui…",
+      "question": "Un dîner entre amis devait être tranquille, mais rien ne se passe comme prévu. Ton réflexe ?",
       "answers": [
-        { "label": "Fait des blagues", "scores": { "chandler": 3 } },
-        { "label": "Organise tout", "scores": { "monica": 3 } },
-        { "label": "Suit le mouvement", "scores": { "joey": 3 } },
-        { "label": "Partage ses émotions", "scores": { "rachel": 3 } },
-        { "label": "Surprend tout le monde", "scores": { "phoebe": 3 } },
-        { "label": "Analyse les situations", "scores": { "ross": 3 } }
+        {
+          "label": "Je commence à répartir ce qu'il faut faire pour sauver la soirée",
+          "scores": {
+            "monica": 3
+          }
+        },
+        {
+          "label": "À un certain stade, la catastrophe devient tellement absurde que je commence à en rire",
+          "scores": {
+            "chandler": 2,
+            "joey": 1
+          }
+        },
+        {
+          "label": "Je m'adapte facilement : tant qu'on est ensemble, la soirée peut encore être bonne",
+          "scores": {
+            "joey": 3
+          }
+        },
+        {
+          "label": "Je propose une solution qui paraît un peu étrange aux autres, mais qui me semble parfaitement logique",
+          "scores": {
+            "phoebe": 3
+          }
+        }
       ]
     },
     {
       "id": "2",
-      "question": "Face à une situation gênante…",
+      "question": "Tu dois faire quelque chose que tu n'as jamais fait et tu n'es pas certain(e) d'en être capable.",
       "answers": [
-        { "label": "Je fais une blague", "scores": { "chandler": 3 } },
-        { "label": "Je garde le contrôle", "scores": { "monica": 3 } },
-        { "label": "Je rigole et je passe à autre chose", "scores": { "joey": 3 } },
-        { "label": "Je me sens vite concerné(e)", "scores": { "rachel": 3 } },
-        { "label": "Je réagis de manière inattendue", "scores": { "phoebe": 3 } },
-        { "label": "Je suranalyse", "scores": { "ross": 3 } }
+        {
+          "label": "Je prépare tout ce que je peux avant de commencer : être prêt(e) me rassure",
+          "scores": {
+            "monica": 2,
+            "ross": 1
+          }
+        },
+        {
+          "label": "J'hésite, mais je me lance quand même : je saurai surtout si j'en suis capable en essayant",
+          "scores": {
+            "rachel": 3
+          }
+        },
+        {
+          "label": "Je cherche d'abord à comprendre exactement comment ça fonctionne",
+          "scores": {
+            "ross": 3
+          }
+        },
+        {
+          "label": "Je tente à ma manière, même si ce n'est pas forcément la méthode conseillée",
+          "scores": {
+            "phoebe": 2,
+            "joey": 1
+          }
+        }
       ]
     },
     {
       "id": "3",
-      "question": "Ton plus gros défaut selon toi…",
+      "question": "Deux amis proches se disputent et te mettent involontairement au milieu. Comment tu gères ça ?",
       "answers": [
-        { "label": "Je cache mes émotions", "scores": { "chandler": 3 } },
-        { "label": "Je veux tout contrôler", "scores": { "monica": 3 } },
-        { "label": "Je ne réfléchis pas assez", "scores": { "joey": 3 } },
-        { "label": "Je doute beaucoup", "scores": { "rachel": 3 } },
-        { "label": "Je suis imprévisible", "scores": { "phoebe": 3 } },
-        { "label": "Je pense trop", "scores": { "ross": 3 } }
+        {
+          "label": "J'essaie de trouver rapidement une solution ou un accord qui satisfasse les deux",
+          "scores": {
+            "monica": 2,
+            "rachel": 1
+          }
+        },
+        {
+          "label": "Je cherche à comprendre les arguments des deux côtés avant de dire quoi que ce soit",
+          "scores": {
+            "ross": 2,
+            "chandler": 1
+          }
+        },
+        {
+          "label": "Je reste loyal(e) aux deux et j'espère qu'ils règlent ça entre eux",
+          "scores": {
+            "joey": 3
+          }
+        },
+        {
+          "label": "Je trouve le bon angle pour dédramatiser — une dispute perd souvent de son intensité quand on prend un peu de recul",
+          "scores": {
+            "chandler": 3
+          }
+        }
       ]
     },
     {
       "id": "4",
-      "question": "En soirée, tu es plutôt…",
+      "question": "Un plan prévu depuis longtemps est annulé au dernier moment. Comment tu réagis ?",
       "answers": [
-        { "label": "Celui/celle qui fait rire", "scores": { "chandler": 3 } },
-        { "label": "Celui/celle qui gère", "scores": { "monica": 3 } },
-        { "label": "Celui/celle qui profite", "scores": { "joey": 3 } },
-        { "label": "Celui/celle qui parle beaucoup", "scores": { "rachel": 3 } },
-        { "label": "Celui/celle qui fait des trucs improbables", "scores": { "phoebe": 3 } },
-        { "label": "Celui/celle qui observe", "scores": { "ross": 3 } }
+        {
+          "label": "Je suis déçu(e), puis je passe rapidement à comment on pourrait quand même passer une bonne journée",
+          "scores": {
+            "joey": 2,
+            "monica": 1
+          }
+        },
+        {
+          "label": "Je prends le temps de comprendre pourquoi ça a capoté et j'en tire des conclusions",
+          "scores": {
+            "ross": 2,
+            "monica": 1
+          }
+        },
+        {
+          "label": "Je réorganise immédiatement : il reste sûrement quelque chose à faire",
+          "scores": {
+            "monica": 3
+          }
+        },
+        {
+          "label": "Je vois ça comme une occasion inattendue de faire quelque chose que je n'aurais pas planifié autrement",
+          "scores": {
+            "phoebe": 2,
+            "rachel": 1
+          }
+        }
       ]
     },
     {
       "id": "5",
-      "question": "Quand tu es stressé(e)…",
+      "question": "Quelqu'un te fait une remarque embarrassante devant tout le monde. Qu'est-ce qui se passe ?",
       "answers": [
-        { "label": "Je fais de l’humour", "scores": { "chandler": 3 } },
-        { "label": "Je m’organise encore plus", "scores": { "monica": 3 } },
-        { "label": "Je ne me prends pas la tête", "scores": { "joey": 3 } },
-        { "label": "Je parle à quelqu’un", "scores": { "rachel": 3 } },
-        { "label": "Je me détache", "scores": { "phoebe": 3 } },
-        { "label": "Je réfléchis en boucle", "scores": { "ross": 3 } }
+        {
+          "label": "Je réponds avec quelque chose de drôle — retourner la situation par l'humour, c'est mon terrain",
+          "scores": {
+            "chandler": 3
+          }
+        },
+        {
+          "label": "Ça me touche davantage que je ne le montre — j'y repenserai probablement plus tard",
+          "scores": {
+            "rachel": 3
+          }
+        },
+        {
+          "label": "Je réponds de façon complètement inattendue, ce qui déconcerte souvent la personne",
+          "scores": {
+            "phoebe": 2,
+            "chandler": 1
+          }
+        },
+        {
+          "label": "Je prends ça en note intérieurement pour comprendre ce qui vient de se passer",
+          "scores": {
+            "ross": 2,
+            "chandler": 1
+          }
+        }
       ]
     },
     {
       "id": "6",
-      "question": "Ce qui compte le plus pour toi…",
+      "question": "Tu dois prendre une décision importante pour ton avenir, mais tu n'as pas toutes les réponses. Comment tu avances ?",
       "answers": [
-        { "label": "Le fun", "scores": { "chandler": 3 } },
-        { "label": "La stabilité", "scores": { "monica": 3 } },
-        { "label": "Le moment présent", "scores": { "joey": 3 } },
-        { "label": "Les relations", "scores": { "rachel": 3 } },
-        { "label": "Être soi-même", "scores": { "phoebe": 3 } },
-        { "label": "Comprendre", "scores": { "ross": 3 } }
+        {
+          "label": "Je rassemble toutes les informations disponibles et je construis un plan avant de décider",
+          "scores": {
+            "monica": 2,
+            "ross": 1
+          }
+        },
+        {
+          "label": "Je réfléchis en profondeur à chaque option jusqu'à être convaincu(e) d'avoir fait le bon choix",
+          "scores": {
+            "ross": 3
+          }
+        },
+        {
+          "label": "Je me demande ce qui me correspond vraiment, même si ça implique de remettre en question ce que j'avais prévu",
+          "scores": {
+            "rachel": 3
+          }
+        },
+        {
+          "label": "Je fais confiance à ce qui me semble juste, même si je ne peux pas tout expliquer rationnellement",
+          "scores": {
+            "phoebe": 2,
+            "joey": 1
+          }
+        }
       ]
     },
     {
       "id": "7",
-      "question": "Dans une dispute…",
+      "question": "Un ami fait quelque chose que tu trouves complètement irrationnel. Comment tu réagis ?",
       "answers": [
-        { "label": "Je fais une blague pour calmer", "scores": { "chandler": 3 } },
-        { "label": "Je veux régler le problème", "scores": { "monica": 3 } },
-        { "label": "Je ne prends pas ça trop au sérieux", "scores": { "joey": 3 } },
-        { "label": "Je suis très impliqué(e)", "scores": { "rachel": 3 } },
-        { "label": "Je réagis différemment", "scores": { "phoebe": 3 } },
-        { "label": "Je réfléchis à tout", "scores": { "ross": 3 } }
+        {
+          "label": "Je lui explique pourquoi c'est une mauvaise idée avec autant d'arguments que nécessaire",
+          "scores": {
+            "ross": 3
+          }
+        },
+        {
+          "label": "Je l'accepte tel quel — les gens font des choses pour leurs propres raisons et ce n'est pas à moi de juger",
+          "scores": {
+            "joey": 2,
+            "phoebe": 1
+          }
+        },
+        {
+          "label": "Je lui fais une remarque légère sur l'absurdité de la situation — sans jugement, juste pour lui faire voir autrement",
+          "scores": {
+            "chandler": 3
+          }
+        },
+        {
+          "label": "Je trouve ça tellement unique que je suis presque admiratif(ve)",
+          "scores": {
+            "phoebe": 3
+          }
+        }
       ]
     },
     {
       "id": "8",
-      "question": "Ton énergie au quotidien…",
+      "question": "Tu arrives dans un groupe où tu ne connais presque personne. Comment tu te comportes ?",
       "answers": [
-        { "label": "Ironique", "scores": { "chandler": 3 } },
-        { "label": "Contrôlée", "scores": { "monica": 3 } },
-        { "label": "Relax", "scores": { "joey": 3 } },
-        { "label": "Émotionnelle", "scores": { "rachel": 3 } },
-        { "label": "Libre", "scores": { "phoebe": 3 } },
-        { "label": "Intense", "scores": { "ross": 3 } }
+        {
+          "label": "Je vais assez naturellement vers les gens — l'ambiance s'installe d'elle-même",
+          "scores": {
+            "joey": 3
+          }
+        },
+        {
+          "label": "J'observe d'abord, je repère qui est qui, puis je rejoins la conversation quand j'ai quelque chose à dire",
+          "scores": {
+            "chandler": 2,
+            "ross": 1
+          }
+        },
+        {
+          "label": "Je cherche assez vite à prendre la situation en main pour que tout se passe bien",
+          "scores": {
+            "monica": 2,
+            "rachel": 1
+          }
+        },
+        {
+          "label": "Je me comporte exactement comme d'habitude — que je connaisse ou non les gens ne change pas vraiment ce que je suis",
+          "scores": {
+            "phoebe": 2,
+            "joey": 1
+          }
+        }
       ]
     },
     {
       "id": "9",
-      "question": "Les autres te voient comme…",
+      "question": "Tu rates quelque chose qui comptait beaucoup pour toi. Comment tu gères ça ?",
       "answers": [
-        { "label": "Drôle", "scores": { "chandler": 3 } },
-        { "label": "Fiable", "scores": { "monica": 3 } },
-        { "label": "Cool", "scores": { "joey": 3 } },
-        { "label": "Attachant(e)", "scores": { "rachel": 3 } },
-        { "label": "Original(e)", "scores": { "phoebe": 3 } },
-        { "label": "Intellectuel(le)", "scores": { "ross": 3 } }
+        {
+          "label": "Je décortique ce qui n'a pas marché pour comprendre et ne pas répéter la même erreur",
+          "scores": {
+            "ross": 2,
+            "monica": 1
+          }
+        },
+        {
+          "label": "Je suis déçu(e), mais je me dis que c'est une partie du chemin pour trouver ce qui me convient vraiment",
+          "scores": {
+            "rachel": 3
+          }
+        },
+        {
+          "label": "Je gère ça avec un peu d'humour — l'autodérision m'aide à ne pas rester trop longtemps dans l'échec",
+          "scores": {
+            "chandler": 3
+          }
+        },
+        {
+          "label": "Je repars assez vite vers autre chose — s'attarder n'est pas vraiment mon mode de fonctionnement",
+          "scores": {
+            "joey": 2,
+            "phoebe": 1
+          }
+        }
       ]
     },
     {
       "id": "10",
-      "question": "Au fond, tu es surtout…",
+      "question": "Ton groupe doit résoudre un problème compliqué ensemble et les avis divergent. Que fais-tu ?",
       "answers": [
-        { "label": "Détaché(e)", "scores": { "chandler": 3 } },
-        { "label": "Exigeant(e)", "scores": { "monica": 3 } },
-        { "label": "Simple", "scores": { "joey": 3 } },
-        { "label": "Émotionnel(le)", "scores": { "rachel": 3 } },
-        { "label": "Différent(e)", "scores": { "phoebe": 3 } },
-        { "label": "Réfléchi(e)", "scores": { "ross": 3 } }
+        {
+          "label": "Je structure la discussion : je propose qu'on liste les options et qu'on décide selon des critères clairs",
+          "scores": {
+            "monica": 3
+          }
+        },
+        {
+          "label": "J'explique en détail pourquoi telle option est meilleure que les autres selon moi",
+          "scores": {
+            "ross": 2,
+            "monica": 1
+          }
+        },
+        {
+          "label": "Je fais confiance au groupe — si tout le monde y met du sien, ça finit généralement par se résoudre",
+          "scores": {
+            "joey": 2,
+            "rachel": 1
+          }
+        },
+        {
+          "label": "Je suggère quelque chose d'inattendu qui sort du cadre habituel — parfois la meilleure solution n'est pas la plus évidente",
+          "scores": {
+            "phoebe": 2,
+            "chandler": 1
+          }
+        }
       ]
     }
   ]

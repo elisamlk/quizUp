@@ -1,13 +1,13 @@
 {
   "slug": "test-reussite-as-tu-le-mindset-du-succes",
   "title": "Test réussite - As-tu le mindset du succès ?",
-  "description": "Analyse si ton état d’esprit est aligné avec la réussite et la progression.",
-  "descriptionSeo": "Analyse ton état d’esprit face aux défis, à la discipline et à la réussite. Ce test explore ta capacité à persévérer, à sortir de ta zone de confort et à garder une vision claire malgré les obstacles. Découvre si tu possèdes déjà un mindset orienté succès, si tu es en progression ou si certains freins t’empêchent encore d’avancer pleinement. Une approche concrète pour mieux comprendre ton fonctionnement et évoluer.",
+  "description": "Comment réagis-tu quand progresser demande du temps, des ajustements et de la constance ?",
+  "descriptionSeo": "Objectifs, discipline, revers, décisions, feedback, motivation… ce test explore ta manière de progresser lorsque les résultats demandent du temps et que tout ne se déroule pas comme prévu. À travers dix situations concrètes, observe si tu sais maintenir ton effort, ajuster ta stratégie et tirer parti des difficultés rencontrées. Il ne prédit pas ta réussite : il met en lumière les habitudes qui soutiennent ou freinent ta progression.",
   "category": {
     "name": "Carrière",
     "slug": "carriere"
   },
-  "createdAt": "2026-04-20",
+  "createdAt": "2026-09-21",
   "isNew": true,
   "isPopular": true,
   "images": {
@@ -18,122 +18,341 @@
   "profiles": [
     {
       "key": "mindset_succes",
-      "title": "Le Mindset du Succès",
-      "description": "Tu as un état d’esprit clairement orienté vers la réussite. Tu es capable de te fixer des objectifs, de rester discipliné et de continuer même lorsque les choses deviennent difficiles. Tu ne te laisses pas facilement décourager et tu vois les obstacles comme des opportunités d’apprentissage. Tu es prêt à sortir de ta zone de confort et à investir du temps et de l’énergie pour progresser. Cette mentalité te permet d’avancer de manière constante et de construire quelque chose sur le long terme. Cependant, ton défi est de ne pas t’épuiser en cherchant toujours à aller plus loin. Ta force réside dans ta persévérance, ta discipline et ta capacité à rester focalisé.",
+      "title": "Tu avances avec méthode et adaptation",
+      "description": "Tes réponses indiquent que tu sais maintenir un effort dans le temps, ajuster ta stratégie lorsqu'elle ne produit pas les résultats attendus et utiliser les revers comme des informations plutôt que comme des obstacles définitifs. Ce profil ne signifie pas que tu ne doutes jamais ou que tu ne traverses pas de périodes difficiles — il indique que ces moments ne coupent pas durablement ton élan et qu'ils débouchent sur des ajustements utiles.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776944596/cover_jivtd9.jpg"
     },
     {
       "key": "mindset_progression",
-      "title": "Le Mindset en Construction",
-      "description": "Tu es en train de développer un mindset orienté vers la réussite. Tu as déjà certaines bonnes habitudes et tu es conscient de l’importance de progresser. Tu fais des efforts, tu essaies de t’améliorer et tu commences à sortir de ta zone de confort. Cependant, tu peux encore être freiné par le doute, le manque de régularité ou certaines peurs. Tu es dans une phase d’évolution où tout peut basculer si tu continues à travailler sur toi. Ton défi est de gagner en constance et en discipline. Ta force réside dans ta volonté d’évoluer et ton ouverture au changement.",
+      "title": "Tu avances surtout quand l'élan est là",
+      "description": "Tes réponses suggèrent que tu es capable de progresser vers tes objectifs, mais que ta constance dépend beaucoup des circonstances — ton niveau d'énergie, l'enthousiasme du moment ou la pression extérieure. Tu as les ressources nécessaires pour avancer ; ce qui peut freiner ta progression est plutôt la régularité dans les phases moins stimulantes. Ce profil est très courant et se modifie souvent avec des ajustements concrets dans la façon d'organiser l'effort.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776942923/stratege-instinct_esjf1b.jpg"
     },
     {
       "key": "mindset_limite",
-      "title": "Le Mindset à Débloquer",
-      "description": "Ton état d’esprit actuel peut freiner ta progression. Tu peux avoir tendance à douter, à procrastiner ou à éviter certaines situations inconfortables. Tu préfères souvent rester dans ta zone de confort, ce qui limite ton évolution. Cela ne signifie pas que tu ne peux pas réussir, mais que tu as encore des blocages à dépasser. Prendre conscience de ces freins est déjà une première étape importante. Ton défi est de changer progressivement ta manière de penser et d’agir. Ta force réside dans ton potentiel encore inexploité. Avec du travail et une prise de conscience, tu peux évoluer vers un mindset beaucoup plus positif et orienté réussite.",
+      "title": "Certains obstacles coupent encore ton élan",
+      "description": "Tes réponses indiquent que certaines difficultés — un revers, une tâche ingrate, un manque de résultats rapides — ont tendance à interrompre ta progression plus qu'elles ne l'informent. Ce n'est pas une question de capacité : c'est souvent une question de méthode et de rapport à l'effort dans la durée. Ce résultat reflète une tendance actuelle, pas un état permanent — et identifier précisément ce qui coupe l'élan est déjà un point de départ utile.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776776804/cover_n6aryk.jpg"
     }
   ],
   "questions": [
     {
       "id": "1",
-      "question": "Face à un objectif difficile…",
+      "question": "Tu t'es fixé un objectif important, mais personne ne te demande de résultat avant plusieurs mois. Après l'enthousiasme des premiers jours, que se passe-t-il ?",
       "answers": [
-        { "label": "Je m’organise pour l’atteindre", "scores": { "mindset_succes": 3 } },
-        { "label": "Je tente mais sans régularité", "scores": { "mindset_progression": 2 } },
-        { "label": "Je doute rapidement", "scores": { "mindset_limite": 3 } },
-        { "label": "Je fais des efforts mais j’abandonne parfois", "scores": { "mindset_progression": 2, "mindset_limite": 1 } }
+        {
+          "label": "Mon rythme devient irrégulier — j'avance par poussées puis je décroche pendant un moment",
+          "scores": {
+            "mindset_progression": 3
+          }
+        },
+        {
+          "label": "Je maintiens un rythme régulier même sans pression extérieure — l'objectif lui-même suffit à me faire avancer",
+          "scores": {
+            "mindset_succes": 2,
+            "mindset_progression": 1
+          }
+        },
+        {
+          "label": "Je construis un système ou une routine pour ne pas dépendre uniquement de ma motivation du moment",
+          "scores": {
+            "mindset_succes": 3
+          }
+        },
+        {
+          "label": "Sans échéance ni pression externe, j'ai du mal à maintenir l'effort sur la durée",
+          "scores": {
+            "mindset_limite": 3
+          }
+        }
       ]
     },
     {
       "id": "2",
-      "question": "Quand tu échoues…",
+      "question": "Tu travailles sérieusement sur quelque chose depuis plusieurs semaines, mais les résultats progressent à peine. Que fais-tu ?",
       "answers": [
-        { "label": "Je recommence autrement", "scores": { "mindset_succes": 3 } },
-        { "label": "J’essaie de comprendre", "scores": { "mindset_progression": 2 } },
-        { "label": "Je perds confiance", "scores": { "mindset_limite": 3 } },
-        { "label": "Je prends du recul avant de repartir", "scores": { "mindset_progression": 2, "mindset_succes": 1 } }
+        {
+          "label": "J'examine ce qui produit réellement des effets et je modifie ce qui semble inefficace",
+          "scores": {
+            "mindset_succes": 3
+          }
+        },
+        {
+          "label": "Je perds progressivement l'élan — sans résultats visibles, difficile de rester motivé",
+          "scores": {
+            "mindset_limite": 3
+          }
+        },
+        {
+          "label": "Je continue en espérant que ça finisse par payer — les bons résultats prennent du temps",
+          "scores": {
+            "mindset_progression": 2,
+            "mindset_succes": 1
+          }
+        },
+        {
+          "label": "Je redouble d'efforts — si ça ne marche pas encore, c'est probablement que je n'en fais pas assez",
+          "scores": {
+            "mindset_progression": 2,
+            "mindset_limite": 1
+          }
+        }
       ]
     },
     {
       "id": "3",
-      "question": "Ta discipline…",
+      "question": "Tu avais prévu d'avancer sur quelque chose d'important, mais ta journée part complètement de travers. Que se passe-t-il ?",
       "answers": [
-        { "label": "Elle est solide", "scores": { "mindset_succes": 3 } },
-        { "label": "Elle dépend de ma motivation", "scores": { "mindset_progression": 2 } },
-        { "label": "Elle est difficile à maintenir", "scores": { "mindset_limite": 3 } },
-        { "label": "J’essaie de m’améliorer", "scores": { "mindset_progression": 2 } }
+        {
+          "label": "Je culpabilise de ne pas avoir avancé, ce qui rend la reprise encore plus difficile",
+          "scores": {
+            "mindset_limite": 3
+          }
+        },
+        {
+          "label": "J'abandonne mentalement la journée sans vraiment planifier la reprise",
+          "scores": {
+            "mindset_limite": 2,
+            "mindset_progression": 1
+          }
+        },
+        {
+          "label": "Je préserve au moins une petite action utile liée à mon objectif, même courte",
+          "scores": {
+            "mindset_succes": 3
+          }
+        },
+        {
+          "label": "Je laisse tomber la journée et je replanifie dès le lendemain de façon réaliste",
+          "scores": {
+            "mindset_succes": 2,
+            "mindset_progression": 1
+          }
+        }
       ]
     },
     {
       "id": "4",
-      "question": "Sortir de ta zone de confort…",
+      "question": "Quelqu'un dont tu respectes l'avis critique sérieusement un travail dans lequel tu as beaucoup investi. Comment tu réagis ?",
       "answers": [
-        { "label": "C’est nécessaire pour avancer", "scores": { "mindset_succes": 3 } },
-        { "label": "Je le fais parfois", "scores": { "mindset_progression": 2 } },
-        { "label": "J’évite au maximum", "scores": { "mindset_limite": 3 } },
-        { "label": "Ça dépend des situations", "scores": { "mindset_progression": 2, "mindset_limite": 1 } }
+        {
+          "label": "Je défends mon travail immédiatement — si je n'y crois pas, personne d'autre ne le fera",
+          "scores": {
+            "mindset_progression": 2,
+            "mindset_limite": 1
+          }
+        },
+        {
+          "label": "J'enregistre la critique et j'intègre rapidement ce qui semble pertinent dans la suite",
+          "scores": {
+            "mindset_succes": 2,
+            "mindset_progression": 1
+          }
+        },
+        {
+          "label": "Je reviens sur la critique plus tard, à tête reposée, pour distinguer ce qui est utile de ce qui ne l'est pas",
+          "scores": {
+            "mindset_succes": 3
+          }
+        },
+        {
+          "label": "Je remets en question une grande partie de ce que j'ai fait — peut-être que la direction entière était mauvaise",
+          "scores": {
+            "mindset_limite": 3
+          }
+        }
       ]
     },
     {
       "id": "5",
-      "question": "Quand tu manques de motivation…",
+      "question": "Alors que tu progresses déjà vers ton objectif, tu découvres une nouvelle méthode qui promet de meilleurs résultats. Que se passe-t-il ?",
       "answers": [
-        { "label": "J’agis quand même", "scores": { "mindset_succes": 3 } },
-        { "label": "Je fais le minimum", "scores": { "mindset_progression": 2 } },
-        { "label": "Je reporte", "scores": { "mindset_limite": 3 } },
-        { "label": "Je me relance progressivement", "scores": { "mindset_progression": 2, "mindset_succes": 1 } }
+        {
+          "label": "Je suis tenté de changer, mais j'ai du mal à décider si c'est vraiment utile ou si c'est juste une distraction",
+          "scores": {
+            "mindset_progression": 2,
+            "mindset_limite": 1
+          }
+        },
+        {
+          "label": "Je l'évalue rapidement : si elle apporte quelque chose de réellement différent, je l'intègre ; sinon je continue",
+          "scores": {
+            "mindset_succes": 3
+          }
+        },
+        {
+          "label": "Je change de méthode — j'ai tendance à chercher régulièrement de meilleures façons de faire plutôt que d'approfondir celle en cours",
+          "scores": {
+            "mindset_limite": 2,
+            "mindset_progression": 1
+          }
+        },
+        {
+          "label": "Je l'adopte — si une meilleure méthode existe, autant s'adapter plutôt que de persévérer dans une moins bonne",
+          "scores": {
+            "mindset_progression": 2,
+            "mindset_succes": 1
+          }
+        }
       ]
     },
     {
       "id": "6",
-      "question": "Ton rapport à l’échec…",
+      "question": "Tu réalises qu'une décision prise il y a plusieurs semaines t'a fait perdre du temps. Que se passe-t-il ?",
       "answers": [
-        { "label": "C’est un apprentissage", "scores": { "mindset_succes": 3 } },
-        { "label": "Ça dépend des situations", "scores": { "mindset_progression": 2 } },
-        { "label": "Je le vis mal", "scores": { "mindset_limite": 3 } },
-        { "label": "J’essaie d’en tirer quelque chose", "scores": { "mindset_progression": 2, "mindset_succes": 1 } }
+        {
+          "label": "Je culpabilise assez longtemps avant de réussir à aller de l'avant",
+          "scores": {
+            "mindset_limite": 3
+          }
+        },
+        {
+          "label": "Je passe à autre chose sans vraiment analyser ce qui n'a pas fonctionné",
+          "scores": {
+            "mindset_progression": 2,
+            "mindset_limite": 1
+          }
+        },
+        {
+          "label": "J'en prends note pour ne pas répéter la même erreur, puis je reprends",
+          "scores": {
+            "mindset_succes": 2,
+            "mindset_progression": 1
+          }
+        },
+        {
+          "label": "Je comprends pourquoi la décision semblait raisonnable à l'époque, je corrige et je passe à la suite",
+          "scores": {
+            "mindset_succes": 3
+          }
+        }
       ]
     },
     {
       "id": "7",
-      "question": "Ta vision du futur…",
+      "question": "Une étape indispensable de ton objectif est répétitive, peu stimulante et personne ne verra les efforts que tu y consacres. Comment tu la traites ?",
       "answers": [
-        { "label": "Claire et motivante", "scores": { "mindset_succes": 3 } },
-        { "label": "En construction", "scores": { "mindset_progression": 2 } },
-        { "label": "Floue", "scores": { "mindset_limite": 3 } },
-        { "label": "Variable", "scores": { "mindset_progression": 2 } }
+        {
+          "label": "Je la reporte souvent au profit de parties plus intéressantes du projet",
+          "scores": {
+            "mindset_limite": 2,
+            "mindset_progression": 1
+          }
+        },
+        {
+          "label": "Je la fais quand j'en ai l'énergie, mais elle s'accumule pendant les phases moins motivées",
+          "scores": {
+            "mindset_progression": 3
+          }
+        },
+        {
+          "label": "Je la traite en créant un système ou un moment dédié pour ne pas avoir à me remotiver à chaque fois",
+          "scores": {
+            "mindset_succes": 3
+          }
+        },
+        {
+          "label": "Je la fais régulièrement — certaines parties d'un objectif ne sont pas gratifiantes et c'est normal",
+          "scores": {
+            "mindset_succes": 2,
+            "mindset_progression": 1
+          }
+        }
       ]
     },
     {
       "id": "8",
-      "question": "Face aux obstacles…",
+      "question": "Trois choses importantes réclament ton attention cette semaine et tu sais que tu ne pourras pas tout faire correctement. Que se passe-t-il ?",
       "answers": [
-        { "label": "Je persévère", "scores": { "mindset_succes": 3 } },
-        { "label": "Je cherche des solutions", "scores": { "mindset_progression": 2 } },
-        { "label": "Je bloque", "scores": { "mindset_limite": 3 } },
-        { "label": "J’avance petit à petit", "scores": { "mindset_progression": 2, "mindset_succes": 1 } }
+        {
+          "label": "Je me disperse entre les trois sans vraiment avancer sur aucun",
+          "scores": {
+            "mindset_limite": 3
+          }
+        },
+        {
+          "label": "J'identifie ce qui a le plus d'impact et je concentre mon énergie là-dessus en acceptant de faire moins sur le reste",
+          "scores": {
+            "mindset_succes": 3
+          }
+        },
+        {
+          "label": "Je priorise, mais j'ai du mal à vraiment lâcher les deux autres — je finit par m'y attarder quand même",
+          "scores": {
+            "mindset_progression": 2,
+            "mindset_succes": 1
+          }
+        },
+        {
+          "label": "J'essaie de tout faire quand même — je n'aime pas laisser des choses en suspens",
+          "scores": {
+            "mindset_progression": 2,
+            "mindset_limite": 1
+          }
+        }
       ]
     },
     {
       "id": "9",
-      "question": "Ton engagement…",
+      "question": "Après plusieurs semaines où tout avançait bien, tu rates complètement ton rythme pendant quelques jours. Que se passe-t-il ensuite ?",
       "answers": [
-        { "label": "Constant", "scores": { "mindset_succes": 3 } },
-        { "label": "Irrégulier", "scores": { "mindset_progression": 2 } },
-        { "label": "Faible", "scores": { "mindset_limite": 3 } },
-        { "label": "En progression", "scores": { "mindset_progression": 2 } }
+        {
+          "label": "Je tente de compenser immédiatement en faisant beaucoup plus — ce qui mène souvent à un nouvel abandon",
+          "scores": {
+            "mindset_progression": 2,
+            "mindset_limite": 1
+          }
+        },
+        {
+          "label": "Je reprends assez vite, mais je mets quelques jours à retrouver vraiment mon rythme habituel",
+          "scores": {
+            "mindset_progression": 2,
+            "mindset_succes": 1
+          }
+        },
+        {
+          "label": "La rupture de rythme dure souvent beaucoup plus que prévu — reprendre est difficile une fois que j'ai décroché",
+          "scores": {
+            "mindset_limite": 3
+          }
+        },
+        {
+          "label": "Je reprends à un niveau réaliste plutôt que d'essayer de rattraper tout ce que j'ai manqué",
+          "scores": {
+            "mindset_succes": 3
+          }
+        }
       ]
     },
     {
       "id": "10",
-      "question": "Globalement…",
+      "question": "Tu poursuis un objectif depuis longtemps, mais tu commences à penser qu'il ne correspond peut-être plus vraiment à ce que tu veux. Que fais-tu ?",
       "answers": [
-        { "label": "Je suis orienté action", "scores": { "mindset_succes": 3 } },
-        { "label": "Je progresse", "scores": { "mindset_progression": 2 } },
-        { "label": "Je suis souvent bloqué", "scores": { "mindset_limite": 3 } },
-        { "label": "Je fais de mon mieux", "scores": { "mindset_progression": 2 } }
+        {
+          "label": "Je continue quoi qu'il arrive — je termine toujours ce que je commence",
+          "scores": {
+            "mindset_progression": 2,
+            "mindset_limite": 1
+          }
+        },
+        {
+          "label": "Je l'abandonne assez vite dès que l'enthousiasme retombe — c'est un schéma qui revient souvent",
+          "scores": {
+            "mindset_limite": 3
+          }
+        },
+        {
+          "label": "Je prends le temps d'examiner ce que cet objectif m'apporte réellement et ce qu'il me coûte avant de décider",
+          "scores": {
+            "mindset_succes": 3
+          }
+        },
+        {
+          "label": "J'hésite longtemps entre continuer et arrêter, sans vraiment trancher dans un sens ou dans l'autre",
+          "scores": {
+            "mindset_progression": 3
+          }
+        }
       ]
     }
   ]

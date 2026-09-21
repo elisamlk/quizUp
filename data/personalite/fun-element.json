@@ -2,12 +2,12 @@
   "slug": "test-quel-element-es-tu",
   "title": "Test fun - Ton élément dominant va te surprendre... fais le test !",
   "description": "Découvre quel élément naturel reflète le mieux ta personnalité et ton énergie.",
-  "descriptionSeo": "À travers tes réactions, tes émotions et ta manière d’agir, ce test révèle l’élément qui te correspond le mieux : feu, eau, air ou terre. Chaque élément symbolise une énergie particulière, entre intensité, sensibilité, liberté ou stabilité. Une approche à la fois fun et symbolique pour mieux comprendre ton fonctionnement et ce qui te définit au quotidien.",
+  "descriptionSeo": "Feu, eau, air ou terre : quel élément symbolise le mieux ta façon de fonctionner ? À travers dix situations concrètes, ce test fun explore ta manière de réagir aux changements, aux émotions, aux autres et aux nouvelles possibilités. Entre intensité, sensibilité, liberté et stabilité, réponds spontanément et découvre quelle énergie naturelle ressemble le plus à certaines facettes de ta personnalité.",
   "category": {
     "name": "Fun",
     "slug": "fun"
   },
-  "createdAt": "2026-04-20",
+  "createdAt": "2026-09-21",
   "isNew": true,
   "isPopular": true,
   "images": {
@@ -19,127 +19,350 @@
     {
       "key": "feu",
       "title": "Le Feu",
-      "description": "Tu es une personne intense, passionnée et pleine d’énergie. Tu ressens les choses fortement et tu agis souvent avec instinct et détermination. Tu aimes avancer, relever des défis et vivre des expériences marquantes. Tu n’as pas peur de prendre des initiatives et tu es souvent perçu(e) comme quelqu’un de dynamique et affirmé. Ton énergie peut être communicative, mais aussi parfois difficile à canaliser. Tu peux vite t’ennuyer si rien ne te stimule. Ton défi est de trouver un équilibre entre impulsivité et réflexion. Ta force réside dans ta capacité à créer du mouvement, à inspirer les autres et à transformer ton énergie en action.",
+      "description": "Quand quelque chose te stimule, tu t'engages rapidement, tu exprimes ton énergie avec intensité et tu préfères agir plutôt que rester dans l'attente. Tu n'as pas peur de prendre des initiatives et tu aimes que les choses bougent. Ton énergie peut être très communicative et entraînante. Elle peut aussi parfois prendre de la place ou devancer la réflexion. Ta force : tu crées du mouvement là où il n'y en avait pas.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777034128/fire_yfa5c6.jpg"
     },
     {
       "key": "eau",
-      "title": "L’Eau",
-      "description": "Tu es sensible, intuitif(ve) et profondément connecté(e) à tes émotions. Tu ressens facilement les ambiances, les énergies et les personnes autour de toi. Tu accordes de l’importance aux relations et à l’authenticité. Tu es capable d’une grande empathie et tu sais écouter et comprendre les autres. Tu peux parfois te laisser submerger par tes émotions ou avoir du mal à prendre du recul. Ton défi est de te protéger émotionnellement sans te fermer. Ta force réside dans ta capacité à ressentir, à créer du lien et à comprendre les autres avec finesse.",
+      "title": "L'Eau",
+      "description": "Tu perçois fortement ce qui se passe en toi et autour de toi. Tes décisions tiennent davantage compte des émotions, des relations et de l'atmosphère. Tu es capable d'une grande empathie et tu sais t'ajuster aux personnes et aux situations. Tu peux parfois absorber trop ce qui t'entoure. Ta force : tu crées des liens sincères et tu sens ce que les autres ne verbalisent pas toujours.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777034111/watter_r0ypd7.jpg"
     },
     {
       "key": "air",
-      "title": "L’Air",
-      "description": "Tu es curieux(se), libre et tourné(e) vers le mouvement. Tu aimes comprendre, apprendre, échanger et explorer de nouvelles idées. Ton esprit est souvent en activité et tu as besoin de variété pour te sentir stimulé(e). Tu n’aimes pas les contraintes trop rigides et tu préfères garder une certaine légèreté dans ta manière de vivre. Tu es adaptable et ouvert(e), mais tu peux parfois te disperser ou manquer de stabilité. Ton défi est de canaliser ton énergie mentale pour aller plus loin. Ta force réside dans ta capacité à t’adapter, à communiquer et à voir les choses sous différents angles.",
+      "title": "L'Air",
+      "description": "Tu aimes ouvrir de nouvelles pistes, changer de perspective, découvrir et conserver plusieurs possibilités. Ton esprit est souvent en mouvement et tu as besoin de variété pour te sentir vivant(e). Tu t'adaptes facilement aux nouvelles situations et tu sais communiquer avec légèreté. Tu peux parfois te disperser. Ta force : tu vois des connexions que les autres ne font pas et tu insuffles de la créativité.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777034126/air_dnm5pp.jpg"
     },
     {
       "key": "terre",
       "title": "La Terre",
-      "description": "Tu es stable, fiable et ancré(e). Tu aimes construire, sécuriser et avancer de manière concrète. Tu es quelqu’un de posé, réfléchi et souvent très constant dans ce que tu fais. Tu privilégies la stabilité, la cohérence et les bases solides. Tu peux être perçu(e) comme quelqu’un de rassurant sur qui on peut compter. Tu n’aimes pas l’imprévu excessif et tu préfères garder un certain contrôle sur les choses. Ton défi est de ne pas rester trop dans ta zone de confort. Ta force réside dans ta capacité à construire sur le long terme et à apporter de la stabilité autour de toi.",
+      "description": "Tu avances en cherchant ce qui peut réellement tenir dans le temps. Les grandes idées t'intéressent surtout lorsqu'elles peuvent devenir concrètes. Tu construis étape par étape, tu restes constant(e) dans tes engagements et on peut souvent compter sur toi. Ta force : tu transformes les intentions en quelque chose de réel et durable, là où d'autres abandonnent ou se dispersent.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777034126/terre_pdc6tu.jpg"
     }
   ],
   "questions": [
     {
       "id": "1",
-      "question": "Face à une situation imprévue, tu réagis plutôt…",
+      "question": "Un plan important change au dernier moment. Comment tu réagis naturellement ?",
       "answers": [
-        { "label": "Je fonce sans trop réfléchir", "scores": { "feu": 3 } },
-        { "label": "Je ressens beaucoup avant d’agir", "scores": { "eau": 3 } },
-        { "label": "J’improvise et je m’adapte", "scores": { "air": 3 } },
-        { "label": "Je prends le temps d’analyser", "scores": { "terre": 3 } }
+        {
+          "label": "Je m'adapte assez vite et je vois ce que la nouvelle situation peut offrir",
+          "scores": {
+            "air": 2,
+            "feu": 1
+          }
+        },
+        {
+          "label": "Je réorganise concrètement ce qui peut encore être fait et je repose les bases",
+          "scores": {
+            "terre": 3
+          }
+        },
+        {
+          "label": "Je ressens d'abord la déception ou la frustration, puis je me réajuste",
+          "scores": {
+            "eau": 2,
+            "terre": 1
+          }
+        },
+        {
+          "label": "Je rebondis rapidement — l'imprévu m'énergise souvent plutôt qu'il ne me freine",
+          "scores": {
+            "feu": 3
+          }
+        }
       ]
     },
     {
       "id": "2",
-      "question": "Ce qui te définit le plus…",
+      "question": "Un projet collectif patine. Tout le monde tourne en rond. Ton réflexe ?",
       "answers": [
-        { "label": "L’intensité", "scores": { "feu": 3 } },
-        { "label": "La sensibilité", "scores": { "eau": 3 } },
-        { "label": "La liberté", "scores": { "air": 3 } },
-        { "label": "La stabilité", "scores": { "terre": 3 } }
+        {
+          "label": "Je propose une idée nouvelle pour sortir du blocage, même si elle n'est pas parfaite",
+          "scores": {
+            "air": 2,
+            "feu": 1
+          }
+        },
+        {
+          "label": "Je vérifie ce qu'il reste concrètement à faire et je remets un peu d'ordre",
+          "scores": {
+            "terre": 3
+          }
+        },
+        {
+          "label": "Je remarque assez vite qui ne va pas bien et j'essaie de faire redescendre la tension",
+          "scores": {
+            "eau": 3
+          }
+        },
+        {
+          "label": "Je prends les choses en main pour relancer — l'inertie me pèse rapidement",
+          "scores": {
+            "feu": 2,
+            "terre": 1
+          }
+        }
       ]
     },
     {
       "id": "3",
-      "question": "Ton environnement idéal…",
+      "question": "Tu disposes soudainement d'une semaine totalement libre, sans obligation. Qu'est-ce qui finit naturellement par remplir ton temps ?",
       "answers": [
-        { "label": "Dynamique et stimulant", "scores": { "feu": 3 } },
-        { "label": "Calme et apaisant", "scores": { "eau": 3 } },
-        { "label": "Ouvert et changeant", "scores": { "air": 3 } },
-        { "label": "Stable et organisé", "scores": { "terre": 3 } }
+        {
+          "label": "Des moments avec des personnes qui comptent et du temps pour moi selon mon humeur du moment",
+          "scores": {
+            "eau": 2,
+            "air": 1
+          }
+        },
+        {
+          "label": "Un projet ou une activité dans laquelle je peux vraiment me donner à fond",
+          "scores": {
+            "feu": 3
+          }
+        },
+        {
+          "label": "Plusieurs envies différentes — j'aurais du mal à consacrer toute la semaine à une seule chose",
+          "scores": {
+            "air": 3
+          }
+        },
+        {
+          "label": "Quelque chose que je voulais avancer depuis longtemps et que je peux enfin traiter tranquillement",
+          "scores": {
+            "terre": 2,
+            "feu": 1
+          }
+        }
       ]
     },
     {
       "id": "4",
-      "question": "Quand tu prends une décision importante…",
+      "question": "Une personne proche traverse une mauvaise période. Comment tu te positionnes spontanément ?",
       "answers": [
-        { "label": "Je me fie à mon instinct", "scores": { "feu": 3 } },
-        { "label": "Je me base sur mes ressentis", "scores": { "eau": 3 } },
-        { "label": "Je réfléchis à plusieurs options", "scores": { "air": 3 } },
-        { "label": "J’analyse en profondeur", "scores": { "terre": 3 } }
+        {
+          "label": "Je cherche assez vite quelque chose de concret à faire ou à proposer pour l'aider à avancer",
+          "scores": {
+            "terre": 2,
+            "feu": 1
+          }
+        },
+        {
+          "label": "Je reste disponible et à l'écoute — ma présence compte plus que les solutions",
+          "scores": {
+            "eau": 3
+          }
+        },
+        {
+          "label": "Je cherche à comprendre ce qu'elle vit et j'essaie d'ouvrir des pistes pour voir les choses autrement",
+          "scores": {
+            "air": 2,
+            "eau": 1
+          }
+        },
+        {
+          "label": "Je me mobilise rapidement — quand quelqu'un que j'aime ne va pas bien, j'ai du mal à rester passif(ve)",
+          "scores": {
+            "feu": 2,
+            "eau": 1
+          }
+        }
       ]
     },
     {
       "id": "5",
-      "question": "Ce qui te fatigue le plus…",
+      "question": "Une idée te vient soudainement et t'enthousiasme beaucoup. Que se passe-t-il ensuite ?",
       "answers": [
-        { "label": "L’ennui", "scores": { "feu": 3 } },
-        { "label": "Les tensions émotionnelles", "scores": { "eau": 3 } },
-        { "label": "La routine", "scores": { "air": 3 } },
-        { "label": "Le chaos", "scores": { "terre": 3 } }
+        {
+          "label": "J'ai envie de commencer tout de suite, quitte à ajuster en cours de route",
+          "scores": {
+            "feu": 3
+          }
+        },
+        {
+          "label": "Je commence à imaginer plein de variantes et d'autres idées auxquelles elle pourrait mener",
+          "scores": {
+            "air": 3
+          }
+        },
+        {
+          "label": "Je me demande surtout ce qu'elle représente pour moi et avec qui j'aurais envie de la partager",
+          "scores": {
+            "eau": 2,
+            "air": 1
+          }
+        },
+        {
+          "label": "Je regarde rapidement ce qu'il faudrait concrètement pour la rendre réalisable",
+          "scores": {
+            "terre": 2,
+            "feu": 1
+          }
+        }
       ]
     },
     {
       "id": "6",
-      "question": "Dans un groupe, tu es plutôt…",
+      "question": "Ton groupe est sous pression avant quelque chose d'important. Quel rôle prends-tu spontanément ?",
       "answers": [
-        { "label": "Leader naturel", "scores": { "feu": 3 } },
-        { "label": "À l’écoute des autres", "scores": { "eau": 3 } },
-        { "label": "Celui qui échange et propose", "scores": { "air": 3 } },
-        { "label": "Celui qui structure", "scores": { "terre": 3 } }
+        {
+          "label": "Je garde le cap sur ce qui doit vraiment être fait et j'aide les autres à se concentrer sur l'essentiel",
+          "scores": {
+            "terre": 3
+          }
+        },
+        {
+          "label": "Je cherche à détendre l'atmosphère et à ramener un peu de légèreté",
+          "scores": {
+            "air": 2,
+            "eau": 1
+          }
+        },
+        {
+          "label": "Je m'assure que tout le monde se sent bien et que personne n'est laissé de côté dans la panique",
+          "scores": {
+            "eau": 2,
+            "terre": 1
+          }
+        },
+        {
+          "label": "Je prends les choses en main pour qu'on avance — l'attente sous pression m'est difficile",
+          "scores": {
+            "feu": 3
+          }
+        }
       ]
     },
     {
       "id": "7",
-      "question": "Quand tu es stressé(e)…",
+      "question": "Un projet commence à devenir trop répétitif pour toi. Qu'est-ce qui se passe ?",
       "answers": [
-        { "label": "Je réagis rapidement", "scores": { "feu": 3 } },
-        { "label": "Je ressens tout intensément", "scores": { "eau": 3 } },
-        { "label": "Je me change les idées", "scores": { "air": 3 } },
-        { "label": "Je me recentre", "scores": { "terre": 3 } }
+        {
+          "label": "Mon esprit commence naturellement à partir vers d'autres idées et possibilités",
+          "scores": {
+            "air": 3
+          }
+        },
+        {
+          "label": "Je cherche un nouveau défi à l'intérieur du projet pour retrouver de l'intensité",
+          "scores": {
+            "feu": 2,
+            "air": 1
+          }
+        },
+        {
+          "label": "Je continue, mais je remarque que ça me coûte plus d'énergie émotionnelle que d'habitude",
+          "scores": {
+            "eau": 2,
+            "terre": 1
+          }
+        },
+        {
+          "label": "Je reste — j'ai commencé quelque chose et je préfère le finir correctement avant de passer à autre chose",
+          "scores": {
+            "terre": 3
+          }
+        }
       ]
     },
     {
       "id": "8",
-      "question": "Ce qui te motive le plus…",
+      "question": "Tu dois prendre une décision importante avec plusieurs possibilités valables. Comment tu avances ?",
       "answers": [
-        { "label": "Les défis", "scores": { "feu": 3 } },
-        { "label": "Les relations", "scores": { "eau": 3 } },
-        { "label": "La découverte", "scores": { "air": 3 } },
-        { "label": "La sécurité", "scores": { "terre": 3 } }
+        {
+          "label": "Je me fie d'abord à ce que je ressens pour chaque option — mon intuition guide souvent mes décisions",
+          "scores": {
+            "eau": 3
+          }
+        },
+        {
+          "label": "Je pèse les pour et les contre de façon concrète pour choisir ce qui tient le mieux sur le long terme",
+          "scores": {
+            "terre": 3
+          }
+        },
+        {
+          "label": "Je considère plusieurs angles et je m'intéresse à ce que chaque possibilité pourrait ouvrir",
+          "scores": {
+            "air": 2,
+            "terre": 1
+          }
+        },
+        {
+          "label": "Je décide assez vite selon ce qui m'attire le plus — trop analyser finit par m'éloigner de mon élan",
+          "scores": {
+            "feu": 2,
+            "air": 1
+          }
+        }
       ]
     },
     {
       "id": "9",
-      "question": "Ton rythme idéal…",
+      "question": "Tu as beaucoup investi dans quelque chose, mais ça n'a pas fonctionné. Comment tu rebondis ?",
       "answers": [
-        { "label": "Intense", "scores": { "feu": 3 } },
-        { "label": "Émotionnel", "scores": { "eau": 3 } },
-        { "label": "Flexible", "scores": { "air": 3 } },
-        { "label": "Régulier", "scores": { "terre": 3 } }
+        {
+          "label": "Je repart rapidement sur autre chose — rester dans l'échec ne m'intéresse pas, je préfère la prochaine action",
+          "scores": {
+            "feu": 2,
+            "air": 1
+          }
+        },
+        {
+          "label": "Je prends le temps de comprendre pourquoi ça n'a pas marché avant de recommencer différemment",
+          "scores": {
+            "terre": 2,
+            "air": 1
+          }
+        },
+        {
+          "label": "J'ai besoin d'un moment pour digérer émotionnellement avant de pouvoir envisager la suite",
+          "scores": {
+            "eau": 3
+          }
+        },
+        {
+          "label": "Je cherche rapidement un autre angle ou une autre possibilité — un échec ferme une porte, mais en ouvre souvent d'autres",
+          "scores": {
+            "air": 2,
+            "feu": 1
+          }
+        }
       ]
     },
     {
       "id": "10",
-      "question": "Au fond, tu es quelqu’un de…",
+      "question": "Tu arrives dans un environnement complètement nouveau. Ton premier réflexe ?",
       "answers": [
-        { "label": "Passionné(e)", "scores": { "feu": 3 } },
-        { "label": "Sensible", "scores": { "eau": 3 } },
-        { "label": "Curieux(se)", "scores": { "air": 3 } },
-        { "label": "Posé(e)", "scores": { "terre": 3 } }
+        {
+          "label": "J'observe et je prends mes repères avant de m'engager — j'aime savoir sur quoi je peux compter",
+          "scores": {
+            "terre": 2,
+            "eau": 1
+          }
+        },
+        {
+          "label": "Je vais vers les personnes et je crée rapidement du contact — l'atmosphère humaine compte beaucoup pour moi",
+          "scores": {
+            "eau": 2,
+            "feu": 1
+          }
+        },
+        {
+          "label": "J'explore librement et je vois ce qui m'attire — les nouveaux environnements m'ouvrent l'appétit",
+          "scores": {
+            "air": 3
+          }
+        },
+        {
+          "label": "Je me lance assez vite — attendre trop de me sentir à l'aise ralentirait tout",
+          "scores": {
+            "feu": 2,
+            "air": 1
+          }
+        }
       ]
     }
   ]

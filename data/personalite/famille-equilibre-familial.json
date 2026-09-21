@@ -2,12 +2,12 @@
   "slug": "test-equilibre-familial-sain",
   "title": "Test famille - Ton équilibre familial est-il sain ?",
   "description": "Ta relation familiale est-elle équilibrée ou déséquilibrée ?",
-  "descriptionSeo": "Communication, limites, émotions… ce test analyse ton équilibre familial à travers des situations concrètes. Découvre si ton environnement est sain, instable ou trop impliquant.",
+  "descriptionSeo": "Autonomie, proximité, limites, attentes, désaccords… ce test explore la manière dont tu vis actuellement tes relations familiales. À travers dix situations concrètes, observe si tu arrives à préserver à la fois le lien et ton espace personnel, si les attentes familiales prennent beaucoup de place, si les relations sont variables ou si tu as tendance à maintenir davantage de distance. Le résultat reflète ton ressenti et ton fonctionnement actuel, pas un diagnostic de ta famille.",
   "category": {
     "name": "Famille",
     "slug": "famille"
   },
-  "createdAt": "2026-04-27",
+  "createdAt": "2026-09-21",
   "isNew": true,
   "isPopular": true,
   "images": {
@@ -18,129 +18,348 @@
   "profiles": [
     {
       "key": "sain",
-      "title": "Équilibre sain",
-      "description": "Ta relation familiale semble globalement saine et équilibrée. Il y a du respect, de la communication et une certaine liberté. Tu peux être proche de ta famille sans te sentir envahi(e), et tu gardes ton indépendance. Les échanges sont possibles, même en cas de désaccord. Tu sais poser des limites et tu te sens respecté(e). Cet équilibre te permet d’évoluer sereinement tout en gardant des liens solides.",
+      "title": "Proche tout en gardant ton espace",
+      "description": "Tu sembles parvenir assez facilement à maintenir du lien avec ta famille sans renoncer à ton espace personnel. Tu peux être présent(e), partager certaines choses et tenir compte de tes proches tout en conservant la possibilité de dire non ou de faire tes propres choix. Ce fonctionnement n'exclut pas les tensions ou les désaccords — il indique que tu arrives généralement à naviguer entre proximité et autonomie sans que l'un efface l'autre.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777379945/sain_refsjc.jpg"
     },
     {
       "key": "implique",
-      "title": "Trop impliqué(e)",
-      "description": "Ta famille prend une place importante dans ta vie, parfois un peu trop. Tu peux te sentir responsable, impliqué(e) ou très lié(e) émotionnellement. Il peut être difficile pour toi de prendre du recul ou de faire des choix totalement indépendants. Cette proximité est forte, mais elle peut parfois devenir pesante. Tu peux avoir du mal à poser des limites ou à te détacher.",
+      "title": "Très impliqué(e) dans le lien familial",
+      "description": "Le lien familial occupe une place importante dans tes décisions et ton état émotionnel. Tu accordes beaucoup de poids aux besoins, aux attentes et aux réactions de tes proches. C'est aussi une vraie force : disponibilité, engagement, attachement réel. La question que ce profil invite à explorer est la suivante : arrives-tu à distinguer ce que tu veux faire de ce que tu te sens obligé(e) de faire ?",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777377327/fusion_ryzyvu.jpg"
     },
     {
       "key": "desequilibre",
-      "title": "Équilibre fragile",
-      "description": "Ton équilibre familial semble instable. Il peut y avoir des tensions, des incompréhensions ou des moments difficiles. La communication n’est pas toujours fluide et tu peux te sentir tiraillé(e). Tu peux osciller entre proximité et distance selon les situations. Cet équilibre demande de l’attention et peut parfois être source de stress émotionnel.",
+      "title": "Un équilibre assez variable",
+      "description": "Ta façon de naviguer dans les relations familiales semble changer beaucoup selon la situation, la personne ou la période. Tu peux te sentir à l'aise à certains moments et plus tiraillé(e) à d'autres. Cela peut venir de dynamiques relationnelles différentes selon les membres de la famille, ou d'une zone de transition dans la façon dont tu définis ta place. Ce profil reflète quelque chose d'assez courant dans les familles complexes.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777031501/cover_xqw0dr.jpg"
     },
     {
       "key": "distant",
-      "title": "Distance marquée",
-      "description": "Tu as pris une certaine distance avec ta famille, volontairement ou non. Tu es autonome et tu préfères garder une séparation claire. Tu n’as pas forcément besoin d’un lien constant ou très proche. Cette distance peut te protéger, mais elle peut aussi créer un manque de connexion. Ton équilibre repose davantage sur ton indépendance que sur le lien familial.",
+      "title": "Tu préserves beaucoup ton indépendance",
+      "description": "Tu maintiens une séparation assez nette entre ta vie et tes relations familiales. Tu fonctionnes bien de façon autonome et tu n'as pas besoin d'un lien constant ou très engagé. Dans certains contextes, cette distance peut être une limite nécessaire et une vraie protection. Elle peut aussi, dans d'autres cas, créer un manque de connexion que tu ressens par moments. Ce test ne connaît pas ton histoire familiale — il observe seulement la tendance actuelle.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777032251/uncertain_vsnb2s.jpg"
     }
   ],
-"questions": [
-  {
-    "id": "1",
-    "question": "Tu ne réponds pas à un message familial pendant quelques heures…",
-    "answers": [
-      { "label": "Aucun souci pour moi", "scores": { "sain": 3 } },
-      { "label": "Je culpabilise un peu", "scores": { "implique": 3 } },
-      { "label": "Ça dépend de qui c’est", "scores": { "desequilibre": 3 } },
-      { "label": "Je réponds quand je veux", "scores": { "distant": 3 } }
-    ]
-  },
-  {
-    "id": "2",
-    "question": "Un proche insiste pour savoir des détails de ta vie…",
-    "answers": [
-      { "label": "Je partage ce que je veux", "scores": { "sain": 3 } },
-      { "label": "Je finis par tout dire", "scores": { "implique": 3 } },
-      { "label": "Je suis mal à l’aise", "scores": { "desequilibre": 3 } },
-      { "label": "Je coupe court", "scores": { "distant": 3 } }
-    ]
-  },
-  {
-    "id": "3",
-    "question": "Tu veux faire un choix important qui ne va pas leur plaire…",
-    "answers": [
-      { "label": "Je le fais quand même", "scores": { "sain": 3 } },
-      { "label": "J’hésite beaucoup", "scores": { "implique": 3 } },
-      { "label": "Je stresse de leur réaction", "scores": { "desequilibre": 3 } },
-      { "label": "Je ne leur en parle pas", "scores": { "distant": 3 } }
-    ]
-  },
-  {
-    "id": "4",
-    "question": "Un repas de famille est prévu mais tu es fatigué(e)…",
-    "answers": [
-      { "label": "Je dis que je ne viens pas", "scores": { "sain": 3 } },
-      { "label": "Je viens quand même", "scores": { "implique": 3 } },
-      { "label": "J’hésite jusqu’au dernier moment", "scores": { "desequilibre": 3 } },
-      { "label": "Je refuse sans me justifier", "scores": { "distant": 3 } }
-    ]
-  },
-  {
-    "id": "5",
-    "question": "Quelqu’un entre dans ton espace perso sans prévenir…",
-    "answers": [
-      { "label": "Je pose une limite calmement", "scores": { "sain": 3 } },
-      { "label": "Je laisse passer", "scores": { "implique": 3 } },
-      { "label": "Ça m’énerve mais je ne dis rien", "scores": { "desequilibre": 3 } },
-      { "label": "Je réagis direct", "scores": { "distant": 3 } }
-    ]
-  },
-  {
-    "id": "6",
-    "question": "Un proche attend beaucoup de toi (aide, présence…)…",
-    "answers": [
-      { "label": "Je fixe mes limites", "scores": { "sain": 3 } },
-      { "label": "Je me sens obligé(e)", "scores": { "implique": 3 } },
-      { "label": "Je suis partagé(e)", "scores": { "desequilibre": 3 } },
-      { "label": "Je prends de la distance", "scores": { "distant": 3 } }
-    ]
-  },
-  {
-    "id": "7",
-    "question": "Après avoir passé du temps en famille…",
-    "answers": [
-      { "label": "Je me sens bien", "scores": { "sain": 3 } },
-      { "label": "Je suis un peu vidé(e)", "scores": { "implique": 3 } },
-      { "label": "Ça dépend de l’ambiance", "scores": { "desequilibre": 3 } },
-      { "label": "Je suis soulagé(e) de partir", "scores": { "distant": 3 } }
-    ]
-  },
-  {
-    "id": "8",
-    "question": "Tu ne partages pas quelque chose d’important…",
-    "answers": [
-      { "label": "C’est normal, j’ai mon jardin secret", "scores": { "sain": 3 } },
-      { "label": "Je finis toujours par le dire", "scores": { "implique": 3 } },
-      { "label": "Je culpabilise un peu", "scores": { "desequilibre": 3 } },
-      { "label": "Je garde pour moi sans problème", "scores": { "distant": 3 } }
-    ]
-  },
-  {
-    "id": "9",
-    "question": "Un désaccord arrive…",
-    "answers": [
-      { "label": "On en parle calmement", "scores": { "sain": 3 } },
-      { "label": "Je cède souvent", "scores": { "implique": 3 } },
-      { "label": "Ça devient tendu", "scores": { "desequilibre": 3 } },
-      { "label": "J’évite ou je coupe", "scores": { "distant": 3 } }
-    ]
-  },
-  {
-    "id": "10",
-    "question": "Tu te sens libre de dire non à ta famille…",
-    "answers": [
-      { "label": "Oui, sans problème", "scores": { "sain": 3 } },
-      { "label": "Difficilement", "scores": { "implique": 3 } },
-      { "label": "Ça dépend des situations", "scores": { "desequilibre": 3 } },
-      { "label": "Oui, mais en prenant de la distance", "scores": { "distant": 3 } }
-    ]
-  }
-]
+  "questions": [
+    {
+      "id": "1",
+      "question": "Tu avais prévu une soirée tranquille pour toi. Un proche t'appelle parce qu'il a besoin de parler — ce n'est pas une urgence. Que fais-tu ?",
+      "answers": [
+        {
+          "label": "Je lui réponds que je ne suis pas disponible maintenant et je lui propose qu'on se parle à un autre moment",
+          "scores": {
+            "sain": 3
+          }
+        },
+        {
+          "label": "Je décroche presque toujours — j'aurais du mal à profiter de ma soirée en sachant qu'il avait besoin de moi",
+          "scores": {
+            "implique": 2,
+            "desequilibre": 1
+          }
+        },
+        {
+          "label": "Je préfère généralement ne pas décrocher — chacun doit pouvoir gérer ses problèmes sans que je sois systématiquement sollicité(e)",
+          "scores": {
+            "distant": 2,
+            "sain": 1
+          }
+        },
+        {
+          "label": "Ça dépend beaucoup de la personne et de la période — avec certains je décroche, avec d'autres je préfère ne pas répondre",
+          "scores": {
+            "desequilibre": 2,
+            "implique": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "question": "Tu viens de prendre une décision importante que ta famille désapprouve clairement. Comment tu la vis dans les jours qui suivent ?",
+      "answers": [
+        {
+          "label": "Leur désapprobation pèse beaucoup et je me demande si je n'aurais pas dû en tenir davantage compte",
+          "scores": {
+            "implique": 3
+          }
+        },
+        {
+          "label": "Leur désapprobation ne change pas grand-chose pour moi — j'ai l'habitude de faire mes choix sans me soucier de leur réaction",
+          "scores": {
+            "distant": 3
+          }
+        },
+        {
+          "label": "Je maintiens mon choix mais leur réaction m'affecte davantage que je ne l'aurais voulu",
+          "scores": {
+            "desequilibre": 2,
+            "implique": 1
+          }
+        },
+        {
+          "label": "Je reste à l'aise avec mon choix même si leur désaccord me touche — c'est ma décision et je l'assume",
+          "scores": {
+            "sain": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "question": "Un proche insiste pour obtenir une information sur ta vie que tu préfères garder pour toi. Que se passe-t-il ?",
+      "answers": [
+        {
+          "label": "Ça dépend — avec certains membres j'arrive à tenir, avec d'autres c'est beaucoup plus difficile",
+          "scores": {
+            "desequilibre": 3
+          }
+        },
+        {
+          "label": "Je finis souvent par partager — il est difficile pour moi de garder quelque chose quand la famille insiste",
+          "scores": {
+            "implique": 3
+          }
+        },
+        {
+          "label": "Je mets rapidement fin à la discussion — ce que je veux garder pour moi ne regarde personne d'autre",
+          "scores": {
+            "distant": 2,
+            "sain": 1
+          }
+        },
+        {
+          "label": "Je dis clairement que ce sujet reste privé, sans me sentir obligé(e) de m'en excuser",
+          "scores": {
+            "sain": 2,
+            "distant": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "question": "Tu es déjà débordé(e) quand un proche te demande une aide importante. Comment tu gères ça ?",
+      "answers": [
+        {
+          "label": "Je me sens souvent obligé(e) d'accepter même quand je n'en ai vraiment pas les ressources",
+          "scores": {
+            "implique": 3
+          }
+        },
+        {
+          "label": "J'explique ma situation et je propose ce que je peux faire sans compromettre ce que j'ai à gérer",
+          "scores": {
+            "sain": 3
+          }
+        },
+        {
+          "label": "Je suis partagé(e) — je sais que je devrais dire non mais je n'y arrive pas toujours",
+          "scores": {
+            "desequilibre": 2,
+            "implique": 1
+          }
+        },
+        {
+          "label": "Je dis généralement non sans m'y attarder — ma disponibilité n'est pas automatiquement acquise",
+          "scores": {
+            "distant": 2,
+            "sain": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "question": "Tu viens de refuser quelque chose d'important pour un proche. Il semble déçu. Quelques heures plus tard…",
+      "answers": [
+        {
+          "label": "Je suis à l'aise avec mon refus : je sais pourquoi j'ai dit non et ça ne remet pas en cause notre relation",
+          "scores": {
+            "sain": 2,
+            "distant": 1
+          }
+        },
+        {
+          "label": "Sa déception ne change généralement pas ma décision — chacun gère ses propres attentes",
+          "scores": {
+            "distant": 3
+          }
+        },
+        {
+          "label": "Sa réaction me fait douter — selon les moments je maintiens ma limite ou je finis par céder",
+          "scores": {
+            "desequilibre": 2,
+            "implique": 1
+          }
+        },
+        {
+          "label": "Je me demande si j'aurais dû trouver un moyen de l'aider quand même — je remets souvent mon refus en question",
+          "scores": {
+            "implique": 2,
+            "desequilibre": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "question": "Un proche est contrarié par une limite que tu as posée. Que se passe-t-il pour toi ?",
+      "answers": [
+        {
+          "label": "Sa contrariété me touche au point que je me demande si j'avais vraiment le droit de poser cette limite",
+          "scores": {
+            "implique": 3
+          }
+        },
+        {
+          "label": "Sa réaction ne me préoccupe pas beaucoup — si j'ai posé une limite, c'est qu'elle était nécessaire",
+          "scores": {
+            "distant": 2,
+            "sain": 1
+          }
+        },
+        {
+          "label": "Je remarque sa contrariété mais je ne me sens pas obligé(e) de revenir sur ma position",
+          "scores": {
+            "sain": 3
+          }
+        },
+        {
+          "label": "Je tiens ma position, mais pas sans inconfort — ces moments sont souvent sources de tension pour moi",
+          "scores": {
+            "desequilibre": 2,
+            "sain": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "question": "Quelque chose d'important t'arrive — une bonne nouvelle ou un problème. Quelle place ta famille prend-elle spontanément ?",
+      "answers": [
+        {
+          "label": "Ça dépend énormément de la nouvelle et de la dynamique du moment — certaines fois je me confie, d'autres non",
+          "scores": {
+            "desequilibre": 3
+          }
+        },
+        {
+          "label": "Je partage naturellement avec certains proches, mais je garde aussi une partie pour moi selon ce que je ressens",
+          "scores": {
+            "sain": 3
+          }
+        },
+        {
+          "label": "Je gère généralement ce qui m'arrive sans ressentir le besoin de l'impliquer dans ma vie personnelle",
+          "scores": {
+            "distant": 3
+          }
+        },
+        {
+          "label": "Ma famille est presque toujours la première à qui j'en parle — j'ai besoin de leur retour pour avancer",
+          "scores": {
+            "implique": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "question": "Après plusieurs jours passés avec ta famille, qu'est-ce que tu remarques principalement ?",
+      "answers": [
+        {
+          "label": "Je réalise que je me suis beaucoup adapté(e) à leurs besoins au détriment des miens",
+          "scores": {
+            "implique": 2,
+            "desequilibre": 1
+          }
+        },
+        {
+          "label": "Je suis content(e) du temps passé ensemble mais je ressens aussi le besoin de retrouver mon espace",
+          "scores": {
+            "sain": 3
+          }
+        },
+        {
+          "label": "Je suis soulagé(e) de repartir — la proximité prolongée m'est difficile",
+          "scores": {
+            "distant": 3
+          }
+        },
+        {
+          "label": "Je me sens épuisé(e) ou vidé(e) — les dynamiques familiales me demandent beaucoup d'énergie",
+          "scores": {
+            "desequilibre": 2,
+            "implique": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "question": "Ta famille exprime une opinion forte sur un choix de vie important — partenaire, travail, lieu de vie. Quel poids ça a pour toi ?",
+      "answers": [
+        {
+          "label": "Beaucoup — leur opinion influence réellement ma façon d'envisager mes choix",
+          "scores": {
+            "implique": 3
+          }
+        },
+        {
+          "label": "Ça dépend du sujet et de qui le dit — certaines personnes ont beaucoup plus d'impact que d'autres",
+          "scores": {
+            "desequilibre": 2,
+            "implique": 1
+          }
+        },
+        {
+          "label": "Relativement peu — sur ces sujets, je fonctionne surtout selon ce que je veux",
+          "scores": {
+            "distant": 2,
+            "sain": 1
+          }
+        },
+        {
+          "label": "Je l'entends et j'en tiens compte si ça me semble pertinent, mais la décision reste la mienne",
+          "scores": {
+            "sain": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "question": "Un proche traverse une période difficile. Jusqu'où modifies-tu ta propre vie pour l'aider ?",
+      "answers": [
+        {
+          "label": "Je mets souvent une grande partie de ma vie entre parenthèses pour être présent(e) — ma priorité, c'est lui/elle",
+          "scores": {
+            "implique": 3
+          }
+        },
+        {
+          "label": "Je reste disponible si nécessaire, mais je préfère ne pas réorganiser fortement ma vie autour de la situation",
+          "scores": {
+            "distant": 2,
+            "sain": 1
+          }
+        },
+        {
+          "label": "Je m'implique selon ce que je peux réellement apporter sans compromettre mon propre équilibre",
+          "scores": {
+            "sain": 3
+          }
+        },
+        {
+          "label": "Je me retrouve souvent à faire plus que ce que je voudrais, sans vraiment savoir jusqu'où m'impliquer",
+          "scores": {
+            "desequilibre": 2,
+            "implique": 1
+          }
+        }
+      ]
+    }
+  ]
 }

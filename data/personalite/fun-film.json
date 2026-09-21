@@ -1,13 +1,13 @@
 {
   "slug": "test-quel-role-jouerais-tu-dans-un-film",
-  "title": "Test fun - Quel rôle jouerais-tu dans un film ? ",
-  "description": "Réponds à ces questions et découvre le personnage que tu incarnerais à l’écran.",
-  "descriptionSeo": "Plonge dans des situations inspirées du cinéma et découvre quel rôle tu jouerais dans un film. Héros, rebelle, stratège, personnage drôle, mentor ou mystérieux : ce test fun et immersif révèle le personnage qui correspond le mieux à ta personnalité et à ta manière de réagir.",
+  "title": "Test fun - Quel rôle jouerais-tu dans un film ?",
+  "description": "Réponds à ces questions et découvre le personnage que tu incarnerais à l'écran.",
+  "descriptionSeo": "Héros, stratège, rebelle, personnage drôle, mentor ou mystérieux : quel rôle jouerais-tu dans un film ? À travers dix situations dignes du cinéma, découvre comment tu réagis quand il faut agir, réfléchir, aider les autres ou sortir du cadre. Réponds spontanément et découvre quel rôle de fiction symbolise le mieux ta façon de fonctionner quand l'histoire se complique.",
   "category": {
     "name": "Fun",
     "slug": "fun"
   },
-  "createdAt": "2026-04-20",
+  "createdAt": "2026-09-21",
   "isNew": true,
   "isPopular": true,
   "images": {
@@ -19,159 +19,361 @@
     {
       "key": "heros",
       "title": "Le Héros",
-      "description": "Tu es clairement le personnage central. Pas parce que tout est facile, mais parce que tu continues même quand ça devient compliqué. Tu prends des décisions, tu avances, tu te relèves. Tu n’as pas besoin d’être parfait pour être le héros, juste d’être présent quand ça compte. Les autres gravitent souvent autour de toi dans les moments importants. Ton énergie : avancer coûte que coûte.",
+      "description": "Quand une situation demande que quelqu'un se lance, tu as tendance à passer à l'action. Tu peux hésiter ou douter comme tout le monde, mais rester spectateur trop longtemps te convient rarement lorsque quelque chose compte vraiment. Tu acceptes assez facilement de prendre une part de responsabilité et de t'adapter en cours de route. Cette énergie peut entraîner les autres, même si elle peut parfois te pousser à agir avant d'avoir toutes les informations.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777035877/super-hero_pcwxk9.jpg"
     },
     {
       "key": "stratege",
       "title": "Le Stratège",
-      "description": "Dans le film, tu es celui ou celle qui comprend tout avant les autres. Tu vois les détails, tu anticipes, tu fais les liens. Tu n’es pas forcément au centre de l’action, mais sans toi, rien ne tient. Tu es le cerveau derrière les décisions importantes. Ton énergie : réfléchir avant d’agir.",
+      "description": "Tu observes les informations disponibles, cherches les relations entre elles et réfléchis aux conséquences avant de bouger. Tu n'as pas besoin d'être au premier plan pour avoir un impact important. Tu es souvent celui ou celle qui comprend ce que les autres n'ont pas encore vu. Cette capacité d'analyse peut être décisive. Elle peut aussi parfois retarder une décision qui aurait pu être prise plus tôt.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776942924/cover_hghhdr.jpg"
     },
     {
       "key": "rebelle",
       "title": "Le Rebelle",
-      "description": "Tu es celui ou celle qui casse les codes. Tu refuses de suivre le script quand il ne te correspond pas. Tu fais bouger les choses, parfois en créant du chaos, mais toujours avec une vraie intensité. Tu es imprévisible, libre et impossible à enfermer. Ton énergie : tout remettre en question.",
+      "description": "Tu ne suis pas une règle simplement parce qu'elle existe. Quand un cadre te semble inutile ou incohérent, tu cherches une autre voie. Tu poses les questions que les autres évitent et tu bouges de façon imprévisible. Cette indépendance peut créer des étincelles — et parfois du chaos — mais elle fait avancer les choses. Ton angle est rarement celui attendu, et c'est souvent exactement ce dont une situation a besoin.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777035876/rebel_napbrv.jpg"
     },
     {
       "key": "comique",
       "title": "Le Personnage drôle",
-      "description": "Sans toi, le film serait trop lourd. Tu apportes du rythme, des répliques, de la légèreté. Tu sais exactement quand détendre l’ambiance. Mais derrière l’humour, il y a souvent beaucoup de lucidité. Tu comprends les situations… et tu choisis d’en rire. Ton énergie : alléger tout ce qui devient trop sérieux.",
+      "description": "Tu utilises spontanément l'humour pour créer du lien, désamorcer une tension ou prendre de la distance avec une situation. Tu sais exactement quand une légèreté bien placée peut changer le ton d'un moment. Derrière l'humour, il y a souvent beaucoup de lucidité sur ce qui se passe. Cette capacité peut rendre les situations plus supportables — et parfois faire passer des vérités que personne d'autre n'aurait osé dire.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777035875/comic_cbv5vs.jpg"
     },
     {
       "key": "mentor",
       "title": "Le Mentor",
-      "description": "Tu es celui ou celle qui aide les autres à avancer. Tu observes, tu comprends, tu guides. Tu n’as pas besoin d’être au centre pour avoir un impact énorme. Ton rôle est subtil mais essentiel : tu fais évoluer les autres personnages. Ton énergie : apporter du sens et du recul.",
+      "description": "Tu aides les autres à trouver leur propre réponse plutôt qu'à leur en donner une. Tu écoutes, tu observes, tu poses les bonnes questions. Ton impact est souvent moins visible que celui des autres, mais il peut être profond et durable. Tu sais prendre du recul sur une situation et t'effacer quand c'est l'autre qui doit avancer. Ce rôle demande de mettre les autres avant sa propre mise en avant — et tu y trouves souvent quelque chose de sincèrement satisfaisant.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777035876/mentor_lk95ci.jpg"
     },
     {
       "key": "mysterieux",
       "title": "Le Personnage mystérieux",
-      "description": "Tu es le personnage qu’on n’arrive jamais totalement à cerner. Tu ne dis pas tout, tu observes beaucoup, et tu choisis tes moments. Tu crées de l’intrigue sans effort. Les autres veulent comprendre… mais tu gardes toujours une part de mystère. Ton énergie : intriguer sans te dévoiler.",
+      "description": "Tu ne ressens pas le besoin de montrer immédiatement tout ce que tu penses ou ressens. Dans une nouvelle situation, tu préfères souvent observer avant de prendre position, et tu choisis assez soigneusement ce que tu partages. Cette réserve te donne un regard particulièrement attentif sur ce qui se passe autour de toi. Elle peut aussi rendre tes intentions moins faciles à lire pour les autres — ce qui peut intriguer autant que frustrer.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777035876/mystere_ngbba0.jpg"
     }
   ],
   "questions": [
     {
       "id": "1",
-      "question": "Une scène chaotique commence. Tu fais quoi ?",
+      "question": "Personne dans le groupe n'ose prendre une décision. Ça dure depuis trop longtemps. Que se passe-t-il de ton côté ?",
       "answers": [
-        { "label": "J’interviens direct", "scores": { "heros": 3 } },
-        { "label": "J’analyse ce qui se passe", "scores": { "stratege": 3 } },
-        { "label": "Je fais ma propre version des choses", "scores": { "rebelle": 3 } },
-        { "label": "Je lâche une remarque", "scores": { "comique": 3 } },
-        { "label": "Je calme les autres", "scores": { "mentor": 3 } },
-        { "label": "Je regarde en silence", "scores": { "mysterieux": 3 } }
+        {
+          "label": "Je finis par proposer une direction et je suggère qu'on commence, quitte à ajuster ensuite",
+          "scores": {
+            "heros": 3
+          }
+        },
+        {
+          "label": "Je pose quelques questions pour identifier ce qu'on risque de regretter selon chaque option",
+          "scores": {
+            "stratege": 3
+          }
+        },
+        {
+          "label": "Je demande pourquoi on se limite aux choix proposés — il existe peut-être une autre façon de faire",
+          "scores": {
+            "rebelle": 2,
+            "stratege": 1
+          }
+        },
+        {
+          "label": "Je fais redescendre la pression avant qu'on transforme cette décision en drame national",
+          "scores": {
+            "comique": 3
+          }
+        }
       ]
     },
     {
       "id": "2",
-      "question": "Ton rôle dans un groupe ressemble à…",
+      "question": "Une règle bloque complètement votre groupe alors qu'elle ne semble plus adaptée à la situation.",
       "answers": [
-        { "label": "Celui/celle qui agit", "scores": { "heros": 3 } },
-        { "label": "Celui/celle qui réfléchit", "scores": { "stratege": 3 } },
-        { "label": "Celui/celle qui dérange", "scores": { "rebelle": 3 } },
-        { "label": "Celui/celle qui fait rire", "scores": { "comique": 3 } },
-        { "label": "Celui/celle qui aide", "scores": { "mentor": 3 } },
-        { "label": "Celui/celle qu’on observe", "scores": { "mysterieux": 3 } }
+        {
+          "label": "Je cherche comment avancer malgré la contrainte — le problème doit quand même être réglé",
+          "scores": {
+            "heros": 2,
+            "rebelle": 1
+          }
+        },
+        {
+          "label": "Je demande franchement pourquoi on continue à suivre une règle qui n'a plus de sens",
+          "scores": {
+            "rebelle": 3
+          }
+        },
+        {
+          "label": "Avant de la contourner, je vérifie pourquoi elle existe et ce qu'on risque réellement en l'ignorant",
+          "scores": {
+            "stratege": 3
+          }
+        },
+        {
+          "label": "Je ne dis rien sur le moment, mais j'observe comment chacun se positionne face à ça",
+          "scores": {
+            "mysterieux": 2,
+            "stratege": 1
+          }
+        }
       ]
     },
     {
       "id": "3",
-      "question": "Une décision rapide doit être prise.",
+      "question": "Un ami vient te voir après avoir complètement raté quelque chose qui comptait beaucoup pour lui.",
       "answers": [
-        { "label": "Je tranche", "scores": { "heros": 3 } },
-        { "label": "Je réfléchis vite", "scores": { "stratege": 3 } },
-        { "label": "Je fais différemment", "scores": { "rebelle": 3 } },
-        { "label": "Je dédramatise", "scores": { "comique": 3 } },
-        { "label": "Je prends du recul", "scores": { "mentor": 3 } },
-        { "label": "Je ne dis rien", "scores": { "mysterieux": 3 } }
+        {
+          "label": "Je l'écoute, puis je l'aide à comprendre ce qu'il peut tirer de ce qui s'est passé",
+          "scores": {
+            "mentor": 3
+          }
+        },
+        {
+          "label": "Je lui demande ce qu'il veut faire maintenant et je l'aide à repartir concrètement",
+          "scores": {
+            "heros": 2,
+            "mentor": 1
+          }
+        },
+        {
+          "label": "Je l'écoute sérieusement, mais je sais aussi trouver le moment où une légèreté peut lui permettre de respirer",
+          "scores": {
+            "comique": 2,
+            "mentor": 1
+          }
+        },
+        {
+          "label": "Je ne le pousse pas à parler davantage qu'il ne veut — je reste présent et j'attends qu'il m'en dise plus",
+          "scores": {
+            "mysterieux": 2,
+            "mentor": 1
+          }
+        }
       ]
     },
     {
       "id": "4",
-      "question": "Une scène émotionnelle arrive…",
+      "question": "Tu arrives dans un groupe où il existe manifestement une tension dont personne ne parle. Comment tu te positionnes ?",
       "answers": [
-        { "label": "Je reste fort(e)", "scores": { "heros": 3 } },
-        { "label": "J’analyse la situation", "scores": { "stratege": 3 } },
-        { "label": "Je réagis spontanément", "scores": { "rebelle": 3 } },
-        { "label": "Je détourne avec humour", "scores": { "comique": 3 } },
-        { "label": "J’écoute et j’accompagne", "scores": { "mentor": 3 } },
-        { "label": "Je reste en retrait", "scores": { "mysterieux": 3 } }
+        {
+          "label": "J'essaie de comprendre ce qui s'est passé et qui est impliqué avant de tirer une conclusion",
+          "scores": {
+            "stratege": 3
+          }
+        },
+        {
+          "label": "Je ne pose pas immédiatement de questions : j'observe les interactions et je garde mes impressions pour moi",
+          "scores": {
+            "mysterieux": 3
+          }
+        },
+        {
+          "label": "Je trouve rapidement une occasion de détendre un peu l'atmosphère pour voir si ça aide",
+          "scores": {
+            "comique": 2,
+            "heros": 1
+          }
+        },
+        {
+          "label": "Je prends quelqu'un à part pour lui demander ce qui se passe réellement",
+          "scores": {
+            "mentor": 2,
+            "mysterieux": 1
+          }
+        }
       ]
     },
     {
       "id": "5",
-      "question": "Ton énergie principale dans l’histoire…",
+      "question": "Un projet que tout le monde soutient commence à dérailler. Tu vois clairement ce qui ne va pas.",
       "answers": [
-        { "label": "Agir", "scores": { "heros": 3 } },
-        { "label": "Comprendre", "scores": { "stratege": 3 } },
-        { "label": "Bousculer", "scores": { "rebelle": 3 } },
-        { "label": "Amuser", "scores": { "comique": 3 } },
-        { "label": "Guider", "scores": { "mentor": 3 } },
-        { "label": "Intriguer", "scores": { "mysterieux": 3 } }
+        {
+          "label": "Je le dis directement, même si ce n'est pas ce que les autres veulent entendre",
+          "scores": {
+            "rebelle": 2,
+            "heros": 1
+          }
+        },
+        {
+          "label": "Je prends quelqu'un en aparté pour lui expliquer ce que j'ai remarqué",
+          "scores": {
+            "stratege": 2,
+            "mentor": 1
+          }
+        },
+        {
+          "label": "Je prends les choses en main pour recadrer ce qui peut encore l'être",
+          "scores": {
+            "heros": 3
+          }
+        },
+        {
+          "label": "Je garde mes observations pour le bon moment — intervenir maintenant ne changerait rien",
+          "scores": {
+            "mysterieux": 2,
+            "stratege": 1
+          }
+        }
       ]
     },
     {
       "id": "6",
-      "question": "Si tu avais une “signature” dans le film…",
+      "question": "Quelqu'un te demande conseil sur une décision importante. Comment tu réagis ?",
       "answers": [
-        { "label": "Mes actions", "scores": { "heros": 3 } },
-        { "label": "Mes idées", "scores": { "stratege": 3 } },
-        { "label": "Mes décisions inattendues", "scores": { "rebelle": 3 } },
-        { "label": "Mes répliques", "scores": { "comique": 3 } },
-        { "label": "Mes conseils", "scores": { "mentor": 3 } },
-        { "label": "Mon silence", "scores": { "mysterieux": 3 } }
+        {
+          "label": "Je lui pose des questions pour l'aider à clarifier ce qu'il veut vraiment — la réponse doit venir de lui",
+          "scores": {
+            "mentor": 3
+          }
+        },
+        {
+          "label": "Je lui donne mon analyse de la situation et les conséquences probables de chaque option",
+          "scores": {
+            "stratege": 3
+          }
+        },
+        {
+          "label": "Je lui dis ce que je ferais franchement à sa place, même si c'est différent de ce qu'on lui suggère",
+          "scores": {
+            "rebelle": 2,
+            "heros": 1
+          }
+        },
+        {
+          "label": "Je lui donne mon avis avec un peu d'humour — parfois, prendre de la distance aide à voir une décision autrement",
+          "scores": {
+            "comique": 2,
+            "stratege": 1
+          }
+        }
       ]
     },
     {
       "id": "7",
-      "question": "Le moment où tu brilles le plus…",
+      "question": "Une soirée devient subitement très gênante pour tout le monde. Comment tu te comportes ?",
       "answers": [
-        { "label": "Quand il faut agir vite", "scores": { "heros": 3 } },
-        { "label": "Quand tout devient complexe", "scores": { "stratege": 3 } },
-        { "label": "Quand il faut casser les règles", "scores": { "rebelle": 3 } },
-        { "label": "Quand l’ambiance est tendue", "scores": { "comique": 3 } },
-        { "label": "Quand quelqu’un est perdu", "scores": { "mentor": 3 } },
-        { "label": "Quand personne ne comprend", "scores": { "mysterieux": 3 } }
+        {
+          "label": "Je dis ou fais quelque chose pour casser cette gêne — je ne supporte pas de laisser ça s'installer",
+          "scores": {
+            "comique": 3
+          }
+        },
+        {
+          "label": "Je continue à observer tranquillement — les tensions révèlent souvent des choses intéressantes",
+          "scores": {
+            "mysterieux": 2,
+            "stratege": 1
+          }
+        },
+        {
+          "label": "Je cherche à comprendre d'où vient cette gêne pour voir si je peux faire quelque chose",
+          "scores": {
+            "mentor": 3
+          }
+        },
+        {
+          "label": "Je prends les devants pour que la soirée reparte dans une meilleure direction",
+          "scores": {
+            "heros": 2,
+            "comique": 1
+          }
+        }
       ]
     },
     {
       "id": "8",
-      "question": "Ton défaut “cinématographique”…",
+      "question": "Tu apprends une information importante que les autres ignorent encore. Qu'est-ce que tu fais ?",
       "answers": [
-        { "label": "Je fonce trop", "scores": { "heros": 3 } },
-        { "label": "Je réfléchis trop", "scores": { "stratege": 3 } },
-        { "label": "Je suis imprévisible", "scores": { "rebelle": 3 } },
-        { "label": "Je ne prends rien au sérieux", "scores": { "comique": 3 } },
-        { "label": "Je m’oublie parfois", "scores": { "mentor": 3 } },
-        { "label": "Je garde tout pour moi", "scores": { "mysterieux": 3 } }
+        {
+          "label": "Je la partage immédiatement — les autres ont le droit de savoir et d'agir en conséquence",
+          "scores": {
+            "heros": 2,
+            "rebelle": 1
+          }
+        },
+        {
+          "label": "Je réfléchis d'abord à comment cette information change la situation et ce qu'il vaut mieux faire",
+          "scores": {
+            "stratege": 3
+          }
+        },
+        {
+          "label": "Je la garde pour moi jusqu'à trouver le bon moment pour la révéler",
+          "scores": {
+            "mysterieux": 3
+          }
+        },
+        {
+          "label": "Je la partage avec une touche de mise en scène — une bonne information mérite un bon timing",
+          "scores": {
+            "comique": 2,
+            "mysterieux": 1
+          }
+        }
       ]
     },
     {
       "id": "9",
-      "question": "Dans une scène finale…",
+      "question": "Tout le monde soutient une idée qui te paraît vraiment mauvaise. Tu fais quoi ?",
       "answers": [
-        { "label": "Je suis au cœur de l’action", "scores": { "heros": 3 } },
-        { "label": "Je comprends tout", "scores": { "stratege": 3 } },
-        { "label": "Je change le cours des choses", "scores": { "rebelle": 3 } },
-        { "label": "Je lâche la meilleure réplique", "scores": { "comique": 3 } },
-        { "label": "Je soutiens les autres", "scores": { "mentor": 3 } },
-        { "label": "Je révèle quelque chose", "scores": { "mysterieux": 3 } }
+        {
+          "label": "Je dis clairement que je ne suis pas d'accord et j'explique pourquoi",
+          "scores": {
+            "rebelle": 3
+          }
+        },
+        {
+          "label": "Je pose des questions pour amener les autres à voir les failles par eux-mêmes",
+          "scores": {
+            "stratege": 2,
+            "mentor": 1
+          }
+        },
+        {
+          "label": "Je laisse le groupe avancer, mais je me prépare concrètement à intervenir si les problèmes que j'anticipe commencent à apparaître",
+          "scores": {
+            "stratege": 2,
+            "heros": 1
+          }
+        },
+        {
+          "label": "Je fais une remarque légère qui pointe indirectement le problème — parfois l'humour dit ce que les mots directs ne peuvent pas",
+          "scores": {
+            "comique": 2,
+            "rebelle": 1
+          }
+        }
       ]
     },
     {
       "id": "10",
-      "question": "Ton film serait plutôt…",
+      "question": "Une situation imprévue exige une réaction immédiate. Quelques secondes pour choisir. Que fais-tu ?",
       "answers": [
-        { "label": "Un film d’action", "scores": { "heros": 3 } },
-        { "label": "Un thriller", "scores": { "stratege": 3 } },
-        { "label": "Un film rebelle", "scores": { "rebelle": 3 } },
-        { "label": "Une comédie", "scores": { "comique": 3 } },
-        { "label": "Un film profond", "scores": { "mentor": 3 } },
-        { "label": "Un film mystérieux", "scores": { "mysterieux": 3 } }
+        {
+          "label": "J'agis — improviser en mouvement vaut mieux qu'attendre d'avoir la situation parfaitement analysée",
+          "scores": {
+            "heros": 3
+          }
+        },
+        {
+          "label": "Je prends deux secondes pour identifier l'option la moins risquée avant de faire quoi que ce soit",
+          "scores": {
+            "stratege": 2,
+            "heros": 1
+          }
+        },
+        {
+          "label": "Je fais quelque chose d'inattendu — dans l'imprévu, les réponses habituelles ne fonctionnent souvent pas",
+          "scores": {
+            "rebelle": 3
+          }
+        },
+        {
+          "label": "Je garde mon calme et je dis quelque chose qui aide les autres à ne pas paniquer",
+          "scores": {
+            "mentor": 2,
+            "comique": 1
+          }
+        }
       ]
     }
   ]

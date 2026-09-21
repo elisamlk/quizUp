@@ -1,13 +1,13 @@
 {
   "slug": "test-management-quel-type-de-boss-es-tu",
   "title": "Test management - Quel type de boss es-tu ?",
-  "description": "Analyse ton style de management et la manière dont tu diriges les autres.",
-  "descriptionSeo": "Analyse ton style de management à travers ta manière de prendre des décisions, de gérer une équipe et de réagir face aux situations professionnelles. Ce test permet d’identifier si tu es plutôt un leader inspirant, un manager structuré, un coach bienveillant, un dirigeant exigeant ou un profil hybride. Une approche concrète pour mieux comprendre ton impact sur les autres et ton fonctionnement en tant que boss.",
+  "description": "Découvre les réflexes de management qui dominent lorsque tu dois décider, faire avancer une équipe et gérer les difficultés.",
+  "descriptionSeo": "Décisions difficiles, autonomie, erreurs, conflits, motivation, performance… ce test explore tes réflexes de management à travers dix situations professionnelles concrètes. Observe si tu as tendance à donner une direction, structurer le travail, développer les personnes, maintenir un niveau d'exigence ou adapter ton approche au contexte. Le résultat ne mesure pas si tu es un bon ou un mauvais manager : il met en lumière le style que tu mobilises le plus naturellement.",
   "category": {
     "name": "Carrière",
     "slug": "carriere"
   },
-  "createdAt": "2026-04-20",
+  "createdAt": "2026-09-21",
   "isNew": true,
   "isPopular": true,
   "images": {
@@ -18,144 +18,364 @@
   "profiles": [
     {
       "key": "leader",
-      "title": "Le Leader Inspirant",
-      "description": "Tu es un leader qui inspire et donne une vision. Tu ne te contentes pas de gérer, tu cherches à embarquer ton équipe autour d’un objectif commun. Tu sais motiver, donner du sens et créer une dynamique positive. Tu fais confiance et tu encourages l’initiative. Ton management repose sur la vision et l’énergie collective. Cependant, tu peux parfois manquer de suivi ou de structure. Ton défi est d’ancrer tes idées dans du concret. Ta force réside dans ta capacité à mobiliser et à faire grandir les autres.",
+      "title": "Donner une direction",
+      "description": "Ton réflexe dominant est de ramener l'équipe à un cap commun : donner du sens, mobiliser autour d'un objectif et créer l'élan. Tu es à l'aise pour embarquer les gens sur quelque chose qui les dépasse. Ce style est particulièrement efficace dans les phases de transformation ou quand la motivation collective vacille. L'enjeu est de veiller à ce que la vision soit suffisamment ancrée dans le concret pour que l'équipe sache exactement comment l'atteindre.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776775125/leader_oqikrz.jpg"
     },
     {
       "key": "structure",
-      "title": "Le Manager Structuré",
-      "description": "Tu es un manager organisé et rigoureux. Tu aimes quand les choses sont claires, planifiées et bien définies. Tu apportes de la stabilité et tu sais structurer le travail efficacement. Ton équipe sait où elle va et ce qu’elle doit faire. Tu es fiable et constant. Cependant, tu peux parfois manquer de flexibilité ou être perçu comme trop cadré. Ton défi est de laisser plus de place à l’initiative. Ta force réside dans ta capacité à organiser et à sécuriser les projets.",
+      "title": "Clarifier et organiser",
+      "description": "Ton réflexe dominant est de mettre de la clarté là où il n'y en a pas : définir les attentes, organiser le travail, fixer les priorités. Tu apportes de la stabilité et tu réduis les ambiguïtés qui freinent l'exécution. Ce style est particulièrement efficace quand les rôles ne sont pas clairs ou quand un projet doit être structuré. L'enjeu est de ne pas transformer la structure en rigidité, et de laisser suffisamment d'espace pour l'initiative.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776771826/analytic_ofwghg.jpg"
     },
     {
       "key": "coach",
-      "title": "Le Manager Coach",
-      "description": "Tu es un manager humain et attentif. Tu accordes une grande importance aux personnes, à leur évolution et à leur bien-être. Tu prends le temps d’écouter, de comprendre et d’accompagner. Ton management repose sur la confiance et le développement individuel. Tu aides les autres à progresser et à gagner en autonomie. Cependant, tu peux parfois éviter les conflits ou manquer de fermeté. Ton défi est d’assumer pleinement ton rôle de décision. Ta force réside dans ta capacité à faire grandir les autres.",
+      "title": "Développer les personnes",
+      "description": "Ton réflexe dominant est de partir des personnes : comprendre ce qu'elles vivent, ce qui les freine, ce dont elles ont besoin pour progresser. Tu investis du temps dans les individus plutôt que dans les processus. Ce style est particulièrement efficace pour faire monter en compétence ou fidéliser des talents. L'enjeu est de ne pas laisser l'accompagnement individuel retarder des décisions qui nécessitent plus de fermeté ou de rapidité.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776947515/coach_ug28fy.jpg"
     },
     {
       "key": "exigeant",
-      "title": "Le Manager Exigeant",
-      "description": "Tu es un manager orienté performance. Tu attends des résultats et tu pousses ton équipe à se dépasser. Tu es direct, efficace et tu n’as pas peur de dire les choses. Tu es souvent très impliqué et tu veux que les choses avancent vite. Cette exigence peut tirer ton équipe vers le haut. Cependant, elle peut aussi créer de la pression ou de la distance. Ton défi est d’équilibrer exigence et reconnaissance. Ta force réside dans ta capacité à obtenir des résultats et à maintenir un haut niveau d’exigence.",
+      "title": "Maintenir un haut niveau d'exigence",
+      "description": "Ton réflexe dominant est de maintenir un niveau d'attente clair et de ne pas le baisser face à la difficulté. Tu formules précisément ce qui est attendu, tu pointes ce qui n'est pas au niveau et tu cherches comment retrouver la performance. Ce style tire les équipes vers le haut dans les contextes où les standards comptent. L'enjeu est de faire en sorte que l'exigence soit perçue comme un standard partagé plutôt que comme une pression descendante.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776947684/exigent_pea8k7.jpg"
     },
     {
       "key": "adaptatif",
-      "title": "Le Manager Adaptatif",
-      "description": "Tu es un manager flexible et intelligent dans ta manière de diriger. Tu sais t’adapter aux personnes, aux situations et aux enjeux. Tu n’as pas un seul style, tu ajustes ton approche selon le contexte. Cette capacité te rend très efficace dans des environnements changeants. Tu sais quand être direct, quand écouter et quand laisser de l’autonomie. Cependant, tu peux parfois manquer de ligne claire ou hésiter. Ton défi est de renforcer ta cohérence. Ta force réside dans ton adaptabilité et ta lecture des situations.",
+      "title": "Ajuster selon la situation",
+      "description": "Ton réflexe dominant est de diagnostiquer avant d'intervenir : tu cherches d'abord à comprendre ce qui se passe — la cause, le contexte, la personne — avant de choisir ton mode d'action. Ce style est particulièrement utile dans des équipes hétérogènes ou des environnements changeants. L'enjeu est de veiller à ce que cette souplesse reste lisible pour l'équipe : un management trop variable peut être perçu comme imprévisible si les critères qui guident les décisions ne sont pas explicites.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776947616/adaptatif_eeiy7v.jpg"
     }
   ],
   "questions": [
     {
       "id": "1",
-      "question": "Un collaborateur ne respecte pas une échéance importante. Tu réagis comment ?",
+      "question": "Un collaborateur habituellement fiable rate une échéance importante sans t'avoir prévenu. Le projet est maintenant en difficulté. Que fais-tu d'abord ?",
       "answers": [
-        { "label": "Je cherche à comprendre avant de réagir", "scores": { "coach": 3, "adaptatif": 1 } },
-        { "label": "Je rappelle clairement les attentes", "scores": { "exigeant": 3 } },
-        { "label": "Je recadre et réorganise le travail", "scores": { "structure": 3 } },
-        { "label": "Je motive pour repartir sur de bonnes bases", "scores": { "leader": 3 } },
-        { "label": "Je m’adapte selon la situation", "scores": { "adaptatif": 3 } }
+        {
+          "label": "Je clarifie immédiatement ce qui doit être fait maintenant pour limiter l'impact sur le projet",
+          "scores": {
+            "structure": 2,
+            "exigeant": 1
+          }
+        },
+        {
+          "label": "Je lui rappelle clairement que prévenir fait partie de ce qu'on attend, puis on construit un plan pour rattraper",
+          "scores": {
+            "exigeant": 2,
+            "structure": 1
+          }
+        },
+        {
+          "label": "Je cherche d'abord si le problème vient de la personne, de la charge ou d'une ambiguïté dans l'organisation avant de décider comment réagir",
+          "scores": {
+            "adaptatif": 2,
+            "coach": 1
+          }
+        },
+        {
+          "label": "Je comprends d'abord ce qui s'est passé — quelque chose a changé pour que cette personne ne me prévienne pas",
+          "scores": {
+            "coach": 2,
+            "adaptatif": 1
+          }
+        }
       ]
     },
     {
       "id": "2",
-      "question": "Ton rôle principal en tant que manager…",
+      "question": "Une personne très performante de ton équipe te dit qu'elle se sent trop encadrée et voudrait davantage de liberté. Comment tu réagis ?",
       "answers": [
-        { "label": "Donner une vision", "scores": { "leader": 3 } },
-        { "label": "Organiser le travail", "scores": { "structure": 3 } },
-        { "label": "Accompagner les personnes", "scores": { "coach": 3 } },
-        { "label": "Obtenir des résultats", "scores": { "exigeant": 3 } },
-        { "label": "S’adapter aux situations", "scores": { "adaptatif": 3 } }
+        {
+          "label": "Je redéfinis avec elle les domaines où elle peut agir pleinement en autonomie et ceux qui nécessitent encore une coordination",
+          "scores": {
+            "structure": 2,
+            "adaptatif": 1
+          }
+        },
+        {
+          "label": "Je prends le temps de comprendre ce qu'elle vit concrètement avant de modifier quoi que ce soit",
+          "scores": {
+            "coach": 2,
+            "adaptatif": 1
+          }
+        },
+        {
+          "label": "Je lui accorde plus d'espace — une personne performante a généralement besoin qu'on la laisse faire",
+          "scores": {
+            "coach": 2,
+            "leader": 1
+          }
+        },
+        {
+          "label": "Je lui propose un niveau d'autonomie qui évolue en fonction de ce qu'elle démontre",
+          "scores": {
+            "exigeant": 2,
+            "structure": 1
+          }
+        }
       ]
     },
     {
       "id": "3",
-      "question": "Dans une équipe, tu valorises surtout…",
+      "question": "Un membre de ton équipe est très investi, mais son travail reste régulièrement en dessous du niveau attendu. Comment tu gères la situation ?",
       "answers": [
-        { "label": "L’engagement", "scores": { "leader": 3 } },
-        { "label": "La rigueur", "scores": { "structure": 3 } },
-        { "label": "L’évolution personnelle", "scores": { "coach": 3 } },
-        { "label": "La performance", "scores": { "exigeant": 3 } },
-        { "label": "La capacité d’adaptation", "scores": { "adaptatif": 3 } }
+        {
+          "label": "Je travaille avec lui pour comprendre ce qui bloque et je construis un plan d'accompagnement adapté",
+          "scores": {
+            "coach": 3
+          }
+        },
+        {
+          "label": "Je lui donne un retour précis sur ce qui n'est pas au niveau et je fixe des jalons clairs pour mesurer la progression",
+          "scores": {
+            "exigeant": 3
+          }
+        },
+        {
+          "label": "J'ajuste ses responsabilités vers des domaines où son investissement produira vraiment ce qu'on attend",
+          "scores": {
+            "adaptatif": 2,
+            "structure": 1
+          }
+        },
+        {
+          "label": "Je lui explique pourquoi le niveau actuel ne correspond pas à ce dont l'équipe a besoin et ce que ça implique",
+          "scores": {
+            "leader": 2,
+            "exigeant": 1
+          }
+        }
       ]
     },
     {
       "id": "4",
-      "question": "Quand il faut prendre une décision difficile…",
+      "question": "Tu dois annoncer une décision nécessaire pour le projet, mais tu sais qu'elle sera mal accueillie par une partie de l'équipe. Que fais-tu ?",
       "answers": [
-        { "label": "Je réfléchis à l’impact global", "scores": { "leader": 3 } },
-        { "label": "Je m’appuie sur des faits", "scores": { "structure": 3 } },
-        { "label": "Je prends en compte les personnes", "scores": { "coach": 3 } },
-        { "label": "Je tranche rapidement", "scores": { "exigeant": 3 } },
-        { "label": "J’adapte selon le contexte", "scores": { "adaptatif": 3 } }
+        {
+          "label": "J'explique le raisonnement derrière la décision et je relie ça à ce que l'équipe cherche à accomplir ensemble",
+          "scores": {
+            "leader": 3
+          }
+        },
+        {
+          "label": "J'annonce la décision clairement, j'explique ce qu'elle change concrètement et je laisse de la place pour les questions",
+          "scores": {
+            "structure": 2,
+            "exigeant": 1
+          }
+        },
+        {
+          "label": "Je prends le temps d'entendre les réactions et j'accompagne les personnes les plus impactées",
+          "scores": {
+            "coach": 2,
+            "leader": 1
+          }
+        },
+        {
+          "label": "J'assume la décision et je demande à chacun de s'y engager, tout en restant disponible pour en parler individuellement",
+          "scores": {
+            "exigeant": 2,
+            "coach": 1
+          }
+        }
       ]
     },
     {
       "id": "5",
-      "question": "Face à une équipe démotivée…",
+      "question": "Tu prends la responsabilité d'une équipe expérimentée qui connaît son métier mieux que toi sur plusieurs sujets. Comment tu te positionnes ?",
       "answers": [
-        { "label": "Je redonne du sens", "scores": { "leader": 3 } },
-        { "label": "Je réorganise", "scores": { "structure": 3 } },
-        { "label": "Je prends le temps d’écouter", "scores": { "coach": 3 } },
-        { "label": "Je remets de la pression", "scores": { "exigeant": 3 } },
-        { "label": "Je change d’approche", "scores": { "adaptatif": 3 } }
+        {
+          "label": "Je prends le temps de comprendre ce que chacun fait, ce qui les motive et comment ils fonctionnent ensemble avant d'intervenir",
+          "scores": {
+            "coach": 2,
+            "adaptatif": 1
+          }
+        },
+        {
+          "label": "Je fixe le cap et les standards attendus — mon rôle n'est pas d'être le meilleur techniquement, mais de maintenir le niveau de l'ensemble",
+          "scores": {
+            "exigeant": 2,
+            "leader": 1
+          }
+        },
+        {
+          "label": "Je clarifie les attentes, les rôles et les critères de décision pour que tout le monde sache comment fonctionne le collectif",
+          "scores": {
+            "structure": 3
+          }
+        },
+        {
+          "label": "Je m'appuie sur leur expertise et je crée les conditions pour qu'ils travaillent ensemble efficacement",
+          "scores": {
+            "leader": 2,
+            "adaptatif": 1
+          }
+        }
       ]
     },
     {
       "id": "6",
-      "question": "Tu préfères une équipe…",
+      "question": "Les résultats de ton équipe baissent depuis deux mois, mais aucune cause évidente ne ressort. Par où commences-tu ?",
       "answers": [
-        { "label": "Engagée et motivée", "scores": { "leader": 3 } },
-        { "label": "Organisée", "scores": { "structure": 3 } },
-        { "label": "Solidaire", "scores": { "coach": 3 } },
-        { "label": "Performante", "scores": { "exigeant": 3 } },
-        { "label": "Flexible", "scores": { "adaptatif": 3 } }
+        {
+          "label": "Je remets clairement les standards en place et je demande un effort collectif pour retrouver le niveau attendu",
+          "scores": {
+            "exigeant": 2,
+            "leader": 1
+          }
+        },
+        {
+          "label": "Je parle individuellement avec chaque membre pour comprendre ce qu'ils vivent et ce qui a changé pour eux",
+          "scores": {
+            "coach": 3
+          }
+        },
+        {
+          "label": "Je remets l'objectif au centre — parfois une baisse de résultats vient d'un manque de clarté sur ce vers quoi on va",
+          "scores": {
+            "leader": 2,
+            "structure": 1
+          }
+        },
+        {
+          "label": "J'analyse le système : processus, charge, répartition du travail, points de friction — avant de tirer des conclusions sur les personnes",
+          "scores": {
+            "adaptatif": 3
+          }
+        }
       ]
     },
     {
       "id": "7",
-      "question": "Ton style naturel…",
+      "question": "Deux personnes très performantes de ton équipe sont en conflit et leur relation commence à affecter le reste du groupe. Que fais-tu ?",
       "answers": [
-        { "label": "Inspirer", "scores": { "leader": 3 } },
-        { "label": "Structurer", "scores": { "structure": 3 } },
-        { "label": "Accompagner", "scores": { "coach": 3 } },
-        { "label": "Exiger", "scores": { "exigeant": 3 } },
-        { "label": "Adapter", "scores": { "adaptatif": 3 } }
+        {
+          "label": "Je les rencontre séparément d'abord pour comprendre la situation de chacun avant de décider comment intervenir",
+          "scores": {
+            "coach": 2,
+            "adaptatif": 1
+          }
+        },
+        {
+          "label": "Je pose un cadre clair : ce qui est acceptable, ce qui ne l'est pas et ce qui se passe si ça continue",
+          "scores": {
+            "exigeant": 2,
+            "structure": 1
+          }
+        },
+        {
+          "label": "Je les réunis pour leur rappeler l'objectif commun et ce que leur conflit coûte à l'ensemble",
+          "scores": {
+            "leader": 2,
+            "exigeant": 1
+          }
+        },
+        {
+          "label": "Je clarifie les responsabilités et les interfaces entre eux pour réduire les points de friction structurels",
+          "scores": {
+            "structure": 2,
+            "adaptatif": 1
+          }
+        }
       ]
     },
     {
       "id": "8",
-      "question": "Ce qui te définit le mieux…",
+      "question": "Un membre de ton équipe prend seul une décision qui provoque une erreur coûteuse. Son raisonnement était défendable avec les informations dont il disposait. Comment tu réagis ?",
       "answers": [
-        { "label": "Vision", "scores": { "leader": 3 } },
-        { "label": "Organisation", "scores": { "structure": 3 } },
-        { "label": "Humain", "scores": { "coach": 3 } },
-        { "label": "Résultat", "scores": { "exigeant": 3 } },
-        { "label": "Flexibilité", "scores": { "adaptatif": 3 } }
+        {
+          "label": "Je clarifie quelles décisions peuvent être prises seul et lesquelles doivent être remontées, pour éviter que ça se reproduise",
+          "scores": {
+            "structure": 2,
+            "exigeant": 1
+          }
+        },
+        {
+          "label": "Je reviens avec lui sur son raisonnement pour comprendre où la décision a dérapé et ce qu'il ferait différemment",
+          "scores": {
+            "coach": 2,
+            "structure": 1
+          }
+        },
+        {
+          "label": "J'assume l'erreur avec l'équipe mais je rappelle clairement que l'autonomie implique de rendre compte des décisions importantes",
+          "scores": {
+            "exigeant": 2,
+            "leader": 1
+          }
+        },
+        {
+          "label": "Je regarde si le problème vient de la personne, du niveau d'autonomie accordé ou d'un manque d'information avant de modifier quoi que ce soit",
+          "scores": {
+            "adaptatif": 3
+          }
+        }
       ]
     },
     {
       "id": "9",
-      "question": "Dans un conflit…",
+      "question": "À quelques jours d'une échéance importante, tu réalises que l'équipe ne pourra pas tout terminer au niveau prévu. Que se passe-t-il ?",
       "answers": [
-        { "label": "Je cherche à rassembler", "scores": { "leader": 3 } },
-        { "label": "Je pose un cadre", "scores": { "structure": 3 } },
-        { "label": "J’écoute les deux parties", "scores": { "coach": 3 } },
-        { "label": "Je tranche", "scores": { "exigeant": 3 } },
-        { "label": "J’ajuste selon les personnes", "scores": { "adaptatif": 3 } }
+        {
+          "label": "Je remobilise l'équipe sur l'essentiel — ce qui compte vraiment pour l'échéance et pourquoi ça mérite l'effort final",
+          "scores": {
+            "leader": 3
+          }
+        },
+        {
+          "label": "Je revois le plan avec l'équipe : on priorise ce qui doit être livré, on reporte le reste et on clarifie ce qui sera dans le livrable",
+          "scores": {
+            "structure": 2,
+            "adaptatif": 1
+          }
+        },
+        {
+          "label": "Je maintiens le périmètre prévu et je cherche avec l'équipe comment trouver les ressources ou le temps nécessaires",
+          "scores": {
+            "exigeant": 2,
+            "leader": 1
+          }
+        },
+        {
+          "label": "Je prends le pouls de l'équipe : si la charge est réelle, je négocie le périmètre ; si c'est une question d'organisation, on ajuste",
+          "scores": {
+            "adaptatif": 2,
+            "coach": 1
+          }
+        }
       ]
     },
     {
       "id": "10",
-      "question": "Ton objectif principal…",
+      "question": "Ton équipe vient de réussir un projet particulièrement difficile. Que fais-tu dans les jours qui suivent ?",
       "answers": [
-        { "label": "Inspirer", "scores": { "leader": 3 } },
-        { "label": "Structurer", "scores": { "structure": 3 } },
-        { "label": "Faire grandir", "scores": { "coach": 3 } },
-        { "label": "Performancer", "scores": { "exigeant": 3 } },
-        { "label": "S’adapter", "scores": { "adaptatif": 3 } }
+        {
+          "label": "Je fixe rapidement la prochaine étape ambitieuse — une réussite est le bon moment pour élever le niveau d'ambition",
+          "scores": {
+            "exigeant": 2,
+            "leader": 1
+          }
+        },
+        {
+          "label": "Je mets en valeur ce que l'équipe a accompli et ce que ça dit de ce dont elle est capable ensemble",
+          "scores": {
+            "leader": 3
+          }
+        },
+        {
+          "label": "Je fais un bilan structuré de ce qui a fonctionné et de ce qu'on peut reproduire ou améliorer la prochaine fois",
+          "scores": {
+            "structure": 2,
+            "coach": 1
+          }
+        },
+        {
+          "label": "Je prends le temps de reconnaître la progression individuelle de chacun — pas seulement le résultat collectif",
+          "scores": {
+            "coach": 3
+          }
+        }
       ]
     }
   ]
