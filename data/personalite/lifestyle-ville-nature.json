@@ -2,12 +2,12 @@
   "slug": "test-ville-ou-nature",
   "title": "Test lifestyle - Ville ou nature, que te faut-il vraiment ?",
   "description": "Ville ou nature : où te sens-tu vraiment à ta place ?",
-  "descriptionSeo": "Rythme de vie, environnement, énergie… ce test révèle si tu es fait(e) pour la vie urbaine, la nature ou un équilibre entre les deux. À travers des situations concrètes, découvre l’environnement qui correspond vraiment à ta personnalité.",
+  "descriptionSeo": "Ville ou nature : quel environnement correspond le mieux à ton mode de vie ? À travers dix situations concrètes sur ton logement, tes sorties, ton besoin de calme, l'accessibilité et ton rythme quotidien, découvre si tu t'épanouis davantage dans un environnement urbain, proche de la nature ou dans un équilibre entre les deux. Un test lifestyle pour explorer le cadre de vie qui semble le mieux correspondre à tes préférences.",
   "category": {
     "name": "Lifestyle",
     "slug": "lifestyle"
   },
-  "createdAt": "2026-04-27",
+  "createdAt": "2026-09-22",
   "isNew": true,
   "isPopular": true,
   "images": {
@@ -19,112 +19,202 @@
     {
       "key": "ville",
       "title": "Ville",
-      "description": "Tu es clairement fait(e) pour la vie urbaine. Tu aimes le mouvement, l’énergie, les opportunités et le fait que tout soit accessible rapidement. Les cafés, les sorties, les gens, l’ambiance… tout ça te stimule. Tu te sens vivant(e) dans un environnement dynamique, même si c’est parfois bruyant ou intense. Tu as besoin d’activités, de contacts et de variété dans ton quotidien. Le calme absolu peut vite te lasser. Pour toi, la ville n’est pas stressante : elle est stimulante. C’est là que tu te sens le plus connecté(e) au monde.",
+      "description": "Tu sembles apprécier les environnements où beaucoup de choses sont accessibles autour de toi. Pouvoir sortir spontanément, découvrir un lieu, voir du monde ou changer facilement de programme participe à ton confort quotidien. Le mouvement autour de toi ne te dérange pas forcément : il peut même donner une impression d'énergie et de possibilités. Cela ne signifie pas que tu apprécies le bruit ou la foule en permanence, mais qu'un environnement trop isolé pourrait finir par te donner l'impression qu'il manque quelque chose.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777297024/newyork_h9flfd.jpg"
     },
     {
       "key": "equilibre",
       "title": "Entre ville et nature",
-      "description": "Tu es quelqu’un d’équilibré. Tu apprécies l’énergie de la ville, mais tu as aussi besoin de moments de calme et de nature pour te ressourcer. Tu peux vivre en ville à condition de pouvoir t’échapper régulièrement. Tu aimes avoir le choix : sortir quand tu veux, mais aussi te poser quand tu en as besoin. Tu n’es pas extrême dans tes préférences. Ton idéal, c’est un mode de vie flexible qui combine stimulation et tranquillité. Tu cherches un équilibre entre activité et repos.",
+      "description": "Ton environnement idéal semble surtout être celui qui te permet de changer de rythme facilement. Tu apprécies d'avoir des activités, des services et de la vie autour de toi, mais tu as aussi besoin de pouvoir retrouver régulièrement de l'espace et du calme. Tu ne recherches donc pas nécessairement un compromis permanent : tu apprécies plutôt l'alternance. Une période animée peut te faire du bien, puis te donner envie de respirer ailleurs avant de retrouver cette énergie.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776775562/balanced_bukayi.jpg"
     },
     {
       "key": "nature",
       "title": "Nature",
-      "description": "Tu es profondément attiré(e) par le calme, l’espace et la simplicité. Tu te sens mieux loin du bruit, de la foule et du rythme intense des villes. La nature t’apaise, te recharge et te permet de te reconnecter à toi-même. Tu préfères les environnements simples, authentiques et moins stimulants visuellement ou socialement. Tu n’as pas besoin de beaucoup pour te sentir bien, tant que tu as de la tranquillité. Pour toi, le vrai luxe, c’est le silence, l’air pur et le temps qui ralentit.",
+      "description": "Tu sembles particulièrement sensible à l'espace, au calme et à la possibilité d'évoluer dans un environnement peu chargé. Avoir moins de choses immédiatement accessibles ne te dérange pas forcément si cela t'apporte davantage de tranquillité au quotidien. Tu peux apprécier ponctuellement l'énergie d'un environnement urbain sans avoir envie d'y rester constamment. Pour toi, le cadre dans lequel tu vis semble jouer un rôle important dans ta capacité à ralentir et à retrouver ton propre rythme.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777299733/simple-life_pgal2h.jpg"
     }
   ],
-"questions": [
-  {
-    "id": "1",
-    "question": "Tu sors de chez toi, il est 18h…",
-    "answers": [
-      { "label": "J’aime voir les rues pleines et animées", "scores": { "ville": 3 } },
-      { "label": "Ça dépend de mon humeur", "scores": { "equilibre": 3 } },
-      { "label": "Je préfère le calme et peu de monde", "scores": { "nature": 3 } }
-    ]
-  },
-  {
-    "id": "2",
-    "question": "Ton voisin fait du bruit presque tous les soirs…",
-    "answers": [
-      { "label": "Je m’y habitue", "scores": { "ville": 3 } },
-      { "label": "Ça dépend des jours", "scores": { "equilibre": 3 } },
-      { "label": "Ça me rend fou/folle", "scores": { "nature": 3 } }
-    ]
-  },
-  {
-    "id": "3",
-    "question": "Tu dois marcher 20 minutes pour acheter un truc…",
-    "answers": [
-      { "label": "Trop long, je veux tout à côté", "scores": { "ville": 3 } },
-      { "label": "Ça va si c’est occasionnel", "scores": { "equilibre": 3 } },
-      { "label": "Ça ne me dérange pas du tout", "scores": { "nature": 3 } }
-    ]
-  },
-  {
-    "id": "4",
-    "question": "Tu passes une journée sans voir personne…",
-    "answers": [
-      { "label": "Ça me pèse vite", "scores": { "ville": 3 } },
-      { "label": "Ça dépend du moment", "scores": { "equilibre": 3 } },
-      { "label": "Ça me fait du bien", "scores": { "nature": 3 } }
-    ]
-  },
-  {
-    "id": "5",
-    "question": "Tu entends des voitures, sirènes, bruit constant…",
-    "answers": [
-      { "label": "C’est normal pour moi", "scores": { "ville": 3 } },
-      { "label": "Je tolère mais pas tout le temps", "scores": { "equilibre": 3 } },
-      { "label": "Ça m’épuise rapidement", "scores": { "nature": 3 } }
-    ]
-  },
-  {
-    "id": "6",
-    "question": "Ton dimanche idéal…",
-    "answers": [
-      { "label": "Brunch + balade en ville", "scores": { "ville": 3 } },
-      { "label": "Un peu des deux", "scores": { "equilibre": 3 } },
-      { "label": "Nature, silence, extérieur", "scores": { "nature": 3 } }
-    ]
-  },
-  {
-    "id": "7",
-    "question": "Tu dois prendre les transports bondés…",
-    "answers": [
-      { "label": "Je gère", "scores": { "ville": 3 } },
-      { "label": "Ça dépend de mon mood", "scores": { "equilibre": 3 } },
-      { "label": "Je déteste ça", "scores": { "nature": 3 } }
-    ]
-  },
-  {
-    "id": "8",
-    "question": "Tu regardes par la fenêtre chez toi…",
-    "answers": [
-      { "label": "J’aime voir du mouvement", "scores": { "ville": 3 } },
-      { "label": "Peu importe", "scores": { "equilibre": 3 } },
-      { "label": "Je veux du calme / de la verdure", "scores": { "nature": 3 } }
-    ]
-  },
-  {
-    "id": "9",
-    "question": "Tu dois choisir entre deux logements…",
-    "answers": [
-      { "label": "Petit mais en plein centre", "scores": { "ville": 3 } },
-      { "label": "Moyen, bien situé", "scores": { "equilibre": 3 } },
-      { "label": "Grand mais isolé", "scores": { "nature": 3 } }
-    ]
-  },
-  {
-    "id": "10",
-    "question": "Après une journée chargée…",
-    "answers": [
-      { "label": "J’ai encore envie de voir du monde", "scores": { "ville": 3 } },
-      { "label": "Je fais selon mon énergie", "scores": { "equilibre": 3 } },
-      { "label": "Je veux juste du silence", "scores": { "nature": 3 } }
-    ]
-  }
-]
+  "questions": [
+    {
+      "id": "1",
+      "question": "Deux logements coûtent exactement le même prix. Lequel t'attire spontanément ?",
+      "answers": [
+        {
+          "label": "Plus petit, mais je peux faire énormément de choses à pied et improviser facilement mes journées.",
+          "scores": { "ville": 3 }
+        },
+        {
+          "label": "Dans un quartier assez vivant pour avoir ce dont j'ai besoin, mais avec un accès rapide à des espaces plus tranquilles.",
+          "scores": { "equilibre": 3 }
+        },
+        {
+          "label": "Plus éloigné, mais avec davantage d'espace, moins de passage et un environnement beaucoup plus calme.",
+          "scores": { "nature": 3 }
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "question": "Tu n'as rien prévu ce week-end et aucune obligation. Qu'est-ce qui finit généralement par te donner envie ?",
+      "answers": [
+        {
+          "label": "Faire quelque chose d'animé à un moment du week-end, tout en gardant aussi une vraie plage plus calme.",
+          "scores": { "equilibre": 3 }
+        },
+        {
+          "label": "Aller quelque part où je peux marcher, respirer et passer plusieurs heures loin de l'agitation.",
+          "scores": { "nature": 3 }
+        },
+        {
+          "label": "Aller voir ce qui se passe quelque part, découvrir une adresse ou profiter d'une activité disponible au dernier moment.",
+          "scores": { "ville": 3 }
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "question": "Tu passes une semaine dans un endroit magnifique mais assez isolé. Après quelques jours, que remarques-tu ?",
+      "answers": [
+        {
+          "label": "Je pourrais facilement prolonger : ce rythme me convient très bien.",
+          "scores": { "nature": 3 }
+        },
+        {
+          "label": "Le cadre me plaît, mais l'envie d'avoir davantage de choses à faire ou de mouvement commence à revenir.",
+          "scores": { "ville": 3 }
+        },
+        {
+          "label": "J'apprécie vraiment cette coupure, mais je sais aussi que je serai content(e) de retrouver ensuite davantage d'animation.",
+          "scores": { "equilibre": 3 }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "question": "Tu passes une semaine en plein centre d'une grande ville animée. Comment tu vis ça ?",
+      "answers": [
+        {
+          "label": "J'en profite beaucoup, à condition de pouvoir aussi m'accorder quelques moments plus calmes.",
+          "scores": { "equilibre": 3 }
+        },
+        {
+          "label": "J'apprécie certaines choses, mais au bout d'un moment j'ai vraiment besoin de sortir de cette densité.",
+          "scores": { "nature": 3 }
+        },
+        {
+          "label": "J'aime pouvoir décider de faire quelque chose presque à n'importe quel moment.",
+          "scores": { "ville": 3 }
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "question": "Il te manque quelque chose dont tu as besoin et le magasin le plus proche est à vingt minutes. Comment tu vis ça ?",
+      "answers": [
+        {
+          "label": "Ça me rappelle vite à quel point j'aime pouvoir trouver presque tout à quelques minutes.",
+          "scores": { "ville": 3 }
+        },
+        {
+          "label": "Ça ne me dérange pas vraiment : je préfère m'organiser différemment si le cadre de vie en vaut la peine.",
+          "scores": { "nature": 3 }
+        },
+        {
+          "label": "Au quotidien, j'aime avoir l'essentiel assez proche, sans avoir besoin que tout soit immédiatement accessible.",
+          "scores": { "equilibre": 2, "ville": 1 }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "question": "Après plusieurs heures dans un endroit très animé, comment te sens-tu généralement en rentrant chez toi ?",
+      "answers": [
+        {
+          "label": "Si j'ai passé un bon moment, cette énergie peut au contraire me donner envie de prolonger.",
+          "scores": { "ville": 3 }
+        },
+        {
+          "label": "J'ai vraiment besoin de retrouver du calme et moins de stimulation.",
+          "scores": { "nature": 3 }
+        },
+        {
+          "label": "J'apprécie l'animation, mais j'aime généralement qu'elle soit suivie d'un moment beaucoup plus tranquille.",
+          "scores": { "equilibre": 3 }
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "question": "Tu cherches un quartier pour t'installer. Qu'est-ce qui compte le plus dans ton choix ?",
+      "answers": [
+        {
+          "label": "Pouvoir accéder facilement à des endroits animés comme à des espaces plus calmes, selon ce dont j'ai envie.",
+          "scores": { "equilibre": 3 }
+        },
+        {
+          "label": "Avoir beaucoup d'options autour de moi : restaurants, commerces, lieux animés, choses à faire.",
+          "scores": { "ville": 3 }
+        },
+        {
+          "label": "Être dans un environnement peu dense, avec peu de passage et le plus de calme possible.",
+          "scores": { "nature": 3 }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "question": "Si tu devais choisir, quel compromis te semblerait le plus acceptable ?",
+      "answers": [
+        {
+          "label": "Avoir moins d'espace chez moi si énormément de choses sont accessibles autour.",
+          "scores": { "ville": 3 }
+        },
+        {
+          "label": "Renoncer à être parfaitement au centre comme parfaitement isolé(e), pour garder un accès raisonnable aux deux.",
+          "scores": { "equilibre": 3 }
+        },
+        {
+          "label": "Faire davantage de trajet si je peux vivre dans un environnement beaucoup plus calme.",
+          "scores": { "nature": 3 }
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "question": "Tu imagines des vacances vraiment ressourçantes. Vers quel environnement tu te tournes spontanément ?",
+      "answers": [
+        {
+          "label": "Un endroit animé avec beaucoup à explorer, découvrir et vivre au quotidien.",
+          "scores": { "ville": 3 }
+        },
+        {
+          "label": "Un endroit calme et naturel, loin du bruit, avec le moins de stimulations possible.",
+          "scores": { "nature": 3 }
+        },
+        {
+          "label": "Un endroit qui combine un peu d'animation et des espaces tranquilles selon les jours.",
+          "scores": { "equilibre": 3 }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "question": "Dans quelques années, tu t'imagines vivre dans quel cadre de vie idéal ?",
+      "answers": [
+        {
+          "label": "Dans un endroit qui me permet de profiter facilement de l'animation quand j'en ai envie et de retrouver du calme quand j'en ai besoin.",
+          "scores": { "equilibre": 3 }
+        },
+        {
+          "label": "Dans un endroit vivant, avec beaucoup de choses à proximité et une vraie énergie autour de moi.",
+          "scores": { "ville": 3 }
+        },
+        {
+          "label": "Dans un endroit calme et espacé, même si cela implique d'être un peu plus loin de tout.",
+          "scores": { "nature": 3 }
+        }
+      ]
+    }
+  ]
 }

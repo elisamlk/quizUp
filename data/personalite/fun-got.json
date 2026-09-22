@@ -2,12 +2,12 @@
   "slug": "test-quel-personnage-de-game-of-thrones-es-tu",
   "title": "Test fun - Quel personnage de Game of Thrones es-tu ?",
   "description": "Découvre quel personnage de Game of Thrones correspond vraiment à ta personnalité.",
-  "descriptionSeo": "À travers tes choix, tes valeurs et ta manière de gérer le pouvoir, ce test révèle quel personnage de Game of Thrones te correspond vraiment. Es-tu stratégique comme Tyrion, courageux comme Jon Snow, déterminé comme Daenerys, manipulateur comme Littlefinger, loyal comme Ned Stark ou imprévisible comme Arya ? Un test immersif pour découvrir ton alter ego dans l’univers impitoyable de Westeros.",
+  "descriptionSeo": "Jon Snow, Daenerys Targaryen, Tyrion Lannister, Arya Stark, Cersei Lannister ou Ned Stark : quel personnage de Game of Thrones te ressemble le plus ? À travers dix situations où se mêlent décisions, pouvoir, loyauté et dilemmes, découvre comment tu réagis quand les enjeux deviennent sérieux. Réponds spontanément et découvre quel personnage de Westeros symbolise le mieux certaines facettes de ta personnalité.",
   "category": {
     "name": "Fun",
     "slug": "fun"
   },
-  "createdAt": "2026-04-27",
+  "createdAt": "2026-09-22",
   "isNew": true,
   "isPopular": true,
   "images": {
@@ -15,163 +15,263 @@
     "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777279940/got_kweoqc.jpg",
     "alt": "Test personnage Game of Thrones"
   },
-   "profiles": [
+  "profiles": [
     {
       "key": "jon",
       "title": "Jon Snow",
-      "description": "Tu es une personne profondément loyale, guidée par un sens de l’honneur presque inébranlable. Tu prends souvent des décisions difficiles, même quand elles te coûtent personnellement, car tu privilégies toujours ce que tu estimes juste. Tu n’es pas attiré(e) par le pouvoir ou la reconnaissance, mais tu te retrouves souvent dans des positions de responsabilité parce que les autres te font confiance. Tu es courageux(se), parfois même au point de te mettre en danger pour protéger ceux que tu aimes. Tu peux sembler réservé(e), mais derrière cette retenue se cache une grande sensibilité et une forte capacité d’attachement. Tu crois en des valeurs simples mais solides, et tu refuses de les trahir, même sous pression. Tu es quelqu’un sur qui on peut compter, peu importe la situation.",
+      "description": "Quand quelqu'un a besoin d'aide, tu agis — même sans y avoir été invité, même sans certitude sur l'issue. Tu n'es pas particulièrement attiré(e) par les responsabilités, mais tu les assumes quand personne d'autre ne le fait. Ce qui t'anime, c'est moins la conviction d'avoir raison que le besoin de ne pas laisser les autres sans réponse. Ton point d'attention : tu peux finir par porter bien plus que ta part, sans forcément le dire.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777280543/jon_td6pqh.jpg"
     },
     {
       "key": "daenerys",
       "title": "Daenerys Targaryen",
-      "description": "Tu es animé(e) par une ambition forte et une volonté profonde de changer les choses. Tu ne te contentes pas de suivre le système : tu veux le transformer. Tu as une vision claire de ce que devrait être le monde, et tu es prêt(e) à te battre pour y arriver. Tu inspires les autres par ta détermination et ton charisme naturel. Tu es capable de prendre des décisions radicales, surtout quand tu penses agir pour une cause juste. Cependant, ton intensité peut parfois te rendre imprévisible ou inflexible. Tu ressens les choses avec force, et cela alimente à la fois ta puissance et tes excès. Tu es quelqu’un qui marque les esprits, qui ne passe jamais inaperçu(e), et qui refuse de rester dans l’ombre.",
+      "description": "Quand une situation te semble profondément injuste, réparer les détails ne te suffit pas — tu veux comprendre ce qui l'a rendue possible et changer ça à la racine. Tu as une vision claire de ce que les choses devraient être, et cette conviction te donne une énergie réelle pour embarquer les autres. Ton point d'attention : lorsque tu es persuadé(e) d'avoir raison, il peut devenir difficile d'entendre ce qui nuance ton point de vue.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777280435/daenerys_qumejj.webp"
     },
     {
       "key": "tyrion",
       "title": "Tyrion Lannister",
-      "description": "Tu es une personne brillante, lucide et dotée d’un sens aigu de l’observation. Tu comprends rapidement les dynamiques autour de toi et tu sais t’adapter avec intelligence. Là où d’autres utilisent la force, toi tu préfères la stratégie, la réflexion et parfois l’humour pour désamorcer les tensions. Tu es capable de prendre du recul, même dans les situations les plus complexes. Tu as probablement déjà dû prouver ta valeur plus d’une fois, ce qui t’a rendu(e) encore plus perspicace et résilient(e). Tu es quelqu’un de profondément humain, sensible aux injustices, même si tu le montres rarement directement. Tu sais jouer avec les règles sans forcément les suivre, et c’est ce qui fait ta force.",
+      "description": "Tu observes avant d'agir. Tu cherches à comprendre ce que chacun veut vraiment, comment les choses fonctionnent en coulisses, et où se trouvent les véritables marges de manœuvre. C'est rarement la solution la plus évidente qui t'attire — tu préfères celle qui tient compte de tous les paramètres. Ton point d'attention : à force d'analyser, tu peux parfois prendre plus de temps que la situation n'en laisse.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777280603/tyrion_g8pslf.jpg"
     },
     {
       "key": "arya",
       "title": "Arya Stark",
-      "description": "Tu es indépendant(e), déterminé(e) et profondément libre dans ta manière de vivre. Tu refuses de te conformer aux attentes des autres et tu avances selon tes propres règles. Tu es capable de t’adapter à n’importe quelle situation, même les plus dures, et tu développes rapidement des compétences là où il le faut. Tu observes beaucoup, tu parles peu, mais tu agis avec précision. Tu as une grande force intérieure qui te permet de surmonter les épreuves sans te perdre. Tu peux sembler distant(e), mais c’est souvent une manière de te protéger. Tu sais exactement qui tu es, et tu refuses de laisser qui que ce soit décider à ta place. Tu es imprévisible, mais toujours fidèle à toi-même.",
+      "description": "Tu t'adaptes vite, tu apprends vite, et tu n'attends pas que quelqu'un valide ton plan avant d'avancer. Quand une situation change, tu ajustes — sans te lamenter sur ce qui était prévu. Tu fais confiance à ta propre lecture des événements plus qu'aux consignes reçues. Ton point d'attention : tu peux avoir du mal à déléguer ou à demander de l'aide, même quand ce serait plus efficace.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777280838/arya_xbmyrq.webp"
     },
     {
       "key": "cersei",
       "title": "Cersei Lannister",
-      "description": "Tu es une personne ambitieuse, stratégique et extrêmement déterminée. Tu sais ce que tu veux et tu es prêt(e) à tout pour l’obtenir. Tu comprends les rapports de pouvoir et tu sais les utiliser à ton avantage. Tu fais rarement confiance, ce qui te rend à la fois prudent(e) et redoutable. Tu protèges farouchement ce qui t’appartient, que ce soit tes proches, tes idées ou ta position. Tu es capable de garder ton sang-froid dans les situations les plus tendues et de planifier sur le long terme. Ton intelligence est souvent sous-estimée, mais tu sais exactement comment retourner une situation à ton avantage. Tu peux être perçu(e) comme dur(e), mais c’est aussi ce qui te rend si difficile à atteindre.",
+      "description": "Tu lis bien les rapports de force, tu sais qui détient réellement le pouvoir dans une pièce, et tu veilles à ne pas te retrouver dans une position où tu dépendrais entièrement des autres. Protéger ce qui compte pour toi passe par garder la main sur les décisions qui t'affectent. Ton point d'attention : cette vigilance peut rendre difficile de faire vraiment confiance, même quand c'est nécessaire.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777280908/cersei_aywhkw.webp"
     },
     {
       "key": "ned",
       "title": "Ned Stark",
-      "description": "Tu es une personne profondément intègre, attachée à des valeurs fortes comme la justice, l’honnêteté et la loyauté. Tu crois en ce qui est juste, même quand cela va à l’encontre de tes intérêts personnels. Tu refuses les compromis moraux et tu assumes les conséquences de tes choix. Les autres te respectent pour ta droiture et ta constance. Tu es quelqu’un de fiable, sur qui on peut compter sans hésitation. Tu privilégies la vérité, même quand elle est difficile à entendre ou à dire. Tu n’es pas attiré(e) par les jeux de pouvoir ou la manipulation, ce qui peut parfois te rendre vulnérable dans des environnements plus complexes. Mais c’est aussi ce qui fait ta force : tu restes fidèle à toi-même, quoi qu’il arrive.",
+      "description": "Tu agis en accord avec ce que tu penses être juste — et ça ne change pas selon les circonstances ou ce que ça te coûte. Tu n'es pas indifférent(e) aux conséquences, mais tu ne laisses pas la peur des conséquences décider à ta place. Ce que tu fais doit pouvoir tenir face à tes propres principes, même quand personne ne regarde. Ton point d'attention : certains compromis nécessaires peuvent te coûter plus qu'ils ne le devraient.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777280978/ned_jlufio.jpg"
     }
   ],
   "questions": [
     {
       "id": "1",
-      "question": "Face à un conflit important…",
+      "question": "Une règle importante empêche ton groupe d'aider quelqu'un qui en a réellement besoin. Que fais-tu ?",
       "answers": [
-        { "label": "Je fais ce qui est juste", "scores": { "jon": 3 } },
-        { "label": "Je prends le pouvoir", "scores": { "daenerys": 3 } },
-        { "label": "Je réfléchis à une stratégie", "scores": { "tyrion": 3 } },
-        { "label": "Je m’adapte discrètement", "scores": { "arya": 3 } },
-        { "label": "Je manipule la situation", "scores": { "cersei": 3 } },
-        { "label": "Je reste fidèle à mes principes", "scores": { "ned": 3 } }
+        {
+          "label": "Je cherche une manière d'agir quand même — si quelqu'un a besoin d'aide, la règle ne peut pas être la seule réponse.",
+          "scores": { "jon": 3 }
+        },
+        {
+          "label": "Je vérifie pourquoi cette règle existe avant de décider si la contourner est réellement justifié.",
+          "scores": { "tyrion": 2, "ned": 1 }
+        },
+        {
+          "label": "Si je la trouve injuste, je dis clairement qu'elle doit changer — plutôt que simplement la contourner.",
+          "scores": { "daenerys": 3 }
+        },
+        {
+          "label": "Je refuse de faire quelque chose que je considère mal, même si respecter ce principe complique la situation.",
+          "scores": { "ned": 3 }
+        }
       ]
     },
     {
       "id": "2",
-      "question": "Ton plus grand point fort…",
+      "question": "Tu prends la tête d'un projet qui dysfonctionne depuis longtemps. Ton premier réflexe ?",
       "answers": [
-        { "label": "Le courage", "scores": { "jon": 3 } },
-        { "label": "L’ambition", "scores": { "daenerys": 3 } },
-        { "label": "L’intelligence", "scores": { "tyrion": 3 } },
-        { "label": "L’indépendance", "scores": { "arya": 3 } },
-        { "label": "La détermination", "scores": { "cersei": 3 } },
-        { "label": "L’intégrité", "scores": { "ned": 3 } }
+        {
+          "label": "Je remets profondément son fonctionnement en question — réparer quelques détails ne suffira pas.",
+          "scores": { "daenerys": 3 }
+        },
+        {
+          "label": "J'identifie qui décide réellement de quoi et où se trouvent les blocages réels.",
+          "scores": { "tyrion": 3 }
+        },
+        {
+          "label": "Je sécurise rapidement les décisions importantes pour éviter que la situation m'échappe.",
+          "scores": { "cersei": 3 }
+        },
+        {
+          "label": "Je regarde ce qui doit être fait immédiatement et je commence par là, même si tout le reste n'est pas encore clair.",
+          "scores": { "jon": 2, "arya": 1 }
+        }
       ]
     },
     {
       "id": "3",
-      "question": "Dans un groupe…",
+      "question": "Tu découvres que quelqu'un influence discrètement des décisions importantes dans ton groupe, sans que personne d'autre ne s'en rende compte. Comment tu réagis ?",
       "answers": [
-        { "label": "Je protège les autres", "scores": { "jon": 3 } },
-        { "label": "Je mène", "scores": { "daenerys": 3 } },
-        { "label": "Je conseille", "scores": { "tyrion": 3 } },
-        { "label": "Je reste en retrait", "scores": { "arya": 3 } },
-        { "label": "Je contrôle", "scores": { "cersei": 3 } },
-        { "label": "Je veille au respect des règles", "scores": { "ned": 3 } }
+        {
+          "label": "Je cherche à comprendre ce qu'il veut vraiment obtenir et ce que ça révèle sur la situation.",
+          "scores": { "tyrion": 3 }
+        },
+        {
+          "label": "Je m'assure que ça ne puisse pas m'affecter directement, et je garde l'information pour moi si nécessaire.",
+          "scores": { "cersei": 3 }
+        },
+        {
+          "label": "Je le signale — ce genre de chose ne devrait pas rester caché si ça impacte tout le monde.",
+          "scores": { "ned": 3 }
+        },
+        {
+          "label": "Je continue à observer sans intervenir tout de suite — agir trop vite donnerait l'avantage à la mauvaise personne.",
+          "scores": { "arya": 2, "tyrion": 1 }
+        }
       ]
     },
     {
       "id": "4",
-      "question": "Ta plus grande peur…",
+      "question": "Tu dois choisir entre une solution sûre mais insuffisante, et une option risquée qui pourrait vraiment tout changer. Que fais-tu ?",
       "answers": [
-        { "label": "Perdre ceux que j’aime", "scores": { "jon": 3 } },
-        { "label": "Ne pas accomplir mon destin", "scores": { "daenerys": 3 } },
-        { "label": "Être sous-estimé(e)", "scores": { "tyrion": 3 } },
-        { "label": "Être contrôlé(e)", "scores": { "arya": 3 } },
-        { "label": "Perdre le pouvoir", "scores": { "cersei": 3 } },
-        { "label": "Faire quelque chose d’injuste", "scores": { "ned": 3 } }
+        {
+          "label": "Je prends le risque si je suis convaincu(e) que la solution sûre ne résoudra pas le vrai problème.",
+          "scores": { "daenerys": 2, "jon": 1 }
+        },
+        {
+          "label": "Je prends le risque seulement si j'ai analysé les probabilités et que ça reste rationnel.",
+          "scores": { "tyrion": 3 }
+        },
+        {
+          "label": "Je préfère la solution sûre — une situation maîtrisée vaut mieux qu'un résultat incertain.",
+          "scores": { "cersei": 3 }
+        },
+        {
+          "label": "Je tente l'option risquée sans trop attendre — l'immobilisme n'est pas une solution.",
+          "scores": { "arya": 3 }
+        }
       ]
     },
     {
       "id": "5",
-      "question": "Quand tu prends une décision…",
+      "question": "Quelqu'un en qui tu avais confiance te trahit d'une façon significative. Quelle est ta première réaction ?",
       "answers": [
-        { "label": "Je suis mon sens moral", "scores": { "jon": 3 } },
-        { "label": "Je pense à long terme", "scores": { "daenerys": 3 } },
-        { "label": "J’analyse tout", "scores": { "tyrion": 3 } },
-        { "label": "Je fais confiance à mon instinct", "scores": { "arya": 3 } },
-        { "label": "Je calcule les conséquences", "scores": { "cersei": 3 } },
-        { "label": "Je fais ce qui est juste", "scores": { "ned": 3 } }
+        {
+          "label": "Je veux comprendre ce qui l'a amené à faire ça — la trahison est rarement sans raison.",
+          "scores": { "tyrion": 2, "jon": 1 }
+        },
+        {
+          "label": "Je prends acte, et je m'organise pour ne plus dépendre de cette personne à l'avenir.",
+          "scores": { "cersei": 3 }
+        },
+        {
+          "label": "Ça me blesse, mais ça ne change pas ce que je dois faire — je continue.",
+          "scores": { "jon": 2, "ned": 1 }
+        },
+        {
+          "label": "Je gère seul(e) la situation — demander de l'aide après une trahison, c'est s'exposer à nouveau.",
+          "scores": { "arya": 3 }
+        }
       ]
     },
     {
       "id": "6",
-      "question": "Ton rapport au pouvoir…",
+      "question": "Tout le monde autour de toi s'accommode d'une situation que tu trouves profondément injuste. Comment tu vis ça ?",
       "answers": [
-        { "label": "Je n’en veux pas forcément", "scores": { "jon": 3 } },
-        { "label": "Je veux le conquérir", "scores": { "daenerys": 3 } },
-        { "label": "Je l’utilise intelligemment", "scores": { "tyrion": 3 } },
-        { "label": "Je m’en détache", "scores": { "arya": 3 } },
-        { "label": "Je le protège à tout prix", "scores": { "cersei": 3 } },
-        { "label": "Je le respecte", "scores": { "ned": 3 } }
+        {
+          "label": "Je dis ce que je pense, même si personne d'autre ne semble prêt à l'entendre.",
+          "scores": { "ned": 3 }
+        },
+        {
+          "label": "Je cherche à convaincre les autres que cette situation doit changer — pas juste les sensibiliser.",
+          "scores": { "daenerys": 3 }
+        },
+        {
+          "label": "J'essaie de comprendre pourquoi les gens l'acceptent avant de me positionner.",
+          "scores": { "tyrion": 2, "arya": 1 }
+        },
+        {
+          "label": "Je cherche ce que je peux faire concrètement pour changer les choses à mon niveau.",
+          "scores": { "jon": 2, "daenerys": 1 }
+        }
       ]
     },
     {
       "id": "7",
-      "question": "Les autres te voient comme…",
+      "question": "Tu arrives dans un environnement dont tu ne maîtrises pas encore les règles ni les codes. Comment tu t'en sors ?",
       "answers": [
-        { "label": "Brave", "scores": { "jon": 3 } },
-        { "label": "Impressionnant(e)", "scores": { "daenerys": 3 } },
-        { "label": "Malin(e)", "scores": { "tyrion": 3 } },
-        { "label": "Mystérieux(se)", "scores": { "arya": 3 } },
-        { "label": "Redoutable", "scores": { "cersei": 3 } },
-        { "label": "Honorable", "scores": { "ned": 3 } }
+        {
+          "label": "J'observe, je me fais discret(e) et j'apprends vite ce qui fonctionne vraiment ici.",
+          "scores": { "arya": 3 }
+        },
+        {
+          "label": "Je repère les personnes clés et je comprends leurs intérêts avant de me positionner.",
+          "scores": { "tyrion": 3 }
+        },
+        {
+          "label": "Je reste moi-même — mes principes ne changent pas selon l'endroit où je me trouve.",
+          "scores": { "ned": 2, "jon": 1 }
+        },
+        {
+          "label": "Je prends rapidement la mesure des rapports de force pour éviter de me retrouver dans une position vulnérable.",
+          "scores": { "cersei": 2, "tyrion": 1 }
+        }
       ]
     },
     {
       "id": "8",
-      "question": "Dans une situation dangereuse…",
+      "question": "On te confie une responsabilité importante que tu n'avais pas demandée. Comment tu réagis ?",
       "answers": [
-        { "label": "Je protège les autres", "scores": { "jon": 3 } },
-        { "label": "J’affronte sans hésiter", "scores": { "daenerys": 3 } },
-        { "label": "Je trouve une solution", "scores": { "tyrion": 3 } },
-        { "label": "Je disparais et j’agis", "scores": { "arya": 3 } },
-        { "label": "Je retourne la situation", "scores": { "cersei": 3 } },
-        { "label": "Je reste droit(e)", "scores": { "ned": 3 } }
+        {
+          "label": "Je l'assume — si on me la confie, c'est qu'elle a besoin d'être tenue, et je ne vais pas m'y soustraire.",
+          "scores": { "jon": 3 }
+        },
+        {
+          "label": "Je veux d'abord savoir exactement ce que ça implique et ce que j'aurai comme marge de manœuvre.",
+          "scores": { "cersei": 2, "tyrion": 1 }
+        },
+        {
+          "label": "Je l'accepte si elle me permet de changer quelque chose qui en vaut la peine.",
+          "scores": { "daenerys": 3 }
+        },
+        {
+          "label": "Je préfère qu'on me laisse agir à ma façon plutôt que porter un rôle qui risque de me contraindre.",
+          "scores": { "arya": 3 }
+        }
       ]
     },
     {
       "id": "9",
-      "question": "Ce qui compte le plus pour toi…",
+      "question": "La meilleure solution disponible implique un compromis moral que tu n'aurais pas souhaité faire. Que choisis-tu ?",
       "answers": [
-        { "label": "La loyauté", "scores": { "jon": 3 } },
-        { "label": "Le destin", "scores": { "daenerys": 3 } },
-        { "label": "La connaissance", "scores": { "tyrion": 3 } },
-        { "label": "La liberté", "scores": { "arya": 3 } },
-        { "label": "Le pouvoir", "scores": { "cersei": 3 } },
-        { "label": "L’honneur", "scores": { "ned": 3 } }
+        {
+          "label": "Je refuse — s'il faut trahir mes principes pour réussir, alors ce n'est pas vraiment réussir.",
+          "scores": { "ned": 3 }
+        },
+        {
+          "label": "Je l'accepte si le résultat protège des personnes concrètes et que les alternatives sont pires.",
+          "scores": { "jon": 2, "tyrion": 1 }
+        },
+        {
+          "label": "Je l'accepte, mais j'en tire les leçons pour ne plus avoir à choisir entre ces deux options à l'avenir.",
+          "scores": { "daenerys": 2, "tyrion": 1 }
+        },
+        {
+          "label": "Je l'accepte si ça me permet de rester en position d'agir — l'efficacité passe avant la pureté.",
+          "scores": { "cersei": 3 }
+        }
       ]
     },
     {
       "id": "10",
-      "question": "Au fond, tu es surtout…",
+      "question": "Tout ton groupe attend que quelqu'un prenne une décision difficile. Personne ne bouge. Que se passe-t-il ?",
       "answers": [
-        { "label": "Protecteur(trice)", "scores": { "jon": 3 } },
-        { "label": "Leader", "scores": { "daenerys": 3 } },
-        { "label": "Stratège", "scores": { "tyrion": 3 } },
-        { "label": "Libre", "scores": { "arya": 3 } },
-        { "label": "Ambitieux(se)", "scores": { "cersei": 3 } },
-        { "label": "Juste", "scores": { "ned": 3 } }
+        {
+          "label": "Je finis par décider — pas parce que je voulais ce rôle, mais parce que quelqu'un doit le faire.",
+          "scores": { "jon": 3 }
+        },
+        {
+          "label": "Je propose une direction claire, parce que je suis convaincu(e) de la voie à suivre.",
+          "scores": { "daenerys": 3 }
+        },
+        {
+          "label": "J'aide le groupe à clarifier ses options et les conséquences de chacune — décider en aveugle ne sert personne.",
+          "scores": { "tyrion": 3 }
+        },
+        {
+          "label": "Je prends la décision, mais surtout je m'assure de garder la main sur la suite.",
+          "scores": { "cersei": 3 }
+        }
       ]
     }
   ]

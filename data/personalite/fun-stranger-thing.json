@@ -2,7 +2,7 @@
   "slug": "test-quel-personnage-de-stranger-things-es-tu",
   "title": "Test fun - Quel personnage de Stranger Things es-tu ?",
   "description": "Découvre quel personnage de Stranger Things correspond vraiment à ta personnalité.",
-  "descriptionSeo": "À travers tes réactions, ta manière de gérer les situations et tes relations, ce test révèle quel personnage de Stranger Things te correspond vraiment. Es-tu courageux comme Eleven, loyal comme Mike, drôle comme Dustin, rebelle comme Max, protecteur comme Hopper ou sensible comme Will ?",
+  "descriptionSeo": "Eleven, Mike Wheeler, Dustin Henderson, Max Mayfield, Jim Hopper ou Will Byers : quel personnage de Stranger Things te ressemble le plus ? À travers dix situations où se mêlent amitié, décisions, danger et phénomènes étranges, découvre comment tu réagis lorsque les choses deviennent sérieuses. Réponds spontanément et découvre quel personnage de Hawkins symbolise le mieux certaines facettes de ta personnalité.",
   "category": {
     "name": "Fun",
     "slug": "fun"
@@ -19,160 +19,260 @@
     {
       "key": "eleven",
       "title": "Eleven",
-      "description": "Tu es une personne intense, instinctive et profondément marquée par ce que tu vis. Tu ressens les choses avec une grande force, même si tu n’exprimes pas toujours facilement ce que tu as en toi. Tu es capable de te protéger en te refermant, mais quand tu fais confiance, c’est totalement. Tu es extrêmement courageux(se), prêt(e) à affronter des situations difficiles pour défendre ceux que tu aimes. Tu n’as pas forcément besoin de beaucoup de mots pour te faire comprendre, car tes actions parlent souvent pour toi. Tu peux paraître à part, différent(e), mais c’est justement ce qui fait ta singularité. Tu avances à ton rythme, en apprenant à te connaître, et tu développes une force intérieure impressionnante.",
+      "description": "Tu ressens les choses avec une grande intensité, et quand quelque chose ou quelqu'un compte vraiment pour toi, tu es prêt(e) à agir sans attendre que tout soit clair. Tu fonctionnes beaucoup à l'instinct, et cet instinct est souvent juste. Tu peux te refermer lorsque tu ne fais pas confiance, mais quand tu t'attaches, c'est profondément. Ton point d'attention : cette intensité peut parfois te pousser à agir avant d'avoir évalué ce que ça implique.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777281662/eleven_womgd8.jpg"
     },
     {
       "key": "mike",
       "title": "Mike Wheeler",
-      "description": "Tu es une personne loyale, engagée et très attachée à tes proches. Tu accordes énormément d’importance à l’amitié et à la confiance. Quand tu tiens à quelqu’un, tu es prêt(e) à tout pour le soutenir, même dans les situations les plus compliquées. Tu es aussi quelqu’un de réfléchi, capable de prendre des initiatives et de guider les autres quand c’est nécessaire. Tu peux parfois te laisser emporter par tes émotions, surtout quand il s’agit de protéger ceux que tu aimes. Tu crois en des valeurs simples mais fortes, comme la fidélité et l’entraide. Tu es quelqu’un sur qui on peut compter, même dans les moments les plus difficiles.",
+      "description": "Ce qui compte le plus pour toi, c'est que les personnes importantes dans ta vie restent soudées — et tu fais beaucoup pour que ça tienne. Tu prends des initiatives pour maintenir le groupe, pour que personne ne se sente seul, et tu t'engages fortement dans tes relations. Tu peux avoir du mal à accepter que certaines choses échappent à ton influence. Ton point d'attention : vouloir maintenir tout le monde ensemble peut parfois te faire oublier de t'occuper de toi-même.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777281758/mike_pvvotn.webp"
     },
     {
       "key": "dustin",
       "title": "Dustin Henderson",
-      "description": "Tu es une personne drôle, curieuse et pleine d’énergie. Tu as une capacité naturelle à détendre l’atmosphère, même dans les moments les plus tendus. Tu es passionné(e) par ce que tu aimes et tu n’hésites pas à partager ton enthousiasme avec les autres. Tu es aussi très intelligent(e) et tu trouves souvent des solutions là où les autres bloquent. Tu es sociable, attachant(e) et tu crées facilement du lien autour de toi. Tu peux parfois être un peu naïf(ve), mais c’est aussi ce qui fait ton authenticité. Tu vois le monde avec un mélange d’optimisme et de curiosité, et tu apportes une énergie positive partout où tu passes.",
+      "description": "Face à une situation inconnue, ton réflexe est de vouloir comprendre comment elle fonctionne. Tu cherches des explications, tu expérimentes, et tu trouves souvent des solutions là où les autres bloquent. Tu apportes aussi une légèreté qui aide le groupe à ne pas se laisser submerger. Ton point d'attention : ta curiosité peut parfois te faire sous-estimer les risques d'une situation que tu trouves fascinante.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777281870/dustin_fkpuhh.webp"
     },
     {
       "key": "max",
       "title": "Max Mayfield",
-      "description": "Tu es une personne indépendante, forte et difficile à cerner au premier abord. Tu n’accordes pas ta confiance facilement, mais une fois que c’est fait, tu es extrêmement loyal(e). Tu as appris à te protéger et à ne pas dépendre des autres, ce qui te donne une grande autonomie. Tu peux sembler distante ou rebelle, mais c’est souvent une manière de garder le contrôle. Tu es aussi très lucide sur ce qui t’entoure et tu n’as pas peur de dire ce que tu penses. Derrière ton côté dur, il y a une vraie sensibilité et une capacité à t’attacher profondément. Tu avances avec détermination, sans te laisser définir par les attentes des autres.",
+      "description": "Tu tiens à ton autonomie et tu n'aimes pas qu'on décide à ta place, même avec de bonnes intentions. Tu accordes ta confiance progressivement, et tu as besoin que les gens respectent tes limites avant de t'ouvrir vraiment. Tu es lucide sur ce qui t'entoure et tu n'as pas peur de le dire. Ton point d'attention : cette indépendance peut parfois te conduire à gérer seul(e) des choses qui seraient plus simples à porter à deux.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777281981/max_fdfetv.webp"
     },
     {
       "key": "hopper",
       "title": "Jim Hopper",
-      "description": "Tu es une personne protectrice, directe et profondément humaine. Tu n’es pas toujours dans la nuance, mais tu agis avec sincérité et instinct. Tu prends tes responsabilités au sérieux, surtout quand il s’agit de protéger ceux que tu aimes. Tu peux avoir un côté dur ou fermé, mais c’est souvent une manière de cacher ce que tu ressens vraiment. Tu as vécu des choses qui t’ont marqué(e), et cela t’a rendu(e) plus solide, mais aussi plus prudent(e). Tu n’aimes pas les complications inutiles : tu préfères aller droit au but. Malgré ton côté parfois brusque, tu es quelqu’un de fiable, sur qui on peut compter dans les moments critiques.",
+      "description": "Quand quelqu'un que tu aimes est en danger, tu interviens — sans chercher à en débattre longtemps. Tu te sens responsable de la sécurité de ceux qui comptent pour toi, et tu agis en conséquence, même si ça te coûte quelque chose. Tu peux sembler brusque ou fermé, mais c'est rarement de l'indifférence. Ton point d'attention : tu as parfois du mal à laisser les autres gérer une situation sans t'en emparer.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777282046/jim_hsz79p.jpg"
     },
     {
       "key": "will",
       "title": "Will Byers",
-      "description": "Tu es une personne sensible, intuitive et très connectée à ton monde intérieur. Tu ressens les choses en profondeur et tu observes beaucoup ce qui t’entoure. Tu peux parfois te sentir en décalage, comme si tu ne trouvais pas toujours ta place, mais cela fait aussi ta richesse. Tu es discret(e), mais très attentif(ve) aux autres, et tu comprends souvent ce qu’ils ressentent sans qu’ils aient besoin de parler. Tu es attaché(e) à tes proches et tu recherches des relations sincères. Tu peux être vulnérable, mais tu possèdes aussi une grande force intérieure. Tu avances avec douceur, mais avec une vraie capacité à traverser les épreuves.",
+      "description": "Tu remarques facilement les changements d'ambiance, les tensions ou les détails émotionnels que d'autres peuvent laisser passer. Tu as tendance à ressentir profondément une situation avant de décider comment y réagir, et ton monde intérieur occupe une place importante dans ta façon de comprendre ce qui t'arrive. Tu es très attentif(ve) aux personnes qui comptent pour toi, même sans forcément le montrer. Ton point d'attention : cette sensibilité peut parfois te pousser à garder trop longtemps certaines choses pour toi.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777282104/will_ddwo2g.jpg"
     }
   ],
-"questions": [
-  {
-    "id": "1",
-    "question": "Tu entends un bruit étrange dans la maison en pleine nuit…",
-    "answers": [
-      { "label": "Je vais voir directement", "scores": { "eleven": 3 } },
-      { "label": "J’appelle mes amis", "scores": { "mike": 3 } },
-      { "label": "Je prends une lampe et j’analyse", "scores": { "dustin": 3 } },
-      { "label": "Je reste caché(e) et j’écoute", "scores": { "will": 3 } },
-      { "label": "Je sors par la fenêtre au cas où", "scores": { "max": 3 } },
-      { "label": "Je prends une arme improvisée", "scores": { "hopper": 3 } }
-    ]
-  },
-  {
-    "id": "2",
-    "question": "Ton ami agit bizarrement depuis quelques jours…",
-    "answers": [
-      { "label": "Je ressens qu’il y a un problème", "scores": { "will": 3 } },
-      { "label": "Je le confronte directement", "scores": { "hopper": 3 } },
-      { "label": "Je cherche des indices", "scores": { "dustin": 3 } },
-      { "label": "Je reste à ses côtés quoi qu’il arrive", "scores": { "mike": 3 } },
-      { "label": "Je garde mes distances au début", "scores": { "max": 3 } },
-      { "label": "Je tente quelque chose de radical", "scores": { "eleven": 3 } }
-    ]
-  },
-  {
-    "id": "3",
-    "question": "Tu découvres quelque chose d’inexplicable…",
-    "answers": [
-      { "label": "Je veux comprendre immédiatement", "scores": { "dustin": 3 } },
-      { "label": "Je fais confiance à mon instinct", "scores": { "eleven": 3 } },
-      { "label": "Je cherche à protéger les autres", "scores": { "hopper": 3 } },
-      { "label": "Je partage avec mon groupe", "scores": { "mike": 3 } },
-      { "label": "Je reste méfiant(e)", "scores": { "max": 3 } },
-      { "label": "Je suis profondément perturbé(e)", "scores": { "will": 3 } }
-    ]
-  },
-  {
-    "id": "4",
-    "question": "Tu dois affronter quelque chose de dangereux…",
-    "answers": [
-      { "label": "Je fonce sans hésiter", "scores": { "eleven": 3 } },
-      { "label": "Je prépare un plan", "scores": { "mike": 3 } },
-      { "label": "Je trouve une solution technique", "scores": { "dustin": 3 } },
-      { "label": "Je suis paralysé(e) mais j’avance quand même", "scores": { "will": 3 } },
-      { "label": "Je garde mon sang-froid", "scores": { "max": 3 } },
-      { "label": "Je prends le contrôle de la situation", "scores": { "hopper": 3 } }
-    ]
-  },
-  {
-    "id": "5",
-    "question": "Dans ton groupe, il y a une grosse tension…",
-    "answers": [
-      { "label": "Je défends quelqu’un", "scores": { "mike": 3 } },
-      { "label": "Je coupe court au conflit", "scores": { "hopper": 3 } },
-      { "label": "Je détends l’atmosphère", "scores": { "dustin": 3 } },
-      { "label": "Je me referme", "scores": { "will": 3 } },
-      { "label": "Je prends du recul", "scores": { "max": 3 } },
-      { "label": "Je réagis de manière intense", "scores": { "eleven": 3 } }
-    ]
-  },
-  {
-    "id": "6",
-    "question": "Tu es face à quelque chose que personne ne croit…",
-    "answers": [
-      { "label": "Je sais que c’est réel", "scores": { "will": 3 } },
-      { "label": "Je cherche des preuves", "scores": { "dustin": 3 } },
-      { "label": "Je fais confiance à mon ressenti", "scores": { "eleven": 3 } },
-      { "label": "Je convaincs les autres", "scores": { "mike": 3 } },
-      { "label": "Je reste sceptique", "scores": { "max": 3 } },
-      { "label": "Je prends les choses en main", "scores": { "hopper": 3 } }
-    ]
-  },
-  {
-    "id": "7",
-    "question": "Tu dois prendre une décision importante rapidement…",
-    "answers": [
-      { "label": "J’agis sans réfléchir", "scores": { "eleven": 3 } },
-      { "label": "Je pense au groupe", "scores": { "mike": 3 } },
-      { "label": "J’analyse les options", "scores": { "dustin": 3 } },
-      { "label": "Je suis mon intuition", "scores": { "will": 3 } },
-      { "label": "Je reste froid(e)", "scores": { "max": 3 } },
-      { "label": "Je tranche vite", "scores": { "hopper": 3 } }
-    ]
-  },
-  {
-    "id": "8",
-    "question": "Tu te sens en danger, ton réflexe…",
-    "answers": [
-      { "label": "Combattre", "scores": { "eleven": 3 } },
-      { "label": "Protéger les autres", "scores": { "hopper": 3 } },
-      { "label": "Trouver une issue", "scores": { "dustin": 3 } },
-      { "label": "Fuir et observer", "scores": { "will": 3 } },
-      { "label": "Rester calme", "scores": { "max": 3 } },
-      { "label": "Rassembler le groupe", "scores": { "mike": 3 } }
-    ]
-  },
-  {
-    "id": "9",
-    "question": "Quel rôle tu préfères dans une situation extrême ?",
-    "answers": [
-      { "label": "L’arme principale", "scores": { "eleven": 3 } },
-      { "label": "Le leader", "scores": { "mike": 3 } },
-      { "label": "Le cerveau", "scores": { "dustin": 3 } },
-      { "label": "Le lien émotionnel", "scores": { "will": 3 } },
-      { "label": "L’électron libre", "scores": { "max": 3 } },
-      { "label": "Le protecteur", "scores": { "hopper": 3 } }
-    ]
-  },
-  {
-    "id": "10",
-    "question": "Au fond, ce qui te guide vraiment…",
-    "answers": [
-      { "label": "L’instinct", "scores": { "eleven": 3 } },
-      { "label": "L’amitié", "scores": { "mike": 3 } },
-      { "label": "La curiosité", "scores": { "dustin": 3 } },
-      { "label": "Les émotions", "scores": { "will": 3 } },
-      { "label": "La liberté", "scores": { "max": 3 } },
-      { "label": "La protection", "scores": { "hopper": 3 } }
-    ]
-  }
-]
+  "questions": [
+    {
+      "id": "1",
+      "question": "Un ami te dit avoir vu quelque chose d'inquiétant, mais personne d'autre ne le croit. Comment tu réagis ?",
+      "answers": [
+        {
+          "label": "Je le prends au sérieux et je reste à ses côtés, même sans pouvoir vérifier ce qu'il dit.",
+          "scores": { "mike": 3 }
+        },
+        {
+          "label": "Je cherche des éléments concrets qui permettraient de comprendre ce qu'il a vraiment vu.",
+          "scores": { "dustin": 3 }
+        },
+        {
+          "label": "Je fais confiance à ce qu'il ressent — parfois on perçoit des choses avant de pouvoir les expliquer.",
+          "scores": { "will": 2, "mike": 1 }
+        },
+        {
+          "label": "Je veux savoir si ça représente un danger réel avant de décider quoi faire.",
+          "scores": { "hopper": 3 }
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "question": "Ton groupe découvre un endroit potentiellement dangereux que vous ne connaissez pas. Que fais-tu ?",
+      "answers": [
+        {
+          "label": "J'entre pour voir par moi-même ce qu'il y a là-dedans.",
+          "scores": { "eleven": 3 }
+        },
+        {
+          "label": "Je cherche d'abord à comprendre ce qu'on sait de cet endroit avant qu'on s'y aventure.",
+          "scores": { "dustin": 3 }
+        },
+        {
+          "label": "Je préfère qu'on évalue correctement les risques avant que quelqu'un fasse quelque chose d'irréversible.",
+          "scores": { "hopper": 3 }
+        },
+        {
+          "label": "Je suis le groupe, mais je reste attentif(ve) à tout ce qui me semble anormal.",
+          "scores": { "max": 3 }
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "question": "Un ami commence à s'isoler et refuse de dire ce qui ne va pas. Comment tu réagis ?",
+      "answers": [
+        {
+          "label": "Je continue à lui proposer d'être là sans exiger qu'il parle tout de suite.",
+          "scores": { "mike": 3 }
+        },
+        {
+          "label": "Je lui dis clairement que j'ai remarqué que quelque chose ne va pas et que je suis disponible.",
+          "scores": { "hopper": 2, "mike": 1 }
+        },
+        {
+          "label": "Je respecte sa distance — parfois on a besoin de gérer certaines choses sans avoir tout le monde autour.",
+          "scores": { "max": 3 }
+        },
+        {
+          "label": "Je fais surtout attention aux petits changements dans son comportement pour comprendre ce qu'il n'arrive pas à dire.",
+          "scores": { "will": 3 }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "question": "Une situation devient dangereuse et le plan prévu ne fonctionne plus. Comment tu réagis ?",
+      "answers": [
+        {
+          "label": "J'agis immédiatement selon ce que la situation exige, même sans plan de secours.",
+          "scores": { "eleven": 3 }
+        },
+        {
+          "label": "Je cherche rapidement une solution alternative avec ce qu'on a sous la main.",
+          "scores": { "dustin": 3 }
+        },
+        {
+          "label": "Je prends le contrôle pour éviter que la situation empire davantage.",
+          "scores": { "hopper": 3 }
+        },
+        {
+          "label": "Je m'adapte sans paniquer et j'avance avec ce qui est encore possible.",
+          "scores": { "max": 3 }
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "question": "Tu ressens immédiatement qu'il y a quelque chose d'anormal dans une situation, mais tu n'as aucune preuve. Que fais-tu ?",
+      "answers": [
+        {
+          "label": "Je reste attentif(ve) à ce ressenti : certains changements se perçoivent avant de pouvoir les expliquer.",
+          "scores": { "will": 3 }
+        },
+        {
+          "label": "Je cherche des éléments concrets qui pourraient confirmer ou contredire mon impression.",
+          "scores": { "dustin": 3 }
+        },
+        {
+          "label": "Si mon instinct me dit que quelqu'un est en danger, je préfère agir plutôt qu'attendre une preuve parfaite.",
+          "scores": { "eleven": 3 }
+        },
+        {
+          "label": "Je reste prudent(e) et je ne laisse pas une simple impression décider seule de ce que je vais faire.",
+          "scores": { "max": 3 }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "question": "Quelqu'un prend une décision pour toi en disant que c'est pour ton bien. Comment tu réagis ?",
+      "answers": [
+        {
+          "label": "Je m'y oppose clairement — même avec de bonnes intentions, ce n'est pas à eux de décider à ma place.",
+          "scores": { "max": 3 }
+        },
+        {
+          "label": "Je réagis fortement si cette décision touche quelque chose d'important pour moi.",
+          "scores": { "eleven": 3 }
+        },
+        {
+          "label": "Je cherche à comprendre pourquoi ils ont fait ce choix avant de réagir.",
+          "scores": { "dustin": 3 }
+        },
+        {
+          "label": "Ça me dérange, mais si c'est pour protéger quelqu'un, je peux comprendre la logique.",
+          "scores": { "hopper": 3 }
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "question": "Deux personnes importantes pour toi se disputent et chacune veut que tu prennes son parti. Que fais-tu ?",
+      "answers": [
+        {
+          "label": "J'essaie de trouver une manière de faire tenir les deux — je ne veux pas choisir entre eux.",
+          "scores": { "mike": 3 }
+        },
+        {
+          "label": "Je refuse de me laisser embarquer dans leur conflit et je le dis clairement.",
+          "scores": { "max": 3 }
+        },
+        {
+          "label": "Je perçois surtout ce que chacun ressent vraiment derrière ce qu'il dit.",
+          "scores": { "will": 3 }
+        },
+        {
+          "label": "J'essaie de détendre la situation pour qu'on puisse en parler sans que ça dégénère.",
+          "scores": { "dustin": 3 }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "question": "Une personne que tu apprécies veut affronter seule quelque chose de dangereux. Comment tu réagis ?",
+      "answers": [
+        {
+          "label": "Je lui dis clairement que non : si le risque est sérieux, je ne vais pas la laisser gérer ça seule.",
+          "scores": { "hopper": 3 }
+        },
+        {
+          "label": "Si elle y va malgré tout, j'y vais avec elle — je préfère prendre le risque que rester derrière.",
+          "scores": { "eleven": 2, "mike": 1 }
+        },
+        {
+          "label": "J'essaie de la convaincre qu'on a plus de chances si on reste ensemble.",
+          "scores": { "mike": 3 }
+        },
+        {
+          "label": "Je respecte sa décision, même si elle ne me plaît pas — je n'aimerais pas qu'on décide à ma place non plus.",
+          "scores": { "max": 3 }
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "question": "Ton groupe a une théorie étrange que personne à l'extérieur ne prend au sérieux. Comment tu vis ça ?",
+      "answers": [
+        {
+          "label": "Je cherche des preuves supplémentaires pour que notre théorie ne puisse plus être ignorée.",
+          "scores": { "dustin": 3 }
+        },
+        {
+          "label": "Je défends la théorie du groupe — si on y croit tous, ce n'est pas pour rien.",
+          "scores": { "mike": 3 }
+        },
+        {
+          "label": "Ce que les autres pensent ne change pas ce que je sais ou ressens.",
+          "scores": { "will": 2, "max": 1 }
+        },
+        {
+          "label": "Je reste prudent(e) sur ce qu'on avance publiquement tant qu'on n'a pas de quoi convaincre vraiment.",
+          "scores": { "max": 2, "dustin": 1 }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "question": "Tout va mal et il faut décider rapidement de ce que chacun va faire. Que se passe-t-il ?",
+      "answers": [
+        {
+          "label": "J'agis sur ce qui menace directement les personnes que j'aime, sans attendre qu'on se concerte.",
+          "scores": { "eleven": 3 }
+        },
+        {
+          "label": "Je m'assure que tout le monde sait ce qu'il doit faire et que personne ne reste sans rôle.",
+          "scores": { "mike": 3 }
+        },
+        {
+          "label": "Je prends en charge ce qui est le plus risqué pour que les autres n'aient pas à le faire.",
+          "scores": { "hopper": 3 }
+        },
+        {
+          "label": "Je cherche l'option qu'on n'a pas encore envisagée et qui pourrait tout changer.",
+          "scores": { "dustin": 3 }
+        }
+      ]
+    }
+  ]
 }

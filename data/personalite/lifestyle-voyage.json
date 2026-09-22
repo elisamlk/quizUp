@@ -2,12 +2,12 @@
   "slug": "test-es-tu-fait-pour-voyager",
   "title": "Test lifestyle - Es-tu fait(e) pour voyager ?",
   "description": "Le voyage est-il vraiment fait pour toi ?",
-  "descriptionSeo": "Organisation, imprévus, découverte, confort… ce test analyse ton rapport au voyage pour révéler si tu es vraiment fait(e) pour partir à l’aventure. À travers des situations concrètes, découvre si tu es un(e) vrai(e) explorateur(trice), un(e) voyageur(se) occasionnel(le) ou quelqu’un qui préfère la stabilité.",
+  "descriptionSeo": "Quelle place le voyage occupe-t-il vraiment dans ta vie ? À travers dix situations concrètes sur la découverte, les imprévus, le dépaysement, l'organisation et tes habitudes, découvre si tu as un véritable besoin d'explorer, si tu préfères voyager avec un certain équilibre ou si tu es particulièrement attaché(e) à tes repères. Un test lifestyle pour explorer ton rapport au voyage.",
   "category": {
     "name": "Lifestyle",
     "slug": "lifestyle"
   },
-  "createdAt": "2026-04-27",
+  "createdAt": "2026-09-22",
   "isNew": true,
   "isPopular": true,
   "images": {
@@ -18,112 +18,202 @@
   "profiles": [
     {
       "key": "aventurier",
-      "title": "Explorateur(trice) dans l’âme",
-      "description": "Tu es clairement fait(e) pour voyager. L’inconnu ne te fait pas peur, au contraire : il t’attire. Tu aimes sortir de ta zone de confort, découvrir de nouvelles cultures, tester des choses différentes et vivre des expériences uniques. Tu t’adaptes facilement, même quand tout ne se passe pas comme prévu. Pour toi, voyager, ce n’est pas juste partir en vacances, c’est une manière de vivre, d’apprendre et de grandir. Tu es curieux(se), ouvert(e) et prêt(e) à t’immerger dans l’inconnu. Peu importe le confort, l’essentiel est l’expérience.",
+      "title": "Explorateur(trice) dans l'âme",
+      "description": "Tu as un vrai besoin de découvrir de nouveaux endroits, de nouvelles manières de vivre et de te retrouver dans des environnements différents du tien. La nouveauté et le dépaysement font partie de ce qui te nourrit, et l'idée de repartir quelque part revient assez naturellement. Lorsque les choses s'éloignent un peu de ce que tu avais imaginé, ta curiosité peut assez facilement reprendre le dessus et t'aider à t'adapter. Ton point d'attention : lorsque le besoin d'ailleurs est très présent, il peut parfois être difficile de profiter pleinement d'une période plus stable.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776949673/cover_arucbu.jpg"
     },
     {
       "key": "equilibre",
       "title": "Voyageur(se) équilibré(e)",
-      "description": "Tu aimes voyager, mais avec un certain cadre. Tu apprécies découvrir de nouveaux endroits, mais tu as besoin d’un minimum d’organisation et de confort pour te sentir bien. Tu es ouvert(e) à l’expérience, mais tu préfères quand les choses sont un peu planifiées. Tu peux sortir de ta zone de confort, mais pas trop longtemps. Tu trouves ton équilibre entre aventure et sécurité. Pour toi, le voyage doit rester agréable, sans trop de stress ni d’imprévus.",
+      "description": "Tu aimes partir et découvrir de nouveaux endroits, mais tu apprécies aussi retrouver tes repères entre deux voyages. Le voyage occupe une place positive dans ta vie sans être un besoin permanent. Tu cherches généralement un équilibre entre la découverte et un certain niveau de confort ou d'organisation. Ton point d'attention : vouloir combiner les deux peut parfois rendre la décision de partir plus longue que prévu.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776778847/balanced_e70dki.jpg"
     },
     {
       "key": "casanier",
-      "title": "Pas vraiment fait(e) pour voyager",
-      "description": "Tu n’es pas forcément attiré(e) par le voyage. Tu préfères ton confort, tes repères et ton environnement habituel. L’idée de partir loin, de changer de routine ou de gérer des imprévus peut vite te fatiguer. Tu peux apprécier certains déplacements, mais ce n’est pas ce qui te fait vibrer. Tu te sens mieux dans un cadre stable, maîtrisé, où tu sais à quoi t’attendre. Pour toi, le bien-être passe plus par la tranquillité que par l’aventure.",
+      "title": "Attaché(e) à tes repères",
+      "description": "Tu peux apprécier certains voyages, mais tu n'éprouves pas un besoin particulier de partir souvent ou loin. Ton environnement habituel, tes habitudes et ta stabilité comptent beaucoup dans ton bien-être au quotidien. Un séjour bien préparé et rassurant peut être agréable, mais retrouver ce qui t'est familier fait aussi partie de ce qui te fait du bien. Ton point d'attention : certaines expériences que le voyage seul peut apporter pourraient parfois valoir le déplacement.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777373055/staying-in_noizua.jpg"
     }
   ],
   "questions": [
     {
       "id": "1",
-      "question": "Ton vol est retardé de 4 heures…",
+      "question": "Tu réalises que tu as une semaine entièrement libre dans deux mois. Rien n'est prévu. Quelle idée te vient le plus naturellement ?",
       "answers": [
-        { "label": "Je prends ça comme une aventure", "scores": { "aventurier": 3 } },
-        { "label": "Ça m’agace mais je m’adapte", "scores": { "equilibre": 3 } },
-        { "label": "Ça me stresse énormément", "scores": { "casanier": 3 } }
+        {
+          "label": "Je commence assez vite à regarder où je pourrais partir, même vers un endroit auquel je n'avais jamais pensé.",
+          "scores": { "aventurier": 3 }
+        },
+        {
+          "label": "Partir me tente, mais seulement si je trouve une destination et des conditions qui me donnent vraiment envie.",
+          "scores": { "equilibre": 3 }
+        },
+        {
+          "label": "Mon premier réflexe n'est pas forcément de partir : j'imagine aussi très bien profiter de cette semaine dans un environnement que je connais.",
+          "scores": { "casanier": 3 }
+        }
       ]
     },
     {
       "id": "2",
-      "question": "Tu arrives dans un pays où tu ne comprends rien à la langue…",
+      "question": "Tu pars quelques jours dans un endroit que tu ne connais pas. Comment prépares-tu généralement le séjour ?",
       "answers": [
-        { "label": "Parfait, ça rend le voyage encore plus intéressant", "scores": { "aventurier": 3 } },
-        { "label": "Je me débrouille comme je peux", "scores": { "equilibre": 3 } },
-        { "label": "Je suis complètement perdu(e)", "scores": { "casanier": 3 } }
+        {
+          "label": "Savoir où je vais, comment je me déplace et ce que je peux faire me permet de profiter beaucoup plus sereinement.",
+          "scores": { "casanier": 3 }
+        },
+        {
+          "label": "Je repère quelques points de départ, mais je garde beaucoup de place pour découvrir des choses une fois sur place.",
+          "scores": { "aventurier": 3 }
+        },
+        {
+          "label": "Je prépare les éléments importants et quelques idées, puis je garde du temps libre entre les deux.",
+          "scores": { "equilibre": 3 }
+        }
       ]
     },
     {
       "id": "3",
-      "question": "Ton logement n’est pas du tout comme prévu…",
+      "question": "Tu reviens d'un voyage que tu as vraiment apprécié. Quelques semaines plus tard, qu'est-ce qui se passe ?",
       "answers": [
-        { "label": "Je m’adapte et je fais avec", "scores": { "aventurier": 3 } },
-        { "label": "Je cherche une solution", "scores": { "equilibre": 3 } },
-        { "label": "Ça gâche mon voyage", "scores": { "casanier": 3 } }
+        {
+          "label": "J'en garde de très bons souvenirs, mais je suis aussi content(e) de retrouver mon quotidien pendant un moment.",
+          "scores": { "equilibre": 3 }
+        },
+        {
+          "label": "J'ai aimé partir, mais retrouver mes habitudes et mon environnement me fait particulièrement du bien.",
+          "scores": { "casanier": 3 }
+        },
+        {
+          "label": "Je commence assez facilement à penser au prochain endroit que j'aimerais découvrir.",
+          "scores": { "aventurier": 3 }
+        }
       ]
     },
     {
       "id": "4",
-      "question": "Tu dois organiser un voyage…",
+      "question": "Tu as adoré une destination où tu es déjà allé(e). Pour tes prochaines vacances, que fais-tu ?",
       "answers": [
-        { "label": "Je pars presque sans plan", "scores": { "aventurier": 3 } },
-        { "label": "Je prépare un minimum", "scores": { "equilibre": 3 } },
-        { "label": "Je veux tout prévoir", "scores": { "casanier": 3 } }
+        {
+          "label": "J'ai quand même très envie de découvrir un nouvel endroit.",
+          "scores": { "aventurier": 3 }
+        },
+        {
+          "label": "Je peux revenir dans un endroit aimé, mais j'essaie généralement d'y ajouter quelque chose de nouveau.",
+          "scores": { "equilibre": 2, "aventurier": 1 }
+        },
+        {
+          "label": "Revenir quelque part que je connais et où je sais que je serai bien me tente beaucoup.",
+          "scores": { "casanier": 3 }
+        }
       ]
     },
     {
       "id": "5",
-      "question": "Dormir dans un endroit inconfortable…",
+      "question": "Sur place, les horaires, les repas et les habitudes sont très différents des tiens. Comment tu vis ça ?",
       "answers": [
-        { "label": "Ça fait partie de l’expérience", "scores": { "aventurier": 3 } },
-        { "label": "Ça passe pour une nuit", "scores": { "equilibre": 3 } },
-        { "label": "Impossible pour moi", "scores": { "casanier": 3 } }
+        {
+          "label": "Je m'adapte assez bien, même si je suis content(e) de retrouver certains repères de temps en temps.",
+          "scores": { "equilibre": 3 }
+        },
+        {
+          "label": "C'est justement une partie de ce que j'aime découvrir quand je voyage.",
+          "scores": { "aventurier": 3 }
+        },
+        {
+          "label": "Je profite davantage si je peux conserver quelques habitudes qui me permettent de me sentir bien.",
+          "scores": { "casanier": 3 }
+        }
       ]
     },
     {
       "id": "6",
-      "question": "Goûter une nourriture totalement inconnue…",
+      "question": "Une activité que tu attendais depuis longtemps est annulée au dernier moment. Comment tu réagis ?",
       "answers": [
-        { "label": "J’adore tester", "scores": { "aventurier": 3 } },
-        { "label": "Je goûte mais prudemment", "scores": { "equilibre": 3 } },
-        { "label": "Je préfère éviter", "scores": { "casanier": 3 } }
+        {
+          "label": "Ça me déstabilise vraiment, surtout si cette activité occupait une place importante dans mon programme.",
+          "scores": { "casanier": 3 }
+        },
+        {
+          "label": "Je cherche assez vite ce que cette journée pourrait me permettre de découvrir à la place.",
+          "scores": { "aventurier": 3 }
+        },
+        {
+          "label": "Je suis déçu(e), puis je regarde tranquillement quelles autres possibilités s'offrent à moi.",
+          "scores": { "equilibre": 3 }
+        }
       ]
     },
     {
       "id": "7",
-      "question": "Tu es perdu(e) dans une ville étrangère…",
+      "question": "Tu voyages avec quelqu'un qui aime improviser alors que vous aviez prévu un programme ensemble. Comment tu vis ça ?",
       "answers": [
-        { "label": "Je continue d’explorer", "scores": { "aventurier": 3 } },
-        { "label": "Je cherche mon chemin calmement", "scores": { "equilibre": 3 } },
-        { "label": "Je panique un peu", "scores": { "casanier": 3 } }
+        {
+          "label": "Je préfère généralement qu'on respecte ce qui était organisé, même si je peux accepter quelques changements.",
+          "scores": { "casanier": 3 }
+        },
+        {
+          "label": "J'accepte certaines improvisations, mais je tiens quand même aux choses qui comptent vraiment dans mon programme.",
+          "scores": { "equilibre": 3 }
+        },
+        {
+          "label": "Je suis souvent tenté(e) par le changement : l'imprévu peut mener vers quelque chose de bien.",
+          "scores": { "aventurier": 3 }
+        }
       ]
     },
     {
       "id": "8",
-      "question": "Partir seul(e) à l’étranger…",
+      "question": "Une destination te fait vraiment envie, mais personne n'est disponible pour partir avec toi. Que fais-tu ?",
       "answers": [
-        { "label": "Ça me motive", "scores": { "aventurier": 3 } },
-        { "label": "Pourquoi pas, mais pas trop longtemps", "scores": { "equilibre": 3 } },
-        { "label": "Je n’oserais pas", "scores": { "casanier": 3 } }
+        {
+          "label": "Je préférerais probablement reporter et vivre cette expérience accompagné(e).",
+          "scores": { "casanier": 2, "equilibre": 1 }
+        },
+        {
+          "label": "Si les conditions sont bonnes, je peux sérieusement envisager de partir quand même.",
+          "scores": { "aventurier": 3 }
+        },
+        {
+          "label": "J'y réfléchirais, mais partager le voyage avec quelqu'un compte beaucoup dans mon envie de partir.",
+          "scores": { "equilibre": 3 }
+        }
       ]
     },
     {
       "id": "9",
-      "question": "Ton sac est perdu à l’aéroport…",
+      "question": "Tu disposes soudainement d'une somme d'argent que tu peux utiliser uniquement pour te faire plaisir. Vers quoi tu te tournes spontanément ?",
       "answers": [
-        { "label": "Je relativise", "scores": { "aventurier": 3 } },
-        { "label": "Je gère la situation", "scores": { "equilibre": 3 } },
-        { "label": "C’est la catastrophe", "scores": { "casanier": 3 } }
+        {
+          "label": "Un voyage ou une expérience dans un endroit que je veux découvrir me vient assez naturellement à l'esprit.",
+          "scores": { "aventurier": 3 }
+        },
+        {
+          "label": "Je pense à la fois à une expérience à vivre et à quelque chose qui améliorerait mon quotidien.",
+          "scores": { "equilibre": 3 }
+        },
+        {
+          "label": "J'imagine plutôt quelque chose qui rendrait mon cadre de vie habituel plus agréable.",
+          "scores": { "casanier": 3 }
+        }
       ]
     },
     {
       "id": "10",
-      "question": "Au fond, voyager pour toi c’est…",
+      "question": "Tu imagines les prochaines années de ta vie. Quelle place aimerais-tu que le voyage y occupe ?",
       "answers": [
-        { "label": "Essentiel", "scores": { "aventurier": 3 } },
-        { "label": "Important mais pas indispensable", "scores": { "equilibre": 3 } },
-        { "label": "Pas une priorité", "scores": { "casanier": 3 } }
+        {
+          "label": "J'aimerais partir régulièrement, tout en appréciant suffisamment mon quotidien pour ne pas ressentir constamment le besoin d'ailleurs.",
+          "scores": { "equilibre": 3 }
+        },
+        {
+          "label": "J'aimerais continuer à découvrir régulièrement de nouveaux endroits et garder une vraie place pour ça dans ma vie.",
+          "scores": { "aventurier": 3 }
+        },
+        {
+          "label": "J'aime l'idée de quelques voyages choisis, mais je veux surtout construire un quotidien dans lequel je me sens bien.",
+          "scores": { "casanier": 3 }
+        }
       ]
     }
   ]

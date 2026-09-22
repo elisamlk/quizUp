@@ -2,12 +2,12 @@
   "slug": "test-personnalite-quel-est-ton-trait-dominant",
   "title": "Test personnalité - Quel est ton trait dominant ?",
   "description": "Découvre le trait de personnalité qui te définit le plus au quotidien à travers un test complet, nuancé et immersif.",
-  "descriptionSeo": "Fais ce test de personnalité complet pour découvrir ton trait dominant parmi six grands profils psychologiques : empathique, déterminé, créatif, analytique, indépendant ou optimiste. Grâce à des questions détaillées sur tes réactions, tes choix et ta façon d’interagir avec les autres, ce test t’aide à mieux comprendre tes forces naturelles, ton fonctionnement et la manière dont tu abordes les situations du quotidien.",
+  "descriptionSeo": "Quel trait ressort le plus dans ta manière de réagir au quotidien ? À travers dix situations concrètes sur tes décisions, tes relations, les difficultés et les projets, découvre si ton fonctionnement tend davantage vers l'empathie, la détermination, la créativité, l'analyse, l'indépendance ou l'optimisme. Un test de personnalité ludique pour explorer tes tendances naturelles et mieux comprendre ta façon d'aborder différentes situations.",
   "category": {
     "name": "Psychologie",
     "slug": "psychologie"
   },
-  "createdAt": "2026-04-20",
+  "createdAt": "2026-09-22",
   "isNew": true,
   "isPopular": true,
   "images": {
@@ -19,460 +19,338 @@
     {
       "key": "empathique",
       "title": "L'Empathique",
-      "description": "Ton trait dominant est l’empathie. Tu es naturellement attentif aux émotions des autres et tu ressens facilement ce qu’ils vivent, parfois même sans qu’ils aient besoin de l’exprimer. Cette sensibilité fait de toi une personne à l’écoute, sincère et profondément humaine. Tu accordes beaucoup d’importance aux relations et tu privilégies les liens authentiques. Ton intuition émotionnelle te permet de comprendre les situations avec finesse et d’apporter du réconfort quand c’est nécessaire. Cependant, tu peux parfois absorber trop d’émotions ou avoir du mal à poser des limites, ce qui peut t’épuiser. Apprendre à te préserver est essentiel pour garder ton équilibre. Malgré cela, ton empathie est une vraie force : elle te permet de créer des relations profondes et de faire une réelle différence dans la vie des autres.",
+      "description": "Tu es particulièrement attentif(ve) à ce que les autres vivent et ressentent. Dans tes décisions et tes réactions, l'impact humain occupe souvent une place importante. Cette attention te permet de créer des liens sincères et d'être présent(e) d'une manière qui compte vraiment pour les personnes autour de toi. Ton point d'attention : absorber les émotions des autres peut parfois peser sur toi, et poser des limites claires reste essentiel pour préserver ton propre équilibre.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776771398/empathy_mvzut0.jpg"
     },
     {
       "key": "determine",
       "title": "Le Déterminé",
-      "description": "Ton trait dominant est la détermination. Tu es une personne qui avance avec volonté et persévérance, même lorsque les choses deviennent difficiles. Quand tu te fixes un objectif, tu fais tout pour l’atteindre et tu ne lâches pas facilement. Tu es fiable, engagé et capable de garder le cap dans les moments compliqués. Les défis ne te font pas peur, ils te motivent à te dépasser. Tu as souvent une vision claire de ce que tu veux et tu sais prendre des décisions. Cependant, tu peux parfois être exigeant envers toi-même et avoir du mal à ralentir ou à accepter l’échec. Trouver un équilibre entre performance et bien-être est important. Ta détermination reste une force puissante qui te permet d’avancer et de concrétiser tes ambitions.",
+      "description": "Lorsque tu te fixes un objectif, tu maintiens l'effort même quand les choses deviennent difficiles. Tu n'abandonnes pas facilement et tu cherches presque toujours un moyen de continuer malgré les obstacles. Cette persévérance te permet d'aller là où d'autres auraient renoncé. Ton point d'attention : cette exigence envers toi-même peut parfois rendre difficile d'accepter les moments où ralentir ou renoncer serait la meilleure décision.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776771397/determined_odjk1k.jpg"
     },
     {
       "key": "creatif",
       "title": "Le Créatif",
-      "description": "Ton trait dominant est la créativité. Tu as une imagination riche et une manière originale de voir le monde. Tu aimes explorer de nouvelles idées, sortir des sentiers battus et proposer des solutions différentes. Ton esprit fonctionne souvent de façon intuitive et inspirée, ce qui te permet d’apporter du renouveau dans tout ce que tu fais. Tu es attiré par ce qui stimule ton imagination et te permet de t’exprimer librement. Cependant, tu peux parfois te disperser ou avoir du mal à aller jusqu’au bout de tes projets. Apprendre à canaliser ton énergie créative peut t’aider à exploiter pleinement ton potentiel. Ta créativité est une véritable richesse : elle te rend unique et apporte une valeur originale autour de toi.",
+      "description": "Tu as tendance à chercher des alternatives là où d'autres restent sur la première option disponible. Ton esprit explore naturellement plusieurs possibilités et tu trouves souvent des angles qu'on n'avait pas envisagés. Cette capacité à sortir du cadre peut apporter une vraie valeur dans des situations qui semblent bloquées. Ton point d'attention : passer facilement d'une idée à une autre peut parfois rendre difficile d'aller jusqu'au bout d'un projet.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776771397/creative_s5mdep.jpg"
     },
     {
       "key": "analytique",
       "title": "L'Analytique",
-      "description": "Ton trait dominant est l’analyse. Tu prends le temps de réfléchir avant d’agir et tu cherches à comprendre les choses en profondeur. Tu es observateur, logique et souvent très pertinent dans tes décisions. Tu aimes comparer, structurer et anticiper les conséquences avant de te lancer. Cette capacité te permet d’éviter les erreurs et d’apporter de la clarté dans les situations complexes. Tu es souvent celui qui pose les bonnes questions et qui aide à voir plus loin. Cependant, tu peux parfois trop réfléchir et hésiter à passer à l’action. Apprendre à faire confiance à ton instinct peut t’aider à avancer plus facilement. Ton esprit analytique est une grande force qui te permet de prendre du recul et de faire des choix réfléchis.",
+      "description": "Avant d'agir, tu cherches généralement à comprendre. Tu compares les options, tu anticipes les conséquences et tu as besoin de clarté pour prendre une décision. Cette rigueur te permet d'éviter des erreurs que l'impatience ou l'intuition seule auraient pu provoquer. Ton point d'attention : vouloir analyser complètement une situation peut parfois retarder le passage à l'action dans des contextes où l'intuition ou la rapidité seraient plus utiles.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776771826/analytic_ofwghg.jpg"
     },
     {
       "key": "independant",
       "title": "L'Indépendant",
-      "description": "Ton trait dominant est l’indépendance. Tu tiens à ta liberté et tu aimes faire les choses à ta manière. Tu n’as pas besoin de suivre les autres pour avancer et tu préfères rester fidèle à toi-même. Tu es autonome, sincère et souvent très cohérent dans tes choix. Tu apprécies les environnements où tu peux agir sans trop de contraintes. Cette liberté te permet d’explorer, de décider et de construire ton propre chemin. Cependant, tu peux parfois être perçu comme distant ou avoir du mal à accepter certaines règles. Trouver un équilibre entre indépendance et collaboration peut t’aider à aller encore plus loin. Ton indépendance est une force qui te permet de rester aligné avec toi-même.",
+      "description": "Tu fonctionnes bien lorsque tu peux faire les choses à ta façon, sans avoir besoin de validation extérieure à chaque étape. Tu fais confiance à ton propre jugement et tu préfères te positionner par toi-même plutôt que de suivre ce que tout le monde fait. Ton point d'attention : ce fonctionnement autonome peut parfois être perçu comme une difficulté à collaborer ou à accepter des contraintes que d'autres jugent pourtant utiles.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776771609/independant_uketa9.jpg"
     },
     {
       "key": "optimiste",
       "title": "L'Optimiste",
-      "description": "Ton trait dominant est l’optimisme. Tu as tendance à voir le positif même dans les situations difficiles et à croire qu’il existe toujours une solution. Tu apportes de l’énergie, de la motivation et une bonne dynamique autour de toi. Tu es souvent celui qui encourage, qui relativise et qui redonne confiance aux autres. Cette vision t’aide à avancer plus facilement et à rebondir après les échecs. Tu es tourné vers les possibilités plutôt que vers les obstacles. Cependant, tu peux parfois minimiser certaines difficultés ou éviter les aspects plus négatifs. Trouver un équilibre entre réalisme et optimisme est important. Ton énergie positive reste une grande force qui inspire les autres et te permet de garder le cap.",
+      "description": "Même dans les situations difficiles, tu trouves assez naturellement ce qui reste possible ou ce qui peut encore bien tourner. Tu relativises plus facilement que beaucoup et tu as tendance à regarder vers ce qui vient plutôt qu'à t'attarder sur ce qui a mal marché. Ton point d'attention : cette facilité à voir le positif peut parfois te conduire à sous-estimer certaines difficultés qui auraient mérité d'être prises plus au sérieux.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776771726/optimistic_minzej.jpg"
     }
   ],
   "questions": [
     {
       "id": "1",
-      "question": "Un proche traverse une période difficile, comment réagis-tu ?",
+      "question": "Un projet auquel tu tiens rencontre un gros obstacle. Quel est ton premier réflexe ?",
       "answers": [
         {
-          "label": "Je l’écoute et je comprends ses émotions",
-          "scores": {
-            "empathique": 3,
-            "optimiste": 1
-          }
+          "label": "Je cherche rapidement comment continuer malgré l'obstacle.",
+          "scores": { "determine": 3 }
         },
         {
-          "label": "Je cherche des solutions concrètes rapidement",
-          "scores": {
-            "determine": 3,
-            "analytique": 1
-          }
+          "label": "Si d'autres personnes sont impliquées, je vérifie d'abord comment elles vivent la situation.",
+          "scores": { "empathique": 3 }
         },
         {
-          "label": "Je prends du recul pour analyser la situation",
-          "scores": {
-            "analytique": 3
-          }
+          "label": "J'essaie d'abord de comprendre précisément ce qui bloque avant de décider quoi faire.",
+          "scores": { "analytique": 3 }
         },
         {
-          "label": "Je propose une approche originale pour l’aider",
-          "scores": {
-            "creatif": 3
-          }
+          "label": "Je commence à imaginer d'autres manières d'arriver au même résultat.",
+          "scores": { "creatif": 3 }
         },
         {
-          "label": "Je l’encourage à garder espoir",
-          "scores": {
-            "optimiste": 3
-          }
+          "label": "Je prends un moment seul(e) pour décider de la manière dont j'ai envie de gérer la suite.",
+          "scores": { "independant": 3 }
         },
         {
-          "label": "Je respecte son espace et reste disponible",
-          "scores": {
-            "independant": 3
-          }
+          "label": "Je me demande assez vite ce que cette situation peut encore rendre possible.",
+          "scores": { "optimiste": 3 }
         }
       ]
     },
     {
       "id": "2",
-      "question": "Face à un imprévu, tu es plutôt du genre à…",
+      "question": "Ton groupe doit prendre une décision importante et personne n'est vraiment d'accord. Quel réflexe as-tu le plus facilement ?",
       "answers": [
         {
-          "label": "Rester attentif aux émotions autour de moi",
-          "scores": {
-            "empathique": 3
-          }
+          "label": "Je cherche une solution que personne n'avait encore envisagée.",
+          "scores": { "creatif": 3 }
         },
         {
-          "label": "Reprendre le contrôle rapidement",
-          "scores": {
-            "determine": 3
-          }
+          "label": "Je pousse le groupe à choisir une direction pour pouvoir avancer.",
+          "scores": { "determine": 3 }
         },
         {
-          "label": "Improviser avec créativité",
-          "scores": {
-            "creatif": 3
-          }
+          "label": "Je rappelle les points d'accord et ce qui peut fonctionner malgré le désaccord.",
+          "scores": { "optimiste": 3 }
         },
         {
-          "label": "Analyser avant d’agir",
-          "scores": {
-            "analytique": 3
-          }
+          "label": "Je défends mon avis même s'il est minoritaire.",
+          "scores": { "independant": 2, "determine": 1 }
         },
         {
-          "label": "Voir le positif dans la situation",
-          "scores": {
-            "optimiste": 3
-          }
+          "label": "Je cherche à comprendre ce qui compte vraiment pour chacun.",
+          "scores": { "empathique": 3 }
         },
         {
-          "label": "Gérer ça à ma manière, seul",
-          "scores": {
-            "independant": 3
-          }
+          "label": "Je remets les faits et les options à plat pour que le groupe puisse décider plus clairement.",
+          "scores": { "analytique": 3 }
         }
       ]
     },
     {
       "id": "3",
-      "question": "Dans un projet de groupe, tu es plutôt…",
+      "question": "Tu as enfin une journée entière sans obligation. Qu'est-ce qui se passe naturellement ?",
       "answers": [
         {
-          "label": "Celui qui veille à l’ambiance",
-          "scores": {
-            "empathique": 3
-          }
+          "label": "J'en profite volontiers pour avancer sur quelque chose que je repousse faute de temps.",
+          "scores": { "determine": 3 }
         },
         {
-          "label": "Celui qui fait avancer les choses",
-          "scores": {
-            "determine": 3
-          }
+          "label": "Je pense assez spontanément aux personnes avec qui j'aimerais passer un moment.",
+          "scores": { "empathique": 3 }
         },
         {
-          "label": "Celui qui propose des idées",
-          "scores": {
-            "creatif": 3
-          }
+          "label": "J'apprécie surtout de pouvoir décider au dernier moment sans devoir m'adapter à quelqu'un.",
+          "scores": { "independant": 3 }
         },
         {
-          "label": "Celui qui structure et organise",
-          "scores": {
-            "analytique": 3
-          }
+          "label": "Je cherche surtout ce qui pourrait rendre cette journée particulièrement agréable.",
+          "scores": { "optimiste": 3 }
         },
         {
-          "label": "Celui qui agit librement",
-          "scores": {
-            "independant": 3
-          }
+          "label": "J'ai souvent envie de commencer ou d'explorer quelque chose juste parce que ça m'intrigue.",
+          "scores": { "creatif": 3 }
         },
         {
-          "label": "Celui qui motive les autres",
-          "scores": {
-            "optimiste": 3
-          }
+          "label": "Je peux facilement passer du temps à approfondir un sujet qui m'intéresse.",
+          "scores": { "analytique": 3 }
         }
       ]
     },
     {
       "id": "4",
-      "question": "Quand tu prends une décision importante…",
+      "question": "Quelqu'un critique une idée que tu viens de proposer. Comment tu réagis ?",
       "answers": [
         {
-          "label": "Je me fie à mon ressenti",
-          "scores": {
-            "empathique": 3
-          }
+          "label": "J'écoute, mais si la critique ne me convainc pas vraiment, je maintiens mon point de vue.",
+          "scores": { "independant": 3 }
         },
         {
-          "label": "Je choisis l’option la plus efficace",
-          "scores": {
-            "determine": 3
-          }
+          "label": "Je cherche ce que la critique peut m'apporter pour améliorer ou reformuler l'idée.",
+          "scores": { "creatif": 3 }
         },
         {
-          "label": "Je suis mon intuition créative",
-          "scores": {
-            "creatif": 3
-          }
+          "label": "Je veux comprendre les arguments : s'ils sont solides, ça change ma lecture.",
+          "scores": { "analytique": 3 }
         },
         {
-          "label": "J’analyse toutes les options",
-          "scores": {
-            "analytique": 3
-          }
+          "label": "Je vérifie si la critique change réellement l'objectif que je vise, puis je continue.",
+          "scores": { "determine": 3 }
         },
         {
-          "label": "Je privilégie ma liberté",
-          "scores": {
-            "independant": 3
-          }
+          "label": "Je fais attention à ce qui motive la réaction de la personne, au-delà du contenu.",
+          "scores": { "empathique": 3 }
         },
         {
-          "label": "Je choisis ce qui me semble positif",
-          "scores": {
-            "optimiste": 3
-          }
+          "label": "Je ne transforme pas immédiatement la critique en échec et je regarde ce qui reste exploitable.",
+          "scores": { "optimiste": 3 }
         }
       ]
     },
     {
       "id": "5",
-      "question": "Face à un échec, tu…",
+      "question": "Tu dois apprendre quelque chose de difficile que tu ne maîtrises pas du tout. Comment tu t'y prends ?",
       "answers": [
         {
-          "label": "Ressens beaucoup mais cherches à comprendre",
-          "scores": {
-            "empathique": 3
-          }
+          "label": "Je cherche d'abord à comprendre la logique avant de passer à la pratique.",
+          "scores": { "analytique": 3 }
         },
         {
-          "label": "Repars immédiatement à l’action",
-          "scores": {
-            "determine": 3
-          }
+          "label": "Je demande volontiers à quelqu'un de me montrer comment il s'y prend, surtout si on peut avancer ensemble.",
+          "scores": { "empathique": 2, "analytique": 1 }
         },
         {
-          "label": "Essaies une nouvelle approche",
-          "scores": {
-            "creatif": 3
-          }
+          "label": "Je teste plusieurs méthodes jusqu'à trouver celle qui fonctionne pour moi.",
+          "scores": { "creatif": 3 }
         },
         {
-          "label": "Analyses ce qui n’a pas marché",
-          "scores": {
-            "analytique": 3
-          }
+          "label": "Je m'entraîne régulièrement, même si les premiers résultats sont décevants.",
+          "scores": { "determine": 3 }
         },
         {
-          "label": "Prends du recul seul",
-          "scores": {
-            "independant": 3
-          }
+          "label": "Je préfère expérimenter seul(e), à mon rythme, sans trop de cadre imposé.",
+          "scores": { "independant": 3 }
         },
         {
-          "label": "Restes confiant pour la suite",
-          "scores": {
-            "optimiste": 3
-          }
+          "label": "J'accepte de mal commencer en partant du principe que je peux progresser.",
+          "scores": { "optimiste": 3 }
         }
       ]
     },
     {
       "id": "6",
-      "question": "Ton plus grand point fort, selon toi ?",
+      "question": "Tu dois choisir entre plusieurs options et aucune ne semble parfaite. Qu'est-ce qui t'aide le plus à trancher ?",
       "answers": [
         {
-          "label": "Mon écoute et ma sensibilité",
-          "scores": {
-            "empathique": 3
-          }
+          "label": "Je me demande quelle option laisse le plus de latitude pour m'adapter ensuite.",
+          "scores": { "independant": 3 }
         },
         {
-          "label": "Ma persévérance",
-          "scores": {
-            "determine": 3
-          }
+          "label": "Je compare les conséquences de chacune aussi précisément que possible.",
+          "scores": { "analytique": 3 }
         },
         {
-          "label": "Mon imagination",
-          "scores": {
-            "creatif": 3
-          }
+          "label": "Je choisis l'option qui me semble la plus susceptible de mener à un bon résultat.",
+          "scores": { "optimiste": 2, "determine": 1 }
         },
         {
-          "label": "Ma logique",
-          "scores": {
-            "analytique": 3
-          }
+          "label": "Je cherche si une quatrième option, que je n'avais pas encore envisagée, est possible.",
+          "scores": { "creatif": 3 }
         },
         {
-          "label": "Mon autonomie",
-          "scores": {
-            "independant": 3
-          }
+          "label": "Je prends en compte ce que ça implique pour les personnes concernées.",
+          "scores": { "empathique": 3 }
         },
         {
-          "label": "Mon énergie positive",
-          "scores": {
-            "optimiste": 3
-          }
+          "label": "Je choisis l'option qui me rapproche le plus de ce que je veux atteindre.",
+          "scores": { "determine": 3 }
         }
       ]
     },
     {
       "id": "7",
-      "question": "Quand tu as du temps libre…",
+      "question": "Après plusieurs semaines difficiles, la situation commence enfin à se calmer. Quel comportement te ressemble le plus ?",
       "answers": [
         {
-          "label": "Je vois mes proches",
-          "scores": {
-            "empathique": 3
-          }
+          "label": "Je retrouve assez rapidement l'envie de regarder ce qui peut arriver de bien ensuite.",
+          "scores": { "optimiste": 3 }
         },
         {
-          "label": "Je travaille sur mes objectifs",
-          "scores": {
-            "determine": 3
-          }
+          "label": "J'ai besoin de temps seul(e) pour retrouver mon équilibre à mon propre rythme.",
+          "scores": { "independant": 3 }
         },
         {
-          "label": "Je crée ou explore",
-          "scores": {
-            "creatif": 3
-          }
+          "label": "Je pense aux personnes qui ont traversé cette période avec moi et à ce que ça a été pour elles.",
+          "scores": { "empathique": 3 }
         },
         {
-          "label": "Je réfléchis ou j’apprends",
-          "scores": {
-            "analytique": 3
-          }
+          "label": "Je reprends assez vite ce que j'avais mis en pause : la pause a duré assez longtemps.",
+          "scores": { "determine": 3 }
         },
         {
-          "label": "Je fais ce que je veux librement",
-          "scores": {
-            "independant": 3
-          }
+          "label": "Je repasse mentalement sur ce qui s'est passé pour mieux comprendre et en tirer quelque chose.",
+          "scores": { "analytique": 3 }
         },
         {
-          "label": "Je fais quelque chose qui me booste",
-          "scores": {
-            "optimiste": 3
-          }
+          "label": "J'ai envie d'explorer quelque chose de différent — cette période a parfois ouvert des idées.",
+          "scores": { "creatif": 2, "optimiste": 1 }
         }
       ]
     },
     {
       "id": "8",
-      "question": "Dans un conflit…",
+      "question": "Un désaccord avec quelqu'un commence à devenir personnel alors que le problème de départ était assez simple. Que fais-tu ?",
       "answers": [
         {
-          "label": "Je cherche à comprendre chacun",
-          "scores": {
-            "empathique": 3
-          }
+          "label": "J'essaie de comprendre ce qui s'est passé dans la conversation pour que ça dérape.",
+          "scores": { "empathique": 2, "analytique": 1 }
         },
         {
-          "label": "Je veux résoudre rapidement",
-          "scores": {
-            "determine": 3
-          }
+          "label": "Je cherche à recentrer l'échange sur le problème concret plutôt que sur les émotions.",
+          "scores": { "analytique": 3 }
         },
         {
-          "label": "Je propose une solution différente",
-          "scores": {
-            "creatif": 3
-          }
+          "label": "Je prends du recul : si la tension monte, mieux vaut sortir un moment.",
+          "scores": { "independant": 3 }
         },
         {
-          "label": "J’analyse les faits",
-          "scores": {
-            "analytique": 3
-          }
+          "label": "Je propose une issue qui permette à la situation d'avancer sans traîner.",
+          "scores": { "determine": 3 }
         },
         {
-          "label": "Je prends de la distance",
-          "scores": {
-            "independant": 3
-          }
+          "label": "J'essaie de désamorcer la tension pour qu'on puisse revenir au fond du sujet.",
+          "scores": { "optimiste": 2, "empathique": 1 }
         },
         {
-          "label": "Je détends l’atmosphère",
-          "scores": {
-            "optimiste": 3
-          }
+          "label": "Je reformule la situation d'une façon différente pour qu'on puisse la regarder autrement.",
+          "scores": { "creatif": 3 }
         }
       ]
     },
     {
       "id": "9",
-      "question": "Ce qui te rend unique ?",
+      "question": "On te confie un projet avec beaucoup de liberté et très peu d'instructions. Que se passe-t-il généralement ?",
       "answers": [
         {
-          "label": "Ma sensibilité",
-          "scores": {
-            "empathique": 3
-          }
+          "label": "J'apprécie cette liberté : je préfère définir ma propre façon d'avancer.",
+          "scores": { "independant": 3 }
         },
         {
-          "label": "Ma force mentale",
-          "scores": {
-            "determine": 3
-          }
+          "label": "Je commence par poser une structure claire avant de me lancer.",
+          "scores": { "analytique": 3 }
         },
         {
-          "label": "Mon originalité",
-          "scores": {
-            "creatif": 3
-          }
+          "label": "Les possibilités ouvertes m'inspirent et je commence rapidement à explorer des directions.",
+          "scores": { "creatif": 3 }
         },
         {
-          "label": "Ma lucidité",
-          "scores": {
-            "analytique": 3
-          }
+          "label": "Je me fixe assez vite un objectif précis pour garder un cap malgré le flou.",
+          "scores": { "determine": 3 }
         },
         {
-          "label": "Ma liberté d’esprit",
-          "scores": {
-            "independant": 3
-          }
+          "label": "Je pense à qui pourrait être concerné par ce projet et à comment l'impliquer utilement.",
+          "scores": { "empathique": 3 }
         },
         {
-          "label": "Mon optimisme",
-          "scores": {
-            "optimiste": 3
-          }
+          "label": "Je vois surtout le potentiel de ce que ça pourrait devenir et ça me donne de l'élan.",
+          "scores": { "optimiste": 3 }
         }
       ]
     },
     {
       "id": "10",
-      "question": "Tu te sens le mieux dans…",
+      "question": "Un proche hésite entre une option raisonnable et une option plus incertaine qui lui fait vraiment envie. Comment l'aides-tu ?",
       "answers": [
         {
-          "label": "Un environnement humain et chaleureux",
-          "scores": {
-            "empathique": 3
-          }
+          "label": "Je l'aide à identifier ce qu'il veut réellement, au-delà des arguments pour et contre.",
+          "scores": { "empathique": 3 }
         },
         {
-          "label": "Un cadre dynamique et ambitieux",
-          "scores": {
-            "determine": 3
-          }
+          "label": "Je compare avec lui les conséquences concrètes des deux options.",
+          "scores": { "analytique": 3 }
         },
         {
-          "label": "Un espace créatif et libre",
-          "scores": {
-            "creatif": 3
-          }
+          "label": "Je l'encourage à ne pas se fermer d'emblée à l'option incertaine : ça pourrait bien se passer.",
+          "scores": { "optimiste": 3 }
         },
         {
-          "label": "Un cadre structuré et logique",
-          "scores": {
-            "analytique": 3
-          }
+          "label": "Je cherche s'il existe une troisième possibilité qui combine ce qui l'attire dans les deux.",
+          "scores": { "creatif": 3 }
         },
         {
-          "label": "Un environnement flexible",
-          "scores": {
-            "independant": 3
-          }
+          "label": "Je l'aide à choisir et à passer à l'action plutôt que de rester dans l'hésitation.",
+          "scores": { "determine": 3 }
         },
         {
-          "label": "Un lieu positif et motivant",
-          "scores": {
-            "optimiste": 3
-          }
+          "label": "Je l'encourage surtout à faire son propre choix plutôt que de décider à sa place.",
+          "scores": { "independant": 3 }
         }
       ]
     }

@@ -1,13 +1,13 @@
 {
   "slug": "test-espace-rempli-ou-epure",
   "title": "Test lifestyle - Ton espace idéal est-il rempli ou épuré ?",
-  "description": "Un espace chargé te stimule ou te fatigue ? Ce test révèle l’environnement dans lequel tu te sens vraiment bien au quotidien.",
-  "descriptionSeo": "Décoration, organisation, rapport aux objets… ce test révèle si tu es fait(e) pour un espace rempli, équilibré ou épuré. À travers des situations concrètes, découvre l’environnement qui te correspond vraiment au quotidien.",
+  "description": "Un espace chargé te stimule ou te fatigue ? Ce test révèle l'environnement dans lequel tu te sens vraiment bien au quotidien.",
+  "descriptionSeo": "Tu te sens mieux dans un intérieur minimaliste et dégagé ou entouré(e) d'objets, de souvenirs et de décoration ? À travers dix situations concrètes sur ton rapport à l'espace, au rangement, aux objets et à la décoration, découvre si ton environnement idéal est plutôt épuré, équilibré ou rempli. Un test lifestyle pour mieux comprendre ce qui te permet de te sentir vraiment bien chez toi.",
   "category": {
     "name": "Lifestyle",
     "slug": "lifestyle"
   },
-  "createdAt": "2026-04-27",
+  "createdAt": "2026-09-22",
   "isNew": true,
   "isPopular": true,
   "images": {
@@ -19,111 +19,201 @@
     {
       "key": "epure",
       "title": "Épuré",
-      "description": "Tu es attiré(e) par les espaces simples, calmes et minimalistes. Tu n’aimes pas l’encombrement visuel ou les objets inutiles. Pour toi, moins il y a de choses, plus tu te sens bien. Tu apprécies les ambiances claires, organisées et respirantes. Tu as besoin d’espace pour te concentrer, te détendre et te sentir aligné(e). Le désordre peut vite te fatiguer ou t’agacer. Tu privilégies la qualité à la quantité et tu fais attention à ce que tu gardes autour de toi. Ton environnement reflète ton besoin de clarté mentale et de tranquillité.",
+      "description": "Tu te sens mieux lorsque ton environnement te laisse de l'espace, visuellement comme physiquement. Tu sélectionnes facilement ce qui mérite de rester autour de toi et tu apprécies les lieux où chaque élément semble avoir une raison d'être. Ton point d'attention : à force de rechercher la simplicité, tu peux parfois trouver encombrant ce qui apporte justement de la personnalité ou des souvenirs à un lieu.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777374606/epure_audk6y.jpg"
     },
     {
       "key": "equilibre",
       "title": "Équilibré",
-      "description": "Tu es entre les deux. Tu aimes les espaces agréables, vivants, mais sans excès. Tu apprécies la décoration, les objets personnels et une certaine chaleur, tout en gardant une organisation globale. Tu peux tolérer un peu de désordre, mais pas trop. Tu cherches un équilibre entre esthétique et fonctionnalité. Ton espace doit être à la fois pratique et accueillant. Tu n’es ni dans le minimalisme strict, ni dans l’accumulation. Tu sais créer un environnement qui te ressemble sans te surcharger.",
+      "description": "Tu apprécies un espace vivant, mais tu as besoin qu'il reste lisible et fonctionnel. Tu gardes volontiers des objets personnels ou décoratifs lorsqu'ils ont une utilité, une histoire ou qu'ils participent vraiment à l'ambiance. Ton point d'attention : chercher le juste milieu peut parfois rendre le tri plus difficile lorsque tu hésites entre garder et alléger.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777374812/mi-epure_tmlwgz.jpg"
     },
     {
       "key": "rempli",
       "title": "Rempli",
-      "description": "Tu aimes les espaces vivants, remplis d’objets, de souvenirs et de personnalité. Tu te sens mieux dans un environnement riche, avec des détails, des couleurs et des éléments qui racontent une histoire. Le vide peut te sembler froid ou impersonnel. Tu aimes accumuler ce qui te plaît et créer une ambiance chaleureuse et expressive. Ton espace est souvent un reflet direct de ta personnalité et de tes expériences. Tu n’as pas peur du désordre tant qu’il a du sens pour toi. Pour toi, vivre, c’est aussi s’entourer de choses qui comptent.",
+      "description": "Tu te sens bien dans les espaces qui racontent quelque chose. Objets, livres, photos, souvenirs ou décoration participent pour toi à l'identité d'un lieu, et un intérieur trop vide peut facilement te sembler impersonnel. Ton point d'attention : ton attachement à ce qui t'entoure peut parfois te faire conserver des choses auxquelles tu n'accordes finalement plus beaucoup d'importance.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777374741/rempli_qijrwi.jpg"
     }
   ],
   "questions": [
     {
       "id": "1",
-      "question": "Tu arrives dans une chambre d’hôtel très vide…",
+      "question": "Tu as emménagé depuis deux semaines et plusieurs cartons sont encore fermés. Tu réalises que leur contenu ne t'a pas vraiment manqué. Que fais-tu ?",
       "answers": [
-        { "label": "J’adore, ça respire", "scores": { "epure": 3 } },
-        { "label": "C’est correct mais un peu froid", "scores": { "equilibre": 3 } },
-        { "label": "Ça manque de vie", "scores": { "rempli": 3 } }
+        {
+          "label": "C'est plutôt un signe que je peux probablement me séparer d'une bonne partie de ce qu'il y a dedans.",
+          "scores": { "epure": 3 }
+        },
+        {
+          "label": "Je les ouvre et je garde ce qui a réellement une utilité ou une place chez moi.",
+          "scores": { "equilibre": 3 }
+        },
+        {
+          "label": "Je les ouvre quand même : il y a sûrement des choses que je serai content(e) de retrouver.",
+          "scores": { "rempli": 3 }
+        }
       ]
     },
     {
       "id": "2",
-      "question": "Ton bureau après une journée…",
+      "question": "Quelqu'un t'offre un objet décoratif qui a une valeur sentimentale, mais tu ne le trouves pas particulièrement adapté à ton intérieur.",
       "answers": [
-        { "label": "Rangé immédiatement", "scores": { "epure": 3 } },
-        { "label": "Un peu en désordre mais ok", "scores": { "equilibre": 3 } },
-        { "label": "Rempli de choses", "scores": { "rempli": 3 } }
+        {
+          "label": "Je peux apprécier le geste sans forcément garder l'objet exposé.",
+          "scores": { "epure": 3 }
+        },
+        {
+          "label": "Je cherche un endroit où il peut trouver sa place sans déséquilibrer toute la pièce.",
+          "scores": { "equilibre": 3 }
+        },
+        {
+          "label": "Je lui trouve une place : ce qu'il représente compte davantage pour moi que son accord parfait avec la décoration.",
+          "scores": { "rempli": 3 }
+        }
       ]
     },
     {
       "id": "3",
-      "question": "Tu dois décorer un salon…",
+      "question": "Tu veux rendre une pièce plus agréable sans changer les meubles. Vers quoi tu te tournes naturellement ?",
       "answers": [
-        { "label": "Peu d’objets, bien choisis", "scores": { "epure": 3 } },
-        { "label": "Quelques éléments pour donner du style", "scores": { "equilibre": 3 } },
-        { "label": "Beaucoup d’éléments, ambiance riche", "scores": { "rempli": 3 } }
+        {
+          "label": "Je retire ce qui ne sert pas ou ce qui encombre visuellement — la pièce respire déjà mieux.",
+          "scores": { "epure": 3 }
+        },
+        {
+          "label": "J'ajoute quelques éléments bien choisis : une plante, un objet, une lumière différente.",
+          "scores": { "equilibre": 3 }
+        },
+        {
+          "label": "J'ajoute de la décoration, des cadres, des éléments qui donnent du caractère et de la chaleur.",
+          "scores": { "rempli": 3 }
+        }
       ]
     },
     {
       "id": "4",
-      "question": "Tu fais du tri dans tes affaires…",
+      "question": "Tu retrouves une boîte remplie de vieux souvenirs que tu n'avais pas ouverte depuis des années. Comment tu réagis ?",
       "answers": [
-        { "label": "Je jette facilement", "scores": { "epure": 3 } },
-        { "label": "Je garde l’essentiel", "scores": { "equilibre": 3 } },
-        { "label": "Je garde beaucoup de choses", "scores": { "rempli": 3 } }
+        {
+          "label": "Je trie : quelques pièces importantes, et le reste peut partir.",
+          "scores": { "epure": 3 }
+        },
+        {
+          "label": "Je passe du temps à regarder, je garde ce qui a encore une vraie résonance et je laisse partir le reste.",
+          "scores": { "equilibre": 3 }
+        },
+        {
+          "label": "Je prends le temps de tout regarder et je garde beaucoup — ces objets ont une histoire qui compte pour moi.",
+          "scores": { "rempli": 3 }
+        }
       ]
     },
     {
       "id": "5",
-      "question": "Un espace trop chargé…",
+      "question": "Tu passes quelques jours dans un logement très minimaliste : murs blancs, peu de meubles, aucun objet décoratif. Comment tu vis ça ?",
       "answers": [
-        { "label": "Ça m’étouffe", "scores": { "epure": 3 } },
-        { "label": "Ça dépend du style", "scores": { "equilibre": 3 } },
-        { "label": "J’aime bien", "scores": { "rempli": 3 } }
+        {
+          "label": "J'aime bien — il y a quelque chose de reposant dans le fait de n'avoir que l'essentiel autour de soi.",
+          "scores": { "epure": 3 }
+        },
+        {
+          "label": "C'est agréable quelques jours, mais j'aurais envie d'ajouter un ou deux éléments pour me sentir vraiment à l'aise.",
+          "scores": { "equilibre": 3 }
+        },
+        {
+          "label": "Ça me semble un peu vide et impersonnel — j'ai besoin que l'endroit où je vis raconte quelque chose.",
+          "scores": { "rempli": 3 }
+        }
       ]
     },
     {
       "id": "6",
-      "question": "Ton écran de téléphone…",
+      "question": "Une surface chez toi — table basse, commode, rebord de fenêtre — commence progressivement à accueillir de plus en plus d'objets. Comment tu réagis ?",
       "answers": [
-        { "label": "Très clean", "scores": { "epure": 3 } },
-        { "label": "Un peu organisé", "scores": { "equilibre": 3 } },
-        { "label": "Plein d’apps partout", "scores": { "rempli": 3 } }
+        {
+          "label": "Ça me dérange assez vite et je fais un tri pour retrouver une surface dégagée.",
+          "scores": { "epure": 3 }
+        },
+        {
+          "label": "Je laisse faire un moment, puis je réévalue ce qui mérite vraiment de rester là.",
+          "scores": { "equilibre": 3 }
+        },
+        {
+          "label": "Ça ne me gêne pas si les objets ont chacun une raison d'être là — ce n'est pas du désordre, c'est de la vie.",
+          "scores": { "rempli": 3 }
+        }
       ]
     },
     {
       "id": "7",
-      "question": "Tu rentres chez toi…",
+      "question": "Tu entres chez quelqu'un dont les murs et les étagères sont remplis de livres, cadres, plantes et souvenirs. Quelle est ta première impression ?",
       "answers": [
-        { "label": "Je veux du calme visuel", "scores": { "epure": 3 } },
-        { "label": "Je veux un espace agréable", "scores": { "equilibre": 3 } },
-        { "label": "Je veux un espace vivant", "scores": { "rempli": 3 } }
+        {
+          "label": "Même si c'est intéressant, au bout d'un moment j'aurais envie d'avoir davantage d'espace visuel autour de moi.",
+          "scores": { "epure": 3 }
+        },
+        {
+          "label": "J'aime l'ambiance si les éléments semblent avoir été choisis et qu'on peut encore circuler visuellement.",
+          "scores": { "equilibre": 3 }
+        },
+        {
+          "label": "J'aime observer les détails — j'ai immédiatement l'impression que cet endroit raconte quelque chose.",
+          "scores": { "rempli": 3 }
+        }
       ]
     },
     {
       "id": "8",
-      "question": "Ton rapport aux objets…",
+      "question": "Tu achètes quelque chose de nouveau pour chez toi, mais tu ne sais pas encore où le mettre. Comment tu procèdes ?",
       "answers": [
-        { "label": "Je garde peu de choses", "scores": { "epure": 3 } },
-        { "label": "Je garde ce qui compte", "scores": { "equilibre": 3 } },
-        { "label": "J’aime accumuler", "scores": { "rempli": 3 } }
+        {
+          "label": "Je cherche d'abord si quelque chose peut partir pour lui laisser une vraie place.",
+          "scores": { "epure": 3 }
+        },
+        {
+          "label": "Je teste quelques endroits et je vois où il s'intègre le mieux sans créer de surcharge.",
+          "scores": { "equilibre": 3 }
+        },
+        {
+          "label": "Je lui trouve une place, même provisoire — je verrai plus tard si ça fonctionne ou si je réorganise.",
+          "scores": { "rempli": 3 }
+        }
       ]
     },
     {
       "id": "9",
-      "question": "Tu vois une étagère vide…",
+      "question": "Tu dois réduire tes affaires avant un déménagement dans un logement plus petit. Comment tu aborde le tri ?",
       "answers": [
-        { "label": "Je la laisse comme ça", "scores": { "epure": 3 } },
-        { "label": "J’ajoute quelques éléments", "scores": { "equilibre": 3 } },
-        { "label": "Je la remplis", "scores": { "rempli": 3 } }
+        {
+          "label": "Je garde ce que j'utilise réellement — le reste part sans trop d'hésitation.",
+          "scores": { "epure": 3 }
+        },
+        {
+          "label": "Je sélectionne selon l'utilité et la place disponible, mais je garde aussi quelques objets qui comptent.",
+          "scores": { "equilibre": 3 }
+        },
+        {
+          "label": "Je garde volontiers ce qui porte une histoire ou un souvenir, même si ça demande de l'organisation.",
+          "scores": { "rempli": 3 }
+        }
       ]
     },
     {
       "id": "10",
-      "question": "Ce qui te fait te sentir bien chez toi…",
+      "question": "Après une journée fatigante, quel type d'environnement t'aide naturellement à décrocher ?",
       "answers": [
-        { "label": "L’espace et le vide", "scores": { "epure": 3 } },
-        { "label": "Un bon équilibre", "scores": { "equilibre": 3 } },
-        { "label": "Les objets et l’ambiance", "scores": { "rempli": 3 } }
+        {
+          "label": "Un espace dégagé, calme, où rien n'attire inutilement mon regard.",
+          "scores": { "epure": 3 }
+        },
+        {
+          "label": "Un espace agréable et personnalisé, mais sans surcharge — quelque chose qui me ressemble sans m'envahir.",
+          "scores": { "equilibre": 3 }
+        },
+        {
+          "label": "Un espace qui m'entoure de choses que j'aime — ça me fait du bien de retrouver mon univers.",
+          "scores": { "rempli": 3 }
+        }
       ]
     }
   ]

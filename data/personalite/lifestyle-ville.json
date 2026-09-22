@@ -2,12 +2,12 @@
   "slug": "test-quelle-ville-du-monde-es-tu",
   "title": "Test lifestyle - Quelle ville du monde es-tu ?",
   "description": "Quelle ville du monde reflète vraiment ta personnalité ?",
-  "descriptionSeo": "À travers ton énergie, ton rythme de vie, tes envies d’ailleurs et ta façon d’interagir avec le monde, ce test révèle quelle grande ville te correspond le mieux. Es-tu intense comme New York, romantique comme Paris, créatif(ve) comme Tokyo, solaire comme Rio, libre comme Amsterdam ou mystérieux(se) comme Marrakech ?",
+  "descriptionSeo": "Quelle ville du monde correspond le mieux à ta personnalité ? À travers dix situations sur ton rythme de vie, tes choix, tes relations et ta façon d'explorer ce qui t'entoure, découvre si ton profil ressemble davantage à New York, Paris, Tokyo, Rio de Janeiro, Amsterdam ou Marrakech. Un test lifestyle pour révéler la ville qui reflète le mieux ta manière de vivre et de voir le monde.",
   "category": {
     "name": "Lifestyle",
     "slug": "lifestyle"
   },
-  "createdAt": "2026-04-27",
+  "createdAt": "2026-09-22",
   "isNew": true,
   "isPopular": true,
   "images": {
@@ -19,159 +19,339 @@
     {
       "key": "new_york",
       "title": "New York",
-      "description": "Tu es une personne ambitieuse, rapide et pleine d’énergie. Tu aimes quand les choses bougent, quand les journées sont intenses et que chaque moment peut ouvrir une nouvelle opportunité. Tu n’as pas peur de viser haut, de prendre ta place et de te battre pour ce que tu veux. Tu peux parfois avoir du mal à ralentir, car tu as souvent l’impression qu’il y a toujours quelque chose à faire, à construire ou à prouver. Tu es indépendant(e), déterminé(e) et tu avances avec une vraie force mentale. Les autres te voient comme quelqu’un de dynamique, parfois impressionnant(e), mais aussi inspirant(e). Comme New York, tu ne passes pas inaperçu(e) : tu as une énergie qui marque, qui attire et qui donne envie d’aller plus loin.",
+      "description": "Tu avances vite et tu aimes quand les choses bougent autour de toi. Une journée bien remplie ne te pèse pas : elle t'energise. Tu as tendance à chercher rapidement ce qu'une situation peut t'apporter, à te positionner sans trop attendre et à garder un œil sur ce qui vient après. Ton point d'attention : dans les moments de pression, tu peux parfois avoir du mal à souffler avant de repartir.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777297024/newyork_h9flfd.jpg"
     },
     {
       "key": "paris",
       "title": "Paris",
-      "description": "Tu es une personne sensible, esthétique et profondément attachée aux détails. Tu accordes beaucoup d’importance aux ambiances, aux mots, aux gestes et aux petites choses qui donnent du sens à la vie. Tu peux être romantique, exigeant(e), parfois difficile à cerner, mais c’est parce que tu recherches quelque chose de vrai, de beau et d’intense. Tu n’aimes pas le banal : tu veux ressentir, comprendre, admirer, questionner. Tu as une personnalité nuancée, avec une part de douceur et une part de caractère. Tu peux paraître réservé(e) ou sélectif(ve), mais quand quelque chose te touche, tu t’y attaches profondément. Comme Paris, tu mélanges élégance, émotion et complexité. Tu es une personnalité qui ne se livre pas toujours vite, mais qu’on n’oublie pas facilement.",
+      "description": "Tu es sensible à ce qui t'entoure et tu accordes beaucoup d'importance à ce que les choses soient vraiment bien faites, ressenties ou choisies. Tu peux prendre ton temps pour observer, sentir l'ambiance d'un lieu ou d'une situation avant de t'y engager. Tu es exigeant(e), pas toujours facile à impressionner, mais quand quelque chose te touche vraiment, tu t'y attaches pleinement. Ton point d'attention : la réalité ne correspondant pas toujours à ce qu'on imagine, cette exigence peut parfois être source de déception.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777297026/paris_klidei.jpg"
     },
     {
       "key": "tokyo",
       "title": "Tokyo",
-      "description": "Tu es une personne créative, curieuse et pleine de contrastes. Tu peux être calme en apparence, mais ton monde intérieur est extrêmement riche. Tu aimes explorer, tester, imaginer et te nourrir de nouvelles idées. Tu as une personnalité à la fois organisée et originale, capable de suivre une logique précise tout en gardant une part d’imprévisible. Tu peux passer d’un moment très posé à une envie soudaine de nouveauté ou d’inspiration. Tu es souvent attiré(e) par ce qui sort du cadre, par les univers visuels forts, les détails surprenants et les expériences différentes. Comme Tokyo, tu combines modernité, profondeur et singularité. Tu es quelqu’un qu’on découvre par couches, et plus on apprend à te connaître, plus on comprend que tu es unique.",
+      "description": "Ta curiosité est souvent attirée par ce qui sort du cadre habituel. Tu aimes explorer, tester, découvrir ce qui fonctionne différemment ou ce que tu n'avais pas encore essayé. Tu peux être organisé(e) dans ta manière d'avancer tout en gardant une vraie appétence pour la nouveauté et les expériences inhabituelles. Ton point d'attention : quand les idées se multiplient, choisir une direction et s'y tenir peut parfois demander un effort.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777297021/tokyo_k44fck.jpg"
     },
     {
       "key": "rio",
       "title": "Rio de Janeiro",
-      "description": "Tu es une personne solaire, vivante et profondément connectée aux émotions. Tu aimes profiter, rire, partager et vivre les choses avec intensité. Tu as une énergie chaleureuse qui donne souvent envie aux autres de se rapprocher de toi. Tu n’es pas fait(e) pour une vie trop rigide ou trop froide : tu as besoin de mouvement, de musique, de spontanéité et de moments qui restent en mémoire. Tu peux parfois fonctionner à l’instinct, mais c’est aussi ce qui te rend authentique. Tu cherches la joie, la liberté et les liens vrais. Comme Rio, tu es vibrant(e), expressif(ve) et impossible à résumer en une seule impression. Tu apportes de la couleur là où tu passes, même quand tout n’est pas parfait.",
+      "description": "Tu fonctionnes beaucoup à l'énergie du moment et aux personnes qui t'entourent. Tu aimes créer une bonne ambiance, partager facilement et te laisser porter par ce qui se passe spontanément plutôt que par un programme rigide. Tu as un côté expressif et chaleureux qui met souvent les gens à l'aise assez vite. Ton point d'attention : lorsque l'envie du moment prend le dessus, ce qui était prévu peut parfois attendre longtemps.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777297011/rio_fussde.jpg"
     },
     {
       "key": "amsterdam",
       "title": "Amsterdam",
-      "description": "Tu es une personne libre, ouverte et équilibrée. Tu aimes avancer à ton rythme, sans trop te laisser enfermer par les attentes des autres. Tu apprécies les ambiances simples, les relations naturelles et les moments où l’on peut être soi-même sans jouer un rôle. Tu es curieux(se), tolérant(e) et souvent attiré(e) par les modes de vie plus fluides, plus créatifs, plus humains. Tu n’as pas besoin d’en faire trop pour exister : ta force est dans ton naturel. Tu peux être indépendant(e), mais tu sais aussi créer du lien avec facilité. Comme Amsterdam, tu dégages une impression de calme, d’ouverture et de liberté. Tu es une personnalité qui respire, qui apaise et qui donne envie de ralentir sans s’ennuyer.",
+      "description": "Tu avances à ton propre rythme sans ressentir le besoin particulier de le justifier. Tu apprécies les choses simples, les relations naturelles et les environnements dans lesquels tu n'as pas à jouer de rôle. Tu peux être curieux(se) et ouvert(e) sans pour autant chercher la démonstration ou l'intensité. Ton point d'attention : quand une situation commence à ressembler à une contrainte, ton réflexe peut être de t'en éloigner avant de l'avoir vraiment affrontée.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777297014/amsterdam_vklrlp.jpg"
     },
     {
       "key": "marrakech",
       "title": "Marrakech",
-      "description": "Tu es une personne intense, chaleureuse et pleine de mystère. Tu as une présence marquante, parfois discrète au départ, mais toujours difficile à oublier. Tu es sensible aux ambiances, aux couleurs, aux sensations et à tout ce qui crée une atmosphère particulière. Tu n’aimes pas les choses trop froides ou trop impersonnelles : tu as besoin de chaleur, d’authenticité et de liens profonds. Tu peux être très accueillant(e), mais tu gardes aussi une part de toi secrète, comme un espace intérieur que seuls certains peuvent découvrir. Tu fonctionnes beaucoup à l’intuition et tu ressens les énergies autour de toi. Comme Marrakech, tu es magnétique, vivant(e) et rempli(e) de nuances. Ta personnalité attire parce qu’elle mélange force, douceur et profondeur.",
+      "description": "Tu es attentif(ve) aux atmosphères, aux non-dits et à ce que les situations dégagent au-delà des apparences. Tu peux être très chaleureux(se) et accueillant(e), mais tu gardes aussi une part de toi que peu de personnes atteignent vraiment. Tu fonctionnes souvent à l'intuition et tu ressens assez vite si quelque chose ou quelqu'un te correspond. Ton point d'attention : intérioriser longtemps avant d'exprimer ce qui ne va pas peut parfois compliquer certaines situations.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777297019/marrakesh_fslzu2.jpg"
     }
   ],
   "questions": [
     {
       "id": "1",
-      "question": "Tu arrives dans une ville inconnue, ton premier réflexe…",
+      "question": "Tu arrives seul(e) dans un endroit que tu ne connais absolument pas. Tu as plusieurs heures devant toi. Comment commences-tu ?",
       "answers": [
-        { "label": "Je veux voir les quartiers qui bougent", "scores": { "new_york": 3 } },
-        { "label": "Je cherche un joli café ou une belle rue", "scores": { "paris": 3 } },
-        { "label": "Je repère les endroits insolites", "scores": { "tokyo": 3 } },
-        { "label": "Je suis la musique et l’ambiance", "scores": { "rio": 3 } },
-        { "label": "Je loue un vélo et j’explore tranquillement", "scores": { "amsterdam": 3 } },
-        { "label": "Je me perds dans les ruelles et les couleurs", "scores": { "marrakech": 3 } }
+        {
+          "label": "Je veux profiter au maximum du temps disponible et voir rapidement ce que cet endroit peut m'offrir.",
+          "scores": { "new_york": 3 }
+        },
+        {
+          "label": "Je m'éloigne volontiers du parcours évident pour chercher les endroits où je ressens vraiment quelque chose.",
+          "scores": { "marrakech": 3 }
+        },
+        {
+          "label": "Je pars tranquillement sans chercher à optimiser : j'ai surtout envie d'explorer à mon propre rythme.",
+          "scores": { "amsterdam": 3 }
+        },
+        {
+          "label": "Je prends le temps d'observer l'endroit et je choisis surtout ce qui me donne envie par son atmosphère.",
+          "scores": { "paris": 2, "marrakech": 1 }
+        },
+        {
+          "label": "Je repère deux ou trois choses intrigantes, puis je construis mon exploration autour de ce qui éveille ma curiosité.",
+          "scores": { "tokyo": 3 }
+        },
+        {
+          "label": "Je commence à marcher et je me laisse facilement entraîner par une rencontre, une ambiance ou une envie du moment.",
+          "scores": { "rio": 3 }
+        }
       ]
     },
     {
       "id": "2",
-      "question": "Ton rythme idéal pendant un voyage…",
+      "question": "Tu avais prévu plusieurs choses dans ta journée, mais ton programme tombe complètement à l'eau. Comment tu réagis ?",
       "answers": [
-        { "label": "Rapide, intense, bien rempli", "scores": { "new_york": 3 } },
-        { "label": "Lent, esthétique, avec du temps pour flâner", "scores": { "paris": 3 } },
-        { "label": "Organisé mais plein de surprises", "scores": { "tokyo": 3 } },
-        { "label": "Spontané, vivant, sans trop de planning", "scores": { "rio": 3 } },
-        { "label": "Fluide, simple et sans pression", "scores": { "amsterdam": 3 } },
-        { "label": "Sensoriel, chaleureux et dépaysant", "scores": { "marrakech": 3 } }
+        {
+          "label": "Je prends un moment pour voir ce dont j'ai réellement envie maintenant que le programme a changé.",
+          "scores": { "marrakech": 3 }
+        },
+        {
+          "label": "Je réorganise rapidement : je n'aime pas avoir l'impression de perdre ma journée.",
+          "scores": { "new_york": 3 }
+        },
+        {
+          "label": "Je trouve une autre idée, quitte à essayer quelque chose que je n'avais jamais envisagé.",
+          "scores": { "tokyo": 3 }
+        },
+        {
+          "label": "Tant mieux, je peux finalement décider selon mon envie du moment.",
+          "scores": { "rio": 3 }
+        },
+        {
+          "label": "Je ralentis et j'en profite pour faire quelque chose qui me plaît vraiment plutôt que de remplir le temps.",
+          "scores": { "paris": 3 }
+        },
+        {
+          "label": "Ça ne me dérange pas tellement. Je profite de l'espace qui vient de se libérer.",
+          "scores": { "amsterdam": 3 }
+        }
       ]
     },
     {
       "id": "3",
-      "question": "Dans une foule, tu es plutôt…",
+      "question": "Tu es dans une foule animée. Où va spontanément ton attention ?",
       "answers": [
-        { "label": "Porté(e) par l’énergie autour de moi", "scores": { "new_york": 3 } },
-        { "label": "En train d’observer les détails", "scores": { "paris": 3 } },
-        { "label": "Curieux(se) de tout ce qui m’entoure", "scores": { "tokyo": 3 } },
-        { "label": "À l’aise, prêt(e) à parler à quelqu’un", "scores": { "rio": 3 } },
-        { "label": "Calme, je garde mon espace", "scores": { "amsterdam": 3 } },
-        { "label": "Attiré(e) par les sons, les odeurs, les ambiances", "scores": { "marrakech": 3 } }
+        {
+          "label": "Vers ce qui se passe autour de moi et ce que je pourrais faire ou aller voir ensuite.",
+          "scores": { "new_york": 3 }
+        },
+        {
+          "label": "Vers l'atmosphère générale : ce que la situation dégage, ce que les gens semblent ressentir.",
+          "scores": { "marrakech": 3 }
+        },
+        {
+          "label": "Vers les détails et les comportements individuels que j'observe discrètement.",
+          "scores": { "paris": 3 }
+        },
+        {
+          "label": "Vers les personnes : j'ai assez vite envie d'engager une conversation ou de créer du contact.",
+          "scores": { "rio": 3 }
+        },
+        {
+          "label": "Vers ce qui est inhabituel ou inattendu dans l'environnement.",
+          "scores": { "tokyo": 3 }
+        },
+        {
+          "label": "Vers mon propre rythme : je garde mon espace même si beaucoup de choses se passent autour.",
+          "scores": { "amsterdam": 3 }
+        }
       ]
     },
     {
       "id": "4",
-      "question": "Tu as une journée libre rien que pour toi…",
+      "question": "Dans un groupe où personne ne sait vraiment quoi faire, quelle place prends-tu spontanément ?",
       "answers": [
-        { "label": "Je remplis ma journée d’activités", "scores": { "new_york": 3 } },
-        { "label": "Je marche sans but avec une bonne playlist", "scores": { "paris": 3 } },
-        { "label": "Je teste un lieu atypique", "scores": { "tokyo": 3 } },
-        { "label": "Je vois des amis et je profite dehors", "scores": { "rio": 3 } },
-        { "label": "Je prends mon temps sans programme fixe", "scores": { "amsterdam": 3 } },
-        { "label": "Je cherche un endroit qui a une âme", "scores": { "marrakech": 3 } }
+        {
+          "label": "Je propose quelque chose assez vite pour que le groupe avance.",
+          "scores": { "new_york": 3 }
+        },
+        {
+          "label": "Je remarque assez vite qui est enthousiaste, qui hésite et ce que le groupe semble réellement vouloir.",
+          "scores": { "marrakech": 3 }
+        },
+        {
+          "label": "J'écoute d'abord les envies de chacun avant de défendre ce qui me semble vraiment intéressant.",
+          "scores": { "paris": 2, "amsterdam": 1 }
+        },
+        {
+          "label": "Je cherche surtout à créer une bonne énergie entre tout le monde.",
+          "scores": { "rio": 3 }
+        },
+        {
+          "label": "Je propose souvent une idée un peu différente de ce qui était envisagé.",
+          "scores": { "tokyo": 3 }
+        },
+        {
+          "label": "Je laisse chacun donner son avis et j'évite de transformer ça en problème.",
+          "scores": { "amsterdam": 3 }
+        }
       ]
     },
     {
       "id": "5",
-      "question": "Ton décor préféré pour te sentir bien…",
+      "question": "Tu as une journée entièrement libre. Qu'est-ce qui te donne envie spontanément ?",
       "answers": [
-        { "label": "Des lumières, du mouvement, une ville qui ne dort pas", "scores": { "new_york": 3 } },
-        { "label": "Une terrasse, des façades élégantes, une atmosphère douce", "scores": { "paris": 3 } },
-        { "label": "Des néons, des détails étranges, une ambiance futuriste", "scores": { "tokyo": 3 } },
-        { "label": "La plage, la chaleur, les gens qui vivent dehors", "scores": { "rio": 3 } },
-        { "label": "Des canaux, des vélos, une ambiance paisible", "scores": { "amsterdam": 3 } },
-        { "label": "Des couleurs chaudes, des marchés, des patios cachés", "scores": { "marrakech": 3 } }
+        {
+          "label": "Tester un lieu atypique ou une expérience que je n'aurais pas essayée dans un autre contexte.",
+          "scores": { "tokyo": 3 }
+        },
+        {
+          "label": "Voir des amis ou sortir là où il y a de l'énergie et des gens.",
+          "scores": { "rio": 3 }
+        },
+        {
+          "label": "Remplir ma journée d'activités pour en profiter pleinement.",
+          "scores": { "new_york": 3 }
+        },
+        {
+          "label": "Chercher un endroit qui a une vraie atmosphère — quelque chose qui me touche réellement.",
+          "scores": { "marrakech": 2, "paris": 1 }
+        },
+        {
+          "label": "Marcher sans destination précise et me laisser guider par ce que je rencontre.",
+          "scores": { "paris": 3 }
+        },
+        {
+          "label": "Prendre mon temps sans me donner un programme fixe.",
+          "scores": { "amsterdam": 3 }
+        }
       ]
     },
     {
       "id": "6",
-      "question": "Quel compliment te correspond le mieux ?",
+      "question": "Quand tu rencontres quelqu'un pour la première fois, comment ça se passe généralement ?",
       "answers": [
-        { "label": "Tu as une énergie incroyable", "scores": { "new_york": 3 } },
-        { "label": "Tu as beaucoup de charme", "scores": { "paris": 3 } },
-        { "label": "Tu es vraiment unique", "scores": { "tokyo": 3 } },
-        { "label": "Tu mets tout le monde à l’aise", "scores": { "rio": 3 } },
-        { "label": "Tu es simple et apaisant(e)", "scores": { "amsterdam": 3 } },
-        { "label": "Tu as quelque chose de magnétique", "scores": { "marrakech": 3 } }
+        {
+          "label": "Je crée facilement du lien et j'ai assez vite envie d'en savoir davantage.",
+          "scores": { "rio": 3 }
+        },
+        {
+          "label": "Je vais assez vite au fond des choses sans trop m'attarder sur les politesses.",
+          "scores": { "new_york": 3 }
+        },
+        {
+          "label": "Je suis chaleureux(se), mais je garde une part de moi en retrait jusqu'à ce que la confiance s'installe.",
+          "scores": { "marrakech": 3 }
+        },
+        {
+          "label": "Je reste naturel(le) sans chercher à en faire trop.",
+          "scores": { "amsterdam": 3 }
+        },
+        {
+          "label": "Je prends le temps de sentir si la personne me correspond avant de vraiment m'ouvrir.",
+          "scores": { "paris": 3 }
+        },
+        {
+          "label": "Je montre assez vite mes angles originaux pour voir comment la personne réagit.",
+          "scores": { "tokyo": 2, "rio": 1 }
+        }
       ]
     },
     {
       "id": "7",
-      "question": "Quand tu rencontres de nouvelles personnes…",
+      "question": "Tu dois t'engager dans quelque chose de nouveau pour plusieurs mois. Comment tu prends cette décision ?",
       "answers": [
-        { "label": "Je vais droit au but", "scores": { "new_york": 3 } },
-        { "label": "Je prends le temps de sentir l’ambiance", "scores": { "paris": 3 } },
-        { "label": "Je montre vite mes côtés originaux", "scores": { "tokyo": 3 } },
-        { "label": "Je crée facilement du lien", "scores": { "rio": 3 } },
-        { "label": "Je reste naturel(le), sans forcer", "scores": { "amsterdam": 3 } },
-        { "label": "Je suis chaleureux(se), mais je garde du mystère", "scores": { "marrakech": 3 } }
+        {
+          "label": "J'évalue assez rapidement si ça vaut le coup et je décide sans trop attendre.",
+          "scores": { "new_york": 3 }
+        },
+        {
+          "label": "Je prends le temps de sentir si l'idée me correspond vraiment, au-delà de ce qui est apparent.",
+          "scores": { "marrakech": 3 }
+        },
+        {
+          "label": "Ce qui m'attire surtout, c'est la possibilité d'apprendre ou d'expérimenter quelque chose que je ne connais pas encore.",
+          "scores": { "tokyo": 3 }
+        },
+        {
+          "label": "Je vérifie surtout que ça me laisse assez de liberté et que ça ne ressemble pas à une contrainte inutile.",
+          "scores": { "amsterdam": 3 }
+        },
+        {
+          "label": "Je pèse la qualité de ce que ça m'apportera vraiment avant de m'y engager.",
+          "scores": { "paris": 3 }
+        },
+        {
+          "label": "Si l'énergie et les personnes autour me plaisent, je peux décider assez spontanément.",
+          "scores": { "rio": 3 }
+        }
       ]
     },
     {
       "id": "8",
-      "question": "Ton plus gros défaut en mode “ville” serait…",
+      "question": "Quand une période devient vraiment difficile, quel travers peut le plus facilement apparaître chez toi ?",
       "answers": [
-        { "label": "Je vais trop vite", "scores": { "new_york": 3 } },
-        { "label": "Je suis parfois trop exigeant(e)", "scores": { "paris": 3 } },
-        { "label": "Je peux être difficile à suivre", "scores": { "tokyo": 3 } },
-        { "label": "Je fonctionne trop à l’envie du moment", "scores": { "rio": 3 } },
-        { "label": "Je fuis les contraintes", "scores": { "amsterdam": 3 } },
-        { "label": "Je garde trop de choses cachées", "scores": { "marrakech": 3 } }
+        {
+          "label": "Intérioriser longtemps avant de dire clairement ce qui ne va pas.",
+          "scores": { "marrakech": 3 }
+        },
+        {
+          "label": "Vouloir avancer avant d'avoir suffisamment soufflé ou réfléchi.",
+          "scores": { "new_york": 3 }
+        },
+        {
+          "label": "Multiplier les idées ou les pistes sans réussir à en suivre une seule vraiment.",
+          "scores": { "tokyo": 3 }
+        },
+        {
+          "label": "Repousser ce qui commence à ressembler à une contrainte.",
+          "scores": { "amsterdam": 3 }
+        },
+        {
+          "label": "Devenir très exigeant(e) quand la réalité ne correspond pas à ce qu'on imaginait.",
+          "scores": { "paris": 3 }
+        },
+        {
+          "label": "Privilégier l'envie immédiate au détriment de ce qui était prévu.",
+          "scores": { "rio": 3 }
+        }
       ]
     },
     {
       "id": "9",
-      "question": "Le soir tombe dans une grande ville…",
+      "question": "Tu dois choisir ton environnement de travail idéal. Qu'est-ce qui compte le plus pour toi ?",
       "answers": [
-        { "label": "J’ai envie de sortir et sentir l’énergie monter", "scores": { "new_york": 3 } },
-        { "label": "Je veux marcher sous les lumières et profiter de l’ambiance", "scores": { "paris": 3 } },
-        { "label": "Je cherche un quartier lumineux et surprenant", "scores": { "tokyo": 3 } },
-        { "label": "Je veux danser, rire ou retrouver du monde", "scores": { "rio": 3 } },
-        { "label": "Je préfère une soirée simple et détendue", "scores": { "amsterdam": 3 } },
-        { "label": "Je veux un endroit chaleureux, caché, presque secret", "scores": { "marrakech": 3 } }
+        {
+          "label": "Avoir beaucoup de rythme et d'interactions, un environnement qui bouge.",
+          "scores": { "new_york": 3 }
+        },
+        {
+          "label": "Pouvoir travailler à mon propre rythme, sans pression inutile.",
+          "scores": { "amsterdam": 3 }
+        },
+        {
+          "label": "Un cadre qui me stimule visuellement ou intellectuellement et dans lequel je peux explorer.",
+          "scores": { "tokyo": 3 }
+        },
+        {
+          "label": "Une ambiance humaine et chaleureuse, avec des personnes avec qui j'ai vraiment du plaisir à travailler.",
+          "scores": { "rio": 2, "marrakech": 1 }
+        },
+        {
+          "label": "Un cadre de qualité, dans lequel les choses sont faites avec soin.",
+          "scores": { "paris": 3 }
+        },
+        {
+          "label": "Un endroit qui dégage une atmosphère particulière, quelque chose que je ressens dès que j'y entre.",
+          "scores": { "marrakech": 3 }
+        }
       ]
     },
     {
       "id": "10",
-      "question": "Au fond, tu cherches surtout une vie…",
+      "question": "Une opportunité t'oblige à changer complètement de quotidien pendant un an. Qu'est-ce qui pourrait le plus te convaincre d'accepter ?",
       "answers": [
-        { "label": "Pleine d’opportunités", "scores": { "new_york": 3 } },
-        { "label": "Belle et intense", "scores": { "paris": 3 } },
-        { "label": "Créative et différente", "scores": { "tokyo": 3 } },
-        { "label": "Vivante et joyeuse", "scores": { "rio": 3 } },
-        { "label": "Libre et équilibrée", "scores": { "amsterdam": 3 } },
-        { "label": "Chaleureuse et profonde", "scores": { "marrakech": 3 } }
+        {
+          "label": "Le potentiel que ça représente et ce que ça pourrait m'apporter concrètement.",
+          "scores": { "new_york": 3 }
+        },
+        {
+          "label": "La liberté et l'autonomie que ça m'apporterait dans ma manière de vivre.",
+          "scores": { "amsterdam": 3 }
+        },
+        {
+          "label": "La qualité et le sens de ce que je ferais pendant cette période.",
+          "scores": { "paris": 3 }
+        },
+        {
+          "label": "La connexion personnelle que je ressentirais avec l'expérience ou les personnes impliquées.",
+          "scores": { "marrakech": 3 }
+        },
+        {
+          "label": "Les expériences humaines et les souvenirs que ça me permettrait de vivre.",
+          "scores": { "rio": 3 }
+        },
+        {
+          "label": "Ce que je pourrais apprendre, explorer ou découvrir que je n'aurais pas trouvé autrement.",
+          "scores": { "tokyo": 3 }
+        }
       ]
     }
   ]

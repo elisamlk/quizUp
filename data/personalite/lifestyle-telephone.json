@@ -2,12 +2,12 @@
   "slug": "test-es-tu-accro-a-ton-telephone",
   "title": "Test lifestyle - Es-tu accro à ton téléphone ?",
   "description": "Ton téléphone prend-il trop de place dans ta vie ?",
-  "descriptionSeo": "Notifications, réseaux sociaux, réflexe de regarder ton écran… ce test analyse tes habitudes pour savoir si tu es vraiment accro à ton téléphone. Découvre ton niveau de dépendance et ton rapport au digital à travers des situations concrètes du quotidien.",
+  "descriptionSeo": "Es-tu accro à ton téléphone ou simplement très connecté(e) ? À travers dix situations concrètes, observe tes réflexes face aux notifications, au scroll, aux moments d'attente et aux périodes sans écran. Ce test lifestyle explore la place que ton smartphone occupe dans ton quotidien, de l'usage plutôt détaché aux habitudes plus envahissantes, sans prétendre établir un diagnostic de dépendance.",
   "category": {
     "name": "Lifestyle",
     "slug": "lifestyle"
   },
-  "createdAt": "2026-04-27",
+  "createdAt": "2026-09-22",
   "isNew": true,
   "isPopular": true,
   "images": {
@@ -19,128 +19,248 @@
     {
       "key": "detache",
       "title": "Plutôt détaché(e)",
-      "description": "Tu as un rapport sain et équilibré avec ton téléphone. Tu sais l’utiliser quand c’est utile, mais tu n’en dépends pas au quotidien. Tu es capable de passer du temps sans écran sans ressentir de manque particulier, ce qui montre une vraie autonomie. Tu privilégies les interactions réelles, les moments présents et les activités qui ne nécessitent pas d’être connecté(e). Ton téléphone reste un outil, pas une extension de toi-même. Tu peux parfois rater une notification ou répondre plus tard, mais cela ne te dérange pas. Tu as su trouver une forme d’équilibre qui te permet de rester connecté(e) sans être envahi(e).",
+      "description": "Ton téléphone semble rester principalement un outil que tu consultes lorsque tu en as une raison. Tu peux bien sûr l'utiliser régulièrement, mais tu as généralement peu de difficulté à reporter une consultation ou à le laisser de côté lorsque ton attention est ailleurs. Les moments sans écran ne semblent pas créer automatiquement un besoin de vérifier ce qui se passe. Cela ne signifie pas que tu utilises peu ton téléphone : c'est surtout ton usage qui paraît assez intentionnel.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777298483/detached_j5fec2.jpg"
     },
     {
       "key": "equilibre",
       "title": "Plutôt équilibré(e)",
-      "description": "Tu utilises beaucoup ton téléphone, mais tu gardes encore le contrôle. Tu es présent(e) sur les réseaux, tu réponds rapidement et tu as souvent ton téléphone à portée de main, mais tu sais aussi décrocher quand c’est nécessaire. Tu peux passer du temps sans ton téléphone, même si tu ressens parfois une petite envie de vérifier ce qu’il se passe. Tu es dans un équilibre fragile : tout dépend des périodes. Si tu n’y fais pas attention, ton usage peut facilement augmenter. Mais pour l’instant, tu arrives encore à gérer ton temps et à garder une certaine distance.",
+      "description": "Ton téléphone occupe une place régulière dans ton quotidien, avec quelques automatismes qui restent généralement faciles à interrompre. Il peut t'arriver de vérifier une notification, de remplir un moment vide ou de rester un peu plus longtemps que prévu sur une application, mais tu arrives encore assez facilement à remettre ton attention ailleurs lorsque tu le décides. Ton usage peut varier selon les périodes, les applications et ce qui se passe dans ta journée.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777298486/balance_suerzn.jpg"
     },
     {
       "key": "connecte",
       "title": "Très connecté(e)",
-      "description": "Ton téléphone fait clairement partie de ton quotidien. Tu le consultes souvent, parfois sans même t’en rendre compte. Notifications, messages, réseaux… tu es rarement totalement déconnecté(e). Tu as tendance à remplir les moments de vide avec ton écran, que ce soit par habitude ou par réflexe. Tu n’es pas forcément dépendant(e), mais ton usage est bien ancré dans tes routines. Tu peux avoir du mal à te concentrer sans jeter un œil à ton téléphone. Tu es connecté(e), informé(e), mais parfois un peu trop sollicité(e).",
+      "description": "Ton téléphone est fortement intégré à tes habitudes quotidiennes. Tu peux le consulter rapidement lorsqu'un moment se libère, réagir aux notifications ou ouvrir certaines applications presque automatiquement. Ces réflexes ne signifient pas forcément que ton téléphone te pose problème, mais ils montrent qu'il occupe facilement ton attention. Dans certaines situations, remettre une consultation à plus tard ou rester complètement déconnecté(e) peut te demander un petit effort conscient.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777298481/connected_h94lvg.jpg"
     },
     {
       "key": "accro",
-      "title": "Complètement accro",
-      "description": "Ton téléphone est quasiment une extension de toi. Tu le consultes très souvent, parfois sans raison précise, et il t’accompagne dans presque tous les moments de ta journée. Tu peux avoir du mal à t’en détacher, même pendant des activités importantes ou des moments avec d’autres personnes. Les notifications attirent immédiatement ton attention et tu ressens souvent le besoin de vérifier ce qu’il se passe. Ton usage est devenu automatique, presque réflexe. Tu es hyper connecté(e), mais cela peut parfois te couper du moment présent. Il pourrait être intéressant de prendre un peu de recul pour retrouver un meilleur équilibre.",
+      "title": "Usage envahissant",
+      "description": "Ton téléphone semble parfois prendre ton attention avant même que tu aies réellement décidé de le consulter. Une notification, quelques secondes d'attente ou une envie de vérifier quelque chose peuvent facilement se transformer en consultation plus longue. Il peut aussi entrer en concurrence avec d'autres activités, des conversations ou des moments où tu avais prévu de faire autre chose. Ce résultat décrit des habitudes rapportées dans ce test, pas une dépendance au sens médical.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777298231/addict_r6ncad.jpg"
     }
   ],
-"questions": [
-  {
-    "id": "1",
-    "question": "Tu prends ton téléphone \"juste pour vérifier un truc\"…",
-    "answers": [
-      { "label": "Je fais ce que j’avais prévu puis je repose", "scores": { "detache": 3 } },
-      { "label": "Je reste 2-3 minutes de plus", "scores": { "equilibre": 3 } },
-      { "label": "Je finis par scroller sans m’en rendre compte", "scores": { "connecte": 3 } },
-      { "label": "Je me retrouve 20 min après sans savoir pourquoi", "scores": { "accro": 3 } }
-    ]
-  },
-  {
-    "id": "2",
-    "question": "Tu regardes un film ou une série…",
-    "answers": [
-      { "label": "Je ne touche pas à mon téléphone", "scores": { "detache": 3 } },
-      { "label": "Je regarde vite fait de temps en temps", "scores": { "equilibre": 3 } },
-      { "label": "Je check régulièrement", "scores": { "connecte": 3 } },
-      { "label": "Je suis autant sur mon téléphone que sur l’écran", "scores": { "accro": 3 } }
-    ]
-  },
-  {
-    "id": "3",
-    "question": "Tu es avec quelqu’un mais il/elle va aux toilettes 2 minutes…",
-    "answers": [
-      { "label": "Je reste tranquille", "scores": { "detache": 3 } },
-      { "label": "Je regarde mon téléphone vite fait", "scores": { "equilibre": 3 } },
-      { "label": "Je le prends direct", "scores": { "connecte": 3 } },
-      { "label": "Je scrolle automatiquement sans réfléchir", "scores": { "accro": 3 } }
-    ]
-  },
-  {
-    "id": "4",
-    "question": "Tu te réveilles en pleine nuit…",
-    "answers": [
-      { "label": "Je me rendors sans toucher à rien", "scores": { "detache": 3 } },
-      { "label": "Je regarde l’heure et basta", "scores": { "equilibre": 3 } },
-      { "label": "Je check mes notifications", "scores": { "connecte": 3 } },
-      { "label": "Je commence à scroller dans mon lit", "scores": { "accro": 3 } }
-    ]
-  },
-  {
-    "id": "5",
-    "question": "Tu poses ton téléphone quelque part…",
-    "answers": [
-      { "label": "Je peux l’oublier un moment", "scores": { "detache": 3 } },
-      { "label": "Je vérifie de temps en temps", "scores": { "equilibre": 3 } },
-      { "label": "Je pense souvent à le reprendre", "scores": { "connecte": 3 } },
-      { "label": "Je le reprends quasi immédiatement", "scores": { "accro": 3 } }
-    ]
-  },
-  {
-    "id": "6",
-    "question": "Tu reçois un message pendant que tu fais quelque chose d’important…",
-    "answers": [
-      { "label": "Je réponds plus tard", "scores": { "detache": 3 } },
-      { "label": "Je jette un œil rapidement", "scores": { "equilibre": 3 } },
-      { "label": "Je lis direct", "scores": { "connecte": 3 } },
-      { "label": "Je m’arrête pour répondre", "scores": { "accro": 3 } }
-    ]
-  },
-  {
-    "id": "7",
-    "question": "Tu ouvres Instagram / TikTok sans raison précise…",
-    "answers": [
-      { "label": "Ça m’arrive rarement", "scores": { "detache": 3 } },
-      { "label": "De temps en temps", "scores": { "equilibre": 3 } },
-      { "label": "Assez souvent", "scores": { "connecte": 3 } },
-      { "label": "Plusieurs fois par heure", "scores": { "accro": 3 } }
-    ]
-  },
-  {
-    "id": "8",
-    "question": "Tu es en train de discuter avec quelqu’un…",
-    "answers": [
-      { "label": "Je reste concentré(e)", "scores": { "detache": 3 } },
-      { "label": "Je regarde mon téléphone parfois", "scores": { "equilibre": 3 } },
-      { "label": "Je suis souvent distrait(e)", "scores": { "connecte": 3 } },
-      { "label": "Je regarde mon écran même en parlant", "scores": { "accro": 3 } }
-    ]
-  },
-  {
-    "id": "9",
-    "question": "Tu lances une app et tu ne sais plus pourquoi…",
-    "answers": [
-      { "label": "Ça ne m’arrive jamais", "scores": { "detache": 3 } },
-      { "label": "Rarement", "scores": { "equilibre": 3 } },
-      { "label": "Parfois", "scores": { "connecte": 3 } },
-      { "label": "Très souvent", "scores": { "accro": 3 } }
-    ]
-  },
-  {
-    "id": "10",
-    "question": "Tu quittes chez toi sans ton téléphone…",
-    "answers": [
-      { "label": "Je continue ma journée", "scores": { "detache": 3 } },
-      { "label": "Ça me dérange un peu", "scores": { "equilibre": 3 } },
-      { "label": "Je fais demi-tour si possible", "scores": { "connecte": 3 } },
-      { "label": "Impossible, je reviens direct", "scores": { "accro": 3 } }
-    ]
-  }
-]
+  "questions": [
+    {
+      "id": "1",
+      "question": "Tu prends ton téléphone pour vérifier quelque chose de précis. Quelques minutes plus tard, que se passe-t-il généralement ?",
+      "answers": [
+        {
+          "label": "En général, j'ai fait ce que je voulais faire et je suis déjà passé(e) à autre chose.",
+          "scores": { "detache": 3 }
+        },
+        {
+          "label": "J'ai souvent ouvert une ou deux autres choses sans l'avoir vraiment prévu.",
+          "scores": { "connecte": 3 }
+        },
+        {
+          "label": "Il m'arrive de prolonger un peu, mais je remarque généralement assez vite que je me suis éloigné(e) de ce que je voulais faire.",
+          "scores": { "equilibre": 3 }
+        },
+        {
+          "label": "Je peux réaliser bien plus tard que je suis encore dessus alors que ma raison initiale est terminée depuis longtemps.",
+          "scores": { "accro": 3 }
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "question": "Tu regardes un film qui t'intéresse vraiment et ton téléphone est à côté de toi. Que se passe-t-il ?",
+      "answers": [
+        {
+          "label": "Je peux finir par rater une partie du film parce que mon attention est partie sur mon téléphone.",
+          "scores": { "accro": 3 }
+        },
+        {
+          "label": "Je ne le prends pas : si le film m'intéresse, mon attention reste dessus.",
+          "scores": { "detache": 3 }
+        },
+        {
+          "label": "Même sans notification, il m'arrive de le prendre machinalement pendant une scène plus calme.",
+          "scores": { "connecte": 3 }
+        },
+        {
+          "label": "Je regarde parfois une notification, mais je peux généralement attendre avant d'y répondre.",
+          "scores": { "equilibre": 2, "detache": 1 }
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "question": "La personne avec qui tu es s'absente deux minutes. Sans rien avoir de particulier à vérifier, que fais-tu spontanément ?",
+      "answers": [
+        {
+          "label": "Je peux simplement attendre ou regarder ce qui se passe autour de moi.",
+          "scores": { "detache": 3 }
+        },
+        {
+          "label": "J'ai presque automatiquement déjà ouvert une application avant même d'avoir vraiment décidé de le faire.",
+          "scores": { "accro": 3 }
+        },
+        {
+          "label": "Mon téléphone finit assez naturellement dans ma main, même si je n'avais rien prévu d'y faire.",
+          "scores": { "connecte": 3 }
+        },
+        {
+          "label": "Il m'arrive de regarder rapidement quelque chose, mais ce n'est pas systématique.",
+          "scores": { "equilibre": 3 }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "question": "Tu attends cinq minutes quelque part sans rien de particulier à faire. Comment tu vis ce moment ?",
+      "answers": [
+        {
+          "label": "J'observe ce qui se passe autour de moi ou je laisse passer le temps sans ressentir le besoin d'attraper quelque chose.",
+          "scores": { "detache": 3 }
+        },
+        {
+          "label": "Mon téléphone arrive rapidement dans ma main — un moment vide, c'est difficile à laisser vide.",
+          "scores": { "accro": 3 }
+        },
+        {
+          "label": "Je me rends compte que je l'ai pris machinalement, puis je le repose assez vite.",
+          "scores": { "equilibre": 2, "connecte": 1 }
+        },
+        {
+          "label": "Je le prends presque toujours pour remplir ces quelques minutes, même si je n'avais rien de particulier à vérifier.",
+          "scores": { "connecte": 3 }
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "question": "Tu laisses ton téléphone dans une autre pièce pendant une heure où tu n'en as objectivement pas besoin. Que se passe-t-il ?",
+      "answers": [
+        {
+          "label": "Je fonctionne sans problème et j'y repense rarement pendant cette heure.",
+          "scores": { "detache": 3 }
+        },
+        {
+          "label": "Je peux y penser de temps en temps, mais sans que ça devienne vraiment gênant.",
+          "scores": { "equilibre": 3 }
+        },
+        {
+          "label": "Je le récupère avant la fin de l'heure, même sans raison précise.",
+          "scores": { "accro": 3 }
+        },
+        {
+          "label": "J'essaie de tenir, mais l'envie de vérifier revient régulièrement à l'esprit.",
+          "scores": { "connecte": 3 }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "question": "Tu travailles sur quelque chose qui demande vraiment ta concentration. Une notification apparaît. Que se passe-t-il ?",
+      "answers": [
+        {
+          "label": "J'attends d'avoir terminé ou d'être à un bon point d'arrêt avant de regarder.",
+          "scores": { "detache": 3 }
+        },
+        {
+          "label": "J'essaie de continuer ce que je faisais, mais la notification reste dans un coin de ma tête.",
+          "scores": { "connecte": 2, "equilibre": 1 }
+        },
+        {
+          "label": "Je jette un œil rapidement pour voir si c'est important, puis je reprends.",
+          "scores": { "equilibre": 3 }
+        },
+        {
+          "label": "Je m'arrête pour regarder, et il peut m'arriver de ne pas revenir immédiatement à ce que je faisais.",
+          "scores": { "accro": 3 }
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "question": "Tu ouvres une application sans avoir vraiment décidé de le faire. Ça t'arrive ?",
+      "answers": [
+        {
+          "label": "Rarement : j'ouvre généralement une application parce que j'ai quelque chose de précis à faire.",
+          "scores": { "detache": 3 }
+        },
+        {
+          "label": "Oui, et je peux continuer à scroller longtemps sans vraiment m'en rendre compte.",
+          "scores": { "accro": 3 }
+        },
+        {
+          "label": "Ça arrive de temps en temps, mais je referme assez vite quand je réalise que je n'avais rien à y faire.",
+          "scores": { "equilibre": 3 }
+        },
+        {
+          "label": "Oui, assez souvent — ouvrir certaines applications est devenu un réflexe assez automatique.",
+          "scores": { "connecte": 3 }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "question": "Tu es en conversation avec quelqu'un. Ton téléphone est posé sur la table, visible. Comment ça se passe ?",
+      "answers": [
+        {
+          "label": "Je reste pleinement dans la conversation et je ne fais pas attention à mon téléphone.",
+          "scores": { "detache": 3 }
+        },
+        {
+          "label": "Je peux regarder une notification si elle arrive, mais ça ne perturbe pas vraiment la conversation.",
+          "scores": { "equilibre": 3 }
+        },
+        {
+          "label": "Ma conversation est souvent interrompue par mon téléphone, que ce soit une notification ou un réflexe.",
+          "scores": { "accro": 3 }
+        },
+        {
+          "label": "Il attire parfois mon regard, surtout s'il y a une notification ou un moment de silence.",
+          "scores": { "connecte": 3 }
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "question": "Tu réalises que tu scrolles depuis beaucoup plus longtemps que prévu. Que fais-tu généralement ?",
+      "answers": [
+        {
+          "label": "Même après m'en être rendu compte, j'ai souvent du mal à arrêter immédiatement.",
+          "scores": { "accro": 3 }
+        },
+        {
+          "label": "Je ferme assez naturellement l'application et je reprends ce que je faisais.",
+          "scores": { "detache": 3 }
+        },
+        {
+          "label": "Je me dis que je vais arrêter, mais je peux facilement continuer encore quelques minutes.",
+          "scores": { "connecte": 3 }
+        },
+        {
+          "label": "Je termine ce que je regardais puis j'essaie de passer à autre chose.",
+          "scores": { "equilibre": 3 }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "question": "Tu passes une heure à faire quelque chose que tu apprécies vraiment, sans ton téléphone. À la fin, quelle est ta première réaction ?",
+      "answers": [
+        {
+          "label": "Je vais voir ce que j'ai raté assez vite — une heure sans téléphone, c'est long.",
+          "scores": { "accro": 3 }
+        },
+        {
+          "label": "Je reprends mon téléphone naturellement, mais sans urgence particulière.",
+          "scores": { "equilibre": 3 }
+        },
+        {
+          "label": "Je n'y pense pas forcément immédiatement : si l'activité était bonne, je reste dans cet état un moment.",
+          "scores": { "detache": 3 }
+        },
+        {
+          "label": "J'ai envie de voir ce qu'il s'est passé pendant ce temps, même si je sais que c'est probablement rien d'urgent.",
+          "scores": { "connecte": 3 }
+        }
+      ]
+    }
+  ]
 }

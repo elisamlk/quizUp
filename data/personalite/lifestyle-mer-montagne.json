@@ -2,12 +2,12 @@
   "slug": "test-mer-montagne-ou-ville",
   "title": "Test lifestyle - Es-tu mer, montagne ou ville ?",
   "description": "Mer, montagne ou ville : où te sens-tu vraiment à ta place ?",
-  "descriptionSeo": "Préférences, rythme de vie, environnement… ce test révèle si tu es fait(e) pour la mer, la montagne ou la ville. À travers des situations concrètes, découvre l’univers qui correspond vraiment à ta personnalité et à ton énergie.",
+  "descriptionSeo": "Mer, montagne ou ville : dans quel environnement te sentirais-tu vraiment à ta place ? À travers dix situations concrètes sur ton rythme de vie, ton besoin de calme, de nature, d'espace ou d'animation, découvre le cadre qui correspond le mieux à ta façon de vivre. Un test lifestyle pour savoir si ton quotidien idéal se trouve plutôt près de l'eau, au cœur de la nature ou dans l'énergie de la ville.",
   "category": {
     "name": "Lifestyle",
     "slug": "lifestyle"
   },
-  "createdAt": "2026-04-27",
+  "createdAt": "2026-09-22",
   "isNew": true,
   "isPopular": true,
   "images": {
@@ -19,112 +19,202 @@
     {
       "key": "mer",
       "title": "Mer",
-      "description": "Tu es quelqu’un de libre, spontané(e) et connecté(e) à tes émotions. La mer t’attire naturellement parce qu’elle représente l’évasion, le lâcher-prise et le mouvement. Tu aimes profiter du moment, ressentir, respirer et te laisser porter. Tu n’as pas besoin de tout contrôler pour te sentir bien. Tu es souvent attiré(e) par la lumière, les ambiances ouvertes et les moments simples mais intenses. Tu peux être changeant(e), comme les vagues, mais c’est aussi ce qui fait ta richesse. Tu es quelqu’un de vivant(e), sensible et tourné(e) vers l’instant présent.",
+      "description": "Tu te sens particulièrement bien dans les environnements ouverts, lumineux et respirants. Tu apprécies la sensation d'espace, les rythmes assez souples et les endroits où tu peux facilement passer de l'activité au repos. Ce qui compte pour toi n'est pas forcément d'être isolé(e), mais de sentir que ton environnement te laisse respirer et ralentir lorsque tu en as besoin. Ton point d'attention : les lieux très fermés, denses ou constamment stimulants peuvent parfois finir par te peser.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777373757/mer_x1ck4w.jpg"
     },
     {
       "key": "montagne",
       "title": "Montagne",
-      "description": "Tu es une personne calme, solide et profondément ancrée. Tu apprécies les environnements naturels, le silence et les moments où tu peux te retrouver. Tu n’as pas besoin d’agitation constante pour te sentir vivant(e). Au contraire, tu te ressourc es dans la simplicité, l’effort et la stabilité. Tu es quelqu’un de fiable, de posé et souvent très réfléchi. Tu avances à ton rythme, sans te comparer aux autres. Comme la montagne, tu es stable, résistant(e) et authentique. Tu privilégies la profondeur à la superficialité.",
+      "description": "Tu te ressources particulièrement dans les environnements calmes, naturels et peu saturés de stimulations. Tu apprécies d'avoir de l'espace, de pouvoir t'éloigner du bruit et de retrouver un rythme plus posé. Le silence ou l'isolement ne te dérangent pas forcément : ils peuvent même devenir une vraie source de récupération. Ton point d'attention : à force de rechercher le calme, les environnements très animés ou denses peuvent rapidement devenir fatigants pour toi.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777373928/montagne_svte1h.jpg"
     },
     {
       "key": "ville",
       "title": "Ville",
-      "description": "Tu es une personne dynamique, curieuse et stimulée par ton environnement. Tu aimes quand ça bouge, quand il y a des choses à faire, à voir, à vivre. La ville te correspond parce qu’elle t’offre de l’énergie, des opportunités et du rythme. Tu es sociable, adaptable et souvent attiré(e) par les nouveautés. Tu n’as pas peur de la foule ni du mouvement, au contraire. Tu as besoin d’être connecté(e), actif(ve) et stimulé(e). Comme la ville, tu es vivant(e), rapide et toujours en mouvement.",
+      "description": "Tu te sens particulièrement bien lorsqu'il existe autour de toi du mouvement, de la variété et des possibilités. Restaurants, commerces, activités, transports, rencontres ou simplement animation : tu apprécies de pouvoir décider spontanément de faire quelque chose sans devoir tout organiser longtemps à l'avance. Ton environnement participe à ton énergie. Ton point d'attention : lorsque les possibilités deviennent rares ou trop éloignées, tu peux assez vite ressentir une impression d'isolement ou de monotonie.",
       "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777297021/tokyo_k44fck.jpg"
     }
   ],
-"questions": [
-  {
-    "id": "1",
-    "question": "Tu ouvres la fenêtre le matin…",
-    "answers": [
-      { "label": "Air marin + odeur de sel", "scores": { "mer": 3 } },
-      { "label": "Air frais + silence total", "scores": { "montagne": 3 } },
-      { "label": "Bruit de la ville qui se réveille", "scores": { "ville": 3 } }
-    ]
-  },
-  {
-    "id": "2",
-    "question": "Tu marches 1h sans objectif précis…",
-    "answers": [
-      { "label": "Le long de l’eau", "scores": { "mer": 3 } },
-      { "label": "Sur un sentier nature", "scores": { "montagne": 3 } },
-      { "label": "Dans des rues animées", "scores": { "ville": 3 } }
-    ]
-  },
-  {
-    "id": "3",
-    "question": "Ton téléphone n’a plus de réseau…",
-    "answers": [
-      { "label": "Ça ne me dérange pas si je suis au bord de l’eau", "scores": { "mer": 3 } },
-      { "label": "Parfait, je décroche totalement", "scores": { "montagne": 3 } },
-      { "label": "Ça me saoule vite", "scores": { "ville": 3 } }
-    ]
-  },
-  {
-    "id": "4",
-    "question": "Tu dois passer 2h seul(e)…",
-    "answers": [
-      { "label": "Face à la mer à regarder l’horizon", "scores": { "mer": 3 } },
-      { "label": "Dans un coin calme en pleine nature", "scores": { "montagne": 3 } },
-      { "label": "Dans un café ou un lieu vivant", "scores": { "ville": 3 } }
-    ]
-  },
-  {
-    "id": "5",
-    "question": "Il fait très chaud…",
-    "answers": [
-      { "label": "Je veux être près de l’eau", "scores": { "mer": 3 } },
-      { "label": "Je cherche de la fraîcheur en altitude", "scores": { "montagne": 3 } },
-      { "label": "Je reste actif malgré tout", "scores": { "ville": 3 } }
-    ]
-  },
-  {
-    "id": "6",
-    "question": "Un dimanche sans plan…",
-    "answers": [
-      { "label": "Marcher pieds nus, chill", "scores": { "mer": 3 } },
-      { "label": "Sortir prendre l’air au calme", "scores": { "montagne": 3 } },
-      { "label": "Sortir, voir du monde, bouger", "scores": { "ville": 3 } }
-    ]
-  },
-  {
-    "id": "7",
-    "question": "Ton niveau d’énergie en fin de journée…",
-    "answers": [
-      { "label": "Je ralentis et je profite", "scores": { "mer": 3 } },
-      { "label": "Je me pose au calme", "scores": { "montagne": 3 } },
-      { "label": "J’ai encore envie de faire des choses", "scores": { "ville": 3 } }
-    ]
-  },
-  {
-    "id": "8",
-    "question": "Tu entends du bruit constant autour de toi…",
-    "answers": [
-      { "label": "Si c’est des vagues, j’adore", "scores": { "mer": 3 } },
-      { "label": "Je préfère le silence", "scores": { "montagne": 3 } },
-      { "label": "Ça ne me dérange pas", "scores": { "ville": 3 } }
-    ]
-  },
-  {
-    "id": "9",
-    "question": "Tu dois choisir un logement…",
-    "answers": [
-      { "label": "Petit mais vue mer", "scores": { "mer": 3 } },
-      { "label": "Isolé avec de l’espace", "scores": { "montagne": 3 } },
-      { "label": "Central même si c’est petit", "scores": { "ville": 3 } }
-    ]
-  },
-  {
-    "id": "10",
-    "question": "Ce qui te recharge vraiment…",
-    "answers": [
-      { "label": "Regarder l’horizon, respirer", "scores": { "mer": 3 } },
-      { "label": "Le calme profond et l’air pur", "scores": { "montagne": 3 } },
-      { "label": "Le mouvement et les stimulations", "scores": { "ville": 3 } }
-    ]
-  }
-]
+  "questions": [
+    {
+      "id": "1",
+      "question": "Tu dois vivre trois mois dans un nouvel endroit et tu peux choisir librement. Qu'est-ce qui compte le plus autour de chez toi ?",
+      "answers": [
+        {
+          "label": "Avoir beaucoup de choses accessibles facilement : restaurants, commerces, activités, animation.",
+          "scores": { "ville": 3 }
+        },
+        {
+          "label": "Être dans un environnement lumineux et dégagé, avec de l'espace et un rythme de vie souple.",
+          "scores": { "mer": 3 }
+        },
+        {
+          "label": "Pouvoir m'éloigner facilement du bruit et retrouver du calme et de la nature autour de moi.",
+          "scores": { "montagne": 3 }
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "question": "Après une semaine particulièrement chargée, tu as enfin une journée sans aucune obligation. Qu'est-ce qui te ferait le plus de bien ?",
+      "answers": [
+        {
+          "label": "M'éloigner vraiment de l'agitation, retrouver du silence et passer plusieurs heures dans un environnement naturel.",
+          "scores": { "montagne": 3 }
+        },
+        {
+          "label": "Sortir sans programme précis et décider sur le moment entre un café, une expo, des boutiques ou simplement me balader là où ça bouge.",
+          "scores": { "ville": 3 }
+        },
+        {
+          "label": "Sortir dans un endroit lumineux et dégagé, marcher sans programme et sentir que j'ai de l'espace autour de moi.",
+          "scores": { "mer": 3 }
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "question": "Tu trouves trois logements au même prix et de qualité équivalente. Aucun n'est parfait. Quel compromis te dérangerait le moins ?",
+      "answers": [
+        {
+          "label": "Avoir moins d'espace chez moi si je peux tout faire facilement à pied et avoir beaucoup de choses autour.",
+          "scores": { "ville": 3 }
+        },
+        {
+          "label": "Être un peu éloigné(e) des commerces si j'ai beaucoup d'espace, de calme et de nature autour de moi.",
+          "scores": { "montagne": 3 }
+        },
+        {
+          "label": "Être un peu éloigné(e) du centre si mon environnement est lumineux, dégagé et me donne une vraie sensation d'espace.",
+          "scores": { "mer": 3 }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "question": "Tu pars seul(e) quelques jours sans programme précis. Quel type d'endroit t'attire spontanément ?",
+      "answers": [
+        {
+          "label": "Un endroit naturel et calme, loin du bruit, où je peux vraiment décrocher.",
+          "scores": { "montagne": 3 }
+        },
+        {
+          "label": "Un endroit avec suffisamment de choses à explorer, découvrir et voir autour de moi.",
+          "scores": { "ville": 3 }
+        },
+        {
+          "label": "Un endroit ouvert et lumineux, où je peux flâner sans contrainte et me laisser porter par le rythme.",
+          "scores": { "mer": 3 }
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "question": "Tu sors de chez toi un samedi matin sans avoir prévu quoi que ce soit. Qu'aimerais-tu pouvoir faire spontanément ?",
+      "answers": [
+        {
+          "label": "Choisir parmi plusieurs options selon mon humeur : marché, café, exposition, balade ou autre chose.",
+          "scores": { "ville": 3 }
+        },
+        {
+          "label": "Me retrouver rapidement dans un endroit calme et naturel, loin du bruit et de l'agitation.",
+          "scores": { "montagne": 3 }
+        },
+        {
+          "label": "Marcher dans un environnement ouvert et lumineux, sans me presser et sans destination précise.",
+          "scores": { "mer": 3 }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "question": "Tu télétravailles depuis le même endroit pendant plusieurs semaines. Quel environnement aurait le plus d'effet positif sur ton bien-être ?",
+      "answers": [
+        {
+          "label": "Un endroit dégagé avec beaucoup de lumière naturelle et la possibilité de sortir respirer l'air frais facilement.",
+          "scores": { "mer": 2, "montagne": 1 }
+        },
+        {
+          "label": "Un endroit dans un quartier animé, avec des cafés, des commerces et de la vie autour de moi.",
+          "scores": { "ville": 3 }
+        },
+        {
+          "label": "Un endroit calme et naturel, loin des distractions, où je peux vraiment me concentrer et récupérer.",
+          "scores": { "montagne": 3 }
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "question": "Des amis proposent trois week-ends très différents. Lequel t'attire le plus naturellement ?",
+      "answers": [
+        {
+          "label": "Un week-end très vivant à explorer : musées, restaurants, différents quartiers et une bonne table le soir.",
+          "scores": { "ville": 3 }
+        },
+        {
+          "label": "Un week-end en pleine nature, loin des routes, avec randonnée, silence et paysages dégagés.",
+          "scores": { "montagne": 3 }
+        },
+        {
+          "label": "Un week-end dans un endroit lumineux et ouvert, entre balade, détente et quelques bons moments sans se presser.",
+          "scores": { "mer": 3 }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "question": "Tu dois vivre quelque part sans voiture pendant un an. Qu'est-ce qui devient le plus important dans ton choix ?",
+      "answers": [
+        {
+          "label": "Que tout soit accessible à pied ou en transport : c'est indispensable pour que je me sente libre.",
+          "scores": { "ville": 3 }
+        },
+        {
+          "label": "Que l'environnement immédiat soit agréable et respirant, même si je ne peux pas aller très loin.",
+          "scores": { "mer": 2, "montagne": 1 }
+        },
+        {
+          "label": "Que je sois suffisamment proche d'espaces naturels pour pouvoir m'y rendre facilement à pied.",
+          "scores": { "montagne": 3 }
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "question": "Tu passes plusieurs semaines dans un endroit agréable. Qu'est-ce qui finirait le plus probablement par te manquer ?",
+      "answers": [
+        {
+          "label": "Pouvoir retrouver facilement un endroit ouvert et lumineux, où marcher et laisser mon regard porter loin.",
+          "scores": { "mer": 3 }
+        },
+        {
+          "label": "Pouvoir sortir et trouver facilement de nouveaux endroits, activités ou personnes autour de moi.",
+          "scores": { "ville": 3 }
+        },
+        {
+          "label": "Avoir accès à un vrai espace naturel où je peux m'éloigner du bruit et me retrouver au calme.",
+          "scores": { "montagne": 3 }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "question": "Tu imagines ton quotidien idéal dans quelques années. Quelle sensation voudrais-tu ressentir en sortant de chez toi ?",
+      "answers": [
+        {
+          "label": "Avoir de l'espace, de la lumière et la sensation que mon environnement me laisse respirer librement.",
+          "scores": { "mer": 3 }
+        },
+        {
+          "label": "Sentir que tout ce dont j'ai envie est à portée et que je peux décider spontanément de ce que je fais.",
+          "scores": { "ville": 3 }
+        },
+        {
+          "label": "Me sentir vraiment éloigné(e) de l'agitation, entouré(e) de calme et d'un environnement naturel.",
+          "scores": { "montagne": 3 }
+        }
+      ]
+    }
+  ]
 }
