@@ -1,351 +1,350 @@
 {
-    "slug": "test-personnalite-strategique-ou-impulsif",
-    "title": "Test personnalité - Es-tu stratégique ou impulsif ?",
-    "description": "Révèle si ton esprit est stratégique ou guidé par l’instant.",
-    "descriptionSeo": "Ce test de personnalité permet d’analyser si tu es plutôt stratégique ou impulsif dans ta manière de penser et d’agir. À travers des questions sur tes décisions, tes réactions et ta gestion des situations, identifie ton fonctionnement dominant. Privilégies-tu l’anticipation et la réflexion ou l’action rapide et instinctive ? Un test clair et révélateur pour mieux comprendre ton comportement face aux choix du quotidien.",
-    "category": {
-        "name": "Psychologie",
-        "slug": "psychologie"
+  "slug": "test-personnalite-strategique-ou-impulsif",
+  "title": "Test personnalité - Es-tu stratégique ou impulsif ?",
+  "description": "Révèle si ton esprit est stratégique ou guidé par l'instant.",
+  "descriptionSeo": "Face à une décision, as-tu tendance à anticiper, à agir sous l'impulsion du moment ou à combiner réflexion rapide et action ? À travers dix situations concrètes, découvre comment tu réagis face aux opportunités, aux imprévus, à la pression et aux choix du quotidien. Un test de personnalité ludique pour mieux comprendre la place que tu accordes à l'anticipation, à l'élan immédiat et à l'adaptation dans tes décisions.",
+  "category": {
+    "name": "Psychologie",
+    "slug": "psychologie"
+  },
+  "createdAt": "2026-09-22",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776942924/cover_hghhdr.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776942924/cover_hghhdr.jpg",
+    "alt": "Test personnalité strategique ou impulsif"
+  },
+  "profiles": [
+    {
+      "key": "strategique",
+      "title": "Le Stratégique",
+      "description": "Tes réponses font surtout ressortir une tendance à anticiper avant de t'engager dans une décision. Tu cherches à évaluer les conséquences, à comparer les options disponibles et à construire une vision suffisamment claire avant d'agir. Cette manière de fonctionner peut t'aider à éviter des décisions que tu regretterais et à rester cohérent dans tes choix. Ton point d'attention : cette tendance à analyser peut parfois te faire attendre un peu trop avant d'agir, notamment dans des situations où une décision rapide aurait été tout aussi bonne.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776942924/strategic_izdej8.jpg"
     },
-    "createdAt": "2026-04-20",
-    "isNew": true,
-    "isPopular": true,
-    "images": {
-        "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776942924/cover_hghhdr.jpg",
-        "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776942924/cover_hghhdr.jpg",
-        "alt": "Test personnalité strategique ou impulsif"
+    {
+      "key": "impulsif",
+      "title": "L'Impulsif",
+      "description": "Tes réponses font surtout ressortir une tendance à agir sous l'effet de l'élan du moment, notamment lorsque la décision doit être prise rapidement ou que l'envie est forte. Tu accordes beaucoup de poids à l'enthousiasme, à l'émotion ou à l'opportunité immédiate. Cette réactivité peut t'amener à saisir des occasions que d'autres auraient laissé passer. Ton point d'attention : agir vite peut parfois conduire à des décisions auxquelles tu aurais donné une direction différente avec un peu plus de recul.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776942925/impulsive_j058qm.jpg"
     },
-    "profiles": [
+    {
+      "key": "stratege_instinctif",
+      "title": "Le Stratège Instinctif",
+      "description": "Tes réponses font surtout ressortir une tendance à faire une vérification rapide des éléments importants, puis à accepter de décider sans attendre d'avoir toutes les informations. Tu sais accélérer ou ralentir selon l'enjeu et la situation, sans te bloquer sur une seule manière de faire. Cette flexibilité peut te permettre de réagir efficacement dans des contextes variés. Ton point d'attention : alterner entre les deux modes peut parfois rendre difficile d'identifier clairement à quel moment il vaut mieux s'arrêter et quand il vaut mieux passer à l'action.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776942923/stratege-instinct_esjf1b.jpg"
+    }
+  ],
+  "questions": [
+    {
+      "id": "1",
+      "question": "Tu vois quelque chose d'assez cher que tu veux depuis longtemps, avec une grosse promotion valable uniquement aujourd'hui. Que fais-tu ?",
+      "answers": [
         {
-            "key": "strategique",
-            "title": "Le Stratégique",
-            "description": "Tu es une personne stratégique. Avant d’agir, tu prends le temps de réfléchir, d’analyser et d’anticiper les conséquences de tes décisions. Tu préfères construire une vision claire plutôt que de te lancer dans l’action sans préparation. Cette manière de fonctionner te permet d’éviter de nombreuses erreurs et de prendre des décisions réfléchies et cohérentes. Tu es souvent perçu comme quelqu’un de posé, fiable et lucide. Tu aimes avoir une certaine maîtrise des situations et tu te sens à l’aise lorsque tu peux planifier les choses. Cependant, cette tendance à analyser peut parfois te ralentir ou t’empêcher de saisir des opportunités rapides. Ton défi est d’accepter une part d’imprévu. Ta force réside dans ta capacité à anticiper, structurer et prendre du recul.",
-            "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776942924/strategic_izdej8.jpg"
+          "label": "Je vérifie mon budget, le prix habituel et si j'en ai vraiment l'utilité avant de décider.",
+          "scores": {
+            "strategique": 3
+          }
         },
         {
-            "key": "impulsif",
-            "title": "L'Impulsif",
-            "description": "Tu es une personne impulsive. Tu agis rapidement, souvent guidé par ton instinct et tes émotions. Tu n’aimes pas rester bloqué dans la réflexion et tu préfères passer à l’action sans attendre. Cette spontanéité te rend réactif, dynamique et capable de saisir des opportunités que d’autres pourraient manquer. Tu es à l’aise dans les situations imprévues et tu sais t’adapter rapidement. Cependant, cette tendance peut parfois te pousser à agir trop vite ou à ne pas mesurer toutes les conséquences. Tu peux regretter certaines décisions prises sur le moment. Ton défi est de prendre un peu plus de recul avant d’agir. Ta force réside dans ta rapidité, ton énergie et ta capacité à agir sans hésitation.",
-            "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776942925/impulsive_j058qm.jpg"
+          "label": "Si je le veux vraiment et que l'occasion semble bonne, j'ai tendance à l'acheter avant de trop réfléchir.",
+          "scores": {
+            "impulsif": 3
+          }
         },
         {
-            "key": "stratege_instinctif",
-            "title": "Le Stratège Instinctif",
-            "description": "Tu es un mélange intéressant entre stratégie et impulsivité. Tu es capable de réfléchir et d’analyser, mais tu sais aussi passer à l’action rapidement quand c’est nécessaire. Tu ne restes pas bloqué dans la réflexion et tu n’agis pas non plus totalement au hasard. Tu sais ajuster ton comportement selon les situations, ce qui te rend particulièrement adaptable. Tu peux anticiper tout en restant flexible, ce qui est une vraie force. Cependant, tu peux parfois hésiter entre réfléchir davantage ou agir immédiatement. Ton défi est de faire confiance à ton équilibre naturel. Ta force réside dans ta capacité à combiner réflexion et action, et à t’adapter rapidement aux contextes.",
-            "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776942923/stratege-instinct_esjf1b.jpg"
+          "label": "Je vérifie rapidement les deux ou trois éléments qui pourraient me faire regretter l'achat, puis je tranche.",
+          "scores": {
+            "stratege_instinctif": 3
+          }
+        },
+        {
+          "label": "Je peux l'acheter sur le moment si l'enthousiasme prend le dessus, quitte à me demander ensuite si c'était raisonnable.",
+          "scores": {
+            "impulsif": 2,
+            "stratege_instinctif": 1
+          }
         }
-    ],
-    "questions": [
+      ]
+    },
+    {
+      "id": "2",
+      "question": "Tu reçois un message qui t'agace vraiment alors que tu es déjà énervé(e). Comment réagis-tu le plus souvent ?",
+      "answers": [
         {
-            "id": "1",
-            "question": "Quand tu dois prendre une décision importante…",
-            "answers": [
-                {
-                    "label": "Je prends le temps d’analyser",
-                    "scores": {
-                        "strategique": 3
-                    }
-                },
-                {
-                    "label": "Je décide rapidement",
-                    "scores": {
-                        "impulsif": 3
-                    }
-                },
-                {
-                    "label": "Je réfléchis un peu puis j’agis",
-                    "scores": {
-                        "stratege_instinctif": 2,
-                        "strategique": 1
-                    }
-                },
-                {
-                    "label": "Je me fie à mon ressenti",
-                    "scores": {
-                        "impulsif": 2,
-                        "stratege_instinctif": 1
-                    }
-                }
-            ]
+          "label": "Je prends le temps de me calmer avant de répondre — ce que j'envoie à chaud n'est souvent pas ce que je veux vraiment dire.",
+          "scores": {
+            "strategique": 3
+          }
         },
         {
-            "id": "2",
-            "question": "Face à une opportunité…",
-            "answers": [
-                {
-                    "label": "Je l’évalue avant de me lancer",
-                    "scores": {
-                        "strategique": 3
-                    }
-                },
-                {
-                    "label": "Je saute dessus directement",
-                    "scores": {
-                        "impulsif": 3
-                    }
-                },
-                {
-                    "label": "Je réfléchis vite puis je décide",
-                    "scores": {
-                        "stratege_instinctif": 2
-                    }
-                },
-                {
-                    "label": "Je me laisse porter par le moment",
-                    "scores": {
-                        "impulsif": 2,
-                        "stratege_instinctif": 1
-                    }
-                }
-            ]
+          "label": "Ma réponse part assez vite : je gère les conséquences après si besoin.",
+          "scores": {
+            "impulsif": 3
+          }
         },
         {
-            "id": "3",
-            "question": "Dans une situation imprévue…",
-            "answers": [
-                {
-                    "label": "J’analyse avant d’agir",
-                    "scores": {
-                        "strategique": 3
-                    }
-                },
-                {
-                    "label": "Je réagis immédiatement",
-                    "scores": {
-                        "impulsif": 3
-                    }
-                },
-                {
-                    "label": "Je m’adapte rapidement",
-                    "scores": {
-                        "stratege_instinctif": 2
-                    }
-                },
-                {
-                    "label": "Je fais au feeling",
-                    "scores": {
-                        "impulsif": 2,
-                        "stratege_instinctif": 1
-                    }
-                }
-            ]
+          "label": "Je laisse passer quelques minutes, puis je réponds de façon directe mais sans attendre davantage.",
+          "scores": {
+            "stratege_instinctif": 3
+          }
         },
         {
-            "id": "4",
-            "question": "Quand tu fais une erreur…",
-            "answers": [
-                {
-                    "label": "Je cherche à comprendre pourquoi",
-                    "scores": {
-                        "strategique": 3
-                    }
-                },
-                {
-                    "label": "Je passe à autre chose",
-                    "scores": {
-                        "impulsif": 3
-                    }
-                },
-                {
-                    "label": "J’analyse puis j’avance",
-                    "scores": {
-                        "stratege_instinctif": 2
-                    }
-                },
-                {
-                    "label": "Je réagis selon mon humeur",
-                    "scores": {
-                        "impulsif": 2,
-                        "stratege_instinctif": 1
-                    }
-                }
-            ]
-        },
-        {
-            "id": "5",
-            "question": "Ton mode de fonctionnement…",
-            "answers": [
-                {
-                    "label": "Réfléchi et structuré",
-                    "scores": {
-                        "strategique": 3
-                    }
-                },
-                {
-                    "label": "Spontané et rapide",
-                    "scores": {
-                        "impulsif": 3
-                    }
-                },
-                {
-                    "label": "Flexible selon les situations",
-                    "scores": {
-                        "stratege_instinctif": 2
-                    }
-                },
-                {
-                    "label": "Intuitif avec un peu de réflexion",
-                    "scores": {
-                        "impulsif": 2,
-                        "stratege_instinctif": 1
-                    }
-                }
-            ]
-        },
-        {
-            "id": "6",
-            "question": "Quand tu agis…",
-            "answers": [
-                {
-                    "label": "Je prépare avant d’agir",
-                    "scores": {
-                        "strategique": 3
-                    }
-                },
-                {
-                    "label": "J’agis sans attendre",
-                    "scores": {
-                        "impulsif": 3
-                    }
-                },
-                {
-                    "label": "Je m’adapte au moment",
-                    "scores": {
-                        "stratege_instinctif": 2
-                    }
-                },
-                {
-                    "label": "Je suis mon instinct",
-                    "scores": {
-                        "impulsif": 2,
-                        "stratege_instinctif": 1
-                    }
-                }
-            ]
-        },
-        {
-            "id": "7",
-            "question": "Face à un choix rapide…",
-            "answers": [
-                {
-                    "label": "Je prends quelques secondes pour réfléchir",
-                    "scores": {
-                        "strategique": 3
-                    }
-                },
-                {
-                    "label": "Je choisis immédiatement",
-                    "scores": {
-                        "impulsif": 3
-                    }
-                },
-                {
-                    "label": "Je fais un mix des deux",
-                    "scores": {
-                        "stratege_instinctif": 2
-                    }
-                },
-                {
-                    "label": "Je me laisse guider par mon ressenti",
-                    "scores": {
-                        "impulsif": 2,
-                        "stratege_instinctif": 1
-                    }
-                }
-            ]
-        },
-        {
-            "id": "8",
-            "question": "Dans un projet…",
-            "answers": [
-                {
-                    "label": "Je planifie tout",
-                    "scores": {
-                        "strategique": 3
-                    }
-                },
-                {
-                    "label": "Je commence directement",
-                    "scores": {
-                        "impulsif": 3
-                    }
-                },
-                {
-                    "label": "Je m’ajuste en avançant",
-                    "scores": {
-                        "stratege_instinctif": 2
-                    }
-                },
-                {
-                    "label": "Je suis mon instinct",
-                    "scores": {
-                        "impulsif": 2,
-                        "stratege_instinctif": 1
-                    }
-                }
-            ]
-        },
-        {
-            "id": "9",
-            "question": "Ce qui te correspond le plus…",
-            "answers": [
-                {
-                    "label": "Anticiper",
-                    "scores": {
-                        "strategique": 3
-                    }
-                },
-                {
-                    "label": "Agir",
-                    "scores": {
-                        "impulsif": 3
-                    }
-                },
-                {
-                    "label": "Adapter",
-                    "scores": {
-                        "stratege_instinctif": 2
-                    }
-                },
-                {
-                    "label": "Improviser",
-                    "scores": {
-                        "impulsif": 2,
-                        "stratege_instinctif": 1
-                    }
-                }
-            ]
-        },
-        {
-            "id": "10",
-            "question": "Ta manière de décider…",
-            "answers": [
-                {
-                    "label": "Réfléchie",
-                    "scores": {
-                        "strategique": 3
-                    }
-                },
-                {
-                    "label": "Rapide",
-                    "scores": {
-                        "impulsif": 3
-                    }
-                },
-                {
-                    "label": "Équilibrée",
-                    "scores": {
-                        "stratege_instinctif": 2
-                    }
-                },
-                {
-                    "label": "Instinctive",
-                    "scores": {
-                        "impulsif": 2,
-                        "stratege_instinctif": 1
-                    }
-                }
-            ]
+          "label": "Ça dépend de l'état dans lequel je suis : parfois je réponds vite, parfois j'attends.",
+          "scores": {
+            "stratege_instinctif": 2,
+            "strategique": 1
+          }
         }
-    ]
+      ]
+    },
+    {
+      "id": "3",
+      "question": "On te propose le soir même une sortie que tu n'avais absolument pas prévue. Quelle est ta réaction habituelle ?",
+      "answers": [
+        {
+          "label": "J'aime bien avoir du temps pour me préparer — une invitation de dernière minute me convient moins bien.",
+          "scores": {
+            "strategique": 3
+          }
+        },
+        {
+          "label": "Si ça me tente, je suis partant(e) sans trop me poser de questions.",
+          "scores": {
+            "impulsif": 3
+          }
+        },
+        {
+          "label": "Je vérifie si j'ai de l'énergie et si ça vaut le coup, puis je décide assez vite.",
+          "scores": {
+            "stratege_instinctif": 3
+          }
+        },
+        {
+          "label": "Je peux dire oui sur l'élan et regretter un peu ensuite si j'étais fatigué(e).",
+          "scores": {
+            "impulsif": 2,
+            "stratege_instinctif": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "question": "Tu dois choisir entre deux options importantes : l'une est plus sûre, l'autre pourrait être plus intéressante mais comporte davantage d'incertitudes. Comment tu abordes ce choix ?",
+      "answers": [
+        {
+          "label": "J'essaie d'évaluer le plus précisément possible les risques et les bénéfices de chacune avant de me décider.",
+          "scores": {
+            "strategique": 3
+          }
+        },
+        {
+          "label": "Si l'option risquée m'attire davantage, l'envie peut l'emporter sur la prudence.",
+          "scores": {
+            "impulsif": 3
+          }
+        },
+        {
+          "label": "Je prends en compte les éléments principaux, puis je tranche sans avoir besoin d'une certitude totale.",
+          "scores": {
+            "stratege_instinctif": 3
+          }
+        },
+        {
+          "label": "Je reviens plusieurs fois sur ma décision avant de me sentir prêt(e) à vraiment choisir.",
+          "scores": {
+            "strategique": 2,
+            "stratege_instinctif": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "question": "Tu viens de prendre une décision et une nouvelle information importante arrive juste après. Que se passe-t-il ?",
+      "answers": [
+        {
+          "label": "Je réévalue sans hésiter si cette information change vraiment la donne.",
+          "scores": {
+            "strategique": 3
+          }
+        },
+        {
+          "label": "Je réagis assez vite à cette nouvelle information et je peux revoir ma décision sur le moment, sans forcément tout réévaluer.",
+          "scores": {
+            "impulsif": 3
+          }
+        },
+        {
+          "label": "Je prends en compte la nouvelle information si elle est vraiment significative, sinon je reste sur ma décision.",
+          "scores": {
+            "stratege_instinctif": 3
+          }
+        },
+        {
+          "label": "Si cette information change mon impression de la situation, je peux modifier rapidement ma décision.",
+          "scores": {
+            "impulsif": 2,
+            "stratege_instinctif": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "question": "Tu as une idée qui t'enthousiasme vraiment pour un projet. Quelle est généralement l'étape suivante ?",
+      "answers": [
+        {
+          "label": "Je commence à la mettre en forme rapidement pour voir si elle tient.",
+          "scores": {
+            "impulsif": 2,
+            "stratege_instinctif": 1
+          }
+        },
+        {
+          "label": "Je prends le temps de la creuser, d'identifier les obstacles potentiels et de voir comment la rendre solide.",
+          "scores": {
+            "strategique": 3
+          }
+        },
+        {
+          "label": "Je me lance directement : l'enthousiasme est là, autant en profiter.",
+          "scores": {
+            "impulsif": 3
+          }
+        },
+        {
+          "label": "Je valide rapidement les points principaux, puis je passe à l'action sans attendre d'avoir tout prévu.",
+          "scores": {
+            "stratege_instinctif": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "question": "Quelqu'un te met la pression pour donner immédiatement une réponse à une proposition importante. Que fais-tu ?",
+      "answers": [
+        {
+          "label": "Je résiste à la pression : une décision importante mérite au moins un minimum de temps de réflexion.",
+          "scores": {
+            "strategique": 3
+          }
+        },
+        {
+          "label": "Je donne ma réponse assez vite — la pression ne change pas vraiment ma façon de décider.",
+          "scores": {
+            "impulsif": 3
+          }
+        },
+        {
+          "label": "Je demande quelques minutes, je fais le tour des points essentiels, puis je réponds.",
+          "scores": {
+            "stratege_instinctif": 3
+          }
+        },
+        {
+          "label": "Je peux céder à la pression et répondre vite, quitte à me demander ensuite si j'avais bien pesé les choses.",
+          "scores": {
+            "impulsif": 2,
+            "stratege_instinctif": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "question": "Un plan préparé depuis plusieurs semaines tombe à l'eau au dernier moment et tu dois décider rapidement quoi faire à la place. Comment réagis-tu ?",
+      "answers": [
+        {
+          "label": "Je prends quelques minutes pour revoir les contraintes et construire une solution de remplacement avant de repartir.",
+          "scores": {
+            "strategique": 3
+          }
+        },
+        {
+          "label": "Je pars assez vite sur la première alternative qui me donne envie : je verrai ensuite comment ça se passe.",
+          "scores": {
+            "impulsif": 3
+          }
+        },
+        {
+          "label": "Je vérifie rapidement ce qui reste possible, je choisis une alternative viable et je repars.",
+          "scores": {
+            "stratege_instinctif": 3
+          }
+        },
+        {
+          "label": "Si les conséquences sont limitées, je décide vite ; si l'enjeu est important, je prends davantage de temps.",
+          "scores": {
+            "stratege_instinctif": 2,
+            "strategique": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "question": "Tu dois prendre une décision avec seulement la moitié des informations dont tu aurais normalement besoin. Comment tu abordes la situation ?",
+      "answers": [
+        {
+          "label": "Je cherche à obtenir davantage d'informations avant de m'engager, même si ça prend du temps.",
+          "scores": {
+            "strategique": 3
+          }
+        },
+        {
+          "label": "Je tranche avec ce que j'ai : trop attendre fait rater des occasions.",
+          "scores": {
+            "impulsif": 3
+          }
+        },
+        {
+          "label": "J'identifie les informations vraiment décisives, je les obtiens si possible, puis je décide.",
+          "scores": {
+            "stratege_instinctif": 3
+          }
+        },
+        {
+          "label": "Je peux décider assez vite si l'enjeu me semble limité, mais j'attends davantage si les conséquences sont importantes.",
+          "scores": {
+            "stratege_instinctif": 2,
+            "strategique": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "question": "Tu réalises qu'une décision prise trop rapidement t'a conduit(e) à un mauvais résultat. La prochaine fois qu'une situation similaire se présente, que fais-tu ?",
+      "answers": [
+        {
+          "label": "Je prends davantage de temps pour vérifier ce qui m'avait échappé la première fois.",
+          "scores": {
+            "strategique": 3
+          }
+        },
+        {
+          "label": "Je peux malgré tout décider rapidement si, sur le moment, l'option me paraît bonne.",
+          "scores": {
+            "impulsif": 3
+          }
+        },
+        {
+          "label": "Je vérifie surtout les deux ou trois points qui m'avaient posé problème, puis je décide.",
+          "scores": {
+            "stratege_instinctif": 3
+          }
+        },
+        {
+          "label": "Je ralentis davantage si l'enjeu est important, mais pas forcément pour une décision aux conséquences limitées.",
+          "scores": {
+            "stratege_instinctif": 2,
+            "strategique": 1
+          }
+        }
+      ]
+    }
+  ]
 }

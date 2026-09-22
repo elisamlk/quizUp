@@ -1,478 +1,358 @@
 {
-    "slug": "test-mental-comment-reagis-tu-sous-pression",
-    "title": "Test personnalité - Comment réagis-tu sous pression ?",
-    "description": "Et si la pression révélait ta vraie façon de fonctionner ?",
-    "descriptionSeo": "Découvre comment tu réagis face à la pression et aux situations stressantes grâce à ce test mental. À travers des questions concrètes, identifie si tu gardes ton calme, prends le contrôle, analyses la situation, agis à l’instinct ou te sens dépassé. Ce test de personnalité t’aide à mieux comprendre ton comportement sous tension et à analyser tes réactions dans les moments les plus intenses.",
-    "category": {
-        "name": "Psychologie",
-        "slug": "psychologie"
+  "slug": "test-mental-comment-reagis-tu-sous-pression",
+  "title": "Test personnalité - Comment réagis-tu sous pression ?",
+  "description": "Et si la pression révélait ta vraie façon de fonctionner ?",
+  "descriptionSeo": "Comment réagis-tu lorsque la pression monte ? À travers dix situations concrètes, découvre si tu as plutôt tendance à stabiliser tes émotions, organiser l'action, analyser les priorités, réagir rapidement, ressentir une surcharge mentale ou mobiliser davantage d'énergie. Un test de personnalité ludique pour explorer la manière dont tes réactions peuvent évoluer face à l'urgence, aux imprévus et aux situations à fort enjeu.",
+  "category": {
+    "name": "Psychologie",
+    "slug": "psychologie"
+  },
+  "createdAt": "2026-09-22",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776776497/cover_p6uhcj.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776776497/cover_p6uhcj.jpg",
+    "alt": "Test mental sur la réaction sous pression"
+  },
+  "profiles": [
+    {
+      "key": "calme",
+      "title": "Le Calme maîtrisé",
+      "description": "Tes réponses font surtout ressortir une tendance à stabiliser ton état intérieur avant de répondre à une situation sous pression. La pression est ressentie, mais tu cherches assez naturellement à maintenir un espace de lucidité plutôt qu'à laisser l'urgence décider à ta place. Cette manière de fonctionner peut t'aider à éviter des réactions que tu regretterais et à rester utile pour les personnes autour de toi. Ton point d'attention : ce calme peut parfois être perçu comme un manque de réaction ou de mobilisation par ceux qui attendent une action immédiate.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776776806/calm_oixx0l.jpg"
     },
-    "createdAt": "2026-04-20",
-    "isNew": true,
-    "isPopular": true,
-    "images": {
-        "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776776497/cover_p6uhcj.jpg",
-        "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776776497/cover_p6uhcj.jpg",
-        "alt": "Test mental sur la réaction sous pression"
+    {
+      "key": "controle",
+      "title": "Le Coordinateur",
+      "description": "Tes réponses font surtout ressortir une tendance à réduire la pression en structurant l'action : distribuer les tâches, décider rapidement, organiser ce qui peut l'être et reprendre la main sur les éléments contrôlables. Lorsque la situation se tend, tu préfères agir plutôt que d'attendre. Cette réactivité peut te rendre particulièrement utile dans les moments critiques. Ton point d'attention : vouloir structurer vite peut parfois aller trop vite par rapport à ce que les autres personnes impliquées ont besoin pour bien avancer.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776773059/controling_skvyn2.jpg"
     },
-    "profiles": [
+    {
+      "key": "analytique",
+      "title": "L'Analytique sous tension",
+      "description": "Tes réponses font surtout ressortir une tendance à réduire l'incertitude par la compréhension et la priorisation. Sous pression, tu cherches à identifier ce qui compte vraiment, à comprendre pourquoi la situation est tendue et à faire des choix fondés sur une lecture claire de la situation. Ton point d'attention : dans des contextes qui demandent une réponse très rapide, ce besoin de comprendre d'abord peut parfois retarder l'action plus que nécessaire.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776771826/analytic_ofwghg.jpg"
+    },
+    {
+      "key": "instinctif",
+      "title": "L'Instinctif réactif",
+      "description": "Tes réponses font surtout ressortir une tendance à décider rapidement à partir des signaux disponibles, puis à ajuster selon ce qui se passe. Sous pression, tu n'attends pas d'avoir une image complète de la situation pour agir. Cette réactivité peut te permettre de débloquer des situations là où d'autres hésiteraient encore. Ton point d'attention : décider vite peut parfois conduire à passer à côté d'un détail important qui aurait changé la direction à prendre.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776775736/intuition_bhqspj.jpg"
+    },
+    {
+      "key": "eparpille",
+      "title": "Le Mental saturé",
+      "description": "Tes réponses font surtout ressortir une tendance à ressentir une surcharge mentale lorsque la pression augmente. Plusieurs signaux réclament simultanément ton attention, ce qui peut compliquer la hiérarchisation et donner l'impression que tout est prioritaire en même temps. Cette réaction est souvent le signe d'un fort niveau d'implication et de sensibilité aux enjeux. Ton point d'attention : apprendre à prioriser volontairement — même si cela signifie laisser certaines choses de côté — peut faire une vraie différence dans ces moments.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776776803/eparpille_wlixpq.jpg"
+    },
+    {
+      "key": "surpasse",
+      "title": "Celui qui se surpasse",
+      "description": "Tes réponses font surtout ressortir une tendance à ressentir davantage d'énergie, de concentration ou de mobilisation lorsque l'enjeu augmente. La pression peut avoir chez toi un effet de déclencheur plutôt qu'un effet bloquant. Cela peut te rendre particulièrement efficace dans les moments décisifs. Ton point d'attention : cette mobilisation sous pression peut créer une dépendance à l'urgence, et il peut être utile de trouver des façons de rester aussi engagé(e) dans les périodes moins intenses.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776776808/surpasse_aufmlo.jpg"
+    }
+  ],
+  "questions": [
+    {
+      "id": "1",
+      "question": "Tu dois rendre quelque chose d'important dans une heure et tu découvres une erreur qui remet en cause une partie de ton travail. Que se passe-t-il chez toi ?",
+      "answers": [
         {
-            "key": "calme",
-            "title": "Le Calme maîtrisé",
-            "description": "Sous pression, ton premier réflexe est de garder ton calme. Là où beaucoup s’affolent, tu essaies de respirer, de prendre du recul et de ne pas te laisser envahir par le stress. Tu comprends que paniquer n’aide pas et tu préfères avancer avec lucidité. Cette capacité à rester posé te rend rassurant pour les autres et souvent très efficace dans les situations tendues. Tu ne réagis pas dans l’urgence émotionnelle, tu cherches plutôt à stabiliser la situation avant d’agir. Cependant, ton calme peut parfois être interprété comme de la distance ou un manque de réaction immédiate. En réalité, tu observes avant d’intervenir. Ta force réside dans ta maîtrise émotionnelle, ton sang-froid et ta capacité à rester solide quand tout semble s’emballer autour de toi.",
-            "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776776806/calm_oixx0l.jpg"
+          "label": "Je prends quelques secondes pour ne pas laisser la panique décider à ma place, puis j'évalue ce qui est encore rattrapable.",
+          "scores": { "calme": 3 }
         },
         {
-            "key": "controle",
-            "title": "Le Contrôlant efficace",
-            "description": "Sous pression, tu réagis en prenant les choses en main. Quand la tension monte, tu ressens le besoin d’agir vite, d’organiser, de décider et de remettre de l’ordre. Tu supportes mal le flou ou l’inaction, alors tu préfères reprendre le contrôle pour éviter que la situation ne t’échappe. Cette attitude fait de toi quelqu’un de réactif, de volontaire et souvent très utile dans les moments critiques. Tu peux rassurer les autres par ton énergie et ton sens de l’action. En revanche, tu peux parfois vouloir tout gérer seul ou te montrer un peu trop direct quand les choses traînent. Ton défi est d’accepter que tout ne peut pas toujours être maîtrisé parfaitement. Ta force réside dans ta capacité à agir rapidement, à structurer l’urgence et à faire avancer les choses malgré la pression.",
-            "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776773059/controling_skvyn2.jpg"
+          "label": "Je décide immédiatement ce qui peut encore être corrigé et je m'y mets sans perdre de temps.",
+          "scores": { "controle": 3 }
         },
         {
-            "key": "analytique",
-            "title": "L'Analytique sous tension",
-            "description": "Sous pression, tu as tendance à réfléchir davantage. Plutôt que de réagir impulsivement, tu veux comprendre ce qui se passe, identifier les causes du problème et trouver la meilleure réponse possible. Même dans l’urgence, ton cerveau cherche de la logique, de l’ordre et de la cohérence. Cette capacité te rend souvent pertinent dans les situations complexes, car tu évites les décisions irréfléchies. Tu préfères ralentir mentalement pour mieux agir ensuite. Cependant, cette tendance peut parfois te faire perdre du temps ou te faire hésiter quand une réponse rapide serait nécessaire. Ton défi est d’éviter de trop analyser au point de te bloquer. Ta force réside dans ton recul, ton sens de l’observation et ta capacité à garder une forme de lucidité intellectuelle même lorsque la pression devient forte.",
-            "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776771826/analytic_ofwghg.jpg"
+          "label": "Je veux d'abord comprendre précisément ce qui n'a pas fonctionné avant de corriger quoi que ce soit.",
+          "scores": { "analytique": 2, "calme": 1 }
         },
         {
-            "key": "instinctif",
-            "title": "L'Instinctif réactif",
-            "description": "Sous pression, tu fonctionnes surtout à l’instinct. Tu réagis rapidement, souvent sans passer trop de temps à réfléchir, parce que tu sens immédiatement ce qu’il faut faire ou comment te positionner. Dans les moments intenses, cette spontanéité peut devenir un vrai avantage : tu t’adaptes vite, tu improvises et tu trouves parfois des solutions là où d’autres restent bloqués. Tu es souvent capable de faire confiance à ton ressenti et de passer à l’action sans te laisser paralyser. En revanche, il peut t’arriver de réagir trop vite ou de négliger certains détails importants. Ton défi est de garder un minimum de recul dans les situations les plus sensibles. Ta force réside dans ta rapidité, ton adaptabilité et ta capacité à rester dans le mouvement quand la pression monte brutalement.",
-            "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776775736/intuition_bhqspj.jpg"
+          "label": "Je pars sur ce qui me paraît le plus urgent à corriger et j'ajuste au fur et à mesure.",
+          "scores": { "instinctif": 3 }
         },
         {
-            "key": "eparpille",
-            "title": "L'Éparpillé sous stress",
-            "description": "Sous pression, tu peux avoir tendance à te disperser. Quand tout va vite ou que les attentes deviennent fortes, ton mental peut partir dans plusieurs directions à la fois. Tu veux bien faire, gérer l’ensemble, penser à tout, mais cela peut parfois créer une surcharge qui te fait perdre en clarté. Tu n’es pas incapable, bien au contraire : c’est souvent parce que tu ressens intensément l’urgence et les enjeux que tu te mets autant de pression. Tu peux alterner entre accélération, doutes et besoin de souffler. Ton défi est d’apprendre à prioriser, à simplifier et à ne pas vouloir tout régler en même temps. Ta force réside dans ton implication, ta réactivité et ton envie sincère de faire face, même si tu dois encore apprendre à mieux canaliser ton énergie dans les moments tendus.",
-            "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776776803/eparpille_wlixpq.jpg"
+          "label": "Plusieurs choses me semblent prioritaires en même temps et j'ai du mal à choisir par où commencer.",
+          "scores": { "eparpille": 3 }
         },
         {
-            "key": "surpasse",
-            "title": "Celui qui se surpasse",
-            "description": "Sous pression, tu te révèles souvent meilleur. Là où certains perdent leurs moyens, toi tu peux entrer dans une forme de concentration intense qui te pousse à te dépasser. Le stress agit chez toi comme un déclencheur : il mobilise ton énergie, ton mental et ta volonté. Tu aimes parfois les défis, les échéances serrées ou les situations où il faut donner le meilleur de soi rapidement. Cette réaction peut faire de toi quelqu’un de particulièrement performant dans les moments décisifs. Tu trouves une force supplémentaire quand il faut agir. En revanche, tu peux aussi devenir dépendant de cette montée d’adrénaline et avoir du mal à avancer avec la même intensité hors pression. Ton défi est de ne pas attendre l’urgence pour exprimer ton potentiel. Ta force réside dans ta capacité à transformer la tension en moteur puissant.",
-            "image":"https://res.cloudinary.com/dsv7oziap/image/upload/v1776776808/surpasse_aufmlo.jpg"
+          "label": "Ce genre de situation me donne un coup de fouet : je me mets en mode concentré et j'avance vite.",
+          "scores": { "surpasse": 3 }
         }
-    ],
-    "questions": [
+      ]
+    },
+    {
+      "id": "2",
+      "question": "Pendant une situation déjà tendue, trois personnes viennent simultanément te demander quelque chose d'urgent. Comment tu réagis ?",
+      "answers": [
         {
-            "id": "1",
-            "question": "Quand une situation devient urgente, ton premier réflexe est…",
-            "answers": [
-                {
-                    "label": "Rester calme pour ne pas paniquer",
-                    "scores": {
-                        "calme": 3
-                    }
-                },
-                {
-                    "label": "Prendre les commandes immédiatement",
-                    "scores": {
-                        "controle": 3
-                    }
-                },
-                {
-                    "label": "Analyser rapidement ce qui se passe",
-                    "scores": {
-                        "analytique": 3
-                    }
-                },
-                {
-                    "label": "Réagir au feeling sans trop réfléchir",
-                    "scores": {
-                        "instinctif": 3
-                    }
-                },
-                {
-                    "label": "Vouloir tout gérer en même temps",
-                    "scores": {
-                        "eparpille": 3
-                    }
-                },
-                {
-                    "label": "Te sentir stimulé et prêt à te dépasser",
-                    "scores": {
-                        "surpasse": 3
-                    }
-                }
-            ]
+          "label": "Je reste calme, je demande à chacun une phrase sur son urgence et je décide qui passe en premier.",
+          "scores": { "calme": 2, "analytique": 1 }
         },
         {
-            "id": "2",
-            "question": "Face à une forte pression, tu es plutôt du genre à…",
-            "answers": [
-                {
-                    "label": "Garder la tête froide",
-                    "scores": {
-                        "calme": 3
-                    }
-                },
-                {
-                    "label": "Organiser et diriger",
-                    "scores": {
-                        "controle": 3
-                    }
-                },
-                {
-                    "label": "Réfléchir avant d’agir",
-                    "scores": {
-                        "analytique": 3
-                    }
-                },
-                {
-                    "label": "Improviser dans l’instant",
-                    "scores": {
-                        "instinctif": 3
-                    }
-                },
-                {
-                    "label": "Te sentir débordé",
-                    "scores": {
-                        "eparpille": 3
-                    }
-                },
-                {
-                    "label": "Donner le meilleur de toi-même",
-                    "scores": {
-                        "surpasse": 3
-                    }
-                }
-            ]
+          "label": "Je répartis rapidement : je dis à chacun ce qu'il peut faire pendant que je gère le plus urgent.",
+          "scores": { "controle": 3 }
         },
         {
-            "id": "3",
-            "question": "Quand tout le monde stresse autour de toi…",
-            "answers": [
-                {
-                    "label": "Tu essaies d’apaiser l’ambiance",
-                    "scores": {
-                        "calme": 3
-                    }
-                },
-                {
-                    "label": "Tu reprends le contrôle de la situation",
-                    "scores": {
-                        "controle": 3
-                    }
-                },
-                {
-                    "label": "Tu cherches à comprendre la vraie priorité",
-                    "scores": {
-                        "analytique": 3
-                    }
-                },
-                {
-                    "label": "Tu agis directement pour débloquer les choses",
-                    "scores": {
-                        "instinctif": 3
-                    }
-                },
-                {
-                    "label": "Tu absorbes le stress ambiant",
-                    "scores": {
-                        "eparpille": 3
-                    }
-                },
-                {
-                    "label": "Tu te concentres encore plus",
-                    "scores": {
-                        "surpasse": 3
-                    }
-                }
-            ]
+          "label": "J'essaie de passer d'une demande à l'autre selon ce qui me semble le plus urgent à chaque instant.",
+          "scores": { "instinctif": 2, "eparpille": 1 }
         },
         {
-            "id": "4",
-            "question": "Dans une situation critique, ce qui te ressemble le plus…",
-            "answers": [
-                {
-                    "label": "Je garde mes émotions sous contrôle",
-                    "scores": {
-                        "calme": 3
-                    }
-                },
-                {
-                    "label": "Je décide vite pour avancer",
-                    "scores": {
-                        "controle": 3
-                    }
-                },
-                {
-                    "label": "Je veux comprendre avant d’agir",
-                    "scores": {
-                        "analytique": 3
-                    }
-                },
-                {
-                    "label": "Je me fie à mon instinct",
-                    "scores": {
-                        "instinctif": 3
-                    }
-                },
-                {
-                    "label": "Je pars un peu dans tous les sens",
-                    "scores": {
-                        "eparpille": 3
-                    }
-                },
-                {
-                    "label": "Je me révèle dans ce genre de moment",
-                    "scores": {
-                        "surpasse": 3
-                    }
-                }
-            ]
+          "label": "Je me sens rapidement saturé(e) quand tout arrive en même temps : j'ai du mal à savoir par quoi commencer.",
+          "scores": { "eparpille": 3 }
         },
         {
-            "id": "5",
-            "question": "Quand tu manques de temps…",
-            "answers": [
-                {
-                    "label": "Je reste posé malgré l’urgence",
-                    "scores": {
-                        "calme": 3
-                    }
-                },
-                {
-                    "label": "Je passe en mode action",
-                    "scores": {
-                        "controle": 3
-                    }
-                },
-                {
-                    "label": "Je priorise mentalement les tâches",
-                    "scores": {
-                        "analytique": 3
-                    }
-                },
-                {
-                    "label": "Je fais ce qui me semble juste sur le moment",
-                    "scores": {
-                        "instinctif": 3
-                    }
-                },
-                {
-                    "label": "Je me sens vite dépassé",
-                    "scores": {
-                        "eparpille": 3
-                    }
-                },
-                {
-                    "label": "Je deviens étonnamment performant",
-                    "scores": {
-                        "surpasse": 3
-                    }
-                }
-            ]
+          "label": "Je priorise mentalement et je m'occupe de ce qui a le plus d'impact sur l'ensemble.",
+          "scores": { "analytique": 3 }
         },
         {
-            "id": "6",
-            "question": "Sous pression, ton point faible serait plutôt…",
-            "answers": [
-                {
-                    "label": "Parfois trop prendre sur toi",
-                    "scores": {
-                        "calme": 3
-                    }
-                },
-                {
-                    "label": "Vouloir tout maîtriser",
-                    "scores": {
-                        "controle": 3
-                    }
-                },
-                {
-                    "label": "Trop réfléchir",
-                    "scores": {
-                        "analytique": 3
-                    }
-                },
-                {
-                    "label": "Réagir trop vite",
-                    "scores": {
-                        "instinctif": 3
-                    }
-                },
-                {
-                    "label": "Perdre en clarté",
-                    "scores": {
-                        "eparpille": 3
-                    }
-                },
-                {
-                    "label": "Avoir besoin d’adrénaline pour être au top",
-                    "scores": {
-                        "surpasse": 3
-                    }
-                }
-            ]
-        },
-        {
-            "id": "7",
-            "question": "Quand il faut gérer plusieurs choses à la fois…",
-            "answers": [
-                {
-                    "label": "Je garde mon calme autant que possible",
-                    "scores": {
-                        "calme": 3
-                    }
-                },
-                {
-                    "label": "Je répartis, j’organise, je dirige",
-                    "scores": {
-                        "controle": 3
-                    }
-                },
-                {
-                    "label": "Je classe mentalement les priorités",
-                    "scores": {
-                        "analytique": 3
-                    }
-                },
-                {
-                    "label": "Je saute d’une tâche à l’autre instinctivement",
-                    "scores": {
-                        "instinctif": 3
-                    }
-                },
-                {
-                    "label": "Je peux vite me disperser",
-                    "scores": {
-                        "eparpille": 3
-                    }
-                },
-                {
-                    "label": "Je me mets en mode performance",
-                    "scores": {
-                        "surpasse": 3
-                    }
-                }
-            ]
-        },
-        {
-            "id": "8",
-            "question": "Ce que la pression provoque le plus souvent chez toi…",
-            "answers": [
-                {
-                    "label": "Plus de maîtrise intérieure",
-                    "scores": {
-                        "calme": 3
-                    }
-                },
-                {
-                    "label": "Un besoin d’agir vite",
-                    "scores": {
-                        "controle": 3
-                    }
-                },
-                {
-                    "label": "Un besoin de comprendre",
-                    "scores": {
-                        "analytique": 3
-                    }
-                },
-                {
-                    "label": "Une réaction immédiate",
-                    "scores": {
-                        "instinctif": 3
-                    }
-                },
-                {
-                    "label": "Une surcharge mentale",
-                    "scores": {
-                        "eparpille": 3
-                    }
-                },
-                {
-                    "label": "Un pic d’énergie",
-                    "scores": {
-                        "surpasse": 3
-                    }
-                }
-            ]
-        },
-        {
-            "id": "9",
-            "question": "Dans les moments tendus, ton entourage te voit souvent comme…",
-            "answers": [
-                {
-                    "label": "Quelqu’un de rassurant",
-                    "scores": {
-                        "calme": 3
-                    }
-                },
-                {
-                    "label": "Quelqu’un qui prend les choses en main",
-                    "scores": {
-                        "controle": 3
-                    }
-                },
-                {
-                    "label": "Quelqu’un de réfléchi",
-                    "scores": {
-                        "analytique": 3
-                    }
-                },
-                {
-                    "label": "Quelqu’un de très réactif",
-                    "scores": {
-                        "instinctif": 3
-                    }
-                },
-                {
-                    "label": "Quelqu’un de stressé mais impliqué",
-                    "scores": {
-                        "eparpille": 3
-                    }
-                },
-                {
-                    "label": "Quelqu’un qui assure quand ça compte",
-                    "scores": {
-                        "surpasse": 3
-                    }
-                }
-            ]
-        },
-        {
-            "id": "10",
-            "question": "La phrase qui te correspond le plus sous pression…",
-            "answers": [
-                {
-                    "label": "Je garde mon sang-froid",
-                    "scores": {
-                        "calme": 3
-                    }
-                },
-                {
-                    "label": "Je reprends le contrôle",
-                    "scores": {
-                        "controle": 3
-                    }
-                },
-                {
-                    "label": "Je réfléchis avant de bouger",
-                    "scores": {
-                        "analytique": 3
-                    }
-                },
-                {
-                    "label": "J’agis sans hésiter",
-                    "scores": {
-                        "instinctif": 3
-                    }
-                },
-                {
-                    "label": "Je me sens vite submergé",
-                    "scores": {
-                        "eparpille": 3
-                    }
-                },
-                {
-                    "label": "Je deviens meilleur quand c’est intense",
-                    "scores": {
-                        "surpasse": 3
-                    }
-                }
-            ]
+          "label": "Ce genre de situation multipliée m'active encore plus — j'aime quand il faut vraiment gérer.",
+          "scores": { "surpasse": 3 }
         }
-    ]
+      ]
+    },
+    {
+      "id": "3",
+      "question": "Tu dois prendre la parole devant plusieurs personnes et on t'annonce cinq minutes avant que tu as deux fois moins de temps que prévu. Comment tu vis ça ?",
+      "answers": [
+        {
+          "label": "Je reste posé(e) : l'annonce ne change pas fondamentalement ce que j'ai à dire.",
+          "scores": { "calme": 3 }
+        },
+        {
+          "label": "Je coupe immédiatement dans ce que j'avais prévu pour ne garder que l'essentiel.",
+          "scores": { "controle": 3 }
+        },
+        {
+          "label": "Je réorganise rapidement mentalement mes priorités pour savoir ce que je peux enlever.",
+          "scores": { "analytique": 3 }
+        },
+        {
+          "label": "Je m'adapte en temps réel selon ce qui me paraît le plus important au moment où je parle.",
+          "scores": { "instinctif": 3 }
+        },
+        {
+          "label": "Ce changement de dernière minute me déstabilise et j'ai du mal à reconstruire un plan aussi vite.",
+          "scores": { "eparpille": 3 }
+        },
+        {
+          "label": "La contrainte supplémentaire me permet parfois d'être plus percutant(e) qu'avec plus de temps.",
+          "scores": { "surpasse": 2, "instinctif": 1 }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "question": "Un problème important apparaît alors que la personne qui décide habituellement n'est pas disponible. Que se passe-t-il ?",
+      "answers": [
+        {
+          "label": "Je prends le temps d'évaluer la situation avant d'agir, même si l'absence de décideur crée une pression supplémentaire.",
+          "scores": { "calme": 2, "analytique": 1 }
+        },
+        {
+          "label": "Je prends les décisions qui s'imposent : quelqu'un doit le faire et ce n'est pas le moment d'attendre.",
+          "scores": { "controle": 3 }
+        },
+        {
+          "label": "J'essaie de comprendre ce que la personne absente aurait probablement décidé avant de trancher.",
+          "scores": { "analytique": 3 }
+        },
+        {
+          "label": "J'agis selon ce qui me paraît juste dans l'instant et je ferai le point avec le décideur après.",
+          "scores": { "instinctif": 3 }
+        },
+        {
+          "label": "L'absence du décideur ajoute une couche de pression qui rend encore plus difficile de prioriser.",
+          "scores": { "eparpille": 3 }
+        },
+        {
+          "label": "Ce genre de moment où il faut vraiment assurer me mobilise particulièrement bien.",
+          "scores": { "surpasse": 3 }
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "question": "Il reste vingt minutes avant une échéance et tu réalises que tout ne pourra pas être terminé. Que fais-tu ?",
+      "answers": [
+        {
+          "label": "Je prends quelques secondes pour me poser et ne pas laisser l'urgence décider à ma place.",
+          "scores": { "calme": 3 }
+        },
+        {
+          "label": "S'il y a d'autres personnes, je répartis immédiatement ce qui reste pour maximiser ce qu'on peut terminer.",
+          "scores": { "controle": 3 }
+        },
+        {
+          "label": "J'identifie ce qui aura le plus d'impact et j'abandonne volontairement le reste.",
+          "scores": { "analytique": 3 }
+        },
+        {
+          "label": "Je choisis rapidement ce qui me paraît le plus important et je m'y mets, quitte à ajuster ensuite.",
+          "scores": { "instinctif": 3 }
+        },
+        {
+          "label": "J'ai tendance à passer rapidement d'une chose à l'autre parce que tout me paraît soudain prioritaire.",
+          "scores": { "eparpille": 3 }
+        },
+        {
+          "label": "L'échéance me donne un vrai coup d'accélérateur et je deviens beaucoup plus concentré(e) qu'avant.",
+          "scores": { "surpasse": 3 }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "question": "Quelqu'un commet une erreur qui complique fortement une situation déjà urgente. Quelle est ta première réaction ?",
+      "answers": [
+        {
+          "label": "Je contiens ma réaction immédiate pour éviter d'aggraver la tension autour de moi.",
+          "scores": { "calme": 3 }
+        },
+        {
+          "label": "Je me concentre sur ce qu'on peut encore faire plutôt que sur l'erreur elle-même.",
+          "scores": { "controle": 2, "calme": 1 }
+        },
+        {
+          "label": "Je veux comprendre rapidement ce qui s'est passé pour éviter que ça se reproduise pendant qu'on gère.",
+          "scores": { "analytique": 3 }
+        },
+        {
+          "label": "Je réagis assez vite selon ce que la situation semble demander à ce moment précis.",
+          "scores": { "instinctif": 3 }
+        },
+        {
+          "label": "L'erreur s'ajoute à tout le reste et il devient encore plus difficile de savoir par où attaquer.",
+          "scores": { "eparpille": 3 }
+        },
+        {
+          "label": "Ce genre de complication supplémentaire me met parfois dans un état de concentration encore plus intense.",
+          "scores": { "surpasse": 2, "instinctif": 1 }
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "question": "Tu dois résoudre un problème alors que plusieurs personnes autour de toi paniquent et donnent des avis contradictoires. Que fais-tu ?",
+      "answers": [
+        {
+          "label": "J'essaie de rester stable pour ne pas absorber la panique ambiante.",
+          "scores": { "calme": 3 }
+        },
+        {
+          "label": "Je mets de l'ordre dans les échanges : on choisit une direction et on avance.",
+          "scores": { "controle": 3 }
+        },
+        {
+          "label": "J'essaie d'identifier quel avis tient le mieux face à la réalité de la situation.",
+          "scores": { "analytique": 3 }
+        },
+        {
+          "label": "Je suis surtout ce qui me paraît juste sur le moment, indépendamment des avis autour de moi.",
+          "scores": { "instinctif": 3 }
+        },
+        {
+          "label": "La multitude d'avis contradictoires s'ajoute à la pression et complique encore ma capacité à prioriser.",
+          "scores": { "eparpille": 3 }
+        },
+        {
+          "label": "L'agitation autour de moi peut parfois me pousser à me concentrer encore davantage sur le problème.",
+          "scores": { "surpasse": 3 }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "question": "Après une heure sous forte pression, un deuxième problème inattendu arrive. Qu'est-ce qui change chez toi ?",
+      "answers": [
+        {
+          "label": "Je prends un court moment pour ne pas réagir à chaud avant d'évaluer ce que ça implique.",
+          "scores": { "calme": 3 }
+        },
+        {
+          "label": "Je réorganise rapidement les priorités pour intégrer ce nouveau problème dans ce qu'il reste à faire.",
+          "scores": { "controle": 3 }
+        },
+        {
+          "label": "Je veux d'abord savoir si ce deuxième problème est lié au premier avant de décider quoi faire.",
+          "scores": { "analytique": 3 }
+        },
+        {
+          "label": "Je switche assez naturellement vers le nouveau problème selon ce qui semble le plus urgent à traiter.",
+          "scores": { "instinctif": 3 }
+        },
+        {
+          "label": "Ce deuxième problème peut vraiment me faire basculer dans une forme de saturation difficile à gérer.",
+          "scores": { "eparpille": 3 }
+        },
+        {
+          "label": "Paradoxalement, une deuxième contrainte peut parfois m'activer encore davantage.",
+          "scores": { "surpasse": 2, "calme": 1 }
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "question": "Une tâche que tu maîtrises parfaitement devient soudain très importante parce que beaucoup de personnes comptent sur ton résultat. Comment tu vis ça ?",
+      "answers": [
+        {
+          "label": "Je reste dans mon fonctionnement habituel : la pression des attentes ne change pas ma façon de travailler.",
+          "scores": { "calme": 3 }
+        },
+        {
+          "label": "Je prends en compte ce que les autres attendent et j'organise ma démarche en conséquence.",
+          "scores": { "controle": 2, "analytique": 1 }
+        },
+        {
+          "label": "Je vérifie mentalement que ce que je vais livrer correspond bien à ce qui est réellement attendu.",
+          "scores": { "analytique": 3 }
+        },
+        {
+          "label": "Je me fie beaucoup à mes automatismes : comme je maîtrise la tâche, je préfère avancer naturellement plutôt que changer ma façon de faire sous la pression.",
+          "scores": { "instinctif": 2, "calme": 1 }
+        },
+        {
+          "label": "La pression des attentes peut me rendre plus hésitant(e) même sur des choses que je sais faire.",
+          "scores": { "eparpille": 3 }
+        },
+        {
+          "label": "Savoir que mon résultat compte pour beaucoup de personnes me pousse à me dépasser.",
+          "scores": { "surpasse": 3 }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "question": "Une période particulièrement intense vient de se terminer. En repensant à ce qui s'est passé, qu'est-ce que tu constates le plus souvent ?",
+      "answers": [
+        {
+          "label": "J'ai généralement réussi à garder assez de lucidité pour ne pas prendre de décisions que je regretterais.",
+          "scores": { "calme": 3 }
+        },
+        {
+          "label": "J'ai souvent pris les choses en main et ça a permis au groupe ou à la situation d'avancer.",
+          "scores": { "controle": 3 }
+        },
+        {
+          "label": "Je comprends assez bien ce qui s'est passé et ce que j'aurais pu faire différemment.",
+          "scores": { "analytique": 3 }
+        },
+        {
+          "label": "J'ai agi rapidement et la plupart de mes décisions ont tenu, même si certaines auraient mérité plus de réflexion.",
+          "scores": { "instinctif": 3 }
+        },
+        {
+          "label": "Je réalise que j'ai parfois manqué de clarté dans mes priorités et que ça a coûté de l'énergie inutilement.",
+          "scores": { "eparpille": 3 }
+        },
+        {
+          "label": "Je constate que les moments les plus intenses ont souvent fait monter mon niveau d'énergie et de concentration.",
+          "scores": { "surpasse": 3 }
+        }
+      ]
+    }
+  ]
 }

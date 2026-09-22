@@ -1,478 +1,350 @@
 {
-    "slug": "test-personnalite-quelle-est-ta-peur-cachee",
-    "title": "Test personnalité - Quelle est ta peur cachée ?",
-    "description": "Identifie la peur inconsciente qui influence tes choix et ton comportement au quotidien.",
-    "descriptionSeo": "Et si une peur cachée influençait tes décisions sans que tu t’en rendes compte ? Ce test de personnalité te révèle ce qui te freine inconsciemment : peur de l’abandon, de l’échec, du jugement ou du rejet. Analyse tes réactions à différentes situations et découvre ce qui se cache derrière tes comportements pour mieux te comprendre et évoluer.",
-    "category": {
-        "name": "Psychologie",
-        "slug": "psychologie"
+  "slug": "test-personnalite-quelle-est-ta-peur-cachee",
+  "title": "Test personnalité - Quelle est ta peur cachée ?",
+  "description": "Découvre quelle peur semble le plus influencer certaines de tes réactions et de tes choix au quotidien.",
+  "descriptionSeo": "Quelle peur semble peser le plus dans certaines de tes réactions : perdre un lien important, échouer, être jugé(e), perdre le contrôle, être rejeté(e) ou manquer de sécurité ? À travers dix situations concrètes, découvre ce que tes réponses révèlent de tes principales appréhensions. Un test de personnalité ludique pour mieux comprendre ce qui peut influencer certains de tes choix et comportements.",
+  "category": {
+    "name": "Psychologie",
+    "slug": "psychologie"
+  },
+  "createdAt": "2026-09-22",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776772371/cover_hgjqry.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776772371/cover_hgjqry.jpg",
+    "alt": "Test de personnalité sur la peur cachée"
+  },
+  "profiles": [
+    {
+      "key": "abandon",
+      "title": "La peur de l'abandon",
+      "description": "Perdre un lien important ou sentir qu'une relation s'éloigne peut particulièrement peser dans certaines de tes réactions. Tu accordes beaucoup de place aux personnes auxquelles tu t'attaches, et les signaux de distance ou d'éloignement peuvent avoir un impact notable sur ton état. Cette sensibilité peut t'amener à t'investir profondément dans tes relations. Ton point d'attention : se sécuriser intérieurement — savoir que ta valeur ne dépend pas entièrement de la présence des autres — peut aider à traverser plus sereinement les moments d'incertitude relationnelle.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776773060/abandoment_d8zaqw.jpg"
     },
-    "createdAt": "2026-04-20",
-    "isNew": true,
-    "isPopular": true,
-    "images": {
-        "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776772371/cover_hgjqry.jpg",
-        "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776772371/cover_hgjqry.jpg",
-        "alt": "Test de personnalité sur la peur cachée"
+    {
+      "key": "echec",
+      "title": "La peur de l'échec",
+      "description": "La possibilité de ne pas être à la hauteur ou de ne pas atteindre un objectif peut occuper une place notable dans certaines de tes décisions. Tu peux avoir tendance à anticiper, te préparer ou parfois hésiter à te lancer lorsque le résultat reste incertain. Cette exigence peut être une vraie force. Ton point d'attention : accepter que l'erreur fait partie du chemin — et non un verdict sur ta valeur — peut libérer de l'espace pour tenter des choses que tu aurais sinon évitées.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776773059/failure_wc2beq.jpg"
     },
-    "profiles": [
+    {
+      "key": "jugement",
+      "title": "La peur du jugement",
+      "description": "L'opinion que les autres pourraient avoir de toi ou de ce que tu fais peut influencer certaines de tes réactions et de ce que tu choisis de montrer. Tu peux faire attention à ce que tu montres, adapter ton expression ou hésiter à te montrer pleinement dans certaines situations. Ton point d'attention : la plupart des regards extérieurs sont bien moins durables et bien moins critiques qu'on ne les imagine — s'en souvenir peut aider à s'exprimer plus librement.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776773058/judgy_qlknrk.jpg"
+    },
+    {
+      "key": "controle",
+      "title": "La peur de perdre le contrôle",
+      "description": "L'incertitude ou le fait de ne pas maîtriser une situation peut générer un inconfort notable, même lorsque la situation reste objectivement gérable. Tu peux avoir tendance à anticiper, à structurer ou à chercher de l'information avant d'agir pour réduire l'inconnu. Ton point d'attention : une part d'imprévisible est inévitable dans presque toutes les situations importantes — apprendre à avancer avec moins de certitudes peut aider à réduire la tension que l'incertitude produit.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776773059/controling_skvyn2.jpg"
+    },
+    {
+      "key": "rejet",
+      "title": "La peur du rejet",
+      "description": "Ne pas être choisi, inclus ou accepté peut peser dans certaines de tes réactions, notamment lorsqu'il s'agit d'intégrer un groupe ou de te montrer à des personnes que tu ne connais pas encore. Tu peux parfois adapter ce que tu montres de toi pour éviter cette situation. Ton point d'attention : ne pas être retenu ou apprécié par tout le monde est inévitable — et ne dit généralement pas grand-chose de ta valeur réelle.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776773208/reject_rkkh7n.jpg"
+    },
+    {
+      "key": "manque",
+      "title": "La peur du manque",
+      "description": "La possibilité de perdre une sécurité ou de ne plus disposer de ressources suffisantes peut influencer certaines de tes décisions, même lorsque la situation concrète reste gérable. Tu peux avoir tendance à anticiper les pertes, à préserver ce que tu as ou à ressentir de l'inquiétude face aux dépenses ou aux changements inattendus. Ton point d'attention : une vigilance raisonnée face aux risques est utile, mais lorsqu'elle devient prédominante, elle peut parfois empêcher de profiter de ce qui est déjà là.",
+      "image": "https://res.cloudinary.com/dsv7oziap/image/upload/v1776773296/missing_lblgot.jpg"
+    }
+  ],
+  "questions": [
+    {
+      "id": "1",
+      "question": "Un ami très proche répond beaucoup moins depuis quelques jours, sans t'avoir expliqué pourquoi. Quelle réaction apparaît le plus naturellement chez toi ?",
+      "answers": [
         {
-            "key": "abandon",
-            "title": "La peur de l'abandon",
-            "description": "Ta peur cachée est celle de l’abandon. Tu attaches beaucoup d’importance aux relations et aux liens que tu construis avec les autres. Derrière ton attachement se cache souvent une crainte profonde de perdre quelqu’un ou de ne plus compter autant qu’avant. Tu peux parfois chercher à rassurer, à maintenir l’équilibre ou à éviter les conflits pour préserver tes relations. Cette peur peut te rendre très investi émotionnellement, mais aussi parfois dépendant du regard ou de la présence des autres. Tu ressens fortement les changements dans les relations et tu peux être affecté par la distance ou le silence. Ton défi est d’apprendre à te sécuriser intérieurement et à comprendre que ta valeur ne dépend pas uniquement des autres. Cette sensibilité reste une force, car elle te permet d’aimer profondément et de créer des liens sincères.",
-            "image":"https://res.cloudinary.com/dsv7oziap/image/upload/v1776773060/abandoment_d8zaqw.jpg"
+          "label": "Je commence à me demander si quelque chose a changé entre nous ou si j'ai fait quelque chose.",
+          "scores": { "abandon": 3 }
         },
         {
-            "key": "echec",
-            "title": "La peur de l'échec",
-            "description": "Ta peur cachée est celle de l’échec. Tu as souvent envie de bien faire, de réussir et d’aller au bout de ce que tu entreprends. Cependant, cette exigence peut parfois te freiner ou te mettre sous pression. Tu peux hésiter à te lancer par peur de ne pas être à la hauteur ou de ne pas atteindre le résultat attendu. Cette peur t’amène à te préparer, à anticiper et à vouloir maîtriser les choses, ce qui est aussi une qualité. Mais elle peut aussi te pousser à douter de toi ou à repousser certaines opportunités. Ton défi est d’accepter que l’erreur fait partie du processus et qu’elle est même essentielle pour progresser. Ta rigueur et ton ambition sont des forces, à condition de ne pas te limiter par la peur de mal faire.",
-            "image":"https://res.cloudinary.com/dsv7oziap/image/upload/v1776773059/failure_wc2beq.jpg"
+          "label": "Je me demande si j'ai dit ou fait quelque chose qui aurait pu lui déplaire.",
+          "scores": { "jugement": 2, "rejet": 1 }
         },
         {
-            "key": "jugement",
-            "title": "La peur du jugement",
-            "description": "Ta peur cachée est celle du jugement des autres. Tu es sensible à la manière dont tu es perçu et tu fais souvent attention à ton image, à tes choix ou à ce que tu montres de toi. Tu peux parfois adapter ton comportement pour éviter les critiques ou les regards négatifs. Cette peur peut t’empêcher d’être totalement spontané ou de t’affirmer pleinement dans certaines situations. Tu ressens facilement les regards extérieurs et tu peux te remettre en question rapidement. Pourtant, tu as souvent une vraie richesse intérieure et des choses à exprimer. Ton défi est d’oser être toi-même sans chercher constamment à correspondre aux attentes. Car au fond, ce qui te rend unique mérite d’être assumé, même si cela ne plaît pas à tout le monde.",
-            "image":"https://res.cloudinary.com/dsv7oziap/image/upload/v1776773058/judgy_qlknrk.jpg"
+          "label": "Je ne sais pas ce qui se passe et ça me met un peu mal à l'aise de ne pas avoir d'explication.",
+          "scores": { "controle": 3 }
         },
         {
-            "key": "controle",
-            "title": "La peur de perdre le contrôle",
-            "description": "Ta peur cachée est celle de perdre le contrôle. Tu as besoin de comprendre, d’anticiper et de maîtriser ce qui t’entoure pour te sentir en sécurité. L’imprévu ou l’incertitude peuvent te déstabiliser, car tu préfères savoir où tu vas. Tu es souvent organisé, réfléchi et tu aimes que les choses soient claires. Cette capacité est une force, mais elle peut aussi te rendre rigide ou anxieux face à ce que tu ne peux pas contrôler. Tu peux avoir du mal à lâcher prise ou à accepter certaines situations. Ton défi est d’apprendre à faire confiance à l’inconnu et à accepter que tout ne peut pas être prévu. En développant plus de flexibilité, tu gagneras en sérénité et en liberté.",
-            "image":"https://res.cloudinary.com/dsv7oziap/image/upload/v1776773059/controling_skvyn2.jpg"
+          "label": "Je me demande si je lui ai déplu ou si je compte encore autant pour lui.",
+          "scores": { "rejet": 3 }
         },
         {
-            "key": "rejet",
-            "title": "La peur du rejet",
-            "description": "Ta peur cachée est celle du rejet. Tu peux craindre de ne pas être accepté, apprécié ou reconnu à ta juste valeur. Cette peur peut te pousser à t’adapter aux autres, à éviter certaines situations ou à te protéger en gardant une certaine distance. Tu peux aussi hésiter à montrer certaines facettes de ta personnalité par peur de ne pas plaire. Pourtant, tu as une vraie sensibilité et une capacité à créer du lien. Ton défi est de comprendre que tu ne peux pas plaire à tout le monde, et que ce n’est pas nécessaire pour être apprécié. En t’assumant davantage, tu attires des relations plus sincères. Ta sensibilité est une force, à condition de ne pas la laisser être freinée par la peur du regard des autres.",
-            "image":"https://res.cloudinary.com/dsv7oziap/image/upload/v1776773208/reject_rkkh7n.jpg"
+          "label": "Je prends de ses nouvelles naturellement — si quelque chose ne va pas, j'aimerais le savoir.",
+          "scores": { "abandon": 2, "controle": 1 }
         },
         {
-            "key": "manque",
-            "title": "La peur du manque",
-            "description": "Ta peur cachée est celle du manque. Tu peux avoir tendance à anticiper les pertes, que ce soit sur le plan émotionnel, matériel ou personnel. Cette peur te pousse à vouloir sécuriser les choses, à prévoir et à éviter les risques. Tu peux être prudent dans tes décisions et chercher à garder une forme de stabilité. Cette attitude peut être rassurante, mais elle peut aussi t’empêcher de profiter pleinement du moment présent ou de saisir certaines opportunités. Ton défi est d’apprendre à faire confiance à la vie et à accepter une part d’incertitude. En lâchant un peu le besoin de tout contrôler, tu peux gagner en légèreté et en liberté. Ta prudence est une force, tant qu’elle ne devient pas une limite.",
-            "image":"https://res.cloudinary.com/dsv7oziap/image/upload/v1776773296/missing_lblgot.jpg"
+          "label": "Je pense surtout à ce que je risque de perdre concrètement si cette relation devient moins présente dans ma vie.",
+          "scores": { "manque": 3 }
         }
-    ],
-    "questions": [
+      ]
+    },
+    {
+      "id": "2",
+      "question": "On te propose un projet intéressant mais incertain, avec une vraie possibilité que ça ne fonctionne pas. Qu'est-ce qui te ferait le plus hésiter concrètement ?",
+      "answers": [
         {
-            "id": "1",
-            "question": "Dans une relation importante, ce qui te fait le plus peur est…",
-            "answers": [
-                {
-                    "label": "Que la personne s’éloigne",
-                    "scores": {
-                        "abandon": 3
-                    }
-                },
-                {
-                    "label": "De ne pas être à la hauteur",
-                    "scores": {
-                        "echec": 3
-                    }
-                },
-                {
-                    "label": "D’être jugé ou critiqué",
-                    "scores": {
-                        "jugement": 3
-                    }
-                },
-                {
-                    "label": "De perdre le contrôle de la situation",
-                    "scores": {
-                        "controle": 3
-                    }
-                },
-                {
-                    "label": "D’être rejeté",
-                    "scores": {
-                        "rejet": 3
-                    }
-                },
-                {
-                    "label": "De perdre ce que tu as construit",
-                    "scores": {
-                        "manque": 3
-                    }
-                }
-            ]
+          "label": "Le fait de m'y investir et de ne pas y arriver.",
+          "scores": { "echec": 3 }
         },
         {
-            "id": "2",
-            "question": "Face à une nouvelle opportunité, tu ressens souvent…",
-            "answers": [
-                {
-                    "label": "La peur d’être laissé de côté",
-                    "scores": {
-                        "abandon": 2
-                    }
-                },
-                {
-                    "label": "La peur d’échouer",
-                    "scores": {
-                        "echec": 3
-                    }
-                },
-                {
-                    "label": "La peur du regard des autres",
-                    "scores": {
-                        "jugement": 3
-                    }
-                },
-                {
-                    "label": "Le besoin de tout contrôler avant",
-                    "scores": {
-                        "controle": 3
-                    }
-                },
-                {
-                    "label": "La peur de ne pas être accepté",
-                    "scores": {
-                        "rejet": 3
-                    }
-                },
-                {
-                    "label": "La peur de perdre ta sécurité actuelle",
-                    "scores": {
-                        "manque": 3
-                    }
-                }
-            ]
+          "label": "L'idée de perdre du temps, de l'énergie ou des ressources sans résultat.",
+          "scores": { "manque": 3 }
         },
         {
-            "id": "3",
-            "question": "Dans un conflit, ce qui te touche le plus…",
-            "answers": [
-                {
-                    "label": "Le risque de perdre la relation",
-                    "scores": {
-                        "abandon": 3
-                    }
-                },
-                {
-                    "label": "Le sentiment d’avoir échoué",
-                    "scores": {
-                        "echec": 2
-                    }
-                },
-                {
-                    "label": "Les critiques reçues",
-                    "scores": {
-                        "jugement": 3
-                    }
-                },
-                {
-                    "label": "Le chaos ou le manque de contrôle",
-                    "scores": {
-                        "controle": 3
-                    }
-                },
-                {
-                    "label": "Le rejet ou la mise à distance",
-                    "scores": {
-                        "rejet": 3
-                    }
-                },
-                {
-                    "label": "L’insécurité que ça crée",
-                    "scores": {
-                        "manque": 3
-                    }
-                }
-            ]
+          "label": "Le fait de ne pas pouvoir anticiper comment ça va évoluer.",
+          "scores": { "controle": 3 }
         },
         {
-            "id": "4",
-            "question": "Ce qui t’angoisse le plus dans l’avenir…",
-            "answers": [
-                {
-                    "label": "Te retrouver seul",
-                    "scores": {
-                        "abandon": 3
-                    }
-                },
-                {
-                    "label": "Ne pas réussir ta vie",
-                    "scores": {
-                        "echec": 3
-                    }
-                },
-                {
-                    "label": "Être jugé négativement",
-                    "scores": {
-                        "jugement": 3
-                    }
-                },
-                {
-                    "label": "Ne plus maîtriser ta situation",
-                    "scores": {
-                        "controle": 3
-                    }
-                },
-                {
-                    "label": "Ne pas être accepté",
-                    "scores": {
-                        "rejet": 3
-                    }
-                },
-                {
-                    "label": "Manquer de quelque chose d’important",
-                    "scores": {
-                        "manque": 3
-                    }
-                }
-            ]
+          "label": "Ce que les autres pourraient penser si ça ne fonctionne pas.",
+          "scores": { "jugement": 3 }
         },
         {
-            "id": "5",
-            "question": "Quand tu doutes, c’est souvent parce que…",
-            "answers": [
-                {
-                    "label": "Tu crains de perdre quelqu’un",
-                    "scores": {
-                        "abandon": 3
-                    }
-                },
-                {
-                    "label": "Tu as peur de mal faire",
-                    "scores": {
-                        "echec": 3
-                    }
-                },
-                {
-                    "label": "Tu penses au regard des autres",
-                    "scores": {
-                        "jugement": 3
-                    }
-                },
-                {
-                    "label": "Tu n’as pas assez de contrôle",
-                    "scores": {
-                        "controle": 3
-                    }
-                },
-                {
-                    "label": "Tu as peur de ne pas être accepté",
-                    "scores": {
-                        "rejet": 3
-                    }
-                },
-                {
-                    "label": "Tu crains de perdre quelque chose",
-                    "scores": {
-                        "manque": 3
-                    }
-                }
-            ]
+          "label": "Que l'échec du projet affecte la façon dont les personnes impliquées me perçoivent.",
+          "scores": { "rejet": 2, "jugement": 1 }
         },
         {
-            "id": "6",
-            "question": "Dans tes choix, tu cherches surtout à éviter…",
-            "answers": [
-                {
-                    "label": "La solitude",
-                    "scores": {
-                        "abandon": 3
-                    }
-                },
-                {
-                    "label": "L’échec",
-                    "scores": {
-                        "echec": 3
-                    }
-                },
-                {
-                    "label": "Les critiques",
-                    "scores": {
-                        "jugement": 3
-                    }
-                },
-                {
-                    "label": "L’imprévu",
-                    "scores": {
-                        "controle": 3
-                    }
-                },
-                {
-                    "label": "Le rejet",
-                    "scores": {
-                        "rejet": 3
-                    }
-                },
-                {
-                    "label": "Le manque",
-                    "scores": {
-                        "manque": 3
-                    }
-                }
-            ]
-        },
-        {
-            "id": "7",
-            "question": "Ce qui te fait le plus hésiter à agir…",
-            "answers": [
-                {
-                    "label": "La peur de perdre quelqu’un",
-                    "scores": {
-                        "abandon": 3
-                    }
-                },
-                {
-                    "label": "La peur d’échouer",
-                    "scores": {
-                        "echec": 3
-                    }
-                },
-                {
-                    "label": "La peur du jugement",
-                    "scores": {
-                        "jugement": 3
-                    }
-                },
-                {
-                    "label": "Le manque de contrôle",
-                    "scores": {
-                        "controle": 3
-                    }
-                },
-                {
-                    "label": "La peur du rejet",
-                    "scores": {
-                        "rejet": 3
-                    }
-                },
-                {
-                    "label": "La peur de manquer",
-                    "scores": {
-                        "manque": 3
-                    }
-                }
-            ]
-        },
-        {
-            "id": "8",
-            "question": "Dans une situation inconnue, tu ressens…",
-            "answers": [
-                {
-                    "label": "Une peur d’être abandonné",
-                    "scores": {
-                        "abandon": 2
-                    }
-                },
-                {
-                    "label": "Une peur de ne pas réussir",
-                    "scores": {
-                        "echec": 3
-                    }
-                },
-                {
-                    "label": "Une peur du regard des autres",
-                    "scores": {
-                        "jugement": 3
-                    }
-                },
-                {
-                    "label": "Une perte de repères",
-                    "scores": {
-                        "controle": 3
-                    }
-                },
-                {
-                    "label": "Une peur de ne pas être accepté",
-                    "scores": {
-                        "rejet": 3
-                    }
-                },
-                {
-                    "label": "Une insécurité globale",
-                    "scores": {
-                        "manque": 3
-                    }
-                }
-            ]
-        },
-        {
-            "id": "9",
-            "question": "Ce qui te touche le plus profondément…",
-            "answers": [
-                {
-                    "label": "La distance des autres",
-                    "scores": {
-                        "abandon": 3
-                    }
-                },
-                {
-                    "label": "Un échec personnel",
-                    "scores": {
-                        "echec": 3
-                    }
-                },
-                {
-                    "label": "Une critique",
-                    "scores": {
-                        "jugement": 3
-                    }
-                },
-                {
-                    "label": "Une situation incontrôlable",
-                    "scores": {
-                        "controle": 3
-                    }
-                },
-                {
-                    "label": "Un rejet",
-                    "scores": {
-                        "rejet": 3
-                    }
-                },
-                {
-                    "label": "Une perte",
-                    "scores": {
-                        "manque": 3
-                    }
-                }
-            ]
-        },
-        {
-            "id": "10",
-            "question": "Au fond, ce que tu redoutes le plus…",
-            "answers": [
-                {
-                    "label": "Être seul",
-                    "scores": {
-                        "abandon": 3
-                    }
-                },
-                {
-                    "label": "Ne pas réussir",
-                    "scores": {
-                        "echec": 3
-                    }
-                },
-                {
-                    "label": "Être jugé",
-                    "scores": {
-                        "jugement": 3
-                    }
-                },
-                {
-                    "label": "Perdre le contrôle",
-                    "scores": {
-                        "controle": 3
-                    }
-                },
-                {
-                    "label": "Être rejeté",
-                    "scores": {
-                        "rejet": 3
-                    }
-                },
-                {
-                    "label": "Manquer de quelque chose",
-                    "scores": {
-                        "manque": 3
-                    }
-                }
-            ]
+          "label": "Que ça me fasse perdre la place ou la relation que j'ai construite dans ce contexte.",
+          "scores": { "abandon": 2, "manque": 1 }
         }
-    ]
+      ]
+    },
+    {
+      "id": "3",
+      "question": "Tu arrives dans un groupe où presque tout le monde se connaît déjà. Après un moment, tu n'as pas vraiment trouvé ta place. Quelle pensée te traverse le plus ?",
+      "answers": [
+        {
+          "label": "Que quelque chose dans ma façon d'être n'a pas plu ou n'a pas convenu.",
+          "scores": { "jugement": 3 }
+        },
+        {
+          "label": "Que je ne suis pas le genre de personne qu'ils avaient envie d'inclure.",
+          "scores": { "rejet": 3 }
+        },
+        {
+          "label": "Je me dis que je n'ai peut-être pas trouvé la bonne façon d'entrer dans le groupe cette fois-ci.",
+          "scores": { "echec": 2, "rejet": 1 }
+        },
+        {
+          "label": "Que je n'arrive pas à lire comment fonctionne ce groupe ni comment m'y intégrer.",
+          "scores": { "controle": 3 }
+        },
+        {
+          "label": "Que j'ai raté l'opportunité de me montrer sous mon meilleur jour.",
+          "scores": { "echec": 2, "jugement": 1 }
+        },
+        {
+          "label": "Que le fait de ne pas appartenir à ce groupe me prive de quelque chose d'utile ou d'agréable.",
+          "scores": { "manque": 3 }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "question": "Tu as beaucoup travaillé sur quelque chose qui compte pour toi et le résultat est nettement moins bon que prévu. Quelle pensée apparaît en premier ?",
+      "answers": [
+        {
+          "label": "Que j'aurais dû faire différemment et que j'aurais pu éviter cet écart.",
+          "scores": { "echec": 3 }
+        },
+        {
+          "label": "Ce que les autres vont penser de ce résultat ou de ma capacité.",
+          "scores": { "jugement": 3 }
+        },
+        {
+          "label": "Que tout le temps et l'énergie investis n'ont pas donné ce qu'ils auraient dû donner.",
+          "scores": { "manque": 3 }
+        },
+        {
+          "label": "Que la situation m'a échappé alors que j'avais essayé de bien la cadrer.",
+          "scores": { "controle": 3 }
+        },
+        {
+          "label": "Si les personnes impliquées risquent de me faire moins confiance ou de me voir différemment.",
+          "scores": { "rejet": 2, "jugement": 1 }
+        },
+        {
+          "label": "Si la relation avec les personnes de ce projet va rester la même.",
+          "scores": { "abandon": 3 }
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "question": "Un plan important prévu depuis longtemps change complètement au dernier moment. Quelle partie de la situation te déstabilise le plus ?",
+      "answers": [
+        {
+          "label": "Le fait de ne plus savoir comment les choses vont se dérouler.",
+          "scores": { "controle": 3 }
+        },
+        {
+          "label": "Ce que ce changement implique concrètement en termes de ressources, d'énergie ou de pertes.",
+          "scores": { "manque": 3 }
+        },
+        {
+          "label": "Le fait de ne pas avoir été prévenu(e) suffisamment tôt ou d'avoir été mis(e) de côté dans la décision.",
+          "scores": { "abandon": 2, "rejet": 1 }
+        },
+        {
+          "label": "Que ça compromette quelque chose que je voulais réussir ou accomplir.",
+          "scores": { "echec": 3 }
+        },
+        {
+          "label": "Comment je vais être perçu(e) si ma façon de réagir ne correspond pas à ce qui est attendu.",
+          "scores": { "jugement": 3 }
+        },
+        {
+          "label": "Si les personnes qui ont organisé ce changement me l'ont annoncé de la même manière qu'aux autres.",
+          "scores": { "rejet": 3 }
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "question": "Tu dois exprimer devant plusieurs personnes une opinion que tu sais minoritaire. Qu'est-ce qui influence le plus ta façon de t'exprimer ?",
+      "answers": [
+        {
+          "label": "La crainte que l'opinion que les autres ont de moi soit affectée par ce que je vais dire.",
+          "scores": { "jugement": 3 }
+        },
+        {
+          "label": "Le fait de ne pas savoir comment le groupe va réagir et de ne pas pouvoir anticiper la suite.",
+          "scores": { "controle": 3 }
+        },
+        {
+          "label": "L'idée que certaines personnes pourraient me trouver moins compatible avec le groupe après ça.",
+          "scores": { "rejet": 3 }
+        },
+        {
+          "label": "Le fait que si ça se passe mal, je pourrais perdre une relation ou me retrouver isolé(e).",
+          "scores": { "abandon": 3 }
+        },
+        {
+          "label": "La possibilité que défendre une position minoritaire me place dans une situation difficile à récupérer.",
+          "scores": { "echec": 2, "controle": 1 }
+        },
+        {
+          "label": "L'idée que prendre cette position pourrait me coûter quelque chose d'utile dans ce contexte.",
+          "scores": { "manque": 3 }
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "question": "Une dépense imprévue importante arrive alors que tu pourrais financièrement l'absorber. Quelle réaction te ressemble le plus ?",
+      "answers": [
+        {
+          "label": "Je ressens une gêne assez forte, même en sachant que ça reste gérable.",
+          "scores": { "manque": 3 }
+        },
+        {
+          "label": "Je m'agace surtout de ne pas avoir pu l'anticiper ou de l'avoir laissée arriver.",
+          "scores": { "controle": 3 }
+        },
+        {
+          "label": "Je me demande si c'est le signe que j'aurais dû mieux prévoir ou organiser.",
+          "scores": { "echec": 2, "controle": 1 }
+        },
+        {
+          "label": "Je me demande surtout ce que les personnes concernées vont en penser.",
+          "scores": { "jugement": 3 }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "question": "Quelqu'un qui compte beaucoup pour toi semble construire de plus en plus sa vie sans toi. Comment réagis-tu ?",
+      "answers": [
+        {
+          "label": "Ça me peine et je me demande si notre lien est en train de changer.",
+          "scores": { "abandon": 3 }
+        },
+        {
+          "label": "Je me demande si j'ai fait quelque chose qui explique cet éloignement.",
+          "scores": { "jugement": 2, "rejet": 1 }
+        },
+        {
+          "label": "J'essaie de comprendre comment ça va évoluer et ce que ça implique pour moi.",
+          "scores": { "controle": 3 }
+        },
+        {
+          "label": "Je pense à tout ce que je pourrais perdre si cette relation s'étiole.",
+          "scores": { "manque": 3 }
+        },
+        {
+          "label": "Je me demande si ma place dans sa vie est remise en question.",
+          "scores": { "rejet": 3 }
+        },
+        {
+          "label": "Je me demande si j'aurais dû faire quelque chose différemment pour que ça ne se passe pas ainsi.",
+          "scores": { "echec": 3 }
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "question": "Tu dois tenter quelque chose devant d'autres personnes alors que tu sais que tu pourrais te tromper. Quelle partie de la situation te travaille le plus ?",
+      "answers": [
+        {
+          "label": "Ce que cette erreur éventuelle dirait de ma capacité à réussir ce que j'entreprends.",
+          "scores": { "echec": 3 }
+        },
+        {
+          "label": "L'opinion que les autres pourraient avoir de moi si je me trompe.",
+          "scores": { "jugement": 3 }
+        },
+        {
+          "label": "Le fait que je ne sais pas exactement comment ça va se passer ni ce qui m'attend.",
+          "scores": { "controle": 3 }
+        },
+        {
+          "label": "Si le groupe me trouvera encore à sa place après une éventuelle erreur.",
+          "scores": { "rejet": 2, "jugement": 1 }
+        },
+        {
+          "label": "Si une mauvaise performance pourrait affecter la confiance que certaines personnes m'accordent.",
+          "scores": { "abandon": 2, "rejet": 1 }
+        },
+        {
+          "label": "Le fait de dépenser de l'énergie ou du crédit pour quelque chose qui pourrait ne rien donner.",
+          "scores": { "manque": 3 }
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "question": "Une décision importante doit être prise alors que tu n'as pas toutes les informations et que tu ne peux pas attendre davantage. Comment abordes-tu la situation ?",
+      "answers": [
+        {
+          "label": "Je cherche à rassembler le maximum d'éléments disponibles avant de trancher, même dans le temps imparti.",
+          "scores": { "controle": 3 }
+        },
+        {
+          "label": "Je pense surtout à ne pas prendre une mauvaise décision qui pourrait nuire à mon objectif.",
+          "scores": { "echec": 3 }
+        },
+        {
+          "label": "Je m'assure de ne pas prendre de risque qui pourrait me coûter quelque chose d'important.",
+          "scores": { "manque": 3 }
+        },
+        {
+          "label": "Je pense aussi à la façon dont ma décision sera perçue par les personnes concernées.",
+          "scores": { "jugement": 3 }
+        },
+        {
+          "label": "Je veux m'assurer que ma décision ne fragilise pas une relation ou une dynamique qui compte.",
+          "scores": { "abandon": 2, "rejet": 1 }
+        },
+        {
+          "label": "Je réfléchis à la façon dont cette décision pourrait affecter la place que j'occupe dans ce contexte.",
+          "scores": { "rejet": 3 }
+        }
+      ]
+    }
+  ]
 }
