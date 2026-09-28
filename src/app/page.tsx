@@ -3,12 +3,16 @@ import type { Metadata } from "next";
 import { getAllCategories, getAllQuizzes } from "@/lib/quizzes";
 import { getAllPersonalityTests } from "@/lib/personalite";
 import { getGameTypes } from "@/lib/games";
+import { geographyTopics } from "@/lib/geography-topics";
+import { cinemaTopics } from "@/lib/cinema-topics";
 import { AdSlot } from "@/components/AdSlot";
 
 export const metadata: Metadata = {
   title: "QuizUp | Quiz gratuits en ligne pour tester tes connaissances",
+
   description:
     "Joue à des quiz gratuits en ligne sur QuizUp : culture générale, histoire, géographie, sciences, sport, cinéma, musique, séries TV, nature et mini-jeux ludiques.",
+
   keywords: [
     "quiz gratuit",
     "quiz en ligne",
@@ -16,16 +20,23 @@ export const metadata: Metadata = {
     "jeux de quiz",
     "QuizUp",
   ],
+
   alternates: {
     canonical: "/",
   },
+
   openGraph: {
     title: "QuizUp | Quiz gratuits en ligne",
+
     description:
       "Teste tes connaissances avec des quiz gratuits en culture générale, histoire, géographie, sciences, sport, cinéma, musique et plus encore.",
+
     url: "https://www.quizup.fr",
+
     siteName: "QuizUp",
+
     type: "website",
+
     locale: "fr_FR",
   },
 };
@@ -34,6 +45,7 @@ const ONE_MONTH_MS = 30 * 24 * 60 * 60 * 1000;
 
 function getComputedIsNew(item: { isNew?: boolean; createdAt?: string }) {
   if (!item.isNew) return false;
+
   if (!item.createdAt) return false;
 
   const createdAtTime = new Date(item.createdAt).getTime();
@@ -52,6 +64,7 @@ function sortByNewest<T extends { createdAt?: string; slug: string }>(
 ) {
   return [...items].sort((a, b) => {
     const dateA = a.createdAt ? new Date(a.createdAt).getTime() : 0;
+
     const dateB = b.createdAt ? new Date(b.createdAt).getTime() : 0;
 
     if (dateA !== dateB) return dateB - dateA;
@@ -60,10 +73,9 @@ function sortByNewest<T extends { createdAt?: string; slug: string }>(
   });
 }
 
-function pickBalancedByCategory<T extends { category: { slug: string }; slug: string }>(
-  items: T[],
-  limit = 16,
-): T[] {
+function pickBalancedByCategory<
+  T extends { category: { slug: string }; slug: string },
+>(items: T[], limit = 16): T[] {
   const byCategory = new Map<string, T[]>();
 
   for (const item of sortBySlug(items)) {
@@ -77,6 +89,7 @@ function pickBalancedByCategory<T extends { category: { slug: string }; slug: st
   }
 
   const categorySlugs = Array.from(byCategory.keys()).sort();
+
   const result: T[] = [];
 
   let index = 0;
@@ -89,6 +102,7 @@ function pickBalancedByCategory<T extends { category: { slug: string }; slug: st
 
       if (item) {
         result.push(item);
+
         added = true;
 
         if (result.length >= limit) break;
@@ -105,6 +119,7 @@ function pickBalancedByCategory<T extends { category: { slug: string }; slug: st
 
 function removeAlreadyUsed<T extends { slug: string }>(
   items: T[],
+
   usedSlugs: Set<string>,
 ) {
   return items.filter((item) => !usedSlugs.has(item.slug));
@@ -112,8 +127,11 @@ function removeAlreadyUsed<T extends { slug: string }>(
 
 export default function HomePage() {
   const quizzes = getAllQuizzes();
+
   const categories = getAllCategories();
+
   const personalityTests = getAllPersonalityTests();
+
   const gameTypes = getGameTypes();
 
   const homeCategories = sortBySlug(categories);
@@ -126,39 +144,29 @@ export default function HomePage() {
 
   const newQuizzes = pickBalancedByCategory(
     newQuizzesRaw.length ? newQuizzesRaw : sortByNewest(quizzes),
+
     16,
   );
 
   newQuizzes.forEach((q) => usedQuizSlugs.add(q.slug));
 
-  const popularQuizzesRaw = sortBySlug(
-    quizzes.filter((q) => q.isPopular),
-  );
+  const popularQuizzesRaw = sortBySlug(quizzes.filter((q) => q.isPopular));
 
   const popularQuizzes = pickBalancedByCategory(
     removeAlreadyUsed(
       popularQuizzesRaw.length ? popularQuizzesRaw : quizzes,
+
       usedQuizSlugs,
     ),
+
     16,
   );
 
   popularQuizzes.forEach((q) => usedQuizSlugs.add(q.slug));
 
-  const featuredCategory =
-    categories.find((c) => c.slug === "culture-generale") ?? categories[0];
-
-  const featuredQuizzes = featuredCategory
-    ? sortBySlug(
-        removeAlreadyUsed(
-          quizzes.filter((q) => q.category.slug === featuredCategory.slug),
-          usedQuizSlugs,
-        ),
-      ).slice(0, 16)
-    : [];
-
   const personalityTestsHome = pickBalancedByCategory(
     sortByNewest(personalityTests),
+
     16,
   );
 
@@ -221,7 +229,9 @@ export default function HomePage() {
                   ) : null}
 
                   <span className="quizCategory">{q.category.name}</span>
+
                   <span className="quizCardOverlay" />
+
                   <span className="quizCardTitle">{q.title}</span>
                 </Link>
               ))}
@@ -255,7 +265,9 @@ export default function HomePage() {
                   aria-label={`Lancer le quiz ${q.title}`}
                 >
                   <span className="quizCategory">{q.category.name}</span>
+
                   <span className="quizCardOverlay" />
+
                   <span className="quizCardTitle">{q.title}</span>
                 </Link>
               ))}
@@ -291,6 +303,7 @@ export default function HomePage() {
                 aria-label={`Voir la catégorie ${cat.name}`}
               >
                 <span className="catCardOverlay" />
+
                 <span className="catCardName">{cat.name}</span>
               </Link>
             ))}
@@ -298,52 +311,66 @@ export default function HomePage() {
         </div>
       </section>
 
-      {featuredCategory && featuredQuizzes.length > 0 ? (
-        <section className="homeSection homePart">
-          <div className="sectionHead">
-            <h2 className="sectionTitle">À la une : {featuredCategory.name}</h2>
+      {/* EXPLOREZ LA GÉOGRAPHIE */}
 
-            <Link
-              className="sectionLink"
-              href={`/categorie/${featuredCategory.slug}`}
-            >
-              Voir la catégorie
-            </Link>
+      <section className="homeSection homePart">
+        <div className="sectionHead">
+          <h2 className="sectionTitle">Explorez la géographie</h2>
+
+          <Link className="sectionLink" href="/categorie/geographie">
+            Voir toute la géographie
+          </Link>
+        </div>
+
+        <div className="row">
+          <div className="rowTrack rowTrack--categories">
+            {geographyTopics.map((topic) => (
+              <Link
+                key={topic.slug}
+                href={`/categorie/geographie/${topic.slug}`}
+                className="catCard"
+                style={{
+                  backgroundImage: `url("${topic.image}")`,
+                }}
+                aria-label={`Explorer ${topic.name}`}
+              >
+                <span className="catCardOverlay" />
+                <span className="catCardName">{topic.name}</span>
+              </Link>
+            ))}
           </div>
+        </div>
+      </section>
 
-          <div className="row">
-            <div className="rowTrack">
-              {featuredQuizzes.map((q) => (
-                <Link
-                  key={q.slug}
-                  href={`/quiz/${q.slug}`}
-                  className="quizCard"
-                  style={{
-                    backgroundImage: `url("${q.images?.cover ?? ""}")`,
-                  }}
-                  aria-label={`Lancer le quiz ${q.title}`}
-                >
-                  <span className="quizCategory">{q.category.name}</span>
-                  <span className="quizCardOverlay" />
-                  <span className="quizCardTitle">{q.title}</span>
-                </Link>
-              ))}
-            </div>
+      {/* EXPLOREZ LE CINÉMA */}
+
+      <section className="homeSection homePart">
+        <div className="sectionHead">
+          <h2 className="sectionTitle">Explorez le cinéma</h2>
+
+          <Link className="sectionLink" href="/categorie/cinema">
+            Voir tout le cinéma
+          </Link>
+        </div>
+
+        <div className="row">
+          <div className="rowTrack rowTrack--categories">
+            {cinemaTopics.map((topic) => (
+              <Link
+                key={topic.slug}
+                href={`/categorie/cinema/${topic.slug}`}
+                className="catCard"
+                style={{
+                  backgroundImage: `url("${topic.image}")`,
+                }}
+                aria-label={`Explorer ${topic.name}`}
+              >
+                <span className="catCardOverlay" />
+                <span className="catCardName">{topic.name}</span>
+              </Link>
+            ))}
           </div>
-        </section>
-      ) : null}
-
-      <section className="homeSection homePart homeSeo">
-        <h2 className="homeSeoTitle">Des quiz rapides, fun et éducatifs</h2>
-
-        <p className="homeSeoText">
-          QuizUp est un site de quiz gratuits conçu pour apprendre, s'amuser et
-          tester ses connaissances sur des centaines de sujets passionnants.
-          Culture générale, géographie, histoire, sciences, cinéma, musique,
-          sport, nature ou séries TV : découvrez des quiz de 20 questions
-          accessibles à tous les niveaux. Relevez de nouveaux défis, comparez
-          vos scores et enrichissez vos connaissances tout en vous divertissant.
-        </p>
+        </div>
       </section>
 
       <section className="homeSection homePart">
@@ -375,7 +402,9 @@ export default function HomePage() {
                   ) : null}
 
                   <span className="quizCategory">{test.category.name}</span>
+
                   <span className="quizCardOverlay" />
+
                   <span className="quizCardTitle">{test.title}</span>
                 </Link>
               ))}
@@ -388,50 +417,60 @@ export default function HomePage() {
         )}
       </section>
 
-<section className="homeSection homePart">
-  <Link
-    href="/jeux/defi-carte"
-    className="mapChallengeBanner"
-    style={{
-      backgroundImage: `
+      <section className="homeSection homePart">
+        <Link
+          href="/jeux/defi-carte"
+          className="mapChallengeBanner"
+          style={{
+            backgroundImage: `
+
         linear-gradient(
+
           90deg,
+
           rgba(10, 16, 36, 0.94) 0%,
+
           rgba(10, 16, 36, 0.80) 38%,
+
           rgba(10, 16, 36, 0.35) 68%,
+
           rgba(10, 16, 36, 0.08) 100%
+
         ),
+
         url("/images/defi-carte.jpg")
+
       `,
-    }}
-    aria-label="Découvrir les Défis Carte"
-  >
-    <div className="mapChallengeBanner__content">
-      {/* <span className="mapChallengeBanner__badge">
+          }}
+          aria-label="Découvrir les Défis Carte"
+        >
+          <div className="mapChallengeBanner__content">
+            {/* <span className="mapChallengeBanner__badge">
+
         Nouveau format
+
       </span> */}
 
-      <h2 className="mapChallengeBanner__title">
-        Défi Carte
-      </h2>
+            <h2 className="mapChallengeBanner__title">Défi Carte</h2>
 
-      <p className="mapChallengeBanner__text">
-        Teste ta géographie directement sur la carte.
-        Continents, pays, régions, États… trouve un maximum
-        de réponses avant la fin du chrono.
-      </p>
+            <p className="mapChallengeBanner__text">
+              Teste ta géographie directement sur la carte. Continents, pays,
+              régions, États… trouve un maximum de réponses avant la fin du
+              chrono.
+            </p>
 
-      <div className="mapChallengeBanner__meta">
-        <span>Cartes interactives</span>
-        <span>Contre-la-montre</span>
-      </div>
+            <div className="mapChallengeBanner__meta">
+              <span>Cartes interactives</span>
 
-      <span className="mapChallengeBanner__button">
-        Découvrir les défis
-      </span>
-    </div>
-  </Link>
-</section>
+              <span>Contre-la-montre</span>
+            </div>
+
+            <span className="mapChallengeBanner__button">
+              Découvrir les défis
+            </span>
+          </div>
+        </Link>
+      </section>
 
       <section className="homeSection homePart" aria-label="Publicité">
         {/* <AdSlot slot="4444444444" /> */}
@@ -460,6 +499,7 @@ export default function HomePage() {
                   aria-label={`Voir le jeu ${game.title}`}
                 >
                   <span className="catCardOverlay" />
+
                   <span className="catCardName">{game.title}</span>
                 </Link>
               ))}
@@ -468,6 +508,19 @@ export default function HomePage() {
         ) : (
           <p className="emptyState">Aucun jeu disponible pour le moment.</p>
         )}
+      </section>
+
+      <section className="homeSection homePart homeSeo">
+        <h2 className="homeSeoTitle">Des quiz rapides, fun et éducatifs</h2>
+
+        <p className="homeSeoText">
+          QuizUp est un site de quiz gratuits conçu pour apprendre, s'amuser et
+          tester ses connaissances sur des centaines de sujets passionnants.
+          Culture générale, géographie, histoire, sciences, cinéma, musique,
+          sport, nature ou séries TV : découvrez des quiz de 20 questions
+          accessibles à tous les niveaux. Relevez de nouveaux défis, comparez
+          vos scores et enrichissez vos connaissances tout en vous divertissant.
+        </p>
       </section>
     </main>
   );
