@@ -5,7 +5,7 @@ import { getAllPersonalityTests } from "@/lib/personalite";
 import { getGameTypes } from "@/lib/games";
 import { geographyTopics } from "@/lib/geography-topics";
 import { cinemaTopics } from "@/lib/cinema-topics";
-import { AdSlot } from "@/components/AdSlot";
+import MoneytizerMegabanner from "@/components/ads/MoneytizerMegabanner";
 
 export const metadata: Metadata = {
   title: "QuizUp | Quiz gratuits en ligne pour tester tes connaissances",
@@ -311,6 +311,11 @@ export default function HomePage() {
         </div>
       </section>
 
+          {/* PUBLICITÉ */}
+    <div className="homeSection homePart">
+      <MoneytizerMegabanner />
+    </div>
+
       {/* EXPLOREZ LA GÉOGRAPHIE */}
 
       <section className="homeSection homePart">
@@ -470,10 +475,6 @@ export default function HomePage() {
             </span>
           </div>
         </Link>
-      </section>
-
-      <section className="homeSection homePart" aria-label="Publicité">
-        {/* <AdSlot slot="4444444444" /> */}
       </section>
 
       <section className="homeSection homePart">
