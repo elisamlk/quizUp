@@ -1,20 +1,48 @@
 {
   "slug": "test-equilibre-familial-sain",
-  "title": "Test famille - Ton équilibre familial est-il sain ?",
-  "description": "Ta relation familiale est-elle équilibrée ou déséquilibrée ?",
-  "descriptionSeo": "Autonomie, proximité, limites, attentes, désaccords… ce test explore la manière dont tu vis actuellement tes relations familiales. À travers dix situations concrètes, observe si tu arrives à préserver à la fois le lien et ton espace personnel, si les attentes familiales prennent beaucoup de place, si les relations sont variables ou si tu as tendance à maintenir davantage de distance. Le résultat reflète ton ressenti et ton fonctionnement actuel, pas un diagnostic de ta famille.",
+"title": "As-tu trouvé le bon équilibre avec ta famille ?",
+
+"description": "Proximité, autonomie, limites, attentes… découvre comment tu trouves ta place entre le lien familial et ton espace personnel.",
+
+"descriptionSeo": "As-tu trouvé le bon équilibre avec ta famille ? À travers 10 situations concrètes, ce test explore la place que prennent la proximité, l'autonomie, les limites, les attentes et les besoins de tes proches dans ta vie. Découvre si tu arrives généralement à préserver le lien tout en gardant ton espace, si tu t'impliques beaucoup, si cet équilibre varie selon les situations ou si tu privilégies davantage ton indépendance.",
   "category": {
     "name": "Famille",
     "slug": "famille"
   },
-  "createdAt": "2026-09-21",
+  "createdAt": "2026-10-07",
   "isNew": true,
   "isPopular": true,
   "images": {
     "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777379882/cover_wfqbqu.jpg",
     "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777379882/cover_wfqbqu.jpg",
     "alt": "Test équilibre familial"
+  },"seoContent": {
+  "title": "Comment trouver un équilibre entre famille et espace personnel ?",
+  "paragraphs": [
+    "Être proche de sa famille ne signifie pas nécessairement tout partager, être toujours disponible ou tenir compte de chaque attente dans ses décisions. À l'inverse, avoir besoin d'indépendance ou de moments à soi ne signifie pas forcément manquer d'attachement. L'équilibre familial dépend souvent de la possibilité de maintenir le lien tout en conservant suffisamment d'espace pour ses propres choix et besoins.",
+    "Cet équilibre peut aussi varier selon les personnes et les périodes. Il peut être facile de poser une limite avec certains proches et beaucoup plus difficile avec d'autres, ou de se sentir très autonome dans certaines décisions tout en accordant énormément de poids à l'avis familial sur d'autres sujets. Les relations familiales ne fonctionnent donc pas toujours de manière uniforme.",
+    "Ce test te propose 10 situations autour de la disponibilité, des décisions personnelles, des limites, de l'intimité et de l'entraide. Il ne détermine pas si ta famille est saine ou dysfonctionnelle : il met simplement en lumière la façon dont tu sembles actuellement équilibrer proximité familiale et autonomie personnelle."
+  ]
+},
+
+"faq": [
+  {
+    "question": "Qu’est-ce qu’un bon équilibre familial ?",
+    "answer": "Il n'existe pas une quantité idéale de proximité valable pour tout le monde. Un équilibre peut plutôt désigner la possibilité d'entretenir les liens que l'on souhaite tout en conservant suffisamment d'autonomie pour faire ses choix, protéger certains espaces personnels et poser des limites lorsque cela devient nécessaire."
   },
+  {
+    "question": "Est-ce normal d’avoir besoin de distance avec sa famille ?",
+    "answer": "Oui. Le besoin de temps, d'intimité ou d'indépendance varie selon les personnes et les situations. La distance n'indique pas à elle seule la qualité d'une relation familiale : elle peut être choisie, nécessaire, temporaire ou simplement correspondre à une manière différente de maintenir le lien."
+  },
+  {
+    "question": "Comment savoir si je suis trop impliqué(e) dans ma famille ?",
+    "answer": "Une forte implication n'est pas nécessairement problématique. Il peut toutefois être utile de s'interroger lorsque les attentes ou les réactions de ses proches déterminent régulièrement ses décisions, lorsqu'il devient très difficile de dire non ou lorsque ses propres besoins passent presque systématiquement après ceux de la famille."
+  },
+  {
+    "question": "Poser des limites à sa famille signifie-t-il prendre ses distances ?",
+    "answer": "Pas nécessairement. Une limite peut justement permettre de préserver une relation en clarifiant ce que l'on souhaite partager, le temps que l'on peut donner ou les décisions que l'on veut garder personnelles. Elle peut coexister avec une relation familiale proche."
+  }
+],
   "profiles": [
     {
       "key": "sain",

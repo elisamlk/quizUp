@@ -1,20 +1,48 @@
 {
   "slug": "test-fatigue-ou-demotivation",
-  "title": "Test bien-être - Es-tu vraiment fatigué(e) ou juste démotivé(e) ?",
-  "description": "Ta baisse d'énergie vient-elle de la fatigue ou d'un manque de motivation ?",
-  "descriptionSeo": "Difficulté à démarrer, concentration qui décroche, procrastination, manque d'envie, repos qui ne suffit plus… ce test t'aide à comprendre si ta baisse d'énergie ressemble davantage à une fatigue persistante ou à un manque de stimulation et de motivation. À travers dix situations concrètes du quotidien — réveil, activités plaisantes, concentration, annulation de plans, journée libre — découvre ce qui influence vraiment ton niveau d'énergie en ce moment.",
+"title": "Es-tu vraiment fatigué(e) ou juste démotivé(e) ?",
+
+"description": "Manque d’énergie ou manque d’envie ? Découvre ce qui ressemble le plus à ton ressenti actuel lorsque tu dois te mettre en mouvement.",
+
+"descriptionSeo": "Fatigue ou démotivation : qu'est-ce qui ressemble le plus à ce que tu ressens en ce moment ? À travers 10 situations concrètes, ce test compare ton énergie lorsque tu dois commencer une tâche, te concentrer, sortir, faire quelque chose qui te plaît ou profiter d'une journée libre. Découvre si tes réponses évoquent davantage une fatigue générale, un manque de motivation ou un mélange des deux tendances.",
   "category": {
     "name": "Bien-être",
     "slug": "bien-etre"
   },
-  "createdAt": "2026-09-08",
+  "createdAt": "2026-10-07",
   "isNew": true,
   "isPopular": true,
   "images": {
     "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777381614/cover_gdxqqz.jpg",
     "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777381614/cover_gdxqqz.jpg",
     "alt": "Test fatigue ou motivation"
+  },"seoContent": {
+  "title": "Fatigue ou démotivation : comment faire la différence ?",
+  "paragraphs": [
+    "Fatigue et manque de motivation peuvent parfois donner une impression similaire : difficulté à commencer, envie de repousser une tâche, concentration moins facile ou tendance à annuler certaines activités. Pourtant, le ressenti peut être différent. Il arrive par exemple que l'énergie réapparaisse rapidement lorsqu'une activité nous intéresse vraiment, alors qu'à d'autres moments même quelque chose que l'on aime semble demander beaucoup d'effort.",
+    "Observer ce qui se passe une fois l'activité commencée peut également donner des indications intéressantes. Parfois, le plus difficile est simplement de se lancer et l'énergie revient ensuite. Dans d'autres situations, on commence avec de bonnes intentions mais l'effort devient rapidement difficile à maintenir. Le repos, les activités plaisantes et les journées sans obligation peuvent aussi être l'occasion d'observer comment notre niveau d'énergie évolue.",
+    "Ce test compare tes réactions dans 10 situations du quotidien pour voir si elles ressemblent davantage à une baisse générale d'énergie, à un manque d'élan ou à un mélange des deux. Il ne permet pas de déterminer la cause d'une fatigue ou d'une démotivation persistante et ne constitue pas une évaluation médicale ou psychologique."
+  ]
+},
+
+"faq": [
+  {
+    "question": "Comment savoir si je suis fatigué(e) ou démotivé(e) ?",
+    "answer": "Une piste consiste à observer ce qui se passe lorsque quelque chose te plaît réellement. Si l'envie permet souvent de retrouver rapidement de l'élan, le manque de motivation peut jouer un rôle important. Si ton énergie reste très basse même pour des activités que tu apprécies, la fatigue peut sembler plus présente. Cette distinction reste toutefois simplifiée et ne permet pas d'identifier une cause précise."
   },
+  {
+    "question": "Peut-on être fatigué(e) et démotivé(e) en même temps ?",
+    "answer": "Oui. Les deux ne s'excluent pas. Une période de fatigue peut rendre plus difficile le fait de se mettre en mouvement, tandis qu'un manque d'intérêt ou de stimulation peut donner l'impression d'avoir peu d'énergie. C'est pourquoi certaines réponses peuvent correspondre à un profil intermédiaire."
+  },
+  {
+    "question": "Pourquoi ai-je de l’énergie pour certaines choses mais pas pour d’autres ?",
+    "answer": "L'intérêt, l'effort demandé, le contexte et l'état de fatigue du moment peuvent tous influencer l'énergie ressentie. Une activité très motivante peut parfois faciliter le démarrage alors qu'une tâche peu stimulante paraît beaucoup plus difficile, même au cours de la même journée."
+  },
+  {
+    "question": "Quand une fatigue persistante doit-elle attirer mon attention ?",
+    "answer": "Une fatigue peut avoir de nombreuses causes que ce test ne permet pas d'identifier. Si elle persiste malgré le repos, apparaît sans raison claire, s'aggrave ou affecte fortement ton quotidien, il est préférable d'en parler à un professionnel de santé plutôt que de chercher à l'expliquer uniquement par un manque de motivation."
+  }
+],
   "profiles": [
     {
       "key": "fatigue",

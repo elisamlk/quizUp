@@ -1,20 +1,48 @@
 {
   "slug": "test-besoin-de-faire-une-pause",
-  "title": "Test bien-être - As-tu besoin de faire une pause ?",
-  "description": "Ton rythme actuel est-il trop intense pour toi ?",
-  "descriptionSeo": "Fatigue, surcharge, perte d’énergie… ce test t’aide à savoir si tu as vraiment besoin de faire une pause. À travers des situations concrètes du quotidien, découvre si tu es encore en équilibre ou proche de la saturation.",
+"title": "As-tu vraiment besoin de faire une pause ?",
+
+"description": "Fatigue, manque d’énergie, concentration difficile… découvre si ton rythme actuel te convient encore ou s’il serait temps de ralentir.",
+
+"descriptionSeo": "As-tu vraiment besoin de faire une pause ? À travers 10 situations du quotidien, ce test explore ton niveau d'énergie, ta capacité à récupérer, ta concentration et la façon dont tu vis ton rythme actuel. Découvre si tu sembles encore trouver un bon équilibre, si la fatigue commence à s'accumuler ou si ton quotidien te laisse actuellement trop peu de place pour récupérer.",
   "category": {
     "name": "Bien-être",
     "slug": "bien-etre"
   },
-  "createdAt": "2026-09-07",
+  "createdAt": "2026-10-07",
   "isNew": true,
   "isPopular": true,
   "images": {
     "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777575430/cover_kclypa.jpg",
     "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777575430/cover_kclypa.jpg",
     "alt": "Test besoin de pause"
+  },"seoContent": {
+  "title": "Comment savoir si tu as vraiment besoin de faire une pause ?",
+  "paragraphs": [
+    "Les périodes chargées ne se ressemblent pas toutes. Il arrive de terminer une journée fatigué tout en retrouvant son énergie après une soirée calme ou une bonne nuit de repos. À d'autres moments, la fatigue commence à s'accumuler : se concentrer demande davantage d'effort, les sollicitations deviennent plus pesantes et même les moments libres ne donnent plus vraiment l'impression de récupérer.",
+    "Le besoin de ralentir peut apparaître dans des situations très ordinaires. Le réveil devient plus difficile, une tâche simple paraît demander davantage d'énergie, on aborde déjà la journée suivante avec lassitude ou on passe son temps libre uniquement à essayer de récupérer. Pris séparément, ces ressentis peuvent être ponctuels. Lorsqu'ils se répètent, ils peuvent simplement inviter à regarder de plus près le rythme que l'on s'impose actuellement.",
+    "Ce test te propose 10 situations pour faire le point sur ton énergie, ta concentration, ta récupération et ton ressenti face aux journées chargées. Il ne permet pas d'identifier une cause médicale ou psychologique à une fatigue persistante : le résultat reflète uniquement les réponses que tu donnes sur ton rythme actuel."
+  ]
+},
+
+"faq": [
+  {
+    "question": "Comment savoir si j’ai besoin de faire une pause ?",
+    "answer": "Une fatigue qui s'accumule, une récupération moins efficace, des difficultés à se concentrer ou l'impression que les tâches ordinaires demandent davantage d'effort peuvent être des raisons de réexaminer son rythme. Le contexte compte cependant beaucoup : une période ponctuellement chargée n'est pas la même chose qu'une fatigue qui persiste."
   },
+  {
+    "question": "Être fatigué signifie-t-il forcément qu’il faut ralentir ?",
+    "answer": "Non. La fatigue est normale après une journée intense, un effort ou une période plus chargée. Une question utile est plutôt de regarder si tu récupères lorsque tu as l'occasion de te reposer et si ton niveau d'énergie revient ensuite à son niveau habituel."
+  },
+  {
+    "question": "Pourquoi est-ce que je ne récupère pas même quand j’ai du temps libre ?",
+    "answer": "De nombreux facteurs peuvent influencer la sensation de fatigue et ce test ne permet pas d'en déterminer la cause. Si une fatigue importante persiste malgré le repos, s'aggrave ou perturbe fortement ton quotidien, il peut être utile d'en parler à un professionnel de santé."
+  },
+  {
+    "question": "Faire une pause signifie-t-il forcément prendre plusieurs jours de repos ?",
+    "answer": "Pas nécessairement. Selon la situation, ralentir peut aussi signifier alléger temporairement son programme, préserver davantage de temps sans obligations, mieux répartir certaines tâches ou simplement retrouver des moments réguliers de récupération. L'important est d'adapter le rythme à sa situation réelle."
+  }
+],
   "profiles": [
     {
       "key": "equilibre",

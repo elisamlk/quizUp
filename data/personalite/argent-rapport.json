@@ -1,20 +1,48 @@
 {
   "slug": "test-rapport-argent-sain",
-  "title": "Test argent - Ton rapport à l'argent est-il sain ?",
-  "description": "Ta relation à l'argent est-elle équilibrée ou source de stress ?",
-  "descriptionSeo": "Peur de manquer, culpabilité après une dépense, besoin de contrôle, évitement des conversations financières, difficulté à profiter sans stress… ce test analyse ta relation émotionnelle à l'argent à travers des situations concrètes du quotidien. Découvre si ton rapport semble plutôt apaisé, souvent sous tension ou marqué par l'évitement. Sans jugement sur ta façon de gérer ou ton niveau de dépenses : on mesure uniquement ce que l'argent provoque en toi.",
+"title": "Quel rapport entretiens-tu vraiment avec l’argent ?",
+
+"description": "Sérénité, stress, culpabilité ou évitement… découvre la place que l’argent prend réellement dans tes pensées et tes émotions.",
+
+"descriptionSeo": "Quel rapport entretiens-tu vraiment avec l'argent ? À travers 10 situations concrètes, ce test explore ce que les questions financières provoquent chez toi : sérénité, inquiétude, culpabilité, besoin de contrôle ou tendance à éviter le sujet. Découvre si ta relation à l'argent semble plutôt apaisée, souvent sous tension ou marquée par l'évitement, indépendamment de ton niveau de revenus ou de ta façon de gérer ton budget.",
   "category": {
     "name": "Argent",
     "slug": "argent"
   },
-  "createdAt": "2026-09-07",
+  "createdAt": "2026-10-07",
   "isNew": true,
   "isPopular": true,
   "images": {
     "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777577887/cover_sdu8zk.jpg",
     "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777577887/cover_sdu8zk.jpg",
     "alt": "Test rapport à l'argent"
+  },"seoContent": {
+  "title": "Stress, culpabilité, évitement : quelle place l’argent prend-il dans ta tête ?",
+  "paragraphs": [
+    "Notre rapport à l'argent ne se résume pas à savoir si nous dépensons beaucoup ou si nous gérons correctement notre budget. Deux personnes ayant une situation financière comparable peuvent vivre l'argent de manière très différente. L'une regardera ses comptes sans difficulté tandis qu'une autre ressentira une forte appréhension, culpabilisera après une dépense pourtant raisonnable ou préférera repousser certaines décisions financières.",
+    "Cette relation apparaît dans de nombreuses situations ordinaires : ouvrir son application bancaire après une semaine coûteuse, recevoir une facture inattendue, parler budget avec des amis, constater une erreur financière ou simplement s'accorder une dépense plaisir. Certaines personnes arrivent facilement à regarder la situation puis à passer à autre chose. D'autres continuent à y penser longtemps ou préfèrent éviter temporairement le sujet.",
+    "Ce test te propose 10 situations concrètes pour observer la place émotionnelle que l'argent semble prendre dans ton quotidien. Tes réponses permettent de voir si tu abordes généralement les questions financières avec sérénité, si elles génèrent régulièrement de la tension ou si tu as plutôt tendance à les repousser lorsqu'elles deviennent inconfortables. Il ne s'agit pas d'une évaluation psychologique, mais d'une façon d'observer certaines tendances dans tes réactions."
+  ]
+},
+
+"faq": [
+  {
+    "question": "Pourquoi l’argent me stresse-t-il autant ?",
+    "answer": "Le stress lié à l'argent peut avoir de nombreuses origines et ne dépend pas uniquement de la manière dont une personne gère ses comptes. L'incertitude, la peur de manquer, certaines expériences passées ou simplement une situation financière réellement difficile peuvent rendre les questions d'argent particulièrement préoccupantes."
   },
+  {
+    "question": "Pourquoi est-ce que je culpabilise quand je dépense de l’argent ?",
+    "answer": "Certaines personnes continuent à remettre en question une dépense même lorsqu'elle était prévue et compatible avec leur budget. Faire la différence entre une dépense réellement problématique et une dépense choisie que l'on pouvait se permettre peut aider à comprendre si cette culpabilité correspond à la situation ou si elle apparaît presque automatiquement."
+  },
+  {
+    "question": "Pourquoi est-ce que j’évite de regarder mes comptes ?",
+    "answer": "Repousser l'ouverture d'un relevé, d'une facture ou d'une application bancaire peut permettre d'éviter momentanément une information que l'on redoute. Le soulagement est cependant temporaire puisque la situation reste à traiter. Ce comportement peut être occasionnel ou devenir une habitude lorsque les questions financières provoquent beaucoup d'inconfort."
+  },
+  {
+    "question": "Peut-on bien gérer son argent tout en étant stressé par l’argent ?",
+    "answer": "Oui. Organisation financière et ressenti émotionnel ne sont pas la même chose. Une personne peut suivre précisément son budget, épargner et payer ses factures à temps tout en ressentant beaucoup d'inquiétude face à l'argent. À l'inverse, quelqu'un peut être très détendu face aux questions financières sans nécessairement avoir une gestion particulièrement organisée."
+  }
+],
   "profiles": [
     {
       "key": "sain",

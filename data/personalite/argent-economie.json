@@ -1,20 +1,48 @@
 {
   "slug": "test-capacite-epargne",
-  "title": "Test argent - Peux-tu vraiment économiser ou pas du tout ?",
-  "description": "Tes réflexes du quotidien te permettent-ils réellement d'épargner ?",
-  "descriptionSeo": "Virements automatiques, objectifs d'épargne, sommes inattendues, imprévus, fins de mois serrées, argent déjà mis de côté… ce test analyse ta capacité réelle à épargner à travers des situations concrètes. Découvre si tu mets de côté naturellement et avec régularité, de manière irrégulière selon le contexte, ou si l'épargne passe encore trop souvent après le reste. Une façon de comprendre ce qui te permet — ou t'empêche — de conserver une partie de ton argent dans le temps.",
+"title": "Arrives-tu vraiment à mettre de l’argent de côté ?",
+
+"description": "Bonnes intentions, virements automatiques, imprévus… découvre si tu arrives réellement à épargner de façon régulière.",
+
+"descriptionSeo": "Arrives-tu vraiment à mettre de l'argent de côté régulièrement ? À travers 10 situations concrètes, ce test explore tes habitudes d'épargne face aux imprévus, aux fins de mois difficiles, aux revenus supplémentaires et aux objectifs à atteindre. Découvre si tu as déjà de solides réflexes d'épargne, si ta régularité dépend encore des circonstances ou si mettre de l'argent de côté reste difficile au quotidien.",
   "category": {
     "name": "Argent",
     "slug": "argent"
   },
-  "createdAt": "2026-09-07",
+  "createdAt": "2026-10-07",
   "isNew": true,
   "isPopular": true,
   "images": {
     "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777583604/cover_rgwveg.jpg",
     "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777583604/cover_rgwveg.jpg",
     "alt": "Test capacité d'épargne"
+  },"seoContent": {
+  "title": "Pourquoi certaines personnes arrivent-elles à épargner régulièrement ?",
+  "paragraphs": [
+    "Mettre de l'argent de côté ne dépend pas uniquement de la volonté. La manière dont l'épargne est intégrée au quotidien joue aussi un rôle important : attendre de voir ce qu'il reste en fin de mois, transférer une somme dès l'arrivée des revenus ou automatiser un petit montant ne produit pas forcément les mêmes habitudes. La régularité peut parfois compter davantage que le montant épargné ponctuellement.",
+    "Les imprévus permettent aussi de voir à quel point une habitude d'épargne est solide. Un mois plus difficile, une dépense inattendue ou une occasion tentante peuvent conduire à réduire temporairement ce que l'on met de côté, à utiliser une partie de son épargne ou à abandonner complètement le rythme établi. L'important n'est donc pas nécessairement de réussir tous les mois, mais aussi de savoir reprendre lorsque les circonstances deviennent plus favorables.",
+    "Ce test te propose 10 situations concrètes autour de l'épargne : virement automatique, somme inattendue, objectif à atteindre, mois difficile, augmentation de revenus ou tentation de reprendre l'argent déjà mis de côté. Tes réponses permettent d'observer si l'épargne est déjà un réflexe régulier, si elle dépend beaucoup des circonstances ou si elle passe encore souvent après les autres dépenses."
+  ]
+},
+
+"faq": [
+  {
+    "question": "Comment réussir à mettre de l’argent de côté tous les mois ?",
+    "answer": "Une méthode consiste à prévoir l'épargne comme une dépense régulière plutôt que d'attendre systématiquement de voir ce qu'il reste en fin de mois. Le montant doit cependant rester réaliste par rapport aux revenus et aux dépenses nécessaires. Pour certaines personnes, automatiser un petit virement facilite aussi la régularité."
   },
+  {
+    "question": "Vaut-il mieux épargner un peu tous les mois ou beaucoup de temps en temps ?",
+    "answer": "Les deux peuvent permettre d'accumuler de l'argent, mais une petite somme régulière peut être plus facile à intégrer dans les habitudes et à anticiper dans le budget. Des versements exceptionnels peuvent ensuite compléter cette épargne lorsqu'une rentrée d'argent supplémentaire le permet."
+  },
+  {
+    "question": "Est-ce grave de ne pas réussir à épargner certains mois ?",
+    "answer": "Non. Les dépenses et les revenus peuvent varier et certaines périodes laissent simplement moins de marge. Une interruption ponctuelle ne remet pas nécessairement en cause toute une démarche d'épargne. Lorsque la situation le permet, reprendre avec un montant réaliste peut être plus utile que vouloir immédiatement compenser tout ce qui n'a pas été épargné."
+  },
+  {
+    "question": "Pourquoi ai-je du mal à économiser même quand j’en ai l’intention ?",
+    "answer": "Plusieurs raisons sont possibles : une marge financière insuffisante, des dépenses imprévues, un objectif trop ambitieux ou simplement l'absence d'une habitude régulière. Il est donc utile de distinguer un problème de méthode d'une situation dans laquelle les revenus disponibles ne permettent réellement pas de mettre beaucoup d'argent de côté."
+  }
+],
   "profiles": [
     {
       "key": "facile",

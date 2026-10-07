@@ -1,20 +1,48 @@
 {
   "slug": "test-relation-avec-tes-parents",
-  "title": "Test famille - Quelle est ta relation avec tes parents ?",
-  "description": "Comment te situes-tu vraiment dans ta relation avec tes parents ?",
-  "descriptionSeo": "Proximité, autonomie, communication, limites, désaccords… ce test explore la place que tes parents occupent aujourd'hui dans ta vie. À travers dix situations concrètes, observe si votre relation est très présente au quotidien, si tu arrives facilement à concilier proximité et indépendance, si tu maintiens davantage de distance ou si le lien reste parfois chargé d'émotions contradictoires. Le résultat décrit ton fonctionnement actuel, pas toute ton histoire familiale.",
+"title": "Quelle relation entretiens-tu vraiment avec tes parents ?",
+
+"description": "Proximité, autonomie, désaccords, limites… découvre la place que tes parents occupent aujourd’hui dans ta vie.",
+
+"descriptionSeo": "Quelle relation entretiens-tu vraiment avec tes parents ? À travers 10 situations concrètes, ce test explore la place de leur avis dans tes décisions, votre communication, ton autonomie, vos désaccords et les émotions que votre relation peut provoquer. Découvre si votre lien est très présent dans ta vie, s'il laisse facilement place à ton indépendance, si tu maintiens davantage de distance ou si certaines interactions restent émotionnellement compliquées.",
   "category": {
     "name": "Famille",
     "slug": "famille"
   },
-  "createdAt": "2026-09-21",
+  "createdAt": "2026-10-07",
   "isNew": true,
   "isPopular": true,
   "images": {
     "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777377070/cover_x6fvdz.jpg",
     "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777377070/cover_x6fvdz.jpg",
     "alt": "Test relation parents"
+  },"seoContent": {
+  "title": "Proximité, autonomie, limites : quelle place tes parents occupent-ils dans ta vie ?",
+  "paragraphs": [
+    "La relation avec ses parents peut beaucoup évoluer en grandissant. Certaines personnes continuent à partager naturellement leurs décisions, leurs difficultés et les événements importants de leur vie avec eux. D'autres construisent une relation plus indépendante, dans laquelle l'attachement existe sans que les parents occupent une place importante dans le quotidien.",
+    "L'autonomie ne dépend pas uniquement de la fréquence des contacts. On peut appeler régulièrement ses parents tout en restant très libre dans ses décisions, ou les voir rarement tout en accordant énormément de poids à leur opinion. Les désaccords, la capacité à poser des limites et ce que l'on ressent après certaines interactions donnent donc également des indications sur la place que cette relation occupe.",
+    "Ce test te propose 10 situations concrètes pour observer ton fonctionnement actuel avec tes parents. Il ne juge pas la qualité de votre relation et ne résume évidemment pas votre histoire familiale : il met simplement en lumière la manière dont proximité, indépendance, désaccords et émotions semblent aujourd'hui s'articuler dans votre relation."
+  ]
+},
+
+"faq": [
+  {
+    "question": "Comment savoir si j’ai une relation équilibrée avec mes parents ?",
+    "answer": "Il n'existe pas une fréquence de contact ou un niveau de proximité idéal. Dans ce test, une relation équilibrée correspond surtout à la possibilité de rester proche de ses parents tout en conservant ses propres décisions, son espace personnel et la capacité d'être en désaccord sans que le lien soit systématiquement remis en question."
   },
+  {
+    "question": "Est-ce normal de prendre de la distance avec ses parents en grandissant ?",
+    "answer": "Oui. La place des parents peut évoluer avec l'âge, les responsabilités, les relations et les choix de vie. Certaines personnes restent très proches, d'autres construisent davantage de distance. Cette distance ne permet pas, à elle seule, de déterminer la qualité ou l'importance affective de la relation."
+  },
+  {
+    "question": "Pourquoi l’avis de mes parents compte-t-il encore autant pour moi ?",
+    "answer": "Leur opinion peut avoir une importance particulière en raison de l'histoire commune, de l'attachement ou des habitudes construites au fil du temps. Accorder de la valeur à leur avis n'empêche pas d'être autonome ; la question est plutôt de savoir dans quelle mesure cet avis influence finalement tes propres décisions."
+  },
+  {
+    "question": "Peut-on être proche de ses parents tout en posant des limites ?",
+    "answer": "Oui. Proximité et limites ne sont pas incompatibles. Il est possible de partager beaucoup de choses avec ses parents tout en gardant certains sujets privés, en refusant certaines demandes ou en prenant une décision différente de celle qu'ils auraient souhaitée."
+  }
+],
   "profiles": [
     {
       "key": "fusionnelle",

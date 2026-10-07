@@ -1,20 +1,48 @@
 {
   "slug": "test-gestion-budget-quotidien",
-  "title": "Test argent - Sais-tu vraiment gérer ton budget au quotidien ?",
-  "description": "Tes habitudes financières sont-elles vraiment maîtrisées ?",
-  "descriptionSeo": "Dépenses imprévues, fins de mois tendues, achats plaisir, abonnements oubliés, arbitrages difficiles… ce test t'aide à savoir si tu gères vraiment ton budget au quotidien. À travers des situations concrètes et réalistes, découvre si tu fonctionnes de manière organisée, intuitive ou à flux tendu dans ta gestion financière. Un regard honnête sur ton rapport au suivi, à l'anticipation et aux petites décisions d'argent qui font la différence au bout du mois.",
+"title": "Sais-tu vraiment gérer ton budget au quotidien ?",
+
+"description": "Imprévus, achats plaisir, fins de mois… découvre si tu maîtrises vraiment ton budget ou si tu navigues encore un peu à vue.",
+
+"descriptionSeo": "Sais-tu vraiment gérer ton budget au quotidien ? À travers 10 situations concrètes, ce test explore tes habitudes face aux dépenses imprévues, aux achats plaisir, aux prélèvements, aux fins de mois et aux dépenses à anticiper. Découvre si ta gestion financière est plutôt organisée, approximative ou régulièrement dépassée, et observe les réflexes qui influencent le plus ton budget au quotidien.",
   "category": {
     "name": "Argent",
     "slug": "argent"
   },
-  "createdAt": "2026-09-07",
+  "createdAt": "2026-10-07",
   "isNew": true,
   "isPopular": true,
   "images": {
     "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777582120/cover_noj5ld.jpg",
     "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777582120/cover_noj5ld.jpg",
     "alt": "Test gestion budget"
+  },"seoContent": {
+  "title": "Gères-tu vraiment bien ton budget au quotidien ?",
+  "paragraphs": [
+    "Bien gérer son budget ne signifie pas forcément noter chaque dépense ou connaître son solde à l'euro près. L'essentiel est surtout de savoir ce que l'on peut dépenser, quelles charges restent à payer et quelle marge on possède lorsqu'un imprévu arrive. Certaines personnes suivent précisément leurs comptes tandis que d'autres fonctionnent davantage à l'intuition et ajustent leurs dépenses au fil du mois.",
+    "Les petites décisions du quotidien peuvent avoir autant d'importance que les grosses dépenses. Un restaurant alors que le mois a déjà été chargé, un abonnement oublié, des courses plus chères que prévu ou un achat plaisir peuvent sembler anodins pris séparément. Lorsqu'ils s'accumulent sans véritable suivi, ils peuvent cependant expliquer pourquoi le solde disponible en fin de mois ne correspond plus à ce que l'on imaginait.",
+    "Ce test te place face à 10 situations concrètes pour observer tes réflexes de gestion : dépense imprévue, prélèvement oublié, sortie entre amis, courses, achat plaisir ou dépense importante à venir. Tes réponses permettent de voir si tu anticipes généralement ton budget, si tu fonctionnes plutôt avec une estimation globale ou si tu as tendance à découvrir les difficultés lorsqu'elles arrivent."
+  ]
+},
+
+"faq": [
+  {
+    "question": "Comment savoir si je gère bien mon budget ?",
+    "answer": "Une bonne gestion ne dépend pas nécessairement d'un suivi extrêmement détaillé. Savoir quelles dépenses restent à payer, avoir une idée réaliste de l'argent disponible, anticiper les grosses échéances et pouvoir adapter certaines dépenses lorsqu'un imprévu survient sont déjà de bons indicateurs de maîtrise du budget."
   },
+  {
+    "question": "Faut-il suivre toutes ses dépenses pour bien gérer son argent ?",
+    "answer": "Pas forcément. Certaines personnes ont besoin d'un suivi très précis tandis que d'autres se débrouillent bien avec des catégories ou des montants approximatifs. L'important est que la méthode utilisée donne une vision suffisamment fiable de la situation pour éviter les mauvaises surprises et prendre des décisions adaptées."
+  },
+  {
+    "question": "Pourquoi ai-je toujours moins d’argent que prévu en fin de mois ?",
+    "answer": "Les petites dépenses répétées, les abonnements, les prélèvements irréguliers et les achats non prévus peuvent créer un écart important entre le budget imaginé et les dépenses réelles. Comparer régulièrement ce que l'on pensait dépenser avec ce qui a réellement été dépensé peut aider à identifier cet écart."
+  },
+  {
+    "question": "Comment mieux anticiper une grosse dépense ?",
+    "answer": "Une méthode simple consiste à regarder suffisamment tôt ce que cette dépense représente par rapport au budget disponible, puis à déterminer s'il faut mettre progressivement une somme de côté ou réduire temporairement certaines autres dépenses. Plus l'achat est anticipé, moins il risque de déséquilibrer brutalement un seul mois."
+  }
+],
   "profiles": [
     {
       "key": "organise",

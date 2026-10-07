@@ -1,20 +1,46 @@
 {
   "slug": "test-equilibre-mental-stable",
-  "title": "Test bien-être - Ton équilibre mental est-il stable ?",
+  "title": "Ton équilibre mental est-il stable ?",
   "description": "Ton état mental est-il stable ou facilement perturbé au quotidien ?",
   "descriptionSeo": "Imprévus, stress, rumination, charge mentale, pression, regard des autres… ce test observe tes réactions face à dix situations concrètes pour explorer ta capacité à retrouver ton équilibre après une perturbation. Il ne diagnostique pas ta santé mentale : il reflète des tendances qui peuvent varier selon ta fatigue, ton contexte ou la période que tu traverses.",
   "category": {
     "name": "Bien-être",
     "slug": "bien-etre"
   },
-  "createdAt": "2026-09-20",
+  "createdAt": "2026-10-07",
   "isNew": true,
   "isPopular": true,
   "images": {
     "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777575105/cover_phye12.jpg",
     "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777575105/cover_phye12.jpg",
     "alt": "Test équilibre mental"
+  },"seoContent": {
+  "title": "Combien de temps le stress et les contrariétés restent-ils avec toi ?",
+  "paragraphs": [
+    "Une contrariété ne disparaît pas au même rythme chez tout le monde. Certaines personnes peuvent être fortement agacées ou stressées sur le moment puis retrouver assez rapidement leur état habituel. Chez d'autres, l'événement continue à revenir en tête, influence la concentration ou colore le reste de la journée même lorsque le problème initial est déjà passé.",
+    "Notre capacité à retrouver notre équilibre peut aussi varier selon les périodes. Une critique, un retard ou une attente incertaine que l'on aurait facilement absorbés à un autre moment peuvent devenir beaucoup plus difficiles lorsque plusieurs tensions se sont déjà accumulées. Il ne s'agit donc pas forcément d'un trait permanent : fatigue, contexte et charge du moment peuvent modifier notre façon de réagir.",
+    "Ce test te propose 10 situations concrètes pour observer la manière dont tu traverses les petites perturbations du quotidien : message stressant, erreur, imprévus successifs, critique, décision sous pression ou mauvaise journée. Le résultat décrit uniquement les tendances qui ressortent de tes réponses et ne constitue pas une évaluation de ta santé mentale."
+  ]
+},
+
+"faq": [
+  {
+    "question": "Pourquoi certaines contrariétés restent-elles dans ma tête pendant des heures ?",
+    "answer": "Une situation peut continuer à mobiliser notre attention même lorsqu'elle est terminée, notamment lorsqu'elle reste incertaine, importante à nos yeux ou émotionnellement marquante. Le contexte compte aussi : lorsque plusieurs tensions s'accumulent, il peut être plus difficile de passer rapidement à autre chose."
   },
+  {
+    "question": "Est-ce normal de repenser longtemps à une erreur ou à une remarque ?",
+    "answer": "Repenser ponctuellement à une erreur ou à une critique est courant, notamment lorsqu'on cherche à comprendre ce qui s'est passé ou à en tirer quelque chose. La fréquence, l'intensité et l'impact sur le quotidien peuvent toutefois beaucoup varier d'une personne et d'une période à l'autre."
+  },
+  {
+    "question": "Pourquoi est-ce que je supporte moins bien les imprévus quand je suis fatigué(e) ?",
+    "answer": "La manière dont on réagit aux contrariétés peut varier selon notre état du moment. Lorsqu'une journée est déjà chargée ou que plusieurs difficultés se sont accumulées, un nouvel imprévu peut sembler beaucoup plus difficile à absorber qu'il ne l'aurait été dans un contexte plus calme."
+  },
+  {
+    "question": "Ce test peut-il mesurer mon équilibre mental ?",
+    "answer": "Non. Ce test observe uniquement tes réponses à plusieurs situations ordinaires de stress, d'incertitude ou de contrariété. Il ne permet pas d'évaluer ta santé mentale ni d'établir un diagnostic. Si certaines difficultés sont persistantes ou affectent fortement ton quotidien, il est préférable d'en parler à un professionnel."
+  }
+],
   "profiles": [
     {
       "key": "stable",
