@@ -1,20 +1,45 @@
 {
   "slug": "test-type-amitie",
-  "title": "Test amitié - Quel type d'amitié te correspond ?",
+"title": "Quel est ton style d’amitié ? Fusionnel, équilibré ou indépendant ?",
   "description": "Tes réflexes en amitié révèlent ton vrai type de relation.",
   "descriptionSeo": "Messages laissés en vu, réponses tardives, plans annulés ou moments partagés… ce test analyse tes réactions concrètes en amitié pour révéler le type de relation qui te correspond vraiment. Es-tu plutôt fusionnel(le), équilibré(e) ou indépendant(e) dans tes liens ? À travers des situations du quotidien, découvre ce que tes comportements disent de ta manière de vivre l'amitié et ce dont tu as réellement besoin.",
   "category": {
     "name": "Amitié",
     "slug": "amitie"
   },
-  "createdAt": "2026-09-06",
+  "createdAt": "2026-10-07",
   "isNew": true,
   "isPopular": true,
   "images": {
     "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777670873/cover_qnizor.jpg",
     "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777670873/cover_qnizor.jpg",
     "alt": "Test type d'amitié"
+  },"seoContent": {
+  "title": "Amitié fusionnelle, équilibrée ou indépendante : quel est ton style ?",
+  "paragraphs": [
+    "Nous n'avons pas tous besoin de la même proximité avec nos amis. Certaines personnes aiment échanger très souvent, partager rapidement ce qui leur arrive et passer beaucoup de temps avec leurs proches. D'autres apprécient tout autant leurs amitiés mais ont besoin de davantage d'espace personnel. Entre les deux, beaucoup recherchent un équilibre entre moments partagés et indépendance.",
+    "Ces différences peuvent influencer la manière dont une amitié fonctionne au quotidien. Plusieurs jours sans nouvelles peuvent sembler parfaitement naturels à une personne indépendante et beaucoup plus longs à quelqu'un qui aime maintenir un contact régulier. De la même façon, un week-end entier entre amis peut être une perspective enthousiasmante pour certains et demander davantage de temps seul pour d'autres. Aucun de ces fonctionnements n'est automatiquement meilleur : l'important est souvent que les attentes des deux personnes puissent s'accorder.",
+    "Ce test explore ton rapport à la proximité à travers 10 situations concrètes : fréquence des contacts, temps passé ensemble, besoin d'espace, partage des bonnes nouvelles, annulation d'un rendez-vous ou plusieurs jours sans nouvelles. Tes réponses permettent de découvrir si tu tends plutôt vers une amitié fusionnelle, équilibrée ou indépendante."
+  ]
+},
+"faq": [
+  {
+    "question": "Qu’est-ce qu’une amitié fusionnelle ?",
+    "answer": "Une amitié fusionnelle se caractérise généralement par une forte proximité et une place importante accordée à la relation. Les amis peuvent avoir envie d'échanger très régulièrement, de partager rapidement ce qui leur arrive et de passer beaucoup de temps ensemble. Cette proximité peut être très enrichissante tant que chacun reste à l'aise avec le niveau d'intensité de la relation."
   },
+  {
+    "question": "Qu’est-ce qu’une amitié équilibrée ?",
+    "answer": "Dans une amitié équilibrée, proximité et autonomie coexistent assez naturellement. Les personnes apprécient de partager du temps et de rester en contact, mais peuvent également avoir leurs propres activités et accepter des périodes moins intenses. L'équilibre dépend cependant des besoins de chacun : il n'existe pas une fréquence de contact idéale valable pour toutes les amitiés."
+  },
+  {
+    "question": "Peut-on être très proche d’un ami sans se parler tous les jours ?",
+    "answer": "Oui. La fréquence des échanges n'est pas le seul indicateur de la profondeur d'une amitié. Certaines personnes ont besoin d'un contact fréquent pour entretenir le sentiment de proximité, tandis que d'autres peuvent rester très attachées malgré plusieurs semaines sans nouvelles. Ce qui compte surtout est que ce fonctionnement convienne aux personnes concernées."
+  },
+  {
+    "question": "Pourquoi ai-je besoin de beaucoup d’espace dans mes amitiés ?",
+    "answer": "Certaines personnes apprécient naturellement davantage l'autonomie et ont besoin de temps seules pour se sentir bien. Cela ne signifie pas nécessairement qu'elles accordent moins d'importance à leurs amis. Les difficultés apparaissent surtout lorsque deux personnes ont des attentes très différentes concernant la fréquence des messages, des rencontres ou la disponibilité dans la relation."
+  }
+],
   "profiles": [
     {
       "key": "fusionnelle",

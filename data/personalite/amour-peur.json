@@ -1,20 +1,46 @@
 {
   "slug": "test-psychologie-quelle-est-ta-plus-grande-peur-en-amour",
-  "title": "Test psychologie - Quelle est ta plus grande peur en amour ?",
-  "description": "Identifie ce qui influence vraiment tes réactions et tes blocages en amour.",
-  "descriptionSeo": "Analyse tes réactions dans des situations amoureuses concrètes pour identifier ta plus grande peur inconsciente. Ce test explore ton rapport à l'abandon, au rejet, à la trahison, à la liberté et à l'évolution des sentiments. Une approche nuancée et réaliste pour mieux comprendre tes comportements amoureux et ce qui peut inconsciemment freiner tes relations.",
+  "title": "Quelle est ta plus grande peur en amour ?",
+  "description": "Abandon, rejet, trahison, perte de liberté… découvre quelle peur semble influencer le plus tes réactions dans tes relations.",
+  "descriptionSeo": "Quelle est ta plus grande peur en amour ? À travers 10 situations concrètes, ce test explore tes réactions face à la distance, au rejet, au doute, à la confiance, à l'engagement et à l'évolution des sentiments. Découvre si tu sembles particulièrement sensible à la peur de l'abandon, du rejet, de la trahison, de perdre ta liberté ou de voir les sentiments disparaître.",
   "category": {
     "name": "Amour",
     "slug": "amour"
   },
-  "createdAt": "2026-09-07",
+  "createdAt": "2026-10-07",
   "isNew": true,
   "isPopular": true,
   "images": {
     "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777031501/cover_xqw0dr.jpg",
     "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777031501/cover_xqw0dr.jpg",
     "alt": "Test peur en amour"
+  },"seoContent": {
+  "title": "Abandon, rejet, trahison… qu’est-ce qui te fait le plus peur en amour ?",
+  "paragraphs": [
+    "Une relation amoureuse peut faire apparaître des inquiétudes très différentes selon les personnes. Pour certaines, la distance fait rapidement craindre que l'autre s'éloigne. D'autres redoutent davantage de ne plus plaire, d'être trompées ou déçues, de perdre leur indépendance ou encore de voir l'intensité des sentiments diminuer avec le temps. Ces préoccupations peuvent influencer notre manière d'interpréter des situations pourtant ambiguës.",
+    "Un message moins chaleureux, quelques jours de distance, une critique, une nouvelle complicité avec quelqu'un d'autre ou un projet d'engagement peuvent ainsi provoquer des réactions très différentes. Là où une personne craindra d'être abandonnée, une autre se demandera si elle peut réellement faire confiance à son partenaire. Une troisième pourra surtout ressentir le besoin de protéger son espace et son autonomie.",
+    "Ce test te confronte à 10 situations de couple pour observer les inquiétudes qui apparaissent le plus souvent dans tes réponses. Le résultat ne constitue pas une analyse psychologique ou un diagnostic : il permet simplement d'identifier si tes réactions semblent davantage liées à la peur de l'abandon, du rejet, de la trahison, de perdre ta liberté ou de voir les sentiments s'affaiblir."
+  ]
+},
+
+"faq": [
+  {
+    "question": "Quelles sont les peurs les plus fréquentes en amour ?",
+    "answer": "Les inquiétudes peuvent prendre de nombreuses formes : peur d'être quitté, rejeté ou trompé, peur de perdre son indépendance, de ne pas être suffisamment aimé ou de voir les sentiments changer. Leur importance varie selon les personnes, les relations et les expériences vécues."
   },
+  {
+    "question": "Pourquoi ai-je peur d’être abandonné(e) en amour ?",
+    "answer": "Une personne sensible à l'éloignement peut interpréter certains changements de comportement comme le signe que la relation est menacée. Quelques jours de distance ou une baisse de disponibilité peuvent alors provoquer beaucoup de questions. Cela ne signifie cependant pas que chaque inquiétude correspond à ce qui se passe réellement dans la relation."
+  },
+  {
+    "question": "Pourquoi ai-je peur de perdre ma liberté en couple ?",
+    "answer": "Certaines personnes accordent une place particulièrement importante à leur autonomie, à leur temps personnel et à leur capacité à prendre seules certaines décisions. Une relation très fusionnelle ou un engagement qui progresse rapidement peut alors être vécu comme une restriction. Il est possible d'être attaché à quelqu'un tout en ayant besoin d'un espace personnel important."
+  },
+  {
+    "question": "Est-il normal d’avoir peur que les sentiments disparaissent ?",
+    "answer": "Il peut arriver de s'interroger lorsque l'intensité des débuts diminue et que la relation devient plus quotidienne. Cette évolution ne signifie pas automatiquement que les sentiments disparaissent. Une relation peut devenir moins intense tout en gagnant en confiance, en stabilité et en profondeur."
+  }
+],
   "profiles": [
     {
       "key": "abandon",
@@ -52,100 +78,328 @@
       "id": "1",
       "question": "Quelqu'un que tu apprécies met plus de distance sans explication pendant quelques jours…",
       "answers": [
-        { "label": "Je commence à imaginer des scénarios de rupture ou d'éloignement définitif", "scores": { "abandon": 3 } },
-        { "label": "Je me dis qu'il y a peut-être quelque chose qu'on me cache ou qu'on me tait", "scores": { "trahison": 2, "abandon": 1 } },
-        { "label": "Je me demande si j'ai fait quelque chose qui l'a déçu(e) ou éloigné(e)", "scores": { "rejet": 2, "abandon": 1 } },
-        { "label": "Je profite de cet espace — ça me convient assez bien finalement", "scores": { "liberte": 3 } }
+        {
+          "label": "Je commence à imaginer des scénarios de rupture ou d'éloignement définitif",
+          "scores": {
+            "abandon": 3
+          }
+        },
+        {
+          "label": "Je me dis qu'il y a peut-être quelque chose qu'on me cache ou qu'on me tait",
+          "scores": {
+            "trahison": 2,
+            "abandon": 1
+          }
+        },
+        {
+          "label": "Je me demande si j'ai fait quelque chose qui l'a déçu(e) ou éloigné(e)",
+          "scores": {
+            "rejet": 2,
+            "abandon": 1
+          }
+        },
+        {
+          "label": "Je profite de cet espace — ça me convient assez bien finalement",
+          "scores": {
+            "liberte": 3
+          }
+        }
       ]
     },
     {
       "id": "2",
       "question": "Ton/ta partenaire te parle de projets à long terme — emménager, voyager ensemble, construire quelque chose…",
       "answers": [
-        { "label": "Je ressens une forme de pression, comme si ça allait restreindre ce que je suis", "scores": { "liberte": 3 } },
-        { "label": "J'ai peur que si on s'engage formellement, quelque chose change dans ce qu'on ressent", "scores": { "sentiments": 2, "abandon": 1 } },
-        { "label": "Je me dis que les promesses peuvent ne pas tenir — j'ai du mal à y croire vraiment", "scores": { "trahison": 2, "abandon": 1 } },
-        { "label": "Ça me fait plaisir, mais je me demande immédiatement si je suis à la hauteur de ces attentes", "scores": { "rejet": 2, "abandon": 1 } }
+        {
+          "label": "Je ressens une forme de pression, comme si ça allait restreindre ce que je suis",
+          "scores": {
+            "liberte": 3
+          }
+        },
+        {
+          "label": "J'ai peur que si on s'engage formellement, quelque chose change dans ce qu'on ressent",
+          "scores": {
+            "sentiments": 2,
+            "abandon": 1
+          }
+        },
+        {
+          "label": "Je me dis que les promesses peuvent ne pas tenir — j'ai du mal à y croire vraiment",
+          "scores": {
+            "trahison": 2,
+            "abandon": 1
+          }
+        },
+        {
+          "label": "Ça me fait plaisir, mais je me demande immédiatement si je suis à la hauteur de ces attentes",
+          "scores": {
+            "rejet": 2,
+            "abandon": 1
+          }
+        }
       ]
     },
     {
       "id": "3",
       "question": "Tu t'attaches vraiment à quelqu'un. Il/elle te demande ce que tu ressens…",
       "answers": [
-        { "label": "J'hésite à me dévoiler totalement — si ça n'est pas réciproque, ce sera difficile à vivre", "scores": { "rejet": 3 } },
-        { "label": "Je minimise ce que je ressens pour ne pas m'exposer à une dépendance que je ne contrôle pas", "scores": { "liberte": 2, "rejet": 1 } },
-        { "label": "Je me retiens parce que se livrer, c'est donner à l'autre la possibilité de te blesser vraiment", "scores": { "trahison": 2, "rejet": 1 } },
-        { "label": "J'ai peur de dire quelque chose qui change l'équilibre et le ferait s'éloigner", "scores": { "abandon": 2, "rejet": 1 } }
+        {
+          "label": "J'hésite à me dévoiler totalement — si ça n'est pas réciproque, ce sera difficile à vivre",
+          "scores": {
+            "rejet": 3
+          }
+        },
+        {
+          "label": "Je minimise ce que je ressens pour ne pas m'exposer à une dépendance que je ne contrôle pas",
+          "scores": {
+            "liberte": 2,
+            "rejet": 1
+          }
+        },
+        {
+          "label": "Je me retiens parce que se livrer, c'est donner à l'autre la possibilité de te blesser vraiment",
+          "scores": {
+            "trahison": 2,
+            "rejet": 1
+          }
+        },
+        {
+          "label": "J'ai peur de dire quelque chose qui change l'équilibre et le ferait s'éloigner",
+          "scores": {
+            "abandon": 2,
+            "rejet": 1
+          }
+        }
       ]
     },
     {
       "id": "4",
       "question": "Ton/ta partenaire agit différemment depuis quelques jours — moins affectueux(se), moins disponible — sans rien dire…",
       "answers": [
-        { "label": "Je me remets immédiatement en question : qu'est-ce que j'ai fait ou dit ?", "scores": { "rejet": 3 } },
-        { "label": "Je me dis qu'il y a forcément quelque chose qu'il/elle ne dit pas", "scores": { "trahison": 3 } },
-        { "label": "Je ressens vite de l'insécurité — est-ce que quelque chose s'est cassé sans que je le sache ?", "scores": { "abandon": 2, "rejet": 1 } },
-        { "label": "Je me demande si ce que je ressens pour lui/elle commence à changer aussi", "scores": { "sentiments": 2, "abandon": 1 } }
+        {
+          "label": "Je me remets immédiatement en question : qu'est-ce que j'ai fait ou dit ?",
+          "scores": {
+            "rejet": 3
+          }
+        },
+        {
+          "label": "Je me dis qu'il y a forcément quelque chose qu'il/elle ne dit pas",
+          "scores": {
+            "trahison": 3
+          }
+        },
+        {
+          "label": "Je ressens vite de l'insécurité — est-ce que quelque chose s'est cassé sans que je le sache ?",
+          "scores": {
+            "abandon": 2,
+            "rejet": 1
+          }
+        },
+        {
+          "label": "Je me demande si ce que je ressens pour lui/elle commence à changer aussi",
+          "scores": {
+            "sentiments": 2,
+            "abandon": 1
+          }
+        }
       ]
     },
     {
       "id": "5",
       "question": "Après une période très intense, la relation devient plus calme et quotidienne…",
       "answers": [
-        { "label": "Je me demande si les sentiments sont en train de s'éteindre doucement", "scores": { "sentiments": 3 } },
-        { "label": "Je me dis que c'est peut-être le début de la fin", "scores": { "abandon": 2, "sentiments": 1 } },
-        { "label": "Je profite de retrouver un peu plus d'espace et de respiration", "scores": { "liberte": 2, "sentiments": 1 } },
-        { "label": "Je me demande si je suis toujours aussi désirable ou intéressant(e) pour lui/elle", "scores": { "rejet": 2, "sentiments": 1 } }
+        {
+          "label": "Je me demande si les sentiments sont en train de s'éteindre doucement",
+          "scores": {
+            "sentiments": 3
+          }
+        },
+        {
+          "label": "Je me dis que c'est peut-être le début de la fin",
+          "scores": {
+            "abandon": 2,
+            "sentiments": 1
+          }
+        },
+        {
+          "label": "Je profite de retrouver un peu plus d'espace et de respiration",
+          "scores": {
+            "liberte": 2,
+            "sentiments": 1
+          }
+        },
+        {
+          "label": "Je me demande si je suis toujours aussi désirable ou intéressant(e) pour lui/elle",
+          "scores": {
+            "rejet": 2,
+            "sentiments": 1
+          }
+        }
       ]
     },
     {
       "id": "6",
       "question": "Tu remarques que ton/ta partenaire est très proche d'une autre personne — échanges fréquents, complicité visible…",
       "answers": [
-        { "label": "Je reste sur mes gardes — il peut y avoir quelque chose de caché derrière cette proximité", "scores": { "trahison": 3 } },
-        { "label": "J'essaie de ne pas trop m'interroger, mais je sens que je m'accroche davantage", "scores": { "abandon": 2, "trahison": 1 } },
-        { "label": "Je me demande si je suis toujours la personne qu'il/elle préfère avoir près de lui/elle", "scores": { "rejet": 2, "trahison": 1 } },
-        { "label": "Ça ne me dérange pas fondamentalement — j'aime que chacun garde ses liens", "scores": { "liberte": 2, "trahison": 1 } }
+        {
+          "label": "Je reste sur mes gardes — il peut y avoir quelque chose de caché derrière cette proximité",
+          "scores": {
+            "trahison": 3
+          }
+        },
+        {
+          "label": "J'essaie de ne pas trop m'interroger, mais je sens que je m'accroche davantage",
+          "scores": {
+            "abandon": 2,
+            "trahison": 1
+          }
+        },
+        {
+          "label": "Je me demande si je suis toujours la personne qu'il/elle préfère avoir près de lui/elle",
+          "scores": {
+            "rejet": 2,
+            "trahison": 1
+          }
+        },
+        {
+          "label": "Ça ne me dérange pas fondamentalement — j'aime que chacun garde ses liens",
+          "scores": {
+            "liberte": 2,
+            "trahison": 1
+          }
+        }
       ]
     },
     {
       "id": "7",
       "question": "Ton/ta partenaire te fait une remarque un peu critique sur quelque chose que tu as fait…",
       "answers": [
-        { "label": "Je le prends personnellement et j'y repense longtemps après", "scores": { "rejet": 3 } },
-        { "label": "Je me demande si derrière cette critique il y a quelque chose de plus profond qu'il/elle ne me dit pas", "scores": { "trahison": 2, "rejet": 1 } },
-        { "label": "Je me sens fragilisé(e) et j'ai besoin d'être rassuré(e) sur ce que je représente pour lui/elle", "scores": { "abandon": 2, "rejet": 1 } },
-        { "label": "Je prends de la distance pour traiter ça seul(e) — je n'aime pas me sentir jugé(e)", "scores": { "liberte": 2, "rejet": 1 } }
+        {
+          "label": "Je le prends personnellement et j'y repense longtemps après",
+          "scores": {
+            "rejet": 3
+          }
+        },
+        {
+          "label": "Je me demande si derrière cette critique il y a quelque chose de plus profond qu'il/elle ne me dit pas",
+          "scores": {
+            "trahison": 2,
+            "rejet": 1
+          }
+        },
+        {
+          "label": "Je me sens fragilisé(e) et j'ai besoin d'être rassuré(e) sur ce que je représente pour lui/elle",
+          "scores": {
+            "abandon": 2,
+            "rejet": 1
+          }
+        },
+        {
+          "label": "Je prends de la distance pour traiter ça seul(e) — je n'aime pas me sentir jugé(e)",
+          "scores": {
+            "liberte": 2,
+            "rejet": 1
+          }
+        }
       ]
     },
     {
       "id": "8",
       "question": "Ton/ta partenaire a besoin d'être très présent(e) dans ta vie — appels fréquents, partage du quotidien, peu de temps solo…",
       "answers": [
-        { "label": "Je me sens progressivement à l'étroit, comme si mon espace personnel se réduisait", "scores": { "liberte": 3 } },
-        { "label": "Je m'adapte, mais je commence à me demander si ce rythme va tenir dans le temps", "scores": { "sentiments": 2, "liberte": 1 } },
-        { "label": "J'accepte, mais je surveille si les attentes vont encore augmenter", "scores": { "trahison": 2, "liberte": 1 } },
-        { "label": "Ça me convient si c'est réciproque, mais j'ai besoin d'être sûr(e) que ce n'est pas à sens unique", "scores": { "rejet": 2, "liberte": 1 } }
+        {
+          "label": "Je me sens progressivement à l'étroit, comme si mon espace personnel se réduisait",
+          "scores": {
+            "liberte": 3
+          }
+        },
+        {
+          "label": "Je m'adapte, mais je commence à me demander si ce rythme va tenir dans le temps",
+          "scores": {
+            "sentiments": 2,
+            "liberte": 1
+          }
+        },
+        {
+          "label": "J'accepte, mais je surveille si les attentes vont encore augmenter",
+          "scores": {
+            "trahison": 2,
+            "liberte": 1
+          }
+        },
+        {
+          "label": "Ça me convient si c'est réciproque, mais j'ai besoin d'être sûr(e) que ce n'est pas à sens unique",
+          "scores": {
+            "rejet": 2,
+            "liberte": 1
+          }
+        }
       ]
     },
     {
       "id": "9",
       "question": "Tu passes une soirée à revoir des photos ou des messages d'une période plus intense de la relation…",
       "answers": [
-        { "label": "Je me demande si on ressent encore la même chose qu'à ce moment-là", "scores": { "sentiments": 3 } },
-        { "label": "J'ai une sensation de nostalgie teintée d'inquiétude — est-ce que ça peut revenir ou est-ce passé ?", "scores": { "sentiments": 2, "abandon": 1 } },
-        { "label": "Je me demande si l'autre pense encore à ces moments ou si je suis plus attaché(e) que lui/elle", "scores": { "abandon": 2, "rejet": 1 } },
-        { "label": "Je reste un peu sur la réserve — les bons moments n'empêchent pas ce qui peut venir ensuite", "scores": { "trahison": 2, "sentiments": 1 } }
+        {
+          "label": "Je me demande si on ressent encore la même chose qu'à ce moment-là",
+          "scores": {
+            "sentiments": 3
+          }
+        },
+        {
+          "label": "J'ai une sensation de nostalgie teintée d'inquiétude — est-ce que ça peut revenir ou est-ce passé ?",
+          "scores": {
+            "sentiments": 2,
+            "abandon": 1
+          }
+        },
+        {
+          "label": "Je me demande si l'autre pense encore à ces moments ou si je suis plus attaché(e) que lui/elle",
+          "scores": {
+            "abandon": 2,
+            "rejet": 1
+          }
+        },
+        {
+          "label": "Je reste un peu sur la réserve — les bons moments n'empêchent pas ce qui peut venir ensuite",
+          "scores": {
+            "trahison": 2,
+            "sentiments": 1
+          }
+        }
       ]
     },
     {
       "id": "10",
       "question": "Tu réalises que tu évites systématiquement certains sujets avec ton/ta partenaire — l'avenir, tes doutes, ce que tu ressens vraiment…",
       "answers": [
-        { "label": "J'ai peur que si j'en parle, quelque chose se fragilise ou s'éloigne", "scores": { "abandon": 3 } },
-        { "label": "Je préfère garder certaines choses pour moi — je n'ai pas envie de tout partager", "scores": { "liberte": 2, "trahison": 1 } },
-        { "label": "J'ai du mal à me livrer parce que je ne suis jamais sûr(e) de comment ce sera reçu", "scores": { "rejet": 2, "abandon": 1 } },
-        { "label": "Je ne sais pas comment aborder ce que je ressens, parce que je ne suis pas certain(e) de ce que c'est encore", "scores": { "sentiments": 2, "rejet": 1 } }
+        {
+          "label": "J'ai peur que si j'en parle, quelque chose se fragilise ou s'éloigne",
+          "scores": {
+            "abandon": 3
+          }
+        },
+        {
+          "label": "Je préfère garder certaines choses pour moi — je n'ai pas envie de tout partager",
+          "scores": {
+            "liberte": 2,
+            "trahison": 1
+          }
+        },
+        {
+          "label": "J'ai du mal à me livrer parce que je ne suis jamais sûr(e) de comment ce sera reçu",
+          "scores": {
+            "rejet": 2,
+            "abandon": 1
+          }
+        },
+        {
+          "label": "Je ne sais pas comment aborder ce que je ressens, parce que je ne suis pas certain(e) de ce que c'est encore",
+          "scores": {
+            "sentiments": 2,
+            "rejet": 1
+          }
+        }
       ]
     }
   ]

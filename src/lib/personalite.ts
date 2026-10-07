@@ -27,6 +27,20 @@ export type PersonalityQuestion = {
   explanation?: string;
 };
 
+/* =========================================================
+   TYPES — CONTENU SEO
+   ========================================================= */
+
+export type PersonalitySeoContent = {
+  title: string;
+  paragraphs: string[];
+};
+
+export type PersonalityFaqItem = {
+  question: string;
+  answer: string;
+};
+
 export type PersonalityTest = {
   descriptionSeo: string;
   slug: string;
@@ -47,6 +61,24 @@ export type PersonalityTest = {
     cover?: string;
     alt?: string;
   };
+
+  /*
+   * Contenu SEO spécifique au test.
+   *
+   * Optionnel :
+   * si absent, la page utilise le bloc SEO
+   * générique historique.
+   */
+  seoContent?: PersonalitySeoContent;
+
+  /*
+   * FAQ spécifique au test.
+   *
+   * Optionnelle :
+   * si absente, aucune FAQ n'est affichée
+   * sur la page.
+   */
+  faq?: PersonalityFaqItem[];
 
   profiles: PersonalityProfile[];
   questions: PersonalityQuestion[];
@@ -78,8 +110,7 @@ export const personalityCategories: PersonalityCategory[] = [
     shortDescription:
       "Relations amicales, confiance, compatibilité et comportements entre amis.",
 
-    seoTitle:
-      "Tests d'amitié gratuits : découvre ton profil en amitié",
+    seoTitle: "Tests d'amitié gratuits : découvre ton profil en amitié",
 
     seoDescription:
       "Découvre nos tests d'amitié gratuits et explore ta façon de vivre tes relations amicales : confiance, jalousie, compatibilité, conflits et comportements entre amis.",
@@ -87,8 +118,7 @@ export const personalityCategories: PersonalityCategory[] = [
     intro:
       "Quelle place occupes-tu dans tes amitiés ? Explore ta manière de faire confiance, de gérer les conflits, la jalousie, la distance ou les nouvelles rencontres grâce à nos tests consacrés aux relations amicales.",
 
-    image:
-      "/images/personnalite-categories/amitie.jpg",
+    image: "/images/personnalite-categories/amitie.jpg",
   },
 
   {
@@ -98,8 +128,7 @@ export const personalityCategories: PersonalityCategory[] = [
     shortDescription:
       "Sentiments, relations amoureuses, compatibilité et vie de couple.",
 
-    seoTitle:
-      "Tests d'amour gratuits : sentiments, couple et compatibilité",
+    seoTitle: "Tests d'amour gratuits : sentiments, couple et compatibilité",
 
     seoDescription:
       "Fais nos tests d'amour gratuits sur les sentiments, les relations de couple, l'attachement, la compatibilité et les comportements amoureux.",
@@ -107,8 +136,7 @@ export const personalityCategories: PersonalityCategory[] = [
     intro:
       "Amour, attachement, séduction, couple ou compatibilité : nos tests te placent face à des situations concrètes pour explorer ta manière d'aimer, de t'attacher et de vivre tes relations sentimentales.",
 
-    image:
-      "/images/personnalite-categories/amour.jpg",
+    image: "/images/personnalite-categories/amour.jpg",
   },
 
   {
@@ -118,8 +146,7 @@ export const personalityCategories: PersonalityCategory[] = [
     shortDescription:
       "Rapport à l'argent, dépenses, économies et décisions financières.",
 
-    seoTitle:
-      "Tests sur l'argent : quel est ton rapport à l'argent ?",
+    seoTitle: "Tests sur l'argent : quel est ton rapport à l'argent ?",
 
     seoDescription:
       "Découvre ton rapport à l'argent avec nos tests gratuits sur les dépenses, l'épargne, les achats, les décisions financières et tes habitudes au quotidien.",
@@ -127,8 +154,7 @@ export const personalityCategories: PersonalityCategory[] = [
     intro:
       "Économe, dépensier, prudent ou impulsif ? Nos tests sur l'argent explorent tes habitudes, tes priorités et les décisions que tu prends lorsqu'il est question de dépenses, d'épargne ou de plaisir.",
 
-    image:
-      "/images/personnalite-categories/argent.jpg",
+    image: "/images/personnalite-categories/argent.jpg",
   },
 
   {
@@ -138,8 +164,7 @@ export const personalityCategories: PersonalityCategory[] = [
     shortDescription:
       "Équilibre personnel, habitudes, émotions et rapport au quotidien.",
 
-    seoTitle:
-      "Tests bien-être gratuits : habitudes, équilibre et émotions",
+    seoTitle: "Tests bien-être gratuits : habitudes, équilibre et émotions",
 
     seoDescription:
       "Explore ton équilibre personnel avec nos tests bien-être gratuits consacrés aux habitudes, aux émotions, au stress et à ta façon de vivre le quotidien.",
@@ -147,8 +172,7 @@ export const personalityCategories: PersonalityCategory[] = [
     intro:
       "Nos habitudes et nos réactions en disent beaucoup sur notre équilibre quotidien. Découvre des tests autour du bien-être, des émotions, du stress et de la manière dont tu prends soin de toi au jour le jour.",
 
-    image:
-      "/images/personnalite-categories/bien-etre.jpg",
+    image: "/images/personnalite-categories/bien-etre.jpg",
   },
 
   {
@@ -158,8 +182,7 @@ export const personalityCategories: PersonalityCategory[] = [
     shortDescription:
       "Travail, ambitions, personnalité professionnelle et choix de carrière.",
 
-    seoTitle:
-      "Tests de carrière gratuits : découvre ton profil professionnel",
+    seoTitle: "Tests de carrière gratuits : découvre ton profil professionnel",
 
     seoDescription:
       "Découvre ton profil professionnel grâce à nos tests de carrière gratuits : ambitions, travail, leadership, motivation, choix professionnels et personnalité au travail.",
@@ -167,8 +190,7 @@ export const personalityCategories: PersonalityCategory[] = [
     intro:
       "Comment fonctionnes-tu dans le monde professionnel ? Ambition, leadership, motivation, prise de décision ou rapport au travail : découvre les traits qui façonnent ton profil professionnel.",
 
-    image:
-      "/images/personnalite-categories/carriere.jpg",
+    image: "/images/personnalite-categories/carriere.jpg",
   },
 
   {
@@ -178,8 +200,7 @@ export const personalityCategories: PersonalityCategory[] = [
     shortDescription:
       "Relations familiales, parentalité, conflits et place dans la famille.",
 
-    seoTitle:
-      "Tests famille gratuits : relations, parentalité et personnalité",
+    seoTitle: "Tests famille gratuits : relations, parentalité et personnalité",
 
     seoDescription:
       "Découvre nos tests famille gratuits sur les relations familiales, la parentalité, les conflits, les rôles et les comportements au sein de la famille.",
@@ -187,8 +208,7 @@ export const personalityCategories: PersonalityCategory[] = [
     intro:
       "Parents, enfants, frères et sœurs ou vie familiale : découvre comment tu réagis aux situations du quotidien et quelle place tu tends à prendre dans tes relations avec tes proches.",
 
-    image:
-      "/images/personnalite-categories/famille.jpg",
+    image: "/images/personnalite-categories/famille.jpg",
   },
 
   {
@@ -198,8 +218,7 @@ export const personalityCategories: PersonalityCategory[] = [
     shortDescription:
       "Tests légers, situations improbables et questions pour s'amuser.",
 
-    seoTitle:
-      "Tests fun gratuits : découvre ton profil en t'amusant",
+    seoTitle: "Tests fun gratuits : découvre ton profil en t'amusant",
 
     seoDescription:
       "Découvre nos tests fun gratuits avec des situations amusantes, des choix improbables et des questions originales pour révéler différentes facettes de ta personnalité.",
@@ -207,8 +226,7 @@ export const personalityCategories: PersonalityCategory[] = [
     intro:
       "Pas besoin de tout prendre au sérieux. Fais des choix improbables, imagine-toi dans des situations inattendues et découvre ce que tes réponses révèlent de toi avec nos tests les plus amusants.",
 
-    image:
-      "/images/personnalite-categories/fun.jpg",
+    image: "/images/personnalite-categories/fun.jpg",
   },
 
   {
@@ -218,8 +236,7 @@ export const personalityCategories: PersonalityCategory[] = [
     shortDescription:
       "Mode de vie, habitudes, goûts, quotidien et préférences personnelles.",
 
-    seoTitle:
-      "Tests lifestyle gratuits : quel mode de vie te correspond ?",
+    seoTitle: "Tests lifestyle gratuits : quel mode de vie te correspond ?",
 
     seoDescription:
       "Découvre nos tests lifestyle gratuits sur ton mode de vie, tes habitudes, tes goûts, tes préférences et les petits choix qui rythment ton quotidien.",
@@ -227,8 +244,7 @@ export const personalityCategories: PersonalityCategory[] = [
     intro:
       "Tes habitudes, tes goûts et tes petits choix quotidiens dessinent un mode de vie qui t'est propre. Explore différentes facettes de ton lifestyle et découvre les profils qui te ressemblent le plus.",
 
-    image:
-      "/images/personnalite-categories/lifestyle.jpg",
+    image: "/images/personnalite-categories/lifestyle.jpg",
   },
 
   {
@@ -238,8 +254,7 @@ export const personalityCategories: PersonalityCategory[] = [
     shortDescription:
       "Traits de personnalité, comportements, émotions et réactions.",
 
-    seoTitle:
-      "Tests de psychologie et personnalité gratuits en ligne",
+    seoTitle: "Tests de psychologie et personnalité gratuits en ligne",
 
     seoDescription:
       "Explore ta personnalité avec nos tests gratuits sur tes comportements, tes émotions, tes réactions, tes relations et différents traits de caractère.",
@@ -247,8 +262,7 @@ export const personalityCategories: PersonalityCategory[] = [
     intro:
       "Comment réagis-tu face aux autres, aux émotions ou aux situations difficiles ? Ces tests explorent différents aspects de ta personnalité et de tes comportements à travers des questions et des situations concrètes.",
 
-    image:
-      "/images/personnalite-categories/psychologie.jpg",
+    image: "/images/personnalite-categories/psychologie.jpg",
   },
 ];
 
@@ -256,11 +270,7 @@ export const personalityCategories: PersonalityCategory[] = [
    DOSSIER DES TESTS
    ========================================================= */
 
-const PERSONALITY_DIR = path.join(
-  process.cwd(),
-  "data",
-  "personalite",
-);
+const PERSONALITY_DIR = path.join(process.cwd(), "data", "personalite");
 
 let _cache: PersonalityTest[] | null = null;
 
@@ -282,10 +292,7 @@ function walkJsonFiles(dir: string): string[] {
 
     if (entry.isDirectory()) {
       files.push(...walkJsonFiles(fullPath));
-    } else if (
-      entry.isFile() &&
-      entry.name.endsWith(".json")
-    ) {
+    } else if (entry.isFile() && entry.name.endsWith(".json")) {
       files.push(fullPath);
     }
   }
@@ -301,15 +308,11 @@ function loadAllPersonalityTests(): PersonalityTest[] {
     const data = JSON.parse(raw) as PersonalityTest;
 
     if (!data.slug) {
-      throw new Error(
-        `Test de personnalité sans slug : ${file}`,
-      );
+      throw new Error(`Test de personnalité sans slug : ${file}`);
     }
 
     if (!data.category?.slug) {
-      throw new Error(
-        `Test de personnalité sans catégorie : ${file}`,
-      );
+      throw new Error(`Test de personnalité sans catégorie : ${file}`);
     }
 
     return data;
@@ -321,9 +324,7 @@ function loadAllPersonalityTests(): PersonalityTest[] {
 
   for (const test of tests) {
     if (seen.has(test.slug)) {
-      throw new Error(
-        `Slug dupliqué détecté : ${test.slug}`,
-      );
+      throw new Error(`Slug dupliqué détecté : ${test.slug}`);
     }
 
     seen.add(test.slug);
@@ -344,14 +345,8 @@ export function getAllPersonalityTests(): PersonalityTest[] {
   return _cache;
 }
 
-export function getPersonalityTestBySlug(
-  slug: string,
-): PersonalityTest | null {
-  return (
-    getAllPersonalityTests().find(
-      (test) => test.slug === slug,
-    ) ?? null
-  );
+export function getPersonalityTestBySlug(slug: string): PersonalityTest | null {
+  return getAllPersonalityTests().find((test) => test.slug === slug) ?? null;
 }
 
 /* =========================================================
@@ -365,9 +360,7 @@ export function getAllPersonalityCategories(): PersonalityCategory[] {
 export function getPersonalityCategory(
   slug: string,
 ): PersonalityCategory | undefined {
-  return personalityCategories.find(
-    (category) => category.slug === slug,
-  );
+  return personalityCategories.find((category) => category.slug === slug);
 }
 
 /* =========================================================

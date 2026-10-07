@@ -1,10 +1,12 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
+
 import {
   getAllPersonalityTests,
   getPersonalityTestBySlug,
 } from "@/lib/personalite";
+
 import { QuizDisplay } from "@/components/QuizDisplay";
 import { PersonalityPlayer } from "@/components/PersonalityPlayer";
 import { AdSlot } from "@/components/AdSlot";
@@ -117,36 +119,20 @@ export default async function PersonalityPage({
 
   /* =========================
      Tests populaires diversifiés
-
-     Priorité :
-     1 test populaire par catégorie différente.
-     Puis on complète avec d'autres tests populaires
-     si moins de 8 catégories sont disponibles.
      ========================= */
 
   const popularCandidates = all.filter(
     (t) => t.slug !== test.slug && t.isPopular,
   );
 
-  /*
-   * On commence par les catégories différentes
-   * de celle du test actuellement affiché.
-   */
   const otherCategories = popularCandidates.filter(
     (t) => t.category.slug !== test.category.slug,
   );
 
-  /*
-   * Les tests populaires de la catégorie actuelle
-   * ne serviront qu'en dernier recours.
-   */
   const sameCategoryPopular = popularCandidates.filter(
     (t) => t.category.slug === test.category.slug,
   );
 
-  /*
-   * Un seul test populaire par catégorie.
-   */
   const popularByCategory = new Map<
     string,
     (typeof popularCandidates)[number]
@@ -165,20 +151,10 @@ export default async function PersonalityPage({
     popularByCategory.values(),
   );
 
-  /*
-   * On mémorise les tests déjà sélectionnés
-   * pour éviter les doublons.
-   */
   const usedSlugs = new Set(
     diversifiedPopular.map((t) => t.slug),
   );
 
-  /*
-   * S'il n'y a pas assez de catégories différentes,
-   * on complète avec les autres tests populaires.
-   *
-   * La catégorie actuelle arrive en dernier.
-   */
   const remainingPopular = [
     ...otherCategories.filter(
       (t) => !usedSlugs.has(t.slug),
@@ -206,14 +182,12 @@ export default async function PersonalityPage({
         name: "Accueil",
         item: siteUrl("/"),
       },
-
       {
         "@type": "ListItem",
         position: 2,
         name: "Tests de personnalité",
         item: siteUrl("/personalite"),
       },
-
       {
         "@type": "ListItem",
         position: 3,
@@ -222,7 +196,6 @@ export default async function PersonalityPage({
           `/personalite/categorie/${test.category.slug}`,
         ),
       },
-
       {
         "@type": "ListItem",
         position: 4,
@@ -252,6 +225,28 @@ export default async function PersonalityPage({
       ? [siteUrl(test.images.cover)]
       : undefined,
   };
+
+  /* =========================
+     JSON-LD FAQ
+     ========================= */
+
+  const faqJsonLd =
+    test.faq && test.faq.length > 0
+      ? {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+
+          mainEntity: test.faq.map((item) => ({
+            "@type": "Question",
+            name: item.question,
+
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: item.answer,
+            },
+          })),
+        }
+      : null;
 
   /* =========================
      SEO intro
@@ -285,6 +280,15 @@ export default async function PersonalityPage({
           __html: JSON.stringify(articleJsonLd),
         }}
       />
+
+      {faqJsonLd ? (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(faqJsonLd),
+          }}
+        />
+      ) : null}
 
       {/* =========================
           HERO
@@ -385,7 +389,7 @@ export default async function PersonalityPage({
         </nav>
 
         {/* =========================
-            TEST
+            TEST + SEO + TESTS SIMILAIRES
             ========================= */}
 
         <section
@@ -400,44 +404,95 @@ export default async function PersonalityPage({
             categoryName={test.category.name}
             type="personality"
           >
-            <PersonalityPlayer
-              key={test.slug}
-              quiz={test}
-              nextQuiz={nextTest}
-            />
+            <div className="quizMainColumn">
+              <PersonalityPlayer
+                key={test.slug}
+                quiz={test}
+                nextQuiz={nextTest}
+              />
+
+              {/* =========================
+                  CONTENU SEO
+                  ========================= */}
+
+              {test.seoContent ? (
+                <section className="quizSeoText personalitySeoContent">
+                  <h2 className="sectionTitle">
+                    {test.seoContent.title}
+                  </h2>
+
+                  <ul className="seoList">
+                    {test.seoContent.paragraphs.map(
+                      (paragraph, index) => (
+                        <li
+                          key={`${test.slug}-seo-${index}`}
+                          className="personalitySeoItem"
+                        >
+                          {paragraph}
+                        </li>
+                      ),
+                    )}
+                  </ul>
+                </section>
+              ) : (
+                <section className="quizSeoText">
+                  <h2 className="sectionTitle">
+                    Ce que tu vas découvrir
+                  </h2>
+
+                  <ul className="seoList">
+                    <li>
+                      {test.questions.length} questions pour
+                      analyser ton profil
+                    </li>
+
+                    <li>
+                      Un résultat immédiat personnalisé
+                    </li>
+
+                    <li>
+                      Une répartition de tes traits dominants
+                    </li>
+                  </ul>
+
+                  <p className="seoP">
+                    Réponds instinctivement pour obtenir le
+                    résultat le plus fiable, puis partage ton
+                    profil final.
+                  </p>
+                </section>
+              )}
+            </div>
           </QuizDisplay>
         </section>
 
         {/* =========================
-            TEXTE SEO
+            FAQ
+            Même structure que les
+            pages catégorie
             ========================= */}
 
-        <section className="quizSeoText">
-          <h2 className="sectionTitle">
-            Ce que tu vas découvrir
-          </h2>
+        {test.faq && test.faq.length > 0 ? (
+          <section className="faq">
+            <h2>
+              Questions fréquentes
+            </h2>
 
-          <ul className="seoList">
-            <li>
-              {test.questions.length} questions
-              pour analyser ton profil
-            </li>
+            {test.faq.map((item, index) => (
+              <details
+                key={`${test.slug}-faq-${index}`}
+              >
+                <summary>
+                  {item.question}
+                </summary>
 
-            <li>
-              Un résultat immédiat personnalisé
-            </li>
-
-            <li>
-              Une répartition de tes traits dominants
-            </li>
-          </ul>
-
-          <p className="seoP">
-            Réponds instinctivement pour obtenir le
-            résultat le plus fiable, puis partage ton
-            profil final.
-          </p>
-        </section>
+                <p>
+                  {item.answer}
+                </p>
+              </details>
+            ))}
+          </section>
+        ) : null}
 
         {/* =========================
             TESTS POPULAIRES
