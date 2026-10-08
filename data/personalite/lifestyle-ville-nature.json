@@ -1,20 +1,44 @@
 {
   "slug": "test-ville-ou-nature",
-  "title": "Test lifestyle - Ville ou nature, que te faut-il vraiment ?",
-  "description": "Ville ou nature : où te sens-tu vraiment à ta place ?",
-  "descriptionSeo": "Ville ou nature : quel environnement correspond le mieux à ton mode de vie ? À travers dix situations concrètes sur ton logement, tes sorties, ton besoin de calme, l'accessibilité et ton rythme quotidien, découvre si tu t'épanouis davantage dans un environnement urbain, proche de la nature ou dans un équilibre entre les deux. Un test lifestyle pour explorer le cadre de vie qui semble le mieux correspondre à tes préférences.",
+"title": "Es-tu fait(e) pour vivre en ville ou à la campagne ?",
+"description": "Grande ville, vie au vert ou équilibre entre les deux ? Découvre quel environnement correspond vraiment à ton quotidien idéal.",
+"descriptionSeo": "Es-tu fait(e) pour vivre en ville ou à la campagne ? Entre l'animation urbaine, le calme de la nature et les avantages d'un cadre de vie intermédiaire, chacun possède ses préférences. À travers 10 situations sur le logement, les déplacements, les loisirs, les services et le rythme quotidien, découvre si tu serais plus heureux en ville, au vert ou dans un environnement qui combine les deux.",
   "category": {
     "name": "Lifestyle",
     "slug": "lifestyle"
   },
-  "createdAt": "2026-09-22",
+  "createdAt": "2026-10-08",
   "isNew": true,
   "isPopular": true,
   "images": {
     "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777373251/cover_sitclp.jpg",
     "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1777373251/cover_sitclp.jpg",
     "alt": "Test ville ou nature personnalité"
+  },"seoContent": {
+  "title": "Vivre en ville ou à la campagne : quel mode de vie te correspond ?",
+  "paragraphs": [
+    "Vivre en ville permet souvent de profiter d'une grande variété de commerces, de restaurants, de transports et d'activités à proximité. Pour certaines personnes, cette accessibilité et l'animation quotidienne sont essentielles. D'autres préfèrent les environnements moins denses, les espaces naturels et la possibilité de retrouver facilement du calme après une journée chargée.",
+    "Le choix entre ville et campagne ne se résume pourtant pas à une opposition entre bruit et tranquillité. Il faut aussi prendre en compte les déplacements, les possibilités de rencontres, les loisirs, la proximité des services et le type de logement souhaité. Certaines personnes apprécient particulièrement les petites villes ou les quartiers résidentiels proches de la nature, qui permettent de profiter de plusieurs avantages à la fois.",
+    "À travers 10 situations concrètes, ce test explore tes préférences en matière de logement, de rythme quotidien, d'activités et d'environnement. Tu découvriras si ton mode de vie idéal se rapproche davantage de la ville, de la nature ou d'un équilibre entre les deux. Le résultat reflète tes préférences exprimées dans ce questionnaire, sans prétendre déterminer à lui seul où tu devrais habiter."
+  ]
+},"faq": [
+  {
+    "question": "Comment savoir si je suis fait(e) pour vivre en ville ou à la campagne ?",
+    "answer": "Observe ce qui compte le plus dans ton quotidien : la proximité des commerces et des activités, l'accès aux transports, le calme, l'espace ou la nature. Ce test t'aide à identifier les préférences qui reviennent le plus souvent dans tes choix."
   },
+  {
+    "question": "Quels sont les avantages de vivre en ville ?",
+    "answer": "La ville offre généralement un accès plus facile aux commerces, aux transports, aux événements culturels et aux possibilités de rencontres. Elle peut particulièrement convenir aux personnes qui aiment avoir de nombreuses activités à proximité."
+  },
+  {
+    "question": "Pourquoi certaines personnes préfèrent-elles vivre à la campagne ?",
+    "answer": "La campagne attire notamment par ses espaces naturels, sa moindre densité et ses possibilités de tranquillité. En contrepartie, certains services et activités peuvent être plus éloignés et les déplacements demander davantage d'organisation."
+  },
+  {
+    "question": "Peut-on aimer la ville et la nature en même temps ?",
+    "answer": "Oui. Certaines personnes apprécient l'animation et les services urbains tout en ayant besoin d'espaces verts et de moments plus calmes. Une petite ville, une périphérie résidentielle ou un quartier proche d'un parc peuvent parfois répondre à ces deux envies."
+  }
+],
   "profiles": [
     {
       "key": "ville",
