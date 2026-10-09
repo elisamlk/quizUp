@@ -16,6 +16,7 @@ import { QuiSuisJePlayer } from "@/components/QuiSuisJePlayer";
 import { PlusOuMoinsPlayer } from "@/components/PlusOuMoinsPlayer";
 import { ImageMysterePlayer } from "@/components/ImageMysterePlayer";
 import { ClassementPlayer } from "@/components/ClassementPlayer";
+import MoneytizerQuizAd from "@/components/ads/MoneytizerQuizAd";
 
 const SITE_URL = "https://www.quizup.fr";
 
@@ -363,6 +364,12 @@ export default async function GamePage({
             mini-jeux du même style.
           </p>
         </section>
+
+
+    {/* PUBLICITÉ IMPROVE DIGITAL */}
+    <div className="quizListAd">
+      <MoneytizerQuizAd />
+    </div>
 
         {/* POPULAIRES */}
         {popularGames.length > 0 ? (

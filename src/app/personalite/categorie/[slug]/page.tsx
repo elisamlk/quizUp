@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
+import MoneytizerQuizAd from "@/components/ads/MoneytizerQuizAd";
 
 import {
   getAllPersonalityCategories,
@@ -481,6 +482,14 @@ export default async function PersonalityCategoryPage({
           </span>
 
         </nav>
+
+           {/* ---------------------------------------------
+          PUBLICITÉ IMPROVE DIGITAL
+      ---------------------------------------------- */}
+
+      <div className="quizListAd">
+        <MoneytizerQuizAd />
+      </div>
 
         {/* ---------------------------------------------
             LISTE DES TESTS

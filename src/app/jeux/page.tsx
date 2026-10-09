@@ -6,7 +6,7 @@ import {
   type Game,
 } from "@/lib/games";
 import type { Metadata } from "next";
-
+import MoneytizerQuizAd from "@/components/ads/MoneytizerQuizAd";
 
 export const metadata: Metadata = {
   title: "Jeux gratuits en ligne | Mini-jeux, quiz emoji, pendu et défis",
@@ -85,47 +85,37 @@ export default function GamesPage() {
 
   const newGames = pickBalancedByType(
     newGamesRaw.length ? newGamesRaw : games,
-    16
+    16,
   );
 
-  const newGameSlugs = new Set(
-    newGames.map((game) => game.slug)
-  );
+  const newGameSlugs = new Set(newGames.map((game) => game.slug));
 
   const popularGamesRaw = games.filter(
-    (game) =>
-      game.isPopular && !newGameSlugs.has(game.slug)
+    (game) => game.isPopular && !newGameSlugs.has(game.slug),
   );
 
   const popularGames = pickBalancedByType(
     popularGamesRaw.length
       ? popularGamesRaw
-      : games.filter(
-          (game) => !newGameSlugs.has(game.slug)
-        ),
-    16
+      : games.filter((game) => !newGameSlugs.has(game.slug)),
+    16,
   );
 
   return (
     <main className="home">
       <section className="heroLandingSection heroLandingSectionGame">
         <div className="heroLandingContent">
-          <h1 className="heroLandingTitle">
-            Jeux gratuits en ligne
-          </h1>
+          <h1 className="heroLandingTitle">Jeux gratuits en ligne</h1>
 
           <p className="heroLandingSub">
-            Découvre nos mini-jeux gratuits : Emoji Quiz,
-            Pendu, Mot mystère, Drapeaux, Plus ou moins
-            et bien d'autres défis rapides à jouer en ligne.
+            Découvre nos mini-jeux gratuits : Emoji Quiz, Pendu, Mot mystère,
+            Drapeaux, Plus ou moins et bien d'autres défis rapides à jouer en
+            ligne.
           </p>
 
           {games[0] ? (
             <div className="heroCtas">
-              <Link
-                className="homeBtnPrimary"
-                href={`/jeux/${games[0].slug}`}
-              >
+              <Link className="homeBtnPrimary" href={`/jeux/${games[0].slug}`}>
                 Jouer maintenant
               </Link>
             </div>
@@ -135,9 +125,7 @@ export default function GamesPage() {
 
       <section className="homeSection homePart">
         <div className="sectionHead">
-          <h2 className="sectionTitle">
-            Choisis un type de jeu
-          </h2>
+          <h2 className="sectionTitle">Choisis un type de jeu</h2>
         </div>
 
         {gameTypes.length > 0 ? (
@@ -153,9 +141,7 @@ export default function GamesPage() {
                 aria-label={`Jouer à ${gameType.title}`}
               >
                 <span className="catCardOverlay" />
-                <span className="catCardName">
-                  {gameType.title}
-                </span>
+                <span className="catCardName">{gameType.title}</span>
               </Link>
             ))}
           </div>
@@ -165,12 +151,16 @@ export default function GamesPage() {
           </p>
         )}
       </section>
+      {/* PUBLICITÉ IMPROVE DIGITAL */}
+      <div className="quizListAd">
+        <MoneytizerQuizAd />
+      </div>
+
+      {/* NOUVEAUX JEUX */}
 
       <section className="homeSection homePart">
         <div className="sectionHead">
-          <h2 className="sectionTitle">
-            Nouveaux jeux
-          </h2>
+          <h2 className="sectionTitle">Nouveaux jeux</h2>
         </div>
 
         {newGames.length > 0 ? (
@@ -183,16 +173,12 @@ export default function GamesPage() {
                   className="quizCard"
                   style={{
                     backgroundImage: `url("${
-                      game.images?.cover ??
-                      game.images?.thumbnail ??
-                      ""
+                      game.images?.cover ?? game.images?.thumbnail ?? ""
                     }")`,
                   }}
                   aria-label={`Jouer à ${game.title}`}
                 >
-                  <span className="quizBadge">
-                    Nouveau
-                  </span>
+                  <span className="quizBadge">Nouveau</span>
 
                   <span className="quizCategory">
                     {formatGameType(game.type)}
@@ -200,25 +186,19 @@ export default function GamesPage() {
 
                   <span className="quizCardOverlay" />
 
-                  <span className="quizCardTitle">
-                    {game.title}
-                  </span>
+                  <span className="quizCardTitle">{game.title}</span>
                 </Link>
               ))}
             </div>
           </div>
         ) : (
-          <p className="emptyState">
-            Aucun nouveau jeu pour le moment.
-          </p>
+          <p className="emptyState">Aucun nouveau jeu pour le moment.</p>
         )}
       </section>
 
       <section className="homeSection homePart">
         <div className="sectionHead">
-          <h2 className="sectionTitle">
-            Jeux populaires
-          </h2>
+          <h2 className="sectionTitle">Jeux populaires</h2>
         </div>
 
         {popularGames.length > 0 ? (
@@ -231,9 +211,7 @@ export default function GamesPage() {
                   className="quizCard"
                   style={{
                     backgroundImage: `url("${
-                      game.images?.cover ??
-                      game.images?.thumbnail ??
-                      ""
+                      game.images?.cover ?? game.images?.thumbnail ?? ""
                     }")`,
                   }}
                   aria-label={`Jouer à ${game.title}`}
@@ -244,9 +222,7 @@ export default function GamesPage() {
 
                   <span className="quizCardOverlay" />
 
-                  <span className="quizCardTitle">
-                    {game.title}
-                  </span>
+                  <span className="quizCardTitle">{game.title}</span>
                 </Link>
               ))}
             </div>
@@ -260,9 +236,7 @@ export default function GamesPage() {
 
       <section className="homeSection homePart">
         <div className="sectionHead">
-          <h2 className="sectionTitle">
-            Tous les jeux
-          </h2>
+          <h2 className="sectionTitle">Tous les jeux</h2>
         </div>
 
         {games.length > 0 ? (
@@ -275,17 +249,13 @@ export default function GamesPage() {
                   className="quizCard"
                   style={{
                     backgroundImage: `url("${
-                      game.images?.cover ??
-                      game.images?.thumbnail ??
-                      ""
+                      game.images?.cover ?? game.images?.thumbnail ?? ""
                     }")`,
                   }}
                   aria-label={`Jouer à ${game.title}`}
                 >
                   {game.isNew ? (
-                    <span className="quizBadge">
-                      Nouveau
-                    </span>
+                    <span className="quizBadge">Nouveau</span>
                   ) : null}
 
                   <span className="quizCategory">
@@ -294,32 +264,24 @@ export default function GamesPage() {
 
                   <span className="quizCardOverlay" />
 
-                  <span className="quizCardTitle">
-                    {game.title}
-                  </span>
+                  <span className="quizCardTitle">{game.title}</span>
                 </Link>
               ))}
             </div>
           </div>
         ) : (
-          <p className="emptyState">
-            Aucun jeu disponible pour le moment.
-          </p>
+          <p className="emptyState">Aucun jeu disponible pour le moment.</p>
         )}
       </section>
 
       <section className="homeSection homePart homeSeo">
-        <h2 className="homeSeoTitle">
-          Des jeux rapides, gratuits et amusants
-        </h2>
+        <h2 className="homeSeoTitle">Des jeux rapides, gratuits et amusants</h2>
 
         <p className="homeSeoText">
-          Nos mini-jeux sont pensés pour être simples à
-          lancer, rapides à jouer et faciles à partager. Que
-          tu préfères les quiz emoji, les jeux de mots, les
-          défis de culture générale ou les jeux de logique, tu
-          peux tester tes connaissances et améliorer ton score
-          à chaque partie.
+          Nos mini-jeux sont pensés pour être simples à lancer, rapides à jouer
+          et faciles à partager. Que tu préfères les quiz emoji, les jeux de
+          mots, les défis de culture générale ou les jeux de logique, tu peux
+          tester tes connaissances et améliorer ton score à chaque partie.
         </p>
       </section>
     </main>
