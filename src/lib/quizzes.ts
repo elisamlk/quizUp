@@ -1,3 +1,4 @@
+
 import fs from "node:fs";
 import path from "node:path";
 import { categoriesMeta } from "@/lib/categories";
@@ -24,6 +25,16 @@ export type Quiz = {
     cover?: string;
     alt?: string;
   };
+
+  seoContent?: {
+    title: string;
+    paragraphs: string[];
+  };
+
+  faq?: {
+    question: string;
+    answer: string;
+  }[];
 
   questions: {
     id: string;
@@ -145,3 +156,4 @@ export function getAllCategories(): Category[] {
     }))
     .sort((a, b) => a.name.localeCompare(b.name));
 }
+
