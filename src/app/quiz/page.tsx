@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { getAllCategories, getAllQuizzes } from "@/lib/quizzes";
 import type { Metadata } from "next";
-// import { AdSlot } from "@/components/AdSlot";
+import MoneytizerQuizAd from "@/components/ads/MoneytizerQuizAd";
 
 function toInt(v: string | undefined, fallback = 1) {
   const n = Number.parseInt(v ?? "", 10);
@@ -41,8 +41,7 @@ export async function generateMetadata({
     }).length;
   }
 
-  const isEmptyFilteredPage =
-    hasFilters && (resultsCount ?? 0) === 0;
+  const isEmptyFilteredPage = hasFilters && (resultsCount ?? 0) === 0;
 
   const robots =
     hasFilters || isEmptyFilteredPage
@@ -124,7 +123,7 @@ function buildQuizUrl({ cat, q, p }: { cat?: string; q?: string; p?: number }) {
 
 function mixByCategory<T extends { category: { slug: string } }>(
   items: T[],
-  categoryOrder: string[]
+  categoryOrder: string[],
 ) {
   const groups = new Map<string, T[]>();
 
@@ -140,7 +139,9 @@ function mixByCategory<T extends { category: { slug: string } }>(
 
   const orderedSlugs = [
     ...categoryOrder.filter((slug) => groups.has(slug)),
-    ...Array.from(groups.keys()).filter((slug) => !categoryOrder.includes(slug)),
+    ...Array.from(groups.keys()).filter(
+      (slug) => !categoryOrder.includes(slug),
+    ),
   ];
 
   const result: T[] = [];
@@ -190,7 +191,7 @@ export default async function QuizIndexPage({
 
   const mixedFiltered = mixByCategory(
     filtered,
-    categories.map((cat) => cat.slug)
+    categories.map((cat) => cat.slug),
   );
 
   const total = mixedFiltered.length;
@@ -208,14 +209,12 @@ export default async function QuizIndexPage({
     <main className="page">
       <section className="heroLandingSection quizPageHero">
         <div className="heroLandingContent">
-          <h1 className="heroLandingTitle">
-            Tous les quiz gratuits
-          </h1>
+          <h1 className="heroLandingTitle">Tous les quiz gratuits</h1>
 
           <p className="heroLandingSub">
             Découvrez des centaines de quiz gratuits en culture générale,
-            histoire, géographie, sciences, sport, cinéma, musique,
-            nature, séries TV et bien plus encore.
+            histoire, géographie, sciences, sport, cinéma, musique, nature,
+            séries TV et bien plus encore.
           </p>
 
           <p className="pageSubtitle">
@@ -277,7 +276,11 @@ export default async function QuizIndexPage({
             </button>
 
             {selectedCat || qRaw ? (
-              <Link className="clearBtn" href="/quiz" aria-label="Réinitialiser">
+              <Link
+                className="clearBtn"
+                href="/quiz"
+                aria-label="Réinitialiser"
+              >
                 <span className="btnText">Réinitialiser</span>
                 <span className="btnIcon" aria-hidden="true">
                   <svg viewBox="0 0 24 24" width="20" height="20" fill="none">
@@ -326,7 +329,10 @@ export default async function QuizIndexPage({
           </div>
         </section>
 
-        {/* <AdSlot slot="1111111111" /> */}
+        {/* PUBLICITÉ IMPROVE DIGITAL */}
+        <div className="quizListAd">
+          <MoneytizerQuizAd />
+        </div>
 
         <section className="quizList">
           {pageItems.map((quiz, idx) => {
@@ -461,11 +467,11 @@ export default async function QuizIndexPage({
               histoire, géographie, sciences, sport, cinéma, musique, nature ou
               encore séries TV : explorez de nombreux thèmes adaptés à tous les
               niveaux. Chaque quiz comprend 20 questions variées avec un score
-              immédiat à la fin de la partie et, selon les quiz, des explications
-              pour approfondir vos connaissances. Que vous souhaitiez relever un
-              défi rapide, réviser un sujet précis ou simplement vous divertir,
-              parcourez nos catégories, découvrez les quiz les plus populaires et
-              trouvez votre prochain challenge.
+              immédiat à la fin de la partie et, selon les quiz, des
+              explications pour approfondir vos connaissances. Que vous
+              souhaitiez relever un défi rapide, réviser un sujet précis ou
+              simplement vous divertir, parcourez nos catégories, découvrez les
+              quiz les plus populaires et trouvez votre prochain challenge.
             </p>
           </section>
         ) : null}

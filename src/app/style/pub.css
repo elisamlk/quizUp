@@ -29,3 +29,33 @@
     min-height: 100px;
   }
 }
+
+.moneytizerQuizAd {
+  width: 100%;
+  margin: 28px auto;
+  text-align: center;
+}
+
+.moneytizerQuizAd__label {
+  display: block;
+  margin-bottom: 8px;
+  color: #8b909c;
+  font-size: 10px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.moneytizerQuizAd__container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quizListAd {
+  width: 100%;
+  margin: 24px auto 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

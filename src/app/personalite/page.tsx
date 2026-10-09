@@ -5,6 +5,7 @@ import {
   getAllPersonalityCategories,
   getAllPersonalityTests,
 } from "@/lib/personalite";
+import MoneytizerQuizAd from "@/components/ads/MoneytizerQuizAd";
 
 /* =========================
    Helpers
@@ -614,6 +615,15 @@ export default async function PersonalityIndexPage({
         {/* =========================
             Tests
             ========================= */}
+
+
+      {/* =========================
+          PUBLICITÉ IMPROVE DIGITAL
+          ========================= */}
+
+      <div className="quizListAd">
+        <MoneytizerQuizAd />
+      </div>
 
         <section className="quizList">
           {pageItems.map(
