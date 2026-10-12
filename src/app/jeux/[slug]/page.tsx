@@ -1,11 +1,8 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
-
 import { getAllGames, getGameBySlug, getGameTypes } from "@/lib/games";
-
 import { GameDisplay } from "@/components/GameDisplay";
-
 import { EmojiQuizPlayer } from "@/components/EmojiQuizPlayer";
 import { MotMysterePlayer } from "@/components/MotMysterePlayer";
 import { PenduPlayer } from "@/components/PenduPlayer";
