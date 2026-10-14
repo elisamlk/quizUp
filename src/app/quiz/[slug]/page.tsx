@@ -7,13 +7,25 @@ import { QuizDisplay } from "@/components/QuizDisplay";
 import { QuizPlayer } from "@/components/QuizPlayer";
 import MoneytizerQuizAd from "@/components/ads/MoneytizerQuizAd";
 
+type QuizSeoSection = {
+  title: string;
+  content: string;
+};
+
+type QuizSeoLegacy = {
+  title: string;
+  paragraphs: string[];
+};
+
 type QuizSeoExtras = {
-  seoContent?: { title: string; paragraphs: string[] };
+  seoContent?: QuizSeoSection[] | QuizSeoLegacy;
   faq?: { question: string; answer: string }[];
 };
 
 const SITE_URL = "https://www.quizup.fr";
+
 const siteUrl = (path: string) => `${SITE_URL}${path}`;
+
 function absoluteUrl(url: string) {
   if (url.startsWith("http://") || url.startsWith("https://")) {
     return url;
@@ -64,7 +76,8 @@ export async function generateMetadata({
   const title = `${quiz.title} | Quiz gratuit en ligne`;
 
   const description =
-    quiz.description ??
+    quiz.descriptionSeo?.trim() ||
+    quiz.description?.trim() ||
     `Fais ce quiz ${quiz.category.name} gratuit en ligne en ${quiz.questions.length} questions. Découvre ton score immédiatement et progresse grâce aux explications.`;
 
   return {
@@ -255,6 +268,7 @@ export default async function QuizPage({
     : null;
 
   /* POPULAIRES CROSS-CATEGORY */
+
   const popularCandidates = all.filter(
     (q) => q.slug !== quiz.slug && q.isPopular,
   );
@@ -471,7 +485,7 @@ export default async function QuizPage({
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
-            __html: JSON.stringify(faqJsonLd).replace(/</g, "\\\u003c"),
+            __html: JSON.stringify(faqJsonLd).replace(/</g, "\\u003c"),
           }}
         />
       ) : null}
@@ -560,12 +574,48 @@ export default async function QuizPage({
             <div className="quizMainColumn">
               <QuizPlayer quiz={quiz} nextQuiz={nextQuiz} />
 
-              {/* CONTENU SEO : mêmes classes que la page personnalité */}
-
-              {seoContent?.title && seoContent.paragraphs?.length > 0 ? (
+              {/* CONTENU SEO : structure et classes communes à toutes les catégories */}
+              {Array.isArray(seoContent) &&
+              seoContent.some(
+                (section) => section.title?.trim() && section.content?.trim(),
+              ) ? (
+                <section className="quizSeoText personalitySeoContent">
+                  <h2 className="sectionTitle">
+                    {
+                      seoContent.find(
+                        (section) =>
+                          section.title?.trim() && section.content?.trim(),
+                      )?.title
+                    }
+                  </h2>
+                  <ul className="seoList">
+                    {seoContent
+                      .filter(
+                        (section) =>
+                          section.title?.trim() && section.content?.trim(),
+                      )
+                      .map((section, index) => (
+                        <li
+                          key={`${quiz.slug}-seo-${index}`}
+                          className="personalitySeoItem"
+                        >
+                          {index > 0 ? (
+                            <>
+                              <strong>{section.title}</strong>
+                              {" — "}
+                            </>
+                          ) : null}
+                          {section.content}
+                        </li>
+                      ))}
+                  </ul>
+                </section>
+              ) : seoContent &&
+                !Array.isArray(seoContent) &&
+                seoContent.title?.trim() &&
+                seoContent.paragraphs?.length > 0 ? (
                 <section className="quizSeoText personalitySeoContent">
                   <h2 className="sectionTitle">{seoContent.title}</h2>
-
                   <ul className="seoList">
                     {seoContent.paragraphs.map((paragraph, index) => (
                       <li
@@ -582,18 +632,14 @@ export default async function QuizPage({
                   <h2 className="sectionTitle">
                     Ce que tu vas trouver dans ce quiz
                   </h2>
-
                   <ul className="seoList">
                     <li>{quiz.questions.length} questions au format QCM</li>
-
                     <li>Correction immédiate et score final</li>
-
                     <li>
                       Explications pour progresser (quand elles sont
                       disponibles)
                     </li>
                   </ul>
-
                   <p className="seoP">
                     Astuce : refais le quiz pour battre ton record et compare
                     ton score avec tes amis en partageant ta carte de résultat.
@@ -621,6 +667,7 @@ export default async function QuizPage({
         ) : null}
 
         {/* PUBLICITÉ IMPROVE DIGITAL */}
+
         {popularCross.length > 0 && (
           <div className="quizListAd">
             <MoneytizerQuizAd />
