@@ -130,6 +130,77 @@ async function canvasToBlob(canvas: HTMLCanvasElement): Promise<Blob> {
   });
 }
 
+const SHARE_FONT = "system-ui, -apple-system, Segoe UI, Roboto, Arial";
+
+function wrapLines(
+  ctx: CanvasRenderingContext2D,
+  text: string,
+  maxWidth: number,
+  maxLines: number,
+): { lines: string[]; truncated: boolean } {
+  const words = text.split(/\s+/).filter(Boolean);
+  const lines: string[] = [];
+  let line = "";
+  let i = 0;
+
+  for (; i < words.length; i++) {
+    const candidate = line ? `${line} ${words[i]}` : words[i];
+
+    if (!line || ctx.measureText(candidate).width <= maxWidth) {
+      line = candidate;
+      continue;
+    }
+
+    lines.push(line);
+
+    if (lines.length === maxLines) {
+      line = "";
+      break;
+    }
+
+    line = words[i];
+  }
+
+  if (line) lines.push(line);
+
+  const truncatedWords = i < words.length;
+  const result = lines.map((l) => clampText(ctx, l, maxWidth));
+  const clampedAny = result.some((l, index) => l !== lines[index]);
+
+  if (truncatedWords && result.length > 0) {
+    let last = result[result.length - 1];
+
+    while (last.length && ctx.measureText(`${last}…`).width > maxWidth) {
+      last = last.slice(0, -1);
+    }
+
+    result[result.length - 1] = `${last.trimEnd()}…`;
+  }
+
+  return { lines: result, truncated: truncatedWords || clampedAny };
+}
+
+function fitLines(
+  ctx: CanvasRenderingContext2D,
+  text: string,
+  maxWidth: number,
+  maxLines: number,
+  sizes: number[],
+  weight: number,
+): { lines: string[]; truncated: boolean; size: number } {
+  let best = { lines: [] as string[], truncated: false, size: sizes[0] };
+
+  for (const size of sizes) {
+    ctx.font = `${weight} ${size}px ${SHARE_FONT}`;
+    const r = wrapLines(ctx, text, maxWidth, maxLines);
+    best = { ...r, size };
+
+    if (!r.truncated) break;
+  }
+
+  return best;
+}
+
 async function generateShareImage({
   title,
   category,
@@ -147,164 +218,194 @@ async function generateShareImage({
   coverUrl?: string;
   brand: string;
 }): Promise<Blob> {
-  const width = 1080;
-  const height = 1920;
+  const W = 1080;
+  const H = 1920;
 
   const canvas = document.createElement("canvas");
-  canvas.width = width;
-  canvas.height = height;
+  canvas.width = W;
+  canvas.height = H;
 
   const ctx = canvas.getContext("2d");
   if (!ctx) throw new Error("Canvas indisponible");
 
-  const background = ctx.createLinearGradient(0, 0, width, height);
+  /* ---------- Fond ---------- */
+
+  const background = ctx.createLinearGradient(0, 0, W, H);
   background.addColorStop(0, "#0b1220");
   background.addColorStop(0.5, "#0f172a");
   background.addColorStop(1, "#111827");
   ctx.fillStyle = background;
-  ctx.fillRect(0, 0, width, height);
-
+  ctx.fillRect(0, 0, W, H);
   if (coverUrl) {
     const cover = await loadImage(coverUrl);
 
     if (cover) {
-      const scale = Math.max(width / cover.width, height / cover.height);
-      const drawnWidth = cover.width * scale;
-      const drawnHeight = cover.height * scale;
-      const drawnX = (width - drawnWidth) / 2;
-      const drawnY = (height - drawnHeight) / 2;
+      const isLandscape = cover.width / cover.height > W / H;
 
-      ctx.save();
-      ctx.globalAlpha = 0.25;
-      ctx.drawImage(cover, drawnX, drawnY, drawnWidth, drawnHeight);
-      ctx.restore();
+      // Paysage : l’image garde toute sa largeur et reste centrée.
+      // Portrait : elle remplit tout le fond, comme avant.
+      const zoom = 1;
+      const scale = isLandscape
+        ? (W / cover.width) * zoom
+        : Math.max(W / cover.width, H / cover.height);
 
-      const overlay = ctx.createLinearGradient(0, 0, 0, height);
-      overlay.addColorStop(0, "rgba(0,0,0,0.55)");
-      overlay.addColorStop(1, "rgba(0,0,0,0.82)");
+      const dw = cover.width * scale;
+      const dh = cover.height * scale;
+      const dx = (W - dw) / 2;
+      const dy = (H - dh) / 2;
+
+      ctx.drawImage(cover, dx, dy, dw, dh);
+
+      if (isLandscape) {
+        const fade = Math.min(120, dh / 5);
+
+        const topFade = ctx.createLinearGradient(0, dy, 0, dy + fade);
+        topFade.addColorStop(0, "rgba(15,23,42,1)");
+        topFade.addColorStop(1, "rgba(15,23,42,0)");
+        ctx.fillStyle = topFade;
+        ctx.fillRect(0, dy, W, fade);
+
+        const bottomFade = ctx.createLinearGradient(0, dy + dh - fade, 0, dy + dh);
+        bottomFade.addColorStop(0, "rgba(15,23,42,0)");
+        bottomFade.addColorStop(1, "rgba(15,23,42,1)");
+        ctx.fillStyle = bottomFade;
+        ctx.fillRect(0, dy + dh - fade, W, fade);
+      }
+
+      const overlay = ctx.createLinearGradient(0, 0, 0, H);
+      overlay.addColorStop(0, "rgba(0,0,0,0.10)");
+      overlay.addColorStop(0.5, "rgba(0,0,0,0.20)");
+      overlay.addColorStop(1, "rgba(0,0,0,0.50)");
       ctx.fillStyle = overlay;
-      ctx.fillRect(0, 0, width, height);
+      ctx.fillRect(0, 0, W, H);
     }
   }
 
+  /* ---------- Mesures ---------- */
+
   const cardX = 90;
-  const cardY = 260;
-  const cardWidth = width - cardX * 2;
-  const cardHeight = 980;
+  const cardW = W - cardX * 2;
+  const pad = 60;
+  const innerW = cardW - pad * 2;
+  const centerX = W / 2;
+
+  const pillPaddingX = 26;
+  const pillH = 64;
+
+  ctx.font = `600 34px ${SHARE_FONT}`;
+  const pillText = clampText(ctx, category, innerW - pillPaddingX * 2);
+  const pillW = ctx.measureText(pillText).width + pillPaddingX * 2;
+
+  const titleFit = fitLines(ctx, title, innerW, 6, [62, 56, 50, 44], 900);
+  const titleLH = Math.round(titleFit.size * 1.2);
+
+  const scoreSize = 180;
+  const scoreLH = 190;
+  const percentSize = 64;
+  const percentLH = 80;
+  const challengeSize = 42;
+  const challengeLH = 56;
+
+  const gapAfterPill = 36;
+  const gapAfterTitle = 90;
+  const gapAfterScore = 10;
+  const gapAfterPercent = 70;
+
+  const cardH =
+    pad +
+    pillH +
+    gapAfterPill +
+    titleFit.lines.length * titleLH +
+    gapAfterTitle +
+    scoreLH +
+    gapAfterScore +
+    percentLH +
+    gapAfterPercent +
+    challengeLH +
+    pad;
+
+  const footerTop = H - 220;
+  const cardY = Math.max(140, Math.round((footerTop - cardH) / 2));
+
+  /* ---------- Carte ---------- */
 
   ctx.save();
-  roundedRect(ctx, cardX, cardY, cardWidth, cardHeight, 44);
+  roundedRect(ctx, cardX, cardY, cardW, cardH, 44);
   ctx.fillStyle = "rgba(255,255,255,0.08)";
   ctx.fill();
   ctx.restore();
 
   ctx.save();
-  roundedRect(ctx, cardX, cardY, cardWidth, cardHeight, 44);
+  roundedRect(ctx, cardX, cardY, cardW, cardH, 44);
   ctx.strokeStyle = "rgba(255,255,255,0.10)";
   ctx.lineWidth = 2;
   ctx.stroke();
   ctx.restore();
 
-  ctx.font = "600 34px system-ui, -apple-system, Segoe UI, Roboto, Arial";
+  let y = cardY + pad;
 
-  const pillPaddingX = 26;
-  const pillWidth = Math.min(
-    cardWidth - 120,
-    ctx.measureText(category).width + pillPaddingX * 2,
-  );
-  const pillHeight = 64;
-  const pillX = cardX + 60;
-  const pillY = cardY + 60;
+  /* ---------- Catégorie ---------- */
+
+  const pillX = cardX + pad;
 
   ctx.save();
-  roundedRect(ctx, pillX, pillY, pillWidth, pillHeight, 999);
+  roundedRect(ctx, pillX, y, pillW, pillH, 999);
   ctx.fillStyle = "rgba(255,255,255,0.12)";
   ctx.fill();
   ctx.restore();
 
+  ctx.font = `600 34px ${SHARE_FONT}`;
   ctx.fillStyle = "rgba(255,255,255,0.92)";
+  ctx.textAlign = "left";
   ctx.textBaseline = "middle";
-  ctx.fillText(
-    clampText(ctx, category, pillWidth - pillPaddingX * 2),
-    pillX + pillPaddingX,
-    pillY + pillHeight / 2,
-  );
+  ctx.fillText(pillText, pillX + pillPaddingX, y + pillH / 2);
 
-  ctx.fillStyle = "#ffffff";
+  y += pillH + gapAfterPill;
+
+  /* ---------- Titre du quiz ---------- */
+
   ctx.textBaseline = "top";
-  ctx.font = "900 62px system-ui, -apple-system, Segoe UI, Roboto, Arial";
-
-  const titleMaxWidth = cardWidth - 120;
-  const titleX = cardX + 60;
-  let titleY = pillY + pillHeight + 40;
-
-  const words = title.split(" ");
-  let line = "";
-  const lines: string[] = [];
-
-  for (const word of words) {
-    const candidate = line ? `${line} ${word}` : word;
-
-    if (ctx.measureText(candidate).width <= titleMaxWidth) {
-      line = candidate;
-    } else {
-      if (line) lines.push(line);
-      line = word;
-      if (lines.length === 2) break;
-    }
-  }
-
-  if (lines.length < 2 && line) lines.push(line);
-
-  if (lines.length === 2) {
-    lines[1] = clampText(ctx, lines[1], titleMaxWidth);
-  }
-
-  for (const titleLine of lines) {
-    ctx.fillText(titleLine, titleX, titleY);
-    titleY += 76;
-  }
-
-  const scoreY = cardY + 460;
-
-  ctx.textBaseline = "alphabetic";
-  ctx.font = "900 180px system-ui, -apple-system, Segoe UI, Roboto, Arial";
+  ctx.font = `900 ${titleFit.size}px ${SHARE_FONT}`;
   ctx.fillStyle = "#ffffff";
 
-  const scoreText = `${score}/${total}`;
-  const scoreWidth = ctx.measureText(scoreText).width;
-  ctx.fillText(scoreText, cardX + (cardWidth - scoreWidth) / 2, scoreY);
+  for (const l of titleFit.lines) {
+    ctx.fillText(l, cardX + pad, y);
+    y += titleLH;
+  }
 
-  ctx.font = "800 64px system-ui, -apple-system, Segoe UI, Roboto, Arial";
+  y += gapAfterTitle;
+
+  /* ---------- Score ---------- */
+
+  ctx.textAlign = "center";
+  ctx.font = `900 ${scoreSize}px ${SHARE_FONT}`;
+  ctx.fillStyle = "#ffffff";
+  ctx.fillText(`${score}/${total}`, centerX, y);
+
+  y += scoreLH + gapAfterScore;
+
+  ctx.font = `800 ${percentSize}px ${SHARE_FONT}`;
   ctx.fillStyle = "rgba(255,255,255,0.92)";
+  ctx.fillText(`${percent} %`, centerX, y);
 
-  const percentText = `${percent}%`;
-  const percentWidth = ctx.measureText(percentText).width;
-  ctx.fillText(
-    percentText,
-    cardX + (cardWidth - percentWidth) / 2,
-    scoreY + 90,
-  );
+  y += percentLH + gapAfterPercent;
 
-  ctx.font = "700 42px system-ui, -apple-system, Segoe UI, Roboto, Arial";
+  ctx.font = `700 ${challengeSize}px ${SHARE_FONT}`;
   ctx.fillStyle = "rgba(255,255,255,0.85)";
+  ctx.fillText("Peux-tu faire mieux ?", centerX, y);
 
-  const challenge = "Peux-tu faire mieux ?";
-  const challengeWidth = ctx.measureText(challenge).width;
+  /* ---------- Pied de page ---------- */
 
-  ctx.fillText(
-    challenge,
-    cardX + (cardWidth - challengeWidth) / 2,
-    cardY + cardHeight - 130,
-  );
+  ctx.textAlign = "left";
+  ctx.textBaseline = "alphabetic";
 
-  ctx.font = "800 34px system-ui, -apple-system, Segoe UI, Roboto, Arial";
+  ctx.font = `800 34px ${SHARE_FONT}`;
   ctx.fillStyle = "rgba(255,255,255,0.80)";
-  ctx.fillText(brand, 90, height - 120);
+  ctx.fillText(brand, 90, H - 120);
 
-  ctx.font = "600 30px system-ui, -apple-system, Segoe UI, Roboto, Arial";
+  ctx.font = `600 30px ${SHARE_FONT}`;
   ctx.fillStyle = "rgba(255,255,255,0.60)";
-  ctx.fillText("Fais le quiz et partage ton score →", 90, height - 74);
+  ctx.fillText("Fais le quiz et partage ton score →", 90, H - 74);
 
   return canvasToBlob(canvas);
 }
