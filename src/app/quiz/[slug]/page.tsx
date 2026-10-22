@@ -22,6 +22,46 @@ type QuizSeoExtras = {
   faq?: { question: string; answer: string }[];
 };
 
+/** Découpe l'introduction après quelques phrases, sans retirer de texte du HTML. */
+function splitSeoIntro(content: string): [string, string] {
+  const normalized = content.trim();
+  const firstParagraph = normalized.split(/\n\s*\n/)[0];
+  const sentenceEnds = [...firstParagraph.matchAll(/[.!?](?=\s|$)/g)];
+  const cutoff = sentenceEnds.find((match) => (match.index ?? 0) >= 170);
+  const end = cutoff ? (cutoff.index ?? 0) + 1 : firstParagraph.length;
+  return [normalized.slice(0, end).trim(), normalized.slice(end).trim()];
+}
+
+function ExpandableQuizSeo({ sections }: { sections: QuizSeoSection[] }) {
+  const [intro, remainder] = splitSeoIntro(sections[0].content);
+  const hasMore = Boolean(remainder || sections.length > 1);
+
+  return (
+    <section className="quizSeoText personalitySeoContent">
+      <h2 className="sectionTitle">{sections[0].title}</h2>
+      <p className="quizSeoExcerpt">{intro}</p>
+      {hasMore ? (
+        <details className="quizSeoExpandable">
+          <summary className="quizSeoToggle">Lire la suite</summary>
+          <div className="quizSeoExpanded">
+            {remainder.split(/\n\s*\n/).filter(Boolean).map((paragraph, index) => (
+              <p key={`intro-${index}`}>{paragraph}</p>
+            ))}
+            {sections.slice(1).map((section, index) => (
+              <div key={`section-${index}`} className="quizSeoSubsection">
+                <h3>{section.title}</h3>
+                {section.content.split(/\n\s*\n/).filter(Boolean).map((paragraph, paragraphIndex) => (
+                  <p key={paragraphIndex}>{paragraph}</p>
+                ))}
+              </div>
+            ))}
+          </div>
+        </details>
+      ) : null}
+    </section>
+  );
+}
+
 const SITE_URL = "https://www.quizup.fr";
 
 const siteUrl = (path: string) => `${SITE_URL}${path}`;
@@ -574,59 +614,26 @@ export default async function QuizPage({
             <div className="quizMainColumn">
               <QuizPlayer quiz={quiz} nextQuiz={nextQuiz} />
 
-              {/* CONTENU SEO : structure et classes communes à toutes les catégories */}
+              {/* CONTENU SEO : présent dans le HTML, repliable sans JS */}
               {Array.isArray(seoContent) &&
-              seoContent.some(
-                (section) => section.title?.trim() && section.content?.trim(),
-              ) ? (
-                <section className="quizSeoText personalitySeoContent">
-                  <h2 className="sectionTitle">
-                    {
-                      seoContent.find(
-                        (section) =>
-                          section.title?.trim() && section.content?.trim(),
-                      )?.title
-                    }
-                  </h2>
-                  <ul className="seoList">
-                    {seoContent
-                      .filter(
-                        (section) =>
-                          section.title?.trim() && section.content?.trim(),
-                      )
-                      .map((section, index) => (
-                        <li
-                          key={`${quiz.slug}-seo-${index}`}
-                          className="personalitySeoItem"
-                        >
-                          {index > 0 ? (
-                            <>
-                              <strong>{section.title}</strong>
-                              {" — "}
-                            </>
-                          ) : null}
-                          {section.content}
-                        </li>
-                      ))}
-                  </ul>
-                </section>
+              seoContent.some((section) => section.title?.trim() && section.content?.trim()) ? (
+                <ExpandableQuizSeo
+                  sections={seoContent.filter(
+                    (section) => section.title?.trim() && section.content?.trim(),
+                  )}
+                />
               ) : seoContent &&
                 !Array.isArray(seoContent) &&
                 seoContent.title?.trim() &&
                 seoContent.paragraphs?.length > 0 ? (
-                <section className="quizSeoText personalitySeoContent">
-                  <h2 className="sectionTitle">{seoContent.title}</h2>
-                  <ul className="seoList">
-                    {seoContent.paragraphs.map((paragraph, index) => (
-                      <li
-                        key={`${quiz.slug}-seo-${index}`}
-                        className="personalitySeoItem"
-                      >
-                        {paragraph}
-                      </li>
-                    ))}
-                  </ul>
-                </section>
+                <ExpandableQuizSeo
+                  sections={[
+                    {
+                      title: seoContent.title,
+                      content: seoContent.paragraphs.join("\n\n"),
+                    },
+                  ]}
+                />
               ) : (
                 <section className="quizSeoText">
                   <h2 className="sectionTitle">
