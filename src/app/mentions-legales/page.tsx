@@ -3,7 +3,17 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Mentions légales",
   description:
-    "Mentions légales du site [Nom du site]. Informations sur l’éditeur, l’hébergement et l’utilisation du site.",
+    "Mentions légales du site QuizUp : informations sur l'éditeur, l'hébergement et l'utilisation du site.",
+  alternates: { canonical: "/mentions-legales" },
+  openGraph: {
+    title: "Mentions légales | QuizUp",
+    description:
+      "Mentions légales du site QuizUp : informations sur l'éditeur, l'hébergement et l'utilisation du site.",
+    url: "/mentions-legales",
+    siteName: "QuizUp",
+    locale: "fr_FR",
+    type: "website",
+  },
 };
 
 export default function MentionsLegalesPage() {
@@ -15,8 +25,8 @@ export default function MentionsLegalesPage() {
 
       <h2>Éditeur du site</h2>
       <p>
-        Le site <strong>Quiz Up</strong>, accessible à l’adresse
-        <strong> https://www.quizup.fr</strong>, est édité par un particulier
+        Le site <strong>QuizUp</strong>, accessible à l’adresse
+        <strong> https://www.quizup.fr</strong>, est édité par un particulier.
       </p>
 
       <p>

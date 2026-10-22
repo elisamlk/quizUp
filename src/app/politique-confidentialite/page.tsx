@@ -4,7 +4,17 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Politique de confidentialité",
   description:
-    "Politique de confidentialité du site [Nom du site]. Informations sur les données techniques, la navigation, les cookies et la publicité.",
+    "Politique de confidentialité du site QuizUp : données de navigation, cookies, publicité et exercice de vos droits.",
+  alternates: { canonical: "/politique-confidentialite" },
+  openGraph: {
+    title: "Politique de confidentialité | QuizUp",
+    description:
+      "Politique de confidentialité du site QuizUp : données de navigation, cookies, publicité et exercice de vos droits.",
+    url: "/politique-confidentialite",
+    siteName: "QuizUp",
+    locale: "fr_FR",
+    type: "website",
+  },
 };
 
 export default function PolitiqueConfidentialitePage() {

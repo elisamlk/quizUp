@@ -3,7 +3,17 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Politique de cookies",
   description:
-    "Informations sur l'utilisation des cookies sur le site [Nom du site].",
+    "Informations sur l'utilisation des cookies sur le site QuizUp : cookies nécessaires, mesure d'audience et publicité.",
+  alternates: { canonical: "/cookies" },
+  openGraph: {
+    title: "Politique de cookies | QuizUp",
+    description:
+      "Informations sur l'utilisation des cookies sur le site QuizUp : cookies nécessaires, mesure d'audience et publicité.",
+    url: "/cookies",
+    siteName: "QuizUp",
+    locale: "fr_FR",
+    type: "website",
+  },
 };
 
 export default function PolitiqueCookiesPage() {

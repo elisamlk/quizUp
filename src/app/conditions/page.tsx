@@ -4,7 +4,17 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Conditions générales d'utilisation",
   description:
-    "Conditions générales d'utilisation du site [Nom du site]. Règles d'accès et d'utilisation du service.",
+    "Conditions générales d'utilisation du site QuizUp : règles d'accès et d'utilisation des quiz, jeux et tests de personnalité.",
+  alternates: { canonical: "/conditions" },
+  openGraph: {
+    title: "Conditions générales d'utilisation | QuizUp",
+    description:
+      "Conditions générales d'utilisation du site QuizUp : règles d'accès et d'utilisation du service.",
+    url: "/conditions",
+    siteName: "QuizUp",
+    locale: "fr_FR",
+    type: "website",
+  },
 };
 
 export default function CGUPage() {

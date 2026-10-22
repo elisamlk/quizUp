@@ -4,7 +4,17 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "À propos",
   description:
-    "Découvrez Quiz Up, un site de quiz en ligne simple, accessible et pensé pour une expérience fluide.",
+    "Découvrez QuizUp, un site de quiz en ligne gratuit, simple et accessible : notre concept, notre méthode et nos engagements.",
+  alternates: { canonical: "/a-propos" },
+  openGraph: {
+    title: "À propos | QuizUp",
+    description:
+      "Découvrez QuizUp, un site de quiz en ligne gratuit, simple et accessible.",
+    url: "/a-propos",
+    siteName: "QuizUp",
+    locale: "fr_FR",
+    type: "website",
+  },
 };
 
 export default function AProposPage() {

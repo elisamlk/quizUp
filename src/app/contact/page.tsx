@@ -3,7 +3,18 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Contact",
-  description: "Contactez l'équipe de QuizUp pour toute question ou remarque.",
+  description:
+    "Contactez l'équipe de QuizUp pour poser une question, faire une suggestion ou signaler une erreur dans un quiz.",
+  alternates: { canonical: "/contact" },
+  openGraph: {
+    title: "Contact | QuizUp",
+    description:
+      "Contactez l'équipe de QuizUp pour poser une question, faire une suggestion ou signaler une erreur dans un quiz.",
+    url: "/contact",
+    siteName: "QuizUp",
+    locale: "fr_FR",
+    type: "website",
+  },
 };
 
 export default function ContactPage() {
