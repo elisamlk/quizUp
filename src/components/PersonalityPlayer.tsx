@@ -69,6 +69,77 @@ async function canvasToBlob(canvas: HTMLCanvasElement): Promise<Blob> {
   });
 }
 
+const SHARE_FONT = "system-ui, -apple-system, Segoe UI, Roboto, Arial";
+
+function wrapLines(
+  ctx: CanvasRenderingContext2D,
+  text: string,
+  maxWidth: number,
+  maxLines: number,
+): { lines: string[]; truncated: boolean } {
+  const words = text.split(/\s+/).filter(Boolean);
+  const lines: string[] = [];
+  let line = "";
+  let i = 0;
+
+  for (; i < words.length; i++) {
+    const candidate = line ? `${line} ${words[i]}` : words[i];
+
+    if (!line || ctx.measureText(candidate).width <= maxWidth) {
+      line = candidate;
+      continue;
+    }
+
+    lines.push(line);
+
+    if (lines.length === maxLines) {
+      line = "";
+      break;
+    }
+
+    line = words[i];
+  }
+
+  if (line) lines.push(line);
+
+  const truncatedWords = i < words.length;
+  const result = lines.map((l) => clampText(ctx, l, maxWidth));
+  const clampedAny = result.some((l, index) => l !== lines[index]);
+
+  if (truncatedWords && result.length > 0) {
+    let last = result[result.length - 1];
+
+    while (last.length && ctx.measureText(`${last}…`).width > maxWidth) {
+      last = last.slice(0, -1);
+    }
+
+    result[result.length - 1] = `${last.trimEnd()}…`;
+  }
+
+  return { lines: result, truncated: truncatedWords || clampedAny };
+}
+
+function fitLines(
+  ctx: CanvasRenderingContext2D,
+  text: string,
+  maxWidth: number,
+  maxLines: number,
+  sizes: number[],
+  weight: number,
+): { lines: string[]; truncated: boolean; size: number } {
+  let best = { lines: [] as string[], truncated: false, size: sizes[0] };
+
+  for (const size of sizes) {
+    ctx.font = `${weight} ${size}px ${SHARE_FONT}`;
+    const r = wrapLines(ctx, text, maxWidth, maxLines);
+    best = { ...r, size };
+
+    if (!r.truncated) break;
+  }
+
+  return best;
+}
+
 async function generateShareImage({
   title,
   category,
@@ -94,6 +165,8 @@ async function generateShareImage({
   const ctx = canvas.getContext("2d");
   if (!ctx) throw new Error("No canvas context");
 
+  /* ---------- Fond ---------- */
+
   const grad = ctx.createLinearGradient(0, 0, W, H);
   grad.addColorStop(0, "#0b1220");
   grad.addColorStop(0.5, "#0f172a");
@@ -113,23 +186,83 @@ async function generateShareImage({
       const dy = (H - dh) / 2;
 
       ctx.save();
-      ctx.globalAlpha = 0.25;
+      ctx.globalAlpha = 0.85;
       ctx.drawImage(cover, dx, dy, dw, dh);
       ctx.restore();
 
       const ov = ctx.createLinearGradient(0, 0, 0, H);
-      ov.addColorStop(0, "rgba(0,0,0,0.55)");
-      ov.addColorStop(1, "rgba(0,0,0,0.82)");
+      ov.addColorStop(0, "rgba(0,0,0,0.30)");
+      ov.addColorStop(0.5, "rgba(0,0,0,0.45)");
+      ov.addColorStop(1, "rgba(0,0,0,0.70)");
 
       ctx.fillStyle = ov;
       ctx.fillRect(0, 0, W, H);
     }
   }
 
+  /* ---------- Mesures ---------- */
+
   const cardX = 90;
-  const cardY = 260;
   const cardW = W - cardX * 2;
-  const cardH = 980;
+  const pad = 60;
+  const innerW = cardW - pad * 2;
+  const centerX = W / 2;
+
+  const pillPaddingX = 26;
+  const pillH = 64;
+
+  ctx.font = `600 34px ${SHARE_FONT}`;
+  const pillText = clampText(ctx, category, innerW - pillPaddingX * 2);
+  const pillW = ctx.measureText(pillText).width + pillPaddingX * 2;
+
+  const titleFit = fitLines(ctx, title, innerW, 6, [60, 54, 48, 42], 900);
+  const titleLH = Math.round(titleFit.size * 1.2);
+
+  const resultFit = fitLines(
+    ctx,
+    resultTitle,
+    innerW,
+    4,
+    [100, 88, 76, 66, 58],
+    900,
+  );
+  const resultLH = Math.round(resultFit.size * 1.15);
+
+  const descFit = fitLines(
+    ctx,
+    resultDescription,
+    innerW,
+    12,
+    [38, 34, 31],
+    600,
+  );
+  const descLH = Math.round(descFit.size * 1.4);
+
+  const labelSize = 44;
+  const labelLH = 56;
+
+  const gapAfterPill = 36;
+  const gapAfterTitle = 70;
+  const gapAfterLabel = 12;
+  const gapAfterResult = 34;
+
+  const cardH =
+    pad +
+    pillH +
+    gapAfterPill +
+    titleFit.lines.length * titleLH +
+    gapAfterTitle +
+    labelLH +
+    gapAfterLabel +
+    resultFit.lines.length * resultLH +
+    gapAfterResult +
+    descFit.lines.length * descLH +
+    pad;
+
+  const footerTop = H - 220;
+  const cardY = Math.max(140, Math.round((footerTop - cardH) / 2));
+
+  /* ---------- Carte ---------- */
 
   ctx.save();
   roundedRect(ctx, cardX, cardY, cardW, cardH, 44);
@@ -144,158 +277,80 @@ async function generateShareImage({
   ctx.stroke();
   ctx.restore();
 
-  const pillText = category;
+  let y = cardY + pad;
 
-  ctx.font = "600 34px system-ui, -apple-system, Segoe UI, Roboto, Arial";
+  /* ---------- Catégorie ---------- */
 
-  const pillPaddingX = 26;
-
-  const pillW = Math.min(
-    cardW - 120,
-    ctx.measureText(pillText).width + pillPaddingX * 2,
-  );
-
-  const pillH = 64;
-  const pillX = cardX + 60;
-  const pillY = cardY + 60;
+  const pillX = cardX + pad;
 
   ctx.save();
-  roundedRect(ctx, pillX, pillY, pillW, pillH, 999);
+  roundedRect(ctx, pillX, y, pillW, pillH, 999);
   ctx.fillStyle = "rgba(255,255,255,0.12)";
   ctx.fill();
   ctx.restore();
 
+  ctx.font = `600 34px ${SHARE_FONT}`;
   ctx.fillStyle = "rgba(255,255,255,0.92)";
+  ctx.textAlign = "left";
   ctx.textBaseline = "middle";
+  ctx.fillText(pillText, pillX + pillPaddingX, y + pillH / 2);
 
-  ctx.fillText(
-    clampText(ctx, pillText, pillW - pillPaddingX * 2),
-    pillX + pillPaddingX,
-    pillY + pillH / 2,
-  );
+  y += pillH + gapAfterPill;
 
-  ctx.fillStyle = "#ffffff";
+  /* ---------- Titre du test ---------- */
+
   ctx.textBaseline = "top";
-  ctx.font = "900 62px system-ui, -apple-system, Segoe UI, Roboto, Arial";
-
-  const titleMaxW = cardW - 120;
-  const titleX = cardX + 60;
-
-  let titleY = pillY + pillH + 40;
-
-  const words = title.split(" ");
-  let line = "";
-  const lines: string[] = [];
-
-  for (const w of words) {
-    const test = line ? `${line} ${w}` : w;
-
-    if (ctx.measureText(test).width <= titleMaxW) {
-      line = test;
-    } else {
-      lines.push(line);
-      line = w;
-
-      if (lines.length === 2) break;
-    }
-  }
-
-  if (lines.length < 2 && line) {
-    lines.push(line);
-  }
-
-  if (lines.length === 2) {
-    lines[1] = clampText(ctx, lines[1], titleMaxW);
-  }
-
-  for (const l of lines) {
-    ctx.fillText(l, titleX, titleY);
-    titleY += 76;
-  }
-
-  ctx.textBaseline = "alphabetic";
-  ctx.font = "800 54px system-ui, -apple-system, Segoe UI, Roboto, Arial";
-  ctx.fillStyle = "rgba(255,255,255,0.84)";
-
-  const label = "Mon profil :";
-  const labelW = ctx.measureText(label).width;
-
-  ctx.fillText(
-    label,
-    cardX + (cardW - labelW) / 2,
-    cardY + 470,
-  );
-
-  ctx.font = "900 108px system-ui, -apple-system, Segoe UI, Roboto, Arial";
+  ctx.font = `900 ${titleFit.size}px ${SHARE_FONT}`;
   ctx.fillStyle = "#ffffff";
 
-  const resultText = clampText(ctx, resultTitle, cardW - 120);
-  const resultW = ctx.measureText(resultText).width;
+  for (const l of titleFit.lines) {
+    ctx.fillText(l, cardX + pad, y);
+    y += titleLH;
+  }
 
-  ctx.fillText(
-    resultText,
-    cardX + (cardW - resultW) / 2,
-    cardY + 620,
-  );
+  y += gapAfterTitle;
 
-  ctx.font = "600 38px system-ui, -apple-system, Segoe UI, Roboto, Arial";
+  /* ---------- Profil ---------- */
+
+  ctx.textAlign = "center";
+  ctx.font = `800 ${labelSize}px ${SHARE_FONT}`;
+  ctx.fillStyle = "rgba(255,255,255,0.84)";
+  ctx.fillText("Mon profil :", centerX, y);
+
+  y += labelLH + gapAfterLabel;
+
+  ctx.font = `900 ${resultFit.size}px ${SHARE_FONT}`;
+  ctx.fillStyle = "#ffffff";
+
+  for (const l of resultFit.lines) {
+    ctx.fillText(l, centerX, y);
+    y += resultLH;
+  }
+
+  y += gapAfterResult;
+
+  /* ---------- Description ---------- */
+
+  ctx.font = `600 ${descFit.size}px ${SHARE_FONT}`;
   ctx.fillStyle = "rgba(255,255,255,0.88)";
 
-  const descMaxW = cardW - 120;
-  const descWords = resultDescription.split(" ");
-  const descLines: string[] = [];
-
-  let descLine = "";
-
-  for (const w of descWords) {
-    const test = descLine ? `${descLine} ${w}` : w;
-
-    if (ctx.measureText(test).width <= descMaxW) {
-      descLine = test;
-    } else {
-      if (descLine) {
-        descLines.push(descLine);
-      }
-
-      descLine = w;
-
-      if (descLines.length === 3) break;
-    }
+  for (const l of descFit.lines) {
+    ctx.fillText(l, centerX, y);
+    y += descLH;
   }
 
-  if (descLines.length < 4 && descLine) {
-    descLines.push(descLine);
-  }
+  /* ---------- Pied de page ---------- */
 
-  let descY = cardY + 720;
-
-  for (const l of descLines.slice(0, 4)) {
-    const t = clampText(ctx, l, descMaxW);
-    const w = ctx.measureText(t).width;
-
-    ctx.fillText(
-      t,
-      cardX + (cardW - w) / 2,
-      descY,
-    );
-
-    descY += 52;
-  }
-
-  ctx.font = "800 34px system-ui, -apple-system, Segoe UI, Roboto, Arial";
-  ctx.fillStyle = "rgba(255,255,255,0.80)";
+  ctx.textAlign = "left";
   ctx.textBaseline = "alphabetic";
 
+  ctx.font = `800 34px ${SHARE_FONT}`;
+  ctx.fillStyle = "rgba(255,255,255,0.80)";
   ctx.fillText(brand, 90, H - 120);
 
-  ctx.font = "600 30px system-ui, -apple-system, Segoe UI, Roboto, Arial";
+  ctx.font = `600 30px ${SHARE_FONT}`;
   ctx.fillStyle = "rgba(255,255,255,0.60)";
-
-  ctx.fillText(
-    "Fais le test et partage ton résultat →",
-    90,
-    H - 74,
-  );
+  ctx.fillText("Fais le test et partage ton résultat →", 90, H - 74);
 
   return await canvasToBlob(canvas);
 }

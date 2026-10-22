@@ -32,15 +32,7 @@ export const metadata: Metadata = {
 
   applicationName: "QuizUp",
 
-  alternates: {
-    canonical: "/",
-  },
-
   openGraph: {
-    title: "QuizUp | Quiz gratuits en ligne",
-    description:
-      "Teste tes connaissances avec des quiz gratuits en culture générale, histoire, géographie, sciences, sport, cinéma, musique, nature et plus encore.",
-    url: "https://www.quizup.fr",
     siteName: "QuizUp",
     locale: "fr_FR",
     type: "website",
@@ -48,9 +40,6 @@ export const metadata: Metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "QuizUp | Quiz gratuits en ligne",
-    description:
-      "Découvre des quiz gratuits, tests de personnalité et mini-jeux pour apprendre, progresser et t'amuser.",
   },
 
   robots: {

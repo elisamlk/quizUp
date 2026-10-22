@@ -15,6 +15,9 @@ const SITE_URL = "https://www.quizup.fr";
 
 const siteUrl = (path: string) => `${SITE_URL}${path}`;
 
+const absoluteUrl = (url: string) =>
+  url.startsWith("http") ? url : siteUrl(url);
+
 /* =========================
    Static generation
    ========================= */
@@ -65,12 +68,14 @@ export async function generateMetadata({
       title,
       description,
       url: siteUrl(`/personalite/${test.slug}`),
+      siteName: "QuizUp",
+      locale: "fr_FR",
       type: "website",
 
       images: test.images?.cover
         ? [
             {
-              url: siteUrl(test.images.cover),
+              url: absoluteUrl(test.images.cover),
               alt: test.images.alt ?? test.title,
             },
           ]
@@ -222,7 +227,7 @@ export default async function PersonalityPage({
     about: test.category.name,
 
     image: test.images?.cover
-      ? [siteUrl(test.images.cover)]
+      ? [absoluteUrl(test.images.cover)]
       : undefined,
   };
 
