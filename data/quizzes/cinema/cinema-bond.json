@@ -1,9 +1,9 @@
 {
   "slug": "quiz-cinema-james-bond",
-  "title": "Quiz James Bond – Connaissez-vous vraiment l'agent 007 ?",
-  "description": "Sean Connery, Roger Moore, Daniel Craig, l'Aston Martin DB5, SPECTRE, Goldfinger, Skyfall… La saga James Bond est l'une des franchises les plus durables de l'histoire du cinéma. 20 questions pour tester vos connaissances sur l'agent 007.",
+  "title": "Quiz James Bond – Connais-tu vraiment l’agent 007 ?",
+  "description": "Sean Connery, Roger Moore, Daniel Craig, l’Aston Martin DB5, SPECTRE, Goldfinger, Skyfall… 20 questions pour tester tes connaissances sur l’agent 007.",
   "publishedAt": "2026-10-18",
-  "descriptionSeo": "Sean Connery, Roger Moore, Daniel Craig, l'Aston Martin DB5, Blofeld, Jaws, Oddjob, le Walther PPK, Skyfall, Goldfinger, SPECTRE… La saga James Bond fascine depuis 1962. Ce quiz de 20 questions explore les six acteurs qui ont incarné 007, les films cultes, les génériques légendaires, les gadgets iconiques, les adversaires mémorables et les grandes étapes d'une franchise de 25 films. Des missions en Jamaïque aux Alpes, en passant par Tokyo et Las Vegas, l'univers de Bond n'aura plus de secrets pour vous.",
+  "descriptionSeo": "Aston Martin DB5, Walther PPK, Blofeld, Requin, « secoué, pas remué » : la saga James Bond fascine depuis 1962. Ce quiz de 20 questions te fait voyager à travers les six acteurs officiels de 007, les films cultes, les génériques légendaires, les gadgets et les méchants les plus célèbres de la franchise.",
   "category": {
     "name": "Cinéma",
     "slug": "cinema"
@@ -14,259 +14,160 @@
   "images": {
     "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1791979485/James-Bond-9508_jspbh7.webp",
     "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1791979485/James-Bond-9508_jspbh7.webp",
-    "alt": "Quiz James Bond 007 saga cinéma"
-  },"topics": ["films-cultes"],
-"seoContent": [
-  {
-    "title": "Quiz James Bond : 20 questions pour tester tes connaissances sur l'agent 007",
-    "content": "Tu connais la célèbre présentation « Bond, James Bond », mais saurais-tu reconnaître tous les acteurs qui ont incarné l'agent 007 ? Ce quiz James Bond de 20 questions t'invite à retrouver les films cultes, les personnages emblématiques et les scènes qui ont fait le succès de cette saga d'espionnage. Des premières aventures des années 1960 aux missions plus sombres de l'ère Daniel Craig, tu devras faire appel à ta mémoire pour distinguer les différents épisodes. Voitures de luxe, gadgets ingénieux, organisations secrètes, adversaires redoutables et répliques légendaires : l'univers de James Bond regorge de détails passionnants. Certaines questions porteront sur les acteurs et les personnages, tandis que d'autres exploreront les accessoires, les chansons et les moments marquants de la franchise. Que tu sois amateur occasionnel ou véritable passionné de 007, ce défi te permettra de mesurer tes connaissances. Réussiras-tu le sans-faute ?"
+    "alt": "Quiz sur la saga James Bond"
   },
-  {
-    "title": "De Sean Connery à Daniel Craig : connais-tu les secrets de la saga James Bond ?",
-    "content": "Depuis la sortie de James Bond 007 contre Dr No en 1962, l'espion britannique imaginé par Ian Fleming est devenu l'un des personnages les plus célèbres du cinéma. Au fil des décennies, la franchise a évolué avec ses interprètes, ses intrigues internationales et ses spectaculaires scènes d'action, tout en conservant son identité. Ce quiz sur les films James Bond explore les coulisses de la saga, les choix de casting, les génériques musicaux et les inventions qui ont marqué plusieurs générations de spectateurs. Tu retrouveras des références à Goldfinger, Casino Royale, Skyfall et Mourir peut attendre, mais aussi aux personnages secondaires qui donnent tout son charme à cet univers. Les explications détaillées après chaque question t'aideront à découvrir des anecdotes de tournage, à replacer les films dans leur époque et à mieux comprendre l'évolution de l'agent 007. Une occasion idéale de revisiter cette franchise mythique."
-  }
-]
-,
+  "topics": ["films-cultes"],
+  "seoContent": [
+    {
+      "title": "James Bond : d’un roman de 1953 à la plus longue saga du cinéma",
+      "content": "Ian Fleming, ancien officier du renseignement naval britannique, publie Casino Royale en 1953. Neuf ans plus tard, les producteurs Albert « Cubby » Broccoli et Harry Saltzman adaptent Dr No au cinéma avec un acteur écossais presque inconnu, Sean Connery. Le succès est immédiat, et la recette se met en place en quelques films : la séquence d’ouverture spectaculaire, le générique chanté, les gadgets de Q, les méchants mégalomanes et la célèbre présentation « Bond, James Bond »."
+    },
+    {
+      "title": "Six acteurs, vingt-cinq films officiels",
+      "content": "De Dr No en 1962 à Mourir peut attendre en 2021, six acteurs ont incarné 007 dans les films officiels : Sean Connery, George Lazenby, Roger Moore, Timothy Dalton, Pierce Brosnan et Daniel Craig. Chaque époque a son style, de l’humour de Roger Moore au Bond plus sombre et vulnérable de Daniel Craig, dont l’ère s’achève par la mort du personnage, une première dans la saga. En 2025, Amazon MGM Studios a pris le contrôle créatif de la franchise, ouvrant un nouveau chapitre pour l’agent secret le plus célèbre du cinéma."
+    }
+  ],
+
   "questions": [
     {
       "id": "1",
-      "question": "Quel auteur britannique créa le personnage de James Bond dans un roman publié en 1953 ?",
-      "answers": [
-        "John le Carré",
-        "Ian Fleming",
-        "Frederick Forsyth",
-        "Graham Greene"
-      ],
+      "question": "Quel écrivain britannique a créé James Bond dans un roman publié en 1953 ?",
+      "answers": ["John le Carré", "Ian Fleming", "Frederick Forsyth", "Graham Greene"],
       "correctIndex": 1,
-      "explanation": "Ian Fleming (1908-1964) créa James Bond dans Casino Royale, publié en 1953. Fleming s'inspira de son expérience au sein des services de renseignement britanniques durant la Seconde Guerre mondiale pour donner vie à son espion. Il écrivit au total douze romans et deux recueils de nouvelles mettant en scène Bond, dont Goldfinger (1959) et On Her Majesty's Secret Service (1963). Fleming mourut en août 1964, avant de voir la plupart des adaptations cinématographiques de son œuvre."
+      "explanation": "Ian Fleming a créé Bond dans Casino Royale, en s’inspirant de son expérience dans le renseignement naval pendant la Seconde Guerre mondiale. Il a écrit douze romans et deux recueils de nouvelles, et il est mort en 1964, après avoir vu seulement les deux premiers films."
     },
     {
       "id": "2",
-      "question": "Quel acteur incarna James Bond dans le premier film officiel de la saga, Dr. No, sorti en 1962 ?",
-      "answers": [
-        "David Niven",
-        "Roger Moore",
-        "Cary Grant",
-        "Sean Connery"
-      ],
+      "question": "Quel acteur joue James Bond dans le premier film officiel, James Bond 007 contre Dr No, en 1962 ?",
+      "answers": ["David Niven", "Roger Moore", "Cary Grant", "Sean Connery"],
       "correctIndex": 3,
-      "explanation": "Sean Connery joua James Bond dans Dr. No (1962), le premier film officiel produit par Eon Productions et réalisé par Terence Young. Connery interpréta Bond dans cinq films consécutifs (jusqu'à You Only Live Twice en 1967), puis dans Diamonds Are Forever (1971) après une absence d'un opus. Son charisme naturel et sa présence physique imposante contribuèrent à définir l'archétype du personnage pour les décennies suivantes. David Niven joua un Bond parodique dans le Casino Royale non officiel de 1967."
+      "explanation": "Sean Connery a joué Bond dans cinq films d’affilée, jusqu’à On ne vit que deux fois en 1967, puis dans Les diamants sont éternels en 1971. David Niven, lui, a joué un Bond parodique dans le Casino Royale non officiel de 1967."
     },
     {
       "id": "3",
-      "question": "Quel célèbre adversaire de James Bond, reconnaissable à ses dents en acier, apparaît dans The Spy Who Loved Me (1977) et Moonraker (1979) ?",
-      "answers": [
-        "Jaws",
-        "Oddjob",
-        "Scaramanga",
-        "Blofeld"
-      ],
+      "question": "Quel homme de main, reconnaissable à ses dents en acier, affronte Bond dans L’espion qui m’aimait et Moonraker ?",
+      "answers": ["Requin", "Oddjob", "Scaramanga", "Blofeld"],
       "correctIndex": 0,
-      "explanation": "Jaws (Richard Kiel) est l'un des antagonistes les plus mémorables de la saga James Bond. Ce colosse aux dents en acier est l'homme de main de l'ennemi dans The Spy Who Loved Me (1977) et Moonraker (1979). Sa force surhumaine et son apparence imposante en font un adversaire quasi invincible. Dans Moonraker, le personnage connaît un retournement surprenant en se rangeant du côté de Bond. Oddjob est le garde du corps chapeau-tueur de Goldfinger ; Scaramanga l'homme au pistolet en or ; Blofeld le chef de SPECTRE."
+      "explanation": "Requin, joué par le géant Richard Kiel, était si populaire qu’il est revenu dans Moonraker, où il finit par changer de camp. Oddjob est le garde du corps au chapeau tranchant de Goldfinger, Scaramanga l’homme au pistolet d’or et Blofeld le chef du SPECTRE."
     },
     {
       "id": "4",
-      "question": "Quelle voiture britannique est devenue l'emblème automobile de la saga depuis Goldfinger (1964) ?",
-      "answers": [
-        "Jaguar E-Type",
-        "Bentley S1",
-        "Aston Martin DB5",
-        "Lotus Esprit"
-      ],
+      "question": "Quelle voiture est devenue l’emblème de la saga depuis Goldfinger, en 1964 ?",
+      "answers": ["Jaguar Type E", "Bentley", "Aston Martin DB5", "Lotus Esprit"],
       "correctIndex": 2,
-      "explanation": "L'Aston Martin DB5 fait sa première apparition dans Goldfinger (1964) et est depuis la voiture la plus associée à James Bond. Avec ses gadgets intégrés (siège éjecteur, mitrailleuses dissimulées, plaque d'immatriculation tournante), elle est devenue l'une des automobiles les plus célèbres de l'histoire du cinéma. Elle réapparaît dans de nombreux films de la saga : dans Casino Royale (2006) sans les gadgets emblématiques, puis dans Skyfall (2012) et No Time to Die (2021) avec une partie de son équipement légendaire. La Lotus Esprit fut utilisée dans The Spy Who Loved Me (1977), et le Bentley est la voiture de Bond dans les romans de Fleming."
+      "explanation": "L’Aston Martin DB5 de Goldfinger était équipée d’un siège éjectable, de mitrailleuses et de plaques d’immatriculation tournantes. Elle revient notamment dans Skyfall et Mourir peut attendre. La Lotus Esprit, elle, se transforme en sous-marin dans L’espion qui m’aimait, et la Bentley est la voiture de Bond dans les romans."
     },
     {
       "id": "5",
-      "question": "Quelle formule célèbre James Bond utilise-t-il pour commander son vodka martini ?",
-      "answers": [
-        "« Remué, pas secoué »",
-        "« Secoué, pas remué »",
-        "« Sur glace, sans citron »",
-        "« Double, avec une olive »"
-      ],
+      "question": "Comment James Bond commande-t-il son vodka martini ?",
+      "answers": ["« Remué, pas secoué »", "« Secoué, pas remué »", "« Sur glace, sans citron »", "« Double, avec une olive »"],
       "correctIndex": 1,
-      "explanation": "« Secoué, pas remué » (Shaken, not stirred) est l'une des répliques les plus célèbres de la saga. Cette boisson est une marque de fabrique de Bond, même s'il ne la commande pas dans tous les films. La formule est mentionnée dès le roman Les diamants sont éternels (1956) de Fleming, contrairement à la tradition mixologique qui préconise de remuer les martinis. La réplique est devenue un marqueur culturel fort du personnage, reprise dans d'innombrables parodies et hommages."
+      "explanation": "La formule apparaît déjà dans les romans de Ian Fleming, dans les années 1950. Elle va à l’encontre de l’habitude des barmen, qui préfèrent en général remuer les martinis plutôt que les secouer."
     },
     {
       "id": "6",
-      "question": "Quel acteur détient le record du plus grand nombre d'apparitions officielles dans le rôle de James Bond, avec sept films à son actif ?",
-      "answers": [
-        "Sean Connery",
-        "Pierce Brosnan",
-        "Daniel Craig",
-        "Roger Moore"
-      ],
+      "question": "Quel acteur a joué James Bond dans le plus grand nombre de films officiels, avec sept films ?",
+      "answers": ["Sean Connery", "Pierce Brosnan", "Daniel Craig", "Roger Moore"],
       "correctIndex": 3,
-      "explanation": "Roger Moore interpréta James Bond dans sept films officiels d'Eon Productions, de Live and Let Die (1973) à A View to a Kill (1985) — davantage que tout autre acteur. Son interprétation plus légère et humoristique du personnage tranchait avec le style plus sombre de Sean Connery. Connery apparut dans six films officiels, Pierce Brosnan dans quatre et Daniel Craig dans cinq. Roger Moore, décédé en 2017, avait 57 ans lors de son dernier film dans le rôle, ce qui en fait également le Bond le plus âgé à ce stade."
+      "explanation": "Roger Moore a joué Bond de Vivre et laisser mourir (1973) à Dangereusement vôtre (1985), dans un style plus léger et humoristique. Il avait alors 57 ans. Sean Connery compte six films officiels, Daniel Craig cinq et Pierce Brosnan quatre."
     },
     {
       "id": "7",
-      "question": "Quel film inaugura l'ère Daniel Craig en 2006, en proposant un reboot de la saga centré sur les origines de Bond ?",
-      "answers": [
-        "Casino Royale",
-        "Quantum of Solace",
-        "Skyfall",
-        "GoldenEye"
-      ],
+      "question": "Quel film lance l’ère Daniel Craig en 2006, en racontant les débuts de Bond comme agent 007 ?",
+      "answers": ["Casino Royale", "Quantum of Solace", "Skyfall", "GoldenEye"],
       "correctIndex": 0,
-      "explanation": "Casino Royale (2006), réalisé par Martin Campbell, marqua l'entrée de Daniel Craig dans le rôle de James Bond. Le film adapta le tout premier roman de Ian Fleming et présenta un Bond plus jeune, plus brut et plus vulnérable que ses prédécesseurs, sans les gadgets habituels et avec une forte dimension émotionnelle. Ce reboot rafraîchit la franchise et fut acclamé par la critique. Eva Green y joue Vesper Lynd, l'une des Bond girls les plus mémorables de la saga. Casino Royale est souvent cité parmi les meilleurs films Bond."
+      "explanation": "Casino Royale adapte enfin le tout premier roman de Fleming, avec un Bond plus brutal et plus vulnérable, face à Eva Green. Il est réalisé par Martin Campbell, qui avait déjà signé GoldenEye, le premier film de Pierce Brosnan."
     },
     {
       "id": "8",
-      "question": "Quelle actrice suisse incarne Honey Ryder et apparaît dans la célèbre scène du bikini blanc dans Dr. No (1962) ?",
-      "answers": [
-        "Claudine Auger",
-        "Honor Blackman",
-        "Ursula Andress",
-        "Britt Ekland"
-      ],
+      "question": "Quelle actrice suisse sort de la mer en bikini blanc dans James Bond 007 contre Dr No ?",
+      "answers": ["Claudine Auger", "Honor Blackman", "Ursula Andress", "Britt Ekland"],
       "correctIndex": 2,
-      "explanation": "Ursula Andress, actrice suisse née à Berne, joue Honey Ryder dans Dr. No (1962). Sa scène d'apparition en bikini blanc sortant des eaux des Caraïbes est l'une des images les plus iconiques du cinéma des années 1960. Elle établit le modèle de la Bond girl : séduisante, indépendante et capable de tenir tête à Bond. La scène a été pastichée de nombreuses fois, notamment dans Die Another Day (2002) avec Halle Berry. Honor Blackman joua Pussy Galore dans Goldfinger (1964). Claudine Auger incarna Domino dans Thunderball (1965)."
+      "explanation": "Ursula Andress joue Honey Ryder dans cette scène devenue mythique, reprise en clin d’œil par Halle Berry dans Meurs un autre jour. La Française Claudine Auger joue Domino dans Opération Tonnerre, Honor Blackman Pussy Galore dans Goldfinger, et Britt Ekland Mary Goodnight dans L’Homme au pistolet d’or."
     },
     {
       "id": "9",
-      "question": "Comment s'appelle l'organisation criminelle internationale, adversaire récurrent de James Bond, dont le nom est l'acronyme de ses missions ?",
-      "answers": [
-        "HYDRA",
-        "COBRA",
-        "Le Milieu",
-        "SPECTRE"
-      ],
+      "question": "Comment s’appelle l’organisation criminelle dirigée par Blofeld ?",
+      "answers": ["HYDRA", "KAOS", "Cobra", "SPECTRE"],
       "correctIndex": 3,
-      "explanation": "SPECTRE (Special Executive for Counter-intelligence, Terrorism, Revenge and Extortion) est l'organisation criminelle fondée par Ernst Stavro Blofeld qui s'oppose à Bond et aux services secrets alliés dans de nombreux films. SPECTRE apparaît dès Dr. No (1962), puis dans From Russia with Love (1963) et tout au long de la série Connery. L'organisation réapparaît explicitement dans l'ère Daniel Craig dans Spectre (2015). Blofeld, incarné par plusieurs acteurs différents au fil des films (Donald Pleasence, Charles Gray, Christoph Waltz), est le chef suprême de l'organisation."
+      "explanation": "Le SPECTRE est présent dès le premier film, puisque le docteur No en fait partie. Blofeld a été joué par plusieurs acteurs, dont Donald Pleasence, Telly Savalas, Charles Gray et Christoph Waltz dans Spectre (2015). HYDRA vient de l’univers Marvel et KAOS de la série Max la Menace."
     },
     {
       "id": "10",
-      "question": "Comment s'appelle le spécialiste en équipement du MI6 qui fournit à James Bond ses gadgets et armes expérimentaux ?",
-      "answers": [
-        "M",
-        "Q",
-        "R",
-        "Tanner"
-      ],
+      "question": "Comment s’appelle le responsable des gadgets du MI6 ?",
+      "answers": ["M", "Q", "R", "Tanner"],
       "correctIndex": 1,
-      "explanation": "Q (pour Quartermaster) est le responsable de la section des gadgets et équipements du MI6. Il est incarné par plusieurs acteurs au fil des films : Desmond Llewelyn dans dix-sept films de 1963 à 1999, puis John Cleese brièvement, avant Ben Whishaw dans l'ère Craig à partir de Skyfall (2012). Les scènes entre Q et Bond sont souvent comiques, Q déplorant invariablement l'état de son matériel après les missions. Son personnage personnifie le génie inventif britannique mis au service de l'espionnage."
+      "explanation": "Q vient de « Quartermaster », l’intendant. Desmond Llewelyn l’a joué dans dix-sept films, de 1963 à 1999. John Cleese apparaît d’abord comme son assistant, surnommé R, avant de lui succéder. Ben Whishaw reprend le rôle à partir de Skyfall."
     },
     {
       "id": "11",
-      "question": "Dans quel film, le dernier de l'ère Daniel Craig, James Bond meurt-il pour la première fois dans un film officiel ?",
-      "answers": [
-        "Spectre",
-        "The World Is Not Enough",
-        "Mourir peut attendre (No Time to Die)",
-        "Quantum of Solace"
-      ],
+      "question": "Dans quel film James Bond meurt-il, pour la première fois dans un film officiel ?",
+      "answers": ["Spectre", "Le monde ne suffit pas", "Mourir peut attendre", "Quantum of Solace"],
       "correctIndex": 2,
-      "explanation": "Mourir peut attendre (No Time to Die, 2021), réalisé par Cary Joji Fukunaga, est le premier film officiel dans lequel James Bond meurt. À la fin du film, Bond se sacrifie lors d'une frappe de missiles sur l'île abritant la base de Safin, laissant Madeleine et sa fille Mathilde s'échapper. Cette fin marque une rupture totale avec la tradition de la franchise et clôt l'arc narratif de Daniel Craig de façon définitive et émotionnelle. Le film fut très attendu, repoussé plusieurs fois notamment à cause de la pandémie de Covid-19."
+      "explanation": "À la fin de Mourir peut attendre (2021), dernier film de Daniel Craig, Bond se sacrifie pour sauver Madeleine et leur fille. Le film, réalisé par Cary Joji Fukunaga, a été repoussé plusieurs fois, notamment à cause de la pandémie de Covid-19."
     },
     {
       "id": "12",
-      "question": "Quel film de la saga Bond, réalisé par Sam Mendes et sorti en 2012, est le plus grand succès commercial de la franchise ?",
-      "answers": [
-        "Skyfall",
-        "GoldenEye",
-        "Casino Royale",
-        "Spectre"
-      ],
+      "question": "Quel film James Bond, réalisé par Sam Mendes, est le plus grand succès commercial de la saga ?",
+      "answers": ["Skyfall", "GoldenEye", "Casino Royale", "Spectre"],
       "correctIndex": 0,
-      "explanation": "Skyfall (2012), réalisé par Sam Mendes, dépassa le milliard de dollars de recettes mondiales, devenant le premier film Bond à atteindre ce seuil et le plus grand succès commercial de la franchise. Le film, qui explore le passé de Bond et de M (Judi Dench), reçut également un accueil critique exceptionnel. Il remporta deux Oscars : la meilleure chanson originale (Adele) et le meilleur montage sonore. Javier Bardem y incarne l'antagoniste Silva, considéré comme l'un des méchants les plus marquants de la saga."
+      "explanation": "Sorti en 2012, Skyfall est le premier film James Bond à avoir dépassé le milliard de dollars de recettes dans le monde. Il a remporté deux Oscars, dont celui de la meilleure chanson pour Adele. Javier Bardem y joue le méchant Silva."
     },
     {
       "id": "13",
-      "question": "Quelle chanteuse galloise interpréta la chanson du générique de Goldfinger (1964), devenue l'un des thèmes les plus célèbres de la saga ?",
-      "answers": [
-        "Lulu",
-        "Diana Ross",
-        "Tina Turner",
-        "Shirley Bassey"
-      ],
+      "question": "Quelle chanteuse galloise interprète la chanson du générique de Goldfinger ?",
+      "answers": ["Lulu", "Diana Ross", "Tina Turner", "Shirley Bassey"],
       "correctIndex": 3,
-      "explanation": "Shirley Bassey, née à Tiger Bay (Cardiff, pays de Galles), interpréta la chanson Goldfinger en 1964, l'une des plus emblématiques de toute la saga Bond. Sa voix puissante et dramatique s'imposa immédiatement comme une référence. Elle retourna chanter deux autres thèmes Bond : Diamonds Are Forever (1971) et Moonraker (1979). Parmi les autres interprètes célèbres des génériques : Lulu pour The Man with the Golden Gun (1974), Paul McCartney & Wings pour Live and Let Die (1973) et Tina Turner pour GoldenEye (1995)."
+      "explanation": "Shirley Bassey, née à Cardiff, a chanté trois génériques de James Bond : Goldfinger, Les diamants sont éternels et Moonraker, un record. Lulu a chanté L’Homme au pistolet d’or, et Tina Turner GoldenEye."
     },
     {
       "id": "14",
-      "question": "Quelle chanteuse interpréta la chanson du générique de Skyfall (2012) et remporta l'Oscar de la meilleure chanson originale ?",
-      "answers": [
-        "Beyoncé",
-        "Adele",
-        "Sam Smith",
-        "Billie Eilish"
-      ],
+      "question": "Quelle chanteuse interprète la chanson de Skyfall, récompensée par l’Oscar de la meilleure chanson ?",
+      "answers": ["Beyoncé", "Adele", "Sam Smith", "Billie Eilish"],
       "correctIndex": 1,
-      "explanation": "Adele interpréta Skyfall, la chanson du film éponyme (2012), qui remporta l'Oscar de la meilleure chanson originale lors de la 85e cérémonie. Ce fut la première chanson Bond à remporter cette récompense. Sam Smith remporta également l'Oscar pour Writing's on the Wall (Spectre, 2015), et Billie Eilish remporta l'Oscar de la meilleure chanson originale pour No Time to Die (2021). Beyoncé avait été sollicitée pour le générique de plusieurs films Bond sans jamais signer. La chanson d'Adele est régulièrement citée parmi les meilleures chansons Bond de l'histoire."
+      "explanation": "Skyfall est la première chanson de James Bond à avoir remporté l’Oscar. Sam Smith a obtenu le même prix pour Writing’s on the Wall (Spectre), puis Billie Eilish pour No Time to Die (Mourir peut attendre)."
     },
     {
       "id": "15",
-      "question": "Quel acteur australien joua James Bond dans un unique film, On Her Majesty's Secret Service (1969) ?",
-      "answers": [
-        "Bryan Brown",
-        "Mel Gibson",
-        "George Lazenby",
-        "Paul Hogan"
-      ],
+      "question": "Quel acteur australien n’a joué James Bond qu’une seule fois, dans Au service secret de Sa Majesté, en 1969 ?",
+      "answers": ["Bryan Brown", "Mel Gibson", "George Lazenby", "Paul Hogan"],
       "correctIndex": 2,
-      "explanation": "George Lazenby, acteur et ancien mannequin australien sans expérience cinématographique préalable, fut choisi pour remplacer Sean Connery dans On Her Majesty's Secret Service (1969). Son interprétation fut jugée convaincante par beaucoup, mais il décida lui-même de ne pas renouveler l'expérience après un seul film, se laissant convaincre que la saga Bond était dépassée — une décision qu'il regretta. Le film, qui raconte la romance de Bond et la mort de sa femme Teresa, est aujourd'hui reconnu comme l'un des opus les plus solides de la saga."
+      "explanation": "Ancien mannequin sans expérience au cinéma, George Lazenby a renoncé à continuer après un seul film, convaincu que Bond était passé de mode, ce qu’il a ensuite regretté. Le film, où Bond épouse Tracy, est aujourd’hui souvent cité parmi les meilleurs de la saga."
     },
     {
       "id": "16",
-      "question": "Quel pistolet est l'arme de poing iconique de James Bond dans la quasi-totalité de la saga ?",
-      "answers": [
-        "Walther PPK",
-        "Beretta 418",
-        "Glock 17",
-        "SIG Sauer P226"
-      ],
+      "question": "Quel pistolet est l’arme emblématique de James Bond ?",
+      "answers": ["Walther PPK", "Beretta 418", "Glock 17", "SIG Sauer P226"],
       "correctIndex": 0,
-      "explanation": "Le Walther PPK (Polizeipistole Kriminalmodell) est l'arme de James Bond depuis Dr. No (1962). Ian Fleming introduisit le Walther PPK dans le roman Dr. No (1958), après avoir reçu les conseils de Geoffrey Boothroyd, un spécialiste britannique des armes à feu. Ce changement fut repris pour les adaptations cinématographiques. Le Walther PPK, plus compact et discret, est depuis le symbole de Bond autant que son martini ou son DB5. Dans quelques films, Bond utilisa aussi le Walther P99 plus puissant."
+      "explanation": "Dans les premiers romans, Bond utilisait un Beretta. Un spécialiste des armes, Geoffrey Boothroyd, a écrit à Ian Fleming pour lui conseiller une arme plus adaptée, et Bond adopte le Walther PPK dans Dr No. Pour le remercier, Fleming a donné son nom au personnage de Q, le major Boothroyd."
     },
     {
       "id": "17",
-      "question": "Quelle actrice britannique incarna le personnage de M, cheffe du MI6, dans sept films Bond consécutifs de 1995 à 2012 ?",
-      "answers": [
-        "Helen Mirren",
-        "Judi Dench",
-        "Maggie Smith",
-        "Emma Thompson"
-      ],
+      "question": "Quelle actrice a joué M, la cheffe du MI6, de GoldenEye (1995) à Skyfall (2012) ?",
+      "answers": ["Helen Mirren", "Judi Dench", "Maggie Smith", "Emma Thompson"],
       "correctIndex": 1,
-      "explanation": "Judi Dench joua M de GoldenEye (1995) à Skyfall (2012), soit sept films sur deux ères Bond distinctes — avec Pierce Brosnan puis Daniel Craig. Ce fut la première fois dans la saga qu'une femme incarnait ce rôle. Son M est une figure d'autorité complexe, à la fois froide et protectrice envers Bond. Dans Skyfall, sa relation avec Bond est au cœur du film et son personnage meurt à la fin. M est ensuite incarné par Ralph Fiennes dès la fin de Skyfall (2012), avant de reprendre pleinement le rôle dans Spectre (2015). Dans les films antérieurs à GoldenEye, M était joué par Bernard Lee puis Robert Brown."
+      "explanation": "Judi Dench a été la première femme à jouer M, dans sept films, avec Pierce Brosnan puis Daniel Craig. Son personnage meurt dans Skyfall, et Ralph Fiennes lui succède. Avant elle, M était joué par Bernard Lee puis Robert Brown."
     },
     {
       "id": "18",
-      "question": "Quelle société de production, fondée par Albert « Cubby » Broccoli, est à l'origine de tous les films officiels James Bond depuis 1962 ?",
-      "answers": [
-        "United Artists",
-        "MGM Pictures",
-        "Columbia Pictures",
-        "Eon Productions"
-      ],
+      "question": "Quelle société de production est à l’origine de tous les films officiels James Bond depuis 1962 ?",
+      "answers": ["United Artists", "MGM", "Columbia Pictures", "Eon Productions"],
       "correctIndex": 3,
-      "explanation": "Eon Productions, fondée par Albert « Cubby » Broccoli et Harry Saltzman, est la société à l'origine de tous les films officiels James Bond depuis Dr. No (1962). Après le retrait de Saltzman en 1975, Broccoli dirigea seul la société jusqu'à sa mort en 1996. Sa fille Barbara Broccoli et son fils adoptif Michael G. Wilson ont géré la franchise pendant des décennies. Depuis l'accord annoncé en 2025, Amazon MGM Studios a obtenu le contrôle créatif de la franchise, Broccoli et Wilson restant des figures historiques essentielles. Eon Productions a coopéré avec différents distributeurs (United Artists, MGM, Universal) selon les époques."
+      "explanation": "Eon Productions a été fondée par Albert « Cubby » Broccoli et Harry Saltzman. Après Broccoli, la franchise a été dirigée par sa fille, Barbara Broccoli, et son beau-fils, Michael G. Wilson, avant qu’Amazon MGM Studios n’en prenne le contrôle créatif en 2025. United Artists et MGM, eux, ont distribué les films."
     },
     {
       "id": "19",
-      "question": "Dans quel film de 1964 James Bond tente-t-il d'empêcher un milliardaire de contaminer les réserves d'or de Fort Knox afin de faire grimper la valeur de son propre or ?",
-      "answers": [
-        "Goldfinger",
-        "Thunderball",
-        "Moonraker",
-        "Diamonds Are Forever"
-      ],
+      "question": "Dans quel film de 1964 un milliardaire veut-il contaminer l’or de Fort Knox pour faire grimper la valeur du sien ?",
+      "answers": ["Goldfinger", "Opération Tonnerre", "Moonraker", "Les diamants sont éternels"],
       "correctIndex": 0,
-      "explanation": "Goldfinger (1964), réalisé par Guy Hamilton, est souvent cité parmi les meilleurs films de la saga. Le milliardaire Auric Goldfinger (Gert Fröbe) souhaite contaminer les réserves d'or américaines à Fort Knox afin d'augmenter la valeur de son propre or. C'est dans ce film qu'apparaît l'Aston Martin DB5, qu'est prononcée la réplique culte « Non, Mr. Bond, je veux que vous mouriez ! », et que la Bond girl Jill Masterson est retrouvée morte, entièrement recouverte de peinture dorée."
+      "explanation": "Auric Goldfinger, joué par l’Allemand Gert Fröbe, prononce la réplique culte « Non, Monsieur Bond, je veux que vous mouriez ! ». C’est aussi dans ce film qu’une jeune femme est retrouvée morte, entièrement recouverte de peinture dorée."
     },
     {
       "id": "20",
-      "question": "Combien de films officiels Eon Productions a-t-elle produits jusqu'à Mourir peut attendre (No Time to Die, 2021) inclus ?",
-      "answers": [
-        "22",
-        "27",
-        "25",
-        "30"
-      ],
-      "correctIndex": 2,
-      "explanation": "Eon Productions a produit 25 films officiels James Bond de Dr. No (1962) à No Time to Die (2021). Ce décompte ne comprend pas les films non officiels comme le Casino Royale parodique de 1967 (Columbia Pictures) ni Never Say Never Again (1983), dans lequel Sean Connery reprend le rôle hors de la franchise Eon. La saga James Bond est l'une des franchises les plus durables de l'histoire du cinéma. Le 26e film officiel est en développement depuis la sortie de No Time to Die, avec un nouveau visage pour incarner l'agent 007."
+      "question": "Combien de films officiels James Bond ont été produits jusqu’à Mourir peut attendre (2021) inclus ?",
+      "answers": ["22", "25", "27", "30"],
+      "correctIndex": 1,
+      "explanation": "Ce décompte ne comprend pas la parodie Casino Royale de 1967, ni Jamais plus jamais (1983), où Sean Connery reprend le rôle en dehors de la série officielle. Un 26e film, réalisé par Denis Villeneuve, a été annoncé en 2025."
     }
   ]
 }
