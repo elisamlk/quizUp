@@ -1,8 +1,8 @@
 {
   "slug": "quiz-cinema-disney-connaissez-vous-les-classiques",
-  "title": "Quiz Cinéma - Disney - Connaissez-vous les classiques ?",
-  "description": "Testez vos connaissances sur les grands classiques Disney qui ont marqué des générations.",
-  "descriptionSeo": "Les films Disney ont bercé l’enfance de millions de spectateurs à travers le monde avec leurs histoires intemporelles, leurs personnages inoubliables et leurs chansons emblématiques. Ce quiz cinéma vous propose 20 questions pour tester votre connaissance des grands classiques Disney, des premiers films d’animation aux œuvres les plus populaires. Entre princesses, héros, méchants iconiques et scènes cultes, chaque question vous replonge dans la magie de ces films légendaires. Saurez-vous reconnaître ces classiques et prouver que vous êtes un véritable expert de l’univers Disney ?",
+  "title": "Quiz Cinéma - Disney - Connais-tu les classiques ?",
+  "description": "De Blanche-Neige à Vaiana, teste tes connaissances sur 20 grands classiques Disney qui ont marqué des générations.",
+  "descriptionSeo": "Jiminy Cricket, Panpan, Jaq et Gus, Mushu ou Olaf : les classiques Disney sont peuplés de personnages inoubliables. Ce quiz de 20 questions te fait voyager de Blanche-Neige et les sept nains, en 1937, jusqu’à Vaiana, à travers les héros, les compagnons, les méchants et les secrets de 20 films d’animation différents.",
   "category": {
     "name": "Cinéma",
     "slug": "cinema"
@@ -13,312 +13,200 @@
   "images": {
     "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1775576224/cover_wpswlj.jpg",
     "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1775576224/cover_wpswlj.jpg",
-    "alt": "Quiz cinéma Disney classiques animation"
-  },"topics": ["animation-disney"],"seoContent": {
-  "title": "Les grands classiques Disney : films d'animation, personnages et histoires cultes",
-  "paragraphs": [
-    "Depuis la sortie de Blanche-Neige et les sept nains en 1937, les studios Disney ont profondément marqué l'histoire du cinéma d'animation. Des premières productions comme Pinocchio, Dumbo, Bambi et Cendrillon aux grands succès des décennies suivantes, leurs films ont accompagné plusieurs générations de spectateurs. Ces œuvres se distinguent par leurs univers enchanteurs, leurs personnages mémorables et leurs histoires mêlant aventure, humour et émotion. Le Livre de la jungle, La Petite Sirène, La Belle et la Bête et Le Roi Lion ont notamment contribué à faire des classiques Disney une référence incontournable de la culture populaire.",
-    "L'univers Disney rassemble une extraordinaire diversité de héros et d'héroïnes. Simba doit apprendre à accepter son héritage dans Le Roi Lion, Ariel rêve de découvrir le monde des humains dans La Petite Sirène et Mulan défie les traditions pour protéger sa famille. Aladdin découvre les pouvoirs d'une lampe magique, tandis que Tarzan grandit parmi les gorilles et qu'Hercule cherche à prouver sa véritable valeur. Les princesses occupent également une place importante dans ces récits, de Cendrillon à Raiponce, en passant par Belle, Elsa et Vaiana. Derrière leurs aventures fantastiques, ces personnages explorent des thèmes universels comme le courage, l'amitié, la famille, la liberté et la quête d'identité.",
-    "Les films Disney sont aussi célèbres pour leurs chansons, leurs scènes émouvantes et leurs innovations artistiques. La Reine des Neiges a marqué les années 2010 avec la chanson Libérée, délivrée, tandis que La Belle et la Bête a contribué au rayonnement international de l'animation Disney dans les années 1990. Chaque époque a apporté de nouvelles techniques, de nouveaux univers et des personnages capables de séduire un public toujours plus large. Ce quiz de 20 questions te propose de revisiter les grands classiques Disney, de reconnaître leurs héros et de retrouver les détails de leurs histoires. Des premiers dessins animés aux aventures plus récentes, sauras-tu prouver que tu connais vraiment les films qui ont fait la magie de Disney ?"
-  ]
-},"faq": [
-  {
-    "question": "Quel est le premier long-métrage d'animation Disney ?",
-    "answer": "Le premier long-métrage d'animation des studios Disney est Blanche-Neige et les sept nains, sorti en 1937 aux États-Unis. Inspiré du conte des frères Grimm, ce film a constitué une étape majeure dans l'histoire du cinéma d'animation. Son succès commercial et artistique a permis à Walt Disney de poursuivre la production de longs-métrages comme Pinocchio, Fantasia, Dumbo et Bambi."
+    "alt": "Quiz cinéma sur les grands classiques Disney"
   },
-  {
-    "question": "Quels sont les grands classiques Disney les plus célèbres ?",
-    "answer": "Parmi les classiques Disney les plus connus figurent Blanche-Neige et les sept nains, Pinocchio, Dumbo, Bambi, Cendrillon, Le Livre de la jungle, La Petite Sirène, La Belle et la Bête, Aladdin et Le Roi Lion. Des films plus récents comme Mulan, Tarzan, Raiponce, La Reine des Neiges et Vaiana ont également marqué plusieurs générations grâce à leurs personnages, leurs chansons et leurs aventures."
-  },
-  {
-    "question": "Quels sont les personnages les plus emblématiques des films Disney ?",
-    "answer": "Disney a créé ou adapté de nombreux personnages devenus célèbres dans le monde entier. Simba, Bambi, Dumbo, Pinocchio, Baloo et Aladdin figurent parmi les héros les plus reconnaissables. Les princesses et héroïnes comme Blanche-Neige, Cendrillon, Ariel, Belle, Mulan, Raiponce, Elsa et Vaiana occupent également une place importante dans l'univers Disney. Chacun possède une histoire et des caractéristiques qui le rendent immédiatement identifiable."
-  },
-  {
-    "question": "Que contient ce quiz sur les classiques Disney ?",
-    "answer": "Ce quiz gratuit comprend 20 questions à choix multiples consacrées aux grands films d'animation Disney. Tu devras reconnaître des personnages célèbres, retrouver les films auxquels ils appartiennent, identifier des chansons emblématiques et te souvenir des aventures des héros et héroïnes. De Blanche-Neige au Roi Lion, en passant par Aladdin, Mulan, Raiponce et La Reine des Neiges, chaque réponse est accompagnée d'une explication pour enrichir tes connaissances sur l'univers Disney."
-  }
-],
+  "topics": ["animation-disney"],
+  "seoContent": [
+    {
+      "title": "Des premiers longs métrages à la mort de Walt Disney",
+      "content": "En 1937, Blanche-Neige et les sept nains devient le premier long métrage d’animation des studios Disney. Beaucoup prédisaient un échec : personne ne croyait qu’un dessin animé de plus d’une heure pourrait captiver le public. Le film triomphe, et permet au studio d’enchaîner Pinocchio, Dumbo et Bambi, puis, après la guerre, Cendrillon, Peter Pan, La Belle au bois dormant et Les 101 Dalmatiens. Le Livre de la jungle, sorti en 1967, est le dernier film d’animation sur lequel Walt Disney a travaillé, puisqu’il meurt quelques mois avant sa sortie."
+    },
+    {
+      "title": "La renaissance des années 1990 et l’ère moderne",
+      "content": "Après une période plus difficile, le studio retrouve le succès en 1989 avec La Petite Sirène. C’est le début d’une décennie dorée, souvent appelée la « renaissance Disney » : La Belle et la Bête devient en 1992 le premier film d’animation nommé à l’Oscar du meilleur film, puis viennent Aladdin, Le Roi Lion, Pocahontas, Hercule, Mulan et Tarzan. Au XXIe siècle, Raiponce, La Reine des Neiges et Vaiana prouvent que la magie fonctionne toujours, en passant au dessin en images de synthèse."
+    }
+  ],
+
   "questions": [
     {
       "id": "1",
-      "question": "Quel est le tout premier long-métrage d’animation Disney ?",
+      "question": "Dans Blanche-Neige et les sept nains, comment s’appelle le nain qui ne parle jamais ?",
       "image": null,
-      "imagePrompt": "Snow White 1937 classic animation",
-      "answers": [
-        "Pinocchio",
-        "Blanche-Neige et les sept nains",
-        "Fantasia",
-        "Dumbo"
-      ],
-      "correctIndex": 1,
-      "explanation": "Sorti en 1937, Blanche-Neige et les sept nains est considéré comme le premier long-métrage d’animation de Disney et l’un des plus importants de l’histoire du cinéma. Son succès a prouvé qu’un film d’animation pouvait toucher un large public et a permis au studio de se développer durablement."
+      "imagePrompt": "seven dwarfs cottage forest classic animation",
+      "answers": ["Timide", "Atchoum", "Simplet", "Dormeur"],
+      "correctIndex": 2,
+      "explanation": "Simplet, le plus jeune des nains, ne prononce pas un mot de tout le film. Sorti en 1937, Blanche-Neige est le premier long métrage d’animation de Disney. Il a reçu un Oscar d’honneur unique : une grande statuette accompagnée de sept petites."
     },
     {
       "id": "2",
-      "question": "Dans quel film trouve-t-on le personnage de Simba ?",
+      "question": "Dans Pinocchio, comment s’appelle le criquet qui sert de conscience au pantin ?",
       "image": null,
-      "imagePrompt": "lion cub savannah sunset",
-      "answers": [
-        "Tarzan",
-        "Bambi",
-        "Aladdin",
-        "Le Roi Lion"
-      ],
-      "correctIndex": 3,
-      "explanation": "Simba est le héros du Roi Lion, un classique majeur de Disney. Le personnage suit un parcours initiatique très fort, entre perte, exil et retour, ce qui fait du film bien plus qu’un simple dessin animé animalier."
+      "imagePrompt": "wooden puppet cricket top hat workshop",
+      "answers": ["Jiminy Cricket", "Gepetto", "Figaro", "Cléo"],
+      "correctIndex": 0,
+      "explanation": "Jiminy Cricket chante Quand on prie la bonne étoile, qui a remporté l’Oscar de la meilleure chanson et est devenue l’hymne de Disney. Gepetto est le menuisier qui fabrique Pinocchio, Figaro son chat et Cléo son poisson rouge."
     },
     {
       "id": "3",
-      "question": "Quel personnage est une marionnette qui rêve de devenir un vrai garçon ?",
+      "question": "Dans Le Roi Lion, comment s’appelle l’oiseau conseiller de Mufasa ?",
       "image": null,
-      "imagePrompt": "wood puppet nose growing",
-      "answers": [
-        "Pinocchio",
-        "Peter Pan",
-        "Dumbo",
-        "Hercule"
-      ],
-      "correctIndex": 0,
-      "explanation": "Pinocchio est l’un des personnages les plus emblématiques des premiers classiques Disney. Le film repose sur une morale claire autour de la vérité, de l’obéissance et de la responsabilité, avec le nez qui s’allonge devenu un symbole mondial du mensonge."
+      "imagePrompt": "savannah pride rock bird lion animation",
+      "answers": ["Rafiki", "Zazu", "Timon", "Pumbaa"],
+      "correctIndex": 1,
+      "explanation": "Zazu, un calao, sert de majordome au roi et surveille le jeune Simba. Rafiki est le vieux sage du film, tandis que Timon et Pumbaa sont le suricate et le phacochère qui recueillent Simba."
     },
     {
       "id": "4",
-      "question": "Dans quel film trouve-t-on la chanson « Libérée, délivrée » ?",
+      "question": "Dans Dumbo, quel objet est censé permettre à l’éléphanteau de voler ?",
       "image": null,
-      "imagePrompt": "ice queen snow mountain",
-      "answers": [
-        "Raiponce",
-        "La Belle et la Bête",
-        "La Reine des Neiges",
-        "Vaiana"
-      ],
-      "correctIndex": 2,
-      "explanation": "La Reine des Neiges a connu un immense succès international, en grande partie grâce à cette chanson d’Elsa. Elle marque un moment clé du film, car elle symbolise l’acceptation de soi et la libération d’une identité longtemps réprimée."
+      "imagePrompt": "baby elephant big ears circus tent",
+      "answers": ["Un chapeau", "Une cape", "Un ballon", "Une plume"],
+      "correctIndex": 3,
+      "explanation": "Des corbeaux lui donnent une plume en lui faisant croire qu’elle est magique. Dumbo découvre ensuite qu’il n’en a pas besoin pour voler : ses grandes oreilles, objets de moqueries, deviennent sa force."
     },
     {
       "id": "5",
-      "question": "Quel animal est Bambi ?",
+      "question": "Dans Bambi, comment s’appelle le jeune lapin ami du faon ?",
       "image": null,
-      "imagePrompt": "young deer forest disney",
-      "answers": [
-        "Un lapin",
-        "Un cerf",
-        "Un renard",
-        "Un chien"
-      ],
-      "correctIndex": 1,
-      "explanation": "Bambi est un jeune cerf, plus précisément un faon. Le film est resté célèbre pour sa puissance émotionnelle et son rapport très sensible à la nature, au deuil et à la fragilité de l’enfance."
+      "imagePrompt": "fawn rabbit skunk forest spring",
+      "answers": ["Fleur", "Pompon", "Panpan", "Caramel"],
+      "correctIndex": 2,
+      "explanation": "Panpan, qui tape sans cesse de la patte, est le meilleur ami de Bambi, avec Fleur, la petite mouffette. Le film, sorti en 1942, est adapté d’un roman de l’écrivain autrichien Felix Salten."
     },
     {
       "id": "6",
-      "question": "Quel film met en scène un génie exauçant des vœux ?",
+      "question": "Dans Cendrillon, comment s’appellent les deux souris amies de l’héroïne ?",
       "image": null,
-      "imagePrompt": "genie lamp blue magic",
-      "answers": [
-        "Hercule",
-        "Tarzan",
-        "Aladdin",
-        "Mulan"
-      ],
-      "correctIndex": 2,
-      "explanation": "Aladdin est l’un des grands classiques Disney des années 90. Le Génie y joue un rôle essentiel, car il apporte à la fois humour, énergie et modernité, tout en accompagnant le héros dans sa quête d’identité et de valeur personnelle."
+      "imagePrompt": "mice sewing dress attic fairy tale",
+      "answers": ["Jaq et Gus", "Tic et Tac", "Bernard et Bianca", "Mickey et Minnie"],
+      "correctIndex": 0,
+      "explanation": "Jaq et Gus aident Cendrillon à préparer sa robe et à échapper à sa belle-mère. Tic et Tac sont deux tamias, et Bernard et Bianca les souris héroïnes d’un autre film Disney, Les Aventures de Bernard et Bianca."
     },
     {
       "id": "7",
-      "question": "Quel personnage perd une chaussure de verre ?",
+      "question": "Dans Peter Pan, quel animal poursuit sans relâche le capitaine Crochet ?",
       "image": null,
-      "imagePrompt": "glass slipper stairs ball",
-      "answers": [
-        "Aurore",
-        "Cendrillon",
-        "Blanche-Neige",
-        "Belle"
-      ],
+      "imagePrompt": "pirate ship crocodile neverland",
+      "answers": ["Un requin", "Un crocodile", "Une pieuvre", "Un serpent de mer"],
       "correctIndex": 1,
-      "explanation": "La pantoufle de verre est l’élément central du conte de Cendrillon. Elle permet d’identifier l’héroïne et symbolise la reconnaissance de sa vraie place, après une histoire marquée par l’injustice et l’humiliation."
+      "explanation": "Le crocodile a avalé la main de Crochet et un réveil, dont on entend le tic-tac à chacune de ses apparitions. Peter Pan est sorti en 1953."
     },
     {
       "id": "8",
-      "question": "Dans quel film trouve-t-on Baloo ?",
+      "question": "Dans La Belle au bois dormant, sur quoi la princesse Aurore se pique-t-elle le doigt ?",
       "image": null,
-      "imagePrompt": "bear jungle dancing kid",
-      "answers": [
-        "Tarzan",
-        "Le Livre de la Jungle",
-        "Robin des Bois",
-        "Bambi"
-      ],
-      "correctIndex": 1,
-      "explanation": "Baloo est l’un des personnages les plus aimés du Livre de la Jungle. Son attitude décontractée et sa chanson emblématique incarnent une vision joyeuse et simple de la vie, qui a profondément marqué l’univers Disney."
+      "imagePrompt": "spinning wheel castle tower dark magic",
+      "answers": ["Une épine de rosier", "Une aiguille à coudre", "Une flèche", "Le fuseau d’un rouet"],
+      "correctIndex": 3,
+      "explanation": "La fée Maléfique avait prédit qu’Aurore se piquerait au fuseau d’un rouet avant ses seize ans. Le film, sorti en 1959, a inspiré en 2014 Maléfique, avec Angelina Jolie dans le rôle de la méchante fée."
     },
     {
       "id": "9",
-      "question": "Quel film raconte l’histoire d’une jeune fille vivant avec une bête dans un château ?",
+      "question": "Dans Les 101 Dalmatiens, que veut faire Cruella d’Enfer avec les chiots ?",
       "image": null,
-      "imagePrompt": "castle beast rose girl",
-      "answers": [
-        "Raiponce",
-        "Mulan",
-        "Cendrillon",
-        "La Belle et la Bête"
-      ],
-      "correctIndex": 3,
-      "explanation": "La Belle et la Bête est un film clé dans l’histoire de Disney, notamment pour son ambition visuelle et émotionnelle. Il développe une idée forte : la véritable beauté ne se limite pas à l’apparence, mais repose sur la transformation intérieure."
+      "imagePrompt": "dalmatian puppies london 1960s",
+      "answers": ["Un manteau de fourrure", "Des chiens de garde", "Un spectacle de cirque", "Les vendre à l’étranger"],
+      "correctIndex": 0,
+      "explanation": "Sorti en 1961, le film a utilisé une nouvelle technique de photocopie pour reproduire les dessins, ce qui a permis d’animer des dizaines de chiots couverts de taches sans les redessiner un par un."
     },
     {
       "id": "10",
-      "question": "Quel film met en scène un éléphant capable de voler ?",
+      "question": "Dans Le Livre de la jungle, quel animal est Bagheera ?",
       "image": null,
-      "imagePrompt": "flying elephant circus",
-      "answers": [
-        "Dumbo",
-        "Bambi",
-        "Fantasia",
-        "Pinocchio"
-      ],
-      "correctIndex": 0,
-      "explanation": "Dumbo fait partie des classiques Disney les plus simples en apparence, mais aussi des plus émouvants. Son histoire parle de différence, de rejet et de résilience, ce qui explique pourquoi elle reste si marquante malgré la brièveté du film."
+      "imagePrompt": "black panther jungle boy tree",
+      "answers": ["Un tigre", "Un ours", "Une panthère noire", "Un serpent"],
+      "correctIndex": 2,
+      "explanation": "Bagheera, la panthère, protège Mowgli. Le tigre est Shere Khan, l’ours Baloo et le serpent Kaa. Sorti en 1967, c’est le dernier film d’animation sur lequel Walt Disney a travaillé, puisqu’il est mort quelques mois avant sa sortie."
     },
     {
       "id": "11",
-      "question": "Quel personnage vit au fond de l’océan et rêve de découvrir le monde humain ?",
+      "question": "Dans La Reine des Neiges, comment s’appelle le bonhomme de neige qui rêve de l’été ?",
       "image": null,
-      "imagePrompt": "mermaid ocean singing",
-      "answers": [
-        "Vaiana",
-        "Jasmine",
-        "Ariel",
-        "Elsa"
-      ],
-      "correctIndex": 2,
-      "explanation": "Ariel est l’héroïne de La Petite Sirène. Son désir de découvrir un autre monde est l’un des grands moteurs narratifs du film et symbolise une envie de liberté, de curiosité et d’émancipation qui parle à plusieurs générations."
+      "imagePrompt": "snowman snowy mountains ice palace",
+      "answers": ["Sven", "Olaf", "Kristoff", "Guimauve"],
+      "correctIndex": 1,
+      "explanation": "Olaf a été créé par la magie d’Elsa. Sven est le renne de Kristoff, et Guimauve le monstre de neige qui garde le palais de glace. La chanson Libérée, délivrée a remporté l’Oscar de la meilleure chanson."
     },
     {
       "id": "12",
-      "question": "Quel film met en scène un héros élevé par des gorilles ?",
+      "question": "Dans Vaiana, comment s’appelle le demi-dieu qui accompagne l’héroïne ?",
       "image": null,
-      "imagePrompt": "jungle man gorillas vine",
-      "answers": [
-        "Aladdin",
-        "Tarzan",
-        "Le Livre de la Jungle",
-        "Hercule"
-      ],
-      "correctIndex": 1,
-      "explanation": "Tarzan développe fortement le thème de l’identité : qui sommes-nous vraiment, et à quel monde appartenons-nous ? C’est cette tension entre nature, humanité et appartenance qui donne au film sa profondeur."
+      "imagePrompt": "polynesian ocean canoe island tattooed demigod",
+      "answers": ["Tamatoa", "Te Kā", "Heihei", "Maui"],
+      "correctIndex": 3,
+      "explanation": "Maui, doublé par Dwayne Johnson en version originale, porte des tatouages qui bougent tout seuls. Tamatoa est un crabe géant, Te Kā un démon de lave, et Heihei le coq un peu idiot. En version originale, l’héroïne s’appelle Moana : son nom a été changé en France, notamment pour des raisons de droits."
     },
     {
       "id": "13",
-      "question": "Quel personnage possède une longue chevelure magique ?",
+      "question": "Dans La Petite Sirène, que donne Ariel à Ursula en échange de jambes humaines ?",
       "image": null,
-      "imagePrompt": "long hair tower girl magic",
-      "answers": [
-        "Belle",
-        "Aurore",
-        "Raiponce",
-        "Cendrillon"
-      ],
-      "correctIndex": 2,
-      "explanation": "Raiponce se distingue par l’usage symbolique de ses cheveux, à la fois source de pouvoir et outil de contrôle. Le film transforme cet élément de conte en moteur dramatique très efficace, lié à l’enfermement et à la quête de liberté."
+      "imagePrompt": "mermaid underwater sea witch shell necklace",
+      "answers": ["Sa voix", "Ses cheveux", "Le trident de son père", "Sa couronne"],
+      "correctIndex": 0,
+      "explanation": "Ursula enferme la voix d’Ariel dans un coquillage. Sorti en 1989, le film marque le début de la « renaissance Disney », une décennie de grands succès pour le studio."
     },
     {
       "id": "14",
-      "question": "Quel film met en scène une guerrière chinoise se faisant passer pour un homme ?",
+      "question": "Dans La Belle et la Bête, quel objet enchanté, sous un globe de verre, indique le temps qu’il reste à la Bête ?",
       "image": null,
-      "imagePrompt": "female warrior armor china",
-      "answers": [
-        "Pocahontas",
-        "Vaiana",
-        "Frozen",
-        "Mulan"
-      ],
-      "correctIndex": 3,
-      "explanation": "Mulan est l’un des classiques Disney les plus marquants pour sa thématique d’émancipation. Le film interroge le courage, l’honneur et la place des femmes dans une société codifiée, ce qui lui donne une portée plus forte que celle d’un simple récit d’aventure."
+      "imagePrompt": "enchanted rose glass dome castle",
+      "answers": ["Un sablier", "Un miroir", "Une rose", "Une bougie"],
+      "correctIndex": 2,
+      "explanation": "La Bête doit être aimée avant que le dernier pétale de la rose ne tombe. Le miroir magique, lui, lui permet de voir le monde extérieur. En 1992, le film est devenu le premier film d’animation nommé à l’Oscar du meilleur film."
     },
     {
       "id": "15",
-      "question": "Quel film met en scène un jeune prince transformé en bête ?",
+      "question": "Dans Aladdin, combien de vœux le Génie accorde-t-il à celui qui frotte la lampe ?",
       "image": null,
-      "imagePrompt": "beast cursed prince castle",
-      "answers": [
-        "Shrek",
-        "Aladdin",
-        "Raiponce",
-        "La Belle et la Bête"
-      ],
-      "correctIndex": 3,
-      "explanation": "Dans La Belle et la Bête, la transformation du prince n’est pas qu’un élément fantastique : elle représente une punition morale. Toute l’histoire repose sur l’idée qu’il faut changer intérieurement pour être digne d’aimer et d’être aimé."
+      "imagePrompt": "magic lamp blue genie desert palace",
+      "answers": ["Un", "Trois", "Cinq", "Sept"],
+      "correctIndex": 1,
+      "explanation": "Aladdin promet d’utiliser son dernier vœu pour libérer le Génie. Celui-ci est doublé par Robin Williams en version originale, et par Richard Darbois en version française, qui prête aussi sa voix à Buzz l’Éclair."
     },
     {
       "id": "16",
-      "question": "Quel film met en scène un demi-dieu grec ?",
+      "question": "Dans Pocahontas, de quel Anglais l’héroïne tombe-t-elle amoureuse ?",
       "image": null,
-      "imagePrompt": "hercules greek hero disney",
-      "answers": [
-        "Aladdin",
-        "Robin des Bois",
-        "Hercule",
-        "Tarzan"
-      ],
-      "correctIndex": 2,
-      "explanation": "Hercule reprend la mythologie grecque dans une version plus légère et très stylisée. Disney y mélange références antiques, humour moderne et parcours héroïque classique, ce qui en fait une adaptation très singulière dans son catalogue."
+      "imagePrompt": "native american woman english explorer forest river",
+      "answers": ["John Rolfe", "Le gouverneur Ratcliffe", "Thomas", "John Smith"],
+      "correctIndex": 3,
+      "explanation": "John Smith est doublé en version originale par Mel Gibson. Le film s’inspire très librement de l’histoire vraie de Pocahontas, qui a en réalité épousé un autre colon anglais, John Rolfe. Ratcliffe est le gouverneur cupide du film."
     },
     {
       "id": "17",
-      "question": "Quel personnage vit dans une tour isolée ?",
+      "question": "Dans Mulan, comment s’appelle le petit dragon qui accompagne l’héroïne ?",
       "image": null,
-      "imagePrompt": "tower isolated girl disney",
-      "answers": [
-        "Raiponce",
-        "Cendrillon",
-        "Belle",
-        "Elsa"
-      ],
+      "imagePrompt": "small red dragon chinese warrior armor",
+      "answers": ["Mushu", "Cri-Kee", "Khan", "Shan Yu"],
       "correctIndex": 0,
-      "explanation": "La tour est l’un des symboles les plus forts de Raiponce. Elle représente l’enfermement physique, mais aussi le contrôle psychologique exercé sur l’héroïne, ce qui rend sa sortie vers le monde encore plus importante."
+      "explanation": "Mushu est doublé par Eddie Murphy en version originale et par José Garcia en version française. Cri-Kee est le grillon porte-bonheur, Khan le cheval de Mulan et Shan Yu le chef des envahisseurs."
     },
     {
       "id": "18",
-      "question": "Quel film met en scène une princesse polynésienne ?",
+      "question": "Quel chanteur interprète les chansons de Tarzan, y compris en version française ?",
       "image": null,
-      "imagePrompt": "ocean canoe island disney",
-      "answers": [
-        "La Petite Sirène",
-        "Mulan",
-        "Raiponce",
-        "Vaiana"
-      ],
-      "correctIndex": 3,
-      "explanation": "Vaiana renouvelle la figure de l’héroïne Disney en mettant au centre une jeune fille guidée par sa mission, son peuple et son lien avec la nature. Le film se distingue aussi par son univers visuel très fort et son rapport à l’océan comme personnage presque vivant."
+      "imagePrompt": "jungle man gorillas vine animation",
+      "answers": ["Elton John", "Phil Collins", "Sting", "Bryan Adams"],
+      "correctIndex": 1,
+      "explanation": "Phil Collins a enregistré ses chansons en plusieurs langues, dont le français. Il a remporté l’Oscar de la meilleure chanson pour Tu seras dans mon cœur. Elton John, lui, a écrit les chansons du Roi Lion."
     },
     {
       "id": "19",
-      "question": "Quel film met en scène un éléphant volant dans un cirque ?",
+      "question": "Dans Hercule, quel dieu des Enfers cherche à éliminer le héros ?",
       "image": null,
-      "imagePrompt": "dumbo circus sad",
-      "answers": [
-        "Fantasia",
-        "Pinocchio",
-        "Dumbo",
-        "Bambi"
-      ],
+      "imagePrompt": "greek hero mount olympus underworld flames",
+      "answers": ["Zeus", "Poséidon", "Hadès", "Arès"],
       "correctIndex": 2,
-      "explanation": "Dumbo est facilement reconnaissable à son univers de cirque et à la dimension très émotive de son récit. Le personnage incarne la capacité à transformer une différence moquée par les autres en véritable force."
+      "explanation": "Hadès, aux cheveux en flammes, veut prendre le pouvoir sur l’Olympe. Zeus est le père d’Hercule. Dans le film, l’histoire est racontée par les Muses, sur des chansons inspirées du gospel."
     },
     {
       "id": "20",
-      "question": "Quel film met en scène un voleur au grand cœur dans un désert oriental ?",
+      "question": "Dans Raiponce, quel animal tient compagnie à l’héroïne dans sa tour ?",
       "image": null,
-      "imagePrompt": "desert prince magic lamp",
-      "answers": [
-        "Aladdin",
-        "Hercule",
-        "Tarzan",
-        "Mulan"
-      ],
-      "correctIndex": 0,
-      "explanation": "Aladdin repose sur une idée essentielle : la valeur d’une personne ne dépend ni de sa naissance ni de son statut. Le héros commence comme un voleur débrouillard, mais c’est son courage et sa sincérité qui le rendent digne d’être reconnu."
+      "imagePrompt": "tower long golden hair small lizard",
+      "answers": ["Un cheval", "Un raton laveur", "Un perroquet", "Un caméléon"],
+      "correctIndex": 3,
+      "explanation": "Pascal, le caméléon, change de couleur selon ses émotions. Maximus est le cheval du palais qui traque Flynn Rider. Sorti en 2010, Raiponce est le 50e long métrage d’animation des studios Disney."
     }
   ]
 }
