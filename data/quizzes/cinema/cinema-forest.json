@@ -1,324 +1,212 @@
 {
-    "slug": "quiz-forrest-gump-connaissez-vous-vraiment-ce-classique",
-    "title": "Quiz Cinéma - Forrest Gump - Connaissez-vous vraiment ce classique ?",
-    "description": "Teste tes souvenirs avec 20 questions sur Forrest Gump et découvre si tu connais vraiment ce film culte.",
-    "descriptionSeo": "Pensez-vous vraiment tout savoir sur ce film culte des années 90 ? Ce quiz cinéma vous propose 20 questions variées autour d’un classique incontournable, mêlant scènes mémorables, personnages marquants, citations iconiques et détails parfois méconnus. De l’intrigue aux moments les plus emblématiques, chaque question vous replonge dans l’univers unique du film. Idéal pour tester votre mémoire, affiner votre sens du détail et redécouvrir ce chef-d’œuvre du septième art, ce quiz mettra à l’épreuve même les plus grands fans. Alors, serez-vous à la hauteur ?",
-    "category": {
-        "name": "Cinéma",
-        "slug": "cinema"
+  "slug": "quiz-forrest-gump-connaissez-vous-vraiment-ce-classique",
+  "title": "Quiz Cinéma - Forrest Gump - Connais-tu vraiment ce classique ?",
+  "description": "Teste tes souvenirs avec 20 questions sur Forrest Gump et découvre si tu connais vraiment les détails de ce film culte.",
+  "descriptionSeo": "Une boîte de chocolats, un banc à Savannah, un bateau baptisé Jenny et un smiley inspiré par hasard : Forrest Gump est rempli de détails que seuls les vrais fans ont retenus. Ce quiz de 20 questions te replonge dans le film de Robert Zemeckis, de l’enfance de Forrest en Alabama à sa course à travers les États-Unis, en passant par le Vietnam, le ping-pong et la pêche aux crevettes.",
+  "category": {
+    "name": "Cinéma",
+    "slug": "cinema"
+  },
+  "createdAt": "2026-04-07",
+  "isNew": true,
+  "isPopular": true,
+  "images": {
+    "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1775504437/cover_jxodnb.jpg",
+    "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1775504437/cover_jxodnb.jpg",
+    "alt": "Quiz sur le film Forrest Gump"
+  },
+  "topics": ["films-cultes"],
+  "seoContent": [
+    {
+      "title": "Un témoin naïf de l’histoire américaine",
+      "content": "Adapté d’un roman de Winston Groom, Forrest Gump suit un homme simple originaire de l’Alabama, qui se retrouve sans le vouloir mêlé aux grands événements de l’histoire américaine. Dans la fiction, il inspire la danse d’Elvis Presley, rencontre trois présidents, combat au Vietnam, joue au ping-pong en Chine et se retrouve même mêlé à l’affaire du Watergate. Pour le montrer aux côtés de personnalités réelles, l’équipe de Robert Zemeckis a intégré Tom Hanks dans des images d’archives, une prouesse technique remarquée en 1994."
     },
-    "createdAt": "2026-04-06",
-    "isNew": true,
-    "isPopular": true,
-    "images": {
-        "thumbnail": "https://res.cloudinary.com/dsv7oziap/image/upload/v1775504437/cover_jxodnb.jpg",
-        "cover": "https://res.cloudinary.com/dsv7oziap/image/upload/v1775504437/cover_jxodnb.jpg",
-        "alt": "Quiz Forrest Gump classique du cinéma"
-    },"topics": ["films-cultes"],"seoContent": {
-  "title": "Forrest Gump : personnages, scènes cultes et secrets du film de Robert Zemeckis",
-  "paragraphs": [
-    "Sorti en 1994, Forrest Gump est devenu l'un des films les plus populaires du cinéma américain. Réalisé par Robert Zemeckis et porté par Tom Hanks, il raconte le parcours extraordinaire d'un homme originaire de l'Alabama qui traverse plusieurs décennies d'histoire des États-Unis. De son enfance auprès de Jenny à ses exploits sportifs, en passant par la guerre du Vietnam et ses rencontres avec des présidents américains, Forrest se retrouve au cœur d'événements qu'il observe avec une simplicité désarmante. Le film mêle humour, émotion, romance et chronique historique, avec des scènes devenues incontournables, comme celle du banc, de la boîte de chocolats ou de la plume emportée par le vent.",
-    "Les personnages de Forrest Gump contribuent largement à sa force émotionnelle. Jenny Curran, amie d'enfance et grand amour de Forrest, suit un parcours très différent du sien, marqué par les bouleversements sociaux et culturels des années 1960 et 1970. Bubba, rencontré pendant la guerre du Vietnam, partage avec lui son rêve de travailler dans la pêche aux crevettes. Le lieutenant Dan Taylor, interprété par Gary Sinise, traverse quant à lui une profonde crise après avoir perdu ses jambes au combat. Autour de ces personnages, le film explore l'amitié, le deuil, la fidélité, les blessures de la guerre et la place du hasard dans une existence. Ses dialogues et ses images ont durablement marqué la culture populaire.",
-    "Forrest Gump a remporté six Oscars lors de la cérémonie de 1995, dont ceux du meilleur film, du meilleur réalisateur pour Robert Zemeckis et du meilleur acteur pour Tom Hanks. Le long métrage se distingue également par ses effets visuels, qui permettent d'intégrer Forrest à des images d'archives historiques, et par sa bande originale composée notamment de chansons emblématiques de plusieurs époques. Adapté du roman de Winston Groom, il continue de séduire les spectateurs grâce à son mélange de nostalgie, de comédie et de drame. Ce quiz de 20 questions te propose de retrouver les personnages, les répliques, les événements et les détails mémorables du film. Connais-tu vraiment Forrest Gump, ou certains souvenirs t'ont-ils échappé ?"
+    {
+      "title": "Un triomphe aux Oscars",
+      "content": "Forrest Gump a remporté six Oscars en 1995, dont ceux du meilleur film, du meilleur réalisateur et du meilleur acteur pour Tom Hanks, qui obtenait sa deuxième statuette consécutive après Philadelphia. Le film doit aussi beaucoup à ses seconds rôles : Robin Wright en Jenny, Gary Sinise en lieutenant Dan, Mykelti Williamson en Bubba et Sally Field en mère de Forrest. Plusieurs de ses répliques sont passées dans le langage courant, de « Cours, Forrest, cours ! » à la fameuse boîte de chocolats."
+    }
+  ],
+
+  "questions": [
+    {
+      "id": "1",
+      "question": "Selon la célèbre phrase que Forrest tient de sa mère, à quoi la vie ressemble-t-elle ?",
+      "image": null,
+      "imagePrompt": "box of chocolates on wooden bench",
+      "answers": ["À un long voyage", "À une partie de cartes", "À une boîte de chocolats", "À un livre d’histoires"],
+      "correctIndex": 2,
+      "explanation": "Forrest répète cette phrase de sa mère à une inconnue assise à côté de lui sur un banc, en lui proposant un chocolat : comme dans une boîte de chocolats, on ne sait jamais ce que la vie nous réserve. C’est l’une des répliques les plus citées de l’histoire du cinéma."
+    },
+    {
+      "id": "2",
+      "question": "Qui crie pour la première fois « Cours, Forrest, cours ! » quand des garçons le poursuivent ?",
+      "image": null,
+      "imagePrompt": "child running country road leg braces breaking",
+      "answers": ["Sa mère", "Jenny", "Le lieutenant Dan", "Bubba"],
+      "correctIndex": 1,
+      "explanation": "Le petit Forrest porte alors des attelles aux jambes, qui se brisent pendant sa course. Jenny lui crie à nouveau cette phrase quelques années plus tard, quand d’autres garçons le poursuivent en voiture."
+    },
+    {
+      "id": "3",
+      "question": "Quel quotient intellectuel le directeur de l’école attribue-t-il au petit Forrest ?",
+      "image": null,
+      "imagePrompt": "1950s school principal office desk",
+      "answers": ["75", "60", "85", "100"],
+      "correctIndex": 0,
+      "explanation": "Le directeur veut placer Forrest dans une école spécialisée, car son QI est légèrement inférieur à la moyenne requise. Sa mère se bat pour qu’il soit admis dans l’école publique."
+    },
+    {
+      "id": "4",
+      "question": "Quel chanteur, hébergé chez les Gump, s’inspire de la façon de danser du petit Forrest ?",
+      "image": null,
+      "imagePrompt": "1950s guitar young man southern house porch",
+      "answers": ["Johnny Cash", "Buddy Holly", "Chuck Berry", "Elvis Presley"],
+      "correctIndex": 3,
+      "explanation": "Le jeune Elvis loge chez Mme Gump et regarde Forrest se déhancher avec ses attelles. Plus tard, Forrest reconnaît ses propres mouvements en voyant Elvis chanter à la télévision."
+    },
+    {
+      "id": "5",
+      "question": "Dans quelle ville fictive de l’Alabama Forrest a-t-il grandi ?",
+      "image": null,
+      "imagePrompt": "southern country house tree lined road alabama",
+      "answers": ["Savannah", "Bayou La Batre", "Greenbow", "Montgomery"],
+      "correctIndex": 2,
+      "explanation": "Greenbow n’existe pas, mais la maison des Gump a été construite pour le film en Caroline du Sud. Savannah est la ville du célèbre banc, et Bayou La Batre le port où Forrest pêche les crevettes."
+    },
+    {
+      "id": "6",
+      "question": "Dans quelle ville Forrest raconte-t-il son histoire, assis sur un banc à un arrêt de bus ?",
+      "image": null,
+      "imagePrompt": "park bench bus stop southern square oak trees",
+      "answers": ["Savannah", "Atlanta", "Greenbow", "La Nouvelle-Orléans"],
+      "correctIndex": 0,
+      "explanation": "Les scènes du banc ont été tournées sur une place de Savannah, en Géorgie. Le banc était un simple accessoire, retiré après le tournage et aujourd’hui exposé dans un musée de la ville."
+    },
+    {
+      "id": "7",
+      "question": "Quelle boisson Forrest boit-il en grande quantité à la Maison-Blanche, avant de rencontrer le président Kennedy ?",
+      "image": null,
+      "imagePrompt": "glass soda bottles buffet table 1960s reception",
+      "answers": ["Du Coca-Cola", "Du Dr Pepper", "Du Pepsi", "De la root beer"],
+      "correctIndex": 1,
+      "explanation": "Invité avec l’équipe de football américain de son université, Forrest profite des boissons gratuites. Quand Kennedy lui demande comment il se sent, il répond qu’il a besoin d’aller aux toilettes."
+    },
+    {
+      "id": "8",
+      "question": "Que montre Forrest au président Johnson, qui lui demande où il a été blessé au Vietnam ?",
+      "image": null,
+      "imagePrompt": "1960s white house ceremony medal soldier",
+      "answers": ["Sa médaille", "Une photo de Jenny", "Sa balle de ping-pong", "Sa blessure aux fesses"],
+      "correctIndex": 3,
+      "explanation": "Forrest reçoit la médaille d’honneur pour avoir sauvé plusieurs soldats de son peloton. Quand le président lui demande de voir sa blessure, il baisse son pantalon, une scène montée à partir de vraies images d’archives."
+    },
+    {
+      "id": "9",
+      "question": "Quelle actrice joue la mère de Forrest ?",
+      "image": null,
+      "imagePrompt": "1950s southern mother kitchen apron",
+      "answers": ["Sally Field", "Meryl Streep", "Jessica Lange", "Susan Sarandon"],
+      "correctIndex": 0,
+      "explanation": "Sally Field n’avait que dix ans de plus que Tom Hanks, qu’elle avait déjà eu pour partenaire quelques années plus tôt dans la comédie Punchline. Elle a été vieillie par le maquillage au fil du film."
+    },
+    {
+      "id": "10",
+      "question": "Comment s’appelle l’entreprise que Forrest crée pour réaliser le rêve de son ami Bubba ?",
+      "image": null,
+      "imagePrompt": "shrimp boat harbor gulf coast",
+      "answers": ["Bubba Bay Seafood", "Gump Fishing Company", "Bubba Gump Shrimp Company", "Jenny Coast Shrimp"],
+      "correctIndex": 2,
+      "explanation": "Bubba, mort au Vietnam, rêvait de pêcher la crevette. Forrest reverse sa part des bénéfices à la famille de son ami. Après le film, une vraie chaîne de restaurants de fruits de mer a été créée sous ce nom."
+    },
+    {
+      "id": "11",
+      "question": "Quel nom Forrest donne-t-il à son bateau de pêche aux crevettes ?",
+      "image": null,
+      "imagePrompt": "small fishing boat name painted on hull",
+      "answers": ["Bubba", "Jenny", "Mama", "Lieutenant Dan"],
+      "correctIndex": 1,
+      "explanation": "Forrest baptise son bateau du nom de la femme qu’il aime. Le lieutenant Dan, qui avait juré de devenir son second s’il devenait capitaine, finit par le rejoindre à bord."
+    },
+    {
+      "id": "12",
+      "question": "Quel événement permet à Forrest et au lieutenant Dan de faire fortune avec la pêche aux crevettes ?",
+      "image": null,
+      "imagePrompt": "storm hurricane harbor boats sea",
+      "answers": ["Une marée exceptionnelle", "Une prime du gouvernement", "La découverte d’un banc géant", "Un ouragan qui détruit les autres bateaux"],
+      "correctIndex": 3,
+      "explanation": "Le Jenny est le seul bateau à survivre à l’ouragan Carmen. Forrest et Dan se retrouvent alors seuls à pêcher dans la région, et leur entreprise devient très rentable."
+    },
+    {
+      "id": "13",
+      "question": "Dans quelle entreprise le lieutenant Dan investit-il l’argent de Forrest, que celui-ci prend pour « une entreprise de fruits » ?",
+      "image": null,
+      "imagePrompt": "1970s stock certificate letter fruit",
+      "answers": ["Apple", "Microsoft", "IBM", "Coca-Cola"],
+      "correctIndex": 0,
+      "explanation": "Forrest croit que Dan a investi dans une entreprise de fruits, alors qu’il s’agit d’Apple, encore toute jeune à l’époque. Ce placement rend Forrest millionnaire."
+    },
+    {
+      "id": "14",
+      "question": "Dans quel pays Forrest part-il en tournée avec l’équipe américaine de ping-pong ?",
+      "image": null,
+      "imagePrompt": "table tennis match 1970s international",
+      "answers": ["Au Japon", "En Union soviétique", "En Chine", "En Corée du Sud"],
+      "correctIndex": 2,
+      "explanation": "Le film fait référence à la « diplomatie du ping-pong », qui a rapproché les États-Unis et la Chine au début des années 1970. Forrest est devenu un champion en jouant à l’hôpital militaire, pendant sa convalescence."
+    },
+    {
+      "id": "15",
+      "question": "À quel célèbre scandale politique américain Forrest se retrouve-t-il mêlé, dans une scène fictive où il signale des lumières suspectes ?",
+      "image": null,
+      "imagePrompt": "1970s hotel window night flashlights office",
+      "answers": ["L’affaire du Pentagone", "Le Watergate", "L’Irangate", "L’affaire Profumo"],
+      "correctIndex": 1,
+      "explanation": "Dans le film, Forrest remarque des lumières suspectes depuis sa chambre à l’hôtel Watergate et les signale par téléphone. Cette scène inventée l’intègre avec humour à l’affaire du Watergate, un scandale politique réel qui a conduit à la démission du président Richard Nixon en 1974."
+    },
+    {
+      "id": "16",
+      "question": "Pendant sa grande course, quel célèbre symbole Forrest semble-t-il inspirer en s’essuyant le visage avec un t-shirt jaune ?",
+      "image": null,
+      "imagePrompt": "yellow t-shirt mud print road runner",
+      "answers": ["Le signe de la paix", "Le cœur « I love NY »", "Le logo d’une marque de chaussures", "Le smiley"],
+      "correctIndex": 3,
+      "explanation": "Dans le film, Forrest laisse une empreinte de visage souriant sur un t-shirt jaune, inspirant à son insu un motif associé à « Have a nice day ». Il s’agit d’une invention scénaristique : le célèbre smiley jaune avait déjà été créé dans les années 1960."
+    },
+    {
+      "id": "17",
+      "question": "Combien de temps dure la course de Forrest à travers les États-Unis ?",
+      "image": null,
+      "imagePrompt": "runner long beard desert highway followers",
+      "answers": ["Un peu plus de trois ans", "Six mois", "Un an", "Deux ans"],
+      "correctIndex": 0,
+      "explanation": "Forrest court très exactement trois ans, deux mois, quatorze jours et seize heures. Il s’arrête soudain au milieu du désert, en annonçant qu’il est fatigué et qu’il rentre chez lui."
+    },
+    {
+      "id": "18",
+      "question": "Quel futur enfant star joue le petit Forrest, le fils de Forrest et Jenny ?",
+      "image": null,
+      "imagePrompt": "young boy school bus stop",
+      "answers": ["Macaulay Culkin", "Elijah Wood", "Haley Joel Osment", "Jake Lloyd"],
+      "correctIndex": 2,
+      "explanation": "Haley Joel Osment deviendra célèbre cinq ans plus tard avec Sixième Sens, qui lui a valu une nomination à l’Oscar. Jenny a appelé leur fils Forrest, comme son père."
+    },
+    {
+      "id": "19",
+      "question": "Qui a composé la musique de Forrest Gump, notamment le célèbre thème de la plume ?",
+      "image": null,
+      "imagePrompt": "white feather floating sky",
+      "answers": ["John Williams", "Alan Silvestri", "Hans Zimmer", "James Horner"],
+      "correctIndex": 1,
+      "explanation": "Alan Silvestri est le compositeur fidèle de Robert Zemeckis, pour qui il a aussi écrit la musique de Retour vers le futur. La plume qui flotte au début et à la fin du film est l’une des images les plus célèbres du film."
+    },
+    {
+      "id": "20",
+      "question": "De quel romancier américain le film est-il adapté ?",
+      "image": null,
+      "imagePrompt": "old typewriter novel manuscript southern porch",
+      "answers": ["John Grisham", "Stephen King", "Pat Conroy", "Winston Groom"],
+      "correctIndex": 3,
+      "explanation": "Winston Groom a publié le roman en 1986. Le livre est bien plus satirique que le film : Forrest y devient notamment astronaute et lutteur professionnel. Groom a ensuite écrit une suite, Gump et Cie."
+    }
   ]
-},"faq": [
-  {
-    "question": "Qui a réalisé Forrest Gump et en quelle année le film est-il sorti ?",
-    "answer": "Forrest Gump est un film américain réalisé par Robert Zemeckis, sorti en 1994. Le réalisateur est également connu pour Retour vers le futur, Qui veut la peau de Roger Rabbit et Seul au monde. Adapté d'un roman de Winston Groom publié en 1986, Forrest Gump a remporté six Oscars en 1995, dont ceux du meilleur film, de la meilleure réalisation et du meilleur acteur pour Tom Hanks."
-  },
-  {
-    "question": "Quels sont les personnages principaux de Forrest Gump ?",
-    "answer": "Forrest Gump, interprété par Tom Hanks, est entouré de plusieurs personnages essentiels : Jenny Curran, son amie d'enfance et grand amour, jouée par Robin Wright ; le lieutenant Dan Taylor, interprété par Gary Sinise ; et Benjamin Buford Blue, surnommé Bubba, incarné par Mykelti Williamson. La mère de Forrest, interprétée par Sally Field, joue également un rôle central dans son éducation et sa manière de voir le monde."
-  },
-  {
-    "question": "Quels événements historiques apparaissent dans Forrest Gump ?",
-    "answer": "Le film traverse plusieurs décennies de l'histoire américaine et évoque notamment la déségrégation universitaire, la guerre du Vietnam, le mouvement hippie, les manifestations contre la guerre, les rencontres avec les présidents John F. Kennedy, Lyndon B. Johnson et Richard Nixon, ainsi que le scandale du Watergate. Grâce à des effets visuels innovants, Forrest apparaît dans des images d'archives aux côtés de personnalités historiques."
-  },
-  {
-    "question": "Que contient ce quiz sur Forrest Gump ?",
-    "answer": "Ce quiz gratuit comprend 20 questions à choix multiples sur Forrest Gump. Tu devras retrouver les acteurs, les personnages, les scènes célèbres, les répliques cultes et les grands événements qui rythment l'histoire. Des aventures de Forrest avec Bubba et le lieutenant Dan à son parcours sportif, en passant par Jenny et la célèbre boîte de chocolats, chaque question est accompagnée d'une explication pour redécouvrir ce classique du cinéma américain."
-  }
-],
-    "questions": [
-        {
-            "id": "1",
-            "question": "Quel acteur incarne Forrest Gump ?",
-            "image": null,
-            "imagePrompt": "Tom Hanks as Forrest Gump",
-            "answers": [
-                "Robin Williams",
-                "Tom Hanks",
-                "Kevin Costner",
-                "Gary Sinise"
-            ],
-            "correctIndex": 1,
-            "explanation": "Tom Hanks incarne Forrest Gump et livre l’une des performances les plus marquantes de sa carrière, récompensée par l’Oscar du meilleur acteur."
-        },
-        {
-            "id": "2",
-            "question": "Qui a réalisé Forrest Gump ?",
-            "image": null,
-            "imagePrompt": "Robert Zemeckis portrait",
-            "answers": [
-                "Steven Spielberg",
-                "Ron Howard",
-                "Robert Zemeckis",
-                "James Cameron"
-            ],
-            "correctIndex": 2,
-            "explanation": "Le film est réalisé par Robert Zemeckis, connu aussi pour Retour vers le futur, Seul au monde et Qui veut la peau de Roger Rabbit."
-        },
-        {
-            "id": "3",
-            "question": "En quelle année le film Forrest Gump est-il sorti ?",
-            "image": null,
-            "imagePrompt": "Forrest Gump movie poster 1994",
-            "answers": [
-                "1992",
-                "1994",
-                "1996",
-                "1998"
-            ],
-            "correctIndex": 1,
-            "explanation": "Forrest Gump sort en 1994 et devient rapidement un immense succès critique et commercial."
-        },
-        {
-            "id": "4",
-            "question": "Comment s’appelle l’amie d’enfance et grand amour de Forrest ?",
-            "image": null,
-            "imagePrompt": "Jenny and Forrest childhood scene",
-            "answers": [
-                "Sarah",
-                "Emily",
-                "Jenny",
-                "Daisy"
-            ],
-            "correctIndex": 2,
-            "explanation": "Jenny Curran est le grand amour de Forrest. Leur relation traverse toute l’histoire du film."
-        },
-        {
-            "id": "5",
-            "question": "Quelle phrase culte la mère de Forrest répète-t-elle souvent ?",
-            "image": null,
-            "imagePrompt": "Life is like a box of chocolates scene",
-            "answers": [
-                "Le temps guérit tout",
-                "La vie, c'est comme une boîte de chocolats",
-                "Chaque homme trace sa route",
-                "Le bonheur est dans les choses simples"
-            ],
-            "correctIndex": 1,
-            "explanation": "La citation la plus célèbre du film est : « La vie, c’est comme une boîte de chocolats : on ne sait jamais sur quoi on va tomber. »"
-        },
-        {
-            "id": "6",
-            "question": "Dans quelle discipline Forrest devient-il une vedette à l’université ?",
-            "image": null,
-            "imagePrompt": "Forrest Gump football scene",
-            "answers": [
-                "Baseball",
-                "Athlétisme",
-                "Football américain",
-                "Basket-ball"
-            ],
-            "correctIndex": 2,
-            "explanation": "Grâce à sa vitesse exceptionnelle, Forrest intègre l’équipe de football américain de son université."
-        },
-        {
-            "id": "7",
-            "question": "Quel objet Forrest tient-il constamment avec lui lorsqu'il raconte son histoire à l'arrêt de bus ?",
-            "image": null,
-            "imagePrompt": "Forrest Gump box of chocolates bus stop",
-            "answers": [
-                "Un livre",
-                "Une boîte de chocolats",
-                "Une valise",
-                "Un chapeau"
-            ],
-            "correctIndex": 1,
-            "explanation": "La boîte de chocolats devient un symbole fort du film, lié à la célèbre phrase de sa mère."
-        },
-        {
-            "id": "8",
-            "question": "Quel est le handicap physique de Forrest durant son enfance ?",
-            "image": null,
-            "imagePrompt": "young Forrest leg braces running",
-            "answers": [
-                "Il est malvoyant",
-                "Il porte des attelles aux jambes",
-                "Il est sourd d’une oreille",
-                "Il a un bras immobilisé"
-            ],
-            "correctIndex": 1,
-            "explanation": "Enfant, Forrest porte des attelles aux jambes. Sa course spectaculaire marque un tournant dans sa vie."
-        },
-        {
-            "id": "9",
-            "question": "Quel personnage dit à Forrest : « Cours, Forrest, cours ! » ?",
-            "image": null,
-            "imagePrompt": "Jenny shouting run Forrest run",
-            "answers": [
-                "Sa mère",
-                "Jenny",
-                "Le lieutenant Dan",
-                "Bubba"
-            ],
-            "correctIndex": 1,
-            "explanation": "C’est Jenny qui crie « Cours, Forrest, cours ! », l’une des répliques les plus emblématiques du film."
-        },
-        {
-            "id": "10",
-            "question": "Quel est le prénom du soldat ami de Forrest au Vietnam ?",
-            "image": null,
-            "imagePrompt": "Bubba Forrest Gump Vietnam scene",
-            "answers": [
-                "Bubba",
-                "Dan",
-                "Elvis",
-                "Wesley"
-            ],
-            "correctIndex": 0,
-            "explanation": "Bubba devient l’ami proche de Forrest pendant la guerre du Vietnam et rêve de créer une entreprise de crevettes."
-        },
-        {
-            "id": "11",
-            "question": "Quel aliment Bubba évoque-t-il sans arrêt ?",
-            "image": null,
-            "imagePrompt": "shrimp boat Forrest Gump",
-            "answers": [
-                "Le poulet",
-                "Les crevettes",
-                "Le maïs",
-                "Les huîtres"
-            ],
-            "correctIndex": 1,
-            "explanation": "Bubba est obsédé par les crevettes et énumère sans fin toutes les façons de les cuisiner."
-        },
-        {
-            "id": "12",
-            "question": "Quel grade militaire porte Dan Taylor dans le film ?",
-            "image": null,
-            "imagePrompt": "Lieutenant Dan Forrest Gump",
-            "answers": [
-                "Capitaine",
-                "Sergent",
-                "Lieutenant",
-                "Colonel"
-            ],
-            "correctIndex": 2,
-            "explanation": "Le personnage est connu sous le nom de Lieutenant Dan, officier marqué à jamais par la guerre."
-        },
-        {
-            "id": "13",
-            "question": "Après la guerre, dans quel sport Forrest excelle-t-il au niveau international ?",
-            "image": null,
-            "imagePrompt": "Forrest Gump ping pong scene",
-            "answers": [
-                "Tennis",
-                "Ping-pong",
-                "Golf",
-                "Boxe"
-            ],
-            "correctIndex": 1,
-            "explanation": "Forrest devient un champion de ping-pong et représente même les États-Unis."
-        },
-        {
-            "id": "14",
-            "question": "Quelle entreprise Forrest crée-t-il en réalisant le rêve de Bubba ?",
-            "image": null,
-            "imagePrompt": "Bubba Gump shrimp company boat",
-            "answers": [
-                "Bubba Bay Seafood",
-                "Gump Fishing Co.",
-                "Bubba Gump Shrimp Company",
-                "Jenny Coast Shrimp"
-            ],
-            "correctIndex": 2,
-            "explanation": "Forrest fonde Bubba Gump Shrimp Company en hommage à son ami disparu au Vietnam."
-        },
-        {
-            "id": "15",
-            "question": "Pourquoi Forrest se met-il à courir à travers les États-Unis ?",
-            "image": null,
-            "imagePrompt": "Forrest Gump running across America",
-            "answers": [
-                "Pour battre un record",
-                "Parce qu’il ne sait plus quoi faire de sa vie",
-                "Pour récolter de l’argent",
-                "Pour rejoindre Jenny à New York"
-            ],
-            "correctIndex": 1,
-            "explanation": "Après le départ de Jenny, Forrest commence à courir presque sans raison précise, simplement parce qu’il en ressent le besoin."
-        },
-        {
-            "id": "16",
-            "question": "Quel président américain Forrest rencontre-t-il après ses exploits en football universitaire ?",
-            "image": null,
-            "imagePrompt": "Forrest Gump meets president Kennedy",
-            "answers": [
-                "Richard Nixon",
-                "John F. Kennedy",
-                "Lyndon B. Johnson",
-                "Gerald Ford"
-            ],
-            "correctIndex": 1,
-            "explanation": "Forrest rencontre John F. Kennedy après avoir été remarqué pour ses performances sportives à l’université."
-        },
-        {
-            "id": "17",
-            "question": "Quel objet revient visuellement au début et à la fin du film ?",
-            "image": null,
-            "imagePrompt": "feather Forrest Gump opening scene",
-            "answers": [
-                "Une chaussure",
-                "Une plume",
-                "Une montre",
-                "Une casquette"
-            ],
-            "correctIndex": 1,
-            "explanation": "La plume qui vole dans les airs encadre le récit et symbolise à la fois le hasard, le destin et la légèreté du parcours de Forrest."
-        },
-        {
-            "id": "18",
-            "question": "Comment s’appelle le fils de Forrest ?",
-            "image": null,
-            "imagePrompt": "Forrest Gump and son",
-            "answers": [
-                "Forrest Junior",
-                "Tommy",
-                "Bubba Junior",
-                "Daniel"
-            ],
-            "correctIndex": 0,
-            "explanation": "Le fils de Forrest s’appelle aussi Forrest, souvent appelé Forrest Junior par les spectateurs."
-        },
-        {
-            "id": "19",
-            "question": "Quel acteur incarne le lieutenant Dan ?",
-            "image": null,
-            "imagePrompt": "Gary Sinise Lieutenant Dan portrait",
-            "answers": [
-                "Ed Harris",
-                "Gary Oldman",
-                "Gary Sinise",
-                "Kevin Bacon"
-            ],
-            "correctIndex": 2,
-            "explanation": "Gary Sinise interprète le lieutenant Dan avec intensité, dans l’un des rôles les plus mémorables du film."
-        },
-        {
-            "id": "20",
-            "question": "Quel prix prestigieux Forrest Gump remporte-t-il notamment lors de la saison des récompenses ?",
-            "image": null,
-            "imagePrompt": "Forrest Gump Oscars",
-            "answers": [
-                "La Palme d’or",
-                "L’Oscar du meilleur film",
-                "Le Lion d’or",
-                "Le César du meilleur film étranger"
-            ],
-            "correctIndex": 1,
-            "explanation": "Forrest Gump remporte l’Oscar du meilleur film, confirmant son statut de classique majeur du cinéma américain."
-        }
-    ]
 }
